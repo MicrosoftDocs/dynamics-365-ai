@@ -33,6 +33,9 @@ Overview content.
 ## Workflow
 Present an overview of the workflow process.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/workflow720.png "Workflow phases for AI for Customer Insights")
+
 ## Selecting a business category
 Content.
 
