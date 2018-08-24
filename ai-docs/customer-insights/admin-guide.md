@@ -1,5 +1,5 @@
 ---
-title: "Quick Start: Dynamics 365 AI for Customer Insights | MicrosoftDocs"
+title: "Preview: Admin Guide | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Quick Start: Dynamics 365 AI for Customer Insights
+# Preview: Admin Guide
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,22 +28,20 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## Introducing Dynamics 365 AI for Customer Insights
-Intro content.
+## Ingest
+o	Connectors (sources that are not supported by the CDM template)
+o	Go deep on .csv files
 
-## Installing AI for Customer Insights
-Installation content.
-
-## Workflow
-Present an overview of the workflow process.
-
-## Selecting a business category
+## Massaging the data
 Content.
 
-## Ingest
-Data ingestion intro and process.
+### Map
+Content.
 
-## Search and browse customer
+### Match
+Content.
+
+### Conflate
 Content.
 
 ## Enrichment
@@ -51,6 +49,9 @@ due to OOB rules automatically happens but we can link it to the chosen category
 
 ## Insights
 top paying/engaged/etc customers, KPIs, other details
+
+## Ingest
+Data ingestion intro and process.
 
 ## Segmentation
 o	Work with operators to produce segments (both static and dynamic segments)
@@ -69,6 +70,9 @@ Content.
 Content.
 
 ### PowerApps and Flow
+Content.
+
+### Other connectors
 Content.
 
 ## Administration

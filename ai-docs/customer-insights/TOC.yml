@@ -1,8 +1,10 @@
 - name: "Private Preview: Dynamics 365 AI for Customer Insights"
-  href: quick-start.md 
-  # items:
-  # - name: Get Help + Support 
-  #   href: get-help-support.md
+  href: introduction.md 
+  items:
+- name: Quick Start Guide
+  href: quick-start.md
+- name: Admin Guide
+  href: admin-guide.md
   # - name: View analytics
   #   items:
   #   - name: Common Data Service analytics
