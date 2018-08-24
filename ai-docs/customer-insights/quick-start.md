@@ -28,4 +28,49 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Stub topic.
+## Introducing Dynamics 365 AI for Customer Insights
+
+Intro content.
+
+## Installing AI for Customer Insights
+
+Installation content.
+## Workflow
+Present an overview of the workflow process.
+
+## Selecting a business category
+Content.
+
+## Ingest
+Data ingestion intro and process.
+
+## Search and browse customer
+Content.
+
+## Enrichment
+due to OOB rules automatically happens but we can link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+
+## Insights
+top paying/engaged/etc customers, KPIs, other details
+
+## Segmentation
+o	Work with operators to produce segments (both static and dynamic segments)
+o	Act (export segments)
+
+## Extensibilities
+Content.
+
+### APIs
+Content.
+
+### Power BI
+Content.
+
+### Custom apps
+Content.
+
+### PowerApps and Flow
+Content.
+
+## Administration
+Content.
