@@ -29,5 +29,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## Introducing Dynamics 365 AI for Customer Insights
-
 Intro content.
+
+## Installing AI for Customer Insights
+Content.

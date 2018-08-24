@@ -28,11 +28,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## Introducing Dynamics 365 AI for Customer Insights
-Intro content.
-
-## Installing AI for Customer Insights
-Installation content.
+Overview content.
 
 ## Workflow
 Present an overview of the workflow process.

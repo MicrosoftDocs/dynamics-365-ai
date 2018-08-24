@@ -1,5 +1,5 @@
 ---
-title: "Preview: Admin Guide | MicrosoftDocs"
+title: "Admin Guide | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Preview: Admin Guide
+# Admin Guide
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
