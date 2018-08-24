@@ -1,3 +1,3 @@
 ---
-redirect_url: /ai-docs/customer-insights/quick-start
+redirect_url: /dynamics365/ai/customer-insights/quick-start
 ---
