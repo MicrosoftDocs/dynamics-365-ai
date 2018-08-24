@@ -1,1 +1,3 @@
-# Welcome to Dynamics 365 AI for Customer Insights
+---
+redirect_url: /ai-docs/customer-insights/quick-start
+---
