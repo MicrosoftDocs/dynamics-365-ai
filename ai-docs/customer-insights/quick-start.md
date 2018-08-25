@@ -32,18 +32,26 @@ Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables
 
 Use this guide to get a quick introduction to the basic features of AI for Customer Insights and come away equipped to use this tool with your data to create actionable insights.
 
-
-
-
-
 ## Select a business category
-Content.
+Once you've installed AI for Customer Insights, the first thing you do is select a business category that matches your industry.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/choose-business-category720.png "Select a business category")
+
+Select **More categories** to choose from more industries. 
+
+[insert image]
+
+Sample customer data based on your selection appears on the opening dashboard. Insights are built from the sample data automatically. Explore these insights to get an idea of what AI for Customer Insights can provide.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/customers-dashboard720.png "Insights based on sample data for selected category")
 
 ## Workflow
 Present an overview of the workflow process.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/workflow720.png "Workflow phases for AI for Customer Insights")
+> ![](media/workflow720.png "Workflow phases")
 
 This will need to be revised for the following.
 
