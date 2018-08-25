@@ -48,7 +48,8 @@ For AI for Customer Insights, you should meet the following prerequisites:
 **Data source** - Currently, two data sources are supported. 
 
 - A Dynamics 365 (online) instance. If you don't have a subscription, you can start a free trial. See [Try Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/customer-engagement/admin/try-dynamics-365-online).
-- SalesForce
+- Salesforce
 
 ## Installing AI for Customer Insights
-Content.
+User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
+Show how user discovers app on AppSource

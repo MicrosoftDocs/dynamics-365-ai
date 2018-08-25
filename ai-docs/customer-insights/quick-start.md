@@ -32,7 +32,11 @@ Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables
 
 Use this guide to get a quick introduction to the basic features of AI for Customer Insights and come away equipped to use this tool with your data to create actionable insights.
 
-## Selecting a business category
+
+
+
+
+## Select a business category
 Content.
 
 ## Workflow
@@ -44,23 +48,41 @@ Present an overview of the workflow process.
 This will need to be revised for the following.
 
 ## Ingest
-Data ingestion intro and process.
+you can also bring in even more data to build a richer customer profile
+Show how a user can bring in transactional from a data source that does not have a data integration template to bring it into CDM (e.g. custom database for survey responses)
+Show how user can bring in data from website clickstream data
 
 ## Search and browse customer
-Content.
+C360 analyzes and builds unified customer profiles
+Show how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
+
 
 ## Enrichment
 due to OOB rules automatically happens but we can link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+User can enrich C360 with MSFT data & AI/ML
+Show how a user can add MSFT Proprietary data (e.g. Bing aggregated insights)
+Show how a user can add enrichment based on OOB Business AI templates – e.g. Churn, Customer lifetime value, Predictive Score, etc or custom ML models
+
 
 ## Insights
 top paying/engaged/etc customers, KPIs, other details
+User can view insights through C360 app + APIs
+Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
+
 
 ## Segmentation
 o	Work with operators to produce segments (both static and dynamic segments)
 o	Act (export segments)
 
+User is able do segmentation atop CDS-A profiles
+Show how a user can analyze CDS-A customer profiles/relationships/interactions and export the results as segments to other apps (e.g. CSV file)
+Show how we enable developers to query customer profiles from CDS-A and build into app experience (e.g. a Dynamics 365 for Marketing)
+
 ## Extensibilities
-Content.
+User can drive insights in Customer360 to action
+Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
+Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
+
 
 ### APIs
 Content.
