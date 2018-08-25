@@ -53,3 +53,6 @@ For AI for Customer Insights, you should meet the following prerequisites:
 ## Installing AI for Customer Insights
 User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
 Show how user discovers app on AppSource
+
+> [!div class="mx-imgBorder"] 
+> ![](media/get-customer-insights720.png "Get AI for Customer Insights")
