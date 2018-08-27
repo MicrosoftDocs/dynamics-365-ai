@@ -56,13 +56,40 @@ Present an overview of the workflow process.
 This will need to be revised for the following.
 
 ## Ingest
+To bring in your company's data, select **Load my customer data** on the Customers dashboard page.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/load-customer-data75.png "Select Load my customer data")
+
+Select a data source. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/choose-data-source75.png "Choose a data source")
+
+
 you can also bring in even more data to build a richer customer profile
 Show how a user can bring in transactional from a data source that does not have a data integration template to bring it into CDM (e.g. custom database for survey responses)
 Show how user can bring in data from website clickstream data
 
 ## Search and browse customer
+Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-profiles75.png "Generated customer profiles")
+
+Select **View more** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/view-more-customers.png "View more customers")
+
+You can use the customer profiles page to filter and sort the profiles.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/filter-sort.png "Filter and sort customer profiles")
+
 C360 analyzes and builds unified customer profiles
 Show how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
+
 
 
 ## Enrichment
