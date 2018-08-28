@@ -1,0 +1,15 @@
+- name: "Preview: Dynamics 365 AI for Customer Insights"
+  href: introduction.md 
+  items:
+- name: Quick Start Guide
+  href: quick-start.md
+- name: Advanced Guide
+  href: advanced-guide.md
+  # - name: View analytics
+  #   items:
+  #   - name: Common Data Service analytics
+  #     href: analytics-common-data-service.md
+  #   - name: Microsoft Flow analytics
+  #     href: analytics-flow.md
+  #   - name: PowerApps analytics
+  #     href: analytics-powerapps.md
