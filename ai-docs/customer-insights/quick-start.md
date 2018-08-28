@@ -38,7 +38,7 @@ Once you've installed AI for Customer Insights, the first thing you do is select
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-business-category720.png "Select a business category")
 
-Select **More categories** to choose from more industries. 
+Select **More categories** to choose from more industries or business functions. 
 
 [insert image]
 
@@ -95,19 +95,22 @@ What's in the sort list depends on the category you selected earlier and the pro
 C360 analyzes and builds unified customer profiles
 Show how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
 
-
-
 ## Enrichment
-due to OOB rules automatically happens but we can link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
-User can enrich C360 with MSFT data & AI/ML
-Show how a user can add MSFT Proprietary data (e.g. Bing aggregated insights)
-Show how a user can add enrichment based on OOB Business AI templates – e.g. Churn, Customer lifetime value, Predictive Score, etc or custom ML models
+due to OOB rules automatically happens but we can:
+- link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+- Talk about unlocking more insights by enriching with Microsoft Graph data
+- Let go on this part for the 5*5
 
 
 ## Insights
 top paying/engaged/etc customers, KPIs, other details
 User can view insights through C360 app + APIs
 Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
+
+Possibly: OOB Business AI templates – e.g. Churn, Customer lifetime value, Predictive Score, etc or custom ML models
+
+> [!div class="mx-imgBorder"] 
+> ![](media/insights-powerbi.png "Insights through Power BI")
 
 
 ## Segmentation
@@ -117,6 +120,19 @@ o	Act (export segments)
 User is able do segmentation atop CDS-A profiles
 Show how a user can analyze CDS-A customer profiles/relationships/interactions and export the results as segments to other apps (e.g. CSV file)
 Show how we enable developers to query customer profiles from CDS-A and build into app experience (e.g. a Dynamics 365 for Marketing)
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-page.png "Segmentation page")
+
+### Static segments
+Content.
+
+### Dynamic segments
+Content.
+
+### Create a segment
+Content.
+
 
 ## Extensibilities
 User can drive insights in Customer360 to action
@@ -133,8 +149,14 @@ Content.
 ### Custom apps
 Content.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/custom-app.png "Custom app")
+
 ### PowerApps and Flow
 Content.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/powerapps-flow.png "Flow")
 
 ## Administration
 Content.
