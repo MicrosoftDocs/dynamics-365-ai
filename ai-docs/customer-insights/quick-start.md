@@ -87,6 +87,11 @@ You can use the customer profiles page to filter and sort the profiles.
 > [!div class="mx-imgBorder"] 
 > ![](media/filter-sort.png "Filter and sort customer profiles")
 
+What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/sort-list.png "Sort list")
+
 C360 analyzes and builds unified customer profiles
 Show how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
 
