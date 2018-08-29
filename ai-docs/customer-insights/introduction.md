@@ -42,12 +42,12 @@ Harness the power of AI for Customer Insights to:
 
 For AI for Customer Insights, you don’t need a Power BI account. You are only required to meet the following prerequisites:
 
-**AI for Customer Insights app** – download the app either from AppSource [to add link] or from the following page [to add marketing page link]
+- **AI for Customer Insights app** – download the app either from AppSource [to add link] or from the following page [to add marketing page link]
 
-**Data source** - Currently, two data sources are supported: 
+- **Data source** - Currently, two data sources are supported: 
 
-- A Dynamics 365 (online) instance. If you don't have a subscription, you can start a free trial. See [Try Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/customer-engagement/admin/try-dynamics-365-online).
-- Salesforce
+  - A Dynamics 365 (online) instance. If you don't have a subscription, you can start a free trial. See [Try Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/customer-engagement/admin/try-dynamics-365-online).
+  - Salesforce account
 
 ## Installing AI for Customer Insights
 [User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
