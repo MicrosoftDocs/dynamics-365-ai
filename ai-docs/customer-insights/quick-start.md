@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Quick Start: Dynamics 365 AI for Customer Insights
+# Quick Start: Dynamics 365 AI for Customer Insights 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
