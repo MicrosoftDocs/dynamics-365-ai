@@ -29,21 +29,20 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## Introducing Dynamics 365 AI for Customer Insights
-Turning customer data into actual actionable insights can be difficult, complicated and expensive from several well-known and yet unsolvable reasons. Among these are the overwhelming amounts of data organizations manage, the dispersed and conflicting nature of this multiple-source data, the rapidly changing behaviors of customers, and the lack of both unique and actionable insights.
+Turning customer data into actual actionable insights can be difficult, complicated and expensive from several well-known and yet unsolvable reasons. Among these are the overwhelming amounts of data organizations manage, the dispersed and conflicting nature of this multiple-source data, the rapidly changing behaviors of customers, and the lack of both unique and actionable insights to act upon.
 
-Today, your customers expect relevant and tailored experiences. With AI for Customer Insights, you can immediately start extracting rich insights from your data, no matter how dispersed and limited it was, so you can  engage customers in highly-personalized and effective ways without the need for a data mining specialist.
+Today, your customers expect relevant and tailored experiences. With AI for Customer Insights, you can immediately start extracting rich insights from your data, no matter how dispersed and ambiguous it is, so you can  engage customers in highly-personalized and effective ways without the need for a data mining specialist.
 
 Harness the power of AI for Customer Insights to:
-
-- Merge all of your data into a 360-angle view on your customers, displayed in an easy-to-use and visualization-rich dashboard.
-- Empower your employees with actionable customer insights.
-- Get both quick results via complete SaaS solution with pre-packaged analytics, and unique results via machine learning capabilities.
+- Combine all your data and gain a 360-angle view on your customers, displayed in an easy-to-use and visualization-rich dashboard
+- Empower your employees with actionable customer insights
+- Get both quick results via complete SaaS solution with pre-packaged analytics, and more in-depth results via machine-learning capabilities
 
 ## Prerequisites
 
 For AI for Customer Insights, you don’t need a Power BI account. You are only required to meet the following prerequisites:
 
-**AI for Customer Insights app** – download the app either from AppSource (to add link) or from the following page (to add marketing page link).
+**AI for Customer Insights app** – download the app either from AppSource [to add link] or from the following page [to add marketing page link]
 
 **Data source** - Currently, two data sources are supported: 
 
@@ -51,8 +50,8 @@ For AI for Customer Insights, you don’t need a Power BI account. You are only 
 - Salesforce
 
 ## Installing AI for Customer Insights
-User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
-Show how user discovers app on AppSource
+[User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
+Show how user discovers app on AppSource]
 
 > [!div class="mx-imgBorder"] 
 > ![](media/get-customer-insights720.png "Get AI for Customer Insights")
