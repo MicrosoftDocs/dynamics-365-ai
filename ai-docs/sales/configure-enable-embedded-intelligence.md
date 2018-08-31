@@ -30,7 +30,7 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 |--|--|
 | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] | <ul><li>Relationship assistant</li> <li>Email engagement</li> <li>Auto capture</li></ul>|
 | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises) | <ul><li>Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>|
-|[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Relationship assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
+|[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Relationship assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
 ## How to enable embedded intelligence 
 As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable embedded intelligence for your organization to:
@@ -43,9 +43,9 @@ As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, 
 To enable the embedded intelligence:
 
 1. Go to **Settings** > **Intelligence Configuration**.<br>
-![Select Intelligence configuration](../sales-enterprise/media/intelligence-configuration-option.png "Select Intelligence configuration") <br>
+![Select Intelligence configuration](media/intelligence-configuration-option.png "Select Intelligence configuration") <br>
 2. On the **Overview** tab, select **I Accept** to accept the privacy statement for **Embedded intelligence**.<br>
-![Accept privacy statement of Embedded intelligence](../sales-enterprise/media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
+![Accept privacy statement of Embedded intelligence](media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
 
 Embedded intelligence is enabled for your organization and you can configure features such as Relationship assistant, Email engagement, and Auto capture.
 
@@ -76,17 +76,17 @@ Assign user privileges to give access to the Relationship assistant features. Th
 
 1. Go to **Settings** > **Intelligence Configuration**.
 2. To open the Relationship assistant configuration page, select **Configure** on the **Relationship assistant** tile or select the **Relationship assistant** tab.<br>
-   ![Select Relationship assistant configuration](../sales-enterprise/media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
+   ![Select Relationship assistant configuration](media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
 3. Configure which cards to use in your organization and fine tune their behavior. Work with these settings as follows:
    - Cards are categorized by type, such as **Base** and **Advanced**.
    - Enable or disable specific action cards as needed by using the check boxes provided for each card.
    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
-   ![Relationship assistant configuration page](../sales-enterprise/media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
+   ![Relationship assistant configuration page](media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
    4.  To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
    <!-- add image -->
 4. On top of the page, select **Save** to save your settings.<br> 
 
-Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../sales-enterprise/relationship-assistant.md)
+Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](relationship-assistant.md)
 
 ## Enable Email engagement
 Enabling the Email engagement helps the user in your organization to receive alerts and reminders that help build customer relationships.
@@ -113,7 +113,7 @@ Verify the following prerequisites before enabling Email engagement for your org
 
     > [!NOTE]
     > To enable or disable **Email engagement**, use the **Enable** toggle key.<br>
-    >  ![Enable or disable Email engagement](../sales-enterprise/media/email-engagement-enable-disable.png "Enable or disable Email engagement") 
+    >  ![Enable or disable Email engagement](media/email-engagement-enable-disable.png "Enable or disable Email engagement") 
 
 ## Enable Auto capture
 
@@ -132,13 +132,13 @@ Verify the following prerequisites before enabling Auto capture for your organiz
 
 ### How to enable Auto capture
 After you accept the privacy statement for embedded intelligence, Auto capture is enabled by default. If it's not enabled, select the toggle button to enable Auto capture.<br>
-![Enable or disable Auto capture](../sales-enterprise/media/auto-capture-enable-disable.png "Enable or disable Auto capture")
+![Enable or disable Auto capture](media/auto-capture-enable-disable.png "Enable or disable Auto capture")
 
 >[!NOTE]
-> For more information about Auto capture and how it can help your users, see [Auto capture](../sales-enterprise/auto-capture.md)
+> For more information about Auto capture and how it can help your users, see [Auto capture](auto-capture.md)
 
 ### See also
 
-[Guide customer communications](../sales-enterprise/relationship-assistant.md)
-[View message interactions](../sales-enterprise/email-engagement.md)
-[Display emails](../sales-enterprise/auto-capture.md)
+-  [Guide customer communications](relationship-assistant.md)
+-  [View message interactions](email-engagement.md)
+-  [Display emails](auto-capture.md)

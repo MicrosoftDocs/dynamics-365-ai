@@ -27,7 +27,7 @@ Applies to Dynamics 365 (online), version 9.0.2<br><br/>
 Predictive lead scoring helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into an opportunity. These leads are displayed in a system view—and when you select a lead, you can view reasons and influences of that lead to further analyze and build a strategy and turn the lead into an opportunity.
 
 > [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)
+> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)
 
 ## Understand predective lead scoring in views
 When the Predictive lead scoring is enabled in your organization, you can use the My Open Leads Scored system view. This view gives you a list of leads that can be converted into opportunities.<br>
@@ -46,7 +46,7 @@ The numbered columns are:
 
 In forms, you can use the Lead Score widget to see the top ten reasons that affect how coming leads and related entities are impacting the lead score. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity. <br>
 The following screen displays a typical Lead Score widget with reasons that are influencing the lead score. <br>
-![Predective lead score widget](../sales-enterprise/media/predictive-lead-scoring-widget.png "Predective lead score widget")
+![Predective lead score widget](media/predictive-lead-scoring-widget.png "Predective lead score widget")
 
 The numbered sections are:
 1.	**Basic Information.** Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
@@ -57,4 +57,4 @@ The numbered sections are:
 
 ### See also 
 
-[Configure and enable sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)    
+[Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)    

@@ -33,7 +33,7 @@ Sales insights add-on constains the following features:
 - Relationship analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship analytics](relationship-analytics.md)
   <!--- Predective lead scoring. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predictive lead scoring](work-predictive-lead-scoring.md)--> 
 
-The feature [**Relationship Analytics**](../sales-enterprise/relationship-analytics.md) <!--and **Predictive Lead Scoring** are--> is available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
+The feature [**Relationship Analytics**](/relationship-analytics.md) <!--and **Predictive Lead Scoring** are--> is available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
   
 A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
@@ -47,4 +47,4 @@ A preview feature is a feature that is not complete, but is made available befor
 
 ### See also
 
-[Configure and enable Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md) 
+[Configure and enable Sales insights add-on](configure-enable-sales-insights-addon.md) 

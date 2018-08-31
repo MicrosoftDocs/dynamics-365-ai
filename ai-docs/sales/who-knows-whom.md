@@ -89,4 +89,4 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
 ### See also
 
-[Configure and enable sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)    
+[Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)    
