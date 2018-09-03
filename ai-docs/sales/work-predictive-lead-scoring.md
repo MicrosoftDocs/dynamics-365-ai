@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: f5f685e2-ea1b-4c1c-8a68-857160e22fb3
 author: udaykirang
 ms.author: udag
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
