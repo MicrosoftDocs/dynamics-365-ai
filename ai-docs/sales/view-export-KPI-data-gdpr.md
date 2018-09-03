@@ -27,7 +27,7 @@ View KPI data for account, contact, lead, and opportunity using system views, an
 - **Opportunity KPI Items**
 
 > [!NOTE]
-> This topic is applicable only for the [Relationship Analytics](../sales-enterprise/relationship-analytics.md) feature.
+> This topic is applicable only for the [Relationship Analytics](/dynamics365/customer-engagement/sales-enterprise/relationship-analytics.md) feature.
 
 You can use the system views for these entities or create your own views to view the data.
 
@@ -38,13 +38,13 @@ You can use the system views for these entities or create your own views to view
 1.  Specify the columns to include in the view by selecting **Edit Columns**, and then selecting the columns to display.
 2. Select **Results** to view the data.
 
-For detailed information about using Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)
+For detailed information about using Advanced Find, see [Create, edit, or save an Advanced Find search](/dynamics365/customer-engagement/basics/save-advanced-find-search.md)
 
 After viewing the results, you can export data to Microsoft Excel, if required. You can do so by selecting the export to Excel option from the command bar.
 
 ![](media/export-excel-gdpr.png)
 
-For more information about exporting data from dynamics 365 Customer Engagement to excel, see [Export data to Excel](../basics/export-data-excel.md)
+For more information about exporting data from dynamics 365 Customer Engagement to excel, see [Export data to Excel](/dynamics365/customer-engagement/basics/export-data-excel.md)
 
 ## See also
 

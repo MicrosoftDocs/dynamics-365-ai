@@ -25,8 +25,8 @@ A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optou
 - Setting the **GDPR Optout** field to "no/false" will allow relationship analytics to be performed on the entity record's data.
 
 > [!NOTE]
-> - For the [Auto Capture](../sales-enterprise/auto-capture.md) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms, or any entity form which has these Contact/Lead records as their linked or related entity.
-> - This topic is applicable only for the [Relationship Analytics](../sales-enterprise/relationship-analytics.md) and [Auto Capture](../sales-enterprise/auto-capture.md) features.
+> - For the [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture.md) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms, or any entity form which has these Contact/Lead records as their linked or related entity.
+> - This topic is applicable only for the [Relationship Analytics](/dynamics365/customer-engagement/sales-enterprise/relationship-analytics.md) and [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture.md) features.
 
 ## Setting the GDPR Optout field using UI
 
@@ -34,7 +34,7 @@ By default, the **GDPR Optout** field is not available on the Contact, Lead and 
 
 ![](media/gdpr-optout-field.png)
 
-For information about adding field to a form, see [Add a field to a form](../customize/add-field-form.md)
+For information about adding field to a form, see [Add a field to a form](/dynamics365/customer-engagement/customize/add-field-form.md)
 
 ## Setting the msdyn_gdproptout attribute value using code
 
@@ -50,7 +50,7 @@ You can also programmatically set or update the value of the **msdyn_gdproptout*
     {"value": true}
     ```
 
-    For more information about updating records using Web API, see [Update and delete entities using the Web API](../developer/webapi/update-delete-entities-using-web-api.md)
+    For more information about updating records using Web API, see [Update and delete entities using the Web API](/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api.md)
 
 - **Organization service**: You can use the early or late bound programming style to update an attribute. The following example demonstrates how to update the `msdyn_gdproptout` attribute value to **true** for a contact record using late bound programming style.
 
@@ -70,7 +70,7 @@ You can also programmatically set or update the value of the **msdyn_gdproptout*
    _orgService.Update(contact);  
     ```
 
-For more examples of using the early or late bound programming style, see [Use the early-bound entity classes for create, update, and delete](../developer/org-service/use-early-bound-entity-classes-create-update-delete.md) and [Use the Entity class for create, update and delete](../developer/org-service/use-entity-class-create-update-delete.md).
+For more examples of using the early or late bound programming style, see [Use the early-bound entity classes for create, update, and delete](/dynamics365/customer-engagement/developer/org-service/use-early-bound-entity-classes-create-update-delete.md) and [Use the Entity class for create, update and delete](/dynamics365/customer-engagement/developer/org-service/use-entity-class-create-update-delete.md).
 
 
 ### See also

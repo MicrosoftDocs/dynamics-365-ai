@@ -23,7 +23,7 @@ Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve 
 
 > [!NOTE]
 > - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../developer/create-own-actions.md#generate-early-bound-types-for-an-action)
-> - This topic is applicable only for the [Relationship Analytics](../sales-enterprise/relationship-analytics.md) feature.
+> - This topic is applicable only for the [Relationship Analytics](/dynamics365/customer-engagement/sales-enterprise/relationship-analytics.md) feature.
 
 ## Action parameters
 
@@ -441,6 +441,6 @@ OData-Version: 4.0
 
 ### See also
 
-[Use Web API actions](../developer/webapi/use-web-api-actions.md)
+[Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions.md)
 
 [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
