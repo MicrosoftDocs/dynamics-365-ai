@@ -232,6 +232,6 @@ In addition to the absolute health score, the system also reports the general tr
 
 ### See also  
  
--  [What are Preview features?](../admin/what-are-preview-features-how-do-i-enable-them.md) 
+-  [What are Preview features?](/dynamics365/customer-engagement/admin/what-are-preview-features-how-do-i-enable-them.md) 
 -  [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)  
 -  [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)    

@@ -77,7 +77,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
 ## Create and send followed email message  
   
 > [!NOTE]
->  This section describes how to work with email engagement features in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
+>  This section describes how to work with email engagement features in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 App for Outlook User's Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
   
  When email engagement is enabled for your site, all of the controls required to create and send an email with some or all of its  features enabled are available on the **New Email** page, as shown in the following figure. This page is shown whenever you create an email in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
@@ -145,7 +145,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 6.  When you are ready to send the message, seelct **Send** (or seelct **Save** if you want to save a draft and finish it later).  
   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create templates for email](../admin/create-templates-email.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create templates for email](/dynamics365/customer-engagement/admin/create-templates-email.md)  
   
 <a name="EnableTrackingOnMessages"></a>   
 
