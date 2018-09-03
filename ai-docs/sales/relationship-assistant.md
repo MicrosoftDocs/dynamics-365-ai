@@ -38,7 +38,7 @@ Watch this short video about the Dynamics 365 Relationship assistant<br>
 
  When you start your day by signing in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   
- ![Relationship assistant carousel on a dashboard](../media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
+ ![Relationship assistant carousel on a dashboard](media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
   
  The figure shows a typical dashboard that includes the relationship assistant carousel. It highlights the following elements:  
   
