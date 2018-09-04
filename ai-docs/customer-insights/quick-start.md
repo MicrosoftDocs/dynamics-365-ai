@@ -144,8 +144,7 @@ This menu includes three tabs. The tabs that are used for segment creation are t
    - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
      botton, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in 
      the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.            - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
-       -
-       -
+       
      [divS5]
 
 
