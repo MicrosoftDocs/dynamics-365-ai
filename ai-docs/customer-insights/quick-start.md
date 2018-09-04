@@ -114,6 +114,22 @@ Possibly: OOB Business AI templates – e.g. Churn, Customer lifetime value, Pre
 
 
 ## Segmentation
+There are three available segmentation types: Static Segments, Dynamic Segments, and Customized Segments. Moreover, you might create those segments and explore them either from the left bar menu or from the Customers Page. These optionas are described below.
+
+# Creating and Exploring Segments from the Left Bar Menu
+This menu includes three tabs. Note: the Dynamics Segment and Static Segment tabs will appear upon clikcing the Segmentation tab.
+
+- Static Segment Page: Clicking the Static Segment tab will open this page. Here you can create sophisticated segments of your customers with minimum effort.jSUFSufoudsfh
+
+- Dynamic Segments tab
+
+- Static segments tab
+
+# Creating from the Customers Page
+
+# Exploring the Segment Page
+
+
 o	Work with operators to produce segments (both static and dynamic segments)
 o	Act (export segments)
 
