@@ -92,8 +92,7 @@ What's in the sort list depends on the category you selected earlier and the pro
 > [!div class="mx-imgBorder"] 
 > ![](media/sort-list.png "Sort list")
 
-C360 analyzes and builds unified customer profiles
-Show how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
+C360 analyzes and builds unified customer profilesShow how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
 
 ## Enrichment
 due to OOB rules automatically happens but we can:
@@ -117,17 +116,24 @@ Possibly: OOB Business AI templates – e.g. Churn, Customer lifetime value, Pre
 There are three available segmentation types: *Static Segments*, *Dynamic Segments*, and *Customized Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
 
 ### Creating Segments from the Left Menu Bar
-This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment* tabs.
+This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
 
 - **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. 
 
    - We start by defining the segment's properties: We will give our segment a name and description, choose whether it's a segment that
      is created for accounts (---) or contacts (---), and ensure to leave the Dynamic switch in "off" state since it is a static 
      segment: 
+     
+   - In step two, we will add our first filter. Upon clicking the "filter" bar an entity can be selected. Once we selected an entity 
+     type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have one of three value
+     types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a filter:
+     
+   - In step three, which is optional, we will add more rules to our filter. Two roles are available on the entity level: **And** and
+     **Or**.   
 
 [picS1]
 
-   - In step two,  
+ 
    
 
 [picS2]
