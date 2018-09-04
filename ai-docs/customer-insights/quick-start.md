@@ -28,7 +28,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. AI for Customer Insights delivers the ability to connect to transactional data sources and model profiles of customers and their interactions. It enables organizations to generate insights through key performance indicators (KPIs) about their business. Customer Insights transforms profiles, interactions, and KPIs into rich visuals that you can customize and organize to focus on what matters to you.
+Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. AI for Customer Insights delivers the ability to connect to transactional data sources and model profiles of customers and their interactions. It enables organizations to generate unique insights about their customers which they can tuen to clear actions from day one. Customer Insights transforms profiles, interactions, and KPIs into rich visuals that you can customize and organize to focus on what matters to you.
 
 Use this guide to get a quick introduction to the basic features of AI for Customer Insights and come away equipped to use this tool with your data to create actionable insights.
 
@@ -68,8 +68,8 @@ Select a data source.
 
 
 you can also bring in even more data to build a richer customer profile
-Show how a user can bring in transactional from a data source that does not have a data integration template to bring it into CDM (e.g. custom database for survey responses)
-Show how user can bring in data from website clickstream data
+
+[For advanced: Show how a user can bring in transactional from a data source that does not have a data integration template to bring it into CDM (e.g. custom database for survey responses). Also show how user can bring in data from website clickstream data]
 
 ## Search and browse customer
 Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
@@ -95,10 +95,11 @@ What's in the sort list depends on the category you selected earlier and the pro
 C360 analyzes and builds unified customer profilesShow how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
 
 ## Enrichment
-due to OOB rules automatically happens but we can:
-- link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+[due to OOB rules automatically happens]
+[Note (28.8): We can either:
+- Link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
 - Talk about unlocking more insights by enriching with Microsoft Graph data
-- Let go on this part for the 5*5
+- Or let go on this part for the 5*5]
 
 ## Insights
 top paying/engaged/etc customers, KPIs, other details
@@ -119,30 +120,34 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 - **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. 
 
+[divS1]
+
    - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
      that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic (blue) switch in "off" state since it is a 
      static segment: 
      
+     [divS2]
+     
    - **In step two, we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
      selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a 
      filter:
+     
+     [divS3]
      
    - **In step three, which is optional, we will add two rules to our filter**. Two roles are available on the entity level: 
      ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
      creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
      attribute):
      
+     [divS4]
+     
    - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
      botton, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in 
      the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.            - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
-      
+       -
+       -
+     [divS5]
 
-[picS1]
-
- 
-   
-
-[picS2]
 
 - Dynamic Segments Page:
 
