@@ -118,7 +118,7 @@ There are three available segmentation types: *Static Segments*, *Dynamic Segmen
 ### Creating Segments from the Left Menu Bar
 This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
 
-- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. 
+- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. Cases that fit static segments are for example: 1. , 2.
 
 [divS1]
 
@@ -148,9 +148,7 @@ This menu includes three tabs. The tabs that are used for segment creation are t
      [divS5]
 
 
-- Dynamic Segments Page:
-
-- Static segments Page:
+- **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Cases that fit dynamic segments are for example: 1. , 2.
 
 ### Creating Segments from the Customers Page
 
