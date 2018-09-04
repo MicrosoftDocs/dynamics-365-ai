@@ -120,14 +120,14 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 - **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. 
 
    - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
-     that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic switch in "off" state since it is a static 
-     segment: 
+     that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic (blue) switch in "off" state since it is a 
+     static segment: 
      
    - **In step two, we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
      selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a 
      filter:
      
-   - **In step three, which is optional, **we will add two rules to our filter**. Two roles are available on the entity level: 
+   - **In step three, which is optional, we will add two rules to our filter**. Two roles are available on the entity level: 
      ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
      creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
      attribute):
