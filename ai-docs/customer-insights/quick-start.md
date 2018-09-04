@@ -119,20 +119,23 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 - **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. 
 
-   - We start by **defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
+   - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
      that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic switch in "off" state since it is a static 
      segment: 
      
-   - In step two, **we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
-     selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a filter:
+   - **In step two, we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
+     selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a 
+     filter:
      
-   - In step three, which is optional, **we will add two rules to our filter**. Two roles are available on the entity level: ***AND*** 
-     and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the creation of 
-     an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time attribute):
+   - **In step three, which is optional, **we will add two rules to our filter**. Two roles are available on the entity level: 
+     ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
+     creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
+     attribute):
      
-   - In step four, we will show **how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
+   - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
      botton, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in 
-     the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.          - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
+     the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.            - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
+      
 
 [picS1]
 
