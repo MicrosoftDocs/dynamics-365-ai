@@ -148,9 +148,15 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 - Static segments Page:
 
-### Creating from the Customers Page
+### Creating Segments from the Customers Page
 
-### Exploring the Segment Page
+### Exploring Segments from the Segmentation Page
+
+### Exploring a Particular Segment from the Segment Page
+
+### Acting Upon the Data: Exporting a Segment
+
+### ? Acting upon the Data: Tying a Segment to Flow
 
 
 o	Work with operators to produce segments (both static and dynamic segments)
