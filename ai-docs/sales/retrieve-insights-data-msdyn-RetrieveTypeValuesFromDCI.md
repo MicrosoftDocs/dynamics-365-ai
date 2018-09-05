@@ -22,8 +22,8 @@ Applies to Dynamics 365 (online), version 9.0.2
 Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an account, contact, lead or opportunity. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Embedded Intelligence.
 
 > [!NOTE]
-> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions.md#generate-early-bound-types-for-an-action)
-> - This topic is applicable only for the [Relationship Analytics](/dynamics365/customer-engagement/sales-enterprise/relationship-analytics.md) feature.
+> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action)
+> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) feature.
 
 ## Action parameters
 
@@ -441,6 +441,6 @@ OData-Version: 4.0
 
 ### See also
 
-[Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions.md)
+[Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
 
 [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)

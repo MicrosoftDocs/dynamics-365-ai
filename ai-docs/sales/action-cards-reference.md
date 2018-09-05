@@ -87,7 +87,7 @@ The following are the list of cards that are available under Basic cards:
 
 > [!IMPORTANT]
 > - These cards only available if you are using [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
-> - You will need to [set up server-side-sync](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).
+> - You will need to [set up server-side-sync](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 The following list of cards are available under Email cards from Exchange:
 
@@ -211,7 +211,7 @@ The following list of cards are available under Email engagement Cards:
 > [!NOTE]
 > - These cards are only available for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. 
 > - These cards are only displayed on mobile devices.  
-> - These cards are not available for the [Microsoft Cloud Germany datacenter](/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-germany.md).
+> - These cards are not available for the [Microsoft Cloud Germany datacenter](/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-germany).
  
 The following list of cards are available under Productivity Cards: 
 
