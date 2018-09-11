@@ -41,24 +41,32 @@ Content.
 
 ### Map
 Once ingested your data, you are ready to unlock the unique identity-resolution features that Dynamics AI for Customer Insights offers.
-In the flow below, you can get a sense for the different relations that exist between your ingested data sources. In Dynamics AI for Customer Insights, those sources are called *Customer Entities*. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
+In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called *Customer Entities*. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
 
-(add configuration screen)
+(add "configuration" screen)
 
 The main goal behind the Map screen below is to go one customer entity at a time, and identify the columns upon which you will want to merge your data. In Dynamics AI for Customer Insights these columns are also called *attributes*. 
 
-(add Map screen)
+(add "Map" screen)
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
-- Primary Key: For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example..
-- Match: Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. examples include customer ID, email address, and many other attributes that you might find in multiple data sources. Moreover, you may want to select attributes even if you expect partial overlap with attributes from other data sources since not-exact matchings will also be available to you as part of the next *Match* stage. 
+- Primary Key: For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a contacts dataset, you may want to assign *customer name* as the unique key for that source, while for a call logs file you may define *phone number* as a unique key.
+- Match: Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. Examples range from customer ID, to email address, to many other attributes that you might find in multiple data sources. Moreover, you may want to select attributes that only partially overlap with attributes from other data sources since not-exact matches will also be available to you as part of the next *Match* stage. 
 - Entity Type: Pre-defined categories under which your attributes fall such as email or name. No action is required here.
-- Normalize: 
+- Normalize: Optional column. Here you can make selection as 
 
-In addition, you have three additional possibilities in the Map screen:
-- Add customer entity
-- Add attributes to existing customer entity
-- Lastly, you have the possiblity to search
+In addition, three additional actions are available in the Map screen:
+- Add customer entity: Available upon clicking the *Add* drop-down menu below (left image). Here you can bring additional data sets from your data sources on the basis of which you wish to match your data. 
+
+(add "Map adding dataset" 3 screens - one next to another)
+
+- Add attributes to existing customer entity: Available upon clicking the *Add* drop-down menu below (left image).
+
+(add "Map add customer field" 3 screens - one next to another)
+
+- Keep unmatched records:
+
+(add "Map keep unmatched records" screen)
 
 
 ### Match
