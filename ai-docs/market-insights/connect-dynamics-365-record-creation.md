@@ -98,7 +98,7 @@ To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.
   
 ## Next steps
 
-Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can [define entity details](manage-connection-dynamics-365-social-engagement.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to specify information for the Social Activity entity that is created when you link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
+Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can [define entity details](manage-connection-dynamics-365-record-creation.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to specify information for the Social Activity entity that is created when you link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
   
  When you are satisfied with the configuration of the entities, configure the **Record Creation Rules** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [records from Social Activity entities](create-dynamics-365-record-from-social-post.md).
    
@@ -110,5 +110,5 @@ Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm
 
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)   
-[Manage the connection between Dynamics 365 and Market Insights](manage-connection-dynamics-365-social-engagement.md)   
+[Manage the connection between Dynamics 365 and Market Insights](manage-connection-dynamics-365-record-creation.md)   
 [Administer Market Insights](settings-administration.md)

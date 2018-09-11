@@ -42,7 +42,7 @@ When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
   
 5. Optionally, you can configure [automation rules](automation-rules.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to create new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records for posts that match a specified data set.   
   
-6. Understand how to [delete or disable a connection](manage-connection-dynamics-365-social-engagement.md) between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and understand how this might affect existing linkages or linking newly acquired social posts.   
+6. Understand how to [delete or disable a connection](manage-connection-dynamics-365-record-creation.md) between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and understand how this might affect existing linkages or linking newly acquired social posts.   
   
 ### Privacy notice 
  
