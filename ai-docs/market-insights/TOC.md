@@ -63,7 +63,7 @@
 #### [Work with events from Market Insights in Azure Event Hubs](work-with-event-hubs.md)
 #### [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)
 ### [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)
-#### [Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)
+#### [Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)
 #### [Manage the connection between Dynamics 365 and Market Insights](manage-connection-dynamics-365-social-engagement.md)
 #### [Configure Record Creation and Update Rule](configure-automatic-record-creation.md)
 #### [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)

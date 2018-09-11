@@ -54,7 +54,7 @@ Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn
 
 1. Get an [overview](link-posts-to-dynamics-365.md) of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
-2. [Set up the connection](connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+2. [Set up the connection](connect-dynamics-365-record-creation.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
 3. [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
 
@@ -78,6 +78,6 @@ If you're gathering posts that mention your main competitor, you can set up a tr
 
 ### See also
 
-[Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+[Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)   
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Work with posts](work-with-posts.md)

@@ -31,7 +31,7 @@ When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
   
 ## Steps for linking posts from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365  
 
-1. First, [set up the feature to link social posts](connect-dynamics-365-social-engagement.md) to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance as social activities. As a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].   
+1. First, [set up the feature to link social posts](connect-dynamics-365-record-creation.md) to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance as social activities. As a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].   
   
 2. Next, you can [define the attributes](create-dynamics-365-record-from-social-post.md) for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities that you want to display in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].   
   
@@ -51,5 +51,5 @@ When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 ### See also  
 
  [Administer Market Insights](settings-administration.md)   
- [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+ [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)   
  [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)

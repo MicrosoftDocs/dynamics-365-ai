@@ -83,7 +83,7 @@ Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../i
 
 1. Get an [overview](link-posts-to-dynamics-365.md) of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
-2. [Set up the connection](connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+2. [Set up the connection](connect-dynamics-365-record-creation.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
 3. [Set up record details](create-dynamics-365-record-from-social-post.md) for cases.
 
@@ -110,6 +110,6 @@ Collaborate with your team and make sure they prioritize the right issues.
 
 ### See also
 
-[Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+[Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)   
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Work with posts](work-with-posts.md)

@@ -80,7 +80,7 @@ If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/p
 
 - If you maintain more than one connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you can delete one connection and still use the other connections.  
 
-- If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics Dynamics 365 (online) and Market Insights](connect-dynamics-365-social-engagement.md)  
+- If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics Dynamics 365 (online) and Market Insights](connect-dynamics-365-record-creation.md)  
 
 - No new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records can be created after deleting a connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, unless a connection is re-established.  
 
@@ -109,7 +109,7 @@ You can delete already-established connections between a [!INCLUDE[pn_netbreeze_
 
 - If you maintain one single connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you can disable it but you won’t be able to create new external links from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 
-- Posts linked to that instance’s disabled connection will persist, but details about the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record won’t be available. You can enable the instance to continue to create external links to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and see the updated record details. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)  
+- Posts linked to that instance’s disabled connection will persist, but details about the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record won’t be available. You can enable the instance to continue to create external links to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and see the updated record details. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)  
 
 The following table summarizes the impact on a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post when the status of an associated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance changes.  
 
@@ -155,6 +155,6 @@ If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../inclu
 ### See Also
 
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
-[Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+[Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)   
 [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)   
 [Administer Market Insights](settings-administration.md)
