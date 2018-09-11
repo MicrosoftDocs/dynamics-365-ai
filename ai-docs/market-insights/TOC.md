@@ -74,7 +74,7 @@
 ### [Personalize the Social Selling Assistant](personalize-social-selling-assistant.md)
 ### [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)
 ## Additional information
-### [Data retention in Market Insights](data-retention-social-engagement.md)
+### [Data retention in Market Insights](data-retention.md)
 ### [Market Insights FAQ](faq.md)
 ### [Accessibility for Market Insights](accessibility.md)
 ### [Market Insights Privacy Notices](privacy-notices.md)

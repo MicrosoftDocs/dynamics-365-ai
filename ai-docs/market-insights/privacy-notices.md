@@ -49,5 +49,5 @@ For specific privacy information about [!INCLUDE[pn_netbreeze_short](../includes
 
 ### See Also
 
- [Data retention in Market Insights](data-retention-social-engagement.md)  
+ [Data retention in Market Insights](data-retention.md)  
  [Get started with Market Insights](get-started.md)

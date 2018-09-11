@@ -71,7 +71,7 @@ When an administrator [assigns a Market Insights license](assign-user-roles.md) 
 
 ### Reduction of retention time for Social Content to 15 months
 
-On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will reduce the [retention time of Social Content](data-retention-social-engagement.md) to 15 months. This means that posts older than 15 months won’t be available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution anymore. If you need to keep track of older data for reporting purposes, you can [export the data](analyze-social-data-using-widgets.md#export-data-from-widgets) before it gets deleted automatically. 
+On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will reduce the [retention time of Social Content](data-retention.md) to 15 months. This means that posts older than 15 months won’t be available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution anymore. If you need to keep track of older data for reporting purposes, you can [export the data](analyze-social-data-using-widgets.md#export-data-from-widgets) before it gets deleted automatically. 
 
 ### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
