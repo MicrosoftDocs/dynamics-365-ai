@@ -45,15 +45,15 @@ In the flow below, you can get a sense for the different relations that exist be
 
 (add configuration screen)
 
-The main goal behind the Map screen below is to go customer entity by customer entity and identify for each of them the columns upon which you want to merge the data as part of the later Match and Merge stages. In Dynamics AI for Customer Insights these columns are also called *attributes*. 
+The main goal behind the Map screen below is to go one customer entity at a time, and identify the columns upon which you will want to merge your data. In Dynamics AI for Customer Insights these columns are also called *attributes*. 
 
 (add Map screen)
 
-A table will appear upon clicking each of the customer entities on the left. Now we will explore each of this table's columns, going left to right:
-- Primary Key: For executing the identity-resoultion process it's mandatory to **select one column as a unique key** for each of the customer entities. For example..
-- Match: Also required selection. Here you will select **all** the columns which you will want to consider as you match data from multiple sources. For example, if you know you have 
-- Entity Type
-- Normalize
+Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
+- Primary Key: For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example..
+- Match: Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. examples include customer ID, email address, and many other attributes that you might find in multiple data sources. Moreover, you may want to select attributes even if you expect partial overlap with attributes from other data sources since not-exact matchings will also be available to you as part of the next *Match* stage. 
+- Entity Type: Pre-defined categories under which your attributes fall such as email or name. No action is required here.
+- Normalize: 
 
 In addition, you have three additional possibilities in the Map screen:
 - Add customer entity
