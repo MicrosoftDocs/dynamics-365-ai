@@ -72,6 +72,6 @@ There are two types of user roles in [!INCLUDE[pn_netbreeze_short](../includes/p
   
 ### See Also  
 [Integrate Market Insights with Office 365](manage-licenses.md)   
-[Integrate Market Insights with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Integrate Market Insights with Dynamics 365](integrate-widgets-dynamics-365.md)   
 [Get connected to the social conversation using Market Insights](get-connected-social-conversation.md)
  

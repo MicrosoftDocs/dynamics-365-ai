@@ -102,6 +102,6 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 [Get started with Market Insights](get-started.md)   
 [Assign permissions and user roles](assign-user-roles.md)   
-[Integrate Market Insights with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Integrate Market Insights with Dynamics 365](integrate-widgets-dynamics-365.md)   
 [Connect Market Insights to other domains](connect-other-domains.md)
  

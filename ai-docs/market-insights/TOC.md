@@ -58,7 +58,7 @@
 ### [Work with tags](tags.md)
 ### [Manage author tags](author-tags.md)
 ## [Manage connections in Market Insights](manage-connections.md)
-### [Integrate Market Insights with Dynamics 365](integrate-social-engagement-dynamics-365.md)
+### [Integrate Market Insights with Dynamics 365](integrate-widgets-dynamics-365.md)
 ### [Stream data from Market Insights to Azure Event Hubs](stream-data-to-event-hubs.md)
 #### [Work with events from Market Insights in Azure Event Hubs](work-with-event-hubs.md)
 #### [JSON reference for events from Market Insights](event-hubs-json-reference.md)

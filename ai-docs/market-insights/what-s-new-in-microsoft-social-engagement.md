@@ -116,7 +116,7 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
 
-The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
+The steps to [set up and configure Social Insights in Dynamics 365](integrate-widgets-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently
 
