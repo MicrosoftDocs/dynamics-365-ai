@@ -29,9 +29,9 @@ Enabling the Social Selling Assistant for users of [!INCLUDE[pn_ms_dyn_365](../i
 > [!NOTE]
 >  You need to add the URL of your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to the list of **Allowed Domains** in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to see the data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 > 
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](connect-other-domains.md)  
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Market Insights to other domains](connect-other-domains.md)  
   
- Next, a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to enable the best possible experience when users are working with the Social Selling Assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)  
+ Next, a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to enable the best possible experience when users are working with the Social Selling Assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md)  
   
 ### See Also  
  [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   

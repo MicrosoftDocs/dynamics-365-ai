@@ -132,6 +132,6 @@ When you work with a trend alert, you can select from five sensitivity settings:
 
 ### See also
 
- [Get started with Social Engagement](get-started.md)   
+ [Get started with Market Insights](get-started.md)   
  [Use filters to see relevant data](use-filters.md)   
  [Explore more options with your data set](more-options-with-data-set.md)

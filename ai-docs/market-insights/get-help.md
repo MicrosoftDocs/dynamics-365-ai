@@ -32,7 +32,7 @@ We maintain [online help](index.md) and a first-use experience to get started wi
 2.  In the drop-down list, select **Help**.  
   
 ### See Also  
- [Get started with Social Engagement](get-started.md)   
+ [Get started with Market Insights](get-started.md)   
  [Set up searches to listen to social media conversations](set-up-searches.md)   
- [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
+ [Administer Market Insights](administer-microsoft-social-engagement.md)
  

@@ -100,7 +100,7 @@ Collaborate with your team and make sure they prioritize the right issues.
 3. [Add labels](work-with-posts.md#add-a-label-to-a-post-in-analytics-or-social-center) to posts to route them to specific streams.
 
 > [!NOTE]
-> [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] leverages Office 365 Groups to enable collaboration with groups of people. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md)
+> [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] leverages Office 365 Groups to enable collaboration with groups of people. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Market Insights](office-365-groups-social-engagement.md)
 
 ## Customer stories
 
@@ -110,6 +110,6 @@ Collaborate with your team and make sure they prioritize the right issues.
 
 ### See also
 
-[Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
-[Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+[Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+[Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Work with posts](work-with-posts.md)

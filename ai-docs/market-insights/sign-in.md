@@ -26,7 +26,7 @@ To sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-sho
   
 ## Sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from a dedicated sign-in page
 
-Using the [sign-in page for Social Engagement](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.
+Using the [sign-in page for Market Insights](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.
 
 1. In your browser, open [https://social.dynamics.com/login](https://social.dynamics.com/login).
 
@@ -56,6 +56,6 @@ We recommend saving the URL for your [!INCLUDE[pn_netbreeze_short](../includes/p
 If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://listening-prod.dynamics.com/app/\<appID></strong>.  
   
 ### See Also  
- [Get started with Social Engagement](get-started.md)   
- [Manage licenses for Social Engagement](manage-licenses.md)   
+ [Get started with Market Insights](get-started.md)   
+ [Manage licenses for Market Insights](manage-licenses.md)   
  [Analyze social data using widgets](analyze-social-data-using-widgets.md)

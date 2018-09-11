@@ -106,7 +106,7 @@ Define system settings that apply to the entire organization, like solution name
 2.  In the **Global Settings** pane, click **Search Languages**.  
   
     > [!TIP]
-    >  The more search languages you add, the more posts your keyword search rules may find. For more information on the supported languages, download the [Microsoft Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086).  
+    >  The more search languages you add, the more posts your keyword search rules may find. For more information on the supported languages, download the [Microsoft Dynamics 365 AI for Market Insights Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086).  
   
 3.  In the **Search Languages** pane, select the check boxes for the languages you want to enable in **Search Setup**.  
   
@@ -251,6 +251,6 @@ Define system settings that apply to the entire organization, like solution name
   
 ### See Also  
  [Set up searches to listen to social media conversations](set-up-searches.md)   
- [Get started with Social Engagement](get-started.md)   
+ [Get started with Market Insights](get-started.md)   
  [Set your preferences for the user interface](user-preferences.md)
  

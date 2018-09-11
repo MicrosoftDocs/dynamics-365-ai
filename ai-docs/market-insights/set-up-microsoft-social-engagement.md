@@ -78,7 +78,7 @@ This topic explains what the Administrator for your organization does to set up 
  [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
 ### See Also  
- [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+ [Administer Market Insights](administer-microsoft-social-engagement.md)   
  [Manage global settings](manage-global-settings.md)   
  [Set up searches to listen to social media conversations](set-up-searches.md)   
  [Assign permissions and user roles](assign-user-roles.md)

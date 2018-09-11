@@ -26,11 +26,11 @@ search.app:
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Here's a list of features we added recently.
 
-If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Get started with Social Engagement](get-started.md).
+If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Get started with Market Insights](get-started.md).
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
-For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+For important, late-breaking information and a list of known issues, see the [Market Insights Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
 
@@ -67,7 +67,7 @@ With the upcoming Update 1.8 in August, we'll also remove the interaction contro
 
 ### Change of permissions for newly invited users
 
-When an administrator [assigns a Social Engagement license](assign-user-roles.md) to a user, this user will get Power Analyst and Responder permissions. This enables users to create search topics and engage in conversations with other authors. Administrators can [change the permissions](user-roles.md) at any time according to their business requirements. 
+When an administrator [assigns a Market Insights license](assign-user-roles.md) to a user, this user will get Power Analyst and Responder permissions. This enables users to create search topics and engage in conversations with other authors. Administrators can [change the permissions](user-roles.md) at any time according to their business requirements. 
 
 ### Reduction of retention time for Social Content to 15 months
 
@@ -170,7 +170,7 @@ New capabilities for all users:
 - In activity maps, you can choose between a visual map and a data table. The map allows navigation by keyboard in cardinal directions.
 - You will experience improved navigation for post lists and post details
 
-To learn more, see our dedicated [documentation on accessibility for Microsoft Social Engagement](accessibility.md).
+To learn more, see our dedicated [documentation on accessibility for Market Insights](accessibility.md).
 
 ### Administrators now enabled to remove alert recipients
 
@@ -180,7 +180,7 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
 
-[Read more about the experience for Facebook pages in Social Engagement.](facebook-pages-data-acquisition.md)
+[Read more about the experience for Facebook pages in Market Insights.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
 
@@ -188,5 +188,5 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 #### See also
 
-[Get started with Social Engagement](get-started.md)  
+[Get started with Market Insights](get-started.md)  
 [E-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400708)

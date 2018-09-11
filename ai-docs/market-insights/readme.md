@@ -28,9 +28,9 @@ This document provides important, late-breaking information about [!INCLUDE [pn-
 
 ## Resources
 
-Visit the [Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) on Microsoft Docs to find help content for admins and users.
+Visit the [Market Insights Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) on Microsoft Docs to find help content for admins and users.
 
-Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Social Engagement](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, please go to the [Community forum](https://community.dynamics.com/crm/f/752).
+Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Market Insights](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, please go to the [Community forum](https://community.dynamics.com/crm/f/752).
 
 ## Integration scenarios - known issues
 

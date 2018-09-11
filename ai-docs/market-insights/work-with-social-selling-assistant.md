@@ -74,4 +74,4 @@ When a tag is configured to promote a post in the Social Selling Assistant, you 
 
  [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
  [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
- [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)
+ [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md)

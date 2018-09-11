@@ -31,10 +31,10 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  Streams in Social Center are user-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md), [Drive business objectives using posts](publish-react-posts.md)  
   
- Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
+ Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Market Insights](more-options-with-data-set.md)  
   
 > [!NOTE]
->  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](manage-licenses.md)  
+>  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Market Insights with Office 365](manage-licenses.md)  
   
 <a name="ConfigureStream"></a>   
 ## Configure a stream  
@@ -82,7 +82,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 5.  In the **Share** dialog box, choose **User** or **Group** in the **Type** drop-down list.  
   
-     For more information about groups, see [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md).  
+     For more information about groups, see [Work with Office 365 Groups in Market Insights](office-365-groups-social-engagement.md).  
   
 6.  Select users or groups from your organization you want to share this stream with, and then click **Add**.  
   

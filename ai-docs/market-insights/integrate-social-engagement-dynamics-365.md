@@ -133,7 +133,7 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 Search topics are usually created by Administrators or Power Analysts directly in the settings of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. However, to get up and running quickly, users with Administrator or Power Analyst user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can set up searches from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-To have the full set of options for creating a search topic available, it’s a good idea to work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [Find out how to set up search topics in Social Engagement](set-up-searches.md).
+To have the full set of options for creating a search topic available, it’s a good idea to work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [Find out how to set up search topics in Market Insights](set-up-searches.md).
 
 ## Reset Social Insights
 
@@ -150,6 +150,6 @@ This action deletes all existing data in Dynamics 365 for the search topics, sea
 Having trouble signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](http://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
   
 ### See Also  
- [Get started with Social Engagement](get-started.md)   
- [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+ [Get started with Market Insights](get-started.md)   
+ [Administer Market Insights](administer-microsoft-social-engagement.md)   
  [Assign permissions and user roles](assign-user-roles.md)   

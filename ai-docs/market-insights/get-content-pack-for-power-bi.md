@@ -29,7 +29,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
  Use this content pack as a starting point on [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] to create your own reports and dashboards that best meet your needs.  
   
 ## Getting Started  
- Connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] with the [content pack for Microsoft Social Engagement](https://go.microsoft.com/fwlink/p/?linkid=846841).  
+ Connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] with the [content pack for Market Insights](https://go.microsoft.com/fwlink/p/?linkid=846841).  
   
 > [!NOTE]
 >  Administrator or Manager permissions and access to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]'s solution ID are required to connect.  For more information about the solution ID, see  [Troubleshooting](#troubleshooting).  
@@ -211,7 +211,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
  If you are not already an admin in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please contact your administrator to make sure you have rights to view the collected data.  
   
- The **Solution ID** of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can be found in the URL. The URL can be found in the browser’s address bar after [signing in to Social Engagement](https://social.dynamics.com/login).  
+ The **Solution ID** of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can be found in the URL. The URL can be found in the browser’s address bar after [signing in to Market Insights](https://social.dynamics.com/login).  
   
  The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://listening-prod.dynamics.com/app/1/](https://www.microsoft.com). 
   
@@ -219,5 +219,5 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
 ### See Also  
  [Engage on social networks](engage-on-social-networks.md)   
  [Publish and react to posts](publish-react-posts.md)   
- [View posts and conversations in Social Engagement](posts-conversations.md)   
+ [View posts and conversations in Market Insights](posts-conversations.md)   
  [Work with posts](work-with-posts.md)

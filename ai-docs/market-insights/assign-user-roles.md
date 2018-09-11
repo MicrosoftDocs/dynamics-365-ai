@@ -71,7 +71,7 @@ Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/
 [!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
   
 ### See Also  
-[Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+[Administer Market Insights](administer-microsoft-social-engagement.md)   
 [Understand user roles](user-roles.md)   
-[Integrate Social Engagement with Office 365](manage-licenses.md)
+[Integrate Market Insights with Office 365](manage-licenses.md)
  

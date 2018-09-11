@@ -89,5 +89,5 @@ If an author decides to remove a public post on Twitter, Tumblr, or WordPress, t
 
 ### See also
 [Get an overview about the data](analytics-overview.md)    
-[Get started with Social Engagement](get-started.md)    
-[Set up searches in Social Engagement](set-up-searches.md)
+[Get started with Market Insights](get-started.md)    
+[Set up searches in Market Insights](set-up-searches.md)

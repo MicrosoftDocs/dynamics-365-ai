@@ -62,4 +62,4 @@ When using the Social Selling Assistant for the first time, users will get recom
 ### See also  
  [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
  [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)   
- [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)
+ [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md)

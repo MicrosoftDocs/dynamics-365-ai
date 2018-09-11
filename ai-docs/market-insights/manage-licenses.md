@@ -100,8 +100,8 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 ### See Also
 
-[Get started with Social Engagement](get-started.md)   
+[Get started with Market Insights](get-started.md)   
 [Assign permissions and user roles](assign-user-roles.md)   
-[Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
-[Connect Social Engagement to other domains](connect-other-domains.md)
+[Integrate Market Insights with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Connect Market Insights to other domains](connect-other-domains.md)
  

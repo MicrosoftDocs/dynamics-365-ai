@@ -53,7 +53,7 @@ The posts in a post list that open a conversation view include:
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](#conversationView)  
   
-  Any other post in the post list will open the single post pane with post details. For example, if a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors who aren't social profiles in your tenant, they appear in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Social Engagement](#publishHistory)  
+  Any other post in the post list will open the single post pane with post details. For example, if a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors who aren't social profiles in your tenant, they appear in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Market Insights](#publishHistory)  
   
 <a name="Threads"></a>   
 ## See threads of replies and retweets on Twitter  
@@ -85,7 +85,7 @@ To see posts that have engagement action history, look for posts that have a num
   
 If another user changes a value on a post you're working on, you'll be notified through the user interface that the post was refreshed and you'll see the most recent version. Make sure your planned action still makes sense when you try to perform it.  
   
-To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] reports about how efficiently your team engages on social media, see [Get the Power BI content pack for Microsoft Social Engagement](get-content-pack-for-power-bi.md).  
+To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] reports about how efficiently your team engages on social media, see [Get the Power BI content pack for Market Insights](get-content-pack-for-power-bi.md).  
   
 <a name="conversationView"></a>   
 ### See the conversations with an author

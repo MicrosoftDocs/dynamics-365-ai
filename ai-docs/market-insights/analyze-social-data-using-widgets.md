@@ -31,7 +31,7 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
   
 The **Analytics** area helps you to analyze social data and displays widgets based on the posts that result from your search topics. Widgets then display the analysis in easy-to-understand formats such as bar charts, simple curves, or percentages. 
 [Learn how to navigate the Analytics area.](get-started.md#get-around-in-the-analytics-area)     
-You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis or [use the data set for other areas of Social Engagement](more-options-with-data-set.md). If no posts are available or match your filters, widgets display no metrics and an error message.
+You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis or [use the data set for other areas of Market Insights](more-options-with-data-set.md). If no posts are available or match your filters, widgets display no metrics and an error message.
   
 Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](use-filters.md#drill-down-into-data-and-apply-filters-from-widgets). Click a data point to get a more detailed view of the data.  
   

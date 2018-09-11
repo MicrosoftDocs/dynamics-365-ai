@@ -75,7 +75,7 @@ Alert emails now provide a link to the Analytics area in the [!INCLUDE[pn_netbre
 Learn how to build search topics and navigate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to get the most out of it. Plus, examine different strategies for managing your social presence.
 Explore the social strategy, and look at brand reputation and social business opportunities. Look at post consumption and analytics, configure automation options, and much more.
 
-[Learn more in the Microsoft Social Engagement course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
+[Learn more in the Market Insights course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
 
 
 ### New social post packs for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
@@ -165,7 +165,7 @@ Additionally, we've continued our ongoing investment to make [!INCLUDE[pn_netbre
 
 We've added an Engagement Analytics report to our recently introduced [!INCLUDE[Power BI](../includes/pn-power-bi.md)] content pack for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Along with the previously released Engagement Performance and Team Performance reports, the Engagement Analytics report gives you more insights about your engagement on social media by using metrics based on location, sentiment, tags, and authors. The data model is also enhanced to include these additional dimensions, giving you more power to explore and analyze your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Microsoft Social Engagement content pack for Power BI](get-content-pack-for-power-bi.md) 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Market Insights content pack for Power BI](get-content-pack-for-power-bi.md) 
 
 ### Improved usability in Social Selling Assistant
 
@@ -181,7 +181,7 @@ We aligned the forms in Social Selling Assistant configuration and the [!INCLUDE
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] introduces the [!INCLUDE[Power BI](../includes/pn-microsoft-power-bi.md)] content pack to get insights about your engagement and team performance on social media. This content pack is designed specifically for community managers, providing performance metrics for engagement actions taken from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Track metrics, such as the number of actions taken and average response times, and get visibility into the performance of each member of your team. [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] automatically creates the dashboard and generates reports that give you a great starting point for exploring and analyzing your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Social Engagement content pack for Power BI](get-content-pack-for-power-bi.md) 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Market Insights content pack for Power BI](get-content-pack-for-power-bi.md) 
 
 ### Conversation view for private messages and Twitter replies
 

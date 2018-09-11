@@ -62,6 +62,6 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-en
 |     Chart format     |                                                                                                                                                                    You can choose between **Chart** and **Table** view. Choose if you want to see the data points represented as charts or as tables with fields for individual data points. Additionally, you can choose to render widgets with filling patterns or solid colors, depending on your preferences.                                                                                                                                                                    |
   
 ### See Also  
- [Get started with Social Engagement](get-started.md)   
+ [Get started with Market Insights](get-started.md)   
  [Manage global settings](manage-global-settings.md)
  

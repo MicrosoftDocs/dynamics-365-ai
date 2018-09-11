@@ -24,11 +24,11 @@ search.app:
 
 # Set up trial solutions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-This article provides a step-by-step guide to get up and running with a [trial solution for Social Engagement](https://experience.dynamics.com/trials/). 
+This article provides a step-by-step guide to get up and running with a [trial solution for Market Insights](https://experience.dynamics.com/trials/). 
 
-- If you already have an Office 365 tenant where you have admin permissions, review [Add a Social Engagement trial to an existing Office 365 tenant](#add-a-social-engagement-trial-to-an-existing-office-365-tenant).
+- If you already have an Office 365 tenant where you have admin permissions, review [Add a Market Insights trial to an existing Office 365 tenant](#add-a-social-engagement-trial-to-an-existing-office-365-tenant).
 
-- To create a new Office 365 tenant for your trial, review [Create a new Office 365 tenant for the Social Engagement trial](#create-a-new-office-365-tenant-for-the-social-engagement-trial).
+- To create a new Office 365 tenant for your trial, review [Create a new Office 365 tenant for the Market Insights trial](#create-a-new-office-365-tenant-for-the-social-engagement-trial).
 
 ## Add a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] trial to an existing Office 365 tenant
 
@@ -97,5 +97,5 @@ This article provides a step-by-step guide to get up and running with a [trial s
 
 ### See also
 [Connect with customers. Empower your organization. Create real results.](overview.md)    
-[Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)    
+[Administer Market Insights](administer-microsoft-social-engagement.md)    
 [Set up searches to listen to social media conversations](set-up-searches.md)

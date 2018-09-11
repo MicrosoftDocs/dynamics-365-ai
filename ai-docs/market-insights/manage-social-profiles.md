@@ -141,7 +141,7 @@ You can delete a social profile that you own. You can also delete a social profi
 4. Click **Confirm** to delete the profile.
 
 > [!NOTE]
-> If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
+> If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Market Insights](data-retention-social-engagement.md)  
   
 ## Claim ownership of a social profile  
 

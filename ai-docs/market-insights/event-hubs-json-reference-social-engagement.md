@@ -31,7 +31,7 @@ Latest version of the payload: Version 2.1
 > [!NOTE]
 > New objects and properties can get added to the payload without increasing the version number.
 
-For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md).  
+For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md).  
 
 <a name="overview"></a>   
 ## Overview  
@@ -1682,6 +1682,6 @@ Short description about the contributor for this post as delivered by external p
 Back to [top](#overview)
 
 ### See Also  
-[Manage connections in Social Engagement](manage-connections.md)   
-[Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
+[Manage connections in Market Insights](manage-connections.md)   
+[Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
 [Work with events from social posts in Azure Event Hubs](work-with-event-hubs.md)

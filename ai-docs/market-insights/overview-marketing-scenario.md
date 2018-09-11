@@ -87,7 +87,7 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 ### See also
 
-[Social Engagement overview](overview.md)    
-[Get started with Social Engagement](get-started.md)    
-[Manage connections in Social Engagement](manage-connections.md)    
+[Market Insights overview](overview.md)    
+[Get started with Market Insights](get-started.md)    
+[Manage connections in Market Insights](manage-connections.md)    
 [Engage on social networks](engage-on-social-networks.md)

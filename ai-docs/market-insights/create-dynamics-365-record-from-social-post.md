@@ -219,6 +219,6 @@ You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.m
 
 ### See Also
 
- [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
- [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
- [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
+ [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+ [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
+ [Administer Market Insights](administer-microsoft-social-engagement.md)

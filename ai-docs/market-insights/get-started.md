@@ -52,7 +52,7 @@ This topic introduces common user-interface elements and useful tips to work eff
 > [!NOTE]
 >  To use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription and be set up as a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user by your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Administrator. This means that your organization also needs to have a license for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-[Sign in to Social Engagement](https://social.dynamics.com/login) directly or review additional options to [access Social Engagement](sign-in.md)  
+[Sign in to Market Insights](https://social.dynamics.com/login) directly or review additional options to [access Market Insights](sign-in.md)  
   
 ## Navigate the application’s main areas  
  Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
@@ -86,7 +86,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Private Messages**: Find all private messages in the solution with a single click. This is not an application but a shortcut to a view on the post list with the filter for private messages enabled.  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Social Engagement](posts-conversations.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Market Insights](posts-conversations.md)  
   
 - **Social Center**: Create and manage real-time streams of posts that match a selected data set. Depending on your user role and license type, you can share streams with other users of your solution.  
   
@@ -106,11 +106,11 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Settings**: All users can define how the application displays for them. Administrators can manage user roles, set system-wide settings, and configure many more options.  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](administer-microsoft-social-engagement.md)  
   
 - **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Social Engagement](get-help.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Market Insights](get-help.md)  
   
 ## Get around in the Analytics area  
  In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
@@ -147,10 +147,10 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Post list**: Expand this area to see the most recent posts that match your current data set. Update your data set or your time frame, or load more posts to dive deeper into the contents. Take action and engage with your audience directly from within the application.  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Social Engagement](posts-conversations.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Market Insights](posts-conversations.md)  
   
 ## Get around in the Settings area  
- Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Microsoft Social Engagement](set-up-microsoft-social-engagement.md).  
+ Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-microsoft-social-engagement.md).  
   
  ![settings area in market insights](media/settings-areas-explained.png "Settings area in Market Insights")  
   
@@ -164,11 +164,11 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   4. **User Management**: Administrators define permissions and roles for the users of their solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
-  5. **Connections**: Administrators can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to create new records in the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances, or stream posts as events to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](manage-connections.md), [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md), [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
+  5. **Connections**: Administrators can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to create new records in the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances, or stream posts as events to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Market Insights](manage-connections.md), [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md), [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
   
   6. **Automation Rules**: Create rules that automatically perform actions on a specified data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
   
-- **Settings options**: Set the values on the settings pages according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)  
+- **Settings options**: Set the values on the settings pages according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](administer-microsoft-social-engagement.md)  
   
   
 ### Privacy notices  

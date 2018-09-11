@@ -46,7 +46,7 @@ search.app:
 |                           Step                           |                                                                                    Description                                                                                    |                                                           Step                                                            |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | ![step 1](media/crm-ua-walkthrough-green-1.png "Step 1") |                         Create the event hub you will  stream data to.<br /><br /> You can skip this step if you already have an event hub to work with.                          |                                  [Step 1: Create an event hub](#step1_create_event_hub)                                   |
-| ![step 2](media/crm-ua-walkthrough-green-2.png "Step 2") | Establish the connection between [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. |                     [Step 2: Connect Social Engagement to the event hub](#step3_connect_to_event_hub)                     |
+| ![step 2](media/crm-ua-walkthrough-green-2.png "Step 2") | Establish the connection between [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. |                     [Step 2: Connect Market Insights to the event hub](#step3_connect_to_event_hub)                     |
 | ![step 3](media/crm-ua-walkthrough-green-3.png "Step 3") |                             Define the data set that gets streamed as events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].                              | [Step 3: Create an automation rule to select the posts that get streamed to the event hub](#step3_create_automation_rule) |
 | ![step 4](media/crm-ua-walkthrough-green-4.png "Step 4") |                  Create an [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] job and write the query to further process your data.                  |                    [Step 4: Create an Azure Stream Analytics job](#step4_create_stream_analytics_job)                     |
 | ![step 5](media/crm-ua-walkthrough-green-5.png "Step 5") |                                                 Send the data to a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard.                                                 |                         [Step 5: Create a dashboard in Power BI](#step5_create_powerBI_dashboard)                         |
@@ -68,7 +68,7 @@ search.app:
 
 <a name="step3_connect_to_event_hub"></a>   
 ### Step 2: Connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to the event hub  
- Now that the event hub is ready to receive data, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
+ Now that the event hub is ready to receive data, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
 
  ![connect market insights to azure event hubs](media/event-hub-connection-settings.png "Connect Market Insights to Azure Event Hubs")  
 
@@ -112,7 +112,7 @@ search.app:
    > 
    >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
    > 
-   > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)  
+   > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)  
 
    1.  Example 1: In this simple “Hello World” example, we count all new posts over time and push them every 30 seconds to the output sink.  
 
@@ -217,7 +217,7 @@ search.app:
  [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
 
 ### See Also  
- [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
- [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)   
- [Manage connections in Social Engagement](manage-connections.md)   
- [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
+ [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
+ [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)   
+ [Manage connections in Market Insights](manage-connections.md)   
+ [Administer Market Insights](administer-microsoft-social-engagement.md)

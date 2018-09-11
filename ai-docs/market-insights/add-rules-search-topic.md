@@ -338,4 +338,4 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
 [Set up searches to listen to social media conversations](set-up-searches.md)   
 [Create or delete a search topic](create-delete-search-topic.md)   
 [Manage your post quota](manage-post-quota.md)   
-[Get started with Social Engagement](get-started.md)
+[Get started with Market Insights](get-started.md)

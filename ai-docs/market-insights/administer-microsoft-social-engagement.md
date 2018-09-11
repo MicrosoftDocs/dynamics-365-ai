@@ -45,9 +45,9 @@ Optionally, you can extend the coverage of the data sources by adding RSS feeds 
 ## Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with other applications  
 **Outcome:** Build workflows between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and export data to other third-party applications using [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)].  
   
-When establishing the first connection, make sure to add the target application's URL to the Allowed Domains settings page in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](connect-other-domains.md)  
+When establishing the first connection, make sure to add the target application's URL to the Allowed Domains settings page in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Market Insights to other domains](connect-other-domains.md)  
   
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets admins connect to and share social data with other applications, such as [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] **Settings** area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](manage-connections.md)  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets admins connect to and share social data with other applications, such as [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] **Settings** area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Market Insights](manage-connections.md)  
   
 ## Add social profiles to engage in conversations  
 **Outcome:** Enable your team to answer and interact in the name of your organization.  
@@ -66,12 +66,12 @@ To configure the automated tagging of posts, see [Work with tags](tags.md).
 ## Manage licenses and users  
 **Outcome:** Enable your team to access [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and work on sales, customer care, or marketing scenarios.  
   
-Get to know how you can give users access to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how you can add user licenses and post quota to your subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](manage-licenses.md)  
+Get to know how you can give users access to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how you can add user licenses and post quota to your subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Market Insights with Office 365](manage-licenses.md)  
   
 There are two types of user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]: Configuration roles and Interaction roles. Assign users of your solution the appropriate roles for analyzing data and engaging publicly on social media. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 ### See Also  
-[Integrate Social Engagement with Office 365](manage-licenses.md)   
-[Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
-[Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)
+[Integrate Market Insights with Office 365](manage-licenses.md)   
+[Integrate Market Insights with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Get connected to the social conversation using Market Insights](get-connected-social-conversation.md)
  

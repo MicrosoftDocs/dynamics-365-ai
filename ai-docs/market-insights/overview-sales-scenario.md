@@ -40,7 +40,7 @@ This overview suggests ways you and your team can use [!INCLUDE[Social Engagemen
 
 Learn how to install, configure, and personalize the Social Selling Assistant to increase your presence on social media.
 
-1. [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md).
+1. [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md).
 
 2. [Add your social profiles](manage-social-profiles.md) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
@@ -78,6 +78,6 @@ If you're gathering posts that mention your main competitor, you can set up a tr
 
 ### See also
 
-[Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
-[Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+[Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
+[Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Work with posts](work-with-posts.md)
