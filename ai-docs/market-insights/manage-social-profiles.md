@@ -99,7 +99,7 @@ Optionally, you can share this social profile with other users in [!INCLUDE[pn_n
 
 ## Share a social profile with other users
 
-To let other users of your organization post on behalf of a social profile that you own, you can share it with them. After you share a social profile, other users can select the social profile when interacting with a post. You can also share a social profile with an [Office 365 group](office-365-groups-social-engagement.md). By sharing a social profile, you let other users post on behalf of the social profile to social networks. Choose your sharing options wisely to avoid unwanted posts on social networks.  
+To let other users of your organization post on behalf of a social profile that you own, you can share it with them. After you share a social profile, other users can select the social profile when interacting with a post. You can also share a social profile with an [Office 365 group](office-365-groups.md). By sharing a social profile, you let other users post on behalf of the social profile to social networks. Choose your sharing options wisely to avoid unwanted posts on social networks.  
   
 ### Share a social profile  
   

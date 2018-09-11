@@ -77,7 +77,7 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 2. [Publish](publish-react-posts.md) your news to social networks to spread the word about your products and services.
 
-3. Work with [Office 365 groups](office-365-groups-social-engagement.md) to share social profiles or streams with a larger team.
+3. Work with [Office 365 groups](office-365-groups.md) to share social profiles or streams with a larger team.
 
 ## Customer stories
 

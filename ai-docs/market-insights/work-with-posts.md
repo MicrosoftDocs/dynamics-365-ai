@@ -93,7 +93,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
 > [!TIP]
 >  To see the posts assigned to a user or a group, apply an **Assignee** filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get to know your filters](understand-filters.md)  
 > 
->  For more information about groups, see [Work with Office 365 Groups in Market Insights](office-365-groups-social-engagement.md).  
+>  For more information about groups, see [Work with Office 365 Groups in Market Insights](office-365-groups.md).  
   
 <a name="Add_a_custom_tag"></a>   
 ## Add or remove tags  

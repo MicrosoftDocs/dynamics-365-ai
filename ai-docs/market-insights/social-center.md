@@ -82,7 +82,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 5.  In the **Share** dialog box, choose **User** or **Group** in the **Type** drop-down list.  
   
-     For more information about groups, see [Work with Office 365 Groups in Market Insights](office-365-groups-social-engagement.md).  
+     For more information about groups, see [Work with Office 365 Groups in Market Insights](office-365-groups.md).  
   
 6.  Select users or groups from your organization you want to share this stream with, and then click **Add**.  
   

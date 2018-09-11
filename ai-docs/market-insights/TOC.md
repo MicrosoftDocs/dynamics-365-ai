@@ -23,7 +23,7 @@
 ### [Manage authors](manage-authors.md)
 ### [Route posts by using automation rules](automation-rules.md)
 ### [Enable a partner as a delegated admin](delegated-admin.md)
-### [Work with Office 365 Groups in Market Insights](office-365-groups-social-engagement.md)
+### [Work with Office 365 Groups in Market Insights](office-365-groups.md)
 ## [Set up searches to listen to social media conversations](set-up-searches.md)
 ### [Find out what's covered by sources](sources-coverage.md)
 ### [Create or delete a search topic](create-delete-search-topic.md)
