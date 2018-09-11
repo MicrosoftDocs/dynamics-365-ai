@@ -62,7 +62,7 @@ You can perform quality management over the entire application by blocking irrel
   
 2.  In the **DOMAINS** pane, enter the domain or partial domain in the field.  
   
-3.  Click the **Add** button ![New or Add button](media/plus-icon.png "New or Add button").  
+3.  Click the **Add** button ![new or add button](media/plus-icon.png "New or Add button").  
   
 > [!WARNING]
 >  Blocking a top-level domain also excludes all of its subdomains. For example, if you exclude `contoso.com`, the subdomain `shop.contoso.com` is also excluded.  
@@ -77,7 +77,7 @@ You can perform quality management over the entire application by blocking irrel
   
 1.  Go to **Search setup** > **Blocked Content**.  
   
-2.  Find the source you want to remove from the list and re-enable for data acquisition, and then click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").  
+2.  Find the source you want to remove from the list and re-enable for data acquisition, and then click the **Delete** button ![delete button](media/trashbin-icon.png "Delete button").  
   
 3.  In the confirmation message, click **CONFIRM**.  
   
@@ -110,7 +110,7 @@ You can perform quality management over the entire application by blocking irrel
   
 2.  Type the term in the input field.  
   
-3.  Click the **Add** button ![New or Add button](media/plus-icon.png "New or Add button").  
+3.  Click the **Add** button ![new or add button](media/plus-icon.png "New or Add button").  
   
 ### Remove a keyword from blocked content  
  Remove a global exclusion and restart the data acquisition for posts matching this keyword by removing a keyword from the blocked content list.  
@@ -120,7 +120,7 @@ You can perform quality management over the entire application by blocking irrel
   
 1.  Go to **Search Setup** > **Blocked Content**.  
   
-2.  Identify the list entry you want to remove from the blocked content, and then  click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").  
+2.  Identify the list entry you want to remove from the blocked content, and then  click the **Delete** button ![delete button](media/trashbin-icon.png "Delete button").  
   
 3.  In the confirmation message, click **CONFIRM**.  
   

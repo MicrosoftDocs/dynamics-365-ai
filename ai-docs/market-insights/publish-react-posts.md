@@ -47,11 +47,11 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
 |                                                                  |                                                                     Twitter                                                                      |                                                                                          Facebook                                                                                           |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Let users know you appreciate a post they wrote](#favoriteLike) |    Like<br /><br /> ![Like button on Twitter in Social Engagement](media/twitter-like-icon.png "Like button on Twitter in Social Engagement")    | Like as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page <br /><br /> ![Facebook like button in Social Engagement](media/like-icon.png "Facebook like button in Social Engagement") |
-|         [Share a post with your audience](#retweetShare)         |          Retweet<br /><br /> ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement")          |                       Share<br /><br /> ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement")                        |
-|             [Reply to a conversation](#commentReply)             |         Reply<br /><br /> ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement")         |                     Comment<br /><br /> ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")                     |
-|             [Engage in private conversations](#DMs)              | Send direct message<br /><br /> ![Send message button in Social Engagement](media/enevelope-icon.png "Send message button in Social Engagement") |                      Send private message<br /><br /> ![Send message button in Social Engagement](media/enevelope-icon.png "Send message button in Social Engagement")                      |
-|             [Post a link to another post](#PostLink)             |   Post link<br /><br /> ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement")    |                         Post link<br /><br /> ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement")                         |
+| [Let users know you appreciate a post they wrote](#favoriteLike) |    Like<br /><br /> ![like button on twitter in market insights](media/twitter-like-icon.png "Like button on Twitter in Market Insights")    | Like as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page <br /><br /> ![facebook like button in market insights](media/like-icon.png "Facebook like button in Market Insights") |
+|         [Share a post with your audience](#retweetShare)         |          Retweet<br /><br /> ![retweet button in market insights](media/share-retweet-icon.png "Retweet button in Market Insights")          |                       Share<br /><br /> ![facebook share button in market insights](media/share-on-facebook-icon.png "Facebook share button in Market Insights")                        |
+|             [Reply to a conversation](#commentReply)             |         Reply<br /><br /> ![twitter reply button in market insights](media/reply-icon.png "Twitter reply button in Market Insights")         |                     Comment<br /><br /> ![facebook comment button in market insights](media/facebook-comment-icon.png "Facebook comment button in Market Insights")                     |
+|             [Engage in private conversations](#DMs)              | Send direct message<br /><br /> ![send message button in market insights](media/enevelope-icon.png "Send message button in Market Insights") |                      Send private message<br /><br /> ![send message button in market insights](media/enevelope-icon.png "Send message button in Market Insights")                      |
+|             [Post a link to another post](#PostLink)             |   Post link<br /><br /> ![post a link button in market insights](media/post-link-action-icon.png "Post a link button in Market Insights")    |                         Post link<br /><br /> ![post a link button in market insights](media/post-link-action-icon.png "Post a link button in Market Insights")                         |
 |             [Start a new conversation](#PublishPost)             |                                                                     Publish                                                                      |                                                                                           Publish                                                                                           |
 
 > [!NOTE]
@@ -95,7 +95,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
 2. Select the post you want to interact with.  
 
-3. At the bottom of the post, select **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+3. At the bottom of the post, select **Retweet** ![retweet button in market insights](media/share-retweet-icon.png "Retweet button in Market Insights") or **Share** ![facebook share button in market insights](media/share-on-facebook-icon.png "Facebook share button in Market Insights").  
 
    > [!NOTE]
    >  You can retweet posts only from public [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. If a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile is protected, you might still be able to read its posts if you’re a confirmed follower, but you won’t be able to retweet.  
@@ -104,7 +104,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
 5. Type your message in the text field.  
 
-6. Select **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+6. Select **Retweet** ![retweet button in market insights](media/share-retweet-icon.png "Retweet button in Market Insights") or **Share** ![facebook share button in market insights](media/share-on-facebook-icon.png "Facebook share button in Market Insights").  
 
 <a name="commentReply"></a>   
 ### Reply to a conversation  
@@ -122,7 +122,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
 2. Select the post you want to interact with.  
 
-3. At the bottom of the post, select **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3. At the bottom of the post, select **Comment** ![facebook comment button in market insights](media/facebook-comment-icon.png "Facebook comment button in Market Insights") or **Reply** ![twitter reply button in market insights](media/reply-icon.png "Twitter reply button in Market Insights") .  
 
 4. In the header of the text box, select the social profile that you want to post with.  
 
@@ -132,9 +132,9 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
     Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to.  
 
-7. To publish the message on behalf of the selected social profile, select **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+7. To publish the message on behalf of the selected social profile, select **Comment** ![facebook comment button in market insights](media/facebook-comment-icon.png "Facebook comment button in Market Insights") or **Reply** ![twitter reply button in market insights](media/reply-icon.png "Twitter reply button in Market Insights") .  
 
-    You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+    You'll see a star symbol added to the Comment/Reply symbol (![facebook comment button in market insights](media/facebook-comment-icon.png "Facebook comment button in Market Insights")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 
 #### Add a link to send a private message from a public conversation on Twitter  
 
@@ -146,7 +146,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
 2. Select the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] post that you want to interact with.  
 
-3. At the bottom of the post, select **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3. At the bottom of the post, select **Reply** ![twitter reply button in market insights](media/reply-icon.png "Twitter reply button in Market Insights") .  
 
 4. In the header of the text  field, select the social profile that you want to post with.  
 
@@ -156,7 +156,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 
     A link to reply to this conversation in a private message is added to your reply.  
 
-7. To publish the message on behalf of the selected social profile, select **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+7. To publish the message on behalf of the selected social profile, select **Reply** ![twitter reply button in market insights](media/reply-icon.png "Twitter reply button in Market Insights") .  
 
 To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
 
@@ -174,7 +174,7 @@ Share a link to a public post along with your own comments as a new post directl
 
 2. Select the post you want to interact with.  
 
-3. At the bottom of the post, select the **Post Link** button ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement").  
+3. At the bottom of the post, select the **Post Link** button ![post a link button in market insights](media/post-link-action-icon.png "Post a link button in Market Insights").  
 
 4. Select the check box for the social profile that you want to send this post with.  
 

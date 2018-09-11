@@ -85,13 +85,13 @@ Before you can work with a social profile, or use its token for data acquisition
 
 1. Go to **Settings** > **Social Profiles**.  
   
-2. Select **Add profile** (![Add button](media/add-icon.png "Add button")).  
+2. Select **Add profile** (![add button](media/add-icon.png "Add button")).  
   
 3. In the list, select the type of social profile you want to add.  
   
 4. In the authentication dialog box, sign in with your credentials and authorize [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].    
 
-   When you add a social profile for a page you administer, a list will show with all the pages that you can add. Find the pages you want to add, select the **Add** symbol (![Add button](media/add-icon.png "Add button")) and select **Save** to confirm your selection. 
+   When you add a social profile for a page you administer, a list will show with all the pages that you can add. Find the pages you want to add, select the **Add** symbol (![add button](media/add-icon.png "Add button")) and select **Save** to confirm your selection. 
   
 You can now reply and like on behalf of the organization page, but you can’t write new posts.  
 
@@ -136,7 +136,7 @@ You can delete a social profile that you own. You can also delete a social profi
   
 2. In the list of **Owned Profiles**, select the social profile that you want to delete.  
   
-3. In the profile details pane, select the **Delete** (![Delete button](media/trashbin-icon.png "Delete button")) symbol.
+3. In the profile details pane, select the **Delete** (![delete button](media/trashbin-icon.png "Delete button")) symbol.
 
 4. Click **Confirm** to delete the profile.
 
@@ -151,7 +151,7 @@ If you know the credentials to a social profile, you can claim ownership for it.
   
 2.  In the **Shared Profiles** or **Profiles without owners** list, select the social profile that you want to claim ownership of.  
   
-3.  In the profile details pane, select the **Reauthenticate your token** (![Claim ownership button in Social Engagement](media/claim-ownership-icon.png "Claim ownership button in Social Engagement")) symbol.  
+3.  In the profile details pane, select the **Reauthenticate your token** (![claim ownership button in market insights](media/claim-ownership-icon.png "Claim ownership button in Market Insights")) symbol.  
   
 4.  To claim ownership, enter the required credentials in the dialog box.  
 

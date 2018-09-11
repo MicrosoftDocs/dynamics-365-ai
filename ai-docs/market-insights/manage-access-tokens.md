@@ -56,9 +56,9 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 
 1. Go to **Settings** > **Social Profiles**.  
 
-2. Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow data acquisition**, and enter your log-in credentials.  
+2. Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") under **Allow data acquisition**, and enter your log-in credentials.  
 
-3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
+3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
 
 4. Select **Save**.  
 
@@ -66,13 +66,13 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 
 1. Go to **Settings** > **Social Profiles**.  
 
-2. Select the appropriate social profile ([!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account) and in the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.
+2. Select the appropriate social profile ([!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account) and in the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") and enter your log-in credentials.
 
    > [!NOTE]
    > If your organization owns multiple instances of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please add a unique [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile for every instance. We can't acquire data if an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile is used in another [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance.
 
 
-3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. The token will become active after you select the check box.  
+3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. The token will become active after you select the check box.  
 
 4. Select **Save**.  
 
@@ -89,9 +89,9 @@ You can check your token health states to make sure your tokens aren't expired. 
 
 1. Go to **Settings** > **Social Profiles**.  
 
-2. Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your  credentials.  
+2. Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") and enter your  credentials.  
 
-3. Under **Acquisition of private messages**, select the drop-down arrow next to the private messages symbol ![Private messages symbol](media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active after you select the check box.  
+3. Under **Acquisition of private messages**, select the drop-down arrow next to the private messages symbol ![private messages symbol](media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active after you select the check box.  
 
 4. Select **Save**.  
 
@@ -99,7 +99,7 @@ You can check your token health states to make sure your tokens aren't expired. 
 
 1. Go to **Settings** > **Social Profiles**.  
 
-2. Select the appropriate social profile, and then in the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow interactions**, then enter your  credentials.    Under Acquisition of Private Messages, select the drop-down arrow next to the private messages symbol ![Private messages symbol](media/private-message-icon.png "Private messages symbol") and select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account. The token will become active after you select the check box.  
+2. Select the appropriate social profile, and then in the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") under **Allow interactions**, then enter your  credentials.    Under Acquisition of Private Messages, select the drop-down arrow next to the private messages symbol ![private messages symbol](media/private-message-icon.png "Private messages symbol") and select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account. The token will become active after you select the check box.  
 
 3. Select **Save**.  
 
@@ -107,7 +107,7 @@ You can check your token health states to make sure your tokens aren't expired. 
 
 Expired tokens must be reauthenticated to continue data acquisition and interactions with posts.  You can also check the health state of your tokens in your lists of social profiles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](social-profiles-health-state.md)  
 
-1.  Select the appropriate social profile and select **Reauthenticate your token** ![Claim ownership button in Social Engagement](media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
+1.  Select the appropriate social profile and select **Reauthenticate your token** ![claim ownership button in market insights](media/claim-ownership-icon.png "Claim ownership button in Market Insights").  
 
 2.  Enter the appropriate credentials.  
 
@@ -117,7 +117,7 @@ You can remove tokens from social profiles you own.
 
 1.  Go to **Settings** > **Social Profiles**.  
 
-2.  Select the appropriate social profile, and in the social profile panel select the **Delete your token** button ![Delete button](media/delete-icon.png "Delete button") next to the token you want to delete.  
+2.  Select the appropriate social profile, and in the social profile panel select the **Delete your token** button ![delete button](media/delete-icon.png "Delete button") next to the token you want to delete.  
 
 3.  Select **Save**.  
 

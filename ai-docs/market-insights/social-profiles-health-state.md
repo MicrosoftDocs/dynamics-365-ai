@@ -48,9 +48,9 @@ search.app:
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                           **Health State**                            |                                                     **Symbol**                                                     |                                                                                                                **Action you can perform**                                                                                                                |
 |                                 Valid                                 |                                                No symbol displayed                                                 |                                                                                                          No action needed. The token is valid.                                                                                                           |
-|                  Valid, but your token is not valid                   | ![At least one token is not valid symbol](media/token-not-valid-icon.png "At least one token is not valid symbol") |                                                                                                         Re-authorize this account or delete it.                                                                                                          |
-| The account isn’t valid; if the user has a token, it also isn’t valid |                   ![No valid token symbol](media/token-missing-icon.png "No valid token symbol")                   |                                                        Re-authorize the social profile if you are the owner, or claim ownership or contact one of the owners if this profile is shared with you.                                                         |
-|                  No owner; invalid without any owner                  |                     ![No Ownership symbol](media/no-ownership-icon.png "No Ownership symbol")                      | Claim ownership if you want to use this account. To claim ownership of an account, go to **Settings** > **Social Profiles**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md) |
+|                  Valid, but your token is not valid                   | ![at least one token is not valid symbol](media/token-not-valid-icon.png "At least one token is not valid symbol") |                                                                                                         Re-authorize this account or delete it.                                                                                                          |
+| The account isn’t valid; if the user has a token, it also isn’t valid |                   ![no valid token symbol](media/token-missing-icon.png "No valid token symbol")                   |                                                        Re-authorize the social profile if you are the owner, or claim ownership or contact one of the owners if this profile is shared with you.                                                         |
+|                  No owner; invalid without any owner                  |                     ![no ownership symbol](media/no-ownership-icon.png "No Ownership symbol")                      | Claim ownership if you want to use this account. To claim ownership of an account, go to **Settings** > **Social Profiles**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md) |
 
 ## Acquisition symbols  
  The symbols below indicate whether your search acquisition or private message acquisition is valid. You can find these symbols under the Acquisitions column in your lists of owned profiles and profiles without owners.  
@@ -61,9 +61,9 @@ search.app:
 |||  
 |-|-|  
 |**Symbol**|**Condition**|  
-|![Search button](media/magnifier-icon.png "Search button")|Acquisition is allowed but no search rule has been set up.|  
-|![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol")|Acquisition is allowed and a search rule is in use.|  
-|![Private messages symbol](media/private-message-icon.png "Private messages symbol")|Acquisition of private messages has been allowed and a private message rule is in use.|  
+|![search button](media/magnifier-icon.png "Search button")|Acquisition is allowed but no search rule has been set up.|  
+|![keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol")|Acquisition is allowed and a search rule is in use.|  
+|![private messages symbol](media/private-message-icon.png "Private messages symbol")|Acquisition of private messages has been allowed and a private message rule is in use.|  
 
 ## Acquisition token status overview  
  Social Engagement displays symbols to let you know if social profile data acquisition and private messages are running.  
@@ -71,9 +71,9 @@ search.app:
 ||||  
 |-|-|-|  
 |**State**|**Symbol**|**Condition**|  
-|Running|![Indicates that data acquisition and private messages are running for this social profile](media/valid-token-icon.png "Indicates that data acquisition and private messages are running for this social profile")|At least one token is valid and used for acquisition.|  
-|Allowed|![Acquisition Allowed symbol](media/acquition-allowed-icon.png "Acquisition Allowed symbol")|The social profile allows acquisition but no search rule has been added.|  
-|Expired|![No valid token symbol](media/token-missing-icon.png "No valid token symbol")|The social profile token is expired. You need to [reauthenticate your token](manage-access-tokens.md#reauthenticate-a-token).|  
+|Running|![indicates that data acquisition and private messages are running for this social profile](media/valid-token-icon.png "Indicates that data acquisition and private messages are running for this social profile")|At least one token is valid and used for acquisition.|  
+|Allowed|![acquisition allowed symbol](media/acquition-allowed-icon.png "Acquisition Allowed symbol")|The social profile allows acquisition but no search rule has been added.|  
+|Expired|![no valid token symbol](media/token-missing-icon.png "No valid token symbol")|The social profile token is expired. You need to [reauthenticate your token](manage-access-tokens.md#reauthenticate-a-token).|  
 
 ### See Also  
  [Manage social profiles](manage-social-profiles.md)   

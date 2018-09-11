@@ -36,7 +36,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
   
 2. **Active filters**: In the filter section, set all required filters. You can apply multiple filters to narrow your data set.  
   
-   ![Create data sets in Social Engagment](media/data-set-concept-social-engagement.png "Create data sets in Social Engagment")  
+   ![create data sets in social engagment](media/data-set-concept-social-engagement.png "Create data sets in Social Engagment")  
   
 ## Drill down into data and apply filters from widgets  
  [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
@@ -46,7 +46,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
 > [!NOTE]
 >  You can switch between pages in the Analytics area (for example Sources, Sentiments, Locations), and the applied filters will stay in place. If you go to a different area of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by using the nav bar (for example from Analytics to Social Center or Settings), all filters will be reset.  
 > 
->  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
+>  To keep your data set available in other applications, use the **More options with the current filters** button ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
  There are many more entry points to drill down into your data. To identify the filter-enabled area, hover over or click the widget’s display area. For the areas that support visual filtering, the cursor changes to a hand pointer. Click the data point to apply the filter.
 
@@ -68,31 +68,31 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
   
      --OR--  
   
-     Below the nav bar, in the filter section, click the **Filter** button ![Filter button](media/filters-icon.png "Filter button").  
+     Below the nav bar, in the filter section, click the **Filter** button ![filter button](media/filters-icon.png "Filter button").  
   
 2.  Expand the filters that you want to add.  
   
-3.  Select your options, and then click the **Apply** button ![Apply button](media/check-icon.png "Apply button").  
+3.  Select your options, and then click the **Apply** button ![apply button](media/check-icon.png "Apply button").  
   
 ### Edit a filter  
   
-1.  Below the nav bar, in the filter section, click the **Filter** button ![Filter button](media/filters-icon.png "Filter button").  
+1.  Below the nav bar, in the filter section, click the **Filter** button ![filter button](media/filters-icon.png "Filter button").  
   
      --OR--  
   
      Select an active filter in the filter section.  
   
-2.  Adjust your options, and then click the **Apply** button ![Apply button](media/check-icon.png "Apply button").  
+2.  Adjust your options, and then click the **Apply** button ![apply button](media/check-icon.png "Apply button").  
   
 ### Remove a filter  
   
-1.  Click **Remove all filters** ![Remove all filters button](media/clear-filters-icon.png "Remove all filters button") to remove all active filters.  
+1.  Click **Remove all filters** ![remove all filters button](media/clear-filters-icon.png "Remove all filters button") to remove all active filters.  
   
      --OR--  
   
      Select an active filter in the filter section to open the filter details.  
   
-2.  Next to the active filter, click the **Remove** button ![Delete button](media/delete-icon.png "Delete button") or clear the selection in the filter details.  
+2.  Next to the active filter, click the **Remove** button ![delete button](media/delete-icon.png "Delete button") or clear the selection in the filter details.  
   
 ## Edit the analysis time frame  
  Choose the start date and end date for the analysis of your data set.  

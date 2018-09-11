@@ -46,16 +46,16 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
 
 3. In the **Dynamics 365 Instance** pane, select the record type under **Record details**.  
 
-4. In the **Entity Details** pane, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] fields to show in the **Dynamics 365 Record Details** form for the selected entity. Or click **Add** ![Add button](media/add-icon.png "Add button") to add more fields.  
+4. In the **Entity Details** pane, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] fields to show in the **Dynamics 365 Record Details** form for the selected entity. Or click **Add** ![add button](media/add-icon.png "Add button") to add more fields.  
 
-5. Reorder the fields using the up arrow ![Reorder Dynamics 365 entity attributes up](media/arrow-up-icon.png "Reorder Dynamics 365 entity attributes up") or down arrow ![Reorder Dynamics 365 entity attributes down](media/arrow-down-icon.png "Reorder Dynamics 365 entity attributes down") or remove fields using the **Remove** button ![Delete button](media/delete-icon.png "Delete button").  
+5. Reorder the fields using the up arrow ![reorder dynamics 365 entity attributes up](media/arrow-up-icon.png "Reorder Dynamics 365 entity attributes up") or down arrow ![reorder dynamics 365 entity attributes down](media/arrow-down-icon.png "Reorder Dynamics 365 entity attributes down") or remove fields using the **Remove** button ![delete button](media/delete-icon.png "Delete button").  
 
-   ![Entity details](media/arrange-entity-details-for-linked-records.png "Entity details")  
+   ![entity details](media/arrange-entity-details-for-linked-records.png "Entity details")  
 
    > [!IMPORTANT]
    >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
 
-6. To apply your changes, in the **Dynamics 365 Instance** pane, click **Save** ![Save button](media/save-icon.png "Save button").  
+6. To apply your changes, in the **Dynamics 365 Instance** pane, click **Save** ![save button](media/save-icon.png "Save button").  
 
 ## Convert a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post to a social activity
 
@@ -65,19 +65,19 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
 
     Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
-2. Go to the post you want to convert to a social activity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
+2. Go to the post you want to convert to a social activity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then click **Link to Dynamics 365** ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights").  
 
-   ![Link to Dynamics 365 button in Social Engagement](media/link-post-to-dynamics-365.png "Link to Dynamics 365 button in Social Engagement")  
+   ![link to dynamics 365 button in market insights](media/link-post-to-dynamics-365.png "Link to Dynamics 365 button in Market Insights")  
 
 3. Select from the available instances, and then select the record type you want to create from the **Entity** drop-down list. The **Entity** drop-down list shows only those entities that are configured in the **Dynamics 365 Instance** panel in the **Dynamics 365 Record Details** section. If a single entity is configured with an instance, it will be selected by default.  
 
-   ![Select instance and entity](media/create-record-in-dynamics-365.png "Select instance and entity")  
+   ![select instance and entity](media/create-record-in-dynamics-365.png "Select instance and entity")  
 
 4. Add any additional information, up to 250 characters, related to the record in **Notes**, and then click **Create**.  
 
-    The post now displays a **Linked** button ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement") along with the name of the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance it is linked to.  
+    The post now displays a **Linked** button ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights") along with the name of the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance it is linked to.  
 
-   ![Linked button by a post in Social Engagement](media/post-linked-to-dynamics-365.png "Linked button by a post in Social Engagement")  
+   ![linked button by a post in market insights](media/post-linked-to-dynamics-365.png "Linked button by a post in Market Insights")  
 
 > [!TIP]
 > - To automatically create records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from social posts that match a specific data set, you can create automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
@@ -171,9 +171,9 @@ If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includ
 
     Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
-2. Select the post, and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement"). The **Dynamics 365 Record Details** dialog box shows all details for the associated Dynamics 365 record.  
+2. Select the post, and then click **Link to Dynamics 365** ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights"). The **Dynamics 365 Record Details** dialog box shows all details for the associated Dynamics 365 record.  
 
-   ![Dynamics 365 record details](media/view-dynamics-365-record-details.png "Dynamics 365 record details")  
+   ![dynamics 365 record details](media/view-dynamics-365-record-details.png "Dynamics 365 record details")  
 
 ## Open a linked record in Dynamics 365
 
@@ -183,13 +183,13 @@ If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includ
 
     Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
-2. Select the post you want to open the associated record for, and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
+2. Select the post you want to open the associated record for, and then click **Link to Dynamics 365** ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights").  
 
-3. In the **Dynamics 365 Record Details**, click **Open Record** ![Open record](media/open-record-icon.png "Open record") to see the record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+3. In the **Dynamics 365 Record Details**, click **Open Record** ![open record](media/open-record-icon.png "Open record") to see the record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
    [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities that are enabled for interactive experience open in the interactive service hub when you open a record on a social post that is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities not enabled for interactive experience will continue open in the web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: User's guide for the new interactive service hub](http://go.microsoft.com/fwlink/p/?LinkID=690167)  
 
-   ![Open record in Dynamics 365 from Social Engagement](media/open-record-details-in-dynamics-365.png "Open record in Dynamics 365 from Social Engagement")  
+   ![open record in dynamics 365 from market insights](media/open-record-details-in-dynamics-365.png "Open record in Dynamics 365 from Market Insights")  
 
 > [!NOTE]
 >  If there are no rules, or no active rules, or the social activity doesn't meet the defined conditions, no target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is created and the **Open Record** option  opens the social activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is created, the **Open Record** option  opens the target record.
@@ -207,11 +207,11 @@ You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.m
 
     Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
-2. Select the post you want to open the associated record for, and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
+2. Select the post you want to open the associated record for, and then click **Link to Dynamics 365** ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights").  
 
 3. In the **Dynamics 365 Record Details**, click **Remove**.  
 
-![Remove link between social post and Dynamics 365](media/remove-link-to-dynamics-365-record.png "Remove link between social post and Dynamics 365")  
+![remove link between social post and dynamics 365](media/remove-link-to-dynamics-365-record.png "Remove link between social post and Dynamics 365")  
 
 ## Privacy Notice
 

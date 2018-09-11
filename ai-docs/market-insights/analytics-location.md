@@ -29,7 +29,7 @@ Get insights from geographical location information contained in posts or in aut
 
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
 
-![Screenshot of the location page in the Analytics area of Social Engagement](media/analytics-location.png "Screenshot of the location page in the Analytics area of Social Engagement")
+![screenshot of the location page in the analytics area of market insights](media/analytics-location.png "Screenshot of the location page in the Analytics area of Market Insights")
 
 ## Types of location data  
 
@@ -51,11 +51,11 @@ For the United States, you can choose between two ways of grouping visualized da
 A subset of available sources provides location data. Authors need to share their location information, so it can be processed by [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)].  
 ## Authors
 
-The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
 
 > [!NOTE]
-> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+> Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future. 
 
 ## Cities
@@ -84,9 +84,9 @@ Dynamic widget. Shows only if posts from a country/region in the [configured loc
 
 Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
 
- - ![Single post symbol](media/single-post-marker.png "Single post symbol") Single post in a specific location.
- - ![Multiple posts symbol](media/post-cluster-marker.png "Multiple posts symbol") Multiple posts at the same location.
- - ![Cluster symbol](media/map-cluster-marker.png "Cluster symbol") Clusters of posts with location data in the same area.
+ - ![single post symbol](media/single-post-marker.png "Single post symbol") Single post in a specific location.
+ - ![multiple posts symbol](media/post-cluster-marker.png "Multiple posts symbol") Multiple posts at the same location.
+ - ![cluster symbol](media/map-cluster-marker.png "Cluster symbol") Clusters of posts with location data in the same area.
 
 ## Phrases by country/region
 

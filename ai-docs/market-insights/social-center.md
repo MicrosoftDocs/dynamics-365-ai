@@ -31,7 +31,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  Streams in Social Center are user-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md), [Drive business objectives using posts](publish-react-posts.md)  
   
- Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
+ Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
   
 > [!NOTE]
 >  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](manage-licenses.md)  
@@ -46,7 +46,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 1. Go to **Social Center**.  
   
-2. Scroll to the stream on the far right side, and then click the **Add Stream** button ![Add button](media/add-icon.png "Add button").  
+2. Scroll to the stream on the far right side, and then click the **Add Stream** button ![add button](media/add-icon.png "Add button").  
   
 3. Provide a name for your stream.  
   
@@ -62,7 +62,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 7. In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
   
-8. Click the **Save** button ![Save button](media/save-icon.png "Save button").  
+8. Click the **Save** button ![save button](media/save-icon.png "Save button").  
   
 <a name="ShareStream"></a>   
 ## Share a stream  
@@ -76,9 +76,9 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 2.  Scroll to the stream you want to share.  
   
-3.  In the stream header area, click **More options** ![More options](media/more-options-icon.png "More options"), and then click **settings** ![Configuration button](media/settings-icon.png "Configuration button").  
+3.  In the stream header area, click **More options** ![more options](media/more-options-icon.png "More options"), and then click **settings** ![configuration button](media/settings-icon.png "Configuration button").  
   
-4.  Under **Sharing**, click the **Add** button ![Add button](media/add-icon.png "Add button").  
+4.  Under **Sharing**, click the **Add** button ![add button](media/add-icon.png "Add button").  
   
 5.  In the **Share** dialog box, choose **User** or **Group** in the **Type** drop-down list.  
   
@@ -86,7 +86,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 6.  Select users or groups from your organization you want to share this stream with, and then click **Add**.  
   
-7.  Click the **Save** button ![Save button](media/save-icon.png "Save button").  
+7.  Click the **Save** button ![save button](media/save-icon.png "Save button").  
   
 > [!IMPORTANT]
 >  When you select **Shared with all users**, all users in your organization will see this stream on their Social Center page. Because there is no way to hide a stream, we recommend that you use this option with restraint.  
@@ -101,11 +101,11 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 2.  Find the stream you want to edit.  
   
-3.  In the stream header area, click **More options** ![More options](media/more-options-icon.png "More options"), and then click **settings** ![Configuration button](media/settings-icon.png "Configuration button").  
+3.  In the stream header area, click **More options** ![more options](media/more-options-icon.png "More options"), and then click **settings** ![configuration button](media/settings-icon.png "Configuration button").  
   
 4.  Edit your stream according to your requirements.  
   
-5.  Click the **Save** button ![Save button](media/save-icon.png "Save button").  
+5.  Click the **Save** button ![save button](media/save-icon.png "Save button").  
   
 > [!IMPORTANT]
 >  Editing the data set of a stream that you share with other users directly affects the data they see in their shared streams. Your changes are reflected when you save your changes, and other users connected to the same stream are notified that the configuration changed.  
@@ -120,9 +120,9 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 2.  Find the stream you want to delete.  
   
-3.  In the stream header area, click **More options** ![More options](media/more-options-icon.png "More options"), and then click **settings** ![Configuration button](media/settings-icon.png "Configuration button").  
+3.  In the stream header area, click **More options** ![more options](media/more-options-icon.png "More options"), and then click **settings** ![configuration button](media/settings-icon.png "Configuration button").  
   
-4.  Click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").  
+4.  Click the **Delete** button ![delete button](media/trashbin-icon.png "Delete button").  
   
 5.  Confirm your deletion.  
   

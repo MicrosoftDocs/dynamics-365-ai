@@ -29,7 +29,7 @@ Get detailed content analytics and understand data about most-used phrases, thei
   
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
 
-![Screenshot of the conversations page in the Analytics area of Social Engagement](media/analytics-conversations.png "Screenshot of the conversations page in the Analytics area of Social Engagement")
+![screenshot of the conversations page in the analytics area of market insights](media/analytics-conversations.png "Screenshot of the conversations page in the Analytics area of Market Insights")
 
 ## Hashtags
 
@@ -73,7 +73,7 @@ Dynamic widget. Shows only if the data set contains posts with a sentiment value
 ## Sources
 
 Shows the number of posts in the most active sources, and summarizes how many posts were found in other sources.    
-Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
+Click the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
 
 ## Tags
 Shows the distribution of custom tags in your current data set. The Full view mode offers the top 100 tags.

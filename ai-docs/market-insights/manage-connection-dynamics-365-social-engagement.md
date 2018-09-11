@@ -40,11 +40,11 @@ The link between a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagemen
 
 After you connect a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], it will show in the list on **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
-![Microsoft Dynamics 365 Connections](media/connected-dynamics-365-instances-list.png "Microsoft Dynamics 365 Connections")  
+![microsoft dynamics 365 connections](media/connected-dynamics-365-instances-list.png "Microsoft Dynamics 365 Connections")  
 
 Click the row associated with the connection to open the **Dynamics 365 Instance** pane.  
 
-![Dynamics 365 instance details](media/dynamics-365-connection-settings-detailed.png "Dynamics 365 instance details")  
+![dynamics 365 instance details](media/dynamics-365-connection-settings-detailed.png "Dynamics 365 instance details")  
 
 - **Name**: Shows the name of this connection to identify the instance quickly when creating a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The display name corresponds with your organization name in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], unless a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] administrator changes the name while setting up the connection.
 
@@ -72,7 +72,7 @@ If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/p
 
 3. In the **Dynamics 365 Instance** pane, set the **Set as default** option to ON.  
 
-4. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4. Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
 
 ## Results of deleting a connection
 
@@ -97,7 +97,7 @@ You can delete connections if you don't want to create new records in a [!INCLUD
 
 2. Find the connected instance in the list of **Microsoft Dynamics 365 Connections**.  
 
-3. Click the **Delete this connection to Dynamics 365** button ![Delete button](media/trashbin-icon.png "Delete button").  
+3. Click the **Delete this connection to Dynamics 365** button ![delete button](media/trashbin-icon.png "Delete button").  
 
 4. Confirm your deletion.  
 
@@ -143,7 +143,7 @@ If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../inclu
 
 3. Set the **Enable instance** option to OFF.  
 
-4. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4. Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
 
 > [!NOTE]
 > If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has expired or is in maintenance, details for linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records won’t be shown in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  

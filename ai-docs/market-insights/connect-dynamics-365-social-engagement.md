@@ -68,16 +68,16 @@ To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.
   
 1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
-2. Click **Add connection** ![Add button](media/add-icon.png "Add button").  
+2. Click **Add connection** ![add button](media/add-icon.png "Add button").  
   
 3. Select the **Connection type** from the drop-down list.  
-   ![Add connection drop&#45;down list in Social Engagement](media/dynamics-365-connection-drop-down-menu.png "Add connection drop-down list in Social Engagement")  
+   ![add connection drop-down list in market insights](media/dynamics-365-connection-drop-down-menu.png "Add connection drop-down list in Market Insights")  
   
 4. Provide the connection information for your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
   
    - **[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]**
    - Select **Dynamics 365 (online)** and then click **Check Instances**  to automatically discover all available [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances in your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant.  
-     ![Add connection dialog box in Social Engagement](media/add-connection-details-dialog-box.png "Add connection dialog box in Social Engagement")  
+     ![add connection dialog box in market insights](media/add-connection-details-dialog-box.png "Add connection dialog box in Market Insights")  
   
    - Select the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance you want to connect to from the list of discovered [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances for the selected location. For more information about the discovery process, see [Discover the URL for your organization using the Web API](https://msdn.microsoft.com/library/mt607485.aspx).  
   
@@ -85,15 +85,15 @@ To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.
     
    - **For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (on-premises)**
    - Select **Dynamics 365 (On-Premises)** and add the details of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and enter a unique name for the connection.  
-     ![Add connection to Dynamics 365 &#40;on&#45;premises&#41;](media/add-dynamics-365-connection.png "Add connection to Dynamics 365 (on-premises)")  
+     ![on-premises](media/add-dynamics-365-connection.png "on-premises")")  
   
-5. Click **Next** ![Next button](media/next-icon.png "Next button").  
+5. Click **Next** ![next button](media/next-icon.png "Next button").  
   
 6. If the connection was successful, the **Dynamics 365 Instance** pane opens and shows you the details about the connected instance.  
   
 7. You can set the **Set as default** control to ON to have this instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
   
-8. If you changed a value in the **Dynamics 365 Instance** pane, click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+8. If you changed a value in the **Dynamics 365 Instance** pane, click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
    The connected [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is now listed in the main pane when you go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
 ## Next steps

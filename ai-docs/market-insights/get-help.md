@@ -22,12 +22,12 @@ search.app:
 # Get help with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 We maintain [online help](index.md) and a first-use experience to get started with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]:  
   
-- **First things first:** Find help for relevant tasks for your user role when you sign in the first time. To see the tasks after your first sign-in, go to the Analytics area, click the Help button ![Help button](media/help-icon.png "Help button") on the nav bar, and then select **First things first**.  
+- **First things first:** Find help for relevant tasks for your user role when you sign in the first time. To see the tasks after your first sign-in, go to the Analytics area, click the Help button ![help button](media/help-icon.png "Help button") on the nav bar, and then select **First things first**.  
   
 ## Find help topics  
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] redirects you to context-sensitive help topics that provide guidance for the page you’re working with when you open help.  
   
-1.  On the nav bar, click the Help button ![Help button](media/help-icon.png "Help button").  
+1.  On the nav bar, click the Help button ![help button](media/help-icon.png "Help button").  
   
 2.  In the drop-down list, select **Help**.  
   

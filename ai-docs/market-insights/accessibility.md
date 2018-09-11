@@ -34,7 +34,7 @@ search.app:
 ### Switch to the table view to improve readability of data points
 
 Widgets in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can show in a chart view or a table view. You can decide whether you want to work with the data represented as charts or as tables.
-You can turn on the table view for a widget in chart view by selecting the ![More options control](media/more-options-icon.png "More options control") control on the chart you want to change and then selecting the **Switch to table view** option. To switch back, open the same control and select **Switch to chart view**.    
+You can turn on the table view for a widget in chart view by selecting the ![more options control](media/more-options-icon.png "More options control") control on the chart you want to change and then selecting the **Switch to table view** option. To switch back, open the same control and select **Switch to chart view**.    
 To enable the table view for all widgets by default, go to **Settings > User Preferences** and change the value under **Chart data representation mode** from **Chart** to **Table**.
 
 ### Change how colors on charts are displayed

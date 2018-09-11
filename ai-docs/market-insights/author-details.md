@@ -29,7 +29,7 @@ search.app:
 ## Access author details in Analytics and Social Center  
 To see author details in posts, click **Posts** on the right side of any analytics page. Or go to **Social Center** to access your streams, and tap on the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] author profile picture in a post. To go back to your stream feed, click **Back to**.  
   
-To see author details in the Authors widget, go to **Analytics**, and in the author widget, select the view author details button. ![View author details button in Social Engagement](media/author-details-icon.png "View author details button in Social Engagement"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](analyze-social-data-using-widgets.md)  
+To see author details in the Authors widget, go to **Analytics**, and in the author widget, select the view author details button. ![view author details button in market insights](media/author-details-icon.png "View author details button in Market Insights"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](analyze-social-data-using-widgets.md)  
   
 > [!NOTE]
 >  On mobile devices, tap the author profile picture, **or** tap a post twice, and tap the author profile picture to view the author profile. Depending on your screen size, you will see additional information in the list.  
@@ -37,7 +37,7 @@ To see author details in the Authors widget, go to **Analytics**, and in the aut
 ## Author details  
 The author name, user name, profile picture, location, website, and bio is displayed at the top of the panel if it is provided by the author. (The author must have been active in the last 30 days.) The following list includes the details that are provided.  
  
-![Image of the author details view](media/author-details.png "Image of the author details view")
+![image of the author details view](media/author-details.png "Image of the author details view")
  
 1. **Reach**: The influencer score of the author.  
   

@@ -26,7 +26,7 @@ search.app:
 # Manage connections in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets admins connect to and share social data with other applications. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Settings area. The type of connection you create depends on the application you want to connect to.  
   
- ![Connections page in the Microsoft Social Engagement Settings area](media/settings-on-connections-page.png "Connections page in the Microsoft Social Engagement Settings area")  
+ ![connections page in the microsoft dynamics 365 ai for market insights settings area](media/settings-on-connections-page.png "Connections page in the Microsoft Dynamics 365 AI for Market Insights Settings area")  
   
 - Connect to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and stream posts that match a data set as events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
   

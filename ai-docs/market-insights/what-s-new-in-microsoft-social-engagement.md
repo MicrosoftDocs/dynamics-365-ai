@@ -38,7 +38,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 After signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can select the smiley symbol and provide your feedback about the app and the service. We're looking forward to hearing your thoughts and continue to refine the product based on your feedback.
 
-![Provide feedback in Social Engagement](media/feedback-prompt.png)
+![provide feedback in market insights](media/feedback-prompt.png "Provide feedback in Market Insights")
 
 ### Compliance stream for WordPress comments and Disqus
 

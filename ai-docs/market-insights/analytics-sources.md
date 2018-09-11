@@ -29,7 +29,7 @@ Understand which social media sources are found most often in your search topics
   
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Sources** to see details about the sources of posts in your data set.  
 
-![Screenshot of the sources page in the Analytics area of Social Engagement](media/analytics-sources.png "Screenshot of the sources page in the Analytics area of Social Engagement")
+![screenshot of the sources page in the analytics area of market insights](media/analytics-sources.png "Screenshot of the sources page in the Analytics area of Market Insights")
     
 ## Activities
 
@@ -37,10 +37,10 @@ Shows the post type (post, reply, share, retweet) based on volume.
 
 ## Authors
 
-The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and see more details such as reach, source, and location for the 100 most-active authors and their posts.    
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and see more details such as reach, source, and location for the 100 most-active authors and their posts.    
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
 > [!NOTE]
-> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+> Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available; they are permanently deleted. No new posts from this author will be acquired in the future.  
   
 ## Authors by source
@@ -64,7 +64,7 @@ Lists top phrases for the top five sources based on volume.
 ## Sources
 
 Shows the number of posts from the most active sources and summarizes how many posts were found in other sources.    
-Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for additional details.  
+Click the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for additional details.  
   
 ## Sources by sentiment
 

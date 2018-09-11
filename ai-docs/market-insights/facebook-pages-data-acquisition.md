@@ -27,7 +27,7 @@ search.app:
 
 On Feb 6, 2018, [Facebook changes its API](https://developers.facebook.com/ads/blog/post/2017/11/07/marketing-api-v211/) and by default, author information is no longer shared. You can still get author information for posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages you own. This article describes how you can continue to receive author information for your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.  
 
-![Author widget in Social Engagement listing unknown authors](media/authors-widget-unknown-author.png "Author widget in Social Engagement listing unknown authors")
+![author widget in market insights listing unknown authors](media/authors-widget-unknown-author.png "Author widget in Market Insights listing unknown authors")
  
 ## How does it work prior to February 6, 2018?
 
@@ -44,10 +44,10 @@ Your solution still needs an active [!INCLUDE[tn-facebook](../includes/tn-facebo
 ## How do I continue to get author information?
 
 1. A page admin needs to allow interactions for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages by authenticating a social profile for every page your organization owns. Only one admin needs to authenticate the profile to enable all users of the solution to see the author information.      
-   ![Valid interaction token for a Facebook page in Social Engagement](media/allow-interactions.png "Valid interaction token for a Facebook page in Social Engagement")
+   ![valid interaction token for a facebook page in market insights](media/allow-interactions.png "Valid interaction token for a Facebook page in Market Insights")
  
 2. Make sure at least one social profile for a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user is added to your solution to keep the data acquisition running.   
-   ![Control to add a social profile in Social Engagement](media/add-social-profile.png "Control to add a social profile in Social Engagement")
+   ![control to add a social profile in market insights](media/add-social-profile.png "Control to add a social profile in Market Insights")
  
 3. Make sure that all these profiles stay valid by reauthenticating them regularly. There's no email notification sent when the token expires.
 
@@ -56,7 +56,7 @@ Your solution still needs an active [!INCLUDE[tn-facebook](../includes/tn-facebo
 ## What happens when I don’t own a page or don’t allow interactions?
 
 Whenever a post is acquired from a specific [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page and there is no valid interaction token available for that page, this post will not have author information. The author will show as **Unknown author**. There is no way to retrieve this information later.    
-![Unknown authors in a post list in Social Engagement](media/unknown-author-post-list.png "Unknown authors in a post list in Social Engagement")
+![unknown authors in a post list in market insights](media/unknown-author-post-list.png "Unknown authors in a post list in Market Insights")
 
 ## What’s the reason for this change?
 

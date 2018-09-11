@@ -99,7 +99,7 @@ An Office 365 admin can buy additional post quota from the Office 365 admin cent
 
 For more information, see [Pricing and licensing for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
-![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
+![find add-on subscriptions](media/purchase-additional-quota.png "Find add-on subscriptions")
 
 1. Go to [https://portal.office.com](https://portal.office.com) and sign in as a global administrator or billing administrator.
 

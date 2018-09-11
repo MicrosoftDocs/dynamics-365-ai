@@ -81,9 +81,9 @@ The exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file cont
   
 ### To export data from widgets
 
-1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
+1. On the widget, select the widget actions symbol (![widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
 
-2. In the list of actions, select **Export** ![Download the data into Excel](media/export-data-icon.png "Download the data into Excel").    
+2. In the list of actions, select **Export** ![download the data into excel](media/export-data-icon.png "Download the data into Excel").    
    > [!NOTE]
    > To export data from a list in full view, you need to select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
   
@@ -94,9 +94,9 @@ Some widgets (for example the authors widget) show a limited number of items by 
 
 ### To expand a widget
 
-1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
+1. On the widget, select the widget actions symbol (![widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
 
-2. In the list of actions, select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
+2. In the list of actions, select **Expand to full view** ![expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
 
 ## Switch a widget to table view
 
@@ -104,9 +104,9 @@ All widgets can render in a table mode. You can also set the table view as your 
 
 ### To switch a widget to table view
 
-1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
+1. On the widget, select the widget actions symbol (![widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
 
-2. In the list of actions, select **Switch to table view** ![Table view symbol](media/table-view-icon.jpg "Table view symbol").
+2. In the list of actions, select **Switch to table view** ![table view symbol](media/ "Table view symbol").
 
 
 ### See Also  

@@ -41,7 +41,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 ## Elements of an automation rule  
 For each automation rule, there are several navigation elements and values to define. The following screenshot  shows more about what an automation rule consists of.  
   
-![Elements of an automation rule in Social Engagement](media/automation-rules-callout.png "Elements of an automation rule in Social Engagement")  
+![elements of an automation rule in market insights](media/automation-rules-callout.png "Elements of an automation rule in Market Insights")  
   
 1. Button to create new automation rules.  
   
@@ -49,15 +49,15 @@ For each automation rule, there are several navigation elements and values to de
   
 3. List of automation rules and their status for a quick overview.  
   
-4. Actions configured for the automation rule. ![Link to Dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action")![Stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action")![Assign to action](media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action")![Set label action](media/automation-rule-action-set-label-social-engagement.png "Set label action")  
+4. Actions configured for the automation rule. ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action")![stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action")![assign to action](media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action")![set label action](media/automation-rule-action-set-label-social-engagement.png "Set label action")  
   
-5. Button to delete the automation rule ![Delete button](media/trashbin-icon.png "Delete button").  
+5. Button to delete the automation rule ![delete button](media/trashbin-icon.png "Delete button").  
   
 6. Name of the selected automation rule.  
   
 7. Filters that trigger this automation rule. For an active rule, every newly-found post matching these filters will be handled by this rule. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
   
-8. View the data set in Analytics ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement").  
+8. View the data set in Analytics ![view in analytics button in market insights](media/view-in-analytics-icon.png "View in Analytics button in Market Insights").  
   
 9. Button to add new actions to the automation rule.  
   
@@ -111,7 +111,7 @@ Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
 You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-1. Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
+1. Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![view in analytics button in market insights](media/view-in-analytics-icon.png "View in Analytics button in Market Insights") to see the posts  that match your defined filters.  
   
 2. Set a custom time frame for the period you want to review for missed posts.  
   
@@ -119,7 +119,7 @@ You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-
   
    All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and you can manually link them.  
   
-4. Open the post list and click **Link to Dynamics 365** ![Link to Dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+4. Open the post list and click **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 ### Stream to Event Hubs action fails  
 **Possible causes**  
@@ -138,7 +138,7 @@ Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_
   
 Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can quickly find how many posts were missed.  
   
-1.  Open the automation rule with the **Stream to Event Hubs** actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
+1.  Open the automation rule with the **Stream to Event Hubs** actions and click **View in Analytics** ![view in analytics button in market insights](media/view-in-analytics-icon.png "View in Analytics button in Market Insights") to see the posts  that match your defined filters.  
   
 2.  Set a custom time frame for the time period you want to review for missed posts. This shows the number of posts that should show as individual events in the event hub.  
   
@@ -156,30 +156,30 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
   
 1. Go to **Settings** > **Automation Rules**.  
   
-2. In the **Automation Rules** pane, click **Add new rule** ![Add button](media/add-icon.png "Add button").  
+2. In the **Automation Rules** pane, click **Add new rule** ![add button](media/add-icon.png "Add button").  
   
 3. In the **Create Rule** pane, provide a **Name** for your new rule.  
   
 4. In the **Status** drop-down list, select if the new rule should be **Active** or **Inactive**.  
   
-5. In the **Filters** section, click **Change** ![Edit button](media/edit-icon.png "Edit button") to define the data set that newly-found posts need to match to trigger the rule's actions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
+5. In the **Filters** section, click **Change** ![edit button](media/edit-icon.png "Edit button") to define the data set that newly-found posts need to match to trigger the rule's actions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
   
    > [!NOTE]
    >  To get an idea of the volume of posts your actions may be executed on, you’ll see the number of posts that matched your selected filters in your default time frame.  
   
-6. In the **Actions** section, click **Add** ![Add button](media/add-icon.png "Add button") to add an action to the rule.  
+6. In the **Actions** section, click **Add** ![add button](media/add-icon.png "Add button") to add an action to the rule.  
   
-   - Set the values for **Link to Dynamics 365** ![Link to Dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+   - Set the values for **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
-   - Set the values for **Stream to Event Hubs** ![Stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md), [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)  
+   - Set the values for **Stream to Event Hubs** ![stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md), [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)  
   
-   - Set the values for **Assign to** ![Assign to action](media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action") to assign matching posts to the specified user or group. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
+   - Set the values for **Assign to** ![assign to action](media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action") to assign matching posts to the specified user or group. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
-   - Set the values for **Set label** ![Set label action](media/automation-rule-action-set-label-social-engagement.png "Set label action") to automatically label incoming social posts that match your data set.  
+   - Set the values for **Set label** ![set label action](media/automation-rule-action-set-label-social-engagement.png "Set label action") to automatically label incoming social posts that match your data set.  
   
 7. Set the **Active** switch to **ON** to activate your automation rule.  
   
-8. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your configuration.  
+8. Click **Save** ![save button](media/save-icon.png "Save button") to apply your configuration.  
   
 > [!NOTE]
 >  Automation rules start processing posts that match the defined filters as soon as the rule is activated and saved. However, the rule won’t process any posts that were found before the automation rule was created, or while it was inactive. If you deactivate an existing automation rule, it will restart to process the newly-found posts after you reactivate the rule. If your administrator sets **Send failure notifications** to on, all administrators will receive an email if an action failed, so you can quickly take action.  
@@ -193,7 +193,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
   
 3.  In the **Edit Rule** pane, update the values.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your configuration.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your configuration.  
   
 <a name="delete_rule"></a>   
 ### Delete an automation rule  
@@ -202,13 +202,13 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
   
 2.  In the **Automation Rules** pane, click the rule you want to delete.  
   
-3.  Click **Delete rule** ![Delete button](media/trashbin-icon.png "Delete button").  
+3.  Click **Delete rule** ![delete button](media/trashbin-icon.png "Delete button").  
   
 4.  Confirm your deletion.  
   
 <a name="quick_create"></a>   
 ## Quickly create an automation rule while working in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
-When working with data sets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
+When working with data sets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![more options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
 <a name="conflicting_rules"></a>   
 ## How [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] handles conflicting automation rules  

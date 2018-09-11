@@ -39,7 +39,7 @@ Define system settings that apply to the entire organization, like solution name
   
 2.  In the **Global Settings** pane, click **Default Preferences**.  
   
-3.  Enter the new name for your solution in the **Name** text box, and then click **Save** ![Save button](media/save-icon.png "Save button").  
+3.  Enter the new name for your solution in the **Name** text box, and then click **Save** ![save button](media/save-icon.png "Save button").  
   
 <a name="Edit_the_defautl_screen_language"></a>   
 ## Edit the default screen language  
@@ -51,7 +51,7 @@ Define system settings that apply to the entire organization, like solution name
   
 3.  Select the screen language from the **Screen language** drop-down list.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 ## Edit the default time frame  
  Set the default time frame for the Analytics area. Any time you go to Analytics, you’ll see the data for the selected default time frame.  
@@ -70,7 +70,7 @@ Define system settings that apply to the entire organization, like solution name
   
 3.  Select the time frame from the **Default time frame** drop-down list.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 <a name="edit_the_default_date_and_time"></a>   
 ## Edit the default date and time format  
@@ -82,7 +82,7 @@ Define system settings that apply to the entire organization, like solution name
   
 3.  Select the date format from the **Date format** section.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 ## Edit the number format  
  Choose the number format that meets your requirements. All charts and analysis will show the selected number format.  
@@ -93,7 +93,7 @@ Define system settings that apply to the entire organization, like solution name
   
 3.  Select the preferred number format in the **Number format** drop-down list.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 <a name="Add_or_remove_search_languages"></a>   
 ## Add or remove search languages  
@@ -110,7 +110,7 @@ Define system settings that apply to the entire organization, like solution name
   
 3.  In the **Search Languages** pane, select the check boxes for the languages you want to enable in **Search Setup**.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 ### Remove search languages  
   
@@ -127,7 +127,7 @@ Define system settings that apply to the entire organization, like solution name
     >  - **Search rule gets deleted:** If the search rule consists only of the removed search language, the rule is removed from the search topic.  
     >  - **Search topic gets deleted:** This occurs if the search topic consists only of search rules in the removed language.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 <a name="Define_defaults_for_new_search_topics"></a>   
 ## Define defaults for new search topics  
@@ -139,7 +139,7 @@ Define system settings that apply to the entire organization, like solution name
   
 3.  Under **Search Setup Defaults**, select the sources and languages that you want to provide as default values for new search topics.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 ## Link to a custom privacy statement  
  As an administrator, you can decide whether to show or hide the link to a privacy statement for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.  
@@ -154,7 +154,7 @@ Define system settings that apply to the entire organization, like solution name
   
 4.  Enter the URL of the privacy statement in the **URL** input field.  
   
-5.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+5.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 > [!TIP]
 >  You may need to go to another page or refresh the application in your browser to see the updated link.  
@@ -172,7 +172,7 @@ Define system settings that apply to the entire organization, like solution name
   
 2.  In the **Global Settings** pane, click **Labels**.  
   
-3.  In the **Labels** pane, click **Add Label** ![Add button](media/add-icon.png "Add button").  
+3.  In the **Labels** pane, click **Add Label** ![add button](media/add-icon.png "Add button").  
   
 4.  Select a color from the **Color** drop-down list, add a description for your label in the **Description** text box, and then click **Save** to apply your changes to the label.  
   
@@ -181,7 +181,7 @@ Define system settings that apply to the entire organization, like solution name
   
  To change an existing label, edit the color or the description in the labels list, and then click **Save** to apply your changes.  
   
- To remove a status label, click **Delete** ![Delete button](media/delete-icon.png "Delete button") next to the label description, and then confirm your deletion.  
+ To remove a status label, click **Delete** ![delete button](media/delete-icon.png "Delete button") next to the label description, and then confirm your deletion.  
   
 ## Create and manage location groups  
  Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can create custom location groups or use the predefined ones.  
@@ -199,7 +199,7 @@ Define system settings that apply to the entire organization, like solution name
   
 2.  In the **Global Settings** pane, click **Location Groups**.  
   
-3.  In the **Location Groups** pane, click the **Add** button ![Add button](media/add-icon.png "Add button").  
+3.  In the **Location Groups** pane, click the **Add** button ![add button](media/add-icon.png "Add button").  
   
 4.  In the **Group Details** pane, enter a name for the location group.  
   
@@ -207,7 +207,7 @@ Define system settings that apply to the entire organization, like solution name
   
 6.  Repeat step 4 until you have added all required locations.  
   
-7.  Click **Save** ![Save button](media/save-icon.png "Save button") to create the location group.  
+7.  Click **Save** ![save button](media/save-icon.png "Save button") to create the location group.  
   
 > [!TIP]
 >  To add a larger set of locations, you can add existing location groups to a custom location group.  
@@ -228,7 +228,7 @@ Define system settings that apply to the entire organization, like solution name
   
 4.  In the **Group Details** pane, add or remove locations until the configuration meets your requirements.  
   
-5.  Click the **Save** button ![Save button](media/save-icon.png "Save button") to confirm your edits.  
+5.  Click the **Save** button ![save button](media/save-icon.png "Save button") to confirm your edits.  
   
 ### Delete a custom location group  
  You can delete custom location groups that are no longer required. Predefined location groups can’t be deleted. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
@@ -237,7 +237,7 @@ Define system settings that apply to the entire organization, like solution name
   
 2.  In the **Global Settings** pane, click **Location Groups**.  
   
-3.  In the list of location groups, select the location group, and then click **Delete** ![Delete button](media/trashbin-icon.png "Delete button").  
+3.  In the list of location groups, select the location group, and then click **Delete** ![delete button](media/trashbin-icon.png "Delete button").  
   
 4.  In the overlay notification, review the information, and then click **OK** to confirm your deletion.  
   

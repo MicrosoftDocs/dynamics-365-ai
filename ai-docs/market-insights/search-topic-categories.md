@@ -39,7 +39,7 @@ You can use categories to structure and group search topics in  ways that make t
   
 1.  Go to **Search setup**.  
   
-2.  In the **Categories** pane, click the **Add category** button ![Add button](media/add-icon.png "Add button").  
+2.  In the **Categories** pane, click the **Add category** button ![add button](media/add-icon.png "Add button").  
   
 3.  Provide a name for the new category in the text box.  
   
@@ -52,7 +52,7 @@ You can use categories to structure and group search topics in  ways that make t
   
 2.  In the **Categories** pane, select the category that you want to edit.  
   
-3.  Click the **More actions** button ![More options](media/more-options-icon.png "More options"), and then click the **Rename** button ![Edit button](media/edit-icon.png "Edit button").  
+3.  Click the **More actions** button ![more options](media/more-options-icon.png "More options"), and then click the **Rename** button ![edit button](media/edit-icon.png "Edit button").  
   
 4.  Update the name for the category in the text box.  
   
@@ -67,7 +67,7 @@ You can use categories to structure and group search topics in  ways that make t
   
 2.  In the **Categories** pane, select the category that you want to delete.  
   
-3.  Click the **More actions** button ![More options](media/more-options-icon.png "More options"), and then click the **Delete** button ![Delete button](media/delete-icon.png "Delete button").  
+3.  Click the **More actions** button ![more options](media/more-options-icon.png "More options"), and then click the **Delete** button ![delete button](media/delete-icon.png "Delete button").  
   
 4.  Confirm your deletion.  
   

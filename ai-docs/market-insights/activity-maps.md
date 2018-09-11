@@ -36,7 +36,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
 ## Create an activity map  
   
 1. Go to **Activity Maps**.  
-2. On the **Activity Maps** pane, click the **Add** button ![Add button](media/add-icon.png "Add button").  
+2. On the **Activity Maps** pane, click the **Add** button ![add button](media/add-icon.png "Add button").  
 3. Enter the details on the **Activity Maps Details** page.  
   
    - **Name**: Enter a name for the new activity map.  
@@ -49,7 +49,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
   
        - **Sentiment map:** Displays the sentiment values for the conversations, based on the location.  
   
-   - **Filters**: Select the filters you want to create the activity map from. You can use **All Search Topics** or choose **Change** ![Edit button](media/edit-icon.png "Edit button") to select filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md)  
+   - **Filters**: Select the filters you want to create the activity map from. You can use **All Search Topics** or choose **Change** ![edit button](media/edit-icon.png "Edit button") to select filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md)  
   
        > [!IMPORTANT]
        >  Make sure that your data set contains posts that the activity map can display. If you configure an activity map that has a data set that doesn't include location information (for example, if you filter only by Blogs, which don't support location data), the activity map won't display any data.
@@ -66,7 +66,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
   
 1.  Go to **Activity Maps**.  
   
-2.  From the list, select the activity map, and then click the globe button ![Globe](media/globe-icon.png "Globe") to see the default view of the selected activity map.  
+2.  From the list, select the activity map, and then click the globe button ![globe](media/globe-icon.png "Globe") to see the default view of the selected activity map.  
   
 3.  Single posts are repesented in smaller shapes than post clusters. 
 
@@ -89,13 +89,13 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
  **Sample activity map**  
   
- ![Activity map in Social Engagement](media/activity-map.png "Activity map in Social Engagement")  
+ ![activity map in market insights](media/activity-map.png "Activity map in Market Insights")  
   
 ## View and understand sentiment values on an activity map  
   
 1. Go to **Activity Maps**.  
   
-2. From the list, select the activity map, and then click the globe button ![Globe](media/globe-icon.png "Globe").  
+2. From the list, select the activity map, and then click the globe button ![globe](media/globe-icon.png "Globe").  
   
 3. In the header area, click **Sentiment map** if sentiment map is not your default view.  
   
@@ -104,7 +104,7 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
    > [!TIP]
    >  In the header section, the sentiment map denotes the legend in detail. Select the appropriate button in the sentiment filter widget (next to the map legend) to filter the activity map for a specific sentiment value and view it.  
    > 
-   >  Click the green button ![Positive sentiment](media/positive-sentiment-symbol.png "Positive sentiment") to view only positive sentiment, the red button ![Negative sentiment](media/negative-sentiment-symbol.png "Negative sentiment") to view negative sentiment, and the gray button for neutral sentiment ![Neutral sentiment](media/neutral-sentiment-symbol.png "Neutral sentiment"). You can select more than one value.  
+   >  Click the green button ![positive sentiment](media/positive-sentiment-symbol.png "Positive sentiment") to view only positive sentiment, the red button ![negative sentiment](media/negative-sentiment-symbol.png "Negative sentiment") to view negative sentiment, and the gray button for neutral sentiment ![neutral sentiment](media/neutral-sentiment-symbol.png "Neutral sentiment"). You can select more than one value.  
    > 
    >  When you select a specific sentiment value&mdash;for example, Positive&mdash;only posts with positive sentiment will be displayed on the map, and the positive sentiment button on the header shows 100%. All KPIs and charts will be filtered by the selection you make on the sentiment filter.  
    > 
@@ -114,14 +114,14 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
 1. Go to **Activity Maps**.  
   
-2. From the list, select the activity map, and then click the globe button ![Globe](media/globe-icon.png "Globe").  
+2. From the list, select the activity map, and then click the globe button ![globe](media/globe-icon.png "Globe").  
   
 3. On the right side of the map, click **Posts**.  
   
 4. Select the post from the list, and then perform the required actions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
 ## Understand the posts peaks on an activity map  
- Activity maps display up to 5,000 posts at a time. If your data set contains more fresh posts per hour (or for the selected time span), and the total posts cross the peak value of 5,000, older posts automatically disappear from the map’s display and you always see the latest ones. In this scenario, the header section of the activity map displays a clickable notification ![Exclamation mark](media/exclamation-mark-symbol.png "Exclamation mark") that provides the current visualization details.  
+ Activity maps display up to 5,000 posts at a time. If your data set contains more fresh posts per hour (or for the selected time span), and the total posts cross the peak value of 5,000, older posts automatically disappear from the map’s display and you always see the latest ones. In this scenario, the header section of the activity map displays a clickable notification ![exclamation mark](media/exclamation-mark-symbol.png "Exclamation mark") that provides the current visualization details.  
   
 ## View conversation insights on an activity map  
  Understand the top and trending phrases of the current conversations that you’re interested in. Watch these further or work on these as required for your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md), [Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)  
@@ -131,7 +131,7 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
 1. Go to **Activity Maps**.  
   
-2. From the list, select the activity map, and then click the globe button ![Globe](media/globe-icon.png "Globe").  
+2. From the list, select the activity map, and then click the globe button ![globe](media/globe-icon.png "Globe").  
   
 3. On the left side of the map, click **Insights**.  
   
@@ -142,22 +142,22 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
 1.  Go to **Activity Maps**.  
   
-2.  From the list, select the activity map, and then click the globe button ![Globe](media/globe-icon.png "Globe").  
+2.  From the list, select the activity map, and then click the globe button ![globe](media/globe-icon.png "Globe").  
   
-3.  In the header area, click the **Area filter** button ![Area filter](media/area-filter-icon.PNG "Area filter").  
+3.  In the header area, click the **Area filter** button ![area filter](media/area-filter-icon.PNG "Area filter").  
   
 4.  Use the rectangular selector to focus on a specific area of the map.  
   
 5.  View the real-time data for this area, and perform any required actions.  
   
     > [!NOTE]
-    >  You can zoom in on this area by clicking the magnifier button ![Search button](media/magnifier-icon.png "Search button").  
+    >  You can zoom in on this area by clicking the magnifier button ![search button](media/magnifier-icon.png "Search button").  
   
-6.  When you’re done, click the area filter button again to disable it, or click ![Area filter disable](media/disable-area-filter-icon.png "Area filter disable") at the top of the selector.  
+6.  When you’re done, click the area filter button again to disable it, or click ![area filter disable](media/disable-area-filter-icon.png "Area filter disable") at the top of the selector.  
   
 ## View an activity map’s data in other areas of [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]
   
-View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
   
@@ -169,7 +169,7 @@ View the data set selected for an activity map in other areas of [!INCLUDE[pn_ne
   
 1.  Go to **Activity Maps**.  
   
-2.  Select the activity map, and then click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") .  
+2.  Select the activity map, and then click the **Delete** button ![delete button](media/trashbin-icon.png "Delete button") .  
   
 3.  Confirm the deletion.  
   
@@ -181,13 +181,13 @@ View the data set selected for an activity map in other areas of [!INCLUDE[pn_ne
   
 1. Go to **Activity Maps**.  
   
-2. From the list, select the activity map to view, and then click the globe button ![Globe](media/globe-icon.png "Globe").  
+2. From the list, select the activity map to view, and then click the globe button ![globe](media/globe-icon.png "Globe").  
   
-3. On the lower right side of the map, click the **Open the activity map in full screen** button ![Full screen enable](media/enable-fullscreen-activity-map.png "Full screen enable").  
+3. On the lower right side of the map, click the **Open the activity map in full screen** button ![full screen enable](media/enable-fullscreen-activity-map.png "Full screen enable").  
   
    > [!NOTE]
-   > - You can hide the header for a better view of the map. Click the **Collapse header** button ![Header collapse](media/collapse-header-icon.png "Header collapse") to hide.  
-   >   -   To exit full screen, press escape or click the **Exit full screen mode** button ![Full screen disable](media/disable-fullscreen-activity-map.png "Full screen disable").  
+   > - You can hide the header for a better view of the map. Click the **Collapse header** button ![header collapse](media/collapse-header-icon.png "Header collapse") to hide.  
+   >   -   To exit full screen, press escape or click the **Exit full screen mode** button ![full screen disable](media/disable-fullscreen-activity-map.png "Full screen disable").  
   
 ### See Also  
  [Get relevant data using filters](use-filters.md)   

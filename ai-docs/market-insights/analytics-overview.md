@@ -29,17 +29,17 @@ Start your analysis with an overview of the data that your solution has acquired
   
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Overview** to access the overview page.  
 
-![Screenshot of the overview page in the Analytics area of Social Engagement](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Social Engagement")
+![screenshot of the overview page in the analytics area of market insights](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Market Insights")
   
 > [!NOTE]
 > **Overview** is the default page when you go to the Analytics area, or when you choose **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** on the navigation bar.  
 
 ## Authors
 
-The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
 > [!NOTE]
-> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+> Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
 
 ## Languages
@@ -76,14 +76,14 @@ Dynamic widget. Shows only if the data set contains posts with sentiment values.
 ## Sentiment by category/search topic
 
 View the sentiment index and sentiment trends for all posts that have a sentiment value in categories or search topics, sorted by volume.    
-Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.
+Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.
 
 Dynamic widget. Shows only if your data set contains posts with sentiment value. If you include all search topics in your data set, it will show the sentiment by categories. If you include a category in your data set, it will show the sentiment by search topic.
 
 ## Sources
 
 Shows the number of posts in the most active sources and summarizes how many posts were found in other sources.    
-Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
+Click the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
 
 ## Volume
 

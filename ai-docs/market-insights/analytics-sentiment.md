@@ -29,7 +29,7 @@ View and understand social sentiment in posts that are found by your search topi
 
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Sentiment** to learn more  about sentiment across posts in your data set.  
 
-![Screenshot of the sentiment page in the Analytics area of Social Engagement](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Social Engagement")
+![screenshot of the sentiment page in the analytics area of market insights](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Market Insights")
 
 **Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. For more information on supported languages, download the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
 
@@ -47,10 +47,10 @@ Formula:
 
 ## Authors
 
-The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location about the 100 most-active authors and their posts.    
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location about the 100 most-active authors and their posts.    
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
 > [!NOTE]
-> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") that you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+> Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") that you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
 
 ## Location insights
