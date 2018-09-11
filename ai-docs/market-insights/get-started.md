@@ -150,7 +150,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Market Insights](posts-conversations.md)  
   
 ## Get around in the Settings area  
- Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-microsoft-social-engagement.md).  
+ Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-first-steps.md).  
   
  ![settings area in market insights](media/settings-areas-explained.png "Settings area in Market Insights")  
   
