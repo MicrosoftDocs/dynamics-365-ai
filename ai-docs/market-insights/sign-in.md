@@ -20,7 +20,7 @@ search.app:
   - D365SE
 ---
 
-# Sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
+# Sign in to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
 
 To sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](manage-licenses.md).  
   
@@ -40,7 +40,7 @@ Sign in to the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.m
   
 2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials—for example, user@contoso.onmicrosoft.com.  
   
-3. From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]**.  
+3. From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]**.  
   
     You'll be redirected to your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.  
   

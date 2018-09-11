@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Manage connections in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets admins connect to and share social data with other applications. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Settings area. The type of connection you create depends on the application you want to connect to.  
+[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] lets admins connect to and share social data with other applications. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Settings area. The type of connection you create depends on the application you want to connect to.  
   
  ![connections page in the microsoft dynamics 365 ai for market insights settings area](media/settings-on-connections-page.png "Connections page in the Microsoft Dynamics 365 AI for Market Insights Settings area")  
   

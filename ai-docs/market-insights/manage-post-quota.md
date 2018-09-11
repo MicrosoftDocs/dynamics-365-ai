@@ -58,7 +58,7 @@ To get a quick overview of the post quota for all your search topics, for single
   
 
 ### Impact of exceeding limits  
- All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
+ All [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](https://portal.office.com/) at any time to unblock your solution immediately.  
 
@@ -87,9 +87,9 @@ Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] sele
 When you run out of post quota and data acquisition has stopped, your organization's admin can buy add-on subscriptions for additional post quota. 
 
 Three types of quota add-on subscriptions are available. They are billed on a monthly basis. The price per post drops with the size of the add-on subscription. 
-- [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (no minimum): 10,000 posts per month.
-- [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
-- [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
+- [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Additional 10,000 posts (no minimum): 10,000 posts per month.
+- [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
+- [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
 
 [Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
@@ -107,7 +107,7 @@ For more information, see [Pricing and licensing for Dynamics 365](http://go.mic
 
 3. Go to **Billing**, and then select **Purchase services**.
 
-4. Scroll down to the **Add-on subscription** section and look for the **[!include[](../includes/pn-social-engagement-long.md)] Additional 10k posts** add-on subscriptions.
+4. Scroll down to the **Add-on subscription** section and look for the **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Additional 10k posts** add-on subscriptions.
 
 5. Click **Buy now**, and then complete the billing process.
 

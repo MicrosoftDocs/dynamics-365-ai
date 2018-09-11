@@ -25,7 +25,7 @@ search.app:
 
 # Understand user roles
 
-Administrators can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  
+Administrators can assign roles with appropriate permissions for your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  
 
 Every invited user should be assigned both types of roles.  
 

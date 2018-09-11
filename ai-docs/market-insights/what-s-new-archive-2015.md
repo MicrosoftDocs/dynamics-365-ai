@@ -23,9 +23,9 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Updates
+# [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] 2015 Updates
 
-## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.2 
+## [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] 2015 Update 1.2 
  
 ### Create records in Dynamics 365 from a post in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] 
  Admins can now connect one or more [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance with their organization’s [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution to create social activities and records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from a post in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. With these new capabilities, increase the efficiency of your sales, marketing, and service teams, by creating rules for automatic conversions of social activity to any system or custom record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You'll be able to create or update one or more records from a single social activity, and provide additional information to define conditions in the conversion rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
@@ -42,7 +42,7 @@ search.app:
 ### Social profiles moved to personal settings area 
  You can now manage your social profiles by navigating to Settings > Personal Settings > Social Profiles. For more information on how to work with social profiles, see [Manage social profiles](manage-social-profiles.md) 
  
-## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.1 
+## [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] 2015 Update 1.1 
  
 ### Visualize posts in real-time with activity maps 
  Create and manage activity maps to see real-time visualizations of posts with location information. Show this on a large screen and let your audience know where your topics are being discussed in the world. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](activity-maps.md) 
@@ -62,10 +62,10 @@ search.app:
 ### Provide delegated administration privileges to Microsoft cloud service providers 
  Customers can now delegate the administration of their [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution to a cloud service provider, without adding the service provider as a licensed user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](delegated-admin.md) 
  
-## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1 
+## [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] 2015 Update 1 
  
 ### Listen, analyze, and engage on social posts 
- With the redesigned user interface, which puts the information up front, it’s easier than ever to navigate and find the posts that matter to you, so you can analyze and take action on them. You can now find the posts that matter to you, analyze them, and take action on those posts in a single application. To reflect the addition of Social Center functionality, the product name has changed to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. 
+ With the redesigned user interface, which puts the information up front, it’s easier than ever to navigate and find the posts that matter to you, so you can analyze and take action on them. You can now find the posts that matter to you, analyze them, and take action on those posts in a single application. To reflect the addition of Social Center functionality, the product name has changed to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. 
  
 ### Stay connected with your audience using Social Center 
  Engage with your audience on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], directly from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. With Social Center, you can create and share user-based streams to follow conversations and collaborate when working with posts. Assign posts to other users and add custom labels to a post. You can also authenticate social profiles and reply to posts or direct messages in real time. More information: [Keep track of live data streams with Social Center](social-center.md) 
@@ -85,5 +85,5 @@ search.app:
 ### Choose from two color themes 
  You can display the user interface for the Analytics areas, Social Center, and Search setup in either a light or a dark color theme. More information: [Set your preferences for the user interface](user-preferences.md). 
  
-### Explore [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] with more multimedia content 
+### Explore [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] with more multimedia content 
  There’s more multimedia content added regularly to help you understand different aspects of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. To find a list of available videos and eBooks, see [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708). 

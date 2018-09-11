@@ -25,14 +25,14 @@ search.app:
 
 # Manage licenses for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
+Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
 
 ## Prepare your organization
 
 For step-by-step instructions on adding a service to an existing [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, see [Office help: Manage a subscription](http://go.microsoft.com/fwlink/p/?LinkId=392376).
 
-As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] customer, review [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462) if the organization is eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses.
+As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] customer, review [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462) if the organization is eligible for [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] user licenses.
 
 If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription yet, you need to create an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant for your organization.
 
@@ -58,7 +58,7 @@ Enable users to work with [!INCLUDE[Market Insights](../includes/pn-market-insig
 
 2. In the **Product licenses** tab, select **Edit**.
 
-3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **On**.
+3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]** to **On**.
 
 4. Select **Save** to confirm your change and update the user's product licenses.  
 
@@ -73,7 +73,7 @@ Removing a user's license  from [!INCLUDE[Market Insights](../includes/pn-market
 
 2. In the **Product licenses** tab, select **Edit**.
 
-3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **Off**.
+3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]** to **Off**.
 
 4. Select **Save** to confirm your change and update the user's product licenses.
 
@@ -86,7 +86,7 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], select **Billing** > **Purchase Services**.
 
-2. Select the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] add-in or user licenses you want to purchase, and then select **Change license quantity**. Customize your order by choosing the number of licenses you'd like to order.
+2. Select the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] add-in or user licenses you want to purchase, and then select **Change license quantity**. Customize your order by choosing the number of licenses you'd like to order.
 
 3. Follow the checkout procedure to confirm your purchase.
 

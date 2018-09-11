@@ -32,7 +32,7 @@ In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to *
 ![screenshot of the overview page in the analytics area of market insights](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Market Insights")
   
 > [!NOTE]
-> **Overview** is the default page when you go to the Analytics area, or when you choose **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** on the navigation bar.  
+> **Overview** is the default page when you go to the Analytics area, or when you choose **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]** on the navigation bar.  
 
 ## Authors
 

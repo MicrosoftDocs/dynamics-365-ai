@@ -29,7 +29,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 <a name="prerequisites"></a>   
 ## Prerequisites  
   
-- Your organization owns [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Enterprise licenses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462), [Manage licenses for Market Insights](manage-licenses.md)  
+- Your organization owns [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Enterprise licenses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462), [Manage licenses for Market Insights](manage-licenses.md)  
   
 - You have a Manager or Administrator user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   

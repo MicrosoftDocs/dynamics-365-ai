@@ -24,12 +24,12 @@ search.app:
 ---
 
 # Manage global settings
-Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, letting your users start efficiently with your organizational requirements.  
+Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution, letting your users start efficiently with your organizational requirements.  
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
   
- If you aren’t an administrator, you can only override the default values for how [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](user-preferences.md#EditPrefs)  
+ If you aren’t an administrator, you can only override the default values for how [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](user-preferences.md#EditPrefs)  
   
 <a name="Edit_solution_name"></a>   
 ## Edit the solution name  
@@ -184,7 +184,7 @@ Define system settings that apply to the entire organization, like solution name
  To remove a status label, click **Delete** ![delete button](media/delete-icon.png "Delete button") next to the label description, and then confirm your deletion.  
   
 ## Create and manage location groups  
- Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can create custom location groups or use the predefined ones.  
+ Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. You can create custom location groups or use the predefined ones.  
   
 ### Find available location groups  
   

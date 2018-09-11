@@ -24,7 +24,7 @@ search.app:
 
 # [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Readme
 
-This document provides important, late-breaking information about [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)].
+This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].
 
 ## Resources
 

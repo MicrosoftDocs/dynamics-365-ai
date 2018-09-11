@@ -24,7 +24,7 @@ search.app:
 
 # Manage access tokens
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] requires you to provide access tokens in order to acquire data from some sources and interact with posts using social profiles. Access tokens enable data acquisition and can be easily supplied by [adding a social profile](manage-social-profiles.md) in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] where users sign in to social media accounts. We recommend that multiple users add tokens to guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens.  
+[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] requires you to provide access tokens in order to acquire data from some sources and interact with posts using social profiles. Access tokens enable data acquisition and can be easily supplied by [adding a social profile](manage-social-profiles.md) in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] where users sign in to social media accounts. We recommend that multiple users add tokens to guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens.  
 
 > [!NOTE]
 > The data acquired through a user's token is exclusively available in your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solutions.  
@@ -49,7 +49,7 @@ Adding tokens for data acquisition allows you to acquire posts from some sources
 You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
 
 > [!NOTE]
-> Provided tokens will expire after 60 days. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will notify you to reauthenticate your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
+> Provided tokens will expire after 60 days. [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] will notify you to reauthenticate your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
 > 
 > [!IMPORTANT]
 > While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.

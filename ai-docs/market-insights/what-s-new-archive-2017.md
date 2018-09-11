@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2017 Updates
+# [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] 2017 Updates
 
 ## [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] 2017 Update 1.11
 
@@ -103,7 +103,7 @@ Whenever you open a post that has a parent post, you can switch to that parent p
 
 ### Twitter data use license requirements 
 
-Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services (ToS). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For easy reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] service.  
+Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services (ToS). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For easy reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] service.  
 
 ### Service and product improvements
 

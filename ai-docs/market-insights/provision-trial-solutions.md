@@ -60,7 +60,7 @@ This article provides a step-by-step guide to get up and running with a [trial s
 9. Select a user you want to give access to the trial and select **Edit** in the **Product licenses** section.   
    ![edit product licenses for a user](media/mse-trial-existing-edit-license.png "Edit product licenses for a user")
 
-10. Ensure that both, a Dynamics 365 license and the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Enterprise** license are set to **On**.   
+10. Ensure that both, a Dynamics 365 license and the **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Enterprise** license are set to **On**.   
    ![assigned licenses in the office 365 admin center](media/mse-trial-existing-assigned-licenses.png "Assigned licenses in the Office 365 admin center")
 
 11. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will be available for the selected user in the configured tenant within 5-10 minutes. If [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] isn't available from the app switcher in the top-right corner, close your browser and sign in with a private session again.

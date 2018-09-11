@@ -22,9 +22,9 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] FAQ
+# [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] FAQ
 
-Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
+Are you new to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
 
 ## How can I respond to a Data Subject Request (DSR) in context of GDPR?
 

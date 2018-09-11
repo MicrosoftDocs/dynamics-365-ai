@@ -24,10 +24,10 @@ search.app:
   - D365SE
 ---
 
-# Accessibility for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
+# Accessibility for [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
 
 [Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
+[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
 ## Accessibility capabilities built into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 

@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Adaptive learning based on changes to organization’s sentiment values
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
+[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
   
 To manage adaptive learning in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you need to be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator. Every user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   

@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Set your preferences for the user interface
-When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] profile, you can select the following:  
+When Administrators set up [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] profile, you can select the following:  
   
 - Screen language  
   

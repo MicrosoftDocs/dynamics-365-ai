@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Get details on specific authors
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into an author's profile on social media. Learn about their interests and topics, to keep track of people who impact your social feed.  
+[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into an author's profile on social media. Learn about their interests and topics, to keep track of people who impact your social feed.  
   
 ## Access author details in Analytics and Social Center  
 To see author details in posts, click **Posts** on the right side of any analytics page. Or go to **Social Center** to access your streams, and tap on the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] author profile picture in a post. To go back to your stream feed, click **Back to**.  

@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Check the health state of your social profiles
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides health state checks for tokens of social profiles for data acquisition and interaction so you can make sure they are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will notify you through email and in the application when your critical acquisition [tokens are about to expire](manage-access-tokens.md).  
+[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] provides health state checks for tokens of social profiles for data acquisition and interaction so you can make sure they are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will notify you through email and in the application when your critical acquisition [tokens are about to expire](manage-access-tokens.md).  
 
  socialengagement@microsoft.com will send email notifications for the following scenarios:  
 

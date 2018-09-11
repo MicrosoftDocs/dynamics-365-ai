@@ -20,7 +20,7 @@ search.app:
   - D365SE
 ---
 # Assign permissions and user roles
-Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
+Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
   
 > [!NOTE]
 >  You must be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator to perform these tasks.  
@@ -61,7 +61,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 <a name="EmailUsers"></a>   
 ## Send email to users  
-Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
+Use your email client to send email to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
   
 1.  Navigate to **Settings** > **User Management**.  
   

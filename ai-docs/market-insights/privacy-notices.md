@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Privacy Notices
+# [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Privacy Notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
 

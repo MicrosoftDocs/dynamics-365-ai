@@ -20,7 +20,7 @@ search.app:
   - D365SE
 ---
 # Get help with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
-We maintain [online help](index.md) and a first-use experience to get started with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]:  
+We maintain [online help](index.md) and a first-use experience to get started with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]:  
   
 - **First things first:** Find help for relevant tasks for your user role when you sign in the first time. To see the tasks after your first sign-in, go to the Analytics area, click the Help button ![help button](media/help-icon.png "Help button") on the nav bar, and then select **First things first**.  
   

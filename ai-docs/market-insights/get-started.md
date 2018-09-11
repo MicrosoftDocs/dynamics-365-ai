@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Get started with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
-This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
+This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
 ## Prerequisites  
  To provide you the best experience with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], it's a good idea to keep your browser updated to the latest version.  
@@ -108,7 +108,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](settings-administration.md)  
   
-- **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Help Center (opens a new website) to see the latest help topics.  
+- **Help**: Visit the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Market Insights](get-help.md)  
   
@@ -150,7 +150,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Market Insights](posts-conversations.md)  
   
 ## Get around in the Settings area  
- Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-first-steps.md).  
+ Administer your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-first-steps.md).  
   
  ![settings area in market insights](media/settings-areas-explained.png "Settings area in Market Insights")  
   
