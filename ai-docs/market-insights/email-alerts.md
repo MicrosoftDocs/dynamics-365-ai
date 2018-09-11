@@ -33,7 +33,7 @@ You can create email notifications to automatically send to a group of recipient
 
 Configure and manage your alerts in the **Message Center**. Your alerts configuration is visible only to you. Recipients of the alert won't be able to see or edit your alert configuration. However, an admin can remove email addresses from all alerts they are mapped to. 
 
-Alert emails contain a link to the data set that matches the posts that triggered the alert. Choose this link to open and review the content in [!include[](../includes/pn-social-engagement-short.md)].
+Alert emails contain a link to the data set that matches the posts that triggered the alert. Choose this link to open and review the content in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
 ## View your alerts list
 

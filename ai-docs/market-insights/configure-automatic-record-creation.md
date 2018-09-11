@@ -27,11 +27,11 @@ search.app:
 
 To automatically create an entity record (such as a Case or a Lead) from a Social Activity record in [!include[](../includes/pn-dynamics-crm.md)], an administrator or customizer must configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)].
 
-In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link a post to Dynamics 365](link-posts-to-dynamics-365.md), a Social Activity record is created in the connected [!include[](../includes/pn-dynamics-crm.md)] instance. The entity type the user creates in [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] (Case, Lead, and so on) is passed on as part of the [JSON Payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity) to the social activity in [!include[](../includes/pn-dynamics-crm.md)].
+In [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], when users [link a post to Dynamics 365](link-posts-to-dynamics-365.md), a Social Activity record is created in the connected [!include[](../includes/pn-dynamics-crm.md)] instance. The entity type the user creates in [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] (Case, Lead, and so on) is passed on as part of the [JSON Payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity) to the social activity in [!include[](../includes/pn-dynamics-crm.md)].
 
 
 > [!IMPORTANT]
->  Without Automatic Record Creation and Update Rules, the Social Activity record created in [!include[](../includes/pn-dynamics-crm.md)] by [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] does not automatically result in a corresponding [!include[](../includes/pn-dynamics-crm.md)] entity record (such as a Case or Lead record).
+>  Without Automatic Record Creation and Update Rules, the Social Activity record created in [!include[](../includes/pn-dynamics-crm.md)] by [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] does not automatically result in a corresponding [!include[](../includes/pn-dynamics-crm.md)] entity record (such as a Case or Lead record).
 
 ![open drop-down menu with case and lead options for creating a record in dynamics 365 from within market insights](media/select-entity-mse.png "Open drop-down menu with Case and Lead options for creating a record in Dynamics 365 from within Market Insights")
 
@@ -90,7 +90,7 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
 17. Click **Save & Close** to finalize the rule.
 
 18. Verify that the rules were created, and then select **Activate** to activate the rule.    
-    Social Activity entities created from [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] will now automatically create the configured record type in [!include[](../includes/pn-dynamics-crm.md)]. 
+    Social Activity entities created from [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will now automatically create the configured record type in [!include[](../includes/pn-dynamics-crm.md)]. 
 
     ![activate the newly created rule to automatically turn social activity entities into other record types](media/activate-update-rule.png "Activate the newly created rule to automatically turn Social Activity entities into other record types")
 

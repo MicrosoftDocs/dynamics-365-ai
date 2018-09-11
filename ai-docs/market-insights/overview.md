@@ -33,7 +33,7 @@ Social media is no longer relegated to a select few in the marketing department.
 
 ## Success stories
 
-See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to address their use cases.  
+See how some of our customers are using [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to address their use cases.  
 
 -   [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)&mdash;transforming customer service and social insights.
 
@@ -48,9 +48,9 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 
 ## Pricing information
 
-[!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
 
-Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
+Note that [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
 
 ## Getting started
 
