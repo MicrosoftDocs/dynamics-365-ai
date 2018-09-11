@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Help & Training
+# [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Help & Training
 
 <table>
 <tr>

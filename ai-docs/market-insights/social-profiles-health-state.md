@@ -24,7 +24,7 @@ search.app:
 ---
 
 # Check the health state of your social profiles
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides health state checks for tokens of social profiles for data acquisition and interaction so you can make sure they are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will notify you through email and in the application when your critical acquisition [tokens are about to expire](manage-access-tokens.md).  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides health state checks for tokens of social profiles for data acquisition and interaction so you can make sure they are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will notify you through email and in the application when your critical acquisition [tokens are about to expire](manage-access-tokens.md).  
 
  socialengagement@microsoft.com will send email notifications for the following scenarios:  
 
@@ -38,7 +38,7 @@ search.app:
 
 
 > [!NOTE]
-> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile again.
+> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile again.
 
 ## Social profile ownership  
  To claim ownership of an account, go to **Settings** > **Social Profiles**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)  

@@ -26,8 +26,8 @@ search.app:
 # Add rules to a search topic
 Search topics define the data that's available for your analysis. You can add an unlimited number of search rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time, and add more rules or change existing ones.
 
-[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports the following search rules. 
-You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator or Power Analyst to create or modify search topics.
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] supports the following search rules. 
+You need to be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator or Power Analyst to create or modify search topics.
 
 - **[Keywords rule](#add-a-keywords-rule)** ![keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query that consists of keywords, inclusions, and exclusions.
 
@@ -35,7 +35,7 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 
 - **[Twitter rule](#add-a-twitter-rule)** ![twitter symbol](media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
 
-- **[Private messages rule](#add-a-private-messages-rule)** ![private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that has been authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [allows private message acquisition](manage-access-tokens.md#tokens-for-data-acquisition).
+- **[Private messages rule](#add-a-private-messages-rule)** ![private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that has been authenticated in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and [allows private message acquisition](manage-access-tokens.md#tokens-for-data-acquisition).
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![custom sources symbol](media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
@@ -136,7 +136,7 @@ To exclude multiple terms, the exclusions must be added to the same search rule.
 Exclusions are a great way to reduce the number of posts that result from your search and make sure you stay within your post quota. However, you should choose your exclusions carefully to avoid missing relevant posts.  
   
 ### Handle special characters in keywords, inclusions, and exclusions  
-Exact searches are critical to successful social listening. Special characters are often used in brand or product names in the form of connectors. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interprets the special characters +, &, /,  and - as separate entities in a search rule.  
+Exact searches are critical to successful social listening. Special characters are often used in brand or product names in the form of connectors. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] interprets the special characters +, &, /,  and - as separate entities in a search rule.  
   
 For example, searching for the term **City Power & Light** will result in posts that mention this term with all combinations of white space. Posts that contain any of the following terms (not case-sensitive) will be picked up by the search:  
   
@@ -149,7 +149,7 @@ For example, searching for the term **City Power & Light** will result in posts 
 -   City Power&Light (no white space before or after the special character)  
   
 #### Additional special characters  
-Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] regularly use #hashtags and \@mentions. [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors also will use $stocktweets. Use those special characters if you want to search explicitly for #hashtags, $stocktweets, or \@mentions. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interprets those terms as unique entities when they're added to a search rule.  
+Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] regularly use #hashtags and \@mentions. [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors also will use $stocktweets. Use those special characters if you want to search explicitly for #hashtags, $stocktweets, or \@mentions. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] interprets those terms as unique entities when they're added to a search rule.  
   
 For example, searching for the term **#contoso** will only find results that contain the exact match of the hashtag.  
   
@@ -168,7 +168,7 @@ Although you can create an unlimited number of search rules per search topic, th
   
 <a name="addFacebookRule"></a>   
 ## Add a Facebook pages rule  
-Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. Usually, you follow conversations on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page in full context and don't look only at specific posts. If you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to a search topic, you can make sure that all posts on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page (such as posts from the audience and the page, or comments from the page and the audience) are captured for further processing in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. Usually, you follow conversations on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page in full context and don't look only at specific posts. If you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to a search topic, you can make sure that all posts on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page (such as posts from the audience and the page, or comments from the page and the audience) are captured for further processing in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
 ### Add a new Facebook pages rule  
   
@@ -230,11 +230,11 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and ad
   
 <a name="privateMessagesRule"></a>   
 ## Add a private messages rule  
-To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users send or receive on an added social profile, create a private messages rule in a search topic. You can create a private messages rule for every social profile if the owner of the social profile allows the data acquisition of private messages.  
+To see the details of private messages that [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] users send or receive on an added social profile, create a private messages rule in a search topic. You can create a private messages rule for every social profile if the owner of the social profile allows the data acquisition of private messages.  
   
 > [!IMPORTANT]
-> If you add a private messages rule, all private messages (except where the message is an image only) that were sent to the selected profile are visible in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
-> When you add a new private messages rule, posts from the past days get acquired once by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and thus count toward your monthly post quota. 
+> If you add a private messages rule, all private messages (except where the message is an image only) that were sent to the selected profile are visible in your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
+> When you add a new private messages rule, posts from the past days get acquired once by [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and thus count toward your monthly post quota. 
 > - [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]: Private messages from the past 3 days.
 > - [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]: Up to 600 direct messages from the past 12 days.
 
@@ -251,8 +251,8 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 5. Select the social profile for which you want the private messages to be available in Analytics. Keep in mind that you can only choose from social profiles whose owners explicitly allowed data acquisition for private messages. You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![add button](media/add-icon.png "Add button")) next to each profile.  
   
    > [!NOTE]
-   > If the system can't identify a language in a private message, or if an identified language isn't supported by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these private messages will be mapped to the first selected search language in **Global Settings** > **Search Languages**. You can't change the identified language of a post. 
-   > Text content is critical for language recognition. Private messages that contain an image only don't get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+   > If the system can't identify a language in a private message, or if an identified language isn't supported by [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], these private messages will be mapped to the first selected search language in **Global Settings** > **Search Languages**. You can't change the identified language of a post. 
+   > Text content is critical for language recognition. Private messages that contain an image only don't get acquired by [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
   
 6. Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  

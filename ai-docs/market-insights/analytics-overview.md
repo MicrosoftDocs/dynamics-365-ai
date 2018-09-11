@@ -27,7 +27,7 @@ search.app:
 
 Start your analysis with an overview of the data that your solution has acquired so far. Find key widgets that provide information such as the volume of posts, their sources, sentiment, and where the posts are coming from.  
   
-In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Overview** to access the overview page.  
+In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Overview** to access the overview page.  
 
 ![screenshot of the overview page in the analytics area of market insights](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Market Insights")
   

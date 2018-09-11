@@ -22,7 +22,7 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Readme
+# [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Readme
 
 This document provides important, late-breaking information about [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)].
 
@@ -47,24 +47,24 @@ tablets, the following restrictions apply:
 
 -   Copyright and Translation Guide links in the page footer cannot be opened.
     However, you can access these links from the Dynamics 365 web client or in
-    [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+    [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
 ### Microsoft Dynamics 365 domains must be added to Allowed Domains to enable integration
 
-For integration between Microsoft Dynamics 365 and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)],
+For integration between Microsoft Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)],
 your [Microsoft Dynamics 365 domains must be added as allowed domains in
 Microsoft Social
 Engagement](connect-other-domains.md).
 This will ensure that only the Dynamics 365 domains you own can make requests to
 your data.
 
-If you are a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] administrator, you can do this by going to
+If you are a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] administrator, you can do this by going to
 **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as
-allowed domains to enable communication with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+allowed domains to enable communication with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
 > [!NOTE]
-> Prior to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2016 Update 1.12, we allowed
-all \*.dynamics.com domains to communicate with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by default.
+> Prior to the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] 2016 Update 1.12, we allowed
+all \*.dynamics.com domains to communicate with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by default.
 This is no longer supported.
 
 ### When you authenticate to Dynamics 365, and to Twitter and Facebook, pop-up windows are blocked in the browser
@@ -73,7 +73,7 @@ Pop-up blockers and feedback latency can negatively affect your experience when
 you try to add social profiles, add Twitter rules in **Search Setup**, and
 authenticate to your Microsoft Dynamics 365 instance.
 
-When [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] tries to open a pop-up window, in most cases it will be
+When [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] tries to open a pop-up window, in most cases it will be
 suppressed by your browser’s pop-up blocker. Please look for any notifications
 about blocked pop-up windows.
 
@@ -92,10 +92,10 @@ over.
 ### NAV integration and Microsoft Edge browser cause IFrame to stop loading
 
 When you use the Microsoft Edge browser with Dynamics NAV, there's an unsolved
-issue with the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] widget. When looking for a
+issue with the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] widget. When looking for a
 non-existing ID, the widget will stop loading. As a workaround, we suggest that
 you reload the page and make sure you have a valid Search topic ID. To do that,
-look for the Search topic in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Analytics page's
+look for the Search topic in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Analytics page's
 URL.
 
 ## Display of content - known issues
@@ -108,20 +108,20 @@ of the content considerably.
 
 ### A YouTube author name might be replaced with a YouTube channel name
 
-Due to a change in the YouTube API, in some cases, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
-cannot provide the YouTube author name. For those cases, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] tries
+Due to a change in the YouTube API, in some cases, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
+cannot provide the YouTube author name. For those cases, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] tries
 to find the name of the YouTube channel where the video was posted, and it uses
 the YouTube channel name for the author name.
 
-### YouTube videos in tweets are not always rendered in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### YouTube videos in tweets are not always rendered in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
 In the case where a video is shared directly from YouTube to Twitter, the video
-is not rendered in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Instead the link to the video is
+is not rendered in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Instead the link to the video is
 displayed in the respective tweet.
 
 ### A News post might not contain an original URL
 
-In addition to online news, the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] **News** source includes
+In addition to online news, the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] **News** source includes
 publications that are not publicly available on the web. In that case, no link
 to the original source is available for the post.
 
@@ -147,7 +147,7 @@ authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-enga
 
 ### Unknown Instagram authors
 
-Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This is a temporary issue and will be fixed with one of the upcoming releases. 
+Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This is a temporary issue and will be fixed with one of the upcoming releases. 
 
 ## Search setup - known issues
 
@@ -179,7 +179,7 @@ in **Search Setup**.
 
 ### Facebook Acquisition Notification in Analytics does not always disappear
 
-In some cases, the notification in Analytics that tells [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users
+In some cases, the notification in Analytics that tells [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] users
 that they do not have a valid token for Facebook Pages acquisition is wrongly
 displayed.
 
@@ -190,21 +190,21 @@ Analytics notification.
 ### Some Disqus posts are not acquired due to a missing URL in the post
 
 In some cases, Disqus posts are missing a URL. This can happen if posts are
-created through an API or through private channels. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] cannot
+created through an API or through private channels. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] cannot
 acquire messages that are missing a URL.
 
 ### Private messages and public messages from Facebook Pages and Twitter not always acquired
 
 In some cases, private messages and public messages from Facebook Pages and
-Twitter are not acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This can happen when a message
-was written in a non-supported language of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] or if the language
+Twitter are not acquired in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This can happen when a message
+was written in a non-supported language of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or if the language
 was not detected at all.
 
 ## Localization - known issues
 
 ### Localization of map labels is not available for Greek
 
-The Bing Maps embedded in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] do not support localization of map
+The Bing Maps embedded in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] do not support localization of map
 labels for Greek.
 
 ### Error messages for private messages aren't translated
@@ -216,7 +216,7 @@ On private message attachments, the error messages for an attachment that couldn
 ### Facebook video URL can expire
 
 Due to changes from Facebook, some videos provided in Microsoft Social
-Engagement are not playing anymore in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This is due
+Engagement are not playing anymore in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This is due
 to an expiration of the video URL. There is no workaround available to change
 the expiration. You can view the video directly from the Facebook post.
 
@@ -242,7 +242,7 @@ taking this action:
 
 -   For a social profile: Every user with the Interaction role "Manager" or
     "Responder" will be able to use the social profile in the publish actions
-    within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+    within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
 -   For a stream: Every user will see this stream on their Social Center page.
     Because there is no way to hide a stream, we recommend that you use this
@@ -261,18 +261,18 @@ When you go to the **Search Setup** area, you might see the quota warning
 notification that your solution might be or is already above quota. You can hide
 this notification by selecting the **Close** (X) button in the upper right
 corner. Once it’s closed, you can only get it back by refreshing your browser’s
-session with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+session with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-### [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] stops responding after you select the Include button
+### [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] stops responding after you select the Include button
 
 In Microsoft Edge or Internet Explorer, if you select too many authors and then
 select **Include**, the Authors widget in Full view mode might stop responding.
 The workaround is to refresh your browser, select fewer authors, and select 
 **Include** again.
 
-### Facebook pages can’t be authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### Facebook pages can’t be authenticated in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-Authenticating and reauthenticating Facebook pages as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
+Authenticating and reauthenticating Facebook pages as social profiles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
 
 ### Facebook page access tokens expire daily
 

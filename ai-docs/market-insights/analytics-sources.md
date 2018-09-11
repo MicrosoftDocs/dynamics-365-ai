@@ -27,7 +27,7 @@ search.app:
 
 Understand which social media sources are found most often in your search topics and analyze sources, such as top languages and user sentiment.  
   
-In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Sources** to see details about the sources of posts in your data set.  
+In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Sources** to see details about the sources of posts in your data set.  
 
 ![screenshot of the sources page in the analytics area of market insights](media/analytics-sources.png "Screenshot of the sources page in the Analytics area of Market Insights")
     

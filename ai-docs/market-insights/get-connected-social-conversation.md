@@ -18,11 +18,11 @@ manager: sakudes
 redirect_url: /dynamics365/customer-engagement/social-engagement/overview
 ---
 # Get connected to the social conversation by using [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
-There’s a good chance that your customers and stakeholders are talking about your company, your products, or your services somewhere on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)], blogs—or anywhere on the web. With [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can stay on top of what people are saying on social media about your products or services, so that you can respond quickly and address the issues effectively.  
+There’s a good chance that your customers and stakeholders are talking about your company, your products, or your services somewhere on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)], blogs—or anywhere on the web. With [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you can stay on top of what people are saying on social media about your products or services, so that you can respond quickly and address the issues effectively.  
 
  [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] collects data from social media websites and presents it to you in easy-to-consume charts and graphs. You can use these charts and graphs to spot emerging trends in people’s comments, whether they’re positive, negative, or neutral. You can even drill down into the data and find out who’s mentioning your company, products, or services, where they posted the comment, and what they said. Armed with these insights, you can pinpoint what you’re doing right, and you can address potential issues before bigger problems arise.  
 
-## Before you start using [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
+## Before you start using [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
 
 - Read the latest [Microsoft Dynamics 365 AI for Market Insights Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) to know any late-breaking changes to this release.  
 
@@ -43,7 +43,7 @@ There’s a good chance that your customers and stakeholders are talking about y
   <tr>
     <td>
     <ul>
-  <li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] overview</a></li>
+  <li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] overview</a></li>
   <li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
   <li><a href="social-selling-assistant-overview.md" data-raw-source="[Meet the Social Selling Assistant](social-selling-assistant-overview.md)">Meet the Social Selling Assistant</a></li>
   <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
@@ -75,6 +75,6 @@ There’s a good chance that your customers and stakeholders are talking about y
 </table>
 
 &gt; [!TIP]
-&gt;  To quickly access help topics when you&#39;re working with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], click the Help button <img src="media/help-icon.png" alt="Help button" title="Help button"/>, and then click **Help**.<br/>
+&gt;  To quickly access help topics when you&#39;re working with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], click the Help button <img src="media/help-icon.png" alt="Help button" title="Help button"/>, and then click **Help**.<br/>
 We welcome your feedback. Use the feedback link at the bottom of this page to share your comments with us.<br/>
 ### See Also<br/><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Microsoft Social Engagement</a><br/><a href="get-started.md" data-raw-source="[Get started with Market Insights](get-started.md)">Get started with Social Engagement</a><br/><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Microsoft Social Engagement</a>

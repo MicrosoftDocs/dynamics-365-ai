@@ -27,13 +27,13 @@ search.app:
 
 Get insights from geographical location information contained in posts or in authors’ profiles. Using the **Location** page, you can analyze your data set with a strong focus on where posts are coming from.  
 
-In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
+In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
 
 ![screenshot of the location page in the analytics area of market insights](media/analytics-location.png "Screenshot of the location page in the Analytics area of Market Insights")
 
 ## Types of location data  
 
-In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], two types of location data are available:  
+In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], two types of location data are available:  
 
 - **Author location:** Location data that is shared by a user through a profile, for example, on a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile page. It is an approximate value, because the system calculates geographical coordinates. If no post location is provided by the user, the author location is considered, where available.  
 
@@ -48,7 +48,7 @@ For the United States, you can choose between two ways of grouping visualized da
 
 ## Sources that provide location data  
 
-A subset of available sources provides location data. Authors need to share their location information, so it can be processed by [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)].  
+A subset of available sources provides location data. Authors need to share their location information, so it can be processed by [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
 ## Authors
 
 The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    

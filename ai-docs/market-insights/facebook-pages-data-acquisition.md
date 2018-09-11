@@ -35,7 +35,7 @@ Currently all you need is an [active acquisition token](manage-access-tokens.md#
 
 ## How will it work starting February 6, 2018?
 
-Your solution still needs an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user token to acquire any data from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]. In addition, you’ll also need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page access token to pull the author information for posts on that page. All posts on pages that you haven’t added to [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will appear without author information starting February 6, 2018. However, the content of all posts and comments as well as enrichments, such as sentiment, are continuing to be available.
+Your solution still needs an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user token to acquire any data from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]. In addition, you’ll also need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page access token to pull the author information for posts on that page. All posts on pages that you haven’t added to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will appear without author information starting February 6, 2018. However, the content of all posts and comments as well as enrichments, such as sentiment, are continuing to be available.
 
 
 > [!TIP]
@@ -60,13 +60,13 @@ Whenever a post is acquired from a specific [!INCLUDE[tn-facebook](../includes/t
 
 ## What’s the reason for this change?
 
-Starting February 6, 2018, [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't provide information about the author because [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] has changed its APIs. In the [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] user interface, these authors will be labelled as **Unknown author**. Author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages that you administer and provide a page access token to [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]. 
+Starting February 6, 2018, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can't provide information about the author because [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] has changed its APIs. In the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] user interface, these authors will be labelled as **Unknown author**. Author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages that you administer and provide a page access token to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. 
 
 ## Example case: Contoso
 
 ### Current setup 
 
-Let’s assume the organization *Contoso* currently uses [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] for tracking of their main competitor and to engage with their customers through social channels. For this they setup search rules for three [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages:
+Let’s assume the organization *Contoso* currently uses [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] for tracking of their main competitor and to engage with their customers through social channels. For this they setup search rules for three [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages:
 - Contoso
 - Fabrikam
 - Proseware

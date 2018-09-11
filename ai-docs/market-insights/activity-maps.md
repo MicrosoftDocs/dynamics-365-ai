@@ -82,7 +82,7 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
 5.  Click **Insights** on the left side of the map to view the phrases for the trending conversations.  
   
 > [!NOTE]
->  Posts deleted or edited from any other area of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will have applicable changes reflected in the map you are viewing in real time. For example, if you are viewing a sentiment map for a location that has a post with neutral sentiment value, and you or any other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user edits this post’s sentiment as positive from another application area, say Analytics. Then, the new positive sentiment value will be reflected for this post on the map. You will no longer see the sentiment value as neutral for this post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](analytics-sentiment.md)  
+>  Posts deleted or edited from any other area of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will have applicable changes reflected in the map you are viewing in real time. For example, if you are viewing a sentiment map for a location that has a post with neutral sentiment value, and you or any other [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] user edits this post’s sentiment as positive from another application area, say Analytics. Then, the new positive sentiment value will be reflected for this post on the map. You will no longer see the sentiment value as neutral for this post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](analytics-sentiment.md)  
 > 
 > [!TIP]
 >  Use the buttons in the lower-left corner of the map to zoom in or zoom out of the map.  
@@ -155,9 +155,9 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
 6.  When you’re done, click the area filter button again to disable it, or click ![area filter disable](media/disable-area-filter-icon.png "Area filter disable") at the top of the selector.  
   
-## View an activity map’s data in other areas of [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]
+## View an activity map’s data in other areas of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
   
-View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+View the data set selected for an activity map in other areas of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Market Insights](more-options-with-data-set.md)  
   

@@ -28,7 +28,7 @@ search.app:
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] offers features that you can use to interact with other users on the social web and to engage with customers, fans, or critics.
 
 > [!IMPORTANT]
->  Before you can interact with posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be sure to meet the following prerequisites:
+>  Before you can interact with posts in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], be sure to meet the following prerequisites:
 > 
 > 1. You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
 > 2. You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
@@ -42,7 +42,7 @@ search.app:
 
 For more information about streams in the Social Center, see [Keep track of live data streams with Social Center](social-center.md).
 
-For additional help about the actions that you can take on any post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Drive business objectives using posts](publish-react-posts.md).  
+For additional help about the actions that you can take on any post list in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], see [Drive business objectives using posts](publish-react-posts.md).  
 
 ### See Also
 

@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Work with events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] in Azure Event Hubs
+# Work with events from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] in Azure Event Hubs
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets you stream posts to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and empowers you with data, so unleash your creativity! The options that [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] offer are huge. Benefit from a simple data format and highly performant cloud services to work with your data with endless possibilities. Build your own apps, connect your data with other data sources, and step into big data analysis.  
 
  To get you started, we’ve provided some inspiration to build a real-time [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] Dashboard where we’ll stream posts from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. By using the power of [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] we can consolidate the information and push it to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] to analyze our data in real time. [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] provides the capabilities to combine the data from a variety of sources, where [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] is one of them. It can send the data to another event hub, a SQL database, or to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] lets you build your own business intelligence based on the data sources you are connected to. All connections listed in the scenario below are supported by default with the services. No need to customize—get started right away!  
@@ -67,18 +67,18 @@ search.app:
    ![access azure event hub connections in market insights](media/event-hubs-connection-information.png "Access Azure event hub connections in Market Insights")  
 
 <a name="step3_connect_to_event_hub"></a>   
-### Step 2: Connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to the event hub  
- Now that the event hub is ready to receive data, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
+### Step 2: Connect [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to the event hub  
+ Now that the event hub is ready to receive data, you need to connect [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
 
  ![connect market insights to azure event hubs](media/event-hub-connection-settings.png "Connect Market Insights to Azure Event Hubs")  
 
 <a name="step3_create_automation_rule"></a>   
 ### Step 3: Create an automation rule to select the posts that get streamed to the event hub  
- In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], create an automation rule that streams events to your event hub. Make sure the filters are defined according to your requirements so you get the posts that you are looking for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md), [Get relevant data using filters](use-filters.md)  
+ In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], create an automation rule that streams events to your event hub. Make sure the filters are defined according to your requirements so you get the posts that you are looking for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md), [Get relevant data using filters](use-filters.md)  
 
-1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Automation Rules**, and then create an automation rule that streams events to your event hub.  
+1. In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Settings > Automation Rules**, and then create an automation rule that streams events to your event hub.  
 
-2. In [Azure Portal](https://portal.azure.com/), check the dashboard of the event hub and verify that the events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] appear. Depending on the selected data set, it may take a while for new posts to get published on social media and pushed to the event hub.  
+2. In [Azure Portal](https://portal.azure.com/), check the dashboard of the event hub and verify that the events from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] appear. Depending on the selected data set, it may take a while for new posts to get published on social media and pushed to the event hub.  
 
    ![events from market insights shown in a connected event hub](media/verify-data-in-event-hubs.png "Events from Market Insights shown in a connected event hub")  
 
@@ -110,7 +110,7 @@ search.app:
    > 
    >  In the [Azure Portal](https://portal.azure.com/), go to **Service Bus > [namespace] > Connection Information**. Copy the connection string from your SAS key for RootManagedSharedAccessKey to connect to your namespace.  
    > 
-   >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
+   >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
    > 
    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Market Insights](event-hubs-json-reference.md)  
 
@@ -208,7 +208,7 @@ search.app:
 
    **Values:** *count*  
 
-   There are almost unlimited options to combine data from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with data from other applications or the Internet. The following picture shows you a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard that correlates weather data with the different types of intentions from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]'s machine-learning based intention analysis.  
+   There are almost unlimited options to combine data from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] with data from other applications or the Internet. The following picture shows you a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard that correlates weather data with the different types of intentions from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]'s machine-learning based intention analysis.  
 
    ![power bi dashboard with market insights intentions](media/power-bi-dashboard-event-hub.png "Power BI dashboard with Market Insights intentions")  
 

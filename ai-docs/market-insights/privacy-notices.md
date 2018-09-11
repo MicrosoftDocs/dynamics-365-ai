@@ -27,9 +27,9 @@ search.app:
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
 
-For specific privacy information about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], refer to the paragraphs below.
+For specific privacy information about [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], refer to the paragraphs below.
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Privacy Notices
+## [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Privacy Notices
 
 - [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
 

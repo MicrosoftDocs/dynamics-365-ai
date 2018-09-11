@@ -31,9 +31,9 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 - Your organization owns [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Enterprise licenses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462), [Manage licenses for Market Insights](manage-licenses.md)  
   
-- You have a Manager or Administrator user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+- You have a Manager or Administrator user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is connected to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016 (or later) instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)  
+- [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is connected to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016 (or later) instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)  
   
   All users, regardless of user role and license type, can see the automation rules that were defined. All users open the same data set in Analytics.  
   
@@ -72,7 +72,7 @@ When no rule is selected, you'll see the  aggregated numbers across all automati
 The following section explains more about the available actions for automation rules.  
   
 > [!TIP]
-> [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can send administrators a failure notification if an action in an automation rule fails. Administrators can turn this feature on if they want to receive these notifications. To receive email notifications, go to **Settings** > **Automation Rules**, and then set **Send failure notification** to **ON**.  
+> [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can send administrators a failure notification if an action in an automation rule fails. Administrators can turn this feature on if they want to receive these notifications. To receive email notifications, go to **Settings** > **Automation Rules**, and then set **Send failure notification** to **ON**.  
 > 
 >  For troubleshooting information when receiving failure notifications, see [Troubleshoot issues with failing actions](#troubleshoot).  
   
@@ -81,8 +81,8 @@ The following section explains more about the available actions for automation r
 Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md), [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
 <a name="assignAutomation"></a>   
-### Assign posts to a user or a group in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
-Automatically assign posts that match your defined filters to a user or a group in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can assign every post with a purchase intention to your sales team to follow up on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
+### Assign posts to a user or a group in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
+Automatically assign posts that match your defined filters to a user or a group in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For example, you can assign every post with a purchase intention to your sales team to follow up on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
 <a name="set_label"></a>   
 ### Set a label  
@@ -109,7 +109,7 @@ Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
 **Recover missed posts**  
   
-You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
 1. Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![view in analytics button in market insights](media/view-in-analytics-icon.png "View in Analytics button in Market Insights") to see the posts  that match your defined filters.  
   
@@ -124,7 +124,7 @@ You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-
 ### Stream to Event Hubs action fails  
 **Possible causes**  
   
-Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
+Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
   
 **Address the issue**  
   
@@ -132,11 +132,11 @@ Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_
   
 2. In the [Microsoft Azure portal](https://portal.azure.com), open the connection details for that event hub.  
   
-3. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings** > **Global Settings** > **Connections** > **Azure Event Hubs**.  Check the connection string and the name of the event hub and make sure they match exactly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with events from Market Insights in Azure Event Hubs](work-with-event-hubs.md)  
+3. In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Settings** > **Global Settings** > **Connections** > **Azure Event Hubs**.  Check the connection string and the name of the event hub and make sure they match exactly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with events from Market Insights in Azure Event Hubs](work-with-event-hubs.md)  
   
 **Identify missed posts**  
   
-Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can quickly find how many posts were missed.  
+Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you can quickly find how many posts were missed.  
   
 1.  Open the automation rule with the **Stream to Event Hubs** actions and click **View in Analytics** ![view in analytics button in market insights](media/view-in-analytics-icon.png "View in Analytics button in Market Insights") to see the posts  that match your defined filters.  
   
@@ -146,7 +146,7 @@ Event hubs are built to handle high volumes of events in real time. Although you
   
 <a name="manage_rules"></a>   
 ## Create, edit, or delete an automation rule  
-Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md "Understand user roles")  
+Automation rules are visible to all users of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md "Understand user roles")  
   
 > [!IMPORTANT]
 >  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], see [Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md).  
@@ -169,7 +169,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
   
 6. In the **Actions** section, click **Add** ![add button](media/add-icon.png "Add button") to add an action to the rule.  
   
-   - Set the values for **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+   - Set the values for **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
    - Set the values for **Stream to Event Hubs** ![stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md), [JSON reference for events from Market Insights](event-hubs-json-reference.md)  
   
@@ -207,17 +207,17 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 4.  Confirm your deletion.  
   
 <a name="quick_create"></a>   
-## Quickly create an automation rule while working in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
-When working with data sets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![more options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
+## Quickly create an automation rule while working in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
+When working with data sets in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![more options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
 <a name="conflicting_rules"></a>   
-## How [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] handles conflicting automation rules  
-A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will execute the actions from the rule that was added most recently.  
+## How [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] handles conflicting automation rules  
+A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will execute the actions from the rule that was added most recently.  
   
 > [!CAUTION]
 >  If a post matches the filters for multiple automation rules, only the last created (the newest) automation rule will process the post.  
 > 
->  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
+>  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
   
 ### See Also  
 [Administer Market Insights](settings-administration.md)   

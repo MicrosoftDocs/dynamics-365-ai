@@ -27,7 +27,7 @@ search.app:
 
 Get detailed content analytics and understand data about most-used phrases, their volume, sources of these conversations, and sentiment.  
   
-In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
+In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
 
 ![screenshot of the conversations page in the analytics area of market insights](media/analytics-conversations.png "Screenshot of the conversations page in the Analytics area of Market Insights")
 

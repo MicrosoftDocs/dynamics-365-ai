@@ -28,7 +28,7 @@ This topic explains what the Administrator for your organization does to set up 
   
 <a name="set_sol_default"></a>   
 ## Define global settings  
- You need to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] so your users can work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
+ You need to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] so your users can work with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
   
 1.  Go to **Settings** > **Global Settings**.  
   

@@ -142,7 +142,7 @@ Define system settings that apply to the entire organization, like solution name
 4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your changes.  
   
 ## Link to a custom privacy statement  
- As an administrator, you can decide whether to show or hide the link to a privacy statement for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.  
+ As an administrator, you can decide whether to show or hide the link to a privacy statement for your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -166,7 +166,7 @@ Define system settings that apply to the entire organization, like solution name
  Define labels to classify posts. Labels are a quick and easy way to assign a status to a post,  and let you add visual markers for a post.  
   
 > [!NOTE]
->  Users must have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Enterprise User License and at least a Responder Engagement Role to assign labels to posts.  
+>  Users must have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Enterprise User License and at least a Responder Engagement Role to assign labels to posts.  
   
 1.  Go to **Settings** > **Global Settings**.  
   

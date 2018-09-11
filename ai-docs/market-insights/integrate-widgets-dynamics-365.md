@@ -23,45 +23,45 @@ search.app:
   - D365SE
 ---
 
-# Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Dynamics 365
+# Integrate [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] with Dynamics 365
 
-In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The easy-to-understand widgets provide insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
+In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The easy-to-understand widgets provide insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
-With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
+With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
 
-The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards provide convenient access to social data right where you work. At any time, you can click on any widget to be taken into [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [drill down and explore the data further](analyze-social-data-using-widgets.md).
+The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards provide convenient access to social data right where you work. At any time, you can click on any widget to be taken into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to [drill down and explore the data further](analyze-social-data-using-widgets.md).
 
 <a name="add-social-engagement-visuals-to-dynamics-365"></a>
 
-## Connect Dynamics 365 (online) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
+## Connect Dynamics 365 (online) to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] for Social Insights
 
-To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be an authorized [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user, and have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance provisioned for this [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance.
+To configure the connection, you need to have a subscription to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], be an authorized [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] user, and have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance provisioned for this [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance.
 
 ### Prerequisites
 
 - You need to have a System Administrator security role or equivalent permissions in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].
 
-- You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
+- You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. 
 
-### Connect Dynamics 365 (online) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### Connect Dynamics 365 (online) to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
 1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. On the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration** page, in the **Select the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] solution to connect to** drop-down box, choose the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
+3. On the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration** page, in the **Select the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] solution to connect to** drop-down box, choose the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
 
    ![microsoft dynamics 365 ai for market insights configuration view](media/social-insights-configuration-online.png "Microsoft Dynamics 365 AI for Market Insights Configuration view")  
 
-## Connect Dynamics 365 on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
+## Connect Dynamics 365 on-premises to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] for Social Insights
 
 ### Prerequisites
 
 - You need to have a System Administrator security role or equivalent permissions in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].
 
-- You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+- You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-### Connect Dynamics 365 on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### Connect Dynamics 365 on-premises to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
 1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
@@ -71,7 +71,7 @@ To configure the connection, you need to have a subscription to [!INCLUDE[pn_net
 
    ![microsoft dynamics 365 ai for market insights configuration view](media/social-insights-configuration-on-premises.png "Microsoft Dynamics 365 AI for Market Insights Configuration view")
   
-## Add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] visuals to an entity form
+## Add [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] visuals to an entity form
 
 To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the iFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. More information: Use the form editor.
 
@@ -90,7 +90,7 @@ Choose to enable **Pass record object-type code and unique identifier as paramet
 
 7. Switch back to the **Home** tab. Select **Save** and then select **Publish** to publish the added customizations. The control called **Configure Social Insights** appears on all records based on this form. The search topics, search categories and visuals can be added to the control.  
 
-## Add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] visuals to dashboards
+## Add [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] visuals to dashboards
 
 You can add the Social Insights controls to the existing system dashboards or to a new dashboard. Let’s create a new dashboard and add the Social Insights control to it. We’ll use the Set Up Social Insights wizard to lead us through the setup. Shortly after the setup is finished and customizations are published, the charts and graphs with social data will appear on your dashboard.
 
@@ -131,9 +131,9 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 ## Set up search topics from within Dynamics 365  
 
-Search topics are usually created by Administrators or Power Analysts directly in the settings of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. However, to get up and running quickly, users with Administrator or Power Analyst user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can set up searches from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Search topics are usually created by Administrators or Power Analysts directly in the settings of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. However, to get up and running quickly, users with Administrator or Power Analyst user roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can set up searches from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-To have the full set of options for creating a search topic available, it’s a good idea to work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [Find out how to set up search topics in Market Insights](set-up-searches.md).
+To have the full set of options for creating a search topic available, it’s a good idea to work directly in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [Find out how to set up search topics in Market Insights](set-up-searches.md).
 
 ## Reset Social Insights
 
@@ -147,7 +147,7 @@ This action deletes all existing data in Dynamics 365 for the search topics, sea
 
 ## Troubleshoot sign-in problems  
 
-Having trouble signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](http://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
+Having trouble signing in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](http://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
   
 ### See Also  
  [Get started with Market Insights](get-started.md)   

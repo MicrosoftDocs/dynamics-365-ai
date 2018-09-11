@@ -23,7 +23,7 @@ search.app:
 Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 > [!NOTE]
->  You must be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator to perform these tasks.  
+>  You must be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator to perform these tasks.  
   
 <a name="AssignRole"></a>   
 ## Assign a role to a new user  
@@ -50,14 +50,14 @@ Manage user permissions by assigning user roles for newly licensed users and edi
 4.  Click **Save** ![save button](media/save-icon.png "Save button").  
   
 > [!TIP]
->  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
+>  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
 > 
 > [!NOTE]
 >  The specified user will receive an email with the updated user roles and permissions.  
 > 
 >  Bulk editing user roles is limited to newly invited users.  
 > 
->  Users that are listed as Delegated Administrator always have Administrator and Manager user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. A lock icon ![lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](delegated-admin.md), [Understand user roles](user-roles.md)  
+>  Users that are listed as Delegated Administrator always have Administrator and Manager user roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. A lock icon ![lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](delegated-admin.md), [Understand user roles](user-roles.md)  
   
 <a name="EmailUsers"></a>   
 ## Send email to users  

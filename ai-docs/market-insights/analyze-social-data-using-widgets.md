@@ -33,7 +33,7 @@ The **Analytics** area helps you to analyze social data and displays widgets bas
 [Learn how to navigate the Analytics area.](get-started.md#get-around-in-the-analytics-area)     
 You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis or [use the data set for other areas of Market Insights](more-options-with-data-set.md). If no posts are available or match your filters, widgets display no metrics and an error message.
   
-Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](use-filters.md#drill-down-into-data-and-apply-filters-from-widgets). Click a data point to get a more detailed view of the data.  
+Widgets in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provide you with [drill-down functionality to narrow your data set](use-filters.md#drill-down-into-data-and-apply-filters-from-widgets). Click a data point to get a more detailed view of the data.  
   
 **Use Analytics widgets to**:  
 
@@ -50,7 +50,7 @@ Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 ## Define the data set to display on widgets
 
 Widgets display based on the [data set that you define](use-filters.md) by selecting a search topic or category and by using the filters. These filters include the locations, keywords, sentiment values, and so on that you select based on your business requirements.     
-Every user of your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can create data sets. However, only Administrators and Power Analysts can [create new search topics](set-up-searches.md).
+Every user of your organization’s [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution can create data sets. However, only Administrators and Power Analysts can [create new search topics](set-up-searches.md).
 
 ## View the trend values
 

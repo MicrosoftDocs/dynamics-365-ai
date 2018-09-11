@@ -22,38 +22,38 @@ search.app:
 
 # Sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
 
-To sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](manage-licenses.md).  
+To sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](manage-licenses.md).  
   
-## Sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from a dedicated sign-in page
+## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] from a dedicated sign-in page
 
-Using the [sign-in page for Market Insights](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.
+Using the [sign-in page for Market Insights](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.
 
 1. In your browser, open [https://social.dynamics.com/login](https://social.dynamics.com/login).
 
-2. Sign in with your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] credentials to proceed to the app.
+2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials to proceed to the app.
 
-## Sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from Office 365
+## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] from Office 365
 
-Sign in to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] online service from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+Sign in to the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] online service from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 1. In your browser, open [https://portal.office.com](https://portal.office.com).  
   
-2. Sign in with your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] credentials—for example, user@contoso.onmicrosoft.com.  
+2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials—for example, user@contoso.onmicrosoft.com.  
   
 3. From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]**.  
   
-    You'll be redirected to your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.  
+    You'll be redirected to your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.  
   
 For more information and to learn about important administration features, see [About the Office 365 admin center - Admin Help](https://support.office.com/article/About-the-Office-365-admin-center-Admin-Help-58537702-d421-4d02-8141-e128e3703547).  
   
 > [!TIP]
->  If you don’t see a shortcut to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] nav bar, verify that a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license is assigned to you.  
+>  If you don’t see a shortcut to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] nav bar, verify that a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license is assigned to you.  
   
-## Sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by using the app URL  
+## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by using the app URL  
 
-We recommend saving the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+We recommend saving the URL for your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
-If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://listening-prod.dynamics.com/app/\<appID></strong>.  
+If you’re looking for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://listening-prod.dynamics.com/app/\<appID></strong>.  
   
 ### See Also  
  [Get started with Market Insights](get-started.md)   

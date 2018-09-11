@@ -34,7 +34,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
  Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Market Insights](more-options-with-data-set.md)  
   
 > [!NOTE]
->  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Market Insights with Office 365](manage-licenses.md)  
+>  If you have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Market Insights with Office 365](manage-licenses.md)  
   
 <a name="ConfigureStream"></a>   
 ## Configure a stream  

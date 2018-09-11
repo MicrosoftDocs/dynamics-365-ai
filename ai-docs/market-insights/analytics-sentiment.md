@@ -27,7 +27,7 @@ search.app:
 
 View and understand social sentiment in posts that are found by your search topics. Sentiment analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] calculates the sentiment value of social posts using natural-language processing and machine learning techniques. 
 
-In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Sentiment** to learn more  about sentiment across posts in your data set.  
+In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Sentiment** to learn more  about sentiment across posts in your data set.  
 
 ![screenshot of the sentiment page in the analytics area of market insights](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Market Insights")
 

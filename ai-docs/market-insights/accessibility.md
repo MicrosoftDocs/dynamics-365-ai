@@ -29,27 +29,27 @@ search.app:
 [Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
-## Accessibility capabilities built into [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]
+## Accessibility capabilities built into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
 ### Switch to the table view to improve readability of data points
 
-Widgets in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can show in a chart view or a table view. You can decide whether you want to work with the data represented as charts or as tables.
+Widgets in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can show in a chart view or a table view. You can decide whether you want to work with the data represented as charts or as tables.
 You can turn on the table view for a widget in chart view by selecting the ![more options control](media/more-options-icon.png "More options control") control on the chart you want to change and then selecting the **Switch to table view** option. To switch back, open the same control and select **Switch to chart view**.    
 To enable the table view for all widgets by default, go to **Settings > User Preferences** and change the value under **Chart data representation mode** from **Chart** to **Table**.
 
 ### Change how colors on charts are displayed
 
-[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] also provides a fill pattern for charts with colored areas. You can choose to render the charts with a fill pattern or a solid color. To switch between a fill pattern and solid color, go to **Settings > User Preferences** and update the **Chart filling mode**.
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] also provides a fill pattern for charts with colored areas. You can choose to render the charts with a fill pattern or a solid color. To switch between a fill pattern and solid color, go to **Settings > User Preferences** and update the **Chart filling mode**.
 
 When selecting the fill pattern, data on maps will be represented in different shapes and will not rely exclusively on color.
 
 > [!NOTE]
-> The Analytics area in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] renders the data in charts by default. Data points in charts aren’t accessible with keyboard navigation. You can either turn on the table view on single charts when working in the Analytics area, or you can enable the table view globally for your user profile in **Settings > User Preferences** under **Chart data representation mode**. 
+> The Analytics area in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] renders the data in charts by default. Data points in charts aren’t accessible with keyboard navigation. You can either turn on the table view on single charts when working in the Analytics area, or you can enable the table view globally for your user profile in **Settings > User Preferences** under **Chart data representation mode**. 
 > To change the solid colors to a fill pattern for better visual distinction, go to **Settings > User Preferences** and update the **Chart filling mode**.
 
 ### Navigate post list and post details with your keyboard
 
-Whenever [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] shows posts, you are presented with a post list and a detail view for a specific post. Keyboard navigation in the list is solved by treating it as a layout grid that has a single tab stop. 
+Whenever [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] shows posts, you are presented with a post list and a detail view for a specific post. Keyboard navigation in the list is solved by treating it as a layout grid that has a single tab stop. 
 
 Once the focus is in the post list, you can use arrow keys and Enter to navigate:
 
@@ -70,7 +70,7 @@ When navigating the Post details view, which shows the post and a parent post, y
 
 #### Analytics
 
-You can navigate the maps in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] with a keyboard by selecting Tab to reach the first data point on a map. The order of navigation is based on sorting the data points by latitude, from north to south. The first tab stop starts on the northernmost data point.  
+You can navigate the maps in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] with a keyboard by selecting Tab to reach the first data point on a map. The order of navigation is based on sorting the data points by latitude, from north to south. The first tab stop starts on the northernmost data point.  
 
 - To move to the next data point, select the right or down arrow. 
 - To move to the previous data point, select the left or up arrow. 
@@ -89,11 +89,11 @@ To navigate the data in the cells of the table view, select the arrow keys.
 To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide the latitude and longitude for Point A and for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
 
 
-## Accessibility in applications that can work with [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] data
+## Accessibility in applications that can work with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] data
 
-[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] provides integrations and data export for other applications. 
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides integrations and data export for other applications. 
 
-- We recommend using the [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] content pack with [Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-accessibility) due to accessibility support of [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+- We recommend using the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] content pack with [Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-accessibility) due to accessibility support of [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 - Learn more about [accessibility for Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/basics/accessibility-people-with-disabilities) apps. 
 
 ## General accessibility capabilities 
@@ -109,9 +109,9 @@ Commonly used screen readers are supported, empowering the blind, visually impai
 ### Use the keyboard to navigate the user interface
 
 Full keyboard accessibility for all user interface elements to empower agents with different motor skills, and to help agents save critical seconds by removing the dependency on a mouse. 
-[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] supports basic keyboard navigation patterns, like switching between elements and selecting them. There are no keyboard shortcuts specific to [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)].
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] supports basic keyboard navigation patterns, like switching between elements and selecting them. There are no keyboard shortcuts specific to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-All tables in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] follow the same keyboard access pattern:
+All tables in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] follow the same keyboard access pattern:
 
 - A table has only one tab stop.
 - Each table row can have several cells. To move within a row, use the left and right arrow keys.
@@ -125,7 +125,7 @@ The high contrast setting in Windows heightens the color contrast of some text a
 
 ### Enlarge the user interface with zooming in the browser
 
-[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] supports zooming on the user interface to 200 percent of the original screen size and works with the high contrast settings in either your browser or operating system.
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] supports zooming on the user interface to 200 percent of the original screen size and works with the high contrast settings in either your browser or operating system.
 
 > [!NOTE]
 > When zooming the user interface to 200 percent, some fields or controls are hidden to keep it readable. We aim only to hide information and controls that aren't required to complete a task. You can change the zoom level to access these controls. 

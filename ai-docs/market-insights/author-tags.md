@@ -29,7 +29,7 @@ Author tags let you add tags to authors to group and classify them. For example,
 Every user can add or remove author tags when working with an author's details. You need to have an [interaction role](user-roles.md) of Responder or Manager to create new author tags.
 
 > [!TIP]
-> To review all authors that have a certain tag added, go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
+> To review all authors that have a certain tag added, go to **[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
 
 ![author details with highlighted buttons to add and remove an author tag](media/author-tags-in-author-details.png "Author details with highlighted buttons to add and remove an author tag")
 
@@ -41,7 +41,7 @@ To see the author tags added to a specific author, you need to open the **[Autho
 
 Tag authors for quicker filtering options and to classify groups of authors.
 
-1. In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to tag. 
+1. In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], open the **[Author Details](author-details.md)** for the author you want to tag. 
 2. Next to **Author Tags**, select ![add author tags symbol](media/add-icon.png "Add author tags symbol") **Add author tags**.
 3. Enter the name of the tag you want to add. If it’s already available, you can select it from the list. 
 4. Select **Confirm** to apply the author tag.
@@ -50,7 +50,7 @@ Tag authors for quicker filtering options and to classify groups of authors.
 
 If a tag is no longer accurate, you can remove it from the author.
 
-1. In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
+1. In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
 2. Next to the tag you want to remove, select ![remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
 3. Select **Confirm** to remove the tag.
 

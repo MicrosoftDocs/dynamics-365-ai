@@ -34,7 +34,7 @@ An administrator can update the automatically-assigned Power Analyst and Respond
 To assign and edit user roles, go to **Settings** > **User Management**.  
 
 > [!IMPORTANT]
->  User roles set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] don’t apply to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You’ll need to set roles in both [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user can have a different role in each solution.  
+>  User roles set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] don’t apply to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. You’ll need to set roles in both [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user can have a different role in each solution.  
 > 
 >  If there are **Newly invited** users in the solution, administrators can find them from the drop-down menu on **Settings** > **User Management**.  
 
@@ -68,7 +68,7 @@ The following table shows the Analyst, Power Analyst, and Administrator configur
 
 The interaction role defines permissions to collaborate with other solution users and to engage on social media from within the solution.  
 
-To let users interact with a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], administrators can assign the appropriate interaction roles. Typically, a user with a Manager role defines streams and shares them with other users. Readers just want to keep track of the conversations and posts assigned to them, while Responders tend to take action on a post.  
+To let users interact with a post from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], administrators can assign the appropriate interaction roles. Typically, a user with a Manager role defines streams and shares them with other users. Readers just want to keep track of the conversations and posts assigned to them, while Responders tend to take action on a post.  
 
 
 |                                                                Permissions                                                                | Reader | Responder | Manager |

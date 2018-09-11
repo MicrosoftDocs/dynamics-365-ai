@@ -41,7 +41,7 @@ search.app:
   
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  
   
-2. Add your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] URL to the list of **Allowed Domains** in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+2. Add your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] URL to the list of **Allowed Domains** in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Market Insights to other domains](connect-other-domains.md)  
   

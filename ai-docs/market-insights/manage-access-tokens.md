@@ -24,12 +24,12 @@ search.app:
 
 # Manage access tokens
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] requires you to provide access tokens in order to acquire data from some sources and interact with posts using social profiles. Access tokens enable data acquisition and can be easily supplied by [adding a social profile](manage-social-profiles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] where users sign in to social media accounts. We recommend that multiple users add tokens to guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens.  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] requires you to provide access tokens in order to acquire data from some sources and interact with posts using social profiles. Access tokens enable data acquisition and can be easily supplied by [adding a social profile](manage-social-profiles.md) in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] where users sign in to social media accounts. We recommend that multiple users add tokens to guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens.  
 
 > [!NOTE]
-> The data acquired through a user's token is exclusively available in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solutions.  
+> The data acquired through a user's token is exclusively available in your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solutions.  
   
-[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides acquisition tokens (to acquire data on behalf of a user from a social media site) and interaction tokens (to post on behalf of a user to a social media site). The following table shows the tokens available for social profiles.  
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides acquisition tokens (to acquire data on behalf of a user from a social media site) and interaction tokens (to post on behalf of a user to a social media site). The following table shows the tokens available for social profiles.  
   
 |||  
 |-|-|  
@@ -49,10 +49,10 @@ Adding tokens for data acquisition allows you to acquire posts from some sources
 You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
 
 > [!NOTE]
-> Provided tokens will expire after 60 days. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will notify you to reauthenticate your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+> Provided tokens will expire after 60 days. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will notify you to reauthenticate your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
 > 
 > [!IMPORTANT]
-> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
+> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
 
 1. Go to **Settings** > **Social Profiles**.  
 
@@ -69,7 +69,7 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 2. Select the appropriate social profile ([!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account) and in the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") and enter your log-in credentials.
 
    > [!NOTE]
-   > If your organization owns multiple instances of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please add a unique [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile for every instance. We can't acquire data if an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile is used in another [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance.
+   > If your organization owns multiple instances of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], please add a unique [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile for every instance. We can't acquire data if an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile is used in another [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance.
 
 
 3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. The token will become active after you select the check box.  
@@ -78,7 +78,7 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 
 ## Tokens for interactions with posts 
 
-Adding tokens for interactions with posts allows you to acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], as well as publish and reply to posts. Additionally, you'll need an active [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page interaction token to be able to pull author information for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages you own. An interaction token is needed for every [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page separately. If no interaction token is provided, post and comments from users on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page will surface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without author information.   
+Adding tokens for interactions with posts allows you to acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], as well as publish and reply to posts. Additionally, you'll need an active [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page interaction token to be able to pull author information for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages you own. An interaction token is needed for every [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page separately. If no interaction token is provided, post and comments from users on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page will surface in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] without author information.   
 
 You can check your token health states to make sure your tokens aren't expired. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](social-profiles-health-state.md)  
 

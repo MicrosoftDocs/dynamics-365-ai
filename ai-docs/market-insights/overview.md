@@ -54,23 +54,23 @@ Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md
 
 ## Getting started
 
-Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't take long. You can also [request a trial](https://experience.dynamics.com/trials/) to try out your use cases. The following topics will help you get started quickly.
+Setting up [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] doesn't take long. You can also [request a trial](https://experience.dynamics.com/trials/) to try out your use cases. The following topics will help you get started quickly.
 
-- [Get started with Market Insights](get-started.md): Find important information to help you get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+- [Get started with Market Insights](get-started.md): Find important information to help you get around in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-- [Administer Market Insights](settings-administration.md): If you're an administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with other services, like [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+- [Administer Market Insights](settings-administration.md): If you're an administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] with other services, like [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
 - [Set up searches to listen to social media conversations](set-up-searches.md): Capturing the right data for your business is a crucial step for successfully analyzing social media data. Set up searches and refine the quality of the results they give you, organize searches to meet your needs, and maintain an optimal post quota.
 
 - [Analyze social data by using widgets](analyze-social-data-using-widgets.md): Visualize data in different areas to analyze your search results. See which filters are available to form a dataset and how you can apply them to various widgets.
 
-- [Engage on social networks](engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and share it with other users of the solution.
+- [Engage on social networks](engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Find out how you can connect a social profile with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and share it with other users of the solution.
 
 - [Stay up to date with alerts](email-alerts.md): Stay on top of what's happening on the social web. Set up alerts to be sent directly to your inbox, and find out right away when something important happens.
 
 ## Business scenarios
 
-The business scenarios that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] helps address lead to many different implementation scenarios. We've compiled overviews for three of the core business scenarios: sales, marketing, and service.
+The business scenarios that [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] helps address lead to many different implementation scenarios. We've compiled overviews for three of the core business scenarios: sales, marketing, and service.
 
 - Sales: [Social selling - grow your network and boost sales](overview-sales-scenario.md)
 
@@ -86,7 +86,7 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Read the latest [Market Insights readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
-- Download the [Market Insights translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
+- Download the [Market Insights translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
 ## Request a trial
 
