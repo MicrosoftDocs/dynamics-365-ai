@@ -34,5 +34,5 @@ We maintain [online help](index.md) and a first-use experience to get started wi
 ### See Also  
  [Get started with Market Insights](get-started.md)   
  [Set up searches to listen to social media conversations](set-up-searches.md)   
- [Administer Market Insights](administer-microsoft-social-engagement.md)
+ [Administer Market Insights](settings-administration.md)
  

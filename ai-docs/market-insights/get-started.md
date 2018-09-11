@@ -106,7 +106,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Settings**: All users can define how the application displays for them. Administrators can manage user roles, set system-wide settings, and configure many more options.  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](administer-microsoft-social-engagement.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](settings-administration.md)  
   
 - **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
@@ -168,7 +168,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   6. **Automation Rules**: Create rules that automatically perform actions on a specified data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
   
-- **Settings options**: Set the values on the settings pages according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](administer-microsoft-social-engagement.md)  
+- **Settings options**: Set the values on the settings pages according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](settings-administration.md)  
   
   
 ### Privacy notices  

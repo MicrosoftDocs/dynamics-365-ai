@@ -90,7 +90,7 @@ To let users interact with a post from [!INCLUDE[pn_netbreeze_short](../includes
 |                                 [Add existing author tags, change or remove author tags](author-tags.md)                                  |  Yes   |    Yes    |   Yes   |
 
 ### See Also  
-[Administer Market Insights](administer-microsoft-social-engagement.md)   
+[Administer Market Insights](settings-administration.md)   
 [Integrate Market Insights with Office 365](manage-licenses.md)   
 [Assign permissions and user roles](assign-user-roles.md)
 

@@ -15,7 +15,7 @@
 ### [Get help with Market Insights](get-help.md)
 ### [Stay up to date with alerts](email-alerts.md)
 ### [Optimize browser settings for Market Insights](system-browser-settings.md)
-## [Administer Market Insights](administer-microsoft-social-engagement.md)
+## [Administer Market Insights](settings-administration.md)
 ### [Manage global settings](manage-global-settings.md)
 ### [Manage licenses for Market Insights](manage-licenses.md)
 ### [Understand user roles](user-roles.md)

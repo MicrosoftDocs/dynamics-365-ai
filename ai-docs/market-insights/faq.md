@@ -98,6 +98,6 @@ There is a difference between *emoticons* (for example, **:)** or **:(**) and *e
 ### See also
 
  [Get started with Market Insights](get-started.md)   
- [Administer Market Insights](administer-microsoft-social-engagement.md)   
+ [Administer Market Insights](settings-administration.md)   
  [Set up searches to listen to social media conversations](set-up-searches.md)
  

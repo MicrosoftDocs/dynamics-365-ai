@@ -93,9 +93,9 @@ This article provides a step-by-step guide to get up and running with a [trial s
 ![screenshot of the email sent to admins upon successful provisioning](media/mse-trial-new-solution-email.png "Screenshot of the email sent to admins upon successful provisioning")
 
 > [!TIP]
-> Once you have access to your solution, make sure to [configure it for other users](administer-microsoft-social-engagement.md) and [set up searches](set-up-searches.md) to gather data.
+> Once you have access to your solution, make sure to [configure it for other users](settings-administration.md) and [set up searches](set-up-searches.md) to gather data.
 
 ### See also
 [Connect with customers. Empower your organization. Create real results.](overview.md)    
-[Administer Market Insights](administer-microsoft-social-engagement.md)    
+[Administer Market Insights](settings-administration.md)    
 [Set up searches to listen to social media conversations](set-up-searches.md)

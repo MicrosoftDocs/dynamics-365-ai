@@ -39,4 +39,4 @@ search.app:
   - If you want to import [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data to [!include[](../includes/pn-customer-insights-full.md)], you can add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] as a data source. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add Market Insights as a data source](https://docs.microsoft.com/dynamics365/customer-engagement/customer-insights/deploy/datasourcemse)
   
 ### See also  
- [Administer Market Insights](administer-microsoft-social-engagement.md)
+ [Administer Market Insights](settings-administration.md)

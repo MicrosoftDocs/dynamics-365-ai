@@ -151,5 +151,5 @@ Having trouble signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social
   
 ### See Also  
  [Get started with Market Insights](get-started.md)   
- [Administer Market Insights](administer-microsoft-social-engagement.md)   
+ [Administer Market Insights](settings-administration.md)   
  [Assign permissions and user roles](assign-user-roles.md)   

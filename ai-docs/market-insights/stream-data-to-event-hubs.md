@@ -109,5 +109,5 @@ Start building out your custom metrics or analysis based on the posts found by [
 ### See Also  
  [Manage connections in Market Insights](manage-connections.md)   
  [Work with events from Market Insights in Azure Event Hubs](work-with-event-hubs.md)   
- [Administer Market Insights](administer-microsoft-social-engagement.md)   
+ [Administer Market Insights](settings-administration.md)   
  [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)

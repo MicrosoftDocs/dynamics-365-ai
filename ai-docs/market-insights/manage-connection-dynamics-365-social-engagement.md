@@ -157,4 +157,4 @@ If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../inclu
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Connect Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
 [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)   
-[Administer Market Insights](administer-microsoft-social-engagement.md)
+[Administer Market Insights](settings-administration.md)

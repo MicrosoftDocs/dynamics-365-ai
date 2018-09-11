@@ -31,7 +31,7 @@ Do you want to offer fast, powerful support to your customers on social channels
 
 - You (and any user you plan to work with) have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license assigned.
 
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](administer-microsoft-social-engagement.md).
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](settings-administration.md).
 
 - [Search topics are configured](set-up-searches.md) and data acquisition is up and running.
 

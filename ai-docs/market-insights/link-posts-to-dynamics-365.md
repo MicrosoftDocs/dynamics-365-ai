@@ -50,6 +50,6 @@ When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
   
 ### See also  
 
- [Administer Market Insights](administer-microsoft-social-engagement.md)   
+ [Administer Market Insights](settings-administration.md)   
  [Set up the connection between Dynamics 365 and Market Insights](connect-dynamics-365-social-engagement.md)   
  [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)

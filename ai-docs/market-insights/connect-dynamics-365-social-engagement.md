@@ -111,4 +111,4 @@ Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)   
 [Manage the connection between Dynamics 365 and Market Insights](manage-connection-dynamics-365-social-engagement.md)   
-[Administer Market Insights](administer-microsoft-social-engagement.md)
+[Administer Market Insights](settings-administration.md)

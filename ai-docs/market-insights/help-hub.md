@@ -39,7 +39,7 @@ search.app:
 
 <h2> Administer </h2>
 
-<li><a href="administer-microsoft-social-engagement.md" data-raw-source="[Administer Market Insights](administer-microsoft-social-engagement.md)">Administer Microsoft Social Engagement</a></li>
+<li><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Microsoft Social Engagement</a></li>
 <li><a href="manage-global-settings.md" data-raw-source="[Configure settings](manage-global-settings.md)">Configure settings</a></li>
 <li><a href="set-up-searches.md" data-raw-source="[Set up searches](set-up-searches.md)">Set up searches</a></li>
 <li><a href="manage-connections.md" data-raw-source="[Manage connections](manage-connections.md)">Manage connections</a></li>

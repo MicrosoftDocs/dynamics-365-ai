@@ -220,7 +220,7 @@ A newly-found post can match the filters of more than one automation rule. If th
 >  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
   
 ### See Also  
-[Administer Market Insights](administer-microsoft-social-engagement.md)   
+[Administer Market Insights](settings-administration.md)   
 [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   
 [Explore more options with your data set](more-options-with-data-set.md)

@@ -58,7 +58,7 @@ Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 
 - [Get started with Market Insights](get-started.md): Find important information to help you get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-- [Administer Market Insights](administer-microsoft-social-engagement.md): If you're an administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with other services, like [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+- [Administer Market Insights](settings-administration.md): If you're an administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with other services, like [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
 - [Set up searches to listen to social media conversations](set-up-searches.md): Capturing the right data for your business is a crucial step for successfully analyzing social media data. Set up searches and refine the quality of the results they give you, organize searches to meet your needs, and maintain an optimal post quota.
 

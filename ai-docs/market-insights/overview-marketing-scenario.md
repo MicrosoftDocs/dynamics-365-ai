@@ -33,7 +33,7 @@ This overview provides a step-by-step description of how you and your team can u
 
 - You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license assigned.
 
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](administer-microsoft-social-engagement.md).
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](settings-administration.md).
 
 - [Search topics are configured](set-up-searches.md) and data acquisition is up and running. To listen to conversations about your brand, it's important that you create a search topic that gathers relevant posts.
 

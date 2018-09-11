@@ -220,4 +220,4 @@ search.app:
  [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
  [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)   
  [Manage connections in Market Insights](manage-connections.md)   
- [Administer Market Insights](administer-microsoft-social-engagement.md)
+ [Administer Market Insights](settings-administration.md)
