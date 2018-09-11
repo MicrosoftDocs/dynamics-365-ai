@@ -26,7 +26,7 @@ There’s a good chance that your customers and stakeholders are talking about y
 
 - Read the latest [Microsoft Dynamics 365 AI for Market Insights Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) to know any late-breaking changes to this release.  
 
-- Read [What's new in Market Insights](what-s-new-in-microsoft-social-engagement.md) to know the list of features added or updated in this release.  
+- Read [What's new in Market Insights](what-s-new.md) to know the list of features added or updated in this release.  
 
 - Download the [Market Insights Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
 
@@ -77,4 +77,4 @@ There’s a good chance that your customers and stakeholders are talking about y
 &gt; [!TIP]
 &gt;  To quickly access help topics when you&#39;re working with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], click the Help button <img src="media/help-icon.png" alt="Help button" title="Help button"/>, and then click **Help**.<br/>
 We welcome your feedback. Use the feedback link at the bottom of this page to share your comments with us.<br/>
-### See Also<br/><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a><br/><a href="get-started.md" data-raw-source="[Get started with Market Insights](get-started.md)">Get started with Social Engagement</a><br/><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Microsoft Social Engagement</a>
+### See Also<br/><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Microsoft Social Engagement</a><br/><a href="get-started.md" data-raw-source="[Get started with Market Insights](get-started.md)">Get started with Social Engagement</a><br/><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Microsoft Social Engagement</a>

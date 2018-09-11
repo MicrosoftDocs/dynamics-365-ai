@@ -82,7 +82,7 @@ search.app:
 
 <h2> Product updates </h2>
 
-<li><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a></li>
+<li><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Microsoft Social Engagement</a></li>
 <li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Dynamics 365 AI for Market Insights Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
 <li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Market Insights Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Microsoft Social Engagement Translation Guide</a></li>
 </td>
