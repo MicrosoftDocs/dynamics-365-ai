@@ -106,7 +106,7 @@ All widgets can render in a table mode. You can also set the table view as your 
 
 1. On the widget, select the widget actions symbol (![widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
 
-2. In the list of actions, select **Switch to table view** ![table view symbol](media/ "Table view symbol").
+2. In the list of actions, select **Switch to table view** ![table view symbol](media/table-view-icon.jpg "Table view symbol").
 
 
 ### See Also  

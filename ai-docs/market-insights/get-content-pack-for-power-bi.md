@@ -75,7 +75,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
     Once your data is imported you can see the default dashboard that [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] creates to display your data. You can modify this dashboard to display your data in any way you want.  
   
-   ![dashboard with market insights data in power bi](media/ "Dashboard with Market Insights data in Power BI")  
+   ![dashboard with market insights data in power bi](media/content-pack-social-engagement-dashboard.jpg "Dashboard with Market Insights data in Power BI")  
   
 ### What's next?  
   
