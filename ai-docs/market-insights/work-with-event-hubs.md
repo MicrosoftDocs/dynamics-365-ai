@@ -112,7 +112,7 @@ search.app:
    > 
    >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
    > 
-   > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)  
+   > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Market Insights](event-hubs-json-reference.md)  
 
    1.  Example 1: In this simple “Hello World” example, we count all new posts over time and push them every 30 seconds to the output sink.  
 
@@ -155,7 +155,7 @@ search.app:
 
        ``` 
 
-   3.  Example 3: In this example, we select the name of a matching search topic in addition to the id, title, acquisition date and time, source name, and the content excerpt of posts. We're using the [GetArrayElement function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelement-azure-stream-analytics) to select the first object of the [post.matchingSearchTopic](event-hubs-json-reference-social-engagement.md#document.matchingSeachTopics) array. To select all objects of the array, you can use the [GetArrayElements function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelements-azure-stream-analytics).
+   3.  Example 3: In this example, we select the name of a matching search topic in addition to the id, title, acquisition date and time, source name, and the content excerpt of posts. We're using the [GetArrayElement function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelement-azure-stream-analytics) to select the first object of the [post.matchingSearchTopic](event-hubs-json-reference.md#document.matchingSeachTopics) array. To select all objects of the array, you can use the [GetArrayElements function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelements-azure-stream-analytics).
 
        ```
        WITH sub_query AS
@@ -218,6 +218,6 @@ search.app:
 
 ### See Also  
  [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
- [JSON reference for events from Market Insights](event-hubs-json-reference-social-engagement.md)   
+ [JSON reference for events from Market Insights](event-hubs-json-reference.md)   
  [Manage connections in Market Insights](manage-connections.md)   
  [Administer Market Insights](settings-administration.md)
