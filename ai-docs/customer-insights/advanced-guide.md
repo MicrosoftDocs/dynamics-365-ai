@@ -35,22 +35,24 @@ o	Connectors (sources that are not supported by the CDM template)
 o	Go deep on .csv files
 
 
-
 ## Massaging the data
 Content.
 
+### Introduction to Data Configuration
+Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called **Customer Entities**. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
+
+(add "configuration" screen with highlighted Map tile)
+
 ### Map
-Once ingested your data, you are ready to unlock the unique identity-resolution features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called *Customer Entities*. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
-
-(add "configuration" screen)
-
-The main goal behind the Map screen below is to go one customer entity at a time, and identify the columns upon which you will want to merge your data. In Dynamics AI for Customer Insights these columns are also called *attributes*. 
+There are two main goals behind the Map screen (shown below):
+- Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
+- Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
 
 (add "Map" screen)
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a contacts dataset, you may want to assign *customer name* as the unique key for that source, while for a call logs file you may define *phone number* as a unique key.
-- **Match:** Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. Examples range from customer ID, to email address, to many other attributes that you might find in multiple data sources. Moreover, you may want to select attributes that only partially overlap with attributes from other data sources since not-exact matches will also be available to you as part of the next *Match* stage. 
+- **Match:** Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. Examples range from customer ID, to email address, to many other attributes that you might find in multiple datasets 
 - **Entity Type:** Categories under which your attributes fall such as email or name. Adding a custome entity type is also possible.
 - **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching prcosess. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
@@ -72,7 +74,22 @@ In addition, three additional actions are available in the Map screen:
 
 
 ### Match
-Content.
+Once mapping is completed, you are ready to match your mapped entities. Clicking the Match tile in the configuration screen will take you to the Match screen.
+
+(add "configuration" screen with highlighted Match tile)
+
+In the Match screen below, some matches were already automatically identified based on your map pahse selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
+- Your understanding of how your datasources are related to one another
+- Your understanding of what sources are most reliable for your mapped attributes.  
+Things will become more clear as we go through the matches and roles editing processes.
+
+(add Match screen)
+
+Exploring the Match screen
+
+Editing Roles
+
+Editing Matches
 
 ### Merge
 Content.
