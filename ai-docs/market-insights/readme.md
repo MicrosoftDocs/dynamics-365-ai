@@ -1,12 +1,12 @@
 ---
-title: "Social Engagement 2018 Update 1.8 Readme"
-description: "Important and late-breaking information about Microsoft Social Engagement"
+title: "Market Insights 2018 Update 1.8 Readme"
+description: "Important and late-breaking information about Dynamics 365 AI for Market Insights"
 keywords: "readme, known issues, information"
 ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart

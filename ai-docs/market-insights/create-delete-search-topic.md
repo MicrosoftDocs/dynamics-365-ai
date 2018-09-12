@@ -1,12 +1,12 @@
 ---
-title: "Manage search topics in Social Engagement | Microsoft Docs"
-description: "Learn how to create a new search topic or delete an existing one in Social Engagement."
+title: "Manage search topics in Market Insights | Microsoft Docs"
+description: "Learn how to create a new search topic or delete an existing one in Market Insights."
 keywords: "searches, search topic, search rules, gather data"
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 9167aafd-1882-4187-add5-4bd874d3c21b
 author: m-hartmann
 ms.author: mhart

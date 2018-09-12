@@ -1,12 +1,12 @@
 ---
-title: "Get started with Social Engagement | Microsoft Docs"
-description: "Learn how to ramp up quickly on Social Engagement."
+title: "Get started with Market Insights | Microsoft Docs"
+description: "Learn how to ramp up quickly on Market Insights."
 keywords: "get started, onboarding, key features"
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 author: m-hartmann
 ms.author: mhart
@@ -123,7 +123,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Filter section**: Add or edit filters to slice and dice your data set according to your needs. At a glance, see the filters that are applied to your current data set, and quickly edit or remove them.  
   
-- **More options**: Use the current filters to work with the same data set in another area of Social Engagement. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
+- **More options**: Use the current filters to work with the same data set in another area of Market Insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
 - **Time frame**: Select the dates for which you want to analyze your data. You can select a custom date or predefined values.  
   

@@ -1,10 +1,10 @@
 ---
-title: "Social Engagement scenarios for salespeople | Microsoft Docs"
-description: "Review sales scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
+title: "Market Insights scenarios for salespeople | Microsoft Docs"
+description: "Review sales scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 ms.date: 09/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: "Market Insights"
 ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
 author: m-hartmann
 ms.author: mhart

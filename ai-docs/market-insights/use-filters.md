@@ -1,12 +1,12 @@
 ---
-title: "Use filters to see relevant data in Social Engagement | Microsoft Docs"
+title: "Use filters to see relevant data in Market Insights | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
 keywords: "filter, data set"
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
 author: m-hartmann
 ms.author: mhart

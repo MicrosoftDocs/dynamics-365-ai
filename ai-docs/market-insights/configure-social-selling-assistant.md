@@ -6,7 +6,7 @@ ms.date: 12/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
 author: m-hartmann
 ms.author: mhart

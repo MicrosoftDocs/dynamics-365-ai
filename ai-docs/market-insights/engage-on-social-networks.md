@@ -1,12 +1,12 @@
 ---
-title: "Engage on social networks in Social Engagement | Microsoft Docs"
-description: "Get an overview of the requirements to engage on posts from within Social Engagement."
+title: "Engage on social networks in Market Insights | Microsoft Docs"
+description: "Get an overview of the requirements to engage on posts from within Market Insights."
 keywords: "social center, streams, engagement"
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 98e1a49d-1d1a-4fe1-8570-8f32e234c55a
 author: m-hartmann
 ms.author: mhart

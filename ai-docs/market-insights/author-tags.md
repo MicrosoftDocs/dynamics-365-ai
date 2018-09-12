@@ -1,12 +1,12 @@
 ---
-title: "Author tags in Social Engagement | Microsoft Docs"
-description: "Add, change, and remove author tags from authors in Social Engagement"
+title: "Author tags in Market Insights | Microsoft Docs"
+description: "Add, change, and remove author tags from authors in Market Insights"
 keywords: "author tags, tags"
 ms.date: 04/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 4e9f6d32-cd46-0ef1-c8d4-ed73bc4de163
 author: m-hartmann
 ms.author: mhart

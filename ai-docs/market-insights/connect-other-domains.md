@@ -1,6 +1,6 @@
 ---
-title: "Allow requests from other domains with Social Engagement | Microsoft Docs"
-description: "Learn how to add URLs to the list of allowed domains so they can request data from Social Engagement."
+title: "Allow requests from other domains with Market Insights | Microsoft Docs"
+description: "Learn how to add URLs to the list of allowed domains so they can request data from Market Insights."
 ms.custom: 
   - dyn365-socialengagement
 ms.date: 09/12/2017
@@ -9,7 +9,7 @@ ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: "Market Insights"
 ms.assetid: dbde8454-c0e6-4914-9818-6eee4c6aeb0f
 caps.latest.revision: 27
 author: m-hartmann

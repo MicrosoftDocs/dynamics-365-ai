@@ -1,12 +1,12 @@
 ---
-title: "Manage social profiles in Social Engagement | Microsoft Docs"
-description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
+title: "Manage social profiles in Market Insights | Microsoft Docs"
+description: "Learn how to add, edit, share, or remove a social profile in Market Insights."
 keywords: "social profile, tokens, shared profile"
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
 author: m-hartmann
 ms.author: mhart

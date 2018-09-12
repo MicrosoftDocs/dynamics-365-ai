@@ -1,12 +1,12 @@
 ---
-title: "Archive - Social Engagement 2016 Update x.x | Microsoft Docs"
-description: "Archive of What's New updates for Social Engagement releases in 2016."
+title: "Archive - Market Insights 2016 Update x.x | Microsoft Docs"
+description: "Archive of What's New updates for Market Insights releases in 2016."
 keywords: ""
 ms.date: 04/10/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 6bc1005f-f38e-4637-bb1e-fbacd82b3349
 author: m-hartmann
 ms.author: mhart
@@ -308,7 +308,7 @@ search.app:
  The Sources widget now comes with a full-screen view to show the entire list of sources and their number of posts. The Sources History widget now comes with improved highlighting of data points, so you can easily see the values of the data. Authors by Source not only shows the five most active sources, but also summarizes how many authors posted in the other sources. 
  
 ### New videos added 
- We’ve added the following new videos to the collection: [3 intelligent ways to engage your customers in Social Engagement 2016 (3:00)](http://go.microsoft.com/fwlink/p/?LinkId=723351) and [New features in Social Engagement 2016 (4:19)](http://go.microsoft.com/fwlink/p/?LinkId=723350). Check back regularly for new multimedia assets that help you to get up to speed quickly with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Have a look at the updated [Videos & eBooks page](http://go.microsoft.com/fwlink/p/?LinkId=400708) for a collection of all published multimedia content. 
+ We’ve added the following new videos to the collection: [3 intelligent ways to engage your customers in Market Insights 2016 (3:00)](http://go.microsoft.com/fwlink/p/?LinkId=723351) and [New features in Market Insights 2016 (4:19)](http://go.microsoft.com/fwlink/p/?LinkId=723350). Check back regularly for new multimedia assets that help you to get up to speed quickly with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Have a look at the updated [Videos & eBooks page](http://go.microsoft.com/fwlink/p/?LinkId=400708) for a collection of all published multimedia content. 
  
 ## [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] 2016 Update 1.1 
  

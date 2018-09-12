@@ -1,6 +1,6 @@
 ---
-title: "Drive customer engagement using Social Engagement | Microsoft Docs"
-description: "Get an overview on how Social Engagement can help your organization to become more effective on social media."
+title: "Drive customer engagement using Market Insights | Microsoft Docs"
+description: "Get an overview on how Market Insights can help your organization to become more effective on social media."
 ms.custom:
   - dyn365-socialengagement
 ms.date: 09/12/2017
@@ -9,7 +9,7 @@ ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: "Market Insights"
 ms.assetid: 3097ddac-ea16-4448-8ac8-b97d85224ecc
 caps.latest.revision: 45
 author: m-hartmann
@@ -77,4 +77,4 @@ There’s a good chance that your customers and stakeholders are talking about y
 &gt; [!TIP]
 &gt;  To quickly access help topics when you&#39;re working with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], click the Help button <img src="media/help-icon.png" alt="Help button" title="Help button"/>, and then click **Help**.<br/>
 We welcome your feedback. Use the feedback link at the bottom of this page to share your comments with us.<br/>
-### See Also<br/><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Microsoft Social Engagement</a><br/><a href="get-started.md" data-raw-source="[Get started with Market Insights](get-started.md)">Get started with Social Engagement</a><br/><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Microsoft Social Engagement</a>
+### See Also<br/><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Market Insights</a><br/><a href="get-started.md" data-raw-source="[Get started with Market Insights](get-started.md)">Get started with Market Insights</a><br/><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Market Insights</a>

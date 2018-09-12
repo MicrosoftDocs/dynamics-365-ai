@@ -1,12 +1,12 @@
 ---
-title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
-description: "Learn about features and pricing of Social Engagement and get started using the service."
-keywords: "social engagement, overview, quick start, scenarios"
+title: "Overview of Market Insights, pricing, and related scenarios | Microsoft Docs"
+description: "Learn about features and pricing of Market Insights and get started using the service."
+keywords: "Market Insights, overview, quick start, scenarios"
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
 author: m-hartmann
 ms.author: mhart

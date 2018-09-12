@@ -1,12 +1,12 @@
 ---
-title: "Permissions and user roles in Social Engagement | Microsoft Docs"
+title: "Permissions and user roles in Market Insights | Microsoft Docs"
 description: "Learn how to work with user roles and their permissions."
 ms.custom: 
   - dyn365-socialengagement
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: "Market Insights"
 ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
 author: m-hartmann
 ms.author: mhart

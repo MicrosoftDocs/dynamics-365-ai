@@ -1,6 +1,6 @@
 ---
-title: "Administer Social Engagement | Microsoft Docs"
-description: "Learn about the main areas to administer Social Engagement"
+title: "Administer Market Insights | Microsoft Docs"
+description: "Learn about the main areas to administer Market Insights"
 Description: 
 ms.custom: 
   - dyn365-socialengagement
@@ -10,7 +10,7 @@ ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: get-started-article
-applies_to: "Social Engagement"
+applies_to: "Market Insights"
 ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
 caps.latest.revision: 33
 author: m-hartmann

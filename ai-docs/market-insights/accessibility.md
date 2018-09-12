@@ -1,12 +1,12 @@
 ---
-title: "Accessibility for Social Engagement | Microsoft Docs"
-description: "Learn about accessibility features in general and specifically in Social Engagement."
+title: "Accessibility for Market Insights | Microsoft Docs"
+description: "Learn about accessibility features in general and specifically in Market Insights."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
 ms.date: 05/08/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 author: m-hartmann
 ms.author: mhart

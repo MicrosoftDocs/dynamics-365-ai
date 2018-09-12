@@ -1,12 +1,12 @@
 ---
-title: "Define activity maps in Social Engagement | Microsoft Docs"
-description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
-keywords: "activiy map, localtion analysis, live map"
+title: "Define activity maps in Market Insights | Microsoft Docs"
+description: "Learn how to configure activity maps in Market Insights to view real-time data on a map."
+keywords: "activity map, location analysis, live map"
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
 author: m-hartmann
 ms.author: mhart

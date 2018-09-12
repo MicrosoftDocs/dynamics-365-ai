@@ -1,12 +1,12 @@
 ---
-title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
+title: "Market Insights integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: ""
 ms.date: 04/12/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 author: m-hartmann
 ms.author: mhart

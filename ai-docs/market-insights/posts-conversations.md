@@ -1,12 +1,12 @@
 ---
-title: "View posts and conversations in Social Engagement | Microsoft Docs"
-description: "Understand how you can work with posts after acquiring them through Social Engagement."
+title: "View posts and conversations in Market Insights | Microsoft Docs"
+description: "Understand how you can work with posts after acquiring them through Market Insights."
 keywords: "post list, post details, stream, post actions, reply, mention, share"
 ms.date: 12/08/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 864f81b7-bf35-4302-8da5-585c71cba333
 author: m-hartmann
 ms.author: mhart

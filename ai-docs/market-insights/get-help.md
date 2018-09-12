@@ -1,12 +1,12 @@
 ---
-title: "Get help with Social Engagement | Microsoft Docs"
+title: "Get help with Market Insights | Microsoft Docs"
 description: "Learn where you can find helpful resources to get you started or troubleshoot an issue."
 ms.custom: 
   - dyn365-socialengagement
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: "Market Insights"
 ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 author: m-hartmann
 ms.author: mhart

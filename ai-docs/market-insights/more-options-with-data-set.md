@@ -1,12 +1,12 @@
 ---
-title: "Work with a data set in Social Engagement | Microsoft Docs"
-description: "Learn how to open a data set in other areas of Social Engagement."
+title: "Work with a data set in Market Insights | Microsoft Docs"
+description: "Learn how to open a data set in other areas of Market Insights."
 keywords: "data set, filter, time frame"
 ms.date: 03/19/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: 39b154e6-2a78-44bf-864e-e03da3d184c0
 author: m-hartmann
 ms.author: mhart

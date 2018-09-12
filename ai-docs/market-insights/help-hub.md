@@ -1,12 +1,12 @@
 ---
-title: "Pointers for Social Engagement | Microsoft Docs"
+title: "Pointers for Market Insights | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
 ms.date: 08/07/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - "Market Insights"
 ms.assetid: caadfdba-1c29-4032-8fb5-34257913bc09
 author: m-hartmann
 ms.author: mhart
@@ -30,7 +30,7 @@ search.app:
 <td>
 
 <h2> Get started </h2>
-<li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">Microsoft Social Engagement overview</a></li>
+<li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">Market Insights overview</a></li>
 <li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
 <li><a href="social-selling-assistant-overview.md" data-raw-source="[Meet the Social Selling Assistant](social-selling-assistant-overview.md)">Meet the Social Selling Assistant</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
@@ -39,7 +39,7 @@ search.app:
 
 <h2> Administer </h2>
 
-<li><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Microsoft Social Engagement</a></li>
+<li><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Market Insights</a></li>
 <li><a href="manage-global-settings.md" data-raw-source="[Configure settings](manage-global-settings.md)">Configure settings</a></li>
 <li><a href="set-up-searches.md" data-raw-source="[Set up searches](set-up-searches.md)">Set up searches</a></li>
 <li><a href="manage-connections.md" data-raw-source="[Manage connections](manage-connections.md)">Manage connections</a></li>
@@ -82,9 +82,9 @@ search.app:
 
 <h2> Product updates </h2>
 
-<li><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Microsoft Social Engagement</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Dynamics 365 AI for Market Insights Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Market Insights Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Microsoft Social Engagement Translation Guide</a></li>
+<li><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Market Insights</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Dynamics 365 AI for Market Insights Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Market Insights Readme</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Market Insights Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Market Insights Translation Guide</a></li>
 </td>
 </tr>
 </table>
