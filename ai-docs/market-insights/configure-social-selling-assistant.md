@@ -1,7 +1,7 @@
 ---
 title: "Configure the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to prepare for the Social Selling Assistant before sharing it with your users."
-keywords: "ssa, social selling assistant, MSE, dynamics 365, configuration"
+keywords: "ssa, social selling assistant, dynamics 365, configuration"
 ms.date: 12/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article

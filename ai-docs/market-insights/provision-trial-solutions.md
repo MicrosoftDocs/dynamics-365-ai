@@ -1,7 +1,7 @@
 ---
 title: "Set up trial solutions for Market Insights | Microsoft Docs"
 description: "Review the steps to get a trial solution for Market Insights"
-keywords: "trial. provisioning, MSE, testdrive"
+keywords: "trial. provisioning, testdrive"
 ms.date: 06/28/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
