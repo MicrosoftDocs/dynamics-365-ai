@@ -66,7 +66,8 @@ search.app:
 |![private messages symbol](media/private-message-icon.png "Private messages symbol")|Acquisition of private messages has been allowed and a private message rule is in use.|  
 
 ## Acquisition token status overview  
- Social Engagement displays symbols to let you know if social profile data acquisition and private messages are running.  
+
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] displays symbols to let you know if social profile data acquisition and private messages are running.  
 
 ||||  
 |-|-|-|  

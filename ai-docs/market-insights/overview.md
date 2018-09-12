@@ -37,13 +37,13 @@ See how some of our customers are using [!INCLUDE[Market Insights](../includes/p
 
 -   [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)&mdash;transforming customer service and social insights.
 
--   [The RIGI Bahn moves closer to its guests with the help of Social Engagement](https://customers.microsoft.com/story/the-rigi-bahn-moves-closer-to-its-guests-with-the-help-of-microsoft-social-engagement)&mdash;social engagement and marketing.
+-   [The RIGI Bahn moves closer to its guests](https://customers.microsoft.com/story/the-rigi-bahn-moves-closer-to-its-guests-with-the-help-of-microsoft-social-engagement)&mdash;social engagement and marketing.
 
--   [Bremont accelerates customer service with Social Engagement](https://enterprise.microsoft.com/en-gb/customer-story/industries/retail-and-consumer-goods/bremont-accelerates-customer-service/)&mdash;customer service and engagement.
+-   [Bremont accelerates customer service](https://enterprise.microsoft.com/en-gb/customer-story/industries/retail-and-consumer-goods/bremont-accelerates-customer-service/)&mdash;customer service and engagement.
 
 -   [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/story/5-tips-to-help-your-business-weather-changes-in-the-fi)&mdash;digital transformation and customer engagement.
 
--   [The Liebherr Group harnesses social media to stay ahead with Microsoft Dynamics CRM and Social Engagement](https://customers.microsoft.com/story/the-liebherr-group-harnesses-social-media-to-stay-ahea)&mdash;brand reputation and social sentiment.
+-   [The Liebherr Group harnesses social media to stay ahead with Microsoft Dynamics 365](https://customers.microsoft.com/story/the-liebherr-group-harnesses-social-media-to-stay-ahea)&mdash;brand reputation and social sentiment.
 
 
 ## Pricing information
@@ -91,14 +91,6 @@ We frequently release updates to introduce new capabilities, improve existing fe
 ## Request a trial
 
 Customers and partners can request a trial and depending on the business case and capacity, we will email you the trial key. [Request a trial](https://experience.dynamics.com/trials/).
-
-## Community contributions
-
-Have a look at these additional assets that are waiting for you.
-
--   [Nick Fratello's video: Social Engagement customer care demonstration](https://www.youtube.com/watch?v=OIkSl6R5APo)
-
--   [Jesper Osgaard's Microsoft Lystavlen](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.
 
 ### See also
 

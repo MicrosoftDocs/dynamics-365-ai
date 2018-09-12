@@ -81,7 +81,7 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 ## Customer stories
 
-- [Port aims to proactively address issues with Social Engagement](https://customers.microsoft.com/story/port-aims-to-proactively-address-issues-with-microsoft)
+- [Port aims to proactively address issues using social media](https://customers.microsoft.com/story/port-aims-to-proactively-address-issues-with-microsoft)
 
 - [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
 

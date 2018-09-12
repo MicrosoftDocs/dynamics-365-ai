@@ -86,7 +86,7 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
 
 ## Configure Dynamics 365 to automatically create records from linked posts
 
-By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a Social Activity entity when a post is linked from Social Engagement. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can convert this entity to a different record type. To automate the process, you can set up Automatic Record Creation Rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to automatically create records from incoming social activities.  
+By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a Social Activity entity when a post is linked from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can convert this entity to a different record type. To automate the process, you can set up Automatic Record Creation Rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to automatically create records from incoming social activities.  
 
 To learn more about the social activity record type or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record creation and update rules feature, see [MSDN: SocialActivity entity messages and methods](https://msdn.microsoft.com/library/dn689062.aspx), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394).  
 
