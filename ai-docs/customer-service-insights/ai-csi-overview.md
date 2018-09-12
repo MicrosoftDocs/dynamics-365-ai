@@ -25,4 +25,18 @@ The AI-driven Customer Service Insights technology empowers informed decision ma
 
 *The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service.*
 
-For more information about the dashboard and sample data, see [Work with Dynamics 365 AI for Customer Service dashboards and sample data](AICS-US-dashboards.md). For details on the graphs and metrics displayed on the dashboard, see [Dynamics 365 AI for Customer Service Dashboard reference](AICS-REF-dashboard).
+For a Quickstart walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md).
+
+For more information about how workspaces can help you get different views of your customer support data, see [Use workspaces to manage your customer service data insights](ai-csi-workspaces.md).
+
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md).
+
+For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas of improvement, see [Identify areas of improvement in your customer support system](ai-csi-improve-system.md).
+
+For details on the AI for Customer Service Insights dashboards, see the following topics:
+
+* [Summary (KPI) Dashboard](ai-csi-dash-summary.md)
+* [Case Trend Insights Dashboard](ai-csi-dash-case-trend.md)
+* [Case Resolution Insights Dashboard](ai-csi-dash-case-resolution.md)
+* [CSAT Dashboard](ai-csi-dash-CSAT.md)
+* [Topic Details Dashboard](ai-csi-dash-topic-details.md)
