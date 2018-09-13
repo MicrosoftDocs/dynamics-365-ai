@@ -38,7 +38,7 @@ search.app:
 -   Click **Posts** on the right side of any analytics page to see the latest posts that match the data set of your current analysis.
 
 > [!NOTE]
->  When you open the details of a post in a post list, you can use the **Next post** ![next post](media/next-post-symbol-social-engagement.png "Next post") and **Previous post** ![previous post](media/previous-post-icon.png "Previous post") buttons to move between the posts in the list.
+>  When you open the details of a post in a post list, you can use the **Next post** ![next post](media/next-post-symbol.png "Next post") and **Previous post** ![previous post](media/previous-post-icon.png "Previous post") buttons to move between the posts in the list.
 
 For more information about streams in the Social Center, see [Keep track of live data streams with Social Center](social-center.md).
 

@@ -46,7 +46,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 3. Search for **[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]**, select the content pack from the results, and then click **Get it now**.  
   
-   ![select market insights from the list of content packs](media/content-pack-select-social-engagement.png "Select Market Insights from the list of content packs")  
+   ![select market insights from the list of content packs](media/content-pack-select-service.png "Select Market Insights from the list of content packs")  
   
 4. Provide the **Solution ID** (not the full URL) of the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance you want to connect to, choose the time frame you want to import and click **Next**.  For more information how to find the **Solution ID**, see [Troubleshooting](#troubleshooting).  
   
@@ -75,7 +75,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
     Once your data is imported you can see the default dashboard that [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] creates to display your data. You can modify this dashboard to display your data in any way you want.  
   
-   ![dashboard with market insights data in power bi](media/content-pack-social-engagement-dashboard.jpg "Dashboard with Market Insights data in Power BI")  
+   ![dashboard with market insights data in power bi](media/content-pack-power-bi-dashboard.jpg "Dashboard with Market Insights data in Power BI")  
   
 ### What's next?  
   

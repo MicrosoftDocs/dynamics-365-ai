@@ -33,7 +33,7 @@ In [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], when u
 > [!IMPORTANT]
 >  Without Automatic Record Creation and Update Rules, the Social Activity record created in [!include[](../includes/pn-dynamics-crm.md)] by [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] does not automatically result in a corresponding [!include[](../includes/pn-dynamics-crm.md)] entity record (such as a Case or Lead record).
 
-![open drop-down menu with case and lead options for creating a record in dynamics 365 from within market insights](media/select-entity-mse.png "Open drop-down menu with Case and Lead options for creating a record in Dynamics 365 from within Market Insights")
+![open drop-down menu with case and lead options for creating a record in dynamics 365 from within market insights](media/select-entity.png "Open drop-down menu with Case and Lead options for creating a record in Dynamics 365 from within Market Insights")
 
 ## Create a rule to automatically turn social activities into Lead or Case records
 

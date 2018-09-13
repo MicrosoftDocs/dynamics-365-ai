@@ -36,7 +36,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
   
 2. **Active filters**: In the filter section, set all required filters. You can apply multiple filters to narrow your data set.  
   
-   ![create data sets in social engagment](media/data-set-concept-social-engagement.png "Create data sets in Social Engagment")  
+   ![create data sets in social engagment](media/data-set-concept.png "Create data sets in Social Engagment")  
   
 ## Drill down into data and apply filters from widgets  
  [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
