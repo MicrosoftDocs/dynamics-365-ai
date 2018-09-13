@@ -70,7 +70,6 @@ In addition, three additional actions are available in the Map screen:
     - Lastly, you want to save your selection and now these will be added as new tabs to the left of the entity table. 
       
       ![add-entity2.png](media/add-entity2.png)
-
 - **Add attributes to an existing customer entity:** Available upon clicking the **Add** drop-down menu (left image below). Choosing this option for one of your customer entities will enable you to take more attributes into consideration as part of the matching process. [UX is not ready for selection panel]
 
 ![add-attribute.png](media/add-attribute.png)
@@ -99,11 +98,24 @@ The match screen includes several componenets. We will explore these from left t
 - **Matched Records**: Number of records (or dataset rows) that were matched for the specific match pair
 - **Unmatched Records**: Number of records (or dataset rows) that were unmatched for the specific match pair
 - **Matched Score**: Relative score that reflects the number of successful matches for that pair compared to the other pairs
-- **Action**: Clicking the "eye" icon will enable you to see all the records for that pair. Clicking on the "three dots" icon will enable you to either remove a pair or to edit it's roles (will be explained within the next section). 
+- **Rules**: While the concept of *Roles* will be explained within the next section, this checkbox has three states:
+  1. Checked circle: Implies that at least one rule was defined for that match pair.
+  2. Warning triangle sign: Implies that no rules were defined for that match pair.
+  3. ?: Suggests that there are conflicting rules for that match pair. 
+- **Action**: Clicking the "eye" icon will enable you to see all the records for that pair. Clicking the "three dots" icon will enable you to either remove a pair or edit it's roles (the concept of match pair roles will be explained within the next section). 
 
-### Editing Roles
+### Editing Match Pair Roles
+The roles for each match pair are accessable through the "three dots" icon under the *Action* culumn as shown above. 
+**Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. 
+- The first rule includes the Name attribute for both entities
+- The second rule includes... for the Saleforce Sales Data entity and ... for the Dynamics 365 Sales data entity
+- These rules has an "Or" condition which states that either one of the rules should be executed when matching these pair entities
+- Upon the first role execution, 5,108 records will be matched, while upon the second rule execution, 3,081 records will be matched
 
-### Editing Matches
+(add Match edit rule screen)
+
+
+### Editing Match Pairs Order
 
 ### Merge
 Content.
