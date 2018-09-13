@@ -49,7 +49,7 @@ For each automation rule, there are several navigation elements and values to de
   
 3. List of automation rules and their status for a quick overview.  
   
-4. Actions configured for the automation rule. ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action")![stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action")![assign to action](media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action")![set label action](media/automation-rule-action-set-label-social-engagement.png "Set label action")  
+4. Actions configured for the automation rule. ![link to dynamics 365 action](media/automation-rule-action-link-to-crm.png "Link to Dynamics 365 action")![stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action")![assign to action](media/automation-rule-action-assign-to-user.png "Assign to action")![set label action](media/automation-rule-action-set-label.png "Set label action")  
   
 5. Button to delete the automation rule ![delete button](media/trashbin-icon.png "Delete button").  
   
@@ -119,7 +119,7 @@ You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-
   
    All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and you can manually link them.  
   
-4. Open the post list and click **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+4. Open the post list and click **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 ### Stream to Event Hubs action fails  
 **Possible causes**  
@@ -169,13 +169,13 @@ Automation rules are visible to all users of [!INCLUDE[Market Insights](../inclu
   
 6. In the **Actions** section, click **Add** ![add button](media/add-icon.png "Add button") to add an action to the rule.  
   
-   - Set the values for **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+   - Set the values for **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
    - Set the values for **Stream to Event Hubs** ![stream to event hubs action](media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md), [JSON reference for events from Market Insights](event-hubs-json-reference.md)  
   
-   - Set the values for **Assign to** ![assign to action](media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action") to assign matching posts to the specified user or group. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
+   - Set the values for **Assign to** ![assign to action](media/automation-rule-action-assign-to-user.png "Assign to action") to assign matching posts to the specified user or group. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
-   - Set the values for **Set label** ![set label action](media/automation-rule-action-set-label-social-engagement.png "Set label action") to automatically label incoming social posts that match your data set.  
+   - Set the values for **Set label** ![set label action](media/automation-rule-action-set-label.png "Set label action") to automatically label incoming social posts that match your data set.  
   
 7. Set the **Active** switch to **ON** to activate your automation rule.  
   
