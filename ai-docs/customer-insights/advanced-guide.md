@@ -74,22 +74,27 @@ In addition, three additional actions are available in the Map screen:
 
 
 ### Match
-Once mapping is completed, you are ready to match your mapped entities. Clicking the Match tile in the configuration screen will take you to the Match screen.
+Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the configuration screen will take you to the Match screen.
 
 (add "configuration" screen with highlighted Match tile)
 
 In the Match screen below, some matches were already automatically identified based on your map pahse selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
 - Your understanding of how your datasources are related to one another
 - Your understanding of what sources are most reliable for your mapped attributes.  
-Things will become more clear as we go through the matches and roles editing processes.
 
 (add Match screen)
 
-Exploring the Match screen
+### Exploring the Match screen
+The match screen includes several componenets. We will explore these from left to right.
+- **Match Pair**: Clicking an entity in one of the match pair columns will enlist all the entities that are availalbe for match pairs. Those entities were selected during the Map stage. 
+- **Matched Records**: Number of records (or dataset rows) that were matched for the specific match pair
+- **Unmatched Records**: Number of records (or dataset rows) that were unmatched for the specific match pair
+- **Matched Score**: Relative score that reflects the number of successful matches for that pair compared to the other pairs
+- **Action**: Clicking the "eye" icon will enable you to see all the records for that pair. Clicking on the "three dots" icon will enable you to either remove a pair or to edit it's roles (will be explained within the next section). 
 
-Editing Roles
+### Editing Roles
 
-Editing Matches
+### Editing Matches
 
 ### Merge
 Content.
