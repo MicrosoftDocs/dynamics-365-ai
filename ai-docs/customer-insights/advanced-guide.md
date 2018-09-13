@@ -41,14 +41,15 @@ Content.
 ### Introduction to Data Configuration
 Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called **Customer Entities**. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
 
-(add "configuration" screen with highlighted Map tile)
+![configuration.png](media/configuration.png)
+
 
 ### Map
 There are two main goals behind the Map screen (shown below):
 - Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
 - Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
 
-(add "Map" screen)
+![map-screen1.png](media/map-screen1.png)
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a contacts dataset, you may want to assign *customer name* as the unique key for that source, while for a call logs file you may define *phone number* as a unique key.
@@ -57,16 +58,24 @@ Clicking each of the customer entities tabs on the left will open it's correspon
 - **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching prcosess. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
 In addition, three additional actions are available in the Map screen:
-- **Add customer entity:** Available upon clicking the ***Add*** drop-down menu (shown below, left image). Here you can bring additional data sets from your data sources on the basis of which you wish to match your data. 
+
+![add-custom-entity.png](media/add-custom-entity.png)
+
+- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below, left image). Here you can bring additional data sets from your data sources on the basis of which you wish to match your data. 
     - Using the customer entitys panel (shown below, center image), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* datasource opened a list with all the entities for that source. You may also use the search botton to find a specific entity.
     - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.
+
+      ![add-entity.png](media/add-entity.png)
+
     - Lastly, you want to save your selection and now these will be added as new tabs to the left of the entity table. 
+      
+      ![add-entity2.png](media/add-entity2.png)
 
-(add "Map adding dataset" 3 screens - one next to another)
+- **Add attributes to an existing customer entity:** Available upon clicking the **Add** drop-down menu (left image below). Choosing this option for one of your customer entities will enable you to take more attributes into consideration as part of the matching process. [UX is not ready for selection panel]
 
-- **Add attributes to an existing customer entity:** Available upon clicking the ***Add*** drop-down menu (left image below). Choosing this option for one of your customer entities will enable you to take more attributes into consideration as part of the matching process. [UX is not ready for selection panel]
+![add-attribute.png](media/add-attribute.png)
 
-(add "Map add customer field" 3 screens - one next to another)
+![add-attribute2.png](media/add-attribute2.png)
 
 - **Keep unmatched records:** As part of the next stage (match), it is possible that not all of your data entities will be matched. Upon checking this box (shown below), you choose to save all the records (or dataset rows) of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
 
