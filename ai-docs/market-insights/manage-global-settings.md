@@ -27,7 +27,7 @@ search.app:
 Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution, letting your users start efficiently with your organizational requirements.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
+> [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-admin.md)]  
   
  If you aren’t an administrator, you can only override the default values for how [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](user-preferences.md#EditPrefs)  
   
@@ -193,7 +193,7 @@ Define system settings that apply to the entire organization, like solution name
 -   To see the list of locations groups, go to **Settings** > **Global Settings** > **Location Groups**.  
   
 ### Create a custom location group  
- Create a custom location group to use as a filter for alerts and analysis. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+ Create a custom location group to use as a filter for alerts and analysis. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -216,7 +216,7 @@ Define system settings that apply to the entire organization, like solution name
  You can add or remove locations from a custom location group at any time.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
 > 
 >  Administrators can edit all custom location groups. Power Analysts can only edit custom location groups they own.  
   
@@ -231,7 +231,7 @@ Define system settings that apply to the entire organization, like solution name
 5.  Click the **Save** button ![save button](media/save-icon.png "Save button") to confirm your edits.  
   
 ### Delete a custom location group  
- You can delete custom location groups that are no longer required. Predefined location groups can’t be deleted. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+ You can delete custom location groups that are no longer required. Predefined location groups can’t be deleted. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
   
 1.  Go to **Settings** > **Global Settings**.  
   

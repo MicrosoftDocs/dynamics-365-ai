@@ -53,7 +53,7 @@ You can perform quality management over the entire application by blocking irrel
  When you’re not interested in posts from a specific domain, add the domain to the list of blocked sources.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
 > 
 > [!IMPORTANT]
 >  When you add a domain to the list of blocked domains, posts from this domain will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
@@ -73,7 +73,7 @@ You can perform quality management over the entire application by blocking irrel
  Reactivate the data acquisition from a blocked source by removing the domain from the list.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
   
 1.  Go to **Search setup** > **Blocked Content**.  
   
@@ -101,7 +101,7 @@ You can perform quality management over the entire application by blocking irrel
  Acting as global exclusions, keywords and phrases you add to the list of blocked content will be deleted from your analysis, and already-acquired posts  removed from the database.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
 > 
 > [!IMPORTANT]
 >  When you add a keyword to the list of blocked keywords, posts matching this keyword will be hidden in Analytics for four hours and be irreversibly deleted  afterward.  
@@ -116,7 +116,7 @@ You can perform quality management over the entire application by blocking irrel
  Remove a global exclusion and restart the data acquisition for posts matching this keyword by removing a keyword from the blocked content list.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)] Data acquisition restarts after removing a keyword from the list of blocked content. Posts aren’t acquired retroactively.  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)] Data acquisition restarts after removing a keyword from the list of blocked content. Posts aren’t acquired retroactively.  
   
 1.  Go to **Search Setup** > **Blocked Content**.  
   

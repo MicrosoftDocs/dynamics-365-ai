@@ -31,7 +31,7 @@ It’s important to start with a clear idea of what kind of online information y
   
 ## Create a search topic  
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 1. Go to **Search Setup**.  
   

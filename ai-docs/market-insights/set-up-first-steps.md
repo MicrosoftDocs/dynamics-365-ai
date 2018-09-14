@@ -28,7 +28,7 @@ This topic explains what the Administrator for your organization does to set up 
   
 <a name="set_sol_default"></a>   
 ## Define global settings  
- You need to set up [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] so your users can work with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
+ You need to set up [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] so your users can work with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-admin.md)]  
   
 1.  Go to **Settings** > **Global Settings**.  
   

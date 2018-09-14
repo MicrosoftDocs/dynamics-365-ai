@@ -33,7 +33,7 @@ Analyze your results and optimize your search queries regularly to make sure you
  Terms and sources change. New abbreviations may gain popularity, or news about your topic will be defined in a different way with different words. A recommended approach is to read carefully through new and important posts to identify emerging topics or changes in wording.  
   
 > [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
+> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
   
 1. Go to **Search Setup**.  
   

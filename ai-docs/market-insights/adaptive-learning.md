@@ -48,7 +48,7 @@ To turn machine learning on, select the **Adaptive learning** check box and clic
 ## Reset your organization’s sentiment analysis  
 If you aren’t happy with the results of the sentiment analysis, you can always reset your organization’s sentiment analysis to the system default. This will discard all previously made edits and confirmations to sentiment values, and restart the learning from the system default.  
   
- [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
+ [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-admin.md)]  
   
 1.  Navigate to **Settings** > **Global Settings**.  
   
