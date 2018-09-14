@@ -120,18 +120,100 @@ The roles for each match pair are accessable through the "three dots" icon under
 ### Merge
 Content.
 
+
 ## Enrichment
-due to OOB rules automatically happens but we can link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+[due to OOB rules automatically happens]
+[Note (28.8): We can either:
+- Link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+- Talk about unlocking more insights by enriching with Microsoft Graph data
+- Or let go on this part for the 5*5]
 
 ## Insights
 top paying/engaged/etc customers, KPIs, other details
+User can view insights through C360 app + APIs
+Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
+
+Possibly: OOB Business AI templates – e.g. Churn, Customer lifetime value, Predictive Score, etc or custom ML models
+
+> [!div class="mx-imgBorder"] 
+> ![](media/insights-powerbi.png "Insights through Power BI")
+
 
 ## Segmentation
+There are three available segmentation types: *Static Segments*, *Dynamic Segments*, and *Customized Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
+
+### Creating Segments from the Left Menu Bar
+This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
+
+- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. Cases that fit static segments are for example: 1. , 2.
+
+[divS1]
+
+   - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
+     that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic (blue) switch in "off" state since it is a 
+     static segment: 
+     
+     [divS2]
+     
+   - **In step two, we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
+     selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a 
+     filter:
+     
+     [divS3]
+     
+   - **In step three, which is optional, we will add two rules to our filter**. Two roles are available on the entity level: 
+     ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
+     creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
+     attribute):
+     
+     [divS4]
+     
+   - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
+     botton, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in 
+     the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.            - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
+       
+     [divS5]
+
+
+- **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Cases that fit dynamic segments are for example: 1. , 2.
+
+### Creating Segments from the Customers Page
+
+### Exploring Segments from the Segmentation Page
+
+### Exploring a Particular Segment from the Segment Page
+
+### Acting Upon the Data: Exporting a Segment
+
+### ? Acting upon the Data: Tying a Segment to Flow
+
+
 o	Work with operators to produce segments (both static and dynamic segments)
 o	Act (export segments)
 
-## Extensibilities
+User is able do segmentation atop CDS-A profiles
+Show how a user can analyze CDS-A customer profiles/relationships/interactions and export the results as segments to other apps (e.g. CSV file)
+Show how we enable developers to query customer profiles from CDS-A and build into app experience (e.g. a Dynamics 365 for Marketing)
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-page.png "Segmentation page")
+
+### Static segments
 Content.
+
+### Dynamic segments
+Content.
+
+### Create a segment
+Content.
+
+
+## Extensibilities
+User can drive insights in Customer360 to action
+
+Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
+Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
+
 
 ### APIs
 Content.
@@ -142,11 +224,14 @@ Content.
 ### Custom apps
 Content.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/custom-app.png "Custom app")
+
 ### PowerApps and Flow
 Content.
 
-### Other connectors
-Content.
+> [!div class="mx-imgBorder"] 
+> ![](media/powerapps-flow.png "Flow")
 
 ## Administration
 Content.
