@@ -41,11 +41,11 @@ When you have multiple suggestions associated with a note, [!INCLUDE[pn-crm-shor
     > [!div class="mx-imgBorder"]
     > ![Multiple suggestions](media/notesanalysis-multiplesuggestions.png "Multiple suggestions")<br>
     Use the arrow icon to switch between the suggestions.
-2.	On the New Appointment suggestion card, select Edit and Create.<br>
-    The Quick Create: Appointment form opens with prefilled information from the note.<br>
+2.	On the **New Appointment suggestion** card, select **Edit and Create**.<br>
+    The **Quick Create: Appointment** form opens with prefilled information from the note.<br>
     > [!div class="mx-imgBorder"]
     > ![Quick creat appointment](media/notesanalysis-quickcreateappointment.png "Quick creat appointment")<br>
-3.	Edit the necessary information and select Save .
+3.	Edit the necessary information and select **Save**.
 4.	Similarly, repeat step 2 and 3 for New phone call suggestion.<br>
     A new appointment and a call are scheduled for the record.<br>
 
