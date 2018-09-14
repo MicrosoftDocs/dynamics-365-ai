@@ -19,3 +19,4 @@
 ### [Work with predictive lead scoring](../sales/work-predictive-lead-scoring.md)
 ### [Get introduced to lead](../sales/who-knows-whom.md)
 ### [Know converstion starters of customers](../sales/talking-points.md)
+### [Get suggestion using Suggested actions](../sales/suggested-action.md)
