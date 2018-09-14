@@ -35,22 +35,46 @@ o	Connectors (sources that are not supported by the CDM template)
 o	Go deep on .csv files
 
 
-
 ## Massaging the data
 Content.
 
-### Map
-Once ingested your data, you are ready to unlock the unique identity-resolution features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called *Customer Entities*. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
+## Search and browse customer
+Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-profiles75.png "Generated customer profiles")
+
+Select **View more** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/view-more-customers.png "View more customers")
+
+You can use the customer profiles page to filter and sort the profiles.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/filter-sort.png "Filter and sort customer profiles")
+
+What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/sort-list.png "Sort list")
+
+### Introduction to Data Configuration
+Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called **Customer Entities**. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
 
 ![configuration.png](media/configuration.png)
 
-The main goal behind the Map screen below is to go one customer entity at a time, and identify the columns upon which you will want to merge your data. In Dynamics AI for Customer Insights these columns are also called *attributes*. 
+
+### Map
+There are two main goals behind the Map screen (shown below):
+- Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
+- Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
 
 ![map-screen1.png](media/map-screen1.png)
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a contacts dataset, you may want to assign *customer name* as the unique key for that source, while for a call logs file you may define *phone number* as a unique key.
-- **Match:** Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. Examples range from customer ID, to email address, to many other attributes that you might find in multiple data sources. Moreover, you may want to select attributes that only partially overlap with attributes from other data sources since not-exact matches will also be available to you as part of the next *Match* stage. 
+- **Match:** Also required selection. Here you want to select **all** the attributes that might correspond to attributes in other customer entities. Examples range from customer ID, to email address, to many other attributes that you might find in multiple datasets 
 - **Entity Type:** Categories under which your attributes fall such as email or name. Adding a custome entity type is also possible.
 - **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching prcosess. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
@@ -67,7 +91,6 @@ In addition, three additional actions are available in the Map screen:
     - Lastly, you want to save your selection and now these will be added as new tabs to the left of the entity table. 
       
       ![add-entity2.png](media/add-entity2.png)
-
 - **Add attributes to an existing customer entity:** Available upon clicking the **Add** drop-down menu (left image below). Choosing this option for one of your customer entities will enable you to take more attributes into consideration as part of the matching process. [UX is not ready for selection panel]
 
 ![add-attribute.png](media/add-attribute.png)
@@ -80,23 +103,138 @@ In addition, three additional actions are available in the Map screen:
 
 
 ### Match
-Content.
+Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the configuration screen will take you to the Match screen.
+
+(add "configuration" screen with highlighted Match tile)
+
+In the Match screen below, some matches were already automatically identified based on your map pahse selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
+- Your understanding of how your datasources are related to one another
+- Your understanding of what sources are most reliable for your mapped attributes.  
+
+(add Match screen)
+
+### Exploring the Match screen
+The match screen includes several componenets. We will explore these from left to right.
+- **Match Pair**: Clicking an entity in one of the match pair columns will enlist all the entities that are availalbe for match pairs. Those entities were selected during the Map stage. 
+- **Matched Records**: Number of records (or dataset rows) that were matched for the specific match pair
+- **Unmatched Records**: Number of records (or dataset rows) that were unmatched for the specific match pair
+- **Matched Score**: Relative score that reflects the number of successful matches for that pair compared to the other pairs
+- **Rules**: While the concept of *Roles* will be explained within the next section, this checkbox has three states:
+  1. Checked circle: Implies that at least one rule was defined for that match pair.
+  2. Warning triangle sign: Implies that no rules were defined for that match pair.
+  3. ?: Suggests that there are conflicting rules for that match pair. 
+- **Action**: Clicking the "eye" icon will enable you to see all the records for that pair. Clicking the "three dots" icon will enable you to either remove a pair or edit it's roles (the concept of match pair roles will be explained within the next section). 
+
+### Editing Match Pair Roles
+The roles for each match pair are accessable through the "three dots" icon under the *Action* culumn as shown above. 
+**Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. 
+- The first rule includes the Name attribute for both entities
+- The second rule includes... for the Saleforce Sales Data entity and ... for the Dynamics 365 Sales data entity
+- These rules has an "Or" condition which states that either one of the rules should be executed when matching these pair entities
+- Upon the first role execution, 5,108 records will be matched, while upon the second rule execution, 3,081 records will be matched
+
+(add Match edit rule screen)
+
+
+### Editing Match Pairs Order
 
 ### Merge
 Content.
 
+
 ## Enrichment
-due to OOB rules automatically happens but we can link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+[due to OOB rules automatically happens]
+[Note (28.8): We can either:
+- Link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
+- Talk about unlocking more insights by enriching with Microsoft Graph data
+- Or let go on this part for the 5*5]
 
 ## Insights
 top paying/engaged/etc customers, KPIs, other details
+User can view insights through C360 app + APIs
+Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
+
+Possibly: OOB Business AI templates – e.g. Churn, Customer lifetime value, Predictive Score, etc or custom ML models
+
+> [!div class="mx-imgBorder"] 
+> ![](media/insights-powerbi.png "Insights through Power BI")
+
 
 ## Segmentation
+There are three available segmentation types: *Static Segments*, *Dynamic Segments*, and *Customized Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
+
+### Creating Segments from the Left Menu Bar
+This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
+
+- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. Cases that fit static segments are for example: 1. , 2.
+
+[divS1]
+
+   - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
+     that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic (blue) switch in "off" state since it is a 
+     static segment: 
+     
+     [divS2]
+     
+   - **In step two, we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
+     selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a 
+     filter:
+     
+     [divS3]
+     
+   - **In step three, which is optional, we will add two rules to our filter**. Two roles are available on the entity level: 
+     ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
+     creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
+     attribute):
+     
+     [divS4]
+     
+   - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
+     botton, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in 
+     the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.            - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
+       
+     [divS5]
+
+
+- **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Cases that fit dynamic segments are for example: 1. , 2.
+
+### Creating Segments from the Customers Page
+
+### Exploring Segments from the Segmentation Page
+
+### Exploring a Particular Segment from the Segment Page
+
+### Acting Upon the Data: Exporting a Segment
+
+### ? Acting upon the Data: Tying a Segment to Flow
+
+
 o	Work with operators to produce segments (both static and dynamic segments)
 o	Act (export segments)
 
-## Extensibilities
+User is able do segmentation atop CDS-A profiles
+Show how a user can analyze CDS-A customer profiles/relationships/interactions and export the results as segments to other apps (e.g. CSV file)
+Show how we enable developers to query customer profiles from CDS-A and build into app experience (e.g. a Dynamics 365 for Marketing)
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-page.png "Segmentation page")
+
+### Static segments
 Content.
+
+### Dynamic segments
+Content.
+
+### Create a segment
+Content.
+
+
+## Extensibilities
+User can drive insights in Customer360 to action
+
+Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
+Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
+
 
 ### APIs
 Content.
@@ -107,11 +245,14 @@ Content.
 ### Custom apps
 Content.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/custom-app.png "Custom app")
+
 ### PowerApps and Flow
 Content.
 
-### Other connectors
-Content.
+> [!div class="mx-imgBorder"] 
+> ![](media/powerapps-flow.png "Flow")
 
 ## Administration
 Content.
