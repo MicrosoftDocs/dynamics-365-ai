@@ -39,4 +39,3 @@ For details on the AI for Customer Service Insights dashboards, see the followin
 * [Case Trend Insights Dashboard](ai-csi-dash-case-trend.md)
 * [Case Resolution Insights Dashboard](ai-csi-dash-case-resolution.md)
 * [CSAT Dashboard](ai-csi-dash-CSAT.md)
-* [Topic Details Dashboard](ai-csi-dash-topic-details.md)
