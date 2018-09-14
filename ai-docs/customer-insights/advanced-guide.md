@@ -113,7 +113,7 @@ In the Match screen below, some matches were already automatically identified ba
 
 (add Match screen)
 
-### Exploring the Match screen
+#### Exploring the Match screen
 The match screen includes several componenets. We will explore these from left to right.
 - **Match Pair**: Clicking an entity in one of the match pair columns will enlist all the entities that are availalbe for match pairs. Those entities were selected during the Map stage. 
 - **Matched Records**: Number of records (or dataset rows) that were matched for the specific match pair
@@ -125,7 +125,7 @@ The match screen includes several componenets. We will explore these from left t
   3. ?: Suggests that there are conflicting rules for that match pair. 
 - **Action**: Clicking the "eye" icon will enable you to see all the records for that pair. Clicking the "three dots" icon will enable you to either remove a pair or edit it's roles (the concept of match pair roles will be explained within the next section). 
 
-### Editing Match Pair Roles
+#### Editing Match Pair Roles
 The roles for each match pair are accessable through the "three dots" icon under the *Action* culumn as shown above. 
 **Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. 
 - The first rule includes the Name attribute for both entities
@@ -136,17 +136,21 @@ The roles for each match pair are accessable through the "three dots" icon under
 (add Match edit rule screen)
 
 
-### Editing Match Pairs Order
+#### Editing Match Pairs Order
 In addition to roles, we can edit the order by which our entities will be matched. This is done by clicking the *Add Match Pair* option:
 
 (Add Match image from figma and highlight the Add Match Pair click-to-action)
 
-In the example below, Salesforce Sales Data and Dynamics Sales Data were defined as the first match pair and hence will be the first two entities to be matched. Next, the user added another match pair (found in row two): This pair includes the matched data set that results from the first match and a new customer entity that was selected by the user. The same process repeats for the third match pair.
+- In the example below, *Salesforce Sales Data* and *Dynamics Sales Data* were defined as the first match pair and hence will be the first two entities to be matched. Next, the user added another match pair (shown in row two): This pair includes the matched data set that resulted from the first match and a new customer entity that was selected by the user. The same process repeats for the third pair.
 
 (add Match Rules Experimnt 1 image from figma)
 
+- Upon clicking *Save* at the right bottom corner of the Match screen, the match pairs will be matched according to the order specified. Moreover, each and each match pair will be matched according to the rules specified for that match pair. 
+
 ### Merge
-Content.
+This is the last step within the data configuration process and it's all about reconciling conflicting data. An examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-803-0910 versus 6178030910 for instance). Merging those conflicting data points is done on a attribute-by-attribute basis and is specified below.
+
+- Step One: 
 
 
 ## Enrichment
