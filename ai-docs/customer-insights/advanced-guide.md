@@ -182,8 +182,8 @@ This is the last step within the data configuration process and it's all about r
   
 (add left Merge Group Attributes screen from figma (there are three screens there with that name))
 
-     - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
-     - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search8 field.
+   - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
+   - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
      
 (add center Merge Group Attributes screen from figma and highlight the search field (there are three screens there with that name))
  
@@ -252,9 +252,6 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 ### Acting Upon the Data: Exporting a Segment
 
-### ? Acting upon the Data: Tying a Segment to Flow
-
-
 o	Work with operators to produce segments (both static and dynamic segments)
 o	Act (export segments)
 
@@ -265,14 +262,36 @@ Show how we enable developers to query customer profiles from CDS-A and build in
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
 
-### Static segments
-Content.
+## Administration
 
-### Dynamic segments
-Content.
+This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration screen is the **Permissions** screen which is accessable via the **Administration tab** as shown below:  
 
-### Create a segment
-Content.
+(add "permissions" screen from the administration part on the app)
+
+Within the **Permissions** screen you can view organization members for whom roles and permissions where assigned. Note that while roles are specified under the *Roles* column, permissions are specified under the *Type* column. Lastly, you can sort the results by each of the columns types by clicking on the arrow icon next to the column name as shown below.  
+
+(add "add permissions" screen from the administration part on the app plus highlight the sorting arrow next to the "Name" column)
+
+- **Adding Roles and Permissions:** 
+    -In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Adding Permissions** panel that can be accessed via the *Add* botton at the top of the permissions screen:
+
+(add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the role field)
+
+   -When it comes to permissions, those can be defined in the same panel as shown below:
+   
+(add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the permissions field)
+
+- **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via the *Roles* botton at the top of the permissions screen:
+
+(add permissions screen with opened "roles" panel from the administration part on the app)
+
+- **Filtering Permissions by a Role**: This can be achieved by opening the **Filter** panel through the *Filter* botton at the top of the permissions screen, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
+
+(add permissions screen with opened "filter" panel from the administration part of the app)
+Within the panel above, you may want 
+
+(add "filter" screen from the administration part on the app)
+
 
 
 ## Extensibilities
@@ -280,16 +299,6 @@ User can drive insights in Customer360 to action
 
 Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
 Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
-
-
-### APIs
-Content.
-
-### Power BI
-Content.
-
-### Custom apps
-Content.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/custom-app.png "Custom app")
@@ -300,5 +309,3 @@ Content.
 > [!div class="mx-imgBorder"] 
 > ![](media/powerapps-flow.png "Flow")
 
-## Administration
-Content.
