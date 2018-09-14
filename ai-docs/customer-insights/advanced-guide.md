@@ -137,6 +137,13 @@ The roles for each match pair are accessable through the "three dots" icon under
 
 
 ### Editing Match Pairs Order
+In addition to roles, we can edit the order by which our entities will be matched. This is done by clicking the *Add Match Pair* option:
+
+(Add Match image from figma and highlight the Add Match Pair click-to-action)
+
+In the example below, Salesforce Sales Data and Dynamics Sales Data were defined as the first match pair and hence will be the first two entities to be matched. Next, the user added another match pair (found in row two): This pair includes the matched data set that results from the first match and a new customer entity that was selected by the user. The same process repeats for the third match pair.
+
+(add Match Rules Experimnt 1 image from figma)
 
 ### Merge
 Content.
@@ -149,7 +156,7 @@ Content.
 - Talk about unlocking more insights by enriching with Microsoft Graph data
 - Or let go on this part for the 5*5]
 
-## Insights
+## Insights - need to update today (9/14) after getting the list from Narinder
 top paying/engaged/etc customers, KPIs, other details
 User can view insights through C360 app + APIs
 Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
