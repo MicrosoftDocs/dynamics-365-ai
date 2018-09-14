@@ -178,7 +178,7 @@ This is the last step within the data configuration process and it's all about r
   
   - Lastly, we will define the merge policy by clicking on the relevant arrows in the *Merge Policy* section as we did before.
   
-  - **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
+- **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
   
 (add left Merge Group Attributes screen from figma (there are three screens there with that name))
 
@@ -189,11 +189,26 @@ This is the last step within the data configuration process and it's all about r
  
 
 ## Enrichment
-[due to OOB rules automatically happens]
-[Note (28.8): We can either:
-- Link it to the chosen category and mention that the data was enriched with info on preferred brands, interests, etc
-- Talk about unlocking more insights by enriching with Microsoft Graph data
-- Or let go on this part for the 5*5]
+Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configurated data will be enriched with unique data on customers' top interests and preferred brands. Here Dynamics 365 Ai for customer insights will automatically do for you the hard work:
+
+- **Interests** may range from *Shoes*, to *Banking Services* to *4 Star Hotels* to any one of the other 300+ categories that the app extracts from the Microsoft Graph
+
+- **Preferred Brands** may include *Nike*, *Walmart*, *Nokia*, or any one of the other 1200+ categories that the app extracts from the Microsoft Graph 
+
+(add enrichment screen from ?) 
+
+- **Understanding the enriched data**: Once being configurated, now your data is also enriched. For each of your customers you can view the top ten interests and preferred brands based on online behavior. 
+
+(add enrichment screen with close-up on the interests and brands columns for a couple of rows)
+
+You can filter your customers by one or more of the following:
+    - **Location, State** (note: at this point only US-locations are supported by enrichment)
+    - **Location, City** (same note holds true for cities)
+    - **Gender:** Either Male or Female or Unknown or all categories (Male, Female and Unknown taken together)
+    - **Age:** Either age bucket 20-34, age bucket 35-44, age bucket 45-54 or 55+ 
+    
+(add enrichment screen with filter panel opened)
+
 
 ## Insights - need to update today (9/14) after getting the list from Narinder
 top paying/engaged/etc customers, KPIs, other details
