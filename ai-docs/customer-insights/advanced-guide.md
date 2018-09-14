@@ -38,6 +38,27 @@ o	Go deep on .csv files
 ## Massaging the data
 Content.
 
+## Search and browse customer
+Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-profiles75.png "Generated customer profiles")
+
+Select **View more** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/view-more-customers.png "View more customers")
+
+You can use the customer profiles page to filter and sort the profiles.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/filter-sort.png "Filter and sort customer profiles")
+
+What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/sort-list.png "Sort list")
+
 ### Introduction to Data Configuration
 Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called **Customer Entities**. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
 
