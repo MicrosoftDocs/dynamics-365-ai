@@ -113,7 +113,7 @@ In the Match screen below, some matches were already automatically identified ba
 
 (add Match screen)
 
-### Exploring the Match screen
+#### Exploring the Match screen
 The match screen includes several componenets. We will explore these from left to right.
 - **Match Pair**: Clicking an entity in one of the match pair columns will enlist all the entities that are availalbe for match pairs. Those entities were selected during the Map stage. 
 - **Matched Records**: Number of records (or dataset rows) that were matched for the specific match pair
@@ -125,10 +125,9 @@ The match screen includes several componenets. We will explore these from left t
   3. ?: Suggests that there are conflicting rules for that match pair. 
 - **Action**: Clicking the "eye" icon will enable you to see all the records for that pair. Clicking the "three dots" icon will enable you to either remove a pair or edit it's roles (the concept of match pair roles will be explained within the next section). 
 
-### Editing Match Pair Roles
+#### Editing Match Pair Roles
 The roles for each match pair are accessable through the "three dots" icon under the *Action* culumn as shown above. 
-**Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. 
-- The first rule includes the Name attribute for both entities
+**Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. - The first rule includes the Name attribute for both entities
 - The second rule includes... for the Saleforce Sales Data entity and ... for the Dynamics 365 Sales data entity
 - These rules has an "Or" condition which states that either one of the rules should be executed when matching these pair entities
 - Upon the first role execution, 5,108 records will be matched, while upon the second rule execution, 3,081 records will be matched
@@ -136,11 +135,58 @@ The roles for each match pair are accessable through the "three dots" icon under
 (add Match edit rule screen)
 
 
-### Editing Match Pairs Order
+#### Editing Match Pairs Order
+In addition to roles, we can edit the order by which our entities will be matched. This is done by clicking the *Add Match Pair* option:
+(Add Match image from figma and highlight the Add Match Pair click-to-action)
+
+- In the example below, *Salesforce Sales Data* and *Dynamics Sales Data* were defined as the first match pair and hence will be the first two entities to be matched. Next, the user added another match pair (shown in row two): This pair includes the matched data set that resulted from the first match and a new customer entity that was selected by the user. The same process repeats for the third pair.
+
+(add Match Rules Experimnt 1 image from figma)
+
+- Upon clicking *Save* at the right bottom corner of the Match screen, the match pairs will be matched according to the order specified. Moreover, each and each match pair will be matched according to the rules specified for that match pair. 
 
 ### Merge
-Content.
+This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-910 versus 6178030910 for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
+- **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted screen part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
+
+(add Merge Single Attribute screen from figma. Highlight the attributes part including the "merged attributes" title)
+
+- **Prioritizing sources for pre-identified merged attributes**: Continuing with *Name* as an example for merged attribute, in this section we will learn how to prioritize contradicting values for that attribute. We start by clicking the *three dots* icon below: 
+
+(add Merge Single Attribute Edit image from figma and highlight the three dots icon)
+
+- We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
+
+(add Merge Experiment Datasource Dropdown 3 image from figma)
+
+  - First we will consider to edit the *Attribute Source* part. This part specifies all the sources that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will unselect them.
+  
+  - Second, we will consider to edit the *Merge Policy* part. This part specifies only the sources that were selected within *Attribute Source*. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will click the arrow sign next to *Salesforce Sales Data* and as a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values on *Names*.
+
+- **Adding a new merged attribute**: Adding a new merged attribute is available via the *Add Attribute* option as shown below. 
+
+(Add merged attribute screen from figma with highlighted add merged attribute part)
+
+- We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
+
+(add Merge Experiment Datasource Dropdown 3 image from figma)
+
+  - First we will type an attribute name in the *Attribute Name* field. This is the name we are giving to our merged attribute.
+  
+  - Then, within the *Select Attributes* menu, we will select all the attributes that we want to merge into our specified attribute.
+  
+  - Lastly, we will define the merge policy by clicking on the relevant arrows in the *Merge Policy* section as we did before.
+  
+  - **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
+  
+(add left Merge Group Attributes screen from figma (there are three screens there with that name))
+
+   - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
+   - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
+     
+(add center Merge Group Attributes screen from figma and highlight the search field (there are three screens there with that name))
+ 
 
 ## Enrichment
 [due to OOB rules automatically happens]
@@ -149,7 +195,7 @@ Content.
 - Talk about unlocking more insights by enriching with Microsoft Graph data
 - Or let go on this part for the 5*5]
 
-## Insights
+## Insights - need to update today (9/14) after getting the list from Narinder
 top paying/engaged/etc customers, KPIs, other details
 User can view insights through C360 app + APIs
 Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
@@ -206,9 +252,6 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 ### Acting Upon the Data: Exporting a Segment
 
-### ? Acting upon the Data: Tying a Segment to Flow
-
-
 o	Work with operators to produce segments (both static and dynamic segments)
 o	Act (export segments)
 
@@ -219,14 +262,36 @@ Show how we enable developers to query customer profiles from CDS-A and build in
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
 
-### Static segments
-Content.
+## Administration
 
-### Dynamic segments
-Content.
+This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration screen is the **Permissions** screen which is accessable via the **Administration tab** as shown below:  
 
-### Create a segment
-Content.
+(add "permissions" screen from the administration part on the app)
+
+Within the **Permissions** screen you can view organization members for whom roles and permissions where assigned. Note that while roles are specified under the *Roles* column, permissions are specified under the *Type* column. Lastly, you can sort the results by each of the columns types by clicking on the arrow icon next to the column name as shown below.  
+
+(add "add permissions" screen from the administration part on the app plus highlight the sorting arrow next to the "Name" column)
+
+- **Adding Roles and Permissions:** 
+    -In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Adding Permissions** panel that can be accessed via the *Add* botton at the top of the permissions screen:
+
+(add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the role field)
+
+   -When it comes to permissions, those can be defined in the same panel as shown below:
+   
+(add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the permissions field)
+
+- **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via the *Roles* botton at the top of the permissions screen:
+
+(add permissions screen with opened "roles" panel from the administration part on the app)
+
+- **Filtering Permissions by a Role**: This can be achieved by opening the **Filter** panel through the *Filter* botton at the top of the permissions screen, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
+
+(add permissions screen with opened "filter" panel from the administration part of the app)
+Within the panel above, you may want 
+
+(add "filter" screen from the administration part on the app)
+
 
 
 ## Extensibilities
@@ -234,16 +299,6 @@ User can drive insights in Customer360 to action
 
 Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
 Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
-
-
-### APIs
-Content.
-
-### Power BI
-Content.
-
-### Custom apps
-Content.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/custom-app.png "Custom app")
@@ -254,5 +309,3 @@ Content.
 > [!div class="mx-imgBorder"] 
 > ![](media/powerapps-flow.png "Flow")
 
-## Administration
-Content.
