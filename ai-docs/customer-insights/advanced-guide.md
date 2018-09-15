@@ -157,7 +157,6 @@ This is the last step within the data configuration process and it's all about r
 
 - We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
 
-(add Merge Experiment Datasource Dropdown 3 image from figma)
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
   - First we will consider to edit the *Attribute Source* part. This part specifies all the sources that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will unselect them.
@@ -170,7 +169,6 @@ This is the last step within the data configuration process and it's all about r
 
 - We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
 
-(add Merge Experiment Datasource Dropdown 3 image from figma)
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
   - First we will type an attribute name in the *Attribute Name* field. This is the name we are giving to our merged attribute.
