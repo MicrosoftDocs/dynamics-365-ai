@@ -111,7 +111,7 @@ In the Match screen below, some matches were already automatically identified ba
 - Your understanding of how your datasources are related to one another
 - Your understanding of what sources are most reliable for your mapped attributes.  
 
-(add Match screen)
+![match.png](media/match.png)
 
 #### Exploring the Match screen
 The match screen includes several componenets. We will explore these from left to right.
@@ -132,8 +132,7 @@ The roles for each match pair are accessable through the "three dots" icon under
 - These rules has an "Or" condition which states that either one of the rules should be executed when matching these pair entities
 - Upon the first role execution, 5,108 records will be matched, while upon the second rule execution, 3,081 records will be matched
 
-(add Match edit rule screen)
-
+![match-edit-rule.png](media/match-edit-rule.png)
 
 #### Editing Match Pairs Order
 In addition to roles, we can edit the order by which our entities will be matched. This is done by clicking the *Add Match Pair* option:
@@ -141,7 +140,7 @@ In addition to roles, we can edit the order by which our entities will be matche
 
 - In the example below, *Salesforce Sales Data* and *Dynamics Sales Data* were defined as the first match pair and hence will be the first two entities to be matched. Next, the user added another match pair (shown in row two): This pair includes the matched data set that resulted from the first match and a new customer entity that was selected by the user. The same process repeats for the third pair.
 
-(add Match Rules Experimnt 1 image from figma)
+![match-rules-experiment1.png](media/match-rules-experiment1.png)
 
 - Upon clicking *Save* at the right bottom corner of the Match screen, the match pairs will be matched according to the order specified. Moreover, each and each match pair will be matched according to the rules specified for that match pair. 
 
@@ -150,15 +149,16 @@ This is the last step within the data configuration process and it's all about r
 
 - **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted screen part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
 
-(add Merge Single Attribute screen from figma. Highlight the attributes part including the "merged attributes" title)
+![merge-single-attribute.png](media/merge-single-attribute.png)
 
 - **Prioritizing sources for pre-identified merged attributes**: Continuing with *Name* as an example for merged attribute, in this section we will learn how to prioritize contradicting values for that attribute. We start by clicking the *three dots* icon below: 
 
-(add Merge Single Attribute Edit image from figma and highlight the three dots icon)
+![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
 
 - We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
 
 (add Merge Experiment Datasource Dropdown 3 image from figma)
+![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
   - First we will consider to edit the *Attribute Source* part. This part specifies all the sources that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will unselect them.
   
@@ -171,6 +171,7 @@ This is the last step within the data configuration process and it's all about r
 - We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
 
 (add Merge Experiment Datasource Dropdown 3 image from figma)
+![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
   - First we will type an attribute name in the *Attribute Name* field. This is the name we are giving to our merged attribute.
   
@@ -180,13 +181,12 @@ This is the last step within the data configuration process and it's all about r
   
 - **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
   
-(add left Merge Group Attributes screen from figma (there are three screens there with that name))
+![merge-group-attributes-dropdown.png](media/merge-group-attributes-dropdown.png)
 
    - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
    - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
      
-(add center Merge Group Attributes screen from figma and highlight the search field (there are three screens there with that name))
- 
+ ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
 
 ## Enrichment
 Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configurated data will be enriched with unique data on customers' top interests and preferred brands. Here Dynamics 365 Ai for customer insights will automatically do for you the hard work:
