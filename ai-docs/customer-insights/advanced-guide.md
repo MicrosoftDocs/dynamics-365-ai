@@ -233,7 +233,17 @@ You can filter your customers by one or more of the following:
 # Customers Sections
 **Those include Profile and Entities.** The main goal behind those sections is to provide you with unique insights that were unlocked via the Data Manager sections. Here you can explore the customers and customer segments that are most meaningful to you.
 
+**After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
+But which of these three sections should you start with? Here are few suggestions:
+-	You might want to first get a high-level view around the unique aspects of your customer base as a whole and the latest changes in those aspects. Starting with the *Homepage* screen, and continuing with the *Segmentation* and *Profile* screens (in that order) will best serve that purpose.
+-	On the other hand you might prefer to start with more targeted insights – insights around specific segments of your customer base. Starting with the *Segmentation* screen or the *Enriched Data* screen will be the best strategy here. 
+-	Lastly, if you wish to understand specific customers’ aspects and trends OR you wish to analyze your top paying, engaged, or active customers, you might want to start with the *Profile* screen.
+
+This screen serves as the best source of insights around each and each of your customers. 
+
 ## Profile
+
+This screen serves as the best source of insights around each and each of your customers. 
 
 ### Search and browse customer 
 Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
