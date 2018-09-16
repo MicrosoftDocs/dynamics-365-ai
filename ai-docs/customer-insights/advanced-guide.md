@@ -28,38 +28,26 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## Ingest
+## How to Use the User Manual
+In order to best utilize the user manual for your specific needs, you should identify yourself with one of the following options:
+- ***I am new to the product AND I didn't go through Quick Start*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segmentation, Profiles and Homepage***.
+- ***I am new to the Advanced Mode but I did explore the Quick Start*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+- ***I am already using the product but inccuring an specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section.
+
+(add app screenshot with highlighted left-side menu)
+
+
+## Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting all your data sources and completing the Map, Match and Merge phases described below, will enable you to unlock one of the unique promises of the product - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
 
 o	Connectors (sources that are not supported by the CDM template)
 o	Go deep on .csv files
 
+## Entities
 
-## Massaging the data
-Content.
+## Configuration
 
-## Search and browse customer
-Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/customer-profiles75.png "Generated customer profiles")
-
-Select **View more** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/view-more-customers.png "View more customers")
-
-You can use the customer profiles page to filter and sort the profiles.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/filter-sort.png "Filter and sort customer profiles")
-
-What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/sort-list.png "Sort list")
-
-### Introduction to Data Configuration
+### Intro to Configuration
 Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called **Customer Entities**. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
 
 ![configuration.png](media/configuration.png)
@@ -207,17 +195,32 @@ You can filter your customers by one or more of the following:
     
 (add enrichment screen with filter panel opened)
 
+## Relationships
 
-## Insights - need to update today (9/14) after getting the list from Narinder
-top paying/engaged/etc customers, KPIs, other details
-User can view insights through C360 app + APIs
-Show how a user can access the Customer360 PowerBI app with as close as a 5x5 experience we can make it / quick time to value.
+# Customers
 
-Possibly: OOB Business AI templates – e.g. Churn, Customer lifetime value, Predictive Score, etc or custom ML models
+## Profile
+
+### Search and browse customer 
+Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/insights-powerbi.png "Insights through Power BI")
+> ![](media/customer-profiles75.png "Generated customer profiles")
 
+Select **View more** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/view-more-customers.png "View more customers")
+
+You can use the customer profiles page to filter and sort the profiles.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/filter-sort.png "Filter and sort customer profiles")
+
+What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/sort-list.png "Sort list")
 
 ## Segmentation
 There are three available segmentation types: *Static Segments*, *Dynamic Segments*, and *Customized Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
@@ -254,7 +257,6 @@ This menu includes three tabs. The tabs that are used for segment creation are t
        
      [divS5]
 
-
 - **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Cases that fit dynamic segments are for example: 1. , 2.
 
 ### Creating Segments from the Customers Page
@@ -275,7 +277,9 @@ Show how we enable developers to query customer profiles from CDS-A and build in
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
 
-## Administration
+# Homepage
+
+# Administration
 
 This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration screen is the **Permissions** screen which is accessable via the **Administration tab** as shown below:  
 
@@ -305,9 +309,12 @@ Within the panel above, you may want
 
 (add "filter" screen from the administration part on the app)
 
+# Extensibilities
 
+## Power BI
 
-## Extensibilities
+## APIs - Swagger
+
 User can drive insights in Customer360 to action
 
 Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
@@ -316,7 +323,7 @@ Show how a user can setup triggers on events detected in profile to drive releva
 > [!div class="mx-imgBorder"] 
 > ![](media/custom-app.png "Custom app")
 
-### PowerApps and Flow
+## PowerApps and Flow
 Content.
 
 > [!div class="mx-imgBorder"] 
