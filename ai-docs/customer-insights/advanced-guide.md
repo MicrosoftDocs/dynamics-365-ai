@@ -32,7 +32,7 @@ robots: noindex,nofollow
 In order to best utilize the user manual for your specific needs, you should define your situation by one of the following options:
 - ***I am new to the product AND I didn't go through Quick Start*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segmentation, Profiles and Homepage***.
 - ***I am new to the Advanced Mode but I did explore the Quick Start*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
-- ***I am already using the product but inccuring an specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section.
+- ***I am already using the product but inccuring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section.
 
 (add app screenshot with highlighted left-side menu)
 
@@ -41,6 +41,7 @@ Note that you can return to the relevant documentation section on any of the pro
 (add app screen with highlighted question mark icon)
 
 ## Choosing a Business Category
+Take from quick start
 
 # Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
