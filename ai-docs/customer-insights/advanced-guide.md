@@ -36,6 +36,8 @@ In order to best utilize the user manual for your specific needs, you should ide
 
 (add app screenshot with highlighted left-side menu)
 
+# Data Manager Sections
+**Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide and which you will be able to act upon within the seperate Homepage, Segmentation, and Profile sections. 
 
 ## Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting all your data sources and completing the Map, Match and Merge phases described below, will enable you to unlock one of the unique promises of the product - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
@@ -197,7 +199,8 @@ You can filter your customers by one or more of the following:
 
 ## Relationships
 
-# Customers
+# Customers Sections
+**Those include Profile and Entities.** The main goal behind those sections is to provide you with unique insights that were unlocked via the Data Manager sections. Here you can explore the customers and customer segments that are most meaningful to you.
 
 ## Profile
 
@@ -277,7 +280,20 @@ Show how we enable developers to query customer profiles from CDS-A and build in
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
 
-# Homepage
+# Homepage Section
+A range of actionable insights were derived during the data ingestion, configuration and enrichment processes and the **Home Page** is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It is consisted of four major parts as explained below.
+
+(add Homepage screen)
+
+-	**Insights around your overall customer base**: Exploring left to right, those insights include: 
+    - **Top Selling Products**:
+    - **Customer Median Lifetime Spend (ML-powered)**: Whether it’s marketing, sales, support or other function, CLTS is one of the most comprehensive and actionable indicators of your business viability as it captures the customer value across all it’s journey phases. **Possible Usage:** Getting a sense for your overall business health before zooming into it’s major effectors through segmentations and other indicators
+    - **Highest Interests of your Customer Base**: 
+    - **Brands which your customer base has the 
+-	**Recommended Segments**
+- **Data Completeness Scorecard**:
+-	**Quick help sections
+
 
 # Administration
 
