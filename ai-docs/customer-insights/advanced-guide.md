@@ -217,7 +217,6 @@ Once completed the data configuration process, you are ready to unlock another u
 (add enrichment screen from ?) 
 
 - **Understanding the enriched data**: Once being configurated, now your data is also enriched. For each of your customers you can view the top ten interests and preferred brands based on online behavior. 
-
 (add enrichment screen with close-up on the interests and brands columns for a couple of rows)
 
 You can filter your customers by one or more of the following:
@@ -231,22 +230,28 @@ You can filter your customers by one or more of the following:
 ## Relationships
 
 # Customers Sections
-**Those include Profile and Entities.** The main goal behind those sections is to provide you with unique insights that were unlocked via the Data Manager sections. Here you can explore the customers and customer segments that are most meaningful to you.
-
 **After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
-But which of these three sections should you start with? Here are few suggestions:
--	You might want to first get a high-level view around the unique aspects of your customer base as a whole and the latest changes in those aspects. Starting with the *Homepage* screen, and continuing with the *Segmentation* and *Profile* screens (in that order) will best serve that purpose.
--	On the other hand you might prefer to start with more targeted insights – insights around specific segments of your customer base. Starting with the *Segmentation* screen or the *Enriched Data* screen will be the best strategy here. 
--	Lastly, if you wish to understand specific customers’ aspects and trends OR you wish to analyze your top paying, engaged, or active customers, you might want to start with the *Profile* screen.
 
-This screen serves as the best source of insights around each and each of your customers. 
+Which of these three sections should you start with? That depends on your goal:
+-	You might want to first **get a high-level view around the unique aspects of your customer base as a whole** and the latest changes in those aspects. Starting with the *Homepage* screen, and continuing with the *Segmentation* and *Profile* screens (in that order) will best serve that purpose.
+-	On the other hand, you might prefer to **start with more targeted insights – insights around specific segments of your customer base.** Starting with the *Segmentation* screen or the *Enriched Data* screen will be the best strategy here. 
+-	If you wish to **understand specific customers’ aspects and trends** you might want to start with the *Profile* screen.
+- Lastly, if you wish to **analyze your top paying, engaged, or active customers** you shuld start with the *Profile* screen as well.
 
 ## Profile
-
 This screen serves as the best source of insights around each and each of your customers. 
+- The top row lists some of your **Top Paying Customers**
+- The second row present some of your **Most Engaged Customers**. 
+- The third row show some of Your Customers that have the **Most Active Cases**.
+- The last row includes some of your customers, without any specific criteria
 
-### Search and browse customer 
-Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
+Each of your customers is represented by a **Customer Card** tile. This card includes:
+- The customer name
+- The Customer's city and gender
+- The Customer's contact detials including phone number and email address. Those are clickable and will take you to the chosen method of communication.
+- The Customer's Engagement Score:
+- The customer's Lifetime Spend (ML-driven insight): How much have the customer spent over the course of his/her engagement with the business? 
+- The number of Active Cases and Active Segments for that customer (see Segmentation for explaination on Active Segments).  
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-profiles75.png "Generated customer profiles")
@@ -261,10 +266,22 @@ You can use the customer profiles page to filter and sort the profiles.
 > [!div class="mx-imgBorder"] 
 > ![](media/filter-sort.png "Filter and sort customer profiles")
 
-What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
+What's in the sort list depends on the category you selected earlier and the profile type. In this example xyz is the category and **Top paying** amounts for the profile type.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/sort-list.png "Sort list")
+
+Upon clicking a specific customer tile, you will get to this **customer's Power BI report** which is explored below.
+
+## Customer Power BI Report
+This report encapsulates everything you need to know about the specific customer you selected on the *Profile* screen. It includes four major parts: The Customer Card, selected Customer KPIs, Top Interests and Brands for customers that are like this customer, and this Customer's Activities. 
+- **Customer Card:** This card is the same card that appears for that customer on the Profile screen and that was described earlier.
+- **Customer KPIs**:
+()
+- **Top Interests and Brands**:
+()
+- **Customer's Activities**: 
+()
 
 ## Segmentation
 There are three available segmentation types: *Static Segments*, *Dynamic Segments*, and *Customized Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
