@@ -50,10 +50,10 @@ Select **More categories** to choose from more industries and business functions
 
 [insert image]
 
-# Data Manager Sections
+## Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
 
-## Sources
+## Data Manager: Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting all your data sources and completing the Map, Match and Merge phases described below, will enable you to unlock one of the unique promises of the product - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
 
 - **Step One: Getting to the Sources Screen**: That is done by clicking the *Sources* tab on the left-side menu as shown below:
@@ -68,7 +68,7 @@ In this section we will explain how to bring data from many of your sources: Fro
   - In Green: Replacing *NA* within a specific record with another string
 Clearly, other processing options are available too and depend on the specific data source you wish to process. 
 
-## Entities
+## Data Manager: Entities
 Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen which is available through the *Entities* tab in the left-side menu. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table to a csv file by clicking the *Export Data* botton next to it.
 
 (Entities screen with highlighted )
@@ -86,7 +86,7 @@ Now we will explore these four columns, going left to right:
 - **Lifecycle Phase**: A typical customer journey goes from Awereness, to Engagement, to Buying (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to acto upon the data becomes more targeted and ROI-optimized. 
 - **Type**: The types of your data entities. In some cases will be the same as your entities names while in others can be different.
 
-## Configuration
+## Data Manager: Configuration
 
 ### Intro to Configuration
 Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In the flow below, you can get a sense for the different relations that exist between your ingested data sets. In Dynamics AI for Customer Insights, those datasets are called **Customer Entities**. Clicking the **Map** tile at the bottom of the screen will take you to the first stage in the data configuration process.
@@ -215,7 +215,7 @@ This is the last step within the data configuration process and it's all about r
      
  ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
 
-## Enrichment
+## Data Manager: Enrichment
 Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configurated data will be enriched with unique data on customers' top interests and preferred brands. Here Dynamics 365 Ai for customer insights will automatically do for you the hard work:
 
 - **Interests** may range from *Shoes*, to *Banking Services* to *4 Star Hotels* to any one of the other 300+ categories that the app extracts from the Microsoft Graph
@@ -235,7 +235,7 @@ You can filter your customers by one or more of the following:
     
 (add enrichment screen with filter panel opened)
 
-## Relationships
+## Data Manager: Relationships
 
 # Customers Sections
 **After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
@@ -246,7 +246,7 @@ Which of these three sections should you start with? That depends on your goal:
 -	If you wish to **understand specific customers’ aspects and trends** you might want to start with the *Profile* screen.
 - Lastly, if you wish to **analyze your top paying, engaged, or active customers** you shuld start with the *Profile* screen as well.
 
-## Profile
+## Customers: Profile
 This screen serves as the best source of insights around each and each of your customers. 
 - The top row lists some of your **Top Paying Customers**
 - The second row present some of your **Most Engaged Customers**. 
@@ -280,7 +280,7 @@ What's in the sort list depends on the category you selected earlier and the pro
 
 Upon clicking a specific customer tile, you will get to this **customer's Power BI report** which is explored below.
 
-## Customer Power BI Report
+## Customer's Power BI Report
 This report encapsulates everything you need to know about the specific customer you selected on the *Profile* screen. It includes four major parts: The Customer Card, selected Customer KPIs, Top Interests and Brands for customers that are like this customer, and this Customer's Activities. 
 - **Customer Card:** This card is the same card that appears for that customer on the *Profile* screen and that was described earlier.
 - **Customer KPIs**: The most insightful key performance indicators (KPIs) across the four customer journey phases:
@@ -299,7 +299,7 @@ This report encapsulates everything you need to know about the specific customer
 
 ()
 
-## Segmentation
+## Customers: Segments
 There are two available segmentation types: *Static Segments*, *Dynamic Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
 
 ### Creating Segments from the Left Menu Bar
@@ -347,7 +347,7 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
 
-## Homepage Section
+## Homepage Screen
 A range of actionable insights were derived during the data ingestion, configuration and enrichment processes and the **Home Page** is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It is consisted of four major parts as explained below.
 
 (add Homepage screen)
@@ -375,7 +375,7 @@ A range of actionable insights were derived during the data ingestion, configura
     - **Tutorial: Dynamics 365 for Customer Insights in a day**: Examplifies how to use the product as part of a typical work day
     - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user manual as they encapsulate more mandatory configurations than the other product sections
 
-# Administration
+## Administration
 
 This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration screen is the **Permissions** screen which is accessable via the **Administration tab** as shown below:  
 
