@@ -285,10 +285,18 @@ This report encapsulates everything you need to know about the specific customer
 - **Customer Card:** This card is the same card that appears for that customer on the *Profile* screen and that was described earlier.
 - **Customer KPIs**: The most insightful key performance indicators (KPIs) across the four customer journey phases:
   - **Awereness KPIs:**
+      - sdf
+      - sdf
   - **Engagement KPIs:**
-  - **Fulfillement KPIs:**
+      - Engagement score
+      - sdf
+  - **Fulfillement KPIs:** 
+      - Sales
+      - Sales in Process
+      - Lifetime spend 
   - **Service KPIs:**
-
+      - Number of active cases
+      - dsfd
 ()
 
 - **Top Interests and Brands**: Top interests and brands were explained in the Enrichment section. Note, however, that while the Homepage screen shows the top **three** interests and brands of your **aggragated customer base.**, the Customer's Power BI report shows the top **ten** interests and brands of those customer profiles that are alike this specific customer's profile. 
