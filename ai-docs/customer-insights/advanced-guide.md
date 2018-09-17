@@ -387,18 +387,18 @@ A range of actionable insights were derived during the data ingestion, configura
 
 This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration screen is the **Permissions** screen which is accessable via the **Administration tab** as shown below:  
 
-(add "permissions" screen from the administration part on the app)
+ ![permissions.png](media/permissions.png)
 
 Within the **Permissions** screen you can view organization members for whom roles and permissions where assigned. Note that while roles are specified under the *Roles* column, permissions are specified under the *Type* column. Lastly, you can sort the results by each of the columns types by clicking on the arrow icon next to the column name as shown below.  
 
-(add "add permissions" screen from the administration part on the app plus highlight the sorting arrow next to the "Name" column)
+![add-permissions.png](media/add-permissions.png)
 
 - **Adding Roles and Permissions:** 
-    -In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Adding Permissions** panel that can be accessed via the *Add* botton at the top of the permissions screen:
+    - In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Adding Permissions** panel that can be accessed via the *Add* botton at the top of the permissions screen:
 
-(add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the role field)
+    ![permissions-roles.png](media/permissions-roles.png)
 
-   -When it comes to permissions, those can be defined in the same panel as shown below:
+   - When it comes to permissions, those can be defined in the same panel as shown below:
    
 (add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the permissions field)
 
@@ -408,8 +408,10 @@ Within the **Permissions** screen you can view organization members for whom rol
 
 - **Filtering Permissions by a Role**: This can be achieved by opening the **Filter** panel through the *Filter* botton at the top of the permissions screen, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
 
-(add permissions screen with opened "filter" panel from the administration part of the app)
+
 Within the panel above, you may want 
+
+![permissions-filters.png](media/permissions-filters.png)
 
 (add "filter" screen from the administration part on the app)
 
