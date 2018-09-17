@@ -411,7 +411,7 @@ Within the **Permissions** screen you can view organization members for whom rol
 
 Within the panel above, you may want 
 
-![permissions-filters.png](media/permissions-filters.png)
+![permissions-filter.png](media/permissions-filter.png)
 
 (add "filter" screen from the administration part on the app)
 
