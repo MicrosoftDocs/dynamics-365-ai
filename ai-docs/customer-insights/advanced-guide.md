@@ -1,5 +1,5 @@
 ---
-title: "Advanced Guide | MicrosoftDocs"
+title: "Advanced Mode Manual | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Advanced Guide
+# Advanced Mode Manual
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,10 +28,10 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## How to use the User Manual
-In order to best utilize the user manual for your specific needs, you should define your situation by one of the following options:
-- ***I am new to the product AND I didn't go through Quick Start*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segmentation, Profiles and Homepage***.
-- ***I am new to the Advanced Mode but I did explore the Quick Start*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+## How to use the Advanced Mode Manual
+In order to best utilize this manual for your specific needs, you should define your situation by one of the following options:
+- ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segmentation, Profiles and Homepage***.
+- ***I am new to the Advanced Mode BUT I did use the Quick Start mode*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
 - ***I am already using the product but inccuring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section.
 
 (add app screenshot with highlighted left-side menu)
@@ -41,7 +41,14 @@ Note that you can return to the relevant documentation section on any of the pro
 (add app screen with highlighted question mark icon)
 
 ## Choosing a Business Category
-Take from quick start
+Just as for the Quick Start mode, the first thing you do is select a business category that matches your industry.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/choose-business-category720.png "Select a business category")
+
+Select **More categories** to choose from more industries and business functions:
+
+[insert image]
 
 # Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
@@ -244,15 +251,14 @@ This screen serves as the best source of insights around each and each of your c
 - The top row lists some of your **Top Paying Customers**
 - The second row present some of your **Most Engaged Customers**. 
 - The third row show some of Your Customers that have the **Most Active Cases**.
-- The last row includes some of your customers, without any specific criteria
+- The last row includes a sample of your total customer base 
 
 Each of your customers is represented by a **Customer Card** tile. This card includes:
-- The customer name
-- The Customer's city and gender
-- The Customer's contact detials including phone number and email address. Those are clickable and will take you to the chosen method of communication.
-- The Customer's Engagement Score:
-- The customer's Lifetime Spend (ML-driven insight): How much have the customer spent over the course of his/her engagement with the business? 
-- The number of Active Cases and Active Segments for that customer (see Segmentation for explaination on Active Segments).  
+- The customer's **name, city, gender, marital status and job title** - all taken from the customer's CRM account profile  
+- The Customer's **contact detials** including phone number and email address. Those are clickable and will take you to the chosen method of communication.
+- The customer's **Engagement Score:** How engaged is the specific customer compared to other customers? Dynamics 365 AI for Customer Insights uses one of the standard methodologies for calculating engagement score. As part of this methodology, all the customer activities are taken into consideration, weighted according to their types, recencies and frequencies, and normalized on a 1-100 scale. 
+- The customer's **Lifetime Spend:** How much has the customer spent over the course of his/her engagement with the business? CLTS is one of the most comprehensive and actonable indicators of a business health and it combines both sales and deals in process.
+- The number of **Active Cases** and **Active Segments** for that customer (see Segmentation for explaination on Active Segments).  
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-profiles75.png "Generated customer profiles")
@@ -276,16 +282,25 @@ Upon clicking a specific customer tile, you will get to this **customer's Power 
 
 ## Customer Power BI Report
 This report encapsulates everything you need to know about the specific customer you selected on the *Profile* screen. It includes four major parts: The Customer Card, selected Customer KPIs, Top Interests and Brands for customers that are like this customer, and this Customer's Activities. 
-- **Customer Card:** This card is the same card that appears for that customer on the Profile screen and that was described earlier.
-- **Customer KPIs**:
+- **Customer Card:** This card is the same card that appears for that customer on the *Profile* screen and that was described earlier.
+- **Customer KPIs**: The most insightful key performance indicators (KPIs) across the four customer journey phases:
+  - **Awereness KPIs:**
+  - **Engagement KPIs:**
+  - **Fulfillement KPIs:**
+  - **Service KPIs:**
+
 ()
-- **Top Interests and Brands**:
+
+- **Top Interests and Brands**: Top interests and brands were explained in the Enrichment section. Note, however, that while the Homepage screen shows the top **three** interests and brands of your **aggragated customer base.**, the Customer's Power BI report shows the top **ten** interests and brands of those customer profiles that are alike this specific customer's profile. 
+
 ()
-- **Customer's Activities**: 
+
+- **Customer's Activities**: From phone calls to store visits to online behavior activities to many other activities, Dynamics 365 AI for Customer Insights enable you to capture them all in a way that is meaningful for your business. The part highlighted in blue below includes activities organized by types while the part highlighted in red below includes the same activities organized across the customer's activties journey with corresponding dates and activity durations. 
+
 ()
 
 ## Segmentation
-There are three available segmentation types: *Static Segments*, *Dynamic Segments*, and *Customized Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
+There are two available segmentation types: *Static Segments*, *Dynamic Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
 
 ### Creating Segments from the Left Menu Bar
 This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
@@ -329,17 +344,10 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 ### Acting Upon the Data: Exporting a Segment
 
-o	Work with operators to produce segments (both static and dynamic segments)
-o	Act (export segments)
-
-User is able do segmentation atop CDS-A profiles
-Show how a user can analyze CDS-A customer profiles/relationships/interactions and export the results as segments to other apps (e.g. CSV file)
-Show how we enable developers to query customer profiles from CDS-A and build into app experience (e.g. a Dynamics 365 for Marketing)
-
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
 
-# Homepage Section
+## Homepage Section
 A range of actionable insights were derived during the data ingestion, configuration and enrichment processes and the **Home Page** is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It is consisted of four major parts as explained below.
 
 (add Homepage screen)
@@ -347,8 +355,7 @@ A range of actionable insights were derived during the data ingestion, configura
 -	**Insights around your overall customer base**: Exploring left to right, those insights include: 
     - **Top Selling Products**: Shows your three top selling products by monetary value or by unit volume. 
     - **Median Lifetime Spend (ML-powered)**: Whether it’s marketing, sales, support or other function, CLTS is one of the most comprehensive and actionable indicators of your business viability as it captures the customer value across all it’s journey phases. **Possible Usage:** Getting a sense for your overall business health before zooming into it’s major effectors through segmentations and other indicators
-    - **Highest Interests of your Customer Base**: This insight type was explained within the Enrichment section. Note, however, that while the power BI report shows the top ten interests of each of your customers, the homepage shows the top **three** interests for your **aggragated customer base.**
-    - **Brands which your customer base has highest affinity for**: Same distinction between the Power BI report and the homepage holds here too.
+    - **Highest Interests and most preferred Brands of your Customer Base**: Thess insights were explained within the Enrichment section. Note, however, that while the power BI report shows the top ten interests and brands for each of your customers profile types, the homepage shows the top **three** interests and brands of your **aggragated customer base.**
 
 ()
 
@@ -398,22 +405,19 @@ Within the panel above, you may want
 
 (add "filter" screen from the administration part on the app)
 
-# Extensibilities
+## Extensibilities
 
-## Power BI
+### Power BI
 
-## APIs - Swagger
-
-User can drive insights in Customer360 to action
-
-Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
-Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
+### APIs 
+**Swagger - in progress**
 
 > [!div class="mx-imgBorder"] 
 > ![](media/custom-app.png "Custom app")
 
-## PowerApps and Flow
-Content.
+### PowerApps and Flow
+Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
+Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
 
 > [!div class="mx-imgBorder"] 
 > ![](media/powerapps-flow.png "Flow")
