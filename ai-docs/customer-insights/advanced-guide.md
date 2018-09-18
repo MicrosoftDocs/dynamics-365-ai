@@ -48,7 +48,16 @@ Just as for the Quick Start mode, the first thing you do is select a business ca
 
 Select **More categories** to choose from more industries and business functions:
 
-[insert image]
+> [!div class="mx-imgBorder"] 
+> ![](media/more-categories.png "More categories")
+
+## Workflow
+Present an overview of the workflow process.
+
+[This needs to be modified to reflect product at Public Preview or remove this section]
+
+> [!div class="mx-imgBorder"] 
+> ![](media/workflow720.png "Workflow phases")
 
 ## Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
