@@ -14,7 +14,8 @@ manager: shellyha
 
 # KPI Summary dashboard
 
-<img src="media/ai-customer-service-insights.png" width="720">
+> [!div class="mx-imgBorder"]
+> <img src="media/ai-customer-service-insights.png" width="720">
 
 The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of the performance of your customer support system. The dashboard uses artificial intelligence technology to give you a graphical view of the system's key performance indicators for a specified time period, including:
 
@@ -28,11 +29,13 @@ The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview
 
 You can narrow down the data displayed on the dashboard to a specific time period, product, channel, business unit, or team by selecting from the filter drop-down boxes at the top of the dashboard.
 
-<img src="media/ai-csi-kpi-dash-filters.png" width="720">
+> [!div class="mx-imgBorder"]
+> <img src="media/ai-csi-kpi-dash-filters.png" width="720">
 
 ## Top Case Volume Impactors chart
 
-<img src="media/ai-csi-top-case-volume.png" width="300">
+> [!div class="mx-imgBorder"]
+> <img src="media/ai-csi-top-case-volume.png" width="300">
 
 The Top Case Volume Impactors chart uses artificial intelligence technology to group related customer support cases as support *topics*. The chart displays the topics in order of volume, showing both the percent of total volume and number of cases for each topic.
 
