@@ -93,12 +93,12 @@ Clearly, other processing options are available too and those depend on the spec
 Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen which is available through the *Entities* tab in the left-side menu. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table to a csv file by clicking the *Export Data* botton next to it.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/score-card-entities-import-data.png "Entities import data")
+> ![](media/scorecard-entities-import-data.png "Entities import data")
 
 The ***Entities*** table includes four columns. The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton as shown below:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/score-card-entities.png "Entities")
+> ![](media/scorecard-entities.png "Entities")
 
 Now we will explore these four columns, going left to right:
 - **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully. 
