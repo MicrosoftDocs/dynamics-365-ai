@@ -29,16 +29,21 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## How to use the Advanced Mode Manual
-In order to best utilize this manual for your specific needs, you should define your situation by one of the following options:
-- ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segmentation, Profiles and Homepage***.
-- ***I am new to the Advanced Mode BUT I did use the Quick Start mode*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
-- ***I am already using the product but inccuring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section.
+All product sections are accessed through their corresponding tabs' names in the left-side menu of the app as shown below:
 
-(add app screenshot with highlighted left-side menu)
+[1]
+
+In order to best utilize this manual for your specific needs, you should define your situation by one of the following options.
+- ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile and Homepage*** sections.
+- ***I am new to the Advanced Mode BUT I did use the Quick Start mode*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+- ***I am already using the product but inccuring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section. Again, product section
 
 Note that you can return to the relevant documentation section on any of the product screens by clicking on the question mark icon:
 
-(add app screen with highlighted question mark icon)
+[2]
+
+## Onboarding (only for Administrators)
+Currently missing (9/17)
 
 ## Choosing a Business Category
 Just as for the Quick Start mode, the first thing you do is select a business category that matches your industry.
@@ -59,40 +64,41 @@ Present an overview of the workflow process.
 > [!div class="mx-imgBorder"] 
 > ![](media/workflow720.png "Workflow phases")
 
-## Data Manager Sections
+### Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
 
 ## Data Manager: Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting all your data sources and completing the Map, Match and Merge phases described below, will enable you to unlock one of the unique promises of the product - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
 
-- **Step One: Getting to the Sources Screen**: That is done by clicking the *Sources* tab on the left-side menu as shown below:
+- **Step One: Ingesting CRM data**: Upon clicking the *Sources* tab a pop-up screen shows up and here you should click *Get Data* for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For csv files (Excel) and other sources, continue to step three.
 
-(add app screen with highlighted Sources tab)
+[4]
 
-- **Step Two: Identifying your data sources**: Within the Sources screen you will find many available data sources. However, in order to locate your specific sources, first focus on identifying their types which are represented by the highlighted tabs names below. Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source
+- **Step Two: Identifying and ingesting additional data sources**: Upon clicking *Learn More* you will view many additional available sources. However, in order to locate the specific sources that apply to your organization, first identify their types which are represented in the tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source
 
-- **Step Three: Date Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets and in the example below the parts that are highlighted represent the following changes:
+[5]
+
+- (?) **Step Three: Date Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets and in the example below the parts that are highlighted represent the following changes:
   - In Red: Changing a column type
   - In Blue: Removing a column
   - In Green: Replacing *NA* within a specific record with another string
-Clearly, other processing options are available too and depend on the specific data source you wish to process. 
+Clearly, other processing options are available too and those depend on the specific data source you wish to process.
+
+[6]
 
 ## Data Manager: Entities
 Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen which is available through the *Entities* tab in the left-side menu. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table to a csv file by clicking the *Export Data* botton next to it.
 
-(Entities screen with highlighted )
+[7]
 
-The ***Entities*** table includes four columns. The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton that as shown below:
+The ***Entities*** table includes four columns. The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton as shown below:
 
-()
+[7 again, with no highlighting, will need to be fixed later]
 
 Now we will explore these four columns, going left to right:
 - **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully. 
-- **Last Update**: Answers the question *When was the last time this entity's data was last updated?* It is recommended to update your ingested data each time your data had changed in one or more of your data sources. That can be done by clicking the *Data Update* botton as shown below:
-
-()
-
-- **Lifecycle Phase**: A typical customer journey goes from Awereness, to Engagement, to Buying (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to acto upon the data becomes more targeted and ROI-optimized. 
+- **Last Update**: Answers the question *When was the last time this entity's data was last updated?*
+- **Lifecycle Phase**: A typical customer journey goes from Awereness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized. 
 - **Type**: The types of your data entities. In some cases will be the same as your entities names while in others can be different.
 
 ## Data Manager: Configuration
@@ -137,7 +143,7 @@ In addition, three additional actions are available in the Map screen:
 
 - **Keep unmatched records:** As part of the next stage (match), it is possible that not all of your data entities will be matched. Upon checking this box (shown below), you choose to save all the records (or dataset rows) of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
 
-(add "Map keep unmatched records" screen)
+[8]
 
 
 ### Match
@@ -201,9 +207,9 @@ This is the last step within the data configuration process and it's all about r
   
   - Second, we will consider to edit the *Merge Policy* part. This part specifies only the sources that were selected within *Attribute Source*. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will click the arrow sign next to *Salesforce Sales Data* and as a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values on *Names*.
 
-- **Adding a new merged attribute**: Adding a new merged attribute is available via the *Add Attribute* option as shown below. 
+- **Adding a merged attribute**: Adding a merged attribute is available via the *Add Attribute* option as shown below. 
 
-(Add merged attribute screen from figma with highlighted add merged attribute part)
+[9]
 
 - We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
 
@@ -231,7 +237,7 @@ Once completed the data configuration process, you are ready to unlock another u
 
 - **Preferred Brands** may include *Nike*, *Walmart*, *Nokia*, or any one of the other 1200+ categories that the app extracts from the Microsoft Graph 
 
-(add enrichment screen from ?) 
+[add enrichment screen in the future]
 
 - **Understanding the enriched data**: Once being configurated, now your data is also enriched. For each of your customers you can view the top ten interests and preferred brands based on online behavior. 
 (add enrichment screen with close-up on the interests and brands columns for a couple of rows)
@@ -242,9 +248,12 @@ You can filter your customers by one or more of the following:
     - **Gender:** Either Male or Female or Unknown or all categories (Male, Female and Unknown taken together)
     - **Age:** Either age bucket 20-34, age bucket 35-44, age bucket 45-54 or 55+ 
     
-(add enrichment screen with filter panel opened)
+[add enrichment screen with filter panel opened in the future]
 
 ## Data Manager: Relationships
+content
+
+[10]
 
 # Customers Sections
 **After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
@@ -287,7 +296,7 @@ What's in the sort list depends on the category you selected earlier and the pro
 > [!div class="mx-imgBorder"] 
 > ![](media/sort-list.png "Sort list")
 
-Upon clicking a specific customer tile, you will get to this **customer's Power BI report** which is explored below.
+Upon clicking a specific customer tile, you will get to the **Power BI report** for that customer which is explored below.
 
 ## Customer's Power BI Report
 This report encapsulates everything you need to know about the specific customer you selected on the *Profile* screen. It includes four major parts: The Customer Card, selected Customer KPIs, Top Interests and Brands for customers that are like this customer, and this Customer's Activities. 
@@ -306,15 +315,16 @@ This report encapsulates everything you need to know about the specific customer
   - **Service KPIs:**
       - Number of active cases
       - dsfd
-()
+
+[add power BI report screen once finalized!]
 
 - **Top Interests and Brands**: Top interests and brands were explained in the Enrichment section. Note, however, that while the Homepage screen shows the top **three** interests and brands of your **aggragated customer base.**, the Customer's Power BI report shows the top **ten** interests and brands of those customer profiles that are alike this specific customer's profile. 
 
-()
+[add power BI report screen once finalized!]
 
 - **Customer's Activities**: From phone calls to store visits to online behavior activities to many other activities, Dynamics 365 AI for Customer Insights enable you to capture them all in a way that is meaningful for your business. The part highlighted in blue below includes activities organized by types while the part highlighted in red below includes the same activities organized across the customer's activties journey with corresponding dates and activity durations. 
 
-()
+[add power BI report screen once finalized!]
 
 ## Customers: Segments
 There are two available segmentation types: *Static Segments*, *Dynamic Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
