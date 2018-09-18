@@ -55,5 +55,3 @@ Show how user discovers app on AppSource]
 
 > [!div class="mx-imgBorder"] 
 > ![](media/get-customer-insights720.png "Get AI for Customer Insights")
-
-text change to test conflict 11111111111111111
