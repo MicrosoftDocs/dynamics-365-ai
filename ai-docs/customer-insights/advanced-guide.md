@@ -29,16 +29,21 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## How to use the Advanced Mode Manual
-In order to best utilize this manual for your specific needs, you should define your situation by one of the following options:
-- ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segmentation, Profiles and Homepage***.
-- ***I am new to the Advanced Mode BUT I did use the Quick Start mode*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
-- ***I am already using the product but inccuring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section.
+All product sections are accessed through their corresponding tabs' names in the left-side menu of the app as shown below:
 
-(add app screenshot with highlighted left-side menu)
+[1]
+
+In order to best utilize this manual for your specific needs, you should define your situation by one of the following options.
+- ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile and Homepage*** sections.
+- ***I am new to the Advanced Mode BUT I did use the Quick Start mode*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+- ***I am already using the product but inccuring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section. Again, product section
 
 Note that you can return to the relevant documentation section on any of the product screens by clicking on the question mark icon:
 
-(add app screen with highlighted question mark icon)
+[2]
+
+## Onboarding (only for Administrators)
+Currently missing (9/17)
 
 ## Choosing a Business Category
 Just as for the Quick Start mode, the first thing you do is select a business category that matches your industry.
@@ -48,25 +53,29 @@ Just as for the Quick Start mode, the first thing you do is select a business ca
 
 Select **More categories** to choose from more industries and business functions:
 
-[insert image]
+[3]
 
-## Data Manager Sections
+### Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
 
 ## Data Manager: Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting all your data sources and completing the Map, Match and Merge phases described below, will enable you to unlock one of the unique promises of the product - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
 
-- **Step One: Getting to the Sources Screen**: That is done by clicking the *Sources* tab on the left-side menu as shown below:
+- **Step One: Ingesting CRM data**: Upon clicking the *Sources* tab a pop-up screen shows up and here you should click *Get Data* for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For csv files (Excel) and other sources, continue to step three.
 
-(add app screen with highlighted Sources tab)
+[4]
 
-- **Step Two: Identifying your data sources**: Within the Sources screen you will find many available data sources. However, in order to locate your specific sources, first focus on identifying their types which are represented by the highlighted tabs names below. Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source
+- **Step Two: Identifying and ingesting additional data sources**: Upon clicking *Learn More* you will view many additional available sources. However, in order to locate the specific sources that apply to your organization, first identify their types which are represented in the tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source
+
+[5]
 
 - **Step Three: Date Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets and in the example below the parts that are highlighted represent the following changes:
   - In Red: Changing a column type
   - In Blue: Removing a column
   - In Green: Replacing *NA* within a specific record with another string
-Clearly, other processing options are available too and depend on the specific data source you wish to process. 
+Clearly, other processing options are available too and those depend on the specific data source you wish to process.
+
+[6]
 
 ## Data Manager: Entities
 Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen which is available through the *Entities* tab in the left-side menu. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table to a csv file by clicking the *Export Data* botton next to it.
