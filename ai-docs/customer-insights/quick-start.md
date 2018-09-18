@@ -43,7 +43,7 @@ Select **More categories** to choose from more industries or business functions.
 > [!div class="mx-imgBorder"] 
 > ![](media/more-categories.png "More categories")
 
-Select **See how Customer 360 works** to [need description of what this link will go to.]
+Once you select a category, the Home page appears with insights built from sample data.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customers-dashboard780.png "Insights based on sample data for selected category")
@@ -67,13 +67,15 @@ If you keep the sample data for now, this topic will walk you through the gettin
 Based on your ingested data - or, in this case, our sample data - you'll see automatically configured insights into your company's data.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customers-dashboard780.png "Customer dashboard")
+> ![](media/customers-dashboard-3rows.png "Customer dashboard")
 
 ### Latest insights
 Description of latest insights...
 
 ### Top segments
 Description of top segments...
+
+Select a segment to see...  For more information, see the Segments section below.
 
 ### Data completeness scorecard
 Description of data completeness scorecard...
