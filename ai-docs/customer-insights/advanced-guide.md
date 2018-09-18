@@ -31,7 +31,8 @@ robots: noindex,nofollow
 ## How to use the Advanced Mode Manual
 All product sections are accessed through their corresponding tabs' names in the left-side menu of the app as shown below:
 
-[1]
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-dashboard-full.png "Customer dashboard")
 
 In order to best utilize this manual for your specific needs, you should define your situation by one of the following options.
 - ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile and Homepage*** sections.
@@ -40,7 +41,8 @@ In order to best utilize this manual for your specific needs, you should define 
 
 Note that you can return to the relevant documentation section on any of the product screens by clicking on the question mark icon:
 
-[2]
+> [!div class="mx-imgBorder"] 
+> ![](media/help-link.png "Help link")
 
 ## Onboarding (only for Administrators)
 Currently missing (9/17)
@@ -70,28 +72,33 @@ In this section we will explain how to bring data from many of your sources: Fro
 
 - **Step One: Ingesting CRM data**: Upon clicking the *Sources* tab a pop-up screen shows up and here you should click *Get Data* for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For csv files (Excel) and other sources, continue to step three.
 
-[4]
+> [!div class="mx-imgBorder"] 
+> ![](media/select-sources-get-data.png "Select Get data")
 
 - **Step Two: Identifying and ingesting additional data sources**: Upon clicking *Learn More* you will view many additional available sources. However, in order to locate the specific sources that apply to your organization, first identify their types which are represented in the tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source
 
-[5]
+> [!div class="mx-imgBorder"] 
+> ![](media/choose-data-source-menu.png "Data source menu")
 
-- (?) **Step Three: Date Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets and in the example below the parts that are highlighted represent the following changes:
+- (?) **Step Three: Data Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets and in the example below the parts that are highlighted represent the following changes:
   - In Red: Changing a column type
   - In Blue: Removing a column
   - In Green: Replacing *NA* within a specific record with another string
 Clearly, other processing options are available too and those depend on the specific data source you wish to process.
 
-[6]
+> [!div class="mx-imgBorder"] 
+> ![](media/edit-entity-queries780.png "Pre-processing data")
 
 ## Data Manager: Entities
 Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen which is available through the *Entities* tab in the left-side menu. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table to a csv file by clicking the *Export Data* botton next to it.
 
-[7]
+> [!div class="mx-imgBorder"] 
+> ![](media/score-card-entities-import-data.png "Entities import data")
 
 The ***Entities*** table includes four columns. The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton as shown below:
 
-[7 again, with no highlighting, will need to be fixed later]
+> [!div class="mx-imgBorder"] 
+> ![](media/score-card-entities.png "Entities")
 
 Now we will explore these four columns, going left to right:
 - **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully. 
@@ -141,8 +148,8 @@ In addition, three additional actions are available in the Map screen:
 
 - **Keep unmatched records:** As part of the next stage (match), it is possible that not all of your data entities will be matched. Upon checking this box (shown below), you choose to save all the records (or dataset rows) of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
 
-[8]
-
+> [!div class="mx-imgBorder"] 
+> ![](media/map-keep-unmatched-records.png "Mapping - keep unmatched records")
 
 ### Match
 Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the configuration screen will take you to the Match screen.
@@ -207,7 +214,8 @@ This is the last step within the data configuration process and it's all about r
 
 - **Adding a merged attribute**: Adding a merged attribute is available via the *Add Attribute* option as shown below. 
 
-[9]
+> [!div class="mx-imgBorder"] 
+> ![](media/merge-add-merge-attribute.png "Add merged attributes")
 
 - We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
 
@@ -258,7 +266,8 @@ In Dynamics 365 AI for Customer Insights, *Relationships* are also available for
 
 - Lastly, the available actions on that screen includes adding a new relationship or deleting a relationship as highlighted below
 
-[10]
+> [!div class="mx-imgBorder"] 
+> ![](media/add-relationships.png "Add relationships")
 
 # Customers Sections
 **After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
