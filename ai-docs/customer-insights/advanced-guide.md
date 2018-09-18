@@ -57,14 +57,12 @@ Select **More categories** to choose from more industries and business functions
 > ![](media/more-categories.png "More categories")
 
 ## Workflow
-Present an overview of the workflow process.
-
-[This needs to be modified to reflect product at Public Preview or remove this section]
+If you never used Dynamics 365 AI for Customer Insights before, this is the workflow you can expect to go through:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/workflow720.png "Workflow phases")
 
-### Data Manager Sections
+## Data Manager Sections
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing all or most of those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights can provide your organization with. Following the Data Manager sections, we will explore sections that are used for showing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
 
 ## Data Manager: Sources
@@ -251,7 +249,14 @@ You can filter your customers by one or more of the following:
 [add enrichment screen with filter panel opened in the future]
 
 ## Data Manager: Relationships
-content
+In Dynamics 365 AI for Customer Insights, *Relationships* are also available for segmentation, insight-extraction and all other purposes. The *Relationships Screen* shown below includes five columns. We will explore these from left to right:
+- **Relationship Name**: That is the name that you, as a user, assign to that relationship so it will be considered as an entity
+- **Source Entity**: That is the name of the entity that is used as a source in that unidirectional/bidirectional relationship 
+- **Source Cardinality**: Number that represents the number of nodes of the source entity. For example, if the number is 2 it means that two sources lead to one/more target entities in that relationship.
+- **Target Entity**: That is the name of the entity that is used as a target in that relationship
+- **Target Cardinality**: Number that represents the number of nodes of the target entity. For example, if the number is 1 it means that the source entity/entities lead to only one target entity.
+
+- Lastly, the available actions on that screen includes adding a new relationship or deleting a relationship as highlighted below
 
 [10]
 
@@ -332,7 +337,7 @@ There are two available segmentation types: *Static Segments*, *Dynamic Segments
 ### Creating Segments from the Left Menu Bar
 This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
 
-- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. Cases that fit static segments are for example: 1. , 2.
+- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. Case that fits static segmentation might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. 
 
 [divS1]
 
@@ -361,7 +366,11 @@ This menu includes three tabs. The tabs that are used for segment creation are t
        
      [divS5]
 
-- **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Cases that fit dynamic segments are for example: 1. , 2.
+       - Choosing ***Intersect*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values will be excluded
+
+       - Choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be exculded including all their values (both missing and existing values)
+
+- **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Case that fits dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers (tracking the change/lift in specific KPIs as a result of that activity)
 
 ### Creating Segments from the Profile Page
 This can be quickly done by setting filtering selections as described in the Profile Screen section and saving those definitions as a segment:
@@ -382,7 +391,7 @@ Those other options include:
 []
 
 ### Exploring a Particular Segment from the Segment Page
-Once you clicked a segment within the Segments Screen, you will get to this page that consolidates everything around that partiular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the time window via the button at the right upper corner of the graph tile:
+Once you clicked a segment within the Segments Screen, you will get to this page that consolidates everything around that partiular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc) with the button at the right upper corner of the tile:
 
 []
 
@@ -396,6 +405,13 @@ The lower part includes a table with all your segment members properties. Those 
 - Members Locations
 
 ### Acting Upon the Data: Exporting a Segment
+Exporting a segment to csv file is possible either through the Segments page by clicking on the *three dots* icon within a specific segment's tile, or by entering the specific segment page and clicking *Export* at the top right corent of the screen as shown here:
+
+[]
+
+Once exported, you can expect to find all the information on that particular segment within the csv file. An example is shown below:
+
+[]
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
