@@ -363,11 +363,37 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
 - **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Cases that fit dynamic segments are for example: 1. , 2.
 
-### Creating Segments from the Customers Page
+### Creating Segments from the Profile Page
+This can be quickly done by setting filtering selections as described in the Profile Screen section and saving those definitions as a segment:
+[]
 
-### Exploring Segments from the Segmentation Page
+### Exploring Segments from the Segments Page
+Here you can view all your segments as well as suggested segments. These are the screen componenets:
+- **Your saved Dynamic Segments:** Those appear in the left side of the screen. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment (as highlighted below), and several other possibilities that can be accessed via the *three dots* icon as highlighted below:
+[]
+Those other options include:
+    - Editing this particular segment
+    - Viewing it's members
+    - Exporting the segment to a csv file
+    - turning the segment to inactive/active (depends on it's current state)
+    - Deleting the segment
+- **Your saved Static Segments**: Those appear in the right side of the screen with the same features described for the dynamic segment
+- **Recommended Segments**: Those appear at the lower part of the screen as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that suggestion.
+[]
 
 ### Exploring a Particular Segment from the Segment Page
+Once you clicked a segment within the Segments Screen, you will get to this page that consolidates everything around that partiular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the time window via the button at the right upper corner of the graph tile:
+
+[]
+
+The lower part includes a table with all your segment members properties. Those include: 
+- Members Names
+- Members Addresses
+- Members Job Titles
+- Members Telephone Numbers
+- Members Cities
+- Members States
+- Members Locations
 
 ### Acting Upon the Data: Exporting a Segment
 
