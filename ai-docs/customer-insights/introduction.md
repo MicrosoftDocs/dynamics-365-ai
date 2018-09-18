@@ -53,7 +53,7 @@ For AI for Customer Insights, you don’t need a Power BI account. You are only 
 [User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
 Show how user discovers app on AppSource]
 
-<!-- xyz change -->
-
 > [!div class="mx-imgBorder"] 
 > ![](media/get-customer-insights720.png "Get AI for Customer Insights")
+
+text change to test conflict
