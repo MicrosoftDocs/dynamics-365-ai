@@ -49,12 +49,9 @@ Select **See how Customer 360 works** to [need description of what this link wil
 > ![](media/customers-dashboard780.png "Insights based on sample data for selected category")
 
 ## About sample data
-Once you've selected a business category, the Home page opens populated with sample data. We're providing sample customer data based on your selection appears on the opening dashboard. Insights are built from the sample data automatically. You can explore these insights to get an idea of what AI for Customer Insights can provide when you bring in your data.
+Once you've selected a business category, the Home page opens populated with sample data. Insights are built from the sample data automatically. You can explore these insights to get an idea of what AI for Customer Insights can provide when you bring in your data.
 
 If you want to right away bring in your company's data, under **Data Manager**, select **Sources** from the left-side menu.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/load-customer-data75.png "Select Load my customer data")
 
 Then, select a data source. 
 
@@ -63,20 +60,24 @@ Then, select a data source.
 
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
-In this topic, we'll walk you through the getting started experience using sample data.
+If you keep the sample data for now, this topic will walk you through the getting started experience with that data.
 
 ## Home page
 
 Based on your ingested data - or, in this case, our sample data - you'll see automatically configured insights into your company's data.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/customers-dashboard780.png "Customer dashboard")
+
 ### Latest insights
-content
+Description of latest insights...
 
 ### Top segments
-content
+Description of top segments...
 
 ### Data completeness scorecard
-content
+Description of data completeness scorecard...
+
 
 **Awareness**: content
 
@@ -85,6 +86,20 @@ content
 **Fulfillment**: content
 
 **Support**: content
+
+Select a scorecard to see details on the entities used.
+
+|Item  |Description  |
+|---------|---------|
+|**Name**     |Name of the entity.         |
+|**Last Updated**    |When the entity was last updated.         |
+|**Lifecycle Phase**    |content         |
+|**Type**     |Entity type.         |
+
+> [!div class="mx-imgBorder"] 
+> ![](media/scorecard-entities.png "Scorecard entities")
+
+For more information on entities, including importing and exporting data, see advanced topic.
 
 ## Customers
 content
