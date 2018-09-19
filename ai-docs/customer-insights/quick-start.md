@@ -75,6 +75,24 @@ Description of latest insights...
 ### Top segments
 Description of top segments...
 
+> [!div class="mx-imgBorder"] 
+> ![](media/segmenting.png "Segmenting")
+
+As customers move through the sales or service process, groups of customers can reach the same process point. You can use AI for Customer Insights to segment customers at that point so you can gather insights about them and take actions suitable for their stage.
+
+For example, you can target communications and offers for several weeks before a shopping deadline such as Valentine's Day, and show a different set of responses a few days before the deadline: "Your gift can still get there in time for Valentine's Day!"
+
+To segment your insights, you will:
+
+Design marketing segments based on the complete customer journey.
+Identify groups of customers who are at the same stage of their journey.
+Automatically update segments based on the latest customer interactions.
+There are three types of segments:
+
+Static: A static collection of profile data not automatically refreshed.
+Dynamic: A collection of profile data automatically refreshed.
+Compound: Combines Dynamic and Static segments.
+
 Select a segment to see...  For more information, see the Segments section below.
 
 ### Data completeness scorecard
@@ -91,17 +109,15 @@ Description of data completeness scorecard...
 
 Select a scorecard to see details on the entities used.
 
-|Item  |Description  |
-|---------|---------|
-|**Name**     |Name of the entity.         |
-|**Last Updated**    |When the entity was last updated.         |
-|**Lifecycle Phase**    |content         |
-|**Type**     |Entity type.         |
-
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Scorecard entities")
 
-For more information on entities, including importing and exporting data, see advanced topic.
+|Item  |Description  |
+|---------|---------|
+|**Name**     |The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully.|
+|**Last Updated**    |When this entity's data was last updated.         |
+|**Lifecycle Phase**    |A typical customer journey goes from Awereness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized.         |
+|**Type**     |The types of your data entities. In some cases, this will be the same as your entity name.    |
 
 ## Customers
 content
