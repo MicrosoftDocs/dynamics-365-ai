@@ -85,7 +85,7 @@ For example, you want to know which of your customers are most likely to make an
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment.png "Repurchasing segment")
 
-Select the **...** on a segment to see the details.
+Select the **...** on a segment tile or open a segment and select **Edit** to see the details.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Repurchasing segment details")
