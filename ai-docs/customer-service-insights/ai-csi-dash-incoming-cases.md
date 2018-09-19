@@ -1,8 +1,8 @@
 ---
-title: "Case Resolution Insights Dashboard"
-description: "Learn about the data and metrics displayed on the Case Resolution Insights dashboard."
+title: "Incoming Cases Dashboard"
+description: "Learn about the data and metrics displayed on the Incoming Cases dashboard."
 keywords: ""
-ms.date: 9/11/2018
+ms.date: 9/18/2018
 ms.service:
   - "business-applications"
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Case Resolution Insights Dashboard​
+# Incoming Cases Dashboard​
 
 The Case Resolution Insights dashboard gives you an overview of your customer support system's case resolution performance, including:
 
