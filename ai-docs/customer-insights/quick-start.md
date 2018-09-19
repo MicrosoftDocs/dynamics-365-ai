@@ -73,27 +73,28 @@ Based on your ingested data - or, in this case, our sample data - you'll see aut
 Description of latest insights...
 
 ### Top segments
-Description of top segments...
+On your Home page, you'll see top segments - segments with the most members and [need content].
+
+Segmentation is the process of slicing and dicing your data by attributes that matter most to you like last purchase date and customer engagement score.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmenting.png "Segmenting")
 
-As customers move through the sales or service process, groups of customers can reach the same process point. You can use AI for Customer Insights to segment customers at that point so you can gather insights about them and take actions suitable for their stage.
+For example, you want to know which of your customers are most likely to make another purchase so you can target some ads. 
 
-For example, you can target communications and offers for several weeks before a shopping deadline such as Valentine's Day, and show a different set of responses a few days before the deadline: "Your gift can still get there in time for Valentine's Day!"
+> [!div class="mx-imgBorder"] 
+> ![](media/repurchase-segment.png "Repurchasing segment")
 
-To segment your insights, you will:
+Select the **...** on a segment to see the details.
 
-Design marketing segments based on the complete customer journey.
-Identify groups of customers who are at the same stage of their journey.
-Automatically update segments based on the latest customer interactions.
-There are three types of segments:
+> [!div class="mx-imgBorder"] 
+> ![](media/repurchase-segment-details.png "Repurchasing segment details")
 
-Static: A static collection of profile data not automatically refreshed.
-Dynamic: A collection of profile data automatically refreshed.
-Compound: Combines Dynamic and Static segments.
 
-Select a segment to see...  For more information, see the Segments section below.
+There are two types of segments:
+
+- **Static**: A static collection of profile data not automatically refreshed.
+- **Dynamic**: A collection of profile data automatically refreshed.
 
 ### Data completeness scorecard
 Description of data completeness scorecard...
