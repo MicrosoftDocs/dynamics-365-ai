@@ -20,8 +20,7 @@ AI for Customer Service Insights uses artificial intelligence technology to enab
 
 The AI-driven Customer Service Insights technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 
-> [!div class="mx-imgBorder"]
-> <img src="media/ai-customer-service-insights.png" width="720">
+![KPI Summary dashboard](media/ai-customer-service-insights.png)
 
 *The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service.*
 
