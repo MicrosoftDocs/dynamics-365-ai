@@ -182,7 +182,18 @@ This can be easily done by dragging and dropping the entities tiles. In the exam
 
 []
 
-#### Editing Match Pair Roles
+#### Editing Match Pair Role:
+As mentioned above, this can be done via the *Three dots Icon* on each of the roles rows. 
+Upon cliking the icon, the *Role Editing Panel* appears:
+
+[]
+
+besides the role name, this panel enables you to specify all the criteria for that role. each criteria is represented by a row that includes (going left to right):
+- The attribute that will be used for matching within the first match pair entities
+- The attribute that will be used for matching within the second match pair entities
+- The method used for that role where selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% matching will also be matched. Examples inthe threshold for these Fuzzy matches will be selected next to it.
+
+
 **Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. - The first rule includes the Name attribute for both entities
 - The second rule includes... for the Saleforce Sales Data entity and ... for the Dynamics 365 Sales data entity
 - These rules has an "Or" condition which states that either one of the rules should be executed when matching these pair entities
