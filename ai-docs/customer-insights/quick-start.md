@@ -120,7 +120,7 @@ Select a scorecard to see details on the entities used.
 The Customers section contains information about your customers organized by Profiles and Segments.
 
 ### Profiles
-Once you've connected to a data source, AI for Customer Insights creates some customer profiles and categories based on your industry type. 
+Once you've connected to a data source, AI for Customer Insights creates some customer profiles and categories based on your industry type. Under **Customers**, select **Profiles**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-profiles75.png "Generated customer profiles")
@@ -141,12 +141,18 @@ What's in the sort list depends on the business category you selected and the pr
 > ![](media/sort-list.png "Sort list")
 
 ### Segments
-Content
+You can create segments of your data to filter on certain elements such as a time range and customer satisfaction to create focused, actionable steps.
 
 There are two types of segments:
 
 - **Static**: A static collection of profile data not automatically refreshed.
 - **Dynamic**: A collection of profile data automatically refreshed.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-segments.png "Customer segments")
+
+Based on your data and industry type, you can see a list of segments AI for Customer Insights has created for you.
+
 
 
 **Recommended segments based on your customers**: content
