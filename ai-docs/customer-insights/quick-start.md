@@ -135,7 +135,7 @@ You can use the customer profiles page to filter and sort the profiles.
 > [!div class="mx-imgBorder"] 
 > ![](media/filter-sort.png "Filter and sort customer profiles")
 
-What's in the sort list depends on the business category you selected earlier and the profile type. 
+What's in the sort list depends on the business category you selected and the profile type. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/sort-list.png "Sort list")
