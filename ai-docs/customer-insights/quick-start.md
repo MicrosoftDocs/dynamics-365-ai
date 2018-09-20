@@ -85,7 +85,7 @@ For example, you want to know which of your customers are most likely to make an
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment.png "Repurchasing segment")
 
-Select the <b>...</b> on a segment tile or open a segment and select **Edit** to see the details.
+Select <b>...</b> on a segment tile or open a segment and select **Edit** to see the details.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Repurchasing segment details")
@@ -93,8 +93,9 @@ Select the <b>...</b> on a segment tile or open a segment and select **Edit** to
 In this example, the segment finds customers who haven't made a purchase in two years and have a high engagement score.
 
 ### Data completeness scorecard
-Description of data completeness scorecard...
+Dynamics 365 AI for Customer Insights equip you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? Well, by viewing the Data Completeness Scorecard you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. -Going left to right, you can view how complete is your data for the Awereness, Engagement, Buying and Service stages.
 
+For each of these tiles, Green represents good entity coverage, Yellow represents medium entity coverage and Red represents poor entites coverage.
 
 **Awareness**: content
 
@@ -145,45 +146,15 @@ You can create segments of your data to filter on certain elements such as a tim
 
 There are two types of segments:
 
-- **Static**: A static collection of profile data not automatically refreshed.
-- **Dynamic**: A collection of profile data automatically refreshed.
+- **Static**: A static collection of profile data not automatically refreshed. An example for a case that fits static segment might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. 
+- **Dynamic**: A collection of profile data automatically refreshed. Case that fits dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers with time (tracking the change/lift in those KPIs).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-segments.png "Customer segments")
 
 Based on your data and industry type, you can see a list of segments AI for Customer Insights has created for you.
 
-
-
 **Recommended segments based on your customers**: content
-
-#### Add segment
-[divS1]
-
-   - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
-     that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic (blue) switch in "off" state since it is a 
-     static segment: 
-     
-     [divS2]
-     
-   - **In step two, we will start creating our first filter**. Upon clicking the "filter" bar an entity can be selected. Once we 
-     selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have      one of three value types: A numerical, a string or a date. In the example below, an attribute with a numerical value is used as a 
-     filter:
-     
-     [divS3]
-     
-   - **In step three, which is optional, we will add two rules to our filter**. Two roles are available on the entity level: 
-     ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
-     creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
-     attribute):
-     
-     [divS4]
-     
-   - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon clicking "Add Group" 
-     botton, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in 
-     the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3.            - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded
-       
-     [divS5]
 
 ## Data Manager
 Data management settings are considered advanced settings and covered in the [Advanced Mode Manual](advanced-guide.md).
