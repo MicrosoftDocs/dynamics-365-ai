@@ -85,16 +85,12 @@ For example, you want to know which of your customers are most likely to make an
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment.png "Repurchasing segment")
 
-Select the **...** on a segment tile or open a segment and select **Edit** to see the details.
+Select the <b>...</b> on a segment tile or open a segment and select **Edit** to see the details.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Repurchasing segment details")
 
-
-There are two types of segments:
-
-- **Static**: A static collection of profile data not automatically refreshed.
-- **Dynamic**: A collection of profile data automatically refreshed.
+In this example, the segment finds customers who haven't made a purchase in two years and have a high engagement score.
 
 ### Data completeness scorecard
 Description of data completeness scorecard...
@@ -121,7 +117,7 @@ Select a scorecard to see details on the entities used.
 |**Type**     |The types of your data entities. In some cases, this will be the same as your entity name.    |
 
 ## Customers
-content
+The Customers section contains information about your customers organized by Profiles and Segments.
 
 ### Profiles
 Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
@@ -149,9 +145,11 @@ C360 analyzes and builds unified customer profilesShow how Customer360 “automa
 ### Segments
 Content
 
-**Dynamic segments**: content
+There are two types of segments:
 
-**Static segments**: content
+- **Static**: A static collection of profile data not automatically refreshed.
+- **Dynamic**: A collection of profile data automatically refreshed.
+
 
 **Recommended segments based on your customers**: content
 
