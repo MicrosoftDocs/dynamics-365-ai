@@ -164,7 +164,8 @@ In the Match screen below, some matches were already automatically identified ba
 ![match.png](media/match.png)
 
 #### Exploring the Match screen
-The Match screen includes several components.  
+The Match screen includes several components as explored below. Once you complete editing those components hit the ***Run*** button at the buttom of the screen to execute all the matchings you have specificed. 
+
 - **Match Pairs Diagram**: The diagram includes the hirarchy in which the match pairs will be matched. 
     - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the*eye* icon at the right button corner of the tile. 
     - Each of the match percentages is specificed on top of the link that represents that match
@@ -188,22 +189,19 @@ Upon cliking the icon, the *Role Editing Panel* appears:
 
 []
 
-besides the role name, this panel enables you to specify all the criteria for that role. each criteria is represented by a row that includes (going left to right):
+besides the role name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes (going left to right):
 - The attribute that will be used for matching within the first match pair entities
 - The attribute that will be used for matching within the second match pair entities
-- The method used for that role where selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% matching will also be matched. Examples inthe threshold for these Fuzzy matches will be selected next to it.
-
-
-**Match Pair Rules** dictate the attribute-level conditions by which specific pair of entities (a match pair) will be mathced. In the example below, two rules are listed for the match pair Saleforce Sales Data : Dynamics 365 sales data. - The first rule includes the Name attribute for both entities
-- The second rule includes... for the Saleforce Sales Data entity and ... for the Dynamics 365 Sales data entity
-- These rules has an "Or" condition which states that either one of the rules should be executed when matching these pair entities
-- Upon the first role execution, 5,108 records will be matched, while upon the second rule execution, 3,081 records will be matched
+- The method used for that criteria where selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% matching will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define these as either *Low*, *Medium* or *High*.
+- An either *OR* or *AND* operator where:
+  - *AND* states that the criteria will be executed together with the next criteria
+  - *OR* states that either this or the next criteria should be executed
 
 ![match-edit-rule.png](media/match-edit-rule.png)
 
  
 ### Merge
-This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-910 versus 6178030910 for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
+This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
 - **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted screen part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
 
@@ -231,9 +229,7 @@ This is the last step within the data configuration process and it's all about r
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
   - First we will type an attribute name in the *Attribute Name* field. This is the name we are giving to our merged attribute.
-  
   - Then, within the *Select Attributes* menu, we will select all the attributes that we want to merge into our specified attribute.
-  
   - Lastly, we will define the merge policy by clicking on the relevant arrows in the *Merge Policy* section as we did before.
   
 - **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
@@ -350,18 +346,22 @@ This report encapsulates everything you need to know about the specific customer
 [add power BI report screen once finalized!]
 
 ## Customers: Segments
-There are two available segmentation types: *Static Segments*, *Dynamic Segments*. First we will discuss **segment creation** and learn two ways to perforam that task. Then we will move to discuss **segment exploration**. Lastly we will discuss **segment exportation**.  
+We will explore two ways to create segments. We will also show how to best explore your customer segments.
 
-### Creating Segments from the Left Menu Bar
-This menu includes three tabs. The tabs that are used for segment creation are the *Dynamics Segment* and *Static Segment*.
+### Creating Segments from the Segment Screen
+Within the segments screen, click *Add Segment* as shown below to start the segment creation process. You can choose either to create a  ***Static Segment***, to create a ***Dynamic Segment***, or to go to the Profile screen and create a segment through the filter tab (explained later):
 
-- **Static Segment Page:** Clicking the Static Segment tab will open this page. Here one can create sophisticated segments of customers   with minimum effort. Case that fits static segmentation might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. 
+[]
+
+
+***Dynamic segments*** change with time as data updates, while ***Static Segments*** are fixed. An example for a case that fits static segment might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. segments that are automatically updated with time. Case that fits dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers with time (tracking the change/lift in those KPIs).
+
+- **Segment Creation Process**:
+Once you chose *Add Dynamic Segment* or *Add Static Segment* you get to the *Segment Creation* screen:
 
 [divS1]
 
-   - **We start by defining the segment's properties**: We will give our segment a name and description, choose whether it's a segment  
-     that is created for accounts (---) or contacts (---), and ensure to leave the Dynamic (blue) switch in "off" state since it is a 
-     static segment: 
+   - **We start by defining the segment's properties**: We will give our segment a name and description, choose the audiance of this segment (in the example below two types are shown: Contacts and Accounts), click the first slider (highlighted in blue below) if we wish to change from Static Segment to Dynamic Segment or vice versa, and click the second slider (highlighted in red below) to activate our segment (otherwise it will not incorporate new information on our customers as our data is refreshed). 
      
      [divS2]
      
@@ -386,30 +386,32 @@ This menu includes three tabs. The tabs that are used for segment creation are t
 
        - Choosing ***Intersect*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values will be excluded
 
-       - Choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be exculded including all their values (both missing and existing values)
-
-- **Dynamic Segments Page:** Clicking the Dynamic Segment tab will open this page. Here one can create segments that are automatically updated with time. Case that fits dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers (tracking the change/lift in specific KPIs as a result of that activity)
+       - Lastly, choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be exculded including all their values (both missing and existing values)
 
 ### Creating Segments from the Profile Page
 This can be quickly done by setting filtering selections as described in the Profile Screen section and saving those definitions as a segment:
+
 []
 
 ### Exploring Segments from the Segments Page
 Here you can view all your segments as well as suggested segments. These are the screen componenets:
-- **Your saved Dynamic Segments:** Those appear in the left side of the screen. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment (as highlighted below), and several other possibilities that can be accessed via the *three dots* icon as highlighted below:
+- **Your saved Segments:** Dynamic Segments appear to the left and Static Segments appear to the right. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment (as highlighted in blue below), and several other possibilities that can be accessed via the *three dots* icon as highlighted in red below:
+
 []
+
 Those other options include:
     - Editing this particular segment
     - Viewing it's members
     - Exporting the segment to a csv file
     - turning the segment to inactive/active (depends on it's current state)
     - Deleting the segment
-- **Your saved Static Segments**: Those appear in the right side of the screen with the same features described for the dynamic segment
-- **Recommended Segments**: Those appear at the lower part of the screen as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that suggestion.
+    
+- **Recommended Segments**: Those appear at the lower part of the screen as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that specific suggestion
+
 []
 
 ### Exploring a Particular Segment from the Segment Page
-Once you clicked a segment within the Segments Screen, you will get to this page that consolidates everything around that partiular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc) with the button at the right upper corner of the tile:
+Once you clicked a segment within the *Segments Screen*, you will get to this page that consolidates everything around that partiular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc) with the button at the right upper corner of the tile:
 
 []
 
