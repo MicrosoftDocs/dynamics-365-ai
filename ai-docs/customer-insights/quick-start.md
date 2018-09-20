@@ -120,12 +120,12 @@ Select a scorecard to see details on the entities used.
 The Customers section contains information about your customers organized by Profiles and Segments.
 
 ### Profiles
-Once you've connected to a data source, AI for Customer Insights creates some customer profiles based on your industry type.
+Once you've connected to a data source, AI for Customer Insights creates some customer profiles and categories based on your industry type. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-profiles75.png "Generated customer profiles")
 
-Select **View more** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
+Select **See all** to see more customers sorted by the profile type. In this example, **Lifetime spend** is the profile type.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/view-more-customers.png "View more customers")
@@ -135,12 +135,10 @@ You can use the customer profiles page to filter and sort the profiles.
 > [!div class="mx-imgBorder"] 
 > ![](media/filter-sort.png "Filter and sort customer profiles")
 
-What's in the sort list depends on the category you selected earlier and the profile type. This example is xyz category with **Top paying** as the profile type.
+What's in the sort list depends on the business category you selected earlier and the profile type. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/sort-list.png "Sort list")
-
-C360 analyzes and builds unified customer profilesShow how Customer360 “automagically” (ML algos + incremental learning from what user has taught the system) does identity conflation and maps customer data streams into customer profiles in CDS-A
 
 ### Segments
 Content
