@@ -97,15 +97,15 @@ Dynamics 365 AI for Customer Insights equip you with a range of insights across 
 
 For each of these tiles, green represents good entity coverage, yellow represents medium entity coverage, and red represents poor entity coverage.
 
-**Awareness**: content needed
+**Awareness**: need content
 
-**Engagement**: content needed
+**Engagement**: need content
 
-**Fulfillment**: content needed
+**Fulfillment**: need content
 
-**Support**: content needed
+**Support**: need content
 
-Select a scorecard to see details on the entities used. Entities are [content needed]
+Select a scorecard to see details on the entities used. Entities are [need content]
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Scorecard entities")
@@ -154,7 +154,7 @@ There are two types of segments:
 
 Based on your data and industry type, you can see a list of segments AI for Customer Insights has created for you.
 
-**Recommended segments based on your customers**: content needed
+**Recommended segments based on your customers**: need content
 
 #### Edit a segment
 To edit, export, view members, and more for a segment, select <b>...</b> in the segment.
@@ -167,7 +167,7 @@ Here you can modify the criteria used to segment the data.
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Segment details")
 
-[Content needed] To add a group select **Add Group**.
+[need content] To add a group select **Add Group**.
 
 #### Add a segment
 
@@ -188,7 +188,7 @@ To bring in your company's data, select **Sources** then select a data source.
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
 ### Entities
-Entities are [content needed]
+Entities are [need content]
 
 After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
 
