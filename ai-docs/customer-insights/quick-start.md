@@ -75,7 +75,7 @@ Description of latest insights...
 ### Top segments
 On your Home page, you'll see top segments - segments with the most members and [need content].
 
-Segmentation is the process of slicing and dicing your data by attributes that matter most to you like last purchase date and customer engagement score.
+Segmentation is the process of slicing and dicing your data by attributes that are of interest to you like last purchase date and customer engagement score.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmenting.png "Segmenting")
@@ -88,7 +88,7 @@ For example, you want to know which of your customers are most likely to make an
 Select <b>...</b> on a segment tile or open a segment and select **Edit** to see the details.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/repurchase-segment-details.png "Repurchasing segment details")
+> ![](media/repurchase-segment-details.png "Segment details")
 
 In this example, the segment finds customers who haven't made a purchase in two years and have a high engagement score.
 
@@ -97,13 +97,13 @@ Dynamics 365 AI for Customer Insights equip you with a range of insights across 
 
 For each of these tiles, Green represents good entity coverage, Yellow represents medium entity coverage and Red represents poor entites coverage.
 
-**Awareness**: content
+**Awareness**: content needed
 
-**Engagement**: content
+**Engagement**: content needed
 
-**Fulfillment**: content
+**Fulfillment**: content needed
 
-**Support**: content
+**Support**: content needed
 
 Select a scorecard to see details on the entities used.
 
@@ -146,16 +146,54 @@ You can create segments of your data to filter on certain elements such as a tim
 
 There are two types of segments:
 
-- **Static**: A static collection of profile data not automatically refreshed. An example for a case that fits static segment might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. 
-- **Dynamic**: A collection of profile data automatically refreshed. Case that fits dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers with time (tracking the change/lift in those KPIs).
+- **Static**: A static collection of profile data not automatically refreshed. Example use case: exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
+- **Dynamic**: A collection of profile data automatically refreshed. Example use case: tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-segments.png "Customer segments")
 
 Based on your data and industry type, you can see a list of segments AI for Customer Insights has created for you.
 
-**Recommended segments based on your customers**: content
+**Recommended segments based on your customers**: content needed
+
+#### Edit a segment
+To edit, export, view members, and more for a segment, select <b>...</b> in the segment.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-menu.png "Segment menu")
+
+Here you can modify the criteria used to segment the data.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/repurchase-segment-details.png "Segment details")
+
+[Content needed] To add a group select **Add Group**.
+
+#### Add a segment
+
+To add a segment, select **Add Segment**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-segment.png "Add segment")
 
 ## Data Manager
-Data management settings are considered advanced settings and covered in the [Advanced Mode Manual](advanced-guide.md).
+
+### Sources
+
+To bring in your company's data, select **Sources** then select a data source. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/choose-data-source75.png "Choose a data source")
+
+Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
+
+### Entities
+
+
+
+
+
+
+
+Other data management settings  will be covered in future documentation.
 
