@@ -197,6 +197,9 @@ After ingesting the data, you can quickly evaluate how complete and useful it is
 
 Select an entity to see information about it.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-entity-details.png "Customer entity")
+
 |Item  |Description  |
 |---------|---------|
 |**Fields**     |need content |
