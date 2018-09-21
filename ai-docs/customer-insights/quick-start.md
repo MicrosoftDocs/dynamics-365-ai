@@ -93,9 +93,9 @@ Select <b>...</b> on a segment tile or open a segment and select **Edit** to see
 In this example, the segment finds customers who haven't made a purchase in two years and have a high engagement score.
 
 ### Data completeness scorecard
-Dynamics 365 AI for Customer Insights equip you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? Well, by viewing the Data Completeness Scorecard you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. -Going left to right, you can view how complete is your data for the Awereness, Engagement, Buying and Service stages.
+Dynamics 365 AI for Customer Insights equip you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? By viewing the Data Completeness Scorecard you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. Going left to right, you can view how complete is your data for the Awereness, Engagement, Buying and Service stages.
 
-For each of these tiles, Green represents good entity coverage, Yellow represents medium entity coverage and Red represents poor entites coverage.
+For each of these tiles, green represents good entity coverage, yellow represents medium entity coverage, and red represents poor entity coverage.
 
 **Awareness**: content needed
 
@@ -188,13 +188,34 @@ To bring in your company's data, select **Sources** then select a data source.
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
 ### Entities
-ngesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using the Import Data icon as highlighted below. You can also export the entities table as a csv file by clicking the Export Data button next to it.
+Entities are [content needed]
 
+After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Entities")
 
+Select an entity to see information about it.
 
+|Item  |Description  |
+|---------|---------|
+|**Fields**     |need content |
+|**Keys**    |need content         |
+|**Relationships**    |need content |
+|**Data**     |need content  |
 
+## Configuration, Relationships
 Other data management settings  will be covered in future documentation.
 
+## Admin
+
+### Permissions
+Use the forms in the **Permissions** section to add or remove role permissions to AI for Customer Insights.
+
+**Roles**
+
+|Role  |Description  |
+|---------|---------|
+|Contributor    |need content |
+|Reader  |need content        |
+|Admin   |need content |
