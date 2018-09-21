@@ -105,7 +105,7 @@ For each of these tiles, Green represents good entity coverage, Yellow represent
 
 **Support**: content needed
 
-Select a scorecard to see details on the entities used.
+Select a scorecard to see details on the entities used. Entities are [content needed]
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Scorecard entities")
@@ -114,7 +114,7 @@ Select a scorecard to see details on the entities used.
 |---------|---------|
 |**Name**     |The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully.|
 |**Last Updated**    |When this entity's data was last updated.         |
-|**Lifecycle Phase**    |A typical customer journey goes from Awereness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized.         |
+|**Lifecycle Phase**    |A typical customer journey goes from Awareness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized.         |
 |**Type**     |The types of your data entities. In some cases, this will be the same as your entity name.    |
 
 ## Customers
@@ -188,10 +188,11 @@ To bring in your company's data, select **Sources** then select a data source.
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
 ### Entities
+ngesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using the Import Data icon as highlighted below. You can also export the entities table as a csv file by clicking the Export Data button next to it.
 
 
-
-
+> [!div class="mx-imgBorder"] 
+> ![](media/scorecard-entities.png "Entities")
 
 
 
