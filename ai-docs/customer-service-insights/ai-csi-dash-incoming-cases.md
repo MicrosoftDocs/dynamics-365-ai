@@ -1,6 +1,6 @@
 ---
-title: "Incoming Cases Dashboard"
-description: "Learn about the data and metrics displayed on the Incoming Cases dashboard."
+title: "Incoming Cases dashboard"
+description: "Learn about the customer service insights available on the Incoming Cases dashboard."
 keywords: ""
 ms.date: 9/18/2018
 ms.service:
@@ -12,14 +12,14 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Incoming Cases Dashboard​
+# Incoming Cases dashboard​
 
-The Case Resolution Insights dashboard gives you an overview of your customer support system's case resolution performance, including:
+The Incoming Cases dashboard gives you an overview of the incoming cases in your customer support system for the specified time period. The dashboard provides graphical views of the new support cases, including:
 
-* The customer support agents who are taking the most time to resolve issues.
-* The number of incoming customer support cases compared to the average time to resolve them.
-* The customer support agents with the longest first response time.
-* The number of incoming cases compared to the first response time.
+* The daily breakdown between high, medium, and low priority cases.
+* The daily breakdown between support channels.
+* The trends in the timing of cases during the day for each channel during the time period.
 
-The dashboard also uses artificial intelligence technology to categorize customer support cases by topic and show you the topics that are having the most impact on the performance of the system.
-For example, 
+In addition, the dashboard uses artificial intelligence technology to show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
+
+By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.

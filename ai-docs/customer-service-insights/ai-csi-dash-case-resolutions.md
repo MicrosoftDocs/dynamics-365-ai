@@ -1,6 +1,6 @@
 ---
 title: "Case Resolutions Dashboard​"
-description: "Learn about the data and metrics displayed on the Case Resolutions dashboard."
+description: "Learn about the customer service insights available on the Case Resolutions dashboard."
 keywords: ""
 ms.date: 9/11/2018
 ms.service:
