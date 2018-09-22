@@ -5,6 +5,20 @@
   href: quick-start.md
 - name: Advanced Guide
   href: advanced-guide.md
+  items:
+  - name: Data Manager
+    href: data-manager.md
+    items:
+    - name: Sources
+      href: sources.md
+    - name: Entities
+      href: entities.md
+    - name: Configuration
+      href: configuration.md
+  - name: Relationships
+    href: relationships.md
+  - name: Admin
+    href: admin.md
   # - name: View analytics
   #   items:
   #   - name: Common Data Service analytics
