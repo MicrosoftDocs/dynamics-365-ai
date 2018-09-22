@@ -1,5 +1,5 @@
 ---
-title: "Advanced Mode Manual | MicrosoftDocs"
+title: "Advanced Guide | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
@@ -28,7 +28,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## How to use the Advanced Mode Manual
+## How to use the Advanced Guide
 All product sections are accessed through their corresponding tabs' names in the left-side menu of the app as shown below:
 
 > [!div class="mx-imgBorder"] 
@@ -64,215 +64,8 @@ If you never used Dynamics 365 AI for Customer Insights before, this is the work
 > [!div class="mx-imgBorder"] 
 > ![](media/workflow720.png "Workflow phases")
 
-## Data Manager Sections
-**Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights offers. Following the Data Manager sections, we will explore sections that are used for viewing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
 
-## Data Manager: Sources
-In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
 
-- **Step One: Ingesting CRM data**: Upon clicking the *Sources* tab a pop-up screen shows up and here you should click *Get Data* for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For csv files (Excel) and other sources, continue to step two.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/select-sources-get-data.png "Select Get data")
-
-- **Step Two: Identifying and ingesting additional data sources**: Upon clicking *Learn More* you will view many additional available sources. For locating the specific sources that apply to your organization, first identify their types which are represented by tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source-menu.png "Data source menu")
-
-- (?) **Step Three: Data Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets. The example shown below includes some of the changes you can apply to your data:
-  - In Red: Changing a column type
-  - In Blue: Removing a column
-  - In Green: Replacing *NA* within a specific record with another string
-Clearly, other processing options are available too and those depend on the specific data source you wish to process.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/edit-entity-queries780.png "Pre-processing data")
-
-## Data Manager: Entities
-Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table as a csv file by clicking the *Export Data* button next to it.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/scorecard-entities-import-data.png "Entities import data")
-
-The ***Entities*** table includes four columns (explored from left to right): 
-- **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully. 
-- **Last Update**: Answers the question *When was the last time this entity's data was last updated?*
-- **Lifecycle Phase**: A typical customer journey goes from Awereness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized. 
-- **Type**: The types of your data entities. In some cases will be the same as your entities names while in others can be different.
-
-The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton as shown below:
-
-> [!div class="mx-imgBorder"] 
-> ![](media/scorecard-entities.png "Entities")
-
-## Data Manager: Configuration
-
-### Intro to Configuration
-Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In Dynamics AI for Customer Insights, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration Screen** will take you to the first stage in the data configuration process.
-
-![configuration.png](media/configuration.png)
-
-
-### Map
-There are two main goals behind the Map screen (shown below):
-- Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
-- Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
-
-![map-screen1.png](media/map-screen1.png)
-
-Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
-- **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a *Contacts* dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
-- **Data Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible.
-- **Type**: Attribute names in the Common Data Model (CDM) that correspond to your entities' attributes. Must be selected for each of your entities' attributes.
-- ? **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching prcosess. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
-
-In addition, three additional actions are available in the Map screen:
-
-![add-custom-entity.png](media/add-custom-entity.png)
-
-- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional attributes on the basis of which your data should be merged, you should add them at this point.
-    - Using the customer entitys panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* datasource opened a list with all the entities for that source. You may also use the search button to find a specific entity.
-    
-    - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.
-
-      ![add-entity.png](media/add-entity.png)
-
-    - Lastly, you want to save your selection and now these will be added as new tabs to the left of the entity table. 
-      
-      ![add-entity2.png](media/add-entity2.png)
-- **Add attributes to an existing customer entity:** Available upon clicking the **Add** drop-down menu (as shown below). Choosing this option for one of your customer entities will enable you to take more attributes into consideration as part of the matching process. [UX is not ready for selection panel]
-
-![add-attribute.png](media/add-attribute.png)
-
-![add-attribute2.png](media/add-attribute2.png)
-
-- **Keep unmatched records:** As part of the next stage (match), it is possible that not all of your data entities will be matched. Upon checking this box (shown below), you choose to save all the records (or dataset rows) of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/map-keep-unmatched-records.png "Mapping - keep unmatched records")
-
-### Match
-Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the configuration screen will take you to the *Match Screen*.
-
-(add "configuration" screen with highlighted Match tile)
-
-In the Match screen below, some matches were already automatically identified based on your Map phase selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
-- Your understanding of how your datasources are related to one another
-- Your understanding of what sources are most reliable for your mapped attributes
-
-![match.png](media/match.png)
-
-#### Exploring the Match screen
-The Match screen includes several components as explored below. Once you complete editing those components hit the ***Run*** button at the buttom of the screen to execute all the matchings you have specificed. 
-
-- **Match Pairs Diagram**: The diagram includes the hirarchy in which the match pairs will be matched. 
-    - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the*eye* icon at the right button corner of the tile. 
-    - Each of the match percentages is specificed on top of the link that represents that match
-[]
-
-- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the screen. Each row represents a seperate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
-
-What is included within each *Role* row? Let us explore from left to right:
-    - **Matched Records**: Number of records (or dataset rows) that can be matched for the specific match pair under this role
-    - **Eye Icon**: Clicking this icon will enable you to see all the records for the specific match pair under this role
-    - **Three Dots Icon**: Clicking this icon will enable you to edit the specific role (more on editing roles below)
-
-#### Editing Match Pairs Hirarchy:
-This can be easily done by dragging and dropping the entities tiles. In the example below, Contact and SleepIQ will be matched first and only then the WebAccount entity will be matched with the result of the first match:
-
-[]
-
-#### Editing Match Pair Role:
-As mentioned above, this can be done via the *Three dots Icon* on each of the roles rows. 
-Upon cliking the icon, the *Role Editing Panel* appears:
-
-[]
-
-besides the role name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes (going left to right):
-- The attribute that will be used for matching within the first match pair entities
-- The attribute that will be used for matching within the second match pair entities
-- The method used for that criteria where selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% matching will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define these as either *Low*, *Medium* or *High*.
-- An either *OR* or *AND* operator where:
-  - *AND* states that the criteria will be executed together with the next criteria
-  - *OR* states that either this or the next criteria should be executed
-
-![match-edit-rule.png](media/match-edit-rule.png)
-
- 
-### Merge
-This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
-
-- **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted screen part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
-
-![merge-single-attribute.png](media/merge-single-attribute.png)
-
-- **Prioritizing sources for pre-identified merged attributes**: Continuing with *Name* as an example for merged attribute, in this section we will learn how to prioritize contradicting values for that attribute. We start by clicking the *three dots* icon below: 
-
-![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
-
-- We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
-
-![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
-
-  - First we will consider to edit the *Attribute Source* part. This part specifies all the sources that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will unselect them.
-  
-  - Second, we will consider to edit the *Merge Policy* part. This part specifies only the sources that were selected within *Attribute Source*. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will click the arrow sign next to *Salesforce Sales Data* and as a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values on *Names*.
-
-- **Adding a merged attribute**: Adding a merged attribute is available via the *Add Attribute* option as shown below. 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/merge-add-merge-attribute.png "Add merged attributes")
-
-- We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
-
-![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
-
-  - First we will type an attribute name in the *Attribute Name* field. This is the name we are giving to our merged attribute.
-  - Then, within the *Select Attributes* menu, we will select all the attributes that we want to merge into our specified attribute.
-  - Lastly, we will define the merge policy by clicking on the relevant arrows in the *Merge Policy* section as we did before.
-  
-- **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
-  
-![merge-group-attributes-dropdown.png](media/merge-group-attributes-dropdown.png)
-
-   - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
-   - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
-     
- ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
-
-## Data Manager: Enrichment
-Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configurated data will be enriched with unique data on customers' top interests and preferred brands. Here Dynamics 365 Ai for customer insights will automatically do for you the hard work:
-
-- **Interests** may range from *Shoes*, to *Banking Services* to *4 Star Hotels* to any one of the other 300+ categories that the app extracts from the Microsoft Graph
-
-- **Preferred Brands** may include *Nike*, *Walmart*, *Nokia*, or any one of the other 1200+ categories that the app extracts from the Microsoft Graph 
-
-[add enrichment screen in the future]
-
-- **Understanding the enriched data**: Once being configurated, now your data is also enriched. For each of your customers you can view the top ten interests and preferred brands based on online behavior. 
-(add enrichment screen with close-up on the interests and brands columns for a couple of rows)
-
-You can filter your customers by one or more of the following:
-    - **Location, State** (note: at this point only US-locations are supported by enrichment)
-    - **Location, City** (same note holds true for cities)
-    - **Gender:** Either Male or Female or Unknown or all categories (Male, Female and Unknown taken together)
-    - **Age:** Either age bucket 20-34, age bucket 35-44, age bucket 45-54 or 55+ 
-    
-[add enrichment screen with filter panel opened in the future]
-
-## Data Manager: Relationships
-In Dynamics 365 AI for Customer Insights, *Relationships* are also available for segmentation, insight-extraction and all other purposes. The *Relationships Screen* shown below includes five columns. We will explore these from left to right:
-- **Relationship Name**: That is the name that you, as a user, assign to that relationship so it will be considered as an entity
-- **Source Entity**: That is the name of the entity that is used as a source in that unidirectional/bidirectional relationship 
-- **Source Cardinality**: Number that represents the number of nodes of the source entity. For example, if the number is 2 it means that two sources lead to one/more target entities in that relationship.
-- **Target Entity**: That is the name of the entity that is used as a target in that relationship
-- **Target Cardinality**: Number that represents the number of nodes of the target entity. For example, if the number is 1 it means that the source entity/entities lead to only one target entity.
-
-- Lastly, the available actions on that screen includes adding a new relationship or deleting a relationship as highlighted below
-
-> [!div class="mx-imgBorder"] 
-> ![](media/add-relationships.png "Add relationships")
 
 # Customers Sections
 **After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
@@ -464,37 +257,6 @@ A range of actionable insights were derived during the data ingestion, configura
     - **Tutorial: Dynamics 365 for Customer Insights in a day**: Examplifies how to use the product as part of a typical work day
     - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user manual as they encapsulate more mandatory configurations than the other product sections
 
-## Administration
-
-This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration screen is the **Permissions** screen which is accessable via the **Administration tab** as shown below:  
-
- ![permissions.png](media/permissions.png)
-
-Within the **Permissions** screen you can view organization members for whom roles and permissions where assigned. Note that while roles are specified under the *Roles* column, permissions are specified under the *Type* column. Lastly, you can sort the results by each of the columns types by clicking on the arrow icon next to the column name as shown below.  
-
-![add-permissions.png](media/add-permissions.png)
-
-- **Adding Roles and Permissions:** 
-    - In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Adding Permissions** panel that can be accessed via the *Add* botton at the top of the permissions screen:
-
-    ![permissions-roles.png](media/permissions-roles.png)
-
-   - When it comes to permissions, those can be defined in the same panel as shown below:
-   
-(add permissions screen with opened "add permissions" panel from the administration part on the app and highlight the permissions field)
-
-- **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via the *Roles* botton at the top of the permissions screen:
-
-(add permissions screen with opened "roles" panel from the administration part on the app)
-
-- **Filtering Permissions by a Role**: This can be achieved by opening the **Filter** panel through the *Filter* botton at the top of the permissions screen, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
-
-
-Within the panel above, you may want 
-
-![permissions-filter.png](media/permissions-filter.png)
-
-(add "filter" screen from the administration part on the app)
 
 ## Extensibilities
 

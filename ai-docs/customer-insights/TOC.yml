@@ -18,7 +18,7 @@
   - name: Relationships
     href: relationships.md
   - name: Admin
-    href: admin.md
+    href: administer.md
   # - name: View analytics
   #   items:
   #   - name: Common Data Service analytics
