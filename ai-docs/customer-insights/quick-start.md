@@ -64,7 +64,7 @@ If you keep the sample data for now, this topic will walk you through the gettin
 
 ## Home page
 
-Based on your ingested data - or, in this case, our sample data - you'll see automatically configured insights into your company's data.
+Based on your ingested data or, in this case our sample data, you'll see automatically configured insights into your company's data.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customers-dashboard-3rows.png "Customer dashboard")
@@ -130,16 +130,6 @@ Select **See all** to see more customers sorted by the profile type. In this exa
 
 > [!div class="mx-imgBorder"] 
 > ![](media/view-more-customers.png "View more customers")
-
-You can use the customer profiles page to filter and sort the profiles.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/filter-sort.png "Filter and sort customer profiles")
-
-What's in the sort list depends on the business category you selected and the profile type. 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/sort-list.png "Sort list")
 
 ### Segments
 You can create segments of your data to filter on certain elements such as a time range and customer satisfaction to create focused, actionable steps.

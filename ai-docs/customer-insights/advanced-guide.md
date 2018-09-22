@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Advanced Mode Manual
+# Advanced Guide
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -58,6 +58,14 @@ Select **More categories** to choose from more industries and business functions
 > [!div class="mx-imgBorder"] 
 > ![](media/more-categories.png "More categories")
 
+## Bringing in your data
+Once you've selected a business category sample data is loaded pre-configured profiles and segments for your exploration.
+
+To bring in your own data, under **Data Manager** select **Sources** and choose a data source. Proceed through the screens to load your data. Once loaded, the sample data will be removed.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/choose-data-source75.png "Choose a data source")
+
 ## Workflow
 If you never used Dynamics 365 AI for Customer Insights before, this is the workflow you can expect to go through:
 
@@ -67,7 +75,7 @@ If you never used Dynamics 365 AI for Customer Insights before, this is the work
 
 
 
-# Customers Sections
+## Customers sections
 **After completing the Data Manager sections, you are ready to start benefiting from the various insights you have just unlocked on your customers.** The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Homepage* section that will be covered later.
 
 Which of these three sections should you start with? That depends on your goal:
