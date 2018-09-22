@@ -24,7 +24,7 @@ The dashboard also provides a variety of graphical views of your system's suppor
 * The aggregate trend in new and resolved cases.
 * The breakdown of unresolved cases by age.
 
-In addition, the dashboard uses artificial intelligence technology to show you the customer support topics that are generating the most volume, and the topics that are having the most impact on case resolution time. This can help you identify areas for improvement that can have the greatest impact on improving overall system performance.
+In addition, the dashboard uses artificial intelligence technology to show you the customer support topics that are generating the most volume, and the topics that are having the most impact on case resolution time. This can help you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
 
