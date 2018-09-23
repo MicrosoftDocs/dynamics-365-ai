@@ -117,7 +117,7 @@ What's in the sort list depends on the category you selected earlier and the pro
 
 Upon clicking a specific customer tile, you will get to the **Power BI report** for that customer which is explored below.
 
-## Customer's Power BI Report
+## Customer's Power BI report
 This report encapsulates everything you need to know about the specific customer you selected on the *Profile* page. It includes four major parts: The Customer Card, selected customer KPIs, top interests and brands for customers that are like this customer, and this customer's activities. 
 - **Customer Card:** This card is the same card that appears for that customer on the *Profile* page that was described earlier.
 - **Customer KPIs**: The most insightful key performance indicators (KPIs) across the four customer journey phases:
@@ -156,7 +156,7 @@ Within the segments page, select **Add Segment** as shown below to start the seg
 
 ***Dynamic segments*** change with time as data updates, while ***Static segments*** are fixed. An example for a case that fits Static segment might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. Segments that are automatically updated with time. A case that fits Dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers with time (tracking the change/lift in those KPIs).
 
-- **Segment Creation Process**:
+- **Segment creation process**:
 Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the **Segment Creation** page:
 
 [divS1]
@@ -186,12 +186,12 @@ Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the 
 
        - Lastly, choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be excluded including all their values (both missing and existing values).
 
-### Creating Segments from the Profile Page
+### Creating segments from the Profile page
 This can be quickly done by setting filtering selections as described in the *Profile* page section and saving those definitions as a segment:
 
 []
 
-### Exploring segments from the segments scree
+### Exploring segments from the segments screen
 Here you can view all your segments as well as suggested segments. These are the page components:
 - **Your saved Segments:** Dynamic Segments appear to the left and Static Segments appear to the right. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment (as highlighted in blue below), and several other possibilities that can be accessed via  <b>...</b> as highlighted in red below:
 
@@ -204,7 +204,7 @@ Those other options include:
     - Turning the segment to inactive/active (depends on it's current state)
     - Deleting the segment
     
-- **Recommended Segments**: Those appear at the lower part of the page as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that specific suggestion
+- **Recommended segments**: Those appear at the lower part of the page as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that specific suggestion
 
 []
 
