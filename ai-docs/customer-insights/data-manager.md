@@ -32,7 +32,7 @@ robots: noindex,nofollow
 **Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing those sections will enable you to unclock the unique insights Dynamics 365 AI for Customer Insights offers. Following the Data Manager sections, we will explore sections that are used for viewing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
 
 ## Data Manager: Sources
-In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disperate and conflicting. 
+In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
 - **Step One: Ingesting CRM data**: Upon clicking the *Sources* tab a pop-up screen shows up and here you should click *Get Data* for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For csv files (Excel) and other sources, continue to step two.
 
@@ -44,7 +44,7 @@ In this section we will explain how to bring data from many of your sources: Fro
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source-menu.png "Data source menu")
 
-- (?) **Step Three: Data Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific data sets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets. The example shown below includes some of the changes you can apply to your data:
+- (?) **Step Three: Data Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific datasets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets. The example shown below includes some of the changes you can apply to your data:
   - In Red: Changing a column type
   - In Blue: Removing a column
   - In Green: Replacing *NA* within a specific record with another string
