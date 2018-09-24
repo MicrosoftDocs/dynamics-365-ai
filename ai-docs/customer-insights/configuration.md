@@ -35,7 +35,7 @@ robots: noindex,nofollow
 ### Intro to Configuration
 Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In Dynamics AI for Customer Insights, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration Screen** will take you to the first stage in the data configuration process.
 
-![configuration.png](media/configuration.png)
+![configuration.png](media/configuration.png "configuration.png")
 
 
 ### Map
@@ -43,7 +43,7 @@ There are two main goals behind the Map screen (shown below):
 - Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
 - Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
 
-![map-screen1.png](media/map-screen1.png)
+![map-screen1.png](media/map-screen1.png "map-screen1.png")
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a *Contacts* dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
@@ -53,23 +53,23 @@ Clicking each of the customer entities tabs on the left will open it's correspon
 
 In addition, three additional actions are available in the Map screen:
 
-![add-custom-entity.png](media/add-custom-entity.png)
+![add-custom-entity.png](media/add-custom-entity.png "add-custom-entity.png")
 
 - **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional attributes on the basis of which your data should be merged, you should add them at this point.
     - Using the customer entitys panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* datasource opened a list with all the entities for that source. You may also use the search button to find a specific entity.
     
     - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.
 
-      ![add-entity.png](media/add-entity.png)
+      ![add-entity.png](media/add-entity.png "add-entity.png")
 
     - Lastly, you want to save your selection and now these will be added as new tabs to the left of the entity table. 
       
-      ![add-entity2.png](media/add-entity2.png)
+      ![add-entity2.png](media/add-entity2.png "add-entity2.png")
 - **Add attributes to an existing customer entity:** Available upon clicking the **Add** drop-down menu (as shown below). Choosing this option for one of your customer entities will enable you to take more attributes into consideration as part of the matching process. [UX is not ready for selection panel]
 
-![add-attribute.png](media/add-attribute.png)
+![add-attribute.png](media/add-attribute.png "add-attribute.png")
 
-![add-attribute2.png](media/add-attribute2.png)
+![add-attribute2.png](media/add-attribute2.png "add-attribute2.png")
 
 - **Keep unmatched records:** As part of the next stage (match), it is possible that not all of your data entities will be matched. Upon checking this box (shown below), you choose to save all the records (or dataset rows) of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
 
@@ -85,7 +85,7 @@ In the Match screen below, some matches were already automatically identified ba
 - Your understanding of how your datasources are related to one another
 - Your understanding of what sources are most reliable for your mapped attributes
 
-![match.png](media/match.png)
+![match.png](media/match.png "match.png")
 
 #### Exploring the Match screen
 The Match screen includes several components as explored below. Once you complete editing those components hit the ***Run*** button at the buttom of the screen to execute all the matchings you have specificed. 
@@ -121,7 +121,7 @@ besides the role name, this panel enables you to specify all the ***Criteria*** 
   - *AND* states that the criteria will be executed together with the next criteria
   - *OR* states that either this or the next criteria should be executed
 
-![match-edit-rule.png](media/match-edit-rule.png)
+![match-edit-rule.png](media/match-edit-rule.png "match-edit-rule.png")
 
  
 ### Merge
@@ -129,15 +129,15 @@ This is the last step within the data configuration process and it's all about r
 
 - **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted screen part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
 
-![merge-single-attribute.png](media/merge-single-attribute.png)
+![merge-single-attribute.png](media/merge-single-attribute.png "merge-single-attribute.png")
 
 - **Prioritizing sources for pre-identified merged attributes**: Continuing with *Name* as an example for merged attribute, in this section we will learn how to prioritize contradicting values for that attribute. We start by clicking the *three dots* icon below: 
 
-![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
+![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png "merge-single-attribute-edit.png")
 
 - We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
 
-![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
+![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png "merge-experiment-datasource-dropdown.png")
 
   - First we will consider to edit the *Attribute Source* part. This part specifies all the sources that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will unselect them.
   
@@ -150,7 +150,7 @@ This is the last step within the data configuration process and it's all about r
 
 - We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
 
-![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
+![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png "merge-experiment-datasource-dropdown.png")
 
   - First we will type an attribute name in the *Attribute Name* field. This is the name we are giving to our merged attribute.
   - Then, within the *Select Attributes* menu, we will select all the attributes that we want to merge into our specified attribute.
@@ -158,12 +158,12 @@ This is the last step within the data configuration process and it's all about r
   
 - **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
   
-![merge-group-attributes-dropdown.png](media/merge-group-attributes-dropdown.png)
+![merge-group-attributes-dropdown.png](media/merge-group-attributes-dropdown.png "merge-group-attributes-dropdown.png")
 
    - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
    - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
      
- ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
+ ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png "merge-group-attributes-edit.png")
 
 ## Data Manager: Enrichment
 Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configurated data will be enriched with unique data on customers' top interests and preferred brands. Here Dynamics 365 Ai for customer insights will automatically do for you the hard work:
