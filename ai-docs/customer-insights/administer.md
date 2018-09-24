@@ -2,7 +2,7 @@
 title: "Preview: Administer AI for Customer Insights | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
