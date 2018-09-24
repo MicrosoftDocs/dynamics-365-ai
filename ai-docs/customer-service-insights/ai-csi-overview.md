@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 AI for Customer Service Insights Overview"
+title: "AI for Customer Service Insights Overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service Insights."
 keywords: ""
 ms.date: 9/11/2018
