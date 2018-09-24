@@ -14,7 +14,7 @@ manager: shellyha
 
 # Incoming Cases dashboard​
 
-![KPI Summary dashboard](media/ai-csi-incoming-cases-dash.png)
+![Incoming Cases dashboard](media/ai-csi-incoming-cases-dash.png)
 
 The Incoming Cases dashboard gives you an overview of the incoming cases in your customer support system for the specified time period. The dashboard provides graphical views of the new support cases, including:
 
@@ -48,7 +48,7 @@ The case timing chart shows the trends in the time of day of new support cases f
 
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png)
 
-The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of volume over the specified time period, showing the percent of the total incoming case volume, the number of incoming cases, the average resolution time, the resolution rate, and the average customer satisfaction score for each topic.
+The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period, showing the percent of the total incoming case volume, the number of incoming cases, the average resolution time, the resolution rate, and the average customer satisfaction score for each topic.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 

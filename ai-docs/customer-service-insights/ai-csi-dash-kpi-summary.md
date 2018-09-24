@@ -14,7 +14,7 @@ manager: shellyha
 
 # KPI Summary dashboard
 
-![KPI Summary dashboard](media/ai-customer-service-insights.png)
+![KPI Summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
 The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of the performance of your customer support system. The dashboard shows you key performance indicators such as the number of incoming, resolved, escalated, and SLA compliant cases for a specified time period, and the average resolution time and customer satisfaction score.
 
@@ -75,7 +75,7 @@ The unresolved cases by age chart shows the relative number of support cases for
 
 ![Top case volume impactors chart](media/ai-csi-top-case-volume.png)
 
-The top case volume impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display the topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
+The top case volume impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 

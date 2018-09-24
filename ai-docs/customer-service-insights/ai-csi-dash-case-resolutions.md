@@ -14,6 +14,8 @@ manager: shellyha
 
 # Case Resolutions dashboard​
 
+![Case Resolutions dashboard](media/ai-csi-case-resolutions-dash.png)
+
 The Case Resolutions dashboard gives you an overview of your customer support system's case resolution performance for the specified time period. The dashboard provides graphical views of resolved cases, including:
 
 * The customer support agents who are taking the most time to resolve issues.
@@ -24,3 +26,37 @@ The Case Resolutions dashboard gives you an overview of your customer support sy
 In addition, the dashboard uses artificial intelligence technology to categorize customer support cases by topic and show you the topics that are having the greatest impact on resolution time. This can help you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
+
+## Agents with longest resolve time chart
+
+![Agents with longest resolve time chart](media/ai-csi-longest-resolve-time.png)
+
+The agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer support case, in reverse order of resolution time.
+
+## Incoming cases vs. average resolve time chart
+
+![Incoming cases vs. average resolve time chart](media/ai-csi-incoming-vs-resolve-time.png)
+
+The incoming cases vs. average resolve time chart shows the daily trend in the specified time period in the number of incoming support cases and the average resolution time, in minutes.
+
+## Agents with longest first response time chart
+
+![Agents with longest first response time chart](media/ai-csi-longest-first-response.png)
+
+The agents with longest first response time chart shows the average time, in minutes, that it takes each agent in the specified time period to respond to a customer support case, in reverse order of response time.
+
+## Incoming cases vs. first response time chart
+
+![Incoming cases vs. first response time chart](media/ai-csi-incoming-vs-first-response.png)
+
+The incoming cases vs. average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average reesponse time, in minutes.
+
+## Top resolution time impactors (AI Insights)
+
+![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png)
+
+The top resolution time impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period, showing the percentage of total case volume for the topic, the average resolution time for each topic's support cases, and the impact that resolution time is having on system performance.
+
+The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
+
+To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
