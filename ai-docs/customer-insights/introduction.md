@@ -2,7 +2,7 @@
 title: "Preview: Introducing Dynamics 365 AI for Customer Insights | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/31/2018
+ms.date: 10/1/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
