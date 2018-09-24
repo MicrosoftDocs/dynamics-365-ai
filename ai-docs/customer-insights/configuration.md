@@ -74,7 +74,7 @@ In addition, three additional actions are available in the Map screen:
 - **Keep unmatched records:** As part of the next stage (match), it is possible that not all of your data entities will be matched. Upon checking this box (shown below), you choose to save all the records (or dataset rows) of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/map-keep-unmatched-records.png "Mapping - keep unmatched records")
+> ![Mapping - keep unmatched records](media/map-keep-unmatched-records.png "Mapping - keep unmatched records")
 
 ### Match
 Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the configuration screen will take you to the *Match Screen*.
@@ -146,7 +146,7 @@ This is the last step within the data configuration process and it's all about r
 - **Adding a merged attribute**: Adding a merged attribute is available via the *Add Attribute* option as shown below. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/merge-add-merge-attribute.png "Add merged attributes")
+> ![Add merged attributes](media/merge-add-merge-attribute.png "Add merged attributes")
 
 - We will perform the attribute addition process within the *Add Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Select Attributes* (middle part) and *Merge Policy* (lower part). 
 

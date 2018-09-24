@@ -54,4 +54,4 @@ For AI for Customer Insights, you don’t need a Power BI account. You are only 
 Show how user discovers app on AppSource]
 
 > [!div class="mx-imgBorder"] 
-> ![](media/get-customer-insights720.png "Get AI for Customer Insights")
+> ![Get AI for Customer Insights](media/get-customer-insights720.png "Get AI for Customer Insights")

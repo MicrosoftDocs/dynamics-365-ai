@@ -37,12 +37,12 @@ In this section we will explain how to bring data from many of your sources: Fro
 - **Step One: Ingesting CRM data**: Upon clicking the *Sources* tab a pop-up screen shows up and here you should click *Get Data* for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For csv files (Excel) and other sources, continue to step two.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/select-sources-get-data.png "Select Get data")
+> ![Select Get data](media/select-sources-get-data.png "Select Get data")
 
 - **Step Two: Identifying and ingesting additional data sources**: Upon clicking *Learn More* you will view many additional available sources. For locating the specific sources that apply to your organization, first identify their types which are represented by tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and click *Get Data* for each one of them. Lastly, approve by clicking *Load Data* at the bottom right corner of the screen. If you wish to remove source prior to data ingestion click *Remove Data* for that source.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source-menu.png "Data source menu")
+> ![Data source menu](media/choose-data-source-menu.png "Data source menu")
 
 - (?) **Step Three: Data Pre-Processing**: After clicking *Load Data* the screen below will show up. This screen can be used to process specific datasets within your selected data sources prior to the completion of the data ingestion. A common example might be editing csv file datasets. The example shown below includes some of the changes you can apply to your data:
   - In Red: Changing a column type
@@ -51,13 +51,13 @@ In this section we will explain how to bring data from many of your sources: Fro
 Clearly, other processing options are available too and those depend on the specific data source you wish to process.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/edit-entity-queries780.png "Pre-processing data")
+> ![Pre-processing data](media/edit-entity-queries780.png "Pre-processing data")
 
 ## Data Manager: Entities
 Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using the *Import Data* icon as highlighted below. You can also export the entities table as a csv file by clicking the *Export Data* button next to it.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/scorecard-entities-import-data.png "Entities import data")
+> ![Entities import data](media/scorecard-entities-import-data.png "Entities import data")
 
 The ***Entities*** table includes four columns (explored from left to right): 
 - **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully. 
@@ -68,4 +68,4 @@ The ***Entities*** table includes four columns (explored from left to right):
 The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton as shown below:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/scorecard-entities.png "Entities")
+> ![Entities](media/scorecard-entities.png "Entities")

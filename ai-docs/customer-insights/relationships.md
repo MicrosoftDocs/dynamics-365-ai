@@ -38,4 +38,4 @@ In Dynamics 365 AI for Customer Insights, *Relationships* are also available for
 - Lastly, the available actions on that page includes adding a new relationship or deleting a relationship as highlighted below
 
 > [!div class="mx-imgBorder"] 
-> ![](media/add-relationships.png "Add relationships")
+> ![Add relationships](media/add-relationships.png "Add relationships")
