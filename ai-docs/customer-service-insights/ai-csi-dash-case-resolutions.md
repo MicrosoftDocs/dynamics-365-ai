@@ -33,11 +33,11 @@ By default, the dashboard shows you key performance indicators for the last week
 
 The agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer support case, in reverse order of resolution time.
 
-## Incoming cases vs. average resolve time chart
+## Incoming cases versus average resolve time chart
 
-![Incoming cases vs. average resolve time chart](media/ai-csi-incoming-vs-resolve-time.png)
+![Incoming cases versus average resolve time chart](media/ai-csi-incoming-vs-resolve-time.png)
 
-The incoming cases vs. average resolve time chart shows the daily trend in the specified time period in the number of incoming support cases and the average resolution time, in minutes.
+The incoming cases versus average resolve time chart shows the daily trend in the specified time period in the number of incoming support cases and the average resolution time, in minutes.
 
 ## Agents with longest first response time chart
 
@@ -45,11 +45,11 @@ The incoming cases vs. average resolve time chart shows the daily trend in the s
 
 The agents with longest first response time chart shows the average time, in minutes, that it takes each agent in the specified time period to respond to a customer support case, in reverse order of response time.
 
-## Incoming cases vs. first response time chart
+## Incoming cases versus first response time chart
 
-![Incoming cases vs. first response time chart](media/ai-csi-incoming-vs-first-response.png)
+![Incoming cases versus first response time chart](media/ai-csi-incoming-vs-first-response.png)
 
-The incoming cases vs. average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average reesponse time, in minutes.
+The incoming cases versus average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average reesponse time, in minutes.
 
 ## Top resolution time impactors (AI Insights)
 
