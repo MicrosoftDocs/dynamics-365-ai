@@ -88,14 +88,14 @@ In the Match screen below, some matches were already automatically identified ba
 ![match.png](media/match.png)
 
 #### Exploring the Match screen
-The Match screen includes several components as explored below. Once you complete editing those components hit the ***Run*** button at the buttom of the screen to execute all the matchings you have specificed. 
+The Match screen includes several components as explored below. Once you complete editing those components select **Run** at the bottom of the screen to execute all the matchings you have specified. 
 
 - **Match Pairs Diagram**: The diagram includes the hirarchy in which the match pairs will be matched. 
-    - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the*eye* icon at the right button corner of the tile. 
+    - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the *eye* icon at the right corner of the tile. 
     - Each of the match percentages is specificed on top of the link that represents that match
 []
 
-- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the screen. Each row represents a seperate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
+- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the screen. Each row represents a separate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
 
 What is included within each *Role* row? Let us explore from left to right:
     - **Matched Records**: Number of records (or dataset rows) that can be matched for the specific match pair under this role
@@ -109,7 +109,7 @@ This can be easily done by dragging and dropping the entities tiles. In the exam
 
 #### Editing Match Pair Role:
 As mentioned above, this can be done via the *Three dots Icon* on each of the roles rows. 
-Upon cliking the icon, the *Role Editing Panel* appears:
+Upon clicking the icon, the *Role Editing Panel* appears:
 
 []
 
@@ -131,7 +131,7 @@ This is the last step within the data configuration process and it's all about r
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
-- **Prioritizing sources for pre-identified merged attributes**: Continuing with *Name* as an example for merged attribute, in this section we will learn how to prioritize contradicting values for that attribute. We start by clicking the *three dots* icon below: 
+- **Prioritizing sources for pre-identified merged attributes**: Continuing with *Name* as an example for merged attribute, in this section we will learn how to prioritize contradicting values for that attribute. We start by selecting <b>...</b> below: 
 
 ![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
 

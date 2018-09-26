@@ -29,7 +29,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## Data Manager Sections
-**Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing those sections will enable you to unlock the unique insights Dynamics 365 AI for Customer Insights offers. Following the Data Manager sections, we will explore sections that are used for viewing and acting upon those insights (*Homepage*, *Segmentation* and *Profile*).
+**Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing those sections will enable you to unlock the unique insights Dynamics 365 AI for Customer Insights offers. Following the Data Manager sections, we will explore sections that are used for viewing and acting upon those insights (*Home*, *Segmentation* and *Profile*).
 
 ## Data Manager: Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
@@ -39,22 +39,22 @@ In this section we will explain how to bring data from many of your sources: Fro
 > [!div class="mx-imgBorder"] 
 > ![](media/select-sources-get-data.png "Select Get data")
 
-- **Step Two: Identifying and ingesting additional data sources**: Upon selecting **Learn More** you will view many additional available sources. For locating the specific sources that apply to your organization, first identify their types which are represented by tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and select **Get Data** for each one of them. Lastly, approve by selecting **Load Data** at the bottom right corner of the screen. If you wish to remove source prior to data ingestion select **Remove Data** for that source.
+- **Step Two: Identifying and ingesting additional data sources**: Upon selecting **Learn More** you will view many additional available sources. For locating the specific sources that apply to your organization, first identify their types which are represented by tabs at the top of the screen (as shown below). Then, search for your specific sources under the relevant tabs and select **Get Data** for each one of them. Lastly, approve by selecting **Load Data** at the bottom-right corner of the screen. If you wish to remove source prior to data ingestion select **Remove Data** for that source.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source-menu.png "Data source menu")
 
 - (?) **Step Three: Data Pre-Processing**: After selecting **Load Data** the screen below will show up. This screen can be used to process specific datasets within your selected data sources prior to the completion of the data ingestion. A common example might be editing .csv file datasets. The example shown below includes some of the changes you can apply to your data:
-  - In Red: Changing a column type
-  - In Blue: Removing a column
-  - In Green: Replacing *NA* within a specific record with another string
+  - In red: Changing a column type
+  - In blue: Removing a column
+  - In green: Replacing *NA* within a specific record with another string
 Clearly, other processing options are available too and those depend on the specific data source you wish to process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/edit-entity-queries780.png "Pre-processing data")
 
 ## Data Manager: Entities
-Once ingesting the data, you can quickly evaluate how complete and useful it is using the ***Entities*** screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using the **Import Data** icon as highlighted below. You can also export the entities table as a .csv file by selecting the **Export Data** button next to it.
+After ingesting the data, you can quickly evaluate how complete and useful it is using the **Entities** screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data** as highlighted below. You can also export the entities table as a .csv file by selecting **Export Data**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
@@ -65,7 +65,7 @@ The ***Entities*** table includes four columns (explored from left to right):
 - **Lifecycle Phase**: A typical customer journey goes from Awereness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized. 
 - **Type**: The types of your data entities. In some cases will be the same as your entities names while in others can be different.
 
-The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using the *Edit Data* botton as shown below:
+The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it by using **Edit Data** as shown below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Entities")
