@@ -21,6 +21,7 @@
     href: administer.md
   - name: Customers
     href: customers.md
+    items:
     - name: Profiles
       href: profiles.md
     - name: Segments
