@@ -36,7 +36,7 @@ All product sections are accessed through their corresponding tab names in the l
 
 In order to best utilize this manual for your specific needs, you should identify your situation:
 - ***I am new to the product AND I didn't go through the Quick start documentation*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile and Homepage*** sections.
-- ***I am new to the Advanced Mode BUT I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+- ***I am new to the Advanced guide BUT I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
 - ***I am already using the product but incurring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section. 
 
 **Note**: you can return to documentation on any of the product pages by selecting the question mark:
