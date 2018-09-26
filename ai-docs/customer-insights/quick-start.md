@@ -188,7 +188,7 @@ Select an entity to see information about it.
 |**Data**     |need content  |
 
 ## Data Configuration, Relationships
-Thse other data management settings are covered in the ***Advanced Guide*** documentation.
+These other data management settings are covered in the ***Advanced Guide*** documentation.
 
 ### Administration
 Use the forms in the **Permissions** section to add or remove role permissions to AI for Customer Insights.
@@ -203,4 +203,4 @@ Use the forms in the **Permissions** section to add or remove role permissions t
 
 More in-depth overview of the Administration module is provided within the Advanced Manual as well.
 
-**Hope you enjoyed exploring some of what AI for Customers has to offer. Now you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check our the ***Advanced Manual* for a step-by-step walkthrough.
+**Now that you explored some of the capabilities that Dynamics 365 AI for Customer Insights has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Manual for a step-by-step guidence around working with your company data**
