@@ -51,7 +51,7 @@ The agents with longest first response time chart shows the average time, in min
 
 The incoming cases versus average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average reesponse time, in minutes.
 
-## Top resolution time impactors (AI Insights)
+## Top resolution time impactors chart (AI Insights)
 
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png)
 

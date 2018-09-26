@@ -44,3 +44,30 @@ The survey response rate chart shows the percentage of customer satisfaction sur
 ![Average CSAT chart](media/ai-csi-average-csat.png)
 
 The Average CSAT chart shows the average customer satisfaction survey score during the specified time period, where it falls on the satisfaction scale used in the survey, and the percent change over the period.
+
+## Survey responses by city chart
+
+![Survey responses by city chart](media/ai-csi-responses-by-city.png)
+
+The survey responses by city chart shows the geographical location of customer satisfaction surveys completed during the specified time period.
+
+## Top CSAT impactors chart (AI Insights)
+
+![Top CSAT impactors](media/ai-csi-CSAT-impactors.png)
+
+The top CSAT impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of impact the topics are having on customer satisfaction, showing:
+
+* The percentage of total case volume for the topic.
+* The number of support cases.
+* The number of customer satisfaction surveys completed.
+* The average CSAT score.
+* The impact on the average CSAT score.
+
+The chart displays the impact as a red or blue bar:
+
+* A red bar indicates that the topic is having a negative effect on customer satisfaction. It represents the percent change in average CSAT score if that topic's cases are not included in calculating the score.
+* A blue bar indicates that the topic is having a positive effect on customer satisfaction. It represents the negative percent change in average CSAT score if that topic's cases are not included in calculating the score.
+
+Improving case resolution time for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
+
+To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
