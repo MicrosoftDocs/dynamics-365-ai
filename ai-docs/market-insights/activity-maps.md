@@ -2,18 +2,14 @@
 title: "Define activity maps in Market Insights | Microsoft Docs"
 description: "Learn how to configure activity maps in Market Insights to view real-time data on a map."
 keywords: "activity map, location analysis, live map"
-ms.date: 07/11/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
+ms.assetid: 5df37c6b-f4f1-4356-a281-27cf92563fcb
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

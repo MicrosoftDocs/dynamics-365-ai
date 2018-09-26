@@ -2,18 +2,14 @@
 title: "Use filters to see relevant data in Market Insights | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
 keywords: "filter, data set"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
+ms.assetid: 9ae4f90d-91ad-46c4-8bff-b5caf47e26f8
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

@@ -2,18 +2,14 @@
 title: "Manage licenses for Market Insights | Microsoft Docs"
 description: "Learn how to manage user licenses for users of Market Insights."
 keywords: "licenses, Market Insights, Office 365, user license, assign, remove"
-ms.date: 02/01/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 893c7cd6-80fe-61d1-93b6-93ecf3993291
+ms.assetid: 48d75683-0297-46dc-bcb1-a8301525db02
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

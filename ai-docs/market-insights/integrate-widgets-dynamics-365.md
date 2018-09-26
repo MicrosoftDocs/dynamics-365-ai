@@ -1,19 +1,15 @@
 ---
 title: "Market Insights integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
-keywords: ""
-ms.date: 04/12/2018
+keywords: "integration, connection, embedded"
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
+ms.assetid: 95da0900-9277-4704-baab-23829925159c
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

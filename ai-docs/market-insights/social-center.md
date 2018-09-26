@@ -2,18 +2,14 @@
 title: "Streams in Social Center of Market Insights | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
 keywords: "social center, streams, post list, Market Insights, engagement"
-ms.date: 06/13/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 4388d9c3-ff21-bdb5-7757-69093b2576ef
+ms.assetid: f35c4bfb-d003-46be-b822-8f717126b33b
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

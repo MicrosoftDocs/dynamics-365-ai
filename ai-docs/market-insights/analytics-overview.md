@@ -2,18 +2,14 @@
 title: "Start analyzing data in Market Insights | Microsoft Docs"
 description: "Learn how to get an overview about your data in Market Insights."
 keywords: "analytics, overview"
-ms.date: 03/09/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 8ac1759b-8534-43c9-a273-f56ce1505166
+ms.assetid: 8ff2ddfa-2ccc-43f3-b178-e6760dceefb9
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

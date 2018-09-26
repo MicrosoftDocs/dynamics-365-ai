@@ -2,18 +2,14 @@
 title: "Manage the quality of your search results in Market Insights | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
 keywords: "block content, block authors"
-ms.date: 07/11/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 302a0005-c7b0-4247-8d2d-663685716b75
+ms.assetid: 2225bfca-81ab-4053-be84-959cd0fb4e14
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

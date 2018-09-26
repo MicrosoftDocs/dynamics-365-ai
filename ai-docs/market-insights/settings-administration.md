@@ -1,21 +1,15 @@
 ---
 title: "Administer Market Insights | Microsoft Docs"
 description: "Learn about the main areas to administer Market Insights"
-Description: 
-ms.custom: 
-  - dyn365-socialengagement
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: administration, stettings, global settings
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: get-started-article
-applies_to: "Market Insights"
-ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
-caps.latest.revision: 33
+ms.assetid: 1ba86b79-a3b4-4b0f-a56b-d57b5b591aee
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

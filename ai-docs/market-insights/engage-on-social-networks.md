@@ -2,18 +2,14 @@
 title: "Engage on social networks in Market Insights | Microsoft Docs"
 description: "Get an overview of the requirements to engage on posts from within Market Insights."
 keywords: "social center, streams, engagement"
-ms.date: 03/27/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 98e1a49d-1d1a-4fe1-8570-8f32e234c55a
+ms.assetid: 93ad568c-4ebe-4199-ba03-e02b8c61bb3c
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

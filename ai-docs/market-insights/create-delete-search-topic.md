@@ -2,18 +2,14 @@
 title: "Manage search topics in Market Insights | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Market Insights."
 keywords: "searches, search topic, search rules, gather data"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 9167aafd-1882-4187-add5-4bd874d3c21b
+ms.assetid: 4e5937a9-3509-4d8f-b747-aa9601ee7e9d
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer
