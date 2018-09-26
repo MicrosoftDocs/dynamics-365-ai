@@ -266,8 +266,6 @@ A range of actionable insights were derived during the data ingestion, configura
 
 ## Extensibilities
 
-### Power BI
-
 ### APIs 
 **Swagger - in progress**
 
