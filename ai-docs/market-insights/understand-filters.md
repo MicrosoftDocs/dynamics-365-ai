@@ -2,14 +2,18 @@
 title: "Get to know your Market Insights filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Market Insights"
-ms.date: 10/31/2018
+ms.date: 03/07/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 50e56309-a8fa-460a-b342-f5629debdc13
+applies_to: 
+  - "Market Insights"
+ms.assetid: ba690f72-43cd-4fdb-a400-b3a9e3eb2f22
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

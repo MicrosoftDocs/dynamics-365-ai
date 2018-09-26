@@ -2,14 +2,17 @@
 title: "Frequently asked questions for Market Insights | Microsoft Docs"
 description: "Find answers to frequently asked questions about Market Insights."
 keywords: "FAQ, questions, common issues, quota, search setup, search topics"
-ms.date: 10/31/2018
+ms.date: 05/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 30351228-2274-4998-933f-6a3fa6453274
+applies_to: 
+  - "Market Insights"
+ms.assetid: ac2d84b4-f7c6-9694-cf10-539e529f2e25
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

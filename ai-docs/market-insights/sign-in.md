@@ -1,15 +1,16 @@
 ---
 title: "Sign in to Market Insights | Microsoft Docs"
 description: "Learn how to sign in to Market Insights."
-keywords: sign-in, login, register
-ms.date: 10/31/2018
+ms.custom: 
+  - dyn365-socialengagement
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: c717b275-a346-4f4c-9e3e-13f520d5938d
+applies_to: "Market Insights"
+ms.assetid: cf28bc71-9085-4e3f-a00c-a6e4d92179c8
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
 search.audienceType: 
   - admin
   - customizer

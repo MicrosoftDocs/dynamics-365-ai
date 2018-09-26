@@ -1,15 +1,18 @@
 ---
 title: "Set up trial solutions for Market Insights | Microsoft Docs"
 description: "Review the steps to get a trial solution for Market Insights"
-keywords: "trial, provisioning, testdrive"
-ms.date: 10/31/2018
+keywords: "trial. provisioning, testdrive"
+ms.date: 06/28/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 1afea9e7-e283-4635-b835-0bb892b0f467
+applies_to: 
+  - "Market Insights"
+ms.assetid: ad641739-a8e8-411d-a743-705170bd69d3
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: AnnBe
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

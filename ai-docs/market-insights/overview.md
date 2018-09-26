@@ -1,18 +1,19 @@
 ---
-title: 
-  - Overview of Market Insights
-  - pricing
-  - and related scenarios | Microsoft Docs
+title: "Overview of Market Insights, pricing, and related scenarios | Microsoft Docs"
 description: "Learn about features and pricing of Market Insights and get started using the service."
 keywords: "Market Insights, overview, quick start, scenarios"
-ms.date: 10/31/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: a1fb6d67-e0dc-4694-8086-3132ac270b1b
+applies_to: 
+  - "Market Insights"
+ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

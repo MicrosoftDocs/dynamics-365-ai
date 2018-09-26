@@ -1,15 +1,20 @@
 ---
 title: "Perform visual filtering on widgets | Microsoft Docs"
 description: "Learn how you can drill down into your data and apply filters on-the-fly."
-keywords: filter, filtering, drill-down, slice, dice
-ms.date: 10/31/2018
+ms.custom:
+  - dyn365-socialengagement
+ms.date: 09/12/2017
+ms.reviewer: ""
 ms.service: dynamics-365-marketing
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: c0e0bca3-b4ed-4d12-a09f-0130a4c0abf2
+applies_to: "Market Insights"
+ms.assetid: c1b8d8e5-dc14-494a-8a55-2fe4491922c3
+caps.latest.revision: 15
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
 redirect_url: https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters
 ---
 # Perform visual filtering on widgets

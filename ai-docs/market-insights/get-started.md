@@ -2,14 +2,18 @@
 title: "Get started with Market Insights | Microsoft Docs"
 description: "Learn how to ramp up quickly on Market Insights."
 keywords: "get started, onboarding, key features"
-ms.date: 10/31/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-ms.assetid: 587079ee-03f0-4dc6-8cbf-14cee4e50273
+applies_to: 
+  - "Market Insights"
+ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

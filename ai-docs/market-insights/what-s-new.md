@@ -2,14 +2,17 @@
 title: "What's new in Dynamics 365 AI for Market Insights | Microsoft Docs"
 description: "Learn about the recent changes and new features in Market Insights."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/31/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 5aedf8cb-459a-4022-bc95-488bd72eb169
+applies_to: 
+  - "Market Insights"
+ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

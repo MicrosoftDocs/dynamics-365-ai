@@ -2,14 +2,18 @@
 title: "Author details in Market Insights | Microsoft Docs"
 description: "Learn how to find details about the posts' authors in Market Insights."
 keywords: "author, authors, author details"
-ms.date: 10/31/2018
+ms.date: 12/19/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 11e55ef2-b62f-48d4-9df9-2385617ac381
+applies_to: 
+  - "Market Insights"
+ms.assetid: 99522a0a-cc87-4530-8595-afd48c1a2a3f
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

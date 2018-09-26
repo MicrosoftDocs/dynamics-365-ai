@@ -1,15 +1,16 @@
 ---
 title: "Get help with Market Insights | Microsoft Docs"
 description: "Learn where you can find helpful resources to get you started or troubleshoot an issue."
-keywords: help, help content, documentation, support
-ms.date: 10/31/2018
+ms.custom: 
+  - dyn365-socialengagement
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 9ee96519-69e9-4cb3-8af9-587ef8a1f664
+applies_to: "Market Insights"
+ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
 search.audienceType: 
   - admin
   - customizer

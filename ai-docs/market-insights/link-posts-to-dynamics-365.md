@@ -2,14 +2,18 @@
 title: "Link posts from Market Insights to Dynamics 365 | Microsoft Docs"
 description: "Learn how to link social posts to Dynamics 365 and create new case or lead records."
 keywords: "link to crm, link to customer engagement"
-ms.date: 10/31/2018
+ms.date: 03/16/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: b8c4ea52-cad3-4cc0-903a-abcba6ce3a45
+applies_to: 
+  - "Market Insights"
+ms.assetid: e97a38d7-37c4-4dce-b02e-1076ad992cff
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

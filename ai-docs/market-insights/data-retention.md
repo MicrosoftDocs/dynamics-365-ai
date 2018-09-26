@@ -1,15 +1,16 @@
 ---
 title: "Data retention in Market Insights | Microsoft Docs"
 description: "Find out how long data is stored when working with Market Insights."
-keywords: data retention, data storage, deletion
-ms.date: 10/31/2018
+ms.custom: 
+  - dyn365-socialengagement
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 891e2eb2-0874-4c36-b91b-ab8bff12a001
+applies_to: "Market Insights"
+ms.assetid: d3617d7f-29df-42e9-baff-4625ab4ee85a
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
 search.audienceType: 
   - admin
   - customizer

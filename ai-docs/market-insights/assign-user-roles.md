@@ -1,15 +1,16 @@
 ---
 title: "Permissions and user roles in Market Insights | Microsoft Docs"
 description: "Learn how to work with user roles and their permissions."
-keywords: user roles, permissions, security, access rights
-ms.date: 10/31/2018
+ms.custom: 
+  - dyn365-socialengagement
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 76e60e6f-dd1d-42ba-b2d8-a70e3f24b9c4
+applies_to: "Market Insights"
+ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
 search.audienceType: 
   - admin
   - customizer

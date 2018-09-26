@@ -2,14 +2,18 @@
 title: "Analytics for sources in Market Insights | Microsoft Docs"
 description: "Learn how to focus your analysis on the various data sources in Market Insights."
 keywords: "sources, analytics, twitter, reddit, facebook, news, blogs, youtube, forums, rss"
-ms.date: 10/31/2018
+ms.date: 03/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: cafd302e-97bc-4e0c-81db-fa032a5b3b90
+applies_to: 
+  - "Market Insights"
+ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

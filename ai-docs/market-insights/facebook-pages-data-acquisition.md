@@ -2,14 +2,18 @@
 title: "Acquire data from Facebook pages with Market Insights | Microsoft Docs"
 description: "Learn how the data acquisition for posts from Facebook pages works in Market Insights."
 keywords: "facebook pages, interaction token, data acquisition, unknown author"
-ms.date: 10/31/2018
+ms.date: 01/23/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 9f62aac4-d239-46c8-af24-591536ecd1ab
+applies_to: 
+  - "Market Insights"
+ms.assetid: 14343439-9125-4704-aa4f-136f59b8cbdc
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

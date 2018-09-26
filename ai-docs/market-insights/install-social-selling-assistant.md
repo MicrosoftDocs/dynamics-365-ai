@@ -2,14 +2,18 @@
 title: "Install the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to install the Social Selling Assistant in Dynamics 365 (online)."
 keywords: "SSA, Social Selling Assistant, install, Dynamics 365"
-ms.date: 10/31/2018
+ms.date: 12/08/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 78eaab1c-a18d-49ee-9d59-b79bf4698456
+applies_to: 
+  - "Market Insights"
+ms.assetid: 788e0559-68f8-404c-b215-cf4b76a9cc18
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

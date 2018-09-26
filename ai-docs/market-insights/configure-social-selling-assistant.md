@@ -2,14 +2,18 @@
 title: "Configure the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to prepare for the Social Selling Assistant before sharing it with your users."
 keywords: "ssa, social selling assistant, dynamics 365, configuration"
-ms.date: 10/31/2018
+ms.date: 12/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 53a2204e-b3c5-4ea0-9d2d-6fb9cfdea429
+applies_to: 
+  - "Market Insights"
+ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

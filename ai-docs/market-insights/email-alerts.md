@@ -2,14 +2,18 @@
 title: "Stay up to date with alerts in Market Insights | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 keywords: "alerts, notification, emails"
-ms.date: 10/31/2018
+ms.date: 01/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: 0fb2ea01-1566-483a-a64d-89aeb5ad4597
+applies_to: 
+  - "Market Insights"
+ms.assetid: f2b7a251-39bf-4bb9-b963-0a98020e7f23
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+topic-status: Drafting
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer

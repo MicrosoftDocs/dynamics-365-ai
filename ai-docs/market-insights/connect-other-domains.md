@@ -1,15 +1,20 @@
 ---
 title: "Allow requests from other domains with Market Insights | Microsoft Docs"
 description: "Learn how to add URLs to the list of allowed domains so they can request data from Market Insights."
-keywords: allowed domains, connection, integration
-ms.date: 10/31/2018
+ms.custom: 
+  - dyn365-socialengagement
+ms.date: 09/12/2017
+ms.reviewer: ""
 ms.service: dynamics-365-marketing
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: 1f110312-f6fb-4b1d-bdb0-80c37e65acbc
+applies_to: "Market Insights"
+ms.assetid: dbde8454-c0e6-4914-9818-6eee4c6aeb0f
+caps.latest.revision: 27
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
 search.audienceType: 
   - admin
   - customizer

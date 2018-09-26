@@ -1,15 +1,19 @@
 ---
 title: "Copyright | Microsoft Docs"
 description: "Review the copyright for this documentation."
-keywords: copyright, legal, documentation
-ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-socialengagement
+ms.date: 09/12/2017
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: 92ee1adf-fbc8-4cbf-9839-b43b1ea6b42e
+ms.assetid: e08bd48c-8a3c-4f20-887c-b7277ac8fc27
+caps.latest.revision: 11
 author: ReneeW-CPub
 ms.author: renwe
 manager: renwe
-ms.custom: dyn365-ai-marketinsights
+ms.service: dynamics-365-marketing
 search.audienceType: 
   - admin
   - customizer

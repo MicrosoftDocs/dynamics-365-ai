@@ -1,15 +1,16 @@
 ---
 title: "Work with groups of people in Market Insights | Microsoft Docs"
 description: "Learn how to manage groups and how to work with them in Market Insights."
-keywords: groups, office groups, teams
-ms.date: 10/31/2018
+ms.date: 09/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-ms.assetid: d8722387-0bfe-43d5-a7df-c2e851585bb6
+applies_to: "Market Insights"
+ms.assetid: caf4691a-20d4-4abf-a471-29d13553c439
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-ms.custom: dyn365-ai-marketinsights
+manager: sakudes
+ms.custom: 
+  - dyn365-socialengagement
 search.audienceType: 
   - admin
   - customizer
