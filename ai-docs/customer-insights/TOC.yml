@@ -19,6 +19,14 @@
     href: relationships.md
   - name: Admin
     href: administer.md
+  - name: Customers
+    href: customers.md
+    - name: Profiles
+      href: profiles.md
+    - name: Segments
+      href: segments.md
+    - name: Power BI
+      href: powerbi.md
   # - name: View analytics
   #   items:
   #   - name: Common Data Service analytics
