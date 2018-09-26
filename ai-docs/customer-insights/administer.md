@@ -2,7 +2,7 @@
 title: "Preview: Administer AI for Customer Insights | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,16 +31,16 @@ robots: noindex,nofollow
 
 This is where you can set up roles and permissions for using Dynamics 365 AI for Customer Insights across your organization. The main administration page is the **Permissions** page which is accessible via the **Administration tab** as shown below:  
 
- ![permissions.png](media/permissions.png)
+ ![permissions.png](media/permissions.png "permissions.png")
 
 Within the **Permissions** page you can view organization members for whom roles and permissions where assigned. Note that while roles are specified under the *Roles* column, permissions are specified under the *Type* column. Lastly, you can sort the results by each of the columns types by clicking on the arrow icon next to the column name as shown below.  
 
-![add-permissions.png](media/add-permissions.png)
+![add-permissions.png](media/add-permissions.png "add-permissions.png")
 
 - **Adding Roles and Permissions:** 
     - In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Adding Permissions** panel that can be accessed via the *Add* button at the top of the permissions page:
 
-    ![permissions-roles.png](media/permissions-roles.png)
+    ![permissions-roles.png](media/permissions-roles.png "permissions-roles.png")
 
    - When it comes to permissions, those can be defined in the same panel as shown below:
    
@@ -55,6 +55,6 @@ Within the **Permissions** page you can view organization members for whom roles
 
 Within the panel above, you may want 
 
-![permissions-filter.png](media/permissions-filter.png)
+![permissions-filter.png](media/permissions-filter.png "permissions-filter.png")
 
 (add "filter" page from the administration part on the app)

@@ -2,7 +2,7 @@
 title: "Preview: Introducing Dynamics 365 AI for Customer Insights | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -54,4 +54,4 @@ For AI for Customer Insights, you don’t need a Power BI account. You are only 
 Show how user discovers app on AppSource]
 
 > [!div class="mx-imgBorder"] 
-> ![](media/get-customer-insights720.png "Get AI for Customer Insights")
+> ![Get AI for Customer Insights](media/get-customer-insights720.png "Get AI for Customer Insights")

@@ -32,7 +32,7 @@ robots: noindex,nofollow
 All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-dashboard-full.png "Customer dashboard")
+> ![Customer dashboard](media/customer-dashboard-full.png "Customer dashboard")
 
 In order to best utilize this manual for your specific needs, you should identify your situation:
 - ***I am new to the product AND I didn't go through the Quick Start mode*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile and Homepage*** sections.
@@ -42,7 +42,7 @@ In order to best utilize this manual for your specific needs, you should identif
 **Note**: you can return to documentation on any of the product pages by selecting the question mark:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/help-link.png "Help link")
+> ![Help link](media/help-link.png "Help link")
 
 <!--
 ## Onboarding (for Administrators)
@@ -53,12 +53,12 @@ Currently missing (9/17)
 Just as for Quick Start mode, the first thing you do is select a business category that matches your industry:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-business-category720.png "Select a business category")
+> ![Select a business category](media/choose-business-category720.png "Select a business category")
 
 Select **More categories** to choose from more industries and business functions:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/more-categories.png "More categories")
+> ![More categories](media/more-categories.png "More categories")
 
 ## Bring in your data
 Once you've selected a business category, sample data is loaded with pre-configured profiles and segments for you to explore.
@@ -66,13 +66,13 @@ Once you've selected a business category, sample data is loaded with pre-configu
 To bring in your own data, under **Data Manager** select **Sources** and choose a data source. Proceed through the pages to load your data. Once loaded, the sample data will be removed.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source75.png "Choose a data source")
+> ![Choose a data source](media/choose-data-source75.png "Choose a data source")
 
 ## Workflow
 If you never used Dynamics 365 AI for Customer Insights before, this is the workflow you can expect to go through:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/workflow720.png "Workflow phases")
+> ![Workflow phases](media/workflow720.png "Workflow phases")
 
 ## Customers sections
 **After completing the Data Manager sections**, you are ready to start benefiting from the various insights you have just unlocked on your customers. The *Profile* and *Segmentation* Customers sections are used for this purpose as well as the *Home* section that will be covered later.
@@ -98,22 +98,22 @@ Each of your customers is represented by a **Customer Card** tile. This card inc
 - The number of **active cases** and **active segments** for that customer (see Segmentation for an explanation of active segments).  
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-profiles75.png "Generated customer profiles")
+> ![Generated customer profiles](media/customer-profiles75.png "Generated customer profiles")
 
 Select **See all** to see more customers sorted by the profile type. In this example, **Top paying** is the profile type.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/view-more-customers.png "View more customers")
+> ![View more customers](media/view-more-customers.png "View more customers")
 
 You can use the customer profiles page to filter and sort the profiles.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/filter-sort.png "Filter and sort customer profiles")
+> ![Filter and sort customer profiles](media/filter-sort.png "Filter and sort customer profiles")
 
 What's in the sort list depends on the category you selected earlier and the profile type. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/sort-list.png "Sort list")
+> ![Sort list](media/sort-list.png "Sort list")
 
 Upon clicking a specific customer tile, you will get to the **Power BI report** for that customer which is explored below.
 
@@ -232,13 +232,13 @@ Once exported, you can expect to find all the information on that particular seg
 []
 
 > [!div class="mx-imgBorder"] 
-> ![](media/segmentation-page.png "Segmentation page")
+> ![Segmentation page](media/segmentation-page.png "Segmentation page")
 
 ## Home page
 A range of actionable insights were derived during the data ingestion, configuration and enrichment processes and the *Home Page* is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It consists of four major parts as explained below.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customers-dashboard780.png "Home page")
+> ![Home page](media/customers-dashboard780.png "Home page")
 
 -	**Insights around your overall customer base**: Exploring left to right, those insights include: 
       - **Top Selling Products**: Shows your three top selling products by monetary value or by unit volume. 
@@ -272,12 +272,12 @@ A range of actionable insights were derived during the data ingestion, configura
 **Swagger - in progress**
 
 > [!div class="mx-imgBorder"] 
-> ![](media/custom-app.png "Custom app")
+> ![Custom app](media/custom-app.png "Custom app")
 
 ### PowerApps and Flow
 Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
 Show how a user can setup triggers on events detected in profile to drive relevant actions (e.g. if a customer tweets a complaint, notify customer service department to reach out and resolve)
 
 > [!div class="mx-imgBorder"] 
-> ![](media/powerapps-flow.png "Flow")
+> ![Flow](media/powerapps-flow.png "Flow")
 

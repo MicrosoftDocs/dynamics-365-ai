@@ -2,7 +2,7 @@
 title: "Quick Start: Dynamics 365 AI for Customer Insights | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -36,17 +36,17 @@ Use this guide to get a quick introduction to the basic features of AI for Custo
 Once you've installed AI for Customer Insights, the first thing you do is select a business category that most closely matches your industry.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-business-category720.png "Select a business category")
+> ![Select a business category](media/choose-business-category720.png "Select a business category")
 
 Select **More categories** to choose from more industries or business functions. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/more-categories.png "More categories")
+> ![More categories](media/more-categories.png "More categories")
 
 Once you select a category, the Home page appears with insights built from sample data.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customers-dashboard780.png "Insights based on sample data for selected category")
+> ![Insights based on sample data for selected category](media/customers-dashboard780.png "Insights based on sample data for selected category")
 
 ## About sample data
 Once you've selected a business category, the Home page opens populated with sample data. Insights are built from the sample data automatically. You can explore these insights to get an idea of what AI for Customer Insights can provide when you bring in your data.
@@ -56,7 +56,7 @@ If you want to right away bring in your company's data, under **Data Manager**, 
 Then, select a data source. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source75.png "Choose a data source")
+> ![Choose a data source](media/choose-data-source75.png "Choose a data source")
 
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
@@ -67,7 +67,7 @@ If you keep the sample data for now, this topic will walk you through the gettin
 Based on your ingested data or, in this case our sample data, you'll see automatically configured insights into your company's data.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customers-dashboard-3rows.png "Customer dashboard")
+> ![Customer dashboard](media/customers-dashboard-3rows.png "Customer dashboard")
 
 ### Latest insights
 Description of latest insights...
@@ -78,17 +78,17 @@ On your Home page, you'll see top segments - segments with the most members and 
 Segmentation is the process of slicing and dicing your data by attributes that are of interest to you like last purchase date and customer engagement score.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/segmenting.png "Segmenting")
+> ![Segmenting](media/segmenting.png "Segmenting")
 
 For example, you want to know which of your customers are most likely to make another purchase so you can target some ads. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/repurchase-segment.png "Repurchasing segment")
+> ![Repurchasing segment](media/repurchase-segment.png "Repurchasing segment")
 
 Select <b>...</b> on a segment tile or open a segment and select **Edit** to see the details.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/repurchase-segment-details.png "Segment details")
+> ![Segment details](media/repurchase-segment-details.png "Segment details")
 
 In this example, the segment finds customers who haven't made a purchase in two years and have a high engagement score.
 
@@ -108,7 +108,7 @@ For each of these tiles, green represents good entity coverage, yellow represent
 Select a scorecard to see details on the entities used. Entities are [need content]
 
 > [!div class="mx-imgBorder"] 
-> ![](media/scorecard-entities.png "Scorecard entities")
+> ![Scorecard entities](media/scorecard-entities.png "Scorecard entities")
 
 |Item  |Description  |
 |---------|---------|
@@ -124,12 +124,12 @@ The Customers section contains information about your customers organized by Pro
 Once you've connected to a data source, AI for Customer Insights creates some customer profiles and categories based on your industry type. Under **Customers**, select **Profiles**.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-profiles75.png "Generated customer profiles")
+> ![Generated customer profiles](media/customer-profiles75.png "Generated customer profiles")
 
 Select **See all** to see more customers sorted by the profile type. In this example, **Lifetime spend** is the profile type.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/view-more-customers.png "View more customers")
+> ![View more customers](media/view-more-customers.png "View more customers")
 
 ### Segments
 You can create segments of your data to filter on certain elements such as a time range and customer satisfaction to create focused, actionable steps.
@@ -140,7 +140,7 @@ There are two types of segments:
 - **Dynamic**: A collection of profile data automatically refreshed. Example use case: tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-segments.png "Customer segments")
+> ![Customer segments](media/customer-segments.png "Customer segments")
 
 Based on your data and industry type, you can see a list of segments AI for Customer Insights has created for you.
 
@@ -150,12 +150,12 @@ Based on your data and industry type, you can see a list of segments AI for Cust
 To edit, export, view members, and more for a segment, select <b>...</b> in the segment.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/segment-menu.png "Segment menu")
+> ![Segment menu](media/segment-menu.png "Segment menu")
 
 Here you can modify the criteria used to segment the data.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/repurchase-segment-details.png "Segment details")
+> ![Segment details](media/repurchase-segment-details.png "Segment details")
 
 [need content] To add a group select **Add Group**.
 
@@ -164,7 +164,7 @@ Here you can modify the criteria used to segment the data.
 To add a segment, select **Add Segment**.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/add-segment.png "Add segment")
+> ![Add segment](media/add-segment.png "Add segment")
 
 ## Data Manager
 
@@ -173,7 +173,7 @@ To add a segment, select **Add Segment**.
 To bring in your company's data, select **Sources** then select a data source. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source75.png "Choose a data source")
+> ![Choose a data source](media/choose-data-source75.png "Choose a data source")
 
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
@@ -183,12 +183,12 @@ Entities are [need content]
 After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/scorecard-entities.png "Entities")
+> ![Entities](media/scorecard-entities.png "Entities")
 
 Select an entity to see information about it.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-entity-details.png "Customer entity")
+> ![Customer entity](media/customer-entity-details.png "Customer entity")
 
 |Item  |Description  |
 |---------|---------|
