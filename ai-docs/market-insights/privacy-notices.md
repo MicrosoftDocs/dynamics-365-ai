@@ -2,18 +2,14 @@
 title: "Dynamics 365 AI for Market Insights Privacy Notices | Microsoft Docs"
 description: "Additional privacy notices for Market Insights."
 keywords: "privacy notice, privacy statement addition"
-ms.date: 01/30/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 1d821d1e-2c8c-4aa2-a93c-5c0b3572fde9
+ms.assetid: 8251af87-a6cc-4037-bb00-c24c196a657b
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

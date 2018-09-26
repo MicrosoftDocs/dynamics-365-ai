@@ -2,18 +2,14 @@
 title: "Analytics for conversations in Market Insights | Microsoft Docs"
 description: "Learn how to focus your analysis on conversations in Market Insights."
 keywords: "analytics, conversation, phrases, fans, critics"
-ms.date: 03/01/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 4396dadd-6cbb-4298-83be-b8dae50141b6
+ms.assetid: 6b400a93-24f0-4844-a76a-262d25de306f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

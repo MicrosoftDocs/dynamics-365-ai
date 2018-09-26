@@ -2,18 +2,14 @@
 title: "Set your preferences for the user interface | Microsoft Docs"
 description: "Learn how to configure user preferences for individual users."
 keywords: "user preferences, Market Insights, my preferences, individual settings"
-ms.date: 12/06/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: dc6e2e29-bfbe-4a07-977f-a80d68a2e489
+ms.assetid: 8a4314ee-d0e3-40b5-a258-fcc4ade7a8f0
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

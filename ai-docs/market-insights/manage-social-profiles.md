@@ -2,17 +2,14 @@
 title: "Manage social profiles in Market Insights | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Market Insights."
 keywords: "social profile, tokens, shared profile"
-ms.date: 07/11/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
+ms.assetid: 8db56983-9023-4ad0-af2b-6f7f52840768
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

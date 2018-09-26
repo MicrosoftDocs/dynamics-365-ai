@@ -2,18 +2,14 @@
 title: "Work with posts in Market Insights | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
 keywords: "publish, sentiment, tag, assign"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: bf6392aa-e9e1-44b6-8f80-f17c21caa793
+ms.assetid: 0ccac353-bd7a-438f-bf3b-de90e7a7d8b1
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

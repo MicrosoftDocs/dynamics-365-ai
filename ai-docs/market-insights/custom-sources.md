@@ -2,18 +2,14 @@
 title: "Create or delete custom sources in Market Insights | Microsoft Docs"
 description: "Learn how you can add RSS and Atom feeds to a group of custom sources and how you can manage custom sources."
 keywords: "custom source, custom sources"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: eeda21ac-40b8-45ec-a90a-3c22e07c872a
+ms.assetid: 6dca57db-196c-4d13-8de5-7a6a121f1baa
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

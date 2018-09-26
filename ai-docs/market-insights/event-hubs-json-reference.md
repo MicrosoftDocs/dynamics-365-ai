@@ -2,18 +2,14 @@
 title: "JSON objects reference from Market Insights | Microsoft Docs"
 description: "Review the full list of properties and object in the Market Insights payload for Event Hubs."
 keywords: "JSON, payload, metadata, event hubs, reference"
-ms.date: 08/22/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 29a876d1-1915-3517-7ff0-cc357a156dec
+ms.assetid: 838def84-4c65-49af-8447-2c143f597f6b
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

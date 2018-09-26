@@ -2,18 +2,14 @@
 title: "Enable delegated administration for Market Insights | Microsoft Docs"
 description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
 keywords: "administrator, delegated admin, partner admin"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 74b59106-5d8d-4bbe-9759-126583cba116
+ms.assetid: 201464db-6e48-403d-aa08-aa08b97e00ce
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

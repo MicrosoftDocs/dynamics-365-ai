@@ -2,18 +2,14 @@
 title: "Analyze social data with widgets in Market Insights | Microsoft Docs"
 description: "Learn how to work with widgets in the Market Insights user interface."
 keywords: "widgets, analytics, get started"
-ms.date: 03/27/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - "Market Insights"
-ms.assetid: da974b6a-b242-40b6-95ad-df81ac78191e
+ms.assetid: 786de982-0458-45f4-b36d-ff93719080db
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

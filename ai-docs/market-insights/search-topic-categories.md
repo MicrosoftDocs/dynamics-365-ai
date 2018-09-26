@@ -2,18 +2,14 @@
 title: "Group search topics into categories in Market Insights | Microsoft Docs"
 description: "Learn how to use categories to group search topics."
 keywords: "categories, search topic"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
+ms.assetid: 0d3e867d-61d2-4191-9f66-191ceb38f0c6
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

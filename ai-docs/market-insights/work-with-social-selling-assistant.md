@@ -1,16 +1,15 @@
 ---
 title: "Work with the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to share posts and view insights from your personalized feed in Social Selling Assistant."
-ms.date: 09/12/2017
+keywords: personalized feed, share post, ssa, social selling assistant
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Market Insights"
-ms.assetid: 689020c7-0790-47a1-996c-040d052a81de
+ms.assetid: df15f50e-0911-46b6-9ca7-82de4f238810
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

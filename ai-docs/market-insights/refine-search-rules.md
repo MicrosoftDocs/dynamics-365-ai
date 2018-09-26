@@ -2,18 +2,14 @@
 title: "Find more relevant content in Market Insights | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
 keywords: "search optimization, search topic, search rule"
-ms.date: 10/17/2017
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
+ms.assetid: c8d53e56-84e9-4c16-8c65-902ef59af2a1
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

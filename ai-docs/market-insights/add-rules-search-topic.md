@@ -2,18 +2,14 @@
 title: "Add rules to a Market Insights search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Market Insights"
-ms.date: 08/22/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
+ms.assetid: 29992450-1509-4111-9d10-91ecd7a201d8
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-topic-status: Drafting
-ms.custom: 
-  - dyn365-socialengagement
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

@@ -2,19 +2,16 @@
 title: "Accessibility for Market Insights | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Market Insights."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 05/08/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
+ms.assetid: c4e0ec5b-2b74-4805-9741-f0aae8501ec2
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-a11y
-  - dyn365-socialengagement
+  - dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

@@ -2,17 +2,14 @@
 title: "Manage authors in Market Insights | Microsoft Docs"
 description: "Learn how to delete posts and export information about authors."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 06/13/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: 9404a5d0-f5c8-48b4-b1c7-1ea56125fcdc
+ms.assetid: 25858068-890f-4da3-b1d1-b2ff1fa87239
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer

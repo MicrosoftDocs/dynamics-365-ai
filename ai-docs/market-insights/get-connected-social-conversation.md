@@ -1,20 +1,15 @@
 ---
 title: "Drive customer engagement using Market Insights | Microsoft Docs"
 description: "Get an overview on how Market Insights can help your organization to become more effective on social media."
-ms.custom:
-  - dyn365-socialengagement
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: content pack, power BI, engagement metrics
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Market Insights"
-ms.assetid: 3097ddac-ea16-4448-8ac8-b97d85224ecc
-caps.latest.revision: 45
+ms.assetid: 4c597b80-d431-4a27-8ac5-7125b4008844
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 redirect_url: /dynamics365/customer-engagement/social-engagement/overview
 ---
 # Get connected to the social conversation by using [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]

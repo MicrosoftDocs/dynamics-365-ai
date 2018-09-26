@@ -2,17 +2,14 @@
 title: "Manage access tokens in Market Insights | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Market Insights."
 keywords: "tokens, oauth, validation"
-ms.date: 07/11/2018
+ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: 
-  - "Market Insights"
-ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
+ms.assetid: 88ab6bde-b382-4b12-bb2a-d0f5806381b5
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-ms.custom: 
-  - dyn365-socialengagement
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
   - customizer
