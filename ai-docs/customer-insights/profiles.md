@@ -32,7 +32,7 @@ This page serves as the best source of insights around each of your customers.
 - The top row lists some of your **Top Paying Customers**.
 - The second row present some of your **Most Engaged Customers**. 
 - The third row show some of your customers that have the **Most Active Cases**.
-- The last row includes a sample of your total customer base .
+- The last row includes a sample of your total customer base.
 
 Each of your customers is represented by a **Customer Card** tile. This card includes:
 - The customer's **name, city, gender, marital status and job title** - all taken from the customer's account profile.  
