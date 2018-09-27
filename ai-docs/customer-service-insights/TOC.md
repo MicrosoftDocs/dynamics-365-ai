@@ -1,10 +1,10 @@
 # Overview
-## [AI for Customer Service Insights Overview](ai-csi-overview.md)
+## [AI for Customer Service Overview](ai-csi-overview.md)
 # Quickstart
 ## [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md)
 # How to
 ## [Use workspaces to manage your customer service data insights](ai-csi-use-workspaces.md)
-## [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md)
+## [Work with AI for Customer Service dashboards and sample data](ai-csi-use-dash-sample-data.md)
 ## [Identify areas of improvement in your customer support system](ai-csi-improve-system.md)
 # Reference
 ## [KPI Summary dashboard](ai-csi-dash-kpi-summary.md)

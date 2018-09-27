@@ -16,7 +16,11 @@ manager: shellyha
 
 ![Case Resolutions dashboard](media/ai-csi-case-resolutions-dash.png)
 
-The Case Resolutions dashboard gives you an overview of your customer support system's case resolution performance for the specified time period. The dashboard provides graphical views of resolved cases, including:
+The Case Resolutions dashboard gives you an overview of your customer support system's case resolution performance for the specified time period.
+
+You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), Case Resolutions, and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
+
+The Case Resolutions dashboard provides graphical views of resolved cases, including:
 
 * The customer support agents who are taking the most time to resolve issues.
 * The number of incoming customer support cases compared to the average time to resolve them.
@@ -49,13 +53,17 @@ The agents with longest first response time chart shows the average time, in min
 
 ![Incoming cases versus first response time chart](media/ai-csi-incoming-vs-first-response.png)
 
-The incoming cases versus average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average reesponse time, in minutes.
+The incoming cases versus average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average response time, in minutes.
 
 ## Top resolution time impactors chart (AI Insights)
 
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png)
 
-The top resolution time impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period, showing the percentage of total case volume for the topic, the average resolution time for each topic's support cases, and the impact that resolution time is having on system performance.
+The top resolution time impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period, showing:
+
+* The percentage of total case volume for the topic.
+* The average resolution time for each topic's support cases.
+* The impact that resolution time is having on system performance.
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
 

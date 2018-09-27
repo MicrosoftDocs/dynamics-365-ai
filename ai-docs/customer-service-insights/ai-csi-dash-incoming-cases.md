@@ -16,7 +16,11 @@ manager: shellyha
 
 ![Incoming Cases dashboard](media/ai-csi-incoming-cases-dash.png)
 
-The Incoming Cases dashboard gives you an overview of the incoming cases in your customer support system for the specified time period. The dashboard provides graphical views of the new support cases, including:
+The Incoming Cases dashboard gives you an overview of the incoming cases in your customer support system for the specified time period.
+
+You can display [KPI Summary](ai-csi-dash-kpi-summary.md), Incoming Cases, [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
+
+The Incoming Cases dashboard provides graphical views of the new support cases, including:
 
 * The daily breakdown between high, medium, and low priority cases.
 * The daily breakdown of cases by the support channel customers used; for example, chat window, email, support ticket, Facebook, or Twitter.
@@ -48,7 +52,13 @@ The case timing chart shows the trends in the time of day of new support cases f
 
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png)
 
-The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period, showing the percent of the total incoming case volume, the number of incoming cases, the average resolution time, the resolution rate, and the average customer satisfaction score for each topic.
+The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period, showing:
+
+* The percent of the total incoming case volume.
+* The number of incoming support cases.
+* The average resolution time.
+* The resolution rate.
+* The average customer satisfaction score for each topic.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
@@ -56,6 +66,12 @@ To see additional information about each topic, right-click the topic name and s
 
 ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
-The emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of the change in volume over the specified time period, showing the percent of the change in volume, the number of incoming cases, the average resolution time, the resolution rate, and the average customer satisfaction score for each topic.
+The emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of the change in volume over the specified time period, showing:
+
+* The percent of the change in volume.
+* The number of incoming cases.
+* The average resolution time.
+* The resolution rate.
+* The average customer satisfaction score.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

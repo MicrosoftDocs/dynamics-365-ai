@@ -16,10 +16,14 @@ manager: shellyha
 
 ![KPI Summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
-The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of the performance of your customer support system. The dashboard shows you key performance indicators such as the number of incoming, resolved, escalated, and SLA compliant cases for a specified time period, and the average resolution time and customer satisfaction score.
+The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of the performance of your customer support system for a specified time period.
 
-The dashboard also provides a variety of graphical views of your system's support cases, including:
+You can display KPI Summary, [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
+The KPI Summary dashboard provides a variety of graphical views of your system's support cases, including:
+
+* The number of incoming, resolved, escalated, and SLA compliant cases.
+* The average resolution time and customer satisfaction score.
 * The breakdown of case priority, backlog and new cases, and case channels.
 * The aggregate trend in new and resolved cases.
 * The breakdown of unresolved cases by age.
@@ -28,11 +32,11 @@ In addition, the dashboard uses artificial intelligence technology to show you t
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
 
-## Key performance indicator charts
+## KPI charts
 
-![Key performance indicator charts](media/ai-csi-kpi-charts.png)
+![KPI charts](media/ai-csi-kpi-charts.png)
 
-The key performance indicator charts display a variety of key support system data for the specified time period, and the percent change over the period:
+The KPI charts display a variety of key performance indicators for the specified time period, and the percent change over the period:
 
 * The number of new (incoming) support cases.
 * The number of resolved support cases.

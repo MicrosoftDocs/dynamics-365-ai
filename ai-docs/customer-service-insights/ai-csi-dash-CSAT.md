@@ -16,8 +16,12 @@ manager: shellyha
 
 ![Customer Satisfaction dashboard](media/ai-csi-CSAT-dash.png)
 
-The Customer Satisfaction dashboard gives you an overview of customer satisfaction with their support experience during the specified time period. The dashboard provides graphical views of customer satisfaction survey results, including:
- 
+The Customer Satisfaction dashboard gives you an overview of customer satisfaction with their support experience during the specified time period.
+
+You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and Customer Satisfaction dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
+
+The Customer Satisfaction dashboard provides graphical views of customer satisfaction survey results, including:
+
 * The total number of surveys completed.
 * The survey response rate.
 * The average customer satisfaction (CSAT) score.
@@ -65,8 +69,8 @@ The top CSAT impactors chart uses artificial intelligence technology to group re
 
 The chart displays the impact as a red or blue bar:
 
-* A red bar indicates that the topic is having a negative effect on customer satisfaction. It represents the percent change in average CSAT score if that topic's cases are not included in calculating the score.
-* A blue bar indicates that the topic is having a positive effect on customer satisfaction. It represents the negative percent change in average CSAT score if that topic's cases are not included in calculating the score.
+* A red bar indicates that the topic is having a negative effect on customer satisfaction. It represents the percent change in average CSAT score if that topic's cases are not included in calculating the CSAT score.
+* A blue bar indicates that the topic is having a positive effect on customer satisfaction. It represents the negative percent change in average CSAT score if that topic's cases are not included in calculating the CSAT score.
 
 Improving case resolution time for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
 
