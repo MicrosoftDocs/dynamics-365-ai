@@ -2,7 +2,7 @@
 title: "Incoming Cases dashboard"
 description: "Learn about the customer service insights available on the Incoming Cases dashboard."
 keywords: ""
-ms.date: 9/18/2018
+ms.date: 9/27/2018
 ms.service:
   - "business-applications"
 ms.topic: article

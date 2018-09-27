@@ -2,7 +2,7 @@
 title: "Customer Satisfaction dashboard "
 description: "Learn the customer service insights available on the Customer Satisfaction dashboard​."
 keywords: ""
-ms.date: 9/11/2018
+ms.date: 9/27/2018
 ms.service:
   - "business-applications"
 ms.topic: article
