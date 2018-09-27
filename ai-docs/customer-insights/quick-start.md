@@ -99,7 +99,7 @@ Dynamics 365 AI for Customer Insights equip you with a range of insights across 
 
 For each of these tiles, green represents good entity coverage, yellow represents medium entity coverage, and red represents poor entity coverage.
 
-Select a scorecard to see details on the entities used. Entities are [need content]
+Select a scorecard to see details on the entities used. In Dynamics 365 for customer insights, Entities are the datasets you ingest from your various data sources. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Scorecard entities")
@@ -197,9 +197,9 @@ Use the forms in the **Permissions** section to add or remove role permissions t
 
 |Role  |Description  |
 |---------|---------|
-|Contributor    |need content |
-|Reader  |need content        |
-|Admin   |need content |
+|Contributor    |This user type can ingest data, configure it's entities and export segments and insights but not perform more complex configurations such as the mao, match and merge |
+|Reader  |This user type can view all the insights the app has to offer but can not ingest data, export segments and insights, or configure it with any of the Data Manager modules |
+|Admin   |This user type can ingest data, fully configure it using the Data Manager modules, utilise APIs for additional configurations,  export segments and insights, and view insights|
 
 More in-depth overview of the Administration module is provided within the Advanced Manual as well.
 
