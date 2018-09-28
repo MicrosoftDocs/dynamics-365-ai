@@ -39,3 +39,5 @@ For details on the AI for Customer Service dashboards, see the following topics:
 * [Case Resolutions Dashboard](ai-csi-dash-case-resolutions.md)
 * [CSAT Dashboard](ai-csi-dash-CSAT.md)
 * [Topic Details Dashboard](ai-csi-topic-details.md)
+
+For information about specifying settings for connections and data cleansing, see [AI for Customer Service settings](ai-csi-settings.md).

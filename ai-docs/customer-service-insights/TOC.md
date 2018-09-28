@@ -6,6 +6,7 @@
 ## [Use workspaces to manage your customer service data insights](ai-csi-use-workspaces.md)
 ## [Work with AI for Customer Service dashboards and sample data](ai-csi-use-dash-sample-data.md)
 ## [Identify areas of improvement in your customer support system](ai-csi-improve-system.md)
+## [Specify settings for connections and data cleansing](ai-csi-settings.md)
 # Reference
 ## [KPI Summary dashboard](ai-csi-dash-kpi-summary.md)
 ## [Incoming Cases dashboard](ai-csi-dash-incoming-cases.md)

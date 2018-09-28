@@ -22,7 +22,8 @@ You can display KPI Summary, [Incoming Cases](ai-csi-dash-incoming-cases.md), [C
 
 The KPI Summary dashboard provides a variety of graphical views of your system's support cases, including:
 
-* The number of incoming, resolved, escalated, and SLA compliant cases.
+* The total number of support cases.
+* The number of resolved, escalated, and SLA compliant cases.
 * The average resolution time and customer satisfaction score.
 * The breakdown of case priority, backlog and new cases, and case channels.
 * The aggregate trend in new and resolved cases.
@@ -38,12 +39,16 @@ By default, the dashboard shows you key performance indicators for the last week
 
 The KPI charts display a variety of key performance indicators for the specified time period, and the percent change over the period:
 
-* The number of new (incoming) support cases.
-* The number of resolved support cases.
-* The number of escalated support cases.
-* The number of support cases that are compliant with their service level agreement (SLA).
-* The average case resolution time.
-* The average customer satisfaction score (CSAT).
+Description         | Details
+------------------- | ---------------------------------------------------------------
+Total cases         | [New cases created within the specified time period] + [Rollover of active cases] + [Rollover of cases resolved within the specified time period] + [Rollover of cases cancelled within the specified time period]
+Resolved cases      | All cases resolved within specified time period.
+Escalated cases     | All cases escalated within specified time period.
+SLA compliant cases | Of the total cases, the cases that are SLA compliant (including rollover cases and new cases that are SLA compliant)
+Resolution time     | The average resolution time of all cases resolved within specified time period.
+Average CSAT        | The average customer satisfaction score of all cases resolved within the specified time period.
+
+A blue up and down indicator next the value indicates that positive percent change in that direction. A red indicator indicates a negative percent change.
 
 ## Case priority chart
 
