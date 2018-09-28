@@ -28,7 +28,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. AI for Customer Insights delivers the ability to connect to transactional data sources and model profiles of customers and their interactions. It enables organizations to generate unique insights about their customers which they can tune to clear actions from day one. Customer Insights transforms profiles, interactions, and KPIs into rich visuals that you can customize and organize to focus on what matters to you.
+Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. AI for Customer Insights delivers the ability to connect to transactional data sources and model profiles of customers and their interactions. It enables organizations to generate unique insights about their customers which they can tune to clear actions from day one. AI for Customer Insights transforms profiles, interactions, and KPIs into rich visuals that you can customize and organize to focus on what matters to you.
 
 Use this guide to get a quick introduction to the basic features of AI for Customer Insights and come away equipped to use this tool with your data to create actionable insights.
 
@@ -43,7 +43,7 @@ Select **More categories** to choose from more industries or business functions.
 > [!div class="mx-imgBorder"] 
 > ![](media/more-categories.png "More categories")
 
-Once you select a category, the Home page appears with insights built from sample data.
+Once you select a category, the **Home** page appears with insights built from sample data.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customers-dashboard780.png "Insights based on sample data for selected category")
@@ -75,7 +75,7 @@ Based on your ingested data or, in this case our sample data, you'll see automat
   - **Highest Interests and most preferred Brands of your Customer Base (ML-powered)**: These unique insights can add a significant value to your customer-targeting and revenue-optimizing efforts as it lights up the specific things that really matters to them.
 
 ### Top segments
-On your Home page, you'll see top segments - segments with the most members and [need content].
+On your **Home** page, you'll see top segments - segments with the most members and [need content].
 
 Segmentation is the process of slicing and dicing your data by attributes that are of interest to you like last purchase date and customer engagement score.
 
@@ -87,7 +87,7 @@ For example, you want to know which of your customers are most likely to make an
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment.png "Repurchasing segment")
 
-Select a segment either from your Home page or the Segments page and select **Edit** to see it's details.
+Select a segment either from your **Home** page or the **Segments** page and select **Edit** to see it's details.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Segment details")
@@ -95,11 +95,11 @@ Select a segment either from your Home page or the Segments page and select **Ed
 In this example, the segment finds customers who haven't made a purchase in two years and have a high engagement score.
 
 ### Data completeness scorecard
-Dynamics 365 AI for Customer Insights equip you with a range of insights across the customer lifetime journey. However, how confident can you be in regard to these insights? By viewing the Data Completeness Scorecard you can get a sense for the phases for which you have wide entity representation versus the phases for which you should incorporate more data and entities. Going left to right, you can view how complete is your data for the ***Awereness, Engagement, Buying and Service*** customer journey stages.
+AI for Customer Insights equip you with a range of insights across the customer lifetime journey. However, how confident can you be in regard to these insights? By viewing the Data Completeness Scorecard you can get a sense for the phases for which you have wide entity representation versus the phases for which you should incorporate more data and entities. Going left to right, you can view how complete is your data for the **Awareness, Engagement, Fulfillment (or Conversion), and Service (or Support)** customer journey stages.
 
 For each of these tiles, green represents good entity coverage, yellow represents medium entity coverage, and red represents poor entity coverage.
 
-Select a scorecard to see details on the entities used. In Dynamics 365 for customer insights, Entities are the datasets you ingest from your various data sources. 
+Select a scorecard to see details on the entities used. In AI for Customer Insights, entities are the data sets you ingest from your various data sources. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Scorecard entities")
@@ -108,11 +108,11 @@ Select a scorecard to see details on the entities used. In Dynamics 365 for cust
 |---------|---------|
 |**Name**     |The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully.|
 |**Last Updated**    |When this entity's data was last updated.         |
-|**Lifecycle Phase**    |A typical customer journey goes from Awareness, to Engagement, to Fulfillement (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized.         |
+|**Lifecycle Phase**    |A typical customer journey goes from Awareness, to Engagement, to Fulfillment (or Conversion), to Service (or Support) , to Advocacy. Within this column each entity is mapped to a specific phase within this journey so your future ability to act upon the data becomes more targeted and ROI-optimized.         |
 |**Type**     |The types of your data entities. In some cases, this will be the same as your entity name.    |
 
 ## Customers
-The Customers section contains information about your customers organized by Profiles and Segments.
+The **Customers** section contains information about your customers organized by profiles and segments.
 
 ### Profiles
 Once you've connected to a data source, AI for Customer Insights creates some customer profiles and categories based on your industry type. Under **Customers**, select **Profiles**.
@@ -130,8 +130,8 @@ You can create segments of your data to filter on certain elements such as a tim
 
 There are two types of segments:
 
-- **Static**: An aggragated profile data that is not automatically refreshed. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
-- **Dynamic**: An aggragated profile data that is automatically refreshed. Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
+- **Static**: An aggregated profile data that is not automatically refreshed. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
+- **Dynamic**: An aggregated profile data that is automatically refreshed. Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-segments.png "Customer segments")
@@ -149,7 +149,7 @@ Here you can modify the criteria used to segment the data.
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Segment details")
 
-To add a group select **Add Group**. there are multiple selections available for how you want to combine your original and new segments: Either unifying, intersecting or x them (for more information on these options please refer to the **Advanced Guide**).
+To add a group select **Add Group**. There are multiple selections available for how you want to combine your original and new segments: either unifying, intersecting, or x them (for more information on these options please refer to the Advanced Guide).
 
 #### Add a segment
 
@@ -188,7 +188,7 @@ Select an entity to see information about it.
 |**Data**     |need content  |
 
 ## Data Configuration, Relationships
-These other data management settings are covered in the ***Advanced Guide*** documentation.
+These other data management settings are covered in the Advanced Guide documentation.
 
 ### Administration
 Use the forms in the **Permissions** section to add or remove role permissions to AI for Customer Insights.
@@ -203,4 +203,4 @@ Use the forms in the **Permissions** section to add or remove role permissions t
 
 More in-depth overview of the Administration module is provided within the Advanced Guide as well.
 
-Now that you explored some of the capabilities that Dynamics 365 AI for Customer Insights has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Guide for step-by-step guidance around working with your company data.
+Now that you explored some of the capabilities that AI for Customer Insights has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Guide for step-by-step guidance around working with your company data.
