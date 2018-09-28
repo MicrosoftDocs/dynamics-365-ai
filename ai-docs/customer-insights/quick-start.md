@@ -87,7 +87,7 @@ For example, you want to know which of your customers are most likely to make an
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment.png "Repurchasing segment")
 
-Select a segment either from your Homepage or the Segments screen and select **Edit** to see it's details.
+Select a segment either from your Home page or the Segments page and select **Edit** to see it's details.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Segment details")
@@ -170,7 +170,7 @@ Your data will be brought in to AI for Customer Insights and the sample data wil
 ### Entities
 In AI for Customer Insights **Entities** represent your various data sets (taken from diverse data sources such as your CRM, transactional data system, etc).
 
-After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
+After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities page. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities.png "Entities")

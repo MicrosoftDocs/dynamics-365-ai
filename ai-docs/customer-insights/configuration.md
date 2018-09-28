@@ -33,13 +33,13 @@ robots: noindex,nofollow
 ## Data Manager: Configuration
 
 ### Intro to Configuration
-Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In Dynamics AI for Customer Insights, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration Screen** will take you to the first stage in the data configuration process.
+Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In Dynamics AI for Customer Insights, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration page** will take you to the first stage in the data configuration process.
 
 ![configuration.png](media/configuration.png)
 
 
 ### Map
-There are two main goals behind the Map screen (shown below):
+There are two main goals behind the Map page (shown below):
 - Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
 - Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
 
@@ -49,14 +49,14 @@ Clicking each of the customer entities tabs on the left will open it's correspon
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a *Contacts* dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
 - **Data Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible.
 - **Type**: Attribute names in the Common Data Model (CDM) that correspond to your entities' attributes. Must be selected for each of your entities' attributes.
-- ? **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching prcosess. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
+- ? **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
-In addition, three additional actions are available in the Map screen:
+In addition, three additional actions are available in the Map page:
 
 ![add-custom-entity.png](media/add-custom-entity.png)
 
 - **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional attributes on the basis of which your data should be merged, you should add them at this point.
-    - Using the customer entitys panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* datasource opened a list with all the entities for that source. You may also use the search button to find a specific entity.
+    - Using the customer entities panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* data source opened a list with all the entities for that source. You may also use the search button to find a specific entity.
     
     - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.
 
@@ -77,25 +77,25 @@ In addition, three additional actions are available in the Map screen:
 > ![](media/map-keep-unmatched-records.png "Mapping - keep unmatched records")
 
 ### Match
-Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the configuration screen will take you to the *Match Screen*.
+Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the *Configuration page* will take you to the *Match page*.
 
-(add "configuration" screen with highlighted Match tile)
+![match-tile.png](media/match-tile.png)
 
-In the Match screen below, some matches were already automatically identified based on your Map phase selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
+In the *Match* page below, some matches were already automatically identified based on your Map phase selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
 - Your understanding of how your datasources are related to one another
 - Your understanding of what sources are most reliable for your mapped attributes
 
 ![match.png](media/match.png)
 
-#### Exploring the Match screen
-The Match screen includes several components as explored below. Once you complete editing those components select **Run** at the bottom of the screen to execute all the matchings you have specified. 
+#### Exploring the Match page
+The *Match* page includes several components as explored below. Once you complete editing those components select **Run** at the bottom of the page to execute all the matchings you have specified. 
 
 - **Match Pairs Diagram**: The diagram includes the hirarchy in which the match pairs will be matched. 
     - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the *eye* icon at the right corner of the tile. 
-    - Each of the match percentages is specificed on top of the link that represents that match
+    - Each of the match percentages is specificed on top of the link that represents that match.
 []
 
-- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the screen. Each row represents a separate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
+- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the page. Each row represents a separate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
 
 What is included within each *Role* row? Let us explore from left to right:
     - **Matched Records**: Number of records (or dataset rows) that can be matched for the specific match pair under this role
@@ -127,7 +127,7 @@ besides the role name, this panel enables you to specify all the ***Criteria*** 
 ### Merge
 This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
-- **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted screen part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
+- **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
@@ -166,7 +166,7 @@ This is the last step within the data configuration process and it's all about r
  ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
 
 ## Data Manager: Enrichment
-Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configurated data will be enriched with unique data on customers' top interests and preferred brands. Here Dynamics 365 Ai for customer insights will automatically do for you the hard work:
+Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configured data will be enriched with unique data on customers' top interests and preferred brands. Here AI for Customer Insights will automatically do for you the hard work:
 
 - **Interests** may range from *Shoes*, to *Banking Services* to *4 Star Hotels* to any one of the other 300+ categories that the app extracts from the Microsoft Graph
 

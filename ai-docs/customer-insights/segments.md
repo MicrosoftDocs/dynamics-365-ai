@@ -71,7 +71,7 @@ This can be quickly done by setting filtering selections as described in the *Pr
 
 []
 
-## Exploring segments from the segments screen
+## Exploring segments from the Segments page
 Here you can view all your segments as well as suggested segments. These are the page components:
 - **Your saved Segments:** Dynamic Segments appear to the left and Static Segments appear to the right. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment (as highlighted in blue below), and several other possibilities that can be accessed via  <b>...</b> as highlighted in red below:
 
@@ -88,7 +88,7 @@ Those other options include:
 
 []
 
-## Exploring a particular segment from the segment Page
+## Exploring a particular segment from the Segments page
 Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc.) with the button at the upper-right corner of the tile:
 
 []
