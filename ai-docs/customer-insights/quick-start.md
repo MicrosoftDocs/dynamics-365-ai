@@ -149,7 +149,7 @@ Here you can modify the criteria used to segment the data.
 > [!div class="mx-imgBorder"] 
 > ![](media/repurchase-segment-details.png "Segment details")
 
-To add a group select **Add Group**. there are multiple selections available for how you want to combine your original and new segments: Either unifying, intersecting or x them (for more information on these options please refer to the **Advanced Guilde**).
+To add a group select **Add Group**. there are multiple selections available for how you want to combine your original and new segments: Either unifying, intersecting or x them (for more information on these options please refer to the **Advanced Guide**).
 
 #### Add a segment
 
@@ -168,7 +168,7 @@ To bring in your company's data, select **Sources** then select a data source.
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
 ### Entities
-In AI for Customer Insights **Entities** represent your various datasets (taken from diverse datasources such as your CRM, transactional datasystem, etc).
+In AI for Customer Insights **Entities** represent your various data sets (taken from diverse data sources such as your CRM, transactional data system, etc).
 
 After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities screen. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
 
@@ -201,6 +201,6 @@ Use the forms in the **Permissions** section to add or remove role permissions t
 |Reader  |need content        |
 |Admin   |need content |
 
-More in-depth overview of the Administration module is provided within the Advanced Manual as well.
+More in-depth overview of the Administration module is provided within the Advanced Guide as well.
 
-**Now that you explored some of the capabilities that Dynamics 365 AI for Customer Insights has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Manual for a step-by-step guidence around working with your company data**
+Now that you explored some of the capabilities that Dynamics 365 AI for Customer Insights has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Guide for step-by-step guidance around working with your company data.

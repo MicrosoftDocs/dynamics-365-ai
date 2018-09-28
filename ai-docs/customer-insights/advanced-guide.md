@@ -34,12 +34,12 @@ All product sections are accessed through their corresponding tab names in the l
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-dashboard-full.png "Customer dashboard")
 
-In order to best utilize this manual for your specific needs, you should identify your situation:
-- ***I am new to the product AND I didn't go through the Quick start documentation*** -> In that case you may want to explore the manual from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile and Homepage*** sections.
-- ***I am new to the Advanced guide BUT I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+In order to best utilize this guide for your specific needs, you should identify your situation:
+- ***I am new to the product and I didn't go through the Quick start documentation*** -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile, and Home page*** sections.
+- ***I am new to the Advanced guide but I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
 - ***I am already using the product but incurring a specific issue*** -> In that case you may want to identify what product section this issue relates to and read on this particular section. 
 
-**Note**: you can return to documentation on any of the product pages by selecting the question mark:
+**Note**: you can return to documentation on any of the product pages by selecting the question mark.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/help-link.png "Help link")
@@ -83,7 +83,7 @@ A range of actionable insights were derived during the data ingestion, configura
 -	**Insights around your overall customer base**: Exploring left to right, those insights include: 
       - **Top Selling Products**: Shows your three top selling products by monetary value or by unit volume. 
       - **Median Lifetime Spend (ML-powered)**: Whether it’s marketing, sales, support or other function, customer lifetime spend is one of the most comprehensive and actionable indicators of your business viability as it captures the customer value across all it’s journey phases. **Possible Usage:** Getting a sense for your overall business health before zooming into major effectors through segmentations and other indicators.
-      - **Highest Interests and most preferred Brands of your Customer Base**: These insights were explained within the Enrichment section. **Note**: while the power BI report shows the top ten interests and brands for each of your customer profile types, the *Home page* shows the top **three** interests and brands of your **aggregated customer base.**
+      - **Highest Interests and most preferred Brands of your Customer Base**: These insights were explained within the Enrichment section. **Note**: while the Power BI report shows the top ten interests and brands for each of your customer profile types, the *Home page* shows the top **three** interests and brands of your **aggregated customer base.**
 
 ()
 
@@ -92,16 +92,16 @@ A range of actionable insights were derived during the data ingestion, configura
 ()
 
 - **Data completeness scorecard**: AI for Customer Insights equips you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? By viewing the *Data Completeness Scorecard* you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. 
-   -Going left to right, you can view how complete is your data for the Awareness, Engagement, Buying and Service stages.   
-   -For each of these tiles, *Green* represents good entity coverage, *Yellow* represents medium entity coverage and *Red* represents poor entity coverage. 
+    - Going left to right, you can view how complete is your data for the Awareness, Engagement, Buying and Service stages.   
+    - For each of these tiles, *Green* represents good entity coverage, *Yellow* represents medium entity coverage and *Red* represents poor entity coverage. 
    
 ()
 
--	**Learn how to use Dymanics 365 AI for customer Insights:** Include four quick-help options that are linked to the user guide:
-    - **Getting Start with Dymanics 365 AI for customer Insights**: How to get started with the product? Takes you to the documentation of the Quick Start version of the product.
-    - **Dynamics 365 AI for Customer Insights guided learning**: How to use the advanced version of the product? Takes you to this manual 
+-	**Learn how to use Dynamics 365 AI for customer Insights:** Include four quick-help options that are linked to the user guide:
+    - **Getting Start with Dynamics 365 AI for customer Insights**: How to get started with the product? Takes you to the documentation of the Quick Start version of the product.
+    - **Dynamics 365 AI for Customer Insights guided learning**: How to use the advanced version of the product? Takes you to this guide 
     - **Tutorial: Dynamics 365 for Customer Insights in a day**: Exemplifies how to use the product as part of a typical work day
-    - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user manual as they encapsulate more mandatory configurations than the other product sections
+    - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user guide as they encapsulate more mandatory configurations than the other product sections
 
 
 ## Extensibilities
