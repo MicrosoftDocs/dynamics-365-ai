@@ -62,5 +62,3 @@ Copy the solution URL and paste it into the configuration page of the applicatio
 
 [Administer Market Insights](settings-administration.md)   
 [Get started with Market Insights](get-started.md)   
-[Get connected to the social conversation](get-connected-social-conversation.md)
- 

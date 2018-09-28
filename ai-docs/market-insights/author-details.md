@@ -59,6 +59,5 @@ The author name, user name, profile picture, location, website, and bio is displ
  [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-mse-engagement-analytics.md)]  
   
 ### See Also  
-[Get connected to the social conversation using Market Insights](get-connected-social-conversation.md)    
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)
- 
+[Manage author tags](author-tags.md) 

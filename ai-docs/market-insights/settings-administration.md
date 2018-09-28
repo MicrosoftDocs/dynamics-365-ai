@@ -65,7 +65,7 @@ Get to know how you can give users access to [!INCLUDE[Market Insights](../inclu
 There are two types of user roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]: Configuration roles and Interaction roles. Assign users of your solution the appropriate roles for analyzing data and engaging publicly on social media. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 ### See Also  
+[Market Insights overview](overview.md)
 [Integrate Market Insights with Office 365](manage-licenses.md)   
 [Integrate Market Insights with Dynamics 365](integrate-widgets-dynamics-365.md)   
-[Get connected to the social conversation using Market Insights](get-connected-social-conversation.md)
  
