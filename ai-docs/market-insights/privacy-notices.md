@@ -41,7 +41,7 @@ For specific privacy information about [!INCLUDE[Market Insights](../includes/pn
 
 - [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-market-insights-post-and-automation-rules.md)]  
 
-- [!INCLUDE[cognitive services privacy token](../includes/cc-privacy-mse-market-insights-cognitive-services.md)]
+- [!INCLUDE[cognitive services privacy token](../includes/cc-privacy-market-insights-cognitive-services.md)]
 
 - [!INCLUDE [cc-privacy-market-insights-engagement-analytics](../includes/cc-privacy-market-insights-engagement-analytics.md)]
 
