@@ -42,7 +42,7 @@ When you link a post from [!INCLUDE[Market Insights](../includes/pn-market-insig
   
 ### Privacy notice 
  
- [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
+ [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-market-insights-post-and-automation-rules.md)]  
   
 ### See also  
 

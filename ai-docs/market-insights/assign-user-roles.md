@@ -67,7 +67,7 @@ Use your email client to send email to [!INCLUDE[Dynamics 365 AI for Market Insi
 2.  Identify the user you want to contact and click the **Email** ![send message button in market insights](media/enevelope-icon.png "Send message button in Market Insights") button in the **Users** list.  
   
 ## Privacy notice  
-[!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
+[!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-market-insights-cookies.md)]  
   
 ### See Also  
 [Administer Market Insights](settings-administration.md)   

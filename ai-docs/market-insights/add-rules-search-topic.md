@@ -322,13 +322,13 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
 7. In the **Search Topic** pane, select **Save** to apply the changes and start data acquisition.
   
 ## Privacy notices  
-[!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+[!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
-[!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
+[!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-market-insights-index-cached-data.md)]  
   
-[!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
+[!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-market-insights-bing-social-check.md)]  
 
-[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-market-insights-cognitive-services.md)]
 
 ### See also  
 [Set up searches to listen to social media conversations](set-up-searches.md)   

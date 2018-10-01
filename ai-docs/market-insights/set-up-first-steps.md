@@ -69,9 +69,9 @@ This topic explains what the Administrator for your organization does to set up 
 >  You can create an unlimited number of search topics to meet your requirements for [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. However, make sure that you stay within your post quota to keep data acquisition up and running.  More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 ### Privacy notices  
- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
- [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
+ [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-market-insights-index-cached-data.md)]  
   
 ### See Also  
  [Administer Market Insights](settings-administration.md)   

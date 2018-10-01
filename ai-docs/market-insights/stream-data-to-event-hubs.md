@@ -100,7 +100,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 <a name="privacy"></a>   
 ### Privacy notice  
- [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
+ [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-market-insights-azure-event-hubs.md)]  
   
 ### See Also  
  [Manage connections in Market Insights](manage-connections.md)   

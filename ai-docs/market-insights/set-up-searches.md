@@ -45,7 +45,7 @@ Listen to conversations on social media around your brand, business, products, a
  [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers a broad set of languages where search rules can look for matching posts. However, sentiment analysis is available for a subset of the search languages. For more details about the language coverage, download and review the [Translation Guide](http://go.microsoft.com/fwlink/p/?LinkId=391086).  
   
 ### Privacy notice  
- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
 ### See Also  
  [Create or delete a search topic](create-delete-search-topic.md)   

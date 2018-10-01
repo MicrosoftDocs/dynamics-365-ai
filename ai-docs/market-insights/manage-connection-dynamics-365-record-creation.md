@@ -146,7 +146,7 @@ If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../inclu
 
 ## Privacy Notice
 
-[!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
+[!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-market-insights-post-and-automation-rules.md)]  
 
 ### See Also
 

@@ -133,7 +133,7 @@ You can perform quality management over the entire application by blocking irrel
 -   [Get additional post quota](manage-post-quota.md). Ask your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin to add more posts to your solution’s quota in the [Office 365 admin center](https://portal.office.com/).  
   
 ### Privacy notice  
- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
 ### See Also  
  [Set up searches to listen to social media conversations](set-up-searches.md)   

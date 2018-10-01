@@ -84,7 +84,7 @@ Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtub
 
 ## Privacy notice
 
-[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-market-insights-cognitive-services.md)]
 
 ### See also  
 [Set up searches to listen to social media conversations](set-up-searches.md)   

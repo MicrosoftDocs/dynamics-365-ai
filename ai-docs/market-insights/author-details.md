@@ -56,7 +56,7 @@ The author name, user name, profile picture, location, website, and bio is displ
    >  Posts are an external service provided by [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-mse-engagement-analytics.md)]  
+ [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-market-insights-engagement-analytics.md)]  
   
 ### See Also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)

@@ -210,7 +210,7 @@ search.app:
 
 <a name="privacy"></a>   
 ### Privacy notice  
- [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
+ [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-market-insights-azure-event-hubs.md)]  
 
 ### See Also  
  [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   

@@ -27,21 +27,23 @@ For specific privacy information about [!INCLUDE[Market Insights](../includes/pn
 
 ## [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Privacy Notices
 
-- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
 
-- [!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
+- [!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-market-insights-cookies.md)]  
 
-- [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
+- [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-market-insights-index-cached-data.md)]  
 
-- [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
+- [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-market-insights-bing-social-check.md)]  
 
-- [!INCLUDE[cc_privacy_msl_partners](../includes/cc-privacy-msl-partners.md)]  
+- [!INCLUDE[cc_privacy_msl_partners](../includes/cc-privacy-market-insights-partners.md)]  
 
-- [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
+- [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-market-insights-azure-event-hubs.md)]  
 
-- [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
+- [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-market-insights-post-and-automation-rules.md)]  
 
-- [!INCLUDE[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+- [!INCLUDE[cognitive services privacy token](../includes/cc-privacy-mse-market-insights-cognitive-services.md)]
+
+- [!INCLUDE [cc-privacy-market-insights-engagement-analytics](../includes/cc-privacy-market-insights-engagement-analytics.md)]
 
 ### See Also
 

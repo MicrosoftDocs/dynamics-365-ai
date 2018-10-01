@@ -103,11 +103,11 @@ Administrators in your organization can change the owner of a search topic to en
    >   - The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
   
 ### Privacy notices  
- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
- [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
+ [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-market-insights-index-cached-data.md)]  
   
- [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
+ [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-market-insights-bing-social-check.md)]  
   
 ### See Also  
  [Set up searches to listen to social media conversations](set-up-searches.md)   

@@ -88,11 +88,11 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 ### Privacy notices
 
-[!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
+[!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-market-insights-cookies.md)]  
 
-[!INCLUDE[cc_privacy_msl_partners](../includes/cc-privacy-msl-partners.md)]  
+[!INCLUDE[cc_privacy_msl_partners](../includes/cc-privacy-market-insights-partners.md)]  
 
-[!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
+[!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-market-insights-azure-event-hubs.md)]  
 
 ### See Also
 

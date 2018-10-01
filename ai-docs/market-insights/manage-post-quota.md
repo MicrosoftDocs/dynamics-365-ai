@@ -112,7 +112,7 @@ For more information, see [Pricing and licensing for Dynamics 365](http://go.mic
 > It can take a few minutes to complete the provisioning process and make the additional post quota available for your organization after you complete the purchase.
   
 ### Privacy notice  
- [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
+ [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-market-insights-bing-social-check.md)]  
   
 ### See also  
  [Set up searches to listen to social media conversations](set-up-searches.md)   

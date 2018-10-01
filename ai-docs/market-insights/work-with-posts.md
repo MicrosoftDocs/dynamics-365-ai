@@ -140,7 +140,7 @@ Wherever you work in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/
   
 <a name="privacy"></a>   
 ### Privacy notice  
- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
 ### See Also  
  [Drive business objectives using posts](publish-react-posts.md)   

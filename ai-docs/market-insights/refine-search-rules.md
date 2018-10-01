@@ -47,7 +47,7 @@ Analyze your results and optimize your search queries regularly to make sure you
  In addition to refining your search rules, you can block the data acquisition for certain terms or domains by adding items to **Blocked Content**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  
   
 ### See Also  
  [Add a search query to a topic](add-rules-search-topic.md)   
