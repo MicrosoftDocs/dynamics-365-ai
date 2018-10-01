@@ -120,7 +120,7 @@ You can remove tokens from social profiles you own.
 
 ## Privacy notice
 
-[!include[cognitive services privacy token](../includes/cc-privacy-market-insights-cognitive-services.md)]
+[!include[cognitive services privacy token](../includes/cc-privacy-market-insights-ms-cognitive-services.md)]
 
 ### See Also  
  [Engage on social networks](engage-on-social-networks.md)   

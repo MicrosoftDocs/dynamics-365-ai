@@ -328,7 +328,7 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
   
 [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-market-insights-bing-social-check.md)]  
 
-[!include[cognitive services privacy token](../includes/cc-privacy-market-insights-cognitive-services.md)]
+[!include[cognitive services privacy token](../includes/cc-privacy-market-insights-ms-cognitive-services.md)]
 
 ### See also  
 [Set up searches to listen to social media conversations](set-up-searches.md)   

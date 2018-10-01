@@ -163,7 +163,7 @@ If you know the credentials to a social profile, you can claim ownership for it.
   
 ## Privacy notice
 
-[!include[cognitive services privacy token](../includes/cc-privacy-market-insights-cognitive-services.md)]
+[!include[cognitive services privacy token](../includes/cc-privacy-market-insights-ms-cognitive-services.md)]
 
 ### See also 
  
