@@ -20,16 +20,21 @@ The Case Resolutions dashboard gives you an overview of your customer support sy
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), Case Resolutions, and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
-The Case Resolutions dashboard provides graphical views of resolved cases, including:
+The Case Resolutions dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
-* The customer support agents who are taking the most time to resolve issues.
-* The number of incoming customer support cases compared to the average time to resolve them.
-* The customer support agents with the longest first response time.
-* The number of incoming cases compared to the first response time.
+Chart | Link
+----- | ----
+![Agents with longest resolve time](media/ai-csi-longest-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
+![Incoming cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [Incoming cases versus average resolve time](#incoming-cases-versus-average-resolve-time-chart)
+![Agents with longest first response time](media/ai-csi-longest-first-response.png) | [Agents with longest first response time](#agents-with-longest-first-response-time-chart)
+![Incoming cases versus first response time](media/ai-csi-incoming-vs-first-response.png) | [Incoming cases versus first response time](#incoming-cases-versus-first-response-time-chart)
+![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors)
 
-In addition, the dashboard uses artificial intelligence technology to categorize customer support cases by topic and show you the topics that are having the greatest impact on resolution time. This can help you identify areas for improvement that can have the greatest impact on system performance.
+The *Top resolution time impactors* chart uses artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
+By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
 ## Agents with longest resolve time chart
 

@@ -20,19 +20,24 @@ The Topic Details dashboard gives you a detailed overview of key performance ind
 
 The Topic Details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts in the [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), or [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboard.
 
-The Topic Details dashboard provides graphical views of key performance indicators for the topic, including:
+The Topic Details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
-* The topic's incoming, resolved, escalated, and SLA compliant cases.
-* The average resolution time and customers satisfaction survey score for the topic's support cases.
-* The impact the topic's cases have had on customer satisfaction and resolution time.
-* The agents with the most unresolved cases associated with the topic.
-* The agents with the longest resolution time for cases associated with the topic.
-* The agents with the lowest customer satisfaction score for cases associated with the topic.
-* The path of cases associated with the topic from the support channel where they were opened and whether they were escalated to their status at the end of the specified time period.
+Chart | Link
+----- | ----
+![Topic Details KPI charts](media/ai-csi-topic-details-kpi-charts.png) | [Topic Details KPI charts](#topic-details-kpi-charts)
+![Overall impact charts](media/ai-csi-overall-impact.png) | [Overall impact charts](#overall-impact-charts)
+![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png) | [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
+![Agents with longest resolve time chart](media/ai-csi-agents-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
+![Agents with lowest CSAT chart](media/ai-csi-lowest-CSAT.png) | [Agents with lowest CSAT](#agents-with-lowest-csat-chart)
+![Topic journey chart](media/ai-csi-topic-journey.png) | [Topic journey](#topic-journey-chart)
+![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
+![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
-In addition, the dashboard uses artificial intelligence technology to show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
+The *Top CSAT impactors* and *Top resolve time impactors* charts use artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
+By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
 ## Topic Details KPI charts
 

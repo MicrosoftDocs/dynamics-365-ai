@@ -20,15 +20,21 @@ The Incoming Cases dashboard gives you an overview of the incoming cases in your
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), Incoming Cases, [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
-The Incoming Cases dashboard provides graphical views of the new support cases, including:
+The Incoming Cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
-* The daily breakdown between high, medium, and low priority cases.
-* The daily breakdown of cases by the support channel customers used; for example, chat window, email, support ticket, Facebook, or Twitter.
-* The trends in the timing of cases during the day for each channel during the time period.
+Chart | Link
+----- | ----
+![Case priority chart](media/ai-csi-case-priority-incoming.png) | [Case priority](#case-priority-chart)
+![Case channels chart](media/ai-csi-case-channels-incoming.png) | [Case channels](#case-channels-chart)
+![Case timing chart](media/ai-csi-case-timing.png) | [Case timing](#case-timing-chart)
+![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
+![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-In addition, the dashboard uses artificial intelligence technology to show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
+The *Current popular topics* and *Emerging topics* charts use artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
+By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
 ## Case priority chart
 

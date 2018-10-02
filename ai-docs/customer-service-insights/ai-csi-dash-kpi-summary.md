@@ -25,17 +25,16 @@ The KPI Summary dashboard includes a variety of charts with graphical views of y
 Chart | Link
 ----- | ----
 ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts)
-![Case priority chart](media/ai-csi-case-priority.png) | [Case priority chart](#case-priority-chart)
-![Total case breakdown chart](media/ai-csi-total-case-breakdown.png) | [Total case breakdown chart](#total-case-breakdown-chart)
-![Case channels chart](media/ai-csi-case-channels.png) | [Case channels chart](#case-channels-chart)
-![Case tracking chart](media/ai-csi-case-tracking.png) | [Case tracking chart](#case-tracking-chart)
-![Unresolved cases by age chart](media/ai-csi-cases-by-age.png) | [Unresolved cases by age chart](#unresolved-cases-by-age-chart)
-![Top case volume impactors chart](media/ai-csi-top-case-volume.png) | [Top case volume impactors chart (AI Insights)](#top-case-volume-impactors-chart)
-![Top resolve time impactors chart](media/ai-csi-top-resolve-time.png) | [Top resolve time impactors chart (AI Insights)](#top-resolve-time-impactors-chart)
+![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart)
+![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart)
+![Case channels](media/ai-csi-case-channels.png) | [Case channels](#case-channels-chart)
+![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart)
+![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart)
+![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
+![Top resolve time impactors](media/ai-csi-top-resolve-time.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
 The *Top case volume impactors* and *Top resolve time impactors* charts use artificial intelligence technology to
-scan the titles of support cases and then group them as support *topics* that are a collection of related cases.
-These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
+group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 

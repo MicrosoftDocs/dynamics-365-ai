@@ -20,16 +20,21 @@ The Customer Satisfaction dashboard gives you an overview of customer satisfacti
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and Customer Satisfaction dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
-The Customer Satisfaction dashboard provides graphical views of customer satisfaction survey results, including:
+The Customer Satisfaction dashboard includes a variety of charts with graphical views of your system's customer satisfaction data. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
-* The total number of surveys completed.
-* The survey response rate.
-* The average customer satisfaction (CSAT) score.
-* The survey responses by location.
+Chart | Link
+----- | ----
+![Total surveys completed](media/ai-csi-surveys-completed.png) | [Total surveys completed](#total-surveys-completed-chart)
+![Survey response rate](media/ai-csi-response-rate.png) | [Survey response rate](#survey-response-rate-chart)
+![Average CSAT](media/ai-csi-average-csat.png) | [Average CSAT](#average-csat-chart)
+![Survey responses by city](media/ai-csi-responses-by-city.png) | [Survey responses by city](#survey-responses-by-city-chart)
+![Top CSAT impactors](media/ai-csi-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 
-In addition, the dashboard uses artificial intelligence technology to categorize customer support cases by topic and show you the topics that are having the greatest impact on customer satisfaction. This can help you identify areas for improvement that can have the greatest impact on customer satisfaction.
+The *Top CSAT impactors* chart uses artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
+By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
 ## Total surveys completed chart
 
@@ -57,7 +62,7 @@ The survey responses by city chart shows the geographical location of customer s
 
 ## Top CSAT impactors chart (AI Insights)
 
-![Top CSAT impactors](media/ai-csi-CSAT-impactors.png)
+![Top CSAT impactors chart](media/ai-csi-CSAT-impactors.png)
 
 The top CSAT impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of impact the topics are having on customer satisfaction, showing:
 
