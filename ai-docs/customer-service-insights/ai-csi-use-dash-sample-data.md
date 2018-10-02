@@ -1,5 +1,5 @@
 ---
-title: "Work with AI for Customer Service Insights dashboards and sample data"
+title: "Work with dashboards and sample data"
 description: "Learn how to use Customer Service Insights dashboards and sample data."
 keywords: ""
 ms.date: 9/11/2018
@@ -12,4 +12,4 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Work with AI for Customer Service Insights dashboards and sample data
+# Work with dashboards and sample data

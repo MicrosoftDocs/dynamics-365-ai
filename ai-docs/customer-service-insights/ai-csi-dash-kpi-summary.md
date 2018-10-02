@@ -20,33 +20,41 @@ The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview
 
 You can display KPI Summary, [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
-The KPI Summary dashboard provides a variety of graphical views of your system's support cases, including:
+The KPI Summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
-* The total number of support cases.
-* The number of resolved, escalated, and SLA compliant cases.
-* The average resolution time and customer satisfaction score.
-* The breakdown of case priority, backlog and new cases, and case channels.
-* The aggregate trend in new and resolved cases.
-* The breakdown of unresolved cases by age.
+Chart | Link
+----- | ----
+![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts)
+![Case priority chart](media/ai-csi-case-priority.png) | [Case priority chart](#case-priority-chart)
+![Total case breakdown chart](media/ai-csi-total-case-breakdown.png) | [Total case breakdown chart](#total-case-breakdown-chart)
+![Case channels chart](media/ai-csi-case-channels.png) | [Case channels chart](#case-channels-chart)
+![Case tracking chart](media/ai-csi-case-tracking.png) | [Case tracking chart](#case-tracking-chart)
+![Unresolved cases by age chart](media/ai-csi-cases-by-age.png) | [Unresolved cases by age chart](#unresolved-cases-by-age-chart)
+![Top case volume impactors chart](media/ai-csi-top-case-volume.png) | [Top case volume impactors chart (AI Insights)](#top-case-volume-impactors-chart)
+![Top resolve time impactors chart](media/ai-csi-top-resolve-time.png) | [Top resolve time impactors chart (AI Insights)](#top-resolve-time-impactors-chart)
 
-In addition, the dashboard uses artificial intelligence technology to show you the customer support topics that are generating the most volume, and the topics that are having the most impact on case resolution time. This can help you identify areas for improvement that can have the greatest impact on system performance.
+The *Top case volume impactors* and *Top resolve time impactors* charts use artificial intelligence technology to
+scan the titles of support cases and then group them as support *topics* that are a collection of related cases.
+These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month. To display data for a specific product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list.
+By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-## KPI charts
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
-![KPI charts](media/ai-csi-kpi-charts.png)
+## KPI summary charts
 
-The KPI charts display a variety of key performance indicators for the specified time period, and the percent change over the period:
+![KPI summary charts](media/ai-csi-kpi-charts.png)
 
-Description         | Details
-------------------- | ---------------------------------------------------------------
-Total cases         | [New cases created within the specified time period] + [Rollover of active cases] + [Rollover of cases resolved within the specified time period] + [Rollover of cases cancelled within the specified time period]
-Resolved cases      | All cases resolved within specified time period.
-Escalated cases     | All cases escalated within specified time period.
-SLA compliant cases | Of the total cases, the cases that are SLA compliant (including rollover cases and new cases that are SLA compliant)
-Resolution time     | The average resolution time of all cases resolved within specified time period.
-Average CSAT        | The average customer satisfaction score of all cases resolved within the specified time period.
+The KPI summary charts summarize the key performance indicators for the specified time period, and the percent change over the period:
+
+Description | Details
+----------- | -------
+Total cases | *[New cases created within the specified time period]* + *[Rollover of active cases]* + *[Rollover of cases resolved within the specified time period]* + *[Rollover of cases cancelled within the specified time period]*
+Resolved cases | *[All cases resolved within specified time period]*
+Escalated cases | *[All cases escalated within specified time period]*
+SLA compliant cases | *[Of the total cases, the cases that are SLA compliant]* (including rollover cases and new cases that are SLA compliant)
+Resolution time | *[The average resolution time of all cases resolved within specified time period]*
+Average CSAT | *[The average customer satisfaction score of all cases resolved within the specified time period]*
 
 A blue up and down indicator next the value indicates that positive percent change in that direction. A red indicator indicates a negative percent change.
 
@@ -56,11 +64,19 @@ A blue up and down indicator next the value indicates that positive percent chan
 
 The case priority chart shows the percentage breakdown for the specified time period between high, normal, and low priority support cases.
 
+Description | Details
+----------- | -------
+Case priority | *[Total case breakdown by case priority]*
+
 ## Total case breakdown chart
 
 ![Total case breakdown chart](media/ai-csi-total-case-breakdown.png)
 
 The total case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from earlier. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
+
+Description | Details
+----------- | -------
+Total case breakdown | *[Total case breakdown by [Rollover cases (backlog)] + [New cases] for the specified time period]*
 
 ## Case channels chart
 
@@ -68,11 +84,20 @@ The total case breakdown chart shows the breakdown in support cases for the spec
 
 The case channels chart shows the breakdown in support cases for the specified time period by support channel.
 
+Description | Details
+----------- | -------
+Case channels | *[Total case breakdown by channel]*
+
 ## Case tracking chart
 
 ![Case tracking chart](media/ai-csi-case-tracking.png)
 
-The case tracking chart shows the trend in the number of incoming support cases for the specified time period as well as the trend in how many cases are being resolved.
+The case tracking chart shows the trend in the number of new support cases for the specified time period as well as the trend in how many cases are being resolved.
+
+Description | Details
+----------- | -------
+New | *[The number of cases created each day for the specified time period]*
+Resolved | *[The number of cases resolved each day for the specified time period]*
 
 ## Unresolved cases by age chart
 
@@ -80,11 +105,21 @@ The case tracking chart shows the trend in the number of incoming support cases 
 
 The unresolved cases by age chart shows the relative number of support cases for the specified time period by how many days ago they were created.
 
+Description | Details
+----------- | -------
+Unresolved cases by age | *[Total unresolved cases by days unresolved]*
+
 ## Top case volume impactors chart  (AI Insights)
 
 ![Top case volume impactors chart](media/ai-csi-top-case-volume.png)
 
 The top case volume impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
+
+Description | Details
+----------- | -------
+Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
+Volume | *[The total cases associated with this topic]* /*[Total cases]*
+Total cases | *[The total cases associated with this topic]*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
@@ -95,5 +130,11 @@ To see additional information about each topic, right-click the topic name and s
 The top case volume impactors chart displays support topics in order of resolution time over the specified time period, showing the average resolution time for each topic's support cases and the impact that resolution time is having on system performance.
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
+
+Description | Details
+----------- | -------
+Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
+Average resolve time | *[The average resolution time of resolved cases within the specified time period]*
+Impact | 1 – (*[Average resolution time not including the current topic]* / *[Overall average resolution time for all topics]*)
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
