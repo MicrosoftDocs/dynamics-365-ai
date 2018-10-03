@@ -54,10 +54,13 @@ Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-numbers.png "Customer group filter")
 
-1: Entity type
-2: Attribute type
-3: Operator
-4: Value
+|Number |Definition  |
+|---------|---------|
+|1     |Entity type         |
+|2     |Attribute type         |
+|3    |Operator         |
+|4    |Value         |
+
      
 - **In step three, which is optional, we will add more rules to our filter**. Two roles are available on the entity level: 
      ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
@@ -72,14 +75,14 @@ Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-add-group.png "Customer group add group")
    
-       - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded:
+  - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded:
        
-       > [!div class="mx-imgBorder"] 
-       > ![](media/customer-group-union.png "Customer group add union")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/customer-group-union.png "Customer group add union")
 
-       - Choosing ***Intersect*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values will be excluded.
+  - Choosing ***Intersect*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values will be excluded.
 
-       - Lastly, choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be excluded including all their values (both missing and existing values).
+  - Lastly, choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be excluded including all their values (both missing and existing values).
 
 ## Creating segments from the Profile page
 This can be quickly done by setting filtering selections as described in the *Profile* page section and saving those definitions as a segment:
