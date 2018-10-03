@@ -65,12 +65,12 @@ Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the 
      attribute):
      
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-group-numbers-more-roles.png "Customer group with more roles")
+> ![](media/customer-group-more-roles.png "Customer group with more roles")
      
 - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon selecting **Add Group**, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3. 
    
 > [!div class="mx-imgBorder"] 
-> ![](media/customer-group-numbers-add-group.png "Customer group add group")
+> ![](media/customer-group-add-group.png "Customer group add group")
    
        - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded:
        
