@@ -44,28 +44,38 @@ Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment.png "New dynamic segment")
 
-   - **We start by defining the segment's properties**: We will give our segment a name and description, click the first slider (highlighted in blue below) if we wish to change from Dynamic segment to Static segment or vice versa, and click the second slider (highlighted in red below) to activate our segment if it's a dynamic segment (otherwise it will not incorporate new information on our customers as our data is refreshed):
+- **We start by defining the segment's properties**: We will give our segment a name and description, click the first slider (highlighted in blue below) if we wish to change from Dynamic segment to Static segment or vice versa, and click the second slider (highlighted in red below) to activate our segment if it's a dynamic segment (otherwise it will not incorporate new information on our customers as our data is refreshed):
      
-     [3]
+> [!div class="mx-imgBorder"] 
+> ![](media/new-dynamic-segment-hilites.png "Change segment type")
      
-   - **In step two, we will start creating our first filter**. Use the "filter" bar to select an entity. Once we selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have one of three value types: A numerical, a string, or a date. In the example below, an attribute with a numerical value is used as a filter:
+- **In step two, we will start creating our first filter**. Use the "filter" bar to select an entity. Once we selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have one of three value types: A numerical, a string, or a date. In the example below, an attribute with a numerical value is used as a filter:
      
-     [4]
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-group-numbers.png "Customer group filter")
+
+1: Entity type
+2: Attribute type
+3: Operator
+4: Value
      
-   - **In step three, which is optional, we will add more rules to our filter**. Two roles are available on the entity level: 
+- **In step three, which is optional, we will add more rules to our filter**. Two roles are available on the entity level: 
      ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
      creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
      attribute):
      
-     [5]
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-group-numbers-more-roles.png "Customer group with more roles")
      
-   - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon selecting **Add Group**, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3. 
+- **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon selecting **Add Group**, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3. 
    
-     [6]
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-group-numbers-add-group.png "Customer group add group")
    
-        - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded:
+       - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded:
        
-          [7]
+       > [!div class="mx-imgBorder"] 
+       > ![](media/customer-group-union.png "Customer group add union")
 
        - Choosing ***Intersect*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values will be excluded.
 
@@ -74,7 +84,8 @@ Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the 
 ## Creating segments from the Profile page
 This can be quickly done by setting filtering selections as described in the *Profile* page section and saving those definitions as a segment:
 
-[8]
+> [!div class="mx-imgBorder"] 
+> ![](media/profile-filter.png "Filter profiles")
 
 [?]
 
@@ -82,7 +93,8 @@ This can be quickly done by setting filtering selections as described in the *Pr
 Here you can view all your segments as well as suggested segments. These are the page components:
 - **Your saved Segments:** Dynamic Segments appear to the left and Static Segments appear to the right. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment, and several other possibilities (highlighted in red below) that can be accessed via  <b>...</b> as highlighted in blue below:
 
-[9]
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-menu-hilite.png "Segment menu")
 
 Those other options include:
     - Editing this particular segment
@@ -93,12 +105,14 @@ Those other options include:
     
 - **Recommended segments**: Those appear at the lower part of the page as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that specific suggestion
 
-[10]
+> [!div class="mx-imgBorder"] 
+> ![](media/recommended-segments.png "Recommended segments")
 
 ## Exploring a particular segment from the Segments page
 Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc.) with the button at the upper-right corner of the tile:
 
-[11]
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-time-range.png "Segment time range")
 
 The lower part includes a table with all your segment members properties. Those include: 
 - Members Names
@@ -112,8 +126,11 @@ The lower part includes a table with all your segment members properties. Those 
 ## Acting upon the data: Exporting a segment
 Exporting a segment to .csv file is possible either through the *Segments page* by selecting <b>...</b> within a specific segment's tile (shown below, upper image), or by entering the specific segment page and selecting **Export** at the top-right corner of the page (shown below, lower image):
 
-[12]
-[13]
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-menu-export.png "Export segment")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-menu-export-top.png "Export segment")
 
 Once exported, you can expect to find all the information on that particular segment within the .csv file. An example is shown below:
 
