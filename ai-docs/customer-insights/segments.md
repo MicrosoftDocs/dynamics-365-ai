@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Segments
+# Segments 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -33,15 +33,16 @@ We will explore two ways to create segments. We will also show how to best explo
 ## Creating segments from the segment page
 Within the segments page, select **Add Segment** as shown below to start the segment creation process. You can choose either to create a  ***Static segment***, to create a ***Dynamic segment***, or to go to the *Profile* page and create a segment through the filter tab (explained later):
 
-[1]
-
+> [!div class="mx-imgBorder"] 
+> ![](media/add-segment-full.png "Add segment")
 
 ***Dynamic segments*** change with time as data updates, while ***Static segments*** are fixed. An example for a case that fits Static segment might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. Segments that are automatically updated with time. A case that fits Dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers with time (tracking the change/lift in those KPIs).
 
 - **Segment creation process**:
 Once you choose **Add Dynamic Segment** or **Add Static Segment** you go to the **Segment Creation** page:
 
-[2]
+> [!div class="mx-imgBorder"] 
+> ![](media/new-dynamic-segment.png "New dynamic segment")
 
    - **We start by defining the segment's properties**: We will give our segment a name and description, click the first slider (highlighted in blue below) if we wish to change from Dynamic segment to Static segment or vice versa, and click the second slider (highlighted in red below) to activate our segment if it's a dynamic segment (otherwise it will not incorporate new information on our customers as our data is refreshed):
      
