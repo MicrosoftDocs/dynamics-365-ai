@@ -2,7 +2,7 @@
 title: "Topic Details dashboard"
 description: "Learn about the customer service insights available on the Topic Details dashboard​."
 keywords: ""
-ms.date: 9/27/2018
+ms.date: 10/4/2018
 ms.service:
   - "business-applications"
 ms.topic: article
@@ -16,9 +16,9 @@ manager: shellyha
 
 ![Topic Details dashboard](media/ai-csi-topic-details-dash.png)
 
-The Topic Details dashboard gives you a detailed overview of key performance indicators during the specified time period for cases related to a specific support topic. Dynamics 365 AI for Customer Service uses artificial intelligence technology to categorize customer support cases by topic.
+The Topic Details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using natural language understanding (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
-The Topic Details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts in the [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), or [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboard.
+The Topic Details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts on the [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), or [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboard. Hover over **Drillthrough** and then click **Topic Drill Through** to display the dashboard.
 
 The Topic Details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 

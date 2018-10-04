@@ -2,7 +2,7 @@
 title: "KPI Summary dashboard"
 description: "Learn about the customer service insights available on the KPI Summary dashboard​."
 keywords: ""
-ms.date: 9/27/2018
+ms.date: 10/4/2018
 ms.service:
   - "business-applications"
 ms.topic: article
@@ -16,7 +16,7 @@ manager: shellyha
 
 ![KPI Summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
-The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of the performance of your customer support system for a specified time period.
+The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of your customer service experience, including using natural language understanding (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 
 You can display KPI Summary, [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 

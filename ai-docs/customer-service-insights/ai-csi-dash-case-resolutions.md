@@ -2,7 +2,7 @@
 title: "Case Resolutions dashboard​"
 description: "Learn about the customer service insights available on the Case Resolutions dashboard."
 keywords: ""
-ms.date: 9/27/2018
+ms.date: 10/4/2018
 ms.service:
   - "business-applications"
 ms.topic: article
@@ -16,7 +16,7 @@ manager: shellyha
 
 ![Case Resolutions dashboard](media/ai-csi-case-resolutions-dash.png)
 
-The Case Resolutions dashboard gives you an overview of your customer support system's case resolution performance for the specified time period.
+The Case Resolutions dashboard gives you an overview of your customer service system's case resolution performance, including using natural language understanding (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), Case Resolutions, and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 

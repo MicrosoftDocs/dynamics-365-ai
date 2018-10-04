@@ -40,4 +40,4 @@ For details on the AI for Customer Service dashboards, see the following topics:
 * [CSAT Dashboard](ai-csi-dash-CSAT.md)
 * [Topic Details Dashboard](ai-csi-topic-details.md)
 
-For information about specifying settings for connections and data cleansing, see [AI for Customer Service settings](ai-csi-settings.md).
+For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](ai-csi-settings.md).

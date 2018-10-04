@@ -2,7 +2,7 @@
 title: "Customer Satisfaction dashboard "
 description: "Learn the customer service insights available on the Customer Satisfaction dashboard​."
 keywords: ""
-ms.date: 9/27/2018
+ms.date: 10/4/2018
 ms.service:
   - "business-applications"
 ms.topic: article
@@ -16,7 +16,7 @@ manager: shellyha
 
 ![Customer Satisfaction dashboard](media/ai-csi-CSAT-dash.png)
 
-The Customer Satisfaction dashboard gives you an overview of customer satisfaction with their support experience during the specified time period.
+The Customer Satisfaction dashboard gives you an overview of customer satisfaction (CSAT), including using natural language understanding (AI) technology to show you topics that are having the greatest impact on CSAT scores.
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and Customer Satisfaction dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
