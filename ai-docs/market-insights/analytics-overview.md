@@ -21,7 +21,7 @@ search.app:
 
 # Understand widgets on the overview page
 
-Start your analysis with an overview of the data that your solution has acquired so far. Find key widgets that provide information such as the volume of posts, their sources, sentiment, and where the posts are coming from.  
+Start your analysis with an overview of the data that your solution has acquired so far. Find key widgets that provide information such as the volume of posts, their sources, sentiment, demographic data (in the United States), and where the posts are coming from.  
   
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Overview** to access the overview page.  
 
@@ -29,6 +29,13 @@ In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to *
   
 > [!NOTE]
 > **Overview** is the default page when you go to the Analytics area, or when you choose **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]** on the navigation bar.  
+
+## Age
+
+Shows the distribution of age groups based on Bing Search data. The demographic segmentation by age relates to the keywords in your search topics. It shows which segment of people   have searched for keywords in your search topics on Bing during your time frame.
+
+> [!NOTE]
+> This widget only shows for organizations based in the United States. There’s no data available when selecting **Today** as the time frame because search volume data is not real-time and experiences a minimum of 24h lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show.
 
 ## Authors
 
