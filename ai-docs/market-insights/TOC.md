@@ -12,7 +12,6 @@
 ### [Set up a trial solution](provision-trial-solutions.md)
 ### [Sign in to Market Insights](sign-in.md)
 ### [Set your preferences for the user interface](user-preferences.md)
-### [Get help with Market Insights](get-help.md)
 ### [Stay up to date with alerts](email-alerts.md)
 ### [Optimize browser settings for Market Insights](system-browser-settings.md)
 ## [Administer Market Insights](settings-administration.md)
