@@ -45,6 +45,13 @@ To add a filter for multiple authors at once, select the check boxes on the left
 > Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
 
+## Gender
+
+Shows the distribution of genders based on Bing Search data. The demographic segmentation by gender relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your time frame.
+
+> [!NOTE]
+> This widget only shows for organizations based in the United States. There’s no data available when selecting **Today** as the time frame because search volume data is not real-time and experiences a minimum of 24h lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show.
+
 ## Languages
 
 Lists the five most-used languages based on the volume of posts and trend indicator.
@@ -91,6 +98,13 @@ Click the **Full view** button ![full view button](media/open-full-view-icon.png
 ## Volume
 
 Shows the total number of posts and the average number of posts for the selected data set over time.
+
+Additionally, organizations based in the United States see an additional line for **Bing Search  trend**. This line indicates the volume of searches on Bing (on an aggregated, anonymized, and normalized basis) for the keywords in your data set. 
+The trend line is scaled from 0-100, with 0 representing very low search volume and 100 representing peak search volumes. The peak search volume is defined relatively to its own search volume and therefore not an absolute peak across different search topics. 
+
+> [!NOTE]
+> **Bing Search trends** aren’t available when selecting **Today** as the time frame because search volume data is not real-time and experiences a minimum of 24h lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this line won’t show.
+
   
 ### See Also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
