@@ -101,7 +101,7 @@ Commonly used screen readers are supported, empowering the blind, visually impai
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
-- [Learn more about working with NVDA](https://www.nvaccess.org/help/)
+- [Learn more about working with NVDA](https://www.nvaccess.org/get-help/)
 
 ### Use the keyboard to navigate the user interface
 

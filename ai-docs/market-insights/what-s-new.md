@@ -29,6 +29,17 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Market Insights Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] 2018 Update 1.9
+
+### Home - your new start page
+
+After signing in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], the app presents a new start page called **Home**. It provides helpful resources and additional information in one spot. We'll be adding more features to the start page in future releases.
+
+### Quick setup and initial insights in fresh solutions
+
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will guide users of newly created solutions to success. This quick setup is available to you on **Home** if your solution doesn't have any search topics set up yet. 
+You will create your first search topic and get initial insights within minutes.
+
 ## [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] 2018 Update 1.8
 
 ### Provide your feedback about [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]

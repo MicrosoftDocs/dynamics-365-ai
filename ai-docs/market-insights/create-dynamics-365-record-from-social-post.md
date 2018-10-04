@@ -63,6 +63,9 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
 
 2. Go to the post you want to convert to a social activity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then click **Link to Dynamics 365** ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights").  
 
+> [!NOTE]
+> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
+
    ![link to dynamics 365 button in market insights](media/link-post-to-dynamics-365.png "Link to Dynamics 365 button in Market Insights")  
 
 3. Select from the available instances, and then select the record type you want to create from the **Entity** drop-down list. The **Entity** drop-down list shows only those entities that are configured in the **Dynamics 365 Instance** panel in the **Dynamics 365 Record Details** section. If a single entity is configured with an instance, it will be selected by default.  
