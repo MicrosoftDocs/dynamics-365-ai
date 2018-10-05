@@ -16,7 +16,7 @@ manager: shellyha
 
 ![Customer Satisfaction dashboard](media/ai-csi-CSAT-dash.png)
 
-The Customer Satisfaction dashboard gives you an overview of customer satisfaction (CSAT), including using natural language understanding (AI) technology to show you topics that are having the greatest impact on CSAT scores.
+The Customer Satisfaction dashboard gives you an overview of customer satisfaction (CSAT), including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on CSAT scores.
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and Customer Satisfaction dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
@@ -30,7 +30,7 @@ Chart | Link
 ![Survey responses by city](media/ai-csi-responses-by-city.png) | [Survey responses by city](#survey-responses-by-city-chart)
 ![Top CSAT impactors](media/ai-csi-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 
-The *Top CSAT impactors* chart uses artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
+The *Top CSAT impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 

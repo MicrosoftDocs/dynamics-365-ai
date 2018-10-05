@@ -16,7 +16,7 @@ manager: shellyha
 
 ![KPI Summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
-The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of your customer service experience, including using natural language understanding (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
+The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 
 You can display KPI Summary, [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
@@ -33,8 +33,7 @@ Chart | Link
 ![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
 ![Top resolve time impactors](media/ai-csi-top-resolve-time.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
-The *Top case volume impactors* and *Top resolve time impactors* charts use artificial intelligence technology to
-group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
+The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 

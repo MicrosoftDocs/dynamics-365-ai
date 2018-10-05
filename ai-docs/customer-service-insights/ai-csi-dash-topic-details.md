@@ -16,7 +16,7 @@ manager: shellyha
 
 ![Topic Details dashboard](media/ai-csi-topic-details-dash.png)
 
-The Topic Details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using natural language understanding (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
+The Topic Details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
 The Topic Details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts on the [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), or [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboard. Hover over **Drillthrough** and then click **Topic Drill Through** to display the dashboard.
 
@@ -35,7 +35,7 @@ Chart | Link
 ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
-The *Top CSAT impactors* and *Top resolve time impactors* charts use artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
+The *Top CSAT impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 

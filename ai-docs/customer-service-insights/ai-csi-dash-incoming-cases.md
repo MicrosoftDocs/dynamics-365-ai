@@ -16,7 +16,7 @@ manager: shellyha
 
 ![Incoming Cases dashboard](media/ai-csi-incoming-cases-dash.png)
 
-The Incoming Cases dashboard gives you an overview of the incoming cases in your customer service system, including using natural language understanding (AI) technology to help you identify emerging issues.
+The Incoming Cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
 You can display [KPI Summary](ai-csi-dash-kpi-summary.md), Incoming Cases, [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
@@ -30,7 +30,7 @@ Chart | Link
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
 ![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-The *Current popular topics* and *Emerging topics* charts use artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
+The *Current popular topics* and *Emerging topics* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 
 By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
