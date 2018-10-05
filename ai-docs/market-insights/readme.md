@@ -23,10 +23,6 @@ search.app:
 
 This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].
 
-## Resources
-
-Visit the [Market Insights Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) on Microsoft Docs to find help content for admins and users.
-
 Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Market Insights](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, please go to the [Community forum](https://community.dynamics.com/crm/f/752).
 
 ## Integration scenarios - known issues
@@ -48,12 +44,8 @@ tablets, the following restrictions apply:
 
 ### Microsoft Dynamics 365 domains must be added to Allowed Domains to enable integration
 
-For integration between Microsoft Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)],
-your [Microsoft Dynamics 365 domains must be added as allowed domains in
-Microsoft Social
-Engagement](connect-other-domains.md).
-This will ensure that only the Dynamics 365 domains you own can make requests to
-your data.
+For the integration between Microsoft Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], your Dynamic 365 [domains must be added as allowed domains in Market Insights](connect-other-domains.md).
+This will ensure that only the Dynamics 365 domains you own can make requests to your data.
 
 If you are a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] administrator, you can do this by going to
 **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as
