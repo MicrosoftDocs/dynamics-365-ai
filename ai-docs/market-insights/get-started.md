@@ -45,11 +45,11 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 ## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
   
-> [!NOTE]
->  To use [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription and be set up as a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] user by your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Administrator. This means that your organization also needs to have a license for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
-  
 [Sign in to Market Insights](https://social.dynamics.com/login) directly or review additional options to [access Market Insights](sign-in.md)  
-  
+
+> [!NOTE]
+> The first user, usually the global admin, needs to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and confirm the solution isn’t used by or on behalf of a government customer before other users can access the service. 
+ 
 ## Navigate the application’s main areas  
  Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
 
