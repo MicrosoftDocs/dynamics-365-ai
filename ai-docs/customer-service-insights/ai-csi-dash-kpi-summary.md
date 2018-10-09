@@ -16,18 +16,18 @@ manager: shellyha
 
 ![KPI Summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
-The KPI (Key Performance Indicator) Summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
+The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 
-You can display KPI Summary, [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
+You can display KPI summary, [Incoming cases](ai-csi-dash-incoming-cases.md), [Case resolutions](ai-csi-dash-case-resolutions.md), and [Customer satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
-The KPI Summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
 Chart | Link
 ----- | ----
 ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts)
 ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart)
 ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart)
-![Case channels](media/ai-csi-case-channels.png) | [Case channels](#case-channels-chart)
+![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channels-chart)
 ![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart)
 ![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart)
 ![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
@@ -76,11 +76,11 @@ Description | Details
 ----------- | -------
 Total case breakdown | *[Total case breakdown by [Rollover cases (backlog)] + [New cases] for the specified time period]*
 
-## Case channels chart
+## Case channel chart
 
-![Case channels chart](media/ai-csi-case-channels.png)
+![Case channel chart](media/ai-csi-case-channels.png)
 
-The case channels chart shows the breakdown in support cases for the specified time period by support channel.
+The case channel chart shows the breakdown in support cases for the specified time period by support channel.
 
 Description | Details
 ----------- | -------

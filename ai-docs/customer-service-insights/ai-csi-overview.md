@@ -1,5 +1,5 @@
 ---
-title: "AI for Customer Service Overview"
+title: "AI for Customer Service overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service."
 keywords: ""
 ms.date: 9/27/2018
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Dynamics 365 AI for Customer Service Overview
+# Dynamics 365 AI for Customer Service overview
 
 Dynamics 365 AI for Customer Service gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer support system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
 
@@ -20,7 +20,7 @@ AI for Customer Service uses artificial intelligence technology to enable you to
 
 The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 
-![KPI Summary dashboard](media/ai-customer-service-insights.png)
+![KPI summary dashboard](media/ai-customer-service-insights.png)
 
 *The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service.*
 
@@ -34,10 +34,10 @@ For more information and examples of how to use the AI for Customer Service dash
 
 For details on the AI for Customer Service dashboards, see the following topics:
 
-* [KPI Summary Dashboard](ai-csi-dash-kpi-summary.md)
-* [Incoming Cases Dashboard](ai-csi-dash-incoming-cases.md)
-* [Case Resolutions Dashboard](ai-csi-dash-case-resolutions.md)
-* [CSAT Dashboard](ai-csi-dash-CSAT.md)
-* [Topic Details Dashboard](ai-csi-topic-details.md)
+* [KPI summary dashboard](ai-csi-dash-kpi-summary.md)
+* [Incoming cases dashboard](ai-csi-dash-incoming-cases.md)
+* [Case resolutions dashboard](ai-csi-dash-case-resolutions.md)
+* [CSAT dashboard](ai-csi-dash-CSAT.md)
+* [Topic details dashboard](ai-csi-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](ai-csi-settings.md).

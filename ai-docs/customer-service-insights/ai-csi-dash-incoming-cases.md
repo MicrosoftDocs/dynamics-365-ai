@@ -1,6 +1,6 @@
 ---
-title: "Incoming Cases dashboard"
-description: "Learn about the customer service insights available on the Incoming Cases dashboard."
+title: "Incoming cases dashboard"
+description: "Learn about the customer service insights available on the Incoming cases dashboard."
 keywords: ""
 ms.date: 10/4/2018
 ms.service:
@@ -12,20 +12,20 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Incoming Cases dashboard​
+# Incoming cases dashboard​
 
-![Incoming Cases dashboard](media/ai-csi-incoming-cases-dash.png)
+![Incoming cases dashboard](media/ai-csi-incoming-cases-dash.png)
 
-The Incoming Cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
+The Incoming cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
-You can display [KPI Summary](ai-csi-dash-kpi-summary.md), Incoming Cases, [Case Resolutions](ai-csi-dash-case-resolutions.md), and [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic Details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI Summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
+You can display [KPI summary](ai-csi-dash-kpi-summary.md), Incoming cases, [Case resolutions](ai-csi-dash-case-resolutions.md), and [Customer satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
 
-The Incoming Cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
 Chart | Link
 ----- | ----
 ![Case priority chart](media/ai-csi-case-priority-incoming.png) | [Case priority](#case-priority-chart)
-![Case channels chart](media/ai-csi-case-channels-incoming.png) | [Case channels](#case-channels-chart)
+![Case channel chart](media/ai-csi-case-channels-incoming.png) | [Case channel](#case-channels-chart)
 ![Case timing chart](media/ai-csi-case-timing.png) | [Case timing](#case-timing-chart)
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
 ![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
@@ -42,11 +42,19 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 The case priority chart shows the breakdown in new support cases each day in the specified time period between high, medium, and low priority cases.
 
-## Case channels chart
+Description | Details
+----------- | -------
+Case priority | *[Daily incoming case breakdown by case priority]*
 
-![Case channels chart](media/ai-csi-case-channels-incoming.png)
+## Case channel chart
 
-The case channels chart shows the breakdown in new support cases each day in the specified time period between different support channels.
+![Case channel chart](media/ai-csi-case-channels-incoming.png)
+
+The case channel chart shows the breakdown in new support cases each day in the specified time period between different support channels.
+
+Description | Details
+----------- | -------
+Case channel | *[Daily incoming case breakdown by channel]*
 
 ## Case timing chart
 
@@ -54,17 +62,25 @@ The case channels chart shows the breakdown in new support cases each day in the
 
 The case timing chart shows the trends in the time of day of new support cases for each channel during the time period.
 
+Description | Details
+----------- | -------
+Case timing | *[Incoming case breakdown by channel and time of day]*
+
 ## Current popular topics chart (AI Insights)
 
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png)
 
-The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period, showing:
+The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period.
 
-* The percent of the total incoming case volume.
-* The number of incoming support cases.
-* The average resolution time.
-* The resolution rate.
-* The average customer satisfaction score for each topic.
+Description | Details
+----------- | -------
+Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
+Volume | *[The incoming cases associated with this topic]* / *[Total incoming cases]*
+Number of cases | *[The incoming cases associated with this topic]*
+Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
+Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
+Resolve rate | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]*
+Average CSAT  | *[The average customer satisfaction score of incoming cases associated with this topic]*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
@@ -72,12 +88,16 @@ To see additional information about each topic, right-click the topic name and s
 
 ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
-The emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of the change in volume over the specified time period, showing:
+The emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of the change in volume over the specified time period.
 
-* The percent of the change in volume.
-* The number of incoming cases.
-* The average resolution time.
-* The resolution rate.
-* The average customer satisfaction score.
+Description | Details
+----------- | -------
+Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
+Volume | *[The incoming cases associated with this topic]* / *[Total incoming cases]*
+Number of cases | *[The incoming cases associated with this topic]*
+Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
+Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
+Resolve rate | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]*
+Average CSAT  | *[The average customer satisfaction score of incoming cases associated with this topic]*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

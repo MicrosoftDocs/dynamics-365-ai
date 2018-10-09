@@ -1,6 +1,6 @@
 ---
-title: "Topic Details dashboard"
-description: "Learn about the customer service insights available on the Topic Details dashboard​."
+title: "Topic details dashboard"
+description: "Learn about the customer service insights available on the Topic details dashboard​."
 keywords: ""
 ms.date: 10/5/2018
 ms.service:
@@ -12,21 +12,21 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Topic Details dashboard
+# Topic details dashboard
 
-![Topic Details dashboard](media/ai-csi-topic-details-dash.png)
+![Topic details dashboard](media/ai-csi-topic-details-dash.png)
 
-The Topic Details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
+The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
-The Topic Details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts on the [KPI Summary](ai-csi-dash-kpi-summary.md), [Incoming Cases](ai-csi-dash-incoming-cases.md), [Case Resolutions](ai-csi-dash-case-resolutions.md), or [Customer Satisfaction](ai-csi-dash-CSAT.md) dashboard. Hover over **Drillthrough** and then click **Topic Drill Through** to display the dashboard.
+The Topic details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts on the [KPI summary](ai-csi-dash-kpi-summary.md), [Incoming cases](ai-csi-dash-incoming-cases.md), [Case resolutions](ai-csi-dash-case-resolutions.md), or [Customer satisfaction](ai-csi-dash-CSAT.md) dashboard. Hover over **Drillthrough** and then click **Topic Drill Through** to display the dashboard.
 
 ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.png)
 
-The Topic Details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
 Chart | Link
 ----- | ----
-![Topic Details KPI charts](media/ai-csi-topic-details-kpi-charts.png) | [Topic Details KPI charts](#topic-details-kpi-charts)
+![Topic details KPI charts](media/ai-csi-topic-details-kpi-charts.png) | [Topic details KPI charts](#topic-details-kpi-charts)
 ![Overall impact charts](media/ai-csi-overall-impact.png) | [Overall impact charts](#overall-impact-charts)
 ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png) | [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
 ![Agents with longest resolve time chart](media/ai-csi-agents-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
