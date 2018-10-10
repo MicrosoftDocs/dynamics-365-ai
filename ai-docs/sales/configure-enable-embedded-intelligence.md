@@ -14,7 +14,7 @@ ms.assetid: f2ba3ad4-96a0-47a9-a54a-71265f4d8053
 caps.latest.revision: 28
 author: "udag"
 ms.author: "udag"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # Configure and enable embedded intelligence
 
@@ -32,30 +32,32 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises) | <ul><li>Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>|
 |[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Relationship assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
-## How to enable embedded intelligence 
-As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable embedded intelligence for your organization to:
+> [!IMPORTANT]
+> The features Relationship assistant, Email engagement, and Auto capture are available for Dynamics 365 for Enterprise license only.
+
+
+## How to enable Embedded intelligence 
+
+As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable Embedded intelligence for your organization to:
 - Enable and configure features such as Relationship assistant, Email engagement, and Auto capture.  
-- Install Sales insights add-on for preview. 
+- Enable Dynamics 365 AI for Sales. 
 
 > [!IMPORTANT]
-> Embedded intelligence provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise and enable the features only if you're certain that they don't violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. 
+> Sales AI provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise and enable the features only if you're certain that they don't violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. 
 
-To enable the embedded intelligence:
+To enable, follow these steps:
 
-1. Go to **Settings** > **Intelligence Configuration**.<br>
+1. Go to **Settings** > **Sales AI**.<br>
 ![Select Intelligence configuration](media/intelligence-configuration-option.png "Select Intelligence configuration") <br>
-2. On the **Overview** tab, select **I Accept** to accept the privacy statement for **Embedded intelligence**.<br>
+2. On the **Overview** tab, select **I Accept** to accept the privacy statement for **Sales AI**.<br>
 ![Accept privacy statement of Embedded intelligence](media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
 
-Embedded intelligence is enabled for your organization and you can configure features such as Relationship assistant, Email engagement, and Auto capture.
-
->[!NOTE]
-> After you accept privacy notes of all embedded intelligence features, they're available on a single settings page, which provides a tab for each feature.
+Sales AI is enabled for your organization and you can configure features such as Relationship assistant, Email engagement, Auto capture, and Dynamics 365 AI for Sales.
 
 ## Enable and configure Relationship assistant
 
 To enable cards such as task due today, custom activity due today, and email due today to users in your organization, you can configure Relationship assistant. 
-Also, you can enable notes analysis that helps users to take actions on highlighted text on cards.
+
 
 > [!IMPORTANT]
 > By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement.
@@ -74,16 +76,16 @@ Assign user privileges to give access to the Relationship assistant features. Th
 
 ### How to configure Relationship assistant
 
-1. Go to **Settings** > **Intelligence Configuration**.
+1. Go to **Settings** > **Sales AI**.
 2. To open the Relationship assistant configuration page, select **Configure** on the **Relationship assistant** tile or select the **Relationship assistant** tab.<br>
    ![Select Relationship assistant configuration](media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
 3. Configure which cards to use in your organization and fine tune their behavior. Work with these settings as follows:
-   - Cards are categorized by type, such as **Base** and **Advanced**.
+   - Cards are categorized by type, such as **Base** and **Advanced**. By default, the advanced cards are not enabled. To enable the advanced cards, select the check box in the **Advancd Cards** section.
    - Enable or disable specific action cards as needed by using the check boxes provided for each card.
    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
+   - 
    ![Relationship assistant configuration page](media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
-   4.  To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
-   <!-- add image -->
+
 4. On top of the page, select **Save** to save your settings.<br> 
 
 Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](relationship-assistant.md)
@@ -92,7 +94,7 @@ Users can also set their own personal preferences for their action cards. They c
 Enabling the Email engagement helps the user in your organization to receive alerts and reminders that help build customer relationships.
 > [!NOTE]
 > If you enable Email engagement, we strongly recommend that you also enable Relationship assistant, because Email engagement relies on some of its features.
-> 
+
 > [!IMPORTANT]
 > By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement.
 
@@ -104,10 +106,11 @@ Verify the following prerequisites before enabling Email engagement for your org
 
 ### How to enable Email engagement
 
-1.  Go to **Settings** > **Intelligence Configuration**.
+1.  Go to **Settings** > **Sales AI**.
 2.  Select **Grant Permissions**. <br>
+    ![Email engagement grant permissions](media/email-engagement-grant-permissions.png "Email engagement grant permissions") <br>
     > [!NOTE]
-    > If the Sales insights add-on is installed using Intelligence Configuration, this step will be skipped. You don't have to grant permissions to Email engagement.<br>
+    > If the Dynamics 365 AI for Sales is installed, this step will be skipped. You don't have to grant permissions to Email engagement.<br>
 
     Email engagement is enabled and ready to use in your organization. <br>
 
@@ -139,6 +142,7 @@ After you accept the privacy statement for embedded intelligence, Auto capture i
 
 ### See also
 
+-  [Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)
 -  [Guide customer communications](relationship-assistant.md)
 -  [View message interactions](email-engagement.md)
 -  [Display emails](auto-capture.md)

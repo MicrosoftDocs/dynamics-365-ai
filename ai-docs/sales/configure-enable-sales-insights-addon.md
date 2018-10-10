@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: 93676b52-d168-497d-957f-ae2c8627645a
 author: udaykirang
 ms.author: udag
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,49 +20,72 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Preview feature: Install and configure the Sales insights add-on
+# Preview feature: Enable and configure Dynamics 365 AI for Sales
 
 Applies to Dynamics 365 (online), version 9.0.2
 
-The Sales insights add-on contains Relationship analytics and predictive lead scoring features. These feature isn't available by default. To use this feature, you need to install the Sales insights add-on. <br>
-> [!NOTE]
-> To install this feature, you must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
+Enabling and configuring the Dynamics 365 AI for Sales features helps the user to effectively use the Dynamics 365 AI for Sales app. The Dynamics 365 AI for Sales contains the following features:
+- Relationship analytics
+- Predictive lead scoring
+- Predictive oppportunity scoring
+- Notes analysis
+- Connection insights
 
-To understand how Relationship analytics and predictive lead scoring works are used, see [Relationship analytics](relationship-analytics.md) and [Predictive Lead Scoring](work-predictive-lead-scoring.md).<br>
-To know about Sales insights add-on related **General Data Protection Regulation (GDPR)**, see [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md).
+## GDPR
+To know about Dynamics 365 AI for Sales related **General Data Protection Regulation (GDPR)**, see [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md).<br>
 
-To install and configure Relationship analytics and Predictive lead scoring:
-1. [Install the Sales insights add-on](#install-the-sales-insights-add-on).
-2. [Configure Relationship analytics](#configure-the-sales-insights-add-on).
-3. [(Optional) Uninstall the Sales insights add-on](#optional-uninstall-the-sales-insights-add-on).
+## Prerequisites
+Review the following requirements before you emable and configure Dynamics 365 AI for Sales feature:
+- You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
+- You must enable **Embedded intelligence**. (../includes/proc-more-information.md)] [How to enable embedded intelligence](configure-enable-embedded-intelligence.md#How-to-enable-embedded-intelligence)
 
-### Install the Sales insights add-on 
-1.	Go to **Settings** > **Intelligence Configuration**.<br>
-     ![Embedded intelligence home screen](media/install-sales-insights-addon.png "Embedded intelligence home screen")  
-     <br>
-    > [!NOTE]
-    > If you're using embedded intelligence for the first time, enable the features. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to enable embedded intelligence](#How-to-enable-embedded-intelligence).<br>
-2.  On the **Sales insights add-on** tile, select **Install**. <br>
-    ![Sales insights addon tile](media/install-sales-insights-addon-tile.png "Sales insights addon tile")  
-     <br>
-3.	On the **Sales Insights** installation page, carefully read and select the terms and conditions, and then select **Continue**. <br>
+## Enable Dynamics 365 AI for Sales features
+Dynamics 365 AI for Sales features are not available by default. You must enable these features by selecting an organization.
+Follow these steps:
+1. On the **AI setup** page, select **Get it now**.   
+    ![Get Dynamics 365 AI for sales](media/d365-ai-sales-getitnow.png "Get Dynamics 365 AI for sales")<br>
+2. On the **Sales Insights** installation page, carefully read and select the terms and conditions, and then select **Continue**. <br>
     The installation takes a few minutes to complete, and then the status appears in the status bar.<br>
     ![Accept sales insights addon terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions") <br>
-Now you're ready to configure Relationship analytics and Predictive Lead Scoring.
+    Status of installation is displayed. When complete, you're ready to configure Dynamics 365 AI for Sales features.
 
-### Configure the Sales insights add-on
+## Configure Relationship analytics
+Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account. To configure Relationship analytics, follow these steps:
 
-After you install the Sales insights add-on, perform the following steps to configure Relationship analytics and Predictive lead scoring according to the requirements of your organization.
-
-1. On the **Sales insights add-on** installation page, select **Go to Configuration**.<br>
+1. On the **Overview** tab, select **Configuration** from **Relationship analytics** section.<br>
+   ![Relationship analytics configuration](media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
 -OR-   
-You can also select **Configuration** on the **Relationship analytics** or **Predective lead scoring** tile, which is on the embedded intelligence **Overview** tab. This option is available only after you install the Sales insights add-on.<br>
-![Relationship analytics and Predictive lead scoring configuration](media/relationship-analytics-lead-scoring-configuration.png "Relationship analytics and Predictive lead scoring configuration configuration") <br>
+You can also select **Relationship analytics** tab. <br>
 The configuration page opens.
-2. To configure [Relationship analytics](#RelationshipAnalytics) and [Predictive lead scoring](#PredictiveLeadScoring), perform the following steps:<br>
-<a name="RelationshipAnalytics"></a>**Relationship analytics:**<br>
-   a. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**. <br>
-      ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics") <br>
+2. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.
+   ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics") <br>
+
+
+
+
+
+## Configure Predective lead scoring
+
+
+
+
+## Configure Predective opportunity scoring
+
+
+
+## Configure Notes analysis
+
+
+
+
+## Configure Connection insights
+
+
+
+ or **Predective lead scoring** tile, which is on the embedded intelligence **Overview** tab. This option is available only after you install the Sales insights add-on.<br>
+![Relationship analytics and Predictive lead scoring configuration](media/relationship-analytics-lead-scoring-configuration.png "Relationship analytics and Predictive lead scoring configuration configuration") <br>
+
+      
    b. On the **Relationship analytics** page, configure the parameters as described in the following table.
       |**Parameter**|**Description**|  
       |---------------------|----------------------------------------------|
