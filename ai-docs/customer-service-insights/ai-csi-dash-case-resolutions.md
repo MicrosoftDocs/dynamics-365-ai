@@ -65,7 +65,7 @@ The agents with most escalations chart shows the number of active and resolved s
 
 Description | Details
 ----------- | -------
-Agents with most escalations | *[Active and resolved cases by agent]*
+Agents with most escalations | *[Number of active and resolved cases by agent]*
 
 ## New escalations versus resolved escalations chart
 

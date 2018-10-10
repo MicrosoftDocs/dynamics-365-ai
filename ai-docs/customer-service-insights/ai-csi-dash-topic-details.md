@@ -45,29 +45,36 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ![Topic Details KPI charts](media/ai-csi-topic-details-kpi-charts.png)
 
-The topic details KPI charts display a variety of key performance indicators for the topic's support cases during the specified time period:
+The topic details KPI charts display a variety of key performance indicators for the support cases during the specified time period that are associated with the topic.
 
-* The number of new (incoming) support cases.
-* The number of resolved support cases.
-* The number of escalated support cases.
-* The number of support cases that are compliant with their service level agreement (SLA).
-* The average case resolution time.
-* The average customer satisfaction score (CSAT).
+Description | Details
+----------- | -------
+Total cases | *[New cases created within the specified time period]* + *[Rollover of active cases]* + *[Rollover of cases resolved within the specified time period]* + *[Rollover of cases cancelled within the specified time period]*
+Resolutions | *[All cases resolved within specified time period]*
+Escalations | *[All cases escalated within specified time period]*
+SLA compliant | *[Of the total cases, the cases that are SLA compliant]* (including rollover cases and new cases that are SLA compliant)
+Average resolution time | *[The average resolution time of all cases resolved within specified time period]*
+Average CSAT | *[The sum of CSAT scores]* / *[The count of resolved cases that have CSAT values]*
 
 ## Overall impact charts
 
 ![Overall impact charts](media/ai-csi-overall-impact.png)
 
-The overall impact charts show:
+The topic details overall impact charts summarize the impact on customer satisfaction and resolution time during the specified time period of support cases that are associated with the topic.
 
-* The percent difference between the average customer satisfaction score for the topic's support cases during the specified time period and the overall average customer satisfaction score during the period.
-* The percent difference between the average resolution time for the topic's support cases during the specified time period and the overall average resolution time during the period.
-
+Description | Details
+----------- | -------
+Overall average CSAT impact | 1 – (*[Average CSAT score not including the current topic]* / *[Overall average CSAT score for all topics]*)
+Overall average resolve time impact | 1 – (*[Average resolution time not including the current topic]* / *[Overall average resolution time for all topics]*)
 ## Agents with most unresolved cases chart
 
 ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png)
 
 The agents with most unresolved cases chart shows the number of unresolved support cases for each agent for the topic in the specified time period.
+
+Description | Details
+----------- | -------
+Agents with most unresolved cases | *[Number of unresolved cases in descending order by agent]*)
 
 ## Agents with longest resolve time chart
 
@@ -75,11 +82,19 @@ The agents with most unresolved cases chart shows the number of unresolved suppo
 
 The agents with longest resolve time chart shows the average resolution time for each agent for the topic's support cases in the specified time period.
 
+Description | Details
+----------- | -------
+Agents with longest resolve times | *[Average resolution time in descending order by agent]*)
+
 ## Agents with lowest CSAT chart
 
 ![Agents with lowest CSAT chart](media/ai-csi-lowest-CSAT.png)
 
 The agents with lowest CSAT chart shows the average customer satisfaction score for each agent for the topic's support cases in the specified time period.
+
+Description | Details
+----------- | -------
+Agents with lowest CSAT | *[Average CSAT score in descending order by agent]*)
 
 ## Topic journey chart
 
@@ -87,16 +102,23 @@ The agents with lowest CSAT chart shows the average customer satisfaction score 
 
 The topic journey chart shows the path of the topic's support cases during the specified time period from the support channel where they were opened, and whether they were escalated, to their status at the end of the specified time period.
 
+Description | Details
+----------- | -------
+Topic journey | *[Sankey diagram showing the flow of support cases by support channel]*)
+
 ## Top CSAT impactors chart (AI Insights)
 
 ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png)
 
-The top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product. The chart includes:
+The top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product. 
 
-* The support channel and product.
-* The average resolution time for the channel and product's support cases.
-* The average customer satisfaction score for the channel and product's support cases.
-* The impact that the channel and product are having on the overall customer satisfaction score.
+Description | Details
+----------- | -------
+Channel | *[A support channel associated with the topic's support cases]*
+Product | *[A specific product associated with this topic's support cases]*
+Average resolution time | *[Average resolution time for the specified channel and product]*
+Average CSAT | *[Average CSAT score for the specified channel and product]*
+Impact | 1 – (*[Average CSAT score not including support cases for the specified channel and product]* / *[Average CSAT score for all cases associated with the topic]*)
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average customer satisfaction score (CSAT). A red bar indicates that the CSAT score is lower than the average CSAT score. A blue bar indicates that the CSAT score is higher. Improving customer satisfaction for the top CSAT impactors topics in red will have the greatest impact on improving overall customer satisfaction.
 
@@ -104,11 +126,14 @@ The chart displays the impact as a red or blue bar. The midpoint is the overall 
 
 ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png)
 
-The top resolve time impactors chart uses artificial intelligence technology to show the top resolution time impactors for the topic during the specified time period by support channel and product. The chart includes:
+The top resolve time impactors chart uses artificial intelligence technology to show the top resolution time impactors for the topic during the specified time period by support channel and product.
 
-* The support channel and product.
-* The average resolution time for the channel and product's support cases.
-* The average customer satisfaction score for the channel and product's support cases.
-* The impact that the channel and product are having on the overall resolution time.
+Description | Details
+----------- | -------
+Channel | *[A support channel associated with the topic's support cases]*
+Product | *[A specific product associated with this topic's support cases]*
+Average resolution time | *[Average resolution time for the specified channel and product]*
+Average CSAT | *[Average CSAT score for the specified channel and product]*
+Impact | 1 – (*[Average resolution time not including support cases for the specified channel and product]* / *[Average resolution time for all cases associated with the topic]*)
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time impactor topics in red will have the greatest impact on improving overall resolution time.
