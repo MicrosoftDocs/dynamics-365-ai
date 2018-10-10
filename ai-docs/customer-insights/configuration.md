@@ -90,7 +90,7 @@ In the *Match* page below, some matches were already automatically identified ba
 ### Exploring the Match page
 The *Match* page includes two major sections: **Summary** and **Details** as explored below. Above these components you will find three tiles that specify your total number of customers (right tile), total number of customers for which information has been already matched (left **Matched Customers** tile) and total number of customers for which data had not been matched yet (center **Unmatched Customers** tile).   
 
-#### Summary 
+#### Summary Section
 This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the datasource from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
 
 To examplify the logic that is captured in the **Summary** part, the following matching sequence is reflected in the diagram below:
@@ -109,12 +109,12 @@ In addition to entities, the Suammry diagram includes three types of status for 
 
 []
 
-- Editing Match Pairs Hirarchy:
+- **Editing Match Pairs Hirarchy:**
 This can be easily done by dragging and dropping the entities tiles. In the example below.. (complete)
 
 []
 
-#### Details: 
+#### Details Section
 This section captures your matchings in a table. Let's explore the **Details** table fields, going left to right:
    - The first column specifies the order by which the matchings will take place (reflecting the same sequence as in the summary part)
    - The next two columns specify the specific match pair members, whether these are single entities (highlighted in blue in the example below), or datasets resulted from prior matchings (highlighted in red in the example below).
@@ -141,7 +141,7 @@ Besides the role name, this panel enables you to specify all the ***Criteria*** 
 ### Merge
 This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
-- **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
+- **Viewing pre-identified merged attributes**: These attributes are shown under **Merged Attributes** in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table. Lastly, note that **Unmerged Attributes** can also be viewed in the left-bottom part of the screen.
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
@@ -149,7 +149,7 @@ This is the last step within the data configuration process and it's all about r
 
 ![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
 
-- We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
+- We will conduct the prioritization process within the **Edit Attribute Panel** as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
 
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
