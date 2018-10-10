@@ -42,16 +42,6 @@ This will ensure that only the Dynamics 365 domains you own can make requests to
 
 If you are a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] administrator, you can do this by going to **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as allowed domains to enable communication with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-### When you authenticate to Dynamics 365, and to Twitter and Facebook, pop-up windows are blocked in the browser
-
-Pop-up blockers and feedback latency can negatively affect your experience when you try to add social profiles, add Twitter rules in **Search Setup**, and authenticate to your Microsoft Dynamics 365 instance.
-
-When [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] tries to open a pop-up window, in most cases it will be suppressed by your browser’s pop-up blocker. Please look for any notifications about blocked pop-up windows.
-
-If you’re using Internet Explorer, check the options that are set on **Tabbed Browsing Settings** (**Tools** \> **Internet options** \> **General** \> **Tabs**). For **When a pop-up is encountered**, choose either **Let Internet Explorer decide how pop-ups should open** or **Always open pop-ups in a new window**. If the option is set to **Always open pop-ups in a new tab**, linking to Dynamics 365 will not work.
-
-Note that any of these pop-ups might take a while to appear. Also, when you add a social profile, the **Social Profiles** page might take a few seconds to list the new profile. If you continue to see no feedback, refresh the page and start over.
-
 ### NAV integration and Microsoft Edge browser cause IFrame to stop loading
 
 When you use the Microsoft Edge browser with Dynamics NAV, there's an unsolved issue with the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] widget. When looking for a non-existing ID, the widget will stop loading. As a workaround, we suggest that you reload the page and make sure you have a valid Search topic ID. To do that, look for the search topic ID in the Analytics page's URL.
