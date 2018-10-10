@@ -88,14 +88,27 @@ In the *Match* page below, some matches were already automatically identified ba
 ![match.png](media/match.png)
 
 #### Exploring the Match page
-The *Match* page includes several components as explored below. Once you complete editing those components select **Run** at the bottom of the page to execute all the matchings you have specified. 
+The *Match* page includes two major components: **Summary** and **Details** as explored below. Above these components you will find three tiles that specify your total number of customers (right tile), total number of customers for which information has been already matched from more than one datasrouce (left **Matched Customers** tile) and total number of customers for which data had not been matched yet (center **Unmatched Customers** tile).   
 
-- **Match Pairs Diagram**: The diagram includes the hirarchy in which the match pairs will be matched. 
-    - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the *eye* icon at the right corner of the tile. 
-    - Each of the match percentages is specificed on top of the link that represents that match.
+- **Summary**: This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the datasource from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
+
+To examplify the logic that is captured in the **Summary** part, the following matching sequence is reflected in the diagram below:
+    - First, *Sales Data* from *Salesforce* will be matched with *Sales Data* from *Dynamics 365*
+    - Then, the matched dataset that resulted from step one will be matched with *Survey Data* from *Salesforce*
+    - Then, the matched dataset from step two will be matched with *Solication Data* from *Salesforce*
+    - Lastly, the matched dataset from step three, will be matched with another *Sales Data* dataset from *Salesforce*
+    
 []
 
-- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the page. Each row represents a separate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
+In addition to entities, the Suammry diagram includes three types of status for the different matchings. Those are stated on top of the links that connect each matching pair. 
+     - In the example above, all these links have the same status: **Rules Needed**. This status implies that no rules were defined for the match pair. As we will see, at least one rule **must** be added to each of the matchings and it can be done in the **Details** section
+     - Once rules were defined for a given match pair, it's status will turn to **Ready to Run**. As we will see, running a match is also available within the **Details** section. 
+     - **Matching** is the third status you can see for a given match pair. This status implies that the matching process is currently under progress (reflected as a percentage).   
+     - **Complete** is the forth and last status you can see for a given match pair and it reflects the completion of the matching process both for this matching and for all the matchings that precede it. In the xample shown below, the first two matchings were completed while the third matching is under progress:
+
+[]
+
+- **Details**: for each of the match pairs in the diagram there is a match pair table in the lower part of the page. Each row represents a separate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
 
 What is included within each *Role* row? Let us explore from left to right:
     - **Matched Records**: Number of records (or dataset rows) that can be matched for the specific match pair under this role
