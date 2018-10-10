@@ -23,6 +23,10 @@ search.app:
 
 [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
 
+> [!NOTE]
+> Not all posts contain location data.Location data is supported on **News** posts, and partially on **Twitter**
+and **Forums**. The [Location dashboard](analytics-location.md) focuses on posts that contain location information, which might cover a subset of your data.
+
 ## Blogs
 
 Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blog's source, you can edit your existing keyword search rules.
