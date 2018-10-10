@@ -26,8 +26,8 @@ Chart | Link
 ----- | ----
 ![Agents with longest resolve time](media/ai-csi-longest-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
 ![Incoming cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [Incoming cases versus average resolve time](#incoming-cases-versus-average-resolve-time-chart)
-![Agents with longest first response time](media/ai-csi-longest-first-response.png) | [Agents with longest first response time](#agents-with-longest-first-response-time-chart)
-![Incoming cases versus first response time](media/ai-csi-incoming-vs-first-response.png) | [Incoming cases versus first response time](#incoming-cases-versus-first-response-time-chart)
+![Agents with most escalations chart](media/ai-csi-most-escalations.png) | [Agents with most escalations](#agents-with-most-escalations-chart)
+![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png) | [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors)
 
 The *Top resolution time impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
@@ -40,7 +40,11 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ![Agents with longest resolve time chart](media/ai-csi-longest-resolve-time.png)
 
-The agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer support case, in reverse order of resolution time.
+The agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer support case, in reverse order of resolution time, and the breakdown by priority.
+
+Description | Details
+----------- | -------
+Agents with longest resolve time | *[Resolved case resolution time breakdown by agent and case priority]*
 
 ## Incoming cases versus average resolve time chart
 
@@ -48,27 +52,44 @@ The agents with longest resolve time chart shows the average time, in minutes, t
 
 The incoming cases versus average resolve time chart shows the daily trend in the specified time period in the number of incoming support cases and the average resolution time, in minutes.
 
-## Agents with longest first response time chart
+Description | Details
+----------- | -------
+Incoming cases | *[Daily number of incoming cases]*
+Average resolution time | *[Daily average case resolution time]*
 
-![Agents with longest first response time chart](media/ai-csi-longest-first-response.png)
+## Agents with most escalations chart
 
-The agents with longest first response time chart shows the average time, in minutes, that it takes each agent in the specified time period to respond to a customer support case, in reverse order of response time.
+![Agents with most escalations chart](media/ai-csi-most-escalations.png)
 
-## Incoming cases versus first response time chart
+The agents with most escalations chart shows the number of active and resolved support cases for each agent, in order of total cases.
 
-![Incoming cases versus first response time chart](media/ai-csi-incoming-vs-first-response.png)
+Description | Details
+----------- | -------
+Agents with most escalations | *[Active and resolved cases by agent]*
 
-The incoming cases versus average response time chart shows the daily trend in the specified time period in the number of incoming support cases and the average response time, in minutes.
+## New escalations versus resolved escalations chart
+
+![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png)
+
+The new escalations versus resolved escalations chart shows the daily trend in the number of new support cases that are escalated and the number of escalated cases that are resolved.
+
+Description | Details
+----------- | -------
+New escalations | *[Daily number of escalated cases]*
+Resolved escalations | *[Daily number of escalated cases that are resolved]*
 
 ## Top resolution time impactors chart (AI Insights)
 
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png)
 
-The top resolution time impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period, showing:
+The top resolution time impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period.
 
-* The percentage of total case volume for the topic.
-* The average resolution time for each topic's support cases.
-* The impact that resolution time is having on system performance.
+Description | Details
+----------- | -------
+Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
+Volume | *[The total resolved cases associated with this topic]* / *[Total resolved cases]*
+Average resolve time | *[The average resolution time of resolved cases within the specified time period]*
+Impact | 1 – (*[Average resolution time not including the current topic]* / *[Overall average resolution time for all topics]*)
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
 
