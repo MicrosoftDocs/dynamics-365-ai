@@ -37,7 +37,7 @@ To know about Dynamics 365 AI for Sales related **General Data Protection Regula
 ## Prerequisites
 Review the following requirements before you emable and configure Dynamics 365 AI for Sales feature:
 - You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
-- You must enable **Embedded intelligence**. (../includes/proc-more-information.md)] [How to enable embedded intelligence](configure-enable-embedded-intelligence.md#How-to-enable-embedded-intelligence)
+- You must enable **Embedded intelligence**. (../includes/proc-more-information.md)] [How to enable embedded intelligence](configure-enable-embedded-intelligence.md#how-to-enable-embedded-intelligence)
 
 ## Enable Dynamics 365 AI for Sales features
 Dynamics 365 AI for Sales features are not available by default. You must enable these features by selecting an organization.
