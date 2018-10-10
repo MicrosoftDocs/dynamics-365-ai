@@ -52,9 +52,9 @@ Resolved cases | *[All cases resolved within specified time period]*
 Escalated cases | *[All cases escalated within specified time period]*
 SLA compliant cases | *[Of the total cases, the cases that are SLA compliant]* (including rollover cases and new cases that are SLA compliant)
 Resolution time | *[The average resolution time of all cases resolved within specified time period]*
-Average CSAT | *[The average customer satisfaction score of all cases resolved within the specified time period]*
+Average CSAT | *[The sum of CSAT scores]* / *[The count of resolved cases that have CSAT values]*
 
-A blue up and down indicator next the value indicates that positive percent change in that direction. A red indicator indicates a negative percent change.
+A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
 
 ## Case priority chart
 
@@ -116,7 +116,7 @@ The top case volume impactors chart uses artificial intelligence technology to g
 Description | Details
 ----------- | -------
 Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
-Volume | *[The total cases associated with this topic]* /*[Total cases]*
+Volume | *[The total cases associated with this topic]* / *[Total cases]*
 Total cases | *[The total cases associated with this topic]*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
@@ -127,12 +127,12 @@ To see additional information about each topic, right-click the topic name and s
 
 The top case volume impactors chart displays support topics in order of resolution time over the specified time period, showing the average resolution time for each topic's support cases and the impact that resolution time is having on system performance.
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
-
 Description | Details
 ----------- | -------
 Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
 Average resolve time | *[The average resolution time of resolved cases within the specified time period]*
 Impact | 1 – (*[Average resolution time not including the current topic]* / *[Overall average resolution time for all topics]*)
+
+The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

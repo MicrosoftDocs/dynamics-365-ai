@@ -80,7 +80,7 @@ Number of cases | *[The incoming cases associated with this topic]*
 Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
 Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
 Resolve rate | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]*
-Average CSAT  | *[The average customer satisfaction score of incoming cases associated with this topic]*
+Average CSAT  | *[The sum of CSAT scores associated with this topic}* / *[The count of resolved cases associated with this topic that have CSAT values]*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
@@ -98,6 +98,6 @@ Number of cases | *[The incoming cases associated with this topic]*
 Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
 Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
 Resolve rate | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]*
-Average CSAT  | *[The average customer satisfaction score of incoming cases associated with this topic]*
+Average CSAT  | *[The sum of CSAT scores associated with this topic}* / *[The count of resolved cases associated with this topic that have CSAT values]*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
