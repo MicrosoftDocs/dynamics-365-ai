@@ -30,10 +30,10 @@ robots: noindex,nofollow
 
 
 
-## Data Manager: Configuration
+## Configuration
 
 ### Intro to Configuration
-Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In Dynamics AI for Customer Insights, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration page** will take you to the first stage in the data configuration process.
+Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. In Customer 360, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration page** will take you to the first stage in the data configuration process.
 
 ![configuration.png](media/configuration.png)
 
@@ -47,15 +47,15 @@ There are two main goals behind the Map page (shown below):
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a *Contacts* dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
-- **Data Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible.
-- **Type**: Attribute names in the Common Data Model (CDM) that correspond to your entities' attributes. Must be selected for each of your entities' attributes.
-- ? **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
+- **Name**: The attribute name
+- **Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible: Upon clicking the type for a given attribute and selecting **Custom** you will be able to type your custom type
+- **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
 In addition, three additional actions are available in the Map page:
 
 ![add-custom-entity.png](media/add-custom-entity.png)
 
-- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional attributes on the basis of which your data should be merged, you should add them at this point.
+- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional entities on the basis of which your data should be merged, you should add them at this point.
     - Using the customer entities panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* data source opened a list with all the entities for that source. You may also use the search button to find a specific entity.
     
     - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.
