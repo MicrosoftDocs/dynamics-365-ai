@@ -45,7 +45,8 @@ To find out how a brand is perceived on social media, after you [set up a search
 
 ## Get insights about demographics
 
-For keyword searches, you'll get insights into the age and gender of the audience that searches for similar terms on Bing. Currently, these charts are only available in the United States. 
+For keyword searches, you'll get insights into the [age](analytics-overview.md#age) and [gender](analytics-overview.md#gender) of the audience that searches for similar terms on Bing. For example if you're planning a sports event, this information can be very helpful to prepare for the right number of facilities and changing rooms.  
+Currently, these charts are only available in the United States. 
 
 ## Campaign performance
 
