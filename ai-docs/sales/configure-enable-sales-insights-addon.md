@@ -57,21 +57,22 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 1. Go to **Settings** > **Setup AI**.
 2. On the **Overview** tab, select **Configuration** from **Relationship analytics** section.<br>
    ![Relationship analytics configuration](media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
-   > [!NOTE]   
+   > [!NOTE]
    > You can also select **Relationship analytics** tab.
 
    The configuration page opens.
 3. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.
    ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics") <br>
-4. On the **Relationship analytics** page, configure the parameters as described in the following table.<br>
-   |**Parameter**|**Description**|  
-   |-------------|---------------|
-   |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by defult, the option is enabled when LinkedIn is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
-   Note: This option is not available if LinkedIn is not installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. <br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|  
-   |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|  
-   |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|<br>
+4. On the **Relationship analytics** page, configure the parameters as described in the following table.  <br>
+
+    |**Parameter**|**Description**|
+    |-|-|
+    |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by defult, the option is enabled when LinkedIn is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Note: This option is not available if LinkedIn is not installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
+    |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
+    |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
+     
    ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
-5. Select **Save**.<br>
+1. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization. <br>
 
 ## Configure Predictive lead scoring
