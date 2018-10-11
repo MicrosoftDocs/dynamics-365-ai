@@ -65,8 +65,8 @@ When a self-service user signs up for a trial using an email domain that already
   
 4.  Click **Save** ![save button](media/save-icon.png "Save button"). The user will receive an email with the updated user roles and permissions.    
   
->  [!NOTE]
->  Users that are listed as [delegated administrator](delegated-admin.md) for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] always have Administrator and Manager user roles. A lock icon ![lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions.  
+> [!NOTE]
+> Users that are listed as [delegated administrator](delegated-admin.md) for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] always have Administrator and Manager user roles. A lock icon ![lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions.  
   
 ## Send email to users
   
