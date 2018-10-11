@@ -27,7 +27,7 @@ Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online),
 Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features helps the user to effectively use the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales app. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales contains the following features:
 - Relationship analytics
 - Predictive lead scoring
-- Predictive oppportunity scoring
+- Predictive opportunity scoring
 - Notes analysis
 - Connection insights
 
@@ -72,7 +72,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
      
    ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
-1. Select **Save**.<br>
+5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization. <br>
 
 ## Configure Predictive lead scoring
@@ -124,9 +124,10 @@ Predictive opportunity scoring provides helps users to focus on revenue generati
    The predictive opportunity scoring is configured and ready to use in your organization.
 
 ## Configure Notes analysis
-
-
-
+To help users with intelligent auto suggestions when they enter notes regarding a recent meeting or discussion with customer in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], enable Notes analysis.<br>
+1. Go to **Settings** > **Setup AI**.
+2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, **Notes analysis** is enabled by default. If it's not enabled, select the toggle button to enable **Notes analysis**.
+    <!--image should be added-->
 
 ## Configure Connection insights
 Connection insights contains the Icebreakes and Who known whom features. 
