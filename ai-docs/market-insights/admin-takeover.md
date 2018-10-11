@@ -23,7 +23,7 @@ search.app:
 
 # Takeover an unmanaged Market Insights directory
 
-When a self-service user signs up for the Market Insights Preview, they are added to an unmanaged Azure Active Directory based on their email domain. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. 
+When a self-service user signs up for the Market Insights Preview, they are added to an unmanaged Azure Active Directory (a "shadow tenant") based on their email domain. It is a container for the accounts within Office 365 that you can’t really manage or have any controls from an organization level. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. The admin takeover allows an organization to administrate the organization, and be able to have more control over the users and licenses.
 
 For detailed information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover).
 
