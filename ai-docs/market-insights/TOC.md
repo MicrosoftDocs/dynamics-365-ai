@@ -18,6 +18,7 @@
 ## [Administer Market Insights](settings-administration.md)
 ### [Manage global settings](manage-global-settings.md)
 ### [Manage licenses for Market Insights](manage-licenses.md)
+### [Takeover an unmanaged directory](admin-takeover.md)
 ### [Understand user roles](user-roles.md)
 ### [Assign permissions and user roles](assign-user-roles.md)
 ### [Manage authors](manage-authors.md)
