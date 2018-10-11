@@ -32,11 +32,10 @@ User data and acquired posts are merged depending on the existence of a Market I
 ## Admin takeover without Market Insights subscription
 
 Perform an ["internal" admin takeover](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#internal-admin-takeover) to get added as the global admin of the unmanaged directory and eventually integrate it a different managed tenant. Data gathered in Market Insights will still be available after admin takeover. However, users don't get migrated.
-[https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#external-admin-takeover](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#external-admin-takeover)
 
 ## Admin takeover with existing Market Insights subscription
 
-Perform an "external" admin takeover by adding the DNS domain name of the unmanaged directory to your managed Azure directory. Data from the unmanaged instance of Market Insights won't migrate to avoid overriding existing data. Users get migrated to the managed directory and so they can continue to use the service. 
+Perform an ["external" admin takeover](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#external-admin-takeover) by adding the DNS domain name of the unmanaged directory to your managed Azure directory. Data from the unmanaged instance of Market Insights won't migrate to avoid overriding existing data. Users get migrated to the managed directory and so they can continue to use the service. 
 
 ### See also
 
