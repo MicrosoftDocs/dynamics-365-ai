@@ -35,8 +35,8 @@ All product sections are accessed through their corresponding tab names in the l
 > ![](media/customer-dashboard-full.png "Customer dashboard")
 
 In order to best utilize this guide for your specific needs, you should identify your situation:
-- ***I am new to the product and I didn't go through the Quick start documentation*** -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* sections and only then exploring *Segments, Profile, and Home page*** sections.
-- ***I am new to the Advanced guide but I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Search and Browse Customer, Profile, Enrichment, Segmentation, and Administration* as these are the same as for *Quick Start*.   
+- ***I am new to the product and I didn't go through the Quick start documentation*** -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* and *Configuration* sections and only then exploring the *Segments, Profile, and Home page*** sections.
+- ***I am new to the Advanced guide but I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Profile, Enrichment, Segments, and Administration* as these are the same as for *Quick Start*.   
 - ***I am already using the product but incurring a specific issue*** -> In that case you may want to identify what product section this issue relates to and explore this particular section. 
 
 > [!div class="mx-imgBorder"] 
@@ -71,7 +71,7 @@ To bring in your own data, under **Data Manager** select **Sources** and choose 
 > ![](media/choose-data-source75.png "Choose a data source")
 
 ## Workflow
-If you never used Dynamics 365 AI for Customer Insights before, this is the workflow you can expect to go through:
+If you never used Customer 360 before, this is the workflow you can expect to go through:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/workflow720.png "Workflow phases")
@@ -93,16 +93,16 @@ A range of actionable insights were derived during the data ingestion, configura
 
 ()
 
-- **Data completeness scorecard**: AI for Customer Insights equips you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? By viewing the *Data Completeness Scorecard* you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. 
+- **Data completeness scorecard**: Customer 360 equips you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? By viewing the *Data Completeness Scorecard* you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. 
     - Going left to right, you can view how complete is your data for the Awareness, Engagement, Buying and Service stages.   
     - For each of these tiles, *Green* represents good entity coverage, *Yellow* represents medium entity coverage and *Red* represents poor entity coverage. 
    
 ()
 
--	**Learn how to use Dynamics 365 AI for customer Insights:** Include four quick-help options that are linked to the user guide:
-    - **Getting Start with Dynamics 365 AI for customer Insights**: How to get started with the product? Takes you to the documentation of the Quick Start version of the product.
-    - **Dynamics 365 AI for Customer Insights guided learning**: How to use the advanced version of the product? Takes you to this guide 
-    - **Tutorial: Dynamics 365 for Customer Insights in a day**: Exemplifies how to use the product as part of a typical work day
+-	**Learn how to use Customer 360:** Include four quick-help options that are linked to the user guide:
+    - **Getting Start with Customer 360**: How to get started with the product? Takes you to the documentation of the Quick Start version of the product.
+    - **Customer 360 guided learning**: How to use the advanced version of the product? Takes you to this guide 
+    - **Tutorial: Customer 360 in a day**: Exemplifies how to use the product as part of a typical work day
     - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user guide as they encapsulate more mandatory configurations than the other product sections
 
 
