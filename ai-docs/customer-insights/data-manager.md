@@ -29,12 +29,12 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## Data Manager Sections
-**Those include: Sources, Entities, Configuration, Enrichment and Relationships.** Completing those sections will enable you to unlock the unique insights Dynamics 365 AI for Customer Insights offers. Following the Data Manager sections, we will explore sections that are used for viewing and acting upon those insights (*Home*, *Segmentation* and *Profile*).
+**Those include: Sources, Data, Entities, and Relationships.** Completing those sections will ensure that you loaded all the data that matters to you into Customer 360.  
 
 ## Data Manager: Sources
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-- **Step One: Ingesting CRM data**: Upon selecting the **Sources** tab a pop-up page shows up and here you should select **Get Data** for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For .csv files (Excel) and other sources, continue to step two.
+- **Step One: Ingesting CRM data**: Upon selecting the **Sources** tab a pop-up window will show up and here you should select **Get Data** for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For .csv files (Excel) and other sources, continue to step two.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/select-sources-get-data.png "Select Get data")
@@ -46,7 +46,7 @@ In this section we will explain how to bring data from many of your sources: Fro
 
 ## Data Manager: Data
 
-This pop-up page can be used to pick and edit specific datasets from your selected datasources. The first button you should use in this page is the ***Bring Data*** button as shown below:
+This power query pop-up page can be used to pick and edit specific datasets from your selected datasources. The first button you should use in this page is the ***Bring Data*** button as shown below:
 
 []
 
@@ -55,11 +55,11 @@ Upon bringing a dataset and choosing it from the left menu (shown below in red),
 []
 
 Side by side with the ***Bring Data*** button you will find three more buttons. We will explore these from left to right:
-- ***Refresh***: Refreshing the dataset you have selected from the left menu will pull any changes that were made to this dataset at the source. It's recommended to frequently use this functionality with datasets that are frequently change and vice versa. 
+- ***Refresh***: Refreshing the dataset you have selected from the left menu will pull any changes that were made to this dataset at the source. It's recommended to use this functionality with regard to datasets that frequently change.
 - ***Options***: 
 - ***Combine Tables***: This options enables you to merge two datasets into a single dataset prior to completing the data ingestion
 
-The last functionalty that is available in this page is of adding processing steps to the selected dataset. As shown below, you can add customized functions as steps in the right part of the screen:
+The last functionalty that is available in this page is of editing the 
 
 []
 
