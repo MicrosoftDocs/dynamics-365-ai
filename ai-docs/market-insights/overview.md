@@ -63,9 +63,6 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Download the [Market Insights translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
-## Request a trial
-
-Customers and partners can request a trial and depending on the business case and capacity, we will email you the trial key. [Request a trial](https://experience.dynamics.com/trials/).
 
 ### See also
 
