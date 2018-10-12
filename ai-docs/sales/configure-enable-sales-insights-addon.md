@@ -139,6 +139,9 @@ To help users with intelligent auto suggestions when they enter notes regarding 
 2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, select the toggle button to enable **Notes analysis**.<br>
     <!--image should be added-->
 
+>[!NOTE]
+> For more information about Notes analysis and how it can help your users, see [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
+
 ## Configure Connection insights
 
 Connection insights contains the Talking points and Who knows whom features. These features help users in your organization to quickly establish communications with customers.
