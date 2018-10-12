@@ -41,9 +41,8 @@ To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for
 Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales feature:
 
 - You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
-- You must enable **Embedded intelligence**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to enable embedded intelligence](configure-enable-embedded-intelligence.md#how-to-enable-embedded-intelligence).
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
-- If you want to use LinkedIn data for Relationship analytics, verity that LinkedIn solution is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and write back from LinkedIn Sales navigator is enabled.
+- If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and write back from LinkedIn Sales navigator is enabled.
 
 ## Enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features
 
@@ -76,7 +75,6 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Note: This option is not available if LinkedIn is not installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
     |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
     |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|<br>
-   
     ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")<br>
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
@@ -138,12 +136,12 @@ Predictive opportunity scoring provides helps users to focus on revenue generati
 To help users with intelligent auto suggestions when they enter notes regarding a recent meeting or discussion with customer in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], enable Notes analysis.
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, **Notes analysis** is enabled by default. If it's not enabled, select the toggle button to enable **Notes analysis**.<br>
+2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, select the toggle button to enable **Notes analysis**.<br>
     <!--image should be added-->
 
 ## Configure Connection insights
 
-Connection insights contains the Icebreakes and Who known whom features. These features help users in your organization to quickly establish communications with customers.
+Connection insights contains the Talking points and Who knows whom features. These features help users in your organization to quickly establish communications with customers.
 
 1. Go to **Settings** > **Setup AI**.<br>
 2. On the **Overview** tab, select **Configuration** from **Connection insights** section.<br>
@@ -152,22 +150,22 @@ Connection insights contains the Icebreakes and Who known whom features. These f
    > You can also select **Relationship analytics** tab.
   
    The configuration page opens.
-3. To configure Who knows whom and Icebreakers, perform the following steps:
+3. To configure Who knows whom and Talking points, perform the following steps:
    -  **Who knows whom**<br>
         a. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
         <!--Image should be included-->
         b. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
         c. Select **Save**.<br>
         The Who Knows Whom is configured and ready to use in your organization.<br>
-    -  **Icebreakers**<br>
-        a. On the **Icebreakers** section, select **Turn on Icebreakers for your organization**.<br>
+    -  **Talking points**<br>
+        a. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
         The categories are automatically selected.<br>
         <!--Image should be included-->
         > [!NOTE]
         > You can select only the categories that meets your organizational requirements.
 
         b. Select **Save**.<br>
-        The Icebreakers is configured and ready to use in your organization.
+        The Talking points is configured and ready to use in your organization.
 
 <!--
 ### (Optional) Uninstall the Sales insights add-on
