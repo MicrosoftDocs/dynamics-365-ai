@@ -109,10 +109,19 @@ In addition to entities, the Suammry diagram includes three types of status for 
 
 []
 
-- **Editing Match Pairs Hirarchy:**
-This can be easily done by dragging and dropping the entities tiles. In the example below.. (complete)
+- **Adding and Editing Match Pairs**
+Both actions can be done by clicking the **Edit** botton:
 
 []
+
+Upon clicking it, the following panel opens up:
+
+[]
+
+Each match pair occupies one row in this panel. 
+- **Adding a new a match pair:** Click the **Plus Sign** that is highlighted in the image above. Then choose the two entities that will be included in the new match pair. 
+- **Editing a match pair's entities:** Upon clicking a match pair entitiy you will be able to change it to any of the other entities
+- **Changing the order by which matches are executed:** That can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair () and the second match pair (), we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
 
 #### Details Section
 This section captures your matchings in a table. Let's explore the **Details** table fields, going left to right:
