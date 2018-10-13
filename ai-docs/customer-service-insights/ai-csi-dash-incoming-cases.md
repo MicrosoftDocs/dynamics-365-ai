@@ -93,7 +93,7 @@ The emerging topics chart uses artificial intelligence technology to group relat
 Description | Details
 ----------- | -------
 Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
-Volume | *[The incoming cases associated with this topic]* / *[Total incoming cases]*
+Volume | *[The percent change in volume over the specified time period]*
 Number of cases | *[The incoming cases associated with this topic]*
 Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
 Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
