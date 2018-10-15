@@ -1,5 +1,5 @@
 ---
-title: "Preview: Introducing Dynamics 365 AI for Customer Insights | MicrosoftDocs"
+title: "Preview: Introducing Customer 360 | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/1/2018
