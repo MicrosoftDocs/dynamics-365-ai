@@ -55,6 +55,7 @@ If you want to right away bring in your company's data, under **Data Manager**, 
 
 Then, select a data source. 
 
+Update this image (should not include Salesforce):
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source75.png "Choose a data source")
 
