@@ -48,10 +48,6 @@ To get introduced to the lead, you can send an email to the selected contact wit
 
 **List view.** Select this to see the people in your company who know your lead. The contacts are displayed based on the connection strength. Connections whose strength is strong are displayed first, followed by other connection strengths. You can also select **Get Introduced** to send an email request for an introduction to the lead.
 
-
-<!--Note from editor: You need to change the name of the following PNG file in order for it to display. The file name should not have a space. I've corrected the path below with an underscore between "list" and "view. Please rename the image file in the Media folder to wkw_list_view.-->
-
-
 > [!div class="mx-imgBorder"]
 > ![Connection details in list view](media/wkw_list_view.png "Connection details in list view")<br>
 

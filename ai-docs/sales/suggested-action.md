@@ -50,3 +50,7 @@ When you have multiple suggestions associated with a note, [!INCLUDE[pn-crm-shor
     A new appointment and a call are scheduled for the record.<br>
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with activities](/dynamics365/customer-engagement/basics/work-with-activities)
+
+### See also
+
+<!--update with connection insights link-->

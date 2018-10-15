@@ -42,20 +42,20 @@ In [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], **Talking points
 > ![Talking point](media/talkingpoints.png "Talking point")
 
 > [!NOTE]
-> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md).
+> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md). <!--change image to change heading to Talking points-->
 
 Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
 
 > [!div class="mx-imgBorder"]
-> ![Talking point sample](media/talkingpoints-sample.png "Talking point sample")<br>
+> ![Talking point sample](media/talkingpoints-sample.png "Talking point sample")<br> <!--change image to change heading to Talking points-->
 
 Select each topic icon on the Talking points to navigate. This helps you to start a conversation with your customer and you can choose your customer’s area of interest. Select the ![Chevron](media/dropdown-button.png "Chevron") icon to view the complete message of a topic. If you want to view all the topics in the Talking points tile as a list, select the list icon. <br>
 
 > [!div class="mx-imgBorder"]
-> ![Talking point in list view](media/talkingpoints-listview.png "Talking point in list view")<br>
+> ![Talking point in list view](media/talkingpoints-listview.png "Talking point in list view")<br> <!--change image to change heading to Talking points-->
 
 Talking points will display only the latest communication for each topic on the tile. For example, you received an email about a baseball game yesterday and you received another email today about football. The sports topic in the Talking points will be updated with the mail you received about football. 
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)
+[Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md) <!--update with connection insights link-->
