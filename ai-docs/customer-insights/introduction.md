@@ -48,10 +48,3 @@ For Customer 360, you don’t need a Power BI account. You are only required to 
 
   - A Dynamics 365 (online) instance. If you don't have a subscription, you can start a free trial. See [Try Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/customer-engagement/admin/try-dynamics-365-online).
   
-
-## Installing Customer 360:
-[User discovers app and has customer data we understand: data that we can bring through our CDS-A connectors into CDM
-Show how user discovers app on AppSource]
-
-> [!div class="mx-imgBorder"] 
-> ![](media/get-customer-insights720.png "Get AI for Customer Insights")
