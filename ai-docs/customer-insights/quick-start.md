@@ -1,5 +1,5 @@
 ---
-title: "Quick Start: Dynamics 365 AI for Customer Insights | MicrosoftDocs"
+title: "Quick Start: Customer 360 | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/1/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Quick Start: Dynamics 365 AI for Customer Insights 
+# Quick Start: Customer 360 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,12 +28,12 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Dynamics 365 AI for Customer Insights is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. AI for Customer Insights delivers the ability to connect to transactional data sources and model profiles of customers and their interactions. It enables organizations to generate unique insights about their customers which they can tune to clear actions from day one. AI for Customer Insights transforms profiles, interactions, and KPIs into rich visuals that you can customize and organize to focus on what matters to you.
+Customer 360 is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. Customer 360 s delivers the ability to connect to transactional data sources and model profiles of customers and their interactions. It enables organizations to generate unique insights about their customers which they can tune to clear actions from day one. AI for Customer Insights transforms profiles, interactions, and KPIs into rich visuals that you can customize and organize to focus on what matters to you.
 
 Use this guide to get a quick introduction to the basic features of AI for Customer Insights and come away equipped to use this tool with your data to create actionable insights.
 
 ## Select a business category
-Once you've installed AI for Customer Insights, the first thing you do is select a business category that most closely matches your industry.
+Once you've installed Customer 360, the first thing you do is select a business category that most closely matches your industry.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-business-category720.png "Select a business category")
@@ -43,7 +43,7 @@ Select **More categories** to choose from more industries or business functions.
 > [!div class="mx-imgBorder"] 
 > ![](media/more-categories.png "More categories")
 
-Once you select a category, the **Home** page appears with insights built from sample data.
+Once you select a category, the **Home** page appears with insights built from a sample data.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customers-dashboard780.png "Insights based on sample data for selected category")
@@ -58,7 +58,7 @@ Then, select a data source.
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source75.png "Choose a data source")
 
-Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
+Your data will be brought in to Customer 360 and the sample data will be removed. 
 
 If you keep the sample data for now, this topic will walk you through the getting started experience with that data.
 
@@ -115,7 +115,7 @@ Select a scorecard to see details on the entities used. In AI for Customer Insig
 The **Customers** section contains information about your customers organized by profiles and segments.
 
 ### Profiles
-Once you've connected to a data source, AI for Customer Insights creates some customer profiles and categories based on your industry type. Under **Customers**, select **Profiles**.
+Once you've connected to a data source, Customer 360 creates some customer profiles and categories based on your industry type. Under **Customers**, select **Profiles**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-profiles75.png "Generated customer profiles")
@@ -130,13 +130,13 @@ You can create segments of your data to filter on certain elements such as a tim
 
 There are two types of segments:
 
-- **Static**: An aggregated profile data that is not automatically refreshed. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
-- **Dynamic**: An aggregated profile data that is automatically refreshed. Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
+- **Static**: Segment with conditions that are processed only upon the creation of the segment and it's possible updating. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
+- **Dynamic**: Segment with conditions that are processed according to a fixed schedule. The current segment resfreshing schedule is every 12 hours. Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-segments.png "Customer segments")
 
-In addition to the segments you have created, AI for Customer Insights will light up segments that are recommended for you. Those are derived based on your specific data and industry types.
+In addition to the segments you have created, Customer 360 will light up segments that are recommended for you. Those are derived based on your specific data and industry types.
 
 #### Edit a segment
 To edit, export, view members, and more for a segment, select <b>...</b> in the segment.
@@ -168,7 +168,7 @@ To bring in your company's data, select **Sources** then select a data source.
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
 ### Entities
-In AI for Customer Insights **Entities** represent your various data sets (taken from diverse data sources such as your CRM, transactional data system, etc).
+In Customer 360 **Entities** represent your various data sets (taken from diverse data sources such as your CRM, transactional data system, etc).
 
 After ingesting the data, you can quickly evaluate how complete and useful it is using the Entities page. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data**. You can also export the entities table as a csv file by selecting the **Export Data**.
 
@@ -191,7 +191,7 @@ Select an entity to see information about it.
 These other data management settings are covered in the Advanced Guide documentation.
 
 ### Administration
-Use the forms in the **Permissions** section to add or remove role permissions to AI for Customer Insights.
+Use the forms in the **Permissions** section to add or remove role permissions to Customer 360.
 
 **Roles**
 
@@ -203,4 +203,4 @@ Use the forms in the **Permissions** section to add or remove role permissions t
 
 More in-depth overview of the Administration module is provided within the Advanced Guide as well.
 
-Now that you explored some of the capabilities that AI for Customer Insights has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Guide for step-by-step guidance around working with your company data.
+Now that you explored some of the capabilities that Customer 360 has to offer, you are ready to start ingesting your data and unlocking meaningful insights around your customers. Make sure to check out the Advanced Guide for step-by-step guidance around working with your company data.
