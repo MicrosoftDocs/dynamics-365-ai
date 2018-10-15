@@ -30,10 +30,10 @@ robots: noindex,nofollow
 
 
 
-## Data Manager: Configuration
+## Configuration
 
 ### Intro to Configuration
-Once ingested your data, you are ready to unlock the unique data-configuration features that Dynamics AI for Customer Insights offers. In Dynamics AI for Customer Insights, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration page** will take you to the first stage in the data configuration process.
+Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. In Customer 360, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration page** will take you to the first stage in the data configuration process.
 
 ![configuration.png](media/configuration.png)
 
@@ -47,15 +47,15 @@ There are two main goals behind the Map page (shown below):
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a *Contacts* dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
-- **Data Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible.
-- **Type**: Attribute names in the Common Data Model (CDM) that correspond to your entities' attributes. Must be selected for each of your entities' attributes.
-- ? **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
+- **Name**: The attribute name
+- **Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible: Upon clicking the type for a given attribute and selecting **Custom** you will be able to type your custom type
+- **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
 In addition, three additional actions are available in the Map page:
 
 ![add-custom-entity.png](media/add-custom-entity.png)
 
-- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional attributes on the basis of which your data should be merged, you should add them at this point.
+- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional entities on the basis of which your data should be merged, you should add them at this point.
     - Using the customer entities panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* data source opened a list with all the entities for that source. You may also use the search button to find a specific entity.
     
     - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.
@@ -87,33 +87,56 @@ In the *Match* page below, some matches were already automatically identified ba
 
 ![match.png](media/match.png)
 
-#### Exploring the Match page
-The *Match* page includes several components as explored below. Once you complete editing those components select **Run** at the bottom of the page to execute all the matchings you have specified. 
+### Exploring the Match page
+The *Match* page includes two major sections: **Summary** and **Details** as explored below. Above these components you will find three tiles that specify your total number of customers (right tile), total number of customers for which information has been already matched (left **Matched Customers** tile) and total number of customers for which data had not been matched yet (center **Unmatched Customers** tile).   
 
-- **Match Pairs Diagram**: The diagram includes the hirarchy in which the match pairs will be matched. 
-    - Each of the entities is represented by a tile with the entity's name, number of records, end possibility to view those records by clicking the *eye* icon at the right corner of the tile. 
-    - Each of the match percentages is specificed on top of the link that represents that match.
+#### Summary Section
+This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the datasource from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
+
+To examplify the logic that is captured in the **Summary** part, the following matching sequence is reflected in the diagram below:
+- First, *Sales Data* from *Salesforce* will be matched with *Sales Data* from *Dynamics 365*
+- Then, the matched dataset that resulted from step one will be matched with *Survey Data* from *Salesforce*
+- Then, the matched dataset from step two will be matched with *Solication Data* from *Salesforce*
+- Lastly, the matched dataset from step three, will be matched with another *Sales Data* dataset from *Salesforce*
+    
 []
 
-- **Match Pair Table**: for each of the match pairs in the diagram there is a match pair table in the lower part of the page. Each row represents a separate *Role* for that particular match. *Role* stands for the attributes' combination on the basis of which you want to perform that specific match. For example, if *Phone + Email* is selected as a role (more on defining roles below), then the data in those two match pair entities will be matched on the basis of these two attributes. Also note that the order of these roles will dictate the order by which the specific match will be executed. 
-
-What is included within each *Role* row? Let us explore from left to right:
-    - **Matched Records**: Number of records (or dataset rows) that can be matched for the specific match pair under this role
-    - **Eye Icon**: Clicking this icon will enable you to see all the records for the specific match pair under this role
-    - **Three Dots Icon**: Clicking this icon will enable you to edit the specific role (more on editing roles below)
-
-#### Editing Match Pairs Hirarchy:
-This can be easily done by dragging and dropping the entities tiles. In the example below, Contact and SleepIQ will be matched first and only then the WebAccount entity will be matched with the result of the first match:
-
-[]
-
-#### Editing Match Pair Role:
-As mentioned above, this can be done via the *Three dots Icon* on each of the roles rows. 
-Upon clicking the icon, the *Role Editing Panel* appears:
+In addition to entities, the Suammry diagram includes three types of status for the different matchings. Those are stated on top of the links that connect each matching pair. 
+- In the example above, all these links have the same status: **Rules Needed**. This status implies that no rules were defined for the match pair. As we will see, at least one rule **must** be added to each of the matchings and it can be done in the **Details** section
+- Once rules were defined for a given match pair, it's status will turn to **Ready to Run**. As we will see, running a match is also available within the **Details** section. 
+- **Matching** is the third status you can see for a given match pair. This status implies that the matching process is currently under progress (reflected as a percentage).   
+- **Complete** is the forth and last status you can see for a given match pair and it reflects the completion of the matching process both for this matching and for all the matchings that precede it. In the example shown below, the first two matchings were completed while the third matching is under progress:
 
 []
 
-besides the role name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes (going left to right):
+- **Adding and Editing Match Pairs**
+Both actions can be done by clicking the **Edit** botton:
+
+[]
+
+Upon clicking it, the following panel opens up:
+
+[]
+
+Each match pair occupies one row in this panel. 
+- **Adding a new a match pair:** Click the **Plus Sign** that is highlighted in the image above. Then choose the two entities that will be included in the new match pair. 
+- **Editing a match pair's entities:** Upon clicking a match pair entitiy you will be able to change it to any of the other entities
+- **Changing the order by which matches are executed:** That can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair () and the second match pair (), we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
+
+#### Details Section
+This section captures your matchings in a table. Let's explore the **Details** table fields, going left to right:
+   - The first column specifies the order by which the matchings will take place (reflecting the same sequence as in the summary part)
+   - The next two columns specify the specific match pair members, whether these are single entities (highlighted in blue in the example below), or datasets resulted from prior matchings (highlighted in red in the example below).
+   - The next two columns specify the number of matched and unmatched records **for that specific matching** 
+   - The last column includes a status circle: This circle is checked once a match pair is in **Complete** status (as explained above)
+
+Next to these fields you will find a **three dots icon**. Clicking it will enable you to perform the following actions:
+- **Running a match pair**. Clicking **Run** will run the specific match pair you are hovering over. For running all your match pairs at the same time, go to the bottom of the Match screen and his the **Run All** button.
+- **Adding and Editing Match Pair Rules:** Clicking **Edit** will open the **Edit Match Rule** pop-up window:
+
+[]
+
+Besides the role name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes (going left to right):
 - The attribute that will be used for matching within the first match pair entities
 - The attribute that will be used for matching within the second match pair entities
 - The method used for that criteria where selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% matching will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define these as either *Low*, *Medium* or *High*.
@@ -127,7 +150,7 @@ besides the role name, this panel enables you to specify all the ***Criteria*** 
 ### Merge
 This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
-- **Viewing pre-identified merged attributes**: These attributes are shown under *Merged Attributes* in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table.  
+- **Viewing pre-identified merged attributes**: These attributes are shown under **Merged Attributes** in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table. Lastly, note that **Unmerged Attributes** can also be viewed in the left-bottom part of the screen.
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
@@ -135,7 +158,7 @@ This is the last step within the data configuration process and it's all about r
 
 ![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
 
-- We will conduct the prioritization process within the *Edit Attribute* panel as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
+- We will conduct the prioritization process within the **Edit Attribute Panel** as shown below. This panel consists of three parts: *Attribute Name* (upper part), *Attribute Source* (middle part) and *Merge Policy* (lower part). 
 
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 

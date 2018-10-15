@@ -28,7 +28,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-In Dynamics 365 AI for Customer Insights, *Relationships* are also available for segmentation, insight-extraction and all other purposes. The *Relationships page* shown below includes five columns. We will explore these from left to right:
+Besides entities, in customer 360 you can also define and utilise *Relationships*. Those are useful for segmentation, x and other purposes. The *Relationships Page* shown below includes five columns. We will explore these from left to right:
 
 - **Relationship Name**: That is the name that you, as a user, assign to that relationship so it will be considered as an entity
 - **Source Entity**: That is the name of the entity that is used as a source in that unidirectional/bidirectional relationship 
