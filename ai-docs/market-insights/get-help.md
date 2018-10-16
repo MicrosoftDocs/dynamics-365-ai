@@ -3,7 +3,7 @@ title: "Get help with Market Insights | Microsoft Docs"
 description: "Learn where you can find helpful resources to get you started or troubleshoot an issue."
 keywords: help, help content, documentation, support
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 9ee96519-69e9-4cb3-8af9-587ef8a1f664
 author: m-hartmann

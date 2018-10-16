@@ -3,7 +3,7 @@ title: "Market Insights 2018 Update 1.8 Readme"
 description: "Important and late-breaking information about Dynamics 365 AI for Market Insights"
 keywords: "readme, known issues, information"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: d7cce391-9d1d-4284-b040-a29b55fa87c0
 author: m-hartmann

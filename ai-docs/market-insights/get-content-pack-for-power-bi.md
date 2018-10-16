@@ -3,7 +3,7 @@ title: "Get the Market Insights content pack | Microsoft Docs"
 description: "Download the use the Market Insights content pack for Power BI."	
 keywords: "Power BI, content pack, engagement details"	
 ms.date: 10/31/2018	
-ms.service: dynamics-365-marketing	
+ms.service: dynamics-365-ai	
 ms.topic: article	
 ms.assetid: 9e3339e2-2531-4cab-83c7-bbde3cc0717a	
 author: m-hartmann	

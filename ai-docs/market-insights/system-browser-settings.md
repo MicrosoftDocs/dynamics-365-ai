@@ -3,7 +3,7 @@ title: "Optimize browser settings for Market Insights | Microsoft Docs"
 description: "Configure your browser to allow pop-up windows and JavaScript."
 keywords: browser settings, pop-up, javascript, recommendation
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 00c5a0f7-8718-4595-83f8-826f91f198a6
 author: m-hartmann

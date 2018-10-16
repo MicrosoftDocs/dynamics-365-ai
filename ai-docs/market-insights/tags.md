@@ -3,7 +3,7 @@ title: "Work with tags in Market Insights | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Market Insights."
 keywords: "tags, tagging, auto tags, custom tags, Market Insights"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 77401ef2-ded0-4919-bd02-d71955ec5614
 author: m-hartmann

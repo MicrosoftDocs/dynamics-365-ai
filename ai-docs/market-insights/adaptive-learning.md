@@ -3,7 +3,7 @@ title: "Adaptive learning in Market Insights | Microsoft Docs"
 description: "Sentiment analysis and the organization-based machine learning models which learn from your inputs."
 keywords: "adaptive learning, sentiment analysis, machine learning, ai, intelligence"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: d7ec0e2f-1664-49cf-9759-2d610692a1d0
 author: m-hartmann

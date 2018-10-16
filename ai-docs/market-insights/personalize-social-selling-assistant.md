@@ -3,7 +3,7 @@ title: "Personalize the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
 keywords: "social selling, social selling assistant, Market Insights, personalization, social sales"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 46769fdd-76b8-4d1e-8e7a-822d18c37534
 author: m-hartmann

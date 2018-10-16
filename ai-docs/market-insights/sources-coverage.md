@@ -3,7 +3,7 @@ title: "Sources coverage in Market Insights | Microsoft Docs"
 description: "Learn what's included in the sources available in Market Insights."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 9938a17c-751d-46a5-a31b-e5ccedb9dfb5
 author: m-hartmann

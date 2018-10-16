@@ -3,7 +3,7 @@ title: "Understand user roles in Market Insights | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Market Insights."
 keywords: "permissions, user roles, interaction role, configuration role"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: ef77beed-3bb7-4a65-876a-57bcf2ae2d15
 author: m-hartmann

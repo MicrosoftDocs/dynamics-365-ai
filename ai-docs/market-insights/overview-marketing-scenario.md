@@ -3,7 +3,7 @@ title: "Market Insights scenarios for the marketing department | Microsoft Docs"
 description: "Review marketing scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 keywords: "marketing, scenario, use case"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 4ba36542-dce5-4944-a579-153decdc6ece
 author: m-hartmann

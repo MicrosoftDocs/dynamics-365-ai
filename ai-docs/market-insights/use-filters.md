@@ -3,7 +3,7 @@ title: "Use filters to see relevant data in Market Insights | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
 keywords: "filter, data set"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 9ae4f90d-91ad-46c4-8bff-b5caf47e26f8
 author: m-hartmann

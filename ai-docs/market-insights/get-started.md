@@ -3,7 +3,7 @@ title: "Get started with Market Insights | Microsoft Docs"
 description: "Learn how to ramp up quickly on Market Insights."
 keywords: "get started, onboarding, key features"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 587079ee-03f0-4dc6-8cbf-14cee4e50273
 author: m-hartmann

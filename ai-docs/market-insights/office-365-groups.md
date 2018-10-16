@@ -3,7 +3,7 @@ title: "Work with groups of people in Market Insights | Microsoft Docs"
 description: "Learn how to manage groups and how to work with them in Market Insights."
 keywords: groups, office groups, teams
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: d8722387-0bfe-43d5-a7df-c2e851585bb6
 author: m-hartmann

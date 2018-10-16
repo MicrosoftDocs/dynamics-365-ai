@@ -3,7 +3,7 @@ title: "Manage connections in Market Insights | Microsoft Docs"
 description: "Learn how to get started with connections to other services."
 keywords: "connect, connections, integration, dynamics 365"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 79184579-61c0-425c-b7fd-28cc663dfa58
 author: m-hartmann

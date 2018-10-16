@@ -3,7 +3,7 @@ title: "Get to know your Market Insights filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Market Insights"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 50e56309-a8fa-460a-b342-f5629debdc13
 author: m-hartmann

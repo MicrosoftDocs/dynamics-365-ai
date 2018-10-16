@@ -3,7 +3,7 @@ title: "Manage the post quota for Market Insights | Microsoft Docs"
 description: "Learn how you can get the most out of your Market Insights post quota."
 keywords: "quota, post quota, contingent"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8eeba9fd-f9f7-4ba4-bf06-43ba71e3333e
 author: m-hartmann

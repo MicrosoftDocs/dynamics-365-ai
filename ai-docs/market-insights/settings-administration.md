@@ -3,7 +3,7 @@ title: "Administer Market Insights | Microsoft Docs"
 description: "Learn about the main areas to administer Market Insights"
 keywords: administration, stettings, global settings
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 1ba86b79-a3b4-4b0f-a56b-d57b5b591aee
 author: m-hartmann
