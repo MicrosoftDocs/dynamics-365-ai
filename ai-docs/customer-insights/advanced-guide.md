@@ -31,6 +31,7 @@ robots: noindex,nofollow
 ## How to use the Advanced Guide
 All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below:
 
+//Replace the image below with image 1 in the 10/15 list:
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-dashboard-full.png "Customer dashboard")
 
