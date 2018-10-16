@@ -117,12 +117,12 @@ You can view complete relationship analytics for an individual record, including
 
 **Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](email-engagement.md)  <br>
 
-
 **Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users. <br>
 
 **Most contacted by.** Provides statistics about the your team who most contacted customers. These contacts may include customers who are heavily involved with the your team even if they are not part of the record’s users. <br>
 
-**Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  
+**Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  <br> 
+
 
 <a name="Calculations"></a>   
 
