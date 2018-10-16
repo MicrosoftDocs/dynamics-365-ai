@@ -4,7 +4,7 @@ description: "Learn the customer service insights available on the Customer sati
 keywords: ""
 ms.date: 10/4/2018
 ms.service:
-  - "business-applications"
+  - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
@@ -46,13 +46,15 @@ Description | Details
 ----------- | -------
 Total surveys completed | *[The number of completed customer satisfaction (CSAT) surveys]*
 
-A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
+A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
 
 ## Survey response rate chart
 
 ![Survey response rate chart](media/ai-csi-response-rate.png)
 
 The survey response rate chart shows the percentage of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
+
+A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
 
 Description | Details
 ----------- | -------

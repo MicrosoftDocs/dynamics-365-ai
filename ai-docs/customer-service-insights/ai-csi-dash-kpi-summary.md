@@ -4,7 +4,7 @@ description: "Learn about the customer service insights available on the KPI Sum
 keywords: ""
 ms.date: 10/4/2018
 ms.service:
-  - "business-applications"
+  - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
@@ -54,7 +54,7 @@ SLA compliant | *[Of the total cases, the cases that are SLA compliant]* (includ
 Average resolution time | *[The average resolution time of all cases resolved within specified time period]*
 Average CSAT | *[The sum of CSAT scores]* / *[The count of resolved cases that have CSAT values]*
 
-A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
+A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
 
 ## Case priority chart
 

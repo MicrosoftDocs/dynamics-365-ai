@@ -4,7 +4,7 @@ description: "Create workspaces to work with different data in your system."
 keywords: ""
 ms.date: 9/11/2018
 ms.service:
-  - "business-applications"
+  - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952

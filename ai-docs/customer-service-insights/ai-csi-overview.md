@@ -4,7 +4,7 @@ description: "Learn the basics of Dynamics 365 AI for Customer Service."
 keywords: ""
 ms.date: 9/27/2018
 ms.service:
-  - "business-applications"
+  - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952

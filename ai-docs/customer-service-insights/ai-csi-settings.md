@@ -4,7 +4,7 @@ description: "Learn how to improve how to improve AI Insights charts by removing
 keywords: ""
 ms.date: 9/27/2018
 ms.service:
-  - "business-applications"
+  - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952

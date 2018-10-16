@@ -4,7 +4,7 @@ description: "Learn how Customer Service Insights dashboards can help you identi
 keywords: ""
 ms.date: 9/11/2018
 ms.service:
-  - "business-applications"
+  - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
