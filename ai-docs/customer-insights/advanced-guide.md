@@ -76,32 +76,38 @@ If you never used Customer 360 before, this is the workflow you can expect to go
 > [!div class="mx-imgBorder"] 
 > ![](media/workflow720.png "Workflow phases")
 
+
+[To ask shefy why moved home page to here?]
 ## Home page
-A range of actionable insights were derived during the data ingestion, configuration and enrichment processes and the *Home Page* is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It consists of four major parts as explained below.
+A range of actionable insights were derived during the data ingestion and configuration processes and the *Home Page* is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It consists of four major parts as explained below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customers-dashboard780.png "Home page")
 
--	**Insights around your overall customer base**: Exploring left to right, those insights include: 
+-	**Insights around your overall customer base**: The four latest insights appear at the top of the home page. If you wish to view more insights, click the *three dots* botton as shown in blue below. You can also *pin* those insights as shown in red.
+
+[]
+
+Let's explore some of those insights:
       - **Top Selling Products**: Shows your three top selling products by monetary value or by unit volume. 
-      - **Median Lifetime Spend (ML-powered)**: Whether it’s marketing, sales, support or other function, customer lifetime spend is one of the most comprehensive and actionable indicators of your business viability as it captures the customer value across all it’s journey phases. **Possible Usage:** Getting a sense for your overall business health before zooming into major effectors through segmentations and other indicators.
-      - **Highest Interests and most preferred Brands of your Customer Base**: These insights were explained within the Enrichment section. **Note**: while the Power BI report shows the top ten interests and brands for each of your customer profile types, the *Home page* shows the top **three** interests and brands of your **aggregated customer base.**
+      - **Median Lifetime Spend**: Whether it’s marketing, sales, support or other function, customer lifetime spend is one of the most comprehensive and actionable indicators of your business health as it captures the customer value across all it’s journey phases. It equipes you with important business understanding before zooming into major effectors through segmentations and other indicators.
+      - **Highest Interests and most preferred Brands of your Customer Base**: These insights were explained within the Enrichment section. **Note**: while the Customer 360 report shows the top ten interests and brands for each of your customer profile types, the *Home page* shows the top **three** interests and brands of your **aggregated customer base.**
+
+-	**Top segments**: As part of the ***Segemnts*** screen you were provided both with recommended segments and with the ability to create new segments. Within the *Home page* you can view your *Top Segments* including trends and other information. Click each of these segments to view this segment's entities and trendline as shown below in blue:
 
 ()
 
--	**Top segments**: As part of segmentation you were provided both with recommended segments and with the ability to create new segments. Within the *Home page* you can define which of all your segments are your most important segments to track. These will show up as *Top Segments* and automatically update with time so viewing trends is also at your fingertips. 
-
-()
-
-- **Data completeness scorecard**: Customer 360 equips you with a range of insights across the customer lifetime journey. However, how confident you can be in regard to these insights? By viewing the *Data Completeness Scorecard* you can get a sense for the phases for which you have wide entity representation versus the phases for which you should successfully incorporate more data and entities. 
-    - Going left to right, you can view how complete is your data for the Awareness, Engagement, Buying and Service stages.   
+- **Data completeness scorecard**: Customer 360 equips you with a range of insights across the customer lifetime journey. However, how confident can you be in regard to these insights? By viewing the ***Data Completeness Scorecard*** you can get a sense for the phases around which you have a wide entity representation, versus the phases for which you should incorporate more data and entities. 
+    - Going left to right, you can view how complete is your data for the Awareness, Engagement, Fulfillement and Service stages.   
     - For each of these tiles, *Green* represents good entity coverage, *Yellow* represents medium entity coverage and *Red* represents poor entity coverage. 
+    - Click each of the tiles to view the list of entities that were ingested for that specific customer journey phase
+    - In addition, instead of using the *Data Manager*, you can quickly ingest more data using the *three dots* icon to the right:
    
 ()
 
--	**Learn how to use Customer 360:** Include four quick-help options that are linked to the user guide:
-    - **Getting Start with Customer 360**: How to get started with the product? Takes you to the documentation of the Quick Start version of the product.
-    - **Customer 360 guided learning**: How to use the advanced version of the product? Takes you to this guide 
+-	**Learn how to use Customer 360:** Include four quick-help options:
+    - **Getting Start with Customer 360**: How to quickly get started with the product? Takes you to a documentation that explains how to quickly use the product and without spending time on all it's functionalities. 
+    - **Customer 360 guided learning**: How to fully benefit from all the functionalities of the product? Takes you to the current guide.   
     - **Tutorial: Customer 360 in a day**: Exemplifies how to use the product as part of a typical work day
     - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user guide as they encapsulate more mandatory configurations than the other product sections
 
@@ -113,6 +119,7 @@ A range of actionable insights were derived during the data ingestion, configura
 
 > [!div class="mx-imgBorder"] 
 > ![](media/custom-app.png "Custom app")
+
 
 ### PowerApps and Flow
 Show how a user can setup triggers to drive actions (e.g. use Flow to ! mail to account manager when churn score increases by 10+%)
