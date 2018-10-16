@@ -77,7 +77,7 @@ If you never used Customer 360 before, this is the workflow you can expect to go
 > ![](media/workflow720.png "Workflow phases")
 
 
-[To ask shefy why moved home page to here?]
+[not in October 29 scope]
 ## Home page
 A range of actionable insights were derived during the data ingestion and configuration processes and the *Home Page* is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It consists of four major parts as explained below.
 
