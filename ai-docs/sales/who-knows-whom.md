@@ -31,16 +31,19 @@ Who Knows Whom is available in **Contact** and **Lead** forms. When you open a l
 > [!NOTE]
 > If you do not see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, contact your administrator to enable this feature.
 
-1. **Contacts who know the lead.** These contacts are the people in your organization who have communicated with the lead through calls and emails. A maximum of five contacts are displayed for a lead. These contacts are displayed based on the most communication with the lead. 
+> [!div class="mx-imgBorder"]
+> ![Who Knows Whom widget](media/wkw-widget.png "Who knows whom widget")
+
+1. **Contacts who know the lead.** These contacts are the people in your organization who have communicated with the lead through calls and emails. A maximum of five contacts are displayed for a lead. These contacts are displayed based on the most communication with the lead.
 
     > [!div class="mx-imgBorder"]
-    > ![Who Knows Whom widget](media/wkw-widget.png "Who knows whom widget")
+    > ![Who Knows Whom connections](media/wkw_connection.png "Who knows whom connections")
 
     When you select a contact, details of the contact are displayed along with the strength of connection to a lead.
 
     > [!div class="mx-imgBorder"]
     > ![Connection details](media/wkw_connectiondetails.png "Connection details")<br>
-   
+  
     To get introduced to the lead, you can send an email to the selected contact without leaving the page you are on. Select **Get Introduced**. This opens an email with a default request to introduce the lead. Select **Send** to send the email. If you want to customize the email with more options, select **Open Email Form**.
 
     > [!div class="mx-imgBorder"]
