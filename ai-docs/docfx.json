@@ -43,6 +43,7 @@
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
+    "titleSuffix": "Dynamics 365 Mixed Reality",
     "fileMetadata": {},
     "template": [],
     "dest": "ai-docs",
