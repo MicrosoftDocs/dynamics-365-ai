@@ -31,25 +31,25 @@ Who Knows Whom is available in **Contact** and **Lead** forms. When you open a l
 > [!NOTE]
 > If you do not see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, contact your administrator to enable this feature.
 
-**Contacts who know the lead.** These contacts are the people in your organization who have communicated with the lead through calls and emails. A maximum of five contacts are displayed for a lead. These contacts are displayed based on the most communication with the lead. 
+1. **Contacts who know the lead.** These contacts are the people in your organization who have communicated with the lead through calls and emails. A maximum of five contacts are displayed for a lead. These contacts are displayed based on the most communication with the lead. 
 
-> [!div class="mx-imgBorder"]
-> ![Who Knows Whom widget](media/wkw-widget.png "Who knows whom widget")
+    > [!div class="mx-imgBorder"]
+    > ![Who Knows Whom widget](media/wkw-widget.png "Who knows whom widget")
 
-When you select a contact, details of the contact are displayed along with the strength of connection to a lead.
+    When you select a contact, details of the contact are displayed along with the strength of connection to a lead.
 
-> [!div class="mx-imgBorder"]
-> ![Connection details](media/wkw_connectiondetails.png "Connection details")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Connection details](media/wkw_connectiondetails.png "Connection details")<br>
    
-To get introduced to the lead, you can send an email to the selected contact without leaving the page you are on. Select **Get Introduced**. This opens an email with a default request to introduce the lead. Select **Send** to send the email. If you want to customize the email with more options, select **Open Email Form**.
+    To get introduced to the lead, you can send an email to the selected contact without leaving the page you are on. Select **Get Introduced**. This opens an email with a default request to introduce the lead. Select **Send** to send the email. If you want to customize the email with more options, select **Open Email Form**.
 
-> [!div class="mx-imgBorder"]
-> ![Email with default message](media/wkw_mail_to_introduction.png "Email with default message")
+    > [!div class="mx-imgBorder"]
+    > ![Email with default message](media/wkw_mail_to_introduction.png "Email with default message")
 
-**List view.** Select this to see the people in your company who know your lead. The contacts are displayed based on the connection strength. Connections whose strength is strong are displayed first, followed by other connection strengths. You can also select **Get Introduced** to send an email request for an introduction to the lead.
+2. **List view.** Select this to see the people in your company who know your lead. The contacts are displayed based on the connection strength. Connections whose strength is strong are displayed first, followed by other connection strengths. You can also select **Get Introduced** to send an email request for an introduction to the lead.
 
-> [!div class="mx-imgBorder"]
-> ![Connection details in list view](media/wkw_list_view.png "Connection details in list view")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Connection details in list view](media/wkw_list_view.png "Connection details in list view")<br>
 
 Let’s look at an example. Blaine Carmack is a sales representative who sells coffee makers. He has a new lead, Yvonne McKay, who owns Fourth Coffee and has opened a new store. Blaine wants to sell coffee machines to Yvonne, but he has not met or spoken to her. Before Blaine makes a call to Yvonne, he wants to know if any of his colleagues know her so that they could introduce him to increase the positive outcome of the call. Blaine performs the following steps:
 
