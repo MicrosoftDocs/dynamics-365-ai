@@ -29,38 +29,24 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## Data Manager Sections
-**Those include: Sources, Data, Entities, and Relationships.** Completing those sections will ensure that you loaded all the data that matters to you into Customer 360.  
+**Those include: *Get Data* and *Entities*** Completing those sections will ensure that you loaded all the data that matters to you into Customer 360.  
 
-## Data Manager: Sources
+## Data Manager: Get Data
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-- **Step One: Ingesting CRM data**: Upon selecting the **Sources** tab a pop-up window will show up and here you should select **Get Data** for the CRM source you are using as shown below. Both Dynamics 365 and Salesforce are supported by the app. For .csv files (Excel) and other sources, continue to step two.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/select-sources-get-data.png "Select Get data")
-
-- **Step Two: Identifying and ingesting additional data sources**: Upon selecting **Learn More** you will view many additional available sources. For locating the specific sources that apply to your organization, first identify their types which are represented by tabs at the top of the page (as shown below). Then, search for your specific sources under the relevant tabs and select **Get Data** for each one of them. Lastly, approve by selecting **Load Data** at the bottom-right corner of the page. If you wish to remove source prior to data ingestion select **Remove Data** for that source.
+- **Step One: Identifying and adding Entities**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs and complete all the required fields for each one of them. Lastly, approve by selecting **Next** at the bottom of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source-menu.png "Data source menu")
 
-## Data Manager: Data
+- **Step Two: Editing Entities**: You can edit any entity that you have ingested in step one. Adding columns, changing columns, combining tables, and many other changes are available at your fingertips. In order to edit an entity:
+    - First choose the entity to edit as shown in the example below:
+    - Then click **Edit Entity** as shown in red below. Note that this screen is where you can also refresh an entity's data (highlighted in blue)
+    - Lastly, you will use the editor that is shown below for the editing process. Editing columns, combining tables, and all other functionalities are available in the menu at the top of the screen as shown in red. Moreover, you can sort the data by each of the entity's attributes by clicking the sorting bottons as shown in blue: 
 
-This power query pop-up page can be used to pick and edit specific datasets from your selected datasources. The first button you should use in this page is the ***Bring Data*** button as shown below:
-
+Add images 6, 7 and 8 from the 10/15 list
 []
-
-Upon bringing a dataset and choosing it from the left menu (shown below in red), all the dataset fields and attributes appear in the main window (shown in blue). You can filter the dataset by each of the fields (shown in green):
-
 []
-
-Side by side with the ***Bring Data*** button you will find three more buttons. We will explore these from left to right:
-- ***Refresh***: Refreshing the dataset you have selected from the left menu will pull any changes that were made to this dataset at the source. It's recommended to use this functionality with regard to datasets that frequently change.
-- ***Options***: 
-- ***Combine Tables***: This options enables you to merge two datasets into a single dataset prior to completing the data ingestion
-
-The last functionalty that is available in this page is of editing the 
-
 []
 
 ## Data Manager: Entities
@@ -69,13 +55,21 @@ After ingesting the data, you can quickly evaluate how complete and useful it is
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
 
-The ***Entities*** table includes four columns (explored from left to right): 
+The ***Entities*** screen includes five columns (explored from left to right): 
 - **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Moreover, note that if there is a warning sign next to one of the entities names, it implies that the data for that entity didn't load successfully. 
+- **Last Updated**: Answers the question: *"When was the last time this entity's data was refreshed"?*
+- **Source**: Answers the question *From what datasource this entity was ingested?* (csv file, Azure datasource, etc)
 - **Type**: The types of your data entities. In some cases will be the same as your entities names while in others can be different.
-- **Source**: From which datasource this entity was ingested?
-- **Actions**: Those include on the entity-level:
-    - The possibility to **Edit** this entity
-    - The option to 
-    - The option to
+- **Updated By**: Answers the question: *By who this entity's data was refreshed?*
 
 The app automatically identifies values for these four columns within your ingested data sources and if the identification fails it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it as needed.
+
+## Exploring a specific Entity's data
+If you wish to explore the different fields and records that one of your entities includes click that entity. That will take you to the following screen:
+
+Add image 9 from the 10/15 list
+[]
+
+Within this screen:
+- If you click the ***Fields*** tab, you will be able to view the details of each field and field including the field's name, data type and type.
+- If you click the ***Data*** tab you will be able to view the details of each record including the record's value, when it was refreshed and ?
