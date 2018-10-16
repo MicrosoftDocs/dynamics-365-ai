@@ -43,9 +43,9 @@
       "titleSuffix": "Dynamics 365 AI",
       "breadcrumb_path": "/dynamics365/ai/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "titleSuffix": "Dynamics 365 AI"
     },
-    "titleSuffix": "Dynamics 365 AI",
     "fileMetadata": {},
     "template": [],
     "dest": "ai-docs",
