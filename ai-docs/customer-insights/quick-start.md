@@ -134,8 +134,7 @@ There are two types of segments:
 - **Static**: Segment with conditions that are processed only upon the creation of the segment and it's possible updating. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
 - **Dynamic**: Segment with conditions that are processed according to a fixed schedule. The current segment resfreshing schedule is every 12 hours. Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/customer-segments.png "Customer segments")
+[picture was removed - to add a different one]
 
 In addition to the segments you have created, Customer 360 will light up segments that are recommended for you. Those are derived based on your specific data and industry types.
 
@@ -163,8 +162,7 @@ To add a segment, select **Add Segment**.
 
 To bring in your company's data, select **Sources** then select a data source. 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source75.png "Choose a data source")
+[picture was removed - to add a different one]
 
 Your data will be brought in to AI for Customer Insights and the sample data will be removed. 
 
