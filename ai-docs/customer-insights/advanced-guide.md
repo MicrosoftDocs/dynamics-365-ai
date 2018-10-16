@@ -36,8 +36,7 @@ All product sections are accessed through their corresponding tab names in the l
 > ![](media/customer-dashboard-full.png "Customer dashboard")
 
 In order to best utilize this guide for your specific needs, you should identify your situation:
-- ***I am new to the product and I didn't go through the Quick start documentation*** -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* and *Configuration* sections and only then exploring the *Segments, Profile, and Home page*** sections.
-- ***I am new to the Advanced guide but I did explore the Quick Start documentation*** -> In that case you may want to skip the following sections: *Profile, Enrichment, Segments, and Administration* as these are the same as for *Quick Start*.   
+- ***I am new to the product -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. This guide's flow reflects the order by which you should work with the product: **Completing the *Data Manager* and *Configure Data* sections and only then exploring the *Segments and Customer 360 Dashboard* sections**.  
 - ***I am already using the product but incurring a specific issue*** -> In that case you may want to identify what product section this issue relates to and explore this particular section. 
 
 > [!div class="mx-imgBorder"] 
@@ -52,8 +51,19 @@ In order to best utilize this guide for your specific needs, you should identify
 Currently missing (9/17)
 -->
 
+## Creating or Choosing an Instance
+The first thing you do is creating an instance:
+
+//add image 2 from the 10/15 list:
+[]
+
+You can also use an existing instance:
+
+//add image 3 from the 10/15 list:
+[]
+
 ## Choose a business category
-Just as for Quick Start mode, the first thing you do is select a business category that matches your industry:
+The second thing you do is select a business category that matches your industry:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-business-category720.png "Select a business category")
@@ -64,10 +74,9 @@ Select **More categories** to choose from more industries and business functions
 > ![](media/more-categories.png "More categories")
 
 ## Bring in your data
-Once you've selected a business category, sample data is loaded with pre-configured profiles and segments for you to explore.
+Once you've selected a business category you will get to the *Data Manager* main screen where you should first choose ***Get Data*** as shown below.   
 
-To bring in your own data, under **Data Manager** select **Sources** and choose a data source. Proceed through the pages to load your data. Once loaded, the sample data will be removed.
-
+//Replace the image below with image 4 in the 10/15 list:
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source75.png "Choose a data source")
 
@@ -76,41 +85,6 @@ If you never used Customer 360 before, this is the workflow you can expect to go
 
 > [!div class="mx-imgBorder"] 
 > ![](media/workflow720.png "Workflow phases")
-
-
-[not in October 29 scope]
-## Home page
-A range of actionable insights were derived during the data ingestion and configuration processes and the *Home Page* is where you will find a consolidation of those insights in a way that is tailored around your specific needs. It consists of four major parts as explained below.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/customers-dashboard780.png "Home page")
-
--	**Insights around your overall customer base**: The four latest insights appear at the top of the home page. If you wish to view more insights, click the *three dots* botton as shown in blue below. You can also *pin* those insights as shown in red.
-
-[]
-
-Let's explore some of those insights:
-      - **Top Selling Products**: Shows your three top selling products by monetary value or by unit volume. 
-      - **Median Lifetime Spend**: Whether it’s marketing, sales, support or other function, customer lifetime spend is one of the most comprehensive and actionable indicators of your business health as it captures the customer value across all it’s journey phases. It equipes you with important business understanding before zooming into major effectors through segmentations and other indicators.
-      - **Highest Interests and most preferred Brands of your Customer Base**: These insights were explained within the Enrichment section. **Note**: while the Customer 360 report shows the top ten interests and brands for each of your customer profile types, the *Home page* shows the top **three** interests and brands of your **aggregated customer base.**
-
--	**Top segments**: As part of the ***Segemnts*** screen you were provided both with recommended segments and with the ability to create new segments. Within the *Home page* you can view your *Top Segments* including trends and other information. Click each of these segments to view this segment's entities and trendline as shown below in blue:
-
-()
-
-- **Data completeness scorecard**: Customer 360 equips you with a range of insights across the customer lifetime journey. However, how confident can you be in regard to these insights? By viewing the ***Data Completeness Scorecard*** you can get a sense for the phases around which you have a wide entity representation, versus the phases for which you should incorporate more data and entities. 
-    - Going left to right, you can view how complete is your data for the Awareness, Engagement, Fulfillement and Service stages.   
-    - For each of these tiles, *Green* represents good entity coverage, *Yellow* represents medium entity coverage and *Red* represents poor entity coverage. 
-    - Click each of the tiles to view the list of entities that were ingested for that specific customer journey phase
-    - In addition, instead of using the *Data Manager*, you can quickly ingest more data using the *three dots* icon to the right:
-   
-()
-
--	**Learn how to use Customer 360:** Include four quick-help options:
-    - **Getting Start with Customer 360**: How to quickly get started with the product? Takes you to a documentation that explains how to quickly use the product and without spending time on all it's functionalities. 
-    - **Customer 360 guided learning**: How to fully benefit from all the functionalities of the product? Takes you to the current guide.   
-    - **Tutorial: Customer 360 in a day**: Exemplifies how to use the product as part of a typical work day
-    - **Map, Match, Merge and Segment**: Takes you to these specific sections within the user guide as they encapsulate more mandatory configurations than the other product sections
 
 
 ## Extensibilities
