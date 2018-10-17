@@ -34,7 +34,7 @@ robots: noindex,nofollow
 ## Data Manager: Get Data
 In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting.
 
--	**Step One: Dataflow Creation:** Clicking the **Get Data** button will take you to the **Dataflow Screen** as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage.                                         - **If it’s the first time you are using Customer 360**, you need to create a dataflow and that is available through the highlighted **Add Entity** button:
+-	**Step One: Dataflow Creation:** Clicking the **Get Data** button will take you to the **Dataflow Screen** as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage.                                                - **If it’s the first time you are using Customer 360**, you need to create a dataflow and that is available through the highlighted **Add Entity** button:
 
 []
 
@@ -42,7 +42,7 @@ Then you should give your dataflow a name and short description as shown below:
 
 []
 
-Lastly click your new dataflow to start ingsting entities into this dataflow.                                                            - **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 
+Lastly click your new dataflow to start ingsting entities into this dataflow.                                                                    - **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 
 
 - **Step Two: Identifying and adding Entities**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs and complete all the required fields for each one of them. Lastly, approve by selecting **Next** at the bottom of the page.
 
