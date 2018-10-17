@@ -25,10 +25,17 @@ Approve and withdraw access to [!INCLUDE[Dynamics 365 AI for Market Insights](..
 > [!NOTE]
 >  You must be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator to perform these tasks.  
   
-## Approve or withdraw requests  
-When a self-service user signs up for a trial using an email domain that already has access to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], they get added to the existing tenant but can't access the service immediately. An admin needs to approve or deny their request.
+## Approve or withdraw access requests  
+When a self-service user signs up for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] when a subscription already exists, they get added to the existing tenant but can't access the service immediately. A [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] admin needs to approve or deny their request.
 
-## Approve a new user
+Users in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can have on of the following statuses: 
+- **Pending**: New users who are requesting access after using the self-service sign-up
+- **Active (New)**: New users who were assigned a license to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by the global admin and got the default roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
+- **Active (All)**: All active users in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution (excluding pending and withdrawn users)
+- **Withdrawn**: Users with a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license whose access was withdrawn by an administrator
+
+
+### Approve a new user
   
 1.  Navigate to **Settings** > **User Management**.  
   
@@ -40,7 +47,7 @@ When a self-service user signs up for a trial using an email domain that already
   
 5.  To confirm, select **Save** ![save button](media/save-icon.png "Save button").  
 
-## Withdraw a request of a new user
+### Withdraw access of a user
 
 1.  Navigate to **Settings** > **User Management**.  
   
