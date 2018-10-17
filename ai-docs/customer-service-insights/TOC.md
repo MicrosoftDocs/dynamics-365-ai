@@ -3,7 +3,7 @@
 # Quickstart
 ## [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md)
 # How to
-## [Use workspaces to manage your customer service data insights](ai-csi-use-workspaces.md)
+## [Use workspaces to connect to different customer service data sources](ai-csi-use-workspaces.md)
 ## [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md)
 ## [Identify areas of improvement in your customer support system](ai-csi-improve-system.md)
 ## [Improve your AI for Customer Service Insights data by cleansing support case titles](ai-csi-settings.md)

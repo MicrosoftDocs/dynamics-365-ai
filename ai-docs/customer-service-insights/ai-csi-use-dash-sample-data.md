@@ -2,7 +2,7 @@
 title: "Work with dashboards and sample data"
 description: "Learn how to use AI for Customer Service Insights dashboards and sample data."
 keywords: ""
-ms.date: 10/15/2018
+ms.date: 10/16/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -21,11 +21,11 @@ Some key features of the dashboards include:
 * Filters to let you view customer service data for a specific time period, product, support channel, business unit, or team.
 * Key performance indicator charts that give you the basics of how your system is performing.
 * Graphical charts showing trends and breakdowns of cases from a variety of views.
-* AI Insights charts that use language understanding artificial intelligence technology to show trends for groups of cases related to specific support topics.
+* AI Insights charts that use language understanding artificial intelligence technology to show the impact and trends of cases related to specific support topics.
 
 ## Dashboard filters
 
-Filters let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data.
+Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data.
 
 ![Dashboard Filters](media/ai-csi-filters.png)
 
@@ -52,7 +52,54 @@ Key performance indicator charts give you a view of the key performance data in 
 
 Each key performance indicator chart includes a blue or red up and down indicator next the value. A blue arrow indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
 
-The KPI Summary and Topic details dashboards include key performance indicator charts.
+The [KPI Summary](ai-csi-dash-kpi-summary) and [Topic details](ai-csi-dash-topic-details) dashboards include key performance indicator charts.
 
 ## Graphical trend and breakdown charts
 
+The dashboards include a variety of graphical charts that give you views of different trends in your support cases, and the breakdown of cases by key criteria such as resolution time, customer satisfaction, case priority, and support channel.
+
+![Graphical charts](media/ai-csi-graphical-charts.png)
+
+Graphical charts showing trends include:
+
+* [Case tracking (KPI dashboard)](ai-csi-dash-kpi-summary#case-tracking-chart)
+* [Unresolved cases by age (KPI dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
+* [Case timing (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-timing-chart)
+* [Incoming cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#incoming-cases-versus-average-resolve-time-chart)
+* [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
+* [Topic journey (Topic details dashboard)](ai-csi-topic-details#topic-journey-chart)
+
+Graphical charts showing the breakdown of support cases by key criteria include:
+
+* [Case priority (KPI dashboard)](ai-csi-dash-kpi-summary#case-priority-chart)
+* [Total case breakdown (KPI dashboard)](ai-csi-dash-kpi-summary#case-priority-chart#total-case-breakdown-chart)
+* [Case channel (KPI dashboard)](ai-csi-dash-kpi-summary#case-channels-chart)
+* [Case priority (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-priority-chart)
+* [Case channel (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-channels-chart)
+* [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT#average-csat-chart)
+* [Agents with longest resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-resolve-time-chart)
+* [Agents with most escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-most-escalations-chart)
+* [Agents with most unresolved cases (Topic details dashboard)](ai-csi-topic-details#agents-with-most-unresolved-cases-chart)
+* [Agents with longest resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-resolve-time-chart)
+* [Agents with lowest CSAT (Topic details dashboard)](ai-csi-topic-details#agents-with-lowest-csat-chart)
+
+All dashboards include graphical trend and breakdown charts.
+
+## AI Insights charts
+
+AI Insights charts use language understanding technology to group support cases as topics, helping you identify the types of cases that are having the greatest impact, both positive and negative, on the customer service system.
+
+![Top resolve time impactors](media/ai-csi-top-resolve-time.png)
+
+AI Insights charts include:
+
+* [Top case volume impactors (KPI dashboard)](ai-csi-dash-kpi-summary#top-case-volume-impactors-chart)
+* [Top resolve time impactors (KPI dashboard)](ai-csi-dash-kpi-summary#top-resolve-time-impactors-chart)
+* [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
+* [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
+* [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT#top-csat-impactors-chart)
+* [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
+* [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-csat-impactors-chart)
+* [Top resolve time impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-resolve-time-impactors-chart)
+
+All dashboards include AI Insights charts.

@@ -26,7 +26,7 @@ The AI-driven technology empowers informed decision making about how to improve 
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md).
 
-For more information about how workspaces can help you get different views of your customer support data, see [Use workspaces to manage your customer service data insights](ai-csi-workspaces.md).
+For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service data sources](ai-csi-workspaces.md).
 
 For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
