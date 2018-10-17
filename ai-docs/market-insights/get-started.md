@@ -3,7 +3,7 @@ title: "Get started with Market Insights | Microsoft Docs"
 description: "Learn how to ramp up quickly on Market Insights."
 keywords: "get started, onboarding, key features"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 587079ee-03f0-4dc6-8cbf-14cee4e50273
 author: m-hartmann
@@ -105,8 +105,6 @@ This topic introduces common user-interface elements and useful tips to work eff
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](settings-administration.md)  
   
 - **Help**: Visit the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Help Center (opens a new website) to see the latest help topics.  
-  
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Market Insights](get-help.md)  
   
 ## Get around in the Analytics area  
  In most cases, the first thing you’ll see when you sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  

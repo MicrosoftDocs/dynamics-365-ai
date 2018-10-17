@@ -3,7 +3,7 @@ title: "Check the health state of your social profiles in Market Insights | Micr
 description: "Learn how to keep the tokens of your social profiles in a healthy state."
 keywords: "token, health state"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: be272245-c71e-4982-811f-4a0842e51f9c
 author: m-hartmann

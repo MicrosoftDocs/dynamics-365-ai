@@ -3,7 +3,7 @@ title: "Author details in Market Insights | Microsoft Docs"
 description: "Learn how to find details about the posts' authors in Market Insights."
 keywords: "author, authors, author details"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 11e55ef2-b62f-48d4-9df9-2385617ac381
 author: m-hartmann

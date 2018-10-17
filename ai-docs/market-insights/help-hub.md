@@ -3,7 +3,7 @@ title: "Pointers for Market Insights | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 08bc1f91-bd7b-4083-99d9-72770f5cd673
 author: m-hartmann

@@ -3,7 +3,7 @@ title: "Market Insights scenarios for the marketing department | Microsoft Docs"
 description: "Review marketing scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 keywords: "marketing, scenario, use case"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 4ba36542-dce5-4944-a579-153decdc6ece
 author: m-hartmann
@@ -27,15 +27,13 @@ This overview provides a step-by-step description of how you and your team can u
 
 ## Prerequisites
 
-- You have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license assigned.
-
 - [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is [set up](settings-administration.md).
 
 - [Search topics are configured](set-up-searches.md) and data acquisition is up and running. To listen to conversations about your brand, it's important that you create a search topic that gathers relevant posts.
 
 - You have the required [user roles and permissions](user-roles.md) assigned in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-## Brand reputation
+## Brand reputation using AI
 
 To find out how a brand is perceived on social media, after you [set up a search topic](set-up-searches.md) for it, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides [sentiment analysis](analytics-sentiment.md) capabilities in the original language by using natural language processing and machine learning capabilities.
 
@@ -44,6 +42,11 @@ To find out how a brand is perceived on social media, after you [set up a search
 2. Go to **Analytics** > **Sentiment** to get insights into how people feel about your brand and find out who your brand advocates are.
 
 3. See which topics are being discussed around your brand on the [Conversation page in Analytics](analytics-conversations.md).
+
+## Get insights about demographics
+
+For keyword searches, you'll get insights into the [age](analytics-overview.md#age) and [gender](analytics-overview.md#gender) of the audience that searches for similar terms on Bing. For example if you're planning a sports event, this information can be very helpful to prepare for the right number of facilities and changing rooms.  
+Currently, these charts are only available in the United States. 
 
 ## Campaign performance
 

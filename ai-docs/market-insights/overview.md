@@ -3,7 +3,7 @@ title: "Overview of Market Insights, pricing, and related scenarios | Microsoft 
 description: "Learn about features and pricing of Market Insights and get started using the service."
 keywords: "Market Insights, overview, quick start, scenarios"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: a1fb6d67-e0dc-4694-8086-3132ac270b1b
 author: m-hartmann
@@ -27,30 +27,9 @@ Social media is no longer relegated to a select few in the marketing department.
 
 ![Market Insights dashboard for conversations displaying charts and phrase clouds](media/analytics-conversation-view.jpg "Market Insights dashboard for conversations displaying charts and phrase clouds")
 
-## Success stories
-
-See how some of our customers are using [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to address their use cases.  
-
--   [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)&mdash;transforming customer service and social insights.
-
--   [The RIGI Bahn moves closer to its guests](https://customers.microsoft.com/story/the-rigi-bahn-moves-closer-to-its-guests-with-the-help-of-microsoft-social-engagement)&mdash;social engagement and marketing.
-
--   [Bremont accelerates customer service](https://enterprise.microsoft.com/en-gb/customer-story/industries/retail-and-consumer-goods/bremont-accelerates-customer-service/)&mdash;customer service and engagement.
-
--   [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/story/5-tips-to-help-your-business-weather-changes-in-the-fi)&mdash;digital transformation and customer engagement.
-
--   [The Liebherr Group harnesses social media to stay ahead with Microsoft Dynamics 365](https://customers.microsoft.com/story/the-liebherr-group-harnesses-social-media-to-stay-ahea)&mdash;brand reputation and social sentiment.
-
-
-## Pricing information
-
-[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
-
-Note that [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
-
 ## Getting started
 
-Setting up [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] doesn't take long. You can also [request a trial](https://experience.dynamics.com/trials/) to try out your use cases. The following topics will help you get started quickly.
+Setting up [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] doesn't take long. The following topics will help you get started quickly.
 
 - [Get started with Market Insights](get-started.md): Find important information to help you get around in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
@@ -84,9 +63,6 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Download the [Market Insights translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
-## Request a trial
-
-Customers and partners can request a trial and depending on the business case and capacity, we will email you the trial key. [Request a trial](https://experience.dynamics.com/trials/).
 
 ### See also
 

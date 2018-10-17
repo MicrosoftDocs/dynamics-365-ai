@@ -3,7 +3,7 @@ title: "Market Insights scenarios for salespeople | Microsoft Docs"
 description: "Review sales scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 keywords: sales, sceanrio, use case
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: b55c97de-1235-42b5-90b2-397f2182c8ed
 author: m-hartmann

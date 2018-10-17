@@ -3,7 +3,7 @@ title: "Set up Market Insights | Microsoft Docs"
 description: "Learn how you can set up Market Insights in a few steps."
 keywords: "configuration, setup, quickstart, reference"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 13cb8bad-86fa-4be2-b60c-0c00e329f31f
 author: m-hartmann

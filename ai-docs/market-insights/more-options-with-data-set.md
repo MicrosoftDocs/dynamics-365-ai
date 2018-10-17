@@ -3,7 +3,7 @@ title: "Work with a data set in Market Insights | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Market Insights."
 keywords: "data set, filter, time frame"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: ea774b21-4ac3-4917-bc34-a5b635f7fedc
 author: m-hartmann

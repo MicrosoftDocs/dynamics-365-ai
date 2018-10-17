@@ -3,7 +3,7 @@ title: "Set up searches to listen to social media conversations | Microsoft Docs
 description: "Review this guide to set up searches and find data in Market Insights."
 keywords: "search, setup, configuration, search topic, search rule, keywords"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 03c45859-e94c-4d31-b027-18b49644776a
 author: m-hartmann
