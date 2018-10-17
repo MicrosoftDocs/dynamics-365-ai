@@ -20,4 +20,5 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Work with Predictive lead scoring
+# Work with Predictive opportunity scoring
+

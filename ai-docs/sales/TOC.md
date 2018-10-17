@@ -19,5 +19,5 @@
 ### [Work with predictive lead scoring](../sales/work-predictive-lead-scoring.md)
 ### [Work with predictive opportunity scoring](../sales/work-predictive-opportunity-scoring.md)
 ### [Get suggestion using Suggested actions](../sales/notes-analysis.md)
+### [Know converstion starters for your customers](../sales/talking-points.md)
 ### [Get introduced to lead](../sales/who-knows-whom.md)
-### [Know converstion starters of customers](../sales/talking-points.md)
