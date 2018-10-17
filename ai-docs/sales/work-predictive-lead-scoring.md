@@ -27,7 +27,7 @@ Applies to Dynamics 365 (online), version 9.0.2<br><br/>
 Predictive lead scoring helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into an opportunity. These leads are displayed in a system view—and when you select a lead, you can view reasons and influences of that lead to further analyze and build a strategy and turn the lead into an opportunity.
 
 > [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)
+> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-sales-insights-addon.md#configure-predictive-lead-scoring)
 
 ## Understand predective lead scoring in views
 When the Predictive lead scoring is enabled in your organization, you can use the My Open Leads Scored system view. This view gives you a list of leads that can be converted into opportunities.<br>

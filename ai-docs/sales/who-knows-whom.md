@@ -62,7 +62,7 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 3.	Select the **Lead:Sales Insights** view from the view dropdown.
 
     > [!div class="mx-imgBorder"]
-    ![Select Who Knows Whom view](media/wkw_select_view.png "Select who knows whom view")
+    > ![Select Who Knows Whom view](media/wkw_select_view.png "Select who knows whom view")
 
     The **Who Knows Whom** tile is displayed as shown next.
 
