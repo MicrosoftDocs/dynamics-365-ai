@@ -83,6 +83,7 @@ A blue up and down indicator next the value indicates the positive percent chang
 
 The survey responses by city chart shows the geographical location of customer satisfaction surveys completed during the specified time period.
 -->
+
 ## Top CSAT impactors chart (AI Insights)
 
 ![Top CSAT impactors chart](media/ai-csi-CSAT-impactors.png)

@@ -66,6 +66,7 @@ Description | Details
 ----------- | -------
 Overall average CSAT impact | 1 – (*[Average CSAT score not including the current topic]* / *[Overall average CSAT score for all topics]*)
 Overall average resolve time impact | 1 – (*[Average resolution time not including the current topic]* / *[Overall average resolution time for all topics]*)
+
 ## Agents with most unresolved cases chart
 
 ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png)
@@ -110,7 +111,7 @@ Topic journey | *[Sankey diagram showing the flow of support cases by support ch
 
 ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png)
 
-The top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product. 
+The top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product.
 
 Description | Details
 ----------- | -------
