@@ -20,25 +20,24 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Preview feature: Get insights on opportunities, activities, and leads of customers
+# Get insights on opportunities, activities, leads, and interactions of customers
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
-Using Sales insights add-on you can track customer related activities and adress the questions such as:
+Using AI for sales, you can track customer related activities and address the questions such as:
 - What opportunities should have priority?
 - When was the customer last contacted?
 - Who on the team has been interacting with the customer?
 
-Sales insights add-on constains the following features:
-- Relationship analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship analytics](relationship-analytics.md)
-- Predective lead scoring. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predictive lead scoring](work-predictive-lead-scoring.md) 
+AI for sales consists of the following features:
+- **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
+- **Predective lead scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Convert leads into opportunities](work-predictive-lead-scoring.md) 
+- **Predictive opportunity scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Convert opportunities into deals](work-predictive-opportunity-scoring.md)
+- **Notes analysis:** Monitors notes that you enter regarding a recent meeting or discussion with your customer to provide intelligent suggestions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How notes analysis assists you with suggestion](notes-analysis.md)
+- **Talking points:** Displays topics to start a conversation with your customer such as sports, vacation, family, and entertainment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Know conversation starters for your customers](talking-points.md)
+- **Who knows whom:** Provides details such as names and email addresses of your colleagues who know a lead that you are going to interact. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to get introduced to a lead](who-knows-whom.md)
 
-The feature [**Relationship Analytics**](/relationship-analytics.md) and [**Predictive Lead Scoring**](work-predictive-lead-scoring.md) are available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
-  
-A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
-  
-> [!IMPORTANT]
->  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).
+For information about how to enable these features, see [Configure and enable embedded intelligence](configure-enable-sales-insights-addon.md).  
 
 ## Privacy notices  
 

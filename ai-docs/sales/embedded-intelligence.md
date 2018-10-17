@@ -28,9 +28,9 @@ Embedded intelligence is a suite of features which continuously analyze the vast
   
 Embedded intelligence includes the following features, which all work together to amplify their individual strengths:  
   
--   [Relationship assistant](relationship-assistant.md)  
--   [Email engagement](email-engagement.md)   
--   [Auto capture](auto-capture.md)  
+- Relationship assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Use relationship assistant to guide customer communications](relationship-assistant.md)  
+- Email engagement. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Use email engagement to view message interactions](email-engagement.md)   
+- Auto capture. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Auto capture of related emails](auto-capture.md)  
   
 For information about how to enable these features, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
     
@@ -47,7 +47,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
   
  The system reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an important opportunity is nearing its close date; and much more.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](relationship-assistant.md), [Action cards reference](action-cards-reference.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use relationship assistant to guide customer communications](relationship-assistant.md), [Action cards reference](action-cards-reference.md)  
   
 <a name="EmailEngagement"></a>   
 
@@ -70,7 +70,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
   
  To protect the privacy preferences of your customers, you can choose to not allow followed messages for individual contacts by setting a flag on their contact or lead record.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](email-engagement.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md)  
   
 <a name="AutoCapture"></a>   
 
@@ -81,7 +81,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
   
  You can still track messages in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] in all the ways that you could before, including by using the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] or tracked folders. All tracked messages in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are available to Embedded intelligence features.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture](auto-capture.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture of related emails](auto-capture.md)  
  
 <a name="BKMK_Privacy"></a>   
 
