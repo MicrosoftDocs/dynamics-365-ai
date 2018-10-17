@@ -106,8 +106,6 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Help**: Visit the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Market Insights](get-help.md)  
-  
 ## Get around in the Analytics area  
  In most cases, the first thing you’ll see when you sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
   
