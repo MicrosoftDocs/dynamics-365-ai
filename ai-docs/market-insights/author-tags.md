@@ -3,7 +3,7 @@ title: "Author tags in Market Insights | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Market Insights"
 keywords: "author tags, tags"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: c56a6140-87ca-4ae1-9179-5f808cfa5a80
 author: m-hartmann

@@ -3,7 +3,7 @@ title: "Manage the post quota for Market Insights | Microsoft Docs"
 description: "Learn how you can get the most out of your Market Insights post quota."
 keywords: "quota, post quota, contingent"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8eeba9fd-f9f7-4ba4-bf06-43ba71e3333e
 author: m-hartmann
@@ -29,7 +29,7 @@ If you're expected to exceed the post quota for the current month, administrator
 For example, if your monthly post quota is 10,000 posts, your grace period starts when you receive a notification that your solution will probably exceed your quota limits. Data acquisition will be stopped automatically after 48 hours if you have exceeded your post quota by then, or as soon as your solution gathered more than 50,000 posts before the 48 hours have passed. 
   
 You have the following options to take action:  
-- Review your search topics regularly to make sure that only relevant data is selected. Previewing a search topic before saving it is a great help to get an impression of how many posts we're expecting for the configuration you provided.  
+- Review your search topics regularly to make sure that only relevant data is selected. Previewing a search topic before saving it is a great help to get an impression of how many posts we're expecting for the configuration you provided. [Delete search topics or rules](create-delete-search-topic.md) that you don't need anymore. 
 - [Maintain a list of blocked content](search-results-quality.md) to avoid any posts appearing in your results from the domains in the list or matching any blocked keywords.  
 - [Exclude authors](manage-authors.md) who publish irrelevant posts that match one of your search queries.  
   

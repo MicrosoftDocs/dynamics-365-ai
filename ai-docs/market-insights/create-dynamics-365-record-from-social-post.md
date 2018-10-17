@@ -3,7 +3,7 @@ title: "Create a record from a post in Market Insights | Microsoft Docs"
 description: "Learn how to send posts found in Market Insights to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: b1341b83-efc9-4ed3-b5c3-b26e814f3f72
 author: m-hartmann

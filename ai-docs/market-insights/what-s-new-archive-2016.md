@@ -3,7 +3,7 @@ title: "Archive - Market Insights 2016 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Market Insights releases in 2016."
 keywords: "release notes, 2016, what's new"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 65d358cd-5d40-4062-a2e1-488eff8c89a5
 author: m-hartmann

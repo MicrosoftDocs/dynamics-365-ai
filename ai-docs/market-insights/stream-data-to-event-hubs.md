@@ -3,7 +3,7 @@ title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Market Insights to Event Hubs."
 keywords: "azure event hubs, event hub, stream data, connection string"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 95716489-0c63-41d2-8b5b-e9b8caedf0fd
 author: m-hartmann

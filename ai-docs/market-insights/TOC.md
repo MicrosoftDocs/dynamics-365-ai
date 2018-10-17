@@ -4,12 +4,10 @@
 ### [Market Insights Update 2016](what-s-new-archive-2016.md)
 ### [Market Insights Update 2015](what-s-new-archive-2015.md)
 ## Business scenarios and use cases
-### [Sales scenarios](overview-sales-scenario.md)
 ### [Marketing scenarios](overview-marketing-scenario.md)
+### [Sales scenarios](overview-sales-scenario.md)
 ### [Service scenarios](overview-service-scenario.md)
 ## [Get started with Market Insights](get-started.md)
-### [Market Insights training videos](https://go.microsoft.com/fwlink/p/?linkid=861639)
-### [Set up a trial solution](provision-trial-solutions.md)
 ### [Sign in to Market Insights](sign-in.md)
 ### [Set your preferences for the user interface](user-preferences.md)
 ### [Stay up to date with alerts](email-alerts.md)

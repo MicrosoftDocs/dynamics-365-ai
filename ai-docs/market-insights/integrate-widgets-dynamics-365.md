@@ -3,7 +3,7 @@ title: "Market Insights integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: "integration, connection, embedded"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 95da0900-9277-4704-baab-23829925159c
 author: m-hartmann

@@ -3,7 +3,7 @@ title: "Route posts using automation rules in Market Insights | Microsoft Docs"
 description: "Learn how to set up automation rules in Market Insights to automatically handle subsets of incoming posts."
 keywords: "automation rule, automated task"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: ab6e56e3-6b5c-4b07-9240-46885a246fe3
 author: m-hartmann

@@ -3,7 +3,7 @@ title: "Customer service scenarios for Market Insights | Microsoft Docs"
 description: "Review service scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 keywords: "service scenario, overview, customer service, social customer service"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: ba7e7205-7c76-49ee-abfe-bffdd1365209
 author: m-hartmann

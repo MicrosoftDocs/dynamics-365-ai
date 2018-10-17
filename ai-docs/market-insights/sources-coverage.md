@@ -3,7 +3,7 @@ title: "Sources coverage in Market Insights | Microsoft Docs"
 description: "Learn what's included in the sources available in Market Insights."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 9938a17c-751d-46a5-a31b-e5ccedb9dfb5
 author: m-hartmann
@@ -22,6 +22,10 @@ search.app:
 # Find out what&#39;s covered by sources
 
 [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
+
+> [!NOTE]
+> Not all posts contain location data.Location data is supported on **News** posts, and partially on **Twitter**
+and **Forums**. The [Location dashboard](analytics-location.md) focuses on posts that contain location information, which might cover a subset of your data.
 
 ## Blogs
 

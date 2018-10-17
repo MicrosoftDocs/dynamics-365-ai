@@ -3,7 +3,7 @@ title: "Analytics for locations in Market Insights | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Market Insights."
 keywords: "analytics, locations, maps, location analysis"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 149aaf60-14bf-4178-94b2-8c48fe882032
 author: m-hartmann

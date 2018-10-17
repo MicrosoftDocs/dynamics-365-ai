@@ -3,7 +3,7 @@ title: "Connect Market Insights to Dynamics 365 | Microsoft Docs"
 description: "Learn how to set up the connection between Market Insights and Dynamics 365."
 keywords: "connect, connection, integration, dynamics 365"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 757bbf6c-f4aa-410a-9c70-30093311c05a
 author: m-hartmann

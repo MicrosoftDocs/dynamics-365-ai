@@ -3,7 +3,7 @@ title: "Analytics for sentiment in Market Insights | Microsoft Docs"
 description: "Learn how to focus your analysis on sentiment and tonality in Market Insights."
 keywords: "sentiment, natural language processing, tonality, analytics, sentiment analysis"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 33144d6c-7a80-40d1-a6ed-8f5757d7c7ba
 author: m-hartmann
