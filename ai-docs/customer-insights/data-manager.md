@@ -43,8 +43,8 @@ Then you should give your dataflow a name and short description as shown below:
 
 []
 
-Lastly click your new dataflow to start ingsting entities into this dataflow. 
-    - **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 
+Lastly click your new dataflow to start ingsting entities into this dataflow.
+     - **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 
 
 - **Step Two: Identifying and adding Entities**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs and complete all the required fields for each one of them. Lastly, approve by selecting **Next** at the bottom of the page.
 
