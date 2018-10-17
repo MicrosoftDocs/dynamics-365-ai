@@ -39,12 +39,8 @@ The following screen displays a typical view with a list of opportunities that c
 > ![My open opportunity scored view](media/my-open-opportunity-score-view.png "My open opportunity scored view")
 
 The numbered columns are:
-1. **Opportunity Score.** Specifies the value that is representative of the likelihood of the opportunity to convert into a win deal.  
-2. **Opportunity Grade.** Specifies the grades of an opportunity that are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (Green) is the opportunity with highest likelihood for conversion into a win deal followed by Grade B (Purple), Grade C (Yellow), and Grade D (Red).
-
-    > [!NOTE]
-    > A system administrator can define opportunity score ranges for a grade, depending on the organizational requirements.
-
+1. **Opportunity Score.** Specifies the value that is representative of the likelihood of the opportunity to convert into a deal. This value is calculated by the application based on the top reasons that are influensing the opportunity.    
+2. **Opportunity Grade.** Specifies the grades of an opportunity that are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (Green) is the opportunity with highest likelihood for conversion into a win deal followed by Grade B (Purple), Grade C (Yellow), and Grade D (Red). System administrator can define opportunity score ranges for a grade, depending on the organizational requirements.
 3. **Opportunity Score Trend.** Specifies the direction in which an opportunity is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present opportunity score with the previous score. For example, the score of an opportunity was 65 and the present score is decreased to 45, a down arrow is displayed in the **Opportunity Score Trend** column specifying that the opportunity is losing traction and needs some action from you to improve the score.
 
 ## Analyze and improve your opportunity score

@@ -29,17 +29,14 @@ Predictive lead scoring helps you to focus on revenue generation efforts by prov
 > [!IMPORTANT]
 > To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-sales-insights-addon.md#configure-predictive-lead-scoring)
 
-## Understand predective lead scoring in views
+## Understand predictive lead scoring in views
 When the Predictive lead scoring is enabled in your organization, you can use the My Open Leads Scored system view. This view gives you a list of leads that can be converted into opportunities.<br>
 The following screen displays a typical view with a list of leads that consist of parameters that are used to analyze possible opportunities.<br>
 ![My open leads scored view](media/my-open-lead-score-view.png "My open leads scored view")
 
 The numbered columns are:
-1.	**Lead Score.** Specifies the value that is representative of the likelihood of the lead to convert into an opportunity.  
-2.	**Lead Grade.** Specifies the grades of a lead that are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (green) is the lead with highest likelihood for conversion into an opportunity followed by Grade B (purple), Grade C (yellow), and Grade D (red).<br>
-    >   [!NOTE]
-    >   A system administrator can define lead score ranges for a grade, depending on the organizational requirements. 
-
+1.	**Lead Score.** Specifies the value that is representative of the likelihood of the lead to convert into an opportunity. This value is calculated by the application based on the top reasons that are influensing the lead.  
+2.	**Lead Grade.** Specifies the grades of a lead that are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (green) is the lead with highest likelihood for conversion into an opportunity followed by Grade B (purple), Grade C (yellow), and Grade D (red). System administrator can define lead score ranges for a grade, depending on the organizational requirements.
 3. **Lead Score Trend.** Specifies the direction in which a lead is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present lead score with the previous score. For example, the score of a lead was 65 and the present score is decreased to 45, a down arrow is displayed in the **Lead Score Trend** column specifying that the lead is losing traction and needs some action from you to improve the score. 
  
 ## Analyze and improve your lead score

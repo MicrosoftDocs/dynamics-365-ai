@@ -152,7 +152,7 @@ Predictive opportunity scoring provides helps users to focus on revenue generati
     > [!div class="mx-imgBorder"]
     > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br><!--image should be added-->
    
-    The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Lead Score** column.<br>
+    The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Opportunity Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
