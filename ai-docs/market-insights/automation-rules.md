@@ -25,8 +25,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 <a name="prerequisites"></a>   
 ## Prerequisites  
   
-- Your organization owns [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Enterprise licenses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462), [Manage licenses for Market Insights](manage-licenses.md)  
-  
+ 
 - You have a Manager or Administrator user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 - [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is connected to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016 (or later) instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md)  

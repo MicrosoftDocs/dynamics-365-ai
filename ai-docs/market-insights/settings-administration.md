@@ -57,15 +57,11 @@ To reset and review your organization's sentiment model, see [Adaptive learning 
   
 To configure the automated tagging of posts, see [Work with tags](tags.md).  
   
-## Manage licenses and users  
-**Outcome:** Enable your team to access [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] and work on sales, customer care, or marketing scenarios.  
-  
-Get to know how you can give users access to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and how you can add user licenses and post quota to your subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Market Insights with Office 365](manage-licenses.md)  
+## Manage users  
   
 There are two types of user roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]: Configuration roles and Interaction roles. Assign users of your solution the appropriate roles for analyzing data and engaging publicly on social media. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 ### See Also  
 [Market Insights overview](overview.md)
-[Integrate Market Insights with Office 365](manage-licenses.md)   
 [Integrate Market Insights with Dynamics 365](integrate-widgets-dynamics-365.md)   
  

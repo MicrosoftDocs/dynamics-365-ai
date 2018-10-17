@@ -30,8 +30,6 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 - You have access to an existing event hub, and you also have its connection string with Send rights. For more information about how to create an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and how to get the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send/).  
   
-- You have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Enterprise license assigned to your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] user account. Although Administrators with Professional licenses can configure the connection to an event hub, you’ll need an Enterprise license to create automation rules that stream data to a connected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Market Insights with Office 365](manage-licenses.md)  
-  
 - You have an Administrator role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 <a name="set_up_connection"></a>   

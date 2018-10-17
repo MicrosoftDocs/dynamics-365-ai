@@ -99,5 +99,5 @@ Use your email client to send email to [!INCLUDE[Market Insights](../includes/pn
 ### See Also  
 [Administer Market Insights](settings-administration.md)   
 [Understand user roles](user-roles.md)   
-[Integrate Market Insights with Office 365](manage-licenses.md)
+
  
