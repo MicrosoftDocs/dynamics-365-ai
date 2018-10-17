@@ -30,18 +30,18 @@ robots: noindex,nofollow
 
 
 
-## Configuration
+## Configure Data
 
 ### Intro to Configuration
-Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. In Customer 360, the ingested datasets are called **Customer Entities**. Clicking the **Map** tile at the **Configuration page** will take you to the first stage in the data configuration process.
-
-![configuration.png](media/configuration.png)
-
+Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. **Configure Data** includes four modules as represented by the tiles at the screen below and you should explore these from left to right. The goal behind the Data Configuration process is to unify datasources that once were disparate into a **"master customer dataset"** that includes a more complete and accurate information on your customers than the original datasets.  
 
 ### Map
-There are two main goals behind the Map page (shown below):
-- Entity selection: Identifying the customer entities which might include overlapping or partially ovelapping data
-- Attribute selection: For each customer entity, identifying the columns upon which you will want to merge your data (also called **Attributes**)
+Clicking the **Map** tile at the **Configure Data page** will take you to the first stage in the data configuration process. 
+[]
+
+There are two main goals behind the Map page that is shown below:
+- Entity selection: Identifying the customer entities which, upon unification, may lead to a dataset with a more complete information on your customers
+- Attribute selection: For each customer entity, identifying the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
 
 ![map-screen1.png](media/map-screen1.png)
 
@@ -150,7 +150,7 @@ Besides the role name, this panel enables you to specify all the ***Criteria*** 
 ### Merge
 This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
-- **Viewing pre-identified merged attributes**: These attributes are shown under **Merged Attributes** in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table. Lastly, note that **Unmerged Attributes** can also be viewed in the left-bottom part of the screen.
+- **Viewing pre-identified merged attributes**: These attributes are shown under **Merged Attributes** in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table. Lastly, note that you can also view all the attributes that were *not* used as part of the Merge process - those appear under **Unmerged Attributes** in the left-bottom part of the screen.
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
@@ -187,25 +187,6 @@ This is the last step within the data configuration process and it's all about r
    - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
      
  ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
+ 
+ 
 
-## Data Manager: Enrichment
-Once completed the data configuration process, you are ready to unlock another unique feature. As part of the **Enrichment** process,  your configured data will be enriched with unique data on customers' top interests and preferred brands. Here AI for Customer Insights will automatically do for you the hard work:
-
-- **Interests** may range from *Shoes*, to *Banking Services* to *4 Star Hotels* to any one of the other 300+ categories that the app extracts from the Microsoft Graph
-
-- **Preferred Brands** may include *Nike*, *Walmart*, *Nokia*, or any one of the other 1200+ categories that the app extracts from the Microsoft Graph 
-
-[add enrichment screen in the future]
-
-- **Understanding the enriched data**: Once being configurated, now your data is also enriched. For each of your customers you can view the top ten interests and preferred brands based on online behavior. 
-(add enrichment screen with close-up on the interests and brands columns for a couple of rows)
-
-You can filter your customers by one or more of the following:
-    - **Location, State** (note: at this point only US-locations are supported by enrichment)
-    - **Location, City** (same note holds true for cities)
-    - **Gender:** Either Male or Female or Unknown or all categories (Male, Female and Unknown taken together)
-    - **Age:** Either age bucket 20-34, age bucket 35-44, age bucket 45-54 or 55+ 
-    
-[add enrichment screen with filter panel opened in the future]
-
-content
