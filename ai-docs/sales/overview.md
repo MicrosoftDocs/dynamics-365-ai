@@ -42,6 +42,9 @@ The following features are available under Embedded intelligence:
 
 ## AI for Sales
 The features in AI for Sales are specifically designed to help sales reps / individuals to take intelligent decisions on their leads and opportunities to close the sales targets. <br>
+> [!NOTE]
+> You must acquire **Dynamics 365 AI for Sales** license to use AI sales features.
+
 The following features are available under AI for Sales:
 - Relationship analytics
 - Predictive lead scoring
