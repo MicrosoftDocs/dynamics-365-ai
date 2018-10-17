@@ -3,7 +3,7 @@ title: "Work with events from Market Insights in Azure Event Hubs | Microsoft Do
 description: "Learn how to work with events in Event Hubs."
 keywords: "event hubs, stream analytics, authomation rule"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 20eb937b-2894-4660-9243-3bb214880572
 author: m-hartmann

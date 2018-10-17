@@ -3,7 +3,7 @@ title: "Connect Dynamics 365 and Market Insights | Microsoft Docs"
 description: "Learn how to connect Market Insights and Dynamics 365 to link social posts and create new cases or leads."
 keywords: "connections, Market Insights, dynamics 365, edit, delete"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: a402eb3e-3da4-4414-87b9-bbc539770ec7
 author: m-hartmann

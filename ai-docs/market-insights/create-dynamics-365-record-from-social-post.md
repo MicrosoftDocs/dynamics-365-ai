@@ -3,7 +3,7 @@ title: "Create a record from a post in Market Insights | Microsoft Docs"
 description: "Learn how to send posts found in Market Insights to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: b1341b83-efc9-4ed3-b5c3-b26e814f3f72
 author: m-hartmann
@@ -62,6 +62,9 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
     Go to **[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]** > **Social Center** to see your streams.  
 
 2. Go to the post you want to convert to a social activity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then click **Link to Dynamics 365** ![link to dynamics 365 button in market insights](media/link-to-record-icon.png "Link to Dynamics 365 button in Market Insights").  
+
+> [!NOTE]
+> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
 
    ![link to dynamics 365 button in market insights](media/link-post-to-dynamics-365.png "Link to Dynamics 365 button in Market Insights")  
 

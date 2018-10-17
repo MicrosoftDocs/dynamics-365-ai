@@ -3,7 +3,7 @@ title: "View posts and conversations in Market Insights | Microsoft Docs"
 description: "Understand how you can work with posts after acquiring them through Market Insights."
 keywords: "post list, post details, stream, post actions, reply, mention, share"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: f6a56203-9174-47a3-bde9-e459df11f6b1
 author: m-hartmann

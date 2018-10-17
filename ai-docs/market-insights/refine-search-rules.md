@@ -3,7 +3,7 @@ title: "Find more relevant content in Market Insights | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
 keywords: "search optimization, search topic, search rule"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: c8d53e56-84e9-4c16-8c65-902ef59af2a1
 author: m-hartmann

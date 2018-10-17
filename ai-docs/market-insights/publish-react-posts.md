@@ -3,7 +3,7 @@ title: "Publish and react to posts in Market Insights | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Market Insights."
 keywords: "publish, post, like, favorite, share, private message, Market Insights"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 39e71aaa-d804-4e73-b789-df185fcb7ef1
 author: m-hartmann

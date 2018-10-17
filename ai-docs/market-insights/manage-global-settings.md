@@ -3,7 +3,7 @@ title: "Manage global settings for Market Insights | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Market Insights."
 keywords: "administrator, settings, configuration"
 ms.date: 10/31/2018
-ms.service: dynamics-365-marketing
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 0b665bc3-033c-4a2d-bf77-6b73e5fda423
 author: m-hartmann
