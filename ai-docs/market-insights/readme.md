@@ -27,24 +27,12 @@ Do you have an idea how to further improve the service or app? Go to the [Ideas 
 
 ## Integration scenarios - known issues
 
-### Links not opening when using the Social Selling Assistant from the Dynamics 365 for tablets app
-
-You can access the Social Selling Assistant app from both the Dynamics 365 web client and the Dynamics 365 for tablets app. However, for Dynamics 365 for tablets, the following restrictions apply:
-
--   Links contained in the social posts cannot be opened. As a workaround, use the **Copy to clipboard** action to copy the link to the post. Then paste the link into any Internet browser on your device to view the original post from which the links can be opened.
-
--   Copyright and Translation Guide links in the page footer cannot be opened. However, you can access these links from the Dynamics 365 web client or in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
-
 ### Microsoft Dynamics 365 domains must be added to Allowed Domains to enable integration
 
 For the integration between Microsoft Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], your Dynamics 365 [domains must be added as allowed domains in Market Insights](connect-other-domains.md).
 This will ensure that only the Dynamics 365 domains you own can make requests to your data.
 
 If you are a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] administrator, you can do this by going to **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as allowed domains to enable communication with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
-
-### NAV integration and Microsoft Edge browser cause IFrame to stop loading
-
-When you use the Microsoft Edge browser with Dynamics NAV, there's an unsolved issue with the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] widget. When looking for a non-existing ID, the widget will stop loading. As a workaround, we suggest that you reload the page and make sure you have a valid Search topic ID. To do that, look for the search topic ID in the Analytics page's URL.
 
 ## Display of content - known issues
 
@@ -83,12 +71,6 @@ In some cases, Disqus posts are missing a URL. This can happen if posts are crea
 ### Private messages and public messages from Facebook Pages and Twitter not always acquired
 
 In some cases, private messages and public messages from Facebook Pages and Twitter are not acquired in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This can happen when a message was written in a non-supported language of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or if the language was not detected at all.
-
-## Localization - known issues
-
-### Localization of map labels is not available for Greek
-
-The Bing Maps embedded in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] do not support localization of map labels for Greek.
 
 ## General known issues
 
