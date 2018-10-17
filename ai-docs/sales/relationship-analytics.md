@@ -20,7 +20,7 @@ caps.latest.revision: 20
 topic-status: Drafting
 ---
 
-# Preview feature: Use Relationship analytics to gather KPIs 
+# Use Relationship analytics to gather KPIs 
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
@@ -45,16 +45,6 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 -   How many activities were initiated by the customer?  
 
 -   How long does it take our team to respond?  
-
-Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_9_0_2-online](../includes/pn-crm-9-0-2-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to install and enable this feature, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
-
-Relationship analytics is part of the new *Sales insights add-on* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](embedded-intelligence.md)  
-
-<a name="Feedback"></a>
-
-## Send us feedback  
-
-We are making this preview available so that you can try it and let us know what you think. Your feedback will help us prioritize work to include the capabilities you need most. We ask that you give us your suggestions and report problems by using our publicly available feedback site: [Microsoft Ideas](https://go.microsoft.com/fwlink/p/?LinkId=825778)  
 
 <a name="ListView"></a>   
 
@@ -228,10 +218,10 @@ Your administrator can choose which types of activities are most relevant for yo
 
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
-
-
 ### See also  
- 
--  [What are Preview features?](/dynamics365/customer-engagement/admin/what-are-preview-features-how-do-i-enable-them) 
--  [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)  
--  [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)    
+
+- [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)
+- [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)">
+- [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+- [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md
+- [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
