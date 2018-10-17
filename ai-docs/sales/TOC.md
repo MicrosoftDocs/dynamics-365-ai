@@ -17,6 +17,7 @@
 ### [Display related emails with auto capture](../sales/auto-capture.md)
 ### [View customer activity history](../sales/relationship-analytics.md)
 ### [Work with predictive lead scoring](../sales/work-predictive-lead-scoring.md)
+### [Work with predictive opportunity scoring](../sales/work-predictive-opportunity-scoring.md)
+### [Get suggestion using Suggested actions](../sales/notes-analysis.md)
 ### [Get introduced to lead](../sales/who-knows-whom.md)
 ### [Know converstion starters of customers](../sales/talking-points.md)
-### [Get suggestion using Suggested actions](../sales/suggested-action.md)

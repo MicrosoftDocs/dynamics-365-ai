@@ -20,7 +20,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Preview feature: Enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales
+# Enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales
 
 Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.0.2
 
@@ -52,8 +52,12 @@ Review the following requirements before you enable and configure [!INCLUDE[pn_d
    ![Get Dynamics 365 AI for sales](media/d365-ai-sales-getitnow.png "Get Dynamics 365 AI for sales")<br>
 2. On the **Sales Insights** installation page, carefully read and select the terms and conditions, and then select **Continue**.<br>
    The installation takes a few minutes to complete, and then the status appears in the status bar.<br>
-   ![Accept sales insights addon terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions")<br>
-   Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features.
+    > [!div class="mx-imgBorder"]
+    > ![Accept sales insights addon terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions")
+   
+    Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features.
+    > [!div class="mx-imgBorder"]
+    > ![Dynamics 365 AI for sales is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 AI for sales is enabled")
 
 ## Configure Relationship analytics
 
@@ -61,21 +65,25 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 
 1. Go to **Settings** > **Setup AI**.<br>
 2. On the **Overview** tab, select **Configuration** from **Relationship analytics** section.<br>
-   ![Relationship analytics configuration](media/relationship-analytics-configuration.png "Relationship analytics configuration")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Relationship analytics configuration](media/relationship-analytics-configuration.png "Relationship analytics configuration")
+
    > [!NOTE]
    > You can also select **Relationship analytics** tab.
 
    The configuration page opens.
-3. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.<br>
-   ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics")<br>
-4. On the **Relationship analytics** page, configure the parameters as described in the following table.
+3. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.
+    > [!div class="mx-imgBorder"]
+    > ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics")<br>
+1. On the **Relationship analytics** page, configure the parameters as described in the following table.
 
     |**Parameter**|**Description**|
     |-|-|
     |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Note: This option is not available if LinkedIn is not installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
     |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
-    |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|<br>
-    ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")<br>
+    |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
+    > [!div class="mx-imgBorder"]
+    > ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")<br>
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
 
@@ -84,25 +92,32 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 Predictive lead scoring provides helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. To configure Predictive lead scoring, follow these steps:
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Predictive lead scoring** section.<br>
-   ![Predictive lead scoring configuration](media/predictive-lead-scoring-configuration.png "Predictive lead scoring configuration")<br>
+2. On the **Overview** tab, select **Configuration** from **Predictive lead scoring** section.
+    > [!div class="mx-imgBorder"]
+    > ![Predictive lead scoring configuration](media/predictive-lead-scoring-configuration.png "Predictive lead scoring configuration")<br>
+
    > [!NOTE]
    > You can also select **Predictive lead scoring** tab.
 
    The configuration page opens.
-3. Select **Create Model**.<br>
-   ![Create model in Predictive lead scoring](media/predictive-lead-scoring-create-model.png "Create model in Predictive lead scoring")<br>
+3. Select **Create Model**.
+    > [!div class="mx-imgBorder"]
+    > ![Create model in Predictive lead scoring](media/predictive-lead-scoring-create-model.png "Create model in Predictive lead scoring")<br>
+
    Creating a model takes few minutes and you can see progress on the screen.<br>
-4. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.<br>
-   ![Predictive lead scoring accuracy score](media/predictive-lead-scoring-score-accuracy.png "Predictive lead scoring accuracy score")<br>
-   The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under **Lead Score** column.<br>
-5. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
+1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
+    > [!div class="mx-imgBorder"]
+    > ![Predictive lead scoring accuracy score](media/predictive-lead-scoring-score-accuracy.png "Predictive lead scoring accuracy score")<br>
+  
+    The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under **Lead Score** column.<br>
+1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
-6. If you want to configure the lead score range, enter minimum value of the range in the Lead Scoring Range.<br>
-   When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum lead score range for Grade B changes to 50.<br>
-   ![Predictive lead scoring change maximun score for grade](media/predictive-lead-scoring-change-max-score.png "Predictive lead scoring change maximun score for grade")<br>
-7. Save and apply the model.<br>
+1. If you want to configure the lead score range, enter minimum value of the range in the Lead Scoring Range.<br>
+   When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum lead score range for Grade B changes to 50.
+    > [!div class="mx-imgBorder"]
+    > ![Predictive lead scoring change maximum score for grade](media/predictive-lead-scoring-change-max-score.png "Predictive lead scoring change maximum score for grade")<br>
+1. Save and apply the model.<br>
    The predictive lead scoring is configured and ready to use in your organization.
 
 ## Configure Predictive opportunity scoring
@@ -110,34 +125,42 @@ Predictive lead scoring provides helps users to focus on revenue generation effo
 Predictive opportunity scoring provides helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities. To configure Predictive opportunity scoring, follow these steps:
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Predictive opportunity scoring** section.<br>
-   ![Predictive opportunity scoring configuration](media/predictive-opportunity-scoring-configuration.png "Predictive opportunity scoring configuration") <br><!--image should be added-->
+2. On the **Overview** tab, select **Configuration** from **Predictive opportunity scoring** section.
+    > [!div class="mx-imgBorder"]
+    > ![Predictive opportunity scoring configuration](media/predictive-opportunity-scoring-configuration.png "Predictive opportunity scoring configuration")
+
    > [!NOTE]
    > You can also select **Predictive opportunity scoring** tab.
 
    The configuration page opens.
-3. Select **Create Model**.<br>
-   ![Create model in Predictive opportunity scoring](media/predictive-opportunity-scoring-create-model.png "Create model in Predictive opportunity scoring")<br><!--image should be added-->
+3. Select **Create Model**.
+    > [!div class="mx-imgBorder"]
+    > ![Create model in Predictive opportunity scoring](media/predictive-opportunity-scoring-create-model.png "Create model in Predictive opportunity scoring")
+
    Creating a model takes few minutes and you can see progress on the screen.<br>
-4. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.<br>
-   ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br><!--image should be added-->
-   The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Lead Score** column.<br>
-5. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
+1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
+    > [!div class="mx-imgBorder"]
+    > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br><!--image should be added-->
+   
+    The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Lead Score** column.<br>
+1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
-6. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
+1. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
    When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum opportunity score range for Grade B changes to 50.<br>
    ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br><!--image should be added-->
-7. Save and apply the model.<br>
+1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
+
 
 ## Configure Notes analysis
 
 To help users with intelligent auto suggestions when they enter notes regarding a recent meeting or discussion with customer in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], enable Notes analysis.
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, select the toggle button to enable **Notes analysis**.<br>
-    <!--image should be added-->
+2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, select the toggle button to enable **Notes analysis**.
+    > [!div class="mx-imgBorder"]
+    > ![Enable notes analysis](media/notesanalysis-enable.png "Enable notes analysis")
 
 >[!NOTE]
 > For more information about Notes analysis and how it can help your users, see [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
@@ -147,8 +170,10 @@ To help users with intelligent auto suggestions when they enter notes regarding 
 Connection insights contains the Talking points and Who knows whom features. These features help users in your organization to quickly establish communications with customers.
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Connection insights** section.<br>
-   ![Connection insights configuration](media/connection-insights-configuration.png "Connection insights configuration") <!--image should be added--><br>
+2. On the **Overview** tab, select **Configuration** from **Connection insights** section.
+    > [!div class="mx-imgBorder"]
+    > ![Connection insights configuration](media/connection-insights-configuration.png "Connection insights configuration")
+
    > [!NOTE]
    > You can also select **Relationship analytics** tab.
   
@@ -162,8 +187,10 @@ Connection insights contains the Talking points and Who knows whom features. The
         The Who Knows Whom is configured and ready to use in your organization.<br>
     -  **Talking points**<br>
         a. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
-        The categories are automatically selected.<br>
-        <!--Image should be included-->
+        The categories are automatically selected.
+        > [!div class="mx-imgBorder"]
+        > ![Enable talking points](media/talkingpoints-enable.png "Enable talking points")
+        
         > [!NOTE]
         > You can select only the categories that meets your organizational requirements.
 
