@@ -24,13 +24,16 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.0.2
 
-Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features helps the user to effectively use the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales app. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales contains the following features:
+Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features helps the user to effectively use the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales contains the following features:
 
 - Relationship analytics
 - Predictive lead scoring
 - Predictive opportunity scoring
 - Notes analysis
 - Connection insights
+
+> [!IMPORTANT]
+> The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features are available only in North American (NAM) regions.
 
 ## GDPR
 
@@ -40,6 +43,7 @@ To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for
 
 Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales feature:
 
+- You must acquire **Dynamics 365 AI for Sales** license to use AI sales features.
 - You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 - If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and write back from LinkedIn Sales navigator is enabled.
@@ -87,6 +91,9 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
 
+> [!NOTE]
+> For more information about Relationship analytics and how it can help your users, see [View customer activity history](../sales/relationship-analytics.md)
+
 ## Configure Predictive lead scoring
 
 Predictive lead scoring provides helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. To configure Predictive lead scoring, follow these steps:
@@ -120,12 +127,15 @@ Predictive lead scoring provides helps users to focus on revenue generation effo
 1. Save and apply the model.<br>
    The predictive lead scoring is configured and ready to use in your organization.
 
+> [!NOTE]
+> For more information about Predictive lead scoring and how it can help your users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+
 ## Configure Predictive opportunity scoring
 
 Predictive opportunity scoring provides helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities. To configure Predictive opportunity scoring, follow these steps:
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Predictive opportunity scoring** section.
+1. On the **Overview** tab, select **Configuration** from **Predictive opportunity scoring** section.
     > [!div class="mx-imgBorder"]
     > ![Predictive opportunity scoring configuration](media/predictive-opportunity-scoring-configuration.png "Predictive opportunity scoring configuration")
 
@@ -133,7 +143,7 @@ Predictive opportunity scoring provides helps users to focus on revenue generati
    > You can also select **Predictive opportunity scoring** tab.
 
    The configuration page opens.
-3. Select **Create Model**.
+1. Select **Create Model**.
     > [!div class="mx-imgBorder"]
     > ![Create model in Predictive opportunity scoring](media/predictive-opportunity-scoring-create-model.png "Create model in Predictive opportunity scoring")
 
@@ -152,6 +162,8 @@ Predictive opportunity scoring provides helps users to focus on revenue generati
 1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
 
+> [!NOTE]
+> For more information about Predictive opportunity scoring and how it can help your users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md)
 
 ## Configure Notes analysis
 
@@ -162,7 +174,7 @@ To help users with intelligent auto suggestions when they enter notes regarding 
     > [!div class="mx-imgBorder"]
     > ![Enable notes analysis](media/notesanalysis-enable.png "Enable notes analysis")
 
->[!NOTE]
+> [!NOTE]
 > For more information about Notes analysis and how it can help your users, see [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
 
 ## Configure Connection insights
@@ -175,18 +187,12 @@ Connection insights contains the Talking points and Who knows whom features. The
     > ![Connection insights configuration](media/connection-insights-configuration.png "Connection insights configuration")
 
    > [!NOTE]
-   > You can also select **Relationship analytics** tab.
+   > You can also select **Connection insights** tab.
   
    The configuration page opens.
-3. To configure Who knows whom and Talking points, perform the following steps:
-   -  **Who knows whom**<br>
-        a. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
-        <!--Image should be included-->
-        b. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
-        c. Select **Save**.<br>
-        The Who Knows Whom is configured and ready to use in your organization.<br>
-    -  **Talking points**<br>
-        a. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
+3. To configure Who knows whom and Talking points, perform the following steps:<br>
+   -  **Talking points**<br>
+    a. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
         The categories are automatically selected.
         > [!div class="mx-imgBorder"]
         > ![Enable talking points](media/talkingpoints-enable.png "Enable talking points")
@@ -196,7 +202,17 @@ Connection insights contains the Talking points and Who knows whom features. The
 
         b. Select **Save**.<br>
         The Talking points is configured and ready to use in your organization.
-
+   -  **Who knows whom**<br>
+        a. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
+        > [!div class="mx-imgBorder"]
+        > ![Enable who knows whom](media/who-knows-whom-enable.png "Enable who knows whom")
+        
+    a. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
+    b. Select **Save**.<br>
+        The Who Knows Whom is configured and ready to use in your organization.<br>
+    
+> [!NOTE]
+> For more information about Talking points and Who knows whom, see [Know conversation starters for your customers](../sales/talking-points.md) and [Get introduced to lead](../sales/who-knows-whom.md)
 <!--
 ### (Optional) Uninstall the Sales insights add-on
 
@@ -230,5 +246,7 @@ Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics
 
 ### See also
 
-- [Get insights on opportunities, activities, and leads of customers](sales-insights-addon.md)
 - [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+- [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)
+- [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+- [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
