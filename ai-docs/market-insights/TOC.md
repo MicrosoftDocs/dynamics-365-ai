@@ -1,5 +1,4 @@
 # [Welcome to Market Insights](overview.md)
-## [What's new in Market Insights](what-s-new.md)
 ## Business scenarios and use cases
 ### [Sales scenarios](overview-sales-scenario.md)
 ### [Marketing scenarios](overview-marketing-scenario.md)
