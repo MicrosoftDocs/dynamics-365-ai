@@ -47,6 +47,16 @@ Users in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] ca
   
 5.  To confirm, select **Save** ![save button](media/save-icon.png "Save button").  
 
+### Automatically approve new users
+
+Administrators in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can configure the solution to automatically approve new users signing up using the self-service sign-up. 
+
+1.  Navigate to **Settings** > **User Management**.  
+  
+2.  In the **Users** pane, set the **Automatically approve all pending requests** toggle to **On**.    
+    ![Toggle for auto-approval](media/automatically-approve-users.png)
+
+
 ### Withdraw access of a user
 
 1.  Navigate to **Settings** > **User Management**.  
