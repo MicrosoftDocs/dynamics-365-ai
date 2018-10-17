@@ -32,22 +32,42 @@ robots: noindex,nofollow
 **Those include: *Get Data* and *Entities*** Completing those sections will ensure that you loaded all the data that matters to you into Customer 360.  
 
 ## Data Manager: Get Data
-In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
+In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting.
 
-- **Step One: Identifying and adding Entities**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs and complete all the required fields for each one of them. Lastly, approve by selecting **Next** at the bottom of the page.
+-	**Step One: Dataflow Creation:** Clicking the **Get Data** button will take you to the **Dataflow Screen** as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage. 
+   - **If it’s the first time you are using Customer 360**, you need to create a dataflow and that is available through the highlighted **Add Entity** button:
+
+[]
+
+Then you should give your dataflow a name and short description as shown below:
+
+[]
+
+Lastly click your new dataflow to start ingsting entities into this dataflow.
+
+   - **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 
+
+- **Step Two: Identifying and adding Entities**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs and complete all the required fields for each one of them. Lastly, approve by selecting **Next** at the bottom of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source-menu.png "Data source menu")
 
-- **Step Two: Editing Entities**: You can edit any entity that you have ingested in step one. Adding columns, changing columns, combining tables, and many other changes are available at your fingertips. In order to edit an entity:
-    - First choose the entity to edit as shown in the example below:
-    - Then click **Edit Entity** as shown in red below. Note that this screen is where you can also refresh an entity's data (highlighted in blue)
-    - Lastly, you will use the editor that is shown below for the editing process. Editing columns, combining tables, and all other functionalities are available in the menu at the top of the screen as shown in red. Moreover, you can sort the data by each of the entity's attributes by clicking the sorting bottons as shown in blue: 
+At any point you can also remove a datasource from your dataflow by clicking the dataflow and ?
 
-Add images 6, 7 and 8 from the 10/15 list
+- **Step Three: Editing Entities**: You can edit any entity that you have ingested in step two. Deleting this entity, adding columns, changing columns, combining tables, and many other changes are available at your fingertips. In order to edit an entity:
+    - First click the entity that you wish to edit
+    - Then click **Edit Entity** as shown in red below. Note that this screen is where you can also refresh an entity's data (highlighted in blue)
 []
+    - Lastly, you will use the **Power Query** editor that is shown below for the editing process. Editing columns, combining tables, and all other functionalities are available in the menu at the top of the screen as shown in red. 
 []
+     
+If you are new to power query, you might want to spend a couple of minutes on the following documentation that will walk you through these functionalities:
+complete link
+
+-	**Step Four: Dataflow Refresh:** Once finishing selecting data sources, you will get back to the dataflow screen. The final step is to hit the **Refresh** button as shown below:
 []
+
+In the future this step will happen automatically.
 
 ## Data Manager: Entities
 After ingesting the data, you can quickly evaluate how complete and useful it is using the **Entities** page. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Add** button as highlighted below. You can also export the entities table as a .csv file by selecting **Export Data**.
@@ -71,5 +91,8 @@ Add image 9 from the 10/15 list
 []
 
 Within this screen:
-- If you click the ***Fields*** tab, you will be able to view the details of each field and field including the field's name, data type and type.
-- If you click the ***Data*** tab you will be able to view the details of each record including the record's value, when it was refreshed and ?
+- If you click the ***Fields*** tab, you will be able to view the details of each field and field including the fields' names, data types and types.
+[]
+
+- If you click the ***Data*** tab you will be able to view the details of each record including the record's value, when it was created and when was it's last refresh.
+[]
