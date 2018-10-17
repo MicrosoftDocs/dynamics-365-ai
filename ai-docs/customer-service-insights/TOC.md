@@ -8,7 +8,7 @@
 
 # How to
 
-## [Use workspaces to connect to different customer service data sources](ai-csi-use-workspaces.md)
+## [Use workspaces to connect to different customer service environments](ai-csi-use-workspaces.md)
 
 ## [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md)
 
