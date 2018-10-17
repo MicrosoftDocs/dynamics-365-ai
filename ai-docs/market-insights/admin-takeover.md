@@ -21,9 +21,9 @@ search.app:
   - D365SE
 ---
 
-# Takeover an unmanaged Market Insights directory
+# Takeover an unmanaged directory that has Market Insights
 
-When a self-service user signs up for the Market Insights Preview, they are added to an unmanaged Azure Active Directory (a "shadow tenant") based on their email domain. It is a container for the accounts within Office 365 that you can’t really manage or have any controls from an organization level. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. The admin takeover allows an organization to administrate the organization, and be able to have more control over the users and licenses.
+Market Insights' self-service sign-up allows any user with a work e-mail to get the app. When users with an e-mail domain that is not registered in Azure Active Directory (AAD) sign-up, they are added to an unmanaged AAD (a "shadow tenant") based on their email domain. It is a container for the accounts within Office 365 that you can’t really manage or have any controls from an organization level. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. The admin takeover allows an organization to administrate the organization, and be able to have more control over the users and licenses.
 
 For detailed information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover).
 
@@ -31,11 +31,11 @@ User data and acquired posts are merged depending on the existence of a Market I
 
 ## Admin takeover without Market Insights subscription
 
-Perform an ["internal" admin takeover](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#internal-admin-takeover) to get added as the global admin of the unmanaged directory and eventually integrate it a different managed tenant. Data gathered in Market Insights will still be available after admin takeover. However, users don't get migrated.
+When the domain admin takes over the unmanaged directory, if their managed directory *does not already have* a Market Insights or Microsoft Social Engagement subscription, the Market Insights solution with the data will be available after admin takeover.
 
 ## Admin takeover with existing Market Insights subscription
 
-Perform an ["external" admin takeover](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover#external-admin-takeover) by adding the DNS domain name of the unmanaged directory to your managed Azure directory. Data from the unmanaged instance of Market Insights won't migrate to avoid overriding existing data. Users get migrated to the managed directory and so they can continue to use the service. 
+When the domain admin takes over the unmanaged directory, if their managed directory *already has* a Market Insights or Microsoft Social Engagement subscription, data from the Market Insights solution will not be migrated. An administrator in Market Insights must explicitly [approve access for users](assign-user-roles.md#approve-a-new-user) migrated over from the unmanaged directory after the takeover. 
 
 ### See also
 
