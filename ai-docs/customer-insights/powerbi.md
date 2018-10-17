@@ -35,20 +35,32 @@ In order to utilize the Customer 360 dashboard make sure that you have created a
 - **Gateway Windoes Server:**
 
 Then complete those few steps:
-- **Step One: Downloading a PBI Connector**: Includes two mini-steps:
+- **Step One: Downloading a PBI Connector**: 
     - **Downloading MEZ File**: Along with the Offer link you have received a file (from a MEZ type). Download this file to a location you are familiar with in your desktop.
-    - **Authorizing the File**: Next you want to authorize this file using the **Gateway Windows Server**. This gateway authorizes files for power BI where you will view the Customer 360 dashboard. To authorize, you should open the Gateway, go to Connectors in the left menu (shown below in red), and search for MEZ file you have downloaded in the previous step. Lastly, hit **?**.
+    - **Authorizing the File**: Next you want to authorize this file using the **Gateway Windows Server**. This gateway authorizes files for power BI where you will view the Customer 360 dashboard. To authorize, you should open the Gateway, go to **Connectors** in the left menu (shown below in red), and search for the MEZ file you have downloaded in the previous step (shown in green). Lastly, hit **Save** (shown in blue):
 []
 
-- **Step Two: Publishing the Customer 360 Dashboard**: Includestwo mini-steps:
-    - **Bringing Customer 360 data to Power BI**: Open Power BI for Desktop. Go to **?** tab and click **Get Data**. Within the window that is shown below, type **"Customer 360"** in the search field. Then you should choose **Customer 360** from the right side of the window and click **Save** at the left bottom corner of the window. 
-    - **Publishing the Dashboard as a Service**: Upon completing the previous step you will get a URL address as shown below:
+- **Step Two: Publishing the Customer 360 Dashboard**: 
+    - **Bringing Customer 360 data to Power BI**: Open Power BI for Desktop and click **Get Data** at the top menu. That will open the window that is shown below. Then, type **"Customer 360"** in the search field (shown in red) and choose **Customer 360** on the right-side menu (shown in blue). Lastly, click **Connect** at the left bottom corner of the window. 
+    - **Publishing the Customer 360 Dashboard as a Service**: Upon completing the previous step you will get the following window:
     []
-    Copy paste this URL address to your browser. Then provide your AAD credentials.
+    
+     You should insert the following URL into the **url field** that is shown above: 
+     https://dev.api.ci.ai.dynamics-int.com/app/configuration/map?instanceId=b934bbd7-1e37-41d8-843e-5850bdb4d747
+     
+     Lastly, **provide your AAD credentials** within the screen that is shown below:
+     []
+     
+- **Step Three: Creating a Customized Dashboard:
+Upon completing step two you will get to the following screen:
+[]
 
-- **Step Three: Viewing a Specific Customer Dashboard:** Includes two mini-steps:
-    - 
-    -
+Here you can start creating your customized dashboard by using the right menu. Use the **Filters** fields as shown below to produce a dashbaord around:
+- A specific customer by filtering by the **Customer Name** or **Customer ID** (as examplified below)
+- A customer segment by filtering by one or more of the other customer attributes such as gender, location, role, etc
+[]
+
+
     
 
 
