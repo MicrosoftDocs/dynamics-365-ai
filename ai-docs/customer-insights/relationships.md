@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Preview: Relationships
+### Relationships - should be moved under configure data after Merge
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,7 +28,9 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Besides entities, in customer 360 you can also define and utilise *Relationships*. Those are useful for segmentation, x and other purposes. The *Relationships Page* shown below includes five columns. We will explore these from left to right:
+Besides entities, in customer 360 you can also define and utilise *Relationships*. Those are useful for segmentation and other purposes. Important note to make here is that during the **Merge** process some relationships were already created behind the scenes. Those are called **System Relationships** and they are used to dictate the way the segmentation module will work around your specific data. As visualized below,   
+
+In addition, you can define **Customzied Relationships** by using the **Relationships Page** that is shown below. This screen includes five columns and we will explore these from left to right:
 
 - **Relationship Name**: That is the name that you, as a user, assign to that relationship so it will be considered as an entity
 - **Source Entity**: That is the name of the entity that is used as a source in that unidirectional/bidirectional relationship 
