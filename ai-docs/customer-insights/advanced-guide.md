@@ -51,15 +51,19 @@ In order to best utilize this guide for your specific needs, you should identify
 Currently missing (9/17)
 -->
 
-## Creating or Choosing an Instance
-The first thing you do is creating an instance:
+## Choosing an Instance
+Whether you are a new or returning user, the first thing you do is choosing an instance. 
+
+- **If you are a new user, complete the following steps**:
+    -**Clicking an Offer Link**: You should have been provided with the following link: ---. 
+    -**Choosing an instance**: Upon clicking the offer link you will get to the screen below. We automatically created for you an instance. Copy paste it into your browserto start using the app.
+
+Complete the following steps in order to return to Customer 360:
+-	**If you a returning user, follow those steps:
+    -**Clicking the Offer Link**
+    -**Choosing an instance**: When you first used Customer 360 an instance was created for you. Copy paste this instance into your browser to continue using Customer 360. If, as part of using customer 360, you plan to create multiple instances, it’s highly recommended to give them an identifiable names through the *Settings* screen.
 
 //add image 2 from the 10/15 list:
-[]
-
-You can also use an existing instance:
-
-//add image 3 from the 10/15 list:
 []
 
 ## Choose a business category
