@@ -16,7 +16,7 @@
 
 ## [Improve your AI for Customer Service Insights data by cleansing support case titles](ai-csi-settings.md)
 
-# Reference
+# Dashboard reference
 
 ## [KPI summary dashboard](ai-csi-dash-kpi-summary.md)
 
