@@ -28,7 +28,12 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Besides entities, in customer 360 you can also define and utilise *Relationships*. Those are useful for segmentation and other purposes. Important note to make here is that during the **Merge** process some relationships were already created behind the scenes. Those are called **System Relationships** and they are used to dictate the way the segmentation module will work around your specific data. As visualized below,   
+Beside entities, in customer 360 you can also define and utilise *Relationships* between entities. Those are useful for segmentation and other purposes. Note that during the **Merge** process some relationships were already created behind the scenes. Those are called **System Relationships** and they are used to dictate the way segmentation will be applied to your specific data. For illustration, the digram below examplifies the creation of three system relationships:
+- Relationship was created between the **Customer** entity and the **Contact** entity due to a merge that was executed between Customer_ContactID and Contact_ContactID.
+- A second relationship was created between the **Customer** entity and the **Account** entity due to a merge that was executed between Customer_AccountID and Account_AccountID.
+- A third relationship was created between the **Customer** entity and the **Web** entity due to a merge that was executed between Customer_WebID and Web_WebID.
+
+[]
 
 In addition, you can define **Customzied Relationships** by using the **Relationships Page** that is shown below. This screen includes five columns and we will explore these from left to right:
 
