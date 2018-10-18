@@ -23,6 +23,8 @@ search.app:
 
 # Accessibility for [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
 
+[This topic is pre-release documentation and is subject to change.]
+
 [Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
