@@ -2,7 +2,7 @@
 title: "Work with dashboards and sample data"
 description: "Learn how to use AI for Customer Service Insights dashboards and sample data."
 keywords: ""
-ms.date: 10/16/2018
+ms.date: 10/18/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

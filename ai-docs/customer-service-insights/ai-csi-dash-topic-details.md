@@ -2,7 +2,7 @@
 title: "Topic details dashboard"
 description: "Learn about the customer service insights available on the Topic details dashboard​."
 keywords: ""
-ms.date: 10/5/2018
+ms.date: 10/18/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
