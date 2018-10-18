@@ -1,5 +1,5 @@
 ---
-title: "Preview: Configuration | MicrosoftDocs"
+title: "Configure data | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/1/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Configuration
+# Configure data
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -30,12 +30,10 @@ robots: noindex,nofollow
 
 
 
-## Configure Data
-
-### Intro to Configuration
+## Intro to Configuration
 Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. **Configure Data** includes four modules as represented by the tiles at the screen below and you should explore these from left to right. The goal behind the Data Configuration process is to unify datasources that once were disparate into a **"master customer dataset"** that includes a more complete and accurate information on your customers than the original datasets.  
 
-### Map
+## Map
 Clicking the **Map** tile at the **Configure Data page** will take you to the first stage in the data configuration process. 
 []
 
@@ -76,7 +74,7 @@ In addition, three additional actions are available in the Map page:
 > [!div class="mx-imgBorder"] 
 > ![](media/map-keep-unmatched-records.png "Mapping - keep unmatched records")
 
-### Match
+## Match
 Once mapping is completed, you are ready to match your mapped entities. Clicking the *Match* tile in the *Configuration page* will take you to the *Match page*.
 
 ![match-tile.png](media/match-tile.png)
@@ -90,7 +88,7 @@ In the *Match* page below, some matches were already automatically identified ba
 ### Exploring the Match page
 The *Match* page includes two major sections: **Summary** and **Details** as explored below. Above these components you will find three tiles that specify your total number of customers (right tile), total number of customers for which information has been already matched (left **Matched Customers** tile) and total number of customers for which data had not been matched yet (center **Unmatched Customers** tile).   
 
-#### Summary Section
+### Summary Section
 This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the datasource from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
 
 To examplify the logic that is captured in the **Summary** part, the following matching sequence is reflected in the diagram below:
@@ -123,7 +121,7 @@ Each match pair occupies one row in this panel.
 - **Editing a match pair's entities:** Upon clicking a match pair entitiy you will be able to change it to any of the other entities
 - **Changing the order by which matches are executed:** That can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair () and the second match pair (), we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
 
-#### Details Section
+### Details Section
 This section captures your matchings in a table. Let's explore the **Details** table fields, going left to right:
    - The first column specifies the order by which the matchings will take place (reflecting the same sequence as in the summary part)
    - The next two columns specify the specific match pair members, whether these are single entities (highlighted in blue in the example below), or datasets resulted from prior matchings (highlighted in red in the example below).
@@ -147,7 +145,7 @@ Besides the role name, this panel enables you to specify all the ***Criteria*** 
 ![match-edit-rule.png](media/match-edit-rule.png)
 
  
-### Merge
+## Merge
 This is the last step within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on a attribute-by-attribute basis as detailed below.
 
 - **Viewing pre-identified merged attributes**: These attributes are shown under **Merged Attributes** in the highlighted page part below. In this example, the attribute *Name* was selected and the table shown includes all the values that were found for that attribute within all the customer entities. Moreover, a specific attribute value (for example the name *Grant*) can be searched for using the ***search icon*** above the values table. Lastly, note that you can also view all the attributes that were *not* used as part of the Merge process - those appear under **Unmerged Attributes** in the left-bottom part of the screen.
@@ -188,5 +186,24 @@ This is the last step within the data configuration process and it's all about r
      
  ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
  
- 
+## Relationships
+
+Beside entities, in customer 360 you can also define and utilise *Relationships* between entities. Those are useful for segmentation and other purposes. Note that during the **Merge** process some relationships were already created behind the scenes. Those are called **System Relationships** and they are used to dictate the way segmentation will be applied to your specific data. For illustration, the digram below examplifies the creation of three system relationships:
+- Relationship was created between the **Customer** entity and the **Contact** entity due to a merge that was executed between Customer_ContactID and Contact_ContactID.
+- A second relationship was created between the **Customer** entity and the **Account** entity due to a merge that was executed between Customer_AccountID and Account_AccountID.
+- A third relationship was created between the **Customer** entity and the **Web** entity due to a merge that was executed between Customer_WebID and Web_WebID.
+
+[]
+
+In addition, you can define **Customzied Relationships** by using the **Relationships Page** that is shown below. This screen includes five columns and we will explore these from left to right:
+
+- **Relationship Name**: That is the name that you, as a user, assign to that relationship so it will be considered as an entity
+- **Source Entity**: That is the name of the entity that is used as a source in that unidirectional/bidirectional relationship 
+- **Source Cardinality**: Number that represents the number of nodes of the source entity. For example, if the number is 2 it means that two sources lead to one/more target entities in that relationship.
+- **Target Entity**: That is the name of the entity that is used as a target in that relationship
+- **Target Cardinality**: Number that represents the number of nodes of the target entity. For example, if the number is 1 it means that the source entity/entities lead to only one target entity.
+- Lastly, the available actions on that page include adding a new relationship or deleting a relationship as highlighted below
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-relationships.png "Add relationships")
 

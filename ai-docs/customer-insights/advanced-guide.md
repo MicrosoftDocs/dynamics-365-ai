@@ -1,5 +1,5 @@
 ---
-title: "Advanced Guide | MicrosoftDocs"
+title: "Set up and use Customer 360 | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Advanced Guide
+# Set up and use Customer 360 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,7 +28,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## How to use the Advanced Guide
+## About this documentation
 All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below:
 
 //Replace the image below with image 1:
@@ -46,22 +46,17 @@ In order to best utilize this guide for your specific needs, you should identify
 **Note**: You can return to documentation on any of the product pages by clicking the question mark as shown below:
 [complete image]
 
-<!--
-## Onboarding (for Administrators)
-Currently missing (9/17)
--->
-
 ## Onboarding 
 The first thing you should do is clicking the offer link and setting an instance:
 
 - **If you are a new user, complete the following steps**:
-  -**Clicking an Offer Link**: You should have been provided with the following link: 
-  -**Choosing an instance**: Upon clicking the offer link you will get to the screen below. We automatically created for you an instance. Copy paste it into your browser to start using the app.
+    - **Clicking an Offer Link**: You should have been provided with the following link: 
+    - **Choosing an instance**: Upon clicking the offer link you will get to the screen below. We automatically created for you an instance. Copy paste it into your browser to start using the app.
 
 Complete the following steps in order to return to Customer 360:
--	**If you a returning user, follow those steps:
-  -**Clicking the Offer Link**:
-  -**Choosing an instance**: When you first used Customer 360 an instance was created for you. Copy paste this instance into your browser to continue using Customer 360. If, as part of using customer 360, you plan to create multiple instances, it’s highly recommended to give them an identifiable names through the *Settings* screen.
+-	**If you a returning user, follow those steps**:
+    - **Clicking the Offer Link**:
+    - **Choosing an instance**: When you first used Customer 360 an instance was created for you. Copy paste this instance into your browser to continue using Customer 360. If, as part of using Customer 360, you plan to create multiple instances, it’s highly recommended to give them an identifiable names through the **Settings** screen.
 
 //add image 2:
 []

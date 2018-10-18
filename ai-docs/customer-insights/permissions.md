@@ -1,5 +1,5 @@
 ---
-title: "Preview: Entities | MicrosoftDocs"
+title: "Permissions | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/1/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Preview: Entities
+# Permissions
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

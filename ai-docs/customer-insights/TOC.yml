@@ -1,38 +1,23 @@
 - name: "Preview: Dynamics 365 AI for Customer Insights"
   href: introduction.md 
   items:
-- name: Quick Start Guide
-  href: quick-start.md
-- name: Advanced Guide
+- name: Set up and use
   href: advanced-guide.md
   items:
   - name: Data Manager
     href: data-manager.md
-    items:
-    - name: Sources
-      href: sources.md
-    - name: Entities
-      href: entities.md
-    - name: Configuration
-      href: configuration.md
-  - name: Relationships
-    href: relationships.md
-  - name: Admin
-    href: administer.md
-  - name: Customers
-    href: customers.md
-    items:
-    - name: Profiles
-      href: profiles.md
-    - name: Segments
-      href: segments.md
-    - name: Power BI
-      href: powerbi.md
-  # - name: View analytics
-  #   items:
-  #   - name: Common Data Service analytics
-  #     href: analytics-common-data-service.md
-  #   - name: Microsoft Flow analytics
-  #     href: analytics-flow.md
-  #   - name: PowerApps analytics
-  #     href: analytics-powerapps.md
+  - name: Configure data
+    href: configuration.md
+- name: Admin
+  href: administer.md
+  items:
+  - name: Settings
+    href: settings.md
+  - name: Permission
+    href: permissions.md
+- name: Get insights into your data
+  items:
+  - name: Segments
+    href: segments.md
+  - name: Customer 360 dashboard
+    href: powerbi.md
