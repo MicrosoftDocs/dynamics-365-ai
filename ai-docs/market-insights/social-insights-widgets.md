@@ -139,5 +139,5 @@ Find out how the total post volume developed over time and the average number of
 
 ### See also
 
-[Integrate Market Insights with Dynamics 365](integrate-social-engagement-dynamics-365.md)    
+[Integrate Market Insights with Dynamics 365](integrate-widgets-dynamics-365.md)  
 [Connect with customers. Empower your organization. Create real results.](overview.md)    
