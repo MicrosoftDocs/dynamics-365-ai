@@ -1,5 +1,5 @@
 ---
-title: "KPI Summary dashboard"
+title: "KPI summary dashboard"
 description: "Learn about the customer service insights available on the KPI Summary dashboard​."
 keywords: ""
 ms.date: 10/18/2018
@@ -12,9 +12,9 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# KPI Summary dashboard
+# KPI summary dashboard
 
-![KPI Summary dashboard](media/ai-csi-kpi-summary-dash.png)
+![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
 The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 

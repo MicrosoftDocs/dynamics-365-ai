@@ -1,6 +1,6 @@
 # Overview
 
-## [AI for Customer Service Insights Overview](ai-csi-overview.md)
+## [AI for Customer Service Insights overview](ai-csi-overview.md)
 
 # Quickstart
 
@@ -18,12 +18,12 @@
 
 # Reference
 
-## [KPI Summary dashboard](ai-csi-dash-kpi-summary.md)
+## [KPI summary dashboard](ai-csi-dash-kpi-summary.md)
 
-## [Incoming Cases dashboard](ai-csi-dash-incoming-cases.md)
+## [Incoming cases dashboard](ai-csi-dash-incoming-cases.md)
 
-## [Case Resolutions dashboard](ai-csi-dash-case-resolutions.md)
+## [Case resolutions dashboard](ai-csi-dash-case-resolutions.md)
 
-## [Customer Satisfaction dashboard](ai-csi-dash-CSAT.md)
+## [Customer satisfaction dashboard](ai-csi-dash-CSAT.md)
 
-## [Topic Details dashboard](ai-csi-dash-topic-details.md)
+## [Topic details dashboard](ai-csi-dash-topic-details.md)
