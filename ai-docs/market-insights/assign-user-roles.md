@@ -19,48 +19,75 @@ search.app:
   - D365SE
 ---
 # Assign permissions and user roles
-Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
+
+Approve and withdraw access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. Manage user permissions by assigning and editing [user roles](user-roles.md). Reach out to users by email in [!INCLUDE [pn-market-insights-short](../includes/pn-market-insights-short.md)].  
   
 > [!NOTE]
 >  You must be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator to perform these tasks.  
   
-<a name="AssignRole"></a>   
-## Assign a role to a new user  
+## Approve or withdraw access requests  
+When a self-service user signs up for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] when a subscription already exists, they get added to the existing tenant but can't access the service immediately. A [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] admin needs to approve or deny their request.
+
+Users in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can have on of the following statuses: 
+- **Pending**: New users who are requesting access after using the self-service sign-up
+- **Active (New)**: New users who were assigned a license to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by the global admin and got the default roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
+- **Active (All)**: All active users in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution (excluding pending and withdrawn users)
+- **Withdrawn**: Users with a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license whose access was withdrawn by an administrator
+
+
+### Approve a new user
   
 1.  Navigate to **Settings** > **User Management**.  
   
-2.  In the **Users** pane, select **Newly invited** from the **Configuration role** drop-down menu.  
+2.  In the **Users** pane, select **Pending** from the **Status** drop-down menu.  
   
-3.  Select the check boxes for the users you want to assign a role to and click the **Edit** ![edit button](media/edit-icon.png "Edit button") button.  
+3.  Select the check boxes for the users you want to approve and select the **Edit Selected** ![edit button](media/edit-icon.png "Edit button") button.  
   
-4.  In the **Edit User Role** pane, select the user roles from the drop-down menus.  
+4.  In the **Edit User Role** pane, select the [user roles](user-roles.md) from the drop-down menus.  
   
-5.  To confirm your assignment, click **Save** ![save button](media/save-icon.png "Save button").  
+5.  To confirm, select **Save** ![save button](media/save-icon.png "Save button").  
+
+### Automatically approve new users
+
+Administrators in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can configure the solution to automatically approve new users signing up using the self-service sign-up. 
+
+1.  Navigate to **Settings** > **User Management**.  
   
-<a name="ChangeRole"></a>   
+2.  In the **Users** pane, set the **Automatically approve all pending requests** toggle to **On**.    
+    ![Toggle for auto-approval](media/automatically-approve-users.png)
+
+
+### Withdraw access of a user
+
+1.  Navigate to **Settings** > **User Management**.  
+  
+2.  In the **Users** pane, select **Active(All)** from the **Status** drop-down menu.  
+  
+3.  Select the check boxes for the users you want to block from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and select the **Edit Selected** ![edit button](media/edit-icon.png "Edit button") button.  
+  
+4.  In the **Edit User Role** pane, set the **Access allowed** toggle to **No**.  
+  
+5.  To confirm, select **Save** ![save button](media/save-icon.png "Save button").  
+
+  
 ## Change a role for a user  
   
 1.  Navigate to **Settings** > **User Management**.  
   
-2.  In the **Users** pane, select the list entry you want to edit.  
+2.  In the **Users** pane, select the list entry you want to edit.
+    > [!TIP]
+    >  Find licensed users using the **Search for users** input field and filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.   
   
 3.  In the **Edit User Role** dialog box, select the user role from the drop-down menus.  
   
-4.  Click **Save** ![save button](media/save-icon.png "Save button").  
+4.  Click **Save** ![save button](media/save-icon.png "Save button"). The user will receive an email with the updated user roles and permissions.    
   
-> [!TIP]
->  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
-> 
 > [!NOTE]
->  The specified user will receive an email with the updated user roles and permissions.  
-> 
->  Bulk editing user roles is limited to newly invited users.  
-> 
->  Users that are listed as Delegated Administrator always have Administrator and Manager user roles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. A lock icon ![lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](delegated-admin.md), [Understand user roles](user-roles.md)  
+> Users that are listed as [delegated administrator](delegated-admin.md) for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] always have Administrator and Manager user roles. A lock icon ![lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions.  
   
-<a name="EmailUsers"></a>   
-## Send email to users  
-Use your email client to send email to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
+## Send email to users
+  
+Use your email client to send email to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
   
 1.  Navigate to **Settings** > **User Management**.  
   
@@ -72,5 +99,5 @@ Use your email client to send email to [!INCLUDE[Dynamics 365 AI for Market Insi
 ### See Also  
 [Administer Market Insights](settings-administration.md)   
 [Understand user roles](user-roles.md)   
-[Integrate Market Insights with Office 365](manage-licenses.md)
+
  

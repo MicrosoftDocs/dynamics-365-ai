@@ -87,6 +87,5 @@ To let users interact with a post from [!INCLUDE[Market Insights](../includes/pn
 
 ### See Also  
 [Administer Market Insights](settings-administration.md)   
-[Integrate Market Insights with Office 365](manage-licenses.md)   
 [Assign permissions and user roles](assign-user-roles.md)
 
