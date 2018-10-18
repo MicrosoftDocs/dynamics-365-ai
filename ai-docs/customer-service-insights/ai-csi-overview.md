@@ -30,7 +30,7 @@ For more information about using workspaces to work with different sets of custo
 
 For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
-For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas of improvement in your customer support system](ai-csi-improve-system.md).
+For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](ai-csi-improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
