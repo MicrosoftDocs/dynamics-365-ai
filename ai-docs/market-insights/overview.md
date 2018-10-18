@@ -68,4 +68,3 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 [What's new in Market Insights](what-s-new.md)
 [Market Insights FAQ](faq.md)   
-[Request a trial](https://experience.dynamics.com/trials/)

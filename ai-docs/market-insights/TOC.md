@@ -71,5 +71,4 @@
 ### [Market Insights FAQ](faq.md)
 ### [Accessibility for Market Insights](accessibility.md)
 ### [Market Insights Privacy Notices](privacy-notices.md)
-## [Request a trial](https://experience.dynamics.com/trials/)
 

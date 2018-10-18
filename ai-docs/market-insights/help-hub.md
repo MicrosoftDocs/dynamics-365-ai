@@ -62,25 +62,4 @@ search.app:
 <li><a href="social-center.md" data-raw-source="[Streams](social-center.md)">Streams</a></li>
 </td>
 </tr>
-<tr>
-<td>
-
-<h2> Additional resources </h2>
-
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=861639">Video training course on MVA (English only)</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400720">YouTube playlist</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400719">Community forum</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391">Contact support</a></li>
-<li><a href="https://experience.dynamics.com/trials/">Request a trial</a></li>
-
-</td>
-<td>
-
-<h2> Product updates </h2>
-
-<li><a href="what-s-new.md" data-raw-source="[What&#39;s new in Market Insights](what-s-new.md)">What&#39;s new in Market Insights</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Dynamics 365 AI for Market Insights Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Market Insights Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Market Insights Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Market Insights Translation Guide</a></li>
-</td>
-</tr>
 </table>
