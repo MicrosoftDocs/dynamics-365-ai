@@ -12,10 +12,9 @@ ms.custom:
 
 <div id="main" class="v2">
     <div class="container">
-        <h1 class="">Dynamics 365 Documentation</h1>
         <ul class="pivots">
             <li>
-                <a href="#ai-apps">AI apps</a>
+                <a href="#ai-apps">Dynamics 365 AI apps</a>
                 <ul id="ai-apps" class="cardsF">
                     <li>
                         <a data-default="true" href="#ai-sub"></a>
@@ -26,7 +25,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="images/CustomerInsights_36px_blue.svg">
+                                                    <img alt="" src="../images/CustomerInsights_36px_blue.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -45,7 +44,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="images/CustomerInsights_36px_blue.svg">
+                                                    <img alt="" src="../images/dynamics-customer-service.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -64,7 +63,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="images/CustomerInsights_36px_blue.svg">
+                                                    <img alt="" src="../images/dynamics-field-service.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -83,7 +82,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="images/CustomerInsights_36px_blue.svg">
+                                                    <img alt="" src="../images/dynamics-operations.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
