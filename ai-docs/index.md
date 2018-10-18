@@ -12,7 +12,8 @@ ms.custom:
 
 <div id="main" class="v2">
     <div class="container">
-        <h1 class="">Dynamics 365 AI Apps<br/></h1>
+        <h1 class="">Dynamics 365 AI Apps</h1>
+        <p>&#160;</p>
         <ul class="pivots">
             <li>
                 <a href="#ai-apps">AI apps</a>
