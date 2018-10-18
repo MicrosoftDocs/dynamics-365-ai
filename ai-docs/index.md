@@ -12,9 +12,10 @@ ms.custom:
 
 <div id="main" class="v2">
     <div class="container">
+        <h1 class="">Dynamics 365 AI Documentation</h1>
         <ul class="pivots">
             <li>
-                <a href="#ai-apps">Dynamics 365 AI apps</a>
+                <a href="#ai-apps">AI apps</a>
                 <ul id="ai-apps" class="cardsF">
                     <li>
                         <a data-default="true" href="#ai-sub"></a>
