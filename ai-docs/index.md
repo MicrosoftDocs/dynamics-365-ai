@@ -12,7 +12,7 @@ ms.custom:
 
 <div id="main" class="v2">
     <div class="container">
-        <h1 class="">Dynamics 365 AI Apps</h1>
+        <h1 class="">Dynamics 365 AI apps</h1>
         <p>&#160;</p>
         <ul class="pivots">
             <li>
