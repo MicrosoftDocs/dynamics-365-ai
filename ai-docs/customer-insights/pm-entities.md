@@ -41,12 +41,9 @@ The app automatically identifies values for these four columns within your inges
 ## Exploring a specific Entity's data
 If you wish to explore the different fields and records that one of your entities includes click that entity. That will take you to the following screen:
 
-Add image 9 from the 10/15 list
-[]
+[7]
 
-Within this screen:
-- If you click the ***Fields*** tab, you will be able to view the details of each field and field including the fields' names, data types and types.
-[]
+- Upon entering the screen the ***Fields*** tab is already opened (as highlighted above). This tab enables you to view the details of each of this entity's fields, including the field's name, data type and type. 
 
-- If you click the ***Data*** tab you will be able to view the details of each record including the record's value, when it was created and when was it's last refresh.
-[]
+- If you click the ***Data*** tab you will be able to view the details of each of this entity's records. That includes the record's value, when it was created and when was it was last refreshed.
+[8]

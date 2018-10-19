@@ -23,12 +23,12 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Clicking the **Map** tile at the **Configure Data page** will take you to the first stage in the data configuration process. 
-[]
 
 There are two main goals behind the Map page that is shown below:
 - Entity selection: Identifying the customer entities which, upon unification, may lead to a dataset with a more complete information on your customers
 - Attribute selection: For each customer entity, identifying the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
 
+[replace with 10]
 ![map-screen1.png](media/map-screen1.png)
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
@@ -37,11 +37,11 @@ Clicking each of the customer entities tabs on the left will open it's correspon
 - **Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible: Upon clicking the type for a given attribute and selecting **Custom** you will be able to type your custom type
 - **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
-In addition, three additional actions are available in the Map page:
+In addition, three additional actions are available in the Map page.
 
 ![add-custom-entity.png](media/add-custom-entity.png)
 
-- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown below). If you think there are additional entities on the basis of which your data should be merged, you should add them at this point.
+- **Add customer entity:** Available upon clicking the **Add** drop-down menu (shown above). If you think there are additional entities on the basis of which your data should be merged, you should add them at this point.
     - Using the customer entities panel (shown below), first you want to click on the data source from which you wish to add more customer entities. In the example below, clicking the *Dynamics* data source opened a list with all the entities for that source. You may also use the search button to find a specific entity.
     
     - Next, you want to select the entities that you want to add. In the example below (right image) few entities have been selected.

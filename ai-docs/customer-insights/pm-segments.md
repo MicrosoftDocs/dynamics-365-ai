@@ -34,7 +34,7 @@ This section will cover segment creation followed by segment exploration.
 ## Creating segments from the segment page
 In order to start creating a segment, you can either click **Add Segment** at the top right corenr of the screen (shown in red below), or click the **Get Started** button (shown in blue below).
 
-//Replace:
+[replace with segments 1]:
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
@@ -64,19 +64,18 @@ The segment creation process is executed within the **Segment Creation** page:
 |4    |Value         |
 
      
-- **In step three, which is optional, we will add more rules to our filter**. Two roles are available on the entity level: 
-     ***AND*** and ***OR***. In the example below, we added to our first role two additional roles. The middle row demonstrates the 
-     creation of an "AND" role (this time with a string attribute), while the lower row demonstrates an "OR" role (created for a time 
+- **In step three, which is optional, we will add more rules to our filter**. Two rules are available on the entity level: 
+     ***AND*** and ***OR***. In the example below, we added to our first rule two additional rules. The middle row demonstrates the 
+     creation of an "AND" rule (this time with a string attribute), while the lower row demonstrates an "OR" rule (created for a time 
      attribute):
      
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-more-roles.png "Customer group with more roles")
 
-Note that as you add rules around more entities, **those entities are linked in a predefined manner**. As described in the Relationships section, **System Relationships** were created during the *Merge* phase and it's also possible that you created additional **Customized Relationships** through the *Relationships Screen*. Both these relationship types dictate a specific scheme as examplified below between the entities **Orders**, **Contacts** and **Customers**:
-[]
+Note that as you add rules around more entities, **those entities are linked in a predefined manner**. As described in the Relationships section, **System Relationships** were created during the *Merge* phase and it's also possible that you created additional **Customized Relationships** through the *Relationships Screen*. As shown in the example below, based on the relationships that were created prior to segmentation, a specific path was created. That path dictates that as part of the rule definition, you can choose the operatior **All Records** for the *(Master) Customer* entity and the *Contact* entity, but not for the *Orders* entity:
 
-This observation is important since when you add rules 
-     
+[segmentation 2]
+
 - **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon selecting **Add Group**, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3. 
    
 > [!div class="mx-imgBorder"] 
