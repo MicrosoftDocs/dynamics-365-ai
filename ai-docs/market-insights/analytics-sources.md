@@ -21,6 +21,8 @@ search.app:
 
 # Analyze sources of posts in your data set
 
+[This topic is pre-release documentation and is subject to change.]
+
 Understand which social media sources are found most often in your search topics and analyze sources, such as top languages and user sentiment.  
   
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Sources** to see details about the sources of posts in your data set.  

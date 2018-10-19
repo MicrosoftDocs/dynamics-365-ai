@@ -20,11 +20,12 @@ search.app:
 ---
 
 # Route posts using automation rules
+
+[This topic is pre-release documentation and is subject to change.]
+
 Do you ever feel overwhelmed by how much noise you need to cut through on social media to find posts that are relevant to you? Using automation rules, you don’t need to go through every post manually to create new cases, leads, or events. Let automation rules take care of the routing process. Automation rules can assign posts to users or groups, create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], or create events in [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)], if newly-found posts match the filters for your automation rule.  
   
-<a name="prerequisites"></a>   
 ## Prerequisites  
-  
  
 - You have a Manager or Administrator user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
@@ -32,8 +33,8 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
   All users, regardless of user role and license type, can see the automation rules that were defined. All users open the same data set in Analytics.  
   
-<a name="elements"></a>   
 ## Elements of an automation rule  
+
 For each automation rule, there are several navigation elements and values to define. The following screenshot  shows more about what an automation rule consists of.  
   
 ![elements of an automation rule in market insights](media/automation-rules-callout.png "Elements of an automation rule in Market Insights")  
@@ -62,8 +63,8 @@ For each automation rule, there are several navigation elements and values to de
   
 When no rule is selected, you'll see the  aggregated numbers across all automation rules. For example, If two rules stream  data to the same event hub, you will see an aggregated value for that event hub. Only the data for rules with active actions show in the chart. If an action that was removed or disabled is added or enabled again, the stats panel will show any data available for that action in the past 7 days, if it was active anytime during that period.  
   
-<a name="actions"></a>   
 ## Available actions for automation rules  
+
 The following section explains more about the available actions for automation rules.  
   
 > [!TIP]
@@ -71,27 +72,28 @@ The following section explains more about the available actions for automation r
 > 
 >  For troubleshooting information when receiving failure notifications, see [Troubleshoot issues with failing actions](#troubleshoot).  
   
-<a name="link_automation"></a>   
 ### Create a link to Dynamics 365 from a social post  
+
 Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md), [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
-<a name="assignAutomation"></a>   
 ### Assign posts to a user or a group in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
+
 Automatically assign posts that match your defined filters to a user or a group in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For example, you can assign every post with a purchase intention to your sales team to follow up on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
-<a name="set_label"></a>   
 ### Set a label  
+
 Automation rules  provide a Set Label action. Based on the filters you define, a label can be set on posts automatically.  For example, you can set a “Review immediately” label on posts from your top influencers so that your community management team can follow up with high priority. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or delete an automation rule](automation-rules.md#manage_rules)  
   
-<a name="stream_to_event_hub"></a>   
 ### Stream posts to Microsoft Azure Event Hubs  
+
 Automatically stream posts as events as JSON payloads to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. You must have a connection to an event hub set up to see this action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
   
-<a name="troubleshoot"></a>   
 ## Troubleshoot issues with failing actions  
+
 When you receive failure notifications, there are a few common issues and simple solutions to them. Often, the issues are related to connection problems to other services, or sudden spikes in volume of posts.  
   
 ### Link to Dynamics 365 action fails  
+
 **Possible causes**  
   
 Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is no longer active or valid, or there are too many posts queued and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] throttles the creation of new records. After several failed retires, the posts are dropped from the queue, and a failure notification is sent. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Market Insights handles conflicting automation rules](#conflicting_rules)  
@@ -117,6 +119,7 @@ You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-
 4. Open the post list and click **Link to Dynamics 365** ![link to dynamics 365 action](media/automation-rule-action-link-to-crm.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 ### Stream to Event Hubs action fails  
+
 **Possible causes**  
   
 Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
@@ -139,14 +142,13 @@ Event hubs are built to handle high volumes of events in real time. Although you
   
 3.  Compare the number of posts resulting in step 2 with the actual results showing in the event hub.  
   
-<a name="manage_rules"></a>   
 ## Create, edit, or delete an automation rule  
+
 Automation rules are visible to all users of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md "Understand user roles")  
   
 > [!IMPORTANT]
 >  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], see [Connect Dynamics 365 and Market Insights](connect-dynamics-365-record-creation.md).  
   
-<a name="create_rule"></a>   
 ### Create an automation rule  
   
 1. Go to **Settings** > **Automation Rules**.  
@@ -179,7 +181,6 @@ Automation rules are visible to all users of [!INCLUDE[Market Insights](../inclu
 > [!NOTE]
 >  Automation rules start processing posts that match the defined filters as soon as the rule is activated and saved. However, the rule won’t process any posts that were found before the automation rule was created, or while it was inactive. If you deactivate an existing automation rule, it will restart to process the newly-found posts after you reactivate the rule. If your administrator sets **Send failure notifications** to on, all administrators will receive an email if an action failed, so you can quickly take action.  
   
-<a name="edit_rule"></a>   
 ### Edit an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
@@ -190,7 +191,6 @@ Automation rules are visible to all users of [!INCLUDE[Market Insights](../inclu
   
 4.  Click **Save** ![save button](media/save-icon.png "Save button") to apply your configuration.  
   
-<a name="delete_rule"></a>   
 ### Delete an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
@@ -201,12 +201,12 @@ Automation rules are visible to all users of [!INCLUDE[Market Insights](../inclu
   
 4.  Confirm your deletion.  
   
-<a name="quick_create"></a>   
 ## Quickly create an automation rule while working in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
+
 When working with data sets in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![more options](media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
-<a name="conflicting_rules"></a>   
 ## How [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] handles conflicting automation rules  
+
 A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will execute the actions from the rule that was added most recently.  
   
 > [!CAUTION]
@@ -215,6 +215,7 @@ A newly-found post can match the filters of more than one automation rule. If th
 >  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
   
 ### See Also  
+
 [Administer Market Insights](settings-administration.md)   
 [Stream data from Market Insights to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
 [Link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)   

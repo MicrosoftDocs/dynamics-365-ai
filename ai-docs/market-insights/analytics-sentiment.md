@@ -21,6 +21,8 @@ search.app:
 
 # Understand public perception using sentiment analysis
 
+[This topic is pre-release documentation and is subject to change.]
+
 View and understand social sentiment in posts that are found by your search topics. Sentiment analysis in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] calculates the sentiment value of social posts using natural-language processing and machine learning techniques. 
 
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Sentiment** to learn more  about sentiment across posts in your data set.  

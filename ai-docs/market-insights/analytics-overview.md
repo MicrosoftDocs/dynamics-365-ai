@@ -21,6 +21,8 @@ search.app:
 
 # Understand widgets on the overview page
 
+[This topic is pre-release documentation and is subject to change.]
+
 Start your analysis with an overview of the data that your solution has acquired so far. Find key widgets that provide information such as the volume of posts, their sources, sentiment, demographic data (in the United States), and where the posts are coming from.  
   
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Overview** to access the overview page.  

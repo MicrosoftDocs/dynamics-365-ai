@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Add rules to a search topic
+
+[This topic is pre-release documentation and is subject to change.]
+
 Search topics define the data that's available for your analysis. You can add an unlimited number of search rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time, and add more rules or change existing ones.
 
 [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] supports the following search rules. 
