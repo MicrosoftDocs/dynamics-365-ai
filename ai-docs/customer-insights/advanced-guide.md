@@ -31,7 +31,7 @@ robots: noindex,nofollow
 ## About this documentation
 All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below:
 
-//Replace the image below with image 1:
+// Update to final app menu once *Timeline* will be removed from it:
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-dashboard-full.png "Customer dashboard")
 
@@ -39,12 +39,8 @@ In order to best utilize this guide for your specific needs, you should identify
 - ***I am new to the product*** -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. **This guide's flow reflects the order by which you should work with the product: Completing the *Data Manager* and *Configure Data* sections and only then exploring the *Get Insights* sections.**  
 - ***I am already using the product but incurring a specific issue*** -> In that case you may want to identify what product section this issue relates to and explore this particular section. 
 
-// Update to final app menu once *Timeline* will be removed from it:
-> [!div class="mx-imgBorder"] 
-> ![](media/help-link.png "Help link")
-
 **Note**: You can return to documentation on any of the product pages by clicking the question mark as shown below:
-[complete image]
+// [complete image]
 
 ## Onboarding 
 The first thing you should do is clicking the offer link and setting an instance:
@@ -56,7 +52,7 @@ The first thing you should do is clicking the offer link and setting an instance
 Complete the following steps in order to return to Customer 360:
 -	**If you a returning user, follow those steps**:
     - **Clicking the Offer Link**:
-    - **Choosing an instance**: When you first used Customer 360 an instance was created for you. Copy paste this instance into your browser to continue using Customer 360. If, as part of using Customer 360, you plan to create multiple instances, it’s highly recommended to give them an identifiable names through the **Settings** screen.
+    - **Choosing an instance**: When you first used Customer 360 an instance was created for you. Copy paste this instance into your browser to continue using Customer 360. If, as part of using Customer 360, you plan to create multiple instances, it’s highly recommended to give them identifiable names through the **Settings** screen.
 
 //add image 2:
 []
