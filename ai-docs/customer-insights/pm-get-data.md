@@ -27,7 +27,7 @@ In this section we will explain how to bring data from many of your sources: Fro
 -	**Step One: Dataflow Creation:** Clicking the **Get Data** button will take you to the **Dataflow Screen** as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage.
 - **If it’s the first time you are using Customer 360**, you need to create a dataflow and that is available through the highlighted **Add Entity** button:
 
-[2]
+[2b]
 
 Then you should give your dataflow a name and short description as shown below:
 
