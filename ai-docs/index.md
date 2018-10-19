@@ -65,7 +65,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="../images/dynamics-field-service.svg">
+                                                    <img alt="" src="../images/MarketInsights_outline_36px_blue.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -84,7 +84,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="../images/dynamics-operations.svg">
+                                                    <img alt="" src="../images/Sales_outline_36px_blue.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
