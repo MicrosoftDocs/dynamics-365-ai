@@ -1,4 +1,5 @@
 - name: Data Manager
+  href: pm-data-manager.md
   items:
   - name: Get data
     href: pm-get-data.md
