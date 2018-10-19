@@ -28,7 +28,7 @@ There are two main goals behind the Map page that is shown below:
 - Entity selection: Identifying the customer entities which, upon unification, may lead to a dataset with a more complete information on your customers
 - Attribute selection: For each customer entity, identifying the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
 
-[replace with 9]
+[replace with 10]
 ![map-screen1.png](media/map-screen1.png)
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
