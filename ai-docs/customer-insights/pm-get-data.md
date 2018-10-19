@@ -63,5 +63,5 @@ If you are new to power query, you might want to spend a couple of minutes on th
 Note: In the future this step will happen automatically. 
 
 ### Next Step: 
-Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If first you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
+Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
 
