@@ -21,6 +21,8 @@ search.app:
 
 # [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Privacy Notices
 
+[This topic is pre-release documentation and is subject to change.]
+
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
 
 For specific privacy information about [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], refer to the paragraphs below.

@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Work with posts
+
+[This topic is pre-release documentation and is subject to change.]
+
 Wherever you work in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
   
 <a name="sentiment"></a>   

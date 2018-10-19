@@ -21,6 +21,8 @@ search.app:
 
 # Work with widgets in Social Insights
 
+[This topic is pre-release documentation and is subject to change.]
+
 After setting up Social Insights in Dynamics 365, you can integrate widgets presenting data from Market Insights on forms and dashboards in Dynamics 365. This article presents an overview of the available widgets and information about how to configure them on the fly in Dynamics 365.
 
 ## Work with filters on widgets

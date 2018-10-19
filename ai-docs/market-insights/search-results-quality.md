@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Manage the quality of your search results
+
+[This topic is pre-release documentation and is subject to change.]
+
 You can perform quality management over the entire application by blocking irrelevant posts and sources.  
   
 > [!NOTE]

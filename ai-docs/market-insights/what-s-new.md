@@ -21,6 +21,8 @@ search.app:
 
 # What&#39;s new in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
+[This topic is pre-release documentation and is subject to change.]
+
 Welcome to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Here's a list of features we added recently.
 
 If you're new to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], see [Get started with Market Insights](get-started.md).

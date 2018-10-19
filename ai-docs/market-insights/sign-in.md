@@ -21,6 +21,8 @@ search.app:
 
 # Sign in to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
 
+[This topic is pre-release documentation and is subject to change.]
+
 To sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you'll need to be assigned a user license. Your organization's Office 365 administrator approves user licenses when setting up [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Additionally, the global admin needs to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and confirm the solution isn’t used by or on behalf of a government customer before other users can access the service. 
   
 ## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] from a dedicated sign-in page
