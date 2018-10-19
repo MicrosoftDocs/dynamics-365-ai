@@ -18,7 +18,8 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Data Manager - should be moved to Data Manager once this section will be created
+# Data Manager 
+Note (10/19): The first two paragraphs + image 2a should be moved to Data Manager once this section is created by Jim
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
