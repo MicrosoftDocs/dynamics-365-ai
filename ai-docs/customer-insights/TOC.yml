@@ -1,7 +1,4 @@
-- name: "Preview: Customer 360"
-  items:
 - name: Data Manager
-  href: pm-data-manager.md
   items:
   - name: Get data
     href: pm-get-data.md
@@ -21,7 +18,6 @@
 - name: Segments
   href: pm-segments.md
 - name: Admin
-  href: pm-admin.md
   items:
   - name: Settings
     href: pm-settings.md
