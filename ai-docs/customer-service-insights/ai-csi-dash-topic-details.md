@@ -18,8 +18,6 @@ manager: shellyha
 
 The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
-The Topic details dashboard is not available on the dashboard navigation pane. You can display the dashboard by right-clicking a topic in one of the AI Insights charts on the [KPI summary](ai-csi-dash-kpi-summary.md), [Incoming cases](ai-csi-dash-incoming-cases.md), [Case resolutions](ai-csi-dash-case-resolutions.md), or [Customer satisfaction](ai-csi-dash-CSAT.md) dashboard. Hover over **Drillthrough** and then click **Topic Drill Through** to display the dashboard.
-
 ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.png)
 
 The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.

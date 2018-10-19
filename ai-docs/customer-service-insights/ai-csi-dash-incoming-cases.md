@@ -18,8 +18,6 @@ manager: shellyha
 
 The Incoming cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
-You can display [KPI summary](ai-csi-dash-kpi-summary.md), Incoming cases, [Case resolutions](ai-csi-dash-case-resolutions.md), and [Customer satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
-
 The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
 Chart | Link

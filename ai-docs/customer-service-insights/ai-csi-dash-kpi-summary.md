@@ -18,8 +18,6 @@ manager: shellyha
 
 The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 
-You can display KPI summary, [Incoming cases](ai-csi-dash-incoming-cases.md), [Case resolutions](ai-csi-dash-case-resolutions.md), and [Customer satisfaction](ai-csi-dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. You can display the [Topic details](ai-csi-dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards. The KPI summary dashboard is the default Dynamics 365 AI for Customer Service dashboard.
-
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
 Chart | Link
