@@ -46,22 +46,15 @@ In order to best utilize this guide for your specific needs, you should identify
 // [complete image]
 
 ## Onboarding 
-The first thing you should do is clicking the offer link and setting an instance:
 
-- **If you are a new user, complete the following steps**:
+- **The first thing you should do is clicking the offer link and setting up an instance:**
     - **Clicking an Offer Link**: You should have been provided with the following link: 
-    - **Choosing an instance**: Upon clicking the offer link you will get to the screen below. We automatically created for you an instance. Copy paste it into your browser to start using the app.
-
-Complete the following steps in order to return to Customer 360:
--	**If you a returning user, follow those steps**:
-    - **Clicking the Offer Link**:
-    - **Choosing an instance**: When you first used Customer 360 an instance was created for you. Copy paste this instance into your browser to continue using Customer 360. If, as part of using Customer 360, you plan to create multiple instances, it’s highly recommended to give them identifiable names through the **Settings** screen.
+    - **Choosing an instance**: Upon clicking the offer link you will get to the screen below. We automatically created for you an instance. Copy paste it into your browser for start using or returning to the app. If as part of using Customer 360 you plan to create multiple instances, it’s highly recommended to give them identifiable names through the **Settings** screen. 
 
 //add image 2:
 []
 
-## Choose a business category
-The second thing you do is select a business category that matches your industry:
+- **The second thing you do is select a business category that matches your industry:**
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-business-category720.png "Select a business category")
