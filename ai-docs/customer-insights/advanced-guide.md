@@ -36,7 +36,10 @@ All product sections are accessed through their corresponding tab names in the l
 > ![](media/customer-dashboard-full.png "Customer dashboard")
 
 In order to best utilize this guide for your specific needs, you should identify your situation:
-- ***I am new to the product*** -> In that case you may want to explore the guide from start to end. As shown below, product sections are represented by tabs on the left-side menu. **This guide's flow reflects the order by which you should work with the product: Completing the *Data Manager* and *Configure Data* sections and only then exploring the *Get Insights* sections.**  
+- ***I am new to the product*** -> In that case you may want to explore the guide from start to end. As shown aobve, product sections are represented by tabs on the left-side menu. **This guide's flow reflects the order by which you should work with the product**:
+     - First, Complete the **Data Manager** and **Configure Data** sections in order to unlock unique insights on your customers 
+     - Then, explore the **Segments** and **Connectors** sections to view and act upon those insights  
+     
 - ***I am already using the product but incurring a specific issue*** -> In that case you may want to identify what product section this issue relates to and explore this particular section. 
 
 **Note**: You can return to documentation on any of the product pages by clicking the question mark as shown below:
