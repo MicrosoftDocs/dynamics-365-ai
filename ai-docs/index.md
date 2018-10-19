@@ -46,7 +46,7 @@ ms.custom:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="" src="../images/dynamics-customer-service.svg">
+                                                    <img alt="" src="../images/CustomerServiceInsights_outline_36px_blue.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
