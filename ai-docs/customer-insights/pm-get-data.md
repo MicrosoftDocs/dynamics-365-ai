@@ -37,7 +37,8 @@ As shown below, the **Data Manager** includes two moduls: **Get Data** and **Ent
 
 Then you should give your dataflow a name and short description as shown below:
 
-[3]
+> [!div class="mx-imgBorder"] 
+> ![](media/connection-settings.png "Connection settings")
 
 Lastly click your new dataflow to start ingsting entities into this dataflow.
 - **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 

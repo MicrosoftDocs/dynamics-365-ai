@@ -77,7 +77,7 @@ If you never used Customer 360 before, you can expect to go through the workflow
 
 //Update:
 > [!div class="mx-imgBorder"] 
-> ![](media/workflow720.png "Workflow phases")
+> ![](media/key-pillars.png "Key pillars")
 
 Here is a reminder as for how to best utilize this guide if you are new to Customer 360:
 - First review the **Data Manager** sections to learn how to ingest and edit your data.
