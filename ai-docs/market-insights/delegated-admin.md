@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Enable a partner as a delegated admin
+
+[This topic is pre-release documentation and is subject to change.]
+
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] puts powerful social tools in the hands of your sales, marketing, and service teams—helping them to gain insight into how people feel about your business and to proactively connect on social media with customers, fans, and critics.  
   
 ## For system admins  

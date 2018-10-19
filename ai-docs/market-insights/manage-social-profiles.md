@@ -21,6 +21,8 @@ search.app:
 
 # Manage social profiles
 
+[This topic is pre-release documentation and is subject to change.]
+
 *Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
 To [publish or react to posts](publish-react-posts.md), you need active social profiles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. 

@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Get started with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
+
+[This topic is pre-release documentation and is subject to change.]
+
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
 ## Prerequisites  
