@@ -23,3 +23,12 @@
     href: pm-settings.md
   - name: Permissions
     href: pm-permissions.md
+- name: Extensibilities
+  items:
+  - name: Connectors
+    href: pm-connectors.md
+  - name: APIs
+    href: pm-apis.md
+-name: Known issues
+ href: pm-known-issues.md
+ 
