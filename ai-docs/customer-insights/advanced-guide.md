@@ -28,7 +28,8 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-## About this documentation
+## How to best utilise this manual
+
 All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below:
 
 // Update to final app menu once *Timeline* will be removed from it:
