@@ -18,7 +18,8 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Customer 360 Dashboard
+# PBI Connector
+**The 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,7 +29,7 @@ robots: noindex,nofollow
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-**This dashboard encapsulates everything that you need to know about each of your customers**. From Customer detials such as rule and address, to communication details such as email address and phone number, to KPIs that were calaculated specifically for that customer, to other important customer-level insights that are important for your business health. 
+**In this section you will learn how to utilize the PBI connector for unlocking the Customer 360 Dashboard. Th encapsulates everything that you need to know about each of your customers**. From Customer detials such as rule and address, to communication details such as email address and phone number, to KPIs that were calaculated specifically for that customer, to other important customer-level insights that are important for your business health. 
 
 In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one datasource to it through the **Data Manager: Get Data** page (otherwise you should first review the Data Manager section). Lastly, make sure you have **Power BI Desktop** and **Gateway Windows Server** on your computer or else you will need to install both using the following links:
 - **Power BI Desktop:**
@@ -46,10 +47,8 @@ Then complete those few steps:
     []
     
      You should insert the following URL into the **url field** that is shown above: 
-     https://apiapi.ci.ai.instances/a73a8b95-484f-4913-9a62-76417b543b7d/data/ 
-     
-     https://dev.api.ci.ai.dynamics-int.com/app/configuration/map?instanceId=b934bbd7-1e37-41d8-843e-5850bdb4d747
-     
+     https://dxt-wus-01.ci.ai.dynamics.com/api/instances/fa252992-8d48-49b3-9d02-06a2ac2a441e/data 
+
      Lastly, **provide your AAD credentials** within the screen that is shown below:
      []
      
