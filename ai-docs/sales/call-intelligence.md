@@ -55,7 +55,7 @@ To view the KPIs and insights of Call intelligence, go to **Call intelligence** 
 When you open the **Teams** page, you'll see the pulse of the team through the insights across customer sentiments, content, and conversational KPIs. You can assess the insights of each individual and identify sales reps who require coaching to perform better.
 
 
-<!--from editor: In No. 6, Competition mentioned by customers, it says "competitor names that sales reps use most..." Wouldn't it be names that customers use most?
+<!--from editor: In No. 6, Competition mentioned by customers, it says "competitor names that sales reps use most..." Wouldn't it be names that customers use most?-->
 
 |KPI/Insights|Description|
 |------------|-----------|
