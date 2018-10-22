@@ -71,7 +71,7 @@ Select the drop down corresponding to the name of the sales rep to view other re
 |**4. Talk to listen ratio**|Displays the average talk and listen ration of the sales rep during calls with customer.|
 |**5. Sentiment over time**|Displays how the three customer sentiments (positive, negative, and neutral) are behaving and spanning across in the specified time frame for the sales rep.|
 |**6. Call details**|Displays the sentiments and keywords across the call.|
-|**7. Most used keywords**|Displays the defined keywords that customers used most during the conversations with the sales rep.|
+|**7. Most used keywords**|Displays the defined keywords that customers used most during a conversations with the sales rep.|
 |**8. Calls**|Displays the list of calls handled by the sales rep. Select the call to display the transcript and timeline. |
 |**9. Transcript**|•	Provides written record of the call that you have selected.<br>• select **Add comment** to provide necessary inputs to the sales rep at the selected timeline.|
 
