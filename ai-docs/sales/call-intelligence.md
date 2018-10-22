@@ -44,6 +44,8 @@ To view the KPIs and insights of Call intelligence, go to **Call intelligence** 
 > [!div class="mx-imgBorder"]
 > ![Call intelligence teams view](media/callintelligence-teams.png "Call intelligence teams view")
 
+## View team information
+
 When you open the **Teams** page, you can see the pulse of the team through the insights across customer sentiments, content, and conversational KPIs. You can assess the insights of each individual and identify sales reps who require coaching to perform better.
 
 |KPI/Insights|Description|
@@ -56,7 +58,7 @@ When you open the **Teams** page, you can see the pulse of the team through the 
 |**6. Content**|• **Trackers mentioned by customers:** Displays the defined keywords that customers use most during the conversations with sales reps. <br>• **Competition mentioned by customers:** Displays the defined competitors names that sales reps use most during the conversations with customers.|
 |**7. Conversation style**|• **Listening and talking ratio:** Specifies the average listen and talk ratio of sales reps in conversations with customer.<br> •	**Highest average switch rate:** Displays the average switches between sales rep and customer in a conversation and is a sign of engagement during conversations.<br>•	**Average talking speed:** Displays the average number of words used per minute by sales reps.<br>•	**Average pause before speaking:** Displays how many milliseconds the sales reps has paused before responding to customer queries and this is a signal of patience for the sales reps.<br>•	**Average longest monologue by customer:** Displays the length of speech without break by customer with sales reps in seconds and this is a signal of sales reps asking good questions and better understanding customer needs.|
 
-
+## View sales rep inforamtion 
 Open the **Sales rep** view to drill down into each individual sales rep and assess the performance and identify areas where the sales rep requires coaching. Also, gets a quick peek into the customer sentiments, conversational KPIs across all the calls for the sales reps. You can filter into a specific call that has negative customer sentiment and view the transcript of the call. You can look at the keywords and sentiments across the timeline of the call and go to a moment and look at the call transcript. You can post comments on how the sales rep could handle the situation better and share these comments via email.<br>
 Select the drop down corresponding to the name of the sales rep to view other reps.
 
