@@ -1,6 +1,6 @@
 ---
-title: "Overview of Market Insights, pricing, and related scenarios | Microsoft Docs"
-description: "Learn about features and pricing of Market Insights and get started using the service."
+title: "Overview of Market Insight and related scenarios | Microsoft Docs"
+description: "Learn about features of Market Insights and get started using the service."
 keywords: "Market Insights, overview, quick start, scenarios"
 ms.date: 10/31/2018
 ms.service: dynamics-365-ai
