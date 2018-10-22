@@ -21,4 +21,4 @@
 ### [How notes analysis assists you with suggestion](../sales/notes-analysis.md)
 ### [Know conversation starters for your customers](../sales/talking-points.md)
 ### [Get introduced to lead](../sales/who-knows-whom.md)
-### [Analyze cuystomer calls](../sales/call-intelligence.md)
+### [Analyze customer calls](../sales/call-intelligence.md)
