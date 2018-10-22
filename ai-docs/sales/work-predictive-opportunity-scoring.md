@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
-Predictive opportunity scoring helps you to focus on potential opportunities to achieve your sales targets. To achieve this opportunity scoring provides scores for opportunities to prioritize efforts on quality opportunities and turn them into deals. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into deal. These opportunities are displayed in a system view—and when you select an opportunity, you can view reasons and influences of that opportunity to further analyze and build a strategy and turn the opportunity into a deal.
+Predictive opportunity scoring helps you to focus on potential opportunities to achieve your sales targets. To achieve this, opportunity scoring provides scores for opportunities to prioritize efforts on quality opportunities and turn them into deals. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into deal. These opportunities are displayed in a system view—and when you select an opportunity, you can view reasons and influences of that opportunity to further analyze and build a strategy and turn the opportunity into a deal.
 
 > [!IMPORTANT]
 > To enable Predictive opportunity scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-enable-sales-insights-addon.md#configure-predictive-opportunity-scoring)
