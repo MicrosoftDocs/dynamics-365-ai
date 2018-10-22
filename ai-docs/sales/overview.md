@@ -23,12 +23,12 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
-Welcome to Dynamics 365 AI for Sales!
+Welcome to [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]!
 
-Dynamics 365 AI for Sales enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. The AI features are categorized into the following:
+[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. The AI features are categorized into the following:
 - Embedded intelligence
 - AI for Sales
-- Dynamics 365 AI for Sales app
+- [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
 
 
 ## Embedded intelligence
@@ -43,7 +43,7 @@ The following features are available under Embedded intelligence:
 ## AI for Sales
 The features in AI for Sales are specifically designed to help sales reps / individuals to take intelligent decisions on their leads and opportunities to close the sales targets. <br>
 > [!NOTE]
-> You must acquire **Dynamics 365 AI for Sales** license to use AI sales features.
+> You must acquire **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
 
 The following features are available under AI for Sales:
 - Relationship analytics
@@ -55,8 +55,8 @@ The following features are available under AI for Sales:
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [AI for Sales](sales-insights-addon.md)
 
-## Dynamics 365 AI for Sales app
-The features in Dynamics 365 AI for Sales app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
+## [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
+The features in [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
 The following features are available under Dynamics 365 AI for Sales:  
 - Business report
 - Team report
