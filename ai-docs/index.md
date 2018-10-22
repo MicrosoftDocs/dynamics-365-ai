@@ -51,9 +51,9 @@ ms.custom:
                                             </div>
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Customer Service Insights</h3>
-                                                <p><a href="/dynamics365/ai/customer-insights/introduction">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/quick-start">Quick Start Guide</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/advanced-guide">Advanced guide</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-overview">Overview</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-quickstart">Quickstart</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-dashboard-reference">Dashboard reference</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -70,9 +70,9 @@ ms.custom:
                                             </div>
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Market Insights</h3>
-                                                <p><a href="/dynamics365/ai/customer-insights/introduction">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/quick-start">Quick Start Guide</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/advanced-guide">Advanced guide</a></p>
+                                                <p><a href="/dynamics365/ai/market-insights/overview">Overview</a></p>
+                                                <p><a href="/dynamics365/ai/market-insights/get-started">Get started</a></p>
+                                                <p><a href="/dynamics365/ai/market-insights/settings-administration">Administration</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -89,9 +89,9 @@ ms.custom:
                                             </div>
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Sales</h3>
-                                                <p><a href="/dynamics365/ai/customer-insights/introduction">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/quick-start">Quick Start Guide</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/advanced-guide">Advanced guide</a></p>
+                                                <p><a href="/dynamics365/ai/sales/overview">Overview</a></p>
+                                                <p><a href="/dynamics365/ai/sales/admin-guide">Administration</a></p>
+                                                <p><a href="/dynamics365/ai/sales/user-guide">User guide</a></p>
                                             </div>
                                         </div>
                                     </div>
