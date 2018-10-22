@@ -46,6 +46,8 @@ Then complete those few steps:
     []
     
      You should insert the following URL into the **url field** that is shown above: 
+     https://apiapi.ci.ai.instances/a73a8b95-484f-4913-9a62-76417b543b7d/data/ 
+     
      https://dev.api.ci.ai.dynamics-int.com/app/configuration/map?instanceId=b934bbd7-1e37-41d8-843e-5850bdb4d747
      
      Lastly, **provide your AAD credentials** within the screen that is shown below:
