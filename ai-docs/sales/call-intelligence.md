@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0
 
-Sales calls are most important part of your business and these calls help you to change the shape of your business by improving sales and generate revenue. Dynamics 365 provides you with an intelligent solution to analyze these calls known as **Call intelligence**. Analyzing the Call intelligence data helps you in:
+Sales calls are most important part of your business and these calls help you to change the shape of your business by improving sales and generate revenue. [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app provides you with an intelligent solution to analyze these calls known as **Call intelligence**. Analyzing the Call intelligence data helps you in:
 - Increase sales wins
 - Reduce new sale person ramp-up time 
 - Increase productivity gains for business
