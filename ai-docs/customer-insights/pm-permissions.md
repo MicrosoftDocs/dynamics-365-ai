@@ -24,11 +24,10 @@ robots: noindex,nofollow
 
 The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. 
 
+[replace with permissions 1]:
  ![permissions.png](media/permissions.png)
 
 In this screen you can view **organization members** for whom **roles** and **permissions** where assigned:
-- Once you gave a permission to a specific user, this person's name will appear with a checked box next to it:
-[]
 
 - The **Type** column specifies whether it's a single member or a group
 - A role is specified under the **Roles** column
@@ -41,7 +40,7 @@ In terms of roles, it's possible to define organization members as either ***Adm
  
 Once the panel is opened, first you will need to find the person, group, or application to which you want to give the permission. Type a name in the **Name field** as shown below. As mentioned, beyond people, you can give permissions to applications that will connect to Customer 360 via our APIs.
 
-[Permissions1]
+[Permissions2]
 
 Then, choose a role for that person/group/application as shown below:
 
@@ -53,7 +52,7 @@ Then, choose a role for that person/group/application as shown below:
 
 - **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
 
-(add permissions page with opened "roles" panel from the administration part on the app)
+[permissions 3]
 
 - **Filtering Permissions by a Role**: This can be achieved by opening the **Filter** panel through **Filter** at the top of the permissions page, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
 
