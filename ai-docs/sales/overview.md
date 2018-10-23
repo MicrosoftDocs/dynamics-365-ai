@@ -21,11 +21,11 @@ topic-status: Drafting
 ---
 # Overview of Dynamics 365 AI for Sales
 
-Applies to Dynamics 365 (online), version 9.0.2<br>
+Applies to Dynamics 365 (online), version 9.1.0<br>
 
 Welcome to [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]!
 
-[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. The AI features are categorized into the following:
+[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized into the following:
 - Embedded intelligence
 - AI for Sales
 - [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
