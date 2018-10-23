@@ -63,9 +63,9 @@ Here you can start creating your customized dashboard by using the right menu. U
 - A Customer Segment: Filter by one or more of the other customer attributes such as gender, location, role, etc (shown in blue)
 []
 
-**If you are less familiar with how to filter in Power BI for Desktop, you might want to explore the following documentation:**
+**If you are less familiar with how to filter in Power BI for Desktop**, you might want to explore the following documentation:**
 https://docs.microsoft.com/en-us/power-bi/power-bi-report-add-filter
 
-**If you want to learn more on Power BI for Desktop in general, you can utilize the following documentation:**
+**If you want to learn more on Power BI for Desktop**, you can utilize the following documentation:**
 https://docs.microsoft.com/en-us/power-bi/desktop-what-is-desktop
 
