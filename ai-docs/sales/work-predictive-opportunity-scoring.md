@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
-Predictive opportunity scoring helps you to focus on potential opportunities to achieve your sales targets. To achieve this, opportunity scoring provides scores for opportunities to prioritize efforts on quality opportunities and turn them into deals. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into deal. These opportunities are displayed in a system view—and when you select an opportunity, you can view reasons and influences of that opportunity to further analyze and build a strategy and turn the opportunity into a deal.
+Predictive opportunity scoring helps you to focus on potential opportunities to achieve your sales targets. To achieve this, opportunity scoring provides scores for opportunity to prioritize efforts on quality opportunity and turn them into win deals. When the score is higher, the more likely that you can convert it into an win deal. These opportunities are displayed in a system view—and when you select an opportunity, you can view reasons and influences of that opportunity to further analyze and build a strategy and turn the opportunity into a win deal.
 
 > [!IMPORTANT]
 > To enable Predictive opportunity scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-enable-sales-insights-addon.md#configure-predictive-opportunity-scoring)
@@ -33,19 +33,19 @@ Predictive opportunity scoring helps you to focus on potential opportunities to 
 
 When the predictive opportunity scoring is enabled in your organization, you can use the **My Open Opportunities Scored** system view. This view gives you a list of opportunities that can be converted into win deals.
 
-The following screen displays a typical view with a list of opportunities that consist of parameters that are used to analyze possible win deals.
+The following screen displays a typical view that consist of columns which can be used to analyze and prioritize the opportunities.
 
 > [!div class="mx-imgBorder"]
 > ![My open opportunity scored view](media/my-open-opportunity-score-view.png "My open opportunity scored view")
 
 The numbered columns are:
-1. **Opportunity Score.** Specifies the value that is representative of the likelihood of the opportunity to convert into a deal. This value is calculated by the application based on the top reasons that are influensing the opportunity.    
-2. **Opportunity Grade.** Specifies the grades of an opportunity that are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (Green) is the opportunity with highest likelihood for conversion into a win deal followed by Grade B (Purple), Grade C (Yellow), and Grade D (Red). System administrator can define opportunity score ranges for a grade, depending on the organizational requirements.
-3. **Opportunity Score Trend.** Specifies the direction in which an opportunity is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present opportunity score with the previous score. For example, the score of an opportunity was 65 and the present score is decreased to 45, a down arrow is displayed in the **Opportunity Score Trend** column specifying that the opportunity is losing traction and needs some action from you to improve the score.
+1. **Opportunity Score.** Specifies the value that is representative of the likelihood of the opportunity to convert into a deal on a scale of 0 - 100. An opportunity with score of 100 has the highest likelihood of converting into a win deal.
+1. **Opportunity Grade.** Specifies the grades of an opportunity that are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (Green) is the opportunity with highest likelihood for conversion into a win deal followed by Grade B (Purple), Grade C (Yellow), and Grade D (Red). System administrator can define opportunity score ranges for a grade, depending on the organizational requirements.
+1. **Opportunity Score Trend.** Specifies the direction in which an opportunity is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present opportunity score with the previous score. For example, the score of an opportunity was 65 and the present score is decreased to 45, a down arrow is displayed in the **Opportunity Score Trend** column specifying that the opportunity is losing traction and needs some action from you to improve the score.
 
 ## Analyze and improve your opportunity score
 
-In forms, you can use the **Opportunity Score** widget to see the top ten reasons that are impacting the opportunity score. This helps you to analyze and work on the opportunity to improve the score and convert it into a win deal.
+In forms, you can use the **Opportunity Score** widget to see the top ten reasons that are influencing the opportunity score. These reasons come from the opportunity attributes and attributes from the related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a win deal.
 
 The following screen displays a typical **Opportunity Score** widget with reasons that are influencing the opportunity score.
 

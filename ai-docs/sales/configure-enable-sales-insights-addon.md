@@ -96,7 +96,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 
 ## Configure Predictive lead scoring
 
-Predictive lead scoring provides helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. To configure Predictive lead scoring, follow these steps:
+Predictive lead scoring helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. To configure Predictive lead scoring, follow these steps:
 
 1. Go to **Settings** > **Setup AI**.<br>
 2. On the **Overview** tab, select **Configuration** from **Predictive lead scoring** section.
@@ -120,8 +120,8 @@ Predictive lead scoring provides helps users to focus on revenue generation effo
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
-1. If you want to configure the lead score range, enter minimum value of the range in the Lead Scoring Range.<br>
-   When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum lead score range for Grade B changes to 50.
+1. If you want to configure the lead score range, enter minimum value of the range in the **Lead Scoring Range**.<br>
+   When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring change maximum score for grade](media/predictive-lead-scoring-change-max-score.png "Predictive lead scoring change maximum score for grade")<br>
 1. Save and apply the model.<br>
@@ -132,7 +132,7 @@ Predictive lead scoring provides helps users to focus on revenue generation effo
 
 ## Configure Predictive opportunity scoring
 
-Predictive opportunity scoring provides helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities. To configure Predictive opportunity scoring, follow these steps:
+Predictive opportunity scoring helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities. To configure Predictive opportunity scoring, follow these steps:
 
 1. Go to **Settings** > **Setup AI**.<br>
 1. On the **Overview** tab, select **Configuration** from **Predictive opportunity scoring** section.
@@ -157,7 +157,7 @@ Predictive opportunity scoring provides helps users to focus on revenue generati
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
 1. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
-   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum opportunity score range for Grade B changes to 50.<br>
+   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum opportunity score range for **Grade B** changes to 50.<br>
    ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br><!--image should be added-->
 1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
