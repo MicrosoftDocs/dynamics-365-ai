@@ -29,12 +29,8 @@ Within this screen several options are available as shown below:
 
 []
 
+- **Display Name**: Determine how your user name will be shown (shown in blue above)
+- **Instance Name**: Here you can give your work instances identifiable names. It's an highly recommended practice if you have more than one instance (shown in red above)
+- **Region**: Determines your organization's region (shown in green above)
 
-- **Display Name**: Determine how your user name will be shown
-- **Instance Name**: Upon clicking it an instance pop-up window will opene. Here you can pick the right instance for your organization:
-
-[]
-
-- **Region**: Determine your organization's region 
-- **Enrichment**: Choose whether to activate this product module or deactivate it
 
