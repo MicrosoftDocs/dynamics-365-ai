@@ -27,7 +27,7 @@ Set up the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics
 
 The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)]. Prerequisites specific to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] are listed later in this topic.  
   
-- You have a license assigned for both [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
+- You have a license assigned for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
   
 - You have a System Administrator security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [Contact your system administrator](http://go.microsoft.com/fwlink/p/?LinkID=513070) if you need an upgrade to your licensed products or an update to your permissions.
   
