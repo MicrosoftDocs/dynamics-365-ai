@@ -35,7 +35,7 @@ Chart | Link
 
 The *Top CSAT impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
 To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
@@ -73,7 +73,7 @@ The agents with most unresolved cases chart shows the number of unresolved suppo
 
 Description | Details
 ----------- | -------
-Agents with most unresolved cases | *Number of unresolved cases in descending order by agent*)
+Agents with most unresolved cases | *Number of unresolved cases in descending order by agent*
 
 ## Agents with longest resolve time chart
 
@@ -83,7 +83,7 @@ The agents with longest resolve time chart shows the average resolution time for
 
 Description | Details
 ----------- | -------
-Agents with longest resolve times | *Average resolution time in descending order by agent*)
+Agents with longest resolve times | *Average resolution time in descending order by agent*
 
 ## Agents with lowest CSAT chart
 
@@ -93,7 +93,7 @@ The agents with lowest CSAT chart shows the average customer satisfaction score 
 
 Description | Details
 ----------- | -------
-Agents with lowest CSAT | *Average CSAT score in descending order by agent*)
+Agents with lowest CSAT | *Average CSAT score in descending order by agent*
 
 ## Topic journey chart
 
@@ -103,7 +103,7 @@ The topic journey chart shows the path of the topic's support cases during the s
 
 Description | Details
 ----------- | -------
-Topic journey | *Sankey diagram showing the flow of support cases by support channel*)
+Topic journey | *Sankey diagram showing the flow of support cases by support channel*
 
 ## Top CSAT impactors chart
 

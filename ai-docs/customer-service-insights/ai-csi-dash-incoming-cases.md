@@ -23,14 +23,14 @@ The Incoming cases dashboard includes a variety of charts with graphical views o
 Chart | Link
 ----- | ----
 ![Case priority chart](media/ai-csi-case-priority-incoming.png) | [Case priority](#case-priority-chart)
-![Case channel chart](media/ai-csi-case-channels-incoming.png) | [Case channel](#case-channels-chart)
+![Case channel chart](media/ai-csi-case-channels-incoming.png) | [Case channel](#case-channel-chart)
 ![Case timing chart](media/ai-csi-case-timing.png) | [Case timing](#case-timing-chart)
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
 ![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The *Current popular topics* and *Emerging topics* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 
-By default, the dashboard shows you key performance indicators for the last week, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
 To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
 
