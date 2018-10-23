@@ -26,10 +26,12 @@ The main administration page is the **Permissions** page where you can set up ro
 
  ![permissions.png](media/permissions.png)
 
-In this screen you can view **organization members** as well as **groups** for whom **roles** and **permissions** where assigned:
-- A permission is represented by a blue box on the right side of the record: Checked box means that this person or group has permission and vice versa 
-- A role is specified under the *Rules* column
-- The *Type* column specifies whether it's a single member or a group
+In this screen you can view **organization members** for whom **roles** and **permissions** where assigned:
+- Once you gave a permission to a specific user, this person's name will appear with a checked box next to it:
+[]
+
+- The **Type** column specifies whether it's a single member or a group
+- A role is specified under the **Roles** column
 - Lastly, you can sort the results by each of the columns by clicking on the arrow icon next to the column name:  
 
 ![add-permissions.png](media/add-permissions.png)
