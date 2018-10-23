@@ -33,8 +33,8 @@ robots: noindex,nofollow
 
 **The Customer 360 Dashboard** enables you to utilize the unified data that you have unlocked through the **Data Configuration** process and start visualize insights around each of your customers. From Customer details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagmenet Score, many insights are now at your fingertips to explore. 
 
-In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one datasource to it through the **Data Manager: Get Data** page (otherwise you should first review the Data Manager section). Lastly, make sure you have **Power BI Desktop** on your computer (free) or else you will need to install it through the following link:
-- **Link to Power BI Desktop:** https://powerbi.microsoft.com/en-us/desktop/
+In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one datasource to it through the **Data Manager: Get Data** page (otherwise you should first review the Data Manager section). Lastly, make sure you have **Power BI Desktop** on your computer (free):
+- **Link to downloading Power BI for Desktop:** https://powerbi.microsoft.com/en-us/desktop/
 
 Then complete those few steps:
 - **Step One: Downloading MEZ File**: Along with the Offer link you have received a file (from a MEZ type). Download this file to a location you are familiar with in your desktop.
