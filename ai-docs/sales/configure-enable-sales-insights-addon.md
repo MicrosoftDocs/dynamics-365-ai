@@ -33,7 +33,7 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 - Connection insights
 
 > [!IMPORTANT]
-> The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features are available only in North American (NAM) regions.
+> The AI for Sales features are available only in North American (NAM) regions.
 
 ## GDPR
 
@@ -43,7 +43,7 @@ To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for
 
 Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales feature:
 
-- You must acquire **Dynamics 365 AI for Sales** license to use AI sales features.
+- You must purchase **Dynamics 365 AI for Sales** license to use AI sales features.
 - You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 - If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and write back from LinkedIn Sales navigator is enabled.

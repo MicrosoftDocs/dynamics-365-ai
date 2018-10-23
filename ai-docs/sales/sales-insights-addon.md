@@ -30,7 +30,7 @@ Using AI for sales, you can track customer related activities and address the qu
 - Who on the team has been interacting with the customer?
 
 > [!IMPORTANT]
-> - The Dynamics 365 AI for Sales features are available only in North American (NAM) regions.
+> - The AI for Sales features are available only in North American (NAM) regions.
 > - You must purchase **Dynamics 365 AI for Sales** license to use AI for
 Sales features.
 
