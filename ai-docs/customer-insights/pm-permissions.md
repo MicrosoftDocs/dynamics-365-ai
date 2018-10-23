@@ -22,12 +22,14 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. 
+The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. The following roles are available for you to assign to people and applications accross your organization:
+
+[add roles table]
 
 [replace with permissions 1]:
  ![permissions.png](media/permissions.png)
 
-In this screen you can view **organization members** for whom **roles** and **permissions** where assigned:
+In this screen you can view **organization members** for whom **roles** and **permissions** were assigned.
 
 - The **Type** column specifies whether it's a single member or a group
 - A role is specified under the **Roles** column
@@ -46,10 +48,6 @@ Then, choose a role for that person/group/application as shown below:
 
  ![permissions-roles.png](media/permissions-roles.png)
  
- You can use the following table in order to know what options are available for each of the roles:
-
-[permissins table]
-
 - **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
 
 [permissions 3]
