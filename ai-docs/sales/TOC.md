@@ -18,8 +18,8 @@
 #### []() 
 ### User guide
 #### [View customer activity history](../sales/relationship-analytics.md)
-#### [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)
-#### [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
+#### [Prioritize leads using predictive scores](../sales/work-predictive-lead-scoring.md)
+#### [Prioritize opportunities using predictive scores](../sales/work-predictive-opportunity-scoring.md)
 #### [How notes analysis assists you with suggestion](../sales/notes-analysis.md)
 #### [Know conversation starters for your customers](../sales/talking-points.md)
 #### [Get introduced to lead](../sales/who-knows-whom.md)
