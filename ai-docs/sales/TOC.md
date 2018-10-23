@@ -24,5 +24,5 @@
 ### [Analyze team performance](../sales/overview.md)
 ### [Analyze business perforamnce](../sales/overview.md)
 ### [Analyze customer calls](../sales/call-intelligence.md)
-## [Developer guide]
-###[Plugin for Relationship assistant custom cards](../sales/call-intelligence.md)
+## Developer guide
+### [Plugin for Relationship assistant custom cards](../sales/call-intelligence.md)
