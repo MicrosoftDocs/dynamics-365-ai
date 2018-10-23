@@ -66,5 +66,5 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 ### See also
 
-[What's new in Market Insights](what-s-new.md)
+[What's new in Market Insights](what-s-new.md)    
 [Market Insights FAQ](faq.md)   
