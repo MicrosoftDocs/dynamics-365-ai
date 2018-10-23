@@ -24,9 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0
 
-<!--from editor: Changed the first sentence to "Sales calls are an important part ..." instead of "the most important part," because that might not be the case for every business customer.-->
-
-Sales calls are an important part of your business. They help you grow your business by improving sales and generating revenue. [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
+The important part of your business is sales calls. They help you grow your business by improving sales and generating revenue. [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
 
 - Increase sales wins.
 - Reduce new salesperson ramp-up time. 
@@ -45,9 +43,6 @@ As a sales manager, you can open the **Call intelligence** feature to view the o
 <!---	Comment on call transcripts and share with sales reps-->
 
 To view the KPIs and insights of Call intelligence, go to **Call intelligence** in the **Dynamics 365 AI for Sales** app. 
-
-<!--from editor: In the following image, is the name Sam Smith from an approved fictitious names list?-->
-
 
 > [!div class="mx-imgBorder"]
 > ![Call intelligence teams view](media/callintelligence-teams.png "Call intelligence teams view")
@@ -76,10 +71,6 @@ Open the **Sales rep** view to drill down into each individual sales rep to asse
 
 Select the name of the sales rep from the drop-down list to view that rep's performance information.
 
-
-<!--from editor: in the following image, is Sam Boocock from an approved fictitious names list? Also, are Rimsa and Actavis approved fictitious company names?-->
-
-
 > [!div class="mx-imgBorder"]
 > ![Call intelligence sales rep view](media/callintelligence-salesrep.png "Call intelligence sales rep view")
 
@@ -95,7 +86,7 @@ Select the name of the sales rep from the drop-down list to view that rep's perf
 |**8. Calls**|Displays the list of calls handled by the sales rep. Select the call to display the transcript and timeline. |
 |**9. Transcript**|Provides a written record of the call that you selected.<!--<br>• Select **Add comment** to provide necessary inputs to the sales rep at the selected timeline.-->|
 
-<!--from editor: Unhide heding when link is available
+<!--
 ### See also
--->
-<!--link to the d365 AI for sales admin guide>
+
+link to the d365 AI for sales admin guide-->
