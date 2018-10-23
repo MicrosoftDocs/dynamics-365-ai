@@ -23,8 +23,9 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Settings
+Note: The **Settings** page is accessable only to **Administrators**. If you have one of the other permissions (**Reader** or **Writer**), you may want to review the **Permissions** section and explore all the functionalities that are available to you in Customer 360.
 
-Within this screen several options are available as shown below
+Within this screen several options are available as shown below:
 
 []
 
