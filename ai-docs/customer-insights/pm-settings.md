@@ -29,7 +29,7 @@ Within this screen several options are available as shown below:
 
 []
 
-- **Display Name**: Determine how your user name will be shown (shown in blue above)
+- **Display Name**: Determines how your user name will be shown (shown in blue above)
 - **Instance Name**: Here you can give your work instances identifiable names. It's an highly recommended practice if you have more than one instance (shown in red above)
 - **Region**: Determines your organization's region (shown in green above)
 
