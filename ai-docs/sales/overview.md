@@ -43,7 +43,7 @@ The following features are available under Embedded intelligence:
 ## AI for Sales
 The features in AI for Sales are specifically designed to help sales reps / individuals to take intelligent decisions on their leads and opportunities to close the sales targets. <br>
 > [!NOTE]
-> You must acquire **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
+> You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
 
 The following features are available under AI for Sales:
 - Relationship analytics
@@ -57,6 +57,9 @@ The following features are available under AI for Sales:
 
 ## [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
 The features in [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
+> [!NOTE]
+> You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
+
 The following features are available under Dynamics 365 AI for Sales:  
 - Business report
 - Team report
