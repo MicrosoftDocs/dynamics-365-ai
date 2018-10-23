@@ -29,7 +29,7 @@ Filters on each dashboard let you view a subset of your customer service data. Y
 
 ![Dashboard Filters](media/ai-csi-filters.png)
 
-By default, dashboards display information for the past seven days, but you also display information for the past day or month by selecting **Past 01 Days** or **Past 1 Month**.
+By default, dashboards display information for the last month, but you also display information for the last day or week by selecting **Last 01 Days** or **Last 07 Days**.
 
 ![Time Period Filter](media/ai-csi-time-period-filter.png)
 
@@ -67,7 +67,7 @@ Graphical charts showing trends include:
 * [Case tracking (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-tracking-chart)
 * [Unresolved cases by age (KPI summary dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
 * [Case timing (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-timing-chart)
-* [Incoming cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#incoming-cases-versus-average-resolve-time-chart)
+* [New cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-cases-versus-average-resolve-time-chart)
 * [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
 * [Topic journey (Topic details dashboard)](ai-csi-topic-details#topic-journey-chart)
 

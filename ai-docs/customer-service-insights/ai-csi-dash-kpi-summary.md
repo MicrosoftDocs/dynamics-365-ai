@@ -23,13 +23,13 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 Chart | Link
 ----- | ----
 ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts)
-![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart)
 ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart)
+![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart)
 ![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channel-chart)
 ![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart)
 ![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart)
 ![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
-![Top resolve time impactors](media/ai-csi-top-resolve-time.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
+![Emerging topics](media/ai-csi-top-resolve-time.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -119,18 +119,16 @@ Total cases | *The total cases associated with this topic*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
-## Top resolve time impactors chart
+## Emerging topics chart
 
-![Top resolve time impactors chart](media/ai-csi-top-resolve-time.png)
+![Emerging topics chart](media/ai-csi-top-resolve-time.png)
 
-The top case volume impactors chart displays support topics in order of resolution time over the specified time period, showing the average resolution time for each topic's support cases and the impact that resolution time is having on system performance.
+The emerging topics chart displays support topics that have a high volume change in order of volume over the specified time period.
 
 Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
-Average resolve time | *The average resolution time of resolved cases within the specified time period*
-Impact | 1 – (*Average resolution time not including the current topic* / *Overall average resolution time for all topics*)
+Volume change | *The percent change in volume over the specified time period*
+Total cases | *The total cases associated with this topic*
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
-
-To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

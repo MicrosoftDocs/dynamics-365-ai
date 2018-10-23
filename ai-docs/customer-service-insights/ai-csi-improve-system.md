@@ -51,7 +51,7 @@ The following charts give you different views of case resolution time:
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
 * [Agents with longest resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-resolve-time-chart)
-* [Incoming cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#incoming-cases-versus-average-resolve-time-chart)
+* [New cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-cases-versus-average-resolve-time-chart)
 * [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
 * [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
 * [Agents with longest resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-resolve-time-chart)

@@ -23,7 +23,7 @@ The Case resolutions dashboard includes a variety of charts with graphical views
 Chart | Link
 ----- | ----
 ![Agents with longest resolve time](media/ai-csi-longest-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
-![Incoming cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [Incoming cases versus average resolve time](#incoming-cases-versus-average-resolve-time-chart)
+![New cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
 ![Agents with most escalations chart](media/ai-csi-most-escalations.png) | [Agents with most escalations](#agents-with-most-escalations-chart)
 ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png) | [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors)
@@ -44,7 +44,7 @@ Description | Details
 ----------- | -------
 Agents with longest resolve time | *Resolved case resolution time breakdown by agent and case priority*
 
-## Incoming cases versus average resolve time chart
+## New cases versus average resolve time chart
 
 ![Incoming cases versus average resolve time chart](media/ai-csi-incoming-vs-resolve-time.png)
 
@@ -91,4 +91,4 @@ Impact | 1 – (*Average resolution time not including the current topic* / *Ove
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
 
-To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
