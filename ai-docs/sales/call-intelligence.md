@@ -76,6 +76,10 @@ Open the **Sales rep** view to drill down into each individual sales rep to asse
 
 Select the name of the sales rep from the drop-down list to view that rep's performance information.
 
+
+<!--from editor: in the following image, is Sam Boocock from an approved fictitious names list? Also, are Rimsa and Actavis approved fictitious company names?-->
+
+
 > [!div class="mx-imgBorder"]
 > ![Call intelligence sales rep view](media/callintelligence-salesrep.png "Call intelligence sales rep view")
 
