@@ -46,4 +46,4 @@ For information about how to enable these features, see [Configure and enable em
 
 ### See also
 
-[Configure and enable Sales insights add-on](configure-enable-sales-insights-addon.md) 
+[Configure and enable AI for sales](configure-enable-sales-insights-addon.md) 
