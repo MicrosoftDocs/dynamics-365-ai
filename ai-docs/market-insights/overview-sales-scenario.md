@@ -28,8 +28,6 @@ This overview suggests ways you and your team can use [!INCLUDE[Market Insights]
 
 ## Prerequisites
 
-- You have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license assigned.
-
 - [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is [set up](settings-administration.md).
 
 - [Search topics are configured](set-up-searches.md) and data acquisition is up and running.
