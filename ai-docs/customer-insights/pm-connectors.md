@@ -54,7 +54,7 @@ Then complete those few steps:
      Lastly, **provide your AAD credentials** within the screen that is shown below:
      []
      
-- **Step Three: Creating a Customized Dashboard:
+- **Step Three: Creating a Customized Dashboard:**
 Upon completing step two you will get to the following screen:
 []
 
