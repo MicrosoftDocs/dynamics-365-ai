@@ -31,7 +31,8 @@ Using AI for sales, you can track customer related activities and address the qu
 
 > [!IMPORTANT]
 > - The Dynamics 365 AI for Sales features are available only in North American (NAM) regions.
-> - You must purchase **Dynamics 365 AI for Sales** license to use AI sales features.
+> - You must purchase **Dynamics 365 AI for Sales** license to use AI for
+Sales features.
 
 AI for sales consists of the following features:
 - **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
