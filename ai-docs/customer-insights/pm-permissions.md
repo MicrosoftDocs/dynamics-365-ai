@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. The following roles are available for you to assign to people and applications accross your organization:
+The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. As an administrator, the following roles are available for you to assign:
 
 [add roles table]
 
