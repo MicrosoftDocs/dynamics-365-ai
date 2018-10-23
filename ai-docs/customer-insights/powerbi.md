@@ -1,5 +1,5 @@
 ---
-title: "Power BI | MicrosoftDocs"
+title: "Customer 360 Dashboard | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
