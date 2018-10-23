@@ -20,6 +20,8 @@ search.app:
 ---
 # Social selling - grow your network and boost sales
 
+[This topic is pre-release documentation and is subject to change.]
+
 Buying decisions are often influenced by information found on the Internet and on social media. Salespeople can leverage social media for their sales processes, become thought leaders, and increase their social presence by participating in conversations about their products or services.
 
 This overview suggests ways you and your team can use [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to grow your network, find new leads, and boost sales. Stay on top of the conversation, and bring opportunities over to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further nurturing.

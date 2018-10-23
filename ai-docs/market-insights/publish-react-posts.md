@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Publish and react to posts
+
+[This topic is pre-release documentation and is subject to change.]
+
 Staying in touch with customers, prospects, and other stakeholders through social media channels is a key factor in business success. Take action on posts that you find with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. Share, like, or comment on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] posts, or retweet, like, or reply to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts to stay in touch with and engage with your audience. Start a conversation by writing new posts from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
 
 <a name="Prerequisites"></a>   

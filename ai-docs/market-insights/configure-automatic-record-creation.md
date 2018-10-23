@@ -21,6 +21,8 @@ search.app:
 
 # Configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)] to process Social Activity entities from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
+[This topic is pre-release documentation and is subject to change.]
+
 To automatically create an entity record (such as a Case or a Lead) from a Social Activity record in [!include[](../includes/pn-dynamics-crm.md)], an administrator or customizer must configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)].
 
 In [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], when users [link a post to Dynamics 365](link-posts-to-dynamics-365.md), a Social Activity record is created in the connected [!include[](../includes/pn-dynamics-crm.md)] instance. The entity type the user creates in [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] (Case, Lead, and so on) is passed on as part of the [JSON Payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity) to the social activity in [!include[](../includes/pn-dynamics-crm.md)].

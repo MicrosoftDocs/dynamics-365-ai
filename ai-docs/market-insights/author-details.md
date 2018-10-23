@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Get details on specific authors
+
+[This topic is pre-release documentation and is subject to change.]
+
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into an author's profile on social media. Learn about their interests and topics, to keep track of people who impact your social feed.  
   
 ## Access author details in Analytics and Social Center  

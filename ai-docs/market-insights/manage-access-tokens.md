@@ -21,6 +21,8 @@ search.app:
 
 # Manage access tokens
 
+[This topic is pre-release documentation and is subject to change.]
+
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] requires you to provide access tokens in order to acquire data from some sources and interact with posts using social profiles. Access tokens enable data acquisition and can be easily supplied by [adding a social profile](manage-social-profiles.md) in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] where users sign in to social media accounts. We recommend that multiple users add tokens to guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens.  
 
 > [!NOTE]

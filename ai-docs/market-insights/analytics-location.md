@@ -21,6 +21,8 @@ search.app:
 
 # Focus your analysis on location data
 
+[This topic is pre-release documentation and is subject to change.]
+
 Get insights from geographical location information contained in posts or in authors’ profiles. Using the **Location** page, you can analyze your data set with a strong focus on where posts are coming from.  
 
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  

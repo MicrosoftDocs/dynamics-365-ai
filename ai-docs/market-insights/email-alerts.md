@@ -21,6 +21,8 @@ search.app:
 
 # Stay up to date with alerts
 
+[This topic is pre-release documentation and is subject to change.]
+
 You can create email notifications to automatically send to a group of recipients when triggered. Alerts are user-specific, and every user role can create them. There are two types of alerts, which are based on filters and search topics:
 
 - **Post alert:** An email notification is delivered to all specified email addresses within a few hours if any new posts match the selected filters. A summary email is delivered to your email account. 

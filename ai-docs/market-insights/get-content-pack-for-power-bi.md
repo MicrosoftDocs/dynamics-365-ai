@@ -19,6 +19,9 @@ search.app:
   - D365SE	
 ---	
  # Get the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] content pack for Power BI	
+
+[This topic is pre-release documentation and is subject to change.]
+
 Engaging on social media by responding to posts is a core capability of [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. With this [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] content pack, you can now get insights on how your organization, and your teams are engaging with KPIs such as volume of interactions and average response times.  	
   	
  This content pack is for organizations using [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and can only be accessed via [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. You can use this content pack with both [the free and the pro versions of Power BI](https://powerbi.microsoft.com/).  	

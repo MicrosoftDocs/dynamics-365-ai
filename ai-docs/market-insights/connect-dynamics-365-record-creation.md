@@ -21,6 +21,8 @@ search.app:
 
 # Connect Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
+[This topic is pre-release documentation and is subject to change.]
+
 Set up the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] so you can link social posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Linking posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] lets you create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts that were found in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by using the **Automatic Record Creation and Update Rules** feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 ## Prerequisites to establish a connection with Dynamics 365 

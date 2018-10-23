@@ -21,6 +21,8 @@ search.app:
 
 # Manage licenses for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
+[This topic is pre-release documentation and is subject to change.]
+
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
 

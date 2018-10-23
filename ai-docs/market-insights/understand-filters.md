@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Get to know your filters
+
+[This topic is pre-release documentation and is subject to change.]
+
 You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if select specific data points to drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![filter button](media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]

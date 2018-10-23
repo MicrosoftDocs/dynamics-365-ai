@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Keep track of live data streams with Social Center
+
+[This topic is pre-release documentation and is subject to change.]
+
 Social media runs at a fast pace. To keep up and collaborate efficiently, your personal streams come in handy. Manage your streams, share them with other users, and stay informed in real time on new and updated posts. New posts are posts that were recently picked up by a search topic and processed to appear in a solution. Fresh posts are posts whose metadata has been changed recently (for example, a label was added or a post received a reply). Streams use filters to define the data set and surface the most relevant posts.  
 
  

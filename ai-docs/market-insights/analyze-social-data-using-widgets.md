@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Analyze social data using widgets
+
+[This topic is pre-release documentation and is subject to change.]
+
 Use widgets to visualize your organization’s data analytics. The easy-to-understand metrics on these widgets provide quantitative insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  
   
 > [!TIP]

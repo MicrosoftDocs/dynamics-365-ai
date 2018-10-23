@@ -21,6 +21,8 @@ search.app:
 
 # Find out what&#39;s covered by sources
 
+[This topic is pre-release documentation and is subject to change.]
+
 [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
 
 > [!NOTE]

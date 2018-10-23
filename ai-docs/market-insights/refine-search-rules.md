@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Refine your search rules to find relevant content
+
+[This topic is pre-release documentation and is subject to change.]
+
 Analyze your results and optimize your search queries regularly to make sure you get the most relevant data. Your searches may return posts that are irrelevant in the context you are looking for. For example, if you want to search for the [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] operating system and have “Windows” as your search keyword, you are likely to find results about house windows. In this case, consider adding “OS” or similar terms to make sure you’re searching for the operating system.  
   
 > [!TIP]

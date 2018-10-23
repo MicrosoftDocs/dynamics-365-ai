@@ -20,6 +20,8 @@ search.app:
 ---
 # Assign permissions and user roles
 
+[This topic is pre-release documentation and is subject to change.]
+
 Approve and withdraw access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. Manage user permissions by assigning and editing [user roles](user-roles.md). Reach out to users by email in [!INCLUDE [pn-market-insights-short](../includes/pn-market-insights-short.md)].  
   
 > [!NOTE]

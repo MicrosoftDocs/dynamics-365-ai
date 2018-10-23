@@ -21,6 +21,8 @@ search.app:
 
 # Manage your brand and reputation on social media
 
+[This topic is pre-release documentation and is subject to change.]
+
 To successfully manage the reputation of your brand, it's essential to monitor the conversations about it on social media. Find out how the public perception of your brand is evolving and how you can actively engage with your customers.
 
 This overview provides a step-by-step description of how you and your team can use [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to monitor your brand reputation, review the performance of social media campaigns, engage with prospects, and find new leads for your sales team.
