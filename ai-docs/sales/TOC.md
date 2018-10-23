@@ -1,4 +1,4 @@
-# [Dynamics 365 AI for sales](help-hub.md)
+# [Dynamics 365 AI for Sales](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new.md)
 ## [Embedded intelligence](../sales/embedded-intelligence.md)

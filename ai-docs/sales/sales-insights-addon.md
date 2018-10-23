@@ -22,12 +22,16 @@ topic-status: Drafting
 
 # Get insights on opportunities, activities, leads, and interactions of customers
 
-Applies to Dynamics 365 (online), version 9.0.2<br>
+Applies to Dynamics 365 (online), version 9.1.0<br>
 
 Using AI for sales, you can track customer related activities and address the questions such as:
 - What opportunities should have priority?
 - When was the customer last contacted?
 - Who on the team has been interacting with the customer?
+
+> [!IMPORTANT]
+> - The Dynamics 365 AI for Sales features are available only in North American (NAM) regions.
+> - You must purchase **Dynamics 365 AI for Sales** license to use AI sales features.
 
 AI for sales consists of the following features:
 - **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
