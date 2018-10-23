@@ -65,8 +65,9 @@ The following features are available under Dynamics 365 AI for Sales:
 - Team report
 - Call intelligence
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales app](dynamics-ai-for-sales-app.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales app](dynamics365-ai-for-sales-app.md)
 
 ### See also
 
-[Administrator Guide](../sales/admin-guide.md)
+- [Administrator guide for Embedded intelligence](../sales/configure-enable-embedded-intelligence.md)
+- [Administrator guide for AI for Sales](../sales/configure-enable-embedded-sales-insights-addon.md)
