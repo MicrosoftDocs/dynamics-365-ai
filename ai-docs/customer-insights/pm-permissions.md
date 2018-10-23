@@ -33,13 +33,23 @@ In this screen you can view **organization members** for whom **roles** and **pe
 - The **Type** column specifies whether it's a single member or a group
 - A role is specified under the **Roles** column
 - Lastly, you can sort the results by each of the columns by clicking on the arrow icon next to the column name:  
-
-![add-permissions.png](media/add-permissions.png)
  
 - **Adding Roles and Permissions** 
 In terms of roles, it's possible to define organization members as either ***Administrators***, ***Contributors*** or ***Readers***. This definition process is done via the **Add Permissions** panel that can be accessed via  **Add** at the top of the permissions page:
 
-    ![permissions-roles.png](media/permissions-roles.png)
+ ![add-permissions.png](media/add-permissions.png)
+ 
+Once the panel is opened, first you will need to find the person, group, or application to which you want to give the permission. Type a name in the **Name field** as shown below. As mentioned, beyond people, you can give permissions to applications that will connect to Customer 360 via our APIs.
+
+[Permissions1]
+
+Then, choose a role for that person/group/application as shown below:
+
+ ![permissions-roles.png](media/permissions-roles.png)
+ 
+ You can use the following table in order to know what options are available for each of the roles:
+
+[permissins table]
 
 - **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
 
