@@ -1,6 +1,6 @@
 ---
-title: "Work with dashboards and sample data"
-description: "Learn how to use AI for Customer Service Insights dashboards and sample data."
+title: "Work with AI for Customer Service Insights dashboards"
+description: "Learn how to work with AI for Customer Service Insights dashboards."
 keywords: ""
 ms.date: 10/18/2018
 ms.service:
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Work with dashboards and sample data
+# Work with AI for Customer Service Insights dashboards
 
 The dashboards included in AI for Customer Service Insights provide a rich set of analytic tools to give you a clear picture of your customer service system. Whether you connect immediately to your customer service data or spend time exploring the sample environment, becoming familiar with the dashboards can help you gain a variety of insights to help you improve system performance.
 
@@ -37,6 +37,8 @@ Specify the value or values to use to filter data by selecting the check boxes i
 
 ![Filter Values](media/ai-csi-filter-values.png)
 
+You can also click a category in most charts to view a result filtered on that category. For example, clicking *High* in the Case priority chart on the KPI summary dashboard displays the number of high priority cases.
+
 ## Key performance indicator charts
 
 Key performance indicator charts give you a view of the key performance data in your customer service system for the specified time period. For example, the key performance indicator charts on the KPI Summary dashboard show you:
@@ -50,7 +52,7 @@ Key performance indicator charts give you a view of the key performance data in 
 
 ![KPI summary charts](media/ai-csi-kpi-charts.png)
 
-Each key performance indicator chart includes a blue or red up and down indicator next the value. A blue arrow indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
+Each key performance indicator chart includes a blue or red up and down indicator next the value. A blue up and down indicator next the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
 The [KPI Summary](ai-csi-dash-kpi-summary) and [Topic details](ai-csi-dash-topic-details) dashboards include key performance indicator charts.
 
@@ -62,8 +64,8 @@ The dashboards include a variety of graphical charts that give you views of diff
 
 Graphical charts showing trends include:
 
-* [Case tracking (KPI dashboard)](ai-csi-dash-kpi-summary#case-tracking-chart)
-* [Unresolved cases by age (KPI dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
+* [Case tracking (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-tracking-chart)
+* [Unresolved cases by age (KPI summary dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
 * [Case timing (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-timing-chart)
 * [Incoming cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#incoming-cases-versus-average-resolve-time-chart)
 * [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
@@ -71,9 +73,9 @@ Graphical charts showing trends include:
 
 Graphical charts showing the breakdown of support cases by key criteria include:
 
-* [Case priority (KPI dashboard)](ai-csi-dash-kpi-summary#case-priority-chart)
-* [Total case breakdown (KPI dashboard)](ai-csi-dash-kpi-summary#case-priority-chart#total-case-breakdown-chart)
-* [Case channel (KPI dashboard)](ai-csi-dash-kpi-summary#case-channels-chart)
+* [Case priority (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-priority-chart)
+* [Total case breakdown (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-priority-chart#total-case-breakdown-chart)
+* [Case channel (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-channels-chart)
 * [Case priority (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-priority-chart)
 * [Case channel (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-channels-chart)
 * [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT#average-csat-chart)
@@ -93,8 +95,8 @@ AI Insights charts use language understanding technology to group support cases 
 
 AI Insights charts include:
 
-* [Top case volume impactors (KPI dashboard)](ai-csi-dash-kpi-summary#top-case-volume-impactors-chart)
-* [Top resolve time impactors (KPI dashboard)](ai-csi-dash-kpi-summary#top-resolve-time-impactors-chart)
+* [Top case volume impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary#top-case-volume-impactors-chart)
+* [Top resolve time impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary#top-resolve-time-impactors-chart)
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT#top-csat-impactors-chart)

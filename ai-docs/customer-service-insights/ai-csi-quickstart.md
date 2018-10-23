@@ -38,7 +38,7 @@ If you want to explore working with the dashboards using sample data before conn
 
 ![Demo workspace](media/ai-csi-qs-demo-workspace.png)
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md).
 
 For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](ai-csi-improve-system.md).
 

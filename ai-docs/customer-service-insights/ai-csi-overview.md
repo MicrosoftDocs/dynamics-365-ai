@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Dynamics 365 AI for Customer Service overview
+# AI for Customer Service Insights overview
 
 Dynamics 365 AI for Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
 
@@ -28,7 +28,7 @@ For a walkthrough of how to connect to your customer service data to gain insigh
 
 For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](ai-csi-workspaces.md).
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md).
 
 For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](ai-csi-improve-system.md).
 

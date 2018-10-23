@@ -42,9 +42,9 @@ The total surveys completed chart shows the total number of customer satisfactio
 
 Description | Details
 ----------- | -------
-Total surveys completed | *[The number of completed customer satisfaction (CSAT) surveys]*
+Total surveys completed | *The number of completed customer satisfaction (CSAT) surveys*
 
-A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
+A blue up and down indicator next the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
 ## Survey response rate chart
 
@@ -56,7 +56,7 @@ A blue up and down indicator next the value indicates the positive percent chang
 
 Description | Details
 ----------- | -------
-Survey response rate | *[The number of completed customer satisfaction (CSAT) surveys]* / *[The total number of surveys]*
+Survey response rate | *The number of completed customer satisfaction (CSAT) surveys* / *The total number of surveys*
 
 A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
 
@@ -70,7 +70,7 @@ A blue up and down indicator next the value indicates the positive percent chang
 
 Description | Details
 ----------- | -------
-Average CSAT | *[The sum of CSAT scores}* / *[The count of resolved cases that have CSAT values]*
+Average CSAT | *The sum of CSAT scores* / *The count of resolved cases that have CSAT values*
 
 A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
 
@@ -82,7 +82,7 @@ A blue up and down indicator next the value indicates the positive percent chang
 The survey responses by city chart shows the geographical location of customer satisfaction surveys completed during the specified time period.
 -->
 
-## Top CSAT impactors chart (AI Insights)
+## Top CSAT impactors chart
 
 ![Top CSAT impactors chart](media/ai-csi-CSAT-impactors.png)
 
@@ -90,13 +90,13 @@ The top CSAT impactors chart uses artificial intelligence technology to group re
 
 Description | Details
 ----------- | -------
-Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
-Volume | *[The number of cases associated with the topic]* / *[Total cases]*
-Number of cases | *[The number of cases associated with the topic]*
-Surveys completed | *[The count of resolved cases associated with the topic that have CSAT values]*
-Average CSAT | *[The sum of CSAT scores associated with the topic]* / *[The count of resolved cases associated with the topic that have CSAT values]*
-Impact | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]* 1 – (*[Average CSAT score not including the current topic]* / *[Overall average CSAT score for all topics]*)
+Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
+Volume | *The number of cases associated with the topic* / *Total cases*
+Number of cases | *The number of cases associated with the topic*
+Surveys completed | *The count of resolved cases associated with the topic that have CSAT values*
+Average CSAT | *The sum of CSAT scores associated with the topic* / *The count of resolved cases associated with the topic that have CSAT values*
+Impact | 1 – (*Average CSAT score not including the current topic* / *Overall average CSAT score for all topics*)
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average CSAT score. A red bar indicates that the topic's CSAT score is lower than the average CSAT score. A blue bar indicates that the CSAT score is higher. Improving customer satisfaction for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
+The chart displays the impact as a red or blue bar. The midpoint is the overall average CSAT score. A red bar indicates that the topic's CSAT score is lower than the average CSAT score, resulting in a negative impact on overall customer satisfaction. A blue bar indicates that the CSAT score is higher, resulting in a positive impact on overall customer satisfaction. Improving customer satisfaction for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

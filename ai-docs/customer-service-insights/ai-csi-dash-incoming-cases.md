@@ -42,7 +42,7 @@ The case priority chart shows the breakdown in new support cases each day in the
 
 Description | Details
 ----------- | -------
-Case priority | *[Daily incoming case breakdown by case priority]*
+Case priority | *Daily incoming case breakdown by case priority*
 
 ## Case channel chart
 
@@ -52,7 +52,7 @@ The case channel chart shows the breakdown in new support cases each day in the 
 
 Description | Details
 ----------- | -------
-Case channel | *[Daily incoming case breakdown by channel]*
+Case channel | *Daily incoming case breakdown by channel*
 
 ## Case timing chart
 
@@ -62,9 +62,9 @@ The case timing chart shows the trends in the time of day of new support cases f
 
 Description | Details
 ----------- | -------
-Case timing | *[Incoming case breakdown by channel and time of day]*
+Case timing | *Incoming case breakdown by channel and time of day*
 
-## Current popular topics chart (AI Insights)
+## Current popular topics chart
 
 ![Current popular topics chart](media/ai-csi-current-popular-topics.png)
 
@@ -72,17 +72,17 @@ The current popular topics chart uses artificial intelligence technology to grou
 
 Description | Details
 ----------- | -------
-Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
-Volume | *[The incoming cases associated with this topic]* / *[Total incoming cases]*
-Number of cases | *[The incoming cases associated with this topic]*
-Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
-Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
-Resolve rate | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]*
-Average CSAT  | *[The sum of CSAT scores associated with this topic}* / *[The count of resolved cases associated with this topic that have CSAT values]*
+Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
+Volume | *The incoming cases associated with this topic* / *Total incoming cases*
+Number of cases | *The incoming cases associated with this topic*
+Volume change | *The incoming volume of cases associated with this topic in the current period* - *The incoming volume of cases associated with this topic in the previous period*
+Average resolve time | *The average resolution time of resolved incoming cases associated with this topic*
+Resolve rate | *The resolved incoming cases associated with this topic* / *The total incoming cases associated with this topic*
+Average CSAT  | *The sum of CSAT scores associated with this topic* / *The count of resolved cases associated with this topic that have CSAT values*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
-## Emerging topics chart (AI Insights)
+## Emerging topics chart
 
 ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
@@ -90,12 +90,12 @@ The emerging topics chart uses artificial intelligence technology to group relat
 
 Description | Details
 ----------- | -------
-Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
-Volume | *[The percent change in volume over the specified time period]*
-Number of cases | *[The incoming cases associated with this topic]*
-Volume change | *[The incoming volume of cases associated with this topic in the current period]* - *[The incoming volume of cases associated with this topic in the previous period]*
-Average resolve time | *[The average resolution time of resolved incoming cases associated with this topic]*
-Resolve rate | *[The resolved incoming cases associated with this topic]* / *[The total incoming cases associated with this topic]*
-Average CSAT  | *[The sum of CSAT scores associated with this topic}* / *[The count of resolved cases associated with this topic that have CSAT values]*
+Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
+Volume | *The percent change in volume over the specified time period*
+Number of cases | *The incoming cases associated with this topic*
+Volume change | *The incoming volume of cases associated with this topic in the current period* - *The incoming volume of cases associated with this topic in the previous period*
+Average resolve time | *The average resolution time of resolved incoming cases associated with this topic*
+Resolve rate | *The resolved incoming cases associated with this topic* / *The total incoming cases associated with this topic*
+Average CSAT  | *The sum of CSAT scores associated with this topic* / *The count of resolved cases associated with this topic that have CSAT values*
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

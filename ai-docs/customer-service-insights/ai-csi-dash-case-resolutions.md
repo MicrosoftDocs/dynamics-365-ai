@@ -42,7 +42,7 @@ The agents with longest resolve time chart shows the average time, in minutes, t
 
 Description | Details
 ----------- | -------
-Agents with longest resolve time | *[Resolved case resolution time breakdown by agent and case priority]*
+Agents with longest resolve time | *Resolved case resolution time breakdown by agent and case priority*
 
 ## Incoming cases versus average resolve time chart
 
@@ -52,8 +52,8 @@ The incoming cases versus average resolve time chart shows the daily trend in th
 
 Description | Details
 ----------- | -------
-Incoming cases | *[Daily number of incoming cases]*
-Average resolution time | *[Daily average case resolution time]*
+Incoming cases | *Daily number of incoming cases*
+Average resolution time | *Daily average case resolution time*
 
 ## Agents with most escalations chart
 
@@ -63,7 +63,7 @@ The agents with most escalations chart shows the number of active and resolved s
 
 Description | Details
 ----------- | -------
-Agents with most escalations | *[Number of active and resolved cases by agent]*
+Agents with most escalations | *Number of active and resolved cases by agent*
 
 ## New escalations versus resolved escalations chart
 
@@ -73,10 +73,10 @@ The new escalations versus resolved escalations chart shows the daily trend in t
 
 Description | Details
 ----------- | -------
-New escalations | *[Daily number of escalated cases]*
-Resolved escalations | *[Daily number of escalated cases that are resolved]*
+New escalations | *Daily number of escalated cases*
+Resolved escalations | *Daily number of escalated cases that are resolved*
 
-## Top resolution time impactors chart (AI Insights)
+## Top resolution time impactors chart
 
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png)
 
@@ -84,11 +84,11 @@ The top resolution time impactors chart uses artificial intelligence technology 
 
 Description | Details
 ----------- | -------
-Topic | *[Artificial intelligence clustering of cases based on language understanding applied to case titles]*
-Volume | *[The total resolved cases associated with this topic]* / *[Total resolved cases]*
-Average resolve time | *[The average resolution time of resolved cases within the specified time period]*
-Impact | 1 – (*[Average resolution time not including the current topic]* / *[Overall average resolution time for all topics]*)
+Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
+Volume | *The total resolved cases associated with this topic* / *Total resolved cases*
+Average resolve time | *The average resolution time of resolved cases within the specified time period*
+Impact | 1 – (*Average resolution time not including the current topic* / *Overall average resolution time for all topics*)
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time. A blue bar indicates that the resolution time is shorter. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
+The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
 
 To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).

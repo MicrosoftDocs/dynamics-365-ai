@@ -26,7 +26,7 @@ Each workspace displays customer service data from a specific customer service d
 
 ![Choose an environment screen](media/ai-csi-qs-choose-environment.png)
 
-You can gain insights into multiple sets of customer service data by creating workspaces connected to different environments. For example, you could create workspaces for environments containing customer support information for specific areas, such as beauty products, retail, or banking.
+You can gain insights into multiple sets of customer service data by creating workspaces that each connect to a different environment. For example, you could create different workspaces for environments containing customer support information for specific areas, such as beauty products, retail, or banking.
 
 ![Multiple environments](media/ai-csi-multiple-environments.png)
 

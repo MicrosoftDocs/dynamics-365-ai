@@ -10,7 +10,7 @@
 
 ## [Use workspaces to connect to different customer service environments](ai-csi-use-workspaces.md)
 
-## [Work with AI for Customer Service Insights dashboards and sample data](ai-csi-use-dash-sample-data.md)
+## [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md)
 
 ## [Identify areas for improvement in your customer support system](ai-csi-improve-system.md)
 

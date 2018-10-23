@@ -34,7 +34,7 @@ Many of the AI Insights charts include an Impact field, showing the impact of th
 
 The following AI Insights charts show you support cases that have the most impact on resolution time and customer satisfaction:
 
-* [Top resolve time impactors (KPI dashboard)](ai-csi-dash-kpi-summary#top-resolve-time-impactors-chart)
+* [Top resolve time impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary#top-resolve-time-impactors-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT#top-csat-impactors-chart)
 * [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
 * [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-csat-impactors-chart)
@@ -46,13 +46,13 @@ Use resolution time charts to give you different views of how long it is taking 
 
 The following charts give you different views of case resolution time:
 
-* [Average resolve time KPI Summary chart (KPI dashboard)](ai-csi-dash-kpi-summary)
-* [Unresolved cases by age (KPI dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
+* [Average resolve time KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary)
+* [Unresolved cases by age (KPI summary dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
 * [Agents with longest resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-resolve-time-chart)
 * [Incoming cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#incoming-cases-versus-average-resolve-time-chart)
-* [New escalations versus resolved escalations (Case resolution dashboard)]
+* [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
 * [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
 * [Agents with longest resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-resolve-time-chart)
 * [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-csat-impactors-chart)
@@ -64,7 +64,7 @@ Use customer satisfaction charts to give you different views of customer feedbac
 
 The following charts give you different views of customer satisfaction:
 
-* [Average CSAT KPI Summary chart (KPI dashboard)](ai-csi-dash-kpi-summary)
+* [Average CSAT KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary)
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
 * [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT#average-csat-chart)
