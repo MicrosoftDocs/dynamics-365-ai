@@ -202,7 +202,7 @@ Talking points feature is available under Connection insights configuration page
     The Talking points is configured and ready to use in your organization.
     
 > [!NOTE]
-> For more information about Talking points, see [Know conversation starters for your customers](../sales/talking-points.md
+> For more information about Talking points, see [Know conversation starters for your customers](../sales/talking-points.md)
 
 ## Configure Who knows whom
 

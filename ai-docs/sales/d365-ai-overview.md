@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# View overall sales insights
+# Preview: View overall sales insights
 
 Applies to Dynamics 365 (online), version 9.1.0 <br>
 

@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Unlock sales potential with Dynamics 365 AI for sales
+# Preview: Unlock sales potential with Dynamics 365 AI for sales
 
 Applies to Dynamics 365 (online), version 9.1.0 <br>
 
