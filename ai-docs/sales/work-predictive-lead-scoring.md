@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.0.2<br><br/>
 
-In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. So, you must identify and prioritize leads to convert them onto opportunities. The Predictive lead scoring of Dynamics 365 AI for Sales provides a scoring model to generate scores for leads that are available for you in your pipeline. This model assigns a score between 1 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. <br>
+In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. So, you must identify and prioritize leads to convert them onto opportunities. The Predictive lead scoring of Dynamics 365 AI for Sales provides a scoring model to generate scores for leads that are available for you in your pipeline. This model assigns a score between 0 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. <br>
 For example, there are two leads - Lead A and Lead B in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. by looking at the score, you can predict that Lead A has more chances of converting into opportunity and you can engage it. Also, you can further analyze why score of Lead B is low by looking at the top reasons that are influencing the score and take a decision to improve this score.
  
 > [!IMPORTANT]
