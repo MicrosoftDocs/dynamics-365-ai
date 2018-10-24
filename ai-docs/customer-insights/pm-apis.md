@@ -26,21 +26,24 @@ robots: noindex,nofollow
 **When it comes to Customer 360**, currently there are several types of APIs that you can start utilizing. The details of all our current APIs can be found in the following Swagger webpage:
 
 https://dxt-wus-01.api.ci.ai.dynamics.com/swagger/index.html
+https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 [APIs image 1 - Swagger page]
 
 **The goal of this section**, however, is **not to cover all** the Customer 360 APIs but rather to:
-- Provide a step-by-step guidance as for how to use and read the Swagger webpage shown above
-- Provide further explainations on the APIs that you, as a user, are expected to use the most
+- Provide a guidance as for how to use the Swagger tool
+- Provide further explainations on the Customer 360 APIs that you, as a user, are expected to use the most
 
 ### How to Use the Customer 360 Swagger Webpage
+If you are not familiar with Swagger, you can explore the following step-by-step tutorials:
 
+https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 
 ### Using *Open Data Protocol APIs* for: Accessing Customer 360 data
 customer master dataset
 any data that was ingested
-search and query customer data  
+search and query customer data  /data/Customer(customerId='123')
 filter and search only for the customer entity
 related entities to the customer - can be user to export (csv/json) all the above - can only be found if customer ID is used (one of the two)
 
@@ -49,5 +52,12 @@ and can do the conflation here
 and configure 
 patrick
 
-### Using *Segmentation APIs* for: Quering segments that were created during the *Segment Creation* process
+### Using *Relationship APIs* for: 
+management API for relationship: ? 
+notes: you can use the relationship in the segment query builder
+
+### Using *Segmentation APIs* for: 
+management API for segments: Create, update, get and delete segment definition. Activste and deactivate. 
+query API: get customers part of a segment (/data/Customer?$filter=IsMemberOfSegment(segmentname))
+
 
