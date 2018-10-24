@@ -117,7 +117,7 @@ Topic | *Artificial intelligence clustering of cases based on language understan
 Volume | *The total cases associated with this topic* / *Total cases*
 Total cases | *The total cases associated with this topic*
 
-To see additional information about each topic, right-click the topic name and select **Drillthrough** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
 
 ## Emerging topics chart
 
