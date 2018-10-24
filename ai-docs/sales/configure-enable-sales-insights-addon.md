@@ -30,7 +30,8 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 - Predictive lead scoring
 - Predictive opportunity scoring
 - Notes analysis
-- Connection insights
+- Talking points
+- Who knows whom
 
 > [!IMPORTANT]
 > The AI for Sales features are available only in North American (NAM) regions.
@@ -177,9 +178,35 @@ To help users with intelligent auto suggestions when they enter notes regarding 
 > [!NOTE]
 > For more information about Notes analysis and how it can help your users, see [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
 
-## Configure Connection insights
+## Configure Talking points
 
-Connection insights contains the Talking points and Who knows whom features. These features help users in your organization to quickly establish communications with customers.
+Talking points feature is available under Connection insights configuration page. This feature help users in your organization to quickly establish communications with customers.
+
+1. Go to **Settings** > **Setup AI**.<br>
+2. On the **Overview** tab, select **Configuration** from **Connection insights** section.
+    > [!div class="mx-imgBorder"]
+    > ![Connection insights configuration](media/connection-insights-configuration.png "Connection insights configuration")
+
+   > [!NOTE]
+   > You can also select **Connection insights** tab.
+  
+   The configuration page opens. 
+3. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
+    The categories are automatically selected.<br>
+    > [!div class="mx-imgBorder"]
+    > ![Enable talking points](media/talkingpoints-enable.png "Enable talking points")
+        
+    > [!NOTE]
+    > You can select only the categories that meets your organizational requirements.
+4. Select **Save**.<br>
+    The Talking points is configured and ready to use in your organization.
+    
+> [!NOTE]
+> For more information about Talking points, see [Know conversation starters for your customers](../sales/talking-points.md
+
+## Configure Who knows whom
+
+Who knows whom feature is available under Connection insights configuration page. This feature help users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 1. Go to **Settings** > **Setup AI**.<br>
 2. On the **Overview** tab, select **Configuration** from **Connection insights** section.
@@ -190,29 +217,16 @@ Connection insights contains the Talking points and Who knows whom features. The
    > You can also select **Connection insights** tab.
   
    The configuration page opens.
-3. To configure Who knows whom and Talking points, perform the following steps:<br>
-   -  **Talking points**<br>
-    a. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
-        The categories are automatically selected.
-        > [!div class="mx-imgBorder"]
-        > ![Enable talking points](media/talkingpoints-enable.png "Enable talking points")
-        
-        > [!NOTE]
-        > You can select only the categories that meets your organizational requirements.
-
-        b. Select **Save**.<br>
-        The Talking points is configured and ready to use in your organization.
-   -  **Who knows whom**<br>
-        a. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
+3. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
         > [!div class="mx-imgBorder"]
         > ![Enable who knows whom](media/who-knows-whom-enable.png "Enable who knows whom")
         
-    a. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
-    b. Select **Save**.<br>
-        The Who Knows Whom is configured and ready to use in your organization.<br>
-    
+4. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
+5. Select **Save**.<br>
+   The Who Knows Whom is configured and ready to use in your organization.<br>
+
 > [!NOTE]
-> For more information about Talking points and Who knows whom, see [Know conversation starters for your customers](../sales/talking-points.md) and [Get introduced to lead](../sales/who-knows-whom.md)
+> For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md)
 <!--
 ### (Optional) Uninstall the Sales insights add-on
 

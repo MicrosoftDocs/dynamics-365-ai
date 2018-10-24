@@ -26,5 +26,5 @@
 ## [Dynamics 365 AI for Sales app](../sales/dynamics365-ai-sales-app.md)
 ### [View overall sales insights](../sales/overview.md)
 ### [Analyze team performance](../sales/overview.md)
-### [Analyze business perforamnce](../sales/overview.md)
+### [Analyze business performance](../sales/overview.md)
 ### [Analyze customer calls](../sales/call-intelligence.md)
