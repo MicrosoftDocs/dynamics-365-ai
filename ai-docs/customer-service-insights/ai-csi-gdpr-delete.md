@@ -36,7 +36,7 @@ A tenant administrator can follow these steps to export data:
 
 You can follow these steps to delete data from AI for Customer Service Insights:
 
-1. Navigate to https://csi.ai.dynamics.com/.
+1. Navigate to [](https://csi.ai.dynamics.com/).
 2. On the Settings menu, click **My workspaces**.
 
     ![Delete data](media/ai-csi-gdpr-delete.png)
