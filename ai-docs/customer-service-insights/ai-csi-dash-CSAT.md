@@ -1,5 +1,5 @@
 ---
-title: "Customer satisfaction dashboard "
+title: "Customer satisfaction dashboard"
 description: "Learn the customer service insights available on the Customer satisfaction dashboard​."
 keywords: ""
 ms.date: 10/18/2018

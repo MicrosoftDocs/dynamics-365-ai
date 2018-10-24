@@ -27,3 +27,11 @@
 ## [Customer satisfaction dashboard](ai-csi-dash-CSAT.md)
 
 ## [Topic details dashboard](ai-csi-dash-topic-details.md)
+
+# Respond to DSR requests
+
+## [Summary](ai-csi-gdpr-summary.md)
+
+## [Export requests](ai-csi-gdpr-export.md)
+
+## [Delete requests](ai-csi-gdpr-delete.md)
