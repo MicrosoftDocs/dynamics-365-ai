@@ -31,7 +31,7 @@ Sales calls are one of the most important part of your business as these calls h
 - Increase productivity gains for the business.
 
 > [!NOTE]
-> Configure of Call intelligence is not available for you in this release. To set-up Call intelligence, email [Microsoft Call intelligence team](mailto:D365callintelligence@microsoft.com).  
+> The configuration of Call intelligence is not available for you in the preview. To set-up Call intelligence, email [Microsoft Call intelligence team](mailto:D365callintelligence@microsoft.com).  
 
 As a sales manager, when you can open the **Call intelligence** page you can view the overall team performance and the individual performances of sales reps across all sales calls. This helps you to:
 
@@ -47,16 +47,13 @@ As a sales manager, when you can open the **Call intelligence** page you can vie
 
 To view the KPIs and insights of Call intelligence, go to **Call intelligence** in the **Dynamics 365 AI for Sales** app. 
 
-> [!div class="mx-imgBorder"]
-> ![Call intelligence teams view](media/callintelligence-teams.png "Call intelligence teams view")
 
 ## View team information
 
-When you open the **Teams** tab, you'll get an overview of the team through the insights across customer sentiments, content, and conversational KPIs. You can assess the insights of each individual and identify sales reps who might need coaching.
+When you open call intelligence, the application displays the **Teams** tab that provides insights on the team based on certain parameters such as customer sentiments, content, and conversational KPIs. You can assess these parameters of each individual and identify sales reps who might need coaching.
 
-
-<!--from editor: In No. 6, Competition mentioned by customers, it says "competitor names that sales reps use most..." Wouldn't it be names that customers use most?-->
-
+> [!div class="mx-imgBorder"]
+> ![Call intelligence teams view](media/callintelligence-teams.png "Call intelligence teams view")
 
 |KPI/Insights|Description|
 |------------|-----------|
