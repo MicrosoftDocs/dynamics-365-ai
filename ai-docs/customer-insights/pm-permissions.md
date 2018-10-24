@@ -30,9 +30,9 @@ The main administration page is the **Permissions** page where you can set up ro
 |Contributor     | - Complete **Data Manager**: **Get Data** <br/> - Complete **Configure Data** sections: **Map**, **Match**, **Merge**)<br/> - View **Segments** page <br/>- Create segments in the **Segment Creation** page  |
 |Administrator     | - All that is available to the Contributor<br/>and<br/> -Change settings in the **Settings** page<br/>- View and add permissions in the **Permissions** page       |
 
+> [!div class="mx-imgBorder"] 
+> ![](media/permissions.png "Permissions")
 
-[replace with permissions 1]:
- ![permissions.png](media/permissions.png)
  
 - **Adding Roles and Permissions** 
 This is done via the **Add Permissions** panel that can be accessed via  **Add** at the top of the permissions page:
@@ -41,11 +41,10 @@ This is done via the **Add Permissions** panel that can be accessed via  **Add**
  
 Once the panel is opened, first you will need to find the **person, group, or application** to which you want to give the permission. Type a name in the **Name field** as shown below. As mentioned, beyond people you can also give permissions to applications, and these will connect to Customer 360 via our APIs.
 
-[Permissions2]
-
 Then, choose a role for that person/group/application as shown below:
 
- ![permissions-roles.png](media/permissions-roles.png)
+> [!div class="mx-imgBorder"] 
+> ![](media/permissions-roles.png "Add permissions")
  
  Lastly, hit **Save** in the bottom right corner of the panel.
  
@@ -69,4 +68,6 @@ Let's explore this screen:
 ![permissions-filter.png](media/permissions-filter.png)
 
 - **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
-[permissions 3]
+- 
+> [!div class="mx-imgBorder"] 
+> ![](media/permissions-roles2.png "Roles")

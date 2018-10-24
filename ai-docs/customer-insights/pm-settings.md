@@ -27,7 +27,8 @@ Note: The **Settings** page is accessable only to **Administrators**. If you hav
 
 Within this screen several options are available as shown below:
 
-[settings1]
+> [!div class="mx-imgBorder"] 
+> ![](media/settings.png "Settings")
 
 - **Display Name**: Determines how your user name will be shown (shown in blue above)
 - **Instance Name**: Here you can give your work instances identifiable names. It's an highly recommended practice if you have more than one instance (shown in red above)
