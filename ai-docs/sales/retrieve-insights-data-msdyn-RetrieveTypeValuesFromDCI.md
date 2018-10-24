@@ -37,7 +37,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 </tr>
 <tr>
 <td valign="top"><code>CrmRecord</code></td>
-<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity" data-raw-source="[mscrm.crmbaseentity](/dynamics365/customer-engagement/web-api/crmbaseentity)">mscrm.crmbaseentity</a></td>
+<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9)">mscrm.crmbaseentity</a></td>
 <td valign="top">Entity type for which you want to retrieve the data. Required.
 <p>You can specify one of the following values:</p>
 <ul>
