@@ -34,9 +34,9 @@ https://dxt-wus-01.api.ci.ai.dynamics.com/swagger/index.html
 
 ### How to Use the Customer 360 Swagger Webpage
 
-### Using *Open Data Protocol APIs* for accessing Profile Store, Fact Store and Azure Data Lake Entities
+### Using *Open Data Protocol APIs* for: Accessing Profile Store, Fact Store and Azure Data Lake Entities
 
-### Using *Conflation APIs* for viewing and retrieving configurations that were made during the *Data Configuration* process  
+### Using *Conflation APIs* for: Viewing and retrieving configurations that were made during the *Data Configuration* process  
 
-### Using *Segmentation APIs* for quering segments that were created in the *Segment Creation* screen
+### Using *Segmentation APIs* for: Quering segments that were created during the *Segment Creation* process
 
