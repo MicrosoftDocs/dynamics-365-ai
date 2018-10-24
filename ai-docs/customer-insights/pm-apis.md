@@ -28,10 +28,15 @@ https://dxt-wus-01.api.ci.ai.dynamics.com/swagger/index.html
 
 [APIs image 1]
 
-**The goal of this documentation section**, however, are not to cover all our APIs but rather to:
+**The goal of this documentation section**, however, is not to cover all the Customer 360 APIs but rather to:
 - Provide a step-by-step guidance as for how to use and read the Swagger webpage shown above.
 - Provide further explainations on the APIs that you, as a user, are expected to use the most.
 
 ### How to Use the Customer 360 Swagger Webpage
 
+### Using *Open Data Protocol APIs* for accessing Profile Store, Fact Store and Azure Data Lake Entities
+
+### Using *Conflation APIs* for viewing and retrieving configurations that were made during the *Data Configuration* process  
+
+### Using *Segmentation APIs* for quering segments that were created in the *Segment Creation* screen
 
