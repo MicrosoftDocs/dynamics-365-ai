@@ -24,7 +24,12 @@ robots: noindex,nofollow
 
 The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. As an administrator, the following roles are available for you to assign:
 
-[add roles table]
+|Role  |Options available under this role  |
+|---------|---------|
+|Viewer     | - View **Segments** page        |
+|Contributor     | - Complete **Data Manager**: **Get Data** <br/> - Complete **Configure Data** sections: **Map**, **Match**, **Merge**)<br/> - View **Segments** page <br/>- Create segments in the **Segment Creation** page  |
+|Administrator     | - All that is available to the Contributor<br/>and<br/> -Change settings in the **Settings** page<br/>- View and add permissions in the **Permissions** page       |
+
 
 [replace with permissions 1]:
  ![permissions.png](media/permissions.png)
