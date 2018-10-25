@@ -28,7 +28,7 @@ The dashboards can help you identify areas for improvement in a variety of ways,
 
 AI Insights charts help you identify support cases that have the most impact on your system. Using language understanding technology to group support cases as topics, these charts help you identify the types of cases that are having the greatest impact, both positive and negative, on system performance.
 
-Many of the AI Insights charts include an Impact field, showing the impact of the support cases associated with the topic as a red or blue bar. A red bar indicates that the topic's impact is negative. A blue bar indicates that the topic's impact is positive. Improving the performance of topics in red will have the greatest impact on improving overall system performance.
+Many of the AI Insights charts include an Impact field, showing the impact of the support cases associated with the topic as a red or blue-green bar. A red bar indicates that the topic's impact is negative. A blue-green bar indicates that the topic's impact is positive. Improving the performance of topics in red will have the greatest impact on improving overall system performance.
 
 ![Top resolve time impactors chart](media/ai-csi-top-resolve-time.png)
 

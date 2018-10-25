@@ -25,7 +25,7 @@ Chart | Link
 ![Total surveys completed](media/ai-csi-surveys-completed.png) | [Total surveys completed](#total-surveys-completed-chart)
 ![Survey response rate](media/ai-csi-response-rate.png) | [Survey response rate](#survey-response-rate-chart)
 ![Average CSAT](media/ai-csi-average-csat.png) | [Average CSAT](#average-csat-chart)
-![Survey responses by city](media/ai-csi-responses-by-city.png) | [Survey responses by city](#survey-responses-by-city-chart)
+![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png) | [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
 ![Top CSAT impactors](media/ai-csi-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 
 The *Top CSAT impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
@@ -74,13 +74,11 @@ Average CSAT | *The sum of CSAT scores* / *The count of resolved cases that have
 
 A blue up and down indicator next the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
 
-<!---
-## Survey responses by city chart
+## Customer satisfaction breakdown
 
-![Survey responses by city chart](media/ai-csi-responses-by-city.png)
+![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png)
 
-The survey responses by city chart shows the geographical location of customer satisfaction surveys completed during the specified time period.
--->
+The customer satisfaction breakdown chart shows the breakdown of customer satisfaction by support channel during the specified time period.
 
 ## Top CSAT impactors chart
 
@@ -92,11 +90,11 @@ Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
 Volume | *The number of cases associated with the topic* / *Total cases*
-Number of cases | *The number of cases associated with the topic*
+Resolutions | *The number of resolved cases associated with the topic*
 Surveys completed | *The count of resolved cases associated with the topic that have CSAT values*
 Average CSAT | *The sum of CSAT scores associated with the topic* / *The count of resolved cases associated with the topic that have CSAT values*
 Impact | 1 – (*Average CSAT score not including the current topic* / *Overall average CSAT score for all topics*)
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average CSAT score. A red bar indicates that the topic's CSAT score is lower than the average CSAT score, resulting in a negative impact on overall customer satisfaction. A blue bar indicates that the CSAT score is higher, resulting in a positive impact on overall customer satisfaction. Improving customer satisfaction for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
+The chart displays the impact as a red or blue-green bar. The midpoint is the overall average CSAT score. A red bar indicates that the topic's CSAT score is lower than the average CSAT score, resulting in a negative impact on overall customer satisfaction. A blue-green bar indicates that the CSAT score is higher, resulting in a positive impact on overall customer satisfaction. Improving customer satisfaction for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
