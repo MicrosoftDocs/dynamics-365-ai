@@ -18,7 +18,7 @@ Dynamics 365 AI for Customer Service Insights lets you quickly connect to your e
 
 ## To connect to your customer service data
 
-1. Launch AI for Customer Service Insights in your browser to display the **Connect your data** screen.
+1. Launch AI for Customer Service Insights in your browser to display the **Connect your data** screen. AI for Customer Service Insights supports Microsoft Edge, Internet Explorer 11, and Chrome browsers.
 
     ![Connect your data screen](media/ai-csi-qs-connect-data.png)
 
