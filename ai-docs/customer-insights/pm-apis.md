@@ -52,6 +52,10 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 [APIs image 3]
 
+- sdfsdf
+
+[API table2]
+
 Viewing and retrieving configurations that were made during the *Data Configuration* process 
 and can do the conflation here
 and configure 
@@ -63,9 +67,17 @@ notes: you can use the relationship in the segment query builder
 
 [APIs image 4]
 
+- sdfsdf
+
+[API table x]
+
 ### Functionalities served with the Customer 360 *Segmentation APIs*: 
 management API for segments: Create, update, get and delete segment definition. Activste and deactivate. 
 query API: get customers part of a segment (/data/Customer?$filter=IsMemberOfSegment(segmentname))
 search and query customer data  /data/Customer(customerId='123')
 
 [APIs image 5]
+
+- sgfgdfg
+
+[API table y]
