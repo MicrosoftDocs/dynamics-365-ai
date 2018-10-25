@@ -31,7 +31,7 @@ Dynamics 365 AI for Customer Service Insights offers the following experiences t
 A tenant administrator can follow these steps to export data:
 
 1. Log into the [Azure management portal](https://ms.portal.azure.com).
-2. Navigate to [](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
+2. Navigate to [https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
 
     ![Privacy blade](media/ai-csi-gdpr-export1.png)
 
@@ -45,7 +45,7 @@ After the export runs successfully, you will see the data in your storage contai
 
 A tenant administrator can follow these steps to export data:
 
-1. Send email to [](ccinsightadmins@microsoft.com) specifying the user’s AAD objectId in the request.
+1. Send email to [ccinsightadmins@microsoft.com](ccinsightadmins@microsoft.com) specifying the user’s AAD objectId in the request.
 
     An administrator from the Dynamics 365 AI for Customer Service Insights team will send an email to the address registered in the AAD user account, asking for confirmation to export data.
 2. Acknowledge the confirmation to export the data and make it available to the requestor.
@@ -54,7 +54,7 @@ A tenant administrator can follow these steps to export data:
 
 You can follow these steps to export data from a chart on an AI for Customer Service Insights dashboard:
 
-1. Navigate to [](https://csi.ai.dynamics.com/).
+1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
 2. Click on the elipses in the upper right corner of the chart, and then click **Export data**.
 
     ![Export data](media/ai-csi-gdpr-export3.png)

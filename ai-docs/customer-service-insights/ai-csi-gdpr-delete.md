@@ -25,9 +25,9 @@ Dynamics 365 AI for Customer Service Insights offers the following experiences t
 
 ### Delete customer data (Tenant admin)
 
-A tenant administrator can follow these steps to export data:
+A tenant administrator can follow these steps to delete data:
 
-1. Send email to [](ccinsightadmins@microsoft.com) specifying the user’s AAD objectId in the request.
+1. Send email to [ccinsightadmins@microsoft.com](ccinsightadmins@microsoft.com) specifying the user’s AAD objectId in the request.
 
     An administrator from the Dynamics 365 AI for Customer Service Insights team will send an email to the address registered in the AAD user account, asking for confirmation to delete data.
 2. Acknowledge the confirmation to delete the data and receive a confirmation that the data has been deleted.
@@ -36,7 +36,7 @@ A tenant administrator can follow these steps to export data:
 
 You can follow these steps to delete data from AI for Customer Service Insights:
 
-1. Navigate to [](https://csi.ai.dynamics.com/).
+1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
 2. On the Settings menu, click **My workspaces**.
 
     ![Delete data](media/ai-csi-gdpr-delete.png)
