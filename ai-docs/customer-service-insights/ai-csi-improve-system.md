@@ -46,7 +46,7 @@ Use resolution time charts to give you different views of how long it is taking 
 
 The following charts give you different views of case resolution time:
 
-* [Average resolve time KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary)
+* [Average resolve time KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary#kpi-summary-charts)
 * [Unresolved cases by age (KPI summary dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
@@ -54,7 +54,7 @@ The following charts give you different views of case resolution time:
 * [New cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-cases-versus-average-resolve-time-chart)
 * [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
 * [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
-* [Agents with longest average resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-resolve-time-chart)
+* [Agents with longest average resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-average-resolve-time-chart)
 * [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-resolve-time-impactors-chart)
 
@@ -64,13 +64,13 @@ Use customer satisfaction charts to give you different views of customer feedbac
 
 The following charts give you different views of customer satisfaction:
 
-* [Average CSAT KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary)
+* [Average CSAT KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary#kpi-summary-charts)
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
 * [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT#average-csat-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT#top-csat-impactors-chart)
 * [Average CSAT KPI chart (Topic details dashboard)](ai-csi-dash-topic-details#topic-details-KPI-charts)
-* [Overall average CSAT impact chart (Topic details dashboard)](ai-csi-dash-topic-details#overall-impact-charts)
+* [Overall average CSAT impact chart (Topic details dashboard)](ai-csi-dash-topic-details#overall-average-impact-charts)
 * [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-resolve-time-impactors-chart)
 
@@ -80,11 +80,11 @@ Use agent performance charts to help you identify low-performing and high-perfor
 
 The following charts give you different views of agent performance:
 
-* [Agents with longest average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-resolve-time-chart)
+* [Agents with longest average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-average-resolve-time-chart)
 * [Agents with most escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-most-escalations-chart)
 * [Agents with most unresolved cases (Topic details dashboard)](ai-csi-topic-details#agents-with-most-unresolved-cases-chart)
 * [Agents with longest resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-resolve-time-chart)
-* [Agents with lowest average CSAT (Topic details dashboard)](ai-csi-topic-details#agents-with-lowest-csat-chart)
+* [Agents with lowest average CSAT (Topic details dashboard)](ai-csi-topic-details#agents-with-lowest-average-csat-chart)
 
 ## Support channel charts
 

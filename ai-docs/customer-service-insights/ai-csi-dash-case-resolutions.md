@@ -24,7 +24,7 @@ Chart | Link
 ----- | ----
 ![Agents with longest resolve time](media/ai-csi-longest-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
 ![New cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
-![Agents handling most escalations chart](media/ai-csi-most-escalations.png) | [Agents handling most escalations](#agents-with-most-escalations-chart)
+![Agents handling most escalations chart](media/ai-csi-most-escalations.png) | [Agents handling most escalations](#agents-handling-most-escalations-chart)
 ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png) | [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors)
 

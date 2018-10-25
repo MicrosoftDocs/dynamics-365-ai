@@ -82,8 +82,8 @@ Graphical charts showing the breakdown of support cases by key criteria include:
 * [Agents with longest resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-resolve-time-chart)
 * [Agents with most escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-most-escalations-chart)
 * [Agents with most unresolved cases (Topic details dashboard)](ai-csi-topic-details#agents-with-most-unresolved-cases-chart)
-* [Agents with longest average resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-resolve-time-chart)
-* [Agents with lowest average CSAT (Topic details dashboard)](ai-csi-topic-details#agents-with-lowest-csat-chart)
+* [Agents with longest average resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-average-resolve-time-chart)
+* [Agents with lowest average CSAT (Topic details dashboard)](ai-csi-topic-details#agents-with-lowest-average-csat-chart)
 
 All dashboards include graphical trend and breakdown charts.
 
