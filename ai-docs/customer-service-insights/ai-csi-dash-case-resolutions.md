@@ -26,7 +26,7 @@ Chart | Link
 ![New cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
 ![Agents handling most escalations chart](media/ai-csi-most-escalations.png) | [Agents handling most escalations](#agents-handling-most-escalations-chart)
 ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png) | [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
-![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors)
+![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors-chart)
 
 The *Top resolution time impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -85,9 +85,9 @@ The top resolution time impactors chart uses artificial intelligence technology 
 Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
-Volume | *The total resolved cases associated with this topic* / *Total resolved cases*
+Volume | *The total resolved cases associated with this topic divided by total resolved cases*
 Average resolve time | *The average resolution time of resolved cases within the specified time period*
-Impact | 1 – (*Average resolution time not including the current topic* / *Overall average resolution time for all topics*)
+Impact | 1 – (*Average resolution time not including the current topic divided by overall average resolution time for all topics*)
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
 

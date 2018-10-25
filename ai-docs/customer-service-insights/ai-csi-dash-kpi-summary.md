@@ -45,12 +45,12 @@ The KPI summary charts summarize the key performance indicators for the specifie
 
 Description | Details
 ----------- | -------
-Total cases | *New cases created within the specified time period* + *Rollover cases (including all rollover cases that are active, resolved or cancelled within the specified time period)*
+Total cases | *New cases created within the specified time period plus rollover cases (including all rollover cases that are active, resolved or cancelled within the specified time period)*
 Resolutions | *All cases resolved within specified time period*
 Escalations | *All cases escalated within specified time period*
-SLA compliant | *Of the total cases, the cases that are SLA compliant* (including rollover cases and new cases that are SLA compliant)
+SLA compliant | *Of the total cases, the cases that are SLA compliant (including rollover cases and new cases that are SLA compliant)*
 Average resolution time | *The average resolution time of all cases resolved within specified time period*
-Average CSAT | *The sum of CSAT scores* / *The count of resolved cases that have CSAT values*
+Average CSAT | *The sum of CSAT scores divided by the count of resolved cases that have CSAT values*
 
 A blue up and down indicator next the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
