@@ -11,10 +11,10 @@
 ## [AI for Sales](../sales/sales-insights-addon.md)
 ### [Administerator guide](../sales/configure-enable-sales-insights-addon.md) 
 #### [Administer AI for Sales](../sales/configure-enable-sales-insights-addon.md)
-#### [GDPR for Sales insights add-on](../sales/embedded-intelligence-gdpr.md)
+#### [GDPR for Dynamics 365 AI for Sales](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
-#### [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 <!--#### []() -->
 ### [User guide](../sales/relationship-analytics.md)
 #### [View customer activity history](../sales/relationship-analytics.md)
