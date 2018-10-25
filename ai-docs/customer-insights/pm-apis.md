@@ -38,9 +38,14 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 If you are not familiar with Swagger, you can explore the following step-by-step tutorials:
 
 https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
-
+https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 ### Functionalities served with the Customer 360 *Open Data Protocol APIs*:
+
+- *Put* API: **/api/instances/{instanceId}/data/{relativePath}**
+
+[api table1]
+
 customer master dataset
 any data that was ingested
 search and query customer data  /data/Customer(customerId='123')
