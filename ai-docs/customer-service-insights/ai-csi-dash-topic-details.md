@@ -31,7 +31,7 @@ Chart | Link
 ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png) | [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
 ![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.png) | [Agents with longest average resolve time](#agents-with-longest-resolve-time-chart)
 ![Agents with lowest average CSAT chart](media/ai-csi-lowest-CSAT.png) | [Agents with lowest average CSAT](#agents-with-lowest-csat-chart)
-![Topic journey chart](media/ai-csi-topic-journey.png) | [Topic case composition](#topic-journey-chart)
+![Topic case composition](media/ai-csi-topic-journey.png) | [Topic case composition](#topic-journey-chart)
 ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
