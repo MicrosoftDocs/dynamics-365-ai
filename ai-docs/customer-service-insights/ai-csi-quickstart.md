@@ -2,7 +2,7 @@
 title: "Quickstart - Get immediate insights into your customer service system's performance"
 description: "Learn how to quickly connect to your customer service data to gain insights into your customer service system."
 keywords: ""
-ms.date: 10/18/2018
+ms.date: 10/25/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -42,7 +42,7 @@ If you want to explore working with the dashboards using sample data before conn
 
 For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md).
 
-For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](ai-csi-improve-system.md).
+For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer service system](ai-csi-improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 

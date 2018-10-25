@@ -2,7 +2,7 @@
 title: "AI for Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service."
 keywords: ""
-ms.date: 10/18/2018
+ms.date: 10/25/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

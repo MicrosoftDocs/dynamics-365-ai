@@ -2,7 +2,7 @@
 title: "Incoming cases dashboard"
 description: "Learn about the customer service insights available on the Incoming cases dashboard."
 keywords: ""
-ms.date: 10/18/2018
+ms.date: 10/25/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
