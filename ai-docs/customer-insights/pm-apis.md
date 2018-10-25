@@ -28,7 +28,7 @@ robots: noindex,nofollow
 https://dxt-wus-01.api.ci.ai.dynamics.com/swagger/index.html
 https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
-[APIs image 1 - Swagger page]
+[APIs image 1]
 
 **The goal of this section**, however, is **not to cover all** the Customer 360 APIs but rather to:
 - Provide a guidance as for how to use the Swagger tool
@@ -42,17 +42,16 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 ### Functionalities served with the Customer 360 *Open Data Protocol APIs*:
 
+[APIs image 2]
+
 - *Put* API: **/api/instances/{instanceId}/data/{relativePath}**
 
-[api table1]
-
-customer master dataset
-any data that was ingested
-search and query customer data  /data/Customer(customerId='123')
-filter and search only for the customer entity
-related entities to the customer - can be user to export (csv/json) all the above - can only be found if customer ID is used (one of the two)
+[API table1]
 
 ### Functionalities served with the Customer 360 *Conflation APIs*: 
+
+[APIs image 3]
+
 Viewing and retrieving configurations that were made during the *Data Configuration* process 
 and can do the conflation here
 and configure 
@@ -62,8 +61,11 @@ patrick
 management API for relationship: ? 
 notes: you can use the relationship in the segment query builder
 
+[APIs image 4]
+
 ### Functionalities served with the Customer 360 *Segmentation APIs*: 
 management API for segments: Create, update, get and delete segment definition. Activste and deactivate. 
 query API: get customers part of a segment (/data/Customer?$filter=IsMemberOfSegment(segmentname))
+search and query customer data  /data/Customer(customerId='123')
 
-
+[APIs image 5]
