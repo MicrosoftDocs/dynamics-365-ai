@@ -17,7 +17,7 @@ topic-status: Drafting
 
 # Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
 
-Applies to Dynamics 365 (online), version 9.0.2
+Applies to Dynamics 365 (online), version 9.1.0
 
 Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 AI for Sales.
 
@@ -110,7 +110,7 @@ OData-Version: 4.0
 
 {
   "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_RetrieveKPIValuesForGDPRResponse",
-  "ResponseValues": "[{\"Timestamp\":\"2018-03-15T00:00:00Z\",\"Value\":448.000000000,\"CalculationTime\":\"2018-03-29T17:00:00Z\",\"CountValue\":448,\"MinValue\":0.000000000,\"MaxValue\":0.000000000,\"SumValue\":0.000000000,\"AverageValue\":1.000000000,\"FiscalQuarter\":\"Q2-2018\",\"CalendarQuarter\":\"Q1-2018\",\"FiscalYear\":\"2018-2019\",\"CalendarYear\":\"2018\",\"applicableaccounts\":\"bf1b1e9a-6e28-e811-a94e-000d3a365e68\"}]"
+   "ResponseValues": {\"EntityId\": \"bf1b1e9a-6e28-e811-a94e-000d3a365e68\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
 }
 ```
 
@@ -118,4 +118,4 @@ OData-Version: 4.0
 
 [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
 
-[Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
+[Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md)
