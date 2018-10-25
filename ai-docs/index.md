@@ -39,7 +39,7 @@ ms.custom:
                                         </div>
                                     </div>
                                 </div>
-                            </li>-->
+                            </li>
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -58,7 +58,7 @@ ms.custom:
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
