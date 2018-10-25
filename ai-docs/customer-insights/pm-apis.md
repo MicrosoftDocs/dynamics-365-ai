@@ -32,7 +32,7 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 **The goal of this section**, however, is **not to cover all** the Customer 360 APIs but rather to:
 - Provide a guidance as for how to use the Swagger tool
-- Provide explainations on some of the most important functionalities that you, as a user, can leverage through our APIs
+- Provide explainations around some of the most important functionalities that you, as a user, can leverage through our APIs
 
 ### How to Use the Customer 360 Swagger Webpage
 If you are not familiar with Swagger, you can explore the following step-by-step tutorials:
