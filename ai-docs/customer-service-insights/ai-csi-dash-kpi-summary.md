@@ -72,7 +72,7 @@ The total case breakdown chart shows the breakdown in support cases for the spec
 
 Description | Details
 ----------- | -------
-Total case breakdown | *Total case breakdown by Rollover cases (backlog) + New cases for the specified time period*
+Total case breakdown | *Total case breakdown by rollover cases (backlog) plus new cases for the specified time period*
 
 ## Case channel chart
 
@@ -114,7 +114,7 @@ The top case volume impactors chart uses artificial intelligence technology to g
 Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
-Volume | *The total cases associated with this topic* / *Total cases*
+Volume | *The total cases associated with this topic divided by total cases*
 Total cases | *The total cases associated with this topic*
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
