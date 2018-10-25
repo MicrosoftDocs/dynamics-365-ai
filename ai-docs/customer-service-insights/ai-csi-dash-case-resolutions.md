@@ -1,6 +1,6 @@
 ---
-title: "Case resolutions dashboard​"
-description: "Learn about the customer service insights available on the Case resolutions dashboard."
+title: "Case resolution dashboard​"
+description: "Learn about the customer service insights available on the Case resolution dashboard."
 keywords: ""
 ms.date: 10/18/2018
 ms.service:
@@ -12,19 +12,19 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Case resolutions dashboard​
+# Case resolution dashboard​
 
-![Case resolutions dashboard](media/ai-csi-case-resolutions-dash.png)
+![Case resolution dashboard](media/ai-csi-case-resolutions-dash.png)
 
-The Case resolutions dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
+The Case resolution dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
-The Case resolutions dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Case resolution dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
 
 Chart | Link
 ----- | ----
 ![Agents with longest resolve time](media/ai-csi-longest-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
 ![New cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
-![Agents with most escalations chart](media/ai-csi-most-escalations.png) | [Agents with most escalations](#agents-with-most-escalations-chart)
+![Agents handling most escalations chart](media/ai-csi-most-escalations.png) | [Agents handling most escalations](#agents-with-most-escalations-chart)
 ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png) | [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
 ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors)
 
@@ -55,15 +55,15 @@ Description | Details
 Incoming cases | *Daily number of incoming cases*
 Average resolution time | *Daily average case resolution time*
 
-## Agents with most escalations chart
+## Agents handling most escalations chart
 
-![Agents with most escalations chart](media/ai-csi-most-escalations.png)
+![Agents handling most escalations chart](media/ai-csi-most-escalations.png)
 
-The agents with most escalations chart shows the number of active and resolved support cases for each agent, in order of total cases.
+The agents handling most escalations chart shows the number of active and resolved support cases for each agent, in order of total cases.
 
 Description | Details
 ----------- | -------
-Agents with most escalations | *Number of active and resolved cases by agent*
+Agents handling most escalations | *Number of active and resolved cases by agent*
 
 ## New escalations versus resolved escalations chart
 

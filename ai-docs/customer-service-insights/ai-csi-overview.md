@@ -36,7 +36,7 @@ For details on the AI for Customer Service Insights dashboards, see the followin
 
 * [KPI summary dashboard](ai-csi-dash-kpi-summary.md)
 * [Incoming cases dashboard](ai-csi-dash-incoming-cases.md)
-* [Case resolutions dashboard](ai-csi-dash-case-resolutions.md)
+* [Case resolution dashboard](ai-csi-dash-case-resolutions.md)
 * [CSAT dashboard](ai-csi-dash-CSAT.md)
 * [Topic details dashboard](ai-csi-topic-details.md)
 

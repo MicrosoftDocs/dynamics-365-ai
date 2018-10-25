@@ -18,6 +18,8 @@ manager: shellyha
 
 The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
+You can display the [Topic details](ai-csi-dash-topic-details.md) dashboard from one of the AI Insights charts in the [KPI summary](ai-csi-kpi-summary.md), [Incoming cases](ai-csi-dash-incoming-cases.md), [Customer satisfaction](ai-csi-dash-CSAT.md), and [Case resolution](ai-csi-dash-case-resolutions.md) dashboards. To display the Topic details dashboard, right-click a topic name, hover over **Drillthrough**, and then select **Topic Drill Through**.
+
 ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.png)
 
 The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
@@ -27,9 +29,9 @@ Chart | Link
 ![Topic details KPI charts](media/ai-csi-topic-details-kpi-charts.png) | [Topic details KPI charts](#topic-details-kpi-charts)
 ![Overall impact charts](media/ai-csi-overall-impact.png) | [Overall impact charts](#overall-impact-charts)
 ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png) | [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
-![Agents with longest resolve time chart](media/ai-csi-agents-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
-![Agents with lowest CSAT chart](media/ai-csi-lowest-CSAT.png) | [Agents with lowest CSAT](#agents-with-lowest-csat-chart)
-![Topic journey chart](media/ai-csi-topic-journey.png) | [Topic journey](#topic-journey-chart)
+![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.png) | [Agents with longest average resolve time](#agents-with-longest-resolve-time-chart)
+![Agents with lowest average CSAT chart](media/ai-csi-lowest-CSAT.png) | [Agents with lowest average CSAT](#agents-with-lowest-csat-chart)
+![Topic journey chart](media/ai-csi-topic-journey.png) | [Topic case composition](#topic-journey-chart)
 ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
@@ -75,35 +77,35 @@ Description | Details
 ----------- | -------
 Agents with most unresolved cases | *Number of unresolved cases in descending order by agent*
 
-## Agents with longest resolve time chart
+## Agents with longest average resolve time chart
 
-![Agents with longest resolve time chart](media/ai-csi-agents-resolve-time.png)
+![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.png)
 
-The agents with longest resolve time chart shows the average resolution time for each agent for the topic's support cases in the specified time period.
-
-Description | Details
------------ | -------
-Agents with longest resolve times | *Average resolution time in descending order by agent*
-
-## Agents with lowest CSAT chart
-
-![Agents with lowest CSAT chart](media/ai-csi-lowest-CSAT.png)
-
-The agents with lowest CSAT chart shows the average customer satisfaction score for each agent for the topic's support cases in the specified time period.
+The agents with longest average resolve time chart shows the average resolution time for each agent for the topic's support cases in the specified time period.
 
 Description | Details
 ----------- | -------
-Agents with lowest CSAT | *Average CSAT score in descending order by agent*
+Agents with longest average resolve times | *Average resolution time in descending order by agent*
 
-## Topic journey chart
+## Agents with lowest average CSAT chart
 
-![Topic journey chart](media/ai-csi-topic-journey.png)
+![Agents with lowest average CSAT chart](media/ai-csi-lowest-CSAT.png)
 
-The topic journey chart shows the path of the topic's support cases during the specified time period from the support channel where they were opened, and whether they were escalated, to their status at the end of the specified time period.
+The agents with lowest average CSAT chart shows the average customer satisfaction score for each agent for the topic's support cases in the specified time period.
 
 Description | Details
 ----------- | -------
-Topic journey | *Sankey diagram showing the flow of support cases by support channel*
+Agents with lowest average CSAT | *Average CSAT score in descending order by agent*
+
+## Topic case composition chart
+
+![Topic case composition chart](media/ai-csi-topic-journey.png)
+
+The topic case composition chart shows the path of the topic's support cases during the specified time period from the support channel where they were opened, and whether they were escalated, to their status at the end of the specified time period.
+
+Description | Details
+----------- | -------
+Topic case composition | *Sankey diagram showing the flow of support cases by support channel*
 
 ## Top CSAT impactors chart
 
