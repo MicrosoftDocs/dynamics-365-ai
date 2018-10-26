@@ -38,7 +38,7 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 
 ## GDPR
 
-To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales related **General Data Protection Regulation (GDPR)**, see [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md).
+To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
 
 ## Prerequisites
 
