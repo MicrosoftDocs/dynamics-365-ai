@@ -40,4 +40,4 @@ You can perform the following tasks in the Auto Capture and Relationship Analyti
 
 ### See also
 
-[Embedded Intelligence for Dynamics 365 Customer Engagement](embedded-intelligence.md)  
+[Overview of Dynamics 365 AI for Sales](overview.md)  
