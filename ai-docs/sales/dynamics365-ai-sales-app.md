@@ -54,6 +54,11 @@ Before you start using the application, we suggest you review the following requ
 ## How to get the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app
 
 The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is a standalone application and you must sign in to the app to use it. You can use one of the following entry points to access the app:
+
+
+<!--from editor: I don't see GET IT NOW on the marketing page. Is it because I don't have a subscription?-->
+
+
 - Go to the [Dynamics 365 AI for Sales](https://dynamics.microsoft.com/en-us/ai/sales/) marketing page and select **GET IT NOW**.
 
 
