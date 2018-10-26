@@ -151,15 +151,14 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
    Creating a model takes few minutes and you can see progress on the screen.<br>
 1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
     > [!div class="mx-imgBorder"]
-    > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br><!--image should be added-->
-   
+    > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br>
     The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Opportunity Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
 1. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
    When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
-   ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br><!--image should be added-->
+   ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br>
 1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
 

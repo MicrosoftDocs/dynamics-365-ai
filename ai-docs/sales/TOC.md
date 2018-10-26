@@ -8,6 +8,8 @@
 #### [Stay updated with Action cards](../sales/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales/email-engagement.md)
 #### [Display related emails with auto capture](../sales/auto-capture.md)
+### [Developer guide](create-custom-cards.md) 
+#### [Create custom cards](create-custom-cards.md)
 ## [AI for Sales](../sales/sales-insights-addon.md)
 ### [Administerator guide](../sales/configure-enable-sales-insights-addon.md) 
 #### [Administer AI for Sales](../sales/configure-enable-sales-insights-addon.md)
@@ -15,7 +17,6 @@
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
-<!--#### []() -->
 ### [User guide](../sales/relationship-analytics.md)
 #### [View customer activity history](../sales/relationship-analytics.md)
 #### [Prioritize leads using predictive scores](../sales/work-predictive-lead-scoring.md)
