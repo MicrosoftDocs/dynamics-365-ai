@@ -61,9 +61,9 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Have a look at [what's new in Market Insights](what-s-new.md) to learn about the latest changes.
 
-- Read the latest [Market Insights readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
+- Read the latest [Market Insights readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
-- Download the [Market Insights translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
+- Download the [Market Insights translation guide](https://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
 
 ### See also

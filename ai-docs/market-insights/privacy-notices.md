@@ -23,7 +23,7 @@ search.app:
 
 [This topic is pre-release documentation and is subject to change.]
 
-Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
+Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).  
 
 For specific privacy information about [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], refer to the paragraphs below.
 

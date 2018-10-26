@@ -35,7 +35,7 @@ search.app:
 
 -   [Stream Analytics documentation](https://azure.microsoft.com/documentation/services/stream-analytics/)  
 
--   [Get started with Power BI](http://go.microsoft.com/fwlink/p/?LinkId=786439)  
+-   [Get started with Power BI](https://go.microsoft.com/fwlink/p/?LinkId=786439)  
 
 <a name="Analyze_in_Power_BI"></a>   
 ## Analyze social posts in real time with Power BI  

@@ -38,9 +38,9 @@ In our everyday lives, we use our favorite browsers to work with web application
   
  Refer to the links below for more information about how to manage pop-up blockers in the most-used browsers.  
   
-- [!INCLUDE[pn_Microsoft_Edge](../includes/pn-microsoft-edge.md)]: [Block pop\-ups in Microsoft Edge](http://go.microsoft.com/fwlink/p/?LinkID=401433)  
+- [!INCLUDE[pn_Microsoft_Edge](../includes/pn-microsoft-edge.md)]: [Block pop\-ups in Microsoft Edge](https://go.microsoft.com/fwlink/p/?LinkID=401433)  
   
-- [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] 11: [Change security and privacy settings for Internet Explorer](http://go.microsoft.com/fwlink/p/?LinkID=401432)  
+- [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] 11: [Change security and privacy settings for Internet Explorer](https://go.microsoft.com/fwlink/p/?LinkID=401432)  
   
 - [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]: [Block or allow pop\-ups in Chrome](https://support.google.com/chrome/answer/95472)  
   
@@ -52,9 +52,9 @@ In our everyday lives, we use our favorite browsers to work with web application
 ## Work InPrivate or go incognito  
  You can often avoid issues with session cookies by using your preferred browser in “private mode”. This lets you establish a fresh session to the sites and application you log on to without interfering with cookies from other sessions.  
   
-- [!INCLUDE[pn_Microsoft_Edge](../includes/pn-microsoft-edge.md)]: [Browse InPrivate in Microsoft Edge](http://go.microsoft.com/fwlink/p/?LinkID=401431)  
+- [!INCLUDE[pn_Microsoft_Edge](../includes/pn-microsoft-edge.md)]: [Browse InPrivate in Microsoft Edge](https://go.microsoft.com/fwlink/p/?LinkID=401431)  
   
-- [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] 11: [Change security and privacy settings for Internet Explorer](http://go.microsoft.com/fwlink/p/?LinkID=401432)  
+- [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] 11: [Change security and privacy settings for Internet Explorer](https://go.microsoft.com/fwlink/p/?LinkID=401432)  
   
 - [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]: [Browse in private with incognito mode](https://support.google.com/chrome/answer/95464)  
   
