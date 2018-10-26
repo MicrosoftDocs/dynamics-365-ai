@@ -18,10 +18,16 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-
 # Get Data
 
--	**Step One: Dataflow Creation:** Clicking the **Get Data** button will take you to the **Dataflow Screen** as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage.
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Follow these steps to ingest data.
+
+## Step one: Creation
+
+Select **Get Data** to open the Dataflow page as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage.
+
 - **If it’s the first time you are using Customer 360**, you need to create a dataflow and that is available through the highlighted **Add Entity** button:
 
 [2b]

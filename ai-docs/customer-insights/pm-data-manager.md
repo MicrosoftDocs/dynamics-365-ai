@@ -22,9 +22,16 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section we will explain how to bring data from many of your sources: From CRM systems, to transactional and survey data, to clickstream, social and other data you might have. Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
+In this section we will explain how to bring data from many of your sources: 
+- CRM systems
+- transactional and survey data
+- clickstream
+- social
+- other data you might have. 
 
-As shown below, the **Data Manager** includes two moduls: **Get Data** and **Entities**. You should click the **Get Data Tile** as shown below and complete the mandatory data ingestion process. Then you can either continue to the **Data Configuration** process or exploe the data that you have ingested through the **Entities** module that is accessable both via this screen and via the left side menu.
+Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
+
+Data Manager includes two modules: Get Data and Entities. In the [Get Data](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module.
 
 [2a]
 
