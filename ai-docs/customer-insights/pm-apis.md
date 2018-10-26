@@ -19,19 +19,65 @@ manager: "kvivek"
 robots: noindex,nofollow
 ---
 # APIs
-*Note: this is a technical documentation. While it's purpose is to serve all users who wish to take advantage of the Customer 360 APIs, it might be most valuable for users in IT roles.
+*Note: this is a technical documentation. While it's purpose is to serve all users who wish to leverage the Customer 360 APIs, it might be most valuable for technical users.
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**When it comes to Customer 360**, at present there are several types of APIs that you can start utilize. The details of all our current and future APIs can be found in the following Swagger webpage:
+**When it comes to Customer 360**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the **Customer 360 Swagger Webpage:**
+
 https://dxt-wus-01.api.ci.ai.dynamics.com/swagger/index.html
+https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 [APIs image 1]
 
-**The goal of this documentation section**, however, are not to cover all our APIs but rather to:
-- Provide a step-by-step guidance as for how to use and read the Swagger webpage shown above.
-- Provide further explainations on the APIs that you, as a user, are expected to use the most.
+**The goal of this section**, however, is **not to cover all** the Customer 360 APIs but rather to:
+- Provide a guidance as for how to use the Swagger tool
+- Provide explainations around some of the most important functionalities that you, as a user, can leverage through our APIs
 
 ### How to Use the Customer 360 Swagger Webpage
+If you are not familiar with Swagger, you can explore the following step-by-step tutorials:
 
+https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
+https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
+### Functionalities served with the Customer 360 *Open Data Protocol APIs*:
+
+[APIs image 2]
+
+- *Put* API: **/api/instances/{instanceId}/data/{relativePath}**
+
+[API table1]
+
+### Functionalities served with the Customer 360 *Conflation APIs*: 
+
+[APIs image 3]
+
+- sdfsdf
+
+[API table2]
+
+Viewing and retrieving configurations that were made during the *Data Configuration* process 
+and can do the conflation here
+and configure 
+patrick
+
+### Functionalities served with the Customer 360 *Relationship APIs*: 
+management API for relationship: ? 
+notes: you can use the relationship in the segment query builder
+
+[APIs image 4]
+
+- sdfsdf
+
+[API table x]
+
+### Functionalities served with the Customer 360 *Segmentation APIs*: 
+management API for segments: Create, update, get and delete segment definition. Activste and deactivate. 
+query API: get customers part of a segment (/data/Customer?$filter=IsMemberOfSegment(segmentname))
+search and query customer data  /data/Customer(customerId='123')
+
+[APIs image 5]
+
+- sgfgdfg
+
+[API table y]
