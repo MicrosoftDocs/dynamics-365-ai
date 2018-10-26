@@ -158,7 +158,7 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
 1. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
-   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum opportunity score range for **Grade B** changes to 50.<br>
+   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
    ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br><!--image should be added-->
 1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
