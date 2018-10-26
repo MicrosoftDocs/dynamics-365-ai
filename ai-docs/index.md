@@ -10,6 +10,8 @@ ms.custom:
  - dyn365-hub
 ms.author: kvivek
 author: KumarVivek
+ms.topic: hub-page
+ms.date: 10/31/2018
 ---
 
 <div id="main" class="v2">
