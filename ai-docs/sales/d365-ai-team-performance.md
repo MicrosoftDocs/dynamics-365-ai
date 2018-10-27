@@ -1,6 +1,6 @@
 ---
 title: " Analyze team  performance in Dynamics 365 AI for sales | MicrosoftDocs"
-description: "Analyze how your team is performing in a sales period in Dynamics 365 for Sales"
+description: "Analyze how your team is performing in a sales period in Dynamics 365 AI for Sales"
 keywords: ""
 ms.date: 10/31/2018
 ms.service: crm-online
