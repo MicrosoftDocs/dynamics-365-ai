@@ -138,7 +138,8 @@ The Pipeline section provides a view of the relationship health in your upcoming
 
 ## Highlights
 
-Your team constantly works on interacting with customers, closing deals, opening opportunities, or failing to close deals. The Highlights helps you to keep track of these items in real time so that you can get involved when necessary. This information is displayed as cards. The following is an example of how a Highlights section is displayed:
+Your team constantly works on interacting with customers, closing deals, opening opportunities, or failing to close deals. The Highlights helps you to keep track of these items in real time so that you can get involved when necessary. This information is displayed as cards. You will see the basic relationship assistant cards that are relevant to you and your team along with cards that are defined for new, won, and lost opportunities by your team. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md) 
+The following is an example of how a Highlights section is displayed:
 
 > [!div class="mx-imgBorder"]
 > ![Pipeline section](media/d365-ai-sales-highlights.png "Pipeline section")

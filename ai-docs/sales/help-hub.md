@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 4e9e7a65-1dcb-45b3-a9c8-4113f1f41416
-author: udaykiarng
+author: udaykirang
 ms.author: shujoshi
 manager: shujoshi
 topic-status: Drafting
