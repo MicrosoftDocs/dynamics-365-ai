@@ -17,6 +17,8 @@ manager: shujoshi
 
 ## Sample: Extend Relationship assistant card type (custom card)
 
+Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
+
 ### Download the extend Relationship assistant card type sample solution
 
 [Download](https://go.microsoft.com/fwlink/?linkid=2034351) the sample custom card solution.
