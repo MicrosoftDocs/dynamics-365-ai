@@ -24,7 +24,7 @@ robots: noindex,nofollow
 
 Complete the following steps to load data from your data sources.
 
-## Step one: Data Source Creation
+### Step one: Data Source Creation
 
 Select **Get Data** as shown below: 
 
@@ -52,7 +52,7 @@ Lastly, upon clicking a data source that you wish to ingest, you will need to co
 
 [4]
 
-### Step Three: Editing Entities: 
+### Step Three: Editing Entities
 
 You can edit any entity that you have ingested in step two through the **power query editor.**
 Editing columns, combining tables, and several other useful functionalities are available in the top screen menu (as shown in red below):
