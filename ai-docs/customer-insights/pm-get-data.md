@@ -24,7 +24,7 @@ robots: noindex,nofollow
 
 Complete the following steps to load data from your data sources.
 
-## Step one: Creation
+## Step one: Data Source Creation
 
 Select **Get Data** as shown below: 
 
@@ -41,7 +41,9 @@ Then you should give your data source a name as shown below. You can also add an
 
 Lastly hit **Save** at the right bottom corner of the window. 
 
-- **Step Two: Identifying Data Sources**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs.
+### Step Two: Ingesting Entities 
+
+Within the data sources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source-menu.png "Data source menu")
@@ -50,7 +52,9 @@ Lastly, upon clicking a data source that you wish to ingest, you will need to co
 
 [4]
 
-- **Step Three: Editing Entities**: You can edit any entity that you have ingested in step two through the **power query editor.**
+### Step Three: Editing Entities: 
+
+You can edit any entity that you have ingested in step two through the **power query editor.**
 Editing columns, combining tables, and several other useful functionalities are available in the top screen menu (as shown in red below):
     
 [6]
@@ -58,11 +62,15 @@ Editing columns, combining tables, and several other useful functionalities are 
 If you are new to power query, you might want to spend a couple of minutes on the following documentation that will walk you through these functionalities:
 [link1]
 
--	**Step Three: Dataflow Refresh:** Once finishing selecting and editing data sources, you will get to the following screen. The final step is to hit the **Refresh** button as shown below:
+### Step Four: Refreshing Data
+
+Once finishing selecting and editing data sources, you will get to the following screen. The two final steps are to hit **Save** and then **Refresh** as shown below:
+
 [7]
 
 Note: In the future this step will happen automatically. 
 
 ### Next Step: 
+
 Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
 
