@@ -28,12 +28,12 @@ search.app:
 ## For system admins  
 As an admin for your organization, you can create or edit users, manage user licenses, set up search topics, and configure streams and social profiles, among other things. You can delegate this role to an authorized partner of [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. When you authorize a partner to take on this role, the partner is referred to as a delegated admin.  
   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Partners: Add or delete a delegated admin](http://go.microsoft.com/fwlink/p/?LinkID=616234)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Partners: Add or delete a delegated admin](https://go.microsoft.com/fwlink/p/?LinkID=616234)  
   
 ## For partners  
 Your client must authorize you as a delegated administrator before you can start administering a client's account. To get client approval, you first send them an offer for delegated administration, which you can include with a trial invitation or purchase offer. You can also offer delegated administration to your client at a later time.  
   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Partners: Offer delegated administration](http://go.microsoft.com/fwlink/p/?LinkId=616235)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Partners: Offer delegated administration](https://go.microsoft.com/fwlink/p/?LinkId=616235)  
   
 > [!NOTE]
 >  Delegated admins will have their location set to the customer organization’s location. All maps in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] will be shown from the customer organization’s defined location.  

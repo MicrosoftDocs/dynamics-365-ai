@@ -72,7 +72,7 @@ If you're gathering posts that mention your main competitor, you can set up a tr
 
 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Insights to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Insights to a dashboard or account](https://go.microsoft.com/fwlink/p/?LinkID=391707)
 
 ### See also
 

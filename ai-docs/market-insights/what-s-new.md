@@ -29,7 +29,7 @@ If you're new to [!INCLUDE[Market Insights](../includes/pn-market-insights-short
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
-For important, late-breaking information and a list of known issues, see the [Market Insights Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+For important, late-breaking information and a list of known issues, see the [Market Insights Readme](https://go.microsoft.com/fwlink/p/?LinkID=393612).
 
 ## [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Public Preview build
 
@@ -49,4 +49,4 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 #### See also
 
 [Get started with Market Insights](get-started.md)  
-[E-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400708)
+[E-books and videos](https://go.microsoft.com/fwlink/p/?LinkId=400708)

@@ -31,7 +31,7 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
   
 - You have a license assigned for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
   
-- You have a System Administrator security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [Contact your system administrator](http://go.microsoft.com/fwlink/p/?LinkID=513070) if you need an upgrade to your licensed products or an update to your permissions.
+- You have a System Administrator security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [Contact your system administrator](https://go.microsoft.com/fwlink/p/?LinkID=513070) if you need an upgrade to your licensed products or an update to your permissions.
   
 - You have an Administrator user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. To find out your user role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Settings** > **Personal Settings** > **Your Preferences**.
   
@@ -41,28 +41,28 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
   
 - Your [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is upgraded to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or a later release.  
   
-- Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance is ready to receive social data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Control social data](http://go.microsoft.com/fwlink/p/?LinkId=723352)  
+- Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance is ready to receive social data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Control social data](https://go.microsoft.com/fwlink/p/?LinkId=723352)  
   
 ### Additional prerequisites to connect with Dynamics 365 (on-premises) (IFD-enabled)
   
 - You have upgraded to at least [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) and the deployment is IFD-enabled.  
   
 - Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) instance is an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] with a public IP address.   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Configure IFD for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkId=723354)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Configure IFD for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkId=723354)  
   
-- Enable OAuth support by following the [post-installation and configuration guidelines for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=723355).  
+- Enable OAuth support by following the [post-installation and configuration guidelines for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=723355).  
   
 - Register your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution so that it can connect to and authenticate with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and access the web services. Each solution that you want to connect with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) (IFD-enabled) should be registered as a RedirectUri. Use the following command to register with the desktop client:  
   
   `Add-AdfsClient -Name Market_Insights -ClientId e8ab36af-d4be-4833-a38b-4d6cf1cfd525 -RedirectUri @("https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solution id>/crm/oauthRedirect ", "https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect") -Description "OAuth 2.0 client for Market Insights".`  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Walkthrough: Register a CRM app with Active Directory](http://go.microsoft.com/fwlink/p/?LinkId=723356)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Walkthrough: Register a CRM app with Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=723356)  
 > [!NOTE]
 > The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
   
 ## Establish a connection between [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and Dynamics 365
 
-To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], both services must be part of the same organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription. If you have licenses assigned to both [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you'll find both products in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Meet the Office 365 app launcher](http://go.microsoft.com/fwlink/p/?LinkID=401421)  
+To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], both services must be part of the same organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription. If you have licenses assigned to both [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you'll find both products in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Meet the Office 365 app launcher](https://go.microsoft.com/fwlink/p/?LinkID=401421)  
   
 ### Connect [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and Dynamics 365
   

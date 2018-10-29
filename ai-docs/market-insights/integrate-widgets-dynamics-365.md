@@ -191,7 +191,7 @@ This action deletes all existing data in Dynamics 365 for the search topics, sea
 
 ## Troubleshoot sign-in problems  
 
-Having trouble signing in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](http://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
+Having trouble signing in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](https://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
   
 ### See Also  
  [Get started with Market Insights](get-started.md)   

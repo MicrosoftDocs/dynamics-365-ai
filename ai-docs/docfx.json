@@ -40,11 +40,29 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "titleSuffix": "Dynamics 365 AI",
       "breadcrumb_path": "/dynamics365/ai/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope": {
+        "**.*": [
+          "Dynamics 365",
+          "AI apps"
+        ],
+        "market-insights/**.*": [
+          "Dynamics 365",
+          "AI apps",
+          "AI for Market Insights"
+        ],
+        "customer-insights/**.*": [
+          "Dynamics 365",
+          "AI apps",
+          "AI for Customer Insights"
+        ]
+      }
+    },
     "template": [],
     "dest": "ai-docs",
     "markdownEngineName": "markdig"
