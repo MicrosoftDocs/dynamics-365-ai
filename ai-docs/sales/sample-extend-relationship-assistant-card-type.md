@@ -327,3 +327,8 @@ You can verify the custom cards are created in your organization as end user and
 4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
     > [!div class="mx-imgBorder"]
     > ![Administer extended action card](media/relationship-assistant-custom-card-selection.png "Administer extended action card")
+
+
+- [Create custom cards in Relationship assistant ](extend-relationship-assistant-card.md)
+- [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
+- [Relationship assistant](relationship-assistant.md)

@@ -82,11 +82,6 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
     > [!div class="mx-imgBorder"]
     > ![Email with default message](media/wkw_mail_to_introduction.png "Email with default message")
-
-    Also, Blaine can use the phone number displayed in Tricia's details to call her directly to ask for an introduction to Yvonne.
-    
-    
-
   
 6.	Select **Send**.<br>
     The email is sent to Tricia to introduce Yvonne. 
