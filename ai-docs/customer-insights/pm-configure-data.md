@@ -23,6 +23,6 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Intro to Configuration
-Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. **Configure Data** includes four modules as represented by the tiles at the screen below and you should explore these from left to right. The goal behind the Data Configuration process is to unify datasources that once were disparate into a **"master customer dataset"** that includes a more complete and accurate information on your customers than the original datasets.  
+Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. **Configure Data** includes four modules as represented by the tiles at the screen below and you should explore these from left to right. The goal behind the Data Configuration process is to unify datasources that once were disparate into a **"master customer dataset"** that includes a more complete information on your customers.  
 
 [9]
