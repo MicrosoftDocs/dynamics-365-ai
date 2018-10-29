@@ -15,11 +15,11 @@ ms.author: udag
 manager: shujoshi
 ---
 
-## Sample: Extend Relationship assistant card type (custom card)
+# Sample: Extend Relationship assistant card type (custom card)
 
 Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
-### Step 1: Download the extend Relationship assistant card type sample solution
+## Step 1: Download the extend Relationship assistant card type sample solution
 
 [Download](https://go.microsoft.com/fwlink/?linkid=2034351) the sample custom card solution.
 
@@ -33,7 +33,7 @@ Go to the path `ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`
 
 - **Icon (new_msicon6aa7c568-4830-4da6-89f9-18a8fd9c2285)**
 
-#### Schema Definition (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829)
+### Schema Definition (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829)
 
 The contains schema definition for new card type.
 
@@ -50,7 +50,7 @@ The contains schema definition for new card type.
 </entity>
 ```
 
-#### Command (new_commands8db43275-0291-401d-923a-90a6c373cc18)
+### Command (new_commands8db43275-0291-401d-923a-90a6c373cc18)
 
 The file contains the command for action card.
 
@@ -164,7 +164,7 @@ When you execute the command, the command is invoked through the `RibbonDiff` de
 </ImportExportXml>
 ```
 
-#### Icon (new_msicon6aa7c568-4830-4da6-89f9-18a8fd9c2285)
+### Icon (new_msicon6aa7c568-4830-4da6-89f9-18a8fd9c2285)
 
 The file contains the icon that is used for the card.
 
@@ -206,7 +206,7 @@ After you deploy the package, a new card type is created with an ID - `2183dfc0-
 
 Verify the card type with an ID '2183dfc0-3c1c-45b7-a331-1943880c25c6'.
 Send a GET method request.
-#### Request
+### Request
 
 ```HTTP
 GET [Organization URI]/api/data/v9.0/cardtype(2183dfc0-3c1c-45b7-a331-1943880c25c6) HTTP/1.1  
@@ -215,7 +215,7 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0  
 ``` 
 
-#### Response
+### Response
 
 ```HTTP
 {
@@ -260,7 +260,7 @@ OData-Version: 4.0
 Create an Action Card for the new card type created using the package deployer.
 Send a POST method request.
 
-#### Request
+### Request
 
 ```HTTP
 POST http://[Organization URI]/api/data/v9.0/actioncards HTTP/1.1
@@ -282,7 +282,7 @@ start and end date mentioned above",
 }  
 ```
 
-#### Response
+### Response
 
 ```HTTP
 HTTP/1.1 204 No Content  
