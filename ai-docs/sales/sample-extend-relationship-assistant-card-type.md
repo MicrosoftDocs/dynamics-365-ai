@@ -17,10 +17,8 @@ manager: shujoshi
 
 # Sample: Extend Relationship assistant card type (custom card)
 
-## Prerequisites
-Review the prerequisites before you create the custom cards in your organization:
 
-- You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
+
 
 ## Create custom action card
 The following process explains how to create a custom card:
@@ -32,6 +30,11 @@ The following process explains how to create a custom card:
 - **Step 6:** Verify the new custom card 
 
 Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
+
+## Prerequisites
+Review the prerequisites before you create the custom cards in your organization:
+
+- You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
 ## Step 1: Download the extend Relationship assistant card type sample solution
 
