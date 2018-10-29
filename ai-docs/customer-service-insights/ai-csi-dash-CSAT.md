@@ -14,7 +14,8 @@ manager: shellyha
 
 # Customer satisfaction dashboard
 
-![Customer satisfaction dashboard](media/ai-csi-CSAT-dash.png)
+> [!div class="mx-imgBorder"]
+> ![Customer satisfaction dashboard](media/ai-csi-CSAT-dash.png)
 
 The Customer satisfaction dashboard gives you an overview of customer satisfaction (CSAT), including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on CSAT scores.
 
@@ -22,11 +23,16 @@ The Customer satisfaction dashboard includes a variety of charts with graphical 
 
 Chart | Link
 ----- | ----
-![Total surveys completed](media/ai-csi-surveys-completed.png) | [Total surveys completed](#total-surveys-completed-chart)
-![Survey response rate](media/ai-csi-response-rate.png) | [Survey response rate](#survey-response-rate-chart)
-![Average CSAT](media/ai-csi-average-csat.png) | [Average CSAT](#average-csat-chart)
-![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png) | [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
-![Top CSAT impactors](media/ai-csi-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
+> [!div class="mx-imgBorder"]
+> ![Total surveys completed](media/ai-csi-surveys-completed.png) | [Total surveys completed](#total-surveys-completed-chart)
+> [!div class="mx-imgBorder"]
+> ![Survey response rate](media/ai-csi-response-rate.png) | [Survey response rate](#survey-response-rate-chart)
+> [!div class="mx-imgBorder"]
+> ![Average CSAT](media/ai-csi-average-csat.png) | [Average CSAT](#average-csat-chart)
+> [!div class="mx-imgBorder"]
+> ![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png) | [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
+> [!div class="mx-imgBorder"]
+> ![Top CSAT impactors](media/ai-csi-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 
 The *Top CSAT impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
 
@@ -36,7 +42,8 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## Total surveys completed chart
 
-![Total surveys completed chart](media/ai-csi-surveys-completed.png)
+> [!div class="mx-imgBorder"]
+> ![Total surveys completed chart](media/ai-csi-surveys-completed.png)
 
 The total surveys completed chart shows the total number of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
 
@@ -48,7 +55,8 @@ A blue up and down indicator next the value indicates the percent change in a po
 
 ## Survey response rate chart
 
-![Survey response rate chart](media/ai-csi-response-rate.png)
+> [!div class="mx-imgBorder"]
+> ![Survey response rate chart](media/ai-csi-response-rate.png)
 
 The survey response rate chart shows the percentage of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
 
@@ -62,7 +70,8 @@ A blue up and down indicator next the value indicates the positive percent chang
 
 ## Average CSAT chart
 
-![Average CSAT chart](media/ai-csi-average-csat.png)
+> [!div class="mx-imgBorder"]
+> ![Average CSAT chart](media/ai-csi-average-csat.png)
 
 The Average CSAT chart shows the average customer satisfaction survey score during the specified time period, where it falls on the satisfaction scale used in the survey, and the percent change over the period.
 
@@ -76,7 +85,8 @@ A blue up and down indicator next the value indicates the positive percent chang
 
 ## Customer satisfaction breakdown
 
-![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png)
+> [!div class="mx-imgBorder"]
+> ![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png)
 
 The customer satisfaction breakdown chart shows the breakdown of customer satisfaction by support channel during the specified time period.
 
@@ -86,7 +96,8 @@ Customer satisfaction breakdown | *CSAT score breakdown by support channel*
 
 ## Top CSAT impactors chart
 
-![Top CSAT impactors chart](media/ai-csi-CSAT-impactors.png)
+> [!div class="mx-imgBorder"]
+> ![Top CSAT impactors chart](media/ai-csi-CSAT-impactors.png)
 
 The top CSAT impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of impact the topics are having on customer satisfaction.
 
