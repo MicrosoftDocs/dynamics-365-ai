@@ -62,7 +62,7 @@ search.app:
 <li><a href="d365-ai-team-performance.md" data-raw-source="[Analyze team performance)](d365-ai-team-performance.md)">Analyze team performance</a></li>
 </td>
 <td>
-<h2>Developer guide</h2>
+<h2>Develop</h2>
 <li><a href="extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
 <li><a href="sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
 </td>

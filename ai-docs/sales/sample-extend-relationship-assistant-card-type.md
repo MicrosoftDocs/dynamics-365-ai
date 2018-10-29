@@ -204,6 +204,26 @@ After you deploy the package, a new card type is created with an ID - `2183dfc0-
 
 ## Verify the new card type
 
+You can verify the custom cards are created in your organization as end user and as administrator
+
+As end user,
+
+1. Log in to **Dynamics 365**.
+2. Under **Relationship assistant** section, you can see your created action card.
+    
+    > [!div class="mx-imgBorder"]
+    > ![example of extended action card](media/devdoc-extended-card.png "example of extended action card")
+
+As administrator,
+
+1. Log in to **Dynamics 365**.
+2. Go to **Settings** > **Setup AI**.
+3. Select **Configuration** on Relationship assistant section or select **Relationship assistant** tab.
+4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
+    > [!div class="mx-imgBorder"]
+    > ![Administer extended action card](media/relationship-assistant-custom-card-selection.png "Administer extended action card")
+ 
+
 ## Create Action card for the new card type using the Web API
 
 1. Create a Action Card for the new card type created using the package deployer.
