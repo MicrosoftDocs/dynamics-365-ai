@@ -40,15 +40,11 @@ Review the prerequisites before you create the custom cards in your organization
 
 - You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
-
-- Download the extend Relationship assistant card type sample solution
-
-- Build the solution (ExtPkgDeployer.sln)
-
-- Import the package using the package deployer tool
-
-- Verify the new card type
-
-- Create Action card for the new card type using the Web API.
-
-- Verify the new custom card 
+## Create custom action card
+The following process explains how to create a custom card:
+- **Step 1:** Download the extend Relationship assistant card type sample solution
+- **Step 2:** Build the solution (ExtPkgDeployer.sln)
+- **Step 3:** Import the package using the package deployer tool
+- **Step 4:** Verify the new card type
+- **Step 5:** Create Action card for the new card type using the Web API.
+- **Step 6:** Verify the new custom card 

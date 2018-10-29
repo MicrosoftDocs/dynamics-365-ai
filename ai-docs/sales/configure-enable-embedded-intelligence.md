@@ -83,8 +83,11 @@ Assign user privileges to give access to the Relationship assistant features. Th
    - Cards are categorized by type, such as **Base** and **Advanced**. By default, the advanced cards are not enabled. To enable the advanced cards, select the check box in the **Advancd Cards** section.
    - Enable or disable specific action cards as needed by using the check boxes provided for each card.
    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
-   - 
+   
    ![Relationship assistant configuration page](media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
+   
+    > [!NOTE]
+    > When custom action cards are created in your organization, an option to enable these cards are displayed under **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Relationship assistant](../sales/extend-relationship-assistant-card.md)  
 
 4. On top of the page, select **Save** to save your settings.<br> 
 

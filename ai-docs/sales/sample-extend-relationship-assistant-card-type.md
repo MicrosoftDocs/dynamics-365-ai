@@ -19,13 +19,13 @@ manager: shujoshi
 
 Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
-### Download the extend Relationship assistant card type sample solution
+### Step 1: Download the extend Relationship assistant card type sample solution
 
 [Download](https://go.microsoft.com/fwlink/?linkid=2034351) the sample custom card solution.
 
-The samples show how to create a custom card in Relationship assistant programatically.
+The samples show how to create a custom card in Relationship assistant programmatically.
 
-Go to the path `RACards Extensibility Example\ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`. Under the **WebResources** folder, you can see three files that are required to create a custom card.
+Go to the path `ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`. Under the **WebResources** folder, you can see three files that are required to create a custom card.
 
 - **Schema Definition (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829)**
 
@@ -35,7 +35,7 @@ Go to the path `RACards Extensibility Example\ExtPkgDeployer\PkgFolder\extensibi
 
 #### Schema Definition (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829)
 
-The contains schema definition for new cardtype.
+The contains schema definition for new card type.
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -168,7 +168,7 @@ When you execute the command, the command is invoked through the `RibbonDiff` de
 
 The file contains the icon that is used for the card.
 
-## Build the solution (ExtPkgDeployer.sln)
+## Step 2: Build the solution (ExtPkgDeployer.sln)
 
 1. Open command prompt (cmd).
 
@@ -178,55 +178,86 @@ The file contains the icon that is used for the card.
 3. Execute the command to build the solution.
 `msbuild ExtPkgDeployer.sln`
 
-The build is successful and you can see that under the `<folder>\ExtPkgDeployer\bin\Debug`, the `PkgFolder` and the `ExtPkgDeployer.dll` are generated.
+The build is successful, and you can see that under the `<folder>\ExtPkgDeployer\bin\Debug`, the `PkgFolder` and the `ExtPkgDeployer.dll` are generated.
 
-## Import the package using the package deployer tool
+## Step 3: Import the package using the package deployer tool
 
 1. Copy the `PkgFolder` and the `ExtPkgDeployer.dll` from the `<folder>\ExtPkgDeployer\bin\Debug` folder and paste it in the `<PackageDeployerToolLocation>\tools` location.
 
-1. Run the tool by double-clicking the `PackageDeployer.exe` from the folder where you  have saved the package deployer tool.
+1. Run the tool by double-clicking the `PackageDeployer.exe` from the folder where you have saved the package deployer tool.
 
 2. In the introduction screen of the Package Deployer tool, choose **Continue**.
 
-3. In the Connect to Microsoft Dynamics 365 screen, provide authentication details to connect to the Dynamics 365 instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
+3. In the Connect to Microsoft Dynamics 365 screen, provide authentication details to connect to the Dynamics 365 instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
 
-4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 instance. Review the information, and choose **Next**. 
+4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 instance. Review the information and choose **Next**. 
  
-5. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 organization where it will be deployed to. Review the information, and choose **Next**.
+5. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 organization where it will be deployed to. Review the information and choose **Next**.
  
 6. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.
 
 7. The next page displays the package deployment status. Click **Next**.
 
-8. The next screen displays the name and information about the package that you just deployed. Review the information, and choose **Finish** to exit the Package Deployer tool.
+8. The next screen displays the name and information about the package that you just deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
  
-After you deploy the package, a new card type is created with an ID - `2183dfc0-3c1c-45b7-a331-1943880c25c6`
+After you deploy the package, a new card type is created with an ID - `2183dfc0-3c1c-45b7-a331-1943880c25c6`, which is defined in the schema (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829).
 
-## Verify the new card type
+## Step 4: Verify the new card type
 
-You can verify the custom cards are created in your organization as end user and as administrator
+Verify the card type with an ID '2183dfc0-3c1c-45b7-a331-1943880c25c6'.
+Send a GET method request.
+#### Request
 
-As end user,
+```HTTP
+GET [Organization URI]/api/data/v9.0/cardtype(2183dfc0-3c1c-45b7-a331-1943880c25c6) HTTP/1.1  
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+``` 
 
-1. Log in to **Dynamics 365**.
-2. Under **Relationship assistant** section, you can see your created action card.
-    
-    > [!div class="mx-imgBorder"]
-    > ![example of extended action card](media/devdoc-extended-card.png "example of extended action card")
+#### Response
 
-As administrator,
-
-1. Log in to **Dynamics 365**.
-2. Go to **Settings** > **Setup AI**.
-3. Select **Configuration** on Relationship assistant section or select **Relationship assistant** tab.
-4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
-    > [!div class="mx-imgBorder"]
-    > ![Administer extended action card](media/relationship-assistant-custom-card-selection.png "Administer extended action card")
+```HTTP
+{
+"@odata.context":"https://harshtester001.crm.dynamics.com/api/data/v9.0/$metadata#cardtype/$entity",
+"@odata.etag":"W/"662120\"",
+"boolcardoption":false,
+"clientavailability":3,
+"ispreviewcard":true,
+"cardname":"ExtExample",
+"cardtypeid":"2183dfc0-3c1c-45b7-a331-943880c25c6",
+"cardtypeicon":"webresources/new_msicon",
+"intcardoption":0,
+"isenabled":true,
+"hassnoozedismiss":true,
+"softtitle":"Extensibility Example",
+"cardtype":11000,
+"isliveonly":false,
+"_modifiedby_value":"50673658-c5d6-e811-a98c-000d3a1df431",
+"versionnumber":662120,
+"isbasecard":false,
+"actions":"{\"WebClient\":{\"Actions\":{\"Open\":\"Mscrm.HomepageGrid.actioncard.CardCommand\"},\"Default\":{\"Open\":\"Mscrm.HomepageGrid.actioncard.CardCommand\"}}, \"Mobile\":{\"Actions\":{\"Open\":\"Mscrm.HomepageGrid.actioncard.CardCommand\"}}}",
+"publishername":"adminsocial",
+"modifiedon":"2018-10-26T12:26:14Z",
+"summarytext":"RA Card Extensibility Example",
+"_transactioncurrencyid_value":null,
+"importsequencenumber":null,
+"createdon":null,
+"overriddencreatedon":null,
+"_modifiedonbehalfby_value":null,
+"_createdonbehalfby_value":null,
+"_createdby_value":null,
+"scheduletime":null,
+"exchangerate":null,
+"grouptype":null,
+"stringcardoption":null,
+"lastsynctime":null
+}
+```
  
+## Step 5: Create Action card for the new card type using the Web API
 
-## Create Action card for the new card type using the Web API
-
-1. Create a Action Card for the new card type created using the package deployer.
+Create an Action Card for the new card type created using the package deployer.
 Send a POST method request.
 
 #### Request
@@ -256,15 +287,29 @@ start and end date mentioned above",
 ```HTTP
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
-OData-EntityId: http://[Organization URI]/api/data/v9.0/actioncard(Need to update a sample id) 
+OData-EntityId: http://[Organization URI]/api/data/v9.0/actioncard(2183dfc0-3c1c-45b7-a331-1943880c25c6) 
 ```
 
-#### Console output
+> [!NOTE]
+> Open the browser console and run the command, `sessionStorage.clear();` to clear the session cache.
 
-Ask the dev about the console output.
+## Step 6: Verify the new custom card 
 
-> [!Note]
-> -
-> -
+You can verify the custom cards are created in your organization as end user and as administrator.
 
-## Verify the new custom card 
+**As end user**
+
+1. Log in to **Dynamics 365**.
+2. Under **Relationship assistant** section, you can see your created action card.
+    
+    > [!div class="mx-imgBorder"]
+    > ![example of extended action card](media/devdoc-extended-card.png "example of extended action card")
+
+**As administrator**
+
+1. Log in to **Dynamics 365**.
+2. Go to **Settings** > **Setup AI**.
+3. Select **Configuration** on Relationship assistant section or select **Relationship assistant** tab.
+4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
+    > [!div class="mx-imgBorder"]
+    > ![Administer extended action card](media/relationship-assistant-custom-card-selection.png "Administer extended action card")
