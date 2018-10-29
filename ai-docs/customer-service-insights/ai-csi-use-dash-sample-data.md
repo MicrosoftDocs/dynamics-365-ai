@@ -27,15 +27,18 @@ Some key features of the dashboards include:
 
 Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data.
 
-![Dashboard Filters](media/ai-csi-filters.png)
+> [!div class="mx-imgBorder"]
+> ![Dashboard Filters](media/ai-csi-filters.png)
 
 By default, dashboards display information for the last month, but you also display information for the last day or week by selecting **Last 01 Days** or **Last 07 Days**.
 
-![Time Period Filter](media/ai-csi-time-period-filter.png)
+> [!div class="mx-imgBorder"]
+> ![Time Period Filter](media/ai-csi-time-period-filter.png)
 
 Specify the value or values to use to filter data by selecting the check boxes in the filter drop-down lists. User **Ctrl+Click** to select multiple values.
 
-![Filter Values](media/ai-csi-filter-values.png)
+> [!div class="mx-imgBorder"]
+> ![Filter Values](media/ai-csi-filter-values.png)
 
 You can also click a category in most charts to view a result filtered on that category. For example, clicking *High* in the Case priority chart on the KPI summary dashboard displays the number of high priority cases.
 
@@ -50,7 +53,8 @@ Key performance indicator charts give you a view of the key performance data in 
 * The average resolution time during the period.
 * The average customer satisfaction (CSAT) score during the period.
 
-![KPI summary charts](media/ai-csi-kpi-charts.png)
+> [!div class="mx-imgBorder"]
+> ![KPI summary charts](media/ai-csi-kpi-charts.png)
 
 Each key performance indicator chart includes a blue or red up and down indicator next the value. A blue up and down indicator next the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
@@ -60,7 +64,8 @@ The [KPI Summary](ai-csi-dash-kpi-summary) and [Topic details](ai-csi-dash-topic
 
 The dashboards include a variety of graphical charts that give you views of different trends in your support cases, and the breakdown of cases by key criteria such as resolution time, customer satisfaction, case priority, and support channel.
 
-![Graphical charts](media/ai-csi-graphical-charts.png)
+> [!div class="mx-imgBorder"]
+> ![Graphical charts](media/ai-csi-graphical-charts.png)
 
 Graphical charts showing trends include:
 
@@ -91,7 +96,8 @@ All dashboards include graphical trend and breakdown charts.
 
 AI Insights charts use language understanding technology to group support cases as topics, helping you identify the types of cases that are having the greatest impact, both positive and negative, on the customer service system.
 
-![Top resolve time impactors](media/ai-csi-top-resolve-time.png)
+> [!div class="mx-imgBorder"]
+> ![Top resolve time impactors](media/ai-csi-top-resolve-time.png)
 
 AI Insights charts include:
 
