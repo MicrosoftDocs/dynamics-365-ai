@@ -29,7 +29,8 @@ In a highly competitive market, it is important for you to spend time on quality
 For example, say you have two leads - Lead A and Lead B - in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. By looking at the score, you can predict that Lead A has more chances of converting into an opportunity and you can engage it. Also, you can further analyze why the score of Lead B is low by looking at the top reasons influencing the score and deciding whether to improve this score.
  
 > [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-sales-insights-addon.md#configure-predictive-lead-scoring)
+> To enable Predictive lead scoring in your organization, contact your system administrator. 
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-sales-insights-addon.md#configure-predictive-lead-scoring)
 
 ## Understand Predictive lead scoring in views
 
