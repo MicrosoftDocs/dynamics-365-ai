@@ -22,23 +22,23 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Follow these steps to ingest data.
+Follow these steps to start loading data from your data sources.
 
 ## Step one: Creation
 
 Select **Get Data** to open the Dataflow page as shown below. You can consider dataflow to be a resource pool that is created in the system for your application usage.
 
-- **If it’s the first time you are using Customer 360**, you need to create a dataflow and that is available through the highlighted **Add Entity** button:
+- **If it’s the first time you are using Customer 360** you need to create a dataflow, and that is available through the highlighted **Add Entity** button:
 
-[2b]
+[add image 2b]
 
-Then you should give your dataflow a name and short description as shown below:
+Then you should give your dataflow a name and possibly a short description as shown below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connection-settings.png "Connection settings")
 
 Lastly click your new dataflow to start ingsting entities into this dataflow.
-- **If it’s not the first time you are using Customer 360**, you should use this screen either to create a new dataflow or select an existing one. 
+- **If it’s not the first time you are using Customer 360**, you should use this screen to either selecting a dataflow you have created in the past or creating a new one. 
 
 - **Step Two: Identifying Data Sources**: Within the datasources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs.
 
