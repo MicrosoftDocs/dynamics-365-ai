@@ -33,18 +33,19 @@ The main administration page is the **Permissions** page where you can set up ro
 - **Adding Roles and Permissions** 
 This is done via the **Add Permissions** panel that can be accessed via  **Add** at the top of the permissions page:
 
+Replace with permissions final1:
  ![add-permissions.png](media/add-permissions.png)
  
-Once the panel is opened, first you will need to find the **person, group, or application** to which you want to give the permission. Type a name in the **Name field** as shown below. As mentioned, beyond people you can also give permissions to applications, and these will connect to Customer 360 via our APIs.
+Once the panel is opened, first you will need to find the person to which you want to give the permission. Type a name in the **Name field** as shown below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Add permissions")
 
-Then, choose a role for that person/group/application as shown below:
+Then, choose a role for that person as shown below:
 
 [missing permissions image]
 
- Lastly, hit **Save** in the bottom right corner of the panel.
+Lastly, hit **Save** in the bottom right corner of the panel. Upon saving a permission, an instance will be automatically created for the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perfom actions according to the roles table that was specified above.
  
 - **Viewing current permissions**: After hitting save you can view all the permissions that were given in this page:
 
@@ -53,8 +54,8 @@ Then, choose a role for that person/group/application as shown below:
 
 Let's explore this screen:
 
-- The **Type** column specifies whether it's a single member or a group
-- A role is specified under the **Roles** column
+- The **Type** column specifies whether it's a single member, a group, or an application (at this point Customer 360 supports only individual users)
+- Roles are specified under the **Roles** column
 - You can also look for a specific person, group or application by typing it's name in the search field:
 [?]
 
