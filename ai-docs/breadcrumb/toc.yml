@@ -1,0 +1,7 @@
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/
+  items:
+  - name: "AI"
+    tocHref: /dynamics365/ai/
+    topicHref: /dynamics365/ai/
