@@ -14,7 +14,8 @@ manager: shellyha
 
 # Incoming cases dashboard​
 
-![Incoming cases dashboard](media/ai-csi-incoming-cases-dash.png)
+> [!div class="mx-imgBorder"]
+> ![Incoming cases dashboard](media/ai-csi-incoming-cases-dash.png)
 
 The Incoming cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
@@ -22,11 +23,16 @@ The Incoming cases dashboard includes a variety of charts with graphical views o
 
 Chart | Link
 ----- | ----
-![Case priority chart](media/ai-csi-case-priority-incoming.png) | [Case priority](#case-priority-chart)
-![Case channel chart](media/ai-csi-case-channels-incoming.png) | [Case channel](#case-channel-chart)
-![Case timing chart](media/ai-csi-case-timing.png) | [Case timing](#case-timing-chart)
-![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
-![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
+> [!div class="mx-imgBorder"]
+> ![Case priority chart](media/ai-csi-case-priority-incoming.png) | [Case priority](#case-priority-chart)
+> [!div class="mx-imgBorder"]
+> ![Case channel chart](media/ai-csi-case-channels-incoming.png) | [Case channel](#case-channel-chart)
+> [!div class="mx-imgBorder"]
+> ![Case timing chart](media/ai-csi-case-timing.png) | [Case timing](#case-timing-chart)
+> [!div class="mx-imgBorder"]
+> ![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
+> [!div class="mx-imgBorder"]
+> ![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The *Current popular topics* and *Emerging topics* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 
@@ -36,7 +42,8 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## Case priority chart
 
-![Case priority chart](media/ai-csi-case-priority-incoming.png)
+> [!div class="mx-imgBorder"]
+> ![Case priority chart](media/ai-csi-case-priority-incoming.png)
 
 The case priority chart shows the breakdown in new support cases each day in the specified time period between high, medium, and low priority cases.
 
@@ -46,7 +53,8 @@ Case priority | *Daily incoming case breakdown by case priority*
 
 ## Case channel chart
 
-![Case channel chart](media/ai-csi-case-channels-incoming.png)
+> [!div class="mx-imgBorder"]
+> ![Case channel chart](media/ai-csi-case-channels-incoming.png)
 
 The case channel chart shows the breakdown in new support cases each day in the specified time period between different support channels.
 
@@ -56,7 +64,8 @@ Case channel | *Daily incoming case breakdown by channel*
 
 ## Case timing chart
 
-![Case timing chart](media/ai-csi-case-timing.png)
+> [!div class="mx-imgBorder"]
+> ![Case timing chart](media/ai-csi-case-timing.png)
 
 The case timing chart shows the trends in the time of day of new support cases for each channel during the time period.
 
@@ -66,7 +75,8 @@ Case timing | *Incoming case breakdown by channel and time of day*
 
 ## Current popular topics chart
 
-![Current popular topics chart](media/ai-csi-current-popular-topics.png)
+> [!div class="mx-imgBorder"]
+> ![Current popular topics chart](media/ai-csi-current-popular-topics.png)
 
 The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period.
 
@@ -84,7 +94,8 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
-![Emerging topics chart](media/ai-csi-emerging-topics.png)
+> [!div class="mx-imgBorder"]
+> ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
 The emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of the change in volume over the specified time period.
 
