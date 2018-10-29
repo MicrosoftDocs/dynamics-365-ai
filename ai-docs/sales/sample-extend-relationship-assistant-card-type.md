@@ -17,8 +17,7 @@ manager: shujoshi
 
 # Sample: Extend Relationship assistant card type (custom card)
 
-
-
+Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
 ## Create custom action card
 The following process explains how to create a custom card:
@@ -28,8 +27,6 @@ The following process explains how to create a custom card:
 - **Step 4:** Verify the new card type
 - **Step 5:** Create Action card for the new card type using the Web API.
 - **Step 6:** Verify the new custom card 
-
-Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
 ## Prerequisites
 Review the prerequisites before you create the custom cards in your organization:
@@ -53,6 +50,8 @@ Go to the path `ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`
 ### Schema Definition (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829)
 
 The contains schema definition for new card type.
+> [!NOTE]
+> Ensure that card type ID value is  grater than 10000.
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -236,7 +235,7 @@ OData-Version: 4.0
 
 ```HTTP
 {
-"@odata.context":"https://harshtester001.crm.dynamics.com/api/data/v9.0/$metadata#cardtype/$entity",
+"@odata.context":"https://[Organization URI]/api/data/v9.0/$metadata#cardtype/$entity",
 "@odata.etag":"W/"662120\"",
 "boolcardoption":false,
 "clientavailability":3,
