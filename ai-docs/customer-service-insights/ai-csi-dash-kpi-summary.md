@@ -14,7 +14,8 @@ manager: shellyha
 
 # KPI summary dashboard
 
-![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
+> [!div class="mx-imgBorder"]
+> ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
 The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 
@@ -22,14 +23,22 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 
 Chart | Link
 ----- | ----
-![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts)
-![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart)
-![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart)
-![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channel-chart)
-![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart)
-![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart)
-![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
-![Emerging topics](media/ai-csi-top-resolve-time.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
+> [!div class="mx-imgBorder"]
+> ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts)
+> [!div class="mx-imgBorder"]
+> ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart)
+> [!div class="mx-imgBorder"]
+> ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart)
+> [!div class="mx-imgBorder"]
+> ![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channel-chart)
+> [!div class="mx-imgBorder"]
+> ![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart)
+> [!div class="mx-imgBorder"]
+> ![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart)
+> [!div class="mx-imgBorder"]
+> ![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
+> [!div class="mx-imgBorder"]
+> ![Emerging topics](media/ai-csi-top-resolve-time.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -39,7 +48,8 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## KPI summary charts
 
-![KPI summary charts](media/ai-csi-kpi-charts.png)
+> [!div class="mx-imgBorder"]
+> ![KPI summary charts](media/ai-csi-kpi-charts.png)
 
 The KPI summary charts summarize the key performance indicators for the specified time period, and the percent change over the period:
 
@@ -56,7 +66,8 @@ A blue up and down indicator next the value indicates the percent change in a po
 
 ## Case priority chart
 
-![Case priority chart](media/ai-csi-case-priority.png)
+> [!div class="mx-imgBorder"]
+> ![Case priority chart](media/ai-csi-case-priority.png)
 
 The case priority chart shows the percentage breakdown for the specified time period between high, normal, and low priority support cases.
 
@@ -66,7 +77,8 @@ Case priority | *Total case breakdown by case priority*
 
 ## Total case breakdown chart
 
-![Total case breakdown chart](media/ai-csi-total-case-breakdown.png)
+> [!div class="mx-imgBorder"]
+> ![Total case breakdown chart](media/ai-csi-total-case-breakdown.png)
 
 The total case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from earlier. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
 
@@ -76,7 +88,8 @@ Total case breakdown | *Total case breakdown by rollover cases (backlog) plus ne
 
 ## Case channel chart
 
-![Case channel chart](media/ai-csi-case-channels.png)
+> [!div class="mx-imgBorder"]
+> ![Case channel chart](media/ai-csi-case-channels.png)
 
 The case channel chart shows the breakdown in support cases for the specified time period by support channel.
 
@@ -86,7 +99,8 @@ Case channels | *Total case breakdown by channel*
 
 ## Case tracking chart
 
-![Case tracking chart](media/ai-csi-case-tracking.png)
+> [!div class="mx-imgBorder"]
+> ![Case tracking chart](media/ai-csi-case-tracking.png)
 
 The case tracking chart shows the trend in the number of new support cases for the specified time period as well as the trend in how many cases are being resolved.
 
@@ -97,7 +111,8 @@ Resolved | *The number of cases resolved each day for the specified time period*
 
 ## Unresolved cases by age chart
 
-![Unresolved cases by age chart](media/ai-csi-cases-by-age.png)
+> [!div class="mx-imgBorder"]
+> ![Unresolved cases by age chart](media/ai-csi-cases-by-age.png)
 
 The unresolved cases by age chart shows the relative number of support cases for the specified time period by how many days ago they were created.
 
@@ -107,7 +122,8 @@ Unresolved cases by age | *Total unresolved cases by days unresolved*
 
 ## Top case volume impactors chart
 
-![Top case volume impactors chart](media/ai-csi-top-case-volume.png)
+> [!div class="mx-imgBorder"]
+> ![Top case volume impactors chart](media/ai-csi-top-case-volume.png)
 
 The top case volume impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
 
@@ -121,7 +137,8 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
-![Emerging topics chart](media/ai-csi-top-resolve-time.png)
+> [!div class="mx-imgBorder"]
+> ![Emerging topics chart](media/ai-csi-top-resolve-time.png)
 
 The emerging topics chart displays support topics that have a high volume change in order of volume over the specified time period.
 
