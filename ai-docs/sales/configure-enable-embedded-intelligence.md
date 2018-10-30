@@ -1,7 +1,7 @@
 ---
 title: "Configure and enable embedded intelligence features for Dynamics 365 Customer Engagement  | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/31/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

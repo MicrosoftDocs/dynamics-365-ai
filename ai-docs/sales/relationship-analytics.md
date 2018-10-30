@@ -2,7 +2,7 @@
 title: "Preview feature: Relationship analytics for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to analyze customer interaction data with Dynamics 365 (online)."
 keywords: "relationship analytics, customer interaction data, My Open Opportunities by Relationship, relationship activities"
-ms.date: 04/01/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

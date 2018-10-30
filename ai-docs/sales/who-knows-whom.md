@@ -2,7 +2,7 @@
 title: "Who Knows Whom in Dynamics 365 for Sales | MicrosoftDocs"
 description: "how to get introduced to a lead in Dynamics 365 for Sales."
 keywords: "who knows whom, get introduced to lead, Dynamics 365 for Sales"
-ms.date: 08/20/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

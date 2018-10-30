@@ -2,7 +2,7 @@
 title: "Opt out of relationship analytics (GDPR) (Dynamics 365 Customer Engagement) | Microsoft Docs  "
 description: "Opt out to ensure that no relationship analytics is performed on your data when using Embedded Intelligence."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
-ms.date: 04/18/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

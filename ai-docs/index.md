@@ -43,7 +43,7 @@ ms.date: 10/31/2018
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -55,14 +55,14 @@ ms.date: 10/31/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Customer Service Insights</h3>
-                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-overview">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-quickstart">Quickstart</a></p>
-                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-dashboard-reference">Dashboard reference</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/overview">Overview</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/quickstart">Quickstart</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/dashboard-overview">Dashboard overview</a></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </li>-->
+                            </li>
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -95,8 +95,8 @@ ms.date: 10/31/2018
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Sales</h3>
                                                 <p><a href="/dynamics365/ai/sales/overview">Overview</a></p>
                                                 <p><a href="/dynamics365/ai/sales/configure-enable-embedded-intelligence">Embedded intelligence</a></p>
-                                                <p><a href="/dynamics365/ai/sales/configure-enable-sales-insights-addon">AI for Sales</a></p>
-                                                <p><a href="/dynamics365/ai/sales/dynamics365-ai-sales-app">Dynamics 365 AI for Sales app</a></p>
+                                                <p><a href="/dynamics365/ai/sales/configure-enable-sales-insights-addon">Dynamics 365 AI for Sales capabilities for sellers</a></p>
+                                                <p><a href="/dynamics365/ai/sales/dynamics365-ai-sales-app">Dynamics 365 AI for Sales capabilities for sales managers</a></p>
                                             </div>
                                         </div>
                                     </div>
