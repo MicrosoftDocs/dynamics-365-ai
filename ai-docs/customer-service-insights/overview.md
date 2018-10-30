@@ -25,20 +25,20 @@ The AI-driven technology empowers informed decision making about how to improve 
 
 *The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service*
 
-For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system](quickstart.md).
+For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system's performance](quickstart.md).
 
 For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
 For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
-For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](improve-system.md).
+For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer service system](improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
 * [KPI summary dashboard](dashboard-kpi-summary.md)
 * [Incoming cases dashboard](dashboard-incoming-cases.md)
 * [Case resolution dashboard](dashboard-case-resolutions.md)
-* [CSAT dashboard](dashboard-CSAT.md)
+* [Customer satisfaction dashboard](dashboard-CSAT.md)
 * [Topic details dashboard](dashboard-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).
