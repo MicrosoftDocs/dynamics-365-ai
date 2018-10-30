@@ -10,7 +10,7 @@
 
 ## [Identify areas for improvement](ai-csi-improve-system.md)
 
-## [Improve your AI for Customer Service Insights data by cleansing support case titles](ai-csi-settings.md)
+## [Improve data quality by cleansing support case titles](ai-csi-settings.md)
 
 # [Dashboard reference](ai-csi-dashboard-reference.md)
 
@@ -26,7 +26,7 @@
 
 # Data Subject Rights (DSR) requests under GDPR
 
-## [Overview](ai-csi-gdpr-summary.md)
+## [Overview of GDPR compliance](ai-csi-gdpr-summary.md)
 
 ## [Requests for copies of personal data ](ai-csi-gdpr-export.md)
 
