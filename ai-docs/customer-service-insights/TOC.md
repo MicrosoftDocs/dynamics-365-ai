@@ -1,12 +1,8 @@
-# Overview
+# [Overview of AI for Customer Service Insights](ai-csi-overview.md)
 
-## [AI for Customer Service Insights overview](ai-csi-overview.md)
+# [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md)
 
-# Quickstart
-
-## [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md)
-
-# How to
+# How-tos
 
 ## [Use workspaces to connect to different customer service environments](ai-csi-use-workspaces.md)
 
