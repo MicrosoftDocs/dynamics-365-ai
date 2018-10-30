@@ -8,7 +8,7 @@
 
 ## [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md)
 
-## [Identify areas for improvement in your customer service system](ai-csi-improve-system.md)
+## [Identify areas for improvement](ai-csi-improve-system.md)
 
 ## [Improve your AI for Customer Service Insights data by cleansing support case titles](ai-csi-settings.md)
 
