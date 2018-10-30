@@ -1,5 +1,5 @@
 ---
-title: "Improve your AI Insights data by cleansing support case titles​"
+title: "Improve data quality by cleansing support case titles​"
 description: "Learn how to improve how to improve AI Insights charts by removing extraneous tags in support case titles."
 keywords: ""
 ms\.date: 10/31/2018
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Improve your AI Insights data by cleansing support case titles
+# Improve data quality by cleansing support case titles
 
 AI for Customer Service Insights uses artificial intelligence technology to give you insights into your customer service data by grouping support cases as *topics* that are a collection of related cases. This can help you identify areas for improvement that can have the greatest impact on system performance.
 
