@@ -12,7 +12,7 @@
 #### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 ###[Privacy notice](privacy-notice-ee.md)
 ## [Dynamics 365 AI for Sales capabilities for sellers](../sales/sales-insights-addon.md)
-### [Administrator guide] 
+### Administrator guide 
 #### [Administer Dynamics 365 AI for Sales capabilities for sellers](../sales/configure-enable-sales-insights-addon.md)
 #### [GDPR for Dynamics 365 AI for Sales](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
