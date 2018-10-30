@@ -80,7 +80,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 3. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics")<br>
-1. On the **Relationship analytics** page, configure the parameters as described in the following table.
+4. On the **Relationship analytics** page, configure the parameters as described in the following table.
 
     |**Parameter**|**Description**|
     |-|-|
@@ -91,6 +91,20 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     > ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")<br>
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
+
+Enable **Dynamics 365 AI for Sales – Analytics** option in admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on relationship analytics configuration page is automatically selected. <br>
+To enable Dynamics 365 AI for Sales – Analytics, follow these steps: 
+
+1. Go to **Admin** center.<br>
+    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
+
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Analytics**.<br>
+    ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
+
+3. Read the description and configure the Dynamics 365 AI for Sales – Analytics settings as **on** and select **Save**.<br>
+    ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
+
+    Now you can connect to exchange server to collect data.
 
 > [!NOTE]
 > For more information about Relationship analytics and how it can help your users, see [View customer activity history](../sales/relationship-analytics.md)
@@ -257,21 +271,6 @@ If you don't want to use the Sales insights add-on features for your organizatio
     > [!NOTE]
     > If you want to install Sales insights add-on in future, makesure that you uninstall the **SalesInsightsAddOn** package too after uninstalling Relationship analytics and Predictive lead scoring.
 -->
-
-## Enable Exchange Data for Analytics features
-
-Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. To collect this information, you must provide privileges to connect to the exchange server through the Admin center.
-
-1. Go to **Admin** center.<br>
-    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
-
-2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Analytics**.<br>
-    ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
-
-3. Read the description and configure the Dynamics 365 AI for Sales – Analytics settings as **on** and select **Save**.<br>
-    ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
-
-    Now you can connect to exchange server to collect data.
 
 ## Privacy notice  
 
