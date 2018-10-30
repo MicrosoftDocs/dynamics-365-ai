@@ -24,6 +24,8 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0 <br>
 
+[!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
 As a sales manager, you must help every sales rep to win deals and generate revenue more effectively. There will be few sales reps who can outperform other sales reps in your team to reach the quota. The **Teams** section provides information on how the team is attaining their objectives. You can analyze the data and coach everyone to win deals and generate revenue. 
 
 On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, select **Teams**. The **Teams** section displays as follows and contains the following two tabs:

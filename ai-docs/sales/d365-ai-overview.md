@@ -24,6 +24,8 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0 <br>
 
+[!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]  
+
 When you log in to [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] application, homepage is displayed. Homepage provides high-level information on the forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news to understand:
 - Total days left in the period to achieve your target quota
 - How much you have sold

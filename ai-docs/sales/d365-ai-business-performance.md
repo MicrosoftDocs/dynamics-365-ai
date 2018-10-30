@@ -24,6 +24,8 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0 <br>
 
+[!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
 As a sales manager, it is important for you to understand how your business is doing at each level of sales cycle such as lead capture, account creation, contact setup, opportunity management, product catalog, and quote management. Using the business section, you will get a detailed information on all phases of the sales cycle to understand how your team is performing and help you to plan your day to day activities. 
 
 On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, select **Business**. The **Business** section displays as follows and contains the following tabs:

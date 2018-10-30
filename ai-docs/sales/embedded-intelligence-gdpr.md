@@ -34,9 +34,9 @@ You can perform the following tasks in the Auto Capture and Relationship Analyti
 
 |Task|Supported Feature|Topic|
 |--|--|--|
-|Specify whether relationship analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, relationship analytics won't be performed on the data.|[Relationship Analytics](relationship-analytics.md)<br />[Auto Capture](auto-capture.md)|[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)|
+|Specify whether relationship analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, relationship analytics won't be performed on the data.|[Relationship Analytics](relationship-analytics.md) and [Auto Capture](auto-capture.md)|[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)|
 |View KPI data stored for an contact, lead and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
-|Retrieve data for an contact, lead, opportunity, and systemuser from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
+|Retrieve data for an contact, lead, opportunity, and systemuser from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
 
 ### See also
 
