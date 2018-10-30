@@ -18,20 +18,20 @@
 
 # [Dashboard reference](ai-csi-dashboard-reference.md)
 
-## [KPI summary dashboard](ai-csi-dash-kpi-summary.md)
+## [KPI summary](ai-csi-dash-kpi-summary.md)
 
-## [Incoming cases dashboard](ai-csi-dash-incoming-cases.md)
+## [Incoming cases](ai-csi-dash-incoming-cases.md)
 
-## [Case resolution dashboard](ai-csi-dash-case-resolutions.md)
+## [Case resolution](ai-csi-dash-case-resolutions.md)
 
-## [Customer satisfaction dashboard](ai-csi-dash-CSAT.md)
+## [Customer satisfaction](ai-csi-dash-CSAT.md)
 
-## [Topic details dashboard](ai-csi-dash-topic-details.md)
+## [Topic details](ai-csi-dash-topic-details.md)
 
-# Respond to DSR requests
+# Data Subject Rights (DSR) requests under GDPR
 
-## [Summary](ai-csi-gdpr-summary.md)
+## [Overview](ai-csi-gdpr-summary.md)
 
-## [Export requests](ai-csi-gdpr-export.md)
+## [Requests for copies of personal data ](ai-csi-gdpr-export.md)
 
-## [Delete requests](ai-csi-gdpr-delete.md)
+## [Requests to delete personal data](ai-csi-gdpr-delete.md)
