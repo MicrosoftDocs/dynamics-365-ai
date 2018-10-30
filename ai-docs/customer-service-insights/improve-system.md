@@ -35,11 +35,11 @@ Many of the AI Insights charts include an Impact field, showing the impact of th
 
 The following AI Insights charts show you support cases that have the most impact on resolution time and customer satisfaction:
 
-* [Top resolve time impactors (KPI summary dashboard)](dash-kpi-summary.md#top-resolve-time-impactors-chart)
-* [Top CSAT impactors (Customer satisfaction dashboard)](dash-CSAT.md#top-csat-impactors-chart)
-* [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
-* [Top CSAT impactors (Topic details dashboard)](dash-topic-details.md#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](dash-topic-details.md#top-resolve-time-impactors-chart)
+* [Top resolve time impactors (KPI summary dashboard)](dashboard-kpi-summary.md#top-resolve-time-impactors-chart)
+* [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
+* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions#top-resolution-time-impactors)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
+* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
 ## Resolution time charts
 
@@ -47,17 +47,17 @@ Use resolution time charts to give you different views of how long it is taking 
 
 The following charts give you different views of case resolution time:
 
-* [Average resolve time KPI Summary chart (KPI summary dashboard)](dash-kpi-summary.md#kpi-summary-charts)
-* [Unresolved cases by age (KPI summary dashboard)](dash-kpi-summary.md#unresolved-cases-by-age-chart)
-* [Current popular topics (Incoming cases dashboard)](dash-incoming-cases.md#current-popular-topics-chart)
-* [Emerging topics (Incoming cases dashboard)](dash-incoming-cases.md#emerging-topics-chart)
-* [Agents with longest resolve time (Case resolution dashboard)](dash-case-resolutions.md#agents-with-longest-resolve-time-chart)
-* [New cases versus average resolve time (Case resolution dashboard)](dash-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
-* [New escalations versus resolved escalations (Case resolution dashboard)](dash-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
-* [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution.md#top-resolution-time-impactors)
-* [Agents with longest average resolve time (Topic details dashboard)](dash-topic-details.md#agents-with-longest-average-resolve-time-chart)
-* [Top CSAT impactors (Topic details dashboard)](dash-topic-details.md#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](dash-topic-details.md#top-resolve-time-impactors-chart)
+* [Average resolve time KPI Summary chart (KPI summary dashboard)](dashboard-kpi-summary.md#kpi-summary-charts)
+* [Unresolved cases by age (KPI summary dashboard)](dashboard-kpi-summary.md#unresolved-cases-by-age-chart)
+* [Current popular topics (Incoming cases dashboard)](dashboard-incoming-cases.md#current-popular-topics-chart)
+* [Emerging topics (Incoming cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
+* [Agents with longest resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
+* [New cases versus average resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
+* [New escalations versus resolved escalations (Case resolution dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
+* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors)
+* [Agents with longest average resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-average-resolve-time-chart)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
+* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
 ## Customer satisfaction charts
 
@@ -65,15 +65,15 @@ Use customer satisfaction charts to give you different views of customer feedbac
 
 The following charts give you different views of customer satisfaction:
 
-* [Average CSAT KPI Summary chart (KPI summary dashboard)](dash-kpi-summary.md#kpi-summary-charts)
-* [Current popular topics (Incoming cases dashboard)](dash-incoming-cases.md#current-popular-topics-chart)
-* [Emerging topics (Incoming cases dashboard)](dash-incoming-cases.md#emerging-topics-chart)
-* [Average CSAT (Customer satisfaction dashboard)](dash-CSAT.md#average-csat-chart)
-* [Top CSAT impactors (Customer satisfaction dashboard)](dash-CSAT.md#top-csat-impactors-chart)
-* [Average CSAT KPI chart (Topic details dashboard)](dash-topic-details.md#topic-details-KPI-charts)
-* [Overall average CSAT impact chart (Topic details dashboard)](dash-topic-details#overall-average-impact-charts)
-* [Top CSAT impactors (Topic details dashboard)](dash-topic-details.md#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](dash-topic-details.md#top-resolve-time-impactors-chart)
+* [Average CSAT KPI Summary chart (KPI summary dashboard)](dashboard-kpi-summary.md#kpi-summary-charts)
+* [Current popular topics (Incoming cases dashboard)](dashboard-incoming-cases.md#current-popular-topics-chart)
+* [Emerging topics (Incoming cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
+* [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
+* [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
+* [Average CSAT KPI chart (Topic details dashboard)](dashboard-topic-details.md#topic-details-KPI-charts)
+* [Overall average CSAT impact chart (Topic details dashboard)](dashboard-topic-details#overall-average-impact-charts)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
+* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
 ## Agent performance charts
 
@@ -81,11 +81,11 @@ Use agent performance charts to help you identify low-performing and high-perfor
 
 The following charts give you different views of agent performance:
 
-* [Agents with longest average resolve time (Case resolution dashboard)](dash-case-resolutions.md#agents-with-longest-average-resolve-time-chart)
-* [Agents with most escalations (Case resolution dashboard)](dash-case-resolutions.md#agents-with-most-escalations-chart)
-* [Agents with most unresolved cases (Topic details dashboard)](dash-topic-details.md#agents-with-most-unresolved-cases-chart)
-* [Agents with longest resolve time (Topic details dashboard)](dash-topic-details.md#agents-with-longest-resolve-time-chart)
-* [Agents with lowest average CSAT (Topic details dashboard)](dash-topic-details.md#agents-with-lowest-average-csat-chart)
+* [Agents with longest average resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-average-resolve-time-chart)
+* [Agents with most escalations (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-most-escalations-chart)
+* [Agents with most unresolved cases (Topic details dashboard)](dashboard-topic-details.md#agents-with-most-unresolved-cases-chart)
+* [Agents with longest resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-resolve-time-chart)
+* [Agents with lowest average CSAT (Topic details dashboard)](dashboard-topic-details.md#agents-with-lowest-average-csat-chart)
 
 ## Support channel charts
 
@@ -93,7 +93,7 @@ Use support channel charts to help you identify how the system is performing on 
 
 The following charts give you different views of support channel performance:
 
-* [Case channel (KPI dashboard)](dash-kpi-summary.md#case-channels-chart)
-* [Case channel (Incoming cases dashboard)](dash-incoming-cases.md#case-channels-chart)
-* [Case timing (Incoming cases dashboard)](dash-incoming-cases.md#case-timing-chart)
-* [Average CSAT (Customer satisfaction dashboard)](dash-CSAT.md#average-csat-chart)
+* [Case channel (KPI dashboard)](dashboard-kpi-summary.md#case-channels-chart)
+* [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channels-chart)
+* [Case timing (Incoming cases dashboard)](dashboard-incoming-cases.md#case-timing-chart)
+* [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
