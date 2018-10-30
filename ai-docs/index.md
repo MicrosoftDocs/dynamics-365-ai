@@ -43,7 +43,7 @@ ms.date: 10/31/2018
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
