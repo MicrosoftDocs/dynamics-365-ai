@@ -3,7 +3,7 @@
 ## [What's new](whats-new.md)
 ## [Embedded intelligence](../sales/embedded-intelligence.md)
 ### [Administrator guide](../sales/configure-enable-embedded-intelligence.md)
-### [User guide](../sales/relationship-assistant.md)
+### User guide
 #### [Guide customer communications with relationship assistant](../sales/relationship-assistant.md)
 #### [Stay updated with Action cards](../sales/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales/email-engagement.md)
@@ -18,7 +18,7 @@
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
-### [User guide](../sales/relationship-analytics.md)
+### User guide
 #### [View customer activity history](../sales/relationship-analytics.md)
 #### [Prioritize leads using predictive scores](../sales/work-predictive-lead-scoring.md)
 #### [Prioritize opportunities using predictive scores](../sales/work-predictive-opportunity-scoring.md)
