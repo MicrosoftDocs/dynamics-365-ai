@@ -82,7 +82,7 @@ Graphical charts showing the breakdown of support cases by key criteria include:
 * [Total case breakdown (KPI summary dashboard)](dashboard-kpi-summary.md#total-case-breakdown-chart)
 * [Case channel (KPI summary dashboard)](dashboard-kpi-summary.md#case-channel-chart)
 * [Case priority (Incoming cases dashboard)](dashboard-incoming-cases.md#case-priority-chart)
-* [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channels-chart)
+* [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channel-chart)
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
 * [Agents with longest resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
 * [Agents with most escalations (Case resolution dashboard)](dashboard-case-resolutions.md#agents-handling-most-escalations-chart)
@@ -102,11 +102,10 @@ AI Insights charts use language understanding technology to group support cases 
 AI Insights charts include:
 
 * [Top case volume impactors (KPI summary dashboard)](dashboard-kpi-summary.md#top-case-volume-impactors-chart)
-* [Top resolve time impactors (KPI summary dashboard)](dashboard-kpi-summary.md#top-resolve-time-impactors-chart)
 * [Current popular topics (Incoming cases dashboard)](dashboard-incoming-cases.md#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
-* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors)
+* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors-chart)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 
 
