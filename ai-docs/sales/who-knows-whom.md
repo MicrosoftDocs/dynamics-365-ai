@@ -86,6 +86,11 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 6.	Select **Send**.<br>
     The email is sent to Tricia to introduce Yvonne. 
 
+
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+
 ### See also
 
 [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)    

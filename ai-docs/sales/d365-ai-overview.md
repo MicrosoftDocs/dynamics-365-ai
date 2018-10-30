@@ -92,7 +92,7 @@ The Forecast section is classified into the following subsections.
     > [!div class="mx-imgBorder"]
     > ![Forecast quick view pane](media/d365-ai-sales-forecastpane.png "Forecast quick view pane") 
 
-    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the forecast pane to go to Forecast tab.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze team performance](../sales/d365-ai-team-performance.md)
+    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the forecast pane to go to Forecast tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze team performance](../sales/d365-ai-team-performance.md)
   
 ## Leaderboard
 
@@ -118,7 +118,7 @@ To further drill down into the individual performance, select the bar representi
    > [!div class="mx-imgBorder"]
    > ![Leaderboard quick view](media/d365-ai-sales-leaderboard-pane.png "Leaderboard quick view") 
 
-    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Leaderboard pane to go to **Leaderboard** tab. More information: View sales rep performance <link to the section>
+    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Leaderboard pane to go to **Leaderboard** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Leaderboard](../sales/d365-ai-team-performance.md#Leaderboard)
 
 ## Pipeline
 
@@ -134,7 +134,7 @@ The Pipeline section provides a view of the relationship health in your upcoming
    > [!div class="mx-imgBorder"]
    > ![Pipeline quick view](media/d365-ai-sales-pipeline-pane.png "Pipeline quick view") 
  
-    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Pipeline pane to go to Pipeline tab. More information: View potential opportunities <link to the section>
+    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Pipeline pane to go to Pipeline tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pipeline](../sales/d365-ai-business-performance.md#pipeline)
 
 ## Highlights
 
@@ -176,3 +176,6 @@ The Relevant news section keeps you informed on the latest news about your produ
 > [!div class="mx-imgBorder"]
 > ![Relevant news](media/d365-ai-sales-relevantnews.png "Relevant news")
 
+## Privacy notice  
+
+For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).

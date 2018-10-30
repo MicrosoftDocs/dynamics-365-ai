@@ -142,6 +142,10 @@ The **Leads** section helps you to understand open lead by source and leads clos
 3. **Lead qualification by source:** Displays information on where the leads of this sales rep are coming from and which sources are most successful in the specified time period. This helps in identifying the source where the sales rep can invest time for converting leads into opportunities. This information is displayed in a stacked bar chart, where x-axis defines the time period and y-axis defines the source. Hovering over a bar displays more information about the lead. Highlighting a bar in the graph cross-filters the other visualizations on the report page... and vice versa.
 4. **Top leads by quality:** Display the list of the top leads with better quality to convert into an opportunity for the sales rep. For each lead, you see the name and a link. When you select the link, the lead opens in Dynamics 365 application. You can filter the leads by selecting the lead and cross-filters the other visualizations on the report page... and vice versa.
 
+## Privacy notice  
+
+For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+
 ### See also
 
 - [Unlock sales potential with Dynamics 365 AI for sales](dynamics365-ai-sales-app.md)

@@ -53,7 +53,7 @@ The following features are available under AI for Sales:
 - Talking points
 - Who knows whom
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [AI for Sales](sales-insights-addon.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales capabilities for sellers](sales-insights-addon.md)
 
 ## Dynamics 365 AI for Sales capabilities for sales managers
 The features in [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
@@ -65,7 +65,7 @@ The following features are available under Dynamics 365 AI for Sales:
 - Team report
 - Call intelligence
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales app](dynamics365-ai-sales-app.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales capabilities for sales managers](dynamics365-ai-sales-app.md)
 
 ### See also
 

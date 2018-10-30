@@ -218,6 +218,10 @@ Your administrator can choose which types of activities are most relevant for yo
 
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+
 ### See also  
 
 - [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)

@@ -56,6 +56,11 @@ Select each topic icon on the Talking points to navigate. This helps you to star
 
 Talking points will display only the latest communication for each topic on the tile. For example, you received an email about a baseball game yesterday and you received another email today about football. The sports topic in the Talking points will be updated with the mail you received about football. 
 
+
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+
 ### See also
 
 [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md) <!--update with connection insights link-->

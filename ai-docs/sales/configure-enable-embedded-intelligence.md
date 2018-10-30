@@ -143,9 +143,15 @@ After you accept the privacy statement for embedded intelligence, Auto capture i
 >[!NOTE]
 > For more information about Auto capture and how it can help your users, see [Auto capture](auto-capture.md)
 
+## Privacy notice  
+
+For specific privacy information about Embedded intelligence, see [Privacy notice](privacy-notice-ee.md).
+
+
 ### See also
 
--  [Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)
--  [Guide customer communications](relationship-assistant.md)
--  [View message interactions](email-engagement.md)
--  [Display emails](auto-capture.md)
+- [Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)
+- [Guide customer communications](relationship-assistant.md)
+- [View message interactions](email-engagement.md)
+- [Display emails](auto-capture.md)
+- [Privacy notice](privacy-notice-ee.md)

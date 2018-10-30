@@ -257,6 +257,10 @@ Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics
 
     Now you can connect to exchange server to collect data.
 
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+
 ### See also
 
 - [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)

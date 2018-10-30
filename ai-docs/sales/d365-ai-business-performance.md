@@ -170,6 +170,10 @@ The following is an example of how the leads tab is displayed:
 |**8. Leads by region**|Displays in which region you have open leads. Also, helps you to analyze in which region you have to focus to increase the leads. Each lead is plotted on the map as a bubble and attached to the address of the account. The size of the bubble determines the value of the lead. Hover over the bubble to see more information such as city and open lead count.<br>Highlighting a bubble cross-filters the other visualizations on the report page... and vice versa.|
  
 
+## Privacy notice  
+
+For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+
 ### See also
 
 - [Unlock sales potential with Dynamics 365 AI for sales](dynamics365-ai-sales-app.md)

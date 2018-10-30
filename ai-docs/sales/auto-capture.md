@@ -102,7 +102,8 @@ The following describes the support for viewing, opening, and tracking untracked
 <a name="BKMK_Privacy"></a>   
 
 ## Privacy notice  
-[!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
+
+For specific privacy information about Auto capture, see [Privacy notice](privacy-notice-ee.md).
   
 ### See also
 

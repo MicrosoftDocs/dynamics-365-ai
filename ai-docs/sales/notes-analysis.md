@@ -51,6 +51,11 @@ When you have multiple suggestions associated with a note, [!INCLUDE[pn-crm-shor
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with activities](/dynamics365/customer-engagement/basics/work-with-activities)
 
+
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+
 ### See also
 
 [Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)

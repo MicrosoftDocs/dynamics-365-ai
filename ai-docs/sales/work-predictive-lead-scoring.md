@@ -54,6 +54,9 @@ The numbered sections are:
 3.	**Feedback.** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score.
     To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 

@@ -71,6 +71,10 @@ The following diagram illustrates how you can access the [!INCLUDE[pn-dynamics-a
 > [!div class="mx-imgBorder"]
 > ![How to access the Dynamics 365 AI for Sales application](media/d365-ai-app-access.png "How to access the Dynamics 365 AI for Sales application")
 
+## Privacy notice  
+
+For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+
 ### See also
 
 - [View overall sales insights](../sales/d365-ai-overview.md)

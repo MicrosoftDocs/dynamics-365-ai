@@ -33,8 +33,8 @@ search.app:
 <h2>Get started</h2>
 <li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 AI for Sales overview</a></li>
 <li><a href="embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](embedded-intelligence.md)">Embedded intelligence overview</a></li>
-<li><a href="sales-insights-addon.md" data-raw-source="[AI for Sales overview](sales-insights-addon.md)">AI for Sales overview</a></li>
-<li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 AI for Sales app overview](dynamics365-ai-sales-app.md)">Dynamics 365 AI for Sales app overview</a></li>
+<li><a href="sales-insights-addon.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sellers overview](sales-insights-addon.md)">AI for Sales overview</a></li>
+<li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sales managers overview](dynamics365-ai-sales-app.md)">Dynamics 365 AI for Sales app overview</a></li>
 </td><td>
 <h2>Administer the system</h2>
 <li><a href="configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>

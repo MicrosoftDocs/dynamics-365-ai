@@ -119,7 +119,7 @@ When you have multiple suggestions associated with a note, Dynamics 365 displays
 
 ## Privacy notice  
 
-[!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
+For specific privacy information about Relationship assistant, see [Privacy notice](privacy-notice-ee.md).
 
 ### See also  
 
