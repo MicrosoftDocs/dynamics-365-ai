@@ -17,7 +17,7 @@ manager: shellyha
 > [!div class="mx-imgBorder"]
 > ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
-The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
+The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of the customer service experience at your organization, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on case volume and resolution time.
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
 
