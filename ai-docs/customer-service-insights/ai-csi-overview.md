@@ -27,7 +27,7 @@ The AI-driven technology empowers informed decision making about how to improve 
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md).
 
-For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](ai-csi-workspaces.md).
+For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](ai-csi-use-workspaces.md).
 
 For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md).
 
@@ -39,6 +39,6 @@ For details on the AI for Customer Service Insights dashboards, see the followin
 * [Incoming cases dashboard](ai-csi-dash-incoming-cases.md)
 * [Case resolution dashboard](ai-csi-dash-case-resolutions.md)
 * [CSAT dashboard](ai-csi-dash-CSAT.md)
-* [Topic details dashboard](ai-csi-topic-details.md)
+* [Topic details dashboard](ai-csi-dash-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](ai-csi-settings.md).

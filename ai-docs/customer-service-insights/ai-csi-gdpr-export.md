@@ -47,7 +47,7 @@ After the export runs successfully, you will see the data in your storage contai
 
 A tenant administrator can follow these steps to export data:
 
-1. Send email to [ccinsightadmins@microsoft.com](ccinsightadmins@microsoft.com) specifying the user’s AAD objectId in the request.
+1. Send email to ccinsightadmins@microsoft.com specifying the user’s AAD objectId in the request.
 
     An administrator from the Dynamics 365 AI for Customer Service Insights team will send an email to the address registered in the AAD user account, asking for confirmation to export data.
 2. Acknowledge the confirmation to export the data and make it available to the requestor.

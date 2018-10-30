@@ -58,7 +58,7 @@ Key performance indicator charts give you a view of the key performance data in 
 
 Each key performance indicator chart includes a blue or red up and down indicator next the value. A blue up and down indicator next the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
-The [KPI Summary](ai-csi-dash-kpi-summary) and [Topic details](ai-csi-dash-topic-details) dashboards include key performance indicator charts.
+The [KPI Summary](ai-csi-dash-kpi-summary.md) and [Topic details](ai-csi-dash-topic-details.md) dashboards include key performance indicator charts.
 
 ## Graphical trend and breakdown charts
 
@@ -69,26 +69,26 @@ The dashboards include a variety of graphical charts that give you views of diff
 
 Graphical charts showing trends include:
 
-* [Case tracking (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-tracking-chart)
-* [Unresolved cases by age (KPI summary dashboard)](ai-csi-dash-kpi-summary#unresolved-cases-by-age-chart)
-* [Case timing (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-timing-chart)
-* [New cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-cases-versus-average-resolve-time-chart)
-* [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#new-escalations-versus-resolved-escalations-chart)
-* [Topic case composition (Topic details dashboard)](ai-csi-topic-details#topic-journey-chart)
+* [Case tracking (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#case-tracking-chart)
+* [Unresolved cases by age (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#unresolved-cases-by-age-chart)
+* [Case timing (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#case-timing-chart)
+* [New cases versus average resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
+* [New escalations versus resolved escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
+* [Topic case composition (Topic details dashboard)](ai-csi-dash-topic-details.md#topic-journey-chart)
 
 Graphical charts showing the breakdown of support cases by key criteria include:
 
-* [Case priority (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-priority-chart)
-* [Total case breakdown (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-priority-chart#total-case-breakdown-chart)
-* [Case channel (KPI summary dashboard)](ai-csi-dash-kpi-summary#case-channels-chart)
-* [Case priority (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-priority-chart)
-* [Case channel (Incoming cases dashboard)](ai-csi-dash-incoming-cases#case-channels-chart)
-* [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT#average-csat-chart)
-* [Agents with longest resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-longest-resolve-time-chart)
-* [Agents with most escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions#agents-with-most-escalations-chart)
-* [Agents with most unresolved cases (Topic details dashboard)](ai-csi-topic-details#agents-with-most-unresolved-cases-chart)
-* [Agents with longest average resolve time (Topic details dashboard)](ai-csi-topic-details#agents-with-longest-average-resolve-time-chart)
-* [Agents with lowest average CSAT (Topic details dashboard)](ai-csi-topic-details#agents-with-lowest-average-csat-chart)
+* [Case priority (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#case-priority-chart)
+* [Total case breakdown (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#case-priority-chart#total-case-breakdown-chart)
+* [Case channel (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#case-channels-chart)
+* [Case priority (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#case-priority-chart)
+* [Case channel (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#case-channels-chart)
+* [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT.md#average-csat-chart)
+* [Agents with longest resolve time (Case resolution dashboard)](ai-csi-dash-case-resolutions.md#agents-with-longest-resolve-time-chart)
+* [Agents with most escalations (Case resolution dashboard)](ai-csi-dash-case-resolutions.md#agents-with-most-escalations-chart)
+* [Agents with most unresolved cases (Topic details dashboard)](ai-csi-dash-topic-details.md#agents-with-most-unresolved-cases-chart)
+* [Agents with longest average resolve time (Topic details dashboard)](ai-csi-dash-topic-details.md#agents-with-longest-average-resolve-time-chart)
+* [Agents with lowest average CSAT (Topic details dashboard)](ai-csi-dash-topic-details.md#agents-with-lowest-average-csat-chart)
 
 All dashboards include graphical trend and breakdown charts.
 
@@ -101,13 +101,13 @@ AI Insights charts use language understanding technology to group support cases 
 
 AI Insights charts include:
 
-* [Top case volume impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary#top-case-volume-impactors-chart)
-* [Top resolve time impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary#top-resolve-time-impactors-chart)
-* [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#current-popular-topics-chart)
-* [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases#emerging-topics-chart)
-* [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT#top-csat-impactors-chart)
-* [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution#top-resolution-time-impactors)
-* [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](ai-csi-dash-topic-details#top-resolve-time-impactors-chart)
+* [Top case volume impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#top-case-volume-impactors-chart)
+* [Top resolve time impactors (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#top-resolve-time-impactors-chart)
+* [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#current-popular-topics-chart)
+* [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#emerging-topics-chart)
+* [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT.md#top-csat-impactors-chart)
+* [Top resolution time impactors (Case resolution dashboard)](ai-csi-dash-case-resolution.md#top-resolution-time-impactors)
+* [Top CSAT impactors (Topic details dashboard)](ai-csi-dash-topic-details.md#top-csat-impactors-chart)
+* [Top resolve time impactors (Topic details dashboard)](ai-csi-dash-topic-details.md#top-resolve-time-impactors-chart)
 
 All dashboards include AI Insights charts.

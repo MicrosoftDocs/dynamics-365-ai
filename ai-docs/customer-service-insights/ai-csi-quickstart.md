@@ -54,6 +54,6 @@ For details on the AI for Customer Service Insights dashboards, see the followin
 * [Incoming Cases Dashboard](ai-csi-dash-incoming-cases.md)
 * [Case Resolution Dashboard](ai-csi-dash-case-resolutions.md)
 * [CSAT Dashboard](ai-csi-dash-CSAT.md)
-* [Topic Details Dashboard](ai-csi-topic-details.md)
+* [Topic Details Dashboard](ai-csi-dash-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](ai-csi-settings.md).
