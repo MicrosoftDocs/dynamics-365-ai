@@ -24,26 +24,16 @@ You can display the Topic details dashboard from one of the AI Insights charts i
 > [!div class="mx-imgBorder"]
 > ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.png)
 
-The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
 
-Chart | Link
------ | ----
-> [!div class="mx-imgBorder"]
-> ![Topic details KPI charts](media/ai-csi-topic-details-kpi-charts.png) | [Topic details KPI charts](#topic-details-kpi-charts)
-> [!div class="mx-imgBorder"]
-> ![Overall impact charts](media/ai-csi-overall-impact.png) | [Overall impact charts](#overall-impact-charts)
-> [!div class="mx-imgBorder"]
-> ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png) | [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
-> [!div class="mx-imgBorder"]
-> ![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.png) | [Agents with longest average resolve time](#agents-with-longest-average-resolve-time-chart)
-> [!div class="mx-imgBorder"]
-> ![Agents with lowest average CSAT chart](media/ai-csi-lowest-CSAT.png) | [Agents with lowest average CSAT](#agents-with-lowest-average-csat-chart)
-> [!div class="mx-imgBorder"]
-> ![Topic case composition](media/ai-csi-topic-journey.png) | [Topic case composition](#topic-case-composition-chart)
-> [!div class="mx-imgBorder"]
-> ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
-> [!div class="mx-imgBorder"]
-> ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png) | [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
+* [Topic details KPI charts](#topic-details-kpi-charts)
+* [Overall impact charts](#overall-impact-charts)
+* [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
+* [Agents with longest average resolve time](#agents-with-longest-average-resolve-time-chart)
+* [Agents with lowest average CSAT](#agents-with-lowest-average-csat-chart)
+* [Topic case composition](#topic-case-composition-chart)
+* [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
+* [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
 
 The *Top CSAT impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
 

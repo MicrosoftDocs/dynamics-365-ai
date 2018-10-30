@@ -19,20 +19,13 @@ manager: shellyha
 
 The Case resolution dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
-The Case resolution dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Case resolution dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
 
-Chart | Link
------ | ----
-> [!div class="mx-imgBorder"]
-> ![Agents with longest resolve time](media/ai-csi-longest-resolve-time.png) | [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
-> [!div class="mx-imgBorder"]
-> ![New cases versus average resolve time](media/ai-csi-incoming-vs-resolve-time.png) | [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
-> [!div class="mx-imgBorder"]
-> ![Agents handling most escalations chart](media/ai-csi-most-escalations.png) | [Agents handling most escalations](#agents-handling-most-escalations-chart)
-> [!div class="mx-imgBorder"]
-> ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png) | [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
-> [!div class="mx-imgBorder"]
-> ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.png) | [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors-chart)
+* [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
+* [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
+* [Agents handling most escalations](#agents-handling-most-escalations-chart)
+* [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
+* [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors-chart)
 
 The *Top resolution time impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 

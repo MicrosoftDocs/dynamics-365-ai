@@ -19,20 +19,13 @@ manager: shellyha
 
 The Incoming cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
-The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
 
-Chart | Link
------ | ----
-> [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority-incoming.png) | [Case priority](#case-priority-chart)
-> [!div class="mx-imgBorder"]
-> ![Case channel chart](media/ai-csi-case-channels-incoming.png) | [Case channel](#case-channel-chart)
-> [!div class="mx-imgBorder"]
-> ![Case timing chart](media/ai-csi-case-timing.png) | [Case timing](#case-timing-chart)
-> [!div class="mx-imgBorder"]
-> ![Current popular topics chart](media/ai-csi-current-popular-topics.png) | [Current popular topics (AI Insights)](#current-popular-topics-chart)
-> [!div class="mx-imgBorder"]
-> ![Emerging topics chart](media/ai-csi-emerging-topics.png) | [Emerging topics (AI Insights)](#emerging-topics-chart)
+* [Case priority](#case-priority-chart)
+* [Case channel](#case-channel-chart)
+* [Case timing](#case-timing-chart)
+* [Current popular topics (AI Insights)](#current-popular-topics-chart)
+* [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The *Current popular topics* and *Emerging topics* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 

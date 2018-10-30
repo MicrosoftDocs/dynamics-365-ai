@@ -19,20 +19,13 @@ manager: shellyha
 
 The Customer satisfaction dashboard gives you an overview of customer satisfaction (CSAT), including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on CSAT scores.
 
-The Customer satisfaction dashboard includes a variety of charts with graphical views of your system's customer satisfaction data. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The Customer satisfaction dashboard includes a variety of charts with graphical views of your system's customer satisfaction data. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
 
-Chart | Link
------ | ----
-> [!div class="mx-imgBorder"]
-> ![Total surveys completed](media/ai-csi-surveys-completed.png) | [Total surveys completed](#total-surveys-completed-chart)
-> [!div class="mx-imgBorder"]
-> ![Survey response rate](media/ai-csi-response-rate.png) | [Survey response rate](#survey-response-rate-chart)
-> [!div class="mx-imgBorder"]
-> ![Average CSAT](media/ai-csi-average-csat.png) | [Average CSAT](#average-csat-chart)
-> [!div class="mx-imgBorder"]
-> ![Customer satisfaction breakdown](media/ai-csi-csat-breakdown.png) | [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
-> [!div class="mx-imgBorder"]
-> ![Top CSAT impactors](media/ai-csi-CSAT-impactors.png) | [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
+* [Total surveys completed](#total-surveys-completed-chart)
+* [Survey response rate](#survey-response-rate-chart)
+* [Average CSAT](#average-csat-chart)
+* [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
+* [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
 
 The *Top CSAT impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
 

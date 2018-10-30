@@ -19,19 +19,16 @@ manager: shellyha
 
 The KPI (Key Performance Indicator) summary dashboard gives you a broad overview of your customer service experience, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on volume and resolution time.
 
-The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following table, or scroll down to the chart's section below.
+The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
 
-| Chart | Link |
-|------------------------------------------------------------------------------------------------------------------------------------------------|
-| ----- | ---- |
-| ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts) |
-| ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart) |
-| ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart) |
-| ![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channel-chart) |
-| ![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart) |
-| ![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart) |
-| ![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart) |
-| ![Emerging topics](media/ai-csi-top-resolve-time.png) | [Emerging topics (AI Insights)](#emerging-topics-chart) |
+* [KPI summary charts](#kpi-summary-charts)
+* [Total case breakdown](#total-case-breakdown-chart)
+* [Case priority](#case-priority-chart)
+* [Case channel](#case-channel-chart)
+* [Case tracking](#case-tracking-chart)
+* [Unresolved cases by age](#unresolved-cases-by-age-chart)
+* [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
+* [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
