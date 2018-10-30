@@ -6,7 +6,7 @@
 
 ## [Use workspaces to connect to different customer service environments](use-workspaces.md)
 
-## [Work with AI for Customer Service Insights dashboards](use-dash-sample-data.md)
+## [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md)
 
 ## [Identify areas for improvement](improve-system.md)
 
@@ -14,15 +14,15 @@
 
 # [Dashboard reference](dashboard-reference.md)
 
-## [KPI summary](dash-kpi-summary.md)
+## [KPI summary](dashboard-kpi-summary.md)
 
-## [Incoming cases](dash-incoming-cases.md)
+## [Incoming cases](dashboard-incoming-cases.md)
 
-## [Case resolution](dash-case-resolutions.md)
+## [Case resolution](dashboard-case-resolutions.md)
 
-## [Customer satisfaction](dash-CSAT.md)
+## [Customer satisfaction](dashboard-CSAT.md)
 
-## [Topic details](dash-topic-details.md)
+## [Topic details](dashboard-topic-details.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 

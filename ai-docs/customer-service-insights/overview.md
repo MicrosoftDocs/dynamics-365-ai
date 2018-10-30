@@ -29,16 +29,16 @@ For a walkthrough of how to connect to your customer service data to gain insigh
 
 For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dash-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
-* [KPI summary dashboard](dash-kpi-summary.md)
-* [Incoming cases dashboard](dash-incoming-cases.md)
-* [Case resolution dashboard](dash-case-resolutions.md)
-* [CSAT dashboard](dash-CSAT.md)
-* [Topic details dashboard](dash-topic-details.md)
+* [KPI summary dashboard](dashboard-kpi-summary.md)
+* [Incoming cases dashboard](dashboard-incoming-cases.md)
+* [Case resolution dashboard](dashboard-case-resolutions.md)
+* [CSAT dashboard](dashboard-CSAT.md)
+* [Topic details dashboard](dashboard-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).

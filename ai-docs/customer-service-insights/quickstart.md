@@ -44,16 +44,16 @@ If you want to explore working with the dashboards using sample data before conn
 > [!div class="mx-imgBorder"]
 > ![Demo workspace](media/ai-csi-qs-demo-workspace.png)
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dash-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas for improvement, see [Identify areas for improvement in your customer service system](improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
-* [KPI Summary Dashboard](dash-kpi-summary.md)
-* [Incoming Cases Dashboard](dash-incoming-cases.md)
-* [Case Resolution Dashboard](dash-case-resolutions.md)
-* [CSAT Dashboard](dash-CSAT.md)
-* [Topic Details Dashboard](dash-topic-details.md)
+* [KPI Summary Dashboard](dashboard-kpi-summary.md)
+* [Incoming Cases Dashboard](dashboard-incoming-cases.md)
+* [Case Resolution Dashboard](dashboard-case-resolutions.md)
+* [CSAT Dashboard](dashboard-CSAT.md)
+* [Topic Details Dashboard](dashboard-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).

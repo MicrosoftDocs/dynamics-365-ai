@@ -16,6 +16,6 @@ manager: shellyha
 
 The AI for Customer Service Insights dashboards contain a variety of charts that show you key performance indicators for your customer service system, give you graphical views of the trends and breakdowns in your system's support cases, and use artificial intelligence technology to highlight support cases that are having the greatest impact on the system.
 
-You can display [KPI summary](dash-kpi-summary.md), [Incoming cases](dash-incoming-cases.md), [Case resolution](dash-case-resolutions.md), and [Customer satisfaction](dash-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. The KPI summary dashboard is the default AI for Customer Service dashboard.
+You can display [KPI summary](dashboard-kpi-summary.md), [Incoming cases](dashboard-incoming-cases.md), [Case resolution](dashboard-case-resolutions.md), and [Customer satisfaction](dashboard-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. The KPI summary dashboard is the default AI for Customer Service dashboard.
 
-You can display the [Topic details](dash-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards, hovering over **Drillthrough**, and then selecting **Topic Drill Through**.
+You can display the [Topic details](dashboard-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards, hovering over **Drillthrough**, and then selecting **Topic Drill Through**.
