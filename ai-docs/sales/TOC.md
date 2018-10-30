@@ -25,7 +25,7 @@
 #### [How notes analysis assists you with suggestion](../sales/notes-analysis.md)
 #### [Know conversation starters for your customers](../sales/talking-points.md)
 #### [Get introduced to lead](../sales/who-knows-whom.md)
-###[Privacy notice](privacy-notice-saller.md)
+###[Privacy notice](privacy-notice-seller.md)
 ## [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)
 ### [View overall sales insights](../sales/d365-ai-overview.md)
 ### [Analyze business performance](../sales/d365-ai-business-performance.md)

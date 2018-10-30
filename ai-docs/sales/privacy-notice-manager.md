@@ -25,8 +25,8 @@ Your privacy is important to us. For Microsoft Online Services, read the [Micros
 
 For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers, refer to the paragraphs below.
 
-By enabling [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] Preview capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data, (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation and (2) will be sent to Bing news to acquire relevant and up to date news on products, industries and customers.  
-By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory and the Bing service.
+By enabling [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] Preview capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data, (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation and (2) will be sent to Bing news to acquire relevant and up to date news on products, industries and customers.<br>
+By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory and the Bing service.<br>
 By setting up the Call Intelligence feature, Customer Data will be sent to and used by (1) Azure Event Grid for the purpose of identifying when new call recording files are available for media processing.
 
 ## Azure Services
