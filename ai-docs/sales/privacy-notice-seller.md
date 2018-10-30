@@ -19,7 +19,7 @@ search.app:
   - D365SE
 ---
 
-# Dynamics 365 AI for Sales capabilities for sellers Privacy Notices
+# Dynamics 365 AI for Sales capabilities for sellers privacy notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).
 
