@@ -27,8 +27,8 @@ Welcome to [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]
 
 [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized into the following:
 - Embedded intelligence
-- AI for Sales
-- [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
+- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers
+- [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers
 
 
 ## Embedded intelligence
@@ -41,11 +41,11 @@ The following features are available under Embedded intelligence:
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](embedded-intelligence.md)
 
 ## Dynamics 365 AI for Sales capabilities for sellers
-The features in AI for Sales are specifically designed to help sales reps / individuals to take intelligent decisions on their leads and opportunities to close the sales targets. <br>
+The features in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers are specifically designed to help sales reps / individuals to take intelligent decisions on their leads and opportunities to close the sales targets. <br>
 > [!NOTE]
 > You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
 
-The following features are available under AI for Sales:
+The following features are available under seller capabilities:
 - Relationship analytics
 - Predictive lead scoring
 - Predictive opportunity scoring
@@ -58,7 +58,7 @@ The following features are available under AI for Sales:
 ## Dynamics 365 AI for Sales capabilities for sales managers
 The features in [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
 > [!NOTE]
-> You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
+> You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] features.
 
 The following features are available under Dynamics 365 AI for Sales:  
 - Business report

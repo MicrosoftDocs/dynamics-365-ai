@@ -34,7 +34,7 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 - Who knows whom
 
 > [!IMPORTANT]
-> The AI for Sales features are available only in North American (NAM) regions.
+> The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features are available only in North American (NAM) regions.
 
 ## GDPR
 
