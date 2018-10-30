@@ -25,7 +25,7 @@ ms.date: 10/31/2018
                     <li>
                         <a data-default="true" href="#ai-sub"></a>
                         <ul id="ai-sub" class="cardsF">
-                            <li>
+                            <!--<li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -43,6 +43,7 @@ ms.date: 10/31/2018
                                         </div>
                                     </div>
                                 </div>
+                            </li>-->
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -54,9 +55,9 @@ ms.date: 10/31/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Customer Service Insights</h3>
-                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-overview">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-quickstart">Quickstart</a></p>
-                                                <p><a href="/dynamics365/ai/customer-service-insights/ai-csi-dashboard-reference">Dashboard reference</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/overview">Overview</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/quickstart">Quickstart</a></p>
+                                                <p><a href="/dynamics365/ai/customer-service-insights/dashboard-overview">Dashboard overview</a></p>
                                             </div>
                                         </div>
                                     </div>
