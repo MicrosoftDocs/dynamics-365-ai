@@ -14,7 +14,7 @@
 
 # [Dashboard reference]
 
-## [Overview](dashboard-reference.md)
+## [Overview of dashboards](dashboard-overview.md)
 
 ## [KPI summary](dashboard-kpi-summary.md)
 
@@ -28,7 +28,7 @@
 
 # Data Subject Rights (DSR) requests under GDPR
 
-## [Overview of GDPR compliance](ai-csi-gdpr-summary.md)
+## [Overview of GDPR compliance](gdpr-summary.md)
 
 ## [Requests for copies of personal data ](gdpr-export.md)
 
