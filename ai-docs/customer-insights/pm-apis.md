@@ -42,34 +42,48 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 ### Functionalities served with the Customer 360 *Open Data Protocol APIs*:
 
-[APIs image 2]
+[API image 2]
 
 - *Put* API: **/api/instances/{instanceId}/data/{relativePath}**
 
 [API table1]
 
-### Functionalities served with the Customer 360 *Conflation APIs*: 
+### Limitations involved with using the Customer 360 *Conflation APIs*: 
 
 [APIs image 3]
 
-- sdfsdf
+**Limitations by field (across all Conflation APIs):
 
-[API table2]
+[API table 2]
 
-Viewing and retrieving configurations that were made during the *Data Configuration* process 
-and can do the conflation here
-and configure 
-patrick
+**Additional limitations by API:**
 
-### Functionalities served with the Customer 360 *Relationship APIs*: 
-management API for relationship: ? 
-notes: you can use the relationship in the segment query builder
+[API table3]
+
+//Viewing and retrieving configurations that were made during the *Data Configuration* process 
+//and can do the conflation here
+//and configure 
+
+
+### Limitations ivolved with using the Customer 360 *Relationship APIs*: 
+
+//management API for relationship: ? 
+//notes: you can use the relationship in the segment query builder
 
 [APIs image 4]
 
-- sdfsdf
+**Limitations Common to all APIs**:
+1.	These APIs require that data has already been ingested, except for the following APIs:
+a.	GET /api/instances/{instanceId}/manage/schema/entitySemanticLabels
+b.	GET /api/instances/{instanceId}/manage/schema/attributeSemanticLabels
+c.	GET /api/instances/{instanceId}/manage/relationships
+d.	GET /api/instances/{instanceId}/manage/relationships/{relationshipName}
+e.	DELETE /api/instances/{instanceId}/manage/relationships/{relationshipName}
+2.	For relationship APIs, any time {relationshipName} is provided, there must actually exist a relationship with that name in the given instance.
 
-[API table x]
+**Additional limitations by API**:
+
+[API table 4]
 
 ### Functionalities served with the Customer 360 *Segmentation APIs*: 
 management API for segments: Create, update, get and delete segment definition. Activste and deactivate. 
@@ -78,6 +92,6 @@ search and query customer data  /data/Customer(customerId='123')
 
 [APIs image 5]
 
-- sgfgdfg
+- **Functionalities and limitations by API:**
 
-[API table y]
+[API table 5]
