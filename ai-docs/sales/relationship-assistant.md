@@ -2,7 +2,7 @@
 title: "Relationship assistant for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

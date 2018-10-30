@@ -2,7 +2,7 @@
 title: "Configure and enable Sales insights add-on for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Configure and enable Sales insights add-on"
 keywords: "sales insights addon, insights addon, relationship analytics, predictive lead scoring, lead scoring"
-ms.date: 05/08/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

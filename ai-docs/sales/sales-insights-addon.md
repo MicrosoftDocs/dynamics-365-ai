@@ -2,7 +2,7 @@
 title: "Sales insights add-on for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Get insights into customer opportunities, activities, and leads."
 keywords: "sales insights addon, insights addon, relationship analytics, predective lead scoring, lead scoring"
-ms.date: 05/08/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Talking points in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Know conversation starters of customers in Dynamics 365 for Sales."
 keywords: "talking points, conversation starters, Dynamics 365 for Sales"
-ms.date: 08/20/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

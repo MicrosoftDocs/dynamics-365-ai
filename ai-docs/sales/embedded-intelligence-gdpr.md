@@ -2,7 +2,7 @@
 title: "Dynamics365 AI for Sales and GDPR (Dynamics 365 Customer Engagement) | Microsoft Docs  "
 description: "Protect customer privacy and remain compliant with GDPR regulations when using Dynamics365 AI for Sales"
 keywords: "GDPR; data protection; privacy;"
-ms.date: 04/18/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
