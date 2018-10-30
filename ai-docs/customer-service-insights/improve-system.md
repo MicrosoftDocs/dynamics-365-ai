@@ -37,7 +37,7 @@ The following AI Insights charts show you support cases that have the most impac
 
 * [Top resolve time impactors (KPI summary dashboard)](dashboard-kpi-summary.md#top-resolve-time-impactors-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
-* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions#top-resolution-time-impactors)
+* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
@@ -71,7 +71,7 @@ The following charts give you different views of customer satisfaction:
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
 * [Average CSAT KPI chart (Topic details dashboard)](dashboard-topic-details.md#topic-details-KPI-charts)
-* [Overall average CSAT impact chart (Topic details dashboard)](dashboard-topic-details#overall-average-impact-charts)
+* [Overall average CSAT impact chart (Topic details dashboard)](dashboard-topic-details.md#overall-average-impact-charts)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
