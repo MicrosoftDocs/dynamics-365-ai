@@ -68,7 +68,7 @@ The following charts give you different views of customer satisfaction:
 * [Average CSAT KPI Summary chart (KPI summary dashboard)](ai-csi-dash-kpi-summary.md#kpi-summary-charts)
 * [Current popular topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#current-popular-topics-chart)
 * [Emerging topics (Incoming cases dashboard)](ai-csi-dash-incoming-cases.md#emerging-topics-chart)
-* [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT.mdaverage-csat-chart)
+* [Average CSAT (Customer satisfaction dashboard)](ai-csi-dash-CSAT.md#average-csat-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](ai-csi-dash-CSAT.md#top-csat-impactors-chart)
 * [Average CSAT KPI chart (Topic details dashboard)](ai-csi-dash-topic-details.md#topic-details-KPI-charts)
 * [Overall average CSAT impact chart (Topic details dashboard)](ai-csi-dash-topic-details#overall-average-impact-charts)
