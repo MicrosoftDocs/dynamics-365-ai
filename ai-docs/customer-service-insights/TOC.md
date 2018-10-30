@@ -12,7 +12,7 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-# [Dashboard reference]
+# Dashboard reference
 
 ## [Overview of dashboards](dashboard-overview.md)
 
