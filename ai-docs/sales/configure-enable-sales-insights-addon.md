@@ -236,7 +236,7 @@ To configure Dynamics 365 AI for Sales connection graph, follow these steps:<br>
     ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")<br>
 3. Read the description and configure the Dynamics 365 AI for Sales – Connection Graph settings as **on**.<br>
     ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")<br>
-4. (Optional) If you do not want to collect information any group of users in your organization, add the group ID in the text box.<br> 
+4. (Optional) If you do not want to collect information on any group of users in your organization, add the group ID in the text box.<br> 
     ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-exclude-group.png "Enable and save connection graph")<br>
 5. Select **Save**.
 
