@@ -24,12 +24,12 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 | Chart | Link |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
 | ----- | ---- |
-| > [!div class="mx-imgBorder"]
-| > ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts) |
-| > [!div class="mx-imgBorder"]
-| > ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart) |
-| > [!div class="mx-imgBorder"] |
-| > ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart) |
+| [!div class="mx-imgBorder"]
+| ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts) |
+| [!div class="mx-imgBorder"]
+| ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart) |
+| [!div class="mx-imgBorder"] |
+| ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart) |
 | > [!div class="mx-imgBorder"] |
 | > ![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channel-chart) |
 | > [!div class="mx-imgBorder"] |
