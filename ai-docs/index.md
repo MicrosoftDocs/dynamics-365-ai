@@ -94,13 +94,9 @@ ms.date: 10/31/2018
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Sales</h3>
                                                 <p><a href="/dynamics365/ai/sales/overview">Overview</a></p>
-                                                <p>Administration</p>
-                                                <p style="margin-left:12px;"><a href="/dynamics365/ai/sales/configure-enable-embedded-intelligence">Embedded intelligence</a></p>
-                                                <p style="margin-left:12px;"><a href="/dynamics365/ai/sales/configure-enable-sales-insights-addon">AI for Sales</a></p>
-                                                <p>User guide</p>
-                                                <p style="margin-left:12px;"><a href="/dynamics365/ai/sales/relationship-assistant">Embedded intelligence</a></p>
-                                                <p style="margin-left:12px;"><a href="/dynamics365/ai/sales/relationship-analytics">AI for Sales</a></p>
-                                                <p style="margin-left:12px;"><a href="/dynamics365/ai/sales/dynamics365-ai-sales-app">Dynamics 365 AI for Sales app</a></p>
+                                                <p><a href="/dynamics365/ai/sales/configure-enable-embedded-intelligence">Embedded intelligence</a></p>
+                                                <p><a href="/dynamics365/ai/sales/configure-enable-sales-insights-addon">AI for Sales</a></p>
+                                                <p><a href="/dynamics365/ai/sales/dynamics365-ai-sales-app">Dynamics 365 AI for Sales app</a></p>
                                             </div>
                                         </div>
                                     </div>
