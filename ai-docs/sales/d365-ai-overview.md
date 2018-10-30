@@ -120,7 +120,7 @@ To further drill down into the individual performance, select the bar representi
    > [!div class="mx-imgBorder"]
    > ![Leaderboard quick view](media/d365-ai-sales-leaderboard-pane.png "Leaderboard quick view") 
 
-    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Leaderboard pane to go to **Leaderboard** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Leaderboard](../sales/d365-ai-team-performance.md#Leaderboard)
+    Select View full report icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Leaderboard pane to go to **Leaderboard** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Leaderboard](../sales/d365-ai-team-performance.md#leaderboard)
 
 ## Pipeline
 
