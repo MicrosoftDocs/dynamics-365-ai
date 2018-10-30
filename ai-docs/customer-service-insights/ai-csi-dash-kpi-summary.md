@@ -24,21 +24,13 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 | Chart | Link |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
 | ----- | ---- |
-| 
-| [!div class="mx-imgBorder"]![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts) |
-| [!div class="mx-imgBorder"]
-| ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart) |
-| [!div class="mx-imgBorder"] |
-| ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart) |
-| > [!div class="mx-imgBorder"] |
+| > ![KPI summary charts](media/ai-csi-kpi-charts.png) | [KPI summary charts](#kpi-summary-charts) |
+| > ![Total case breakdown](media/ai-csi-total-case-breakdown.png) | [Total case breakdown](#total-case-breakdown-chart) |
+| > ![Case priority](media/ai-csi-case-priority.png) | [Case priority](#case-priority-chart) |
 | > ![Case channel](media/ai-csi-case-channels.png) | [Case channel](#case-channel-chart) |
-| > [!div class="mx-imgBorder"] |
 | > ![Case tracking](media/ai-csi-case-tracking.png) | [Case tracking](#case-tracking-chart) |
-| > [!div class="mx-imgBorder"] |
 | > ![Unresolved cases by age](media/ai-csi-cases-by-age.png) | [Unresolved cases by age](#unresolved-cases-by-age-chart) |
-| > [!div class="mx-imgBorder"] |
 | > ![Top case volume impactors](media/ai-csi-top-case-volume.png) | [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart) |
-| > [!div class="mx-imgBorder"] |
 | > ![Emerging topics](media/ai-csi-top-resolve-time.png) | [Emerging topics (AI Insights)](#emerging-topics-chart) |
 
 The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
