@@ -52,7 +52,7 @@ Here you want to add all the entities which, upon unification, may lead to a bet
 
 - Note that you should search for and select **at least two entities** in order to benefit from the Data Configuration process.
 
-### Working with the Map Screen
+### Adding Attributes to Entities within the Map Screen
 
 Following entity selection, you should reach the following screen which is called the **Map Screen**:
 
@@ -60,10 +60,21 @@ Following entity selection, you should reach the following screen which is calle
 
 On the left you can see your ingested entities as highlighted in red above. Upon reaching this page, the first entity will be automatically selected (in the example above it's the **Contact** entity). 
 
-- At this point you should start add attributes to each of your entities. You should selce the attributes on the basis of which you will want to merge your entities as part of the next Data Configuration phase (called **Match**). You can either manually add attributes by selecting **Define my Own** as shown in red below, or let the system auto-identify the attributes for that entity as shown in blue.
+- At this point you should start add attributes to each of your entities. You should select all the attributes on the basis of which you want to combine your entities. You can either manually add attributes by as shown in red below, or let the system auto-identify the attributes for the selected entity as shown in blue:
 
 [Map final 7]
 
+- **Manually adding attributes**: Upon clicking **Define** a window will show up on the right:
+
+[Map final 8]
+
+Here you can select all the attributes that are relevant for each of your entities (remember, in the example above we had two entities: **Contact** and **Syrvey** entities). Use either the **search field** (highlited below in red) and/or scroll down the menu (highlighted in blue) to locate and select all the attributes. Finish by clicking **Save** at the right bottom corenr of the window. Note that you can also choose **all** the attributes by clicking **Select all attributes** (shown below in green) or deselect all your chosen attributes by clicking the same botton after you made certain selections:
+
+[Map final 9]
+
+## Selecting Primary Keys and Defining Attribute Types
+
+## Editing Entities or Attributes
 
 
 
