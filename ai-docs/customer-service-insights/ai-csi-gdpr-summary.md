@@ -1,8 +1,8 @@
 ---
-title: "Responding to GDPR Data Subject Requests for Dynamics 365 AI for Customer Service Insights"
+title: "Overview of Data Subject Requests under GDPR for Dynamics 365 AI for Customer Service Insights"
 description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 AI for Customer Service Insights."
 keywords: ""
-ms.date: 10/25/2018
+ms.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,9 +12,9 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR Data Subject Requests for Dynamics 365 AI for Customer Service Insights
+# Overview of Data Subject Requests under GDPR for Dynamics 365 AI for Customer Service Insights
 
-This article prepares you and your organization for the European Union's General Data Protection Regulation (GDPR). This article not only describes what Microsoft is doing to prepare for the GDPR but also shares examples of steps you can take today to support GDPR compliance when using Dynamics 365 AI for Customer Service Insights.
+This article helps you and your organization prepare for the European Union's General Data Protection Regulation (GDPR). This article not only describes what Microsoft is doing to prepare for the GDPR but also shares examples of steps you can take today to support GDPR compliance when using Dynamics 365 AI for Customer Service Insights.
 
 ## Prerequisites
 
