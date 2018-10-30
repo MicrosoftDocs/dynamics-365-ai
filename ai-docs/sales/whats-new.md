@@ -28,11 +28,6 @@ Welcome to [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]
 
 In this release, we have improved engagement and decision-making with prebuilt and embedded insights that are quick to deploy and easy to act on. Find the best prospects and customers for sales reps to focus on as well as the most relevant and impactful actions to move relationships forward. Empower your managers to improve sales performance and deliver proactive coaching.
 
-
-
-<!--from editor: The "more information" titles vary somewhat from the actual titles that they link to, especially the one in Relationship analytics. I think it helps the reader know they've gone to the right place if the titles match or nearly match.-->
-
-
 ### For sales reps
 
 - **Relationship analytics**: Relationship analytics empowers salespeople by providing a view into the health of a sales deal in the opportunity pipeline by combining the engagement data from Dynamics 365, Exchange Online, and LinkedIn InMail. This helps sales reps to understand the relationship health and trend, and evaluate where to invest their time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View customer activity history](../sales/relationship-analytics.md)

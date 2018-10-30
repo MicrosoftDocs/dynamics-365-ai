@@ -217,8 +217,8 @@ Who knows whom feature is available under Connection insights configuration page
   
    The configuration page opens.
 3. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
-        > [!div class="mx-imgBorder"]
-        > ![Enable who knows whom](media/who-knows-whom-enable.png "Enable who knows whom")
+    > [!div class="mx-imgBorder"]
+    > ![Enable who knows whom](media/who-knows-whom-enable.png "Enable who knows whom")
         
 4. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
 5. Select **Save**.<br>
