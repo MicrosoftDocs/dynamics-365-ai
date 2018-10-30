@@ -33,6 +33,7 @@ Connecting your data sources is the first step towards unlocking one of the uniq
 
 Data Manager includes two modules: Get Data and Entities. In the [Get Data](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module.
 
-[2a]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-two-modules.png "Data manager")
 
 

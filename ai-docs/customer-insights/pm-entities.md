@@ -43,12 +43,14 @@ The app automatically identifies values for these four columns within your inges
 ## Exploring a specific Entity's data
 If you wish to explore the different fields and records that one of your entities includes click that entity. That will take you to the following screen:
 
-[entities 2]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-entities-data.png "Data manager entities")
 
 - Upon entering the screen the ***Data*** tab is already opened (as highlighted above). This table enables you to view the details of each of this entity's records. That includes the record's value, when it was created and when was it was last refreshed.
 
 - Upon clicking the ***Fields*** tab, the Fields table will open (as highlighted below). This table enables you to view the details of each of this entity's fields, including the field's name, data type and type (for the data shown below no types were identified but for other datasets types may be identified)
 
-[entities 3]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-entities-fields.png "Data manager fields")
 
 **Final Note**: Both the **Fields** and **Data** tables show only a sample of your entity's data. In order to view the full data set please go back to the **Get Data** screen, click the entity, click **Edit**, and then view this entity's data within the power query editor as explained in the **Get Data** section.

@@ -29,14 +29,16 @@ robots: noindex,nofollow
 
 **During the Match and Merge process system relationships are already created behind the scenes based on intelligent matching.** These system relationships are created to relate master customer entity with match rule entities. One relationship is created per master customer entity and match rule entity combination. These relationships help relate the master customer record with corresponding match entity records. Diagram below exemplifies the creation of 3 system relationships when 3 match entities are merged to create master customer entity:
 
-[]
+> [!div class="mx-imgBorder"] 
+> ![](media/relationships-entities-merge.png "Relationship creation")
 
 - **CustomerToContact relationship** was created between the Customer entity and the Contact entity and is based on match executed between Customer entity and Contact entity. Customer entity gets the key field Contact_contactId to relate to Contact entity key field contactId.
 - **CustomerToAccount relationship** was created between the Customer entity and the Account entity is and is based on match executed between Customer entity and Account entity. Customer entity gets the key field Account_accountId to relate to Account entity key field accountId.
 - **CustomerToWebAccount relationship** was created between the Customer entity and the WebAccount entity and is based on match executed between Customer entity and WebAccount entity. Customer entity gets the key field WebAccount_webaccountId to relate to WebAccount entity key field webaccountId.
 In addition, you can define Custom Relationships by using the Relationships link in the Configure area as shown below:
 
-[]
+> [!div class="mx-imgBorder"] 
+> ![](media/relationships-custom.png "Custom relationships")
 
 This page provides actions to add, edit or delete relationships. Each Relationships has 2 key parts:
 - **Source Entity:** This represents the many end of relationship. In relational schema terminology, this represents the entity that holds the foreign key.
@@ -44,7 +46,8 @@ This page provides actions to add, edit or delete relationships. Each Relationsh
 
 To create a relationship, you need to provide the following information:
 
-[]
+> [!div class="mx-imgBorder"] 
+> ![](media/relationships-add.png "Add a relationship")
 
 - **Relationship Name:** This is the name that you, as a user, assign to that relationship. Each relationship name must be unique. This should provide a useful name to reflect the purpose of the relationship e.g. AccountWebLogs.
 - **Description:** Optional information to describe the relationship.
