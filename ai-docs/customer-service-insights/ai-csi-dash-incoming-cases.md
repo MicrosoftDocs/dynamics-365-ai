@@ -90,7 +90,7 @@ Average resolve time | *The average resolution time of resolved incoming cases a
 Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-dash-topic-details.md).
 
 ## Emerging topics chart
 
@@ -109,4 +109,4 @@ Average resolve time | *The average resolution time of resolved incoming cases a
 Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-dash-topic-details.md).
