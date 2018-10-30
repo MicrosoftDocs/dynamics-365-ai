@@ -224,6 +224,22 @@ Who knows whom feature is available under Connection insights configuration page
 5. Select **Save**.<br>
    The Who Knows Whom is configured and ready to use in your organization.<br>
 
+After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect the communication and collaboration details of users from exchange server.<br>
+> [!NOTE]
+> Contact your Office 365 administrator to enable Dynamics 365 AI for Sales connection graph if you do not have sufficient privileges to enable. 
+ 
+To configure Dynamics 365 AI for Sales connection graph, follow these steps:<br>
+
+1. Go to **Admin** center.<br>
+    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Connection Graph**.<br>
+    ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")<br>
+3. Read the description and configure the Dynamics 365 AI for Sales – Connection Graph settings as **on**.<br>
+    ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")<br>
+4. (Optional) If you do not want to collect information any group of users in your organization, add the group ID in the text box.<br> 
+    ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-exclude-group.png "Enable and save connection graph")<br>
+5. Select **Save**.
+
 > [!NOTE]
 > For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md)
 <!--
@@ -242,17 +258,17 @@ If you don't want to use the Sales insights add-on features for your organizatio
     > If you want to install Sales insights add-on in future, makesure that you uninstall the **SalesInsightsAddOn** package too after uninstalling Relationship analytics and Predictive lead scoring.
 -->
 
-## Enable Exchange Data
+## Enable Exchange Data for Analytics features
 
-Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange. To collect this information, you must provide privileges to connect to exchange server through Admin center.
+Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. To collect this information, you must provide privileges to connect to the exchange server through the Admin center.
 
 1. Go to **Admin** center.<br>
     ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
 
-2. Select **Settings** > **Services & add-ins** > **Dynamics Customer Insights Preview**.<br>
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Analytics**.<br>
     ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
 
-3. Configure the Dynamics Customer Insights Preview to **on** and select **Save**.<br>
+3. Read the description and configure the Dynamics 365 AI for Sales – Analytics settings as **on** and select **Save**.<br>
     ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
 
     Now you can connect to exchange server to collect data.
