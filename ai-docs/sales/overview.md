@@ -2,7 +2,7 @@
 title: "Overview for Dynamics 365 AI for Sales | MicrosoftDocs"
 description: "Overview about the AI features that are offered with Sales"
 keywords: "AI, Sales AI, Dynamics 365 AI for Sales, AI for Sales, Sales"
-ms.date: 10/17/2018
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

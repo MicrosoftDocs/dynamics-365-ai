@@ -2,7 +2,7 @@
 title: "Documentation resources for Dynamics 365 AI for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 AI for Sales."
 keywords: "sales;help;AI;sales AI"
-ms.date: 10/17/2018
+ms.date: 10/31/2018
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
