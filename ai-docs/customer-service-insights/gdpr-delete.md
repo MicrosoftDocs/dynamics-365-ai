@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service."
 keywords: ""
-ms.date: 10/25/2018
+ms\.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

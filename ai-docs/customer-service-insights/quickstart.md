@@ -2,7 +2,7 @@
 title: "Quickstart - Get immediate insights into your customer service system's performance"
 description: "Learn how to quickly connect to your customer service data to gain insights into your customer service system."
 keywords: ""
-ms.date: 10/25/2018
+ms\.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -44,16 +44,16 @@ If you want to explore working with the dashboards using sample data before conn
 > [!div class="mx-imgBorder"]
 > ![Demo workspace](media/ai-csi-qs-demo-workspace.png)
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dash-sample-data.md).
 
-For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas for improvement, see [Identify areas for improvement in your customer service system](ai-csi-improve-system.md).
+For more information and examples of how to use the AI for Customer Service Insights dashboards to help you identify areas for improvement, see [Identify areas for improvement in your customer service system](improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
-* [KPI Summary Dashboard](ai-csi-dash-kpi-summary.md)
-* [Incoming Cases Dashboard](ai-csi-dash-incoming-cases.md)
-* [Case Resolution Dashboard](ai-csi-dash-case-resolutions.md)
-* [CSAT Dashboard](ai-csi-dash-CSAT.md)
-* [Topic Details Dashboard](ai-csi-dash-topic-details.md)
+* [KPI Summary Dashboard](dash-kpi-summary.md)
+* [Incoming Cases Dashboard](dash-incoming-cases.md)
+* [Case Resolution Dashboard](dash-case-resolutions.md)
+* [CSAT Dashboard](dash-CSAT.md)
+* [Topic Details Dashboard](dash-topic-details.md)
 
-For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](ai-csi-settings.md).
+For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).

@@ -2,7 +2,7 @@
 title: "Incoming cases dashboard"
 description: "Learn about the customer service insights available on the Incoming cases dashboard."
 keywords: ""
-ms.date: 10/25/2018
+ms\.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -31,7 +31,7 @@ The *Current popular topics* and *Emerging topics* charts use natural language u
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](use-dash-sample-data.md).
 
 ## Case priority chart
 
@@ -83,7 +83,7 @@ Average resolve time | *The average resolution time of resolved incoming cases a
 Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-dash-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](dash-topic-details.md).
 
 ## Emerging topics chart
 
@@ -102,4 +102,4 @@ Average resolve time | *The average resolution time of resolved incoming cases a
 Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](ai-csi-dash-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](dash-topic-details.md).

@@ -2,7 +2,7 @@
 title: "AI for Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service."
 keywords: ""
-ms.date: 10/25/2018
+ms\.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -25,20 +25,20 @@ The AI-driven technology empowers informed decision making about how to improve 
 
 *The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service.*
 
-For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md).
+For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system](quickstart.md).
 
-For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](ai-csi-use-workspaces.md).
+For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](ai-csi-use-dash-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dash-sample-data.md).
 
-For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](ai-csi-improve-system.md).
+For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer support system](improve-system.md).
 
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
-* [KPI summary dashboard](ai-csi-dash-kpi-summary.md)
-* [Incoming cases dashboard](ai-csi-dash-incoming-cases.md)
-* [Case resolution dashboard](ai-csi-dash-case-resolutions.md)
-* [CSAT dashboard](ai-csi-dash-CSAT.md)
-* [Topic details dashboard](ai-csi-dash-topic-details.md)
+* [KPI summary dashboard](dash-kpi-summary.md)
+* [Incoming cases dashboard](dash-incoming-cases.md)
+* [Case resolution dashboard](dash-case-resolutions.md)
+* [CSAT dashboard](dash-CSAT.md)
+* [Topic details dashboard](dash-topic-details.md)
 
-For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](ai-csi-settings.md).
+For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).

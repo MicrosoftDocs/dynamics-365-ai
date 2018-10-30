@@ -2,7 +2,7 @@
 title: "Topic details dashboard"
 description: "Learn about the customer service insights available on the Topic details dashboard​."
 keywords: ""
-ms.date: 10/25/2018
+ms\.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -19,7 +19,7 @@ manager: shellyha
 
 The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
-You can display the Topic details dashboard from one of the AI Insights charts in the [KPI summary](ai-csi-dash-kpi-summary.md), [Incoming cases](ai-csi-dash-incoming-cases.md), [Customer satisfaction](ai-csi-dash-CSAT.md), and [Case resolution](ai-csi-dash-case-resolutions.md) dashboards. To display the Topic details dashboard, right-click a topic name, hover over **Drillthrough**, and then select **Topic Drill Through**.
+You can display the Topic details dashboard from one of the AI Insights charts in the [KPI summary](dash-kpi-summary.md), [Incoming cases](dash-incoming-cases.md), [Customer satisfaction](dash-CSAT.md), and [Case resolution](dash-case-resolutions.md) dashboards. To display the Topic details dashboard, right-click a topic name, hover over **Drillthrough**, and then select **Topic Drill Through**.
 
 > [!div class="mx-imgBorder"]
 > ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.png)
@@ -39,7 +39,7 @@ The *Top CSAT impactors* and *Top resolve time impactors* charts use natural lan
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](ai-csi-use-dash-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](use-dash-sample-data.md).
 
 ## Topic Details KPI charts
 
