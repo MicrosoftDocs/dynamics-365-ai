@@ -1,6 +1,6 @@
-# [Overview of AI for Customer Service Insights](ai-csi-overview.md)
+# [Overview](ai-csi-overview.md)
 
-# [Quickstart - Get immediate insights into your customer service system](ai-csi-quickstart.md)
+# [Quickstart](ai-csi-quickstart.md)
 
 # How-tos
 
