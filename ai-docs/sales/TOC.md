@@ -13,7 +13,7 @@
 ###[Privacy notice](privacy-notice-ee.md)
 ## [Dynamics 365 AI for Sales capabilities for sellers](../sales/sales-insights-addon.md)
 ### [Administrator guide](../sales/configure-enable-sales-insights-addon.md) 
-#### [Administer AI for Sales](../sales/configure-enable-sales-insights-addon.md)
+#### [Administer Dynamics 365 AI for Sales capabilities for sellers](../sales/configure-enable-sales-insights-addon.md)
 #### [GDPR for Dynamics 365 AI for Sales](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
