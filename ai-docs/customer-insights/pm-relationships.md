@@ -22,12 +22,14 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**Beside entities, in customer 360 you can also define Relationships between entities.** Relationships help to define the data graph based on entities ingested from different data sources as well as relate the data graph to master customer profile based on intelligent matching done by AI/ML algorithms. These entities and relationships-based data graph are useful for segmentation and other analytical purposes. There are 2 types of relationships:
+In Customer 360 you can define relationships between entities. Relationships help to define the data graph based on entities ingested from different data sources as well as relate the data graph to master customer profile based on intelligent matching done by AI/ML algorithms. These entities and relationships-based data graphs are useful for segmentation and other analytical purposes. 
 
-- **System relationships:** These are created by system automatically and cannot be edited.
-- **Custom relationships:** These are created by user during configuration and can be edited.
+There are two types of relationships:
 
-**During the Match and Merge process system relationships are already created behind the scenes based on intelligent matching.** These system relationships are created to relate master customer entity with match rule entities. One relationship is created per master customer entity and match rule entity combination. These relationships help relate the master customer record with corresponding match entity records. Diagram below exemplifies the creation of 3 system relationships when 3 match entities are merged to create master customer entity:
+- **System relationships:** These are created by the system automatically and cannot be edited.
+- **Custom relationships:** These are created by the user during configuration and can be edited.
+
+During the match and merge process, system relationships are created behind the scenes based on intelligent matching. These system relationships are created to relate master customer entity with match rule entities. One relationship is created per master customer entity and match rule entity combination. These relationships help relate the master customer record with corresponding match entity records.  The diagram below exemplifies the creation of three system relationships when three match entities are merged to create the master customer entity:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-entities-merge.png "Relationship creation")
