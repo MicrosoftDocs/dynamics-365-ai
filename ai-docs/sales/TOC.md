@@ -26,6 +26,6 @@
 #### [Get introduced to lead](../sales/who-knows-whom.md)
 ## [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)
 ### [View overall sales insights](../sales/d365-ai-overview.md)
-### [Analyze team performance](../sales/d365-ai-team-performance.md)
 ### [Analyze business performance](../sales/d365-ai-business-performance.md)
+### [Analyze team performance](../sales/d365-ai-team-performance.md)
 ### [Analyze customer calls](../sales/call-intelligence.md)

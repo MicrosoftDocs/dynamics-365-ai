@@ -36,7 +36,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action expects the following input parame
 <th>Description</th>
 </tr>
 <tr>
-<td valign="top"><code>CrmRecord</code></td>
+<td valign="top"><code>CRMRecord</code></td>
 <td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9)">mscrm.crmbaseentity</a></td>
 <td valign="top">Entity type for which you want to retrieve the data. Required.
 <p>You can specify one of the following values:</p>
@@ -73,7 +73,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action returns the following value:
 <th>Type</th>
 <th>Description</th>
 <tr>
-<td><code>ResponseValues</code></td>
+<td><code>Response</code></td>
 <td>Edm.String</td>
 <td>List of data as an escaped JSON array.</td>
 </tr>
@@ -92,7 +92,7 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0
   
 {
-  "CrmRecord": {
+  "CRMRecord": {
     "@odata.type": "Microsoft.Dynamics.CRM.contact",
     "contactid": "bf1b1e9a-6e28-e811-a94e-000d3a365e68"
   }
@@ -101,7 +101,7 @@ OData-Version: 4.0
 
 **Response**
 
-The response contains a JSON object with a `ResponseValues` property containing the list of data stored in Azure service that is used to compute and store data.
+The response contains a JSON object with a `Response` property containing the list of data stored in Azure service that is used to compute and store data.
 
 ```http
 HTTP/1.1 200 OK  
@@ -110,12 +110,11 @@ OData-Version: 4.0
 
 {
   "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_RetrieveKPIValuesForGDPRResponse",
-   "ResponseValues": {\"EntityId\": \"bf1b1e9a-6e28-e811-a94e-000d3a365e68\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
+   "Response": {\"EntityId\": \"bf1b1e9a-6e28-e811-a94e-000d3a365e68\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
 }
 ```
 
 ### See also
 
-[Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
-
-[Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md)
+- [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
+- [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md)
