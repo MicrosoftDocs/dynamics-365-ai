@@ -22,14 +22,51 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Clicking the **Map** tile at the **Configure Data page** will take you to the first stage in the data configuration process. 
 
-There are two main goals behind the Map page that is shown below:
-- Entity selection: Identifying the customer entities which, upon unification, may lead to a dataset with a more complete information on your customers
-- Attribute selection: For each customer entity, identifying the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
+There are two main goals behind the **Map phase:**
+- **Entity selection:** Identifying the customer entities which, upon unification, may lead to a dataset with a more complete information on your customers
+- **Attribute selection:** For each customer entity, identifying the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
 
-[replace with 10]
-![map-screen1.png](media/map-screen1.png)
+Clicking the **Map** tile at the **Configure Data page** will take you to the **Entity Selection** screen:
+
+[Map final 1]
+
+### Adding Entities to the Map Screen
+
+Within the Entities Selection screen, click **Add Entites** as shown below:
+
+[Map final 2]
+
+Upon clicking the **Add Entities** botton, a side menu will show up on the right:
+
+[Map final 3]
+
+Here you want to add all the entities which, upon unification, may lead to a better understanding of your customers. 
+- Within the example that is shown below, the user has searched (through the highlighted search field) for the **Contact** and **Survey** entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that **Address** exists only in the **Contact** entity). 
+
+[Map final 4]
+
+- Then, the user has selected the **Contact** and **Survey** entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested during the **Get Data** phase. The user has selected those two entities and clicked **Save**:
+
+[Map final 5]
+
+- Note that you should search for and select **at least two entities** in order to benefit from the Data Configuration process.
+
+### Working with the Map Screen
+
+Following entity selection, you should reach the following screen which is called the **Map Screen**:
+
+[Map final 6]
+
+On the left you can see your ingested entities as highlighted in red above. Upon reaching this page, the first entity will be automatically selected (in the example above it's the **Contact** entity). 
+
+- At this point you should start add attributes to each of your entities. You should selce the attributes on the basis of which you will want to merge your entities as part of the next Data Configuration phase (called **Match**). You can either manually add attributes by selecting **Define my Own** as shown in red below, or let the system auto-identify the attributes for that entity as shown in blue.
+
+[Map final 7]
+
+
+
+
 
 Clicking each of the customer entities tabs on the left will open it's corresponding attributes table. Below we will explore each of this table's columns, going left to right:
 - **Primary Key:** For executing the identity-resoultion process it's mandatory to **select one attribute as a unique key** for each of the customer entities. For example, if one of your data sources is a *Contacts* dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
