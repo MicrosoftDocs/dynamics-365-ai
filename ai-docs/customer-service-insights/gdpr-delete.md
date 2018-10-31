@@ -12,11 +12,15 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service
+
+<!--from editor: Should it be AI for Customer Service Insights in the first heading? (And do you even need that in the heading?-->
+
+
+# Responding to GDPR data subject delete requests for Dynamics 365 AI for Customer Service
 
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the GDPR. Removing personal data includes removing all personal data and system-generated logs, except audit log information.
 
-## Manage Delete requests
+## Manage delete requests
 
 Dynamics 365 AI for Customer Service Insights offers the following experiences to delete personal data for a specific user:
 
@@ -27,9 +31,11 @@ Dynamics 365 AI for Customer Service Insights offers the following experiences t
 
 A tenant administrator can follow these steps to delete data:
 
-1. Send email to ccinsightadmins@microsoft.com specifying the user’s AAD objectId in the request.
+<!--from editor: Changed AAD to Azure Active Directory (Azure AD). Please confirm.-->
 
-    An administrator from the Dynamics 365 AI for Customer Service Insights team will send an email to the address registered in the AAD user account, asking for confirmation to delete data.
+1. Send email to ccinsightadmins@microsoft.com specifying the user’s Azure Active Directory (Azure AD) objectId in the request.
+
+    An administrator from the Dynamics 365 AI for Customer Service Insights team will send an email to the address registered in the Azure AD user account, asking for confirmation to delete data.
 2. Acknowledge the confirmation to delete the data and receive a confirmation that the data has been deleted.
 
 ### Delete customer data (Self)
@@ -37,7 +43,7 @@ A tenant administrator can follow these steps to delete data:
 You can follow these steps to delete data from AI for Customer Service Insights:
 
 1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
-2. On the Settings menu, click **My workspaces**.
+2. On the Settings menu, select **My workspaces**.
 
     ![Delete data](media/ai-csi-gdpr-delete.png)
 
