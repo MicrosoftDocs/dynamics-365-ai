@@ -46,7 +46,17 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 - *Put* API: **/api/instances/{instanceId}/data/{relativePath}**
 
-[API table1]
+|Functionality  |Guidance  |Limitations   |
+|---------|---------|---------|
+|Export any ingested dataset including the Master Customer Dataset that was created during the data configuration process
+(JSON/csv formats)
+     |Use $Search command with content-type: text/csv header as explained here:
+https://www.odata.org/getting-started/basic-tutorial/
+         |1. Can be done only if Customer ID is present in the queried dataset, 2. Can not be executed along with functionalities 2-5
+
+|2     |Attribute type         |
+|3    |Operator         |
+|4    |Value         |
 
 ### Limitations involved with using the Customer 360 *Conflation APIs*: 
 
@@ -73,13 +83,14 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 [APIs image 4]
 
 **Limitations Common to all APIs**:
-1.	These APIs require that data has already been ingested, except for the following APIs:
-a.	GET /api/instances/{instanceId}/manage/schema/entitySemanticLabels
-b.	GET /api/instances/{instanceId}/manage/schema/attributeSemanticLabels
-c.	GET /api/instances/{instanceId}/manage/relationships
-d.	GET /api/instances/{instanceId}/manage/relationships/{relationshipName}
-e.	DELETE /api/instances/{instanceId}/manage/relationships/{relationshipName}
-2.	For relationship APIs, any time {relationshipName} is provided, there must actually exist a relationship with that name in the given instance.
+**First**, these APIs require that data has already been ingested, except for the following APIs:
+- GET /api/instances/{instanceId}/manage/schema/entitySemanticLabels
+- GET /api/instances/{instanceId}/manage/schema/attributeSemanticLabels
+- GET /api/instances/{instanceId}/manage/relationships
+- GET /api/instances/{instanceId}/manage/relationships/{relationshipName}
+- DELETE /api/instances/{instanceId}/manage/relationships/{relationshipName}
+
+**Second**, specifically for relationship APIs, any time {relationshipName} is provided, there must actually exist a relationship with that name in the given instance.
 
 **Additional limitations by API**:
 
