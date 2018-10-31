@@ -29,7 +29,7 @@ After ingesting the data, you can quickly evaluate how complete and useful it is
 
 The ***Entities*** screen includes seven columns (explored from left to right): 
 - **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Note:  if there is a warning sign next to an entity name, it implies the data for that entity didn't load successfully. 
-- **Source**: Answers the question *From what datasource was this entity ingested?* (for example: .csv file, Azure datasource, etc.).
+- **Source**: Answers the question *From what data source was this entity ingested?* (for example: .csv file, Azure data source, etc.).
 - **Type**: The types of your data entities. In some cases this will be the same as your entities' names; in other cases, the types will differ from the name.
 - **Created by**: Answers the question: *By whom was this entity originally created?*
 - **Created**: Answers the question: *When was this entity created?*

@@ -27,7 +27,7 @@ Once mapping is completed, you are ready to match your mapped entities. Clicking
 ![match-tile.png](media/match-tile.png)
 
 In the *Match* page below, some matches were already automatically identified based on your Map phase selections. However, since there are many ways and orders by which customer entities might be matched, this phase enables you to specify the match logic that best resonates with:
-- Your understanding of how your datasources are related to one another
+- Your understanding of how your data sources are related to one another
 - Your understanding of what sources are most reliable for your mapped attributes
 
 [replace with 11]
@@ -38,7 +38,7 @@ The *Match* page includes two major sections: **Summary** and **Details** as exp
 [12 - close up]
 
 ## Summary Section
-This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the datasource from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
+This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
 
 To examplify the logic that is captured in the **Summary** part, the following matching sequence is reflected in the diagram below:
 - First, *Sales Data* from *Salesforce* will be matched with *Sales Data* from *Dynamics 365*

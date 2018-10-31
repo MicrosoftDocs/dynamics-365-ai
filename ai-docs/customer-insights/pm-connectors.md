@@ -22,62 +22,61 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+In this section you will learn how to utilize the PBI connector for unlocking the Customer 360 dashboard.
 
-**In this section you will learn how to utilize the PBI connector for unlocking the *Customer 360 Dashboard.*** 
+The Customer 360 dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
 
-**The Customer 360 Dashboard** enables you to utilize the unified data that you have unlocked through the **Data Configuration** process and start visualize insights around each of your customers. From Customer details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagmenet Score, many insights are at your fingertips to explore. 
+In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one data source to it through the **Data Manager: Get Data** page. Also, make sure you have Power BI Desktop installed on your computer.
 
-In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one datasource to it through the **Data Manager: Get Data** page (otherwise you should first review the Data Manager section). Lastly, make sure you have **Power BI Desktop** on your computer (free):
-- **Link to downloading Power BI for Desktop:** https://powerbi.microsoft.com/en-us/desktop/
+- Download Power BI for Desktop: https://powerbi.microsoft.com/en-us/desktop/
 
-Then complete those steps:
-- **Step One: Downloading MEZ File**: Along with the Offer link you have received a file (from a MEZ type). Download this file to a location you are familiar with in your desktop.
+Then complete the following steps.
+
+### Step One: Download MEZ File
+
+Along with the offer link, you received a file (MEZ type). Download this file to a location you are familiar with on your desktop.
    
 [PBI1]
 
-- **Step Two: Publishing the Customer 360 Dashboard**: 
-    - **Bringing Customer 360 data to Power BI**: Open Power BI for Desktop and click **Get Data** at the top menu:
+### Step Two: Publish the Customer 360 Dashboard
+ 
+ 1. Bring Customer 360 data to Power BI. Open Power BI for Desktop and select Get Data at the top menu.
     
-    [PBI2]
+    [PBI2] 
     
-    That will open the window that is shown below. Then, type **"Customer 360"** in the search field (shown in red) and choose **Customer 360** on the right-side menu (shown in blue). Lastly, click **Connect** at the left bottom corner of the window (shown in green):
+ 2. Type Customer 360 in the search field, and then select **Customer 360** on the right-side menu. Select **Connect** at the left bottom corner.
     
     [PBI3]
     
-    - **Publishing the Customer 360 Dashboard as a Service**: Upon completing the previous step you will get the following window:
-    [PBI4]
-    
-     You should insert the following URL into the **url field** that is shown above: 
-     https://dxt-wus-01.ci.ai.dynamics.com/api/instances/fa252992-8d48-49b3-9d02-06a2ac2a441e/data 
+3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field**: https://dxt-wus-01.ci.ai.dynamics.com/api/instances/fa252992-8d48-49b3-9d02-06a2ac2a441e/data 
+
+   [PBI4]
      
-     - **Login**: Once getting to the screen below, you should click **sign in** as shown:
-     [PBI5]
+4. Select **Sign in**.
+ 
+   [PBI5]
      
-     Lastly, you should provide your ADD credentials and than hit **connect** as shown:
+5. Use your Azure Active Directory credentials, and the select **Connect**.
      
-     [PBI6]
+   [PBI6]
      
-- **Step Three: Creating a Customized Dashboard:**
-Upon completing step two you will get to the following screen:
+### Step Three: Create a Customized Dashboard
+
+After completing Step two, you'll see the following:
+
 [PBI7]
 
-   - Within this window **you should choose all the entities around which you want to build your PBI report**. In the example below, the user has chosen two entities: The **Customer** and **Account** datasets. Note that the Customer entity is the entity that was created during the data configuration process and that encapsulates the unified customer data that Customer 360 unlocks.
+1. Choose all the entities around which you want to build your Power BI report. In the example below, the user has chosen two entities:  Customer and Account datasets. Note that the Customer entity is the entity that was created during the data configuration process and that encapsulates the unified customer data that Customer 360 unlocks.
    
-[PBI8]
+   [PBI8]
 
-   - At this point you are ready to create your customized report using the PBI left menu. Use the **Filters** fields as shown below to produce a report around:
-- A Specific Customer: Filter by the **Customer Name** or **Customer ID** (as examplified below in red)
-- A Customer Segment: Filter by one or more of the other customer attributes such as gender, location, role, etc (shown in blue)
-[PBI9]
+2. At this point, you are ready to create your customized report using the Power BI left menu. Use the **Filters** fields to produce a report around:
 
-**If you are less familiar with how to filter in Power BI for Desktop**, you might want to explore the following documentation:
-https://docs.microsoft.com/en-us/power-bi/power-bi-report-add-filter
+   - A specific customer: Filter by **Customer Name** or **Customer ID**
+   - A customer segment: Filter by one or more of the other customer attributes such as gender, location, role, etc.
 
-**If you want to learn more on Power BI for Desktop**, you can utilize the following documentation:
-https://docs.microsoft.com/en-us/power-bi/desktop-what-is-desktop
+   [PBI9]
 
+### See also
+ [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)<br/>
+ [What is Power BI Desktop?](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)

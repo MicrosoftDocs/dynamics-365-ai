@@ -48,7 +48,7 @@ Within the data sources page that is shown below you should locate the specific 
 > [!div class="mx-imgBorder"] 
 > ![](media/choose-data-source-menu.png "Data source menu")
 
-Lastly, upon clicking a data source that you wish to ingest, you will need to complete all the required fields for that datasource. An example for Excel (.csv) file mandatory fields is shown below. Once all field are filled, approve by selecting **Next** at the bottom of the page.
+Lastly, upon clicking a data source that you wish to ingest, you will need to complete all the required fields for that data source. An example for Excel (.csv) file mandatory fields is shown below. Once all field are filled, approve by selecting **Next** at the bottom of the page.
 
 [4]
 

@@ -24,7 +24,7 @@ robots: noindex,nofollow
 
 ## Intro to Configuration
 - Once ingested your data, you are ready to unlock the unique data-configuration features that Customer 360 offers. **Configure Data** includes four modules as represented by the tiles at the screen below.  
-- The goal behind the Data Configuration process is to unify datasources that once were disparate into a **"master customer dataset"** that includes a more complete information on your customers.  
+- The goal behind the Data Configuration process is to unify data sources that once were disparate into a **"master customer dataset"** that includes a more complete information on your customers.  
 - You should explore the three tiles at the top row from left to right (highlighted in blue), starting with **Map** (highlighted in red) and continuing with **Match** and **Merge**. The **Relationship** module which is located in the second row (highlighted in green) is optional but highly recommended for segmentation.
 
 [Configure1]
