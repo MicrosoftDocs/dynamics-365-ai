@@ -116,7 +116,7 @@ Topic case composition | *Sankey diagram showing the flow of support cases by su
 ## Top CSAT impactors chart
 
 > [!div class="mx-imgBorder"]
-> ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.PNG)
+> ![Top CSAT impactors chart](media/ai-csi-top-csat-impactors.PNG)
 
 The top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product.
 
