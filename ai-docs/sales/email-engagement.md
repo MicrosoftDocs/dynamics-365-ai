@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Use email engagement to view message interactions
 
-Applies to Dynamics 365 (online), version 9.0.2 <br>
+Applies to Dynamics 365 (online), version 9.1.0 <br>
 
  Email engagement is part of the new *Embedded intelligence* suite of features. 
  Email engagement lets you:  
@@ -366,9 +366,10 @@ Any time you compose an email that includes one or more recipients that do  not 
   
 To view the tracking preferences for all of the recipients of a message, select the **View Recipients' Preferences** link shown above the body text. A pop-up window opens, showing the name and follow preference for each recipient. From here you can open any contact, account, or lead record by selecting their name in the list.  
   
-<a name="BKMK_Privacy"></a>   
+
 ## Privacy notice  
-[!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
+
+For specific privacy information about Email engagement, see [Privacy notice](privacy-notice-ee.md).
   
 ### See also  
 

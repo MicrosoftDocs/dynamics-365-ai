@@ -1,6 +1,6 @@
 ---
-title: "Overview for Dynamics 365 AI for Sales | MicrosoftDocs"
-description: "Overview about the AI features that are offered with Sales"
+title: "Overview of Dynamics 365 AI for Sales | MicrosoftDocs"
+description: "Overview of the AI features that are offered with Sales"
 keywords: "AI, Sales AI, Dynamics 365 AI for Sales, AI for Sales, Sales"
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -23,29 +23,35 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0<br>
 
-Welcome to [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]!
+Welcome to [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)].
 
-[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized into the following:
+[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized as follows:
+
 - Embedded intelligence
-- AI for Sales
-- [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
-
+- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers
+- [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers
 
 ## Embedded intelligence
-The features in Embedded intelligence continuously analyzes the vast collection of customer-interaction data that is already stored in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help sales people better understand the business relationships, evaluate activities in relation to previous successes, and choose the best path forward.<br>
-The following features are available under Embedded intelligence:
+
+The features in Embedded intelligence continuously analyze the vast collection of customer-interaction data that is already stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases to help salespeople better understand the business relationships, evaluate activities in relation to previous successes, and choose the best path forward.
+
+Embedded intelligence offers the following features:
+
 - Relationship assistant
 - Email engagement
 - Auto capture
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](embedded-intelligence.md)
 
-## AI for Sales
-The features in AI for Sales are specifically designed to help sales reps / individuals to take intelligent decisions on their leads and opportunities to close the sales targets. <br>
-> [!NOTE]
-> You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
+## Dynamics 365 AI for Sales capabilities for sellers
 
-The following features are available under AI for Sales:
+The features in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers are specifically designed to help sales reps and individuals make intelligent decisions on their leads and opportunities to close the sales targets. 
+
+> [!NOTE]
+> You must purchase a **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI for Sales features.
+
+AI for Sales offers the following features:
+
 - Relationship analytics
 - Predictive lead scoring
 - Predictive opportunity scoring
@@ -53,21 +59,24 @@ The following features are available under AI for Sales:
 - Talking points
 - Who knows whom
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [AI for Sales](sales-insights-addon.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales capabilities for sellers](dynamics-365-ai-for-sales.md)
 
-## [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app
-The features in [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
+## Dynamics 365 AI for Sales capabilities for sales managers
+
+The features in the [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers are specifically designed to help sales managers intelligently manage their teams, proactively coach sellers, and quickly answer their most important business questions.
+
 > [!NOTE]
-> You must purchase **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use AI sales features.
+> You must purchase a **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use Dynamics 365 AI for Sales features.
 
-The following features are available under Dynamics 365 AI for Sales:  
+The following features are available under Dynamics 365 AI for Sales app:  
+
 - Business report
 - Team report
 - Call intelligence
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales app](dynamics365-ai-sales-app.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales capabilities for sales managers](dynamics365-ai-sales-app.md)
 
 ### See also
 
 - [Administrator guide for Embedded intelligence](../sales/configure-enable-embedded-intelligence.md)
-- [Administrator guide for AI for Sales](../sales/configure-enable-sales-insights-addon.md)
+- [Administrator guide for AI for Sales](../sales/configure-enable-dynamics-365-ai-sales.md)

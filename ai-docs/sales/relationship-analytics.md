@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Use Relationship analytics to gather KPIs 
 
-Applies to Dynamics 365 (online), version 9.0.2<br>
+Applies to Dynamics 365 (online), version 9.1.0<br>
 
 We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
 
@@ -148,9 +148,9 @@ Once the system has identified contacts of interest, it looks for activities ass
 
 - **Regarding records.** Any activity that has its **Regarding** value set to the current record is explicitly assigned to it and will always be included in its relationship analytics, even if that activity isn't also associated with a contact of interest.  
 
-- **Email messages.** Includes all messages where the email address (or a reference to the contact record) for a contact of interest is shown in the **To**, **Cc**, or **From** field.  
+- **Email messages.** Includes all metadata from messages where the email address (or a reference to the contact record) for a contact of interest is shown in the **To**, **Cc**, or **From** field.  
 
-- **Appointments.** Includes all appointments where a contact of interest is shown in the **Required** or **Optional** fields.  
+- **Appointments.** Includes all metadata from appointments where a contact of interest is shown in the **Required** or **Optional** fields.  
 
 - **Phone calls.** Includes all calls where  a contact of interest is shown in the **From** or **To** fields.  
 
@@ -162,9 +162,9 @@ Here are a few examples of how the rules outlined in the previous sections might
 
 -   If you are assigned to a lead and register a phone call activity with one of the stakeholders for that lead, then that phone call will be counted in the KPIs for that lead. Other users who call that same stakeholder, but who are not assigned to the lead, will not have their calls counted in the KPIs for that lead.  
 
--   If you are on the sales team for an opportunity and send an email regarding that opportunity to one of its stakeholders, then that email will be counted in the KPIs for that account. An email from another user, who isn't on the team for that account, to that same stakeholder will not be counted for that opportunity.  
+-   If you are on the sales team for an opportunity and send an email regarding that opportunity to one of its stakeholders, then the metadata about that email will be counted in the KPIs for that account. An email from another user, who isn't on the team for that account, to that same stakeholder will not be counted for that opportunity.  
 
--   If you attend a meeting with the primary contact for an account, then that appointment will be counted in the KPIs for that account *and* for that contact. If that account is also associated with an opportunity, the appointment will only count for that opportunity if you are also **Assigned** to that opportunity (or are on its **Sales Team**) *and* if the appointment is set as **Regarding** that opportunity.  
+-   If you attend a meeting with the primary contact for an account, then the metadata about that appointment will be counted in the KPIs for that account and for that contact. If that account is also associated with an opportunity, the appointment will only count for that opportunity if you are also **Assigned** to that opportunity (or are on its **Sales Team**) and if the appointment is set as **Regarding** that opportunity.  
 
 <a name="Calc_KPIs"></a>   
 
@@ -218,9 +218,13 @@ Your administrator can choose which types of activities are most relevant for yo
 
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
+## Privacy notice  
+
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+
 ### See also  
 
-- [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)
+- [Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
 - [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)">
 - [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
 - [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md

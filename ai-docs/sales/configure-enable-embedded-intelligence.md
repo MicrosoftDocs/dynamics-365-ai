@@ -18,7 +18,7 @@ manager: "shujoshi"
 ---
 # Configure and enable embedded intelligence
 
-Applies to Dynamics 365 (online), version 9.0.2
+Applies to Dynamics 365 (online), version 9.1.0
 
 <a name="Prerequisites"></a>   
 
@@ -83,8 +83,11 @@ Assign user privileges to give access to the Relationship assistant features. Th
    - Cards are categorized by type, such as **Base** and **Advanced**. By default, the advanced cards are not enabled. To enable the advanced cards, select the check box in the **Advancd Cards** section.
    - Enable or disable specific action cards as needed by using the check boxes provided for each card.
    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
-   - 
+   
    ![Relationship assistant configuration page](media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
+   
+    > [!NOTE]
+    > When custom action cards are created in your organization, an option to enable these cards are displayed under **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Relationship assistant](../sales/extend-relationship-assistant-card.md)  
 
 4. On top of the page, select **Save** to save your settings.<br> 
 
@@ -140,9 +143,15 @@ After you accept the privacy statement for embedded intelligence, Auto capture i
 >[!NOTE]
 > For more information about Auto capture and how it can help your users, see [Auto capture](auto-capture.md)
 
+## Privacy notice  
+
+For specific privacy information about Embedded intelligence, see [Privacy notice](privacy-notice-ee.md).
+
+
 ### See also
 
--  [Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)
--  [Guide customer communications](relationship-assistant.md)
--  [View message interactions](email-engagement.md)
--  [Display emails](auto-capture.md)
+- [Configure Dynamics 365 AI for Sales](configure-enable-dynamics-365-ai-sales.md)
+- [Guide customer communications](relationship-assistant.md)
+- [View message interactions](email-engagement.md)
+- [Display emails](auto-capture.md)
+- [Privacy notice](privacy-notice-ee.md)

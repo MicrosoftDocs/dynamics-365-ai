@@ -20,9 +20,9 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Enable and configure AI for Sales
+# Enable and configure Dynamics 365 AI for Sales capabilities for sellers
 
-Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.0.2
+Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
 Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features helps the user to effectively use the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales contains the following features:
 
@@ -34,17 +34,17 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 - Who knows whom
 
 > [!IMPORTANT]
-> The AI for Sales features are available only in North American (NAM) regions.
+> The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features are available only in North American (NAM) regions.
 
 ## GDPR
 
-To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales related **General Data Protection Regulation (GDPR)**, see [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md).
+To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
 
 ## Prerequisites
 
 Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales feature:
 
-- You must purchase **Dynamics 365 AI for Sales** license to use AI sales features.
+- You must purchase **Dynamics 365 AI for Sales** license to use Dynamics 365 AI for sales features.
 - You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 - If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and write back from LinkedIn Sales navigator is enabled.
@@ -80,7 +80,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 3. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics")<br>
-1. On the **Relationship analytics** page, configure the parameters as described in the following table.
+4. On the **Relationship analytics** page, configure the parameters as described in the following table.
 
     |**Parameter**|**Description**|
     |-|-|
@@ -91,6 +91,20 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     > ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")<br>
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
+
+Enable **Dynamics 365 AI for Sales – Analytics** option in admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on relationship analytics configuration page is automatically selected. <br>
+To enable Dynamics 365 AI for Sales – Analytics, follow these steps: 
+
+1. Go to **Admin** center.<br>
+    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
+
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Analytics**.<br>
+    ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
+
+3. Read the description and configure the Dynamics 365 AI for Sales – Analytics settings as **on** and select **Save**.<br>
+    ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
+
+    Now you can connect to exchange server to collect data.
 
 > [!NOTE]
 > For more information about Relationship analytics and how it can help your users, see [View customer activity history](../sales/relationship-analytics.md)
@@ -151,15 +165,14 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
    Creating a model takes few minutes and you can see progress on the screen.<br>
 1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
     > [!div class="mx-imgBorder"]
-    > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br><!--image should be added-->
-   
+    > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br>
     The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Opportunity Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
    > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
 1. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
-   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum opportunity score range for **Grade B** changes to 50.<br>
-   ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br><!--image should be added-->
+   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
+   ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br>
 1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
 
@@ -218,12 +231,28 @@ Who knows whom feature is available under Connection insights configuration page
   
    The configuration page opens.
 3. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
-        > [!div class="mx-imgBorder"]
-        > ![Enable who knows whom](media/who-knows-whom-enable.png "Enable who knows whom")
+    > [!div class="mx-imgBorder"]
+    > ![Enable who knows whom](media/who-knows-whom-enable.png "Enable who knows whom")
         
 4. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
 5. Select **Save**.<br>
    The Who Knows Whom is configured and ready to use in your organization.<br>
+
+After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect the communication and collaboration details of users from exchange server.<br>
+> [!NOTE]
+> Contact your Office 365 administrator to enable Dynamics 365 AI for Sales connection graph if you do not have sufficient privileges to enable. 
+ 
+To configure Dynamics 365 AI for Sales connection graph, follow these steps:<br>
+
+1. Go to **Admin** center.<br>
+    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Connection Graph**.<br>
+    ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")<br>
+3. Read the description and configure the Dynamics 365 AI for Sales – Connection Graph settings as **on**.<br>
+    ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")<br>
+4. (Optional) If you do not want to collect information on any group of users in your organization, add the group ID in the text box.<br> 
+    ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-exclude-group.png "Enable and save connection graph")<br>
+5. Select **Save**.
 
 > [!NOTE]
 > For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md)
@@ -243,20 +272,9 @@ If you don't want to use the Sales insights add-on features for your organizatio
     > If you want to install Sales insights add-on in future, makesure that you uninstall the **SalesInsightsAddOn** package too after uninstalling Relationship analytics and Predictive lead scoring.
 -->
 
-## Enable Exchange Data
+## Privacy notice  
 
-Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange. To collect this information, you must provide privileges to connect to exchange server through Admin center.
-
-1. Go to **Admin** center.<br>
-    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
-
-2. Select **Settings** > **Services & add-ins** > **Dynamics Customer Insights Preview**.<br>
-    ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
-
-3. Configure the Dynamics Customer Insights Preview to **on** and select **Save**.<br>
-    ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
-
-    Now you can connect to exchange server to collect data.
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 
