@@ -1,7 +1,7 @@
 ---
-title: "Embedded Intelligence and GDPR (Dynamics 365 Customer Engagement) | Microsoft Docs  "
-description: "Protect customer privacy and remain compliant with GDPR regulations when using Embedded Intelligence in Dynamics 365 Customer Engagement"
-keywords: "GDPR; data protection; privacy; embedded intelligence"
+title: "Dynamics365 AI for Sales and GDPR (Dynamics 365 AI for Sales) | Microsoft Docs  "
+description: "Protect customer privacy and remain compliant with GDPR regulations when using Dynamics365 AI for Sales"
+keywords: "GDPR; data protection; privacy;"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.topic: article
@@ -15,9 +15,9 @@ manager: kvivek
 topic-status: Drafting
 ---
 
-# Embedded Intelligence and GDPR
+# Dynamics365 AI for Sales and GDPR
 
-Applies to Dynamics 365 (online), version 9.0.2
+Applies to Dynamics 365 (online), version 9.1.0
 
 The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 
@@ -34,10 +34,10 @@ You can perform the following tasks in the Auto Capture and Relationship Analyti
 
 |Task|Supported Feature|Topic|
 |--|--|--|
-|Specify whether relationship analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, relationship analytics won't be performed on the data.|[Relationship Analytics](relationship-analytics.md)<br />[Auto Capture](auto-capture.md)|[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)|
-|View KPI data stored for an account, contact, lead and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
-|Retrieve data for an account, contact, lead and opportunity from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md)|[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
+|Specify whether relationship analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, relationship analytics won't be performed on the data.|[Relationship Analytics](relationship-analytics.md) and [Auto Capture](auto-capture.md)|[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)|
+|View KPI data stored for an contact, lead and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
+|Retrieve data for an contact, lead, opportunity, and systemuser from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
 
 ### See also
 
-[Embedded Intelligence for Dynamics 365 Customer Engagement](embedded-intelligence.md)  
+[Overview of Dynamics 365 AI for Sales](overview.md)  

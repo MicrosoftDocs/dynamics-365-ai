@@ -35,9 +35,8 @@ Many of the AI Insights charts include an Impact field, showing the impact of th
 
 The following AI Insights charts show you support cases that have the most impact on resolution time and customer satisfaction:
 
-* [Top resolve time impactors (KPI summary dashboard)](dashboard-kpi-summary.md#top-resolve-time-impactors-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
-* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions#top-resolution-time-impactors)
+* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors-chart)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
@@ -54,7 +53,7 @@ The following charts give you different views of case resolution time:
 * [Agents with longest resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
 * [New cases versus average resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
 * [New escalations versus resolved escalations (Case resolution dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
-* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors)
+* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors-chart)
 * [Agents with longest average resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-average-resolve-time-chart)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
@@ -70,8 +69,8 @@ The following charts give you different views of customer satisfaction:
 * [Emerging topics (Incoming cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
 * [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
-* [Average CSAT KPI chart (Topic details dashboard)](dashboard-topic-details.md#topic-details-KPI-charts)
-* [Overall average CSAT impact chart (Topic details dashboard)](dashboard-topic-details#overall-average-impact-charts)
+* [Average CSAT KPI chart (Topic details dashboard)](dashboard-topic-details.md#topic-details-kpi-charts)
+* [Overall average CSAT impact chart (Topic details dashboard)](dashboard-topic-details.md#overall-impact-charts)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 * [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
 
@@ -81,10 +80,10 @@ Use agent performance charts to help you identify low-performing and high-perfor
 
 The following charts give you different views of agent performance:
 
-* [Agents with longest average resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-average-resolve-time-chart)
-* [Agents with most escalations (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-most-escalations-chart)
+* [Agents with longest average resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
+* [Agents with most escalations (Case resolution dashboard)](dashboard-case-resolutions.md#agents-handling-most-escalations-chart)
 * [Agents with most unresolved cases (Topic details dashboard)](dashboard-topic-details.md#agents-with-most-unresolved-cases-chart)
-* [Agents with longest resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-resolve-time-chart)
+* [Agents with longest resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-average-resolve-time-chart)
 * [Agents with lowest average CSAT (Topic details dashboard)](dashboard-topic-details.md#agents-with-lowest-average-csat-chart)
 
 ## Support channel charts
@@ -93,7 +92,7 @@ Use support channel charts to help you identify how the system is performing on 
 
 The following charts give you different views of support channel performance:
 
-* [Case channel (KPI dashboard)](dashboard-kpi-summary.md#case-channels-chart)
-* [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channels-chart)
+* [Case channel (KPI dashboard)](dashboard-kpi-summary.md#case-channel-chart)
+* [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channel-chart)
 * [Case timing (Incoming cases dashboard)](dashboard-incoming-cases.md#case-timing-chart)
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)

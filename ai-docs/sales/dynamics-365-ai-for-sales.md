@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0<br>
 
-Using AI for sales, you can track customer related activities and address the questions such as:
+Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you can track customer related activities and address the questions such as:
 - What opportunities should have priority?
 - When was the customer last contacted?
 - Who on the team has been interacting with the customer?
@@ -42,13 +42,12 @@ AI for sales consists of the following features:
 - **Talking points:** Displays topics to start a conversation with your customer such as sports, vacation, family, and entertainment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Know conversation starters for your customers](talking-points.md)
 - **Who knows whom:** Provides details such as names and email addresses of your colleagues who know a lead that you are going to interact. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to get introduced to a lead](who-knows-whom.md)
 
-For information about how to enable these features, see [Configure and enable embedded intelligence](configure-enable-sales-insights-addon.md).  
+For information about how to enable these features, see [Configure and enable embedded intelligence](configure-enable-dynamics-365-ai-sales.md).  
 
 ## Privacy notices  
 
-[!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
-
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 
-[Configure and enable AI for sales](configure-enable-sales-insights-addon.md) 
+[Configure and enable AI for sales](configure-enable-dynamics-365-ai-sales.md) 
