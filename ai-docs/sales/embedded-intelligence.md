@@ -87,13 +87,8 @@ The relationship assistant is constantly at work, keeping an eye on your activit
 
 ## Privacy notices  
 
-[!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
-  
-[!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
-  
-[!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
+For specific privacy information about Embedded intelligence, see [Privacy notice](../sales/privacy-notice-ee.md).
 
-  
 ### See also
 
 [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md) 
