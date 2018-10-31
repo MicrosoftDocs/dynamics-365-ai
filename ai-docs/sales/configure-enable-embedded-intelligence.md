@@ -18,7 +18,7 @@ manager: "shujoshi"
 ---
 # Configure and enable embedded intelligence
 
-Applies to Dynamics 365 (online), version 9.0.2
+Applies to Dynamics 365 (online), version 9.1.0
 
 <a name="Prerequisites"></a>   
 

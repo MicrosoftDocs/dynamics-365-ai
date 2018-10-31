@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Use Relationship analytics to gather KPIs 
 
-Applies to Dynamics 365 (online), version 9.0.2<br>
+Applies to Dynamics 365 (online), version 9.1.0<br>
 
 We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
 

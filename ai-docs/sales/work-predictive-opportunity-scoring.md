@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Convert opportunities into deals
 
-Applies to Dynamics 365 (online), version 9.0.2
+Applies to Dynamics 365 (online), version 9.1.0
 
 In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The Predictive opportunity scoring of Dynamics 365 AI for Sales provides a scoring model to generate scores for opportunities in your pipeline. This model assigns a score between 0 and 100 for opportunities based on the signals from opportunities and related entities such as contact and account. Using these scores, you can identify and prioritize opportunities that have more chances of converting into wins. 
 

@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Use email engagement to view message interactions
 
-Applies to Dynamics 365 (online), version 9.0.2 <br>
+Applies to Dynamics 365 (online), version 9.1.0 <br>
 
  Email engagement is part of the new *Embedded intelligence* suite of features. 
  Email engagement lets you:  

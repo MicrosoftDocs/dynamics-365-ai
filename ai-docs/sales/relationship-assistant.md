@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Use relationship assistant to guide customer communications
 
-Applies to Dynamics 365 (online), version 9.0.2<br>
+Applies to Dynamics 365 (online), version 9.1.0<br>
 
 The relationship assistant is part of the new *Embedded intelligence* suite of features. The assistant keeps an eye on your daily actions and communications, and generates a collection of *action cards* that are displayed prominently throughout the application to provide tailored, actionable insights. The assistant reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more.  
 

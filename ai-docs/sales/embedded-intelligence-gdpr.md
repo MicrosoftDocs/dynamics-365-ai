@@ -17,7 +17,7 @@ topic-status: Drafting
 
 # Dynamics365 AI for Sales and GDPR
 
-Applies to Dynamics 365 (online), version 9.0.2
+Applies to Dynamics 365 (online), version 9.1.0
 
 The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 

@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # How Notes analysis assists you with suggestion
 
-Applies to Dynamics 365 (online), version 9.0.2<br>
+Applies to Dynamics 365 (online), version 9.1.0<br>
 
 [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] allows you to view and quickly enter notes on **Timeline** control (formerly known as activity wall). When you enter notes regarding a recent meeting or discussion with your customer, [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] monitors these notes and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.<br>
 **Timeline** control is available on contacts, opportunities, leads, accounts, and case forms.<br> 

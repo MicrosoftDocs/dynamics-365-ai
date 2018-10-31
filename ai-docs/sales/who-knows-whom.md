@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # How to get introduced to a lead 
 
-Applies to Dynamics 365 (online), version 9.0.2<br/>
+Applies to Dynamics 365 (online), version 9.1.0<br/>
 
 As a sales representative, you will interact with leads whom you have never met or talked to and it can be difficult to turn these interactions into positive outcomes. To help in these situations, [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] provides a feature known as **Who Knows Whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help in getting introduced to a lead and increase the chances of a positive outcome during the interaction.
 
@@ -93,4 +93,4 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)    
+[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
