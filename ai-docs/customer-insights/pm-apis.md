@@ -25,8 +25,7 @@ robots: noindex,nofollow
 
 **When it comes to Customer 360**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the **Customer 360 Swagger Webpage:**
 
-https://dxt-wus-01.api.ci.ai.dynamics.com/swagger/index.html
-https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
+https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html
 
 [APIs image 1]
 
@@ -46,17 +45,9 @@ https://idratherbewriting.com/learnapidoc/pubapis_swagger.html
 
 - *Put* API: **/api/instances/{instanceId}/data/{relativePath}**
 
-|Functionality  |Guidance  |Limitations   |
-|---------|---------|---------|
-|Export any ingested dataset including the Master Customer Dataset that was created during the data configuration process
-(JSON/csv formats)
-     |Use $Search command with content-type: text/csv header as explained here:
-https://www.odata.org/getting-started/basic-tutorial/
-         |1. Can be done only if Customer ID is present in the queried dataset, 2. Can not be executed along with functionalities 2-5
+[APIs Table 1]
 
-|2     |Attribute type         |
-|3    |Operator         |
-|4    |Value         |
+- https://www.odata.org/getting-started/basic-tutorial/
 
 ### Limitations involved with using the Customer 360 *Conflation APIs*: 
 
@@ -70,15 +61,7 @@ https://www.odata.org/getting-started/basic-tutorial/
 
 [API table3]
 
-//Viewing and retrieving configurations that were made during the *Data Configuration* process 
-//and can do the conflation here
-//and configure 
-
-
-### Limitations ivolved with using the Customer 360 *Relationship APIs*: 
-
-//management API for relationship: ? 
-//notes: you can use the relationship in the segment query builder
+### Limitations involved with using the Customer 360 *Relationship APIs*: 
 
 [APIs image 4]
 
