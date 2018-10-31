@@ -53,8 +53,6 @@ A blue up and down indicator next to the value indicates the percent change in a
 
 The survey response rate chart shows the percentage of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
 
-A blue up and down indicator next to the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change in that direction.
-
 Description | Details
 ----------- | -------
 Survey response rate | *The number of completed customer satisfaction (CSAT) surveys divided by the total number of surveys*
@@ -67,8 +65,6 @@ A blue up and down indicator next to the value indicates the positive percent ch
 > ![Average CSAT chart](media/ai-csi-average-csat.PNG "Average CSAT chart")
 
 The average CSAT chart shows the average customer satisfaction survey score during the specified time period, where it falls on the satisfaction scale used in the survey, and the percent change over the period.
-
-A blue up and down indicator next to the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
 
 Description | Details
 ----------- | -------
