@@ -46,8 +46,7 @@ For information about how to enable these features, see [Configure and enable em
 
 ## Privacy notices  
 
-[!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
-
+For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 

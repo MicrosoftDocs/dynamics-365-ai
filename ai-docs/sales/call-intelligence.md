@@ -67,7 +67,7 @@ When you open call intelligence, the application displays the **Teams** tab that
 
 ## View sales rep information 
 
-Open the **Sales rep** tab to drill down into each individual sales rep to assess their performance and identify areas where the sales rep requires coaching. Also, you can get a quick peek into the customer sentiments and conversational KPIs across all the calls for the sales rep. You can filter a specific call that has negative customer sentiment and view the transcript of the call. You can look at the keywords and sentiments across the timeline of the call, go to a moment, and look at the call transcript. You can post comments on how the sales rep could handle the situation better and share these comments via email.<br>
+Open the **Sales rep** tab to drill down into each individual sales rep to assess their performance and identify areas where the sales rep requires coaching. Also, you can get a quick peek into the customer sentiments and conversational KPIs across all the calls for the sales rep. You can filter a specific call that has negative customer sentiment and view the transcript of the call. You can look at the keywords and sentiments across the timeline of the call, go to a moment, and look at the call transcript. <!--You can post comments on how the sales rep could handle the situation better and share these comments via email.-->You can provide coaching comments to sales reps through emails.<br>
 
 Select the name of the sales rep from the drop-down list to view that rep's performance information.
 
