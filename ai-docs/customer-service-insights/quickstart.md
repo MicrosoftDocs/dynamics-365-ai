@@ -28,7 +28,10 @@ Dynamics 365 AI for Customer Service Insights lets you quickly connect to your e
    > [!div class="mx-imgBorder"]
    > ![Choose an environment screen](media/ai-csi-qs-choose-environment.PNG)
 
-   For more information on working with workspaces, see [Use workspaces to manage your customer service data insights](ai-csi-workspaces.md).
+
+<!--from editor: I updated the name of the page and the URL below. Please confirm.-->
+
+   For more information on working with workspaces, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
 3. Click the Dynamics 365 environment that contains the customer service data that you want to use.
 
