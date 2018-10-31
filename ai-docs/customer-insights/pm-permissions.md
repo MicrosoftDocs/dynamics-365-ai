@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The main administration page is the **Permissions** page where you can set up roles and permissions for using Customer 360 across your organization. As an administrator, the following roles are available for you to assign:
+The **Permissions** page is where you, as an administrator, can set up roles and permissions for using Customer 360 across the organization. Customer 360 includes three types of roles, and those are the options that avialable to each of them:
 
 |Role  |Options available under this role  |
 |---------|---------|
@@ -36,16 +36,14 @@ On the **Permissions** page, select **Add** to add permissions and roles to user
 > [!div class="mx-imgBorder"] 
 > ![](media/add-permissions.png "Add permissions")
  
-First, find the person to whom you want to give permission. Type a name in the **Select** field.
+- First, find the person to whom you want to give permission. **Type a name in the *Select* field**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Enter a name")
 
-Then, choose a role for that person.
+- Then, **choose a role** for that person as shown above.
 
-[missing permissions image]
-
-Lastly, select **Save** in the bottom right corner of the panel. An instance will be automatically created for the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the roles that were specified above.
+- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the role that you have specified.
  
 ### Viewing current permissions
 After selecting **Save**, you can view all the permissions that were given in this page:
@@ -55,11 +53,10 @@ After selecting **Save**, you can view all the permissions that were given in th
 
 Let's explore this screen:
 
-- The **Type** column specifies whether it's a single member, a group, or an application. At this point, Customer 360 supports only individual users.
-- Roles are specified under the **Roles** column
-- You can also look for a specific person, group, or application by typing a name in the search field. [?]
+- The **Type** column specifies whether it's a single member, a group, or an application. At this point, Customer 360 supports only individual users but in the future it will also support groups and applications that will connect to Customer 360 via our APIs.
+- The Roles are specified under the **Roles** column
+- You can also look for a specific person by typing a name in the search field.
 - Lastly, you can sort the results by each of the columns by selecting the arrow next to the column name.  
-[permissions4]
 
 ### Filtering Permissions by a Role
 At the top of the **Permissions** page, select **Filter**  to open the **Filter** panel. Then, choose whether to filter the permissions by the ***Administrator***, ***Contributor***, or ***Reader*** roles.
