@@ -30,7 +30,7 @@ The main administration page is the **Permissions** page where you can set up ro
 |Contributor     | <ul><li>Complete **Data Manager**: **Get Data** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge** </li><li>View **Segments** page </li><li>Create segments in the **Segment Creation** page  </li></ul> |
 |Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page   </li></ul>     |
  
-- **Adding Roles and Permissions** 
+### Adding Roles and Permissions
 This is done via the **Add Permissions** panel that can be accessed via  **Add** at the top of the permissions page:
 
 Replace with permissions final1:
@@ -47,7 +47,8 @@ Then, choose a role for that person as shown below:
 
 Lastly, hit **Save** in the bottom right corner of the panel. Upon saving a permission, an instance will be automatically created for the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perfom actions according to the roles table that was specified above.
  
-- **Viewing current permissions**: After hitting save you can view all the permissions that were given in this page:
+### Viewing current permissions
+After hitting save you can view all the permissions that were given in this page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions.png "Permissions")
@@ -62,11 +63,13 @@ Let's explore this screen:
 - Lastly, you can sort the results by each of the columns by clicking on the arrow icon next to the column name:  
 [permissions4]
 
-- **Filtering Permissions by a Role**: This can be achieved by opening the **Filter** panel through **Filter** at the top of the permissions page, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
+### Filtering Permissions by a Role
+This can be achieved by opening the **Filter** panel through **Filter** at the top of the permissions page, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
 
 ![permissions-filter.png](media/permissions-filter.png)
 
-- **Viewing current number of users per role:** This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
+### Viewing current number of users per role
+This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles2.png "Roles")
