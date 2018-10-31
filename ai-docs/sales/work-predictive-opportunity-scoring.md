@@ -28,7 +28,7 @@ In a highly competitive market, it is important for you to spend time on quality
 For example, there are two opportunities - Opportunity A and Opportunity B in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity A. by looking at the score, you can predict that Opportunity A has more chances of converting into win deal and you can engage it. Also, you can further analyze why score of Opportunity B is low by looking at the top reasons that are influencing the score and take a decision to improve this score.
 
 > [!IMPORTANT]
-> To enable Predictive opportunity scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-enable-sales-insights-addon.md#configure-predictive-opportunity-scoring)
+> To enable Predictive opportunity scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-enable-d365-ai-sales.md#configure-predictive-opportunity-scoring)
 
 ## Understand opportunity scoring in views
 
@@ -66,4 +66,4 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md) 
+[Configure and enable sales insights add-on](configure-enable-d365-ai-sales.md) 

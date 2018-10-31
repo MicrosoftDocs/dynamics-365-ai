@@ -150,7 +150,7 @@ For specific privacy information about Embedded intelligence, see [Privacy notic
 
 ### See also
 
-- [Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)
+- [Configure Dynamics 365 AI for Sales](configure-enable-d365-ai-sales.md)
 - [Guide customer communications](relationship-assistant.md)
 - [View message interactions](email-engagement.md)
 - [Display emails](auto-capture.md)

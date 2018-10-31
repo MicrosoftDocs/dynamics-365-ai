@@ -44,7 +44,7 @@ An administrator can enable [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynam
 
 ### See also
 
-- [Configure and enable AI for sales](configure-enable-sales-insights-addon.md)
+- [Configure and enable AI for sales](configure-enable-d365-ai-sales.md)
 - [Use Relationship analytics to gather KPIs](relationship-analytics.md)
 - [Prioritize leads through scores](work-predictive-lead-scoring.md) 
 - [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)

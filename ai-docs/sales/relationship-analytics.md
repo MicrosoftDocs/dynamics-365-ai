@@ -224,7 +224,7 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also  
 
-- [Configure and enable sales insights add-on](configure-enable-sales-insights-addon.md)
+- [Configure and enable sales insights add-on](configure-enable-d365-ai-sales.md)
 - [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)">
 - [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
 - [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md

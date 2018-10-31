@@ -42,7 +42,7 @@ AI for sales consists of the following features:
 - **Talking points:** Displays topics to start a conversation with your customer such as sports, vacation, family, and entertainment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Know conversation starters for your customers](talking-points.md)
 - **Who knows whom:** Provides details such as names and email addresses of your colleagues who know a lead that you are going to interact. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to get introduced to a lead](who-knows-whom.md)
 
-For information about how to enable these features, see [Configure and enable embedded intelligence](configure-enable-sales-insights-addon.md).  
+For information about how to enable these features, see [Configure and enable embedded intelligence](configure-enable-d365-ai-sales.md).  
 
 ## Privacy notices  
 
@@ -50,4 +50,4 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also
 
-[Configure and enable AI for sales](configure-enable-sales-insights-addon.md) 
+[Configure and enable AI for sales](configure-enable-d365-ai-sales.md) 

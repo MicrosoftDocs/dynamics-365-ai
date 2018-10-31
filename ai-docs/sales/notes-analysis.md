@@ -58,4 +58,4 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also
 
-[Configure Dynamics 365 AI for Sales](configure-enable-sales-insights-addon.md)
+[Configure Dynamics 365 AI for Sales](configure-enable-d365-ai-sales.md)

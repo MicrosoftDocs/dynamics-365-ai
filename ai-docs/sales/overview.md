@@ -53,7 +53,7 @@ The following features are available under seller capabilities:
 - Talking points
 - Who knows whom
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales capabilities for sellers](sales-insights-addon.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales capabilities for sellers](d365-ai-for-sales.md)
 
 ## Dynamics 365 AI for Sales capabilities for sales managers
 The features in [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] app are specifically designed to help sales managers to intelligently manage their team, proactively coach sellers, and quickly answer their most important business questions.<br>
@@ -70,4 +70,4 @@ The following features are available under Dynamics 365 AI for Sales:
 ### See also
 
 - [Administrator guide for Embedded intelligence](../sales/configure-enable-embedded-intelligence.md)
-- [Administrator guide for AI for Sales](../sales/configure-enable-sales-insights-addon.md)
+- [Administrator guide for AI for Sales](../sales/configure-enable-d365-ai-sales.md)
