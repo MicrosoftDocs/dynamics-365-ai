@@ -26,11 +26,7 @@ In this section you will learn how to utilize the PBI connector for unlocking th
 
 The Customer 360 dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
 
-In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one data source to it through the **Data Manager: Get Data** page. Also, make sure you have Power BI Desktop installed on your computer.
-
-- Download Power BI for Desktop: https://powerbi.microsoft.com/en-us/desktop/
-
-Then complete the following steps.
+In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one data source to it through the **Data Manager: Get Data** page. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
 
 ### Step One: Download MEZ File
 
@@ -40,7 +36,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 
 ### Step Two: Publish the Customer 360 Dashboard
  
- 1. Bring Customer 360 data to Power BI. Open Power BI for Desktop and select Get Data at the top menu.
+ 1. Bring Customer 360 data to Power BI. Open Power BI for Desktop and select **Get Data** at the top menu.
     
     [PBI2] 
     
@@ -56,7 +52,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
  
    [PBI5]
      
-5. Use your Azure Active Directory credentials, and the select **Connect**.
+5. Use your Azure Active Directory credentials, and then select **Connect**.
      
    [PBI6]
      
