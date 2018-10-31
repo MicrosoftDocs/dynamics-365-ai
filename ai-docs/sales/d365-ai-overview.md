@@ -63,12 +63,9 @@ You can see that some attributes in your question are highlighted. When you sele
 
 Q&A provides you with predefined questions. You can customize these predefined questions to fit your requirements. Select the question and key attributes are highlighted. Select these key attributes and change them according to your requirements. The results are updated to display your modified question.
 
-## Basic KPIs
+## Base KPIs
 
-The basic KPIs provide information on the status of your current sales period. The following is an example of how the basic KPIs are displayed.
-
-
-<!--from editor: Why does the caption call these "base" KPIs rather than basic?-->
+The base KPIs provide information on the status of your current sales period. The following is an example of how the base KPIs are displayed.
 
 
 > [!div class="mx-imgBorder"]
@@ -124,11 +121,7 @@ To further drill down into individual performance, select the bar representing t
    > [!div class="mx-imgBorder"]
    > ![Leaderboard quick view](media/d365-ai-sales-leaderboard-pane.png "Leaderboard quick view") 
 
-
-<!--from editor: Don't forget to add the URL to the following link.-->
-
-
-   Select the **View full report** icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Leaderboard pane to go to the **Leaderboard** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View sales rep performance](../sales/d365-ai-team-performance#leaderboard)
+Select the **View full report** icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Leaderboard pane to go to the **Leaderboard** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View sales rep performance](../sales/d365-ai-team-performance.md#leaderboard)
 
 ## Pipeline
 
@@ -145,10 +138,7 @@ The Pipeline section provides a view of the relationship health in your upcoming
    > ![Pipeline quick view](media/d365-ai-sales-pipeline-pane.png "Pipeline quick view") 
 
 
-<!--from editor: Remember to add URL to the link below.-->
-
-
-   Select the **View full report** icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Pipeline pane to go to the Pipeline tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View potential opportunities](/sales/d365-ai-business-performance#pipeline)
+Select the **View full report** icon ![Forecast quick view](media/d365-ai-sales-forecastviewfullreporticon.png "Forecast quick view") on the Pipeline pane to go to the Pipeline tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View potential opportunities](/sales/d365-ai-business-performance.md#pipeline)
 
 ## Highlights
 
