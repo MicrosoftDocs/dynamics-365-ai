@@ -22,12 +22,12 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can create segments of your data to filter on certain elements such as a time range and customer satisfaction to create focused, actionable steps.
+You can create segments of your customers which match a filter criteria based on attributes such as demographic, transactional or behavioral to target specific actions such e-mail campaings to achieve desired business goals.
 
 There are two types of segments:
 
-- **Static**: Segment with conditions that are processed only upon the creation of the segment and it's possible updating. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
-- **Dynamic**: Segment with conditions that are processed according to a fixed schedule. The current segment resfreshing schedule is every 12 hours. Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time.
+- **Static**: Segment with filter conditions that are processed only upon the creation of the segment or upon update of any of its group filter conditions. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
+- **Dynamic**: Segment with filter conditions that are processed according to a fixed recurring schedule.  Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time. The current dynamics segment resfreshing schedule is every 12 hours.
 
 This section will cover segment creation followed by segment exploration.
 
