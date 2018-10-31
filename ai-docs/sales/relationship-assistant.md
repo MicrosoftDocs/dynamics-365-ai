@@ -28,10 +28,6 @@ The relationship assistant is part of the new *Embedded intelligence* suite of f
 
 The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
 
-Watch this short video about the Dynamics 365 Relationship assistant<br>
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=839677" frameborder="0" allowfullscreen=""></iframe></div>
- 
-
 ## How and where the relationship assistant can help you  
 
  The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
