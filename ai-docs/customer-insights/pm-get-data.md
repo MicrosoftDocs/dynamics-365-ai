@@ -1,5 +1,5 @@
 ---
-title: "Get data| MicrosoftDocs"
+title: "Get data | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/1/2018
