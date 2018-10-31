@@ -22,16 +22,13 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Settings
-Note: The **Settings** page is accessable only to **Administrators**. If you have one of the other permissions (**Reader** or **Writer**), you may want to review the **Permissions** section and explore all the functionalities that are available to you in Customer 360.
+Note: The **Settings** page is accessible only to **Administrators**. If you have one of the other permissions (**Reader** or **Writer**), you may want to review the **Permissions** section and explore all the functionalities that are available to you in Customer 360.
 
-Within this screen several options are available as shown below:
+Within this screen, several options are available as shown below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/settings.png "Settings")
 
-- **Display Name**: Determines how your user name will be shown (shown in blue above)
-- **Instance Name**: Here you can give your work instances identifiable names. It's an highly recommended practice if you have more than one instance (shown in red above)
-- **Region**: Determines your organization's region (shown in green above)
-
-
+- **Display Name**: Determines how your user name will be shown
+- **Instance Name**: Here you can give your work instances identifiable names. Highly recommended if you have more than one instance 
+- **Region**: Determines your organization's region 

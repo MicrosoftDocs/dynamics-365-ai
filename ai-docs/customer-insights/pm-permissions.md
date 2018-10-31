@@ -31,45 +31,44 @@ The main administration page is the **Permissions** page where you can set up ro
 |Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page   </li></ul>     |
  
 ### Adding Roles and Permissions
-This is done via the **Add Permissions** panel that can be accessed via  **Add** at the top of the permissions page:
-
-Replace with permissions final1:
- ![add-permissions.png](media/add-permissions.png)
- 
-Once the panel is opened, first you will need to find the person to which you want to give the permission. Type a name in the **Name field** as shown below.
+On the **Permissions** page, select **Add** to add permissions and roles to users.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/permissions-roles.png "Add permissions")
+> ![](media/add-permissions.png "Add permissions")
+ 
+First, find the person to whom you want to give permission. Type a name in the **Select** field.
 
-Then, choose a role for that person as shown below:
+> [!div class="mx-imgBorder"] 
+> ![](media/permissions-roles.png "Enter a name")
+
+Then, choose a role for that person.
 
 [missing permissions image]
 
-Lastly, hit **Save** in the bottom right corner of the panel. Upon saving a permission, an instance will be automatically created for the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perfom actions according to the roles table that was specified above.
+Lastly, select **Save** in the bottom right corner of the panel. An instance will be automatically created for the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the roles that were specified above.
  
 ### Viewing current permissions
-After hitting save you can view all the permissions that were given in this page:
+After selecting **Save**, you can view all the permissions that were given in this page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions.png "Permissions")
 
 Let's explore this screen:
 
-- The **Type** column specifies whether it's a single member, a group, or an application (at this point Customer 360 supports only individual users)
+- The **Type** column specifies whether it's a single member, a group, or an application. At this point, Customer 360 supports only individual users.
 - Roles are specified under the **Roles** column
-- You can also look for a specific person, group or application by typing it's name in the search field:
-[?]
-
-- Lastly, you can sort the results by each of the columns by clicking on the arrow icon next to the column name:  
+- You can also look for a specific person, group, or application by typing a name in the search field. [?]
+- Lastly, you can sort the results by each of the columns by selecting the arrow next to the column name.  
 [permissions4]
 
 ### Filtering Permissions by a Role
-This can be achieved by opening the **Filter** panel through **Filter** at the top of the permissions page, and choosing whether to filter the permissions by the ***Administrator***, ***Contributor*** or ***Reader*** roles.
+At the top of the **Permissions** page, select **Filter**  to open the **Filter** panel. Then, choose whether to filter the permissions by the ***Administrator***, ***Contributor***, or ***Reader*** roles.
 
-![permissions-filter.png](media/permissions-filter.png)
+> [!div class="mx-imgBorder"] 
+> ![](media/permissions-filter.png "Permissions filter")
 
 ### Viewing current number of users per role
-This can be done via the **Roles** panel that can be accessed via **Roles** at the top of the permissions page:
+At the top of the **Permissions** page, select **Roles** to open the **Roles** panel to view the number of users per role.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles2.png "Roles")
