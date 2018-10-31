@@ -28,7 +28,7 @@ The main administration page is the **Permissions** page where you can set up ro
 |---------|---------|
 |Viewer     | <ul><li>View **Segments** page </li></ul>       |
 |Contributor     | <ul><li>Complete **Data Manager**: **Get Data** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge** </li><li>View **Segments** page </li><li>Create segments in the **Segment Creation** page  </li></ul> |
-|Administrator     | <ul><li>All that is available to the Contributor</li><br/>AND<br/><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page   </li></ul>     |
+|Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page   </li></ul>     |
  
 - **Adding Roles and Permissions** 
 This is done via the **Add Permissions** panel that can be accessed via  **Add** at the top of the permissions page:
