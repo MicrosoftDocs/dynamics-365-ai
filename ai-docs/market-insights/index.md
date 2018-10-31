@@ -1,3 +1,3 @@
 ---
-redirect_url: /dynamics365/customer-engagement/social-engagement/help-hub
+redirect_url: /dynamics365/ai/market-insights/help-hub
 ---
