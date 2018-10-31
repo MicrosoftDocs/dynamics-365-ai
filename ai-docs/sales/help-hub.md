@@ -33,12 +33,12 @@ search.app:
 <h2>Get started</h2>
 <li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 AI for Sales overview</a></li>
 <li><a href="embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](embedded-intelligence.md)">Embedded intelligence overview</a></li>
-<li><a href="d365-ai-for-sales.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sellers overview](d365-ai-for-sales.md)">Dynamics 365 AI for Sales capabilities for sellers</a></li>
+<li><a href="dynamics-365-ai-for-sales.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sellers overview](dynamics-365-ai-for-sales.md)">Dynamics 365 AI for Sales capabilities for sellers</a></li>
 <li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sales managers overview](dynamics365-ai-sales-app.md)">Dynamics 365 AI for Sales capabilities for sales managers</a></li>
 </td><td>
 <h2>Administer the system</h2>
 <li><a href="configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
-<li><a href="configure-enable-d365-ai-sales.md" data-raw-source="[Enable and configure Dynamics 365 AI for Sales capabilities for sellers](configure-enable-d365-ai-sales.md)">Enable and configure Dynamics 365 AI for Sales capabilities for sellers</a></li>
+<li><a href="configure-enable-dynamics-365-ai-sales.md" data-raw-source="[Enable and configure Dynamics 365 AI for Sales capabilities for sellers](configure-enable-dynamics-365-ai-sales.md)">Enable and configure Dynamics 365 AI for Sales capabilities for sellers</a></li>
 </td></tr>
 <tr><td>
 <h2>Increase sales</h2>

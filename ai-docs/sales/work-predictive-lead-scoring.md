@@ -28,7 +28,7 @@ In a highly competitive market, it is important for you to spend time on quality
 For example, there are two leads - Lead A and Lead B in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. by looking at the score, you can predict that Lead A has more chances of converting into opportunity and you can engage it. Also, you can further analyze why score of Lead B is low by looking at the top reasons that are influencing the score and take a decision to improve this score.
  
 > [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-d365-ai-sales.md#configure-predictive-lead-scoring)
+> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-dynamics-365-ai-sales.md#configure-predictive-lead-scoring)
 
 
 ## Understand predictive lead scoring in views
@@ -60,4 +60,4 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-d365-ai-sales.md)
+[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)

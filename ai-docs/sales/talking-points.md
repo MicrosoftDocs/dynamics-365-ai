@@ -42,7 +42,7 @@ In [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], **Talking points
 > ![Talking point](media/talkingpoints.png "Talking point")
 
 > [!NOTE]
-> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-d365-ai-sales.md). <!--change image to change heading to Talking points-->
+> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md). <!--change image to change heading to Talking points-->
 
 Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
 
@@ -63,4 +63,4 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-d365-ai-sales.md) <!--update with connection insights link-->
+[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md) <!--update with connection insights link-->
