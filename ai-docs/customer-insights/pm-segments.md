@@ -1,5 +1,5 @@
 ---
-title: "Segments| MicrosoftDocs"
+title: "Segmentation| MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
