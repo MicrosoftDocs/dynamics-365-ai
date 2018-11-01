@@ -21,7 +21,7 @@ search.app:
 
 # Understand widgets on the overview page
 
-<!--from editor: Add URL below?-->
+<!--from editor: Does the following sentence need a URL? If not and it's just an informational sentence, please change the brackets to parentheses.-->
 
 [This topic is pre-release documentation and is subject to change.]
 
