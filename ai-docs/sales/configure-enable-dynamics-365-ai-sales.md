@@ -22,10 +22,10 @@ topic-status: Drafting
 
 # Enable and configure Dynamics 365 AI for Sales capabilities for sellers
 
-Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
+<!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
 > [!IMPORTANT]
-> - Dynamics 365 AI for Sales seller experience requires [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) 9.1.0.35. Support for more versions will be available in the future.
+> - Dynamics 365 AI for Sales capabilities for seller requires [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) 9.1.0.35. Support for higher versions will be available in our future releases.
 > - The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] seller features are available only in North American (NAM) regions.
 
 Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features helps the user to effectively use the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales contains the following features:
