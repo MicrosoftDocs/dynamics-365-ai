@@ -147,16 +147,16 @@ Within the table shown above, the left side (red) provides a preview of some of 
 (green) includes.. 
 
 ## Step 4 (Optional): Reviewing and Validating the First Match Pair
-If you followed through step (3), then you already started to validate the quality of your first match. However, as part of the current and the next steps, you will learn how to evaluate in depth this quality and improve it. There are a few things you can do:
+If you followed through step (3), then you already started to validate the quality of your first match. However, as part of the current and next steps, you will learn how to evaluate in depth this quality and improve it. There are a few things you can do:
 
-- **First**, you can gain first insights by reviewing the tiles at the top of the page:
+- **First**, you can **gain first insights** by reviewing the tiles at the top of the page:
     - 1.The left tile shows the number of records that were successfully matched
     - 2.The center tile shows the number of records that were not successfully matched
     - 3.The right tile shows the number of customers that are included in the original two match-pair entities whether they were matched or not. This tile will provide you more context into the first number above - is that a relatively good or poor result?
 
 Note that if you match more entities in the future these three numbers will present the **total** numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this matche's row within the **Description** section. 
 
-- **Second**, you can click the following button within the **Description** section in order to view all your match pair records:
+- **Second**, you can click the following button within the **Description** section in order to **view all your match pair records:**
 
 []
 
@@ -164,73 +164,76 @@ This screen presents all your match pair records. It is recommended to go throug
 
 []
 
-- **Lastly**, you can experiment with different threasholds around your criteria in order to identify the optimal threasholds. 
+- **Lastly**, you can **experiment with different threasholds around your criteria in order to identify the optimal threasholds**. In order to perform these experiments, follow the next few steps:
+    - 1.Click the match pair rule you want to experiemnt with. In the example below, the user has identified the rule that is highlighted in red among the two rules that he has created:
 
+   []
 
+   - 2.Identify the criteria that you want to experiment with. Remember - each criteria is represented by one row in the panel below. Once identifyinf the criteria you want to experiment with, click the following button:
+   
+   []
+
+   - 3.At this point the screen that you will see depends on whether you selected a **Fuzzy** or **Exact** match for that criteria. 
+       - If you chose **Exact** for that criteria, you will see the following screen:
+       
+       []
+       
+       Here you can view the number of matched and unmatched records for that criteria (shown in red below). You can also view the records in the table section (shown in blue):
+       
+       - If you chose **Fuzzy** for that criteria, you will see the following screen:
+       
+       []
+       
+       This screen gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threashold levels (shown below in red), as well as viewing the records under each option by clicking each of the tiles (shown in blue) and viewing the table section (shown in green):
+       
+       []
+       
 ## Step 5 (Optional): Making Changes to the Rule/s Definitions
+If you followed step (4), then at this point you should have a better understanding around the quality of your first match. At this point you can translate that understanding into a better match quality by reconfiguring some of your match parameters:
 
-## Step 6 (Optional): Adding Additional Matches as Needed
+- **Changing the Match Pair entities**: That can be done by clicking the match row in the **Description** section and editing the match pair fields. Remember that the field to the left represents the entity that will be used as a basis for your end-state master entity and hence it should contain reliable data and some attributes that are shared by other entity or entities. 
 
-## Step 7 (Optional): Reviewing the Order by Which We Chose to Match Our Entities
+- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yeild a better match quality. That can be done by clicking the **Edit** button as shown earlier within the match row and subtituting the first rule's attributes with the second rule's attributes as shoen below:
+
+[]
+
+- **Editing your rules**: That includes several important changes that you should try as you optimize the match quality:
+    - **Changing attributes for a criteria**: That can be done by reselecting new attributes within the criteria row
+    - **Changing threashold for a criteria**: That can be quickly achieved via the threashold bar. In step (4) we covered how to get insight into the effects of the three threashold levels on your match quality.
+    - **Changing normalization methods for a criteria**: That can be done by reselecting the normalization methods
+    - **Changing from an *Exact* match to a *Fuzzy* match:** Doing so can lead to higher number of mathced records at the possible expence of lower accuracy. Doing the opposite might carry the opposie tradeoff (higher accuracy for lower number of matched records).
+    
+## Step 6 (Optional): Adding Additional Matches if Needed
+Until this point you have created, ran, and evaluated one match. In many cases you will want at this point to bring data to your unified master data set from more entities. Prerequisite for doing so is that these additional entities were ingested through the **Get Data** page and mapped through the **Map** page.
+
+In order to match a new entity with the unifed data set that you created in steps 1-2, click the **Add** button in the **Description** section:
+
+[]
+
+Then click the ? button in order to add another match pair:
+
+[]
+
+Note that upon clicking the ? button, a new row was created and the unified data set that you created in steps 1-2 now appears as one of the new match pair entities (highlighted in red below):
+
+[]
+
+In order to complete the creation of your second match, select the new entity that you want to match with your unified master entity (shown in blue below) and hit **Save**:
+
+[]
+
+Note that this point the new match will appear in the summary section too:
+
+[]
+
+However it has a **Rules Needed** status that implies that you havn't defined rules for that match pair yet (which again is mandatory in order to run the match). Hence at this point you should repeat steps 2-3 for that new match pair.
+
+
+## Step 7 (Optional): Reviewing the Order by which multiple Matchings are Executed
+
+
 - **Changing the order by which matches are executed:** That can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair () and the second match pair (), we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
 
 ## Next Step
 Once completed the Match process for at least one Match Pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section, the third and last **Data Configuration** steps. 
 
-## Summary Section
-This diagram visualizes the hirarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the datasource from which it was dervied, number of records, end possibility to view those records by clicking the button at the bottom-right corenr of the tile.                                
-
-To examplify the logic that is captured in the **Summary** part, the following matching sequence is reflected in the diagram below:
-- First, *Sales Data* from *Salesforce* will be matched with *Sales Data* from *Dynamics 365*
-- Then, the matched dataset that resulted from step one will be matched with *Survey Data* from *Salesforce*
-- Then, the matched dataset from step two will be matched with *Solication Data* from *Salesforce*
-- Lastly, the matched dataset from step three, will be matched with another *Sales Data* dataset from *Salesforce*
-    
-[13]
-
-In addition to entities, the Suammry diagram includes three types of status for the different matchings. Those are stated on top of the links that connect each matching pair. 
-- In the example above, all these links have the same status: **Rules Needed**. This status implies that no rules were defined for the match pair. As we will see, **at least one rule *must* be added to each of the matchings** and it can be done in the **Details** section
-- Once rules were defined for a given match pair, it's status will turn to **Ready to Run**. As we will see, running a match is also available within the **Details** section. 
-- **Matching** is the third status you can see for a given match pair. This status implies that the matching process is currently under progress (reflected as a percentage).   
-- **Complete** is the forth and last status you can see for a given match pair and it reflects the completion of the matching process both for this matching and for all the matchings that precede it. In the example shown below, the first two matchings were completed while the third matching is under progress:
-
-[14]
-
-
-
-### Details Section
-This section captures your matchings in a table. Let's explore the **Details** table fields, going left to right:
-
-[17]
-
-   - The first column specifies the order by which the matchings will take place (reflecting the same sequence as in the summary part)
-   - The next two columns specify the specific match pair members, whether these are single entities (highlighted in blue in the example above), or datasets resulted from prior matchings (highlighted in red in the example above).
-   - The next two columns specify the number of matched and unmatched records **for that specific matching** 
-   - The last column includes a status icon: A **warning sign** will change into a **checked circle sign** once a match pair is in **Complete** status
-
-Next to these fields you will find a **three dots icon**:
-
-[18]
-
-Clicking it will enable you to perform the following actions:
-- **Running a match pair**. Clicking **Run** in one of the rows will run only the matching that is represented in that row. For running all your match pairs at the same time, go to the bottom of the Match screen and hit the **Run All** button:
-
-[19]
-
-- **Adding and Editing Match Pair Rules:** Clicking **Edit** will open the **Edit Match Rule** pop-up window:
-
-[20]
-
-Besides the role name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes (going left to right):
-
-[21 plus numbers]
-[turn into a table:?] 
-
-- The attribute that will be used for matching within the first match-pair entity
-- The attribute that will be used for matching within the second match-pair entity
-- The method that will be used for that criteria: Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either *Low*, *Medium* or *High*.
-- An either **OR** or **AND** operator where:
-  - **AND** states that the criteria will be executed together** with the next criteria
-  - **OR** states that either this or the next criteria should be executed
-
-![match-edit-rule.png](media/match-edit-rule.png)
