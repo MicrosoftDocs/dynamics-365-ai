@@ -35,10 +35,12 @@ Each segment is defined by combining various filter criteria that customer and i
 **What is a segment group**
 Each segment group produces a set of customers based on its filter criteria. Each group's filter criteria is defined by choosing a starting entity anywhere in the customer data graph and defining filter criteria as you navigate over data graph using entity relationships to end on customer master entity - to output customer records that the group filter will produce. Multiple filter groups can be combined using set operations - union, intersect or exclude to build complex criteria using ease of set operations. 
 
-The example below illustrates how to build a segment that uses multiple groups to define filter criteria over different part of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
+{insert data graph diagram} 
+The example data graph shown above reflects system and custom relationships that were created during configuration. This data graph help dictate the sequence by which segmentation group filter criteria is defined as shown below (starting with the group filter entity and ending with the Customer entity itself)
 
-{Example of complex segment with multiple groups}
 {Insert segment definition image highlighting Group 1 and Group 2}
+
+The example above illustrates how to build a segment that uses multiple groups to define filter criteria over different part of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
 
 - Group 1 uses Order as starting entity to define filter criteria to find customers who placed order for more $500 in the last 90 days
 - Group 2 uses Case as starting entity to define filter criteria to find customer who have an escalated case in last 30 days
