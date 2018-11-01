@@ -23,7 +23,7 @@ search.app:
 
 # Take over an unmanaged directory that has Market Insights
 
-<!--from editor: Looks like the first sentence is missing a URL?-->
+<!--from editor: Does the following sentence need a URL? If not and it's just an informational sentence, please change the brackets to parentheses.-->
 
 
 [This topic is pre-release documentation and is subject to change.]
