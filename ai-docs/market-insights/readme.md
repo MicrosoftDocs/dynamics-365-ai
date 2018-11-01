@@ -21,18 +21,20 @@ search.app:
 
 # [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Readme
 
+<!--from editor: change brackets to parentheses if the next sentence isn't a link.-->
+
+
 [This topic is pre-release documentation and is subject to change.]
 
 This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].
 
-Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Market Insights](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, please go to the [Community forum](https://community.dynamics.com/crm/f/752).
+Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Market Insights](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, go to the [Community forum](https://community.dynamics.com/crm/f/752).
 
 ## Integration scenarios - known issues
 
 ### Microsoft Dynamics 365 domains must be added to Allowed Domains to enable integration
 
-For the integration between Microsoft Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], your Dynamics 365 [domains must be added as allowed domains in Market Insights](connect-other-domains.md).
-This will ensure that only the Dynamics 365 domains you own can make requests to your data.
+For the integration between Microsoft Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], your Dynamics 365 [domains must be added as allowed domains in Market Insights](connect-other-domains.md). This will ensure that only the Dynamics 365 domains you own can make requests to your data.
 
 If you are a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] administrator, you can do this by going to **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as allowed domains to enable communication with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
@@ -44,7 +46,7 @@ For some blogs coming through WordPress, the format of the text is not delivered
 
 ### YouTube videos in tweets are not always rendered in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-In the case where a video is shared directly from YouTube to Twitter, the video is not rendered in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Instead the link to the video is displayed in the respective tweet.
+In the case where a video is shared directly from YouTube to Twitter, the video is not rendered in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Instead, the link to the video is displayed in the respective tweet.
 
 ### A News post might not contain an original URL
 
@@ -96,7 +98,7 @@ Owners of social profiles and streams have the option to choose **Shared** and s
 
 ### Notifications that trigger multiple actions might overlap
 
-When you perform multiple actions within a short time frame, notification messages might overlap. Although notifications disappear automatically, we recommend that you close them manually so that you can see each notification and take action as needed.
+When you perform multiple actions within a short timeframe, notification messages might overlap. Although notifications disappear automatically, we recommend that you close them manually so that you can see each notification and take action as needed.
 
 ### Quota notification in Search Setup can be hidden and is hard to show again
 
