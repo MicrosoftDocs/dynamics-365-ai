@@ -36,8 +36,7 @@ Select **Get Data** as shown below:
 
 Then you should give your data source a name as shown below. You can also add an informative description.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connection-settings.png "Connection settings")
+[]
 
 Lastly hit **Save** at the right bottom corner of the window. 
 
@@ -50,7 +49,8 @@ Within the data sources page that is shown below you should locate the specific 
 
 Lastly, upon clicking a data source that you wish to ingest, you will need to complete all the required fields for that data source. An example for Excel (.csv) file mandatory fields is shown below. Once all field are filled, approve by selecting **Next** at the bottom of the page.
 
-[4]
+> [!div class="mx-imgBorder"] 
+> ![](media/connection-settings.png "Connection settings")
 
 ### Step Three: Editing Entities
 
