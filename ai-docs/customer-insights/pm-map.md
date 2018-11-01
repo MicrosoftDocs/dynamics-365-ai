@@ -1,5 +1,5 @@
 ---
-title: "Map| MicrosoftDocs"
+title: "Map | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 10/31/2018
@@ -22,53 +22,59 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+There are two main goals behind the map phase:
 
-There are two main goals behind the **Map phase:**
-- **Entity selection:** Identifying the customer entities which, upon unification, may lead to a dataset with a more complete information on your customers
-- **Attribute selection:** For each customer entity, identifying the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
+- **Entity selection:** Identify the customer entities which, upon unification, may lead to a dataset with more complete information on your customers
+- **Attribute selection:** For each customer entity, identify the columns upon which you will want to combine your data in the next phase (those columns are also called **Attributes**)
 
-Clicking the **Map** tile at the **Configure Data page** will take you to the **Entity Selection** screen:
+Select the **Map** tile on the **Configure Data** page to open the **Entity Selection** page.
 
-[Map final 1]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map.png "Map tile")
 
-### Adding Entities to the Map Screen
+### Add entities to the Map page
 
-Within the Entities Selection screen, click **Add Entites** as shown below:
+In **Entities Selection**, select **Add Entities**.
 
-[Map final 2]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-add-entities.png "Add entities")
 
-Upon clicking the **Add Entities** botton, a side menu will show up on the right:
+Select **Add Entities**.
 
-[Map final 3]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-search-entities.png "Search entities")
 
-Here you want to add all the entities which, upon unification, may lead to a better understanding of your customers. 
-- Within the example that is shown below, the user has searched (through the highlighted search field) for the **Contact** and **Survey** entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that **Address** exists only in the **Contact** entity). 
+Add all the entities which, upon unification, might lead to a better understanding of your customers. 
 
-[Map final 4]
+In the example below, the user searched for the Contact and Survey entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that Address exists only in the Contact entity). 
 
-- Then, the user has selected the **Contact** and **Survey** entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested during the **Get Data** phase. The user has selected those two entities and clicked **Save**:
+Then, the user selected the Contact and Survey entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested during the **Get Data** phase. The user selected those two entities, and then selected **Save**.
 
-[Map final 5]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-- Note that you should search for and select **at least two entities** in order to benefit from the Data Configuration process.
+> [!NOTE]
+> You should search for and select at least two entities in order to benefit from the data configuration process.
 
-### Adding Attributes to Entities within the Map Screen
+### Add attributes to entities in the Map page
 
-Following entity selection, you should reach the following screen which is called the **Map Screen**:
+Following entity selection, the **Map** page appears.
 
-[Map final 6]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-ingested-entities.png "Ingested entities")
 
-On the left you can see your ingested entities as highlighted in red above. Upon reaching this page, the first entity will be automatically selected (in the example above it's the **Contact** entity). 
+On the left, you can see your ingested entities. The first entity is automatically selected. In the example, above it's the Contact entity. 
 
-- At this point you should start add attributes to each of your entities. You should select all the attributes on the basis of which you want to combine your entities. You can either manually add attributes by as shown in red below, or let the system auto-identify the attributes for the selected entity as shown in blue:
+At this point, you should start adding attributes to each of your entities. You should select all the attributes on the basis of which you want to combine with your entities. You can either manually add attributes (**Define my own**), or let the system auto-identify the attributes for the selected entity (**Use system recommendations**).
 
-[Map final 7]
+#### Manually adding attributes**
 
-- **Manually adding attributes**: Upon clicking **Define** a window will show up on the right:
+When you select **Define**, a window appears on the right in which you can manually add attributes.
 
-[Map final 8]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")
 
-Here you can select all the attributes that are relevant for each of your entities (remember, in the example above we had two entities: **Contact** and **Syrvey** entities). Use either the **search field** (highlited below in red) and/or scroll down the menu (highlighted in blue) to locate and select all the attributes. Finish by clicking **Save** at the right bottom corenr of the window. Note that you can also choose **all** the attributes by clicking **Select all attributes** (shown below in green) or deselect all your chosen attributes by clicking the same botton after you made certain selections:
+Here you can select all the attributes that are relevant for each of your entities. Remember, in the example above we had two entities: Contact and Survey. Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all the attributes. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all attributes** (green). Selecting **Select all attributes** again to deselect all your chosen attributes.
 
 [Map final 9]
 
@@ -85,7 +91,7 @@ Clicking each of the customer entities tabs on the left will open it's correspon
 
 ## Adding or Editing Entities and Attributes
 
-Both actions are available through the **Edit** botton as shown below:
+Both actions are available through the **Edit**  as shown below:
 
 ![add-custom-entity.png](media/add-custom-entity.png)
 
@@ -107,7 +113,7 @@ Next you want to select additional attributes or deselect attributes you have se
 
 [Map final 15]
 
-## Keep unmatched records:** 
+## Keep unmatched records
 As part of the next stage (match), it is possible that not all of your data entities will be successfully matched. Upon checking this box (shown below), you choose to save all the records of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
 
 > [!div class="mx-imgBorder"] 
