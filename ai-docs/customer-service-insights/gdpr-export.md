@@ -1,6 +1,6 @@
 ---
-title: "Responding to GDPR Data Subject Export Requests for Dynamics 365 AI for Customer Service"
-description: "Learn how to respond​ to GDPR Data Subject Export Requests for Dynamics 365 AI for Customer Service."
+title: "Responding to GDPR Data Subject Export Requests for Dynamics 365 AI for Customer Service Insights"
+description: "Learn how to respond​ to GDPR Data Subject Export Requests for Dynamics 365 AI for Customer Service Insights."
 keywords: ""
 ms\.date: 10/31/2018
 ms.service:
@@ -12,10 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-
-<!--from editor: Should it be AI for Customer Service Insights in the first heading and paragraph? And does that even need to be in the heading?-->
-
-# Responding to GDPR data subject export requests for Dynamics 365 AI for Customer Service
+# Responding to GDPR data subject export requests for Dynamics 365 AI for Customer Service Insights
 
 As part of our commitment to partner with you on your journey to the General Data Protection Regulation (GDPR), we’ve developed documentation to help you prepare. The documentation not only describes what we’re doing to prepare for the GDPR but also shares examples of steps you can take today with Microsoft to support GDPR compliance when using Dynamics 365 AI for Customer Service.
 
@@ -35,8 +32,6 @@ A tenant administrator can follow these steps to export data:
 
 1. Sign in to the [Azure management portal](https://ms.portal.azure.com).
 
-<!--from editor: Is there a friendlier way we could present the following URL? -->
-
 2. Navigate to [https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
 
 > [!div class="mx-imgBorder"]
@@ -52,9 +47,6 @@ After the export runs successfully, you will see the data in your storage contai
 ### Export customer data – Other (Tenant admin)
 
 A tenant administrator can follow these steps to export data:
-
-
-<!--from editor: I changed AAD to Azure Active Directory (Azure AD). Please confirm.-->
 
 1. Send email to ccinsightadmins@microsoft.com specifying the user’s Azure Active Directory (Azure AD) objectId in the request.
 
