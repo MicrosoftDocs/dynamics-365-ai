@@ -30,7 +30,7 @@ Note that the Match phase requires at least two Mapped entities. If you have not
 [match notification image1]
 
 ## The Match Phase
-- **The Match Phase** enables you to specify how to combine your datasets into a unfied **Master Customer Dataset** that will be utilized later to unlock unique insights about your customers.
+- As part of the Data Configuration process, **The Match Phase** enables you to specify how to combine your datasets into a unfied **Master Customer Dataset** that will be utilized later to unlock unique insights about your customers.
 
 - If it's the first time you are going through the Match process, you should complete all the steps in this section:
   - 1.Specifying the first pair of entities that you want to Match (also called a *Match Pair*)
@@ -46,8 +46,8 @@ We will explore these steps in a sequential order. Prior to that we will give a 
 [replace with 11]
 ![match.png](media/match.png)
 
-## Quick introduction to how the Match Page is Organized
-The *Match* page shown above includes two major sections: **Summary** and **Details**. We will first use the **Details** section to specify the Match Pair and setting it's rules (steps 1-2 as well as steps 5-6). Later we will use the **Summary** section to track the progress of our Match until completion as well as to validate the order by which we are matching our entities (validating step 3 and performing step 7). Lastly, above these components you will find three tiles and these will be used for step 4 above (for now there are no counts since no Match was executed).
+## Quick introduction to the Match Page
+The **Match page** shown above includes two major sections: **Summary** and **Details**. We will first use the **Details** section to specify the Match Pair and setting it's rules (steps 1-2 as well as steps 5-6). Later we will use the **Summary** section to track the progress of our Match until completion as well as to validate the order by which we are matching our entities (validating step 3 and performing step 7). Lastly, above these components you will find three tiles and these will be used for step 4 above (for now there are no counts since no Match was executed).
 
 ## Step 1: Specifying a First Match Pair
 Each **Match Pair** involves two entities that are unified into a single entity. Clicking the **Edit** button as shown below will enable you to create the first (as well as any future) Match Pair:
@@ -69,9 +69,33 @@ Within this panel you will set the definitions for your first Match Pair:
 
 **Note**: The considerations that were mentioned for your first selection can help you choose that entity as well (what is the second most reliable entity and does it include enough fields that are also shared by other mapped entities?)
 
-- **Lastly**, hit **Save** and you will see that the **Description** now includes your first Match Pair. you can always **Edit** that match pair by clicking the **Edit** button as we did when we created that pair.
+- **Lastly**, hit **Save** and you will see that the **Description** now includes your first Match Pair. you can always **Delete** or **Edit** that match pair by clicking the **Edit** button as we did when we created that pair.
+[]
 
 ## Step 2: Defining Rules for the First Match Pair
+For each of your match pairs you should define at least one **Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click the **Add Rule** as shown below:
+
+[20]
+
+Clicking **Add Rule** will open the following panel:
+
+[21 plus numbers]
+[maybe turn the following into a table?:]
+
+Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections (going left to right):
+
+- 1.The attribute that will be used for the matching from the first match-pair entities (that can be Email, Phone, etc)
+- 2.Normalization for first attribute: Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization**). You can change this default setting to any of the other options.
+- 3. The attribute that will be used for the matching from the second match-pair entities
+- 4.Normalization for second attribute: Same definitions as described under (3).
+- 5. The method that will be used for that criteria: Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign.
+
+**Adding multiple criteria**:
+If you wish to match your entities **only** if mltiple conditions are met, you can do so by adding more criteria (which will be linked through an **AND** operator). To add criteria, simply click the **Plus button** as shown below. You can also remove criteria by clicking the same button (turned to a **Minus button** for existing criteria)
+[]
+
+**Adding multiple rules**:
+If you wish to match
 
 ## Step 3: Running the First Match 
 
@@ -106,19 +130,7 @@ In addition to entities, the Suammry diagram includes three types of status for 
 
 [14]
 
-- **Adding and Editing Match Pairs**
-Both actions can be done by clicking the **Edit** botton:
 
-[15]
-
-Upon clicking it, the following panel opens up:
-
-[16]
-
-Each match pair occupies one row in this panel. 
-- **Adding a new a match pair:** Click the **Plus Sign** that is highlighted in red in the image above. Then choose the two entities that will be included in the new match pair. 
-- **Editing a match pair's entities:** Upon clicking a match pair entitiy (as highlighted in blue) you will be able to change it to any of the other entities
-- **Changing the order by which matches are executed:** That can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair () and the second match pair (), we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
 
 ### Details Section
 This section captures your matchings in a table. Let's explore the **Details** table fields, going left to right:
