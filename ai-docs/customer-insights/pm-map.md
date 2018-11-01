@@ -84,7 +84,7 @@ Here you can select all the attributes that are relevant for each of your entiti
 Select each of the customer entities tabs on the left to open it's corresponding attributes table as shown above for the Survey entity example. Below we will explore this table's columns from left to right. Note: you must make selections within all the mandatory columns:
 
 - **Primary key (mandatory selection):** For executing the identity-resolution process, it's mandatory to select one attribute as a unique key for each of the customer's entities. For example, if one of your data sources is a Contacts dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
-- **Column Name**: The attribute's name as appears it in the dataset.
+- **Column Name**: The attribute's name as appears in the dataset.
 - **Customer attribute (mandatory selection)**: 
 - **Entity Type(mandatory selection?):** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type.
 - **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
