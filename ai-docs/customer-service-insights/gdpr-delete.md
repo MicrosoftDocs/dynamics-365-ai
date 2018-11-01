@@ -1,6 +1,6 @@
 ---
-title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service"
-description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service."
+title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service Insights"
+description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service Insights."
 keywords: ""
 ms\.date: 10/31/2018
 ms.service:
@@ -12,11 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-
-<!--from editor: Should it be AI for Customer Service Insights in the first heading? (And do you even need that in the heading?-->
-
-
-# Responding to GDPR data subject delete requests for Dynamics 365 AI for Customer Service
+# Responding to GDPR data subject delete requests for Dynamics 365 AI for Customer Service Insights
 
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
 
@@ -30,8 +26,6 @@ Dynamics 365 AI for Customer Service Insights offers the following experiences t
 ### Delete customer data (Tenant admin)
 
 A tenant administrator can follow these steps to delete data:
-
-<!--from editor: Changed AAD to Azure Active Directory (Azure AD). Please confirm.-->
 
 1. Send email to ccinsightadmins@microsoft.com specifying the user’s Azure Active Directory (Azure AD) objectId in the request.
 
