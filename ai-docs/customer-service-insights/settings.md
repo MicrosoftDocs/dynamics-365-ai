@@ -27,7 +27,7 @@ The AI Insights charts displayed on the AI for Customer Service Insights dashboa
 
    AI for Customer Service Insights displays the Settings page.
 
-2. Select **Data cleansing** to display the Case Title pane, and then select the check box next to **Do you want to clean your case titles?**
+2. Select **Data cleansing** to display the Case title cleansing pane, and then select the check box next to **I want to clean your case titles**
 
 <!--from editor: The check box in this image says "I want to cleanse my case titles". The "Do you want to clean ..." box is in the image in step 3.-->
 
@@ -35,7 +35,7 @@ The AI Insights charts displayed on the AI for Customer Service Insights dashboa
    > [!div class="mx-imgBorder"]
    > ![Case Titles pane](media/ai-csi-case-titles-pane.PNG)
 
-3. Specify any delimiter characters you use to separate tags from each other or from the issue summary, and whether you place tags before or after the summary, or both. Then select **Apply**.
+3. Specify any delimiter characters you use to separate tags from each other or from the issue summary, and whether you place tags before or after the summary, or both. Then click **Save**.
 
    > [!div class="mx-imgBorder"]
    > ![Case Titles toggle](media/ai-csi-case-titles-toggle.PNG)
