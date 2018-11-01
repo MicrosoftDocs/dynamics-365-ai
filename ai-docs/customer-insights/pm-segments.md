@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Segmentation provides ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes to target specific actions such promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities matched and populated with data ingested from various data sources. 
+Segmentation provides ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes to target specific actions such as promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities ngested from various data sources. 
 
 There are two types of segments:
 
@@ -32,7 +32,7 @@ There are two types of segments:
 This section will cover segment creation followed by segment exploration.
 
 ## Creating segments from the segment page
-In order to start creating a segment, you can either click **Add Segment** at the top right corenr of the screen (shown in red below), or click the **Get Started** button (shown in blue below).
+In order to start creating a segment, you can either click **Add Segment** at the top right corner of the screen (shown in red below), or click the **Get Started** button (shown in blue below).
 
 [replace with segments 1]:
 > [!div class="mx-imgBorder"] 
