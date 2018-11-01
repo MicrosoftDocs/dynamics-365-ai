@@ -72,7 +72,7 @@ Within this panel you will set the definitions for your first Match Pair:
 - **Lastly**, hit **Save** and you will see that the **Description** now includes your first Match Pair. you can always **Delete** or **Edit** that match pair by clicking the **Edit** button as we did when we created that pair.
 []
 
-## Step 2: Defining Rules for the First Match Pair
+## Step 2: Defining Rules for First Match Pair
 For each of your match pairs you should define at least one **Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click the **Add Rule** as shown below:
 
 [20]
@@ -84,9 +84,9 @@ Clicking **Add Rule** will open the following panel:
 
 Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections (going left to right):
 
-- 1.**Attribute that will be used for the matching from the first match-pair entities** (Name, Phone, Email or any other attribute)
+- 1.**Attribute that will be used for matching from the first match-pair entities** (Name, Phone, Email or any other attribute)
 - 2.**Normalization for first attribute:** Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization**). You can change this default setting to any of the other options.
-- 3.**Attribute that will be used for the matching from the second match-pair entities**
+- 3.**Attribute that will be used for matching from the second match-pair entities**
 - 4.**Normalization for second attribute:** Same definitions as described under (3).
 - 5.**The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign.
 
@@ -95,11 +95,66 @@ If you wish to match your entities **only** if multiple conditions are met, you 
 []
 
 **Adding multiple rules**:
-If you wish to match two entities 
+If each criteria reflects a condition around single attributes, then rules represent sets of conditions. Hence, if you believe that there different sets of attributes on the basis of which your two entities can be matched, you should add more rules at this point thorugh the **Add Rules** button that was shown earlier. Note that **order matters** when creating rules: The matching algorithem will try to match on the basis of your first rule (number as (1) in the **Description** section) and only then continue to the second rule (numbered as (2)) if no matches were identified with the first rule.
 
 ## Step 3: Running the First Match 
+Now you are ready to run the matching that you have defined in steps 1-2. That can be done via the **Run** button as shown below:
+
+[]
+
+It's possible that the Matching algorithem will take some time to complete. Upon the completion of the matching you will get the following message and at this point you can **Save** the match and continue to the **Merge screen** or go through any of the optional steps (steps 4-7):
+
+[]
+
+Note that in the meantime there are two things you can do to track that progress of your match and evaluate the data behind it:
+
+- **First, you can review the *Summary* section** (located above the **Description** section):
+
+[]
+
+This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived and number of records.
+
+In addition to entities, the Suammry diagram includes the status of your match. Later we will cover the four possible status more in depth but for now we will describe the status of your current match which is called **Matching**:
+
+[]
+
+This status implies the matching process is currently in progress. Since it includes a percentage, you can track that progress.
+
+- **Second, once the following message appears, you can review the *Master Data Set* that was created during the process:
+
+[]
+
+The **Entities** screen is where you can view the master data set. Upon clicking the **Entities tab** in the left side menu, you will be able to see that this new entity appears under the name **ConflationMatchEntity**:
+
+[]
+
+You can click on that entity and do a quick validation of the data that you are unifying:
+
+[]
+
+Within the table shown above, the left side (red) provides a preview of some of the records that were unified from the first match-pair entity. The right side (blue) provides the same view around the data that was broguht from the second entity. Lastly, the middle part 
+(green) includes.. 
 
 ## Step 4 (Optional): Reviewing and Validating the First Match Pair
+If you followed through step (3), then you already started to validate the quality of your first match. However, as part of the current and the next steps, you will learn how to evaluate in depth this quality and improve it. There are a few things you can do:
+
+- **First**, you can gain first insights by reviewing the tiles at the top of the page:
+    - 1.The left tile shows the number of records that were successfully matched
+    - 2.The center tile shows the number of records that were not successfully matched
+    - 3.The right tile shows the number of customers that are included in the original two match-pair entities whether they were matched or not. This tile will provide you more context into the first number above - is that a relatively good or poor result?
+
+Note that if you match more entities in the future these three numbers will present the **total** numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this matche's row within the **Description** section. 
+
+- **Second**, you can click the following button within the **Description** section in order to view all your match pair records:
+
+[]
+
+This screen presents all your match pair records. It is recommended to go through a part of it in order to validate that records were matched according to your expectations:
+
+[]
+
+- **Lastly**, you can experiment with different threasholds around your criteria in order to identify the optimal threasholds. 
+
 
 ## Step 5 (Optional): Making Changes to the Rule/s Definitions
 

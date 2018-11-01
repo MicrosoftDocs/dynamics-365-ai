@@ -22,12 +22,12 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can create segments of your customers which match a filter criteria based on attributes such as demographic, transactional or behavioral to target specific actions such e-mail campaings to achieve desired business goals.
+Segmentation provides ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes to target specific actions such promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities matched and populated with data ingested from various data sources. 
 
 There are two types of segments:
 
-- **Static**: Segment with filter conditions that are processed only upon the creation of the segment or upon update of any of its group filter conditions. Example use case: Exploring the properties of a specific group of customers, from a specific location - properties that are not expected to change with time. 
-- **Dynamic**: Segment with filter conditions that are processed according to a fixed recurring schedule.  Example use case: Tracking the impact of a marketing/sales/service activity on a specific group of customers over time. The current dynamics segment resfreshing schedule is every 12 hours.
+- **Static**: Segment with filter conditions that are processed once either upon the creation or update any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to used ony once. Example use case: Customers who attended an expo event. 
+- **Dynamic**: Segment with filter conditions that are processed according to a recurring schedule. These segments are especially useful when customers attributes change over time to continuosly update segment and keep targeting newly added customers   Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment resfreshing schedule is every 12 hours.
 
 This section will cover segment creation followed by segment exploration.
 
