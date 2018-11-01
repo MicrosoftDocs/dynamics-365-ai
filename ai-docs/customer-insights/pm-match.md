@@ -102,24 +102,50 @@ Now you are ready to run the matching that you have defined in steps 1-2. That c
 
 []
 
-It's possible that the Matching algorithem will take some time to complete. In the meantime there are two things you can do to track that progress and evaluate the data that you are matching.
+It's possible that the Matching algorithem will take some time to complete. Upon the completion of the matching you will get the following message and at this point you can **Save** the match and continue to the **Merge screen** or go through any of the optional steps (steps 4-7):
+
+[]
+
+Note that in the meantime there are two things you can do to track that progress of your match and evaluate the data behind it:
 
 - **First, you can review the *Summary* section**:
 
 []
 
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived and number of records.
-In addition to entities, the Suammry diagram includes three types of status for your matches. Those are stated on top of the links that connect each matching pair. 
+
+In addition to entities, the Suammry diagram includes the status of your match. Later we will cover the four possible status more in depth but for now we will describe the status of your current match which is called **Matching**:
 
 []
 
-- In the example above, all these links have the same status: **Rules Needed**. This status implies that no rules were defined for the match pair. As stated earlier, **at least one rule *must* be added to each of the matchings**.
-- Once rules were defined for a given match pair, it's status will turn to **Ready to Run**. As we will see, running a match is also available within the **Details** section. 
-- **Matching** is the third status you can see for a given match pair. This status implies that the matching process is currently under progress (reflected as a percentage).   
-- **Complete** is the forth and last status you can see for a given match pair and it reflects the completion of the matching process both for this matching and for all the matchings that precede it. In the example shown below
+This status implies the matching process is currently in progress. Since it includes a percentage, you can track that progress.
 
+- **Second, once the following message appears, you can review the *Master Data Set* that was created during the process:
+
+[]
+
+The **Entities** screen is where you can view the master data set. Upon clicking the **Entities tab** in the left side menu, you will be able to see that this new entity appears under the name **ConflationMatchEntity**:
+
+[]
+
+You can click on that entity and do a quick validation of the data that you are unifying:
+
+[]
+
+Within the table shown above, the left side (red) provides a preview of some of the records that were unified from the first match-pair entity. The right side (blue) provides the same view around the data that was broguht from the second entity. Lastly, the middle part 
+(green) includes.. 
 
 ## Step 4 (Optional): Reviewing and Validating the First Match Pair
+If you followed through step (3), then you already started to validate the quality of your first match. However, as part of the current and the next steps, you will learn how to evaluate in depth this quality and improve it. There are a few things you can do:
+
+- **First**, you can gain first insights by reviewing the tiles at the top of the page:
+    - 1.The left tile shows the number of records that were successfully matched
+    - 2.The center tile shows the number of records that were not successfully matched
+    - 3.The right tile shows the number of customers that are included in the original two match-pair entities whether they were matched or not. This tile will provide you more context into the first number above - is that a relatively good or poor result?
+
+Note that if you match more entities in the future these three numbers will present the **total** numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this matche's row within the **Description** section. 
+
+- **Second**, 
 
 ## Step 5 (Optional): Making Changes to the Rule/s Definitions
 
