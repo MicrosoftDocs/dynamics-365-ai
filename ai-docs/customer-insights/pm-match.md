@@ -84,18 +84,18 @@ Clicking **Add Rule** will open the following panel:
 
 Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections (going left to right):
 
-- 1.The attribute that will be used for the matching from the first match-pair entities (that can be Email, Phone, etc)
-- 2.Normalization for first attribute: Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization**). You can change this default setting to any of the other options.
-- 3. The attribute that will be used for the matching from the second match-pair entities
-- 4.Normalization for second attribute: Same definitions as described under (3).
-- 5. The method that will be used for that criteria: Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign.
+- 1.**Attribute that will be used for the matching from the first match-pair entities** (Name, Phone, Email or any other attribute)
+- 2.**Normalization for first attribute:** Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization**). You can change this default setting to any of the other options.
+- 3.**Attribute that will be used for the matching from the second match-pair entities**
+- 4.**Normalization for second attribute:** Same definitions as described under (3).
+- 5.**The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign.
 
 **Adding multiple criteria**:
-If you wish to match your entities **only** if mltiple conditions are met, you can do so by adding more criteria (which will be linked through an **AND** operator). To add criteria, simply click the **Plus button** as shown below. You can also remove criteria by clicking the same button (turned to a **Minus button** for existing criteria)
+If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more criteria (which will be linked through an **AND** operator). To add criteria, simply click the **Plus button** as shown below in red. You can also remove criteria by clicking the same button (will show up as a **Minus button** for existing criteria as shown in blue):
 []
 
 **Adding multiple rules**:
-If you wish to match
+If you wish to match two entities 
 
 ## Step 3: Running the First Match 
 
