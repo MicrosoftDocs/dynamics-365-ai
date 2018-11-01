@@ -112,6 +112,6 @@ The trend line is scaled from 0-100, with 0 representing very low search volume 
 
 ### See also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
-[Get to know your filters](use-filters.md)    
+[Use filters to see relevant data](use-filters.md)    
 [Explore more options with your data set](more-options-with-data-set.md)    
 [Understand the public perception using sentiment analysis](analytics-sentiment.md)
