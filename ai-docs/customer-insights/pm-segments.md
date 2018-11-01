@@ -22,14 +22,28 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Segmentation provides ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes to target specific actions such as promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities ingested from various data sources. 
+Segmentation provides ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes to target specific actions such as promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities ingested from various data sources. Each segment after processing outputs set of master customer entity records, matching the various filter criteria defined in the segment.
 
 There are two types of segments:
 
-- **Static**: Segment with filter conditions that are processed once: Either upon the creation of the segment or upon it's updating. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to used ony once. Example use case: Customers who attended an expo event. 
+- **Static**: Segment with filter conditions that are processed once either upon the creation or update any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to used ony once. Example use case: Customers who attended an expo event. 
 - **Dynamic**: Segment with filter conditions that are processed according to a recurring schedule. These segments are especially useful when customers attributes change over time to continuosly update segment and keep targeting newly added customers   Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment resfreshing schedule is every 12 hours.
 
-This section will cover segment creation followed by segment evaluation.
+How is segment defined
+Each segment is defined by combining various filter criteria that customer and its related data called data graph must match to qualify to be a member of the segment. Segment Editor provides an experience to easily define these filter criteria over the entire data graph using one or more groups. 
+
+What is a segment group
+Each segment group produces a set of customers based on its filter criteria. Each group's filter criteria is defined by choosing a starting entity anywhere in the customer data graph and defining filter criteria as you navigate over data graph using entity relationships to end on customer master entity - to output customer records that the group filter will produce. Multiple filter groups can be combined using set operations - union, intersect or exclude to build complex criteria using ease of set operations. 
+
+The example below illustrates how to build a segment that uses multiple groups to define filter criteria over different part of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
+
+{Example of complex segment with multiple groups}
+{Insert segment definition image highlighting Group 1 and Group 2}
+
+- Group 1 uses Order as starting entity to define filter criteria to find customers who placed order for more $500 in the last 90 days
+- Group 2 uses Case as starting entity to define filter criteria to find customer who have an escalated case in last 30 days
+
+This section below will cover segment creation followed by segment exploration.
 
 ## Creating segments from the segment page
 In order to start creating a segment, you can either click **Add Segment** at the top right corner of the screen (shown in red below), or click the **Get Started** button (shown in blue below).
@@ -38,22 +52,20 @@ In order to start creating a segment, you can either click **Add Segment** at th
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
-Note that if you clicked **Add Segment** then you also need at this point to select whether you want to create a **Static Segment** or a **Dynamic Segment*. 
+If you clicked **Add Segment** then you will need to select whether you want to create a **Static Segment** or a **Dynamic Segment*. ***Dynamic segments*** change with time as data updates, while ***Static segments*** are fixed. An example for a case that fits Static segment might be exploring the properties of a specific group of customers (for example from a specific location), properties that are not expected to change with time. Segments that are automatically updated with time. A case that fits Dynamic segments is for example tracking the impact of a marketing/sales/service activity on a specific group of customers with time (tracking a lift in those KPIs).
 
-- **Segment Creation Process**:
-The segment creation process is executed within the **Segment Editor Page**:
+- **Segment creation process**:
+The segment creation process is executed within the **Segment Creation** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment.png "New dynamic segment")
 
-- **We start by defining the segment's properties**: We will give our segment informative name and description that will help us identifying that segment in the future when we will have multiple segments. If we wish to change the segment's type **from Static to Dynamic or vice versa** we will click the first slider (highlighted in blue below):
+- **We start by defining the segment's properties**: We will give our segment a name and description, click the first slider (highlighted in blue below) if we wish to change from Dynamic segment to Static segment or vice versa, and click the second slider (highlighted in red below) to activate our segment if it's a dynamic segment (otherwise it will not incorporate new information on our customers as our data is refreshed):
      
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment-hilites.png "Change segment type")
      
-- **In step two, we will start creating our first condition**. Use the "filter" field that is shown in red above to select an entity.
-
-Once we selected an entity type, we need to choose the specific attributes that we want to filter by our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a boolean. In the example below, an attribute with a numerical value is used as our first filter:
+- **In step two, we will start creating our first filter**. Use the "filter" bar to select an entity. Once we selected an entity type, we need to choose the specific attributes we want to group by our customers. Note that attributes can have one of three value types: A numerical, a string, or a date. In the example below, an attribute with a numerical value is used as a filter:
      
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-numbers.png "Customer group filter")
@@ -66,11 +78,7 @@ Once we selected an entity type, we need to choose the specific attributes that 
 |4    |Value         |
 
      
-- **In step three, which is optional, we will add more rules to our filter**. 
-
-Here it is important to understand **the concept of a *Group.*** 
-
-Two rules are available on the entity level: 
+- **In step three, which is optional, we will add more rules to our filter**. Two rules are available on the entity level: 
      ***AND*** and ***OR***. In the example below, we added to our first rule two additional rules. The middle row demonstrates the 
      creation of an "AND" rule (this time with a string attribute), while the lower row demonstrates an "OR" rule (created for a time 
      attribute):
