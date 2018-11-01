@@ -20,14 +20,9 @@ This article helps you and your organization prepare for the European Union's Ge
 
 Users and tenant administrators can perform the actions outlined in this article.
 
+## Responding to Data Subject Requests for AI for Customer Service Insights customer data
 
-<!--from editor: Could we change "DSRs" to "requests" in the following heading, since we haven't yet defined DSR?
-Also, wouldn't it be shortened to DSR requests, rather than DSRs? However, I see other articles calling it Data Subject Request, so am unsure what it should be.
--->
-
-## Responding to DSRs for AI for Customer Service Insights customer data
-
-The GDPR gives rights to people (known in the GDPR as data subjects) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the data controller or just controller). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take an action on their personal data is called a Data Subject Rights (DSR) Request.
+The GDPR gives rights to people (known in the GDPR as data subjects) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the data controller or just controller). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take an action on their personal data is called a Data Subject Request (DSR).
 
 This article describes how to use Microsoft's products, services, and administrative tools to help controllers find and act on personal data when responding to DSRs. Specifically, this article includes how to find, access, and act on personal data that resides in Microsoft's cloud. Here’s a quick overview of the processes outlined in this guide:
 
