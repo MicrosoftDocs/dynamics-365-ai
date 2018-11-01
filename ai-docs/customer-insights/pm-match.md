@@ -72,7 +72,7 @@ Within this panel you will set the definitions for your first Match Pair:
 - **Lastly**, hit **Save** and you will see that the **Description** now includes your first Match Pair. you can always **Delete** or **Edit** that match pair by clicking the **Edit** button as we did when we created that pair.
 []
 
-## Step 2: Defining Rules for the First Match Pair
+## Step 2: Defining Rules for First Match Pair
 For each of your match pairs you should define at least one **Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click the **Add Rule** as shown below:
 
 [20]
@@ -84,9 +84,9 @@ Clicking **Add Rule** will open the following panel:
 
 Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections (going left to right):
 
-- 1.**Attribute that will be used for the matching from the first match-pair entities** (Name, Phone, Email or any other attribute)
+- 1.**Attribute that will be used for matching from the first match-pair entities** (Name, Phone, Email or any other attribute)
 - 2.**Normalization for first attribute:** Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization**). You can change this default setting to any of the other options.
-- 3.**Attribute that will be used for the matching from the second match-pair entities**
+- 3.**Attribute that will be used for matching from the second match-pair entities**
 - 4.**Normalization for second attribute:** Same definitions as described under (3).
 - 5.**The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign.
 
@@ -95,9 +95,29 @@ If you wish to match your entities **only** if multiple conditions are met, you 
 []
 
 **Adding multiple rules**:
-If you wish to match two entities 
+If each criteria reflects a condition around single attributes, then rules represent sets of conditions. Hence, if you believe that there different sets of attributes on the basis of which your two entities can be matched, you should add more rules at this point thorugh the **Add Rules** button that was shown earlier. Note that **order matters** when creating rules: The matching algorithem will try to match on the basis of your first rule (number as (1) in the **Description** section) and only then continue to the second rule (numbered as (2)) if no matches were identified with the first rule.
 
 ## Step 3: Running the First Match 
+Now you are ready to run the matching that you have defined in steps 1-2. That can be done via the **Run** button as shown below:
+
+[]
+
+It's possible that the Matching algorithem will take some time to complete. In the meantime there are two things you can do to track that progress and evaluate the data that you are matching.
+
+- **First, you can review the *Summary* section**:
+
+[]
+
+This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived and number of records.
+In addition to entities, the Suammry diagram includes three types of status for your matches. Those are stated on top of the links that connect each matching pair. 
+
+[]
+
+- In the example above, all these links have the same status: **Rules Needed**. This status implies that no rules were defined for the match pair. As stated earlier, **at least one rule *must* be added to each of the matchings**.
+- Once rules were defined for a given match pair, it's status will turn to **Ready to Run**. As we will see, running a match is also available within the **Details** section. 
+- **Matching** is the third status you can see for a given match pair. This status implies that the matching process is currently under progress (reflected as a percentage).   
+- **Complete** is the forth and last status you can see for a given match pair and it reflects the completion of the matching process both for this matching and for all the matchings that precede it. In the example shown below
+
 
 ## Step 4 (Optional): Reviewing and Validating the First Match Pair
 
