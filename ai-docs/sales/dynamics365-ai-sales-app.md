@@ -29,7 +29,7 @@ Applies to Dynamics 365 (online), version 9.1.0 <br>
 As a sales manager, you must lead your business to success not only by selling products but also by helping your sales team win deals to generate revenue. You must ensure that each sales rep is brought onboard and kept well informed, supported, and motivated. [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] provides solutions that use analytics and data science to gather data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and Microsoft Office. It then provides you with this information and insights to intelligently manage your team, proactively coach sales reps, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides you with information through key performance indicators (KPIs) for pipeline and deals. 
 
 > [!IMPORTANT]
-> The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is currently available only in the North America region.
+> The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is currently available only in the North America (NAM) region.
 
 The next sections describe:
 
