@@ -109,7 +109,7 @@ Those other options include:
 > [!div class="mx-imgBorder"] 
 > ![](media/recommended-segments.png "Recommended segments")
 
-## Exploring a particular segment from the Segments page
+## Exploring a segment: View processing history and segment members from the Segments page
 Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc.) with the button at the upper-right corner of the tile:
 
 > [!div class="mx-imgBorder"] 
