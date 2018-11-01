@@ -74,3 +74,43 @@ Note: In the future this step will happen automatically.
 
 Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
 
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-tile.png "Get data tile")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-add.png "Get data add")
+
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-create.png "Get data create")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-select-source.png "Get data select source")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-transform-table.png "Get data transform table")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-map-custom.png "Map to standard entity Custom")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-ingested.png"Ingested data")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-source.png "Get data source")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
+
+
+
+

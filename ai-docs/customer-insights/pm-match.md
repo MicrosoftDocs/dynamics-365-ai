@@ -22,57 +22,68 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once mapping is completed, you are ready to match your entities. Clicking the **Match tile** in the **Configuration page** will take you to the **Match page**:
+Once mapping is completed, you're ready to match your entities. Select the **Match** tile in the **Configuration** page to take you to the **Match** page.
 
-![match-tile.png](media/match-tile.png)
+> [!div class="mx-imgBorder"] 
+> ![](media/[match-tile.png "Select Match tile")
 
-Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the folloiwng message:
+Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message:
 [match notification image1]
 
 ## The Match Phase
-- As part of the Data Configuration process, **The Match Phase** enables you to specify how to combine your datasets into a unfied **Master Customer Dataset** that will be utilized later to unlock unique insights about your customers.
 
-- If it's the first time you are going through the Match process, you should complete all the steps in this section:
-  - 1.Specifying the first pair of entities that you want to Match (also called a *Match Pair*)
-  - 2.Defining rule/s for the first Match Pair
-  - 3.Running your first Match 
-  - 4.(Optional) Reviewing and validating your first Match Pair
-  - 5.(Optional) Making changes to your rule/s definition/s
-  - 6.(Optional) Adding additional Matches as needed
-  - 7.(Optional) Reviewing the order by which you chose to match your entities 
+As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unfied Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
+
+If it's your first time through the match process, you should complete all the steps in this section:
+
+1. Specifying the first pair of entities that you want to match (also called a *Match Pair*)
+2. Defining rule/s for the first match pair
+3. Running your first match 
+4. (Optional) Reviewing and validating your first match pair
+5. (Optional) Making changes to your rule/s definition/s
+6. (Optional) Adding additional matches as needed
+7. (Optional) Reviewing the order by which you chose to match your entities 
   
-We will explore these steps in a sequential order. Prior to that we will give a quick introducion to the Map screen (can be skipped).
+We will explore these steps in a sequential order. Prior to that we will give a quick introduction to the **Map** page.
 
 [replace with 11]
+
 ![match.png](media/match.png)
 
-## Quick introduction to the Match Page
-The **Match page** shown above includes two major sections: **Summary** and **Details**. We will first use the **Details** section to specify the Match Pair and setting it's rules (steps 1-2 as well as steps 5-6). Later we will use the **Summary** section to track the progress of our Match until completion as well as to validate the order by which we are matching our entities (validating step 3 and performing step 7). Lastly, above these components you will find three tiles and these will be used for step 4 above (for now there are no counts since no Match was executed).
+## Quick introduction to the match page
 
-## Step 1: Specifying a First Match Pair
-Each **Match Pair** involves two entities that are unified into a single entity. Clicking the **Edit** button as shown below will enable you to create the first (as well as any future) Match Pair:
+The **Match** page shown above includes two major sections: Summary and Details. We will first use the Details section to specify the match pair and setting it's rules (steps 1-2 and steps 5-6). Later, we will use the Summary section to track the progress of our match until completion as well as to validate the order by which we are matching our entities (validating step 3 and performing step 7). Lastly, above these components you will find three tiles. These will be used for step 4 above. For now there are no counts since no match was executed.
+
+## Step One: Specifying a first match pair
+
+Each **Match** pair involves two entities that are unified into a single entity. Select **Edit** to create the first (as well as any future) match pair.
 
 [15]
 
-Upon clicking it, the following panel opens up:
+After selecting **Edit**, the following panel opens up:
 
 [16]
 
-Within this panel you will set the definitions for your first Match Pair: 
-- **Start by selecting the first entity of your Match Pair** by clicking the left field (shown above in blue). 
+Within this panel you will set the definitions for your first match pair. 
 
-**Important Note**: The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that you will be selected during the Match phase will be added to this entity (At the same time it doesn't mean that the unified entity will include all the data of your this entity). There are two considerations that can help you select your first entity:
-    - First, what entity you consider to have the most reliable data?
-    - Second, does the entity that you identified under considertion one has attributes that are also shared by other entities (those can be *Name*, *Phone*, *Email*, etc)? If not, you should continue to your second most reliable entity and so forth. 
+Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
 
-- **Continue by selecting the second entity of your Match Pair** by clicking the right filed (shown above in red). 
+> [!IMPORTANT]
+> The entity that you will choose at this point will serve as the basis for your unified Master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. >
+>There are two considerations that can help you select your first entity:
+> - First, what entity you consider to have the most reliable data?
+> - Second, does the entity that you identified under consideration have attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you should continue to your second most reliable entity and so forth. 
 
-**Note**: The considerations that were mentioned for your first selection can help you choose that entity as well (what is the second most reliable entity and does it include enough fields that are also shared by other mapped entities?)
+Continue by selecting the second entity of your match pair by selecting the right filed (shown above in red). 
 
-- **Lastly**, hit **Save** and you will see that the **Description** now includes your first Match Pair. you can always **Delete** or **Edit** that match pair by clicking the **Edit** button as we did when we created that pair.
+> [!NOTE]
+> Considerations for your first selection can help you choose that entity as well. What is the second most reliable entity and does it include enough fields that are also shared by other mapped entities?
+
+Lastly, select **Save** and you will see that the **Description** now includes your first match pair. You can always delete or edit that match pair by selecting  **Edit** as we did when we created that pair.
 []
 
-## Step 2: Defining Rules for First Match Pair
+## Step 2: Defining rules for first match pair
+
 For each of your match pairs you should define at least one **Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click the **Add Rule** as shown below:
 
 [20]
