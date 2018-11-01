@@ -108,7 +108,7 @@ It's possible that the Matching algorithem will take some time to complete. Upon
 
 Note that in the meantime there are two things you can do to track that progress of your match and evaluate the data behind it:
 
-- **First, you can review the *Summary* section**:
+- **First, you can review the *Summary* section** (located above the **Description** section):
 
 []
 
@@ -145,7 +145,16 @@ If you followed through step (3), then you already started to validate the quali
 
 Note that if you match more entities in the future these three numbers will present the **total** numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this matche's row within the **Description** section. 
 
-- **Second**, 
+- **Second**, you can click the following button within the **Description** section in order to view all your match pair records:
+
+[]
+
+This screen presents all your match pair records. It is recommended to go through a part of it in order to validate that records were matched according to your expectations:
+
+[]
+
+- **Lastly**, you can experiment with different threasholds around your criteria in order to identify the optimal threasholds. 
+
 
 ## Step 5 (Optional): Making Changes to the Rule/s Definitions
 
