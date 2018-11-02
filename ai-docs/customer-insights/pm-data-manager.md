@@ -22,7 +22,16 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section we explain how to bring data from many of your sources: 
+**The Data Manager is the first page you will see upon entering the Customer 360 app. Hence:
+   -**If it's the first time you are using Customer 360**, make sure you first went through the *Onboarding Guide*. 
+   -**All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below:**
+
+// Update to final app menu once *Timeline* will be removed from it:
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-dashboard-full.png "Customer dashboard")
+
+## Data Manager Sections: *Get Data* and *Entities*
+In those sections we explain how to bring data from many of your sources: 
 
 - CRM systems
 - transactional and survey data
