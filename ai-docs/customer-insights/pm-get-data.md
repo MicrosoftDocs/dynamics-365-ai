@@ -64,51 +64,40 @@ One other highly recommended transform is “Map to standard”. Customer 360 al
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
-- 3.Now click **Create** and this gives you the option to “Save” the data source
-
-Note: In the future this step will happen automatically. 
-
-### Next step: 
-
-Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-tile.png "Get data tile")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-add.png "Get data add")
-
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-create.png "Get data create")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-select-source.png "Get data select source")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-transform-table.png "Get data transform table")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
+- 3.Now click **Create** and this gives you the option to “Save” the data source:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
+- 4.After you “Save” the data source, hit **Refresh** to load data to Customer 360. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+
+Note: In the future this step will happen automatically. 
+
+### Step 3 (optional): Reviewing the Ingested Data
+Customer 360 will take a couple of minutes to load the data. After a successful refresh, the ingested data can be reviewed from the Entities tab as shown below. For more information on the **Entity Page** visit the **Entities section**
+
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-map-custom.png "Map to standard entity Custom")
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-ingested.png"Ingested data")
+**Repeat the same set of steps for as many data sources that you want to ingest data into Customer 360.**
+
+### Step 4 (optional) Editing existing data sources
+Edit operation is only available for Data sources that is not currently refreshing. Follow the below steps to edit an existing data source: 
+
+- 1.Browse to the data source to be edited:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-source.png "Get data source")
+
+- 2.Click on the **Edit** button to edit the data source in Power query. 
+
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
 
 
-
-
+### Next step: 
+Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
