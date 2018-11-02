@@ -123,7 +123,7 @@ If each criteria reflects a condition around single attributes, then rules repre
 For the purpose of this section we will stay with only one rule.
 
 ## Step Three: Running the first match 
-Now you are ready to run the matching that you have defined in Steps One and Two. This can be done with **Run** as shown below in blue. Next to it you will find  **Save** (shown in green). You should use it if you don't want to run the match at this point but still want to save its definitions. Lastly, next to these buttons there is **Discard** that enables you to delete the definitions of your match (shown in red).
+Now you are ready to run the matching that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
@@ -133,33 +133,24 @@ It's possible that the matching algorithm will take some time to complete. As hi
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
-Note that while waiting you can track the progress of your match. To do so, you should select the message above (**Match Running**) and review the **Summary** section that appears as shown below.
+Note that while waiting you can track the progress of your match. To do so, you should click the message shown above (**Match Running**) and review the **Summary** section that appears:
 
 [14]
 
-Match is completed once the message shown above disappears. Select **Refresh** to get a status update.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-refresh.png "Data match refresh")
-
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived, and the number of records.
-
 In addition to entities, the Summary diagram includes the status of your match. You can see that your match is in a **Matching** state which means it's in progress (also represented by a green line as shown above).
 
-You must refresh your page as shown below. In the future, we expect to not have this requirement.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-refresh.png "Select refresh")
-
-Upon the completion of the matching the **Match Running** message will disappear and the Summary section will show a blue line.
-
-Match run is now complete.
+Upon the completion of the matching the **Match Running** message will disappear and the Summary section will show a blue line:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-run-complete.png "Data match run is complete")
 
+**Note**: You must refresh your page as shown below. In the future, we expect to not have this requirement.
 
-- Now you can either **Save** the match and continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-refresh.png "Select refresh")
+
+- Now you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
 ## Step Four (optional): Reviewing and validating the first match pair
 Here you will learn how to evaluate in depth your first match's quality and improve it. There are a few things you can do.
