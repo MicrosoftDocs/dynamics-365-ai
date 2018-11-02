@@ -22,7 +22,7 @@ When a workspace is created from a Dynamics 365 for Customer Service environment
 - [SystemUser](#systemuser-entity)
 - [Team](#team-entity)
 
-The following sections described the
+The following sections describe the entities and attributes used by AI for Customer Service Insights.
 
 ## Incident (case) entity
 
