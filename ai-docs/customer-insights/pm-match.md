@@ -140,7 +140,7 @@ Note that while waiting you can track the progress of your match. To do so, you 
 Match is completed once the message shown above disappears. Select **Refresh** to get a status update.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-refresh.png "Data match running")
+> ![](media/configure-data-match-refresh.png "Data match refresh")
 
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived, and the number of records.
 
@@ -166,7 +166,8 @@ Here you will learn how to evaluate in depth your first match's quality and impr
 
 **First**, you can gain first insights by reviewing the tiles at the top of the page:
 
-[16]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-results.png "Data match results")
 
 1. The left tile shows the number of records that were successfully matched.
 2. The center tile shows the number of records that were not successfully matched.
@@ -176,11 +177,15 @@ Note that if you match more entities in the future these three numbers will pres
 
 **Second**, you can click the following button within the **Description** section in order to view the records for that specific match pair at the rule-level as shown below:
 
-[17]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-view-rule-level.png "View at the rule level")
+
 
 This page presents all your match pair records. It also includes the **Scores** field which states how likely it is that this record was indeed matched accurately (can also be thought of a kind of confidence score). It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
 
-[18]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-preview-rule.png "Preview rule data")
+
 
 **Lastly**, you can experiment with different thresholds around your criteria in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
