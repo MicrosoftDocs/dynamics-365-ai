@@ -64,7 +64,7 @@ One other highly recommended transform is “Map to standard”. Customer 360 al
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
-- 3.Now click **Create** and this gives you the option to “Save” the data source:
+- 3.Now click **Save** and this gives you the option to “Save” the data source:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
@@ -74,15 +74,15 @@ One other highly recommended transform is “Map to standard”. Customer 360 al
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
-Note: In the future this step will happen automatically. 
+Note: In the future this step will happen automatically.
+
+**At this point, repeat the same set of steps for as many data sources that you want to ingest data into Customer 360.**
 
 ### Step 3 (optional): Reviewing the Ingested Data
 Customer 360 will take a couple of minutes to load the data. After a successful refresh, the ingested data can be reviewed from the Entities tab as shown below. For more information on the **Entity Page** visit the **Entities section**
 
 > [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-map-custom.png "Map to standard entity Custom")
-
-**Repeat the same set of steps for as many data sources that you want to ingest data into Customer 360.**
+> ![](media/data-manager-entities-data.png "Data manager entities")
 
 ### Step 4 (optional) Editing existing data sources
 Edit operation is only available for Data sources that is not currently refreshing. Follow the below steps to edit an existing data source: 
@@ -92,12 +92,11 @@ Edit operation is only available for Data sources that is not currently refreshi
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-source.png "Get data source")
 
-- 2.Click on the **Edit** button to edit the data source in Power query. 
-
+- 2.Click on the **Edit** button to edit the data source in Power Query: 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
 
 
-### Next step: 
+### Next steps: 
 Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
