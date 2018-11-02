@@ -12,24 +12,28 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-# Dashboard reference
+# Reference
 
-## [Overview of dashboards](dashboard-overview.md)
+## Dashboard reference
 
-## [KPI summary](dashboard-kpi-summary.md)
+### [Overview of dashboards](dashboard-overview.md)
 
-## [Incoming cases](dashboard-incoming-cases.md)
+### [KPI summary](dashboard-kpi-summary.md)
 
-## [Case resolution](dashboard-case-resolutions.md)
+### [Incoming cases](dashboard-incoming-cases.md)
 
-## [Customer satisfaction](dashboard-CSAT.md)
+### [Case resolution](dashboard-case-resolutions.md)
 
-## [Topic details](dashboard-topic-details.md)
+### [Customer satisfaction](dashboard-CSAT.md)
+
+### [Topic details](dashboard-topic-details.md)
+
+## [Dynamics 365 for Customer Service entities used by AI for Customer Service Insights](customer-service-entities.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 
 ## [Overview of GDPR compliance](gdpr-summary.md)
 
-## [Requests for copies of personal data ](gdpr-export.md)
+## [Requests for copies of personal data](gdpr-export.md)
 
 ## [Requests to delete personal data](gdpr-delete.md)

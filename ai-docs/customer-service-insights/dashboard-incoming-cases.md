@@ -15,11 +15,11 @@ manager: shellyha
 # Incoming cases dashboard​
 
 > [!div class="mx-imgBorder"]
-> ![Incoming cases dashboard](media/ai-csi-incoming-cases-dash.png)
+> ![Incoming cases dashboard](media/ai-csi-incoming-cases-dash.PNG)
 
 The Incoming cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
-The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
+The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
@@ -31,12 +31,12 @@ The *Current popular topics* and *Emerging topics* charts use natural language u
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](use-dashboard-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 ## Case priority chart
 
 > [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority-incoming.png)
+> ![Case priority chart](media/ai-csi-case-priority-incoming.PNG)
 
 The case priority chart shows the breakdown in new support cases each day in the specified time period between high, medium, and low priority cases.
 
@@ -47,7 +47,7 @@ Case priority | *Daily incoming case breakdown by case priority*
 ## Case channel chart
 
 > [!div class="mx-imgBorder"]
-> ![Case channel chart](media/ai-csi-case-channels-incoming.png)
+> ![Case channel chart](media/ai-csi-case-channels-incoming.PNG)
 
 The case channel chart shows the breakdown in new support cases each day in the specified time period between different support channels.
 
@@ -58,7 +58,7 @@ Case channel | *Daily incoming case breakdown by channel*
 ## Case timing chart
 
 > [!div class="mx-imgBorder"]
-> ![Case timing chart](media/ai-csi-case-timing.png)
+> ![Case timing chart](media/ai-csi-case-timing.PNG)
 
 The case timing chart shows the trends in the time of day of new support cases for each channel during the time period.
 
@@ -69,7 +69,7 @@ Case timing | *Incoming case breakdown by channel and time of day*
 ## Current popular topics chart
 
 > [!div class="mx-imgBorder"]
-> ![Current popular topics chart](media/ai-csi-current-popular-topics.png)
+> ![Current popular topics chart](media/ai-csi-current-popular-topics.PNG)
 
 The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period.
 
@@ -83,12 +83,12 @@ Average resolve time | *The average resolution time of resolved incoming cases a
 Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](dashboard-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
 
 ## Emerging topics chart
 
 > [!div class="mx-imgBorder"]
-> ![Emerging topics chart](media/ai-csi-emerging-topics.png)
+> ![Emerging topics chart](media/ai-csi-emerging-topics.PNG)
 
 The emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display the topics in order of the change in volume over the specified time period.
 
@@ -102,4 +102,4 @@ Average resolve time | *The average resolution time of resolved incoming cases a
 Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic Details Dashboard](dashboard-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
