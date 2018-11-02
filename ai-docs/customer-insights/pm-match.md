@@ -22,17 +22,14 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once mapping is completed, you're ready to match your entities. Select the **Match** tile in the **Configuration** page to take you to the **Match** page.
+Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configuration** page to get to the **Match** page.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/[match-tile.png "Select Match tile")
+[1]
 
-Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message:
-[match notification image1]
+Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which required you to go back to the Map screen and Map at least two entities:
 
 ## The Match Phase
-
-As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unfied Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
+As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a **unfied Master Customer Dataset** that will be utilized later to unlock unique insights about your customers.
 
 If it's your first time through the match process, you should complete all the steps in this section:
 
@@ -44,84 +41,94 @@ If it's your first time through the match process, you should complete all the s
 6. (Optional) Adding additional matches as needed
 7. (Optional) Reviewing the order by which you chose to match your entities 
   
-We will explore these steps in a sequential order. Prior to that we will give a quick introduction to the **Map** page.
+We will explore these steps in a sequential order. Prior to that we will give a quick introduction into the **Match** screen as we will perform all our steps from that screen:
 
-[replace with 11]
+[2]
 
-![match.png](media/match.png)
+## Quick introduction to the Match Page
 
-## Quick introduction to the match page
-
-The **Match** page shown above includes two major sections: Summary and Details. We will first use the Details section to specify the match pair and setting it's rules (steps 1-2 and steps 5-6). Later, we will use the Summary section to track the progress of our match until completion as well as to validate the order by which we are matching our entities (validating step 3 and performing step 7). Lastly, above these components you will find three tiles. These will be used for step 4 above. For now there are no counts since no match was executed.
+The **Match** page shown above includes two major sections: **Summary** (highlighted in red above) and **Details** (highlighted in blue). We will first use the Details section to specify the match pair and setting it's rules (steps 1-2 and steps 5-6). Later, we will use the Summary section to track the progress of our match until completion as well as to validate the order by which we are matching our entities (validating step 3 and performing step 7). Lastly, above these components you will find three tiles. These will be used for step 4 above. For now there are no counts in these tiles since no match was executed yet.
 
 ## Step One: Specifying a first match pair
 
-Each **Match** pair involves two entities that are unified into a single entity. Select **Edit** to create the first (as well as any future) match pair.
+Each **Match** pair involves two entities that are unified into a single entity. Within the Description section, select **Add** to create the first (as well as any future) match pair:
 
-[15]
+[3]
 
-After selecting **Edit**, the following panel opens up:
+After selecting **Add**, the following panel opens up:
 
-[16]
+[4]
 
 Within this panel you will set the definitions for your first match pair. 
-
 Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
 
 > [!IMPORTANT]
-> The entity that you will choose at this point will serve as the basis for your unified Master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. >
+> The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. >
 >There are two considerations that can help you select your first entity:
-> - First, what entity you consider to have the most reliable data?
-> - Second, does the entity that you identified under consideration have attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you should continue to your second most reliable entity and so forth. 
+> - First, what entity do you consider to have the most reliable data?
+> - Second, does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you should continue to your second most reliable entity and so forth. 
 
-Continue by selecting the second entity of your match pair by selecting the right filed (shown above in red). 
+Continue by selecting the second entity of your match pair by selecting the right filed (shown below in red):
+
+[5]
 
 > [!NOTE]
-> Considerations for your first selection can help you choose that entity as well. What is the second most reliable entity and does it include enough fields that are also shared by other mapped entities?
+> Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider to have the second most reliable data? Moreover, does it includes at least one field that is shared by the master entity and possibly more fields that are shared by other entities that you have ingested?
 
-Lastly, select **Save** and you will see that the **Description** now includes your first match pair. You can always delete or edit that match pair by selecting  **Edit** as we did when we created that pair.
-[]
+Lastly, select **Save** and you will see that the **Description** now includes your first match pair. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair (which we will do in step (2)).
+
+[6]
 
 ## Step 2: Defining rules for first match pair
 
-For each of your match pairs you should define at least one **Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click the **Add Rule** as shown below:
+For each of your match pairs you should define at least one **Match Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click your match within the Description section. Then click  **Add Rule** as shown below:
 
-[20]
+[7]
 
 Clicking **Add Rule** will open the following panel:
 
-[21 plus numbers]
-[maybe turn the following into a table?:]
+[8]
 
 Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections (going left to right):
 
-- 1.**Attribute that will be used for matching from the first match-pair entities** (Name, Phone, Email or any other attribute)
-- 2.**Normalization for first attribute:** Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization**). You can change this default setting to any of the other options.
-- 3.**Attribute that will be used for matching from the second match-pair entities**
-- 4.**Normalization for second attribute:** Same definitions as described under (3).
-- 5.**The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign.
+- 1.**Attribute that will be used for matching from the first match-pair entities** (Name, Phone, etc. Highlighted in blue below)
+- 2.**Normalization for first attribute:** Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctioation, to removing spaces, to many others. Note that for some attribute types (as defined under the **Types** column in the Map screen), a specific and optimal combination of normalizations will be automatically chosen for you (called **Semantic Normalization** as highlighted in green in the image below). You can change this default setting to any of the other options.
+- 3.**Attribute that will be used for matching from the second match-pair entities** (highlighted in red in the image below)
+- 4.**Normalization for second attribute:** Same definitions as described under (3). Puctioation was chosen as an example in the image above (highlighted in orange below).
+- 5.**The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign. The method button and the threashold bar are both highlighted in black in the image below:
+
+[9]
 
 **Adding multiple criteria**:
-If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more criteria (which will be linked through an **AND** operator). To add criteria, simply click the **Plus button** as shown below in red. You can also remove criteria by clicking the same button (will show up as a **Minus button** for existing criteria as shown in blue):
-[]
+If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more criteria (which will be linked through an **AND** operator). To add criteria, simply click the **Add New Criteria** as shown below in red. You can also remove criteria by clicking the same button (will show up as a **Minus button** for existing criteria as shown in blue):
+
+[10]
+
+- For the purpose of this section we will limit our match rule to only one criteria though.
 
 **Adding multiple rules**:
-If each criteria reflects a condition around single attributes, then rules represent sets of conditions. Hence, if you believe that there different sets of attributes on the basis of which your two entities can be matched, you should add more rules at this point thorugh the **Add Rules** button that was shown earlier. Note that **order matters** when creating rules: The matching algorithem will try to match on the basis of your first rule (number as (1) in the **Description** section) and only then continue to the second rule (numbered as (2)) if no matches were identified with the first rule.
+If each criteria reflects a condition around single attributes, then rules represent sets of conditions. Hence, if you believe that there different sets of attributes on the basis of which your two entities can be matched, you should add more rules at this point thorugh the **Add Rules** button that was shown earlier. Note that **order matters** when creating rules: The matching algorithem will try to match on the basis of your first rule (number as (1) in the **Description** section) and only then continue to the second rule (numbered as (2)) if no matches were identified under the first rule. 
+
+- For the purpose of this section we will stay with only one rule.
 
 ## Step 3: Running the First Match 
-Now you are ready to run the matching that you have defined in steps 1-2. That can be done via the **Run** button as shown below:
+Now you are ready to run the matching that you have defined in steps 1-2. That can be done via the **Run** button as shown below in blue. Next to it you will find the **Save** button (shown in green) - you should use it if you don't want to run the match at this point but still want to save it's definitions. Lastly, next to these buttons there is also **Discard** button that enables you to delete the defnitions of your Match (shown in red):
 
-[]
+[11]
 
-It's possible that the Matching algorithem will take some time to complete. Upon the completion of the matching you will get the following message and at this point you can **Save** the match and continue to the **Merge screen** or go through any of the optional steps (steps 4-7):
+It's possible that the Matching algorithem will take some time to complete (the message that is highlighted in the image below show that the match is in progress):
 
-[]
+[12]
 
-Note that in the meantime there are two things you can do to track that progress of your match and evaluate the data behind it:
+Upon the completion of the matching you will get the following message and at this point you can **Save** the match and continue to the **Merge screen** or go through any of the optional steps in this section (steps 4-7).
+
+[13]
+
+Note also that in the meantime there are two things you can do to track that progress of your match and evaluate the data behind it:
 
 - **First, you can review the *Summary* section** (located above the **Description** section):
 
-[]
+[13]
 
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived and number of records.
 
