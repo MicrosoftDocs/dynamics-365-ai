@@ -55,7 +55,7 @@ The **Match** page shown above includes two major sections: **Summary** (highlig
 Each **Match** pair involves two entities that are unified into a single entity. Within the Description section, select **Add** to create the first (as well as any future) match pair:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-add.png "Match page")
+> ![](media/configure-data-match-add.png "Create match pair")
 
 
 After selecting **Add**, the following panel opens up:
@@ -82,7 +82,7 @@ Continue by selecting the second entity of your match pair by selecting the righ
 Lastly, select **Save** and you will see that the **Description** now includes your first match pair. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair which we will do in Step Two.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match pair.png "Match pair")
+> ![](media/configure-data-match-pair.png "Match pair")
 
 
 ## Step Two: Defining rules for first match pair
@@ -133,20 +133,31 @@ It's possible that the matching algorithm will take some time to complete. As hi
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
-Note that while waiting you can track the progress of your match. To do so , you should click the message above (**Match Running**) and review the **Summary** section that appears as shown below:
+Note that while waiting you can track the progress of your match. To do so, you should select the message above (**Match Running**) and review the **Summary** section that appears as shown below.
 
 [14]
+
+Match is completed once the message shown above disappears. Select **Refresh** to get a status update.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-refresh.png "Data match running")
 
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived, and the number of records.
 
 In addition to entities, the Summary diagram includes the status of your match. You can see that your match is in a **Matching** state which means it's in progress (also represented by a green line as shown above).
 
-Upon the completion of the matching the **Match Running** message will dissapear and the Summary section will show a blue line:
-[15]
+You must refresh your page as shown below. In the future, we expect to not have this requirement.
 
-- **You must *Refresh* your page at this point** as shown below. In the future we expect not to have this requirement:
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-refresh.png "Select refresh")
 
-[13]
+Upon the completion of the matching the **Match Running** message will disappear and the Summary section will show a blue line.
+
+Match run is now complete.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-run-complete.png "Data match run is complete")
+
 
 - Now you can either **Save** the match and continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
