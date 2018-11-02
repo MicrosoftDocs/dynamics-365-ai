@@ -1,6 +1,6 @@
 ---
 title: "Domain admin takeover in Market Insights | Microsoft Docs"
-description: "Perform admin takeover for an unmanged directory of an email domain."
+description: "Perform admin takeover for an unmanaged directory of an email domain."
 keywords: "admin takeover, tenant, self-service user"
 ms.date: 10/31/2018
 ms.service: dynamics-365-marketing
@@ -21,11 +21,11 @@ search.app:
   - D365SE
 ---
 
-# Takeover an unmanaged directory that has Market Insights
+# Take over an unmanaged directory that has Market Insights
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-Market Insights' self-service sign-up allows any user with a work e-mail to get the app. When users with an e-mail domain that is not registered in Azure Active Directory (AAD) sign-up, they are added to an unmanaged AAD (a "shadow tenant") based on their email domain. It is a container for the accounts within Office 365 that you can’t really manage or have any controls from an organization level. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. The admin takeover allows an organization to administrate the organization, and be able to have more control over the users and licenses.
+Market Insights' self-service sign-up allows any user with a work email to get the app. When users sign up with an email domain that is not registered in Azure Active Directory (Azure AD), they are added to an unmanaged Azure AD (a "shadow tenant") based on their email domain. This is a container for the accounts within Office 365 that you can’t really manage or control from an organizational level. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. The admin takeover allows an admin to manage the organization, and have more control over the users and licenses.
 
 For detailed information, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover).
 

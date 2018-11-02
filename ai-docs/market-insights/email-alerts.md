@@ -21,7 +21,7 @@ search.app:
 
 # Stay up to date with alerts
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 You can create email notifications to automatically send to a group of recipients when triggered. Alerts are user-specific, and every user role can create them. There are two types of alerts, which are based on filters and search topics:
 
