@@ -24,7 +24,7 @@ robots: noindex,nofollow
 
 Complete the following steps to load data from your data sources.
 
-### Step one: Data Source Creation
+### Step One: Data source creation
 
 Select **Get Data** as shown below: 
 
@@ -40,7 +40,7 @@ Then you should give your data source a name as shown below. You can also add an
 
 Lastly hit **Save** at the right bottom corner of the window. 
 
-### Step Two: Ingesting Entities 
+### Step Two: Ingesting entities 
 
 Within the data sources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs.
 
@@ -52,7 +52,7 @@ Lastly, upon clicking a data source that you wish to ingest, you will need to co
 > [!div class="mx-imgBorder"] 
 > ![](media/connection-settings.png "Connection settings")
 
-### Step Three: Editing Entities
+### Step Three: Editing entities
 
 You can edit any entity that you have ingested in step two through the **power query editor.**
 Editing columns, combining tables, and several other useful functionalities are available in the top screen menu (as shown in red below):
@@ -62,7 +62,7 @@ Editing columns, combining tables, and several other useful functionalities are 
 If you are new to power query, you might want to spend a couple of minutes on the following documentation that will walk you through these functionalities:
 [link1]
 
-### Step Four: Refreshing Data
+### Step Four: Refreshing data
 
 Once finishing selecting and editing data sources, you will get to the following screen. The two final steps are to hit **Save** and then **Refresh** as shown below:
 
@@ -70,7 +70,7 @@ Once finishing selecting and editing data sources, you will get to the following
 
 Note: In the future this step will happen automatically. 
 
-### Next Step: 
+### Next step: 
 
 Now you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
 
