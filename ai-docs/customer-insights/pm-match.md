@@ -24,7 +24,8 @@ robots: noindex,nofollow
 
 Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configuration** page to get to the **Match** page.
 
-[1]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-tile.png "Match tile")
 
 Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which required you to go back to the Map screen and Map at least two entities:
 

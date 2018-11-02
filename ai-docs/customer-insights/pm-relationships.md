@@ -24,6 +24,9 @@ robots: noindex,nofollow
 
 In Customer 360 you can define relationships between entities. Relationships help define the **Data Graph** based on entities ingested from different data sources (the notion of **Data Graph** will be explored later). It also relates the data graph to the **master customer entity** you have created through the Data Configuration process based on intelligent AI/ML algorithms. As we will see within the **Segments** section, these relationships-based data graphs are useful for segmentation and other analytical purposes. 
 
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-relationships-tile.png "Relationships tile")
+
 There are two types of relationships:
 
 - **System relationships:** These are created by the system automatically and cannot be edited.
