@@ -136,8 +136,7 @@ Here you can view all your saved segments and perform certain actions.
 -**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
 -**You also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/segment-menu-hilite.png "Segment menu")
+[final 12]
 
 Let's explore those segment-level actions:
     - Editing this particular segment
@@ -168,8 +167,7 @@ Exporting a segment to .csv file is possible either through the *Segments page* 
 
 Once exported, you can expect to find all the information on that particular segment within the .csv file. An example is shown below:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/segmentation-page.png "Segmentation page")
+[final 13]
 
 **Extracting insights from your segment's trendline and taking action upon it**
 Should we include one paragrah with example or remove this part?
