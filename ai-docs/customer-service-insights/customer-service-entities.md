@@ -14,7 +14,7 @@ manager: shellyha
 
 # Dynamics 365 for Customer Service entities used by AI for Customer Service Insights
 
-When a workspace is created from a Dynamics 365 for Customer Service environment, AI Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
+When a workspace is created from a Dynamics 365 for Customer Service environment, AI for Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
 
 - [Incident (case)](#incident-case-entity)
 - [BusinessUnit](#businessunit-entity)
@@ -36,15 +36,15 @@ CreatedOn | DateTime | The date and time the case was created in common UTC time
 ModifiedOn | DateTime | The date and time the case was last modified in common UTC time zone format.  
 IsEscalated | Boolean | **True** if the case has been escalated; otherwise, **False**.
 EscalatedOn | DateTime | If a case was escalated, the date and time the case was escalated in common UTC time zone format.  
-PriorityCode | Picklist | The case priority. AI for Customer Service Insights uses the following values to identify priorities: **1** (High), **2** (Medium), **3** (Low). The dashboards display other values as Custom.
+PriorityCode | Picklist | The case priority. AI for Customer Service Insights uses the following values to identify priorities: **1** (High), **2** (Medium), **3** (Low). The dashboards display other values as Customized.
 StateCode | State | **Required.** The case status. AI for Customer Service Insights uses the following values to identify case status: **0** (Active), **1** (Resolved), **2** (Cancelled).
 CaseOriginCode | Picklist | The support channel where the case originated. AI for Customer Service Insights uses the following values to identify different support channels: **1** (Phone), **2** (Email), **3** (Web), **2483** (Facebook), **3986** (Twitter).
 ResolveBySLAStatus | Picklist | The status of the resolution time for the case according to the terms of the service level agreement (SLA). A value of 4 indicates a non-compliant case. Other values indicate the case complies with the SLA.
 CustomerSatisfactionCode | Picklist | The customer's level of satisfaction with the handling and resolution of the case. Customer Service Insights uses the following values to indicate the level of satisfaction: **1** (Very Dissatisfied), **2** (Dissatisfied), **3** (Neutral), **4** (Satisfied), **5** (Very Satisfied).
-OwningUser | Lookup | A unique identifier for the support agent who owns the case. AI for Customer Service Insights uses this attribute to look up the agent name from the [SystemUser](#BKMK_systemuser_entity) entity and  generate agent performance charts on the [Case resolution dashboard](dashboard-case-resolutions.md) and [Topic details dashboard](dashboard-topic-details.md).
-ProductId | Lookup | A unique identifier for the product associated with the case. AI for Customer Service Insights uses this attribute to look up the product name from the [Product](#BKMK_product_entity) entity and generate product information for the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
+OwningUser | Lookup | A unique identifier for the support agent who owns the case. AI for Customer Service Insights uses this attribute to look up the agent name from the [SystemUser](#systemuser_entity) entity and  generate agent performance charts on the [Case resolution dashboard](dashboard-case-resolutions.md) and [Topic details dashboard](dashboard-topic-details.md).
+ProductId | Lookup | A unique identifier for the product associated with the case. AI for Customer Service Insights uses this attribute to look up the product name from the [Product](#product_entity) entity and generate product information for the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
 OwningBusinessUnit | Lookup | A unique identifier for the business unit that owns the case. AI for Customer Service Insights uses this attribute to look up the business unit names from the [BusinessUnit](#BKMK_businessunit_entity) entity and generate the Business Unit filter values on each dashboard.
-OwningTeam | Lookup | A unique identifier for the team that owns the case. AI for Customer Service Insights uses this attribute to look up the team name from the [Team](#BKMK_team_entity) entity and generate the Team filter values on each dashboard.
+OwningTeam | Lookup | A unique identifier for the team that owns the case. AI for Customer Service Insights uses this attribute to look up the team name from the [Team](#team_entity) entity and generate the Team filter values on each dashboard.
 
 For more information about the Incident (case) entity, see [Incident (case) Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incident).
 
