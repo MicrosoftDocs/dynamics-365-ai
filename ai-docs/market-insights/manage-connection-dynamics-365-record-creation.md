@@ -21,7 +21,7 @@ search.app:
 
 # Manage the connection between Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Understand how to change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], and the consequences of doing so.    
 You must already have a working connection between [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] established and you need to be have an Administrator role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to perform the following tasks.

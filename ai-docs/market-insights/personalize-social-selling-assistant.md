@@ -21,7 +21,7 @@ search.app:
 
 # Personalize the Social Selling Assistant
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 When using the Social Selling Assistant for the first time, users will get recommendations for all available search topics in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. To personalize the experience, we recommend each user select specific topics that are of interest to them. Additionally, users must add their social profiles to be able to share content recommendations on their networks.  
   

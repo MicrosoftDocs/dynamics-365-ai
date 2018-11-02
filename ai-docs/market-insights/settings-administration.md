@@ -20,7 +20,7 @@ search.app:
 ---
 # Administer [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Setting up the solution for your users is crucial for the effective usage of [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. To learn more about the main tasks for administering your solution, review the topics listed here.  
   

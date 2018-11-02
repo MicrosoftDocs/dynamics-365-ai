@@ -23,7 +23,7 @@ search.app:
 
 # Take over an unmanaged directory that has Market Insights
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Market Insights' self-service sign-up allows any user with a work email to get the app. When users sign up with an email domain that is not registered in Azure Active Directory (Azure AD), they are added to an unmanaged Azure AD (a "shadow tenant") based on their email domain. This is a container for the accounts within Office 365 that you can’t really manage or control from an organizational level. If a domain admin decides to take over the unmanaged tenant as part of their managed directory, they can perform an admin takeover. The admin takeover allows an admin to manage the organization, and have more control over the users and licenses.
 

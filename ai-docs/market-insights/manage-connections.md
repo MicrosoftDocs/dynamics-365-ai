@@ -21,7 +21,7 @@ search.app:
 
 # Manage connections in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] lets admins connect to and share social data with other applications. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Settings area. The type of connection you create depends on the application you want to connect to.  
   

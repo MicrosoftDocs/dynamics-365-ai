@@ -21,7 +21,7 @@ search.app:
 
 # Manage social profiles
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 *Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
