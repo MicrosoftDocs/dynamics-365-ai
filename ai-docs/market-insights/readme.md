@@ -21,9 +21,6 @@ search.app:
 
 # [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Readme
 
-<!--from editor: change brackets to parentheses if the next sentence isn't a link.-->
-
-
 [This topic is pre-release documentation and is subject to change.]
 
 This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].
