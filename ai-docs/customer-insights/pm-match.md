@@ -128,48 +128,25 @@ Now you are ready to run the matching that you have defined in Steps One and Two
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
 
-It's possible that the matching algorithm will take some time to complete - the message that is highlighted in the image below.
+It's possible that the matching algorithm will take some time to complete - the message that shows that the matching is still running is highlighted in the image below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
+Note that while waiting you can track the progress of your match. To do so , you should click the message above (**Match Running**) and review the **Summary** section that appears as shown below:
 
-Upon the completion of the matching you will get the following message. You can **Save** the match and continue to the **Merge** page or go through any of the optional steps in this section (Steps Four to Seven).
-
-[13]
-
-
-Note there are two things you can do to track that progress of your match and evaluate the data behind it:
-
-**First**, you can review the **Summary** section located above the **Description** section.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-summary.png "Match Summary")
+[]
 
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived, and the number of records.
 
-In addition to entities, the Summary diagram includes the status of your match. Later we will cover the four possible statuses more in depth but for now we will describe the status of your current match which is called Matching.
+In addition to entities, the Summary diagram includes the status of your match. Later we will cover the four possible status more in depth but for now you can see that your match is in a **Matching** state which means it's in progress (also represented by a green line)
+
+Upon the completion of the matching the **Match Running** message will dissapear. You can either **Save** the match and continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which can help you decide whether to continue to Merge or reconfigure your match definitions.
 
 []
-
-This status implies the matching process is currently in progress. Since it includes a percentage, you can track that progress.
-
-**Second**, once the following message appears, you can review the master data set that was created during the process.
-
-[]
-
-The **Entities** page is where you can view the master data set. Upon selecting the **Entities** tab in the left-side menu, you will be able to see that this new entity appears under the name **ConflationMatchEntity**.
-
-[]
-
-You can select that entity and do a quick validation of the data that you are unifying.
-
-[]
-
-Within the table shown above, the left side (red) provides a preview of some of the records that were unified from the first match pair entity. The right side (blue) provides the same view around the data that was brought from the second entity. The middle part (green) includes... 
 
 ## Step Four (optional): Reviewing and validating the first match pair
-If you followed through Step Three, then you already started to validate the quality of your first match. However, as part of the current and next steps, you will learn how to evaluate in depth this quality and improve it. There are a few things you can do.
+Here you will learn how to evaluate in depth your first match's quality and improve it. There are a few things you can do.
 
 **First**, you can gain first insights by reviewing the tiles at the top of the page.
 
@@ -179,11 +156,11 @@ If you followed through Step Three, then you already started to validate the qua
 
 Note that if you match more entities in the future these three numbers will present the total numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this match's row within the **Description** section. 
 
-**Second**, you can select the following button within the **Description** section in order to iew all your match pair records.
+**Second**, you can click the following button within the **Description** section in order to view the records for that specific match pair as shown below.
 
 []
 
-This page presents all your match pair records. It is recommended to go through a part of it in order to validate that records were matched according to your expectations.
+This page presents all your match pair records. It also includes the **Scores** field which states how likely it is that this record was indeed matched accurately (can also be thought of a kind of confidence score). It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
 
 []
 
