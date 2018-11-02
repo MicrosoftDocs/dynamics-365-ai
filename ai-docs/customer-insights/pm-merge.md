@@ -77,9 +77,9 @@ Note that within the blue part above, you can also see what entity was used as t
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-discarded-attributes.png "Discarded attributes")
     
-At this point, if you suspect that some important attributes were not matched, you can manually add them through the **Add Merged Attribute** button. We will expand on adding merged attributes in the next step. If, on the contrary, you suspect that too many attributes are merged at this point, you can unmerge them by clicking the **three dots** icon as shown below and then **Unmerge**.
+At this point, if you suspect that some important attributes were not matched, you can manually add them through the **Add Merged Attribute** button. We will expand on adding merged attributes in the step four. If, on the contrary, you suspect that some merged attributes should not be merged you can unmerge them by clicking the **three dots** icon as shown below and then **Unmerge**.
     
-[final 8]
+[missing image 3]
     
 **Right attribute values table**: Upon clicking each of the attributes in the **left attributes menu** a corresponding attribute values table will appear to the right (shown in blue below):
 
