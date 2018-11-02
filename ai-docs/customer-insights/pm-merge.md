@@ -87,17 +87,22 @@ This table's fields represent the different entities in which this selected attr
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
-- **Prioritizing sources for pre-identified merged attributes**: Using the attribute *Name* as an example, in this section we will learn how to prioritize contradicting values for that attribute as part of the merging process. We start by selecting **Add Merged Attribute** as shown below: 
+- **Prioritizing sources for pre-identified merged attributes**: Using the merged attribute *IdentityServiceEmail* as an example, in this section we will learn how to prioritize contradicting values for that attribute as part of the merging process. We start by selecting the **three dots icon** next to this attribut's name (shown in blue) and then **Edit** (as shown in red):
 
+[replace with final 12]
 [final name 1] ?
 ![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
 
-- We will conduct the prioritization process within the **Add new Attribute Panel** as shown below. This panel consists of three parts: **Attribute Name** (shown in red below), **Attribute Source** (shown in blue) and **Merge Policy** (shoen in green): 
+Note: This attribute menu also includes the options to **Unmerge** the merged attribute or **Delete** it (both shown in green above).
 
+- We will conduct the prioritization process within the **Edit Attribute Panel** as shown below. This panel consists of three parts: **Attribute Name** (shown in green below), **Attribute Source** (shown in blue) and **Merge Policy** (shoen in green): 
+
+[replace with final 13]
 [final name 2]
 
-  - First we will consider to edit the **Attribute Source** part. This part specifies all the matched entities that include values for the *Name* attribute. we can see that after we types the attribute's name in the search filed (highlighted in blue below), values for the *Name* attribute are taken into consideration from three sources (shown in red). At this point the user selected the values that he relates to *Name* from the three sources. If we wish **not** to consider one or more of the sources we can also **unselect** them.
+  - First we will consider to edit the **Attribute Source** part. This part specifies all the attributes that possibly include values for our attribute. we can see that the system identified two attributes with the name **Email** within the **Sales** and **SurveyContact** entities and those are checked in (blue part below). Moreover, the system couldn't find an attribute within the **WifiContact** entity that correponds with our **IdentityServiceEmail** attribute (nothing is checked in within the red part below). At this point we can manually change those automatic selections - either deselect the **Email** attribute or select new attributes:
   
+  [replace with 15]
   [final 10]
   
   - Second, we will consider to edit the **Merge Policy** part. This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Sales* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** (shown in blue below) and then click the arrow sign next to *SurveyContact*. As a result *Sales* will move to first priority while *SurveyContact* will move to second priority when pulling values for the *Name* attribute.
@@ -116,12 +121,27 @@ Adding a merged attribute is available via the **Add Attribute** option as shown
 
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
-  - First we will type an attribute name in the **Attribute Name** field. This name should be informative and distingushble.
-  - Then, within the **Select Attributes** menu, we will select all the attributes that we want to merge from our matched entities
-  - **Lastly, we will define the Merge Policy:** This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** and then click the arrow sign next to *Salesforce Sales Data*. As a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values for the *Name* attribute.
+  - First we will type an attribute name in the **Attribute Name** field. 
+  - Then we will search for attributes that might correspond to that attribute within our matched entities by using the **Search Field** as shown below:
+
+10..
+
+  - Third, within the **Select Attributes** menu highlighted in red above, we will select all the attributes that we want to merge from our matched entities. As shown above, we have selected **First Name** from **Sales**, **Name** from **SurveyContact** and **Name** from **WifiContact**.
+  - **Lastly, we will define the Merge Policy:** This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that **Sales** includes the most accurate data about **Names**, than in the panel shown below, we will first change the policy from **default** to **ordered** (as highoighted in blue) and then click the arrow sign next to **SurveyContact**. As a result **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the **Name** attribute.
   
-[final 12]  
+[final 12] 
+
+## Step 5: Running Your Merge
+Whether you manually merged attributes or let the system merge for you, you can run your merge at this point. Simply click **Save** and then **Run** as shown below. Note that **if the *Run* button is disabled at this point, you should try to do two things:
+- **First,** try to refresh your page and see if this button turned active.
+- **Second**, try to go back to the **Match** screen and hit the **Run** button in this screen again. Go back to the **Merge** screen and see if that resolved the problem.
+
+[final 16]
+
+**Once the message below dissapears, Merge has completed and resolved contradictions in your data according to the policies that you have defined.**
+
+[final 17]
   
 ## Nest Step
-Congratulations! You have completed both the **Data Manager** and the **Configure Data** phases. Now you are ready to unlock unique insights on your customers via the **Segmentation**, **Connectors** sections as well as the **APIs** section if you are a technical user. Note that **Segmentation** will equip you with aggragate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
+**Congratulations!** You have completed both the **Data Manager** and the **Configure Data** phases. Now you are ready to unlock unique insights on your customers via the **Segmentation**, **Connectors** sections as well as the **APIs** section if you are a technical user. Note that **Segmentation** will equip you with aggragate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
  
