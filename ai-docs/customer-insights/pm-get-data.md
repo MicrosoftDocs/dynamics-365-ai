@@ -22,51 +22,49 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Complete the following steps to load data from your data sources.
+Get data in Customer 360 help you bring data into your Customer 360 instance. This is a pre-requisite to start configuring Customer 360. You can bring data to Customer 360 by using the 20+ out of the box connectors that we make available for sources like Dynamics 365, SQL Azure, Blob store etc. Even if you don’t find an out of the box connector for your source, you can always export the data from your source as a CSV file and import to Customer 360 using our CSV connector. To import data to Customer 360 you need to create a data source. Its recommended to have multiple data sources based on the source of the data as it allows for having different refresh schedules, credentials for refresh etc. 
 
-### Step One: Data source creation
+### Step 1 (mandatory): Creating new data source
+To load data to Customer 360 follow the below process:
 
-Select **Get Data** as shown below: 
-
-[]
-
-- **If it’s the first time you are using Customer 360** you need to create a data source, and that is available through the highlighted **Add** button:
-
-[add image 2b]
-
-Then you should give your data source a name as shown below. You can also add an informative description.
-
-[]
-
-Lastly hit **Save** at the right bottom corner of the window. 
-
-### Step Two: Ingesting entities 
-
-Within the data sources page that is shown below you should locate the specific sources that apply to your organization. First identify their types which are represented by the tabs at the top of the page (highlighted below). Then, search for your specific sources under the relevant tabs.
+- **1.Navigate to Get data from the Data Manager page:**
 
 > [!div class="mx-imgBorder"] 
-> ![](media/choose-data-source-menu.png "Data source menu")
+> ![](media/data-manager-get-data-tile.png "Get data tile")
 
-Lastly, upon clicking a data source that you wish to ingest, you will need to complete all the required fields for that data source. An example for Excel (.csv) file mandatory fields is shown below. Once all field are filled, approve by selecting **Next** at the bottom of the page.
+- **2.Click **Add Data** as shown below:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/connection-settings.png "Connection settings")
+> ![](media/data-manager-get-data-add.png "Get data add")
 
-### Step Three: Editing entities
+- 3.**Provide a name and description** for the data source and **hit “Create”.** This will create the data source for you. 
 
-You can edit any entity that you have ingested in step two through the **power query editor.**
-Editing columns, combining tables, and several other useful functionalities are available in the top screen menu (as shown in red below):
-    
-[6]
-     
-If you are new to power query, you might want to spend a couple of minutes on the following documentation that will walk you through these functionalities:
-[link1]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-create.png "Get data create")
 
-### Step Four: Refreshing data
+### Step 2 (mandatory): Adding Entities
+Next step is to add **Enntities** to the data source. In Customer 360 **Entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is considered to be an **Entity** (for example an **Orders** dataset, a **Sales** data set, etc). 
 
-Once finishing selecting and editing data sources, you will get to the following screen. The two final steps are to hit **Save** and then **Refresh** as shown below:
+- 1.In order to start ingesting entities, pick one of the many available data sources and provide the connection string and connection credentials. Lastly, hit **Next**:
 
-[7]
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-select-source.png "Get data select source")
+
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+
+- 2.From the list of available entities, select the entity that you want to load. **In this step you can also perform transformation on the data.** For example, if you are ingesting data from CSV file and the first row has headers then you can use the **Transform Table** tab to select that transformation as shown below:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-transform-table.png "Get data transform table")
+
+One other highly recommended transform is “Map to standard”. Customer 360 allows you to map data to Microsoft Common data model (CDM) during your ingestion process. In order to do this, click in the transform “Map to standard” and from the option map fields from your source data to CDM fields as show below: 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
+
+- 3.Now click **Create** and this gives you the option to “Save” the data source
 
 Note: In the future this step will happen automatically. 
 
