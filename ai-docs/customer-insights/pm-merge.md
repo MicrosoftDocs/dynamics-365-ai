@@ -81,12 +81,12 @@ At this point, if you suspect that some important attributes were not matched, y
     
 [final 8]
     
-**Right attribute values table**: Upon clicking each of the attributes in the **left attributes menu** a corresponding attribute values table will appear to the right (shown in red below):
+**Right attribute values table**: Upon clicking each of the attributes in the **left attributes menu** a corresponding attribute values table will appear to the right (shown in blue below):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-page.png "Merge page")
 
-This table's fields represent the different entities in which this selected attribute exists. //Not working as for 11/2
+This table's fields represent the different entities in which this selected attribute exists. **//Not working as for 11/2//**
 
 ## Step Three: Changing merging policies for merged attributes
 
