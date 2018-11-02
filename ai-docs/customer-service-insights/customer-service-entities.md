@@ -1,78 +1,93 @@
 ---
-title: "Dynamics 365 for Customer Service entities used by Customer Service Insights"
-description: "Learn about the default data entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365."
+title: "Dynamics 365 for Customer Service entities used by AI for Customer Service Insights"
+description: "Learn about the entities and attributes used by AI for Customer Service Insights when a workspace is connected with Dynamics 365 for Customer Service."
 keywords: "CDS, data entity"
-ms.date: 10/30/2018
+ms.date: 10/31/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
-author: gxy001
-ms.author: gxy001
-manager: ankitsar
+author: stevesaunders1952
+ms.author: stevesaunders1952
+manager: shellyha
 ---
 
-# Dynamics 365 for Customer Service entities used by Customer Service Insights
+# Dynamics 365 for Customer Service entities used by AI for Customer Service Insights
 
-When a workspace is created from a Dynamics 365 environment, Customer Service Insights loads the customer service data stored in Dynamics 365/Common Data Service (CDS) from the following entities to generate dashboards:
+When a workspace is created from a Dynamics 365 for Customer Service environment, AI Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
 
-- [Incident (case)](#BKMK_incident_entity)
-- [BusinessUnit](#BKMK_businessunit_entity)
-- [Product](#BKMK_product_entity)
-- [SystemUser](#BKMK_systemuser_entity)
-- [Team](#BKMK_team_entity)
+- [Incident (case)](#incident-case-entity)
+- [BusinessUnit](#businessunit-entity)
+- [Product](#product-entity)
+- [SystemUser](#systemuser-entity)
+- [Team](#team-entity)
 
-## <a name="BKMK_incident_entity"></a> Incident (case) entity
-Customer Service Insights uses the following attributes from Incident entity to generate dashboards. You can find more details about this entity from [Incident (case) Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incident).
+The following sections described the
 
-Attributes | Type | Details
------------|------|--------
-IncidentId | UniqueIdentifier <br> (Primary Key) | **System required.** Unique identifier of the case that is auto-generated when a case is created. 
-Title | String | A descriptive name that briefly summarize the support issue or request. <br><br> Customer Service Insights uses case titles to automatically group cases into topics using natural language understanding. | 
-CreatedOn | DateTime | Date and time when the case was created. The values are returned using a common UTC time zone format.  
-ModifiedOn | DateTime | Date and time when the case was last modified. The values are returned using a common UTC time zone format.  
-IsEscalated | Boolean | Indicates if the case has been escalated.
-EscalatedOn | DateTime | Indicates the date and time when the case was escalated. The values are returned using a common UTC time zone format.  
-PriorityCode | Picklist | Indicates the case priority. <br><br> Customer Service Insights takes the following numeric values to identify priorities. Other values will show as Custom on the dashboards. <br><br> **Value**	(Priority): <br><li> **1** 	(High) <br><li> **2**	(Medium) <br><li> **3**	(Low)
-StateCode | State | **System required.** Indicates the case status. <br><br>Customer Service Insights takes the following numeric values to identify case status: <br><br> **Value** (Status): <br><li> **0** (Active) <br><li> **1** (Resolved) <br><li> **2** (Cancelled)
-CaseOriginCode | Picklist | Indicates the support channel where the case was originated. <br><br> Customer Service Insights takes the following numeric value to report different support channels: <br><br> **Value** (Support Channel): <br><li> **1** (Phone) <br><li> **2** (Email) <br><li> **3** (Web) <br><li> **2483** (Facebook) <br><li> **3986** (Twitter)
-ResolveBySLAStatus | Picklist | Shows the status of the resolution time for the case according to the terms of the SLA. <br><br> This is the key data field for Customer Service Insights to report statistics of SLA compliant cases. <br><br> Customer Service Insights checks whether the value equals to 4, which indicate a noncompliant case. Other values are treated as compliant. 
-CustomerSatisfactionCode | Picklist | Indicate customers’ level of satisfaction with the handling and resolution of the case. <br><br> This is the key data field for Customer Service Insights to report statistics of customer satisfaction (CSAT). <br><br> Customer Service Insights reads the following values for different levels of satisfaction: <br><br> **Value**  (Satisfaction level): <br><li> **1** (Very Dissatisfied) <br><li> **2** (Dissatisfied) <br><li> **3** (Neutral) <br><li> **4** (Satisfied) <br><li> **5** (Very Satisfied)
-OwningUser | Lookup | Unique identifier for the support agent that owns the case. Customer Service Insights uses this field to look up agent full names from [SystemUser](#BKMK_systemuser_entity) entity. <br><br> The data are aggregated to generate agent performance charts in [case resolution dashboard](dashboard-case-resolutions.md) and [topic details dashboard](dashboard-topic-details.md). 
-ProductId | Lookup | Unique identifier that indicates the product associated with the case. Customer Service Insights uses this field to look up product names from [Product](#BKMK_product_entity) entity. <br><br> The data are aggregated to generate [topic details dashboard](dashboard-topic-details.md) and the Product filter on each dashboard.
-OwningBusinessUnit | Lookup | Unique identifier for the business unit that owns the case. Customer Service Insights uses this field to look up business unit names from [BusinessUnit](#BKMK_businessunit_entity) entity. <br><br> The data are aggregated to generate the Business Unit filter on each dashboard.
-OwningTeam | Lookup | Unique identifier for the team that owns the case. Customer Service Insights uses this field to look up team names from [Team](#BKMK_team_entity) entity. <br><br> The data are aggregated to generate the Team filter on each dashboard.
+## Incident (case) entity
 
-## <a name="BKMK_businessunit_entity"></a> BusinessUnit entity
-Customer Service Insights uses the following attributes from BusinessUnit entity. You can find more details about this entity from [BusinessUnit Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/businessunit).
+The Incident (case) entity represents a service request case associated with a contract. AI for Customer Service Insights generates dashboards using the following Incident (case) entity attributes:
 
 Attributes | Type | Details
 -----------|------|--------
-BusinessUnitId | UniqueIdentifier <br> (Primary Key) | Unique identifier of the business unit.
-Name | String | Name of the business unit. The data are aggregated to generate the Business Unit filter on each dashboard.
+IncidentId | UniqueIdentifier (Primary Key) | **Required.** A unique case identifier that is generated automatically when a case is created.
+Title | String | A descriptive name that briefly summarizes the support issue or request.  AI for Customer Service Insights uses case titles to automatically group support cases into topics using natural language understanding technology. |
+CreatedOn | DateTime | The date and time the case was created in common UTC time zone format.  
+ModifiedOn | DateTime | The date and time the case was last modified in common UTC time zone format.  
+IsEscalated | Boolean | **True** if the case has been escalated; otherwise, **False**.
+EscalatedOn | DateTime | If a case was escalated, the date and time the case was escalated in common UTC time zone format.  
+PriorityCode | Picklist | The case priority. AI for Customer Service Insights uses the following values to identify priorities: **1** (High), **2** (Medium), **3** (Low). The dashboards display other values as Custom.
+StateCode | State | **Required.** The case status. AI for Customer Service Insights uses the following values to identify case status: **0** (Active), **1** (Resolved), **2** (Cancelled).
+CaseOriginCode | Picklist | The support channel where the case originated. AI for Customer Service Insights uses the following values to identify different support channels: **1** (Phone), **2** (Email), **3** (Web), **2483** (Facebook), **3986** (Twitter).
+ResolveBySLAStatus | Picklist | The status of the resolution time for the case according to the terms of the service level agreement (SLA). A value of 4 indicates a non-compliant case. Other values indicate the case complies with the SLA.
+CustomerSatisfactionCode | Picklist | The customer's level of satisfaction with the handling and resolution of the case. Customer Service Insights uses the following values to indicate the level of satisfaction: **1** (Very Dissatisfied), **2** (Dissatisfied), **3** (Neutral), **4** (Satisfied), **5** (Very Satisfied).
+OwningUser | Lookup | A unique identifier for the support agent who owns the case. AI for Customer Service Insights uses this attribute to look up the agent name from the [SystemUser](#BKMK_systemuser_entity) entity and  generate agent performance charts on the [Case resolution dashboard](dashboard-case-resolutions.md) and [Topic details dashboard](dashboard-topic-details.md).
+ProductId | Lookup | A unique identifier for the product associated with the case. AI for Customer Service Insights uses this attribute to look up the product name from the [Product](#BKMK_product_entity) entity and generate product information for the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
+OwningBusinessUnit | Lookup | A unique identifier for the business unit that owns the case. AI for Customer Service Insights uses this attribute to look up the business unit names from the [BusinessUnit](#BKMK_businessunit_entity) entity and generate the Business Unit filter values on each dashboard.
+OwningTeam | Lookup | A unique identifier for the team that owns the case. AI for Customer Service Insights uses this attribute to look up the team name from the [Team](#BKMK_team_entity) entity and generate the Team filter values on each dashboard.
 
-## <a name="BKMK_product_entity"></a> Product entity
-Customer Service Insights uses the following attributes from Product entity. You can find more details about this entity from [Product Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/product).
+For more information about the Incident (case) entity, see [Incident (case) Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incident).
+
+## BusinessUnit entity
+
+The BusinessUnit entity represents a business, division, or department in the Microsoft Dynamics 365 database. AI for Customer Service Insights uses the following  BusinessUnit entity attributes.
 
 Attributes | Type | Details
 -----------|------|--------
-ProductId | UniqueIdentifier <br> (Primary Key) | Unique identifier of the product.
-Name | String | Name of the product. The data are aggregated to generate [topic details dashboard](dashboard-topic-details.md) and the Product filter on each dashboard.
+BusinessUnitId | UniqueIdentifier (Primary Key) | A unique business unit identifier.
+Name | String | The name of the business unit. AI for Customer Service Insights uses this attribute to generate the Business Unit filter values on each dashboard.
 
-## <a name="BKMK_systemuser_entity"></a> SystemUser entity
-Customer Service Insights uses the following attributes from SystemUser entity. You can find more details about this entity from [SystemUser Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/systemuser).
+For more information about the BusinessUnit entity, see [BusinessUnit Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/businessunit).
 
-Attributes | Type | Details
------------|------|--------
-SystemUserId | UniqueIdentifier <br> (Primary Key) | Unique identifier for the support agent.
-FullName | String | Full name of the support agent. The data are aggregated to generate agent performance charts in [case resolution dashboard](dashboard-case-resolutions.md) and [topic details dashboard](dashboard-topic-details.md). 
+## Product entity
 
-
-## <a name="BKMK_team_entity"></a> Team entity
-Customer Service Insights uses the following attributes from Team entity. You can find more details about this entity from [Team Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/team).
+The Product entity represents information about products and their pricing information. AI for Customer Service Insights uses the following attributes from the Product entity:
 
 Attributes | Type | Details
 -----------|------|--------
-TeamId | UniqueIdentifier <br> (Primary Key) | Unique identifier for the team.
-Name | String | Name of the team. The data are aggregated to generate the Team filter on each dashboard.
+ProductId | UniqueIdentifier (Primary Key) | A unique product identifier.
+Name | String | The name of the product. AI for Customer Service Insights uses this attribute to generate the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
 
+For more information about the Product entity, see [Product Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/product).
+
+## SystemUser entity
+
+The SystemUser entity represents a person with access to the Microsoft CRM system who owns objects in the Microsoft CRM database. Customer Service Insights uses the following SystemUser entity attributes:
+
+Attributes | Type | Details
+-----------|------|--------
+SystemUserId | UniqueIdentifier (Primary Key) | A unique identifier for the support agent.
+FullName | String | The full name of the support agent. AI for Customer Service Insights uses this attribute to generate agent performance charts on the [Case resolution dashboard](dashboard-case-resolutions.md) and [Topic details dashboard](dashboard-topic-details.md).
+
+For more information about the SystemUser entity, see [SystemUser Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/systemuser).
+
+## Team entity
+
+The Team entity represents a collection of system users that routinely collaborate. AI for Customer Service Insights uses the following attributes from the Team entity:
+
+Attributes | Type | Details
+-----------|------|--------
+TeamId | UniqueIdentifier (Primary Key) | A unique team identifier.
+Name | String | The name of the team. AI for Customer Service Insights uses this attribute to generate the Team filter values on each dashboard.
+
+For more information about the Team entity, see [Team Entity Reference](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/team).
