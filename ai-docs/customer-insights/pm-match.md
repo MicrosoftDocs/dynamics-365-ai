@@ -28,8 +28,8 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 
 Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which required you to go back to the Map screen and Map at least two entities:
 
-## The Match Phase
-As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a **unfied Master Customer Dataset** that will be utilized later to unlock unique insights about your customers.
+## The Match phase
+As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
 
 If it's your first time through the match process, you should complete all the steps in this section:
 
@@ -43,7 +43,8 @@ If it's your first time through the match process, you should complete all the s
   
 We will explore these steps in a sequential order. Prior to that we will give a quick introduction into the **Match** screen as we will perform all our steps from that screen:
 
-[2]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-page.png "Match page")
 
 ## Quick introduction to the Match Page
 
@@ -53,11 +54,14 @@ The **Match** page shown above includes two major sections: **Summary** (highlig
 
 Each **Match** pair involves two entities that are unified into a single entity. Within the Description section, select **Add** to create the first (as well as any future) match pair:
 
-[3]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-add.png "Match page")
+
 
 After selecting **Add**, the following panel opens up:
 
-[4]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-edit-entities.png "Edit Match entities")
 
 Within this panel you will set the definitions for your first match pair. 
 Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
@@ -70,24 +74,30 @@ Start by choosing the first entity of your match pair by selecting the left fiel
 
 Continue by selecting the second entity of your match pair by selecting the right filed (shown below in red):
 
-[5]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-right-entity.png "Add right entity")
 
 > [!NOTE]
 > Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider to have the second most reliable data? Moreover, does it includes at least one field that is shared by the master entity and possibly more fields that are shared by other entities that you have ingested?
 
 Lastly, select **Save** and you will see that the **Description** now includes your first match pair. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair (which we will do in step (2)).
 
-[6]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-pair.png "Match pair")
+
 
 ## Step 2: Defining rules for first match pair
 
 For each of your match pairs you should define at least one **Match Rule**. **Match Rules** dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, click your match within the Description section. Then click  **Add Rule** as shown below:
 
-[7]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-add-new-rule.png "Add new rule")
+
 
 Clicking **Add Rule** will open the following panel:
 
-[8]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-rule-attributes.png "New rule attributes")
 
 Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections (going left to right):
 
@@ -97,12 +107,16 @@ Besides the rule's name, this panel enables you to specify all the ***Criteria**
 - 4.**Normalization for second attribute:** Same definitions as described under (3). Puctioation was chosen as an example in the image above (highlighted in orange below).
 - 5.**The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting ***Fuzzy*** will dictate that records that are not 100% equal will also be matched. The threshold for Fuzzy matches will be selected next to it: You can define it as either **Low**, **Medium** or **High**. **High** fits cases where *Precision* is more important than *Reach* such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as Marketing Campaign. The method button and the threashold bar are both highlighted in black in the image below:
 
-[9]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-rule-normalize.png "New rule settings")
+
 
 **Adding multiple criteria**:
 If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more criteria (which will be linked through an **AND** operator). To add criteria, simply click the **Add New Criteria** as shown below in red. You can also remove criteria by clicking the same button (will show up as a **Minus button** for existing criteria as shown in blue):
 
-[10]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-rule-add-criteria.png "Edit rule add new criteria")
+
 
 - For the purpose of this section we will limit our match rule to only one criteria though.
 
@@ -114,21 +128,26 @@ If each criteria reflects a condition around single attributes, then rules repre
 ## Step 3: Running the First Match 
 Now you are ready to run the matching that you have defined in steps 1-2. That can be done via the **Run** button as shown below in blue. Next to it you will find the **Save** button (shown in green) - you should use it if you don't want to run the match at this point but still want to save it's definitions. Lastly, next to these buttons there is also **Discard** button that enables you to delete the defnitions of your Match (shown in red):
 
-[11]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-commands.png "Edit rule add new criteria")
 
 It's possible that the Matching algorithem will take some time to complete (the message that is highlighted in the image below show that the match is in progress):
 
-[12]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-running.png "Data match running")
+
 
 Upon the completion of the matching you will get the following message and at this point you can **Save** the match and continue to the **Merge screen** or go through any of the optional steps in this section (steps 4-7).
 
 [13]
 
+
 Note also that in the meantime there are two things you can do to track that progress of your match and evaluate the data behind it:
 
 - **First, you can review the *Summary* section** (located above the **Description** section):
 
-[13]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-summary.png "Match Summary")
 
 This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived and number of records.
 
