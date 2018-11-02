@@ -60,11 +60,18 @@ The segment creation process is executed within the **Segment Editor Page**:
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment.png "New dynamic segment")
 
-- **We start by defining the segment's properties**: We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. Then, if we wish to change the segment's type **from Static to Dynamic or vice versa** we can do that by clicking the slider as shown in red below: 
+- **We start by defining the segment's properties**: 
+    -We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. 
+    -Then, if we wish to change the segment's type **from Static to Dynamic or vice versa** we can do that by clicking the slider as shown in red below: 
      
 [Replace with final 3:]
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment-hilites.png "Change segment type")
+
+   -Lastly, if we are defining a dynamic segment, we can choose to **activate it** at this point through the second slider as shown below. **An active (dynamic) segment will automatically incorporate changes** that are made to your source data with time while **inactive segment will not incorporate changes to your data.** You sould activate your segment only when you wish to start incorporating changes to your data.
+   
+   [slider 2 image]
+   
      
 - **In step two, we will start creating our first filter**. Use the "filter" field that is shown above (highlighted in blue) to select an entity. Once we selected an entity type, we need to choose the specific attributes by which we wish to filter our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a boolean. In the example below, an attribute with a numerical value is used as a filter:
      
@@ -78,7 +85,10 @@ The segment creation process is executed within the **Segment Editor Page**:
 |3    |Operator         |
 |4    |Value         |
 
-     
+Note that **one of the segmentation strengths of Customer 360 is the rich varity of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
+
+[operators table]
+
 - **In step three, which is optional, we will add more conditions to our group.** The following two logical operators can be used for that purpose:
 
 [final 4]
@@ -120,7 +130,6 @@ Then three set operators will show up: ***Union, Intersect and Exclude***. Click
 
 [final 11]
    
-
 ## Exploring segments from the Segments page
 Here you can view all your saved segments and perform certain actions.
 -**Dynamic Segments appear to the left and Static Segments appear to the right.**
@@ -149,7 +158,9 @@ The lower part includes a table with all your segment members.
 
 -**Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change it's definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
 
-## Acting upon the data: Exporting a segment
+## Acting upon the data: 
+
+**Exporting a segment:
 Exporting a segment to .csv file is possible either through the *Segments page* by selecting the **three dots** icon within a specific segment's tile as described earlier, or by entering a specific segment's page (by clicking the segment tile in the segments screen) and selecting **Export** at the top-right corner of the page (as shown below):
 
 > [!div class="mx-imgBorder"] 
@@ -159,3 +170,9 @@ Once exported, you can expect to find all the information on that particular seg
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-page.png "Segmentation page")
+
+**Extracting insights from your segment's trendline and taking action upon it**
+Should we include one paragrah with example or remove this part?
+
+## Next Step
+While segmentation provides you with aggragate-level insights, you can also explore the Customer 360 Dashboard to unlock varity of customer-level insights. If you wish to produce those, visit the **Connectors** section.
