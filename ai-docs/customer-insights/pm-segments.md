@@ -29,16 +29,16 @@ There are two types of segments:
 - **Static**: Segment with filter conditions that are processed once either upon the creation or update any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to used ony once. Example use case: Customers who attended an expo event. 
 - **Dynamic**: Segment with filter conditions that are processed according to a recurring schedule. These segments are especially useful when customers attributes change over time to continuosly update segment and keep targeting newly added customers   Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment resfreshing schedule is every 12 hours.
 
-**How is segment defined**
+**How is a segment defined**
 Each segment is defined by combining various filter criteria that customer and its related data called data graph must match to qualify to be a member of the segment. Segment Editor provides an experience to easily define these filter criteria over the entire data graph using one or more groups. 
 
 **What is a segment group**
 Each segment group produces a set of customers based on its filter criteria. Each group's filter criteria is defined by choosing a starting entity anywhere in the customer data graph and defining filter criteria as you navigate over data graph using entity relationships to end on customer master entity - to output customer records that the group filter will produce. Multiple filter groups can be combined using set operations - union, intersect or exclude to build complex criteria using ease of set operations. 
 
-The example below illustrates how to build a segment that uses multiple groups to define filter criteria over different part of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
+The example below illustrates how to build a segment that uses multiple groups to define filter criteria over different parts of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
 
-{Example of complex segment with multiple groups}
-{Insert segment definition image highlighting Group 1 and Group 2}
+{final1:Example of complex segment with multiple groups}
+{final2:Insert segment definition image highlighting Group 1 and Group 2}
 
 - Group 1 uses Order as starting entity to define filter criteria to find customers who placed order for more $500 in the last 90 days
 - Group 2 uses Case as starting entity to define filter criteria to find customer who have an escalated case in last 30 days
@@ -62,6 +62,7 @@ The segment creation process is executed within the **Segment Editor Page**:
 
 - **We start by defining the segment's properties**: We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. Then, if we wish to change the segment's type **from Static to Dynamic or vice versa** we can do that by clicking the slider as shown in red below: 
      
+[Replace with final 3:]
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment-hilites.png "Change segment type")
      
@@ -78,72 +79,78 @@ The segment creation process is executed within the **Segment Editor Page**:
 |4    |Value         |
 
      
-- **In step three, which is optional, we will add more conditions to our filter**. We can combine our conditions in one of two ways: 
-    - ***AND***: Under this option, both conditions must be met as part of the segmentation process. This option is most useful when you define two conditions for two different entities.
-    - ***OR***: Under this option, either one of the conditions need to be met as part of the segmentation process. This option is most useful when you define two conditions for the same entity as examplified below:
-     
-> [!div class="mx-imgBorder"] 
-> ![](media/customer-group-more-roles.png "Customer group with more roles")
+- **In step three, which is optional, we will add more conditions to our group.** The following two logical operators can be used for that purpose:
 
-Note that as you add conditions around more entities, **those entities are linked in a predefined manner**. As described in the Relationships section, **System Relationships** were created during the *Merge* phase and it's also possible that you created additional **Customized Relationships** through the *Relationships Screen*. As shown in the example below, based on the relationships that were created prior to segmentation, a specific path was created. 
+[final 4]
 
-That path dictates that you can choose to include all the records for the (Master) **Customer** entitiy as well as for the **Contact** entity, but not for the **Orders** entity since this entity carries the highest level of granularity
+   - ***AND:*** Under this option, both conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities (one condition per entity) as exemplified below: 
+    
+   [final 5]
+    
+   - ***OR:*** Under this option, either one of the conditions need to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity as exemplified below: 
+    
+   [final 6]
 
-[segmentation 2]
+Note: It is recommended to save your first group's definitions as shown below:
 
-- **In step four, we will show how to combine multiple filters that are created for multiple entities**. Upon selecting **Add Group**, three options will show up: ***Union***, ***Intersect*** and ***Exclude***. Clicking each of these options will result in the creation of a new filter for a new entity and the consolidation of this new filter with the filter we created in steps 2-3. 
-   
+[final 7]
+
+- **In step four which is also optional, we will show how to combine multiple groups via Set Operators**
+As mentioned earlier, each group **produces a specific set of customers**. Start by selecting **Add Group**:
+
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-add-group.png "Customer group add group")
-   
-  - Choosing ***Union*** will dictate that the new segment will be fully added to the older segment - no data will be excluded:
-       
-  > [!div class="mx-imgBorder"] 
+
+Then three set operators will show up: ***Union, Intersect and Exclude***. Clicking each of these will enable you to define a new group. However, upon clicking **Save**, each of these Set Operators will lead to a different results:
+
+- **Intersect** will intersect the new group with the group you have created in steps 2-3.
+
+[final 9]
+
+- **Unite** will unite the two groups.
+
+> [!div class="mx-imgBorder"] 
   > ![](media/customer-group-union.png "Customer group add union")
 
-  - Choosing ***Intersect*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values will be excluded.
+- Lastly, **Exclude** will unite the two groups while excluding …?
 
-  - Lastly, choosing ***Exclude*** will dictate that the new segment will be combined with the older segment but if there are missing values among one of the segments, those values' columns will be excluded including all their values (both missing and existing values).
+[final 10]
+
+- Here is an example for how **Intersect** operator can help you define a sophisticated segmentation logic that involves multiple groups:
+
+[final 11]
+   
 
 ## Exploring segments from the Segments page
-Here you can view all your segments as well as suggested segments. These are the page components:
-- **Your saved Segments:** Dynamic Segments appear to the left and Static Segments appear to the right. Each segment is represented by a tile that includes the segment name, segment description, last date of data refresh, trend (if exist), the possibility to refresh the data for that segment, and several other possibilities (highlighted in red below) that can be accessed via  <b>...</b> as highlighted in blue below:
+Here you can view all your saved segments and perform certain actions.
+-**Dynamic Segments appear to the left and Static Segments appear to the right.**
+-**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
+-**You also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-menu-hilite.png "Segment menu")
 
-Those other options include:
+Let's explore those segment-level actions:
     - Editing this particular segment
     - Viewing it's members
     - Exporting the segment to a .csv file
     - Turning the segment to inactive/active (depends on it's current state)
     - Deleting the segment
     
-- **Recommended segments**: Those appear at the lower part of the page as shown below. Those are suggestions that are curated based on your specific customers base. Clicking *Add Segment* in each of the tiles will enable you to build segments for that specific suggestion
-
-> [!div class="mx-imgBorder"] 
-> ![](media/recommended-segments.png "Recommended segments")
-
 ## Exploring a segment: View processing history and segment members from the Segments page
 Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc.) with the button at the upper-right corner of the tile:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
 
-The lower part includes a table with all your segment members properties. Those include: 
-- Members Names
-- Members Addresses
-- Members Job Titles
-- Members Telephone Numbers
-- Members Cities
-- Members States
-- Members Locations
+The lower part includes a table with all your segment members.
+
+- **Note** that the field types that are shown in this table are based on the attributes of your segment’s entities. The example table that is shown above (highlighted in blue) is typical to a **Customer** entity but it is only one of many possible table types.
+
+-**Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change it's definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
 
 ## Acting upon the data: Exporting a segment
-Exporting a segment to .csv file is possible either through the *Segments page* by selecting <b>...</b> within a specific segment's tile (shown below, upper image), or by entering the specific segment page and selecting **Export** at the top-right corner of the page (shown below, lower image):
-
-> [!div class="mx-imgBorder"] 
-> ![](media/segment-menu-export.png "Export segment")
+Exporting a segment to .csv file is possible either through the *Segments page* by selecting the **three dots** icon within a specific segment's tile as described earlier, or by entering a specific segment's page (by clicking the segment tile in the segments screen) and selecting **Export** at the top-right corner of the page (as shown below):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-menu-export-top.png "Export segment")
