@@ -37,7 +37,6 @@ The first screen that you will see is the following screen:
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attribute-name.png "Merge attribute name")
 
-
 The tiles at the top of the screen (highlighted in green above) show that you haven't tried to merge any attributes yet. **All Attributes** shows how many attributes your matched entities include **in total prior to Merge**. You can revisit your Match policies if you suspect that this number is too low or high. **Discarded Attributes** are attributes that were not included in the merge process and at this point their number equals the **All Attributes** number since no merge process has started yet.
 
 The goal behind this screen is to equip you, the user, with two approaches to the merge process: 
@@ -48,7 +47,6 @@ The goal behind this screen is to equip you, the user, with two approaches to th
 > - If you chose option one, then you should continue through the following steps: 2, 3, optionally 4 if you wish to manually merge additional attributes, and then 5.
 > - If you chose option two however, you should start from step 4, and then continue through steps 2, 3 and 5.
 
-
 ## Step Two: Understanding the Merge page
 
 > [!div class="mx-imgBorder"] 
@@ -56,22 +54,17 @@ The goal behind this screen is to equip you, the user, with two approaches to th
 
 The **Merge** page that is shown above includes several components, regardless of your choice in step one. We will explore them below.
 
-**Four validation tiles** (shown below): By tracking those tiles as you work with the Merge screen you can keep validating the quality of your merge selections. Beyond the **All Attributes** and **Discarded Attributes** tiles that we discussed earlier, there are two more important tiles:
-- **Merged Attributes** tile shows how many attributes were successfully merged from multiple (matched) entities. It should answer the expectations that you have around your specific data. 
-- **Unmerged Attributes** tile shows how many attributes were not successfully merged by the system.
-    
-[final 4]
+-**Four validation tiles** (shown above in green): By tracking those tiles as you work with the Merge screen you can keep validating the quality of your merge selections. Beyond the **All Attributes** and **Discarded Attributes** tiles that we discussed earlier, there are two more important tiles:
+  -**Merged Attributes** tile shows how many attributes were successfully merged from multiple (matched) entities. It should answer the expectations that you have around your specific data. 
+  -**Unmerged Attributes** tile shows how many attributes were not successfully merged by the system.
 
-**Left Attributes Menu**: This menu includes three expendable tabs.
-
-[final 4b]
+-**Left Attributes Menu**: This menu (shown above in blue) includes three expendable tabs.
      
-**Merged Attributes**: Upon clicking it you can view the attributes that were merged at this point as exemplified below in red.
+   -**Merged Attributes**: Upon clicking it you can view the attributes that were merged at this point as exemplified below in red.
      
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attributes.png "Merged attributes")
      
-
 Note that within the blue part above, you can also see what entity was used as the main source for that merged attribute. In the example above, the values of the merged attribute **IdentityServiceEmail** were taken in most cases from the **SurveyContact** entity (reflected by a value of 1 in the **order** column) and in less cases from the **Sales** entity (reflected by an **order** value of 2).
      
 **Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system (shown in red below). Again, you can also see from which entity the values of this entity come from (but since it's unmerged attribute it's values come from only one entity).
@@ -79,22 +72,21 @@ Note that within the blue part above, you can also see what entity was used as t
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-unmerged-attributes.png "Unmerged attributes")
 
-    
 **Discarded Attributes**: Same options exist for this tab as for the **Unmerged Attributes** tab.
     
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-discarded-attributes.png "Discarded attributes")
-
     
 At this point, if you suspect that some important attributes were not matched, you can manually add them through the **Add Merged Attribute** button. We will expand on adding merged attributes in the next step. If, on the contrary, you suspect that too many attributes are merged at this point, you can unmerge them by clicking the **three dots** icon as shown below and then **Unmerge**.
     
 [final 8]
     
-**Right attribute values table**: Upon clicking each of the attributes in the **left attributes menu** a corresponding attribute values table will appear to the right.
+**Right attribute values table**: Upon clicking each of the attributes in the **left attributes menu** a corresponding attribute values table will appear to the right (shown in red below):
 
-[final 9]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-page.png "Merge page")
 
-This table's fields represent the different entities in which this selected attribute exists. Within the example above...
+This table's fields represent the different entities in which this selected attribute exists. //Not working as for 11/2
 
 ## Step Three: Changing merging policies for merged attributes
 
