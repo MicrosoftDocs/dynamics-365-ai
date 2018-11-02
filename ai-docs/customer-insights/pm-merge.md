@@ -40,7 +40,9 @@ The first screen that you will see is the following screen:
   -**Option One: Letting the system auto-identify attributes anmong your entities that should be merged**. For choosing that option, click **System Merge** as highlighted in blue above. Note that you can always manually select more attributes to Merge.
   -**Option Two: Manually defining all the attributes that, among your matched entities, should be merged**.
   
-**Important note:** If you chose option one, then you should continue through steps 2 and 3 below and possibly also throguh step 4 if you wish to merge more attributes. If you chose option two however, first go through step 4 in this section and then come back to steps 2 and 3.
+**Important note:** 
+- If you chose option one, then you should continue through the following steps: 2, 3, optionally 4 if you wish to manually merge additional attributes, and then 5.
+- If you chose option two however, you should start from step 4, and then continue through steps 2, 3 and 5.
 
 ## Step Two: Understanding the Merge screen
 
@@ -49,18 +51,21 @@ The first screen that you will see is the following screen:
 The **Merge screen** that is shown above includes several components, regardless of your choice in step one. We will explore them below:
 - **Four validation tiles** (shown below): By tracking those tiles as you work with the Merge screen you can keep validating the quality of your merge selections. Beyond the **All Attributes** and **Discarded Attributes** tiles that we discussed earlier, there are two more important tiles:
     - **Merged Attributes** tile shows how many attributes were successfully merged from multiple (matched) entities. It should answer the expectations that you have around your specific data. 
-    - **Unmerged Attributes** tile shoes how many attributes were not successfully merged by the system.
+    - **Unmerged Attributes** tile shows how many attributes were not successfully merged by the system.
     
     [final 4]
 
 - **Left Attributes Menu**: This menu includes three expendable tabs:
+
+     [final 4b]
+     
     - **Merged Attributes**: Upon clicking it you can view the attributes that were merged at this point as exemplified below in red:
      
      [final 5]
      
      Note that within the blue part above, you can also see what entity was used as the main source for that merged attribute. In the example above, the values of the merged attribute **IdentityServiceEmail** were taken in most cases from the **SurveyContact** entity (reflected by a value of 1 in the **order** column) and in less cases from the **Sales** entity (reflected by an **order** value of 2).
      
-    - **Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system( shoen in red below). Again, you can also see from which entity the values of this entity come from (but since it's unmerged attribute it's values come from only one entity):
+    - **Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system (shown in red below). Again, you can also see from which entity the values of this entity come from (but since it's unmerged attribute it's values come from only one entity):
     
     [final 6]
     
@@ -82,19 +87,20 @@ This table's fields represent the different entities in which this selected attr
 
 ![merge-single-attribute.png](media/merge-single-attribute.png)
 
-- **Prioritizing sources for pre-identified merged attributes**: Using the attribute *Name* as an example, in this section we will learn how to prioritize contradicting values for that attribute as part of the merging process. We start by selecting <b>...</b> below: 
+- **Prioritizing sources for pre-identified merged attributes**: Using the attribute *Name* as an example, in this section we will learn how to prioritize contradicting values for that attribute as part of the merging process. We start by selecting **Add Merged Attribute** as shown below: 
 
+[final name 1] ?
 ![merge-single-attribute-edit.png](media/merge-single-attribute-edit.png)
 
-- We will conduct the prioritization process within the **Edit Attribute Panel** as shown below. This panel consists of three parts: **Attribute Name** (shown in red below), **Attribute Source** (shown in blue) and **Merge Policy** (shoen in green): 
+- We will conduct the prioritization process within the **Add new Attribute Panel** as shown below. This panel consists of three parts: **Attribute Name** (shown in red below), **Attribute Source** (shown in blue) and **Merge Policy** (shoen in green): 
 
-![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
+[final name 2]
 
-  - First we will consider to edit the **Attribute Source** part. This part specifies all the matched entities that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will **unselect** them:
+  - First we will consider to edit the **Attribute Source** part. This part specifies all the matched entities that include values for the *Name* attribute. we can see that after we types the attribute's name in the search filed (highlighted in blue below), values for the *Name* attribute are taken into consideration from three sources (shown in red). At this point the user selected the values that he relates to *Name* from the three sources. If we wish **not** to consider one or more of the sources we can also **unselect** them.
   
   [final 10]
   
-  - Second, we will consider to edit the **Merge Policy** part. This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** and then click the arrow sign next to *Salesforce Sales Data*. As a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values for the *Name* attribute.
+  - Second, we will consider to edit the **Merge Policy** part. This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Sales* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** (shown in blue below) and then click the arrow sign next to *SurveyContact*. As a result *Sales* will move to first priority while *SurveyContact* will move to second priority when pulling values for the *Name* attribute.
   
   [final 11]
   
