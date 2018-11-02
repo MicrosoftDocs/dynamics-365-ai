@@ -189,29 +189,36 @@ This page presents all your match pair records. It also includes the **Scores** 
 
 **Lastly**, you can experiment with different thresholds around your criteria in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
-1. Select the **three dots** icon for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
+1. Select the **...** for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
 
-   [19]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
-2. Identify the criteria that you want to experiment with. Remember, each criteria is represented by one row in the panel below. Once you've identified the criteria you want to experiment with, select the following button.
+
+2. Identify the criteria that you want to experiment with. Remember, each criteria is represented by one row in the panel below. Once you've identified the criteria you want to experiment with, select the following.
    
-   [20]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-rule-criteria.png "Edit match rule criteria")
 
 3. At this point the page that you see depends on whether you selected a fuzzy or exact match for that criteria. 
 
    If you chose **Exact** for that criteria, you will see the following page.
        
-      [21]
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
+
        
    Here you can view the number of matched and unmatched records for that criteria (shown in red below). You can also view the records in the table section (shown in blue).
        
-   If you chose **Fuzzy** for that criteria, you will see the following page.
+   If you chose fuzzy for that criteria, you will see the following page.
        
-      [22]
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-match-fuzzy-criteria.png "Match criteria preview")
+
        
-    This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green).
+This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green).
        
-      [23]
+[23]
        
 ## Step Five (optional): Making changes to the rules' definitions
 If you followed Step Four, then at this point you should have a better understanding around the quality of your first match. At this point you can translate that understanding into a better match quality by reconfiguring some of your match parameters.
