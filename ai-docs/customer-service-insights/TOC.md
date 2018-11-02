@@ -34,6 +34,6 @@
 
 ## [Overview of GDPR compliance](gdpr-summary.md)
 
-## [Requests for copies of personal data ](gdpr-export.md)
+## [Requests for copies of personal data](gdpr-export.md)
 
 ## [Requests to delete personal data](gdpr-delete.md)
