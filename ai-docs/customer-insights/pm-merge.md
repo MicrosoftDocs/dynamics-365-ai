@@ -90,13 +90,17 @@ This table's fields represent the different entities in which this selected attr
 
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
-  - First we will consider to edit the **Attribute Source** part. This part specifies all the matched entities that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will **unselect** them.
+  - First we will consider to edit the **Attribute Source** part. This part specifies all the matched entities that include values for the *Name* attribute. we can see that by default, all these sources are selected and hence values for the *Name* attribute are taken into consideration from all three sources. If we wish **not** to consider one or more of the sources we will **unselect** them:
+  
+  [final 10]
   
   - Second, we will consider to edit the **Merge Policy** part. This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** and then click the arrow sign next to *Salesforce Sales Data*. As a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values for the *Name* attribute.
   
+  [final 11]
+  
   - Lastly, hit **Save** at the top right corner of this panel.
 
-## Step 4: Manually adding a merged attribute**: 
+## Step 4: Manually adding a merged attribute: 
 Adding a merged attribute is available via the **Add Attribute** option as shown below:
 
 > [!div class="mx-imgBorder"] 
@@ -106,16 +110,12 @@ Adding a merged attribute is available via the **Add Attribute** option as shown
 
 ![merge-experiment-datasource-dropdown.png](media/merge-experiment-datasource-dropdown.png)
 
-  - First we will type an attribute name in the **Attribute Name** field. This name should be informative - a name that help us understand how this attribute was constructed  
+  - First we will type an attribute name in the **Attribute Name** field. This name should be informative and distingushble.
   - Then, within the **Select Attributes** menu, we will select all the attributes that we want to merge from our matched entities
-  - Lastly, we will define the merge policy by clicking on the relevant arrows in the *Merge Policy* section as we did before.
+  - **Lastly, we will define the Merge Policy:** This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Dynamics WiFidata* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** and then click the arrow sign next to *Salesforce Sales Data*. As a result *Salesforce Sales Data* will move to first priority while *Dynamics WiFidata* will move to second priority when pulling values for the *Name* attribute.
   
-- **Editing a group merged attribute**: In some cases, it will be valuable to group multiple attributes as one merged attribute. In the example shown below, the attribute *Address* is defined as a group attribute as represented by the icon next to it (such icon doesn't appear next to single attributes). The table shown includes all the attributes that are included in the group attribute.
+[final 12]  
   
-![merge-group-attributes-dropdown.png](media/merge-group-attributes-dropdown.png)
-
-   - In order to edit a group attribute, we will click on the *three dots* icon just as we used to do for a single attribute.
-   - In the next stage, we will use the *Edit Group Attribute* panel that is shown below. We want to find all the attributes that should be included in this group attribute and we will achieve that by typing those attributes names in the *search* field.
-     
- ![merge-group-attributes-edit.png](media/merge-group-attributes-edit.png)
+## Nest Step
+Congratulations! You have completed both the **Data Manager** and the **Configure Data** phases. Now you are ready to unlock unique insights on your customers via the **Segmentation**, **Connectors** sections as well as the **APIs** section if you are a technical user. Note that **Segmentation** will equip you with aggragate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
  
