@@ -72,7 +72,7 @@ For more information about the Product entity, see [Product Entity Reference](ht
 
 ## SystemUser entity
 
-The SystemUser entity represents a person with access to the Microsoft CRM system who owns objects in the Microsoft CRM database. Customer Service Insights uses the following SystemUser entity attributes:
+The SystemUser entity represents a person with access to the Microsoft CRM system who owns objects in the Microsoft CRM database. AI for Customer Service Insights uses the following SystemUser entity attributes:
 
 Attributes | Type | Details
 -----------|------|--------
