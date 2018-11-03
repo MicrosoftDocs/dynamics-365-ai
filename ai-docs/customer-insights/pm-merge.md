@@ -77,9 +77,7 @@ Note that within the blue part above, you can also see what entity was used as t
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-discarded-attributes.png "Discarded attributes")
     
-At this point, if you suspect that some important attributes were not matched, you can manually add them through the **Add Merged Attribute** button. We will expand on adding merged attributes in the step four. If, on the contrary, you suspect that some merged attributes should not be merged you can unmerge them by clicking the **three dots** icon as shown below and then **Unmerge**.
-    
-[missing image 3]
+At this point, if you suspect that some important attributes were not matched, you can manually add them through the **Add Merged Attribute** button. We will expand on adding merged attributes in the step four. 
     
 **Right attribute values table**: Upon clicking each of the attributes in the **left attributes menu** a corresponding attribute values table will appear to the right (shown in blue below):
 
@@ -99,7 +97,7 @@ Note: This attribute menu also includes the options to **Unmerge** the merged at
 
 We will conduct the prioritization process within the **Edit Attribute Panel** as shown below. This panel consists of three parts: **Attribute Name** (shown in green below), **Attribute Source** (shown in blue) and **Merge Policy** (not highlighted):
 
-[missing image]
+[missing image 1]
 
 **First** we will consider to edit the **Attribute Source** part. This part specifies all the attributes that possibly include values for our attribute. we can see that the system identified two attributes with the name **Email** within the **Sales** and **SurveyContact** entities and those are checked in (blue part below). Moreover, the system couldn't find an attribute within the **WifiContact** entity that correponds with our **IdentityServiceEmail** attribute (nothing is checked within the WifiContact entity). At this point we can manually change those automatic selections - either deselect the **Email** attribute or select new attributes.
   
