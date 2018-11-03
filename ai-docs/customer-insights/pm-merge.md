@@ -97,7 +97,9 @@ Note: This attribute menu also includes the options to **Unmerge** the merged at
 
 We will conduct the prioritization process within the **Edit Attribute Panel** as shown below. This panel consists of three parts: **Attribute Name** (shown in green below), **Attribute Source** (shown in blue) and **Merge Policy** (not highlighted):
 
-[missing image 1]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-new-attribute.png "Add new attribute")
+
 
 **First** we will consider to edit the **Attribute Source** part. This part specifies all the attributes that possibly include values for our attribute. we can see that the system identified two attributes with the name **Email** within the **Sales** and **SurveyContact** entities and those are checked in (blue part below). Moreover, the system couldn't find an attribute within the **WifiContact** entity that correponds with our **IdentityServiceEmail** attribute (nothing is checked within the WifiContact entity). At this point we can manually change those automatic selections - either deselect the **Email** attribute or select new attributes.
   
@@ -119,7 +121,9 @@ Adding a merged attribute is available via the **Add Attribute** button as shown
 
 We will perform the attribute addition process within the **Add Attribute** panel as shown below. This panel consists of three parts: **Attribute Name** (shown in red), **Select Attributes** (shown in blue) and **Merge Policy** (highlighted in green): 
 
-[missing image 2]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-new-name.png "Add new attributes")
+
 
 First we will type an attribute name in the **Attribute Name** field. For exemplification, we will define the merged attribute **Name**.
  

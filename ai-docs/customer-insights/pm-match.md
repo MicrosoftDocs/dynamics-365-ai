@@ -230,23 +230,33 @@ Up to now, you have created, run, and evaluated one match. In many cases, you wi
 
 In order to match a new entity with the unified data set that you created in Steps One and Two, select  **Edit** in the **Description** section:
 
-[27]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-edit.png "Match edit")
+
 
 Then select the **Add New Match** button in order to add another match pair:
 
-[28]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-add-new.png "Add new match")
+
 
 Note that upon selecting **Add New Match**, a new row was created and the unified data set that you created in Steps One and Two now appears as one of the new match pair entities (highlighted in red below).
 
-[29]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-entity.png "New match entity")
+
 
 In order to complete the creation of your second match, select the new entity that you want to match with your unified master entity (shown in blue below) and select **Save**.
 
-[30]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-entity-save.png "New match entity save")
+
 
 Note that this new match will also appear in the **Summary** section.
 
-[31]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-summary.png "New match entity summary")
+
 
 You can also notice that this new match has a **Rules Needed** status (shown as a warning sign within the match's row), which implies that you haven't defined rules for that match pair which is mandatory for running the match. You should repeat Steps Two and Three for the new match pair.
 
@@ -254,7 +264,9 @@ You can also notice that this new match has a **Rules Needed** status (shown as 
 ## Step Seven (optional): Reviewing and changing the order by which multiple matchings are executed
 **Reviewing the matchings order**: That can be quickly done via the Summary section as exemplified below for multiple matches:
 
-[32]
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-multi-entity-summary.png "New match multiple entity summary")
+
 
 **Changing the order by which matches are executed:** This can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair and the second match pair, we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
 
