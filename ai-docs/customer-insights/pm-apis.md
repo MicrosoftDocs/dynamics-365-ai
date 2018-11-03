@@ -105,14 +105,14 @@ See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://d
 
 ## Functionalities served with the Customer 360 *Segmentation APIs
 
-management API for segments: Create, update, get and delete segment definition. Activate and deactivate. 
-query API: get customers part of a segment (/data/Customer?$filter=IsMemberOfSegment(segmentname))
-search and query customer data  /data/Customer(customerId='123')
+- 1.Use APIs for managing segments: Create, update, get and delete segment definitions. Also activate and deactivate segments. 
+- 2.Use APIs for querying: Get specific parts of a segment
+- 3.Use APIs for searching and querying specific segment member data
 
 See the **SegmentManagement** table in the [Customer 360 Swagger webpage](https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html).
 
 ## Functionalities and limitations by API
-
+To complete:
 |Table5  |Column2  |
 |---------|---------|
 |Row1     |         |
