@@ -172,7 +172,6 @@ Note that if you match more entities in the future these three numbers will pres
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
 
-
 This page presents all your match pair records. It also includes the **Scores** field which states how likely it is that this record was indeed matched accurately (can also be thought of a kind of confidence score). It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
 
 > [!div class="mx-imgBorder"] 
@@ -240,25 +239,25 @@ Then select the **Add New Match** button in order to add another match pair:
 > ![](media/configure-data-match-add-new.png "Add new match")
 
 
-Note that upon selecting **Add New Match**, a new row was created and the unified data set that you created in Steps One and Two now appears as one of the new match pair entities (highlighted in red below).
+Note that upon selecting **Add New Match**, a new row was created and the unified data set that you created in Steps One and Two now appears as one of the new match pair entities (highlighted in blue below).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-entity.png "New match entity")
 
 
-In order to complete the creation of your second match, select the new entity that you want to match with your unified master entity (shown in blue below) and select **Save**.
+In order to complete the creation of your second match, select the new entity that you want to match with your unified master entity (shown in red below) and select **Save**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-entity-save.png "New match entity save")
 
 
-Note that this new match will also appear in the **Summary** section.
+Note that this new match will also appear in the **Summary** section (shown in red below).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-summary.png "New match entity summary")
 
 
-You can also notice that this new match has a **Rules Needed** status (shown as a warning sign within the match's row), which implies that you haven't defined rules for that match pair which is mandatory for running the match. You should repeat Steps Two and Three for the new match pair.
+You can also notice that this new match has a **Rules Needed** status (shown as a warning sign within the match's row as shown in blue above). That implies that you haven't defined rules for that match pair which is mandatory for running the match. You should repeat Steps Two and Three for that new match pair.
 
 
 ## Step Seven (optional): Reviewing and changing the order by which multiple matchings are executed
@@ -268,7 +267,9 @@ You can also notice that this new match has a **Rules Needed** status (shown as 
 > ![](media/configure-data-match-multi-entity-summary.png "New match multiple entity summary")
 
 
-**Changing the order by which matches are executed:** This can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair and the second match pair, we will need to replace the entities in the first match pair with those of the second match pair and vice versa. 
+Within the example above, the **SurveyContact** entity from the **SurveyData** datasource was chosen as the basis for the **master data set** that will be the end result of the **data configuration process**. That entity was first matched with the **Sales** entity from the **Dynamics** datasource which produced the **first Match Pair**. Then, this first match pair was matched with the **WifiContact** entity from the **WifiData** datasource which produced a second match pair.
+
+**Changing the order by which matches are executed:** This can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair and the second match pair, we will need to replace the entities in the first match pair (**SurveyContact** and **Sales**) with those of the second match pair (**Sales** and **WifiContact**) and vice versa. 
 
 ## Next Step
 Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section, the third and last **Data Configuration** step. 
