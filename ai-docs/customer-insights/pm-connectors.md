@@ -28,13 +28,13 @@ The Customer 360 dashboard enables you to utilize the unified data that you have
 
 In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one data source to it through the **Data Manager: Get Data** page. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
 
-### Step One: Download MEZ File
+### Step One: Downloading MEZ File
 
 Along with the offer link, you received a file (MEZ type). Download this file to a location you are familiar with on your desktop.
    
 [PBI1]
 
-### Step Two: Publish the Customer 360 Dashboard
+### Step Two: Publishing the Customer 360 Dashboard
  
  1. Bring Customer 360 data to Power BI. Open Power BI for Desktop and select **Get Data** at the top menu.
     
@@ -56,7 +56,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
      
    [PBI6]
      
-### Step Three: Create a Customized Dashboard
+### Step Three: Creating a Customized Dashboard
 
 After completing Step two, you'll see the following:
 
