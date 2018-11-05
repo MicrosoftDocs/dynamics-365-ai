@@ -43,6 +43,9 @@ The example below illustrates how to build a segment that uses multiple groups t
 {final2:Insert segment definition diagram created by Nimrod, highlighting Group 1 and Group 2}
 -->
 
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-group1-2.png "Mulitple groups")
+
 - Group 1 uses Order as starting entity to define filter criteria to find customers who placed order for more $500 in the last 90 days
 - Group 2 uses Case as starting entity to define filter criteria to find customer who have an escalated case in last 30 days
 

@@ -43,6 +43,10 @@ Along with the offer link, you received a file (MEZ type). Download this file to
  2. Type Customer 360 in the search field, and then select **Customer 360** on the right-side menu. Select **Connect** at the left bottom corner.
     
     <!-- [PBI3] -->
+
+  > [!div class="mx-imgBorder"] 
+  > ![](media/connector-pbi-step-3.png "PBI Connector")
+
     
 3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field**: https://dxt-wus-01.ci.ai.dynamics.com/api/instances/fa252992-8d48-49b3-9d02-06a2ac2a441e/data 
 
