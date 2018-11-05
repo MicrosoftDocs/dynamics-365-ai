@@ -29,49 +29,49 @@ To load data to Customer 360 follow the following process:
 
 1. Navigate to *Get Data* from the Data Manager page:**
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-tile.png "Get data tile")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-tile.png "Get data tile")
 
 2. Click **Add Data** as shown below:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-add.png "Get data add")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-add.png "Get data add")
 
 3. **Provide a name and description** for the data source and hit **Create**. This will create the data source for you. 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-create.png "Get data create")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-create.png "Get data create")
 
 ### Step 2 (mandatory): Adding Entities
 Within the next step you will add **Enntities** to your data source. In Customer 360 **Entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is considered to be an **Entity** (for example an **Orders** dataset, a **Sales** dataset, etc). 
 
 1. In order to start ingesting entities, pick one of the many available data sources and provide the connection string and connection credentials as shoen below. Lastly, hit **Next**.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-select-source.png "Get data select source")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-select-source.png "Get data select source")
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
 2. From the list of available entities, select the entity that you want to load. **In this step you can also perform transformation on the data.** For example, if you are ingesting data from CSV file and the first row has headers then you can use the **Transform Table** tab to select that transformation as shown below:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-transform-table.png "Get data transform table")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
 One other highly recommended transform is **Map to standard**. Customer 360 allows you to map data to Microsoft Common Data Model (CDM) during your ingestion process. In order to do this, click in the transform “Map to standard” and then **map fields from your source data to CDM fields** as show below: 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
 3. Now click **Save** and this gives you the option to “Save” the data source:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
 4. After you “Save” the data source, hit **Refresh** to load data to Customer 360:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
 Note: In the future this step will happen automatically.
 
@@ -89,13 +89,13 @@ Follow the below steps to edit an existing data source:
 
 1. Browse to the data source that you wish to edit:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-source.png "Get data source")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-source.png "Get data source")
 
 2. Click on the **Edit** button to edit the data source in Power Query: 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
 
 3. Lastly hit **Save** as we did when we originally created our data source
 
