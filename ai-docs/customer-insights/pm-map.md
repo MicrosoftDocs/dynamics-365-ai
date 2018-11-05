@@ -2,7 +2,7 @@
 title: "Map | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -67,7 +67,7 @@ On the left, you can see your ingested entities. The first entity is automatical
 
 At this point, you should start adding attributes to each of your entities. You should select all the attributes on the basis of which you want to combine with your entities. You can either manually add attributes (**Define my own**), or let the system auto-identify the attributes for the selected entity (**Use system recommendations**).
 
-#### Manually adding attributes**
+#### Manually adding attributes
 
 When you select **Define my own**, a window appears on the right in which you can manually add attributes.
 
@@ -79,14 +79,14 @@ Here you can select all the attributes that are relevant for each of your entiti
 ## Select primary keys and define attribute types
 
 > [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-primary-keys.png"Select primary keys")
+> ![](media/data-manager-configure-map-primary-keys.png "Select primary keys")
 
 Select each of the customer entities tabs on the left to open it's corresponding attributes table as shown above for the Survey entity example. Below we will explore this table's columns from left to right. Note: you must make selections within all the mandatory columns:
 
 - **Primary key (mandatory selection):** For executing the identity-resolution process, it's mandatory to select one attribute as a unique key for each of the customer's entities. For example, if one of your data sources is a Contacts dataset, you may want to assign *Customer Name* as the unique key for that source, while for a *Call-Logs* file you may prefer to define *Phone Number* as a unique key. 
 - **Column Name**: The attribute's name as appears in the dataset.
 - **Customer attribute (mandatory selection)**: 
-- **Entity Type(mandatory selection?):** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type.
+- **Entity Type(mandatory selection):** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type.
 - **Normalize:** Optional column. Here you can select whether and how to normalize all the data that you use for the matching process. Several options are available such as removing whitespaces, normalizing digits, removing punctuation, and others. 
 
 ## Add or Edit entities and attributes
@@ -108,7 +108,7 @@ To add an attribute to an existing entity, first select the entity to which you 
 
 You might want to select additional attributes or deselect attributes you have selected in the past. In the example below, we deselect **Gender** and add **Residence Country**.
 
-[Map final 15]
+<!-- [Map final 15] -->
 
 ## Keep unmatched records
 As part of the next stage (match), it's possible that not all of your data entities will be successfully matched. Enable **Keep unmatched records**  to save all the records of your unmatched entities in your master data profile for future use. This option is recommended if.. [(to complete)] 
