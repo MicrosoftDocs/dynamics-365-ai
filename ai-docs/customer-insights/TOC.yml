@@ -19,6 +19,7 @@
 - name: Segments
   href: pm-segments.md
 - name: Admin
+  href: pm-admin.md
   items:
   - name: Settings
     href: pm-settings.md

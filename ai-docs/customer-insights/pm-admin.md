@@ -2,7 +2,7 @@
 title: "Admin| MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -23,8 +23,6 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Customer 360 administration pages include the **Permissions** page and the **Settings** page. Both pages are accessible via the left app menu as shown below:
-
-[Admin1]
 
 How can you best utilize the Admin pages? That depends on your role:
 - **If you are an administrator**:
