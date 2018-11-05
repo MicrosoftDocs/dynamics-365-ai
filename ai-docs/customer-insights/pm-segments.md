@@ -89,7 +89,7 @@ If you clicked **Add Segment** then you will also need to select whether you wan
 
 Note that **one of the segmentation strengths of Customer 360 is the rich varity of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
 
-[operators table - Shashi still needs to provide me an updated one]
+<!-- [operators table - Shashi still needs to provide me an updated one] -->
 
 - **In step three, which is optional, we will add more conditions to our group.** The following two logical operators can be used for that purpose:
 
