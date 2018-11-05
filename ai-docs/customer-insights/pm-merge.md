@@ -2,7 +2,7 @@
 title: "Merge| MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -54,28 +54,28 @@ The goal behind this screen is to equip you, the user, with two approaches to th
 
 The **Merge** page that is shown above includes several components, regardless of your choice in step one. We will explore them below.
 
--**Four validation tiles** (shown above in green): By tracking those tiles as you work with the Merge screen you can keep validating the quality of your merge selections. Beyond the **All Attributes** and **Discarded Attributes** tiles that we discussed earlier, there are two more important tiles:
-  -**Merged Attributes** tile shows how many attributes were successfully merged from multiple (matched) entities. It should answer the expectations that you have around your specific data. 
-  -**Unmerged Attributes** tile shows how many attributes were not successfully merged by the system.
+**Four validation tiles** (shown above in green): By tracking those tiles as you work with the Merge screen you can keep validating the quality of your merge selections. Beyond the **All Attributes** and **Discarded Attributes** tiles that we discussed earlier, there are two more important tiles:
+  - **Merged Attributes** tile shows how many attributes were successfully merged from multiple (matched) entities. It should answer the expectations that you have around your specific data. 
+  - **Unmerged Attributes** tile shows how many attributes were not successfully merged by the system.
 
--**Left Attributes Menu**: This menu (shown above in blue) includes three expendable tabs.
+**Left Attributes Menu**: This menu (shown above in blue) includes three expendable tabs.
      
-   -**Merged Attributes**: Upon clicking it you can view the attributes that were merged at this point as exemplified below in red.
+  - **Merged Attributes**: Upon clicking it you can view the attributes that were merged at this point as exemplified below in red.
      
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-attributes.png "Merged attributes")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-merge-attributes.png "Merged attributes")
      
 Note that within the blue part above, you can also see what entity was used as the main source for that merged attribute. In the example above, the values of the merged attribute **IdentityServiceEmail** were taken in most cases from the **SurveyContact** entity (reflected by a value of 1 in the **order** column) and in less cases from the **Sales** entity (reflected by an **order** value of 2).
      
-**Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system (shown in red below). Again, you can also see from which entity the values of this entity come from (but since it's unmerged attribute it's values come from only one entity).
+  - **Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system (shown in red below). Again, you can also see from which entity the values of this entity come from (but since it's unmerged attribute it's values come from only one entity).
     
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-unmerged-attributes.png "Unmerged attributes")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-merge-unmerged-attributes.png "Unmerged attributes")
 
-**Discarded Attributes**: Same options exist for this tab as for the **Unmerged Attributes** tab.
+  - **Discarded Attributes**: Same options exist for this tab as for the **Unmerged Attributes** tab.
     
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-discarded-attributes.png "Discarded attributes")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-merge-discarded-attributes.png "Discarded attributes")
     
 At this point, if you suspect that some important attributes were not matched, you can manually add them through the **Add Merged Attribute** button. We will expand on adding merged attributes in the step four. 
     
@@ -157,4 +157,3 @@ Once the message below disappears, Merge has completed and resolved contradictio
 ## Next Step
 **Congratulations!** You have completed both the **Data Manager** and the **Configure Data** phases. Now you are ready to unlock unique insights on your customers via the **Segmentation**, **Connectors** sections as well as the **APIs** section if you are a technical user. Note that **Segmentation** will equip you with aggregate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
  
-

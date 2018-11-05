@@ -2,7 +2,7 @@
 title: "Segmentation| MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/31/2018
+ms.date: 11/05/2018
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -37,9 +37,11 @@ Each segment group produces a set of customers based on its filter criteria. Eac
 
 The example below illustrates how to build a segment that uses multiple groups to define filter criteria over different parts of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
 
+<!-- 
 {final1:Example of complex segment with multiple groups}
 
 {final2:Insert segment definition diagram created by Nimrod, highlighting Group 1 and Group 2}
+-->
 
 - Group 1 uses Order as starting entity to define filter criteria to find customers who placed order for more $500 in the last 90 days
 - Group 2 uses Case as starting entity to define filter criteria to find customer who have an escalated case in last 30 days
@@ -49,27 +51,29 @@ The two sub-sections below will cover segment creation followed by segment explo
 ## Creating segments from the segment page
 In order to start creating a segment, you can either click **Add Segment** at the top right corner of the screen (shown in red below), or click the **Get Started** button (shown in blue below).
 
-[replace with segments 1]:
+<!-- [replace with segments 1]: -->
+
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
 If you clicked **Add Segment** then you will also need to select whether you want to create a **Static Segment** or a **Dynamic Segment** at this point.
 
 - **Segment creation process**:
-The segment creation process is executed within the **Segment Editor Page**:
+  The segment creation process is executed within the **Segment Editor Page**:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/new-dynamic-segment.png "New dynamic segment")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/new-dynamic-segment.png "New dynamic segment")
 
 - **We start by defining the segment's properties**: 
-    -We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. 
-    -Then, if we wish to change the segment's type **from Static to Dynamic or vice versa** we can do that by clicking the slider as shown in red below: 
+   - We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. 
+   - Then, if we wish to change the segment's type **from Static to Dynamic or vice versa** we can do that by clicking the slider as shown in red below: 
      
-[Replace with final 3:]
-> [!div class="mx-imgBorder"] 
-> ![](media/new-dynamic-segment-hilites.png "Change segment type")
+<!-- [Replace with final 3:] -->
 
-   -Lastly, if we are defining a dynamic segment, we can choose to **activate it** at this point through the second slider as shown in blue above. **An active (dynamic) segment will automatically incorporate changes** that are made to your source data with time while **inactive segment will not incorporate changes to your data.** You sould activate your segment only when you wish to start incorporating changes to your data.
+  > [!div class="mx-imgBorder"] 
+  > ![](media/new-dynamic-segment-hilites.png "Change segment type")
+
+- Lastly, if we are defining a dynamic segment, we can choose to **activate it** at this point through the second slider as shown in blue above. **An active (dynamic) segment will automatically incorporate changes** that are made to your source data with time while **inactive segment will not incorporate changes to your data.** You sould activate your segment only when you wish to start incorporating changes to your data.
    
 - **In step two, we will start creating our first filter**. Use the "filter" field that is shown above (highlighted in blue) to select an entity. Once we selected an entity type, we need to choose the specific attributes by which we wish to filter our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a boolean. In the example below, an attribute with a numerical value is used as a filter:
      
@@ -91,15 +95,15 @@ Note that **one of the segmentation strengths of Customer 360 is the rich varity
 
    - ***AND:*** Under this option, both conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities (one condition per entity) as exemplified below: 
     
-   [final 5]
+   <!-- [final 5] -->
     
    - ***OR:*** Under this option, either one of the conditions need to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity as exemplified below: 
     
-   [final 6]
+   <!-- [final 6] -->
 
 Note: It is recommended to save your first group's definitions as shown below:
 
-[final 7]
+<!-- [final 7] -->
 
 - **In step four which is also optional, we will show how to combine multiple groups via Set Operators**
 As mentioned earlier, each group **produces a specific set of customers**. Start by selecting **Add Group**:
@@ -111,7 +115,7 @@ Then three set operators will show up: ***Union, Intersect and Exclude***. Click
 
 - **Intersect** will intersect the new group with the group you have created in steps 2-3. **Only data that is common** to both groups will be maintained.
 
-[final 9]
+<!-- [final 9] -->
 
 - **Unite** will unite the two groups - **data that is common** to both groups will be maintained as well as data **that is not common** to both groups**
 
@@ -120,11 +124,11 @@ Then three set operators will show up: ***Union, Intersect and Exclude***. Click
 
 - Lastly, **Exclude** will exclude the two groups - **only data that is not common** to both groups will be maintained.
 
-[final 10]
+<!-- [final 10] -->
 
 - Here is an example for how **Intersect** operator can help you define a sophisticated segmentation logic that involves multiple groups:
 
-[final 11] Optinal - under consideration
+<!-- [final 11] Optinal - under consideration -->
    
 ## Exploring segments from the Segments page
 Here you can view all your saved segments and perform certain actions.
@@ -132,7 +136,7 @@ Here you can view all your saved segments and perform certain actions.
 -**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
 -**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
-[final 12]
+<!-- [final 12] -->
 
 Let's explore those segment-level actions:
     - Editing this particular segment
@@ -163,7 +167,7 @@ Exporting a segment to .csv file is possible either through the *Segments page* 
 
 Once exported, you can expect to find all the information on that particular segment within the .csv file. An example is shown below:
 
-[final 13] - optional
+<!-- [final 13] - optional -->
 
 ## Next Step
 While segmentation provides you with aggragate-level insights, you can also explore the Customer 360 Dashboard to unlock varity of customer-level insights. If you wish to produce those, visit the **Connectors** section.
