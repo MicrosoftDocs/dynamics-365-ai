@@ -46,6 +46,11 @@ The example below illustrates how to build a segment that uses multiple groups t
 - Group 1 uses Order as starting entity to define filter criteria to find customers who placed order for more $500 in the last 90 days
 - Group 2 uses Case as starting entity to define filter criteria to find customer who have an escalated case in last 30 days
 
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-conceptual.png "System and custom relationships created during configuration")
+
+The example data graph above reflects system and custom relationships created during configuration. The data graph helps dictate the sequence by which segmentation filter criteria are defined within the Segment Editor page.
+
 The two sub-sections below will cover segment creation followed by segment exploration.
 
 ## Creating segments from the segment page
