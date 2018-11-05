@@ -2,7 +2,7 @@
 title: "APIs | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
-ms.date: 10/1/2018
+ms.date: 11/05/2018
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -111,6 +111,7 @@ See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://d
 
 See the **SegmentManagement** table in the [Customer 360 Swagger webpage](https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html).
 
+<!-- 
 ## Functionalities and limitations by API
 To complete:
 |Table5  |Column2  |
@@ -120,3 +121,4 @@ To complete:
 |Row3     |         |
 |Row4     |         |
 |Row5     |         |
+-->
