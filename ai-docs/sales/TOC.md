@@ -1,16 +1,6 @@
 # [Dynamics 365 AI for Sales](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new.md)
-## [Embedded intelligence](../sales/embedded-intelligence.md)
-### [Administrator guide](../sales/configure-enable-embedded-intelligence.md)
-### User guide
-#### [Guide customer communications with relationship assistant](../sales/relationship-assistant.md)
-#### [Stay updated with Action cards](../sales/action-cards-reference.md)
-#### [View message interactions with email engagement](../sales/email-engagement.md)
-#### [Display related emails with auto capture](../sales/auto-capture.md)
-### [Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
-###[Privacy notice](privacy-notice-ee.md)
 ## [Dynamics 365 AI for Sales capabilities for sellers](../sales/dynamics-365-ai-for-sales.md)
 ### Administrator guide 
 #### [Administer Dynamics 365 AI for Sales capabilities for sellers](../sales/configure-enable-dynamics-365-ai-sales.md)
