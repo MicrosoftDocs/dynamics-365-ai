@@ -26,7 +26,7 @@ A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optou
 
 > [!NOTE]
 > - For the [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms, or any entity form which has these Contact/Lead records as their linked or related entity.
-> - This topic is applicable only for the [Relationship Analytics](/dynamics365/customer-engagement/sales-enterprise/relationship-analytics) and [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) features.
+> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) features.
 
 ## Setting the GDPR Optout field using UI
 
