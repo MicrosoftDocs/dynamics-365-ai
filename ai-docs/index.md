@@ -94,7 +94,6 @@ ms.date: 10/31/2018
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Sales</h3>
                                                 <p><a href="/dynamics365/ai/sales/overview">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/sales/embedded-intelligence">Embedded intelligence</a></p>
                                                 <p><a href="/dynamics365/ai/sales/dynamics-365-ai-for-sales">Dynamics 365 AI for Sales capabilities for sellers</a></p>
                                                 <p><a href="/dynamics365/ai/sales/dynamics365-ai-sales-app">Dynamics 365 AI for Sales capabilities for sales managers</a></p>
                                             </div>

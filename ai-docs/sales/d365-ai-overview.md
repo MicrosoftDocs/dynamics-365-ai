@@ -142,7 +142,7 @@ Select the **View full report** icon ![Forecast quick view](media/d365-ai-sales-
 
 ## Highlights
 
-Your team is constantly at work interacting with customers, closing deals, opening opportunities, or even failing to close deals. Highlights helps you keep track of these items in real time so you can get involved when necessary. This information is displayed as cards. You will see the relationship assistant cards that are relevant to you and your team along with cards that are defined for new, won, and lost opportunities by your team. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)<br>
+Your team is constantly at work interacting with customers, closing deals, opening opportunities, or even failing to close deals. Highlights helps you keep track of these items in real time so you can get involved when necessary. This information is displayed as cards. You will see the relationship assistant cards that are relevant to you and your team along with cards that are defined for new, won, and lost opportunities by your team. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](/dynamics365/customer-engagement/sales-enterprise/action-cards-reference)<br>
  
 The following is an example of how a Highlights section is displayed:
 
