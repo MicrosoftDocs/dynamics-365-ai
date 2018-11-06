@@ -30,7 +30,7 @@ In order to utilize the Customer 360 dashboard make sure that you have created a
 
 ### Step One: Downloading MEZ File
 
-Along with the offer link, you received a file (MEZ type). Download this file to ~\Documents\Power Bi Desktop\Custom Connectors
+Along with the offer link, you received a file (MEZ type). Download this file to ~\Documents\Power BI Desktop\Custom Connectors
    
 <!-- [PBI1] -->
 
