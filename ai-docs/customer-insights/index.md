@@ -1,3 +1,3 @@
 ---
-redirect_url: /dynamics365/ai/customer-insights/introduction
+redirect_url: /dynamics365/ai/customer-insights/pm-data-manager
 ---

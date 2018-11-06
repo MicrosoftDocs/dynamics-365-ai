@@ -30,7 +30,7 @@ In order to utilize the Customer 360 dashboard make sure that you have created a
 
 ### Step One: Downloading MEZ File
 
-Along with the offer link, you received a file (MEZ type). Download this file to a location you are familiar with on your desktop.
+Along with the offer link, you received a file (MEZ type). Download this file to ~\Documents\Power Bi Desktop\Custom Connectors
    
 <!-- [PBI1] -->
 
@@ -48,7 +48,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
   > ![](media/connector-pbi-step-3.png "PBI Connector")
 
     
-3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field**: https://dxt-wus-01.ci.ai.dynamics.com/api/instances/fa252992-8d48-49b3-9d02-06a2ac2a441e/data 
+3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field**: https://<cluster_name>.api.ci.ai.dynamics.com/api/instances/<instance_id>/data
 
   <!-- [PBI4] -->
      
