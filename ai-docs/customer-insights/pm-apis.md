@@ -120,11 +120,11 @@ See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://t
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/entityInfo </td>
-<td><ol><li> Request body will have a list of entity names. These must all have been ingested into the given datasource.</li><br/><li> Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li><br/><li> The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li><br/><li> If EntityType  == Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li><br/><li> If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li> </ol></td>
+<td><ol><li> Request body will have a list of entity names. These must all have been ingested into the given datasource.</li><br/><li> Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li><br/><li> The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li><br/><li> If EntityType  = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li><br/><li> If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li> </ol></td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/{entityName}/entityInfo</td>
-<td><ol><li> Same as above, but for a single entity rather than a list</li><br/><li> Same as above</li><br/><li> Same as </li><br/><li> Same as above</li><br/><li> Same as above</li> </ol>  </td>
+<td><ol><li> Same as above, but for a single entity rather than a list</li><br/><li> Same as above</li><br/><li> Same as above</li><br/><li> Same as above</li><br/><li> Same as above</li> </ol>  </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/relationships </td>
