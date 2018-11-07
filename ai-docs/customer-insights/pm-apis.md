@@ -75,7 +75,7 @@ See the **Conflation** table in the [Customer 360 Swagger webpage](https://tip.a
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation   </td>
-<td><ol><li>  1. Request body will have a list of entity names, per datasource. These must actually exist as ingested entities for the datasource.</li></ol><br/><ol><li> 2. Each entity named in request body must already have a primary key defined.</li></ol>      </td>
+<td><li> <ol> 1. Request body will have a list of entity names, per datasource. These must actually exist as ingested entities for the datasource.</li><br/><li> 2. Each entity named in request body must already have a primary key defined.</li></ol>     </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation/{entityName}  </td>
@@ -87,11 +87,11 @@ See the **Conflation** table in the [Customer 360 Swagger webpage](https://tip.a
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflationPlan  </td>
-<td> <ol><li> 1. Any entity that appears in the plan must have been ingested in the referenced datasource. </li></ol> <br/><ol><li> 2. Any attribute that appears in the plan must actually exist as an attribute as the referenced entity.</li></ol><br/><ol><li> 3. Any entity that appears in the plan must have a primary key defined.</li></ol><br/><ol><li> 4. All entities in the ConflationOrder must have corresponding EntityConflationInformation</li></ol><br/><ol><li> 5. At least 1 rule and criteria must be defined</li></ol><br/><ol><li> 6. No copy criteria may be included in the plan</li></ol><br/><ol><li> 7. All entities in the plan must appear in the entity conflation order</li></ol><br/><ol><li> 8. Entities cannot appear in the plan out of the order defined in ConflationOrder</li></ol><br/><ol><li> 9. All matched attributes must have the same type </li></ol>      </td>
+<td> <li><ol> 1. Any entity that appears in the plan must have been ingested in the referenced datasource. </li> <br/><li> 2. Any attribute that appears in the plan must actually exist as an attribute as the referenced entity.</li><br/><li> 3. Any entity that appears in the plan must have a primary key defined.</li><br/><li> 4. All entities in the ConflationOrder must have corresponding EntityConflationInformation</li><br/><li> 5. At least 1 rule and criteria must be defined</li><br/><li> 6. No copy criteria may be included in the plan</li><br/><li> 7. All entities in the plan must appear in the entity conflation order</li><br/><li> 8. Entities cannot appear in the plan out of the order defined in ConflationOrder</li><br/><li> 9. All matched attributes must have the same type </li>  </ol>    </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflictResolutionRules  </td>
-<td><ol><li> 1. same as above</li></ol><br/><ol><li> 2. same as above</li></ol><br/><ol><li> 3. same as above</li></ol><br/><ol><li> 4. At least 1 resolution policy must be defined against at least 1 source attribute</li></ol><br/>5. All entities defined in the resolution policy must be part of the conflation plan </li></ol>   </td>
+<td><li> <ol>1. same as above</li><br/><li> 2. same as above</li><br/><li> 3. same as above</li><br/><li> 4. At least 1 resolution policy must be defined against at least 1 source attribute</li><br/>5. All entities defined in the resolution policy must be part of the conflation plan </li> </ol>  </td>
 </tr>
 </table>
 
@@ -120,15 +120,15 @@ See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://t
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/entities/entityInfo </td>
-<td><ol><li> 1. Request body will have a list of entity names. These must all have been ingested into the given datasource.</li></ol><br/><ol><li> 2. Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li></ol><br/><ol><li> 3. The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li></ol><br/><ol><li> 4. If EntityType  == Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li></ol><br/><ol><li> 5. If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li></ol></td>
+<td><li><ol> 1. Request body will have a list of entity names. These must all have been ingested into the given datasource.</li><br/><li> 2. Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li><br/><li> 3. The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li><br/><li> 4. If EntityType  == Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li><br/><li> 5. If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li> </ol></td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/entities/{entityName}/entityInfo</td>
-<td><ol><li>  1. Same as above, but for a single entity rather than a list</li></ol><br/><ol><li> 2. Same as above</li></ol><br/><ol><li> 3. Same as </li></ol><br/><ol><li> 4. Same as above</li></ol><br/><ol><li> 5. Same as above</li></ol>   </td>
+<td><li><ol>  1. Same as above, but for a single entity rather than a list</li><br/><li> 2. Same as above</li><br/><li> 3. Same as </li><br/><li> 4. Same as above</li><br/><li> 5. Same as above</li> </ol>  </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/relationships </td>
-<td><ol><li> 1. Relationship name can only include letters, numbers, and underscores</li></ol><br/><ol><li> 2. Relationship name must be unique</li></ol><br/><ol><li> 3. Cardinality can ONLY have two values: “OneToMany”, and “ManyToOne”</li></ol><br/><ol><li> 4. There are ONLY 4 possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination</li></ol><br/><ol><li> 5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance</li></ol><br/><ol><li> 6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity </li></ol>   </td>
+<td><li><ol> 1. Relationship name can only include letters, numbers, and underscores</li><br/><li> 2. Relationship name must be unique</li><br/><li> 3. Cardinality can ONLY have two values: “OneToMany”, and “ManyToOne”</li><br/><li> 4. There are ONLY 4 possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination</li><br/><li> 5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance</li><br/><li> 6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity </li> </ol>  </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/relationships/{relationshipName}</td>
