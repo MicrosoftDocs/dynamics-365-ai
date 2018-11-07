@@ -23,7 +23,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**When it comes to Customer 360**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer 360 Swagger webpage](https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html).
+**When it comes to Customer 360**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/api-swagger-install.png "Customer 360 Swagger webpage")
@@ -54,9 +54,9 @@ If you are not familiar with Swagger, see the following step-by-step tutorial: [
 
 ## Limitations involved with using the Customer 360 conflation APIs
 
-See the **Conflation** table in the [Customer 360 Swagger webpage](https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html).
+See the **Conflation** table in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
-###Limitations by field (across all Conflation APIs)
+### Limitations by field (across all Conflation APIs)
 
 |Field  |Limitation  |
 |---------|---------|
@@ -68,19 +68,36 @@ See the **Conflation** table in the [Customer 360 Swagger webpage](https://dxt-c
 
 ### Additional limitations by API
 
+<table style="width:100%">
+<tr>
+<th>API</th>
+<th>Limitations</th>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation   </td>
+<td><ol><li>  1. Request body will have a list of entity names, per datasource. These must actually exist as ingested entities for the datasource.</li></ol><br/><ol><li> 2. Each entity named in request body must already have a primary key defined.</li></ol>      </td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation/{entityName}  </td>
+<td>Same limitations as above EXCEPT the request body will have a single entity name, not a list   </td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/datasources/{datasourceId}/entityInformation/{entityName} </td>
+<td>Same limitations as above</td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflationPlan  </td>
+<td> <ol><li> 1. Any entity that appears in the plan must have been ingested in the referenced datasource. </li></ol> <br/><ol><li> 2. Any attribute that appears in the plan must actually exist as an attribute as the referenced entity.</li></ol><br/><ol><li> 3. Any entity that appears in the plan must have a primary key defined.</li></ol><br/><ol><li> 4. All entities in the ConflationOrder must have corresponding EntityConflationInformation</li></ol><br/><ol><li> 5. At least 1 rule and criteria must be defined</li></ol><br/><ol><li> 6. No copy criteria may be included in the plan</li></ol><br/><ol><li> 7. All entities in the plan must appear in the entity conflation order</li></ol><br/><ol><li> 8. Entities cannot appear in the plan out of the order defined in ConflationOrder</li></ol><br/><ol><li> 9. All matched attributes must have the same type </li></ol>      </td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflictResolutionRules  </td>
+<td><ol><li> 1. same as above</li></ol><br/><ol><li> 2. same as above</li></ol><br/><ol><li> 3. same as above</li></ol><br/><ol><li> 4. At least 1 resolution policy must be defined against at least 1 source attribute</li></ol><br/>5. All entities defined in the resolution policy must be part of the conflation plan </li></ol>   </td>
+</tr>
+</table>
 
-|API  |Limitations |
-|---------|---------|
-|PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation   | 1. Request body will have a list of entity names, per datasource. These must actually exist as ingested entities for the datasource.<br/>2. Each entity named in request body must already have a primary key defined.      |
-|PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation/{entityName}     | Same limitations as above EXCEPT the request body will have a single entity name, not a list        |
-|PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/datasources/{datasourceId}/entityInformation/{entityName}     | Same limitations as above     |
-|PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflationPlan     |1. Any entity that appears in the plan must have been ingested in the referenced datasource. <br/>2. Any attribute that appears in the plan must actually exist as an attribute as the referenced entity.<br/>3. Any entity that appears in the plan must have a primary key defined.<br/>4. All entities in the ConflationOrder must have corresponding EntityConflationInformation<br/>5. At least 1 rule and criteria must be defined<br/>6. No copy criteria may be included in the plan<br/>7. All entities in the plan must appear in the entity conflation order<br/>8. Entities cannot appear in the plan out of the order defined in ConflationOrder<br/>9. All matched attributes must have the same type   |
-|PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflictResolutionRules     |1. same as above<br/>2. same as above<br/>3. same as above<br/>4. At least 1 resolution policy must be defined against at least 1 source attribute<br/>5. All entities defined in the resolution policy must be part of the conflation plan     |
+## Limitations involved with using the Customer 360 Relationship APIs 
 
-
-## Limitations involved with using the Customer 360 *Relationship APIs 
-
-See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html).
+See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 ### Limitations Common to all APIs
 
@@ -96,20 +113,37 @@ See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://d
 
 ### Additional limitations by API
 
-|API  |Limitations  |
-|---------|---------|
-|PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/entities/entityInfo     | 1. Request body will have a list of entity names. These must all have been ingested into the given datasource.<br/>2. Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.<br/>3. The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”<br/>4. If EntityType  == Activity, then the entity with this EntityType must have a relationship to an entity with type Profile<br/>5. If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.  |
-|PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/entities/{entityName}/entityInfo     | 1. Same as above, but for a single entity rather than a list<br/>2. Same as above<br/>3. Same as above<br/>4. Same as above<br/>5. Same as above      |
-|PATCH<br/>/api/instances/{instanceId}/manage/relationships     |1. Relationship name can only include letters, numbers, and underscores<br/>2. Relationship name must be unique<br/>3. Cardinality can ONLY have two values: “OneToMany”, and “ManyToOne”<br/>4. There are ONLY 4 possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination<br/>5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance<br/>6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity    |
-|PATCH<br/>/api/instances/{instanceId}/manage/relationships/{relationshipName}     |Same limitation as above EXCEPT #2 is not a limitation here, since the name was already validated during creation (whereas this is an update)         |
+<table style="width:100%">
+<tr>
+<th>API</th>
+<th>Limitations</th>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/entities/entityInfo </td>
+<td><ol><li> 1. Request body will have a list of entity names. These must all have been ingested into the given datasource.</li></ol><br/><ol><li> 2. Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li></ol><br/><ol><li> 3. The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li></ol><br/><ol><li> 4. If EntityType  == Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li></ol><br/><ol><li> 5. If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li></ol></td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/entities/{entityName}/entityInfo</td>
+<td><ol><li>  1. Same as above, but for a single entity rather than a list</li></ol><br/><ol><li> 2. Same as above</li></ol><br/><ol><li> 3. Same as </li></ol><br/><ol><li> 4. Same as above</li></ol><br/><ol><li> 5. Same as above</li></ol>   </td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/manage/relationships </td>
+<td><ol><li> 1. Relationship name can only include letters, numbers, and underscores</li></ol><br/><ol><li> 2. Relationship name must be unique</li></ol><br/><ol><li> 3. Cardinality can ONLY have two values: “OneToMany”, and “ManyToOne”</li></ol><br/><ol><li> 4. There are ONLY 4 possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination</li></ol><br/><ol><li> 5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance</li></ol><br/><ol><li> 6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity </li></ol>   </td>
+</tr>
+<tr>
+<td>PATCH<br/>/api/instances/{instanceId}/manage/relationships/{relationshipName}</td>
+<td>Same limitation as above EXCEPT #2 is not a limitation here, since the name was already validated during creation (whereas this is an update)  </td>
+</tr>
+</table>
+
 
 ## Functionalities served with the Customer 360 *Segmentation APIs
 
-- 1.Use APIs for managing segments: Create, update, get and delete segment definitions. Also activate and deactivate segments. 
-- 2.Use APIs for querying: Get specific parts of a segment
-- 3.Use APIs for searching and querying specific segment member data
+1. Use APIs for managing segments: Create, update, get and delete segment definitions. Also activate and deactivate segments. 
+2. Use APIs for querying: Get specific parts of a segment
+3. Use APIs for searching and querying specific segment member data
 
-See the **SegmentManagement** table in the [Customer 360 Swagger webpage](https://dxt-cuseaup-01.api.ci.ai.dynamics.com/swagger/index.html).
+See the **SegmentManagement** table in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 <!-- 
 ## Functionalities and limitations by API
