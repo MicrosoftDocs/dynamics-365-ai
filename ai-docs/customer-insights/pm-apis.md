@@ -91,7 +91,7 @@ See the **Conflation** table in the [Customer 360 Swagger webpage](https://tip.a
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflictResolutionRules  </td>
-<td><ol><li> same as above</li><br/><li> same as above</li><br/><li> same as above</li><br/><li> At least 1 resolution policy must be defined against at least 1 source attribute</li><br/>All entities defined in the resolution policy must be part of the conflation plan </li> </ol>  </td>
+<td><ol><li> Same as above</li><br/><li> Same as above</li><br/><li> Same as above</li><br/><li> At least 1 resolution policy must be defined against at least 1 source attribute</li><br/>All entities defined in the resolution policy must be part of the conflation plan </li> </ol>  </td>
 </tr>
 </table>
 
