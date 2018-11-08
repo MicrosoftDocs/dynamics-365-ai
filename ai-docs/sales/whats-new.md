@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. Visit this page to see what has been added or updated recently.
 
-## [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] Fall 2018 (Dynamics 365 (online), version 9.1.0)
+## [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] Fall 2018 (Dynamics 365 (online), version 9.1.0.35 and above)
 
 In this release, we have improved engagement and decision-making with prebuilt and embedded insights that are quick to deploy and easy to act on. Find the best prospects and customers for sales reps to focus on as well as the most relevant and impactful actions to move relationships forward. Empower your managers to improve sales performance and deliver proactive coaching.
 

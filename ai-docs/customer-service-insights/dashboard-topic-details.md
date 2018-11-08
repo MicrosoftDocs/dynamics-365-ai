@@ -15,16 +15,16 @@ manager: shellyha
 # Topic details dashboard
 
 > [!div class="mx-imgBorder"]
-> ![Topic details dashboard](media/ai-csi-topic-details-dash.png)
+> ![Topic details dashboard](media/ai-csi-topic-details-dash.PNG)
 
 The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
 You can display the Topic details dashboard from one of the AI Insights charts in the [KPI summary](dashboard-kpi-summary.md), [Incoming cases](dashboard-incoming-cases.md), [Customer satisfaction](dashboard-CSAT.md), and [Case resolution](dashboard-case-resolutions.md) dashboards. To display the Topic details dashboard, right-click a topic name, hover over **Drillthrough**, and then select **Topic Drill Through**.
 
 > [!div class="mx-imgBorder"]
-> ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.png)
+> ![Topic Details Drillthrough](media/ai-csi-topic-details-drillthrough.PNG)
 
-The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click on the link for the chart in the following list, or scroll down to the chart's section below.
+The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Topic details KPI charts](#topic-details-kpi-charts)
 * [Overall impact charts](#overall-impact-charts)
@@ -39,18 +39,18 @@ The *Top CSAT impactors* and *Top resolve time impactors* charts use natural lan
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with dashboards and sample data](use-dashboard-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
-## Topic Details KPI charts
+## Topic details KPI charts
 
 > [!div class="mx-imgBorder"]
-> ![Topic Details KPI charts](media/ai-csi-topic-details-kpi-charts.png)
+> ![Topic Details KPI charts](media/ai-csi-topic-details-kpi-charts.PNG)
 
 The topic details KPI charts display a variety of key performance indicators for the support cases during the specified time period that are associated with the topic.
 
 Description | Details
 ----------- | -------
-Total cases | *New cases created within the specified time period plus rollover cases (including all rollover cases that are active, resolved or cancelled within the specified time period)*
+Total cases | *New cases created within the specified time period plus rollover cases (including all rollover cases that are active, resolved or canceled within the specified time period)*
 Resolutions | *All cases resolved within specified time period*
 Escalations | *All cases escalated within specified time period*
 SLA compliant | *Of the total cases, the cases that are SLA compliant (including rollover cases and new cases that are SLA compliant)*
@@ -60,9 +60,9 @@ Average CSAT | *The sum of CSAT scores divided by the count of resolved cases th
 ## Overall impact charts
 
 > [!div class="mx-imgBorder"]
-> ![Overall impact charts](media/ai-csi-overall-impact.png)
+> ![Overall impact charts](media/ai-csi-overall-impact.PNG)
 
-The topic details overall impact charts summarize the impact on customer satisfaction and resolution time during the specified time period of support cases that are associated with the topic.
+The overall impact charts summarize the impact on customer satisfaction and resolution time during the specified time period of support cases that are associated with the topic.
 
 Description | Details
 ----------- | -------
@@ -72,7 +72,7 @@ Overall average resolve time impact | 1 – (*Average resolution time not includ
 ## Agents with most unresolved cases chart
 
 > [!div class="mx-imgBorder"]
-> ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.png)
+> ![Agents with most unresolved cases chart](media/ai-csi-agents-unresolved.PNG)
 
 The agents with most unresolved cases chart shows the number of unresolved support cases for each agent for the topic in the specified time period.
 
@@ -83,7 +83,7 @@ Agents with most unresolved cases | *Number of unresolved cases in descending or
 ## Agents with longest average resolve time chart
 
 > [!div class="mx-imgBorder"]
-> ![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.png)
+> ![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.PNG)
 
 The agents with longest average resolve time chart shows the average resolution time for each agent for the topic's support cases in the specified time period.
 
@@ -94,7 +94,7 @@ Agents with longest average resolve times | *Average resolution time in descendi
 ## Agents with lowest average CSAT chart
 
 > [!div class="mx-imgBorder"]
-> ![Agents with lowest average CSAT chart](media/ai-csi-lowest-CSAT.png)
+> ![Agents with lowest average CSAT chart](media/ai-csi-lowest-CSAT.PNG)
 
 The agents with lowest average CSAT chart shows the average customer satisfaction score for each agent for the topic's support cases in the specified time period.
 
@@ -105,7 +105,7 @@ Agents with lowest average CSAT | *Average CSAT score in descending order by age
 ## Topic case composition chart
 
 > [!div class="mx-imgBorder"]
-> ![Topic case composition chart](media/ai-csi-topic-journey.png)
+> ![Topic case composition chart](media/ai-csi-topic-journey.PNG)
 
 The topic case composition chart shows the path of the topic's support cases during the specified time period from the support channel where they were opened, and whether they were escalated, to their status at the end of the specified time period.
 
@@ -116,7 +116,7 @@ Topic case composition | *Sankey diagram showing the flow of support cases by su
 ## Top CSAT impactors chart
 
 > [!div class="mx-imgBorder"]
-> ![Top CSAT impactors chart](media/ai-csi-top-CSAT-impactors.png)
+> ![Top CSAT impactors chart](media/ai-csi-top-csat-impactors.PNG)
 
 The top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product.
 
@@ -133,7 +133,7 @@ The chart displays the impact as a red or blue bar. The midpoint is the overall 
 ## Top resolve time impactors chart
 
 > [!div class="mx-imgBorder"]
-> ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.png)
+> ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.PNG)
 
 The top resolve time impactors chart uses artificial intelligence technology to show the top resolution time impactors for the topic during the specified time period by support channel and product.
 
