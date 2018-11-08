@@ -2,7 +2,7 @@
 title: "Start analyzing data in Market Insights | Microsoft Docs"
 description: "Learn how to get an overview about your data in Market Insights."
 keywords: "analytics, overview"
-ms.date: 10/31/2018
+ms.date: 11/08/2018
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8ff2ddfa-2ccc-43f3-b178-e6760dceefb9

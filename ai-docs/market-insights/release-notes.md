@@ -1,0 +1,28 @@
+---
+title: "Dynamics 365 AI for Market Insights Release Notes | Microsoft Docs"
+description: "What's new in Ai for Market Insights"
+keywords: "what's new, release notes, changelog"
+ms.date: 11/08/2018
+ms.service: dynamics-365-ai
+ms.topic: article
+ms.assetid: 587e7d5f-eac7-426c-93a2-8d29413d8dda
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
+ms.custom: dyn365-ai-marketinsights
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
+---
+
+# What's new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] (December 12)
+
+This topic describes features that are either new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
+
+## Extend availability of age, gender, and search trend data
+
+The Bing Search trend data in the **Volume** widget is now available for organization based in the United Kingdom, France, Germany, Canada (including data for English & French), Australia, Italy, and Spain. The **Age** and **Gender** widget on **Analytics** > **Overview** are now available in these countries/regions to. 
