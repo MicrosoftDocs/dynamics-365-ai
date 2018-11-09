@@ -105,7 +105,7 @@ You can view complete relationship analytics for an individual record, including
 
 **Time spent.** Shows the relative amount of time spent on activities related to the record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  <br>
 
-**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](email-engagement.md)  <br>
+**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](/dynamics365/customer-engagement/sales-enterprise/email-engagement)  <br>
 
 **Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users. <br>
 
@@ -180,7 +180,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 |Overall (all activities)|Total time spent|Total time spent|  
 
 > [!NOTE]
-> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](email-engagement.md)  
+> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](/dynamics365/customer-engagement/sales-enterprise/email-engagement)  
 
  For KPIs that report <!--time spent by you,--> your team and your customer, the system finds durations by applying the rules outlined in the following table:  
 
@@ -225,7 +225,7 @@ For specific privacy information about Dynamics 365 AI for Sales capabilities fo
 ### See also  
 
 - [Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
-- [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)">
+- [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)
 - [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
-- [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md
+- [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
 - [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
