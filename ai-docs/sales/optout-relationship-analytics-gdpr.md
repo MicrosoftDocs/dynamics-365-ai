@@ -19,14 +19,14 @@ topic-status: Drafting
 
 Applies to Dynamics 365 (online), version 9.1.0
 
-A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](configure-enable-embedded-intelligence.md) the Embedded Intelligence feature in your Dynamics 365 instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
+A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](configure-enable-dynamics-365-ai-sales.md) the Dyanmics 365 AI for Sales features in your Dynamics 365 instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
 
 - Setting the **GDPR Optout** field to "yes/true" will prohibit any relationship analytics to be performed on the entity record's data.
 - Setting the **GDPR Optout** field to "no/false" will allow relationship analytics to be performed on the entity record's data.
 
 > [!NOTE]
 > - For the [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms, or any entity form which has these Contact/Lead records as their linked or related entity.
-> - This topic is applicable only for the [Relationship Analytics](/dynamics365/customer-engagement/sales-enterprise/relationship-analytics) and [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) features.
+> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) features.
 
 ## Setting the GDPR Optout field using UI
 
