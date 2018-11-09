@@ -14,20 +14,14 @@ manager: shellyha
 
 # AI for Customer Service Virtual Agent overview
 
-Dynamics 365 AI for Customer Service Virtual Agent is a new cloud service launching in public preview in April 2019. Built on the lessons learned by supporting multiple worldwide deployments of customer service bots, AI for Customer Service Virtual Agent puts the power of deploying solutions to problems through a virtual agent in the hands of the subject matter experts - your customer service team.  
+Dynamics 365 AI for Customer Service Virtual Agent enables any customer service manager to create a powerful custom virtual agent using an easy, code-free graphical interface and templates, without the need for artificial intelligence experts or teams of developers. The Customer Service Virtual Agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
 
-AI for Customer Service Virtual Agent will be available in public preview in April 2019 and will be generally available in the second half of 2019.
+Key features include:
 
-The key features coming in the public preview include:
+* **An easy-to-use graphical interface** – Using a simple, no-code graphical interface, customer service managers and subject matter experts can easily build, manage, and maintain their own virtual agents. Creating and working with virtual agents does not require  artificial intelligence expertise, coding skills, or extensive engineering effort. As resolutions change or new support topics arise, a customer service manager or subject matter expert can update the virtual agent in minutes, without writing any code.
 
-Quickly discover support topics to automate – Using the integrated AI for Customer Service Insights dashboards, quickly see where your human agents are spending the most time, and which issues are most costly or trending. Get suggestions from artificial intelligence on which issues to automate to have the most impact on the system.
+AI-driven dialogs – Customer service managers can author solutions to support topics in the form of interactive multi-turn conversations. For complex topics that can have multiple solutions, customer service managers need only specify the range of solutions and the conditions in which a given solution applies. The Customer Service Virtual Agent's AI technology dynamically generates the appropriate multi-turn conversation to find and provide a solution for the customer.
 
-Automate support topics with a virtual agent – Easily create a virtual agent to help automatically answer and resolve common issues using a simple, no-code graphical interface. You can create conversations from scratch, or use rich, industry-specific templates to get your virtual agent ready in minutes.
+Continually identifying new topics – The Virtual Agent not only helps customers with solutions, it continuously identifies new topics raised by customers that need solutions. This insight allows customer service managers to quickly roll out solutions to new topics, creating a virtuous cycle improving customer experience.
 
-AI-driven dialogs – Virtual Agents can have multi-turn conversations without using a rigid step-by-step script authored by a customer service manager. Given a set of valid solutions and conditions, the AI for Customer Service Virtual Agent automatically uses the next best question to ask – guiding the user to the appropriate solution.
-
-Actions – Not only can the Virtual Agent chat with users to troubleshoot their problems, it can also take actions on their behalf. Using Microsoft Flow, a customer service manager can enable an action or access data in your backend systems, leveraging hundreds of connectors to common services shipping as part of the Power Platform.
-
-Work together with your human agents. When the Virtual Agent can’t handle a problem, or a user asks for a human agent, the Virtual Agent pulls in a human agent to help. Either use the integration with Dynamics 365 for Customer Service or integrate with your specific case management and agent messaging system.
-
-AI-powered analytics for continuous improvement – You can always see how well the Virtual Agent is doing, which topics are handled, and which topics require human intervention. AI for Customer Service Virtual Agent continually provides analytics and recommends actions to improve the customer service experience, helping you free up time from your human agents to focus on more complex cases.
+Leveraging human knowledge to scale dialogs – Customer Service Virtual Agent makes it possible for professional developers to process chat transcripts generated during conversations between human agents and customers. You can extract information for high-volume support topics as well as successful solutions provided by human agents. You can tune the AI model to specifically suit your business, increasing the accuracy and coverage of topics served by the Customer Service Virtual Agent.
