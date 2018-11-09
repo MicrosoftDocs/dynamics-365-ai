@@ -19,10 +19,16 @@ search.app:
   - D365SE
 ---
 
-# What's new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] (December 12)
+# What's new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
 This topic describes features that are either new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-## Extend availability of age, gender, and search trend data
+## Public Preview update 1 (November 24, 2018)
+
+### Extended availability of age, gender, and search trend data
 
 The Bing Search trend data in the **Volume** widget is now available for organization based in the United Kingdom, France, Germany, Canada (including data for English & French), Australia, Italy, and Spain. The **Age** and **Gender** widget on **Analytics** > **Overview** are now available in these countries/regions to. 
+
+### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
+
+Text to be added
