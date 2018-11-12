@@ -37,10 +37,13 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 ### Step Two: Publishing the Customer 360 Dashboard
  
  1. Bring Customer 360 data to Power BI. Open Power BI for Desktop and select **Get Data** at the top menu.
+ 
+ //same image as the next one but only with Get Data highlighted:
     
     <!-- [PBI2] -->
     
- 2. Type Customer 360 in the search field, and then select **Customer 360** on the right-side menu. Select **Connect** at the left bottom corner.
+ 2. Type Customer 360 in the search field, and then select **Customer 360** on the right-side menu. Lastly, Select **Connect** at the left bottom corner.
+ 
     
     <!-- [PBI3] -->
 
@@ -48,11 +51,15 @@ Along with the offer link, you received a file (MEZ type). Download this file to
   > ![](media/connector-pbi-step-3.png "PBI Connector")
 
     
-3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field**: https://<cluster_name>.api.ci.ai.dynamics.com/api/instances/<instance_id>/data
+3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field** that is shown below: https://<cluster_name>.api.ci.ai.dynamics.com/api/instances/<instance_id>/data
+
+// Add screen with URL field
 
   <!-- [PBI4] -->
      
 4. Select **Sign in**.
+
+//Add screen with signing up window:
  
   <!-- [PBI5] -->
      
@@ -62,9 +69,9 @@ Along with the offer link, you received a file (MEZ type). Download this file to
      
 ### Step Three: Creating a Customized Dashboard
 
-After completing Step two, you'll see the following:
+After completing Step two, you'll get to the following screen:
 
-<!-- [PBI7] -->
+//add entities screen
 
 1. Choose all the entities around which you want to build your Power BI report. In the example below, the user has chosen two entities:  Customer and Account datasets. Note that the Customer entity is the entity that was created during the data configuration process and that encapsulates the unified customer data that Customer 360 unlocks.
    
@@ -74,6 +81,8 @@ After completing Step two, you'll see the following:
 
    - A specific customer: Filter by **Customer Name** or **Customer ID**
    - A customer segment: Filter by one or more of the other customer attributes such as gender, location, role, etc.
+
+//add left menu with filters
 
 <!--   [PBI9] -->
 
