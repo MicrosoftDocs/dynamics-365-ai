@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Permissions** page is where you, as an administrator, can set up roles and permissions for using Customer 360 across the organization. Customer 360 includes three types of roles, and those are the options that avialable to each of them:
+The **Permissions** page is where you, as a user, can set up roles and permissions for using Customer 360 across the organization. Customer 360 includes three types of roles, and those are the options that avialable to each of them:
 
 |Role  |Options available under this role  |
 |---------|---------|
