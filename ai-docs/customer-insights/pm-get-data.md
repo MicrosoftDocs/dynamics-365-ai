@@ -22,12 +22,12 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**Get data** in Customer 360 helps you bring data into your Customer 360 instance. This is a pre-requisite to start configuring Customer 360. You can bringing data to Customer 360 by using the **20+ out-of-box connectors that we make available for sources like Dynamics 365, SQL Azure, Blob store etc.** Even if you don’t find a suitable out-of-box connector for your source, you can always export the data from your source as a CSV file and import to Customer 360 using our **CSV Connector.** To import data to Customer 360 you need to create a data source. Its recommended to have multiple data sources based on the source of the data as it allows for having different refresh schedules, credentials for refresh etc. 
+**You can bring in data to Customer 360 by using the 20+ out-of-the-box connectors** that we make available for sources, such as Dynamics 365, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, **you can always export the data from your source as a CSV file and import to Customer 360 using our CSV connector.** To import data to Customer 360, you need to create a data source. It’s recommended to have multiple data sources based on your sources of the data as it allows you to have different refresh schedules and credentials for refresh.
 
 ### Step 1 (mandatory): Creating a new data source
 To load data to Customer 360 follow the following process:
 
-1. Navigate to *Get Data* from the Data Manager page:**
+1. Navigate to **Get Data** from the **Data Manager page:**
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-tile.png "Get data tile")
@@ -37,15 +37,15 @@ To load data to Customer 360 follow the following process:
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-add.png "Get data add")
 
-3. **Provide a name and description** for the data source and hit **Create**. This will create the data source for you. 
+3. **Provide a name and description** for the data source and select **Create**. This will create the data source for you. 
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-create.png "Get data create")
 
 ### Step 2 (mandatory): Adding Entities
-Within the next step you will add **Enntities** to your data source. In Customer 360 **Entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is considered to be an **Entity** (for example an **Orders** dataset, a **Sales** dataset, etc). 
+Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is an **entity** (such as an **Orders** dataset, a **Sales** dataset, etc). 
 
-1. In order to start ingesting entities, pick one of the many available data sources and provide the connection string and connection credentials as shoen below. Lastly, hit **Next**.
+1. In order to start ingesting entities, pick one of the many available data sources and provide the connection string and credentials as shown below. Lastly, click **Next**.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-select-source.png "Get data select source")
@@ -53,22 +53,22 @@ Within the next step you will add **Enntities** to your data source. In Customer
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
-2. From the list of available entities, select the entity that you want to load. **In this step you can also perform transformation on the data.** For example, if you are ingesting data from CSV file and the first row has headers then you can use the **Transform Table** tab to select that transformation as shown below:
+2. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** For example, if you are ingesting data from a .CSV file and the first row has headers then you can select **Transform Table** to do the following:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
-One other highly recommended transform is **Map to standard**. Customer 360 allows you to map data to Microsoft Common Data Model (CDM) during your ingestion process. In order to do this, click in the transform “Map to standard” and then **map fields from your source data to CDM fields** as show below: 
+In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)** during your ingestion process. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
-3. Now click **Save** and this gives you the option to “Save” the data source:
+3. Select **Save** to save the data source:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
-4. After you “Save” the data source, hit **Refresh** to load data to Customer 360:
+4. After saving, select **Refresh** to load the data to Customer 360:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
@@ -78,7 +78,7 @@ Note: In the future this step will happen automatically.
 **At this point, repeat the same steps for each data source into which you want to ingest data using Customer 360.**
 
 ### Step 3 (optional): Reviewing the Ingested Data
-Customer 360 will take a couple of minutes to load the data. After a successful refresh, the ingested data can be reviewed from the **Entities page** as shown below (can be accessed through the **Entities tab**). For more information on the **Entity Page** visit the **Entities section**
+Customer 360 will take a couple of minutes to load the data. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity Page** visit the **Entities section**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
