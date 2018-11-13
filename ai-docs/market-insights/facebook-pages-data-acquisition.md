@@ -21,7 +21,7 @@ search.app:
 
 # Acquire data from Facebook pages
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 On Feb 6, 2018, [Facebook changes its API](https://developers.facebook.com/ads/blog/post/2017/11/07/marketing-api-v211/) and by default, author information is no longer shared. You can still get author information for posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages you own. This article describes how you can continue to receive author information for your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.  
 

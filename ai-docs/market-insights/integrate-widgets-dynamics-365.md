@@ -21,7 +21,7 @@ search.app:
 
 # Integrate [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] with Dynamics 365
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The [easy-to-understand widgets](social-insights-widgets.md) provide insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
