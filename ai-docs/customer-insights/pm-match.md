@@ -80,7 +80,7 @@ Continue by selecting the second entity of your match pair by selecting the righ
 > [!NOTE]
 > Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider to have the second most reliable data? Moreover, does it includes at least one field that is shared by the master entity and possibly more fields that are shared by other entities that you have ingested?
 
-Lastly, select **Save** and you will see that the **Description** now includes your first match pair. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair which we will do in Step Two.
+Lastly, select **Save** and you will see that the **Description** section includes the match pair you have just created. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair which we will do in Step Two.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-pair.png "Match pair")
@@ -149,7 +149,17 @@ Upon the completion of the matching the **Match Running** message will disappear
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-refresh.png "Select refresh")
 
-- Now you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
+As mentioned in step one, the first match results in the creation of a unfied master entity while all subsequent matches result in the expansion of that entity. Hence, beyond the blue line on the summary section, another signal for the completion of the matching process is the appearenece of the unified entity in the **Entities** page. Upon clicking the entities tab you should see that new entity:
+
+//match addition 1
+
+Clicking the master entity will show you a preview of it's records as shown below. Note that:
+- The **Scores** column reflects how certain it is that each of the records were accurately matched (confidence scores)
+- The rest of the columns present the data that was taken from the two original entities. Columns to the left of the *Scores* column present data taken from the first entity while columns present data taken from the second entity
+
+// match addition 2
+
+- At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
 ## Step Four (optional): Reviewing and validating the first match pair
 Here you will learn how to evaluate in depth your first match's quality and improve it. There are a few things you can do.
@@ -174,7 +184,6 @@ This page presents all your match pair records. It also includes the **Scores** 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-preview-rule.png "Preview rule data")
-
 
 **Lastly**, you can experiment with different thresholds around your criteria in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
