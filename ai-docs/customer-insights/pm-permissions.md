@@ -36,17 +36,17 @@ On the **Permissions** page, select **Add** to add permissions and roles to user
 > [!div class="mx-imgBorder"] 
 > ![](media/add-permissions.png "Add permissions")
  
-- First, find the person to whom you want to give permission. **Type a name in the *Select* field**:
+- First, find the person to whom you want to give a permission. **Type this person's name in the *Select* field**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Enter a name")
 
 - Then, **choose a role** for that person as shown above.
 
-- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the role that you have specified.
+- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the role that you have specified (as expl
  
 ### Viewing current permissions
-After selecting **Save**, you can view all the permissions that were given in this page:
+After selecting **Save**, you can utilize the following screen to explore all the permissions that were given to date:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions.png "Permissions")
@@ -56,7 +56,7 @@ Let's explore this screen:
 - The **Type** column specifies whether it's a single member, a group, or an application. At this point, Customer 360 supports only individual users but in the future it will also support groups and applications that will connect to Customer 360 via our APIs.
 - The Roles are specified under the **Roles** column
 - You can also look for a specific person by typing a name in the search field.
-- Lastly, you can sort the results by each of the columns by selecting the arrow next to the column name.  
+- Lastly, you can sort the results by each of the columns   
 
 ### Filtering Permissions by a Role
 At the top of the **Permissions** page, select **Filter**  to open the **Filter** panel. Then, choose whether to filter the permissions by the ***Administrator***, ***Contributor***, or ***Reader*** roles.
