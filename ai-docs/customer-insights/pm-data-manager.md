@@ -32,11 +32,10 @@ Data Manager is the first page you will see upon entering the Customer 360 app. 
 
 In these sections, we explain how to bring data from many of your sources: 
 
-- CRM systems
-- transactional and survey data
-- clickstream
-- social
-- other data you might have 
+- Transactional sources
+- Observational sources
+- Behavioral sources
+- Any other data you might have 
 
 Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
