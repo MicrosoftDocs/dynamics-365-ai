@@ -21,7 +21,7 @@ search.app:
 
 # Engage on social networks
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers features that you can use to interact with other users on the social web and to engage with customers, fans, or critics.
 

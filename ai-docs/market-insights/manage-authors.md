@@ -21,7 +21,7 @@ search.app:
 
 # Manage an author's data
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Most posts in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] are linked to an author on a social network. With sufficient permissions, you can remove an author from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and block all future posts by that author. Whenever [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] acquires new posts, it checks if the author was deleted earlier and discards posts from deleted authors. It's critical to understand the implications of removing an author, because it can't be undone and can have a significant impact on data acquisition for your solution.
 

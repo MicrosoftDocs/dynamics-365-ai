@@ -20,7 +20,7 @@ search.app:
 ---
 # Connect [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to other domains
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Enable communication between [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] and other compatible applications (such as [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) by adding domains that are allowed to make requests for your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] data to a list. You can remove domains from the list to disallow communications.
 

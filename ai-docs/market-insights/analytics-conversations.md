@@ -21,7 +21,7 @@ search.app:
 
 # Gain insights from public conversations
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Get detailed content analytics and understand data about most-used phrases, their volume, sources of these conversations, and sentiment.  
   

@@ -21,7 +21,7 @@ search.app:
 
 # Link posts from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to Dynamics 365
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] provides a platform for capturing public posts from social media. You link posts in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and turn them into new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 

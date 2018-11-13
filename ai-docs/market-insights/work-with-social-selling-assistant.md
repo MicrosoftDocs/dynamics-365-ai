@@ -21,7 +21,7 @@ search.app:
 
 # Work with the Social Selling Assistant
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 After personalizing the Social Selling Assistant for your individual use-case, you can start using it to discover and share posts that are of interest for your audience
 

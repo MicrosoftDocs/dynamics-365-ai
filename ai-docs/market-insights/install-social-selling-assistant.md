@@ -15,7 +15,7 @@ topic-status: Drafting
 
 # Install Microsoft Dynamics 365 - Social Selling Assistant
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Enabling the Social Selling Assistant for users of [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] is a two-step process. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and connect it with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  
   

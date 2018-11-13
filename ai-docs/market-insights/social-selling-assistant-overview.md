@@ -21,7 +21,7 @@ search.app:
 
 # Empower your salespeople with the Social Selling Assistant
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 ## Meet Microsoft Dynamics 365 for Sales - Social Selling Assistant
 

@@ -21,7 +21,7 @@ search.app:
 
 # Set up searches to listen to social media conversations
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Listen to conversations on social media around your brand, business, products, and competitors. The first step to successfully engaging with your customers and others on social media is setting up your search topics to be sure you’re capturing the right conversations. After you’ve captured these conversations, you can fine-tune your searches, analyze your data, and drill into the information that matters most.  
   
