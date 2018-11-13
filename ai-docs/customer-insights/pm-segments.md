@@ -121,24 +121,18 @@ As mentioned earlier, each group **produces a specific set of customers**. Start
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-add-group.png "Customer group add group")
 
-Then three set operators will show up: ***Union, Intersect and Exclude***. Clicking each of these will enable you to define a new group. However, upon clicking **Save**, each of these Set Operators will lead to a different result:
-
-- **Intersect** will intersect the new group with the group you have created in steps 2-3. **Only data that is common** to both groups will be maintained.
-
-<!-- [final 9] -->
-
-- **Unite** will unite the two groups - **data that is common** to both groups will be maintained as well as data **that is not common** to both groups**
+Then three set operators will show up: ***Union, Intersect and Exclude*** as shown below:
 
 > [!div class="mx-imgBorder"] 
   > ![](media/customer-group-union.png "Customer group add union")
+  
+Clicking each of these will enable you to define a new group. However, upon clicking **Save**, each of these Set Operators will lead to a different result:
 
-- Lastly, **Exclude** will exclude the two groups - **only data that is not common** to both groups will be maintained.
+- **Union** will unite the new group with the group you have created in steps 2-3. Note that **data that is common** to both groups will be maintained, as well as data **that is not common** to both groups.
 
-<!-- [final 10] -->
+- **Intersect** will intersect the two groups. **Only data that is common** to both groups will be maintained in the unified group.
 
-- Here is an example for how **Intersect** operator can help you define a sophisticated segmentation logic that involves multiple groups:
-
-<!-- [final 11] Optinal - under consideration -->
+- Lastly, **Exclude** will exclude the two groups. **Only data that is not common** to both groups will be maintained.
    
 ## Exploring segments from the Segments page
 Here you can view all your saved segments and perform certain actions.
@@ -146,7 +140,7 @@ Here you can view all your saved segments and perform certain actions.
 -**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
 -**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
-<!-- [final 12] -->
+//complete missing image
 
 Let's explore those segment-level actions:
     - Editing this particular segment
@@ -155,8 +149,8 @@ Let's explore those segment-level actions:
     - Turning the segment to inactive/active (depends on it's current state)
     - Deleting the segment
     
-## Exploring a segment: View processing history and segment members from the Segments page
-Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend time scope (30 last days, 60 last days, etc.) with the button at the upper-right corner of the tile:
+## Exploring a segment: Viewing processing history and segment members
+Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend's time scope (30 last days, 60 last days, etc.) through the following button at the upper-right corner of the tile:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
@@ -170,14 +164,14 @@ The lower part includes a table with all your segment members.
 ## Acting upon the data
 
 **Exporting a segment:
-Exporting a segment to .csv file is possible either through the *Segments page* by selecting the **three dots** icon within a specific segment's tile and then the **Export** button as described earlier, or by entering a specific segment's page (by clicking the segment tile in the segments screen) and selecting **Export** at the top-right corner of the page as shown below:
+Exporting a segment to .csv file is possible:
+- 1.Within the *Segments page* by clicking the **three dots** button within a specific segment's tile, and then selecting the **Export** button as described earlier
+- 2.Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-menu-export-top.png "Export segment")
 
-Once exported, you can expect to find all the information on that particular segment within the .csv file. An example is shown below:
-
-<!-- [final 13] - optional -->
+In both cases, clicking **Export** will create a file in a csv. format where you can expect to find all your segment's data. 
 
 ## Next Step
 While segmentation provides you with aggragate-level insights, you can also explore the Customer 360 Dashboard to unlock varity of customer-level insights. If you wish to produce those, visit the **Connectors** section.
