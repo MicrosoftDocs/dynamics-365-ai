@@ -101,15 +101,18 @@ Note that **one of the segmentation strengths of Customer 360 is the rich varity
 
    - ***AND:*** Under this option, both conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities (one condition per entity) as exemplified below: 
     
-   //add 11/13 (1)
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-both-conditions.png "Both conditions met")
     
    - ***OR:*** Under this option, either one of the conditions need to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity as exemplified below: 
     
-   // add 11/13 (2)
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-either-condition.png "Either conditions met")
 
 Note: At this point it is recommended to save your first group's definitions as shown below:
 
-// add 11/13 (3)
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-save-group-definition.png "Save group definition")
 
 - **In step four which is also optional, we will show how to combine multiple groups via Set Operators**
 As mentioned earlier, each group **produces a specific set of customers**. Start by selecting **Add Group**:
@@ -136,7 +139,9 @@ Here you can view all your saved segments and perform certain actions.
 -**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
 -**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
-//add 11/13 (4)
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-menu-options.png "Segment menu options")
+
 
 Let's explore those segment-level actions:
     - Editing this particular segment
