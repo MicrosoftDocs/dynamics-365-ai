@@ -2,7 +2,7 @@
 title: "Dynamics 365 AI for Market Insights Release Notes | Microsoft Docs"
 description: "What's new in Ai for Market Insights"
 keywords: "what's new, release notes, changelog"
-ms.date: 11/08/2018
+ms.date: 11/16/2018
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 587e7d5f-eac7-426c-93a2-8d29413d8dda
@@ -23,7 +23,7 @@ search.app:
 
 This topic describes features that are either new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-## Public Preview update 1 (November 24, 2018)
+## Public Preview update 1 (November 21, 2018)
 
 ### Extended availability of age, gender, and search trend data
 
@@ -31,4 +31,4 @@ The Bing Search trend data in the **Volume** widget is now available for organiz
 
 ### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
 
-Text to be added
+Text to be added based on MSE content
