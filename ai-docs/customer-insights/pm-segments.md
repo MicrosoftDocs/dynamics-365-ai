@@ -105,15 +105,15 @@ Note that **one of the segmentation strengths of Customer 360 is the rich varity
 
    - ***AND:*** Under this option, both conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities (one condition per entity) as exemplified below: 
     
-   <!-- [final 5] -->
+   //add 11/13 (1)
     
    - ***OR:*** Under this option, either one of the conditions need to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity as exemplified below: 
     
-   <!-- [final 6] -->
+   // add 11/13 (2)
 
-Note: It is recommended to save your first group's definitions as shown below:
+Note: At this point it is recommended to save your first group's definitions as shown below:
 
-<!-- [final 7] -->
+// add 11/13 (3)
 
 - **In step four which is also optional, we will show how to combine multiple groups via Set Operators**
 As mentioned earlier, each group **produces a specific set of customers**. Start by selecting **Add Group**:
@@ -140,7 +140,7 @@ Here you can view all your saved segments and perform certain actions.
 -**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
 -**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
-//complete missing image
+//add 11/13 (4)
 
 Let's explore those segment-level actions:
     - Editing this particular segment
@@ -150,7 +150,7 @@ Let's explore those segment-level actions:
     - Deleting the segment
     
 ## Exploring a segment: Viewing processing history and segment members
-Once you selected a segment within the *Segments page*, you will get to this page that consolidates everything around that particular segment. As shown below, the upper part includes a trend graph with the possibility to adjust the trend's time scope (30 last days, 60 last days, etc.) through the following button at the upper-right corner of the tile:
+Once selected a segment within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. As highlighted in red, you can adjust the trend's time scope (30 last days, 60 last days, etc.):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
