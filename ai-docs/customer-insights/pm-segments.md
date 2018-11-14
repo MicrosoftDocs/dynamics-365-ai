@@ -76,14 +76,10 @@ If you clicked **Add Segment** then you will also need to select whether you wan
 
 - **We start by defining the segment's properties**: 
    - We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. 
-   - Then, if we wish to change the segment's type **from Static to Dynamic or vice versa** we can do that by clicking the slider as shown in red below: 
-     
-<!-- [Replace with final 3:] -->
+   - Moreover, solely for a dynamic segment, we can also choose to **activate** it at this point through the slider as shown in blue below. **An active (dynamic) segment will automatically incorporate changes** that are made to your data with time while **inactive segment will not incorporate changes** that are made to your data. 
 
   > [!div class="mx-imgBorder"] 
   > ![](media/new-dynamic-segment-hilites.png "Change segment type")
-
-- Lastly, if we are defining a dynamic segment, we can choose to **activate it** at this point through the second slider as shown in blue above. **An active (dynamic) segment will automatically incorporate changes** that are made to your source data with time while **inactive segment will not incorporate changes to your data.** You sould activate your segment only when you wish to start incorporating changes to your data.
    
 - **In step two, we will start creating our first filter**. Use the "filter" field that is shown above (highlighted in blue) to select an entity. Once we selected an entity type, we need to choose the specific attributes by which we wish to filter our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a boolean. In the example below, an attribute with a numerical value is used as a filter:
      
