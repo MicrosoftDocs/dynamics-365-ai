@@ -21,7 +21,7 @@ search.app:
 
 # Create or delete a search topic
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 It’s important to start with a clear idea of what kind of online information you want to listen to. Set up new search topics and add at least one rule to each of them to find out what your audience is discussing in their public social media posts. You can also edit search topics you’ve created or delete them if they are no longer relevant.  
   

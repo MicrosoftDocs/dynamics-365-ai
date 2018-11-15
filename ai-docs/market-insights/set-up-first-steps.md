@@ -21,7 +21,7 @@ search.app:
 
 # Set up [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 This topic explains what the Administrator for your organization does to set up [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
   

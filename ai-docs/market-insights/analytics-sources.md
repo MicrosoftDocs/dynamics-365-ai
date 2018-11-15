@@ -21,7 +21,7 @@ search.app:
 
 # Analyze sources of posts in your data set
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Understand which social media sources are found most often in your search topics and analyze sources, such as top languages and user sentiment.  
   

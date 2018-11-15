@@ -21,7 +21,7 @@ search.app:
 
 # Manage your brand and reputation on social media
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 To successfully manage the reputation of your brand, it's essential to monitor the conversations about it on social media. Find out how the public perception of your brand is evolving and how you can actively engage with your customers.
 

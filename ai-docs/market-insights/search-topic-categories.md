@@ -21,7 +21,7 @@ search.app:
 
 # Group search topics into categories
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 You can use categories to structure and group search topics in  ways that make the most sense to you. Although categories have no impact on the posts that result from your search topics, they help greatly to organize your searches.  
   
