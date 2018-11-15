@@ -187,7 +187,7 @@ This page presents all your match pair records. It also includes the **Scores** 
 
 **Lastly**, you can experiment with different thresholds around your criteria in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
-1. Select the **...** for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
+1. Select the **Three Dots Icon** for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
