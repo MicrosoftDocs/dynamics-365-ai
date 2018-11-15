@@ -1,6 +1,6 @@
 ---
-title: "Testing your bot"
-description: "Learn how to use the test pane to test your bot."
+title: "Working with the Bot Designer"
+description: "Learn how to work with the AI for Customer Service Virtual Agent Bot Designer."
 keywords: ""
 ms\.date: 11/12/2018
 ms.service:
@@ -12,4 +12,4 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Testing your bot
+# Working with the Bot Designer
