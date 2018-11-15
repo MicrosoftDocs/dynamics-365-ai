@@ -40,7 +40,7 @@ The first screen that you will see is the following screen:
 The tiles at the top of the screen (highlighted in green above) show that you haven't tried to merge any attributes yet. **All Attributes** shows how many attributes your matched entities include **in total prior to Merge**. You can revisit your Match policies if you suspect that this number is too low or high. **Discarded Attributes** are attributes that were not included in the merge process and at this point their number equals the **All Attributes** number since no merge process has started yet.
 
 The goal behind this screen is to equip you, the user, with two approaches to the merge process: 
-  - **Option One: Letting the system auto-identify attributes anmong your entities that should be merged**. For choosing that option, click **System Merge** as highlighted in blue above. Note that you can always manually select more attributes to Merge.
+  - **Option One: Letting the system auto-identify attributes among your entities that should be merged**. For choosing that option, click **System Merge** as highlighted in blue above. Note that you can always manually select more attributes to Merge.
   - **Option Two: Manually defining all the attributes that, among your matched entities, should be merged**.
   
 > [!IMPORTANT]
@@ -67,7 +67,7 @@ The **Merge** page that is shown above includes several components, regardless o
      
 Note that within the blue part above, you can also see what entity was used as the main source for that merged attribute. In the example above, the values of the merged attribute **IdentityServiceEmail** were taken in most cases from the **SurveyContact** entity (reflected by a value of 1 in the **order** column) and in less cases from the **Sales** entity (reflected by an **order** value of 2).
      
-  - **Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system (shown in red below). Again, you can also see from which entity the values of this entity come from (but since it's unmerged attribute it's values come from only one entity).
+  - **Unmerged Attributes**: Upon clicking it you can view what attributes were not merged by the system (shown in red below). Again, you can also see from which entity the values of this entity come from (but since it's an unmerged attribute its values come from only one entity).
     
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-merge-unmerged-attributes.png "Unmerged attributes")
@@ -101,12 +101,12 @@ We will conduct the prioritization process within the **Edit Attribute Panel** a
 > ![](media/configure-data-merge-add-new-attribute.png "Add new attribute")
 
 
-**First** we will consider to edit the **Attribute Source** part. This part specifies all the attributes that possibly include values for our attribute. we can see that the system identified two attributes with the name **Email** within the **Sales** and **SurveyContact** entities and those are checked in (blue part below). Moreover, the system couldn't find an attribute within the **WifiContact** entity that correponds with our **IdentityServiceEmail** attribute (nothing is checked within the WifiContact entity). At this point we can manually change those automatic selections - either deselect the **Email** attribute or select new attributes.
+**First** we will consider to edit the **Attribute Source** part. This part specifies all the attributes that possibly include values for our attribute. we can see that the system identified two attributes with the name **Email** within the **Sales** and **SurveyContact** entities and those are checked in (blue part below). Moreover, the system couldn't find an attribute within the **WifiContact** entity that corresponds to our **IdentityServiceEmail** attribute (nothing is checked within the WifiContact entity). At this point we can manually change those automatic selections - either deselect the **Email** attribute or select new attributes.
   
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-image14.png "Image 14")
   
-**Second**, we will consider to edit the **Merge Policy** part. This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Sales* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** (shown in blue below) and then click the arrow sign next to *SurveyContact*. As a result *Sales* will move to first priority while *SurveyContact* will move to second priority when pulling values for our merged attribute.
+**Second**, we will consider editing the **Merge Policy** part. This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that *Sales* includes the most accurate data about *Names*, than in the panel shown above, we will first change the policy from **default** to **ordered** (shown in blue below) and then click the arrow sign next to *SurveyContact*. As a result *Sales* will move to first priority while *SurveyContact* will move to second priority when pulling values for our merged attribute.
   
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-image11.png "Image 11")
@@ -134,7 +134,7 @@ Then we will search for attributes that might correspond to that attribute withi
 
 Third, within the **Select Attributes** menu highlighted in red above, we will select all the attributes that we want to merge from our matched entities. As shown above, we have selected **First Name** from **Sales**, **Name** from **SurveyContact** and **Name** from **WifiContact**.
 
-**Lastly, we will define the Merge Policy:** This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that **Sales** includes the most accurate data about **Names**, than in the panel shown below, we will first change the policy from **default** to **ordered** (as highoighted in blue) and then click the arrow sign next to **SurveyContact**. As a result **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the **Name** attribute.
+**Lastly, we will define the Merge Policy:** This part specifies only the sources that were selected within **Attribute Source**. Here we will prioritize those sources: If we think for example that **Sales** includes the most accurate data about **Names**, than in the panel shown below, we will first change the policy from **default** to **ordered** (as highlighted in blue) and then click the arrow sign next to **SurveyContact**. As a result **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the **Name** attribute.
   
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-image11.png "Image 11")
