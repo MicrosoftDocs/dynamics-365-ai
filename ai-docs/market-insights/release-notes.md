@@ -27,8 +27,11 @@ This topic describes features that are either new or changed in [!INCLUDE[Market
 
 ### Extended availability of age, gender, and search trend data
 
-The Bing Search trend data in the **Volume** widget is now available for organizations based in the Unites States, the United Kingdom, France, Germany, Canada, Australia, Italy, and Spain. The **Age** and **Gender** widget on **Analytics** > **Overview** are now available in these countries/regions to. 
+
+<!--editor note: Are Age and Gender separate widgets? I changed "widget" to plural. If not, it should be "is now available..."-->
+
+The Bing Search trend data in the **Volume** widget is now available for organizations based in the United States, the United Kingdom, France, Germany, Canada, Australia, Italy, and Spain. The **Age** and **Gender** widgets on **Analytics** > **Overview** are now available in these countries/regions, too. 
 
 ### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
 
-Text to be added based on MSE content
+<!--Text to be added based on MSE content-->
