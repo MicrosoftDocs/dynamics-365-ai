@@ -34,12 +34,14 @@ In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to *
 Shows the distribution of age groups based on Bing Search data. The demographic segmentation by age relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your time frame.
 
 > [!NOTE]
-> There’s no data available when selecting **Today** as the time frame because search volume data is not real-time and experiences a minimum of 24h lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain
+> There’s no data available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain.
 
 ## Authors
 
-The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts. 
+
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
+
 > [!NOTE]
 > Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
@@ -49,7 +51,7 @@ To add a filter for multiple authors at once, select the check boxes on the left
 Shows the distribution of genders based on Bing Search data. The demographic segmentation by gender relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your time frame.
 
 > [!NOTE]
-> There’s no data available when selecting **Today** as the time frame because search volume data is not real-time and experiences a minimum of 24h lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain
+> There’s no data available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain.
 
 ## Languages
 
@@ -57,7 +59,7 @@ Lists the five most-used languages based on the volume of posts and trend indica
 
 ## Location insights
 
-Visualizes the posts with location information on a map to show where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
+Visualizes the posts with location information on a map to show where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real time, with additional functionality. 
 
 Dynamic widget. Shows only if posts with location information are available in the selected data set.
 
@@ -99,13 +101,14 @@ Click the **Full view** button ![full view button](media/open-full-view-icon.png
 Shows the total number of posts and the average number of posts for the selected data set over time.
 
 Additionally, organizations based in the United States, the United Kingdom, France, Germany, Canada, Australia, Italy, and Spain see an additional line for **Bing Search trend**. This line indicates the volume of searches on Bing (on an aggregated, anonymized, and normalized basis) for the keywords in your data set. 
+
 The trend line is scaled from 0-100, with 0 representing very low search volume and 100 representing peak search volumes. The peak search volume is defined relatively to its own search volume and therefore not an absolute peak across different search topics. 
 
 > [!NOTE]
-> **Bing Search trends** aren’t available when selecting **Today** as the time frame because search volume data is not real-time and experiences a minimum of 24h lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this line won’t show.
+> **Bing Search trends** aren’t available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this line won’t show.
 
   
-### See Also  
+### See also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
 [Get to know your filters](use-filters.md)    
 [Explore more options with your data set](more-options-with-data-set.md)    
