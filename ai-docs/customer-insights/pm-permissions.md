@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Permissions** page is where you, as a user, can set up roles and permissions for using Customer 360 across the organization. Customer 360 includes three types of roles, and those are the options that avialable to each of them:
+The **Permissions** page is where you, as a user, can set up roles and permissions for using Customer 360 across the organization. Customer 360 includes three types of roles, and those are the options that available to each of them:
 
 |Role  |Options available under this role  |
 |---------|---------|
@@ -43,7 +43,7 @@ On the **Permissions** page, select **Add** to add permissions and roles to user
 
 - Then, **choose a role** for that person as shown above.
 
-- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the role that you have specified (as expl
+- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the role that you have specified (as specified earlier).
  
 ### Viewing current permissions
 After selecting **Save**, you can utilize the following screen to explore all the permissions that were given to date:
@@ -59,7 +59,7 @@ Let's explore this screen:
 - Lastly, you can sort the results by each of the columns   
 
 ### Filtering Permissions by a Role
-At the top of the **Permissions** page, select **Filter**  to open the **Filter** panel. Then, choose whether to filter the permissions by the ***Administrator***, ***Contributor***, or ***Reader*** roles.
+At the top of the **Permissions** page, select **Filter** to open the **Filter** panel. Then, choose whether to filter the permissions by the ***Administrator***, ***Contributor***, or ***Reader*** roles.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-filter.png "Permissions filter")
