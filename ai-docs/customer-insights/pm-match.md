@@ -49,7 +49,7 @@ We will explore these steps in a sequential order. Prior to that we will give a 
 
 ## Quick introduction to the Match Page
 
-The **Match** page shown above includes two major sections: **Summary** (highlighted in red above) and **Details** (highlighted in blue). We will first use the Details section to specify the match pair and setting it's rules (Steps One and Two and Steps Five and Six). Later, we will use the Summary section to track the progress of our match until completion as well as to validate the order by which we are matching our entities (validating Step Three and performing Step Seven). Lastly, above these components you will find three tiles. These will be used for Step Four above. For now there are no counts in these tiles since no match was executed yet.
+The **Match** page shown above includes two major sections: **Summary** (highlighted in red above) and **Details** (highlighted in blue). We will first use the Details section to specify the match pair and setting its rules (Steps 1-2 and Steps 5-6). Later, we will use the Summary section to track the progress of our match until completion as well as to validate the order by which we are matching our entities (validating Step 3 and performing Step 7). Lastly, above these components you will find three tiles. These will be used for Step 4 above. For now there are no counts in those tiles since no match was executed yet.
 
 ## Step One: Specifying a first match pair
 
@@ -69,7 +69,7 @@ Within this panel you will set the definitions for your first match pair. Start 
 > [!IMPORTANT]
 > The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. > 
 >There are two considerations that can help you select your first entity:
-> - First, what entity do you consider to have the most reliable data?
+> - First, what entity do you consider having the most reliable data?
 > - Second, does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you should continue to your second most reliable entity and so forth. 
 
 Continue by selecting the second entity of your match pair by selecting the right filed (shown below in red):
@@ -78,7 +78,7 @@ Continue by selecting the second entity of your match pair by selecting the righ
 > ![](media/configure-data-match-right-entity.png "Add right entity")
 
 > [!NOTE]
-> Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider to have the second most reliable data? Moreover, does it includes at least one field that is shared by the master entity and possibly more fields that are shared by other entities that you have ingested?
+> Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable data? Moreover, does it includes at least one field that is shared by the master entity and possibly more fields that are shared by other entities that you have ingested?
 
 Lastly, select **Save** and you will see that the **Description** section includes the match pair you have just created. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair which we will do in Step Two.
 
@@ -88,7 +88,7 @@ Lastly, select **Save** and you will see that the **Description** section includ
 
 ## Step Two: Defining rules for first match pair
 
-For each of your match pairs you should define at least one match rule. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, select your match within the Description section. Then select  **Add new rule** as shown below:
+For each of your match pairs you should define at least one match rule. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, select your match within the Description section. Then select **Add new rule** as shown below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-add-new-rule.png "Add new rule")
@@ -116,10 +116,10 @@ If you wish to match your entities **only** if multiple conditions are met, you 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-rule-add-criteria.png "Edit rule add new criteria")
 
-For the purpose of this section we will limit our match rule to only one criteria.
+For the purpose of this section we will limit our match rule to only one criterion.
 
 ### Adding multiple rules
-If each criteria reflects a condition around single attributes, then rules represent sets of conditions. If you believe that there different sets of attributes on the basis of which your two entities can be matched, you should add more rules with **Add Rules**. Note that order matters when creating rules. The matching algorithm will try to match on the basis of your first rule - (1) in the **Description** section - and only then continue to the second rule (2) if no matches were identified under the first rule. 
+If each criterion reflects a condition around a single pair of attributes, then rules represent sets of multiple criteria. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) in the **Description** section) and only then continue to the second rule (stated as (2) in the **Description** section) if no matches were identified under the first rule. 
 
 For the purpose of this section we will stay with only one rule.
 
@@ -149,7 +149,7 @@ Upon the completion of the matching the **Match Running** message will disappear
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-refresh.png "Select refresh")
 
-As mentioned in step one, the first match results in the creation of a unfied master entity while all subsequent matches result in the expansion of that entity. Hence, beyond the blue line on the summary section, another signal for the completion of the matching process is the appearenece of the unified entity in the **Entities** page. Upon clicking the entities tab you should see that new entity:
+As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, beyond the blue line status on the summary section, another signal for the completion of the matching process is the appearance of the unified entity in the **Entities** page. Upon clicking the entities tab you should see that new entity:
 
 //match addition 1
 
@@ -180,7 +180,7 @@ Note that if you match more entities in the future these three numbers will pres
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
 
-This page presents all your match pair records. It also includes the **Scores** field which states how likely it is that this record was indeed matched accurately (can also be thought of a kind of confidence score). It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
+This page presents all your match pair records. It also includes the **Scores** field which states how likely it is that this record was indeed matched accurately (can also be thought of a kind of a confidence score). It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-preview-rule.png "Preview rule data")
@@ -192,8 +192,7 @@ This page presents all your match pair records. It also includes the **Scores** 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
-
-2. Identify the criteria that you want to experiment with. Remember, each criteria is represented by one row in the panel below. Once you've identified the criteria you want to experiment with, select the following.
+2. Identify the criterion that you want to experiment with. Remember, each criterion is represented by one row in the panel below. Once you've identified the criterion you want to experiment with, select the following:
    
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-rule-criteria.png "Edit match rule criteria")
@@ -225,7 +224,7 @@ If you followed Step Four, then at this point you should have a better understan
 
 - **Editing your rules**: This includes several important changes that you should try as you optimize the match quality.
     - **Changing attributes for a criteria**: This can be done by reselecting new attributes within the criteria row.
-    - **Changing threashold for a criteria**: This can be quickly achieved via the threshold bar. In Step Four we covered how to get insight into the effects of the three threshold levels on your match quality.
+    - **Changing threshold for a criteria**: This can be quickly achieved via the threshold bar. In Step Four we covered how to get insight into the effects of the three threshold levels on your match quality.
     - **Changing normalization methods for a criteria**: This can be done by reselecting the normalization methods.
     - **Changing from an *Exact* match to a *Fuzzy* match:** Doing so can lead to a higher number of matched records at the possible expense of lower accuracy. Doing the opposite might carry the opposite tradeoff - higher accuracy for a lower number of matched records.
     
