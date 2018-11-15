@@ -175,4 +175,4 @@ Exporting a segment to .csv file is possible:
 In both cases, clicking **Export** will create a file in a csv. format where you can expect to find all your segment's data. 
 
 ## Next Step
-While segmentation provides you with aggragate-level insights, you can also explore the Customer 360 Dashboard to unlock varity of customer-level insights. If you wish to produce those, visit the **Connectors** section.
+While segmentation provides you with aggregate-level insights, you can also explore the Customer 360 Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.
