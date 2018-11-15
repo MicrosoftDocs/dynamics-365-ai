@@ -34,7 +34,7 @@ The **Entities screen** includes seven columns (explored from left to right):
 - **Created by**: Answers the question: *By whom was this entity originally created?*
 - **Created**: Answers the question: *When was this entity created?*
 - **Updated By**: Answers the question: *By whom was this entity's data refreshed?*
-- **Last Updated**: Answers the question: *"When was the last time this entity's data was refreshed"?*
+- **Last Updated**: Answers the question: *"When was the last time this entity's data was refreshed?*
 
 The app automatically identifies values for four columns pictured above from your ingested data sources and, if the identification fails, it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it as needed.
 
