@@ -64,7 +64,7 @@ To create a relationship, you need to provide the following information.
     - **Target Entity:** The name of the entity that is used as a target in the relationship (for example, WebAccount).
     - **Target Cardinality:** This represents the cardinality of the target entity records. For example, one means that multiple Weblog records are related to one WebAccount.
     - **Target key field:** This field represent the key field of target entity. For example, WebAccount has the accountId key field.
-For now, only many-to-one and one-to-one type relationships are supported. Many-to-many type relationships can be created using two many-to-one relationships using a link entity.
+For now, only many-to-one and one-to-one type relationships are supported. Many-to-many type relationships can be created using two many-to-one relationships using a **link entity:** An entity that is used to connect the source entity and the target entity.
 
 System and custom relationships are used in **Segment Editor Page** to navigate from the entity on one end of the relationship to the entity on the other end of the relationship as you define conditions to filter customers. Filtering is based on the data graph ingested entities from data sources. For more information on segmenting customers and how relationships play an important rule there, visit the **Segments** section.
 
