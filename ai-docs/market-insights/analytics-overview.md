@@ -80,6 +80,7 @@ Shows the top five categories if you include all search topics in your data set,
 ## Sentiment
 
 Shows the sentiment index across all posts that have a sentiment value in the selected data set. It also shows changes in the sentiment index compared to the last similar time frame and the trend indicator.    
+
 You can [manually change the sentiment values](analytics-sentiment.md) if you find that sentiment for a post is analyzed incorrectly. 
 
 Dynamic widget. Shows only if the data set contains posts with sentiment values.
@@ -87,13 +88,15 @@ Dynamic widget. Shows only if the data set contains posts with sentiment values.
 ## Sentiment by category/search topic
 
 View the sentiment index and sentiment trends for all posts that have a sentiment value in categories or search topics, sorted by volume.    
+
 Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.
 
 Dynamic widget. Shows only if your data set contains posts with sentiment value. If you include all search topics in your data set, it will show the sentiment by categories. If you include a category in your data set, it will show the sentiment by search topic.
 
 ## Sources
 
-Shows the number of posts in the most active sources and summarizes how many posts were found in other sources.    
+Shows the number of posts in the most active sources and summarizes how many posts were found in other sources.  
+
 Click the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
 
 ## Volume
@@ -112,4 +115,4 @@ The trend line is scaled from 0-100, with 0 representing very low search volume 
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
 [Get to know your filters](use-filters.md)    
 [Explore more options with your data set](more-options-with-data-set.md)    
-[Understand the public perception using sentiment analysis](analytics-sentiment.md)
+[Understand public perception using sentiment analysis](analytics-sentiment.md)
