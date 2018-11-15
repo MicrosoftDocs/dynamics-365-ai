@@ -22,12 +22,12 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Segmentation provides the ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns or surveys to achieve desired business goals. Segmentation allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities ingested from various data sources. Each segment after processing outputs set of master customer entity records, which matches the various filter criteria defined in the segment.
+Segmentation provides the ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns or surveys to achieve desired business goals. Segmentation allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities that are ingested from various data sources. Each segment, after processing, outputs a set of master customer entity records which matches the various filter criteria defined in the segment.
 
 There are two types of segments:
 
-- **Static**: Segment with filter conditions that are processed once either upon the creation or update any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to used ony once. Example use case: Customers who attended an expo event. 
-- **Dynamic**: Segment with filter conditions that are processed according to a recurring schedule. These segments are especially useful when customers attributes change over time to continuosly update segment and keep targeting newly added customers   Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment resfreshing schedule is every 12 hours.
+- **Static**: Segment with filter conditions that are processed once either upon the creation or update any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
+- **Dynamic**: Segment with filter conditions that are processed according to a recurring schedule. These segments are especially useful when customers attributes change over time to continuously update segment and keep targeting newly added customers. Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
 
 **How is a segment defined**
 Each segment is defined by combining various filter criteria that customer and its related data called data graph must match to qualify to be a member of the segment. Segment Editor provides an experience to easily define these filter criteria over the entire data graph using one or more groups. 
@@ -81,7 +81,7 @@ If you clicked **Add Segment** then you will also need to select whether you wan
   > [!div class="mx-imgBorder"] 
   > ![](media/new-dynamic-segment-hilites.png "Change segment type")
    
-- **In step two, we will start creating our first filter**. Use the "filter" field that is shown above (highlighted in blue) to select an entity. Once we selected an entity type, we need to choose the specific attributes by which we wish to filter our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a boolean. In the example below, an attribute with a numerical value is used as a filter:
+- **In step two, we will start creating our first filter**. Use the "filter" field that is shown above (highlighted in blue) to select an entity. Once we selected an entity type, we need to choose the specific attributes by which we wish to filter our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a Boolean. In the example below, an attribute with a numerical value is used as a filter:
      
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-numbers.png "Customer group filter")
@@ -93,7 +93,7 @@ If you clicked **Add Segment** then you will also need to select whether you wan
 |3    |Operator         |
 |4    |Value         |
 
-Note that **one of the segmentation strengths of Customer 360 is the rich varity of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
+Note that **one of the segmentation strengths of Customer 360 is the rich variety of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
 
 <!-- [operators table - Shashi still needs to provide me an updated one] -->
 
@@ -144,10 +144,10 @@ Here you can view all your saved segments and perform certain actions.
 
 
 Let's explore those segment-level actions:
-    - Editing this particular segment
-    - Viewing it's members
+    - Editing the segment
+    - Viewing the segment's members
     - Exporting the segment to a .csv file
-    - Turning the segment to inactive/active (depends on it's current state)
+    - Turning the segment to inactive/active (depends on it's baseline state)
     - Deleting the segment
     
 ## Exploring a segment: Viewing processing history and segment members
@@ -160,13 +160,13 @@ The lower part includes a table with all your segment members.
 
 - **Note** that the field types that are shown in this table are based on the attributes of your segment’s entities. The example table that is shown above (highlighted in blue) is typical to a **Customer** entity but it is only one of many possible table types.
 
--**Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change it's definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
+-**Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change its definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
 
 ## Acting upon the data
 
 **Exporting a segment:
 Exporting a segment to .csv file is possible:
-- 1.Within the *Segments page* by clicking the **three dots** button within a specific segment's tile, and then selecting the **Export** button as described earlier
+- 1.Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
 - 2.Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
 
 > [!div class="mx-imgBorder"] 
