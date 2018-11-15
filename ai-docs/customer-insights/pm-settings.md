@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Within this screen, several options are available as shown below. Those options can serve important business requirements such as using Customer 360 from different regions or distingushing between multiple work instances.
+Within this screen, several options are available as shown below. Those options can serve important business requirements such as using Customer 360 from different regions or distinguishing between multiple work instances.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/settings.png "Settings")
