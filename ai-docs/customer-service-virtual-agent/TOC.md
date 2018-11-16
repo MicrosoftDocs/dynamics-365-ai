@@ -11,3 +11,5 @@
 ## [Deploying your bot](getting-started-deploy.md)
 
 ## [Using bot analytics to improve your bot](getting-started-analytics.md)
+
+## [Deleting a bot](getting-started-delete-bot.md)

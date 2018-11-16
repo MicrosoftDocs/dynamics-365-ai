@@ -14,7 +14,9 @@ manager: shellyha
 
 # Creating a bot
 
-The starting point for creating a rich virtual agent experience is to create a bot using the AI for Customer Service Virtual Agent. The AI for Customer Service Virtual Agent includes built-in industry-specific templates that help you tailor the bot to your specific needs. For example, the Retail template includes a way to easily communicate store hours to customers.
+The starting point for creating a powerful custom virtual agent with AI for Customer Service Virtual Agent is to create a bot. You can then use the Bot Designer to design a conversation path that leads each customer to a resolution of the customer's support issue.
+
+To help get you started and tailor the bot to your specific needs, the AI for Customer Service Virtual Agent lets you create a bot using built-in industry-specific templates. For example, the Retail template includes a way to easily communicate store hours to customers.
 
 ## To create a bot
 
@@ -35,12 +37,14 @@ The starting point for creating a rich virtual agent experience is to create a b
    > [!div class="mx-imgBorder"]
    > ![Open bot](media/create-bot-3.PNG)
 
-Once you have created your bot, you can add topics to it and deploy it to a support channel. As customers use the bot, you can view analytics information to help you improve the bot and the overall customer experience.
+Once you have created your bot, you can add topics to the bot that represent the conversation path used by the virtual agent, and then deploy the bot to a support channel. As customers use the bot, you can view analytics information to help you improve the bot and the overall customer experience.
 
-For more information about creating topics for your bot, see [Using the AI for Customer Service Virtual Agent Bot Designer to create topics for your bot](getting-started-create-topics.md).
+For more information about creating topics for your bot, see [Creating topics for your bot](getting-started-create-topics.md).
 
-For more information about deploying your bot, see [Using the AI for Customer Service Virtual Agent Bot Designer to deploy your bot](getting-started-deploy.md).
+For more information about deploying your bot, see [Deploying your bot](getting-started-deploy.md).
 
-For more information about using analytics information to help you improve your bot, see [Using bot analytics to improve your AI for Customer Service Virtual Agent bot](getting-started-analytics.md).
+For more information about using analytics information to help you improve your bot, see [Using bot analytics to improve your bot](getting-started-analytics.md).
 
-For more information about working with the Bot Designer, see [Working with the AI for Customer Service Virtual Agent Bot Designer](getting-started-bot-designer.md).
+For more information about working with the Bot Designer, see [Working with the Bot Designer](getting-started-bot-designer.md).
+
+For information about removing your bot from the AI for Customer Service Virtual Agent environment, see [Deleting a bot](getting-started-delete-bot.md).
