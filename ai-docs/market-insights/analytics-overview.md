@@ -21,13 +21,13 @@ search.app:
 
 # Understand widgets on the overview page
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Start your analysis with an overview of the data that your solution has acquired so far. Find key widgets that provide information such as the volume of posts, their sources, sentiment, demographic data (in the United States), and where the posts are coming from.  
   
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Overview** to access the overview page.  
 
-![screenshot of the overview page in the analytics area of market insights](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Market Insights")
+![Screenshot of the overview page in the analytics area of Market Insights](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Market Insights")
   
 ## Age
 
@@ -43,12 +43,12 @@ The normal view of this widget shows the top five authors and sources, based on 
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
 
 > [!NOTE]
-> Full view also has a **Delete** button ![delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
->  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
+> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+> When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
 
 ## Gender
 
-Shows the distribution of genders based on Bing Search data. The demographic segmentation by gender relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your time frame.
+Shows the distribution of genders based on Bing search data. The demographic segmentation by gender relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your timeframe.
 
 > [!NOTE]
 > There’s no data available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain.
@@ -75,7 +75,7 @@ Dynamic widget. Shows only if the data set contains at least one search topic wi
 
 ## Search topics
 
-Shows the top five categories if you include all search topics in your data set, or search topics if you include a category in your data set, based on volume and trend indicator.
+Shows the top five categories if you include all search topics in your dataset, or search topics if you include a category in your dataset, based on volume and trend indicator.
 
 ## Sentiment
 
@@ -101,7 +101,9 @@ Click the **Full view** button ![full view button](media/open-full-view-icon.png
 
 ## Volume
 
-Shows the total number of posts and the average number of posts for the selected data set over time.
+Shows the total number of posts and the average number of posts for the selected dataset over time.
+
+Additionally, organizations based in the United States see an additional line for **Bing Search trend**. This line indicates the volume of searches on Bing (on an aggregated, anonymized, and normalized basis) for the keywords in your dataset.
 
 Additionally, organizations based in the United States, the United Kingdom, France, Germany, Canada, Australia, Italy, and Spain see an additional line for **Bing Search trend**. This line indicates the volume of searches on Bing (on an aggregated, anonymized, and normalized basis) for the keywords in your data set. 
 
@@ -113,6 +115,6 @@ The trend line is scaled from 0-100, with 0 representing very low search volume 
   
 ### See also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
-[Get to know your filters](use-filters.md)    
+[Use filters to see relevant data](use-filters.md)    
 [Explore more options with your data set](more-options-with-data-set.md)    
 [Understand public perception using sentiment analysis](analytics-sentiment.md)

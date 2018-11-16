@@ -21,7 +21,7 @@ search.app:
 
 # Address customer service scenarios on social media with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to address your customers' service requests on social media. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
 

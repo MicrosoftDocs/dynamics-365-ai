@@ -21,7 +21,7 @@ search.app:
 
 # Explore more options with your data set
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], [data sets](use-filters.md#data_set) are often key to an accurate and detailed analysis.
   
