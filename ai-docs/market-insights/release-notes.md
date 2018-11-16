@@ -23,6 +23,10 @@ search.app:
 
 This topic describes features that are either new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
+Ask questions and get help from experts and the product team in the [AI for Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights).
+
+If you can think of ways how we can further improve the product and service, please [add your idea to the ideas list](https://experience.dynamics.com/ideas/list/?forum=e6202680-69d9-e811-a96b-000d3a1be7ad). 
+
 ## Public Preview update 1 (November 21, 2018)
 
 ### Extended availability of age, gender, and search trend data
