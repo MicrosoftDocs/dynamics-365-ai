@@ -21,6 +21,8 @@ search.app:
 
 # What's new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
+(This topic is pre-release documentation and is subject to change.)
+
 This topic describes features that are either new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
 Ask questions and get help from experts and the product team in the [AI for Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights).
