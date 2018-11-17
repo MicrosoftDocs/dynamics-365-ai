@@ -47,4 +47,19 @@ For more information about using the Analytics page, see [Using bot analytics to
 ## Topics page
 
    > [!div class="mx-imgBorder"]
-   > ![Analytics page](media/bot-designer-4.PNG)
+   > ![Topics page](media/bot-designer-4.PNG)
+
+The Topics page is the central location for creating and managing bot topics, the building blocks you use to design a conversation path. The Bot Designer includes several built-in system topics, as well as additional built-in topics specific to the template you used to create your bot.
+
+You can revise those topics and create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the bot in the test bot pane, and refine it as necessary.
+
+For more information about using the Topics page to create topics, see [Creating topics for your bot](getting-started-create-topics.md).
+
+## Deploy page
+
+   > [!div class="mx-imgBorder"]
+   > ![Deploy page](media/bot-designer-5.PNG)
+
+The Deploy page is where you deploy your completed bot to a support channel. As part of the deployment, you can specify a custom welcome message and any suggested conversation starters to help customers get started using your bot.
+
+For more information about using the Deploy page to deploy your bot, see [Deploying your bot](getting-started-deploy.md).
