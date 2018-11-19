@@ -47,7 +47,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 - You will need to copy your instance ID (can be taken from your app URL) and attach it to the following address:
   https://tip.api.ci.ai.dynamics.com/api/instances/**your instance ID**
 
-- Then copy paste the complete URL address (fixed part + **your instance ID**) to the URL field as shown below:
+- Then copy paste the complete URL address (fixed part + **your instance ID**) to the URL field in Power BI as shown below:
 
   //add image (2) 11/19
 
@@ -55,7 +55,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 
 //add image (3) 11/19
      
-5. Use your Azure Active Directory credentials, and then select **Connect** as hown in red below:
+5. Use your Azure Active Directory credentials, and then select **Connect** as shown in red below:
      
  //add image (4) 11/19
      
@@ -63,21 +63,17 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 
 After completing Step two, you'll get to the following screen:
 
-//add entities screen
+//add image (5) 11/19
 
-1. Choose all the entities around which you want to build your Power BI report. In the example below, the user has chosen two entities:  Customer and Account datasets. Note that the Customer entity is the entity that was created during the data configuration process and that encapsulates the unified customer data that Customer 360 unlocks.
+1. Choose all the entities around which you want to build your Power BI report. In the example below, the user has chosen the **Conflated Match Pairs** entity. Note that this entity is the entity that was created during the data configuration process and that encapsulates your unified customer data. You may want to include that entity to extract the most insightful observations from your data.
    
- <!--  [PBI8] -->
+ /add image (6) 11/19
 
 2. At this point, you are ready to create your customized report using the Power BI left menu. Use the **Filters** fields to produce a report around:
 
    - A specific customer: Filter by **Customer Name** or **Customer ID**
    - A customer segment: Filter by one or more of the other customer attributes such as gender, location, role, etc.
-
-//add left menu with filters
-
-<!--   [PBI9] -->
-
+   
 ### See also
  [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)<br/>
  [What is Power BI Desktop?](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)
