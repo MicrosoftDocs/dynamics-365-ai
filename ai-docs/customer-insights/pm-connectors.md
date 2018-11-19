@@ -22,50 +22,42 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section you will learn how to utilize the PBI connector for unlocking the Customer 360 dashboard.
+In this section you will learn how to utilize the **PBI Connector** for unlocking the **Customer 360 Dashboard**.
 
-The Customer 360 dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
+The Customer 360 Dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer's details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
 
-In order to utilize the Customer 360 dashboard make sure that you have created a dataflow and ingested at least one data source to it through the **Data Manager: Get Data** page. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
+In order to utilize the Customer 360 dashboard make sure that you have created at least one datasource within the **Get Data** page and ingested at least one dataset (entity) into it. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
 
 ### Step One: Downloading MEZ File
 
 Along with the offer link, you received a file (MEZ type). Download this file to ~\Documents\Power BI Desktop\Custom Connectors
-   
-<!-- [PBI1] -->
 
 ### Step Two: Publishing the Customer 360 Dashboard
  
- 1. Bring Customer 360 data to Power BI. Open Power BI for Desktop and select **Get Data** at the top menu.
+ 1. Bring Customer 360 data to Power BI: Open Power BI for Desktop and select **Get Data** at the top menu.
  
- //same image as the next one but only with Get Data highlighted:
-    
-    <!-- [PBI2] -->
-    
- 2. Type Customer 360 in the search field, and then select **Customer 360** on the right-side menu. Lastly, Select **Connect** at the left bottom corner.
+ //add image (1) 11/19
  
-    
-    <!-- [PBI3] -->
+ 2. Type ***Customer 360*** in the search field, and then select **Customer 360** on the right-side menu. Lastly, Select **Connect** at the left bottom corner:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/connector-pbi-step-3.png "PBI Connector")
 
-    
-3. Publish the Customer 360 dashboard as a service. Insert the following URL into the **URL field** that is shown below: https://<cluster_name>.api.ci.ai.dynamics.com/api/instances/<instance_id>/data
+3. Publish the Customer 360 dashboard as a service: 
+- You will need to copy your instance ID (can be taken from your app URL) and attach it to the following address:
+  https://tip.api.ci.ai.dynamics.com/api/instances/**your instance ID**
 
-// Add screen with URL field
+- Then copy paste the complete URL address (fixed part + **your instance ID**) to the URL field as shown below:
 
-  <!-- [PBI4] -->
-     
+  //add image (2) 11/19
+
 4. Select **Sign in**.
 
-//Add screen with signing up window:
- 
-  <!-- [PBI5] -->
+//add image (3) 11/19
      
-5. Use your Azure Active Directory credentials, and then select **Connect**.
+5. Use your Azure Active Directory credentials, and then select **Connect** as hown in red below:
      
- <!--  [PBI6] -->
+ //add image (4) 11/19
      
 ### Step Three: Creating a Customized Dashboard
 
