@@ -36,8 +36,8 @@ Along with the offer link, you received a file (MEZ type). Download this file to
  
  1. Bring Customer 360 data to Power BI: Open Power BI for Desktop and select **Get Data** at the top menu.
  
->   [!div class="mx-imgBorder"] 
->   ![](media/connector-powerbi-get-data.png "Power BI Get Data")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/connector-powerbi-get-data.png "Power BI Get Data")
 
  
  2. Type ***Customer 360*** in the search field, and then select **Customer 360** on the right-side menu. Lastly, Select **Connect** at the left bottom corner:
@@ -46,23 +46,24 @@ Along with the offer link, you received a file (MEZ type). Download this file to
     > ![](media/connector-pbi-step-3.png "Power BI Connector")
 
 3. Publish the Customer 360 dashboard as a service: 
-- You will need to copy your instance ID (can be taken from your app URL) and attach it to the following address:
+
+   - You will need to copy your instance ID (can be taken from your app URL) and attach it to the following address:
   https://tip.api.ci.ai.dynamics.com/api/instances/**your instance ID**
 
-- Then copy paste the complete URL address (fixed part + **your instance ID**) to the URL field in Power BI as shown below:
+   - Then copy paste the complete URL address (fixed part + **your instance ID**) to the URL field in Power BI as shown below:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/connector-copy-instanceid.png "Copy Instance ID")
 
 4. Select **Sign in**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/connector-sign-in.png "Sign in to Customer 360")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-sign-in.png "Sign in to Customer 360")
      
 5. Use your Azure Active Directory credentials, and then select **Connect** as shown in red below:
      
-  > [!div class="mx-imgBorder"] 
-  > ![](media/connector-sign-in-azure-credentials.png "Sign in using Azure credentials")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-sign-in-azure-credentials.png "Sign in using Azure credentials")
      
 ### Step Three: Creating a Customized Dashboard
 
