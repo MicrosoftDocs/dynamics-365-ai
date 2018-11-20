@@ -1,5 +1,5 @@
 ---
-title: "Power BI | MicrosoftDocs"
+title: "Power BI Connector| MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 11/05/2018
@@ -18,11 +18,11 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# PBI Connector
+# Power BI Connector
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section you will learn how to utilize the **PBI Connector** for unlocking the **Customer 360 Dashboard**.
+In this section you will learn how to utilize the **Power BI Connector** for unlocking the **Customer 360 Dashboard**.
 
 The Customer 360 Dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer's details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
 
