@@ -36,12 +36,14 @@ Along with the offer link, you received a file (MEZ type). Download this file to
  
  1. Bring Customer 360 data to Power BI: Open Power BI for Desktop and select **Get Data** at the top menu.
  
- //add image (1) 11/19
+>   [!div class="mx-imgBorder"] 
+>   ![](media/connector-powerbi-get-data.png "Power BI Get Data")
+
  
  2. Type ***Customer 360*** in the search field, and then select **Customer 360** on the right-side menu. Lastly, Select **Connect** at the left bottom corner:
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/connector-pbi-step-3.png "PBI Connector")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/connector-pbi-step-3.png "Power BI Connector")
 
 3. Publish the Customer 360 dashboard as a service: 
 - You will need to copy your instance ID (can be taken from your app URL) and attach it to the following address:
@@ -49,25 +51,31 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 
 - Then copy paste the complete URL address (fixed part + **your instance ID**) to the URL field in Power BI as shown below:
 
-  //add image (2) 11/19
+  > [!div class="mx-imgBorder"] 
+  > ![](media/connector-copy-instanceid.png "Copy Instance ID")
 
 4. Select **Sign in**.
 
-//add image (3) 11/19
+  > [!div class="mx-imgBorder"] 
+  > ![](media/connector-sign-in.png "Sign in to Customer 360")
      
 5. Use your Azure Active Directory credentials, and then select **Connect** as shown in red below:
      
- //add image (4) 11/19
+  > [!div class="mx-imgBorder"] 
+  > ![](media/connector-sign-in-azure-credentials.png "Sign in using Azure credentials")
      
 ### Step Three: Creating a Customized Dashboard
 
 After completing Step two, you'll get to the following screen:
 
-//add image (5) 11/19
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-now-signed-in.png "Signed in to Customer 360")
 
 1. Choose all the entities around which you want to build your Power BI report. In the example below, the user has chosen the **Conflated Match Pairs** entity. Note that this entity is the entity that was created during the data configuration process and that encapsulates your unified customer data. You may want to include that entity to extract the most insightful observations from your data.
    
- /add image (6) 11/19
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-conflated-match-pairs.png "Conflated match pairs")
+
 
 2. At this point, you are ready to create your customized report using the Power BI left menu. Use the **Filters** fields to produce a report around:
 
