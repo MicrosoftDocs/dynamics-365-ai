@@ -151,13 +151,16 @@ Upon the completion of the matching the **Match Running** message will disappear
 
 As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, beyond the blue line status on the summary section, another signal for the completion of the matching process is the appearance of the unified entity in the **Entities** page, called **Conflation Match Pairs**:
 
-//match addition 1 11/19
+> [!div class="mx-imgBorder"] 
+> ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
 
 Clicking the master entity will show you a preview of it's records as shown below. Note that:
 - The **Scored** column reflects how certain it is that each of the records were accurately matched (confidence scores)
 - The rest of the columns present the data that was taken from the two original entities. Columns to the left of the *Scored* column (highlighted in blue below) present data that was taken from the first match pair entity while columns to the right of the *Scored* column present data taken from the second match pair entity (highlighted in green below):
 
-// match addition 2 11/19
+> [!div class="mx-imgBorder"] 
+> ![](media/match-conflation-match-pairs-scored.png "Conflation Match Pairs Scored column")
+
 
 - At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
