@@ -63,3 +63,17 @@ For more information about using the Topics page to create topics, see [Creating
 The Deploy page is where you deploy your completed bot to a support channel. As part of the deployment, you can specify a custom welcome message and any suggested conversation starters to help customers get started using your bot.
 
 For more information about using the Deploy page to deploy your bot, see [Deploying your bot](getting-started-deploy.md).
+
+## Test bot
+
+Each page includes a test bot pane, where you can test your bot and view how the bot's conversation path works in practice.
+
+You can test a bot topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the test bot pane.
+
+   > [!div class="mx-imgBorder"]
+   > ![Trigger phrase](media/bot-designer-6.PNG)
+
+    The trigger phrase starts the topic's conversation, and the test bot displays the bot responses and user response choices you specified when you created the topic on the Topics page.
+
+   > [!div class="mx-imgBorder"]
+   > ![Complete conversation](media/create-topic-22.png)

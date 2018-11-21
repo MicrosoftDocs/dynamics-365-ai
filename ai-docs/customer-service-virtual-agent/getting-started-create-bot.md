@@ -18,7 +18,7 @@ The starting point for creating a powerful custom virtual agent with AI for Cust
 
 To help get you started and tailor the bot to your specific needs, the AI for Customer Service Virtual Agent lets you create a bot using built-in industry-specific templates. The templates come with an enhanced artificial intelligence model for that industry, as well as built-in building blocks, called topics, that you can use to build a conversation path for your bot that is tailored to that industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
 
-The built-in topics supplied by the template can also be useful as a model for building your own topics. For more information, see [Use built-in topics](how-to-built-in-topics.md).
+The built-in topics supplied by the template can also be useful as a model for building your own topics. For more information, see [Work with templates](how-to-templates.md).
 
 ## To create a bot
 

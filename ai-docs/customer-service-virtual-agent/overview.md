@@ -25,3 +25,15 @@ Key features include:
 * **Continuous identification of new support topics** – In addition to helping customers with solutions, the virtual agent continuously identifies new support topics raised by customers. This insight allows customer service managers to quickly roll out solutions to new topics, creating a virtuous cycle that improves the customer's experience.
 
 * **The ability to leverage human knowledge to scale dialogs** – AI for Customer Service Virtual Agent makes it possible for professional developers to process chat transcripts generated during conversations between human agents and customers. You can extract information for high-volume support topics as well as successful solutions provided by human agents. You can tune the artificial intelligence model to suit your business, increasing the accuracy and coverage of topics served by the virtual agent.
+
+For information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
+
+For information about creating topics for your bot, see [Creating topics for your bot](getting-started-create-topics.md).
+
+For information about deploying your bot, see [Deploying your bot](getting-started-deploy.md).
+
+For information about using analytics information to help you improve your bot, see [Using bot analytics to improve your bot](getting-started-analytics.md).
+
+For information about working with the Bot Designer, see [Working with the Bot Designer](getting-started-bot-designer.md).
+
+For information about removing your bot from the AI for Customer Service Virtual Agent environment, see [Deleting a bot](getting-started-delete-bot.md).

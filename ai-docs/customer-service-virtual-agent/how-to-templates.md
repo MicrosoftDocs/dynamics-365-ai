@@ -1,6 +1,6 @@
 ---
-title: "Use built-in topics"
-description: "Learn how to use use built-in topics."
+title: "Work with templates"
+description: "Learn how to work with AI for Customer Service Virtual Agent templates."
 keywords: ""
 ms\.date: 11/14/2018
 ms.service:
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-## Use built-in topics
+# Work with templates
 
 The built-in topics supplied by the template can also be useful as a model for building your own topics. For example, to see an example of how to create a bot that gives a customer different responses for different options, go to the Topics page and open the Store hours topic in the design canvas.
 
