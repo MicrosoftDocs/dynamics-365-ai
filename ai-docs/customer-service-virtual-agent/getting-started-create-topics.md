@@ -14,9 +14,11 @@ manager: shellyha
 
 # Creating topics for your bot
 
-Topics define the conversation path used by your virtual agent bot. They can also be used as building blocks for designing the conversation path.
+Topics define the conversation path used by your virtual agent bot. You specify trigger phrases to start the conversation, and create the conversation path on the Bot Designer's design canvas. You can then see how the conversation path works in practice by testing it in the test bot, and continue to fine-tune the topic until you are ready to deploy it.
 
-When you create a bot, AI for Customer Service Virtual Agent automatically includes several system topics that help you address common situations in a conversation: A customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure. In addition, the Virtual Agent environment includes industry-specific topics depending on the template you used to create your bot. For example, the Retail template includes topics for specifying store hours or highlighting a promotion:
+You can also use a variety of built-in topics in your conversation path. AI for Customer Service Virtual Agent includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure.
+
+In addition, the Virtual Agent environment includes industry-specific topics depending on the template you used to create your bot. For example, the Retail template includes topics for specifying store hours or highlighting a promotion:
 
    > [!div class="mx-imgBorder"]
    > ![Built-in topics](media/create-topic-1.png)
@@ -57,7 +59,7 @@ When you create a bot, AI for Customer Service Virtual Agent automatically inclu
    > [!div class="mx-imgBorder"]
    > ![Save trigger phrases](media/create-topic-7.png)
 
-## To edit the topic's conversation
+## To design the topic's conversation path
 
 1. Select the topic in the topics list and click the edit icon.
 
@@ -104,4 +106,45 @@ When you create a bot, AI for Customer Service Virtual Agent automatically inclu
    > [!div class="mx-imgBorder"]
    > ![Additional user response text](media/create-topic-16.png)
 
-    The design canvas creates separate paths in the conversation, depending on the customer's response. You can design the conversation so that the virtual agent can then lead the customer to the appropriate resolution.
+    The design canvas creates separate paths in the conversation, depending on the customer's response. You can design the conversation so that the virtual agent leads the customer to the appropriate resolution path for each user response.
+
+9. Add additional bot and user responses to complete the conversation path.
+
+   > [!div class="mx-imgBorder"]
+   > ![Complete conversation](media/create-topic-17.png)
+
+10. To add a customer satisfaction survey at the end of the conversation path, select **End with survey**.
+
+   > [!div class="mx-imgBorder"]
+   > ![End with survey](media/create-topic-18.png)
+
+As you design your topic's conversation path, you can use the test bot to see how the virtual agent leads the customer through a conversation with the virtual agent.
+
+## To test the topic in the test bot
+
+1. To make the topic available to the test bot, click **Push to Test** in the upper right corner of the Bot Designer.
+
+   > [!div class="mx-imgBorder"]
+   > ![Push to test](media/create-topic-19.png)
+
+2. At the **Type your message** prompt at the bottom of the test bot pane, enter a trigger phrase for the topic.
+
+   > [!div class="mx-imgBorder"]
+   > ![Trigger phrase](media/create-topic-20.png)
+
+    The trigger phrase starts the topic's conversation, and the test bot displays the bot responses and user response choices you specified.
+
+   > [!div class="mx-imgBorder"]
+   > ![Start conversation](media/create-topic-21.png)
+
+3. Continue the conversation path until you complete the conversation.
+
+   > [!div class="mx-imgBorder"]
+   > ![Complete conversation](media/create-topic-22.png)
+
+4. To restart the conversation, click **Restart conversation** at the top of the chat bot pane.
+
+   > [!div class="mx-imgBorder"]
+   > ![Restart conversation](media/create-topic-23.png)
+
+You can return to the design canvas at any time to revise the topic's conversation path, and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).
