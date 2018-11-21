@@ -2,7 +2,7 @@
 title: "Start analyzing data in Market Insights | Microsoft Docs"
 description: "Learn how to get an overview about your data in Market Insights."
 keywords: "analytics, overview"
-ms.date: 10/31/2018
+ms.date: 11/08/2018
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8ff2ddfa-2ccc-43f3-b178-e6760dceefb9
@@ -31,14 +31,14 @@ In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to *
   
 ## Age
 
-Shows the distribution of age groups based on Bing search data. The demographic segmentation by age relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your timeframe.
+Shows the distribution of age groups based on Bing Search data. The demographic segmentation by age relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your time frame.
 
 > [!NOTE]
-> This widget only shows for organizations based in the United States. No data is available when selecting **Today** as the timeframe because search volume data is not real-time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your dataset, this widget won’t show.
+> There’s no data available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain.
 
 ## Authors
 
-The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts. 
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts. 
 
 To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
 
@@ -51,7 +51,7 @@ To add a filter for multiple authors at once, select the check boxes on the left
 Shows the distribution of genders based on Bing search data. The demographic segmentation by gender relates to the keywords in your search topics. It shows which segment of people have searched for keywords in your search topics on Bing during your timeframe.
 
 > [!NOTE]
-> This widget only shows for organizations based in the United States. No data is available when selecting **Today** as the timeframe because search volume data is not real-time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your dataset, this widget won’t show.
+> There’s no data available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this widget won’t show. This widget only shows for organizations based in the following countries/regions: United States, United Kingdom, France, Germany, Canada, Australia, Italy, and Spain.
 
 ## Languages
 
@@ -59,7 +59,7 @@ Lists the five most-used languages based on the volume of posts and trend indica
 
 ## Location insights
 
-Visualizes the posts with location information on a map to show where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
+Visualizes the posts with location information on a map to show where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real time, with additional functionality. 
 
 Dynamic widget. Shows only if posts with location information are available in the selected data set.
 
@@ -79,7 +79,7 @@ Shows the top five categories if you include all search topics in your dataset, 
 
 ## Sentiment
 
-Shows the sentiment index across all posts that have a sentiment value in the selected dataset. It also shows changes in the sentiment index compared to the last similar timeframe and the trend indicator.    
+Shows the sentiment index across all posts that have a sentiment value in the selected data set. It also shows changes in the sentiment index compared to the last similar time frame and the trend indicator.    
 
 You can [manually change the sentiment values](analytics-sentiment.md) if you find that sentiment for a post is analyzed incorrectly. 
 
@@ -87,15 +87,17 @@ Dynamic widget. Shows only if the data set contains posts with sentiment values.
 
 ## Sentiment by category/search topic
 
-View the sentiment index and sentiment trends for all posts that have a sentiment value in categories or search topics, sorted by volume.  
+View the sentiment index and sentiment trends for all posts that have a sentiment value in categories or search topics, sorted by volume.    
 
-Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.
+Select the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.
 
 Dynamic widget. Shows only if your data set contains posts with sentiment value. If you include all search topics in your data set, it will show the sentiment by categories. If you include a category in your data set, it will show the sentiment by search topic.
 
 ## Sources
 
-Shows the number of posts in the most active sources and summarizes how many posts were found in other sources. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
+Shows the number of posts in the most active sources and summarizes how many posts were found in other sources.  
+
+Click the **Full view** button ![full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
 
 ## Volume
 
@@ -103,13 +105,16 @@ Shows the total number of posts and the average number of posts for the selected
 
 Additionally, organizations based in the United States see an additional line for **Bing Search trend**. This line indicates the volume of searches on Bing (on an aggregated, anonymized, and normalized basis) for the keywords in your dataset.
 
+Additionally, organizations based in the United States, the United Kingdom, France, Germany, Canada, Australia, Italy, and Spain see an additional line for **Bing Search trend**. This line indicates the volume of searches on Bing (on an aggregated, anonymized, and normalized basis) for the keywords in your data set. 
+
 The trend line is scaled from 0-100, with 0 representing very low search volume and 100 representing peak search volumes. The peak search volume is defined relatively to its own search volume and therefore not an absolute peak across different search topics. 
 
 > [!NOTE]
-> **Bing Search trends** aren’t available when selecting **Today** as the timeframe because search volume data is not real-time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your dataset, this line won’t show.
+> **Bing Search trends** aren’t available when selecting **Today** as the time frame because search volume data is not real time and experiences a minimum of a 24-hour lag. It can’t interact with any other filters and it isn’t clickable. If no keyword rule is part of the selected search topics for your data set, this line won’t show.
 
+  
 ### See also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
 [Use filters to see relevant data](use-filters.md)    
 [Explore more options with your data set](more-options-with-data-set.md)    
-[Understand the public perception using sentiment analysis](analytics-sentiment.md)
+[Understand public perception using sentiment analysis](analytics-sentiment.md)

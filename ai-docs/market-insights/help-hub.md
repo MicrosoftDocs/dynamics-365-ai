@@ -28,7 +28,7 @@ search.app:
 <h2> Get started </h2>
 <li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">Market Insights overview</a></li>
 <li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
-<li><a href="social-selling-assistant-overview.md" data-raw-source="[Meet the Social Selling Assistant](social-selling-assistant-overview.md)">Meet the Social Selling Assistant</a></li>
+<li><a href="release-notes.md" data-raw-source="[What's new](release-notes.md)">What's new</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
 </td>
 <td>
