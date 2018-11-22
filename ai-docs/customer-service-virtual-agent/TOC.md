@@ -1,8 +1,6 @@
 # [Overview](overview.md)
 
-# Quickstart
-
-## [Quickstart - Create a customer service bot using AI for Customer Service Virtual Agent](quickstart.md)
+# [Quickstart](quickstart.md)
 
 # Getting started
 
