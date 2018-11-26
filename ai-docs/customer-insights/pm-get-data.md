@@ -45,15 +45,17 @@ To load data to Customer 360 follow the following process:
 ### Step 2 (mandatory): Adding Entities
 Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is an **entity** (such as an **Orders** dataset, a **Sales** dataset, etc). 
 
-1. In order to start ingesting entities, pick one of the many available data sources and provide the connection string and credentials as shown below. Lastly, click **Next**.
+1. In order to start ingesting entities, pick one of the many available data sources that are available within the screen below:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-select-source.png "Get data select source")
+  
+2. After choosing a data source, you will be required to fill some fields as shown in the example below. For further guidance around filling those fields for some of the most common data sources (Dynamics 365, csv. and excel files, Blub storage, Azure SQL Database, etc), review the **Common Connectors Definitions** sub-section **that can be found under this section** in the left menu. 
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
-2. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** For example, if you are ingesting data from a .CSV file and the first row has headers then you can select **Transform Table** to do the following:
+3. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** For example, if you are ingesting data from a .CSV file and the first row has headers then you can select **Transform Table** to do the following:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
@@ -63,12 +65,12 @@ In addition, it is highly recommended to map your data to standard format of dat
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
-3. Select **Save** to save the data source:
+4. Select **Save** to save the data source:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
-4. After saving, select **Refresh** to load the data to Customer 360:
+5. After saving, select **Refresh** to load the data to Customer 360:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
@@ -101,3 +103,7 @@ Follow the below steps to edit an existing data source:
 
 ### Next steps: 
 At this point you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
+
+// To add to a seperate sub-section that will be called *Common Connectors Definitions*:
+
+// To add to a seperate sub-section that will be called *Recommended Trasformations*:
