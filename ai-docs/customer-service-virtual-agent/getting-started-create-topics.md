@@ -16,28 +16,33 @@ manager: shellyha
 
 Topics define the conversation path used by your virtual agent bot. You specify trigger phrases to start the conversation, and create the conversation path on the Bot Designer's design canvas. You can then see how the conversation path works in practice by testing it in the test bot, and continue to fine-tune the topic until you are ready to deploy it.
 
-You can also use a variety of built-in topics in your conversation path. AI for Customer Service Virtual Agent includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure.
+## To create your own topic
 
-In addition, the Virtual Agent environment includes industry-specific topics depending on the template you used to create your bot. For example, the Retail template includes topics for specifying store hours or highlighting a promotion:
+1. Click **Topics** in the navigation pane to open the Topics page.
+
+   > [!div class="mx-imgBorder"]
+   > ![Open Topics page](media/create-topic-1-1.png)
+
+    The Topics page displays a list of your bot's current topics, including a variety of built-in topics. AI for Customer Service Virtual Agent includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure.
+
+    In addition, the Virtual Agent environment includes industry-specific topics depending on the template you used to create your bot. For example, the Retail template includes topics for specifying store hours or highlighting a promotion:
 
    > [!div class="mx-imgBorder"]
    > ![Built-in topics](media/create-topic-1.png)
 
-## To create your own topic
-
-1. On the Topics page, click **New topic** to display the **Create a new topic** screen.
+2. On the Topics page, click **New topic** to display the **Create a new topic** screen.
 
    > [!div class="mx-imgBorder"]
    > ![New topic](media/create-topic-2.png)
 
-2. Specify a name, description, and one of more trigger phrases for the topic.
+3. Specify a name, description, and one of more trigger phrases for the topic.
 
     A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic. Once the conversation is started, the conversation follows the path you define for the topic.
 
    > [!div class="mx-imgBorder"]
    > ![Create topic](media/create-topic-3.png)
 
-3. Click **Save** to add the topic to the topics list.
+4. Click **Save** to add the topic to the topics list.
 
    > [!div class="mx-imgBorder"]
    > ![Save topic](media/create-topic-4.png)
