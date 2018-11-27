@@ -24,6 +24,11 @@ robots: noindex,nofollow
 
 **You can bring in data to Customer 360 by using the 20+ out-of-the-box connectors** that we make available for sources, such as Dynamics 365, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, **you can always export the data from your source as a CSV file and import to Customer 360 using our CSV connector.** To import data to Customer 360, you need to create a data source. It’s recommended to have multiple data sources based on your sources of the data as it allows you to have different refresh schedules and credentials for refresh.
 
+## Common Connectors Guidance
+
+
+## Get data steps
+
 ### Step 1 (mandatory): Creating a new data source
 To load data to Customer 360 follow the following process:
 
