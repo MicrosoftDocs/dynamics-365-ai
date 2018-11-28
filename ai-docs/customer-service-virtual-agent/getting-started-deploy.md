@@ -23,7 +23,7 @@ Once you have finished designing you bot, including its topics and conversation 
    > [!div class="mx-imgBorder"]
    > ![Open Deploy page](media/deploy-bot-1.png)
 
-2. Enter a welcome message for your bot and some examples of topic triggers to use as conversation starters, and then click the **Deploy** button.
+2. Enter a welcome message for your bot and some examples of topic triggers to use as conversation starters, and then click **Deploy**.
 
    > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
