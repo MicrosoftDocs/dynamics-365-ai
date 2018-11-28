@@ -65,7 +65,7 @@ Select **SQL Server database**.
 ### Ingest data from a file hosted in Azure blob
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/connector-azure-storage.png"Select Azure Blobs")
+   > ![](media/connector-azure-storage.png "Select Azure Blobs")
 
 To ingest data to Dynamics 360 from a csv file hosted in a blob in an Azure subscription, follow these steps.
 
@@ -74,7 +74,7 @@ To ingest data to Dynamics 360 from a csv file hosted in a blob in an Azure subs
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs.png "Select Azure Blobs")
 
-2. Enter the account name and account key, and then select ***Next**.
+2. Enter the account name and account key, and then select **Next**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-account-name-key.png "Enter Blob account name and key")
