@@ -26,12 +26,73 @@ robots: noindex,nofollow
 
 ## Common Connectors Guidance
 
-### How to ingest data from Dynamics 365 for Customer Engagement
+### Ingest data from Dynamics 365 for Customer Engagement
 
-Select **Common Data Service for Apps** as shown in red below:
+Select **Common Data Service for Apps**.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-cds.png "Select Common Data Service")
 
+### Ingest data from Azure SQL database
 
+Select **SQL Server database**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-sql-database.png "Select SQL database")
+
+### Ingest data from Excel
+
+1. If it’s a desktop file (text/csv), you should first either upload it to OneDrive or save it in SharePoint (as explained here: [https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A](https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
+
+2. Select **Excel**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-excel.png "Select Excel")
+
+3. Provide the URL to your online file location.
+
+### Ingest data from a csv file
+
+1. Upload the file to a blob storage account (create an account if needed).
+
+2. Select **Azure Blobs**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs.png "Select Azure Blobs")
+
+3. Continue through steps 2-4 for Blob below.
+
+### Ingest data from a file hosted in Azure blob
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-storage.png"Select Azure Blobs")
+
+To ingest data to Dynamics 360 from a csv file hosted in a blob in an Azure subscription, follow these steps.
+
+1. Select Blob connector from the list of connectors.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs.png "Select Azure Blobs")
+
+2. Enter the account name and account key, and then select ***Next**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs-account-name-key.png "Enter Blob account name and key")
+
+   **Note**: You can find the account name and key from **Access keys** in the Azure portal as show below: 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs-access-keys.png "Blob access keys")
+
+3. This will now list out all the containers in the blob, select the container with the CSV file and click next. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs-container.png "Get data tile")
+
+4.	Now you will see the various csv files in the container, click on **[Table]** in the content column to expand and see the file content preview. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs-preview.png "Get data tile")
 
 ## Get data steps
 
