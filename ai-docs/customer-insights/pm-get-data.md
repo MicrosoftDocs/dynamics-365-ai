@@ -26,6 +26,12 @@ robots: noindex,nofollow
 
 ## Common Connectors Guidance
 
+### How to ingest data from Dynamics 365 for Customer Engagement
+
+Select **Common Data Service for Apps** as shown in red below:
+
+
+
 
 ## Get data steps
 
