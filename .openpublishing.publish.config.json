@@ -42,7 +42,11 @@
       "Publish",
       "Pdf"
     ],
-    "ci-share": [
+    "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "Steve-working-branch": [
       "Publish",
       "Pdf"
     ]
