@@ -5,7 +5,7 @@
     href: pm-get-data.md
     items:
     - name: Common Connectors Guidance
-    - href: pm-common-connectors.md
+    - href: pm-match.md
   - name: Entities
     href: pm-entities.md
   - name: Configure data
