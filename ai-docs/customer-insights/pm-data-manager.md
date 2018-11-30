@@ -37,6 +37,9 @@ In these sections, we explain how to bring data from many of your sources:
 - Behavioral sources
 - Any other data you might have 
 
+***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
+We hope to enable that option soon.
+
 Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
 Data Manager includes two modules: Get Data and Entities. In the [Get Data](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module.
