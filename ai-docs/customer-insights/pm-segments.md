@@ -18,11 +18,11 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Segmentation
+# Segments
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Segmentation provides the ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns or surveys to achieve desired business goals. Segmentation allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities that are ingested from various data sources. Each segment, after processing, outputs a set of master customer entity records which matches the various filter criteria defined in the segment.
+Segments provides the ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities that are ingested from various data sources. Each segment, after processing, outputs a set of master customer entity records which matches the various filter criteria defined in the segment.
 
 There are two types of segments:
 
