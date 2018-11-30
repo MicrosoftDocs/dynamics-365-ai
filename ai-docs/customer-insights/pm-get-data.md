@@ -26,6 +26,9 @@ robots: noindex,nofollow
 
 ## Get data steps
 
+***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
+We hope to enable that option soon.
+
 ### Step 1 (mandatory): Creating a new data source
 To load data to Customer 360 follow the following process:
 
