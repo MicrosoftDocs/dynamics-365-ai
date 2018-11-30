@@ -24,6 +24,9 @@ robots: noindex,nofollow
 
 ## Common Connectors Guidance
 
+***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
+We hope to enable that option soon.
+
 ### Ingest data from Dynamics 365 for Customer Engagement
 
 Select **Common Data Service for Apps**.
