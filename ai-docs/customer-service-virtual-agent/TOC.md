@@ -36,6 +36,4 @@
 
 ### [Customer satisfaction dashboard](dashboard-csat.md)
 
-## [Glossary](reference-glossary.md)
-
 ## [Settings](reference-settings.md)
