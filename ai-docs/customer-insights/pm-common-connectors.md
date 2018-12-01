@@ -27,41 +27,22 @@ robots: noindex,nofollow
 ***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
 We hope to enable that option soon.
 
-### Ingest data from Dynamics 365 for Customer Engagement
+### Ingest data from an Excel file (text/csv.)
 
-Select **Common Data Service for Apps**.
+1. If it’s a desktop file, you should first save it in SharePoint (as explained here: [https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A](https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-cds.png "Select Common Data Service")
-
-### Ingest data from Azure SQL database
-
-Select **SQL Server database**.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-sql-database.png "Select SQL database")
-
-### Ingest data from Excel
-
-1. If it’s a desktop file (text/csv), you should first either upload it to OneDrive or save it in SharePoint (as explained here: [https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A](https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
-
-2. Select **Excel**.
+2. Select the **Text/csv** connector:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-excel.png "Select Excel")
 
-3. Provide the URL to your online file location.
 
-### Ingest data from a csv file
 
-1. Upload the file to a blob storage account (create an account if needed).
 
-2. Select **Azure Blobs**.
+//Jim can you add the content here? Thanks!
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/connector-azure-blobs.png "Select Azure Blobs")
 
-3. Continue through steps 2-4 for Blob below.
+
 
 ### Ingest data from a file hosted in Azure blob
 
@@ -94,3 +75,17 @@ To ingest data to Dynamics 360 from a csv file hosted in a blob in an Azure subs
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-preview.png "Get data tile")
+   
+### Ingest data from Dynamics 365 for Customer Engagement
+
+Select **Common Data Service for Apps**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-cds.png "Select Common Data Service")
+
+### Ingest data from Azure SQL database
+
+Select **SQL Server database**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-sql-database.png "Select SQL database")
