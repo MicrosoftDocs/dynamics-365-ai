@@ -22,12 +22,10 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Common Connectors Guidance
-
 ***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
 We hope to enable that option soon.
 
-### Ingest data from an Excel file (text/csv.)
+## Ingest data from an Excel file (text/csv.)
 
 1. If it’s a desktop file, you should first save it in SharePoint (as explained here: [https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A](https://support.office.com/en-us/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
 
@@ -42,14 +40,15 @@ We hope to enable that option soon.
 
    https://microsoft.sharepoint.com/:u:/t/TeamName/EdP4Jh3iCj9DUteIBCzbdOX7C4bmVvzlDo81F0A?e=2Co1vj
    
-   and needs to be formatted following these steps:<br/>
+   and needs to be formatted following these steps:
 
-   1. https://microsoft.sharepoint.com (Standard SP base URL)
-   2. /teams/YourTeamName (the specific team name)
-   3. /Shared%20Documents/ (standard SP shared documents path)
-   4. yourFolder/yourFile.csv (your folder and file name)
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-format-url1.png "Format URL")
 
- The final result for the above will be: https://microsoft.sharepoint.com/teams/YourTeamName/Shared%20Documents/yourFolder/yourFile.csv
+ The final result for the above will be: 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-format-final-result.png "Format URL")
 
  Let's take an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
@@ -70,7 +69,7 @@ We hope to enable that option soon.
 > ![](media/connector-folder-structure.png "File name and folder structure")
 
 
-### Ingest data from a file hosted in Azure blob
+## Ingest data from a file hosted in Azure blob
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-storage.png "Select Azure Blobs")
@@ -102,14 +101,29 @@ To ingest data to Dynamics 360 from a csv file hosted in a blob in an Azure subs
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-preview.png "Get data tile")
    
-### Ingest data from Dynamics 365 for Customer Engagement
+## Ingest data from Dynamics 365 for Customer Engagement
 
 Select **Common Data Service for Apps**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-cds.png "Select Common Data Service")
 
-### Ingest data from Azure SQL database
+Provide your server URL.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-provide-server-url.png "Provide server URL")
+
+Log in with your username and password.
+
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-ce-log-in.png "Log in")
+
+
+## Ingest data from Azure SQL database
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-azure-blobs-preview.png "Get data tile")
 
 Select **SQL Server database**.
 
