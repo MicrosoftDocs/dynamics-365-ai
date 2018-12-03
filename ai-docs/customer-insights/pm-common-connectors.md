@@ -42,22 +42,32 @@ We hope to enable that option soon.
 
    https://microsoft.sharepoint.com/:u:/t/TeamName/EdP4Jh3iCj9DUteIBCzbdOX7C4bmVvzlDo81F0A?e=2Co1vj
    
-   and needs to be formatted following these steps:
+   and needs to be formatted following these steps:<br/>
 
    1. https://microsoft.sharepoint.com (Standard SP base URL)
    2. /teams/YourTeamName (the specific team name)
    3. /Shared%20Documents/ (standard SP shared documents path)
    4. yourFolder/yourFile.csv (your folder and file name)
 
- The final result for the above will be: <code>https://microsoft.sharepoint.com</code><code>/teams/YourTeamName/</code><code>Shared%20Documents/</code><code>yourFolder/yourFile.csv</code> 
+ The final result for the above will be: https://microsoft.sharepoint.com/teams/YourTeamName/Shared%20Documents/yourFolder/yourFile.csv
 
  Let's take an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
 
-Your team name:
+**Your team name:**
 
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-team-name.png "Team name")
 
+**Root folder to your documents:**
 
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-root-folder.png "Root folder")
+
+**File name and the folder structure for the file:**
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-folder-structure.png "File name and folder structure")
 
 
 ### Ingest data from a file hosted in Azure blob
