@@ -50,7 +50,9 @@ To load data to Customer 360 follow the following process:
 ### Step 2 (mandatory): Adding Entities
 Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is an **entity** (such as an **Orders** dataset, a **Sales** dataset, etc). 
 
-1. In order to start ingesting entities, pick one of the many available data sources that are available within the screen below:
+1. In order to start ingesting entities, pick one of the many available data sources that are available within the screen below.
+- **Note that some of the following data sources are not supported at this point, including on-prem sources and OData**. 
+- **Also note that some of the following connoctors replaced older connoctor versions. For example, if you wish to Utilize the Dynamics 365 AX connoctor, you should choose the "Common Data Service for Apps" option.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-select-source.png "Get data select source")
