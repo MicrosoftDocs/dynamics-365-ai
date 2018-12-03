@@ -51,7 +51,7 @@ We hope to enable that option soon.
 
    The final result for the above will be: https://microsoft.sharepoint.com/teams/YourTeamName/Shared%20Documents/yourFolder/yourFile.csv 
 
-   Some Markdown text with <span style="color:blue">some *blue* text</span>.
+   Some Markdown text with <code>some *blue* text</code>.
 
 
 
