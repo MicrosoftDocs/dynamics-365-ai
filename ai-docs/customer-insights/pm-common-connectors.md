@@ -49,9 +49,7 @@ We hope to enable that option soon.
    c. /Shared%20Documents/ (standard SP shared documents path) 
    d. yourFolder/yourFile.csv (your folder and file name) 
 
-   The final result for the above will be: https://microsoft.sharepoint.com/teams/YourTeamName/Shared%20Documents/yourFolder/yourFile.csv 
-
-   Some Markdown text with <code>some *blue* text</code>.
+   The final result for the above will be: <code>https://microsoft.sharepoint.com</code><code>/teams/YourTeamName</code>/<code>Shared%20Documents/</code><code>yourFolder/yourFile.csv</code> 
 
 
 
