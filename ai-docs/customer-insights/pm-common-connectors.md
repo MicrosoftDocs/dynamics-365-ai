@@ -44,12 +44,18 @@ We hope to enable that option soon.
    
    and needs to be formatted following these steps:
 
-   a. https://microsoft.sharepoint.com (Standard SP base URL)  
-   b. /teams/YourTeamName (the specific team name) 
-   c. /Shared%20Documents/ (standard SP shared documents path) 
-   d. yourFolder/yourFile.csv (your folder and file name) 
+   1. https://microsoft.sharepoint.com (Standard SP base URL)
+   2. /teams/YourTeamName (the specific team name)
+   3. /Shared%20Documents/ (standard SP shared documents path)
+   4. yourFolder/yourFile.csv (your folder and file name)
 
-   The final result for the above will be: <code>https://microsoft.sharepoint.com</code><code>/teams/YourTeamName</code>/<code>Shared%20Documents/</code><code>yourFolder/yourFile.csv</code> 
+ The final result for the above will be: <code>https://microsoft.sharepoint.com</code><code>/teams/YourTeamName/</code><code>Shared%20Documents/</code><code>yourFolder/yourFile.csv</code> 
+
+ Let's take an example of a copied link: 
+ https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
+
+Your team name:
+
 
 
 
