@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Frequently asked questions for sales manager capabilities
+# Frequently asked questions for seller capabilities
 
 ## Relationship analytics
 
