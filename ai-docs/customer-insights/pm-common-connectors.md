@@ -115,17 +115,28 @@ Provide your server URL.
 
 Log in with your username and password.
 
-
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-ce-log-in.png "Log in")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-account.png "Account")
 
 
 ## Ingest data from Azure SQL database
 
+Select **SQL Server database** from the connector list.
+
 > [!div class="mx-imgBorder"] 
-> ![](media/connector-azure-blobs-preview.png "Get data tile")
+> ![](media/connector-select-sql-server-database.png "Select SQL Server database")
 
 Select **SQL Server database**.
 
+Provide your database server, database name, username and password.
+
 > [!div class="mx-imgBorder"] 
-> ![](media/connector-sql-database.png "Select SQL database")
+> ![](media/connector-provide-database-settings.png "Provide database settings")
+
+Pick data from tables you want to bring in.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-pick-data-from-tables.png "Pick data from tables")
