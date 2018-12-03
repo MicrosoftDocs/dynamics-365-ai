@@ -36,10 +36,22 @@ We hope to enable that option soon.
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-excel.png "Select Excel")
 
+3. Manually formatting the URL to your online document
 
+   Once you copy the URL to your online document from Share Point, it should look like this: 
 
+   https://microsoft.sharepoint.com/:u:/t/TeamName/EdP4Jh3iCj9DUteIBCzbdOX7C4bmVvzlDo81F0A?e=2Co1vj
+   
+   and needs to be formatted following these steps:
 
-//Jim can you add the content here? Thanks!
+   a. https://microsoft.sharepoint.com (Standard SP base URL)  
+   b. /teams/YourTeamName (the specific team name) 
+   c. /Shared%20Documents/ (standard SP shared documents path) 
+   d. yourFolder/yourFile.csv (your folder and file name) 
+
+   The final result for the above will be: https://microsoft.sharepoint.com/teams/YourTeamName/Shared%20Documents/yourFolder/yourFile.csv 
+
+   Some Markdown text with <span style="color:blue">some *blue* text</span>.
 
 
 
