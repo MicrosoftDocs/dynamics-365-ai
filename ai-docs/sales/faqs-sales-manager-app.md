@@ -24,22 +24,25 @@ topic-status: Drafting
 
 ## Dynamics 365 AI for Sales app
 
-**What languages are supported now?​**
-The application supports English (en-us) for tenants in the US region. We support more languages in the future releases.
+**What languages are supported now?​**<br>
+The application supports English (en-us) for tenants in the US region. We will support more languages in future releases
 
-**When will you expand to support my region?**
+**When will you expand to support my region?**<br>
 We plan to enhance our region availability by Spring 2019.
 
-**Can I add my own reports?**
-No, we provide out-of-the-box visualizations and charts only.
+**Can I add my own reports?**<br>
+No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities please leave us a suggestion at: <!--[ideas site]-->
 
-**When will this product be Generally Available (GA)?**
+**Are goals required to use the app?**<br>
+No, however it is recommended to setup Revenue goals for each seller to get even better insights into the performance of your team. For more information please read [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
+
+**When will this product be Generally Available (GA)?**<br>
 We are targeting Spring 2019 for GA.
 
-**Can sellers (or non-managers) use this app?**
+**Can sellers (or non-managers) use this app?**<br>
 The application is currently designed to bring the most value to sales managers. The application cannot provide much of value for sellers though they can use this application.
 
-**Is an admin needed to enable the app for my organization?**
+**Is an admin needed to enable the app for my organization?**<br>
 No, up to 5 sales managers can use the application before the system administrator is required to log in.
 
 ## Call intelligence

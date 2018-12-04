@@ -102,7 +102,7 @@ Who knows whom requires Office 365 Exchange. The graph is built on user accounts
 **How do I enable Who knows whom?​**<br>
 Install Dynamics 365 AI for Sales, opt-in to Connection insights from Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
 
-​**How long will it take for results to appear?**​<br>
+**How long will it take for results to appear?**<br>
 The graph requires approximately 24 hours to populate the results for the first time. Subsequent updates take 3-6 days based on new activities included in the graph.​
 
 **​Who will be included in the graph?​**<br>
