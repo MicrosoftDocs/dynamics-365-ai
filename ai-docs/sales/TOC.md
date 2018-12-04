@@ -21,6 +21,7 @@
 ### [View overall sales insights](../sales/d365-ai-overview.md)
 ### [Analyze business performance](../sales/d365-ai-business-performance.md)
 ### [Analyze team performance](../sales/d365-ai-team-performance.md)
+### [Configure call intelligence](configure-call-intelligence.md)
 ### [Analyze customer calls](../sales/call-intelligence.md)
 ### [FAQs for sales manager capabilities](faqs-sales-manager-app.md)
 ### [Privacy notice](privacy-notice-manager.md)
