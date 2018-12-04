@@ -32,15 +32,20 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
 
 3. Specify a name, description, and one of more trigger phrases for the topic.
 
-    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic. Then click **Save**.
+    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic. Click **Add** to add the trigger phrase.
 
    > [!div class="mx-imgBorder"]
-   > ![Create topic](media/create-topic-3.png)
+   > ![Create topic](media/create-topic-3-1.png)
 
-4. Design the virtual agent's conversation path. Select the topic in the topics list and click the edit icon to open the design canvas.
+    Then click **Save topic**.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit conversation](media/create-topic-8.png)
+   > ![Create topic](media/create-topic-3-2.png)
+
+4. Design the virtual agent's conversation path. Click **Edit conversation** to open the design canvas.
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit conversation](media/create-topic-8-1.png)
 
 5. On the design canvas, add bot and user responses to the conversation, then click **Save**.
 
@@ -62,7 +67,7 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Test bot](media/deploy-bot-4.png)
 
-9. Share your bot. On the Deploy page, click **Copy** to copy the URL for the bot test environment web page, and then distribute the URL.
+9. Share your bot. On the Deploy page, click **Share** to copy the URL for the bot test environment web page, and then distribute the URL.
 
    > [!div class="mx-imgBorder"]
    > ![Share bot](media/deploy-bot-5.png)

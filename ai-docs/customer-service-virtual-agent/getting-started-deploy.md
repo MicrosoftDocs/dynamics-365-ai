@@ -40,7 +40,7 @@ Once you have finished designing you bot, including its topics and conversation 
 
 ## To share your bot in the web test environment
 
-1. In the **Share your bot** section on the Deploy page in the Bot Designer, click **Copy** to copy the URL for the bot test environment web page.
+1. Click **Share** to copy the URL for the bot test environment web page.
 
    > [!div class="mx-imgBorder"]
    > ![Share bot](media/deploy-bot-5.png)

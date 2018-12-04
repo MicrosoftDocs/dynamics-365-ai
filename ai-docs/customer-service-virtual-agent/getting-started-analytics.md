@@ -21,7 +21,7 @@ To view the bot analytics dashboards, click **Analytics** in the navigation pane
    > [!div class="mx-imgBorder"]
    > ![Open Analytics page](media/analytics-1.png)
 
-You can display [Overview](dashboard-overview.md), [Suggested](dashboard-suggested.md), [Topics](dashboard-topics.md), and [Customer satisfaction](dashboard-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page. The Overview dashboard is the default AI for Customer Service Virtual Agent dashboard.
+You can display [Overview](dashboard-overview.md), [Engagements](dashboard-engagement.md), and [Customer satisfaction](dashboard-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page. The Overview dashboard is the default AI for Customer Service Virtual Agent dashboard.
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard tabs](media/analytics-2.png)

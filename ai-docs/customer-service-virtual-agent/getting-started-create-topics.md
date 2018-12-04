@@ -23,50 +23,44 @@ Topics define the conversation path used by your virtual agent bot. You specify 
    > [!div class="mx-imgBorder"]
    > ![Open Topics page](media/create-topic-1-1.png)
 
-    The Topics page displays a list of your bot's current topics, including a variety of built-in topics. AI for Customer Service Virtual Agent includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure.
+    The Topics page displays a list of your bot's current topics,
 
-    In addition, the Virtual Agent environment includes industry-specific topics depending on the template you used to create your bot. For example, the Retail template includes topics for specifying store hours or highlighting a promotion:
+    The Virtual Agent environment includes industry-specific topics depending on the template you used to create your bot. For example, the Retail template includes topics for specifying store hours or highlighting a promotion:
 
    > [!div class="mx-imgBorder"]
    > ![Built-in topics](media/create-topic-1.png)
+
+    AI for Customer Service Virtual Agent also includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure.
 
 2. On the Topics page, click **New topic** to display the **Create a new topic** screen.
 
    > [!div class="mx-imgBorder"]
    > ![New topic](media/create-topic-2.png)
 
-3. Specify a name, description, and one of more trigger phrases for the topic.
+3. Specify a name, description, and one or more trigger phrases for the topic.
 
-    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic. Once the conversation is started, the conversation follows the path you define for the topic.
+    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. Once the conversation is started, the conversation follows the path you define for the topic. You can specify more than one trigger phrase for a topic. Having at least 20 trigger phrases can improve the usage of your topic.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create topic](media/create-topic-3.png)
-
-4. Click **Save** to add the topic to the topics list.
+4. Click **Add** to add the trigger phrase.
 
    > [!div class="mx-imgBorder"]
-   > ![Save topic](media/create-topic-4.png)
+   > ![Create topic](media/create-topic-3-1.png)
 
-## To add additional trigger phrases for the topic
-
-1. Click the topic in the topics list to open the Trigger phrases screen.
+5. Click **Save topic** to add the topic to the topics list.
 
    > [!div class="mx-imgBorder"]
-   > ![Open trigger phrases](media/create-topic-5.png)
+   > ![Save topic](media/create-topic-3-2.png)
 
-2. Add additional phrases that a customer might enter in the chat window to trigger the conversation.
-
-   > [!div class="mx-imgBorder"]
-   > ![Add trigger phrases](media/create-topic-6.png)
-
-3. Click **Save topic** to save the changes.
-
-   > [!div class="mx-imgBorder"]
-   > ![Save trigger phrases](media/create-topic-7.png)
+To add additional trigger phrases, open the topic, enter a trigger phrase in the **Trigger phrases** box, and the click **Add**.
 
 ## To design the topic's conversation path
 
-1. Select the topic in the topics list and click the edit icon.
+1. Click **Edit conversation** to open the design canvas.
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit conversation](media/create-topic-8-1.png)
+
+    You can also select the topic in the topics list and click the edit icon.
 
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8.png)
@@ -122,6 +116,8 @@ Topics define the conversation path used by your virtual agent bot. You specify 
 
    > [!div class="mx-imgBorder"]
    > ![End with survey](media/create-topic-18.png)
+
+    Then click **Save** to save the conversation path.
 
 As you design your topic's conversation path, you can use the test bot to see how the virtual agent leads the customer through a conversation with the virtual agent.
 

@@ -18,11 +18,17 @@ To help give you a jump start on creating and developing your virtual agent bots
 
 Each template comes with an enhanced artificial intelligence model for a specific industry, and built-in topics that you can use to build a conversation path tailored to that industry. For example, the Retail template includes topics for specifying store hours or highlighting a sales promotion.
 
-The built-in topics supplied by the template can also be useful as a model for building your conversation path. 
+The built-in topics supplied by the template can also be useful as a model for building your conversation path.
 
 ## Using industry-specific templates to create your virtual agent
 
-AI for Customer Service Virtual Agent templates include industry-specific topics that provide building blocks tailored to creating a virtual agent for that industry, as well as several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, and a confirmed failure.
+AI for Customer Service Virtual Agent templates include industry-specific topics that provide building blocks tailored to creating a virtual agent for that industry, as well as several system topics that help you address common situations. These include:
+
+* A customer greeting
+* Escalation to a live agent
+* The end of the conversation
+* A confirmed success
+* A confirmed failure
 
 ## Using template topics as a model for building your conversation path
 
