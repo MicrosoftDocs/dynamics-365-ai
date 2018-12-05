@@ -49,6 +49,12 @@ We've introduced a quick and easy way to sign in to [!INCLUDE[Market Insights](.
 
 Save this URL to your bookmarks if you don't want to sign in to Office 365 before accessing [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
+### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
+
+As of December 11, 2018, we will introduce the ability to track your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. You will be able to acquire posts and comments on your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts. To use this new functionality, the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Account needs to be linked to the respective Facebook page. Users in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will need to authenticate or re-authenticate their Facebook Acquisition profile and set up [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search rules. 
+
+[!INCLUDE [tn-instagram](../includes/tn-instagram.md)] is retiring keyword searches on December 11, 2018, and users will not be able to create new keyword search rules in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed. However, no new [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data will be acquired for these rules. If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you create a separate search rule with the changes and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data untouched.
+
 ## Public Preview update 1 (November 21, 2018)
 
 ### Extended availability of age, gender, and search trend data
