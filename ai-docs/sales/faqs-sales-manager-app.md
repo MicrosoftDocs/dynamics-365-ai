@@ -31,7 +31,7 @@ The application supports English (en-us) for tenants in the US region. We will s
 We plan to enhance our region availability by Spring 2019.
 
 **Can I add my own reports?**<br>
-No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities please leave us a suggestion at: <!--[ideas site]-->
+No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities please leave us a suggestion at [Dynamics 365 AI for Sales communities](https://aka.ms/aisalescommunities) page.
 
 **Are goals required to use the app?**<br>
 No, however it is recommended to setup Revenue goals for each seller to get even better insights into the performance of your team. For more information please read [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
