@@ -71,3 +71,11 @@ Impact charts use artificial intelligence technology to show you the topics that
 
 > [!div class="mx-imgBorder"]
 > ![Impact charts](media/analytics-6.PNG)
+
+For details on AI for Customer Service Virtual Agent analytics, see the following topics:
+
+* [Analytics reference](analytics-reference.md)
+* [Summary dashboard](analytics-summary.md)
+* [Engagement dashboard](analytics-engagement.md)
+* [Customer satisfaction dashboard](analytics-CSAT.md)
+* [Download sessions page](analytics-sessions.md)

@@ -23,13 +23,15 @@ Dynamics 365 AI for Customer Service Virtual Agent offers the following experien
 * Export customer data – Bot Designer bot content
 * Export customer data – Bot Designer system content
 * Export customer data – Bot Designer non-system content
+* Export customer data – Analytics data
 
 ### Export customer data – Bot Designer bot content
 
 1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
 2. On the Settings menu, select **Export all bot content**.
 
-    ![Export bot content](media/gdpr-export-1.png)
+   > [!div class="mx-imgBorder"]
+   > ![Export bot content](media/gdpr-export-1.png)
 
 All bot content will be immediately deleted.
 
@@ -38,7 +40,8 @@ All bot content will be immediately deleted.
 1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
 2. On the Settings menu, select **Export all system content**.
 
-    ![Export system content](media/gdpr-export-2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Export system content](media/gdpr-export-2.png)
 
 All system content will be immediately deleted.
 
@@ -47,6 +50,24 @@ All system content will be immediately deleted.
 1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
 2. On the Settings menu, select **Export all non-system content**.
 
-    ![Export non-system content](media/gdpr-export-3.png)
+   > [!div class="mx-imgBorder"]
+   > ![Export non-system content](media/gdpr-export-3.png)
 
 All non-system content will be immediately deleted.
+
+### Export customer data – Analytics data
+
+1. Hover over a chart on one of the Analytics dashboards and click the **More options** elipses.
+
+   > [!div class="mx-imgBorder"]
+   > ![More options](media/gdpr-export-4.png)
+
+2. From the dropdown menu, click **Export data**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Export data](media/gdpr-export-5.png)
+
+3. Select whether you want to export summarized data or underlying data, and the file format for the exported data, and then click **Export**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Export details](media/gdpr-export-6.png)

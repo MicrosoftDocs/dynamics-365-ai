@@ -24,17 +24,15 @@
 
 # Reference
 
-## Dashboard reference
+## Analytics reference
 
-### [Dashboard overview](dashboard-overview.md)
+### [Analytics overview](analytics-overview.md)
 
-### [Engagement rate dashboard](dashboard-engagement.md)
+### [Engagement dashboard](analytics-engagement.md)
 
-### [Escalation rate dashboard](dashboard-escalation.md)
+### [Customer satisfaction dashboard](analytics-csat.md)
 
-### [Abandon rate dashboard](dashboard-abandon.md)
-
-### [Customer satisfaction dashboard](dashboard-csat.md)
+### [Download sessions page](analytics-sessions.md)
 
 ## [Settings](reference-settings.md)
 
