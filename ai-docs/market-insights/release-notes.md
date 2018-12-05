@@ -2,7 +2,7 @@
 title: "Dynamics 365 AI for Market Insights Release Notes | Microsoft Docs"
 description: "What's new in Ai for Market Insights"
 keywords: "what's new, release notes, changelog"
-ms.date: 11/16/2018
+ms.date: 12/19/2018
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 587e7d5f-eac7-426c-93a2-8d29413d8dda
@@ -28,6 +28,26 @@ This topic describes features that are either new or changed in [!INCLUDE[Market
 Ask questions and get help from experts and the product team in the [AI for Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights).
 
 If you can think of ways how we can further improve the product and service, please [add your idea to the ideas list](https://experience.dynamics.com/ideas/list/?forum=e6202680-69d9-e811-a96b-000d3a1be7ad). 
+
+## Public Preview update 2 (December 19, 2018)
+
+### Introducing new languages
+
+This release introduces new languages for sentiment analysis, search rules, and the user interface.
+
+The following languages are available with Update 1.12:
+
+- Bahasa
+- Czech
+- Hungarian
+- Hindi
+- Korean
+
+### New sign-in URL
+
+We've introduced a quick and easy way to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by accessing the URL [https://mi.dynamics.com](https://mi.dynamcis.com). 
+
+Save this URL to your bookmarks if you don't want to sign in to Office 365 before accessing [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
 ## Public Preview update 1 (November 21, 2018)
 
