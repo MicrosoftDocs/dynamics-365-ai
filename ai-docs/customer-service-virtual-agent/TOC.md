@@ -37,3 +37,11 @@
 ### [Customer satisfaction dashboard](dashboard-csat.md)
 
 ## [Settings](reference-settings.md)
+
+# Data Subject Rights (DSR) requests under GDPR
+
+## [Overview of GDPR compliance](gdpr-summary.md)
+
+## [Requests to export data](gdpr-export.md)
+
+## [Requests to delete data](gdpr-delete.md)
