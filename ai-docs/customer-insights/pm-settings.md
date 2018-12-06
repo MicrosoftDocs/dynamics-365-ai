@@ -1,5 +1,5 @@
 ---
-title: "Settings| MicrosoftDocs"
+title: "System| MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 11/05/2018
@@ -18,9 +18,25 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Settings
+# System
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The **System** screen encapsulates everything that you, as an administrator, needs to have in order to... As shown below, it includes three major parts: **Status, Schedule** and **About**that are accessible through three corresponding tabs at the top of the screen:
+
+//add 1 12.5
+
+### Status Tab
+
+// add 2-6 12.5
+
+### Schedule Tab
+
+// add 7-14
+
+### About Tab
+
+// add 15 12.5 
 
 Within this screen, several options are available as shown below. Those options can serve important business requirements such as using Customer 360 from different regions or distinguishing between multiple work instances.
 
