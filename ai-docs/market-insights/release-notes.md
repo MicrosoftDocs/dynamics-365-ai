@@ -45,7 +45,7 @@ The following languages are available with Update 1.12:
 
 ### New sign-in URL
 
-We've introduced a quick and easy way to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by accessing the URL [https://mi.dynamics.com](https://mi.dynamcis.com). 
+We've introduced a quick and easy way to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by accessing the URL [https://ai.mi.dynamics.com/login](https://ai.mi.dynamcis.com/login). 
 
 Save this URL to your bookmarks if you don't want to sign in to Office 365 before accessing [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
