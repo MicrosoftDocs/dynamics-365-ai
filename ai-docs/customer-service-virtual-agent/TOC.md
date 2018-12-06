@@ -30,6 +30,8 @@
 
 ### [Analytics overview](analytics-overview.md)
 
+### [Summary dashboard](analytics-summary.md)
+
 ### [Engagement dashboard](analytics-engagement.md)
 
 ### [Customer satisfaction dashboard](analytics-csat.md)
