@@ -2,7 +2,7 @@
 title: "Creating a bot"
 description: "Learn how to use the AI for Customer Service Virtual Agent to create a bot."
 keywords: ""
-ms\.date: 11/28/2018
+ms\.date: 12/5/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

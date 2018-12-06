@@ -2,7 +2,7 @@
 title: "Overview of GDPR compliance for Dynamics 365 AI for Customer Service Virtual Agent"
 description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 AI for Customer Service Virtual Agent."
 keywords: ""
-ms.date: 12/4/2018
+ms.date: 12/5/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

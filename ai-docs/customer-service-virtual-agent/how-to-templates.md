@@ -2,7 +2,7 @@
 title: "Work with templates"
 description: "Learn how to work with AI for Customer Service Virtual Agent templates."
 keywords: ""
-ms\.date: 11/28/2018
+ms\.date: 12/5/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
