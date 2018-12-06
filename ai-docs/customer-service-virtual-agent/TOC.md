@@ -22,6 +22,8 @@
 
 ## [Work with the test bot](how-to-test-bot.md)
 
+## [Work with variables](how-to-variables.md)
+
 # Reference
 
 ## Analytics reference
@@ -31,6 +33,8 @@
 ### [Engagement dashboard](analytics-engagement.md)
 
 ### [Customer satisfaction dashboard](analytics-csat.md)
+
+### [Topic details dashboard](analytics-topic-details.md)
 
 ### [Download sessions page](analytics-sessions.md)
 

@@ -1,0 +1,55 @@
+---
+title: "Work with variables"
+description: "Learn how to work with AI for Customer Service Virtual Agent variables."
+keywords: ""
+ms\.date: 12/5/2018
+ms.service:
+  - "dynamics-365-ai"
+ms.topic: article
+ms.assetid: 
+author: stevesaunders1952
+ms.author: stevesaunders1952
+manager: shellyha
+---
+
+# Work with variables
+
+Variables let you save responses from your customers in a virtual agent conversation so that you can reuse them later in the conversation path.  
+
+You can use variables to create logical expressions that dynamically route the customer down different paths, depending on the customer's response. You can also use variables to generate dynamic content tailored to the customer’s previous responses.
+
+For example, you can save a customer's name in a variable called *UserName*. The virtual agent can then address the customer by name as the conversation continues.
+
+AI for Customer Service Virtual Agent supports four types of variables:
+
+* String -- A string of text that the customer enters.
+* Age -- A positive number within the range of standard age.
+* Currency -- A numeric currency value.
+* Number -- A single positive or negative integer.
+
+## To create a variable
+
+1. In Bot Designer design canvas, click the ellipses in the upper right corner of the **User responses** node where you want to add the variable.
+
+   > [!div class="mx-imgBorder"]
+   > ![Click ellipses](media/how-to-variables-1.png)
+
+2. Click **Properties** to open the Properties pane.
+
+   > [!div class="mx-imgBorder"]
+   > ![Open properties pane](media/how-to-variables-2.png)
+
+3. Click **Name variable** to open the **Create variable** window.
+
+   > [!div class="mx-imgBorder"]
+   > ![Create variable](media/how-to-variables-3.png)
+
+4. Specify a name and type for the variable, and then click **Save**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Save variable](media/how-to-variables-4.png)
+
+The Bot Designer adds the variable to the conversation path, and routes the conversation path according to the customer's response.
+
+   > [!div class="mx-imgBorder"]
+   > ![Save variable](media/how-to-variables-5.png)

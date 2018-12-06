@@ -14,4 +14,7 @@ manager: shellyha
 
 # Summary dashboard
 
-The AI for Customer Service Virtual Agent analytics dashboards contain a variety of charts that show you key performance indicators for your customer service system, give you graphical views of the trends and breakdowns in your system's support cases, and use artificial intelligence technology to highlight support cases that are having the greatest impact on the system.
+> [!div class="mx-imgBorder"]
+> ![Summary dashboard](media/dash-summary-1.PNG)
+
+The Summary dashboard gives you a broad overview of the customer service experience at your organization, including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on case volume and resolution time.

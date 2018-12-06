@@ -13,3 +13,8 @@ manager: shellyha
 ---
 
 # Customer satisfaction dashboard
+
+> [!div class="mx-imgBorder"]
+> ![Customer satisfaction dashboard](media/dash-csat-1.PNG)
+
+The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including average CSAT score over time and the topics which drive the CSAT score.
