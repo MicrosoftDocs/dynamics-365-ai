@@ -176,7 +176,7 @@ View the data set selected for an activity map in other areas of [!INCLUDE[Marke
  View an activity map on a large screen, in full-screen mode. You can display this large screen at prominent places as appropriate for your business to demonstrate the trends about your products, brand, or organization.  
   
 > [!NOTE]
->  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to [sign in](https://social.dynamics.com/login) again.  
+>  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to [sign in](https://mi.ai.dynamics.com/login) again.  
   
 1. Go to **Activity Maps**.  
   
