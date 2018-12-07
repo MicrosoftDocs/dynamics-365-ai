@@ -18,6 +18,9 @@ The AI for Customer Service Virtual Agent analytics dashboards contain a variety
 
 You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. The Summary dashboard is the default AI for Customer Service Virtual Agent dashboard.
 
-You can display the [Topic details](analytics-topic-details.md) dashboard by right-clicking a topic in one of the charts in those dashboards, hovering over **Drillthrough**, and then selecting **Topic Drill Through**.
+You can display the [Topic details](analytics-topic-details.md) dashboard by clicking the Detail link in one of the charts in those dashboards.
+
+> [!div class="mx-imgBorder"]
+> ![Topic details link](media/analytics-overview-1.PNG)
 
 You can also use the [Sessions page](analytics-sessions.md) to download transcripts of your virtual agent chat sessions.
