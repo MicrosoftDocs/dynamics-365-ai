@@ -37,7 +37,7 @@ This release introduces new languages for sentiment analysis, search rules, and 
 
 The following languages are available with Update 1.12:
 
-- Bahasa
+- Indonesian (Bahasa)
 - Czech
 - Hungarian
 - Hindi
