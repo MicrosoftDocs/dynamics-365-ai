@@ -23,8 +23,6 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
 
-    AI for Customer Service Virtual Agent creates the bot and opens it in the Bot Designer.
-
 2. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer may want to make an appointment at a store. Click **Topics** in the navigation pane, and then click **New topic** to open the **Create a new topic** screen.
 
    > [!div class="mx-imgBorder"]
@@ -92,4 +90,4 @@ For more information on deploying your bot, see [Deploying your bot](getting-sta
 
 For more information on using bot analytics, see [Using bot analytics to improve your bot](getting-started-analytics.md).
 
-For more information on working with the Bot Designer, see [Working with the Bot Designer](getting-started-bot-designer).
+For more information on working with the Virtual Agent Designer, see [Working with the Virtual Agent Designer](getting-started-bot-designer).
