@@ -34,6 +34,6 @@ For information about deploying your bot, see [Deploying your bot](getting-start
 
 For information about using analytics information to help you improve your bot, see [Using bot analytics to improve your bot](getting-started-analytics.md).
 
-For information about working with the Bot Designer, see [Working with the Bot Designer](getting-started-bot-designer.md).
+For information about working with the Virtual Agent Designer, see [Working with the Virtual Agent Designer](getting-started-bot-designer.md).
 
 For information about removing your bot from the AI for Customer Service Virtual Agent environment, see [Deleting a bot](getting-started-delete-bot.md).

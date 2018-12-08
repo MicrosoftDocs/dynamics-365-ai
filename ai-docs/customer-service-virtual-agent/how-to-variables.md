@@ -20,7 +20,7 @@ You can use variables to create logical expressions that dynamically route the c
 
 For example, you can save a customer's name in a variable called *UserName*. The virtual agent can then address the customer by name as the conversation continues.
 
-AI for Customer Service Virtual Agent supports four types of variables:
+Virtual Agent Designer supports four types of variables:
 
 * String -- A string of text that the customer enters.
 * Age -- A positive number within the range of standard age.
@@ -29,7 +29,7 @@ AI for Customer Service Virtual Agent supports four types of variables:
 
 ## To create a variable
 
-1. In Bot Designer design canvas, click the ellipses in the upper right corner of the **User responses** node where you want to add the variable.
+1. In Virtual Agent Designer conversation editor, click the ellipses in the upper right corner of the **User responses** node where you want to add the variable.
 
    > [!div class="mx-imgBorder"]
    > ![Click ellipses](media/how-to-variables-1.png)
@@ -49,7 +49,7 @@ AI for Customer Service Virtual Agent supports four types of variables:
    > [!div class="mx-imgBorder"]
    > ![Save variable](media/how-to-variables-4.png)
 
-The Bot Designer adds the variable to the conversation path, and routes the conversation path according to the customer's response.
+The Virtual Agent Designer adds the variable to the conversation path, and routes the conversation path according to the customer's response.
 
    > [!div class="mx-imgBorder"]
    > ![Save variable](media/how-to-variables-5.png)

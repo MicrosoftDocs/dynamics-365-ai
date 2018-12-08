@@ -18,14 +18,14 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
 
 ## To create and deploy your own virtual agent
 
-1. Launch the AI for Customer Service Virtual Agent in your browser to display the **Create a new bot** screen, select the template you want to use, and specify a name and environment for the bot. Then click **Create**.
+1. Launch the Virtual Agent Designer in your browser to display the **Create a new bot** screen, and select the template you want to use, either Retail or General. Specify a name and environment for the bot, and then click **Create**.
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
 
     AI for Customer Service Virtual Agent creates the bot and opens it in the Bot Designer.
 
-2. Create a topic, which defines the conversation path a customer takes with the virtual agent. Click **Topics** in the navigation pane, and then click **New topic** to open the **Create a new topic** screen.
+2. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer may want to make an appointment at a store. Click **Topics** in the navigation pane, and then click **New topic** to open the **Create a new topic** screen.
 
    > [!div class="mx-imgBorder"]
    > ![New topic](media/create-topic-2.png)
@@ -42,37 +42,42 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Create topic](media/create-topic-3-2.png)
 
-4. Design the virtual agent's conversation path. Click **Edit conversation** to open the design canvas.
+4. Design the virtual agent's conversation path. Click **Edit conversation** to open the conversation editor.
 
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)
 
-5. On the design canvas, add bot and user responses to the conversation, then click **Save**.
+5. In the conversation editor, add bot and user responses to the conversation, then click **Save**.
 
    > [!div class="mx-imgBorder"]
    > ![Add responses](media/quickstart-1.png)
 
-6. Test the topic in the test bot. Click **Push to Test** in the upper right corner of the Bot Designer, enter a trigger phrase for the topic at the **Type your message** of the test bot, and follow the conversation path.
+6. Test the topic in the Test Bot. Click **Push to Test** in the upper right corner of the Virtual Agent Designer to make the current version of the bot available for testing in the Test Bot. Enter a trigger phrase for the topic at the **Type your message** of the Test Bot, and then follow the conversation path.
 
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
 
-7. Deploy the bot. On the Deploy page, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters, and then click **Deploy**.
+7. Deploy the bot. Once the bot is created, you have the option to activate the bot on one of two web channels: The test web site or your own custom web site.  You can select the web channel and configure it on the Deploy page.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select channel](media/create-topic-21-1.png)
+
+    To deploy the bot to the test web site, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for customers interacting with your bot, and then click **Deploy**.
 
    > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
 
-8. Test the bot in the test web environmnet. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
+8. Test the bot in the test web environment. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
    > [!div class="mx-imgBorder"]
    > ![Test bot](media/deploy-bot-4.png)
 
-9. Share your bot. On the Deploy page, click **Share** to copy the URL for the bot test environment web page, and then distribute the URL.
+9. Share your bot. On the Deploy page, click **Share** to copy the URL for the bot test web page, and then distribute the URL.
 
    > [!div class="mx-imgBorder"]
    > ![Share bot](media/deploy-bot-5.png)
 
-10. Use bot analytics to see how your virtual agent and customer service system are performing. To view the bot analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
+10. Use bot analytics to see how your virtual agent is performing. To view the bot analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![View analytics](media/quickstart-2.png)

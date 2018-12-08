@@ -6,7 +6,7 @@
 
 ## [Creating a bot](getting-started-create-bot.md)
 
-## [Working with the Bot Designer](getting-started-bot-designer.md)
+## [Working with the Virtual Agent Designer](getting-started-bot-designer.md)
 
 ## [Creating topics for your bot](getting-started-create-topics.md)
 
@@ -20,7 +20,7 @@
 
 ## [Work with templates](how-to-templates.md)
 
-## [Work with the test bot](how-to-test-bot.md)
+## [Work with the Test Bot](how-to-test-bot.md)
 
 ## [Work with variables](how-to-variables.md)
 

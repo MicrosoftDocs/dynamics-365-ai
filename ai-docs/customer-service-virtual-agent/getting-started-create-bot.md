@@ -14,17 +14,19 @@ manager: shellyha
 
 # Creating a bot
 
-The starting point for creating a powerful custom virtual agent with AI for Customer Service Virtual Agent is to create a bot. You can then use the Bot Designer to design a conversation path that leads each customer to a resolution of the customer's support issue.
+You can use the Virtual Agent Designer to create a powerful custom virtual agent. The Virtual Agent Designer makes it easy to create bots that addresses common customer support issues. You can design a conversation path that leads each customer to a resolution.
 
-To help get you started and tailor the bot to your specific needs, the AI for Customer Service Virtual Agent lets you create a bot using built-in industry-specific templates. The templates come with an enhanced artificial intelligence model for that industry, as well as built-in building blocks, called topics, that you can use to build a conversation path for your bot that is tailored to that industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
+To help get you started and tailor the bot to your specific needs, the Virtual Agent Designer lets you create a bot using built-in industry-specific templates. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for retail customers.
 
-The built-in topics supplied by the template can also be useful as a model for building your own topics. For more information, see [Work with templates](how-to-templates.md).
+The templates come with an enhanced artificial intelligence model for that industry, as well as built-in content building blocks containing topics, trigger queries, and pre-authored dialogs that you can use to build a conversation path for your bot that is tailored to that industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
+
+These industry templates can also be useful as a model for building conversations around your own topics. For more information, see [Work with templates](how-to-templates.md).
 
 ## To create a bot
 
-1. Launch the AI for Customer Service Virtual Agent in your browser to display the **Create a new bot** screen.
+1. Launch the Virtual Agent Designer in your browser to display the **Create a new bot** screen.
 
-    AI for Customer Service Virtual Agent supports Microsoft Edge, Internet Explorer 11, and Chrome browsers.
+    AI for Customer Service Virtual Agent supports Internet Explorer 11 and Chrome browsers.
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot screen](media/create-bot-1.PNG)
@@ -34,12 +36,12 @@ The built-in topics supplied by the template can also be useful as a model for b
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
 
-    AI for Customer Service Virtual Agent creates the bot and opens it in the Bot Designer.
+    Virtual Agent Designer creates the bot and opens it in the browser.
 
    > [!div class="mx-imgBorder"]
    > ![Open bot](media/create-bot-3.PNG)
 
-Once you have created your bot, you can add topics to the bot that represent the conversation path used by the virtual agent, and then deploy the bot to a support channel. As customers use the bot, you can view analytics information to help you improve the bot and the overall customer experience.
+Once you have created your bot, you can add topics to the bot that represent the customer intents that can be addressed by the virtual agent, and then deploy the bot to a web channel. As customers use the bot, you can view analytics information to help you improve the bot and the overall customer experience.
 
 For more information about creating topics for your bot, see [Creating topics for your bot](getting-started-create-topics.md).
 
