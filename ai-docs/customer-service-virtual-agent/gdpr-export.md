@@ -20,40 +20,40 @@ The right of data portability allows a data subject to request a copy of the
 
 Dynamics 365 AI for Customer Service Virtual Agent offers the following experiences to find or export personal data for a specific user:
 
-* Export customer data – Bot Designer bot content
-* Export customer data – Bot Designer system content
-* Export customer data – Bot Designer non-system content
+* Export customer data – Virtual Agent Designer bot content
+* Export customer data – Virtual Agent Designer system content
+* Export customer data – Virtual Agent Designer non-system content
 * Export customer data – Analytics data
 
-### Export customer data – Bot Designer bot content
+### Export customer data – Virtual Agent Designer bot content
 
-1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
+1. Launch the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **Export all bot content**.
 
    > [!div class="mx-imgBorder"]
    > ![Export bot content](media/gdpr-export-1.png)
 
-All bot content will be immediately deleted.
+All bot content will be immediately exported.
 
-### Export customer data – Bot Designer system content
+### Export customer data – Virtual Agent Designer system content
 
-1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
+1. Launch the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **Export all system content**.
 
    > [!div class="mx-imgBorder"]
    > ![Export system content](media/gdpr-export-2.png)
 
-All system content will be immediately deleted.
+All system content will be immediately exported.
 
-### Export customer data – Bot Designer non-system content
+### Export customer data – Virtual Agent Designer non-system content
 
-1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
+1. Launch the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **Export all non-system content**.
 
    > [!div class="mx-imgBorder"]
    > ![Export non-system content](media/gdpr-export-3.png)
 
-All non-system content will be immediately deleted.
+All non-system content will be immediately exported.
 
 ### Export customer data – Analytics data
 

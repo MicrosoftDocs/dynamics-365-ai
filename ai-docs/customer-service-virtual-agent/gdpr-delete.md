@@ -20,36 +20,13 @@ The “right to erasure” by the removal of personal data from an organization�
 
 Dynamics 365 AI for Customer Service Virtual Agent offers the following experiences to delete personal data for a specific user:
 
-* Delete Bot Designer bot content
-* Delete Bot Designer telemetry
-* Metrics
-* Extracted knowledge, including topic suggestions
-* Bot chat logs
-* Case data connection settings
-* Telemetry
-
-### Delete Bot Designer bot content
-
-You can follow these steps to delete a bot from from AI for Customer Service Virtual Agent:
-
-1. Navigate to [https://bots.int.customercareintelligence.net/#/](https://bots.int.customercareintelligence.net/#/).
-2. On the Settings menu, select **Delete Bot**.
-
-    ![Delete bot](media/delete-bot.png)
-
-3. Delete the bot. All bot content will be immediately deleted.
-
-### Delete Bot Designer telemetry
-
-Bot Designer telemetry data is automatically deleted within 28 days.
-
-### Metrics
-
-Metrics data is deleted with the bot.
-
-### Extracted knowledge, including topic suggestions
-
-Extracted knowledge, including topic suggestions, is deleted when the bot is deleted.
+* [Bot chat logs](#bot-chat-logs)
+* [Case data connection settings](#case-data-connection-settings)
+* [Delete Virtual Agent Designer bot content](#delete-virtual-agent-designer-bot-content)
+* [Delete Virtual Agent Designer telemetry](#delete-virtual-agent-designer-telemetry)
+* [Extracted knowledge](#extracted-knowledge)
+* [Metrics](#metrics)
+* [System telemetry](#system-telemetry)
 
 ### Bot chat logs
 
@@ -59,6 +36,29 @@ Bot chat logs are deleted when the bot is deleted.
 
 Case data connection settings are deleted when the bot is deleted.
 
-### Telemetry
+### Delete Virtual Agent Designer bot content
 
-Telemetry is deleted within 28 days.
+You can follow these steps to delete a bot from from AI for Customer Service Virtual Agent:
+
+1. Launch the Virtual Agent Designer in your browser.
+2. On the Settings menu, select **Delete Bot**.
+
+    ![Delete bot](media/delete-bot.png)
+
+All bot content will be immediately deleted.
+
+### Delete Virtual Agent Designer telemetry
+
+Virtual Agent Designer telemetry data is automatically deleted within 29 days.
+
+### Extracted knowledge
+
+Extracted knowledge, including topic suggestions, is deleted when the bot is deleted.
+
+### Metrics
+
+To delete metrics data, you must delete your bot. See [Delete Virtual Agent Designer bot content](#delete-virtual-agent-designer-bot-content) for information on deleting a bot.
+
+### System telemetry
+
+System telemetry is automatically deleted within 29 days.
