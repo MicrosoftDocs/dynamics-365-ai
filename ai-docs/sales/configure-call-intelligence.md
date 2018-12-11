@@ -22,9 +22,10 @@ topic-status: Drafting
 
 # Configure Call intelligence
 
-Applies to Dynamics 365 Customer Engagement, version 9.1.0 <br>
+Applies to Dynamics 365 for Sales, version 9.1.0 <br>
 
-The call intelligence in Dynamics 365 Customer Engagement assists the sales managers in your organization to view and assess the overall team performance and individual performance of sales reps. This helps in changing the shape of your business by improving sales and generate revenue. 
+The call intelligence in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] assists the sales managers in your organization to get an overview of the call center and drill-down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue. 
+
 As an administrator, you must configure the call intelligence in your organization for sales managers to use. Perform the following steps to configure the call intelligence:
 1. Review the prerequisites. 
 2. Create a Blob container on Azure.
@@ -32,7 +33,7 @@ As an administrator, you must configure the call intelligence in your organizati
 
 ## Prerequisites
 Verify the following requirements before configuring call intelligence for your organization:
-1. You have access to Dynamics 365 AI for sales app.
+1. You have access to [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app.
     If you do not have access, follow these steps:<br>
     a. Go to [Dynamics Sales AI](https://aka.ms/salesai) marketing page and select **Try Preview**.<br>
     b. Enter your work email address.<br>
@@ -40,22 +41,22 @@ Verify the following requirements before configuring call intelligence for your 
         [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).
 2. Create a V2 storage account with Azure subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a storage account](/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
-## Create storage account
-Follow the steps below to create a new container in an Azure storage account:
+## Create call recording repository
+Call recording repository is a blob container where you upload the call recordings for Call Intelligence to assess. To upload the call recordings, you must create call recording repository (blob container) in an Azure storage account.
 1. Log in to Azure dashboard.
 2. On the navigation pane, select **All Resources** and open the desired storage account.
 3. From **Services**, select **Blobs**.
 4. Select **+ Container** and enter the container information such as name and public access level.
 5. Select **OK**.
     The container is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).<br> 
-Now, you are ready to upload the call files into the created blob storage container.
+Now, you are ready to upload the call recordings into the created blob container.
 
 ## Configure blob container and trackers for call intelligence 
-Configuring the blob container that you have created using Azure helps you to fetch the call recording files from your folder and send them to the blob storage for analysis. The analysis includes creating transcripts and provide insights for the call recordings.
+Configuring the blob container that you have created helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and provide insights for the call recordings.
 
-You can upload the recording files in audio formats such as mp3 and wav. Along with the audio format file you must upload the corresponding metadata file in JSON format with same name as the uploaded audio file.
+You can upload the recording in audio formats such as mp3 and wav. Along with the audio format file you must upload the corresponding metadata file in JSON format with same name as the uploaded audio file.
 
-Also, you should configure keywords and competitors that you would like to track in the calls. These keywords are also known as trackers. Whenever the defined keywords or competitors are mentioned in a call, the application will gather the data and displays appropriately on the Call intelligence dashboard.
+Also, you should configure trackers, competitors, and competitor products that you would like to track in the calls. Trackers are the keywords that are relevant to you and your organization. Whenever the defined keywords, competitors, or competitor products are mentioned in a call, the Call intelligence will gather the data and displays appropriately on the dashboard.
 
 Follow these steps:
 

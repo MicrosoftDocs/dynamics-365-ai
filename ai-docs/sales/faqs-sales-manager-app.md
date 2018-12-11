@@ -36,9 +36,6 @@ No, currently we provide out-of-the-box visualizations and charts only. If you r
 **Are goals required to use the app?**<br>
 No, however it is recommended to setup Revenue goals for each seller to get even better insights into the performance of your team. For more information please read [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
 
-**When will this product be Generally Available (GA)?**<br>
-We are targeting Spring 2019 for GA.
-
 **Can sellers (or non-managers) use this app?**<br>
 The application is currently designed to bring the most value to sales managers. The application cannot provide much of value for sellers though they can use this application.
 
@@ -51,25 +48,22 @@ No, up to 5 sales managers can use the application before the system administrat
 We support all telephony system. If you have call recordings, we process it at scale to generate insights​.
 
 **What does the onboarding experience include?​** <br>
-As part of the onboarding experience, you must provide the access key to the Azure blob location where you upload your call recording files for processing. You must adhere to standard metadata format (in JSON) of Call intelligence and upload that along with every call recording file. Apart from this, You must share keywords (also called Trackers) that you care about along with the competitive brands and products for Call intelligence to tracks these words across calls.
-
-**Can I use this product for Customer service?​**<br>
-Call intelligence is supporting Sales scenario for now. If you have call recordings for customer service, you can still use Call intelligence to gather and analyze Key KPIs customer service. Though few KPIs might be irrelevant for customer service.​
+As part of the onboarding experience, you must provide the access key to the Azure blob location where you upload your call recording files for processing. You must adhere to standard metadata format (in JSON) of Call intelligence and upload that along with every call recording file. Apart from this, You must share trackers that you care about along with the competitive brands and products for Call intelligence to tracks these words across calls.
 
 **What language is supported now?​**<br>
 Call intelligence is supported for English (en-us) and US region only.​
 
 **How is the sentiment model built?**<br>
-Call intelligence transcribes the calls into text and generates sentiments from the words in the conversation. Call intelligence actively working on emotion model that leverages the vocal tones in the conversation for future releases.​
+Call intelligence transcribes the calls into text and generates sentiment from the text in the conversation.
 
 **I have mono-channel recording files. Can I still use Call intelligence?​**<br>
-Yes, you can but the transcription accuracy will be poor as we don’t support mono-channel now. We are actively working to open the support for mono-channel in future releases.
+We recommend you not to use mono-channel call recording file. We only support stereo type call recording files.
 
 **How long does it take to see the results?​**<br>
-We don’t have a definitive time. Call intelligence takes several minutes to process and display the data on the screen depending on the audio size and format. 
+Call intelligence takes few minutes to process and display the data on the dashboard depending on the size of call recording file and format. You must have at least 10 call recording files to process and display the data.
 
 **Can sellers see these insights?**<br>
-No, sellers cannot see the insights. We will make the insights available for sellers in future releases​.
+No, sellers cannot see these insights and only managers can see the insights.
 
 **Do you retain the call recordings?​**<br>
 No, the call recordings will be deleted as soon as the audio file is processed​.
