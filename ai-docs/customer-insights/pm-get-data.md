@@ -62,12 +62,19 @@ Within the next step you will add **entities** to your data source. In Customer 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
-3. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** For example, if you are ingesting data from a .CSV file and the first row has headers then you can select **Transform Table** to do the following:
+3. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** To avoid data-related issues, you should complete the next few transformations:
+
+- If you are ingesting data from a .CSV file and the first row has headers you should select **Transform Table** to do the following:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
-In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)** during your ingestion process. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
+- If your data includes **Day Time** columns, you should define those as **Text** type columns by...:
+
+//add image 1
+
+For a list of optional transformations make sure to visit the **Power Query Data Preparation** section in the left side menu. 
+(move):In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)** during your ingestion process. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
