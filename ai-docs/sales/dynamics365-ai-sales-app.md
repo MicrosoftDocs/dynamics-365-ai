@@ -41,9 +41,9 @@ The next sections describe:
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app:
 -	Verify that you have a subscription to Microsoft Dynamics 365 for Sales.
-- Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](https://docs.microsoft.com/dynamics365/customer-engagement/admin/work-fiscal-year-settings)
-- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manager hierarchy and Position hierarchy security models](https://docs.microsoft.com/dynamics365/customer-engagement/admin/hierarchy-security#manager-hierarchy-and-position-hierarchy-security-models)
-- Verify that goals are defined for sales reps or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
+- Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)
+- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies)
+- Verify that goals are defined for sales reps or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
     >[!NOTE]
     >While defining goals, ensure that **Goal Metric** parameter is configured as **Revenue**. 
 - Verify that Relationship assistant is enabled to access the cards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use relationship assistant to guide customer communications](/dynamics365/customer-engagement/sales-enterprise/relationship-assistant)
@@ -52,7 +52,7 @@ Before you start using the application, we suggest you review the following requ
 
 The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is a standalone application and you must sign in to the app to use it. You can use one of the following entry points to access the app:
 
-- Go to the [Dynamics 365 AI for Sales](https://dynamics.microsoft.com/en-us/ai/sales/) marketing page and select **GET IT NOW**.
+- Go to the [Dynamics 365 AI for Sales](https://aka.ms/salesai) marketing page and select **GET IT NOW**.
 - Go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/)
 
 > [!NOTE]

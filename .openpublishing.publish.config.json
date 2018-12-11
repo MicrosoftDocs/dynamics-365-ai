@@ -45,10 +45,6 @@
     "live": [
       "Publish",
       "Pdf"
-    ],
-    "Steve-working-branch": [
-      "Publish",
-      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
