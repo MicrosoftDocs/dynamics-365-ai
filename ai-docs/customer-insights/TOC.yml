@@ -1,7 +1,7 @@
 - name: Data Manager
   href: pm-data-manager.md
   items:
-  - Home page
+  - name: Home page
     href: pm-homepage.md
   - name: Get data
     href: pm-get-data.md
