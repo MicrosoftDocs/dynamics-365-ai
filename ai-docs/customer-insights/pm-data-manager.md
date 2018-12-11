@@ -24,11 +24,12 @@ robots: noindex,nofollow
 
 Data Manager is the first page you will see upon entering the Customer 360 app. If it's the first time you are using Customer 360, make sure you first went through the *Onboarding Guide*. All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below.
 
+// Replace with final menu once finalizaed:
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-menu.png "Data Manager menu")
 
 
-## Data Manager sections: Get Data and Entities
+## Data Manager sections: Data Sources and Entities
 
 In these sections, we explain how to bring data from many of your sources: 
 
@@ -42,7 +43,7 @@ We hope to enable that option soon.
 
 Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-Data Manager includes two modules: Get Data and Entities. In the [Get Data](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module.
+Data Manager includes two modules: Data Sources and Entities. In the [Data Sources](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module.
 
 
 
