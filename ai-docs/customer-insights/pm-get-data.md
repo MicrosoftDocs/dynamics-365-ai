@@ -18,13 +18,13 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Get Data
+# Data Sources
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 **You can bring in data to Customer 360 by using the 20+ out-of-the-box connectors** that we make available for sources, such as Dynamics 365, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, **you can always export the data from your source as a CSV file and import to Customer 360 using our CSV connector.** To import data to Customer 360, you need to create a data source. It’s recommended to have multiple data sources based on your sources of the data as it allows you to have different refresh schedules and credentials for refresh.
 
-## Get data steps
+## Bring your data into Customer 360 
 
 ***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
 We hope to enable that option soon.
@@ -32,7 +32,7 @@ We hope to enable that option soon.
 ### Step 1 (mandatory): Creating a new data source
 To load data to Customer 360 follow the following process:
 
-1. Navigate to **Get Data** from the **Data Manager page:**
+1. Navigate to **Data Sources** from the **Data Manager page:**
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-tile.png "Get data tile")
@@ -93,7 +93,7 @@ Note: In the future this step will happen automatically.
 
 **At this point, repeat the same steps for each data source into which you want to ingest data using Customer 360.**
 
-### Step 3 (optional): Reviewing the Ingested Data
+### Step 3 (optional): Reviewing Ingested Data
 Customer 360 will take a couple of minutes to load the data. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity Page** visit the **Entities section**.
 
 > [!div class="mx-imgBorder"] 
@@ -116,8 +116,5 @@ Follow the below steps to edit an existing data source:
 3. Lastly hit **Save** as we did when we originally created our data source
 
 ### Next steps: 
-At this point you are ready to unlock unique customer insights through the **Data Configure** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
+At this point you are ready to unlock unique customer insights through the **Configure Data** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
 
-// To add to a seperate sub-section that will be called *Common Connectors Definitions*:
-
-// To add to a seperate sub-section that will be called *Recommended Trasformations*:
