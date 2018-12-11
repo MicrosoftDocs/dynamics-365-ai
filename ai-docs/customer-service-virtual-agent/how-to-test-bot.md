@@ -2,7 +2,7 @@
 title: "Work with the Test Bot"
 description: "Learn how to work with the AI for Customer Service Virtual Agent Test Bot."
 keywords: ""
-ms\.date: 12/10/2018
+ms\.date: 12/11/2018
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
