@@ -24,7 +24,7 @@ robots: noindex,nofollow
 
 The **System** screen encapsulates everything that you, as an administrator, needs to have in order to... As shown below, it includes three major parts: **Status, Schedule** and **About** that are accessible through three corresponding tabs at the top of the screen:
 
-//add 1 12.5
+//add 1 
 
 **Prelminary note**: It is highly recommended to use the **Schedule tab** in case some of your data sources are updated on regular basis
 
