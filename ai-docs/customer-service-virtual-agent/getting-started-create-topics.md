@@ -1,6 +1,6 @@
 ---
 title: "Creating topics for your bot"
-description: "Learn how to use the AI for Customer Service Virtual Agent Bot Designer to create topics for your bot."
+description: "Learn how to use the AI for Customer Service Virtual Agent Designer to create topics for your bot."
 keywords: ""
 ms\.date: 12/5/2018
 ms.service:
@@ -55,7 +55,7 @@ To add additional trigger phrases, open the topic, enter a trigger phrase in the
 
 ## To design the topic's conversation path
 
-1. Click **Edit conversation** to open the design canvas.
+1. Click **Edit conversation** to open the conversation editor.
 
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)
@@ -119,21 +119,21 @@ To add additional trigger phrases, open the topic, enter a trigger phrase in the
 
     Then click **Save** to save the conversation path.
 
-As you design your topic's conversation path, you can use the test bot to see how the virtual agent leads the customer through a conversation with the virtual agent.
+As you design your topic's conversation path, you can use the Test Bot to see how the virtual agent leads the customer through a conversation with the virtual agent.
 
-## To test the topic in the test bot
+## To test the topic in the Test Bot
 
-1. To make the topic available to the test bot, click **Push to Test** in the upper right corner of the Bot Designer.
+1. To make the topic available to the Test Bot, click **Push to Test** in the upper right corner of the Bot Designer.
 
    > [!div class="mx-imgBorder"]
    > ![Push to test](media/create-topic-19.png)
 
-2. At the **Type your message** prompt at the bottom of the test bot pane, enter a trigger phrase for the topic.
+2. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
 
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/create-topic-20.png)
 
-    The trigger phrase starts the topic's conversation, and the test bot displays the bot responses and user response choices you specified.
+    The trigger phrase starts the topic's conversation, and the Test Bot displays the bot responses and user response choices you specified.
 
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
@@ -148,4 +148,4 @@ As you design your topic's conversation path, you can use the test bot to see ho
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
 
-You can return to the design canvas at any time to revise the topic's dialog, and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).
+You can return to the conversation editor at any time to revise the topic's dialog, and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).

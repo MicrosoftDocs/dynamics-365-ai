@@ -51,7 +51,7 @@ For more information about using the Analytics page, see [Using bot analytics to
 
 The Topics page is the central location for creating and managing bot topics, the customer intents that you use to design a conversation path. The Virtual Agent Designer includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your bot.
 
-You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the support issue. You can then test the bot in the test bot pane, and refine it as necessary.
+You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the support issue. You can then test the bot in the Test Bot pane, and refine it as necessary.
 
 For more information about using the Topics page to create topics, see [Creating topics for your bot](getting-started-create-topics.md).
 
@@ -80,7 +80,7 @@ You can test a bot topic by entering a trigger phrase for the topic at the **Typ
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/bot-designer-6.PNG)
 
-    The trigger phrase starts the topic's conversation, and the test bot displays the bot responses and user response choices you specified when you created the topic on the Topics page.
+    The trigger phrase starts the topic's conversation, and the Test Bot displays the bot responses and user response choices you specified when you created the topic on the Topics page.
 
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-22.png)
