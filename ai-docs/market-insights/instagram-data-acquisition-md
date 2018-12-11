@@ -46,8 +46,6 @@ To be able to acquire [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] pos
 
 For users who want to be able to acquire posts and identify the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] accounts linked to the [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] page, we are requesting the *Instagram_Basic* and *Pages_show_list* permissions, along with the permissions to acquire data from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages. During the authentication, the user has the choice to disallow the use of those permissions but by doing so will not be able to use the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] functionality in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. 
 
-![Add a social profile for Facebook and Instagram acquisition](media/instagram-acquisition-profile.png)
-
 To acquire posts and comments, you will also need to set up [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] account rules in **Search Setup**. The [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] accounts linked to your [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages are listed in the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] account rules setup, where they can be selected. 
 
 If you are not interested in using the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] functionality, you don’t have to reauthenticate your [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] Acquisition accounts immediately. 
