@@ -29,7 +29,11 @@ In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to *
 
 ![screenshot of the sentiment page in the analytics area of market insights](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Market Insights")
 
+## Sentiment value
+
 **Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. For more information on supported languages, download the [Microsoft Dynamics 365 AI for Market Insights Translation Guide](https://go.microsoft.com/fwlink/p/?LinkID=391086).
+
+## Sentiment index
 
 The **sentiment index** is calculated from the sentiment value of posts and normalized to a value between -10 and 10. All your active filters and parameters are considered to define the data set that the sentiment index calculates.  
   
