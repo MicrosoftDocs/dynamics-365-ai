@@ -1,11 +1,15 @@
 - name: Data Manager
   href: pm-data-manager.md
   items:
+  - Home page
+    href: pm-homepage.md
   - name: Get data
     href: pm-get-data.md
     items:
     - name: Common Connectors Guidance
       href: pm-common-connectors.md
+    - name: Recommended data preparation
+      href: pm-recommended-data-prep.md
   - name: Entities
     href: pm-entities.md
   - name: Configure data
@@ -19,6 +23,8 @@
       href: pm-merge.md
     - name: Relationships
       href: pm-relationships.md
+- name: Timeline
+  href: pm-timeline.md
 - name: Segments
   href: pm-segments.md
 - name: Admin
