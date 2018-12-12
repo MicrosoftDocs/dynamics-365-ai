@@ -43,7 +43,8 @@ You can follow these steps to delete a bot from from AI for Customer Service Vir
 1. Launch the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **Delete Bot**.
 
-    ![Delete bot](media/delete-bot.png)
+    > [!div class="mx-imgBorder"]
+    > ![Delete bot](media/delete-bot.png)
 
 All bot content will be immediately deleted.
 

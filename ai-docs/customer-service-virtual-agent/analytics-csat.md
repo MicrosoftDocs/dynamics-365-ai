@@ -14,10 +14,10 @@ manager: shellyha
 
 # Customer satisfaction dashboard
 
-> [!div class="mx-imgBorder"]
-> ![Customer satisfaction dashboard](media/dash-csat-1.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![Customer satisfaction dashboard](media/dash-csat-1.PNG)
 
-The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including average CSAT score over time and the topics that and having the most impact on the CSAT score. 
+The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including average CSAT score over time and the topics that and having the most impact on the CSAT score.
 
 The Customer satisfaction dashboard includes a variety of charts with graphical views of your virtual agent's customer satisfaction indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
@@ -32,8 +32,8 @@ By default, the dashboard shows you key performance indicators for the last seve
 
 ## Customer satisfaction drivers chart
 
-> [!div class="mx-imgBorder"]
-> ![Customer satisfaction drivers chart](media/analytics-csat-1.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![Customer satisfaction drivers chart](media/analytics-csat-1.PNG)
 
 The Customer satisfaction drivers chart uses artificial intelligence technology to group related support cases as topics, and then display topics in order of their impact on customer satisfaction over the specified time period.
 
@@ -55,8 +55,8 @@ To see additional information about each topic, click the Detail link to display
 
 ## CSAT summary charts
 
-> [!div class="mx-imgBorder"]
-> ![CSAT summary charts](media/analytics-csat-2.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![CSAT summary charts](media/analytics-csat-2.PNG)
 
 The CSAT summary charts summarize the key customer satisfaction performance indicators for the specified time period, and the percent change over the period.
 
@@ -70,15 +70,15 @@ A blue up and down indicator below the value indicates the percent change in a p
 
 ## Scores over time chart
 
-> [!div class="mx-imgBorder"]
-> ![Scores over time chart](media/analytics-csat-3.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![Scores over time chart](media/analytics-csat-3.PNG)
 
 The scores over time chart provides a graphical view of the average CSAT score over the specified time period.
 
 ## Score breakdown chart
 
-> [!div class="mx-imgBorder"]
-> ![Score breakdown chart](media/analytics-csat-4.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![Score breakdown chart](media/analytics-csat-4.PNG)
 
 The score breakdown chart provides a graphical view of the breakdown in CSAT score by average score and whether the survey indicated one of the following:
 

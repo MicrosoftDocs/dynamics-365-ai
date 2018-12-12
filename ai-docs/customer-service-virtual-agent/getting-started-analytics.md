@@ -37,8 +37,8 @@ Some key features of the dashboards include:
 
 Filters on each dashboard let you view information for support cases for a specific time period.
 
-> [!div class="mx-imgBorder"]
-> ![Dashboard filters](media/analytics-3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Dashboard filters](media/analytics-3.png)
 
 By default, dashboards display information for the last seven days, but you also display information for the last 30 days by selecting **Last 30 Days**.
 
@@ -53,8 +53,8 @@ Key performance indicator charts give you a view of the key performance data for
 * The average customer satisfaction (CSAT) score during the period.
 * The hours saved as a result of using the virtual agent.
 
-> [!div class="mx-imgBorder"]
-> ![KPI summary charts](media/analytics-4.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![KPI summary charts](media/analytics-4.PNG)
 
 Each key performance indicator chart includes an up and down indicator next the value that indicates the percent change in a positive or negative direction.
 
@@ -62,15 +62,15 @@ Each key performance indicator chart includes an up and down indicator next the 
 
 The dashboards include a variety of graphical charts that give you views of different trends, and the breakdown of cases by key criteria such as resolution time, customer satisfaction, case priority, and support channel.
 
-> [!div class="mx-imgBorder"]
-> ![Graphical charts](media/analytics-5.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![Graphical charts](media/analytics-5.PNG)
 
 ## Impact charts
 
 Impact charts use artificial intelligence technology to show you the topics that are having the greatest impact, both positive and negative, on the customer service system.
 
-> [!div class="mx-imgBorder"]
-> ![Impact charts](media/analytics-6.PNG)
+    > [!div class="mx-imgBorder"]
+    > ![Impact charts](media/analytics-6.PNG)
 
 For details on AI for Customer Service Virtual Agent analytics, see the following topics:
 
