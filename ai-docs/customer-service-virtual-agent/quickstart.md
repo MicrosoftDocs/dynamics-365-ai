@@ -90,4 +90,4 @@ For more information on deploying your bot, see [Deploying your bot](getting-sta
 
 For more information on using bot analytics, see [Using bot analytics to improve your bot](getting-started-analytics.md).
 
-For more information on working with the Virtual Agent Designer, see [Working with the Virtual Agent Designer](getting-started-bot-designer).
+For more information on working with the Virtual Agent Designer, see [Working with the Virtual Agent Designer](getting-started-bot-designer.md).
