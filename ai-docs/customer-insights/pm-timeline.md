@@ -21,3 +21,24 @@ robots: noindex,nofollow
 # Timeline
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The Timeline consolidates customer activities from multiple channels 
+
+Unified Activity entity
+
+Key field
+
+Activity Time - Start Time / End Time
+
+Then the start time / end time column becomes mandatory. You can also fill both if you wish.
+
+Duration + unit
+
+Title - display name
+
+Icon - needs to be public URL, otherwise will show ?
+
+
+
+
+
