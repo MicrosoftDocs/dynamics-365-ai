@@ -14,7 +14,7 @@ manager: shellyha
 
 # Analytics overview
 
-The AI for Customer Service Virtual Agent analytics dashboards contain a variety of charts that show you key performance indicators for your customer service system, give you graphical views of the trends and breakdowns in your system's support cases, and use artificial intelligence technology to highlight support cases that are having the greatest impact on the system.
+The AI for Customer Service Virtual Agent analytics dashboards contain a variety of charts that show you key performance indicators for your virtual agent, give you graphical views of the trends and breakdowns in your virtual agent's support cases, and use artificial intelligence technology to highlight support cases that are having the greatest impact on your virtual agent's performance.
 
 You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. The Summary dashboard is the default AI for Customer Service Virtual Agent dashboard.
 
