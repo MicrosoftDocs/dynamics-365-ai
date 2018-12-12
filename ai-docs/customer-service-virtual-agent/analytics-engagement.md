@@ -14,8 +14,8 @@ manager: shellyha
 
 # Engagement dashboard
 
-    > [!div class="mx-imgBorder"]
-    > ![Engagement dashboard](media/analytics-engagement-1.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Engagement dashboard](media/analytics-engagement-1.PNG)
 
 The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provides graphical views of the breakdown of outcomes and engagements over time. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
@@ -26,8 +26,8 @@ By default, the dashboard shows you key performance indicators for the last seve
 
 ## Outcomes over time chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Outcomes over time chart](media/analytics-engagement-2.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Outcomes over time chart](media/analytics-engagement-2.PNG)
 
 The outcomes over time chart provides a graphical view of the number of resolved, escalated, and abandoned cases over the specified time period.
 
@@ -39,8 +39,8 @@ Abandoned | The daily number of abandoned support cases.
 
 ## Engagement over time chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Outcomes over time chart](media/analytics-engagement-3.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Outcomes over time chart](media/analytics-engagement-3.PNG)
 
 The engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered, or the session ends in escalation.
 

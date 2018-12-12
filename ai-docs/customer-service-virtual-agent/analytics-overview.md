@@ -20,7 +20,7 @@ You can display [Summary](analytics-summary.md), [Engagement](analytics-engageme
 
 You can display the [Topic details](analytics-topic-details.md) dashboard by clicking the Detail link in one of the charts in those dashboards.
 
-    > [!div class="mx-imgBorder"]
-    > ![Topic details link](media/analytics-overview-1.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Topic details link](media/analytics-overview-1.PNG)
 
 You can also use the [Sessions page](analytics-sessions.md) to download transcripts of your virtual agent chat sessions.

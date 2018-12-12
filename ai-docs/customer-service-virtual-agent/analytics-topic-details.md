@@ -14,8 +14,8 @@ manager: shellyha
 
 # Topic details dashboard
 
-    > [!div class="mx-imgBorder"]
-    > ![Topic details dashboard](media/analytics-topic-details-1.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Topic details dashboard](media/analytics-topic-details-1.PNG)
 
 The Topic details dashboard provides a view into the performance of individual topics and how they can be improved. In addition to metrics specific to the topic, the Topic details dashboard provides insights such as the list of user messages that lead to the most escalations or abandons for the specific topic.
 
@@ -26,8 +26,8 @@ You can display the Topic details dashboard by clicking the Detail link in one o
 * [Resolution rate drivers (Summary dashboard)](analytics-summary.md#resolution-rate-drivers-chart)
 * [Customer satisfaction drivers chart (Customer satisfaction dashboard)](analytics-CSAT.md#customer-satisfaction-drivers-chart)
 
-    > [!div class="mx-imgBorder"]
-    > ![Topic details link](media/analytics-overview-1.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Topic details link](media/analytics-overview-1.PNG)
 
 The Topic details dashboard includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
@@ -38,8 +38,8 @@ The Topic details dashboard includes a variety of charts with graphical views of
 
 ## Topic summary charts
 
-    > [!div class="mx-imgBorder"]
-    > ![Topic summary charts](media/analytics-topic-details-2.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Topic summary charts](media/analytics-topic-details-2.PNG)
 
 The topic summary charts summarize the performance indicators for the topic for the specified time period, and the percent change over the period.
 
@@ -55,8 +55,8 @@ A blue up and down indicator below the value indicates the percent change in a p
 
 ## Customer response by number of surveys completed chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Topic summary charts](media/analytics-topic-details-3.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Topic summary charts](media/analytics-topic-details-3.PNG)
 
 The customer response by number of surveys completed chart provides a graphical view of the breakdown in CSAT score by average score and whether the survey indicated one of the following:
 
@@ -66,8 +66,8 @@ The customer response by number of surveys completed chart provides a graphical 
 
 ## Impact summary charts
 
-    > [!div class="mx-imgBorder"]
-    > ![Impact summary charts](media/analytics-topic-details-4.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Impact summary charts](media/analytics-topic-details-4.PNG)
 
 The impact summary charts summarize the impact of the topic on key performance indicators for the specified time period.
 
@@ -80,7 +80,7 @@ CSAT impact | The topic's customer satisfaction impact score. The customer satis
 
 ## Topic volume by day chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Topic volume by day chart](media/analytics-topic-details-5.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Topic volume by day chart](media/analytics-topic-details-5.PNG)
 
 The topic volume by day chart provides a graphical view of the number of sessions for the topic over the specified time period.

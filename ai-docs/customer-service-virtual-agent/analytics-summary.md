@@ -14,8 +14,8 @@ manager: shellyha
 
 # Summary dashboard
 
-    > [!div class="mx-imgBorder"]
-    > ![Summary dashboard](media/dash-summary-1.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Summary dashboard](media/dash-summary-1.PNG)
 
 The Summary dashboard gives you a broad overview of your virtual agent's performance and uses artificial intelligence (AI) technology to show you topics that are having the greatest impact on case volume and resolution time.
 
@@ -34,8 +34,8 @@ By default, the dashboard shows you key performance indicators for the last seve
 
 ## Summary charts
 
-    > [!div class="mx-imgBorder"]
-    > ![Summary charts](media/analytics-summary-1.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Summary charts](media/analytics-summary-1.PNG)
 
 The summary charts summarize the key performance indicators for the specified time period, and the percent change over the period.
 
@@ -51,8 +51,8 @@ A blue up and down indicator next to the value indicates the percent change in a
 
 ## Escalation rate drivers chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Escalation rate drivers chart](media/analytics-summary-2.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Escalation rate drivers chart](media/analytics-summary-2.PNG)
 
 The escalation rate drivers chart uses artificial intelligence technology to group related support cases as topics, and then display topics in order of their impact on the escalation rate over the specified time period.
 
@@ -70,8 +70,8 @@ To see additional information about each topic, click the Detail link to display
 
 ## Abandon rate drivers chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Abandon rate drivers chart](media/analytics-summary-3.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Abandon rate drivers chart](media/analytics-summary-3.PNG)
 
 The abandon rate drivers chart uses artificial intelligence technology to group related support cases as topics, and then display topics in order of their impact on the abandon rate over the specified time period.
 
@@ -89,8 +89,8 @@ To see additional information about each topic, click the Detail link to display
 
 ## Resolution rate drivers chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Resolution rate drivers chart](media/analytics-summary-4.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Resolution rate drivers chart](media/analytics-summary-4.PNG)
 
 The resolution rate drivers chart uses artificial intelligence technology to group related support cases as topics, and then display topics in order of their impact on the resolution rate over the specified time period.
 
@@ -108,14 +108,14 @@ To see additional information about each topic, click the Detail link to display
 
 ## Customer satisfaction chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer satisfaction chart](media/analytics-summary-5.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Customer satisfaction chart](media/analytics-summary-5.PNG)
 
 The customer satisfaction chart provides a graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. The CSAT survey asks customers to rate of their experience on a scale of 1 to 5.
 
 ## Survey response rate chart
 
-    > [!div class="mx-imgBorder"]
-    > ![Survey response rate chart](media/analytics-summary-6.PNG)
+   > [!div class="mx-imgBorder"]
+   > ![Survey response rate chart](media/analytics-summary-6.PNG)
 
 The survey response rate chart provides a graphical view of the rate of response to end-of-session requests to take the CSAT survey.
