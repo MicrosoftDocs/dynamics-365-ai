@@ -17,14 +17,19 @@ manager: shellyha
 > [!div class="mx-imgBorder"]
 > ![Engagement dashboard](media/analytics-engagement-1.PNG)
 
-The engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provides graphical views of the breakdown of outcomes and engagements over time. 
+The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provides graphical views of the breakdown of outcomes and engagements over time. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+
+* [Outcomes over time chart](#outcomes-over-time-chart)
+* [Engagement over time chart](#engagement-over-time-chart)
+
+By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
 ## Outcomes over time chart
 
 > [!div class="mx-imgBorder"]
 > ![Outcomes over time chart](media/analytics-engagement-2.PNG)
 
-The outcomes over time chart provides a graphical view of the number of resolved, escalated, and abandoned cases over time.
+The outcomes over time chart provides a graphical view of the number of resolved, escalated, and abandoned cases over the specified time period.
 
 Description | Details
 ----------- | -------

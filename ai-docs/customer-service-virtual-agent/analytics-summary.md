@@ -19,16 +19,16 @@ manager: shellyha
 
 The Summary dashboard gives you a broad overview of your virtual agent's performance and uses artificial intelligence (AI) technology to show you topics that are having the greatest impact on case volume and resolution time.
 
-The Summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The Summary dashboard includes a variety of charts with graphical views of your virtual agent's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Summary charts](#summary-charts)
 * [Engagement rate drivers](#engagement-rate-drivers-chart)
 * [Abandon rate drivers](#abandon-rate-drivers-chart)
-* [Customer satisfaction](#customer-satisfaction-chart)
 * [Resolution rate drivers](#resolution-rate-drivers-chart)
+* [Customer satisfaction](#customer-satisfaction-chart)
 * [Survey response rate](#survey-response-rate-chart)
 
-The *Engagement rate drivers*, *Abandon rate drivers*, and *Resolution rate drivers* charts use natural language understanding artificial intelligence technology to group support cases as topics. These charts show you the topics that are having the most impact on your customer support system. You can then use the Virtual Agent Designer to create a virtual agent for those topics.
+The Engagement rate drivers, Abandon rate drivers, and Resolution rate drivers charts use natural language understanding artificial intelligence technology to group support cases as topics. These charts show you the topics that are having the most impact on the performance of your virtual agent.
 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
@@ -58,7 +58,7 @@ The escalation rate drivers chart uses artificial intelligence technology to gro
 
 Description | Details
 ----------- | -------
-Topic | Artificial intelligence clustering of cases based on language understanding applied to case titles.
+Topic | Artificial intelligence clustering of support cases based on language understanding applied to case titles.
 Rate | The percentage of engaged sessions for the topic that are escalated. An escalated session is an engaged session that is escalated to a human agent.
 Impact | The topic's escalation rate impact score. The escalation rate impact score is the overall escalation rate including the topic minus the overall escalation rate excluding the topic.
 
@@ -66,7 +66,7 @@ The chart displays the impact as a red or blue bar. The midpoint is the overall 
 
 Improving the escalation rate for the top escalation rate topics in red will have the greatest impact on improving virtual agent performance.
 
-To see additional information about each topic, click the Detail link to display the Topic Details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
+To see additional information about each topic, click the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
 
 ## Abandon rate drivers chart
 
@@ -85,7 +85,7 @@ The chart displays the impact as a red or blue bar. The midpoint is the overall 
 
 Improving the abandon rate for the top abandon rate topics in red will have the greatest impact on improving virtual agent performance.
 
-To see additional information about each topic, click the Detail link to display the Topic Details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
+To see additional information about each topic, click the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
 
 ## Resolution rate drivers chart
 
