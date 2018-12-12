@@ -38,7 +38,5 @@ Title - display name
 
 Icon - needs to be public URL, otherwise will show ?
 
-
-
-
+Filtering by customer ID, activity type or activity time? In the future can pulled using APIs
 
