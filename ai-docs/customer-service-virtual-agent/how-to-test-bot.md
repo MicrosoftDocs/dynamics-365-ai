@@ -54,3 +54,32 @@ As you design your AI for Customer Service Virtual Agent bot, you can use the Te
    > ![Restart conversation](media/create-topic-23.png)
 
 You can return to the conversation editor at any time to revise the topic's dialog, and continue to fine-tune the bot until you are ready to deploy it.
+
+## To trace through the topic's conversation path
+
+1. In the upper left of the Test Bot, click the **Conversation Tracing** toggle button to enable tracing.
+
+   > [!div class="mx-imgBorder"]
+   > ![Enable tracing](media/how-to-test-bot-1.png)
+
+2. Follow the steps above to [test your topic in the Test Bot](#to-test-a-topic-in-the-test-bot).
+
+3. As you move through the conversation in the Test Bot, the conversation editor highlights the current place in the conversation path.
+
+   > [!div class="mx-imgBorder"]
+   > ![Test bot place](media/how-to-test-bot-2.png)
+
+    The conversation editor displays highlighted nodes in green with check marks.
+
+   > [!div class="mx-imgBorder"]
+   > ![Conversation editor place](media/how-to-test-bot-3.png)
+
+4. To navigate to an earlier place in the conversation path, click a bot or user response in the Test Bot.
+
+   > [!div class="mx-imgBorder"]
+   > ![Earlier place test bot](media/how-to-test-bot-4.png)
+
+    The conversation editor highlights that node.
+
+   > [!div class="mx-imgBorder"]
+   > ![Earlier place conversation editor](media/how-to-test-bot-5.png)
