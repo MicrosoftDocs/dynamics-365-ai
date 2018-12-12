@@ -64,7 +64,12 @@ After selecting **Add**, the following panel opens up:
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-edit-entities.png "Edit Match entities")
 
-Within this panel you will set the definitions for your first match pair. Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
+Within this panel you will set the definitions of your first match pair. 
+
+> [!IMPORTANT]
+> When creating a match pair, two types of entities are **NOT** allowed: *Activities* (those entities are created in the Timeline screen) and *Relationships* (created in the Relationships screen). 
+
+Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
 
 > [!IMPORTANT]
 > The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. > 
@@ -72,7 +77,7 @@ Within this panel you will set the definitions for your first match pair. Start 
 > - First, what entity do you consider having the most reliable data?
 > - Second, does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you should continue to your second most reliable entity and so forth. 
 
-Continue by selecting the second entity of your match pair by selecting the right filed (shown below in red):
+Continue by selecting the second entity of your match pair by selecting the right field (shown below in red):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-right-entity.png "Add right entity")
