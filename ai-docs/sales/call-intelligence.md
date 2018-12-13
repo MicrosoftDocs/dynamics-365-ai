@@ -85,7 +85,3 @@ Select the name of the sales rep from the drop-down list to view that rep's perf
 |**7. Most used keywords**|Displays the defined keywords that customers used most during conversations with the sales rep.|
 |**8. Calls**|Displays the list of calls handled by the sales rep. Select the call to display the transcript and timeline. |
 |**9. Transcript**|Provides a written record of the call.<!--<br>• Select **Add comment** to provide necessary inputs to the sales rep at the selected timeline.-->|
-
-### See also
-
-[Configure call intelligence](configure-call-intelligence.md)
