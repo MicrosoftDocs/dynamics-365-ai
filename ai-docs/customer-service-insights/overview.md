@@ -36,8 +36,8 @@ For more information and examples of how to use the AI for Customer Service dash
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
 * [KPI summary dashboard](dashboard-kpi-summary.md)
-* [Incoming cases dashboard](dashboard-incoming-cases.md)
-* [Case resolution dashboard](dashboard-case-resolutions.md)
+* [New cases dashboard](dashboard-incoming-cases.md)
+* [Resolution dashboard](dashboard-case-resolutions.md)
 * [Customer satisfaction dashboard](dashboard-CSAT.md)
 * [Topic details dashboard](dashboard-topic-details.md)
 
