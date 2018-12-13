@@ -64,12 +64,7 @@ After selecting **Add**, the following panel opens up:
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-edit-entities.png "Edit Match entities")
 
-Within this panel you will set the definitions of your first match pair. 
-
-> [!IMPORTANT]
-> When creating a match pair, two types of entities are **NOT** allowed: *Activities* (those entities are created in the Timeline screen) and *Relationships* (created in the Relationships screen). 
-
-Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
+Within this panel you will set the definitions of your first match pair. Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
 
 > [!IMPORTANT]
 > The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. > 
@@ -98,7 +93,6 @@ For each of your match pairs you should define at least one match rule. Match ru
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-add-new-rule.png "Add new rule")
 
-
 Select **Add Rule** to open the following panel:
 
 > [!div class="mx-imgBorder"] 
@@ -107,10 +101,20 @@ Select **Add Rule** to open the following panel:
 Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections:
 
 1. **Attribute that will be used for matching from the first match pair entities**: Name, Phone, etc. Highlighted in blue below.
+
+[IMPORTANT!]
+> You should aviod matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by. Click here for a list of typical activity attributes: 
+
 2. **Normalization for first attribute:**: Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctuation, removing spaces, to many others. Note that for some attribute types, as defined under the **Types** column in the **Map** page, a specific and optimal combination of normalizations will be automatically chosen for you. These are called Semantic Normalization as highlighted in green in the image below. You can change this default setting to any of the other options.
 3. **Attribute that will be used for matching from the second match pair entities**: Highlighted in red in the image below.
 4. **Normalization for second attribute:** Same definitions as described under (3). Punctuation was chosen as an example in the image above. Highlighted in orange below.
-5. **The method that will be used for that criteria:** Selecting ***Exact*** will dictate that only matching records will be matched and selecting **Fuzzy** will dictate that records that are not 100% equal will also be matched. The threshold for fuzzy matches will be selected next to it. You can define it as either **Low**, **Medium**, or **High**. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The method button and the threshold bar are both highlighted in black in the image below.
+5. **The method that will be used for that criteria:** 
+- Selecting ***Exact*** will dictate that only matching records will be matched
+
+[IMPORTANT!]
+> Choosing Exact Match on the basis of the same AttributeId type (for example AccountId, ContactId, etc) will not lead to optimal result. You can link the two entities through a relationship (visit Relationships) but the match should be executed on the basis of other attributes. 
+
+- Selecting **Fuzzy** will dictate that records that are not 100% equal will also be matched. The threshold for fuzzy matches will be selected next to it. You can define it as either **Low**, **Medium**, or **High**. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The method button and the threshold bar are both highlighted in black in the image below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-rule-normalize.png "New rule settings")
