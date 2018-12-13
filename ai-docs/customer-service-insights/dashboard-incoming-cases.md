@@ -1,6 +1,6 @@
 ---
-title: "Incoming cases dashboard"
-description: "Learn about the customer service insights available on the Incoming cases dashboard."
+title: "New cases dashboard"
+description: "Learn about the customer service insights available on the New cases dashboard."
 keywords: ""
 ms\.date: 10/31/2018
 ms.service:
@@ -12,14 +12,14 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Incoming cases dashboard​
+# New cases dashboard​
 
 > [!div class="mx-imgBorder"]
-> ![Incoming cases dashboard](media/ai-csi-incoming-cases-dash.PNG)
+> ![New cases dashboard](media/ai-csi-new-cases-dash.PNG)
 
-The Incoming cases dashboard gives you an overview of the incoming cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
+The New cases dashboard gives you an overview of the new cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
-The Incoming cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The New cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
@@ -76,11 +76,11 @@ The current popular topics chart uses artificial intelligence technology to grou
 Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
-Volume | *The incoming cases associated with this topic divided by total incoming cases*
-Number of cases | *The incoming cases associated with this topic*
+Volume | *The new cases associated with this topic divided by total new cases*
+Number of cases | *The new cases associated with this topic*
 Volume change | *The incoming volume of cases associated with this topic in the current period minus the incoming volume of cases associated with this topic in the previous period*
-Average resolve time | *The average resolution time of resolved incoming cases associated with this topic*
-Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
+Average resolve time | *The average resolution time of resolved new cases associated with this topic*
+Resolve rate | *The resolved new cases associated with this topic divided by the total new cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
@@ -96,10 +96,10 @@ Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
 Volume | *The percent change in volume over the specified time period*
-Number of cases | *The incoming cases associated with this topic*
+Number of cases | *The new cases associated with this topic*
 Volume change | *The incoming volume of cases associated with this topic in the current period minus the incoming volume of cases associated with this topic in the previous period*
-Average resolve time | *The average resolution time of resolved incoming cases associated with this topic*
-Resolve rate | *The resolved incoming cases associated with this topic divided by the total incoming cases associated with this topic*
+Average resolve time | *The average resolution time of resolved new cases associated with this topic*
+Resolve rate | *The resolved new cases associated with this topic divided by the total new cases associated with this topic*
 Average CSAT  | *The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values*
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic Details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
