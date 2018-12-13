@@ -32,7 +32,7 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 
 The *Case volume drivers* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+By default, the dashboard shows you key performance indicators for the past month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
 To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
