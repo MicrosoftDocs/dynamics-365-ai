@@ -19,7 +19,7 @@ manager: shellyha
 
 The New cases dashboard gives you an overview of the new cases in your customer service system, including using artificial intelligence (AI) technology to help you identify emerging issues.
 
-The New cases dashboard includes a variety of charts with graphical views of your system's incoming support cases. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The New cases dashboard includes a variety of charts with graphical views of your system's new support cases. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
