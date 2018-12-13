@@ -36,6 +36,9 @@ No, currently we provide out-of-the-box visualizations and charts only. If you r
 **Are goals required to use the app?**<br>
 No, however it is recommended to setup Revenue goals for each seller to get even better insights into the performance of your team. For more information please read [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
 
+**How long does it take for data updates to reflect in the app?**<br>
+The data is refreshed periodically and could take up to 24 hours to reflect. We continue to make improvements to reduce this delay.
+
 **Can sellers (or non-managers) use this app?**<br>
 The application is currently designed to bring the most value to sales managers. The application cannot provide much of value for sellers though they can use this application.
 

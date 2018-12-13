@@ -40,7 +40,7 @@ The next sections describe:
 ## Recommendations for using the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app:
--	Verify that you have a subscription to Microsoft Dynamics 365 for Sales.
+-	Verify that you have a subscription to Microsoft Dynamics 365 for Sales. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
 - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)
 - Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies)
 - Verify that goals are defined for sales reps or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)

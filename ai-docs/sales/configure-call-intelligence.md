@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 for Sales, version 9.1.0 <br>
 
-The call intelligence in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] assists the sales managers in your organization to get an overview of the call center and drill-down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue. 
+The call intelligence in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] assists the sales managers in your organization to get an overview of the call center and drill-down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
 As an administrator, you must configure the call intelligence in your organization for sales managers to use. Perform the following steps to configure the call intelligence:
 1. Review the prerequisites. 
