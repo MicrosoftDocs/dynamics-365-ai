@@ -27,7 +27,7 @@ Applies to Dynamics 365 for Sales, version 9.1.0
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue.  [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
 
 - Increase sales wins.
-- Reduce new salesperson ramp-up time.
+- Reduce new salesperson training time.
 - Increase productivity gains for the business.
 
 > [!NOTE]
