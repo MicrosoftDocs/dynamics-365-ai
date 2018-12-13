@@ -27,10 +27,10 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 * [Case channel](#case-channel-chart)
 * [Case tracking](#case-tracking-chart)
 * [Unresolved cases by age](#unresolved-cases-by-age-chart)
-* [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
+* [Case volume drivers (AI Insights)](#case-volume-drivers-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
+The *Case volume drivers* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
@@ -110,12 +110,12 @@ Description | Details
 ----------- | -------
 Unresolved cases by age | *Total unresolved cases by days unresolved*
 
-## Top case volume impactors chart
+## Case volume drivers chart
 
 > [!div class="mx-imgBorder"]
-> ![Top case volume impactors chart](media/ai-csi-top-case-volume.PNG)
+> ![Case volume drivers chart](media/ai-csi-case-volume-drivers.PNG)
 
-The top case volume impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
+The case volume drivers chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
 
 Description | Details
 ----------- | -------
