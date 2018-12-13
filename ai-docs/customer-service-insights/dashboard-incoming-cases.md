@@ -24,10 +24,10 @@ The New cases dashboard includes a variety of charts with graphical views of you
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
 * [Case timing](#case-timing-chart)
-* [Current popular topics (AI Insights)](#current-popular-topics-chart)
+* [Popular topics (AI Insights)](#current-popular-topics-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-The *Current popular topics* and *Emerging topics* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
+The *Popular topics* and *Emerging topics* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume, and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
@@ -66,12 +66,12 @@ Description | Details
 ----------- | -------
 Case timing | *Incoming case breakdown by channel and time of day*
 
-## Current popular topics chart
+## Popular topics chart
 
 > [!div class="mx-imgBorder"]
-> ![Current popular topics chart](media/ai-csi-current-popular-topics.PNG)
+> ![Popular topics chart](media/ai-csi-popular-topics.PNG)
 
-The current popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period.
+The popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics, and then display topics in order of volume over the specified time period.
 
 Description | Details
 ----------- | -------
