@@ -88,7 +88,7 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 
 **What do I need in order to use Talking points?​**<br>
 Talking points require Office 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
-​
+
 **How do I enable Talking points?​**<br>
 Install Dynamics 365 AI for Sales and enable the Talking points feature from **Settings** > **AI setup**.​
 
