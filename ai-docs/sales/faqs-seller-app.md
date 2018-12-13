@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 AI for sales | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 AI for sales seller capabilities"
 keywords: "FAQs, Dynamics 365 AI for sales, AI for sales, Sales AI"
-ms.date: 10/31/2018
+ms.date: 12/13/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -20,18 +20,12 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-<!--Be sure to update the date to the new publication date.-->
-
-
 # Frequently asked questions for seller capabilities
 
 ## Relationship analytics
 
-
-<!-- Does the answer to the following question mean D365 for Sales is required for using Relationship analytics? Is it just D365 for Sales and not D365 AI for Sales? Also, in the third sentence, I wonder about the placement of "only." Do you mean the graph is built "only" on user accounts situated in the United States?-->
-
 **What do I need in order to use Relationship analytics?​**<br>
-Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, only the graph is built on user accounts situated in the United States.​
+Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​
 
 **How do I enable Relationship analytics?​**<br>
 Install Dynamics 365 AI for Sales and enable the Relationship analytics feature from  **Settings** > **AI setup**.​
@@ -82,22 +76,14 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 
 ## Talking points
 
-
-<!--I'm guessing SSS stands for server-side sync.-->
-
-
 **What do I need in order to use Talking points?​**<br>
 Talking points require Office 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
 
 **How do I enable Talking points?​**<br>
 Install Dynamics 365 AI for Sales and enable the Talking points feature from **Settings** > **AI setup**.​
 
-
-<!--What does contact/last mean - the most recent mails from a contact? Sports was listed twice - do you want to replace it with something else?-->
-
-
 **What do Talking points look at for the conversation starters?​**<br>
-Talking points look at the inbox of the signed-in user for emails from the contact/last that includes conversational topics relating to sports, entertainment, and health.​
+Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
 
 **How is my privacy protected?​**<br>
 User privacy is safeguarded because only emails from the signed-in user’s mailbox are shown. A colleague won't be able to see those same talking points unless they were also a recipient of that email.​
@@ -107,10 +93,8 @@ It takes a few seconds to display the results.​
 
 ## Who knows whom
 
-<!--Should it say "only on user accounts situation in the United States"?-->
-
 **What do I need in order to use Who knows whom?​**<br>
-Who knows whom requires Office 365 Exchange. The graph is built on user accounts situated in the United States. Geo availability will expand as AI for Sales becomes available in more regions. Server-side sync is required for email introduction requests.​
+Who knows whom requires Office 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as AI for Sales becomes available in more regions. Server-side sync is required for email introduction requests.​
 
 **How do I enable Who knows whom?​**<br>
 Install Dynamics 365 AI for Sales, opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​

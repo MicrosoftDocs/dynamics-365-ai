@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 AI for Sales | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 AI for Sales app"
 keywords: "FAQs, Dynamics 365 AI for sales, AI for sales, Sales AI"
-ms.date: 10/31/2018
+ms.date: 12/13/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -20,10 +20,6 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-
-<!--Be sure to update to the new publication date.-->
-
-
 # Frequently asked questions for sales manager capabilities
 
 ## Dynamics 365 AI for Sales app
@@ -31,19 +27,11 @@ topic-status: Drafting
 **What languages are supported now?​**<br>
 The application supports English (en-us) for tenants in the US region. We will support more languages in future releases.
 
-
-<!--Can you change spring to a month? Spring is different around the world.-->
-
-
 **When will you expand to support my region?**<br>
-We plan to enhance our region availability by Spring 2019.
+We plan to enhance our region availability in future releases.
 
 **Can I add my own reports?**<br>
 No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities, you may leave us a suggestion at [Dynamics 365 AI for Sales communities](https://aka.ms/aisalescommunities).
-
-
-<!--please check the URL - it isn't working for me.-->
-
 
 **Are goals required for using the app?**<br>
 No. However, it is a good idea to set up revenue goals for each seller to get even better insights into the performance of your team. For more information, see [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
