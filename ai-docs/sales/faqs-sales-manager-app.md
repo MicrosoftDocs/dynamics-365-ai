@@ -41,6 +41,10 @@ We plan to enhance our region availability by Spring 2019.
 **Can I add my own reports?**<br>
 No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities, you may leave us a suggestion at [Dynamics 365 AI for Sales communities](https://aka.ms/aisalescommunities).
 
+
+<!--please check the URL - it isn't working for me.-->
+
+
 **Are goals required for using the app?**<br>
 No. However, it is a good idea to set up revenue goals for each seller to get even better insights into the performance of your team. For more information, see [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
 
