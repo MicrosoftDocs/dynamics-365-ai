@@ -71,9 +71,9 @@ Graphical charts showing trends include:
 
 * [Case tracking (KPI summary dashboard)](dashboard-kpi-summary.md#case-tracking-chart)
 * [Unresolved cases by age (KPI summary dashboard)](dashboard-kpi-summary.md#unresolved-cases-by-age-chart)
-* [Case timing (Incoming cases dashboard)](dashboard-incoming-cases.md#case-timing-chart)
-* [New cases versus average resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
-* [New escalations versus resolved escalations (Case resolution dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
+* [Case timing (New cases dashboard)](dashboard-incoming-cases.md#case-timing-chart)
+* [New cases versus average resolution time (Resolutions dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
+* [New escalations versus resolved escalations (Resolutions dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
 * [Topic case composition (Topic details dashboard)](dashboard-topic-details.md#topic-case-composition-chart)
 
 Graphical charts showing the breakdown of support cases by key criteria include:
@@ -81,11 +81,11 @@ Graphical charts showing the breakdown of support cases by key criteria include:
 * [Case priority (KPI summary dashboard)](dashboard-kpi-summary.md#case-priority-chart)
 * [Total case breakdown (KPI summary dashboard)](dashboard-kpi-summary.md#total-case-breakdown-chart)
 * [Case channel (KPI summary dashboard)](dashboard-kpi-summary.md#case-channel-chart)
-* [Case priority (Incoming cases dashboard)](dashboard-incoming-cases.md#case-priority-chart)
-* [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channel-chart)
+* [Case priority (New cases dashboard)](dashboard-incoming-cases.md#case-priority-chart)
+* [Case channel (New cases dashboard)](dashboard-incoming-cases.md#case-channel-chart)
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
-* [Agents with longest resolve time (Case resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
-* [Agents with most escalations (Case resolution dashboard)](dashboard-case-resolutions.md#agents-handling-most-escalations-chart)
+* [Agents with longest resolve time (Resolutions dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
+* [Agents with most escalations (Resolutions dashboard)](dashboard-case-resolutions.md#agents-handling-most-escalations-chart)
 * [Agents with most unresolved cases (Topic details dashboard)](dashboard-topic-details.md#agents-with-most-unresolved-cases-chart)
 * [Agents with longest average resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-average-resolve-time-chart)
 * [Agents with lowest average CSAT (Topic details dashboard)](dashboard-topic-details.md#agents-with-lowest-average-csat-chart)
@@ -101,11 +101,11 @@ AI Insights charts use language understanding technology to group support cases 
 
 AI Insights charts include:
 
-* [Top case volume impactors (KPI summary dashboard)](dashboard-kpi-summary.md#top-case-volume-impactors-chart)
-* [Current popular topics (Incoming cases dashboard)](dashboard-incoming-cases.md#current-popular-topics-chart)
-* [Emerging topics (Incoming cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
-* [Top CSAT impactors (Customer satisfaction dashboard)](dashboard-CSAT.md#top-csat-impactors-chart)
-* [Top resolution time impactors (Case resolution dashboard)](dashboard-case-resolutions.md#top-resolution-time-impactors-chart)
+* [Case volume drivers (KPI summary dashboard)](dashboard-kpi-summary.md#case-volume-drivers-chart)
+* [Popular topics (New cases dashboard)](dashboard-incoming-cases.md#popular-topics-chart)
+* [Emerging topics (New cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
+* [Customer satisfaction drivers (Customer satisfaction dashboard)](dashboard-CSAT.md#customer-satisfaction-drivers-chart)
+* [Resolution time drivers (Resolutions dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
 
 
