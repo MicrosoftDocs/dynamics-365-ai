@@ -12,14 +12,14 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Resolution dashboard​
+# Resolutions dashboard​
 
 > [!div class="mx-imgBorder"]
-> ![Case resolution dashboard](media/ai-csi-case-resolutions-dash.PNG)
+> ![Resolutions dashboard](media/ai-csi-resolutions-dash.PNG)
 
-The Case resolution dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
+The Resolutions dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
-The Case resolution dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The Resolutions dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
 * [New cases versus average resolution time](#new-cases-versus-average-resolution-time-chart)
