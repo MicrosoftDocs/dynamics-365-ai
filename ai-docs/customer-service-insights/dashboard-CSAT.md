@@ -49,7 +49,7 @@ A blue up and down indicator next to the value indicates the percent change in a
 ## csat collection rate chart
 
 > [!div class="mx-imgBorder"]
-> ![CSAT collection rate chart](media/ai-csi-CSAT-collection-rate.PNG "CSAT collection rate chart")
+> ![CSAT collection rate chart](media/ai-csi-csat-collection-rate.PNG "CSAT collection rate chart")
 
 The CSAT collection rate chart shows the percentage of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
 
