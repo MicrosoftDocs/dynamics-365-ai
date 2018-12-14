@@ -22,7 +22,7 @@ The Customer satisfaction dashboard gives you an overview of customer satisfacti
 The Customer satisfaction dashboard includes a variety of charts with graphical views of your system's customer satisfaction data. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Surveys completed](#surveys-completed-chart)
-* [CSAT collection rate](#csat-collection-rate-chart)
+* [CSAT collection rate](#CSAT-collection-rate-chart)
 * [Average CSAT](#average-csat-chart)
 * [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
 * [Customer satisfaction drivers (AI Insights)](#customer-satisfaction-drivers-chart)
@@ -46,7 +46,7 @@ Total surveys completed | *The number of completed customer satisfaction (CSAT) 
 
 A blue up and down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
-## csat collection rate chart
+## CSAT collection rate chart
 
 > [!div class="mx-imgBorder"]
 > ![CSAT collection rate chart](media/ai-csi-csat-collection-rate.PNG "CSAT collection rate chart")
