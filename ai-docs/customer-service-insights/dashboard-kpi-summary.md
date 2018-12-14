@@ -22,7 +22,7 @@ The KPI (key performance indicator) summary dashboard gives you a broad overview
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [KPI summary charts](#kpi-summary-charts)
-* [Case breakdown](#total-case-breakdown-chart)
+* [Case breakdown](#case-breakdown-chart)
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
 * [Case tracking](#case-tracking-chart)
