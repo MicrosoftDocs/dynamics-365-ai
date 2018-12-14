@@ -51,7 +51,7 @@ The following charts give you different views of case resolution time:
 * [Current popular topics (New cases dashboard)](dashboard-incoming-cases.md#popular-topics-chart)
 * [Emerging topics (New cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
 * [Agents with longest resolve time (Resolution dashboard)](dashboard-case-resolutions.md#agents-with-longest-resolve-time-chart)
-* [New cases versus average resolve time (Resolution dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
+* [New cases versus average resolve time (Resolution dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolution-time-chart)
 * [New escalations versus resolved escalations (Resolution dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
 * [Resolution time drivers (Resolution dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
 * [Agents with longest average resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-average-resolve-time-chart)
@@ -65,8 +65,8 @@ Use customer satisfaction charts to give you different views of customer feedbac
 The following charts give you different views of customer satisfaction:
 
 * [Average CSAT KPI Summary chart (KPI summary dashboard)](dashboard-kpi-summary.md#kpi-summary-charts)
-* [Current popular topics (Incoming cases dashboard)](dashboard-incoming-cases.md#current-popular-topics-chart)
-* [Emerging topics (Incoming cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
+* [Popular topics (New cases dashboard)](dashboard-incoming-cases.md#popular-topics-chart)
+* [Emerging topics (New cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
 * [Customer satisfaction drivers (Customer satisfaction dashboard)](dashboard-CSAT.md#customer-satisfaction-drivers-chart)
 * [Average CSAT KPI chart (Topic details dashboard)](dashboard-topic-details.md#topic-details-kpi-charts)
