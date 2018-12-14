@@ -28,9 +28,9 @@ Some key features of the dashboards include:
 Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data.
 
 > [!div class="mx-imgBorder"]
-> ![Dashboard filters](media/ai-csi-filters.PNG)
+> ![Dashboard filters](media/ai-csi-filters.png)
 
-By default, dashboards display information for the last month, but you also display information for the last day or week by selecting **Last 01 Days** or **Last 07 Days**.
+By default, dashboards display information for the past month, but you also display information for the past day or week by selecting **Past 01 Days** or **Past 07 Days**.
 
 > [!div class="mx-imgBorder"]
 > ![Time period filter](media/ai-csi-time-period-filter.PNG)
