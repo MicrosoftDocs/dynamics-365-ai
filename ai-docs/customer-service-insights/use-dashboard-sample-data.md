@@ -79,7 +79,7 @@ Graphical charts showing trends include:
 Graphical charts showing the breakdown of support cases by key criteria include:
 
 * [Case priority (KPI summary dashboard)](dashboard-kpi-summary.md#case-priority-chart)
-* [Total case breakdown (KPI summary dashboard)](dashboard-kpi-summary.md#total-case-breakdown-chart)
+* [Case breakdown (KPI summary dashboard)](dashboard-kpi-summary.md#case-breakdown-chart)
 * [Case channel (KPI summary dashboard)](dashboard-kpi-summary.md#case-channel-chart)
 * [Case priority (New cases dashboard)](dashboard-incoming-cases.md#case-priority-chart)
 * [Case channel (New cases dashboard)](dashboard-incoming-cases.md#case-channel-chart)
