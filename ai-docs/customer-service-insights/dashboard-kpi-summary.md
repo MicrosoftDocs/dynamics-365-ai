@@ -22,7 +22,7 @@ The KPI (key performance indicator) summary dashboard gives you a broad overview
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [KPI summary charts](#kpi-summary-charts)
-* [Total case breakdown](#total-case-breakdown-chart)
+* [Case breakdown](#total-case-breakdown-chart)
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
 * [Case tracking](#case-tracking-chart)
@@ -63,18 +63,18 @@ The case priority chart shows the percentage breakdown for the specified time pe
 
 Description | Details
 ----------- | -------
-Case priority | *Total case breakdown by case priority*
+Case priority | *Case breakdown by case priority*
 
-## Total case breakdown chart
+## Case breakdown chart
 
 > [!div class="mx-imgBorder"]
-> ![Total case breakdown chart](media/ai-csi-total-case-breakdown.PNG)
+> ![Case breakdown chart](media/ai-csi-case-breakdown.PNG)
 
-The total case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from earlier. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
+The case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from earlier. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
 
 Description | Details
 ----------- | -------
-Total case breakdown | *Total case breakdown by rollover cases (backlog) plus new cases for the specified time period*
+Case breakdown | *Case breakdown by rollover cases (backlog) plus new cases for the specified time period*
 
 ## Case channel chart
 
@@ -85,7 +85,7 @@ The case channel chart shows the breakdown in support cases for the specified ti
 
 Description | Details
 ----------- | -------
-Case channels | *Total case breakdown by channel*
+Case channels | *Case breakdown by channel*
 
 ## Case tracking chart
 
