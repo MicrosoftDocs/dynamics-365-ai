@@ -72,7 +72,7 @@ Graphical charts showing trends include:
 * [Case tracking (KPI summary dashboard)](dashboard-kpi-summary.md#case-tracking-chart)
 * [Unresolved cases by age (KPI summary dashboard)](dashboard-kpi-summary.md#unresolved-cases-by-age-chart)
 * [Case timing (New cases dashboard)](dashboard-incoming-cases.md#case-timing-chart)
-* [New cases versus average resolution time (Resolutions dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolve-time-chart)
+* [New cases versus average resolution time (Resolutions dashboard)](dashboard-case-resolutions.md#new-cases-versus-average-resolution-time-chart)
 * [New escalations versus resolved escalations (Resolutions dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
 * [Topic case composition (Topic details dashboard)](dashboard-topic-details.md#topic-case-composition-chart)
 
