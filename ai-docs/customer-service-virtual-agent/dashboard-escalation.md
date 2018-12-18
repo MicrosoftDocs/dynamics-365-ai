@@ -13,3 +13,5 @@ manager: shellyha
 ---
 
 # Escalation rate dashboard
+
+This is a placeholder topic.

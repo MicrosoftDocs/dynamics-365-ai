@@ -13,3 +13,6 @@ manager: shellyha
 ---
 
 # Suggested dashboard
+
+This is a placeholder topic.
+
