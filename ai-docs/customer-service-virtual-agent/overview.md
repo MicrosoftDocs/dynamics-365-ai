@@ -18,7 +18,7 @@ Dynamics 365 AI for Customer Service Virtual Agent enables any customer service 
 
 Key features include:
 
-* **An easy-to-use graphical interface** – Using a simple, no-code graphical interface, customer service managers and subject matter experts can easily build, manage, and maintain their own virtual agents. No artificial intelligence expertise, coding skills, or extensive engineering effort are required. As resolutions change or new support topics arise, a customer service manager or subject matter expert can update the virtual agent in minutes, without writing any code.
+* **An easy-to-use graphical interface** – Using a simple, no-code graphical interface, customer service managers and subject matter experts can easily build, manage, and maintain their own virtual agents. No artificial intelligence expertise, coding skills, or extensive engineering effort are required. As new questions from customers emerge over time, a subject matter expert can update the virtual agent in minutes, without writing any code.
 
 * **AI-driven dialogs** – Customer service managers can create virtual agent solutions to support topics in the form of interactive multi-turn conversations. For complex topics that can have multiple solutions, customer service managers only need to specify the range of solutions and the conditions under which a solution applies. The AI for Customer Service Virtual Agent's artificial intelligence technology dynamically generates the appropriate multi-turn conversation to find and provide a solution for the customer.
 

@@ -67,7 +67,7 @@ All non-system content will be immediately exported.
     > [!div class="mx-imgBorder"]
     > ![Export data](media/gdpr-export-5.png)
 
-3. Select whether you want to export summarized data or underlying data, and the file format for the exported data, and then click **Export**.
+3. To export summarized data, select **Summarized data** and then click **Export**.
 
    > [!div class="mx-imgBorder"]
    > ![Export details](media/gdpr-export-6.png)

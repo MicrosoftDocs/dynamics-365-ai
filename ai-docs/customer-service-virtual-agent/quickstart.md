@@ -65,17 +65,19 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
 
-8. Test the bot in the test web environment. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
+8. Share your bot. When you deploy your bot, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the bot's test web environment. Click **Copy** to copy the URL.
+
+   > [!div class="mx-imgBorder"]
+   > ![Share bot](media/deploy-bot-2-1.png)
+
+    Users can open the web test environment and test the bot by pasting the URL into their browser.
+
+9. Test the bot in the test web environment. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
    > [!div class="mx-imgBorder"]
    > ![Test bot](media/deploy-bot-4.png)
 
-9. Share your bot. On the Deploy page, click **Share** to copy the URL for the bot test web page, and then distribute the URL.
-
-   > [!div class="mx-imgBorder"]
-   > ![Share bot](media/deploy-bot-5.png)
-
-10. Use bot analytics to see how your virtual agent is performing. To view the bot analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
+10. Use bot analytics to see how your virtual agent is performing. To view the bot analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page. It can take some time for the data to populate the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![View analytics](media/quickstart-2.png)
