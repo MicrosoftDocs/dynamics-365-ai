@@ -21,7 +21,7 @@ To view the bot analytics dashboards, click **Analytics** in the navigation pane
    > [!div class="mx-imgBorder"]
    > ![Open Analytics page](media/analytics-1.png)
 
-You can display [Overview](analytics-overview.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page. The Overview dashboard is the default AI for Customer Service Virtual Agent dashboard.
+You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page. The Summary dashboard is the default AI for Customer Service Virtual Agent dashboard.
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard tabs](media/analytics-2.png)
@@ -44,30 +44,31 @@ By default, dashboards display information for the last seven days, but you also
 
 ## Key performance indicator charts
 
-Key performance indicator charts give you a view of the key performance data for your virtual agent and customer service system for the specified time period. For example, the key performance indicator charts on the Overview summary dashboard show you:
+Key performance indicator charts give you a view of the key performance data for your virtual agent and customer service system for the specified time period. For example, the key performance indicator charts on the Summary summary dashboard show you:
 
-* The total sessions during the period.
-* The number of resolved sessions during the period.
-* The number of escalated sessions during the period.
-* The number of abandoned sessions during the period.
-* The average customer satisfaction (CSAT) score during the period.
-* The hours saved as a result of using the virtual agent.
+Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
+
+* The total number of sessions during the period.
+* The percentage of total sessions during the period that are engaged sessions.
+* The percentage of engaged sessions during the period that are resolved.
+* The percentage of engaged sessions during the period that are escalated.
+* The percentage of engaged sessions during the period that are abandoned.
 
     > [!div class="mx-imgBorder"]
-    > ![KPI summary charts](media/analytics-4.PNG)
+    > ![KPI summary charts](media/analytics-summary-1.PNG)
 
 Each key performance indicator chart includes an up and down indicator next the value that indicates the percent change in a positive or negative direction.
 
 ## Graphical trend and breakdown charts
 
-The dashboards include a variety of graphical charts that give you views of different trends, and the breakdown of cases by key criteria such as resolution time, customer satisfaction, case priority, and support channel.
+The dashboards include a variety of graphical charts that give you views of different trends, and the breakdown of cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
 
    > [!div class="mx-imgBorder"]
    > ![Graphical charts](media/analytics-5.PNG)
 
 ## Impact charts
 
-Impact charts use artificial intelligence technology to show you the topics that are having the greatest impact, both positive and negative, on the customer service system.
+Impact charts use artificial intelligence technology to show you the topics that are having the greatest impact, both positive and negative, on the performance of your virtual agent.
 
    > [!div class="mx-imgBorder"]
    > ![Impact charts](media/analytics-6.PNG)

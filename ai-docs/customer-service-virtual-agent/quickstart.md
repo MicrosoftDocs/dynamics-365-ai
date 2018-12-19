@@ -1,6 +1,6 @@
 ---
-title: "Quickstart - Create and deploy a customer service bot using AI for Customer Service Virtual Agent"
-description: "Learn how to quickly create a customer service bot using AI for Customer Service Virtual Agent."
+title: "Quickstart - Create and deploy a customer service virtual agent"
+description: "Learn how to quickly create a customer service virtual agent using AI for Customer Service Virtual Agent."
 keywords: ""
 ms\.date: 12/5/2018
 ms.service:
@@ -12,9 +12,9 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Quickstart - Create and deploy a customer service bot using AI for Customer Service Virtual Agent
+# Quickstart - Create and deploy a customer service virtual agent
 
-Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and deploy your own customer service bot. The Customer Service Virtual Agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
+Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and deploy your own customer service virtual agent. The virtual agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
 
 ## To create and deploy your own virtual agent
 
@@ -30,7 +30,7 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
 
 3. Specify a name, description, and one of more trigger phrases for the topic.
 
-    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic. Click **Add** to add the trigger phrase.
+    A trigger phrase is a phrase that a customer enters to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic. Click **Add** to add the trigger phrase.
 
    > [!div class="mx-imgBorder"]
    > ![Create topic](media/create-topic-3-1.png)

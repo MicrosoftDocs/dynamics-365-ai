@@ -38,7 +38,7 @@ The Home page provides a summary of the performance of your bot once it has been
 ## Analytics page
 
    > [!div class="mx-imgBorder"]
-   > ![Analytics page](media/bot-designer-3.PNG)
+   > ![Analytics page](media/dash-summary-1.PNG)
 
 The Analytics page provides a variety of dashboards and charts showing key performance indicators for your bot.
 
@@ -64,18 +64,15 @@ The Deploy page is where you activate your completed bot to a support channel. T
 
 As part of the deployment to the test web page, you can specify a custom welcome message and any suggested conversation starters to help customers get started using your bot.
 
-   > [!div class="mx-imgBorder"]
-   > ![Custom message](media/bot-designer-5-1.PNG)
-
 If you choose to deploy your bot to your own custom web site, you will be able to copy and share the Virtual Agent code, which needs to be added to your custom web site.
 
 For more information about using the Deploy page to deploy your bot, see [Deploying your bot](getting-started-deploy.md).
 
 ## Test Bot
 
-Each page includes a Test Bot pane, where you can test your bot and view how the conversation with the bot works in practice.
+Each page includes a Test Bot, where you can test your bot and view how the conversation with the bot works in practice.
 
-You can test a bot topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the test bot pane.
+You can test a bot topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test Bot.
 
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/bot-designer-6.PNG)

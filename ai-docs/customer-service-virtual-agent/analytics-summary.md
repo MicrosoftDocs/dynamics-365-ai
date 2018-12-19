@@ -64,7 +64,7 @@ Impact | The topic's escalation rate impact score. The escalation rate impact sc
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average escalation rate. A red bar indicates that the topic's escalation rate is larger than the average escalation rate, resulting in a negative impact on overall escalation rate. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall escalation rate performance.
 
-Improving the escalation rate for the top escalation rate topics in red will have the greatest impact on improving virtual agent performance.
+Lowering the escalation rate for the top escalation rate topics in red will have the greatest impact on improving virtual agent performance.
 
 To see additional information about each topic, click the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
 

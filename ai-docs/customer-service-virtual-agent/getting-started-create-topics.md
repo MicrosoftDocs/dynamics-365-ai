@@ -14,7 +14,7 @@ manager: shellyha
 
 # Creating topics for your bot
 
-A topic defines the intent of a customer when making a request to the virtual agent. You specify trigger phrases to start the conversation, and create the dialog conversation path in the Virtual Agent Designer's conversation editor. You can then see how the conversation path works in practice by testing it in the Test Bot, and continue to fine-tune the topic until you are ready to deploy it.
+A topic defines the intent of a customer when making a request to the virtual agent. You specify trigger phrases that prompt the virtual agent to start the conversation, and create a conversation path in the Virtual Agent Designer's conversation editor to lead customers to a resolution of their support issue. You can see how the conversation path works in practice by testing it in the Test Bot, and continue to fine-tune the topic until you are ready to deploy it.
 
 ## To create your own topic
 
@@ -39,7 +39,9 @@ A topic defines the intent of a customer when making a request to the virtual ag
 
 3. Specify a name, description, and one or more trigger phrases for the topic.
 
-    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. Once the conversation is started, the conversation follows the path you define. You can specify more than one trigger phrase for a topic. Having at least 20 trigger phrases can improve the usage of your topic.
+    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. Once the conversation is started, the conversation follows the path you define. You can specify more than one trigger phrase for a topic.
+
+    **Tip:**   Having at least 20 trigger phrases can improve the usage of your topic.
 
 4. Click **Add** to add the trigger phrase.
 
@@ -148,4 +150,4 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
 
-You can return to the conversation editor at any time to revise the topic's dialog, and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).
+You can return to the conversation editor at any time to revise the topic's conversation path, and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).

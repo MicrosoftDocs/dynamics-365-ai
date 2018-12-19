@@ -18,9 +18,9 @@ You can use the Virtual Agent Designer to create a powerful custom virtual agent
 
 To help get you started and tailor the bot to your specific needs, the Virtual Agent Designer lets you create a bot using built-in industry-specific templates. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for retail customers.
 
-The templates come with an enhanced artificial intelligence model for that industry, as well as built-in content building blocks containing topics, trigger queries, and pre-authored dialogs that you can use to build a conversation path for your bot that is tailored to that industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
+The templates come with an enhanced artificial intelligence model for that industry, as well as built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths that are tailored to that industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
 
-These industry templates can also be useful as a model for building conversations around your own topics. For more information, see [Work with templates](how-to-templates.md).
+These industry templates can also be useful as a model for building conversations around the support issues and requests that customers often face or request. For more information, see [Work with templates](how-to-templates.md).
 
 ## To create a bot
 
@@ -31,7 +31,7 @@ These industry templates can also be useful as a model for building conversation
    > [!div class="mx-imgBorder"]
    > ![Create a new bot screen](media/create-bot-1.PNG)
 
-2. Select the template you want to use, and specify a name and environment for the bot. Optionally, you can specify a business name. Then click **Create**.
+2. Select the template you want to use, and specify a name and region for the bot. Optionally, you can specify a business name. Then click **Create**.
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
