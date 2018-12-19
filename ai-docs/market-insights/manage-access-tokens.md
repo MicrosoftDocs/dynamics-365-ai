@@ -2,7 +2,7 @@
 title: "Manage access tokens in Market Insights | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Market Insights."
 keywords: "tokens, oauth, validation"
-ms.date: 10/31/2018
+ms.date: 12/19/2018
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 88ab6bde-b382-4b12-bb2a-d0f5806381b5
@@ -33,9 +33,8 @@ search.app:
 |||  
 |-|-|  
 |**Type of social profile**|**Type of token**|  
-|[!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile|**Acquisition token**: Acquire public data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.|  
+|[!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile|**Acquisition token**: Acquire public data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own.|  
 |[!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page|**Interaction token**: Acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, publish and reply to posts, and acquire author information for posts and comments.|  
-|[!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account|**Acquisition token**: Acquire public data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)].|  
 |[!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile|**Interaction token**: Acquire private messages from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile, and publish and reply to posts.|  
 |[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account|**Interaction token**: Comment and rate video posts and reply to comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)].|  
   
@@ -45,17 +44,17 @@ Adding tokens for data acquisition allows you to acquire posts from some sources
 
 ### Add a Facebook acquisition token and allow data acquisition  
 
-You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
+You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts you own. You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page and the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to them.    
 
 > [!NOTE]
-> Provided tokens will expire after 60 days. [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] will notify you to reauthenticate your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
+> Provided tokens will expire after 60 days. [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] will notify you to reauthenticate your profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
 > 
 > [!IMPORTANT]
-> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
+> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] data acquisition, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
 
 1. Go to **Settings** > **Social Profiles**.  
 
-2. Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") under **Allow data acquisition**, and enter your log-in credentials.  
+2. Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, select **Reauthenticate your token** ![reauthenticate tokens button in market insights](media/reatuthenticate-icon.png "Reauthenticate tokens button in Market Insights") under **Allow data acquisition**, and enter your credentials.  
 
 3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
 

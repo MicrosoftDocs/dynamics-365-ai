@@ -48,7 +48,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 ## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
   
-[Sign in to Market Insights](https://social.dynamics.com/login) directly or review additional options to [access Market Insights](sign-in.md)  
+[Sign in to Market Insights](https://mi.ai.dynamics.com/login) directly or review additional options to [access Market Insights](sign-in.md)  
 
 > [!NOTE]
 > The first user, usually the global admin, needs to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and confirm the solution isn’t used by or on behalf of a government customer before other users can access the service. 
