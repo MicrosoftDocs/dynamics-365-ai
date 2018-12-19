@@ -63,7 +63,7 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Read the latest [Market Insights readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
-- Download the [Market Insights translation guide](https://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
+- Review the [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
 
 ### See also
