@@ -27,7 +27,6 @@ Once completing Match, you can access Merge via the **Merge** tile within the **
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
 
-
 This is the last phase within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
 
 ## Step One: Deciding Between a System Merge and a Manual Merge
@@ -52,7 +51,10 @@ The goal behind this screen is to equip you, the user, with two approaches to th
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-page.png "Merge page")
 
-The **Merge** page that is shown above includes several components, regardless of your choice in step one. We will explore them below.
+The **Merge** page that is shown above includes several components, regardless of your choice in step one. We will explore them below. 
+
+> [!IMPORTANT]
+Clicking the **Run** button at the top can lead to an error at this point. Upon the completion of at least one Merge definition as will be explained in step 3, the **Save** button will become active so you can save your merge and only then click the Run button.
 
 **Four validation tiles** (shown above in green): By tracking those tiles as you work with the Merge screen you can keep validating the quality of your merge selections. Beyond the **All Attributes** and **Discarded Attributes** tiles that we discussed earlier, there are two more important tiles:
   - **Merged Attributes** tile shows how many attributes were successfully merged from multiple (matched) entities. It should answer the expectations that you have around your specific data. 
@@ -140,7 +142,7 @@ Third, within the **Select Attributes** menu highlighted in red above, we will s
 > ![](media/configure-data-merge-image11.png "Image 11")
 
 ## Step Five: Running your merge
-Whether you manually merged attributes or let the system merge for you, you can run your merge at this point. Simply click **Save** and then **Run** as shown below. Note that **if the *Run* button is disabled at this point, you should try to do two things.
+Whether you manually merged attributes or let the system merge for you, you can run your merge at this point. Simply click **Save** and then **Run** at top of the screen. Note that **if the *Run* button is disabled at this point, you should try to do two things.
 
 **First,** try to refresh your page and see if this button turned active:
 
