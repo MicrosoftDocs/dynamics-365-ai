@@ -52,7 +52,7 @@ Within the next step you will add **entities** to your data source. In Customer 
 
 1. In order to start ingesting entities, pick one of the many available data sources that are available within the screen below.
 - **Note that some of the following data sources are not supported at this point, including on-prem sources and OData**. 
-- **Also note that some of the following connoctors replaced older connoctor versions. For example, if you wish to Utilize the Dynamics 365 AX connoctor, you should choose the "Common Data Service for Apps" option.**
+- **Also note that some of the following connoctors replaced older connector versions. For example, if you wish to Utilize the Dynamics 365 AX connector, you should choose the "Common Data Service for Apps" option.**
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-select-source.png "Get data select source")
