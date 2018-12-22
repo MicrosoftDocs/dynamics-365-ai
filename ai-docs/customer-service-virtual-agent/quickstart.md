@@ -40,7 +40,7 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Create topic](media/create-topic-3-2.png)
 
-4. Design the virtual agent's conversation path. Click **Edit conversation** to open the conversation editor.
+4. Design the virtual agent's conversation path. Click **Edit** to open the conversation editor.
 
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)
@@ -55,12 +55,14 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
 
-7. Deploy the bot. Once the bot is created, you have the option to activate the bot on one of two web channels: The test web site or your own custom web site.  You can select the web channel and configure it on the Deploy page.
+7. Deploy the bot. Once the bot is created, you have the option to activate the bot on one of two web channels: The demo web site or your own custom web site. Click **Deploy** in the navigation pane to open the Deploy page.
+
+    To deploy the bot to the demo web site, click **Demo website**.
 
    > [!div class="mx-imgBorder"]
    > ![Select channel](media/create-topic-21-1.png)
 
-    To deploy the bot to the test web site, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for customers interacting with your bot, and then click **Deploy**.
+    On the Deploy - Demo Website page, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for customers interacting with your bot, and then click **Publish**.
 
    > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
@@ -80,7 +82,7 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
 10. Use bot analytics to see how your virtual agent is performing. To view the bot analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page. It can take some time for the data to populate the Analytics page.
 
    > [!div class="mx-imgBorder"]
-   > ![View analytics](media/quickstart-2.png)
+   > ![View analytics](media/dash-summary-1.PNG)
 
 The Analytics page includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends to help you improve your virtual agent.
 
