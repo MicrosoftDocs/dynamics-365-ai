@@ -18,6 +18,10 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
+
+## Keep unmatched records
+It's more than possible that during the match process, not all of your data records will be successfully matched. Enable **Keep unmatched records** to include also all the unmatched records of your entities in your master data profile. 
+
 # Match
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -30,8 +34,7 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which required you to go back to the Map screen and Map at least two entities:
 
 ## The Match phase
-As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
-
+As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers
 If it's your first time through the match process, you should complete all the steps in this section:
 
 1. Specifying the first pair of entities that you want to match (also called a *Match Pair*)
