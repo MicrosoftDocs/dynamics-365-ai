@@ -26,70 +26,71 @@ It's more than possible that during the match process, not all of your data reco
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configuration** page to get to the **Match** page.
+Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configuration** page to get to the **Match** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-tile.png "Match tile")
 
-Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which required you to go back to the Map screen and Map at least two entities:
+- Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which requires you to go back to the Map screen and Map at least two entities:
+
+//add match new 1
+
+- If you did map at least two entities, you can expect to reach the following screen where you should click the **Set Order** buton once you are ready to start the Match phase:
+
+// add match new 2
 
 ## The Match phase
-As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers
+As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
 If it's your first time through the match process, you should complete all the steps in this section:
 
 1. Specifying the first pair of entities that you want to match (also called a *Match Pair*)
-2. Defining rules for the first match pair
-3. Running your first match 
-4. (Optional) Reviewing and validating your first match pair
-5. (Optional) Making changes to your rules and definitions
-6. (Optional) Adding additional matches as needed
+2. (Optional) Adding additional matches as needed
+3. Defining rules for the first match pair
+4. Running your first match 
+5. (Optional) Reviewing and validating your first match pair
+6. (Optional) Making changes to your rules and definitions
 7. (Optional) Reviewing the order by which you chose to match your entities 
   
-We will explore these steps in a sequential order. Prior to that we will give a quick introduction into the **Match** screen as we will perform all our steps from that screen:
+Below, we will explore these steps in a sequential order. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-page.png "Match page")
 
-## Quick introduction to the Match Page
-
-The **Match** page shown above includes two major sections: **Summary** (highlighted in red above) and **Details** (highlighted in blue). We will first use the Details section to specify the match pair and setting its rules (Steps 1-2 and Steps 5-6). Later, we will use the Summary section to track the progress of our match until completion as well as to validate the order by which we are matching our entities (validating Step 3 and performing Step 7). Lastly, above these components you will find three tiles. These will be used for Step 4 above. For now there are no counts in those tiles since no match was executed yet.
-
 ## Step One: Specifying a first match pair
 
-Each **Match** pair involves two entities that are unified into a single entity. Within the Description section, select **Add** to create the first (as well as any future) match pair:
+Each **Match** pair involves two entities that are unified into a single entity while maintaining unique customer's records. Picking entities for your first match pair, as well as for any future pair you might create, is done via the *Match Order Panel*:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-add.png "Create match pair")
+// update with match new 3
 
+- Start by selecting the primary entity of your match pair:
 
-After selecting **Add**, the following panel opens up:
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-edit-entities.png "Edit Match entities")
-
-Within this panel you will set the definitions of your first match pair. Start by choosing the first entity of your match pair by selecting the left field (shown above in blue). 
+// update with match new 4
 
 > [!IMPORTANT]
-> The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that you will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include all the data of this entity. > 
+> The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. > 
 >There are two considerations that can help you select your first entity:
-> - First, what entity do you consider having the most reliable data?
-> - Second, does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you should continue to your second most reliable entity and so forth. 
+> 1. What entity do you consider having the most complete and reliable data on your customers?
+> 2. Does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
 
-Continue by selecting the second entity of your match pair by selecting the right field (shown below in red):
+- Continue by selecting the second entity of your match pair:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-right-entity.png "Add right entity")
 
 > [!NOTE]
-> Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable data? Moreover, does it includes at least one field that is shared by the master entity and possibly more fields that are shared by other entities that you have ingested?
+> Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other entities that you have ingested?
 
-Lastly, select **Save** and you will see that the **Description** section includes the match pair you have just created. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair which we will do in Step Two.
+Lastly, select **Save**. You should get the following message:
+
+// update with match new 5
+
+- Choosing **Yes** will take you to the **Rule Definition Pnael** which we will cover in step two.
+- Choosing **No** at this point will take you to the **Match Screen** as shown below. Notice that a corresponding row was created in that screen for the entity that you have just created. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-pair.png "Match pair")
 
-
-## Step Two: Defining rules for first match pair
+## Step Two: Defining rules for your first match pair
 
 For each of your match pairs you should define at least one match rule. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, select your match within the Description section. Then select **Add new rule** as shown below:
 
