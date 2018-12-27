@@ -1,6 +1,6 @@
 ---
-title: "Using bot analytics to improve your bot"
-description: "Learn how to use bot analytics to improve your AI for Customer Service Virtual Agent bot."
+title: "Using analytics to improve your virtual agent"
+description: "Learn how to use analytics to improve your AI for Customer Service virtual agent."
 keywords: ""
 ms\.date: 12/5/2018
 ms.service:
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Using bot analytics to improve your bot
+# Using analytics to improve your virtual agent
 
 As you create and deploy your AI for Customer Service Virtual Agent, you can use bot analytics to see how your virtual agent is performing. AI for Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 

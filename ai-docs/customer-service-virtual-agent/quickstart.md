@@ -55,7 +55,7 @@ Dynamics 365 AI for Customer Service Virtual Agent lets you quickly create and d
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
 
-7. Deploy the bot. Once the bot is created, you have the option to activate the bot on one of two web channels: The demo web site or your own custom web site. Click **Deploy** in the navigation pane to open the Deploy page.
+7. Deploy the bot. Once the bot is created, you have the option to activate the bot either on a demo web site or your own custom web site. Click **Deploy** in the navigation pane to open the Deploy page.
 
     To deploy the bot to the demo web site, click **Demo website**.
 

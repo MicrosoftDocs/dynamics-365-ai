@@ -4,17 +4,17 @@
 
 # Getting started
 
-## [Creating a bot](getting-started-create-bot.md)
+## [Creating a virtual agent](getting-started-create-bot.md)
 
 ## [Working with the Virtual Agent Designer](getting-started-bot-designer.md)
 
-## [Creating topics for your bot](getting-started-create-topics.md)
+## [Creating topics for your virtual agent](getting-started-create-topics.md)
 
-## [Deploying your bot](getting-started-deploy.md)
+## [Deploying your virtual agent](getting-started-deploy.md)
 
-## [Using bot analytics to improve your bot](getting-started-analytics.md)
+## [Using bot analytics to improve your virtual agent](getting-started-analytics.md)
 
-## [Deleting a bot](getting-started-delete-bot.md)
+## [Deleting a virtual agent](getting-started-delete-bot.md)
 
 # How-to
 
