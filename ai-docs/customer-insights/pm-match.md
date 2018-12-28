@@ -84,55 +84,47 @@ Lastly, select **Save**. You should get the following message:
 
 // update with match new 5
 
-- Choosing **Yes** will take you to the **Rule Definition Pnael** which we will cover in step two.
-- Choosing **No** at this point will take you to the **Match Screen** as shown below. Notice that a corresponding row was created in that screen for the entity that you have just created. You can always delete or edit that match pair by selecting **Edit** button as highlighted in blue below. The warning sign (highlighted in red) implies that we didn't define rules yet for that match pair.
+- Choosing **Yes** will take you to the **Rule Definition Panel** which we will cover in step two.
+- Choosing **No** at this point will take you to the **Match Screen** as shown below. Notice that a corresponding row was created in that screen for the entity that you have just created. You can always delete or edit match pairs by selecting the **Edit** button as shown in blue below. The warning sign (shown in red) implies that we didn't define rules for that match pair yet which is mandatory:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-pair.png "Match pair")
+// update with match new 6
 
 ## Step Two: Defining rules for your first match pair
 
-For each of your match pairs you should define at least one match rule. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match, select your match within the Description section. Then select **Add new rule** as shown below:
+For each of your match pairs you should define at least one match rule. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match pair, open the **Rule Definition Panel** that can be accessed through the following button: 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-add-new-rule.png "Add new rule")
+// update with match new 7
 
-Select **Add Rule** to open the following panel:
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-rule-attributes.png "New rule attributes")
-
-Besides the rule's name, this panel enables you to specify all the ***Criteria*** for that role. Each Criteria is represented by a row that includes the following mandatory selections:
+Besides the rule's name, this panel enables you to specify all the ***Conditions*** for that role. Each Condition is represented by two rows that include the following mandatory selections:
 
 1. **Attribute that will be used for matching from the first match pair entities**: Name, Phone, etc. Highlighted in blue below.
 
 [IMPORTANT!]
 > You should aviod matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by. Click here for a list of typical activity attributes: 
 
-2. **Normalization for first attribute:**: Whether you want to normalize the values for the attribute you chose in (1). Various normalization options are available - from removing punctuation, removing spaces, to many others. Note that for some attribute types, as defined under the **Types** column in the **Map** page, a specific and optimal combination of normalizations will be automatically chosen for you. These are called Semantic Normalization as highlighted in green in the image below. You can change this default setting to any of the other options.
-3. **Attribute that will be used for matching from the second match pair entities**: Highlighted in red in the image below.
-4. **Normalization for second attribute:** Same definitions as described under (3). Punctuation was chosen as an example in the image above. Highlighted in orange below.
-5. **The method that will be used for that criteria:** 
+2. **Attribute that will be used for matching from the second match pair entities**: Highlighted in red in the image below.
+3. **Normalization method:**: Various normalization options are available for the attributes you chose in (1) and (2) - from removing punctuation, to removing spaces, to many others. Note that for some attribute types, a specific and optimal combination of normalizations will be automatically chosen for you. These are called **Semantic Normalizations** as highlighted in green in the image below. If appears as a default setting for your chosen attributes, you can change the Semantic Normalization to any of the other methods
+4. **The level of precision (accuracy metric) that will be used for that condition:** 
 - Selecting ***Exact*** will dictate that only matching records will be matched
 
 [IMPORTANT!]
-> Choosing Exact Match on the basis of the same AttributeId type (for example AccountId, ContactId, etc) will not lead to optimal result. You can link the two entities through a relationship (visit Relationships) but the match should be executed on the basis of other attributes. 
+> Choosing Exact Match on the basis of the same AttributeId type (for example AccountId, ContactId, etc) will not lead to optimal result. While you may want to link the two entities through a relationship (visit the Relationships section in order to review), the match process should be executed on the basis of other attributes. 
 
-- Selecting **Fuzzy** will dictate that records that are not 100% equal will also be matched. The threshold for fuzzy matches will be selected next to it. You can define it as either **Low**, **Medium**, or **High**. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The method button and the threshold bar are both highlighted in black in the image below.
+- Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium*** level servs as a middle-ground option. Those four options are highlighted below:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-rule-normalize.png "New rule settings")
+// update with match new 8
 
-### Adding multiple criteria
-If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more criteria which will be linked through an **AND** operator. To add criteria, simply click **Add New Criteria** as shown below in red. You can also remove criteria by selecting the same button. This will show up as a **Minus** for existing criteria as shown in blue.
+### Adding multiple conditions
+If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add New Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-rule-add-criteria.png "Edit rule add new criteria")
+// update with match new 9
 
-For the purpose of this section we will limit our match rule to only one criterion.
+For the purpose of this section we will limit our match rule to only one condition
 
 ### Adding multiple rules
-If each criterion reflects a condition around a single pair of attributes, then rules represent sets of multiple criteria. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) in the **Description** section) and only then continue to the second rule (stated as (2) in the **Description** section) if no matches were identified under the first rule. 
+If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) as shown below) and only then continue to the second rule (stated as (2)) if no matches were identified under the first rule. 
+
+// update with match new 10
 
 For the purpose of this section we will stay with only one rule.
 
@@ -147,12 +139,13 @@ It's possible that the matching algorithm will take some time to complete. As hi
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
-Note that while waiting you can track the progress of your match. To do so, you should click the message shown above (**Match Running**) and review the **Summary** section that appears:
+Also note that while waiting the following window appears:
 
-This diagram visualizes the hierarchy by which your ingested entities are currently matched. Each of the entities is represented by a tile with the entity's name, the data source from which it was derived, and the number of records.
-In addition to entities, the Summary diagram includes the status of your match. You can see that your match is in a **Matching** state which means it's in progress (also represented by a green line as shown above).
+// update with match new 11
 
-Upon the completion of the matching the **Match Running** message will disappear and the Summary section will show a blue line:
+This diagram includes the status of your matches. You can see that your match is in a **Matching** state which means it's in progress (also represented by a green line as shown above). **While it's not possible to use any of the match screen functionalities until the match process completes, it's possible to visit other product modules through the left navigation menu** (for example you may want to utilize this time to define relationships through the Relationships screen or activities via the Timeline screen).
+
+Upon the completion of the match the match screen will become available again and the **Match Running** message will disappear. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-run-complete.png "Data match run is complete")
@@ -162,13 +155,13 @@ Upon the completion of the matching the **Match Running** message will disappear
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-refresh.png "Select refresh")
 
-As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, beyond the blue line status on the summary section, another signal for the completion of the matching process is the appearance of the unified entity in the **Entities** page, called **Conflation Match Pairs**:
+As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process the unified customer entity can be found and reviewed in the **Entities** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
 
 Clicking the master entity will show you a preview of it's records as shown below. Note that:
-- The **Scored** column reflects how certain it is that each of the records were accurately matched (confidence scores)
+- The **Score** column reflects how certain it is that each of the records were accurately matched (confidence scores)
 - The rest of the columns present the data that was taken from the two original entities. Columns to the left of the *Scored* column (highlighted in blue below) present data that was taken from the first match pair entity while columns to the right of the *Scored* column present data taken from the second match pair entity (highlighted in green below):
 
 > [!div class="mx-imgBorder"] 
