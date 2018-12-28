@@ -38,7 +38,7 @@ Once you have finished designing you virtual agent bot, you can deploy it to a d
    > [!div class="mx-imgBorder"]
    > ![Select custom web site](media/deploy-bot-1-3.png)
 
-   On the Deploy - Custom Website page, you can copy and share the Virtual Agent code to add to your custom web site. If this is the first time you are configuring the custom web site, or if you made changes to your bot, click **Publish** to publish the bot. 
+   On the Deploy - Custom Website page, you can copy and share the Virtual Agent code to add to your custom web site. If this is the first time you are configuring the custom web site, or if you made changes to your bot, click **Publish** to publish the bot.
 
    > [!div class="mx-imgBorder"]
    > ![Custom message](media/deploy-bot-1-2.png)
