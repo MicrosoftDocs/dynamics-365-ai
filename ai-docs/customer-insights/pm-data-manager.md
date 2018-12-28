@@ -22,13 +22,6 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Data Manager is the first page you will see upon entering the Customer 360 app. If it's the first time you are using Customer 360, make sure you first went through the *Onboarding Guide*. All product sections are accessed through their corresponding tab names in the left-side menu of the app as shown below.
-
-// Replace with final menu once finalizaed:
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-menu.png "Data Manager menu")
-
-
 ## Data Manager sections: Data Sources and Entities
 
 In these sections, we explain how to bring data from many of your sources: 
@@ -39,11 +32,17 @@ In these sections, we explain how to bring data from many of your sources:
 - Any other data you might have 
 
 ***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
-We hope to enable that option soon.
+We hope to enable that option soon. In the meantime, as explained in the **Common Connectors** section, you can load your data through either online excel (csv. or text) or Azure Blob Storage.
 
 Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-Data Manager includes two modules: Data Sources and Entities. In the [Data Sources](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module.
+Data Manager includes two modules: Data Sources and Entities. In the [Data Sources](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module:
+
+// data manager 1
+
+In addition, if you are a Dynamics 365 user, then a third option is available to you (highlighted below). Choosing this option will auto-identify the best datasets among your Dynamics 365 datasets for the data configuration process so no manual prioritization and selection are needed.
+
+// data manager 2
 
 
 
