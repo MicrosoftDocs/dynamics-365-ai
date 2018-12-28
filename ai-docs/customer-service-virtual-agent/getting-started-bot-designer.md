@@ -14,7 +14,7 @@ manager: shellyha
 
 # Working with the Virtual Agent Designer
 
-The Virtual Agent Designer provides a variety of tools that make it easy to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a support channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
+The Dynamics 365 AI for Customer Service Virtual Agent Designer provides a variety of tools that make it easy to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a support channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
 
 The Virtual Agent Designer is composed of several pages designed for different tasks. You can navigate to the different pages by clicking in the navigation pane.
 
@@ -63,14 +63,22 @@ For more information about using the Deploy page to deploy your virtual agent, s
 
 ## Test Bot
 
-Each page includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice.
+Each page includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by clicking the arrow on the right edge of the Test Bot pane.
+
+   > [!div class="mx-imgBorder"]
+   > ![Hide Test Bot](media/bot-designer-5-2.PNG)
+
+If the Test Bot is hidden, you can display it by clicking the arrow on the right edge of the navigation pane.
+
+   > [!div class="mx-imgBorder"]
+   > ![Display Test Bot](media/bot-designer-5-3.PNG)
 
 You can test a virtual agent topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test Bot.
 
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/bot-designer-6.PNG)
 
-    The trigger phrase starts the topic's conversation, and the Test Bot displays the virtual agent responses and user response choices you specified when you created the topic on the Topics page.
+The trigger phrase starts the topic's conversation, and the Test Bot displays the virtual agent responses and user response choices you specified when you created the topic on the Topics page.
 
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-22.png)

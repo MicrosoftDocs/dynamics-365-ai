@@ -14,7 +14,7 @@ manager: shellyha
 
 # AI for Customer Service Virtual Agent overview
 
-Dynamics 365 AI for Customer Service Virtual Agent enables any customer service manager to create a powerful custom virtual agent using an easy, code-free graphical interface and templates, without the need for artificial intelligence experts or teams of developers. The virtual agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
+Dynamics 365 AI for Customer Service Virtual Agent enables any customer service manager to create a powerful custom virtual agent using the Virtual Agent Designer. The Virtual Agent Designer provides an easy, code-free graphical interface and templates for creating a virtual agent without the need for artificial intelligence experts or teams of developers. The virtual agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
 
 Key features include:
 
@@ -26,14 +26,14 @@ Key features include:
 
 * **The ability to leverage human knowledge to scale conversations** – AI for Customer Service Virtual Agent makes it possible for professional developers to process chat transcripts generated during conversations between human agents and customers. You can extract information for high-volume support topics as well as successful solutions provided by human agents. You can tune the artificial intelligence model to suit your business, increasing the accuracy and coverage of topics served by the virtual agent.
 
-For information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
+For information about creating a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md).
 
-For information about creating topics for your bot, see [Creating topics for your bot](getting-started-create-topics.md).
+For information about creating topics for your virtual agent, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
-For information about deploying your bot, see [Deploying your bot](getting-started-deploy.md).
+For information about deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 
-For information about using analytics information to help you improve your bot, see [Using bot analytics to improve your bot](getting-started-analytics.md).
+For information about using analytics information to help you improve your virtual agent, see [Using analytics to improve your virtual agent](getting-started-analytics.md).
 
 For information about working with the Virtual Agent Designer, see [Working with the Virtual Agent Designer](getting-started-bot-designer.md).
 
-For information about removing your bot from the AI for Customer Service Virtual Agent environment, see [Deleting a bot](getting-started-delete-bot.md).
+For information about removing your bot from the AI for Customer Service Virtual Agent environment, see [Deleting a virtual agent](getting-started-delete-bot.md).
