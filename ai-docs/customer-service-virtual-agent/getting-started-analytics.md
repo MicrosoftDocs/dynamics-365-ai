@@ -14,9 +14,9 @@ manager: shellyha
 
 # Using analytics to improve your virtual agent
 
-As you create and deploy your AI for Customer Service Virtual Agent, you can use bot analytics to see how your virtual agent is performing. AI for Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
+As you create and deploy your Virtual Agent Designer virtual agent, you can use analytics to see how your virtual agent is performing. Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
-To view the bot analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
+To view the analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![Open Analytics page](media/analytics-1.png)

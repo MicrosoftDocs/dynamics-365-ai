@@ -14,7 +14,7 @@
 
 ## [Using bot analytics to improve your virtual agent](getting-started-analytics.md)
 
-## [Deleting a virtual agent](getting-started-delete-bot.md)
+## [Deleting your virtual agent bot](getting-started-delete-bot.md)
 
 # How-to
 

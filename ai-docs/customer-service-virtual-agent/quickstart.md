@@ -67,7 +67,7 @@ Dynamics 365 AI for Customer Service Virtual Agent Designer lets you quickly cre
    > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
 
-8. Share your bot. When you deploy your bot, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the bot's test web environment. Click **Copy** to copy the URL.
+8. Share your bot. When you deploy your bot, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the bot's demo web environment. Click **Copy** to copy the URL.
 
    > [!div class="mx-imgBorder"]
    > ![Share bot](media/deploy-bot-2-1.png)
