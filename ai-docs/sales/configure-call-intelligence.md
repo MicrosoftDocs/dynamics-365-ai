@@ -116,7 +116,7 @@ You can upload the recording in audio formats such as mp3 and wav in the created
 > You must have at least 10 call recording files in the call recording repository to process and display the data in call intelligence. 
 
 Review the following requirements for audio and JSON files before you upload:
-- The file names for audio and its corresponding JSON mnust be same. For examlple, if you name the audio file as **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named as **call-recording-10-dec-2018.json**. 
+- The file names for audio and its corresponding JSON must be same. For examlple, if you name the audio file as **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named as **call-recording-10-dec-2018.json**. 
 - The file name cannot contain reserved characters such as **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be less than 260 characters.
 - Verify that the JSON file parameters are properly configured. The JSON file contains the following parameters:
