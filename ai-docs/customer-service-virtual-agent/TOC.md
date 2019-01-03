@@ -12,7 +12,7 @@
 
 ## [Deploying your virtual agent](getting-started-deploy.md)
 
-## [Using bot analytics to improve your virtual agent](getting-started-analytics.md)
+## [Using analytics to improve your virtual agent](getting-started-analytics.md)
 
 ## [Deleting your virtual agent bot](getting-started-delete-bot.md)
 
