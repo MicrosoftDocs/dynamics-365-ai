@@ -67,8 +67,8 @@ Configuring the blob container that you have created helps us to fetch the call 
 Also, you should configure trackers, competitors, and competitor products that you would like to track in the calls. Trackers are the keywords that are relevant to you and your organization. Whenever the defined keywords, competitors, or competitor products are mentioned in a call, the call intelligence will gather the data and displays appropriately on the dashboard.
 
 There are two ways to configure call intelligence: 
-- During setting up to the app.
-- After setting up to the app. 
+- During setting the app.
+- After setting the app. 
 
 ### During setting the app 
 1. Open [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. 
