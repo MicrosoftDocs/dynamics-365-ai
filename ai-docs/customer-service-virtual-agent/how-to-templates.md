@@ -33,8 +33,3 @@ AI for Customer Service Virtual Agent templates include industry-specific topics
 ## Using template topics as a model for building your conversation path
 
 A good starting point for creating a bot and designing its conversation path is to view the built-in topics that come with each template.
-
-For example, to see an example of how to create a bot that gives a customer different responses for different options, go to the Topics page and open the Store hours topic in the design canvas.
-
-   > [!div class="mx-imgBorder"]
-   > ![Store hours topic](media/create-bot-1-1.PNG)
