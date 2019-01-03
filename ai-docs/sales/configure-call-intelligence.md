@@ -26,10 +26,11 @@ Applies to Dynamics 365 for Sales, version 9.1.0 <br>
 
 The call intelligence in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] assists the sales managers in your organization to get an overview of the call center and drill-down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
-As an administrator, you must configure the call intelligence in your organization for sales managers to use. Perform the following steps to configure the call intelligence:
+You must have administrative privileges to configure the call intelligence for your organization. To configure the call intelligence, perform the following steps:
 1. Review the prerequisites. 
 2. Create a Blob container on Azure.
 3. Configure blob container and trackers with call intelligence.
+4. Upload call recordings.
 
 ## Prerequisites
 Verify the following requirements before configuring call intelligence for your organization:
@@ -42,19 +43,71 @@ Verify the following requirements before configuring call intelligence for your 
 2. Create a V2 storage account with Azure subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a storage account](/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
 ## Create call recording repository
-Call recording repository is a blob container where you upload the call recordings for Call Intelligence to assess. To upload the call recordings, you must create call recording repository (blob container) in an Azure storage account.
+Create a call recording repository (blob container) in an Azure storage account to upload the call recordings for Call intelligence to assess.
+ 
 1. Log in to Azure dashboard.
 2. On the navigation pane, select **All Resources** and open the desired storage account.
-3. From **Services**, select **Blobs**.
-4. Select **+ Container** and enter the container information such as name and public access level.
+    > [!div class="mx-imgBorder"]
+    > ![Azure All resources option](media/azure_allresources.png "Azure All resources option")
+3. From **Blob services**, select **Blobs** > **+ Container**.
+    > [!div class="mx-imgBorder"]
+    > ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")
+4. Enter the container information such as name and public access level.
 5. Select **OK**.
     The container is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).<br> 
-Now, you are ready to upload the call recordings into the created blob container.
+6. From **Settings**, go to **Access Keys** and note the **Connection string** of the storage account. This connection string is used to connect call intelligence to your Azure storage account.
+    > [!div class="mx-imgBorder"]
+    > ![Note connection string](media/azure-connectionstring.png "Note the connection string")
+
+Now, you are ready to configure blob container and trackers for call intelligence. 
 
 ## Configure blob container and trackers for call intelligence 
 Configuring the blob container that you have created helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and provide insights for the call recordings.
 
-You can upload the recording in audio formats such as mp3 and wav. Along with the audio format file you must upload the corresponding metadata file in JSON format with same name as the uploaded audio file.
+Also, you should configure trackers, competitors, and competitor products that you would like to track in the calls. Trackers are the keywords that are relevant to you and your organization. Whenever the defined keywords, competitors, or competitor products are mentioned in a call, the call intelligence will gather the data and displays appropriately on the dashboard.
+
+There are two ways to configure call intelligence: 
+- During setting up to the app.
+- After setting up to the app. 
+
+### During setting the app 
+1. Open [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. 
+2. When you are logging in for the first time, select your Dynamics 365 organization to connect organization data with the app.
+3. After connecting your Dynamics 365 organization with the app, continue to configure call intelligence for the app. Select **Connect your call data**.
+    > [!div class="mx-imgBorder"]
+    > ![Select connect your call data](media/callintelligence-connectyourdata.png "Select connect your call data")<br>
+4. On **Call intelligence setup** page, enter call recording repository details - **Storage connection string** and **Container name** that you have configured in Azure.
+    > [!div class="mx-imgBorder"]
+    > ![Enter call recording repository details](media/callintelligence-enterrepositorydetails.png "Enter call recording repository details")<br>
+5. (Optional) You can download the metadata file sample that is used to upload to the call recording repository in Azure along with the call recording file. <br>
+6. Select **Next**and add **Custom trackers** and **Competitors** that you want to track during the calls.<br>
+    > [!div class="mx-imgBorder"]
+    > ![Enter custom trackers and competitors](media/callintelligence-entertrackersandcompetitors.png "Enter custom trackers and competitors")<br>
+7. Select **Done**.<br>
+The application takes few minutes to configure call intelligence and you can continue exploring the feature with demo data.
+
+### After setting the app
+1. Open [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app.
+2. Select settings icon at the top-right of the page and then select **Settings**. 
+    > [!div class="mx-imgBorder"]
+    > ![Call intelligence setting menu](media/callintelligence-settingmenu.png "Call intelligence setting menu")
+3. On the **Settings** page, select **Call intelligence** and enter the information as required:
+    - **Storage connection string:** Specifies the string that is generated while creating the blob storage account.
+    - **Container name:** Specifies the name of the blob storage.
+    - **Custom trackers:** Specifies the keywords to track during a call. For example, when a sales executive makes a sales call, you would like to track keywords such as pricing, budget, potential, and savings.
+    - **Competitors:** Specifies names of your competitors or competitive products that may come up during a call with your customers.
+    > [!div class="mx-imgBorder"]
+    > ![Call intelligence configuration](media/callintelligence-configurecallintelligence.png "Call intelligence configuration")
+4. Select **Save**.
+
+The application takes few minutes to configure call intelligence and you can continue exploring the feature with demo data.
+Now, you can upload call recordings to Azure for call intelligence to assess.
+
+## Upload call recordings
+
+You can upload the recording in audio formats such as mp3 and wav. Along with the audio format file you must upload the corresponding metadata file in JSON format.
+> [!NOTE]
+> You must have at least 10 call recording files in the call recording repository to process and display the data in call intelligence. 
 
 Review the following requirements for audio and JSON files before you upload:
 - The file names for audio and its corresponding JSON mnust be same. For examlple, if you name the audio file as **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named as **call-recording-10-dec-2018.json**. 
@@ -115,26 +168,6 @@ Review the following requirements for audio and JSON files before you upload:
       "queueName": "name"
     }
     ```
-Also, you should configure trackers, competitors, and competitor products that you would like to track in the calls. Trackers are the keywords that are relevant to you and your organization. Whenever the defined keywords, competitors, or competitor products are mentioned in a call, the Call intelligence will gather the data and displays appropriately on the dashboard.
-
-**Follow these steps:**
-
-1. Open [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. 
-2. When you are logging in to the app for the first time, the app prompts you to select your Dynamics 365 organization. Select your organization and continue.
-3. (Optional) If you do not have a Dynamics 365 organization, select **Setup call intelligence for call center** and continue to configure **Call intelligence** with following steps:<br>
-    a. On **Telephony setup** page, enter **Azure storage connection string** and **Container name** that you have configured in Azure.<br>
-    b. Select **Proceed to tracker setup**.<br>
-    c. On **Trackers setup** page, add **Custom trackers** and **Competitors** that you want to track during calls.<br>
-    d. Select **Get started**.<br>
-    The call intelligence is configured, and your users are ready to use the feature.
-4. Select settings icon at the top-right of the page. 
-5. On **Call intelligence** configuration page, enter the information as required:
-    - **Azure storage connection string:** Specifies the string that is generated while creating the blob storage account.
-    - **Container name:** Specifies the name of the blob storage.
-    - **Customer trackers:** Specifies the keywords to track during a call.     For example, when a sales executive makes a sales call, you would like to track keywords such as pricing, budget, potential, and savings.
-    - **Competitors:** Specifies names of your competitors or competitive products that may come up during a call with your customers.
-6. Select **Save changes**.
-
 
 ### See also
 
