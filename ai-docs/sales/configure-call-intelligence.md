@@ -71,6 +71,8 @@ There are two ways to configure call intelligence:
 - After setting the app. 
 
 ### During setting the app 
+The call intelligence configuration procedure is part of the initial app set up and you can continue the configuration after connecting to your Dynamics 365 organization. We recommend you to configure the call intelligence during the initial app set up. 
+
 1. Open [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. 
 2. When you are logging in for the first time, select your Dynamics 365 organization to connect organization data with the app.
     After connecting your Dynamics 365 organization with the app, continue to configure call intelligence.
@@ -89,6 +91,7 @@ The application takes few minutes to configure call intelligence and you can con
 Now, you can upload call recordings to Azure for call intelligence to assess.
 
 ### After setting the app
+You can use this procedure when you ignore call intelligence configuration during initial app set up. Also, you can use this procedure to update custom trackers, competitors, and Azure (storage connection string and container name) settings.
 1. Open [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app.
 2. Select settings icon on the top-right of the page and then select **Settings**. 
     > [!div class="mx-imgBorder"]
