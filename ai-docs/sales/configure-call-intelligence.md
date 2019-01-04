@@ -181,4 +181,5 @@ Review the following requirements for audio and JSON files before you upload:
 
 ### See also
 
-[Analyze customer calls](../sales/call-intelligence.md)
+- [Analyze customer calls](../sales/call-intelligence.md)
+- [FAQs for sales manager capabilities](faqs-sales-manager-app.md)
