@@ -14,11 +14,11 @@ manager: shellyha
 
 # Work with the Test Bot
 
-As you design your AI for Customer Service Virtual Agent bot, you can use the Test Bot to see how the virtual agent leads a customer through the virtual agent's conversation path. To help you find and fix unexpected behavior, you can enable tracing to take you through the conversation path step by step, and quickly navigate to the corresponding node in the conversation editor.
+As you design your virtual agent in the Virtual Agent Designer, you can use the Test Bot to see how the virtual agent leads a customer through the virtual agent's conversation path. To help you find and fix unexpected behavior, you can enable tracing to take you through the conversation path step by step, and quickly navigate to the corresponding node in the conversation editor.
 
 ## To test a topic in the Test Bot
 
-1. Open the topic and click **Edit conversation** to open the conversation editor.
+1. Open the topic and click **Edit** to open the conversation editor.
 
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)

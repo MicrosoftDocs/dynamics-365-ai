@@ -23,7 +23,7 @@ If you want to remove your virtual agent bot from the Virtual Agent Designer env
    > [!div class="mx-imgBorder"]
    > ![Display General pane](media/delete-bot.PNG)
 
-2. On the General pane, click **Delete bot**.
+2. In the Delete bot section, click **Delete bot**.
 
    > [!div class="mx-imgBorder"]
    > ![Delete bot](media/delete-bot-2.PNG)

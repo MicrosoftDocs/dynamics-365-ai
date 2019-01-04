@@ -17,7 +17,7 @@ manager: shellyha
    > [!div class="mx-imgBorder"]
    > ![Summary dashboard](media/dash-summary-1.PNG)
 
-The Summary dashboard gives you a broad overview of your virtual agent's performance and uses artificial intelligence (AI) technology to show you topics that are having the greatest impact on case volume and resolution time.
+The Summary dashboard gives you a broad overview of your virtual agent's performance and uses artificial intelligence (AI) technology to show you topics that are having the greatest impact on support case escalation rate, abandon rate, and resolution rate.
 
 The Summary dashboard includes a variety of charts with graphical views of your virtual agent's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 

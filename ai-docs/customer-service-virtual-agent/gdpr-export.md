@@ -28,32 +28,17 @@ Dynamics 365 AI for Customer Service Virtual Agent offers the following experien
 ### Export customer data – Virtual Agent Designer bot content
 
 1. Launch the Virtual Agent Designer in your browser.
-2. On the Settings menu, select **Export all bot content**.
+2. On the Settings menu, select **General settings** to display the General tab of the Settings window.
 
    > [!div class="mx-imgBorder"]
-   > ![Export bot content](media/gdpr-export-1.png)
+   > ![General settings](media/gdpr-export-1.png)
+
+3. In the Export section, click **Export all bot content**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Export bot content](media/gdpr-export-1-1.png)
 
 All bot content will be immediately exported.
-
-### Export customer data – Virtual Agent Designer system content
-
-1. Launch the Virtual Agent Designer in your browser.
-2. On the Settings menu, select **Export all system content**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Export system content](media/gdpr-export-2.png)
-
-All system content will be immediately exported.
-
-### Export customer data – Virtual Agent Designer non-system content
-
-1. Launch the Virtual Agent Designer in your browser.
-2. On the Settings menu, select **Export all non-system content**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Export non-system content](media/gdpr-export-3.png)
-
-All non-system content will be immediately exported.
 
 ### Export customer data – Analytics data
 

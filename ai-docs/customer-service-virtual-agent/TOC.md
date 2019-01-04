@@ -36,10 +36,6 @@
 
 ### [Topic details dashboard](analytics-topic-details.md)
 
-### [Download sessions page](analytics-sessions.md)
-
-## [Settings](reference-settings.md)
-
 # Data Subject Rights (DSR) requests under GDPR
 
 ## [Overview of GDPR compliance](gdpr-summary.md)

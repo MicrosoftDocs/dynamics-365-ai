@@ -20,7 +20,7 @@ The “right to erasure” by the removal of personal data from an organization�
 
 Dynamics 365 AI for Customer Service Virtual Agent offers the following experiences to delete personal data for a specific user:
 
-* [Bot chat logs](#bot-chat-logs)
+* [Virtual agent chat logs](#virtual-agent-chat-logs)
 * [Case data connection settings](#case-data-connection-settings)
 * [Delete Virtual Agent Designer bot content](#delete-virtual-agent-designer-bot-content)
 * [Delete Virtual Agent Designer telemetry](#delete-virtual-agent-designer-telemetry)
@@ -28,9 +28,9 @@ Dynamics 365 AI for Customer Service Virtual Agent offers the following experien
 * [Metrics](#metrics)
 * [System telemetry](#system-telemetry)
 
-### Bot chat logs
+### Virtual agent chat logs
 
-Bot chat logs are deleted when the bot is deleted.
+Virtual agent chat logs are deleted when the bot is deleted.
 
 ### Case data connection settings
 
@@ -38,13 +38,18 @@ Case data connection settings are deleted when the bot is deleted.
 
 ### Delete Virtual Agent Designer bot content
 
-You can follow these steps to delete a bot from from AI for Customer Service Virtual Agent:
+You can follow these steps to delete an AI for Customer Service Virtual Agent bot:
 
 1. Launch the Virtual Agent Designer in your browser.
-2. On the Settings menu, select **Delete Bot**.
+2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
 
-    > [!div class="mx-imgBorder"]
-    > ![Delete bot](media/delete-bot.png)
+   > [!div class="mx-imgBorder"]
+   > ![General settings](media/gdpr-export-1.png)
+
+3. In the Delete bot section, click **Delete bot**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Delete bot](media/delete-bot-2.PNG)
 
 All bot content will be immediately deleted.
 

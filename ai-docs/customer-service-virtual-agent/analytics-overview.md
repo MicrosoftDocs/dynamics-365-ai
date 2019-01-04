@@ -22,5 +22,3 @@ You can display the [Topic details](analytics-topic-details.md) dashboard by cli
 
    > [!div class="mx-imgBorder"]
    > ![Topic details link](media/analytics-overview-1.PNG)
-
-You can also use the [Sessions page](analytics-sessions.md) to download transcripts of your virtual agent chat sessions.
