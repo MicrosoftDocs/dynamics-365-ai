@@ -80,7 +80,7 @@ A topic defines the intent of a customer when making a request to the virtual ag
    > [!div class="mx-imgBorder"]
    > ![Add user response](media/create-topic-13.png)
 
-6. Then enter the response in the **User says** box.
+6. Then enter the response in the **User responses** box.
 
    > [!div class="mx-imgBorder"]
    > ![Add user response text](media/create-topic-14.png)
@@ -90,7 +90,7 @@ A topic defines the intent of a customer when making a request to the virtual ag
    > [!div class="mx-imgBorder"]
    > ![Additional user response](media/create-topic-15.png)
 
-8. Then specify the additional response in the **User says** box.
+8. Then specify the additional response in the **User responses** box.
 
    > [!div class="mx-imgBorder"]
    > ![Additional user response text](media/create-topic-16.png)
@@ -113,12 +113,7 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
 
 ## To test the topic in the Test Bot
 
-1. To make the topic available to the Test Bot, click **Push to Test** in the upper right corner of the Virtual Agent Designer.
-
-   > [!div class="mx-imgBorder"]
-   > ![Push to test](media/create-topic-19.png)
-
-2. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
+1. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
 
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/create-topic-20.png)
@@ -128,12 +123,12 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
 
-3. Continue the conversation path until you complete the conversation.
+2. Continue the conversation path until you complete the conversation.
 
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-22.png)
 
-4. To restart the conversation, click **Restart conversation** at the top of the Test Bot.
+3. To restart the conversation, click **Start over with latest content** at the top of the Test Bot pane.
 
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)

@@ -33,9 +33,9 @@ The Home page provides links to the Topics, Deploy, and Analytics pages, along w
    > [!div class="mx-imgBorder"]
    > ![Topics page](media/bot-designer-4.PNG)
 
-The Topics page is the central location for creating and managing virtual agent topics, the customer intents that you use to design a conversation path. The Virtual Agent Designer includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your virtual agent.
+The Topics page is the central location for creating and managing virtual agent topics. The Virtual Agent Designer includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your virtual agent.
 
-You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the support issue. You can then test the virtual agent in the Test Bot pane, and refine it as necessary.
+You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the virtual agent in the Test Bot and refine it as necessary.
 
 For more information about using the Topics page to create topics, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
@@ -53,11 +53,11 @@ For more information about using the Analytics page, see [Using analytics to imp
    > [!div class="mx-imgBorder"]
    > ![Deploy page](media/bot-designer-5.PNG)
 
-The Deploy page is where you deploy your completed virtual agent to a demo web site or your own custom web site.
+The Deploy page is where you deploy your completed virtual agent to a demo website or your own custom website.
 
-As part of the deployment to the test web page, you can specify a custom welcome message and any suggested conversation starters to help customers get started using your virtual agent.
+As part of the deployment to the demo website, you can specify a custom welcome message and any suggested conversation starters to help team members get started testing your virtual agent.
 
-If you choose to deploy your virtual agent to your own custom web site, you will be able to copy and share the Virtual Agent code, which needs to be added to your custom web site.
+If you choose to deploy your virtual agent to your own custom website, you will be able to copy and share the Virtual Agent code, which needs to be added to your custom website.
 
 For more information about using the Deploy page to deploy your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 

@@ -14,13 +14,13 @@ manager: shellyha
 
 # Creating a virtual agent
 
-You can use the Virtual Agent Designer to create a powerful custom virtual agent. The Virtual Agent Designer makes it easy to create virtual agents that addresses common customer support issues. You can design a conversation path that leads each customer to a resolution.
+You can use the Virtual Agent Designer to create a powerful custom virtual agent. The Virtual Agent Designer makes it easy to create virtual agents that address common customer support issues. You can design a conversation path that leads each customer to a resolution.
 
-To help get you started and tailor the virtual agent to your specific needs, the Virtual Agent Designer lets you create a virtual agent using built-in industry-specific templates. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for retail customers.
+To help get you started and tailor the virtual agent to your specific needs, the Virtual Agent Designer lets you create a virtual agent using built-in industry-specific templates. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for a retail business.
 
-The templates come with an enhanced artificial intelligence model for a specific industry, as well as built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths that are tailored to that industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
+Each template comes with built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths that are tailored to a specific industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
 
-These industry templates can also be useful as a model for building conversations around the support issues and requests that customers often face or request. For more information, see [Work with templates](how-to-templates.md).
+These industry templates can also be useful as a model for building your own conversations for similar customer support issues. For more information, see [Work with templates](how-to-templates.md).
 
 ## To create a virtual agent
 

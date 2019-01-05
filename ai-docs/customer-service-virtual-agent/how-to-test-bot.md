@@ -18,22 +18,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
 
 ## To test a topic in the Test Bot
 
-1. Open the topic and click **Edit** to open the conversation editor.
-
-   > [!div class="mx-imgBorder"]
-   > ![Edit conversation](media/create-topic-8-1.png)
-
-    You can also select the topic in the topics list and click the edit icon.
-
-   > [!div class="mx-imgBorder"]
-   > ![Edit conversation](media/create-topic-8.png)
-
-2. To make the topic available to the Test Bot, click **Push to Test** in the upper right corner of the Bot Designer.
-
-   > [!div class="mx-imgBorder"]
-   > ![Push to test](media/create-topic-19.png)
-
-3. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
+1. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
 
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/create-topic-20.png)
@@ -43,17 +28,17 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
 
-4. Continue the conversation path until you complete the conversation.
+2. Continue the conversation path until you complete the conversation.
 
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-22.png)
 
-5. To restart the conversation, click **Restart conversation** at the top of the chat bot pane.
+3. To restart the conversation, click **Start over with latest content** at the top of the Test Bot pane.
 
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
 
-You can return to the conversation editor at any time to revise the topic's dialog, and continue to fine-tune the bot until you are ready to deploy it.
+You can return to the conversation editor at any time to revise the topic's conversation path, and continue to fine-tune the virtual agent until you are ready to deploy it.
 
 ## To trace through the topic's conversation path
 
