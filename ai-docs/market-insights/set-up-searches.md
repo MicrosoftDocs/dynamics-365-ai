@@ -45,7 +45,7 @@ Listen to conversations on social media around your brand, business, products, a
 >  You can filter search topics and category names in the search box in Search Setup, or filter on languages and sources when you create a search topic, and in custom sources. You can also sort search topics alphabetically, by the number of posts, or by category.  
   
 ## Available languages for search rules  
- [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers a broad set of languages where search rules can look for matching posts. However, sentiment analysis is available for a subset of the search languages. For more details about the language coverage, download and review the [Translation Guide](https://go.microsoft.com/fwlink/p/?LinkId=391086).  
+ [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers a broad set of languages where search rules can look for matching posts. However, sentiment analysis is available for a subset of the search languages. For more details about the language coverage, review the [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086).  
   
 ### Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  

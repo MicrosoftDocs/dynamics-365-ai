@@ -27,9 +27,9 @@ To sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md
   
 ## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] from a dedicated sign-in page
 
-Using the [sign-in page for Market Insights](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.
+Using the [sign-in page for Market Insights](https://mi.ai.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.
 
-1. In your browser, open [https://social.dynamics.com/login](https://social.dynamics.com/login).
+1. In your browser, open [https://mi.ai.dynamics.com/login](https://mi.ai.dynamics.com/login).
 
 2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials to proceed to the app.
 
