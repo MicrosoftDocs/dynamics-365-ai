@@ -14,11 +14,9 @@ manager: shellyha
 
 # Work with variables
 
-Variables let you save responses from your customers in a conversation with a virtual agent so that you can reuse them later in the conversation.  
+Variables let you save responses from your customers in a conversation with a virtual agent so that you can reuse them later in the conversation. For example, you can save a customer's name in a variable called *UserName*. The virtual agent can then address the customer by name as the conversation continues.
 
-You can use variables to create logical expressions that dynamically route the customer down different paths, depending on the customer's response. You can also use variables to generate dynamic content tailored to the customer’s previous responses.
-
-For example, you can save a customer's name in a variable called *UserName*. The virtual agent can then address the customer by name as the conversation continues.
+You can use variables to create logical expressions that dynamically route the customer down different conversation paths.
 
 Virtual Agent Designer supports four types of variables:
 

@@ -28,7 +28,7 @@ The Summary dashboard includes a variety of charts with graphical views of your 
 * [Customer satisfaction](#customer-satisfaction-chart)
 * [Survey response rate](#survey-response-rate-chart)
 
-The Engagement rate drivers, Abandon rate drivers, and Resolution rate drivers charts use natural language understanding artificial intelligence technology to group support cases as topics. These charts show you the topics that are having the most impact on the performance of your virtual agent.
+The Engagement rate drivers, Abandon rate drivers, and Resolution rate drivers charts use natural language understanding to group support cases as topics. These charts show you the topics that are having the most impact on the performance of your virtual agent.
 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
@@ -62,7 +62,7 @@ Topic | Artificial intelligence clustering of support cases based on language un
 Rate | The percentage of engaged sessions for the topic that are escalated. An escalated session is an engaged session that is escalated to a human agent.
 Impact | The topic's escalation rate impact score. The escalation rate impact score is the overall escalation rate including the topic minus the overall escalation rate excluding the topic.
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average escalation rate. A red bar indicates that the topic's escalation rate is larger than the average escalation rate, resulting in a negative impact on overall escalation rate. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall escalation rate performance.
+The chart displays the impact as a red or blue bar. The midpoint is the overall average escalation rate. A red bar indicates that the topic's escalation rate is larger than the average escalation rate, resulting in a negative impact on overall escalation rate. A blue bar indicates that the escalation rate is smaller, resulting in a positive impact on overall escalation rate performance.
 
 Lowering the escalation rate for the top escalation rate topics in red will have the greatest impact on improving virtual agent performance.
 

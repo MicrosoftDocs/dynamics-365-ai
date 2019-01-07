@@ -14,7 +14,7 @@ manager: shellyha
 
 # Deploying your virtual agent
 
-Once you have finished designing you virtual agent, you can deploy it to a demo environment on the web, or to your live website.
+Once you have finished designing you virtual agent, you can deploy it to a demo environment on the web or to your live website.
 
 ## To deploy your virtual agent
 
@@ -38,14 +38,14 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
    > [!div class="mx-imgBorder"]
    > ![Select custom website](media/deploy-bot-1-3.png)
 
-   On the Deploy - Custom Website page, you can copy and share the Virtual Agent code to add to your custom website. If this is the first time you are configuring the custom website, or if you made changes to your bot, click **Publish** to publish the bot.
+   On the Deploy - Custom Website page, you can copy and share the Virtual Agent code to add to your custom website. Click **Publish** to publish the virtual agent.
 
    > [!div class="mx-imgBorder"]
    > ![Custom message](media/deploy-bot-1-2.png)
 
 ## To share your virtual agent in the demo website
 
-1. When you deploy your virtual agent, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the bot's demo website. Click **Copy** to copy the URL.
+1. When you deploy your virtual agent, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the virtual agent's demo website. Click **Copy** to copy the URL.
 
    > [!div class="mx-imgBorder"]
    > ![Share virtual agent](media/deploy-bot-2-1.png)

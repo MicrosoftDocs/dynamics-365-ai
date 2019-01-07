@@ -17,7 +17,7 @@ manager: shellyha
    > [!div class="mx-imgBorder"]
    > ![Topic details dashboard](media/analytics-topic-details-1.PNG)
 
-The Topic details dashboard provides a view into the performance of individual topics and how they can be improved. In addition to metrics specific to the topic, the Topic details dashboard provides insights such as the list of user messages that lead to the most escalations or abandons for the specific topic.
+The Topic details dashboard provides a view into the performance of individual topics and how they can be improved.
 
 You can display the Topic details dashboard by clicking the Detail link in one of the following charts on the [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) dashboards:
 

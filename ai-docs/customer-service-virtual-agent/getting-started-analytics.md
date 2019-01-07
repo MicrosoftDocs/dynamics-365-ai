@@ -14,14 +14,14 @@ manager: shellyha
 
 # Using analytics to improve your virtual agent
 
-As you create and deploy your Virtual Agent Designer virtual agent, you can use analytics to see how your virtual agent is performing. Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
+As you create and deploy your virtual agent, you can use analytics to see how your virtual agent is performing. Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
 To view the analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![Open Analytics page](media/analytics-1.png)
 
-You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page. The Summary dashboard is the default AI for Customer Service Virtual Agent dashboard.
+You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard tabs](media/analytics-2.png)
@@ -46,18 +46,16 @@ By default, dashboards display information for the last seven days, but you also
 
 Key performance indicator charts give you a view of the key performance data for your virtual agent and customer service system for the specified time period. For example, the key performance indicator charts on the Summary summary dashboard show you:
 
-Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
-
 * The total number of sessions during the period.
 * The percentage of total sessions during the period that are engaged sessions.
-* The percentage of engaged sessions during the period that are resolved.
-* The percentage of engaged sessions during the period that are escalated.
-* The percentage of engaged sessions during the period that are abandoned.
+* The percentage of engaged sessions during the period that are resolved. A resolved session is a session in which customers are offered an end-of-conversation survey.
+* The percentage of engaged sessions during the period that are escalated. An escalated session is a session in which a customer requests help from a live agent.
+* The percentage of engaged sessions during the period that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
     > [!div class="mx-imgBorder"]
     > ![KPI summary charts](media/analytics-summary-1.PNG)
 
-Each key performance indicator chart includes an up and down indicator next the value that indicates the percent change in a positive or negative direction.
+Each key performance indicator chart includes an up and down indicator next to the value that indicates the percent change in a positive or negative direction over the specified time period.
 
 ## Graphical trend and breakdown charts
 

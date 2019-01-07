@@ -38,7 +38,9 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
 
-You can return to the conversation editor at any time to revise the topic's conversation path, and continue to fine-tune the virtual agent until you are ready to deploy it.
+You can return to the conversation editor at any time to revise the topic's conversation path.
+
+As you fine-tune your virtual agent, it can be useful to enable tracing to take you through the conversation path step by step.
 
 ## To trace through the topic's conversation path
 

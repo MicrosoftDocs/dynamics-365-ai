@@ -17,7 +17,7 @@ manager: shellyha
    > [!div class="mx-imgBorder"]
    > ![Engagement dashboard](media/analytics-engagement-1.PNG)
 
-The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provides graphical views of the breakdown of session outcomes and engagements over time. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provide graphical views of the breakdown of session outcomes and engagements over time. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Session outcomes over time chart](#outcomes-over-time-chart)
 * [Engagement over time chart](#engagement-over-time-chart)
@@ -29,13 +29,13 @@ By default, the dashboard shows you key performance indicators for the last seve
    > [!div class="mx-imgBorder"]
    > ![Session outcomes over time chart](media/analytics-engagement-2.PNG)
 
-The Session outcomes over time chart provides a graphical view of the number of resolved, escalated, and abandoned sessions over the specified time period.
+The Session outcomes over time chart provides a graphical view of the number of engaged sessions that are resolved, escalated, and abandoned over the specified time period.
 
 Description | Details
 ----------- | -------
-Resolved | The daily number of resolved sessions.
-Escalated | The daily number of escalated sessions.
-Abandoned | The daily number of abandoned sessions.
+Resolved | The daily number of resolved sessions. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
+Escalated | The daily number of escalated sessions. An escalated session is an engaged session that is escalated to a human agent.
+Abandoned | The daily number of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
 ## Engagement over time chart
 

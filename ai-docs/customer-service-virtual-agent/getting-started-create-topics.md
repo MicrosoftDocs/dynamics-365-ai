@@ -14,7 +14,7 @@ manager: shellyha
 
 # Creating topics for your virtual agent
 
-A topic defines the intent of a customer when making a request to the virtual agent. You specify a trigger phrase that prompts the virtual agent to start the conversation, and create a conversation path in the Virtual Agent Designer's conversation editor to lead customers to a resolution of their support issue. You can see how the conversation path works in practice by testing it in the Test Bot, and continue to fine-tune the topic until you are ready to deploy it.
+A topic defines a conversation path with the virtual agent for a specific customer intent. You specify a trigger phrase that prompts the virtual agent to start the conversation. Then create a conversation path in the Virtual Agent Designer's conversation editor to lead customers to a resolution of their support issue. You can see how the conversation path works in practice by testing it in the Test Bot and continue to fine-tune the topic until you are ready to deploy it.
 
 ## To create your own topic
 
@@ -25,12 +25,12 @@ A topic defines the intent of a customer when making a request to the virtual ag
 
     The Topics page displays a list of your virtual agent's current topics, including a variety of built-in topics.
 
-    The Virtual Agent Designer includes industry-specific topics depending on the template you used to create your virtual agent. For example, the Retail template includes topics for enrolling in a membership, looking up the balance of a gift card, or finding store hours:
+    The Virtual Agent Designer includes industry-specific topics depending on the template you used to create your virtual agent. For example, the Retail template includes topics for enrolling in a membership, looking up the balance of a gift card, or finding store hours.
 
    > [!div class="mx-imgBorder"]
    > ![Built-in topics](media/create-topic-1.png)
 
-    AI for Virtual Agent Designer also includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
+    The Virtual Agent Designer also includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
 
 2. On the Topics page, click **New topic**.
 
@@ -55,7 +55,7 @@ A topic defines the intent of a customer when making a request to the virtual ag
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)
 
-    The Virtual Agent Designer opens the topic in the conversation editor and displays the topic's trigger phrases. The conversation editor is where you define the conversation path between a customer and virtual agent.
+    The Virtual Agent Designer opens the topic in the conversation editor and displays the topic's trigger phrases. The conversation editor is where you define the conversation path between a customer and the virtual agent.
 
    > [!div class="mx-imgBorder"]
    > ![Open conversation](media/create-topic-9.png)
@@ -70,39 +70,41 @@ A topic defines the intent of a customer when making a request to the virtual ag
    > [!div class="mx-imgBorder"]
    > ![Additional bot response](media/create-topic-11.png)
 
-4. Then enter the additional response in the **Bot says** box.
+    Then enter the additional response in the **Bot says** box.
 
    > [!div class="mx-imgBorder"]
    > ![Additional response text](media/create-topic-12.png)
 
-5. To specify a response by the customer, select **User says**.
+4. To specify a response by the customer, select **User says**.
+
+    You can provide several options for the user’s response. The options display as clickable buttons.
 
    > [!div class="mx-imgBorder"]
    > ![Add user response](media/create-topic-13.png)
 
-6. Then enter the response in the **User responses** box.
+    Enter a response in the **User responses** box.
 
    > [!div class="mx-imgBorder"]
    > ![Add user response text](media/create-topic-14.png)
 
-7. To give the customer a choice between different responses, select **Add user response**
+    To give the customer a choice between different responses, select **Add user response**.
 
    > [!div class="mx-imgBorder"]
    > ![Additional user response](media/create-topic-15.png)
 
-8. Then specify the additional response in the **User responses** box.
+    Then specify the additional response in the **User responses** box.
 
    > [!div class="mx-imgBorder"]
    > ![Additional user response text](media/create-topic-16.png)
 
-    The conversation editor creates separate paths in the conversation, depending on the customer's response. You can design the conversation so that the virtual agent leads the customer to the appropriate resolution path for each user response.
+    The conversation editor creates separate paths in the conversation, depending on the customer's response. The conversation path leads the customer to the appropriate resolution for each user response.
 
-9. Add additional bot and user responses to complete the conversation path.
+5. Add additional bot and user responses to complete the conversation path.
 
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-17.png)
 
-10. To add a customer satisfaction survey at the end of the conversation path, select **End with survey**.
+6. To add a customer satisfaction survey at the end of a response that resolves the customer issue, select **End with survey**.
 
    > [!div class="mx-imgBorder"]
    > ![End with survey](media/create-topic-18.png)
@@ -133,6 +135,6 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
 
-You can return to the conversation editor at any time to revise the topic's conversation path, and continue to fine-tune the virtual agent until you are ready to deploy it. For information on deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
+You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the virtual agent until you are ready to deploy it. For information on deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 
 For more information on using the Test Bot, see [Work with the Test Bot](how-to-test-bot.md).
