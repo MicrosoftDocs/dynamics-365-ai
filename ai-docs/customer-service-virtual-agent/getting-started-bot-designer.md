@@ -2,7 +2,7 @@
 title: "Working with the Virtual Agent Designer"
 description: "Learn how to work with the Virtual Agent Designer."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

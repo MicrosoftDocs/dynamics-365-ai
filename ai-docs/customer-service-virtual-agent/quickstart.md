@@ -2,7 +2,7 @@
 title: "Quickstart - Create and deploy a customer service virtual agent"
 description: "Learn how to quickly create a customer service virtual agent using the Virtual Agent Designer."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Work with templates"
 description: "Learn how to work with AI for Customer Service Virtual Agent templates."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -59,3 +59,5 @@ You can view the trigger phrases and conversation path design in the Store Hours
 
    > [!div class="mx-imgBorder"]
    > ![View conversation path](media/how-to-templates-3.png)
+
+For more information about creating topics, see [Creating topics for your virtual agent](getting-started-create-topics.md)

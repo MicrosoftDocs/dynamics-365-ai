@@ -2,7 +2,7 @@
 title: "Creating topics for your virtual agent"
 description: "Learn how to use the Virtual Agent Designer to create topics for your virtual agent."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

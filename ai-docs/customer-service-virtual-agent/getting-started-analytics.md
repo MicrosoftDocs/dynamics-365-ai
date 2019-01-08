@@ -2,7 +2,7 @@
 title: "Using analytics to improve your virtual agent"
 description: "Learn how to use analytics to improve your AI for Customer Service virtual agent."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

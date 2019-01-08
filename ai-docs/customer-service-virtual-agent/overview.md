@@ -2,7 +2,7 @@
 title: "AI for Customer Service Virtual Agent overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service Virtual Agent."
 keywords: ""
-ms\.date: 12/20/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

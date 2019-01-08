@@ -2,7 +2,7 @@
 title: "Deleting your virtual agent bot"
 description: "Learn how to delete a Virtual Agent Designer virtual agent bot."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

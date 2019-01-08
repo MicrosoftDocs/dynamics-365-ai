@@ -2,7 +2,7 @@
 title: "Work with variables"
 description: "Learn how to work with AI for Customer Service Virtual Agent variables."
 keywords: ""
-ms\.date: 12/5/2018
+ms\.date: 1/7/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
