@@ -29,7 +29,7 @@ Ask questions and get help from experts and the product team in the [AI for Mark
 
 If you can think of ways how we can further improve the product and service, please [add your idea to the ideas list](https://experience.dynamics.com/ideas/list/?forum=e6202680-69d9-e811-a96b-000d3a1be7ad). 
 
-## Public Preview update  (January 30, 2019)
+## Public Preview update 3 (January 30, 2019)
 
 ###  AI assisted query builder
 
