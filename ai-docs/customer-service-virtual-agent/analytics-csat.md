@@ -26,7 +26,7 @@ The Customer satisfaction dashboard includes a variety of charts with graphical 
 * [Scores over time chart](#scores-over-time-chart)
 * [Score breakdown chart](#score-breakdown-chart)
 
-The Customer satisfaction drivers chart uses natural language understanding artificial intelligence technology to group support cases as topics. This chart shows you the topics that are having the most impact on customer satisfaction.
+The Customer satisfaction drivers chart shows you the topics that are having the most impact on customer satisfaction.
 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
@@ -39,7 +39,7 @@ The Customer satisfaction drivers chart uses artificial intelligence technology 
 
 Description | Details
 ----------- | -------
-Topic | Artificial intelligence clustering of support cases based on language understanding applied to case titles.
+Topic | A Virtual Agent Designer topic.
 Engaged sessions | The number of engaged sessions for the topic within the specified time period.
 Resolution rate | The percentage of engaged sessions for the topic that are resolved. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
 Abandon rate | The percentage of engaged sessions for the topic that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
@@ -47,9 +47,9 @@ Escalation rate | The percentage of engaged sessions for the topic that are esca
 Avg CSAT | The average CSAT survey score for the topic.
 Impact | The topic's customer satisfaction impact score. The customer satisfaction impact score is the overall average CSAT survey score including the topic minus the overall average CSAT survey score excluding the topic.
 
-The chart displays the impact as a red or blue bar. The midpoint is the overall average CSAT survey score. A red bar indicates that the topic's average CSAT survey score is lower than the average average CSAT survey score, resulting in a negative impact on overall average CSAT survey score. A blue bar indicates that the average CSAT survey score is higher, resulting in a positive impact on overall average CSAT survey score.
+The chart displays the impact as a red or blue bar. A red bar indicates that the topic's average CSAT survey score is lower than the average average CSAT survey score, resulting in a negative impact on overall average CSAT survey score. A blue bar indicates that the average CSAT survey score is higher, resulting in a positive impact on overall average CSAT survey score.
 
-Improving the average CSAT survey score for the top customer satisfaction impact topics in red will have the greatest impact on improving customer satisfaction.
+Improving the average CSAT survey score for the top customer satisfaction impact topics in red will have the greatest impact on improving the overall CSAT score.
 
 To see additional information about each topic, click the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
 

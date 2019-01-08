@@ -31,7 +31,7 @@ Some key features of the dashboards include:
 * Filters to let you view customer service data for a specific time period.
 * Key performance indicator charts that give you the basics of how your system is performing.
 * Graphical charts showing trends and breakdowns of cases from a variety of views.
-* Impact charts that use language understanding artificial intelligence technology to show the impact and trends of cases related to specific support topics.
+* Impact charts that show the impact and trends of cases related to specific support topics.
 
 ## Dashboard filters
 
@@ -40,7 +40,7 @@ Filters on each dashboard let you view information for support cases for a speci
    > [!div class="mx-imgBorder"]
    > ![Dashboard filters](media/analytics-3.png)
 
-By default, dashboards display information for the last seven days, but you also display information for the last 30 days by selecting **Last 30 Days**.
+By default, dashboards display information for the last seven days, but you can also display information for the last 30 days by selecting **Last 30 Days**.
 
 ## Key performance indicator charts
 
@@ -66,7 +66,7 @@ The dashboards include a variety of graphical charts that give you views of diff
 
 ## Impact charts
 
-Impact charts use artificial intelligence technology to show you the topics that are having the greatest impact, both positive and negative, on the performance of your virtual agent.
+Impact charts show you the topics that are having the greatest impact, both positive and negative, on the performance of your virtual agent.
 
    > [!div class="mx-imgBorder"]
    > ![Impact charts](media/analytics-6.PNG)

@@ -32,7 +32,6 @@ You can display the Topic details dashboard by clicking the Detail link in one o
 The Topic details dashboard includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Topic summary charts](#topic-summary-charts)
-* [Customer response by number of surveys completed chart](#customer-response-by-number-of-surveys-completed-chart)
 * [Impact summary charts](#impact-summary-charts)
 * [Topic volume by day chart](#topic-volume-by-day-chart)
 
@@ -52,17 +51,6 @@ Escalation rate | The percentage of engaged sessions that are escalated. An esca
 Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
 A blue up and down indicator below the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
-
-## Customer response by number of surveys completed chart
-
-   > [!div class="mx-imgBorder"]
-   > ![Topic summary charts](media/analytics-topic-details-3.PNG)
-
-The customer response by number of surveys completed chart provides a graphical view of the breakdown in CSAT score by average score and whether the survey indicated one of the following:
-
-* The solution didn't align with the query.
-* The customer tried the solution but it didn't work.
-* The virtual agent didn't understand the customer's query.
 
 ## Impact summary charts
 

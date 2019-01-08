@@ -29,13 +29,13 @@ By default, the dashboard shows you key performance indicators for the last seve
    > [!div class="mx-imgBorder"]
    > ![Session outcomes over time chart](media/analytics-engagement-2.PNG)
 
-The Session outcomes over time chart provides a graphical view of the number of engaged sessions that are resolved, escalated, and abandoned over the specified time period.
+The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.
 
 Description | Details
 ----------- | -------
-Resolved | The daily number of resolved sessions. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
-Escalated | The daily number of escalated sessions. An escalated session is an engaged session that is escalated to a human agent.
-Abandoned | The daily number of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
+Resolved | The daily rate of resolved sessions. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
+Escalated | The daily rate of escalated sessions. An escalated session is an engaged session that is escalated to a human agent.
+Abandoned | The daily rate of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
 ## Engagement over time chart
 
