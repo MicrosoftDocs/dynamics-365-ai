@@ -21,22 +21,22 @@ The Customer satisfaction dashboard gives you an overview of customer satisfacti
 
 The Customer satisfaction dashboard includes a variety of charts with graphical views of your system's customer satisfaction data. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
-* [Total surveys completed](#total-surveys-completed-chart)
-* [Survey response rate](#survey-response-rate-chart)
+* [Surveys completed](#surveys-completed-chart)
+* [CSAT collection rate](#CSAT-collection-rate-chart)
 * [Average CSAT](#average-csat-chart)
 * [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
-* [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
+* [Customer satisfaction drivers (AI Insights)](#customer-satisfaction-drivers-chart)
 
-The *Top CSAT impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
+The *Customer satisfaction drivers* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas for improvement that can have the greatest impact on improving the customer's experience.
 
-By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+By default, the dashboard shows you key performance indicators for the past month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
 To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
-## Total surveys completed chart
+## Surveys completed chart
 
 > [!div class="mx-imgBorder"]
-> ![Total surveys completed chart](media/ai-csi-surveys-completed.PNG "Total surveys completed chart")
+> ![Surveys completed chart](media/ai-csi-surveys-completed.PNG "Surveys completed chart")
 
 The total surveys completed chart shows the total number of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
 
@@ -46,16 +46,16 @@ Total surveys completed | *The number of completed customer satisfaction (CSAT) 
 
 A blue up and down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
-## Survey response rate chart
+## CSAT collection rate chart
 
 > [!div class="mx-imgBorder"]
-> ![Survey response rate chart](media/ai-csi-response-rate.PNG "Survey response rate chart")
+> ![CSAT collection rate chart](media/ai-csi-csat-collection-rate.PNG "CSAT collection rate chart")
 
-The survey response rate chart shows the percentage of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
+The CSAT collection rate chart shows the percentage of customer satisfaction surveys completed during the specified time period, and the percent change over the period.
 
 Description | Details
 ----------- | -------
-Survey response rate | *The number of completed customer satisfaction (CSAT) surveys divided by the total number of surveys*
+CSAT collection rate | *The number of completed customer satisfaction (CSAT) surveys divided by the total number of surveys*
 
 A blue up and down indicator next to the value indicates the positive percent change in that direction. A red indicator indicates a negative percent change.
 
@@ -83,12 +83,12 @@ Description | Details
 ----------- | -------
 Customer satisfaction breakdown | *CSAT score breakdown by support channel*
 
-## Top CSAT impactors chart
+## Customer satisfaction drivers chart
 
 > [!div class="mx-imgBorder"]
-> ![Top CSAT impactors chart](media/ai-csi-CSAT-impactors.PNG "Top CSAT impactors chart")
+> ![Customer satisfaction drivers chart](media/ai-csi-CSAT-drivers.PNG "Customer satisfaction drivers chart")
 
-The top CSAT impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of impact the topics are having on customer satisfaction.
+The customer satisfaction drivers chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of impact the topics are having on customer satisfaction.
 
 Description | Details
 ----------- | -------
