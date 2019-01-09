@@ -24,6 +24,10 @@
 
 ## [Work with variables](how-to-variables.md)
 
+## [Connect to your customer service data](how-to-connect-data.md)
+
+## [Improve data quality by cleansing support case titles](how-to-cleanse-data.md)
+
 # Reference
 
 ## Analytics reference
