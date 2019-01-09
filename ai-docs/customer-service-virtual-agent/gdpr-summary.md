@@ -16,6 +16,8 @@ manager: shellyha
 
 This article helps you and your organization comply with the European Union's General Data Protection Regulation (GDPR). This article not only describes what Microsoft is doing to comply with the GDPR but also shares examples of steps you can take to support GDPR compliance when using Dynamics 365 AI for Customer Service Virtual Agent.
 
+    **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant adminitrator, other users with admin permissions may have access to your virtual agent content.
+
 ## Prerequisites
 
 Users and tenant administrators can perform the actions outlined in this article.

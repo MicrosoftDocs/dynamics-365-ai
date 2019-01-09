@@ -53,7 +53,7 @@ For more information about using the Analytics page, see [Using analytics to imp
    > [!div class="mx-imgBorder"]
    > ![Deploy page](media/bot-designer-5.PNG)
 
-The Deploy page is where you deploy your completed virtual agent to a demo website or your own custom website.
+The Deploy page is where you deploy your completed virtual agent to a demo website or your own custom website. The demo website provides a sandbox environment for your team to test the virtual agent and give you feedback.
 
 As part of the deployment to the demo website, you can specify a custom welcome message and any suggested conversation starters to help team members get started testing your virtual agent.
 
@@ -63,7 +63,7 @@ For more information about using the Deploy page to deploy your virtual agent, s
 
 ## Test Bot
 
-Each page includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by clicking the arrow on the right edge of the Test Bot pane.
+The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by clicking the arrow on the right edge of the Test Bot pane.
 
    > [!div class="mx-imgBorder"]
    > ![Hide Test Bot](media/bot-designer-5-2.PNG)

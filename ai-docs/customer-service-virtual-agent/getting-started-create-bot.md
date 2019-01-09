@@ -14,7 +14,7 @@ manager: shellyha
 
 # Creating a virtual agent
 
-You can use the Virtual Agent Designer to create a powerful custom virtual agent. The Virtual Agent Designer makes it easy to create virtual agents that address common customer support issues. You can design a conversation path that leads each customer to a resolution.
+You can use the Virtual Agent Designer to create a powerful custom virtual agent. The Virtual Agent Designer makes it easy to create virtual agents that address common support issues. You can design a conversation path that leads each customer to a resolution.
 
 To help get you started and tailor the virtual agent to your specific needs, the Virtual Agent Designer lets you create a virtual agent using built-in industry-specific templates. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for a retail business.
 

@@ -14,30 +14,28 @@ manager: shellyha
 
 # Work with templates
 
-To help give you a jump start on creating and developing your virtual agent, the Virtual Agent Designer includes templates that provide built-in building blocks to help you develop your virtual agent's conversation path.
+To help you create your custom virtual agent, the Virtual Agent Designer includes templates that provide built-in building blocks for developing the virtual agent's conversation path.
 
-Each template comes with an enhanced artificial intelligence model for a specific industry, and built-in topics that you can use to build a conversation path tailored to that industry. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for a retail business.
+Each template comes with an artificial intelligence model for a specific industry and built-in system topics, as well as topics tailored to that industry. For example, the Virtual Agent Designer includes a template to help you create a virtual agent for a retail business.
 
-The built-in topics supplied by the template can also be useful as a model for building your conversation path.
+The built-in topics supplied by the template can also be useful as a model for building your conversation path. The Virtual Agent Designer currently supports Retail and General customer support templates.
 
-## Using industry-specific templates to create your virtual agent
+## Using templates to create your virtual agent
 
-The Virtual Agent Designer includes a Retail template that provides a variety of topics specific to a retail business. These include topics related to:
-
-* Looking up store hours
-* Finding store locations
-* Paying a bill
-* Cancelling an order
-
-The Virtual Agent Designer also includes a General template that you can use to create any type of virtual agent.
-
-In addition, Virtual Agent Designer includes several system topics that are included with either template that help you address common situations. These include:
+The Virtual Agent Designer templates provide a variety of built-in features that give you a head start on developing your virtual agent. For example, each template includes several system topics that help you address common situations. These include:
 
 * A customer greeting
 * Escalation to a live agent
 * The end of the conversation
 * A confirmed success
 * A confirmed failure
+
+The Virtual Agent Designer currently includes a General template that you can use to create any type of virtual agent for customer support, and a Retail template that provides a variety of topics specific to a retail business. These include topics related to:
+
+* Looking up store hours
+* Finding store locations
+* Paying a bill
+* Cancelling an order
 
 For more information about using templates to create a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md)
 

@@ -23,12 +23,12 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
    > [!div class="mx-imgBorder"]
    > ![Open Deploy page](media/deploy-bot-1.png)
 
-2. To deploy the bot to the demo website, click **Demo website** on the Deploy page.
+2. To deploy the bot to the demo website, click **Demo website** on the Deploy page. The demo website provides a sandbox environment for your team to test the virtual agent and give you feedback.
 
    > [!div class="mx-imgBorder"]
    > ![Select demo website](media/create-topic-21-1.png)
 
-    On the Deploy - Demo Website page, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for customers interacting with your bot, and then click **Publish**.
+    On the Deploy - Demo Website page, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for team members testing your bot, and then click **Publish**.
 
    > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
@@ -38,7 +38,9 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
    > [!div class="mx-imgBorder"]
    > ![Select custom website](media/deploy-bot-1-3.png)
 
-   On the Deploy - Custom Website page, you can copy and share the Virtual Agent code to add to your custom website. Click **Publish** to publish the virtual agent.
+   On the Deploy - Custom Website page, copy the Virtual Agent code for the custom website and share it with your website administrator to add to the site. If you have admin permissions to the site, you can do it yourself.
+
+   Then click **Publish** to publish the virtual agent. Publishing the code ensures that your website displays the most current virtual agent content.
 
    > [!div class="mx-imgBorder"]
    > ![Custom message](media/deploy-bot-1-2.png)

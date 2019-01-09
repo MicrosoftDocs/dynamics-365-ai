@@ -70,3 +70,5 @@ As you fine-tune your virtual agent, it can be useful to enable tracing to take 
 
    > [!div class="mx-imgBorder"]
    > ![Earlier place conversation editor](media/how-to-test-bot-5.png)
+
+If the conversation path in the Test Bot moves from one topic to another topic, the conversation editor refreshes and moves between topics to the appropriate highlighted nodes.
