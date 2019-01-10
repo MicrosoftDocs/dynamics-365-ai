@@ -25,9 +25,8 @@ The Customer satisfaction dashboard includes a variety of charts with graphical 
 * [Survey response rate](#survey-response-rate-chart)
 * [Average CSAT](#average-csat-chart)
 * [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
-* [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
-
-The Top CSAT impactors chart uses natural language understanding artificial-intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas to focus on that will make the greatest impact on improving the customer's experience.
+* [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)</br>
+  The Top CSAT impactors chart uses natural language understanding artificial-intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas to focus on that will make the greatest impact on improving the customer's experience.
 
 By default, the dashboard shows you key performance indicators for the last month and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select last day, last week, or last month.
 
