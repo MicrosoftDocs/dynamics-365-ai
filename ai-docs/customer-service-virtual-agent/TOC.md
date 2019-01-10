@@ -30,6 +30,8 @@
 
 ## [Improve data quality by cleansing support case titles](how-to-cleanse-data.md)
 
+## [Use Microsoft Flow with your virtual agent](how-to-flow.md)
+
 # Reference
 
 ## Analytics reference
