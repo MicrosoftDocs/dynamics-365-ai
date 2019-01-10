@@ -17,6 +17,9 @@ manager: shellyha
 > [!div class="mx-imgBorder"]
 > ![Case resolution dashboard](media/ai-csi-case-resolutions-dash.PNG)
 
+<!--note from editor: Screen shot shows "Case resolution time" but referred to in text as "Case resolution".-->
+
+
 The Case resolution dashboard gives you an overview of your customer service system's case resolution performance. It uses artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
 The Case resolution dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list, or scroll to locate the chart later in this topic.
