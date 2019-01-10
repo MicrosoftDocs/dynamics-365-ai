@@ -31,7 +31,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    When you first create your virtual agent, it may take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
-   **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant adminitrator, other users with admin permissions may have access to your virtual agent content.
+   **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions may have access to your virtual agent content.
 
 2. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer may want to make an appointment at a store.
 

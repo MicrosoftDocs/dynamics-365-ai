@@ -24,6 +24,8 @@
 
 ## [Work with variables](how-to-variables.md)
 
+## [Hand off a virtual agent conversation to a live agent](how-to-handoff.md)
+
 ## [Connect to your customer service data](how-to-connect-data.md)
 
 ## [Improve data quality by cleansing support case titles](how-to-cleanse-data.md)
