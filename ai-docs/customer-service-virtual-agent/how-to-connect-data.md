@@ -16,14 +16,14 @@ manager: shellyha
 
 The Virtual Agent Designer lets you quickly connect to your existing Dynamics 365 customer service data to give you insights that can help you improve your virtual agent. The Virtual Agent Designer uses artificial intelligence technology to group related support case titles as topics, and then give you suggested trigger phrases that you can use when you are designing your virtual agent.
 
-1. You can connect to your data either on the Suggested tab of the Topics page or using the **Settings** button on the Virtual Agent title bar.
+1. Display the **Connect your data** screen, using either the Suggested tab of the Topics page or the **Settings** button on the Virtual Agent title bar.
 
-    To connect to your data on the Suggested tab of the Topics page, click **Connect data** to display the **Connect your data** screen.
+    To use the Suggested tab of the Topics page, click **Connect data** to display the **Connect your data** screen.
 
    > [!div class="mx-imgBorder"]
    > ![Connect Suggested tab](media/how-to-connect-data-1-1.PNG)
 
-    To connect to your data using the **Settings** button on the Virtual Agent Designer title bar, select **Data Connections** to display the Current connections pane of the Settings window.
+    To use the **Settings** button on the Virtual Agent Designer title bar, select **Data Connections** to display the Current connections pane of the Settings window.
 
    > [!div class="mx-imgBorder"]
    > ![Display current connections](media/how-to-connect-data-1.PNG)
