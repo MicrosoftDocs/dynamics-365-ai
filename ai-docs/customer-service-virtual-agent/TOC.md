@@ -32,6 +32,8 @@
 
 ## [Use Microsoft Flow with your virtual agent](how-to-flow.md)
 
+## [Use topic suggestions to improve your virtual agent](how-to-suggestions.md)
+
 # Reference
 
 ## Analytics reference
