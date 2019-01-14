@@ -170,7 +170,7 @@ Once you have created your environment, return to the Flow portal and switch to 
    > [!div class="mx-imgBorder"]
    > ![Create variable](media/how-to-flow-18.png)
 
-    For more information on creating variables, see [Work with variables](how0to-variables.md).
+    For more information on creating variables, see [Work with variables](how-to-variables.md).
 
 6. Specify a variable name and type. For example, you could create a text variable named *User_Email*.  Click **Done** to save the variable.
 
