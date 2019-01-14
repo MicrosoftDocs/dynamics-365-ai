@@ -18,7 +18,7 @@ The AI for Customer Service Virtual Agent analytics dashboards contain a variety
 
 You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-CSAT.md) dashboards by selecting each dashboard's icon in the navigation pane. The Summary dashboard is the default AI for Customer Service Virtual Agent dashboard.
 
-You can display the [Topic details](analytics-topic-details.md) dashboard by clicking the Detail link in one of the charts in those dashboards.
+You can display the [Topic details](analytics-topic-details.md) dashboard by selecting the Detail link in one of the charts in those dashboards.
 
    > [!div class="mx-imgBorder"]
    > ![Topic details link](media/analytics-overview-1.PNG)
