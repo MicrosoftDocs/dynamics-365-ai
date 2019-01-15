@@ -2,7 +2,7 @@
 title: "Creating topics for your virtual agent"
 description: "Learn how to use the Virtual Agent Designer to create topics for your virtual agent."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,21 +18,21 @@ A topic defines a conversation path with the virtual agent for a specific custom
 
 ## To create your own topic
 
-1. Click **Topics** in the navigation pane to open the Topics page.
+1. Select **Topics** in the navigation pane to open the Topics page.
 
    > [!div class="mx-imgBorder"]
    > ![Open Topics page](media/create-topic-1-1.png)
 
     The Topics page displays a list of your virtual agent's current topics, including a variety of built-in topics.
 
-    The Virtual Agent Designer includes industry-specific topics depending on the template you used to create your virtual agent. For example, the Retail template includes topics for enrolling in a membership, looking up the balance of a gift card, or finding store hours.
+    The Virtual Agent Designer includes industry-specific topics, depending on the template you used to create your virtual agent. For example, the Retail template includes topics for enrolling in a membership, looking up the balance of a gift card, or finding store hours.
 
    > [!div class="mx-imgBorder"]
    > ![Built-in topics](media/create-topic-1.png)
 
-    The Virtual Agent Designer also includes several system topics that help you address common situations -- a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
+    The Virtual Agent Designer also includes several system topics that help you address common situations--a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
 
-2. On the Topics page, click **New topic**.
+2. On the Topics page, select **New topic**.
 
    > [!div class="mx-imgBorder"]
    > ![New topic](media/create-topic-2.png)
@@ -43,14 +43,14 @@ A topic defines a conversation path with the virtual agent for a specific custom
 
     **Tip:**   Having at least 20 trigger phrases can improve the usage of your topic.
 
-    Then click **Save topic** to add the topic to the topics list.
+    Then select **Save topic** to add the topic to the topics list.
 
    > [!div class="mx-imgBorder"]
    > ![Save topic](media/create-topic-3-2.png)
 
 ## To design the topic's conversation path
 
-1. Click **Edit** to open the conversation editor.
+1. Select **Edit** to open the conversation editor.
 
    > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)
@@ -109,7 +109,7 @@ A topic defines a conversation path with the virtual agent for a specific custom
    > [!div class="mx-imgBorder"]
    > ![End with survey](media/create-topic-18.png)
 
-   Then click **Save** to save the conversation path.
+   Then select **Save** to save the conversation path.
 
 As you design your topic's conversation path, you can use the Test Bot to see how the virtual agent leads the customer through a conversation with the virtual agent.
 
@@ -120,7 +120,7 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/create-topic-20.png)
 
-    The trigger phrase starts the topic's conversation. The Test Bot displays the bot and user responses you specified in the conversation editor.
+    The trigger phrase starts the topic's conversation. The Test Bot displays the bot and user responses that you specified in the conversation editor.
 
    > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
@@ -130,7 +130,7 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-22.png)
 
-3. To restart the conversation, click **Start over with latest content** at the top of the Test Bot pane.
+3. To restart the conversation, select **Start over with latest content** at the top of the Test Bot pane.
 
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
