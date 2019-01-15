@@ -21,8 +21,6 @@ The Topic details dashboard provides a view into the performance of individual t
 
 You can display the Topic details dashboard by selecting the Detail link in one of the following charts on the [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) dashboards:
 
-<!--note from editor: I'm getting "page not found" for Customer satisfaction drivers chart" link below-->
-
 * [Escalation rate drivers (Summary dashboard)](analytics-summary.md#escalation-rate-drivers-chart)
 * [Abandon rate drivers (Summary dashboard)](analytics-summary.md#abandon-rate-drivers-chart)
 * [Resolution rate drivers (Summary dashboard)](analytics-summary.md#resolution-rate-drivers-chart)
