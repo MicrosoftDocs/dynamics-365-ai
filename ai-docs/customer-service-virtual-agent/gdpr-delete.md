@@ -14,7 +14,7 @@ manager: shellyha
 
 # Responding to GDPR data subject delete requests for Dynamics 365 AI for Customer Service Virtual Agent
 
-The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
+The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs except audit log information.
 
 ## Manage delete requests
 
@@ -38,20 +38,20 @@ Case data connection settings are deleted when the bot is deleted.
 
 ### Delete Virtual Agent Designer bot content
 
-You can follow these steps to delete an AI for Customer Service Virtual Agent bot:
+Follow these steps to delete an AI for Customer Service Virtual Agent bot:
 
-1. Launch the Virtual Agent Designer in your browser.
+1. Open the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
 
    > [!div class="mx-imgBorder"]
    > ![General settings](media/gdpr-export-1.png)
 
-3. In the Delete bot section, click **Delete bot**.
+3. In the Delete bot section, select **Delete bot**.
 
    > [!div class="mx-imgBorder"]
    > ![Delete bot](media/delete-bot-2.PNG)
 
-All bot content will be immediately deleted.
+All bot content is immediately deleted.
 
 ### Delete Virtual Agent Designer telemetry
 
@@ -63,7 +63,7 @@ Extracted knowledge, including topic suggestions, is deleted when the bot is del
 
 ### Metrics
 
-To delete metrics data, you must delete your bot. See [Delete Virtual Agent Designer bot content](#delete-virtual-agent-designer-bot-content) for information on deleting a bot.
+To delete metrics data, you must delete your bot. See [Delete Virtual Agent Designer bot content](#delete-virtual-agent-designer-bot-content) for more information.
 
 ### System telemetry
 
