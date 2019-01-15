@@ -2,7 +2,7 @@
 title: "Engagement dashboard"
 description: "Learn about the AI for Customer Service Virtual Agent Engagement dashboard."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -17,9 +17,9 @@ manager: shellyha
    > [!div class="mx-imgBorder"]
    > ![Engagement dashboard](media/analytics-engagement-1.PNG)
 
-The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provide graphical views of the breakdown of session outcomes and engagements over time. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provide graphical views of the breakdown of session outcomes and engagements over time. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 
-* [Session outcomes over time chart](#outcomes-over-time-chart)
+* [Session outcomes over time chart](#session-outcomes-over-time-chart)
 * [Engagement over time chart](#engagement-over-time-chart)
 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
@@ -42,7 +42,9 @@ Abandoned | The daily rate of abandoned sessions. An abandoned session is an eng
    > [!div class="mx-imgBorder"]
    > ![Outcomes over time chart](media/analytics-engagement-3.PNG)
 
-The engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered, or the session ends in escalation.
+<!--note from editor: Line 47: "An engaged session is either a session in which a user-created topic is triggered or a session that continues as an escalation" ?-->
+
+The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered, or the session ends in escalation.
 
 Description | Details
 ----------- | -------
