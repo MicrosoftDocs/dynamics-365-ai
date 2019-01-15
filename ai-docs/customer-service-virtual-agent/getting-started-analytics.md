@@ -2,7 +2,9 @@
 title: "Using analytics to improve your virtual agent"
 description: "Learn how to use analytics to improve your AI for Customer Service virtual agent."
 keywords: ""
+
 ms.date: 1/14/2019
+
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -21,7 +23,9 @@ To view the analytics dashboards, select **Analytics** in the navigation pane to
    > [!div class="mx-imgBorder"]
    > ![Open Analytics page](media/analytics-1.png)
 
+
 You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by selecting the tab for each dashboard on the Analytics page.
+
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard tabs](media/analytics-2.png)
