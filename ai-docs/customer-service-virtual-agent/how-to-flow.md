@@ -20,21 +20,21 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 1. Enter [https://tip1.admin.powerapps.com/environments](https://tip1.admin.powerapps.com/environments) in your browser to open the PowerApps Admin center.
 
-2. Select **New Environment** to open the New environment screen.
+2. Select **New environment** to open the New environment screen.
 
-    Specify a unique name for the environment, *Preview (United States) (default)* as the region, and *Trial* as the environment type. Select the **Join Preview** check box and then **Create Environment**.
+    Specify a unique name for the environment, *Preview (United States) (default)* as the region, and *Trial* as the environment type. Select the **Join Preview** check box and then **Create environment**.
 
    > [!div class="mx-imgBorder"]
    > ![Create environment](media/how-to-flow-1-1.PNG)
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
-3. Select **Create database** to display the Create a database for this environment screen.
+3. Select **Create database** to display the **Create a database for this environment** screen.
 
    > [!div class="mx-imgBorder"]
    > ![Create database screen](media/how-to-flow-1-2.PNG)
 
-4. Select your currency type and language, and then select **Create Database**.
+4. Select your currency type and language, and then select **Create database**.
 
    > [!div class="mx-imgBorder"]
    > ![Create database](media/how-to-flow-1-3.PNG)
@@ -53,7 +53,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
    > [!div class="mx-imgBorder"]
    > ![Select environment](media/how-to-flow-1-4.PNG)
 
-3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the Solutions page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
+3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
 
    > [!div class="mx-imgBorder"]
    > ![Verify database](media/how-to-flow-1-5.PNG)
@@ -67,7 +67,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 1. Select **Common Data Services Default Solution** to open the solution.
 
-2. On the Common Data Services Default Solution page, select **+New**, and then select **Flow** from the list.
+2. On the **Common Data Services Default Solution** page, select **+New**, and then select **Flow** from the list.
 
    > [!div class="mx-imgBorder"]
    > ![New flow](media/how-to-flow-1-6.PNG)
@@ -138,7 +138,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
     Then select **Create**.
 
-3. Once you have created your virtual agent, create a topic that uses the flow. Select **Topics** in the navigation pane to open the Topics page, and then select **New topic**.
+3. Once you have created your virtual agent, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
 
    > [!div class="mx-imgBorder"]
    > ![New topic](media/create-topic-2.png)
