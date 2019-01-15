@@ -1,5 +1,5 @@
 ---
-title: "Quickstart - Create and deploy a customer service virtual agent"
+title: "Quickstart: Create and deploy a customer service virtual agent"
 description: "Learn how to quickly create a customer service virtual agent using the Virtual Agent Designer."
 keywords: ""
 ms.date: 1/14/2019
