@@ -2,7 +2,7 @@
 title: "Using analytics to improve your virtual agent"
 description: "Learn how to use analytics to improve your AI for Customer Service virtual agent."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,12 +16,12 @@ manager: shellyha
 
 As you create and deploy your virtual agent, you can use analytics to see how your virtual agent is performing. Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
-To view the analytics dashboards, click **Analytics** in the navigation pane to open the Analytics page.
+To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![Open Analytics page](media/analytics-1.png)
 
-You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by clicking the tab for each dashboard on the Analytics page.
+You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards by selecting the tab for each dashboard on the Analytics page.
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard tabs](media/analytics-2.png)
@@ -35,7 +35,7 @@ Some key features of the dashboards include:
 
 ## Dashboard filters
 
-Filters on each dashboard let you view information for support cases for a specific time period.
+Filters on each dashboard let you view support-case information for a specific time period.
 
    > [!div class="mx-imgBorder"]
    > ![Dashboard filters](media/analytics-3.png)
@@ -44,7 +44,7 @@ By default, dashboards display information for the last seven days, but you can 
 
 ## Key performance indicator charts
 
-Key performance indicator charts give you a view of the key performance data for your virtual agent and customer service system for the specified time period. For example, the key performance indicator charts on the Summary summary dashboard show you:
+Key performance indicator charts give you a view of the key performance data for your virtual agent and customer service system for the specified time period. For example, the key performance indicator charts on the Summary dashboard show you:
 
 * The total number of sessions during the period.
 * The percentage of total sessions during the period that are engaged sessions.
@@ -55,11 +55,11 @@ Key performance indicator charts give you a view of the key performance data for
     > [!div class="mx-imgBorder"]
     > ![KPI summary charts](media/analytics-summary-1.PNG)
 
-Each key performance indicator chart includes an up and down indicator next to the value that indicates the percent change in a positive or negative direction over the specified time period.
+Each key performance indicator chart includes an up-and-down indicator next to the value that indicates the percent change in a positive or negative direction over the specified time period.
 
 ## Graphical trend and breakdown charts
 
-The dashboards include a variety of graphical charts that give you views of different trends, and the breakdown of cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
+The dashboards include a variety of graphical charts that give you views of different trends and break down cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
 
    > [!div class="mx-imgBorder"]
    > ![Graphical charts](media/analytics-5.PNG)
