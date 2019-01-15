@@ -2,7 +2,7 @@
 title: "Creating a virtual agent"
 description: "Learn how to use the AI for Customer Service Virtual Agent to create a virtual agent."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,18 +20,18 @@ To help get you started and tailor the virtual agent to your specific needs, the
 
 Each template comes with built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths that are tailored to a specific industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
 
-These industry templates can also be useful as a model for building your own conversations for similar customer support issues. For more information, see [Work with templates](how-to-templates.md).
+These industry templates can also be useful as a model for building your own conversations for similar customer-support issues. For more information, see [Work with templates](how-to-templates.md).
 
 ## To create a virtual agent
 
-1. Launch the Virtual Agent Designer in your browser to display the **Create a new bot** screen.
+1. Open the Virtual Agent Designer in your browser to display the **Create a new bot** screen.
 
     AI for Customer Service Virtual Agent supports Internet Explorer 11 and Chrome browsers.
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot screen](media/create-bot-1.PNG)
 
-2. Select the template you want to use, and specify a name and region for the bot. Optionally, you can specify a business name. Then click **Create**.
+2. Select the template you want to use, and specify a name and region for the bot. Optionally, you can specify a business name. Then select **Create**.
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
@@ -41,7 +41,7 @@ These industry templates can also be useful as a model for building your own con
    > [!div class="mx-imgBorder"]
    > ![Open bot](media/create-bot-3.PNG)
 
-Once you have created your bot, you can add topics that represent the customer intents that can be addressed by the virtual agent, and then deploy the virtual agent to a web channel. As customers use the virtual agent, you can view analytics information to help you improve the virtual agent and the overall customer experience.
+Once you have created your bot, you can add topics that represent the customer intents to be addressed by the virtual agent and then deploy the virtual agent to a web channel. As customers use the virtual agent, you can view analytics information to help you improve it and the overall customer experience.
 
 For more information about creating topics for your virtual agent, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
