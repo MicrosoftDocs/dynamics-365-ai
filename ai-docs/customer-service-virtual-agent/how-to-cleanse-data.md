@@ -25,7 +25,7 @@ For more information about topic suggestions, see [Use topic suggestions to impr
    > [!div class="mx-imgBorder"]
    > ![Display cleansing pane](media/how-to-cleanse-data-1.PNG)
 
-2. Select the check box next to **I want to clean my case titles**
+2. Select the check box next to **I want to cleanse my case titles**
 
    > [!div class="mx-imgBorder"]
    > ![Case Titles pane](media/how-to-cleanse-data-2.PNG)

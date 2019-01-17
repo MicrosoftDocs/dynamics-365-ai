@@ -14,7 +14,7 @@ manager: shellyha
 
 # Quickstart - Create and deploy a customer service virtual agent
 
-Dynamics 365 AI for Customer Service Virtual Agent Designer lets you quickly create and deploy your own customer service virtual agent. The virtual agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
+Dynamics 365 AI for Customer Service Virtual Agent Designer lets you quickly create and deploy your own customer service virtual agent. The virtual agent can chat with customers, ask clarifying questions to identify issues, and guide each customer to a resolution.
 
 This Quickstart takes you through the end-to-end experience of creating a virtual agent, adding topics, deploying your virtual agent, and analyzing data from your virtual agent.
 
@@ -31,7 +31,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    When you first create your virtual agent, it may take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
-   **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions may have access to your virtual agent content.
+   **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions have access to your virtual agent content.
 
 2. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer may want to make an appointment at a store.
 
