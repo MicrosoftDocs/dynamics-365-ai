@@ -21,7 +21,7 @@ Customer Service Insights uses artificial intelligence to automatically group yo
 The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 
 > [!div class="mx-imgBorder"]
-> ![KPI summary dashboard](media/ai-customer-service-insights.png "KPI summary dashboard")
+> ![KPI summary dashboard](media/ai-customer-service-insights.PNG "KPI summary dashboard")
 
 *The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service*
 
@@ -36,8 +36,8 @@ For more information and examples of how to use the AI for Customer Service dash
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
 * [KPI summary dashboard](dashboard-kpi-summary.md)
-* [Incoming cases dashboard](dashboard-incoming-cases.md)
-* [Case resolution dashboard](dashboard-case-resolutions.md)
+* [New cases dashboard](dashboard-incoming-cases.md)
+* [Resolutions dashboard](dashboard-case-resolutions.md)
 * [Customer satisfaction dashboard](dashboard-CSAT.md)
 * [Topic details dashboard](dashboard-topic-details.md)
 

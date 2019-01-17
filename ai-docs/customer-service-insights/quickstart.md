@@ -35,7 +35,7 @@ Dynamics 365 AI for Customer Service Insights lets you quickly connect to your e
    AI for Customer Service Insights configures the workspace to use the environment you selected and displays the environment's customer service data in the KPI Summary dashboard.
 
    > [!div class="mx-imgBorder"]
-   > ![KPI Summary dashboard](media/ai-csi-qs-kpi.PNG)
+   > ![KPI Summary dashboard](media/ai-csi-qs-kpi.png)
 
 You can gain a variety of insights from the AI for Customer Service Insights dashboards. For example, AI Insights charts help you identify support cases that have the most impact on your system.
 
@@ -51,8 +51,8 @@ For more information and examples of how to use the AI for Customer Service Insi
 For details on the AI for Customer Service Insights dashboards, see the following topics:
 
 * [KPI summary dashboard](dashboard-kpi-summary.md)
-* [Incoming cases dashboard](dashboard-incoming-cases.md)
-* [Case resolution dashboard](dashboard-case-resolutions.md)
+* [New cases dashboard](dashboard-incoming-cases.md)
+* [Resolutions dashboard](dashboard-case-resolutions.md)
 * [Customer satisfaction dashboard](dashboard-CSAT.md)
 * [Topic details dashboard](dashboard-topic-details.md)
 
