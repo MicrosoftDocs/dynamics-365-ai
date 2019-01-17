@@ -1,6 +1,6 @@
 ---
 title: "Customer satisfaction rate dashboard"
-description: "Learn about the AI for Customer Service Virtual Agent Customer satisfaction dashboard."
+description: "Learn about the Dynamics 365 Customer Service Virtual Agent Customer satisfaction dashboard."
 keywords: ""
 ms\.date: 1/14/2019
 ms.service:
