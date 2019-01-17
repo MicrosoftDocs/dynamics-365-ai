@@ -1,6 +1,6 @@
 ---
 title: "Work with the Test Bot"
-description: "Learn how to work with the AI for Customer Service Virtual Agent Test Bot."
+description: "Learn how to work with the Dynamics 365 Customer Service Virtual Agent Test Bot."
 keywords: ""
 ms.date: 1/14/2019
 ms.service:

@@ -1,6 +1,6 @@
 ---
 title: "Connect to your customer service data"
-description: "Learn how to connect to your customer service data in AI for Customer Service Virtual Agent."
+description: "Learn how to connect to your customer service data in Dynamics 365 Customer Service Virtual Agent."
 keywords: ""
 ms\.date: 1/7/2019
 ms.service:
@@ -43,4 +43,4 @@ The Virtual Agent Designer lets you quickly connect to your existing Dynamics 36
    > [!div class="mx-imgBorder"]
    > ![Choose environment](media/how-to-connect-data-4.PNG)
 
-AI for Customer Service Virtual Agent configures the workspace to use the environment you selected.
+Dynamics 365 Customer Service Virtual Agent configures the workspace to use the environment you selected.

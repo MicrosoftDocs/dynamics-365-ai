@@ -124,7 +124,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 ## To create a virtual agent that invokes a flow
 
-1. Log in to the AI for Customer Service Virtual Agent portal [https://bots.ppe.customercareintelligence.net/#/](https://bots.ppe.customercareintelligence.net/#/), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
+1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://bots.ppe.customercareintelligence.net/#/](https://bots.ppe.customercareintelligence.net/#/), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
 
    > [!div class="mx-imgBorder"]
    > ![Create virtual agent](media/how-to-flow-14.PNG)
