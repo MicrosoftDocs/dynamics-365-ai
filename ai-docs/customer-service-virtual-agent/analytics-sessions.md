@@ -1,6 +1,6 @@
 ---
 title: "Sessions page"
-description: "Learn about the AI for Customer Service Virtual Agent Sessions page."
+description: "Learn about the Dynamics 365 Customer Service Virtual Agent Sessions page."
 keywords: ""
 ms\.date: 12/5/2018
 ms.service:

@@ -1,6 +1,6 @@
 ---
 title: "Engagement dashboard"
-description: "Learn about the AI for Customer Service Virtual Agent Engagement dashboard."
+description: "Learn about the Dynamics 365 Customer Service Virtual Agent Engagement dashboard."
 keywords: ""
 ms.date: 1/14/2019
 ms.service:

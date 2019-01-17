@@ -1,6 +1,6 @@
 ---
 title: "Summary dashboard"
-description: "Learn about the AI for Customer Service Virtual Agent Summary dashboard."
+description: "Learn about the Dynamics 365 Customer Service Virtual Agent Summary dashboard."
 keywords: ""
 ms\.date: 1/14/2019
 ms.service:
@@ -19,7 +19,7 @@ manager: shellyha
 
 The Summary dashboard gives you a broad overview of your virtual agent's performance. It uses artificial intelligence (AI) technology to show you which topics are having the greatest impact on support case escalation rate, abandon rate, and resolution rate.
 
-The Summary dashboard includes a variety of charts with graphical views of your virtual agent's key performance indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic. 
+The Summary dashboard includes a variety of charts with graphical views of your virtual agent's key performance indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic.
 
 <!--note from editor: "Engagement rate drivers" bullet item and link has no corresponding section. -->
 

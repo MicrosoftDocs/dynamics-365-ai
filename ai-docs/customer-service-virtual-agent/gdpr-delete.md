@@ -1,6 +1,6 @@
 ---
-title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service Virtual Agent"
-description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service Virtual Agent."
+title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Virtual Agent"
+description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Virtual Agent."
 keywords: ""
 ms\.date: 1/7/2019
 ms.service:
@@ -12,13 +12,13 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR data subject delete requests for Dynamics 365 AI for Customer Service Virtual Agent
+# Responding to GDPR data subject delete requests for Dynamics 365 Customer Service Virtual Agent
 
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs except audit log information.
 
 ## Manage delete requests
 
-Dynamics 365 AI for Customer Service Virtual Agent offers the following experiences to delete personal data for a specific user:
+Dynamics 365 Customer Service Virtual Agent offers the following experiences to delete personal data for a specific user:
 
 * [Virtual agent chat logs](#virtual-agent-chat-logs)
 * [Case data connection settings](#case-data-connection-settings)
@@ -38,7 +38,7 @@ Case data connection settings are deleted when the bot is deleted.
 
 ### Delete Virtual Agent Designer bot content
 
-Follow these steps to delete an AI for Customer Service Virtual Agent bot:
+Follow these steps to delete a virtual agent:
 
 1. Open the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
