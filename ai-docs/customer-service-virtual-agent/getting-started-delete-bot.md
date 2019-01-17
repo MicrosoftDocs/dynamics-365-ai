@@ -2,7 +2,7 @@
 title: "Deleting your virtual agent bot"
 description: "Learn how to delete a Virtual Agent Designer virtual agent bot."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,12 +18,12 @@ If you want to remove your virtual agent bot from the Virtual Agent Designer env
 
 ## To delete a virtual agent bot
 
-1. Select the **Settings** button on the Virtual Agent Designer title bar and then select **General settings** to display the General pane of the Settings window.
+1. Select the **Settings** button on the Virtual Agent Designer title bar, and then select **General settings** to display the General pane of the Settings window.
 
    > [!div class="mx-imgBorder"]
    > ![Display General pane](media/delete-bot.PNG)
 
-2. In the Delete bot section, click **Delete bot**.
+2. In the Delete bot section, select **Delete bot**.
 
    > [!div class="mx-imgBorder"]
    > ![Delete bot](media/delete-bot-2.PNG)

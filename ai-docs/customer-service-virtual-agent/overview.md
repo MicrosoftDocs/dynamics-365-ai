@@ -2,7 +2,7 @@
 title: "AI for Customer Service Virtual Agent overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service Virtual Agent."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,11 +14,11 @@ manager: shellyha
 
 # AI for Customer Service Virtual Agent overview
 
-Dynamics 365 AI for Customer Service Virtual Agent enables any customer service manager to create a powerful custom virtual agent using the Virtual Agent Designer. The Virtual Agent Designer provides an easy, code-free graphical interface and templates for creating a virtual agent without the need for artificial intelligence experts or teams of developers. The virtual agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
+Dynamics 365 AI for Customer Service Virtual Agent enables any customer-service manager to create a powerful custom virtual agent using the Virtual Agent Designer. The Virtual Agent Designer provides an easy, code-free graphical interface and templates for creating a virtual agent without the need for artificial intelligence experts or teams of developers. The virtual agent can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
 
 Key features include:
 
-* **An easy-to-use graphical interface** – Using a simple, no-code graphical interface, customer service managers and subject matter experts can easily build, manage, and maintain their own virtual agents. No artificial intelligence expertise, coding skills, or extensive engineering effort are required. As new topics from customers emerge over time, a subject matter expert can update the virtual agent in minutes, without writing any code.
+* **An easy-to-use graphical interface** – Using a simple, no-code graphical interface, customer service managers and subject matter experts can easily build, manage, and maintain their own virtual agents. No artificial intelligence expertise, coding skills, or extensive engineering efforts are required. As new topics from customers emerge over time, a subject matter expert can update the virtual agent in minutes, without writing any code.
 
 * **AI-driven conversations** – Customer service managers can create virtual agent solutions to support topics in the form of interactive multi-turn conversations. For complex topics that can have multiple solutions, customer service managers only need to specify the range of solutions and the conditions under which a solution applies. The AI for Customer Service Virtual Agent's artificial intelligence technology dynamically generates the appropriate multi-turn conversation to help provide a solution for the customer.
 

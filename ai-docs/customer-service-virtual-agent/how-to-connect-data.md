@@ -14,11 +14,11 @@ manager: shellyha
 
 # Connect to your customer service data
 
-The Virtual Agent Designer lets you quickly connect to your existing Dynamics 365 customer service data to give you insights that can help you improve your virtual agent. The Virtual Agent Designer uses artificial intelligence technology to group related support case titles as topics, and then give you suggested trigger phrases that you can use when you are designing your virtual agent.
+The Virtual Agent Designer lets you quickly connect to your existing Dynamics 365 customer service data to give you insights that can help you improve your virtual agent. The Virtual Agent Designer uses artificial intelligence technology to group related support case titles as topics and then give you suggested trigger phrases that you can use when you are designing your virtual agent.
 
 1. Display the **Connect your data** screen, using either the Suggested tab of the Topics page or the **Settings** button on the Virtual Agent title bar.
 
-    To use the Suggested tab of the Topics page, click **Connect data** to display the **Connect your data** screen.
+    To use the Suggested tab of the Topics page, select **Connect data** to display the **Connect your data** screen.
 
    > [!div class="mx-imgBorder"]
    > ![Connect Suggested tab](media/how-to-connect-data-1-1.PNG)
@@ -28,7 +28,7 @@ The Virtual Agent Designer lets you quickly connect to your existing Dynamics 36
    > [!div class="mx-imgBorder"]
    > ![Display current connections](media/how-to-connect-data-1.PNG)
 
-    Then click **Create new** to display the **Connect your data** screen.
+    Then select **Create new** to display the **Connect your data** screen.
 
    > [!div class="mx-imgBorder"]
    > ![Create new](media/how-to-connect-data-2.PNG)
@@ -38,7 +38,7 @@ The Virtual Agent Designer lets you quickly connect to your existing Dynamics 36
    > [!div class="mx-imgBorder"]
    > ![Select Dynamics 365](media/how-to-connect-data-3.PNG)
 
-3. On the **Choose an environment** screen, click the Dynamics 365 environment that contains the customer service data that you want to use.
+3. On the **Choose an environment** screen, select the Dynamics 365 environment that contains the customer service data that you want to use.
 
    > [!div class="mx-imgBorder"]
    > ![Choose environment](media/how-to-connect-data-4.PNG)

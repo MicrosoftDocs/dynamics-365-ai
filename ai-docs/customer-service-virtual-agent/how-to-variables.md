@@ -2,7 +2,7 @@
 title: "Work with variables"
 description: "Learn how to work with AI for Customer Service Virtual Agent variables."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -27,22 +27,22 @@ Virtual Agent Designer supports four types of variables:
 
 ## To create a variable
 
-1. In Virtual Agent Designer conversation editor, click the ellipses in the upper right corner of the **User responses** node where you want to add the variable.
+1. In the Virtual Agent Designer conversation editor, select the ellipses in the upper-right corner of the **User responses** node where you want to add the variable.
 
    > [!div class="mx-imgBorder"]
    > ![Click ellipses](media/how-to-variables-1.png)
 
-2. Click **Properties** to open the Properties pane.
+2. Select **Properties** to open the Properties pane.
 
    > [!div class="mx-imgBorder"]
    > ![Open properties pane](media/how-to-variables-2.png)
 
-3. Click **Name variable** to open the **Create variable** window.
+3. Select **Name variable** to open the **Create variable** window.
 
    > [!div class="mx-imgBorder"]
    > ![Create variable](media/how-to-variables-3.png)
 
-4. Specify a name and type for the variable, and then click **Save**.
+4. Specify a name and type for the variable, and then select **Save**.
 
    > [!div class="mx-imgBorder"]
    > ![Save variable](media/how-to-variables-4.png)

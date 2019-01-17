@@ -2,7 +2,7 @@
 title: "Work with the Test Bot"
 description: "Learn how to work with the AI for Customer Service Virtual Agent Test Bot."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -33,7 +33,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
    > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/create-topic-22.png)
 
-3. To restart the conversation, click **Start over with latest content** at the top of the Test Bot pane.
+3. To restart the conversation, select **Start over with latest content** at the top of the Test Bot pane.
 
    > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/create-topic-23.png)
@@ -44,12 +44,12 @@ As you fine-tune your virtual agent, it can be useful to enable tracing to take 
 
 ## To trace through the topic's conversation path
 
-1. In the upper left of the Test Bot, click the **Conversation Tracing** toggle button to enable tracing.
+1. In the upper-left corner of the Test Bot, select the **Conversation Tracing** toggle button to enable tracing.
 
    > [!div class="mx-imgBorder"]
    > ![Enable tracing](media/how-to-test-bot-1.png)
 
-2. Follow the steps above to [test your topic in the Test Bot](#to-test-a-topic-in-the-test-bot).
+2. Follow the steps discussed earlier to [test your topic in the Test Bot](#to-test-a-topic-in-the-test-bot).
 
 3. As you move through the conversation in the Test Bot, the conversation editor highlights the current place in the conversation path.
 
@@ -61,7 +61,7 @@ As you fine-tune your virtual agent, it can be useful to enable tracing to take 
    > [!div class="mx-imgBorder"]
    > ![Conversation editor place](media/how-to-test-bot-3.png)
 
-4. To navigate to an earlier place in the conversation path, click a bot or user response in the Test Bot.
+4. To navigate to an earlier place in the conversation path, select a bot or user response in the Test Bot.
 
    > [!div class="mx-imgBorder"]
    > ![Earlier place test bot](media/how-to-test-bot-4.png)

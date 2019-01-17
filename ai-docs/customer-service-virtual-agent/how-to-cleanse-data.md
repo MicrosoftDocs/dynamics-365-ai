@@ -2,7 +2,7 @@
 title: "Improve data quality by cleansing support case titles"
 description: "Learn how to improve data quality by cleansing support case titles in Customer Service Virtual Agent."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -30,7 +30,7 @@ For more information about topic suggestions, see [Use topic suggestions to impr
    > [!div class="mx-imgBorder"]
    > ![Case Titles pane](media/how-to-cleanse-data-2.PNG)
 
-3. Specify any delimiter characters you use to separate tags from each other or from the issue summary, and whether you place tags before or after the summary, or both. Then click **Save**.
+3. Specify any delimiter characters you use to separate tags from each other or from the issue summary, and whether you place tags before or after the summary, or both. Then select **Save**.
 
    > [!div class="mx-imgBorder"]
    > ![Case Titles toggle](media/how-to-cleanse-data-3.PNG)

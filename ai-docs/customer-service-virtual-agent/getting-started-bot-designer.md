@@ -2,7 +2,7 @@
 title: "Working with the Virtual Agent Designer"
 description: "Learn how to work with the Virtual Agent Designer."
 keywords: ""
-ms\.date: 1/7/2019
+ms\.date: 1/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,7 +16,7 @@ manager: shellyha
 
 The Dynamics 365 AI for Customer Service Virtual Agent Designer provides a variety of tools to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a support channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
 
-The Virtual Agent Designer is composed of several pages designed for different tasks. You can navigate to the different pages by clicking in the navigation pane.
+The Virtual Agent Designer is composed of several pages designed for different tasks. You can access the pages through the navigation pane.
 
    > [!div class="mx-imgBorder"]
    > ![Navigation pane](media/bot-designer-1.PNG)
@@ -26,7 +26,7 @@ The Virtual Agent Designer is composed of several pages designed for different t
    > [!div class="mx-imgBorder"]
    > ![Home page](media/create-bot-3.PNG)
 
-The Home page provides links to the Topics, Deploy, and Analytics pages, along with an **Edit Greeting Topic** button that lets you revise the built-in virtual agent greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent Designer support community and the Virtual Agent idea forum.
+The Home page provides links to the Topics, Deploy, and Analytics pages.  An **Edit Greeting Topic** button lets you revise the built-in virtual agent greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent Designer support community and the Virtual Agent idea forum.
 
 ## Topics page
 
@@ -57,18 +57,18 @@ The Deploy page is where you deploy your completed virtual agent to a demo websi
 
 As part of the deployment to the demo website, you can specify a custom welcome message and any suggested conversation starters to help team members get started testing your virtual agent.
 
-If you choose to deploy your virtual agent to your own custom website, you will be able to copy and share the Virtual Agent code, which needs to be added to your custom website.
+If you choose to deploy your virtual agent to your own custom website, you can copy and share the Virtual Agent code, which needs to be added to your custom website.
 
 For more information about using the Deploy page to deploy your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 
 ## Test Bot
 
-The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by clicking the arrow on the right edge of the Test Bot pane.
+The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by selecting the arrow on the right edge of the Test Bot pane.
 
    > [!div class="mx-imgBorder"]
    > ![Hide Test Bot](media/bot-designer-5-2.PNG)
 
-If the Test Bot is hidden, you can display it by clicking the arrow on the right edge of the navigation pane.
+If the Test Bot is hidden, you can display it by selecting the arrow on the right edge of the navigation pane.
 
    > [!div class="mx-imgBorder"]
    > ![Display Test Bot](media/bot-designer-5-3.PNG)
