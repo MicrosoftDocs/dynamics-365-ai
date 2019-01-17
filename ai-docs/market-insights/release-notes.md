@@ -29,17 +29,6 @@ Ask questions and get help from experts and the product team in the [AI for Mark
 
 If you can think of ways how we can further improve the product and service, please [add your idea to the ideas list](https://experience.dynamics.com/ideas/list/?forum=e6202680-69d9-e811-a96b-000d3a1be7ad). 
 
-## Public Preview update 3 (January 30, 2019)
-
-###  AI assisted query builder
-
-To get relevant market insights, it is extremely important to ensure that search rules are set up correctly to provide insights on brands, products, and topics that are very relevant and precise to the user’s needs. Currently, it can be difficult for users to get the configuration of search rules correct on the first run because it typically takes time to refine search rules to the level of precision required. 
-
-As a result, the relevance and cost of generating insights heavily depend on cutting out the noise and getting your search set up right.
-
-Our AI-powered assisted query builder solves this core problem. During the first run experience, you can start typing a search term and will be presented with suggested terms. By providing a highly relevant list of brands, products, and entities to select, the assisted query builder helps to reduce the cognitive load of search setup so that you spend less time setting up searches and more time acting on the insights.
-
-![AI assisted query builder suggesting search terms](media/assisted-query-suggestions.png)
 
 ## Public Preview update 2 (December 19, 2018)
 
