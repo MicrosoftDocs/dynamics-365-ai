@@ -229,7 +229,6 @@ Depending on the social network that media is posted to, different limitations i
 
  If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages, including attachments, are visible to other users of the same [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Market Insights](data-retention.md)  
 
-<a name="dmTwitter"></a>   
 #### Send a direct message on Twitter from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
 
 1. Go to **Social Center**.  
@@ -249,7 +248,6 @@ Depending on the social network that media is posted to, different limitations i
 
 5. To post on behalf of the selected social profile, select **Send Direct Message**.  
 
-<a name="dmFacebook"></a>   
 #### Send a direct message on Facebook from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
 
 1. Go to **Social Center**.  
