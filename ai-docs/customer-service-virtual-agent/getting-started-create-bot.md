@@ -26,7 +26,7 @@ These industry templates can also be useful as a model for building your own con
 
 1. Open the Virtual Agent Designer in your browser to display the **Create a new bot** screen.
 
-    Dynamics 365 Customer Service Virtual Agent supports Internet Explorer 11 and Chrome browsers.
+    Dynamics 365 Customer Service Virtual Agent supports Chrome (preferred) and Edge browsers
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot screen](media/create-bot-1.PNG)
