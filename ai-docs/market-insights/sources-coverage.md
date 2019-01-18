@@ -88,6 +88,38 @@ Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtu
 
 Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
 
+## Limitations for data acquisition
+
+Some of the supported sources have restrictions on the age, type, or style of posts that we can acquire. These limitations are listed below.
+
+**Facebook pages**
+- Comments on Facebook posts aren't acquired if the parent post was published more than 7 days ago.
+- Comments or replies to comments aren't acquired. Only comments to original posts get acquired.  
+- We can't acquire posts and comments for events, groups, or other similar entities on Facebook.
+- We can't search for keywords on Facebook.
+- Dark posts and sponsored posts aren't supported and don't get acquired.
+ 
+**Twitter**
+- If an author adds content to a Retweet, they won't show correctly. However, they are being acquired properly.
+
+**YouTube**
+- Comments on videos aren't acquired if the video was published more than 30 days ago.
+- Comments on videos are acquired with some delay if the video was published more than a day ago.
+- Searching very uncommon words or phrases might yield zero results because the search is based on a dictionary of words.
+
+**LinkedIn** 
+- Posts and comments on LinkedIn pages with low volume are acquired with a delay due to rate limits. The system prioritizes LinkedIn pages with a high volume for data acquisition which leads to a less delay.
+
+**Custom sources**
+- RSS feeds exist in various flavors and there's no strict standard. The system might ignore posts that contain unknown fields or miss required fields such as the author of a post.
+
+**Disqus**
+- We receive some posts without a URL. These posts will be discarded by the system.
+
+- **General limitations**
+- Chronological ordering of posts and comments in the post list isn't guaranteed.
+- Language detection differs across sources. Posts in languages that we don't support aren't acquired. 
+
 ## Privacy notice
 
 [!include[cognitive services privacy token](../includes/cc-privacy-market-insights-ms-cognitive-services.md)]
