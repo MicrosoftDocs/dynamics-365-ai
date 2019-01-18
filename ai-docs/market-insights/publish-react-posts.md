@@ -210,9 +210,18 @@ Share a link to a public post along with your own comments as a new post directl
 
 6. Optionally, you can add a photo to the post.  
 
-    Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add media to posts](publish-react-posts.md#addMedia)  
-
 7. To publish the post on the corresponding social network, select **Send**.  
+
+### Add media to posts
+  
+[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] lets you add a single media file to posts while replying or commenting from within the application. You can't add media to private messages. 
+
+Supported file types: .png, .jpg, .gif  
+
+Depending on the social network that media is posted to, different limitations in file sizes apply on [Twitter](https://developer.twitter.com/en/docs/media/upload-media/overview) and on [Facebook](https://www.facebook.com/help/167931376599294).  
+
+> [!NOTE]
+>  When you use a large file, it can take a long time to upload. Also, timeouts can happen when the upload takes too long due to limited bandwidth. If this happens, try resizing the image to reduce the file size, or try again with more bandwidth.
 
 <a name="DMs"></a>   
 ### Engage in private conversations  
@@ -259,21 +268,6 @@ Share a link to a public post along with your own comments as a new post directl
 4. Type your message in the text entry field. [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will show a counter so you can optimize the length of your content.  
 
 5. Select **Send Private Message** to post on behalf of the selected social profile.  
-
-<a name="addMedia"></a>   
-### Add media to posts  
- [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] lets you add a single photo to posts while publishing from within the application.  
-
- Supported file types: .png, .jpg, .gif  
-
- Depending on the social network that media is posted to, different limitations in file sizes apply.  
-
- Read more about the [maximum file size on Twitter](https://dev.twitter.com/rest/public/uploading-media).  
-
- Read more about the [maximum file size on Facebook](https://www.facebook.com/help/167931376599294).  
-
-> [!NOTE]
->  When you use a large file, it can take a long time to upload. Also, timeouts can happen when the upload takes too long due to limited bandwidth.  If this happens, try resizing the image to reduce the file size, or try again with more bandwidth.  
 
 ### See Also  
  [Engage on social networks](engage-on-social-networks.md)   
