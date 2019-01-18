@@ -1,6 +1,6 @@
 ---
-title: "Case resolution dashboard​"
-description: "Learn about the customer service insights available on the Case resolution dashboard."
+title: "Resolution dashboard​"
+description: "Learn about the customer service insights available on the Resolution dashboard."
 keywords: ""
 ms\.date: 10/31/2018
 ms.service:
@@ -12,22 +12,22 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Case resolution dashboard​
+# Resolutions dashboard​
 
 > [!div class="mx-imgBorder"]
-> ![Case resolution dashboard](media/ai-csi-case-resolutions-dash.PNG)
+> ![Resolutions dashboard](media/ai-csi-resolutions-dash.PNG)
 
-The Case resolution dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
+The Resolutions dashboard gives you an overview of your customer service system's case resolution performance, including using artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
-The Case resolution dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
+The Resolutions dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list, or scroll down to the chart's section below.
 
 * [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
-* [New cases versus average resolve time](#new-cases-versus-average-resolve-time-chart)
+* [New cases versus average resolution time](#new-cases-versus-average-resolution-time-chart)
 * [Agents handling most escalations](#agents-handling-most-escalations-chart)
 * [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
-* [Top resolution time impactors (AI Insights)](#top-resolution-time-impactors-chart)
+* [Resolution time drivers (AI Insights)](#resolution-time-drivers-chart)
 
-The *Top resolution time impactors* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
+The *Resolution time drivers* chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
@@ -44,12 +44,12 @@ Description | Details
 ----------- | -------
 Agents with longest resolve time | *Resolved case resolution time breakdown by agent and case priority*
 
-## New cases versus average resolve time chart
+## New cases versus average resolution time chart
 
 > [!div class="mx-imgBorder"]
-> ![Incoming cases versus average resolve time chart](media/ai-csi-incoming-vs-resolve-time.PNG)
+> ![New cases versus average resolution time chart](media/ai-csi-incoming-vs-resolution-time.PNG)
 
-The incoming cases versus average resolve time chart shows the daily trend in the specified time period in the number of incoming support cases and the average resolution time, in minutes.
+The new cases versus average resolution time chart shows the daily trend in the specified time period in the number of new support cases and the average resolution time, in minutes.
 
 Description | Details
 ----------- | -------
@@ -79,18 +79,18 @@ Description | Details
 New escalations | *Daily number of escalated cases*
 Resolved escalations | *Daily number of escalated cases that are resolved*
 
-## Top resolution time impactors chart
+## Resolution time drivers chart
 
 > [!div class="mx-imgBorder"]
-> ![Top resolution time impactors](media/ai-csi-resolution-time-impactors.PNG)
+> ![Resolution time drivers](media/ai-csi-resolution-drivers.PNG)
 
-The top resolution time impactors chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period.
+The resolution time drivers chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of resolution time over the specified time period.
 
 Description | Details
 ----------- | -------
 Topic | *Artificial intelligence clustering of cases based on language understanding applied to case titles*
 Volume | *The total resolved cases associated with this topic divided by total resolved cases*
-Average resolve time | *The average resolution time of resolved cases within the specified time period*
+Average resolution time | *The average resolution time of resolved cases within the specified time period*
 Impact | 1 – (*Average resolution time not including the current topic divided by overall average resolution time for all topics*)
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case resolution time for the top resolve time topics in red will have the greatest impact on improving overall system performance.
