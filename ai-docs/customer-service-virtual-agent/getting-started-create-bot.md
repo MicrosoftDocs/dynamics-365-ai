@@ -31,7 +31,7 @@ These industry templates can also be useful as a model for building your own con
    > [!div class="mx-imgBorder"]
    > ![Create a new bot screen](media/create-bot-1.PNG)
 
-2. Select the template you want to use, and specify a name and region for the bot. Optionally, you can specify a business name. Then select **Create**.
+2. Select the template you want to use, and specify a name and region for the bot. Then select **Create**.
 
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
