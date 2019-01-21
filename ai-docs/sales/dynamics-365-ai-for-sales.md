@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Get insights on opportunities, activities, leads, and interactions of customers
 
-Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online), version 9.1.0<br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0<br>
 
 Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you can track customer related activities and address the questions such as:
 - What opportunities should have priority?

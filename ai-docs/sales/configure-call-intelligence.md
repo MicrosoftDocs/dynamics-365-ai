@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Configure Call intelligence
 
-Applies to Dynamics 365 for Sales, version 9.1.0 <br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0 <br>
 
 Call intelligence in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 

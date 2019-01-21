@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Preview: Analyze business performance
 
-Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0 <br>
 
 As a sales manager, it is important for you to understand how your business is doing at each level of the sales cycle such as lead capture, account creation, contact setup, opportunity management, product catalog, and quote management. Using the Business section, you will get detailed information on all phases of the sales cycle to help you understand how your team is performing and to plan your day-to-day activities. 
 

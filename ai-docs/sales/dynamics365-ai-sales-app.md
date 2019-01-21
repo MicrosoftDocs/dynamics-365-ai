@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Preview: Unlock sales potential with Dynamics 365 AI for Sales
 
-Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0 <br>
 
 [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
