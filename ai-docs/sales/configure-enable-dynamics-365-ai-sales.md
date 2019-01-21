@@ -25,10 +25,10 @@ topic-status: Drafting
 <!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
 > [!IMPORTANT]
-> - Dynamics 365 AI for Sales capabilities for seller requires [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) 9.1.0.35 and above. Support for higher versions will be available in our future releases.
+> - Dynamics 365 AI for Sales capabilities for seller requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online) 9.1.0.35 and above. Support for higher versions will be available in our future releases.
 > - The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] seller features are available only in North American (NAM) regions.
 
-Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features helps the user to effectively use the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales contains the following features:
+Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features helps the user to effectively use the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] contains the following features:
 
 - Relationship analytics
 - Predictive lead scoring
@@ -40,20 +40,20 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 
 ## GDPR
 
-To know about [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
+To know about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
 
 ## Prerequisites
 
-Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales feature:
+Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] feature:
 
-- You must purchase **Dynamics 365 AI for Sales** license to use Dynamics 365 AI for sales features.
-- You must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
+- You must purchase **Dynamics 365 AI for Sales** license to use [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
+- You must be a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
-- If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and write back from LinkedIn Sales navigator is enabled.
+- If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write back from LinkedIn Sales navigator is enabled.
 
-## Enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features
+## Enable Dynamics 365 AI for Sales features
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features are not available by default. You must enable these features by selecting an organization. Follow these steps:
+[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features are not available by default. You must enable these features by selecting an organization. Follow these steps:
 
 1. On the **AI setup** page, select **Get it now**.<br>
    ![Get Dynamics 365 AI for sales](media/d365-ai-sales-getitnow.png "Get Dynamics 365 AI for sales")<br>
@@ -62,7 +62,7 @@ Review the following requirements before you enable and configure [!INCLUDE[pn_d
     > [!div class="mx-imgBorder"]
     > ![Accept sales insights addon terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions")
    
-    Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features.
+    Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
     > [!div class="mx-imgBorder"]
     > ![Dynamics 365 AI for sales is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 AI for sales is enabled")
 
@@ -86,7 +86,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 
     |**Parameter**|**Description**|
     |-|-|
-    |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Note: This option is not available if LinkedIn is not installed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
+    |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br> **Note**: This option is not available if LinkedIn is not installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
     |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
     |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
     > [!div class="mx-imgBorder"]
@@ -183,10 +183,10 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
 
 ## Configure Notes analysis
 
-To help users with intelligent auto suggestions when they enter notes regarding a recent meeting or discussion with customer in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], enable Notes analysis.
+To help users with intelligent auto suggestions when they enter notes regarding a recent meeting or discussion with customer in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], enable Notes analysis.
 
 1. Go to **Settings** > **Setup AI**.<br>
-2. After you enable [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] AI for Sales features, select the toggle button to enable **Notes analysis**.
+2. After you enable [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features, select the toggle button to enable **Notes analysis**.
     > [!div class="mx-imgBorder"]
     > ![Enable notes analysis](media/notesanalysis-enable.png "Enable notes analysis")
 
@@ -240,7 +240,7 @@ Who knows whom feature is available under Connection insights configuration page
 5. Select **Save**.<br>
    The Who Knows Whom is configured and ready to use in your organization.<br>
 
-After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect the communication and collaboration details of users from exchange server.<br>
+After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to collect the communication and collaboration details of users from exchange server.<br>
 > [!NOTE]
 > Contact your Office 365 administrator to enable Dynamics 365 AI for Sales connection graph if you do not have sufficient privileges to enable. 
  

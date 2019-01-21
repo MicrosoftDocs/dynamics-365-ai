@@ -22,11 +22,11 @@ topic-status: Drafting
 
 # Preview: Unlock sales potential with Dynamics 365 AI for Sales
 
-Applies to Dynamics 365 (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online), version 9.1.0 <br>
 
 [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-As a sales manager, you must lead your business to success not only by selling products but also by helping your sales team win deals to generate revenue. You must ensure that each sales rep is brought onboard and kept well informed, supported, and motivated. [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] provides solutions that use analytics and data science to gather data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and Microsoft Office. It then provides you with this information and insights to intelligently manage your team, proactively coach sales reps, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides you with information through key performance indicators (KPIs) for pipeline and deals. 
+As a sales manager, you must lead your business to success not only by selling products but also by helping your sales team win deals to generate revenue. You must ensure that each sales rep is brought onboard and kept well informed, supported, and motivated. [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] provides solutions that use analytics and data science to gather data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and Microsoft Office. It then provides you with this information and insights to intelligently manage your team, proactively coach sales reps, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides you with information through key performance indicators (KPIs) for pipeline and deals. 
 
 > [!IMPORTANT]
 > The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is currently available only in the North America (NAM) region.
@@ -63,9 +63,9 @@ The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is
 You must sign in to the application to view the KPIs for pipeline and deals. 
 
 > [!IMPORTANT]
-> Five users can sign in and use the app for an organization. If more users want to use the app, a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system administrator must sign in to it.
+> Five users can sign in and use the app for an organization. If more users want to use the app, a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] system administrator must sign in to it.
 
-Let’s look at an example: Kevin is a sales manager. When he signs in to the app for the first time, it prompts him to select his [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. This helps to compute and consolidate the necessary insights about the team for Kevin on the home page. If he has previously signed in and used the app, he can access the home page directly. 
+Let’s look at an example: Kevin is a sales manager. When he signs in to the app for the first time, it prompts him to select his [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] organization. This helps to compute and consolidate the necessary insights about the team for Kevin on the home page. If he has previously signed in and used the app, he can access the home page directly. 
 
 > [!NOTE]
 > When you sign in for the first time, the application takes several minutes to gather the data and display visuals for you. Also, a status message is displayed to update you on progress.

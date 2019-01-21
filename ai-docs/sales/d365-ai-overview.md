@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Preview: View overall sales insights
 
-Applies to Dynamics 365 (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online), version 9.1.0 <br>
 
 When you sign in to the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] application, you'll see the home page, which provides high-level information on the forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news. This tells you:
 
@@ -41,7 +41,7 @@ Using this information, you can quickly take action when necessary and drill dee
 
 ## Q&A 
 
-Sometimes you want quick answers from your data without searching through reports in the sections. The Dynamics 365 AI for Sales app provides a Q&A feature so you can ask questions using natural language. Use **Q&A** to explore your data using intuitive, natural language capabilities and receive answers in the form of charts and graphs. For example, when you type "what were total sales last year," the application displays charts and graphs that contain details of your sales last year. Q&A is different from a search engine—Q&A only provides results about the data in your reports.
+Sometimes you want quick answers from your data without searching through reports in the sections. The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides a Q&A feature so you can ask questions using natural language. Use **Q&A** to explore your data using intuitive, natural language capabilities and receive answers in the form of charts and graphs. For example, when you type "what were total sales last year," the application displays charts and graphs that contain details of your sales last year. Q&A is different from a search engine—Q&A only provides results about the data in your reports.
 
 Q&A displays as follows on the home page:
 

@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Get insights on opportunities, activities, leads, and interactions of customers
 
-Applies to Dynamics 365 (online), version 9.1.0<br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] (online), version 9.1.0<br>
 
 Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you can track customer related activities and address the questions such as:
 - What opportunities should have priority?
@@ -35,7 +35,7 @@ Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you
 Sales features.
 
 AI for sales consists of the following features:
-- **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
+- **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
 - **Predictive lead scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize leads through scores](work-predictive-lead-scoring.md) 
 - **Predictive opportunity scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
 - **Notes analysis:** Monitors notes that you enter regarding a recent meeting or discussion with your customer to provide intelligent suggestions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How notes analysis assists you with suggestion](notes-analysis.md)

@@ -22,9 +22,9 @@ topic-status: Drafting
 
 # Use Relationship analytics to gather KPIs 
 
-Applies to Dynamics 365 (online), version 9.1.0<br>
+Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] online, version 9.1.0<br>
 
-We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
+We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
 
  Relationship analytics help sales professionals and managers answer questions such as:  
 
@@ -118,7 +118,7 @@ You can view complete relationship analytics for an individual record, including
 
 ## How relationship analytics values are calculated  
 
-Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.  
+Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.  
 
  ![How relationship analytics are calculated](media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")  
 
@@ -135,10 +135,10 @@ This table shows how the system finds contacts that have an interest in each typ
 
 |             | Internal contacts  |  External contacts |
 |-------------|--------------------|--------------------|
-|   Account   | -   Any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user.|-   The **Primary Contact** for the account.<br />-   All contacts in the account's **Contacts** list. |
+|   Account   | -   Any [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] user.|-   The **Primary Contact** for the account.<br />-   All contacts in the account's **Contacts** list. |
 | Opportunity | -   The **Owner** of the opportunity record.<br />-   All users in the opportunity's **Sales Team** list. | -   The customer **Contact** listed for the opportunity.<br />-   All contacts in the opportunity's **Stakeholders** list.<br />-   The primary contact for the related **Account** record. |
 |    Lead     | -   The **Owner** of the lead record. | -   Contact information in the lead's **Contact** section.<br />-   All contacts in the lead's **Stakeholders** list. |
-|   Contact   | -   Any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user. | -   Contact information in the contact's **Contact** section.|
+|   Contact   | -   Any [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] user. | -   Contact information in the contact's **Contact** section.|
 
 <a name="Calc_FindActivities"></a>   
 
