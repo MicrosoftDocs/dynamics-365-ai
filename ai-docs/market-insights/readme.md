@@ -75,6 +75,10 @@ In some cases, private messages and public messages from Facebook Pages and Twit
 
 ## General known issues
 
+### Can't sign up for Market Insights using Internet Explorer
+
+When using the Internet Explorer browser, you can't sign up for Market Insights. We're working on a fix for this issue and aim to have it resolved in February 2019. To sign up for the Preview, we recommend using a different browser instead. 
+
 ### Facebook video URL can expire
 
 Due to changes from Facebook, some videos are not playing anymore in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This is due to an expiration of the video URL. There is no workaround available to change the expiration. You can view the video directly from the Facebook post.
