@@ -38,15 +38,15 @@ Next we will specify steps for creating a timeline activity. At any time you can
 
 - **Step 1: Entity selection**
 Here we will choose the entity that includes our target activity or activities.
-  - First, click the **Add Entity** button:
+   - First, click the **Add Entity** button:
   
 // image 3
 
-  - Then, **choose an entity in the entities panel.** You can also search for your entity's name via the search field (highlighted below):
+   - Then, **choose an entity in the entities panel.** You can also search for your entity's name via the search field (highlighted below):
 
 // image 4
 
-  - Lastly, click the **Done** button. Upon clicking it you can notice the creation of a first row of required selections which we will complete in step two.
+   - Lastly, click the **Done** button. Upon clicking it you can notice the creation of a first row of required selections which we will complete in step two.
   
 // image 5
   
