@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Market Insights Release Notes | Microsoft Docs"
-description: "What's new in Ai for Market Insights"
+description: "What's new in  Market Insights"
 keywords: "what's new, release notes, changelog"
 ms.date: 12/19/2018
 ms.service: dynamics-365-ai
@@ -25,7 +25,7 @@ search.app:
 
 This topic describes features that are either new or changed in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-Ask questions and get help from experts and the product team in the [AI for Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights).
+Ask questions and get help from experts and the product team in the [Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights).
 
 If you can think of ways how we can further improve the product and service, please [add your idea to the ideas list](https://experience.dynamics.com/ideas/list/?forum=e6202680-69d9-e811-a96b-000d3a1be7ad). 
 
