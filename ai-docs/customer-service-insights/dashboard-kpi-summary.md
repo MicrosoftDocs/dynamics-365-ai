@@ -22,17 +22,17 @@ The KPI (key performance indicator) summary dashboard gives you a broad overview
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
 * [KPI summary charts](#kpi-summary-charts)
-* [Total case breakdown](#total-case-breakdown-chart)
+* [Case breakdown](#case-breakdown-chart)
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
 * [Case tracking](#case-tracking-chart)
 * [Unresolved cases by age](#unresolved-cases-by-age-chart)
-* [Top case volume impactors (AI Insights)](#top-case-volume-impactors-chart)
+* [Case volume drivers (AI Insights)](#case-volume-drivers-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-<!--note from editor: Sentence below mentions "Top resolve time impactors" chart but that one isn't mentioned in above list.-->
+The *Case volume drivers* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-The *Top case volume impactors* and *Top resolve time impactors* charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer-support topics that are generating the most volume and the topics that are having the most impact on case-resolution time, helping you identify areas to improve that can have the greatest impact on system performance.
+By default, the dashboard shows you key performance indicators for the past month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
 By default, the dashboard shows you key performance indicators for the last month and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select the last day, last week, or last month.
 
@@ -65,18 +65,18 @@ The case priority chart shows the percentage breakdown for the specified time pe
 
 Description | Details
 ----------- | -------
-Case priority | Total case breakdown by case priority
+Case priority | *Case breakdown by case priority*
 
-## Total case breakdown chart
+## Case breakdown chart
 
 > [!div class="mx-imgBorder"]
-> ![Total case breakdown chart](media/ai-csi-total-case-breakdown.PNG)
+> ![Case breakdown chart](media/ai-csi-case-breakdown.PNG)
 
-The total case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from earlier. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
+The case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from earlier. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
 
 Description | Details
 ----------- | -------
-Total case breakdown | Total case breakdown by rollover cases (backlog) plus new cases for the specified time period
+Case breakdown | *Case breakdown by rollover cases (backlog) plus new cases for the specified time period*
 
 ## Case channel chart
 
@@ -87,7 +87,7 @@ The case channel chart shows the breakdown in support cases for the specified ti
 
 Description | Details
 ----------- | -------
-Case channels | Total case breakdown by channel
+Case channels | *Case breakdown by channel*
 
 ## Case tracking chart
 
@@ -106,7 +106,6 @@ Resolved | The number of cases resolved each day for the specified time period
 > [!div class="mx-imgBorder"]
 > ![Unresolved cases by age chart](media/ai-csi-cases-by-age.PNG)
 
-
 <!--note from editor: (in below sentence: change "shows" to "ranks"?-->
 
 The Unresolved cases by age chart shows the relative number of support cases for the specified time period by how many days ago they were created.
@@ -115,12 +114,12 @@ Description | Details
 ----------- | -------
 Unresolved cases by age | Total unresolved cases by days unresolved
 
-## Top case volume impactors chart
+## Case volume drivers chart
 
 > [!div class="mx-imgBorder"]
-> ![Top case volume impactors chart](media/ai-csi-top-case-volume.PNG)
+> ![Case volume drivers chart](media/ai-csi-case-volume-drivers.PNG)
 
-The Top case volume impactors chart uses artificial intelligence technology to group related support cases as support topics and then display topics in order of volume over the specified time period. This chart shows both the percent of total volume and number of cases for each topic.
+The case volume drivers chart uses artificial intelligence technology to group related support cases as support topics, and then display topics in order of volume over the specified time period, showing both the percent of total volume and number of cases for each topic.
 
 Description | Details
 ----------- | -------
