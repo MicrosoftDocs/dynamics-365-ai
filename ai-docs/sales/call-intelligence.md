@@ -20,9 +20,14 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Preview feature: Analyze customer calls to improve sales
+# Preview: Analyze customer calls to improve sales
 
-Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue.  [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
 

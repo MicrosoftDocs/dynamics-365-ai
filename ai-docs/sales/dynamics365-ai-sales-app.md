@@ -22,9 +22,12 @@ topic-status: Drafting
 
 # Preview: Unlock sales potential with Dynamics 365 AI for Sales
 
-Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0 <br>
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-[!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 
 As a sales manager, you must lead your business to success not only by selling products but also by helping your sales team win deals to generate revenue. You must ensure that each sales rep is brought onboard and kept well informed, supported, and motivated. [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] provides solutions that use analytics and data science to gather data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and Microsoft Office. It then provides you with this information and insights to intelligently manage your team, proactively coach sales reps, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides you with information through key performance indicators (KPIs) for pipeline and deals. 
 

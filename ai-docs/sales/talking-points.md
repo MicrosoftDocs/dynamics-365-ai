@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Know conversation starters for your customers 
 
-Applies to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0<br>
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 As a sales representative, you interact with many customers and it can be difficult to remember details about each, such as:
 -  Latest entertainment event they attended.
