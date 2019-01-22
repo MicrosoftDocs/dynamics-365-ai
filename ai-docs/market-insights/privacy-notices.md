@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 AI for Market Insights Privacy Notices | Microsoft Docs"
+title: "Dynamics 365 Market Insights Privacy Notices | Microsoft Docs"
 description: "Additional privacy notices for Market Insights."
 keywords: "privacy notice, privacy statement addition"
 ms.date: 10/31/2018
@@ -19,7 +19,7 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Privacy Notices
+# [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Privacy Notices
 
 (This topic is pre-release documentation and is subject to change.)
 

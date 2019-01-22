@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 AI for Market Insights Release Notes | Microsoft Docs"
+title: "Dynamics 365 Market Insights Release Notes | Microsoft Docs"
 description: "What's new in Ai for Market Insights"
 keywords: "what's new, release notes, changelog"
 ms.date: 12/19/2018

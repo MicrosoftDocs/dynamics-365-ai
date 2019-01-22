@@ -22,7 +22,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-Staying in touch with customers, prospects, and other stakeholders through social media channels is a key factor in business success. Take action on posts with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. Share, like, or comment on posts to engage with your audience. Start a conversation by writing new posts from within the application.  
+Staying in touch with customers, prospects, and other stakeholders through social media channels is a key factor in business success. Take action on posts with [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. Share, like, or comment on posts to engage with your audience. Start a conversation by writing new posts from within the application.  
 
 <a name="Prerequisites"></a>   
 ## Prerequisites  
@@ -238,7 +238,7 @@ Depending on the social network that media is posted to, different limitations i
    > [!IMPORTANT]
    >  You can reply to a direct message only with the social profile that received the message. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About Direct Messages](https://support.twitter.com/articles/14606-about-direct-messages)  
 
-4. Type your message in the text field. [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will show a counter so you can see if you need to revise your message to fit within the maximum character limit.  
+4. Type your message in the text field. [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will show a counter so you can see if you need to revise your message to fit within the maximum character limit.  
 
 5. To post on behalf of the selected social profile, select **Send Direct Message**.  
 
@@ -257,7 +257,7 @@ Depending on the social network that media is posted to, different limitations i
    > [!NOTE]
    >  When you reply to a private message, you can reply to a single recipient only with the social profile that received the private message. Group conversations aren’t supported in private messages.  
 
-4. Type your message in the text entry field. [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will show a counter so you can optimize the length of your content.  
+4. Type your message in the text entry field. [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] will show a counter so you can optimize the length of your content.  
 
 5. Select **Send Private Message** to post on behalf of the selected social profile.  
 

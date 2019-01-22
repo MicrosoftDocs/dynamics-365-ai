@@ -23,7 +23,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-*Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
+*Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
 To [publish or react to posts](publish-react-posts.md), you need active social profiles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. 
   
@@ -109,7 +109,7 @@ To let other users of your organization post on behalf of a social profile that 
 4. Start typing the name of the user or group you want to share the profile with, and then select it from the list.  
   
    > [!CAUTION]
-   > When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
+   > When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)].  
   
 5. Click the **Add** button to confirm your selection.  
 

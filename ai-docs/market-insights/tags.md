@@ -43,7 +43,7 @@ The following intention tags are used by [!INCLUDE[Market Insights](../includes/
 > [!NOTE]
 >  Intention analysis is available for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] posts found on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] in the English language.  
   
-Intention tags are predefined in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. The machine learning service makes predictions on whether posts relate to one of the supported intention tags. We recommend that you [remove or add intention tags](work-with-posts.md#add-or-remove-tags) from posts if they aren’t accurate to improve machine learning.
+Intention tags are predefined in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. The machine learning service makes predictions on whether posts relate to one of the supported intention tags. We recommend that you [remove or add intention tags](work-with-posts.md#add-or-remove-tags) from posts if they aren’t accurate to improve machine learning.
   
 <a name="add_custom"></a>   
 ## Add custom tags  

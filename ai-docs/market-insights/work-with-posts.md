@@ -23,7 +23,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-Wherever you work in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
+Wherever you work in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
   
 <a name="sentiment"></a>   
 ## Change a post’s sentiment value in Analytics and Social Center  
@@ -73,7 +73,7 @@ Wherever you work in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/
   
 <a name="assignTo"></a>   
 ## Assign a post to other users in Analytics and Social Center  
- Bring a post to a specific user’s attention and surface it in the user’s Inbox stream. Every user of your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution can have posts assigned. Additionally, you can assign posts to a group. You must have at least a Responder interaction role to perform this task.  
+ Bring a post to a specific user’s attention and surface it in the user’s Inbox stream. Every user of your [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] solution can have posts assigned. Additionally, you can assign posts to a group. You must have at least a Responder interaction role to perform this task.  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -115,7 +115,7 @@ Wherever you work in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/
 > [!NOTE]
 > - You can’t undo this action, and Support can’t restore deleted posts.  
 >   - Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
->   - Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] will not be disclosed.  
+>   - Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] will not be disclosed.  
   
  You must have at least a Power Analyst Analytics role to perform this task.  
   
@@ -139,7 +139,7 @@ Wherever you work in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/
   
 <a name="link_post"></a>   
 ## Link a post from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to Dynamics 365  
- [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] allows users to create a link from a post in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+ [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] allows users to create a link from a post in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
 ### Privacy notice  

@@ -1,6 +1,6 @@
 ---
 title: "Market Insights 2018 Update 1.8 Readme"
-description: "Important and late-breaking information about Dynamics 365 AI for Market Insights"
+description: "Important and late-breaking information about Dynamics 365 Market Insights"
 keywords: "readme, known issues, information"
 ms.date: 10/31/2018
 ms.service: dynamics-365-ai
@@ -23,7 +23,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].
+This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)].
 
 Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Market Insights](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, go to the [Community forum](https://community.dynamics.com/crm/f/752).
 
