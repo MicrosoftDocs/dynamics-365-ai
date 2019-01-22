@@ -22,22 +22,22 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Timeline capability consolidates customer activities from multiple channels. It includes two components:
-- **Defining Activities** to be included in the timeline: This is done via the **Timeline screen** (accessable via the timeline tab on the app left menu). This definition process is done on the entity-level.
-- **Viewing a timeline for a specific customer** (consolidation of multiple activities chronologically organized on a time grid):       This is done via the creation of a Customer 360 dashboard through the PBI connector. In this section we will cover the specific control you should use within the customer 360 dashboard. For guidance around the creation of the dashboard, please visit the connectors section
+The Timeline capability consolidates customers' **activities** from multiple channels. It includes two components which we will explore in detail under this section:
+- 1.**Timeline Screen**: This component is accessable via the timeline tab on the app left-side menu and is used to **define the activities that you wish to view around your customers**. As we will see, this definition process is done on the entity-level.
+- 2.**Timeline Grid within the Customer 360 Dashboard**: This grid consolidates all the activities of one customer in a chronological manner. In this section we will cover the specific control you should use within the customer 360 dashboard to create the timeline grid. For guidance around the creation of the Customer 360 dashboard, please visit the **connectors** section.
 
 ## Timeline Screen
-The entities that you ingested to Customer 360 might include fields with information on various activities. You should utilize this screen for the definition of the specific activities that you wish to include in the Customer 360 dashboard timeline.
+The entities that were ingested into Customer 360 might include fields with information on various activities. You should utilize this screen for the definition of the specific activities that you wish to view around your customers.
 
 // image 1
 
 ### Activity Definition
-Next we will specify the two required steps for creating each of your timeline activities. At any time you can save your activities through the Save button (highlighted in blue below), or discard the changes you have made since the last save through the Discard button (highlighted in red below)
+Next we will specify steps for creating a timeline activity. At any time you can save your activities through the **Save** button (highlighted in blue below), or discard the changes you have made since the last save through the **Discard** button (highlighted in red below)
 
 // image 2
 
 - **Step 1: Entity selection**
-In this step you should choose the entity that includes the field you wish to include in the timeline. 
+Here we will choose the entity that includes our target activity or activities.
   - First, click the **Add Entity** button:
   
 // image 3
@@ -46,23 +46,25 @@ In this step you should choose the entity that includes the field you wish to in
 
 // image 4
 
-  - Lastly, click the **Done** button. Upon clicking that button you should notice the creation of a first row for your first activity defnition (which you will complete in step 2).
+  - Lastly, click the **Done** button. Upon clicking it you can notice the creation of a first row of required selections which we will complete in step two.
   
 // image 5
   
 - **Step 2: Activity Definition**
-This step includes all your activity defnitions. We will explore those from right to left:
+This step includes all your activity defnitions. We will explore those from left to right:
 
   - **Entity** (no selection is needed): Specifying your chosen entity's name
   - **Source**: (no selection is needed): Specifying your chosen entity's data source name
-  - **Key field**: Here you should choose the specific field that includes data on your activity (for example..)
-  - **Activity Time**: The specific position where your activity will be placed on the timeline depends either on the starting time or ending time that you provide. Using this field, choose which of the two options will serve as the primary method for placing the activity on the time grid.
+  - **Primary Key**: Here you should choose the specific field that includes data on your activity (in the example below, *contactId* was chosen as the activity filed in our dataset)
+  - **Show Activity by**: The specific position where your activity will be placed on the timeline depends either on the starting time or ending time that you provide. Using this field, choose which of the two options will serve as the primary method for placing the activity on the time grid (in the example below, *Start Time* was chosen as the primary method)
   - **Start Time OR End Time:** Depends on your previous selection, at this point you should state the activity start/end time (only one field is required but you can select both times if those are known for your activity
   - **Duration**: Here you should define the duration of your activity 
   - **Unit**: Here you should choose the unit of time for the duration of your activity
-  - **Title**: This field enables you to provide a recognizable name for your activity, so you can easily identify it on the Customer 360 Dashboard timeline (also called display name). 
-  - **Icon**: For the same purpose of easily distingushing your activity from the rest of your activites, here you can add an Icon to your activity if it's publicly available (a URL address is required)
-  - **Action**: Clicking this button will delete that specific activity.
+  - **Description**: This field enables you to provide a recognizable name for your activity, so you can easily identify it on the Customer 360 Dashboard timeline 
+  - **Icon**: For the same purpose of easily distingushing your activity from the rest of your activites, here you can add an Icon to your activity if it's publicly available (a URL address or unicode is required)
+  - **X button**: Clicking this button will delete that specific activity (highlighted below)
+  
+// image 6
   
 At this point you are ready to define your next activity. Don't forget to save your activites.
 
