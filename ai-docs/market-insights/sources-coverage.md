@@ -120,7 +120,6 @@ Some of the supported sources have restrictions on posts that we can acquire. Th
 - Chronological ordering of posts and comments in the post list isn't guaranteed.
 - Language detection differs across sources. Posts in languages that we don't support aren't acquired. 
 
-
 ## Privacy notice
 
 [!include[cognitive services privacy token](../includes/cc-privacy-market-insights-ms-cognitive-services.md)]
