@@ -19,7 +19,7 @@ manager: shellyha
 
 The Resolutions dashboard gives you an overview of your customer service system's case resolution performance. It uses artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
-The Resolutions dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list, or scroll to locate the chart later in this topic.
+The Resolutions dashboard includes a variety of charts with graphical views of your system's case resolution data. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
 * [Agents with longest resolve time](#agents-with-longest-resolve-time-chart)
 * [New cases versus average resolution time](#new-cases-versus-average-resolution-time-chart)
@@ -29,9 +29,9 @@ The Resolutions dashboard includes a variety of charts with graphical views of y
 
 The Resolution time drivers chart uses artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the Time Period drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
+By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-To filter data by product, channel, business unit, or team, select a value from the Product, Channel, Business Unit, or Team drop-down list. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 ## Agents with longest resolve time chart
 
@@ -95,4 +95,4 @@ Impact | 1 – (Average resolution time not including the current topic divided 
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case-resolution time for the top resolve-time topics in red will have the greatest impact on improving overall system performance.
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).

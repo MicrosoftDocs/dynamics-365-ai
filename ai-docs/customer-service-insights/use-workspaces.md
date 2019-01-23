@@ -14,7 +14,7 @@ manager: shellyha
 
 # Use workspaces to connect to different customer service environments
 
-When you work with the dashboards in AI for Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments, and switch between the workspaces.
+When you work with the dashboards in AI for Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
 
 ## Create an AI for Customer Service Insights workspace
 

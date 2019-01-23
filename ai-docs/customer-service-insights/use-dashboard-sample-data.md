@@ -21,7 +21,7 @@ Some key features of the dashboards include:
 * Filters to let you view customer service data for a specific time period, product, support channel, business unit, or team.
 * Key performance indicator charts that give you the basics of how your system is performing.
 * Graphical charts showing trends and breakdowns of cases from a variety of views.
-* AI Insights charts that use language understanding artificial intelligence technology to show the impact and trends of cases related to specific support topics.
+* AI Insights charts that use artificial intelligence technology to show the impact and trends of cases related to specific support topics.
 
 ## Dashboard filters
 
