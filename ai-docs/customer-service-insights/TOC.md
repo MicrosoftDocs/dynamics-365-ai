@@ -20,7 +20,7 @@
 
 ### [KPI summary](dashboard-kpi-summary.md)
 
-### [Incoming cases](dashboard-incoming-cases.md)
+### [New cases](dashboard-incoming-cases.md)
 
 ### [Case resolution](dashboard-case-resolutions.md)
 

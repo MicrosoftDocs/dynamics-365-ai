@@ -25,7 +25,7 @@ Some key features of the dashboards include:
 
 ## Dashboard filters
 
-Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data.
+Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
 
 > [!div class="mx-imgBorder"]
 > ![Dashboard filters](media/ai-csi-filters.png)
