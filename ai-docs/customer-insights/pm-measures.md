@@ -20,3 +20,7 @@ robots: noindex,nofollow
 ---
 
 ## Measures
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Text
