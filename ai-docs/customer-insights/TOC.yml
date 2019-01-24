@@ -6,7 +6,7 @@
     href: pm-data-manager.md
     items:
     - name: Data sources
-      href: pm-get-data.md
+      href: pm-data-sources.md
       items:
       - name: Common Connectors Guidance
         href: pm-common-connectors.md
