@@ -29,13 +29,13 @@ The Topic details dashboard includes a variety of charts with graphical views of
 * [Topic details KPI charts](#topic-details-kpi-charts)
 * [Overall impact charts](#overall-impact-charts)
 * [Agents with most unresolved cases](#agents-with-most-unresolved-cases-chart)
-* [Agents with longest average resolve time](#agents-with-longest-average-resolve-time-chart)
+* [Agents with longest resolve time](#agents-with-longest-average-resolve-time-chart)
 * [Agents with lowest average CSAT](#agents-with-lowest-average-csat-chart)
 * [Topic case composition](#topic-case-composition-chart)
-* [Top CSAT impactors (AI Insights)](#top-csat-impactors-chart)
-* [Top resolve time impactors (AI Insights)](#top-resolve-time-impactors-chart)
+* [Customer satisfaction drivers (AI Insights)](#top-csat-impactors-chart)
+* [Resolution time drivers (AI Insights)](#top-resolve-time-impactors-chart)
 
-The Top CSAT impactors and Top resolve time impactors charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
+The Customer satisfaction drivers and Resolution time drivers charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
@@ -83,9 +83,9 @@ Agents with most unresolved cases | Number of unresolved cases in descending ord
 ## Agents with longest average resolve time chart
 
 > [!div class="mx-imgBorder"]
-> ![Agents with longest average resolve time chart](media/ai-csi-agents-resolve-time.PNG)
+> ![Agents with longest resolve time chart](media/ai-csi-agents-resolve-time.PNG)
 
-The Agents with longest average resolve time chart shows the average resolution time for each agent for the topic's support cases in the specified time period.
+The Agents with longest resolve time chart shows the average resolution time for each agent for the topic's support cases in the specified time period.
 
 Description | Details
 ----------- | -------
@@ -113,12 +113,12 @@ Description | Details
 ----------- | -------
 Topic case composition | Sankey diagram showing the flow of support cases by support channel
 
-## Top CSAT impactors chart
+## Customer satisfaction drivers chart
 
 > [!div class="mx-imgBorder"]
 > ![Top CSAT impactors chart](media/ai-csi-top-csat-impactors.PNG)
 
-The Top CSAT impactors chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product.
+The Customer satisfaction drivers chart uses artificial intelligence technology to show the top customer satisfaction impactors for the topic during the specified time period by support channel and product.
 
 Description | Details
 ----------- | -------
@@ -130,12 +130,12 @@ Impact | 1 – (Average CSAT score not including support cases for the specified
 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average customer satisfaction score (CSAT). A red bar indicates that the CSAT score is lower than the average CSAT score. A blue bar indicates that the CSAT score is higher. Improving customer satisfaction for the top CSAT impactors topics in red will have the greatest impact on improving overall customer satisfaction.
 
-## Top resolve time impactors chart
+## Resolution time drivers chart
 
 > [!div class="mx-imgBorder"]
 > ![Top resolve time impactors chart](media/ai-csi-top-resolve-time-impactors.PNG)
 
-The Top resolve time impactors chart uses artificial intelligence technology to show the top resolution time impactors for the topic during the specified time period by support channel and product.
+The Resolution time drivers chart uses artificial intelligence technology to show the top resolution time impactors for the topic during the specified time period by support channel and product.
 
 Description | Details
 ----------- | -------

@@ -27,7 +27,7 @@ The Customer satisfaction dashboard includes a variety of charts with graphical 
 * [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
 * [Customer satisfaction drivers (AI Insights)](#customer-satisfaction-drivers-chart)
 
-The Customer satisfaction drivers chart uses natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas to focus on that will make the greatest impact on improving the customer's experience.
+The Customer satisfaction drivers chart uses natural language understanding to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on customer satisfaction, helping you identify areas to focus on that will make the greatest impact on improving the customer's experience.
 
 By default, the dashboard shows you key performance indicators for the past month and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time Period** drop-down list at the top of the dashboard. You can select past day, past week, or past month.
 

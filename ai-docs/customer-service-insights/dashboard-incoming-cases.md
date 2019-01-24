@@ -17,7 +17,7 @@ manager: shellyha
 > [!div class="mx-imgBorder"]
 > ![New cases dashboard](media/ai-csi-new-cases-dash.PNG)
 
-The New cases dashboard gives you an overview of the new cases in your customer service system. It uses artificial intelligence (AI) technology to help you identify emerging issues.
+The New cases dashboard gives you an overview of the new cases in your customer service system. It uses artificial intelligence (AI) technology to help you identify popular and emerging issues.
 
 The New cases dashboard includes a variety of charts with graphical views of your system's new support cases. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
@@ -27,7 +27,7 @@ The New cases dashboard includes a variety of charts with graphical views of you
 * [Popular topics (AI Insights)](#current-popular-topics-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-The Popular topics and Emerging topics charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
+The Popular topics and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
 
 By default, the dashboard shows you key performance indicators for the past month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
@@ -77,13 +77,13 @@ Description | Details
 ----------- | -------
 Topic | Artificial intelligence clustering of cases based on language understanding applied to case titles
 Volume | The new cases associated with this topic divided by total new cases
-Number of cases | The new cases associated with this topic
+New cases | The new cases associated with this topic
 Volume change | The incoming volume of cases associated with this topic in the current period minus the incoming volume of cases associated with this topic in the previous period
-Average resolve time | The average resolution time of resolved new cases associated with this topic
-Resolve rate | The resolved new cases associated with this topic divided by the total new cases associated with this topic
+Average resolution time | The average resolution time of resolved new cases associated with this topic
+Resolution rate | The resolved new cases associated with this topic divided by the total new cases associated with this topic
 Average CSAT  | The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values
 
-To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic Drill Through** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
+To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
 
 ## Emerging topics chart
 
@@ -96,10 +96,10 @@ Description | Details
 ----------- | -------
 Topic | Artificial intelligence clustering of cases based on language understanding applied to case titles
 Volume | The percent change in volume over the specified time period
-Number of cases | The new cases associated with this topic
+New cases | The new cases associated with this topic
 Volume change | The incoming volume of cases associated with this topic in the current period minus the incoming volume of cases associated with this topic in the previous period
-Average resolve time | The average resolution time of resolved new cases associated with this topic
-Resolve rate | The resolved new cases associated with this topic divided by the total new cases associated with this topic
+Average resolution time | The average resolution time of resolved new cases associated with this topic
+Resolution rate | The resolved new cases associated with this topic divided by the total new cases associated with this topic
 Average CSAT  | The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).

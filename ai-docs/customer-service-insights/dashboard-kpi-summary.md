@@ -17,7 +17,7 @@ manager: shellyha
 > [!div class="mx-imgBorder"]
 > ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.PNG)
 
-The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are having the greatest impact on case volume and resolution time.
+The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
@@ -30,7 +30,7 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 * [Case volume drivers (AI Insights)](#case-volume-drivers-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
-The Case volume drivers and Top resolve time impactors charts use natural language understanding artificial intelligence technology to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and the topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
+The Case volume drivers and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the past month and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
@@ -54,17 +54,6 @@ Average CSAT | The sum of customer satisfaction (CSAT) scores divided by the cou
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
-## Case priority chart
-
-> [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority.PNG)
-
-The Case priority chart shows the percentage breakdown for the specified time period between high, normal, and low-priority support cases.
-
-Description | Details
------------ | -------
-Case priority | Case breakdown by case priority
-
 ## Case breakdown chart
 
 > [!div class="mx-imgBorder"]
@@ -75,6 +64,17 @@ The Case breakdown chart shows the breakdown in support cases for the specified 
 Description | Details
 ----------- | -------
 Case breakdown | Case breakdown by rollover cases (backlog) plus new cases for the specified time period
+
+## Case priority chart
+
+> [!div class="mx-imgBorder"]
+> ![Case priority chart](media/ai-csi-case-priority.PNG)
+
+The Case priority chart shows the percentage breakdown for the specified time period between high, normal, and low-priority support cases.
+
+Description | Details
+----------- | -------
+Case priority | Case breakdown by case priority
 
 ## Case channel chart
 

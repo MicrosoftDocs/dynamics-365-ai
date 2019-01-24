@@ -22,9 +22,9 @@
 
 ### [New cases](dashboard-incoming-cases.md)
 
-### [Case resolution](dashboard-case-resolutions.md)
-
 ### [Customer satisfaction](dashboard-CSAT.md)
+
+### [Resolutions](dashboard-case-resolutions.md)
 
 ### [Topic details](dashboard-topic-details.md)
 

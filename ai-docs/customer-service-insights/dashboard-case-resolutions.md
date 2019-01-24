@@ -27,7 +27,7 @@ The Resolutions dashboard includes a variety of charts with graphical views of y
 * [New escalations versus resolved escalations](#new-escalations-versus-resolved-escalations-chart)
 * [Resolution time drivers (AI Insights)](#resolution-time-drivers-chart)
 
-The Resolution time drivers chart uses artificial intelligence technology to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
+The Resolution time drivers chart uses natural language understanding to group support cases as *topics* that are a collection of related cases. This chart shows you the customer support topics that are having the most impact on case resolution time, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
@@ -38,11 +38,11 @@ To filter data by product, channel, business unit, or team, select a value from 
 > [!div class="mx-imgBorder"]
 > ![Agents with longest resolve time chart](media/ai-csi-longest-resolve-time.PNG)
 
-The Agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer-support case, in reverse order of resolution time, and the breakdown by priority.
+The Agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer-support case, in reverse order of resolution time.
 
 Description | Details
 ----------- | -------
-Agents with longest resolve time | Resolved case resolution time breakdown by agent and case priority
+Agents with longest resolve time | Resolved case resolution time breakdown by agent
 
 ## New cases versus average resolution time chart
 
