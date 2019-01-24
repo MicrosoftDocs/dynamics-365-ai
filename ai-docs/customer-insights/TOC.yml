@@ -1,4 +1,5 @@
 - name: Customer Insights
+  items:
   - name: Home page
     href: pm-homepage.md
   - name: Data Manager
