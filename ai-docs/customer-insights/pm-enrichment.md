@@ -55,7 +55,7 @@ As mentioned earlier, you are required to make at least two selections.
 // enrich 3
 
 First choose one of the following options. Then complete your selections for that option.
-  - 1.**Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get your customers' affinities for those selections. For example, *Coca-Cola* and *Starbucks* were chosen in the example below:
+- 1.**Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get your customers' affinities for those selections. For example, *Coca-Cola* and *Starbucks* were chosen in the example below:
   
 // enrich 4
 
@@ -63,7 +63,7 @@ To add a brand or interest, type the keywords field (highlighted in blue above) 
 
 // enrich 5
 
-  - 2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. Note that in *Customers* we refer only to the customers you chose in the *Demographics* section. In the example below, *Home&Garden* was chosen as an industry:
+- 2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. Note that in *Customers* we refer only to the customers you chose in the *Demographics* section. In the example below, *Home&Garden* was chosen as an industry:
   
 // enrich 6
 
