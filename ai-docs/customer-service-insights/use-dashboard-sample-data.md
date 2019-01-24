@@ -108,5 +108,4 @@ AI Insights charts include:
 * [Resolution time drivers (Resolutions dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
 
-
 All dashboards include AI Insights charts.
