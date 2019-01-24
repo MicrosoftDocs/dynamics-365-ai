@@ -2,11 +2,7 @@
 title: "Customer satisfaction dashboard"
 description: "Learn the customer service insights available on the Customer satisfaction dashboard​."
 keywords: ""
-<<<<<<< HEAD
-ms\.date: 1/10/2019
-=======
 ms\.date: 1/23/2019
->>>>>>> 578515b8d828bf3658afa34c1dd46671d287fdad
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
