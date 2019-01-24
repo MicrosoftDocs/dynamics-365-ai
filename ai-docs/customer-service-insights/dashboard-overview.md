@@ -2,7 +2,7 @@
 title: "Dashboard reference"
 description: "Learn about the AI for Customer Service Insights dashboards."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,4 +18,4 @@ The AI for Customer Service Insights dashboards contain a variety of charts that
 
 You can display [KPI summary](dashboard-kpi-summary.md), [New cases](dashboard-incoming-cases.md), [Resolutions](dashboard-case-resolutions.md), and [Customer satisfaction](dashboard-CSAT.md) dashboards by clicking each dashboard's icon in the navigation pane. The KPI summary dashboard is the default AI for Customer Service Insights dashboard.
 
-You can display the [Topic details](dashboard-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards, hovering over **Drillthrough**, and then selecting **Topic Drill Through**.
+You can display the [Topic details](dashboard-topic-details.md) dashboard by right-clicking a topic in one of the AI Insights charts in those dashboards, hovering over **Drillthrough**, and then selecting **Topic drillthrough**.
