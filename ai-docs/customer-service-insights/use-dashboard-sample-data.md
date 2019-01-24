@@ -106,7 +106,7 @@ AI Insights charts include:
 * [Emerging topics (New cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
 * [Customer satisfaction drivers (Customer satisfaction dashboard)](dashboard-CSAT.md#customer-satisfaction-drivers-chart)
 * [Resolution time drivers (Resolutions dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
-* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
 
 
 All dashboards include AI Insights charts.
