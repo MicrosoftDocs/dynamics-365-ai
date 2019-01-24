@@ -33,14 +33,20 @@ Note: The *Enrich Profiles* screen can be accessed both through the app left-sid
 //enrich 2
 
 As shown above, this screen includes two major sections:
-- The **Demographics** section, where you should make selections for at least two fields among **Date of Birth**, **Gender** and **Zip Code**. The intent behind these selections is to focus on the customers for which you wish to gain knowledge around preferred brands and interests. 
+- The **Demographics** section, where you should make selections for at least two fields among **Date of Birth**, **Gender** and **Zip Code**. The intent behind these selections is to focus on the specific cohort of customers for which you wish to gain knowledge around preferred brands and interests. 
 - The **Brands and Categories** section, where you can take one of two approaches:
-  - 1.**Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get your customers' affinities for those selections
-  - 2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. Note that in *Customers* we refer only to the customers you chose on the *Demographics* section.
+  - 1.**Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get your customers' affinities for those selections.
+  - 2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. Note that in *Customers* we refer here only to the customers you chose on the *Demographics* section.
 
 ### Making Selections on the *Demographics* Section
 
 // enrich 3
+
+As mentioned earlier, you are required to make at least two selections. 
+**Note** that only some formats are supported for each of the fields:
+- Supported formats for **Date of Birth**: M/d/yyyy, MMMM d, 
+- Supported formats for **Gender**:
+- Supported formats for **Zip Code**: 
 
 ### Making Selections on the *Brands and Categories* Section
 
