@@ -2,7 +2,7 @@
 title: "Work with AI for Customer Service Insights dashboards"
 description: "Learn how to work with AI for Customer Service Insights dashboards."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

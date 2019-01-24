@@ -2,7 +2,7 @@
 title: "AI for Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 AI for Customer Service Insights."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -22,8 +22,6 @@ The AI-driven technology empowers informed decision making about how to improve 
 
 > [!div class="mx-imgBorder"]
 > ![KPI summary dashboard](media/ai-customer-service-insights.PNG "KPI summary dashboard")
-
-*The KPI summary dashboard gives you a snapshot of key performance indicators for measuring customer service*
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system's performance](quickstart.md).
 

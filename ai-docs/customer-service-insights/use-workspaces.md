@@ -2,7 +2,7 @@
 title: "Use workspaces to connect to different customer service environments"
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

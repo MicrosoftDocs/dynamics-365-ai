@@ -2,7 +2,7 @@
 title: "Identify areas for improvement in your customer service system"
 description: "Learn how Customer Service Insights dashboards can help you identify areas for improvement in your customer service system."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Improve data quality by cleansing support case titles​"
 description: "Learn how to improve AI Insights charts by removing extraneous tags in support case titles."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
