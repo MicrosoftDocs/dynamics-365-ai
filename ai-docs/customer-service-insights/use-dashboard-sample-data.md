@@ -2,7 +2,7 @@
 title: "Work with AI for Customer Service Insights dashboards"
 description: "Learn how to work with AI for Customer Service Insights dashboards."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -21,11 +21,11 @@ Some key features of the dashboards include:
 * Filters to let you view customer service data for a specific time period, product, support channel, business unit, or team.
 * Key performance indicator charts that give you the basics of how your system is performing.
 * Graphical charts showing trends and breakdowns of cases from a variety of views.
-* AI Insights charts that use language understanding artificial intelligence technology to show the impact and trends of cases related to specific support topics.
+* AI Insights charts that use artificial intelligence technology to show the impact and trends of cases related to specific support topics.
 
 ## Dashboard filters
 
-Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data.
+Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
 
 > [!div class="mx-imgBorder"]
 > ![Dashboard filters](media/ai-csi-filters.png)
@@ -106,7 +106,6 @@ AI Insights charts include:
 * [Emerging topics (New cases dashboard)](dashboard-incoming-cases.md#emerging-topics-chart)
 * [Customer satisfaction drivers (Customer satisfaction dashboard)](dashboard-CSAT.md#customer-satisfaction-drivers-chart)
 * [Resolution time drivers (Resolutions dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
-* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
-
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
 
 All dashboards include AI Insights charts.

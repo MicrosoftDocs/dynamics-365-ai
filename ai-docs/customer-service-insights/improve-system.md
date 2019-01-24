@@ -2,7 +2,7 @@
 title: "Identify areas for improvement in your customer service system"
 description: "Learn how Customer Service Insights dashboards can help you identify areas for improvement in your customer service system."
 keywords: ""
-ms\.date: 10/31/2018
+ms\.date: 1/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -37,8 +37,8 @@ The following AI Insights charts show you support cases that have the most impac
 
 * [Customer satisfaction drivers (Customer satisfaction dashboard)](dashboard-CSAT.md#customer-satisfaction-drivers-chart)
 * [Resolution time drivers (Resolutions dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
-* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
+* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#resolution-time-drivers-chart)
 
 ## Resolution time charts
 
@@ -55,8 +55,8 @@ The following charts give you different views of case resolution time:
 * [New escalations versus resolved escalations (Resolution dashboard)](dashboard-case-resolutions.md#new-escalations-versus-resolved-escalations-chart)
 * [Resolution time drivers (Resolution dashboard)](dashboard-case-resolutions.md#resolution-time-drivers-chart)
 * [Agents with longest average resolve time (Topic details dashboard)](dashboard-topic-details.md#agents-with-longest-average-resolve-time-chart)
-* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
+* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#resolution-time-drivers-chart)
 
 ## Customer satisfaction charts
 
@@ -71,8 +71,8 @@ The following charts give you different views of customer satisfaction:
 * [Customer satisfaction drivers (Customer satisfaction dashboard)](dashboard-CSAT.md#customer-satisfaction-drivers-chart)
 * [Average CSAT KPI chart (Topic details dashboard)](dashboard-topic-details.md#topic-details-kpi-charts)
 * [Overall average CSAT impact chart (Topic details dashboard)](dashboard-topic-details.md#overall-impact-charts)
-* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#top-csat-impactors-chart)
-* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#top-resolve-time-impactors-chart)
+* [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
+* [Top resolve time impactors (Topic details dashboard)](dashboard-topic-details.md#resolution-time-drivers-chart)
 
 ## Agent performance charts
 
