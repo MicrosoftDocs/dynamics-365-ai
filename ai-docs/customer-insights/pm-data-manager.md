@@ -36,7 +36,7 @@ We hope to enable that option soon. In the meantime, as explained in the **Commo
 
 Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-Data Manager includes two modules: Data Sources and Entities. In the [Data Sources](pm-get-data.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module:
+Data Manager includes two modules: Data Sources and Entities. In the [Data Sources](pm-data-sources.md) topic, you'll learn how to complete the mandatory data ingestion process. Then, you can either continue to the data configuration process or explore the data that you have ingested through the Entities module:
 
 // data manager 1
 

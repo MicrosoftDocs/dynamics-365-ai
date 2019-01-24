@@ -1,5 +1,5 @@
 [!include[](pm-data-manager.md)]
-[!include[](pm-get-data.md)]
+[!include[](pm-data-sources.md)]
 [!include[](pm-entities.md)]
 [!include[](pm-configure-data.md)]
 [!include[](pm-map.md)]
