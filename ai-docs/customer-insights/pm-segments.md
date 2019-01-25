@@ -108,7 +108,6 @@ Note that **one of the segmentation strengths of Customer 360 is the rich variet
     
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-either-condition.png "Either conditions met")
-
 Note: At this point it is recommended to save your first group's definitions as shown below:
 
 > [!div class="mx-imgBorder"] 
@@ -138,7 +137,7 @@ Here you can view all your saved segments and perform certain actions.
 -**Dynamic Segments appear to the left and Static Segments appear to the right.**
 -**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exists), and the possibility to view last week growth upon hovering over the trendline. If, alternatively, you prefer to view all your segments in a table format, simply click one of the following buttons:
 
-// segment 1 new
+// segment 1 
 
 -**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
@@ -151,8 +150,11 @@ Let's explore those segment-level actions:
     - Viewing segment's members
     - Exporting the segment to a .csv file
     - Turning the segment to inactive/active (depends on it's baseline state)
-    - Deleting the segment
-    
+    - Deleting the segment 
+    - Pin the segment, which will move it to the top of the screen for better accessability (the pinned segment will show up under **Pinned Segments** as shown in the example below (highlighted in red). To unpin a segment click the **unpin** button (shown in blue):
+
+// segment 2
+   
 ## Exploring a segment: Viewing processing history and segment members
 Once selected a segment within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. In addition, hovering over each data point will show the member growth for that period. As highlighted in red, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.):
 
@@ -177,11 +179,11 @@ The lower part includes a table with all your segment members.
 - **Exporting a segment directly to a Dynamics 365 account is also supported via the *Export Segment* Screen:
     -1.Enter the *Export Segment Screen* via the *Export Segment Tab* on the left side menu
     -2.Click **Add Destination:**
-//segment 2
-    -3.Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
 //segment 3
-    -4.Upon the completion of step (3), your destination should appear in the destinations table as shown in the example below:
+    -3.Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
 //segment 4
+    -4.Upon the completion of step (3), your destination should appear in the destinations table as shown in the example below:
+//segment 5
     -5.Click **?** to 
     
 ## Next Step
