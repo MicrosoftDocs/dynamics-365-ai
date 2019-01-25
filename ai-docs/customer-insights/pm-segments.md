@@ -122,7 +122,7 @@ As mentioned earlier, each group **produces a specific set of customers**. Start
 Then three set operators will show up: ***Union, Intersect and Exclude*** as shown below:
 
 > [!div class="mx-imgBorder"] 
-  > ![](media/customer-group-union.png "Customer group add union")
+> ![](media/customer-group-union.png "Customer group add union")
   
 Clicking each of these will enable you to define a new group. However, upon clicking **Save**, each of these Set Operators will lead to a different result:
 
@@ -134,26 +134,29 @@ Clicking each of these will enable you to define a new group. However, upon clic
    
 ## Exploring segments from the Segments page
 Here you can view all your saved segments and perform certain actions.
--**Dynamic Segments appear to the left and Static Segments appear to the right.**
--**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exists), and the possibility to view last week growth upon hovering over the trendline. If, alternatively, you prefer to view all your segments in a table format, simply click one of the following buttons:
-
-// segment 1 
-
--**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
+- **Dynamic Segments appear to the left and Static Segments appear to the right.**
+- **Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exists), and the possibility to view last week growth upon hovering over the trendline. If, alternatively, you prefer to view all your segments in a table format, simply click one of the following buttons:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/segmentation-menu-options.png "Segment menu options")
+> ![](media/segmentation-static-segment.png "Static segment")
+
+- **You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-static-segment.png "Static segments")
 
 
 Let's explore those segment-level actions:
-    - Editing the segment
-    - Viewing segment's members
-    - Exporting the segment to a .csv file
-    - Turning the segment to inactive/active (depends on it's baseline state)
-    - Deleting the segment 
-    - Pin the segment, which will move it to the top of the screen for better accessability (the pinned segment will show up under **Pinned Segments** as shown in the example below (highlighted in red). To unpin a segment click the **unpin** button (shown in blue):
 
-// segment 2
+- Editing the segment
+- Viewing segment's members
+- Exporting the segment to a .csv file
+- Turning the segment to inactive/active (depends on it's baseline state)
+- Deleting the segment 
+- Pin the segment, which will move it to the top of the screen for better accessability (the pinned segment will show up under **Pinned Segments** as shown in the example below (highlighted in red). To unpin a segment click the **unpin** button (shown in blue):
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-dynamic-segment.png "Dynamic segment")
    
 ## Exploring a segment: Viewing processing history and segment members
 Once selected a segment within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. In addition, hovering over each data point will show the member growth for that period. As highlighted in red, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.):
@@ -165,26 +168,35 @@ The lower part includes a table with all your segment members.
 
 - **Note** that the field types that are shown in this table are based on the attributes of your segment’s entities. The example table that is shown above (highlighted in blue) is typical to a **Customer** entity but it is only one of many possible table types.
 
--**Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change its definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
+- **Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change its definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
 
 ## Acting upon the data
 
 - **Exporting a segment to .csv file is possible:**
-    -1.Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
-    -2.Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
+    1. Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
+    2. Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/segment-menu-export-top.png "Export segment")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segment-menu-export-top.png "Export segment")
 
-- **Exporting a segment directly to a Dynamics 365 account is also supported via the *Export Segment* Screen:
-    -1.Enter the *Export Segment Screen* via the *Export Segment Tab* on the left side menu
-    -2.Click **Add Destination:**
-//segment 3
-    -3.Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
-//segment 4
-    -4.Upon the completion of step (3), your destination should appear in the destinations table as shown in the example below:
-//segment 5
-    -5.Click **?** to 
+- **Exporting a segment directly to a Dynamics 365 account is also supported via the *Export Segment* Screen:**
+    1. Enter the *Export Segment Screen* via the *Export Segment Tab* on the left side menu
+    2. Click **Add Destination:**
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-add-destination.png "Segmentation add destination")
+
+    3. Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-export-destination.png "Segmentation export destination")
+
+    4. Upon the completion of step 3, your destination should appear in the destinations table as shown in the example below:
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-export-destination-table.png "Segmentation export destination table")
+
+    5. Click **?** to 
     
 ## Next Step
 While segmentation provides you with aggregate-level insights, you can also explore the Customer 360 Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.
