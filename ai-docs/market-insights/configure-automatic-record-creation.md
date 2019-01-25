@@ -2,13 +2,12 @@
 title: "Set up record creation for social activity entities from Market Insights | Microsoft Docs"
 description: "Learn how to configure rules in Dynamics 365 to automatically turn social activities into records."
 keywords: "rule framework, update rules, create record, entity mapping"
-ms.date: 10/31/2018
+ms.date: 01/30/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 08535190-f438-4f56-bd05-f1a7b909822e
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
@@ -99,4 +98,4 @@ In [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], when u
 
 [Set up the connection to link posts from Market Insights to Dynamics 365](link-posts-to-dynamics-365.md)    
 [Link posts from Market Insights to Dynamics 365](create-dynamics-365-record-from-social-post.md)    
-[Set up rules to automatically create or update records in Dynamics 365](https://technet.microsoft.com/library/mt812474.aspx)
+[Set up rules to automatically create or update records in Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-rules-to-automatically-create-or-update-records)
