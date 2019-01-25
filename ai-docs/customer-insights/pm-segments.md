@@ -136,7 +136,10 @@ Clicking each of these will enable you to define a new group. However, upon clic
 ## Exploring segments from the Segments page
 Here you can view all your saved segments and perform certain actions.
 -**Dynamic Segments appear to the left and Static Segments appear to the right.**
--**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exist) and the possibility to refresh the data for that segment.
+-**Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exists), and the possibility to view last week growth upon hovering over the trendline. If, alternatively, you prefer to view all your segments in a table format, simply click one of the following buttons:
+
+// segment 1 new
+
 -**You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
 > [!div class="mx-imgBorder"] 
@@ -145,13 +148,13 @@ Here you can view all your saved segments and perform certain actions.
 
 Let's explore those segment-level actions:
     - Editing the segment
-    - Viewing the segment's members
+    - Viewing segment's members
     - Exporting the segment to a .csv file
     - Turning the segment to inactive/active (depends on it's baseline state)
     - Deleting the segment
     
 ## Exploring a segment: Viewing processing history and segment members
-Once selected a segment within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. As highlighted in red, you can adjust the trend's time scope (30 last days, 60 last days, etc.):
+Once selected a segment within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. In addition, hovering over each data point will show the member growth for that period. As highlighted in red, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
@@ -164,15 +167,22 @@ The lower part includes a table with all your segment members.
 
 ## Acting upon the data
 
-**Exporting a segment:
-Exporting a segment to .csv file is possible:
-- 1.Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
-- 2.Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
+- **Exporting a segment to .csv file is possible:**
+    -1.Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
+    -2.Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-menu-export-top.png "Export segment")
 
-In both cases, clicking **Export** will create a file in a csv. format where you can expect to find all your segment's data. 
-
+- **Exporting a segment directly to a Dynamics 365 account is also supported via the *Export Segment* Screen:
+    -1.Enter the *Export Segment Screen* via the *Export Segment Tab* on the left side menu
+    -2.Click **Add Destination:**
+//segment 2
+    -3.Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
+//segment 3
+    -4.Upon the completion of step (3), your destination should appear in the destinations table as shown in the example below:
+//segment 4
+    -5.Click **?** to 
+    
 ## Next Step
 While segmentation provides you with aggregate-level insights, you can also explore the Customer 360 Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.
