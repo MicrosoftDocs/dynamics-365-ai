@@ -38,6 +38,8 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
+    - name: Manage search
+      href: pm-manage-search.md
   - name: Extensibilities
     items:
     - name: Connectors
