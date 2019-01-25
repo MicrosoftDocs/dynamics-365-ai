@@ -37,7 +37,7 @@ To load data to Customer 360 follow the following process:
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-tile.png "Get data tile")
 
-2. Click **Add Data** as shown below:
+2. Click **Get data** as shown below:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-add.png "Get data add")
@@ -61,6 +61,12 @@ Within the next step you will add **entities** to your data source. In Customer 
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+
+
+<!-- This image will be moved by Nimrod -->
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-manager-sources-actions.png "Actions for the data source")
+
 
 3. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** To avoid data-related issues, you should complete the next few transformations:
 

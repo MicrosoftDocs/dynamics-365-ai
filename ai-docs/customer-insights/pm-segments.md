@@ -194,7 +194,7 @@ The lower part includes a table with all your segment members.
     4. Upon the completion of step 3, your destination should appear in the destinations table as shown in the example below:
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/segmentation-export-destination-action.png "Segmentation export destination table")
+    > ![](media/segmentation-export-destination-actions.png "Segmentation export destination table")
 
     5. Click **?** to 
     
