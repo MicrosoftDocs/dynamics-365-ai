@@ -22,7 +22,7 @@
       - name: Merge
         href: pm-merge.md
       - name: Activities
-        href: pm-timeline.md
+        href: pm-activities.md
       - name: Relationships
         href: pm-relationships.md
       - name: Enrich profiles
