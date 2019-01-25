@@ -29,8 +29,6 @@ The Timeline capability consolidates customers' **activities** from multiple cha
 ## Timeline Screen
 The entities that were ingested into Customer 360 might include fields with information on various activities. You should utilize this screen for the definition of the specific activities that you wish to view around your customers.
 
-// image 1
-
 ### Activity Definition
 Next we will specify steps for creating a timeline activity. At any time you can save your activities through the **Save** button (highlighted in blue below), or discard the changes you have made since the last save through the **Discard** button (highlighted in red below)
 
@@ -51,7 +49,7 @@ Here we will choose the entity that includes our target activity or activities.
 // image 5
   
 - **Step 2: Activity Definition**
-This step includes all your activity defnitions. We will explore those from left to right:
+This step includes all your activity defnitions. We will explore those from left to right (see image below):
 
   - **Entity** (no selection is needed): Specifying your chosen entity's name
   - **Source**: (no selection is needed): Specifying your chosen entity's data source name
@@ -66,39 +64,41 @@ This step includes all your activity defnitions. We will explore those from left
   
 // image 6
   
-At this point you are ready to define your next activity. Don't forget to save your activites.
+At this point you are ready to define your next activity which can be done via the **Add** button as highlighted in red below. Don't forget to save your activites (shown in blue):
+
+// image 7
 
 ## Customer 360 Dashboard Timeline
 Once inside the Customer 360 dashboard, you can start viewing the activities timeline for that specific customer.
 
-// image 6
+// image 8
 
 ### How to Populate the Timeline component on the Dashboard
 That can be done via the right side panel. 
 
 - First, choose the **unified Activity** entity in the entities field:
     
-// image 7
+// image 9
 
 - Then, ..
    
 ### Exploring the Timeline 
 The timeline diagram includes the activities that you defined on the **timeline screen** in chronological order. Each of your customer's activities includes the following detials:
 
-// image 8
+// image 10
 
 - **1.Activity Display Name**: In the example above it is
 - **2.Activity Start time or End time**: In the example above it is
 - **3. Activity Type**: This type was auto-identified for your activity and falls under one of six general categories. Those categories can be found above the timeline diagram:
 
-// image 9
+// image 11
 
 - **4. Activity Duration**: In the example above it is
 
 ### Filtering Timeline Activites
 In addition, you can choose to include on your timeline specific set of your defined activities. The filter field on the right side panel servs that goal:
 
-// image 10
+// image 12
 
 Here you can filter by one of the following options:
 - Customer ID
