@@ -34,18 +34,18 @@ To load data to Customer 360 follow the following process:
 
 1. Navigate to **Data Sources** from the **Data Manager page:**
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-tile.png "Get data tile")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-tile.png "Get data tile")
 
 2. Click **Get data** as shown below:
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-add.png "Get data add")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-add.png "Get data add")
 
 3. **Provide a name and description** for the data source and select **Create**. This will create the data source for you. 
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-create.png "Get data create")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-create.png "Get data create")
 
 ### Step 2 (mandatory): Adding Entities
 Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is an **entity** (such as an **Orders** dataset, a **Sales** dataset, etc). 
@@ -59,21 +59,21 @@ Within the next step you will add **entities** to your data source. In Customer 
   
 2. After choosing a data source, you will be required to fill some fields as shown in the example below. For further guidance around filling those fields for some of the most common data sources (Dynamics 365, csv. and excel files, Blub storage, Azure SQL Database, etc), review the **Common Connectors Definitions** sub-section **that can be found under this section** in the left menu. 
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
 
 <!-- This image will be moved by Nimrod -->
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-sources-actions.png "Actions for the data source")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-sources-actions.png "Actions for the data source")
 
 
 3. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** To avoid data-related issues, you should complete the next few transformations:
 
 - If you are ingesting data from a .CSV file and the first row has headers you should select **Transform Table** to do the following:
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
 - If your data includes **Day Time** columns, you should define those as **Text** type columns by...:
 
@@ -87,13 +87,13 @@ For a list of optional transformations make sure to visit the **Power Query Data
 
 4. Select **Save** to save the data source:
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
 5. After saving, select **Refresh** to load the data to Customer 360:
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
 
 Note: In the future this step will happen automatically.
 
@@ -111,13 +111,13 @@ Follow the below steps to edit an existing data source:
 
 1. Browse to the data source that you wish to edit:
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-source.png "Get data source")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-source.png "Get data source")
 
 2. Click on the **Edit** button to edit the data source in Power Query: 
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
 
 3. Lastly hit **Save** as we did when we originally created our data source
 
