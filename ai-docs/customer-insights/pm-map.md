@@ -34,15 +34,11 @@ Select the **Map** tile on the **Configure Data** page to open the **Entity Sele
 
 ### Add entities to the Map page
 
-In **Entities Selection**, select **Add Entities**.
+Start the Map phase by selecting **Select Entities**:
 
+//replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
-
-Select **Add Entities**.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-search-entities.png "Search entities")
 
 Add all the entities which, upon unification, might lead to a better understanding of your customers. 
 
@@ -60,6 +56,7 @@ Then, the user selected the Contact and Survey entities. Those were found within
 
 Following entity selection, the **Map** page appears.
 
+//replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-ingested-entities.png "Ingested entities")
 
@@ -78,6 +75,7 @@ Here you can select all the attributes that are relevant for each of your entiti
 
 ## Select primary keys and define attribute types
 
+replace 3
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-primary-keys.png "Select primary keys")
 
@@ -90,6 +88,7 @@ Select each of the customer entities tabs on the left to open its corresponding 
 
 Click **Select** to add or edit the entities that you selected upon entering the Map screen for the first time.
 
+replace 4
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit.png "Select Edit")
 
