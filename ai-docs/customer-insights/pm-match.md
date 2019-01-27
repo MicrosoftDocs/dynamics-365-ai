@@ -72,7 +72,7 @@ Each **Match** pair involves two entities that are unified into a single entity 
 > 1. What entity do you consider having the most complete and reliable data on your customers?
 > 2. Does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
 
-- Continue by selecting the second entity of your match pair:
+// replace 1
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-right-entity.png "Add right entity")
@@ -131,11 +131,13 @@ For the purpose of this section we will stay with only one rule.
 ## Step Three: Running the first match 
 Now you are ready to run the matching that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
+// replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
 
 It's possible that the matching algorithm will take some time to complete. As highlighted below, there is a message that shows that the matching is still running:
 
+//replace 3
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
@@ -147,6 +149,7 @@ This diagram includes the status of your matches. You can see that your match is
 
 Upon the completion of the match the match screen will become available again and the **Match Running** message will disappear. 
 
+// replace 4
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-run-complete.png "Data match run is complete")
 
@@ -157,6 +160,7 @@ Upon the completion of the match the match screen will become available again an
 
 As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process the unified customer entity can be found and reviewed in the **Entities** page:
 
+// replace 5
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
 
@@ -175,6 +179,7 @@ Here you will learn how to evaluate in depth your first match's quality and impr
 
 **First**, you can gain first insights by reviewing the tiles at the top of the page:
 
+//replace 6
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-results.png "Data match results")
 
@@ -186,6 +191,7 @@ Note that if you match more entities in the future these three numbers will pres
 
 **Second**, you can click the following button within the **Description** section in order to view the records for that specific match pair at the rule-level as shown below:
 
+//replace 7
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
 
@@ -198,6 +204,7 @@ This page presents all your match pair records. It also includes the **Scores** 
 
 1. Select the **Three Dots Icon** for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
 
+//replace 8
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
@@ -209,7 +216,8 @@ This page presents all your match pair records. It also includes the **Scores** 
 3. At this point the page that you see depends on whether you selected a fuzzy or exact match for that criteria. 
 
   If you chose **Exact** for that criteria, you will see the following page.
-       
+
+// replace 9
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
 
@@ -242,6 +250,7 @@ Up to now, you have created, run, and evaluated one match. In many cases, you wi
 
 In order to match a new entity with the unified data set that you created in Steps One and Two, select  **Edit** in the **Description** section:
 
+// replace 10
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-edit.png "Match edit")
 
