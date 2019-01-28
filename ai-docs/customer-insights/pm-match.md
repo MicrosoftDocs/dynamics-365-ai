@@ -86,24 +86,24 @@ Moreover, the warning sign (shown in red above) implies that we didn't define **
 
 // update with match new 7
 
+That will open the following **rule panel**:
+
 Besides the rule's name, this panel enables you to specify all the ***Conditions*** for that role. Each Condition is represented by two rows that include the following mandatory selections:
 
-1. **Attribute that will be used for matching from the first match pair entities**: Name, Phone, etc. Highlighted in blue below.
+1. **Attribute that will be used for matching from the first match pair entity**: Name, Phone, Email Address, etc. 
 
 [IMPORTANT!]
 > You should aviod matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by. Click here for a list of typical activity attributes: 
 
-2. **Attribute that will be used for matching from the second match pair entities**: Highlighted in red in the image below.
-3. **Normalization method:**: Various normalization options are available for the attributes you chose in (1) and (2) - from removing punctuation, to removing spaces, to many others. Note that for some attribute types, a specific and optimal combination of normalizations will be automatically chosen for you. These are called **Semantic Normalizations** as highlighted in green in the image below. If appears as a default setting for your chosen attributes, you can change the Semantic Normalization to any of the other methods
-4. **The level of precision (accuracy metric) that will be used for that condition:** 
-- Selecting ***Exact*** will dictate that only matching records will be matched
+2. **Attribute that will be used for matching from the second match pair entity**.
+3. **Normalization method**: Various normalization options are available for the attributes you chose in (1) and (2) - from removing punctuation, to removing spaces, to many others. Note that for some attribute types, a specific and possibly optimal combination of normalizations will be automatically chosen for you. This option is called **Semantic Normalization** in the drop down and you can change this default selection to any of the other options. 
+4. **The level of precision that will be used for that condition:** 
+- Selecting ***Exact*** on one end of the scale will dictate that only matching records will be matched. 
 
 [IMPORTANT!]
 > Choosing Exact Match on the basis of the same AttributeId type (for example AccountId, ContactId, etc) will not lead to optimal result. While you may want to link the two entities through a relationship (visit the Relationships section in order to review), the match process should be executed on the basis of other attributes. 
 
-- Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium*** level servs as a middle-ground option. Those four options are highlighted below:
-
-// update with match new 8
+- Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium*** level servs as a middle-ground option. 
 
 ### Adding multiple conditions
 If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add New Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
