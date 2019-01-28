@@ -31,55 +31,47 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-tile.png "Match tile")
 
-- Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which requires you to go back to the Map screen and Map at least two entities:
-
-//add match new 1
+- Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which requires you to go back to the Map screen and Map at least two entities.
 
 - If you did map at least two entities, you can expect to reach the following screen where you should click the **Set Order** buton once you are ready to start the Match phase:
 
-// add match new 2
+
 
 ## The Match phase
 As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
 If it's your first time through the match process, you should complete all the steps in this section:
 
-1. Specifying the first pair of entities that you want to match (also called a *Match Pair*)
-2. (Optional) Adding additional matches as needed
-3. Defining rules for the first match pair
-4. Running your first match 
-5. (Optional) Reviewing and validating your first match pair
-6. (Optional) Making changes to your rules and definitions
-7. (Optional) Reviewing the order by which you chose to match your entities 
+1. Specifying the order by which your mapped entities will be matched
+2. Defining rules for the first match pair
+3. Running your specified matches
+4. (Optional) Reviewing and validating your mtaches
+5. (Optional) Making changes to your rules and definitions
+6. (Optional) Reordering your matches
   
 Below, we will explore these steps in a sequential order. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-page.png "Match page")
 
-## Step One: Specifying a first match pair
+## Step One: Specifying the Match Order
 
-Each **Match** pair involves two entities that are unified into a single entity while maintaining unique customer's records. Picking entities for your first match pair, as well as for any future pair you might create, is done via the *Match Order Panel*:
-
-// update with match new 3
-
-- Start by selecting the primary entity of your match pair:
-
-// update with match new 4
-
-> [!IMPORTANT]
-> The entity that you will choose at this point will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. > 
->There are two considerations that can help you select your first entity:
-> 1. What entity do you consider having the most complete and reliable data on your customers?
-> 2. Does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
+Each **Match** pair involves two entities that are unified into a single entity while maintaining unique customer's records. Picking entities for each of your match pairs is done via the *Match Order Panel*:
 
 // replace 1
+
+> [!IMPORTANT]
+> The entity that you will choose as your **primary entity** will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. 
+>There are two considerations that can help you select your primary entity:
+> 1. What entity do you consider having the most complete and reliable data on your customers?
+> 2. Does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-right-entity.png "Add right entity")
 
 > [!NOTE]
-> Considerations for your first selection can help you choose that entity as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other entities that you have ingested?
+> Considerations for your first selection can help you choose **entity 2** as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other entities that you have ingested?
 
+After selecting the first two entities for your first match, you can continue and specify additional matches that will be excuted after your first match. That can be done via the **Add Entity** button as shown below (in the example shown, *TestData* from *CallRecordSmall* will be matched with the entity that is created from WebAccountService: TestData and ContactCSV: Testdata* (the primary entity)
 Lastly, select **Save**. You should get the following message:
 
 // update with match new 5
