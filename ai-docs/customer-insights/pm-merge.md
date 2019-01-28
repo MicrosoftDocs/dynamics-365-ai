@@ -39,7 +39,6 @@ When you ready to start the Merge process, simply click **Merge** in the followi
 
 The next screen that you will see is the **Merge screen:**
 
-// update with merge new 2
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attribute-name.png "Merge attribute name")
 

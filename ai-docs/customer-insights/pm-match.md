@@ -143,7 +143,6 @@ It's possible that the matching algorithm will take some time to complete. While
 
 Also note that above the diagram there is a **Matching records** notification as long as the Match algorithem running. Upon the completion of the match the match screen will become available again and the **Matching records** message will disappear. 
 
-// replace 4
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-run-complete.png "Data match run is complete")
 
@@ -154,9 +153,11 @@ Also note that above the diagram there is a **Matching records** notification as
 
 As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process a preview of the unified customer entity can be viewed:
 
-// replace 5
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/match-conflation-match-pairs-download.png "Conflation Match Pairs download")
 
 Note that:
 - The column shown above in blue reflects for each of your recods how certain it is that it was accurately matched (confidence score)
@@ -171,7 +172,6 @@ Here you will learn how to evaluate in depth your each of your match pairs quali
 
 **First**, you can gain first insights by reviewing the tiles at the top of the page (shown in red below):
 
-//replace 6
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-results.png "Data match results")
 
@@ -180,13 +180,14 @@ Here you will learn how to evaluate in depth your each of your match pairs quali
 
 **Second**, you can assess the results of each match pair as shown in blue above - viewing number of records that came from this match pair entities side by side with the percentage of successfully matched records.
 
-//replace 7
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
 
 **Third,** you can view the percentage of successfully matched records at the Rule-level (shown in red above). Moreover, by clicking the button that is shown in blue you can view all these records (again, on the rule-level). The following window examplifies the preview you can expect to see:
 
-//
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-preview.png "Match preview")
+
 
 It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
 
@@ -194,7 +195,6 @@ It is recommended to go through at least a part of it in order to validate that 
 
 1. Select the **Three Dots Icon** for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
 
-//replace 8
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
@@ -206,7 +206,6 @@ It is recommended to go through at least a part of it in order to validate that 
 
   If you chose **Exact** for that criteria, you will see the following page.
 
-// replace 9
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
 
@@ -222,9 +221,14 @@ This page gives you a rich understanding around the effects of the three thresho
 ## Step Five (optional): Making Changes to your Match Order
 If you followed Step Four, then at this point you should have a better understanding around the quality of your first match. At this point you can translate that understanding into a better match quality by reconfiguring some of your match parameters.
 
-- **Changing the Match Order**: That can be done by selecting the **Edit** button shoen below and editing the match order fields:
+- **Changing the Match Order**: That can be done by selecting the **Edit** button shown below and editing the match order fields:
 
-//Replace 10
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-match-order-edit.png "Edit data match order")
+
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-match-order-edit-page.png "Edit data match order")
+
 
 - **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by selecting **Edit** as shown earlier within the match row and substituting the first rule's attributes with the second rule's attributes.
 
