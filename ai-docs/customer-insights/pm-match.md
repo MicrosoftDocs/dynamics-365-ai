@@ -106,11 +106,11 @@ Besides the rule's name, this panel enables you to specify all the ***Conditions
 - Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium*** level servs as a middle-ground option. 
 
 ### Adding multiple conditions
-If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add New Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
+If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add Condition** button as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
 // update with match new 9
 
-For the purpose of this section we will limit our match rule to only one condition
+For the purpose of this section we will limit our match rule to only one condition.
 
 ### Adding multiple rules
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) as shown below) and only then continue to the second rule (stated as (2)) if no matches were identified under the first rule. 
@@ -119,26 +119,22 @@ If each condition applies to a single pair of attributes, then rules represent s
 
 For the purpose of this section we will stay with only one rule.
 
-## Step Three: Running the first match 
-Now you are ready to run the matching that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
+## Step Three: Running your Specified Match Order
+Now you are ready to run the match order that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
 // replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
 
-It's possible that the matching algorithm will take some time to complete. As highlighted below, there is a message that shows that the matching is still running:
+It's possible that the matching algorithm will take some time to complete. While running, you can expect to see the following status diagram:
 
 //replace 3
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
-Also note that while waiting the following window appears:
+**While it's not possible to use any of the match screen functionalities until the match process completes, it's possible to visit other product modules through the left navigation menu** (for example you may want to utilize this time to define relationships through the Relationships screen or activities via the Timeline screen).
 
-// update with match new 11
-
-This diagram includes the status of your matches. You can see that your match is in a **Matching** state which means it's in progress (also represented by a green line as shown above). **While it's not possible to use any of the match screen functionalities until the match process completes, it's possible to visit other product modules through the left navigation menu** (for example you may want to utilize this time to define relationships through the Relationships screen or activities via the Timeline screen).
-
-Upon the completion of the match the match screen will become available again and the **Match Running** message will disappear. 
+Also note that above the diagram there is a **Matching records** notification as long as the Match algorithem running. Upon the completion of the match the match screen will become available again and the **Matching records** message will disappear. 
 
 // replace 4
 > [!div class="mx-imgBorder"] 
@@ -149,38 +145,33 @@ Upon the completion of the match the match screen will become available again an
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-refresh.png "Select refresh")
 
-As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process the unified customer entity can be found and reviewed in the **Entities** page:
+As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process a preview of the unified customer entity can be viewed:
 
 // replace 5
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
 
-Clicking the master entity will show you a preview of it's records as shown below. Note that:
-- The **Score** column reflects how certain it is that each of the records were accurately matched (confidence scores)
-- The rest of the columns present the data that was taken from the two original entities. Columns to the left of the *Scored* column (highlighted in blue below) present data that was taken from the first match pair entity while columns to the right of the *Scored* column present data taken from the second match pair entity (highlighted in green below):
+Note that:
+- The column shown above in blue reflects for each of your recods how certain it is that it was accurately matched (confidence score)
+- The rest of the columns present the data that was taken from the two original entities. Columns to the left of highlighted column present data that was taken from the first match pair entity while columns to the right present data taken from the second match pair entity. 
+- You can also view the customer profile entity within the **Entities screen.**
+- Lastly, as shown in red, you can also download the customer profile dataset. 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/match-conflation-match-pairs-scored.png "Conflation Match Pairs Scored column")
+At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 3-6). However, it's recommended to go through at least a portion of step 3 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
+## Step Four (optional): Reviewing and Validating your Match Pairs
+Here you will learn how to evaluate in depth your each of your match pairs qualities and improve it. There are a few things you can do.
 
-- At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
-
-## Step Four (optional): Reviewing and validating the first match pair
-Here you will learn how to evaluate in depth your first match's quality and improve it. There are a few things you can do.
-
-**First**, you can gain first insights by reviewing the tiles at the top of the page:
+**First**, you can gain first insights by reviewing the tiles at the top of the page (shown in red below):
 
 //replace 6
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-results.png "Data match results")
 
-1. The left tile shows the number of records that were successfully matched.
-2. The center tile shows the number of records that were not successfully matched.
-3. The right tile shows the number of customers that are included in the original two match pair entities whether they were matched or not. This tile will provide you more context into the first number above - is that a relatively good or poor result?
+1. The left tile shows the number of **unique profiles** the system had identified.
+2. The right tile shows the number of matches, in total, that were completed accross all your match pairs. This tile will provide you more context into the first number - is that a relatively good or poor result?
 
-Note that if you match more entities in the future these three numbers will present the total numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this match's row within the **Description** section. 
-
-**Second**, you can click the following button within the **Description** section in order to view the records for that specific match pair at the rule-level as shown below:
+**Second**, you can assess the results on the match-pair level as shown in blue above - viewing number of records that came from this match pair entities side by side with the percentage of matched records for that pair.
 
 //replace 7
 > [!div class="mx-imgBorder"] 
