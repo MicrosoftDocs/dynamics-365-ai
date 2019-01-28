@@ -32,7 +32,7 @@ Select the **Map** tile on the **Configure Data** page to get to *Map*.
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
 
-### Add entities to the Map page
+### Selecting First Entities
 
 Start the Map phase by selecting **Select Entities**:
 
@@ -40,14 +40,14 @@ Start the Map phase by selecting **Select Entities**:
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
 
-Within the next screen, add all the entities which, upon unification, might lead to a better understanding of your customers:
+Within the next screen, add all the entities which, upon unification into a unified customer dataset, might lead to a better understanding around your customers:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
 In the example above, the user searched for the Contact and Survey entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that Address exists only in the Contact entity). 
 
-Then, the user selected the Contact and Survey entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** screen. The user selected those two entities, and then selected **Save**.
+Then, the user selected the *Contact* and *Survey* entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** screen. The user selected those two entities, and then selected **Save**.
 
 > [!NOTE]
 > You should search for and select at least two entities in order to benefit from the data configuration process.
@@ -64,29 +64,19 @@ Following entity selection, the following page appears:
 
 - In addition, the system auto-selected for you all the attributes for which attribute-type was auto-identified. Those attributes include Names, Email Adresses, and several others. As shown in red above, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
 
-#### Adding and Removing Attributes
+### Adding and Removing Attributes
 
-Upon clicking the **Edit** button, a window appears on the right which can be used to manually remove attributes and/or add additional attributes:
+Upon clicking the **Edit** button, a window appears on the right which can be used to manually remove existing attributes and/or add additional attributes:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")
 
-Here you can select all the attributes that are relevant for each of your entities. Remember, in the example above we had two entities: *Contact* and *Survey*. Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all the attributes. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all attributes** (green). Selecting **Select all attributes** again can be used to unselect all your chosen attributes.
+**Attributes Pnael**: Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all the attributes. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all attributes** (green). Then, the same button can be used to unselect all your chosen attributes.
 
-## Select primary keys and define attribute types
 
-replace 3
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-primary-keys.png "Select primary keys")
+## Adding and Removing Entities
 
-Select each of the customer entities tabs on the left to open its corresponding attributes table as shown above for the *Survey* entity example. Below we will explore this table's columns from left to right. Note: you must make selections within all the mandatory columns:
-
-- **Primary key (mandatory selection):** For executing the identity-resolution process, it's mandatory to select one attribute as a ***primary key*** for each of the entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
-- **Type (mandatory selection):** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type. Lastly, note that for Dynamics 365 entities, some attribute-types will be auto-identified by the system and you can always change those default definitions. 
-
-## Edit entities list 
-
-Click **Select** to add or edit the entities that you selected upon entering the Map screen for the first time.
+Click **Select** to either add or remove entities:
 
 replace 4
 > [!div class="mx-imgBorder"] 
@@ -97,16 +87,29 @@ Select the entities that you want to add to your existing entities list and dese
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
 
-To add an attribute to an existing entity, first select the entity to which you want to add data. Select **Edit**, and then select **Attributes to [entity's name]**. In the example below, we are adding attributes to the Contact entity.
+### Selecting Primary Keys and Defining Attribute Types
+
+replace 3
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-primary-keys.png "Select primary keys")
+
+There are two mandatory selections you must complete prior to the completion of the Map phase:
+
+- **1.Primary key:** It's mandatory to select one attribute as a ***primary key*** for each of the entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
+- **Attribute Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type. As mentioned earlier, some attribute-types might already been identified by the system and you can always change those default definitions. 
+
+## Editing the Entities List 
+
+Click **Select** to either add entities or remove entities:
+
+replace 4
+> [!div class="mx-imgBorder"] 
+> ![](media/data-manager-configure-map-edit.png "Select Edit")
+
+Select the entities that you want to add to your existing entities list and deselect entities that you want to remove. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-edit-attributes-survey.png "Select Attributes to entity name")
-
-## Edit Attributes List
-
-You might want to select additional attributes or deselect attributes you have selected in the past. That can be done via the **Edit** button as before. In the example below, we deselect **Gender** and add **Residence Country**.
-
-<!-- [Map final 15] -->
+> ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
 
 ## Next Step
 As part of the data configuration process, proceed to the **Match** page either by selecting **Match** in the left menu or by selecting the **Match** tile from the **Configure Data** page.
