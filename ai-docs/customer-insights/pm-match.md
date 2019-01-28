@@ -54,7 +54,8 @@ Below, we will explore these steps in a sequential order.
 
 Each **Match** pair involves two entities that are unified into a single entity while maintaining unique customer's records. Picking entities for each of your match pairs is done via the *Match Order Panel*:
 
-// replace 1
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-order.png "Match order")
 
 > [!IMPORTANT]
 > The entity that you will choose as your **primary entity** will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. 
@@ -84,16 +85,23 @@ Once completing step one, you can expect to reach the Match screen that is shown
 
 Moreover, the warning sign (shown in red above) implies that we didn't define **at least one match rule** for our match pair which is mandatory with regard to all defined match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition Panel** that can be accessed through the following button: 
 
-// update with match new 7
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-need-rules.png "Need rules")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-rule.png "Create new rule")
 
 That will open the following **rule panel**:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-rule-condition.png "Create new rule and conditions")
 
 Besides the rule's name, this panel enables you to specify all the ***Conditions*** for that role. Each Condition is represented by two rows that include the following mandatory selections:
 
 1. **Attribute that will be used for matching from the first match pair entity**: Name, Phone, Email Address, etc. 
 
 [IMPORTANT!]
-> You should aviod matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by. Click here for a list of typical activity attributes: 
+> You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by. Click here for a list of typical activity attributes: 
 
 2. **Attribute that will be used for matching from the second match pair entity**.
 3. **Normalization method**: Various normalization options are available for the attributes you chose in (1) and (2) - from removing punctuation, to removing spaces, to many others. Note that for some attribute types, a specific and possibly optimal combination of normalizations will be automatically chosen for you. This option is called **Semantic Normalization** in the drop down and you can change this default selection to any of the other options. 
@@ -108,27 +116,27 @@ Besides the rule's name, this panel enables you to specify all the ***Conditions
 ### Adding multiple conditions
 If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add New Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
-// update with match new 9
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-rule-add-condition.png "Add condition")
 
 For the purpose of this section we will limit our match rule to only one condition
 
 ### Adding multiple rules
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) as shown below) and only then continue to the second rule (stated as (2)) if no matches were identified under the first rule. 
 
-// update with match new 10
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-rule-priority.png "New rule priority")
 
 For the purpose of this section we will stay with only one rule.
 
 ## Step Three: Running the first match 
 Now you are ready to run the matching that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
-// replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
 
 It's possible that the matching algorithm will take some time to complete. As highlighted below, there is a message that shows that the matching is still running:
 
-//replace 3
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 

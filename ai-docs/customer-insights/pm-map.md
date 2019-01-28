@@ -36,7 +36,6 @@ Select the **Map** tile on the **Configure Data** page to get to *Map*.
 
 Start the Map phase by selecting **Select Entities**:
 
-//replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
 
@@ -56,7 +55,6 @@ Then, the user selected the *Contact* and *Survey* entities. Those were found wi
 
 Following entity selection, the following page appears:
 
-//replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-ingested-entities.png "Ingested entities")
 
@@ -78,7 +76,6 @@ Upon clicking the **Edit** button, a window appears on the right which can be us
 
 Click **Select** to either add or remove entities:
 
-replace 4
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit.png "Select Edit")
 
