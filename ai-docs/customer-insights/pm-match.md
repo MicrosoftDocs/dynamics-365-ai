@@ -50,9 +50,6 @@ If it's your first time through the match process, you should complete all the s
   
 Below, we will explore these steps in a sequential order. 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-page.png "Match page")
-
 ## Step One: Specifying the Match Order
 
 Each **Match** pair involves two entities that are unified into a single entity while maintaining unique customer's records. Picking entities for each of your match pairs is done via the *Match Order Panel*:
@@ -72,18 +69,20 @@ Each **Match** pair involves two entities that are unified into a single entity 
 > Considerations for your first selection can help you choose **entity 2** as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other entities that you have ingested?
 
 After selecting the first two entities for your first match, you can continue and specify additional matches that will be excuted after your first match. That can be done via the **Add Entity** button as shown below (in the example shown, *TestData* from *CallRecordSmall* will be matched with the entity that is created from WebAccountService: TestData and ContactCSV: Testdata* (the primary entity)
-Lastly, select **Save**. You should get the following message:
 
-// update with match new 5
+//
 
-- Choosing **Yes** will take you to the **Rule Definition Panel** which we will cover in step two.
-- Choosing **No** at this point will take you to the **Match Screen** as shown below. Notice that a corresponding row was created in that screen for the entity that you have just created. You can always delete or edit match pairs by selecting the **Edit** button as shown in blue below. The warning sign (shown in red) implies that we didn't define rules for that match pair yet which is mandatory:
+You can always delete match pairs by selecting the button that is shown below. Lastly, click **Save** to save your Match order.
 
-// update with match new 6
+//
 
 ## Step Two: Defining rules for your first match pair
 
-For each of your match pairs you should define at least one match rule. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define rules for your first match pair, open the **Rule Definition Panel** that can be accessed through the following button: 
+Once completing step one, you can expect to reach the Match screen that is shown below and which includes your defined matches (in the example below the user specified only one match pair in his Match Order Panel). Note that the tiles at the top of the screen are empty since we didn't run the match yet. These will be used for validation later. 
+
+//
+
+Moreover, the warning sign (shown in red above) implies that we didn't define **at least one match rule** for our match pair which is mandatory with regard to all defined match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition Panel** that can be accessed through the following button: 
 
 // update with match new 7
 
