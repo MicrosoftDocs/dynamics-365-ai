@@ -45,8 +45,7 @@ If it's your first time through the match process, you should complete all the s
 2. Defining rules for the first match pair
 3. Running your specified matches
 4. (Optional) Reviewing and validating your mtaches
-5. (Optional) Making changes to your rules and definitions
-6. (Optional) Reordering your matches
+5. (Optional) Making changes to your Match Order and Rules' Definitions
   
 Below, we will explore these steps in a sequential order. 
 
@@ -114,12 +113,12 @@ Besides the rule's name, this panel enables you to specify all the ***Conditions
 - Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium*** level servs as a middle-ground option. 
 
 ### Adding multiple conditions
-If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add New Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
+If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add Condition** button as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-add-condition.png "Add condition")
 
-For the purpose of this section we will limit our match rule to only one condition
+For the purpose of this section we will limit our match rule to only one condition.
 
 ### Adding multiple rules
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) as shown below) and only then continue to the second rule (stated as (2)) if no matches were identified under the first rule. 
@@ -129,24 +128,20 @@ If each condition applies to a single pair of attributes, then rules represent s
 
 For the purpose of this section we will stay with only one rule.
 
-## Step Three: Running the first match 
-Now you are ready to run the matching that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
+## Step Three: Running your Specified Match Order
+Now you are ready to run the match order that you have defined in Steps One and Two. This can be done by clicking **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
 
-It's possible that the matching algorithm will take some time to complete. As highlighted below, there is a message that shows that the matching is still running:
+It's possible that the matching algorithm will take some time to complete. While running, you can expect to see the following status diagram:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-running.png "Data match running")
 
-Also note that while waiting the following window appears:
+**While it's not possible to use any of the match screen functionalities until the match process completes, it's possible to visit other product modules through the left navigation menu** (for example you may want to utilize this time to define relationships through the Relationships screen or activities via the Timeline screen).
 
-// update with match new 11
-
-This diagram includes the status of your matches. You can see that your match is in a **Matching** state which means it's in progress (also represented by a green line as shown above). **While it's not possible to use any of the match screen functionalities until the match process completes, it's possible to visit other product modules through the left navigation menu** (for example you may want to utilize this time to define relationships through the Relationships screen or activities via the Timeline screen).
-
-Upon the completion of the match the match screen will become available again and the **Match Running** message will disappear. 
+Also note that above the diagram there is a **Matching records** notification as long as the Match algorithem running. Upon the completion of the match the match screen will become available again and the **Matching records** message will disappear. 
 
 // replace 4
 > [!div class="mx-imgBorder"] 
@@ -157,49 +152,45 @@ Upon the completion of the match the match screen will become available again an
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-refresh.png "Select refresh")
 
-As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process the unified customer entity can be found and reviewed in the **Entities** page:
+As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process a preview of the unified customer entity can be viewed:
 
 // replace 5
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
 
-Clicking the master entity will show you a preview of it's records as shown below. Note that:
-- The **Score** column reflects how certain it is that each of the records were accurately matched (confidence scores)
-- The rest of the columns present the data that was taken from the two original entities. Columns to the left of the *Scored* column (highlighted in blue below) present data that was taken from the first match pair entity while columns to the right of the *Scored* column present data taken from the second match pair entity (highlighted in green below):
+Note that:
+- The column shown above in blue reflects for each of your recods how certain it is that it was accurately matched (confidence score)
+- The rest of the columns present the data that was taken from the two original entities. Columns to the left of highlighted column present data that was taken from the first match pair entity while columns to the right present data taken from the second match pair entity. 
+- You can also view the customer profile entity within the **Entities screen.**
+- Lastly, as shown in red, you can also download the customer profile dataset. 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/match-conflation-match-pairs-scored.png "Conflation Match Pairs Scored column")
+At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 3-6). However, it's recommended to go through at least a portion of step 3 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
+## Step Four (optional): Reviewing and Validating your Match Pairs
+Here you will learn how to evaluate in depth your each of your match pairs qualities and improve it. There are a few things you can do.
 
-- At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-7). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
-
-## Step Four (optional): Reviewing and validating the first match pair
-Here you will learn how to evaluate in depth your first match's quality and improve it. There are a few things you can do.
-
-**First**, you can gain first insights by reviewing the tiles at the top of the page:
+**First**, you can gain first insights by reviewing the tiles at the top of the page (shown in red below):
 
 //replace 6
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-results.png "Data match results")
 
-1. The left tile shows the number of records that were successfully matched.
-2. The center tile shows the number of records that were not successfully matched.
-3. The right tile shows the number of customers that are included in the original two match pair entities whether they were matched or not. This tile will provide you more context into the first number above - is that a relatively good or poor result?
+1. The left tile shows the number of **unique profiles** the system had identified.
+2. The right tile shows the number of matches, in total, that were completed accross all your match pairs. This tile will provide you more context into the first number - is that a relatively good or poor result?
 
-Note that if you match more entities in the future these three numbers will present the total numbers of matched records, unmatched records, and customers across all your matchings taken together. When creating more matches, you can always view those numbers for a specific match by looking at this match's row within the **Description** section. 
-
-**Second**, you can click the following button within the **Description** section in order to view the records for that specific match pair at the rule-level as shown below:
+**Second**, you can assess the results of each match pair as shown in blue above - viewing number of records that came from this match pair entities side by side with the percentage of successfully matched records.
 
 //replace 7
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
 
-This page presents all your match pair records. It also includes the **Scores** field which states how likely it is that this record was indeed matched accurately (can also be thought of a kind of a confidence score). It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
+**Third,** you can view the percentage of successfully matched records at the Rule-level (shown in red above). Moreover, by clicking the button that is shown in blue you can view all these records (again, on the rule-level). The following window examplifies the preview you can expect to see:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-preview-rule.png "Preview rule data")
+//
 
-**Lastly**, you can experiment with different thresholds around your criteria in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
+It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
+
+**Lastly**, you can experiment with different thresholds around your conditions in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
 1. Select the **Three Dots Icon** for the match pair rule that you want to experiment with (an example is shown in red below). Then, click **Edit** as also shown in red:
 
@@ -207,10 +198,9 @@ This page presents all your match pair records. It also includes the **Scores** 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
-2. Identify the criterion that you want to experiment with. Remember, each criterion is represented by one row in the panel below. Once you've identified the criterion you want to experiment with, select the following:
+2. Identify the condition that you want to experiment with. Remember, each criterion is represented by one row in the panel below. Once you've identified it, select the following:
    
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-match-rule-criteria.png "Edit match rule criteria")
+//
 
 3. At this point the page that you see depends on whether you selected a fuzzy or exact match for that criteria. 
 
@@ -220,21 +210,21 @@ This page presents all your match pair records. It also includes the **Scores** 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
 
-       
   Here you can view the number of matched and unmatched records for that criteria (shown in red below). You can also view the records in the table section (shown in blue).
        
   If you chose fuzzy for that criteria, you will see the following page.
        
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-fuzzy-criteria.png "Match criteria preview")
-
-       
+     
 This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green).
        
-## Step Five (optional): Making changes to the rules' definitions
+## Step Five (optional): Making Changes to your Match Order
 If you followed Step Four, then at this point you should have a better understanding around the quality of your first match. At this point you can translate that understanding into a better match quality by reconfiguring some of your match parameters.
 
-- **Changing the Match Pair entities**: That can be done by selecting the match row in the **Description** section and editing the match pair fields. Remember that the field to the left represents the entity that will be used as a basis for your end-state master entity and hence it should contain reliable data and some attributes that are shared by other entity or entities. 
+- **Changing the Match Order**: That can be done by selecting the **Edit** button shoen below and editing the match order fields:
+
+//Replace 10
 
 - **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by selecting **Edit** as shown earlier within the match row and substituting the first rule's attributes with the second rule's attributes.
 
@@ -244,54 +234,6 @@ If you followed Step Four, then at this point you should have a better understan
     - **Changing normalization methods for a criteria**: This can be done by reselecting the normalization methods.
     - **Changing from an *Exact* match to a *Fuzzy* match:** Doing so can lead to a higher number of matched records at the possible expense of lower accuracy. Doing the opposite might carry the opposite tradeoff - higher accuracy for a lower number of matched records.
     
-## Step Six (optional): Adding additional matches if needed
-Up to now, you have created, run, and evaluated one match. In many cases, you will want to bring data to your unified master data set from more entities. Prerequisite for doing so is that these additional entities were ingested through the **Get Data** page and mapped through the **Map** page.
-
-In order to match a new entity with the unified data set that you created in Steps One and Two, select  **Edit** in the **Description** section:
-
-// replace 10
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-edit.png "Match edit")
-
-
-Then select the **Add New Match** button in order to add another match pair:
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-add-new.png "Add new match")
-
-
-Note that upon selecting **Add New Match**, a new row was created and the unified data set that you created in Steps One and Two now appears as one of the new match pair entities (highlighted in blue below).
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-new-entity.png "New match entity")
-
-
-In order to complete the creation of your second match, select the new entity that you want to match with your unified master entity (shown in red below) and select **Save**.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-new-entity-save.png "New match entity save")
-
-
-Note that this new match will also appear in the **Summary** section (shown in red below).
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-new-summary.png "New match entity summary")
-
-
-You can also notice that this new match has a **Rules Needed** status (shown as a warning sign within the match's row as shown in blue above). That implies that you haven't defined rules for that match pair which is mandatory for running the match. You should repeat Steps Two and Three for that new match pair.
-
-
-## Step Seven (optional): Reviewing and changing the order by which multiple matchings are executed
-**Reviewing the matchings order**: That can be quickly done via the Summary section as exemplified below for multiple matches:
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-multi-entity-summary.png "New match multiple entity summary")
-
-
-Within the example above, the **SurveyContact** entity from the **SurveyData** datasource was chosen as the basis for the **master data set** that will be the end result of the **data configuration process**. That entity was first matched with the **Sales** entity from the **Dynamics** datasource which produced the **first Match Pair**. Then, this first match pair was matched with the **WifiContact** entity from the **WifiData** datasource which produced a second match pair.
-
-**Changing the order by which matches are executed:** This can be done by replacing a given row's values with another row's values. In the example above, in order to switch the order of the first match pair and the second match pair, we will need to replace the entities in the first match pair (**SurveyContact** and **Sales**) with those of the second match pair (**Sales** and **WifiContact**) and vice versa. 
-
 ## Next Step
 Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section, the third and last **Data Configuration** step. 
 
