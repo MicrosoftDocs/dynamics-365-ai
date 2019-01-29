@@ -68,11 +68,11 @@ Within the next step you will add **entities** to your data source. In Customer 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
-3. At this point you should use the power query window **to select all the entities that you want to load:**
+3. At this point you should use the power query window shown below to review and possible configure the data. The entities that the system identified in your selected datasource will appear to the left (shown in red). 
 
-//
+// add 1
 
-**In this step you can also transform the data.** To avoid data-related issues, you should complete the next few transformations:
+**In this step you can also transform the data** (transformations area is shown in blue in the image above). To avoid data-related issues, you should complete the next few transformations:
 
 - If you are ingesting data from a .CSV file and the first row has headers you should select **Transform Table** to do the following:
 
@@ -81,22 +81,27 @@ Within the next step you will add **entities** to your data source. In Customer 
 
 - If your data includes **Day Time** columns, you should define those as **Text** type columns by...:
 
-//add image 1
-
-In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)**. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
+- In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)**. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
-4. Select **Save** to save the data source:
+4. Click **Create** at the bottom of the power query screen to save:
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+// add 2
 
-5. After saving, select **Refresh** to load the data to Customer 360:
+5. After saving, you can expect to see your datasource added in the datasources screen:
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-map-contact.png "Map to standard entity Contact")
+// add 3
+
+For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refresehed for the datasource, as well as it's status. There are three possible status: 
+1. Data was successfully ingested (example is shown in red in the image above)
+2. Data was not ingested yet (example is shown in blue in the image above)
+3. Data is still loading into Customer 360 (represented by a *warning sign* status)
+
+At this point you should refresh the datasource that you have just saved. Click the button highlighted below in red and then hit **Refresh** as highlighted in blue:
+
+// replace 1
 
 Note: In the future this step will happen automatically.
 
@@ -119,10 +124,11 @@ Follow the below steps to edit an existing data source:
 
 2. Click on the **Edit** button to edit the data source in Power Query: 
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-source-edit.png "Get data source Edit")
+// replace 2
 
-3. Lastly hit **Save** as we did when we originally created our data source
+3. Don't forget to hit **Create** in power query screen upon completing the edits in order to save your changes. If you wish to remove a datasource, click **Delete** for that datasource:
+
+// add 4
 
 ### Next steps: 
 At this point you are ready to unlock unique customer insights through the mandatory **Configure Data** sections (those include **Map**,**Match** and **Merge**). If you first wish to review all the entities that were ingested, visit the **Entities** section first. 
