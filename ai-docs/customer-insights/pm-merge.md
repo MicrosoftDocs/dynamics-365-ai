@@ -22,6 +22,37 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-profile-attributes.png "Merge profile attributes")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-dont-merge.png "Merge profile attributes don't merge")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+
+
 This is the last phase within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
 
 Once completing Match, you can access Merge via the **Merge** tile within the **Configure Data** page.
