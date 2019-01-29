@@ -44,12 +44,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
 3. Specify a name, description, and one or more trigger phrases for the topic. A trigger phrase is a phrase that a customer enters to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic.
 
-   Select **Add** to add the trigger phrase.
-
-   > [!div class="mx-imgBorder"]
-   > ![Create topic](media/create-topic-3-1.png)
-
-   Then select **Save topic**.
+   Select **Add** to add the trigger phrase, and then select **Save topic**.
 
    > [!div class="mx-imgBorder"]
    > ![Create topic](media/create-topic-3-2.png)
