@@ -30,7 +30,7 @@ STEVE'S ORIGINAL
    > ![Create a new bot](media/create-bot-2.PNG)
 
 SHELLY'S TEST
-> ![Create a new bot](media/virtual-agent-create-bot-SH-1.png)
+> ![Create a new bot](media/virtual-agent-create-bot-sh-1.png)
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
