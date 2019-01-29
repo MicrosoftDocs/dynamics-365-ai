@@ -26,7 +26,7 @@ robots: noindex,nofollow
 
 ## Bring your data into Customer 360 
 
-***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
+***Important Note***: At this point, on-prem data sources are not supported in Customer 360. 
 We hope to enable that option soon.
 
 ### Step 1 (mandatory): Creating a new data source
@@ -42,33 +42,37 @@ To load data to Customer 360 follow the following process:
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-add.png "Get data add")
 
-3. **Provide a name and description** for the data source and select **Create**. This will create the data source for you. 
+3. **Provide a name** for the data source and select **Save**. This will create the data source for you. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-create.png "Get data create")
 
 ### Step 2 (mandatory): Adding Entities
-Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these data sets is an **entity** (such as an **Orders** dataset, a **Sales** dataset, etc). 
+Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these datasets is an **entity** (an **Orders** dataset, a **Sales** dataset, etc). 
 
-1. In order to start ingesting entities, pick one of the many available data sources that are available within the screen below.
+1. In order to start ingesting entities, pick one of the many available connectors that are available in the screen below.
 - **Note that some of the following data sources are not supported at this point, including on-prem sources and OData**. 
-- **Also note that some of the following connoctors replaced older connector versions. For example, if you wish to Utilize the Dynamics 365 AX connector, you should choose the "Common Data Service for Apps" option.**
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-select-source.png "Get data select source")
-  
-2. After choosing a data source, you will be required to fill some fields as shown in the example below. For further guidance around filling those fields for some of the most common data sources (Dynamics 365, csv. and excel files, Blub storage, Azure SQL Database, etc), review the **Common Connectors Definitions** sub-section **that can be found under this section** in the left menu. 
+
+- **If you wish to load data from Dynamics 365, make sure to choose the  *Common Data Service for Apps* connector shown below:
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+   
+- **Lastly, note that some of the following connectors replaced older connector versions. For example, if you wish to Utilize the Dynamics 365 AX connector, you should choose the *Common Data Service for Apps* option.**
+
+2. After choosing a connector, you will be required to fill some fields. For further guidance around filling those fields for some of the most common data sources (Dynamics 365, csv. and excel files, Blub storage, Azure SQL Database, etc), review the **Common Connectors Definitions** sub-section **that can be found under this section** in the left table of contents.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
+3. At this point you should use the power query window **to select all the entities that you want to load:**
 
-<!-- This image will be moved by Nimrod -->
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-sources-actions.png "Actions for the data source")
+//
 
-
-3. From the list of available entities, select the entity that you want to load. **In this step you can also transform the data.** To avoid data-related issues, you should complete the next few transformations:
+**In this step you can also transform the data.** To avoid data-related issues, you should complete the next few transformations:
 
 - If you are ingesting data from a .CSV file and the first row has headers you should select **Transform Table** to do the following:
 
@@ -79,8 +83,7 @@ Within the next step you will add **entities** to your data source. In Customer 
 
 //add image 1
 
-For a list of optional transformations make sure to visit the **Power Query Data Preparation** section in the left side menu. 
-(move):In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)** during your ingestion process. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
+In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)**. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
@@ -97,7 +100,7 @@ For a list of optional transformations make sure to visit the **Power Query Data
 
 Note: In the future this step will happen automatically.
 
-**At this point, repeat the same steps for each data source into which you want to ingest data using Customer 360.**
+**At this point, repeat the same steps for each datasource you wish to ingest to Customer 360.**
 
 ### Step 3 (optional): Reviewing Ingested Data
 Customer 360 will take a couple of minutes to load the data. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity Page** visit the **Entities section**.
@@ -122,5 +125,5 @@ Follow the below steps to edit an existing data source:
 3. Lastly hit **Save** as we did when we originally created our data source
 
 ### Next steps: 
-At this point you are ready to unlock unique customer insights through the **Configure Data** sections (those include **Map**, **Match** and **Merge**). If you wish to review all the entities that were ingested as part of the **Get Data** process, review the **Entities** section first. 
+At this point you are ready to unlock unique customer insights through the mandatory **Configure Data** sections (those include **Map**,**Match** and **Merge**). If you first wish to review all the entities that were ingested, visit the **Entities** section first. 
 
