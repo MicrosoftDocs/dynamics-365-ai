@@ -29,28 +29,25 @@ robots: noindex,nofollow
 > ![](media/configure-data-merge-dont-merge.png "Merge profile attributes don't merge")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-dont-merge-birthdate.png "Merge profile attributes don't merge")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-exclude-from-profile.png "Merge excluded from profile")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-profile-attributes-full-name.png "Merge profile attribute full name")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-attributes2.png "Merge attributes")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-profile-attributes2.png "Merge profile attributes")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+> ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
 
 
 This is the last phase within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
