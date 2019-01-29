@@ -25,7 +25,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
    
  TEST SCREEN SHOT
  
- > ![Shelly's screen](media/screen shot test unedited.png)
+ > ![Shelly's screen](media/screen-shelly.png)
 
     The trigger phrase starts the topic's conversation, and the Test Bot displays the bot responses and user response choices you specified.
 
