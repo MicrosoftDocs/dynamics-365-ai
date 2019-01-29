@@ -25,9 +25,12 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
    Navigate to [https://va.ai.dynamics.com/marketing](https://va.ai.dynamics.com/marketing) in your browser, and select **Sign In**.
 
    On the **Create a new bot** screen, select the template you want to use, either Retail or General. Then specify a name and environment for the bot, and select **Create**.
-
+STEVE'S ORIGINAL
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
+
+SHELLY'S TEST
+> ![Create a new bot](media/virtual-agent-create-bot-SH-1.PNG)
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
