@@ -39,10 +39,8 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
    > [!div class="mx-imgBorder"]
    > ![Create database](media/how-to-flow-1-3.PNG)
 
-     
 > [!NOTE]
 > Creating a database and environment can take several hours.
-
 
 ## To create a Microsoft Flow environment
 
@@ -57,7 +55,6 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
    > [!div class="mx-imgBorder"]
    > ![Verify database](media/how-to-flow-1-5.PNG)
-
    > [!NOTE]
    > Since creating a new environment can take some time, the new solution might not immediately appear in the list. Log out and check again in 30 to 60 minutes.
 
@@ -124,7 +121,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 ## To create a virtual agent that invokes a flow
 
-1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://bots.ppe.customercareintelligence.net/#/](https://bots.ppe.customercareintelligence.net/#/), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
+1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://va.ai.dynamics.com/#/](https://va.ai.dynamics.com/#/), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
 
    > [!div class="mx-imgBorder"]
    > ![Create virtual agent](media/how-to-flow-14.PNG)
@@ -193,9 +190,8 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 8. To send an email message to the address specified by the customer, select **Action** to display the list of available actions, and then select the flow action you created.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select variable](media/how-to-flow-22.png)
-
+    > [!div class="mx-imgBorder"]
+    > ![Select variable](media/how-to-flow-22.png)
     > [!NOTE]
     > The Flows and virtual agent must be created in the same environment. Otherwise, the flow action does not appear in the list of available actions.
 
