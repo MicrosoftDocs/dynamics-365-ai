@@ -17,7 +17,7 @@ topic-status: Drafting
 
 # View and export KPI data (GDPR)
 
-Applies to Dynamics 365 (online), version 9.1.0
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file. The KPI data is stored in the following entities:
 

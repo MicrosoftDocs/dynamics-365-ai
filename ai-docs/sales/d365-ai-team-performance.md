@@ -22,7 +22,12 @@ topic-status: Drafting
 
 # Preview: Analyze team performance
 
-Applies to Dynamics 365 (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
 As a sales manager, you must help every sales rep to win deals and generate revenue more effectively. Using the **Teams** section, you can get information on how your team is performing when it comes to attaining their objectives. You can analyze the data and coach everyone to win deals and generate revenue. 
 
