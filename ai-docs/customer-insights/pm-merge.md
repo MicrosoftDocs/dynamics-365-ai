@@ -26,10 +26,7 @@ This is the last phase within the data configuration process and it's all about 
 
 Once completing Match, you can access Merge via the **Merge** tile within the **Configure Data** page.
 
-// replace
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-add-attribute.png "Merge add attribute")
+//
 
 When you ready to start the Merge process, simply click **Merge** in the following screen:
 
@@ -42,11 +39,16 @@ The next screen that you will see is the **Merge screen:**
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attribute-name.png "Merge attribute name")
 
-The goal behind this screen is to enable you, the user, to choose all the attributes that should be merged and included in your **unified customer profile entitiy** (the end result of the configuration process). Notice that some attributes were already auto-selected by the system (highlighted in the image above). 
-- The attribute's name appears in the first column (shown in red)
-- The attribute's entity is specified in the second column (shown in blue)
-- The attribute's data source is specified in the third column (shown in green)
-- You should review those attributes and decide whether you wish to include them in your unified entity. If this is not the case for one or more of the attributes, you can click the button that is highlighted below, which will move the attribute to the **excluded from profile** section:
+There are two goals behind this screen:
+- 1.**Choosing all the attributes that should be merged within your unified customer profile entitiy** (the end result of the configuration process). Notice that some attributes were already auto-merged by the system (highlighted in the image above):
+- The attribute's name appears in the first column 
+- The attribute's entity is specified in the second column 
+- The attribute's data source is specified in the third column 
+- If you wish to unmerge any of these auto-merged attributes, use the button shown below and click **Don't Merge**:
+
+//
+
+- 2.**Excluding attributes from the customer profile entity:** If you think that some attributes should be excluded from the final customer profile entiy, you can click the same button used for unmerging but this time choose **Exclude**. That will move the attribute/s to the **excluded from profile** section:
 
 // add merge new 3
 
@@ -57,23 +59,25 @@ Adding a merged attribute is available via the **Add Merged Attribute** button a
 > [!div class="mx-imgBorder"] 
 > ![](media/merge-add-merge-attribute.png "Add merged attributes")
 
-We will perform the manual merge process within the **Add Merged Attribute** panel as shown below. This panel consists of three parts: **Name** (shown in red), **Unmerged Entities** (shown in blue) and **Merge Policy** (highlighted in green): 
+We will perform the manual merge process within the **Add Merged Attribute** panel as shown below. This panel consists of three parts: - - **Name** 
+- **Display Name** 
+
 
 // update with Merge new 5
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-add-new-name.png "Add new attributes")
 
-First we will type an attribute name in the **Name** field. For exemplification, we will define the merged attribute **Name**.
- 
-Then we will search for attributes that might correspond to that attribute within our matched entities by typing **Name** in the **Unmerged Entities** field as shown below:
+**Name**: First we will type an attribute name (so we can identify it in the Merge screen later).
+
+**Display Name**: Then we will determine how we want our merged attribute to be named in our final Customer Profile dataset.
 
 // update with merge new 6
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-image10.png "Image 10")
 
-Third, within the menu highlighted in red above, we will select all the attributes that we want to merge from our matched entities. As shown, we have selected **First Name** from **Sales**, **Name** from **SurveyContact** and **Name** from **WifiContact**.
+**Select Duplicate Attribute**: Within this menu we will select all the attributes that we want to merge from our matched entities. We can also use the search field to type our attributs' names. 
 
-**Lastly, we will define the Merge Policy:** Here we will prioritize one source above the others - the values for our merged attribute will come only from that source. If we think, for example, that the **Sales** entity includes the most accurate data about the **Names** attribute, than in the panel shown below, we will first change the policy from **default** to **ordered** (as highlighted in blue) and then click the arrow sign next to **SurveyContact**. As a result **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the **Name** attribute.
+**Rank by Importance:** Here we will prioritize one attribute above the others - the values for our merged attribute will come only from that source. If we think, for example, that the **Sales** entity includes the most accurate data about the **Names** attribute, than in the panel shown below, we will first change the policy from **default** to **ordered** (as highlighted in blue) and then click the arrow sign next to **SurveyContact**. As a result **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the **Name** attribute.
 
 // update with merge new 7
 > [!div class="mx-imgBorder"] 
