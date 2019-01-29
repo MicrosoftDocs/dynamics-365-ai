@@ -18,7 +18,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 ## To create a new PowerApps environment
 
-1. Enter [https://tip1.admin.powerapps.com/environments](https://tip1.admin.powerapps.com/environments) in your browser to open the PowerApps Admin center.
+1. Enter [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center.
 
 2. Select **New environment** to open the New environment screen.
 
@@ -44,7 +44,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 ## To create a Microsoft Flow environment
 
-1. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal to create one. Enter [https://us.tip1.flow.microsoft.com/en-us/]( https://us.tip1.flow.microsoft.com/en-us/) in your browser to open the Flow portal.
+1. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal to create one. Enter [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser to open the Flow portal.
 
 2. Select your User icon in the upper-right corner of the screen, and then select the PowerApps environment you created from the list.
 
@@ -121,7 +121,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 ## To create a virtual agent that invokes a flow
 
-1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://va.ai.dynamics.com/#/](https://va.ai.dynamics.com/#/), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
+1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://va.ai.dynamics.com](https://va.ai.dynamics.com), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
 
    > [!div class="mx-imgBorder"]
    > ![Create virtual agent](media/how-to-flow-14.PNG)
