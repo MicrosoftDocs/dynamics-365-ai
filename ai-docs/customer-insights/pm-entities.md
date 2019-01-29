@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-After ingesting your data as part of the mandatory **Get Data** phase, you can quickly evaluate how complete and useful it is using the **Entities** page. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data** button as highlighted below:
+After ingesting your data using the **Data Sources** screen, you can quickly evaluate how complete and useful it is using the **Entities** page. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data** button as highlighted below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
@@ -36,7 +36,7 @@ The **Entities screen** includes seven columns (explored from left to right):
 - **Updated By**: Answers the question: *By whom was this entity's data refreshed?*
 - **Last Updated**: Answers the question: *"When was the last time this entity's data was refreshed?*
 
-The app automatically identifies values for four columns pictured above from your ingested data sources and, if the identification fails, it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections to it as needed.
+The app automatically identifies within your data values for some of this table's fields as shown in the image above. If identification fails, it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections as needed.
 
 ## Exploring a specific entity's data
 Select an entity to explore the different fields and records included with that entity.
@@ -44,11 +44,14 @@ Select an entity to explore the different fields and records included with that 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
 
-- When you open the Entities page, the **Data** tab is selected by default. The **Data table** provides details around each of this entity's records including the record's value, when it was created, and when was it was last refreshed.
+- When you open the Entities page, the **Data** tab is selected by default (shown in red above). The **Data table** provides details around each of this entity's records including the record's value, when it was created, and when was it was last refreshed.
 
-- When you select the **Fields** tab, the **Fields table** opens. This table shows the details of each of this entity's fields, including the field's name, data type, and type. For the data shown below no types were identified but for other datasets, types may be identified. **Types** stand here for CDM-associated types and hence can differ from those records' **data types** which are not CDM-related.
+- When you select the **Fields** tab (shown in blue below), the **Fields table** opens. This table shows the details of each of this entity's fields, including the field's name, data type, and type. For the data shown below no types were identified but for other datasets, types may be identified. **Types** stand here for CDM-associated types and hence can differ from those records' **data types** which are not CDM-related.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-fields.png "Data manager fields")
 
-Both the Fields table and the Data table show only a sample of your entity's data. In order to view the full data set, go to the **Get Data** page, select the entity, select **Edit**, and then view this entity's data within the power query editor as explained in the "Get Data" section.
+Both the Fields table and the Data table show only a sample of your entity's data. In order to view the full data set, go to the **Data Sources** screen, select your entity of interest, select **Edit**, and then view this entity's data within the power query editor as explained in the "Data Sources" section.
+
+## Next Step
+Please continue to the **Confugure Data** section where you will learn how to complete the mandatory data configuration phases (those are **Map**, **Match** and **Merge**)
