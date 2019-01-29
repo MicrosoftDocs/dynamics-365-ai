@@ -33,9 +33,11 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 
 - Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which requires you to go back to the Map screen and Map at least two entities.
 
+//
+
 - If you did map at least two entities, you can expect to reach the following screen where you should click the **Set Order** buton once you are ready to start the Match phase:
 
-
+//
 
 ## The Match phase
 As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
@@ -51,19 +53,19 @@ Below, we will explore these steps in a sequential order.
 
 ## Step One: Specifying the Match Order
 
-Each **Match** pair involves two entities that are unified into a single entity while maintaining unique customer's records. Picking entities for each of your match pairs is done via the *Match Order Panel*:
+Each **Match** involves two entities that are unified into a single entity while maintaining unique customer's records. In the example below, the user has selected three entities: *ContactCSV: TestData as* the **primary entity**, *WebAccountCSV: TestData* as **entity 2**, and *CallRecordSmall: TestData* as **entity 3**. The diagram above these selections helps explain how the match order will be executed: 
+- **Match1: First, Primary entity will be matched with entity 2**
+- **Match2: Then, the result of Match1 will be matched with entity 3**
+- And so forth (in our example we made selections only for two matches but the system supports as many matches as needed)
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-order.png "Match order")
+> ![](media/configure-data-match-right-entity.png "Add right entity")
 
 > [!IMPORTANT]
 > The entity that you will choose as your **primary entity** will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. 
 >There are two considerations that can help you select your primary entity:
 > 1. What entity do you consider having the most complete and reliable data on your customers?
 > 2. Does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-right-entity.png "Add right entity")
 
 > [!NOTE]
 > Considerations for your first selection can help you choose **entity 2** as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other entities that you have ingested?
@@ -80,12 +82,10 @@ You can always delete match pairs by selecting the button that is shown below. L
 
 Once completing step one, you can expect to reach the Match screen that is shown below and which includes your defined matches (in the example below the user specified only one match pair in his Match Order Panel). Note that the tiles at the top of the screen are empty since we didn't run the match yet. These will be used for validation later. 
 
-//
-
-Moreover, the warning sign (shown in red above) implies that we didn't define **at least one match rule** for our match pair which is mandatory with regard to all defined match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition Panel** that can be accessed through the following button: 
-
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-need-rules.png "Need rules")
+
+Moreover, the warning sign (shown in red above) implies that we didn't define **at least one match rule** for our match pair which is mandatory with regard to all defined match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition Panel** that can be accessed through the following button: 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule.png "Create new rule")
@@ -121,7 +121,7 @@ If you wish to match your entities **only** if multiple conditions are met, you 
 For the purpose of this section we will limit our match rule to only one condition.
 
 ### Adding multiple rules
-If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (stated as (1) as shown below) and only then continue to the second rule (stated as (2)) if no matches were identified under the first rule. 
+If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules with **Add Rules**. Note that when creating rules order matters: The matching algorithm will try to match on the basis of your first rule (represented by the first row in the table shown in red below) and only then continue to the second rule (represented by the second row) if no matches were identified under the first rule. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-priority.png "New rule priority")
@@ -151,10 +151,12 @@ Also note that above the diagram there is a **Matching records** notification as
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-refresh.png "Select refresh")
 
-As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process a preview of the unified customer entity can be viewed:
+As mentioned in step one, the first match results in the creation of a unified master entity while all subsequent matches result in the expansion of that entity. Hence, upon the completion of the matching process a preview of the unified customer entity can be viewed by clicking the folloiwng button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
+
+Which will open the Customer Profile Preview window: 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs-download.png "Conflation Match Pairs download")
@@ -165,7 +167,7 @@ Note that:
 - You can also view the customer profile entity within the **Entities screen.**
 - Lastly, as shown in red, you can also download the customer profile dataset. 
 
-At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 3-6). However, it's recommended to go through at least a portion of step 3 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
+At this point you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps 4-5). However, it's recommended to go through at least a portion of step 4 in order to validate the quality of your match which, in turn, can help you decide whether to continue to Merge or reconfigure your match definitions.
 
 ## Step Four (optional): Reviewing and Validating your Match Pairs
 Here you will learn how to evaluate in depth your each of your match pairs qualities and improve it. There are a few things you can do.
@@ -188,7 +190,6 @@ Here you will learn how to evaluate in depth your each of your match pairs quali
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-preview.png "Match preview")
 
-
 It is recommended to go through at least a part of it in order to validate that records were matched according to your expectations.
 
 **Lastly**, you can experiment with different thresholds around your conditions in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
@@ -202,16 +203,16 @@ It is recommended to go through at least a part of it in order to validate that 
    
 //
 
-3. At this point the page that you see depends on whether you selected a fuzzy or exact match for that criteria. 
+3. At this point the page that you see depends on whether you selected a fuzzy or exact match for that condition. 
 
-  If you chose **Exact** for that criteria, you will see the following page.
+  If you chose **Exact** for that condition, you will see the following page.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
 
-  Here you can view the number of matched and unmatched records for that criteria (shown in red below). You can also view the records in the table section (shown in blue).
+  Here you can view the number of matched and unmatched records for that condition (shown in red below). You can also view the records in the table section (shown in blue).
        
-  If you chose fuzzy for that criteria, you will see the following page.
+  If you chose fuzzy for that condition, you will see the following page.
        
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-fuzzy-criteria.png "Match criteria preview")
