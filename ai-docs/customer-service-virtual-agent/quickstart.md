@@ -29,6 +29,9 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
 
+    SHELLY'S TEST
+    > ![Create a new bot](media/virtual-agent-create-bot-sh-1.png)
+
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
    **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions have access to your virtual agent content.
