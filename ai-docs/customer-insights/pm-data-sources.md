@@ -68,12 +68,14 @@ Within the next step you will add **entities** to your data source. In Customer 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
 
-3. At this point you should use the power query window shown below to review and possible configure the data. The entities that the system identified in your selected datasource will appear to the left (shown in red). 
+3. At this point you should use the power query window shown below to review and possibly configure the data. The entities that the system identified in your selected datasource will appear to the left (shown in red).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
-**In this step you can also transform the data** (transformations area is shown in blue in the image above). To avoid data-related issues, you should complete the next few transformations:
+**In this step you can also edit and transform the data**: First choose an entity to edit or transform and then use one of the edit and transformations options (those options are shown in blue above). Also note that you can specify an order of execution for your transformations through the section that is shown in green (called *Steps* in the power query editor).
+
+To avoid data-related issues, you should complete the next few transformations:
 
 - If you are ingesting data from a .CSV file and the first row has headers you should select **Transform Table** to do the following:
 

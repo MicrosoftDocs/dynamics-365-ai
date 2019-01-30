@@ -22,12 +22,12 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Segments provides the ability to group your customers into cohorts that match a filter criteria based on various customer attributes such as their demographic, transactional or behavioral attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns or surveys to achieve desired business goals. Segments allows defining complex filter conditions based on the conflated customer entity and its data graph of related entities that are ingested from various data sources. Each segment, after processing, outputs a set of master customer entity records which matches the various filter criteria defined in the segment.
+Segments provides the ability to group your customers into cohorts based on demographic, transactional or behavioral customer attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns, sales activites or customer support actions to achieve desired business goals. Segments allows defining complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records which you can export and take actions upon.
 
 There are two types of segments:
 
-- **Static**: Segment with filter conditions that are processed once either upon the creation or update any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
-- **Dynamic**: Segment with filter conditions that are processed according to a recurring schedule. These segments are especially useful when customers attributes change over time to continuously update segment and keep targeting newly added customers. Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
+- **Static**: Segment that is processed only once - either upon the creation or update of any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
+- **Dynamic**: Segment that is processed according to a recurring schedule. These segments are especially useful when customers attributes change over time. Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
 
 **How is a segment defined**
 Each segment is defined by combining various filter criteria that customer and its related data called data graph must match to qualify to be a member of the segment. Segment Editor provides an experience to easily define these filter criteria over the entire data graph using one or more groups. 
