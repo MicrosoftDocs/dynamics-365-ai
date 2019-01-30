@@ -43,13 +43,13 @@ To configure the connection, you need to have a subscription to [!INCLUDE[Market
 
 ### Connect Dynamics 365 (online) to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
+1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. On the **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Configuration** page, in the **Select the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution to connect to** drop-down box, choose the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
+3. On the **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration** page, in the **Select the [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] solution to connect to** drop-down box, choose the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
 
-   ![microsoft dynamics 365 ai for market insights configuration view](media/social-insights-configuration-online.png "Microsoft Dynamics 365 AI for Market Insights Configuration view")  
+   ![Microsoft Dynamics 365 Market Insights configuration view](media/social-insights-configuration-online.png "Microsoft Dynamics 365 Market Insights Configuration view")  
 
 ## Connect Dynamics 365 on-premises to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] for Social Insights
 
@@ -61,13 +61,13 @@ To configure the connection, you need to have a subscription to [!INCLUDE[Market
 
 ### Connect Dynamics 365 on-premises to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
+1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. Follow the directions on the **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Configuration** page.
+3. Follow the directions on the **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration** page.
 
-   ![microsoft dynamics 365 ai for market insights configuration view](media/social-insights-configuration-on-premises.png "Microsoft Dynamics 365 AI for Market Insights Configuration view")
+   ![Microsoft Dynamics 365 Market Insights configuration view](media/social-insights-configuration-on-premises.png "Microsoft Dynamics 365 Market Insights Configuration view")
   
 ## Add [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] visuals to an entity form
 
@@ -183,9 +183,9 @@ To have the full set of options for creating a search topic available, it’s a 
 
 This action deletes all existing data in Dynamics 365 for the search topics, search topic categories and visuals for Social Insights.
 
-1. Select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
+1. Select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
 
-2. On the **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
+2. On the **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
 
    ![confirm screen to reset social insights](media/social-insights-confirm-reset.jpg "Confirm screen to reset Social Insights")
 
