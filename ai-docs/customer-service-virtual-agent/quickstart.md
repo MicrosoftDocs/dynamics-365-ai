@@ -26,11 +26,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    On the **Create a new bot** screen, select the template you want to use, either General or Retail. Then specify a name and environment for the bot, and select **Create**.
 
-   > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-bot-2.PNG)
-
-    SHELLY'S TEST
-    > ![Create a new bot](media/virtual-agent-create-bot-sh-1.png)
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
@@ -40,7 +36,6 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Select **Topics** in the navigation pane, and then select **New topic** to open the **Create a new topic** screen.
 
-   > [!div class="mx-imgBorder"]
    > ![New topic](media/create-topic-2.png)
 
    For more information on creating a topic, see [Creating topics for your bot](getting-started-create-topics.md).
@@ -49,26 +44,22 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Select **Add** to add the trigger phrase, and then select **Save topic**.
 
-   > [!div class="mx-imgBorder"]
    > ![Create topic](media/create-topic-3-2.png)
 
 4. Design the virtual agent's conversation path.
 
    Select **Edit** to open the conversation editor.
 
-   > [!div class="mx-imgBorder"]
    > ![Edit conversation](media/create-topic-8-1.png)
 
 5. In the conversation editor, add virtual agent and customer responses to the conversation.
 
    To specify a response by the virtual agent, select **Bot says**, and then enter a response in the **Bot says** box.
 
-   > [!div class="mx-imgBorder"]
    > ![Virtual agent response](media/create-topic-12.png)
 
    To specify a response by the customer, select **User says**, and then enter a response in the **User responses** box.
 
-   > [!div class="mx-imgBorder"]
    > ![User response](media/create-topic-14.png)
 
    Select **Save** to save the conversation.
@@ -77,7 +68,6 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Enter a trigger phrase for the topic at the **Type your message** prompt of the Test Bot, and then follow the conversation path.
 
-   > [!div class="mx-imgBorder"]
    > ![Start conversation](media/create-topic-21.png)
 
 7. Deploy the virtual agent. Once the virtual agent is created, you have the option to activate it either on a demo website or your own custom website.
@@ -86,12 +76,10 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    To deploy the virtual agent to the demo website, select **Demo website**.
 
-   > [!div class="mx-imgBorder"]
    > ![Select channel](media/create-topic-21-1.png)
 
    On the Deploy - Demo Website page, enter a welcome message for your virtual agent and some examples of topic triggers to use as conversation starters for team members testing your virtual agent, and then select **Publish**.
 
-   > [!div class="mx-imgBorder"]
    > ![Deploy bot](media/deploy-bot-2.png)
 
    For more information on deploying your virtual agent, see [Deploying your bot](getting-started-deploy.md).
@@ -100,7 +88,6 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    When you deploy your virtual agent to the demo website, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the virtual agent's demo website. Select **Copy** to copy the URL.
 
-   > [!div class="mx-imgBorder"]
    > ![Share virtual agent](media/deploy-bot-2-1.png)
 
    You can share the demo website with your team members, who can test the virtual agent by pasting the URL into their browser.
@@ -109,14 +96,12 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
-   > [!div class="mx-imgBorder"]
    > ![Test virtual agent](media/deploy-bot-4.png)
 
 10. Use analytics to see how your virtual agent is performing.
 
     To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page. It can take some time for data from conversations with the virtual agent to populate the Analytics page.
 
-   > [!div class="mx-imgBorder"]
    > ![View analytics](media/dash-summary-1.PNG)
 
 The Analytics page includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends to help you improve your virtual agent.
