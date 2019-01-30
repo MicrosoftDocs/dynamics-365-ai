@@ -64,13 +64,11 @@ Following entity selection, the following page appears:
 
 ### Adding and Removing Attributes
 
-Upon clicking the **Edit** button, a window appears on the right which can be used to manually remove existing attributes and/or add additional attributes:
+Upon clicking the **Edit** button (shown in blue in the image above), a window appears on the right which can be used to manually remove existing attributes and/or add additional attributes:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")
+// missing!
 
-**Attributes Pnael**: Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all the attributes. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all attributes** (green). Then, the same button can be used to unselect all your chosen attributes.
-
+**Attributes Panel**: Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all the attributes. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all attributes** (green). Then, the same button can be used to unselect all your chosen attributes.
 
 ## Adding and Removing Entities
 
@@ -86,27 +84,13 @@ Select the entities that you want to add to your existing entities list and dese
 
 ### Selecting Primary Keys and Defining Attribute Types
 
-replace 3
 > [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-primary-keys.png "Select primary keys")
+> ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")
 
 There are two mandatory selections you must complete prior to the completion of the Map phase:
 
-- **1.Primary key:** It's mandatory to select one attribute as a ***primary key*** for each of the entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
+- **1.Primary key:** (shown in red above) It's mandatory to select one attribute as a primary key for each of the entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
 - **Attribute Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type. As mentioned earlier, some attribute-types might already been identified by the system and you can always change those default definitions. 
-
-## Editing the Entities List 
-
-Click **Select** to either add entities or remove entities:
-
-replace 4
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-edit.png "Select Edit")
-
-Select the entities that you want to add to your existing entities list and deselect entities that you want to remove. 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
 
 ## Next Step
 As part of the data configuration process, proceed to the **Match** page either by selecting **Match** in the left menu or by selecting the **Match** tile from the **Configure Data** page.
