@@ -138,7 +138,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 3. Once you have created your virtual agent, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
 
    > [!div class="mx-imgBorder"]
-   > ![New topic](media/create-topic-2.png)
+   > ![New topic](media/create-new-topic.png)
 
     For more information about creating a topic, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
