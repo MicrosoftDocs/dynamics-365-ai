@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **System** screen encapsulates everything that you, as an administrator, needs to have in order to... As shown below, it includes three major parts: **Status, Schedule** and **About** that are accessible through three corresponding tabs at the top of the screen:
+The **System** screen encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer 360. As shown below, it includes three major parts: **Status, Schedule** and **About** that are accessible through three corresponding tabs at the top of the screen:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-menu.png "System menu")
@@ -34,9 +34,7 @@ The **System** screen encapsulates everything that you, as an administrator, nee
 > [!div class="mx-imgBorder"] 
 > ![](media/system-menu.png "Status tab")
 
-The status tab enables you to track the progress of data ingestion as well as several important product processes. That way you can ensure the completeness of any action taken in Customer 360. This tab includes three tables:
-
-// add 2
+The status tab enables you to track the progress of data ingestion as well as several important product processes. That way you can ensure the completeness of any major process you define in Customer 360. This tab includes three tables:
 
 - **Data Sources**: This table lists all the data sources from which you are ingesting your data (left column as shown below). It also presents the status of ingestion (middle column): Whether it didn't start yet, in progress, or already completed. Lastly, date of last data refresh is specified per data source (right side column)
 
@@ -45,9 +43,9 @@ The status tab enables you to track the progress of data ingestion as well as se
 
 - **System Processes**: This table lists all the processes that should be executed in customer 360 as part of a full user journey (left column as shown below). It also presents the status of these processes (middle column): Whether it wasn't configured yet by the user, configured by the user but still in progress, or completed. Lastly, date of last data refresh is specified per data source (right side column)
 
-// add 4
+// add 1
 
-- **System Processes Histories**?
+- **In addition**, you can view the details of each and every refresh a datasource or process went through by clicking that datasource or process. 
 
 ### Schedule Tab
 
