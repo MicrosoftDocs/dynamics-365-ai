@@ -19,9 +19,6 @@ manager: "kvivek"
 robots: noindex,nofollow
 ---
 
-## Keep unmatched records
-It's more than possible that during the match process, not all of your data records will be successfully matched. Enable **Keep unmatched records** to include also all the unmatched records of your entities in your master data profile. 
-
 # Match
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -31,17 +28,15 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-tile.png "Match tile")
 
-- Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive the following message which requires you to go back to the Map screen and Map at least two entities.
-
-//
+- Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive a message which requires you to go back to the Map screen and Map at least two entities.
 
 - If you did map at least two entities, you can expect to reach the following screen where you should click the **Set Order** buton once you are ready to start the Match phase:
 
-//
+// missing!
 
 ## The Match phase
-As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified Master Customer Dataset that will be utilized later to unlock unique insights about your customers.
-If it's your first time through the match process, you should complete all the steps in this section:
+As part of the data configuration process, the match phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset that will be utilized later to unlock unique insights about your customers.
+If it's your first time through the match process, you should complete all the mandatory steps in this section:
 
 1. Specifying the order by which your mapped entities will be matched
 2. Defining rules for the first match pair
@@ -54,9 +49,9 @@ Below, we will explore these steps in a sequential order.
 ## Step One: Specifying the Match Order
 
 Each **Match** involves two entities that are unified into a single entity while maintaining unique customer's records. In the example below, the user has selected three entities: *ContactCSV: TestData as* the **primary entity**, *WebAccountCSV: TestData* as **entity 2**, and *CallRecordSmall: TestData* as **entity 3**. The diagram above these selections helps explain how the match order will be executed: 
-- **Match1: First, Primary entity will be matched with entity 2**
-- **Match2: Then, the result of Match1 will be matched with entity 3**
-- And so forth (in our example we made selections only for two matches but the system supports as many matches as needed)
+- **1st Match: First, the Primary entity will be matched with entity 2**
+- **2nd Match: Then, the datasetresulted from the first match will be matched with entity 3**
+- And so forth (in our example we made selections only for two matches but the system supports more than two)
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-right-entity.png "Add right entity")
@@ -65,27 +60,23 @@ Each **Match** involves two entities that are unified into a single entity while
 > The entity that you will choose as your **primary entity** will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. 
 >There are two considerations that can help you select your primary entity:
 > 1. What entity do you consider having the most complete and reliable data on your customers?
-> 2. Does the entity that you identified under consideration one has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
+> 2. Does the entity that you identified under consideration (1) has attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, you might consider to choose your second most reliable entity.
 
 > [!NOTE]
-> Considerations for your first selection can help you choose **entity 2** as well. Among your ingested (and mapped) entities, what entity you consider having the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other entities that you have ingested?
-
-After selecting the first two entities for your first match, you can continue and specify additional matches that will be excuted after your first match. That can be done via the **Add Entity** button as shown below (in the example shown, *TestData* from *CallRecordSmall* will be matched with the entity that is created from WebAccountService: TestData and ContactCSV: Testdata* (the primary entity)
-
-//
+> Considerations for your first selection can help you choose your **entity 2** as well. Among your ingested (and mapped) entities, what entity do you consider to have the second most reliable and complete data? Moreover, does it includes at least one field that is shared by the primary entity and possibly additional fields that are shared by other ingested entities?
 
 You can always delete match pairs by selecting the button that is shown below. Lastly, click **Save** to save your Match order.
 
-//
+// missing 2!
 
 ## Step Two: Defining rules for your first match pair
 
-Once completing step one, you can expect to reach the Match screen that is shown below and which includes your defined matches (in the example below the user specified only one match pair in his Match Order Panel). Note that the tiles at the top of the screen are empty since we didn't run the match yet. These will be used for validation later. 
+Once completing step one, you can expect to reach the Match screen that is shown below and which includes your defined matches (in the example below the user specified two matches). Note that the tiles at the top of the screen will be empty until we will run our match order in step 3. These will be used for validation as explained in step 4.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-need-rules.png "Need rules")
 
-Moreover, the warning sign (shown in red above) implies that we didn't define **at least one match rule** for our match pair which is mandatory with regard to all defined match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition Panel** that can be accessed through the following button: 
+Moreover, the warning sign (shown in red above) implies that we didn't define **at least one match rule** for our match pair which is mandatory with regard to all defined match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition Panel** that can be accessed by clicking the corresponding match row in the matches table and then clicking the **create new rule** button: 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule.png "Create new rule")
@@ -100,7 +91,7 @@ Besides the rule's name, this panel enables you to specify all the ***Conditions
 1. **Attribute that will be used for matching from the first match pair entity**: Name, Phone, Email Address, etc. 
 
 [IMPORTANT!]
-> You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by. Click here for a list of typical activity attributes: 
+> You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
 2. **Attribute that will be used for matching from the second match pair entity**.
 3. **Normalization method**: Various normalization options are available for the attributes you chose in (1) and (2) - from removing punctuation, to removing spaces, to many others. Note that for some attribute types, a specific and possibly optimal combination of normalizations will be automatically chosen for you. This option is called **Semantic Normalization** in the drop down and you can change this default selection to any of the other options. 
@@ -113,7 +104,7 @@ Besides the rule's name, this panel enables you to specify all the ***Conditions
 - Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium*** level servs as a middle-ground option. 
 
 ### Adding multiple conditions
-If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click **Add Condition** button as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
+If you wish to match your entities **only** if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply click the **Add Condition** button as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-add-condition.png "Add condition")
@@ -219,7 +210,7 @@ It is recommended to go through at least a part of it in order to validate that 
      
 This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green).
        
-## Step Five (optional): Making Changes to your Match Order
+## Step Five (optional): Making Changes to Optimize your Matches
 If you followed Step Four, then at this point you should have a better understanding around the quality of your first match. At this point you can translate that understanding into a better match quality by reconfiguring some of your match parameters.
 
 - **Changing the Match Order**: That can be done by selecting the **Edit** button shown below and editing the match order fields:
@@ -234,9 +225,9 @@ If you followed Step Four, then at this point you should have a better understan
 - **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by selecting **Edit** as shown earlier within the match row and substituting the first rule's attributes with the second rule's attributes.
 
 - **Editing your rules**: This includes several important changes that you should try as you optimize the match quality.
-    - **Changing attributes for a criteria**: This can be done by reselecting new attributes within the criteria row.
-    - **Changing threshold for a criteria**: This can be quickly achieved via the threshold bar. In Step Four we covered how to get insight into the effects of the three threshold levels on your match quality.
-    - **Changing normalization methods for a criteria**: This can be done by reselecting the normalization methods.
+    - **Changing attributes for a condition**: This can be done by reselecting new attributes within the specific condition row.
+    - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step Four we covered how to get insight into the effects of the three threshold levels on your match quality.
+    - **Changing normalization method for a condition**: This can be done by reselecting the normalization methods.
     - **Changing from an *Exact* match to a *Fuzzy* match:** Doing so can lead to a higher number of matched records at the possible expense of lower accuracy. Doing the opposite might carry the opposite tradeoff - higher accuracy for a lower number of matched records.
     
 ## Next Step
