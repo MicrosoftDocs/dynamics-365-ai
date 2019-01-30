@@ -82,8 +82,6 @@ To avoid data-related issues, you should complete the next few transformations:
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
-- If your data includes **Day Time** columns, you should define those as **Text** type columns by...:
-
 - In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)**. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
 
   > [!div class="mx-imgBorder"] 
@@ -100,8 +98,8 @@ To avoid data-related issues, you should complete the next few transformations:
    > ![](media/configure-data-datasource-added.png "Datasource added")
 
 For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refresehed for the datasource, as well as it's status. There are three possible status: 
-1. Data was successfully ingested (example is shown in red in the image above)
-2. Data was not ingested yet (example is shown in blue in the image above)
+1. Data was successfully ingested (example is shown in blue in the image above)
+2. Data was not ingested yet (example is shown in red in the image above)
 3. Data is still loading into Customer 360 (represented by a *warning sign* status)
 
 At this point you should refresh the datasource that you have just saved. Click the button highlighted below in red and then hit **Refresh** as highlighted in blue:
