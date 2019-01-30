@@ -43,20 +43,16 @@ The status tab enables you to track the progress of data ingestion as well as se
 
 - **System Processes**: This table lists all the processes that should be executed in customer 360 as part of a full user journey (left column as shown below). It also presents the status of these processes (middle column): Whether it wasn't configured yet by the user, configured by the user but still in progress, or completed. Lastly, date of last data refresh is specified per data source (right side column)
 
-// add 1
-
-- **In addition**, you can view the details of each and every refresh a datasource or process went through by clicking that datasource or process. 
+- **In addition**, you can view the details of each refresh a given datasource or process went through by clicking that datasource or process. 
 
 ### Schedule Tab
 
-// add 5
-
-The Schedule tab is used to refresh all the data that already exists in Customer 360. You should utilize this tab to schedule the frequency and timing of such refreshes. As data is constantly updated in your data sources, you may want the Customer 360 processes and insights to include those data changes and the schedule tab enables you do achieve that in an automated way.
+The Schedule tab is used to refresh all of your ingested Customer 360 data. You should utilize this tab to schedule the frequency and timing of the refreshes. As data is constantly updated in your data sources, you may want the Customer 360 processes and insights to reflect those changes and the schedule tab enables you do achieve that in an automated way.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-off.png "System data refresh off")
 
-- In Customer 360, the default state for data refresh is **Off**, reflecting no scheduled refreshes. To change it click the following:
+- In Customer 360, the default state for data refresh is **Off**, reflecting no scheduled refreshes. To change it click the slider at the top of the screen (changing it to an **On** status):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-on.png "System data refresh on")
@@ -73,9 +69,9 @@ First we will demonstrate the definition of a daily refresh, and then we will co
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-time-period.png "System data refresh time period")
 
-- In the timer shown above, click the four arrows (highlighted in green above) to set your refresh timing. When finished, click **Set** (highlighted in blue above). You can also close the timer without saving your selection by clicking **Close** (highlighted in red above)
+- In the timer shown above, click the four arrows to set your refresh timing. When finished, click the **Set** button. You can also close the timer without saving your selections by clicking the **Close** button.
 
-- Lastly, you can set multiple daily refreshes by clicking the **add another time** button:
+- You can also set multiple daily refreshes by clicking the **add another time** button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-add-another-time.png "System data refresh add another time")
@@ -85,18 +81,17 @@ First we will demonstrate the definition of a daily refresh, and then we will co
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-discard-time.png "System data refresh discard time")
 
-- **First step in scheduling a weekly refresh** is to check the boxes for the days in which you want to execute your refresh/s:
+- **First step in scheduling a weekly refresh** is to check the boxes for the days in which you want to execute your refreshs:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-weekly-time.png "System data refresh weekly time")
 
-- Then follow the steps specified above for daily refresh setting
+- Then follow the steps specified above for daily refresh setting.
 
 - Whatever refresh schedule you have defined, make sure to save it by clicking the **Save** button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-save.png "System data refresh save")
-
 
 ### About Tab
 
