@@ -34,7 +34,7 @@ Select the **Map** tile on the **Configure Data** page to get to *Map*.
 
 ### Selecting First Entities
 
-Start the Map phase by selecting **Select Entities**:
+Start the Map phase by selecting **Add Entities**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
