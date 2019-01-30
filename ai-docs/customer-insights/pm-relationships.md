@@ -54,6 +54,7 @@ Each relationship has two key parts:
 
 To create a relationship, first click **Add Relationship*:
 
+// replace 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-relationships.png "Add relationships")
 
@@ -75,7 +76,10 @@ Then you need to provide the following information in the Relationship panel:
 
 ## Using the Relationships Screen to Delete Relationships
 That can be easily done by:
-- 1.Selecting the checkbox of the relationships you wish to delete
+- 1.Selecting the checkbox of the relationship/s you wish to delete:
+
+// add 1
+
 - 2.Click **Delete** at the top of the relationship table:
 
 // add 2
