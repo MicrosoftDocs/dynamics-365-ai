@@ -1,5 +1,5 @@
 ---
-title: "What's new in Dynamics 365 AI for Market Insights | Microsoft Docs"
+title: "What's new in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Learn about the recent changes and new features in Market Insights."
 keywords: "news, product updates, product improvements, service updates"
 ms.date: 10/31/2018

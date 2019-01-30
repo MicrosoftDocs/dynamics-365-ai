@@ -1,6 +1,6 @@
 ---
 title: "Market Insights 2018 Update 1.8 Readme"
-description: "Important and late-breaking information about Dynamics 365 AI for Market Insights"
+description: "Important and late-breaking information about Dynamics 365 Market Insights"
 keywords: "readme, known issues, information"
 ms.date: 10/31/2018
 ms.service: dynamics-365-ai
@@ -23,7 +23,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].
+This document provides important, late-breaking information about [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)].
 
 Do you have an idea how to further improve the service or app? Go to the [Ideas forum for Market Insights](https://experience.dynamics.com/ideas/list/?forum=0a0bebf4-8bef-e511-80ba-00155d03a726) and let us know. For questions and feedback in general, go to the [Community forum](https://community.dynamics.com/crm/f/752).
 
@@ -74,6 +74,10 @@ In some cases, Disqus posts are missing a URL. This can happen if posts are crea
 In some cases, private messages and public messages from Facebook Pages and Twitter are not acquired in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This can happen when a message was written in a non-supported language of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or if the language was not detected at all.
 
 ## General known issues
+
+### Can't sign up for Market Insights using Internet Explorer
+
+When using the Internet Explorer browser, you can't sign up for Market Insights. We're working on a fix for this issue and aim to have it resolved in February 2019. To sign up for the Preview, we recommend using a different browser instead. 
 
 ### Facebook video URL can expire
 
