@@ -35,7 +35,7 @@ A topic defines a conversation path with the virtual agent for a specific custom
 2. On the Topics page, select **New topic**.
 
    > [!div class="mx-imgBorder"]
-   > ![New topic](media/create-topic-2.png)
+   > ![New topic](media/create-new-topic.png)
 
 3. Specify a name, description, and one or more trigger phrases for the topic.
 

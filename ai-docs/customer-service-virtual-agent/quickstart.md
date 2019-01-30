@@ -26,7 +26,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    On the **Create a new bot** screen, select the template you want to use, either General or Retail. Then specify a name and environment for the bot, and select **Create**.
 
-   > ![Create a new bot](media/create-bot-2.PNG)
+   > ![Create a new bot](media/create-new-bot.PNG)
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
@@ -36,7 +36,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Select **Topics** in the navigation pane, and then select **New topic** to open the **Create a new topic** screen.
 
-   > ![New topic](media/create-topic-2.png)
+   > ![New topic](media/create-new-topic.png)
 
    For more information on creating a topic, see [Creating topics for your bot](getting-started-create-topics.md).
 
