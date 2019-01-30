@@ -26,7 +26,8 @@ Through it's **Configure Data** process, Customer 360 enables you, the user, to 
 
 Note: The *Enrich Profiles* screen can be accessed both through the app left-side menu and from the *Configure Data* screen as shown:
 
-// enrich 1
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
 
 Note: Completing both the **Data Ingestion** and **Data Configuration** processes is a prerequisite to enrichment. Hence, if you didn't complete one or more of those steps you can expect to get the following notification:
 
