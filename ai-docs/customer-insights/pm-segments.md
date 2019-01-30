@@ -22,6 +22,9 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+## Introduction to Segmentation
+**Note**: If you are familiar with segmentation, you might want to skip this introduction and continue to the **Segment Creation** sub-section below.
+
 Segments provides the ability to group your customers into cohorts based on demographic, transactional or behavioral customer attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns, sales activites or customer support actions to achieve desired business goals. Segments allows defining complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records which you can export and take actions upon.
 
 There are two types of segments:
@@ -29,13 +32,7 @@ There are two types of segments:
 - **Static**: Segment that is processed only once - either upon the creation or update of any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
 - **Dynamic**: Segment that is processed according to a recurring schedule. These segments are especially useful when customers attributes change over time. Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
 
-**How is a segment defined**
-Each segment is defined by combining various filter criteria that customer and its related data called data graph must match to qualify to be a member of the segment. Segment Editor provides an experience to easily define these filter criteria over the entire data graph using one or more groups. 
-
-**What is a segment group**
-Each segment group produces a set of customers based on its filter criteria. Each group's filter criteria is defined by choosing a starting entity anywhere in the customer data graph and defining filter criteria as you navigate over data graph using entity relationships to end on customer master entity - to output customer records that the group filter will produce. Multiple filter groups can be combined using set operations - union, intersect or exclude to build complex criteria using ease of set operations. 
-
-The example below illustrates how to build a segment that uses multiple groups to define filter criteria over different parts of the customer data graph. The purpose is to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up for satisfaction survey.
+The example below illustrates the depth of the customer 360 segmentation capability. Within this complex segmentation scenario, we aim to define a segment for customers who have placed order of more than $500 in last 90 days **and** had an escalated case in last 30 days so they can be followed up for satisfaction survey. Later we will learn how to produce such segments. 
 
 <!-- 
 {final1:Example of complex segment with multiple groups}
@@ -81,7 +78,25 @@ If you clicked **Add Segment** then you will also need to select whether you wan
   > [!div class="mx-imgBorder"] 
   > ![](media/new-dynamic-segment-hilites.png "Change segment type")
    
-- **In step two, we will start creating our first filter**. Use the "filter" field that is shown above (highlighted in blue) to select an entity. Once we selected an entity type, we need to choose the specific attributes by which we wish to filter our customers. Note that attributes can have one of four value types: A numerical, a string, a date, or a Boolean. In the example below, an attribute with a numerical value is used as a filter:
+- **In step two, we will create our first group**: Use the *Group 1 Define Filer Field* that is shown below to select an entity.
+
+//
+
+**Note**: In customer 360, a **group** is a set of customers. Each group can be defined by:
+- 1.Choosing the entity that includes the specific field you wish to segment by (for example choosing the *Orders* entity since it include the *Order Value* field by which we want to segment)
+- 2. Selecting the **Add** operator
+- 3.Adding entities that are related to that entity until getting to the Customer Profile entity. If wasn't done yet, you can define those relationships using the **Relationships** screen. 
+
+
+
+
+For example, if we have three datasets shown above and we wish to segment by a specific filed in the *Account* entity:
+- First we will choose the Account entity
+- Then we will select the **Add** operator
+- And lastly, we will select the *Customer Profile* entity since it's directly related to our Account entity through the *CustomerToAccount* relatiionship. 
+
+Following the selection of our entities
+- For the first entity, we need to choose the specific attribute by which we wish to segment.Our attribute can have one of four value types: A numerical, a string, a date, or a Boolean. In the example below, an attribute with a numerical value is used as a filter:
      
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-numbers.png "Customer group filter")
@@ -96,6 +111,10 @@ If you clicked **Add Segment** then you will also need to select whether you wan
 Note that **one of the segmentation strengths of Customer 360 is the rich variety of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
 
 <!-- [operators table - Shashi still needs to provide me an updated one] -->
+
+- For the rest of the entities, we should choose the **All Records** attribute:
+
+//
 
 - **In step three, which is optional, we will add more conditions to our group.** The following two logical operators can be used for that purpose:
 
@@ -119,14 +138,14 @@ As mentioned earlier, each group **produces a specific set of customers**. Start
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-add-group.png "Customer group add group")
 
-Then three set operators will show up: ***Union, Intersect and Exclude*** as shown below:
+Then three set operators will show up: ***Union, Intersect and Exclude***:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-union.png "Customer group add union")
   
 Clicking each of these will enable you to define a new group. However, upon clicking **Save**, each of these Set Operators will lead to a different result:
 
-- **Union** will unite the new group with the group you have created in steps 2-3. Note that **data that is common** to both groups will be maintained, as well as data **that is not common** to both groups.
+- **Union** will unite the new group you have created in step 4, with the group you have created in steps 2-3. Under this option, **data that is common** to both groups will be maintained, as well as data **that is not common** to both groups.
 
 - **Intersect** will intersect the two groups. **Only data that is common** to both groups will be maintained in the unified group.
 
@@ -135,68 +154,73 @@ Clicking each of these will enable you to define a new group. However, upon clic
 ## Exploring segments from the Segments page
 Here you can view all your saved segments and perform certain actions.
 - **Dynamic Segments appear to the left and Static Segments appear to the right.**
-- **Each segment is represented by a tile** that includes the segment's name, segment's description, last date of data refresh for that segment, historical trend (if exists), and the possibility to view last week growth upon hovering over the trendline. If, alternatively, you prefer to view all your segments in a table format, simply click one of the following buttons:
+- **Each segment is represented by a tile** that includes the segment's name, description, last date of data refresh, historical trend (if exists). Moreover, upon hovering over the trendline, you can view the last week growth in this segment's members count. If, alternatively, you prefer to view all of your segments in a table format, simply click one of the following buttons:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-static-segment.png "Static segment")
 
 - **You can also perform certain actions with each segment (highlighted in red below)**. These actions can be accessed via the **three dots** button as highlighted in blue below:
 
+// Fix 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-static-segment.png "Static segments")
-
 
 Let's explore those segment-level actions:
 
 - Editing the segment
 - Viewing segment's members
-- Exporting the segment to a .csv file
+- Exporting the segment to either a .csv file, or to a Dynamics 365 location
 - Turning the segment to inactive/active (depends on it's baseline state)
 - Deleting the segment 
-- Pin the segment, which will move it to the top of the screen for better accessability (the pinned segment will show up under **Pinned Segments** as shown in the example below (highlighted in red). To unpin a segment click the **unpin** button (shown in blue):
+- Pin the segment, which will move it to the top of the screen for better accessability (the pinned segment will show up under **Pinned Segments** as shown below. To unpin a segment click the **unpin** button (shown in red):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
    
 ## Exploring a segment: Viewing processing history and segment members
-Once selected a segment within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. In addition, hovering over each data point will show the member growth for that period. As highlighted in red, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.):
+Once selected a segment's name within the *Segments page*, you will get to the page that is shown below. This page consolidates data at the segment-level. The upper part of the page includes a trend graph that presents historical changes in this segment. In addition, hovering over each data point will show the member count for that point. Lastly, above the graph you can find the current member count and last week's growth. 
+
+As highlighted in red below, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
 
-The lower part includes a table with all your segment members.
+The lower part includes a table with all your segment's members.
 
-- **Note** that the field types that are shown in this table are based on the attributes of your segment’s entities. The example table that is shown above (highlighted in blue) is typical to a **Customer** entity but it is only one of many possible table types.
+- **Note** that the specific fields that appear in this table are based on the attributes of your segment’s entities. The example that is shown above (highlighted in blue) is typical to a **Customer** entity but it is only one of many possible representations.
 
 - **Also note** that this table only shows a preview of your records: It presents the first 100 records of your segment so you can quickly evaluate your segment and consider to go back to the segment editor screen and change its definitions. As we will see in the next section, **exporting** your segment will produce a file that includes **all** your records.
 
-## Acting upon the data
+## Acting upon the Data
 
-- **Exporting a segment to .csv file is possible:**
-    1. Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
-    2. Within a specific segment's page by clicking **Export** at the top-right corner of the page as shown below:
+- **Exporting a Segment:** That can be done both to a csv. file and to a Dynamics 365 location.
+    1. Both options are available within the *Segments page*: 
+      - First click the **three dots icon** within a specific segment's tile
+      - Then select the **Export** button as shown earlier
+      - Lastly, choose between a csv. format and a specific Dynamics 365 destination. To add a destination, use the **Export Screen** as explained below (this screen is accessable via the **Export Segment** tab on the left side menu).
+    2. Both options are also available within the specific segment's page by clicking **Export** at the top-right corner of the page:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segment-menu-export-top.png "Export segment")
 
-- **Exporting a segment directly to a Dynamics 365 account is also supported via the *Export Segment* Screen:**
-    1. Enter the *Export Segment Screen* via the *Export Segment Tab* on the left side menu
-    2. Click **Add Destination:**
+- **Adding an Export Segment Destination**:
+    1. Within the Segment Export screen, click **Add Destination:**
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segmentation-add-destination.png "Segmentation add destination")
 
-    3. Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
+    2. Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segmentation-export-destination.png "Segmentation export destination")
 
-    4. Upon the completion of step 3, your destination should appear in the destinations table as shown in the example below:
+    3. Upon the completion of step 3, your destination should appear in the **Destinations** table as shown in the example below:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segmentation-export-destination-actions.png "Segmentation export destination table")
 
-    5. Click **?** to 
+ - **Viewing Segments you have Exported**:
+    That can be done also in the Export Segmnet screen. Below the Destinations table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported. 
     
 ## Next Step
 While segmentation provides you with aggregate-level insights, you can also explore the Customer 360 Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.
