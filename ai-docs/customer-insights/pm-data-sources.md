@@ -139,6 +139,6 @@ Follow the below steps to edit an existing data source:
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-sources-delete.png "Data sources delete")
 
-### Next steps: 
+### Next steps:
 At this point you are ready to unlock unique customer insights through the mandatory **Configure Data** sections (those include **Map**,**Match** and **Merge**). If you first wish to review all the entities that were ingested, visit the **Entities** section first. 
 
