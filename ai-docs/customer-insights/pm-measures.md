@@ -23,4 +23,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Text
+The Measures feature enables you to define all the KPIs that best reflect your specific business domain and goals. Once defined you can benefit from your measures in a verity of ways:
+•	Consume on your Homepage (Dashboard) Screen 
+•	View for a specific customer as part of the **Customer Card** (visit the **Customer Card** section to learn more) 
+•	Use to define your segment by, using the Segment Builder Screen
