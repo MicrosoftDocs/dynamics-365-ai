@@ -23,9 +23,6 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-profile-attributes.png "Merge profile attributes")
-
-> [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-dont-merge.png "Merge profile attributes don't merge")
 
 > [!div class="mx-imgBorder"] 
@@ -38,9 +35,6 @@ robots: noindex,nofollow
 > ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-profile-attributes-full-name.png "Merge profile attribute full name")
-
-> [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attributes2.png "Merge attributes")
 
 > [!div class="mx-imgBorder"] 
@@ -49,36 +43,42 @@ robots: noindex,nofollow
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
 
-
 This is the last phase within the data configuration process and it's all about reconciling conflicting data. Examples for such a conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant for instance), or a phone number format that slightly differs (617-8030-91X versus 617803091X for instance). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
 
 Once completing Match, you can access Merge via the **Merge** tile within the **Configure Data** page.
-
-//
-
-When you ready to start the Merge process, simply click **Merge** in the following screen:
-
-// add merge new 1
 
 ## Step One: Reviewing System Recommendations
 
 The next screen that you will see is the **Merge screen:**
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-attribute-name.png "Merge attribute name")
+> ![](media/configure-data-merge-profile-attributes-full-name.png "Merge profile attribute full name")
 
 There are two goals behind this screen:
 - 1.**Choosing all the attributes that should be merged within your unified customer profile entitiy** (the end result of the configuration process). Notice that some attributes were already auto-merged by the system (highlighted in the image above):
 - The attribute's name appears in the first column 
 - The attribute's entity is specified in the second column 
 - The attribute's data source is specified in the third column 
+- If you wish to view what attributes that are included in one of your auto-merged attributes, click that merged attribute. The two attributes that compose that merged attribute will show up in two new rows beneath the merged attribute:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-profile-attributes.png "Merge profile attributes")
+
 - If you wish to unmerge any of these auto-merged attributes, use the button shown below and click **Don't Merge**:
 
-//
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-profile-attributes2.png "Merge profile attributes")
 
 - 2.**Excluding attributes from the customer profile entity:** If you think that some attributes should be excluded from the final customer profile entiy, you can click the same button used for unmerging but this time choose **Exclude**. That will move the attribute/s to the **excluded from profile** section:
 
-// add merge new 3
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-exclude-from-profile.png "Merge excluded from profile")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 
 ## Step Two: Manually adding a merged attribute
 Adding a merged attribute is available via the **Add Merged Attribute** button as shown below:
