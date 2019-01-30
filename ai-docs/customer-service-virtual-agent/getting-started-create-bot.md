@@ -28,9 +28,6 @@ These industry templates can also be useful as a model for building your own con
 
     Dynamics 365 Customer Service Virtual Agent supports Chrome (preferred) and Edge browsers.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create a new bot screen](media/create-bot-1.PNG)
-
 2. Select the template you want to use, and specify a name and region for the bot. Then select **Create**.
 
    > [!div class="mx-imgBorder"]
