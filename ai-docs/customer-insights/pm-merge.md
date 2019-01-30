@@ -101,5 +101,7 @@ Once the message below disappears, Merge has completed and resolved contradictio
 > ![](media/configure-data-merge-image17.png "Image 17")
   
 ## Next Step
-**Congratulations!** You have completed both the **Data Manager** and the **Configure Data** phases. Now you are ready to unlock unique insights on your customers via the **Segmentation**, **Connectors** sections as well as the **APIs** section if you are a technical user. Note that **Segmentation** will equip you with aggregate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
+**Congratulations!** You have completed both the **Data Manager** and the mandatory **Configure Data** phases. Now you are ready to:
+- Either complete more data configurations (**Activities**, **Relationship** and **Enrichment**), that while being optional, they can help you unlock richer insights on your customers. 
+- Or continue to insight exploration via the **Segments** and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
  
