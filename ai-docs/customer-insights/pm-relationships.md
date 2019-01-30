@@ -54,7 +54,6 @@ Each relationship has two key parts:
 
 To create a relationship, first click **Add Relationship*:
 
-// replace 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-relationships.png "Add relationships")
 
@@ -76,13 +75,15 @@ Then you need to provide the following information in the Relationship panel:
 
 ## Using the Relationships Screen to Delete Relationships
 That can be easily done by:
-- 1.Selecting the checkbox of the relationship/s you wish to delete:
+1. Selecting the checkbox of the relationship/s you wish to delete:
 
-// add 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/select-relationship-to-delete.png "Select the relationship to delete")
 
-- 2.Click **Delete** at the top of the relationship table:
+2. Click **Delete** at the top of the relationship table:
 
-// add 2
+   > [!div class="mx-imgBorder"] 
+   > ![](media/delete-relationship.png "Delete relationship")
 
 ## Next Step
 System and custom relationships are used in **Segment Editor Page** to navigate from the entity on one end of the relationship to the entity on the other end of the relationship as you define conditions to filter customers. Visit the **Segments** to learn more. Alternatively, you might want to define activities in your data - for that purpose visit the **Activites** section.
