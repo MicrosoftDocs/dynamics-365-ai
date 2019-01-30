@@ -70,7 +70,8 @@ Within the next step you will add **entities** to your data source. In Customer 
 
 3. At this point you should use the power query window shown below to review and possible configure the data. The entities that the system identified in your selected datasource will appear to the left (shown in red). 
 
-// add 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
 **In this step you can also transform the data** (transformations area is shown in blue in the image above). To avoid data-related issues, you should complete the next few transformations:
 
@@ -88,11 +89,13 @@ Within the next step you will add **entities** to your data source. In Customer 
 
 4. Click **Create** at the bottom of the power query screen to save:
 
-// add 2
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-edit-queries-create.png "Create")
 
 5. After saving, you can expect to see your datasource added in the datasources screen:
 
-// add 3
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-datasource-added.png "Datasource added")
 
 For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refresehed for the datasource, as well as it's status. There are three possible status: 
 1. Data was successfully ingested (example is shown in red in the image above)
@@ -101,7 +104,8 @@ For each of your ingested datasources, beyond it's name, you can expect to see t
 
 At this point you should refresh the datasource that you have just saved. Click the button highlighted below in red and then hit **Refresh** as highlighted in blue:
 
-// replace 1
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-sources-refresh.png "Data sources refresh")
 
 Note: In the future this step will happen automatically.
 
@@ -124,11 +128,14 @@ Follow the below steps to edit an existing data source:
 
 2. Click on the **Edit** button to edit the data source in Power Query: 
 
-// replace 2
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-sources-edit2.png "Edit data source")
+
 
 3. Don't forget to hit **Create** in power query screen upon completing the edits in order to save your changes. If you wish to remove a datasource, click **Delete** for that datasource:
 
-// add 4
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-sources-delete.png "Data sources delete")
 
 ### Next steps: 
 At this point you are ready to unlock unique customer insights through the mandatory **Configure Data** sections (those include **Map**,**Match** and **Merge**). If you first wish to review all the entities that were ingested, visit the **Entities** section first. 

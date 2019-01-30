@@ -174,7 +174,7 @@ The lower part includes a table with all your segment members.
 
 - **Exporting a segment to .csv file is possible:**
     1. Within the *Segments page* by clicking the **three dots icon** within a specific segment's tile, and then selecting the **Export** button as described earlier
-    2. Within a speficic segment's page by clicking **Export** at the top-right corner of the page as shown below:
+    2. Within a specific segment's page by clicking **Export** at the top-right corner of the page as shown below:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segment-menu-export-top.png "Export segment")
