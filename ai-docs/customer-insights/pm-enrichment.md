@@ -26,16 +26,17 @@ Through it's **Configure Data** process, Customer 360 enables you, the user, to 
 
 Note: The *Enrich Profiles* screen can be accessed both through the app left-side menu and from the *Configure Data* screen as shown:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
+image needed
 
 Note: Completing both the **Data Ingestion** and **Data Configuration** processes is a prerequisite to enrichment. Hence, if you didn't complete one or more of those steps you can expect to get the following notification:
 
-// enrich notification
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
 
 ### Exploring the *Enrich Profiles* Screen
 
-//enrich 2
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile-page.png "Enrich profiles page")
 
 As shown above, this screen includes two major sections:
 - The **Demographics** section, where you should make selections for at least two fields among **Date of Birth**, **Gender** and **Zip Code**. The intent behind these selections is to focus on the specific cohort of customers for which you wish to gain knowledge around preferred brands and interests. 
@@ -51,18 +52,21 @@ As mentioned earlier, you are required to make at least two selections.
 
 ### Making Selections on the *Brands and Categories* Section
 
-// enrich 3
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile-brands.png "Enrich profiles choose brand")
 
 First choose one of the following options (also highlighted in the image above). Then complete your selections for that option.
-- 1.**Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get your customers' affinities for those selections. For example, *Coca-Cola* and *Starbucks* were chosen in the example below:
+1. **Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get your customers' affinities for those selections. For example, *Coca-Cola* and *Starbucks* were chosen in the example below:
   
-// enrich 4
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-enrich-profile-brands-example.png "Enrich profiles choose brand example")
 
 To add a brand or interest, type the keywords field (highlighted in blue above) and than type a keyword. If that keyword matches a brand or interest name in the Microsoft database it will be saved. Note however that you can save up to five selections. If there is no match, you will get the following clickable notice which you can use to send a suggestion to the Customer 360 team:
 
-// enrich 5
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
 
-- 2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. Note that in *Customers* we refer only to the customers you chose in the *Demographics* section. In the example below, *Home&Garden* was chosen as an industry:
+2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. Note that in *Customers* we refer only to the customers you chose in the *Demographics* section. In the example below, *Home&Garden* was chosen as an industry:
   
 // enrich 6 - still missing 
 
@@ -71,11 +75,13 @@ Here is the list of supported industries: To complete
 ### Running the Enrichment Process
 That can be easily done via the **Run** button at the top of the screen (shown in red):
 
-// enrich 7
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile-choose-own.png "Enrich profiles choose own brand")
 
 You can expect to see the following screen as long as the Enrichment algorithem is still running:
 
-// enrich 8
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile-enriching.png "Enrich profiles enriching")
 
 You can also use the **Discard** button to reselect your definitions and keywords (shown in blue above).
 
@@ -83,10 +89,12 @@ You can also use the **Discard** button to reselect your definitions and keyword
 
 If the Enrichment process succeeded, you can expect to see the following screen:
 
-// enrich 9
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile-succeeded.png "Enrich profiles succeeded")
 
 Utilize the **Enriched Profiles** figure (shown in red above) to assess your enrichment definitions and keywords (and to consider if any of them should be reconfigored):
 
 If the Enrichment process failed, however, you can expect to find the reason for that failure at top of the screen:
 
-// enrich 10
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile-failed.png "Enrich profiles failed")
