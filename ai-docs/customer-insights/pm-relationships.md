@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In Customer 360 you can define relationships between entities. Relationships help define the **Data Graph** based on entities ingested from different data sources (the notion of **Data Graph** will be explored later). It also relates the data graph to the **master customer entity** you have created through the Data Configuration process based on intelligent AI/ML algorithms. As we will see within the **Segments** section, these relationships-based data graphs are useful for segmentation and other analytical purposes. 
+In Customer 360 you can define **relationships** between entities. As we will see within the **segments** section, these relationships are useful for segmentation. In the future they will be used for additional analytical purposes within Customer 360.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-relationships-tile.png "Relationships tile")
@@ -32,24 +32,24 @@ There are two types of relationships:
 - **System relationships:** These are created by the system automatically and cannot be edited.
 - **Custom relationships:** These are created by the user during configuration and can be edited.
 
-During the match and merge process, system relationships are created behind the scenes based on intelligent matching. These system relationships are created to relate master customer entity with match rule entities. One relationship is created per master customer entity and match rule entity combination. These relationships help relate the master customer record with corresponding match entity records. The diagram below exemplifies the creation of three system relationships when three match entities are merged to create the master customer entity.
+During the match and merge processes, system relationships are created behind the scenes based on intelligent matching. These relationships help relate the Customer Profile records with other, corresponding entities' records. The diagram below exemplifies the creation of three system relationships when the customer entity is matched with additional entities to produce the final Customer Profile entity:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-entities-merge.png "Relationship creation")
 
-- **CustomerToContact relationship** was created between the **Customer entity and the Contact** entity and is based on the match executed between Customer entity and Contact entity. Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
-- **CustomerToAccount relationship** was created between the **Customer entity and the Account entity** and is based on the match executed between Customer entity and Account entity. Customer entity gets the key field **Account_accountId** to relate to Account entity key field **accountId.**
-- **CustomerToWebAccount relationship** was created between the **Customer entity and the WebAccount entity** and is based on the match executed between Customer entity and WebAccount entity. Customer entity gets the key field **WebAccount_webaccountId** to relate to WebAccount entity key field **webaccountId.**
+- **CustomerToContact relationship** was created between the **Customer entity and the Contact entity**. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
+- **CustomerToAccount relationship** was created between the **Customer entity and the Account entity**. The Customer entity gets the key field **Account_accountId** to relate to Account entity key field **accountId.**
+- **CustomerToWebAccount relationship** was created between the **Customer entity and the WebAccount entity**. The Customer entity gets the key field **WebAccount_webaccountId** to relate to WebAccount entity key field **webaccountId.**
 
-In addition, you can use the **Relationships** page to define custom relationships as shown below.
+In addition, you can use the **Relationships Screen** to define custom relationships as shown below (accessable through the **Relationships** tab on the left side menu):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-custom.png "Custom relationships")
 
 This page provides actions to add, edit, or delete relationships. Each relationship has two key parts.
 
-- **Source Entity:** This represents the **many ends** of the relationship. In relational schema terminology, this represents the entity that holds the foreign key.
-- **Target Entity:** This represents the **one end** of the relationship. In relational schema terminology, this represents the entity that the source entity’s foreign key points to.
+- **Source Entity:** This represents the **many ends** of the relationship. In relational schema terminology, **this represents the entity that holds the foreign key.**
+- **Target Entity:** This represents the **one end** of the relationship. In relational schema terminology, **this represents the entity that the source entity’s foreign key points to.**
 
 To create a relationship, you need to provide the following information.
 
@@ -64,9 +64,10 @@ To create a relationship, you need to provide the following information.
     - **Target Entity:** The name of the entity that is used as a target in the relationship (for example, WebAccount).
     - **Target Cardinality:** This represents the cardinality of the target entity records. For example, one means that multiple Weblog records are related to one WebAccount.
     - **Target key field:** This field represent the key field of target entity. For example, WebAccount has the accountId key field.
-For now, only many-to-one and one-to-one type relationships are supported. Many-to-many type relationships can be created using two many-to-one relationships using a **link entity:** An entity that is used to connect the source entity and the target entity.
 
-System and custom relationships are used in **Segment Editor Page** to navigate from the entity on one end of the relationship to the entity on the other end of the relationship as you define conditions to filter customers. Filtering is based on the data graph ingested entities from data sources. For more information on segmenting customers and how relationships play an important rule there, visit the **Segments** section.
+**Note**: For now, only many-to-one and one-to-one type relationships are supported. Many-to-many type relationships can be created using two many-to-one relationships using a **link entity:** An entity that is used to connect the source entity and the target entity.
+
+System and custom relationships are used in **Segment Editor Page** to navigate from the entity on one end of the relationship to the entity on the other end of the relationship as you define conditions to filter customers. Visit the **Segments** to learn more.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-relationships.png "Add relationships")
