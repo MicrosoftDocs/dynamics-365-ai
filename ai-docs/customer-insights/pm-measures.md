@@ -39,7 +39,7 @@ There are two early decisions you should make with regard to your desired measur
 
 // 2
 
-- First, you should decide whether to:
+- First, you should decide whether you wish to:
   - Save your measure as an attribute within one of your existing entities - than you should choose the **Profile Attribute** option 
   - Or create a new entitiy around your measure 
 - 2.If decided to save the measure as an entity, you should also decide whether to:
@@ -54,6 +54,10 @@ Upon choosing one of the options, you can expect to reach the **Measure Creation
 **Panel you can expect to see upon selecting the *Profile Attribute* option**:
 
 // 3
+
+**Name** (mandatory): Upon completing the configuration of your measure, it will show up in the Measures screen as a saved measure that you can edit. Within the measures screen, your saved measure will carry the name you define under the **Name** field in this panel.
+**Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved a new entity. In both cases, the measure will carry the name you define under the **Display Name** field in this panel.
+**Starting Entity** (mandatory): Here you should choose the entity on the basis of which you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose at this point one of those entities.  
 
 **Panel you can expect to see upon selecting the *Profile Measure* option**:
 
