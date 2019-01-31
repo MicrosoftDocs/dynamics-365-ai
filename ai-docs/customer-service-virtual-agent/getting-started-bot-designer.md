@@ -14,24 +14,21 @@ manager: shellyha
 
 # Working with the Virtual Agent Designer
 
-The Dynamics 365 Customer Service Virtual Agent Designer provides a variety of tools to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a support channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
+The Dynamics 365 Customer Service Virtual Agent Designer provides a variety of tools to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a web channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
 
 The Virtual Agent Designer is composed of several pages designed for different tasks. You can access the pages through the navigation pane.
 
-   > [!div class="mx-imgBorder"]
-   > ![Navigation pane](media/bot-designer-1.PNG)
+   > ![Navigation pane](media/nav-pane.png)
 
 ## Home page
 
-   > [!div class="mx-imgBorder"]
-   > ![Home page](media/create-bot-3.PNG)
+   > ![Home page](media/open-bot.PNG)
 
-The Home page provides links to the Topics, Deploy, and Analytics pages.  An **Edit Greeting Topic** button lets you revise the built-in virtual agent greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent Designer support community and the Virtual Agent idea forum.
+The Home page provides links to the Topics, Analytics, and Deploy pages.  An **Edit Greeting Topic** button lets you revise the built-in virtual agent greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent Insider Community and the Virtual Agent Feedback Forum.
 
 ## Topics page
 
-   > [!div class="mx-imgBorder"]
-   > ![Topics page](media/bot-designer-4.PNG)
+   > ![Topics page](media/topics-page.PNG)
 
 The Topics page is the central location for creating and managing virtual agent topics. The Virtual Agent Designer includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your virtual agent.
 
@@ -41,8 +38,7 @@ For more information about using the Topics page to create topics, see [Creating
 
 ## Analytics page
 
-   > [!div class="mx-imgBorder"]
-   > ![Analytics page](media/dash-summary-1.PNG)
+   > ![Analytics page](media/analytics-page.PNG)
 
 The Analytics page provides a variety of dashboards and charts showing key performance indicators for your virtual agent.
 
@@ -50,8 +46,7 @@ For more information about using the Analytics page, see [Using analytics to imp
 
 ## Deploy page
 
-   > [!div class="mx-imgBorder"]
-   > ![Deploy page](media/bot-designer-5.PNG)
+   > ![Deploy page](media/deploy-page.PNG)
 
 The Deploy page is where you deploy your completed virtual agent to a demo website or your own custom website. The demo website provides a sandbox environment for your team to test the virtual agent and give you feedback.
 
@@ -63,22 +58,16 @@ For more information about using the Deploy page to deploy your virtual agent, s
 
 ## Test Bot
 
-The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by selecting the arrow on the right edge of the Test Bot pane.
+The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by selecting **Hide your bot** on the lower left corner of the Virtual Agent Designer.
 
-   > [!div class="mx-imgBorder"]
-   > ![Hide Test Bot](media/bot-designer-5-2.PNG)
+   > ![Hide Test Bot](media/hide-test-bot.PNG)
 
-If the Test Bot is hidden, you can display it by selecting the arrow on the right edge of the navigation pane.
-
-   > [!div class="mx-imgBorder"]
-   > ![Display Test Bot](media/bot-designer-5-3.PNG)
+When the Test Bot is hidden, **Hide your bot** changes to **Show your bot**. Select **Show your bot** to restore the Test Bot.
 
 You can test a virtual agent topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test Bot.
 
-   > [!div class="mx-imgBorder"]
-   > ![Trigger phrase](media/bot-designer-6.PNG)
+   > ![Trigger phrase](media/enter-trigger.PNG)
 
 The trigger phrase starts the topic's conversation, and the Test Bot displays the virtual agent responses and user response choices you specified when you created the topic on the Topics page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Complete conversation](media/create-topic-22.png)
+   > ![Complete conversation](media/test-conversation.png)

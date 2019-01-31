@@ -30,12 +30,10 @@ These industry templates can also be useful as a model for building your own con
 
 2. Select the template you want to use, and specify a name and region for the bot. Then select **Create**.
 
-   > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-new-bot.PNG)
 
     Virtual Agent Designer creates the virtual agent and opens it in the browser.
 
-   > [!div class="mx-imgBorder"]
    > ![Open bot](media/open-bot.PNG)
 
 Once you have created your virtual agent, you can add topics that represent the customer intents to be addressed by the virtual agent and then deploy it to a web channel. As customers use the virtual agent, you can view analytics information to help you improve it and the overall customer experience.

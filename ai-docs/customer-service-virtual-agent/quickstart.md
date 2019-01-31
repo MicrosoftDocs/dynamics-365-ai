@@ -102,7 +102,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
     To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page. It can take some time for data from conversations with the virtual agent to populate the Analytics page.
 
-   > ![View analytics](media/dash-summary-1.PNG)
+   > ![View analytics](media/analytics-page.PNG)
 
 The Analytics page includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends to help you improve your virtual agent.
 
