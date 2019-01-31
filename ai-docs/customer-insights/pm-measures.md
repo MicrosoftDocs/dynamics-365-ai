@@ -51,21 +51,19 @@ In the next three sub-sections we will explore the steps you should complete in 
 ### Step2: Choosing the Base Entity
 Upon choosing one of the options, you can expect to reach the **Measure Creation Panel**.
 
-**Panel you can expect to see upon selecting the *Profile Attribute* option**:
+**Panel you can expect to see upon selecting the *Business Measure* option**:
 
 // 3
 
 **Name** (mandatory): Upon completing the configuration of your measure, it will show up in the Measures screen as a saved measure that you can edit. Within the measures screen, your saved measure will carry the name you define under the **Name** field in this panel.
 **Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved a new entity. In both cases, the measure will carry the name you define under the **Display Name** field in this panel.
-**Starting Entity** (mandatory): Here you should choose the entity on the basis of which you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose at this point one of those entities.  
+**Starting Entity** (mandatory): Here you should choose the entity on the basis of which you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose at this point any of these entities.  
 
-**Panel you can expect to see upon selecting the *Profile Measure* option**:
+**Panel you can expect to see upon selecting the *Profile Measure* and *Profile Attribute* options**:
 
 // 4
 
-**Panel you can expect to see upon selecting the *Business Measure* option**:
-
-// 5
+This panel is the same panel we explored under the previous options except for one difference: **The Customer Profile entity will automatically be selected as your starting entitiy**. Morvoer, this default selection can't be changed. 
 
 ### Calculating a Variable
 
