@@ -29,12 +29,31 @@ The **Measures screen** enables you to define all the KPIs that best reflect you
 - Use to define your segment by, using the Segment Builder Screen
 
 ### Choosing between Three Measure Types
+There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you when you click the **New Measure** button:
 
-### Defining a Customer Attribute 
+// 1
 
-### Defining a Customer Measure
+// 2
 
-### Defining a Business Measure 
+- First, you should decide whether to:
+  - Save your measure as an attribute within one of your existing entities - than you should choose the **Profile Attribute** option 
+  - Or create a new entitiy around your measure 
+- 2.If decided to save the measure as an entity, you should also decide whether to:
+  - Create the measure on the basis of field/s from the Customer Profile entity - which corresponds to the **Profile Measure** option
+  - Or create it on the basis of another ingested entity - which corresponds to the **Business Measure**
+
+In the next three sub-sections we will explore the steps you should complete in order to define your measure. 
+
+### Choosing the Base Entity
+Upon choosing one of the options, you can expect to reach the **Measure Creation Panel:**
+
+// 3
+
+**Note**: The panel shown above examplifies the panel that will open under the **Profile Measure**
+
+### Calculating a Variable
+
+### Summarizing
 
 ### Viewing and Editing your Measures 
 
