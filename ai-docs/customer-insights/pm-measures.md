@@ -1,3 +1,7 @@
+
+**Selections needed under the Profile Measure option**: 
+
+**Selections needed under the Profile Measure option**: 
 ---
 title: "Measures| MicrosoftDocs"
 description: Text to go here
@@ -28,7 +32,7 @@ The **Measures screen** enables you to define all the KPIs that best reflect you
 - View for a specific customer as part of the **Customer Card** (visit the *Customer Card Section* to learn more) 
 - Use to define your segment by, using the Segment Builder Screen
 
-### Choosing between Three Measure Types
+### Step1: Choosing between Three Measure Types
 There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you when you click the **New Measure** button:
 
 // 1
@@ -44,12 +48,20 @@ There are two early decisions you should make with regard to your desired measur
 
 In the next three sub-sections we will explore the steps you should complete in order to define your measure. 
 
-### Choosing the Base Entity
-Upon choosing one of the options, you can expect to reach the **Measure Creation Panel:**
+### Step2: Choosing the Base Entity
+Upon choosing one of the options, you can expect to reach the **Measure Creation Panel**.
+
+**Panel you can expect to see upon selecting the *Profile Attribute* option**:
 
 // 3
 
-**Note**: The panel shown above examplifies the panel that will open under the **Profile Measure**
+**Panel you can expect to see upon selecting the *Profile Measure* option**:
+
+// 4
+
+**Panel you can expect to see upon selecting the *Business Measure* option**:
+
+// 5
 
 ### Calculating a Variable
 
