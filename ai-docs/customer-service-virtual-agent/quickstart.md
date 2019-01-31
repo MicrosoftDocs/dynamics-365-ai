@@ -24,7 +24,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent Designer environment.
 
-   On the **Create a new bot** screen, select the template you want to use, either General or Retail. Then specify a name and environment for the bot, and select **Create**.
+   On the **Create a new bot** screen, select the template you want to use, either General or Retail. Then specify a name and region for the bot, and select **Create**.
 
    > ![Create a new bot](media/create-new-bot.PNG)
 

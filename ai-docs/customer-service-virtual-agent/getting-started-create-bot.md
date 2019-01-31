@@ -33,12 +33,12 @@ These industry templates can also be useful as a model for building your own con
    > [!div class="mx-imgBorder"]
    > ![Create a new bot](media/create-new-bot.PNG)
 
-    Virtual Agent Designer creates the bot and opens it in the browser.
+    Virtual Agent Designer creates the virtual agent and opens it in the browser.
 
    > [!div class="mx-imgBorder"]
-   > ![Open bot](media/create-bot-3.PNG)
+   > ![Open bot](media/open-bot.PNG)
 
-Once you have created your bot, you can add topics that represent the customer intents to be addressed by the virtual agent and then deploy the virtual agent to a web channel. As customers use the virtual agent, you can view analytics information to help you improve it and the overall customer experience.
+Once you have created your virtual agent, you can add topics that represent the customer intents to be addressed by the virtual agent and then deploy it to a web channel. As customers use the virtual agent, you can view analytics information to help you improve it and the overall customer experience.
 
 For more information about creating topics for your virtual agent, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
