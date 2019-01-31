@@ -42,9 +42,14 @@ There are two early decisions you should make with regard to your desired measur
 - First, you should decide whether you wish to:
   - Save your measure as an attribute within one of your existing entities - than you should choose the **Profile Attribute** option 
   - Or create a new entitiy around your measure 
+  
 - 2.If decided to save the measure as an entity, you should also decide whether to:
   - Create the measure on the basis of field/s from the Customer Profile entity - which corresponds to the **Profile Measure** option
   - Or create it on the basis of another ingested entity - which corresponds to the **Business Measure**
+  
+Also note that your choice at this point will affect the number of dimensions supported for your measure. **Dimension** is... You will choose your dimensions in step 4 when we will summarize our measure. 
+- Profile attribute and Profile Measure are limited to a single dimension
+- Business Measure, on the other end, supports multiple dimensions 
 
 In the next three sub-sections we will explore the steps you should complete in order to define your measure. 
 
@@ -65,9 +70,11 @@ Upon choosing one of the options, you can expect to reach the **Measure Creation
 
 This panel is the same panel we explored under the previous options except for one difference: **The Customer Profile entity will automatically be selected as your starting entitiy**. Morvoer, this default selection can't be changed. 
 
-### Calculating a Variable
+### Step3: Choosing Related Entities
 
-### Summarizing
+### Step4: Calculating a Variable
+
+### Step5: Summarizing
 
 ### Viewing and Editing your Measures 
 
