@@ -26,7 +26,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
     The trigger phrase starts the topic's conversation, and the Test Bot displays the bot responses and user response choices you specified.
 
    > [!div class="mx-imgBorder"]
-   > ![Start conversation](media/create-topic-21.png)
+   > ![Start conversation](media/start-conversation.png)
 
 2. Continue the conversation path until you complete the conversation.
 
