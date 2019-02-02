@@ -44,23 +44,23 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Select **Add** to add the trigger phrase, and then select **Save topic**.
 
-   > ![Create topic](media/create-topic-3-2.png)
+   > ![Save topic](media/save-topic.png)
 
 4. Design the virtual agent's conversation path.
 
    Select **Edit** to open the conversation editor.
 
-   > ![Edit conversation](media/create-topic-8-1.png)
+   > ![Edit conversation](media/edit-conversation.png)
 
 5. In the conversation editor, add virtual agent and customer responses to the conversation.
 
    To specify a response by the virtual agent, select **Bot says**, and then enter a response in the **Bot says** box.
 
-   > ![Virtual agent response](media/create-topic-12.png)
+   > ![Virtual agent response](media/response-text.png)
 
    To specify a response by the customer, select **User says**, and then enter a response in the **User responses** box.
 
-   > ![User response](media/create-topic-14.png)
+   > ![User response](media/user-response.png)
 
    Select **Save** to save the conversation.
 
@@ -68,7 +68,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Enter a trigger phrase for the topic at the **Type your message** prompt of the Test Bot, and then follow the conversation path.
 
-   > ![Start conversation](media/create-topic-21.png)
+   > ![Start conversation](media/start-conversation.png)
 
 7. Deploy the virtual agent. Once the virtual agent is created, you have the option to activate it either on a demo website or your own custom website.
 
@@ -76,11 +76,11 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    To deploy the virtual agent to the demo website, select **Demo website**.
 
-   > ![Select channel](media/create-topic-21-1.png)
+   > ![Select channel](media/deploy-website.png)
 
    On the Deploy - Demo Website page, enter a welcome message for your virtual agent and some examples of topic triggers to use as conversation starters for team members testing your virtual agent, and then select **Publish**.
 
-   > ![Deploy bot](media/deploy-bot-2.png)
+   > ![Deploy bot](media/publish-bot.png)
 
    For more information on deploying your virtual agent, see [Deploying your bot](getting-started-deploy.md).
 
@@ -88,7 +88,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    When you deploy your virtual agent to the demo website, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the virtual agent's demo website. Select **Copy** to copy the URL.
 
-   > ![Share virtual agent](media/deploy-bot-2-1.png)
+   > ![Share virtual agent](media/share-bot.png)
 
    You can share the demo website with your team members, who can test the virtual agent by pasting the URL into their browser.
 

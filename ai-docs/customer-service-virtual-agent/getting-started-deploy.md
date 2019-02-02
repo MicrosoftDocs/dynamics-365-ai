@@ -57,4 +57,4 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 2. Test the virtual agent in the demo website. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
    > [!div class="mx-imgBorder"]
-   > ![Test virtual agent](media/deploy-bot-4.png)
+   > ![Test virtual agent](media/demo-website.png)
