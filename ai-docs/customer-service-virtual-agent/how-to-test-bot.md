@@ -22,7 +22,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
 
    > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/create-topic-20.png)
-   
+
     The trigger phrase starts the topic's conversation, and the Test Bot displays the bot responses and user response choices you specified.
 
    > [!div class="mx-imgBorder"]
@@ -31,7 +31,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
 2. Continue the conversation path until you complete the conversation.
 
    > [!div class="mx-imgBorder"]
-   > ![Complete conversation](media/create-topic-22.png)
+   > ![Complete conversation](media/complete-test.png)
 
 3. To restart the conversation, select **Start over with latest content** at the top of the Test Bot pane.
 

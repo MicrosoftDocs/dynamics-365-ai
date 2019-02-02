@@ -96,7 +96,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
-   > ![Test virtual agent](media/deploy-bot-4.png)
+   > ![Test virtual agent](media/demo-website.png)
 
 10. Use analytics to see how your virtual agent is performing.
 
