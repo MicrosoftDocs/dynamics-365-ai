@@ -40,7 +40,7 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
    Then select **Publish** to publish the virtual agent. Publishing the code ensures that your website displays the most current virtual agent content.
 
    > [!div class="mx-imgBorder"]
-   > ![Custom message](media/[publish-custom].png)
+   > ![Custom message](media/publish-custom.png)
 
 ## To share your virtual agent in the demo website
 
