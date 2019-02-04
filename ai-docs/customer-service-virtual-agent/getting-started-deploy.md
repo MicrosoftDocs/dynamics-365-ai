@@ -20,37 +20,34 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
 1. Select **Deploy** in the navigation pane to open the Deploy page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Open Deploy page](media/deploy-bot-1.png)
+   > ![Open Deploy page](media/open-deploy.png)
 
 2. To deploy the bot to the demo website, select **Demo website** on the Deploy page. The demo website provides a sandbox environment for your team to test the virtual agent and give you feedback.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select demo website](media/create-topic-21-1.png)
+   > ![Select demo website](media/open-demo.png)
 
     On the Deploy - Demo Website page, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for team members testing your bot, and then select **Publish**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Deploy bot](media/deploy-bot-2.png)
+   > ![Deploy bot](media/publish-demo.png)
 
 3. To deploy your bot to your own custom website, select **Custom website** on the Deploy page.
 
    > [!div class="mx-imgBorder"]
-   > ![Select custom website](media/deploy-bot-1-3.png)
+   > ![Select custom website](media/deploy-custom.png)
 
    On the Deploy - Custom Website page, copy the Virtual Agent code for the custom website and share it with your website administrator to add to the site. If you have admin permissions to the site, you can do it yourself.
 
    Then select **Publish** to publish the virtual agent. Publishing the code ensures that your website displays the most current virtual agent content.
 
    > [!div class="mx-imgBorder"]
-   > ![Custom message](media/deploy-bot-1-2.png)
+   > ![Custom message](media/[publish-custom].png)
 
 ## To share your virtual agent in the demo website
 
 1. When you deploy your virtual agent, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the virtual agent's demo website. Select **Copy** to copy the URL.
 
    > [!div class="mx-imgBorder"]
-   > ![Share virtual agent](media/deploy-bot-2-1.png)
+   > ![Share virtual agent](media/copy-url.png)
 
     Users can open the demo website and test the virtual agent by pasting the URL into their browser.
 
