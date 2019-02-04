@@ -10,9 +10,9 @@
 
 ## [Creating topics for your virtual agent](getting-started-create-topics.md)
 
-## [Deploying your virtual agent](getting-started-deploy.md)
-
 ## [Using analytics to improve your virtual agent](getting-started-analytics.md)
+
+## [Deploying your virtual agent](getting-started-deploy.md)
 
 ## [Deleting your virtual agent bot](getting-started-delete-bot.md)
 
