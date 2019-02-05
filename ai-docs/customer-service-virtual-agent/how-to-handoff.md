@@ -20,40 +20,22 @@ A virtual agent can resolve many customer support issues, but there might be tim
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Open Topics page](media/create-topic-1-1.png)
+   > ![Open Topics page](media/open-topics.png)
 
 2. Hover over the Escalate system topic, and then select the **Edit** icon to open the topic in the conversation editor.
 
-   > [!div class="mx-imgBorder"]
-   > ![Edit Escalate topic](media/how-to-handoff-1.png)
+   > ![Edit Escalate topic](media/open-escalate.png)
 
-3. In the **Bot Says** box, replace the *[link]* placeholder with a link to your engagement hub chat canvas.
+3. In the **Bot Says** box, replace the *[link]* placeholder with a link to your engagement hub chat canvas. Then select **Save** to save the topic.
 
-   > [!div class="mx-imgBorder"]
-   > ![Replace placeholder](media/how-to-handoff-2.png)
+   > ![Save topic](media/replace-placeholder.png)
 
-4. Select **Save** to save the topic.
+4. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to add the handoff, and then select **Escalate**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save topic](media/how-to-handoff-3.png)
-
-5. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to add the handoff, and then select **Escalate**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select Escalate](media/how-to-handoff-4.png)
+   > ![Select Escalate](media/select-escalate.png)
 
     The Virtual Agent Designer adds an **Escalate** node to the conversation path.
 
-   > [!div class="mx-imgBorder"]
-   > ![Add Escalate node](media/how-to-handoff-5.png)
+   > ![Add Escalate node](media/add-escalate.png)
 
-6. Select **Save** to save the topic.
-
-   > [!div class="mx-imgBorder"]
-   > ![Save topic](media/how-to-handoff-6.png)
-
-7. Test your virtual agent in the Test Bot to see how the handoff works for customers.
-
-   > [!div class="mx-imgBorder"]
-   > ![Test handoff](media/how-to-handoff-7.png)
+5. Select **Save** to save the topic, and then test your virtual agent in the Test Bot to see how the handoff works for customers.
