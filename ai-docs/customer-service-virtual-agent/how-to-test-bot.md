@@ -48,7 +48,6 @@ As you fine-tune your virtual agent, it can be useful to enable tracing to take 
 
 3. As you move through the conversation in the Test Bot, the conversation editor highlights the current place in the conversation path. The conversation editor displays highlighted nodes in green with check marks.
 
-   > [!div class="mx-imgBorder"]
    > ![Trace bot](media/trace-bot.png)
 
 4. To navigate to an earlier place in the conversation path in the conversation editor, select it in the Test Bot.

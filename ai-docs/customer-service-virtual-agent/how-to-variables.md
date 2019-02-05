@@ -29,25 +29,20 @@ Virtual Agent Designer supports four types of variables:
 
 1. In the Virtual Agent Designer conversation editor, select the ellipses in the upper-right corner of the **User responses** node where you want to add the variable.
 
-   > [!div class="mx-imgBorder"]
-   > ![Click ellipses](media/how-to-variables-1.png)
+   > ![Click ellipses](media/create-variable.png)
 
 2. Select **Properties** to open the Properties pane.
 
-   > [!div class="mx-imgBorder"]
-   > ![Open properties pane](media/how-to-variables-2.png)
+   > ![Open properties pane](media/variable-properties.png)
 
 3. Select **Name variable** to open the **Create variable** window.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create variable](media/how-to-variables-3.png)
+   > ![Create variable](media/name-variable.png)
 
 4. Specify a name and type for the variable, and then select **Save**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save variable](media/how-to-variables-4.png)
+   > ![Save variable](media/save-variable.png)
 
 The Virtual Agent Designer adds the variable to a customer's response and uses expressions to dynamically route the conversation path, letting you tailor the virtual agent's response.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save variable](media/how-to-variables-5.png)
+   > ![Save variable](media/use-variable.png)
