@@ -29,6 +29,8 @@
         href: pm-enrichment.md
   - name: Segments
     href: pm-segments.md
+  - name: Act on your data
+    href: pm-act-on-your-data.md
   - name: Measures
     href: pm-measures.md
   - name: Admin
@@ -42,6 +44,8 @@
       href: pm-manage-search.md
   - name: Extensibilities
     items:
+    - name: Customer Card Plugin 
+      href: pm-customer-card-plugin.md
     - name: Connectors
       href: pm-connectors.md
     - name: APIs
