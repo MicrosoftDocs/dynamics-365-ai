@@ -196,8 +196,8 @@ The lower part includes a table with all your segment's members.
 - **Exporting a Segment:** That can be done both to a csv. file and to a Dynamics 365 location.
 
     1. Both options are available within the *Segments page*: 
-      - First click the **three dots icon** within a specific segment's tile: // missing 2
-      - Then select the **Export** button: // missing 1
+      - First click the **three dots icon** within a specific segment's tile: missing 1
+      - Then select the **Export** button: missing 2
       - Lastly, choose between a csv. format and a specific Dynamics 365 destination. To add a destination, use the **Export Screen** as explained below (this screen is accessable via the **Export Segment** tab on the left side menu).
       
     2. Both options are also available within the specific segment's page by clicking **Export** at the top-right corner of the page:
