@@ -14,7 +14,7 @@
 
 ## [Deploying your virtual agent](getting-started-deploy.md)
 
-## [Deleting your virtual agent bot](getting-started-delete-bot.md)
+## [Deleting your virtual agent](getting-started-delete-bot.md)
 
 # How-to
 

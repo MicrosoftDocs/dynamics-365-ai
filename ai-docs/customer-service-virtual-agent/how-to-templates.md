@@ -45,17 +45,14 @@ A good starting point for creating a virtual agent and designing its conversatio
 
 For example, to see how you might build a conversation path for helping customers find specific store information, view the Store Hours topic that is included with the Retail template.
 
-   > [!div class="mx-imgBorder"]
-   > ![View Store Hours](media/how-to-templates-1.png)
+   > ![View Store Hours](media/store-hours.png)
 
 To view the topic's conversation path, select the Store Hours topic in the Topics list to open the topic, and then select the **Edit** button to open the conversation editor.
 
-   > [!div class="mx-imgBorder"]
-   > ![Edit Store Hours](media/how-to-templates-2.png)
+   > ![Edit Store Hours](media/edit-store-hours.png)
 
 You can view the trigger phrases and conversation path design in the Store Hours topic and use similar techniques in your own topics.
 
-   > [!div class="mx-imgBorder"]
-   > ![View conversation path](media/how-to-templates-3.png)
+   > ![View conversation path](media/store-hours-path.png)
 
 For more information about creating topics, see [Creating topics for your virtual agent](getting-started-create-topics.md).
