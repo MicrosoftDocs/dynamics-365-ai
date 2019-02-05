@@ -1,7 +1,4 @@
 
-**Selections needed under the Profile Measure option**: 
-
-**Selections needed under the Profile Measure option**: 
 ---
 title: "Measures| MicrosoftDocs"
 description: Text to go here
@@ -71,10 +68,65 @@ Upon choosing one of the options, you can expect to reach the **Measure Creation
 This panel is the same panel we explored under the previous options except for one difference: **The Customer Profile entity will automatically be selected as your starting entitiy**. Morvoer, this default selection can't be changed. 
 
 ### Step3: Choosing Related Entities
+Once completing step one, you can expect to see the following screen:
+
+// 5
+
+Within this screen we will complete steps 3-5 in the Measure definition process.
+
+First you should decide whether additional entities are needed as part of your measure definition. One example might be creating an expression that will be based on attributes from two or more different entities (we will explore that use case in step 4). 
+
+In order to choose additional entities, simply click the **Add new entity** button and pick the entitites of your interest:
+
+// 6
+
+**Note**: You can only select entities which have relationships to your base entity. If you havn't define relationships yet, make sure to read the **Relationships** section.
 
 ### Step4: Calculating a Variable
+Ths step is accessable via the **Add new variable** button:
+
+// 7
+
+Upon clicking it, you should reach the **Variable Definition Panel**:
+
+// 8
+
+Let's explore the steps you should complete in this panel:
+1. Giving you variable a name: You can give your variable a recognizable name
+2. Clicking the Expression area:
+
+// 9
+
+3. Choosing a field from the fields shown to the right:
+
+// 10
+
+4. Typing an expression in the expression area while choosing more fields (**Note**: At this point we only support arithmathic expressions)
+
+// 11
+
+5. Clicking **Done**.
 
 ### Step5: Summarizing
+In this final step we will decide how to aggragate our measure. 
+
+**Step1:** Click **Add new dimension**: That will open the *Summarize* type of aggragate.  ...
+If you do wish to have that aggragate, those are the selections you should fill:
+**Summarize**
+**Entity**
+**Field**
+**As**
+**Display Name**
+
+**Step2 (optional):**: Add more **summarize** dimensions by clicking **Add new measure**
+
+**Step 3**: Click **Add new Dimension**: That will open the *Group by* type of aggragate.  ....
+If you do wish to have this aggragate, those are the selections you should fill:
+**Group by**
+**Field**
+**Bucket**
+**As**
+**Display Name**
 
 ### Viewing and Editing your Measures 
 
