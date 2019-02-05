@@ -29,8 +29,9 @@
         href: pm-enrichment.md
   - name: Segments
     href: pm-segments.md
-  - name: Act on your data
-    href: pm-act-on-your-data.md
+    items:
+    - name: Act on your data
+      href: pm-act-on-your-data.md
   - name: Measures
     href: pm-measures.md
   - name: Admin
