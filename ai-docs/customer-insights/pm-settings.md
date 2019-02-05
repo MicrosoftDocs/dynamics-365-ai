@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **System** screen encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer 360. As shown below, it includes three major parts: **Status, Schedule** and **About** that are accessible through three corresponding tabs at the top of the screen:
+The **System** screen encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer 360. As shown below, it includes four parts: **Status, Schedule**, **About** and **General** that are accessible through three corresponding tabs at the top of the screen:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-menu.png "System menu")
@@ -106,3 +106,7 @@ Within this screen, several options are available as shown below. Those options 
 - **Display Name**: Determines how your user name will be shown
 - **Instance Name**: Here you can give your work instances identifiable names. Highly recommended if you have more than one instance 
 - **Region**: Determines your organization's region 
+
+### General Tab
+
+At this point only one selection is available to you via the **General Tab**: Choosing language. The languages we support will show up in this menu. Don't forget to **Save** your selection. 
