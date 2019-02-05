@@ -20,17 +20,12 @@ If you want to remove your virtual agent bot from the Virtual Agent Designer env
 
 1. Select the **Settings** button on the Virtual Agent Designer title bar, and then select **General settings** to display the General pane of the Settings window.
 
-   > [!div class="mx-imgBorder"]
-   > ![Display General pane](media/delete-bot.PNG)
+   > ![Display General pane](media/general-settings.PNG)
 
 2. In the Delete bot section, select **Delete bot**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Delete bot](media/delete-bot-2.PNG)
+   > ![Delete bot](media/delete-bot.PNG)
 
 Virtual Agent Designer removes your virtual agent from the system and opens the **Create a new bot** screen, giving you the opportunity to create a new virtual agent.
-
-   > [!div class="mx-imgBorder"]
-   > ![Create a new bot screen](media/create-bot-1.PNG)
 
 For information about creating a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md).
