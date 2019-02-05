@@ -102,22 +102,18 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
 
 1. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
 
-   > [!div class="mx-imgBorder"]
    > ![Trigger phrase](media/enter-trigger.PNG)
 
     The trigger phrase starts the topic's conversation. The Test Bot displays the bot and user responses that you specified in the conversation editor.
 
-   > [!div class="mx-imgBorder"]
    > ![Start conversation](media/start-conversation.png)
 
 2. Continue the conversation path until you complete the conversation.
 
-   > [!div class="mx-imgBorder"]
    > ![Complete conversation](media/complete-test.png)
 
 3. To restart the conversation, select **Start over with latest content** at the top of the Test Bot pane.
 
-   > [!div class="mx-imgBorder"]
    > ![Restart conversation](media/restart-conversation.png)
 
 You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the virtual agent until you are ready to deploy it. For information on deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
