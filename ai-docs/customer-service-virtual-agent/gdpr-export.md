@@ -30,29 +30,22 @@ Dynamics 365 Customer Service Virtual Agent offers the following experiences to 
 1. Open the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings window.
 
-   > [!div class="mx-imgBorder"]
-   > ![General settings](media/gdpr-export-1.png)
+   > ![General settings](media/general-settings.png)
 
-3. In the Export section, select **Export all bot content**.
+3. In the Export section, select **Export all bot content** to export all bot content, **Export bot system content** to export bot system content, or **Export bot non-system content** to export bot non-system content.
 
-   > [!div class="mx-imgBorder"]
-   > ![Export bot content](media/gdpr-export-1-1.png)
-
-All bot content is immediately exported.
+   > ![Export bot content](media/export-bot-content.png)
 
 ### Export customer data – Analytics data
 
 1. Hover over a chart on one of the Analytics dashboards and select the **More options** ellipses.
 
-   > [!div class="mx-imgBorder"]
-   > ![More options](media/gdpr-export-4.png)
+   > ![More options](media/more-options.png)
 
 2. From the drop-down menu, select **Export data**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Export data](media/gdpr-export-5.png)
+    > ![Export data](media/export-data.png)
 
-3. To export summarized data, select **Summarized data** and then **Export**.
+3. To export summarized data, select **Summarized data** and a file format, and then **Export**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Export details](media/gdpr-export-6.png)
+   > ![Export details](media/export-details.png)

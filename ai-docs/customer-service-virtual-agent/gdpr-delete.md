@@ -43,13 +43,12 @@ Follow these steps to delete a virtual agent:
 1. Open the Virtual Agent Designer in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
 
-   > [!div class="mx-imgBorder"]
-   > ![General settings](media/gdpr-export-1.png)
+   > ![General settings](media/general-settings.png)
 
 3. In the Delete bot section, select **Delete bot**.
 
    > [!div class="mx-imgBorder"]
-   > ![Delete bot](media/delete-bot-2.PNG)
+   > ![Delete bot](media/delete-bot.PNG)
 
 All bot content is immediately deleted.
 

@@ -22,4 +22,4 @@ You can display the [Topic details](analytics-topic-details.md) dashboard by sel
 
    > ![Topic details link](media/topic-details-link.PNG)
 
-You can download information from your customer service sessions over a specified time period by selecting the [Sessions page](analytics-sessions.md).
+You can download information from your customer service sessions by selecting the [Sessions page](analytics-sessions.md).

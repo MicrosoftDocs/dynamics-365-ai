@@ -16,4 +16,4 @@ manager: shellyha
 
    > ![Sessions page](media/sessions-page.PNG)
 
-The sessions page lets you download information from your customer service sessions over the specified time period.
+The sessions page lets you download information from your customer service sessions from the last 30 days, up to 1000 sessions.
