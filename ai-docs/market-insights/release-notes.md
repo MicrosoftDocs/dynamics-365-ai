@@ -28,15 +28,15 @@ This topic describes features that are either new or changed in [!INCLUDE[Market
 Ask questions and get help from experts and the product team in the [Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights).
 
 If you can think of ways how we can further improve the product and service, please [add your idea to the ideas list](https://experience.dynamics.com/ideas/list/?forum=e6202680-69d9-e811-a96b-000d3a1be7ad). 
+## Public Preview update - February 26, 2019
 
-
-## Public Preview update 2 (December 19, 2018)
+## Public Preview update - December 19, 2018
 
 ### Introducing new languages
 
 This release introduces new languages for sentiment analysis, search rules, and the user interface.
 
-The following languages are available with Update 1.12:
+The following languages are now available:
 
 - Indonesian (Bahasa)
 - Czech
@@ -50,7 +50,7 @@ We've introduced a quick and easy way to sign in to [!INCLUDE[Market Insights](.
 
 Save this URL to your bookmarks if you don't want to sign in to Office 365 before accessing [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-## Public Preview update 1 (November 21, 2018)
+## Public Preview update  - November 21, 2018
 
 ### Extended availability of age, gender, and search trend data
 
