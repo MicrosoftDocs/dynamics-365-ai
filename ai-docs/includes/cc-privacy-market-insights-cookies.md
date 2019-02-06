@@ -1,2 +1,2 @@
-Microsoft Dynamics 365 AI for Market Insights uses session cookies to allow users to move from page to page without having to sign in again on each page. At the user’s direction, we may use cookies to store credentials to facilitate authentication for future sessions.   
- Session cookies are essential to operate Microsoft Dynamics 365 AI for Market Insights; there is no option to opt out of these cookies. However, sign-in cookies are stored only at the user’s request.
+Market Insights uses session cookies to allow users to move from page to page without having to sign in again on each page. At the user’s direction, we may use cookies to store credentials to facilitate authentication for future sessions.   
+ Session cookies are essential to operate Market Insights; there is no option to opt out of these cookies. However, sign-in cookies are stored only at the user’s request.
