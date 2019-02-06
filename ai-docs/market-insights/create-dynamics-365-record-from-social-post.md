@@ -152,7 +152,7 @@ A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-sho
     "influencescore": 41.0,  
     "notes": "The customer requested a technician to call back as quickly as possible.",  
     "isRetweet": false,  
-    "MSEbacklinkPost": "https://listening-prod.dynamics.com/app/23534544/#postid=45663"  
+    "MSEbacklinkPost": "https://mi.ai.dynamics.com/app/23534544/#postid=45663"  
   }
 }  
 ```  

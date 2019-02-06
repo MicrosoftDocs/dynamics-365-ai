@@ -212,7 +212,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   	
  The **Solution ID** of your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution can be found in the URL. The URL can be found in the browser’s address bar after [signing in to Market Insights](https://mi.ai.dynamics.com/login).  	
   	
- The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://listening-prod.dynamics.com/app/1/](https://www.microsoft.com). 	
+ The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://mi.ai.dynamics.com/app/1/](https://www.microsoft.com). 	
   	
   	
 ### See Also  	

@@ -54,7 +54,7 @@ For more information and to learn about important administration features, see [
 
 We recommend saving the URL for your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
-If you’re looking for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://listening-prod.dynamics.com/app/\<appID></strong>.  
+If you’re looking for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://mi.ai.dynamics.com/app/\<appID></strong>.  
   
 ### See Also  
  [Get started with Market Insights](get-started.md)   
