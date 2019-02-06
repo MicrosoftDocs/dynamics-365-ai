@@ -29,7 +29,7 @@ Set up the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics
 
 The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)]. Prerequisites specific to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] are listed later in this topic.  
   
-- You have a license assigned for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and access to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
+- You have a license assigned for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and access to [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)].  
   
 - You have a System Administrator security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [Contact your system administrator](https://go.microsoft.com/fwlink/p/?LinkID=513070) if you need an upgrade to your licensed products or an update to your permissions.
   
@@ -54,7 +54,7 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
   
 - Register your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution so that it can connect to and authenticate with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and access the web services. Each solution that you want to connect with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) (IFD-enabled) should be registered as a RedirectUri. Use the following command to register with the desktop client:  
   
-  `Add-AdfsClient -Name Market_Insights -ClientId e8ab36af-d4be-4833-a38b-4d6cf1cfd525 -RedirectUri @("https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solution id>/crm/oauthRedirect ", "https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect") -Description "OAuth 2.0 client for Market Insights".`  
+  `Add-AdfsClient -Name Market_Insights -ClientId e8ab36af-d4be-4833-a38b-4d6cf1cfd525 -RedirectUri @("https://mi.ai.dynamics.com/api/connect/version/1.0/solutions/<solution id>/crm/oauthRedirect ", "https://mi.ai.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect") -Description "OAuth 2.0 client for Market Insights".`  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Walkthrough: Register a CRM app with Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=723356)  
 > [!NOTE]

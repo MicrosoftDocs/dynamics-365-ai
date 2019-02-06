@@ -23,7 +23,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] provides two ways to access the list of posts that match a given data set. You can either work with the post list or with a stream, depending on your requirements and preferences.  
+[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] provides two ways to access the list of posts that match a given data set. You can either work with the post list or with a stream, depending on your requirements and preferences.  
   
 <a name="access"></a>   
 ## Access posts in Analytics and Social Center  

@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 AI for Market Insights
+Microsoft Dynamics 365 Market Insights

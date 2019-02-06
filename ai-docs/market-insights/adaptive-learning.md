@@ -23,7 +23,7 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
+[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
   
 To manage adaptive learning, you need to be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Administrator. However, every user can edit the sentiment value of a post. 
   

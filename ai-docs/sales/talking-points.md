@@ -22,14 +22,14 @@ topic-status: Drafting
 
 # Know conversation starters for your customers 
 
-Applies to Dynamics 365 (online), version 9.1.0<br>
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 As a sales representative, you interact with many customers and it can be difficult to remember details about each, such as:
 -  Latest entertainment event they attended.
 -  Favorite sports or games they watch.
 -  Vacations they had taken.
 
-In [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], **Talking points** provides a mechanism to automatically identify such conversation starters from your emails. The conservation starters include topics that are related to sports, vacation, family, and entertainment. These insights are available on the contact page. 
+In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], **Talking points** provides a mechanism to automatically identify such conversation starters from your emails. The conservation starters include topics that are related to sports, vacation, family, and entertainment. These insights are available on the contact page. 
 
 > [!NOTE]
 > The system administrator configures which categories of Talking points should be displayed in your organization. 

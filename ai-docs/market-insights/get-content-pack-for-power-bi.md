@@ -2,13 +2,12 @@
 title: "Get the Market Insights content pack | Microsoft Docs"	
 description: "Download the use the Market Insights content pack for Power BI."	
 keywords: "Power BI, content pack, engagement details"	
-ms.date: 10/31/2018	
+ms.date: 01/30/2019	
 ms.service: dynamics-365-ai	
 ms.topic: article	
 ms.assetid: 9e3339e2-2531-4cab-83c7-bbde3cc0717a	
 author: m-hartmann	
 ms.author: mhart	
-manager: shellyha	
 ms.custom: dyn365-ai-marketinsights	
 search.audienceType: 	
   - admin	
@@ -18,11 +17,11 @@ search.app:
   - D365CE	
   - D365SE	
 ---	
- # Get the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] content pack for Power BI	
+ # Get the [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] content pack for Power BI	
 
 (This topic is pre-release documentation and is subject to change.)
 
-Engaging on social media by responding to posts is a core capability of [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. With this [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] content pack, you can now get insights on how your organization, and your teams are engaging with KPIs such as volume of interactions and average response times.  	
+Engaging on social media by responding to posts is a core capability of [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. With this [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] content pack, you can now get insights on how your organization, and your teams are engaging with KPIs such as volume of interactions and average response times.  	
   	
  This content pack is for organizations using [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and can only be accessed via [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. You can use this content pack with both [the free and the pro versions of Power BI](https://powerbi.microsoft.com/).  	
   	
@@ -81,24 +80,24 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   	
 -   Try [asking a question in the Q & A box](https://docs.microsoft.com/power-bi/power-bi-tutorial-q-and-a) at the top of the dashboard.  	
   	
--   [Change the tiles](https://powerbi.microsoft.com/documentation/powerbi-service-edit-a-tile-in-a-dashboard/) in the dashboard.  	
+-   [Change the tiles](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile) in the dashboard.  	
   	
--   [Select a tile](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/) to open the underlying report.  	
+-   [Select a tile](https://docs.microsoft.com/power-bi/service-dashboard-tiles) to open the underlying report.  	
   	
 -   While your dataset will be scheduled to refreshed daily, you can change the refresh schedule or try refreshing it on demand using **Refresh Now**.  	
   	
 -   See also:  	
   	
-    -   [Get started with Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/)  	
+    -   [Get started with Power BI](https://docs.microsoft.com/power-bi/service-dashboard-tiles)  	
   	
-    -   [Get Data for Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-get-data/)  	
+    -   [Get Data for Power BI](https://docs.microsoft.com/power-bi/service-get-data)  	
   	
 ## What's included  	
  At the core of this content pack is the term 'Action'. We describe Action as a single, specific interaction with a given social post. For example, assigning a post to a user or retweeting a tweet, etc.  	
   	
  Depending on the type of action, related information is shown. It’s critical to understand that only actions taken in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] are part of this dataset.  	
   	
- To get you started quickly, the content pack includes a dashboard based on three [reports](https://powerbi.microsoft.com/documentation/powerbi-service-reports/):  	
+ To get you started quickly, the content pack includes a dashboard based on three [reports](https://docs.microsoft.com/power-bi/service-get-data):  	
   	
 - **Engagement Performance**: Get insights on how your organization is engaging on  social media with KPIs on actions and response times.  	
   	
@@ -213,7 +212,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   	
  The **Solution ID** of your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution can be found in the URL. The URL can be found in the browser’s address bar after [signing in to Market Insights](https://mi.ai.dynamics.com/login).  	
   	
- The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://listening-prod.dynamics.com/app/1/](https://www.microsoft.com). 	
+ The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://mi.ai.dynamics.com/app/1/](https://www.microsoft.com). 	
   	
   	
 ### See Also  	
