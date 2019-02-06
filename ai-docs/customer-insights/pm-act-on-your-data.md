@@ -1,5 +1,5 @@
 ---
-title: "Act on your data | MicrosoftDocs"
+title: "Export Segment | MicrosoftDocs"
 description: Text to go here
 ms.custom: ""
 ms.date: 11/05/2018
@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Act on your data
+# Export Segment
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
