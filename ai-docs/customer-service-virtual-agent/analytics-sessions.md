@@ -13,3 +13,7 @@ manager: shellyha
 ---
 
 # Sessions page
+
+   > ![Sessions page](media/sessions-page.PNG)
+
+The sessions page lets you download information from your customer service sessions over the specified time period.

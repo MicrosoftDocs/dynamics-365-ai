@@ -14,8 +14,7 @@ manager: shellyha
 
 # Engagement dashboard
 
-   > [!div class="mx-imgBorder"]
-   > ![Engagement dashboard](media/analytics-engagement-1.PNG)
+   > ![Engagement dashboard](media/engagement-dashboard.PNG)
 
 The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provide graphical views of the breakdown of session outcomes and engagements over time. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 
@@ -26,9 +25,6 @@ By default, the dashboard shows you key performance indicators for the last seve
 
 ## Session outcomes over time chart
 
-   > [!div class="mx-imgBorder"]
-   > ![Session outcomes over time chart](media/analytics-engagement-2.PNG)
-
 The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.
 
 Description | Details
@@ -38,11 +34,6 @@ Escalated | The daily rate of escalated sessions. An escalated session is an eng
 Abandoned | The daily rate of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
 ## Engagement over time chart
-
-   > [!div class="mx-imgBorder"]
-   > ![Outcomes over time chart](media/analytics-engagement-3.PNG)
-
-<!--note from editor: Line 47: "An engaged session is either a session in which a user-created topic is triggered or a session that continues as an escalation" ?-->
 
 The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered, or the session ends in escalation.
 

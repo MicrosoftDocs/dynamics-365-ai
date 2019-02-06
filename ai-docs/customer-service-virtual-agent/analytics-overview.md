@@ -20,5 +20,6 @@ You can display [Summary](analytics-summary.md), [Engagement](analytics-engageme
 
 You can display the [Topic details](analytics-topic-details.md) dashboard by selecting the Detail link in one of the charts in those dashboards.
 
-   > [!div class="mx-imgBorder"]
-   > ![Topic details link](media/analytics-overview-1.PNG)
+   > ![Topic details link](media/topic-details-link.PNG)
+
+You can download information from your customer service sessions over a specified time period by selecting the [Sessions page](analytics-sessions.md).

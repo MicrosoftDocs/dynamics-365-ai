@@ -14,28 +14,19 @@ manager: shellyha
 
 # Customer satisfaction dashboard
 
-   > [!div class="mx-imgBorder"]
-   > ![Customer satisfaction dashboard](media/dash-csat-1.PNG)
-
 The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including the average CSAT score over time and the topics that are having the most impact on the CSAT score.
 
 The Customer satisfaction dashboard includes a variety of charts with graphical views of your virtual agent's customer satisfaction indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 
-<!--note from editor: "Score breakdown chart" is a bullet item but section missing. "Scores over time" chart missing some content?-->
-
 * [Customer satisfaction drivers chart](#customer-satisfaction-drivers-chart)
 * [CSAT summary charts](#csat-summary-charts)
 * [Scores over time chart](#scores-over-time-chart)
-* [Score breakdown chart](#score-breakdown-chart)
 
 The Customer satisfaction drivers chart shows you the topics that are having the most impact on customer satisfaction.
 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
 ## Customer satisfaction drivers chart
-
-   > [!div class="mx-imgBorder"]
-   > ![Customer satisfaction drivers chart](media/analytics-csat-1.PNG)
 
 The Customer satisfaction drivers chart uses artificial intelligence technology to group related support cases as topics. This chart then displays topics in order of their impact on customer satisfaction over the specified time period.
 
@@ -57,9 +48,6 @@ To see additional information about each topic, select the Detail link to displa
 
 ## CSAT summary charts
 
-   > [!div class="mx-imgBorder"]
-   > ![CSAT summary charts](media/analytics-csat-2.PNG)
-
 The CSAT summary charts summarize the key customer-satisfaction performance indicators for the specified time period and the percent change over the period.
 
 Description | Details
@@ -71,8 +59,5 @@ Surveys completed | The number of CSAT surveys completed during the specified ti
 A blue up-and-down indicator below the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
 ## Scores over time chart
-
-   > [!div class="mx-imgBorder"]
-   > ![Scores over time chart](media/analytics-csat-3.PNG)
 
 The Scores over time chart provides a graphical view of the average CSAT score over the specified time period.
