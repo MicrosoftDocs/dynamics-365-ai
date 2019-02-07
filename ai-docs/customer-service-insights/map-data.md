@@ -44,21 +44,18 @@ Here some things to keep in mind when you are working with case data in Customer
 
 1. Select the **Settings** button on the Customer Service Insights title bar and then select **Settings**.
 
-   > [!div class="mx-imgBorder"]
    > ![Settings button](media/ai-csi-settings-button.PNG)
 
    AI for Customer Service Insights displays the Settings page.
 
 2. Select **Data mapping** to display the Data mapping pane. If you have not created a workspace, Customer Service Insights prompts you to create one.
 
-   > [!div class="mx-imgBorder"]
    > ![Data mapping pane](media/data-mapping-pane.PNG)
 
    For more information about creating a workspace, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
 3. If you are connected to a workspace, select the Incident destination entity to display the **Find your incident records** pane. Select the entities that contain your custom fields, and then select **Next**.
 
-   > [!div class="mx-imgBorder"]
    > ![Find records pane](media/find-records-pane.PNG)
 
 ## Tips and tricks for data mapping
