@@ -12,6 +12,8 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
+## [Generate insights by mapping your data to custom data entities and fields](map-data.md)
+
 # Reference
 
 ## Dashboard reference
