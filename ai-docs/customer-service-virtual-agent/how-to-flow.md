@@ -76,7 +76,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
    > [!div class="mx-imgBorder"]
    > ![Select trigger](media/how-to-flow-8.PNG)
 
-4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter.
+4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New Step**.
 
     ``` JSON
         {  
@@ -114,7 +114,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
    > [!div class="mx-imgBorder"]
    > ![HTTP response](media/how-to-flow-12-1.PNG)
 
-9. Specify the following information for the Response action, and then save your flow.
+9. Specify the following information for the Response action, and then click **Save** to save your flow.
 
    > [!div class="mx-imgBorder"]
    > ![Response action](media/how-to-flow-13.PNG)
