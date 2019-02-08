@@ -176,7 +176,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 6. Specify a variable name and type. For example, you could create a text variable named **User_Email**.  Select **Done** to save the variable.
 
    > [!div class="mx-imgBorder"]
-   > ![Save variable](media/how-to-flow-19.png)
+   > ![Save variable](media/create-flow-variable.png)
 
     The Virtual Agent Designer creates an **Expression** node that can be deleted if you do not want to do any validation.
 
