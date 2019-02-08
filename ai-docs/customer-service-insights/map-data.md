@@ -1,8 +1,8 @@
 ---
-title: "Generate insights by mapping your data to custom data entities and fields​"
+title: "Map your data to custom entities and fields"
 description: "Learn how to generate insights by mapping your data to custom data entities and fields​."
 keywords: ""
-ms\.date: 2/7/2019
+ms\.date: 2/8/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Generate insights by mapping your data to custom data entities and fields
+# Map your data to custom entities and fields
 
 While Dynamics 365 Customer Service Insights works out of the box with data stored in default Dynamics 365 entities and data fields, you may want to generate insights by mapping to data from custom entities and fields in Common Data Services (CDS). Mapping to data from custom entities and fields in Common Data Services can be useful in the following cases:
 
@@ -35,9 +35,13 @@ For more information on connecting to an environment, see [Use workspaces to con
 Here some things to keep in mind when you are working with case data in Customer Service Insights:
 
 * Customer Service Insights loads data from multiple entities, including Incident (case), BusinessUnit, Product, SystemUser and Team. The Incident entity is the primary entity that stores case data. It contains several data fields with the Lookup attribute type that look up data from the primary field of other entities. For example, by default the OwningUser field looks up agents’ full names from the SystemUser entity since FullName is the 's primary field. Similarly, the ProductId field looks up product names from the Product entity, the OwningBusinessUnit field looks up business unit names from the BusinessUnit entity, and the OwningTeam field looks up team names from the Team entity.
+
 * Several data fields in the Incident entity are pick lists, including the PriorityCode, CaseOriginCode, ResolveBySLAStatus and CustomerSatisfactionCode fields. Picklist is an attribute type in Common Data Service that allows the selection of multiple options. Each option consists of a numeric value and a string label:
+
   * For PriorityCode (which is used to specify a case’s priority) and CaseOriginCode (which indicates the support channel where the case originated), Customer Service Insights supports any custom values and labels defined in these fields.
-  * ResolveBySLAStatus indicates whether a case is compliant with the service-level agreement (SLA). You can define multiple different values for compliant cases. Customer Service Insights only uses the value 4 to identify noncompliant cases.  
+
+  * ResolveBySLAStatus indicates whether a case is compliant with the service-level agreement (SLA). You can define multiple different values for compliant cases. Customer Service Insights only uses the value 4 to identify noncompliant cases.
+
   * The pick list values defined in CustomerSatisfactionCode indicates the customer satisfaction score (CSAT). Customer Service Insights reads value from 1 to 5 to calculate the average CSAT.
 
 ## To specify mapping from custom entities and fields
