@@ -25,13 +25,15 @@ robots: noindex,nofollow
 - **Exporting a Segment:** That can be done both to a csv. file and to a Dynamics 365 location.
 
     1. Both options are available within the *Segments page*: 
-      - First click the **three dots icon** within a specific segment's tile: 
-      // missing 1
-      - Then select the **Export** button: 
-      // missing 2
-      - Lastly, choose between a csv. format and a specific Dynamics 365 destination. To add a destination, use the **Export Screen** as explained below (this screen is accessable via the **Export Segment** tab on the left side menu).
+      - First click the **three dots icon** within a specific segment's tile (shown in red below)
+      - Then click the **export** option from the actions menu (shown in blue)
+      - Lastly, choose between a csv. format and a specific Dynamics 365 for Sales destination (shown in green below). Note: At this point only Dynamics 365 for Sales destinations are supported. 
       
-    2. Both options are also available within the specific segment's page by clicking **Export** at the top-right corner of the page:
+      // image 1
+      
+     To add a destination, use the **Export Screen** as explained below (this screen is accessable via the **Export Segment** tab on the left side menu).
+      
+    2. The csv. option is also available within the specific segment's page by clicking **Export** at the top-right corner of the page:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segment-menu-export-top.png "Export segment")
@@ -43,17 +45,29 @@ robots: noindex,nofollow
     > [!div class="mx-imgBorder"] 
     > ![](media/segmentation-add-destination.png "Segmentation add destination")
 
-    2. Give your destination a recognizable name, define it's URL, and select a Dynamics 365 account:
+    2. Give your destination a recognizable name, define it's URL, and select a Dynamics 365 for Sales account:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segmentation-export-destination.png "Segmentation export destination")
 
-    3. Upon the completion of step 3, your destination should appear in the **Destinations** table as shown in the example below:
+    3. Upon the completion of step 3, your destination should appear in the **Destinations** table. Below you can see an example with three created destinations. Beyond the details completed in step (2), this table aslo specifies the creation date and time for your destinations.
 
-    > [!div class="mx-imgBorder"] 
-    > ![](media/segmentation-export-destination-actions.png "Segmentation export destination table")
+    // image 2
+    
+    Your saved destination will also light up in the segments screen under the export option we explored earlier:
+    
+    // image 3
+    
+    Upon clicking your Dynamics 365 for Sales destination (shown in red above), you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message:
+    
+    // image 4
 
  - **Viewing Segments you have Exported**:
-    That can be done also in the Export Segmnet screen. Below the Destinations table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported: 
+    That can be done also in the Export Segmnet screen. Below the *Destinations* table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported: 
     
-    // missing 3
+    // image 5
+
+- **Deleting a Destination**
+That can be easily done via the **delete button** on the Export Segment screen:
+
+   // image 6
