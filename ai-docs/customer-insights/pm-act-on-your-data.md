@@ -29,7 +29,8 @@ robots: noindex,nofollow
       - Then click the **export** option from the actions menu (shown in blue)
       - Lastly, choose between a csv. format and a specific Dynamics 365 for Sales destination (shown in green below). Note: At this point only Dynamics 365 for Sales destinations are supported. 
       
-      // image 1
+      > [!div class="mx-imgBorder"] 
+      > ![](media/segmentation-export-csv.png "Segmentation export")
       
      To add a destination, use the **Export Screen** as explained below (this screen is accessable via the **Export Segment** tab on the left side menu).
       
@@ -50,22 +51,28 @@ robots: noindex,nofollow
     > [!div class="mx-imgBorder"] 
     > ![](media/segmentation-export-destination.png "Segmentation export destination")
 
-    3. Upon the completion of step 3, your destination should appear in the **Destinations** table. Below you can see an example with three created destinations. Beyond the details completed in step (2), this table aslo specifies the creation date and time for your destinations.
+    3. Upon the completion of step 3, your destination should appear in the **Destinations** table. Below you can see an example with three created destinations. Beyond the details completed in step (2), this table also specifies the creation date and time for your destinations.
 
-    // image 2
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-export-destination2.png "Segmentation add destination")
     
     Your saved destination will also light up in the segments screen under the export option we explored earlier:
     
-    // image 3
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-export-in-process.png "Segmentation export in process")
     
     Upon clicking your Dynamics 365 for Sales destination (shown in red above), you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message:
     
-    // image 4
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-export-destination3.png "Segmentation destination")
+
 
  - **Viewing Segments you have Exported**:
     That can be done also in the Export Segmnet screen. Below the *Destinations* table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported: 
     
-    // image 5
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segmentation-export-segments.png "Segmentation export segments")
+
 
 - **Deleting a Destination**
 That can be easily done via the **delete button** on the Export Segment screen:
