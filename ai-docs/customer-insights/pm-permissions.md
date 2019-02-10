@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Permissions** page is where you, as a user, can set up roles and permissions for using Customer 360 across the organization. Customer 360 includes three types of roles, and those are the options that available to each of them:
+The **Permissions** page is where you, as a user, can set up roles and permissions for using Customer Insights across the organization. Customer Insights includes three types of roles, and those are the options that available to each of them:
 
 |Role  |Options available under this role  |
 |---------|---------|
@@ -43,7 +43,7 @@ On the **Permissions** page, select **Add** to add permissions and roles to user
 
 - Then, **choose a role** for that person as shown above.
 
-- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer 360 app and perform actions according to the role that you have specified (as specified earlier).
+- Lastly, select **Save** in the bottom right corner of the panel. The instance that you are using will be automatically shared with the user for whom you have defined the permission. This user will be able to enter the Customer Insights app and perform actions according to the role that you have specified (as specified earlier).
  
 ### Viewing current permissions
 After selecting **Save**, you can utilize the following screen to explore all the permissions that were given to date:
@@ -53,7 +53,7 @@ After selecting **Save**, you can utilize the following screen to explore all th
 
 Let's explore this screen:
 
-- The **Type** column specifies whether it's a single member, a group, or an application. At this point, Customer 360 supports only individual users but in the future it will also support groups and applications that will connect to Customer 360 via our APIs.
+- The **Type** column specifies whether it's a single member, a group, or an application. At this point, Customer Insights supports only individual users but in the future it will also support groups and applications that will connect to Customer Insights via our APIs.
 - The Roles are specified under the **Roles** column
 - You can also look for a specific person by typing a name in the search field.
 - Lastly, you can sort the results by each of the columns   

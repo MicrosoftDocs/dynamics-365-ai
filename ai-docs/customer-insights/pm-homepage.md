@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**HomePage** is the first page you will see upon entering the Customer 360 app. If you are an administrator and it's the first time you use Customer 360, make sure to first go through the ***Onboarding Guide***. 
+**HomePage** is the first page you will see upon entering the Customer Insights app. If you are an administrator and it's the first time you use Customer Insights, make sure to first go through the ***Onboarding Guide***. 
 
 As shown below, all product sections can be accessed through their corresponding tab names in the left-side menu:
 
@@ -31,11 +31,11 @@ As shown below, all product sections can be accessed through their corresponding
 > ![](media/data-manager-menu.png "Data Manager menu")
 
 ## Exploring the HomePage
-The homepage porpose is to quickly equip you, the user, with an holistic view around your unified customer base. Through the data configuration process you will use Customer 360 to unify datasets that once were siloed and disconnected, culminating at the creation of a unified dataset of your customers. Then, you can use capabilities such as Segmentation, Customer 360 Dashboard and Timeline to unlock unique insights about your customers based on this unified dataset. 
+The homepage porpose is to quickly equip you, the user, with an holistic view around your unified customer base. Through the data configuration process you will use Customer Insights to unify datasets that once were siloed and disconnected, culminating at the creation of a unified dataset of your customers. Then, you can use capabilities such as Segmentation, Customer Insights Dashboard and Timeline to unlock unique insights about your customers based on this unified dataset. 
 
 // home page 1
 
-Since many Customer 360 insights are dependent upon the completion of the data configuration process, at first many insights might not show up on the homepage. Once completing the data loading process (see **Data Manager** section) as well as data configuration process, more and more insights will light up on the homepage. 
+Since many Customer Insights insights are dependent upon the completion of the data configuration process, at first many insights might not show up on the homepage. Once completing the data loading process (see **Data Manager** section) as well as data configuration process, more and more insights will light up on the homepage. 
 
 Those are the types of insights you can expect to find on the Homepage:
 - **1. Aggragate-Level Insights (highlighted in blue below):** Few tiles with unique insights about your total customer base (including predictive KPIs such as average liklyhood of a customer to Churn)
@@ -45,6 +45,6 @@ Those are the types of insights you can expect to find on the Homepage:
 // home page 2
 
 ## Next Step
-As mentioned earlier, many of the home page insights are dependent upon the completion of the data configuration process, and this process, in turn, is based on loading data into Customer 360. Hence, next visit either the **Data Manager** or **Data Sources** sections to learn how to perform the data loading process. 
+As mentioned earlier, many of the home page insights are dependent upon the completion of the data configuration process, and this process, in turn, is based on loading data into Customer Insights. Hence, next visit either the **Data Manager** or **Data Sources** sections to learn how to perform the data loading process. 
 
  

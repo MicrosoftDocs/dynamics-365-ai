@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **System** screen encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer 360. As shown below, it includes four parts: **Status, Schedule**, **About** and **General** that are accessible through three corresponding tabs at the top of the screen:
+The **System** screen encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer Insights. As shown below, it includes four parts: **Status, Schedule**, **About** and **General** that are accessible through three corresponding tabs at the top of the screen:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-menu.png "System menu")
@@ -34,25 +34,25 @@ The **System** screen encapsulates everything that you, as an administrator, nee
 > [!div class="mx-imgBorder"] 
 > ![](media/system-menu.png "Status tab")
 
-The status tab enables you to track the progress of data ingestion as well as several important product processes. That way you can ensure the completeness of any major process you define in Customer 360. This tab includes three tables:
+The status tab enables you to track the progress of data ingestion as well as several important product processes. That way you can ensure the completeness of any major process you define in Customer Insights. This tab includes three tables:
 
 - **Data Sources**: This table lists all the data sources from which you are ingesting your data (left column as shown below). It also presents the status of ingestion (middle column): Whether it didn't start yet, in progress, or already completed. Lastly, date of last data refresh is specified per data source (right side column)
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-sources.png "System data sources")
 
-- **System Processes**: This table lists all the processes that should be executed in customer 360 as part of a full user journey (left column as shown below). It also presents the status of these processes (middle column): Whether it wasn't configured yet by the user, configured by the user but still in progress, or completed. Lastly, date of last data refresh is specified per data source (right side column)
+- **System Processes**: This table lists all the processes that should be executed in Customer Insights as part of a full user journey (left column as shown below). It also presents the status of these processes (middle column): Whether it wasn't configured yet by the user, configured by the user but still in progress, or completed. Lastly, date of last data refresh is specified per data source (right side column)
 
 - **In addition**, you can view the details of each refresh a given datasource or process went through by clicking that datasource or process. 
 
 ### Schedule Tab
 
-The Schedule tab is used to refresh all of your ingested Customer 360 data. You should utilize this tab to schedule the frequency and timing of the refreshes. As data is constantly updated in your data sources, you may want the Customer 360 processes and insights to reflect those changes and the schedule tab enables you do achieve that in an automated way.
+The Schedule tab is used to refresh all of your ingested Customer Insights data. You should utilize this tab to schedule the frequency and timing of the refreshes. As data is constantly updated in your data sources, you may want the Customer Insights processes and insights to reflect those changes and the schedule tab enables you do achieve that in an automated way.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-off.png "System data refresh off")
 
-- In Customer 360, the default state for data refresh is **Off**, reflecting no scheduled refreshes. To change it click the slider at the top of the screen (changing it to an **On** status):
+- In Customer Insights, the default state for data refresh is **Off**, reflecting no scheduled refreshes. To change it click the slider at the top of the screen (changing it to an **On** status):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-on.png "System data refresh on")
@@ -98,7 +98,7 @@ First we will demonstrate the definition of a daily refresh, and then we will co
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-about-tab.png "System data About tab")
 
-Within this screen, several options are available as shown below. Those options can serve important business requirements such as using Customer 360 from different regions or distinguishing between multiple work instances.
+Within this screen, several options are available as shown below. Those options can serve important business requirements such as using Customer Insights from different regions or distinguishing between multiple work instances.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/settings.png "Settings")

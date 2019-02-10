@@ -25,10 +25,10 @@ robots: noindex,nofollow
 The Timeline capability consolidates customers' **activities** from multiple channels. It includes two components which we will explore in detail under this section:
 
 1. **Timeline Screen**: This component is accessable via the timeline tab on the app left-side menu and is used to **define the activities that you wish to view around your customers**. As we will see, this definition process is done on the entity-level.
-2. **Timeline Grid within the Customer 360 Dashboard**: This grid consolidates all the activities of one customer in a chronological manner. In this section we will cover the specific control you should use within the customer 360 dashboard to create the timeline grid. For guidance around the creation of the Customer 360 dashboard, please visit the **connectors** section.
+2. **Timeline Grid within the Customer Insights Dashboard**: This grid consolidates all the activities of one customer in a chronological manner. In this section we will cover the specific control you should use within the Customer Insights dashboard to create the timeline grid. For guidance around the creation of the Customer Insights dashboard, please visit the **connectors** section.
 
 ## Timeline Screen
-The entities that were ingested into Customer 360 might include fields with information on various activities. You should utilize this screen for the definition of the specific activities that you wish to view around your customers.
+The entities that were ingested into Customer Insights might include fields with information on various activities. You should utilize this screen for the definition of the specific activities that you wish to view around your customers.
 
 ### Activity Definition
 Next we will specify steps for creating a timeline activity. At any time you can save your activities through the **Save** button (highlighted in blue below), or discard the changes you have made since the last save through the **Discard** button (highlighted in red below)
@@ -63,7 +63,7 @@ This step includes all your activity definitions. We will explore those from lef
   - **Start Time OR End Time:** Depends on your previous selection, at this point you should state the activity start/end time (only one field is required but you can select both times if those are known for your activity
   - **Duration**: Here you should define the duration of your activity 
   - **Unit**: Here you should choose the unit of time for the duration of your activity
-  - **Description**: This field enables you to provide a recognizable name for your activity, so you can easily identify it on the Customer 360 Dashboard timeline 
+  - **Description**: This field enables you to provide a recognizable name for your activity, so you can easily identify it on the Customer Insights Dashboard timeline 
   - **Icon**: For the same purpose of easily distinguishing your activity from the rest of your activiites, here you can add an Icon to your activity if it's publicly available (a URL address or unicode is required)
   - **X button**: Clicking this button will delete that specific activity (highlighted below)
   
@@ -75,8 +75,8 @@ At this point you are ready to define your next activity which can be done via t
 > [!div class="mx-imgBorder"] 
 > ![](media/activities-add-save-entity.png "Activities entities add and save")
 
-## Customer 360 Dashboard Timeline
-Once inside the Customer 360 dashboard, you can start viewing the activities timeline for that specific customer.
+## Customer Insights Dashboard Timeline
+Once inside the Customer Insights dashboard, you can start viewing the activities timeline for that specific customer.
 
 // image 8
 

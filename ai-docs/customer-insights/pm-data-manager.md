@@ -31,7 +31,7 @@ In these sections, we explain how to bring data from many of your sources:
 - Behavioral sources
 - Any other data you might have 
 
-***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer 360. 
+***Important Note***: At this point (Novemebr 2018), on-prem data sources are not supported in Customer Insights. 
 We hope to enable that option soon. In the meantime, as explained in the **Common Connectors** section, you can load your data through either online excel (csv. or text) or Azure Blob Storage.
 
 Connecting your data sources is the first step towards unlocking one of the unique product promises - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 

@@ -22,30 +22,30 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section you will learn how to utilize the **Power BI Connector** for unlocking the **Customer 360 Dashboard**.
+In this section you will learn how to utilize the **Power BI Connector** for unlocking the **Customer Insights Dashboard**.
 
-The Customer 360 Dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer's details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
+The Customer Insights Dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer's details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
 
-In order to utilize the Customer 360 dashboard make sure that you have created at least one datasource within the **Get Data** page and ingested at least one dataset (entity) into it. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
+In order to utilize the Customer Insights dashboard make sure that you have created at least one datasource within the **Get Data** page and ingested at least one dataset (entity) into it. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
 
 ### Step One: Downloading MEZ File
 
 Along with the offer link, you received a file (MEZ type). Download this file to ~\Documents\Power BI Desktop\Custom Connectors
 
-### Step Two: Publishing the Customer 360 Dashboard
+### Step Two: Publishing the Customer Insights Dashboard
  
- 1. Bring Customer 360 data to Power BI: Open Power BI for Desktop and select **Get Data** at the top menu.
+ 1. Bring Customer Insights data to Power BI: Open Power BI for Desktop and select **Get Data** at the top menu.
  
     > [!div class="mx-imgBorder"] 
     > ![](media/connector-powerbi-get-data.png "Power BI Get Data")
 
  
- 2. Type ***Customer 360*** in the search field, and then select **Customer 360** on the right-side menu. Lastly, Select **Connect** at the left bottom corner:
+ 2. Type ***Customer Insights*** in the search field, and then select **Customer Insights** on the right-side menu. Lastly, Select **Connect** at the left bottom corner:
 
     > [!div class="mx-imgBorder"] 
     > ![](media/connector-pbi-step-3.png "Power BI Connector")
 
-3. Publish the Customer 360 dashboard as a service: 
+3. Publish the Customer Insights dashboard as a service: 
 
    - You will need to copy your instance ID (can be taken from your app URL) and attach it to the following address:
   https://tip.api.ci.ai.dynamics.com/api/instances/**your instance ID**
@@ -58,7 +58,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 4. Select **Sign in**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/connector-sign-in.png "Sign in to Customer 360")
+   > ![](media/connector-sign-in.png "Sign in to Customer Insights")
      
 5. Use your Azure Active Directory credentials, and then select **Connect** as shown in red below:
      
@@ -70,7 +70,7 @@ Along with the offer link, you received a file (MEZ type). Download this file to
 After completing Step two, you'll get to the following screen:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/connector-now-signed-in.png "Signed in to Customer 360")
+> ![](media/connector-now-signed-in.png "Signed in to Customer Insights")
 
 1. Choose all the entities around which you want to build your Power BI report. In the example below, the user has chosen the **Conflated Match Pairs** entity. Note that this entity is the entity that was created during the data configuration process and that encapsulates your unified customer data. You may want to include that entity to extract the most insightful observations from your data.
    

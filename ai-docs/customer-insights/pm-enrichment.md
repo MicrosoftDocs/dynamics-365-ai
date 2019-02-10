@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Through it's **Configure Data** process, Customer 360 enables you, the user, to consolidate data around your customers from all of your sources. At the same time, Customer 360 goes beyond that and put at your fingertips additional ML-produced knowledge about your customers that comes from propriatery data. This section covers the **Enrich Profiles** screen that can be used to **unlock data on the affinity of your customers to hundreds of brands and dozens of interest-categories** (which might be *Home Appliances*, *Shoes* or *Financial loans* as an example).
+Through it's **Configure Data** process, Customer Insights enables you, the user, to consolidate data around your customers from all of your sources. At the same time, Customer Insights goes beyond that and put at your fingertips additional ML-produced knowledge about your customers that comes from propriatery data. This section covers the **Enrich Profiles** screen that can be used to **unlock data on the affinity of your customers to hundreds of brands and dozens of interest-categories** (which might be *Home Appliances*, *Shoes* or *Financial loans* as an example).
 
 Note: The *Enrich Profiles* screen can be accessed both through the app left-side menu and from the *Configure Data* screen as shown:
 
@@ -61,7 +61,7 @@ First choose one of the following options (also highlighted in the image above).
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-brands-example.png "Enrich profiles choose brand example")
 
-To add a brand or interest, type the keywords field (highlighted in blue above) and than type a keyword. If that keyword matches a brand or interest name in the Microsoft database it will be saved. Note however that you can save up to five selections. If there is no match, you will get the following clickable notice which you can use to send a suggestion to the Customer 360 team:
+To add a brand or interest, type the keywords field (highlighted in blue above) and than type a keyword. If that keyword matches a brand or interest name in the Microsoft database it will be saved. Note however that you can save up to five selections. If there is no match, you will get the following clickable notice which you can use to send a suggestion to the Customer Insights team:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")

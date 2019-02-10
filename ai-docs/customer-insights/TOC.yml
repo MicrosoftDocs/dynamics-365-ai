@@ -1,5 +1,7 @@
-- name: Customer Insights
+- name: Dynamics 365 Customer Insights
   items:
+  - name: Overview
+    href: overview.md
   - name: Home page
     href: pm-homepage.md
   - name: Data Manager

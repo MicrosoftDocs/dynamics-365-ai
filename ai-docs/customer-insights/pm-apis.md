@@ -19,24 +19,24 @@ manager: "kvivek"
 robots: noindex,nofollow
 ---
 # APIs
-*Note: this is a technical documentation. While it's purpose is to serve all users who wish to leverage the Customer 360 APIs, it might be most valuable for technical users.
+*Note: this is a technical documentation. While it's purpose is to serve all users who wish to leverage the Customer Insights APIs, it might be most valuable for technical users.
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**When it comes to Customer 360**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+**When it comes to Customer Insights**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 > [!div class="mx-imgBorder"] 
-> ![](media/api-swagger-install.png "Customer 360 Swagger webpage")
+> ![](media/api-swagger-install.png "Customer Insights Swagger webpage")
 
-The goal of this section is not to cover all the Customer 360 APIs but rather to:
+The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
 - Provide guidance for how to use the Swagger tool
 - Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs
 
-## How to use the Customer 360 Swagger webpage
+## How to use the Customer Insights Swagger webpage
 If you are not familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
 
-## Functionalities served with the Customer 360 Open Data Protocol APIs
+## Functionalities served with the Customer Insights Open Data Protocol APIs
 
 > [!div class="mx-imgBorder"] 
 > ![](media/api-entity-data.png "Open Data Protocol APIs")
@@ -52,9 +52,9 @@ If you are not familiar with Swagger, see the following step-by-step tutorial: [
 |4. **Search and query** other ingested datasets     | Use the **$Search** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).         | 1. Can be done on if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with 1      |
 |5. **Filter** other ingested datasets     |Use the **$Filter** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).           | 1. Can be done on if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with 1          |
 
-## Limitations involved with using the Customer 360 conflation APIs
+## Limitations involved with using the Customer Insights conflation APIs
 
-See the **Conflation** table in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **Conflation** table in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 ### Limitations by field (across all Conflation APIs)
 
@@ -95,9 +95,9 @@ See the **Conflation** table in the [Customer 360 Swagger webpage](https://tip.a
 </tr>
 </table>
 
-## Limitations involved with using the Customer 360 Relationship APIs 
+## Limitations involved with using the Customer Insights Relationship APIs 
 
-See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **EntityMetadata** table in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 ### Limitations Common to all APIs
 
@@ -137,13 +137,13 @@ See the **EntityMetadata** table in the [Customer 360 Swagger webpage](https://t
 </table>
 
 
-## Functionalities served with the Customer 360 Segmentation APIs
+## Functionalities served with the Customer Insights Segmentation APIs
 
 1. Use APIs for managing segments: Create, update, get and delete segment definitions. Also activate and deactivate segments. 
 2. Use APIs for querying: Get specific parts of a segment
 3. Use APIs for searching and querying specific segment member data
 
-See the **SegmentManagement** table in the [Customer 360 Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **SegmentManagement** table in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 <!-- 
 ## Functionalities and limitations by API

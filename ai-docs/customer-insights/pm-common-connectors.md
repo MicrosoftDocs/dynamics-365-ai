@@ -22,7 +22,7 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-***Important Note***: At this point (Novemebr 2018), on-prem and OData data sources are not supported in Customer 360. 
+***Important Note***: At this point (Novemebr 2018), on-prem and OData data sources are not supported in Customer Insights. 
 We hope to enable that option soon.
 
 ## Ingest data from an Excel file (text/csv.)

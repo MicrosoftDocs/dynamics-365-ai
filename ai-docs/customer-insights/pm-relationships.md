@@ -23,7 +23,7 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## What Relationships are useful for?
-In Customer 360 you can define **relationships** between entities. As we will see within the **segments** section, these relationships are useful for segmentation. In the future they will be used for additional analytical purposes within Customer 360.
+In Customer Insights you can define **relationships** between entities. As we will see within the **segments** section, these relationships are useful for segmentation. In the future they will be used for additional analytical purposes within Customer Insights.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-relationships-tile.png "Relationships tile")

@@ -32,7 +32,7 @@ There are two types of segments:
 - **Static**: Segment that is processed only once - either upon the creation or update of any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
 - **Dynamic**: Segment that is processed according to a recurring schedule. These segments are especially useful when customers attributes change over time. Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
 
-The example below illustrates the depth of the customer 360 segmentation capability. Within this complex segmentation scenario, we aim to define a segment for customers who have placed order of more than $500 in last 90 days **and** had an escalated case in last 30 days so they can be followed up for satisfaction survey. Later we will learn how to produce such segments. 
+The example below illustrates the depth of the Customer Insights segmentation capability. Within this complex segmentation scenario, we aim to define a segment for customers who have placed order of more than $500 in last 90 days **and** had an escalated case in last 30 days so they can be followed up for satisfaction survey. Later we will learn how to produce such segments. 
 
 <!-- 
 {final1:Example of complex segment with multiple groups}
@@ -82,7 +82,7 @@ If you clicked **Add Segment** then you will also need to select whether you wan
 
 //
 
-**Note**: In customer 360, a **group** is a set of customers. Each group can be defined by:
+**Note**: In Customer Insights, a **group** is a set of customers. Each group can be defined by:
 - 1.Choosing the entity that includes the specific field you wish to segment by (for example choosing the *Orders* entity since it include the *Order Value* field by which we want to segment)
 - 2. Selecting the **Add** operator
 - 3.Adding entities that are related to that entity until getting to the Customer Profile entity. If wasn't done yet, you can define those relationships using the **Relationships** screen. 
@@ -108,7 +108,7 @@ Following the selection of our entities
 |3    |Operator         |
 |4    |Value         |
 
-Note that **one of the segmentation strengths of Customer 360 is the rich variety of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
+Note that **one of the segmentation strengths of Customer Insights is the rich variety of operators it supports.** Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations. Lastly, it encapsulates some examples:
 
 <!-- [operators table - Shashi still needs to provide me an updated one] -->
 
@@ -195,4 +195,4 @@ The lower part includes a table with all your segment's members.
 To learn ho
     
 ## Next Step
-While segmentation provides you with aggregate-level insights, you can also explore the Customer 360 Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.
+While segmentation provides you with aggregate-level insights, you can also explore the Customer Insights Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.

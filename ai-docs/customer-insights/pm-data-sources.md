@@ -22,15 +22,15 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**You can bring in data to Customer 360 by using the 20+ out-of-the-box connectors** that we make available for sources, such as Dynamics 365, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, **you can always export the data from your source as a CSV file and import to Customer 360 using our CSV connector.** To import data to Customer 360, you need to create a data source. It’s recommended to have multiple data sources based on your sources of the data as it allows you to have different refresh schedules and credentials for refresh.
+**You can bring in data to Customer Insights by using the 20+ out-of-the-box connectors** that we make available for sources, such as Dynamics 365, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, **you can always export the data from your source as a CSV file and import to Customer Insights using our CSV connector.** To import data to Customer Insights, you need to create a data source. It’s recommended to have multiple data sources based on your sources of the data as it allows you to have different refresh schedules and credentials for refresh.
 
-## Bring your data into Customer 360 
+## Bring your data into Customer Insights 
 
-***Important Note***: At this point, on-prem data sources are not supported in Customer 360. 
+***Important Note***: At this point, on-prem data sources are not supported in Customer Insights. 
 We hope to enable that option soon.
 
 ### Step 1 (mandatory): Creating a new data source
-To load data to Customer 360 follow the following process:
+To load data to Customer Insights follow the following process:
 
 1. Navigate to **Data Sources** from the **Data Manager page:**
 
@@ -48,7 +48,7 @@ To load data to Customer 360 follow the following process:
    > ![](media/data-manager-get-data-create.png "Get data create")
 
 ### Step 2 (mandatory): Adding Entities
-Within the next step you will add **entities** to your data source. In Customer 360 **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these datasets is an **entity** (an **Orders** dataset, a **Sales** dataset, etc). 
+Within the next step you will add **entities** to your data source. In Customer Insights **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these datasets is an **entity** (an **Orders** dataset, a **Sales** dataset, etc). 
 
 1. In order to start ingesting entities, pick one of the many available connectors that are available in the screen below.
 - **Note that some of the following data sources are not supported at this point, including on-prem sources and OData**. 
@@ -82,7 +82,7 @@ To avoid data-related issues, you should complete the next few transformations:
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
-- In addition, it is highly recommended to map your data to standard format of data. Customer 360 allows you to map your data to the **Microsoft Common Data Model (CDM)**. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
+- In addition, it is highly recommended to map your data to standard format of data. Customer Insights allows you to map your data to the **Microsoft Common Data Model (CDM)**. In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
@@ -100,7 +100,7 @@ To avoid data-related issues, you should complete the next few transformations:
 For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refresehed for the datasource, as well as it's status. There are three possible status: 
 1. Data was successfully ingested (example is shown in blue in the image above)
 2. Data was not ingested yet (example is shown in red in the image above)
-3. Data is still loading into Customer 360 (represented by a *warning sign* status)
+3. Data is still loading into Customer Insights (represented by a *warning sign* status)
 
 At this point you should refresh the datasource that you have just saved. Click the button highlighted below in red and then hit **Refresh** as highlighted in blue:
 
@@ -109,10 +109,10 @@ At this point you should refresh the datasource that you have just saved. Click 
 
 Note: In the future this step will happen automatically.
 
-**At this point, repeat the same steps for each datasource you wish to ingest to Customer 360.**
+**At this point, repeat the same steps for each datasource you wish to ingest to Customer Insights.**
 
 ### Step 3 (optional): Reviewing Ingested Data
-Customer 360 will take a couple of minutes to load the data. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity Page** visit the **Entities section**.
+Customer Insights will take a couple of minutes to load the data. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity Page** visit the **Entities section**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
