@@ -33,7 +33,7 @@ For more information on the entities used by Customer Service Insights, see [Dyn
 
 For more information on creating a workspace and connecting to an environment, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
-## To map to data from custom entities and fields when you connect to a Dynamics 365 environment
+## To map data when you connect to a Dynamics 365 environment
 
 1. Follow the steps in [Use workspaces to connect to different customer service environments](use-workspaces.md) to connect to a Dynamics 365 environment.
 
@@ -49,7 +49,7 @@ For more information on creating a workspace and connecting to an environment, s
 
    > ![Map fields](media/map-fields.PNG)
 
-## To map to data from custom entities and fields by specifying Data mapping settings
+## To map data by specifying Data mapping settings
 
 1. Select the **Settings** button on the Customer Service Insights title bar and then select **Settings**.
 
