@@ -22,29 +22,54 @@ However, you may want to generate insights by mapping to data from custom entiti
 * You are a Dynamics 365 for Customer Service customer, but your service solution is customized and you use custom CDS entities and fields to store support case data.
 * You want to use a custom field other than the support case title in your Dynamics 365 Customer Service Insights dashboards.
 
-You can map to data from custom entities and fields by specifying Data mapping settings.
+When you create a Customer Service Insights workspace and connect to a Dynamics 365 environment, Customer Service Insights prompts you to map your data:
+
+* If the environment doesn't have an Incident entity.
+* If the environment has an Incident entity but it doesn’t contain enough required data.
+
+After a workspace is created, you can map to data from custom entities and fields by specifying Data mapping settings.
 
 For more information on the entities used by Customer Service Insights, see [Dynamics 365 for Customer Service entities used by Customer Service Insights](customer-service-entities.md).
 
-For more information on connecting to an environment, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
+For more information on creating a workspace and connecting to an environment, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
-## To specify mapping from custom entities and fields
+## To map to data from custom entities and fields when you connect to a Dynamics 365 environment
+
+1. Follow the steps in [Use workspaces to connect to different customer service environments](use-workspaces.md) to connect to a Dynamics 365 environment.
+
+2. If the environment doesn't have an Incident entity or if the environment has an Incident entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Click **Get started** to begin mapping your data.
+
+   > ![Map your data](media/map-your-data.PNG)
+
+3. On the **Find your incident records** page, select the entity or entities that contain the data fields you want to use for mapping, and then click **Next**.
+
+   > ![Select entity](media/select-entity.PNG)
+
+4. On the **Map your incident records** page, select the data fields you want to use from the drop-down menu. Some fields have been mapped automatically. Then click **Done**.
+
+   > ![Map fields](media/map-fields.PNG)
+
+## To map to data from custom entities and fields by specifying Data mapping settings
 
 1. Select the **Settings** button on the Customer Service Insights title bar and then select **Settings**.
 
    > ![Settings button](media/ai-csi-settings-button.PNG)
 
-   AI for Customer Service Insights displays the Settings page.
+   Customer Service Insights displays the **Settings** page.
 
-2. Select **Data mapping** to display the Data mapping pane. If you have not created a workspace, Customer Service Insights prompts you to create one.
+2. Select **Data mapping** to display the Data mapping pane. Customer Service Insights displays the available destination entities.
 
    > ![Data mapping pane](media/data-mapping-pane.PNG)
 
-   For more information about creating a workspace, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
+3. To edit your mapping settings for an entity, hover over the entity in the list and click the edit icon.
 
-3. If you are connected to a workspace, select the Incident destination entity to display the **Find your incident records** pane. Select the entities that contain your custom fields, and then select **Next**.
+   > ![Edit entity](media/edit-entity.PNG)
 
-   > ![Find records pane](media/find-records-pane.PNG)
+    Customer Service Insights displays the **Map your incident records** page, where you can update the data mapping for the entity.
+
+4. You can view the status of the mapping in the **Mapped Fields** column.
+
+   > ![View mapping](media/view-mapping.PNG)
 
 Here some things to keep in mind when you map your data to custom entities and fields:
 
