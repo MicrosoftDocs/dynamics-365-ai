@@ -39,15 +39,15 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 2. If the environment doesn't have an Incident entity, or if the environment has an Incident entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Select **Get started** to begin mapping your data.
 
-   > ![Map your data](media/map-your-data.PNG)
+   > ![Map your data](media/map-your-data.png)
 
 3. On the **Find your incident records** page, select the entity or entities that contain the data fields you want to use for mapping, and then select **Next**.
 
-   > ![Select entity](media/select-entity.PNG)
+   > ![Select entity](media/select-entity.png)
 
 4. On the **Map your incident records** page, select the data fields you want to use from the drop-down menu. Some fields have been mapped automatically. Then select **Done**.
 
-   > ![Map fields](media/map-fields.PNG)
+   > ![Map fields](media/map-fields.png)
 
 ## To map data by specifying data mapping settings
 
@@ -63,13 +63,13 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 3. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
 
-   > ![Edit entity](media/edit-entity.PNG)
+   > ![Edit entity](media/edit-entity.png)
 
     Customer Service Insights displays the **Map your incident records** page, where you can update the data mapping for the entity.
 
 4. You can view the status of the mapping in the **Mapped Fields** column.
 
-   > ![View mapping](media/view-mapping.PNG)
+   > ![View mapping](media/view-mapping.png)
 
 Here some things to keep in mind when you map your data to custom entities and fields:
 
