@@ -61,7 +61,7 @@ See [Use workspaces to connect to different customer service environments](use-w
 
    > ![Data mapping pane](media/data-mapping-pane.PNG)
 
-3. To edit your mapping settings for an entity, hover over the entity in the list and then click the edit icon.
+3. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
 
    > ![Edit entity](media/edit-entity.PNG)
 
