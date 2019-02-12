@@ -2,7 +2,7 @@
 title: "Creating a virtual agent"
 description: "Learn how to use the Dynamics 365 Customer Service Virtual Agent to create a virtual agent."
 keywords: ""
-ms.date: 1/14/2019
+ms.date: 2/12/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
