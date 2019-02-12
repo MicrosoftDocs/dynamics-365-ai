@@ -27,7 +27,7 @@ The AI Insights charts displayed on the AI for Customer Service Insights dashboa
 
    AI for Customer Service Insights displays the Settings page.
 
-2. Select **Data cleansing** to display the Case title cleansing pane, and then select the check box next to **I want to cleanse my case titles**
+2. Select **Data cleansing** to display the Case title cleansing pane, and then select the check box next to **I want to cleanse my case titles**.
 
    > [!div class="mx-imgBorder"]
    > ![Case Titles pane](media/ai-csi-case-titles-pane.PNG)
