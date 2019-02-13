@@ -129,11 +129,11 @@ This option should be used in case you wish to aggragate any of your dimensions 
 
 First, click the **New Measure** button:
 
-// 14
+// 13
 
 Then, make those selections (exploring left to right the definitions shown below):
 
-// 15
+// 14
 
 **Function**: At present we support **Sum, Min, Max, Count and Unique Count** as aggragation options
 **Entity/Variable**: You should include at least one attribute in your Measures entity. **Note: If you are defining a Measures Attribute it can be only one attribute.** This selection is about choosing either the entity that includes that attribute, or one of the Variables you have created in step 4.
@@ -141,11 +141,30 @@ Then, make those selections (exploring left to right the definitions shown below
 **As**: Here you should define the name of your new field in the Measures entity/attribute.
 **Display Name**: Here you should define the display name of your field in the Measures entity/attribute.
 
+Lastly, don't forget to save your measure: 
+
+// 15
+
 ### Viewing and Editing your Measures 
+Once completed your first measure, you expect to see the following screen that summarizes your created measures:
 
 // 16
 
+Anytime you can create a new measure via the **Add Measure** button shown above.
+
+You can also edit, delete, rename, and refresh the data of any of your created measures by first clicking the following button:
+
 // 17
+
+And then choosing from the options drop down:
+
+// 18
+
+Here is an example of the Measure Rename window:
+
+// 19
+
+Regarding the edit option, it is done on the same screen we used to create our first measure. 
 
 ### Next Step
 
