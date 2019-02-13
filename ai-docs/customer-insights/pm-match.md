@@ -53,9 +53,9 @@ Each **Match** involves two entities that are unified into a single entity while
 - **2nd Match: Then, the datasetresulted from the first match will be matched with entity 3**
 - And so forth (in our example we made selections only for two matches but the system supports more than two)
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-right-entity.png "Add right entity")
-
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-match-order-edit-page.png "Edit data match order")
+  
 > [!IMPORTANT]
 > The entity that you will choose as your **primary entity** will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** the data of this entity. 
 >There are two considerations that can help you select your primary entity:
@@ -217,10 +217,6 @@ If you followed Step Four, then at this point you should have a better understan
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-order-edit.png "Edit data match order")
-
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-match-order-edit-page.png "Edit data match order")
-
 
 - **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by selecting **Edit** as shown earlier within the match row and substituting the first rule's attributes with the second rule's attributes.
 
