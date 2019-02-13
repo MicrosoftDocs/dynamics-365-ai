@@ -106,25 +106,27 @@ In the example shown below, we have defined a calculation for the relative contr
 
 // 10
 
-### Step5: Defining your Measure Entity/Attribute
+### Step 5: Defining your Measure Entity/Attribute
 In this final step we will decide how to aggragate our chosen entities and calculations into a measure entity/attribute which we can start using in Homepage, Segments, as well as other screens. 
 
-**Step1:** Defining first dimension
+**Step 1:** Defining first dimension
 Those are the selections you should fill (exploring left to right the definitions shown below):
 
 // 11
 
-**Entity/Variable**:
-**Field**
-**Bucket**
-**As**
-**Display Name**
+**Entity/Variable**: You should include at least one attribute in your Measures entity. **Note: If you are defining a Measures Attribute it can be only one attribute.** This selection is about choosing either the entity that includes that attribute, or one of the Variables you have created in step 4.
+**Field**: Here you should pick the specific attribute/variable to be included either in the Measures entity or in another entity as a field.
+**Bucket**:
+**As**: Here you should define the name of your new field in the Measures entity/attribute.
+**Display Name**: Here you should define the display name of your field in the Measures entity/attribute.
 
-**Step2 (optional):**: Adding more dimensions by clicking **Add new dimension** button:
+**Step 2 (optional):**: Adding more dimensions by clicking **Add new dimension** button:
 
 // 12
 
 **Step 3 (optional)**: Adding measures
+This option should be used in case you wish to aggragate any of your dimensions via summation, counting, etc (so these aggragations will happen at the end of the selected field in your Measures entity/attribute. 
+
 First, click the **New Measure** button:
 
 // 14
@@ -133,11 +135,11 @@ Then, make those selections (exploring left to right the definitions shown below
 
 // 15
 
-**Function**
-**Entity/Variable**:
-**Field**
-**As**
-**Display Name**
+**Function**: At present we support **Sum, Min, Max, Count and Unique Count** as aggragation options
+**Entity/Variable**: You should include at least one attribute in your Measures entity. **Note: If you are defining a Measures Attribute it can be only one attribute.** This selection is about choosing either the entity that includes that attribute, or one of the Variables you have created in step 4.
+**Field**: Here you should pick the specific attribute/variable to be included either in the Measures entity or in another entity as a field.
+**As**: Here you should define the name of your new field in the Measures entity/attribute.
+**Display Name**: Here you should define the display name of your field in the Measures entity/attribute.
 
 ### Viewing and Editing your Measures 
 
