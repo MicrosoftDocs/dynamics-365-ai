@@ -25,12 +25,12 @@ robots: noindex,nofollow
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **Measures screen** enables you to define all the KPIs that best reflect your specific business domain and goals.                     Once defined, you can benefit from your measures in a verity of ways. For example:
-- Consume on your Home page (Dashboard) Screen 
-- View for a specific customer as part of the **Customer Card** (visit the *Customer Card Section* to learn more) 
-- Use to define your segment by, using the Segment Builder Screen
+- Consume on your Homepage screen 
+- View for a specific customer as part of the **Customer Card** (visit the **Customer Card Installation** section to learn more) 
+- Use to define a customer segment, using the Segment Builder Screen (visit the **Segments** section to learn more).
 
 ### Step1: Choosing between Three Measure Types
-There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you when you click the **New Measure** button:
+There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you upon clicking the **New Measure** button:
 
 // 1
 
@@ -40,11 +40,11 @@ There are two early decisions you should make with regard to your desired measur
   - Save your measure as an attribute within one of your existing entities - than you should choose the **Profile Attribute** option 
   - Or create a new entitiy around your measure 
   
-- 2.If decided to save the measure as an entity, you should also decide whether to:
-  - Create the measure on the basis of field/s from the Customer Profile entity - which corresponds to the **Profile Measure** option
-  - Or create it on the basis of another ingested entity - which corresponds to the **Business Measure**
+- 2.If decided to save the measure as a new entity, you should also decide whether to:
+  - Create the measure on the basis of field/s from the Customer Profile entity - which corresponds to a **Profile Measure** option
+  - Or create it on the basis of another ingested entity - which corresponds to a **Business Measure**
   
-Also note that your choice at this point will affect the number of dimensions supported for your measure. **Dimension** is... You will choose your dimensions in step 4 when we will summarize our measure. 
+Also note that your choice at this point will affect the number of dimensions supported for your measure. **Dimension** is... You will choose your dimensions in step 4 when we will go through the *Measure Definition* process. 
 - Profile attribute and Profile Measure are limited to a single dimension
 - Business Measure, on the other end, supports multiple dimensions 
 
@@ -61,74 +61,89 @@ Upon choosing one of the options, you can expect to reach the **Measure Creation
 **Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved a new entity. In both cases, the measure will carry the name you define under the **Display Name** field in this panel.
 **Starting Entity** (mandatory): Here you should choose the entity on the basis of which you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose at this point any of these entities.  
 
-**Panel you can expect to see upon selecting the *Profile Measure* and *Profile Attribute* options**:
+**Panel you can expect to see upon selecting the *Profile Measure* option: 
 
 // 4
 
-This panel is the same panel we explored under the previous options except for one difference: **The Customer Profile entity will automatically be selected as your starting entitiy**. Morvoer, this default selection can't be changed. 
+This panel is the same panel we explored under the previous options except for one difference: **The Customer Profile entity will automatically be selected as your starting entitiy**. Morvoer, this default selection can't be changed.
+
+**Panel you can expect to see upon selecting the *Profile Measure* option: *Profile Attribute* option**:
+
+// 5
 
 ### Step3: Choosing Related Entities
 Once completing step one, you can expect to see the following screen:
 
-// 5
+// 6
 
 Within this screen we will complete steps 3-5 in the Measure definition process.
 
-First you should decide whether additional entities are needed as part of your measure definition. One example might be creating an expression that will be based on attributes from two or more different entities (we will explore that use case in step 4). 
+First you should decide whether additional entities are needed as part of your measure definition. One use case might be creating an expression that will be based on attributes from two or more different entities (we will explore that use case in step 4). Another use case, specifically for **Profile Measure** and **Business Measure** is creating an entity for your measure that is composed of multiple entities (we will explore that use case in step 5).
 
 In order to choose additional entities, simply click the **Add new entity** button and pick the entitites of your interest:
 
-// 6
+// 7
 
 **Note**: You can only select entities which have relationships to your base entity. If you havn't define relationships yet, make sure to read the **Relationships** section.
 
 ### Step4: Calculating a Variable
 Ths step is accessable via the **Add new variable** button:
 
-// 7
+// 8
 
 Upon clicking it, you should reach the **Variable Definition Panel**:
 
-// 8
-
-Let's explore the steps you should complete in this panel:
-1. Giving you variable a name: You can give your variable a recognizable name
-2. Clicking the Expression area:
-
 // 9
 
+Let's explore the steps you should complete in this panel:
+1. Giving your variable a name: You can give your variable a recognizable name
+2. Clicking the Expression are
 3. Choosing a field from the fields shown to the right:
+4. Typing an expression in the expression area while choosing more fields (**Note**: At this point we only support arithmethic expressions)
+5. Clicking **Done**.
+
+In the example shown below, we have defined a calculation for the relative contribution of a single Purchase to the Customer Lifetime Value (CLTV):
 
 // 10
 
-4. Typing an expression in the expression area while choosing more fields (**Note**: At this point we only support arithmathic expressions)
+### Step5: Defining your Measure Entity/Attribute
+In this final step we will decide how to aggragate our chosen entities and calculations into a measure entity/attribute which we can start using in Homepage, Segments, as well as other screens. 
+
+**Step1:** Defining first dimension
+Those are the selections you should fill (exploring left to right the definitions shown below):
 
 // 11
 
-5. Clicking **Done**.
-
-### Step5: Summarizing
-In this final step we will decide how to aggragate our measure. 
-
-**Step1:** Click **Add new dimension**: That will open the *Summarize* type of aggragate.  ...
-If you do wish to have that aggragate, those are the selections you should fill:
-**Summarize**
-**Entity**
-**Field**
-**As**
-**Display Name**
-
-**Step2 (optional):**: Add more **summarize** dimensions by clicking **Add new measure**
-
-**Step 3**: Click **Add new Dimension**: That will open the *Group by* type of aggragate.  ....
-If you do wish to have this aggragate, those are the selections you should fill:
-**Group by**
+**Entity/Variable**:
 **Field**
 **Bucket**
 **As**
 **Display Name**
 
+**Step2 (optional):**: Adding more dimensions by clicking **Add new dimension** button:
+
+// 12
+
+**Step 3 (optional)**: Adding measures
+First, click the **New Measure** button:
+
+// 14
+
+Then, make those selections (exploring left to right the definitions shown below):
+
+// 15
+
+**Function**
+**Entity/Variable**:
+**Field**
+**As**
+**Display Name**
+
 ### Viewing and Editing your Measures 
+
+// 16
+
+// 17
 
 ### Next Step
 
