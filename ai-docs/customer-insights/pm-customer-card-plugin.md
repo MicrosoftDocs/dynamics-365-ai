@@ -22,5 +22,5 @@ robots: noindex,nofollow
 
 ## Customer Card plugin
 
-
+Ready and reviewed with all images. To be added on 2.14 by Jim
 
