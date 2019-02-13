@@ -14,7 +14,7 @@ manager: shellyha
 
 # Engagement dashboard
 
-   > ![Engagement dashboard](media/engagement-dashboard.PNG)
+   > ![Engagement dashboard](media/engagement-dashboard.png)
 
 The Engagement dashboard provides a focused view of engagement metrics and trends. It includes charts that provide graphical views of the breakdown of session outcomes and engagements over time. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 

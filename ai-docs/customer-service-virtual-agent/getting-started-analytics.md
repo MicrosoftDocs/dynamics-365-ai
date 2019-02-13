@@ -49,7 +49,7 @@ Key performance indicator charts give you a view of the key performance data for
 * The percentage of engaged sessions during the period that are escalated. An escalated session is a session in which a customer requests help from a live agent.
 * The percentage of engaged sessions during the period that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
-    > ![KPI summary charts](media/summary-charts.PNG)
+    > ![KPI summary charts](media/summary-charts.png)
 
 Each key performance indicator chart includes an up-and-down indicator next to the value that indicates the percent change in a positive or negative direction over the specified time period.
 
@@ -58,14 +58,14 @@ Each key performance indicator chart includes an up-and-down indicator next to t
 The dashboards include a variety of graphical charts that give you views of different trends and break down of cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
 
    > [!div class="mx-imgBorder"]
-   > ![Graphical charts](media/engagement-over-time.PNG)
+   > ![Graphical charts](media/engagement-over-time.png)
 
 ## Impact charts
 
 Impact charts show you the topics that are having the greatest impact, both positive and negative, on the performance of your virtual agent.
 
    > [!div class="mx-imgBorder"]
-   > ![Impact charts](media/satisfaction-drivers.PNG)
+   > ![Impact charts](media/satisfaction-drivers.png)
 
 For details on Dynamics 365 Customer Service Virtual Agent analytics, see the following topics:
 

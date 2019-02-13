@@ -20,22 +20,22 @@ The Virtual Agent Designer lets you quickly connect to your existing Dynamics 36
 
     To use the Suggested tab of the Topics page, select **Connect data** to display the **Connect your data** screen.
 
-   > ![Connect Suggested tab](media/connect-suggestions.PNG)
+   > ![Connect Suggested tab](media/connect-suggestions.png)
 
     To use the **Settings** button on the Virtual Agent Designer title bar, select **Data Connections** to display the Current connections pane of the Settings window.
 
-   > ![Display current connections](media/connect-settings.PNG)
+   > ![Display current connections](media/connect-settings.png)
 
     Then select **Create new** to display the **Connect your data** screen.
 
-   > ![Create new](media/connect-data.PNG)
+   > ![Create new](media/connect-data.png)
 
 2. Select **Dynamics 365** to create a workspace using Dynamics 365 customer service data.
 
-   > ![Select Dynamics 365](media/connect-dynamics.PNG)
+   > ![Select Dynamics 365](media/connect-dynamics.png)
 
 3. On the **Choose an environment** screen, select the Dynamics 365 environment that contains the customer service data that you want to use.
 
-   > ![Choose environment](media/choose-environment.PNG)
+   > ![Choose environment](media/choose-environment.png)
 
 Dynamics 365 Customer Service Virtual Agent configures the workspace to use the environment you selected.

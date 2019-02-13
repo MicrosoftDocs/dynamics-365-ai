@@ -102,7 +102,7 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
 
 1. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
 
-   > ![Trigger phrase](media/enter-trigger.PNG)
+   > ![Trigger phrase](media/enter-trigger.png)
 
     The trigger phrase starts the topic's conversation. The Test Bot displays the bot and user responses that you specified in the conversation editor.
 

@@ -25,19 +25,19 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
     Specify a unique name for the environment, *Preview (United States) (default)* as the region, and *Trial* as the environment type. Select the **Join Preview** check box and then **Create environment**.
 
    > [!div class="mx-imgBorder"]
-   > ![Create environment](media/how-to-flow-1-1.PNG)
+   > ![Create environment](media/how-to-flow-1-1.png)
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
 3. Select **Create database** to display the **Create a database for this environment** screen.
 
    > [!div class="mx-imgBorder"]
-   > ![Create database screen](media/how-to-flow-1-2.PNG)
+   > ![Create database screen](media/how-to-flow-1-2.png)
 
 4. Select your currency type and language, and then select **Create database**.
 
    > [!div class="mx-imgBorder"]
-   > ![Create database](media/how-to-flow-1-3.PNG)
+   > ![Create database](media/how-to-flow-1-3.png)
 
 > [!NOTE]
 > Creating a database and environment can take several hours.
@@ -49,12 +49,12 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 2. Select your User icon in the upper-right corner of the screen, and then select the PowerApps environment you created from the list.
 
    > [!div class="mx-imgBorder"]
-   > ![Select environment](media/how-to-flow-1-4.PNG)
+   > ![Select environment](media/how-to-flow-1-4.png)
 
 3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
 
    > [!div class="mx-imgBorder"]
-   > ![Verify database](media/how-to-flow-1-5.PNG)
+   > ![Verify database](media/how-to-flow-1-5.png)
    > [!NOTE]
    > Since creating a new environment can take some time, the new solution might not immediately appear in the list. Log out and check again in 30 to 60 minutes.
 
@@ -67,14 +67,14 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 2. On the **Common Data Services Default Solution** page, select **+New**, and then select **Flow** from the list.
 
    > [!div class="mx-imgBorder"]
-   > ![New flow](media/how-to-flow-1-6.PNG)
+   > ![New flow](media/how-to-flow-1-6.png)
 
     You can create a variety of flows for your solution. For example, you could create a simple flow that takes an email address as an input parameter, sends an email message to that address, and returns a message that the email was successfully sent to a virtual agent as output.
 
 3. Select a trigger for your flow. A Virtual Agent Designer virtual agent can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When HTTP request is received** to create a flow with an HTTP request trigger.
 
    > [!div class="mx-imgBorder"]
-   > ![Select trigger](media/how-to-flow-8.PNG)
+   > ![Select trigger](media/how-to-flow-8.png)
 
 4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New Step**.
 
@@ -90,48 +90,48 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
     ```
 
    > [!div class="mx-imgBorder"]
-   > ![Add JSON code](media/how-to-flow-9.PNG)
+   > ![Add JSON code](media/how-to-flow-9.png)
 
 5. Specify that an email message should be sent to the email address specified in the input. Enter **Outlook** in the Search box and select **Send an email** to create a connection to Microsoft Outlook using your Outlook credentials to send the message.
 
    > [!div class="mx-imgBorder"]
-   > ![Send email](media/how-to-flow-10.PNG)
+   > ![Send email](media/how-to-flow-10.png)
 
 6. Specify an email address for the message, and fill in the Subject and Body fields.
 
     You can specify a Flow input variable (“to”) as the recipient address using Dynamic Content. Select **See more** to see all dynamic variables.
 
    > [!div class="mx-imgBorder"]
-   > ![Create message](media/how-to-flow-11.PNG)
+   > ![Create message](media/how-to-flow-11.png)
 
 7. If you specify the “to” variable as the recipient address, select **New step** to return a message to the flow.
 
    > [!div class="mx-imgBorder"]
-   > ![Return message](media/how-to-flow-12.PNG)
+   > ![Return message](media/how-to-flow-12.png)
 
 8. Use an HTTP Response to return a variable to the virtual agent. Enter **Response** in the search box, and select the **Response** action in the search results list.
 
    > [!div class="mx-imgBorder"]
-   > ![HTTP response](media/how-to-flow-12-1.PNG)
+   > ![HTTP response](media/how-to-flow-12-1.png)
 
 9. Specify the following information for the Response action, and then click **Save** to save your flow.
 
    > [!div class="mx-imgBorder"]
-   > ![Response action](media/how-to-flow-13.PNG)
+   > ![Response action](media/how-to-flow-13.png)
 
 ## To create a virtual agent that invokes a flow
 
 1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://va.ai.dynamics.com](https://va.ai.dynamics.com), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
 
    > [!div class="mx-imgBorder"]
-   > ![Create virtual agent](media/how-to-flow-14.PNG)
+   > ![Create virtual agent](media/how-to-flow-14.png)
 
     For more information about creating a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md).
 
 2. On the **Create a new bot** screen, specify a template, a unique name for your virtual agent, and the environment where your flow was created.
 
    > [!div class="mx-imgBorder"]
-   > ![Specify environment](media/how-to-flow-15.PNG)
+   > ![Specify environment](media/how-to-flow-15.png)
 
     Then select **Create**.
 

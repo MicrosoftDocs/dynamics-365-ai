@@ -26,7 +26,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    On the **Create a new bot** screen, select the template you want to use, either General or Retail. Then specify a name and region for the bot, and select **Create**.
 
-   > ![Create a new bot](media/create-new-bot.PNG)
+   > ![Create a new bot](media/create-new-bot.png)
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
@@ -102,7 +102,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
     To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page. It can take some time for data from conversations with the virtual agent to populate the Analytics page.
 
-   > ![View analytics](media/analytics-page.PNG)
+   > ![View analytics](media/analytics-page.png)
 
 The Analytics page includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends to help you improve your virtual agent.
 

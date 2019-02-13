@@ -20,7 +20,7 @@ As you design your virtual agent in the Virtual Agent Designer, you can use the 
 
 1. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
 
-   > ![Trigger phrase](media/enter-trigger.PNG)
+   > ![Trigger phrase](media/enter-trigger.png)
 
     The trigger phrase starts the topic's conversation, and the Test Bot displays the bot responses and user response choices you specified.
 

@@ -22,13 +22,13 @@ The Virtual Agent Designer is composed of several pages designed for different t
 
 ## Home page
 
-   > ![Home page](media/open-bot.PNG)
+   > ![Home page](media/open-bot.png)
 
 The Home page provides links to the Topics, Analytics, and Deploy pages.  An **Edit Greeting Topic** button lets you revise the built-in virtual agent greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent Insider Community and the Virtual Agent Feedback Forum.
 
 ## Topics page
 
-   > ![Topics page](media/topics-page.PNG)
+   > ![Topics page](media/topics-page.png)
 
 The Topics page is the central location for creating and managing virtual agent topics. The Virtual Agent Designer includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your virtual agent.
 
@@ -38,7 +38,7 @@ For more information about using the Topics page to create topics, see [Creating
 
 ## Analytics page
 
-   > ![Analytics page](media/analytics-page.PNG)
+   > ![Analytics page](media/analytics-page.png)
 
 The Analytics page provides a variety of dashboards and charts showing key performance indicators for your virtual agent.
 
@@ -46,7 +46,7 @@ For more information about using the Analytics page, see [Using analytics to imp
 
 ## Deploy page
 
-   > ![Deploy page](media/deploy-page.PNG)
+   > ![Deploy page](media/deploy-page.png)
 
 The Deploy page is where you deploy your completed virtual agent to a demo website or your own custom website. The demo website provides a sandbox environment for your team to test the virtual agent and give you feedback.
 
@@ -60,13 +60,13 @@ For more information about using the Deploy page to deploy your virtual agent, s
 
 The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by selecting **Hide your bot** on the lower left corner of the Virtual Agent Designer.
 
-   > ![Hide Test Bot](media/hide-test-bot.PNG)
+   > ![Hide Test Bot](media/hide-test-bot.png)
 
 When the Test Bot is hidden, **Hide your bot** changes to **Show your bot**. Select **Show your bot** to restore the Test Bot.
 
 You can test a virtual agent topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test Bot.
 
-   > ![Trigger phrase](media/enter-trigger.PNG)
+   > ![Trigger phrase](media/enter-trigger.png)
 
 The trigger phrase starts the topic's conversation, and the Test Bot displays the virtual agent responses and user response choices you specified when you created the topic on the Topics page.
 

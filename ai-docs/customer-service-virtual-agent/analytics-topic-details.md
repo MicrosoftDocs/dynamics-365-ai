@@ -23,7 +23,7 @@ You can display the Topic details dashboard by selecting the Detail link in one 
 * [Resolution rate drivers (Summary dashboard)](analytics-summary.md#resolution-rate-drivers-chart)
 * [Customer satisfaction drivers chart (Customer satisfaction dashboard)](analytics-CSAT.md#customer-satisfaction-drivers-chart)
 
-   > ![Topic details link](media/topic-details-link.PNG)
+   > ![Topic details link](media/topic-details-link.png)
 
 The Topic details dashboard includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 

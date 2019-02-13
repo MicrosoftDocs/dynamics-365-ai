@@ -48,7 +48,7 @@ Follow these steps to delete a virtual agent:
 3. In the Delete bot section, select **Delete bot**.
 
    > [!div class="mx-imgBorder"]
-   > ![Delete bot](media/delete-bot.PNG)
+   > ![Delete bot](media/delete-bot.png)
 
 All bot content is immediately deleted.
 

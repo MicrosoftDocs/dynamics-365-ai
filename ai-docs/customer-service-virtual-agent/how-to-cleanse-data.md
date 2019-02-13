@@ -22,10 +22,10 @@ For more information about topic suggestions, see [Use topic suggestions to impr
 
 1. Select the **Settings** button on the Virtual Agent Designer title bar and then select **Data Cleansing** to display the Case title cleansing pane of the Settings window.
 
-   > ![Display cleansing pane](media/case-title-cleansing.PNG)
+   > ![Display cleansing pane](media/case-title-cleansing.png)
 
 2. Select the check box next to **I want to cleanse my case titles**. Specify any delimiter characters you use to separate tags from each other or from the issue summary, and whether you place tags before or after the summary, or both. Then select **Save**.
 
-   > ![Case Titles toggle](media/cleanse-titles.PNG)
+   > ![Case Titles toggle](media/cleanse-titles.png)
 
 The settings take effect when you refresh the workspace.

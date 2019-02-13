@@ -14,7 +14,7 @@ manager: shellyha
 
 # Summary dashboard
 
-   > ![Summary dashboard](media/analytics-pane.PNG)
+   > ![Summary dashboard](media/analytics-pane.png)
 
 The Summary dashboard gives you a broad overview of your virtual agent's performance. It uses artificial intelligence (AI) technology to show you which topics are having the greatest impact on support case escalation rate, abandon rate, and resolution rate.
 
@@ -33,7 +33,7 @@ By default, the dashboard shows you key performance indicators for the last seve
 
 ## Summary charts
 
-   > ![Summary charts](media/summary-charts.PNG)
+   > ![Summary charts](media/summary-charts.png)
 
 The Summary charts summarize the key performance indicators for the specified time period and the percent change over the period.
 
