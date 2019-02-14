@@ -21,12 +21,12 @@ Dynamics 365 AI for Customer Service Insights lets you quickly connect to your e
 1. Launch AI for Customer Service Insights in your browser to display the **Connect your data** screen. AI for Customer Service Insights supports Microsoft Edge, Internet Explorer 11, and Chrome browsers.
 
    > [!div class="mx-imgBorder"]
-   > ![Connect your data screen](media/ai-csi-qs-connect-data.PNG)
+   > ![Connect your data screen](media/ai-csi-qs-connect-data.png)
 
 2. Select **Dynamics 365** to create a workspace using Dynamics 365 customer service data. AI for Customer Service Insights displays the **Choose an environment** screen.
 
    > [!div class="mx-imgBorder"]
-   > ![Choose an environment screen](media/ai-csi-qs-choose-environment.PNG)
+   > ![Choose an environment screen](media/ai-csi-qs-choose-environment.png)
 
    For more information on working with workspaces, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
@@ -42,7 +42,7 @@ You can gain a variety of insights from the AI for Customer Service Insights das
 If you want to explore working with the dashboards using sample data before connecting to live data, use the AI for Customer Service Insights built-in demo workspace. To open the demo workspace, select **demo workspace** on the **Connect your data** screen.
 
 > [!div class="mx-imgBorder"]
-> ![Demo workspace](media/ai-csi-qs-demo-workspace.PNG)
+> ![Demo workspace](media/ai-csi-qs-demo-workspace.png)
 
 For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
 

@@ -15,7 +15,7 @@ manager: shellyha
 # KPI summary dashboard
 
 > [!div class="mx-imgBorder"]
-> ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.PNG)
+> ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
 The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
@@ -39,7 +39,7 @@ To filter data by product, channel, business unit, or team, select a value from 
 ## KPI summary charts
 
 > [!div class="mx-imgBorder"]
-> ![KPI summary charts](media/ai-csi-kpi-charts.PNG)
+> ![KPI summary charts](media/ai-csi-kpi-charts.png)
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period.
 
@@ -57,7 +57,7 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 ## Case breakdown chart
 
 > [!div class="mx-imgBorder"]
-> ![Case breakdown chart](media/ai-csi-case-breakdown.PNG)
+> ![Case breakdown chart](media/ai-csi-case-breakdown.png)
 
 The Case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from the previous time period. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
 
@@ -68,7 +68,7 @@ Case breakdown | Case breakdown by rollover cases (backlog) plus new cases for t
 ## Case priority chart
 
 > [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority.PNG)
+> ![Case priority chart](media/ai-csi-case-priority.png)
 
 The Case priority chart shows the percentage breakdown for the specified time period between high, normal, and low-priority support cases.
 
@@ -79,7 +79,7 @@ Case priority | Case breakdown by case priority
 ## Case channel chart
 
 > [!div class="mx-imgBorder"]
-> ![Case channel chart](media/ai-csi-case-channels.PNG)
+> ![Case channel chart](media/ai-csi-case-channels.png)
 
 The Case channel chart shows the breakdown in support cases for the specified time period by support channel.
 
@@ -90,7 +90,7 @@ Case channels | Case breakdown by channel
 ## Case tracking chart
 
 > [!div class="mx-imgBorder"]
-> ![Case tracking chart](media/ai-csi-case-tracking.PNG)
+> ![Case tracking chart](media/ai-csi-case-tracking.png)
 
 The Case tracking chart shows the trend in the number of new support cases for the specified time period as well as the trend in the number of cases being resolved.
 
@@ -102,7 +102,7 @@ Resolved | The number of cases resolved each day for the specified time period
 ## Unresolved cases by age chart
 
 > [!div class="mx-imgBorder"]
-> ![Unresolved cases by age chart](media/ai-csi-cases-by-age.PNG)
+> ![Unresolved cases by age chart](media/ai-csi-cases-by-age.png)
 
 The Unresolved cases by age chart shows the relative number of support cases for the specified time period by how many days ago they were created.
 
@@ -113,7 +113,7 @@ Unresolved cases by age | Total unresolved cases by days unresolved
 ## Case volume drivers chart
 
 > [!div class="mx-imgBorder"]
-> ![Case volume drivers chart](media/ai-csi-case-volume-drivers.PNG)
+> ![Case volume drivers chart](media/ai-csi-case-volume-drivers.png)
 
 The Case volume drivers chart uses artificial intelligence technology to group related support cases as support topics and then display topics in order of volume over the specified time period. This chart shows both the percent of total volume and number of cases for each topic.
 
@@ -128,7 +128,7 @@ To see additional information about each topic, right-click the topic name, hove
 ## Emerging topics chart
 
 > [!div class="mx-imgBorder"]
-> ![Emerging topics chart](media/ai-csi-top-resolve-time.PNG)
+> ![Emerging topics chart](media/ai-csi-top-resolve-time.png)
 
 The Emerging topics chart displays support topics that have a high volume of change in order of volume over the specified time period.
 
