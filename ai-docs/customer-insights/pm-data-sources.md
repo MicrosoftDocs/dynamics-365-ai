@@ -63,7 +63,7 @@ To load data to Customer Insights follow the following process:
 5. After choosing a connector, you will be required to fill some fields. For further guidance around filling those fields for some of the most common data sources (Dynamics 365, csv. and Text files, Blub storage, Azure SQL Database, etc), review the **Common Connectors Guidance** sub-section **that can be found under this section** in the left table of contents.  
 
 ### Step 2 (mandatory): Adding and Reviewing Entities
-Within the next step you will add **entities** to your data source. In Customer Insights **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these datasets is an **entity** (an **Orders** dataset, a **Sales** dataset, etc). 
+Within the next step you will add **entities** to your data source. In Customer Insights **entities are datasets**. For example, If you have a database that includes multiple datasets, each of these datasets is an **entity** (an **Orders** dataset, a **Sales** dataset, etc). 
 
 1. Use the power query window shown below to review and possibly configure the data. The entities that the system identified in your selected datasource will appear on the left (shown in red).
 
@@ -74,7 +74,7 @@ You can add additional entities to your data source by clicking **Get Data**:
 
 // 1
 
-2. In this step you can also **edit and transform the data**: First choose an entity to edit or transform and then use one of the options menus located at top of the Power Query window (those are shown in blue above). Also note that upon the selection of each transformation, it will be added as a processing step. You can view and remove steps in the part shown in green above. Exploring how your data looks like after a specific subset of your added steps can be done by clicking on the final step in that subset.
+2. In this step you can also **edit and transform the data**: First choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also note that upon the selection of each transformation, it will be added as a processing *Step*. You can view and remove *Steps* in the part shown in green above. Exploring how your data looks like after a specific subset of added steps can be done by clicking on the final step in that subset.
 
 While being optional, to avoid data-related issues, **you should complete the next few transformations:**
 
@@ -98,9 +98,9 @@ While being optional, to avoid data-related issues, **you should complete the ne
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Datasource added")
 
-For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refreshed for the datasource, as well as it's status. There are three possible status: 
+For each of your ingested datasources, beyond it's name, you can expect to see the last time the data was refreshed for that datasource, as well as it's status. There are three possible status: 
 1. Data was successfully ingested (example is shown in blue in the image above)
-2. Data was not ingested yet (example is shown in red in the image above)
+2. No data was ingested yet (example is shown in red in the image above)
 3. Data is still loading into Customer Insights (represented by a *warning sign* icon)
 
 At this point you should refresh the datasource that you have just saved. Click the button highlighted below in red and then hit **Refresh** as highlighted in blue:
