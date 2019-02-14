@@ -26,7 +26,7 @@ These industry templates can also be useful as a model for building your own con
 
 1. Open the Virtual Agent Designer in your browser to display the **Create a new bot** screen. Dynamics 365 Customer Service Virtual Agent supports Chrome (preferred) and Edge browsers.
 
-    If you have already created a virtual agent, you can create a new bot by selecting the **New Bot** icon on the title bar. Then click **New bot**.
+    If you have already created a virtual agent, you can create a new bot by selecting the **New Bot** icon on the title bar. Then select **New bot**.
 
    > ![New bot icon](media/new-bot-icon.png)
 

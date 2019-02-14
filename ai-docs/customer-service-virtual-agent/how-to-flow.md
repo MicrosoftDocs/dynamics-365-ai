@@ -114,7 +114,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
    > [!div class="mx-imgBorder"]
    > ![HTTP response](media/how-to-flow-12-1.png)
 
-9. Specify the following information for the Response action, and then click **Save** to save your flow.
+9. Specify the following information for the Response action, and then select **Save** to save your flow.
 
    > [!div class="mx-imgBorder"]
    > ![Response action](media/how-to-flow-13.png)

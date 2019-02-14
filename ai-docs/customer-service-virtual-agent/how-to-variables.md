@@ -29,7 +29,7 @@ Virtual Agent Designer supports four types of variables:
 
 1. In the Virtual Agent Designer conversation editor, select the ellipses in the upper-right corner of the **User responses** node where you want to add the variable.
 
-   > ![Click ellipses](media/create-variable.png)
+   > ![Select ellipses](media/create-variable.png)
 
 2. Select **Properties** to open the Properties pane.
 
