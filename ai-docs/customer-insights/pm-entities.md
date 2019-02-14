@@ -22,29 +22,29 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-After ingesting your data using the **Data Sources** screen, you can quickly evaluate how complete and useful it is using the **Entities** page. If you suspect that your ingested data is not complete or useful enough, you can import more data using **Import Data** button as highlighted below:
+After ingesting your data using the **Data Sources** screen, you can quickly evaluate how complete and useful it is using the **Entities** page. If you suspect that your ingested data is not complete or useful enough, you can import more data using the **Import Data** button as highlighted below:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
 
 The **Entities screen** includes seven columns (explored from left to right): 
-- **Name**: The names of your data entities. Those may range from Account to Activity to many other categories. Note:  if there is a warning sign next to an entity name, it implies the data for that entity didn't load successfully. 
+- **Name**: The names of your data entities. Those may range from *Account* to *Activity* to many other categories. Note: If there is a warning sign next to an entity name, it implies the data for that entity didn't load successfully. 
 - **Source**: Answers the question *From what data source was this entity ingested?* (for example: .csv file, Azure data source, etc.).
-- **Type**: The types of your data entities. In some cases this will be the same as your entities' names; in other cases, the types will differ from the name.
-- **Created by**: Answers the question: *By whom was this entity originally created?*
+- **Created by**: Answers the question: *By whom this entity was originally created?*
 - **Created**: Answers the question: *When was this entity created?*
-- **Updated By**: Answers the question: *By whom was this entity's data refreshed?*
-- **Last Updated**: Answers the question: *"When was the last time this entity's data was refreshed?*
+- **Updated By**: Answers the question: *By whom this entity's data was updated?*
+- **Last Updated**: Answers the question: *"When was the last time this entity's data was updated?*
+- **Last Refreshed**: Answers the question: *When was the last time this entity's data was refreshed?*
 
-The app automatically identifies within your data values for some of this table's fields as shown in the image above. If identification fails, it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table and make any corrections as needed.
+The app automatically identifies within your data values for some of this table's fields as shown in the image above. If identification fails, it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table for validation purposes. 
 
 ## Exploring a specific entity's data
-Select an entity to explore the different fields and records included with that entity.
+Select an entity to explore the different fields and records included within that entity.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
 
-- When you open the Entities page, the **Data** tab is selected by default (shown in red above). The **Data table** provides details around each of this entity's records including the record's value, when it was created, and when was it was last refreshed.
+- When you open the Entities page, the **Data** tab is selected by default (shown in red above) and the **Data Table** is opened. The **Data table** provides details around each of this entity's records, including the record's value, when it was created, and when was it last refreshed.
 
 - When you select the **Fields** tab (shown in blue below), the **Fields table** opens. This table shows the details of each of this entity's fields, including the field's name, data type, and type. For the data shown below no types were identified but for other datasets, types may be identified. **Types** stand here for CDM-associated types and hence can differ from those records' **data types** which are not CDM-related.
 
@@ -54,4 +54,4 @@ Select an entity to explore the different fields and records included with that 
 Both the Fields table and the Data table show only a sample of your entity's data. In order to view the full data set, go to the **Data Sources** screen, select your entity of interest, select **Edit**, and then view this entity's data within the power query editor as explained in the "Data Sources" section.
 
 ## Next Step
-Please continue to the **Confugure Data** section where you will learn how to complete the mandatory data configuration phases (those are **Map**, **Match** and **Merge**)
+Please continue to the **Configure Data** section where you will learn how to complete the three mandatory data configuration phases (those are **Map**, **Match** and **Merge**)
