@@ -35,11 +35,11 @@ In the Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *
 
 Connecting to your data sources is the first step towards unlocking one of the unique promises behind Customer Insights - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessable via the corresponding tab on the left side menu): 
+In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessible via a corresponding tab on the left side menu): 
 
 // 2
 
-Then, you can either continue to the data configuration process or explore the data that you have just ingested through the **Entities** screen:
+Then, you can either continue to the data configuration process or explore the data that you have just ingested through the **Entities** screen (accessible via a corresponding tab on the left side menu as well):
 
 // 3
 
