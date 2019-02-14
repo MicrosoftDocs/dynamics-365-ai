@@ -22,8 +22,8 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-***Important Note***: At this point (Novemebr 2018), on-prem and OData data sources are not supported in Customer Insights. 
-We hope to enable that option soon.
+***Important Note***: At this point on-prem and OData data sources are not supported in Customer Insights. 
+We hope to enable these options in the future.
 
 ## Ingest data from an Excel file (text/csv.)
 
@@ -68,52 +68,50 @@ We hope to enable that option soon.
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-folder-structure.png "File name and folder structure")
 
-
 ## Ingest data from a file hosted in Azure blob
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-storage.png "Select Azure Blobs")
 
-To ingest data to Dynamics 360 from a csv file hosted in a blob in an Azure subscription, follow these steps.
+To ingest data to Dynamics 360 from a csv file hosted within a blob location in an Azure subscription, follow these steps.
 
-1. Select Blob connector from the list of connectors.
+1. Select **Blob connector** from the list of connectors:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs.png "Select Azure Blobs")
 
-2. Enter the account name and account key, and then select **Next**.
+2. Enter the account name and account key, and then select **Next**:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-account-name-key.png "Enter Blob account name and key")
 
-   **Note**: You can find the account name and key from **Access keys** in the Azure portal as show below: 
+   **Note**: You can find the account name and key from the **Access keys** part in the Azure portal as show below: 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-access-keys.png "Blob access keys")
 
-3. This will now list out all the containers in the blob, select the container with the CSV file and click next. 
+3. This will now list out all the containers in the blob. Select the container thay includes your CSV file and click **Next**: 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-container.png "Get data tile")
 
-4.	Now you will see the various csv files in the container, click on **[Table]** in the content column to expand and see the file content preview. 
+4.	Now you will see the various csv files in the container. Click on **[Table]** in the content column to expand and see the file content preview:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-preview.png "Get data tile")
    
 ## Ingest data from Dynamics 365 for Customer Engagement
-
-Select **Common Data Service for Apps**.
+Select **Common Data Service for Apps**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-cds.png "Select Common Data Service")
 
-Provide your server URL.
+Provide your server URL:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-provide-server-url.png "Provide server URL")
 
-Log in with your username and password.
+Log in with your username and password:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-ce-log-in.png "Log in")
@@ -121,9 +119,7 @@ Log in with your username and password.
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-account.png "Account")
 
-
 ## Ingest data from Azure SQL database
-
 Select **SQL Server database** from the connector list.
 
 > [!div class="mx-imgBorder"] 
@@ -136,7 +132,7 @@ Provide your database server, database name, username and password.
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-provide-database-settings.png "Provide database settings")
 
-Pick data from tables you want to bring in.
+Pick data from the specific tables you want to bring into Customer Insights:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-pick-data-from-tables.png "Pick data from tables")
