@@ -102,7 +102,7 @@ While being optional, to avoid data-related issues, **you should complete the ne
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Datasource added")
 
-For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refresehed for the datasource, as well as it's status. There are three possible status: 
+For each of your ingested datasources, beyond it's name, you can expect to see the last time data was refreshed for the datasource, as well as it's status. There are three possible status: 
 1. Data was successfully ingested (example is shown in blue in the image above)
 2. Data was not ingested yet (example is shown in red in the image above)
 3. Data is still loading into Customer Insights (represented by a *warning sign* icon)
