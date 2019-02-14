@@ -26,7 +26,7 @@ Data Manager includes two modules: **Data Sources** and **Entities** as shown be
 
 // 1
 
-In the Data Manager sections (*Data Sources*, *Guidance on Common Connectors* and *Entities*), we will explain how to bring data from many of your sources: 
+In the Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *Entities*), we will explain how to bring data from many of your sources: 
 
 - Transactional sources
 - Observational sources
@@ -35,7 +35,7 @@ In the Data Manager sections (*Data Sources*, *Guidance on Common Connectors* an
 
 Connecting to your data sources is the first step towards unlocking one of the unique promises behind Customer Insights - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-In the [Data Sources](pm-data-sources.md) and [Guidance on Common Connectors] topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessable via the corresponding tab on the left side menu): 
+In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessable via the corresponding tab on the left side menu): 
 
 // 2
 
