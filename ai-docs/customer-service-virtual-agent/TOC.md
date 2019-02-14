@@ -36,19 +36,17 @@
 
 # Reference
 
-## Analytics reference
+## [Analytics overview](analytics-overview.md)
 
-### [Analytics overview](analytics-overview.md)
+## [Summary dashboard](analytics-summary.md)
 
-### [Summary dashboard](analytics-summary.md)
+## [Engagement dashboard](analytics-engagement.md)
 
-### [Engagement dashboard](analytics-engagement.md)
+## [Customer satisfaction dashboard](analytics-csat.md)
 
-### [Customer satisfaction dashboard](analytics-csat.md)
+## [Topic details dashboard](analytics-topic-details.md)
 
-### [Topic details dashboard](analytics-topic-details.md)
-
-### [Sessions page](analytics-sessions.md)
+## [Sessions page](analytics-sessions.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 
