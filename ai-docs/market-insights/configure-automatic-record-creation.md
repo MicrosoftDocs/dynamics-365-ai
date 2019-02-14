@@ -2,7 +2,7 @@
 title: "Set up record creation for social activity entities from Market Insights | Microsoft Docs"
 description: "Learn how to configure rules in Dynamics 365 to automatically turn social activities into records."
 keywords: "rule framework, update rules, create record, entity mapping"
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 08535190-f438-4f56-bd05-f1a7b909822e
@@ -33,6 +33,9 @@ In [[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], when u
 ![open drop-down menu with case and lead options for creating a record in dynamics 365 from within market insights](media/select-entity.png "Open drop-down menu with Case and Lead options for creating a record in Dynamics 365 from within Market Insights")
 
 ## Create a rule to automatically turn social activities into Lead or Case records
+
+> [!NOTE]
+> Parts of the user interface for integration scenarios might reference Microsoft Social Engagement. Nevertheless, you can configure the connections with your Market Insights solution. 
 
 1. Sign in to [!include[](../includes/pn-dynamics-crm.md)] with your system administrator or customizer credentials.
 
