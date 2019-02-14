@@ -164,21 +164,25 @@ Lastly, don't forget to save your measure:
 ### Viewing and Editing your Measures 
 Once completed your first measure, you expect to see the following screen that summarizes your created measures:
 
-// 16
+> [!div class="mx-imgBorder"] 
+> ![](media/new-measure.png "New measure")
 
 Anytime you can create a new measure via the **Add Measure** button shown above.
 
 You can also edit, delete, rename, and refresh the data of any of your created measures by first clicking the following button:
 
-// 17
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-menu.png "Measure menu")
 
 And then choosing from the options drop down:
 
-// 18
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-menu2.png "Measure menu")
 
 Here is an example of the Measure Rename window:
 
-// 19
+> [!div class="mx-imgBorder"] 
+> ![](media/rename-measure.png "Rename measure")
 
 Regarding the edit option, it is done on the same screen we used to create our first measure. 
 
