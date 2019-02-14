@@ -26,7 +26,7 @@ Data Manager includes two modules: **Data Sources** and **Entities** as shown be
 
 // 1
 
-In the Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *Entities*), we will explain how to bring data from many of your sources: 
+In the three Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *Entities*), we will explain how to bring data from many of your sources: 
 
 - Transactional sources
 - Observational sources
@@ -38,6 +38,8 @@ Connecting to your data sources is the first step towards unlocking one of the u
 In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessible via a corresponding tab on the left side menu): 
 
 // 2
+
+**Note**: At this point on-prem data sources are not supported in Customer Insights. We hope to enable that option in the future.
 
 Then, you can either continue to the data configuration process or explore the data that you have just ingested through the **Entities** screen (accessible via a corresponding tab on the left side menu as well):
 
