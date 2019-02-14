@@ -62,10 +62,6 @@ To load data to Customer Insights follow the following process:
 
 5. After choosing a connector, you will be required to fill some fields. For further guidance around filling those fields for some of the most common data sources (Dynamics 365, csv. and Text files, Blub storage, Azure SQL Database, etc), review the **Common Connectors Guidance** sub-section **that can be found under this section** in the left table of contents.  
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
-
-
 ### Step 2 (mandatory): Adding and Reviewing Entities
 Within the next step you will add **entities** to your data source. In Customer Insights **entities are datasets**. For example, If you have a database that includes multiple datasets about your customers, each of these datasets is an **entity** (an **Orders** dataset, a **Sales** dataset, etc). 
 
