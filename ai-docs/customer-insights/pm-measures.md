@@ -32,7 +32,8 @@ The **Measures screen** enables you to define all the KPIs that best reflect you
 ### Step1: Choosing between Three Measure Types
 There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you upon clicking the **New Measure** button:
 
-// 1
+> [!div class="mx-imgBorder"] 
+> ![](media/search-measures.png "Search measures")
 
 // 2
 
@@ -55,7 +56,8 @@ Upon choosing one of the options, you can expect to reach the **Measure Creation
 
 **Panel you can expect to see upon selecting the *Business Measure* option**:
 
-// 3
+> [!div class="mx-imgBorder"] 
+> ![](media/new-business-measure.png "New business measure")
 
 **Name** (mandatory): Upon completing the configuration of your measure, it will show up in the Measures screen as a saved measure that you can edit. Within the measures screen, your saved measure will carry the name you define under the **Name** field in this panel.
 **Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved a new entity. In both cases, the measure will carry the name you define under the **Display Name** field in this panel.
@@ -63,18 +65,21 @@ Upon choosing one of the options, you can expect to reach the **Measure Creation
 
 **Panel you can expect to see upon selecting the *Profile Measure* option: 
 
-// 4
+> [!div class="mx-imgBorder"] 
+> ![](media/new-profile-measure.png "New profile measure")
 
 This panel is the same panel we explored under the previous options except for one difference: **The Customer Profile entity will automatically be selected as your starting entitiy**. Morvoer, this default selection can't be changed.
 
 **Panel you can expect to see upon selecting the *Profile Measure* option: *Profile Attribute* option**:
 
-// 5
+> [!div class="mx-imgBorder"] 
+> ![](media/new-profile-attribute.png "New profile attribute")
 
 ### Step3: Choosing Related Entities
 Once completing step one, you can expect to see the following screen:
 
-// 6
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-definition.png "Measure definition")
 
 Within this screen we will complete steps 3-5 in the Measure definition process.
 
@@ -82,18 +87,21 @@ First you should decide whether additional entities are needed as part of your m
 
 In order to choose additional entities, simply click the **Add new entity** button and pick the entitites of your interest:
 
-// 7
+> [!div class="mx-imgBorder"] 
+> ![](media/select-an-entity.png "Select an entity")
 
 **Note**: You can only select entities which have relationships to your base entity. If you havn't define relationships yet, make sure to read the **Relationships** section.
 
 ### Step4: Calculating a Variable
 Ths step is accessable via the **Add new variable** button:
 
-// 8
+> [!div class="mx-imgBorder"] 
+> ![](media/accounts-dynamics-365.png "Accounts Dynamics365")
 
 Upon clicking it, you should reach the **Variable Definition Panel**:
 
-// 9
+> [!div class="mx-imgBorder"] 
+> ![](media/new-variable-name.png "New variable name")
 
 Let's explore the steps you should complete in this panel:
 1. Giving your variable a name: You can give your variable a recognizable name
@@ -104,7 +112,9 @@ Let's explore the steps you should complete in this panel:
 
 In the example shown below, we have defined a calculation for the relative contribution of a single Purchase to the Customer Lifetime Value (CLTV):
 
-// 10
+> [!div class="mx-imgBorder"] 
+> ![](media/new-variable-name2.png "New variable name")
+
 
 ### Step 5: Defining your Measure Entity/Attribute
 In this final step we will decide how to aggragate our chosen entities and calculations into a measure entity/attribute which we can start using in Homepage, Segments, as well as other screens. 
@@ -112,7 +122,8 @@ In this final step we will decide how to aggragate our chosen entities and calcu
 **Step 1:** Defining first dimension
 Those are the selections you should fill (exploring left to right the definitions shown below):
 
-// 11
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-definition2.png "Measure definition")
 
 **Entity/Variable**: You should include at least one attribute in your Measures entity. **Note: If you are defining a Measures Attribute it can be only one attribute.** This selection is about choosing either the entity that includes that attribute, or one of the Variables you have created in step 4.
 **Field**: Here you should pick the specific attribute/variable to be included either in the Measures entity or in another entity as a field.
@@ -122,18 +133,21 @@ Those are the selections you should fill (exploring left to right the definition
 
 **Step 2 (optional):**: Adding more dimensions by clicking **Add new dimension** button:
 
-// 12
+> [!div class="mx-imgBorder"] 
+> ![](media/new-dimension.png "New dimension")
 
 **Step 3 (optional)**: Adding measures
 This option should be used in case you wish to aggragate any of your dimensions via summation, counting, etc (so these aggragations will happen at the end of the selected field in your Measures entity/attribute. 
 
 First, click the **New Measure** button:
 
-// 13
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-definition3.png "Measure definition")
 
 Then, make those selections (exploring left to right the definitions shown below):
 
-// 14
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-definition4.png "Measure definition")
 
 **Function**: At present we support **Sum, Min, Max, Count and Unique Count** as aggragation options
 **Entity/Variable**: You should include at least one attribute in your Measures entity. **Note: If you are defining a Measures Attribute it can be only one attribute.** This selection is about choosing either the entity that includes that attribute, or one of the Variables you have created in step 4.
@@ -143,7 +157,9 @@ Then, make those selections (exploring left to right the definitions shown below
 
 Lastly, don't forget to save your measure: 
 
-// 15
+> [!div class="mx-imgBorder"] 
+> ![](media/measure-definition-save.png "Measure definition")
+
 
 ### Viewing and Editing your Measures 
 Once completed your first measure, you expect to see the following screen that summarizes your created measures:
