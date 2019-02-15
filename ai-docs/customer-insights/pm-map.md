@@ -22,12 +22,12 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-There are two main goals behind the map phase:
+There are two main goals behind the *Map* phase:
 
-- **Entity selection:** Identify the customer entities which, upon unification, may lead to a dataset with more complete information on your customers.
-- **Attribute selection:** For each customer entity, identify the columns upon which you will want to combine and reconcile your data in the next phases, *Match* and *Merge* (those columns are also called **Attributes**).
+- **Entity selection:** Identify the entities which, upon unification, may lead to a dataset with a more complete information around your customers.
+- **Attribute selection:** For each customer entity, identify the columns upon which you will want to combine and reconcile your data in the next data configuration phases, *Match* and *Merge* (those columns are also called **Attributes**).
 
-Select the **Map** tile on the **Configure Data** page to get to *Map*.
+Select the **Map** tile on the **Configure Data** page to start the *Map* phase:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
@@ -44,40 +44,37 @@ Within the next screen, add all the entities which, upon unification into a unif
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-In the example above, the user searched for the Contact and Survey entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that Address exists only in the Contact entity). 
+In the example above, the user searched for the *Contact* and *Survey* entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that the *Address* attribute exists only in the *Contact* entity). 
 
-Then, the user selected the *Contact* and *Survey* entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** screen. The user selected those two entities, and then selected **Save**.
+Then, the user selected the *Contact* and *Survey* entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** screen. Lastly, the user selected **Save**.
 
 > [!NOTE]
 > You should search for and select at least two entities in order to benefit from the data configuration process.
 
 ### Viewing System Auto-Selections:
-
-Following entity selection, the following page appears:
+The following page appears upon completing your entities' selections:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-ingested-entities.png "Ingested entities")
 
-- On the left, you can see your ingested entities. By default, the first entity is auto-selected (contactCSV in the example above). To move to any other entity for which you wish to choose attributes, click that entity's tile as shown in blue above. 
+- On the left, you can see your ingested entities. By default, the first entity is auto-selected (contactCSV in the example above).     To move to any other entity click that entity's tile as shown in blue above. 
 
-- In addition, the system auto-selected for you all the attributes for which attribute-type was auto-identified. Those attributes include Names, Email Adresses, and several others. As shown in red above, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
+- Note that the system auto-selected for you all the attributes for which attribute-type was auto-identifified. Those attributes include Names, Email Adresses, and several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
 
 ### Adding and Removing Attributes
-
-Upon clicking the **Edit** button (shown in blue in the image above), a window appears on the right which can be used to manually remove existing attributes and/or add additional attributes:
+Upon clicking the **Edit** button (shown in blue in the image above), a panel appears on the right which can be used to manually remove existing attributes and/or add additional attributes:
 
 // missing!
 
-**Attributes Panel**: Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all the attributes. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all attributes** (green). Then, the same button can be used to unselect all your chosen attributes.
+**Attributes Panel**: Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all your attributes of interest. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all** (green). Once at least one attribute is selected, the same button (now appears as **Clear all**) can be used to unselect all your selections.
 
 ## Adding and Removing Entities
-
 Click **Select** to either add or remove entities:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit.png "Select Edit")
 
-Select the entities that you want to add to your existing entities list and deselect entities that you want to remove. 
+Select the entities that you want to add to your existing entities list and deselect entities that you want to remove: 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
@@ -89,8 +86,8 @@ Select the entities that you want to add to your existing entities list and dese
 
 There are two mandatory selections you must complete prior to the completion of the Map phase:
 
-- **1.Primary key:** (shown in red above) It's mandatory to select one attribute as a primary key for each of the entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
-- **Attribute Type:** Categories under which your attributes fall such as email or name. Adding a custom entity type is also possible. Select the type for a given attribute and select **Custom**  to specify your custom type. As mentioned earlier, some attribute-types might already been identified by the system and you can always change those default definitions. 
+- **1.Primary key:** (shown in red above) It's mandatory to select one attribute as a primary key for each of your chosen entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
+- **Attribute Type:** Categories under which your attributes fall such as *Email* or *Name*. Adding a custom entity type is also possible: Select the type field for that attribute and type your custom attribute-type name. You can also change the attribute-types that were auto-identified by the system.  
 
 ## Next Step
-As part of the data configuration process, proceed to the **Match** page either by selecting **Match** in the left menu or by selecting the **Match** tile from the **Configure Data** page.
+As part of the data configuration process, proceed to the **Match** page either by selecting **Match** in the left side menu or by selecting the **Match** tile within the **Configure Data** page. Visit the **Match** section to learn about this phase.
