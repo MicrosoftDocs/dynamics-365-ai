@@ -47,8 +47,8 @@
       href: pm-manage-search.md
   - name: Extensibilities
     items:
-    - name: Customer Card Plugin 
-      href: pm-customer-card-plugin.md
+    - name: Customer Card Add-in 
+      href: pm-customer-card-addin.md
     - name: Connectors
       href: pm-connectors.md
     - name: APIs
