@@ -25,31 +25,37 @@ robots: noindex,nofollow
 
 The end result of the Data Configuration process is the creation of the Customer Profile entity that equips you with a unified view into your total customer base. At the same time, there are cases in which you might want to quickly pull information on a specific customer or a group of customers. That can be done via the **Search** and **Filter** capabilities on the **Profiles** page:
 
-// 1
+> [!div class="mx-imgBorder"] 
+> ![](media/search-filter.png "Search filter")
 
 To further understand how to utilize those capabilities, visit the **Profiles** section. **In this section** we will cover the complementing capability that enables you, as an administrator, to edit the attributes by which you are searching, filtering and sorting profiles. That is done on the **Search, Sort and Filter** screen (accessable via the corresponding tab on the left side menu).
 
 ### Adding Attributes
 The first screen you can expect to see is the following one. Click **Add attributes** to get started: 
 
-// 2
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes.png "Add attributes")
 
 Within the attributes panel you should choose all the attributes by which users will be able to search, filter and sort customers on the **Profiles** page. You can use the search fieled (shown in red) to search for a specific attribute by it's name. Note that you can select only attributes that exist in the Customer Profile entity you have created during the data configuration process.
 
-// 3
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes2.png "Add attributes")
 
 Then you will get to the main screen. In the example shown below many attributes were already selected:
 
-// 4
+> [!div class="mx-imgBorder"] 
+> ![](media/search-sort-filter.png "Search sort filter")
 
 You can always add more attributes via the **Add attribute** button (shown in red below). You can also remove any selected attributes using the button shown in blue:
 
-// 5
+> [!div class="mx-imgBorder"] 
+> ![](media/search-sort-filter-add.png "Add attribute")
 
 ### Exploring the Main Screen
 Let's explore the table found on the main screen, going left to right:
 
-// 6
+> [!div class="mx-imgBorder"] 
+> ![](media/search-sort-filter-edit.png "Edit attribute")
 
 **Name**: Presents the attribute's name as appears in the Customer Profile entity
 **Data Type**: Specifies whether it's a *String*, a *Number*, or a *Date* type of data
@@ -67,19 +73,22 @@ The Filter menu on the Profiles page can include a varying number of attribute l
 
 - **Editing panel for string-type attributes:
 
-// 7
+> [!div class="mx-imgBorder"] 
+> ![](media/string-filter-options.png "String filter options")
 
 In this panel you can specify the number of desired results on the filter panel as well as the order policy by which they will be organized. 
 
 - **Editing panel for number-type attributes:
 
-// 8
+> [!div class="mx-imgBorder"] 
+> ![](media/number-filter-options.png "Number filter options")
 
 In this panel you can specify the intervals included on the filter panel as well as the order policy by which they will be organized.
 
 - **Editing panel for date-type attributes:
 
-// 9
+> [!div class="mx-imgBorder"] 
+> ![](media/date-filter-options.png "Date filter options")
 
 
 In this panel you can specify the intervals included on the filter panel as well as the order policy by which they will be organized.
