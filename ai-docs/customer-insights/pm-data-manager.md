@@ -41,6 +41,6 @@ In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-co
 
 Then, you can either:
 - Start the data configuration process (accessible both via the **Configure Data tile** within the Data Manager page, and via the **Configure Data tab** on the left-side menu). Once completed with the Data Sources section, review the Configure Data section.
-- Or first explore the data that you have just ingested through the **Entities** screen (accessible via the left side menu too). Once you've completed the Data Sources section, review the Entities section. 
+- Or first explore the data that you have just ingested through the **Entities** screen (accessible via the left-side menu). Once you've completed the Data Sources section, review the Entities section. 
 
 
