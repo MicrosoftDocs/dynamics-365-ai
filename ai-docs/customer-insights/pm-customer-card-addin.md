@@ -189,5 +189,5 @@ robots: noindex,nofollow
 8. Go to the publishes contact form. You will see the timeline control. You might need to login the first time you use it. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/timeline-control "Timeline control")
+   > ![](media/timeline-control.png "Timeline control")
 
