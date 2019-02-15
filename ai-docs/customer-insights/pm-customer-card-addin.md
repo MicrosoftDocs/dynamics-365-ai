@@ -97,8 +97,8 @@ robots: noindex,nofollow
     > [!div class="mx-imgBorder"] 
     > ![](media/contact-active-forms.png "Contact active forms")
 
-
-
+    > [!div class="mx-imgBorder"] 
+    > ![](media/contact-form-designer.png "Contact form")
 
 
 
