@@ -149,4 +149,45 @@ robots: noindex,nofollow
 
 ### Timeline control
 
+1. In the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/contact-form-designer4.png "Address 1: City field")
+
+2. Click on the field you just added and click on Change Properties. 
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![](media/contact-form-designer-publish.png "Address 1: City field publish")
+
+3. Uncheck Display label on the form.
+   
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-display-label.png "Address 1: City field display label")
+
+4. Go to the Controls tab and click on Add Control…
+
+   image
+
+5. Select Timeline_Control and click Add.
+
+   image
+
+6. Select the Web option for the Timeline_Control.
+
+   image
+
+7. Now you can click on Save and Publish to publish the contact form where you have placed the timeline control.
+
+   image
+
+8. Go to the publishes contact form. You will see the timeline control. You might need to login the first time you use it. 
+
+   image
+
+
+
+
+
+
+
 
