@@ -22,11 +22,11 @@ robots: noindex,nofollow
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Data Manager includes two modules: **Data Sources** and **Entities** as shown below:
+Data Manager includes two modules: **Data Sources** and **Configure Data** as shown below:
 
 // 1
 
-In the three Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *Entities*), we will explain how to bring data from many of your sources: 
+In the next three Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *Entities*), we will explain how to bring data from many of your sources: 
 
 - Transactional sources
 - Observational sources
