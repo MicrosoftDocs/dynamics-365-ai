@@ -59,7 +59,7 @@ The following page appears upon completing your entities' selections:
 
 - On the left, you can see your ingested entities. By default, the first entity is auto-selected (contactCSV in the example above).     To move to any other entity click that entity's tile. 
 
-- Note that the system auto-selected for you all the attributes for which attribute-type was auto-identifified. Those attributes include Names, Email Adresses, and several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
+- Note that the system auto-selected for you all the attributes for which attribute-type was auto-identified. Those attributes include Names, Email Address, as well as several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
 
 ### Adding and Removing Attributes
 That can be done via the **Edit** button: 
@@ -90,7 +90,7 @@ Select the entities that you want to add to your existing entities list and dese
 
 There are two mandatory selections you must complete prior to the completion of the Map phase:
 
-- **1.Primary key:** (shown in red above) It's mandatory to select one attribute as a primary key for each of your chosen entities. Note that in order for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
+- **1.Primary key:** (shown in red above) It's mandatory to select one attribute as a primary key for each of your chosen entities. Note that for an attribute to be a valid primary key, it should not include either duplicate values, missing values or *Nulls*. 
 - **Attribute Type:** Categories under which your attributes fall such as *Email* or *Name*. Adding a custom entity type is also possible: Select the type field for that attribute and type your custom attribute-type name. You can also change the attribute-types that were auto-identified by the system.  
 
 ## Next Step
