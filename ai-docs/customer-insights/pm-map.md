@@ -27,14 +27,14 @@ There are two main goals behind the *Map* phase:
 - **Entity selection:** Identify the entities which, upon unification, may lead to a dataset with a more complete information around your customers.
 - **Attribute selection:** For each customer entity, identify the columns upon which you will want to combine and reconcile your data in the next data configuration phases, *Match* and *Merge* (those columns are also called **Attributes**).
 
-Select the **Map** tile on the **Configure Data** page to start the *Map* phase:
+Select the **Map** tile on the **Configure Data** page to start the *Map phase*:
 
+// update 1
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
 
 ### Selecting First Entities
-
-Start the Map phase by selecting **Add Entities**:
+Start the Map phase by selecting **Add entities**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
@@ -44,11 +44,11 @@ Within the next screen, add all the entities which, upon unification into a unif
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-In the example above, the user searched for the *Contact* and *Survey* entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that the *Address* attribute exists only in the *Contact* entity). 
+In the example above, the user used the **Search Field** to search for the *Contact* and *Survey* entities since these include information that might be valuable to combine. One example might be understanding what address corresponds to what survey participant (given that the *Address* attribute exists only in the *Contact* entity). 
 
 Then, the user selected the *Contact* and *Survey* entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** screen. Lastly, the user selected **Save**.
 
-> [!NOTE]
+> [!NOTE] 
 > You should search for and select at least two entities in order to benefit from the data configuration process.
 
 ### Viewing System Auto-Selections:
@@ -57,16 +57,20 @@ The following page appears upon completing your entities' selections:
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-ingested-entities.png "Ingested entities")
 
-- On the left, you can see your ingested entities. By default, the first entity is auto-selected (contactCSV in the example above).     To move to any other entity click that entity's tile as shown in blue above. 
+- On the left, you can see your ingested entities. By default, the first entity is auto-selected (contactCSV in the example above).     To move to any other entity click that entity's tile. 
 
 - Note that the system auto-selected for you all the attributes for which attribute-type was auto-identifified. Those attributes include Names, Email Adresses, and several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
 
 ### Adding and Removing Attributes
-Upon clicking the **Edit** button (shown in blue in the image above), a panel appears on the right which can be used to manually remove existing attributes and/or add additional attributes:
+That can be done via the **Edit** button: 
 
-// missing!
+// missing 1
 
-**Attributes Panel**: Use either **Search attributes** (red) and/or scroll down the **Attributes** menu (blue) to locate and select all your attributes of interest. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all** (green). Once at least one attribute is selected, the same button (now appears as **Clear all**) can be used to unselect all your selections.
+Upon clicking **Edit**, the **Attributes Panel** will open:
+
+// missing 2
+
+Use either the **Search Field** or scroll down the **Attributes List** (shown in red above) to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose *all* the attributes by selecting **Select all** (green). Once one attribute is selected (or ore), the same button can be used to unselect all your selections (now appear as a **Clear all** button).
 
 ## Adding and Removing Entities
 Click **Select** to either add or remove entities:
