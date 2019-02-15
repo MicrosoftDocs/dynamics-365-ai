@@ -26,7 +26,7 @@ Data Manager includes two modules: **Data Sources** and **Configure Data** as sh
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-tile.png "Get data tile")
 
-In the next two Data Manager sections (*Data Sources* and *Common Connectors Guidance*), we will explain how to bring data from many of your sources: 
+In the next two Data Manager sections (*Data sources* and *Common connectors guidance*), we will explain how to bring data from many of your sources: 
 
 - Transactional sources
 - Observational sources
@@ -35,7 +35,7 @@ In the next two Data Manager sections (*Data Sources* and *Common Connectors Gui
 
 Connecting to your data sources is the first step towards unlocking one of the unique promises behind Customer Insights - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** page (accessible via a corresponding tab on the left-side menu).
+In the [Data sources](pm-data-sources.md) and [Common connectors guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** page (accessible via a corresponding tab on the left-side menu).
 
 **Note**: At this point on-premises data sources are not supported in Customer Insights. 
 

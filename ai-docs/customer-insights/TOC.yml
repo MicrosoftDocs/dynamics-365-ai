@@ -10,7 +10,7 @@
     - name: Data sources
       href: pm-data-sources.md
       items:
-      - name: Common Connectors Guidance
+      - name: Common connectors guidance
         href: pm-common-connectors.md
     - name: Entities
       href: pm-entities.md
