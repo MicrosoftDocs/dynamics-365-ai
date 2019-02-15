@@ -24,9 +24,10 @@ robots: noindex,nofollow
 
 Data Manager includes two modules: **Data Sources** and **Configure Data** as shown below:
 
-// 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-manager-get-data-tile.png "Get data tile")
 
-In the next three Data Manager sections (*Data Sources*, *Common Connectors Guidance* and *Entities*), we will explain how to bring data from many of your sources: 
+In the next two Data Manager sections (*Data Sources* and *Common Connectors Guidance*), we will explain how to bring data from many of your sources: 
 
 - Transactional sources
 - Observational sources
@@ -35,16 +36,12 @@ In the next three Data Manager sections (*Data Sources*, *Common Connectors Guid
 
 Connecting to your data sources is the first step towards unlocking one of the unique promises behind Customer Insights - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
-In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessible via a corresponding tab on the left side menu): 
-
-// 2
+In the [Data Sources](pm-data-sources.md) and [Common Connectors Guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** screen (accessible via a corresponding tab on the left side menu).
 
 **Note**: At this point on-prem data sources are not supported in Customer Insights. We hope to enable that option in the future.
 
-Then, you can either continue to the data configuration process or explore the data that you have just ingested through the **Entities** screen (accessible via a corresponding tab on the left side menu as well):
-
-// 3
-
-
+Then, you can either:
+- Start the data configuration process (accessible both via the **Configure Data tile** within the Data Manager screen, and via the **Configure Data tab** on the left side menu). Once completed the Data Sources section, review the **Configure Data** section to learn more.
+- Or first explore the data that you have just ingested through the **Entities** screen (accessible via the left side menu too). Once completed the Data Sources section, review the **Entities** section to learn more. 
 
 
