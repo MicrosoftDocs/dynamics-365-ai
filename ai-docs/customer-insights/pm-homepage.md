@@ -21,9 +21,8 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Home page** is the first page you see in the Customer Insights app. If you are an administrator and it's the first time you use Customer Insights, make sure to first go through the ***Onboarding Guide***. [JH Omit this sentence?]
+The **Home page** is the first page you see in the Customer Insights app. <!-- If you are an administrator and it's the first time you use Customer Insights, make sure to first go through the ***Onboarding Guide***. -->
 
-// Replace with final menu once finalizaed:
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-menu.png "Data Manager menu")
 
