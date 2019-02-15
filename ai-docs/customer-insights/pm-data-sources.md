@@ -72,7 +72,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
    
-You can add additional entities to your data source by selecting **Get Data**.
+   You can add additional entities to your data source by selecting **Get Data**.
 
 // 1
 
@@ -95,17 +95,18 @@ You can add additional entities to your data source by selecting **Get Data**.
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-edit-queries-create.png "Create")
 
-4. After saving, you can expect to see your data source added in the **Data Sources** page:
+4. After saving, you can expect to see your data source added in the **Data Sources** page.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
-For each of your ingested data sources, besides its name, you can expect to see the last time the data was refreshed for that data source, as well as its status. There are three possible status: 
+For each of your ingested data sources, besides its name, you can expect to see the last time the data was refreshed for that data source, as well as its status. There are three possible statuses: 
+
 1. Data was successfully ingested (example is shown in blue in the image above)
 2. No data was ingested yet (example is shown in red in the image above)
 3. Data is still loading into Customer Insights (represented by a *warning sign* icon)
 
-At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue:
+At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
@@ -114,7 +115,7 @@ At this point, repeat the same steps for each data source you wish to ingest int
 
 ### Step Three (optional): Reviewing Ingested Data
 
-It is possible that the data load will take some time. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity** page see [!INCLUDE [pm-entities](pm-entities.md)].
+It is possible that the data load will take some time. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity** page see [Data Manager: Entities](pm-entities.md).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
