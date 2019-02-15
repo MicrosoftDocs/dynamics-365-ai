@@ -2,13 +2,12 @@
 title: "Get started with Market Insights | Microsoft Docs"
 description: "Learn how to ramp up quickly on Market Insights."
 keywords: "get started, onboarding, key features"
-ms.date: 10/31/2018
+ms.date: 02/15/2019
 ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 587079ee-03f0-4dc6-8cbf-14cee4e50273
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
@@ -94,10 +93,6 @@ This topic introduces common user-interface elements and useful tips to work eff
 - **Activity Maps**: Create and manage activity maps to see real-time visualizations of posts with location information. Show this on a large screen and let your audience know where in the world your topics are discussed.  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](activity-maps.md)  
-  
-- **Social Selling**: Work with the Social Selling Assistant directly from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and get recommendations on relevant and shareable content that really matters to you.  
-  
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)  
   
 - **Alerts**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
   
