@@ -59,7 +59,7 @@ The business scenarios that [!INCLUDE[Market Insights](../includes/pn-market-ins
 
 We frequently release updates to introduce new capabilities, improve existing features, and fix various issues.
 
-- Have a look at [what's new in Market Insights](what-s-new.md) to learn about the latest changes.
+- Have a look at [what's new in Market Insights](release-notes.md) to learn about the latest changes.
 
 - Read the latest [Market Insights readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
@@ -68,5 +68,5 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 ### See also
 
-[What's new in Market Insights](what-s-new.md)    
+[What's new in Market Insights](release-notes.md)    
 [Market Insights FAQ](faq.md)   
