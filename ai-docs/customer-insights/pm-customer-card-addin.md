@@ -100,16 +100,52 @@ robots: noindex,nofollow
     > [!div class="mx-imgBorder"] 
     > ![](media/contact-form-designer.png "Contact form")
 
-
-
-
-
-
-
-
-
 ### Demographic control
 
+1. To add the demographic control, in the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/contact-form-designer2.png "Address 1: City field")
+
+2. Click on the field you just added and click on Change Properties. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/contact-form-designer3.png "Address 1: City field")
+
+3. Uncheck Display label on the form. 
+   
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties.png "Field properties")
+
+4. Go to the Controls tab and click on Add Control…
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control.png "Field properties add control")
+
+5. Select Demographic_Control and click Add.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control-demographic.png "Field properties control demographic")
+
+6. Select the Web option for the Demographic_Control.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control-demographic2.png "Field properties control demographic")
+
+7. Now you can click on Save and Publish to publish the contact form where you have placed the demographic control.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control-demographic3.png "Field properties publish control demographic")
+
+8. Go to the published contact form. You will see the demographic control. You might need to login the first time you use it. To customize what you want to show on the demographic control, click on the edit button on the upper right. 
+
+   The customization you perform here will apply across the organization.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/demographic-control.png "Demographic control")
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/add-new-field.png "Add new field")
 
 ### Timeline control
 
