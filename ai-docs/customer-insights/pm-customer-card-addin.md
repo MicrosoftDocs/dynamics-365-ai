@@ -166,28 +166,28 @@ robots: noindex,nofollow
 
 4. Go to the Controls tab and click on Add Control…
 
-   image
+   
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control2.png "Add control")
+
 
 5. Select Timeline_Control and click Add.
 
-   image
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control3.png "Add control")
 
 6. Select the Web option for the Timeline_Control.
 
-   image
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-add-control4.png "Modify control properties")
 
 7. Now you can click on Save and Publish to publish the contact form where you have placed the timeline control.
-
-   image
+   
+   > [!div class="mx-imgBorder"] 
+   > ![](media/field-properties-publish-control.png "Publish form")
 
 8. Go to the publishes contact form. You will see the timeline control. You might need to login the first time you use it. 
 
-   image
-
-
-
-
-
-
-
+   > [!div class="mx-imgBorder"] 
+   > ![](media/timeline-control "Timeline control")
 
