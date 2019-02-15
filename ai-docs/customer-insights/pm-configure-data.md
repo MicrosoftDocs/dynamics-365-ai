@@ -20,15 +20,17 @@ robots: noindex,nofollow
 ---
 # Configure data
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
 
-## Intro to Configuration
-
-Once ingested your data, you are ready to unlock the unique data-configuration features that Customer Insights offers. **Configure Data** includes four modules as represented by the tiles at the screen below.
+Once ingested your data, you are ready to unlock the unique data-configuration features that Customer Insights offers. **Configure Data** includes six modules as represented by the tiles at the screen below.
  
 The goal behind the data configuration process is to unify data sources that once were disparate into a master customer dataset that includes a more complete information on your customers.  
 
-You should explore the three tiles at the top row from left to right (highlighted in blue), starting with **Map** (highlighted in red) and continuing with **Match** and **Merge**. The **Relationship** module which is located in the second row (highlighted in green) is optional but highly recommended for segmentation.
+- You should complete the three mandatory data configuration stages: Starting with **Map**, and continuing with **Match** and **Merge**. As a next step make sure to explore those modules' sections, starting with the **Map** section.
+- The **Relationship** module is optional but highly recommended for future utilization of the **Segments** screen where you will produce customer segments (can be done only upon the completion of *Map*, *Match* and *Merge*)
+- The **Enrich Profiles** module is also optional but highly recommended for extracting richer insights around your customers 
+- Lastly, the **Activities** module can be used to define some of your ingested attributes as activities
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-page.png "Configure Data page")
+After completing the mandatory configuration phases, visit the **Relationships**, **Enrich Profiles** and **Activities** sections to learn more on each of these modules. 
+
+// 1
