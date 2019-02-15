@@ -67,7 +67,7 @@ To load data to Customer Insights, follow the following process:
 
 In the this step, you'll add entities to your data source. In Customer Insights, entities are datasets. For example, If you have a database that includes multiple datasets, each of those datasets is an entity (an Orders dataset, a Sales dataset, etc.). 
 
-1. Use the power query window shown below to review and possibly configure the data. The entities that the system identified in your selected datasource will appear on the left (shown in red).
+1. Use the power query window shown below to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (shown in red).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
@@ -95,22 +95,22 @@ You can add additional entities to your data source by selecting **Get Data**.
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-edit-queries-create.png "Create")
 
-4. After saving, you can expect to see your datasource added in the **Data Sources** page:
+4. After saving, you can expect to see your data source added in the **Data Sources** page:
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/configure-data-datasource-added.png "Datasource added")
+   > ![](media/configure-data-datasource-added.png "Data source added")
 
-For each of your ingested datasources, besides its name, you can expect to see the last time the data was refreshed for that datasource, as well as its status. There are three possible status: 
+For each of your ingested data sources, besides its name, you can expect to see the last time the data was refreshed for that data source, as well as its status. There are three possible status: 
 1. Data was successfully ingested (example is shown in blue in the image above)
 2. No data was ingested yet (example is shown in red in the image above)
 3. Data is still loading into Customer Insights (represented by a *warning sign* icon)
 
-At this point you should refresh the datasource that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue:
+At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
 
-At this point, repeat the same steps for each datasource you wish to ingest into Customer Insights.
+At this point, repeat the same steps for each data source you wish to ingest into Customer Insights.
 
 ### Step Three (optional): Reviewing Ingested Data
 
@@ -126,21 +126,22 @@ It is possible that the data load will take some time. After successfully refres
 
 Follow these steps to edit an existing data source. 
 
-1. Browse to the data source that you wish to edit:
+1. Browse to the data source that you wish to edit.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-source.png "Get data source")
 
-2. Click on the **Edit** button to edit the data source in Power Query: 
+2. Select **Edit** to edit the data source in Power Query.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-sources-edit2.png "Edit data source")
 
-3. Don't forget to hit **Create** in the Power Query screen upon completing the edits in order to save your changes. If you wish to remove a data source, click **Delete** for that data source:
+3. Select **Create** in the Power Query screen after completing the edits in order to save your changes. If you wish to remove a data source, select **Delete** for that data source.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-sources-delete.png "Data sources delete")
 
 ### Next steps:
-At this point you are ready to unlock unique customer insights through the mandatory **Configure Data** sections (those include **Map**,**Match** and **Merge**). If you first wish to review all the entities that were ingested, visit the **Entities** section first. 
+
+At this point, you are ready to unlock unique customer insights through the mandatory [Configure data](pm-configure-data.md) sections (those include *Map*,*Match* and *Merge*). If you first wish to review all the entities that were ingested, first see [Data Manager: Entities](pm-entities.md). 
 

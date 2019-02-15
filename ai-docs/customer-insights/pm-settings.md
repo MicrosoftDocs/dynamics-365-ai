@@ -43,7 +43,7 @@ The status tab enables you to track the progress of data ingestion as well as se
 
 - **System Processes**: This table lists all the processes that should be executed in Customer Insights as part of a full user journey (left column as shown below). It also presents the status of these processes (middle column): Whether it wasn't configured yet by the user, configured by the user but still in progress, or completed. Lastly, date of last data refresh is specified per data source (right side column)
 
-- **In addition**, you can view the details of each refresh a given datasource or process went through by clicking that datasource or process. 
+- **In addition**, you can view the details of each refresh a given data source or process went through by clicking that data source or process. 
 
 ### Schedule Tab
 

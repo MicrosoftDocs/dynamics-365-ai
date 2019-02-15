@@ -26,7 +26,7 @@ In this section you will learn how to utilize the **Power BI Connector** for unl
 
 The Customer Insights Dashboard enables you to utilize the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer's details such as roles and locations, to communication details such as email addresses and phone numbers, to unique KPIs such as Customer Lifetime Spend (LTS) or Engagement Score, many insights are at your fingertips to explore. 
 
-In order to utilize the Customer Insights dashboard make sure that you have created at least one datasource within the **Get Data** page and ingested at least one dataset (entity) into it. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
+In order to utilize the Customer Insights dashboard make sure that you have created at least one data source within the **Get Data** page and ingested at least one dataset (entity) into it. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then complete the following steps.
 
 ### Step One: Downloading MEZ File
 

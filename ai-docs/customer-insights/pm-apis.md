@@ -75,7 +75,7 @@ See the **Conflation** table in the [Customer Insights Swagger webpage](https://
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation   </td>
-<td><ol><li>  Request body will have a list of entity names, per datasource. These must actually exist as ingested entities for the datasource.</li><br/><li> Each entity named in request body must already have a primary key defined.</li></ol>     </td>
+<td><ol><li>  Request body will have a list of entity names, per data source. These must actually exist as ingested entities for the data source.</li><br/><li> Each entity named in request body must already have a primary key defined.</li></ol>     </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation/{entityName}  </td>
@@ -87,7 +87,7 @@ See the **Conflation** table in the [Customer Insights Swagger webpage](https://
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflationPlan  </td>
-<td> <ol><li> Any entity that appears in the plan must have been ingested in the referenced datasource. </li> <br/><li> Any attribute that appears in the plan must actually exist as an attribute as the referenced entity.</li><br/><li> Any entity that appears in the plan must have a primary key defined.</li><br/><li> All entities in the ConflationOrder must have corresponding EntityConflationInformation</li><br/><li> At least 1 rule and criteria must be defined</li><br/><li> No copy criteria may be included in the plan</li><br/><li> All entities in the plan must appear in the entity conflation order</li><br/><li> Entities cannot appear in the plan out of the order defined in ConflationOrder</li><br/><li> All matched attributes must have the same type </li>  </ol>    </td>
+<td> <ol><li> Any entity that appears in the plan must have been ingested in the referenced data source. </li> <br/><li> Any attribute that appears in the plan must actually exist as an attribute as the referenced entity.</li><br/><li> Any entity that appears in the plan must have a primary key defined.</li><br/><li> All entities in the ConflationOrder must have corresponding EntityConflationInformation</li><br/><li> At least 1 rule and criteria must be defined</li><br/><li> No copy criteria may be included in the plan</li><br/><li> All entities in the plan must appear in the entity conflation order</li><br/><li> Entities cannot appear in the plan out of the order defined in ConflationOrder</li><br/><li> All matched attributes must have the same type </li>  </ol>    </td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflictResolutionRules  </td>
@@ -120,7 +120,7 @@ See the **EntityMetadata** table in the [Customer Insights Swagger webpage](http
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/entityInfo </td>
-<td><ol><li> Request body will have a list of entity names. These must all have been ingested into the given datasource.</li><br/><li> Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li><br/><li> The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li><br/><li> If EntityType  = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li><br/><li> If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li> </ol></td>
+<td><ol><li> Request body will have a list of entity names. These must all have been ingested into the given data source.</li><br/><li> Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity.</li><br/><li> The ONLY allowed values for “EntityType” are “Activity” and “Unspecified”</li><br/><li> If EntityType  = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile</li><br/><li> If the TimestampFieldName is provided for an entity, this must be the name of one of the attributes of that entity. That attribute must have type DateTime or long.</li> </ol></td>
 </tr>
 <tr>
 <td>PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/{entityName}/entityInfo</td>
