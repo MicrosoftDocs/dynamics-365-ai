@@ -1,8 +1,8 @@
 ---
-title: "Export Segment | MicrosoftDocs"
+title: "Act on your data | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/20/2019
+ms.date: 02/21/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -17,11 +17,11 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Export Segment
+# Act on your data
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Exporting a segment
+## Export a segment
 
 This can be done both to a CSV file and to a Customer Engagement location.
 
@@ -42,7 +42,7 @@ This can be done both to a CSV file and to a Customer Engagement location.
    > ![](media/segment-menu-export-top.png "Export segment")
     
 
-## Adding an export segment destination
+## Add an export segment destination
 
 1. Within the **Segment Export** page, select **Add Destination**.
 
@@ -69,16 +69,14 @@ This can be done both to a CSV file and to a Customer Engagement location.
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination3.png "Segmentation destination")
 
-## Viewing segments you have exported
+## View segments you have exported
 
 That can be done also in the **Export Segment** page. Below the **Destinations** table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported.
     
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-export-segments.png "Segmentation export segments")
 
-
-## Deleting a destination
+## Delete a destination
 
 That can be done via **Delete** in the **Export Segment** page.
 
-   // image 6
