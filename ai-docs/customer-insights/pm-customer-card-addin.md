@@ -20,9 +20,9 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Customer Card add-in
+# Customer Card add-in
 
-### Requirements
+## Requirements
 
 - Dynamics 365 for Customer Engagement v9.0+ 
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub 
@@ -31,7 +31,7 @@ manager: "kvivek"
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-page.png "Permissions page")
 
-### Installation into Dynamics 365 for Customer Engagement
+## Installation into Dynamics 365 for Customer Engagement
 
 1. As an admin, go to the **Settings** section in Dynamics 365, and select **Solutions**. 
 
@@ -100,7 +100,7 @@ manager: "kvivek"
     > [!div class="mx-imgBorder"] 
     > ![](media/contact-form-designer.png "Contact form")
 
-### Demographic control
+## Demographic control
 
 1. To add the demographic control, in the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
 
@@ -147,7 +147,7 @@ manager: "kvivek"
    > [!div class="mx-imgBorder"] 
    > ![](media/add-new-field.png "Add new field")
 
-### Timeline control
+## Timeline control
 
 1. In the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
 
