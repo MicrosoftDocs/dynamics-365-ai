@@ -36,7 +36,7 @@ This can be done both to a CSV file and to a Customer Engagement location.
       
        To add a destination, use the **Export Screen** as explained below (this screen is accessible via the **Export Segment** tab on the left side menu).
       
-2. The csv. option is also available within the specific segment's page by clicking **Export** at the top-right corner of the page:
+2. The csv. option is also available within the specific segment's page by clicking **Export** at the top-right corner of the page.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segment-menu-export-top.png "Export segment")
