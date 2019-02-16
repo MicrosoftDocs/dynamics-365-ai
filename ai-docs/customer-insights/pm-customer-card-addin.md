@@ -17,10 +17,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
+# Customer Card add-in
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-# Customer Card add-in
 
 ## Requirements
 
