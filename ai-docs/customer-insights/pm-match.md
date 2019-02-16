@@ -1,8 +1,8 @@
 ---
-title: "Match| MicrosoftDocs"
-description: Text to go here
+title: "Match | MicrosoftDocs"
+description: 
 ms.custom: ""
-ms.date: 11/05/2018
+ms.date: 02/20/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -16,40 +16,43 @@ caps.latest.revision: 31
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
-robots: noindex,nofollow
 ---
 
 # Match
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once the *Map phase* is completed, you're ready to match your entities. Select the **Match** tile in the **Configure Data** page to get to the **Match** page:
+Once the *Map* phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configure Data** page to get to the **Match** page.
 
 // Replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-tile.png "Match tile")
 
-- Note that the Match phase requires at least two Mapped entities. If you have not mapped at least two entities, you can expect to receive a message which requires you to go back to the Map screen and Map at least two entities.
+- Note that the *Match* phase requires at least two mapped entities. If you have not mapped at least two entities, you can expect to receive a message which requires you to go back to the **Map** page and map at least two entities.
 
-- If you did map at least two entities, you can expect to reach the following screen where you should click the **Set Order** button once you are ready to start the Match phase:
+- If you did map at least two entities, you can expect to reach the following page where you should select **Set Order** once you are ready to start the *Match* phase.
 
 // missing 1
 
 ## The Match phase
-The match phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset that will be utilized later to unlock unique insights about your customers.
 
-If it's the first time you are going through the match process, you should complete all the mandatory steps in this section:
+The *Match* phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset that will be utilized later to unlock unique insights about your customers.
+
+If it's the first time you are going through the match process, you should complete all these mandatory steps:
+
 1. Specifying the order by which your mapped entities will be matched
 2. Defining rules for the first match pair
 3. Running your specified matches
 
-In addition, you may want to complete the following steps as well:
+In addition, you may want to complete the following steps:
+
 4. (Optional) Reviewing and validating your matches
 5. (Optional) Making changes to your Match Order and Rules' Definitions
   
-Below, we will explore these steps in a sequential order. 
+Below, we will explore these steps in sequential order. 
 
-## Step One: Specifying the Match Order
+## Step One: Specifying the match order
+
 Each **Match** involves two entities that are unified into a single entity while maintaining unique customer's records. In the example below, the user has selected three entities: *ContactCSV: TestData* as the **primary entity**, *WebAccountCSV: TestData* as **entity 2**, and *CallRecordSmall: TestData* as **entity 3**. The diagram above these selections helps explain how the match order will be executed: 
 - **1st Match: First, the Primary entity will be matched with entity 2**
 - **2nd Match: Then, the dataset resulted from the first match will be matched with entity 3**
@@ -226,5 +229,6 @@ If you followed Step Four, then at this point you should have a better understan
     - **Changing from an *Exact* match to a *Fuzzy* match:** Doing so can lead to a higher number of matched records at the possible expense of lower accuracy. Doing the opposite might carry the opposite tradeoff - higher accuracy for a lower number of matched records.
     
 ## Next Step
+
 Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section, the third and last **Data Configuration** step. 
 
