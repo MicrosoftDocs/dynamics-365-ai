@@ -32,7 +32,7 @@ Select the **Map** tile on the **Configure Data** page to start the *Map phase*.
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
 
-## Selecting first entities
+## Select first entities
 
 Start the *Map* phase by selecting **Add entities**.
 
@@ -51,7 +51,7 @@ Then, the user selected the Contact and Survey entities. Those were found within
 > [!NOTE] 
 > You should search for and select at least two entities in order to benefit from the data configuration process.
 
-## Viewing system auto-selections
+## View system auto-selections
 
 The following page appears upon completing your entities' selections.
 
@@ -62,7 +62,7 @@ The following page appears upon completing your entities' selections.
 
 - Note that the system auto-selected for you all the attributes for which attribute-type was auto-identified. Those attributes include Names, Email Address, as well as several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
 
-## Adding and removing attributes
+## Add and remove attributes
 
 That can be done via **Edit**.
 
@@ -74,7 +74,7 @@ After selecting **Edit**, the **Attributes Panel** will open.
 
 Use either the **Search** field or scroll down the **Attributes List** to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all**. Once one attribute is selected, the same button can be used to unselect all your selections (now appear as **Clear all**).
 
-## Adding and removing entities
+## Add and remove entities
 
 Select **Select** to either add or remove entities.
 
@@ -86,7 +86,7 @@ Select the entities that you want to add to your existing entities list and dese
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
 
-## Selecting primary keys and defining attribute types
+## Select primary keys and define attribute types
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")

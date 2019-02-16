@@ -51,7 +51,7 @@ In addition, you may want to complete the following steps:
   
 Below, we will explore these steps in sequential order. 
 
-## Step One: Specifying the match order
+## Step One: Specify the match order
 
 Each **Match** involves two entities that are unified into a single entity while maintaining unique customer's records. In the example below, the user has selected three entities: *ContactCSV: TestData* as the **primary entity**, *WebAccountCSV: TestData* as **entity 2**, and *CallRecordSmall: TestData* as **entity 3**. The diagram above these selections helps explain how the match order will be executed: 
 
@@ -77,7 +77,7 @@ You can always remove entities from your match order. Select **Save** to save yo
 
 <!-- // missing 2 -->
 
-## Step Two: Defining rules for your first match pair
+## Step Two: Define rules for your first match pair
 
 Once completing Step One, you can expect to reach the **Match** page that is shown below and which includes your defined matches (in the example below the user specified two matches). Note that the tiles at the top of the screen will be empty until we will run our match order in Step Three. These will be used for validation as explained in Step Four.
 
@@ -114,7 +114,7 @@ Besides the rule's name, this panel enables you to specify all the conditions fo
 
    - Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium** level serves as a middle-ground option. 
 
-### Adding multiple conditions
+### Add multiple conditions
 
 If you wish to match your entities only if multiple conditions are met, you can do so by adding more conditions which will be linked through an **AND** operator. Simply select **Add Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
@@ -123,7 +123,7 @@ If you wish to match your entities only if multiple conditions are met, you can 
 
 For the purpose of this section we will limit our match rule to only one condition.
 
-### Adding multiple rules
+### Add multiple rules
 
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules using **Add Rules**. Note that when creating rules order matters. The matching algorithm will try to match on the basis of your first rule (represented by the first row in the table shown in red below) and continue to the second rule (represented by the second row) only if no matches were identified under the first rule.
 
@@ -132,7 +132,7 @@ If each condition applies to a single pair of attributes, then rules represent s
 
 For the purpose of this section we will stay with only one rule.
 
-## Step Three: Running your specified match order
+## Step Three: Run your specified match order
 
 Now you are ready to run the match order that you have defined in Steps One and Two. This can be done by selecting **Save** and then **Run** as shown below. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
@@ -170,7 +170,7 @@ Note that:
 
 At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, it's recommended to go through at least a portion of Step Four in order to validate the quality of your match which can help you decide whether to continue to merge or reconfigure your match definitions.
 
-## Step Four (optional): Reviewing and validating your match pairs
+## Step Four (optional): Review and validate your match pairs
 
 Here you will learn how to evaluate in depth your match pairs qualities and improve it. There are a few things you can do.
 
@@ -221,7 +221,7 @@ Fourth, you can experiment with different thresholds around your conditions in o
      
 This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green).
        
-## Step Five (optional): Making changes to optimize your matches
+## Step Five (optional): Make changes to optimize your matches
 
 If you followed Step Four, then at this point you should have a better understanding around the quality of your first match. At this point you can translate that understanding into a better match quality by reconfiguring some of your match parameters.
 
