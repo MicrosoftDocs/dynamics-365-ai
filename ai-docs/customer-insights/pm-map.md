@@ -32,9 +32,9 @@ Select the **Map** tile on the **Configure Data** page to start the *Map phase*.
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
 
-### Selecting first entities
+## Selecting first entities
 
-Start the Map phase by selecting **Add entities**.
+Start the *Map* phase by selecting **Add entities**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
@@ -51,7 +51,7 @@ Then, the user selected the Contact and Survey entities. Those were found within
 > [!NOTE] 
 > You should search for and select at least two entities in order to benefit from the data configuration process.
 
-### Viewing system auto-selections
+## Viewing system auto-selections
 
 The following page appears upon completing your entities' selections.
 
@@ -60,19 +60,19 @@ The following page appears upon completing your entities' selections.
 
 - On the left, you can see your ingested entities. By default, the first entity is auto-selected (contactCSV in the example above). To move to any other entity, select that entity's tile. 
 
-- Note that the system auto-selected for you all the attributes for which attribute-type was auto-identified. Those attributes include Names, Email Address, as well as several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (**Match**). 
+- Note that the system auto-selected for you all the attributes for which attribute-type was auto-identified. Those attributes include Names, Email Address, as well as several others in the example above. As shown in red, those pre-selected attributes appear in the first column while their types are specified in the third column. You should review those pre-selected attributes since they will be used to combine your entities in the next configuration phase (*Match*). 
 
-### Adding and removing attributes
+## Adding and removing attributes
 
 That can be done via **Edit**.
 
-// missing 1
+<!-- // missing 1 -->
 
 After selecting **Edit**, the **Attributes Panel** will open.
 
-// missing 2
+<!-- // missing 2 -->
 
-Use either the **Search** field or scroll down the **Attributes List** (shown in red above) to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all** (green). Once one attribute is selected, the same button can be used to unselect all your selections (now appear as **Clear all**).
+Use either the **Search** field or scroll down the **Attributes List** to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all**. Once one attribute is selected, the same button can be used to unselect all your selections (now appear as **Clear all**).
 
 ## Adding and removing entities
 
@@ -86,7 +86,7 @@ Select the entities that you want to add to your existing entities list and dese
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
 
-### Selecting primary keys and defining attribute types
+## Selecting primary keys and defining attribute types
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")
@@ -94,7 +94,7 @@ Select the entities that you want to add to your existing entities list and dese
 There are two mandatory selections you must complete prior to the completion of the Map phase.
 
 1. **Primary key:** (shown in red above) It's mandatory to select one attribute as a primary key for each of your chosen entities. Note, for an attribute to be a valid primary key, it should not include either duplicate values, missing values, or Nulls. 
-2. **Attribute Type:** Categories under which your attributes fall such as *Email* or *Name*. Adding a custom entity type is also possible. Select the type field for that attribute and type your custom attribute-type name. You can also change the attribute-types that were auto-identified by the system.  
+2. **Attribute Type:** Categories under which your attributes fall such as **Email** or **Name**. Adding a custom entity type is also possible. Select the type field for that attribute and type your custom attribute-type name. You can also change the attribute-types that were auto-identified by the system.  
 
 ## Next Step
 
