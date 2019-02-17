@@ -1,9 +1,8 @@
-
 ---
-title: "Measures| MicrosoftDocs"
-description: Text to go here
+title: "Measures | MicrosoftDocs"
+description: 
 ms.custom: ""
-ms.date: 11/05/2018
+ms.date: 02/21/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -17,10 +16,8 @@ caps.latest.revision: 31
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
-robots: noindex,nofollow
 ---
-
-## Measures
+# Measures
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

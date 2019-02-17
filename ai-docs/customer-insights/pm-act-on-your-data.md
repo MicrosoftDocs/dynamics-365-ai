@@ -23,20 +23,20 @@ manager: "kvivek"
 
 ## Export a segment
 
-This can be done both to a CSV file and to a Customer Engagement location.
+You can export to a CSV file and to a Customer Engagement location.
 
 1. Both options are available within the **Segments** page.
       
-   - First click the **three dots icon** within a specific segment's tile (shown in red below)
-   - Then click the **export** option from the actions menu (shown in blue)
-   - Lastly, choose between a csv. format and a specific Dynamics 365 for Sales destination (shown in green below). Note: At this point only Dynamics 365 for Sales destinations are supported. 
+   - First, select (...) within a specific segment's tile (shown in red below).
+   - Then, select the **Export** option from the actions menu (shown in blue).
+   - Lastly, choose between a CSV format and a specific Dynamics 365 for Sales destination (shown in green below). Note: Currently, only Dynamics 365 for Sales destinations are supported. 
       
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-csv.png "Segmentation export")
       
-       To add a destination, use the **Export Screen** as explained below (this screen is accessible via the **Export Segment** tab on the left side menu).
+   To add a destination, use the **Export Screen** as explained below. This screen is accessible via the **Export Segment** tab on the left-side menu.
       
-2. The csv. option is also available within the specific segment's page by clicking **Export** at the top-right corner of the page.
+2. The CSV option is also available in the specific segment's page by selecting **Export** at the top-right corner of the page.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segment-menu-export-top.png "Export segment")
@@ -49,7 +49,7 @@ This can be done both to a CSV file and to a Customer Engagement location.
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-add-destination.png "Segmentation add destination")
 
-2. Give your destination a recognizable name, define it's URL, and select a Dynamics 365 for Sales account.
+2. Give your destination a recognizable name, define its URL, and then select a Dynamics 365 for Sales account.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination.png "Segmentation export destination")
@@ -59,7 +59,7 @@ This can be done both to a CSV file and to a Customer Engagement location.
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination2.png "Segmentation add destination")
     
-   Your saved destination will also light up in the **Segments** page under the export option we explored earlier.
+   Your saved destination will also appear in the **Segments** page under the export option we explored earlier.
     
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-in-process.png "Segmentation export in process")
