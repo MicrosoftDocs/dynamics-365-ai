@@ -173,7 +173,7 @@ These are the segment-level actions:
 - Editing the segment.
 - Viewing segment's members
 - Exporting the segment to either a CSV file, or to a Customer Engagement location.
-- Turning the segment to inactive/active (depends on it's baseline state).
+- Turning the segment to inactive/active (depends on its baseline state).
 - Deleting the segment .
 - Pin the segment, which will move it to the top of the screen for better accessability. The pinned segment will show up under **Pinned Segments** as shown below. To unpin a segment, select **Unpin** (shown in red).
 

@@ -19,7 +19,7 @@ manager: "kvivek"
 robots: noindex,nofollow
 ---
 # APIs
-*Note: this is a technical documentation. While it's purpose is to serve all users who wish to leverage the Customer Insights APIs, it might be most valuable for technical users.
+*Note: this is a technical documentation. While its purpose is to serve all users who wish to leverage the Customer Insights APIs, it might be most valuable for technical users.
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

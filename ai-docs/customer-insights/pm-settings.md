@@ -1,5 +1,5 @@
 ---
-title: "System| MicrosoftDocs"
+title: "Settings | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 02/21/2019
@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# System
+# Settings
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
