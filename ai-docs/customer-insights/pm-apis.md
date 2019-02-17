@@ -1,8 +1,8 @@
 ---
 title: "APIs | MicrosoftDocs"
-description: Text to go here
+description: 
 ms.custom: ""
-ms.date: 11/05/2018
+ms.date: 02/21/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -16,14 +16,13 @@ caps.latest.revision: 31
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
-robots: noindex,nofollow
 ---
+
 # APIs
-*Note: this is a technical documentation. While its purpose is to serve all users who wish to leverage the Customer Insights APIs, it might be most valuable for technical users.
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-**When it comes to Customer Insights**, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+When it comes to Customer Insights, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/api-swagger-install.png "Customer Insights Swagger webpage")
@@ -34,6 +33,7 @@ The goal of this section is not to cover all the Customer Insights APIs but rath
 - Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs
 
 ## How to use the Customer Insights Swagger webpage
+
 If you are not familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
 
 ## Functionalities served with the Customer Insights Open Data Protocol APIs
@@ -42,7 +42,6 @@ If you are not familiar with Swagger, see the following step-by-step tutorial: [
 > ![](media/api-entity-data.png "Open Data Protocol APIs")
 
 - *Put* API: /api/instances/{instanceId}/data/{relativePath}
-
 
 |Functionality  |Guidance  |Limitations  |
 |---------|---------|---------|
@@ -135,7 +134,6 @@ See the **EntityMetadata** table in the [Customer Insights Swagger webpage](http
 <td>Same limitation as above EXCEPT #2 is not a limitation here, since the name was already validated during creation (whereas this is an update)  </td>
 </tr>
 </table>
-
 
 ## Functionalities served with the Customer Insights Segmentation APIs
 
