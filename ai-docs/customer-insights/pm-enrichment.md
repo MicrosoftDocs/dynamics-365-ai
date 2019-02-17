@@ -67,7 +67,7 @@ To add a brand or interest, type the keywords field (highlighted in blue above) 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
 
-2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. In *Customers* we refer only to the customers you chose in the *Demographics* section. In the example below, **Home&Garden** was chosen as an industry.
+2. **Industry's top brands and categories**: Get the brands and interests which all of your customers, taken together, have the highest affinities with. In *Customers* we refer only to the customers you chose in the **Demographics** section. In the example below, **Home&Garden** was chosen as an industry.
   
 <!-- // enrich 6 - still missing
 

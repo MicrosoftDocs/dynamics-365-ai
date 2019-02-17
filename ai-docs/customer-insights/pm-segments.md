@@ -53,7 +53,7 @@ The example data graph above reflects system and custom relationships created du
 
 The two sections below will cover segment creation followed by segment exploration.
 
-## Create segments from the segment page
+## Create segments from the Segment page
 
 In order to start creating a segment, you can either select **Add Segment** at the top-right corner of the screen (shown in red below), or select **Get Started** (shown in blue below).
 

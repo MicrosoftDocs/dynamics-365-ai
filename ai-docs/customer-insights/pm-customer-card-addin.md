@@ -32,7 +32,7 @@ manager: "kvivek"
 
 ## Installation into Dynamics 365 for Customer Engagement
 
-1. As an admin, go to the **Settings** section in Dynamics 365, and select **Solutions**. 
+1. As an admin, go to the **Settings** section in Customer Engagement, and select **Solutions**. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/settings-solutions.png "Settings solutions")

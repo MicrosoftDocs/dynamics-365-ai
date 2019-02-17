@@ -27,7 +27,7 @@ The end result of the data configuration process is the creation of the Customer
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
-To further understand how to utilize those capabilities, visit the *Profiles* section. In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching, filtering, and sorting profiles. This is done on the **Search, sort & filter** page.
+To further understand how to utilize those capabilities, visit the **Profiles** section. In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching, filtering, and sorting profiles. This is done on the **Search, sort & filter** page.
 
 ## Add attributes
 

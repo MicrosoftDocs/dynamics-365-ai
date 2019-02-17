@@ -110,7 +110,7 @@ Besides the rule's name, this panel enables you to specify all the conditions fo
    - Selecting **Exact** on the left-side of the scale to have only matching records matched. 
 
    [IMPORTANT!]
-   > Choosing **Exact Match** on the basis of the same AttributeId type (for example AccountId, ContactId) will not lead to optimal result. While you may want to link the two entities through a relationship (visit the *Relationships* section in order to review), the match process should be executed on the basis of other attributes. 
+   > Choosing **Exact Match** on the basis of the same AttributeId type (for example AccountId, ContactId) will not lead to optimal result. While you may want to link the two entities through a relationship (visit the **Relationships** section in order to review), the match process should be executed on the basis of other attributes. 
 
    - Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium** level serves as a middle-ground option. 
 
@@ -240,5 +240,5 @@ If you followed Step Four, then at this point you should have a better understan
     
 ## Next Step
 
-Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the *Merge* section.
+Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section.
 

@@ -56,7 +56,7 @@ There are two goals for this page.
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-dont-merge.png "Merge profile attributes don't merge")
 
-   That will move the attribute/s to the **excluded from profile** section:
+   That will move the attribute/s to the **Excluded from profile** section:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-exclude-from-profile.png "Merge excluded from profile")
@@ -107,5 +107,5 @@ Once the message below disappears, merge has completed and resolved contradictio
 Congratulations! You have completed both the *Data Manager* and *Configure Data* phases. Now you are ready to:
 
 - Either complete more data configurations (*Activities*, *Relationship*, and *Enrichment*), that while being optional, they can help you unlock richer insights on your customers. 
-- Or continue to insight exploration via the *Segments* and *Connectors* sections. Note that *Segments* will equip you with aggregate-level insights, while *Connectors* will enable you to unlock insights on specific customers.
+- Or continue to insight exploration via the **Segments** and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights, while **Connectors** will enable you to unlock insights on specific customers.
  

@@ -23,7 +23,7 @@ manager: "kvivek"
 
 ## What are relationships useful for?
 
-In Customer Insights you can define relationships between entities. As we will see within the *Segments* section, these relationships are useful for segmentation. In the future they will be used for additional analytical purposes within Customer Insights.
+In Customer Insights you can define relationships between entities. As we will see within the **Segments** section, these relationships are useful for segmentation. In the future they will be used for additional analytical purposes within Customer Insights.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-relationships-tile.png "Relationships tile")
@@ -91,6 +91,6 @@ This can be done by:
 
 ## Next Step
 
-System and custom relationships are used in the **Segment Editor** page to navigate from the entity on one end of the relationship to the entity on the other end of the relationship as you define conditions to filter customers. Visit the *Segments* section to learn more. Alternatively, you might want to define activities in your data. Visit the *Activites* section.
+System and custom relationships are used in the **Segment Editor** page to navigate from the entity on one end of the relationship to the entity on the other end of the relationship as you define conditions to filter customers. Visit the **Segments** section to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities** section.
 
 
