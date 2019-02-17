@@ -4,6 +4,8 @@
     href: overview.md
   - name: Home page
     href: pm-homepage.md
+  - name: Profiles
+    href: pm-profiles.md
   - name: Data Manager
     href: pm-data-manager.md
     items:
