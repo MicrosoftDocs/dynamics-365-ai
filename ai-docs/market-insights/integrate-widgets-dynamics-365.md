@@ -2,13 +2,12 @@
 title: "Market Insights integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: "integration, connection, embedded"
-ms.date: 10/31/2018
+ms.date: 02/14/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 95da0900-9277-4704-baab-23829925159c
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
@@ -29,6 +28,9 @@ With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you brin
 
 The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards provide convenient access to social data right where you work. At any time, you can click on any widget to be taken into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to [drill down and explore the data further](analyze-social-data-using-widgets.md).
 
+> [!NOTE]
+> Parts of the user interface for integration scenarios might reference Microsoft Social Engagement. Nevertheless, you can configure the connections with your Market Insights solution. 
+
 <a name="add-social-engagement-visuals-to-dynamics-365"></a>
 
 ## Connect Dynamics 365 (online) to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] for Social Insights
@@ -43,11 +45,11 @@ To configure the connection, you need to have a subscription to [!INCLUDE[Market
 
 ### Connect Dynamics 365 (online) to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
+1. In Dynamics 365, select **Settings** > **Administration** > **Social Engagement Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. On the **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration** page, in the **Select the [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] solution to connect to** drop-down box, choose the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
+3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** drop-down box, choose the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
 
    ![Microsoft Dynamics 365 Market Insights configuration view](media/social-insights-configuration-online.png "Microsoft Dynamics 365 Market Insights Configuration view")  
 
@@ -61,11 +63,11 @@ To configure the connection, you need to have a subscription to [!INCLUDE[Market
 
 ### Connect Dynamics 365 on-premises to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
+1. In Dynamics 365, select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. Follow the directions on the **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration** page.
+3. Follow the directions on the **Microsoft Social Engagement Configuration** page.
 
    ![Microsoft Dynamics 365 Market Insights configuration view](media/social-insights-configuration-on-premises.png "Microsoft Dynamics 365 Market Insights Configuration view")
   
@@ -183,9 +185,9 @@ To have the full set of options for creating a search topic available, it’s a 
 
 This action deletes all existing data in Dynamics 365 for the search topics, search topic categories and visuals for Social Insights.
 
-1. Select **Settings** > **Administration** > **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration**.
+1. Select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
 
-2. On the **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
+2. On the **Microsoft Social Engagement Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
 
    ![confirm screen to reset social insights](media/social-insights-confirm-reset.jpg "Confirm screen to reset Social Insights")
 

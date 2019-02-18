@@ -2,13 +2,12 @@
 title: "Market Insights scenarios for salespeople | Microsoft Docs"
 description: "Review sales scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 keywords: sales, sceanrio, use case
-ms.date: 10/31/2018
+ms.date: 02/15/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: b55c97de-1235-42b5-90b2-397f2182c8ed
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
@@ -33,18 +32,6 @@ This overview suggests ways you and your team can use [!INCLUDE[Market Insights]
 - [Search topics are configured](set-up-searches.md) and data acquisition is up and running.
 
 - You have the required [user roles and permissions](user-roles.md) assigned in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
-
-## Social selling: grow your network and influence
-
-Learn how to install, configure, and personalize the Social Selling Assistant to increase your presence on social media.
-
-1. [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md).
-
-2. [Add your social profiles](manage-social-profiles.md) to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
-
-3. [Personalize the Social Selling Assistant](personalize-social-selling-assistant.md).
-
-4. [Grow your network](work-with-social-selling-assistant.md) by using the Social Selling Assistant.
 
 ## Sales efficiency: create leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from social posts
 

@@ -2,7 +2,7 @@
 title: "Get the Market Insights content pack | Microsoft Docs"	
 description: "Download the use the Market Insights content pack for Power BI."	
 keywords: "Power BI, content pack, engagement details"	
-ms.date: 01/30/2019	
+ms.date: 02/15/2019	
 ms.service: dynamics-365-ai	
 ms.topic: article	
 ms.assetid: 9e3339e2-2531-4cab-83c7-bbde3cc0717a	
@@ -149,7 +149,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
 ### Action modes  	
  The Action Modes table contains information about the origin of actions.  	
   	
-- **Manual**: Actions that were taken manually, in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or Social Selling Assistant user interface.  	
+- **Manual**: Actions that were taken manually, in the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] user interface.  	
   	
 - **Auto**: Actions that were taken by the system for example by processing automation rules, or by un-assigning posts when a user is deleted in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  	
   	
