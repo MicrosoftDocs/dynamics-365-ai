@@ -102,13 +102,18 @@ In Customer Insights, **a group is a set of customers.** First we will explian h
 
 Note that one of the segmentation strengths of Customer Insights is the rich variety of operators it supports. Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations.
 
-4. Adding entities that are related to that entity until getting to the Customer Profile entity. If not already done, we can define those relationships using the **Relationships** page (see the Relationships section fro more information). For these additional entities we should choose the *All Records* attribute.
+4. Adding entities that are related to that entity until getting to the Customer Profile entity. That can be done using the **ADD** operator. If not already done, we can define the required relationships between our entities using the **Relationships** page (see the Relationships section for more information). For these additional entities we should choose the *All Records* attribute.
 
-### Group Creation Example
-For example, let us explore the case in which we wish to segment our customers by a clickstream activity session ID that is not equal to 1 (since this session was done on an older, outdated website version which is irrelevant for our current targeting efforts).   
+### Example - Group Creation
+Let us explore a case in which we wish to segment our customers by a specific clickstream activity attribute. In our example it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version which is irrelevant for our current targeting efforts).   
 
 **Here the series of steps we should follow:**
 1. ClickstreamData: WebsiteDataBase
+
+**Note**: At this point it is recommended to save your first group's definitions as shown below.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segmentation-save-group-definition.png "Save group definition")
 
 ### Step Three (optional): Add more conditions to your group 
 
@@ -124,10 +129,7 @@ The following two logical operators can be used for that purpose:
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-either-condition.png "Either conditions met")
 
-**Note**: At this point it is recommended to save your first group's definitions as shown below.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/segmentation-save-group-definition.png "Save group definition")
+**Note**: At this point it's possible to nest an OR operator under an AND operator but not vice versa.
 
 ### Step Four (optional): Combine multiple groups via set operators
 
@@ -141,7 +143,7 @@ Then three set operators will show up: **Union**, **Intersect**, and **Exclude**
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-union.png "Customer group add union")
   
-Selecting each of these will enable you to define a new group. However, when selecting **Save**, each of these Set Operators will lead to a different result.
+Selecting each of these *Set Operators* will enable you to define a new group. At the same time, upon saving each of these will lead to a different result:
 
 - **Union** will unite the new group you have created in Step Four, with the group you have created in Steps Two and Three. Under this option, data that is common to both groups will be maintained, as well as data that is not common to both groups.
 
@@ -151,6 +153,8 @@ Selecting each of these will enable you to define a new group. However, when sel
    
 ## Explore segments from the Segments page
 
+// missing 9
+
 Here you can view all your saved segments and perform certain actions.
 
 - Dynamic Segments appear to the left and Static Segments appear to the right.
@@ -159,13 +163,11 @@ Here you can view all your saved segments and perform certain actions.
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-static-segment.png "Static segment")
 
-You can also perform certain actions with each segment (highlighted in red below). These actions can be accessed via (...) as highlighted below.
+You can also perform certain actions with each segment. First click the following button on the segment's tile:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/segmentation-static-segment.png "Static segments")
+// missing 10
 
-These are the segment-level actions:
-
+Then choose one of the following options from the drop down menu:
 - Editing the segment.
 - Viewing segment's members
 - Exporting the segment to either a CSV file, or to a Customer Engagement location.
@@ -190,11 +192,7 @@ The lower part includes a table with all your segment's members.
 Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The example that is shown above (highlighted in blue) is typical for a **Customer** entity but it is only one of many possible representations.
 
 Also note that this table only shows a preview of your records. It presents the first 100 records of your segment so you can quickly evaluate your segment and go back to the segment editor screen to change its definitions. As we will see in the next section, exporting your segment will produce a file that includes all your records.
-
-<!-- 
-## Act upon your Data
--->
-    
+ 
 ## Next Step
 
-While segmentation provides you with aggregate-level insights, you can also explore the Customer Insights Dashboard to unlock variety of customer-level insights. If you wish to produce those, visit the **Connectors** section.
+Go to **Segment Export** and learn how you can start acting on the insights you have just unlocked via the Segments capability. You can also explore the **Customer Card** and **Connectors** sections where you will learn to extract insights on the individual customer level
