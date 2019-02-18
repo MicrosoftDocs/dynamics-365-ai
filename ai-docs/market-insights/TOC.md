@@ -63,11 +63,6 @@
 #### [Configure Record Creation and Update Rule](configure-automatic-record-creation.md)
 #### [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)
 ### [Connect Market Insights to other domains](connect-other-domains.md)
-## [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)
-### [Install Dynamics 365 - Social Selling Assistant](install-social-selling-assistant.md)
-### [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md)
-### [Personalize the Social Selling Assistant](personalize-social-selling-assistant.md)
-### [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)
 ## Additional information
 ### [Data retention in Market Insights](data-retention.md)
 ### [Market Insights FAQ](faq.md)
