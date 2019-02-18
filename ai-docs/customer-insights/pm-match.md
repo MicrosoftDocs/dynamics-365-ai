@@ -170,7 +170,7 @@ Note that:
 
 At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, it's recommended to go through at least a portion of Step Four in order to validate the quality of your match which can help you decide whether to continue to merge or reconfigure your match definitions.
 
-## Step Four (optional): Review and validate your match pairs
+## Step Four (optional): Review and validate your matches
 
 Here you will learn how to evaluate in depth your match pairs qualities and improve it. There are a few things you can do.
 
@@ -219,7 +219,7 @@ Fourth, you can experiment with different thresholds around your conditions in o
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-fuzzy-criteria.png "Match fuzzy preview")
      
-This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green).
+This page gives you a rich understanding around the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown below in red), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green). 
        
 ## Step Five (optional): Make changes to optimize your matches
 
@@ -230,13 +230,17 @@ If you followed Step Four, then at this point you should have a better understan
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
-- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by selecting **Edit** as shown earlier within the match row and substituting the first rule's attributes with the second rule's attributes.
+- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by substituting the two rules' attributes. At this point it is needed to delete (button is shown below in red) and re-create (button ia shown below in blue) the two rules with the new attributes:
 
-- **Editing your rules**: This includes several important changes that you should try as you optimize the match quality.
+// missing 1
+
+- **Editing your rules**: This includes several important changes that you should try as you optimize the match quality. All the following options are accessible via the rule's **Edit** button:
+
+// missing 2
+
     - **Changing attributes for a condition**: This can be done by reselecting new attributes within the specific condition row.
     - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step Four, we covered how to get insight into the effects of the three threshold levels on your match quality.
-    - **Changing normalization method for a condition**: This can be done by reselecting the normalization methods.
-    - **Changing from an *Exact* match to a *Fuzzy* match:** Doing so can lead to a higher number of matched records at the possible expense of lower accuracy. Doing the opposite might carry the opposite tradeoff - higher accuracy for a lower number of matched records.
+    - **Changing normalization method for a condition**: This can be done by reselecting the normalization method.
     
 ## Next Step
 
