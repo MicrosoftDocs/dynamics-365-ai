@@ -23,14 +23,14 @@ manager: "kvivek"
 
 ## Introduction to Segmentation
 
-Segments provide the ability to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns, sales activities, or customer support actions to achieve desired business goals. Segments allow defining complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records which you can export and take actions upon.
+The *Segments* capability enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns, sales activities, or customer support actions to achieve desired business goals. You can define complex filters around the *Customer Profile* entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records which you can export and take actions upon.
 
 There are two types of segments:
 
-- **Static**: A segment that is processed only once - either upon the creation or update of any of its filter conditions. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: customers who attended an expo event. 
-- **Dynamic**: A segment that is processed according to a recurring schedule. These segments are especially useful when customers attributes change over time. Example use case: customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
+- **Static**: A segment that is processed only once - either upon the creation or update of any of its filters. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
+- **Dynamic**: A segment that is processed according to a recurring schedule. These segments are especially useful when customers' attributes change over time. Example use case: Customers who have bought products worth more than $500 in the last 3 months. The current dynamics segment refreshing schedule is every 12 hours.
 
-The example below illustrates the depth of the Customer Insights segmentation capability. Within this complex segmentation scenario, we aim to define a segment for customers who have placed order of more than $500 in last 90 days and had an escalated case in last 30 days so they can be followed up with a satisfaction survey. Later, we will learn how to produce such segments. 
+The example below illustrates the depth of the Customer Insights segmentation capability. Within this complex segmentation scenario, we aim to define a segment for customers who have placed order of more than $500 in last 90 days **and** had an escalated case in last 30 days so they can be followed up with a satisfaction survey. Later, we will learn how to produce such segments. 
 
 <!-- 
 {final1:Example of complex segment with multiple groups}
@@ -41,8 +41,8 @@ The example below illustrates the depth of the Customer Insights segmentation ca
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-group1-2.png "Mulitple groups")
 
-- Group 1 uses Order as the starting entity to define filter criteria to find customers who placed an order for more $500 in the last 90 days.
-- Group 2 uses Case as the starting entity to define filter criteria to find customers who have an escalated case in last 30 days.
+- Group 1 uses *Order* as the starting entity in order to find customers who placed an order for more $500 in the last 90 days.
+- Group 2 uses *Case* as the starting entity in order to find customers who have an escalated case in the last 30 days.
 
 <!--
 > [!div class="mx-imgBorder"] 
