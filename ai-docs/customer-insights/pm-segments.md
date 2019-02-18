@@ -53,7 +53,7 @@ The example data graph above reflects system and custom relationships created du
 
 The two sections below will cover segment creation followed by segment exploration.
 
-## Create segments from the Segment page
+## Creating segments from the Segment page
 
 In order to start creating a segment, you can either select **Add Segment** at the top-right corner of the screen (shown in red below), or select **Get Started** (shown in blue below).
 
@@ -64,42 +64,32 @@ In order to start creating a segment, you can either select **Add Segment** at t
 
 If you selected **Add Segment** you will also need to select whether you want to create a static segment or a dynamic segment at this point.
 
-**Segment creation process**
-
-The segment creation process is done in the **Segment Editor** page.
+Then, the rest of the segment creation process is done in the **Segment Editor** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment.png "New dynamic segment")
 
-### Step One: Define the segment's properties
+### Step One: Defining the segment's properties
 
-- We will give our segment informative name and description that will help us identifying it in the future when we will have multiple segments. 
-- Moreover, solely for a dynamic segment, we can also choose to **activate** it at this point through the slider as shown in blue below. **An active (dynamic) segment will automatically incorporate changes** that are made to your data with time while **inactive segment will not incorporate changes** that are made to your data. 
+- We will give our segment informative name and description that will help us identify it in the future when we will have multiple segments. 
+- Moreover, solely for a dynamic segment, we can also choose to **activate** it at this point through the slider as shown in blue below. **An active (dynamic) segment will automatically incorporate changes** that are made to your data with time while **inactive segment will not incorporate any changes** that are made to your data. 
 
+// update 1
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment-hilites.png "Change segment type")
    
+### Step Two: Creating a first group 
 
-### Step Two: Create the first group 
+In Customer Insights, **a group is a set of customers.** First we will explian how a group can be defined. If you prefer to view an example, we will provide one right after this explaination.
 
-Use the *Group 1 Define Filer* field that is shown below to select an entity.
+**Each group's definition involves:**
+1. Choosing the entity that includes the specific attribute you wish to segment by. For example, choosing an *Orders* entity since it includes a *Order Value* field by which we want to segment. In order to choose your entity of interest, click the field shown below:
 
-**Note**: In Customer Insights, a group is a set of customers. Each group can be defined by:
+// missing 1
 
-1. Choosing the entity that includes the specific field you wish to segment by. For example, choosing the Orders entity since it include the **Order Value** field by which we want to segment.
-2. Selecting the **Add** operator.
-3. Adding entities that are related to that entity until getting to the Customer Profile entity. If not already done, we can define those relationships using the **Relationships** page. 
+2. Choosing the attribute by which you wish to segment. Our attribute can have one of four value types: A numerical, a string, a date, or a Boolean. In the example below, an attribute with a numerical value is used as a filter.
+3. Choosing an *Operator* and a *Value* for the attribute we chose in (2). In the example below an operator *Equal* and value *2* were chosen.
 
-For example, if we have the three datasets shown above and we wish to segment by a specific field in the Account entity:
-
-- First, choose the Account entity.
-- Then, select the **Add** operator.
-- Finally, select the Customer Profile entity since it's directly related to the Account entity through the **CustomerToAccount** relationship. 
-
-Following the selection of our entities:
-
-For the first entity, we need to choose the specific attribute by which we wish to segment. Our attribute can have one of four value types: A numerical, a string, a date, or a Boolean. In the example below, an attribute with a numerical value is used as a filter.
-     
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-numbers.png "Customer group filter")
 
@@ -112,7 +102,13 @@ For the first entity, we need to choose the specific attribute by which we wish 
 
 Note that one of the segmentation strengths of Customer Insights is the rich variety of operators it supports. Here is a table that summarizes all the operators that are currently supported for the four different value types. It also specifies which operators can be combined to produce complex segmentations.
 
-For the rest of the entities, we should choose the All Records attribute.
+4. Adding entities that are related to that entity until getting to the Customer Profile entity. If not already done, we can define those relationships using the **Relationships** page (see the Relationships section fro more information). For these additional entities we should choose the *All Records* attribute.
+
+### Group Creation Example
+For example, let us explore the case in which we wish to segment our customers by a clickstream activity session ID that is not equal to 1 (since this session was done on an older, outdated website version which is irrelevant for our current targeting efforts).   
+
+**Here the series of steps we should follow:**
+1. ClickstreamData: WebsiteDataBase
 
 ### Step Three (optional): Add more conditions to your group 
 
