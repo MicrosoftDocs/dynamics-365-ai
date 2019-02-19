@@ -70,7 +70,7 @@ This step includes all your activity definitions. We will explore those from lef
 - **Duration**: Here you should define the duration of your activity. 
 - **Unit**: Here you should choose the unit of time for the duration of your activity.
 - **Description**: This field enables you to provide a recognizable name for your activity, so you can easily identify it on the Customer Insights Dashboard timeline. 
-- **Icon**: For the same purpose of easily distinguishing your activity from the rest of your activities, here you can add an icon to your activity if it's publicly available. A URL address or unicode is required.
+- **Icon**: For the same purpose of easily distinguishing your activity from the rest of your activities, here you can add an icon to your activity if it's publicly available. A URL address or Unicode is required.
 - **Delete button**: Selecting the button that is highlighted in the image above will delete that specific activity
   
 At this point you are ready to define your next activity which can be done via **Add** as highlighted in red below. Don't forget to save your activities (shown in blue).
@@ -83,7 +83,7 @@ At this point you are ready to define your next activity which can be done via *
 Once defining your activities, you can either explore the **Timeline Control** section in order to learn how to view information on these activities for each of your customers. Viewing this information can be done on:
 
 1. A Customer Engagement app via the Customer Card add-in. Visit the **Customer Card Add-in** section to learn how to set up the customer card.
-2. The Power BI dashboard. Visit the **Connectors** section to learn how to set set up the dashboard. 
+2. The Power BI dashboard. Visit the **Connectors** section to learn how to set up the dashboard. 
 
 
 
