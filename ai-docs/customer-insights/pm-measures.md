@@ -38,8 +38,8 @@ First, you should decide whether to:
   - Or, create a new entity around your measure.
   
 Second, if decided to save the measure as a new entity, you should also decide whether to:
-  - Create the measure on the basis of fields from the Customer Profile entity - which corresponds to a **Profile Measure** option.
-  - Or, create it on the basis of another ingested entity which corresponds to a business measure.
+  - Create the measure based on fields from the Customer Profile entity - which corresponds to a **Profile Measure** option.
+  - Or, create it based on another ingested entity which corresponds to a business measure.
   
 Note that your choice at this point will affect the number of dimensions supported for your measure. You will choose your dimensions in Step Four when we will go through the *Measure Definition* process. 
 - Profile attribute and profile measure are limited to a single dimension.
@@ -181,5 +181,4 @@ Here is an example of the **Rename measures** window.
 > [!div class="mx-imgBorder"] 
 > ![](media/rename-measure.png "Rename measure")
 
-The edit option is done on the same page we used to create our first measure. 
 
