@@ -53,7 +53,7 @@ Use the **Schedule** tab to refresh all of your ingested Customer Insights data.
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-off.png "System data refresh off")
 
-In Customer Insights, the default state for data refresh is **Off**, reflecting no scheduled refreshes (as shown above). To change it, use the slider at the top of the screen (changing it to  **On** status as shown below).
+In Customer Insights, the default state for data refresh is **Off**, reflecting no scheduled refreshes (as shown above). To change it, use the slider at the top of the screen (changing it to **On** status as shown below).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-on.png "System data refresh on")
