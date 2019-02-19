@@ -23,7 +23,7 @@ manager: "kvivek"
 
 ## What are relationships useful for?
 
-In Customer Insights you can define relationships between entities. As we will see within the **Segments** section, these relationships are useful for segmentation. In the future they will be used for additional analytical purposes within Customer Insights.
+In Customer Insights you can define relationships between entities. As explained in the **Segments** section, these relationships are useful and sometimes even mandatory for segment creation. In the future it is possible that they will be used in additional product modules and processes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-relationships-tile.png "Relationships tile")
@@ -38,9 +38,9 @@ During the match and merge processes, system relationships are created behind th
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-entities-merge.png "Relationship creation")
 
-- **CustomerToContact relationship** was created between the Customer entity and the Contact entity. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
-- **CustomerToAccount relationship** was created between the Customer entity and the Account entity. The Customer entity gets the key field **Account_accountId** to relate to the Account entity key field **accountId.**
-- **CustomerToWebAccount relationship** was created between the Customer entity and the WebAccount entity. The Customer entity gets the key field **WebAccount_webaccountId** to relate to the WebAccount entity key field **webaccountId.**
+- ***CustomerToContact* relationship** was created between the Customer entity and the Contact entity. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
+- ***CustomerToAccount* relationship** was created between the Customer entity and the Account entity. The Customer entity gets the key field **Account_accountId** to relate to the Account entity key field **accountId.**
+- ***CustomerToWebAccount* relationship** was created between the Customer entity and the WebAccount entity. The Customer entity gets the key field **WebAccount_webaccountId** to relate to the WebAccount entity key field **webaccountId.**
 
 ## Use the Relationships page to add and edit entities
 
@@ -73,7 +73,7 @@ Then you need to provide the following information in the Relationship panel.
     - **Target Cardinality:** This represents the cardinality of the target entity records. For example, one means that multiple Weblog records are related to one WebAccount.
     - **Target key field:** This field represent the key field of target entity. For example, WebAccount has the **accountId** key field.
 
-**Note**: For now, only many-to-one and one-to-one type relationships are supported. Many-to-many type relationships can be created using two many-to-one relationships using a link entity - an entity that is used to connect the source entity and the target entity.
+**Note**: For now, only *many-to-one* and *one-to-one* types of relationships are supported. *Many-to-many* relationships can be created using two *many-to-one* relationships and a *link entity* - an entity that is used to connect the source entity and the target entity.
 
 ## Use the Relationships page to delete relationships
 
