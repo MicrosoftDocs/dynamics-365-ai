@@ -43,7 +43,7 @@ First, find the person to whom you want to give permission. Type this person's n
 
 Then, **Choose a role** for that person as shown above.
 
-Lastly, select **Save** in the bottom-right corner of the panel. The instance that you are using will be automatically shared with the user you have defined the permission. This user will be able to enter the Customer Insights app and perform actions according to the role that you have specified.
+Lastly, select **Save** in the bottom-right corner of the panel. The instance that you are using will be automatically shared with the user you have defined the permission for. This user will be able to enter the Customer Insights app and perform actions according to the role that you have specified.
  
 ## View current permissions
 
@@ -68,7 +68,7 @@ At the top of the **Permissions** page, select **Filter** to open the **Filter**
 
 ### View current number of users per role
 
-At the top of the **Permissions** page, select **Roles** to open the **Roles** panel to view the number of users per role.
+At the top of the **Permissions** page, select **Roles** to open the **Roles** panel. Then use this panel to view the number of users per role.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles2.png "Roles")
