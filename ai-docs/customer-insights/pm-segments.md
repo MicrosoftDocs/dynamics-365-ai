@@ -80,7 +80,7 @@ Then, the rest of the segment creation process is done in the **Segment Editor**
    
 ### Step Two: Creating a first group 
 
-In Customer Insights, **a group is a set of customers.** First we will explian how a group can be defined. If you prefer to view an example, we will provide one right after this explaination.
+In Customer Insights, **a group is a set of customers.** First we will explain how a group can be defined. If you prefer to view an example, we will provide one right after this explaination.
 
 **Each group's definition involves:**
 1. Choosing the entity that includes the specific attribute you wish to segment by. For example, choosing an *Orders* entity since it includes a *Order Value* field by which we want to segment. In order to choose your entity of interest, click the field shown below:
@@ -158,7 +158,7 @@ Selecting each of these *Set Operators* will enable you to define a new group. A
 Here you can view all your saved segments and perform certain actions.
 
 - Dynamic Segments appear to the left and Static Segments appear to the right.
-- Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if exists). Hover over the trendline to see  last week growth in this segment's members count. If you prefer to view all of your segments in a table format, select of the following:
+- Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if exists). Hover over the trendline to see last week growth in this segment's members count. If you prefer to view all of your segments in a table format, select of the following:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-static-segment.png "Static segment")
@@ -173,25 +173,25 @@ Then choose one of the following options from the drop down menu:
 - Exporting the segment to either a CSV file, or to a Customer Engagement location.
 - Turning the segment to inactive/active (depends on its baseline state).
 - Deleting the segment .
-- Pin the segment, which will move it to the top of the screen for better accessability. The pinned segment will show up under **Pinned Segments** as shown below. To unpin a segment, select **Unpin** (shown in red).
+- Pin the segment, which will move it to the top of the screen for better accessibility. The pinned segment will show up under **Pinned Segments** as shown below. To unpin a segment, select **Unpin** (shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
    
 ## Exploring a segment: Viewing processing history and segment members
 
-Select a segment's name in the **Segments** page to get to the page that is shown below. This page consolidates data at the segment level. The upper-part of the page includes a trend graph that presents historical changes in this segment. In addition, hovering over each data point will show the member count for that point. Lastly, above the graph you can find the current member count and last week's growth. 
+Select a segment's name in the **Segments** page to get to the page that is shown below. This page consolidates data at the segment level. The upper part of the page includes a trend graph that specifies changes in this segment's members count. In addition, hovering over each data point will show the member count for that point. Lastly, above the graph you can find the current member count as well as last week's growth. 
 
-As highlighted in red below, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.).
+As highlighted in red below, you can adjust the trend's time scope as well (30 last days, 60 last days, etc.):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
 
 The lower part includes a table with all your segment's members.
 
-Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The example that is shown above (highlighted in blue) is typical for a **Customer** entity but it is only one of many possible representations.
+- Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The example that is shown above (highlighted in blue) is typical for a **Customer** entity but it is only one of many possible representations.
 
-Also note that this table only shows a preview of your records. It presents the first 100 records of your segment so you can quickly evaluate your segment and go back to the segment editor screen to change its definitions. As we will see in the next section, exporting your segment will produce a file that includes all your records.
+- Also note that this table only shows a preview of your records. It presents the first 100 records of your segment so you can quickly evaluate your segment and go back to the segment editor screen to change its definitions. As we will see in the next section, exporting your segment will produce a file that includes all your records.
  
 ## Next Step
 
