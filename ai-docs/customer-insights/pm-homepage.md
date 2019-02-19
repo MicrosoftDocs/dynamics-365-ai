@@ -1,6 +1,6 @@
 ---
 title: "Home | MicrosoftDocs"
-description: Home page
+description: Home
 ms.custom: ""
 ms.date: 02/21/2019
 ms.reviewer: ""
@@ -21,9 +21,10 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Home page** is the first page you see in the Customer Insights app. 
+The **Home** page is the first page you see in the Customer Insights app. 
 
-// missing 1
+> [!div class="mx-imgBorder"] 
+> ![](media/home-page-insights.png "Insights on Home page")
 
 If you are a trial user, make sure to switch from a demo environment before starting to use the product. This can be done via the environment switcher shown below.
 
@@ -36,18 +37,16 @@ The **Home** page is designed to equip you with a holistic view around your unif
 
 Many insights are dependent upon the completion of the data configuration process so few insights might show up initially on the Home page. Once you complete the [Data Manager](pm-data-manager.md)) [Configure Data](pm-configure-data.md) processes, more insights will appear on the Home page. 
 
-These are the types of insights displayed on the **Home** page.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/home-page-insights.png "Insights on Home page")
-
-- **Aggregate-level insights (shown in red):** Tiles with unique insights about your total customer base (may include predictive KPIs such as average likelihood of a customer churn).
-- **Information on preferred brands and interests within your customer base (shown in blue):** This unique information can be unlocked via the **Enrich Profiles** screen after completing the Map, Match and Merge phases within the configure data process. 
-- **Customer segments (shown in green):** Includes segments that were created around your customers. Note that some segments are auto-created by the system and will show up on the Home page prior to any manual segment creation. For information on how to manually create additional segments, visit the **Segments** section.
-- **Links to specific parts of this documentation** (shown in purple)
+The image below shows the types of insights you can expect to view on the **Home** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-insights2.png "Insights on Home page")
+
+Let's explore those insights:
+- **Aggregate-level insights (shown in red):** Tiles with unique insights about your total customer base (may include predictive KPIs such as average likelihood of a customer churn).
+- **Information on preferred brands and interests within your customer base (shown in blue):** This unique information can be unlocked via the **Enrich Profiles** screen after completing the Map, Match and Merge phases within the configure data process. 
+- **Customer segments (shown in green):** Includes segments that were created around your customers. Note that some segments are auto-created by the system and will show up on the Home page prior to any manual segment creation. For information on how to manually create additional segments, visit the **Segments** section.
+- **Links to specific parts within this documentation** (shown in purple)
 
 ## Next step
 Many of the **Home** page insights are dependent upon the completion of the data configuration process and this process in turn is based on first loading data into Customer Insights. See either the [Data Manager](pm-data-manager.md) or [Data Sources](pm-data-sources.md) topics to learn how to complete the data loading process. 
