@@ -25,7 +25,8 @@ manager: "kvivek"
 
 Once completing *Match*, you can access *Merge* via the **Merge** tile within the **Configure Data** page:
 
-// missing 1
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-tile.png "Merge tile")
 
 ## Step One: Review system recommendations
 
@@ -36,8 +37,10 @@ The next page that you will see is the **Merge** page.
 
 There are two goals for this page.
 
-1. Choosing all the attributes that should be merged within your unified customer profile entitiy (the end result of the configuration process). Notice that some attributes were already auto-merged by the system.
-As examplified above:
+1. Choosing all the attributes that should be merged within your unified customer profile entity (the end result of the configuration process). Notice that some attributes were already auto-merged by the system.
+
+   As exemplified above:
+
    - The attribute's name appears in the first column.
    - The attribute's entity is specified in the second column.
    - The attribute's data source is specified in the third column.
@@ -51,7 +54,7 @@ As examplified above:
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
    
-   And then whithin the drop down menu select **Don't Merge**:
+   And then within the drop down menu select **Don't Merge**:
    
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-profile-attributes2.png "Merge profile attributes")
@@ -70,7 +73,6 @@ As examplified above:
 
 Adding a merged attribute is available via **Add Merged Attribute** as shown below.
 
-// update 1
 > [!div class="mx-imgBorder"] 
 > ![](media/merge-add-merge-attribute.png "Add merged attributes")
 
@@ -96,7 +98,8 @@ This panel consists of four parts.
 
 Whether you manually merge attributes or let the system merge for you, at this point you can run your merge. Simply select **Save** and then **Run** at top of the screen:
 
-// missing 2
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-merge-save-run.png "Data merge Save and Run")
 
 Note that if the **Run** button is disabled at this point, you should try to do two things.
 
