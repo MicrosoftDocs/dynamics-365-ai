@@ -26,7 +26,7 @@ The **Home** page is the first page you see in the Customer Insights app.
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-insights.png "Insights on Home page")
 
-If you are a trial user, make sure to switch from a demo environment before starting to use the product. This can be done via the environment switcher shown below.
+If you are a trial user, make sure to switch from a demo environment before starting to use the product. This can be done via the environment switcher that is positioned on the top right corenr of the page (shown in red below):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-environment-switcher.png "Switch environment")
