@@ -40,7 +40,7 @@ The **Enrich Profiles** page can be accessed through the app left-side menu as w
 As shown above, this page includes two major sections:
 
 - The **Demographics** section, where you should make selections for at least two fields among **Date of Birth**, **Gender**, and **Zip Code**. The intent behind these selections is to focus on the specific cohort of customers for which you wish to gain knowledge around preferred brands and interests. 
-- The **Brands and Categories** section, where you can take one of two approaches: **Choose on my own** or **Industry's top Brands and Categories**. We will explore both of these options below.
+- The **Brands and Categories** section, where you can take one of two approaches: **Choose on my own** or **Industry's top Brands and Categories**. We will explore both options below.
 
 ### Make selections on the *Demographics* section
 
@@ -64,7 +64,7 @@ First choose one of the following options (also highlighted in the image above).
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-brands-example.png "Enrich profiles choose brand example")
 
-To add a brand or interest, type the keywords field (highlighted in blue above) and than type the keyword. If that keyword matches a brand or interest name in the Microsoft database it will be saved. **You can save up to five selections.** If there is no match, you will get the following notice which you can use to send a suggestion to the Customer Insights team:
+To add a brand or interest, type the keywords field (highlighted in blue above) and then type the keyword. If that keyword matches a brand or interest name in the Microsoft database it will be saved. **You can save up to five selections.** If there is no match, you will get the following notice which you can use to send a suggestion to the Customer Insights team:
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
@@ -110,8 +110,8 @@ Upon the completion of the Enrichment process, you have unlocked additional info
 
 // missing 2
 
-- Shown above in blue, this column presetns the brands and interests that were evaluated by the enrichment algorithem.
-- Shown in red, this column presetns the verticals to which these brands and interests belong
+- Shown above in blue, this column presents the brands and interests that were evaluated by the enrichment algorithm.
+- Shown in red, this column presents the verticals to which these brands and interests belong
 - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. **Note that these affinity numbers represent ranks:** Hence a rank of 1 stands for the strongest affinity and from there the affinity decreases as the number increases.  
 
 Lastly, you can also **Export** this entity as shown below:
@@ -119,4 +119,4 @@ Lastly, you can also **Export** this entity as shown below:
 // missing 3
 
 ## Next Step
-You may wish to extract more insights using the **Segments**, **Customer Card** and **Connectors** modules if you havn't done so. You may also want to define **Measures** and/or **Activities** for richer insight exploration. 
+You may wish to extract more insights using the **Segments**, **Customer Card** and **Connectors** modules if you haven't done so. You may also want to define **Measures** and/or **Activities** for richer insight exploration. 
