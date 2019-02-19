@@ -34,7 +34,7 @@ To further understand how to utilize those capabilities, visit the **Profiles** 
 
 ## Adding attributes
 
-Upon selecting the *Seatch, Sort and Filter* tab on the left side menu, you can expect to see the following screen where you should select **Add attributes** to get started:
+Upon selecting the *Search, Sort and Filter* tab on the left side menu, you can expect to see the following screen where you should select **Add attributes** to get started:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes.png "Add attributes")
@@ -54,7 +54,7 @@ You can always add more attributes via the **Add** button (shown in red below). 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-add.png "Add attribute")
 
-## Explore the Search, sort & filter page
+## Exploring the Search, sort & filter page
 
 Let's explore the table on this page, going left to right:
 
@@ -68,7 +68,7 @@ Let's explore the table on this page, going left to right:
 - **Sort** Specifies whether this attribute can be used for sorting customers.
 - **Filter options**: Selecting **Edit** enables you to define how this attribute can be used for searching, filtering, and sorting.
 
-## Edit searching, sorting, and fitering options for a given attribute
+## Editing search, sort, and fiter options for a given attribute
 
 After selecting **Edit** for a given attribute, one of three possible panels will show up, depending on the attribute's data type.
 
@@ -77,21 +77,21 @@ The **Filter** menu on the **Profiles** page can include a varying number of att
 1. How many results will appear on the filter panel
 2. In what order they will be organized
 
-The following image examplifies the **Edit panel** that will open for strong-type attributes: 
+The following image exemplifies the **Edit panel** that will open for strong-type attributes: 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/string-filter-options.png "String filter options")
 
 In this panel, you can specify the number of desired results on the **Filter** panel as well as the order policy by which they will be organized. 
 
-The following image examlifies the **Edit panel** that will open for number-type attributes:
+The following image exemlifies the **Edit panel** that will open for number-type attributes:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/number-filter-options.png "Number filter options")
 
 In this panel you can specify the intervals included on the **Filter** panel as well as the order policy by which they will be organized.
 
-Lastly, the following image examplifies the **Editing** panel that will open for date-type attributes:
+Lastly, the following image exemplifies the **Editing** panel that will open for date-type attributes:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/date-filter-options.png "Date filter options")
