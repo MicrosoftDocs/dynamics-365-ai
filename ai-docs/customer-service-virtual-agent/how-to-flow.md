@@ -22,7 +22,9 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
 2. Select **New environment** to open the New environment screen.
 
-    Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Select the **Join Preview** check box and then **Create environment**.
+    Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Then select **Create environment**.
+
+   > ![Create environment](media/how-to-flow-1-1.png)
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
