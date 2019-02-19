@@ -24,7 +24,6 @@ manager: "kvivek"
 
 Once the *Map* phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configure Data** page to get to the **Match** page.
 
-<!-- // Replace 1 -->
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-tile.png "Match tile")
 
@@ -32,7 +31,8 @@ Once the *Map* phase is completed, you're ready to match your entities. Select t
 
 - If you did map at least two entities, you can expect to reach the following page where you should select **Set Order** once you are ready to start the *Match* phase.
 
-<!-- // missing 1 -->
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-match-new-rule.png "Match new rule")
 
 ## The Match phase
 
@@ -75,7 +75,8 @@ Each **Match** involves two entities that are unified into a single entity while
 
 You can always remove entities from your match order. Select **Save** to save your match order as shown in red.
 
-<!-- // missing 2 -->
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-match-new-rule-edit.png "Match rule edit")
 
 ## Step Two: Define rules for your first match pair
 

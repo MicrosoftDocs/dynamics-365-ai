@@ -64,13 +64,15 @@ The following page appears upon completing your entities' selections.
 
 ## Add and remove attributes
 
-That can be done via **Edit**.
+This can be done via **Edit**.
 
-<!-- // missing 1 -->
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-map-edit.png "Edit map")
 
 After selecting **Edit**, the **Attributes Panel** will open.
 
-<!-- // missing 2 -->
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-map-contact-attributes.png "Columns for Contact")
 
 Use either the **Search** field or scroll down the **Attributes List** to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all the attributes by selecting **Select all**. Once one attribute is selected, the same button can be used to unselect all your selections (now appear as **Clear all**).
 
