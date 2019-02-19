@@ -23,9 +23,11 @@ manager: "kvivek"
 
 Through its *Configure Data* process, Customer Insights enables you to consolidate data around your customers from all of your sources. At the same time, Customer Insights goes beyond that and puts at your fingertips additional machine language produced knowledge about your customers that comes from proprietary data. This section covers the **Enrich Profiles** page that can be used to unlock data on the affinity of your customers to hundreds of brands and dozens of interest-categories (which might be *Home Appliances*, *Shoes*, or *Financial loans* as examples).
 
-> [!NOTE]
-> - The **Enrich Profiles** page can be accessed through the app left-side menu and from the **Configure Data** page.
-> - Completing both the *Data Ingestion* and *Data Configuration* processes is a prerequisite to enrichment. If you didn't complete one or more of those steps, you can expect to get the following notification.
+The **Enrich Profiles** page can be accessed through the app left-side menu as well as from the **Configure Data** page:
+
+// missing 1
+
+**Note**: Completing both the *Data Ingestion* and *Data Configuration* processes is a prerequisite to enrichment. If you didn't complete one or more of those steps, you can expect to get the following notification.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
@@ -87,7 +89,7 @@ You'll see the following page as long as the Enrichment algorithm is still runni
 
 You can also use the **Discard** button to reselect your definitions and keywords (shown in blue above).
 
-### Explore the Enrichment process output
+### Validate the Enrichment process output
 
 If the Enrichment process succeeded, you'll see the following screen.
 
@@ -100,3 +102,19 @@ If the Enrichment process failed, however, you'll find the reason for that failu
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-failed.png "Enrich profiles failed")
+
+### Gain Richer Insights on your Customer Base
+Upon the completion of the Enrichment process, you have unlocked additional information on affinities to brands and interests within your customer base. To explore those insights:
+1. Go to the entities screen
+2. Select the **MsftAudienceIntelligence: Customer 360** entity
+
+// missing 2
+
+....
+
+Lastly, you can also **Export** this entity as shown below:
+
+// missing 3
+
+## Next Step
+You may wish to extract more insights using the **Segments**, **Customer Card** and **Connectors** modules if you havn't done so. You may also want to define **Measures** and/or **Activities** for richer insight exploration. 
