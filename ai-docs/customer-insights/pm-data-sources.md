@@ -74,7 +74,8 @@ In the this step, you'll add entities to your data source. In Customer Insights,
    
    You can add additional entities to your data source by selecting **Get Data**.
 
-// 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/data-source-get-data.png "Get Data")
 
 2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also, note that after selecting each transformation, it will be added as a processing step. You can view and remove steps in the part shown in green above. Exploring how your data looks like after a specific subset of added steps can be done by selecting the final step in that subset.
 

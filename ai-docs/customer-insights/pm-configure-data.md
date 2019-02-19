@@ -32,4 +32,5 @@ The goal behind the data configuration process is to unify data sources that onc
 
 After completing the mandatory configuration phases, visit the **Relationships**, **Enrich Profiles**, and **Activities** sections. 
 
-// 1
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-page2.png "Configure data page")
