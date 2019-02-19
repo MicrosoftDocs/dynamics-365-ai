@@ -27,7 +27,7 @@ The **Permissions** page is where you can set up roles and permissions for using
 |---------|---------|
 |Viewer     | <ul><li>View **Home** and **Segments** pages </li></ul>       |
 |Contributor     | <ul><li>Complete **Data Manager**: **Data Sources** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge**, **Relationships**, **Activities**, etc </li><li>View **Home** and **Segments** pages </li><li>Create segments in the **Segment Builder** page  </li></ul> |
-|Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page</li><li>Set Search and Filter efinitions for the **Profiles** page using the **Search, Sort and Filter** page   </li></ul>     |
+|Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page</li><li>Set Search and Filter definitions for the **Profiles** page using the **Search, Sort and Filter** page   </li></ul>     |
  
 ## Add roles and permissions
 
