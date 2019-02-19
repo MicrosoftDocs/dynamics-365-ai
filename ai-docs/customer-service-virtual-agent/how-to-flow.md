@@ -14,7 +14,7 @@ manager: shellyha
 
 # Use Microsoft Flow with your virtual agent
 
-You can use flows created using Microsoft Flow in your virtual agent as long as the flows and virtual agent share the same CDS environment. First, create Microsoft PowerApps and Microsoft Flow environments, and then create your flow. You can then create a virtual agent that invokes your flow.
+You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same CDS environment as the virtual agent. First, create Microsoft PowerApps and Microsoft Flow environments, and then create your flow. You can then create a virtual agent that invokes your flow.
 
 ## To create a new PowerApps environment
 
@@ -22,10 +22,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
 
 2. Select **New environment** to open the New environment screen.
 
-    Specify a unique name for the environment, *Preview (United States) (default)* as the region, and *Trial* as the environment type. Select the **Join Preview** check box and then **Create environment**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Create environment](media/how-to-flow-1-1.png)
+    Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Select the **Join Preview** check box and then **Create environment**.
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
@@ -40,7 +37,7 @@ You can use flows created using Microsoft Flow in your virtual agent as long as 
    > ![Create database](media/how-to-flow-1-3.png)
 
 > [!NOTE]
-> Creating a database and environment can take several hours.
+> Creating a database and environment can take some time.
 
 ## To create a Microsoft Flow environment
 

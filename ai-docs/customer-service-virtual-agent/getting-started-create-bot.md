@@ -30,9 +30,9 @@ These industry templates can also be useful as a model for building your own con
 
    > ![New bot icon](media/new-bot-icon.png)
 
-2. Select the template you want to use, and specify a name and region for the bot. Then select **Create**.
+2. Select the template you want to use, and specify a name and region for the bot.
 
-   > ![Create a new bot](media/create-new-bot.png)
+    In the **Region where your Virtual Agent is stored** drop-down, select the environment you want to use to create the bot, other than the default environment. The default environment is not currently supported. Then select **Create**.
 
     Virtual Agent Designer creates the virtual agent and opens it in the browser.
 
