@@ -1,5 +1,5 @@
 ---
-title: "Act on your data | MicrosoftDocs"
+title: "Segment Export | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 02/21/2019
@@ -17,13 +17,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Act on your data
+# Segment Export
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Export a segment
+Now that you have created one ore more segments using the **segment builder** screen, you are ready to start acting upon your data  (make sure to first visit the **Segments** section if you havn't done so). 
 
-You can export to a CSV file and to a Customer Engagement location.
+At present, you can export any of your segments to both a CSV. file and a Customer Engagement location. In the future we will add addtional segment export options.
 
 1. Both options are available within the **Segments** page.
       
