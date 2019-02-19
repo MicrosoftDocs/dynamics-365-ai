@@ -42,7 +42,7 @@ At present, you can export any of your segments to both a CSV. file and a Custom
    > ![](media/segment-menu-export-top.png "Export segment")
     
 
-## Add an export segment destination
+## Adding a segment export destination
 
 1. Within the **Segment Export** page, select **Add Destination**.
 
@@ -60,23 +60,26 @@ At present, you can export any of your segments to both a CSV. file and a Custom
    > ![](media/segmentation-export-destination2.png "Segmentation add destination")
     
    Your saved destination will also appear in the **Segments** page under the export option we explored earlier.
-    
+   
+   > [!div class="mx-imgBorder"] 
+   > ![](media/segmentation-export-destination3.png "Segmentation destination")
+   
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-in-process.png "Segmentation export in process")
     
    Upon clicking your Dynamics 365 for Sales destination (shown in red above), you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message.
-    
+  
    > [!div class="mx-imgBorder"] 
-   > ![](media/segmentation-export-destination3.png "Segmentation destination")
+   > ![](media/segmentation-export-in-process.png "Segmentation export in process")
 
 ## View segments you have exported
 
-That can be done also in the **Export Segment** page. Below the **Destinations** table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported.
+That can be done in the **Segment Export** page. Below the **Destinations** table you can find another table, called **Exported Segments** which specifies important information around the segments you have exported.
     
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-export-segments.png "Segmentation export segments")
 
 ## Delete a destination
 
-That can be done via **Delete** in the **Export Segment** page.
+That can be done via **Delete** in the **Segment Export** page.
 
