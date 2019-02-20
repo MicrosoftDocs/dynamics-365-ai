@@ -21,8 +21,10 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-// replace 1
+
 The **Profiles** page presents consolidated data on each of your customers. Each customer profile is represented by a **Customer Card** tile as shown below.
+
+// replace 1
 
 In order to view more customers profiles, move to the next profiles page using the button shown below in red:
 
