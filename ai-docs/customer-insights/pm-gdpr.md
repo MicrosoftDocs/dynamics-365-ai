@@ -40,7 +40,7 @@ A Customer Insights admin can follow these steps to delete customer data:
 2. Navigate to the **Data Sources** page.
 3. For each data source in the list that contains customer data do the following:
    1. Select (...) under **Action**, and then select **Refresh**.
-   2. Check the status of the data source under **Status**. A check mark means refresh was successful. A warning triangle means something went wrong. If a Waning Triangle is displayed, please contact CustomerInsightsAdmins@micrsosoft.com.
+   2. Check the status of the data source under **Status**. A check mark means refresh was successful. A warning triangle means something went wrong. If a Waning Triangle is displayed, please contact D365CI@microsoft.com.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/gdpr-data-sources.png "Handling GDPR delete requests for customer data")
@@ -73,27 +73,21 @@ Dynamics 365 Customer Insights offers the following experiences to find or expor
 
 - Export customer data (Tenant admin)
 - Export Customer Insights user data (Tenant admin)
-- Export Customer Insights user data – Telemetry (Tenant admin)
 
 #### Export customer data (Tenant admin)
 
 A tenant administrator can follow these steps to export data:
 
-1. Send an email to D365CI@micrsosoft.com specifying the customer’s email address in the request. An administrator from the Dynamics 365 Customer Insights team will send an email to the registered tenant admin email address, asking for confirmation to export data.
+1. Send an email to D365CI@microsoft.com specifying the customer’s email address in the request. An administrator from the Dynamics 365 Customer Insights team will send an email to the registered tenant admin email address, asking for confirmation to export data.
 2. Acknowledge the confirmation to export the data for requested customer.
 3. Receive the exported data through tenant admin email address.
 
 #### Export Customer Insights user data (Tenant admin)
 
-1. Send an email to D365CI@micrsosoft.com specifying the users email address in the request. An administrator from the Dynamics 365 Customer Insights team will send an email to the registered tenant admin email address, asking for confirmation to export data.
+1. Send an email to D365CI@microsoft.com specifying the users email address in the request. An administrator from the Dynamics 365 Customer Insights team will send an email to the registered tenant admin email address, asking for confirmation to export data.
 2. Acknowledge the confirmation to export the data for requested user.
 3. Receive the exported data through tenant admin email address.
 
-#### Export Customer Insights user data – Telemetry (Tenant admin)
-
-1. Send an email to D365CI@micrsosoft.com specifying the user’s email address in the request, and also specify that export is for user’s telemetry data. An administrator from the Dynamics 365 Customer Insights team will send an email to the registered tenant admin email address, asking for confirmation to export data.
-2. Acknowledge the confirmation to export the data for requested user.
-3. Receive the exported data through tenant admin email address.
 
 
 
