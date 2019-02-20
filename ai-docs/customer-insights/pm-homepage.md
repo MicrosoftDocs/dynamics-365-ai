@@ -33,9 +33,9 @@ If you are a trial user, make sure to switch from a demo environment before star
 
 ## Exploring the Home page
 
-The **Home** page is designed to equip you with a holistic view around your unified customer base. Through the *Configure Data* process, you will use Customer Insights to take datasets that are siloed and disconnected and create a unified dataset of your customers. Then, you can use capabilities such as *Measures, *Enrich Profiles* and *Activities* to unlock richer insights. Lastly, you will use capabilities such as *Segments* and *Customer Card* to utilize and act upon those new insights.  
+The **Home** page is designed to equip you with a holistic view around your unified customer base. Through the *Configure Data* process, you will use Customer Insights to take datasets that are siloed and disconnected and create a unified dataset of your customers. Then, you can use capabilities such as *Measures*, *Enrich Profiles* and *Activities* to unlock richer insights. Lastly, you will use capabilities such as *Segments* and *Customer Card* to utilize and act upon those new insights.  
 
-Many insights are dependent upon the completion of the data configuration process so few insights might show up initially on the Home page. Once you complete the [Data Manager](pm-data-manager.md)) [Configure Data](pm-configure-data.md) processes, more insights will appear on the Home page. 
+Many insights are dependent upon the completion of the data configuration process so few insights might show up initially on the Home page. Once you complete the [Data Manager](pm-data-manager.md) and [Configure Data](pm-configure-data.md) processes, more insights will appear on the Home page. 
 
 The image below shows the types of insights you can expect to view on the **Home** page:
 
