@@ -23,6 +23,60 @@ manager: "kvivek"
 
 ## Introduction to Segmentation
 
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-allcustomers-status-active.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-group1-define-filter.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-group1-define-filter-settings.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-group1-define-filter-settings2.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-group1-define-filter-settings3.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-group1-define-filter-settings4.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-group1-define-filter-settings5.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-example-entities.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-example-entities2.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-list.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segments-list2.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/system-tabs.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/system-status-processes.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/system-database-details.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/system-tabs-general.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profiles.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-entities-data-info.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-entities-data-info.png "Text")
+
 The *Segments* capability enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns, sales activities, or customer support actions to achieve desired business goals. You can define complex filters around the *Customer Profile* entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records which you can export and take actions upon.
 
 There are two types of segments:
