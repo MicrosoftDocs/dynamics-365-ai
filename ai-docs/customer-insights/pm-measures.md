@@ -46,7 +46,7 @@ There are two early decisions you should make with regard to your desired measur
 > ![](media/search-measures.png "Search measures")
 
 First, you should decide whether to:
-  - Save your measure as an attribute within one of your existing entities. Then you should choose the **Profile Attribute** option. 
+  - Save your measure as an attribute within the Customer Profile entity created during the data configuration process. Then you should choose the **Profile Attribute** option. 
   - Or, create a new entity around your measure.
   
 Second, if decided to save the measure as a new entity, you should also decide whether to:
@@ -59,16 +59,16 @@ Note that your choice at this point will affect the number of dimensions support
 
 In the next three sections, we will explore the steps you should complete in order to define your measure. 
 
-## Step Two: Choose the base entity
+## Step Two: Choosing the Starting Entity
 
 Upon clicking **New Measure** you will get to the **Measure Creation** panel. For example, after selecting the **Business Measure** option, you will see the following:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-business-measure.png "New business measure")
 
-- **Name** (mandatory): Upon completing the configuration of your measure, it will show up in the **Measures** page as a saved measure that you can edit. Within the **Measures** page, your saved measure will carry the name you define under the **Name** field in this panel.
-- **Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved as a new entity. In both cases, the measure will carry the name you define under the **Display Name** field in this panel.
-- **Starting Entity** (mandatory): Here you should choose the entity on the basis of how you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose any of these entities.  
+- **Name** (mandatory): Upon completing the configuration of your measure, it will show up in the **Measures** page under this name.
+- **Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved as a new entity. In both cases, the measure will carry the name you define under that field.
+- **Starting Entity** (mandatory): Here you should choose the entity on the basis of which you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose any of these entities.  
 
 Here is the panel you will see upon selecting the **Profile Measure** option:
 
@@ -82,7 +82,7 @@ Finally, here is the panel you will see upon selecting the **Profile Measure** o
 > [!div class="mx-imgBorder"] 
 > ![](media/new-profile-attribute.png "New profile attribute")
 
-## Step Three: Choose related entities
+## Step Three: Choosing related entities
 
 Once completing Step Two, you'll see the following page.
 
