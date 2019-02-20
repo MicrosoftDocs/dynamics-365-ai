@@ -59,8 +59,6 @@ To load data to Customer Insights, follow the following process:
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
    
-   - Note that some of the following connectors replaced older connector versions. For example, if you wish to utilize the Dynamics 365 AX connector, you should choose the **Common Data Service for Apps** option.
-
 5. After choosing a connector, you will be required to fill in some fields. For further guidance around filling in those fields for some of the most common data sources (Dynamics 365, CSV and text files, Blob storage, Azure SQL Database, etc), review [Common Connectors Guidance](pm-common-connectors.md).  
 
 ### Step Two (mandatory): Adding and reviewing entities
@@ -77,7 +75,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
    > [!div class="mx-imgBorder"] 
    > ![](media/data-source-get-data.png "Get Data")
 
-2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also, note that after selecting each transformation, it will be added as a processing step. You can view and remove steps in the part shown in green above. Exploring how your data looks like after a specific subset of added steps can be done by selecting the final step in that subset.
+2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also note that each transformation will be added as a processing step, as illustrated in the green box, which can always be modified as needed.
 
    Optionally, to avoid data-related issues, you should complete the next few transformations.
 
