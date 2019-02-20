@@ -21,12 +21,15 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+// replace 1
 The **Profiles** page presents consolidated data on each of your customers. Each customer profile is represented by a **Customer Card** tile as shown below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
 
-In order to view more customers profiles, move to the next profiles page using the button shown above in red. In our example, there are no additional customers and so there is only a single profiles page.
+In order to view more customers profiles, move to the next profiles page using the button shown below in red:
+
+// add 1
 
 **Note**: The data that is available in this page is based on the unified Customer Profile entity you have created during the data configuration process. If you didn’t complete  the data configuration process, see the **Configure Data** section.
 
@@ -63,7 +66,9 @@ First, select **Filter**.
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-filter.png "Customer Card tile filter")
 
-Then, simply check the boxes next to the filters with which to search customers by. Same as for the **Search** field. You will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator in the **Search, sort & filter** page.
+Then, simply check the boxes next to the filters with which to search customers by as shown below. Same as for the **Search** field, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator in the **Search, sort & filter** page.
+
+// add 2
 
 You can remove your saved filters using **Clear filters**.
 
