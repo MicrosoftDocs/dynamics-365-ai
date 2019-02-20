@@ -55,7 +55,7 @@
       href: pm-connectors.md
     - name: APIs
       href: pm-apis.md
-  - name: GDPR support
+  - name: Data Subject Rights (DSR) requests under GDPR
     href: pm-gdpr.md
   - name: Known issues
     href: pm-known-issues.md

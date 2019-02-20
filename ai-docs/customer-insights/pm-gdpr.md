@@ -1,5 +1,5 @@
 ---
-title: "GDPR support | MicrosoftDocs"
+title: "Data Subject Rights (DSR) requests under GDPR | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 02/21/2019
@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# GDPR support
+# Data Subject Rights (DSR) requests under GDPR
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
