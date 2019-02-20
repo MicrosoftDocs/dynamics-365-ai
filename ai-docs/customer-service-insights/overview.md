@@ -1,6 +1,6 @@
 ---
-title: "AI for Customer Service Insights overview"
-description: "Learn the basics of Dynamics 365 AI for Customer Service Insights."
+title: "Customer Service Insights overview"
+description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
 ms\.date: 1/23/2019
 ms.service:
@@ -12,9 +12,9 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# AI for Customer Service Insights overview
+# Customer Service Insights overview
 
-Dynamics 365 AI for Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
+Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
 
 Customer Service Insights uses artificial intelligence to automatically group your cases into topics using natural language understanding. Topics enable you to discover and adapt to current and emerging trends, improve brand sentiment, and identify problem areas. By pinpointing and fixing issues before they impact customers, you can deliver better customer service experiences.
 
@@ -27,11 +27,11 @@ For a walkthrough of how to connect to your customer service data to gain insigh
 
 For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
-For more information about how to use the dashboards and sample data, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
+For more information about how to use the dashboards and sample data, see [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
-For more information and examples of how to use the AI for Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer service system](improve-system.md).
+For more information and examples of how to use the Customer Service dashboards to help you identify areas of improvement, see [Identify areas for improvement in your customer service system](improve-system.md).
 
-For details on the AI for Customer Service Insights dashboards, see the following topics:
+For details on the Customer Service Insights dashboards, see the following topics:
 
 * [KPI summary dashboard](dashboard-kpi-summary.md)
 * [New cases dashboard](dashboard-incoming-cases.md)
