@@ -112,11 +112,11 @@ In the example below, we have defined a calculation for the relative contributio
 
 ## Step Five: Define your measure entity/attribute
 
-In this step, we will decide how to aggregate our chosen entities and calculations into a measure entity/attribute which we can start using in **Homepage**, **Segments**, as well as other pages. 
+In this step, we will decide how to aggregate our chosen entities and calculations into a measure entity or attribute which we can start using in **Homepage**, **Segments**, or a different page: 
 
 **Step 1:** Define first dimension
 
-These are the selections you should fill in (exploring left to right the definitions shown below).
+These are the selections you should fill in (exploring left to right the definitions shown below):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition2.png "Measure definition")
@@ -181,4 +181,6 @@ Here is an example of the **Rename measures** window.
 > [!div class="mx-imgBorder"] 
 > ![](media/rename-measure.png "Rename measure")
 
+## Next Step
+Make sure to visit the **Configure Data** section if you havn't completed yet the data configuration process. Otherwise you may want to utilize the measure you have just created to create your first customers' segment using the **Segments** screen. You can also unlock more insights via the **Activities** and **Enrich Profiles** screens.
 
