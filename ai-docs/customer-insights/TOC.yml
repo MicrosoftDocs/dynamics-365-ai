@@ -3,8 +3,17 @@
   items:
   - name: Home page
     href: pm-homepage.md
-  - name: Profiles
-    href: pm-profiles.md
+  - name: Customers
+    items:
+    - name: Profiles
+      href: pm-profiles.md
+    - name: Segments
+      href: pm-segments.md
+      items:
+      - name: Act on your data
+        href: pm-act-on-your-data.md
+    - name: Measures
+      href: pm-measures.md
   - name: Data Manager
     href: pm-data-manager.md
     items:
@@ -30,13 +39,6 @@
         href: pm-relationships.md
       - name: Enrich profiles
         href: pm-enrichment.md
-  - name: Segments
-    href: pm-segments.md
-    items:
-    - name: Act on your data
-      href: pm-act-on-your-data.md
-  - name: Measures
-    href: pm-measures.md
   - name: Admin
     href: pm-admin.md
     items:
