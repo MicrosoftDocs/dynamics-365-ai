@@ -23,9 +23,8 @@ manager: "kvivek"
 
 The **System** page encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer Insights. As shown below, it includes four parts: **Status, Schedule**, **About**, and **General**.
 
-// replace 1
 > [!div class="mx-imgBorder"] 
-> ![](media/system-menu.png "System menu")
+> ![](media/system-tabs.png "Text")
 
 **Note**: We recommend to use the **Schedule tab** to ensure your data sources are updated on regular basis. Later in this section we will cover this tab in depth (right after the *Status* tab).
 
@@ -40,11 +39,13 @@ The **Status** tab enables you to track the progress of data ingestion as well a
 
 - **System Processes**: This table lists all the processes that should be executed in Customer Insights as part of a full user journey. The left side column specifies those processes' names. The middle column presents the status of progress for each of these processes - whether it didn't start, in progress, or already completed. Lastly, the right side column states the last data refresh date for each of the processes.
 
-// missing 1
+> [!div class="mx-imgBorder"] 
+> ![](media/system-status-processes.png "Text")
 
 - **In addition**, you can view the details of each completed data source ingestion or system process by selecting that data source or process row. In the example below, the user has selected the *Dynamics365forSales* data source that has ingestion status *Complete* (shown in red) and got additional details on that data source (shown in blue):
 
-// missing 2
+> [!div class="mx-imgBorder"] 
+> ![](media/system-database-details.png "Text")
 
 ## Schedule tab
 
@@ -112,4 +113,5 @@ In this page, several options are available as shown below. Those options can se
 
 Currently, only one selection is available to you via the **General** tab - **Choosing language**. The languages we support show up in this menu. Don't forget to **Save** your selection. 
 
-// missing 3
+> [!div class="mx-imgBorder"] 
+> ![](media/system-tabs-general.png "Text")
