@@ -21,6 +21,18 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-businessreport-data-tab.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-businessreport-measure-definition.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-customer-entity.png "Text")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-businessreport-measure-definition2.png "Text")
+
 The **Measures** page enables you to define all the KPIs that best reflect your specific business domain and goals. Once defined, you can benefit from your measures in a verity of ways. For example:
 - Consume on your Homepage 
 - View for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in** section to learn more. 
