@@ -1,7 +1,6 @@
 - name: Dynamics 365 Customer Insights
+  href: overview.md
   items:
-  - name: Overview
-    href: overview.md
   - name: Home page
     href: pm-homepage.md
   - name: Profiles
