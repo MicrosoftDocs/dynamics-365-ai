@@ -35,8 +35,6 @@ The **Entities screen** includes seven columns:
 - **Last Updated**: Answers the question: *"When was the last time this entity's data was updated?*
 - **Last Refreshed**: Answers the question: *When was the last time this entity's data was refreshed?*
 
-The app automatically identifies within your data values for some of this table's fields as shown in the image above. If identification fails, it returns *NA*. Both for *NA* and all the other values, it is recommended to go over the table for validation purposes. 
-
 ## Exploring a specific entity's data
 
 Select an entity to explore the different fields and records included within that entity.
@@ -46,7 +44,7 @@ Select an entity to explore the different fields and records included within tha
 
 - When you open the Entities page, the **Data** tab is selected by default (shown in red above) and the Data table is opened. The Data table provides details around each of this entity's records, including the record's value, when it was created, and when was it last refreshed.
 
-- When you select the **Fields** tab (shown in blue below), the Fields table opens. This table shows the details of each of this entity's fields, including the field's name, data type, and type. For the data shown below, no types were identified but for other datasets, types may be identified. **Types** stand here for CDM-associated types and hence can differ from those records' data types which are not CDM-related.
+- When you select the Fields tab (shown in red box) you will be able to view all the details for the selected entity, such as fields name, data type and type. **Type** stand here for CDM-associated types and hence can differ from those records' data types which are not CDM-related.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-fields.png "Data manager fields")
