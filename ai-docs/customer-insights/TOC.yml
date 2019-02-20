@@ -9,9 +9,9 @@
       href: pm-profiles.md
     - name: Segments
       href: pm-segments.md
-      items:
-      - name: Act on your data
-        href: pm-act-on-your-data.md
+#      items:
+#      - name: Act on your data
+#        href: pm-act-on-your-data.md
     - name: Measures
       href: pm-measures.md
   - name: Data Manager

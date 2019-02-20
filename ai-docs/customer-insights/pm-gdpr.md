@@ -30,7 +30,7 @@ The “right to erasure” by the removal of personal data from an organization�
 Dynamics 365 Customer Insights offers the following in-product experiences to delete personal data for a specific customer or Customer Insights user:
 
 - **Manage delete requests for customer data**: The customer data in Customer Insights is ingested from original data sources external to Customer Insights and all GDPR delete requests need to be performed in the original data source.
-- **Manage delete requests for Customer Insights user data**: The data for Customer Insights users is created by Customer Insights and all GDPR delete requests.
+- **Manage delete requests for Customer Insights user data**: The data for Customer Insights users is created by Customer Insights and all GDPR delete requests need to be performed in Customer Insights.
 
 #### Manage delete requests for customer data
 
