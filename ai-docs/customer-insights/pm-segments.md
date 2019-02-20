@@ -72,7 +72,7 @@ manager: "kvivek"
 > ![](media/configure-data-enrich-profiles.png "Text")
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-entities-data-info.png "Text")
+> ![](media/configure-data-entities-info.png "Text")
 
 The *Segments* capability enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation you can achieve more targeted actions such as promotional campaigns, sales activities, or customer support actions to achieve desired business goals. You can define complex filters around the *Customer Profile* entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records which you can export and take actions upon.
 
