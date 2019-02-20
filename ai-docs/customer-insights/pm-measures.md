@@ -39,7 +39,7 @@ First, you should decide whether to:
   
 Second, if decided to save the measure as a new entity, you should also decide whether to:
   - Create the measure based on fields from the Customer Profile entity - which corresponds to a **Profile Measure** option.
-  - Or, create it based on another ingested entity which corresponds to a business measure.
+  - Or, create it based on another ingested entity which corresponds to a **Business Measure.**
   
 Note that your choice at this point will affect the number of dimensions supported for your measure. You will choose your dimensions in Step Four when we will go through the *Measure Definition* process. 
 - Profile attribute and profile measure are limited to a single dimension.
@@ -49,7 +49,7 @@ In the next three sections, we will explore the steps you should complete in ord
 
 ## Step Two: Choose the base entity
 
-After choosing an option, you'll go to the **Measure Creation** panel. For example, after selecting the **Business Measure** option, you'll see the following.
+Upon clicking **New Measure** you will get to the **Measure Creation** panel. For example, after selecting the **Business Measure** option, you will see the following:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-business-measure.png "New business measure")
@@ -58,14 +58,14 @@ After choosing an option, you'll go to the **Measure Creation** panel. For examp
 - **Display Name** (optional): As mentioned earlier, your measure will also be added as an attribute or be saved as a new entity. In both cases, the measure will carry the name you define under the **Display Name** field in this panel.
 - **Starting Entity** (mandatory): Here you should choose the entity on the basis of how you wish to construct your measure. If you wish to include in your measure fields from multiple entities, choose any of these entities.  
 
-For example, here's the panel you'll see upon selecting the **Profile Measure** option.
+Here is the panel you will see upon selecting the **Profile Measure** option:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-profile-measure.png "New profile measure")
 
 This panel is the same panel we explored under the previous options except for one difference: The Customer Profile entity will automatically be selected as your starting entity. This default selection can't be changed.
 
-For example, here's the panel you'll see upon selecting the **Profile Measure** option.
+Finally, here is the panel you will see upon selecting the **Profile Measure** option:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-profile-attribute.png "New profile attribute")
