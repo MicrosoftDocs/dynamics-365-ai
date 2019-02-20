@@ -24,14 +24,16 @@ manager: "kvivek"
 // replace 1
 The **Profiles** page presents consolidated data on each of your customers. Each customer profile is represented by a **Customer Card** tile as shown below.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/customer-card-tile.png "Customer Card tiles")
-
 In order to view more customers profiles, move to the next profiles page using the button shown below in red:
 
 // add 1
 
-**Note**: The data that is available in this page is based on the unified Customer Profile entity you have created during the data configuration process. If you didn’t complete  the data configuration process, see the **Configure Data** section.
+**Note**: The data that is available in this page is based on the unified Customer Profile entity you have created during the data configuration process. If you didn’t complete the data configuration process yet, your customer profile tiles might present only partial information on your customers:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/customer-card-tile.png "Customer Card tiles")
+
+Make sure to complete the **Data Configuration** process in order to unlock richer view on your customers (visit the **Configure Data** section to learn more).
 
 After selecting a customer tile, you will see additional information on that specific customer. As shown below, that information may include attributes such as **Country**, **Email**, **Address**, and **Phone** that exist in one or more of your data sources.
 
@@ -46,8 +48,6 @@ You can also create custom attributes using the **Measures** page. The following
 ## Search for customers
 
 Searching for customers can be done using the **Search** field. Simply type one of the attributes' names to search for customers. This is enabled by the administrator in the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
-
-If you haven’t gone through both the **Data Manager** and **Data Configuration** processes, visit those process sections first.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-search.png "Customer Card tile search")
