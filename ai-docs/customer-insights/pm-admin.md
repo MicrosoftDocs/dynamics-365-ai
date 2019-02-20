@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Customer Insights administration pages include the **Permissions** page and the **Settings** page. Both pages are accessible via the left-side menu.
+The Customer Insights administration pages include the **Permissions** and **Settings** pages. Both pages are accessible via the left-side menu.
 
 How can you best utilize the Admin pages? That depends on your role.
 
