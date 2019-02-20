@@ -12,8 +12,6 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-## [Map your data to custom entities and fields](map-data.md)
-
 # Reference
 
 ## Dashboard reference
@@ -39,3 +37,5 @@
 ## [Requests for copies of personal data](gdpr-export.md)
 
 ## [Requests to delete personal data](gdpr-delete.md)
+
+## [Data Subject Discovery Requests](gdpr-discovery.md)
