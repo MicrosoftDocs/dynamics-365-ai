@@ -55,6 +55,8 @@
       href: pm-connectors.md
     - name: APIs
       href: pm-apis.md
+  - name: GDPR support
+    href: pm-gdpr.md
   - name: Known issues
     href: pm-known-issues.md
  
