@@ -42,7 +42,7 @@ After selecting a customer tile, you will see additional information on that spe
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-customer-info.png "Customer Card tile customer info")
 
-You can also create custom attributes using the **Measures** page. The following example is the customer **Churn Score** information marked in red below.
+You can also create custom attributes using the **Measures** page. The following example shows a custom **Churn Score** attribute the user had defined on the Measures page and now views for a specific customer:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-customer-churn-score.png "Customer Card tile churn score")
@@ -76,3 +76,6 @@ You can remove your saved filters using **Clear filters**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-clear-filter.png "Customer Card tile clear filter")
+
+## Next Step
+Please make sure to review both the **Data Sources** and **Configure Data** sections where you will learn to ingest and configure your data.
