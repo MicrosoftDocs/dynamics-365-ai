@@ -25,7 +25,8 @@ Customer Insights enables you to consolidate data around your customers from all
 
 The **Enrich Profiles** page can be accessed through the app left-side menu as well as from the **Configure Data** page:
 
-// missing 1
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profiles.png "Text")
 
 **Note**: Completing both the *Data Ingestion* and *Data Configuration* processes is a prerequisite to enrichment. If you didn't complete one or more of those steps, you can expect to get the following notification.
 
@@ -104,15 +105,14 @@ Upon the completion of the Enrichment process, you have unlocked additional info
 1. Go to the entities screen
 2. Select the **MsftAudienceIntelligence: Customer 360** entity
 
-// missing 2
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-entities-info.png "Text")
 
 - Shown above in blue, this column presents the brands and interests that were evaluated by the enrichment algorithm.
 - Shown in red, this column presents the verticals to which these brands and interests belong
 - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. **Note that these affinity numbers represent ranks:** Hence a rank of 1 stands for the strongest affinity and from there the affinity decreases as the number increases.  
 
-Lastly, you can also **Export** this entity as shown below:
-
-// missing 3
+Lastly, you can also export this entity using the **Export** button at the top right corenr of the screen.
 
 ## Next Step
 You may wish to extract more insights using the **Segments**, **Customer Card** and **Connectors** modules if you haven't done so. You may also want to define **Measures** and/or **Activities** for richer insight exploration. 
