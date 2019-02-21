@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can bring in data to Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Customer Engagement, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, you can always export the data from your source as a CSV file and import to Customer Insights using our CSV connector. To import data to Customer Insights, you need to create a data source in the **Data Sources** page. It’s recommended to have multiple data sources as it will allow you to have different refresh schedules and credentials for each of your data sources.
+You can bring in data to Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, SQL Azure, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, you can always export the data from your source as a CSV file and import to Customer Insights using our CSV connector. To import data to Customer Insights, you need to create a data source in the **Data Sources** page. It’s recommended to have multiple data sources as it will allow you to have different refresh schedules and credentials for each of your data sources.
 
 ## Bring your data into Customer Insights 
 
