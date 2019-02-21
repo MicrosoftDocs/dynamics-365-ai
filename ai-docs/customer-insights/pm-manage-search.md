@@ -27,14 +27,14 @@ The end result of the data configuration process is the creation of the *Custome
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
-To further understand how to utilize those capabilities, visit the **Profiles** section. In this section, we will cover the complementing capability that enables you **to edit the attributes by which you are searching, filtering, and sorting profiles.** This is done on the **Search, sort & filter** page.
+To further understand how to utilize those capabilities, visit the **Profiles** section. In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching, filtering, and sorting profiles. This is done on the **Search, sort & filter** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
 
 ## Adding attributes
 
-Upon selecting the *Search, Sort and Filter* tab on the left side menu, you can expect to see the following screen where you should select **Add attributes** to get started:
+After selecting the **Search, Sort and Filter** tab on the left-side menu, you'll see the following page where you should select **Add attributes** to get started.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes.png "Add attributes")
@@ -44,19 +44,19 @@ In the **Attributes** panel shown below, choose all the attributes by which user
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes2.png "Add attributes")
 
-Then you will get to the **Search, sort & filter** page. In the example shown below, many attributes were already selected.
+You will see the **Search, sort & filter** page. In the example shown below, many attributes were already selected.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
 
-You can always add more attributes via the **Add** button (shown in red below). You can also remove any selected attributes using the button shown in blue.
+You can always add more attributes via **Add** (shown in red below). You can also remove any selected attributes using the button shown in blue.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-add.png "Add attribute")
 
 ## Exploring the Search, sort & filter page
 
-Let's explore the table on this page, going left to right:
+Let's explore the table on this page, going left to right.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-edit.png "Edit attribute")
@@ -77,26 +77,26 @@ The **Filter** menu on the **Profiles** page can include a varying number of att
 1. How many results will appear on the filter panel
 2. In what order they will be organized
 
-The following image exemplifies the **Edit panel** that will open for strong-type attributes: 
+The following image shows the **Edit panel** that will open for strong-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/string-filter-options.png "String filter options")
 
 In this panel, you can specify the number of desired results on the **Filter** panel as well as the order policy by which they will be organized. 
 
-The following image exemlifies the **Edit panel** that will open for number-type attributes:
+The following image shows the **Edit panel** that will open for number-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/number-filter-options.png "Number filter options")
 
 In this panel you can specify the intervals included on the **Filter** panel as well as the order policy by which they will be organized.
 
-Lastly, the following image exemplifies the **Editing** panel that will open for date-type attributes:
+Lastly, the following image shows the **Editing** panel that will open for date-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/date-filter-options.png "Date filter options")
 
-In this panel you can specify the intervals included on the filter panel as well as the order policy by which they will be organized.
+In this panel, you can specify the intervals included on the filter panel as well as the order policy by which they will be organized.
 
 Save your selections using **Save** (shown in red below). Select **Run** (shown in blue) once you are ready to apply your settings. Once processing has completed, your definitions will now dictate how other users can search and filter for customers using the **Profiles** page.
 

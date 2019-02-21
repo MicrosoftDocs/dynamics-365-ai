@@ -26,23 +26,23 @@ The **System** page encapsulates everything that you, as an administrator, needs
 > [!div class="mx-imgBorder"] 
 > ![](media/system-tabs.png "Text")
 
-**Note**: We recommend to use the **Schedule tab** to ensure your data sources are updated on regular basis. Later in this section we will cover this tab in depth (right after the *Status* tab).
+**Note**: We recommend to use the **Schedule** tab to ensure your data sources are updated on regular basis. Later in this section we will cover this tab in depth (right after the **Status** tab).
 
 ## Status tab
 
 The **Status** tab enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables.
 
-- **Data Sources**: This table lists all the data sources from which you are ingesting your data. The left side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources - whether it didn't start, in progress, or already completed. Lastly, the right side column states the last data refresh date for each of the data sources.
+- **Data Sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources - whether it didn't start, in progress, or already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-sources.png "System data sources")
 
-- **System Processes**: This table lists all the processes that should be executed in Customer Insights as part of a full user journey. The left side column specifies those processes' names. The middle column presents the status of progress for each of these processes - whether it didn't start, in progress, or already completed. Lastly, the right side column states the last data refresh date for each of the processes.
+- **System Processes**: This table lists all the processes that should be executed in Customer Insights as part of a full user journey. The left-side column specifies those processes' names. The middle column presents the status of progress for each of these processes - whether it didn't start, in progress, or already completed. Lastly, the right-side column states the last data refresh date for each of the processes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-status-processes.png "Text")
 
-- **In addition**, you can view the details of each completed data source ingestion or system process by selecting that data source or process row. In the example below, the user has selected the *Dynamics365forSales* data source that has ingestion status *Complete* (shown in red) and got additional details on that data source (shown in blue):
+- **In addition**, you can view the details of each completed data source ingestion or system process by selecting that data source or process row. In the example below, the user has selected the *Dynamics365forSales* data source that has ingestion status **Complete** (shown in red) and got additional details on that data source (shown in blue).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-database-details.png "Text")
@@ -54,43 +54,43 @@ Use the **Schedule** tab to refresh all of your ingested Customer Insights data.
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-off.png "System data refresh off")
 
-In Customer Insights, the default state for data refresh is **Off**, reflecting no scheduled refreshes (as shown above). To change it, use the slider at the top of the screen (changing it to **On** status as shown below).
+In Customer Insights, the default state for data refresh is **Off**, reflecting no scheduled refreshes (as shown above). To change it, use the slider at the top of the screen changing it to **On** status as shown below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-on.png "System data refresh on")
 
-The next step is to decide between **Weekly** (default) and **Daily** refresh:
+The next step is to decide between **Weekly** (default) and **Daily** refresh.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-period.png "System data refresh period")
 
-First we will demonstrate the definition of a daily refresh, and then we will continue with the case of a weekly refresh.
+First, we will demonstrate the definition of a daily refresh, and then we will continue with the case of a weekly refresh.
 
-First, select the **Time** field:
+Select the **Time** field.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-time-period.png "System data refresh time period")
 
 In the timer shown above, use the four arrows to set your refresh timing. When finished, select **Set**. You can also close the timer without saving your selections by selecting **Close**.
 
-Set multiple daily refreshes by selecting **Add another time**:
+Set multiple daily refreshes by selecting **Add another time**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-add-another-time.png "System data refresh add another time")
 
-To discard any of your saved timings, select the boxes shown below:
+To discard any of your saved timings, select the boxes shown below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-discard-time.png "System data refresh discard time")
 
-To schedule a **weekly refresh**, check the boxes for the days in which you want to execute your refreshes:
+To schedule a **weekly refresh**, check the boxes for the days in which you want to execute your refreshes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-weekly-time.png "System data refresh weekly time")
 
 Follow the steps specified above for daily refresh setting in order to complete the weekly refresh setting.
 
-Lastly, don't forget to **Save** your changes:
+Lastly, don't forget to **Save** your changes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-save.png "System data refresh save")
