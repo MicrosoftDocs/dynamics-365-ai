@@ -99,7 +99,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
 
 1. If it’s a desktop file, you should first save it in SharePoint as explained here: [Work with worksheet data in OneDrive](https://support.office.com/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
 
-2. Select the **Text/csv** connector:
+2. Select the **Text/csv** connector.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-excel.png "Select Excel")

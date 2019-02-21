@@ -21,13 +21,13 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Measures page** enables you to define all the KPIs that best reflect your specific business performance and health. It can either be customer related measures such as *Lifetime Value*, or business health measures such as *Monthly Active Users*. Customer Insights provides an intuitive experience to build different types of measures, with a query builder wizard that doesn’t require the user to manually code or validate the query. 
+The **Measures** page enables you to define all the KPIs that best reflect your specific business performance and health. It can either be customer related measures such as *Lifetime Value*, or business health measures such as *Monthly Active Users*. Customer Insights provides an intuitive experience to build different types of measures, with a query builder wizard that doesn’t require the user to manually code or validate the query. 
 
 Once defined, you can benefit from your measures in a variety of ways. For example:
 
-- Track your business health measures on your **Home page**
+- Track your business health measures on your **Home** page.
 - View customer measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in section** to learn more.
-- Use to define a customer segment, using the **Segment Builder page.** See the **Segments section** to learn more.
+- Use to define a customer segment, using the **Segment Builder** page. See the **Segments section** to learn more.
 
 ## Step One: Choose between three measure types
 
@@ -118,7 +118,7 @@ In this step, you will decide how to aggregate and summarize your chosen entitie
 
 What is a dimension? You can think of a dimension as a **Group by** function: The data within your new Measures entity or attribute will be grouped by all of your defined dimensions.
 
-In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity we have just created on the **Entities screen**, we can see that the data we included in that entity (columns shown in blue) is grouped by the State column (as shown in red):
+In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity we have just created on the **Entities screen**, we can see that the data we included in that entity (columns shown in blue) is grouped by the State column (as shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
@@ -133,7 +133,7 @@ These are the selections you should fill in as part of your dimension's definiti
 **Bucket**: This is a required selection only if you have selected a **Date** type of attribute. Under this selection, you should decide whether you wish to aggregate the data on a daily, monthly or annual basis.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/measures-businessreport-measure-definition2.png "Text")
+> ![](media/measures-businessreport-measure-definition2.png "Measure definition")
 
 **As**: Here you should define the name of your new field in the Measures entity or attribute. <br />
 **Display Name**: Here you should define the display name of your field in the Measures entity or attribute. This name will show up both in the customer tile on the **Profiles** page, and within the Customer Card.
@@ -143,19 +143,21 @@ These are the selections you should fill in as part of your dimension's definiti
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dimension.png "New dimension")
 
-**Step 3 (optional)**: Add aggragate functions 
+**Step 3 (optional)**: Add aggregate functions 
 
-You can use previously defined measures as building blocks for your aggregations. Any aggragation that you will create will result in a new field within your Measures entity or attribute. 
+You can use previously defined measures as building blocks for your aggregations. Any aggregation that you will create will result in a new field within your Measures entity or attribute. 
 
-Supported aggragation functions at this point are: **Min, Max, Average, Median, Sum, and Count Unique.**
+Supported aggregation functions at this point are: **Min, Max, Average, Median, Sum, and Count Unique.**
 
-For example, let us assume we have added the following aggragated field: **Average Service Amount** that takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it:
+For example, let us assume we have added the following aggregated field: **Average Service Amount** that takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it.
 
-// 1
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-aggregated-field-example.png "Aggregated field example")
 
-Upon visiting the **Entities** page and choosing the new Measure we have just created (called **Aggragated Example**), we can see that our aggragation formula had created the new field **Average Service Amount**:
+Upon visiting the **Entities** page and choosing the new Measure we have just created (called **Aggragated Example**), we can see that our aggregation formula had created the new field **Average Service Amount**.
 
-// 2
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-aggregated-field-example2.png "Aggregated field example")
 
 Let's explore the steps involved in defining a new measure.
 
