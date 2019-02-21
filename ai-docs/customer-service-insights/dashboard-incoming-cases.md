@@ -15,7 +15,7 @@ manager: shellyha
 # New cases dashboard​
 
 > [!div class="mx-imgBorder"]
-> ![New cases dashboard](media/ai-csi-new-cases-dash.PNG)
+> ![New cases dashboard](media/ai-csi-new-cases-dash.png)
 
 The New cases dashboard gives you an overview of the new cases in your customer service system. It uses artificial intelligence (AI) technology to help you identify popular and emerging issues.
 
@@ -31,12 +31,12 @@ The Popular topics and Emerging topics charts use natural language understanding
 
 By default, the dashboard shows you key performance indicators for the past month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
-To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards. For more information on working with filters, see [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 ## Case priority chart
 
 > [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority-incoming.PNG)
+> ![Case priority chart](media/ai-csi-case-priority-incoming.png)
 
 The Case priority chart shows the breakdown in new support cases each day in the specified time period between high, medium, and low-priority cases.
 
@@ -47,7 +47,7 @@ Case priority | Daily incoming case breakdown by case priority
 ## Case channel chart
 
 > [!div class="mx-imgBorder"]
-> ![Case channel chart](media/ai-csi-case-channels-incoming.PNG)
+> ![Case channel chart](media/ai-csi-case-channels-incoming.png)
 
 The Case channel chart shows the breakdown in new support cases each day in the specified time period between different support channels.
 
@@ -58,7 +58,7 @@ Case channel | Daily incoming case breakdown by channel
 ## Case timing chart
 
 > [!div class="mx-imgBorder"]
-> ![Case timing chart](media/ai-csi-case-timing.PNG)
+> ![Case timing chart](media/ai-csi-case-timing.png)
 
 The Case timing chart shows the trends in the time of day of new support cases for each channel during the time period.
 
@@ -69,7 +69,7 @@ Case timing | Incoming case breakdown by channel and time of day
 ## Popular topics chart
 
 > [!div class="mx-imgBorder"]
-> ![Popular topics chart](media/ai-csi-popular-topics.PNG)
+> ![Popular topics chart](media/ai-csi-popular-topics.png)
 
 The Popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics and then display topics in order of volume over the specified time period.
 
@@ -88,7 +88,7 @@ To see additional information about each topic, right-click the topic name, hove
 ## Emerging topics chart
 
 > [!div class="mx-imgBorder"]
-> ![Emerging topics chart](media/ai-csi-emerging-topics.PNG)
+> ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
 The Emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics and then display the topics in order of the change in volume over the specified time period.
 
