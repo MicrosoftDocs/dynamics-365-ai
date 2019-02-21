@@ -31,7 +31,7 @@ In order to utilize the Customer Insights dashboard, make sure that you have cre
 
 ### Step One: Download MEZ file
 
-Download the following MEZ file from Blobs: https://aka.ms/CIPBIConnector
+Download the following MEZ file from Blobs: [https://go.microsoft.com/fwlink/p/?linkid=2077331](https://go.microsoft.com/fwlink/p/?linkid=2077331)
 
 ### Step Two: Publish the Customer Insights dashboard
  
