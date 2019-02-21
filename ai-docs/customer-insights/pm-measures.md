@@ -78,7 +78,7 @@ After completing Step Two, you'll see the following page.
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition.png "Measure definition")
 
-At this point you should decide whether additional entities are needed as part of your measure definition. One use case might be creating an expression that will be based on attributes from two or more different entities. We will explore that use case in Step Four. Another use case, specifically for the profile measure and business measure, is creating a measure entity that is composed of multiple entities. We will explore that use case in Step Five.
+Customer Insights lets you build measures leveraging data from multiple data sources, that are now connected through the *Customer entity*. At this point you should decide whether additional entities are needed as part of your measure definition. One use case might be creating an expression that will be based on attributes from two or more different entities. We will explore that use case in Step Four. Another use case, specifically for the profile measure and business measure, is creating a measure entity that is composed of multiple entities. We will explore that use case in Step Five.
 
 In order to choose additional entities, select **Add new entity** and pick the entities of your interest.
 
@@ -110,16 +110,15 @@ In the example below, we have defined a calculation for the relative contributio
 > [!div class="mx-imgBorder"] 
 > ![](media/new-variable-name2.png "New variable name")
 
-
 ## Step Five: Define your measure entity/attribute
 
-In this step, you will decide how to aggregate your chosen entities and calculations into a measure entity or attribute which you can start using in **Home page**, **Segments**, or any other page. 
+In this step, you will decide how to aggregate and summarize your chosen entities and calculated variables into a measure entity or attribute. 
 
-**Step 1:** Define first dimension
+**Step 1: Defining first dimension**
 
-You can think of a dimension as a *Group by* function. The data within your new Measures entity or attribute will be grouped by all of your defined dimensions. 
+What is a dimension? You can think of a dimension as a **Group by** function: The data within your new Measures entity or attribute will be grouped by all of your defined dimensions.
 
-In the example below, we have defined **State** as the dimension field of our Measures entity. Upon visiting the Measures entity we have just created on the **Entities** page, we can see that the data we included in that entity (columns shown in blue) is grouped by the *State* column (shown in red).
+In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity we have just created on the **Entities screen**, we can see that the data we included in that entity (columns shown in blue) is grouped by the State column (as shown in red):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
@@ -144,18 +143,21 @@ These are the selections you should fill in as part of your dimension's definiti
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dimension.png "New dimension")
 
-**Step 3 (optional)**: Add measures
+**Step 3 (optional)**: Add aggragate functions 
 
-This option should be used in case you wish to include aggregated column/s in your Measures entity or attribute. By aggregated column we refer to a column where every value results from a specific calculation being made on one of your original entity's columns. 
+You can use previously defined measures as building blocks for your aggregations. Any aggragation that you will create will result in a new field within your Measures entity or attribute. 
 
-For example, let us assume we have added three additional measures: LTV, Purchase Amount, and Service Amount. Each of these three measures represents a summation of other attributes we have in one or more of our ingested entities.
+Supported aggragation functions at this point are: **Min, Max, Average, Median, Sum, and Count Unique.**
 
-Upon visiting the **Entities** page and choosing the new Measure we have just created, we can see that these three new fields are included in our Measure (shown in blue). Again, these fields' values result from the summation of other attributes. 
+For example, let us assume we have added the following aggragated field: **Average Service Amount** that takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/measures-businessreport-data-tab.png "Text")
+// 1
 
-Let's explore how to add a new measure.
+Upon visiting the **Entities** page and choosing the new Measure we have just created (called **Aggragated Example**), we can see that our aggragation formula had created the new field **Average Service Amount**:
+
+// 2
+
+Let's explore the steps involved in defining a new measure.
 
 First, select **New Measure**.
 
