@@ -15,7 +15,7 @@ manager: shellyha
 # Resolutions dashboard​
 
 > [!div class="mx-imgBorder"]
-> ![Resolutions dashboard](media/ai-csi-resolutions-dash.PNG)
+> ![Resolutions dashboard](media/ai-csi-resolutions-dash.png)
 
 The Resolutions dashboard gives you an overview of your customer service system's case resolution performance. It uses artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
@@ -31,12 +31,12 @@ The Resolution time drivers chart uses natural language understanding to group s
 
 By default, the dashboard shows you key performance indicators for the last month, and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either last day, last week, or last month.
 
-To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards. For more information on working with filters, see [Work with AI for Customer Service Insights dashboards](use-dashboard-sample-data.md).
+To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards. For more information on working with filters, see [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 ## Agents with longest resolve time chart
 
 > [!div class="mx-imgBorder"]
-> ![Agents with longest resolve time chart](media/ai-csi-longest-resolve-time.PNG)
+> ![Agents with longest resolve time chart](media/ai-csi-longest-resolve-time.png)
 
 The Agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer-support case, in reverse order of resolution time.
 
@@ -47,7 +47,7 @@ Agents with longest resolve time | Resolved case resolution time breakdown by ag
 ## New cases versus average resolution time chart
 
 > [!div class="mx-imgBorder"]
-> ![New cases versus average resolution time chart](media/ai-csi-incoming-vs-resolution-time.PNG)
+> ![New cases versus average resolution time chart](media/ai-csi-incoming-vs-resolution-time.png)
 
 The New cases versus average resolution time chart shows the daily trend in the specified time period in the number of new support cases and the average resolution time, in minutes.
 
@@ -59,7 +59,7 @@ Average resolution time | Daily average case resolution time
 ## Agents handling most escalations chart
 
 > [!div class="mx-imgBorder"]
-> ![Agents handling most escalations chart](media/ai-csi-most-escalations.PNG)
+> ![Agents handling most escalations chart](media/ai-csi-most-escalations.png)
 
 The Agents handling most escalations chart shows the number of active and resolved support cases for each agent, in order of total cases.
 
@@ -70,7 +70,7 @@ Agents handling most escalations | Number of active and resolved cases by agent
 ## New escalations versus resolved escalations chart
 
 > [!div class="mx-imgBorder"]
-> ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.PNG)
+> ![New escalations versus resolved escalations chart](media/ai-csi-new-resolved-escalations.png)
 
 The New escalations versus resolved escalations chart shows the daily trend in the number of new support cases that are escalated and the number of escalated cases that are resolved.
 
@@ -82,7 +82,7 @@ Resolved escalations | Daily number of escalated cases that are resolved
 ## Resolution time drivers chart
 
 > [!div class="mx-imgBorder"]
-> ![Resolution time drivers](media/ai-csi-resolution-drivers.PNG)
+> ![Resolution time drivers](media/ai-csi-resolution-drivers.png)
 
 The Resolution time drivers chart uses artificial intelligence technology to group related support cases as support topics and then display topics in order of resolution time over the specified time period.
 
