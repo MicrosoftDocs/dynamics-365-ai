@@ -135,14 +135,14 @@ These are the selections you should fill in as part of your dimension's definiti
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition2.png "Measure definition")
 
-**Entity/variable**: If you define a Measures entity, it should include at least one attribute. If you define a Measures attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute.
-**Field**: Here you should pick the specific attribute to be included either in your Measures entity or attribute.
+**Entity/variable**: If you define a Measures entity, it should include at least one attribute. If you define a Measures attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
+**Field**: Here you should pick the specific attribute to be included either in your Measures entity or attribute. <br />
 **Bucket**: This is a required selection only if you have selected a **Date** type of attribute. Under this selection, you should decide whether you wish to aggregate the data on a daily, monthly or annual basis.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-measure-definition2.png "Text")
 
-**As**: Here you should define the name of your new field in the Measures entity or attribute.
+**As**: Here you should define the name of your new field in the Measures entity or attribute. <br />
 **Display Name**: Here you should define the display name of your field in the Measures entity or attribute. This name will show up both in the customer tile on the **Profiles** page, and within the Customer Card.
 
 **Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just went through.
