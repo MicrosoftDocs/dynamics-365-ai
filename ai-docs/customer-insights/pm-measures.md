@@ -174,7 +174,7 @@ Then, make those selections (exploring left to right).
 > ![](media/measure-definition4.png "Measure definition")
 
 **Function**: At present, we support **Sum, Min, Max, Count and Unique Count** as aggregation options.
-**Entity/Variable**: Here you should choose the entity that includes the attribute on which you wish to base your calculation. You can also choose a *Variable* if you created one as part of step four above. 
+**Entity/Variable**: Here you should choose the entity that includes the attribute on which you wish to base your calculation. You can also choose a *Variable* if you created one as part of Step Four above. 
 **Field**: Pick the specific attribute or variable on which you wish to base your calculation.
 **As**: Your calculation will result in a new field. Define the name of your new field in the Measures entity/attribute.
 **Display Name**: Define the display name of your new field in the Measures entity/attribute. That name will show up both in the customer tiles within the **Profiles** page and in the Customer Card.
