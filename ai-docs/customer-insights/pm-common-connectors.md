@@ -26,20 +26,20 @@ manager: "kvivek"
 
 ## Ingest data from an Excel file (text/CSV)
 
-1. If it’s a desktop file, you should first save it in SharePoint (as explained here: [Work with worksheet data in OneDrive](https://support.office.com/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
+1. If it’s a desktop file, you should first save it in SharePoint as explained here: [Work with worksheet data in OneDrive](https://support.office.com/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
 
 2. Select the **Text/csv** connector:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-excel.png "Select Excel")
 
-3. Manually formatting the URL to your online document
+3. Manually format the URL to your online document.
 
    Once you copy the URL to your online document from SharePoint, it should look like this: 
 
    https://microsoft.sharepoint.com/:u:/t/TeamName/EdP4Jh3iCj9DUteIBCzbdOX7C4bmVvzlDo81F0A?e=2Co1vj
    
-   And needs to be formatted following these steps:
+   Format the URL as follows:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-format-url1.png "Format URL")
@@ -49,7 +49,7 @@ manager: "kvivek"
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-format-final-result.png "Format URL")
 
- Let's take an example of a copied link: 
+ An example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
 
 **Your team name**
@@ -69,10 +69,10 @@ manager: "kvivek"
 
 ## Ingest data from a file hosted in Azure blob
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/connector-azure-storage.png "Select Azure Blobs")
+> [!div class="mx-imgBorder"] 
+> ![](media/connector-azure-storage.png "Select Azure Blobs")
 
-To ingest data to Dynamics 360 from a CSV file hosted within a blob location in an Azure subscription, follow these steps.
+To ingest data to Customer Engagement from a CSV file hosted within a blob location in an Azure subscription, follow these steps.
 
 1. Select **Blob connector** from the list of connectors.
 
@@ -101,39 +101,39 @@ To ingest data to Dynamics 360 from a CSV file hosted within a blob location in 
    
 ## Ingest data from Dynamics 365 for Customer Engagement
 
-Select **Common Data Service for Apps**.
+1. Select **Common Data Service for Apps**.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-cds.png "Select Common Data Service")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-cds.png "Select Common Data Service")
+ 
+2. Provide your server URL.
 
-Provide your server URL.
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-provide-server-url.png "Provide server URL")
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-provide-server-url.png "Provide server URL")
+   Log in with your username and password.
 
-Log in with your username and password.
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-ce-log-in.png "Log in")
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-ce-log-in.png "Log in")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-account.png "Connector account")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-account.png "Connector account")
 
 ## Ingest data from Azure SQL database
 
-Select **SQL Server database** from the connector list.
+1. Select **SQL Server database** from the connector list.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-select-sql-server-database.png "Select SQL Server database")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-select-sql-server-database.png "Select SQL Server database")
 
-Select **SQL Server database**.
+2. Select **SQL Server database**.
 
-Provide your database server, database name, username and password.
+3. Provide your database server, database name, username and password.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-provide-database-settings.png "Provide database settings")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-provide-database-settings.png "Provide database settings")
 
-Pick data from the specific tables you want to bring into Customer Insights.
+4. Pick data from the specific tables you want to bring into Customer Insights.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/connector-pick-data-from-tables.png "Pick data from tables")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-pick-data-from-tables.png "Pick data from tables")
