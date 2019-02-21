@@ -21,38 +21,32 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Measures** page enables you to define all the KPIs that best reflect your specific business domain and goals. Once defined, you can benefit from your measures in a variety of ways. For example:
+The **Measures page** enables you to define all the KPIs that best reflect your specific business performance and health. It can either be customer related measures such as *Lifetime Value*, or business health measures such as *Monthly Active Users*. Customer Insights provides an intuitive experience to build different types of measures, with a query builder wizard that doesn’t require the user to manually code or validate the query. 
 
-- Consume on your **Home** page 
-- View for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in** section to learn more. 
-- Use to define a customer segment, using the **Segment Builder** page. See the **Segments** section to learn more.
+Once defined, you can benefit from your measures in a variety of ways. For example:
+
+- Track your business health measures on your **Home page**
+- View customer measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in section** to learn more.
+- Use to define a customer segment, using the **Segment Builder page.** See the **Segments section** to learn more.
 
 ## Step One: Choose between three measure types
+
+Customer Insights supports 3 types of measures:
+
+- **Profile Attribute**: this measure represents is a single value per customer, that reflects a score, value or state for the customer. Profile attributes are created as attributes in a new system generated entity called **Customr_Measure.** Examples: *Lifetime Value,* *Total Sales* etc.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-customer-entity.png "Customer_Measure attribute")
+
+- **Profile Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure, with potential multiple records per customer. Examples: *Number of visits per channel*, *Total sales per day*
+- **Business Measure**: This measure helps you track your business performance and health. A new entity will be generated per measure. Examples: *Average sales per customer*, *MAU*
+
+You will first select the type of measure when clicking on New Measure:
 
 There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you upon selecting **New Measure**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-measures.png "Search measures")
-
-First, you should decide whether to:
-
-  - Create a new entity around your measure.
-  - Or, save your measure as an attribute within the Customer Profile entity. Then choose the **Profile Attribute** option. After creating each Profile Attribute, it will be added to a new entity on the **Entities** page that includes all of your Customer Profile data plus the new attribute called **Customer_Measure**.
-  
-> [!div class="mx-imgBorder"] 
-> ![](media/measures-customer-entity.png "Customer_Measure attribute")
-.
-Second, if decided to save the measure as a new entity, you should also decide whether to:
-
-  - Create the measure based on fields from the Customer Profile entity - which corresponds to a **Profile Measure** option.
-  - Or, create it based on another ingested entity which corresponds to a **Business Measure.**
-  
-Note that your choice at this point will affect the number of dimensions supported for your measure. You will choose your dimensions in Step Four when we will go through the *Measure Definition* process. 
-
-- Profile attribute and profile measure are limited to a single dimension.
-- Business measure supports multiple dimensions.
-
-In the next three sections, we will explore the steps you should complete in order to define your measure. 
 
 ## Step Two: Choose the Starting entity
 
