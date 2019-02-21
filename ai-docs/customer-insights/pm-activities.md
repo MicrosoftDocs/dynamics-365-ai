@@ -24,7 +24,7 @@ manager: "kvivek"
 The *Activities* capability consolidates customers' activities from multiple channels. It includes two components.
 
 1. **Activities page**: This component is accessible via the **Activities** tab on the left-side menu and is used to define the activities that you wish to view around each of your customers. 
-2. **Timeline grid**: This grid consolidates all the activities of one customer in a chronological manner and can be viewed either within a Customer Engagement app via the Customer Card add-in or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the **Timeline Control** sub-section within the **Customer Card** section to learn on how to work with that control. 
+2. **Timeline grid**: This grid consolidates all the activities of one customer in a chronological manner and can be viewed either within a Customer Engagement app via the Customer Card add-in or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the **Timeline Control** sub-section within the **Customer Card** section to learn how to work with that control. 
 
 In this section we will only cover the **Activities** page. 
 

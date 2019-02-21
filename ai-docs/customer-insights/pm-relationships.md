@@ -23,7 +23,7 @@ manager: "kvivek"
 
 ## What are relationships useful for?
 
-In Customer Insights you can define relationships between entities. As explained in the **Segments** section, these relationships are useful and sometimes even mandatory for segment creation. In the future it is possible that they will be used in additional product modules and processes.
+In Customer Insights you can define relationships between entities. As explained in the **Segments** section, these relationships are useful and sometimes even mandatory for segment creation. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-relationships-tile.png "Relationships tile")
@@ -44,7 +44,7 @@ During the match and merge processes, system relationships are created behind th
 
 ## Use the Relationships page to add and edit entities
 
-In addition, you can use the **Relationships** page to define custom relationships as shown below (accessible through the **Relationships** tab on the left-side menu).
+In addition, you can use the **Relationships** page to define custom relationships as shown below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-custom.png "Custom relationships")
@@ -59,7 +59,7 @@ To create a relationship, first select **Add Relationship**.
 > [!div class="mx-imgBorder"] 
 > ![](media/add-relationships.png "Add relationships")
 
-Then you need to provide the following information in the Relationship panel.
+Then, you need to provide the following information in the Relationship panel.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-add.png "Add a relationship")
