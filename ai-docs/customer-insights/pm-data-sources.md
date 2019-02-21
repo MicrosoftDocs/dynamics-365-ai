@@ -54,7 +54,7 @@ To load data to Customer Insights, follow the following process:
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-select-source.png "Get data select source")
 
-   - If you wish to load data from Customer Engagement, choose the  **Common Data Service for Apps** connector.
+   - If you wish to load data from Dynamics 365, choose the  **Common Data Service for Apps** connector.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
@@ -65,19 +65,20 @@ To load data to Customer Insights, follow the following process:
 
 In the this step, you'll add entities to your data source. In Customer Insights, entities are datasets. For example, If you have a database that includes multiple datasets, each of those datasets is an entity (an Orders dataset, a Sales dataset, etc.). 
 
-1. Use the power query window shown below to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (shown in red).
+1. Use the Power Query window shown below to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (shown in red):
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
-   
-   You can add additional entities to your data source by selecting **Get Data**.
+
+2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also note that each transformation will be added as a processing step, as illustrated in green above, which can always be modified as needed.
+
+
+3. Lastly, you can add additional entities to your data source by selecting **Get Data** as shown below in red:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-source-get-data.png "Get Data")
 
-2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also note that each transformation will be added as a processing step, as illustrated in the green box, which can always be modified as needed.
-
-   Optionally, to avoid data-related issues, you should complete the next few transformations.
+Note that the next few transformations are highly recommended:
 
    - If you are ingesting data from a CSV file and the first row has headers, you should open the **Transform Table** menu and then select the **Use headers as first row** option.
 
