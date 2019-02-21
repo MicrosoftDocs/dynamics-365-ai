@@ -30,7 +30,7 @@ You can bring in data to Customer Insights by using the 20+ out-of-the-box conne
 
 ### Step One (mandatory): Creating a new data source on the Data Sources page
 
-To load data to Customer Insights, follow the following process:
+Follow the steps below to load the data into Customer Insights.
 
 1. Navigate to **Data Sources** from the **Data Manager** page.
 
@@ -42,19 +42,19 @@ To load data to Customer Insights, follow the following process:
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-add.png "Get data add")
 
-3. Provide a name for the data source and select **Save**. This will create the data source for you. 
+3. Provide a name for the data source and select **Save**. This will create the data source. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-create.png "Get data create")
 
-4. Pick one of the many available connectors that are available in the screen below.
+4. Pick one of the many available connectors that are available in the page below.
 
    - Some of the following data sources are not yet supported, such as OData. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-select-source.png "Get data select source")
 
-   - If you wish to load data from Dynamics 365, choose the  **Common Data Service for Apps** connector.
+   - If you wish to load data from Customer Engagement, choose the  **Common Data Service for Apps** connector.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
@@ -72,13 +72,12 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also note that each transformation will be added as a processing step, as illustrated in green above, which can always be modified as needed.
 
-
-3. Lastly, you can add additional entities to your data source by selecting **Get Data** as shown below in red:
+3. Lastly, you can add additional entities to your data source by selecting **Get Data** as shown below in red.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-source-get-data.png "Get Data")
 
-Note that the next few transformations are highly recommended:
+Note that the next few transformations are highly recommended.
 
    - If you are ingesting data from a CSV file and the first row has headers, you should open the **Transform Table** menu and then select the **Use headers as first row** option.
 
@@ -100,7 +99,7 @@ Note that the next few transformations are highly recommended:
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
-For each of your ingested data sources, besides its name, you can expect to see the last time the data was refreshed for that data source, as well as its status. There are three possible statuses: 
+For each of your ingested data sources, besides its name, you can expect to see the last time the data was refreshed for that data source, as well as its status. There are three possible statuses:
 
 1. Data was successfully ingested (example is shown in blue in the image above)
 2. No data was ingested yet (example is shown in red in the image above)
