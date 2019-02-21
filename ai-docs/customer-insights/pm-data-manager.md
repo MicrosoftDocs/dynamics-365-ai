@@ -33,14 +33,14 @@ In the next two Data Manager sections (*Data sources* and *Common connectors gui
 - Behavioral sources
 - Any other data you might have 
 
-Connecting to your data sources is the first step towards unlocking one of the unique promises behind Customer Insights - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
+Connecting to your data sources is the first step toward unlocking one of the unique promises behind Customer Insights - consolidating and reconciling data on your customers from multiple sources that once were disparate and conflicting. 
 
 In the [Data sources](pm-data-sources.md) and [Common connectors guidance](pm-common-connectors.md) topics, you will learn how to complete the mandatory data ingestion process via the **Data Sources** page.
 
 **Note**: Currently, on-premises data sources are not supported in Customer Insights. 
 
 Then, you can either:
-- Start the data configuration process (accessible both via the **Configure Data** tile within the **Data Manager** page, and via the **Configure Data tab** on the left-side menu). After completing the **Data Sources** section, review the **Configure Data** section.
+- Start the data configuration process (accessible both via the **Configure Data tile** within the **Data Manager** page, and via the **Configure Data tab** on the left-side menu). After completing the **Data Sources** section, review the **Configure Data** section.
 - Or, explore the data that you have just ingested through the **Entities** page. Once you've completed the **Data Sources** section, review the **Entities** section. 
 
 
