@@ -71,7 +71,7 @@ This step includes all your activity definitions. We will explore those from lef
 - **Unit**: Here you should choose the unit of time for the duration of your activity.
 - **Description**: This field enables you to provide a recognizable name for your activity, so you can easily identify it on the Customer Insights Dashboard timeline. 
 - **Icon**: For the same purpose of easily distinguishing your activity from the rest of your activities, here you can add an icon to your activity if it's publicly available. A URL address or Unicode is required.
-- **Delete button**: Selecting the button that is highlighted in the image above will delete that specific activity
+- **Delete button**: Select the button that is highlighted in the image above to delete that specific activity.
   
 At this point you are ready to define your next activity which can be done via **Add** as highlighted in red below. Don't forget to save your activities (shown in blue).
 

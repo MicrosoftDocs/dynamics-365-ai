@@ -21,38 +21,32 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Measures** page enables you to define all the KPIs that best reflect your specific business domain and goals. Once defined, you can benefit from your measures in a variety of ways. For example:
+The **Measures** page enables you to define all the KPIs that best reflect your specific business performance and health. It can either be customer related measures such as *Lifetime Value*, or business health measures such as *Monthly Active Users*. Customer Insights provides an intuitive experience to build different types of measures, with a query builder wizard that doesn’t require the user to manually code or validate the query. 
 
-- Consume on your **Home** page 
-- View for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in** section to learn more. 
-- Use to define a customer segment, using the **Segment Builder** page. See the **Segments** section to learn more.
+Once defined, you can benefit from your measures in a variety of ways. For example:
+
+- Track your business health measures on your **Home** page.
+- View customer measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in section** to learn more.
+- Use to define a customer segment, using the **Segment Builder** page. See the **Segments section** to learn more.
 
 ## Step One: Choose between three measure types
+
+Customer Insights supports 3 types of measures:
+
+- **Profile Attribute**: this measure represents is a single value per customer, that reflects a score, value or state for the customer. Profile attributes are created as attributes in a new system generated entity called **Customr_Measure.** Examples: *Lifetime Value,* *Total Sales* etc.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-customer-entity.png "Customer_Measure attribute")
+
+- **Profile Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure, with potential multiple records per customer. Examples: *Number of visits per channel*, *Total sales per day*
+- **Business Measure**: This measure helps you track your business performance and health. A new entity will be generated per measure. Examples: *Average sales per customer*, *MAU*
+
+You will first select the type of measure when clicking on New Measure:
 
 There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you upon selecting **New Measure**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-measures.png "Search measures")
-
-First, you should decide whether to:
-
-  - Create a new entity around your measure.
-  - Or, save your measure as an attribute within the Customer Profile entity. Then choose the **Profile Attribute** option. After creating each Profile Attribute, it will be added to a new entity on the **Entities** page that includes all of your Customer Profile data plus the new attribute called **Customer_Measure**.
-  
-> [!div class="mx-imgBorder"] 
-> ![](media/measures-customer-entity.png "Customer_Measure attribute")
-.
-Second, if decided to save the measure as a new entity, you should also decide whether to:
-
-  - Create the measure based on fields from the Customer Profile entity - which corresponds to a **Profile Measure** option.
-  - Or, create it based on another ingested entity which corresponds to a **Business Measure.**
-  
-Note that your choice at this point will affect the number of dimensions supported for your measure. You will choose your dimensions in Step Four when we will go through the *Measure Definition* process. 
-
-- Profile attribute and profile measure are limited to a single dimension.
-- Business measure supports multiple dimensions.
-
-In the next three sections, we will explore the steps you should complete in order to define your measure. 
 
 ## Step Two: Choose the Starting entity
 
@@ -84,7 +78,7 @@ After completing Step Two, you'll see the following page.
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition.png "Measure definition")
 
-At this point you should decide whether additional entities are needed as part of your measure definition. One use case might be creating an expression that will be based on attributes from two or more different entities. We will explore that use case in Step Four. Another use case, specifically for the profile measure and business measure, is creating a measure entity that is composed of multiple entities. We will explore that use case in Step Five.
+Customer Insights lets you build measures leveraging data from multiple data sources, that are now connected through the *Customer entity*. At this point you should decide whether additional entities are needed as part of your measure definition. One use case might be creating an expression that will be based on attributes from two or more different entities. We will explore that use case in Step Four. Another use case, specifically for the profile measure and business measure, is creating a measure entity that is composed of multiple entities. We will explore that use case in Step Five.
 
 In order to choose additional entities, select **Add new entity** and pick the entities of your interest.
 
@@ -116,16 +110,15 @@ In the example below, we have defined a calculation for the relative contributio
 > [!div class="mx-imgBorder"] 
 > ![](media/new-variable-name2.png "New variable name")
 
-
 ## Step Five: Define your measure entity/attribute
 
-In this step, you will decide how to aggregate your chosen entities and calculations into a measure entity or attribute which you can start using in **Home page**, **Segments**, or any other page. 
+In this step, you will decide how to aggregate and summarize your chosen entities and calculated variables into a measure entity or attribute. 
 
-**Step 1:** Define first dimension
+**Step 1: Defining first dimension**
 
-You can think of a dimension as a *Group by* function. The data within your new Measures entity or attribute will be grouped by all of your defined dimensions. 
+What is a dimension? You can think of a dimension as a **Group by** function: The data within your new Measures entity or attribute will be grouped by all of your defined dimensions.
 
-In the example below, we have defined **State** as the dimension field of our Measures entity. Upon visiting the Measures entity we have just created on the **Entities** page, we can see that the data we included in that entity (columns shown in blue) is grouped by the *State* column (shown in red).
+In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity we have just created on the **Entities screen**, we can see that the data we included in that entity (columns shown in blue) is grouped by the State column (as shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
@@ -140,7 +133,7 @@ These are the selections you should fill in as part of your dimension's definiti
 **Bucket**: This is a required selection only if you have selected a **Date** type of attribute. Under this selection, you should decide whether you wish to aggregate the data on a daily, monthly or annual basis.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/measures-businessreport-measure-definition2.png "Text")
+> ![](media/measures-businessreport-measure-definition2.png "Measure definition")
 
 **As**: Here you should define the name of your new field in the Measures entity or attribute. <br />
 **Display Name**: Here you should define the display name of your field in the Measures entity or attribute. This name will show up both in the customer tile on the **Profiles** page, and within the Customer Card.
@@ -150,18 +143,23 @@ These are the selections you should fill in as part of your dimension's definiti
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dimension.png "New dimension")
 
-**Step 3 (optional)**: Add measures
+**Step 3 (optional)**: Add aggregate functions 
 
-This option should be used in case you wish to include aggregated column/s in your Measures entity or attribute. By aggregated column we refer to a column where every value results from a specific calculation being made on one of your original entity's columns. 
+You can use previously defined measures as building blocks for your aggregations. Any aggregation that you will create will result in a new field within your Measures entity or attribute. 
 
-For example, let us assume we have added three additional measures: LTV, Purchase Amount, and Service Amount. Each of these three measures represents a summation of other attributes we have in one or more of our ingested entities.
+Supported aggregation functions at this point are: **Min, Max, Average, Median, Sum, and Count Unique.**
 
-Upon visiting the **Entities** page and choosing the new Measure we have just created, we can see that these three new fields are included in our Measure (shown in blue). Again, these fields' values result from the summation of other attributes. 
+For example, let us assume we have added the following aggregated field: **Average Service Amount** that takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/measures-businessreport-data-tab.png "Text")
+> ![](media/measures-aggregated-field-example.png "Aggregated field example")
 
-Let's explore how to add a new measure.
+Upon visiting the **Entities** page and choosing the new Measure we have just created (called **Aggragated Example**), we can see that our aggregation formula had created the new field **Average Service Amount**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/measures-aggregated-field-example2.png "Aggregated field example")
+
+Let's explore the steps involved in defining a new measure.
 
 First, select **New Measure**.
 
