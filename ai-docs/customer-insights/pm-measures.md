@@ -26,7 +26,7 @@ The **Measures** page enables you to define all the KPIs that best reflect your 
 - View for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in** section to learn more. 
 - Use to define a customer segment, using the **Segment Builder** page. See the **Segments** section to learn more.
 
-## Step One: Choose between three measure types
+## Step One: Choosing between three measure types
 
 There are two early decisions you should make with regard to your desired measure. These decisions will help you choose between the three options that are available to you upon selecting **New Measure**:
 
