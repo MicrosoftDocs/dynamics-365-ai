@@ -28,7 +28,7 @@ You can bring in data to Customer Insights by using the 20+ out-of-the-box conne
 > [!IMPORTANT]
 > Currently, on-premises data sources are not supported in Customer Insights. 
 
-### Step One (mandatory): Creating a new data source on the Data Sources page
+### Step One (mandatory): Create a new data source on the Data Sources page
 
 Follow the steps below to load the data into Customer Insights.
 
@@ -61,7 +61,7 @@ Follow the steps below to load the data into Customer Insights.
    
 5. After choosing a connector, you will be required to fill in some fields. For further guidance around filling in those fields for some of the most common data sources (Dynamics 365, CSV and text files, Blob storage, Azure SQL Database, etc), review [Common Connectors Guidance](pm-common-connectors.md).  
 
-### Step Two (mandatory): Adding and reviewing entities
+### Step Two (mandatory): Add and review entities
 
 In the this step, you'll add entities to your data source. In Customer Insights, entities are datasets. For example, If you have a database that includes multiple datasets, each of those datasets is an entity (an Orders dataset, a Sales dataset, etc.). 
 
@@ -112,14 +112,14 @@ At this point you should refresh the data source that you just saved. Select the
 
 At this point, repeat the same steps for each data source you wish to ingest into Customer Insights.
 
-### Step Three (optional): Reviewing Ingested Data
+### Step Three (optional): Review ingested data
 
 It is possible that the data load will take some time. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity** page see [Data Manager: Entities](pm-entities.md).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
 
-### Step Four (optional) Editing existing data sources
+### Step Four (optional) Edit existing data sources
 
 > [!NOTE]
 > The Edit operation is only available for data sources that are not currently refreshing.
