@@ -100,5 +100,6 @@ In this panel you can specify the intervals included on the filter panel as well
 
 Save your selections using **Save** (shown in red below). Select **Run** (shown in blue) once you are ready to apply your settings. Once processing has completed, your definitions will now dictate how other users can search and filter for customers using the **Profiles** page.
 
-// missing 1
+> [!div class="mx-imgBorder"] 
+> ![](media/search-sort-filter-save-run.png "Save and Run")
 
