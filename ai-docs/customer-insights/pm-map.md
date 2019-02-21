@@ -28,7 +28,6 @@ There are two main goals behind the *Map* phase:
 
 Select the **Map** tile on the **Configure Data** page to start the *Map phase*.
 
-// update 1
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
 
