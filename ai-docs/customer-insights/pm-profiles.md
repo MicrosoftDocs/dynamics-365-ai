@@ -21,8 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
-The **Profiles** page presents consolidated data on each of your customers. Each customer profile is represented by a **Customer Card** tile as shown below.
+The **Profiles** page presents consolidated view on each customer, based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown below.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
@@ -32,31 +31,24 @@ In order to view more customers profiles, move to the next profiles page using t
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
 
-**Note**: The data that is available in this page is based on the unified Customer Profile entity you have created during the data configuration process. If you didn’t complete the data configuration process yet, your customer profile tiles might present only partial information on your customers:
+**Note:** Customer profiles are available once you create the unified Customer entity. Make sure to complete the Data Configuration process in order to unlock richer view on your customers (visit the Configure Data section to learn more).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
-
-Make sure to complete the **Data Configuration** process in order to unlock richer view on your customers (visit the **Configure Data** section to learn more).
 
 After selecting a customer tile, you will see additional information on that specific customer. As shown below, that information may include attributes such as **Country**, **Email**, **Address**, and **Phone** that exist in one or more of your data sources.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-customer-info.png "Customer Card tile customer info")
 
-You can also create custom attributes using the **Measures** page. The following example shows a custom **Churn Score** attribute the user had defined on the Measures page and now views for a specific customer:
-
-> [!div class="mx-imgBorder"] 
-> ![](media/customer-card-tile-customer-churn-score.png "Customer Card tile churn score")
-
 ## Search for customers
 
-Searching for customers can be done using the **Search** field. Simply type one of the attributes' names to search for customers. This is enabled by the administrator in the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
+Searching for customers can be done using the Search field. You can simply type a value for one of the profile attributes' names (e.g. the customer’s name). To enable search, an admin needs to configure the searchable attributes in the Search, sort & filter page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-search.png "Customer Card tile search")
 
-You can also utilize this capability to search for a specific type of information (specific attribute) for a given customer.
+After clicking one of the customers' tiles, you can also search for a specific attribute within this customer's information:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-search2.png "Customer Card tile search")
@@ -70,7 +62,7 @@ First, select **Filter**.
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-filter.png "Customer Card tile filter")
 
-Then, simply check the boxes next to the filters with which to search customers by as shown below. Same as for the **Search** field, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator in the **Search, sort & filter** page.
+Then, simply check the boxes next to the filters with which to search customers by as shown below. Same as for the Search field, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator in the Search, sort & filter page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers3.png "Customer profiles")
