@@ -2,7 +2,7 @@
 title: "Use Microsoft Flow with your virtual agent"
 description: "Learn how to use Microsoft Flow in your virtual agent."
 keywords: ""
-ms.date: 1/14/2019
+ms.date: 2/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,41 +16,20 @@ manager: shellyha
 
 You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same CDS environment as the virtual agent. First, create Microsoft PowerApps and Microsoft Flow environments, and then create your flow. You can then create a virtual agent that invokes your flow.
 
-## To create a new PowerApps environment
+## To create Microsoft PowerApps and Flow environments
 
-1. Enter [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center.
+1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your virtual agent.
 
-2. Select **New environment** to open the New environment screen.
+    For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
-    Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Then select **Create environment**.
+2. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal to create one. Enter [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser to open the Flow portal.
 
-   > ![Create environment](media/how-to-flow-1-1.png)
-
-    PowerApps creates the environment and displays a prompt asking if you want to create a database.
-
-3. Select **Create database** to display the **Create a database for this environment** screen.
-
-   > [!div class="mx-imgBorder"]
-   > ![Create database screen](media/how-to-flow-1-2.png)
-
-4. Select your currency type and language, and then select **Create database**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Create database](media/how-to-flow-1-3.png)
-
-> [!NOTE]
-> Creating a database and environment can take some time.
-
-## To create a Microsoft Flow environment
-
-1. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal to create one. Enter [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser to open the Flow portal.
-
-2. Select your User icon in the upper-right corner of the screen, and then select the PowerApps environment you created from the list.
+3. Select your User icon in the upper-right corner of the screen, and then select the PowerApps environment you created from the list.
 
    > [!div class="mx-imgBorder"]
    > ![Select environment](media/how-to-flow-1-4.png)
 
-3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
+4. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
 
    > [!div class="mx-imgBorder"]
    > ![Verify database](media/how-to-flow-1-5.png)

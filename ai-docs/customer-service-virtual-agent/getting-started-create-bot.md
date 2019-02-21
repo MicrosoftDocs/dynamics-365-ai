@@ -2,7 +2,7 @@
 title: "Creating a virtual agent"
 description: "Learn how to use the Dynamics 365 Customer Service Virtual Agent to create a virtual agent."
 keywords: ""
-ms.date: 2/13/2019
+ms.date: 2/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -24,15 +24,19 @@ These industry templates can also be useful as a model for building your own con
 
 ## To create a virtual agent
 
-1. Open the Virtual Agent Designer in your browser to display the **Create a new bot** screen. Dynamics 365 Customer Service Virtual Agent supports Chrome (preferred) and Edge browsers.
+1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your virtual agent.
+
+    For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+
+2. Open the Virtual Agent Designer in your browser to display the **Create a new bot** screen. Dynamics 365 Customer Service Virtual Agent supports Chrome (preferred) and Edge browsers.
 
     If you have already created a virtual agent, you can create a new bot by selecting the **New Bot** icon on the title bar. Then select **New bot**.
 
    > ![New bot icon](media/new-bot-icon.png)
 
-2. Select the template you want to use, and specify a name and region for the bot.
+3. Select the template you want to use, and specify a name and region for the bot.
 
-    In the **Region where your Virtual Agent is stored** drop-down, select the environment you want to use to create the bot, other than the default environment. The default environment is not currently supported. Then select **Create**.
+    In the **Region where your Virtual Agent is stored** drop-down, select the PowerApps environment you want to use to create the bot. Then select **Create**.
 
     Virtual Agent Designer creates the virtual agent and opens it in the browser.
 

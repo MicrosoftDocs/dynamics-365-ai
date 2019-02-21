@@ -2,7 +2,7 @@
 title: "Quickstart: Create and deploy a customer service virtual agent"
 description: "Learn how to quickly create a customer service virtual agent using the Virtual Agent Designer."
 keywords: ""
-ms.date: 1/14/2019
+ms.date: 2/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,19 +20,23 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
 ## To create and deploy your own virtual agent
 
-1. Create the virtual agent.
+1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your virtual agent.
+
+    For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+
+2. Create the virtual agent.
 
    Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent Designer environment.
 
    On the **Create a new bot** screen, select the template you want to use, either General or Retail. Specify a name and region for the bot.
 
-   In the **Region where your Virtual Agent is stored** drop-down, select the environment you want to use to create the bot, other than the default environment. The default environment is not currently supported. Then select **Create**.
+   In the **Region where your Virtual Agent is stored** drop-down, select the environment you want to use to create the bot. Then select **Create**.
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
    **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions have access to your virtual agent content.
 
-2. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer might want to make an appointment at a store.
+3. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer might want to make an appointment at a store.
 
    Select **Topics** in the navigation pane, and then select **New topic** to open the **Create a new topic** screen.
 
@@ -40,19 +44,19 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    For more information on creating a topic, see [Creating topics for your bot](getting-started-create-topics.md).
 
-3. Specify a name, description, and one or more trigger phrases for the topic. A trigger phrase is a phrase that a customer enters to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic.
+4. Specify a name, description, and one or more trigger phrases for the topic. A trigger phrase is a phrase that a customer enters to start a conversation with the virtual agent. You can specify more than one trigger phrase for a topic.
 
    Select **Add** to add the trigger phrase, and then select **Save topic**.
 
    > ![Save topic](media/save-topic.png)
 
-4. Design the virtual agent's conversation path.
+5. Design the virtual agent's conversation path.
 
    Select **Edit** to open the conversation editor.
 
    > ![Edit conversation](media/edit-conversation.png)
 
-5. In the conversation editor, add virtual agent and customer responses to the conversation.
+   In the conversation editor, add virtual agent and customer responses to the conversation.
 
    To specify a response by the virtual agent, select **Bot says**, and then enter a response in the **Bot says** box.
 

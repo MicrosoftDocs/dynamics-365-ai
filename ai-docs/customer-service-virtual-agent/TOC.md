@@ -4,6 +4,8 @@
 
 # Getting started
 
+## [Creating a PowerApps environment](getting-started-new-environment.md)
+
 ## [Creating a virtual agent](getting-started-create-bot.md)
 
 ## [Working with the Virtual Agent Designer](getting-started-bot-designer.md)
