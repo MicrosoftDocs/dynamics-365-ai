@@ -25,7 +25,7 @@ ms.date: 10/31/2018
                     <li>
                         <a data-default="true" href="#ai-sub"></a>
                         <ul id="ai-sub" class="cardsF">
-                            <!--<li>
+                            <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -43,7 +43,7 @@ ms.date: 10/31/2018
                                         </div>
                                     </div>
                                 </div>
-                            </li>-->
+                            </li>
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
