@@ -1,4 +1,5 @@
 # [Welcome to Market Insights](overview.md)
+## [What's new](release-notes.md)
 ## Business scenarios and use cases
 ### [Marketing scenarios](overview-marketing-scenario.md)
 ### [Sales scenarios](overview-sales-scenario.md)
@@ -21,6 +22,7 @@
 ### [Find out what's covered by sources](sources-coverage.md)
 ### [Create or delete a search topic](create-delete-search-topic.md)
 ### [Add rules to a search topic](add-rules-search-topic.md)
+### [Acquire data from Instagram business accounts](instagram-data-acquisition.md)
 ### [Acquire data from Facebook pages](facebook-pages-data-acquisition.md)
 ### [Refine your search rules to find relevant content](refine-search-rules.md)
 ### [Manage the quality of your search results](search-results-quality.md)
@@ -61,11 +63,6 @@
 #### [Configure Record Creation and Update Rule](configure-automatic-record-creation.md)
 #### [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)
 ### [Connect Market Insights to other domains](connect-other-domains.md)
-## [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)
-### [Install Dynamics 365 - Social Selling Assistant](install-social-selling-assistant.md)
-### [Configure Market Insights for the Social Selling Assistant](configure-social-selling-assistant.md)
-### [Personalize the Social Selling Assistant](personalize-social-selling-assistant.md)
-### [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)
 ## Additional information
 ### [Data retention in Market Insights](data-retention.md)
 ### [Market Insights FAQ](faq.md)

@@ -21,7 +21,7 @@ search.app:
 
 # Manage the connection between Dynamics 365 and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Understand how to change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], and the consequences of doing so.    
 You must already have a working connection between [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] established and you need to be have an Administrator role in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to perform the following tasks.
@@ -64,7 +64,7 @@ Make the necessary changes to the metadata and then click **Save** to apply the 
 
 If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances, you can connect [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to more than one instance. In this case, you can set the instance as a default connection that will be used most often to create new records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Users can choose a different instance when creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
 
-1. In [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
+1. In [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
 2. In the **Microsoft Dynamics 365 Connections** pane, select the instance you want to set as the default.  
 
@@ -91,7 +91,7 @@ You can delete connections if you don't want to create new records in a [!INCLUD
 > [!NOTE]
 >  You can't delete a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to [deactivate or delete all automation rules](automation-rules.md) using that connection.
 
-1. In [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
+1. In [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
 2. Find the connected instance in the list of **Microsoft Dynamics 365 Connections**.  
 
@@ -135,7 +135,7 @@ If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../inclu
 > [!NOTE]
 > You can't disable a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to [deactivate or delete all automation rules](automation-rules.md) using that connection. 
 
-1. In [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
+1. In [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
 
 2. Find the connected instance in the list of **Microsoft Dynamics 365 Connections**.  
 

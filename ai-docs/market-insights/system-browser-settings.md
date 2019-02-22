@@ -20,9 +20,9 @@ search.app:
 ---
 # Optimize browser settings for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. This topic discusses recommended browser settings for a smooth experience.  
+In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. This topic discusses recommended browser settings for a smooth experience.  
   
 <a name="managePopUpBlockers"></a>   
 ## Manage pop-up blockers  

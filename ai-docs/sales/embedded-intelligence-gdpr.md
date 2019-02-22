@@ -17,11 +17,11 @@ topic-status: Drafting
 
 # Dynamics365 AI for Sales and GDPR
 
-Applies to Dynamics 365 (online), version 9.1.0
+AApplies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 
-The [Auto Capture](auto-capture.md) and [Relationship Analytics](relationship-analytics.md) features help organizations work in compliance with the GDPR when using the system, but some customization and development work is required.
+The [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture) and [Relationship Analytics](relationship-analytics.md) features help organizations work in compliance with the GDPR when using the system, but some customization and development work is required.
 
 Here are some resources where you can learn more about how to bring your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] systems into compliance with the GDPR:
 
@@ -34,7 +34,7 @@ You can perform the following tasks in the Auto Capture and Relationship Analyti
 
 |Task|Supported Feature|Topic|
 |--|--|--|
-|Specify whether relationship analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, relationship analytics won't be performed on the data.|[Relationship Analytics](relationship-analytics.md) and [Auto Capture](auto-capture.md)|[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)|
+|Specify whether relationship analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, relationship analytics won't be performed on the data.|[Relationship Analytics](relationship-analytics.md) and [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-capture)|[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)|
 |View KPI data stored for an contact, lead and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
 |Retrieve data for an contact, lead, opportunity, and systemuser from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
 

@@ -21,7 +21,7 @@ search.app:
 
 # Address customer service scenarios on social media with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] to address your customers' service requests on social media. [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
 
@@ -89,11 +89,11 @@ Save time and minimize repetitive activities. [!INCLUDE[Market Insights](../incl
 
 Collaborate with your team and make sure they prioritize the right issues.
 
-1. [Assign posts](work-with-posts.md#assign-a-post-to-other-users-in-analytics-and-social-center) to other users to distribute work across the team.
+1. [Assign posts](work-with-posts.md#assign-a-post-to-other-users) to other users to distribute work across the team.
 
 2. [Share streams](social-center.md#share-a-stream) with other users so they can work on posts in near&ndash;real time.
 
-3. [Add labels](work-with-posts.md#add-a-label-to-a-post-in-analytics-or-social-center) to posts to route them to specific streams.
+3. [Add labels](work-with-posts.md#add-a-label-to-a-post) to posts to route them to specific streams.
 
 > [!NOTE]
 > [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] leverages Office 365 Groups to enable collaboration with groups of people. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Market Insights](office-365-groups.md)

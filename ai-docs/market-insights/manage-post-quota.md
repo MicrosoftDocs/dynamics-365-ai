@@ -21,7 +21,7 @@ search.app:
 
 # Manage your post quota
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Keep track of the number of posts that result from your search topics and count toward your solution's post quota. Your solution is priced based on the number of posts you can acquire per month.  
   
@@ -57,7 +57,7 @@ To get a quick overview of the post quota for all your search topics, for single
   
 
 ### Impact of exceeding limits  
- All [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
+ All [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics.  
 

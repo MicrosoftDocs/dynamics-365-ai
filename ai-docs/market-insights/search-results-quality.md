@@ -2,7 +2,7 @@
 title: "Manage the quality of your search results in Market Insights | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
 keywords: "block content, block authors"
-ms.date: 10/31/2018
+ms.date: 02/07/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 2225bfca-81ab-4053-be84-959cd0fb4e14
@@ -21,40 +21,19 @@ search.app:
 
 # Manage the quality of your search results
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-You can perform quality management over the entire application by blocking irrelevant posts and sources.  
-  
-> [!NOTE]
->  As an Administrator or a Power Analyst, you can add terms to the list of blocked content to delete the matching posts in your analysis, or block entire domains from the data acquisition and delete already-acquired posts from these domains. Deleted posts are deducted from your monthly post quota.  
-  
-> [!TIP]
->  This topic is part of a walkthrough on how you can set up searches. More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
+As an Administrator or a Power Analyst, you can add terms to the list of blocked content to delete the matching posts in your analysis, or block entire domains from the data acquisition and delete already-acquired posts from these domains. Deleted posts are deducted from your monthly post quota.  
   
 ## Block domains from your sources  
- To improve the quality of your organization’s data, you can block URLs that aren’t required. You can add URLs and partial URLs to a blocked sources list that will be excluded from data acquisition and analysis. Posts that were already acquired from a source on your blocked list are deleted from the database four hours after you add the domain to the list. In the meantime, posts from this source are hidden.  
+To improve the quality of your organization’s data, you can block URLs that aren’t required. You can add URLs and partial URLs to a blocked sources list that will be excluded from data acquisition and analysis.  
   
- For example, you find multiple posts from a specific blog with irrelevant content or spam. Instead of deleting every post manually from your analysis, you can add the blog URL to the blocked sources list. Even if future posts on that blog match your keywords, they won’t show up in your analysis.  
+### Block a domain
   
- When you're not interested in posts from a specific domain, add the domain to the list of blocked domains.  
+When you’re not interested in posts from a specific domain, add the domain to the list of blocked sources.  
   
-> [!IMPORTANT]
->  You must remove a source from the blocked list to restart the data acquisition for that source.  
-  
-### View blocked domains  
- Every user can review the list of blocked domains to find out which URLs are blocked from data acquisition.  
-  
-1.  Go to **Search Setup** > **Blocked Content**.  
-  
-2.  Review the list in the **DOMAINS** pane.  
-  
-### Block a domain from your searches  
- When you’re not interested in posts from a specific domain, add the domain to the list of blocked sources.  
-  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
-> 
-> [!IMPORTANT]
+> [!WARNING]
+>  Blocking a top-level domain also excludes all of its subdomains. For example, if you exclude `contoso.com`, the subdomain `shop.contoso.com` is also excluded.  
 >  When you add a domain to the list of blocked domains, posts from this domain will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
   
 1.  Go to **Search setup** > **Blocked Content**.  
@@ -63,16 +42,9 @@ You can perform quality management over the entire application by blocking irrel
   
 3.  Click the **Add** button ![new or add button](media/plus-icon.png "New or Add button").  
   
-> [!WARNING]
->  Blocking a top-level domain also excludes all of its subdomains. For example, if you exclude `contoso.com`, the subdomain `shop.contoso.com` is also excluded.  
->   
->  Blocking domains can have a severe impact on the data you already acquired. When you add a domain to the list of blocked content, all posts found on the blocked domain, including subdomains, will be removed from your database after a grace period of four hours.  
-  
 ### Remove a domain from the list of blocked sources  
- Reactivate the data acquisition from a blocked source by removing the domain from the list.  
-  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
+
+Reactivate the data acquisition from a blocked source by removing the domain from the list.  
   
 1.  Go to **Search setup** > **Blocked Content**.  
   
@@ -98,10 +70,7 @@ You can perform quality management over the entire application by blocking irrel
   
 ### Block keywords from your search results  
  Acting as global exclusions, keywords and phrases you add to the list of blocked content will be deleted from your analysis, and already-acquired posts  removed from the database.  
-  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)]  
-> 
+  > 
 > [!IMPORTANT]
 >  When you add a keyword to the list of blocked keywords, posts matching this keyword will be hidden in Analytics for four hours and be irreversibly deleted  afterward.  
   
@@ -112,10 +81,7 @@ You can perform quality management over the entire application by blocking irrel
 3.  Click the **Add** button ![new or add button](media/plus-icon.png "New or Add button").  
   
 ### Remove a keyword from blocked content  
- Remove a global exclusion and restart the data acquisition for posts matching this keyword by removing a keyword from the blocked content list.  
-  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)] Data acquisition restarts after removing a keyword from the list of blocked content. Posts aren’t acquired retroactively.  
+Remove a global exclusion and restart the data acquisition for posts matching this keyword by removing a keyword from the blocked content list. Data acquisition restarts after removing a keyword from the list of blocked content. Posts aren’t acquired retroactively.  
   
 1.  Go to **Search Setup** > **Blocked Content**.  
   

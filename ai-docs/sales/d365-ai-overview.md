@@ -22,7 +22,12 @@ topic-status: Drafting
 
 # Preview: View overall sales insights
 
-Applies to Dynamics 365 (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
 When you sign in to the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] application, you'll see the home page, which provides high-level information on the forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news. This tells you:
 
@@ -41,7 +46,7 @@ Using this information, you can quickly take action when necessary and drill dee
 
 ## Q&A 
 
-Sometimes you want quick answers from your data without searching through reports in the sections. The Dynamics 365 AI for Sales app provides a Q&A feature so you can ask questions using natural language. Use **Q&A** to explore your data using intuitive, natural language capabilities and receive answers in the form of charts and graphs. For example, when you type "what were total sales last year," the application displays charts and graphs that contain details of your sales last year. Q&A is different from a search engine—Q&A only provides results about the data in your reports.
+Sometimes you want quick answers from your data without searching through reports in the sections. The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides a Q&A feature so you can ask questions using natural language. Use **Q&A** to explore your data using intuitive, natural language capabilities and receive answers in the form of charts and graphs. For example, when you type "what were total sales last year," the application displays charts and graphs that contain details of your sales last year. Q&A is different from a search engine—Q&A only provides results about the data in your reports.
 
 Q&A displays as follows on the home page:
 
@@ -142,7 +147,7 @@ Select the **View full report** icon ![Forecast quick view](media/d365-ai-sales-
 
 ## Highlights
 
-Your team is constantly at work interacting with customers, closing deals, opening opportunities, or even failing to close deals. Highlights helps you keep track of these items in real time so you can get involved when necessary. This information is displayed as cards. You will see the relationship assistant cards that are relevant to you and your team along with cards that are defined for new, won, and lost opportunities by your team. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)<br>
+Your team is constantly at work interacting with customers, closing deals, opening opportunities, or even failing to close deals. Highlights helps you keep track of these items in real time so you can get involved when necessary. This information is displayed as cards. You will see the relationship assistant cards that are relevant to you and your team along with cards that are defined for new, won, and lost opportunities by your team. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](/dynamics365/customer-engagement/sales-enterprise/action-cards-reference)<br>
  
 The following is an example of how a Highlights section is displayed:
 

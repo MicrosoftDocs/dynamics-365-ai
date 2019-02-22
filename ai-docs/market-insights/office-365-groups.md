@@ -20,9 +20,9 @@ search.app:
 ---
 # Work with Office 365 Groups in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Groups are shared workspaces where group members can collaborate and quickly get stuff done. To collaborate with a group of users in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] you can share social profiles and streams, or assign posts to groups. You can create and manage groups in [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] or [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Groups are automatically synced to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], but you cannot change them from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
+[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Groups are shared workspaces where group members can collaborate and quickly get stuff done. To collaborate with a group of users in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] you can share social profiles and streams, or assign posts to groups. You can create and manage groups in [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] or [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Groups are automatically synced to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], but you cannot change them from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
 ## Work with groups  
   

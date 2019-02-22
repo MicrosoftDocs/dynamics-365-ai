@@ -21,12 +21,12 @@ search.app:
   - D365SE
 ---
 
-# Accessibility for [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
+# Accessibility for [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 [Microsoft is committed to building software that enables people with different abilities](https://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
-[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
+[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
 ## Accessibility capabilities built into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 

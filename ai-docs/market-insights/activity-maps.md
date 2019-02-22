@@ -21,7 +21,7 @@ search.app:
 
 # Define activity maps to view real-time data
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 Using activity maps, you can view real-time posts by geographical location on an easy-to-understand map. You can further view these posts in Analytics to understand more details and associated metrics.  
   
@@ -29,7 +29,7 @@ Using activity maps, you can view real-time posts by geographical location on an
 >  You can only visualize those posts on an activity map that have location data for posts or authors. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md), [Analyze the sources for the posts](analytics-sources.md)  
   
 ## Role privileges  
-Every user can create activity maps in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], regardless of user role or license type. Activity maps are saved and displayed separately for every user. You can only view the activity maps you create.  
+Every user can create activity maps in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], regardless of user role or license type. Activity maps are saved and displayed separately for every user. You can only view the activity maps you create.  
   
 <a name="createactivitymap"></a>   
 ## Create an activity map  
@@ -176,7 +176,7 @@ View the data set selected for an activity map in other areas of [!INCLUDE[Marke
  View an activity map on a large screen, in full-screen mode. You can display this large screen at prominent places as appropriate for your business to demonstrate the trends about your products, brand, or organization.  
   
 > [!NOTE]
->  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to [sign in](https://social.dynamics.com/login) again.  
+>  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to [sign in](https://mi.ai.dynamics.com/login) again.  
   
 1. Go to **Activity Maps**.  
   

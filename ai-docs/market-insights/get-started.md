@@ -2,13 +2,12 @@
 title: "Get started with Market Insights | Microsoft Docs"
 description: "Learn how to ramp up quickly on Market Insights."
 keywords: "get started, onboarding, key features"
-ms.date: 10/31/2018
+ms.date: 02/15/2019
 ms.service: dynamics-365-ai
 ms.topic: get-started-article
 ms.assetid: 587079ee-03f0-4dc6-8cbf-14cee4e50273
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
@@ -21,9 +20,9 @@ search.app:
 
 # Get started with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
+This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
 ## Prerequisites  
  To provide you the best experience with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], it's a good idea to keep your browser updated to the latest version.  
@@ -48,7 +47,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 ## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]  
   
-[Sign in to Market Insights](https://social.dynamics.com/login) directly or review additional options to [access Market Insights](sign-in.md)  
+[Sign in to Market Insights](https://mi.ai.dynamics.com/login) directly or review additional options to [access Market Insights](sign-in.md)  
 
 > [!NOTE]
 > The first user, usually the global admin, needs to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and confirm the solution isn’t used by or on behalf of a government customer before other users can access the service. 
@@ -95,10 +94,6 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](activity-maps.md)  
   
-- **Social Selling**: Work with the Social Selling Assistant directly from within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and get recommendations on relevant and shareable content that really matters to you.  
-  
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)  
-  
 - **Alerts**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stay up to date with alerts](email-alerts.md)  
@@ -107,7 +102,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Market Insights](settings-administration.md)  
   
-- **Help**: Visit the [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] Help Center (opens a new website) to see the latest help topics.  
+- **Help**: Visit the [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
 ## Get around in the Analytics area  
  In most cases, the first thing you’ll see when you sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
@@ -147,7 +142,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Market Insights](posts-conversations.md)  
   
 ## Get around in the Settings area  
- Administer your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-first-steps.md).  
+ Administer your [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Market Insights](set-up-first-steps.md).  
   
  ![settings area in market insights](media/settings-areas-explained.png "Settings area in Market Insights")  
   

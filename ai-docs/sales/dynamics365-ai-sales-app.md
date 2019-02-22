@@ -22,11 +22,14 @@ topic-status: Drafting
 
 # Preview: Unlock sales potential with Dynamics 365 AI for Sales
 
-Applies to Dynamics 365 (online), version 9.1.0 <br>
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-[!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As a sales manager, you must lead your business to success not only by selling products but also by helping your sales team win deals to generate revenue. You must ensure that each sales rep is brought onboard and kept well informed, supported, and motivated. [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] provides solutions that use analytics and data science to gather data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and Microsoft Office. It then provides you with this information and insights to intelligently manage your team, proactively coach sales reps, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides you with information through key performance indicators (KPIs) for pipeline and deals. 
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+
+As a sales manager, you must lead your business to success not only by selling products but also by helping your sales team win deals to generate revenue. You must ensure that each sales rep is brought onboard and kept well informed, supported, and motivated. [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] provides solutions that use analytics and data science to gather data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and Microsoft Office. It then provides you with this information and insights to intelligently manage your team, proactively coach sales reps, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app provides you with information through key performance indicators (KPIs) for pipeline and deals. 
 
 > [!IMPORTANT]
 > The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is currently available only in the North America (NAM) region.
@@ -40,19 +43,19 @@ The next sections describe:
 ## Recommendations for using the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app:
--	Verify that you have a subscription to Microsoft Dynamics 365 for Sales.
-- Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](https://docs.microsoft.com/dynamics365/customer-engagement/admin/work-fiscal-year-settings)
-- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manager hierarchy and Position hierarchy security models](https://docs.microsoft.com/dynamics365/customer-engagement/admin/hierarchy-security#manager-hierarchy-and-position-hierarchy-security-models)
-- Verify that goals are defined for sales reps or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
+-	Verify that you have a subscription to Microsoft Dynamics 365 for Sales. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 for Customer Engagement apps licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
+- Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)
+- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies)
+- Verify that goals are defined for sales reps or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
     >[!NOTE]
     >While defining goals, ensure that **Goal Metric** parameter is configured as **Revenue**. 
-- Verify that Relationship assistant is enabled to access the cards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use relationship assistant to guide customer communications](../sales/relationship-assistant.md)
+- Verify that Relationship assistant is enabled to access the cards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use relationship assistant to guide customer communications](/dynamics365/customer-engagement/sales-enterprise/relationship-assistant)
 
 ## How to get the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app
 
 The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is a standalone application and you must sign in to the app to use it. You can use one of the following entry points to access the app:
 
-- Go to the [Dynamics 365 AI for Sales](https://dynamics.microsoft.com/en-us/ai/sales/) marketing page and select **GET IT NOW**.
+- Go to the [Dynamics 365 AI for Sales](https://aka.ms/salesai) marketing page and select **GET IT NOW**.
 - Go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/)
 
 > [!NOTE]
@@ -63,9 +66,9 @@ The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is
 You must sign in to the application to view the KPIs for pipeline and deals. 
 
 > [!IMPORTANT]
-> Five users can sign in and use the app for an organization. If more users want to use the app, a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system administrator must sign in to it.
+> Five users can sign in and use the app for an organization. If more users want to use the app, a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] system administrator must sign in to it.
 
-Let’s look at an example: Kevin is a sales manager. When he signs in to the app for the first time, it prompts him to select his [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. This helps to compute and consolidate the necessary insights about the team for Kevin on the home page. If he has previously signed in and used the app, he can access the home page directly. 
+Let’s look at an example: Kevin is a sales manager. When he signs in to the app for the first time, it prompts him to select his [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] organization. This helps to compute and consolidate the necessary insights about the team for Kevin on the home page. If he has previously signed in and used the app, he can access the home page directly. 
 
 > [!NOTE]
 > When you sign in for the first time, the application takes several minutes to gather the data and display visuals for you. Also, a status message is displayed to update you on progress.

@@ -21,14 +21,14 @@ search.app:
 
 # Engage on social networks
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] offers features that you can use to interact with other users on the social web and to engage with customers, fans, or critics.
+[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] offers features that you can use to interact with other users on the social web and to engage with customers, fans, or critics.
 
 > [!IMPORTANT]
 >  Before you can interact with posts in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], be sure to meet the following prerequisites:
 > 
-> 1. You have at least a Responder role in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+> 1. You have at least a Responder role in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
 > 2. You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 -   Visit the **Social Center** to see your streams—a steady flow of recent posts, based on the underlying data set.

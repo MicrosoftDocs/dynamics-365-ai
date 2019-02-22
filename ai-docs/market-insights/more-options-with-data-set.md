@@ -21,9 +21,9 @@ search.app:
 
 # Explore more options with your data set
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], [data sets](use-filters.md#data_set) are often key to an accurate and detailed analysis.
+Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], [data sets](use-filters.md#data_set) are often key to an accurate and detailed analysis.
   
  In some areas of [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you can copy a given data set over to a different area to save time. For example, you can have a stream in **Social Center** that shows an overwhelming amount of posts. You decide to analyze those posts in the **Analytics** area to drill down into the information using the filtering functionality. You find a set of important posts and choose to get informed of any similar new posts. By passing your data set over to the **Alerts**, you can create an alert with a single click.  
   

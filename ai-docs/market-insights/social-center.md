@@ -21,25 +21,22 @@ search.app:
 
 # Keep track of live data streams with Social Center
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-Social media runs at a fast pace. To keep up and collaborate efficiently, your personal streams come in handy. Manage your streams, share them with other users, and stay informed in real time on new and updated posts. New posts are posts that were recently picked up by a search topic and processed to appear in a solution. Fresh posts are posts whose metadata has been changed recently (for example, a label was added or a post received a reply). Streams use filters to define the data set and surface the most relevant posts.  
-
+Social media runs at a fast pace. To keep up and collaborate efficiently, your personal streams come in handy. Manage your streams, share them with other users, and stay informed in real time on new and updated posts. 
  
- To see your streams, go to **Social Center**.  
+To see your streams, go to **Social Center**.  
   
- Streams in Social Center are user-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md), [Drive business objectives using posts](publish-react-posts.md)  
+Streams in Social Center are user-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your [interaction role](user-roles.md), you can create, edit, share, or delete streams, or [interact with posts](publish-react-posts.md) from your streams.
   
- Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Market Insights](more-options-with-data-set.md)  
+Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![more options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This [opens the same data](more-options-with-data-set.md) set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. 
+
   
-> [!NOTE]
->  If you have a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. 
+## Configure a stream 
+ 
+A stream is based on a data set you define when you configure the stream. See in real time how new posts are coming in, and then work with these posts directly from your streams.  
   
-<a name="ConfigureStream"></a>   
-## Configure a stream  
- Create new streams to keep track of the posts that are most important to you. Each stream is based on a data set you define when you configure the stream. See in real time how new posts are coming in, and then work with these posts directly from your streams.  
-  
- For example, you can create a stream called **Inbox** that checks all search topics for posts that are assigned to you. In other words, an Assignee filter with the value of the currently signed-in user is applied to all search topics. Posts that match this filter show up in the stream.  
+For example, you can create a stream called **Inbox** that checks all search topics for posts that are assigned to you. In other words, an Assignee filter with the value of the currently signed-in user is applied to all search topics. Posts that match this filter show up in the stream.  
   
 ### Configure a stream  
   
@@ -63,11 +60,11 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 8. Click the **Save** button ![save button](media/save-icon.png "Save button").  
   
-<a name="ShareStream"></a>   
 ## Share a stream  
- Share streams you own to enable seamless collaboration within your organization’s teams. You need to have a Manager [interaction role](user-roles.md) to manage the sharing of streams.  
+
+Share streams you own to enable seamless collaboration within your organization’s teams. You need to have a Manager [interaction role](user-roles.md) to manage the sharing of streams.  
   
- Users or groups you share the stream with will always see the data the way you have configured it. If you change the data set for a shared stream, the displayed data will also change for the users the stream is shared with.  
+Users or groups you share the stream with will always see the data the way you have configured it. If you change the data set for a shared stream, the displayed data will also change for the users the stream is shared with.  
   
 ### Share a stream you own  
   
@@ -90,9 +87,9 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 > [!IMPORTANT]
 >  When you select **Shared with all users**, all users in your organization will see this stream on their Social Center page. Because there is no way to hide a stream, we recommend that you use this option with restraint.  
   
-<a name="EditStream"></a>   
 ## Edit a stream  
- Update the configuration of a stream if you want to refine the data to be shown in the stream, or change its settings.  
+
+Update the configuration of a stream if you want to refine the data to be shown in the stream, or change its settings.  
   
 ### Edit a stream you own  
   
@@ -109,9 +106,9 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 > [!IMPORTANT]
 >  Editing the data set of a stream that you share with other users directly affects the data they see in their shared streams. Your changes are reflected when you save your changes, and other users connected to the same stream are notified that the configuration changed.  
   
-<a name="DeleteStream"></a>   
 ## Delete a stream  
- You might want to delete a stream from Social Center, for example a stream that was useful for a certain event but you no longer need. If you delete a stream you share with other users, keep in mind that it will be deleted for them too. Before deleting the stream, make sure your co-workers are aware of your plans.  
+
+You might want to delete a stream from Social Center, for example a stream that was useful for a certain event but you no longer need. If you delete a stream you share with other users, keep in mind that it will be deleted for them too.
   
 ### Delete a stream you own  
   
@@ -124,13 +121,6 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 4.  Click the **Delete** button ![delete button](media/trashbin-icon.png "Delete button").  
   
 5.  Confirm your deletion.  
-  
-<a name="NextSteps"></a>   
-## Next Steps  
-  
-- Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
-  
-- Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md)  
   
 ### See also  
 

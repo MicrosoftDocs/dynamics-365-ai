@@ -19,17 +19,17 @@ search.app:
   - D365SE
 ---
 
-# Sign in to [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]
+# Sign in to [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 To sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], you'll need to be assigned a user license. Your organization's Office 365 administrator approves user licenses when setting up [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. Additionally, the global admin needs to sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] and confirm the solution isn’t used by or on behalf of a government customer before other users can access the service. 
   
 ## Sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] from a dedicated sign-in page
 
-Using the [sign-in page for Market Insights](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.
+Using the [sign-in page for Market Insights](https://mi.ai.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.
 
-1. In your browser, open [https://social.dynamics.com/login](https://social.dynamics.com/login).
+1. In your browser, open [https://mi.ai.dynamics.com/login](https://mi.ai.dynamics.com/login).
 
 2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials to proceed to the app.
 
@@ -41,7 +41,7 @@ Sign in to the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.m
   
 2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials—for example, user@contoso.onmicrosoft.com.  
   
-3. From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **[!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]**.  
+3. From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]**.  
   
     You'll be redirected to your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.  
   
@@ -54,7 +54,7 @@ For more information and to learn about important administration features, see [
 
 We recommend saving the URL for your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you sign in to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].  
   
-If you’re looking for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://listening-prod.dynamics.com/app/\<appID></strong>.  
+If you’re looking for [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://mi.ai.dynamics.com/app/\<appID></strong>.  
   
 ### See Also  
  [Get started with Market Insights](get-started.md)   

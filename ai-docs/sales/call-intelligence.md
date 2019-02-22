@@ -20,14 +20,19 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Preview feature: Analyze customer calls to improve sales
+# Preview: Analyze customer calls to improve sales
 
-Applies to Dynamics 365 (online), version 9.1.0
+Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue.  [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
 
 - Increase sales wins.
-- Reduce new salesperson ramp-up time. 
+- Reduce new salesperson training time.
 - Increase productivity gains for the business.
 
 > [!NOTE]
@@ -86,7 +91,6 @@ Select the name of the sales rep from the drop-down list to view that rep's perf
 |**8. Calls**|Displays the list of calls handled by the sales rep. Select the call to display the transcript and timeline. |
 |**9. Transcript**|Provides a written record of the call.<!--<br>• Select **Add comment** to provide necessary inputs to the sales rep at the selected timeline.-->|
 
-<!--
 ### See also
 
-link to the d365 AI for sales admin guide-->
+[Configure call intelligence](../sales/configure-call-intelligence.md)

@@ -32,12 +32,10 @@ search.app:
 <tr><td>
 <h2>Get started</h2>
 <li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 AI for Sales overview</a></li>
-<li><a href="embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](embedded-intelligence.md)">Embedded intelligence overview</a></li>
 <li><a href="dynamics-365-ai-for-sales.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sellers overview](dynamics-365-ai-for-sales.md)">Dynamics 365 AI for Sales capabilities for sellers</a></li>
 <li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sales managers overview](dynamics365-ai-sales-app.md)">Dynamics 365 AI for Sales capabilities for sales managers</a></li>
 </td><td>
 <h2>Administer the system</h2>
-<li><a href="configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
 <li><a href="configure-enable-dynamics-365-ai-sales.md" data-raw-source="[Enable and configure Dynamics 365 AI for Sales capabilities for sellers](configure-enable-dynamics-365-ai-sales.md)">Enable and configure Dynamics 365 AI for Sales capabilities for sellers</a></li>
 </td></tr>
 <tr><td>
@@ -48,9 +46,6 @@ search.app:
 <li><a href="who-knows-whom.md" data-raw-source="[Get introduced to a lead](who-knows-whom.md)">Get introduced to a lead</a></li>
 </td><td>
 <h2>Analyze customer-interaction data</h2>
-<li><a href="relationship-assistant.md" data-raw-source="[Use relationship assistant to guide customer communications](relationship-assistant.md)">Use relationship assistant to guide customer communications</a></li>
-<li><a href="email-engagement.md" data-raw-source="[View message interactions with email engagement](email-engagement.md)">View message interactions with email engagement</a></li>
-<li><a href="auto-capture.md" data-raw-source="[Display related emails with auto capture](auto-capture.md)">Display related emails with auto capture</a></li>
 <li><a href="relationship-analytics.md" data-raw-source="[View customer activity history with relationship analytics](relationship-analytics.md)">View customer activity history</a></li>
 <li><a href="notes-analysis.md" data-raw-source="[How notes analysis assists you with suggestion](notes-analysis.md)">How notes analysis assists you with suggestion</a></li>
 </td></tr>
@@ -61,12 +56,8 @@ search.app:
 <li><a href="d365-ai-business-performance.md" data-raw-source="[Analyze business performance](d365-ai-business-performance.md)">Analyze business performance</a></li>
 <li><a href="d365-ai-team-performance.md" data-raw-source="[Analyze team performance)](d365-ai-team-performance.md)">Analyze team performance</a></li>
 </td>
+
 <td>
-<h2>Develop</h2>
-<li><a href="extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
-<li><a href="sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
-</td>
-<tr><td>
 <h2>GDPR</h2>
 <li><a href="embedded-intelligence-gdpr.md" data-raw-source="[GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)">GDPR for Sales insights add-on</a></li>
 <li><a href="optout-relationship-analytics-gdpr.md" data-raw-source="[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)">Opt out of relationship analytics (GDPR)</a></li>

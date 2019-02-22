@@ -21,15 +21,19 @@ search.app:
 
 # Understand public perception using sentiment analysis
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-View and understand social sentiment in posts that are found by your search topics. Sentiment analysis in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] calculates the sentiment value of social posts using natural-language processing and machine learning techniques. 
+View and understand social sentiment in posts that are found by your search topics. Sentiment analysis in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] calculates the sentiment value of social posts using natural-language processing and machine learning techniques. 
 
 In [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)], go to **Analytics** > **Sentiment** to learn more  about sentiment across posts in your data set.  
 
 ![screenshot of the sentiment page in the analytics area of market insights](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Market Insights")
 
-**Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. For more information on supported languages, download the [Microsoft Dynamics 365 AI for Market Insights Translation Guide](https://go.microsoft.com/fwlink/p/?LinkID=391086).
+## Sentiment value
+
+**Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. 
+
+## Sentiment index
 
 The **sentiment index** is calculated from the sentiment value of posts and normalized to a value between -10 and 10. All your active filters and parameters are considered to define the data set that the sentiment index calculates.  
   

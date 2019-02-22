@@ -21,7 +21,7 @@ search.app:
 
 # Connect with customers. Empower your organization. Create real results.
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
 
@@ -59,14 +59,14 @@ The business scenarios that [!INCLUDE[Market Insights](../includes/pn-market-ins
 
 We frequently release updates to introduce new capabilities, improve existing features, and fix various issues.
 
-- Have a look at [what's new in Market Insights](what-s-new.md) to learn about the latest changes.
+- Have a look at [what's new in Market Insights](release-notes.md) to learn about the latest changes.
 
 - Read the latest [Market Insights readme](https://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
-- Download the [Market Insights translation guide](https://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
+- Review the [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
 
 ### See also
 
-[What's new in Market Insights](what-s-new.md)    
+[What's new in Market Insights](release-notes.md)    
 [Market Insights FAQ](faq.md)   

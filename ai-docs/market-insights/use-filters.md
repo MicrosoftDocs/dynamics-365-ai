@@ -21,13 +21,13 @@ search.app:
 
 # Use filters to see relevant data
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
 You can use [filters](understand-filters.md) to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  
   
 <a name="data_set"></a>   
 ## Set a baseline for your analysis with a data set  
- Data sets are an important concept in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)], defining the set of posts that your current analysis focuses on. Data sets are used in Analytics, Alerts, and Social Center to give you the most flexibility for your views of the data.  
+ Data sets are an important concept in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)], defining the set of posts that your current analysis focuses on. Data sets are used in Analytics, Alerts, and Social Center to give you the most flexibility for your views of the data.  
   
  You can create a data set by providing parameters for your analysis focus and the filters:  
   
@@ -38,7 +38,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
    ![create data sets in social engagment](media/data-set-concept.png "Create data sets in Social Engagment")  
   
 ## Drill down into data and apply filters from widgets  
- [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
+ [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
   
  When you work through the application by drilling down, it redirects you to corresponding pages, and updates filters in the filter section. For example, if you select a data point in a **Sources History** widget (which spans more than one day) on **Analytics** > **Sources**, the widget on the **Sources** page applies the filter for the source that you selected, and your time frame updates to the time frame of the selected data point.  
   

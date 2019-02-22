@@ -2,7 +2,7 @@
 title: "Manage social profiles in Market Insights | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Market Insights."
 keywords: "social profile, tokens, shared profile"
-ms.date: 10/31/2018
+ms.date: 12/19/2018
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8db56983-9023-4ad0-af2b-6f7f52840768
@@ -21,9 +21,9 @@ search.app:
 
 # Manage social profiles
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-*Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
+*Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
 To [publish or react to posts](publish-react-posts.md), you need active social profiles in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. 
   
@@ -40,13 +40,11 @@ Data acquisition and acquisition of private messages from your social profiles r
 
 Currently, you can add the following social profiles: 
 
-- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Acquisition**: A [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user account to use within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] Acquisition**: This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] business accounts linked to your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
 
 - **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](https://go.microsoft.com/fwlink/p/?LinkID=723360)
 
 - **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Profile**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users to create search rules that gather these direct messages. 
-
-- **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] Account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Profile**: Share posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
 
@@ -111,7 +109,7 @@ To let other users of your organization post on behalf of a social profile that 
 4. Start typing the name of the user or group you want to share the profile with, and then select it from the list.  
   
    > [!CAUTION]
-   > When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)].  
+   > When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)].  
   
 5. Click the **Add** button to confirm your selection.  
 
@@ -159,7 +157,7 @@ If you know the credentials to a social profile, you can claim ownership for it.
 
 ## Acquisition token status of social profiles
 
-- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
+- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)], and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)   
   
 - **Profiles for private messages acquisition**: You can acquire private messages from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] accounts if you have at least one valid access token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   

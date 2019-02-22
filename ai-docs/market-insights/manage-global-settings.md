@@ -21,14 +21,14 @@ search.app:
 
 # Manage global settings
 
-[This topic is pre-release documentation and is subject to change.]
+(This topic is pre-release documentation and is subject to change.)
 
-Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] solution, letting your users start efficiently with your organizational requirements.  
+Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] solution, letting your users start efficiently with your organizational requirements.  
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-admin.md)]  
   
- If you aren’t an administrator, you can only override the default values for how [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](user-preferences.md#EditPrefs)  
+ If you aren’t an administrator, you can only override the default values for how [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](user-preferences.md#EditPrefs)  
   
 <a name="Edit_solution_name"></a>   
 ## Edit the solution name  
@@ -105,7 +105,7 @@ Define system settings that apply to the entire organization, like solution name
 2.  In the **Global Settings** pane, click **Search Languages**.  
   
     > [!TIP]
-    >  The more search languages you add, the more posts your keyword search rules may find. For more information on the supported languages, download the [Microsoft Dynamics 365 AI for Market Insights Translation Guide](https://go.Microsoft.com/fwlink/p/?LinkID=391086).  
+    >  The more search languages you add, the more posts your keyword search rules may find. For more information on the supported languages, review the [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086).  
   
 3.  In the **Search Languages** pane, select the check boxes for the languages you want to enable in **Search Setup**.  
   
@@ -183,7 +183,7 @@ Define system settings that apply to the entire organization, like solution name
  To remove a status label, click **Delete** ![delete button](media/delete-icon.png "Delete button") next to the label description, and then confirm your deletion.  
   
 ## Create and manage location groups  
- Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[Dynamics 365 AI for Market Insights](../includes/pn-market-insights-long.md)]. You can create custom location groups or use the predefined ones.  
+ Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]. You can create custom location groups or use the predefined ones.  
   
 ### Find available location groups  
   
