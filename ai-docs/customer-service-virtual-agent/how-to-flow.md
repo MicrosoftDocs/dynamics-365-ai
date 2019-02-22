@@ -1,6 +1,6 @@
 ---
-title: "Use Microsoft Flow with your virtual agent"
-description: "Learn how to use Microsoft Flow in your virtual agent."
+title: "Add actions to your virtual agent using Microsoft Flow"
+description: "Learn how to add actions to your virtual agent using Microsoft Flow."
 keywords: ""
 ms.date: 2/20/2019
 ms.service:
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Use Microsoft Flow with your virtual agent
+# Add actions to your virtual agent using Microsoft Flow
 
 You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same CDS environment as the virtual agent. First, create Microsoft PowerApps and Microsoft Flow environments, and then create your flow. You can then create a virtual agent that invokes your flow.
 
