@@ -35,10 +35,10 @@ ms.date: 10/31/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365 AI FOR</span><br />Customer Insights</h3>
-                                                <p><a href="/dynamics365/ai/customer-insights/introduction">Overview</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/quick-start">Quick Start Guide</a></p>
-                                                <p><a href="/dynamics365/ai/customer-insights/advanced-guide">Advanced guide</a></p>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Customer Insights</h3>
+                                                <p><a href="/dynamics365/ai/customer-insights/overview">Overview</a></p>
+                                                <p><a href="/dynamics365/ai/customer-insights/pm-homepage">Home page</a></p>
+                                                <p><a href="/dynamics365/ai/customer-insights/pm-data-manager">Data Manager</a></p>
                                             </div>
                                         </div>
                                     </div>
