@@ -14,7 +14,7 @@ manager: shellyha
 
 # Add actions to your virtual agent using Microsoft Flow
 
-You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same CDS environment as the virtual agent. First, create Microsoft PowerApps and Microsoft Flow environments, and create your flow. You can then create a virtual agent that invokes your flow.
+You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same Common Data Service (CDS) environment as the virtual agent. First, create Microsoft PowerApps and Microsoft Flow environments, and then create your flow. Once you have created the flow, you can create a virtual agent that uses an action to invoke the flow.
 
 ## To create Microsoft PowerApps and Flow environments
 
