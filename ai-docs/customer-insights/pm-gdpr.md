@@ -36,7 +36,7 @@ Dynamics 365 Customer Insights offers the following in-product experiences to de
 
 A Customer Insights admin can follow these steps to delete customer data:
 
-1. Sign in to Dynamics 365 for Customer Insights.
+1. Sign in to Dynamics 365 Customer Insights.
 2. Navigate to the **Data Sources** page.
 3. For each data source in the list that contains customer data do the following:
    1. Select (...) under **Action**, and then select **Refresh**.
