@@ -24,7 +24,7 @@ manager: "kvivek"
 There are two main goals behind the **Map** phase:
 
 - **Entity selection:** Identify the entities which, upon unification, may lead to a dataset with more complete information about your customers.
-- **Attribute selection:** For each customer entity, identify the columns upon which you will want to combine and reconcile your data in the next data configuration phases, *Match* and *Merge* (those columns are also called attributes).
+- **Attribute selection:** For each entity, identify the columns you wish to combine and reconcile in the next data configuration phases: *Match* and *Merge* (those columns are also called *attributes*).
 
 Select the **Map** tile on the **Configure Data** page to start the *Map phase*.
 
@@ -38,7 +38,7 @@ Start the *Map* phase by selecting **Add entities**.
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
 
-Within the next screen, add all the entities which, upon unification into a unified customer dataset, might lead to a better understanding about your customers.
+Within the next screen, add all the entities which, upon unification into a unified customer dataset, might lead to a better understanding about your customers:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
@@ -79,7 +79,7 @@ Use either the **Search** field or scroll down the **Attributes List** to locate
 
 ## Add and remove entities
 
-Select **Select** to either add or remove entities.
+Click **Select** to either add or remove entities.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit.png "Select Edit")
