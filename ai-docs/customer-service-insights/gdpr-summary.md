@@ -14,6 +14,8 @@ manager: shellyha
 
 # Overview of GDPR compliance for Dynamics 365 Customer Service Insights
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 This article helps you and your organization prepare for the European Union's General Data Protection Regulation (GDPR). This article not only describes what Microsoft is doing to prepare for the GDPR but also shares examples of steps you can take today to support GDPR compliance when using Dynamics 365 Customer Service Insights.
 
 ## Prerequisites
