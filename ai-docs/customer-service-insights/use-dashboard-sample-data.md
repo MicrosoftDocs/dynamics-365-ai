@@ -14,6 +14,8 @@ manager: shellyha
 
 # Work with Customer Service Insights dashboards
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 The dashboards included in Customer Service Insights provide a rich set of analytic tools to give you a clear picture of your customer service system. Whether you connect immediately to your customer service data or spend time exploring the sample environment, becoming familiar with the dashboards can help you gain a variety of insights to help you improve system performance.
 
 Some key features of the dashboards include:

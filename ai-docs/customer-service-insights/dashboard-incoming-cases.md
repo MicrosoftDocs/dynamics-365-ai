@@ -14,6 +14,8 @@ manager: shellyha
 
 # New cases dashboard​
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 > [!div class="mx-imgBorder"]
 > ![New cases dashboard](media/ai-csi-new-cases-dash.png)
 

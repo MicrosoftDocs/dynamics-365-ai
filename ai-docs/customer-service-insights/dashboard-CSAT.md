@@ -14,6 +14,8 @@ manager: shellyha
 
 # Customer satisfaction dashboard
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 > [!div class="mx-imgBorder"]
 > ![Customer satisfaction dashboard](media/ai-csi-CSAT-dash.png "Customer satisfaction dashboard")
 
