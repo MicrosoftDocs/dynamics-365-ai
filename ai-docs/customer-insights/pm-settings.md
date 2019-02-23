@@ -21,35 +21,44 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **System** page encapsulates everything that you, as an administrator, needs to have in order to closely monitor the various processes that run behind the scenes of Customer Insights. As shown below, it includes four parts: **Status, Schedule**, **About**, and **General**.
+The System page encapsulates everything that you, as an administrator, need to closely monitor the various processes that run behind the scenes of Customer Insights. As shown below, it includes four parts: **Status, Schedule**, **About**, and **General**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-tabs.png "Text")
 
-**Note**: We recommend to use the **Schedule** tab to ensure your data sources are updated on regular basis. Later in this section we will cover this tab in depth (right after the **Status** tab).
+**Note**: If your data sources are updated on regular basis, we highly recommend to use the **Schedule tab**. Make sure to review the **Schedule tab** sub-section that can be found later in this section.
 
 ## Status tab
 
-The **Status** tab enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables.
+The **Status tab** enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables.
 
 - **Data Sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources - whether it didn't start, in progress, or already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-sources.png "System data sources")
 
-- **System Processes**: This table lists all the processes that should be executed in Customer Insights as part of a full user journey. The left-side column specifies those processes' names. The middle column presents the status of progress for each of these processes - whether it didn't start, in progress, or already completed. Lastly, the right-side column states the last data refresh date for each of the processes.
+- **System Processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. 
+
+The left-side column specifies those processes' names. 
+
+The middle column presents the status of progress for each of these processes:
+  - Whether it **didn't start** 
+  - **In progress** 
+  - Or already **completed.** 
+  
+Lastly, the right-side column states the last data refresh date for each of the processes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-status-processes.png "Text")
 
-- **In addition**, you can view the details of each completed data source ingestion or system process by selecting that data source or process row. In the example below, the user has selected the *Dynamics365forSales* data source that has ingestion status **Complete** (shown in red) and got additional details on that data source (shown in blue).
+- In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the example below, the user has selected the *Dynamics365forSales* data source that has ingestion status **Complete** (shown in red) and is shown additional details on that data source (shown in blue).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-database-details.png "Text")
 
 ## Schedule tab
 
-Use the **Schedule** tab to refresh all of your ingested Customer Insights data. You should utilize this tab to schedule the frequency and timing of the refreshes. As data is constantly updated in some or all of your data sources, you may want that processes and insights in Customer Insights will reflect those changes. The **Schedule** tab enables you do achieve that in an automated way.
+Use the **Schedule** tab to refresh all of your ingested Customer Insights data. You should utilize this tab to schedule the frequency and timing of the refreshes. As data is constantly updated in some or all of your data sources, it's important to ensure those updates appear in your unified customer profile. The **Schedule** tab enables you do achieve that in an automated way.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-off.png "System data refresh off")
