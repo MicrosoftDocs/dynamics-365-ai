@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-*Merge* is the last phase within the data configuration process and it's all about reconciling conflicting data. Examples for conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant), or a phone number format that slightly differs (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
+*Merge* is the last phase within the data configuration process and its purpose is reconciling conflicting data. Examples for conflicting data might be the customer name which resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant), or a phone number format that slightly differs (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
 
 Once completing *Match*, you can access *Merge* via the **Merge** tile within the **Configure Data** page.
 
@@ -85,7 +85,7 @@ This panel consists of four parts.
 
 **Name**: First, we will type an attribute name. We can identify it in the **Merge** page later.
 
-**Display Name**: Then we will determine how we want our merged attribute to be named in our final customer profile dataset.
+**Display Name**: Then we will consider to give our merged attribute a more friendly name that will appear in the unified Customer Profile entity. 
 
 **Select Duplicate Attributes**: Within this menu we will select all the attributes that we want to merge from our matched entities. We can also use the search field to type our attributes' names. 
 
