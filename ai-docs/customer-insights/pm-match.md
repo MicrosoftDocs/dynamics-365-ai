@@ -80,7 +80,7 @@ You can always remove entities from your match order. Select **Save** to save yo
 
 ## Step Two: Define rules for your first match pair
 
-Once completing Step One, you can expect to reach the **Match** page that is shown below and which includes your defined matches (in the example below the user specified two matches). Note that the tiles at the top of the screen will be empty until we will run our match order in Step Three. These will be used for validation as explained in Step Four.
+Once you've completed Step One, you can expect to reach the *Match* page that is shown below and which includes your defined matches (in the example below the user specified two matches). Note that the tiles at the top of the screen will be empty until we will run our match order in Step Three. These will be used for validation as explained in Step Four.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-need-rules.png "Need rules")
@@ -95,23 +95,20 @@ That will open the following **rule panel**.
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-condition.png "Create new rule and conditions")
 
-Besides the rule's name, this panel enables you to specify all the conditions for that role. Each condition is represented by two rows that include the following mandatory selections.
+The new rule panel enables you to specify all the conditions for that role. Each condition is represented by two rows that include the following mandatory selections.
 
-1. Attribute that will be used for matching from the first match pair entity: Name, Phone, Email Address, etc. 
+1. Attribute that will be used for matching from the first match pair entity: *Name, Phone, Email Address, etc.* Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
 [IMPORTANT!]
 > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
 2. Attribute that will be used for matching from the second match pair entity.
 
-3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2) - from removing punctuation, to removing spaces, to many others. Note that for some attribute types, a specific and possibly optimal combination of normalizations will be automatically chosen for you. This option is called **Semantic Normalization** in the drop down and you can change this default selection to any of the other options.
+3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2) - from removing punctuation, to removing spaces, to many others. 
 
 4. The level of precision that will be used for that condition:
 
    - Selecting **Exact** on the left-side of the scale to have only matching records matched. 
-
-   [IMPORTANT!]
-   > Choosing **Exact Match** on the basis of the same AttributeId type (for example AccountId, ContactId) will not lead to optimal result. While you may want to link the two entities through a relationship (visit the **Relationships** section in order to review), the match process should be executed on the basis of other attributes. 
 
    - Selecting one of the other levels will dictate that records that are not 100% identical will also be matched. **High** fits cases where precision is more important than reach such as a financial service to a specific customer. **Low** fits cases where the opposite is true such as a marketing campaign. The **Medium** level serves as a middle-ground option. 
 
@@ -169,7 +166,7 @@ Note that:
 - You can also view the customer profile entity in the **Entities** page.
 - As shown in red, you can also download the customer profile dataset. 
 
-At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, it's recommended to go through at least a portion of Step Four in order to validate the quality of your match which can help you decide whether to continue to merge or reconfigure your match definitions.
+At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, we recommend you review some of the match preview results to validate records were matched according to your expectations.
 
 ## Step Four (optional): Review and validate your matches
 
@@ -233,11 +230,7 @@ If you followed Step Four, then at this point you should have a better understan
 
 - **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order in order to yield a better match quality. That can be done by substituting the two rules' attributes. At this point it is needed to delete (button is shown below in red) and re-create (button ia shown below in blue) the two rules with the new attributes:
 
-// missing 1
-
 - **Editing your rules**: This includes several important changes that you should try as you optimize the match quality. All the following options are accessible via the rule's **Edit** button:
-
-// missing 2
 
     - **Changing attributes for a condition**: This can be done by reselecting new attributes within the specific condition row.
     - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step Four, we covered how to get insight into the effects of the three threshold levels on your match quality.
