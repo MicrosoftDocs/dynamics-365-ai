@@ -38,4 +38,4 @@ A virtual agent can resolve many customer support issues, but there might be tim
 
    > ![Add Escalate node](media/add-escalate.png)
 
-5. Select **Save** to save the topic, and then test your virtual agent in the Test Bot to see how the handoff works for customers.
+5. Select **Save** to save the topic, and then test your virtual agent in the Test Virtual Agent to see how the handoff works for customers.

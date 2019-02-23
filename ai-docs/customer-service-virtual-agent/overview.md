@@ -37,6 +37,3 @@ For information about using analytics information to help you improve your virtu
 For information about working with the Virtual Agent Designer, see [Working with the Virtual Agent Designer](getting-started-bot-designer.md).
 
 For information about removing your bot from the Dynamics 365 Customer Service Virtual Agent environment, see [Deleting a virtual agent](getting-started-delete-bot.md).
-
-
-

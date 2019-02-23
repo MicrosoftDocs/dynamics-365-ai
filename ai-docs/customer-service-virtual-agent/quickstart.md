@@ -68,9 +68,9 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    Select **Save** to save the conversation.
 
-6. Test the topic in the Test Bot.
+6. Test the topic in the Test Virtual Agent.
 
-   Enter a trigger phrase for the topic at the **Type your message** prompt of the Test Bot, and then follow the conversation path.
+   Enter a trigger phrase for the topic at the **Type your message** prompt of the Test Virtual Agent, and then follow the conversation path.
 
    > ![Start conversation](media/start-conversation.png)
 

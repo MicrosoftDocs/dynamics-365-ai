@@ -185,7 +185,7 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
 ## To test the flow
 
-1. In the Test Bot, select **Start over with latest conversation**. Then specify a trigger phrase for the topic that contains the flow.
+1. In the Test Virtual Agent, select **Start over with latest conversation**. Then specify a trigger phrase for the topic that contains the flow.
 
 2. Enter your email address at the prompt.
 

@@ -32,7 +32,7 @@ The Home page provides links to the Topics, Analytics, and Deploy pages.  An **E
 
 The Topics page is the central location for creating and managing virtual agent topics. The Virtual Agent Designer includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your virtual agent.
 
-You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the virtual agent in the Test Bot and refine it as necessary.
+You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the virtual agent in the Test Virtual Agent and refine it as necessary.
 
 For more information about using the Topics page to create topics, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
@@ -56,18 +56,18 @@ If you choose to deploy your virtual agent to your own custom website, you can c
 
 For more information about using the Deploy page to deploy your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 
-## Test Bot
+## Test Virtual Agent
 
-The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation with the virtual agent works in practice. You can hide the Test Bot by selecting **Hide your bot** on the lower left corner of the Virtual Agent Designer.
+The Virtual Agent Designer includes a Test Virtual Agent, where you can test how the conversation with the virtual agent works in practice. You can hide the Test Virtual Agent by selecting **Hide Virtual Agent** on the lower left corner of the Virtual Agent Designer.
 
-   > ![Hide Test Bot](media/hide-test-bot.png)
+   > ![Hide Virtual Agent](media/hide-test-va.png)
 
-When the Test Bot is hidden, **Hide your bot** changes to **Show your bot**. Select **Show your bot** to restore the Test Bot.
+When the Test Virtual Agent is hidden, **Hide Virtual Agent** changes to **Show Virtual Agent**. Select **Show Virtual Agent** to restore the Test Virtual Agent.
 
-You can test a virtual agent topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test Bot.
+You can test a virtual agent topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test Virtual Agent.
 
    > ![Trigger phrase](media/enter-trigger.png)
 
-The trigger phrase starts the topic's conversation, and the Test Bot displays the virtual agent responses and user response choices you specified when you created the topic on the Topics page.
+The trigger phrase starts the topic's conversation, and the Test Virtual Agent displays the virtual agent responses and user response choices you specified when you created the topic on the Topics page.
 
    > ![Complete conversation](media/test-conversation.png)

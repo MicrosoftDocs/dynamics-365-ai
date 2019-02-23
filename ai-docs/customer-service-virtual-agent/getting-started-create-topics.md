@@ -16,7 +16,7 @@ manager: shellyha
 
 A topic defines a conversation path with the virtual agent for a specific customer intent. You specify a trigger phrase that prompts the virtual agent to start the conversation. Then create a conversation path in the Virtual Agent Designer's conversation editor to lead customers to a resolution of their support issue.
 
-You can see how the conversation path works in practice by testing it in the Test Bot and continue to fine-tune the topic until you are ready to deploy it.
+You can see how the conversation path works in practice by testing it in the Test Virtual Agent and continue to fine-tune the topic until you are ready to deploy it.
 
 ## To create your own topic
 
@@ -96,15 +96,15 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    Then select **Save** to save the conversation path.
 
-As you design your topic's conversation path, you can use the Test Bot to see how the virtual agent leads the customer through a conversation with the virtual agent.
+As you design your topic's conversation path, you can use the Test Virtual Agent to see how the virtual agent leads the customer through a conversation with the virtual agent.
 
-## To test the topic in the Test Bot
+## To test the topic in the Test Virtual Agent
 
-1. At the **Type your message** prompt at the bottom of the Test Bot pane, enter a trigger phrase for the topic.
+1. At the **Type your message** prompt at the bottom of the Test Virtual Agent pane, enter a trigger phrase for the topic.
 
    > ![Trigger phrase](media/enter-trigger.png)
 
-    The trigger phrase starts the topic's conversation. The Test Bot displays the bot and user responses that you specified in the conversation editor.
+    The trigger phrase starts the topic's conversation. The Test Virtual Agent displays the bot and user responses that you specified in the conversation editor.
 
    > ![Start conversation](media/start-conversation.png)
 
@@ -112,10 +112,10 @@ As you design your topic's conversation path, you can use the Test Bot to see ho
 
    > ![Complete conversation](media/complete-test.png)
 
-3. To restart the conversation, select **Start over with latest content** at the top of the Test Bot pane.
+3. To restart the conversation, select **Start over with latest content** at the top of the Test Virtual Agent pane.
 
    > ![Restart conversation](media/restart-conversation.png)
 
 You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the virtual agent until you are ready to deploy it. For information on deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 
-For more information on using the Test Bot, see [Work with the Test Bot](how-to-test-bot.md).
+For more information on using the Test Virtual Agent, see [Work with the Test Virtual Agent](how-to-test-bot.md).

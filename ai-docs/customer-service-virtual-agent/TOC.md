@@ -22,7 +22,7 @@
 
 ## [Work with templates](how-to-templates.md)
 
-## [Work with the Test Bot](how-to-test-bot.md)
+## [Work with the Test Virtual Agent](how-to-test-bot.md)
 
 ## [Work with variables](how-to-variables.md)
 
