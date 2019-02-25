@@ -59,7 +59,7 @@ To create a relationship, first select **Add Relationship**.
 > [!div class="mx-imgBorder"] 
 > ![](media/add-relationships.png "Add relationships")
 
-Next, provide the following information in the Relationship panel:
+Next, provide the following information in the **Relationship** panel.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/relationships-add.png "Add a relationship")
