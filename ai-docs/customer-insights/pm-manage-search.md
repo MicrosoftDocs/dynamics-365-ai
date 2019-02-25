@@ -70,21 +70,21 @@ Let's explore the table on this page, going left to right.
 
 ## Editing search, sort, and fiter options for a given attribute
 
-After selecting **Edit** for a given attribute, one of three possible panels will show up, depending on the attribute's data type.
+The **Filter menu** on the Profiles page can include a varying number of attribute levels (for example, anywhere between 2 and 10 age groups to filter customers by). 
 
-The **Filter** menu on the **Profiles** page can include a varying number of attribute levels (for example, anywhere between 2 and 10 age groups to filter customers by). Using the **Edit panel**, you can specify:
+After selecting **Edit** for a given attribute on the Search, Sort and Filter screen, one of three possible panels will show up, depending on the attribute's data type. Using this panel you will be able to determine:
 
-1. How many results will appear on the filter panel
+1. How many results will appear on the **Filter menu** on the Profiles screen
 2. In what order they will be organized
 
-The following image shows the **Edit panel** that will open for strong-type attributes.
+The following image shows the **Edit panel** that will open for string-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/string-filter-options.png "String filter options")
 
 In this panel, you can specify the number of desired results on the **Filter** panel as well as the order policy by which they will be organized. 
 
-The following image shows the **Edit panel** that will open for number-type attributes.
+The following image shows the Edit panel that will open for string-type attributes:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/number-filter-options.png "Number filter options")
