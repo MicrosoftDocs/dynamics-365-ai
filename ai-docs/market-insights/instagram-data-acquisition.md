@@ -27,7 +27,6 @@ On December 10, 2018, two changes will be introduced in [!INCLUDE[Market Insight
 Keyword searches will be retired by [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] on December 10, 2018. Due to this change, we will also be removing the keyword search functionality in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. 
 
 ## How will [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search rules work after December 10, 2018?
-
 Since the functionality of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword searches will be removed on December 11th, no new keyword search queries for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] can be set up. 
 
 Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules will be preserved, as long as the rules are not changed. However, no new posts for keyword search rules are acquired from [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. If a user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. Doing so will remove the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] posts from the database. 
