@@ -84,7 +84,7 @@ This can be done by:
    > [!div class="mx-imgBorder"] 
    > ![](media/select-relationship-to-delete.png "Select the relationship to delete")
 
-2. Select **Delete** at the top of the relationship table.
+2. Select **Delete** at the top of the **Relationships** table.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/delete-relationship.png "Delete relationship")
