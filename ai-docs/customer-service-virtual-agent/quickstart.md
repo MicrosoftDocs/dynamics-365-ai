@@ -30,7 +30,10 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    On the **Create a new bot** screen, select the template you want to use, either General or Retail. Specify a name and region for the bot.
 
-   In the **Region where your Virtual Agent is stored** drop-down, select the environment you want to use to create the bot. Then select **Create**.
+   In the **Region where your Virtual Agent is stored** drop-down, select the environment you created. Then select **Create**.
+
+    > [!NOTE]
+    > Do not select the Default environment, which is not currently supported.
 
    When you first create your virtual agent, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 

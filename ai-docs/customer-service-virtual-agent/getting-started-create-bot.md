@@ -36,7 +36,10 @@ These industry templates can also be useful as a model for building your own con
 
 3. Select the template you want to use, and specify a name and region for the bot.
 
-    In the **Region where your Virtual Agent is stored** drop-down, select the PowerApps environment you want to use to create the bot. Then select **Create**.
+    In the **Region where your Virtual Agent is stored** drop-down, select the PowerApps environment you created. Then select **Create**.
+
+    > [!NOTE]
+    > Do not select the Default environment, which is not currently supported.
 
     Virtual Agent Designer creates the virtual agent and opens it in the browser.
 

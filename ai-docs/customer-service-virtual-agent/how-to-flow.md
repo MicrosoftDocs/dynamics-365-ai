@@ -14,22 +14,17 @@ manager: shellyha
 
 # Add actions to your virtual agent using Microsoft Flow
 
-You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same Common Data Service (CDS) environment as the virtual agent. First, create Microsoft PowerApps and Microsoft Flow environments, and then create your flow. Once you have created the flow, you can create a virtual agent that uses an action to invoke the flow.
+You can enable you virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same Common Data Service (CDS) environment as the virtual agent. First, create a Microsoft PowerApps environment and then create your flow. Once you have created the flow, you can create a virtual agent that uses an action to invoke the flow.
 
-## To create Microsoft PowerApps and Flow environments
+## To create a Microsoft PowerApps environment
 
 1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your virtual agent.
 
     For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
-2. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal to create one. Enter [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser to open the Flow portal.
+2. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal by entering [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser. Then select your PowerApps environment from the list.
 
-3. Select your User icon in the upper-right corner of the screen, and then select the PowerApps environment you created from the list.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select environment](media/how-to-flow-1-4.png)
-
-4. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
+3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
 
    > [!div class="mx-imgBorder"]
    > ![Verify database](media/how-to-flow-1-5.png)
