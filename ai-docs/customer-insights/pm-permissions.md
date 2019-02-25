@@ -23,7 +23,7 @@ manager: "kvivek"
 
 The **Permissions** page is where you can set up roles and permissions for using Customer Insights across the organization. Customer Insights includes three types of roles. 
 
-|Role  |Options available under this role  |
+|Role  |Capabilities available under this role  |
 |---------|---------|
 |Viewer     | <ul><li>View **Home** and **Segments** pages </li></ul>       |
 |Contributor     | <ul><li>Complete **Data Manager**: **Data Sources** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge**, **Relationships**, **Activities**, etc </li><li>View **Home** and **Segments** pages </li><li>Create segments in the **Segment Builder** page  </li></ul> |
@@ -35,19 +35,22 @@ On the **Permissions** page, select **Add** to add permissions and roles to user
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-permissions.png "Add permissions")
- 
-First, find the person to whom you want to give permission. Type this person's name in the **Select** field.
+
+First, decide on the role:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Enter a name")
+ 
+Then, find the person to whom you want to give that permission. Type this person's name in the **Select** field.
 
-Then, **Choose a role** for that person as shown above.
+> [!div class="mx-imgBorder"] 
+> ![](media/permissions-roles.png "Enter a name")
 
 Lastly, select **Save** in the bottom-right corner of the panel. The instance that you are using will be automatically shared with the user you have defined the permission for. This user will be able to enter the Customer Insights app and perform actions according to the role that you have specified.
  
 ## View current permissions
 
-After selecting **Save**, you can utilize the following page to explore all the permissions that were given to date.
+After selecting **Save**, you can utilize the Permissions page to explore all the permissions currently active.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions.png "Permissions")
