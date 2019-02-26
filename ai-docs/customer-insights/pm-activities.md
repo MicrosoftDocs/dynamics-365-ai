@@ -78,7 +78,7 @@ This step includes all your activity definitions. We will explore those from lef
 You may now define your next activity, which can be done via Add as highlighted in red below. Don't forget to save your activities (shown in blue).
 
 > [!div class="mx-imgBorder"] 
-> ![](media/activities-add-save-entity.png "Save and add ctivities entities")
+> ![](media/activities-add-save-entity.png "Save and add activities entities")
    
 ## Next Step
 Once defining your activities, you can:
