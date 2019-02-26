@@ -1,8 +1,8 @@
 ---
 title: "Work with templates"
-description: "Learn how to work with Dynamics 365 Customer Service Virtual Agent templates."
+description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service templates."
 keywords: ""
-ms.date: 1/14/2019
+ms.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

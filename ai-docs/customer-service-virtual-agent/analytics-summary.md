@@ -1,8 +1,8 @@
 ---
 title: "Summary dashboard"
-description: "Learn about the Dynamics 365 Customer Service Virtual Agent Summary dashboard."
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Summary dashboard."
 keywords: ""
-ms\.date: 1/14/2019
+ms\.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

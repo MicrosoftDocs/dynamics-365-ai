@@ -2,7 +2,7 @@
 title: "Working with the Virtual Agent Designer"
 description: "Learn how to work with the Virtual Agent Designer."
 keywords: ""
-ms\.date: 1/14/2019
+ms\.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,7 +14,7 @@ manager: shellyha
 
 # Working with the Virtual Agent Designer
 
-The Dynamics 365 Customer Service Virtual Agent Designer provides a variety of tools to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a web channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
+The Dynamics 365 Virtual Agent for Customer Service Designer provides a variety of tools to create a powerful custom virtual agent. You can add topics to your virtual agent to help you design a conversation path to resolve customer support issues, and then deploy the virtual agent to a web channel. You can also view analytics information to help you improve the virtual agent and the overall customer experience.
 
 The Virtual Agent Designer is composed of several pages designed for different tasks. You can access the pages through the navigation pane.
 

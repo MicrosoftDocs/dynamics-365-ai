@@ -2,7 +2,7 @@
 title: "Add actions to your virtual agent using Microsoft Flow"
 description: "Learn how to add actions to your virtual agent using Microsoft Flow."
 keywords: ""
-ms.date: 2/20/2019
+ms.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -94,7 +94,7 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
 ## To create a virtual agent that invokes a flow
 
-1. Log in to the Dynamics 365 Customer Service Virtual Agent portal [https://va.ai.dynamics.com](https://va.ai.dynamics.com), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
+1. Log in to the Dynamics 365 Virtual Agent for Customer Service portal [https://va.ai.dynamics.com](https://va.ai.dynamics.com), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
 
    > [!div class="mx-imgBorder"]
    > ![Create virtual agent](media/how-to-flow-14.png)

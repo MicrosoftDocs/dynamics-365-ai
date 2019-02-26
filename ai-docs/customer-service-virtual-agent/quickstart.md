@@ -2,7 +2,7 @@
 title: "Quickstart: Create and deploy a customer service virtual agent"
 description: "Learn how to quickly create a customer service virtual agent using the Virtual Agent Designer."
 keywords: ""
-ms.date: 2/20/2019
+ms.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,7 +14,7 @@ manager: shellyha
 
 # Quickstart: Create and deploy a customer service virtual agent
 
-Dynamics 365 Customer Service Virtual Agent Designer lets you quickly create and deploy your own customer service virtual agent. The virtual agent can chat with customers, ask clarifying questions to identify issues, and guide each customer to a resolution.
+Dynamics 365 Virtual Agent for Customer Service Designer lets you quickly create and deploy your own customer service virtual agent. The virtual agent can chat with customers, ask clarifying questions to identify issues, and guide each customer to a resolution.
 
 This Quickstart takes you through the end-to-end experience of creating a virtual agent, adding topics, deploying your virtual agent, and analyzing data from your virtual agent.
 

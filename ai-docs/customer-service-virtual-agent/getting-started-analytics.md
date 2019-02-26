@@ -1,8 +1,8 @@
 ---
 title: "Using analytics to improve your virtual agent"
-description: "Learn how to use analytics to improve your Dynamics 365 Customer Service virtual agent."
+description: "Learn how to use analytics to improve your Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 1/14/2019
+ms.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -67,7 +67,7 @@ Impact charts show you the topics that are having the greatest impact, both posi
    > [!div class="mx-imgBorder"]
    > ![Impact charts](media/satisfaction-drivers.png)
 
-For details on Dynamics 365 Customer Service Virtual Agent analytics, see the following topics:
+For details on Dynamics 365 Virtual Agent for Customer Service analytics, see the following topics:
 
 * [Analytics overview](analytics-overview.md)
 * [Summary dashboard](analytics-summary.md)

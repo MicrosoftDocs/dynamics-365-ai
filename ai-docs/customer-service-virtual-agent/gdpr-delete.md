@@ -1,8 +1,8 @@
 ---
-title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Virtual Agent"
-description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Virtual Agent."
+title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service"
+description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms\.date: 1/7/2019
+ms.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,13 +12,13 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR data subject delete requests for Dynamics 365 Customer Service Virtual Agent
+# Responding to GDPR data subject delete requests for Dynamics 365 Virtual Agent for Customer Service
 
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs except audit log information.
 
 ## Manage delete requests
 
-Dynamics 365 Customer Service Virtual Agent offers the following experiences to delete personal data for a specific user:
+Dynamics 365 Virtual Agent for Customer Service offers the following experiences to delete personal data for a specific user:
 
 * [Virtual agent chat logs](#virtual-agent-chat-logs)
 * [Case data connection settings](#case-data-connection-settings)

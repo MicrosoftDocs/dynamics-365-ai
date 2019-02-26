@@ -1,8 +1,8 @@
 ---
 title: "Topic details dashboard"
-description: "Learn about the Dynamics 365 Customer Service Virtual Agent Topic details dashboard."
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Topic details dashboard."
 keywords: ""
-ms\.date: 1/14/2019
+ms\.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

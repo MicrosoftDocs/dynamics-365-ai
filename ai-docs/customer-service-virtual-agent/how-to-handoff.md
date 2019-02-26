@@ -2,7 +2,7 @@
 title: "Hand off a virtual agent conversation to a live agent"
 description: "Learn how to use the Virtual Agent Designer to create a virtual agent conversation that hands off to a live agent."
 keywords: ""
-ms.date: 1/14/2019
+ms.date: 2/26/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
