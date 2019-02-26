@@ -102,10 +102,18 @@ If the Enrichment process failed, you'll find the reason for that failure at top
 
 ### Gain Richer Insights on your Customer Base
 
-Upon the completion of the Enrichment process, you have unlocked additional information on affinities to brands and interests. To explore those insights:
+Upon the completion of the Enrichment process, you have unlocked additional information on affinities to brands and interests. To explore those insights.
 
-1. Go to the **Entities** page.
-2. Select the **MsftAudienceIntelligence: Customer 360** entity.
+**1. Exploring affinities' histograms on the *Home* page**
+
+// add 1 
+
+Shown above in red, you can view the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
+
+**2. Exploring the *MsftAudienceIntelligence: Customer 360* entity on the *Entities* page**
+
+- Go to the ***Entities*** page.
+- Select the ***MsftAudienceIntelligence: Customer 360*** entity.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-entities-info.png "Text")
