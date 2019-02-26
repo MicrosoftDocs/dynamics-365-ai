@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Customer Insights enables you to consolidate data around your customers from all of your sources through the *Map*, *Match* and *Merge* phases. At the same time, Customer Insights goes beyond that and puts at your fingertips additional knowledge about your customers that comes from proprietary data. This section covers the **Enrich Profiles** page that can be used to unlock data on the affinities profiles similar to your customers have to hundreds of brands and dozens of interest-categories. Some examples for interest-categories are *Home Appliances*, *Shoes* and *Financial loans* but there are many others too.
+Customer Insights enables you to consolidate data around your customers from all of your sources through the *Map*, *Match* and *Merge* phases. At the same time, Customer Insights goes beyond that and puts at your fingertips additional knowledge about your customers that comes from proprietary data. This section covers the **Enrich Profiles** page that can be used to unlock data on the affinities profiles similar to your customers have to hundreds of brands and dozens of interest-categories. Some examples for interest-categories are *Home Appliances*, *Shoes* and *Financial Planning* but there are many others too.
 
 The **Enrich Profiles** page can be accessed through the app left-side menu as well as from the **Configure Data** page.
 
@@ -70,7 +70,7 @@ To add a brand or interest, type the keywords field (highlighted in blue above) 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
 
-2. **Industry's top brands and categories**: For a selected industry, Get the brands and interests which your total customer base, taken together, has the highest affinity with. Note that in *Customers* we refer here only to the customers you have chosen in the **Demographics** section. 
+2. **Industry's top brands and categories**: For a selected industry, Get the brands and interests which your total customer base, taken together, has the highest affinity with. Note that by *Customers* we refer here only those customers whose profiles match the *Demographic profile attributes*.
   
 ### Run the Enrichment process
 
