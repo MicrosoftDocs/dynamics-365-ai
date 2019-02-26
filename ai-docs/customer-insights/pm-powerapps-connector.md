@@ -32,7 +32,7 @@ Follow these steps to connect your PowerApps app to Customer Insights.
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps1.png "Create Blank app")
 
-3. Add the Customer Insights connector by going to **View** -> **Data Sources**
+3. Add the Customer Insights connector by going to **View** -> **Data Sources**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps2.png "Select View > Data sources")
