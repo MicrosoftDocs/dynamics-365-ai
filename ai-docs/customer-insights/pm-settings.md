@@ -24,15 +24,15 @@ manager: "kvivek"
 The System page encapsulates everything that you, as an administrator, need to closely monitor the various processes that run behind the scenes of Customer Insights. As shown below, it includes four parts: **Status, Schedule**, **About**, and **General**.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/system-tabs.png "Text")
+> ![](media/system-tabs.png "System page")
 
-**Note**: If your data sources are updated on regular basis, we highly recommend to use the **Schedule tab**. Make sure to review the **Schedule tab** sub-section that can be found later in this section.
+**Note**: If your data sources are updated on regular basis, we highly recommend you use the **Schedule tab**. Make sure to review the **Schedule tab** sub-section later in this section.
 
 ## Status tab
 
 The **Status tab** enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables.
 
-- **Data Sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources - whether it didn't start, in progress, or already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
+- **Data Sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources - whether it didn't start, is in progress, or has already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-sources.png "System data sources")
@@ -41,20 +41,20 @@ The **Status tab** enables you to track the progress of data ingestion as well a
 
 The left-side column specifies those processes' names. 
 
-The middle column presents the status of progress for each of these processes:
+The middle column presents the status of progress for each of these processes.
   - Whether it **didn't start** 
-  - **In progress** 
-  - Or already **completed.** 
+  - Is **In progress** 
+  - Or has already **completed.** 
   
 Lastly, the right-side column states the last data refresh date for each of the processes.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/system-status-processes.png "Text")
+> ![](media/system-status-processes.png "Refresh date")
 
 - In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the example below, the user has selected the *Dynamics365forSales* data source that has ingestion status **Complete** (shown in red) and is shown additional details on that data source (shown in blue).
 
 > [!div class="mx-imgBorder"] 
-> ![](media/system-database-details.png "Text")
+> ![](media/system-database-details.png "Data source details")
 
 ## Schedule tab
 
@@ -123,4 +123,4 @@ In this page, several options are available as shown below. Those options can se
 Currently, only one selection is available to you via the **General** tab - **Choosing language**. The languages we support show up in this menu. Don't forget to **Save** your selection. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/system-tabs-general.png "Text")
+> ![](media/system-tabs-general.png "General tab")

@@ -36,7 +36,7 @@ On the **Permissions** page, select **Add** to add permissions and roles to user
 > [!div class="mx-imgBorder"] 
 > ![](media/add-permissions.png "Add permissions")
 
-First, decide on the role:
+First, decide on the role.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Enter a name")
@@ -50,7 +50,7 @@ Lastly, select **Save** in the bottom-right corner of the panel. The instance th
  
 ## View current permissions
 
-After selecting **Save**, you can utilize the Permissions page to explore all the permissions currently active.
+After selecting **Save**, you can utilize the **Permissions** page to explore all the permissions currently active.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions.png "Permissions")

@@ -27,7 +27,7 @@ It includes two components:
 - **Activities page**: This component is accessible via the **Activities** tab on the left-side menu and is used to define the activities that you wish to view on the customer’s timeline grid.
 - **Timeline grid:** This grid consolidates all the activities of one customer in a chronological order, and can be viewed either within a Customer Engagement app via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the **Timeline Control** sub-section within the **Customer Card Add-In** section to learn how to work with that control.
 
-In this section we will only cover the **Activities page.**
+In this section we will only cover the **Activities** page.
 
 ## Activities page
 
@@ -49,7 +49,9 @@ Here we will choose the entity that includes our target activity or activities.
    > [!div class="mx-imgBorder"] 
    > ![](media/activities-search-entities.png "Activities search entities")
 
-3. Select Done. Once selected, you'll see the creation of a row per selected entity, with the required fields which we will complete in Step Two. Note: to be included in the timeline grid, an entity must have at least one attribute of type Date. Entities without Date fields will not be added. 
+3. Select **Done**. Once selected, you'll see the creation of a row per selected entity, with the required fields which we will complete in Step Two. 
+
+   Note: to be included in the timeline grid, an entity must have at least one attribute of type Date. Entities without Date fields will not be added.
  
    > [!div class="mx-imgBorder"] 
    > ![](media/activities-entities-define.png "Activities define entities")
@@ -76,7 +78,7 @@ This step includes all your activity definitions. We will explore those from lef
 You may now define your next activity, which can be done via Add as highlighted in red below. Don't forget to save your activities (shown in blue).
 
 > [!div class="mx-imgBorder"] 
-> ![](media/activities-add-save-entity.png "Activities entities add and save")
+> ![](media/activities-add-save-entity.png "Save and add ctivities entities")
    
 ## Next Step
 Once defining your activities, you can:
