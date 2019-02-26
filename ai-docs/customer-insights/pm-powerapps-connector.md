@@ -17,11 +17,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Connectors
+# PowerApps connector
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-## PowerApps connector
 
 Follow these steps to connect your PowerApps app to Customer Insights.
 
