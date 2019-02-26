@@ -1,5 +1,5 @@
 ---
-title: "Connectors | MicrosoftDocs"
+title: "Power BI connector | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 02/21/2019
@@ -17,11 +17,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Connectors
+# Power BI connector
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-## Power BI connector
 
 In this section you will learn how to utilize the **Power BI connector** for unlocking the Customer Insights Dashboard.
 
