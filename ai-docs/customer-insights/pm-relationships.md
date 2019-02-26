@@ -39,8 +39,8 @@ During the match and merge processes, system relationships are created behind th
 > ![](media/relationships-entities-merge.png "Relationship creation")
 
 - ***CustomerToContact* relationship** was created between the Customer entity and the Contact entity. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
-- ***CustomerToAccount* relationship** was created between the Customer entity and the Account entity. The Customer entity gets the key field **Account_accountId** to relate to the Account entity key field **accountId.**
-- ***CustomerToWebAccount* relationship** was created between the Customer entity and the WebAccount entity. The Customer entity gets the key field **WebAccount_webaccountId** to relate to the WebAccount entity key field **webaccountId.**
+- ***CustomerToAccount* relationship** was created between the Customer entity and the Account entity. The Customer entity gets the key field **Account_accountId** to relate to the Account entity key field **accountId**.
+- ***CustomerToWebAccount* relationship** was created between the Customer entity and the WebAccount entity. The Customer entity gets the key field **WebAccount_webaccountId** to relate to the WebAccount entity key field **webaccountId**.
 
 ## Using the Relationships page
 
@@ -90,6 +90,6 @@ This can be done by:
    > ![](media/delete-relationship.png "Delete relationship")
 
 ## Next Step
-System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources, that are no longer siloed. Visit the **Segments section** to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities section.**
+System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources, that are no longer siloed. Visit the **Segments section** to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities section**.
 
 
