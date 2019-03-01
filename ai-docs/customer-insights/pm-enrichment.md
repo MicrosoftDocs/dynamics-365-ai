@@ -2,7 +2,7 @@
 title: "Enrich Profiles MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/01/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -106,7 +106,8 @@ Upon the completion of the Enrichment process, you have unlocked additional info
 
 **1. Exploring affinities' histograms on the *Home* page**
 
-// add 1 
+> [!div class="mx-imgBorder"] 
+> ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
 Shown above in red, you can view the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
 
