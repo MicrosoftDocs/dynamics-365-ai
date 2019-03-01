@@ -2,7 +2,7 @@
 title: "Enrich Profiles MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/01/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Customer Insights enables you to consolidate data around your customers from all of your sources through the *Map*, *Match* and *Merge* phases. At the same time, Customer Insights goes beyond that and puts at your fingertips additional knowledge about your customers that comes from proprietary data. This section covers the **Enrich Profiles** page that can be used to unlock data on the affinities profiles similar to your customers have to hundreds of brands and dozens of interest-categories. Some examples for interest-categories are *Home Appliances*, *Shoes* and *Financial loans* but there are many others too.
+Customer Insights enables you to consolidate data around your customers from all of your sources through the *Map*, *Match* and *Merge* phases. At the same time, Customer Insights goes beyond that and puts at your fingertips additional knowledge about your customers that comes from proprietary data. This section covers the **Enrich Profiles** page that can be used to unlock data on the affinities profiles similar to your customers have to hundreds of brands and dozens of interest-categories. Some examples for interest-categories are *Home Appliances*, *Shoes* and *Financial Planning* but there are many others too.
 
 The **Enrich Profiles** page can be accessed through the app left-side menu as well as from the **Configure Data** page.
 
@@ -70,7 +70,7 @@ To add a brand or interest, type the keywords field (highlighted in blue above) 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
 
-2. **Industry's top brands and categories**: For a selected industry, Get the brands and interests which your total customer base, taken together, has the highest affinity with. Note that in *Customers* we refer here only to the customers you have chosen in the **Demographics** section. 
+2. **Industry's top brands and categories**: For a selected industry, Get the brands and interests which your total customer base, taken together, has the highest affinity with. Note that by *Customers* we refer here only those customers whose profiles match the *Demographic profile attributes*.
   
 ### Run the Enrichment process
 
@@ -102,10 +102,19 @@ If the Enrichment process failed, you'll find the reason for that failure at top
 
 ### Gain Richer Insights on your Customer Base
 
-Upon the completion of the Enrichment process, you have unlocked additional information on affinities to brands and interests. To explore those insights:
+Upon the completion of the Enrichment process, you have unlocked additional information on affinities to brands and interests. To explore those insights.
 
-1. Go to the **Entities** page.
-2. Select the **MsftAudienceIntelligence: Customer 360** entity.
+**1. Exploring affinities' histograms on the *Home* page**
+
+> [!div class="mx-imgBorder"] 
+> ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
+
+Shown above in red, you can view the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
+
+**2. Exploring the *MsftAudienceIntelligence: Customer 360* entity on the *Entities* page**
+
+- Go to the ***Entities*** page.
+- Select the ***MsftAudienceIntelligence: Customer 360*** entity.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-entities-info.png "Text")
