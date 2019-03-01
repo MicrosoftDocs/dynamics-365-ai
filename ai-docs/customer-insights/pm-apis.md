@@ -2,7 +2,7 @@
 title: "APIs | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/01/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -24,8 +24,10 @@ manager: "kvivek"
 
 When it comes to Customer Insights, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
+<!-- 
 > [!div class="mx-imgBorder"] 
 > ![](media/api-swagger-install.png "Customer Insights Swagger webpage")
+-->
 
 The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
