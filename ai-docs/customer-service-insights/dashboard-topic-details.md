@@ -14,6 +14,8 @@ manager: shellyha
 
 # Topic details dashboard
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 > [!div class="mx-imgBorder"]
 > ![Topic details dashboard](media/ai-csi-topic-details-dash.png)
 

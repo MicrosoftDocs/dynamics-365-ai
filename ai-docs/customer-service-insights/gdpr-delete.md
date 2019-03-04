@@ -14,6 +14,8 @@ manager: shellyha
 
 # Responding to GDPR data subject delete requests for Dynamics 365 Customer Service Insights
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
 
 ## Manage delete requests

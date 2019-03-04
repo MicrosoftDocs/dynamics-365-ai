@@ -14,6 +14,8 @@ manager: shellyha
 
 # Resolutions dashboard​
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 > [!div class="mx-imgBorder"]
 > ![Resolutions dashboard](media/ai-csi-resolutions-dash.png)
 

@@ -14,6 +14,8 @@ manager: shellyha
 
 # KPI summary dashboard
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 > [!div class="mx-imgBorder"]
 > ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
 
