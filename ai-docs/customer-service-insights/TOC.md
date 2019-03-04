@@ -12,6 +12,8 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
+## [Map your data to custom entities and fields](map-data.md)
+
 # Reference
 
 ## Dashboard reference
