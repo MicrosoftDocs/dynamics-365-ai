@@ -14,6 +14,8 @@ manager: shellyha
 
 # Identify areas for improvement in your customer service system
 
+[!INCLUDE [public-preview](../includes/public-preview.md)]
+
 The rich set of dashboards provided by Customer Service Insights not only gives you a detailed picture of your customer service system, it can help you identify key areas for improvement that can increase system performance and customer satisfaction.
 
 The dashboards can help you identify areas for improvement in a variety of ways, including:
