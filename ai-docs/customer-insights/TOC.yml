@@ -48,7 +48,7 @@
       href: pm-permissions.md
     - name: Search
       href: pm-manage-search.md
-  - name: Extensibilities
+  - name: Extensibility
     items:
     - name: Customer Card Add-in 
       href: pm-customer-card-addin.md
