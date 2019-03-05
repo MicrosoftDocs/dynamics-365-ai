@@ -43,9 +43,9 @@ Within the next screen, add all the entities which, upon unification into a unif
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-In the example above, the user used the **Search** field to search for the Contact and Survey entities since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the Address attribute exists only in the Contact entity). 
+In the example above, the user used the **Search** field to search for the *Contact* and *Survey* entities since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the Address attribute exists only in the Contact entity). 
 
-Then, the user selected the Contact and Survey entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** page. 
+Then, the user selected the *Contact* and *Survey* entities. Those were found within the *Dynamics* and *Surveydata* data sources that were ingested through the **Data Sources** page. 
 
 Lastly, the user selected **Save**.
 
@@ -85,6 +85,7 @@ Click **Select** to either add or remove entities.
 > ![](media/data-manager-configure-map-edit.png "Select Edit")
 
 Select the entities that you want to add to your existing entities list and deselect entities that you want to remove.
+**Note**: At this point it's not possible to remove entities from the *Map* screen if they were already matched in the *Match* screen. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
