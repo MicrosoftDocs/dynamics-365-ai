@@ -199,7 +199,7 @@ Fourth, you can experiment with different thresholds around your conditions in o
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
-2. Identify the condition that you want to experiment with. Each criterion is represented by one row in the match rule panel.
+2. Identify the condition that you want to experiment with. Each criterion is represented by one row in the **Match rule** panel.
 
 3. At this point the page that you see depends on the match level you have selected for that condition. 
 
