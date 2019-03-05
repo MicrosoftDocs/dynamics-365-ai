@@ -24,7 +24,7 @@ manager: "kvivek"
 There are two main goals behind the **Map** phase:
 
 - **Entity selection:** Identify the entities which, upon unification, may lead to a dataset with more complete information about your customers.
-- **Attribute selection:** For each customer entity, identify the columns upon which you will want to combine and reconcile your data in the next data configuration phases, *Match* and *Merge* (those columns are also called attributes).
+- **Attribute selection:** For each entity, identify the columns you wish to combine and reconcile in the next data configuration phases: *Match* and *Merge* (those columns are also called *attributes*).
 
 Select the **Map** tile on the **Configure Data** page to start the *Map phase*.
 
@@ -38,14 +38,14 @@ Start the *Map* phase by selecting **Add entities**.
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
 
-Within the next screen, add all the entities which, upon unification into a unified customer dataset, might lead to a better understanding about your customers.
+Within the next screen, add all the entities which, upon unification into a unified customer dataset, might lead to a better understanding about your customers:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-In the example above, the user used the **Search** field to search for the Contact and Survey entities since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the Address attribute exists only in the Contact entity). 
+In the example above, the user used the **Search** field to search for the *Contact* and *Survey* entities since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the Address attribute exists only in the Contact entity). 
 
-Then, the user selected the Contact and Survey entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data Sources** page. 
+Then, the user selected the *Contact* and *Survey* entities. Those were found within the *Dynamics* and *Surveydata* data sources that were ingested through the **Data Sources** page. 
 
 Lastly, the user selected **Save**.
 
@@ -79,12 +79,14 @@ Use either the **Search** field or scroll down the **Attributes List** to locate
 
 ## Add and remove entities
 
-Select **Select** to either add or remove entities.
+Click **Select** to either add or remove entities.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit.png "Select Edit")
 
 Select the entities that you want to add to your existing entities list and deselect entities that you want to remove.
+
+**Note**: Currently, it's not possible to remove entities from the **Map** page if they were already matched in the **Match** page. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
