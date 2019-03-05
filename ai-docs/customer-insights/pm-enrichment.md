@@ -109,7 +109,7 @@ Upon the completion of the Enrichment process, you have unlocked additional info
 > [!div class="mx-imgBorder"] 
 > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
-Shown above in red, you can view the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
+That can be done within the *Insights* section (shown above in red). The diagrams shown above in blue present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
 
 **2. Exploring the *MsftAudienceIntelligence: Customer 360* entity on the *Entities* page**
 
