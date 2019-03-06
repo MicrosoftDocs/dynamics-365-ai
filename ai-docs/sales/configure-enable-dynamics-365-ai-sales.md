@@ -23,7 +23,6 @@ topic-status: Drafting
 
 <!--from editor: Be sure to update the date in the metadata.-->
 
-<!--from editor: Last I heard, it should be just AI for Sales, not with Dynamics 365.-->
 
 
 # Enable and configure Dynamics 365 AI for Sales capabilities for sellers
@@ -105,6 +104,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
    Relationship analytics is configured and ready to use in your organization.
 
 Enable the **Dynamics 365 AI for Sales – Analytics** option in the admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. <br>
+
 To enable Dynamics 365 AI for Sales – Analytics, follow these steps: 
 
 1. Go to the **Admin** center.<br>
@@ -154,7 +154,9 @@ Predictive lead scoring helps users to focus on revenue generation efforts by pr
    
    
    > We recommend that you train the model once the data is refreshed in our organization for better prediction accuracy scoring.
+   
 1. If you want to configure the lead score range, enter a minimum value of the range in the **Lead Scoring Range**.<br>
+
    When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
    
     > [!div class="mx-imgBorder"]
@@ -198,6 +200,7 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
    
    > We recommend that you train the model once the data is refreshed in our organization for better prediction accuracy scoring.
 1. If you want to configure the opportunity score range, enter a minimum value of the range in the Opportunity Scoring Range.<br>
+
    When you change the opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change a minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
    > [!div class="mx-imgBorder"]
    > ![Predictive opportunity scoring change maximum score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximum score for grade")<br>
@@ -207,23 +210,23 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
 > [!NOTE]
 > For more information about Predictive opportunity scoring and how it can help your users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
 
-
-
 ## Configure Notes analysis
 
-To help users with intelligent auto suggestions when they enter notes regarding a recent meeting or discussion with customer in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], enable Notes analysis.
+To help users with intelligent auto-suggestions when they enter notes regarding a recent meeting or discussion with a customer in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], enable Notes analysis.
 
 1. Go to **Settings** > **Sales AI**.<br>
-2. After you enable [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features, select the toggle button to enable **Notes analysis**.
+2. After you enable the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features, select the toggle button to enable **Notes analysis**.
+
     > [!div class="mx-imgBorder"]
     > ![Enable notes analysis](media/notesanalysis-enable.png "Enable notes analysis")
 
 > [!NOTE]
-> For more information about Notes analysis and how it can help your users, see [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
+> For more information about Notes analysis and how it can help your users, see [How Notes analysis assists you with intelligent suggestion](notes-analysis.md).
+
 
 ## Configure Talking points
 
-Talking points feature is available under Connection insights configuration page. This feature help users in your organization to quickly establish communications with customers.
+The Talking points feature is available under the Connection insights configuration page. This feature helps users in your organization to quickly establish communications with customers.
 
 1. Go to **Settings** > **Sales AI**.<br>
 2. On the **Overview** tab, select **Configuration** from **Connection insights** section.
@@ -231,33 +234,33 @@ Talking points feature is available under Connection insights configuration page
     > ![Connection insights configuration](media/connection-insights-configuration.png "Connection insights configuration")
 
    > [!NOTE]
-   > You can also select **Connection insights** tab.
+   > You can also select the **Connection insights** tab.
   
    The configuration page opens. 
 3. On the **Talking points** section, select **Turn on Talking points for your organization**.<br>
     The categories are automatically selected.<br>
     > [!div class="mx-imgBorder"]
-    > ![Enable talking points](media/talkingpoints-enable.png "Enable talking points")
+    > ![Enable Talking points](media/talkingpoints-enable.png "Enable Talking points")
         
     > [!NOTE]
-    > You can select only the categories that meets your organizational requirements.
+    > You can select only the categories that meet your organizational requirements.
 4. Select **Save**.<br>
-    The Talking points is configured and ready to use in your organization.
+    The Talking points feature is configured and ready to use in your organization.
     
 > [!NOTE]
-> For more information about Talking points, see [Know conversation starters for your customers](../sales/talking-points.md)
+> For more information about Talking points, see [Know conversation starters for your customers](../sales/talking-points.md).
 
 ## Configure Who knows whom
 
-Who knows whom feature is available under Connection insights configuration page. This feature help users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
+The Who knows whom feature is available under the Connection insights configuration page. This feature help users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 1. Go to **Settings** > **Sales AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Connection insights** section.
+2. On the **Overview** tab, select **Configuration** from the **Connection insights** section.
     > [!div class="mx-imgBorder"]
     > ![Connection insights configuration](media/connection-insights-configuration.png "Connection insights configuration")
 
    > [!NOTE]
-   > You can also select **Connection insights** tab.
+   > You can also select the **Connection insights** tab.
   
    The configuration page opens.
 3. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.<br>
@@ -266,55 +269,59 @@ Who knows whom feature is available under Connection insights configuration page
         
 4. Optionally, you can select the **Email template** according to your organizational requirements. By default, an out-of-the-box email template will be selected.
 5. Select **Save**.<br>
-   The Who Knows Whom is configured and ready to use in your organization.<br>
+   The Who knows whom feature is configured and ready to use in your organization.<br>
 
-After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to collect the communication and collaboration details of users from exchange server.<br>
+After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to collect the communication and collaboration details of users from Exchange server.<br>
 > [!NOTE]
-> Contact your Office 365 administrator to enable Dynamics 365 AI for Sales connection graph if you do not have sufficient privileges to enable. 
+> Contact your Office 365 administrator to enable the Dynamics 365 AI for Sales connection graph if you don't have sufficient privileges to enable. 
  
-To configure Dynamics 365 AI for Sales connection graph, follow these steps:<br>
+To configure the Dynamics 365 AI for Sales connection graph, follow these steps:<br>
 
-1. Go to **Admin** center.<br>
-    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
+1. Go to the **Admin** center.<br>
+    > [!div class="mx-imgBorder"]
+    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
 2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Connection Graph**.<br>
-    ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")<br>
 3. Read the description and configure the Dynamics 365 AI for Sales – Connection Graph settings as **on**.<br>
-    ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")<br>
-4. (Optional) If you do not want to collect information on any group of users in your organization, add the group ID in the text box.<br> 
-    ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-exclude-group.png "Enable and save connection graph")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")<br>
+4. (Optional) If you don't want to collect information on a group of users in your organization, add the group ID in the text box.<br> 
+    > [!div class="mx-imgBorder"]
+    > ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-exclude-group.png "Enable and save connection graph")<br>
 5. Select **Save**.
 
 > [!NOTE]
-> For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md)
+> For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md).
 
 ## Public preview: Configure Predictive forecasting 
 
-Predictive forecasting helps the sales managers to take timely decisions in generating revenue by viewing the predictive forecast report. The report displays the predictive forecasting revenue against the actual revenue that is generated based on the historical opportunities. 
+Predictive forecasting helps sales managers make timely decisions in generating revenue by viewing the predictive forecast report. The report displays the predictive forecasting revenue against the actual revenue that is generated based on the historical opportunities. 
 
 ### Prerequisites 
 
-Review the following prerequisites before enabling the Predictive forecasting:
+Review the following prerequisites before enabling Predictive forecasting:
 
 - [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] is enabled. To learn more, see [Enable Dynamics 365 AI for Sales features](#enable-dynamics-365-ai-for-sales-features).
 - [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is configured for your organization. To learn more, see [Unlock sales potential with Dynamics 365 AI for Sales](../sales/dynamics365-ai-sales-app.md).
-- Organization has at least 28 weeks of historical opportunities. This helps in generating a model to display the predictive forecasting in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. However, we recommend you have two-year historical opportunities data for increased prediction accuracy.
-- Fiscal period for monthly or quarterly is configured for your organization. To learn More, see [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings). Predictive forecasting will not work if the fiscal period is defined for half-yearly or yearly.
-- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. to learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
+- The organization has at least 28 weeks of historical opportunities. This helps in generating a model to display the predictive forecasting in the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. However, we recommend you have two years of historical opportunities data for increased prediction accuracy.
+- The fiscal period is configured as monthly or quarterly for your organization. To learn more, see [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings). Predictive forecasting will not work if the fiscal period is defined for half-yearly or yearly.
+- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ### Set up Predictive forecasting
 
 1.	Go to **Settings** > **Sales AI**.<br>
-2.	On the **Overview** tab, select **Configuration** from **Predictive forecasting** section.<br>
+2.	On the **Overview** tab, select **Configuration** from the **Predictive forecasting** section.<br>
     > [!div class="mx-imgBorder"]
     > ![Predictive forecasting configuration](media/predictive-forecasting-tile.png "Predictive forecasting configuration")
 
     The configuration page opens.<br>
 3. Select **Create model**.<br>
     > [!div class="mx-imgBorder"]
-    > ![Select create model option](media/predictive-forecasting-create-model.png "Select create model option")
+    > ![Select Create model option](media/predictive-forecasting-create-model.png "Select Create model option")
 
-    The feature will take approximately 24 hours to create a model and display data for managers. The model will be retrained every seventh day to project a better prediction accuracy.<br>
-    The Predictive forecasting feature creates models for each manager who are active members in Sales Insights app in your organization and displays as a list with the status of the model.<br>
+    The feature will take approximately 24 hours to create a model and display data for managers. The model will be retrained every seven days to project a better prediction accuracy.<br>
+    The Predictive forecasting feature creates a model for each manager who is an active member in the Sales Insights app in your organization and displays as a list with the status of the model.<br>
     > [!div class="mx-imgBorder"]
     > ![Predictive forecasting model is created](media/predictive-forecasting-model-created.png "Predictive forecasting model is created")
 
@@ -323,17 +330,21 @@ Review the following prerequisites before enabling the Predictive forecasting:
 <!--
 ### (Optional) Uninstall the Sales insights add-on
 
-If you don't want to use the Sales insights add-on features for your organization, you can uninstall them. You need to uninstall each feature individual individually. To uninstall these features:
+If you don't want to use the Sales insights add-on features for your organization, you can uninstall them. You need to uninstall each feature individually. To uninstall these features:
+
 1.	Go to **Settings** > **Customization** > **Solutions**.
+
     A list of solutions that are installed in your organization is displayed.
 2. Select **RelationshipAnalytics**, and then select **Delete**.<br>
-   ![Sales insights add-on delete](media/sales-insights-addon-uninstall-ra.png "Sales insights add-on delete") <br>
+   > [!div class="mx-imgBorder"]
+   > ![Sales insights add-on delete](media/sales-insights-addon-uninstall-ra.png "Sales insights add-on delete") <br>
 3. A confirmation message is displayed. Select **OK**.<br>
-   The Relation analytics is uninstalled from your organization. 
+
+   Relationship analytics is uninstalled from your organization. 
 4. Similarly, repeat step 2 and 3 for **PredictiveLeadScoring** and **SalesInsightsAddOn**.
 
     > [!NOTE]
-    > If you want to install Sales insights add-on in future, make sure that you uninstall the **SalesInsightsAddOn** package too after uninstalling Relationship analytics and Predictive lead scoring.
+    > If you want to install the Sales insights add-on in the future, make sure that you uninstall the **SalesInsightsAddOn** package after uninstalling Relationship analytics and Predictive lead scoring.
 -->
 
 ## Privacy notice  
