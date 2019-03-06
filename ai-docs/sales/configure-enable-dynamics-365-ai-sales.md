@@ -1,5 +1,5 @@
 ---
-title: "Configure and enable Sales insights add-on for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Configure and enable Sales Insights add-on for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Configure and enable Sales insights add-on"
 keywords: "sales insights addon, insights addon, relationship analytics, predictive lead scoring, lead scoring"
 ms.date: 10/31/2018
@@ -20,12 +20,18 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
+
+<!--from editor: Be sure to update the date in the metadata.-->
+
+<!--from editor: Last I heard, it should be just AI for Sales, not with Dynamics 365.-->
+
+
 # Enable and configure Dynamics 365 AI for Sales capabilities for sellers
 
 <!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
 > [!IMPORTANT]
-> - Dynamics 365 AI for Sales capabilities for seller requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in our future releases.
+> - Dynamics 365 AI for Sales capabilities for sellers requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in future releases.
 > - The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] seller features are available only in North American (NAM) regions.
 
 Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features helps the user to effectively use the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] contains the following features:
@@ -40,16 +46,16 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dyna
 
 ## GDPR
 
-To know about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
+To learn about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
 
 ## Prerequisites
 
-Review the following requirements before you enable and configure [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] feature:
+Review the following requirements before you enable and configure the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] feature:
 
-- You must purchase **Dynamics 365 AI for Sales** license to use [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
+- You must purchase a **Dynamics 365 AI for Sales** license to use [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
 - You must be a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
-- If you want to use LinkedIn data for Relationship analytics, verify that LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write back from LinkedIn Sales navigator is enabled.
+- If you want to use LinkedIn data for Relationship analytics, verify that the LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write back from LinkedIn Sales navigator is enabled.
 
 ## Enable Dynamics 365 AI for Sales features
 
@@ -57,37 +63,40 @@ Review the following requirements before you enable and configure [!INCLUDE[pn_d
 
 1. Go to **Settings** > **Sales AI**.<br>
 1. On the **AI setup** page, select **Get it now**.<br>
-   ![Get Dynamics 365 AI for sales](media/d365-ai-sales-getitnow.png "Get Dynamics 365 AI for sales")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Get Dynamics 365 AI for Sales](media/d365-ai-sales-getitnow.png "Get Dynamics 365 AI for Sales")<br>
 1. On the **Sales Insights** installation page, carefully read and select the terms and conditions, and then select **Continue**.<br>
    The installation takes a few minutes to complete, and then the status appears in the status bar.<br>
     > [!div class="mx-imgBorder"]
-    > ![Accept sales insights addon terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions")
+    > ![Accept Sales Insights add-on terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept Sales Insights add-on terms and conditions")
    
     Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
+    
     > [!div class="mx-imgBorder"]
-    > ![Dynamics 365 AI for sales is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 AI for sales is enabled")
+    > ![Dynamics 365 AI for Sales is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 AI for Sales is enabled")
 
 ## Configure Relationship analytics
 
 Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account to the users. To configure Relationship analytics, follow these steps:
 
 1. Go to **Settings** > **Sales AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Relationship analytics** section.<br>
+2. On the **Overview** tab, select **Configuration** from the **Relationship analytics** section.<br>
     > [!div class="mx-imgBorder"]
     > ![Relationship analytics configuration](media/relationship-analytics-configuration.png "Relationship analytics configuration")
 
    > [!NOTE]
-   > You can also select **Relationship analytics** tab.
+   > You can also select the **Relationship analytics** tab.
 
    The configuration page opens.
 3. Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**.
+
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions for Relationship analytics](media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics")<br>
 4. On the **Relationship analytics** page, configure the parameters as described in the following table.
 
     |**Parameter**|**Description**|
     |-|-|
-    |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. by default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br> **Note**: This option is not available if LinkedIn is not installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
+    |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. By default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br> **Note**: This option is not available if LinkedIn is not installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
     |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
     |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
     > [!div class="mx-imgBorder"]
@@ -95,92 +104,110 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
 
-Enable **Dynamics 365 AI for Sales – Analytics** option in admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on relationship analytics configuration page is automatically selected. <br>
+Enable the **Dynamics 365 AI for Sales – Analytics** option in the admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. <br>
 To enable Dynamics 365 AI for Sales – Analytics, follow these steps: 
 
-1. Go to **Admin** center.<br>
-    ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
+1. Go to the **Admin** center.<br>
+    > [!div class="mx-imgBorder"]
+    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
 
 2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Analytics**.<br>
-    ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
 
 3. Read the description and configure the Dynamics 365 AI for Sales – Analytics settings as **on** and select **Save**.<br>
-    ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
+    > [!div class="mx-imgBorder"]
+    > ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
 
-    Now you can connect to exchange server to collect data.
+    Now you can connect to the Exchange server to collect data.
 
 > [!NOTE]
-> For more information about Relationship analytics and how it can help your users, see [View customer activity history](../sales/relationship-analytics.md)
+> For more information about Relationship analytics and how it can help your users, see [View customer activity history](../sales/relationship-analytics.md).
 
 ## Configure Predictive lead scoring
 
-Predictive lead scoring helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. To configure Predictive lead scoring, follow these steps:
+Predictive lead scoring helps users to focus on revenue generation efforts by providing scores to prioritize efforts on quality leads. To configure Predictive lead scoring, follow these steps:
 
 1. Go to **Settings** > **Sales AI**.<br>
-2. On the **Overview** tab, select **Configuration** from **Predictive lead scoring** section.
+2. On the **Overview** tab, select **Configuration** from the **Predictive lead scoring** section.
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring configuration](media/predictive-lead-scoring-configuration.png "Predictive lead scoring configuration")<br>
 
    > [!NOTE]
-   > You can also select **Predictive lead scoring** tab.
+   > You can also select the **Predictive lead scoring** tab.
 
    The configuration page opens.
 3. Select **Create Model**.
     > [!div class="mx-imgBorder"]
     > ![Create model in Predictive lead scoring](media/predictive-lead-scoring-create-model.png "Create model in Predictive lead scoring")<br>
 
-   Creating a model takes few minutes and you can see progress on the screen.<br>
+   Creating a model takes a few minutes. You will see the progress on the screen.<br>
 1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring accuracy score](media/predictive-lead-scoring-score-accuracy.png "Predictive lead scoring accuracy score")<br>
   
-    The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under **Lead Score** column.<br>
+    The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under the **Lead Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
-   > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
-1. If you want to configure the lead score range, enter minimum value of the range in the **Lead Scoring Range**.<br>
-   When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
+   
+   <!--from editor: In the following sentence, is "our" organization correct, or should it be "your"?-->
+   
+   
+   > We recommend that you train the model once the data is refreshed in our organization for better prediction accuracy scoring.
+1. If you want to configure the lead score range, enter a minimum value of the range in the **Lead Scoring Range**.<br>
+   When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
+   
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring change maximum score for grade](media/predictive-lead-scoring-change-max-score.png "Predictive lead scoring change maximum score for grade")<br>
 1. Save and apply the model.<br>
    The predictive lead scoring is configured and ready to use in your organization.
 
 > [!NOTE]
-> For more information about Predictive lead scoring and how it can help your users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+> For more information about Predictive lead scoring and how it can help your users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md).
 
 ## Configure Predictive opportunity scoring
 
-Predictive opportunity scoring helps users to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities. To configure Predictive opportunity scoring, follow these steps:
+Predictive opportunity scoring helps users to focus on revenue generation efforts by providing scores to prioritize efforts on quality opportunities. To configure Predictive opportunity scoring, follow these steps:
 
 1. Go to **Settings** > **Sales AI**.<br>
-1. On the **Overview** tab, select **Configuration** from **Predictive opportunity scoring** section.
+1. On the **Overview** tab, select **Configuration** from the **Predictive opportunity scoring** section.
+
     > [!div class="mx-imgBorder"]
     > ![Predictive opportunity scoring configuration](media/predictive-opportunity-scoring-configuration.png "Predictive opportunity scoring configuration")
 
    > [!NOTE]
-   > You can also select **Predictive opportunity scoring** tab.
+   > You can also select the **Predictive opportunity scoring** tab.
 
    The configuration page opens.
 1. Select **Create Model**.
+
     > [!div class="mx-imgBorder"]
     > ![Create model in Predictive opportunity scoring](media/predictive-opportunity-scoring-create-model.png "Create model in Predictive opportunity scoring")
 
-   Creating a model takes few minutes and you can see progress on the screen.<br>
+   Creating a model takes few minutes. You will see the progress on the screen.<br>
 1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
+
     > [!div class="mx-imgBorder"]
     > ![Predictive opportunity scoring accuracy score](media/predictive-opportunity-scoring-score-accuracy.png "Predictive opportunity scoring accuracy score")<br>
-    The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under **Opportunity Score** column.<br>
+    The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under the **Opportunity Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
-   > We recommend you to train the model once the data is refreshed in our organization for better prediction accuracy scoring.
-1. If you want to configure the opportunity score range, enter minimum value of the range in the Opportunity Scoring Range.<br>
-   When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
-   ![Predictive opportunity scoring change maximun score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximun score for grade")<br>
+   
+   
+   <!--from editor: In the following sentence, is "our" organization correct, or should it be "your"?-->   
+   
+   > We recommend that you train the model once the data is refreshed in our organization for better prediction accuracy scoring.
+1. If you want to configure the opportunity score range, enter a minimum value of the range in the Opportunity Scoring Range.<br>
+   When you change the opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change a minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
+   > [!div class="mx-imgBorder"]
+   > ![Predictive opportunity scoring change maximum score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximum score for grade")<br>
 1. Save and apply the model.<br>
    The predictive opportunity scoring is configured and ready to use in your organization.
 
 > [!NOTE]
-> For more information about Predictive opportunity scoring and how it can help your users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md)
+> For more information about Predictive opportunity scoring and how it can help your users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
+
+
 
 ## Configure Notes analysis
 
@@ -306,7 +333,7 @@ If you don't want to use the Sales insights add-on features for your organizatio
 4. Similarly, repeat step 2 and 3 for **PredictiveLeadScoring** and **SalesInsightsAddOn**.
 
     > [!NOTE]
-    > If you want to install Sales insights add-on in future, makesure that you uninstall the **SalesInsightsAddOn** package too after uninstalling Relationship analytics and Predictive lead scoring.
+    > If you want to install Sales insights add-on in future, make sure that you uninstall the **SalesInsightsAddOn** package too after uninstalling Relationship analytics and Predictive lead scoring.
 -->
 
 ## Privacy notice  
