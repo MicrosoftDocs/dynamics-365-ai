@@ -36,7 +36,7 @@ Attributes | Type | Details
 IncidentId | Lookup | A unique incident identifier.
 CreatedOn | DateTime | The date and time the case resolution activity was created. Since an IncidentResolution record is created when a case is resolved, this attribute indicates the date and time a case is resolved.
 ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
-StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode 3 (Cancelled). When StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
+StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Cancelled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
 
 ## Incident (case) entity
 
