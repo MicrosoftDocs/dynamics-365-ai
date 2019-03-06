@@ -1,6 +1,6 @@
 ---
 title: "Data science concepts applied to Alerts | Microsoft Docs"
-description: "Daa science for alerts in Market Insights."
+description: "Data science for alerts in Market Insights."
 keywords: "data science, alerts, daily digest, email"
 ms.date: 04/01/2019
 ms.service: dynamics-365-ai
