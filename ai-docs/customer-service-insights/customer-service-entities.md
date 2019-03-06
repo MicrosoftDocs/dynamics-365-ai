@@ -38,6 +38,8 @@ CreatedOn | DateTime | The date and time the case resolution activity was create
 ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
 StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
 
+For more information about the IncidentResolution entity, see [IncidentResolution Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incidentresolution).
+
 ## Incident (case) entity
 
 The Incident (case) entity represents a service request case associated with a contract. Customer Service Insights generates dashboards using the following Incident (case) entity attributes:
