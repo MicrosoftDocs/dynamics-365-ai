@@ -35,7 +35,7 @@ Attributes | Type | Details
 IncidentId | UniqueIdentifier (Primary Key) | **Required.** A unique case identifier that is generated automatically when a case is created.
 Title | String | A descriptive name that briefly summarizes the support issue or request. Customer Service Insights uses case titles to automatically group support cases into topics using natural language understanding technology. |
 CreatedOn | DateTime | The date and time the case was created in common UTC time zone format.  
-ModifiedOn | DateTime | The date and time the case was last modified in common UTC time zone format.  
+ModifiedOn | DateTime | The date and time the case was last modified in common UTC time zone format. If an [IncidentResolution entity](#incidentresolution-entity) is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute as the case resolution date and time.
 IsEscalated | Boolean | **True** if the case has been escalated; otherwise, **False**.
 EscalatedOn | DateTime | If a case was escalated, the date and time the case was escalated in common UTC time zone format.  
 PriorityCode | Picklist | The case priority.
