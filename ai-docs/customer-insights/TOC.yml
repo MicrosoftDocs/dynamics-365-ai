@@ -48,12 +48,16 @@
       href: pm-permissions.md
     - name: Search
       href: pm-manage-search.md
-  - name: Extensibilities
+  - name: Extensibility
     items:
     - name: Customer Card Add-in 
       href: pm-customer-card-addin.md
     - name: Connectors
-      href: pm-connectors.md
+      items: 
+      - name: Power BI connector
+        href: pm-connectors.md
+      - name: PowerApps connector
+        href: pm-powerapps-connector.md
     - name: APIs
       href: pm-apis.md
   - name: Data Subject Rights (DSR) requests under GDPR
