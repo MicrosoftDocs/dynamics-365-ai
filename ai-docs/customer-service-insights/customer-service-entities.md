@@ -18,27 +18,14 @@ manager: shellyha
 
 When a workspace is created from a Dynamics 365 for Customer Service environment, Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
 
-- [IncidentResolution entity](#incidentresolution-entity)
 - [Incident (case) entity](#incident-case-entity)
+- [IncidentResolution entity](#incidentresolution-entity)
 - [BusinessUnit entity](#businessunit-entity)
 - [Product entity](#product-entity)
 - [SystemUser entity](#systemuser-entity)
 - [Team entity](#team-entity)
 
 The following sections describe the entities and attributes used by Customer Service Insights.
-
-## IncidentResolution entity
-
-The IncidentResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the IncidentResolution entity to compute case resolution time. If the IncidentResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Incident (case) entity](#incident-case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the IncidentResolution entity:
-
-Attributes | Type | Details
------------|------|--------
-IncidentId | Lookup | A unique incident identifier.
-CreatedOn | DateTime | The date and time the case resolution activity was created. Since an IncidentResolution record is created when a case is resolved, this attribute indicates the date and time a case is resolved.
-ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
-StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
-
-For more information about the IncidentResolution entity, see [IncidentResolution Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incidentresolution).
 
 ## Incident (case) entity
 
@@ -63,6 +50,19 @@ OwningBusinessUnit | Lookup | A unique identifier for the business unit that own
 OwningTeam | Lookup | A unique identifier for the team that owns the case. Customer Service Insights uses this attribute to look up the team name from the [Team](#team-entity) entity and generate the Team filter values on each dashboard.
 
 For more information about the Incident (case) entity, see [Incident Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incident).
+
+## IncidentResolution entity
+
+The IncidentResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the IncidentResolution entity to compute case resolution time. If the IncidentResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Incident (case) entity](#incident-case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the IncidentResolution entity:
+
+Attributes | Type | Details
+-----------|------|--------
+IncidentId | Lookup | A unique incident identifier.
+CreatedOn | DateTime | The date and time the case resolution activity was created. Since an IncidentResolution record is created when a case is resolved, this attribute indicates the date and time a case is resolved.
+ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
+StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
+
+For more information about the IncidentResolution entity, see [IncidentResolution Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incidentresolution).
 
 ## BusinessUnit entity
 
