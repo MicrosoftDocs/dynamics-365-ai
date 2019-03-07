@@ -61,7 +61,11 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    In the conversation editor, add virtual agent and customer responses to the conversation.
 
-   To specify a response by the virtual agent, select **Bot says**, and then enter a response in the **Bot says** box.
+   Enter the virtual agent's response to the trigger phrase in the **Bot says** box.
+
+   > ![Add bot response](media/bot-response.png)
+
+   To specify an additional response by the virtual agent, select **Bot says**, and then enter the response in the **Bot says** box.
 
    > ![Virtual agent response](media/response-text.png)
 
