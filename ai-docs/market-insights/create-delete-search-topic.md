@@ -2,7 +2,7 @@
 title: "Manage search topics in Market Insights | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Market Insights."
 keywords: "searches, search topic, search rules, gather data"
-ms.date: 10/31/2018
+ms.date: 02/07/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 4e5937a9-3509-4d8f-b747-aa9601ee7e9d
@@ -24,13 +24,11 @@ search.app:
 (This topic is pre-release documentation and is subject to change.)
 
 It’s important to start with a clear idea of what kind of online information you want to listen to. Set up new search topics and add at least one rule to each of them to find out what your audience is discussing in their public social media posts. You can also edit search topics you’ve created or delete them if they are no longer relevant.  
-  
-> [!TIP]
->  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
+
   
 ## Create a search topic  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-admin-power-analyst.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+
+Users with at least Power Analyst permissions can create and edit search topics.
   
 1. Go to **Search Setup**.  
   
@@ -80,9 +78,6 @@ Administrators in your organization can change the owner of a search topic to en
   
 3.  In the search topic settings pane, click **Edit Owner** ![edit button](media/edit-icon.png "Edit button") next the search topic owner.  
   
-    > [!NOTE]
-    >  You must have an Administrator role to edit the owner of a search topic.  
-  
 4.  Enter the user name in the search box or click the name in the list below it.  
   
 5.  Click **Save** ![save button](media/save-icon.png "Save button") to update the search topic.  
@@ -103,7 +98,7 @@ Administrators in your organization can change the owner of a search topic to en
    >   - An automated email notification is sent to the user who created the search topic.  
    >   - The search topic is no longer visible in the user interface.  
    >   - Alerts and streams based on this topic are deactivated.  
-   >   - The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
+   >   - The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your [deleted search topics will no longer affect the quota](manage-post-quota.md).  
   
 ### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-market-insights-social-services-content.md)]  

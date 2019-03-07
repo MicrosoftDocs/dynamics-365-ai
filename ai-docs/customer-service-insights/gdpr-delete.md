@@ -1,6 +1,6 @@
 ---
-title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service Insights"
-description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 AI for Customer Service Insights."
+title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights"
+description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights."
 keywords: ""
 ms\.date: 1/23/2019
 ms.service:
@@ -12,13 +12,15 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR data subject delete requests for Dynamics 365 AI for Customer Service Insights
+# Responding to GDPR data subject delete requests for Dynamics 365 Customer Service Insights
+
+[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
 
 ## Manage delete requests
 
-Dynamics 365 AI for Customer Service Insights offers the following experiences to delete personal data for a specific user:
+Dynamics 365 Customer Service Insights offers the following experiences to delete personal data for a specific user:
 
 * Delete customer data (Tenant admin)
 * Delete customer data (Self)
@@ -29,12 +31,12 @@ A tenant administrator can follow these steps to delete data:
 
 1. Send email to ccinsightadmins@microsoft.com specifying the user’s Azure Active Directory (Azure AD) objectId in the request.
 
-    An administrator from the Dynamics 365 AI for Customer Service Insights team will send an email to the address registered in the Azure AD user account, asking for confirmation to delete data.
+    An administrator from the Dynamics 365 Customer Service Insights team will send an email to the address registered in the Azure AD user account, asking for confirmation to delete data.
 2. Acknowledge the confirmation to delete the data and receive a confirmation that the data has been deleted.
 
 ### Delete customer data (Self)
 
-You can follow these steps to delete data from AI for Customer Service Insights:
+You can follow these steps to delete data from Customer Service Insights:
 
 1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
 2. On the Settings menu, select **My workspaces**.
