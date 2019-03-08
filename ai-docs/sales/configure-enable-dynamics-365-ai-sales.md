@@ -294,9 +294,9 @@ To configure the Dynamics 365 AI for Sales connection graph, follow these steps:
 > [!NOTE]
 > For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md).
 
-## Public preview: Configure Predictive forecasting 
+## Public preview: Configure Predictive forecast 
 
-Predictive forecasting helps sales managers make timely decisions in generating revenue by viewing the predictive forecast report. The report displays the predictive forecasting revenue against the actual revenue that is generated based on the historical opportunities. 
+Predictive forecast helps sales managers make timely decisions in generating revenue by viewing the predictive forecast report. The report displays the predictive forecasting revenue against the actual revenue that is generated based on the historical opportunities. 
 
 ### Prerequisites 
 

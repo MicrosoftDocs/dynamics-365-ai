@@ -1,6 +1,7 @@
 # [Dynamics 365 AI for Sales](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new.md)
+
 ## [Dynamics 365 AI for Sales capabilities for sellers](../sales/dynamics-365-ai-for-sales.md)
 ### Administrator guide 
 #### [Administer Dynamics 365 AI for Sales capabilities for sellers](../sales/configure-enable-dynamics-365-ai-sales.md)
@@ -17,6 +18,7 @@
 #### [Get introduced to lead](../sales/who-knows-whom.md)
 ### [FAQs for seller capabilities](faqs-seller-app.md)
 ### [Privacy notice](privacy-notice-seller.md)
+
 ## [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)
 ### [View overall sales insights](../sales/d365-ai-overview.md)
 ### [Analyze business performance](../sales/d365-ai-business-performance.md)

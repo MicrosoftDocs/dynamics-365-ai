@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Public preview: Analyze revenue outcome using Predictive forecasting
+# Public preview: Analyze revenue outcome using Predictive forecast
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
@@ -33,10 +33,7 @@ In today’s competitive environment, it is important for you to stay on top of 
 
 To analyze and predict the future revenue outcome, the Predictive forecasting feature uses your historical opportunities. If there is not enough data, the Predictive forecasting feature cannot create a forecasting model to display on the forecast report.
 
-After the feature is enabled, you must open the **Sales Insights** app and go to the **Business** tab. The **Predictive forecasting** tab is available for you to view the forecasting trend.
-
-
-<!--Is it the Predictive forecasting tab or Predictive forecast tab?-->
+After the feature is enabled, you must open the **Sales Insights** app and go to the **Business** tab. The **Predictive forecast** tab is available for you to view the forecasting trend.
 
 <!--URL needed in the following paragraph.-->
 
