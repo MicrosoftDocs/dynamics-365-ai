@@ -15,7 +15,6 @@ ms.author: udag
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 01
 topic-status: Drafting
 ---
@@ -176,7 +175,7 @@ The following is an example of how the **Leads** tab displays:
 |**8. Leads by region**|Displays the regions in which you have open leads. Also, helps you to analyze which regions to focus on to increase the leads. Each lead is plotted on the map as a bubble and attached to the address of the account. The size of the bubble determines the value of the lead. Hover over the bubble to see more information such as city and open lead count.<br>Highlighting a bubble cross-filters the other visualizations on the report page, and vice versa.|
 
 
-## Predictive forecast
+## Public preview: Predictive forecast
 
 [!INCLUDE[work_predictive_forecast](../sales/work-predictive-forecasting.md)]   
 

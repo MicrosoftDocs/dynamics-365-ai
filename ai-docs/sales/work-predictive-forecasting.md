@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Public preview: Analyze revenue outcome using Predictive forecast
+<!--# Public preview: Analyze revenue outcome using Predictive forecast-->
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
@@ -35,12 +35,10 @@ To analyze and predict the future revenue outcome, the Predictive forecasting fe
 
 After the feature is enabled, you must open the **Sales Insights** app and go to the **Business** tab. The **Predictive forecast** tab is available for you to view the forecasting trend.
 
-<!--URL needed in the following paragraph.-->
-
 > [!NOTE]
-> If you are unable to see **Predictive forecast** tab, contact your administrator. To learn more, see [Configure Predictive Forecasting](). 
+> If you are unable to see **Predictive forecast** tab, contact your administrator. To learn more, see [Configure Predictive Forecasting](../sales/configure-enable-dynamics-365-ai-sales#public-preview-configure-predictive-forecast). 
 
-## Understand forecast data
+### Understand forecast data
 The following is an example of how Predictive forecasting displays:
 
 <!-- Include screenshot of the graph-->
@@ -68,10 +66,3 @@ The matrix explains when you are a manager who is at a level and when you open P
 |L2|You and your hierarchy own. (Yours + L1)|
 |L3|Includes the managers who are at level 2 and their hierarchy. (Yours + L2 + L1)|
 |L4|Includes the managers who are at level 2 and level 3, and their hierarchy. (Yours + L3 + L2 + L1)|
-
-### See more
-
-<!--Needs URL-->
-
-
-[Configure Predictive Forecasting]()
