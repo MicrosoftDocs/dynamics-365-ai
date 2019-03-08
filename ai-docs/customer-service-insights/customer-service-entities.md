@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Service entities used by Customer Service Insights"
 description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 for Customer Service."
 keywords: "CDS, data entity"
-ms.date: 1/23/2019
+ms.date: 3/6/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,11 +18,12 @@ manager: shellyha
 
 When a workspace is created from a Dynamics 365 for Customer Service environment, Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
 
-- [Incident (case)](#incident-case-entity)
-- [BusinessUnit](#businessunit-entity)
-- [Product](#product-entity)
-- [SystemUser](#systemuser-entity)
-- [Team](#team-entity)
+- [Incident (case) entity](#incident-case-entity)
+- [IncidentResolution entity](#incidentresolution-entity)
+- [BusinessUnit entity](#businessunit-entity)
+- [Product entity](#product-entity)
+- [SystemUser entity](#systemuser-entity)
+- [Team entity](#team-entity)
 
 The following sections describe the entities and attributes used by Customer Service Insights.
 
@@ -35,7 +36,7 @@ Attributes | Type | Details
 IncidentId | UniqueIdentifier (Primary Key) | **Required.** A unique case identifier that is generated automatically when a case is created.
 Title | String | A descriptive name that briefly summarizes the support issue or request. Customer Service Insights uses case titles to automatically group support cases into topics using natural language understanding technology. |
 CreatedOn | DateTime | The date and time the case was created in common UTC time zone format.  
-ModifiedOn | DateTime | The date and time the case was last modified in common UTC time zone format.  
+ModifiedOn | DateTime | The date and time the case was last modified in common UTC time zone format. If an [IncidentResolution entity](#incidentresolution-entity) is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute as the case resolution date and time.
 IsEscalated | Boolean | **True** if the case has been escalated; otherwise, **False**.
 EscalatedOn | DateTime | If a case was escalated, the date and time the case was escalated in common UTC time zone format.  
 PriorityCode | Picklist | The case priority.
@@ -50,9 +51,22 @@ OwningTeam | Lookup | A unique identifier for the team that owns the case. Custo
 
 For more information about the Incident (case) entity, see [Incident Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incident).
 
+## IncidentResolution entity
+
+The IncidentResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the IncidentResolution entity to compute case resolution time. If the IncidentResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Incident (case) entity](#incident-case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the IncidentResolution entity:
+
+Attributes | Type | Details
+-----------|------|--------
+IncidentId | Lookup | A unique incident identifier.
+CreatedOn | DateTime | The date and time the case resolution activity was created. Since an IncidentResolution record is created when a case is resolved, this attribute indicates the date and time a case is resolved.
+ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
+StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
+
+For more information about the IncidentResolution entity, see [IncidentResolution Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/incidentresolution).
+
 ## BusinessUnit entity
 
-The BusinessUnit entity represents a business, division, or department in the Microsoft Dynamics 365 database. Customer Service Insights uses the following  BusinessUnit entity attributes.
+The BusinessUnit entity represents a business, division, or department in the Microsoft Dynamics 365 database. Customer Service Insights uses the following BusinessUnit entity attributes.
 
 Attributes | Type | Details
 -----------|------|--------
