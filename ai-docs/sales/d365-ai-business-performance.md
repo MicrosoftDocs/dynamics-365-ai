@@ -37,7 +37,7 @@ On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, se
 - **Pipeline**: Give you visibility into the upcoming deals to identify risks. To learn more, see [Pipeline](#pipeline)
 - **Activities**: Give you visibility into the activities that have contributed most to success. To learn more, see [Activities](#activities)
 - **Lead**: Helps you predict whether there are enough leads to replenish the pipeline. To learn more, see [Leads](#leads)
-- **Predictive forecast**: Helps you to predict  sales forecast for the current period by providing visibility into your business. To learn more, see [Predictive forecast](#predictive-forecast)
+- **Predictive forecast**: Helps you to predict  sales forecast for the current period by providing visibility into your business. To learn more, see [Predictive forecast](#preview-predictive-forecast)
 
 > [!div class="mx-imgBorder"]
 > ![Open business section](media/d365-ai-business-tabs.png "Open business section")
@@ -175,7 +175,7 @@ The following is an example of how the **Leads** tab displays:
 |**8. Leads by region**|Displays the regions in which you have open leads. Also, helps you to analyze which regions to focus on to increase the leads. Each lead is plotted on the map as a bubble and attached to the address of the account. The size of the bubble determines the value of the lead. Hover over the bubble to see more information such as city and open lead count.<br>Highlighting a bubble cross-filters the other visualizations on the report page, and vice versa.|
 
 
-## Public preview: Predictive forecast
+## Preview: Predictive forecast
 
 [!INCLUDE[work_predictive_forecast](../sales/work-predictive-forecasting.md)]   
 
