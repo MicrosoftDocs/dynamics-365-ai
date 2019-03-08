@@ -33,12 +33,12 @@ As a sales manager, it is important for you to understand how your business is d
 
 On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
 
-- **Forecast**: Gives you an overview of all sales against the intended quota for the full period. To learn more, see [!INCLUDE[Forecast](#forecast)]
-- **Actuals**: Give you a deeper understanding of closed revenue. To learn more, see [!INCLUDE[Actuals](#actuals)]
-- **Pipeline**: Give you visibility into the upcoming deals to identify risks. To learn more, see [!INCLUDE[Pipeline](#pipeline)]
-- **Activities**: Give you visibility into the activities that have contributed most to success. To learn more, see [!INCLUDE[Activities](#activities)]
-- **Lead**: Helps you predict whether there are enough leads to replenish the pipeline. To learn more, see [!INCLUDE[Leads](#leads)]
-- **Predictive forecast**: Helps you to predict  sales forecast for the current period by providing visibility into your business. To learn more, see [!INCLUDE[Predictive forecast](#predictive-forecast)]
+- **Forecast**: Gives you an overview of all sales against the intended quota for the full period. To learn more, see [Forecast](#forecast)
+- **Actuals**: Give you a deeper understanding of closed revenue. To learn more, see [Actuals](#actuals)
+- **Pipeline**: Give you visibility into the upcoming deals to identify risks. To learn more, see [Pipeline](#pipeline)
+- **Activities**: Give you visibility into the activities that have contributed most to success. To learn more, see [Activities](#activities)
+- **Lead**: Helps you predict whether there are enough leads to replenish the pipeline. To learn more, see [Leads](#leads)
+- **Predictive forecast**: Helps you to predict  sales forecast for the current period by providing visibility into your business. To learn more, see [Predictive forecast](#predictive-forecast)
 
 > [!div class="mx-imgBorder"]
 > ![Open business section](media/d365-ai-business-tabs.png "Open business section")
