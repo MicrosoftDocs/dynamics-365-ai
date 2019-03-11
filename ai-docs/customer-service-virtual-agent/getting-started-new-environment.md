@@ -26,19 +26,17 @@ If you encounter problems creating an environment, see [Known issues with creati
 
     Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Then select **Create environment**.
 
-   > ![Create environment](media/how-to-flow-1-1.png)
+   > ![Create environment](media/create-environment.png)
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
 3. Select **Create database** to display the **Create a database for this environment** screen.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create database screen](media/how-to-flow-1-2.png)
+   > ![Create database](media/create-database.png)
 
 4. Select your currency type and language, and then select **Create database**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create database](media/how-to-flow-1-3.png)
+   > ![Create database](media/create-database2.png)
 
 > [!NOTE]
 > Creating a database and environment can take some time.

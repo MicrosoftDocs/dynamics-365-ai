@@ -69,17 +69,35 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    > ![Virtual agent response](media/response-text.png)
 
-   To specify a response by the customer, select **User says**, and then enter a response in the **User responses** box.
+   To specify a response by the customer, select **User says**, and then enter a response in the **User responses** box. You can provide several options for the user’s response. The options display as clickable buttons.
 
-   > ![User response](media/user-response.png)
+   > ![Add user response](media/user-says.png)
 
-   Select **Save** to save the conversation.
+   Enter a response in the **User responses** box.
+
+   > ![Add user response text](media/user-response.png)
+
+   To give the customer a choice between different responses, select **Add user response**.
+
+   > ![Additional user response](media/second-response.png)
+
+   Then specify the additional response in the **User responses** box.
+
+   > ![Additional user response text](media/second-response-text.png)
+
+   The conversation editor creates separate paths in the conversation, depending on the customer's response. The conversation path leads the customer to the appropriate resolution for each user response.
+
+   Add additional bot and user responses to complete the conversation path. Select **Save** to save the conversation.
 
 6. Test the topic in the Test Virtual Agent.
 
    Enter a trigger phrase for the topic at the **Type your message** prompt of the Test Virtual Agent, and then follow the conversation path.
 
    > ![Start conversation](media/start-conversation.png)
+
+   If the Test Virtual Agent already displays a virtual agent conversation, select **Start over with latest content** at the top of the Test Virtual Agent pane to restart the conversation.
+
+   > ![Restart conversation](media/restart-conversation.png)
 
 7. Deploy the virtual agent. Once the virtual agent is created, you have the option to activate it either on a demo website or your own custom website.
 

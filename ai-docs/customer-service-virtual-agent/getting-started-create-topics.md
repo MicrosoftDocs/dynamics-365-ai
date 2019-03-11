@@ -38,9 +38,9 @@ You can see how the conversation path works in practice by testing it in the Tes
 
 3. Specify a name, description, and one or more trigger phrases for the topic.
 
-    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. Once the conversation is started, the conversation follows the path you define. You can specify more than one trigger phrase for a topic.
+    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. Once the conversation is started, the conversation follows the path you define. You can specify more than one trigger phrase for a topic. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
 
-    Then select **Save topic** to add the topic to the topics list.
+    Select **Save topic** to add the topic to the topics list.
 
    > ![Save topic](media/save-topic.png)
 
