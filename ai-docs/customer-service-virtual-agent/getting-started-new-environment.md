@@ -66,6 +66,6 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 Creating a virtual agent for the first time may take a long time even if you have sufficient permissions to the CDS environment. Creation of the Virtual Agent may eventually succeed. If so, Virtual Agent for Customer Service displays the Virtual Agent Designer home page. However, it may time out, generating the following error:
 
-"An unexpected server error occurred. Please retry creating your bot."
+"An unexpected server error occurred. Please retry creating your Virtual Agent."
 
 If you receive this error, refresh your browser. In most cases, the virtual agent creation succeeds despite the error. If it did not succeed, retry the Virtual Agent creation.

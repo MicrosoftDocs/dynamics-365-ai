@@ -100,7 +100,11 @@ As you design your topic's conversation path, you can use the Test Virtual Agent
 
 ## To test the topic in the Test Virtual Agent
 
-1. At the **Type your message** prompt at the bottom of the Test Virtual Agent pane, enter a trigger phrase for the topic.
+1. To make sure you are using the most current virtual agent content, select **Start over with latest content** at the top of the Test Virtual Agent pane.
+
+   > ![Restart conversation](media/restart-conversation.png)
+
+2. At the **Type your message** prompt at the bottom of the Test Virtual Agent pane, enter a trigger phrase for the topic.
 
    > ![Trigger phrase](media/enter-trigger.png)
 
@@ -108,13 +112,11 @@ As you design your topic's conversation path, you can use the Test Virtual Agent
 
    > ![Start conversation](media/start-conversation.png)
 
-2. Continue the conversation path until you complete the conversation.
+3. Continue the conversation path until you complete the conversation.
 
    > ![Complete conversation](media/complete-test.png)
 
-3. To restart the conversation, select **Start over with latest content** at the top of the Test Virtual Agent pane.
-
-   > ![Restart conversation](media/restart-conversation.png)
+   If the conversation editor is open, you can click on a response in the Test Virtual Agent to navigate to the response in the conversation editor.
 
 You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the virtual agent until you are ready to deploy it. For information on deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 
