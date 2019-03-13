@@ -62,7 +62,7 @@ Use the **Show Advanced** toggle to refine your search.
 ![Show advanced control for Market Insights alerts](media/alerts-show-advanced.png)
 
 Add **more variations of the search term** to *broaden* your search. Example: You want to find generic news about the company Microsoft. When searching for Microsoft, consider searching for the stock ticker symbol (MSFT) too.
-![Add more vairiations to a search topic](media/alerts-more-terms.png)
+![Add more variations to a search topic](media/alerts-more-terms.png)
 
 Add **inclusions** to *narrow* your search and find news that include both, the search term AND at least one of the terms in box. Example: You want to find news about the Microsoft's Power Platform, but not for generic power platforms. 
 ![Add terms to appear with the search term](media/alerts-inclusions.png)
