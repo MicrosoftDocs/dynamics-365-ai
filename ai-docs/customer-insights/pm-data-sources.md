@@ -34,16 +34,19 @@ Follow the steps below to load the data into Customer Insights.
 
 1. Navigate to **Data Sources** from the **Data Manager** page.
 
+//1
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-tile.png "Get data tile")
 
 2. Select **Get data**.
 
+//2
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-add.png "Get data add")
 
 3. Provide a name for the data source and select **Save**. This will create the data source. 
 
+//3
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-create.png "Get data create")
 
@@ -56,6 +59,7 @@ Follow the steps below to load the data into Customer Insights.
 
    - If you wish to load data from Customer Engagement, choose the  **Common Data Service for Apps** connector.
 
+//5
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
    
@@ -67,6 +71,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 1. Use the Power Query window shown below to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (shown in red):
 
+// 6
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
@@ -74,6 +79,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 3. Lastly, you can add additional entities to your data source by selecting **Get Data** as shown below in red.
 
+// 7
    > [!div class="mx-imgBorder"] 
    > ![](media/data-source-get-data.png "Get Data")
 
@@ -81,21 +87,25 @@ Note that the next few transformations are highly recommended.
 
    - If you are ingesting data from a CSV file and the first row has headers, you should open the **Transform Table** menu and then select the **Use headers as first row** option.
 
+// 8
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
    - In addition, it is recommended to map your data to standard format of data. Customer Insights allows you to map your data to the Microsoft Common Data Model (CDM). In order to do so, select **Map to Standard**, and then map fields from your source data to CDM fields.
 
+// 9
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
 3. Select **Create** at the bottom of the power query screen to save.
 
+// 10
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-edit-queries-create.png "Create")
 
 4. After saving, you can expect to see your data source added in the **Data Sources** page.
 
+// 10
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
@@ -107,6 +117,7 @@ For each of your ingested data sources, besides its name, you can expect to see 
 
 At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue.
 
+// 11
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
 
@@ -116,6 +127,7 @@ At this point, repeat the same steps for each data source you wish to ingest int
 
 It is possible that the data load will take some time. After successfully refreshing, the ingested data can be reviewed from the **Entities page** as shown below. For more information on the **Entity** page see [Data Manager: Entities](pm-entities.md).
 
+// 12
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
 
@@ -131,11 +143,13 @@ Follow these steps to edit an existing data source.
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-source.png "Get data source")
 
+// 13
 2. Select **Edit** to edit the data source in Power Query.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-sources-edit2.png "Edit data source")
 
+// 14
 3. Select **Create** in the Power Query screen after completing the edits in order to save your changes. If you wish to remove a data source, select **Delete** for that data source.
 
    > [!div class="mx-imgBorder"] 
