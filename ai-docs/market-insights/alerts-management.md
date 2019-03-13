@@ -24,6 +24,11 @@ We aim to keep your efforts minimal when managing your alerts. After crating you
 
 ## Sign in to the app
 
+You can sign in to the app using one of the following accounts: 
+- Microsoft account - sends to your organizational email address 
+- LinkedIn account - sends to the primary email address of your LinkedIn profile
+- Google account - sends to your Google email address
+
 1. Go to [https://alerts.mi.ai.dynamics.com/](https://alerts.mi.ai.dynamics.com/).
 2. Select **Sign in** on the top of the page. 
 3. Choose which account to sign in with. 
@@ -51,9 +56,21 @@ We aim to keep your efforts minimal when managing your alerts. After crating you
 2. In the list of alerts, select the Trashbin icon {ICON} for the alert you want to delete.
 3. Confirm your deletion.
 
-## Refine your topic
+## Tips on refining your topic
+
+Use the **Show Advanced** toggle to refine your search.
+![Show advanced control for Market Insights alerts](media/alerts-show-advanced.png)
+
+Add **more variations of the search term** to *broaden* your search. Example: You want to find generic news about the company Microsoft. When searching for Microsoft, consider searching for the stock ticker symbol (MSFT) too.
+![Add more vairiations to a search topic](media/alerts-more-terms.png)
+
+Add **inclusions** to *narrow* your search and find news that include both, the search term AND at least one of the terms in box. Example: You want to find news about the Microsoft's Power Platform, but not for generic power platforms. 
+![Add terms to appear with the search term](media/alerts-inclusions.png)
+
+Add **exclusions** to *narrow* your search and find news that include the search term but don't include the terms in the box. Example: You want to find news about car industry, but not about car accidents.
+![Add terms to not appear with the search term](media/alerts-exclusions.png)
 
 ## Provide feedback about an alert
 
 We'd love to hear what you think about this new service and how we can tailor the experience to your needs. 
-You can [share your feedback](https://go.microsoft.com/fwlink/?linkid=2081755) or [send us an email](afeed@microsoft.com).
+You can share your feedback by [sending us an email](afeed@microsoft.com).
