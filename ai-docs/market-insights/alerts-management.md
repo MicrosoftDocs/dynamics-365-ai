@@ -54,3 +54,6 @@ We aim to keep your efforts minimal when managing your alerts. After crating you
 ## Refine your topic
 
 ## Provide feedback about an alert
+
+We'd love to hear what you think about this new service and how we can tailor the experience to your needs. 
+You can [share your feedback](https://go.microsoft.com/fwlink/?linkid=2081755) or [send us an email](afeed@microsoft.com).
