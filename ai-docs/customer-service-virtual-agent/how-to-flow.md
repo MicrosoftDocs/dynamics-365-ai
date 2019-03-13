@@ -22,12 +22,11 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
     For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
-2. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal by entering [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser. Then select your PowerApps environment from the list.
+2. If you do not already have a Microsoft Flow environment, log in to the Flow admin portal by entering [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser. Click on the icon for your account in the upper right corner of the screen, and then select your PowerApps environment from the list.
 
 3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Verify database](media/how-to-flow-1-5.png)
+   > ![Verify database](media/verify-database.png)
    > [!NOTE]
    > Since creating a new environment can take some time, the new solution might not immediately appear in the list. Log out and check again in 30 to 60 minutes.
 
@@ -39,15 +38,13 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
 2. On the **Common Data Services Default Solution** page, select **+New**, and then select **Flow** from the list.
 
-   > [!div class="mx-imgBorder"]
-   > ![New flow](media/how-to-flow-1-6.png)
+   > ![New flow](media/new-flow.png)
 
     You can create a variety of flows for your solution. For example, you could create a simple flow that takes an email address as an input parameter, sends an email message to that address, and returns a message that the email was successfully sent to a virtual agent as output.
 
 3. Select a trigger for your flow. A Virtual Agent Designer virtual agent can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When HTTP request is received** to create a flow with an HTTP request trigger.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select trigger](media/how-to-flow-8.png)
+   > ![Select trigger](media/select-trigger.png)
 
 4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New Step**.
 
@@ -62,32 +59,42 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
         }
     ```
 
-   > [!div class="mx-imgBorder"]
-   > ![Add JSON code](media/how-to-flow-9.png)
+   > ![Add JSON code](media/add-json-code.png)
 
-5. Specify that an email message should be sent to the email address specified in the input. Enter **Outlook** in the Search box and select **Send an email** to create a connection to Microsoft Outlook using your Outlook credentials to send the message.
+5. Specify that an email message should be sent to the email address specified in the input. Enter **Outlook** in the Search box and select **Send an email** to create a connection to Microsoft Outlook. Follow the directions to specify your Outlook credentials and grant approval to access your account.
 
-   > [!div class="mx-imgBorder"]
-   > ![Send email](media/how-to-flow-10.png)
+   > ![Send email](media/send-email.png)
 
-6. Specify an email address for the message, and fill in the Subject and Body fields.
+    Microsoft Flow displays the **Send an email** window, where you specify an email address and Subject and Body fields for the message.
 
-    You can specify a Flow input variable (“to”) as the recipient address using Dynamic Content. Select **See more** to see all dynamic variables.
+6. To use dynamic content as the recipient address, place your cursor in the **To** field to display the **Dynamic content** window, and then select **See more**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create message](media/how-to-flow-11.png)
+   > ![See more](media/see-more.png)
 
-7. If you specify the “to” variable as the recipient address, select **New step** to return a message to the flow.
+    To use the Flow input variable **to** as the recipient address, select **to**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Return message](media/how-to-flow-12.png)
+   > ![Create message](media/select-to.png)
 
-8. Use an HTTP Response to return a variable to the virtual agent. Enter **Response** in the search box, and select the **Response** action in the search results list.
+7. Select **New step** to return a message to the flow.
 
-   > [!div class="mx-imgBorder"]
-   > ![HTTP response](media/how-to-flow-12-1.png)
+   > ![Return message](media/return-message.png)
+
+8. Use an HTTP Response to return a variable to the virtual agent. In the **Choose and action** window, enter **Response** in the search box, and then select the **Response** action.
+
+   > ![HTTP response](media/http-response.png)
 
 9. Specify the following information for the Response action, and then select **Save** to save your flow.
+
+    ``` JSON
+        {  
+        "type": "object",  
+            "properties": {  
+                "message": {  
+                    "type": "string"  
+                }  
+            }  
+        }
+    ```
 
    > [!div class="mx-imgBorder"]
    > ![Response action](media/how-to-flow-13.png)
