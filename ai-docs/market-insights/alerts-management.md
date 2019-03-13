@@ -73,4 +73,4 @@ Add **exclusions** to *narrow* your search and find news that include the search
 ## Provide feedback about an alert
 
 We'd love to hear what you think about this new service and how we can tailor the experience to your needs. 
-You can share your feedback by [sending us an email](afeed@microsoft.com).
+You can share your feedback by [sending us an email](mailto:afeed@microsoft.com).
