@@ -41,6 +41,7 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dyna
 - Notes analysis
 - Talking points
 - Who knows whom
+- Predictive forecasting 
 
 
 ## GDPR
@@ -294,7 +295,7 @@ To configure the Dynamics 365 AI for Sales connection graph, follow these steps:
 > [!NOTE]
 > For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md).
 
-## Preview: Configure Predictive forecast 
+## Preview: Configure Predictive forecasting 
 
 Predictive forecast helps sales managers make timely decisions in generating revenue by viewing the predictive forecast report. The report displays the predictive forecasting revenue against the actual revenue that is generated based on the historical opportunities. 
 
@@ -326,6 +327,9 @@ Review the following prerequisites before enabling Predictive forecasting:
     > ![Predictive forecasting model is created](media/predictive-forecasting-model-created.png "Predictive forecasting model is created")
 
     The Predictive forecasting model is created and ready to use in your organization.
+
+> [!NOTE]
+> For more information about Predictive forecasting, see [Predictive forecast](../sales/d365-ai-business-performance.md#preview-predictive-forecast).
 
 <!--
 ### (Optional) Uninstall the Sales insights add-on
