@@ -42,21 +42,21 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
     You can create a variety of flows for your solution. For example, you could create a simple flow that takes an email address as an input parameter, sends an email message to that address, and returns a message that the email was successfully sent to a virtual agent as output.
 
-3. Select a trigger for your flow. A Virtual Agent Designer virtual agent can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When HTTP request is received** to create a flow with an HTTP request trigger.
+3. Select a trigger for your flow. A Virtual Agent Designer virtual agent can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When a HTTP request is received** to create a flow with an HTTP request trigger.
 
    > ![Select trigger](media/select-trigger.png)
 
 4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New Step**.
 
     ``` JSON
-        {  
+    {  
         "type": "object",  
-            "properties": {  
-                "to": {  
-                    "type": "string"  
-                }  
+        "properties": {  
+            "to": {  
+                "type": "string"  
             }  
-        }
+        }  
+    }
     ```
 
    > ![Add JSON code](media/add-json-code.png)
@@ -65,7 +65,7 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
    > ![Send email](media/send-email.png)
 
-    Microsoft Flow displays the **Send an email** window, where you specify an email address and Subject and Body fields for the message.
+    Microsoft Flow displays the **Send an email** window.
 
 6. To use dynamic content as the recipient address, place your cursor in the **To** field to display the **Dynamic content** window, and then select **See more**.
 
@@ -75,25 +75,29 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
    > ![Create message](media/select-to.png)
 
-7. Select **New step** to return a message to the flow.
+7. Add text to the Subject and Body fields of the message, and then select **New step**.
 
    > ![Return message](media/return-message.png)
 
-8. Use an HTTP Response to return a variable to the virtual agent. In the **Choose and action** window, enter **Response** in the search box, and then select the **Response** action.
+8. Use an HTTP Response to return a variable to the virtual agent. In the **Choose an action** window, enter **Response** in the search box, and then select the **Response** action.
 
    > ![HTTP response](media/http-response.png)
 
-9. Specify the following information for the Response action, and then select **Save** to save your flow.
+9. Specify the following information for the Response action. Select **Show advanced options** to display the **Response Body JSON Schema** field.
+
+   > ![Show advanced](media/show-advanced.png)
+
+    Add the following JSON code to the **Response Body JSON Schema** field, and then select **Save**.
 
     ``` JSON
-        {  
+    {  
         "type": "object",  
-            "properties": {  
-                "message": {  
-                    "type": "string"  
-                }  
+        "properties": {  
+            "message": {  
+                "type": "string"  
             }  
-        }
+        }  
+    }
     ```
 
    > [!div class="mx-imgBorder"]
