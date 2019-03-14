@@ -21,10 +21,10 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Activities** capability helps consolidate customer activities from various data sources. This creates a customer journey that can be visualized in a timeline view. Business analysts can configure the activities that will be displayed on a custom dashboard with timeline view, which can be embedded within business applications.
+The Activities capability helps consolidate customer activities from various data sources. This creates a customer journey that can be visualized in a timeline view. Business analysts can configure the activities that will be displayed on a custom dashboard with timeline view, which can be embedded within business applications.
 
 It includes two components:
-- **Activities page**: This component is accessible via the **Activities** tab on the left-side menu and is used to define the activities that you want to view on the customer’s timeline grid.
+- **Activities** page: This component is accessible via the **Activities** tab on the left-side menu and is used to define the activities that you want to view on the customer’s timeline grid.
 - **Timeline grid:** This grid consolidates all the activities of one customer in chronological order, and it can be viewed either within a Customer Engagement app via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the **Timeline Control** subsection within the **Customer Card Add-In** section to learn how to work with that control.
 
 This section covers only the **Activities** page.
@@ -39,7 +39,7 @@ Your data sources include entities with transactional/activity data from multipl
 
 Here we will choose the entity that includes our target activity or activities.
 
-1. Select **Add Entity**.
+1. Select **Add entity**.
   
    > [!div class="mx-imgBorder"] 
    > ![](media/activities-add-entity.png "Activities add entity")
@@ -82,6 +82,6 @@ You can now define your next activity, which can be done via **Add** as highligh
    
 ## Next step
 Once you define your activities, you can:
-1. Explore the **Timeline Control** subsection** under the **Customer Card Add-in** section in order to learn how to view information on these activities for each of your customers.
-2. Visit the **Connectors section** to learn how to set up the **Power BI** dashboard where you can also view information on these activities for each of your customers.
+1. Explore the **Timeline Control** subsection under the **Customer Card Add-in** section in order to learn how to view information on these activities for each of your customers.
+2. Visit the **Connectors** section to learn how to set up the **Power BI** dashboard where you can also view information on these activities for each of your customers.
 
