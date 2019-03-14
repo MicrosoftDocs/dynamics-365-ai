@@ -76,6 +76,8 @@ To add a brand or interest, type the keywords field (highlighted in blue above) 
 
 That can be done via **Run** at the top of the screen (shown in red).
 
+// 1 <!-- in the image to come below, mark "save" with "1", "Run" with "2" and "Discard" with "3"-->
+
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-choose-own.png "Enrich profiles choose own brand")
 
@@ -106,6 +108,8 @@ Upon the completion of the Enrichment process, you have unlocked additional info
 
 **1. Exploring affinities' histograms on the *Home* page**
 
+// 2 <!-- replace red color with 1 and blue color with 2. Also please blur my name that appears in large in this image - thanks!-->
+
 > [!div class="mx-imgBorder"] 
 > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
@@ -115,6 +119,8 @@ That can be done within the *Insights* section (shown above in red). The diagram
 
 - Go to the ***Entities*** page.
 - Select the ***MsftAudienceIntelligence: Customer 360*** entity.
+
+// 3 <!-- replace red color with 1 and blue color with 2. also please mark the last column on the right with 3. Lastly, we need to blur the data for all the other columns (only the columns with the numbers). Thanks!-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-entities-info.png "Text")
