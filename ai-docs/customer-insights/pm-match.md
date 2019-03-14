@@ -31,12 +31,14 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 
 - If you did map at least two entities, you can expect to reach the following page, where you should select **Set Order** once you are ready to start the Match phase.
 
+<!--note from editor: re: bullet item above--I don't see "Set Order" in the screen shot   -->
+
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-new-rule.png "Match new rule")
 
 ## The Match phase
 
-The Match phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset, which will be utilized later to unlock unique insights about your customers.
+The Match phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset, which will be used later to unlock unique insights about your customers.
 
 If it's the first time you are going through the match process, you should complete these mandatory steps:
 
@@ -47,33 +49,33 @@ If it's the first time you are going through the match process, you should compl
 In addition, you might want to complete the following steps:
 
 4. (Optional) Review and validate your matches.
-5. (Optional) Make changes to your Match Order and Rules' Definitions
+5. (Optional) Make changes to your **Match order** and **Rules** definitions.
   
-Below, we will explore these steps in sequential order. 
+In the following sections, we will explore these steps in sequential order. 
 
 ## Step One: Specify the match order
 
-Each **Match** involves two entities that are unified into a single entity while maintaining unique customer's records. In the example below, the user has selected three entities: *ContactCSV: TestData* as the **primary entity**, *WebAccountCSV: TestData* as **entity 2**, and *CallRecordSmall: TestData* as **entity 3**. The diagram above these selections helps explain how the match order will be executed: 
+Each match involves two entities that are unified into a single entity, while maintaining unique customer's records. In the following example, the user has selected three entities: **ContactCSV: TestData** as the **Primary** entity, **WebAccountCSV: TestData** as **Entity 2**, and **CallRecordSmall: TestData** as **Entity 3**. The diagram above these selections helps explain how the match order will be executed: 
 
-- **First match**: First, the Primary entity will be matched with entity 2
-- **Second match**: Then, the dataset resulted from the first match will be matched with entity 3
-- And so forth (in our example we made selections only for two matches but the system supports more than two)
+- **First match**: First, the **Primary** entity will be matched with **Entity 2**.
+- **Second match**: Then, the dataset that results from the first match will be matched with **Entity 3**.
+- And so forth (in our example, we made selections only for two matches, but the system supports more than two).
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-order-edit-page.png "Edit data match order")
   
 > [!IMPORTANT]
-> The entity that you will choose as your **primary entity** will serve as the basis for your unified master data set. In other words, any future entities that will be selected during the match phase will be added to this entity. At the same time it doesn't mean that the unified entity will include **all** of the data included in this entity.
+> The entity that you will choose as your **Primary** entity will serve as the basis for your unified master data set. In other words, any future entities that are selected during the Match phase will be added to this entity. At the same time, this doesn't mean that the unified entity will include **all** of the data included in this entity.
 
->There are two considerations that can help you select your primary entity:
+>There are two considerations that can help you select your **Primary** entity:
 
-> 1. What entity do you consider having the most complete and reliable data about your customers?
-> 2. Does the entity that you identified in #1 have attributes that are also shared by other entities (Name, Phone, Email, etc)? If not, choose your second most reliable entity.
+> - What entity do you consider having the most complete and reliable data about your customers?
+> - Does the entity that you just identified have attributes that are also shared by other entities (for example, name, phone number, or email address)? If not, choose your second most reliable entity.
 
 > [!NOTE]
-> Considerations for your first selection can help you choose your **entity 2** as well. Among your ingested (and mapped) entities, what entity do you consider to have the second most reliable and complete data? Moreover, does it include at least one field that is shared by the primary entity as well as possibly additional fields that are shared by other ingested entities?
+> Considerations for your first selection can help you choose your **Entity 2** as well. Among your ingested (and mapped) entities, what entity do you consider to have the second most reliable and complete data? Moreover, does it include at least one field that is shared by the **Primary** entity and possibly additional fields that are shared by other ingested entities?
 
-You can always remove entities from your match order. Select **Save** to save your match order as shown in red.
+You can always remove entities from your match order. Select **Save** to save your match order as outlined here in red.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-edit.png "Match rule edit")
