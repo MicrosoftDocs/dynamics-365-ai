@@ -23,7 +23,9 @@ manager: "kvivek"
 
 <!--note from editor: Below--change "Blob store" to "Azure Blob storage"? (Cloud Style Guide) -->
 
-You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, you can always export the data from your source as a CSV file and import to Customer Insights using our CSV connector. To import data to Customer Insights, you need to create a data source in the **Data Sources** page. It’s recommended that you have multiple data sources, as that will allow you to have different refresh schedules and credentials for each of your data sources.
+You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, you can always export the data from your source as a CSV file and import to Customer Insights using our CSV connector. 
+
+To import data to Customer Insights, you need to create a data source in the **Data sources** page. It’s recommended that you have multiple data sources, as that will allow you to have different refresh schedules and credentials for each of your data sources.
 
 ## Bring your data into Customer Insights 
 
