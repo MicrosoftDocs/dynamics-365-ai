@@ -67,6 +67,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 1. Use the Power Query window shown below to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (shown in red):
 
+// 1
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
@@ -98,6 +99,7 @@ Note that the next few transformations are highly recommended.
 
 4. After saving, you can expect to see your data source added in the **Data Sources** page.
 
+// 2
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
@@ -109,6 +111,7 @@ For each of your ingested data sources, besides its name, you can expect to see 
 
 At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue.
 
+// 3
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
 
