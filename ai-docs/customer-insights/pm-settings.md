@@ -33,12 +33,12 @@ The System page encapsulates everything that you, as an administrator, need to c
 
 The **Status** tab enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables:
 
-- **Data Sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources: whether it didn't start, is in progress, or has already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
+- **Data sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources: whether it didn't start, is in progress, or has already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/system-data-sources.png "System data sources")
 
-- **System Processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. 
+- **System processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. 
 
   The left-side column specifies those processes' names. 
 
