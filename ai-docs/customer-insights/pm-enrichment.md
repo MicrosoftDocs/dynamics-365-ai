@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Enrich Profiles
+# Enrich profiles
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -25,7 +25,7 @@ manager: "kvivek"
 
 Dynamics 365 Customer Insights enables you to consolidate data around your customers from all of your sources through the Map, Match, and Merge phases. At the same time, Customer Insights goes beyond that and puts at your fingertips additional knowledge about your customers that comes from proprietary data. This section covers the **Enrich profiles** page that can be used to unlock data on the affinities profiles similar to your customers to hundreds of brands and dozens of interest-categories. Some examples of interest-categories are *Home Appliances*, *Shoes* and *Financial Planning*.
 
-The **Enrich profiles** page can be accessed through the app's left-side menu as well as from the **Configure Data** page.
+The **Enrich profiles** page can be accessed through the app's left-side menu as well as from the **Configure data** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profiles.png "Text")
@@ -117,10 +117,9 @@ Upon the completion of the enrichment process, you have unlocked additional info
 > [!div class="mx-imgBorder"] 
 > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
-This
-can be done within the *Insights* section (shown above in red). The diagrams shown above in blue present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
+This can be done within the **Insights** section (shown in red in the preceding example). The diagrams shown in blue present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of customers who have a specific brand or category affinity.
 
-**2. Exploring the *MsftAudienceIntelligence: Customer 360* entity on the *Entities* page**
+**2. Explore the MsftAudienceIntelligence: Customer 360 entity on the Entities page**
 
 - Go to the **Entities** page.
 - Select the **MsftAudienceIntelligence: Customer 360** entity.
@@ -128,8 +127,8 @@ can be done within the *Insights* section (shown above in red). The diagrams sho
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-entities-info.png "Text")
 
-- Shown above in blue, this column presents the brands and interests that were evaluated by the enrichment algorithm.
-- Shown in red, this column presents the verticals to which these brands and interests belong.
+- In the preceding example, the column shown in blue presents the brands and interests that were evaluated by the enrichment algorithm.
+- The column shown in red presents the verticals to which these brands and interests belong.
 - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. Note that these affinity numbers represent ranks. A rank of 1 stands for the strongest affinity, and from there, the affinity decreases as the number increases.  
 
 Lastly, you can also export this entity using the **Export** button in the upper-right corner of the screen.
