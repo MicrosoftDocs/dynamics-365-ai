@@ -32,7 +32,7 @@ In order to view more customers profiles, move to the next **Profiles** page usi
 > ![](media/profiles-customers2.png "Customer profiles")
 
 >[!NOTE]
-> Customer profiles are available once you create the unified Customer entity. Make sure to complete the data configuration process in order to unlock richer views on your customers. Visit the **Configure Data** section to learn more. 
+> Customer profiles are available once you create the unified Customer entity. Make sure to complete the data configuration process in order to unlock richer views of your customers. Visit the **Configure Data** section to learn more. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
