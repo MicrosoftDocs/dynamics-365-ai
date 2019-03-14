@@ -54,7 +54,7 @@ Each relationship has two key parts:
 - **Source Entity**: Represents the entity that holds the foreign key.
 - **Target Entity**: Represents the entity that the source entity’s foreign key points to.
 
-To create a relationship, first select **Add Relationship**.
+To create a relationship, first select **Add relationship**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-relationships.png "Add relationships")
