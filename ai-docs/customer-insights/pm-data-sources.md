@@ -67,6 +67,8 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 1. Use the Power Query window shown below to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (shown in red):
 
+// 1 <!-- We should blur the data in the table (no need to blur anything else). Digits 1, 2, 3 should replace color red (above this comment), color blue (mentioned in the text beneath the image), and color green (also in the text beanth the image) correspondly --!> 
+
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
@@ -98,6 +100,8 @@ Note that the next few transformations are highly recommended.
 
 4. After saving, you can expect to see your data source added in the **Data Sources** page.
 
+// 2 <!-- in the text below this image: We should replace the blue color with 1, replace the red color with 2, and replace the warning sign with 3 (and also ensure to mark 3 in the image since we didn't use to mark this spot before) -->
+
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
@@ -108,6 +112,8 @@ For each of your ingested data sources, besides its name, you can expect to see 
 3. Data is still loading into Customer Insights (represented by a *warning sign* icon)
 
 At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue.
+
+// 3 <!-- in the text below this image, replace red color with 1 and blue color with 2-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
