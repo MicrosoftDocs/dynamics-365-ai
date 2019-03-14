@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/14/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -23,9 +23,9 @@ manager: "kvivek"
 
 ## Requirements
 
-- Dynamics 365 for Customer Engagement v9.0+ 
+- Dynamics 365 for Customer Engagement version 9.0+ 
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub 
-- Users who will use the Customer Insights Customer Card in Customer Engagement need to be added as users on Customer Insights. You can do so in the **Permissions** page in the **Admin** section. See below.
+- Users who will use the Customer Insights Customer Card in Customer Engagement need to be added as users on Customer Insights. You can do so in the **Permissions** page in the **Admin** section, as discussed later in this topic.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-page.png "Permissions page")
