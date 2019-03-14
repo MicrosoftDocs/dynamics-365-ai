@@ -116,13 +116,13 @@ In this page, several options are available as shown below. Those options can se
 > [!div class="mx-imgBorder"] 
 > ![](media/settings.png "Settings")
 
-- **Display Name**: Determine how your user name will be shown.
-- **Instance Name**: Give your work instances identifiable names. Recommended if you have more than one instance.
+- **Display name**: Determine how your user name will be shown.
+- **Instance name**: Give your work instances identifiable names. Recommended if you have more than one instance.
 - **Region**: Determine your organization's region.
 
 ## General tab
 
-Currently, only one selection is available to you via the **General** tab: **Choosing language**. The languages we support show up in this menu. Don't forget to **Save** your selection. 
+Currently, only one selection is available to you via the **General** tab: choosing **Language**. The languages we support show up in this menu. Don't forget to **Save** your selection. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-tabs-general.png "General tab")
