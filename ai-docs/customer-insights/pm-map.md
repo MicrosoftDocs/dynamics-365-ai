@@ -2,7 +2,7 @@
 title: "Map | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/14/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -21,29 +21,29 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-There are two main goals behind the **Map** phase:
+There are two main goals behind the Map phase:
 
-- **Entity selection:** Identify the entities which, upon unification, may lead to a dataset with more complete information about your customers.
-- **Attribute selection:** For each entity, identify the columns you wish to combine and reconcile in the next data configuration phases: *Match* and *Merge* (those columns are also called *attributes*).
+- **Entity selection:** Identify the entities which, upon unification, might lead to a dataset with more complete information about your customers.
+- **Attribute selection:** For each entity, identify the columns you want to combine and reconcile in the next data configuration phases: Match and Merge (those columns are also called *attributes*).
 
-Select the **Map** tile on the **Configure Data** page to start the *Map phase*.
+Select the **Map** tile on the **Configure Data** page to start the Map phase.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map.png "Map tile")
 
 ## Select first entities
 
-Start the *Map* phase by selecting **Add entities**.
+Start the Ma* phase by selecting **Add entities**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
 
-Within the next screen, add all the entities which, upon unification into a unified customer dataset, might lead to a better understanding about your customers:
+On the next screen, add all the entities which, when merged into a unified customer dataset, might lead to a better understanding about your customers:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-In the example above, the user used the **Search** field to search for the *Contact* and *Survey* entities since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the Address attribute exists only in the Contact entity). 
+In the preceding example, the user used the **Search** field to search for the Contact and Survey entities, since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the Address attribute exists only in the Contact entity). 
 
 Then, the user selected the *Contact* and *Survey* entities. Those were found within the *Dynamics* and *Surveydata* data sources that were ingested through the **Data Sources** page. 
 
