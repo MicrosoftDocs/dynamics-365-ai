@@ -2,7 +2,7 @@
 title: "Match | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/14/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -22,32 +22,32 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once the *Map* phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configure Data** page to get to the **Match** page.
+Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configure Data** page to get to the **Match** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-tile.png "Match tile")
 
-- Note that the *Match* phase requires at least two mapped entities. If you have not mapped at least two entities, you can expect to receive a message which requires you to go back to the **Map** page and map at least two entities.
+- Note that the Match phase requires at least two mapped entities. If you have not mapped at least two entities, you can expect to receive a message that requires you to go back to the **Map** page and map at least two entities.
 
-- If you did map at least two entities, you can expect to reach the following page where you should select **Set Order** once you are ready to start the *Match* phase.
+- If you did map at least two entities, you can expect to reach the following page, where you should select **Set Order** once you are ready to start the Match phase.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-new-rule.png "Match new rule")
 
 ## The Match phase
 
-The *Match* phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset that will be utilized later to unlock unique insights about your customers.
+The Match phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset, which will be utilized later to unlock unique insights about your customers.
 
-If it's the first time you are going through the match process, you should complete all these mandatory steps:
+If it's the first time you are going through the match process, you should complete these mandatory steps:
 
-1. Specifying the order by which your mapped entities will be matched
-2. Defining rules for the first match pair
-3. Running your specified matches
+1. Specify the order by which your mapped entities will be matched.
+2. Define rules for the first match pair.
+3. Run your specified matches.
 
-In addition, you may want to complete the following steps:
+In addition, you might want to complete the following steps:
 
-4. (Optional) Reviewing and validating your matches
-5. (Optional) Making changes to your Match Order and Rules' Definitions
+4. (Optional) Review and validate your matches.
+5. (Optional) Make changes to your Match Order and Rules' Definitions
   
 Below, we will explore these steps in sequential order. 
 
