@@ -37,6 +37,7 @@ The **Home** page is designed to equip you with a holistic view around your unif
 
 The image below shows the types of insights you can expect to view on the **Home** page.
 
+// 1
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-insights2.png "Insights on Home page")
 
