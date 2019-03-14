@@ -31,7 +31,7 @@ The **Permissions** page is where you can set up roles and permissions for using
  
 ## Add roles and permissions
 
-On the **Permissions** page, select **Add** as shown in red below. That will open the panel shown on the right where you should first choose a role. 
+On the **Permissions** page, select **Add**. That will open the panel shown on the right where you should first choose a role. 
 
 **Note:** The strings for roles are not localized. No matter what language, they will show as "Admin", "Viewer", or "Contributor".
 
