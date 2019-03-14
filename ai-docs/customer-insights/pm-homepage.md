@@ -26,7 +26,7 @@ The **Home** page is the first page you see in the Customer Insights app.
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-insights.png "Insights on Home page")
 
-If you are a trial user, make sure to switch from a demo environment before starting to use the product. This can be done via the environment switcher that is positioned on the top-right corner of the page (shown in red below).
+If you are a trial user, make sure to switch from a demo environment before starting to use the product. This can be done via the environment switcher that is positioned on the top-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-environment-switcher.png "Switch environment")
@@ -42,9 +42,9 @@ The image below shows the types of insights you can expect to view on the **Home
 
 Let's explore those insights.
 
-- **Aggregate-level insights** (shown in red): Tiles with unique insights about your total customer base. May include predictive KPIs such as average likelihood of a customer churn.
-- **Information on preferred brands and interests within your customer base (shown in blue):** This unique information can be unlocked via the **Enrich Profiles** page after completing the *Map*, *Match* and *Merge* phases.  
-- **Customer segments** (shown in green): Includes segments that were created around your customers. For more information on how to manually create additional segments, visit the **Segments** section.
+- **Aggregate-level insights** (#1): Tiles with unique insights about your total customer base. May include predictive KPIs such as average likelihood of a customer churn.
+- **Information on preferred brands and interests within your customer base** (#2): This unique information can be unlocked via the **Enrich Profiles** page after completing the *Map*, *Match* and *Merge* phases.  
+- **Customer segments** (#3): Includes segments that were created around your customers. For more information on how to manually create additional segments, visit the **Segments** section.
 
 ## Next step
 Many of the **Home** page insights are dependent upon the completion of the data configuration process and this process in turn is based on first loading data into Customer Insights. See the [Data Manager](pm-data-manager.md) or [Data Sources](pm-data-sources.md) topics to learn how to complete the data loading process. 

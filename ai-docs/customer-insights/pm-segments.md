@@ -49,7 +49,7 @@ The two sections below will cover segment creation followed by segment explorati
 
 ## Creating segments from the Segment page
 
-In order to start creating a segment, you can either select **Add Segment** at the top-right corner of the screen (shown in red below), or select **Get Started** (shown in blue below).
+In order to start creating a segment, you can either select **Add Segment** at the top-right corner of the screen, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
@@ -105,7 +105,7 @@ Let's explore a case in which we wish to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
 
-2. Choose our entity of interest, ClickStram: WebsiteDatabase (shown in red) and the attribute by which we wish to segment (shown in blue).
+2. Choose our entity of interest, ClickStreamData: WebsiteDatabase and the attribute by which we wish to segment (SessionID).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
@@ -120,7 +120,7 @@ Let's explore a case in which we wish to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings3.png "Select ADD")
 
-5. We need to create a path to the Customer Profile entity but currently our entity (ClickstramData: WebsiteDatabase) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is OnlineAccount: WebsiteDatabase as shown below and so we will choose it.
+5. We need to create a path to the Customer Profile entity but currently our entity (ClickstreamData: WebsiteDatabase) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is OnlineAccount: WebsiteDatabase as shown below and so we will choose it.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings4.png "Select OnlineAccount: WebsiteDatabase")
