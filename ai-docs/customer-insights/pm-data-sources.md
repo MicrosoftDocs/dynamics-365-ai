@@ -100,7 +100,8 @@ Note that the next few transformations are highly recommended.
 
 4. After saving, you can expect to see your data source added in the **Data Sources** page.
 
-// 2
+// 2 <!-- in the text below this image: We should replace the blue color with 1, replace the red color with 2, and replace the warning sign with 3 (and also ensure to mark 3 in the image since we didn't use to mark this spot before) -->
+
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
@@ -112,7 +113,8 @@ For each of your ingested data sources, besides its name, you can expect to see 
 
 At this point you should refresh the data source that you just saved. Select the button highlighted below in red and then select **Refresh** as highlighted in blue.
 
-// 3
+// 3 <!-- in the text below this image, replace red color with 1 and blue color with 2-->
+
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
 
