@@ -67,7 +67,7 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
     Microsoft Flow displays the **Send an email** window.
 
-6. To use dynamic content as the recipient address, place your cursor in the **To** field to display the **Dynamic content** window, and then select **See more**.
+6. To use dynamic content as the recipient address, place your cursor in the **To** field to display the **Dynamic content** tab, and then select **See more**.
 
    > ![See more](media/see-more.png)
 
@@ -83,7 +83,7 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
    > ![HTTP response](media/http-response.png)
 
-9. Specify the following information for the Response action. Select **Show advanced options** to display the **Response Body JSON Schema** field.
+9. Specify the following information for the Response action, and then select **Show advanced options** to display the **Response Body JSON Schema** field.
 
    > ![Show advanced](media/show-advanced.png)
 
@@ -100,33 +100,29 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
     }
     ```
 
-   > [!div class="mx-imgBorder"]
-   > ![Response action](media/how-to-flow-13.png)
+   > ![Response action](media/response-action.png)
 
 ## To create a virtual agent that invokes a flow
 
-1. Log in to the Dynamics 365 Virtual Agent for Customer Service portal [https://va.ai.dynamics.com](https://va.ai.dynamics.com), and create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **+** button on the Virtual Agent Designer title bar.
+1. Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent Designer environment, and then create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **New Bot** icon on the title bar. Then select **New bot**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create virtual agent](media/how-to-flow-14.png)
+   > ![New bot icon](media/new-bot-icon.png)
 
     For more information about creating a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md).
 
-2. On the **Create a new bot** screen, specify a template, a unique name for your virtual agent, and the environment where your flow was created.
+2. On the **Create a new bot** screen, specify a template, a unique name for your virtual agent, and the environment where your flow was created. Then select **Create**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Specify environment](media/how-to-flow-15.png)
-
-    Then select **Create**.
+   > ![Specify environment](media/specify-environment.png)
 
 3. Once you have created your virtual agent, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
 
-   > [!div class="mx-imgBorder"]
    > ![New topic](media/create-new-topic.png)
 
     For more information about creating a topic, see [Creating topics for your virtual agent](getting-started-create-topics.md).
 
-4. Specify trigger phrases for the topic. For example, for a "Daily Deals" topic you could specify the following trigger phrases:
+4. Specify a name, description, and trigger phrases for the topic. A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
+
+    For example, for a *Daily Deals* topic, you could specify the following trigger phrases:
 
     - daily deals
     - deal of the day
@@ -142,13 +138,15 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
     Then select **Save topic** to save the topic.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save topic](media/how-to-flow-16.png)
+   > ![Save flow topic](media/save-flow-topic.png)
 
-5. Once you have created the topic, you can create a conversation path that uses your flow. Select **Edit** to open the conversation editor, enter a virtual agent response in the **Bot says** box, and then select **User says** to display the **User response** node.
+5. Once you have created the topic, you can create a conversation path that uses your flow. Select **Edit** to open the conversation editor.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create conversation](media/how-to-flow-17.png)
+   > ![Open flow conversation](media/open-flow-conversation.png)
+
+    In the conversation editor, enter a virtual agent response in the **Bot says** box, and then select **User says** to display the **User response** node.
+
+   > ![Create conversation](media/create-conversation.png)
 
     In the user response, select **Add Variable** to add a variable to save a customer's email address. In the Properties pane, select **Create variable** to display the **Create new variable** screen.
 
