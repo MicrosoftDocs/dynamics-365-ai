@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Insights | MicrosoftDocs"
 description: Overview of Dynamics 365 Customer Insights
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/14/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
