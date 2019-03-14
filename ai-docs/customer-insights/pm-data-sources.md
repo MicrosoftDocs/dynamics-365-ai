@@ -70,6 +70,8 @@ In the this step, you'll add entities to your data source. In Customer Insights,
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
+**Note**: It might not be possible to make changes to data sources that are currently used in one of the app's processes (*Segmentation, Match, Merge*, etc). Using the **Settings** screen, you can track the progress of each of the active processes and upon their completion, return to Data Sources screen and make your changes. 
+
 2. In this step you can also edit and transform the data. First, choose an entity to edit or transform and then use one of the menus located at top of the Power Query window to find a specific transformation (those are shown in blue above). Also note that each transformation will be added as a processing step, as illustrated in green above, which can always be modified as needed.
 
 3. Lastly, you can add additional entities to your data source by selecting **Get Data** as shown below in red.
