@@ -39,7 +39,7 @@ After selecting the **Search, sort and filter** tab on the left-side menu, you'l
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes.png "Add attributes")
 
-In the **Attributes** panel shown in the following example, choose all the attributes by which users will be able to search, filter, and sort customers on the **Profiles** page. You can use the **Search** field (shown in red) to search for a specific attribute by its name. Note that you can select only attributes that exist in the Customer Profile entity you have created during the data configuration process.
+In the **Profile attributes** panel shown in the following example, choose all the attributes by which users will be able to search, filter, and sort customers on the **Profiles** page. You can use the **Search** field (shown in red) to search for a specific attribute by its name. Note that you can select only attributes that exist in the Customer Profile entity you have created during the data configuration process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes2.png "Add attributes")
@@ -91,7 +91,7 @@ The following image shows the **Edit** panel that opens for string-type attribut
 
 In this panel, you can specify the intervals included on the **Filter** panel, as well as the order policy by which they will be organized.
 
-Lastly, the following image shows the **Editing** panel that opens for date-type attributes.
+Lastly, the following image shows the **Edit** panel that opens for date-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/date-filter-options.png "Date filter options")
