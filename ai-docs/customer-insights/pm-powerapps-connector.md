@@ -2,7 +2,7 @@
 title: "PowerApps connector | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/26/2019
+ms.date: 03/14/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -30,7 +30,7 @@ Follow these steps to connect your PowerApps app to Customer Insights.
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps1.png "Create Blank app")
 
-3. Add the Customer Insights connector by going to **View** -> **Data Sources**.
+3. Add the Customer Insights connector by going to **View** > **Data Sources**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps2.png "Select View > Data sources")
@@ -50,24 +50,25 @@ Follow these steps to connect your PowerApps app to Customer Insights.
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps5.png "Select Dynamics 365 Customer Insights (Preview)")
 
-7. Create the connection and log in with the account you use for Customer Insights.
+7. Create the connection and sign in with the account you use for Customer Insights.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps6.png "Create the connection")
 
-8. Select the Customer Insights instance you wish to fetch data from.
+8. Select the Customer Insights instance you want to fetch data from.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps7.png "Create the connection")
 
 9. Choose one or both of the following entities:
+
    - Customer entity: to use data from the unified customer profile.
    - Unified Customer Activity: to display the unified timeline on the app.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-powerapps8.png "Choose an entity")
 
-10. You are now ready to start building an app with Customer Insights data! For example, let's add a gallery element to list the customers we have ingested on Customer Insights.
+10. You are now ready to start building an app with Customer Insights data. For example, let's add a gallery element to list the customers we have ingested on Customer Insights.
 
     > [!div class="mx-imgBorder"] 
     > ![](media/connector-powerapps9.png "Add a gallery element")
