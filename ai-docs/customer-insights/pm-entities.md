@@ -21,7 +21,9 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-After ingesting your data using the **Data Sources** page, you can quickly evaluate how complete and useful it is using the **Entities** page. If you suspect that your ingested data is not complete or useful enough, you can import more data using the **Import Data** button.
+After ingesting your data using the **Data Sources** page, you can quickly evaluate how complete and useful it is using the **Entities** page.
+
+// 1 <!-- please blur the data (but not the columns and rows titles). No marking with digits is required-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
