@@ -23,8 +23,6 @@ manager: "kvivek"
 
 After ingesting your data using the **Data Sources** page, you can quickly evaluate how complete and useful it is with the **Entities** page.
 
-// 1 <!-- please blur the data (but not the columns and rows titles). No marking with digits is required-->
-
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
 
