@@ -4,7 +4,7 @@ description: "Learn how to quickly connect to your customer service data to gain
 keywords: ""
 ms\.date: 1/23/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952

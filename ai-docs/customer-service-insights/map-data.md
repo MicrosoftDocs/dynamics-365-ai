@@ -4,7 +4,7 @@ description: "Learn how to generate insights by mapping your data to custom data
 keywords: ""
 ms\.date: 2/8/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
