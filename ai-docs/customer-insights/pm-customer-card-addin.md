@@ -23,9 +23,11 @@ manager: "kvivek"
 
 ## Requirements
 
-- Dynamics 365 for Customer Engagement version 9.0+ 
-- Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub 
-- Users who will use the Customer Insights Customer Card in Customer Engagement need to be added as users on Customer Insights. You can do so in the **Permissions** page in the **Admin** section, as discussed later in this topic.
+- Dynamics 365 for Customer Engagement version 9.0 and later.
+- Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub. 
+- Users who will use the Customer Insights Customer Card in Dynamics 365 for Customer Engagement need to be added as users on Dynamics 365 Customer Insights. You can do so in the **Permissions** page in the **Admin** section, as discussed later in this topic.
+
+<!--note from editor: re sentence above--I'm not seeing where the reference is to the Permissions page   -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-page.png "Permissions page")
@@ -111,7 +113,7 @@ manager: "kvivek"
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer3.png "Address 1: City field")
 
-3. Clear the **Display label** field on the form. 
+3. Clear the **Display label on the form** box. 
    
    > [!div class="mx-imgBorder"] 
    > ![](media/field-properties.png "Field properties")
@@ -158,7 +160,7 @@ manager: "kvivek"
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer-publish.png "Address 1: City field publish")
 
-3. Clear the **Display label** field on the form.
+3. Clear the **Display label on the form** box.
    
    > [!div class="mx-imgBorder"] 
    > ![](media/field-properties-display-label.png "Address 1: City field display label")
