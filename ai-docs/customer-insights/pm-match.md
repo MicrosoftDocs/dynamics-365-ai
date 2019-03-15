@@ -66,9 +66,7 @@ Each match involves two entities that are unified into a single entity, while ma
   
 > [!IMPORTANT]
 > The entity that you will choose as your **Primary** entity will serve as the basis for your unified master data set. In other words, any future entities that are selected during the Match phase will be added to this entity. At the same time, this doesn't mean that the unified entity will include **all** of the data included in this entity.
-
 >There are two considerations that can help you select your **Primary** entity:
-
 > - What entity do you consider having the most complete and reliable data about your customers?
 > - Does the entity that you just identified have attributes that are also shared by other entities (for example, name, phone number, or email address)? If not, choose your second most reliable entity.
 
@@ -228,7 +226,7 @@ If you followed Step Four, then at this point you should have a better understan
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
-- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. That can be done by substituting the two rules' attributes. At this point, you need to delete (button is shown below in red) and re-create (button ia shown below in blue) the two rules with the new attributes:
+- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. That can be done by substituting the two rules' attributes. At this point, you need to delete (button is shown below in red) and re-create (button is shown below in blue) the two rules with the new attributes:
 
 - **Editing your rules**: This includes several important changes that you should try as you optimize the match quality. All the following options are accessible via the rule's **Edit** button:
 
