@@ -60,7 +60,9 @@ Download the following MEZ file from Blobs: [https://go.microsoft.com/fwlink/p/?
    > ![](media/connector-sign-in.png "Sign in to Customer Insights")
      
 5. Use your Azure Active Directory credentials, and then select **Connect** as shown in red in the following example.
-     
+
+// 1 <!-- please remove two colored boxes in the image below-->
+
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-sign-in-azure-credentials.png "Sign in using Azure credentials")
      
@@ -72,7 +74,9 @@ After completing Step Two, you'll get to the following screen.
 > ![](media/connector-now-signed-in.png "Signed in to Customer Insights")
 
 1. Choose all the entities around which you want to build your Power BI report. In the following example, the user has chosen the Conflated Match Pairs entity. Note that this entity is the entity that was created during the data configuration process and that it encapsulates your unified customer data. It might be a good idea to include that entity in order to extract the most insightful observations from your data.
-   
+
+// 2 <!-- please remove two colored boxes in the image below-->
+
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-conflated-match-pairs.png "Conflated match pairs")
 
