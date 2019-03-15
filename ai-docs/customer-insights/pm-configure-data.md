@@ -2,7 +2,7 @@
 title: "Configure data| MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/13/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -21,13 +21,13 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
 
-Once your data is ingested, you are ready to unlock the unique data-configuration features that Customer Insights offers. **Configure Data** includes six modules as represented by the tiles in the screen below.
+After completing the data ingestion process, you are ready to unlock the unique data-configuration features that Dynamics 365 Customer Insights offers. **Configure Data** includes six modules, represented by tiles in the screen shown later in this topic.
  
-The goal behind the data configuration process is to unify data sources that once were disparate into a master customer dataset that includes more complete information on your customers.  
+The goal behind the data configuration process is to unify data sources that were once disparate into a master customer dataset that includes a more complete view on your customers.  
 
-- You should complete the three mandatory data configuration stages: Starting with **Map**, and continuing with **Match** and **Merge**. As a next step, make sure to explore those modules' sections, starting with the **Map** section.
-- The **Relationship** module is optional but highly recommended for future utilization of the **Segments** page where you will produce customer segments. This can be done only after the completion of **Map**, **Match**, and **Merge**.
-- The **Enrich Profiles** module is also optional but highly recommended for extracting richer insights around your customers. 
+- You should complete the three mandatory data configuration stages. Start with **Map**, and continue with **Match** and **Merge**. As a next step, make sure to explore those modules' sections, starting with the **Map** section.
+- The **Relationship** module is optional but is highly recommended for future utilization of the **Segments** page, where you will produce customer segments. This can be done only after the completion of **Map**, **Match**, and **Merge**.
+- The **Enrich Profiles** module is also optional but highly recommended for extracting richer insights about your customers. 
 - The **Activities** module can be used to define some of your ingested attributes as activities.
 
 After completing the mandatory configuration phases, visit the **Relationships**, **Enrich Profiles**, and **Activities** sections. 
