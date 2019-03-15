@@ -26,14 +26,14 @@ To run and improve the service for Market Insights Alerts, we need to store some
 
 The following data is stored:
 
-- **Profile information** from the initial sign-in to sign you in again and remember your alerts 
+- **Profile information** from the initial sign-up to sign you in again and access the alerts you have configured
     - **Account information** (type of account) you use to sign in to recognize your profile when signing in again
     - **First and last name** to display your name on the alerts page
     - **Email address** to send the alert email to the right recipient
     - **Job title** (when signed in with LinkedIn) to improve the relevance of alerts
-- **List of alerts** you created to send an alert email
-- **Click-through rate** on news articles you clicked in the email to improve the relevance for alerts
-- **Feedback** you provide about the relevance of the news in the alert email
+- **List of alerts** you created to find articles you may be interested in
+- **Clicks** on news article links in the alert email to improve the relevance of future news articles sent to you
+- **Feedback** you provide about the relevance of the \[~~news in the~~ remove this; button is for whole alert mail] alert email
 - **Visits** to the Market Insights Alerts website for usage statistics
 
 ## Request export, update, or deletion of your data
@@ -42,7 +42,6 @@ To get your data exported, updated, or deleted, send us an [email](mailto:micust
 
 > [!IMPORTANT]
 > - If you request deletion of your data, all data will be removed and can't be restored. Even after signing in with the same profile again, all your alerts and feedback we gathered to refine your alerts will be lost.
-> - You can delete individual alerts from your alerts page by signing in and deleting them from the list. Additionally, you can unsubscribe from the alert to stop receiving it.
 > - To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. If this doesn't work, send us an email and request the change.
  
 ### See also
