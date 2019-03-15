@@ -127,7 +127,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
  Here is an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
 
-<!--note from editor:  Add intros or headings for the below  -->
+<!--note from editor:  Add intros or headings for the below.  -->
 
 **Your team name**
 
