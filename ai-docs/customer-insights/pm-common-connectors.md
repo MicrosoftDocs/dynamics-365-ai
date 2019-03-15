@@ -70,7 +70,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-provide-server-url.png "Provide server URL")
 
- 3. Sign in with your username and password.
+3. Sign in with your username and password.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-ce-log-in.png "Log in")
