@@ -2,7 +2,7 @@
 title: "Permissions | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 03/14/2019
 ms.reviewer: ""
 ms.service: "dynamics-365-ai"
 ms.suite: ""
@@ -26,7 +26,7 @@ The **Permissions** page is where you can set up roles and permissions for using
 |Role  |Capabilities available under this role  |
 |---------|---------|
 |Viewer     | <ul><li>View **Home** and **Segments** pages </li></ul>       |
-|Contributor     | <ul><li>Complete **Data Manager**: **Data Sources** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge**, **Relationships**, **Activities**, etc </li><li>View **Home** and **Segments** pages </li><li>Create segments in the **Segment Builder** page  </li></ul> |
+|Contributor     | <ul><li>Complete **Data Manager**: **Data Sources** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge**, **Relationships**, **Activities**, etc. </li><li>View **Home** and **Segments** pages </li><li>Create segments in the **Segment Builder** page  </li></ul> |
 |Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings in the **Settings** page</li><li>View and add permissions in the **Permissions** page</li><li>Set Search and Filter definitions for the **Profiles** page using the **Search, Sort and Filter** page   </li></ul>     |
  
 ## Add roles and permissions
@@ -43,11 +43,11 @@ Then, find the person to whom you want to give that permission. Type this person
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Enter a name")
 
-Lastly, select **Save** in the bottom-right corner of the panel. The instance that you are using will be automatically shared with the user you have defined the permission for. This user will be able to enter the Customer Insights app and perform actions according to the role that you have specified.
+Lastly, select **Save** in the lower-right corner of the panel. The instance that you are using will be automatically shared with the user you have defined the permission for. This user will be able to enter the Customer Insights app and perform actions according to the role that you have specified.
  
 ## View current permissions
 
-After selecting **Save**, you can utilize the **Permissions** page to explore all the permissions currently active.
+After selecting **Save**, you can use the **Permissions** page to explore all the permissions currently active.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions.png "Permissions")
