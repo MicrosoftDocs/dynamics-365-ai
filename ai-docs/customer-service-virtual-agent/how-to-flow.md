@@ -201,4 +201,10 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
    > ![Test flow](media/test-flow.png)
 
-    After you specify the email address, the flow sends an email message and returns the message to the virtual agent. The Virtual Agent Designer stores the message in the **(x) message** variable and displays it to the customer.
+    After you specify the email address, the flow sends an email message and returns the message to the virtual agent.
+
+   > ![Successful flow](media/successful-flow.png)
+
+    The Virtual Agent Designer stores the message in the **(x) message** variable and displays it to the customer.
+
+   > ![Email message](media/email-message.png)
