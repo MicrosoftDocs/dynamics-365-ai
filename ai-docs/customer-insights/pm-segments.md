@@ -49,7 +49,7 @@ The following two sections cover segment creation followed by segment exploratio
 
 ## Creating segments from the Segment page
 
-In order to start creating a segment, you can either select **Add Segment** at the upper-right corner of the screen (shown in red), or select **Get Started** (shown in blue).
+In order to start creating a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
@@ -105,7 +105,7 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
 
-2. Choose our entity of interest, ClickStram: WebsiteDatabase (shown in red) and the attribute by which we wish to segment (shown in blue).
+2. Choose our entity of interest, ClickStreamData: WebsiteDatabase and the attribute by which we wish to segment (SessionID).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")

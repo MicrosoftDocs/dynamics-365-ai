@@ -26,7 +26,8 @@ The **Profiles** page presents a consolidated view on each customer, based on pr
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
-In order to view more customers profiles, move to the next **Profiles** page using the button shown here outlined in red:
+
+In order to view more customers profiles, move to the next **Profiles** page using the buttons shown at the bottom of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")

@@ -75,7 +75,7 @@ This step includes all your activity definitions. We will explore those from lef
 - **Icon**: You can add an icon to easily distinguish this activity on the timeline. You can add an icon to your activity if it's publicly available. A URL address or Unicode is required.
 - **Delete** button: Selecting the button that is highlighted in the preceding image will delete that specific activity.
   
-You can now define your next activity, which can be done via **Add** as highlighted in red in the following example. Don't forget to save your activities (shown in blue).
+You can now define your next activity, which can be done via **Add**. Don't forget to save your activities.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/activities-add-save-entity.png "Save and add activities entities")

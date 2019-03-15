@@ -73,10 +73,14 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (outlined in red):
 
+// 1 <!-- We should blur the data in the table (no need to blur anything else). Digits 1, 2, 3 should replace color red (above this comment), color blue (mentioned in the text beneath the image), and color green (also in the text beanth the image) correspondly --!> 
+
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
 2. In this step, you can also edit and transform the data. First, choose an entity to edit or transform. Then use one of the menus located at the top of the Power Query window to find a specific transformation (those are outlined in blue in the preceding example). Also note that each transformation will be added as a processing step, as outlined in green in the preceding example, which can always be modified as needed.
+
+**Note**: It might not be possible to make changes to data sources that are currently used in one of the app's processes (*Segmentation, Match, Merge*, etc). Using the **Settings** page, you can track the progress of each of the active processes and upon their completion, return to **Data Sources** page and make your changes. 
 
 3. Lastly, you can add additional entities to your data source by selecting **Get data** as outlined in red in the following example.
 
@@ -102,6 +106,8 @@ Note that the next few transformations are highly recommended.
 
 4. After saving, you can expect to see your data source added in the **Data sources** page.
 
+// 2 <!-- in the text below this image: We should replace the blue color with 1, replace the red color with 2, and replace the warning sign with 3 (and also ensure to mark 3 in the image since we didn't use to mark this spot before) -->
+
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
@@ -112,6 +118,8 @@ For each ingested data source, besides its name, you can expect to see the last 
 - Data is still loading into Customer Insights (represented by a *warning sign* icon).
 
 At this point, you should refresh the data source that you just saved. Select the button outlined in red in the following image, and then select **Refresh**, as outlined in blue.
+
+// 3 <!-- in the text below this image, replace red color with 1 and blue color with 2-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
