@@ -149,5 +149,5 @@ Follow these steps to edit an existing data source.
 
 ### Next steps:
 
-At this point, you are ready to unlock unique customer insights through the mandatory **Configure data** sections (those include *Map*, *Match*, and *Merge*). If you first want to review all the entities that were ingested, see **Entities**. 
+At this point, you are ready to unlock unique customer insights through the mandatory **Configure data** sections (those include Map, Match, and Merge). If you first want to review all the entities that were ingested, see **Entities**. 
 
