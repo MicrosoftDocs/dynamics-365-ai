@@ -144,48 +144,54 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
    > ![Open flow conversation](media/open-flow-conversation.png)
 
-    In the conversation editor, enter a virtual agent response in the **Bot says** box, and then select **User says** to display the **User response** node.
+    In the conversation editor, enter a virtual agent response in the **Bot Says** node, and then select **User says** to display the **User Responses** node.
 
    > ![Create conversation](media/create-conversation.png)
 
-    In the user response, select **Add Variable** to add a variable to save a customer's email address. In the Properties pane, select **Create variable** to display the **Create new variable** screen.
+    In the user responses node, select **Add Variable** to display the **Properties** pane, where you can create a variable to save a customer's email address.
+
+   > ![Add variable](media/add-variable.png)
+
+    In the Properties pane, select **Create variable** to display the **Create new variable** window.
 
    > [!div class="mx-imgBorder"]
-   > ![Create variable](media/how-to-flow-18.png)
+   > ![Create new variable](media/create-new-variable.png)
 
     For more information on creating variables, see [Work with variables](how-to-variables.md).
 
 6. Specify a variable name and type. For example, you could create a text variable named **User_Email**.  Select **Done** to save the variable.
 
-   > [!div class="mx-imgBorder"]
    > ![Save variable](media/create-flow-variable.png)
 
-    The Virtual Agent Designer creates an **Expression** node that can be deleted if you do not want to do any validation.
+    The Virtual Agent Designer adds the variable to the **User Responses** node and creates an **Expression** node. You can delete this node if you do not want to do any validation.
 
-   > [!div class="mx-imgBorder"]
-   > ![Delete expression](media/how-to-flow-20.png)
+   > ![Delete expression](media/delete-expression.png)
 
-7. Add another **Bot says** node with text confirming that the email will be sent. You can choose to display the email address that the User has specified by selecting the rightmost icon and then selecting the variable you created.
+7. Select **Bot says** to add another node with text confirming that the email will be sent.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select variable](media/how-to-flow-21.png)
+   > ![Confirmation node](media/confirmation-node.png)
 
-8. To send an email message to the address specified by the customer, select **Action** to display the list of available actions, and then select the flow action you created.
+    To display the specified email address in the user's conversation with the virtual agent, place your cursor in the **Bot Says** node to display the popup menu. Then select the variable you created from the variable drop-down list.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select variable](media/how-to-flow-22.png)
+   > ![Select variable](media/select-variable.png)
+
+8. To send a message to the specified email address in the user's conversation with the virtual agent, select **Action** to display the list of available actions, and then select the flow action you created.
+
+    > ![Select action](media/select-action.png)
     > [!NOTE]
-    > The Flows and virtual agent must be created in the same environment. Otherwise, the flow action does not appear in the list of available actions.
+    > The flows and virtual agent must be created in the same environment. Otherwise, the flow action does not appear in the list of available actions.
 
-    The Virtual Agent Designer creates an **Action** node indicating that the action has one required input and one output. Select the variable you created from the list to pass it as input.
+    The Virtual Agent Designer creates an **Action** node indicating that the action has one required input and one output. Select the variable you created from the drop-down list to pass it as input.
 
-   > [!div class="mx-imgBorder"]
-   > ![Create action](media/how-to-flow-23.png)
+   > ![Create action](media/create-action.png)
 
-9. Add another **Bot says** node to display the message from the flow to the customer and end your conversation with a survey, and then select **Save** to save the topic.
+9. Add another **Bot Says** node to display the message from the flow to the customer. Place your cursor in the node to display the popup menu, and then select the **message** variable from the variable drop-down list.
 
-   > [!div class="mx-imgBorder"]
-   > ![Display flow message](media/how-to-flow-24.png)
+   > ![Display flow message](media/display-flow-message.png)
+
+10. Select **End with survey** to end your conversation with a survey, and then select **Save** to save the topic.
+
+   > ![Flow topic end](media/flow-topic-end.png)
 
 ## To test the flow
 
@@ -193,10 +199,6 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
 2. Enter your email address at the prompt.
 
-   > [!div class="mx-imgBorder"]
-   > ![Test flow](media/how-to-flow-25.png)
+   > ![Test flow](media/test-flow.png)
 
     After you specify the email address, the flow sends an email message and returns the message to the virtual agent. The Virtual Agent Designer stores the message in the **(x) message** variable and displays it to the customer.
-
-   > [!div class="mx-imgBorder"]
-   > ![Complete test](media/how-to-flow-26.png)
