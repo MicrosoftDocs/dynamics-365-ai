@@ -6,6 +6,7 @@
 ### [Service scenarios](overview-service-scenario.md)
 ## [Market Insights Alerts](alerts-overview.md)
 ### [Manage your alerts](alerts-management.md)
+### [Data handling for alerts](alerts-data-handling.md)
 ## [Get started with Market Insights](get-started.md)
 ### [Sign in to Market Insights](sign-in.md)
 ### [Set your preferences for the user interface](user-preferences.md)
