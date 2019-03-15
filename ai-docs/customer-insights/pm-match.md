@@ -99,7 +99,7 @@ The new rule panel enables you to specify all the conditions for that role. Each
 
 1. An attribute that will be used for matching from the first match pair entity: Name, Phone, Email Address, etc. Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
-[IMPORTANT!]
+>[!IMPORTANT]
 > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
 2. An attribute that will be used for matching from the second match pair entity.
