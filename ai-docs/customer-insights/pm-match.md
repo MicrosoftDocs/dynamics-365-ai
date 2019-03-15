@@ -107,7 +107,7 @@ The new rule panel enables you to specify all the conditions for that role. Each
 
 2. An attribute that will be used for matching from the second match pair entity.
 
-3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2)—from removing punctuation, to removing spaces, to many others. 
+3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2) from removing punctuation, to removing spaces, to many others. 
 
 4. The level of precision that will be used for that condition:
 

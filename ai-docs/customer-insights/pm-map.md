@@ -93,6 +93,8 @@ Select the entities that you want to add to your existing entities list, and cle
 >[!NOTE]
 >Currently, it's not possible to remove entities from the **Map** page if they were already matched in the **Match** page. 
 
+**Note**: Currently, it's not possible to remove entities from the **Map** page if they were already matched in the **Match** page. 
+
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-edit-customer-entity.png "Select Customer entity")
 

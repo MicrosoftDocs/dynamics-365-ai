@@ -37,6 +37,9 @@ With Dynamics 365 Customer Insights, build a deep understanding of customers by 
 > [!TIP]
 > Check out the following for information on requesting a preview and availability: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/).
 
+> [!TIP]
+> Check out the following for information on requesting a preview and availability: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/).
+
 **Customer Insights enables every organization to unify and understand their customer data to harness it for intelligent insights and actions.** 
 
 With Customer Insights, organizations can:  
