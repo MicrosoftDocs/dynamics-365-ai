@@ -21,11 +21,11 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section you will learn how to use the **Power BI connector** for unlocking the Customer Insights Dashboard.
+In this section you will learn how to use the Power BI connector for unlocking the Customer Insights dashboard.
 
 The Customer Insights dashboard enables you to use the unified data that you have unlocked through the data configuration process and start visualizing insights around each of your customers. From customer's details such as roles and locations, to communication details such as email addresses and phone numbers, to unique key performance indicators (KPIs) you might have defined using the **Measures** page (such as Customer Lifetime Spend or Engagement Score), many insights are available to explore. 
 
-In order to use the Customer Insights dashboard, make sure that you have created at least one data source within the **Data sources** page and ingested at least one dataset (entity) into it. Also, make sure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then, complete the following steps.
+In order to use the Customer Insights dashboard, make sure that you have created at least one data source within the **Data sources** page and ingested at least one dataset (entity) into it. Also, make sure you have [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then, complete the following steps.
 
 ### Step One: Download MEZ file
 
@@ -33,7 +33,7 @@ Download the following MEZ file from Blobs: [https://go.microsoft.com/fwlink/p/?
 
 ### Step Two: Publish the Customer Insights dashboard
  
- 1. Bring Customer Insights data to Power BI. Open Power BI for Desktop, and select **Get Data** in the top menu.
+ 1. Bring Customer Insights data to Power BI. Open Microsoft Power BI for Desktop, and select **Get Data** in the menu at the top of the page.
  
     > [!div class="mx-imgBorder"] 
     > ![](media/connector-powerbi-get-data.png "Power BI Get Data")
@@ -76,7 +76,7 @@ After completing Step Two, you'll get to the following screen.
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-conflated-match-pairs.png "Conflated match pairs")
 
-2. At this point, you are ready to create your customized report using the Power BI left menu. Use the **Filters** fields to produce a report around:
+2. At this point, you are ready to create your customized report using the Power BI left-side menu. Use the **Filters** fields to produce a report around:
 
    - A specific customer: Filter by **Customer Name** or **Customer ID**.
    - A customer segment: Filter by one or more of the other customer attributes (gender, location, or role, for example).
