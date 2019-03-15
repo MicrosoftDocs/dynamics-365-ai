@@ -4,7 +4,7 @@ description: "Learn how to respond​ to GDPR Data Subject Export Requests for D
 keywords: ""
 ms\.date: 1/23/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952

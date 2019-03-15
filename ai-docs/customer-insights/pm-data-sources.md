@@ -4,7 +4,7 @@ description:
 ms.custom: ""
 ms.date: 03/13/2019
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"

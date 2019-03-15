@@ -4,7 +4,7 @@ description: "Learn about the customer service insights available on the Topic d
 keywords: ""
 ms\.date: 1/23/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
