@@ -34,7 +34,7 @@ The **Entities screen** includes seven columns:
 - **Created By**: Answers the question: *By whom was this entity originally created?*
 - **Created**: Answers the question: *When was this entity created?*
 - **Updated By**: Answers the question: *By whom was this entity's data updated?*
-- **Last Updated**: Answers the question: *"When was the last time this entity's data was updated?*
+- **Last Updated**: Answers the question: *When was the last time this entity's data was updated?*
 - **Last Refreshed**: Answers the question: *When was the last time this entity's data was refreshed?*
 
 ## Exploring a specific entity's data
