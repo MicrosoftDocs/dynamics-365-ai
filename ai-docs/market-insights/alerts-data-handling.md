@@ -42,6 +42,7 @@ To get your data exported, updated, or deleted, send us an [email](mailto:micust
 
 > [!IMPORTANT]
 > - If you request deletion of your data, all data will be removed and can't be restored. Even after signing in with the same profile again, all your alerts and feedback we gathered to refine your alerts will be lost.
+> - You can delete individual alerts from your alerts page by signing in and deleting them from the list. Additionally, you can unsubscribe from the alert to stop receiving it.
 > - To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. If this doesn't work, send us an email and request the change.
  
 ### See also
