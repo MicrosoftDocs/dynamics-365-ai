@@ -33,7 +33,7 @@ The following data is stored:
     - **Job title** (when signed in with LinkedIn) to improve the relevance of alerts
 - **List of alerts** you created to find articles you may be interested in
 - **Clicks** on news article links in the alert email to improve the relevance of future news articles sent to you
-- **Feedback** you provide about the relevance of the \[~~news in the~~ remove this; button is for whole alert mail] alert email
+- **Feedback** you provide about the relevance of the alert email
 - **Visits** to the Market Insights Alerts website for usage statistics
 
 ## Request export, update, or deletion of your data
