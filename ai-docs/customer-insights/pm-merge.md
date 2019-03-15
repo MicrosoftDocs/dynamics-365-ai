@@ -208,7 +208,7 @@ This panel consists of four parts.
 
 Whether you manually merge attributes or let the system merge for you, at this point you can run your merge. Simply select **Save** and then **Run** at top of the screen.
 
-// 1 <!-- replace blue with 1 and red with 2. Also blur the attributes names on the right side of the table please-->
+<!-- // 1 replace blue with 1 and red with 2. Also blur the attributes names on the right side of the table please-->
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-save-run.png "Data merge Save and Run")
 

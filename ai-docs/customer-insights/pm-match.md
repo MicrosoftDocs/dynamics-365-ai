@@ -33,7 +33,7 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 
 <!--note from editor: re: bullet item above--I don't see "Set Order" in the screen shot   -->
 
-// 1
+<!-- // 1 -->
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-new-rule.png "Match new rule")
 
@@ -88,7 +88,7 @@ Once you've completed Step One, you can expect to reach the **Match** page that 
 
 The warning sign (outlined in red in the preceding example) implies that we didn't define **at least one match rule** for our match pair, which is mandatory for each of our match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** panel by selecting the corresponding match row in the matches table (1) and then selecting **create new rule** (2).
 
-// 2 <!-- In the image that will replace the one below, we should also mark the following spots: The button next to the "Rules Needed" message (arrow shape button) with "1", and the "Create new rule" blue button with "2" -->
+<!-- // 2 In the image that will replace the one below, we should also mark the following spots: The button next to the "Rules Needed" message (arrow shape button) with "1", and the "Create new rule" blue button with "2" -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule.png "Create new rule")
@@ -119,7 +119,7 @@ The new rule panel enables you to specify all the conditions for that role. Each
 
 If you want to match your entities only if multiple conditions are met, you can do so by adding more conditions that will be linked through an **AND** operator. Simply select **Add Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
 
-// 3 <!-- in the text and in the image that will replace the one below, replace the blue color with "1" and the red color with "2"-->
+<!-- // 3 in the text and in the image that will replace the one below, replace the blue color with "1" and the red color with "2"-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-add-condition.png "Add condition")
@@ -130,7 +130,7 @@ For the purpose of this section we will limit our match rule to only one conditi
 
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules using **Add Rules**. Note that when creating rules order matters. The matching algorithm will try to match on the basis of your first rule (represented by the first row in the table shown in red in the following example) and continue to the second rule (represented by the second row) only if no matches were identified under the first rule.
 
-// 3 <!-- no markings are needed, just image replacement-->
+<!-- // 3 no markings are needed, just image replacement-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-priority.png "New rule priority")
@@ -141,7 +141,7 @@ For the purpose of this section we will stay with only one rule.
 
 Now you are ready to run the match order that you have defined in Steps One and Two. This can be done by selecting **Save** and then **Run** as shown in the following example. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
 
-// 4 <!-- In the text above and the image that will replace the one below, mark "Save" with "1", "Run" with "2" and "Discard" with "3"-->
+<!-- // 4 In the text above and the image that will replace the one below, mark "Save" with "1", "Run" with "2" and "Discard" with "3"-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
@@ -165,7 +165,7 @@ As mentioned in Step One, the first match results in the creation of a unified m
 
 **Customer Profile Preview** opens. 
 
-// 5 <!-- in the image to come below and the text beneath it, replace blue color with 1, and red color with 2. Plus, we need to blur the data in the pop-up window that appears at the center of the image-->
+<!-- // 5 in the image to come below and the text beneath it, replace blue color with 1, and red color with 2. Plus, we need to blur the data in the pop-up window that appears at the center of the image-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs-download.png "Conflation Match Pairs download")
@@ -185,7 +185,7 @@ Here you will learn how to evaluate in depth the quality of your match pairs and
 
 First, you can gain first insights by reviewing the tiles at the top of the page (shown in red in the following example):
 
-// 6 <!-- in the image to come below, replace red with 1 and blue with 2-->
+<!-- // 6 in the image to come below, replace red with 1 and blue with 2-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-results.png "Data match results")
@@ -195,7 +195,7 @@ First, you can gain first insights by reviewing the tiles at the top of the page
 
 Second, you can assess the results of each match pair as shown in blue in the preceding example—by viewing the number of records that came from this match-pair entity side-by-side with the percentage of successfully matched records.
 
-// 7 <!-- in the image to come below, replace red with 1 and blue with 2-->
+<!-- // 7 in the image to come below, replace red with 1 and blue with 2-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
@@ -211,7 +211,7 @@ Fourth, you can experiment with different thresholds around your conditions in o
 
 1. Select (...) for the match pair rule that you want to experiment with (an example is shown in red in the following example). Then select **Edit**, also shown in red.
 
-// 8 <!-- replace blue with 1 and red with 2-->
+<!-- // 8 replace blue with 1 and red with 2-->
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
@@ -229,7 +229,7 @@ Fourth, you can experiment with different thresholds around your conditions in o
        
    If you chose one of the other levels for that condition, you will see the following page.
 
-// 9 <!-- replace red with 1, blue with 2 and green with 3. Also we need to blur the data in the pop up window that shows at the cnter of the image-->
+<!-- // 9 replace red with 1, blue with 2 and green with 3. Also we need to blur the data in the pop up window that shows at the cnter of the image-->
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-fuzzy-criteria.png "Match fuzzy preview")

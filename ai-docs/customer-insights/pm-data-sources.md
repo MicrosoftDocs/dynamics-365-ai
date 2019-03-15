@@ -73,7 +73,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (outlined in red):
 
-// 1 <!-- We should blur the data in the table (no need to blur anything else). Digits 1, 2, 3 should replace color red (above this comment), color blue (mentioned in the text beneath the image), and color green (also in the text beanth the image) correspondly --> 
+<!-- // 1 We should blur the data in the table (no need to blur anything else). Digits 1, 2, 3 should replace color red (above this comment), color blue (mentioned in the text beneath the image), and color green (also in the text beanth the image) correspondly --> 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
@@ -106,7 +106,7 @@ Note that the next few transformations are highly recommended.
 
 4. After saving, you can expect to see your data source added in the **Data sources** page.
 
-// 2 <!-- in the text below this image: We should replace the blue color with 1, replace the red color with 2, and replace the warning sign with 3 (and also ensure to mark 3 in the image since we didn't use to mark this spot before) -->
+<!-- // 2 in the text below this image: We should replace the blue color with 1, replace the red color with 2, and replace the warning sign with 3 (and also ensure to mark 3 in the image since we didn't use to mark this spot before) -->
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
@@ -119,7 +119,7 @@ For each ingested data source, besides its name, you can expect to see the last 
 
 At this point, you should refresh the data source that you just saved. Select the button outlined in red in the following image, and then select **Refresh**, as outlined in blue.
 
-// 3 <!-- in the text below this image, replace red color with 1 and blue color with 2-->
+<!-- // 3 in the text below this image, replace red color with 1 and blue color with 2-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")
