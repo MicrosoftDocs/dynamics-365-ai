@@ -53,7 +53,9 @@ The **Status** tab enables you to track the progress of data ingestion as well a
   > [!div class="mx-imgBorder"] 
   > ![](media/system-status-processes.png "Refresh date")
 
-- In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the following example, the user has selected the *Dynamics365forSales* data source that has ingestion status **Complete** (shown in red) and is shown additional details on that data source (shown in blue).
+- In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the following example, the user has selected the *Dynamics* data source that has ingestion status **Complete** (shown in red) and is shown additional details on that data source (shown in blue).
+
+// 1 <!-- replace red with "1", blue with "2"-->
 
   > [!div class="mx-imgBorder"] 
   > ![](media/system-database-details.png "Data source details")
@@ -91,11 +93,13 @@ Set multiple daily refreshes by selecting **Add another time**.
 
 To discard any of your saved timings, select the boxes shown below.
 
+// need to crop
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-discard-time.png "System data refresh discard time")
 
 To schedule a **weekly refresh**, check the boxes for the days in which you want to execute your refreshes.
 
+// need to crop
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-weekly-time.png "System data refresh weekly time")
 
@@ -103,6 +107,7 @@ Follow the steps specified above for daily refresh setting in order to complete 
 
 Lastly, don't forget to **Save** your changes.
 
+// need to crop
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-save.png "System data refresh save")
 

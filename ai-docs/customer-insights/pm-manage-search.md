@@ -24,6 +24,8 @@ manager: "kvivek"
 
 The end result of the data configuration process is the creation of the Customer Profile entity that equips you with a unified view into your total customer base. At the same time, there are cases in which you might want to quickly pull information on a specific customer or a group of customers. That can be done via the **Search** and **Filter** capabilities on the **Profiles** page.
 
+// 1 <!-- replace red with "1" and blue with "2") -->
+
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
@@ -50,6 +52,8 @@ You will see the **Search, sort & filter** page. In the following example, many 
 > ![](media/search-sort-filter.png "Search sort filter")
 
 You can always add more attributes via **Add** (shown in red in the following example). You can also remove any selected attributes using the button shown in blue.
+
+// 2 <!-- replace red with "1" and blue with "2"-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-add.png "Add attribute")
@@ -99,6 +103,8 @@ Lastly, the following image shows the **Edit** panel that opens for date-type at
 In this panel, you can specify the intervals included on the filter panel, as well as the order policy by which they will be organized.
 
 Save your selections using **Save** (shown in red in the following image). Select **Run** (shown in blue) once you are ready to apply your settings. Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Profiles** page.
+
+// 3 <!-- replace blue with "1" and red with "2". Also mark the "Discard Changes" button with "3". Lastly, please blur the row we have in the table. Thanks!-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")

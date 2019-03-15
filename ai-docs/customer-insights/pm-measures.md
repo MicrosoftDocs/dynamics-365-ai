@@ -120,6 +120,7 @@ What is a dimension? You can think of a dimension as a **Group by** function: Th
 
 In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity that we have just created on the **Entities** screen, we can see that the data we included in that entity (columns shown in blue) is grouped by the State column (as shown in red).
 
+// 1
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
 
@@ -131,6 +132,9 @@ These are the selections you should fill in as part of your dimension's definiti
 **Entity/variable**: If you define a Measures entity, it should include at least one attribute. If you define a Measures attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
 **Field**: Here you should pick the specific attribute to be included either in your Measures entity or attribute. <br />
 **Bucket**: This is a required selection only if you have selected a **Date** type of attribute. Under this selection, you should decide whether you want to aggregate the data on a daily, monthly, or annual basis.
+
+
+// 2 <!-- just replacement is needed. No highlightings with digits is required. Thanks-->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-measure-definition2.png "Measure definition")
@@ -145,32 +149,33 @@ These are the selections you should fill in as part of your dimension's definiti
 
 **Step 3 (optional)**: Add aggregate functions 
 
-You can use previously defined measures such as building blocks for your aggregations. Any aggregation that you create will result in a new field within your Measures entity or attribute. 
+Any aggregation that you create will result in a new value within your Measures entity or attribute. 
 
-Supported aggregation functions at this point are: **Min**, **Max**, **Average**, **Median**, **Sum**, and **Count Unique**.
+Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, and **Count Unique**.
 
-For example, let's assume that we have added the aggregated field **Average Service Amount**, which takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it:
+For example, let's assume that we have added the aggregated value **Average Service Amount**, which takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-aggregated-field-example.png "Aggregated field example")
 
-Upon visiting the **Entities** page and choosing the new measure we have just created (called **Aggregated Example**), we can see that our aggregation formula has created the new field **Average Service Amount**.
+Upon visiting the **Entities** page and choosing the new measure we have just created (called **Aggregated Example**), we can see that our aggregation formula has created the new value **Average Service Amount**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-aggregated-field-example2.png "Aggregated field example")
 
-Let's explore the steps involved in defining a new measure.
-
+Let's explore the steps involved in defining a new value.
 
 <!--note from editor: screen shots at lines 170 and 175 look identical except for the blue outlining  -->
 
-First, select **New Measure**.
+First, select **New value**.
 
+// 3 
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition3.png "Measure definition")
 
 Then, make your selections.
 
+// 4 <!-- no need to add any highlighting. Just replace-->
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition4.png "Measure definition")
 

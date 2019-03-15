@@ -105,7 +105,9 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
 
-2. Choose our entity of interest, ClickStreamData: WebsiteDatabase and the attribute by which we wish to segment (SessionID).
+2. Choose our entity of interest (*ClickStreamData: WebsiteDatabase*) and the attribute by which we wish to segment (*SessionID*).
+
+// 1 <!-- no highlitings with digits are needed, just replacement--> 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
@@ -232,6 +234,8 @@ Now that you have created one ore more segments using the **segment builder** sc
 You can export any of your segments to a CSV file from the next two locations.
 
 - The **Segments** page.
+
+// 2 <!-- red should be changed to "1", blue to "2", and green to "3". Plus, can we blur the segment's name in the tile? Thanks!-->
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-csv.png "Segmentation export")
