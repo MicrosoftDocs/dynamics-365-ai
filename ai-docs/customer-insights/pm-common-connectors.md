@@ -22,14 +22,14 @@ manager: "kvivek"
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
-> Currently, on-premises and OData data sources are not supported in Customer Insights. 
+> Currently, on-premises and OData data sources are not supported in Dynamics 365 Customer Insights. 
 
-## Ingest data from a file hosted in Azure blob
+## Ingest data from a file hosted in an Azure blob
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-azure-storage.png "Select Azure Blobs")
 
-To ingest data to Customer Engagement from a CSV file hosted within a blob location in an Azure subscription, follow these steps.
+To ingest data to Customer Engagement from a CSV file hosted within a blob location in an Azure subscription, follow these steps:
 
 1. Select **Blob connector** from the list of connectors.
 
@@ -41,12 +41,12 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-account-name-key.png "Enter Blob account name and key")
 
-   **Note**: You can find the account name and key from the **Access keys** part in the Azure portal as shown below. 
+   **Note**: You can find the account name and key from the **Access keys** part of the Azure portal as shown in the following example. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-access-keys.png "Blob access keys")
 
-3. This will now list all the containers in the blob. Select the container that includes your CSV file and select **Next**.
+3. This will now list all the containers in the blob. Select the container that includes your CSV file, and select **Next**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs-container.png "Get data tile")
@@ -58,6 +58,8 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    
 ## Ingest data from Dynamics 365
 
+
+
 1. Select **Common Data Service for Apps**.
 
    > [!div class="mx-imgBorder"] 
@@ -68,7 +70,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-provide-server-url.png "Provide server URL")
 
-   Log in with your username and password.
+ 3. Sign in with your username and password.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-ce-log-in.png "Log in")
@@ -76,7 +78,9 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-account.png "Connector account")
 
-## Ingest data from Azure SQL database
+## Ingest data from the Azure SQL database
+
+<!--note from editor:  Is #2 a  repeat of #1? should it be deleted? -->
 
 1. Select **SQL Server database** from the connector list.
 
@@ -85,7 +89,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
 
 2. Select **SQL Server database**.
 
-3. Provide your database server, database name, username and password.
+3. Provide your database server, database name, username, and password.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-provide-database-settings.png "Provide database settings")
@@ -95,7 +99,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-pick-data-from-tables.png "Pick data from tables")
    
-## Ingest data from a csv. file
+## Ingest data from a CSV file
 
 1. If it’s a desktop file, you should first save it in SharePoint as explained here: [Work with worksheet data in OneDrive](https://support.office.com/article/Work-with-worksheet-data-in-OneDrive-C051A205-1C06-4FEB-94D8-793B0126B53A).
 
@@ -115,13 +119,15 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-format-url1.png "Format URL")
 
-   The final result for the above will be: 
+   The final result for the preceding example will be: 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-format-final-result.png "Format URL")
 
- An example of a copied link: 
+ Here is an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
+
+<!--note from editor:  Add intros or headings for the below  -->
 
 **Your team name**
 
