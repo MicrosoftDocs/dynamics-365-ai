@@ -107,8 +107,6 @@ Let's explore a case in which we want to segment our customers by a specific cli
 
 2. Choose our entity of interest (*ClickStreamData: WebsiteDatabase*) and the attribute by which we wish to segment (*SessionID*).
 
-// 1 <!-- no highlitings with digits are needed, just replacement--> 
-
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
 
@@ -225,17 +223,15 @@ The lower part includes a table with all your segment's members.
 
 - Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The preceding example (highlighted in blue) is typical for a **Customer** entity, but it is only one of many possible representations.
 
-- Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor screen to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
+- Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor page to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
  
 ## Act on your data
 
-Now that you have created one ore more segments using the **segment builder** screen, you are ready to start acting on your data. 
+Now that you have created one ore more segments using the **Segment builder** page, you are ready to start acting on your data. 
 
 You can export any of your segments to a CSV file from the next two locations.
 
 - The **Segments** page.
-
-// 2 <!-- red should be changed to "1", blue to "2", and green to "3". Plus, can we blur the segment's name in the tile? Thanks!-->
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-csv.png "Segmentation export")
