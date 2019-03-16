@@ -115,8 +115,6 @@ Once the message below disappears, merge has completed and resolved contradictio
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-image17.png "Data merge")
 
-
-// 1 <!-- replace blue with 1 and red with 2. Also blur the attributes names on the right side of the table please-->
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-save-run.png "Data merge Save and Run")
 
@@ -132,7 +130,7 @@ Note that if the **Run** button is disabled at this point, you should try to do 
 Once the message below disappears, merge has completed and resolved contradictions in your data according to the policies that you have defined. Both your merged and unmerged attributes will be included in your unified profile entity, while your excluded attributes will not.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-image17.png "Data merge")-->
+> ![](media/configure-data-merge-image17.png "Data merge")
   
 ## Next Step
 
