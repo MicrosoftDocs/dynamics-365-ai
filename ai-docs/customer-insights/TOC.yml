@@ -1,30 +1,24 @@
 - name: Dynamics 365 Customer Insights
   href: overview.md
   items:
-  - name: Home page
+  - name: Home
     href: pm-homepage.md
-  - name: Customers
-    items:
-    - name: Profiles
-      href: pm-profiles.md
-    - name: Segments
-      href: pm-segments.md
-#      items:
-#      - name: Act on your data
-#        href: pm-act-on-your-data.md
-    - name: Measures
-      href: pm-measures.md
-  - name: Data Manager
-    href: pm-data-manager.md
+  - name: Profiles
+    href: pm-profiles.md
+  - name: Segments
+    href: pm-segments.md
+  - name: Measures
+    href: pm-measures.md
+  - name: Data
+    # href: pm-data-manager.md
     items:
     - name: Data sources
       href: pm-data-sources.md
-      items:
-      - name: Common connectors guidance
-        href: pm-common-connectors.md
+      Common connectors guidance
+      href: pm-common-connectors.md
     - name: Entities
       href: pm-entities.md
-    - name: Configure data
+    - name: Unify
       href: pm-configure-data.md
       items: 
       - name: Map
@@ -33,16 +27,16 @@
         href: pm-match.md
       - name: Merge
         href: pm-merge.md
-      - name: Activities
-        href: pm-activities.md
-      - name: Relationships
-        href: pm-relationships.md
-      - name: Enrich profiles
-        href: pm-enrichment.md
+    - name: Enrich profiles
+      href: pm-enrichment.md
+    - name: Activities
+      href: pm-activities.md
+    - name: Relationships
+      href: pm-relationships.md
   - name: Admin
     href: pm-admin.md
     items:
-    - name: Settings
+    - name: System
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
