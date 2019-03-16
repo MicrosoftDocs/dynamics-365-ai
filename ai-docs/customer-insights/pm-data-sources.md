@@ -23,6 +23,12 @@ manager: "kvivek"
 
 <!--note from editor: Below--change "Blob store" to "Azure Blob storage"? (Cloud Style Guide) -->
 
+In the **Data sources** and **Common connectors guidance** sections we will explain how to bring data from many of your sources:
+•	Transactional sources
+•	Observational sources
+•	Behavioral sources
+•	Any other data you might have
+
 You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Blob store. Even if you don’t find a suitable out-of-the-box connector for your source, you can always export the data from your source as a CSV file and import to Customer Insights using our CSV connector. 
 
 To import data to Customer Insights, you need to create a data source in the **Data sources** page. It’s recommended that you have multiple data sources, as that will allow you to have different refresh schedules and credentials for each of your data sources.
@@ -36,10 +42,7 @@ To import data to Customer Insights, you need to create a data source in the **D
 
 Follow these steps to load the data into Customer Insights:
 
-1. Navigate to **Data sources** from the **Data Manager** page.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-tile.png "Get data tile")
+1. Navigate to the **Data sources screen** using the **Data sources tab** on the app left-side menu.
 
 2. Select **Get data**.
 
@@ -157,5 +160,5 @@ Follow these steps to edit an existing data source.
 
 ### Next steps:
 
-At this point, you are ready to unlock unique customer insights through the mandatory **Configure data** sections (those include Map, Match, and Merge). If you first want to review all the entities that were ingested, see **Entities**. 
+At this point, you are ready to unlock unique customer insights through the mandatory **Unify data** sections (those include Map, Match, and Merge). If you first want to review all the entities that were ingested, see **Entities**. 
 
