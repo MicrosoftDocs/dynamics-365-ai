@@ -1,7 +1,7 @@
 - name: Dynamics 365 Customer Insights
   href: overview.md
   items:
-  - name: Home
+  - name: Home 
     href: pm-homepage.md
   - name: Profiles
     href: pm-profiles.md
@@ -33,7 +33,7 @@
       href: pm-activities.md
     - name: Relationships
       href: pm-relationships.md
-  - name: Admin
+  - name: Admin 
     href: pm-admin.md
     items:
     - name: System
