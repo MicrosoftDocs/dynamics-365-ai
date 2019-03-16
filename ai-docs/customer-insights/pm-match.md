@@ -22,10 +22,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Configure Data** page to get to the **Match** page.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-tile.png "Match tile")
+Once the Map phase is completed, you're ready to match your entities. Select the **Match** tile in the **Unify** page to get to the **Match** page.
 
 - Note that the Match phase requires at least two mapped entities. If you have not mapped at least two entities, you can expect to receive a message that requires you to go back to the **Map** page and map at least two entities.
 
