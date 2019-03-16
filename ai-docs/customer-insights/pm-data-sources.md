@@ -42,7 +42,7 @@ To import data to Customer Insights, you need to create a data source in the **D
 
 Follow these steps to load the data into Customer Insights:
 
-1. Navigate to **Data sources screen** using the **Data sources tab** on the app left-side menu.
+1. Navigate to the **Data sources screen** using the **Data sources tab** on the app left-side menu.
 
 2. Select **Get data**.
 
