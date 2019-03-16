@@ -133,9 +133,6 @@ These are the selections you should fill in as part of your dimension's definiti
 **Field**: Here you should pick the specific attribute to be included either in your Measures entity or attribute. <br />
 **Bucket**: This is a required selection only if you have selected a **Date** type of attribute. Under this selection, you should decide whether you want to aggregate the data on a daily, monthly, or annual basis.
 
-
-// 2 <!-- just replacement is needed. No highlightings with digits is required. Thanks-->
-
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-measure-definition2.png "Measure definition")
 
@@ -169,16 +166,10 @@ Let's explore the steps involved in defining a new value.
 
 First, select **New value**.
 
-// 3 
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition3.png "Measure definition")
 
 Then, make your selections.
-
-// 4 <!-- no need to add any highlighting. Just replace-->
-> [!div class="mx-imgBorder"] 
-> ![](media/measure-definition4.png "Measure definition")
-
 
 **Function**: At present, we support **Sum**, **Min**, **Max**, **Count** and **Unique Count** as aggregation options. <br />
 **Entity/Variable**: Here you should choose the entity that includes the attribute on which you wish to base your calculation. You can also choose a variable if you created one as part of Step Four. <br />
