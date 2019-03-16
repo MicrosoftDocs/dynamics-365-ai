@@ -2,7 +2,7 @@
 title: "Add actions to your virtual agent using Microsoft Flow"
 description: "Learn how to add actions to your virtual agent using Microsoft Flow."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 3/15/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -118,7 +118,7 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
    > ![New topic](media/create-new-topic.png)
 
-    For more information about creating a topic, see [Creating topics for your virtual agent](getting-started-create-topics.md).
+    For more information about creating a topic, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).
 
 4. Specify a name, description, and trigger phrases for the topic. A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
 

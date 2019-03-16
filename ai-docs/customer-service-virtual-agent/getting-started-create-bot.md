@@ -47,7 +47,7 @@ These industry templates can also be useful as a model for building your own con
 
 Once you have created your virtual agent, you can add topics that represent the customer intents to be addressed by the virtual agent and then deploy it to a web channel. As customers use the virtual agent, you can view analytics information to help you improve it and the overall customer experience.
 
-For more information about creating topics for your virtual agent, see [Creating topics for your virtual agent](getting-started-create-topics.md).
+For more information about creating topics for your virtual agent, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).
 
 For more information about deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 

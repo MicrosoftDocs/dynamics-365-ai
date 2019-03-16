@@ -1,6 +1,6 @@
 ---
-title: "Creating topics for your virtual agent"
-description: "Learn how to use the Virtual Agent Designer to create topics for your virtual agent."
+title: "Creating custom topics for your virtual agent"
+description: "Learn how to use the Virtual Agent Designer to create custom topics for your virtual agent."
 keywords: ""
 ms.date: 2/26/2019
 ms.service:
@@ -12,13 +12,13 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Creating topics for your virtual agent
+# Creating custom topics for your virtual agent
 
 A topic defines a conversation path with the virtual agent for a specific customer intent. You specify a trigger phrase that prompts the virtual agent to start the conversation. Then create a conversation path in the Virtual Agent Designer's conversation editor to lead customers to a resolution of their support issue.
 
 You can see how the conversation path works in practice by testing it in the Test Virtual Agent and continue to fine-tune the topic until you are ready to deploy it.
 
-## To create your own topic
+## To create your custom topic
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 

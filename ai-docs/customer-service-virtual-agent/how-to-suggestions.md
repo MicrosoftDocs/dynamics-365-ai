@@ -66,7 +66,7 @@ Virtual Agent Designer updates the topic and removes the suggestion from the sug
 
 Virtual Agent Designer adds the topic to the Topics list.
 
-For more information on Creating a topic, see [Creating topics for your virtual agent](getting-started-create-topics.md).
+For more information about creating a topic, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).
 
 ## Using topic suggestions from improvements to Virtual Agent Designer templates
 

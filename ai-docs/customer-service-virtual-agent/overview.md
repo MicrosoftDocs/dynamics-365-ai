@@ -28,7 +28,7 @@ Key features include:
 
 For information about creating a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md).
 
-For information about creating topics for your virtual agent, see [Creating topics for your virtual agent](getting-started-create-topics.md).
+For information about creating topics for your virtual agent, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).
 
 For information about deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
 

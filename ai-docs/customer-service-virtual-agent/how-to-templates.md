@@ -55,4 +55,4 @@ You can view the trigger phrases and conversation path design in the Store Hours
 
    > ![View conversation path](media/store-hours-path.png)
 
-For more information about creating topics, see [Creating topics for your virtual agent](getting-started-create-topics.md).
+For more information about creating topics, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).

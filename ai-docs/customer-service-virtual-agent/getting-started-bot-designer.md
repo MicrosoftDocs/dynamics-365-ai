@@ -34,7 +34,7 @@ The Topics page is the central location for creating and managing virtual agent 
 
 You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the virtual agent in the Test Virtual Agent and refine it as necessary.
 
-For more information about using the Topics page to create topics, see [Creating topics for your virtual agent](getting-started-create-topics.md).
+For more information about using the Topics page to create topics, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).
 
 ## Analytics page
 
