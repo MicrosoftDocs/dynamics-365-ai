@@ -142,7 +142,7 @@ These are the selections you should fill in as part of your dimension's definiti
 **As**: Here you should define the name of your new field in the Measures entity or attribute. <br />
 **Display Name**: Here you should define the display name of your field in the Measures entity or attribute
 
-**Note**: When it comes specifically to the **Business measure**, your measure will be saved as a single-number entity and will show up in the Home page unless you complete step 2 below (adding more dimensions to your measure). If you complete step 2, the measure will **not** show up on the Home page.
+**Note**: When it comes specifically to the **Business measure**, your measure will be saved as a single-number entity and will show up in the Home page unless you complete Step 2 below (adding more dimensions to your measure). If you complete Step 2, the measure will **not** show up on the Home page.
 
 **Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just gone through.
 
