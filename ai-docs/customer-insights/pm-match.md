@@ -30,7 +30,6 @@ Once the Map phase is completed, you're ready to match your entities. Select the
 
 <!--note from editor: re: bullet item above--I don't see "Set Order" in the screen shot   -->
 
-// 1
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-new-rule.png "Match new rule")
 
@@ -83,12 +82,10 @@ Once you've completed Step One, you can expect to reach the **Match** page that 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-need-rules.png "Need rules")
 
-The warning sign (outlined in red in the preceding example) implies that we didn't define **at least one match rule** for our match pair, which is mandatory for each of our match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** panel by selecting the corresponding match row in the matches table (1) and then selecting **create new rule** (2).
-
-// 2 <!-- In the image that will replace the one below, we should also mark the following spots: The button next to the "Rules Needed" message (arrow shape button) with "1", and the "Create new rule" blue button with "2" -->
+The warning sign (outlined in red in the preceding example) implies that we didn't define **at least one match rule** for our match pair, which is mandatory for each of our match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** panel by selecting the corresponding match row in the matches table (#1) and then selecting **create new rule** (#2).
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-new-rule.png "Create new rule")
+> ![](media/configure-data-match-new-rule2.png "Create new rule")
 
 That will open the following rule panel.
 
