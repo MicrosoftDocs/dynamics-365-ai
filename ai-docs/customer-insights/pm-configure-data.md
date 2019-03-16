@@ -1,5 +1,5 @@
 ---
-title: "Configure data| MicrosoftDocs"
+title: "Unify| MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 03/13/2019
@@ -17,13 +17,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Configure data
+# Unify
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
 
-After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. **Unify** includes three modules, represented by tiles in the screen shown later in this topic.
+After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. **Unify** includes three modules, represented by three tiles: **Map**, **Match** and **Merge**.
  
-The goal behind the data unification process is to unify data sources that were once disparate into a master customer dataset that includes a more complete view on your customers. You should complete the three mandatory data unification stages. Start with **Map**, and continue with **Match** and **Merge**.
+The goal behind the data unification process is to unify data sources that were once disparate into a master customer dataset that includes a more complete view on your customers. You should complete the three mandatory data unification stages. Make sure to start with **Map**, continue with **Match**, and finish with **Merge**.
 
 After completing the data-unification phases, you may want to utilize the optional **Relationships**, **Enrich Profiles**, and **Activities** screens.
 - The **Relationship** module is optional but is highly recommended for future utilization of the **Segments** page, where you will produce customer segments. This can be done only after the completion of **Map**, **Match**, and **Merge**.
