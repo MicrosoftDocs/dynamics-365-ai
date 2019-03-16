@@ -80,14 +80,10 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
 
 ## Ingest data from the Azure SQL database
 
-<!--note from editor:  Is #2 a  repeat of #1? should it be deleted? -->
-
 1. Select **SQL Server database** from the connector list.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-select-sql-server-database.png "Select SQL Server database")
-
-2. Select **SQL Server database**.
 
 3. Provide your database server, database name, username, and password.
 
