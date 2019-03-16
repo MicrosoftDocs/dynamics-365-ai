@@ -98,7 +98,7 @@ Lastly, the following image shows the **Edit** panel that opens for date-type at
 
 In this panel, you can specify the intervals included on the filter panel, as well as the order policy by which they will be organized.
 
-Save your selections using **Save** (shown in red in the following image). Select **Run** (shown in blue) once you are ready to apply your settings. Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Profiles** page.
+Save your selections using **Save**. Select **Run** once you are ready to apply your settings. Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Profiles** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")
