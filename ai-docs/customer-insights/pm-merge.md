@@ -21,12 +21,9 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-*Merge* is the last phase within the data configuration process and its purpose is reconciling conflicting data. Examples for conflicting data might be the customer name that resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant), or a phone number format that slightly differs (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
+*Merge* is the last phase within the data unification process and its purpose is reconciling conflicting data. Examples for conflicting data might be the customer name that resides in two of your datasets but shows a little bit different (Grant Marshall versus Grant), or a phone number format that slightly differs (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis as we will see in this section.
 
-Once completing *Match*, you can access *Merge* via the **Merge** tile within the **Configure Data** page.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-tile.png "Merge tile")
+Once completing *Match*, you can access *Merge* via the **Merge** tile within the **Unify** page.
 
 ## Step One: Review system recommendations
 
@@ -228,7 +225,7 @@ Once the message below disappears, merge has completed and resolved contradictio
   
 ## Next Step
 
-Congratulations! You have completed both the *Data Manager* and *Configure Data* phases. Now you are ready to do one of the following:
+Congratulations! You have completed both the data ingestion and data unification phases. Now you are ready to do one of the following:
 
 - Complete more data configurations (*Activities*, *Relationships*, and *Enrich Profiles*); while  optional, they can help you unlock richer insights on your customers. 
 
