@@ -70,7 +70,7 @@ Each match involves two entities that are unified into a single entity, while ma
 > [!NOTE]
 > Considerations for your first selection can help you choose your **Entity 2** as well. Among your ingested (and mapped) entities, what entity do you consider to have the second most reliable and complete data? Moreover, does it include at least one field that is shared by the **Primary** entity and possibly additional fields that are shared by other ingested entities?
 
-You can always remove entities from your match order. Select **Save** to save your match order as outlined here in red.
+You can always remove entities from your match order. Select **Save** to save your match order as outlined here.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-edit.png "Match rule edit")
@@ -82,7 +82,7 @@ Once you've completed Step One, you can expect to reach the **Match** page that 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-need-rules.png "Need rules")
 
-The warning sign (outlined in red in the preceding example) implies that we didn't define **at least one match rule** for our match pair, which is mandatory for each of our match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** panel by selecting the corresponding match row in the matches table (#1) and then selecting **create new rule** (#2).
+The warning sign (outlined in the preceding example) implies that we didn't define **at least one match rule** for our match pair, which is mandatory for each of our match pairs. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** panel by selecting the corresponding match row in the matches table (#1) and then selecting **create new rule** (#2).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule2.png "Create new rule")
@@ -111,9 +111,7 @@ The new rule panel enables you to specify all the conditions for that role. Each
 
 ### Add multiple conditions
 
-If you want to match your entities only if multiple conditions are met, you can do so by adding more conditions that will be linked through an **AND** operator. Simply select **Add Condition** as shown below in blue. You can also remove conditions by selecting the button that is highlighted in red.
-
-// 3 <!-- in the text and in the image that will replace the one below, replace the blue color with "1" and the red color with "2"-->
+If you want to match your entities only if multiple conditions are met, you can do so by adding more conditions that will be linked through an **AND** operator. Simply select **Add Condition** as shown below in #1. You can also remove conditions by selecting the button that is highlighted in #2.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-add-condition.png "Add condition")
@@ -122,9 +120,7 @@ For the purpose of this section we will limit our match rule to only one conditi
 
 ### Add multiple rules
 
-If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules using **Add Rules**. Note that when creating rules order matters. The matching algorithm will try to match on the basis of your first rule (represented by the first row in the table shown in red in the following example) and continue to the second rule (represented by the second row) only if no matches were identified under the first rule.
-
-// 3 <!-- no markings are needed, just image replacement-->
+If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules using **Add Rules**. Note that when creating rules order matters. The matching algorithm will try to match on the basis of your first rule (represented by the first row in the table in the following example) and continue to the second rule (represented by the second row) only if no matches were identified under the first rule.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-priority.png "New rule priority")
@@ -133,9 +129,7 @@ For the purpose of this section we will stay with only one rule.
 
 ## Step Three: Run your specified match order
 
-Now you are ready to run the match order that you have defined in Steps One and Two. This can be done by selecting **Save** and then **Run** as shown in the following example. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match (shown in red).
-
-// 4 <!-- In the text above and the image that will replace the one below, mark "Save" with "1", "Run" with "2" and "Discard" with "3"-->
+Now you are ready to run the match order that you have defined in Steps One and Two. This can be done by selecting **Save** and then **Run** as shown in the following example. Next to these buttons there is a **Discard** button that enables you to delete the definitions of your match.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-commands.png "Edit rule add new criteria")
@@ -159,17 +153,15 @@ As mentioned in Step One, the first match results in the creation of a unified m
 
 **Customer Profile Preview** opens. 
 
-// 5 <!-- in the image to come below and the text beneath it, replace blue color with 1, and red color with 2. Plus, we need to blur the data in the pop-up window that appears at the center of the image-->
-
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs-download.png "Conflation Match Pairs download")
 
 Note that:
 
-- The column shown in preceding example in blue reflects for each of your records how certain it is that it was accurately matched (confidence score).
+- The highlighted column shown in the preceding example reflects for each of your records how certain it is that it was accurately matched (confidence score).
 - The rest of the columns present the data that was taken from the two original entities. Columns to the left of the highlighted column present data that was taken from the first match pair entity, while columns to the right present data taken from the second match pair entity. 
 - You can also view the customer profile entity in the **Entities** page.
-- As shown in red, you can also download the customer profile dataset. 
+- Select **Download** to download the customer profile dataset. 
 
 At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, we recommend you review some of the match preview results to validate that records were matched according to your expectations.
 
@@ -177,9 +169,7 @@ At this point, you can either continue to the **Merge** page or go through any o
 
 Here you will learn how to evaluate in depth the quality of your match pairs and improve it. There are a few things you can do.
 
-First, you can gain first insights by reviewing the tiles at the top of the page (shown in red in the following example):
-
-// 6 <!-- in the image to come below, replace red with 1 and blue with 2-->
+First, you can gain first insights by reviewing the tiles at the top of the page (shown in #1 in the following example):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-results.png "Data match results")
@@ -187,14 +177,12 @@ First, you can gain first insights by reviewing the tiles at the top of the page
 - The left tile shows the number of unique profiles that the system identified.
 - The right tile shows the number of matches, in total, that were completed across all of your match pairs. This tile will provide you more context into the first number—is it a relatively good or poor result?
 
-Second, you can assess the results of each match pair as shown in blue in the preceding example—by viewing the number of records that came from this match-pair entity side-by-side with the percentage of successfully matched records.
-
-// 7 <!-- in the image to come below, replace red with 1 and blue with 2-->
+Second, you can assess the results of each match pair as shown in #2 in the preceding example — by viewing the number of records that came from this match-pair entity side-by-side with the percentage of successfully matched records.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
 
-Third, you can view the percentage of successfully matched records at the rule level (shown in red in the preceding example). By selecting the button that is shown in blue, you can view all these records (again, on the rule level). The following window exemplifies the preview you can expect to see.
+Third, you can view the percentage of successfully matched records at the rule level (shown in #1 in the preceding example). By selecting the button that is shown in #2, you can view all these records (again, on the rule level). The following window exemplifies the preview you can expect to see.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-preview.png "Match preview")
@@ -203,9 +191,7 @@ We recommend that you review at least a part of it in order to validate that rec
 
 Fourth, you can experiment with different thresholds around your conditions in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
-1. Select (...) for the match pair rule that you want to experiment with (an example is shown in red in the following example). Then select **Edit**, also shown in red.
-
-// 8 <!-- replace blue with 1 and red with 2-->
+1. Select (...) for the match pair rule that you want to experiment with (an example is shown in #1 in the following example). Then select **Edit**, also shown in #2.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
@@ -219,16 +205,14 @@ Fourth, you can experiment with different thresholds around your conditions in o
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
 
-   Here you can view the number of matched and unmatched records for that condition (shown in red in the following example. You can also view the records in the table section (shown in blue).
+   Here you can view the number of matched and unmatched records for that condition (shown in #1 in the following example. You can also view the records in the table section (shown in #2).
        
    If you chose one of the other levels for that condition, you will see the following page.
-
-// 9 <!-- replace red with 1, blue with 2 and green with 3. Also we need to blur the data in the pop up window that shows at the cnter of the image-->
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-fuzzy-criteria.png "Match fuzzy preview")
      
-This page gives you a rich understanding of the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels (shown in red in the following example), as well as viewing the records under each option. Select each of the tiles (shown in blue) and view the table section (shown in green). 
+This page gives you a rich understanding of the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels, as well as viewing the records under each option. Select each of the tiles and view the table section. 
        
 ## Step Five (optional): Make changes to optimize your matches
 
@@ -239,7 +223,7 @@ If you followed Step Four, then at this point you should have a better understan
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
-- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. That can be done by substituting the two rules' attributes. At this point, you need to delete (button is shown below in red) and re-create (button is shown below in blue) the two rules with the new attributes:
+- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. That can be done by substituting the two rules' attributes. At this point, you need to delete and re-create the two rules with the new attributes:
 
 - **Editing your rules**: This includes several important changes that you should try as you optimize the match quality. All the following options are accessible via the rule's **Edit** button:
 
