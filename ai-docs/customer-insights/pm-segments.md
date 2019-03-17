@@ -64,7 +64,7 @@ The rest of the segment creation process is done in the **Segment Editor** page.
 ### Step One: Defining the segment's properties
 
 - We will give our segment an informative name and description that will help us identify it in the future, when we'll have multiple segments. 
-- Solely for a dynamic segment, we can also choose to activate it at this point through the slider as shown in blue in the following example. An active (dynamic) segment will automatically incorporate changes that are made to your data with time, while an inactive segment will not incorporate any changes that are made to your data. 
+- Solely for a dynamic segment, we can also choose to activate it at this point through the slider as shown in the following example. An active (dynamic) segment will automatically incorporate changes that are made to your data with time, while an inactive segment will not incorporate any changes that are made to your data. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segments-allcustomers-status-active.png "Define segment")
@@ -214,14 +214,14 @@ Then, choose one of the following options from the drop-down menu:
 
 Select a segment's name in the **Segments** page to get to the page that is shown in the following example. This page consolidates data at the segment level. The upper part of the page includes a trend graph that specifies changes in this segment's members count. In addition, hovering over each data point shows the member count for that point. Lastly, above the graph, you can find the current member count as well as last week's growth. 
 
-As highlighted in red in this example, you can adjust the trend's time scope as well (last 30 days, last 60 days, and so on).
+As highlighted in this example, you can adjust the trend's time scope as well (last 30 days, last 60 days, and so on).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segment-time-range.png "Segment time range")
 
 The lower part includes a table with all your segment's members.
 
-- Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The preceding example (highlighted in blue) is typical for a **Customer** entity, but it is only one of many possible representations.
+- Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The preceding example is typical for a **Customer** entity, but it is only one of many possible representations.
 
 - Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor page to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
  

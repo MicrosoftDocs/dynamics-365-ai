@@ -121,9 +121,8 @@ In this step, you will decide how to aggregate and summarize your chosen entitie
 
 What is a dimension? You can think of a dimension as a **Group by** function: The data within your new Measures entity or attribute will be grouped by all of your defined dimensions.
 
-In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity that we have just created on the **Entities** screen, we can see that the data we included in that entity (columns shown in blue) is grouped by the State column (as shown in red).
+In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity that we have just created on the **Entities** screen, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
 
-// 1
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
 
@@ -167,8 +166,6 @@ Upon visiting the **Entities** page and choosing the new measure we have just cr
 
 Let's explore the steps involved in defining a new value.
 
-<!--note from editor: screen shots at lines 170 and 175 look identical except for the blue outlining  -->
-
 First, select **New value**.
 
 > [!div class="mx-imgBorder"] 
@@ -176,7 +173,6 @@ First, select **New value**.
 
 Then, make your selections.
 
-// 4 <!-- no need to add any highlighting. Just replace-->
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition4.png "Measure definition")
 

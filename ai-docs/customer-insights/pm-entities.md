@@ -44,7 +44,7 @@ Select an entity to explore the different fields and records included within tha
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
 
-- When you open the **Entities** page, the **Data** tab is selected by default (outlined in red in the preceding image), and the **Data** table appears below it. This table provides details about each of this entity's records, including the record's value, when it was created, and when it was last refreshed.
+- When you open the **Entities** page, the **Data** tab is selected by default (outlined in the preceding image), and the **Data** table appears below it. This table provides details about each of this entity's records, including the record's value, when it was created, and when it was last refreshed.
 
 - After selecting the **Fields** tab, the **Fields** table appears. You can use this table to view all the details for the selected entity, such as field names, data types, and types. Items in the **Type** column are  Common Data Model-associated types, which can differ from those records' data types if those are not Common Data Model-related.
 

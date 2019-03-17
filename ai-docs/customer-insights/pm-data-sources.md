@@ -81,7 +81,7 @@ In the this step, you'll add entities to your data source. In Customer Insights,
 
 **Note**: It might not be possible to make changes to data sources that are currently used in one of the app's processes (*Segmentation, Match, Merge*, etc). Using the **Settings** page, you can track the progress of each of the active processes and upon their completion, return to **Data Sources** page and make your changes. 
 
-3. Lastly, you can add additional entities to your data source by selecting **Get data** as outlined in red in the following example.
+3. Lastly, you can add additional entities to your data source by selecting **Get data** as outlined in the following example.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-source-get-data.png "Get Data")
@@ -114,7 +114,7 @@ For each ingested data source, besides its name, you can expect to see the last 
 - No data was ingested yet (example is outlined in #2 in the preceding image).
 - Data is still loading into Customer Insights (represented by a *warning sign* icon, #3).
 
-At this point, you should refresh the data source that you just saved. Select the button outlined in red in the following image, and then select **Refresh**, as outlined in blue.
+At this point, you should refresh the data source that you just saved. Select the button outlined in the following image, and then select **Refresh**, as outlined.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-sources-refresh.png "Data sources refresh")

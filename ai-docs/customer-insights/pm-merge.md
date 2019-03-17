@@ -86,7 +86,7 @@ This panel consists of four parts.
 
 **Select Duplicate Attributes**: Within this menu we will select all the attributes that we want to merge from our matched entities. We can also use the search field to type our attributes' names. 
 
-**Rank by Importance:** Here we will prioritize one attribute above the others - the values for our merged attribute will come only from that source. If we think, for example, that the Sales entity includes the most accurate data about the Names attribute, than in the panel shown below, we will first change the policy from **default** to **ordered** (as highlighted in blue). Then, select the arrow sign next to **SurveyContact**. As a result, **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the Name attribute.
+**Rank by Importance:** Here we will prioritize one attribute above the others - the values for our merged attribute will come only from that source. If we think, for example, that the Sales entity includes the most accurate data about the Names attribute, than in the panel shown below, we will first change the policy from **default** to **ordered**. Then, select the arrow sign next to **SurveyContact**. As a result, **Sales** will move to first priority while **SurveyContact** will move to second priority when pulling values for the Name attribute.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attributes2.png "Merge attributes")
