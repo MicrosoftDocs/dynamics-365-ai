@@ -4,7 +4,7 @@ description:
 ms.custom: ""
 ms.date: 03/13/2019
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -72,7 +72,9 @@ Follow these steps to load the data into Customer Insights:
 
 In the this step, you'll add entities to your data source. In Customer Insights, entities are datasets. For example, if you have a database that includes multiple datasets, each of those datasets is an entity (an Orders dataset or Sales dataset, for example). 
 
+
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source will appear on the left (#1):
+
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
