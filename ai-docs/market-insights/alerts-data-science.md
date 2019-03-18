@@ -27,3 +27,7 @@ Based on the keywords used in your alert configuration, the system crawls the we
 ## Learning from your feedback
 
 In the email digest, every news has a control to **Flag as a irrelevant**. If you select this link, the system learns from your feedback and determine why the article isn't relevant. These learnings are used to increase the relevance of your alerts in the future.
+
+### See also
+[Market Insights Alerts overview](alerts-overview.md)    
+[Manage your alerts](alerts-management.md)
