@@ -4,7 +4,7 @@ description: Text to go here
 ms.custom: ""
 ms.date: 11/05/2018
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"

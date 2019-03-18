@@ -4,7 +4,7 @@ description: "Learn about the entities and attributes used by Customer Service I
 keywords: "CDS, data entity"
 ms.date: 3/6/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
