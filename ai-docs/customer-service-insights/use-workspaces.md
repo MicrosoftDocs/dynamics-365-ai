@@ -20,7 +20,7 @@ When you work with the dashboards in Customer Service Insights, you have a choic
 
 ## Create an Customer Service Insights workspace
 
-When you first launch Customer Service Insights in your browser, Customer Service Insights opens the **Connect your data** screen so you can create a workspace by connecting to a data source.
+To launch Customer Service Insights, navigate to [https://csi.ai.dynamics.com](https://csi.ai.dynamics.com) in your browser. Customer Service Insights opens the **Connect your data** screen so you can create a workspace by connecting to a data source.
 
 > [!div class="mx-imgBorder"]
 > ![Connect your data screen](media/ai-csi-qs-connect-data.png)
