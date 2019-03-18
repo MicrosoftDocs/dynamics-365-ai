@@ -1,5 +1,5 @@
 ---
-title: "Profiles | MicrosoftDocs"
+title: "Customers | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 03/13/2019
@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Profiles
+# Customers
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
