@@ -53,7 +53,7 @@ The **Status** tab enables you to track the progress of data ingestion as well a
   > [!div class="mx-imgBorder"] 
   > ![](media/system-status-processes.png "Refresh date")
 
-- In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the following example, the user has selected the *Dynamics365forSales* data source that has ingestion status **Complete** (shown in red) and is shown additional details on that data source (shown in blue).
+- In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the following example, the user has selected the *Dynamics* data source that has ingestion status **Complete** (#1) and is shown additional details on that data source (#2).
 
   > [!div class="mx-imgBorder"] 
   > ![](media/system-database-details.png "Data source details")
