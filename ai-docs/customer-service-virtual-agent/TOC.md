@@ -10,7 +10,9 @@
 
 ## [Working with the Virtual Agent Designer](getting-started-bot-designer.md)
 
-## [Creating topics for your virtual agent](getting-started-create-topics.md)
+## [Creating a custom greeting for your virtual agent](getting-started-create-greeting.md)
+
+## [Creating custom topics for your virtual agent](getting-started-create-topics.md)
 
 ## [Using analytics to improve your virtual agent](getting-started-analytics.md)
 

@@ -39,7 +39,9 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions have access to your virtual agent content.
 
-3. Create a topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer might want to make an appointment at a store.
+3. Customize the virtual agent's built-in greeting topic. For more information on customizing the virtual agent greeting, see [Creating a custom greeting for your virtual agent](getting-started-create-greeting.md).
+
+    Then create your own custom topic, which defines the conversation path a customer takes with the virtual agent for a specific customer intent. For example, a customer might want to make an appointment at a store.
 
    Select **Topics** in the navigation pane, and then select **New topic** to open the **Create a new topic** screen.
 
