@@ -24,14 +24,11 @@ manager: "kvivek"
 There are two main goals behind the Map phase:
 
 - **Entity selection:** Identify the entities which, when combined, might lead to a dataset with more complete information about your customers.
-- **Attribute selection:** For each entity, identify the columns you want to combine and reconcile in the next data configuration phases: Match and Merge (those columns are also called *attributes*).
+- **Attribute selection:** For each entity, identify the columns you want to combine and reconcile in the next data unification  phases: Match and Merge (those columns are also called *attributes*).
 
 <!--note from editor: In bullet item above, is it the columns that are attributes or the items listed in the columns?   -->
 
-Select the **Map** tile on the **Configure Data** page to start the Map phase.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/data-manager-configure-map.png "Map tile")
+Select the **Map** tile on the **Unify** page to start the Map phase.
 
 ## Select first entities
 
@@ -52,7 +49,7 @@ Then, the user selected the **Contact** and **Survey** entities. Those were foun
 Lastly, the user selected **Save**.
 
 > [!NOTE] 
-> You should search for and select at least two entities in order to benefit from the data configuration process.
+> You should search for and select at least two entities in order to benefit from the data unification process.
 
 ## View system auto-selections
 
@@ -105,10 +102,9 @@ Select the entities that you want to add to your existing entities list, and cle
 
 There are two mandatory selections you must complete prior to the completion of the Map phase.
 
-- **Primary key:** (outlined in red in the preceding example). It's mandatory to select one attribute as a primary key for each of your chosen entities. Note that for an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values. 
-- **Attribute Type:** Categories under which your attributes fall such as **Email** or **Name**. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.  
+- **Primary key:** (outlined in the preceding example). It's mandatory to select one attribute as a primary key for each of your chosen entities. Note that for an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values. 
+- **Attribute Type:** Categories under which your attributes fall such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.  
 
-<!--note from editor: In bullet  item above, use bold for "Email" and "Name" if that is what appears in the UI; otherwise use "email address or name".   -->
 ## Next step
 
-As part of the data configuration process, go to the **Match** page either by selecting **Match** in the left-side menu or by selecting the **Match** tile within the **Configure Data** page. Visit the **Match** section to learn about this phase.
+As part of the data unification process, go to the **Match** page either by selecting **Match** in the left-side menu or by selecting the **Match** tile within the **Unify** page. Visit the **Match** section to learn about this phase.

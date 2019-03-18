@@ -49,7 +49,7 @@ You will see the **Search, sort & filter** page. In the following example, many 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
 
-You can always add more attributes via **Add** (shown in red in the following example). You can also remove any selected attributes using the button shown in blue.
+You can always add more attributes via **Add** (shown in #1 in the following example). You can also remove any selected attributes using the button shown in #2.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-add.png "Add attribute")
@@ -98,7 +98,7 @@ Lastly, the following image shows the **Edit** panel that opens for date-type at
 
 In this panel, you can specify the intervals included on the filter panel, as well as the order policy by which they will be organized.
 
-Save your selections using **Save** (shown in red in the following image). Select **Run** (shown in blue) once you are ready to apply your settings. Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Profiles** page.
+Save your selections using **Save**. Select **Run** once you are ready to apply your settings. Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Profiles** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")

@@ -72,7 +72,7 @@ First, choose one of the following options (also highlighted in the preceding im
 
 <!--note from editor:  Below--"go to the keywords field"? -->
 
-To add a brand or interest, type the keywords field (highlighted in blue above) and then type the keyword. If that keyword matches a brand or interest name in the Microsoft database, it will be saved. You can save up to five selections. If there is no match, you will get the following notice, which you can use to send a suggestion to the Customer Insights team.
+To add a brand or interest, type the keywords field (highlighted above) and then type the keyword. If that keyword matches a brand or interest name in the Microsoft database, it will be saved. You can save up to five selections. If there is no match, you will get the following notice, which you can use to send a suggestion to the Customer Insights team.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
@@ -81,9 +81,7 @@ To add a brand or interest, type the keywords field (highlighted in blue above) 
   
 ### Run the enrichment process
 
-This can be done via **Run** at the top of the screen (shown in red).
-
-<!-- // 1 in the image to come below, mark "save" with "1", "Run" with "2" and "Discard" with "3"-->
+This can be done via **Run** at the top of the screen.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-choose-own.png "Enrich profiles choose own brand")
@@ -93,7 +91,7 @@ You'll see the following page as long as the enrichment algorithm is still runni
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-enriching.png "Enrich profiles enriching")
 
-You can also use the **Discard** button to reselect your definitions and keywords (shown in blue in the preceding example).
+You can also use the **Discard** button to reselect your definitions and keywords.
 
 ### Validate the enrichment process output
 
@@ -102,7 +100,7 @@ If the enrichment process succeeds, you'll see the following screen.
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-succeeded.png "Enrich profiles succeeded")
 
-Use the **Enriched profiles** figure (shown in red in the preceding example) to assess your enrichment definitions and keywords, and to consider whether any of them should be reconfigured.
+Use the **Enriched profiles** figure to assess your enrichment definitions and keywords, and to consider whether any of them should be reconfigured.
 
 If the enrichment process fails, you'll find the reason for that failure at top of the screen.
 
@@ -116,28 +114,24 @@ Upon the completion of the enrichment process, you have unlocked additional info
 
 **1. Explore affinities histograms on the home page.**
 
-<!-- // 2 replace red color with 1 and blue color with 2. Also please blur my name that appears in large in this image - thanks!-->
-
 > [!div class="mx-imgBorder"] 
 > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
-This can be done within the **Insights** section (shown in red in the preceding example). The diagrams shown in blue present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of customers who have a specific brand or category affinity.
+This can be done within the **Insights** section (shown in #1 in the preceding example). The diagrams shown in #2 present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of customers who have a specific brand or category affinity.
 
 **2. Explore the MsftAudienceIntelligence: Customer 360 entity on the Entities page**
 
 - Go to the **Entities** page.
 - Select the **MsftAudienceIntelligence: Customer 360** entity.
 
-<!-- // 3 replace red color with 1 and blue color with 2. also please mark the last column on the right with 3. Lastly, we need to blur the data for all the other columns (only the columns with the numbers). Thanks!-->
-
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-entities-info.png "Text")
 
-- In the preceding example, the column shown in blue presents the brands and interests that were evaluated by the enrichment algorithm.
-- The column shown in red presents the verticals to which these brands and interests belong.
+- In the preceding example, the column shown in #1 presents the brands and interests that were evaluated by the enrichment algorithm.
+- The column shown in #2 presents the verticals to which these brands and interests belong.
 - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. Note that these affinity numbers represent ranks. A rank of 1 stands for the strongest affinity, and from there, the affinity decreases as the number increases.  
 
-Lastly, you can also export this entity using the **Export** button in the upper-right corner of the screen.
+Lastly, you can also export this entity using the **Export data** button in the upper-right corner of the screen (#3).
 
 ## Next step
 You might wish to extract more insights using the **Segments**, **Customer Card**, and **Connectors** modules if you haven't done so. You might also want to define **Measures** and/or **Activities** for richer insight exploration. 
