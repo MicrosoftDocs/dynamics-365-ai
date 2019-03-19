@@ -92,7 +92,7 @@ To see additional information about each topic, right-click the topic name, hove
 > [!div class="mx-imgBorder"]
 > ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
-The Emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics and then display the topics in order of the change in volume over the specified time period.
+The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 
 Description | Details
 ----------- | -------
