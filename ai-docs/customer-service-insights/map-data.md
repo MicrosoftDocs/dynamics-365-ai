@@ -26,8 +26,8 @@ However, you may want to generate insights by mapping to data from custom entiti
 
 When you create a Customer Service Insights workspace and connect to a Dynamics 365 environment, Customer Service Insights prompts you to map your data:
 
-* If the environment doesn't have an Incident entity.
-* If the environment has an Incident entity but it doesn’t contain enough required data.
+* If the environment doesn't have a Case entity.
+* If the environment has a Case entity but it doesn’t contain enough required data.
 
 After a workspace is created, you can map to data from custom entities and fields by specifying Data mapping settings.
 
@@ -39,7 +39,7 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 1. Follow the steps in [Use workspaces to connect to different customer service environments](use-workspaces.md) to connect to a Dynamics 365 environment.
 
-2. If the environment doesn't have an Incident entity, or if the environment has an Incident entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Select **Get started** to begin mapping your data.
+2. If the environment doesn't have a Case entity, or if the environment has a Case entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Select **Get started** to begin mapping your data.
 
    > ![Map your data](media/map-your-data.png)
 
