@@ -2,7 +2,7 @@
 title: "Quickstart - Get immediate insights into your customer service system's performance"
 description: "Learn how to quickly connect to your customer service data to gain insights into your customer service system."
 keywords: ""
-ms\.date: 1/23/2019
+ms\.date: 3/18/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
