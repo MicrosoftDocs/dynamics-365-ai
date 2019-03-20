@@ -19,7 +19,7 @@ As you design the conversation path for your virtual agent in the conversation e
 To help you work with a complex conversation path, Virtual Agent Designer provides a variety of tools to make it easier to work with the conversation editor design canvas. You can:
 
 * Increase the size of the design canvas by hiding the Test Virtual Agent and navigation pane.
-* Adjust the position of the design canvas using the horizontal scroll bar.
+* Adjust the position of the conversation path in the design canvas using the horizontal scroll bar.
 * Use the conversation editor's **Zoom in** 8and **Zoom out** buttons to zoom in and out of the design canvas.
 * Use the conversation's **Mini-map** button to orient the current view of the conversation path in the conversation path as a whole.
 
@@ -44,3 +44,13 @@ After you hide the Test Virtual Agent and navigation panes, the conversation edi
    > ![Full screen](media/full-screen.png)
 
 To restore the Test Virtual Agent, select **Show Virtual Agent** or the Show Virtual Agent icon. To restore the navigation pane, select the navigation pane icon again.
+
+## Adjust the position of the conversation path
+
+If the width of your conversation path design exceeds the width of the design canvas, you can adjust the position of the conversation path in the design canvas using the conversation editor's horizontal scroll bar.
+
+   > ![Horizontal scroll bar](media/horizontal-scroll-bar.png)
+
+By moving the scroll bar to the right, the conversation path design can be positioned to fit in the design canvas.
+
+   > ![Move scroll bar](media/move-scroll-bar.png)
