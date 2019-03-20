@@ -14,6 +14,8 @@
 
 ## [Creating custom topics for your virtual agent](getting-started-create-topics.md)
 
+## [Working with the conversation editor design canvas](expanding-design-canvas.md)
+
 ## [Using analytics to improve your virtual agent](getting-started-analytics.md)
 
 ## [Deploying your virtual agent](getting-started-deploy.md)

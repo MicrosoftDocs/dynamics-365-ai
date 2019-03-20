@@ -61,7 +61,7 @@ This Quickstart takes you through the end-to-end experience of creating a virtua
 
    > ![Edit conversation](media/edit-conversation.png)
 
-   In the conversation editor, add virtual agent and customer responses to the conversation.
+   In the conversation editor, add virtual agent and customer responses to the conversation. As you add responses, you may want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
 
    Enter the virtual agent's response to the trigger phrase in the **Bot says** box.
 

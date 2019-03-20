@@ -54,6 +54,8 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    > ![Open conversation](media/open-conversation.png)
 
+    As you define the topic's conversation path, you may want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
+
 2. Enter the virtual agent's response to the trigger phrase in the **Bot says** box.
 
    > ![Add bot response](media/bot-response.png)
