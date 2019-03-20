@@ -18,10 +18,10 @@ As you design the conversation path for your virtual agent in the conversation e
 
 To help you work with a complex conversation path, Virtual Agent Designer provides a variety of tools to make it easier to work with the conversation editor design canvas. You can:
 
-* Increase the size of the design canvas by hiding the Test Virtual Agent and navigation pane.
-* Adjust the position of the conversation path in the design canvas using the horizontal scroll bar.
-* Use the conversation editor's **Zoom in** 8and **Zoom out** buttons to zoom in and out of the design canvas.
-* Use the conversation's **Mini-map** button to orient the current view of the conversation path in the conversation path as a whole.
+* [Increase the size of the design canvas](#increase-the-size-of-the-design-canvas) by hiding the Test Virtual Agent and navigation pane.
+* [Adjust the position of the conversation path](#adjust-the-position-of-the-conversation-path) in the design canvas by using the horizontal scroll bar.
+* [Zoom in and out of the design canvas](#zoom-in-and-out-of-the-design-canvas) by using the conversation editor's **Zoom in** and **Zoom out** buttons.
+* [Orient the current view of the conversation path](#orient-the-current-view-of-the-conversation-path) within the conversation path as a whole by using the conversation editor's **Mini-map** button.
 
 ## Increase the size of the design canvas
 
@@ -54,3 +54,31 @@ If the width of your conversation path design exceeds the width of the design ca
 By moving the scroll bar to the right, the conversation path design can be positioned to fit in the design canvas.
 
    > ![Move scroll bar](media/move-scroll-bar.png)
+
+## Zoom in and out of the design canvas
+
+To help you view and navigate your conversation path, you can zoom in and out of the design canvas using the conversation editor's **Zoom in** and **Zoom out** buttons.
+
+Select the **Zoom in** button to zoom in for a closer view of part of your conversation path.
+
+   > ![Zoom in button](media/zoom-in.png)
+
+Select the **Zoom out** button to zoom out for a big picture view of your conversation path.
+
+   > ![Zoom out button](media/zoom-out.png)
+
+To restore the design canvas to its original zoom level, select the **Reset** button.
+
+   > ![Reset button](media/reset.png)
+
+## Orient the current view of the conversation path
+
+To help you orient the current view of the conversation path within the conversation path as a whole, you can use the conversation editor's **Mini-map** button.
+
+First, select the **Mini-map** button.
+
+   > ![Mini-map button](media/mini-map-button.png)
+
+The conversation editor displays a graphic schematic of the conversation path with the current view highlighted.
+
+   > ![Conversation schematic](media/conversation-schematic.png)
