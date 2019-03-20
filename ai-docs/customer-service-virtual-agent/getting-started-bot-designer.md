@@ -58,7 +58,7 @@ For more information about using the Deploy page to deploy your virtual agent, s
 
 ## Test Virtual Agent
 
-The Virtual Agent Designer includes a Test Virtual Agent, where you can test how the conversation with the virtual agent works in practice. You can hide the Test Virtual Agent by selecting **Hide Virtual Agent** on the lower left corner of the Virtual Agent Designer.
+The Virtual Agent Designer includes a Test Virtual Agent, where you can test how the conversation with the virtual agent works in practice. You can hide the Test Virtual Agent by selecting **Hide Virtual Agent** in the lower left corner of the Virtual Agent Designer.
 
    > ![Hide Virtual Agent](media/hide-test-va.png)
 
