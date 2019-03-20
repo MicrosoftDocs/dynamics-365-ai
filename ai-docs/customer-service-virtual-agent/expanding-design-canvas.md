@@ -44,4 +44,3 @@ After you hide the Test Virtual Agent and navigation panes, the conversation edi
    > ![Full screen](media/full-screen.png)
 
 To restore the Test Virtual Agent, select **Show Virtual Agent** or the Show Virtual Agent icon. To restore the navigation pane, select the navigation pane icon again.
-
