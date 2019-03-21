@@ -4,18 +4,11 @@ description: "Learn which data we store, why, and how you can get it updated and
 keywords: "alert management, daily digest, email"
 ms.date: 04/01/2019
 ms.service: dynamics-365-ai
+ms.custom: dyn365-ai-marketinsights
 ms.topic: article
 ms.assetid: ede3cf5d-ff7c-4188-9591-971897f1ca32
 author: m-hartmann
 ms.author: mhart
-ms.custom: dyn365-ai-marketinsights
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365SE
 ---
 
 # Data handling for Dynamics 365 Market Insights Alerts
@@ -33,6 +26,7 @@ The following data is stored:
     - **Job title** (when signed in with LinkedIn) to improve the relevance of alerts
 - **List of alerts** you created to find articles you may be interested in
 - **Clicks** on news article links in the alert email to improve the relevance of future news articles sent to you
+- **Read rate** of email messages for usage statistics
 - **Feedback** you provide about the relevance of the alert email
 - **Visits** to the Market Insights Alerts website for usage statistics
 
