@@ -37,7 +37,7 @@ Using the [sign-in page for Market Insights](https://mi.ai.dynamics.com/login) i
 
 Sign in to the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] online service from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-1. In your browser, open [https://portal.office.com](https://portal.office.com).  
+1. In your browser, open [https://admin.microsoft.com](https://admin.microsoft.com).  
   
 2. Sign in with your [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] credentials—for example, user@contoso.onmicrosoft.com.  
   
@@ -45,7 +45,7 @@ Sign in to the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.m
   
     You'll be redirected to your organization's [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] solution.  
   
-For more information and to learn about important administration features, see [About the Office 365 admin center - Admin Help](https://support.office.com/article/About-the-Office-365-admin-center-Admin-Help-58537702-d421-4d02-8141-e128e3703547).  
+For more information and to learn about important administration features, see [About the Microsoft 365 admin center - Admin Help](https://support.office.com/article/About-the-Office-365-admin-center-Admin-Help-58537702-d421-4d02-8141-e128e3703547).  
   
 > [!TIP]
 >  If you don’t see a shortcut to [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] nav bar, verify that a [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license is assigned to you.  
