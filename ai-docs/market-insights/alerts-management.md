@@ -39,7 +39,7 @@ You can sign in to the app using one of the following accounts:
 ## Create an alert
 
 1. [Sign in](#sign-in-to-the-app) to [https://alerts.mi.ai.dynamics.com/](https://alerts.mi.ai.dynamics.com/).
-2. Enter a term or a topic and select the search icon {ICON}. Select **Show advanced** if you want to [specify more details for your search](#refine-your-topic).
+2. Enter a term or a topic and select the search icon (![Search icon](media/alerts-search-icon.png)). Select **Show advanced** if you want to [specify more details for your search](#refine-your-topic).
 3. Next to **Email** choose if you want to receive the news **Daily**, or **Weekly**.
 4. Select the preferred **Region** for the News and Insights. 
 5. Select **Create alert** to finalize your alert.
@@ -47,13 +47,13 @@ You can sign in to the app using one of the following accounts:
 ## Edit an alert
 
 1. [Sign in](#sign-in-to-the-app) to [https://alerts.mi.ai.dynamics.com/](https://alerts.mi.ai.dynamics.com/).
-2. In the list of alerts, select the Pen icon {ICON} for the alert you want to edit.
+2. In the list of alerts, select the Pen icon ![Edit icon](media/alerts-edit-icon.png) for the alert you want to edit.
 3. Apply your changes and select **Update alert**
 
 ## Delete an alert
 
 1. [Sign in](#sign-in-to-the-app) to [https://alerts.mi.ai.dynamics.com/](https://alerts.mi.ai.dynamics.com/).
-2. In the list of alerts, select the Trashbin icon {ICON} for the alert you want to delete.
+2. In the list of alerts, select the Trashbin icon ![Delete icon](media/alerts-delete-icon.png) for the alert you want to delete.
 3. Confirm your deletion.
 
 > [!NOTE]
@@ -61,16 +61,16 @@ You can sign in to the app using one of the following accounts:
 
 ## Tips on refining your topic
 
-Use the **Show Advanced** toggle to refine your search.
+Use the **Show Advanced** toggle to refine your search.    
 ![Show advanced control for Market Insights alerts](media/alerts-show-advanced.png)
 
-Add **more variations of the search term** to *broaden* your search. Example: You want to find generic news about the company Microsoft. When searching for Microsoft, consider searching for the stock ticker symbol (MSFT) too.
+Add **more variations of the search term** to *broaden* your search. Example: You want to find generic news about the company Microsoft. When searching for Microsoft, consider searching for the stock ticker symbol (MSFT) too.    
 ![Add more variations to a search topic](media/alerts-more-terms.png)
 
-Add **inclusions** to *narrow* your search and find news that include both, the search term AND at least one of the terms in box. Example: You want to find news about the Microsoft's Power Platform, but not for generic power platforms. 
+Add **inclusions** to *narrow* your search and find news that include both, the search term AND at least one of the terms in box. Example: You want to find news about the Microsoft's Power Platform, but not for generic power platforms.   
 ![Add terms to appear with the search term](media/alerts-inclusions.png)
 
-Add **exclusions** to *narrow* your search and find news that include the search term but don't include the terms in the box. Example: You want to find news about car industry, but not about car accidents.
+Add **exclusions** to *narrow* your search and find news that include the search term but don't include the terms in the box. Example: You want to find news about car industry, but not about car accidents.    
 ![Add terms to not appear with the search term](media/alerts-exclusions.png)
 
 ## Provide feedback about an alert
