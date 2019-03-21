@@ -18,7 +18,7 @@ manager: shellyha
 
 Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Incident (case) entity and several other related entities in Common Data Service.
 
-However, you may want to generate insights by mapping to data from custom entities and fields in Common Data Service for Apps. Mapping to data from custom entities and fields is useful in the following cases:
+However, you may want to generate insights by mapping to data from custom entities and fields in Common Data Service. Mapping to data from custom entities and fields is useful in the following cases:
 
 * You are not a Dynamics 365 for Customer Service customer.
 * You are a Dynamics 365 for Customer Service customer, but your service solution is customized and you use custom entities and fields to store support case data.
@@ -79,7 +79,7 @@ Here are some things to keep in mind when you map your data to custom entities a
 
 * Data mapping is not currently supported for lookup fields. These include the Owning User, Owning Business Unit, Owning Team, and Product fields in the Incident entity.
 
-* Several data fields in the Incident entity are pick lists, including Priority, Support Channel, SLA Status, and Satisfaction. Pick list is an attribute type in Common Data Service for Apps that allows the selection of multiple options. Each option consists of a numeric value and a string label.
+* Several data fields in the Incident entity are pick lists, including Priority, Support Channel, SLA Status, and Satisfaction. Pick list is an attribute type in Common Data Service that allows the selection of multiple options. Each option consists of a numeric value and a string label.
 
   For example, SLA Status indicates whether a case is compliant with the service level agreement (SLA). You can define multiple different values for compliant cases. Customer Service Insights only uses the value 4 to identify noncompliant cases. The pick list values defined for Satisfaction indicate the customer satisfaction score (CSAT). Customer Service Insights reads value from 1 to 5 to calculate the average CSAT.
 
