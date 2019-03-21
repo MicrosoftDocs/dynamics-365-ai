@@ -32,6 +32,8 @@ Market Insights Alerts aim at helping business professionals stay ahead of the g
 
 ## Key benefits for Market Insights Alerts
 
+We are just getting started and will keep catering to the specific needs of a professional on-the-go to make them productive and well-informed.
+
 ### Advanced understanding of business topics
 
 The service recognizes top products, brands and companies so you can be assured that if you want to follow the company "Tableau", you only see results for the company and not the French word "tableau" (meaning painting). We even let you [manually customize the topic](alerts-management.md) further to your specifications to help you stay focused on what matters most for your business. 
@@ -45,3 +47,19 @@ We apply data science and machine learning to your topic, finding articles with 
 ### Content relevant for business professionals
 
 In addition, we try to bring you content that is more relevant for business professionals like mergers, acquisitions, product launches/sunsets, customer issues etc. As our service evolves, we will continue making improvements and love to hear your feedback. Simply use the **Send Feedback** link in the Alert email to share your thoughts and ideas.
+
+### Insights from online activity (coming soon)
+
+We go beyond what's in the news about your topic to give you actionable information that can help with your job. We derive insights from browser usage and search statistics to bring you what's trending related to your topic before it even makes it to the news. Or, you can see how some news/event impacted consumer behavior online.
+
+ 
+### Features tailored to business professionals (coming soon)
+
+Simple things like enabling users to combine alerts about all their competitors into one email can be a huge time saver for business professionals. Allowing them to choose a delivery time lets them receive our alert for their daily commute, fo example. Sharing with your professional network on LinkedIn can help you build your brand around a topic you are following. We will also cover more sources like forums and blogs that are important to you.
+
+### See also
+
+[Manage your alerts](alerts-management.md)    
+[How relevancy in determined in alerts](alerts-data-science.md)    
+[Data handling for Dynamics 365 Market Insights Alerts](alerts-data-handling.md)    
+[Known issues](known-issues.md)
