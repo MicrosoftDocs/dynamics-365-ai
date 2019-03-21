@@ -32,6 +32,8 @@ The following data is stored:
 
 ## Request export, update, or deletion of your data
 
+Every user can [delete alerts](alerts-management.md#delete-an-alert) they own or unsubscribe from them in the alert email which will delete the alert too. 
+
 To get your data exported, updated, or deleted, send us an [email](mailto:micustreqs@microsoft.com) and our team will follow up with you.
 
 > [!IMPORTANT]
