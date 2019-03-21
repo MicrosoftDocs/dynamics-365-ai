@@ -20,7 +20,7 @@ search.app:
 
 # Known issues
 
-Sometimes, things don't work as expected. We're sorry for that. Before reporing a bug, please have a look at this list to see if we are already aware of the issue. 
+Sometimes, things don't work as expected. We're sorry for that. Before reporting a bug, please have a look at this list to see if we are already aware of the issue. 
 
 ## Market Insights Alerts
 
