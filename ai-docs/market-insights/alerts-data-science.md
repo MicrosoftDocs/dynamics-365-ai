@@ -24,9 +24,9 @@ search.app:
 
 Based on the keywords and their related categories used in your alert configuration, the system crawls the web for matching news. If a matching article is found, we check if it's a duplicate of another matching article and how relevant the publishing website is. We prefer fresher and more up-to-date news. The most relevant articles are sent to you in the alert email. We only select articles that discuss the selected topic significantly while avoiding articles containing only a brief reference to that topic. Additionally, the more people read an article, the more relevant it is.
 
-## Identifying rising topics
+## Identifying related topics that are trending
 
-The system tries to understand the topic category you are following to ensure you get topics relevant these categories. We further avoid repetition and improve the relevancy of rising topics by clustering synonymous topics and focusing on new and breaking topics. Topics are grouped by their change in volume to give further insights how they have evolved in the recent past.
+The system tries to understand the topic category you are following to ensure you get topics relevant these categories. We further avoid repetition and improve the relevancy of related topics that are trending by clustering synonymous topics and focusing on new and breaking topics. Topics are grouped by their change in volume to give further insights how they have evolved in the recent past.
 
 ## Learning from your feedback
 
