@@ -2,7 +2,7 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
-ms\.date: 3/18/2019
+ms\.date: 3/21/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
