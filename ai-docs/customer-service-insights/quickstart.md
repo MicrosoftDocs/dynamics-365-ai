@@ -22,8 +22,7 @@ Dynamics 365 Customer Service Insights lets you quickly connect to your existing
 
 1. Navigate to [https://csi.ai.dynamics.com](https://csi.ai.dynamics.com) in your browser to open the Customer Service Insights environment. Customer Service Insights displays the **Connect your data** screen. Customer Service Insights supports Microsoft Edge, Internet Explorer 11, and Chrome browsers.
 
-   > [!div class="mx-imgBorder"]
-   > ![Connect your data screen](media/ai-csi-qs-connect-data.png)
+   > ![Connect your data screen](media/connect-data.png)
 
 2. Select **Dynamics 365** to create a workspace using Dynamics 365 customer service data. Customer Service Insights displays the **Choose an environment** screen.
 
