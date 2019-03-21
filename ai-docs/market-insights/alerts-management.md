@@ -56,6 +56,9 @@ You can sign in to the app using one of the following accounts:
 2. In the list of alerts, select the Trashbin icon {ICON} for the alert you want to delete.
 3. Confirm your deletion.
 
+> [!NOTE]
+> You can also **Unsubscribe** from an alert in the email. Unsubscribing deletes the alert too. 
+
 ## Tips on refining your topic
 
 Use the **Show Advanced** toggle to refine your search.
