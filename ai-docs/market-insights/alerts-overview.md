@@ -30,7 +30,8 @@ Market Insights Alerts aim at helping business professionals stay ahead of the g
 - Track what’s happening in the **industry** and if there are product trends, new entrants to the market, or rumors of M&As, etc.
 - Keep an eye on **major events** that are important to your business like conferences, trade shows, or specific product launches.
 
-[Create your first alert now.](https://alerts.mi.ai.dynamics.com/)
+> [!div class="nextstepaction"]
+> [Create your first alert now.](https://alerts.mi.ai.dynamics.com/)
 
 ## Key benefits for Market Insights Alerts
 

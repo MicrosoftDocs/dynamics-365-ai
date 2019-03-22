@@ -25,6 +25,7 @@ search.app:
 Are you new to [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
 
 ## I did not receive an alert email. What happened?
+
 - After you [create an alert](alerts-management.md#create-an-alert), you will receive your first alert the next morning. We are working on sending you a confirmation email right away.
 - We don't send an email when there isn't something important enough to alert you about. 
 - Please [sign in](alerts-management.md#sign-in-to-the-app) to your account to verify if you had created an alert.
