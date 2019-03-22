@@ -2,7 +2,7 @@
 title: "Home | MicrosoftDocs"
 description: Home
 ms.custom: ""
-ms.date: 03/13/2019
+ms.date: 03/21/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -21,19 +21,21 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The home page is the first page you see in the Dynamics 365 Customer Insights app. 
+The first page you see in the Dynamics 365 Customer Insights app is the home page. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-insights.png "Insights on Home page")
 
-If you are a trial user, make sure you switch from a demo environment before starting to use the product. This can be done via the environment switcher that is positioned in the upper-right corner of the page.
+<!--note from editor: In sentence below--switch from a demo environment to what?  Also, are all the modes available to trial users?  -->
+
+If you are a trial user, make sure you switch from a demo environment before you start. You can do this with the **Environment** toggle in the upper-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-environment-switcher.png "Switch environment")
 
 ## Exploring the home page
 
-The home page is designed to equip you with a holistic view around your unified customer base and provide you with metrics to track the health of your business. You will first need to take a few steps to onboard, configure, and enrich your data in order for the insights to show up in the home page. Through the data manager and unify processes, you will take datasets that are siloed and disconnected, and create a unified dataset of your customers. Then, you can use capabilities such as *Measures*, *Enrich Profiles*, and *Activities* to unlock richer insights. Lastly, you will use capabilities such as *Segments* and *Customer Card* to utilize and act upon the new insights.
+The Customer Insights home page provides you with a holistic view of your customer base and metrics to track the health of your business. You first need to take a few steps to onboard, configure, and enrich your data in order for the insights to show up on the home page. Through the data manager and unify processes, you will take datasets that are siloed and disconnected, and create a unified dataset of your customers. Then, you can use capabilities such as *Measures*, *Enrich Profiles*, and *Activities* to unlock richer insights. Lastly, you will use capabilities such as *Segments* and *Customer Card* to utilize and act upon the new insights.
 
 The following image shows the types of insights you can expect to view on the home page.
 
