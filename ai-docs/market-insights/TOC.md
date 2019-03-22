@@ -9,6 +9,7 @@
 ### [How relevancy in determined](alerts-data-science.md)
 ### [Data handling for alerts](alerts-data-handling.md)
 ### [Known issues](known-issues.md)
+### [FAQ](faq.md)
 ## [Get started with Market Insights](get-started.md)
 ### [Sign in to Market Insights](sign-in.md)
 ### [Set your preferences for the user interface](user-preferences.md)
@@ -70,7 +71,6 @@
 ### [Connect Market Insights to other domains](connect-other-domains.md)
 ## Additional information
 ### [Data retention in Market Insights](data-retention.md)
-### [Market Insights FAQ](faq.md)
 ### [Accessibility for Market Insights](accessibility.md)
 ### [Market Insights Privacy Notices](privacy-notices.md)
 
