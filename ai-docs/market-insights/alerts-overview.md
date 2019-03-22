@@ -52,7 +52,7 @@ In addition, we try to bring you content that is more relevant for business prof
 
 ### Insights from online activity (coming soon)
 
-We go beyond what's in the news about your topic to give you actionable information that can help with your job. We derive insights from browser usage and search statistics to bring you what's trending related to your topic before it even makes it to the news. Or, you can see how some news/event impacted consumer behavior online.
+We go beyond what's in the news about your topic to give you actionable information that can help with your job. We derive insights from people’s activity on the web and searches on the web to bring you what's trending related to your topic before it even makes it to the news. Or, you can see how some news/event impacted consumer behavior online.
 
  
 ### Features tailored to business professionals (coming soon)
