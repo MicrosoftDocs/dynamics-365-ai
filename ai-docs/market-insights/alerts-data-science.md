@@ -20,6 +20,8 @@ search.app:
 
 # How relevancy in determined in alerts
 
+(This topic is pre-release documentation and is subject to change.)
+
 ## Choosing news articles
 
 Based on the keywords and their related categories used in your alert configuration, the system crawls the web for matching news. If a matching article is found, we check how relevant the publishing website is. We prefer fresher and more up-to-date news. The most relevant articles are sent to you in the alert email. We only select articles that discuss the selected topic significantly while avoiding articles containing only a brief reference to that topic. Additionally, the more people read an article, the more relevant it is.

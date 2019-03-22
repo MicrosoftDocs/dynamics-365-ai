@@ -20,6 +20,8 @@ search.app:
 
 # Market Insights Alerts - track topics that matter to you
 
+(This topic is pre-release documentation and is subject to change.)
+
 Market Insights Alerts are a free offering from Dynamics 365 Market Insights. They are your eyes and ears on the web for a product, brand, or company you want to follow. In a couple of minutes, you can catch up on the most important news related to your topics via a daily or weekly email. [Learn more about creating and managing your alerts.](alerts-management.md)
 
 Market Insights Alerts aim at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The alerts are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments. 

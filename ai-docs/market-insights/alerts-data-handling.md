@@ -13,6 +13,8 @@ ms.author: mhart
 
 # Data handling for Dynamics 365 Market Insights Alerts
 
+(This topic is pre-release documentation and is subject to change.)
+
 To run and improve the service for Market Insights Alerts, we need to store some user data. This article is directed at users of the Market Insights Alerts service. It outlines which data we gather, why we store it, and how you can request to update, export, or delete your personal data.
 
 ## Data storage in Market Insights Alerts

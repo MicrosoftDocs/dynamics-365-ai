@@ -20,6 +20,8 @@ search.app:
 
 # Known issues
 
+(This topic is pre-release documentation and is subject to change.)
+
 Sometimes, things don't work as expected. We're sorry for that. Before reporting a bug, please have a look at this list to see if we are already aware of the issue. 
 
 ## Market Insights Alerts

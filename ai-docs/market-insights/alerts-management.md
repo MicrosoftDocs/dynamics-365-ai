@@ -20,6 +20,8 @@ search.app:
 
 # Manage your alerts
 
+(This topic is pre-release documentation and is subject to change.)
+
 We aim to keep your efforts minimal when managing your alerts. After crating your first alert, you can always return to the start page and add more alerts, or edit existing ones.
 
 ## Sign in to the app
