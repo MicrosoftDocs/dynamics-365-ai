@@ -27,25 +27,27 @@ The **Profiles** page presents a consolidated view of each customer based on pro
 > ![](media/profiles-customers.png "Customer profiles")
 
 
-In view more customers profiles, go to the next **Profiles** page by using the buttons in the lower-right corner of the page.
+To view more customers profiles, go to the next **Profiles** page by using the buttons in the lower-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
 
+<!--RE: the phrase "unified Customer entity" in Note below: Is this a part of the UI? Is there an entity called "Unified Customer"? If so, suggest changing below to **Unified Customer** entity. -->
+
 >[!NOTE]
-> Customer profiles are available once you create the unified Customer entity. Make sure to complete the data configuration process in order to unlock richer views of your customers. Visit the **Configure Data** section to learn more. 
+> Customer profiles are available once you create the unified Customer entity. Make sure you complete the data configuration process in order to unlock richer views of your customers. Visit the **Configure Data** section to learn more. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
 
-After selecting a customer tile, you will see additional information on that specific customer. As shown here, that information might include attributes such as **Country**, **Email**, **Address**, and **Phone** that exist in one or more of your data sources:
+Select a customer tile to see additional information on that specific customer. As shown here, that information might include attributes, such as **Country**, **Email**, **StreetAddress**, and **Phone**, that exist in one or more of your data sources:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-customer-info.png "Customer Card tile customer info")
 
 ## Search for customers
 
-Searching for customers can be done using the **Search** field. You can simply type a value for one of the profile attribute names (for example, the customer’s name). To enable search, an admin needs to configure the searchable attributes on the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
+Search for customers by using the search box. You can simply type a value for one of the profile attribute names (for example, the customer’s name). To enable search, an admin needs to configure the searchable attributes on the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-search.png "Customer Card tile search")
