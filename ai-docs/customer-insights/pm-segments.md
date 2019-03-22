@@ -2,7 +2,7 @@
 title: "Segmentation| MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/13/2019
+ms.date: 03/22/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -21,16 +21,22 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Introduction to Segmentation
+## Introduction to segmentation
 
-The *Segments* capability enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can achieve more targeted actions such as promotional campaigns, sales activities, or customer support actions to achieve desired business goals. You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take actions upon.
+The *Segments* capability enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
+
+You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take action on.
 
 There are two types of segments:
 
-- **Static**: A segment that is processed only once—either upon the creation or update of any of its filters. Such segments are especially useful for cases when properties are not expected to change over time or that are expected to be used only once. Example use case: Customers who attended an expo event. 
-- **Dynamic**: A segment that is processed according to a recurring schedule. These segments are especially useful when customers' attributes change over time. Example use case: Customers who have bought products worth more than $500 in the last three months. The current dynamic segment refresh schedule is every 12 hours.
+- **Static**: A segment that is processed only once—either upon the creation or update of any of its filters. These segments are especially useful when properties are not expected to change over time or when they are expected to be used only once. Example use case: Customers who attended an expo event. 
+- **Dynamic**: A segment that is processed according to a recurring schedule. These segments are especially useful when customers' attributes change over time. Example use case: Customers who have bought products worth more than $500 in the last three months. The current refresh schedule for dynamic segments is every 12 hours.
 
-The following example illustrates the depth of the Customer Insights segmentation capability. Within this complex segmentation scenario, we aim to define a segment for customers who have placed orders of more than $500 in the last 90 days **and** had an escalated case in the last 30 days, so they can be followed up with a satisfaction survey. Later, we will learn how to produce such segments. 
+<!--note from editor: In para below, is "escalated case" a call to customer service that got escalated? Change to "who have been involved in a customer service call that got escalated in the last 30 days."?   -->
+
+The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who have placed orders of more than $500 in the last 90 days **and** who have had an escalated case in the last 30 days. These customers can then be sent a satisfaction survey as a follow-up. 
+
+Later, we will learn how to produce such segments. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-group1-2.png "Mulitple groups")
@@ -42,7 +48,7 @@ The following example illustrates the depth of the Customer Insights segmentatio
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-conceptual.png "System and custom relationships created during configuration")
 
-The preceding example data graph reflects system and custom relationships created during configuration. The data graph helps dictate the sequence by which segmentation filter criteria are defined within the **Segment Editor** page.
+The preceding example graph reflects system and custom relationships created during configuration. The data graph helps dictate the sequence by which segmentation filter criteria are defined within the **Segment Editor** page.
 -->
 
 The following two sections cover segment creation followed by segment exploration.
@@ -201,11 +207,11 @@ You can also perform certain actions with each segment. First, select the follow
 
 Then, choose one of the following options from the drop-down menu:
 - Editing the segment
-- Viewing segment's members
+- Viewing the segment's members
 - Exporting the segment to either a CSV file or to a Customer Engagement location
-- Turning the segment to inactive/active (depends on its baseline state)
+- Turning the segment to inactive or active (depending on its baseline state)
 - Deleting the segment 
-- Pin the segment, which will move it to the top of the screen for better accessibility. The pinned segment will show up under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
+- Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment will show up under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
@@ -230,6 +236,9 @@ The lower part includes a table with all your segment's members.
 Now that you have created one ore more segments using the **Segment builder** page, you are ready to start acting on your data. 
 
 You can export any of your segments to a CSV file from the next two locations.
+
+<!--note from editor:  Please replace screen shot at lines 245/246, under bullet item "The Segments page," that says "POS customers without company loyalty".  -->
+
 
 - The **Segments** page.
 
