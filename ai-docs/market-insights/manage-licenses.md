@@ -36,7 +36,7 @@ If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../
 
 ### Sign up for a new organization on Office 365
 
-1. Sign up on [Office 365](https://portal.office.com/).
+1. Sign up on [Office 365](https://admin.microsoft.com/).
 
 2. Follow the wizard to create your organization and your administrator account.
 
@@ -52,7 +52,7 @@ It takes a few minutes to complete the provisioning process before you can start
 
 Enable users to work with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] by assigning [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
 
-1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
@@ -67,7 +67,7 @@ When you [create an Office 365 user account](https://go.microsoft.com/fwlink/p/?
 When you [remove the assigned license](https://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] license you've assigned to the user.  
 Removing a user's license  from [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain. It takes up to 30 days to reflect the removal of a license in the list of users in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
 
-1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
