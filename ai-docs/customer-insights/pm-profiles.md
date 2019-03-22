@@ -2,7 +2,7 @@
 title: "Customers | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/13/2019
+ms.date: 03/21/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -21,13 +21,13 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Profiles** page presents a consolidated view on each customer, based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
+The **Profiles** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
 
-In order to view more customers profiles, move to the next **Profiles** page using the buttons shown at the bottom of the page.
+In view more customers profiles, go to the next **Profiles** page by using the buttons in the lower-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
