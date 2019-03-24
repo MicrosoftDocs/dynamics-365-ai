@@ -41,8 +41,8 @@ Later, we will learn how to produce such segments.
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-group1-2.png "Mulitple groups")
 
-- Group 1 uses *Order* as the starting entity in order to find customers who have placed an order for more than $500 in the last 90 days.
-- Group 2 uses *Case* as the starting entity in order to find customers who have had an escalated case in the last 30 days.
+- Group 1 uses **Order** as the starting entity in order to find customers who have placed an order for more than $500 in the last 90 days.
+- Group 2 uses **Case** as the starting entity in order to find customers who have had an escalated case in the last 30 days.
 
 <!--
 > [!div class="mx-imgBorder"] 
@@ -55,14 +55,14 @@ The following two sections cover segment creation followed by segment exploratio
 
 ## Creating segments from the Segment page
 
-In order to start creating a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
+To create a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
 If you selected **Add Segment**, you will need to select whether you want to create a static segment or a dynamic segment.
 
-The rest of the segment creation process is done in the **Segment Editor** page.
+The rest of the segment creation process is done on the **Segment Editor** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment.png "New dynamic segment")
@@ -70,7 +70,7 @@ The rest of the segment creation process is done in the **Segment Editor** page.
 ### Step One: Defining the segment's properties
 
 - We will give our segment an informative name and description that will help us identify it in the future, when we'll have multiple segments. 
-- Solely for a dynamic segment, we can also choose to activate it at this point through the slider as shown in the following example. An active (dynamic) segment will automatically incorporate changes that are made to your data with time, while an inactive segment will not incorporate any changes that are made to your data. 
+- In the case of a dynamic segment, we can also choose to activate it at this point through the slider, as shown in the following example. An active (dynamic) segment automatically incorporates changes that are made to your data over time, while an inactive segment does not incorporate any changes that are made to your data. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segments-allcustomers-status-active.png "Define segment")
@@ -87,7 +87,7 @@ In Customer Insights, a group is a set of customers. First, we will explain how 
    > ![](media/segments-group1-define-filter.png "Choose entity")
 
 2. Choose the attribute by which you wish to segment. Our attribute can have one of four value types: numerical, string, date, or Boolean. In the following example, an attribute with a numerical value is used as a filter.
-3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator **Equals** and value *2* were chosen.
+3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator, **Equals**, and value, *2*, were chosen.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/customer-group-numbers.png "Customer group filter")
@@ -99,7 +99,7 @@ In Customer Insights, a group is a set of customers. First, we will explain how 
    |3    |Operator         |
    |4    |Value         |
 
-Note that one of the segmentation strengths of Customer Insights is the rich variety of operators it supports. 
+Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
 
 4. Add entities that are related to that entity until getting to the Customer Profile entity. That can be done using the **ADD** operator. If not already done, we can define the required relationships between our entities using the **Relationships** page (see the “Relationships” section for more information). For these additional entities, we should choose the *All Records* attribute.
 
@@ -111,12 +111,12 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
 
-2. Choose our entity of interest (*ClickStreamData: WebsiteDatabase*) and the attribute by which we wish to segment (*SessionID*).
+2. Choose our entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which we want to segment (**SessionID**).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
 
-3. Select *Operator* and *Value* as was explained earlier.
+3. Select an operator and a value as described earlier.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings2.png "Choose Operator and Value")
@@ -126,7 +126,7 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings3.png "Select ADD")
 
-5. We need to create a path to the Customer Profile entity but currently our entity (ClickstreamData: WebsiteDatabase) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is OnlineAccount: WebsiteDatabase (shown below), and so we will choose it.
+5. We need to create a path to the Customer Profile entity, but currently our entity (**ClickstreamData: WebsiteDatabase**) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is **OnlineAccount: WebsiteDatabase** (shown in the following example), and so we will choose it.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings4.png "Select OnlineAccount: WebsiteDatabase")
@@ -136,7 +136,7 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings5.png "Select All Records")
 
-7. Select again the **ADD** operator. This time, we do have relationship to the Customer Profile entity (which we will select), as shown here.
+7. Select the **ADD** operator again. This time, our entity does have a relationship to the Customer Profile entity (which we will select), as shown here.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-example-entities.png "Select ADD")
@@ -150,6 +150,8 @@ At this point, we have completed the mandatory path definition. We recommend tha
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-save-group-definition.png "Save group definition")
+
+
 
 ### Step Three (optional): Add more conditions to your group 
 
@@ -211,14 +213,14 @@ Then, choose one of the following options from the drop-down menu:
 - Exporting the segment to either a CSV file or to a Customer Engagement location
 - Turning the segment to inactive or active (depending on its baseline state)
 - Deleting the segment 
-- Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment will show up under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
+- Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment appears under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
    
 ## Explore a segment: View processing history and segment members
 
-Select a segment's name in the **Segments** page to get to the page that is shown in the following example. This page consolidates data at the segment level. The upper part of the page includes a trend graph that specifies changes in this segment's members count. In addition, hovering over each data point shows the member count for that point. Lastly, above the graph, you can find the current member count as well as last week's growth. 
+Select a segment's name in the **Segments** page to get to the page shown in the following example. This page consolidates data at the segment level. The upper part of the page includes a trend graph that specifies changes in this segment's member count. In addition, hovering over each data point shows the member count for that point. Above the graph, you can find the current member count and last week's growth. 
 
 As highlighted in this example, you can adjust the trend's time scope as well (last 30 days, last 60 days, and so on).
 
@@ -237,7 +239,7 @@ Now that you have created one ore more segments using the **Segment builder** pa
 
 You can export any of your segments to a CSV file from the next two locations.
 
-<!--note from editor:  Please replace screen shot at lines 245/246, under bullet item "The Segments page," that says "POS customers without company loyalty".  -->
+<!--note from editor:  Recommend replacing screen shot at lines 245/246, under bullet item "The Segments page," that says "POS customers without company loyalty" with a screen shot that has "POS" spelled out--Point of Sale?  -->
 
 
 - The **Segments** page.
