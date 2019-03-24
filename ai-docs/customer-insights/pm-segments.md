@@ -23,7 +23,7 @@ manager: "kvivek"
 
 ## Introduction to segmentation
 
-The *Segments* capability enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
+The segmentation capability of Customer Insights enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
 
 You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take action on.
 
@@ -53,21 +53,21 @@ The preceding example graph reflects system and custom relationships created dur
 
 The following two sections cover segment creation followed by segment exploration.
 
-## Creating segments from the Segment page
+## Create segments from the Segment page
 
 To create a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
-If you selected **Add Segment**, you will need to select whether you want to create a static segment or a dynamic segment.
+If you select **Add Segment**, choose whether you want to create a static segment or a dynamic segment.
 
 The rest of the segment creation process is done on the **Segment Editor** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dynamic-segment.png "New dynamic segment")
 
-### Step One: Defining the segment's properties
+### Step One: Define the segment's properties
 
 - We will give our segment an informative name and description that will help us identify it in the future, when we'll have multiple segments. 
 - In the case of a dynamic segment, we can also choose to activate it at this point through the slider, as shown in the following example. An active (dynamic) segment automatically incorporates changes that are made to your data over time, while an inactive segment does not incorporate any changes that are made to your data. 
@@ -75,19 +75,21 @@ The rest of the segment creation process is done on the **Segment Editor** page.
 > [!div class="mx-imgBorder"] 
 > ![](media/segments-allcustomers-status-active.png "Define segment")
    
-### Step Two: Creating a first group 
+### Step Two: Create a first group 
 
-In Customer Insights, a group is a set of customers. First, we will explain how a group can be defined. We will provide an example right after this explanation.
+In Customer Insights, a group is a set of customers. 
 
-**For each group's definition:**
+**Define a group**
 
-1. Choose the entity that includes the specific attribute you wish to segment by. For example, choose an Orders entity, since it includes an **Order Value** field by which we want to segment. In order to choose your entity of interest, select the field shown here.
+<!--note from editor:  Please clarify step 4 below--"until getting to the Customer Profile entity"  -->
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/segments-group1-define-filter.png "Choose entity")
+1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an **Order Value** field by which we want to segment. In order to choose your entity of interest, select the field shown here.
 
-2. Choose the attribute by which you wish to segment. Our attribute can have one of four value types: numerical, string, date, or Boolean. In the following example, an attribute with a numerical value is used as a filter.
-3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator, **Equals**, and value, *2*, were chosen.
+    > [!div class="mx-imgBorder"] 
+    > ![](media/segments-group1-define-filter.png "Choose entity")
+
+2. Choose the attribute by which you want to segment. Our attribute can have one of four value types: numerical, string, date, or Boolean. In the following example, an attribute with a numerical value is used as a filter.
+3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator, **Equals**, and value, **2**, were chosen.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/customer-group-numbers.png "Customer group filter")
@@ -99,9 +101,9 @@ In Customer Insights, a group is a set of customers. First, we will explain how 
    |3    |Operator         |
    |4    |Value         |
 
-Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
+  Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
 
-4. Add entities that are related to that entity until getting to the Customer Profile entity. That can be done using the **ADD** operator. If not already done, we can define the required relationships between our entities using the **Relationships** page (see the “Relationships” section for more information). For these additional entities, we should choose the *All Records* attribute.
+4. Add entities that are related to that entity until getting to the Customer Profile entity. That can be done using the **ADD** operator. You can define the required relationships between entities using the **Relationships** page (see the “Relationships” section for more information). For these additional entities, choose the **All Records** attribute.
 
 ### Example - Group Creation
 Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
@@ -151,7 +153,7 @@ At this point, we have completed the mandatory path definition. We recommend tha
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-save-group-definition.png "Save group definition")
 
-
+<!--note from editor: step 6 above: is "All Records" an operator, or an attribute (line 106), or both?   -->
 
 ### Step Three (optional): Add more conditions to your group 
 
@@ -167,7 +169,7 @@ The following two logical operators can be used for that purpose:
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-either-condition.png "Either conditions met")
 
-**Note**: Currently, it's possible to nest an OR operator under an AND operator but not vice versa.
+Note that currently, it's possible to nest an **OR** operator under an **AND** operator but not vice versa.
 
 ### Step Four (optional): Combine multiple groups via set operators
 
@@ -176,25 +178,30 @@ Each group produces a specific set of customers. Start by selecting **Add Group*
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-add-group.png "Customer group add group")
 
-Then three set operators will show up: **Union**, **Intersect**, and **Exclude**.
+Three set operators are displayed: **Union**, **Intersect**, and **Exclude**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-union.png "Customer group add union")
-  
-Selecting each of these set operators enables you to define a new group. At the same time, saving each of these will lead to a different result.
+ 
+<!--note from editor: Change the sentences below to  "Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained." ? -->
+ 
+Selecting a set operator enables you to define a new group. At the same time, saving each of these will lead to a different result.
 
-- **Union** will unite the new group you have created in Step Four with the group you have created in Steps Two and Three. Under this option, data that is common to both groups is maintained, as well as data that is not common to both groups.
+- **Union** unites the new group you have created in Step Four with the group you have created in Steps Two and Three. With this option, data that is common to both groups is maintained, as well as data that is not common to both groups.
 
-- **Intersect** will intersect the two groups. Only data that is common to both groups is maintained in the unified group.
+- **Intersect** intersects the two groups. Only data that is common to both groups is maintained in the unified group.
 
-- **Exclude** will exclude the two groups. Only data that is not common to both groups is maintained.
+- **Exclude** excludes the two groups. Only data that is not common to both groups is maintained.
    
 ## Explore segments from the Segments page
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segments-list2.png "Explore segments")
 
-Here, you can view all your saved segments and perform certain actions.
+<!--note from editor: Elaborate on what "certain actions" means.   -->
+
+
+On the Segments page, you can view all your saved segments and perform certain actions.
 
 - Dynamic segments appear to the left, and static segments appear to the right.
 - Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trendline to see last week's growth in this segment's members count. If you prefer to view all of your segments in a table format, select one of the following:
