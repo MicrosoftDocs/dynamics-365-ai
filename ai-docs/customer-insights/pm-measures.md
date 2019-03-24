@@ -75,11 +75,11 @@ After selecting the **Business Measure** option, you will see the **New business
 > [!div class="mx-imgBorder"] 
 > ![](media/new-business-measure.png "New business measure")
 
-- **Name** (mandatory): After completing the configuration of your measure, it shows up in the **Measures** page under this name.
+- **Name** (mandatory): After completing the configuration of your measure, it appears on the **Measures** page under this name.
 - **Display name** (optional): As mentioned earlier, your measure is added as an attribute or saved as a new entity. In both cases, the measure carries over the Display Name to the home page and Customer Card.
 - **Starting entity** (mandatory): Choose the entity based on how you want to construct your measure. If you want to include fields from multiple entities in your measure fields, choose any of these entities.  
 
-<!--note from editor:  Change "Starting entity" description to: "An entity you choose based on how you want to construct your measure."  The second sentence is confusing.-->
+<!--note from editor:  Change "Starting entity" description to: "An entity you choose based on how you want to construct your measure."  In 2nd sentence, which entities are being referred to in phrase "choos any of these entities"?-->
 
 You see the **New profile measure** pane when you select the **Customer Measure** option:
 
@@ -132,10 +132,12 @@ Complete these steps:
 3. Choose a field from the list of fields to the right of the **Expression** area.
 4. Type an expression in the **Expression** area while choosing more fields. 
 
-  >[!NOTE]
-  >Currently, Customer Insights supports arithmetic expressions only.
+   >[!NOTE]
+   >Currently, Customer Insights supports arithmetic expressions only.
 
 5. Select **Done**.
+
+<!--note from editor: Step 4 above unclear--do you type in the Expression area, or is it filled in when you select fields? -->
 
 In the following example, we have defined a calculation for the relative contribution of a single purchase to the Customer Lifetime Value (CLTV).
 
@@ -153,7 +155,7 @@ be grouped by all of your defined dimensions.
 
 <!--note from editor: In the para below and elsewhere, is it "Measures" entity or "Measure" entity?   -->
 
-In the following example, we have defined **State** as the dimension field of the **BusinessReport: Customer 360** Measures entity. On the **Entities** screen, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
+In the following example, we have defined **State** as the dimension field of the **BusinessReport: Customer 360** Measures entity. On the screen, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
@@ -178,7 +180,7 @@ Select or enter the following information as part of your dimension's definition
 >Your **Business measure** will be saved as a single-number entity and will appear on the home page unless you complete Step 2 below (adding more dimensions to your measure). If you complete Step 2, the measure will **not** show up on the home page.
   
  
-**Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just gone through.
+**Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just illustrated.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-dimension.png "New dimension")
@@ -194,6 +196,8 @@ For example, let's assume that we have added the aggregated value **Average Serv
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-aggregated-field-example.png "Aggregated field example")
 
+<!--note from editor: is name of new measure "Aggregated Example" or "AggregatedFieldExample" ?  -->
+
 When visiting the **Entities** page and choosing the new measure we have just created (called **Aggregated Example**), we can see that our aggregation formula has created the new value **Average Service Amount**.
 
 > [!div class="mx-imgBorder"] 
@@ -203,24 +207,24 @@ Let's explore the steps involved in defining a new value.
 
 1. First, select **New value**.
 
- > [!div class="mx-imgBorder"] 
- > ![](media/measure-definition3.png "Measure definition")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/measure-definition3.png "Measure definition")
 
 2. Then, make your selections.
 
- > [!div class="mx-imgBorder"] 
- > ![](media/measure-definition4.png "Measure definition")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/measure-definition4.png "Measure definition")
 
- - **Function**: At present, we support **Sum**, **Min**, **Max**, **Count** and **Unique Count** as aggregation options. <br />
- - **Entity/Variable**: Choose the entity that includes the attribute on which you wish to base your calculation. You can also choose a variable if you created one as part of Step Four. <br />
- - **Field**: Choose the specific attribute or variable on which you want to base your calculation. <br />
- - **As**: Your calculation will result in a new value. Define the name of your new value in the Measures entity/attribute. <br />
- - **Display Name**: Define the display name of your new value in the Measures entity/attribute.
+  - **Function**: At present, we support **Sum**, **Min**, **Max**, **Count** and **Unique Count** as aggregation options. <br />
+  - **Entity/Variable**: Choose the entity that includes the attribute on which you want to base your calculation. You can also choose a variable if you created one as part of Step Four. <br />
+  - **Field**: Choose the specific attribute or variable on which you want to base your calculation. <br />
+  - **As**: Your calculation will result in a new value. Define the name of your new value in the Measures entity/attribute. <br />
+  - **Display Name**: Define the display name of your new value in the Measures entity/attribute.
 
 3. Save your measure.
 
- > [!div class="mx-imgBorder"] 
- > ![](media/measure-definition-save.png "Measure definition")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/measure-definition-save.png "Measure definition")
 
 ## View and edit your measures 
 
@@ -232,11 +236,11 @@ Once you have completed your first measure, you'll see the following page summar
 
 <!--note from editor:Confused about what sentence below refers to: is it referencing line 167, "First, select **New Measure**"?   -->
 
-At any time, you can create a new measure via **Add Measure** shown earlier.
+At any time, you can create a new measure by selecting **Add Measure** as discussed earlier.
 
 <!--note from editor: in sentence below, change "following button" to "**Measure menu** button"?   -->
 
-You can also edit, delete or rename the data of any of your created measures by first selecting the following button.
+You can also edit, delete, or rename the data of any of your created measures by first selecting the following button.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-menu.png "Measure menu")
