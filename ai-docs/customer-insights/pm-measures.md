@@ -35,17 +35,17 @@ Once you define measures, you can benefit in a variety of ways. For example:
 
 Customer Insights supports three types of measures:
 
-- **Customer Attribute**: This measure is a single value per customer that reflects a score, value, or state for the customer. Profile attributes are created as attributes in a new system-generated entity called **Customr_Measure.** Examples are *Lifetime Value* and *Total Sales*.
+- **Customer attribute**: This measure is a single value per customer that reflects a score, value, or state for the customer. Profile attributes are created as attributes in a new system-generated entity called **Customr_Measure.** Examples are *Lifetime Value* and *Total Sales*.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-customer-entity.png "Customer_Measure attribute")
 
-- **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity is generated for each measure, with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
-- **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*.
+- **Customer measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity is generated for each measure, with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
+- **Business measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*.
 
 There are two possible outputs for a business measure:
-    - A single-number measure that displays on the home page.
-    - A new entity.
+ - A single-number measure that displays on the home page.
+ - A new entity.
 
 Later we show how to create these outputs.
 
@@ -69,6 +69,7 @@ To begin defining a measure, from the **Measures** page, select **New Measure**:
 Selecting **New Measure** opens the measure creation pane. 
 
 After selecting the **Business Measure** option, you will see the **New business measure** pane:
+
 <!--note from editor: instead of "see the following", say "be asked to enter the following information", followed by list; then put screen shot after list.  -->
 
 > [!div class="mx-imgBorder"] 
