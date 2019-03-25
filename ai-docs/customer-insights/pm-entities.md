@@ -50,13 +50,13 @@ When you open the **Entities** page, the **Data** tab is selected by default (sh
 
 After selecting the **Fields** tab, the **Fields** table appears. You can use this table to view all the details for the selected entity, such as field names, data types, and types. Items in the **Type** column are  Common Data Model-associated types, which can differ from those records' data types if those are not Common Data Model-related.
 
-<!--note from editor: I don't understand the above para.   -->
+<!--note from editor: I don't understand the last sentence in the above para.   -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-fields.png "Data manager fields")
 
-Both the **Fields** table and the **Data** table show only a sample of your entity's data. In order to view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
+Both the **Fields** table and the **Data** table show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
-## Next step
-
-Continue to the **Configure data** section, where you will learn how to complete the three mandatory data configuration phases: *Map*, *Match*, and *Merge*.
+### Next step
+<!--note from editor: add links to topics   -->
+See the **Configure data** section to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.
