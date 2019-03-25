@@ -39,7 +39,7 @@ The following example illustrates the depth of the Customer Insights segmentatio
 Later, we will learn how to produce such segments. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/segmentation-group1-2.png "Mulitple groups")
+> ![](media/segmentation-group1-2.png "Multiple groups")
 
 - Group 1 uses **Order** as the starting entity in order to find customers who have placed an order for more than $500 in the last 90 days.
 - Group 2 uses **Case** as the starting entity in order to find customers who have had an escalated case in the last 30 days.
