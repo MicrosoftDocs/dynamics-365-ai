@@ -80,7 +80,7 @@ After selecting the **Business Measure** option, you will see the **New business
 - **Display name** (optional): As mentioned earlier, your measure is added as an attribute or saved as a new entity. In both cases, the measure carries over the Display Name to the home page and Customer Card.
 - **Starting entity** (mandatory): Choose the entity based on how you want to construct your measure. If you want to include fields from multiple entities in your measure fields, choose any of these entities.  
 
-<!--note from editor:  Change "Starting entity" description to: "An entity you choose based on how you want to construct your measure."  In 2nd sentence, which entities are being referred to in phrase "choos any of these entities"?-->
+<!--note from editor:  Change "Starting entity" description to: "An entity you choose based on how you want to construct your measure."  In 2nd sentence, which entities are being referred to in phrase "choose any of these entities"?-->
 
 You see the **New profile measure** pane when you select the **Customer Measure** option:
 
