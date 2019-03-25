@@ -37,7 +37,7 @@ If you are a trial user, make sure you switch from a demo environment before you
 
 The Customer Insights home page provides you with a holistic view of your customer base and metrics to track the health of your business. You first need to take a few steps to onboard, configure, and enrich your data in order for the insights to show up on the home page. 
 
-Through the data manager and unify processes, you will take datasets that are siloed and disconnected, and create a unified dataset of your customers. Then, you can use capabilities such as *Measures*, *Enrich Profiles*, and *Activities* to unlock richer insights. Lastly, you will use capabilities such as *Segments* and *Customer Card* to utilize and act upon the new insights.
+Through the data manager and unify processes, you will take datasets that are siloed and disconnected, and create a unified dataset of your customers. Then, you can use capabilities such as *Measures*, *Enrich Profiles*, and *Activities* to unlock richer insights. Lastly, you will use capabilities such as *Segments* and *Customer Card* to act on the new insights.
 
 The following image shows the types of insights you can expect to view on the home page.
 
