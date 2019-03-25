@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Measures** page enables you to define all the key performance indicators (KPIs) that best reflect the performance and health of your specific business. You can define customer-related measures such as *Lifetime Value* and business-health measures such as *Monthly Active Users*. Customer Insights provides an intuitive experience for building different types of measures, with a query-builder wizard that doesn’t require you to manually code or validate a query. 
+The **Measures** page enables you to define all the key performance indicators (KPIs) that best reflect the performance and health of your specific business. You can define customer-related measures such as Lifetime Value and business-health measures such as Monthly Active Users. Customer Insights provides an intuitive experience for building different types of measures, with a query-builder wizard that doesn’t require you to manually code or validate a query. 
 
 Once you define measures, you can benefit in a variety of ways. For example:
 
@@ -37,12 +37,13 @@ Customer Insights supports three types of measures:
 
 - **Customer attribute**: This measure is a single value per customer that reflects a score, value, or state for the customer. Profile attributes are created as attributes in a new system-generated entity called **Customr_Measure.** Examples are *Lifetime Value* and *Total Sales*.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/measures-customer-entity.png "Customer_Measure attribute")
+ > [!div class="mx-imgBorder"] 
+ > ![](media/measures-customer-entity.png "Customer_Measure attribute")
 
-- **Customer measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity is generated for each measure, with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
-- **Business measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*.
+- **Customer measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity is generated for each measure, with potential multiple records per customer. Examples: Number of visits per channel and Total sales per day.
+- **Business measure**: This measure helps you track your business performance and health. Examples: Average sales per customer and MAU.
 
+<!--note from editor: what does MAU stand for?   -->
 There are two possible outputs for a business measure:
  - A single-number measure that displays on the home page.
  - A new entity.
@@ -120,7 +121,7 @@ In order to choose additional entities, select **Add new entity**, and choose th
 
 <!--note from editor:  names of panes: text should match UI   -->
 
-Select **New variable** to open the **New Variable** pane.
+Select **New variable** to open the **New variable** pane.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-variable-name.png "New variable name")
@@ -144,13 +145,13 @@ In the following example, we have defined a calculation for the relative contrib
 > [!div class="mx-imgBorder"] 
 > ![](media/new-variable-name2.png "New variable name")
 
-## Step Five: Define your measure entity/attribute
+## Step Five: Define your Measure entity or attribute
 
 In this step, you will decide how to aggregate and summarize your chosen entities and calculated variables into a Measures entity or attribute. 
 
 **Step 1: Defining first dimension**
 
-What is a dimension? You can think of a dimension as a “group by” function: The data within your new Measures entity or attribute will 
+What is a dimension? You can think of a dimension as a “group by” function: The data within your new Measure entity or attribute will 
 be grouped by all of your defined dimensions.
 
 <!--note from editor: In the para below and elsewhere, is it "Measures" entity or "Measure" entity?   -->
@@ -165,19 +166,19 @@ Select or enter the following information as part of your dimension's definition
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition2.png "Measure definition")
 
-**Entity/variable**: If you define a Measures entity, it should include at least one attribute. If you define a Measures attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
-**Field**: Choose the specific attribute to be included either in your Measures entity or attribute. <br />
+**Entity/variable**: If you define a Measures entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
+**Field**: Choose the specific attribute to be included either in your Measure entity or attribute. <br />
 **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you have selected a Date type of attribute. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-measure-definition2.png "Measure definition")
 
-**As**: Defines the name of your new field in the Measures entity or attribute. <br />
-**Display Name**: Defines the display name of your field in the Measures entity or attribute.
+**As**: Defines the name of your new field in the Measure entity or attribute. <br />
+**Display Name**: Defines the display name of your field in the Measure entity or attribute.
 
 
 >[!NOTE]
->Your **Business measure** will be saved as a single-number entity and will appear on the home page unless you complete Step 2 below (adding more dimensions to your measure). If you complete Step 2, the measure will **not** show up on the home page.
+>Your Business measure will be saved as a single-number entity and will appear on the home page unless you complete Step 2 below (adding more dimensions to your measure). If you complete Step 2, the measure will **not** show up on the home page.
   
  
 **Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just illustrated.
@@ -205,26 +206,26 @@ When visiting the **Entities** page and choosing the new measure we have just cr
 
 Let's explore the steps involved in defining a new value.
 
-1. First, select **New value**.
+ 1. First, select **New value**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/measure-definition3.png "Measure definition")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/measure-definition3.png "Measure definition")
 
-2. Then, make your selections.
+ 2. Then, make your selections.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/measure-definition4.png "Measure definition")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/measure-definition4.png "Measure definition")
 
-  - **Function**: At present, we support **Sum**, **Min**, **Max**, **Count** and **Unique Count** as aggregation options. <br />
-  - **Entity/Variable**: Choose the entity that includes the attribute on which you want to base your calculation. You can also choose a variable if you created one as part of Step Four. <br />
-  - **Field**: Choose the specific attribute or variable on which you want to base your calculation. <br />
-  - **As**: Your calculation will result in a new value. Define the name of your new value in the Measures entity/attribute. <br />
-  - **Display Name**: Define the display name of your new value in the Measures entity/attribute.
+   - **Function**: At present, we support **Sum**, **Min**, **Max**, **Count** and **Unique Count** as aggregation options. <br />
+   - **Entity/Variable**: Choose the entity that includes the attribute on which you want to base your calculation. You can also choose a variable if you created one as part of Step Four. <br />
+   - **Field**: Choose the specific attribute or variable on which you want to base your calculation. <br />
+   - **As**: Your calculation will result in a new value. Define the name of your new value in the Measures entity/attribute. <br />
+   - **Display Name**: Define the display name of your new value in the Measures entity/attribute.
 
-3. Save your measure.
+ 3. Save your measure.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/measure-definition-save.png "Measure definition")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/measure-definition-save.png "Measure definition")
 
 ## View and edit your measures 
 
@@ -250,11 +251,11 @@ Choose from the **Options** drop-down menu.
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-menu2.png "Measure menu")
 
-Here is an example of the **Rename measures** window.
+Here is an example of the **Rename measure** window.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/rename-measure.png "Rename measure")
 
-## Next Step
+## Next step
 Make sure to visit the **Unify** section if you haven't yet completed the data configuration process. Upon the completion of the Unify modules, you might want to use the measure you have just created to create your first customers' segment using the **Segments** page. You can also unlock more insights via the **Activities** and **Enrich Profiles** pages.
 
