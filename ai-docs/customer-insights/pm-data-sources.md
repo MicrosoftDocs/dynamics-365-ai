@@ -95,7 +95,7 @@ Also--is the Power Query window something customers are familiar with?-->
 2. You can also edit and transform the data. First, choose an entity to edit or transform. Then, open one of the menus (see #2 in the preceding image) located at the top of the Power Query window to find a specific transformation. Each transformation is added as a processing step (see #3 in the preceding image), which can be modified as needed.
 
    >[!NOTE]
-   >It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*Segmentation, Match, Merge*, etc). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes. 
+   >It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*segmentation*, *match*, or *merge*, for example). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes. 
 
 
 3. You can add additional entities to your data source by selecting **Get data**, as shown in the following example.
@@ -173,5 +173,5 @@ Follow these steps to edit an existing data source.
 ### Next steps:
 <!--note from editor:  link to topics  -->
 
-At this point, you are ready to unlock unique customer insights through the mandatory **Unify data** sections (those include Map, Match, and Merge). If you first want to review all the entities that were ingested, see **Entities**. 
+At this point, you are ready to unlock unique customer insights. See the **Unify**, **Map**, **Match**, and **Merge** topics. If you want to review all the entities that were ingested first, see **Entities**. 
 
