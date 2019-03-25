@@ -81,9 +81,10 @@ Follow these steps to load data into Customer Insights:
 
 <!--note from editor: In Step 4, list after screen shot: confirming that the minus sign outlined in blue = successfully ingested and checkmark outlined in red = no data ingested. -->
 
-In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of those datasets (an Orders dataset or Sales dataset, for example) is an entity. 
+In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of them (an Orders dataset or Sales dataset, for example) is an entity. 
 
-<!--note from editor: Is there a difference between "edit" and "transform" in the list item #2?   -->
+<!--note from editor: Is there a difference between "edit" and "transform" in the list item #2? 
+Also--is the Power Query window something customers are familiar with?-->
 
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source appear in the left pane (#1):
 
@@ -128,7 +129,7 @@ In this step, you add entities to your data source. In Customer Insights, entiti
 
    - Data was successfully ingested (see #1 in the preceding image).
    - No data was ingested yet (see #2 in the preceding image).
-   - Data is still loading into Customer Insights (represented by a *warning sign* icon see #3in the preceding image).
+   - Data is still loading into Customer Insights (represented by a warning sign icon; see #3 in the preceding image).
 
    At this point, you should refresh the data source that you just saved. Select the button shown in the following image, and then select **Refresh**.
 
