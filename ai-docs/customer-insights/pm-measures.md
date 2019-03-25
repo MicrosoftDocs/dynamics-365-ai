@@ -167,7 +167,7 @@ Select or enter the following information as part of your dimension's definition
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-definition2.png "Measure definition")
 
-**Entity/variable**: If you define a Measures entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
+**Entity/variable**: If you define a Measure entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
 **Field**: Choose the specific attribute to be included either in your Measure entity or attribute. <br />
 **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you have selected a Date type of attribute. 
 
