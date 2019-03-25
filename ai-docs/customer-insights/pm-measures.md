@@ -33,13 +33,13 @@ Once defined, you can benefit from your measures in a variety of ways. For examp
 
 Customer Insights supports three types of measures:
 
-- **Customer Attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customr_Measure.** (can be viewed on the *Entities* screen). Examples are *Lifetime Value* and *Total Sales*.
+- **Customer Attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customr_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-customer-entity.png "Customer_Measure attribute")
 
-- **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure (can be viewed on the *Entities* screen), with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
-- **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*. Can be created either as a single-number measure that will show up on the *Home* page (default state), or as an entity once one a dimension is added to it (new entity will show up in the *Entities* screen).
+- **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure (can be viewed on the **Entities** page), with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
+- **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*. Can be created either as a single-number measure that will show up on the **Home** page (default state), or as an entity once one a dimension is added to it (new entity will show up in the **Entities** page).
 
 You will first select the type of measure when you select **New Measure**:
 
@@ -116,7 +116,7 @@ In this step, you will decide how to aggregate and summarize your chosen entitie
 
 What is a dimension? You can think of a dimension as a **Group by** function: The data within your new Measures entity or attribute will be grouped by all of your defined dimensions.
 
-In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity that we have just created on the **Entities** screen, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
+In the example below, we have defined **State** as the dimension field of our **BusinessReport: Customer 360** Measures entity. Upon visiting the Measures entity that we have just created on the **Entities** page, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
@@ -190,10 +190,10 @@ Once you have completed your first measure, you'll see the following page summar
 > ![](media/new-measure.png "New measure")
 
 As mentioned before, you can also view your created measure in one of the folloiwng ways:
-- If created a **Customer measure**, you can view your new measure entity on the *Entities screen*.  
-- If created a **Customer attribute**, you can view your new attribute on the *Entities screen* - look for the *Customer_Measure* entity.
-- If created a **Business measure** with no dimensions, you can view your created measure on *Home page* (under *Insights* section). 
-- Lastly, if you created a **Business measure** with one or more dimensions, you can find your new measure entity on the *Entities screen*. 
+- If created a **Customer measure**, you can view your new measure entity on the **Entities** page.  
+- If created a **Customer attribute**, you can view your new attribute on the **Entities** page - look for the *Customer_Measure* entity.
+- If created a **Business measure** with no dimensions, you can view your created measure on **Home** page (under *Insights* section). 
+- Lastly, if you created a **Business measure** with one or more dimensions, you can find your new measure entity on the **Entities** page. 
 
 <!--note from editor:Confused about what sentence below refers to: is it referencing line 167, "First, select **New Measure**"?   -->
 
