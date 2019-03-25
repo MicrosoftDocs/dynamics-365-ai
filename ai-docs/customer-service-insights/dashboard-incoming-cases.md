@@ -26,7 +26,7 @@ The New cases dashboard includes a variety of charts with graphical views of you
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
 * [Case timing](#case-timing-chart)
-* [Popular topics (AI Insights)](#current-popular-topics-chart)
+* [Popular topics (AI Insights)](#popular-topics-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The Popular topics and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
