@@ -132,12 +132,12 @@ To see additional information about each topic, right-click the topic name, hove
 > [!div class="mx-imgBorder"]
 > ![Emerging topics chart](media/ai-csi-top-resolve-time.png)
 
-The Emerging topics chart displays support topics that have a high volume of change in order of volume over the specified time period.
+The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 
 Description | Details
 ----------- | -------
 Topic | Artificial intelligence clustering of cases based on language understanding applied to case titles
-Volume change | The percent change in volume over the specified time period
+Volume change | The incoming volume of cases associated with this topic in the current period minus the incoming volume of cases associated with this topic in the previous period
 Total cases | The total cases associated with this topic
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).

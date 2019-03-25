@@ -58,7 +58,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    
 ## Ingest data from Dynamics 365
 
-1. Select **Common Data Service for Apps**.
+1. Select **Common Data Service**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-cds.png "Select Common Data Service")
