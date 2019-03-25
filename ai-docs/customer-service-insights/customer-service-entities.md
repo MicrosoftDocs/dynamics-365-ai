@@ -53,7 +53,7 @@ For more information about the Case entity, see [Case Entity Reference](https://
 
 ## CaseResolution entity
 
-The CaseResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the CaseResolution entity to compute case resolution time. If the CaseResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Case entity](#incident-case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the CaseResolution entity:
+The CaseResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the CaseResolution entity to compute case resolution time. If the CaseResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Case entity](#case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the CaseResolution entity:
 
 Attributes | Type | Details
 -----------|------|--------
