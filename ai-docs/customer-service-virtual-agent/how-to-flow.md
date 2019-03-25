@@ -154,7 +154,6 @@ You can enable you virtual agent to perform an action by invoking a Microsoft Fl
 
     In the Properties pane, select **Create variable** to display the **Create new variable** window.
 
-   > [!div class="mx-imgBorder"]
    > ![Create new variable](media/create-new-variable.png)
 
     For more information on creating variables, see [Work with variables](how-to-variables.md).
