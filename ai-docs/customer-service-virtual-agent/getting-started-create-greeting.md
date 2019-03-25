@@ -14,7 +14,7 @@ manager: shellyha
 
 # Creating a custom greeting for your virtual agent
 
-A customer can start a conversation with a virtual agent by entering any trigger phrase that starts a conversation defined by a topic. In many cases, the conversation starts with a simple greeting, such as *Hello* or *Good morning*. To help you handle this common situation, Virtual Agent Designer automatically includes a built-in Greeting system topic when you create a virtual agent, which you can customize.
+A customer can start a conversation with a virtual agent by entering any trigger phrase that starts a conversation defined by a topic. Sometimes the customer may start a conversation with a simple greeting, such as *Hello* or *Good morning*. To help you handle this common situation, Virtual Agent Designer automatically includes a built-in Greeting system topic when you create a virtual agent, which you can customize.
 
 Customizing your greeting gives you an opportunity to let the customer know that they are interacting with a virtual agent rather than a human agent, and to tailor the virtual agent to reflect your organization's personality.
 
