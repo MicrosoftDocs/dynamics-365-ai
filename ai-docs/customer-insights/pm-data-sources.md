@@ -33,7 +33,7 @@ Dynamics 365 for Customer Insights lets you bring together data from many source
 
 You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector. 
 
-To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of your data sources.
+To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of them.
 
 <!--note from editor: Suggest deleting the below heading and changing the level 3 headings to Level 2 so they show up in right-hand nav. This also eliminates a level 2 heading without any text except a note.  -->
 
@@ -62,16 +62,16 @@ Follow these steps to load data into Customer Insights:
 
 4. Choose one of the many connectors that are available.
   
-  >[!NOTE]
-  > Some of the following data sources are not yet supported, such as OData. 
+   >[!NOTE]
+   > Some of the data sources (such as OData) shown in the following image are not yet supported. 
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-select-source.png "Get data select source")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/data-manager-get-select-source.png "Get data select source")
 
-   - To load data from Customer Engagement, choose the  **Common Data Service for Apps** connector.
+    To load data from Customer Engagement, choose the  **Common Data Service for Apps** connector.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
+     > [!div class="mx-imgBorder"] 
+     > ![](media/data-manager-get-data-connection-settings.png "Get data connection settings")
    
 5. After you choose a connector, you are required to fill in some fields. For guidance on filling in fields for some of the most common data sources (for example, Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).  
 
@@ -81,7 +81,7 @@ Follow these steps to load data into Customer Insights:
 
 <!--note from editor: In Step 4, list after screen shot: confirming that the minus sign outlined in blue = successfully ingested and checkmark outlined in red = no data ingested. -->
 
-In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of those datasets is an entity (an Orders dataset or Sales dataset, for example). 
+In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of those datasets (an Orders dataset or Sales dataset, for example) is an entity. 
 
 <!--note from editor: Is there a difference between "edit" and "transform" in the list item #2?   -->
 
@@ -93,23 +93,23 @@ In this step, you add entities to your data source. In Customer Insights, entiti
 
 2. You can also edit and transform the data. First, choose an entity to edit or transform. Then, open one of the menus (see #2 in the preceding image) located at the top of the Power Query window to find a specific transformation. Each transformation is added as a processing step (see #3 in the preceding image), which can be modified as needed.
 
-  >[!NOTE]
-  >It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*Segmentation, Match, Merge*, etc). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes. 
+   >[!NOTE]
+   >It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*Segmentation, Match, Merge*, etc). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes. 
 
 
-3. You can add additional entities to your data source by selecting **Get data** as shown in the following example.
+3. You can add additional entities to your data source by selecting **Get data**, as shown in the following example.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/data-source-get-data.png "Get Data")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/data-source-get-data.png "Get Data")
 
-These transformations are highly recommended:
+ These transformations are highly recommended:
 
-   - If you are ingesting data from a CSV file, and the first row has headers, you should open the **Transform table** menu and then select the **Use headers as first row** option.
+  - If you are ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-transform-table.png "Get data transform table")
 
-   - In addition, it is recommended that you map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. In order to do so, select **Map to Standard**, and then map fields from your source data to Common Data Model fields.
+  - We also recommend that you map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. To do this, go to **Map to Standard**, and then map fields from your source data to Common Data Model fields.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-map-entity.png "Map to standard entity")
@@ -124,18 +124,18 @@ These transformations are highly recommended:
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-datasource-added.png "Data source added")
 
-  You will see the name of each ingested data source, as well as the last time the data was refreshed for that data source and the status of the data source. There are three possible statuses:
+   You will see the name of each ingested data source, as well as the last time the data was refreshed for that data source and the status of the data source. There are three possible statuses:
 
-  - Data was successfully ingested (see #1 in the preceding image).
-  - No data was ingested yet (see #2 in the preceding image).
-  - Data is still loading into Customer Insights (represented by a *warning sign* icon see #3in the preceding image).
+   - Data was successfully ingested (see #1 in the preceding image).
+   - No data was ingested yet (see #2 in the preceding image).
+   - Data is still loading into Customer Insights (represented by a *warning sign* icon see #3in the preceding image).
 
-  At this point, you should refresh the data source that you just saved. Select the button shown in the following image, and then select **Refresh**.
+   At this point, you should refresh the data source that you just saved. Select the button shown in the following image, and then select **Refresh**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-sources-refresh.png "Data sources refresh")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-sources-refresh.png "Data sources refresh")
 
-  Repeat the same steps for each data source you want to ingest into Customer Insights.
+   Repeat the same steps for each data source you want to ingest into Customer Insights.
 
 
 <!--note from editor:  Info in #3 above, the text from "These transformations are highly recommended" to the end of list item #3 seems like it should be in its own bullet item, separate from "You an add additional entities....."  -->
