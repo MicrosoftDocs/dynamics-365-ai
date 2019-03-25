@@ -114,14 +114,15 @@ In order to choose additional entities, select **Add new entity**, and choose th
 > You can select only those entities that have relationships to your starting entity. If you haven't defined relationships yet, see the **Relationships** section.
 
 ## Step Four: Calculate a variable
-<!--note from editor: Add intro text   -->
+Select **New Variable**.
+<!--note from editor: Add additional intro text   -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/accounts-dynamics-365.png "Accounts Dynamics365")
 
 <!--note from editor:  names of panes: text should match UI   -->
 
-Select **New variable** to open the **New variable** pane.
+This opens the **New variable** pane.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-variable-name.png "New variable name")
