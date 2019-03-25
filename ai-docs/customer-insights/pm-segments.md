@@ -60,7 +60,7 @@ To create a segment, you can either select **Add Segment** at the upper-right co
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
-If you select **Add Segment**, choose whether you want to create a static segment or a dynamic segment.
+If you select **Add Segment**, choose whether you want to create a dynamic segment or a static segment.
 
 The rest of the segment creation process is done on the **Segment Editor** page.
 
@@ -72,8 +72,8 @@ The rest of the segment creation process is done on the **Segment Editor** page.
 - We will give our segment an informative name and description that will help us identify it in the future, when we'll have multiple segments. 
 - In the case of a dynamic segment, we can also choose to activate it at this point through the slider, as shown in the following example. An active (dynamic) segment automatically incorporates changes that are made to your data over time, while an inactive segment does not incorporate any changes that are made to your data. 
 
-> [!div class="mx-imgBorder"] 
-> ![](media/segments-allcustomers-status-active.png "Define segment")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/segments-allcustomers-status-active.png "Define segment")
    
 ### Step Two: Create a first group 
 
@@ -83,7 +83,7 @@ In Customer Insights, a group is a set of customers.
 
 <!--note from editor:  Please clarify step 4 below--"until getting to the Customer Profile entity"  -->
 
-1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an **Order Value** field by which we want to segment. In order to choose your entity of interest, select the field shown here.
+1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an Order Value field by which we want to segment. In order to choose your entity of interest, select the field shown here.
 
     > [!div class="mx-imgBorder"] 
     > ![](media/segments-group1-define-filter.png "Choose entity")
@@ -101,7 +101,7 @@ In Customer Insights, a group is a set of customers.
    |3    |Operator         |
    |4    |Value         |
 
-  Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
+    Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
 
 4. Add entities that are related to that entity until getting to the Customer Profile entity. That can be done using the **ADD** operator. You can define the required relationships between entities using the **Relationships** page (see the “Relationships” section for more information). For these additional entities, choose the **All Records** attribute.
 
@@ -113,7 +113,7 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
 
-2. Choose our entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which we want to segment (**SessionID**).
+2. Choose your entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which you want to segment (**SessionID**).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
@@ -222,8 +222,8 @@ Then, choose one of the following options from the drop-down menu:
 - Deleting the segment 
 - Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment appears under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
 
-> [!div class="mx-imgBorder"] 
-> ![](media/segmentation-dynamic-segment.png "Dynamic segment")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
    
 ## Explore a segment: View processing history and segment members
 
