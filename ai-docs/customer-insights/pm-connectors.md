@@ -27,11 +27,10 @@ The Customer Insights dashboard enables you to use the unified data that you hav
 
 In order to use the Customer Insights dashboard, make sure that you have created at least one data source within the **Data sources** page and ingested at least one dataset (entity) into it. Also, make sure you have [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then, complete the following steps.
 
-### Step One: Download MEZ file
+### Step One: Installing Power BI Connector
 
-Download the following MEZ file from Blobs: [https://go.microsoft.com/fwlink/p/?linkid=2077331](https://go.microsoft.com/fwlink/p/?linkid=2077331).
-
-**Note**: If you first wish to store the MEZ file, you should use the following location: **\Documents\Power BI Desktop\Custom Connectors**
+1. Download the custom connector file from [here](https://go.microsoft.com/fwlink/p/?linkid=2077331).
+2. Follow steps described [here](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) to install and enable the custom connector.
 
 ### Step Two: Publish the Customer Insights dashboard
  
