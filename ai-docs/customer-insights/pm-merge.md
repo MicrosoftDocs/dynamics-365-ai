@@ -23,7 +23,7 @@ manager: "kvivek"
 
 The merge phase is the last phase in the data unification process. Its purpose is reconciling conflicting data. Examples of conflicting data might be a customer name that resides in two of your datasets but shows up a little bit differently in each (“Grant Marshall” versus “Grant,” for example), or a phone number format that differs slightly (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis. 
 
-Once completing the match phase, you can start the merge phase via the **Merge** tile on the **Unify** page.
+Once you've completed the match phase, you can start the merge phase by selecting the **Merge** tile on the **Unify** page.
 
 ## Step One: Review system recommendations
 
@@ -68,7 +68,7 @@ On this page, you can choose and exclude attributes:
 
 ## Step Two: Manually add a merged attribute
 
-<!--note from editor: make sure screen shot illustrates the text   --
+<!--note from editor: make sure screen shot illustrates the text   -->
 
 Add a merged attribute with **Add Merged Attribute**, as shown in this example.
 
