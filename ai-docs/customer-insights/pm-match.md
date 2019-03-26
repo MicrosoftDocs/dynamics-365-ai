@@ -76,6 +76,8 @@ Each match involves two entities that are unified into a single entity, while ma
 
 You can always remove entities from your match order. Select **Save** to save your match order as shown here.
 
+<!--note from editor: Re: the above--"Select Save"--the screen shot shows an icon--is that the "Save" button? -->
+
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-edit.png "Match rule edit")
 
@@ -86,7 +88,7 @@ Once you've completed Step One, you can expect to reach the **Match** page, whic
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-need-rules.png "Need rules")
 
-The warning sign (outlined in the preceding example) implies that we didn't define at least one match rule for our match pair, which is mandatory. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** panel by selecting the corresponding match row in the matches table (#1) and then selecting **Create new rule** (#2).
+The warning sign (outlined in the preceding example) implies that we didn't define at least one match rule for our match pair, which is mandatory. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** pane by selecting the corresponding match row in the matches table (#1) and then selecting **Create new rule** (#2).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule2.png "Create new rule")
@@ -96,7 +98,7 @@ That opens the **New rule** pane.
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-condition.png "Create new rule and conditions")
 
-<!--note from editor:Change 2nd sentence in para below to: "For each entity in the condition, you are required to choose an attribute and a precision level:   -->
+<!--note from editor: Change 2nd sentence in para below to: "For each entity in the condition, you are required to choose an attribute and a precision level:   -->
 
 The **New Rule** pane enables you to specify the conditions for that role. Each condition is represented by two rows that include the following mandatory selections:
 
@@ -104,8 +106,8 @@ The **New Rule** pane enables you to specify the conditions for that role. Each 
 
 1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
- >[!IMPORTANT]
- > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
+  >[!IMPORTANT]
+  > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
 2. An attribute that will be used for matching from the second match pair entity.
 
@@ -186,7 +188,7 @@ First, you can gain first insights by reviewing the tiles at the top of the page
 - The left tile shows the number of unique profiles that the system identified.
 - The right tile shows the number of matches, in total, that were completed across all of your match pairs. This tile will provide you more context into the first number—is it a relatively good or poor result?
 
-Second, you can assess the results of each match pair as shown in #2 in the preceding example — by viewing the number of records that came from this match-pair entity side-by-side with the percentage of successfully matched records.
+Second, you can assess the results of each match pair as shown in #2 in the preceding example—by viewing the number of records that came from this match-pair entity side-by-side with the percentage of successfully matched records.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-view-rule-level.png "View at the rule level")
@@ -200,28 +202,28 @@ We recommend that you review at least a part of it in order to validate that rec
 
 Fourth, you can experiment with different thresholds around your conditions in order to identify the optimal thresholds. In order to perform these experiments, follow the next few steps.
 
-1. Select (...) for the match pair rule that you want to experiment with (an example is shown in #1 in the following example). Then select **Edit**, also shown in #2.
+1. Select (...) for the match pair rule that you want to experiment with (an example is shown in #1 in the following example). Then select **Edit**, shown in #2.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
-2. Identify the condition that you want to experiment with. Each criterion is represented by one row in the **Match rule** panel.
+2. Identify the condition that you want to experiment with. Each criterion is represented by one row in the **Match rule** pane.
 
-3. At this point the page that you see depends on the match level you have selected for that condition. 
+3. The page that you see depends on the match level you have selected for that condition. 
 
    If you chose **Exact** for that condition, you will see the following page.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
+     > [!div class="mx-imgBorder"] 
+     > ![](media/configure-data-match-criteria-preview.png "Match criteria preview")
 
    Here you can view the number of matched and unmatched records for that condition (shown in #1 in the following example. You can also view the records in the table section (shown in #2).
        
    If you chose one of the other levels for that condition, you will see the following page.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-match-fuzzy-criteria.png "Match fuzzy preview")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/configure-data-match-fuzzy-criteria.png "Match fuzzy preview")
      
-This page gives you a rich understanding of the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels, as well as viewing the records under each option. Select each of the tiles and view the table section. 
+   This page gives you a rich understanding of the effects of the three threshold levels. You can compare how many records will be matched under each of the threshold levels, as well as viewing the records under each option. Select each of the tiles and view the table section. 
        
 ## Step Five (optional): Make changes to optimize your matches
 
@@ -231,8 +233,8 @@ If you followed Step Four, at this point you should have a better understanding 
 
 - **Change the match order**: This can be done by selecting **Edit**, shown in the following example, and editing the match order fields.
 
- > [!div class="mx-imgBorder"] 
- > ![](media/configure-data-match-order-edit.png "Edit data match order")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
 - **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. This can be done by substituting the two rules' attributes. Delete and re-create the two rules new attributes.
 
@@ -242,7 +244,7 @@ If you followed Step Four, at this point you should have a better understanding 
     - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step Four, we covered how to get insight into the effects of the three threshold levels on your match quality.
     - **Changing normalization method for a condition**: This can be done by reselecting the normalization method.
     
-## Next Step
+### Next Step
 <!--note from editor: include links to cross-ref topics   -->
 Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section.
 
