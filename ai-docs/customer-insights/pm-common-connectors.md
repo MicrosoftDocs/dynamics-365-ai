@@ -33,7 +33,7 @@ manager: "kvivek"
 
 To ingest data to Customer Engagement from a CSV file hosted within a blob location in a Microsoft Azure subscription, follow these steps:
 
-1. Select the **Azure blobs** from the list of connectors.
+1. Select **Azure blobs** from the list of connectors.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-azure-blobs.png "Select Azure Blobs")
@@ -125,7 +125,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-format-final-result.png "Format URL")
 
- Here is an example of a copied link: 
+   Here is an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
 
 <!--note from editor:  Add intros or headings for the below.  -->
