@@ -21,18 +21,18 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-There are two main goals behind the *map* phase:
+There are two main goals of the map phase:
 
 - **Entity selection:** Identify the entities that can be combined to lead to a dataset with more complete information about your customers.
-- **Attribute selection:** For each entity, identify the columns you want to combine and reconcile in the next data unification phases: *match* and *merge* (the items in those columns are also called *attributes*).
+- **Attribute selection:** For each entity, identify the columns (the items in those columns are called *attributes*) you want to combine and reconcile in the next data unification phases, match and merge .
 
 <!--note from editor: In bullet item above, is it the columns that are attributes or the items listed in the columns?   -->
 
-Select the **Map** tile on the **Unify** page to start the *map* phase.
+Select the **Map** tile on the **Unify** page to start the map phase.
 
 ## Select first entities
 
-Start the *map* phase by selecting **Add entities**.
+Start the map phase by selecting **Add entities**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-entities.png "Add entities")
@@ -98,12 +98,12 @@ Select the entities that you want to add to your existing entities list, and cle
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-configure-map-add-attributes.png "Manually add attributes")
 
-There are two selections you must complete prior to the completion of the *map* phase.
+There are two selections you must complete prior to the completion of the map phase.
 
 - **Primary key:** (selected in the preceding example). It is mandatory that you select one attribute as a primary key for each of your chosen entities. Note that for an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values. 
 - **Attribute type:** Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.  
 
 ### Next step
-<!--note from editor: Add links to topics   -->
+<!--note from editor: Add links to topic cross-refs   -->
 
 As part of the data unification process, go to the **Match** page by selecting **Match** in the left-side menu or by selecting the **Match** tile on the **Unify** page. Visit the **Match** section to learn about this phase.
