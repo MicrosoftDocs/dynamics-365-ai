@@ -104,8 +104,8 @@ The **New Rule** pane enables you to specify the conditions for that role. Each 
 
 1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
->[!IMPORTANT]
-> You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
+ >[!IMPORTANT]
+ > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
 2. An attribute that will be used for matching from the second match pair entity.
 
@@ -163,17 +163,14 @@ As mentioned in Step One, the first match results in the creation of a unified m
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
 
-**Customer Profile Preview** opens. 
+The customer profile preview opens. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs-download.png "Conflation Match Pairs download")
 
-Note that:
+The highlighted column shown in the preceding example reflects, for each of your records, how certain it is that it was accurately matched (confidence score). The remaining columns present the data that was taken from the two original entities. Columns to the left of the highlighted column present data that was taken from the first match pair entity, while columns to the right present data taken from the second match pair entity. Select **Download** to download the customer profile dataset. 
 
-- The highlighted column shown in the preceding example reflects for each of your records how certain it is that it was accurately matched (confidence score).
-- The rest of the columns present the data that was taken from the two original entities. Columns to the left of the highlighted column present data that was taken from the first match pair entity, while columns to the right present data taken from the second match pair entity. 
-- You can also view the customer profile entity in the **Entities** page.
-- Select **Download** to download the customer profile dataset. 
+Note that you can also view the customer profile entity on the **Entities** page.
 
 At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, we recommend you review some of the match preview results to validate that records were matched according to your expectations.
 
@@ -228,22 +225,24 @@ This page gives you a rich understanding of the effects of the three threshold l
        
 ## Step Five (optional): Make changes to optimize your matches
 
-If you followed Step Four, then at this point you should have a better understanding of the quality of your first match. At this point, you can translate that understanding into better match quality by reconfiguring some of your match parameters.
+If you followed Step Four, at this point you should have a better understanding of the quality of your first match. You can translate that understanding into better match quality by reconfiguring some of your match parameters:
 
-- **Changing the Match Order**: This can be done by selecting **Edit**, shown in the following example, and editing the match order fields.
+<!--note from editor:  2nd bullet item below: Delete the sentence about substituting?  -->
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-order-edit.png "Edit data match order")
+- **Change the match order**: This can be done by selecting **Edit**, shown in the following example, and editing the match order fields.
 
-- **Changing the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. That can be done by substituting the two rules' attributes. At this point, you need to delete and re-create the two rules with the new attributes:
+ > [!div class="mx-imgBorder"] 
+ > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
-- **Editing your rules**: This includes several important changes that you should try as you optimize the match quality. All the following options are accessible via the rule's **Edit** button:
+- **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. This can be done by substituting the two rules' attributes. Delete and re-create the two rules new attributes.
+
+- **Edit your rules**: This includes several important changes that you should try as you optimize the match quality. The following options are accessible via the rule's **Edit** button:
 
     - **Changing attributes for a condition**: This can be done by reselecting new attributes within the specific condition row.
     - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step Four, we covered how to get insight into the effects of the three threshold levels on your match quality.
     - **Changing normalization method for a condition**: This can be done by reselecting the normalization method.
     
 ## Next Step
-
+<!--note from editor: include links to cross-ref topics   -->
 Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the **Merge** section.
 
