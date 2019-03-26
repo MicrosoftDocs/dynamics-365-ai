@@ -22,13 +22,11 @@ When you work with the dashboards in Customer Service Insights, you have a choic
 
 To launch Customer Service Insights, navigate to [https://csi.ai.dynamics.com](https://csi.ai.dynamics.com) in your browser. Customer Service Insights opens the **Connect your data** screen so you can create a workspace by connecting to a data source.
 
-> [!div class="mx-imgBorder"]
-> ![Connect your data screen](media/ai-csi-qs-connect-data.png)
+> ![Connect your data screen](media/connect-data.png)
 
 Each workspace displays customer service data from a specific customer service data environment. To connect to a Dynamics 365 for Customer Service Insights environment, select **Dynamics 365** to display the **Choose an environment** screen.
 
-> [!div class="mx-imgBorder"]
-> ![Choose an environment screen](media/ai-csi-qs-choose-environment.png)
+> ![Choose an environment screen](media/choose-environment.png)
 
 You can gain insights into multiple sets of customer service data by creating workspaces that each connect to a different environment. For example, you could create different workspaces for environments containing customer support information for specific areas, such as beauty products, retail, or banking.
 
