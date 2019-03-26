@@ -26,11 +26,10 @@ Once the map phase is completed, you're ready to match your entities. Select **M
 
 <!--note from editor: In 2nd bullet item--change "the following page" to the **Match** page?   -->
 
-- Note that the match phase requires at least two mapped entities. If you have not mapped at least two entities, you receive a message to go back to the **Map** page and meet the requirement.
+Note that the match phase requires at least two mapped entities. If you have not mapped at least two entities, you receive a message to go back to the **Map** page and meet the requirement.
 
-- If you did map at least two entities, you can expect to reach the following page. Select **Set order** once you are ready to start the match phase.
+If you did map at least two entities, you can expect to reach the following page. Select **Set order** once you are ready to start the match phase.
 
-<!--note from editor: re: bullet item above--I don't see "Set Order" in the screen shot   -->
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-new-rule.png "Match new rule")
