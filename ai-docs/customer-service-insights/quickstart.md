@@ -26,8 +26,7 @@ Dynamics 365 Customer Service Insights lets you quickly connect to your existing
 
 2. Select **Dynamics 365** to create a workspace using Dynamics 365 customer service data. Customer Service Insights displays the **Choose an environment** screen.
 
-   > [!div class="mx-imgBorder"]
-   > ![Choose an environment screen](media/ai-csi-qs-choose-environment.png)
+   > ![Choose an environment screen](media/choose-environment.png)
 
    For more information on working with workspaces, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
