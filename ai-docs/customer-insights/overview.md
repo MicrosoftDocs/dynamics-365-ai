@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Insights | MicrosoftDocs"
 description: Overview of Dynamics 365 Customer Insights
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 03/27/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -33,9 +33,6 @@ Customer experience is at the very core of every organization’s digital transf
 With Dynamics 365 Customer Insights, build a deep understanding of customers by connecting customer data from various transactional, behavioral, and observational sources to create a 360-degree customer view. Use  these insights to drive customer-centric experiences and processes.
 
 **Customer Insights enables every organization to unify and understand their customer data and to harness it for intelligent insights and actions.** 
-
-> [!TIP]
-> Check out the following for information on requesting a preview and availability: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/).
 
 > [!TIP]
 > Check out the following for information on requesting a preview and availability: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/).
@@ -71,8 +68,9 @@ The release will include capabilities for the following key users:
   - “Clicks-not-code” configuration and debugging experience to help easily configure Customer Insights and identify potential issues. 
   - Cleanse and standardize customer data across disparate sources with AI-powered recommendations.  
 
-- **Business users:**
 <!--note from editor:change "prebuild" to "prebuilt"?   -->
+
+- **Business users:**
 
   - Insights into 360-degree customer profiles and end-to-end views of the customer journey. 
   - View 360-degree customer data within Dynamics 365 business processes with prebuild packages. 
