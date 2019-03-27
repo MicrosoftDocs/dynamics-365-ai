@@ -2,7 +2,7 @@
 title: "System | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 03/26/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -21,37 +21,36 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The System page encapsulates everything that you, as an administrator, need to closely monitor the various processes that run behind the scenes of Customer Insights. As shown here, it includes four parts: **Status**, **Schedule**, **About**, and **General**.
+The **System** page encapsulates everything that you, as an administrator, need to closely monitor the various processes that run behind the scenes of Customer Insights. As shown here, it includes four parts: **Status**, **Schedule**, **About**, and **General**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-tabs.png "System page")
 
 > [!NOTE]
-> If your data sources are updated on regular basis, we highly recommend you use the **Schedule** tab. Make sure to review the "Schedule tab" subsection later in this section.
+> If your data sources are updated on a regular basis, we highly recommend that you use the **Schedule** tab. Make sure to review "Schedule tab" later in this topic.
 
 ## Status tab
 
 The **Status** tab enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables:
 
-- **Data sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies those data sources' names. The middle column presents the status of ingestion for each of these data sources: whether it didn't start, is in progress, or has already completed. Lastly, the right-side column states the last data refresh date for each of the data sources.
+- **Data sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies the names of those data sources. The middle column shows the status of ingestion for each of the data sources: 
+ - Didn't start
+ - In progress
+ - Already completed. 
+ The right-side column shows the last data refresh date for each of the data sources.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/system-data-sources.png "System data sources")
 
-- **System processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. 
-
-  The left-side column specifies those processes' names. 
-
-  The middle column presents the status of progress for each of these processes.
-
-    - Whether it **didn't start**. 
-    - Is **In progress**. 
-    - Or has already **completed**. 
+- **System processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. The left-side column specifies the names of those processes. The middle column shows the status of progress for each of the processes:
+    - Didn't start 
+    - In progress 
+    - Already completed 
   
-  Lastly, the right-side column states the last data refresh date for each of the processes.
+  The right-side column shows the last data refresh date for each of the processes.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/system-status-processes.png "Refresh date")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/system-status-processes.png "Refresh date")
 
 - In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the following example, the user has selected the *Dynamics* data source that has ingestion status **Complete** (#1) and is shown additional details on that data source (#2).
 
