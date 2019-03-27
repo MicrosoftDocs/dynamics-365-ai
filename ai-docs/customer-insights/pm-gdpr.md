@@ -2,7 +2,7 @@
 title: "Data Subject Rights (DSR) requests under GDPR | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 03/26/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -70,10 +70,10 @@ The right of data portability allows a data subject to request a copy of the
 
 Dynamics 365 Customer Insights offers the following experiences to find or export personal data for a specific user:
 
-- Export customer data (Tenant admin).
-- Export Customer Insights user data (Tenant admin).
+- Export customer data (tenant admin).
+- Export Customer Insights user data (tenant admin).
 
-#### Export customer data (Tenant admin)
+#### Export customer data (tenant admin)
 
 A tenant administrator can follow these steps to export data:
 
@@ -81,7 +81,7 @@ A tenant administrator can follow these steps to export data:
 2. Acknowledge the confirmation to export the data for the requested customer.
 3. Receive the exported data through the tenant admin email address.
 
-#### Export Customer Insights user data (Tenant admin)
+#### Export Customer Insights user data (tenant admin)
 
 1. Send an email to D365CI@microsoft.com specifying the user’s email address in the request. An administrator from the Dynamics 365 Customer Insights team will send an email to the registered tenant admin email address, asking for confirmation to export data.
 2. Acknowledge the confirmation to export the data for the requested user.
