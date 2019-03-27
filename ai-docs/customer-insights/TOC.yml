@@ -7,6 +7,9 @@
     href: pm-profiles.md
   - name: Segments
     href: pm-segments.md
+    items:
+    - name: Segment export
+      href: segment-export.md
   - name: Measures
     href: pm-measures.md
   - name: Data
