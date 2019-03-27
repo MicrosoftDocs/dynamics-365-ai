@@ -21,7 +21,9 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Now that you have created one ore more segments using the **segment builder** screen, you are ready to start acting upon your data  (make sure to first visit the **Segments** section if you haven't done so). 
+<!--note from editor: [JimH] For Vivek, this topic was removed and now returned. It has not been edited -->
+
+Now that you have created one or more segments using the **Segment builder** screen, you are ready to start acting upon your data  (make sure to first visit the **Segments** section if you haven't done so). 
 
 At present, you can export any of your segments to both a CSV file and a Customer Engagement location. In the future we will add additional segment export options.
 
