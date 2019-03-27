@@ -38,10 +38,10 @@ The **Status** tab enables you to track the progress of data ingestion as well a
   - In progress
   - Already completed
   
- The right-side column shows the last data refresh date for each of the data sources.
+   The right-side column shows the last data refresh date for each of the data sources.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/system-data-sources.png "System data sources")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/system-data-sources.png "System data sources")
 
 - **System processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. The left-side column specifies the names of those processes. The middle column shows the status of progress for each of the processes:
     - Didn't start 
@@ -75,26 +75,26 @@ The next step is to decide between **Weekly** (default) and **Daily** refreshes.
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-refresh-period.png "System data refresh period")
 
-To schedule a daily refresh:
+**To schedule a daily refresh:**
 
 1. Select the **Time** field.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/system-data-refresh-time-period.png "System data refresh time period")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/system-data-refresh-time-period.png "System data refresh time period")
 
 2. In the timer shown in the preceding example, use the four arrows to set your refresh timing. When you are finished, select **Set**. You can also close the timer without saving your selections by selecting **Close**.
 
 3. Set multiple daily refreshes by selecting **Add another time**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/system-data-refresh-add-another-time.png "System data refresh add another time")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/system-data-refresh-add-another-time.png "System data refresh add another time")
 
 4. To discard any of your saved timings, select the boxes shown here.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/system-data-refresh-discard-time.png "System data refresh discard time")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/system-data-refresh-discard-time.png "System data refresh discard time")
 
-To schedule a weekly refresh:
+**To schedule a weekly refresh:**
 
 1. Check the boxes for the days on which you want to execute a refresh.
   
