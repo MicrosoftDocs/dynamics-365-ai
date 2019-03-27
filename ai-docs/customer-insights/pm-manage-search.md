@@ -80,7 +80,7 @@ The **Filter** menu on the **Profiles** page can include a varying number of att
 After selecting **Edit** for a given attribute on the **Search, sort & filter** page, one of three possible panels will show up, depending on the attribute's data type. Using this panel you will be able to determine:
 
 - The number of results that will appear on the **Filter** menu on the **Profiles** page. 
-- In what order they will be organized.
+- The order in which they will be organized.
 
 The following image shows the **Edit** panel that will open for string-type attributes.
 
