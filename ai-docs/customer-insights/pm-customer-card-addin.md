@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 03/26/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -21,16 +21,19 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+<!--note from editor:  Add some intro text  -->
+
 ## Requirements
 
 - Dynamics 365 for Customer Engagement version 9.0 and later.
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub. 
-- Users who will use the Customer Insights Customer Card in Dynamics 365 for Customer Engagement need to be added as users on Dynamics 365 Customer Insights. You can do so in the **Permissions** page in the **Admin** section, as discussed later in this topic.
+- Users who will use the Customer Insights Customer Card in Dynamics 365 for Customer Engagement need to be added as users on Dynamics 365 Customer Insights. You can do so on the **Permissions** page in the **Admin** section, as discussed later in this topic.
 
-<!--note from editor: re sentence above--I'm not seeing where the reference is to the Permissions page   -->
 
-> [!div class="mx-imgBorder"] 
-> ![](media/permissions-page.png "Permissions page")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/permissions-page.png "Permissions page")
+
+<!--note from editor: Change below heading to "Install Customer Card add-in"?   -->
 
 ## Installation into Dynamics 365 for Customer Engagement
 
@@ -103,7 +106,7 @@ manager: "kvivek"
 
 ## Demographic control
 
-1. To add the demographic control, in the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
+1. To add the demographic control, in the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer2.png "Address 1: City field")
@@ -150,7 +153,7 @@ manager: "kvivek"
 
 ## Timeline control
 
-1. In the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
+1. In the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer4.png "Address 1: City field")

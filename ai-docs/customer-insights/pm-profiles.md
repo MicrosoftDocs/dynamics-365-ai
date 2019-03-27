@@ -2,7 +2,7 @@
 title: "Customers | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/13/2019
+ms.date: 03/21/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -21,31 +21,33 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Profiles** page presents a consolidated view on each customer, based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
+The **Profiles** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
 
-In order to view more customers profiles, move to the next **Profiles** page using the buttons shown at the bottom of the page.
+To view more customer profiles, go to the next **Profiles** page by using the buttons in the lower-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
 
+
+
 >[!NOTE]
-> Customer profiles are available once you create the unified Customer entity. Make sure to complete the data configuration process in order to unlock richer views of your customers. Visit the **Configure Data** section to learn more. 
+> Customer profiles are available once you create the unified Customer entity. Make sure you complete the data configuration process in order to unlock richer views of your customers. Visit the **Configure Data** section to learn more. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
 
-After selecting a customer tile, you will see additional information on that specific customer. As shown here, that information might include attributes such as **Country**, **Email**, **Address**, and **Phone** that exist in one or more of your data sources:
+Select a customer tile to see additional information on that specific customer. As shown here, that information might include attributes, such as **Country**, **Email**, **StreetAddress**, and **Phone**, that exist in one or more of your data sources:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-customer-info.png "Customer Card tile customer info")
 
 ## Search for customers
 
-Searching for customers can be done using the **Search** field. You can simply type a value for one of the profile attribute names (for example, the customer’s name). To enable search, an admin needs to configure the searchable attributes on the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
+Search for customers by entering an attribute-name value (for example, the customer’s name) in the search box. To enable search, an admin needs to configure the searchable attributes on the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-search.png "Customer Card tile search")
@@ -64,7 +66,7 @@ First, select **Filter**.
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-filter.png "Customer Card tile filter")
 
-Then, simply check the boxes next to the filters with which to search customers by. As with the **Search** field, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator on the **Search, sort & filter** page.
+Then, check the boxes next to the attributes you want to filter customers by. As with Search, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator on the **Search, sort & filter** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers3.png "Customer profiles")
@@ -74,5 +76,5 @@ You can remove your saved filters using **Clear filters**.
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-clear-filter.png "Customer Card tile clear filter")
 
-## Next Step
-Make sure to review both the **Data Sources** and **Configure Data** sections, where you will learn to ingest and configure your data.
+### Next Step
+Review both the **Data Sources** and **Configure Data** sections, where you will learn to ingest and configure your data.
