@@ -30,8 +30,7 @@ Each workspace displays customer service data from a specific customer service d
 
 You can gain insights into multiple sets of customer service data by creating workspaces that each connect to a different environment. For example, you could create different workspaces for environments containing customer support information for specific areas, such as beauty products, retail, or banking.
 
-> [!div class="mx-imgBorder"]
-> ![Multiple environments](media/ai-csi-multiple-environments.png)
+> ![Multiple environments](media/multiple-environments.png)
 
 To configure the workspace, select the environment you want to use. Customer Service Insights opens the workspace and displays that environment's customer support data in the dashboards.
 
@@ -39,20 +38,17 @@ You can also create a new workspace by:
 
 * Selecting the **Settings** button on the Customer Service Insights title bar and then selecting **Create workspace**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Create workspace](media/ai-csi-settings-create-workspace.png)
+  > ![Create workspace](media/create-workspace.png)
 
-* Selecting the **Settings** button on the Customer Service Insights title bar, selecting **My workspaces**, and then selecting **Create New**.
+* Selecting the **Settings** button on the Customer Service Insights title bar, selecting **My workspaces**, and then selecting **New workspace** on the **My workspaces** screen.
 
-  > [!div class="mx-imgBorder"]
-  > ![Create New](media/ai-csi-current-workspaces-create.png)
+  > ![Create New](media/new-workspace.png)
 
 ## Open the demo workspace
 
 By default, Customer Service Insights displays sample customer support data in a demo workspace. To open the demo workspace, select **demo workspace** on the **Connect your data** screen, or close the **Connect your data** screen.
 
-> [!div class="mx-imgBorder"]
-> ![Demo workspace](media/ai-csi-qs-demo-workspace.png)
+> ![Demo workspace](media/demo-workspace.png)
 
 ## Switch between workspaces
 
