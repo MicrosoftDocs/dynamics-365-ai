@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **System** page encapsulates everything that you, as an administrator, need to closely monitor the various processes that run behind the scenes of Customer Insights. As shown here, it includes four parts: **Status**, **Schedule**, **About**, and **General**.
+The **System** page encapsulates everything that you need as an administrator to closely monitor the various processes that run behind the scenes of Customer Insights. As shown here, it includes four parts: **Status**, **Schedule**, **About**, and **General**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-tabs.png "System page")
@@ -98,15 +98,15 @@ The next step is to decide between **Weekly** (default) and **Daily** refreshes.
 
 1. Check the boxes for the days on which you want to execute a refresh.
   
-  > [!div class="mx-imgBorder"] 
-  > ![](media/system-data-refresh-weekly-time.png "System data refresh weekly time")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/system-data-refresh-weekly-time.png "System data refresh weekly time")
 
 2. Follow the steps for scheduling a daily refresh to complete the weekly refresh setting.
 
 3. **Save** your changes.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/system-data-refresh-save.png "System data refresh save")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/system-data-refresh-save.png "System data refresh save")
 
 ## About tab
 <!--note from editor:  Introduce the screen shot below, or delete it?  -->
