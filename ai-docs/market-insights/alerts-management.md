@@ -35,7 +35,7 @@ You can sign in to the app using one of the following accounts:
 2. Select **Sign in** on the top of the page. 
 3. Choose which account to sign in with. 
 4. Enter your sign-in credentials, usually, this is a combination of an email address and a password.
-5. Allow Market Insights Alerts to connect with the authenticating service. 
+5. Allow Market Insights alerts to connect with the authenticating service. 
 6. Start tracking topics that matter to you or manage existing alerts.
 
 ## Create an alert

@@ -11,13 +11,13 @@ author: m-hartmann
 ms.author: mhart
 ---
 
-# Data handling for Dynamics 365 Market Insights Alerts
+# Data handling for Dynamics 365 Market Insights alerts
 
 (This topic is pre-release documentation and is subject to change.)
 
-To run and improve the service for Market Insights Alerts, we need to store some user data. This article is directed at users of the Market Insights Alerts service. It outlines which data we gather, why we store it, and how you can request to update, export, or delete your personal data.
+To run and improve the service for Market Insights alerts, we need to store some user data. This article is directed at users of the Market Insights alerts service. It outlines which data we gather, why we store it, and how you can request to update, export, or delete your personal data.
 
-## Data storage in Market Insights Alerts
+## Data storage in Market Insights alerts
 
 The following data is stored:
 
@@ -43,5 +43,5 @@ To have your data exported, updated, or deleted, send us an [email](mailto:micus
 > - To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. If this doesn't work, send us an email and request the change.
  
 ### See also
-[Market Insights Alerts overview](alerts-overview.md)    
+[Market Insights alerts overview](alerts-overview.md)    
 [Manage your alerts](alerts-management.md)    

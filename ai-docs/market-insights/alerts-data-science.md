@@ -1,5 +1,5 @@
 ---
-title: "Data science concepts applied to Alerts | Microsoft Docs"
+title: "Data science concepts applied to alerts | Microsoft Docs"
 description: "Data science for alerts in Market Insights."
 keywords: "data science, alerts, daily digest, email"
 ms.date: 04/01/2019
@@ -35,5 +35,5 @@ The system tries to understand the topic category you are following to ensure yo
 In the email digest, every news has a control to **Flag as a irrelevant**. If you select this link, the system learns from your feedback and determine why the article isn't relevant. These learnings are used to increase the relevance of your alerts in the future.
 
 ### See also
-[Market Insights Alerts overview](alerts-overview.md)    
+[Market Insights alerts overview](alerts-overview.md)    
 [Manage your alerts](alerts-management.md)

@@ -44,7 +44,7 @@ Please use the **Show advanced** functionality to [refine your topic](alerts-man
   
 ### See also
 
-[Market Insights Alerts - track topics that matter to you](alerts-overview.md)    
+[Market Insights alerts - track topics that matter to you](alerts-overview.md)    
 [How relevancy in determined in alerts](alerts-data-science.md)    
 [Data handling for Dynamics 365 Market Insights Alerts](alerts-data-handling.md)
  

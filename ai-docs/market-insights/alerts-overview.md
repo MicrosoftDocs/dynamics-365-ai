@@ -18,13 +18,13 @@ search.app:
   - D365SE
 ---
 
-# Market Insights Alerts - track topics that matter to you
+# Market Insights alerts - track topics that matter to you
 
 (This topic is pre-release documentation and is subject to change.)
 
-Market Insights Alerts are a free offering from Dynamics 365 Market Insights. They are your eyes and ears on the web for a product, brand, or company you want to follow. In a couple of minutes, you can catch up on the most important news related to your topics via a daily or weekly email. [Learn more about creating and managing your alerts.](alerts-management.md)
+Market Insights alerts are a free offering from Dynamics 365 Market Insights. They are your eyes and ears on the web for a product, brand, or company you want to follow. In a couple of minutes, you can catch up on the most important news related to your topics via a daily or weekly email. [Learn more about creating and managing your alerts.](alerts-management.md)
 
-Market Insights Alerts aim at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The alerts are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments. 
+Market Insights alerts aim at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The alerts are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments. 
 - Monitor what your **customers** are *saying, searching, and feeling* about your brand, product, company, or your competitors.
 - Know what your **competitors** are doing. For example, you can learn about product launches, pricing changes, hiring updates, etc.
 - Track what’s happening in the **industry** and if there are product trends, new entrants to the market, or rumors of M&As, etc.
@@ -33,7 +33,7 @@ Market Insights Alerts aim at helping business professionals stay ahead of the g
 > [!div class="nextstepaction"]
 > [Create your first alert now.](https://alerts.mi.ai.dynamics.com/)
 
-## Key benefits for Market Insights Alerts
+## Key benefits for Market Insights alerts
 
 We are just getting started and will keep catering to the specific needs of a professional on-the-go to make them productive and well-informed.
 
@@ -64,5 +64,5 @@ Simple things like enabling users to combine alerts about all their competitors 
 
 [Manage your alerts](alerts-management.md)    
 [How relevancy in determined in alerts](alerts-data-science.md)    
-[Data handling for Dynamics 365 Market Insights Alerts](alerts-data-handling.md)    
+[Data handling for Dynamics 365 Market Insights alerts](alerts-data-handling.md)    
 [Known issues](known-issues.md)
