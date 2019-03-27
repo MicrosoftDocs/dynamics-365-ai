@@ -2,7 +2,7 @@
 title: "APIs | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 03/26/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -31,7 +31,7 @@ When it comes to Dynamics 365 Customer Insights, currently there are several typ
 
 The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
-- Provide guidance for how to use the Swagger tool.
+- Provide guidance on how to use the Swagger tool.
 - Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs.
 
 ## How to use the Customer Insights Swagger webpage
@@ -100,7 +100,7 @@ See the **Conflation** table on the [Customer Insights Swagger webpage](https://
 
 See the **EntityMetadata** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
-### Limitations Common to all APIs
+### Limitations common to all APIs
 
 **First**, these APIs require that data has already been ingested, except for the following APIs:
 
