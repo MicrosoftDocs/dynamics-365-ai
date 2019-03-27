@@ -74,12 +74,10 @@ First, choose one of the following options (also highlighted in the preceding im
     > [!div class="mx-imgBorder"] 
     > ![](media/configure-data-enrich-profile-brands-example.png "Enrich profiles choose brand example")
 
-<!--note from editor:  Below--"go to the keywords field"? -->
+    To add a brand or interest, in the keywords field (shown in the preceding image), type a keyword. If that keyword matches a brand or interest name in the Microsoft database, it will be saved. You can save up to five selections. If there is no match, you will get the following notice, which you can use to send a suggestion to the Customer Insights team.
 
-   To add a brand or interest, in the keywords field (shown in the preceding image), type a keyword. If that keyword matches a brand or interest name in the Microsoft database, it will be saved. You can save up to five selections. If there is no match, you will get the following notice, which you can use to send a suggestion to the Customer Insights team.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
 
 - **Industry's top brands and categories**: For a selected industry, get the brands and interests that your total customer base, taken together, has the highest affinity with. Note that we use the term "customers" to refer only to those customers whose profiles match the **Demographic profile attributes**.
   
@@ -117,18 +115,18 @@ Once you have completed the enrichment process, you have unlocked additional inf
 
 1. Explore affinities histograms on the home page.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
- This can be done within the **Insights** section (#1 in the preceding example). The diagrams shown in #2 present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of customers who have a specific brand or category affinity.
+  This can be done within the **Insights** section (#1 in the preceding example). The diagrams shown in #2 present the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of customers who have a specific brand or category affinity.
 
 2. Explore the **MsftAudienceIntelligence: Customer 360** entity on the **Entities** page:
 
-  - Go to the **Entities** page.
-  - Select the **MsftAudienceIntelligence: Customer 360** entity.
+   - Go to the **Entities** page.
+   - Select the **MsftAudienceIntelligence: Customer 360** entity.
 
-     > [!div class="mx-imgBorder"] 
-     > ![](media/configure-data-entities-info.png "Text")
+      > [!div class="mx-imgBorder"] 
+      > ![](media/configure-data-entities-info.png "Text")
 
   - In the preceding example, one column (see #1) presents the brands and interests that were evaluated by the enrichment algorithm.
   - Another column (see #2) presents the verticals to which these brands and interests belong.
