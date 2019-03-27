@@ -27,9 +27,10 @@ The Customer Insights dashboard enables you to use the unified data that you hav
 
 In order to use the Customer Insights dashboard, make sure that you have created at least one data source within the **Data sources** page and ingested at least one dataset (entity) into it. Also, make sure you have [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then, complete the following steps.
 
-## Step One: Download MEZ file
+### Step One: Installing Power BI Connector
 
-- Download the following MEZ file from Blobs: [https://go.microsoft.com/fwlink/p/?linkid=2077331](https://go.microsoft.com/fwlink/p/?linkid=2077331).
+1. Download the custom connector file from [here](https://go.microsoft.com/fwlink/p/?linkid=2077331).
+2. Follow steps described [here](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) to install and enable the custom connector.
 
 ## Step Two: Publish the Customer Insights dashboard
  
@@ -48,8 +49,8 @@ In order to use the Customer Insights dashboard, make sure that you have created
 
 3. Publish the Customer Insights dashboard as a service.
 
-  - Copy your instance ID (which can be taken from your app URL), and attach it to the following address: <br />
-  https://tip.api.ci.ai.dynamics.com/api/instances/your_instance_ID
+   - You will need to copy your instance ID (which can be taken from your app URL), and attach it to the following address: <br />
+  https://prod-neu-01.api.ci.ai.dynamics.com/api/instances/**your instance ID**
 
   - Copy and paste the complete URL address (fixed part + **your_instance_ID**) to the URL field in Power BI, as shown here.
 
