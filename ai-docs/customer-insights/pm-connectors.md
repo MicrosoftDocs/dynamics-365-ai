@@ -33,6 +33,8 @@ In order to use the Customer Insights dashboard, make sure that you have created
 
 ## Step Two: Publish the Customer Insights dashboard
  
+ <!--note from editor:  Not sure how to format "your intance ID"  in the URL in #3 below  -->
+ 
 1. Bring Customer Insights data to Power BI. Open Microsoft Power BI for Desktop, and select **Get Data** in the menu at the top of the page.
  
     > [!div class="mx-imgBorder"] 
@@ -47,9 +49,9 @@ In order to use the Customer Insights dashboard, make sure that you have created
 3. Publish the Customer Insights dashboard as a service.
 
   - Copy your instance ID (which can be taken from your app URL), and attach it to the following address: <br />
-  https://tip.api.ci.ai.dynamics.com/api/instances/<your instance ID>
+  https://tip.api.ci.ai.dynamics.com/api/instances/your_instance_ID
 
-  - Copy and paste the complete URL address (fixed part + **your instance ID**) to the URL field in Power BI, as shown here.
+  - Copy and paste the complete URL address (fixed part + **your_instance_ID**) to the URL field in Power BI, as shown here.
 
     > [!div class="mx-imgBorder"] 
     > ![](media/connector-copy-instanceid.png "Copy Instance ID")
