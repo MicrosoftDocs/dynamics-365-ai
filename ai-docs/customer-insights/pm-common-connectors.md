@@ -29,9 +29,7 @@ manager: "kvivek"
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-azure-storage.png "Select Azure Blobs")
 
-<!--note from editor: In below sentence, should "Customer Engagement" be "Customer Insights"?   -->
-
-To ingest data to Customer Engagement from a CSV file hosted within a blob location in a Microsoft Azure subscription, follow these steps:
+To ingest data to Customer Insights from a CSV file hosted within a blob location in a Microsoft Azure subscription, follow these steps:
 
 1. Select **Azure blobs** from the list of connectors.
 
@@ -81,7 +79,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-account.png "Connector account")
 
-<!--note from editor: #3 above--not seeing how the screen shots match the text.   -->
+<!--note from editor: #3 above--not seeing how the screen shots match the text. Nimrod will work on this   -->
 
 ## Ingest data from the Azure SQL database
 
@@ -128,7 +126,7 @@ To ingest data to Customer Engagement from a CSV file hosted within a blob locat
    Here is an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
 
-<!--note from editor:  Add intros or headings for the below.  -->
+<!--note from editor:  Add intros or headings for the below. Nimrod will work on this  -->
 
 **Your team name**
 
