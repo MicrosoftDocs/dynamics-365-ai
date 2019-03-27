@@ -131,7 +131,7 @@ Once you have completed the enrichment process, you have unlocked additional inf
    - In the preceding example, one column (see #1) presents the brands and interests that were evaluated by the enrichment algorithm.
    - Another column (see #2) presents the verticals to which these brands and interests belong.
    - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. Note that these affinity numbers represent ranks. A rank of 1 stands for the strongest affinity, and from there, the affinity decreases as the number increases.  
-  - You can also export this entity using the **Export data** button in the upper-right corner of the screen (#3).
+   - You can also export this entity using the **Export data** button in the upper-right corner of the screen (#3).
 
 <!--note from editor: Is the bullet item above referring to the MsftAudienceIntelligence: Customer 360 entity?   -->
 
