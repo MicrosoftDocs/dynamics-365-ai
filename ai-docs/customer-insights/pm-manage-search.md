@@ -73,7 +73,7 @@ Let's explore the table on this page, going left to right.
 
 ## Editing search, sort, and filter options for a given attribute
 
-<!--note from editor: Throughout--are there actual names for the Edit panel and the Filter panel? If those aren't the names in the UI, don't use bold for "Edit" and "Filter". Also, "panel" or "pane" or "grid"?  -->
+<!--note from editor: Throughout--are there actual names for the Edit panel and the Filter panel? If those aren't the names in the UI, don't use bold for "Edit" and "Filter". Also, "panel" or "pane" or "grid"? Nimrod comment: Panel (not pane or grid). And yes, those are the panels names on the UI. SO I think comment can be removed, thanks  -->
 
 The **Filter** menu on the **Profiles** page can include a varying number of attribute levels (for example, anywhere between two and 10 age groups to filter customers by). 
 
