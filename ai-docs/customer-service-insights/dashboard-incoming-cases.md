@@ -4,7 +4,7 @@ description: "Learn about the customer service insights available on the New cas
 keywords: ""
 ms\.date: 1/23/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
@@ -26,7 +26,7 @@ The New cases dashboard includes a variety of charts with graphical views of you
 * [Case priority](#case-priority-chart)
 * [Case channel](#case-channel-chart)
 * [Case timing](#case-timing-chart)
-* [Popular topics (AI Insights)](#current-popular-topics-chart)
+* [Popular topics (AI Insights)](#popular-topics-chart)
 * [Emerging topics (AI Insights)](#emerging-topics-chart)
 
 The Popular topics and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the new customer support topics that are generating the most case volume and the topics that are showing the biggest change in volume. This can help you identify emerging issues in your system.
@@ -92,7 +92,7 @@ To see additional information about each topic, right-click the topic name, hove
 > [!div class="mx-imgBorder"]
 > ![Emerging topics chart](media/ai-csi-emerging-topics.png)
 
-The Emerging topics chart uses artificial intelligence technology to group related incoming support cases as support topics and then display the topics in order of the change in volume over the specified time period.
+The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 
 Description | Details
 ----------- | -------
