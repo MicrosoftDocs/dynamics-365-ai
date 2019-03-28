@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 3/28/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -58,7 +58,7 @@ Virtual Agent Designer telemetry data is automatically deleted within 29 days.
 
 ### Extracted knowledge
 
-Extracted knowledge, including topic suggestions, is deleted when the bot is deleted.
+Extracted knowledge is deleted when the bot is deleted.
 
 ### Metrics
 

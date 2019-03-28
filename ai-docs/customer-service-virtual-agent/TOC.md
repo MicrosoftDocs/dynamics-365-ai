@@ -38,8 +38,6 @@
 
 ## [Add actions to your virtual agent using Microsoft Flow](how-to-flow.md)
 
-## [Use topic suggestions to improve your virtual agent](how-to-suggestions.md)
-
 # Reference
 
 ## [Analytics overview](analytics-overview.md)
