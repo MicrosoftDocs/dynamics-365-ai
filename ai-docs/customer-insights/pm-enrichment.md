@@ -1,5 +1,5 @@
 ---
-title: "Enrich Profiles MicrosoftDocs"
+title: "Enrichment MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 03/26/2019
@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Enrich profiles
+# Enrichment
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
