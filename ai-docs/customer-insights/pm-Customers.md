@@ -21,21 +21,20 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Profiles** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
+The **Customers** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
 
-To view more customer profiles, go to the next **Profiles** page by using the buttons in the lower-right corner of the page.
+To view more customer profiles, go to the next **Customers** page by using the buttons in the lower-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
 
 
-
 >[!NOTE]
-> Customer profiles are available once you create the unified Customer entity. Make sure you complete the data configuration process in order to unlock richer views of your customers. Visit the **Configure Data** section to learn more. 
+> Customer profiles are available once you create the unified Customer entity. Make sure you complete the data configuration process in order to unlock richer views of your customers. Visit the **Unify** section to learn more. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
@@ -47,7 +46,13 @@ Select a customer tile to see additional information on that specific customer. 
 
 ## Search for customers
 
-Search for customers by entering an attribute-name value (for example, the customer’s name) in the search box. To enable search, an admin needs to configure the searchable attributes on the **Search, sort & filter** page. Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
+Search for customers by entering an attribute-name value (for example, the customer’s name) in the search box. To enable search, an admin needs to configure the searchable attributes on the **Search & Filter Index** screen that is accessible via the **Search & Filter button**:
+
+// Add missing image 1
+
+If you are an admin who wishes to learn more about the **Search & Filter Index** screen, explore the **Search & Filter Index** topic.
+
+Note that the search will be executed only within the Customer Profile entity created during the data configuration process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-search.png "Customer Card tile search")
@@ -59,7 +64,7 @@ After selecting one of the customer tiles, you can also search for a specific at
 
 ## Filter customers
 
-Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. 
+Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & Filter Index** screen. 
 
 First, select **Filter**.
 
@@ -77,4 +82,4 @@ You can remove your saved filters using **Clear filters**.
 > ![](media/customer-card-tile-clear-filter.png "Customer Card tile clear filter")
 
 ### Next Step
-Review both the **Data Sources** and **Configure Data** sections, where you will learn to ingest and configure your data.
+Review both the **Data Sources** and **Unify** sections, where you will learn to ingest and configure your data.
