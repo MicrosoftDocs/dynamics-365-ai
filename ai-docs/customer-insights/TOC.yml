@@ -30,7 +30,7 @@
         href: pm-match.md
       - name: Merge
         href: pm-merge.md
-    - name: Enrich profiles
+    - name: Enrichment
       href: pm-enrichment.md
     - name: Activities
       href: pm-activities.md
@@ -43,7 +43,7 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
-    - name: Search
+    - name: Search & Filter index
       href: pm-manage-search.md
   - name: Extensibility
     items:
