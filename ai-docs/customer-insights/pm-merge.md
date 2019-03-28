@@ -68,15 +68,15 @@ On this page, you can choose and exclude attributes:
 
 ## Step Two: Manually add a merged attribute
 
-<!--note from editor: make sure screen shot illustrates the text. Nimrod will handle   -->
-
 Add a merged attribute with **Add Merged Attribute**, as shown in this example.
 
+// replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/merge-add-merge-attribute.png "Add merged attributes")
 
 We will perform the manual merge process within the **Merged attribute** pane.
 
+// replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 
@@ -88,7 +88,7 @@ This pane consists of four parts:
 
 **Select duplicate attributes**: Within this menu, select the attributes that you want to merge from the matched entities. You can also use Search to locate the attributes. 
 
-**Rank by importance:** Prioritize one attribute above the others—the values for your merged attribute will come only from that source. For example, if you think that the Sales entity includes the most accurate data about the Names attribute, then in the pane shown in the following example, change the policy from **default** to **ordered**. Then, select the arrow next to **SurveyContact**. As a result, **Sales** moves to first priority, while **SurveyContact** moves to second priority when pulling values for the Name attribute.
+**Rank by importance:** Prioritize one attribute above the others—the values for your merged attribute will come only from that source. In the example below, since we think that the *WebAccountCSV* entity includes the most accurate data about the *Full Names* attribute, we will prioritize this entity over *ContactCSV* by selecting the arrow next to *WebAccountCSV*. As a result, *WebAccountCSV* moves to first priority, while *ContactCSV* moves to second priority when pulling values for the *Full Name* attribute:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attributes2.png "Merge attributes")
