@@ -29,7 +29,7 @@ Once you define measures, you can benefit in a variety of ways. For example:
 - View measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in section** to learn more.
 - Use measures to define a customer segment using the **Segment Builder** page. See the **Segments section** to learn more.
 
-<!--note from editor: Suggest deleting "Step One" from the below heading, keeping the heading title "Choose between three measure types". Below at Line 56, insert heading "Step One: Select **New Measure**".   -->
+<!--note from editor: Suggest deleting "Step One" from the below heading, keeping the heading title "Choose between three measure types". Below at Line 56, insert heading "Step One: Select **New Measure**". Nimrod's comment:Agree. will handle   -->
 
 ## Step One: Choose between three measure types
 
@@ -41,9 +41,8 @@ Customer Insights supports three types of measures:
  > ![](media/measures-customer-entity.png "Customer_Measure attribute")
 
 - **Customer measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity is generated for each measure, with potential multiple records per customer. Examples: Number of visits per channel and Total sales per day.
-- **Business measure**: This measure helps you track your business performance and health. Examples: Average sales per customer and MAU.
+- **Business measure**: This measure helps you track your business performance and health. Examples: Average sales per customer and Monthly Active Users (MAU).
 
-<!--note from editor: what does MAU stand for?   -->
 There are two possible outputs for a business measure:
  - A single-number measure that displays on the home page.
  - A new entity.
@@ -53,9 +52,7 @@ Later we show how to create these outputs.
 - **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure (can be viewed on the **Entities** page), with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
 - **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*. Can be created either as a single-number measure that will show up on the **Home** page (default state), or as an entity once one a dimension is added to it (new entity will show up in the **Entities** page).
 
-<!--note from editor: Screen shot shows "Add New Measure"--change text to match UI.   -->
-
-To begin defining a measure, from the **Measures** page, select **New Measure**:
+To begin defining a measure, from the **Measures** page, select **Add New Measure**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-measures.png "Search measures")
@@ -66,13 +63,13 @@ To begin defining a measure, from the **Measures** page, select **New Measure**:
 "Selecting **New Measure** opens the measure creation pane. From here, select one of three options:
 -Business measure
 -Customer measure
--Customer attribute -->
+-Customer attribute Nimrod comment: Fixed the text in line 70 to make it clearer. I think comment can be deleted now-->
 
 Selecting **New Measure** opens the measure creation pane. 
 
-After selecting the **Business Measure** option, you will see the **New business measure** pane:
+For the **Business Measure** option, you will see the **New business measure** pane:
 
-<!--note from editor: instead of "see the following", say "be asked to enter the following information", followed by list; then put screen shot after list.  -->
+<!--note from editor: instead of "see the following", say "be asked to enter the following information", followed by list; then put screen shot after list. Nimrod's comment: I think the current list-after-screen-shot order is fine as well as the "you will see" text above -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-business-measure.png "New business measure")

@@ -21,11 +21,11 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<!--note from editor:  Is "affinities profiles" the correct term?  -->
+<!--note from editor:  Is "affinities profiles" the correct term? Nimrod will handle - easy fix to make it clearer -->
 
 Dynamics 365 Customer Insights enables you to consolidate customer data from all of your sources through the map, match, and merge phases. At the same time, Customer Insights goes beyond that and puts at your fingertips information about your customers that comes from proprietary data. This section covers the **Enrich profiles** page, which can be used to unlock data on the affinities profiles similar to your customers to hundreds of brands and dozens of interest-categories. Some examples of interest-categories are Home Appliances, Shoes and Financial Planning.
 
-<!--note from editor: Not sure I understand what this is saying: "which can be used to unlock data on the affinities profiles similar to your customers to hundreds of brands and dozens of interest-categories." Are "affinities profiles" talked about elsewhere?   -->
+<!--note from editor: Not sure I understand what this is saying: "which can be used to unlock data on the affinities profiles similar to your customers to hundreds of brands and dozens of interest-categories." Are "affinities profiles" talked about elsewhere? Nimrod will handle easy fix to make it clearer   -->
 
 
 The **Enrich profiles** page can be accessed through the app's left-side menu as well as from the **Configure data** page.
@@ -66,7 +66,7 @@ Only some formats are supported for each of the fields:
 
 First, choose one of the following options (also highlighted in the preceding image). Then, complete your selections for that option.
 
-<!--note from editor:  Is "affinities of profiles" the correct phrasing?  -->
+<!--note from editor:  Is "affinities of profiles" the correct phrasing? Nimrod will handle - easy fix -->
 
 
 - **Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and to get affinities of profiles similar to your customers for those selections. For example, Coca-Cola and Starbucks were chosen in the following example.
@@ -133,7 +133,7 @@ Once you have completed the enrichment process, you have unlocked additional inf
    - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. Note that these affinity numbers represent ranks. A rank of 1 stands for the strongest affinity, and from there, the affinity decreases as the number increases.  
    - You can also export this entity using the **Export data** button in the upper-right corner of the screen (#3).
 
-<!--note from editor: Is the bullet item above referring to the MsftAudienceIntelligence: Customer 360 entity?   -->
+<!--note from editor: Is the bullet item above referring to the MsftAudienceIntelligence: Customer 360 entity? Nimrod's comment: Yes. Possibly we can make it a little bit clearer but after all these bullets are still under the "2. Explore the MsftAudienceIntelligence: Csutomer 360 entity on the Entities page" title   -->
 
 ### Next step
 You might want to extract more insights using the **Segments**, **Customer Card**, and **Connectors** modules if you haven't done so. You might also want to define **Measures** and/or **Activities** for richer insights. 

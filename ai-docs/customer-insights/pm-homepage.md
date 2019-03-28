@@ -26,7 +26,7 @@ The first page you see in the Dynamics 365 Customer Insights app is the home pag
 > [!div class="mx-imgBorder"] 
 > ![](media/home-page-insights.png "Insights on Home page")
 
-<!--note from editor: In sentence below--switch from a demo environment to what?  Also, are all the modes available to trial users?  -->
+<!--note from editor: In sentence below--switch from a demo environment to what?  Nimrod need to add (but first checking): "To any of the real-data envirounments that are available to you (and that will show up in the drop down menu)". Also, are all the modes available to trial users? Nimrod's comment: No but the PM team decided not to cover the trial mode for now -->
 
 If you are a trial user, make sure you switch from a demo environment before you start. You can do this with the **Environment** toggle in the upper-right corner of the page.
 

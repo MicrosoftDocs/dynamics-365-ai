@@ -144,15 +144,3 @@ See the **EntityMetadata** table on the [Customer Insights Swagger webpage](http
 3. Use APIs for searching and querying specific segment member data.
 
 See the **SegmentManagement** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
-
-<!-- 
-## Functionalities and limitations by API
-To complete:
-|Table5  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row3     |         |
-|Row4     |         |
-|Row5     |         |
--->

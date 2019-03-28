@@ -68,7 +68,7 @@ On this page, you can choose and exclude attributes:
 
 ## Step Two: Manually add a merged attribute
 
-<!--note from editor: make sure screen shot illustrates the text   -->
+<!--note from editor: make sure screen shot illustrates the text. Nimrod will handle   -->
 
 Add a merged attribute with **Add Merged Attribute**, as shown in this example.
 
@@ -125,7 +125,7 @@ Congratulations! You have completed both the data ingestion and data unification
 - Complete more data configurations (Activities, Relationships, or Enrich Profiles). Although they are  optional, they can help you unlock richer insights into your customers. 
 
 
-<!--The following sentence doesn't make sense. "Continue to insight exploration" needs rewriting.-->
+<!--The following sentence doesn't make sense. "Continue to insight exploration" needs rewriting. Nimrod's comment: Why? Vivek can you help?-->
 
 
 - Continue to insight exploration via the **Segments**, **Customer Card** and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights, while **Customer Card** and **Connectors** will enable you to unlock insights on specific customers.

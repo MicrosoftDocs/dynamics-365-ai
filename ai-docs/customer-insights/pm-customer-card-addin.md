@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<!--note from editor:  Add some intro text  -->
+<!--note from editor:  Add some intro text. Nimrod will handle  -->
 
 ## Requirements
 
@@ -33,7 +33,7 @@ manager: "kvivek"
   > [!div class="mx-imgBorder"] 
   > ![](media/permissions-page.png "Permissions page")
 
-<!--note from editor: Change below heading to "Install Customer Card add-in"?   -->
+<!--note from editor: Change below heading to "Install Customer Card add-in" Nimrod comment: I think yes, we should?   -->
 
 ## Installation into Dynamics 365 for Customer Engagement
 

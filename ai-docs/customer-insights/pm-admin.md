@@ -21,9 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Customer Insights administration pages include the **Permissions** and **Settings** pages. You can access both from the left-side menu.
-
-<!--note from editor: above: left-side menu or "tabs on the left side of the page"?   -->
+The Customer Insights administration pages include the **Permissions** and **Settings** pages. You can access both from the app's left-side menu.
 
 **If you are an administrator:**
 <!--note from editor: add links to cross-refs: Line 29, Line 34-->

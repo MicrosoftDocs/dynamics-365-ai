@@ -24,7 +24,7 @@ manager: "kvivek"
 
 Once the map phase is completed, you're ready to match your entities. Select **Match** on the **Unify** page to get to the **Match** page.
 
-<!--note from editor: In 2nd bullet item--change "the following page" to the **Match** page?   -->
+<!--note from editor: In 2nd bullet item--change "the following page" to the **Match** page? Nimrod's comment: It's not really the Match page, it's a page the user will see before the Match page. Can we remove comment?   -->
 
 Note that the match phase requires at least two mapped entities. If you have not mapped at least two entities, you receive a message to go back to the **Map** page and meet the requirement.
 
@@ -73,12 +73,7 @@ Each match involves two entities that are unified into a single entity, while ma
 
 <!--note from editor: Move the "Important" and "Note" text out of notes and format as normal body text?   -->
 
-You can always remove entities from your match order. Select **Save** to save your match order as shown here.
-
-<!--note from editor: Re: the above--"Select Save"--the screen shot shows an icon--is that the "Save" button? -->
-
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-match-new-rule-edit.png "Match rule edit")
+You can always remove entities from your match order. Lastly, select **Done** to save your match order.
 
 ## Step Two: Define rules for your first match pair
 
@@ -101,7 +96,7 @@ That opens the **New rule** pane.
 
 The **New Rule** pane enables you to specify the conditions for that role. Each condition is represented by two rows that include the following mandatory selections:
 
-<!--note from editor: I'm finding this list confusing--not sure how the bullets match to the UI. Also, do you see and choose the normalization options at this time, or is this done later?. In list item #1, the 2nd sentence doesn't make sense to me; seems contradictory.   -->
+<!--note from editor: I'm finding this list confusing--not sure how the bullets match to the UI. Also, do you see and choose the normalization options at this time, or is this done later?. In list item #1, the 2nd sentence doesn't make sense to me; seems contradictory. Nimrod's comment: We need to replace image with image that has four digit-based markings. will provide. Regarding the other point - we may want to add another image with the normalization menu options openned but it will happen post GA.   -->
 
 1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
@@ -157,9 +152,7 @@ Above the status diagram, a **Matching records** notification displays for as lo
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-run-complete.png "Data match run is complete")
 
-As mentioned in Step One, the first match results in the creation of a unified master entity. All subsequent matches result in the expansion of that entity. Upon completion of the match process, see a preview of the unified customer entity by selecting the following button.
-
-<!--note from editor:  include name of button  -->
+As mentioned in Step One, the first match results in the creation of a unified master entity. All subsequent matches result in the expansion of that entity. Upon completion of the match process, see a preview of the unified customer entity by selecting the **View last run** button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/match-conflation-match-pairs.png "Conflation Match Pairs")
@@ -228,14 +221,14 @@ Fourth, you can experiment with different thresholds around your conditions in o
 
 If you followed Step Four, at this point you should have a better understanding of the quality of your first match. You can translate that understanding into better match quality by reconfiguring some of your match parameters:
 
-<!--note from editor:  2nd bullet item below: Delete the sentence about substituting?  -->
+<!--note from editor:  2nd bullet item below: Delete the sentence about substituting? Nimrod's comment: Why? I think it's worth mentioning  -->
 
 - **Change the match order**: This can be done by selecting **Edit**, shown in the following example, and editing the match order fields.
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
-- **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. This can be done by substituting the two rules' attributes. Delete and re-create the two rules new attributes.
+- **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. This can be done by substituting the two rules' attributes. Delete and re-create the two rules.
 
 - **Edit your rules**: This includes several important changes that you should try as you optimize the match quality. The following options are accessible via the rule's **Edit** button:
 

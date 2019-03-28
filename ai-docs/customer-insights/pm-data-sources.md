@@ -29,13 +29,13 @@ Dynamics 365 for Customer Insights lets you bring together data from many source
 - Other sources
 
 <!--note from editor: Add examples to the above bullet items.   -->
-<!--note from editor: Suggest moving the below para to the pm-common-connectors file as intro material. Keep a brief mention of connectors in this topic. -->
+<!--note from editor: Suggest moving the below para to the pm-common-connectors file as intro material. Keep a brief mention of connectors in this topic. Nimrod's comment: Don't agree in this case. This topic matches a screen we have in the app's left side menu while the Guidance on common connectors section doesn't match any of the screens. Hence in many cases the user is expected to visit the data sources section but not the other section and will need some context. -->
 
 You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector. 
 
 To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of them.
 
-<!--note from editor: Suggest deleting the below heading and changing the level 3 headings to Level 2 so they show up in right-hand nav. This also eliminates a level 2 heading without any text except a note.  -->
+<!--note from editor: Suggest deleting the below heading and changing the level 3 headings to Level 2 so they show up in right-hand nav. This also eliminates a level 2 heading without any text except a note. Nimrod's comment: makes sense to me  -->
 
 ## Bring your data into Customer Insights 
 
@@ -46,7 +46,7 @@ To import data to Customer Insights, create a data source on the **Data sources*
 
 Follow these steps to load data into Customer Insights:
 
-<!--note from editor: Step 1 below--are these assuming you are starting on the home page?   -->
+<!--note from editor: Step 1 below--are these assuming you are starting on the home page? Nimrod's comment: Yes, you always land in the home page by default after selecting/creating an instance   -->
 
 1. Navigate to the **Data sources** page using the **Data sources** tab on the left-side menu.
 
@@ -79,12 +79,12 @@ Follow these steps to load data into Customer Insights:
 
 ### Step Two (mandatory): Add and review entities
 
-<!--note from editor: In Step 4, list after screen shot: confirming that the minus sign outlined in blue = successfully ingested and checkmark outlined in red = no data ingested. -->
+<!--note from editor: In Step 4, list after screen shot: confirming that the minus sign outlined in blue = successfully ingested and checkmark outlined in red = no data ingested. Nimrod's comment: Confirmed. Can I delete comment? -->
 
 In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of them (an Orders dataset or Sales dataset, for example) is an entity. 
 
-<!--note from editor: Is there a difference between "edit" and "transform" in the list item #2? 
-Also--is the Power Query window something customers are familiar with?-->
+<!--note from editor: Is there a difference between "edit" and "transform" in the list item #2? Nimrod's comment: Good point. We can leave only one of them. 
+Also--is the Power Query window something customers are familiar with? Nimrod's comment: We may want to add a link to the Power Query documentation. The downside is that we use Embedded Power Query and as far as I know there is no documentation for that. so we might end refering the reader to a documentation with functionalities he can't find, etc-->
 
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source appear in the left pane (#1):
 
@@ -139,7 +139,7 @@ Also--is the Power Query window something customers are familiar with?-->
    Repeat the same steps for each data source you want to ingest into Customer Insights.
 
 
-<!--note from editor:  Info in #3 above, the text from "These transformations are highly recommended" to the end of list item #3 seems like it should be in its own bullet item, separate from "You an add additional entities....."  -->
+<!--note from editor:  Info in #3 above, the text from "These transformations are highly recommended" to the end of list item #3 seems like it should be in its own bullet item, separate from "You an add additional entities....." Nimrod will handle -->
 
 ### Step Three (optional): Review ingested data
 
