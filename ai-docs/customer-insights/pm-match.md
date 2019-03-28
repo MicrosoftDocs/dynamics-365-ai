@@ -24,7 +24,7 @@ manager: "kvivek"
 
 Once the map phase is completed, you're ready to match your entities. Select **Match** on the **Unify** page to get to the **Match** page.
 
-<!--note from editor: In 2nd bullet item--change "the following page" to the **Match** page?   -->
+<!--note from editor: In 2nd bullet item--change "the following page" to the **Match** page? Nimrod's comment: It's not really the Match page, it's a page the user will see before the Match page. Can we remove comment?   -->
 
 Note that the match phase requires at least two mapped entities. If you have not mapped at least two entities, you receive a message to go back to the **Map** page and meet the requirement.
 
