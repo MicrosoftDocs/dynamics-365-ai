@@ -107,7 +107,7 @@ Save your selections using **Save**. Select **Run** once you are ready to apply 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")
 
-Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Customers** page. To go back to the Customers page, click the following button:
+Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Customers** page. To go back to the **Customers** page, click the following button:
 
 // add 1
 
