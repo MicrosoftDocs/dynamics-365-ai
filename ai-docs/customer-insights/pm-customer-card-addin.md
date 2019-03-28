@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<!--note from editor:  Add some intro text. Nimrod will handle  -->
+The Customer Card enables you to gain a 360 angle view on each of your customers. Once completing the Customer Card installation, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on a selected customer, including his or her location, age, latest activities, and much more. Note that in order to view customer activities you will first need to define them using the **Activities** screen. Visit the **Activities** section to learn more.
 
 ## Requirements
 
@@ -33,9 +33,7 @@ manager: "kvivek"
   > [!div class="mx-imgBorder"] 
   > ![](media/permissions-page.png "Permissions page")
 
-<!--note from editor: Change below heading to "Install Customer Card add-in" Nimrod comment: I think yes, we should?   -->
-
-## Installation into Dynamics 365 for Customer Engagement
+## Install Customer Card Add-in
 
 1. As an admin, go to the **Settings** section in Customer Engagement, and select **Solutions**. 
 
