@@ -59,8 +59,6 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
    
 ## Ingest data from Dynamics 365
 
-<!--note from editor: current guidance is no "for Apps" after Common Data Service   -->
-
 1. Select **Common Data Service**
 
    > [!div class="mx-imgBorder"] 
@@ -80,8 +78,6 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-account.png "Connector account")
-
-<!--note from editor: #3 above--not seeing how the screen shots match the text. Nimrod will work on this   -->
 
 ## Ingest data from the Azure SQL database
 
