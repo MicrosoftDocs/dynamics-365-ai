@@ -97,8 +97,14 @@ Lastly, the following image shows the panel that opens for date-type attributes.
 
 In this panel, you can specify the intervals included on the filter panel, as well as the order policy by which they will be organized.
 
-Save your selections using **Save**. Select **Run** once you are ready to apply your settings. Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Customers** page.
+Save your selections using **Save**. Select **Run** once you are ready to apply your settings. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")
+
+Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Customers** page. To go back to the Customers page, click the following button:
+
+// add 1
+
+
 
