@@ -26,7 +26,7 @@ There are two main goals of the map phase:
 - **Entity selection:** Identify the entities that can be combined to lead to a dataset with more complete information about your customers.
 - **Attribute selection:** For each entity, identify the columns (the items in those columns are called *attributes*) you want to combine and reconcile in the next data unification phases, match and merge .
 
-<!--note from editor: In bullet item above, is it the columns that are attributes or the items listed in the columns?   -->
+<!--note from editor: In bullet item above, is it the columns that are attributes or the items listed in the columns? Nimrod will handle   -->
 
 Select the **Map** tile on the **Unify** page to start the map phase.
 
@@ -76,7 +76,7 @@ After you select **Edit**, the **Attributes** panel opens.
 
 Use **Search** or scroll down the **Attributes** list to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all attributes by selecting **Select all**. Once one attribute is selected, the same button can be used to clear all your selections (now appears as **Clear all**).
 
-<!--note from editor: Last sentence in para above is unclear to me--checkbox button turns into a Clear all button?  -->
+<!--note from editor: Last sentence in para above is unclear to me--checkbox button turns into a Clear all button? Nimrod comment: Yes. Vivek, have an idea how to make it clearer? -->
 
 ## Add and remove entities
 
