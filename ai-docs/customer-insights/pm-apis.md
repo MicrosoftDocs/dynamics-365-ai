@@ -24,11 +24,6 @@ manager: "kvivek"
 
 There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
-<!-- 
-> [!div class="mx-imgBorder"] 
-> ![](media/api-swagger-install.png "Customer Insights Swagger webpage")
--->
-
 The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
 - Provide guidance on how to use the Swagger tool.
