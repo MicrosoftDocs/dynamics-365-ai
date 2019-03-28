@@ -61,7 +61,7 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
 
 <!--note from editor: current guidance is no "for Apps" after Common Data Service   -->
 
-1. Select **Common Data Service for Apps**.
+1. Select **Common Data Service**
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-cds.png "Select Common Data Service")
