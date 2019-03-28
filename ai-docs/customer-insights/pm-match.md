@@ -89,6 +89,7 @@ The warning sign (outlined in the preceding example) implies that we didn't defi
 
 That opens the **New rule** pane.
 
+// replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-condition.png "Create new rule and conditions")
 
@@ -105,7 +106,9 @@ The **New Rule** pane enables you to specify the conditions for that role. Each 
 
 2. An attribute that will be used for matching from the second match pair entity.
 
-3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2) from removing punctuation, to removing spaces, to many others. 
+3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2) from removing punctuation, to removing spaces, to many others. Some of the options are shown below:
+
+// Add 1
 
 4. The level of precision that will be used for that condition:
 
