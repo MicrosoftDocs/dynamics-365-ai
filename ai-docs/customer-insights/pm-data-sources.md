@@ -23,21 +23,16 @@ manager: "kvivek"
 
 Dynamics 365 for Customer Insights lets you bring together data from many sources:
 
-- Transactional sources
+- Transactional sources 
 - Observational sources
 - Behavioral sources
 - Other sources
-
-<!--note from editor: Add examples to the above bullet items.   -->
-<!--note from editor: Suggest moving the below para to the pm-common-connectors file as intro material. Keep a brief mention of connectors in this topic. Nimrod's comment: Don't agree in this case. This topic matches a screen we have in the app's left side menu while the Guidance on common connectors section doesn't match any of the screens. Hence in many cases the user is expected to visit the data sources section but not the other section and will need some context. -->
 
 You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector. 
 
 To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of them.
 
-<!--note from editor: Suggest deleting the below heading and changing the level 3 headings to Level 2 so they show up in right-hand nav. This also eliminates a level 2 heading without any text except a note. Nimrod's comment: makes sense to me  -->
-
-## Bring your data into Customer Insights 
+# Bring your data into Customer Insights 
 
 > [!IMPORTANT]
 > Currently, on-premises data sources are not supported in Customer Insights. 
