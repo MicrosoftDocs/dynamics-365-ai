@@ -124,19 +124,19 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
    Here is an example of a copied link: 
  https://microsoft.sharepoint.com/:u:/t/yourTeamName/EdP4G8Jk2dZJh3iCj9DUteIBCzbdOX7C4bmVvzlDo811vj  
 
-<!--note from editor:  Add intros or headings for the below. Nimrod will work on this  -->
+From the link components described above:
 
-**Your team name**
+- Here is where you can find **Your team name**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-team-name.png "Team name")
 
-**Root folder to your documents**
+- Here is where you can find the **Root folder to your documents**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-root-folder.png "Root folder")
 
-**File name and the folder structure for the file**
+- And here is where you will find your **File name and the folder structure for the file**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/connector-folder-structure.png "File name and folder structure")
