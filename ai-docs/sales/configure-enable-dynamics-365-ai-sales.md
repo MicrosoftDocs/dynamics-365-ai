@@ -195,11 +195,7 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
     The prediction opportunity scoring is applied in your organization and users can see the opportunity scoring in their views under the **Opportunity Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
    > [!NOTE]
-   
-   
-   <!--from editor: In the following sentence, is "our" organization correct, or should it be "your"?-->   
-   
-   > We recommend that you train the model once the data is refreshed in our organization for better prediction accuracy scoring.
+   > We recommend that you train the model once the data is refreshed in your organization for better prediction accuracy scoring.
 1. If you want to configure the opportunity score range, enter a minimum value of the range in the Opportunity Scoring Range.<br>
 
    When you change the opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change a minimum range value score for **Grade A** to 70, the maximum opportunity score range for **Grade B** changes to 69.<br>
