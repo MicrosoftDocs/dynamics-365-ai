@@ -73,6 +73,8 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
 
 3. Sign in with your username and password.
 
+4. Choose your entities of interest from the left side menu, and then review them on the right side window:
+
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-ce-log-in.png "Log in")
 
