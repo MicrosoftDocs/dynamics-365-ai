@@ -26,8 +26,6 @@ After ingesting your data using the **Data sources** page, go to the **Entities*
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
 
-<!--note from editor: "Type" is in screen shot, not in list. "Last Refreshed" is in list, not in screen shot. Nimrod's comment: I am confused - I don't see Type in the screenshot but do see Last Refresh in the screenshot. And I am looking at ci-share..?  -->
-
 The **Entities** page includes seven columns: 
 - **Name**: The name of your data entity—a category such as Account or Activity, for example. Note that a warning sign next to an entity name means that the data for that entity didn't load successfully. 
 - **Source**: Answers the question *From what data source was this entity ingested?* (for example, a CSV file or Azure data source).
@@ -35,22 +33,21 @@ The **Entities** page includes seven columns:
 - **Created**: Answers the question *When was this entity created?*
 - **Updated by**: Answers the question *By whom was this entity's data updated?*
 - **Last updated**: Answers the question *When was the last time this entity's data was updated?*
-- **Last refreshed**: Answers the question *When was the last time this entity's data was refreshed?*
+- **Last refresh**: Answers the question *When was the last time this entity's data was refreshed?*
 
 ## Exploring a specific entity's data
 
-<!--note from editor: add the name of the entity to the below? "Select an entity (Survey:SurveyData in the following example)" Nimrod's comment: Good catch. will handle-->
 
-Select an entity to explore the different fields and records included within that entity.
+Select an entity to explore the different fields and records included within that entity. In the example below, the *Survey: SurveyData* entity was selected:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-data.png "Data manager entities")
 
 When you open the **Entities** page, the **Data** tab is selected by default (shown in the preceding image), and the **Data** table appears below it. This table provides details about each of this entity's records, including the record's value, when it was created, and when it was last refreshed.
 
-After selecting the **Fields** tab, the **Fields** table appears. You can use this table to view all the details for the selected entity, such as field names, data types, and types. Items in the **Type** column are  Common Data Model-associated types, which can differ from those records' data types if those are not Common Data Model-related.
+After selecting the **Fields** tab, the **Fields** table appears. You can use this table to view all the details for the selected entity, such as field names, data types, and types. 
 
-<!--note from editor: I don't understand the last sentence in the above para. Nimrod will handle   -->
+Note that the items in the **Type** column are Common Data Model (CDM) associated types. Those are semantic types that are either auto-identified by the system or can be manually identified using the **Map** screen (visit the **Map** section to learn more). Those types can differ from the attributes' data types (for example, the field *Email* below has a data type *Text* but it's (semantic) CDM-type might be *Email* or *EmailAddress*):
 
 > [!div class="mx-imgBorder"] 
 > ![](media/data-manager-entities-fields.png "Data manager fields")
