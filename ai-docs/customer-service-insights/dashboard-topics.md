@@ -18,9 +18,14 @@ manager: shellyha
 
 > ![Topics dashboard](media/topics-dash.png)
 
-The Topics dashboard uses artificial intelligence technology to group related support cases as support topics and display them in order of the number of cases associated with each topic. You can then filter the list by searching for topics related to a specific keyword, view each topic's support cases, and fine-tune the way cases are grouped into topics.
+The Topics dashboard uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. You can then take a variety of steps to view and manage the topics and associated support cases, including:
 
-## Filter the list by searching for topics related to a specific keyword
+* Filtering the topic list
+* Viewing a topic's support cases
+* Fine-tuning the way cases are grouped into topics
+* Renaming a topic
+
+## Filtering the topic list
 
 You can narrow down the list of topics displayed on the Topics dashboard by searching for a specific keyword in the **Search** box in the upper right corner of the dashboard.
 
@@ -32,7 +37,7 @@ To restore the original topic list, clear the search box by selecting the close 
 
 > ![Clear search](media/clear-search.png)
 
-## View a topic's support cases
+## Viewing a topic's support cases
 
 You can view the support cases associated with a topic by selecting it in the Topics list. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list.
 
@@ -42,7 +47,11 @@ Customer Service Insights displays a list of the support cases associated with t
 
 > ![Cases list](media/cases-list.png)
 
-Note that the titles of the support cases associated with the *Password reset link is invalid* topic include variations of phrases related to password reset problems. Based on these similarities, Customer Service Insights uses artificial technology to group the cases together in a single topic.
+Note that the many of the titles of the support cases associated with the *Password reset link is invalid* topic include variations of phrases related to password reset problems. Based on these similarities, Customer Service Insights uses artificial technology to group the cases together in a single topic.
+
+The Customer Service Insights artificial intelligence technology also includes cases that include related terms. For example, the *Password reset link is invalid* topic includes topics related to *login* issues.
+
+> ![Cases list](media/login-cases.png)
 
 To view the details of a support case, click the case title in the list.
 
@@ -52,10 +61,14 @@ Customer Service Insights opens the support case details in Dynamics 365.
 
 > ![Open support details](media/open-support-details.png)
 
-## Fine-tune the way cases are grouped into topics
+## Fine-tuning the way cases are grouped into topics
 
-You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the the placement of cases within topics. By rating the placement, you can help the artificial intelligence technology learn and improve case grouping.
+You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the placement of cases within topics. By rating the placement, you can help the Customer Service Insights artificial intelligence learn and improve case grouping.
 
-To rate a case, hover over the case title, and you will see two rating icons appear.
+To rate the placement of a topic's support cases, select the topic in the Topics dashboard's Topics list to displays the list of cases associated with the topic. Then hover over the case title to display the **Thumbs up** and **Thumbs down** ratings icons.
 
-Select Thumbs Up to indicate the case has been classified correctly. Select Thumbs Down to indicate the case was not classified correctly.
+> ![Ratings icons](media/ratings-icons.png)
+
+Select the **Thumbs Up** icon to indicate the case has been placed correctly within the topic. Select the **Thumbs Down** icon to indicate the case was not placed correctly.
+
+## Renaming a topic
