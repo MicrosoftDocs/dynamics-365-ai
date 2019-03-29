@@ -93,6 +93,6 @@ To delete a relationship:
 ### Next step
 <!--include links to topics in cross-refs    -->
 
-System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources that are no longer siloed. Visit the **Segments section** to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities section**.
+System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources that are no longer siloed. Visit the **Segments** section to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities** section.
 
 

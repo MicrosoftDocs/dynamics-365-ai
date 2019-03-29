@@ -26,8 +26,8 @@ The **Measures** page enables you to define all the key performance indicators (
 Once you define measures, you can benefit in a variety of ways. For example:
 
 - Track business measures on your home page.
-- View measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in section** to learn more.
-- Use measures to define a customer segment using the **Segment Builder** page. See the **Segments section** to learn more.
+- View measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in** section to learn more.
+- Use measures to define a customer segment using the **Segment Builder** page. See the **Segments** section to learn more.
 
 ## Step One: Choose a measure type
 

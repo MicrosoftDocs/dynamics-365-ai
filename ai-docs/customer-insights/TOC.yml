@@ -3,7 +3,7 @@
   items:
   - name: Home
     href: pm-homepage.md
-  - name: Profiles
+  - name: Customers
     href: pm-profiles.md
   - name: Segments
     href: pm-segments.md

@@ -70,13 +70,11 @@ On this page, you can choose and exclude attributes:
 
 Add a merged attribute with **Add Merged Attribute**, as shown in this example.
 
-// replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/merge-add-merge-attribute.png "Add merged attributes")
 
 We will perform the manual merge process within the **Merged attribute** pane.
 
-// replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 

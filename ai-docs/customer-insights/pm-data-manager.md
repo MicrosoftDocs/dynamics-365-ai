@@ -27,9 +27,6 @@ Connecting to your data sources is the first step toward consolidating and recon
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-tile.png "Get data tile")
 
-
-<!--note from editor:  Include links to the topics.  -->
-
 The [Data sources](pm-data-sources.md) and [Common connectors guidance](pm-common-connectors.md) topics describe how to complete the mandatory data ingestion process by using the **Data sources** page. You learn how to connect to data from:
 
 - Transactional sources

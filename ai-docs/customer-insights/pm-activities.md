@@ -25,9 +25,7 @@ The Activities capability helps consolidate customer activities from various dat
 
 The Activities capability includes two components:
 - **Activities** page: Access this from the **Activities** tab on the left-side menu. Use it to define the activities that you want to view on the customer’s timeline grid.
-- **Timeline grid:** This grid consolidates all the activities of one customer in chronological order, and it can be viewed either within a Customer Engagement app via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the **Timeline Control** subsection within the **Customer Card Add-In** section to learn how to work with that control.
-
-<!--note from editor:  Add links to cross-refs above  -->
+- **Timeline grid:** This grid consolidates all the activities of one customer in chronological order, and it can be viewed either within a Customer Engagement app via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) within the **Customer Card Add-In** section to learn how to work with that control.
 
 This topic covers only the **Activities** page.
 
@@ -84,8 +82,7 @@ You can now define your next activity by selecting **Add**. Don't forget to save
    
 ### Next step
 
-<!--note from editor:  include links to topics  -->
 Once you define your activities, you can:
-1. Explore the **Timeline Control** subsection under the **Customer Card Add-in** section in order to learn how to view information on these activities for each of your customers.
+1. Explore the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) under the **Customer Card Add-in** section in order to learn how to view information on these activities for each of your customers.
 2. Visit the **Connectors** section to learn how to set up the **Power BI** dashboard where you can also view information on these activities for each of your customers.
 

@@ -21,11 +21,9 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<!--note from editor: [JimH] For Vivek, this topic was removed and now returned. It has not been edited -->
+Now that you have created one or more segments using the **Segment builder** screen, you are ready to start acting upon your data. Make sure to first visit the [**Segments** section](pm-segments.md) if you haven't done so. 
 
-Now that you have created one or more segments using the **Segment builder** screen, you are ready to start acting upon your data  (make sure to first visit the **Segments** section if you haven't done so). 
-
-At present, you can export any of your segments to both a CSV file and a Customer Engagement location. In the future we will add additional segment export options.
+At present, you can export any of your segments to both a CSV file and a Customer Engagement location. In the future, we will add additional segment export options.
 
 1. Both options are available within the **Segments** page.
       
@@ -69,7 +67,7 @@ At present, you can export any of your segments to both a CSV file and a Custome
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-in-process.png "Segmentation export in process")
     
-   Upon clicking your Dynamics 365 for Sales destination (shown in red above), you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message.
+   Upon clicking your Dynamics 365 for Sales destination, you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message.
   
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-in-process.png "Segmentation export in process")

@@ -1,5 +1,5 @@
 ---
-title: "Search & Filter Index | MicrosoftDocs"
+title: "Search & filter index | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 3/26/2019
@@ -18,21 +18,17 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 
-## Search & Filter Index
+## Search & filter index
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The end result of the data unification process is the creation of the Customer Profile entity that equips you with a unified view into your total customer base. At the same time, you might want to quickly pull information on a specific customer or a group of customers. That can be done with the **Search** and **Filter** capabilities on the **Customers** page.
 
-// replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
-<!--note from editor: Include links to Profiles topic below   -->
+To further understand how to utilize those capabilities, visit the [**Customers** section](pm-customers.md). In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & filter index** page that is accessible via the **Search & filter index** button on the **Customers** page:
 
-To further understand how to utilize those capabilities, visit the **Customers** section. In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & Filter Index** page that is accessible via the **Search & Filter Index** button on the **Customers** page:
-
-// replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
 
@@ -44,23 +40,20 @@ In the panel shown below, choose all the attributes by which users will be able 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes2.png "Add attributes")
 
-At this point you will see the **Search and Filter Index** page. In the following example, many attributes were already selected.
+At this point you will see the **Search & filter index** page. In the following example, many attributes were already selected.
 
-// replace 4
 > [!div class="mx-imgBorder"] 
-> ![](media/search-sort-filter.png "Search sort filter")
+> ![](media/search-sort-filter2.png "Search sort filter")
 
 You can always add more attributes with **Add** (#1 in the following example). You can also remove any selected attributes using the button shown in #2.
 
-// replace 5
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-add.png "Add attribute")
 
-## Exploring the Search and Filter Index page
+## Exploring the Search & filter index page
 
 Let's explore the table on this page, going left to right.
 
-// replace 6
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-edit.png "Edit attribute")
 
@@ -73,7 +66,7 @@ Let's explore the table on this page, going left to right.
 
 The **Filter** menu on the **Customers** page can include a varying number of attribute levels (for example, anywhere between two and 10 age groups to filter customers by). 
 
-After selecting **Add Filter** for a given attribute on the **Search & Filter Index** page, one of three possible panels will show up, depending on the attribute's data type. Using this panel you will be able to determine:
+After selecting **Add Filter** for a given attribute on the **Search & filter index** page, one of three possible panels will show up, depending on the attribute's data type. Using this panel you will be able to determine:
 
 - The number of results that will appear on the **Filter** menu on the **Customers** page. 
 - The order in which they will be organized.
@@ -101,13 +94,11 @@ In this panel, you can specify the intervals included on the filter panel, as we
 
 Save your selections using **Save**. Select **Run** once you are ready to apply your settings. 
 
-// replace 7
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")
 
 Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Customers** page. To go back to the **Customers** page, select the following button:
 
-// add 1
-
-
+> [!div class="mx-imgBorder"] 
+> ![](media/search-filter-index-back-customers.png "Back to customers")
 

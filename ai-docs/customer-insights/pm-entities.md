@@ -55,5 +55,4 @@ Note that the items in the **Type** column are Common Data Model (CDM) associate
 Both the **Fields** table and the **Data** table show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
 ### Next step
-<!--note from editor: add links to topics   -->
-See the **Configure data** section to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.
+See the [**Configure data** section](pm-configure-data.md) to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.

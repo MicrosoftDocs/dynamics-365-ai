@@ -158,7 +158,7 @@ Follow these steps to edit an existing data source.
    > ![](media/configure-data-sources-delete.png "Data sources delete")
 
 ### Next steps:
-<!--note from editor:  link to topics  -->
+<!--note from editor:  link to topics  JimH: I don't know what that topic is -->
 
 At this point, you are ready to unlock unique customer insights. See the **Unify** topic to learn more. If you want to review all the entities that were ingested to the system first, see **Entities**. 
 

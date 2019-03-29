@@ -46,11 +46,12 @@ Select a customer tile to see additional information on that specific customer. 
 
 ## Search for customers
 
-Search for customers by entering an attribute name (for example, the customer’s name) in the search box. To enable search, an admin needs to configure what attributes will be searchable using the **Search & Filter Index** screen that is accessible via the **Search & Filter button**:
+Search for customers by entering an attribute name (for example, the customer’s name) in the search box. To enable search, an admin needs to configure what attributes will be searchable using the **Search & filter index** screen that is accessible via the **Search & Filter button**:
 
-// Add missing image 1
+> [!div class="mx-imgBorder"] 
+> ![](media/search-filter-index.png "Search & filter index")
 
-If you are an admin who wishes to learn more about the **Search & Filter Index** screen, explore the **Search & Filter Index** topic.
+If you are an admin who wishes to learn more about the **Search & filter index** screen, explore the **Search & filter index** topic.
 
 Note that the search will be executed only within the Customer Profile entity created during the data unification process.
 
@@ -64,14 +65,14 @@ After selecting one of the customer tiles, you can also search for a specific at
 
 ## Filter customers
 
-Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & Filter Index** screen. 
+Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & filter index** screen. 
 
 First, select **Filter**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-filter.png "Customer Card tile filter")
 
-Then, check the boxes next to the attributes you want to filter customers by. As with Search, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator on the **Search & Filter Index** page.
+Then, check the boxes next to the attributes you want to filter customers by. As with Search, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator on the **Search & filter index** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers3.png "Customer profiles")

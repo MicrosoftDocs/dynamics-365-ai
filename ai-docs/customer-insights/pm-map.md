@@ -99,6 +99,4 @@ There are two selections you must complete prior to the completion of the map ph
 - **Attribute type:** Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.  
 
 ### Next step
-<!--note from editor: Add links to topic cross-refs   -->
-
-As part of the data unification process, go to the **Match** page by selecting **Match** in the left-side menu or by selecting the **Match** tile on the **Unify** page. Visit the **Match** section to learn about this phase.
+As part of the data unification process, go to the **Match** page by selecting **Match** in the left-side menu or by selecting the **Match** tile on the **Unify** page. Visit the [**Match** section](pm-match.md) to learn about this phase.

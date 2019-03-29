@@ -24,12 +24,11 @@ manager: "kvivek"
 The Customer Insights administration pages include the **Permissions** and **Settings** pages. You can access both from the app's left-side menu.
 
 **If you are an administrator:**
-<!--note from editor: add links to cross-refs: Line 29, Line 34-->
 
-- You can use the **Permissions** page to give other users across the organization access to Customer Insights. There are two types of access: **Reader** and **Writer**. You can learn how they differ by visiting the **Permissions** section. 
+- You can use the **Permissions** page to give other users across the organization access to Customer Insights. There are two types of access: **Reader** and **Writer**. You can learn how they differ by visiting the [**Permissions** section](pm-permissions.md). 
 - You can use the **Settings** page to give easily identifiable names to your instances. You can also specify a name for your organization and define a region for it. 
 
 **If you are not an administrator:**
 
-- You can use the **Permissions** page to learn what is accessible to you as a user. As explained in the **Permissions** section, what you have access to depends on whether you have **Writer** or **Reader** permissions.
+- You can use the **Permissions** page to learn what is accessible to you as a user. As explained in the [**Permissions** section](pm-permissions.md), what you have access to depends on whether you have **Writer** or **Reader** permissions.
 
