@@ -2,7 +2,7 @@
 title: "Known issues for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Issues and bugs we are aware of for your visibility."
 keywords: "known issue, bug, backlog"
-ms.date: 04/01/2019
+ms.date: 03/29/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: b9086df8-4398-4185-886d-4b701ee50908
