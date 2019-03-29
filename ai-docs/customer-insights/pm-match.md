@@ -24,12 +24,9 @@ manager: "kvivek"
 
 Once the map phase is completed, you're ready to match your entities. Select **Match** on the **Unify** page to get to the **Match** page.
 
-<!--note from editor: In 2nd bullet item--change "the following page" to the **Match** page? Nimrod's comment: It's not really the Match page, it's a page the user will see before the Match page. Can we remove comment?   -->
-
 Note that the match phase requires at least two mapped entities. If you have not mapped at least two entities, you receive a message to go back to the **Map** page and meet the requirement.
 
 If you did map at least two entities, you can expect to reach the following page. Select **Set order** once you are ready to start the match phase.
-
 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-new-rule.png "Match new rule")
@@ -71,8 +68,6 @@ Each match involves two entities that are unified into a single entity, while ma
 > [!NOTE]
 > The questions you asked to make your first selection can help you choose **Entity 2** as well. Among your ingested (and mapped) entities, what entity do you consider to have the second most reliable and complete data? Moreover, does it include at least one field that is shared by the **Primary** entity, and possibly additional fields that are shared by other ingested entities?
 
-<!--note from editor: Move the "Important" and "Note" text out of notes and format as normal body text?   -->
-
 You can always remove entities from your match order. Lastly, select **Done** to save your match order.
 
 ## Step Two: Define rules for your first match pair
@@ -93,11 +88,7 @@ That opens the **New rule** pane.
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-match-new-rule-condition.png "Create new rule and conditions")
 
-<!--note from editor: Change 2nd sentence in para below to: "For each entity in the condition, you are required to choose an attribute and a precision level:   -->
-
-The **New Rule** pane enables you to specify the conditions for that role. Each condition is represented by two rows that include the following mandatory selections:
-
-<!--note from editor: I'm finding this list confusing--not sure how the bullets match to the UI. Also, do you see and choose the normalization options at this time, or is this done later?. In list item #1, the 2nd sentence doesn't make sense to me; seems contradictory. Nimrod's comment: We need to replace image with image that has four digit-based markings. will provide. Regarding the other point - we may want to add another image with the normalization menu options openned but it will happen post GA.   -->
+The **New Rule** pane enables you to specify the conditions for that role. As can be seen in the image above, each condition is represented by two rows that include the following mandatory selections:
 
 1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
@@ -223,8 +214,6 @@ Fourth, you can experiment with different thresholds around your conditions in o
 ## Step Five (optional): Make changes to optimize your matches
 
 If you followed Step Four, at this point you should have a better understanding of the quality of your first match. You can translate that understanding into better match quality by reconfiguring some of your match parameters:
-
-<!--note from editor:  2nd bullet item below: Delete the sentence about substituting? Nimrod's comment: Why? I think it's worth mentioning  -->
 
 - **Change the match order**: This can be done by selecting **Edit**, shown in the following example, and editing the match order fields.
 
