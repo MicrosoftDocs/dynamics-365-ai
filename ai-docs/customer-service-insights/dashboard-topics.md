@@ -18,7 +18,7 @@ manager: shellyha
 
 > ![Topics dashboard](media/topics-dash.png)
 
-The Topics dashboard uses artificial intelligence technology to group related support cases as support topics and display them in order of the number of cases associated with each topic. You can then filter the list by searching for topics related to a specific keyword, view each topic's support cases, and fine-tune the way cases are grouped into topics. 
+The Topics dashboard uses artificial intelligence technology to group related support cases as support topics and display them in order of the number of cases associated with each topic. You can then filter the list by searching for topics related to a specific keyword, view each topic's support cases, and fine-tune the way cases are grouped into topics.
 
 ## Filter the list by searching for topics related to a specific keyword
 
@@ -54,7 +54,7 @@ Customer Service Insights opens the support case details in Dynamics 365.
 
 ## Fine-tune the way cases are grouped into topics
 
-You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the the placement of cases within topics. By rating the placement, you can help the artificial intelligence technology learn and improve case grouping. 
+You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the the placement of cases within topics. By rating the placement, you can help the artificial intelligence technology learn and improve case grouping.
 
 To rate a case, hover over the case title, and you will see two rating icons appear.
 
