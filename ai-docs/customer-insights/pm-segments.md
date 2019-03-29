@@ -32,9 +32,7 @@ There are two types of segments:
 - **Static**: A segment that is processed only once—either upon the creation or update of any of its filters. These segments are especially useful when properties are not expected to change over time or when they are expected to be used only once. Example use case: Customers who attended an expo event. 
 - **Dynamic**: A segment that is processed according to a recurring schedule. These segments are especially useful when customers' attributes change over time. Example use case: Customers who have bought products worth more than $500 in the last three months. The current refresh schedule for dynamic segments is every 12 hours.
 
-<!--note from editor: In para below, is "escalated case" a call to customer service that got escalated? Change to "who have been involved in a customer service call that got escalated in the last 30 days."?   -->
-
-The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who have placed orders of more than $500 in the last 90 days **and** who have had an escalated case in the last 30 days. These customers can then be sent a satisfaction survey as a follow-up. 
+The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who have placed orders of more than $500 in the last 90 days **and** who have been involved in a customer service call that got escalated in the last 30 days
 
 Later, we will learn how to produce such segments. 
 
@@ -89,6 +87,7 @@ In Customer Insights, a group is a set of customers.
     > ![](media/segments-group1-define-filter.png "Choose entity")
 
 2. Choose the attribute by which you want to segment. Our attribute can have one of four value types: numerical, string, date, or Boolean. In the following example, an attribute with a numerical value is used as a filter.
+
 3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator, **Equals**, and value, **2**, were chosen.
 
    > [!div class="mx-imgBorder"] 
@@ -103,7 +102,7 @@ In Customer Insights, a group is a set of customers.
 
     Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
 
-4. Add entities that are related to that entity until getting to the Customer Profile entity. That can be done using the **ADD** operator. You can define the required relationships between entities using the **Relationships** page (see the “Relationships” section for more information). For these additional entities, choose the **All Records** attribute.
+4. Add entities that are related to that entity until getting to the Customer Profile entity as will be shown in the example below. Note that for the completion of this step, you may need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). 
 
 ### Example - Group Creation
 Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
@@ -133,7 +132,7 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings4.png "Select OnlineAccount: WebsiteDatabase")
 
-6. Select **All Records** as an operator.
+6. Select **All Records** as an operator. No value is needed under this operator:
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings5.png "Select All Records")
@@ -153,7 +152,6 @@ At this point, we have completed the mandatory path definition. We recommend tha
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-save-group-definition.png "Save group definition")
 
-<!--note from editor: step 6 above: is "All Records" an operator, or an attribute (line 106), or both?   -->
 
 ### Step Three (optional): Add more conditions to your group 
 
@@ -183,9 +181,7 @@ Three set operators are displayed: **Union**, **Intersect**, and **Exclude**.
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-group-union.png "Customer group add union")
  
-<!--note from editor: Change the sentences below to  "Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained." ? -->
- 
-Selecting a set operator enables you to define a new group. At the same time, saving each of these will lead to a different result.
+Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
 
 - **Union** unites the new group you have created in Step Four with the group you have created in Steps Two and Three. With this option, data that is common to both groups is maintained, as well as data that is not common to both groups.
 
@@ -198,14 +194,10 @@ Selecting a set operator enables you to define a new group. At the same time, sa
 > [!div class="mx-imgBorder"] 
 > ![](media/segments-list2.png "Explore segments")
 
-<!--note from editor: Elaborate on what "certain actions" means.   -->
-
-
 On the Segments page, you can view all your saved segments and perform certain actions.
 
 - Dynamic segments appear to the left, and static segments appear to the right.
 - Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trendline to see last week's growth in this segment's members count. If you prefer to view all of your segments in a table format, select one of the following:
-
   > [!div class="mx-imgBorder"] 
   > ![](media/segmentation-static-segment.png "Static segment")
 
@@ -217,7 +209,7 @@ You can also perform certain actions with each segment. First, select the follow
 Then, choose one of the following options from the drop-down menu:
 - Editing the segment
 - Viewing the segment's members
-- Exporting the segment to either a CSV file or to a Customer Engagement location
+- Exporting the segment to either a CSV file or to a Dynamics 365 for Sales location. For more information on the different exporting options make sure to visit the **Segment Export** section.
 - Turning the segment to inactive or active (depending on its baseline state)
 - Deleting the segment 
 - Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment appears under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
@@ -239,28 +231,9 @@ The lower part includes a table with all your segment's members.
 - Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The preceding example is typical for a **Customer** entity, but it is only one of many possible representations.
 
 - Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor page to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
- 
-## Act on your data
-
-Now that you have created one ore more segments using the **Segment builder** page, you are ready to start acting on your data. 
-
-You can export any of your segments to a CSV file from the next two locations.
-
-<!--note from editor:  Recommend replacing screen shot at lines 245/246, under bullet item "The Segments page," that says "POS customers without company loyalty" with a screen shot that has "POS" spelled out--Point of Sale?  -->
-
-
-- The **Segments** page.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/segmentation-export-csv.png "Segmentation export")
-      
-- The **Segment Details** page.  
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/segment-menu-export-top.png "Export segment")
-   
+    
 ## Next step
-At this point, explore the “Customer Card” and “Connectors” sections, where you will learn to extract insights on the individual customer level.
-
+Visit the **Segment Export** section to learn about the different options for exporting your segments. 
+You can also explore the **Customer Card** and **Connectors** sections to get insights on the customer-level.
     
 
