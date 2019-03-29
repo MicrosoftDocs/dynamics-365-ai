@@ -99,7 +99,7 @@ The **New Rule** pane enables you to specify the conditions for that role. As ca
 3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2) from removing punctuation, to removing spaces, to many others. Some of the options are shown below:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/match-normalizaton.png "Normalization")
+> ![](media/match-normalization.png "Normalization")
 
 4. The level of precision that will be used for that condition:
 

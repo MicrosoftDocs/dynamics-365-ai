@@ -36,9 +36,15 @@ To further understand how to utilize those capabilities, visit the [**Customers*
 
 In the panel shown below, choose all the attributes by which users will be able to search and filter customers on the **Customers** page. You can use the **Search** field to search for a specific attribute by its name. Note that you can select only attributes that exist in the Customer Profile entity that you created during the data unification process.
 
-// replace 3
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes2.png "Add attributes")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes3.png "Add attributes")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes4.png "Add attributes")
+
 
 At this point you will see the **Search & filter index** page. In the following example, many attributes were already selected.
 
