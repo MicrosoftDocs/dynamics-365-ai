@@ -27,7 +27,7 @@ The end result of the data unification process is the creation of the Customer P
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
-To further understand how to utilize those capabilities, visit the [**Customers** section](pm-customers.md). In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & filter index** page that is accessible via the **Search & filter index** button on the **Customers** page:
+To further understand how to utilize those capabilities, visit the [**Customers** section](pm-profiles.md). In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & filter index** page that is accessible via the **Search & filter index** button on the **Customers** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
