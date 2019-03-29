@@ -23,19 +23,14 @@ manager: "kvivek"
 
 Dynamics 365 for Customer Insights lets you bring together data from many sources:
 
-- Transactional sources
+- Transactional sources 
 - Observational sources
 - Behavioral sources
 - Other sources
 
-<!--note from editor: Add examples to the above bullet items.   -->
-<!--note from editor: Suggest moving the below para to the pm-common-connectors file as intro material. Keep a brief mention of connectors in this topic. Nimrod's comment: Don't agree in this case. This topic matches a screen we have in the app's left side menu while the Guidance on common connectors section doesn't match any of the screens. Hence in many cases the user is expected to visit the data sources section but not the other section and will need some context. -->
-
 You can bring in data to Dynamics 365 Customer Insights by using the 20+ out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector. 
 
 To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of them.
-
-<!--note from editor: Suggest deleting the below heading and changing the level 3 headings to Level 2 so they show up in right-hand nav. This also eliminates a level 2 heading without any text except a note. Nimrod's comment: makes sense to me  -->
 
 ## Bring your data into Customer Insights 
 
@@ -45,8 +40,6 @@ To import data to Customer Insights, create a data source on the **Data sources*
 ### Step One (mandatory): Create a new data source
 
 Follow these steps to load data into Customer Insights:
-
-<!--note from editor: Step 1 below--are these assuming you are starting on the home page? Nimrod's comment: Yes, you always land in the home page by default after selecting/creating an instance   -->
 
 1. Navigate to the **Data sources** page using the **Data sources** tab on the left-side menu.
 
@@ -76,14 +69,11 @@ Follow these steps to load data into Customer Insights:
 5. After you choose a connector, you are required to fill in some fields. For guidance on filling in fields for some of the most common data sources (for example, Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).  
 
 
-
-### Step Two (mandatory): Add and review entities
-
-<!--note from editor: In Step 4, list after screen shot: confirming that the minus sign outlined in blue = successfully ingested and checkmark outlined in red = no data ingested. Nimrod's comment: Confirmed. Can I delete comment? -->
+### Step Two (mandatory): Adding, reviewing and transforming entities
 
 In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of them (an Orders dataset or Sales dataset, for example) is an entity. 
 
-<!--note from editor: Is there a difference between "edit" and "transform" in the list item #2? Nimrod's comment: Good point. We can leave only one of them. 
+<!--note from editor: 
 Also--is the Power Query window something customers are familiar with? Nimrod's comment: We may want to add a link to the Power Query documentation. The downside is that we use Embedded Power Query and as far as I know there is no documentation for that. so we might end refering the reader to a documentation with functionalities he can't find, etc-->
 
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source appear in the left pane (#1):
@@ -92,7 +82,7 @@ Also--is the Power Query window something customers are familiar with? Nimrod's 
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-configure-edit-queries.png "Edit queries")
 
-2. You can also edit and transform the data. First, choose an entity to edit or transform. Then, open one of the menus (see #2 in the preceding image) located at the top of the Power Query window to find a specific transformation. Each transformation is added as a processing step (see #3 in the preceding image), which can be modified as needed.
+2. You can also transform your data. First, choose an entity to edit or transform. Then, open one of the menus (see #2 in the preceding image) located at the top of the Power Query window to find a specific transformation. Each transformation is added as a processing step (see #3 in the preceding image), which can be modified as needed.
 
    >[!NOTE]
    >It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*segmentation*, *match*, or *merge*, for example). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes. 
@@ -138,9 +128,6 @@ Also--is the Power Query window something customers are familiar with? Nimrod's 
 
    Repeat the same steps for each data source you want to ingest into Customer Insights.
 
-
-<!--note from editor:  Info in #3 above, the text from "These transformations are highly recommended" to the end of list item #3 seems like it should be in its own bullet item, separate from "You an add additional entities....." Nimrod will handle -->
-
 ### Step Three (optional): Review ingested data
 
 It is possible that the data load will take some time. After successfully refreshing, the ingested data can be reviewed from the **Entities** page as shown in the following example. For more information on the **Entities** page, see [Data Manager: Entities](pm-entities.md).
@@ -173,5 +160,5 @@ Follow these steps to edit an existing data source.
 ### Next steps:
 <!--note from editor:  link to topics  -->
 
-At this point, you are ready to unlock unique customer insights. See the **Unify**, **Map**, **Match**, and **Merge** topics. If you want to review all the entities that were ingested first, see **Entities**. 
+At this point, you are ready to unlock unique customer insights. See the **Unify** topic to learn more. If you want to review all the entities that were ingested to the system first, see **Entities**. 
 

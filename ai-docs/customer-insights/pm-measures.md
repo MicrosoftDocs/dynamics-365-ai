@@ -29,11 +29,9 @@ Once you define measures, you can benefit in a variety of ways. For example:
 - View measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in section** to learn more.
 - Use measures to define a customer segment using the **Segment Builder** page. See the **Segments section** to learn more.
 
-<!--note from editor: Suggest deleting "Step One" from the below heading, keeping the heading title "Choose between three measure types". Below at Line 56, insert heading "Step One: Select **New Measure**". Nimrod's comment:Agree. will handle   -->
+## Step One: Choose a measure type
 
-## Step One: Choose between three measure types
-
-Customer Insights supports three types of measures:
+**Customer Insights supports three types of measures:**
 
 - **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customr_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
 
@@ -59,26 +57,16 @@ To begin defining a measure, from the **Measures** page, select **Add New Measur
 
 ## Step Two: Choose the starting entity
 
-<!--note from editor:   Is there a step missing here, in between opening the measure creation pane and selecting the Business Measure option? Suggest a change along these lines:
-"Selecting **New Measure** opens the measure creation pane. From here, select one of three options:
--Business measure
--Customer measure
--Customer attribute Nimrod comment: Fixed the text in line 70 to make it clearer. I think comment can be deleted now-->
-
 Selecting **New Measure** opens the measure creation pane. 
 
 For the **Business Measure** option, you will see the **New business measure** pane:
-
-<!--note from editor: instead of "see the following", say "be asked to enter the following information", followed by list; then put screen shot after list. Nimrod's comment: I think the current list-after-screen-shot order is fine as well as the "you will see" text above -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/new-business-measure.png "New business measure")
 
 - **Name** (mandatory): After completing the configuration of your measure, it appears on the **Measures** page under this name.
 - **Display name** (optional): As mentioned earlier, your measure is added as an attribute or saved as a new entity. In both cases, the measure carries over the Display Name to the home page and Customer Card.
-- **Starting entity** (mandatory): Choose the entity based on how you want to construct your measure. If you want to include fields from multiple entities in your measure fields, choose any of these entities.  
-
-<!--note from editor:  Change "Starting entity" description to: "An entity you choose based on how you want to construct your measure."  In 2nd sentence, which entities are being referred to in phrase "choose any of these entities"?-->
+- **Starting entity** (mandatory): Choose the entity you wish to build your measure around. For example, if we might choose an *Orders* entity as a starting entity if our measure is *Average order amount*. If you want to include fields from multiple entities in your measure fields, choose any of these entities.  
 
 You see the **New profile measure** pane when you select the **Customer Measure** option:
 
@@ -112,13 +100,14 @@ In order to choose additional entities, select **Add new entity**, and choose th
 > You can select only those entities that have relationships to your starting entity. If you haven't defined relationships yet, see the **Relationships** section.
 
 ## Step Four: Calculate a variable
-Select **New Variable**.
-<!--note from editor: Add additional intro text   -->
+In Customer Insights, variables are calculations that are made on each of your selected fields' records. For example, summing point-of-sale (POS) and online sales for each of your customers records. 
+
+Steps for defining a variable: 
+
+Select **New Variable**:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/accounts-dynamics-365.png "Accounts Dynamics365")
-
-<!--note from editor:  names of panes: text should match UI   -->
 
 This opens the **New variable** pane.
 
@@ -129,15 +118,13 @@ Complete these steps:
 
 1. Give the variable a recognizable name. 
 2. Select the **Expression** area.
-3. Choose a field from the list of fields to the right of the **Expression** area.
-4. Type an expression in the **Expression** area while choosing more fields. 
+3. Choose a field from the list of fields to the right of the **Expression** area to begin your calculation with.
+4. Type an expression in the **Expression** area while choosing more fields to be included in your calculation.
 
    >[!NOTE]
    >Currently, Customer Insights supports arithmetic expressions only.
 
 5. Select **Done**.
-
-<!--note from editor: Step 4 above unclear--do you type in the Expression area, or is it filled in when you select fields? -->
 
 In the following example, we have defined a calculation for the relative contribution of a single purchase to the Customer Lifetime Value (CLTV).
 
@@ -153,9 +140,7 @@ In this step, you will decide how to aggregate and summarize your chosen entitie
 What is a dimension? You can think of a dimension as a “group by” function: The data within your new Measure entity or attribute will 
 be grouped by all of your defined dimensions.
 
-<!--note from editor: In the para below and elsewhere, is it "Measures" entity or "Measure" entity?   -->
-
-In the following example, we have defined **State** as the dimension field of the **BusinessReport: Customer 360** Measures entity. On the screen, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
+In the following example, we have defined **State** as the dimension field of the **BusinessReport: Customer 360** Measure entity. On the screen, we can see that the data we included in that entity (first highlighted column) is grouped by the State column (second highlighted column).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-businessreport-data-tab.png "Entity grouped by State")
@@ -188,7 +173,6 @@ Select or enter the following information as part of your dimension's definition
 **Step 3 (optional)**: Add aggregate functions 
 
 Any aggregation that you create results in a new value within your Measures entity or attribute. 
-
 Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, and **Count Unique**.
 
 For example, let's assume that we have added the aggregated value **Average Service Amount**, which takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it:
@@ -196,9 +180,7 @@ For example, let's assume that we have added the aggregated value **Average Serv
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-aggregated-field-example.png "Aggregated field example")
 
-<!--note from editor: is name of new measure "Aggregated Example" or "AggregatedFieldExample" ?  -->
-
-When visiting the **Entities** page and choosing the new measure we have just created (called **Aggregated Example**), we can see that our aggregation formula has created the new value **Average Service Amount**.
+When visiting the **Entities** page and choosing the new measure we have just created (called **AggregatedFieldExample**), we can see that our aggregation formula has created the new value **Average Service Amount**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measures-aggregated-field-example2.png "Aggregated field example")
@@ -239,15 +221,11 @@ As mentioned before, you can also view your created measure in one of the folloi
 - If created a **Business measure** with no dimensions, you can view your created measure on **Home** page (under *Insights* section). 
 - Lastly, if you created a **Business measure** with one or more dimensions, you can find your new measure entity on the **Entities** page. 
 
-<!--note from editor:Confused about what sentence below refers to: is it referencing line 167, "First, select **New Measure**"?   -->
 
 ## Add and Edit measures
 At any time, you can create a new measure by selecting **Add Measure** as discussed earlier.
 
-
-<!--note from editor: in sentence below, change "following button" to "**Measure menu** button"?   -->
-
-You can also edit, delete, or rename the data of any of your created measures by first selecting the following button.
+You can also edit, delete, or rename the data of any of your created measures by first selecting the following **(three dots)** button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/measure-menu.png "Measure menu")

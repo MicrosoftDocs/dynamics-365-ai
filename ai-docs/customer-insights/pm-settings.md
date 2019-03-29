@@ -109,7 +109,6 @@ The next step is to decide between **Weekly** (default) and **Daily** refreshes.
     > ![](media/system-data-refresh-save.png "System data refresh save")
 
 ## About tab
-<!--note from editor:  Introduce the screen shot below, or delete it?  -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/system-data-about-tab.png "System data About tab")
