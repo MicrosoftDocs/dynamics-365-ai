@@ -124,9 +124,5 @@ Congratulations! You have completed both the data ingestion and data unification
 
 - Complete more data configurations (Activities, Relationships, or Enrich Profiles). Although they are  optional, they can help you unlock richer insights into your customers. 
 
-
-<!--The following sentence doesn't make sense. "Continue to insight exploration" needs rewriting. Nimrod's comment: Why? Vivek can you help?-->
-
-
-- Continue to insight exploration via the **Segments**, **Customer Card** and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights, while **Customer Card** and **Connectors** will enable you to unlock insights on specific customers.
+- Continue to insight exploration via the **Segments**, **Customer Card** and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights on your customer base, while **Customer Card** and **Connectors** will enable you to unlock insights on each of your customers.
  
