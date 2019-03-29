@@ -24,15 +24,16 @@ search.app:
 
 Sometimes, things don't work as expected. We're sorry for that. Before reporting a bug, please have a look at this list to see if we are already aware of the issue. 
 
-## Market Insights Alerts
+## Market Insights alerts
 
-- Sometimes, you might see an error message that your alert wasn't saved. Please click "Create alert" again if that happens.
-- You may not see any news results in the preview if there wasn't anything recent in the news. We do try to pull older results, but sometimes this is unsuccessful. We are investigating this issue.
-- On mobile, keyboard focus can get trapped in one of the "Advanced" boxes (if you use them) during alert creation.
-- Layout on landscape mode on mobile phones is not very usable. Please use portrait mode until fixed.
-- The footer in the email is being updated to have less content and white space
-- During alert creation, if there is no news in the preview, you get 2 error messages
-- Error messages do not auto dismiss at the moment. Please dismiss them manually until we fix this issue.
+- When you close the browser, you are signed out of the Market Insights alerts site
+- Signing in to the alerts site sometimes takes a moment so it can take some time for your alerts list to show
+- Updating a topic won't update the topic name even though the topic itself is updated
+- Signing in with an account that didn't have your first name and last name specified, we will show you as “unknown”
+- If you name contains special characters, we don't display them correctly
+- News article snippets get truncated on the GMail app on iPhone
+- When you forward an email, the icons for the trending topics aren't displayed correctly
+- The alert email can have extra spaces next to the keyword in some cases
 
 ### See also
 
