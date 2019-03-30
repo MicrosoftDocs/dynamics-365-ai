@@ -5,6 +5,9 @@
     href: pm-homepage.md
   - name: Customers
     href: pm-profiles.md
+    items:
+    - name: Search & Filter index
+      href: pm-manage-search.md
   - name: Segments
     href: pm-segments.md
     items:
@@ -43,8 +46,6 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
-    - name: Search & Filter index
-      href: pm-manage-search.md
   - name: Extensibility
     items:
     - name: Customer Card Add-in 
