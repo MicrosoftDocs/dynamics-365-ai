@@ -6,7 +6,7 @@
   - name: Customers
     href: pm-profiles.md
     items:
-    - name: Search & Filter index
+    - name: Search & filter index
       href: pm-manage-search.md
   - name: Segments
     href: pm-segments.md
