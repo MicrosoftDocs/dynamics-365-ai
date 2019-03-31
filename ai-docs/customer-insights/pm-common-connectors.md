@@ -21,6 +21,14 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+This section provides more information atop the **Data Sources** section. 
+In this section we will cover in detail how to load data from several connectors. Currently this
+section covers the following connectors (in that order):
+1. Ingest data from a file hosted in an **Azure blob**
+2. Ingest data from Dynamics 365
+3. Ingest data from the Azure SQL database
+4. Ingest data from a CSV file 
+
 > [!IMPORTANT]
 > Currently, on-premises and OData data sources are not supported in Dynamics 365 Customer Insights. 
 
