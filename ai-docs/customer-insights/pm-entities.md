@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-After ingesting your data using the **Data sources** page, go to the **Entities** page to evaluate how complete and useful it is. 
+After ingesting your data using the **Data sources** page, you can visit the **Entities** page to evaluate how complete and useful it is. In Customer Insights, *Entities* are *datasets*. Many of the product processes - from data unification, to relationships and segmentation, to measures and activities, are all organized around the entities you will choose. Reviewing the Entities page can help you validate the output of each of those processes. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/scorecard-entities-import-data.png "Entities import data")
