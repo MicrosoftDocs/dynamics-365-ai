@@ -37,7 +37,7 @@ To further understand how to utilize those capabilities, visit the [**Customers*
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes4.png "Add attributes")
 
-If it's not your first time, you can get to the **Search & Filter Index** screen through the **Search & Filter Index** button on the **Customers** page:
+- If it's not your first time, you can get to the **Search & Filter Index** screen through the **Search & Filter Index** button on the **Customers** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
