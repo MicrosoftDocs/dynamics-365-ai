@@ -26,11 +26,14 @@ The **Customers** page presents a consolidated view of each customer based on pr
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
-**Note:** If you get the following screen upon clicking the **Customers tab** on the app's left side menu, then it means that your administrator didn't define yet at least one searchable attribute using the **Search & Filter Index** screen. If that is the case, your administrator can use the **Search & Filter Index** section. Once at least one attribute was defined as searchable, you should get to the Customers page. 
+**Note:** If you get the following screen upon clicking the **Customers tab** on the app's left side menu, then it means that your administrator didn't define yet at least one searchable attribute using the **Search & Filter Index** screen:
 
-// add 1
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes3.png "Add attributes")
 
-Once visitng the Customers page, you can go to the next **Customers** page and view more customers profiles using the buttons in the lower-right corner of the page.
+If that is the case, your administrator can use the **Search & Filter Index** section to learn how to use the **Search & Filter Index** screen. Once at least one attribute was defined as searchable, you should get to the Customers page. 
+
+Once gettng to the Customers page, you can start viewing your customers' profiles. You can always go to the next **Customers** page and view more customers profiles using the buttons in the lower-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
