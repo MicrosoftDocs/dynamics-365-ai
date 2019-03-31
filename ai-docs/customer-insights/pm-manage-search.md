@@ -27,7 +27,17 @@ The end result of the data unification process is the creation of the Customer P
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
-To further understand how to utilize those capabilities, visit the [**Customers** section](pm-profiles.md). In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & filter index** page that is accessible via the **Search & filter index** button on the **Customers** page:
+To further understand how to utilize those capabilities, visit the [**Customers** section](pm-profiles.md). In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & filter index** page.
+
+- If, as an administrator, it's the first time you define searchable attributes, you can expect to get to the **Search & Filter Index** screen by going through the following screens:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes3.png "Add attributes")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes4.png "Add attributes")
+
+- If it's not your first time, you can get to the **Search & Filter Index** screen through the **Search & Filter Index** button on the **Customers** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
@@ -38,13 +48,6 @@ In the panel shown below, choose all the attributes by which users will be able 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes2.png "Add attributes")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/add-attributes3.png "Add attributes")
-
-> [!div class="mx-imgBorder"] 
-> ![](media/add-attributes4.png "Add attributes")
-
 
 At this point you will see the **Search & filter index** page. In the following example, many attributes were already selected.
 
