@@ -26,8 +26,11 @@ The **Customers** page presents a consolidated view of each customer based on pr
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
+**Note:** If you get the following screen upon clicking the **Customers tab** on the app's left side menu, then it means that your administrator didn't define yet at least one searchable attribute using the **Search & Filter Index** screen. If that is the case, your administrator can use the **Search & Filter Index** section. Once at least one attribute was defined as searchable, you should get to the Customers page. 
 
-To view more customer profiles, go to the next **Customers** page by using the buttons in the lower-right corner of the page.
+// add 1
+
+Once visitng the Customers page, you can go to the next **Customers** page and view more customers profiles using the buttons in the lower-right corner of the page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
@@ -46,12 +49,10 @@ Select a customer tile to see additional information on that specific customer. 
 
 ## Search for customers
 
-Search for customers by entering an attribute name (for example, the customer’s name) in the search box. To enable search, an admin needs to configure what attributes will be searchable using the **Search & filter index** screen that is accessible via the **Search & Filter button**:
+Search for customers by entering an attribute name (for example, the customer’s name) in the search box. As an admin, you can always re-select and re-configure your searchable attributes using the **Search & filter index** screen that is accessible via the **Search & Filter Index** button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter-index.png "Search & filter index")
-
-If you are an admin who wishes to learn more about the **Search & filter index** screen, explore the **Search & filter index** topic.
 
 Note that the search will be executed only within the Customer Profile entity created during the data unification process.
 
