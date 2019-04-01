@@ -47,7 +47,7 @@ We apply data science and machine learning to your topic, finding articles with 
 
 ### Content relevant for business professionals
 
-In addition, we try to bring you content that is more relevant for business professionals like mergers, acquisitions, product launches/sunsets, customer issues etc. As our service evolves, we will continue making improvements and love to hear your feedback. Simply use the **Send Feedback** link in the Alert email to share your thoughts and ideas.
+In addition, we try to bring you content that is more relevant for business professionals like mergers, acquisitions, product launches/sunsets, customer issues etc. As our service evolves, we will continue making improvements and love to hear your feedback. Simply use the **Send Feedback** link in the alert email to share your thoughts and ideas.
 
 ### Insights from online activity
 
@@ -56,7 +56,7 @@ We go beyond what's in the news about your topic to give you actionable informat
  
 ### Features tailored to business professionals (coming soon)
 
-Simple things like enabling users to combine alerts about all their competitors into one email can be a huge time saver for business professionals. Allowing them to choose a delivery time lets them receive our alert for their daily commute, fo example. Sharing with your professional network on LinkedIn can help you build your brand around a topic you are following. We will also cover more sources like forums and blogs that are important to you.
+Simple things like enabling users to combine alerts about all their competitors into one email can be a huge time saver for business professionals. Allowing them to choose a delivery time lets them receive our alert for their daily commute, for example. Sharing with your professional network on LinkedIn can help you build your brand around a topic you are following. We will also cover more sources like forums and blogs that are important to you.
 
 ### See also
 
