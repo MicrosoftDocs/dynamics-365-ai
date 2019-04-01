@@ -48,7 +48,6 @@ Follow these steps to load data into Customer Insights:
 
 3. Provide a name for the data source, and select **Save**. This creates the data source. 
 
-// replace 1
    > [!div class="mx-imgBorder"] 
    > ![](media/data-manager-get-data-create.png "Get data create")
 
