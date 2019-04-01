@@ -52,7 +52,7 @@ For example, when you type "Which opportunities closed last month?", the applica
 
 The natural language Q&A capability of Sales Insights is an ever-evolving system and it is being improved based on your feedback. We recommend you provide feedback for both satisfactory and unsatisfactory results as we tune the capability to work best for your questions.
 
-To learn more on improving the search, see [Provide feedback to improve search results]().
+To learn more on improving the search, see [Provide feedback to improve search results](#provide-feedback-to-improve-search-results).
 To get started asking questions, you can use the Q&A text box on the Sales Insights home page:
 
 > [!div class="mx-imgBorder"]
@@ -104,8 +104,12 @@ At times, the results that the application fetches might not be accurate or rele
 
 ### Reference
 
-Let’s look at three scenarios on how to use the Sales Insights Q&A in your organization.
+Let’s look at the following three scenarios on how to use the Sales Insights Q&A in your organization.
 
+- [Scenario 1: Sales manager preparing for meeting to coach seller](#scenario-1:-sales-manager-preparing-for-meeting-to-coach-seller)
+- [Scenario 2: Sales manager preparing for business review meeting with sales leadership](#scenario-2:-sales-manager-preparing-for-business-review-meeting-with-sales-leadership)
+- [Scenario 3: Track sales performance and monitor progress on goals of the sales team](#scenario-3:-track-sales-performance-and-monitor-progress-on-goals-of-the-sales-team)
+ 
 #### Scenario 1: Sales manager preparing for meeting to coach seller
 
 **Objective**: The goal of this scenario is to help you as a sales manager to improve the sales performance of a seller.
