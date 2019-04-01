@@ -2,7 +2,7 @@
 title: "Measures | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/24/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Measures
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **Measures** page enables you to define all the key performance indicators (KPIs) that best reflect the performance and health of your specific business. You can define customer-related measures such as Lifetime Value and business-health measures such as Monthly Active Users. Customer Insights provides an intuitive experience for building different types of measures, with a query-builder wizard that doesn’t require you to manually code or validate a query. 
 
@@ -160,11 +158,9 @@ Select or enter the following information as part of your dimension's definition
 **As**: Defines the name of your new field in the Measure entity or attribute. <br />
 **Display Name**: Defines the display name of your field in the Measure entity or attribute.
 
-
 >[!NOTE]
 >Your Business measure will be saved as a single-number entity and will appear on the home page unless you complete Step 2 below (adding more dimensions to your measure). If you complete Step 2, the measure will **not** show up on the home page.
   
- 
 **Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just illustrated.
 
 > [!div class="mx-imgBorder"] 
@@ -220,7 +216,6 @@ As mentioned before, you can also view your created measure in one of the folloi
 - If created a **Customer attribute**, you can view your new attribute on the **Entities** page - look for the *Customer_Measure* entity.
 - If created a **Business measure** with no dimensions, you can view your created measure on **Home** page (under *Insights* section). 
 - Lastly, if you created a **Business measure** with one or more dimensions, you can find your new measure entity on the **Entities** page. 
-
 
 ## Add and Edit measures
 At any time, you can create a new measure by selecting **Add Measure** as discussed earlier.

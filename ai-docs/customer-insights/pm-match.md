@@ -2,7 +2,7 @@
 title: "Match | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "kvivek"
 ---
 
 # Match
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Once the map phase is completed, you're ready to match your entities. Select **Match** on the **Unify** page to get to the **Match** page.
 

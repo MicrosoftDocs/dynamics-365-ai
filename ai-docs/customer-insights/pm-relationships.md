@@ -2,7 +2,7 @@
 title: "Relationships | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Relationships
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## What are relationships useful for?
 
@@ -91,7 +89,6 @@ To delete a relationship:
    > ![](media/delete-relationship.png "Delete relationship")
 
 ### Next step
-<!--include links to topics in cross-refs    -->
 
 System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources that are no longer siloed. Visit the **Segments** section to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities** section.
 

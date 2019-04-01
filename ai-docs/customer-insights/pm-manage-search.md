@@ -2,7 +2,7 @@
 title: "Search & filter index | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 3/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "kvivek"
 ---
 
 ## Search & filter index
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The end result of the data unification process is the creation of the Customer Profile entity that equips you with a unified view into your total customer base. At the same time, you might want to quickly pull information on a specific customer or a group of customers. That can be done with the **Search** and **Filter** capabilities on the **Customers** page.
 

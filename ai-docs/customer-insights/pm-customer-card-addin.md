@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Customer Card add-in
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Customer Card enables you to gain a 360 angle view on each of your customers. Once completing the Customer Card installation, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on a selected customer, including his or her location, age, latest activities, and much more. Note that in order to view customer activities you will first need to define them using the **Activities** screen. Visit the **Activities** section to learn more.
 

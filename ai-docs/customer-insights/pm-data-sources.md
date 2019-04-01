@@ -2,7 +2,7 @@
 title: "Data sources | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/25/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Data sources
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Dynamics 365 for Customer Insights lets you bring together data from many sources:
 
@@ -72,9 +70,6 @@ Follow these steps to load data into Customer Insights:
 ### Step Two (mandatory): Adding, reviewing and transforming entities
 
 In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of them (an Orders dataset or Sales dataset, for example) is an entity. 
-
-<!--note from editor: 
-Also--is the Power Query window something customers are familiar with? Nimrod's comment: We may want to add a link to the Power Query documentation. The downside is that we use Embedded Power Query and as far as I know there is no documentation for that. so we might end refering the reader to a documentation with functionalities he can't find, etc-->
 
 1. Use the Power Query window shown in the following example to review and possibly configure the data. The entities that the system identified in your selected data source appear in the left pane (#1):
 
@@ -158,7 +153,6 @@ Follow these steps to edit an existing data source.
    > ![](media/configure-data-sources-delete.png "Data sources delete")
 
 ### Next steps:
-<!--note from editor:  link to topics  JimH: I don't know what that topic is -->
 
 At this point, you are ready to unlock unique customer insights. See the **Unify** topic to learn more. If you want to review all the entities that were ingested to the system first, see **Entities**. 
 

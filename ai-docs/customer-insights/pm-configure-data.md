@@ -2,7 +2,7 @@
 title: "Unify| MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/25/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Unify
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
 
 After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. In CI, data unification includes three pages: **Map**, **Match**, and **Merge**.
  

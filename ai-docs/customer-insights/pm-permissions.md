@@ -2,7 +2,7 @@
 title: "Permissions | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Permissions
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **Permissions** page is where you can set up roles and permissions for using Customer Insights across the organization. Customer Insights includes three types of roles. 
 

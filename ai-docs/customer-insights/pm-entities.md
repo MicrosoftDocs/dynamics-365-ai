@@ -2,7 +2,7 @@
 title: "Get data | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/25/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Entities
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 After ingesting your data using the **Data sources** page, you can visit the **Entities** page to evaluate how complete and useful it is. In Customer Insights, *Entities* are *datasets*. Many of the product processes - from data unification, to relationships and segmentation, to measures and activities, are all organized around the entities you will choose. Reviewing the Entities page can help you validate the output of each of those processes. 
 

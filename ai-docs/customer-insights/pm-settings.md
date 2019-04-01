@@ -2,7 +2,7 @@
 title: "System | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # System
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **System** page encapsulates everything that you need as an administrator to closely monitor the various processes that run behind the scenes of Customer Insights. As shown here, it includes four parts: **Status**, **Schedule**, **About**, and **General**.
 

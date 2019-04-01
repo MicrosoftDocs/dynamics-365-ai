@@ -2,7 +2,7 @@
 title: "Activities | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Activities
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Activities capability helps consolidate customer activities from various data sources. This creates a customer timeline view. Business analysts can configure activities to be displayed on a customer dashboard with a timeline view, which can be embedded in business applications.
 

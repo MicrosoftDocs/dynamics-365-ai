@@ -2,7 +2,7 @@
 title: "Home | MicrosoftDocs"
 description: Home
 ms.custom: ""
-ms.date: 03/24/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Home 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The first page you see in the Dynamics 365 Customer Insights app is the home page. 
 
@@ -47,7 +45,6 @@ Let's explore those insights:
 - **Aggregate-level insights** (#1): Tiles with business insights (from the measures you define on the **Measures** page). Only Business measures will show up here. Can include predictive key performance indicators (KPIs) such as average likelihood of customer churn.
 - **Information on preferred brands and interests within your customer base** (#2): This unique information can be unlocked via the **Enrich Profiles** page after completing the *Map*, *Match*, and *Merge* phases.  
 - **Customer segments** (#3): Includes segments that were created around your customers. For more information on how to manually create additional segments, visit the **Segments** section.
-
 
 ### Next step
 Many of the home page insights are dependent upon the completion of the data configuration process, and this process in turn is based on first loading data into Customer Insights. See the [Data Manager](pm-data-manager.md) or [Data Sources](pm-data-sources.md) topics to learn how to complete the data loading process. 

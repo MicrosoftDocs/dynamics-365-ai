@@ -2,7 +2,7 @@
 title: "Segmentation| MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/22/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Segments 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction to segmentation
 
@@ -78,8 +76,6 @@ The rest of the segment creation process is done on the **Segment Editor** page.
 In Customer Insights, a group is a set of customers. 
 
 **Define a group**
-
-<!--note from editor:  Please clarify step 4 below--"until getting to the Customer Profile entity"  -->
 
 1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an Order Value field by which we want to segment. In order to choose your entity of interest, select the field shown here.
 

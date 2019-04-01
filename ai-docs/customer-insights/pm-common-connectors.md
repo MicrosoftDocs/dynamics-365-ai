@@ -2,7 +2,7 @@
 title: "Common connectors guidance | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Common connectors
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This section provides more information atop the **Data Sources** section. 
 In this section we will cover in detail how to load data from several connectors. Currently this

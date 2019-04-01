@@ -2,7 +2,7 @@
 title: "Data Subject Rights (DSR) requests under GDPR | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -18,8 +18,6 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 # Data Subject Rights (DSR) requests under GDPR
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Responding to GDPR data subject delete requests for Dynamics 365 Customer Insights 
 

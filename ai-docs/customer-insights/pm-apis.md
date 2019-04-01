@@ -2,7 +2,7 @@
 title: "APIs | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/26/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "kvivek"
 ---
 
 # APIs
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
@@ -60,7 +58,6 @@ See the **Conflation** table on the [Customer Insights Swagger webpage](https://
 |{entityName}     | It should be an entity name that has data ingested for the given instance (and a data source, if that is given as well).        |
 |{datasourceId}     | ID must be the ID of a data source that exists inside of the given instance.        |
 |{conflationId}     | ID must be the ID of an existing conflation for the given instance.        |
-
 
 ### Additional limitations by API
 

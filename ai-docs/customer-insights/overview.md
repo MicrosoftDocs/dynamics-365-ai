@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Insights | MicrosoftDocs"
 description: Overview of Dynamics 365 Customer Insights
 ms.custom: ""
-ms.date: 03/27/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,15 +19,6 @@ manager: "kvivek"
 ---
 # Dynamics 365 Customer Insights 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-
-<!--  This feature currently has limited availability. -->
-<!--  [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  -->
-
 Customer experience is at the very core of every organization’s digital transformation ambitions. To compete in today’s market, organizations need to build meaningful relationships with their customers on a personal level. The ability to effectively personalize at scale requires a complete, unified view of customers. 
 
 With Dynamics 365 Customer Insights, build a deep understanding of customers by connecting customer data from various transactional, behavioral, and observational sources to create a 360-degree customer view. Use  these insights to drive customer-centric experiences and processes.
@@ -40,8 +31,6 @@ With Dynamics 365 Customer Insights, build a deep understanding of customers by 
 **Customer Insights enables every organization to unify and understand their customer data to harness it for intelligent insights and actions.** 
 
 With Customer Insights, organizations can:  
-
-<!--note from editor:  In bullet below, spell out "AI/ML"?  -->
 
 - **Eliminate data silos and unify customer data**
 
@@ -67,8 +56,6 @@ The release will include capabilities for the following key users:
   - Enrich customer information with insights from audience intelligence contained within Microsoft Graph, such as brand affinity and interests. 
   - “Clicks-not-code” configuration and debugging experience to help easily configure Customer Insights and identify potential issues. 
   - Cleanse and standardize customer data across disparate sources with AI-powered recommendations.  
-
-<!--note from editor:change "prebuild" to "prebuilt"?   -->
 
 - **Business users:**
 
