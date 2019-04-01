@@ -2,7 +2,7 @@
 title: "Known issues for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Issues and bugs we are aware of for your visibility."
 keywords: "known issue, bug, backlog"
-ms.date: 03/29/2019
+ms.date: 04/01/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: b9086df8-4398-4185-886d-4b701ee50908
@@ -34,8 +34,9 @@ Sometimes, things don't work as expected. We're sorry for that. Before reporting
 - News article snippets get truncated on the GMail app on iPhone
 - When you forward an email, the icons for the trending topics aren't displayed correctly
 - The alert email can have extra spaces next to the keyword in some cases
+- Signing in to Market Insights alerts with your Google account and then signing in with a different Google account in the same browser won't work. You can only sign in with the original Google account unless you use InPrivate/Incognito browsing or a different browser.
 
 ### See also
 
 [Manage your alerts](alerts-management.md)    
-[How relevancy in determined in alerts](alerts-data-science.md)
+[How relevancy is determined in alerts](alerts-data-science.md)

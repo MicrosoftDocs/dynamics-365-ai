@@ -30,7 +30,7 @@ The following data is stored:
 - **Clicks** on news article links in the alert email to improve the relevance of future news articles sent to you
 - **Read rate** of email messages for usage statistics
 - **Feedback** you provide about the relevance of the alert email
-- **Visits** to the Market Insights Alerts website for usage statistics
+- **Visits** to the Market Insights alerts website for usage statistics
 
 ## Request export, update, or deletion of your data
 
