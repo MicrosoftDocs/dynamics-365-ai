@@ -2,13 +2,12 @@
 title: "Frequently asked questions for Market Insights | Microsoft Docs"
 description: "Find answers to frequently asked questions about Market Insights."
 keywords: "FAQ, questions, common issues, quota, search setup, search topics"
-ms.date: 10/31/2018
+ms.date: 04/01/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 30351228-2274-4998-933f-6a3fa6453274
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 ms.custom: dyn365-ai-marketinsights
 search.audienceType: 
   - admin
@@ -25,78 +24,116 @@ search.app:
 
 Are you new to [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
 
-## How can I respond to a Data Subject Request (DSR) in context of GDPR?
+## I did not receive an alert email. What happened?
 
-The workflows and pointers to the related procedures are listed in the [Dynamics 365 Data Subject Request GDPR Documentation](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=24330ae4-fb40-4e2c-9970-354d1ffc03e8&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_DSR) on the [Service Trust Portal](https://servicetrust.microsoft.com/). 
-  
-## How soon will I start seeing data after I set up a search topic? 
- 
-Data acquisition starts immediately after you set up your search topic. Depending on the source, it can take up to 30 minutes from the moment a social post is posted for it to show up in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. But usually it's much faster. We don't retroactively acquire social posts; however, if there are posts in our index that match your search topic, we might show those. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
-  
-## What are my options if I am reaching my quota limit?
-  
-As a rule of thumb, every post you can access in Analytics counts against your post quota. If a post that was published in the current calendar month is removed from Analytics, it's also deducted from the quota usage of the current month. You have multiple options to extend or stay within your quota limits:  
-  
--   You can buy a post quota add-on and increase your organization's total quota.  
-  
--   You can review or delete search topics or search rules that you don't need any more. This usually leads to fewer posts getting acquired and thus helps you stay on track with your monthly post quota.  
-  
--   You can narrow your search rules by removing keywords, or adding inclusions or exclusions.  
-  
--   You can add keywords and phrases to the list of blocked content to delete the posts that contain these terms, and free up some quota space.  
-  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md), [Manage the quality of your search results](search-results-quality.md)  
-  
-## What happens if I exceed my post quota?
-  
-Administrators start receiving email notifications when the estimated post volume for data acquisition seems likely to exceed the monthly post quota, regardless of how much quota is already consumed. If you exceed the post quota, data acquisition is stopped after a grace period. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
+- After you [create an alert](alerts-management.md#create-an-alert), you will receive your first alert the next morning. We are working on sending you a confirmation email right away (coming soon).
+- We don't send an email when there isn't something important enough to alert you about. 
+- Please [sign in](alerts-management.md#sign-in-to-the-app) to your account to verify if you had created an alert.
 
-## Why does the number of posts in Search Setup Quota differ from Analytics?
+## The news articles in the email don't seem relevant to my topic. What's going on?
 
-You might notice that there is a difference between the **Current number of posts** shown in the **Search Setup Quota** section and the **Analytics** dashboard when the time frame is set to the current month. There are two common reasons for this:
-- The **Analytics** page honors the web browser's time zone so that the posts displayed there are the posts for the month in your time zone. The Quota section, however, uses [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) to calculate the number of posts for the month. For example, if your browser is set to the Hawaii–Aleutian time zone (UTC-10), your Quota section would include the posts from the last 10 hours of the previous month _in your time zone_.
+Making sure the [email content is relevant to you](alerts-data-science.md) is our top priority. Please send us feedback if you have this issue. You can select the **Flag as irrelevant** link in the email to make this process most efficient.
 
-- You deleted search topics this month. Posts that were already acquired by the now-deleted search topic will still count against your monthly quota shown in the **Search Setup Quota** section. They will not appear in the Analytics posts number because they do not match any of your current search topics.
-  
-## Why is there no Facebook in keyword search?  
+## The preview I am seeing doesn't seem that relevant. Why?
 
-Facebook changed its APIs in April 2015. Although it's no longer possible to create keyword search rules for the Facebook source, you can still add entire Facebook pages to your search topics to track activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md)  
-  
-## On what level can I filter for Location from the filter section? 
- 
-You can drill down to the level of all available countries/regions in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]. In addition, you can create your own location groups to quickly filter for a set of countries/regions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](manage-global-settings.md)  
-  
-## Why can't I filter on the Top Cities widget in the Location dashboard?
-  
-We currently don't support filtering at the city level.  
-  
-## Why can't I see the original post on some of the News posts in the posts view?  
+There's a lot of AI that goes into curating the best content for you. In order to show you a preview immediately, we only do some of it - so rest assured that in most cases what you get in your email will be better than what you see in the preview. The preview is there to help you refine your topic. In the coming months, we will improve the preview significantly.
 
-In addition to covering online news, the News coverage provided by [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] also covers news venues that are not publicly available on the web (for example, behind a pay wall). In such a case, no link to the original source is available for the post.  
-  
-## Is there a limit to the number of terms or phrases that can be used in a keyword search rule?  
+## How do I setup a topic with more than just a phrase?
 
-Although you can create an unlimited number of search rules per search topic, there is a limit on the length and number of terms.  
-  
-- Maximum length, in characters, of search topic names: 35.  
-  
-- Maximum length, in characters, per keyword, inclusion, and exclusion: 128.  
-  
-- Maximum number of keywords per rule: 15.  
-  
-- Maximum number of inclusions per rule: 15.  
-  
-- Maximum number of exclusions per rule: 25.  
-  
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md)  
-  
-## Does your sentiment analysis accurately read emoticons or emoji?  
+Please use the **Show advanced** functionality to [refine your topic](alerts-management.md#tips-on-refining-your-topic). 
 
-There is a difference between *emoticons* (for example, **:)** or **:(**) and *emoji* (icons used mainly on mobile devices and IM). Our sentiment algorithm handles emoticons in addition to emoji, and assigns positive and negative values accordingly.  
+## Which open source components are used?
+
+   - "@babel/core": "7.1.0",
+    - "@babel/polyfill": "^7.0.0",
+    - "@skype/ecsclient": "^2.0.7",
+    - "@svgr/webpack": "2.4.1",
+    - "@types/dateformat": "^3.0.0",
+    - "@types/enzyme": "^3.1.16",
+    - "@types/react-test-renderer": "^16.0.3",
+    - "@types/redux-saga-routines": "2.1.0",
+    - "@uifabric/fluent-theme": "0.3.0",
+    - "applicationinsights-js": "1.0.20",
+    - "axios": "0.18.0",
+    - "babel-core": "7.0.0-bridge.0",
+    - "babel-eslint": "9.0.0",
+    - "babel-jest": "^24.0.0",
+    - "babel-loader": "8.0.4",
+    - "babel-plugin-named-asset-import": "0.2.0",
+    - "babel-preset-react-app": "5.0.0",
+    - "bfj": "6.1.1",
+    - "case-sensitive-paths-webpack-plugin": "2.1.2",
+    - "chalk": "2.4.1",
+    - "classnames": "2.2.6",
+    - "connected-react-router": "4.5.0",
+    - "css-loader": "1.0.0",
+    - "dateformat": "^3.0.3",
+    - "dotenv": "6.0.0",
+    - "dotenv-expand": "4.2.0",
+    - "eslint": "5.6.0",
+    - "eslint-config-react-app": "3.0.0",
+    - "eslint-loader": "2.1.1",
+    - "eslint-plugin-flowtype": "2.50.1",
+    - "eslint-plugin-import": "2.14.0",
+    - "eslint-plugin-jsx-a11y": "6.1.1",
+    - "eslint-plugin-react": "7.11.1",
+    - "file-loader": "2.0.0",
+    - "flag": "3.0.0-1",
+    - "fork-ts-checker-webpack-plugin": "0.4.9",
+    - "fs-extra": "7.0.0",
+    - "history": "4.7.2",
+    - "html-webpack-plugin": "4.0.0-alpha.2",
+    - "http-status-codes": "1.3.0",
+    - "identity-obj-proxy": "3.0.0",
+    - "jwt-decode": "2.2.0",
+    - "lodash": "4.17.11",
+    - "mini-css-extract-plugin": "0.4.3",
+    - "msal": "0.2.4",
+    - "node-sass": "4.10.0",
+    - "office-ui-fabric-react": "6.100.0",
+    - "optimize-css-assets-webpack-plugin": "5.0.1",
+    - "postcss-flexbugs-fixes": "4.1.0",
+    - "postcss-loader": "3.0.0",
+    - "postcss-preset-env": "6.0.6",
+    - "postcss-safe-parser": "4.0.1",
+    - "query-string": "6.2.0",
+    - "react": "16.6.0",
+    - "react-app-polyfill": "0.1.3",
+    - "react-dev-utils": "6.0.1",
+    - "react-dom": "16.6.0",
+    - "react-redux": "5.1.0",
+    - "react-router": "4.3.1",
+    - "react-router-dom": "4.3.1",
+    - "react-test-renderer": "^16.8.4",
+    - "redux": "4.0.1",
+    - "redux-actions": "2.6.4",
+    - "redux-persist": "5.10.0",
+    - "redux-saga": "0.16.2",
+    - "redux-saga-routines": "3.1.3",
+    - "redux-thunk": "2.3.0",
+    - "resolve": "1.8.1",
+    - "sass-loader": "7.1.0",
+    - "simplerestclients": "^0.2.6",
+    - "source-map-loader": "0.2.1",
+    - "style-loader": "0.23.0",
+    - "synctasks": "^0.3.3",
+    - "terser-webpack-plugin": "1.1.0",
+    - "thread-loader": "1.2.0",
+    - "ts-jest": "^24.0.0",
+    - "ts-loader": "4.x.x",
+    - "tsconfig-paths-webpack-plugin": "2.0.0",
+    - "tslint": "5.12.0",
+    - "tslint-config-prettier": "1.10.0",
+    - "tslint-react": "3.2.0",
+    - "url-loader": "1.1.1",
+    - "webpack": "4.19.1",
+    - "webpack-manifest-plugin": "2.0.4",
+    - "workbox-webpack-plugin": "3.6.1"
+
   
 ### See also
 
- [Get started with Market Insights](get-started.md)   
- [Administer Market Insights](settings-administration.md)   
- [Set up searches to listen to social media conversations](set-up-searches.md)
+[Market Insights alerts - track topics that matter to you](alerts-overview.md)    
+[How relevancy is determined in alerts](alerts-data-science.md)    
+[Data handling for Dynamics 365 Market Insights alerts](alerts-data-handling.md)
  

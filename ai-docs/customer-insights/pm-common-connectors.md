@@ -65,7 +65,7 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
    
 ## Ingest data from Dynamics 365
 
-1. Select **Common Data Service**
+1. Select **Common Data Service**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/connector-cds.png "Select Common Data Service")

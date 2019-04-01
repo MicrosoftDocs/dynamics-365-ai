@@ -2,7 +2,7 @@
 title: "Route posts using automation rules in Market Insights | Microsoft Docs"
 description: "Learn how to set up automation rules in Market Insights to automatically handle subsets of incoming posts."
 keywords: "automation rule, automated task"
-ms.date: 10/31/2018
+ms.date: 04/01/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: ab6e56e3-6b5c-4b07-9240-46885a246fe3
@@ -70,7 +70,7 @@ The following section explains more about the available actions for automation r
 > [!TIP]
 > [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can send administrators a failure notification if an action in an automation rule fails. Administrators can turn this feature on if they want to receive these notifications. To receive email notifications, go to **Settings** > **Automation Rules**, and then set **Send failure notification** to **ON**.  
 > 
->  For troubleshooting information when receiving failure notifications, see [Troubleshoot issues with failing actions](#troubleshoot).  
+>  For troubleshooting information when receiving failure notifications, see [Troubleshoot issues with failing actions](#troubleshoot-issues-with-failing-actions).  
   
 ### Create a link to Dynamics 365 from a social post  
 
@@ -82,7 +82,7 @@ Automatically assign posts that match your defined filters to a user or a group 
   
 ### Set a label  
 
-Automation rules  provide a Set Label action. Based on the filters you define, a label can be set on posts automatically.  For example, you can set a “Review immediately” label on posts from your top influencers so that your community management team can follow up with high priority. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or delete an automation rule](automation-rules.md#manage_rules)  
+Automation rules  provide a Set Label action. Based on the filters you define, a label can be set on posts automatically.  For example, you can set a “Review immediately” label on posts from your top influencers so that your community management team can follow up with high priority. 
   
 ### Stream posts to Microsoft Azure Event Hubs  
 
@@ -96,7 +96,7 @@ When you receive failure notifications, there are a few common issues and simple
 
 **Possible causes**  
   
-Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is no longer active or valid, or there are too many posts queued and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] throttles the creation of new records. After several failed retires, the posts are dropped from the queue, and a failure notification is sent. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Market Insights handles conflicting automation rules](#conflicting_rules)  
+Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is no longer active or valid, or there are too many posts queued and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] throttles the creation of new records. After several failed retires, the posts are dropped from the queue, and a failure notification is sent.
   
 **Address the issue**  
   
