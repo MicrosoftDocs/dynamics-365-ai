@@ -2,7 +2,7 @@
 title: "PowerApps connector | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,9 +19,7 @@ manager: "kvivek"
 ---
 # PowerApps connector
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Follow these steps to connect your PowerApps app to Customer Insights.
+Follow these steps to connect your PowerApps app to Customer Insights:
 
 1. Go to [https://powerapps.microsoft.com/](https://powerapps.microsoft.com/).
 
@@ -93,7 +91,7 @@ Follow these steps to connect your PowerApps app to Customer Insights.
     > [!div class="mx-imgBorder"] 
     > ![](media/connector-powerapps13.png "Fill in Text property")
 
-14.	To display the unified timeline for a customer, add a Gallery element and add the Items property: **Filter('Unified Customer Activity', CustomerId = {Customer_Id})** 
+14.	To display the unified timeline for a customer, add a Gallery element, and add the Items property: **Filter('Unified Customer Activity', CustomerId = {Customer_Id})** 
 
     Example: Filter('Unified Customer Activity', CustomerId = Gallery1.Selected.CustomerId)
 
