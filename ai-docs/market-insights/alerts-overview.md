@@ -63,6 +63,6 @@ Simple things like enabling users to combine alerts about all their competitors 
 ### See also
 
 [Manage your alerts](alerts-management.md)    
-[How relevancy in determined in alerts](alerts-data-science.md)    
+[How relevancy is determined in alerts](alerts-data-science.md)    
 [Data handling for Dynamics 365 Market Insights alerts](alerts-data-handling.md)    
 [Known issues](known-issues.md)

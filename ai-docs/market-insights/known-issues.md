@@ -38,4 +38,4 @@ Sometimes, things don't work as expected. We're sorry for that. Before reporting
 ### See also
 
 [Manage your alerts](alerts-management.md)    
-[How relevancy in determined in alerts](alerts-data-science.md)
+[How relevancy is determined in alerts](alerts-data-science.md)

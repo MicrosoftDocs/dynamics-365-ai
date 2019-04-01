@@ -6,7 +6,7 @@
 ### [Service scenarios](overview-service-scenario.md)
 ## [Market Insights Alerts](alerts-overview.md)
 ### [Manage your alerts](alerts-management.md)
-### [How relevancy in determined](alerts-data-science.md)
+### [How relevancy is determined](alerts-data-science.md)
 ### [Data handling for alerts](alerts-data-handling.md)
 ### [Known issues](known-issues.md)
 ### [FAQ](faq.md)

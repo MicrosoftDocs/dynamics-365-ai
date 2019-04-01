@@ -18,7 +18,7 @@ search.app:
   - D365SE
 ---
 
-# How relevancy in determined in alerts
+# How relevancy is determined in alerts
 
 (This topic is pre-release documentation and is subject to change.)
 
