@@ -106,9 +106,9 @@ At times, the results that the application fetches might not be accurate or rele
 
 Let’s look at the following three scenarios on how to use the Sales Insights Q&A in your organization.
 
-- [Scenario 1: Sales manager preparing for meeting to coach seller](#scenario-1:-sales-manager-preparing-for-meeting-to-coach-seller)
-- [Scenario 2: Sales manager preparing for business review meeting with sales leadership](#scenario-2:-sales-manager-preparing-for-business-review-meeting-with-sales-leadership)
-- [Scenario 3: Track sales performance and monitor progress on goals of the sales team](#scenario-3:-track-sales-performance-and-monitor-progress-on-goals-of-the-sales-team)
+- [Scenario 1: Sales manager preparing for meeting to coach seller](#scenario-1-sales-manager-preparing-for-meeting-to-coach-seller)
+- [Scenario 2: Sales manager preparing for business review meeting with sales leadership](#scenario-2-sales-manager-preparing-for-business-review-meeting-with-sales-leadership)
+- [Scenario 3: Track sales performance and monitor progress on goals of the sales team](#scenario-3-track-sales-performance-and-monitor-progress-on-goals-of-the-sales-team)
  
 #### Scenario 1: Sales manager preparing for meeting to coach seller
 
