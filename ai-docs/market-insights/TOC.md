@@ -4,7 +4,7 @@
 ### [Marketing scenarios](overview-marketing-scenario.md)
 ### [Sales scenarios](overview-sales-scenario.md)
 ### [Service scenarios](overview-service-scenario.md)
-## [Market Insights Alerts](alerts-overview.md)
+## [Market Insights alerts](alerts-overview.md)
 ### [Manage your alerts](alerts-management.md)
 ### [How relevancy is determined](alerts-data-science.md)
 ### [Data handling for alerts](alerts-data-handling.md)

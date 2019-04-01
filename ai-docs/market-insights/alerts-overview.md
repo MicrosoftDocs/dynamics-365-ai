@@ -1,8 +1,8 @@
 ---
-title: "Overview for Alerts in Dynamics 365 Market Insights | Microsoft Docs"
-description: "Introduction to Alerts in Market Insights."
+title: "Overview for alerts in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Introduction to alerts in Market Insights."
 keywords: "alert, daily digest, email"
-ms.date: 03/29/2019
+ms.date: 01/04/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8865341b-66db-4bd2-8c5e-5058482c7ccc
