@@ -2,7 +2,7 @@
 title: "Unify| MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,14 +19,11 @@ manager: "kvivek"
 ---
 # Unify
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
-
-After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. **Unify** includes three modules, represented by three tiles: **Map**, **Match** and **Merge**.
+After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. In CI, data unification includes three pages: **Map**, **Match**, and **Merge**.
  
-The goal behind the data unification process is to unify data sources that were once disparate into a master customer dataset that includes a more complete view on your customers. You should complete the three mandatory data unification stages. Make sure to start with **Map**, continue with **Match**, and finish with **Merge**.
+The goal behind the data unification process is to unify data sources that were once disparate into a master customer dataset that provides a more complete view of your customers. You should complete the three mandatory data unification stages—start with *map*, continue with *match*, and finish with *merge*.
 
-After completing the data-unification phases, you may want to utilize the optional **Relationships**, **Enrich Profiles**, and **Activities** pages.
-- The **Relationship** module is optional but is highly recommended for future utilization of the **Segments** page, where you will produce customer segments. This can be done only after the completion of **Map**, **Match**, and **Merge**.
-- The **Enrich Profiles** module is also optional but highly recommended for extracting richer insights about your customers. 
-- The **Activities** module can be used to define some of your ingested attributes as activities.
- 
+After completing the three data-unification phases, you might want to use the optional **Relationships**, **Enrichment**, and **Activities** pages.
+- The **Relationships** page is highly recommended for creating segments on the **Segments** page. Visit the **Relationships** section to learn more.
+- The **Enrichment** page is highly recommended for extracting richer insights about your customers. Visit the **Enrichment** section to learn more.
+- The **Activities** page can be used to define some of your ingested attributes as activities. Visit the **Activities** section to learn more.
