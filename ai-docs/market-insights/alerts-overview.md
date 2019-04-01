@@ -41,8 +41,6 @@ We are just getting started and will keep catering to the specific needs of a pr
 
 The service recognizes top products, brands and companies so you can be assured that if you want to follow the company "Tableau", you only see results for the company and not the French word "tableau" (meaning painting). We even let you [manually customize the topic](alerts-management.md) further to your specifications to help you stay focused on what matters most for your business. 
 
-Soon, you'll be able to see us recognize and suggest these as you type, and the relevance of the email content improving even more.
-
 ### Less spam
 
 We apply data science and machine learning to your topic, finding articles with the best keyword matches, the highest number of views, and the most recent publication dates. By filtering out much of the noise, we're able to give you a clearer picture of the news that are important to your business. If there was nothing worthy of your attention that day/week, we won't fill your inbox with unimportant articles to save you time.
@@ -51,7 +49,7 @@ We apply data science and machine learning to your topic, finding articles with 
 
 In addition, we try to bring you content that is more relevant for business professionals like mergers, acquisitions, product launches/sunsets, customer issues etc. As our service evolves, we will continue making improvements and love to hear your feedback. Simply use the **Send Feedback** link in the Alert email to share your thoughts and ideas.
 
-### Insights from online activity (coming soon)
+### Insights from online activity
 
 We go beyond what's in the news about your topic to give you actionable information that can help with your job. We derive insights from people’s activity on the web and searches on the web to bring you what's trending related to your topic before it even makes it to the news. Or, you can see how some news/event impacted consumer behavior online.
 
