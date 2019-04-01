@@ -19,7 +19,7 @@ manager: "kvivek"
 ---
 # Customer Card add-in
 
-The Customer Card enables you to gain a 360 angle view on each of your customers. Once completing the Customer Card installation, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on a selected customer, including his or her location, age, latest activities, and much more. Note that:
+The Customer Card enables you to gain a 360 angle view on each of your customers. Once completing the Customer Card installation, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on a selected customer, including his or her location, age, latest activities, and much more. Note that a prerequisite to utilizing the customer Card is using the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
 - In order to view customer activities, those should be first defined using the **Activities** screen.
 - In order to view customer KPIs, those should be first defined using the **Measures** screen. 
 
