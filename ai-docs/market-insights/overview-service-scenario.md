@@ -2,7 +2,7 @@
 title: "Customer service scenarios for Market Insights | Microsoft Docs"
 description: "Review service scenarios to get inspiration for how to efficiently leverage Market Insights in your organization."
 keywords: "service scenario, overview, customer service, social customer service"
-ms.date: 10/31/2018
+ms.date: 04/01/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: ba7e7205-7c76-49ee-abfe-bffdd1365209
@@ -43,9 +43,7 @@ The following steps describe an end-to-end configuration for social customer car
 
 3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), and learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] do some of your work for you.
 
-4. [Save time on repetitive tasks](#create-support-cases-in-includepncrmshortestincludespn-crm-shortestmd-from-social-posts). Create new case records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)].
-
-5. [Collaborate with your team](#establish-workflows-and-collaborate-with-other-users) and make sure they address the right customer issue with the intended priority.
+4. [Collaborate with your team](#establish-workflows-and-collaborate-with-other-users) and make sure they address the right customer issue with the intended priority.
 
 > [!NOTE]
 > Some of these capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)
