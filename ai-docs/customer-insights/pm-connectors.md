@@ -45,15 +45,15 @@ In order to use the Customer Insights dashboard, make sure that you have created
 
 
 3. **Create a report in Power BI**
-Paste your environment API URL in the URL field shown below to connect to your Customer Insights environment: 
-
-   > [!div class="mx-imgBorder"] 
-    > ![](media/connector-copy-instanceid.png "Copy Instance ID")
+Paste your environment API URL in the URL field shown below to connect to your Customer Insights environment. 
 
 To get the environment API URL do the following: 
 - Use the Global APIs found here:  https://global.api.ci.ai.dynamics.com/swagger.  Then execute the /api/instances under the “Instances” section after you authorize.  This will return all the environment for the user. 
 
 - For the environment of interest, review the return package which includes a ScaleUnitUri. You need to use this ScaleUnitUri to create the environment API URL that is required to connect from PBI.  In order to do this, append /api/instances/**your environment ID**/Data to the ScaleUnitUri. Hence if the ScaleUnitUri returned for your environment is https://prod-wus-01.api.ci.ai.dynamics.com then the URL to use in Power BI is: https://prod-wus-01.api.ci.ai.dynamics.com/api/instances/<EnvironmentID>/data
+
+   > [!div class="mx-imgBorder"] 
+    > ![](media/connector-copy-instanceid.png "Copy Instance ID")
 
 4. Select **Sign in**.
 
