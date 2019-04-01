@@ -156,7 +156,7 @@ The customer profile preview opens.
 
 The highlighted column shown in the preceding example reflects, for each of your records, how certain it is that it was accurately matched (confidence score). The remaining columns present the data that was taken from the two original entities. Columns to the left of the highlighted column present data that was taken from the first match pair entity, while columns to the right present data taken from the second match pair entity. Select **Download** to download the customer profile dataset. 
 
-Note that you can also view the customer profile entity on the **Entities** page.
+Once your first match was ran successfully, you can also view the unified customer profile entity you have created on the **Entities** page. Your unified customer entity will carry the following name: **ConflationMatchPairs: Customer 360**.
 
 At this point, you can either continue to the **Merge** page or go through any of the optional steps in this section (Steps Four and Five). However, we recommend you review some of the match preview results to validate that records were matched according to your expectations.
 

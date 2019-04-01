@@ -19,6 +19,8 @@ manager: "kvivek"
 ---
 # Map
 
+**Map** is the first stage in the data unifiation process that Customer Insights unlocks for you as a user. If havn't so, you can get some more context around the unique data unification capabilities that Customer Insights offers by visiting the **Unify** section. 
+
 There are two main goals of the map phase:
 
 - **Entity selection:** Identify the entities that can be combined to lead to a dataset with more complete information about your customers.

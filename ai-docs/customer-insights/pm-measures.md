@@ -95,7 +95,7 @@ In order to choose additional entities, select **Add new entity**, and choose th
 > ![](media/select-an-entity.png "Select an entity")
 
 >[!NOTE]
-> You can select only those entities that have relationships to your starting entity. If you haven't defined relationships yet, see the **Relationships** section.
+> You can select only those entities that have relationships to your starting entity. If you haven't defined relationships yet, see the **Relationships** section. 
 
 ## Step Four: Calculate a variable
 In Customer Insights, variables are calculations that are made on each of your selected fields' records. For example, summing point-of-sale (POS) and online sales for each of your customers records. 
@@ -120,7 +120,7 @@ Complete these steps:
 4. Type an expression in the **Expression** area while choosing more fields to be included in your calculation.
 
    >[!NOTE]
-   >Currently, Customer Insights supports arithmetic expressions only.
+   >Currently, Customer Insights supports arithmetic expressions only. Moreover, at present variable calculation is not supported for entities from different entity-paths (visit the **Relationships** section to learn more on what is considered to be an "entity path").
 
 5. Select **Done**.
 

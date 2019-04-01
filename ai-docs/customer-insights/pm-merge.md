@@ -118,7 +118,7 @@ Once the **Merge is running** message disappears, merge has completed and resolv
 
 Congratulations! You have completed both the data ingestion and data unification phases. Now you are ready to do one of the following:
 
-- Complete more data configurations (Activities, Relationships, or Enrich Profiles). Although they are  optional, they can help you unlock richer insights into your customers. 
+- Complete more data configurations (**Activities, Relationships, or Enrichment**). Although they are  optional, they can help you unlock richer insights into your customers. 
 
 - Continue to insight exploration via the **Segments**, **Customer Card** and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights on your customer base, while **Customer Card** and **Connectors** will enable you to unlock insights on each of your customers.
  

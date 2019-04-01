@@ -23,18 +23,18 @@ manager: "kvivek"
 
 Now that you have created one or more segments using the **Segment builder** screen, you are ready to start acting upon your data. Make sure to first visit the [**Segments** section](pm-segments.md) if you haven't done so. 
 
-At present, you can export any of your segments to both a CSV file and a Customer Engagement location. In the future, we will add additional segment export options.
+At present, you can export any of your segments to both a CSV. file and a Dynamics 365 for Sales location. In the future, we will add additional segment export options.
 
 1. Both options are available within the **Segments** page.
       
    - First, select (...) within a specific segment's tile.
    - Then, select the **Export** option from the actions menu.
-   - Lastly, choose between a CSV format and a specific Dynamics 365 for Sales destination. Note: Currently, only Dynamics 365 for Sales destinations are supported. 
+   - Lastly, choose between a CSV format and a specific Dynamics 365 for Sales destination (only the Dynamics 365 for Sales destinations are highlighted below) 
       
    > [!div class="mx-imgBorder"] 
-   > ![](media/segmentation-export-csv.png "Segmentation export")
+   > ![](media/segmentation-export-destination3.png "Segmentation destination")
       
-   To add a destination, use the **Export Screen** as explained below. This screen is accessible via the **Export Segment** tab on the left-side menu.
+   Note that you will not see any Dynamics 365 destinations until you add them using the **Export Screen** as explained in the sub-section below. This screen is accessible via the **Export Segment** tab on the left-side menu (under **Admin**).
       
 2. The CSV option is also available in the specific segment's page by selecting **Export** at the top-right corner of the page.
 
@@ -63,9 +63,6 @@ At present, you can export any of your segments to both a CSV file and a Custome
    
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination3.png "Segmentation destination")
-   
-   > [!div class="mx-imgBorder"] 
-   > ![](media/segmentation-export-in-process.png "Segmentation export in process")
     
    Upon clicking your Dynamics 365 for Sales destination, you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message.
   
