@@ -29,12 +29,12 @@ At present, you can export any of your segments to both a CSV. file and a Dynami
       
    - First, select (...) within a specific segment's tile.
    - Then, select the **Export** option from the actions menu.
-   - Lastly, choose between a CSV format and a specific Dynamics 365 for Sales destination. 
+   - Lastly, choose between a CSV format and a specific Dynamics 365 for Sales destination (only the Dynamics 365 for Sales destinations are highlighted below) 
       
    > [!div class="mx-imgBorder"] 
-   > ![](media/segmentation-export-csv.png "Segmentation export")
+   > ![](media/segmentation-export-destination3.png "Segmentation destination")
       
-   To add a destination, use the **Export Screen** as explained below. This screen is accessible via the **Export Segment** tab on the left-side menu.
+   Note that you will not see any Dynamics 365 destinations until you add them using the **Export Screen** as explained in the sub-section below. This screen is accessible via the **Export Segment** tab on the left-side menu (under **Admin**).
       
 2. The CSV option is also available in the specific segment's page by selecting **Export** at the top-right corner of the page.
 
