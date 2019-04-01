@@ -38,7 +38,7 @@ You need to be a [!INCLUDE[Market Insights](../includes/pn-market-insights-short
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![custom sources symbol](media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
-- **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![youtube symbol](media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
+- **[YouTube rule](#add-a--rule)** ![youtube symbol](media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
 
 - **[LinkedIn page rule](#linkedin-page-rule)**: Gather posts from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
   
