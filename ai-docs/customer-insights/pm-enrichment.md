@@ -25,10 +25,6 @@ Dynamics 365 Customer Insights enables you to consolidate customer data from all
 
 The **Enrichment** page can be accessed through the app's left-side menu:
 
-// replace 1
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-enrich-profiles.png "Text")
-
 >[!NOTE]
 >Completing both the data ingestion and data unification processes is a prerequisite to enrichment. If you don't complete one or more of those steps, you can expect to get the following notification.
 
