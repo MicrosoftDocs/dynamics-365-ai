@@ -115,11 +115,11 @@ You can rename a topic either in the Topics list or in the list of the support c
 
    > ![Enter topic name](media/enter-topic-name.png)
 
-4. Customer Service Insights updates the topic's name and gives you an opportunity to refresh your workspace.
+3. Customer Service Insights updates the topic's name and gives you an opportunity to refresh your workspace.
 
    > ![Updated cases name](media/updated-cases-name.png)
 
-5. To refresh your workspace, select **Refresh**.
+4. To refresh your workspace, select **Refresh**.
 
 <!-- ## Fine-tuning the way cases are grouped into topics
 
