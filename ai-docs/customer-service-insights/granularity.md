@@ -16,8 +16,34 @@ manager: shellyha
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
-The artificial intelligence technology that Customer Service Insights uses to group support cases as support topics is fine-tuned and configured to cover the most common support environments and cases. However, the grouping of topics for your customer service system may require a different scope. You may want support cases to be grouped in a more general way, or more specifically.
+The artificial intelligence technology that Customer Service Insights uses to group support cases as support topics is fine-tuned and configured to cover the most common support environments and cases. However, you may want to group topics for your customer service system in a more general way, or more specifically.
 
-we also know that different customers have different business needs. The same model configuration doesn’t fit all. One common ask we’ve got from our customers is the flexibility to control the topic granularity. That’s why we introduced the topic granularity settings where you can control the AI model to generate topics with more general or specific scope.  
-<TODO: insert topic granularity settings screenshot>
-This setting supports five levels of granularity. The illustration in the settings page explains the corresponding topic granularity impact for each level. You can find more information from this how-to article: <TODO: insert documentation link>.  
+You can control the scope of how Customer Service Insights generates customer service topics by setting topic granularity.
+
+## To set topic granularity
+
+1. Select the **Settings** button on the Customer Service Insights title bar and then select **Topic granularity**.
+
+   > ![Select granularity](media/select-granularity.png)
+
+   Customer Service Insights displays the Topic granularity page, which shows a graphical illustration of the current topic granularity.
+
+   > ![Granularity page](media/granularity-page.png)
+
+2. Use the Granularity setting slide bar to adjust the topic granularity.
+
+   > ![Granularity slide bar](media/granularity-slide-bar.png)
+
+   Moving the slide bar to the right makes the granularity more specific.
+
+   > ![More granular](media/more-granular.png)
+
+   Moving the slide bar to the left makes the granularity more general.
+
+   > ![Less granular](media/less-granular.png)
+
+   You can choose from five levels of granularity.
+
+3. Select **Save** to save the granularity setting.
+
+   > ![Save granularity](media/save-granularity.png)
