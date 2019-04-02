@@ -41,10 +41,12 @@ You can sign in to the app using one of the following accounts:
 ## Create an alert
 
 1. [Sign in](#sign-in-to-the-app) to [https://alerts.mi.ai.dynamics.com/](https://alerts.mi.ai.dynamics.com/).
-2. Enter a term or a topic and select the search icon (![Search icon](media/alerts-search-icon.png)). Select **Show advanced** if you want to [specify more details for your search](#tips-on-refining-your-topic).
-3. Next to **Email** choose if you want to receive the news **Daily**, or **Weekly**.
-4. Select the preferred **Region** for the News and Insights. 
-5. Select **Create alert** to finalize your alert.
+2. Enter a term or a topic and select the search icon (![Search icon](media/alerts-search-icon.png)). Select **Show advanced** if you want to [specify more details for your search](#tips-on-refining-your-topic).    
+--OR--    
+Start entering a term and select a suggested entity from the drop-down list. This will create a predefined set of rules for you and focus the results on the selected entity.
+1. Next to **Email** choose if you want to receive the news **Daily**, or **Weekly**.
+2. Select the preferred **Region** for the News and Insights. 
+3. Select **Create alert** to finalize your alert.
 
 ## Edit an alert
 
