@@ -2,7 +2,7 @@
 title: "Manage your alerts | Microsoft Docs"
 description: "Manage alerts in Market Insights."
 keywords: "alert management, daily digest, email"
-ms.date: 04/01/2019
+ms.date: 04/02/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 7cc0b752-8d1c-4c6f-9f78-81ed326edc7d
@@ -81,3 +81,8 @@ Add **exclusions** to *narrow* your search and find news that include the search
 
 We'd love to hear what you think about this new service and how we can tailor the experience to your needs. 
 You can share your feedback by selecting the **Send feedback** link in the alert email.
+
+### See also
+
+[Manage your alerts](alerts-management.md)    
+[How relevancy is determined in alerts](alerts-data-science.md)
