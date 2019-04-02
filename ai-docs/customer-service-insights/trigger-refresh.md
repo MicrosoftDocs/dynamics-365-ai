@@ -28,4 +28,3 @@ For example, when you rename a topic on the Topics dashboard, Customer Service I
    > ![Refresh workspace](media/refresh-workspace.png)
 
 **Note:** that there is a limit of 10 on-demand refreshes per day per workspace.
-
