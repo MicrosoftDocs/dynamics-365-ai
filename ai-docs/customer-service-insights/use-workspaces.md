@@ -34,15 +34,9 @@ You can gain insights into multiple sets of customer service data by creating wo
 
 To configure the workspace, select the environment you want to use. Customer Service Insights opens the workspace and displays that environment's customer support data in the dashboards.
 
-You can also create a new workspace by:
+You can also create a new workspace by selecting the **Workspaces** icon on the Customer Service Insights title bar and then selecting **+Workspace**.
 
-* Selecting the **Settings** button on the Customer Service Insights title bar and then selecting **Create workspace**.
-
-  > ![Create workspace](media/create-workspace.png)
-
-* Selecting the **Settings** button on the Customer Service Insights title bar, selecting **My workspaces**, and then selecting **New workspace** on the **My workspaces** screen.
-
-  > ![Create New](media/new-workspace.png)
+  > ![Add workspaces](media/add-workspace.png)
 
 ## Open the demo workspace
 
@@ -54,23 +48,16 @@ By default, Customer Service Insights displays sample customer support data in a
 
 Once you have created one or more workspaces, you can easily switch between workspaces, including the demo workspace.
 
-To switch to a different workspace, select the **Workspace** name on the Customer Service Insights title bar. Customer Service Insights opens the **Workspaces** drop-down list.
+To switch to a different workspace, select the **Workspaces** icon on the Customer Service Insights title bar. Customer Service Insights opens the **My workspaces** pane. The current workspace is marked with a check mark. Select a different workspace to make it the current workspace.
 
-> [!div class="mx-imgBorder"]
-> ![Workspaces list](media/ai-csi-workspaces-list.png)
+> ![Switch workspaces](media/switch-workspaces.png)
 
-Select a workspace from the list. Customer Service Insights opens the workspace and displays the customer service data associated with the workspace in the dashboards.
+Customer Service Insights opens the workspace and displays the customer service data associated with the workspace in the dashboards.
 
 ## Delete a workspace
 
 If you no longer want Customer Service Insights to display a workspace in the list of current workspaces, you can delete it.
 
-To delete a workspace, select the **Settings** button on the Customer Service Insights title bar, and then select **My workspaces**.
+To delete a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
 
-> [!div class="mx-imgBorder"]
-> ![My workspaces](media/ai-csi-settings-my-workspaces.png)
-
-Customer Service Insights displays the list of current workspaces. Select **Delete** to delete the workspace.
-
-> [!div class="mx-imgBorder"]
-> ![Delete workspace](media/ai-csi-current-workspaces-delete.png)
+> ![Delete workspace](media/delete-workspace.png)

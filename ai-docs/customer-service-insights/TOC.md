@@ -16,9 +16,9 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-## [Map your data to custom entities and fields](map-data.md)
-
 ## [Set the scope of how Customer Service Insights generates customer service topics](granularity.md)
+
+## [Map your data to custom entities and fields](map-data.md)
 
 # Reference
 
