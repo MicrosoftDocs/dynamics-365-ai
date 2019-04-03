@@ -1,6 +1,6 @@
 ---
-title: "Set the scope of how Customer Service Insights generates customer service topics"
-description: "Learn how to set the scope of how Customer Service Insights generates customer service topics."
+title: "Set the granularity of how Customer Service Insights generates customer service topics"
+description: "Learn how to set the granularity of how Customer Service Insights generates customer service topics."
 keywords: ""
 ms\.date: 4/1/2019
 ms.service:
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Set the scope of how Customer Service Insights generates customer service topics
+# Set the granularity of how Customer Service Insights generates customer service topics
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 

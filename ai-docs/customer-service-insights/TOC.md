@@ -14,11 +14,11 @@
 
 ## [Identify areas for improvement](improve-system.md)
 
+## [Map your data to custom entities and fields](map-data.md)
+
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-## [Set the scope of how Customer Service Insights generates customer service topics](granularity.md)
-
-## [Map your data to custom entities and fields](map-data.md)
+## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
 # Reference
 
