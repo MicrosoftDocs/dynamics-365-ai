@@ -2,7 +2,7 @@
 title: "Overview for alerts in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Introduction to alerts in Market Insights."
 keywords: "alert, daily digest, email"
-ms.date: 01/04/2019
+ms.date: 04/03/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8865341b-66db-4bd2-8c5e-5058482c7ccc
@@ -39,7 +39,7 @@ We are just getting started and will keep catering to the specific needs of a pr
 
 ### Advanced understanding of business topics
 
-The service recognizes top products, brands and companies so you can be assured that if you want to follow the company "Tableau", you only see results for the company and not the French word "tableau" (meaning painting). We even let you [manually customize the topic](alerts-management.md) further to your specifications to help you stay focused on what matters most for your business. 
+The service recognizes top products, brands and companies so you can be assured that if you want to follow the operating system "Microsoft Windows", you only see results for the software and not windows (the ones in a building) in general. We even let you [manually customize the topic](alerts-management.md) further to your specifications to help you stay focused on what matters most for your business. 
 
 ### Less spam
 
