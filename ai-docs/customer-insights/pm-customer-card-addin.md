@@ -49,7 +49,7 @@ If the Customer Insights solution does not appear in your list of solutions, sel
 
 // add 1
 
-In Microsoft AppSource, search for the Dynamics Customer Card and select “Get It Now”. It may take some time for the solution to be installed to your environment. 
+In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment. 
 
 3. Here you will configure the overall settings for the Customer Card add-in. The first step is to sign in with the admin Azure Active Directory (AAD) account you use to configure Customer Insights.
 
