@@ -38,6 +38,7 @@ For details on the Customer Service Insights dashboards, see the following topic
 * [New cases dashboard](dashboard-incoming-cases.md)
 * [Resolutions dashboard](dashboard-case-resolutions.md)
 * [Customer satisfaction dashboard](dashboard-CSAT.md)
+* [Topics dashboard](dashboard-topics.md)
 * [Topic details dashboard](dashboard-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).
