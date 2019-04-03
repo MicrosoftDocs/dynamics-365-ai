@@ -2,7 +2,7 @@
 title: "Manage your alerts | Microsoft Docs"
 description: "Manage alerts in Market Insights."
 keywords: "alert management, daily digest, email"
-ms.date: 04/02/2019
+ms.date: 04/03/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 7cc0b752-8d1c-4c6f-9f78-81ed326edc7d
@@ -43,7 +43,7 @@ You can sign in to the app using one of the following accounts:
 1. [Sign in](#sign-in-to-the-app) to [https://alerts.mi.ai.dynamics.com/](https://alerts.mi.ai.dynamics.com/).
 2. Enter a term or a topic and select the search icon (![Search icon](media/alerts-search-icon.png)). Select **Show advanced** if you want to [specify more details for your search](#tips-on-refining-your-topic).    
 --OR--    
-Start entering a term and select a suggested entity from the drop-down list. This will create a predefined set of rules for you and focus the results on the selected entity.
+Start entering a term and select a suggested entity from the drop-down list. This will create a predefined set of rules for you and focus the results on the selected entity. If you select a suggested entity, the advanced configuration options aren't available.
 1. Next to **Email** choose if you want to receive the news **Daily**, or **Weekly**.
 2. Select the preferred **Region** for the News and Insights. 
 3. Select **Create alert** to finalize your alert.
