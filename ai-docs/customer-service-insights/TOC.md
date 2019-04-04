@@ -4,8 +4,6 @@
 
 # How-tos
 
-## [Use the Customer Service Insights title bar](title-bar.md)
-
 ## [Use workspaces to connect to different customer service environments](use-workspaces.md)
 
 ## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
@@ -13,6 +11,8 @@
 ## [Trigger a refresh of your Customer Service Insights data](trigger-refresh.md)
 
 ## [Identify areas for improvement](improve-system.md)
+
+## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
 
 ## [Map your data to custom entities and fields](map-data.md)
 
@@ -33,8 +33,6 @@
 ### [Customer satisfaction](dashboard-CSAT.md)
 
 ### [Resolutions](dashboard-case-resolutions.md)
-
-### [Topics](dashboard-topics.md)
 
 ### [Topic details](dashboard-topic-details.md)
 

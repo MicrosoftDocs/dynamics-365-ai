@@ -25,7 +25,7 @@ If you want to update the dashboards to use current data, you can trigger a refr
 * Change topic granularity settings
 * Rename a topic
 
-For example, when you rename a topic on the Topics dashboard, Customer Service Insights displays a prompt at the top of the dashboard that gives you an opportunity to refresh your workspace. To refresh the workspace, select **Refresh**.
+For example, when you rename a topic on the Topics page, Customer Service Insights displays a prompt at the top of the dashboard that gives you an opportunity to refresh your workspace. To refresh the workspace, select **Refresh**.
 
    > ![Refresh workspace](media/refresh-workspace.png)
 
@@ -35,6 +35,6 @@ For more information on data mapping settings, see [Map your data to custom enti
 
 For more information on case title cleansing settings, see [Improve data quality by cleansing support case titles](settings.md).
 
-For more information on topic granularity settings, see [Set the scope of how Customer Service Insights generates customer service topics](granularity.md).
+For more information on topic granularity settings, see [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md).
 
-For more information on renaming a topic, see [Renaming a topic](dashboard-topics.md#renaming-a-topic).
+For more information on renaming a topic, see [Renaming a topic](topics-page.md#renaming-a-topic).

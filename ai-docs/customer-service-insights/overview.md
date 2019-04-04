@@ -38,7 +38,8 @@ For details on the Customer Service Insights dashboards, see the following topic
 * [New cases dashboard](dashboard-incoming-cases.md)
 * [Resolutions dashboard](dashboard-case-resolutions.md)
 * [Customer satisfaction dashboard](dashboard-CSAT.md)
-* [Topics dashboard](dashboard-topics.md)
 * [Topic details dashboard](dashboard-topic-details.md)
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).
+
+Customer Service Insights also includes a Topics page, which uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. For information on working with the Topics page, see [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md).

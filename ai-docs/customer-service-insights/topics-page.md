@@ -1,6 +1,6 @@
 ---
-title: "Topics dashboard"
-description: "Learn about the customer service insights available on the Topics dashboard​."
+title: "Manage and improve artificial intelligence grouping of support cases as topics"
+description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
 keywords: ""
 ms\.date: 3/27/2019
 ms.service:
@@ -12,36 +12,23 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Topics dashboard
+# Manage and improve artificial intelligence grouping of support cases as topics
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
-> ![Topics dashboard](media/topics-dash.png)
+> ![Topics page](media/topics-page.png)
 
-The Topics dashboard uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. You can then view and manage the topics and associated support cases in a variety of ways, including:
+The Topics page uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. It shows all topics that contain three or more cases. You can then view and manage the topics and associated support cases in a variety of ways, including:
 
-* [Filtering the topic list](#filtering-the-topic-list)
+* [Search for a topic](#search-for-a-topic)
 * [Viewing support cases for a topic](#viewing-support-cases-for-a-topic)
 * [Renaming a topic](#renaming-a-topic)
 
 You can also control the scope of how Customer Service Insights generates support topics by adjusting topic granularity settings. For more information, see [Set the scope of how Customer Service Insights generates customer service topics](granularity.md).
 
-Customer Service Insights automatically refreshes the data displayed on dashboards daily. You can trigger a refresh on demand without waiting for next daily refresh when you make any of following changes in your workspace:
+Customer Service Insights automatically refreshes the data displayed on the Topics page daily. You can trigger a refresh on demand without waiting for next daily refresh. For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
 
-* Update data mapping settings
-* Change case title cleansing settings
-* Change topic granularity settings
-* Rename a topic
-
-For more information on triggering a refresh of your dashboard data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
-
-For more information on updating data mapping settings, see [Map your data to custom entities and fields](map-data.md).
-
-For more information about cleansing support case titles, see [Improve data quality by cleansing support case titles](settings.md).
-
-For more information about changing topic granularity settings, see [Set the scope of how Customer Service Insights generates customer service topics](granularity.md).
-
-## Filtering the topic list
+## Search for a topic
 
 You can narrow down the list of topics displayed on the Topics dashboard by searching for a specific keyword in the **Search** box in the upper right corner of the dashboard.
 
@@ -55,19 +42,14 @@ To restore the original topic list, clear the search box by selecting the close 
 
 ## Viewing support cases for a topic
 
-You can view the support cases associated with a topic by selecting it in the Topics list. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list.
+You can view the top 200 support cases associated with a topic by selecting it in the Topics list. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list.
 
 > ![View cases](media/view-cases.png)
 
-Customer Service Insights displays a list of the support cases associated with the topic.
+Customer Service Insights displays a list of the support cases associated with the topic. Based on the case title similarities, Customer Service Insights uses artificial intelligence technology to group the cases together in a single topic. In addition to text similarity, it also groups cases with similar semantics meaning. For example:
 
-> ![Cases list](media/cases-list.png)
-
-Note that the many of the titles of the support cases associated with the *Password reset link is invalid* topic include variations of phrases related to password reset problems. Based on these similarities, Customer Service Insights uses artificial technology to group the cases together in a single topic.
-
-The Customer Service Insights artificial intelligence technology also includes cases that include related terms. For example, the *Password reset link is invalid* topic includes topics related to *login* issues.
-
-> ![Cases list](media/login-cases.png)
+* Cases related to *promo code* and *coupon* are included in the same topic.
+* Cases related to *reset password* and *login issue* are included in the same topic.
 
 To view the details of a support case, click the case title in the list.
 
@@ -75,15 +57,13 @@ To view the details of a support case, click the case title in the list.
 
 Customer Service Insights opens the support case details in Dynamics 365.
 
-> ![Open support details](media/open-support-details.png)
-
 ## Renaming a topic
 
 When Customer Service Insights groups support cases into topics, it automatically uses the title of the most relevant support case as the name of the topic. However, you may want to rename the topic. For example, you may want a topic name that is shorter or more clearly describes the underlying support issue.
 
 You can rename a topic either in the Topics list or in the list of the support cases associated with the topic.
 
-## To rename a topic in the Topics list
+### To rename a topic in the Topics list
 
 1. Hover over the topic and select the elipses to the left of the Total cases number for the topic.
 
@@ -105,7 +85,7 @@ You can rename a topic either in the Topics list or in the list of the support c
 
    > ![Refresh workspace](media/refresh-workspace.png)
 
-## To rename a topic in the list of the support cases
+### To rename a topic in the list of the support cases
 
 1. Select the edit icon next to the topic name at the top of the list.
 
