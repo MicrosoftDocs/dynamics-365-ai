@@ -2,7 +2,7 @@
 title: "Power BI connector | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 04/04/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -27,7 +27,7 @@ In order to use the Customer Insights dashboard, make sure that you have created
 
 ### Step One: Installing Power BI Connector
 
-1. Download the custom connector file from [here](https://go.microsoft.com/fwlink/p/?linkid=2077331).
+1. Download the custom connector file from [here](https://pbimezfile.blob.core.windows.net/publicpreview/mezfile/Dynamics365CustomerInsights.mez?sp=rl&st=2019-04-03T17:20:30Z&se=2019-08-01T17:20:00Z&sv=2018-03-28&sig=XwuEWCSVk%2F%2BBBbaIZv6mGUmqbSCBPT0rUfHuIVZiLmE%3D&sr=b).
 2. Follow steps described [here](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) to install and enable the custom connector.
 
 ## Step Two: Publish the Customer Insights dashboard
