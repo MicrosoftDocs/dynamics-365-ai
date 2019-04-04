@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 04/04/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -45,11 +45,13 @@ The Customer Card enables you to gain a 360 angle view on each of your customers
    > [!div class="mx-imgBorder"] 
    > ![](media/select-display-name.png "Select display name")
 
-If the Customer Insights solution does not appear in your list of solutions, select the **Get Solutions from Marketplace** button above the list. This will take you to Microsoft AppSource. 
+   If the Customer Insights solution does not appear in your list of solutions, select the **Get Solutions from Marketplace** button above the list. This will take you to Microsoft AppSource. 
 
-// add 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/get-solutions-from-marketplace2.png "Get Solutions from Marketplace")
 
-In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment. 
+
+   In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment. 
 
 3. Here you will configure the overall settings for the Customer Card add-in. The first step is to sign in with the admin Azure Active Directory (AAD) account you use to configure Customer Insights.
 
