@@ -16,11 +16,11 @@ manager: shellyha
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
-You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting the Topics page icon in the navigation pane.
+You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting **Topics** in the navigation pane.
 
 > ![Display Topics page](media/topics-nav.png)
 
-The Topics page uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. It shows all topics that contain three or more cases.
+Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. It shows all topics that contain three or more cases.
 
 > ![Topics page](media/topics-page.png)
 
