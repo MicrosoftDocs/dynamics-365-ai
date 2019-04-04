@@ -16,19 +16,23 @@ manager: shellyha
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
+You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting the Topics page icon in the navigation pane.
+
+> ![Display Topics page](media/topics-nav.png)
+
+The Topics page uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. It shows all topics that contain three or more cases.
+
 > ![Topics page](media/topics-page.png)
 
-The Topics page uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. It shows all topics that contain three or more cases. You can then view and manage the topics and associated support cases in a variety of ways, including:
+You can then view and manage the topics and associated support cases in a variety of ways, including:
 
-* [Search for a topic](#search-for-a-topic)
+* [Searching for a topic](#searching-for-a-topic)
 * [Viewing support cases for a topic](#viewing-support-cases-for-a-topic)
 * [Renaming a topic](#renaming-a-topic)
+* [Controlling the granularity of how support topics are generated](#controlling-the-granularity-of-how-support-topics-are-generated)
+* [Refreshing the data displayed on the Topics page](#refreshing-the-data-displayed-on-the-topics-page)
 
-You can also control the scope of how Customer Service Insights generates support topics by adjusting topic granularity settings. For more information, see [Set the scope of how Customer Service Insights generates customer service topics](granularity.md).
-
-Customer Service Insights automatically refreshes the data displayed on the Topics page daily. You can trigger a refresh on demand without waiting for next daily refresh. For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
-
-## Search for a topic
+## Searching for a topic
 
 You can narrow down the list of topics displayed on the Topics dashboard by searching for a specific keyword in the **Search** box in the upper right corner of the dashboard.
 
@@ -100,6 +104,18 @@ You can rename a topic either in the Topics list or in the list of the support c
    > ![Updated cases name](media/updated-cases-name.png)
 
 4. To refresh your workspace, select **Refresh**.
+
+## Controlling the granularity of how support topics are generated
+
+You can control the scope of how Customer Service Insights generates support topics by adjusting topic granularity settings.
+
+For more information, see [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md).
+
+## Refreshing the data displayed on the Topics page
+
+Customer Service Insights automatically refreshes the data displayed on the Topics page daily. However, you can trigger a refresh on demand without waiting for next daily refresh.
+
+For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
 
 <!-- ## Fine-tuning the way cases are grouped into topics
 
