@@ -20,7 +20,7 @@ You can manage and improve the artificial intelligence grouping of support cases
 
 > ![Display Topics page](media/topics-nav.png)
 
-Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. It shows all topics that contain three or more cases.
+Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. The Topics page shows all topics that contain three or more cases.
 
 > ![Topics page](media/topics-page.png)
 
