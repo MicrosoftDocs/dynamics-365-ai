@@ -2,6 +2,8 @@
 
 # [Quickstart](quickstart.md)
 
+# [Videos: Learn more about Dynamics 365 Virtual Agent for Customer Service](virtual-agent-videos.md)
+
 # Getting started
 
 ## [Creating a PowerApps environment](getting-started-new-environment.md)
