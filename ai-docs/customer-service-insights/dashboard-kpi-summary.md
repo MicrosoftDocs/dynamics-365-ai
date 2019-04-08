@@ -16,8 +16,7 @@ manager: shellyha
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
-> [!div class="mx-imgBorder"]
-> ![KPI summary dashboard](media/ai-csi-kpi-summary-dash.png)
+> ![KPI summary dashboard](media/kpi-summary.png)
 
 The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
@@ -40,8 +39,7 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## KPI summary charts
 
-> [!div class="mx-imgBorder"]
-> ![KPI summary charts](media/ai-csi-kpi-charts.png)
+> ![KPI summary charts](media/kpi-charts.png)
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period.
 
