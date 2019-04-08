@@ -56,8 +56,7 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 ## Case breakdown chart
 
-> [!div class="mx-imgBorder"]
-> ![Case breakdown chart](media/ai-csi-case-breakdown.png)
+> ![Case breakdown chart](media/case-breakdown.png)
 
 The Case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from the previous time period. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
 
@@ -67,10 +66,9 @@ Case breakdown | Case breakdown by rollover cases (backlog) plus new cases for t
 
 ## Case priority chart
 
-> [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority.png)
+> ![Case priority chart](media/case-priority.png)
 
-The Case priority chart shows the percentage breakdown for the specified time period between high, normal, and low-priority support cases.
+The Case priority chart shows the percentage breakdown for the specified time period between normal, low, and high-priority support cases.
 
 Description | Details
 ----------- | -------
@@ -78,8 +76,7 @@ Case priority | Case breakdown by case priority
 
 ## Case channel chart
 
-> [!div class="mx-imgBorder"]
-> ![Case channel chart](media/ai-csi-case-channels.png)
+> ![Case channel chart](media/case-channels.png)
 
 The Case channel chart shows the breakdown in support cases for the specified time period by support channel.
 
@@ -89,8 +86,7 @@ Case channels | Case breakdown by channel
 
 ## Case tracking chart
 
-> [!div class="mx-imgBorder"]
-> ![Case tracking chart](media/ai-csi-case-tracking.png)
+> ![Case tracking chart](media/case-tracking.png)
 
 The Case tracking chart shows the trend in the number of new support cases for the specified time period as well as the trend in the number of cases being resolved.
 
@@ -101,8 +97,7 @@ Resolved | The number of cases resolved each day for the specified time period
 
 ## Unresolved cases by age chart
 
-> [!div class="mx-imgBorder"]
-> ![Unresolved cases by age chart](media/ai-csi-cases-by-age.png)
+> ![Unresolved cases by age chart](media/cases-by-age.png)
 
 The Unresolved cases by age chart shows the relative number of support cases for the specified time period by how many days ago they were created.
 
@@ -112,8 +107,7 @@ Unresolved cases by age | Total unresolved cases by days unresolved
 
 ## Case volume drivers chart
 
-> [!div class="mx-imgBorder"]
-> ![Case volume drivers chart](media/ai-csi-case-volume-drivers.png)
+> ![Case volume drivers chart](media/volume-drivers.png)
 
 The Case volume drivers chart uses artificial intelligence technology to group related support cases as support topics and then display topics in order of volume over the specified time period. This chart shows both the percent of total volume and number of cases for each topic.
 
@@ -127,8 +121,7 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
-> [!div class="mx-imgBorder"]
-> ![Emerging topics chart](media/ai-csi-top-resolve-time.png)
+> ![Emerging topics chart](media/emerging-topics.png)
 
 The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 
