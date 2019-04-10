@@ -17,7 +17,7 @@ manager: shellyha
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
 > [!div class="mx-imgBorder"]
-> ![New cases dashboard](media/ai-csi-new-cases-dash.png)
+> ![New cases dashboard](media/new-cases.png)
 
 The New cases dashboard gives you an overview of the new cases in your customer service system. It uses artificial intelligence (AI) technology to help you identify popular and emerging issues.
 
