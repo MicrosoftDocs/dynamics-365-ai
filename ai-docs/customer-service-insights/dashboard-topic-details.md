@@ -34,8 +34,8 @@ The Topic details dashboard includes a variety of charts with graphical views of
 * [Agents with longest resolve time](#agents-with-longest-average-resolve-time-chart)
 * [Agents with lowest average CSAT](#agents-with-lowest-average-csat-chart)
 * [Topic case composition](#topic-case-composition-chart)
-* [Customer satisfaction drivers (AI Insights)](#top-csat-impactors-chart)
-* [Resolution time drivers (AI Insights)](#top-resolve-time-impactors-chart)
+* [Customer satisfaction drivers (AI Insights)](#customer-satisfaction-drivers-chart)
+* [Resolution time drivers (AI Insights)](#resolution-time-drivers-chart)
 
 The Customer satisfaction drivers and Resolution time drivers charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the impact the topic's cases have had on customer satisfaction and resolution time, and the channels associated with the topic that are having the greatest impact on customer satisfaction and resolution time. This can help you identify areas for improvement that can have the greatest impact.
 

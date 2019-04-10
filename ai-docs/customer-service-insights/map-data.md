@@ -2,7 +2,7 @@
 title: "Map your data to custom entities and fields"
 description: "Learn how to generate insights by mapping your data to custom data entities and fields​."
 keywords: ""
-ms\.date: 3/25/2019
+ms\.date: 4/3/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -53,23 +53,21 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 ## To map data by specifying data mapping settings
 
-1. Select the **Settings** button on the Customer Service Insights title bar, and then select **Settings**.
+1. Select the **Settings** button on the Customer Service Insights title bar and then select **Data mapping**.
 
-   > ![Settings button](media/ai-csi-settings-button.png)
+   > ![Select mapping](media/select-mapping.png)
 
-   Customer Service Insights displays the **Settings** page.
-
-2. Select **Data mapping** to display the Data mapping pane. Customer Service Insights displays the available destination entities.
+   Customer Service Insights displays the Data mapping page, which shows the available destination entities.
 
    > ![Data mapping pane](media/data-mapping-pane.png)
 
-3. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
+2. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
 
    > ![Edit entity](media/edit-entity.png)
 
     Customer Service Insights displays the **Map your incident records** page, where you can update the data mapping for the entity.
 
-4. You can view the status of the mapping in the **Mapped Fields** column.
+3. You can view the status of the mapping in the **Mapped Fields** column.
 
    > ![View mapping](media/view-mapping.png)
 
