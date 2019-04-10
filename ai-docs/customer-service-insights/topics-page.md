@@ -115,7 +115,7 @@ Customer Service Insights automatically refreshes the data displayed on the Topi
 
 For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
 
-<!-- ## Fine-tuning the way cases are grouped into topics
+## Fine-tuning the way cases are grouped into topics
 
 You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the placement of cases within topics. By rating the placement, you can help the Customer Service Insights artificial intelligence learn and improve case grouping.
 
@@ -124,5 +124,3 @@ To rate the placement of a topic's support cases, select the topic in the Topics
 > ![Ratings icons](media/ratings-icons.png)
 
 Select the **Thumbs Up** icon to indicate the case has been placed correctly within the topic. Select the **Thumbs Down** icon to indicate the case was not placed correctly.
-
--->
