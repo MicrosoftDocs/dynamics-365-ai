@@ -63,9 +63,9 @@ Customer Service Insights opens the support case details in Dynamics 365.
 
 ## Providing feedback to fine-tune the way cases are grouped into topics
 
-You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the placement of cases within topics. By rating the placement, you can help the Customer Service Insights artificial intelligence learn and improve case grouping.
+You can fine-tune the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the placement of cases within topics. By rating the placement, you can help the Customer Service Insights artificial intelligence learn and improve case grouping.
 
-To rate the placement of a topic's support cases, select the topic in the Topics dashboard's Topics list to displays the list of cases associated with the topic. Then hover over the case title to display the **Thumbs up** and **Thumbs down** ratings icons.
+To rate the placement of a topic's support cases, select the topic in the Topics page's Topics list to displays the list of cases associated with the topic. Then hover over the case title to display the **Thumbs up** and **Thumbs down** ratings icons.
 
 > ![Ratings icons](media/ratings-icons.png)
 

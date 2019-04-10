@@ -47,3 +47,5 @@ You can control the scope of how Customer Service Insights generates customer se
 3. Select **Save** to save the granularity setting.
 
    > ![Save granularity](media/save-granularity.png)
+
+**Note:**  When you save a change to your granularity settings, any feedback you have given on the placement of support cases in topics is reset. For more information on providing feedback for the placement of support cases in topics, see [Providing feedback to fine-tune the way cases are grouped into topics](#providing-feedback-to-fine-tune-the-way-cases-are-grouped-into-topics).
