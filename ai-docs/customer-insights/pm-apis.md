@@ -2,7 +2,7 @@
 title: "APIs | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -20,18 +20,11 @@ manager: "kvivek"
 
 # APIs
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-When it comes to Dynamics 365 Customer Insights, currently there are several types of APIs that you can start using. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
-
-<!-- 
-> [!div class="mx-imgBorder"] 
-> ![](media/api-swagger-install.png "Customer Insights Swagger webpage")
--->
+There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
-- Provide guidance for how to use the Swagger tool.
+- Provide guidance on how to use the Swagger tool.
 - Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs.
 
 ## How to use the Customer Insights Swagger webpage
@@ -66,7 +59,6 @@ See the **Conflation** table on the [Customer Insights Swagger webpage](https://
 |{datasourceId}     | ID must be the ID of a data source that exists inside of the given instance.        |
 |{conflationId}     | ID must be the ID of an existing conflation for the given instance.        |
 
-
 ### Additional limitations by API
 
 <table style="width:100%">
@@ -100,7 +92,7 @@ See the **Conflation** table on the [Customer Insights Swagger webpage](https://
 
 See the **EntityMetadata** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
-### Limitations Common to all APIs
+### Limitations common to all APIs
 
 **First**, these APIs require that data has already been ingested, except for the following APIs:
 
@@ -144,15 +136,3 @@ See the **EntityMetadata** table on the [Customer Insights Swagger webpage](http
 3. Use APIs for searching and querying specific segment member data.
 
 See the **SegmentManagement** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
-
-<!-- 
-## Functionalities and limitations by API
-To complete:
-|Table5  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row3     |         |
-|Row4     |         |
-|Row5     |         |
--->
