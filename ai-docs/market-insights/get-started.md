@@ -113,7 +113,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Analysis focus**: Define the data that your current analysis focuses on, and select a search topic, a category of search topics, or all search topics. You can switch between the different options at any time to narrow or extend your data set.  
   
-- **Filter section**: Add or edit filters to slice and dice your data set according to your needs. At a glance, see the filters that are applied to your current data set, and quickly edit or remove them.  
+- **Filter** section: Add or edit filters to slice and dice your data set according to your needs. At a glance, see the filters that are applied to your current data set, and quickly edit or remove them.  
   
 - **More options**: Use the current filters to work with the same data set in another area of Market Insights. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   

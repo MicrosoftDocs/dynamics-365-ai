@@ -3,10 +3,16 @@
   items:
   - name: Home
     href: pm-homepage.md
-  - name: Profiles
+  - name: Customers
     href: pm-profiles.md
+    items:
+    - name: Search & filter index
+      href: pm-manage-search.md
   - name: Segments
     href: pm-segments.md
+    items:
+    - name: Segment export
+      href: segment-export.md
   - name: Measures
     href: pm-measures.md
   - name: Data
@@ -27,7 +33,7 @@
         href: pm-match.md
       - name: Merge
         href: pm-merge.md
-    - name: Enrich profiles
+    - name: Enrichment
       href: pm-enrichment.md
     - name: Activities
       href: pm-activities.md
@@ -40,8 +46,6 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
-    - name: Search
-      href: pm-manage-search.md
   - name: Extensibility
     items:
     - name: Customer Card Add-in 
@@ -56,6 +60,5 @@
       href: pm-apis.md
   - name: Data Subject Rights (DSR) requests under GDPR
     href: pm-gdpr.md
-#  - name: Known issues
-#    href: pm-known-issues.md
+
  

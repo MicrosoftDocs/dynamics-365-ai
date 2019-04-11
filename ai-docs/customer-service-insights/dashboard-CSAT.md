@@ -24,7 +24,7 @@ The Customer satisfaction dashboard gives you an overview of customer satisfacti
 The Customer satisfaction dashboard includes a variety of charts with graphical views of your system's customer satisfaction data. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
 * [Surveys completed](#surveys-completed-chart)
-* [CSAT collection rate](#CSAT-collection-rate-chart)
+* [CSAT collection rate](#csat-collection-rate-chart)
 * [Average CSAT](#average-csat-chart)
 * [Customer satisfaction breakdown](#customer-satisfaction-breakdown)
 * [Customer satisfaction drivers (AI Insights)](#customer-satisfaction-drivers-chart)

@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 03/14/2019
+ms.date: 04/04/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,20 +19,21 @@ manager: "kvivek"
 ---
 # Customer Card add-in
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+The Customer Card enables you to gain a 360 angle view on each of your customers. Once completing the Customer Card installation, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on a selected customer, including his or her location, age, latest activities, and much more. Note that a prerequisite to utilizing the customer Card is using the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
+- In order to view customer activities, those should be first defined using the **Activities** screen.
+- In order to view customer KPIs, those should be first defined using the **Measures** screen. 
 
 ## Requirements
 
 - Dynamics 365 for Customer Engagement version 9.0 and later.
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub. 
-- Users who will use the Customer Insights Customer Card in Dynamics 365 for Customer Engagement need to be added as users on Dynamics 365 Customer Insights. You can do so in the **Permissions** page in the **Admin** section, as discussed later in this topic.
+- Users who will use the Customer Insights Customer Card in Dynamics 365 for Customer Engagement need to be added as users on Dynamics 365 Customer Insights. You can do so on the **Permissions** page in the **Admin** section, as discussed later in this topic.
 
-<!--note from editor: re sentence above--I'm not seeing where the reference is to the Permissions page   -->
 
-> [!div class="mx-imgBorder"] 
-> ![](media/permissions-page.png "Permissions page")
+  > [!div class="mx-imgBorder"] 
+  > ![](media/permissions-page.png "Permissions page")
 
-## Installation into Dynamics 365 for Customer Engagement
+## Install Customer Card Add-in
 
 1. As an admin, go to the **Settings** section in Customer Engagement, and select **Solutions**. 
 
@@ -43,6 +44,14 @@ manager: "kvivek"
 
    > [!div class="mx-imgBorder"] 
    > ![](media/select-display-name.png "Select display name")
+
+   If the Customer Insights solution does not appear in your list of solutions, select the **Get Solutions from Marketplace** button above the list. This will take you to Microsoft AppSource. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/get-solutions-from-marketplace2.png "Get Solutions from Marketplace")
+
+
+   In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment. 
 
 3. Here you will configure the overall settings for the Customer Card add-in. The first step is to sign in with the admin Azure Active Directory (AAD) account you use to configure Customer Insights.
 
@@ -103,7 +112,7 @@ manager: "kvivek"
 
 ## Demographic control
 
-1. To add the demographic control, in the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
+1. To add the demographic control, in the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer2.png "Address 1: City field")
@@ -150,7 +159,7 @@ manager: "kvivek"
 
 ## Timeline control
 
-1. In the form editor, drag any field from the field explorer to where you would like the demographic control to be placed.  
+1. In the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer4.png "Address 1: City field")
