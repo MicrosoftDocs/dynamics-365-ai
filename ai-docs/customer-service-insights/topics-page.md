@@ -2,7 +2,7 @@
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
 keywords: ""
-ms\.date: 3/27/2019
+ms\.date: 4/10/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -26,6 +26,8 @@ You can then view and manage the topics and associated support cases in a variet
 
 * [Searching for a topic](#searching-for-a-topic)
 * [Viewing support cases for a topic](#viewing-support-cases-for-a-topic)
+* [Providing feedback to fine-tune the way cases are grouped into topics](#providing-feedback-to-fine-tune-the-way-cases-are-grouped-into-topics)
+* [Moving cases to another topic](#moving-cases-to-another-topic)
 * [Renaming a topic](#renaming-a-topic)
 * [Controlling the granularity of how support topics are generated](#controlling-the-granularity-of-how-support-topics-are-generated)
 * [Refreshing the data displayed on the Topics page](#refreshing-the-data-displayed-on-the-topics-page)
@@ -58,6 +60,28 @@ To view the details of a support case, click the case title in the list.
 > ![View support details](media/view-support-details.png)
 
 Customer Service Insights opens the support case details in Dynamics 365.
+
+## Providing feedback to fine-tune the way cases are grouped into topics
+
+You can fine-tune the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the placement of cases within topics. By rating the placement, you can help the Customer Service Insights artificial intelligence learn and improve case grouping.
+
+To rate the placement of a topic's support cases, select the topic in the Topics page's Topics list to displays the list of cases associated with the topic. Then hover over the case title to display the **Thumbs up** and **Thumbs down** ratings icons.
+
+> ![Ratings icons](media/ratings-icons.png)
+
+Select the **Thumbs Up** icon to indicate the case has been placed correctly within the topic. Select the **Thumbs Down** icon to indicate the case was not placed correctly.
+
+## Moving cases to another topic
+
+If you find support cases grouped in a topic that should be grouped in a different topic on the Topics page, you can move them between topics. When a case is moved to another topic, Customer Service Insights uses that action as implicit feedback to tune its artificial intelligence model. For example, the model will determine whether a similar case should also belong to the other topic. As a result, Customer Service Insights improves its topic generation results in next workspace refresh.
+
+To move a support case, hover over the case in a topic's case list, select the ellipses to display the **Move** option, and then select **Move**.
+
+> ![Move option](media/move-option.png)
+
+Select the destination topic from the **Move case title** pane and then select **Move**.
+
+> ![Case move](media/case-move.png)
 
 ## Renaming a topic
 
@@ -114,15 +138,3 @@ For more information, see [Set the granularity of how Customer Service Insights 
 Customer Service Insights automatically refreshes the data displayed on the Topics page daily. However, you can trigger a refresh on demand without waiting for next daily refresh.
 
 For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
-
-<!-- ## Fine-tuning the way cases are grouped into topics
-
-You can fine-time the way Customer Service Insights artificial intelligence technology groups support cases into topics by rating the placement of cases within topics. By rating the placement, you can help the Customer Service Insights artificial intelligence learn and improve case grouping.
-
-To rate the placement of a topic's support cases, select the topic in the Topics dashboard's Topics list to displays the list of cases associated with the topic. Then hover over the case title to display the **Thumbs up** and **Thumbs down** ratings icons.
-
-> ![Ratings icons](media/ratings-icons.png)
-
-Select the **Thumbs Up** icon to indicate the case has been placed correctly within the topic. Select the **Thumbs Down** icon to indicate the case was not placed correctly.
-
--->
