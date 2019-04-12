@@ -30,7 +30,7 @@ Dynamics 365 Customer Service Insights lets you quickly connect to your existing
 
    > ![Choose an environment screen](media/choose-environment.png)
 
-   For more information on working with workspaces, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
+   For more information on working with workspaces, see [Use and manage workspaces to connect to different customer service environments](use-workspaces.md).
 
    Customer Service Insights configures the workspace to use the environment you selected and displays the environment's customer service data in the KPI Summary dashboard.
 

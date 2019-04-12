@@ -1,5 +1,5 @@
 ---
-title: "Use workspaces to connect to different customer service environments"
+title: "Use and manage workspaces to connect to different customer service environments"
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
 ms\.date: 3/18/2019
