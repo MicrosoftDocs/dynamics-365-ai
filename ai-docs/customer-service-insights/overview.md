@@ -22,11 +22,11 @@ Customer Service Insights uses artificial intelligence to automatically group yo
 
 The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 
-> ![KPI summary dashboard](media/kpi-summary.png)
+> ![Overview dashboard](media/overview.png)
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system's performance](quickstart.md).
 
-For more information about using workspaces to work with different sets of customer service data, see [Use workspaces to connect to different customer service environments](use-workspaces.md).
+For more information about using workspaces to work with different sets of customer service data, see [Use and manage workspaces to connect to different customer service environments](use-workspaces.md).
 
 For more information about how to use the dashboards and sample data, see [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
