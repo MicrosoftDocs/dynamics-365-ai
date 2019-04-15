@@ -39,8 +39,9 @@ A tenant administrator can follow these steps to delete data:
 You can follow these steps to delete data from Customer Service Insights:
 
 1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
-2. On the Settings menu, select **My workspaces**.
 
-    ![Delete data](media/ai-csi-gdpr-delete.png)
+2. Select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane.
 
-3. Delete the target workspace. All data will be immediately deleted.
+3. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
+
+> ![Delete workspace](media/delete-workspace.png)

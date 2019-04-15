@@ -16,8 +16,7 @@ manager: shellyha
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
-> [!div class="mx-imgBorder"]
-> ![New cases dashboard](media/ai-csi-new-cases-dash.png)
+> ![New cases dashboard](media/new-cases.png)
 
 The New cases dashboard gives you an overview of the new cases in your customer service system. It uses artificial intelligence (AI) technology to help you identify popular and emerging issues.
 
@@ -37,8 +36,7 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## Case priority chart
 
-> [!div class="mx-imgBorder"]
-> ![Case priority chart](media/ai-csi-case-priority-incoming.png)
+> ![Case priority chart](media/case-priority.png)
 
 The Case priority chart shows the breakdown in new support cases each day in the specified time period between high, medium, and low-priority cases.
 
@@ -48,8 +46,7 @@ Case priority | Daily incoming case breakdown by case priority
 
 ## Case channel chart
 
-> [!div class="mx-imgBorder"]
-> ![Case channel chart](media/ai-csi-case-channels-incoming.png)
+> ![Case channel chart](media/case-channel.png)
 
 The Case channel chart shows the breakdown in new support cases each day in the specified time period between different support channels.
 
@@ -59,8 +56,7 @@ Case channel | Daily incoming case breakdown by channel
 
 ## Case timing chart
 
-> [!div class="mx-imgBorder"]
-> ![Case timing chart](media/ai-csi-case-timing.png)
+> ![Case timing chart](media/case-timing.png)
 
 The Case timing chart shows the trends in the time of day of new support cases for each channel during the time period.
 
@@ -70,8 +66,7 @@ Case timing | Incoming case breakdown by channel and time of day
 
 ## Popular topics chart
 
-> [!div class="mx-imgBorder"]
-> ![Popular topics chart](media/ai-csi-popular-topics.png)
+> ![Popular topics chart](media/popular-topics.png)
 
 The Popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics and then display topics in order of volume over the specified time period.
 
@@ -89,8 +84,7 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
-> [!div class="mx-imgBorder"]
-> ![Emerging topics chart](media/ai-csi-emerging-topics.png)
+> ![Emerging topics chart](media/emerging-topics.png)
 
 The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 
