@@ -4,7 +4,7 @@
 
 # How-tos
 
-## [Use workspaces to connect to different customer service environments](use-workspaces.md)
+## [Use and manage workspaces to connect to different customer service environments](use-workspaces.md)
 
 ## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
 
