@@ -49,6 +49,9 @@ A tenant administrator can follow these steps to delete data:
 
 4. Select the user that you want to delete. 
 
+    > [!div class="mx-imgBorder"]
+    > ![User list](media/ai-csi-gdpr-delete1.png)
+
 5. Select **Delete**.
 
     > [!div class="mx-imgBorder"]
