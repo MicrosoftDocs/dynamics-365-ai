@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights"
 description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights."
 keywords: ""
-ms\.date: 1/23/2019
+ms\.date: 04/17/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -33,6 +33,19 @@ A tenant administrator can follow these steps to delete data:
 
     An administrator from the Dynamics 365 Customer Service Insights team will send an email to the address registered in the Azure AD user account, asking for confirmation to delete data.
 2. Acknowledge the confirmation to delete the data and receive a confirmation that the data has been deleted.
+
+### Delete customer data – Telemetry (Tenant admin)
+
+A tenant administrator can follow these steps to delete data:
+
+1. Sign in to the [Azure management portal](https://ms.portal.azure.com).
+
+2. Navigate to [https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
+
+    > [!div class="mx-imgBorder"]
+    > ![Privacy blade](media/ai-csi-gdpr-export1.png)
+
+3. Create a request to delete user data by providing the required details.
 
 ### Delete customer data (Self)
 
