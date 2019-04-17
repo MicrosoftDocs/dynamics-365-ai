@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Export Requests for Dynamics 365 Customer Service Insights"
 description: "Learn how to respond​ to GDPR Data Subject Export Requests for Dynamics 365 Customer Service Insights."
 keywords: ""
-ms\.date: 1/23/2019
+ms\.date: 04/17/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -39,7 +39,7 @@ A tenant administrator can follow these steps to export data:
     > [!div class="mx-imgBorder"]
     > ![Privacy blade](media/ai-csi-gdpr-export1.png)
 
-3. Create a request to export and delete user data by providing following details:
+3. Create a request to export and [delete user data](gdpr-delete.md) by providing following details:
 
 > [!div class="mx-imgBorder"]
 > ![Request details](media/ai-csi-gdpr-export2.png)
