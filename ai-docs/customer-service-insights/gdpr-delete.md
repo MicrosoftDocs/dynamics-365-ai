@@ -67,4 +67,4 @@ You can follow these steps to delete data from Customer Service Insights:
 
 3. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
 
-> ![Delete workspace](media/delete-workspace.png)
+   > ![Delete workspace](media/delete-workspace.png)
