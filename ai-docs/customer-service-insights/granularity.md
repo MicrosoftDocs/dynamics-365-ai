@@ -49,3 +49,5 @@ You can control the scope of how Customer Service Insights generates customer se
    > ![Save granularity](media/save-granularity.png)
 
 **Note:**  When you save a change to your granularity settings, any feedback you have given on the placement of support cases in topics is reset. For more information on providing feedback for the placement of support cases in topics, see [Providing feedback to fine-tune the way cases are grouped into topics](topics-page.md#providing-feedback-to-fine-tune-the-way-cases-are-grouped-into-topics).
+
+The topic granularity impacts the scope of a topic. It doesn’t determine the total number of topics that are generated. Depending on the similarity between your case titles, you may see more or fewer topics when the granularity is more specific.
