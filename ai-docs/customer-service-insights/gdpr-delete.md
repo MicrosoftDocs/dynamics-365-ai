@@ -43,19 +43,19 @@ A tenant administrator can follow these steps to delete data:
 2. Navigate to [https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
 
     > [!div class="mx-imgBorder"]
-    > ![Privacy blade](media/ai-csi-gdpr-export1.png)
+    > ![Privacy blade](media/gdpr-export-1.png)
 
 3. Select **Go to Azure AD to delete user**.
 
 4. Select the user that you want to delete. 
 
     > [!div class="mx-imgBorder"]
-    > ![User list](media/ai-csi-gdpr-delete1.png)
+    > ![User list](media/gdpr-delete1.png)
 
 5. Select **Delete**.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete control](media/ai-csi-gdpr-delete2.png)
+    > ![Delete control](media/gdpr-delete2.png)
 
 ### Delete customer data (Self)
 
