@@ -2,7 +2,7 @@
 title: "Permissions | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 04/19/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -23,9 +23,9 @@ The **Permissions** page is where you can set up roles and permissions for using
 
 |Role  |Capabilities available under this role  |
 |---------|---------|
-|Viewer     | <ul><li>View **Home** and **Segments** pages </li></ul>       |
-|Contributor     | <ul><li>Complete **Data Manager**: **Data Sources** </li><li>Complete **Configure Data** sections: **Map**, **Match**, **Merge**, **Relationships**, **Activities**, etc. </li><li>View **Home** and **Segments** pages </li><li>Create segments in the **Segment Builder** page  </li></ul> |
-|Administrator     | <ul><li>All that is available to the Contributor</li></ul>AND<ul><li>Change settings on the **Settings** page</li><li>View and add permissions on the **Permissions** page</li><li>Set Search and Filter definitions for the **Profiles** page using the **Search, Sort and Filter** page   </li></ul>     |
+|Viewer     | <ul><li>Explore insights and segments within the **Home** and **Segments** pages.</li><li>Search and filter customer profiles using the **Customers** page (Note: Fields in your data should first be indexed as searchable by your administrator).</li><li>Explore as well as export entities using the **Entities** page.</li> <li>View system processes status using the **System** page.</li> <li>Exporting a segment from the **Segments** page to either a csv. file or to a Dynamics 365 for Sales destination (note: Dynamics 365 for Sales destinations should first be defined by your administrator).</li><li>Install and use the **Power BI Customer Insights** dashboard to solicit insights on your customers.</li></ul>   |
+|Contributor     | <ul><li>All that is available to the Viewer.</li>AND<br /><li>Load data into the system (and transform it) using the Data Sources page.</li><li> Complete the *Data Unification* sections:**Map**,**Match** and **Merge** that result in the unified customer profile entity.</li> <li>Define **Relationships** and **Activities**.</li> <li>Create segments using the **Segment Builder** page.</li> <li>Create measures using the **Measures** page.</li> <li>Enrich customer profiles with Microsoft Graph data using the **Enrichment** page.</li></ul> |
+|Administrator     | <ul><li>All that is available to the Contributor</li> AND<br /><li> Change settings on the **System** page, including setting refresh schedules for your system processes, change language, etc. </li> <li>View and add permissions using the **Permissions** page.</li> <li>Set Search and Filter definitions for the Customers page using the **Search & Filter Index** page (accessible via the **Customers** page).</li> <li>Define Dynamics 365 for Sales segment destinations using the **Segment Export** page.</li><li>Install and use the **Customer Card Add-in**.</li> <li>Add the **PowerApps connector** and create an app with Customer Insights data through it.</li></ul>     |
  
 ## Add roles and permissions
 
