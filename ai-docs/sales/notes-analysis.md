@@ -1,7 +1,7 @@
 ---
 title: "Get suggestive action on notes for Dynamics 365 Customer Engagement  | MicrosoftDocs"
 description: "Get intelligent suggestions on action that you take on notes you enter during a recent meeting or discussion with your customer."
-keywords: "notes analysis, Dynamics 365 AI for sales, AI sales"
+keywords: "notes analysis, Dynamics 365 Sales Insights, AI sales, Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -58,4 +58,4 @@ For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includ
 
 ### See also
 
-[Configure Dynamics 365 AI for Sales](configure-enable-dynamics-365-ai-sales.md)
+[Configure Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)

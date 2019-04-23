@@ -31,7 +31,7 @@ Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you
 
 > [!IMPORTANT]
 > - The AI for Sales features are available only in North American (NAM) regions.
-> - You must purchase **Dynamics 365 AI for Sales** license to use AI for
+> - You must purchase **Dynamics 365 Sales Insights** license to use AI for
 Sales features.
 
 AI for sales consists of the following features:
@@ -46,7 +46,7 @@ For information about how to enable these features, see [Configure and enable em
 
 ## Privacy notices  
 
-For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 

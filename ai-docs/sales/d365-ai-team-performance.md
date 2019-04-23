@@ -1,6 +1,6 @@
 ---
-title: " Analyze team  performance in Dynamics 365 AI for Sales | MicrosoftDocs"
-description: "Analyze how your team is performing in a sales period in Dynamics 365 AI for Sales"
+title: " Analyze team  performance in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Analyze how your team is performing in a sales period in Dynamics 365 Sales Insights"
 keywords: ""
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -170,4 +170,4 @@ For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includ
 
 ### See also
 
-[Unlock sales potential with Dynamics 365 AI for Sales](dynamics365-ai-sales-app.md)
+[Unlock sales potential with Dynamics 365 Sales Insights](dynamics365-ai-sales-app.md)

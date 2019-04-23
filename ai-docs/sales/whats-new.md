@@ -1,6 +1,6 @@
 ---
-title: "What's new in Dynamics 365 AI for Sales | MicrosoftDocs"
-description: "Learn what's new in the latest release of Dynamics 365 AI for Sales."
+title: "What's new in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Learn what's new in the latest release of Dynamics 365 Sales Insights."
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# What's new in Dynamics 365 AI for Sales
+# What's new in Dynamics 365 Sales Insights
 
 Welcome to [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. Visit this page to see what has been added or updated recently.
 
@@ -44,7 +44,7 @@ In this release, we have improved engagement and decision-making with prebuilt a
 
 ### For sales managers (Preview)
 
-- **[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app**: The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app proactively and prescriptively provides useful insights from sales data. This helps sales managers to evaluate and improve the performance of their sales teams on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With measurement and pipeline forecasting using relationship health scores, sales managers can better optimize their sales strategies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales app for managers](../sales/dynamics365-ai-sales-app.md)
+- **[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app**: The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app proactively and prescriptively provides useful insights from sales data. This helps sales managers to evaluate and improve the performance of their sales teams on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With measurement and pipeline forecasting using relationship health scores, sales managers can better optimize their sales strategies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Sales Insights app for managers](../sales/dynamics365-ai-sales-app.md)
 
 - **Call intelligence**: Call intelligence is part of [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. Call intelligence enables smarter coaching to boost sales conversion rates by analyzing call statistics on sentiments, keyword mentions, and KPIs. By connecting call center telephony recording systems to the app, call center managers can generate conversation insights to make better sales decisions. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and non-Dynamics organizations can use the Microsoft call intelligence to generate conversation insights to make sales decisions that contribute to the growth of your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze customer calls](../sales/call-intelligence.md)
 

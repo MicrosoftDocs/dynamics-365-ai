@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The Predictive lead scoring of Dynamics 365 AI for Sales provides a scoring model to generate scores for leads that are available for you in your pipeline. This model assigns a score between 0 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. 
+In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The Predictive lead scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for leads that are available for you in your pipeline. This model assigns a score between 0 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. 
 
 For example, say you have two leads - Lead A and Lead B - in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. By looking at the score, you can predict that Lead A has more chances of converting into an opportunity and you can engage it. Also, you can further analyze why the score of Lead B is low by looking at the top reasons influencing the score and deciding whether to improve this score.
  
@@ -72,4 +72,4 @@ For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includ
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
+[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)

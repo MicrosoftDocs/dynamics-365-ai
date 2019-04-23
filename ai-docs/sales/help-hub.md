@@ -1,6 +1,6 @@
 ---
-title: "Documentation resources for Dynamics 365 AI for Sales | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 AI for Sales."
+title: "Documentation resources for Dynamics 365 Sales Insights | Microsoft Docs"
+description: "A starting point for browsing help content for Dynamics 365 Sales Insights."
 keywords: "sales;help;AI;sales AI"
 ms.date: 10/31/2018
 ms.service: 
@@ -26,17 +26,17 @@ search.app:
   - D365AISales
 ---
 
-# Dynamics 365 AI for Sales Help & Training
+# Dynamics 365 Sales Insights Help & Training
 
 <table>
 <tr><td>
 <h2>Get started</h2>
-<li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 AI for Sales overview</a></li>
-<li><a href="dynamics-365-ai-for-sales.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sellers overview](dynamics-365-ai-for-sales.md)">Dynamics 365 AI for Sales capabilities for sellers</a></li>
-<li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 AI for Sales capabilities for sales managers overview](dynamics365-ai-sales-app.md)">Dynamics 365 AI for Sales capabilities for sales managers</a></li>
+<li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 Sales Insights overview</a></li>
+<li><a href="dynamics-365-ai-for-sales.md" data-raw-source="[Dynamics 365 Sales Insights capabilities for sellers overview](dynamics-365-ai-for-sales.md)">Dynamics 365 Sales Insights capabilities for sellers</a></li>
+<li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 Sales Insights capabilities for sales managers overview](dynamics365-ai-sales-app.md)">Dynamics 365 Sales Insights capabilities for sales managers</a></li>
 </td><td>
 <h2>Administer the system</h2>
-<li><a href="configure-enable-dynamics-365-ai-sales.md" data-raw-source="[Enable and configure Dynamics 365 AI for Sales capabilities for sellers](configure-enable-dynamics-365-ai-sales.md)">Enable and configure Dynamics 365 AI for Sales capabilities for sellers</a></li>
+<li><a href="configure-enable-dynamics-365-ai-sales.md" data-raw-source="[Enable and configure Dynamics 365 Sales Insights capabilities for sellers](configure-enable-dynamics-365-ai-sales.md)">Enable and configure Dynamics 365 Sales Insights capabilities for sellers</a></li>
 </td></tr>
 <tr><td>
 <h2>Increase sales</h2>

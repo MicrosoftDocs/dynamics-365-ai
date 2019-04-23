@@ -1,5 +1,5 @@
 ---
-title: " View overall insights of your sales in Dynamics 365 AI for Sales | MicrosoftDocs"
+title: " View overall insights of your sales in Dynamics 365 AI Sales Insights | MicrosoftDocs"
 description: "View high-level information on forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news with AI-driven insights readily available for Dynamics 365 for Sales"
 keywords: ""
 ms.date: 10/31/2018
@@ -42,7 +42,7 @@ When you sign in to the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-
 Using this information, you can quickly take action when necessary and drill deep into a particular report for more information. The following is an example of the home page.
 
 > [!div class="mx-imgBorder"]
-> ![Dynamics 365 AI for Sales home page](media/d365-ai-sales-homepage1.png "Dynamics 365 AI for Sales home page")
+> ![Dynamics 365 Sales Insights home page](media/d365-ai-sales-homepage1.png "Dynamics 365 Sales Insights home page")
 
 ## Q&A 
 

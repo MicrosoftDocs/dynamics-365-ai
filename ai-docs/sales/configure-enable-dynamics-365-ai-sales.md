@@ -25,12 +25,12 @@ topic-status: Drafting
 
 
 
-# Enable and configure Dynamics 365 AI for Sales capabilities for sellers
+# Enable and configure Dynamics 365 Sales Inisghts capabilities for sellers
 
 <!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
 > [!IMPORTANT]
-> - Dynamics 365 AI for Sales capabilities for sellers requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in future releases.
+> - Dynamics 365 Sales Insights capabilities for sellers requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in future releases.
 > - The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] seller features are available only in North American (NAM) regions.
 
 Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features helps the user to effectively use the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] contains the following features:
@@ -46,25 +46,25 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dyna
 
 ## GDPR
 
-To learn about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md).
+To learn about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md).
 
 ## Prerequisites
 
 Review the following requirements before you enable and configure the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] feature:
 
-- You must purchase a **Dynamics 365 AI for Sales** license to use [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
+- You must purchase a **Dynamics 365 Sales Insights** license to use [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
 - You must be a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 - If you want to use LinkedIn data for Relationship analytics, verify that the LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write back from LinkedIn Sales navigator is enabled.
 
-## Enable Dynamics 365 AI for Sales features
+## Enable Dynamics 365 Sales Insights features
 
 [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features are not available by default. You must enable these features by selecting an organization. Follow these steps:
 
 1. Go to **Settings** > **Sales AI**.<br>
 1. On the **AI setup** page, select **Get it now**.<br>
     > [!div class="mx-imgBorder"]
-    > ![Get Dynamics 365 AI for Sales](media/d365-ai-sales-getitnow.png "Get Dynamics 365 AI for Sales")<br>
+    > ![Get Dynamics 365 Sales Insights](media/d365-ai-sales-getitnow.png "Get Dynamics 365 Sales Insights")<br>
 1. On the **Sales Insights** installation page, carefully read and select the terms and conditions, and then select **Continue**.<br>
    The installation takes a few minutes to complete, and then the status appears in the status bar.<br>
     > [!div class="mx-imgBorder"]
@@ -73,7 +73,7 @@ Review the following requirements before you enable and configure the [!INCLUDE[
     Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
     
     > [!div class="mx-imgBorder"]
-    > ![Dynamics 365 AI for Sales is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 AI for Sales is enabled")
+    > ![Dynamics 365 Sales Insights is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 Sales Insights is enabled")
 
 ## Configure Relationship analytics
 
@@ -104,19 +104,19 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 5. Select **Save**.<br>
    Relationship analytics is configured and ready to use in your organization.
 
-Enable the **Dynamics 365 AI for Sales – Analytics** option in the admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. <br>
+Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. <br>
 
-To enable Dynamics 365 AI for Sales – Analytics, follow these steps: 
+To enable Dynamics 365 Sales Insights – Analytics, follow these steps: 
 
 1. Go to the **Admin** center.<br>
     > [!div class="mx-imgBorder"]
     > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
 
-2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Analytics**.<br>
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 Sales Insights – Analytics**.<br>
     > [!div class="mx-imgBorder"]
     > ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")<br>
 
-3. Read the description and configure the Dynamics 365 AI for Sales – Analytics settings as **on** and select **Save**.<br>
+3. Read the description and configure the Dynamics 365 Sales Insights – Analytics settings as **on** and select **Save**.<br>
     > [!div class="mx-imgBorder"]
     > ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")<br>
 
@@ -270,17 +270,17 @@ The Who knows whom feature is available under the Connection insights configurat
 
 After you enable the Who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to collect the communication and collaboration details of users from Exchange server.<br>
 > [!NOTE]
-> Contact your Office 365 administrator to enable the Dynamics 365 AI for Sales connection graph if you don't have sufficient privileges to enable. 
+> Contact your Office 365 administrator to enable the Dynamics 365 Sales Insights connection graph if you don't have sufficient privileges to enable. 
  
-To configure the Dynamics 365 AI for Sales connection graph, follow these steps:<br>
+To configure the Dynamics 365 Sales Insights connection graph, follow these steps:<br>
 
 1. Go to the **Admin** center.<br>
     > [!div class="mx-imgBorder"]
     > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")<br>
-2. Select **Settings** > **Services & add-ins** > **Dynamics 365 AI for Sales – Connection Graph**.<br>
+2. Select **Settings** > **Services & add-ins** > **Dynamics 365 Sales Insights – Connection Graph**.<br>
     > [!div class="mx-imgBorder"]
     > ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")<br>
-3. Read the description and configure the Dynamics 365 AI for Sales – Connection Graph settings as **on**.<br>
+3. Read the description and configure the Dynamics 365 Sales Insights – Connection Graph settings as **on**.<br>
     > [!div class="mx-imgBorder"]
     > ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")<br>
 4. (Optional) If you don't want to collect information on a group of users in your organization, add the group ID in the text box.<br> 
@@ -299,8 +299,8 @@ Predictive forecast helps sales managers make timely decisions in generating rev
 
 Review the following prerequisites before enabling Predictive forecasting:
 
-- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] is enabled. To learn more, see [Enable Dynamics 365 AI for Sales features](#enable-dynamics-365-ai-for-sales-features).
-- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is configured for your organization. To learn more, see [Unlock sales potential with Dynamics 365 AI for Sales](../sales/dynamics365-ai-sales-app.md).
+- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] is enabled. To learn more, see [Enable Dynamics 365 Sales Insights features](#enable-dynamics-365-ai-for-sales-features).
+- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is configured for your organization. To learn more, see [Unlock sales potential with Dynamics 365 Sales Insights](../sales/dynamics365-ai-sales-app.md).
 - The organization has at least 28 weeks of historical opportunities. This helps in generating a model to display the predictive forecasting in the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. However, we recommend you have two years of historical opportunities data for increased prediction accuracy.
 - The fiscal period is configured as monthly or quarterly for your organization. To learn more, see [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings). Predictive forecasting will not work if the fiscal period is defined for half-yearly or yearly.
 - Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
@@ -349,7 +349,7 @@ If you don't want to use the Sales insights add-on features for your organizatio
 
 ## Privacy notice  
 
-For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 

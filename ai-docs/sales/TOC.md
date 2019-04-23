@@ -1,11 +1,11 @@
-# [Dynamics 365 AI for Sales](help-hub.md)
+# [Dynamics 365 Sales Insights](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new.md)
 
-## [Dynamics 365 AI for Sales capabilities for sellers](../sales/dynamics-365-ai-for-sales.md)
+## [Dynamics 365 Sales Insights capabilities for sellers](../sales/dynamics-365-ai-for-sales.md)
 ### Administrator guide 
-#### [Administer Dynamics 365 AI for Sales capabilities for sellers](../sales/configure-enable-dynamics-365-ai-sales.md)
-#### [GDPR for Dynamics 365 AI for Sales](../sales/embedded-intelligence-gdpr.md)
+#### [Administer Dynamics 365 Sales Insights capabilities for sellers](../sales/configure-enable-dynamics-365-ai-sales.md)
+#### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
@@ -19,7 +19,7 @@
 ### [FAQs for seller capabilities](faqs-seller-app.md)
 ### [Privacy notice](privacy-notice-seller.md)
 
-## [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)
+## [Dynamics 365 Sales Insights capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)
 ### [View overall sales insights](../sales/d365-ai-overview.md)
 ### [Analyze business performance](../sales/d365-ai-business-performance.md)
 ### [Analyze team performance](../sales/d365-ai-team-performance.md)

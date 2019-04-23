@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 AI for Sales capabilities for sales managers Privacy Notices | Microsoft Docs"
-description: "Privacy notices for AI for Sales capabilities for sales managers."
+title: "Dynamics 365 Sales Insights capabilities for sales managers Privacy Notices | Microsoft Docs"
+description: "Privacy notices for Sales Insights capabilities for sales managers."
 keywords: "privacy notice, privacy statement addition"
 ms.date: 10/31/2018
 ms.service: dynamics-365-ai
@@ -19,7 +19,7 @@ search.app:
   - D365SE
 ---
 
-# Dynamics 365 AI for Sales capabilities for sales manager privacy notices
+# Dynamics 365 Sales Insights capabilities for sales manager privacy notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).
 

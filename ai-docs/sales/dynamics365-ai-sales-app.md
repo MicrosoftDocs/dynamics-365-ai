@@ -1,7 +1,7 @@
 ---
-title: "Unlock sales potential with Dynamics 365 AI for Sales | MicrosoftDocs"
+title: "Unlock sales potential with Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Unlock sales potential with AI-driven insights readily available for Dynamics 365 for Sales"
-keywords: "call intelligence, Dynamics 365 AI for sales, AI for sales, Sales AI"
+keywords: "call intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Preview: Unlock sales potential with Dynamics 365 AI for Sales
+# Preview: Unlock sales potential with Dynamics 365 Sales Insights
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
@@ -55,13 +55,13 @@ Before you start using the application, we suggest you review the following requ
 
 The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is a standalone application and you must sign in to the app to use it. You can use one of the following entry points to access the app:
 
-- Go to the [Dynamics 365 AI for Sales](https://aka.ms/salesai) marketing page and select **GET IT NOW**.
+- Go to the [Dynamics 365 Sales Insights](https://aka.ms/salesai) marketing page and select **GET IT NOW**.
 - Go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/)
 
 > [!NOTE]
 > You must purchase a **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use the AI sales features. 
  
-## How to access the Dynamics 365 AI for Sales app
+## How to access the Dynamics 365Sales Insights application
 
 You must sign in to the application to view the KPIs for pipeline and deals. 
 
@@ -76,7 +76,7 @@ Let’s look at an example: Kevin is a sales manager. When he signs in to the ap
 The following diagram illustrates how you can access the [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] application.
 
 > [!div class="mx-imgBorder"]
-> ![How to access the Dynamics 365 AI for Sales application](media/d365-ai-app-access.png "How to access the Dynamics 365 AI for Sales application")
+> ![How to access the Dynamics 365 Sales Insights application](media/d365-ai-app-access.png "How to access the Dynamics 365 Sales Insights application")
 
 ## Privacy notice  
 
