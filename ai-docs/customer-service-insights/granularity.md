@@ -2,7 +2,7 @@
 title: "Set the granularity of how Customer Service Insights generates customer service topics"
 description: "Learn how to set the granularity of how Customer Service Insights generates customer service topics."
 keywords: ""
-ms\.date: 4/1/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Set the granularity of how Customer Service Insights generates customer service topics
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 The artificial intelligence technology that Customer Service Insights uses to group support cases as support topics is fine-tuned and configured to cover the most common support environments and cases. However, you may want to group topics for your customer service system in a more general way, or more specifically.
 

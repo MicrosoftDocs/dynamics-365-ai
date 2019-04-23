@@ -2,7 +2,7 @@
 title: "New cases dashboard"
 description: "Learn about the customer service insights available on the New cases dashboard."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # New cases dashboard​
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 > ![New cases dashboard](media/new-cases.png)
 

@@ -2,7 +2,7 @@
 title: "Use and manage workspaces to connect to different customer service environments"
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
-ms\.date: 3/18/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Use and manage workspaces to connect to different customer service environments
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 When you work with the dashboards in Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
 

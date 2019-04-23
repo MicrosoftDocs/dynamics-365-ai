@@ -2,7 +2,7 @@
 title: "Improve data quality by cleansing support case titles​"
 description: "Learn how to improve AI Insights charts by removing extraneous tags in support case titles."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Improve data quality by cleansing support case titles
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 Customer Service Insights uses artificial intelligence technology to give you insights into your customer service data by grouping support cases as *topics* that are a collection of related cases. This can help you identify areas for improvement that can have the greatest impact on system performance.
 

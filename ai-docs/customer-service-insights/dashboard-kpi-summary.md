@@ -2,7 +2,7 @@
 title: "KPI summary dashboard"
 description: "Learn about the customer service insights available on the KPI Summary dashboard​."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # KPI summary dashboard
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 > ![KPI summary dashboard](media/kpi-summary.png)
 

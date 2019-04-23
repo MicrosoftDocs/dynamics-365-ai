@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Discovery Requests for Dynamics 365 Customer Service Insights"
 description: "Learn how to respond​ to GDPR Data Subject Discovery Requests for Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 2/19/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Responding to GDPR Data Subject Discovery Requests for Dynamics 365 Customer Service Insights
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 The first step in responding to a Data Subject Discovery Request (DSR) is finding personal data that is the subject of the request. This helps you determine whether a DSR meets your organization's requirements for honoring or declining a DSR request. For example, after finding and reviewing the personal data that is the subject of the request, you may determine that the request doesn’t meet your organization’s requirements because it may adversely affect the rights and freedoms of others.
 

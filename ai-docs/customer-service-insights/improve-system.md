@@ -2,7 +2,7 @@
 title: "Identify areas for improvement in your customer service system"
 description: "Learn how Customer Service Insights dashboards can help you identify areas for improvement in your customer service system."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Identify areas for improvement in your customer service system
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 The rich set of dashboards provided by Customer Service Insights not only gives you a detailed picture of your customer service system, it can help you identify key areas for improvement that can increase system performance and customer satisfaction.
 

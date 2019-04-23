@@ -2,7 +2,7 @@
 title: "Trigger a refresh of your Customer Service Insights data"
 description: "Learn how to trigger a refresh of your Customer Service Insights data."
 keywords: ""
-ms\.date: 4/1/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Trigger a refresh of your Customer Service Insights data
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 Customer Service Insights automatically refreshes the data displayed on dashboards daily. However, you may want dashboards to display data that is more current than the data from the last automatic refresh.
 

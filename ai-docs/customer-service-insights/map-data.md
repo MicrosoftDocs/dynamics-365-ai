@@ -2,7 +2,7 @@
 title: "Map your data to custom entities and fields"
 description: "Learn how to generate insights by mapping your data to custom data entities and fields​."
 keywords: ""
-ms\.date: 4/3/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Map your data to custom entities and fields
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Case entity and several other related entities in Common Data Service (CDS) for Apps.
 

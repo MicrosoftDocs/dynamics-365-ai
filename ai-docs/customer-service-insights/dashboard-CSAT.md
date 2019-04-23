@@ -2,7 +2,7 @@
 title: "Customer satisfaction dashboard"
 description: "Learn the customer service insights available on the Customer satisfaction dashboard​."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Customer satisfaction dashboard
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 > ![Customer satisfaction dashboard](media/csat.png)
 

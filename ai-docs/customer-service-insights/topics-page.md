@@ -2,7 +2,7 @@
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
 keywords: ""
-ms\.date: 4/10/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -13,8 +13,6 @@ manager: shellyha
 ---
 
 # Manage and improve artificial intelligence grouping of support cases as topics
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting **Topics** in the navigation pane.
 
