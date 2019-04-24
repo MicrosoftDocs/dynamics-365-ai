@@ -38,6 +38,10 @@
 
 ## [Dynamics 365 for Customer Service entities used by Customer Service Insights](customer-service-entities.md)
 
+## [Licensing Overview](licensing-overview.md)
+
+## [Service Limits](service-limits.md)
+
 # Data Subject Rights (DSR) requests under GDPR
 
 ## [Overview of GDPR compliance](gdpr-summary.md)
