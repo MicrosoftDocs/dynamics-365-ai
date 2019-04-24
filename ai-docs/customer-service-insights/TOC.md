@@ -8,7 +8,7 @@
 
 ## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
 
-## [Trigger a refresh of your Customer Service Insights data](trigger-refresh.md)
+## [Trigger a refresh of Customer Service Insights data](trigger-refresh.md)
 
 ## [Identify areas for improvement](improve-system.md)
 
@@ -36,7 +36,7 @@
 
 ### [Topic details](dashboard-topic-details.md)
 
-## [Dynamics 365 for Customer Service entities used by Customer Service Insights](customer-service-entities.md)
+## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
 
 ## [Licensing and capacity overview](licensing-overview.md)
 
