@@ -21,7 +21,7 @@ This article highlights some key points that are important to know about licensi
 ## Case capacity add-on licensing
 A Customer Service Insights license comes with a limit on the number of cases that can be imported. Today, that limit is 100K cases per user per month (cases/user/month). 
 
-Case capacity is determined by the total number of case records imported into Customer Service Insights workspaces. The number of cases imported into a workspace is defined as the number of cases created in a 60 day period to which the workspace owner has read access. Note that if multiple workspaces are connected to the same Dynamics 365 environment, the same records may be imported multiple times, and each import counts towards the total case capacity.
+Case capacity is determined by the total number of case records imported into Customer Service Insights workspaces. The number of cases imported into a workspace is defined as the number of cases created in a 60-day period to which the workspace owner has read access. Note that if multiple workspaces are connected to the same Dynamics 365 environment, the same records may be imported multiple times, and each import counts towards the total case capacity.
 
 If you require additional case capacity, you can include optional capacity add-on licenses with your subscription. Subscription add-ons apply across a single organization; add-ons are not tied to a specific user. 
 
