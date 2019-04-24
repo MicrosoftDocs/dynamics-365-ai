@@ -1,6 +1,6 @@
 ---
-title: "Licensing and capacity overview"
-description: "Details on the licensing structure for Customer Service Insights."
+title: "Licensing and case capacity considerations"
+description: "Key points about licensing and case capacity determinations for Dynamics 365 Customer Service Insights."
 keywords: ""
 ms\.date: 4/24/2019
 ms.service:
@@ -12,13 +12,13 @@ ms.author: tpalmer
 manager: shellyha
 ---
 
-# Licensing and capacity overview
+# Licensing and case capacity considerations
 
 Your organization can obtain separate licenses for Dynamics 365 Customer Service Insights, or licensing may be included with another Microsoft service offering. For example, Dynamics 365 for Customer Service includes entitlements for Customer Service Insights. All licenses for Customer Service Insights are user-based. As with most Microsoft licensing, you can mix and match to match the needs of your users.
 
 This article highlights some key points that are important to know about licensing and case capacity determinations for Customer Service Insights. However, you should consult the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) for the latest details. 
 
-## Case capacity optional add-on licenses
+## Case capacity add-on licensing
 A Customer Service Insights license comes with a limit on the number of cases that can be imported. Today, that limit is 100K cases per user per month (cases/user/month). 
 
 Case capacity is determined by the total number of case records imported into Customer Service Insights workspaces. The number of cases imported into a workspace is defined as the number of cases created in a 60 day period to which the workspace owner has read access. Note that if multiple workspaces are connected to the same Dynamics 365 environment, the same records may be imported multiple times, and each import counts towards the total case capacity.
@@ -43,6 +43,6 @@ c) The number of Customer Service Insights workspaces connected to a CDS environ
 |600k	|600k	|2	|1,200,000|
 
 
+*Whether a case was created in the last 60 days is determined by the [mapping of the "Created On" source field in Customer Service Insights](map-data.md). If no custom mapping is in place, it is determined by the [createdOn field in the case entity](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn).
 
-*Whether a case was created in the last 60 days is determined by the [mapping of the "Created On" source field in Customer Service Insights](map-data.md).    
-If no custom mapping is in place, it is determined by the [createdOn field in the case entity](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn).
+
