@@ -2,7 +2,7 @@
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 4/24/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -91,7 +91,7 @@ You can rename a topic either in the Topics list or in the list of the support c
 
 ### To rename a topic in the Topics list
 
-1. Hover over the topic and select the elipses to the left of the Total cases number for the topic.
+1. Hover over the topic and select the ellipsis to the left of the Total cases number for the topic.
 
    > ![Rename topic](media/rename-topic.png)
 
