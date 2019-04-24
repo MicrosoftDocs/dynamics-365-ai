@@ -48,4 +48,4 @@
 
 ## [Data Subject Discovery Requests](gdpr-discovery.md)
 
-## [Where your Customer Service Insights data is stored](data-location.md)
+## [Where your organization's Customer Service Insights data is stored](data-location.md)
