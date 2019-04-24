@@ -25,20 +25,20 @@ Your privacy is important to us. For Microsoft Online Services, read the [Micros
 
 For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, refer to the paragraphs below.
 
-By enabling [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data will be sent to and used by (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation, and (2) Azure Container Instance for the purpose of predictive model training and scoring. By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory service and Azure Container Instance.
+By enabling [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data will be sent to and used by (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation, and (2) Azure Container Instance for the purpose of predictive model training and scoring. By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory service and Azure Container Instance.
 
 Azure components and services that are involved with Dynamics 365 Sales Insights are detailed in the following sections.
 [!Include[cc_privacy_note_azure_trust_center](../includes/cc-privacy-note-azure-trust-center.md)]
 
 ## Azure Data Factory
-[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] uses Azure Data Factory, a cloud data integration service, to orchestrate and automate the movement and transformation of data (including Customer Data) between services.
+[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure Data Factory, a cloud data integration service, to orchestrate and automate the movement and transformation of data (including Customer Data) between services.
 
 ## Azure Container Instance
-[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] uses Azure Container instance, a cloud-based container service, to create predictive model training and scoring pipelines dynamically. 
+[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure Container instance, a cloud-based container service, to create predictive model training and scoring pipelines dynamically. 
 
 ## Installation and Removal of Dynamics 365 Sales Insights
 
-An administrator can enable [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] embedded capabilities by installing it as a solution in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In addition, an administrator can subsequently disable the feature by uninstalling this solution from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization.
+An administrator can enable [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] embedded capabilities by installing it as a solution in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In addition, an administrator can subsequently disable the feature by uninstalling this solution from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization.
 
 
 

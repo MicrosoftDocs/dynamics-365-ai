@@ -30,7 +30,7 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 
 As a sales manager, it is important for you to understand how your business is doing at each level of the sales cycle such as lead capture, account creation, contact setup, opportunity management, product catalog, and quote management. Using the Business section, you will get detailed information on all phases of the sales cycle to help you understand how your team is performing and to plan your day-to-day activities. 
 
-On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
+On [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
 
 - **Forecast**: Gives you an overview of all sales against the intended quota for the full period. To learn more, see [Forecast](#forecast)
 - **Actuals**: Give you a deeper understanding of closed revenue. To learn more, see [Actuals](#actuals)
@@ -177,7 +177,7 @@ The following is an example of how the **Leads** tab displays:
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
 
 ### See also
 

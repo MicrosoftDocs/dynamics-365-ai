@@ -89,7 +89,7 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 

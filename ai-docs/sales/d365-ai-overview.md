@@ -29,7 +29,7 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
-When you sign in to the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] application, you'll see the home page, which provides high-level information on the forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news. This tells you:
+When you sign in to the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application, you'll see the home page, which provides high-level information on the forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news. This tells you:
 
 - The number of days left in the period to achieve your target quota.
 - How much you have sold.
@@ -299,4 +299,4 @@ The **Relevant news** section keeps you informed on the latest news about your p
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).

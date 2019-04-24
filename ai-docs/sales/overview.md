@@ -23,19 +23,19 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-Welcome to [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)].
+Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)].
 
-[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized as follows:
+[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized as follows:
 
-- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers
-- [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers
+- [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers
+- [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers
 
 ## Dynamics 365 Sales Insights capabilities for sellers
 
-The features in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers are specifically designed to help sales reps and individuals make intelligent decisions on their leads and opportunities to close the sales targets. 
+The features in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers are specifically designed to help sales reps and individuals make intelligent decisions on their leads and opportunities to close the sales targets. 
 
 > [!NOTE]
-> You must purchase a **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use Sales Insights features.
+> You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use Sales Insights features.
 
 Sales Insights offers the following features:
 
@@ -50,10 +50,10 @@ Sales Insights offers the following features:
 
 ## Dynamics 365 Sales Insights capabilities for sales managers
 
-The features in the [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers are specifically designed to help sales managers intelligently manage their teams, proactively coach sellers, and quickly answer their most important business questions.
+The features in the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers are specifically designed to help sales managers intelligently manage their teams, proactively coach sellers, and quickly answer their most important business questions.
 
 > [!NOTE]
-> You must purchase a **[!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)]** license to use Dynamics 365 Sales Insights features.
+> You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use Dynamics 365 Sales Insights features.
 
 The following features are available under Dynamics 365 Sales Insights app:  
 

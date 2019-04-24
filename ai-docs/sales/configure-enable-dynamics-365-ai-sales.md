@@ -20,20 +20,15 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-
-<!--from editor: Be sure to update the date in the metadata.-->
-
-
-
 # Enable and configure Dynamics 365 Sales Inisghts capabilities for sellers
 
 <!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
 > [!IMPORTANT]
 > - Dynamics 365 Sales Insights capabilities for sellers requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in future releases.
-> - The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] seller features are available only in North American (NAM) regions.
+> - The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] seller features are available only in North American (NAM) regions.
 
-Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features helps the user to effectively use the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] contains the following features:
+Enabling and configuring the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] features helps the user to effectively use the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] contains the following features:
 
 - Relationship analytics
 - Predictive lead scoring
@@ -45,20 +40,20 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dyna
 
 ## GDPR
 
-To learn about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md).
+To learn about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md).
 
 ## Prerequisites
 
-Review the following requirements before you enable and configure the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] feature:
+Review the following requirements before you enable and configure the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] feature:
 
-- You must purchase a **Dynamics 365 Sales Insights** license to use [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
+- You must purchase a **Dynamics 365 Sales Insights** license to use [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] features.
 - You must be a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] administrator.
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 - If you want to use LinkedIn data for Relationship analytics, verify that the LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write back from LinkedIn Sales navigator is enabled.
 
 ## Enable Dynamics 365 Sales Insights features
 
-[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features are not available by default. You must enable these features by selecting an organization. Follow these steps:
+[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] features are not available by default. You must enable these features by selecting an organization. Follow these steps:
 
 1. Go to **Settings** > **Sales AI**.<br>
 1. On the **AI setup** page, select **Get it now**.<br>
@@ -69,7 +64,7 @@ Review the following requirements before you enable and configure the [!INCLUDE[
     > [!div class="mx-imgBorder"]
     > ![Accept Sales Insights add-on terms and conditions](media/sales-insights-addon-terms-conditions.png "Accept Sales Insights add-on terms and conditions")
    
-    Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features.
+    Status of installation is displayed. When complete, you're ready to configure [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] features.
     
     > [!div class="mx-imgBorder"]
     > ![Dynamics 365 Sales Insights is enabled](media/sales-insights-addon-enabled.png "Dynamics 365 Sales Insights is enabled")
@@ -208,7 +203,7 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
 To help users with intelligent auto-suggestions when they enter notes regarding a recent meeting or discussion with a customer in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], enable Notes analysis.
 
 1. Go to **Settings** > **Sales AI**.<br>
-2. After you enable the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] features, select the toggle button to enable **Notes analysis**.
+2. After you enable the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] features, select the toggle button to enable **Notes analysis**.
 
     > [!div class="mx-imgBorder"]
     > ![Enable notes analysis](media/notesanalysis-enable.png "Enable notes analysis")

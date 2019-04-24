@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you can track customer related activities and address the questions such as:
+Using [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], you can track customer related activities and address the questions such as:
 - What opportunities should have priority?
 - When was the customer last contacted?
 - Who on the team has been interacting with the customer?

@@ -31,7 +31,7 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 
 As a sales manager, you must help every sales rep to win deals and generate revenue more effectively. Using the **Teams** section, you can get information on how your team is performing when it comes to attaining their objectives. You can analyze the data and coach everyone to win deals and generate revenue. 
 
-On the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, select **Teams**. The **Teams** section displays as follows and contains the following two tabs:
+On the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app, select **Teams**. The **Teams** section displays as follows and contains the following two tabs:
 
 - Using the **Leaderboard** tab, you can see individual performances side by side, making it easy to compare which sales rep is doing well and which sales rep needs training.
 - Using the **Scorecards** tab, you can see reports that allow you to get a 360-degree view of each sales rep.
@@ -166,7 +166,7 @@ The **Leads** section helps you to understand open leads by source and leads clo
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
 
 ### See also
 

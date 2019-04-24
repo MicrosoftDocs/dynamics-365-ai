@@ -54,7 +54,7 @@ When you have multiple suggestions associated with a note, [!INCLUDE[pn-dyn-365-
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 
