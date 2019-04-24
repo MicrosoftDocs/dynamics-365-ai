@@ -22,9 +22,13 @@
 
 # Reference
 
-## Dashboard reference
+## [Licensing and case capacity considerations](licensing-case-capacity.md)
 
-### [Overview of dashboards](dashboard-overview.md)
+## [Service limits in Customer Service Insights](service-limits.md)
+
+## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
+
+## [Dashboard reference](dashboard-overview.md)
 
 ### [KPI summary](dashboard-kpi-summary.md)
 
@@ -35,12 +39,6 @@
 ### [Resolutions](dashboard-case-resolutions.md)
 
 ### [Topic details](dashboard-topic-details.md)
-
-## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
-
-## [Licensing and case capacity considerations](licensing-overview.md)
-
-## [Service limits in Customer Service Insights](service-limits.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 
