@@ -40,7 +40,7 @@
 
 ## [Licensing and capacity overview](licensing-overview.md)
 
-## [Service Limits](service-limits.md)
+## [Service limits in Customer Service Insights](service-limits.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 
