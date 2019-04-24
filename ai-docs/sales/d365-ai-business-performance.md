@@ -38,6 +38,7 @@ On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, se
 - **Pipeline**: Give you visibility into the upcoming deals to identify risks.
 - **Lead**: Helps you predict whether there are enough leads to replenish the pipeline.
 - **Activities**: Give you visibility into the activities that have contributed most to success.
+- **Predictive forecast**: Helps you to predict sales forecast for the current period by providing visibility into your business.
 
 > [!div class="mx-imgBorder"]
 > ![Open business section](media/d365-ai-business-tabs.png "Open business section")
