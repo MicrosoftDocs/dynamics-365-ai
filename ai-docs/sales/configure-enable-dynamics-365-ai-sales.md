@@ -148,12 +148,9 @@ Predictive lead scoring helps users to focus on revenue generation efforts by pr
   
     The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under the **Lead Score** column.<br>
 1. (Optional) If you are not satisfied with the **Prediction Accuracy** score, select **Retrain Model** and apply.<br>
+   
    > [!NOTE]
-   
-   <!--from editor: In the following sentence, is "our" organization correct, or should it be "your"?-->
-   
-   
-   > We recommend that you train the model once the data is refreshed in our organization for better prediction accuracy scoring.
+   > We recommend that you train the model once the data is refreshed in your organization for better prediction accuracy scoring.
    
 1. If you want to configure the lead score range, enter a minimum value of the range in the **Lead Scoring Range**.<br>
 

@@ -2,9 +2,9 @@
 title: "Admin | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -19,18 +19,14 @@ manager: "kvivek"
 ---
 # Admin
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+The Customer Insights administration pages include the **Permissions** and **Settings** pages. You can access both from the app's left-side menu.
 
-The Customer Insights administration pages include the **Permissions** and **Settings** pages. Both pages are accessible via the left-side menu.
+**If you are an administrator:**
 
-How can you best utilize the Admin pages? That depends on your role.
+- You can use the **Permissions** page to give other users across the organization access to Customer Insights. There are two types of access: **Reader** and **Writer**. You can learn how they differ by visiting the [**Permissions** section](pm-permissions.md). 
+- You can use the **Settings** page to give easily identifiable names to your instances. You can also specify a name for your organization and define a region for it. 
 
-**If you are an administrator**
+**If you are not an administrator:**
 
-- You can use the **Permissions** page to give access to Customer Insights to other users across the organization. There are two types of access: **Reader** and **Writer**. You can learn how they differ by visiting the **Permissions** section. 
-- You can also use the **Settings** page to give easily-identifiable names to your instances. Within this page you can also specify a name for your organization and define for it a region. 
+- You can use the **Permissions** page to learn what is accessible to you as a user. As explained in the [**Permissions** section](pm-permissions.md), what you have access to depends on whether you have **Writer** or **Reader** permissions.
 
-**If you are not an administrator**
-
-- You can use the **Permissions** page to learn what is accessible to you as a user in Customer Insights. As explained in the **Permissions** section, it depends whether you have the permission of a **Writer** or of a **Reader**.
-- You should not use the **Settings** page.

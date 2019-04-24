@@ -1,10 +1,10 @@
 ---
-title: "Enrich Profiles MicrosoftDocs"
+title: "Enrichment MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -17,113 +17,110 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Enrich Profiles
+# Enrichment
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Customer Insights enables you to consolidate data around your customers from all of your sources through the *Map*, *Match* and *Merge* phases. At the same time, Customer Insights goes beyond that and puts at your fingertips additional knowledge about your customers that comes from proprietary data. This section covers the **Enrich Profiles** page that can be used to unlock data on the affinities profiles similar to your customers have to hundreds of brands and dozens of interest-categories. Some examples for interest-categories are *Home Appliances*, *Shoes* and *Financial Planning* but there are many others too.
+Dynamics 365 Customer Insights enables you to consolidate customer data from all of your sources through the map, match, and merge phases. At the same time, Customer Insights goes beyond that and puts at your fingertips information about your customers that comes from proprietary data. This section covers the **Enrichment** page, which can be used to unlock data on affinities for hundreds of brands and dozens of interest-categories. These affinities are extracted for profiles that might be similar to your customers'. Some examples of interest-categories are *Home Appliances*, *Shoes* and *Financial Planning*.
 
-The **Enrich Profiles** page can be accessed through the app left-side menu as well as from the **Configure Data** page.
+The **Enrichment** page can be accessed through the app's left-side menu:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-enrich-profiles.png "Text")
+>[!NOTE]
+>Completing both the data ingestion and data unification processes is a prerequisite to enrichment. If you don't complete one or more of those steps, you can expect to get the following notification.
 
-**Note**: Completing both the *Data Ingestion* and *Data Configuration* processes is a prerequisite to enrichment. If you don't complete one or more of those steps, you can expect to get the following notification.
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
-
-## Explore the Enrich Profiles page
+## Explore the Enrichment page
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-page.png "Enrich profiles page")
 
-As shown above, this page includes two major sections.
+As shown in the preceding example, the **Enrichment** page includes two major sections:
 
-- The **Demographics** section, where you should make selections for at least two fields among **Date of Birth**, **Gender**, and **Zip Code**. The intent behind these selections is to focus on the specific cohort of customers for which you wish to gain knowledge around preferred brands and interests. 
-- The **Brands and Categories** section, where you can take one of two approaches: **Choose on my own** or **Industry's top Brands and Categories**. We will explore both options below.
+- The **Demographics** section, where you should make selections for at least two of the three fields, **Date of Birth**, **Gender**, and **Zip Code**. The intent behind these selections is to focus on a specific cohort of profiles' types for which you wish to gain knowledge around preferred brands and interests. 
+- The **Brands and categories** section, where you can take one of two approaches: **Choose on my own** or **Industry's top brands and categories**. We will explore both options.
 
-### Make selections on the *Demographics* section
+### Make selections in the Demographics section
 
 As mentioned earlier, you are required to make at least two selections. 
 
-Only some formats are supported for each of the fields.
+Only some formats are supported for each of the fields:
 
 - Supported formats for **Date of Birth**: M/d/yyyy, MMMM d, yyyy-mm-dd, MMMM yyyy
 - Supported formats for **Gender**: Male, Female, Unknown
-- Supported formats for **Zip Code**: Should be a 5-digit US zip code (only US supported at this point)
+- Supported formats for **Zip Code**: Should be a 5-digit US ZIP code (only US-supported at this point)
 
-### Make selections on the *Brands and Categories* section
+### Make selections in the Brands and categories section
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-brands.png "Enrich profiles choose brand")
 
-First, choose one of the following options (also highlighted in the image above). Then complete your selections for that option.
+First, choose one of the following options (also highlighted in the preceding image). Then, complete your selections for that option.
 
-1. **Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get affinities of profiles similar to your customers for those selections. For example, *Coca-Cola* and *Starbucks* were chosen in the example below.
+- **Choose on my own**: This option allows you to choose brands and interest-categories that are of most interest to you and get affinities for those selections. For example, *Coca-Cola* and *Starbucks* were chosen in the following example.
   
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-enrich-profile-brands-example.png "Enrich profiles choose brand example")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/configure-data-enrich-profile-brands-example.png "Enrich profiles choose brand example")
 
-To add a brand or interest, type the keywords field (highlighted in blue above) and then type the keyword. If that keyword matches a brand or interest name in the Microsoft database, it will be saved. You can save up to five selections. If there is no match, you will get the following notice which you can use to send a suggestion to the Customer Insights team.
+    To add a brand or interest, in the keywords field (shown in the preceding image), type a keyword. If that keyword matches a brand or interest name in the Microsoft database, it will be saved. You can save up to five selections. If there is no match, you will get the following notice, which you can use to send a suggestion to the Customer Insights team.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
+    > [!div class="mx-imgBorder"] 
+    > ![](media/configure-data-enrich-profile-suggest-brand.png "Enrich profiles suggest brand")
 
-2. **Industry's top brands and categories**: For a selected industry, Get the brands and interests which your total customer base, taken together, has the highest affinity with. Note that by *Customers* we refer here only those customers whose profiles match the *Demographic profile attributes*.
+- **Industry's top brands and categories**: For a selected industry, get the brands and interests that your total customer base, taken together, has the highest affinity for. Note that in "customer base" we refer here only to those customers whose profiles are similar to the ones defined in the **Demographic profile attributes** part.
   
-### Run the Enrichment process
+### Run the enrichment process
 
-That can be done via **Run** at the top of the screen (shown in red).
+Select **Run** at the top of the screen.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-choose-own.png "Enrich profiles choose own brand")
 
-You'll see the following page as long as the Enrichment algorithm is still running.
+You'll see the following page as long as the enrichment algorithm is still running.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-enriching.png "Enrich profiles enriching")
 
-You can also use the **Discard** button to reselect your definitions and keywords (shown in blue above).
+To reselect your definitions and keywords, use the **Discard** button.
 
-### Validate the Enrichment process output
+### Validate the enrichment process output
 
-If the Enrichment process succeeded, you'll see the following screen.
+If the enrichment process succeeds, you'll see the following screen.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-succeeded.png "Enrich profiles succeeded")
 
-Utilize the **Enriched Profiles** figure (shown in red above) to assess your enrichment definitions and keywords, and to consider if any of them should be reconfigured.
+Use the **Enriched profiles** result to assess your enrichment definitions and keywords, and to consider whether any of them should be reconfigured.
 
-If the Enrichment process failed, you'll find the reason for that failure at top of the screen.
+If the enrichment process fails, you'll find the reason for that failure at top of the screen.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-enrich-profile-failed.png "Enrich profiles failed")
 
-### Gain Richer Insights on your Customer Base
+### Gain richer insights into your customer base
 
-Upon the completion of the Enrichment process, you have unlocked additional information on affinities to brands and interests. To explore those insights.
+Once you have completed the enrichment process, you have unlocked additional information on affinities for brands and interests:
 
-**1. Exploring affinities' histograms on the *Home* page**
+1. Explore affinities histograms on the home page.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/enrichment-affinities-histogram.png "Enrich affinities histograms")
 
-Shown above in red, you can view the top brand affinities and interests for your customer base. Note that the Y-axis in those histograms represent the number of Customers who have a specific brand or category affinity.
+    This can be done within the **Insights** section (#1 in the preceding example). The diagrams shown in #2 present the top brand affinities and interests for your total customer base. Note that the Y-axis in those histograms represent the number of profiles who have a specific brand or category affinity.
 
-**2. Exploring the *MsftAudienceIntelligence: Customer 360* entity on the *Entities* page**
+2. Explore the **MsftAudienceIntelligence: Customer 360** entity on the **Entities** page:
 
-- Go to the ***Entities*** page.
-- Select the ***MsftAudienceIntelligence: Customer 360*** entity.
+   - Go to the **Entities** page.
+   - Select the **MsftAudienceIntelligence: Customer 360** entity.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/configure-data-entities-info.png "Text")
+      > [!div class="mx-imgBorder"] 
+      > ![](media/configure-data-entities-info.png "Text")
 
-- Shown above in blue, this column presents the brands and interests that were evaluated by the enrichment algorithm.
-- Shown in red, this column presents the verticals to which these brands and interests belong.
-- The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers. Note that these affinity numbers represent ranks. A rank of 1 stands for the strongest affinity and from there the affinity decreases as the number increases.  
+   - In the preceding example, one column (see #1) presents the brands and interests that were evaluated by the enrichment algorithm.
+   - Another column (see #2) presents the verticals to which these brands and interests belong.
+   - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers'. Note that these affinity numbers represent ranks. A rank of 1 stands for the strongest affinity, and from there, the affinity decreases as the number increases.  
+   - You can also export this entity using the **Export data** button in the upper-right corner of the screen (#3).
 
-Lastly, you can also export this entity using the **Export** button at the top-right corner of the screen.
-
-## Next Step
-You may wish to extract more insights using the **Segments**, **Customer Card** and **Connectors** modules if you haven't done so. You may also want to define **Measures** and/or **Activities** for richer insight exploration. 
+### Next step
+You might want to extract more insights using the **Segments**, **Customer Card**, and **Connectors** modules if you haven't done so. You might also want to define **Measures** and/or **Activities** for richer insights. 

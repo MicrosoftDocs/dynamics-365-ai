@@ -1,10 +1,10 @@
 ---
-title: "Search, sort, and filter | MicrosoftDocs"
+title: "Search & filter index | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -18,88 +18,94 @@ ms.author: "jimholtz"
 manager: "kvivek"
 ---
 
-## Search, sort, and filter
+## Search & filter index
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-The end result of the data configuration process is the creation of the *Customer Profile* entity that equips you with a unified view into your total customer base. At the same time, there are cases in which you might want to quickly pull information on a specific customer or a group of customers. That can be done via the **Search** and **Filter** capabilities on the **Profiles** page.
+The end result of the data unification process is the creation of the Customer Profile entity that equips you with a unified view into your total customer base. At the same time, you might want to quickly pull information on a specific customer or a group of customers. That can be done with the **Search** and **Filter** capabilities on the **Customers** page.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter.png "Search filter")
 
-To further understand how to utilize those capabilities, visit the **Profiles** section. In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching, filtering, and sorting profiles. This is done on the **Search, sort & filter** page.
+To further understand how to utilize those capabilities, visit the [**Customers** section](pm-profiles.md). In this section, we will cover the complementing capability that enables you to edit the attributes by which you are searching and filtering profiles. This is done on the **Search & filter index** page.
+
+- If, as an administrator, it's the first time you define searchable attributes, you can expect to get to the **Search & Filter Index** screen by going through the following screens:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes3.png "Add attributes")
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-attributes4.png "Add attributes")
+
+- If it's not your first time, you can get to the **Search & Filter Index** screen through the **Search & Filter Index** button on the **Customers** page:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter.png "Search sort filter")
 
 ## Adding attributes
 
-After selecting the **Search, Sort and Filter** tab on the left-side menu, you'll see the following page where you should select **Add attributes** to get started.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/add-attributes.png "Add attributes")
-
-In the **Attributes** panel shown below, choose all the attributes by which users will be able to search, filter, and sort customers on the **Profiles** page. You can use the **Search** field (shown in red) to search for a specific attribute by its name. Note that you can select only attributes that exist in the Customer Profile entity you have created during the data configuration process.
+In the panel shown below, choose all the attributes by which users will be able to search and filter customers on the **Customers** page. You can use the **Search** field to search for a specific attribute by its name. Note that you can select only attributes that exist in the Customer Profile entity that you created during the data unification process.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes2.png "Add attributes")
 
-You will see the **Search, sort & filter** page. In the example shown below, many attributes were already selected.
+At this point you will see the **Search & filter index** page. In the following example, many attributes were already selected.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/search-sort-filter.png "Search sort filter")
+> ![](media/search-sort-filter2.png "Search sort filter")
 
-You can always add more attributes via **Add** (shown in red below). You can also remove any selected attributes using the button shown in blue.
+You can always add more attributes with **Add** (#1 in the following example). You can also remove any selected attributes using the button shown in #2.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-add.png "Add attribute")
 
-## Exploring the Search, sort & filter page
+## Exploring the Search & filter index page
 
 Let's explore the table on this page, going left to right.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-edit.png "Edit attribute")
 
-- **Name**: Presents the attribute's name as appears in the Customer Profile entity.
-- **Data type**: Specifies whether it's a *String*, a *Number*, or a *Date* type of data.
-- **Search**: Specifies whether this attribute can be used for searching customers on the **Profiles** page (using the **Search** field).
-- **Filter**: Specifies whether this attribute can be used for filtering customers on the **Profiles** page (using the **Filter** panel).
-- **Sort** Specifies whether this attribute can be used for sorting customers.
-- **Filter options**: Selecting **Edit** enables you to define how this attribute can be used for searching, filtering, and sorting.
+- **Name**: Presents the attribute's name as it appears in the Customer Profile entity.
+- **Data type**: Specifies whether the data type is a string, number, or date.
+- **Included in Search**: Specifies whether this attribute can be used for searching customers on the **Customers** page (using the **Search** field)
+- **Add Filter**: Selecting this button enables you to define how this attribute can be used for filtering on the **Customers** page
 
-## Editing search, sort, and fiter options for a given attribute
+## Editing filtering options for a given attribute
 
-After selecting **Edit** for a given attribute, one of three possible panels will show up, depending on the attribute's data type.
+The **Filter** menu on the **Customers** page can include a varying number of attribute levels (for example, anywhere between two and 10 age groups to filter customers by). 
 
-The **Filter** menu on the **Profiles** page can include a varying number of attribute levels (for example, anywhere between 2 and 10 age groups to filter customers by). Using the **Edit panel**, you can specify:
+After selecting **Add Filter** for a given attribute on the **Search & filter index** page, one of three possible panels will show up, depending on the attribute's data type. Using this panel you will be able to determine:
 
-1. How many results will appear on the filter panel
-2. In what order they will be organized
+- The number of results that will appear on the **Filter** menu on the **Customers** page. 
+- The order in which they will be organized.
 
-The following image shows the **Edit panel** that will open for strong-type attributes.
+The following image shows the panel that will open for string-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/string-filter-options.png "String filter options")
 
-In this panel, you can specify the number of desired results on the **Filter** panel as well as the order policy by which they will be organized. 
+In this panel, you can specify the number of desired results on the **Filter** panel, as well as the order policy by which they will be organized. 
 
-The following image shows the **Edit panel** that will open for number-type attributes.
+The following image shows the panel that opens for numerical-type attributes:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/number-filter-options.png "Number filter options")
 
-In this panel you can specify the intervals included on the **Filter** panel as well as the order policy by which they will be organized.
+In this panel, you can specify the intervals included on the **Filter** panel, as well as the order policy by which they will be organized.
 
-Lastly, the following image shows the **Editing** panel that will open for date-type attributes.
+Lastly, the following image shows the panel that opens for date-type attributes.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/date-filter-options.png "Date filter options")
 
-In this panel, you can specify the intervals included on the filter panel as well as the order policy by which they will be organized.
+In this panel, you can specify the intervals included on the filter panel, as well as the order policy by which they will be organized.
 
-Save your selections using **Save** (shown in red below). Select **Run** (shown in blue) once you are ready to apply your settings. Once processing has completed, your definitions will now dictate how other users can search and filter for customers using the **Profiles** page.
+Save your selections using **Save**. Select **Run** once you are ready to apply your settings. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-sort-filter-save-run.png "Save and Run")
+
+Once processing has completed, your definitions now dictate how other users can search and filter for customers using the **Customers** page. To go back to the **Customers** page, select the following button:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/search-filter-index-back-customers.png "Back to customers")
 

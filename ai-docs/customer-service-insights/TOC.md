@@ -4,15 +4,21 @@
 
 # How-tos
 
-## [Use workspaces to connect to different customer service environments](use-workspaces.md)
+## [Use and manage workspaces to connect to different customer service environments](use-workspaces.md)
 
 ## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
 
+## [Trigger a refresh of your Customer Service Insights data](trigger-refresh.md)
+
 ## [Identify areas for improvement](improve-system.md)
+
+## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
+
+## [Map your data to custom entities and fields](map-data.md)
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-## [Map your data to custom entities and fields](map-data.md)
+## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
 # Reference
 

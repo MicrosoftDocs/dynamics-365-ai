@@ -2,9 +2,9 @@
 title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights"
 description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights."
 keywords: ""
-ms\.date: 1/23/2019
+ms\.date: 04/17/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
@@ -34,13 +34,37 @@ A tenant administrator can follow these steps to delete data:
     An administrator from the Dynamics 365 Customer Service Insights team will send an email to the address registered in the Azure AD user account, asking for confirmation to delete data.
 2. Acknowledge the confirmation to delete the data and receive a confirmation that the data has been deleted.
 
+### Delete customer data – Telemetry (Tenant admin)
+
+A tenant administrator can follow these steps to delete data:
+
+1. Sign in to the [Azure management portal](https://ms.portal.azure.com).
+
+2. Navigate to [https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
+
+    > [!div class="mx-imgBorder"]
+    > ![Privacy blade](media/gdpr-export-1.png)
+
+3. Select **Go to Azure AD to delete user**.
+
+4. Select the user that you want to delete. 
+
+    > [!div class="mx-imgBorder"]
+    > ![User list](media/gdpr-delete1.png)
+
+5. Select **Delete**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Delete control](media/gdpr-delete2.png)
+
 ### Delete customer data (Self)
 
 You can follow these steps to delete data from Customer Service Insights:
 
 1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
-2. On the Settings menu, select **My workspaces**.
 
-    ![Delete data](media/ai-csi-gdpr-delete.png)
+2. Select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane.
 
-3. Delete the target workspace. All data will be immediately deleted.
+3. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
+
+   ![Delete workspace](media/delete-workspace.png)

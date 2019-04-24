@@ -2,9 +2,9 @@
 title: "Map your data to custom entities and fields"
 description: "Learn how to generate insights by mapping your data to custom data entities and fields​."
 keywords: ""
-ms\.date: 2/8/2019
+ms\.date: 4/3/2019
 ms.service:
-  - "dynamics-365-ai"
+  - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: stevesaunders1952
@@ -16,9 +16,9 @@ manager: shellyha
 
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
-Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Incident (case) entity and several other related entities in Common Data Service (CDS) for Apps.
+Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Case entity and several other related entities in Common Data Service (CDS) for Apps.
 
-However, you may want to generate insights by mapping to data from custom entities and fields in Common Data Service for Apps. Mapping to data from custom entities and fields is useful in the following cases:
+However, you may want to generate insights by mapping to data from custom entities and fields in Common Data Service. Mapping to data from custom entities and fields is useful in the following cases:
 
 * You are not a Dynamics 365 for Customer Service customer.
 * You are a Dynamics 365 for Customer Service customer, but your service solution is customized and you use custom entities and fields to store support case data.
@@ -26,8 +26,8 @@ However, you may want to generate insights by mapping to data from custom entiti
 
 When you create a Customer Service Insights workspace and connect to a Dynamics 365 environment, Customer Service Insights prompts you to map your data:
 
-* If the environment doesn't have an Incident entity.
-* If the environment has an Incident entity but it doesn’t contain enough required data.
+* If the environment doesn't have a Case entity.
+* If the environment has a Case entity but it doesn’t contain enough required data.
 
 After a workspace is created, you can map to data from custom entities and fields by specifying Data mapping settings.
 
@@ -39,7 +39,7 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 1. Follow the steps in [Use workspaces to connect to different customer service environments](use-workspaces.md) to connect to a Dynamics 365 environment.
 
-2. If the environment doesn't have an Incident entity, or if the environment has an Incident entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Select **Get started** to begin mapping your data.
+2. If the environment doesn't have a Case entity, or if the environment has a Case entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Select **Get started** to begin mapping your data.
 
    > ![Map your data](media/map-your-data.png)
 
@@ -53,23 +53,21 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 ## To map data by specifying data mapping settings
 
-1. Select the **Settings** button on the Customer Service Insights title bar, and then select **Settings**.
+1. Select the **Settings** button on the Customer Service Insights title bar and then select **Data mapping**.
 
-   > ![Settings button](media/ai-csi-settings-button.png)
+   > ![Select mapping](media/select-mapping.png)
 
-   Customer Service Insights displays the **Settings** page.
-
-2. Select **Data mapping** to display the Data mapping pane. Customer Service Insights displays the available destination entities.
+   Customer Service Insights displays the Data mapping page, which shows the available destination entities.
 
    > ![Data mapping pane](media/data-mapping-pane.png)
 
-3. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
+2. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
 
    > ![Edit entity](media/edit-entity.png)
 
     Customer Service Insights displays the **Map your incident records** page, where you can update the data mapping for the entity.
 
-4. You can view the status of the mapping in the **Mapped Fields** column.
+3. You can view the status of the mapping in the **Mapped Fields** column.
 
    > ![View mapping](media/view-mapping.png)
 
@@ -77,9 +75,9 @@ Here are some things to keep in mind when you map your data to custom entities a
 
 * The drop-down list in the form only shows source fields in types that are compatible with the destination fields.
 
-* Data mapping is not currently supported for lookup fields. These include the Owning User, Owning Business Unit, Owning Team, and Product fields in the Incident entity.
+* Data mapping is not currently supported for lookup fields. These include the OwningUser, OwningBusinessUnit, OwningTeam, and Product fields in the Case entity.
 
-* Several data fields in the Incident entity are pick lists, including Priority, Support Channel, SLA Status, and Satisfaction. Pick list is an attribute type in Common Data Service for Apps that allows the selection of multiple options. Each option consists of a numeric value and a string label.
+* Several data fields in the Case entity are pick lists, including Priority, SupportChannel, SLAStatus, and Satisfaction. Pick list is an attribute type in Common Data Service for Apps that allows the selection of multiple options. Each option consists of a numeric value and a string label.
 
   For example, SLA Status indicates whether a case is compliant with the service level agreement (SLA). You can define multiple different values for compliant cases. Customer Service Insights only uses the value 4 to identify noncompliant cases. The pick list values defined for Satisfaction indicate the customer satisfaction score (CSAT). Customer Service Insights reads value from 1 to 5 to calculate the average CSAT.
 

@@ -2,9 +2,9 @@
 title: "APIs | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.reviewer: ""
-ms.service: "dynamics-365-ai"
+ms.service: dynamics-365-ai
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -20,19 +20,12 @@ manager: "kvivek"
 
 # APIs
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-When it comes to Customer Insights, currently there are several types of APIs that you can start utilizing. The details (parameters, responses, etc) of these APIs can be found in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
-
-<!-- 
-> [!div class="mx-imgBorder"] 
-> ![](media/api-swagger-install.png "Customer Insights Swagger webpage")
--->
+There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
-- Provide guidance for how to use the Swagger tool
-- Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs
+- Provide guidance on how to use the Swagger tool.
+- Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs.
 
 ## How to use the Customer Insights Swagger webpage
 
@@ -43,29 +36,28 @@ If you are not familiar with Swagger, see the following step-by-step tutorial: [
 > [!div class="mx-imgBorder"] 
 > ![](media/api-entity-data.png "Open Data Protocol APIs")
 
-- *Put* API: /api/instances/{instanceId}/data/{relativePath}
+- Put API: /api/instances/{instanceId}/data/{relativePath}
 
 |Functionality  |Guidance  |Limitations  |
 |---------|---------|---------|
-|1. **Export** any ingested dataset including the Master Customer Dataset that was created during the data configuration process (JSON/csv formats)     | Use **$Search** command with conte-type: text/csv header. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).        |1. Can be done only if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with functionalities 2-5         |
-|2. **Search and query** the Master Customer Dataset that was created during the data configuration process      | Use the **$Search** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).        | Currently not available.        |
-|3. **Filter** the Master Customer Dataset     | Use the **$Filter** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).       | Currently not available.        |
-|4. **Search and query** other ingested datasets     | Use the **$Search** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).         | 1. Can be done on if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with 1      |
-|5. **Filter** other ingested datasets     |Use the **$Filter** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).           | 1. Can be done on if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with 1          |
+|1. **Export** any ingested dataset including the Master Customer Dataset that was created during the data configuration process (JSON/csv formats).     | Use **$Search** command with conte-type: text/csv header. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).        |1. Can be done only if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with functionalities 2-5.         |
+|2. **Search and query** the Master Customer Dataset that was created during the data configuration process.      | Use the **$Search** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).        | Currently not available.        |
+|3. **Filter** the Master Customer Dataset.     | Use the **$Filter** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).       | Currently not available.        |
+|4. **Search and query** other ingested datasets.     | Use the **$Search** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).         | 1. Can be done only if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with 1.      |
+|5. **Filter** other ingested datasets.     |Use the **$Filter** command. For more information, see [Basic Tutorial](https://www.odata.org/getting-started/basic-tutorial/).           | 1. Can be done only if **Customer ID** is present in the queried dataset<br/>2. Can't be executed along with 1.          |
 
-## Limitations involved with using the Customer Insights conflation APIs
+## Limitations involved with using the Customer Insights Conflation APIs
 
-See the **Conflation** table in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **Conflation** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
 ### Limitations by field (across all Conflation APIs)
 
 |Field  |Limitation  |
 |---------|---------|
-|{instanceId}     | Id must be the Id of an existing instance, and the user issuing the request must have access to that instance         |
-|{entityName}     | It should be an entity name that has data ingested for the given instance (and a data source, if that is given as well)        |
-|{datasourceId}     | Id must be the Id of a data source that exists inside of the given instance        |
-|{conflationId}     | Id must be the Id of an existing conflation for the given instance        |
-
+|{instanceId}     | ID must be the ID of an existing instance, and the user issuing the request must have access to that instance.         |
+|{entityName}     | It should be an entity name that has data ingested for the given instance (and a data source, if that is given as well).        |
+|{datasourceId}     | ID must be the ID of a data source that exists inside of the given instance.        |
+|{conflationId}     | ID must be the ID of an existing conflation for the given instance.        |
 
 ### Additional limitations by API
 
@@ -98,9 +90,9 @@ See the **Conflation** table in the [Customer Insights Swagger webpage](https://
 
 ## Limitations involved with using the Customer Insights Relationship APIs 
 
-See the **EntityMetadata** table in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **EntityMetadata** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
 
-### Limitations Common to all APIs
+### Limitations common to all APIs
 
 **First**, these APIs require that data has already been ingested, except for the following APIs:
 
@@ -139,20 +131,8 @@ See the **EntityMetadata** table in the [Customer Insights Swagger webpage](http
 
 ## Functionalities served with the Customer Insights Segmentation APIs
 
-1. Use APIs for managing segments: Create, update, get and delete segment definitions. Also activate and deactivate segments. 
-2. Use APIs for querying: Get specific parts of a segment
-3. Use APIs for searching and querying specific segment member data
+1. Use APIs for managing segments: Create, update, get, and delete segment definitions. Also activate and deactivate segments. 
+2. Use APIs for querying: Get specific parts of a segment.
+3. Use APIs for searching and querying specific segment member data.
 
-See the **SegmentManagement** table in the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
-
-<!-- 
-## Functionalities and limitations by API
-To complete:
-|Table5  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row3     |         |
-|Row4     |         |
-|Row5     |         |
--->
+See the **SegmentManagement** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
