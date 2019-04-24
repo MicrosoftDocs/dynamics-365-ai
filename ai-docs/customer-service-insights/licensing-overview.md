@@ -14,7 +14,7 @@ manager: shellyha
 
 # Licensing and capacity overview
 
-Organizations can obtain separate licenses for Dynamics 365 Customer Service Insights or have them included in another Microsoft cloud service offering. For example, Dynamics 365 for Customer Service provides entitlements for Customer Service Insights. As with most Microsoft licensing, you can mix and match so it works for your users.
+Your organization can obtain separate licenses for Dynamics 365 Customer Service Insights, or licensing may be included with another Microsoft service offering. For example, Dynamics 365 for Customer Service includes entitlements for Customer Service Insights. As with most Microsoft licensing, you can mix and match so it works for your users.
 
 All licenses for Customer Service Insights are user-based. In the rest of this article we will highlight some of the key points of licensing. However, you should consult the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) for the latest details. 
 
