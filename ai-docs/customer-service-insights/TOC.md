@@ -28,7 +28,9 @@
 
 ## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
 
-## [Dashboard reference](dashboard-overview.md)
+## Dashboard reference 
+
+### [Overview](dashboard-overview.md)
 
 ### [KPI summary](dashboard-kpi-summary.md)
 
