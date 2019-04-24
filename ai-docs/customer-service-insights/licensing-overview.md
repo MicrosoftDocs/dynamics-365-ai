@@ -29,11 +29,11 @@ If you require additional case capacity, you can include optional capacity add-o
 
 The required case capacity for an organization can be determined based on multiple factors: 
 
-- Average cases created in last 60 days in an organization's Dynamics 365 environment (**A**)*  
+- Average cases created in last 60 days in an organization's Dynamics 365 environment* (**A**)  
 - Number of cases an owner has read access to, which may be a subset of the average number of cases created in the last 60 days (**B**)  
 - Number of Customer Service Insights workspaces connected to a CDS environment, excluding the sample workspace. (**C**)  
 
-| Average cases created in the last 60 days in the Dynamics 365 environment (A)*	| Number of cases owner has read access to out of the average (B)	| Number of Customer Service Insights workspaces (C)	| Minimum required case capacity (multiply B and C)|
+| Average cases created in the last 60 days in the Dynamics 365 environment* (A)	| Number of cases owner has read access to out of the average (B)	| Number of Customer Service Insights workspaces (C)	| Minimum required case capacity (multiply B and C)|
 |--|--|--|--|
 |200k	|100k	|1	|100,000|
 |200k	|200k	|1	|200,000|
