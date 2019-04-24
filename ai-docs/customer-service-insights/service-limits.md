@@ -14,7 +14,7 @@ manager: shellyha
 
 # Service limits in Dynamics 365 Customer Service Insights
 
-Customer Service Insights comes with built-in limits to ensure the reliability and stability of the service. This document describes those limits, any requests for changes can be done through the [Ideas forum](https://go.microsoft.com/fwlink/?linkid=2024757). 
+This article describes the built-in limits to the Customer Service Insights service, which are designed to ensure reliability and stability . This document describes those limits, any requests for changes can be done through the [Ideas forum](https://go.microsoft.com/fwlink/?linkid=2024757). 
  
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
