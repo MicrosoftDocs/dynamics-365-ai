@@ -38,7 +38,7 @@
 
 ## [Dynamics 365 for Customer Service entities used by Customer Service Insights](customer-service-entities.md)
 
-## [Licensing Overview](licensing-overview.md)
+## [Licensing and capacity overview](licensing-overview.md)
 
 ## [Service Limits](service-limits.md)
 

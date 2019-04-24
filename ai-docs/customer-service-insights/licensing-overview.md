@@ -1,5 +1,5 @@
 ---
-title: "Licensing Overview"
+title: "Licensing and capacity overview"
 description: "Details on the licensing structure for Customer Service Insights."
 keywords: ""
 ms\.date: 4/24/2019
@@ -12,25 +12,19 @@ ms.author: tpalmer
 manager: shellyha
 ---
 
-# Licensing Overview
+# Licensing and capacity overview
 
-[!INCLUDE [public-preview](../includes/public-preview.md)]
+Organizations can obtain separate licenses for Dynamics 365 Customer Service Insights or have them included in another Microsoft cloud service offering. For example, Dynamics 365 for Customer Service provides entitlements for Customer Service Insights. As with most Microsoft licensing, you can mix and match so it works for your users.
 
-Organizations can obtain licenses by either licensing for Dynamics 365 Customer Service Insights or by it being included in the license of another Microsoft cloud service offering. For example, Dynamics 365 for Customer Service provide entitlements for Dynamics 365 Customer Service Insights. As with most Microsoft licensing, you can mix and match for users as appropriate giving some additional entitlements.
+All licenses for Customer Service Insights are user-based. In the rest of this article we will highlight some of the key points of licensing. However, you should consult the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) for the latest details. 
 
-Regardless of how they are obtained all licenses are user based. In the rest of this section we will highlight some of the key points of licensing, but you should consult the Dynamics licensing guide for any of the latest details. 
-
-A Dynamics 365 Customer Service Insights license comes with a limit on the number of cases that can be imported. Today that limit is 100k cases/user/month. 
+A Customer Service Insights license comes with a limit on the number of cases that can be imported. Today, that limit is 100k cases/user/month. 
 
 ## Case Capacity
 
-The required case capacity is determined by the total number of case records imported into Customer Service Insights workspaces. The number of cases imported into a workspace is the number of cases created in a 60 day window to which the workspace owner has read access. Note that if multiple workspaces are connected to the same Dynamics environment, the same records may be imported multiple times and each import will count towards the total tenant capacity. See below for some examples. 
+The required case capacity is determined by the total number of case records imported into Customer Service Insights workspaces. The number of cases imported into a workspace is the number of cases created in a 60 day window to which the workspace owner has read access. Note that if multiple workspaces are connected to the same Dynamics 365 environment, the same records may be imported multiple times and each import will count towards the total capacity.
 
-If you require additional cases capacity, you can include the optional add-on licenses with your subscription. Subscription add-ons apply across a single tenant; they are not tied to a specific user. 
-
-Default Capacity: 100K cases/user/month 
-
-Capacity Add-on: 500K cases/tenant/month 
+If you require additional case capacity, you can include the optional capacity add-on licenses with your subscription. Subscription add-ons apply across a single tenant; they are not tied to a specific user. 
 
 ## Example license calculations
 
@@ -51,4 +45,5 @@ c) The number of Customer Service Insights workspaces connected to a CDS environ
 
 
 
-*Whether or not a case was created in the last 60 days is determined by the source field the "Created On" field is [mapped to](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data). By default (i.e. no custom mapping) this would be the ["createdOn" field](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn) in the Case entity.
+*Whether or not a case was created in the last 60 days is determined by the [mapping of the "Created On" source field in Customer Service Insights](map-data.md).    
+If no custom mapping is in place, it's the [createdOn field in the Case entity](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn).
