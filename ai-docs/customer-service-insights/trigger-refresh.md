@@ -2,7 +2,7 @@
 title: "Trigger a refresh of your Customer Service Insights data"
 description: "Learn how to trigger a refresh of your Customer Service Insights data."
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 4/25/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -22,6 +22,7 @@ If you want to update the dashboards to use current data, you can trigger a refr
 * Change case title cleansing settings
 * Change topic granularity settings
 * Rename a topic
+* Move cases to another topic
 
 For example, when you rename a topic on the Topics page, Customer Service Insights displays a prompt at the top of the dashboard that gives you an opportunity to refresh your workspace. To refresh the workspace, select **Refresh**.
 
