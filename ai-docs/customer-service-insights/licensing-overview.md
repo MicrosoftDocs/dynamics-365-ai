@@ -2,7 +2,7 @@
 title: "Licensing and capacity overview"
 description: "Details on the licensing structure for Customer Service Insights."
 keywords: ""
-ms\.date: 4/24/2019
+ms.date: 4/24/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
