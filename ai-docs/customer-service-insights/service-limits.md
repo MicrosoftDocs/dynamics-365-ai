@@ -14,14 +14,14 @@ manager: shellyha
 
 # Service limits in Dynamics 365 Customer Service Insights
 
-Customer Service Insights comes with built-in limits to ensure the reliability and stability of the service. This document describes those limits, any requests for changes can be done through the [Ideas forum](https://go.microsoft.com/fwlink/?linkid=2024757). 
+This article describes the built-in limits to the Customer Service Insights service, which are designed to ensure the reliability and stability of the service. Any requests for changes can be made through the [Ideas forum](https://go.microsoft.com/fwlink/?linkid=2024757). 
  
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| Data Import | Cases created in the last 60 days <br> or <br> 1 million cases   | The number of cases imported is affected by licensing. See [Licensing and capacity overview](licensing-overview.md) for more details. <br> The cases created in the same day when a workspace is created will be imported through the daily refresh on the following day. |
-| Automatic Data Refresh | Once every 24 hours | This happens automatically and starts at midnight UTC, but is not guaranteed when to complete. |
-| Manual Data Refresh | On demand up to 10 times per day | Once the limit is hit, wait for the automatic refresh to occur and the limit will be reset. For more information about the manual data refresh, see [Trigger a refresh of your Customer Service Insights data](trigger-refresh.md).  |
-| Data location | Data will be located in the same region as the Dynamics 365 CDS environment it is connected to.     | This happens automatically and cannot be controlled by users at this time. |
-| Dashboard interactions | None | There are no limits on the number of interactions (cross filtering, drill through etc.) on the dashboards |
-| Connecting to a Dynamics 365 CDS environment | One workspace per Dynamics environment per user | A Dynamics environment cannot be connected with multiple workspaces at the same time by the same user. If a workspace was created and then deleted, it can be connected to again. Also a single workspace cannot be connected to more than one Dynamics environment. |
-| Topics generated from cases | Topics will only be generated from cases if there are at least 3 related cases| As topics are automatically created based on similar customer service cases, the system needs a minimum number of cases to create a topic. In order for topics to be meaningful we recommend having at least 1000 cases.|
+| Data import | Cases created in the last 60 days, or 1 million cases   | The number of cases that can be imported is determined by your organization's licensing. See [Licensing and case capacity considerations](licensing-case-capacity.md) for details. <br> <br> Cases created on the same day a workspace is created will be imported through the daily refresh on the following day. |
+| Automatic data refresh | Once every 24 hours | Automatic data refresh occurs automatically, starting at midnight UTC. The time when the refresh completes is not guarnateed. |
+| Manual data refresh | On demand data refresh is allowed up to 10 times per day | After the limit is reached, you need to wait for the automatic refresh to occur for the manual refresh limit to reset. |
+| Data location | Data is located in the same region as the Dynamics 365 environment the data is connected to.     | Geographical location of data occurs automatically and cannot be controlled by users at this time. |
+| Dashboard interactions | None | There are no limits on the number of interactions allowed on dashboards, such as cross filtering or drill-through |
+| Connecting to a Dynamics 365 environment | One workspace per Dynamics 365 environment per user | A Dynamics 365 environment cannot be connected with multiple workspaces at the same time by the same user. If a workspace is created and then deleted, it can be connected  again. <br> <br> In addition, a single workspace cannot be connected to more than one Dynamics 365 environment. |
+| Topics generated from cases | Topics are only be generated from cases when there are at least three related cases| Because topics are automatically created based on similar customer service cases, the system needs a minimum number of cases to create a topic. <br> <br> In order for topics to be meaningful, we recommend having at least 1000 cases.|
