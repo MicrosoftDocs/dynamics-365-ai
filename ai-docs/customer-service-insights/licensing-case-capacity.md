@@ -37,12 +37,12 @@ The required case capacity for an organization can be determined based on multip
 
 | Average cases created in the last 60 days in the Dynamics 365 environment* (A)	| Number of cases owner has read access to out of the average (B)	| Number of Customer Service Insights workspaces (C)	| Minimum required case capacity (multiply B and C)|
 |--|--|--|--|
-|200K	|100K	|1	|100,000|
-|200K	|200K	|1	|200,000|
-|200K	|200K	|2	|400,000|
-|600K	|300K	|1	|300,000|
-|600K	|600K	|1	|600,000|
-|600K	|600K	|2	|1,200,000|
+|200,000	|100,000	|1	|100,000|
+|200,000	|200,000	|1	|200,000|
+|200,000	|200,000	|2	|400,000|
+|600,000	|300,000	|1	|300,000|
+|600,000	|600,000	|1	|600,000|
+|600,000	|600,000	|2	|1,200,000|
 
 
 *Whether a case was created in the last 60 days is determined by the [mapping of the "Created On" source field in Customer Service Insights](map-data.md). If no custom mapping is in place, it is determined by the [createdOn field in the case entity](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn).
