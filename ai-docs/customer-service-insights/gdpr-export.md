@@ -34,11 +34,11 @@ A tenant administrator can follow these steps to export data:
 
 2. Navigate to [https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy](https://portal.azure.com/?feature.usorIntimite=true#blade/Microsoft_Azure_Policy/PolicyMenuBlade/Privacy) to open the Privacy blade.
 
-    > ![Privacy blade](media/gdpr-export-1.png)
+    ![Privacy blade](media/gdpr-export-1.png)
 
 3. Create a request to export user data by providing following details:
 
-    > ![Request details](media/gdpr-export-2.png)
+    ![Request details](media/gdpr-export-2.png)
 
 After the export runs successfully, you will see the data in your storage container.
 
@@ -58,4 +58,4 @@ You can follow these steps to export data from a chart on an Customer Service In
 1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
 2. Click on the ellipses in the upper right corner of the chart, and then click **Export data**.
 
-    > ![Export data](media/gdpr-export-3.png)
+    ![Export data](media/gdpr-export-3.png)
