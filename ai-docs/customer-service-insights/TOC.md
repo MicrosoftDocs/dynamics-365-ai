@@ -51,3 +51,5 @@
 ## [Requests to delete personal data](gdpr-delete.md)
 
 ## [Data Subject Discovery Requests](gdpr-discovery.md)
+
+## [Where your organization's Customer Service Insights data is stored](data-location.md)
