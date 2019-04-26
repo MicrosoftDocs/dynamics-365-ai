@@ -41,7 +41,10 @@ After the feature is enabled, you must open the **Sales Insights** app and go to
 ### Understand forecast data
 The following is an example of how Predictive forecasting displays:
 
-<!-- Include screenshot of the graph-->
+> [!div class="mx-imgBorder"]
+> ![Predictive forecasting overview](media/d365-ai-business-predictive-forecast.png "Predictive forecasting overview")
+
+To learn more about other parameters such as filters, quota, and revenue, see [Forecast](../sales/d365-ai-business-performance.md#forecast)
 
 The graph you see is in line chart format where the x-axis and y-axis represent the timeline and revenue, respectively.
 

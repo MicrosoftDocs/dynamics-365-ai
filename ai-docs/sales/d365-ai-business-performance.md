@@ -186,4 +186,4 @@ For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includ
 
 ### See also
 
-- [Unlock sales potential with Dynamics 365 AI for Sales](dynamics365-ai-sales-app.md)
+[Unlock sales potential with Dynamics 365 AI for Sales](dynamics365-ai-sales-app.md)
