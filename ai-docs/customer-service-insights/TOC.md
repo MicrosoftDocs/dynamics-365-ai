@@ -22,7 +22,7 @@
 
 # Reference
 
-## [Licensing and case capacity considerations](licensing-case-capacity.md)
+## [Licensing and case-capacity considerations](licensing-case-capacity.md)
 
 ## [Service limits in Customer Service Insights](service-limits.md)
 

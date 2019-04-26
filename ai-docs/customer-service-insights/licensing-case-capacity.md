@@ -1,8 +1,8 @@
 ---
-title: "Licensing and case capacity considerations"
-description: "Key points about licensing and case capacity determinations for Dynamics 365 Customer Service Insights."
+title: "Licensing and case-capacity considerations"
+description: "Key points about licensing and case-capacity determinations for Dynamics 365 Customer Service Insights."
 keywords: ""
-ms\.date: 4/25/2019
+ms.date: 4/26/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -12,13 +12,11 @@ ms.author: tpalmer
 manager: shellyha
 ---
 
-# Licensing and case capacity considerations
-
-<!--note from editor: Suggest hyphenating "case capacity" when it's an adjective, but I did not do this due to the number of headings that phrase is in; did not want to break links.   -->
+# Licensing and case-capacity considerations
 
 Your organization can obtain separate licenses for Dynamics 365 Customer Service Insights, or licensing might be included with another Microsoft service offering. For example, Dynamics 365 for Customer Service includes entitlements for Customer Service Insights. All licenses for Customer Service Insights are user based. As with most Microsoft licensing, you can mix and match to meet the needs of your users.
 
-This article highlights some key points that are important to know about licensing and case capacity determinations for Customer Service Insights. However, you should consult the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) for the latest details. 
+This article highlights some key points that are important to know about licensing and case-capacity determinations for Customer Service Insights. However, you should consult the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544) for the latest details. 
 
 ## Case capacity add-on licensing
 A Customer Service Insights license comes with a limit on the number of cases that can be imported. Today, that limit is 100,000 cases per user per month (cases/user/month). 
