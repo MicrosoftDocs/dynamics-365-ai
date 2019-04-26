@@ -36,7 +36,7 @@ To analyze and predict the future revenue outcome, the Predictive forecasting fe
 After the feature is enabled, you must open the **Sales Insights** app and go to the **Business** tab. The **Predictive forecast** tab is available for you to view the forecasting trend.
 
 > [!NOTE]
-> If you are unable to see **Predictive forecast** tab, contact your administrator. To learn more, see [Configure Predictive Forecasting](../sales/configure-enable-dynamics-365-ai-sales.md#public-preview-configure-predictive-forecast). 
+> If you are unable to see **Predictive forecast** tab, contact your administrator. To learn more, see [Configure Predictive Forecasting](../sales/configure-enable-dynamics-365-ai-sales.md#preview-configure-predictive-forecasting). 
 
 ### Understand forecast data
 The following is an example of how Predictive forecasting displays:
