@@ -1,5 +1,5 @@
 ---
-title: title: "Respond to GDPR Data Subject Discovery Requests (DSR) for Dynamics 365 Customer Service Insights"
+title: "Respond to GDPR Data Subject Discovery Requests (DSR) for Dynamics 365 Customer Service Insights"
 description: "Find resources containing personal data to respond to GDPR discovery requests for Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
