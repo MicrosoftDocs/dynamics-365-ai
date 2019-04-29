@@ -1,5 +1,5 @@
 ---
-title: "GDPR compliance for Dynamics 365 Customer Service Insights"
+title: "GDPR compliance in Dynamics 365 Customer Service Insights"
 description: "Summary of capabilities for handling GDPR Data Subject Requests (DSR) for data used in Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# GDPR compliance for Dynamics 365 Customer Service Insights
+# GDPR compliance in Dynamics 365 Customer Service Insights
 
 The GDPR gives people (known in the GDPR as data subjects) specific rights to their personal data, including the ability to: obtain copies of personal data, request corrections or deletions, receive personal data in an electronic format so it can be moved to another controller, or to restrict processing of personal data. 
 
