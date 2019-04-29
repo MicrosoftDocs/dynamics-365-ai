@@ -2,7 +2,7 @@
 title: "Power BI connector | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/04/2019
+ms.date: 04/29/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -34,36 +34,38 @@ In order to use the Customer Insights dashboard, make sure that you have created
  
 1. Bring Customer Insights data to Power BI: Open Microsoft Power BI for Desktop, and select **Get Data** in the menu at the top of the page.
  
-    > [!div class="mx-imgBorder"] 
-    > ![](media/connector-powerbi-get-data.png "Power BI Get Data")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-powerbi-get-data.png "Power BI Get Data")
 
  
 2. Search for **Dynamics 365 Customer Insights (Beta)**, select it from the menu on the right, and then click the Connect button in  the lower-righthand corner.
 
-// update 1
     > [!div class="mx-imgBorder"] 
-    > ![](media/connector-pbi-step-3.png "Power BI Connector")
+    > ![](media/connector-pbi-step-3.png "Power BI Connector Get Data")
 
 3. If you have not used this connector before, you will need to sign-in with the account used by your organization.
 
 4. You will be brought to a list of all of the environments you have access to. You can select the arrow next to any of the environments to see a full list of entities you can import into :
 
-// add 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-pbi-step-4.png "Power BI Connector Navigator")
 
-5.	Select the checkboxes next to the entities you want to load, and then click the Load button in  the bottom-righthand corner of the dialog box. You can select multiple entities from multiple environments.
+5. Select the checkboxes next to the entities you want to load, and then click the Load button in  the bottom-righthand corner of the dialog box. You can select multiple entities from multiple environments.
 
-// add 2
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-pbi-step-5.png "Power BI Connector Navigator")
 
-6.	You will be brought to the following loading dialog box while your entities are loaded. 
+6. You will be brought to the following loading dialog box while your entities are loaded. 
 
-// add 3
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-pbi-step-6.png "Power BI Connector Load")
 
 ### Step Three: Create your report
 
 Once all of your selected entities were loaded, you are ready to create your customized report using the Power BI navigation menu. Use the **Filters** fields to produce a report around:
 
-   - A specific customer: Filter by customer name or customer ID.
-   - A customer segment: Filter by one or more of the other customer attributes (gender, location, or role, for example).
+- A specific customer: Filter by customer name or customer ID.
+- A customer segment: Filter by one or more of the other customer attributes (gender, location, or role, for example).
    
 ### See also
  [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)<br/>
