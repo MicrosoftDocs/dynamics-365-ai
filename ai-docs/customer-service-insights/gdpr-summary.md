@@ -26,7 +26,7 @@ See these articles for more information:
 * [Export data to respond to requests for copies of personal data](gdpr-export.md)
 * [Respond to requests to delete personal data](gdpr-delete.md)
 
-## Note about rectifying personal data
+## A note about requests to rectify personal data
 If a data subject asks you to rectify or make changes to their personal data that resides in your organization, you and your organization must determine if it’s appropriate to honor the request. Rectifying the data might include taking actions such as editing, redacting, or removing personal data.
 
 You use Azure Active Directory to manage Dynamics 365 Customer Service Insights users' identities. Organizations manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services. 
