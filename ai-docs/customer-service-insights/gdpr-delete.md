@@ -14,7 +14,7 @@ manager: shellyha
 
 # Respond to GDPR requests to delete data from Dynamics 365 Customer Service Insights
 
-The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
+The right to removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
 
 Dynamics 365 Customer Service Insights includes the following capabilities for deletion of personal data for a specific user:
 
@@ -52,7 +52,7 @@ A tenant administrator follows these steps to delete a user:
    
     ![Delete control](media/gdpr-delete2.png)
 
-## Delete a workspace (self-serve)
+## Delete a workspace (self-serve by user)
 
 Users follow these steps to delete a workspace from Customer Service Insights:
 
