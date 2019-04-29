@@ -46,10 +46,10 @@
 
 ## [Overview of GDPR compliance](gdpr-summary.md)
 
+## [Discovery requests from data subjects](gdpr-discovery.md)
+
 ## [Requests for copies of personal data](gdpr-export.md)
 
 ## [Requests to delete personal data](gdpr-delete.md)
 
-## [Data Subject Discovery Requests](gdpr-discovery.md)
-
-## [Where your organization's Customer Service Insights data is stored](data-location.md)
+## [Where an organization's data is located](data-location.md)
