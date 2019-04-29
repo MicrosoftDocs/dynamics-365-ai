@@ -52,7 +52,7 @@ A tenant administrator follows these steps to delete a user:
    
     ![Delete control](media/gdpr-delete2.png)
 
-## Delete a workspace (self-serve by user)
+## Delete a workspace (user)
 
 Users follow these steps to delete a workspace from Customer Service Insights:
 
