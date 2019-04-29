@@ -44,7 +44,7 @@
 
 # Data Subject Rights (DSR) requests under GDPR
 
-## [Overview of GDPR compliance](gdpr-summary.md)
+## [GDPR compliance and Customer Service Insights](gdpr-summary.md)
 
 ## [Discovery requests from data subjects](gdpr-discovery.md)
 
@@ -52,4 +52,4 @@
 
 ## [Requests to delete personal data](gdpr-delete.md)
 
-## [Where an organization's data is located](data-location.md)
+## [Where an organization's Customer Service Insights data is located](data-location.md)
