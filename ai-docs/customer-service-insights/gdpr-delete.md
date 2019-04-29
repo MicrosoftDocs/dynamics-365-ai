@@ -1,5 +1,5 @@
 ---
-title: "Respond to GDPR requests to delete data from Dynamics 365 Customer Service Insights"
+title: "Respond to requests to delete data from Customer Service Insights"
 description: "Respond to GDPR Data Subject Requests (DSR) to delete data from Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Respond to GDPR requests to delete data from Dynamics 365 Customer Service Insights
+# Respond to requests to delete data from Customer Service Insights
 
 The right to removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs, except audit log information.
 
@@ -22,7 +22,7 @@ Dynamics 365 Customer Service Insights includes the following capabilities for d
 * Delete a user (tenant admin)
 * Delete a workspace (user)
 
-## Delete customer data 
+## Delete data 
 
 A tenant administrator follows these steps to delete a user's personal data:
 
