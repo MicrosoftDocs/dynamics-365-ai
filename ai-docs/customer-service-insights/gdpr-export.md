@@ -1,6 +1,6 @@
 ---
-title: "Export data to respond to GDPR Data Subject Requests (DSR) for Dynamics 365 Customer Service Insights"
-description: "Respond to GDPR Data Subject Requests (DSR) to export data from Dynamics 365 Customer Service Insights."
+title: "Export data to respond to GDPR Data Subject Requests (DSR) for copies of personal data in Dynamics 365 Customer Service Insights"
+description: "Respond to GDPR Data Subject Requests (DSR) to provide copies of personal data in Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
 ms.service:
@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Export data to respond to GDPR Data Subject Requests (DSR) for Dynamics 365 Customer Service Insights
+# Export data to respond to requests for copies of personal data in Customer Service Insights
 
 The right of data portability allows a data subject to request a copy of their personal data in an electronic format (defined as a “structured, commonly used, machine readable, and interoperable format”) that may be transmitted to another data controller.
 
