@@ -22,9 +22,9 @@ Dynamics 365 Customer Service Insights includes capabilities to help you fulfill
 
 See these articles for more information:
 
-* [Find resources containing personal data](gdpr-discovery.md)
-* [Delete personal data](gdpr-delete.md)
-* [Export personal data](gdpr-export.md)
+* [Respond to discovery requests from data subjects](gdpr-discovery.md)
+* [Export data to respond to requests for copies of personal data](gdpr-export.md)
+* [Respond to requests to delete personal data](gdpr-delete.md)
 
 
 
