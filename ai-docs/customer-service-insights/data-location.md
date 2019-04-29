@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Where your organization's Customer Service Insights data is stored
+# Where an organization's Customer Service Insights data is located
 
 Customer Service Insights can be deployed into the Microsoft Azure datacenters (also referred to as “regions”) listed below.
 
