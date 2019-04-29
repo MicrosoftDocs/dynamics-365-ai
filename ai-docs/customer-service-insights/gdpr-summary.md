@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# GDPR compliance in Dynamics 365 Customer Service Insights
+# GDPR compliance in Customer Service Insights
 
 The GDPR gives people (known in the GDPR as data subjects) specific rights to their personal data, including the ability to: obtain copies of personal data, request corrections or deletions, receive personal data in an electronic format so it can be moved to another controller, or to restrict processing of personal data. 
 
