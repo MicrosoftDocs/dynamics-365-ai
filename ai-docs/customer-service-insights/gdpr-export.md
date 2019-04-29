@@ -55,4 +55,4 @@ Users follow these steps to export data from a chart on an Customer Service Insi
 1. Navigate to [https://csi.ai.dynamics.com/](https://csi.ai.dynamics.com/).
 2. Select the ellipses in the upper corner of the chart, and then choose **Export data**.
 
-    > ![Export data](media/gdpr-export-3.png)
+    ![Export data](media/gdpr-export-3.png)
