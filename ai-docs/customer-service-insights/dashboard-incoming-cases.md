@@ -7,14 +7,14 @@ ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # New cases dashboard​
 
-> ![New cases dashboard](media/new-cases.png)
+![New cases dashboard](media/new-cases.png)
 
 The New cases dashboard gives you an overview of the new cases in your customer service system. It uses artificial intelligence (AI) technology to help you identify popular and emerging issues.
 
@@ -34,7 +34,7 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## Case priority chart
 
-> ![Case priority chart](media/case-priority.png)
+![Case priority chart](media/case-priority.png)
 
 The Case priority chart shows the breakdown in new support cases each day in the specified time period between high, medium, and low-priority cases.
 
@@ -44,7 +44,7 @@ Case priority | Daily incoming case breakdown by case priority
 
 ## Case channel chart
 
-> ![Case channel chart](media/case-channel.png)
+![Case channel chart](media/case-channel.png)
 
 The Case channel chart shows the breakdown in new support cases each day in the specified time period between different support channels.
 
@@ -54,7 +54,7 @@ Case channel | Daily incoming case breakdown by channel
 
 ## Case timing chart
 
-> ![Case timing chart](media/case-timing.png)
+![Case timing chart](media/case-timing.png)
 
 The Case timing chart shows the trends in the time of day of new support cases for each channel during the time period.
 
@@ -64,7 +64,7 @@ Case timing | Incoming case breakdown by channel and time of day
 
 ## Popular topics chart
 
-> ![Popular topics chart](media/popular-topics.png)
+![Popular topics chart](media/popular-topics.png)
 
 The Popular topics chart uses artificial intelligence technology to group related incoming support cases as support topics and then display topics in order of volume over the specified time period.
 
@@ -82,7 +82,7 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
-> ![Emerging topics chart](media/emerging-topics.png)
+![Emerging topics chart](media/emerging-topics.png)
 
 The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 

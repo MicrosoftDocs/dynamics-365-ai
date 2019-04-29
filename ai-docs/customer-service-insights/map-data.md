@@ -7,8 +7,8 @@ ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -39,35 +39,35 @@ See [Use workspaces to connect to different customer service environments](use-w
 
 2. If the environment doesn't have a Case entity, or if the environment has a Case entity but it doesn’t contain enough required data, Customer Service Insights displays the **Map your data** screen. Select **Get started** to begin mapping your data.
 
-   > ![Map your data](media/map-your-data.png)
+   ![Map your data](media/map-your-data.png)
 
 3. On the **Find your incident records** page, select the entity or entities that contain the data fields you want to use for mapping, and then select **Next**.
 
-   > ![Select entity](media/select-entity.png)
+   ![Select entity](media/select-entity.png)
 
 4. On the **Map your incident records** page, select the data fields you want to use from the drop-down menu. Some fields have been mapped automatically. Then select **Done**.
 
-   > ![Map fields](media/map-fields.png)
+   ![Map fields](media/map-fields.png)
 
 ## To map data by specifying data mapping settings
 
 1. Select the **Settings** button on the Customer Service Insights title bar and then select **Data mapping**.
 
-   > ![Select mapping](media/select-mapping.png)
+   ![Select mapping](media/select-mapping.png)
 
    Customer Service Insights displays the Data mapping page, which shows the available destination entities.
 
-   > ![Data mapping pane](media/data-mapping-pane.png)
+   ![Data mapping pane](media/data-mapping-pane.png)
 
 2. To edit your mapping settings for an entity, hover over the entity in the list and then select the edit icon.
 
-   > ![Edit entity](media/edit-entity.png)
+   ![Edit entity](media/edit-entity.png)
 
     Customer Service Insights displays the **Map your incident records** page, where you can update the data mapping for the entity.
 
 3. You can view the status of the mapping in the **Mapped Fields** column.
 
-   > ![View mapping](media/view-mapping.png)
+   ![View mapping](media/view-mapping.png)
 
 Here are some things to keep in mind when you map your data to custom entities and fields:
 

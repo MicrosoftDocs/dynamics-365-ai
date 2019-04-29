@@ -7,8 +7,8 @@ ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -22,29 +22,29 @@ You can control the scope of how Customer Service Insights generates customer se
 
 1. Select the **Settings** button on the Customer Service Insights title bar and then select **Topic granularity**.
 
-   > ![Select granularity](media/select-granularity.png)
+   ![Select granularity](media/select-granularity.png)
 
    Customer Service Insights displays the Topic granularity page, which shows a graphical illustration of the current topic granularity.
 
-   > ![Granularity page](media/granularity-page.png)
+   ![Granularity page](media/granularity-page.png)
 
 2. Use the Granularity setting slide bar to adjust the topic granularity.
 
-   > ![Granularity slide bar](media/granularity-slide-bar.png)
+   ![Granularity slide bar](media/granularity-slide-bar.png)
 
    Moving the slide bar to the right makes the granularity more specific.
 
-   > ![More granular](media/more-granular.png)
+   ![More granular](media/more-granular.png)
 
    Moving the slide bar to the left makes the granularity more general.
 
-   > ![Less granular](media/less-granular.png)
+   ![Less granular](media/less-granular.png)
 
    You can choose from five levels of granularity.
 
 3. Select **Save** to save the granularity setting.
 
-   > ![Save granularity](media/save-granularity.png)
+   ![Save granularity](media/save-granularity.png)
 
 **Note:**  When you save a change to your granularity settings, any feedback you have given on the placement of support cases in topics is reset. For more information on providing feedback for the placement of support cases in topics, see [Providing feedback to fine-tune the way cases are grouped into topics](topics-page.md#providing-feedback-to-fine-tune-the-way-cases-are-grouped-into-topics).
 

@@ -7,8 +7,8 @@ ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -30,7 +30,7 @@ AI Insights charts help you identify support cases that have the most impact on 
 
 Several of the AI Insights charts include an Impact field, showing the impact of the support cases associated with the topic as a red or blue-green bar. A red bar indicates that the topic's impact is negative. A blue-green bar indicates that the topic's impact is positive. Improving the performance of topics in red will have the greatest impact on improving overall system performance.
 
-> ![Resolution drivers](media/ai-insights.png)
+![Resolution drivers](media/ai-insights.png)
 
 The following AI Insights charts show you support cases that have the most impact on resolution time and customer satisfaction:
 

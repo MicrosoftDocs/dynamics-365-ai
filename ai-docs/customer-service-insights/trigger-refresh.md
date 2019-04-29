@@ -7,8 +7,8 @@ ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -26,7 +26,7 @@ If you want to update the dashboards to use current data, you can trigger a refr
 
 For example, when you rename a topic on the Topics page, Customer Service Insights displays a prompt at the top of the dashboard that gives you an opportunity to refresh your workspace. To refresh the workspace, select **Refresh**.
 
-   > ![Refresh workspace](media/refresh-workspace.png)
+   ![Refresh workspace](media/refresh-workspace.png)
 
 **Note:**  There is a limit of 10 on-demand refreshes per day per workspace.
 
