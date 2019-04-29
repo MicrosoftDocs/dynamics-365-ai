@@ -1,8 +1,8 @@
 ---
-title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights"
-description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Customer Service Insights."
+title: "Respond to GDPR requests to delete data from Dynamics 365 Customer Service Insights"
+description: "Respond to GDPR Data Subject Requests (DSR) to delete data from Dynamics 365 Customer Service Insights"
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 4/30/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
