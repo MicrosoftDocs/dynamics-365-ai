@@ -2,19 +2,17 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
-ms\.date: 3/21/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # Customer Service Insights overview
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 Dynamics 365 Customer Service Insights ([https://csi.ai.dynamics.com](https://csi.ai.dynamics.com)) gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
 
@@ -22,7 +20,7 @@ Customer Service Insights uses artificial intelligence to automatically group yo
 
 The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 
-> ![Overview dashboard](media/overview.png)
+![Overview dashboard](media/overview.png)
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system's performance](quickstart.md).
 
