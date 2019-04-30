@@ -2,19 +2,17 @@
 title: "Dashboard reference"
 description: "Learn about the Customer Service Insights dashboards."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # Dashboard reference
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 The Customer Service Insights dashboards contain a variety of charts that show you key performance indicators for your customer service system, give you graphical views of the trends and breakdowns in your system's support cases, and use artificial intelligence technology to highlight support cases that are having the greatest impact on the system.
 
