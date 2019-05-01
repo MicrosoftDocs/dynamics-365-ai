@@ -52,6 +52,8 @@
 
 ## [Sessions page](analytics-sessions.md)
 
+# [Videos](virtual-agent-videos.md)
+
 # Data Subject Rights (DSR) requests under GDPR
 
 ## [Overview of GDPR compliance](gdpr-summary.md)
