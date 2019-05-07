@@ -64,31 +64,20 @@ Customer Service Insights opens the workspace and displays the customer service 
 
 If you want other users to have access to your workspace, you can share it.
 
-To share a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Share** icon, and then select the icon.
+To share a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to share to display the **Share** icon, and then select the icon.
 
 ![Share workspace](media/share-workspace.png)
 
-On the **Share** tab of the **Share this workspace** dialog box, enter the email address of a user to share the workspace.
+On the **Share** tab of the **Share this workspace** dialog box, enter the email address of a user with a Customer Service Insights licence to share the workspace. Users will get an email with an optional message when a workspace gets shared.
 
-1.	Users can see sharing icon from my workspaces
-2.	Add email address (within the tenant)
-3.	Optional message
-4.	Share will send user an email with link to access
-5.	To access shared workspace user would need a license 
+## Managing access to workspaces
 
-Managing access to workspaces
+There are two roles with different permissions on workspaces. 
 
-1.	See users with access
-2.	Ability to revoke access 
-3.	Learn more page about roles and permissions, it’s a fwlink that we can link to this specific documentation page. 
-
-•	Owner: creator of a workspace. 
- o	Every user who’s using our product before the sharing feature are owners of their workspaces.
- o	They can manage access for their workspaces.
-•	Viewer: new read-only role introduced with the sharing feature. 
- o	They can access workspaces created and shared by the owner. 
- o	They will need a CSI license to see the workspace.
- o	They cannot customize any settings or contribute to any AI feedback on the Topics page.
+- **Owner**: creator of a workspace
+    - Can manage access for their workspaces
+- **Viewer**: read-only role introduced when sharing a workspace 
+    - Can access shared workspaces
 
 ## Deleting a workspace
 
