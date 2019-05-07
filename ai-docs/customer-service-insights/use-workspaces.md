@@ -21,6 +21,7 @@ You can use and manage workspaces in a variety of ways, including:
 * [Creating a workspace](#creating-a-workspace)
 * [Opening the demo workspace](#opening-the-demo-workspace)
 * [Switching between workspaces](#switching-between-workspaces)
+* [Sharing a workspace](#sharing-a-workspace)
 * [Deleting a workspace](#deleting-a-workspace)
 
 ## Creating a workspace
@@ -59,14 +60,6 @@ To switch to a different workspace, select the **Workspaces** icon on the Custom
 
 Customer Service Insights opens the workspace and displays the customer service data associated with the workspace in the dashboards.
 
-## Deleting a workspace
-
-If you no longer want Customer Service Insights to display a workspace in the list of current workspaces, you can delete it.
-
-To delete a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
-
-![Delete workspace](media/delete-workspace.png)
-<!---
 ## Sharing a workspace
 
 If you want other users to have access to your workspace, you can share it.
@@ -97,4 +90,13 @@ Managing access to workspaces
  o	They will need a CSI license to see the workspace.
  o	They cannot customize any settings or contribute to any AI feedback on the Topics page.
 
--->
+## Deleting a workspace
+
+If you no longer want Customer Service Insights to display a workspace in the list of current workspaces, you can delete it.
+
+To delete a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
+
+![Delete workspace](media/delete-workspace.png)
+
+
+
