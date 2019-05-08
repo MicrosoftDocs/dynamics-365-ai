@@ -32,11 +32,20 @@ As a sales manager, it is important for you to understand how your business is d
 
 On [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
 
+<<<<<<< HEAD
 - **Forecast**: Gives you an overview of all sales against the intended quota for the full period. To learn more, see [Forecast](#forecast)
 - **Actuals**: Give you a deeper understanding of closed revenue. To learn more, see [Actuals](#actuals)
 - **Pipeline**: Give you visibility into the upcoming deals to identify risks. To learn more, see [Pipeline](#pipeline)
 - **Activities**: Give you visibility into the activities that have contributed most to success. To learn more, see [Activities](#activities)
 - **Lead**: Helps you predict whether there are enough leads to replenish the pipeline. To learn more, see [Leads](#leads)
+=======
+- **Forecast**: Gives you an overview of all sales against the intended quota for the full period.
+- **Actuals**: Give you a deeper understanding of closed revenue.
+- **Pipeline**: Give you visibility into the upcoming deals to identify risks.
+- **Lead**: Helps you predict whether there are enough leads to replenish the pipeline.
+- **Activities**: Give you visibility into the activities that have contributed most to success.
+- **Predictive forecast**: Helps you to predict sales forecast for the current period by providing visibility into your business.
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 > [!div class="mx-imgBorder"]
 > ![Open business section](media/d365-ai-business-tabs.png "Open business section")
@@ -174,10 +183,18 @@ The following is an example of how the **Leads** tab displays:
 |**8. Leads by region**|Displays the regions in which you have open leads. Also, helps you to analyze which regions to focus on to increase the leads. Each lead is plotted on the map as a bubble and attached to the address of the account. The size of the bubble determines the value of the lead. Hover over the bubble to see more information such as city and open lead count.<br>Highlighting a bubble cross-filters the other visualizations on the report page, and vice versa.|
 
 
+## Preview: Predictive forecast
+
+[!INCLUDE[work_predictive_forecast](../sales/work-predictive-forecasting.md)]  
+
 ## Privacy notice  
 
 For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
 
 ### See also
 
+<<<<<<< HEAD
 - [Unlock sales potential with Dynamics 365 Sales Insights](dynamics365-ai-sales-app.md)
+=======
+[Unlock sales potential with Dynamics 365 AI for Sales](dynamics365-ai-sales-app.md)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1

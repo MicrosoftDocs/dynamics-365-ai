@@ -2,19 +2,21 @@
 title: "Dynamics 365 for Customer Service entities used by Customer Service Insights"
 description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 for Customer Service."
 keywords: "CDS, data entity"
+<<<<<<< HEAD
 ms.date: 3/6/2019
+=======
+ms.date: 4/23/2019
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # Dynamics 365 for Customer Service entities used by Customer Service Insights
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 When a workspace is created from a Dynamics 365 for Customer Service environment, Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
 

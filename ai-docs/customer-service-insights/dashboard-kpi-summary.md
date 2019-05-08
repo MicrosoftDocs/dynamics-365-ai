@@ -2,21 +2,25 @@
 title: "KPI summary dashboard"
 description: "Learn about the customer service insights available on the KPI Summary dashboard​."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # KPI summary dashboard
 
+<<<<<<< HEAD
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
 > ![KPI summary dashboard](media/kpi-summary.png)
+=======
+![KPI summary dashboard](media/kpi-summary.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
@@ -39,7 +43,11 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## KPI summary charts
 
+<<<<<<< HEAD
 > ![KPI summary charts](media/kpi-charts.png)
+=======
+![KPI summary charts](media/kpi-charts.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period.
 
@@ -56,7 +64,11 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 ## Case breakdown chart
 
+<<<<<<< HEAD
 > ![Case breakdown chart](media/case-breakdown.png)
+=======
+![Case breakdown chart](media/case-breakdown.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Case breakdown chart shows the breakdown in support cases for the specified time period between new cases and backlog cases that were carried over from the previous time period. Backlog cases are support cases that were unresolved at the beginning of the specified time period.
 
@@ -66,7 +78,11 @@ Case breakdown | Case breakdown by rollover cases (backlog) plus new cases for t
 
 ## Case priority chart
 
+<<<<<<< HEAD
 > ![Case priority chart](media/case-priority.png)
+=======
+![Case priority chart](media/case-priority.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Case priority chart shows the percentage breakdown for the specified time period between normal, low, and high-priority support cases.
 
@@ -76,7 +92,11 @@ Case priority | Case breakdown by case priority
 
 ## Case channel chart
 
+<<<<<<< HEAD
 > ![Case channel chart](media/case-channels.png)
+=======
+![Case channel chart](media/case-channels.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Case channel chart shows the breakdown in support cases for the specified time period by support channel.
 
@@ -86,7 +106,11 @@ Case channels | Case breakdown by channel
 
 ## Case tracking chart
 
+<<<<<<< HEAD
 > ![Case tracking chart](media/case-tracking.png)
+=======
+![Case tracking chart](media/case-tracking.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Case tracking chart shows the trend in the number of new support cases for the specified time period as well as the trend in the number of cases being resolved.
 
@@ -97,7 +121,11 @@ Resolved | The number of cases resolved each day for the specified time period
 
 ## Unresolved cases by age chart
 
+<<<<<<< HEAD
 > ![Unresolved cases by age chart](media/cases-by-age.png)
+=======
+![Unresolved cases by age chart](media/cases-by-age.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Unresolved cases by age chart shows the relative number of support cases for the specified time period by how many days ago they were created.
 
@@ -107,7 +135,11 @@ Unresolved cases by age | Total unresolved cases by days unresolved
 
 ## Case volume drivers chart
 
+<<<<<<< HEAD
 > ![Case volume drivers chart](media/volume-drivers.png)
+=======
+![Case volume drivers chart](media/volume-drivers.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Case volume drivers chart uses artificial intelligence technology to group related support cases as support topics and then display topics in order of volume over the specified time period. This chart shows both the percent of total volume and number of cases for each topic.
 
@@ -121,7 +153,11 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
+<<<<<<< HEAD
 > ![Emerging topics chart](media/emerging-topics.png)
+=======
+![Emerging topics chart](media/emerging-topics.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 

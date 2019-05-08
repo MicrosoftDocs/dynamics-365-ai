@@ -2,27 +2,38 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
+<<<<<<< HEAD
 ms\.date: 3/21/2019
+=======
+ms.date: 4/23/2019
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # Customer Service Insights overview
 
+<<<<<<< HEAD
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
+=======
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 Dynamics 365 Customer Service Insights ([https://csi.ai.dynamics.com](https://csi.ai.dynamics.com)) gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
 
 Customer Service Insights uses artificial intelligence to automatically group your cases into topics using natural language understanding. Topics enable you to discover and adapt to current and emerging trends, improve brand sentiment, and identify problem areas. By pinpointing and fixing issues before they impact customers, you can deliver better customer service experiences.
 
 The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
 
+<<<<<<< HEAD
 > ![Overview dashboard](media/overview.png)
+=======
+![Example of KPI summary dashboard](media/kpi-summary.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system's performance](quickstart.md).
 
@@ -42,4 +53,8 @@ For details on the Customer Service Insights dashboards, see the following topic
 
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve your AI Insights data by cleansing support case titles](settings.md).
 
+<<<<<<< HEAD
 Customer Service Insights also includes a Topics page. Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. You can display the Topics page by selecting **Topics** in the navigation pane. For information on working with the Topics page, see [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md).
+=======
+Customer Service Insights also includes a Topics page. Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. You can display the Topics page by selecting **Topics** in the navigation pane. For information on working with the Topics page, see [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md).
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1

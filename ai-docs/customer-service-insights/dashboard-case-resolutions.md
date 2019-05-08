@@ -2,21 +2,25 @@
 title: "Resolution dashboard​"
 description: "Learn about the customer service insights available on the Resolution dashboard."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # Resolutions dashboard​
 
+<<<<<<< HEAD
 [!INCLUDE [public-preview](../includes/public-preview.md)]
 
 > ![Resolutions dashboard](media/resolutions.png)
+=======
+![Resolutions dashboard](media/resolutions.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Resolutions dashboard gives you an overview of your customer service system's case resolution performance. It uses artificial intelligence (AI) technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
@@ -36,7 +40,11 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## Agents with longest resolve time chart
 
+<<<<<<< HEAD
 > ![Agents with longest resolve time chart](media/longest-resolve-time.png)
+=======
+![Agents with longest resolve time chart](media/longest-resolve-time.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Agents with longest resolve time chart shows the average time, in minutes, that it takes each agent in the specified time period to resolve a customer-support case, in reverse order of resolution time.
 
@@ -46,7 +54,11 @@ Agents with longest resolve time | Resolved case resolution time breakdown by ag
 
 ## New cases versus average resolution time chart
 
+<<<<<<< HEAD
 > ![New cases versus average resolution time chart](media/incoming-vs-resolution.png)
+=======
+![New cases versus average resolution time chart](media/incoming-vs-resolution.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The New cases versus average resolution time chart shows the daily trend in the specified time period in the number of new support cases and the average resolution time, in minutes.
 
@@ -57,7 +69,11 @@ Average resolution time | Daily average case resolution time
 
 ## Agents handling most escalations chart
 
+<<<<<<< HEAD
 > ![Agents handling most escalations chart](media/most-escalations.png)
+=======
+![Agents handling most escalations chart](media/most-escalations.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Agents handling most escalations chart shows the number of active and resolved support cases for each agent, in order of total cases.
 
@@ -67,7 +83,11 @@ Agents handling most escalations | Number of active and resolved cases by agent
 
 ## New escalations versus resolved escalations chart
 
+<<<<<<< HEAD
 > ![New escalations versus resolved escalations chart](media/new-resolved-escalations.png)
+=======
+![New escalations versus resolved escalations chart](media/new-resolved-escalations.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The New escalations versus resolved escalations chart shows the daily trend in the number of new support cases that are escalated and the number of escalated cases that are resolved.
 
@@ -78,7 +98,11 @@ Resolved escalations | Daily number of escalated cases that are resolved
 
 ## Resolution time drivers chart
 
+<<<<<<< HEAD
 > ![Resolution time drivers](media/resolution-time-drivers.png)
+=======
+![Resolution time drivers](media/resolution-time-drivers.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Resolution time drivers chart uses artificial intelligence technology to group related support cases as support topics and then display topics in order of resolution time over the specified time period.
 

@@ -2,19 +2,17 @@
 title: "Identify areas for improvement in your customer service system"
 description: "Learn how Customer Service Insights dashboards can help you identify areas for improvement in your customer service system."
 keywords: ""
-ms\.date: 1/23/2019
+ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
 # Identify areas for improvement in your customer service system
-
-[!INCLUDE [public-preview](../includes/public-preview.md)]
 
 The rich set of dashboards provided by Customer Service Insights not only gives you a detailed picture of your customer service system, it can help you identify key areas for improvement that can increase system performance and customer satisfaction.
 
@@ -32,7 +30,11 @@ AI Insights charts help you identify support cases that have the most impact on 
 
 Several of the AI Insights charts include an Impact field, showing the impact of the support cases associated with the topic as a red or blue-green bar. A red bar indicates that the topic's impact is negative. A blue-green bar indicates that the topic's impact is positive. Improving the performance of topics in red will have the greatest impact on improving overall system performance.
 
+<<<<<<< HEAD
 > ![Resolution drivers](media/ai-insights.png)
+=======
+![Resolution drivers](media/ai-insights.png)
+>>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The following AI Insights charts show you support cases that have the most impact on resolution time and customer satisfaction:
 
