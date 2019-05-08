@@ -30,11 +30,7 @@ AI Insights charts help you identify support cases that have the most impact on 
 
 Several of the AI Insights charts include an Impact field, showing the impact of the support cases associated with the topic as a red or blue-green bar. A red bar indicates that the topic's impact is negative. A blue-green bar indicates that the topic's impact is positive. Improving the performance of topics in red will have the greatest impact on improving overall system performance.
 
-<<<<<<< HEAD
-> ![Resolution drivers](media/ai-insights.png)
-=======
 ![Resolution drivers](media/ai-insights.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The following AI Insights charts show you support cases that have the most impact on resolution time and customer satisfaction:
 

@@ -8,11 +8,7 @@
 
 ## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
 
-<<<<<<< HEAD
-## [Trigger a refresh of your Customer Service Insights data](trigger-refresh.md)
-=======
 ## [Trigger a refresh of Customer Service Insights data](trigger-refresh.md)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 ## [Identify areas for improvement](improve-system.md)
 

@@ -14,13 +14,7 @@ manager: shellyha
 
 # Customer satisfaction dashboard
 
-<<<<<<< HEAD
-[!INCLUDE [public-preview](../includes/public-preview.md)]
-
-> ![Customer satisfaction dashboard](media/csat.png)
-=======
 ![Customer satisfaction dashboard](media/csat.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Customer satisfaction dashboard gives you an overview of customer satisfaction (CSAT), including using artificial intelligence (AI) technology to show you topics that are having the greatest impact on CSAT scores.
 
@@ -40,11 +34,7 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 ## Surveys completed chart
 
-<<<<<<< HEAD
-> ![Surveys completed chart](media/surveys-completed.png)
-=======
 ![Surveys completed chart](media/surveys-completed.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Surveys completed chart shows the total number of customer satisfaction surveys completed during the specified time period and the percent change over the period.
 
@@ -56,11 +46,7 @@ A blue up-and-down indicator next to the value indicates the percent change in a
 
 ## CSAT collection rate chart
 
-<<<<<<< HEAD
-> ![CSAT collection rate chart](media/collection-rate.png)
-=======
 ![CSAT collection rate chart](media/collection-rate.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The CSAT collection rate chart shows the percentage of customer-satisfaction surveys completed during the specified time period and the percent change over the period.
 
@@ -72,11 +58,7 @@ A blue up-and-down indicator next to the value indicates the positive percent ch
 
 ## Average CSAT chart
 
-<<<<<<< HEAD
-> ![Average CSAT chart](media/average-csat.png)
-=======
 ![Average CSAT chart](media/average-csat.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Average CSAT chart shows the average customer satisfaction survey score during the specified time period, where that score falls on the satisfaction scale used in the survey, and the percent change over the period.
 
@@ -88,11 +70,7 @@ A blue up-and-down indicator next to the value indicates the positive percent ch
 
 ## Customer satisfaction breakdown
 
-<<<<<<< HEAD
-> ![Customer satisfaction breakdown](media/csat-breakdown.png)
-=======
 ![Customer satisfaction breakdown](media/csat-breakdown.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Customer satisfaction breakdown chart shows the breakdown of customer satisfaction by support channel during the specified time period.
 
@@ -102,11 +80,7 @@ Customer satisfaction breakdown | CSAT score breakdown by support channel
 
 ## Customer satisfaction drivers chart
 
-<<<<<<< HEAD
-> ![Customer satisfaction drivers chart](media/csat-drivers.png)
-=======
 ![Customer satisfaction drivers chart](media/csat-drivers.png)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 The Customer satisfaction drivers chart uses artificial intelligence technology to group related support cases as support topics and then display topics in the order of impact they are having on customer satisfaction.
 

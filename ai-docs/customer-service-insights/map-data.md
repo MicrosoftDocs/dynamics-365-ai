@@ -2,11 +2,7 @@
 title: "Map your data to custom entities and fields"
 description: "Learn how to generate insights by mapping your data to custom data entities and fields​."
 keywords: ""
-<<<<<<< HEAD
-ms\.date: 4/3/2019
-=======
 ms.date: 4/23/2019
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -20,11 +16,6 @@ manager: shellyha
 
 Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Case entity and several other related entities in Common Data Service (CDS) for Apps.
 
-<<<<<<< HEAD
-Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Case entity and several other related entities in Common Data Service (CDS) for Apps.
-
-=======
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 However, you may want to generate insights by mapping to data from custom entities and fields in Common Data Service. Mapping to data from custom entities and fields is useful in the following cases:
 
 * You are not a Dynamics 365 for Customer Service customer.
@@ -61,15 +52,9 @@ See [Use workspaces to connect to different customer service environments](use-w
 ## To map data by specifying data mapping settings
 
 1. Select the **Settings** button on the Customer Service Insights title bar and then select **Data mapping**.
-<<<<<<< HEAD
-
-   > ![Select mapping](media/select-mapping.png)
-
-=======
 
    ![Select mapping](media/select-mapping.png)
 
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
    Customer Service Insights displays the Data mapping page, which shows the available destination entities.
 
    ![Data mapping pane](media/data-mapping-pane.png)
