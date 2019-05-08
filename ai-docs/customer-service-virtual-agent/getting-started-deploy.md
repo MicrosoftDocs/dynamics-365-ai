@@ -2,7 +2,7 @@
 title: "Deploying your virtual agent"
 description: "Learn how to deploy your Virtual Agent Designer virtual agent."
 keywords: ""
-ms.date: 05/07/2019
+ms.date: 05/08/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -17,7 +17,7 @@ manager: shellyha
 Once you have finished designing you virtual agent, you can deploy it to a demo environment on the web or to your live website.
 
 > [!NOTE]
-> Newly deployed bot content won't be available immediately to end users. We recommend to refresh the browser window to get the latest content.
+> Newly deployed bot content won't be available immediately to end users until they restart the conversation. For example, by refreshing the browser window.
 
 ## To deploy your virtual agent to a demo environment
 
