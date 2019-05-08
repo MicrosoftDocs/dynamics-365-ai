@@ -220,12 +220,12 @@ In addition to the absolute health score, the system also reports the general tr
 
 ## Privacy notice  
 
-For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also  
 
-- [Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
-- [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)
-- [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+- [Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+- [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)
+- [Opt out of Relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
 - [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
 - [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)

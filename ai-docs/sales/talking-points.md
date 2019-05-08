@@ -1,7 +1,7 @@
 ---
-title: "Talking points in Dynamics 365 for Sales | MicrosoftDocs"
-description: "Know conversation starters of customers in Dynamics 365 for Sales."
-keywords: "talking points, conversation starters, Dynamics 365 for Sales"
+title: "Talking points in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Know conversation starters of customers in Dynamics 365 Sales Insights."
+keywords: "talking points, conversation starters, Dynamics 365 Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -55,8 +55,8 @@ Talking points will display only the latest communication for each topic on the 
 
 ## Privacy notice  
 
-For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
+[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)

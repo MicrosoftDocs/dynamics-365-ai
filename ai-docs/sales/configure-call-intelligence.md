@@ -29,7 +29,7 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
-Call intelligence in [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
+Call intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sales reps. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
 You must have administrative privileges to configure Call intelligence for your organization. To configure Call intelligence, perform the following steps:
 
@@ -43,9 +43,9 @@ These steps are described in detail here.
 ## Review prerequisites
 Verify the following requirements before configuring Call intelligence for your organization:
 
-- You have access to the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app.
+- You have access to the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app.
 If you do not have access, follow these steps:<br>
-    1. Go to the [Dynamics Sales AI](https://aka.ms/salesai) marketing page and select **Try Preview**.<br>
+    1. Go to the [Dynamics 365 Sales Insights](https://aka.ms/salesai) marketing page and select **Try Preview**.<br>
     2. Enter your work email address.<br>
     3. When the application recognizes the email, you must sign in using Azure Active Directory.<br> 
         [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin)
@@ -83,7 +83,7 @@ There are two ways to configure Call intelligence:
 ### While setting the app 
 The Call intelligence configuration procedure is part of the initial app setup and you can continue the configuration after connecting to your Dynamics 365 organization. We recommend that you configure Call intelligence during the initial app setup. 
 
-1. Open the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. 
+1. Open the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app. 
 2. When you are signing in for the first time, select your Dynamics 365 organization to connect the organization data with the app.
     After connecting your Dynamics 365 organization with the app, continue to configure Call intelligence.
 3. Select **Connect your call data**.
@@ -104,7 +104,7 @@ Now you can upload call recordings to Azure for Call intelligence to assess.
 
 ### After setting the app
 You can use this procedure if you ignore Call intelligence configuration during the initial app setup. Also, you can use this procedure to update custom trackers, competitors, and Azure (storage connection string and container name) settings.
-1. Open the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app.
+1. Open the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app.
 2. Select the **Settings** icon on the top-right of the page and then select **Settings**. 
     > [!div class="mx-imgBorder"]
     > ![Call intelligence setting menu](media/callintelligence-settingmenu.png "Call intelligence setting menu")
