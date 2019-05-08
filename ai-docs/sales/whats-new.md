@@ -1,6 +1,6 @@
 ---
-title: "What's new in Dynamics 365 AI for Sales | MicrosoftDocs"
-description: "Learn what's new in the latest release of Dynamics 365 AI for Sales."
+title: "What's new in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Learn what's new in the latest release of Dynamics 365 Sales Insights."
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -20,11 +20,11 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# What's new in Dynamics 365 AI for Sales
+# What's new in Dynamics 365 Sales Insights
 
-Welcome to [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. Visit this page to see what has been added or updated recently.
+Welcome to [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. Visit this page to see what has been added or updated recently.
 
-## [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] Fall 2018 ([!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0.35 and above)
+## [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] Fall 2018 ([!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0.35 and above)
 
 In this release, we have improved engagement and decision-making with prebuilt and embedded insights that are quick to deploy and easy to act on. Find the best prospects and customers for sales reps to focus on as well as the most relevant and impactful actions to move relationships forward. Empower your managers to improve sales performance and deliver proactive coaching.
 
@@ -44,8 +44,8 @@ In this release, we have improved engagement and decision-making with prebuilt a
 
 ### For sales managers (Preview)
 
-- **[!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app**: The [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app proactively and prescriptively provides useful insights from sales data. This helps sales managers to evaluate and improve the performance of their sales teams on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With measurement and pipeline forecasting using relationship health scores, sales managers can better optimize their sales strategies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 AI for Sales app for managers](../sales/dynamics365-ai-sales-app.md)
+- **[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app**: The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app proactively and prescriptively provides useful insights from sales data. This helps sales managers to evaluate and improve the performance of their sales teams on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With measurement and pipeline forecasting using relationship health scores, sales managers can better optimize their sales strategies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Sales Insights app for managers](../sales/dynamics365-ai-sales-app.md)
 
-- **Call intelligence**: Call intelligence is part of [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)]. Call intelligence enables smarter coaching to boost sales conversion rates by analyzing call statistics on sentiments, keyword mentions, and KPIs. By connecting call center telephony recording systems to the app, call center managers can generate conversation insights to make better sales decisions. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and non-Dynamics organizations can use the Microsoft call intelligence to generate conversation insights to make sales decisions that contribute to the growth of your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze customer calls](../sales/call-intelligence.md)
+- **Call intelligence**: Call intelligence is part of  [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. Call intelligence enables smarter coaching to boost sales conversion rates by analyzing call statistics on sentiments, keyword mentions, and KPIs. By connecting call center telephony recording systems to the app, call center managers can generate conversation insights to make better sales decisions. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and non-Dynamics organizations can use the Microsoft call intelligence to generate conversation insights to make sales decisions that contribute to the growth of your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze customer calls](../sales/call-intelligence.md)
 
 - **Preview: Predictive forecasting**: Predictive forecasting allows you to deliver more accurate forecasts and focus on the right deals. With this, you can accurately predict their team's revenue at the end of each period by leveraging AI-based models. You'll be able to visualize these predictions against quotas to identify opportunities for coaching and course correction. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predictive forecast](../sales/d365-ai-business-performance.md#preview-predictive-forecast)
