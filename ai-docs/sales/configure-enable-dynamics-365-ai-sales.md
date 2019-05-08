@@ -25,13 +25,8 @@ topic-status: Drafting
 <!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
 > [!IMPORTANT]
-<<<<<<< HEAD
 > - Dynamics 365 Sales Insights capabilities for sellers requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in future releases.
-> - The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] seller features are available only in North American (NAM) regions.
-=======
-> - Dynamics 365 AI for Sales capabilities for seller requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above. Support for higher versions will be available in our future releases.
 > - The feature **Who knows who** and exchange data for **Relationship analytics** are available only in North American (NAM) regions.
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 Enabling and configuring the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] features helps the user to effectively use the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] contains the following features:
 
@@ -286,9 +281,6 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
 5. Select **Save**.
 
 > [!NOTE]
-<<<<<<< HEAD
-> For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md).
-=======
 > For more information about Who knows whom, see [Get introduced to lead](../sales/who-knows-whom.md)
 
 
@@ -300,9 +292,9 @@ Predictive forecast helps sales managers make timely decisions in generating rev
 
 Review the following prerequisites before enabling Predictive forecasting:
 
-- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] is enabled. To learn more, see [Enable Dynamics 365 Sales Insights features](#enable-dynamics-365-ai-for-sales-features).
-- [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app is configured for your organization. To learn more, see [Unlock sales potential with Dynamics 365 Sales Insights](../sales/dynamics365-ai-sales-app.md).
-- The organization has at least 28 weeks of historical opportunities. This helps in generating a model to display the predictive forecasting in the [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app. However, we recommend you have two years of historical opportunities data for increased prediction accuracy.
+- [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] is enabled. To learn more, see [Enable Dynamics 365 Sales Insights features](#enable-dynamics-365-ai-for-sales-features).
+- [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app is configured for your organization. To learn more, see [Unlock sales potential with Dynamics 365 Sales Insights](../sales/dynamics365-ai-sales-app.md).
+- The organization has at least 28 weeks of historical opportunities. This helps in generating a model to display the predictive forecasting in the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app. However, we recommend you have two years of historical opportunities data for increased prediction accuracy.
 - The fiscal period is configured as monthly or quarterly for your organization. To learn more, see [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings). Predictive forecasting will not work if the fiscal period is defined for half-yearly or yearly.
 - Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
@@ -327,7 +319,6 @@ Review the following prerequisites before enabling Predictive forecasting:
 
 > [!NOTE]
 > For more information about Predictive forecasting, see [Predictive forecast](../sales/d365-ai-business-performance.md#preview-predictive-forecast).
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 
 <!--

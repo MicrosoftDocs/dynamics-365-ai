@@ -32,20 +32,12 @@ As a sales manager, it is important for you to understand how your business is d
 
 On [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
 
-<<<<<<< HEAD
 - **Forecast**: Gives you an overview of all sales against the intended quota for the full period. To learn more, see [Forecast](#forecast)
 - **Actuals**: Give you a deeper understanding of closed revenue. To learn more, see [Actuals](#actuals)
 - **Pipeline**: Give you visibility into the upcoming deals to identify risks. To learn more, see [Pipeline](#pipeline)
 - **Activities**: Give you visibility into the activities that have contributed most to success. To learn more, see [Activities](#activities)
 - **Lead**: Helps you predict whether there are enough leads to replenish the pipeline. To learn more, see [Leads](#leads)
-=======
-- **Forecast**: Gives you an overview of all sales against the intended quota for the full period.
-- **Actuals**: Give you a deeper understanding of closed revenue.
-- **Pipeline**: Give you visibility into the upcoming deals to identify risks.
-- **Lead**: Helps you predict whether there are enough leads to replenish the pipeline.
-- **Activities**: Give you visibility into the activities that have contributed most to success.
-- **Predictive forecast**: Helps you to predict sales forecast for the current period by providing visibility into your business.
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
+- **Predictive forecast**: Helps you to predict sales forecast for the current period by providing visibility into your business. To learn more, see [Preview: Predictive forecast](#preview-predictive-forecast)
 
 > [!div class="mx-imgBorder"]
 > ![Open business section](media/d365-ai-business-tabs.png "Open business section")
@@ -193,8 +185,4 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
-<<<<<<< HEAD
 - [Unlock sales potential with Dynamics 365 Sales Insights](dynamics365-ai-sales-app.md)
-=======
-[Unlock sales potential with Dynamics 365 AI for Sales](dynamics365-ai-sales-app.md)
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
