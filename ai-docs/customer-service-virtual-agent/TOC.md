@@ -42,13 +42,11 @@
 
 ## [Analytics overview](analytics-overview.md)
 
-## [Summary dashboard](analytics-summary.md)
+## [Summary page](analytics-summary.md)
 
-## [Engagement dashboard](analytics-engagement.md)
+## [Customer satisfaction page](analytics-csat.md)
 
-## [Customer satisfaction dashboard](analytics-csat.md)
-
-## [Topic details dashboard](analytics-topic-details.md)
+## [Topic details page](analytics-topic-details.md)
 
 ## [Sessions page](analytics-sessions.md)
 
