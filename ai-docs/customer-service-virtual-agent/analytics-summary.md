@@ -2,7 +2,7 @@
 title: "Summary dashboard"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Summary dashboard."
 keywords: ""
-ms\.date: 2/26/2019
+ms.date: 05/09/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -26,9 +26,11 @@ The Summary dashboard includes a variety of charts with graphical views of your 
 * [Resolution rate drivers](#resolution-rate-drivers-chart)
 * [Average CSAT score](#average-csat-score-chart)
 * [CSAT survey response rate](#csat-survey-response-rate-chart)
+* [Session outcomes over time chart](#session-outcomes-over-time-chart)
+* [Engagement over time chart](#engagement-over-time-chart)
 
 The Engagement rate drivers, Abandon rate drivers, and Resolution rate drivers charts use natural language understanding to group support cases as topics. These charts show you the topics that are having the most impact on the performance of your virtual agent.
-
+ 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
 ## Summary charts
@@ -102,3 +104,22 @@ The Customer satisfaction chart provides a graphical view of the average of cust
 ## CSAT survey response rate chart
 
 The Survey response rate chart shows the number of CSAT surveys that were presented and the percentage of surveys that were completed.
+
+## Session outcomes over time chart
+
+The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.
+
+Description | Details
+----------- | -------
+Resolved | The daily rate of resolved sessions. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
+Escalated | The daily rate of escalated sessions. An escalated session is an engaged session that is escalated to a human agent.
+Abandoned | The daily rate of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
+
+## Engagement over time chart
+
+The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered, or the session ends in escalation.
+
+Description | Details
+----------- | -------
+Engaged | The daily number of engaged sessions.
+Unengaged | The daily number of unengaged sessions.
