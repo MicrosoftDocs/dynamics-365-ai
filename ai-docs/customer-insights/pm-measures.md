@@ -54,15 +54,9 @@ To begin defining a measure, from the **Measures** page, select **Add New Measur
 > ![](media/search-measures.png "Search measures")
 
 ## Step Two: Choose the starting entity
-<<<<<<< HEAD
 
 Selecting **New Measure** opens the measure creation pane. 
 
-=======
-
-Selecting **New Measure** opens the measure creation pane. 
-
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 For the **Business Measure** option, you will see the **New business measure** pane:
 
 > [!div class="mx-imgBorder"] 
@@ -92,15 +86,9 @@ After completing Step Two, you'll see the following page:
 > ![](media/measure-definition.png "Measure definition")
 
 Customer Insights lets you build measures by leveraging data from multiple data sources that are now connected through the Customer entity. At this point, you should decide whether additional entities are needed as part of your measure definition. 
-<<<<<<< HEAD
 
 One use case might be creating an expression that is based on attributes from two or more different entities (see Step Four).  Another use case, specifically for the customer measure and business measure, is creating a measure entity that is composed of multiple entities (see Step Five). 
 
-=======
-
-One use case might be creating an expression that is based on attributes from two or more different entities (see Step Four).  Another use case, specifically for the customer measure and business measure, is creating a measure entity that is composed of multiple entities (see Step Five). 
-
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 In order to choose additional entities, select **Add new entity**, and choose the entities you want.
 
 > [!div class="mx-imgBorder"] 
@@ -181,15 +169,11 @@ Select or enter the following information as part of your dimension's definition
 **Step 3 (optional)**: Add aggregate functions 
 
 Any aggregation that you create results in a new value within your Measures entity or attribute. 
-<<<<<<< HEAD
-Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, and **Count Unique**.
-=======
 Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, **Count Unique**, **First** and **Last**.
 Note: 
 - Under the **Last** operator, the last record that was added to each dimension value will be taken. For example, if the dimension is CustomerID and the Last operator is applied on a Sales attribute, the result will be the last sales record for each CustomerID.
 - Under the **First** operator, the first record will be taken for each dimension value.
 
->>>>>>> 9038288590d9c0ede6e36a98eef443aa9aa336f1
 
 For example, let's assume that we have added the aggregated value **Average Service Amount**, which takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it:
 
