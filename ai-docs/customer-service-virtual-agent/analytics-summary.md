@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Summary dashboard
+# Summary page
 
    > ![Summary dashboard](media/analytics-pane.png)
 
