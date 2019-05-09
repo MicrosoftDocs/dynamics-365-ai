@@ -1,8 +1,8 @@
 ---
-title: "Customer satisfaction rate dashboard"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Customer satisfaction dashboard."
+title: "Customer satisfaction rate page"
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Customer satisfaction page."
 keywords: ""
-ms\.date: 2/26/2019
+ms\.date: 05/09/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Customer satisfaction dashboard
+# Customer satisfaction page
 
 The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including the average CSAT score over time and the topics that are having the most impact on the CSAT score.
 
@@ -21,6 +21,8 @@ The Customer satisfaction dashboard includes a variety of charts with graphical 
 * [Customer satisfaction drivers chart](#customer-satisfaction-drivers-chart)
 * [CSAT summary charts](#csat-summary-charts)
 * [Scores over time chart](#scores-over-time-chart)
+* [Average CSAT score](#average-csat-score-chart)
+* [CSAT survey response rate](#csat-survey-response-rate-chart)
 
 The Customer satisfaction drivers chart shows you the topics that are having the most impact on customer satisfaction.
 
@@ -61,3 +63,11 @@ A blue up-and-down indicator below the value indicates the percent change in a p
 ## Scores over time chart
 
 The Scores over time chart provides a graphical view of the average CSAT score over the specified time period.
+
+## Average CSAT score chart
+
+The Customer satisfaction chart provides a graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. The CSAT survey asks customers to rate their experience on a scale of "terrible" to "excellent," where "terrible" is given a value of 1 and "excellent" is given a value of 5.
+
+## CSAT survey response rate chart
+
+The Survey response rate chart shows the number of CSAT surveys that were presented and the percentage of surveys that were completed.

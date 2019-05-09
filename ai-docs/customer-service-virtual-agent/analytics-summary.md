@@ -2,7 +2,7 @@
 title: "Summary dashboard"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Summary dashboard."
 keywords: ""
-ms\.date: 2/26/2019
+ms.date: 05/09/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Summary dashboard
+# Summary page
 
    > ![Summary dashboard](media/analytics-pane.png)
 
@@ -24,11 +24,11 @@ The Summary dashboard includes a variety of charts with graphical views of your 
 * [Escalation rate drivers](#escalation-rate-drivers-chart)
 * [Abandon rate drivers](#abandon-rate-drivers-chart)
 * [Resolution rate drivers](#resolution-rate-drivers-chart)
-* [Average CSAT score](#average-csat-score-chart)
-* [CSAT survey response rate](#csat-survey-response-rate-chart)
+* [Session outcomes over time chart](#session-outcomes-over-time-chart)
+* [Engagement over time chart](#engagement-over-time-chart)
 
 The Engagement rate drivers, Abandon rate drivers, and Resolution rate drivers charts use natural language understanding to group support cases as topics. These charts show you the topics that are having the most impact on the performance of your virtual agent.
-
+ 
 By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
 
 ## Summary charts
@@ -44,6 +44,7 @@ Engagement rate | The percentage of total sessions that are engaged sessions. An
 Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
 Escalation rate | The percentage of engaged sessions that are escalated. An escalated session is an engaged session that is escalated to a human agent.
 Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
+Average CSAT | The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey.
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
@@ -95,10 +96,21 @@ Improving the resolution rate for the top resolution-rate topics in red has the 
 
 To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
 
-## Average CSAT score chart
+## Session outcomes over time chart
 
-The Customer satisfaction chart provides a graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. The CSAT survey asks customers to rate their experience on a scale of "terrible" to "excellent," where "terrible" is given a value of 1 and "excellent" is given a value of 5.
+The Session outcomes over time chart provides a graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.
 
-## CSAT survey response rate chart
+Description | Details
+----------- | -------
+Resolved | The daily rate of resolved sessions. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
+Escalated | The daily rate of escalated sessions. An escalated session is an engaged session that is escalated to a human agent.
+Abandoned | The daily rate of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
-The Survey response rate chart shows the number of CSAT surveys that were presented and the percentage of surveys that were completed.
+## Engagement over time chart
+
+The Engagement over time chart provides a graphical view of the number of engaged and unengaged sessions over time. An engaged session is a session in which a user-created topic is triggered, or the session ends in escalation.
+
+Description | Details
+----------- | -------
+Engaged | The daily number of engaged sessions.
+Unengaged | The daily number of unengaged sessions.
