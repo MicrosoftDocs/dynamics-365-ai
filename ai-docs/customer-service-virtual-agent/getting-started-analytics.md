@@ -48,7 +48,7 @@ Key performance indicator charts give you a view of the key performance data for
 * The percentage of engaged sessions during the period that are resolved. A resolved session is a session in which customers are offered an end-of-conversation survey.
 * The percentage of engaged sessions during the period that are escalated. An escalated session is a session in which a customer requests help from a live agent.
 * The percentage of engaged sessions during the period that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
-* The average CSAT survey score for the topic.
+* The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey.
 
     > ![KPI summary charts](media/summary-charts.png)
 
