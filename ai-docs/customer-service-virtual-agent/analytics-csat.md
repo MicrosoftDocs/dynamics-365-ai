@@ -1,6 +1,6 @@
 ---
-title: "Customer satisfaction rate dashboard"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Customer satisfaction dashboard."
+title: "Customer satisfaction rate page"
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Customer satisfaction page."
 keywords: ""
 ms\.date: 05/09/2019
 ms.service:
@@ -12,7 +12,7 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Customer satisfaction dashboard
+# Customer satisfaction page
 
 The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including the average CSAT score over time and the topics that are having the most impact on the CSAT score.
 
