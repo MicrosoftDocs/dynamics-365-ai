@@ -24,8 +24,6 @@ The Summary dashboard includes a variety of charts with graphical views of your 
 * [Escalation rate drivers](#escalation-rate-drivers-chart)
 * [Abandon rate drivers](#abandon-rate-drivers-chart)
 * [Resolution rate drivers](#resolution-rate-drivers-chart)
-* [Average CSAT score](#average-csat-score-chart)
-* [CSAT survey response rate](#csat-survey-response-rate-chart)
 * [Session outcomes over time chart](#session-outcomes-over-time-chart)
 * [Engagement over time chart](#engagement-over-time-chart)
 
@@ -46,6 +44,7 @@ Engagement rate | The percentage of total sessions that are engaged sessions. An
 Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
 Escalation rate | The percentage of engaged sessions that are escalated. An escalated session is an engaged session that is escalated to a human agent.
 Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
+Average CSAT | The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey.
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
@@ -96,14 +95,6 @@ The chart displays the impact as a red or blue bar. A red bar indicates that the
 Improving the resolution rate for the top resolution-rate topics in red has the greatest impact on improving the overall resolution rate.
 
 To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
-
-## Average CSAT score chart
-
-The Customer satisfaction chart provides a graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey. The CSAT survey asks customers to rate their experience on a scale of "terrible" to "excellent," where "terrible" is given a value of 1 and "excellent" is given a value of 5.
-
-## CSAT survey response rate chart
-
-The Survey response rate chart shows the number of CSAT surveys that were presented and the percentage of surveys that were completed.
 
 ## Session outcomes over time chart
 
