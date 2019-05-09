@@ -2,7 +2,7 @@
 title: "Accessibility for Market Insights | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Market Insights."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 10/31/2018
+ms.date: 05/09/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: c4e0ec5b-2b74-4805-9741-f0aae8501ec2
@@ -29,73 +29,6 @@ search.app:
 [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
 ## Accessibility capabilities built into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
-
-### Switch to the table view to improve readability of data points
-
-Widgets in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] can show in a chart view or a table view. You can decide whether you want to work with the data represented as charts or as tables.
-You can turn on the table view for a widget in chart view by selecting the ![more options control](media/more-options-icon.png "More options control") control on the chart you want to change and then selecting the **Switch to table view** option. To switch back, open the same control and select **Switch to chart view**.    
-To enable the table view for all widgets by default, go to **Settings > User Preferences** and change the value under **Chart data representation mode** from **Chart** to **Table**.
-
-### Change how colors on charts are displayed
-
-[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] also provides a fill pattern for charts with colored areas. You can choose to render the charts with a fill pattern or a solid color. To switch between a fill pattern and solid color, go to **Settings > User Preferences** and update the **Chart filling mode**.
-
-When selecting the fill pattern, data on maps will be represented in different shapes and will not rely exclusively on color.
-
-> [!NOTE]
-> The Analytics area in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] renders the data in charts by default. Data points in charts aren’t accessible with keyboard navigation. You can either turn on the table view on single charts when working in the Analytics area, or you can enable the table view globally for your user profile in **Settings > User Preferences** under **Chart data representation mode**. 
-> To change the solid colors to a fill pattern for better visual distinction, go to **Settings > User Preferences** and update the **Chart filling mode**.
-
-### Navigate post list and post details with your keyboard
-
-Whenever [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] shows posts, you are presented with a post list and a detail view for a specific post. Keyboard navigation in the list is solved by treating it as a layout grid that has a single tab stop. 
-
-Once the focus is in the post list, you can use arrow keys and Enter to navigate:
-
-- Each post is a row with several cells. To move within a row, use left and right arrow keys. 
-- To move to the next row (the next post), use up and down arrow keys. Focus will move the same cell type in the next row.
-- If a cell contains a single control, the focus will move to the control. Simply activate the control to interact with it. Example: “Open” control to open post details.
-- If a cell contains content and several controls, the focus is set to the cell border. To interact with the elements inside this cell select the Enter or F2 key to move focus into the cell. In this mode, you can interact with each element in the cell, including activating controls: Use the arrow keys to move focus. To leave a cell, select the Escape or F2 key to move the focus back onto the cell border again.
-
-When navigating the Post details view, which shows the post and a parent post, you can collapse or expand the contents:
-
-- Move the focus using the Tab key to go to the heading for “parent” and “child” posts, which serve as collapse/expand buttons. 
-- When collapsed, the post preview won’t receive focus.
-- When expanded, the post’s content and all possible actions can be reached by moving focus with the Tab key.
-- Whenever one of those posts is expanded, the other is collapsed. 
-- The post details view can contain several threads. These can be navigated exactly like the post list.
-
-### Navigate maps with keyboard
-
-#### Analytics
-
-You can navigate the maps in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] with a keyboard by selecting Tab to reach the first data point on a map. The order of navigation is based on sorting the data points by latitude, from north to south. The first tab stop starts on the northernmost data point.  
-
-- To move to the next data point, select the right or down arrow. 
-- To move to the previous data point, select the left or up arrow. 
-
-#### Activity maps
-
-Activity maps let you read the data either by analyzing the data on the visual map or from the table view, which can be turned on using the **Switch to table view** control.
-To navigate the data on the visual activity map, select Tab until you reach a data point on the map. Then you can use the arrow keys to browse through all data points on the map. The arrow keys indicate the direction where the next data point will be:
-- Left arrow: the closest data point in the west
-- Up arrow: the closest data point in the north
-- Right arrow: the closest data point in the east
-- Down arrow: the closest data point in the south
-
-To navigate the data in the cells of the table view, select the arrow keys.    
-
-To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide the latitude and longitude for Point A and for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
-
-
-## Accessibility in applications that can work with [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] data
-
-[!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] provides integrations and data export for other applications. 
-
-- We recommend using the [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] content pack with [Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-accessibility) due to accessibility support of [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-- Learn more about [accessibility for Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/basics/accessibility-people-with-disabilities) apps. 
-
-## General accessibility capabilities 
 
 ### Work with a screen reader
 
@@ -140,8 +73,3 @@ For accessibility information for specific browsers, visit the following website
 -   [Google Chrome accessibility features](https://sites.google.com/a/chromium.org/dev/user-experience)  
   
 For more information on detailed accessibility features built into Microsoft products, refer to [Section 508 VPATs for Microsoft products](https://enterprise.microsoft.com/en-us/industries/government/section-508-vpats-for-microsoft-products/).  
-  
-### See Also  
-
-[Market Insights overview](overview.md)    
-[Manage user preferences](user-preferences.md)    
