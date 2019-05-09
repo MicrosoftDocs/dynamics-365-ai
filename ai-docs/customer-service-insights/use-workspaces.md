@@ -72,7 +72,7 @@ On the **Share** tab of the **Share this workspace** dialog box, enter the email
 
 ## Managing access to workspaces
 
-There are two roles with different permissions levels for users of workspaces:  
+There are two roles, with different permissions levels, for users of workspaces:  
 
 - **Owner**: Creator of a workspace.</br>
   Owners manage access to their workspaces.
