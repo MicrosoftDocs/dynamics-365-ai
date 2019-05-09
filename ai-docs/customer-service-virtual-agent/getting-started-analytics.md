@@ -2,7 +2,7 @@
 title: "Using analytics to improve your virtual agent"
 description: "Learn how to use analytics to improve your Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 05/09/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,7 +20,7 @@ To view the analytics dashboards, select **Analytics** in the navigation pane to
 
    > ![Open Analytics page](media/open-analytics.png)
 
-You can display [Summary](analytics-summary.md), [Engagement](analytics-engagement.md), and [Customer satisfaction](analytics-csat.md) dashboards, or download sessions information by selecting the appropriate tab on the Analytics page.
+You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) dashboards, or download sessions information by selecting the appropriate tab on the Analytics page.
 
    > ![Dashboard tabs](media/dashboard-tabs.png)
 
@@ -48,6 +48,7 @@ Key performance indicator charts give you a view of the key performance data for
 * The percentage of engaged sessions during the period that are resolved. A resolved session is a session in which customers are offered an end-of-conversation survey.
 * The percentage of engaged sessions during the period that are escalated. An escalated session is a session in which a customer requests help from a live agent.
 * The percentage of engaged sessions during the period that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
+* The average CSAT survey score for the topic.
 
     > ![KPI summary charts](media/summary-charts.png)
 
@@ -71,7 +72,6 @@ For details on Dynamics 365 Virtual Agent for Customer Service analytics, see th
 
 * [Analytics overview](analytics-overview.md)
 * [Summary dashboard](analytics-summary.md)
-* [Engagement dashboard](analytics-engagement.md)
 * [Customer satisfaction dashboard](analytics-CSAT.md)
 * [Topic details dashboard](analytics-topic-details.md)
 * [Download sessions page](analytics-sessions.md)
