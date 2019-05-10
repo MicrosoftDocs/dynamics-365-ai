@@ -12,11 +12,11 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Hand off a bot conversation to a live agent
+# Hand off a bot conversation to a live human agent
 
-A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate hand-off by re-directing users to Escalate system topic.
+A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate hand-off by re-directing users to Escalate system topic. To get started, update the Escalate system topic.
 
-## To add a handoff to a live agent
+## Update Escalate system topic to handoff to a live agent
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
@@ -30,7 +30,15 @@ A bot can resolve many customer support issues, but there are times when an issu
 
    > ![Save topic](media/replace-placeholder.png)
 
-4. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to add the handoff, and then select **Escalate**.
+You are now ready to redirect users to this topic to initiate hand-off.
+
+## Initiate hand-off to human agent from any user topic
+
+1. Select **Topics** in the navigation pane to open the Topics page.
+
+   > ![Open Topics page](media/open-topics.png)
+
+2. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to trigger handoff to live human agent, and then add **Escalate**.
 
    > ![Select Escalate](media/select-escalate.png)
 
@@ -38,4 +46,6 @@ A bot can resolve many customer support issues, but there are times when an issu
 
    > ![Add Escalate node](media/add-escalate.png)
 
-5. Select **Save** to save the topic, and then test your bot in the Test bot pane to see how the handoff works for customers.
+3. Select **Save** to save the topic. 
+
+Your topic now redirects to "Escalate" to initiate hand-off to human agent. 
