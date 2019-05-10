@@ -1,7 +1,7 @@
 ---
-title: "Frequently asked questions for Dynamics 365 AI for sales | MicrosoftDocs"
-description: "Frequently asked questions for Dynamics 365 AI for sales seller capabilities"
-keywords: "FAQs, Dynamics 365 AI for sales, AI for sales, Sales AI"
+title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Frequently asked questions for Dynamics 365 Sales Insights seller capabilities"
+keywords: "FAQs, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 12/13/2018
 ms.service: crm-online
 ms.custom: 
@@ -28,7 +28,7 @@ topic-status: Drafting
 Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​
 
 **How do I enable Relationship analytics?​**<br>
-Install Dynamics 365 AI for Sales and enable the Relationship analytics feature from  **Settings** > **AI setup**.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​
 
 **What is the frequency of KPI updates?​**<br>
 KPIs are updated every 24 hours, potentially fewer.​
@@ -42,7 +42,7 @@ An administrator can influence the relationship health score by changing the wei
 ## Predictive lead/opportunity scoring
 
 **What do I need in order to use lead/opportunity scoring?​**<br>
-Install Dynamics 365 AI for Sales and use standard lead entity or standard opportunity entity.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​
 
 To build a lead score model, a minimum of 100 qualified and 1,000 disqualified leads are required. 
 
@@ -69,7 +69,7 @@ The grade is just grouping scores in four buckets that the admin can configure.
 Notes analysis requires Office 365.​
 
 **How do I enable Notes analysis?​**<br>
-Install Dynamics 365 AI for Sales and enable the Notes analysis feature from **Settings** > **AI setup**.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Notes analysis feature from **Settings** > **AI setup**.​
 
 **What does Notes analysis look at for the intent?​**<br>
 Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
@@ -80,7 +80,7 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 Talking points require Office 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
 
 **How do I enable Talking points?​**<br>
-Install Dynamics 365 AI for Sales and enable the Talking points feature from **Settings** > **AI setup**.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Talking points feature from **Settings** > **AI setup**.​
 
 **What do Talking points look at for the conversation starters?​**<br>
 Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
@@ -97,7 +97,7 @@ It takes a few seconds to display the results.​
 Who knows whom requires Office 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as AI for Sales becomes available in more regions. Server-side sync is required for email introduction requests.​
 
 **How do I enable Who knows whom?​**<br>
-Install Dynamics 365 AI for Sales, opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
 
 **How long will it take for results to appear?**<br>
 The graph requires approximately 24 hours to populate the results for the first time. Subsequent updates take 3-6 days based on new activities included in the graph.​

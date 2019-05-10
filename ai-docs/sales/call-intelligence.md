@@ -29,7 +29,7 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue.  [!INCLUDE[pn-dynamics-ai-sales](../includes/pn-dynamics-ai-sales.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
+Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue.  [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] provides you with **Call intelligence**, an intelligent solution to analyze these calls. Analyzing the data from Call intelligence helps you to:
 
 - Increase sales wins.
 - Reduce new salesperson training time.

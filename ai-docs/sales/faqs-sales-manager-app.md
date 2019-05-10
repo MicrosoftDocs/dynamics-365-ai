@@ -1,7 +1,7 @@
 ---
-title: "Frequently asked questions for Dynamics 365 AI for Sales | MicrosoftDocs"
-description: "Frequently asked questions for Dynamics 365 AI for Sales app"
-keywords: "FAQs, Dynamics 365 AI for sales, AI for sales, Sales AI"
+title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Frequently asked questions for Dynamics 365 Sales Insights app"
+keywords: "FAQs, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 12/13/2018
 ms.service: crm-online
 ms.custom: 
@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Frequently asked questions for sales manager capabilities
 
-## Dynamics 365 AI for Sales app
+## Dynamics 365 Sales Insights application
 
 **What languages are supported now?​**<br>
 The application supports English (en-us) for tenants in the US region. We will support more languages in future releases.
@@ -31,7 +31,7 @@ The application supports English (en-us) for tenants in the US region. We will s
 We plan to enhance our region availability in future releases.
 
 **Can I add my own reports?**<br>
-No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities, you may leave us a suggestion at [Dynamics 365 AI for Sales communities](https://aka.ms/aisalescommunities).
+No, currently we provide out-of-the-box visualizations and charts only. If you require more capabilities, you may leave us a suggestion at [Dynamics 365 Sales Insights communities](https://aka.ms/aisalescommunities).
 
 **Are goals required for using the app?**<br>
 No. However, it is a good idea to set up revenue goals for each seller to get even better insights into the performance of your team. For more information, see [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales).
