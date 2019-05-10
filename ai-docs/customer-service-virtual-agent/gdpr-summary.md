@@ -2,7 +2,7 @@
 title: "Overview of GDPR compliance for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,7 +16,7 @@ manager: shellyha
 
 This article helps you and your organization comply with the European Union's General Data Protection Regulation (GDPR). This article not only describes what Microsoft is doing to comply with the GDPR but also shares examples of steps you can take to support GDPR compliance when using Dynamics 365 Virtual Agent for Customer Service.
 
-   **Note:**   Because access to your virtual agent is managed by your Azure Active Directory (Azure AD) tenant administrator, other users with admin permissions have access to your virtual agent content.
+   **Note:**   Because access to your bot is managed by your Azure Active Directory (Azure AD) tenant administrator, other users with admin permissions have access to your bot content.
 
 ## Prerequisites
 
@@ -27,13 +27,6 @@ Users and tenant administrators can perform the actions outlined in this article
 The GDPR gives rights to people (known in the GDPR as data subjects) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the data controller or just controller). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take an action on their personal data is called a Data Subject Request (DSR).
 
 This article describes how to use Microsoft's products, services, and administrative tools to help controllers find and act on personal data when responding to DSRs. Specifically, this article includes how to find, access, and act on personal data that resides in the Microsoft Cloud. Here’s a quick overview of the processes outlined in this guide:
-
-<!--note from editor: In 2nd para of Step 3 below, is "customer" the same as the "you" in other steps in procedure?-->
-
-<!--note from editor: I changed lowercase "cloud" to "Cloud" per this style guidance: "Microsoft Cloud (Microsoft Cloud Style Guide)
-Microsoft Cloud is used in enterprise marketing spanning Azure, Dynamics CRM, and Office 365. There is no single offering or service by this name.
-Example: 
-Getting started with the Microsoft Cloud." -->
 
 1. Access: Retrieve personal data that resides in the Microsoft Cloud, and, if requested, make a copy of it that can be available to the data subject.
 2. Rectify: Make changes or implement other requested actions on the personal data, where applicable.
