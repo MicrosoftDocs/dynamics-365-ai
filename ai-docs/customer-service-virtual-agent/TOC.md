@@ -6,37 +6,37 @@
 
 ## [Creating a PowerApps environment](getting-started-new-environment.md)
 
-## [Creating a virtual agent](getting-started-create-bot.md)
+## [Creating a bot](getting-started-create-bot.md)
 
-## [Working with the Virtual Agent Designer](getting-started-bot-designer.md)
+## [Working with Virtual Agent](getting-started-bot-designer.md)
 
-## [Creating a custom greeting for your virtual agent](getting-started-create-greeting.md)
+## [Creating a custom greeting for your bot](getting-started-create-greeting.md)
 
-## [Creating custom topics for your virtual agent](getting-started-create-topics.md)
+## [Creating custom topics for your bot](getting-started-create-topics.md)
 
 ## [Working with the conversation editor design canvas](expanding-design-canvas.md)
 
-## [Using analytics to improve your virtual agent](getting-started-analytics.md)
+## [Using analytics to improve your bot](getting-started-analytics.md)
 
-## [Deploying your virtual agent](getting-started-deploy.md)
+## [Deploying your bot](getting-started-deploy.md)
 
-## [Deleting your virtual agent](getting-started-delete-bot.md)
+## [Deleting your bot](getting-started-delete-bot.md)
 
 # How-to
 
 ## [Work with templates](how-to-templates.md)
 
-## [Work with the Test Virtual Agent](how-to-test-bot.md)
+## [Work with the Test bot pane](how-to-test-bot.md)
 
 ## [Work with variables](how-to-variables.md)
 
-## [Hand off a virtual agent conversation to a live agent](how-to-handoff.md)
+## [Hand off a bot conversation to a live agent](how-to-handoff.md)
 
 ## [Connect to your customer service data](how-to-connect-data.md)
 
 ## [Improve data quality by cleansing support case titles](how-to-cleanse-data.md)
 
-## [Add actions to your virtual agent using Microsoft Flow](how-to-flow.md)
+## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
 # Reference
 
