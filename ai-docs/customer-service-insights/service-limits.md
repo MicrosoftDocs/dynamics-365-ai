@@ -2,7 +2,7 @@
 title: "Service limits in Dynamics 365 Customer Service Insights"
 description: "Understand limits and restrictions within the Dynamics 365 Customer Service Insights product."
 keywords: ""
-ms.date: 4/26/2019
+ms.date: 05/10/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -18,7 +18,7 @@ This article describes the built-in limits to the Customer Service Insights serv
  
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| Data import | Cases created in the last 60 days, or 1 million cases   | The number of cases that can be imported is determined by your organization's licensing. See [Licensing and case-capacity considerations](licensing-case-capacity.md) for details. <br> <br> Cases created on the same day a workspace is created will be imported through the daily refresh on the following day. |
+| Data import | Cases created in the last 60 days, or 1 million cases   | The number of cases that can be imported is determined by your organization's licensing. See [Licensing and case-capacity considerations](licensing-case-capacity.md) for details. <br> <br> Additionally, cases created on the same day will also be imported when a workspace is created or refreshed. They count towards the 1 million case limit. |
 | Automatic data refresh | Once every 24 hours | Automatic data refresh occurs automatically, starting at midnight UTC. The time when the refresh completes is not guaranteed. |
 | Manual data refresh | On-demand data refresh is allowed up to 10 times per day. | After the limit is reached, you need to wait for the automatic refresh to occur for the manual refresh limit to reset. For more information about the manual data refresh, see [Trigger a refresh of your Customer Service Insights data](trigger-refresh.md).  |
 | Data location | Data is located in the same region as the Dynamics 365 environment the data is connected to.     | Geographical location of data occurs automatically and cannot be controlled by users at this time. |
