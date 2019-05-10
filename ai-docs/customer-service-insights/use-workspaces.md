@@ -2,7 +2,7 @@
 title: "Use and manage workspaces to connect to different customer service environments"
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 5/09/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -14,7 +14,7 @@ manager: shellyha
 
 # Use and manage workspaces to connect to different customer service environments
 
-When you work with the dashboards in Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
+When you work with the dashboards in Dynamics 365 Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
 
 You can use and manage workspaces in a variety of ways, including:
 
@@ -30,7 +30,7 @@ To launch Customer Service Insights, navigate to [https://csi.ai.dynamics.com](h
 
 ![Connect your data screen](media/connect-data.png)
 
-Each workspace displays customer service data from a specific customer service data environment. To connect to a Dynamics 365 for Customer Service Insights environment, select **Dynamics 365** to display the **Choose an environment** screen.
+Each workspace displays customer service data from a specific customer service data environment. To connect to a Dynamics 365 Customer Service Insights environment, select **Dynamics 365** to display the **Choose an environment** screen.
 
 ![Choose an environment screen](media/choose-environment.png)
 
@@ -68,16 +68,16 @@ To share a workspace, select the **Workspaces** icon on the Customer Service Ins
 
 ![Share workspace](media/share-workspace.png)
 
-On the **Share** tab of the **Share this workspace** dialog box, enter the email address of a user with a Customer Service Insights licence to share the workspace. Users will get an email with an optional message when a workspace gets shared.
+On the **Share** tab of the **Share this workspace** dialog box, enter the email address of a user who has a Customer Service Insights license to share the workspace. Users receive an email with an optional message when a workspace gets shared.
 
 ## Managing access to workspaces
 
-There are two roles with different permissions on workspaces. 
+There are two roles, with different permissions levels, for users of workspaces:  
 
-- **Owner**: creator of a workspace
-    - Can manage access for their workspaces
-- **Viewer**: read-only role introduced when sharing a workspace 
-    - Can access shared workspaces
+- **Owner**: Creator of a workspace.</br>
+  Owners manage access to their workspaces.
+- **Viewer**: Read-only role that is introduced when sharing a workspace.<br> 
+  Viewers can access shared workspaces.
 
 ## Deleting a workspace
 
