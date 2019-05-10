@@ -44,6 +44,8 @@ Follow these steps to delete a bot:
 2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
 
    > ![General settings](media/general-settings.png)
+<<<< @MICHAEL TO DO - Please update General settings image since it has changed >>>>
+
 
 3. In the Delete bot section, select **Delete bot**.
 
