@@ -1,8 +1,8 @@
 ---
-title: "Creating custom topics for your virtual agent"
-description: "Learn how to use the Virtual Agent Designer to create custom topics for your virtual agent."
+title: "Creating custom topics for your bot"
+description: "Learn how to use Virtual Agent to create custom topics for your bot."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,11 +12,11 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Creating custom topics for your virtual agent
+# Creating custom topics for your bot
 
-A topic defines a conversation path with the virtual agent for a specific customer intent. You specify a trigger phrase that prompts the virtual agent to start the conversation. Then create a conversation path in the Virtual Agent Designer's conversation editor to lead customers to a resolution of their support issue.
+A topic defines a conversation path with the bot for a specific customer intent. You specify a trigger phrase that prompts the bot to start the conversation. Then create a conversation path in the Virtual Agent's conversation editor to lead customers to a resolution of their support issue.
 
-You can see how the conversation path works in practice by testing it in the Test Virtual Agent and continue to fine-tune the topic until you are ready to deploy it.
+You can see how the conversation path works in practice by testing it in the Test bot pane and continue to fine-tune the topic until you are ready to deploy it.
 
 ## To create your custom topic
 
@@ -24,13 +24,13 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    > ![Open Topics page](media/open-topics.png)
 
-    The Topics page displays a list of your virtual agent's current topics, including a variety of built-in topics.
+    The Topics page displays a list of your bot's current topics, including a variety of built-in topics.
 
-    The Virtual Agent Designer includes industry-specific topics, depending on the template you used to create your virtual agent. For example, the Retail template includes topics for finding out a store's hours, looking up the balance of a gift card, or paying a bill.
+    Virtual Agent includes industry-specific topics, depending on the template you used to create your bot. For example, the Retail template includes topics for finding out a store's hours, looking up the balance of a gift card, or paying a bill.
 
    > ![Built-in topics](media/template-topics.png)
 
-    The Virtual Agent Designer also includes several system topics that help you address common situations--a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
+    Virtual Agent also includes several system topics that help you address common situations--a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
 
 2. On the Topics page, select **New topic**.
 
@@ -38,7 +38,7 @@ You can see how the conversation path works in practice by testing it in the Tes
 
 3. Specify a name, description, and one or more trigger phrases for the topic.
 
-    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. Once the conversation is started, the conversation follows the path you define. You can specify more than one trigger phrase for a topic. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
+    A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the bot. Once the conversation is started, the conversation follows the path you define. You can specify more than one trigger phrase for a topic. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
 
     Select **Save topic** to add the topic to the topics list.
 
@@ -50,17 +50,17 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    > ![Edit conversation](media/edit-conversation.png)
 
-    The Virtual Agent Designer opens the topic in the conversation editor and displays the topic's trigger phrases. The conversation editor is where you define the conversation path between a customer and the virtual agent.
+    Virtual Agent opens the topic in the conversation editor and displays the topic's trigger phrases. The conversation editor is where you define the conversation path between a customer and the bot.
 
    > ![Open conversation](media/open-conversation.png)
 
     As you define the topic's conversation path, you may want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
 
-2. Enter the virtual agent's response to the trigger phrase in the **Bot says** box.
+2. Enter the bot's response to the trigger phrase in the **Bot says** box.
 
    > ![Add bot response](media/bot-response.png)
 
-3. To specify an additional response by the virtual agent, select **Bot says**.
+3. To specify an additional response by the bot, select **Bot says**.
 
    > ![Additional bot response](media/add-response.png)
 
@@ -98,19 +98,19 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    Then select **Save** to save the conversation path.
 
-As you design your topic's conversation path, you can use the Test Virtual Agent to see how the virtual agent leads the customer through a conversation with the virtual agent.
+As you design your topic's conversation path, you can use the Test bot pane to see how the bot leads the customer through a conversation.
 
-## To test the topic in the Test Virtual Agent
+## To test the topic in the Test bot pane
 
-1. To make sure you are using the most current virtual agent content, select **Start over with latest content** at the top of the Test Virtual Agent pane.
+1. To make sure you are using the most current bot content, select **Start over with latest content** at the top of the Test bot pane.
 
    > ![Restart conversation](media/restart-conversation.png)
 
-2. At the **Type your message** prompt at the bottom of the Test Virtual Agent pane, enter a trigger phrase for the topic.
+2. At the **Type your message** prompt at the bottom of the Test bot pane, enter a trigger phrase for the topic.
 
    > ![Trigger phrase](media/enter-trigger.png)
 
-    The trigger phrase starts the topic's conversation. The Test Virtual Agent displays the bot and user responses that you specified in the conversation editor.
+    The trigger phrase starts the topic's conversation. The Test bot pane displays the bot and user responses that you specified in the conversation editor.
 
    > ![Start conversation](media/start-conversation.png)
 
@@ -118,8 +118,8 @@ As you design your topic's conversation path, you can use the Test Virtual Agent
 
    > ![Complete conversation](media/complete-test.png)
 
-   If the conversation editor is open, you can click on a response in the Test Virtual Agent to navigate to the response in the conversation editor.
+   If the conversation editor is open, you can click on a response in the Test bot pane to navigate to the response in the conversation editor.
 
-You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the virtual agent until you are ready to deploy it. For information on deploying your virtual agent, see [Deploying your virtual agent](getting-started-deploy.md).
+You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).
 
-For more information on using the Test Virtual Agent, see [Work with the Test Virtual Agent](how-to-test-bot.md).
+For more information on using the Test bot pane, see [Work with the Test bot pane](how-to-test-bot.md).
