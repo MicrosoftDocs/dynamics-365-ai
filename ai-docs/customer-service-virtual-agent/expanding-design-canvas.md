@@ -2,7 +2,7 @@
 title: "Working with the conversation editor design canvas"
 description: "Learn how to work with the conversation editor design canvas."
 keywords: ""
-ms.date: 3/19/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,36 +14,36 @@ manager: shellyha
 
 # Working with the conversation editor design canvas
 
-As you design the conversation path for your virtual agent in the conversation editor, you often create a conversation path with multiple nodes and branches based on a customer's response to the options you specify. As the conversation path becomes more complex, it can become challenging to view and work with it in the conversation editor design canvas.
+As you design the conversation path for your bot in the conversation editor, you often create a conversation path with multiple nodes and branches based on a customer's response to the options you specify. As the conversation path becomes more complex, it can become challenging to view and work with it in the conversation editor design canvas.
 
-To help you work with a complex conversation path, Virtual Agent Designer provides a variety of tools to expand the size of the design canvas, adjust the position of the conversation path, zoom in and out of the canvas, and orient the current view of the conversation path. You can:
+To help you work with a complex conversation path, Virtual Agent provides a variety of tools to expand the size of the design canvas, adjust the position of the conversation path, zoom in and out of the canvas, and orient the current view of the conversation path. You can:
 
-* [Expand the size of the design canvas](#expand-the-size-of-the-design-canvas) by hiding the Test Virtual Agent and navigation pane.
+* [Expand the size of the design canvas](#expand-the-size-of-the-design-canvas) by hiding the Test bot and navigation pane.
 * [Adjust the position of the conversation path](#adjust-the-position-of-the-conversation-path) in the design canvas by using the horizontal scroll bar.
 * [Zoom in and out of the design canvas](#zoom-in-and-out-of-the-design-canvas) by using the conversation editor's **Zoom in** and **Zoom out** buttons.
 * [Orient the current view of the conversation path](#orient-the-current-view-of-the-conversation-path) within the conversation path as a whole by using the conversation editor's **Mini-map** button.
 
 ## Expand the size of the design canvas
 
-When you open a topic in the conversation editor, Virtual Agent Designer by default displays the Test Virtual Agent and navigation panes along with the conversation editor design canvas.
+When you open a topic in the conversation editor, Virtual Agent by default displays the Test bot and navigation panes along with the conversation editor design canvas.
 
    > ![Conversation editor default](media/conversation-editor-default.png)
 
-To expand the size of the conversation editor design canvas, you can hide the Test Virtual Agent and navigation panes.
+To expand the size of the conversation editor design canvas, you can hide the Test bot and navigation panes.
 
-To hide the Test Virtual Agent, select **Hide Virtual Agent** in the lower left corner of the Virtual Agent Designer.
+To hide the Test bot pane, select **Hide bot** in the lower left corner of Virtual Agent.
 
-   > ![Hide Test Agent](media/expand-canvas-test.png)
+   > ![Hide Test bot](media/expand-canvas-test.png)
 
-To hide the navigation pane, select the navigation pane icon in the upper left corner of the Virtual Agent Designer.
+To hide the navigation pane, select the navigation pane icon in the upper left corner of Virtual Agent.
 
    > ![Hide navigation pane](media/expand-canvas-nav.png)
 
-After you hide the Test Virtual Agent and navigation panes, the conversation editor design canvas uses the full Virtual Agent Designer screen.
+After you hide the Test bot and navigation panes, the conversation editor design canvas uses the full Virtual Agent screen.
 
    > ![Full screen](media/full-screen.png)
 
-To restore the Test Virtual Agent, select **Show Virtual Agent** or the Show Virtual Agent icon. To restore the navigation pane, select the navigation pane icon again.
+To restore the Test bot pane, select **Show bot** or the Show bot icon. To restore the navigation pane, select the navigation pane icon again.
 
 ## Adjust the position of the conversation path
 
