@@ -14,7 +14,7 @@ manager: shellyha
 
 # Hand off a bot conversation to a live agent
 
-A bot can resolve many customer support issues, but there might be times when an issue requires a live agent. As you design the conversation path for your bot's topics, you can include a handoff to a live agent by using the Escalate system topic.
+A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate hand-off by re-directing users to Escalate system topic.
 
 ## To add a handoff to a live agent
 
