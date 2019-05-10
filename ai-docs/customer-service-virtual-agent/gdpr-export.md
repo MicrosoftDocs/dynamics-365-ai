@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Export Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Export Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms\.date: 2/26/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,14 +20,14 @@ The right of data portability allows a data subject to request a copy of the
 
 Dynamics 365 Virtual Agent for Customer Service offers the following experiences to find or export personal data for a specific user:
 
-* Export customer data – Virtual Agent Designer bot content
-* Export customer data – Virtual Agent Designer system content
-* Export customer data – Virtual Agent Designer nonsystem content
+* Export customer data – Virtual Agent bot content
+* Export customer data – Virtual Agent system content
+* Export customer data – Virtual Agent non-system content
 * Export customer data – Analytics data
 
-### Export customer data – Virtual Agent Designer bot content
+### Export customer data – Virtual Agent bot content
 
-1. Open the Virtual Agent Designer in your browser.
+1. Open Virtual Agent in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings window.
 
    > ![General settings](media/general-settings.png)

@@ -1,8 +1,8 @@
 ---
-title: "Add actions to your virtual agent using Microsoft Flow"
-description: "Learn how to add actions to your virtual agent using Microsoft Flow."
+title: "Add actions to your bot using Microsoft Flow"
+description: "Learn how to add actions to your bot using Microsoft Flow."
 keywords: ""
-ms.date: 3/15/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,13 +12,13 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Add actions to your virtual agent using Microsoft Flow
+# Add actions to your bot using Microsoft Flow
 
-You can enable your virtual agent to perform an action by invoking a Microsoft Flow. Use a flow that shares the same Common Data Service (CDS) environment as the virtual agent. First, create a Microsoft PowerApps environment and then create your flow. Once you have created the flow, you can create a virtual agent that uses an action to invoke the flow.
+You can enable your bot to perform an action by invoking a Microsoft Flow. Use a flow that shares the same Common Data Service (CDS) environment as the bot. First, create a Microsoft PowerApps environment and then create your flow. Once you have created the flow, you can create a bot that uses an action to invoke the flow.
 
 ## To create a Microsoft PowerApps environment
 
-1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your virtual agent.
+1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your bot.
 
     For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
@@ -40,9 +40,9 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
    > ![New flow](media/new-flow.png)
 
-    You can create a variety of flows for your solution. For example, you could create a simple flow that takes an email address as an input parameter, sends an email message to that address, and returns a message that the email was successfully sent to a virtual agent as output.
+    You can create a variety of flows for your solution. For example, you could create a simple flow that takes an email address as an input parameter, sends an email message to that address, and returns a message that the email was successfully sent to a bot as output.
 
-3. Select a trigger for your flow. A Virtual Agent Designer virtual agent can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When a HTTP request is received** to create a flow with an HTTP request trigger.
+3. Select a trigger for your flow. A Virtual Agent bot can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When a HTTP request is received** to create a flow with an HTTP request trigger.
 
    > ![Select trigger](media/select-trigger.png)
 
@@ -79,7 +79,7 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
    > ![Return message](media/return-message.png)
 
-8. Use an HTTP Response to return a variable to the virtual agent. In the **Choose an action** window, enter **Response** in the search box, and then select the **Response** action.
+8. Use an HTTP Response to return a variable to the bot. In the **Choose an action** window, enter **Response** in the search box, and then select the **Response** action.
 
    > ![HTTP response](media/http-response.png)
 
@@ -102,25 +102,25 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
    > ![Response action](media/response-action.png)
 
-## To create a virtual agent that invokes a flow
+## To create a bot that invokes a flow
 
-1. Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent Designer environment, and then create a new virtual agent in the same environment as your flow. To create a new virtual agent, select the **New Bot** icon on the title bar. Then select **New bot**.
+1. Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent environment, and then create a new bot in the same environment as your flow. To create a new bot, select the **New Bot** icon on the title bar. Then select **New bot**.
 
    > ![New bot icon](media/new-bot-icon.png)
 
-    For more information about creating a virtual agent, see [Creating a virtual agent](getting-started-create-bot.md).
+    For more information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
-2. On the **Create a new bot** screen, specify a template, a unique name for your virtual agent, and the environment where your flow was created. Then select **Create**.
+2. On the **Create a new bot** screen, specify a template, a unique name for your bot, and the environment where your flow was created. Then select **Create**.
 
    > ![Specify environment](media/specify-environment.png)
 
-3. Once you have created your virtual agent, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
+3. Once you have created your bot, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
 
    > ![New topic](media/create-new-topic.png)
 
-    For more information about creating a topic, see [Creating custom topics for your virtual agent](getting-started-create-topics.md).
+    For more information about creating a topic, see [Creating custom topics for your bot](getting-started-create-topics.md).
 
-4. Specify a name, description, and trigger phrases for the topic. A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the virtual agent. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
+4. Specify a name, description, and trigger phrases for the topic. A trigger phrase is a phrase that a customer enters in the chat window to start a conversation with the bot. You can include punctuation in a trigger phrase, but it is best to use short phrases rather than long sentences.
 
     For example, for a *Daily Deals* topic, you could specify the following trigger phrases:
 
@@ -144,7 +144,7 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
    > ![Open flow conversation](media/open-flow-conversation.png)
 
-    In the conversation editor, enter a virtual agent response in the **Bot Says** node, and then select **User says** to display the **User Responses** node.
+    In the conversation editor, enter a bot response in the **Bot Says** node, and then select **User says** to display the **User Responses** node.
 
    > ![Create conversation](media/create-conversation.png)
 
@@ -162,7 +162,7 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
    > ![Save variable](media/create-flow-variable.png)
 
-    The Virtual Agent Designer adds the variable to the **User Responses** node and creates an **Expression** node. You can delete this node if you do not want to do any validation.
+    Virtual Agent adds the variable to the **User Responses** node and creates an **Expression** node. You can delete this node if you do not want to do any validation.
 
    > ![Delete expression](media/delete-expression.png)
 
@@ -170,17 +170,17 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
    > ![Confirmation node](media/confirmation-node.png)
 
-    To display the specified email address in the user's conversation with the virtual agent, place your cursor in the **Bot Says** node to display the popup menu. Then select the variable you created from the variable drop-down list.
+    To display the specified email address in the user's conversation with the bot, place your cursor in the **Bot Says** node to display the popup menu. Then select the variable you created from the variable drop-down list.
 
    > ![Select variable](media/select-variable.png)
 
-8. To send a message to the specified email address in the user's conversation with the virtual agent, select **Action** to display the list of available actions, and then select the flow action you created.
+8. To send a message to the specified email address in the user's conversation with the bot, select **Action** to display the list of available actions, and then select the flow action you created.
 
     > ![Select action](media/select-action.png)
     > [!NOTE]
-    > The flows and virtual agent must be created in the same environment. Otherwise, the flow action does not appear in the list of available actions.
+    > The flows and bot must be created in the same environment. Otherwise, the flow action does not appear in the list of available actions.
 
-    The Virtual Agent Designer creates an **Action** node indicating that the action has one required input and one output. Select the variable you created from the drop-down list to pass it as input.
+    Virtual Agent creates an **Action** node indicating that the action has one required input and one output. Select the variable you created from the drop-down list to pass it as input.
 
    > ![Create action](media/create-action.png)
 
@@ -194,13 +194,13 @@ You can enable your virtual agent to perform an action by invoking a Microsoft F
 
 ## To test the flow
 
-1. In the Test Virtual Agent, select **Start over with latest conversation**. Then specify a trigger phrase for the topic that contains the flow.
+1. In the Test bot pane, select **Start over with latest conversation**. Then specify a trigger phrase for the topic that contains the flow.
 
 2. Enter your email address at the prompt.
 
    > ![Test flow](media/test-flow.png)
 
-    The virtual agent displays the email address to the customer to confirm that it will send a message to that address and stores the message specified in the flow in the **(x) message** variable.
+    The bot displays the email address to the customer to confirm that it will send a message to that address and stores the message specified in the flow in the **(x) message** variable.
 
    > ![Successful flow](media/successful-flow.png)
 

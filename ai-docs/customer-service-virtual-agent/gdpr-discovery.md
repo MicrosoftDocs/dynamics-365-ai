@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Discovery Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,4 +20,4 @@ Below is a summary of the types of Virtual Agent for Customer Service resources 
 
 Resources containing personal data | Purpose
 ---------------------------------- | -------
-Topic | A Virtual Agent Designer topic.
+Topic | A Virtual Agent topic.

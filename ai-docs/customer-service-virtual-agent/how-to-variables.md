@@ -2,7 +2,7 @@
 title: "Work with variables"
 description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service variables."
 keywords: ""
-ms.date: 2/26/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,11 +14,11 @@ manager: shellyha
 
 # Work with variables
 
-Variables let you save responses from your customers in a conversation with a virtual agent so that you can reuse them later in the conversation. For example, you can save a customer's name in a variable called *UserName*. The virtual agent can then address the customer by name as the conversation continues.
+Variables let you save responses from your customers in a conversation with a bot so that you can reuse them later in the conversation. For example, you can save a customer's name in a variable called *UserName*. The bot can then address the customer by name as the conversation continues.
 
 You can use variables to create logical expressions that dynamically route the customer down different conversation paths.
 
-Virtual Agent Designer supports four types of variables:
+Virtual Agent supports four types of variables:
 
 * String -- A string of text that the customer enters.
 * Age -- A positive number within the range of standard age.
@@ -27,7 +27,7 @@ Virtual Agent Designer supports four types of variables:
 
 ## To create a variable
 
-1. In the Virtual Agent Designer conversation editor, select the ellipses in the upper-right corner of the **User responses** node where you want to add the variable.
+1. In the bot conversation editor, select the ellipses in the upper-right corner of the **User responses** node where you want to add the variable.
 
    > ![Select ellipses](media/create-variable.png)
 
@@ -43,6 +43,6 @@ Virtual Agent Designer supports four types of variables:
 
    > ![Save variable](media/save-variable.png)
 
-The Virtual Agent Designer adds the variable to a customer's response and uses expressions to dynamically route the conversation path, letting you tailor the virtual agent's response.
+Virtual Agent adds the variable to a customer's response and uses expressions to dynamically route the conversation path, letting you tailor the bot's response.
 
    > ![Save variable](media/use-variable.png)

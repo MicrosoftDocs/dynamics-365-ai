@@ -1,8 +1,8 @@
 ---
-title: "Deploying your virtual agent"
-description: "Learn how to deploy your Virtual Agent Designer virtual agent."
+title: "Deploying your bot"
+description: "Learn how to deploy your Virtual Agent bot."
 keywords: ""
-ms.date: 05/08/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,20 +12,20 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Deploying your virtual agent
+# Deploying your bot
 
 Once you have finished designing you virtual agent, you can deploy it to a demo environment on the web or to your live website.
 
 > [!NOTE]
 > Newly deployed bot content won't be available immediately to end users until they restart the conversation. For example, by refreshing the browser window.
 
-## To deploy your virtual agent to a demo environment
+## To deploy your bot to a demo environment
 
 1. Select **Deploy** in the navigation pane to open the Deploy page.
 
    > ![Open Deploy page](media/open-deploy.png)
 
-2. Select **Demo website** on the Deploy page. The demo website provides a sandbox environment for your team to test the virtual agent and give you feedback.
+2. Select **Demo website** on the Deploy page. The demo website provides a sandbox environment for your team to test the bot and give you feedback.
 
    > ![Select demo website](media/open-demo.png)
 
@@ -33,19 +33,19 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
    > ![Deploy bot](media/publish-demo.png)
 
-## To share your virtual agent in the demo website
+## To share your bot in the demo website
 
-1. When you deploy your virtual agent, the Virtual Agent Designer adds a **Share your bot** section to the Deploy page that includes the URL for the virtual agent's demo website. Select **Copy** to copy the URL.
+1. When you deploy your bot, Virtual Agent adds a **Share your bot** section to the Deploy page that includes the URL for the bot's demo website. Select **Copy** to copy the URL.
 
-   > ![Share virtual agent](media/copy-url.png)
+   > ![Share bot](media/copy-url.png)
 
-    Users can open the demo website and test the virtual agent by pasting the URL into their browser.
+    Users can open the demo website and test the bot by pasting the URL into their browser.
 
-2. Test the virtual agent in the demo website. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
+2. Test the bot in the demo website. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
-   > ![Test virtual agent](media/demo-website.png)
+   > ![Test bot](media/demo-website.png)
 
-## To deploy your virtual agent to your own custom website
+## To deploy your bot to your own custom website
 
 1. If the Deploy page is not already open, select **Deploy** in the navigation pane to open it.
 
@@ -53,8 +53,8 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
    > ![Select custom website](media/deploy-custom.png)
 
-   On the Deploy - Custom Website page, copy the Virtual Agent code for the custom website and share it with your website administrator to add to the site. If you have admin permissions to the site, you can do it yourself.
+   On the Deploy - Custom Website page, copy the code for the custom website and share it with your website administrator to add to the site. If you have admin permissions to the site, you can do it yourself.
 
-   Then select **Publish** to publish the virtual agent. Publishing the code ensures that your website displays the most current virtual agent content.
+   Then select **Publish** to publish the bot. Publishing the code ensures that your website displays the most current bot content.
 
    > ![Custom message](media/publish-custom.png)

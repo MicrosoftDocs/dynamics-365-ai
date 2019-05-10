@@ -1,8 +1,8 @@
 ---
-title: "Using analytics to improve your virtual agent"
+title: "Using analytics to improve your bot"
 description: "Learn how to use analytics to improve your Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/09/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -12,9 +12,9 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Using analytics to improve your virtual agent
+# Using analytics to improve your bot
 
-As you create and deploy your virtual agent, you can use analytics to see how your virtual agent is performing. Virtual Agent Designer includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
+As you create and deploy your bot, you can use analytics to see how your bot is performing. Virtual Agent includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
 To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page.
 
@@ -41,7 +41,7 @@ By default, dashboards display information for the last seven days, but you can 
 
 ## Key performance indicator charts
 
-Key performance indicator charts give you a view of the key performance data for your virtual agent and customer service system for the specified time period. For example, the key performance indicator charts on the Summary dashboard show you:
+Key performance indicator charts give you a view of the key performance data for your bot and customer service system for the specified time period. For example, the key performance indicator charts on the Summary dashboard show you:
 
 * The total number of sessions during the period.
 * The percentage of total sessions during the period that are engaged sessions.
@@ -63,7 +63,7 @@ The dashboards include a variety of graphical charts that give you views of diff
 
 ## Impact charts
 
-Impact charts show you the topics that are having the greatest impact, both positive and negative, on the performance of your virtual agent.
+Impact charts show you the topics that are having the greatest impact, both positive and negative, on the performance of your bot.
 
    > [!div class="mx-imgBorder"]
    > ![Impact charts](media/satisfaction-drivers.png)

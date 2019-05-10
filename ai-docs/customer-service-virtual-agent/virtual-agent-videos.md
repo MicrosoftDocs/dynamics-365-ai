@@ -2,7 +2,7 @@
 title: "Virtual Agent videos"
 description: "Virtual Agent videos"
 keywords: ""
-ms.date: 04/30/2019
+ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -24,11 +24,11 @@ Demo of an embedded video:
 
 Get it [here](https://microsoft.sharepoint.com/teams/CCIBotDesignerTeam/Shared%20Documents/General/Demo%20Assets/Airlift_2019-04/CCIVirtualAgentDeepDive_2019-04.mp4).
 
-## Create, Test, and Deploy a Virtual Agent
+## Create, Test, and Deploy a Bot
 
 Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
 
-## Test Your Virtual Agent Using Conversation Tracing
+## Test Your Bot Using Conversation Tracing
 
 Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
 
@@ -36,7 +36,7 @@ Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
 
 Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
 
-## Use Analytics and Chat Transcripts to improve Virtual Agent performance
+## Use Analytics and Chat Transcripts to improve bot performance
 
 Get it [here](https://go.microsoft.com/fwlink/?linkid=2063181).
 
@@ -48,6 +48,6 @@ Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
 
 Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
 
-## Call a flow from within a virtual agent conversation
+## Call a flow from within a bot conversation
 
 Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
