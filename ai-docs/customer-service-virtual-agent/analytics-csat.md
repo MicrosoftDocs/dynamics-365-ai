@@ -19,7 +19,6 @@ The Customer satisfaction dashboard provides a detailed view of customer satisfa
 The Customer satisfaction dashboard includes a variety of charts with graphical views of your bot's customer satisfaction indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 
 * [Customer satisfaction drivers chart](#customer-satisfaction-drivers-chart)
-* [CSAT summary charts](#csat-summary-charts)
 * [Scores over time chart](#scores-over-time-chart)
 * [Average CSAT score](#average-csat-score-chart)
 * [CSAT survey response rate](#csat-survey-response-rate-chart)
@@ -47,18 +46,6 @@ The chart displays the impact as a red or blue bar. A red bar indicates that the
 Improving the average CSAT survey score for the top customer-satisfaction impact topics in red has the greatest impact on improving the overall CSAT score.
 
 To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
-
-## CSAT summary charts
-
-The CSAT summary charts summarize the key customer-satisfaction performance indicators for the specified time period and the percent change over the period.
-
-Description | Details
------------ | -------
-Average CSAT score | The average CSAT survey score for the specified time period.
-Survey response rate | The percentage of sessions in which a customer responded to a CSAT survey request during the specified time period.
-Surveys completed | The number of CSAT surveys completed during the specified time period.
-
-A blue up-and-down indicator below the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
 ## Scores over time chart
 
