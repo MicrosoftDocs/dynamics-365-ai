@@ -17,6 +17,7 @@ Topic checker allows you to see the health of your Topic.  It will show the erro
 
 ## Errors
 to understand what you will see in the Topic Checker you will need to understand the types of error messages and validation provided to the Bot Author.  
+<<Node with error Image>>
 ### Types of errors: 
 There are three different kinds of errors provided: 
 1. Full Page
@@ -30,3 +31,8 @@ Errors and validations occur:
 4. Variable deletion - in vairious scenarios, a variable within a topic may be deleted and is everywhere the variable was used is highlighted red. This causes the variable to become orphaned and must be either removed or replaced. 
 
 ## Topic Checker
+The Topic Checker collects all the errors and warnings and allows you to click on an error or warning and the authoring canvas will center on that particular issue.  As you fix the errors, they will disappear from the Topic Checker, either automatically or when you click save.  Expect to see similar errors repeated in the topic checker as there may be many of similar type needing attention.
+<<Topic checker Image>>
+### Topics with errors
+You may save topics with errors.  The errors will persist until they are cleared on the topic.  Topics with errors may be deployed to production, however unexpected behavior may result.
+<<Save with errors Image>>  
