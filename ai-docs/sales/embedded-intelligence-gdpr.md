@@ -15,7 +15,7 @@ manager: kvivek
 topic-status: Drafting
 ---
 
-# Dynamics365 Sales Insights and GDPR
+# Dynamics 365 Sales Insights and GDPR
 
 AApplies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
