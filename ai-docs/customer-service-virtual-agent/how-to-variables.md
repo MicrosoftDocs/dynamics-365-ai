@@ -27,17 +27,13 @@ Virtual Agent supports four types of variables:
 
 ## To create a variable
 
-1. In the bot conversation editor, select the ellipses in the upper-right corner of the **User responses** node where you want to add the variable.
+1. In the bot conversation editor, select "+ Add Variable" at the bottom of the **User responses** node where you want to add the variable.
 
-   > ![Select ellipses](media/create-variable.png)
+   > <need image>
 
-2. Select **Properties** to open the Properties pane.
+2. Select **+Add variable** to open the **Create variable** window.
 
-   > ![Open properties pane](media/variable-properties.png)
-
-3. Select **Name variable** to open the **Create variable** window.
-
-   > ![Create variable](media/name-variable.png)
+   > <need Image>
 
 4. Specify a name and type for the variable, and then select **Save**.
 
@@ -45,4 +41,4 @@ Virtual Agent supports four types of variables:
 
 Virtual Agent adds the variable to a customer's response and uses expressions to dynamically route the conversation path, letting you tailor the bot's response.
 
-   > ![Save variable](media/use-variable.png)
+   > <need Image>
