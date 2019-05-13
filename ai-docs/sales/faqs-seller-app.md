@@ -94,7 +94,7 @@ It takes a few seconds to display the results.​
 ## Who knows whom
 
 **What do I need in order to use Who knows whom?​**<br>
-Who knows whom requires Office 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as AI for Sales becomes available in more regions. Server-side sync is required for email introduction requests.​
+Who knows whom requires Office 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
 
 **How do I enable Who knows whom?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​

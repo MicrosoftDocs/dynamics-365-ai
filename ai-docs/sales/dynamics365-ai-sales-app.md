@@ -59,7 +59,7 @@ The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights
 - Go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/)
 
 > [!NOTE]
-> You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use the AI sales features. 
+> You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use the Sales Insights features. 
  
 ## How to access the Dynamics 365Sales Insights application
 
