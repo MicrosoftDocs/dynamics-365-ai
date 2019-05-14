@@ -2,7 +2,7 @@
 title: "Hand off a bot conversation to a live agent"
 description: "Learn how to use Virtual Agent to create a bot conversation that hands off to a live agent."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,7 +14,7 @@ manager: shellyha
 
 # Hand off a bot conversation to a live human agent
 
-A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate hand-off by re-directing users to Escalate system topic. To get started, update the Escalate system topic.
+A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate a handoff by redirecting users to the Escalate system topic. To get started, update the Escalate system topic.
 
 ## Update Escalate system topic to handoff to a live agent
 
@@ -30,7 +30,7 @@ A bot can resolve many customer support issues, but there are times when an issu
 
    > ![Save topic](media/replace-placeholder.png)
 
-You are now ready to redirect users to this topic to initiate hand-off.
+You are now ready to redirect users to this topic to initiate a handoff.
 
 ## Initiate hand-off to human agent from any user topic
 
@@ -38,7 +38,7 @@ You are now ready to redirect users to this topic to initiate hand-off.
 
    > ![Open Topics page](media/open-topics.png)
 
-2. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to trigger handoff to live human agent, and then add **Escalate**.
+2. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to trigger a handoff to live human agent, and then select **Escalate**.
 
    > ![Select Escalate](media/select-escalate.png)
 
@@ -48,4 +48,4 @@ You are now ready to redirect users to this topic to initiate hand-off.
 
 3. Select **Save** to save the topic. 
 
-Your topic now redirects to "Escalate" to initiate hand-off to human agent. 
+Your topic now redirects to "Escalate" to initiate a handoff to human agent. 
