@@ -22,7 +22,8 @@ To view the analytics dashboards, select **Analytics** in the navigation pane to
 
 You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) dashboards, or download sessions information by selecting the appropriate tab on the Analytics page.
 
-   > ![Dashboard tabs](media/dashboard-tabs.png)
+IMAGE NEEDS UPDATE
+  > ![Dashboard tabs](media/dashboard-tabs.png)
 
 Some key features of the dashboards include:
 
@@ -35,6 +36,7 @@ Some key features of the dashboards include:
 
 Filters on each dashboard let you view support-case information for a specific time period.
 
+IMAGE NEEDS UPDATE
    > ![Dashboard filters](media/dashboard-filters.png)
 
 By default, dashboards display information for the last seven days, but you can also display information for the last 30 days by selecting **Last 30 Days**.
@@ -50,7 +52,8 @@ Key performance indicator charts give you a view of the key performance data for
 * The percentage of engaged sessions during the period that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 * The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey.
 
-    > ![KPI summary charts](media/summary-charts.png)
+IMAGE NEEDS UPDATE
+> ![KPI summary charts](media/summary-charts.png)
 
 Each key performance indicator chart includes an up-and-down indicator next to the value that indicates the percent change in a positive or negative direction over the specified time period.
 
