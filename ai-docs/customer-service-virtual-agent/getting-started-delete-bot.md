@@ -20,9 +20,14 @@ If you want to remove your bot from the Virtual Agent environment, you can delet
 
 1. Select the **Settings** button on the Virtual Agent title bar, and then select **General settings** to display the General pane of the Settings window.
 
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
+
    > ![Display General pane](media/general-settings.png)
 
 2. In the Delete bot section, select **Delete bot**.
+
+<<<<<< IMAGE NEEDS UPDATE, IT DOESN'T SEEM TO LOAD. It shows with an x. >>>>>>>>>
 
    > ![Delete bot](media/delete-bot.png)
 
