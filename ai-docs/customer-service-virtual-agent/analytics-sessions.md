@@ -32,7 +32,8 @@ The downloaded file contains the following information:
     - User says-Bot says structure
     - Conversation turns separated by semicolon
     - Bot says does not include the options presented to the user
-    - Example: “User says: store hours; Bot says: Which store are you asking about?; User says: Bellevue; Bot says: Bellevue store is open from 10am to 7pm every day.;”
+    
+    Example: “User says: store hours; Bot says: Which store are you asking about?; User says: Bellevue; Bot says: Bellevue store is open from 10am to 7pm every day.;”
 
 - Session Outcome: Outcome of the session (Resolved, Escalated, Abandoned, Unengaged)
 
