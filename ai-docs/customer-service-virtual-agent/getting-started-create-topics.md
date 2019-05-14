@@ -22,17 +22,20 @@ You can see how the conversation path works in practice by testing it in the Tes
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
+
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
    > ![Open Topics page](media/open-topics.png)
 
-    The Topics page displays a list of your bot's current topics, including a variety of built-in topics.
-
-    Virtual Agent includes industry-specific topics, depending on the template you used to create your bot. For example, the Retail template includes topics for finding out a store's hours, looking up the balance of a gift card, or paying a bill.
+    The Topics page displays a list of your bot's current topics. Virtual Agent includes some built-in topics to get you started.
 
    > ![Built-in topics](media/template-topics.png)
 
     Virtual Agent also includes several system topics that help you address common situations--a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
 
 2. On the Topics page, select **New topic**.
+
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
 
    > ![New topic](media/create-new-topic.png)
 
@@ -42,15 +45,26 @@ You can see how the conversation path works in practice by testing it in the Tes
 
     Select **Save topic** to add the topic to the topics list.
 
+
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
+
    > ![Save topic](media/save-topic.png)
 
 ## To design the topic's conversation path
 
 1. Select **Edit** to open the conversation editor.
 
+
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
    > ![Edit conversation](media/edit-conversation.png)
 
     Virtual Agent opens the topic in the conversation editor and displays the topic's trigger phrases. The conversation editor is where you define the conversation path between a customer and the bot.
+
+
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
 
    > ![Open conversation](media/open-conversation.png)
 
@@ -104,9 +118,15 @@ As you design your topic's conversation path, you can use the Test bot pane to s
 
 1. To make sure you are using the most current bot content, select **Start over with latest content** at the top of the Test bot pane.
 
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
+
    > ![Restart conversation](media/restart-conversation.png)
 
 2. At the **Type your message** prompt at the bottom of the Test bot pane, enter a trigger phrase for the topic.
+
+<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
 
    > ![Trigger phrase](media/enter-trigger.png)
 

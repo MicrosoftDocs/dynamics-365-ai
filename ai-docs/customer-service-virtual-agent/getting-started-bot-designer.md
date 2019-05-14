@@ -18,25 +18,35 @@ Virtual Agent provides a variety of tools to create a powerful custom bot. You c
 
 Virtual Agent is composed of several pages designed for different tasks. You can access the pages through the navigation pane.
 
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
    > ![Navigation pane](media/nav-pane.png)
 
 ## Home page
 
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
    > ![Home page](media/open-bot.png)
 
-The Home page provides links to the Topics, Analytics, and Deploy pages.  An **Edit Greeting Topic** button lets you revise the built-in bot greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent Insider Community and the Virtual Agent Feedback Forum.
+The Home page provides links to the Topics, Analytics, and Deploy pages.  An **Customize your greeting** button lets you revise the built-in bot greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent community forum and the Virtual Agent idea forum.
 
 ## Topics page
 
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
    > ![Topics page](media/topics-page.png)
 
-The Topics page is the central location for creating and managing Virtual Agent topics. Virtual Agent includes several built-in system topics, as well as additional built-in topics specific to the template you use to create your bot.
+The Topics page is the central location for creating and managing Virtual Agent topics. Virtual Agent includes several built-in system topics.
 
-You can revise the template topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the bot in the **Test bot** pane and refine it as necessary.
+You can revise the built-in topics and also create your own custom topics to design a conversation path that leads each customer to a resolution of the customer's support issue. You can then test the bot in the **Test bot** pane and refine it as necessary.
 
 For more information about using the Topics page to create topics, see [Creating custom topics for your bot](getting-started-create-topics.md).
 
 ## Analytics page
+
+
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
 
    > ![Analytics page](media/analytics-page.png)
 
@@ -45,6 +55,10 @@ The Analytics page provides a variety of dashboards and charts showing key perfo
 For more information about using the Analytics page, see [Using analytics to improve your bot](getting-started-analytics.md).
 
 ## Deploy page
+
+
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
 
    > ![Deploy page](media/deploy-page.png)
 
@@ -60,11 +74,18 @@ For more information about using the Deploy page to deploy your bot, see [Deploy
 
 Virtual Agent includes a Test bot pane, where you can test how the conversation with the bot works in practice. You can hide the Test bot pane by selecting **Hide bot** in the lower left corner of Virtual Agent.
 
+
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
+
    > ![Hide bot](media/hide-test-va.png)
 
-When the Test bot is hidden, **Hide bot** changes to **Show bot**. Select **Show bot** to restore the Test bot pane.
+When the Test bot is hidden, **Hide bot** changes to **Test your bot**. Select **Test your bot** to restore the Test bot pane.
 
 You can test a bot topic by entering a trigger phrase for the topic at the **Type your message** prompt at the bottom of the Test bot pane.
+
+<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+
 
    > ![Trigger phrase](media/enter-trigger.png)
 
