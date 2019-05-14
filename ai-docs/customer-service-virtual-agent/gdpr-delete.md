@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -44,8 +44,6 @@ Follow these steps to delete a bot:
 2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
 
    > ![General settings](media/general-settings.png)
-<<<< @MICHAEL TO DO - Please update General settings image since it has changed >>>>
-
 
 3. In the Delete bot section, select **Delete bot**.
 
