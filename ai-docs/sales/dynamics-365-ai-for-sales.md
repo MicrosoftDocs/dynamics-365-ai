@@ -30,11 +30,10 @@ Using [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insigh
 - Who on the team has been interacting with the customer?
 
 > [!IMPORTANT]
-> - The AI for Sales features are available only in North American (NAM) regions.
-> - You must purchase **Dynamics 365 Sales Insights** license to use AI for
-Sales features.
+> - The Sales Insights features are available only in North American (NAM) regions.
+> - You must purchase **Dynamics 365 Sales Insights** license to use Sales Insights features.
 
-AI for sales consists of the following features:
+Sales Insights consists of the following features:
 - **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
 - **Predictive lead scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize leads through scores](work-predictive-lead-scoring.md) 
 - **Predictive opportunity scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
@@ -50,4 +49,4 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities 
 
 ### See also
 
-[Configure and enable AI for sales](configure-enable-dynamics-365-ai-sales.md) 
+[Configure and enable Sales Insights](configure-enable-dynamics-365-ai-sales.md) 

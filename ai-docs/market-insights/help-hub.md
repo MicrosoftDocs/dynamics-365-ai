@@ -2,7 +2,7 @@
 title: "Pointers for Market Insights | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
-ms.date: 10/31/2018
+ms.date: 05/09/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 08bc1f91-bd7b-4083-99d9-72770f5cd673
@@ -25,41 +25,22 @@ search.app:
 <tr>
 <td>
 
-<h2> Get started </h2>
-<li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">Market Insights overview</a></li>
-<li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
+<h2> Alerts </h2>
+
+<li><a href="alerts-overview.md" data-raw-source="[Market Insights alerts](alerts-overview.md)">Market Insights alerts</a></li>
+<li><a href="alerts-management.md" data-raw-source="[Manage your alerts](alerts-management.md)">Manage your alerts</a></li>
+<li><a href="alerts-data-science.md" data-raw-source="[How relevancy is determined](alerts-data-science.md)">How relevancy is determined</a></li>
+</td>
+
+<td>
+
+<h2> General </h2>
+
 <li><a href="release-notes.md" data-raw-source="[What's new](release-notes.md)">What's new</a></li>
+<li><a href="known-issues.md" data-raw-source="[Known issues](known-issues.md)">Known issues</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
-</td>
-<td>
-
-<h2> Administer </h2>
-
-<li><a href="settings-administration.md" data-raw-source="[Administer Market Insights](settings-administration.md)">Administer Market Insights</a></li>
-<li><a href="manage-global-settings.md" data-raw-source="[Configure settings](manage-global-settings.md)">Configure settings</a></li>
-<li><a href="set-up-searches.md" data-raw-source="[Set up searches](set-up-searches.md)">Set up searches</a></li>
-<li><a href="manage-connections.md" data-raw-source="[Manage connections](manage-connections.md)">Manage connections</a></li>
-<li><a href="assign-user-roles.md" data-raw-source="[Assign user roles](assign-user-roles.md)">Assign user roles</a></li>
+<li><a href="alerts-data-handling.md" data-raw-source="[Data handling for alerts](alerts-data-handling.md)">Data handling for alerts</a></li>
 </td>
 </tr>
-<tr>
-<td>
 
-<h2> Analyze </h2>
-
-<li><a href="analyze-social-data-using-widgets.md" data-raw-source="[Analyze social data](analyze-social-data-using-widgets.md)">Analyze social data</a></li>
-<li><a href="use-filters.md" data-raw-source="[Filters](use-filters.md)">Filters</a></li>
-<li><a href="activity-maps.md" data-raw-source="[Activity maps](activity-maps.md)">Activity maps</a></li>
-<li><a href="email-alerts.md" data-raw-source="[Alerts](email-alerts.md)">Alerts</a></li>
-</td>
-<td>
-
-<h2> Engage </h2>
-
-<li><a href="manage-social-profiles.md" data-raw-source="[Manage social profiles](manage-social-profiles.md)">Manage social profiles</a></li>
-<li><a href="publish-react-posts.md" data-raw-source="[Publish posts](publish-react-posts.md)">Publish posts</a></li>
-<li><a href="work-with-posts.md" data-raw-source="[Work with posts](work-with-posts.md)">Work with posts</a></li>
-<li><a href="social-center.md" data-raw-source="[Streams](social-center.md)">Streams</a></li>
-</td>
-</tr>
 </table>
