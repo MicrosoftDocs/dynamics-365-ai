@@ -2,7 +2,7 @@
 title: "Sessions page"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Sessions page."
 keywords: ""
-ms\.date: 05/14/2019
+ms.date: 05/15/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
