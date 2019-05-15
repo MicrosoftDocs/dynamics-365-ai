@@ -2,7 +2,7 @@
 title: "Analytics overview"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service dashboards."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/14/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,6 +20,6 @@ You can display [Summary](analytics-summary.md) and [Customer satisfaction](anal
 
 You can display the [Topic details](analytics-topic-details.md) dashboard by selecting the Detail link for a topic in the charts on these dashboards.
 
-   > ![Topic details link](media/topic-details-link.png)
+![Topic details link](media/topic-details-link.png)
 
 You can download information from your customer service sessions by selecting the [Sessions page](analytics-sessions.md).
