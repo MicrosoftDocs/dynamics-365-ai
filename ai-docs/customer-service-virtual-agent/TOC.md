@@ -16,6 +16,8 @@
 
 ## [Working with the conversation editor design canvas](expanding-design-canvas.md)
 
+## [Validate a topic and address errors with the Topic Checker](topic-checker.md)
+
 ## [Using analytics to improve your bot](getting-started-analytics.md)
 
 ## [Deploying your bot](getting-started-deploy.md)
