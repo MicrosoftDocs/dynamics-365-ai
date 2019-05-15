@@ -2,7 +2,7 @@
 title: "Topic details page"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Topic details dashboard."
 keywords: ""
-ms.date: 05/09/2019
+ms.date: 05/15/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -23,11 +23,11 @@ You can display the Topic details dashboard by selecting the Detail link in one 
 * [Resolution rate drivers (Summary page)](analytics-summary.md#resolution-rate-drivers-chart)
 * [Customer satisfaction drivers chart (Customer satisfaction page)](analytics-CSAT.md#customer-satisfaction-drivers-chart)
 
-   > ![Topic details link](media/topic-details-link.png)
+![Topic details link](media/topic-details-link.png)
 
-The Topic details dashboard can also be displayed by opening an individual topic from the Topics page and selecting Analytics at the top of the page. 
+The Topic details dashboard can also be displayed by opening an individual topic from the Topics page and selecting **Analytics** at the top of the page. 
 
-The Topic details dashboard includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
+The Topic details dashboard includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, see:
 
 * [Topic summary charts](#topic-summary-charts)
 * [Impact summary charts](#impact-summary-charts)
