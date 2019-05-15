@@ -14,7 +14,7 @@ manager: shellyha
 
 # Analytics overview
 
-The Dynamics 365 Virtual Agent for Customer Service analytics dashboards contain a variety of charts that show you key performance indicators for your bot, give you graphical views of the trends and breakdowns in your bot's support cases, and use artificial intelligence technology to highlight support cases that are having the greatest impact on your bot's performance.
+The Dynamics 365 Virtual Agent for Customer Service analytics dashboards contain a variety of charts that show you key performance indicators for your bot, give you graphical views of the trends and breakdowns in your bot's support topics, and use artificial intelligence technology to highlight support topics that are having the greatest impact on your bot's performance.
 
 You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) dashboards by selecting the appropriate tab at the top of the page. The Summary dashboard is displayed by default.
 
