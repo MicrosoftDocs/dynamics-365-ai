@@ -22,11 +22,17 @@ For information on creating a custom topic, see [Creating custom topics for your
 
 ## To customize your bot's greeting
 
-1. On the Home page, select **Edit Greeting Topic** to open the Greeting topic in the conversation editor.
+1. On the Home page, select **Customize your greeting** to open the Greeting topic in the conversation editor.
+
+
+<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
 
    > ![Open Greeting topic](media/open-greeting-topic.png)
 
     You can also open the Greeting topic in the conversation editor by selecting **Topics** in the navigation pane to open the Topics page, scrolling to the **System topics** section, and selecting the Greeting topic's **Edit** icon.
+
+
+<<<<  IMAGE NEEDS UPDATE >>>>>>>>>>
 
    > ![Alternate open greeting](media/alternate-open-greeting.png)
 

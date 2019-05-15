@@ -28,14 +28,11 @@ This Quickstart takes you through the end-to-end experience of creating a bot, a
 
    Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent environment.
 
-   On the **Create a new bot** screen, select the template you want to use, either General or Retail. Specify a name and region for the bot.
+   On the **Create a new bot** screen, specify a name for the bot.
 
-   In the **Region where your bot is stored** drop-down, select the environment you created. Then select **Create**.
+   In the **More options** section, select your bot's environment and click **Create**.
 
-    > [!NOTE]
-    > Do not select the Default environment, which is not currently supported.
-
-   When you first create your bot, it might take some time to load. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
+   When you first create your bot, it might take some time. For more information on creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
    **Note:**   Because access to your bot is managed by your Azure Active Directory (AAD) tenant administrator, other users with admin permissions have access to your bot content.
 
@@ -107,6 +104,8 @@ This Quickstart takes you through the end-to-end experience of creating a bot, a
 
    To deploy the bot to the demo website, select **Demo website**.
 
+    <<<< IMAGE NEEDS UPDATE SINCE THE UI HAS CHANGED  >>>>
+    
    > ![Select channel](media/deploy-website.png)
 
    On the Deploy - Demo Website page, enter a welcome message for your bot and some examples of topic triggers to use as conversation starters for team members testing your bot, and then select **Publish**.
@@ -127,6 +126,8 @@ This Quickstart takes you through the end-to-end experience of creating a bot, a
 
    Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
+  <<<< IMAGE NEEDS UPDATE SINCE THE UI HAS CHANGED  >>>>
+  
    > ![Test virtual agent](media/demo-website.png)
 
 10. Use analytics to see how your virtual agent is performing.

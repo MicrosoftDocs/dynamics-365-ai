@@ -34,8 +34,6 @@
 
 ## [Connect to your customer service data](how-to-connect-data.md)
 
-## [Improve data quality by cleansing support case titles](how-to-cleanse-data.md)
-
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
 # Reference
