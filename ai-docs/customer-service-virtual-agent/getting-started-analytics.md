@@ -64,7 +64,9 @@ The dashboards include a variety of graphical charts that give you views of diff
 
 Impact charts show you the topics that are having the greatest impact, both positive and negative, on the performance of your bot.
 
-![Impact charts](media/escalation-drivers.png)
+![Impact charts](media/escalation-rate-drivers.png)
+
+
 
 For details on Dynamics 365 Virtual Agent for Customer Service analytics, see the following topics:
 
