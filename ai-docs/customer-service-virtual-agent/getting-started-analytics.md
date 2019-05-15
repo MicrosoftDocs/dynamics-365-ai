@@ -2,7 +2,7 @@
 title: "Using analytics to improve your bot"
 description: "Learn how to use analytics to improve your Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/15/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,12 +18,11 @@ As you create and deploy your bot, you can use analytics to see how your bot is 
 
 To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page.
 
-   > ![Open Analytics page](media/open-analytics.png)
+![Open Analytics page](media/open-analytics.png)
 
 You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) dashboards, or download sessions information by selecting the appropriate tab on the Analytics page.
 
-IMAGE NEEDS UPDATE
-  > ![Dashboard tabs](media/dashboard-tabs.png)
+![Dashboard tabs](media/dashboard-tabs.png)
 
 Some key features of the dashboards include:
 
@@ -36,8 +35,7 @@ Some key features of the dashboards include:
 
 Filters on each dashboard let you view support-case information for a specific time period.
 
-IMAGE NEEDS UPDATE
-   > ![Dashboard filters](media/dashboard-filters.png)
+![Dashboard filters](media/dashboard-filters.png)
 
 By default, dashboards display information for the last seven days, but you can also display information for the last 30 days by selecting **Last 30 Days**.
 
@@ -52,8 +50,7 @@ Key performance indicator charts give you a view of the key performance data for
 * The percentage of engaged sessions during the period that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 * The graphical view of the average of customer satisfaction (CSAT) scores for sessions in which customers respond to an end-of-session request to take the survey.
 
-IMAGE NEEDS UPDATE
-> ![KPI summary charts](media/summary-charts.png)
+![KPI summary charts](media/summary-charts.png)
 
 Each key performance indicator chart includes an up-and-down indicator next to the value that indicates the percent change in a positive or negative direction over the specified time period.
 
@@ -61,15 +58,13 @@ Each key performance indicator chart includes an up-and-down indicator next to t
 
 The dashboards include a variety of graphical charts that give you views of different trends and break down of cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
 
-   > [!div class="mx-imgBorder"]
-   > ![Graphical charts](media/engagement-over-time.png)
+![Graphical charts](media/engagement-over-time.png)
 
 ## Impact charts
 
 Impact charts show you the topics that are having the greatest impact, both positive and negative, on the performance of your bot.
 
-   > [!div class="mx-imgBorder"]
-   > ![Impact charts](media/satisfaction-drivers.png)
+![Impact charts](media/escalation-drivers.png)
 
 For details on Dynamics 365 Virtual Agent for Customer Service analytics, see the following topics:
 
