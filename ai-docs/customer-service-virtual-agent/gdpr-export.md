@@ -12,13 +12,13 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR data subject export requests for Dynamics 365 Virtual Agent for Customer Service
+# Responding to GDPR data subject export requests in Virtual Agent for Customer Service
 
 The right of data portability allows a data subject to request a copy of their personal data in an electronic format (that’s a “structured, commonly used, machine readable, and interoperable format”) that can be transmitted to another data controller.
 
 ## Manage export requests
 
-Dynamics 365 Virtual Agent for Customer Service offers the following experiences to find or export personal data for a specific user:
+Dynamics 365 Virtual Agent for Customer Service offers the following capabilities to find or export personal data for a specific user:
 
 * Export customer data – Virtual Agent bot content
 * Export customer data – Virtual Agent system content
