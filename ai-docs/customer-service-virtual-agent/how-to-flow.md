@@ -2,7 +2,7 @@
 title: "Add actions to your bot using Microsoft Flow"
 description: "Learn how to add actions to your bot using Microsoft Flow."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/16/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -26,7 +26,8 @@ You can enable your bot to perform an action by invoking a Microsoft Flow. Use a
 
 3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
 
-   > ![Verify database](media/verify-database.png)
+   ![Verify database](media/verify-database.png)
+   
    > [!NOTE]
    > Since creating a new environment can take some time, the new solution might not immediately appear in the list. Log out and check again in 30 to 60 minutes.
 
@@ -38,13 +39,13 @@ You can enable your bot to perform an action by invoking a Microsoft Flow. Use a
 
 2. On the **Common Data Services Default Solution** page, select **+New**, and then select **Flow** from the list.
 
-   > ![New flow](media/new-flow.png)
+   ![New flow](media/new-flow.png)
 
     You can create a variety of flows for your solution. For example, you could create a simple flow that takes an email address as an input parameter, sends an email message to that address, and returns a message that the email was successfully sent to a bot as output.
 
 3. Select a trigger for your flow. A Virtual Agent bot can only invoke flows that have HTTP request interfaces. Enter **HTTP** in the Search box, and select **When a HTTP request is received** to create a flow with an HTTP request trigger.
 
-   > ![Select trigger](media/select-trigger.png)
+   ![Select trigger](media/select-trigger.png)
 
 4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New Step**.
 
@@ -59,33 +60,33 @@ You can enable your bot to perform an action by invoking a Microsoft Flow. Use a
     }
     ```
 
-   > ![Add JSON code](media/add-json-code.png)
+   ![Add JSON code](media/add-json-code.png)
 
 5. Specify that an email message should be sent to the email address specified in the input. Enter **Outlook** in the Search box and select **Send an email** to create a connection to Microsoft Outlook. Follow the directions to specify your Outlook credentials and grant approval to access your account.
 
-   > ![Send email](media/send-email.png)
+   ![Send email](media/send-email.png)
 
     Microsoft Flow displays the **Send an email** window.
 
 6. To use dynamic content as the recipient address, place your cursor in the **To** field to display the **Dynamic content** tab, and then select **See more**.
 
-   > ![See more](media/see-more.png)
+   ![See more](media/see-more.png)
 
     To use the Flow input variable **to** as the recipient address, select **to**.
 
-   > ![Create message](media/select-to.png)
+   ![Create message](media/select-to.png)
 
 7. Add text to the Subject and Body fields of the message, and then select **New step**.
 
-   > ![Return message](media/return-message.png)
+   ![Return message](media/return-message.png)
 
 8. Use an HTTP Response to return a variable to the bot. In the **Choose an action** window, enter **Response** in the search box, and then select the **Response** action.
 
-   > ![HTTP response](media/http-response.png)
+   ![HTTP response](media/http-response.png)
 
 9. Specify the following information for the Response action, and then select **Show advanced options** to display the **Response Body JSON Schema** field.
 
-   > ![Show advanced](media/show-advanced.png)
+   ![Show advanced](media/show-advanced.png)
 
     Add the following JSON code to the **Response Body JSON Schema** field, and then select **Save**.
 
@@ -100,23 +101,21 @@ You can enable your bot to perform an action by invoking a Microsoft Flow. Use a
     }
     ```
 
-   > ![Response action](media/response-action.png)
+   ![Response action](media/response-action.png)
 
 ## To create a bot that invokes a flow
 
 1. Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent environment, and then create a new bot in the same environment as your flow. To create a new bot, select the **New Bot** icon on the title bar. Then select **New bot**.
 
-   > ![New bot icon](media/new-bot-icon.png)
+   ![New bot icon](media/new-bot-icon.png)
 
     For more information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
 2. On the **Create a new bot** screen, specify a template, a unique name for your bot, and the environment where your flow was created. Then select **Create**.
 
-   > ![Specify environment](media/specify-environment.png)
-
 3. Once you have created your bot, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
 
-   > ![New topic](media/create-new-topic.png)
+   ![New topic](media/create-new-topic.png)
 
     For more information about creating a topic, see [Creating custom topics for your bot](getting-started-create-topics.md).
 
@@ -138,59 +137,60 @@ You can enable your bot to perform an action by invoking a Microsoft Flow. Use a
 
     Then select **Save topic** to save the topic.
 
-   > ![Save flow topic](media/save-flow-topic.png)
+   ![Save topic](media/save-topic.png)
 
 5. Once you have created the topic, you can create a conversation path that uses your flow. Select **Edit** to open the conversation editor.
 
-   > ![Open flow conversation](media/open-flow-conversation.png)
+   ![Open flow conversation](media/edit-conversation.png)
 
     In the conversation editor, enter a bot response in the **Bot Says** node, and then select **User says** to display the **User Responses** node.
 
-   > ![Create conversation](media/create-conversation.png)
+   ![Create conversation](media/create-conversation.png)
 
     In the user responses node, select **Add Variable** to display the **Properties** pane, where you can create a variable to save a customer's email address.
 
-   > ![Add variable](media/add-variable.png)
+   ![Add variable](media/add-variable.png)
 
     In the Properties pane, select **Create variable** to display the **Create new variable** window.
 
-   > ![Create new variable](media/create-new-variable.png)
+   ![Create new variable](media/create-new-variable.png)
 
     For more information on creating variables, see [Work with variables](how-to-variables.md).
 
 6. Specify a variable name and type. For example, you could create a text variable named **User_Email**.  Select **Done** to save the variable.
 
-   > ![Save variable](media/create-flow-variable.png)
+   ![Save variable](media/create-flow-variable.png)
 
     Virtual Agent adds the variable to the **User Responses** node and creates an **Expression** node. You can delete this node if you do not want to do any validation.
 
-   > ![Delete expression](media/delete-expression.png)
+   ![Delete expression](media/delete-expression.png)
 
 7. Select **Bot says** to add another node with text confirming that the email will be sent.
 
-   > ![Confirmation node](media/confirmation-node.png)
+   ![Confirmation node](media/confirmation-node.png)
 
     To display the specified email address in the user's conversation with the bot, place your cursor in the **Bot Says** node to display the popup menu. Then select the variable you created from the variable drop-down list.
 
-   > ![Select variable](media/select-variable.png)
+   ![Select variable](media/select-variable.png)
 
 8. To send a message to the specified email address in the user's conversation with the bot, select **Action** to display the list of available actions, and then select the flow action you created.
 
-    > ![Select action](media/select-action.png)
+    ![Select action](media/select-action.png)
+
     > [!NOTE]
     > The flows and bot must be created in the same environment. Otherwise, the flow action does not appear in the list of available actions.
 
     Virtual Agent creates an **Action** node indicating that the action has one required input and one output. Select the variable you created from the drop-down list to pass it as input.
 
-   > ![Create action](media/create-action.png)
+   ![Create action](media/create-action.png)
 
 9. Add another **Bot Says** node to display the message from the flow to the customer. Place your cursor in the node to display the popup menu, and then select the **message** variable from the variable drop-down list.
 
-   > ![Display flow message](media/display-flow-message.png)
+   ![Display flow message](media/display-flow-message.png)
 
 10. Select **End with survey** to end your conversation with a survey, and then select **Save** to save the topic.
 
-   > ![Flow topic end](media/flow-topic-end.png)
+   ![Flow topic end](media/flow-topic-end.png)
 
 ## To test the flow
 
@@ -198,12 +198,8 @@ You can enable your bot to perform an action by invoking a Microsoft Flow. Use a
 
 2. Enter your email address at the prompt.
 
-   > ![Test flow](media/test-flow.png)
-
     The bot displays the email address to the customer to confirm that it will send a message to that address and stores the message specified in the flow in the **(x) message** variable.
-
-   > ![Successful flow](media/successful-flow.png)
 
     The flow then sends the message to the customer.
 
-   > ![Email message](media/email-message.png)
+   ![Email message](media/email-message.png)
