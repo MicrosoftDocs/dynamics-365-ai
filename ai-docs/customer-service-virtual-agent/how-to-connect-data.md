@@ -30,6 +30,6 @@ Virtual Agent lets you quickly connect to your existing Dynamics 365 customer se
 
 3. On the **Choose an environment** screen, select the Dynamics 365 environment that contains the customer service data that you want to use.
 
-   > ![Choose environment](media/choose-environment.png)
+   > ![Choose environment](media/choose-environment.png)<<Need Image>>
 
 Dynamics 365 Virtual Agent for Customer Service configures the workspace to use the environment you selected.
