@@ -2,7 +2,7 @@
 title: "Creating a bot"
 description: "Learn how to use the Dynamics 365 Virtual Agent for Customer Service to create a bot."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/16/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -43,7 +43,7 @@ These industry templates can also be useful as a model for building your own con
 
     Virtual Agent creates the bot and opens it in the browser.
 
-   > ![Open bot](media/open-bot.png)
+   ![Open bot](media/open-bot.png)
 
 Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
 
