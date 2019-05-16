@@ -2,7 +2,7 @@
 title: "Creating a custom greeting for your bot"
 description: "Learn how to create a custom greeting for your bot."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/16/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -24,23 +24,17 @@ For information on creating a custom topic, see [Creating custom topics for your
 
 1. On the Home page, select **Customize your greeting** to open the Greeting topic in the conversation editor.
 
+   ![Open Greeting topic](media/open-greeting-topic.png)
 
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
+   You can also open the Greeting topic in the conversation editor by selecting **Topics** in the navigation pane to open the Topics page, scrolling to the **System topics** section, and selecting the Greeting topic's **Edit** icon.
 
-   > ![Open Greeting topic](media/open-greeting-topic.png)
+   ![Alternate open greeting](media/alternate-open-greeting.png)
 
-    You can also open the Greeting topic in the conversation editor by selecting **Topics** in the navigation pane to open the Topics page, scrolling to the **System topics** section, and selecting the Greeting topic's **Edit** icon.
-
-
-<<<<  IMAGE NEEDS UPDATE >>>>>>>>>>
-
-   > ![Alternate open greeting](media/alternate-open-greeting.png)
-
-    The Greeting topic by default is named *Greeting* and includes a built-in description and trigger phrases, which can't be edited. However, you can customize the greeting by editing the topic's conversation path.
+   The Greeting topic by default is named *Greeting* and includes a built-in description and trigger phrases, which can't be edited. However, you can customize the greeting by editing the topic's conversation path.
 
 2. In the conversation editor, edit the topic's **Bot Says** nodes to customize the greeting.
 
-   > ![Custom greeting](media/custom-greeting.png)
+   ![Custom greeting](media/custom-greeting.png)
 
     Select **Save** to save the topic.
 
@@ -50,4 +44,4 @@ For information on creating a custom topic, see [Creating custom topics for your
 
 2. At the **Type your message** prompt at the bottom of the Test bot pane, enter a trigger phrase for the Greeting topic. The bot responds with the customized greeting you created.
 
-   > ![Test greeting](media/test-greeting.png)
+   ![Test greeting](media/test-greeting.png)
