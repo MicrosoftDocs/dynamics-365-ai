@@ -12,31 +12,20 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR data subject delete requests for Dynamics 365 Virtual Agent for Customer Service
+# Responding to requests to delete data from Virtual Agent for Customer Service
 
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs except audit log information.
 
-## Manage delete requests
-
 Dynamics 365 Virtual Agent for Customer Service offers the following experiences to delete personal data for a specific user:
 
-* [Bot chat logs](#bot-chat-logs)
-* [Case data connection settings](#case-data-connection-settings)
-* [Delete Virtual Agent bot content](#delete-virtual-agent-bot-content)
-* [Delete Virtual Agent telemetry](#delete-virtual-agent-telemetry)
-* [Extracted knowledge](#extracted-knowledge)
-* [Metrics](#metrics)
-* [System telemetry](#system-telemetry)
+* [Delete virtual agent bot content](#delete-virtual-agent-bot-content)
+* [Delete bot chat logs](#bot-chat-logs)
+* [Delete virtual agent telemetry](#delete-virtual-agent-telemetry)
+* [Delete extracted knowledge](#extracted-knowledge)
+* [Delete bot metrics](#metrics)
+* [Delete system telemetry](#system-telemetry)
 
-### Bot chat logs
-
-Bot chat logs are deleted when the bot is deleted.
-
-### Case data connection settings
-
-Case data connection settings are deleted when the bot is deleted.
-
-### Delete Virtual Agent bot content
+### Delete virtual agent bot content
 
 Follow these steps to delete a bot:
 
@@ -52,18 +41,22 @@ Follow these steps to delete a bot:
 
 All bot content is immediately deleted.
 
-### Delete Virtual Agent telemetry
+### Delete bot chat logs
 
-Virtual Agent telemetry data is automatically deleted within 29 days.
+All bot chat logs are deleteed when bot is deleted. See [steps to delete bot](#delete-virtual-agent-bot-content) for more information.
 
-### Extracted knowledge
+### Delete virtual agent telemetry
 
-Extracted knowledge is deleted when the bot is deleted.
+All virtual agent telemetry data is automatically deleted within 29 days. No action from user is needed.
 
-### Metrics
+### Delete extracted knowledge
 
-To delete metrics data, you must delete your bot. See [Delete Virtual Agent Designer bot content](#delete-virtual-agent-bot-content) for more information.
+All extracted knowledge is deleted when bot is delete. See [steps to delete bot](#delete-virtual-agent-bot-content) for more information.
 
-### System telemetry
+### Delete bot metrics
 
-System telemetry is automatically deleted within 29 days.
+To delete metrics data, you must delete your bot. See [steps to delete your bot](#delete-virtual-agent-bot-content) for more information.
+
+### Delete system telemetry
+
+All bot system telemetry is automatically deleted within 29 days. No action from user is needed.
