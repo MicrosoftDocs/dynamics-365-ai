@@ -22,9 +22,7 @@ Key features include:
 
 * **AI-driven conversations** – Customer service managers can create bot solutions to support topics in the form of interactive multi-turn conversations. For complex topics that can have multiple solutions, customer service managers only need to specify the range of solutions and the conditions under which a solution applies. The Dynamics 365 Virtual Agent for Customer Service's artificial intelligence technology dynamically generates the appropriate multi-turn conversation to help provide a solution for the customer.
 
-* **Continuous identification of new support topics** – In addition to helping customers find solutions, the bot continuously identifies new support topics raised by customers. This insight allows customer service managers to quickly roll out solutions to new topics, creating a virtuous cycle that improves the customer's experience.
-
-* **The ability to leverage human knowledge to scale conversations** – Dynamics 365 Virtual Agent for Customer Service makes it possible for professional developers to process chat transcripts generated during conversations between human agents and customers. You can extract information for high-volume support topics as well as successful solutions provided by human agents. You can tune the artificial intelligence model to suit your business, increasing the accuracy and coverage of topics served by the bot.
+* **The ability to leverage human knowledge to scale conversations** – Dynamics 365 Virtual Agent for Customer Service makes it possible for professional developers to process chat transcripts generated during conversations between human agents and customers. 
 
 For information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
 
