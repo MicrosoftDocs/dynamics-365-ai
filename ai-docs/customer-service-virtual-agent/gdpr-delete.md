@@ -19,11 +19,11 @@ The “right to erasure” by the removal of personal data from an organization�
 Dynamics 365 Virtual Agent for Customer Service offers the following experiences to delete personal data for a specific user:
 
 * [Delete virtual agent bot content](#delete-virtual-agent-bot-content)
-* [Delete bot chat logs](#bot-chat-logs)
+* [Delete bot chat logs](#delete-bot-chat-logs)
 * [Delete virtual agent telemetry](#delete-virtual-agent-telemetry)
-* [Delete extracted knowledge](#extracted-knowledge)
-* [Delete bot metrics](#metrics)
-* [Delete system telemetry](#system-telemetry)
+* [Delete extracted knowledge](#delete-extracted-knowledge)
+* [Delete bot metrics](#delete-bot-metrics)
+* [Delete system telemetry](#delete-system-telemetry)
 
 ### Delete virtual agent bot content
 
