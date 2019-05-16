@@ -29,7 +29,6 @@ See these articles for more information
 
 ## A note about requests to rectify personal data
 
-    If a data subject asks you to rectify their personal data that resides in your organization, you and your organization must determine if it’s appropriate to honor the request. Rectifying the data might include taking actions such as editing, redacting, or removing personal data.
+If a data subject asks you to rectify their personal data that resides in your organization, you and your organization must determine if it’s appropriate to honor the request. Rectifying the data might include taking actions such as editing, redacting, or removing personal data.
 
-    You can use AD to manage Dynamics 365 Virtual Agent for Customer Service users' identities. Enterprise customers can manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services. [Learn more about DSR](https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr-dsr-azure).
-3. Restrict: Restrict the processing of personal data, either by removing licenses for various online services or turning off the desired services where possible. You can also remove data from the Microsoft Cloud and retain it on-premises or at another location.
+You can use AD to manage Dynamics 365 Virtual Agent for Customer Service users' identities. Enterprise customers can manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services.
