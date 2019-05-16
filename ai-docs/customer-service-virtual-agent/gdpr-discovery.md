@@ -12,12 +12,12 @@ ms.author: stevesaunders1952
 manager: shellyha
 ---
 
-# Responding to GDPR Data Subject Discovery Requests for Dynamics 365 Virtual Agent for Customer Service
+# Responding to GDPR discovery requests from data subjects
 
-The first step in responding to a DSR is finding personal data that is the subject of the request. This first step helps you to determine whether a DSR meets your organization's requirements for honoring or declining a DSR request. For example, after finding and reviewing the personal data at issue, you may determine the request doesn’t meet your organization’s requirements because doing so may adversely affect the rights and freedoms of others.
+The first step in responding to a Data Subject Request (DSR) is finding personal data that is the subject of the request. This first step helps you to determine whether a DSR meets your organization's requirements for honoring or declining a DSR request. For example, after finding and reviewing the personal data at issue, you may determine the request doesn’t meet your organization’s requirements because doing so may adversely affect the rights and freedoms of others.
 
 Below is a summary of the types of Virtual Agent for Customer Service resources that contain personal data for a specific user.
 
 Resources containing personal data | Purpose
 ---------------------------------- | -------
-Topic | A Virtual Agent topic.
+Topic | A virtual agent topic capturing a customer's intent and trigger phrases.
