@@ -34,30 +34,30 @@ Get it [here](https://microsoft.sharepoint.com/teams/CCIBotDesignerTeam/Shared%2
 
 View additional product videos to dive deeper into Virtual Agent functionality. 
 
-   **Create a new PowerApps Environment**
+  **Create a new PowerApps Environment**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
    
-   **Create, Test, and Deploy a Bot**
+  **Create, Test, and Deploy a Bot**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
 
-   **Test Your Bot Using Conversation Tracing**
+  **Test Your Bot Using Conversation Tracing**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608). 
  
-   **Design a Conversation Using Variables**
+  **Design a Conversation Using Variables**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
 
-   **Use Analytics and Chat Transcripts to improve bot performance**
+  **Use Analytics and Chat Transcripts to improve bot performance**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063181).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2063181).
 
-   **Create a Flow**
+  **Create a Flow**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
 
-   **Call a flow from within a bot conversation**
+  **Call a flow from within a bot conversation**
 
-    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
+   Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
