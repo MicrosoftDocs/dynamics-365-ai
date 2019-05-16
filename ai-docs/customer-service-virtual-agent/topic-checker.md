@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Validate a topic and address errors with the Topic Checker
+# Validate a topic with the Topic Checker
 
 The Topic Checker is available in the conversation editor for any topic defined for your bot. It allows you to see the health of a topic and shows the errors and warnings that have failed validation. You can select the listed errors or warnings to go to the node or field that’s failed validation. As you fix the errors, they will disappear from the Topic Checker, either automatically or after saving the topic.
 
