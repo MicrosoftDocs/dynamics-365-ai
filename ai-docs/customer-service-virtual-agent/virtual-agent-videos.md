@@ -14,40 +14,44 @@ manager: shellyha
 
 # Videos 
 
-## Alissa's video
+## Dynamics 365 Virtual Agent for Customer Service demo
 
-Demo of an embedded video: 
+Take a look into the Virtual Agent for Customer Service capabilities to help you engage customers, empower employees, optimize operations, and transform products. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pk-AVqQPUg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Tony's video
+## A deeper look at Dynamics 365 Virtual Agent for Customer Service
 
 Get it [here](https://microsoft.sharepoint.com/teams/CCIBotDesignerTeam/Shared%20Documents/General/Demo%20Assets/Airlift_2019-04/CCIVirtualAgentDeepDive_2019-04.mp4).
 
-## Create, Test, and Deploy a Bot
+## Product videos
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
+View additional product videos to dive deeper into Virtual Agent functionality. 
 
-## Test Your Bot Using Conversation Tracing
+    **Create, Test, and Deploy a Bot**
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
 
-## Design a Conversation Using Variables
+    **Test Your Bot Using Conversation Tracing**
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
 
-## Use Analytics and Chat Transcripts to improve bot performance
+    ## Design a Conversation Using Variables
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2063181).
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
 
-## Create a new PowerApps Environment
+    ## Use Analytics and Chat Transcripts to improve bot performance
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063181).
 
-## Create a Flow
+    ## Create a new PowerApps Environment
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
 
-## Call a flow from within a bot conversation
+    ## Create a Flow
 
-Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
+
+    ## Call a flow from within a bot conversation
+
+    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
