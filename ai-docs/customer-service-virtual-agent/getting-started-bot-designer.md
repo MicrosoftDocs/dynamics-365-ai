@@ -22,9 +22,7 @@ Virtual Agent is composed of several pages designed for different tasks. You can
 
 ## Home page
 
-<<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-   > ![Home page](media/open-bot.png)
+![Home page](media/open-bot.png)
 
 The Home page provides links to the Topics, Analytics, and Deploy pages.  An **Customize your greeting** button lets you revise the built-in bot greeting topic. The Home page also includes a **Learn more** section with links to documentation, and a **Tell us what you think** section with links to the Virtual Agent community forum and the Virtual Agent idea forum.
 
