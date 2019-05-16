@@ -24,7 +24,7 @@
 
 # How-to
 
-## [Work with templates](how-to-templates.md)
+## [Work with built-in topics](how-to-templates.md)
 
 ## [Work with the Test bot pane](how-to-test-bot.md)
 
