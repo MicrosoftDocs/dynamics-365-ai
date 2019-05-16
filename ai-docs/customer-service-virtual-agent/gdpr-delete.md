@@ -21,20 +21,14 @@ The “right to erasure” by the removal of personal data from an organization�
 Dynamics 365 Virtual Agent for Customer Service offers the following experiences to delete personal data for a specific user:
 
 * [Bot chat logs](#bot-chat-logs)
-* [Case data connection settings](#case-data-connection-settings)
 * [Delete Virtual Agent bot content](#delete-virtual-agent-bot-content)
 * [Delete Virtual Agent telemetry](#delete-virtual-agent-telemetry)
-* [Extracted knowledge](#extracted-knowledge)
 * [Metrics](#metrics)
 * [System telemetry](#system-telemetry)
 
 ### Bot chat logs
 
 Bot chat logs are deleted when the bot is deleted.
-
-### Case data connection settings
-
-Case data connection settings are deleted when the bot is deleted.
 
 ### Delete Virtual Agent bot content
 
@@ -55,10 +49,6 @@ All bot content is immediately deleted.
 ### Delete Virtual Agent telemetry
 
 Virtual Agent telemetry data is automatically deleted within 29 days.
-
-### Extracted knowledge
-
-Extracted knowledge is deleted when the bot is deleted.
 
 ### Metrics
 
