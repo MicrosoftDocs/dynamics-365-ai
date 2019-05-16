@@ -20,4 +20,8 @@ Below is a summary of the types of Virtual Agent for Customer Service resources 
 
 Resources containing personal data | Purpose
 ---------------------------------- | -------
-Topic | A Virtual Agent topic.
+Telemetry logs | Logging which captures historical events within the service.
+Bot content and settings | Information such as content topics and bot settings.
+User Settings | Settings specific to the user of the bot.
+Conversation logs | Used to calculate bot metrics and analytics.
+Aggregated metrics | Used to determine bot behavior.
