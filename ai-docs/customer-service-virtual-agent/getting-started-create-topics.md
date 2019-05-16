@@ -2,7 +2,7 @@
 title: "Creating custom topics for your bot"
 description: "Learn how to use Virtual Agent to create custom topics for your bot."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/16/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -23,21 +23,17 @@ You can see how the conversation path works in practice by testing it in the Tes
 1. Select **Topics** in the navigation pane to open the Topics page.
 
 
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-   > ![Open Topics page](media/open-topics.png)
+   ![Open Topics page](media/open-topics.png)
 
     The Topics page displays a list of your bot's current topics. Virtual Agent includes some built-in topics to get you started.
 
-   > ![Built-in topics](media/template-topics.png)
+   ![Built-in topics](media/template-topics.png)
 
     Virtual Agent also includes several system topics that help you address common situations--a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
 
 2. On the Topics page, select **New topic**.
 
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-   > ![New topic](media/create-new-topic.png)
+   ![New topic](media/create-new-topic.png)
 
 3. Specify a name, description, and one or more trigger phrases for the topic.
 
@@ -46,69 +42,59 @@ You can see how the conversation path works in practice by testing it in the Tes
     Select **Save topic** to add the topic to the topics list.
 
 
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-
-   > ![Save topic](media/save-topic.png)
+   ![Save topic](media/save-topic.png)
 
 ## To design the topic's conversation path
 
 1. Select **Edit** to open the conversation editor.
 
-
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-   > ![Edit conversation](media/edit-conversation.png)
+   ![Edit conversation](media/edit-conversation.png)
 
     Virtual Agent opens the topic in the conversation editor and displays the topic's trigger phrases. The conversation editor is where you define the conversation path between a customer and the bot.
 
-
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-
-   > ![Open conversation](media/open-conversation.png)
+   ![Open conversation](media/open-conversation.png)
 
     As you define the topic's conversation path, you may want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
 
 2. Enter the bot's response to the trigger phrase in the **Bot says** box.
 
-   > ![Add bot response](media/bot-response.png)
+   ![Add bot response](media/bot-response.png)
 
 3. To specify an additional response by the bot, select **Bot says**.
 
-   > ![Additional bot response](media/add-response.png)
+   ![Additional bot response](media/add-response.png)
 
     Then enter the additional response in the **Bot says** box.
 
-   > ![Additional response text](media/response-text.png)
+   ![Additional response text](media/response-text.png)
 
 4. To specify a response by the customer, select **User says**.
 
     You can provide several options for the user’s response. The options display as clickable buttons.
 
-   > ![Add user response](media/user-says.png)
+   ![Add user response](media/user-says.png)
 
     Enter a response in the **User responses** box.
 
-   > ![Add user response text](media/user-response.png)
+   ![Add user response text](media/user-response.png)
 
     To give the customer a choice between different responses, select **Add user response**.
 
-   > ![Additional user response](media/second-response.png)
+   ![Additional user response](media/second-response.png)
 
     Then specify the additional response in the **User responses** box.
 
-   > ![Additional user response text](media/second-response-text.png)
+   ![Additional user response text](media/second-response-text.png)
 
     The conversation editor creates separate paths in the conversation, depending on the customer's response. The conversation path leads the customer to the appropriate resolution for each user response.
 
 5. Add additional bot and user responses to complete the conversation path.
 
-   > ![Complete conversation](media/complete-conversation.png)
+   ![Complete conversation](media/complete-conversation.png)
 
 6. To add a customer satisfaction survey at the end of a response that resolves the customer issue, select **End with survey**.
 
-   > ![End with survey](media/end-with-survey.png)
+   ![End with survey](media/end-with-survey.png)
 
    Then select **Save** to save the conversation path.
 
@@ -118,25 +104,19 @@ As you design your topic's conversation path, you can use the Test bot pane to s
 
 1. To make sure you are using the most current bot content, select **Start over with latest content** at the top of the Test bot pane.
 
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
-
-
-   > ![Restart conversation](media/restart-conversation.png)
+   ![Restart conversation](media/restart-conversation.png)
 
 2. At the **Type your message** prompt at the bottom of the Test bot pane, enter a trigger phrase for the topic.
 
-<<<<<< IMAGE NEEDS UPDATE >>>>>>>>>
+   ![Trigger phrase](media/enter-trigger.png)
 
+   The trigger phrase starts the topic's conversation. The Test bot pane displays the bot and user responses that you specified in the conversation editor.
 
-   > ![Trigger phrase](media/enter-trigger.png)
-
-    The trigger phrase starts the topic's conversation. The Test bot pane displays the bot and user responses that you specified in the conversation editor.
-
-   > ![Start conversation](media/start-conversation.png)
+   ![Start conversation](media/start-conversation.png)
 
 3. Continue the conversation path until you complete the conversation.
 
-   > ![Complete conversation](media/complete-test.png)
+   ![Complete conversation](media/complete-conversation.png)
 
    If the conversation editor is open, you can click on a response in the Test bot pane to navigate to the response in the conversation editor.
 
