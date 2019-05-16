@@ -1,8 +1,8 @@
 ---
 title: "Virtual Agent Topic Checker"
-description: "Virtual Agent Topic Checker"
+description: "Learn how to validate Virtual Agent topics with the Topic Checker."
 keywords: ""
-ms.date: 05/15/2019
+ms.date: 05/16/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,14 +16,14 @@ manager: shellyha
 
 The Topic Checker is available in the conversation editor for any topic defined for your bot. It allows you to see the health of a topic and shows the errors and warnings that have failed validation. You can select the listed errors or warnings to go to the node or field that’s failed validation. As you fix the errors, they will disappear from the Topic Checker, either automatically or after saving the topic.
 
-<<Topic checker Image>>
+![Topic Checker control](media/topic-checker-control.png)
 
 > [!IMPORTANT]
 > You can save topics with errors. The errors will persist until they are addressed on the topic. Topics with errors may be deployed to production. However, unexpected behavior may result.
 
 ## Topic errors
 
-The topic editor canvas validates topic and shows errors and warnings. Warnings will no prevent the bot from functioning and will be overlooked while processing. Errors should be addressed to avoid unexpected behavior or failure during the chat experience.
+The topic editor canvas validates topic and shows errors and warnings. Warnings will not prevent the bot from functioning and will be overlooked while processing. Errors should be addressed to avoid unexpected behavior or failure during the chat experience.
   
 ### Types of errors 
 
