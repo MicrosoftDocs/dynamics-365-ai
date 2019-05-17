@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Discovery Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/17/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,4 +20,8 @@ Below is a summary of the types of Virtual Agent for Customer Service resources 
 
 Resources containing personal data | Purpose
 ---------------------------------- | -------
-Topic | A virtual agent topic capturing a customer's intent and trigger phrases.
+Telemetry logs | Logging which captures historical events within the service.
+Bot content and settings | Information such as content topics and bot settings.
+User Settings | Settings specific to the user of the bot.
+Conversation logs | Used to calculate bot metrics and analytics.
+Aggregated metrics | Used to determine bot behavior.

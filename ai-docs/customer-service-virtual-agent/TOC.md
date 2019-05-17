@@ -59,3 +59,5 @@
 ## [Requests to export data](gdpr-export.md)
 
 ## [Requests to delete data](gdpr-delete.md)
+
+## [Requests to discover data](gdpr-discovery.md)
