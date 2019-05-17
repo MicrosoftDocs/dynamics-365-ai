@@ -31,11 +31,9 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
     - Sign-up to create an account
     - Obtain the a user license (for public preview access)
 
-    <!-- insert pic of new user screen here -->
-
 3. In the **Create a new Bot** dialog, give your bot a name and select **Create**. 
   
-    <!-- insert pic if new create bot dialog here -->
+   ![Create a new bot](media/create-new-bot.PNG)
   
    Since this is your first bot, it might take a few minutes for everything to be set up. 
   
@@ -46,16 +44,10 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
     - Watch product videos
 
    When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality of the virtual agent available to you. 
-<!-- consider removing below -->
-However, while your first bot is getting created, the below features will be temporarily disabled:
-      a. Saving changes – cannot save topics, cannot 'Start over with latest content’ in the test bot
-      b.	Analytics, Deploy, and Settings are disabled.
-
-  <!-- insert pic of read-only UX here -->
 
 4. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**.
 
-<!-- insert pic here -->
+   ![New bot icon in title bar](media/new-bot-icon.png)
 
 5. In the 'Create a new bot' dialog when you create a bot, you can expand the **More options** section and choose an environment for the bot. 
    ![Open bot](media/open-bot.png)
