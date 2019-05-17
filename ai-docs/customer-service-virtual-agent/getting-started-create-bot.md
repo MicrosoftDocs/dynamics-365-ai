@@ -50,7 +50,7 @@ Once the bot is created you will see a message confirming that your bot is ready
 1.	Saving changes – cannot save topics, cannot 'Start over with latest content’ in the test bot
 2.	Analytics, Deploy, and Settings are disabled.
 
-<<<<<<<<<<<insert pic here of the read-only bot experience UX screenshot>>>>>>>>>>>>
+<<<<<<<<<<< insert pic here of the read-only bot experience UX screenshot >>>>>>>>>>>>
 
 3. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**. The rest of the experience is similar as above.
 
@@ -58,20 +58,6 @@ Once the bot is created you will see a message confirming that your bot is ready
 
 
 4. In the 'Create a new bot' dialog when you create a bot, you could choose to expand the **More options** section and choose an environment for the bot. 
-
-Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
-
-
-3. Select the template you want to use, and specify a name and region for the bot.
-
-    In the **Region where your bot is stored** drop-down, select the PowerApps environment you created. Then select **Create**.
-
-    > [!NOTE]
-    > Do not select the Default environment, which is not currently supported.
-
-    Virtual Agent creates the bot and opens it in the browser.
-
-   > ![Open bot](media/open-bot.png)
 
 Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
 
