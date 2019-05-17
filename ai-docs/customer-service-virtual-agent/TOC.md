@@ -34,8 +34,6 @@
 
 ## [Hand off a bot conversation to a live agent](how-to-handoff.md)
 
-## [Connect to your customer service data](how-to-connect-data.md)
-
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
 # Reference
