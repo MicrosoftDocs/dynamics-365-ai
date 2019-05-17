@@ -20,29 +20,20 @@ As you design your bot in Virtual Agent, you can use the Test bot pane to see ho
 
 1. To make sure you are using the most current bot content, select **Start over with latest content** at the top of the Test bot pane.
 
-
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
-
-   > ![Restart conversation](media/restart-conversation.png)
+   ![Restart conversation](media/restart-conversation.png)
 
 2. At the **Type your message** prompt at the bottom of the Test bot pane, enter a trigger phrase for the topic.
 
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
-
-   > ![Trigger phrase](media/enter-trigger.png)
+   ![Trigger phrase](media/enter-trigger.png)
 
     The trigger phrase starts the topic's conversation, and the Test bot pane displays the bot responses and user response choices you specified.
 
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
 
-   > ![Start conversation](media/start-conversation.png)
+   ![Start conversation](media/start-conversation.png)
 
 3. Continue the conversation path until you complete the conversation.
 
-
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
-
-   > ![Complete conversation](media/complete-test.png)
+   ![Complete conversation](media/complete-conversation.png)
 
    If the conversation editor is open, you can click on a response in the Test bot pane to navigate to the response in the conversation editor.
 
@@ -54,20 +45,13 @@ As you fine-tune your bot, it can be useful to enable tracing to take you throug
 
 1. In the upper-left corner of the Test bot pane, select the **Tracing** toggle button to enable tracing.
 
-
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
-
-
-   > ![Enable tracing](media/enable-tracing.png)
+   ![Enable tracing](media/enable-tracing.png)
 
 2. Follow the steps discussed earlier to [test your topic in the Test bot pane](#to-test-a-topic-in-the-test-bot-pane).
 
 3. As you move through the conversation in the Test bot pane, the conversation editor highlights the current place in the conversation path. The conversation editor displays highlighted nodes in green with check marks.
 
-
-<<<<<< IMAGE NEEDS UPDATE  >>>>>>>
-
-   > ![Trace bot](media/trace-bot.png)
+   ![Trace bot](media/trace-bot.png)
 
 4. To navigate to an earlier place in the conversation path in the conversation editor, select it in the Test bot pane.
 

@@ -2,7 +2,7 @@
 title: "Creating a bot"
 description: "Learn how to use the Dynamics 365 Virtual Agent for Customer Service to create a bot."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/17/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -31,11 +31,11 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
     - Sign-up / create an account
     - Obtain the license – this will happen once per user (for public preview access)
 
-    <<<<<<<<<< INSERT PICTURE OF NEW USER SCREEN >>>>>>>>>
+    <!-- insert pic of new user screen here -->
 
     In the “Create a new Bot” dialog, give your bot a name and press **Create** 
   
-    <<<<<<<<<< insert pic here of the new create bot dialog >>>>>>>>>
+    <!-- insert pic if new create bot dialog here -->
   
     Since this is your first bot, it might take a few minutes for everything to be setup. During this time, you can checkout some features of the virtual agent. You can chat with the test bot and follow along by tracing your conversation in the authoring canvas.
   
@@ -50,14 +50,14 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
       a. Saving changes – cannot save topics, cannot 'Start over with latest content’ in the test bot
       b.	Analytics, Deploy, and Settings are disabled.
 
-  <<<<<<<<<<< insert pic here of the read-only bot experience UX screenshot >>>>>>>>>>>>
+  <!-- insert pic of read-only UX here -->
 
 3. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**. The rest of the experience is similar as above.
 
-<<<<<<<<<<<<<<<<<<<<<<< insert pic here >>>>>>>>>>>>>>>>>>>>
-
+<!-- insert pic here -->
 
 4. In the 'Create a new bot' dialog when you create a bot, you could choose to expand the **More options** section and choose an environment for the bot. 
+   ![Open bot](media/open-bot.png)
 
 Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
 

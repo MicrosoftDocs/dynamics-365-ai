@@ -16,6 +16,8 @@
 
 ## [Working with the conversation editor design canvas](expanding-design-canvas.md)
 
+## [Validate a topic with the Topic Checker](topic-checker.md)
+
 ## [Using analytics to improve your bot](getting-started-analytics.md)
 
 ## [Deploying your bot](getting-started-deploy.md)
@@ -31,10 +33,6 @@
 ## [Work with variables](how-to-variables.md)
 
 ## [Hand off a bot conversation to a live agent](how-to-handoff.md)
-
-## [Connect to your customer service data](how-to-connect-data.md)
-
-## [Improve data quality by cleansing support case titles](how-to-cleanse-data.md)
 
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
@@ -59,3 +57,5 @@
 ## [Requests to export data](gdpr-export.md)
 
 ## [Requests to delete data](gdpr-delete.md)
+
+## [Requests to discover data](gdpr-discovery.md)
