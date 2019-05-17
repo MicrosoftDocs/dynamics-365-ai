@@ -50,7 +50,6 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
    ![New bot icon in title bar](media/new-bot-icon.png)
 
 5. In the 'Create a new bot' dialog when you create a bot, you can expand the **More options** section and choose an environment for the bot. 
-   ![Open bot](media/open-bot.png)
 
 Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
 
