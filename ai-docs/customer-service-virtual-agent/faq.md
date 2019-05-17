@@ -65,6 +65,28 @@ Please check if you selected the Region as "USA" while creating the Power Apps (
 
 ## Topic creation and management  
 
+### How do I create my own custom Topic?  
+
+You can find all details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md)
+
+### How can I test topics that I've customized or created from scratch to make sure they are working properly?
+
+Virtual Agent includes a canvas, where you can test your bot and view how the conversation you designed in the conversation editor works in practice. See [Work with the Test bot pane](how-to-test-bot.md) for more details.
+
+### I saved my content but when I test the bot, it doesn't seem to reflect my edits. What's happening?
+
+Make sure to save the topic you're editing and then select the **Start over with latest content** button to ensure the latest content gets updated in the chat canvas when testing your bot.
+
+### Is it possible to link multiple topics?
+
+You can link a different topic within a topic by using the **Go To** option which appears while adding a new node in the dialog flow of a topic.
+
+### Is it possible to launch the bot to address a specific topic from a link on the page? The scenario we have in mind is a list of links/actions on the page and a couple of them will launch a topic on the bot.
+
+Currently we don't support context passing in the bot, so you will not be able to launch the bot or trigger a specific topic based on a link or action on the web page. 
+Some inofficial workarounds you may want to consider: deploy the Bot on a custom page, and launch that page as an iframe or pop-up from the parent web page, when the link or action is launched.
+For triggering specific topics you could have multiple bots, and have the Topic content added as part of the Greeting, which always appears when starting a conversation. The downside is that it will be cumbersome to maintain multiple bots for different sets of links/actions.
+
 ## Flow integration 
 
 ## Deployment 
