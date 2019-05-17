@@ -89,6 +89,33 @@ For triggering specific topics you could have multiple bots, and have the Topic 
 
 ## Flow integration 
 
+### How do I create a Microsoft Flow Action in Virtual Agent?
+A: Here is a [video on how to create a Microsoft Flow Action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from the Virtual Agent.
+
+### What license do I need to use Microsoft Flows in Virtual Agent?
+Every bot author will be automatically licensed to use Microsoft Flows. No extra steps are needed, as bot authors will be assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/en-us/pricing/).
+
+### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
+
+Make sure the environment you are using to create your flows is same as the environment you are using for the Bot.    
+Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Flow, and try it out. 
+
+### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?
+
+Virtual Agent accepts exclusively JSON format in the message response. The JSON can contain strings and numbers only. We do not support arrays yet, but this feature is on the roadmap
+
+### Can we call a third-party API from a Flow?
+
+Yes, an existing API can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output.
+
+### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
+
+Currently, actions in Virtual Agent only support calling third-party APIs via Flow.
+
+### If we have authentication for the user, can we pass user authentication info to a flow?
+
+Currently, passing end user authentication to a flow is not supported in Virtual Agent, but we have this feature on the Roadmap.
+
 ## Deployment 
 
 ## Analytics 
