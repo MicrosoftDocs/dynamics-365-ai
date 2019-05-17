@@ -33,24 +33,24 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
 
     <<<<<<<<<< INSERT PICTURE OF NEW USER SCREEN >>>>>>>>>
 
-  In the “Create a new Bot” dialog, give your bot a name and press **Create** 
+    In the “Create a new Bot” dialog, give your bot a name and press **Create** 
   
-  <<<<<<<<<< insert pic here of the new create bot dialog >>>>>>>>>
+    <<<<<<<<<< insert pic here of the new create bot dialog >>>>>>>>>
   
-  Since this is your first bot, it might take a few minutes for everything to be setup. During this time, you can checkout some features of the virtual agent. You can chat with the test bot and follow along by tracing your conversation in the authoring canvas.
+    Since this is your first bot, it might take a few minutes for everything to be setup. During this time, you can checkout some features of the virtual agent. You can chat with the test bot and follow along by tracing your conversation in the authoring canvas.
   
-  Here are some of the things you will be able to do while your bot is getting created.
-1.	Chat with a test bot
-2.	View Topics
-3.	Edit topics (note that you cannot save them while your bot is getting created).
-4.	Trace your conversation in the authoring canvas.
-5.	Watch videos
+   Here are some of the things you will be able to do while your bot is getting created.
+      a. Chat with a test bot
+      b. View Topics
+      c.	Edit topics (note that you cannot save them while your bot is getting created).
+      d.	Trace your conversation in the authoring canvas.
+      e.	Watch videos
 
-Once the bot is created you will see a message confirming that your bot is ready. At this point, you will have all functionality of the virtual agent available to you. However, while your first bot is getting created, the below features will be temporarily disabled:
-1.	Saving changes – cannot save topics, cannot 'Start over with latest content’ in the test bot
-2.	Analytics, Deploy, and Settings are disabled.
+   Once the bot is created you will see a message confirming that your bot is ready. At this point, you will have all functionality of the virtual agent available to you. However, while your first bot is getting created, the below features will be temporarily disabled:
+      a. Saving changes – cannot save topics, cannot 'Start over with latest content’ in the test bot
+      b.	Analytics, Deploy, and Settings are disabled.
 
-<<<<<<<<<<< insert pic here of the read-only bot experience UX screenshot >>>>>>>>>>>>
+  <<<<<<<<<<< insert pic here of the read-only bot experience UX screenshot >>>>>>>>>>>>
 
 3. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**. The rest of the experience is similar as above.
 
