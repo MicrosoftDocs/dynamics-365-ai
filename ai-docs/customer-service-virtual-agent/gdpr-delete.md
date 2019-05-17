@@ -35,26 +35,25 @@ Follow these steps to delete a bot:
 1. Open Virtual Agent in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
 
-   > ![General settings](media/general-settings.png)
+   ![General settings](media/general-settings.png)
 
 3. In the Delete bot section, select **Delete bot**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Delete bot](media/delete-bot.PNG)
+   ![Delete bot](media/delete-bot.PNG)
 
 All bot content is immediately deleted.
 
 ### Bot chat logs
 
-All bot chat logs are deleteed when bot is deleted. See [steps to delete bot](#delete-virtual-agent-bot-content) for more information.
+All bot chat logs are deleted when bot is deleted. See [steps to delete bot](#virtual-agent-bot-content) for more information.
 
-### Delete virtual agent telemetry
+### Virtual agent telemetry
 
 All virtual agent telemetry data is automatically deleted within 29 days. No action from user is needed.
 
 ### Metrics
 
-To delete metrics data, you must delete your bot. See [steps to delete your bot](#delete-virtual-agent-bot-content) for more information.
+To delete metrics data, you must delete your bot. See [steps to delete your bot](#virtual-agent-bot-content) for more information.
 
 ### System telemetry
 
