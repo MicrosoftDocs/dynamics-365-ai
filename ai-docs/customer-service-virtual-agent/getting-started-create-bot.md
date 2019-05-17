@@ -2,7 +2,7 @@
 title: "Creating a bot"
 description: "Learn how to use the Dynamics 365 Virtual Agent for Customer Service to create a bot."
 keywords: ""
-ms.date: 05/16/2019
+ms.date: 05/17/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,11 +16,7 @@ manager: shellyha
 
 You can use Virtual Agent to create a powerful custom bot. Virtual Agent makes it easy to create bots that address common support issues. You can design a conversation path that leads each customer to a resolution.
 
-To help get you started and tailor the bot to your specific needs, Virtual Agent lets you create a bot using built-in industry-specific templates. For example, Virtual Agent includes a template to help you create a bot for a retail business.
-
-Each template comes with built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths that are tailored to a specific industry. For example, the Retail template includes a topic that lets you easily communicate store hours to customers.
-
-These industry templates can also be useful as a model for building your own conversations for similar customer-support issues. For more information, see [Work with templates](how-to-templates.md).
+To help get you started and tailor the bot to your specific needs, Virtual Agent lets you create a bot using built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths. These built-in topics can also be useful as a model for building your own conversations for similar customer-support issues. For more information, see [Work with built-in topics](how-to-templates.md).
 
 ## To create a bot
 
@@ -28,22 +24,32 @@ These industry templates can also be useful as a model for building your own con
 
     For more information about creating a PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
-2. Navigate to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent environment and display the **Create a new bot** screen. Dynamics 365 Virtual Agent for Customer Service supports Chrome (preferred) and Edge browsers.
+2. Go to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent environment. Dynamics 365 Virtual Agent for Customer Service supports Chrome (preferred) and Edge browsers.
 
-    If you have already created a bot, you can create a new bot by selecting the **New Bot** icon on the title bar. Then select **New bot**.
+    If you are visiting for the first time, you will be taken through a wizard-like experience to sign up and create your first bot. You will be going through the following steps:
+    
+    - Sign-up to create an account
+    - Obtain the a user license (for public preview access)
 
-   > ![New bot icon](media/new-bot-icon.png)
+3. In the **Create a new Bot** dialog, give your bot a name and select **Create**. 
+  
+   ![Create a new bot](media/create-new-bot.PNG)
+  
+   Since this is your first bot, it might take a few minutes for everything to be set up. 
+  
+   Here are some things you can do to use this time and explore some features of Virtual Agent.
+    - Chat with a test bot
+    - Trace your conversation in the authoring canvas
+    - View and edit topics
+    - Watch product videos
 
-3. Select the template you want to use, and specify a name and region for the bot.
+   When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality of the virtual agent available to you. 
 
-    In the **Region where your bot is stored** drop-down, select the PowerApps environment you created. Then select **Create**.
+4. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**.
 
-    > [!NOTE]
-    > Do not select the Default environment, which is not currently supported.
+   ![New bot icon in title bar](media/new-bot-icon.png)
 
-    Virtual Agent creates the bot and opens it in the browser.
-
-   ![Open bot](media/open-bot.png)
+5. In the 'Create a new bot' dialog when you create a bot, you can expand the **More options** section and choose an environment for the bot. 
 
 Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
 
