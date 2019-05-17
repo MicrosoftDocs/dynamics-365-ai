@@ -56,6 +56,6 @@ All virtual agent telemetry data is automatically deleted within 29 days. No act
 
 To delete metrics data, you must delete your bot. See [steps to delete your bot](#delete-virtual-agent-bot-content) for more information.
 
-### Delete system telemetry
+### System telemetry
 
 All bot system telemetry is automatically deleted within 29 days. No action from user is needed.
