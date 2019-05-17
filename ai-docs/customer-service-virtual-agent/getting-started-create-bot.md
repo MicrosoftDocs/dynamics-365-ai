@@ -31,7 +31,7 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
     - Sign-up to create an account
     - Obtain the a user license (for public preview access)
 
-3. In the **Create a new Bot** dialog, give your bot a name and select **Create**. 
+3. In the **Create a new bot** dialog, give your bot a name and select **Create**. 
   
    ![Create a new bot](media/create-new-bot.PNG)
   
