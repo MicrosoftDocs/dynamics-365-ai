@@ -26,7 +26,7 @@ If you encounter problems creating an environment, see [Known issues with creati
 
 
 > [!NOTE]
-> Watch this step-by-step video: [Create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331)
+> Watch this step-by-step video. [Create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
 
 
 1. Enter [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center.
@@ -80,6 +80,6 @@ When creating the first bot in an environment, there is a known issue where the 
 1.	Eventually succeeds and lands the user on the Virtual Agent home screen OR
 2.	Errors out as in case above
 
-Workaround: If 2. occurred, and you are sure you had sufficient environment privileges  (i.e., you created the environment as guided above), then proceed as follows:
+If #2 occurred, and you are sure you had sufficient environment privileges  (i.e., you created the environment as guided above), then proceed as follows:
     Refresh your browser
     After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
