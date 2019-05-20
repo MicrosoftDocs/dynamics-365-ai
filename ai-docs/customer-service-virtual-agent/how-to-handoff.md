@@ -14,6 +14,8 @@ manager: shellyha
 
 # Hand off a bot conversation to a live human agent
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate a handoff by redirecting users to the Escalate system topic. To get started, update the Escalate system topic.
 
 ## Update Escalate system topic to handoff to a live agent

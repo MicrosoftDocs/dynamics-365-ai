@@ -14,6 +14,8 @@ manager: shellyha
 
 # GDPR compliance for Virtual Agent for Customer Service
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 European Union's General Data Protection Regulation (GDPR) gives people (known in the GDPR as data subjects) specific rights to their personal data, including the ability to: obtain copies of personal data, request corrections or deletions, receive personal data in an electronic format so it can be moved to another controller, or to restrict processing of personal data.
 
 A formal request by a data subject to a controller to take an action on their personal data is called a Data Subject Request (DSR). [Learn more about DSR](https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr-dsr-azure).

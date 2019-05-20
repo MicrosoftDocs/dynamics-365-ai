@@ -14,6 +14,8 @@ manager: shellyha
 
 # Creating a PowerApps environment
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 When you create a bot, you must select a PowerApps environment for the bot. You can use an existing environment or create one.
 
 If you encounter problems creating an environment, see [Known issues with creating a PowerApps environment](#known-issues-with-creating-a-powerapps-environment) later in this topic.

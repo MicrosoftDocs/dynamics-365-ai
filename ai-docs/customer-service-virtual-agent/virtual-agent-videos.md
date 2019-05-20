@@ -14,6 +14,7 @@ manager: shellyha
 
 # Videos 
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Dynamics 365 Virtual Agent for Customer Service demo
 

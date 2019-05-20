@@ -14,6 +14,8 @@ manager: shellyha
 
 # Working with the conversation editor design canvas
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 As you design the conversation path for your bot in the conversation editor, you often create a conversation path with multiple nodes and branches based on a customer's response to the options you specify. As the conversation path becomes more complex, it can become challenging to view and work with it in the conversation editor design canvas.
 
 To help you work with a complex conversation path, Virtual Agent provides a variety of tools to expand the size of the design canvas, adjust the position of the conversation path, zoom in and out of the canvas, and orient the current view of the conversation path. You can:

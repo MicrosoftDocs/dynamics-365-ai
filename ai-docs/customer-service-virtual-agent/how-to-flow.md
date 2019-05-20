@@ -14,6 +14,8 @@ manager: shellyha
 
 # Add actions to your bot using Microsoft Flow
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 You can enable your bot to perform an action by invoking a Microsoft Flow. Use a flow that shares the same Common Data Service (CDS) environment as the bot. First, create a Microsoft PowerApps environment and then create your flow. Once you have created the flow, you can create a bot that uses an action to invoke the flow.
 
 ## To create a Microsoft PowerApps environment

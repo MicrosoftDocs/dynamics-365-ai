@@ -14,6 +14,8 @@ manager: shellyha
 
 # Sessions page
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 ![Sessions page](media/sessions-page.png)
 
 The sessions page lets you download information from your customer service sessions from the last 30 days, up to 1000 sessions.

@@ -14,6 +14,8 @@ manager: shellyha
 
 # Frequently asked questions
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 ## General 
 
 ### What are the various Browsers supported by the Virtual Agent?

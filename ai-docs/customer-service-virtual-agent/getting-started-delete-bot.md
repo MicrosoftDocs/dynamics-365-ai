@@ -14,6 +14,8 @@ manager: shellyha
 
 # Deleting your bot
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 If you want to remove your bot from the Virtual Agent environment, you can delete it using the **Delete Bot** command on the **Settings** menu.
 
 ## To delete a bot

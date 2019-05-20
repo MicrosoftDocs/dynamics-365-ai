@@ -14,6 +14,8 @@ manager: shellyha
 
 # Responding to GDPR data subject export requests in Virtual Agent for Customer Service
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The right of data portability allows a data subject to request a copy of their personal data in an electronic format (that’s a “structured, commonly used, machine readable, and interoperable format”) that can be transmitted to another data controller.
 
 ## Manage export requests

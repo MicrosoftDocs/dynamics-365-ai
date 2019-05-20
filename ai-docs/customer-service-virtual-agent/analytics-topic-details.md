@@ -14,6 +14,8 @@ manager: shellyha
 
 # Topic details page
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The Topic details page provides a view into the performance of individual topics and how they can be improved.
 
 You can display the Topic details page by selecting the Detail link in one of the following charts on the [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) pages:

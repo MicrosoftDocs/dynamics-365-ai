@@ -14,6 +14,8 @@ manager: shellyha
 
 # Responding to GDPR discovery requests from data subjects
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The first step in responding to a Data Subject Request (DSR) is finding personal data that is the subject of the request. This first step helps you to determine whether a DSR meets your organization's requirements for honoring or declining a DSR request. For example, after finding and reviewing the personal data at issue, you may determine the request doesn’t meet your organization’s requirements because doing so may adversely affect the rights and freedoms of others.
 
 Below is a summary of the types of Virtual Agent for Customer Service resources that contain personal data for a specific user.

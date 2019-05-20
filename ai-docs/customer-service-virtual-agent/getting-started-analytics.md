@@ -14,6 +14,8 @@ manager: shellyha
 
 # Using analytics to improve your bot
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 As you create and deploy your bot, you can use analytics to see how your bot is performing. Virtual Agent includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
 To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page.

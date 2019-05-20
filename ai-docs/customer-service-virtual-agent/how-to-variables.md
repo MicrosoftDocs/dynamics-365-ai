@@ -14,6 +14,8 @@ manager: shellyha
 
 # Work with variables
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Variables let you save responses from your customers in a conversation with a bot so that you can reuse them later in the conversation. For example, you can save a customer's name in a variable called *UserName*. The bot can then address the customer by name as the conversation continues.
 
 You can use variables to create logical expressions that dynamically route the customer down different conversation paths.

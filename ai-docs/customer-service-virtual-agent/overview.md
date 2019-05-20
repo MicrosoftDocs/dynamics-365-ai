@@ -14,6 +14,8 @@ manager: shellyha
 
 # Dynamics 365 Virtual Agent for Customer Service overview
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Dynamics 365 Virtual Agent for Customer Service enables any customer-service manager to create a powerful custom bot. Virtual Agent provides an easy, code-free graphical interface and templates for creating a bot without the need for artificial intelligence experts or teams of developers. The bot can chat with customers, ask the appropriate clarifying questions to identify issues, and guide each customer to a resolution.
 
 Key features include:
