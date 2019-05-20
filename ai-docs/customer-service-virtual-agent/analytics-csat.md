@@ -14,11 +14,11 @@ manager: shellyha
 
 # Customer satisfaction page
 
-The Customer satisfaction dashboard provides a detailed view of customer satisfaction (CSAT) survey data, including the average CSAT score over time and the topics that are having the most impact on the CSAT score.
+The Customer satisfaction page provides a detailed view of customer satisfaction (CSAT) survey data, including the average CSAT score over time and the topics that are having the most impact on the CSAT score.
 
-![Customer Satisfaction dashboard](media/customer-satisfaction-dashboard.png)
+![Customer Satisfaction page](media/customer-satisfaction-dashboard.png)
 
-The Customer satisfaction dashboard includes a variety of charts with graphical views of your bot's customer satisfaction indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
+The Customer satisfaction page includes a variety of charts with graphical views of your bot's customer satisfaction indicators. For information about each chart, select the link for the chart in the following list, or scroll to find the section about the chart later in this topic:
 
 * [Customer satisfaction drivers chart](#customer-satisfaction-drivers-chart)
 * [Scores over time chart](#scores-over-time-chart)
@@ -27,7 +27,7 @@ The Customer satisfaction dashboard includes a variety of charts with graphical 
 
 The Customer satisfaction drivers chart shows you the topics that are having the most impact on customer satisfaction.
 
-By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
+By default, the page shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the page.
 
 ## Customer satisfaction drivers chart
 
@@ -47,7 +47,7 @@ The chart displays the impact as a red or blue bar. A red bar indicates that the
 
 Improving the average CSAT survey score for the top customer-satisfaction impact topics in red has the greatest impact on improving the overall CSAT score.
 
-To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
+To see additional information about each topic, select the Detail link to display the Topic details page. For more information, see [Topic details page](analytics-topic-details.md).
 
 ## Scores over time chart
 

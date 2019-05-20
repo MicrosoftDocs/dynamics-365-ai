@@ -2,7 +2,7 @@
 title: "Using analytics to improve your bot"
 description: "Learn how to use analytics to improve your Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/15/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,7 +20,7 @@ To view the analytics dashboards, select **Analytics** in the navigation pane to
 
 ![Open Analytics page](media/open-analytics.png)
 
-You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) dashboards, or download sessions information by selecting the appropriate tab on the Analytics page.
+You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) pages, or download sessions information by selecting the appropriate tab on the Analytics page.
 
 ![Dashboard tabs](media/dashboard-tabs.png)
 
@@ -41,7 +41,7 @@ By default, dashboards display information for the last seven days, but you can 
 
 ## Key performance indicator charts
 
-Key performance indicator charts give you a view of the key performance data for your bot and customer service system for the specified time period. For example, the key performance indicator charts on the Summary dashboard show you:
+Key performance indicator charts give you a view of the key performance data for your bot and customer service system for the specified time period. For example, the key performance indicator charts on the Summary page show you:
 
 * The total number of sessions during the period.
 * The percentage of total sessions during the period that are engaged sessions.
@@ -71,7 +71,7 @@ Impact charts show you the topics that are having the greatest impact, both posi
 For details on Dynamics 365 Virtual Agent for Customer Service analytics, see the following topics:
 
 * [Analytics overview](analytics-overview.md)
-* [Summary dashboard](analytics-summary.md)
-* [Customer satisfaction dashboard](analytics-CSAT.md)
-* [Topic details dashboard](analytics-topic-details.md)
+* [Summary page](analytics-summary.md)
+* [Customer satisfaction page](analytics-CSAT.md)
+* [Topic details page](analytics-topic-details.md)
 * [Download sessions page](analytics-sessions.md)

@@ -2,7 +2,7 @@
 title: "Working with the Virtual Agent"
 description: "Learn how to work with the Virtual Agent."
 keywords: ""
-ms.date: 05/16/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -40,7 +40,7 @@ For more information about using the Topics page to create topics, see [Creating
 
 ![Analytics page](media/analytics-pane.png)
 
-The Analytics page provides a variety of dashboards and charts showing key performance indicators for your bot.
+The Analytics page provides a variety charts showing key performance indicators for your bot.
 
 For more information about using the Analytics page, see [Using analytics to improve your bot](getting-started-analytics.md).
 

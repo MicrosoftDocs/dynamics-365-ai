@@ -2,7 +2,7 @@
 title: "Responding to GDPR Data Subject Export Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Export Requests for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -38,7 +38,7 @@ Dynamics 365 Virtual Agent for Customer Service offers the following capabilitie
 
 ### Export customer data – Analytics data
 
-1. Hover over a chart on one of the Analytics dashboards and select the **More options** ellipses.
+1. Hover over a chart on one of the Analytics pages and select the **More options** ellipses.
 
    ![More options](media/more-options.png)
 
