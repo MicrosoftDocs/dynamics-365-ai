@@ -80,6 +80,4 @@ When creating the first bot in an environment, there is a known issue where the 
 1.	Eventually succeeds and lands the user on the Virtual Agent home screen OR
 2.	Errors out as in case above
 
-If #2 occurred, and you are sure you had sufficient environment privileges  (i.e., you created the environment as guided above), then proceed as follows:
-    Refresh your browser
-    After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
+If #2 occurred, and you are sure you had sufficient environment privileges  (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
