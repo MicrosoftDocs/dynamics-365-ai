@@ -2,7 +2,7 @@
 title: "Work with variables"
 description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service variables."
 keywords: ""
-ms.date: 05/14/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -13,6 +13,8 @@ manager: shellyha
 ---
 
 # Work with variables
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Variables let you save responses from your customers in a conversation with a bot so that you can reuse them later in the conversation. For example, you can save a customer's name in a variable called *UserName*. The bot can then address the customer by name as the conversation continues.
 
@@ -29,14 +31,14 @@ Virtual Agent supports four types of variables:
 
 1. In the bot conversation editor, select **Add Variable** at the bottom of the **User responses** node where you want to add the variable.
 
-   > ![Add variable](media/add-variable.png)
+   ![Add variable](media/add-variable.png)
 
 2. In the Properties pane, select **Create variable**.
 
-   > ![Create variable](media/create-new-variable.png)
+   ![Create variable](media/create-new-variable.png)
 
-4. Specify a name and type for the variable, and then select **Save**.
+3. Specify a name and type for the variable, and then select **Save**.
 
-   > ![Save variable](media/save-variable.png)
+   ![Save variable](media/save-variable.png)
 
 Virtual Agent adds the variable to a customer's response and uses expressions to dynamically route the conversation path, letting you tailor the bot's response.

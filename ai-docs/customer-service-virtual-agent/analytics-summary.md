@@ -1,8 +1,8 @@
 ---
-title: "Summary dashboard"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Summary dashboard."
+title: "Summary page"
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Summary page."
 keywords: ""
-ms.date: 05/15/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,11 +14,13 @@ manager: shellyha
 
 # Summary page
 
-![Summary dashboard](media/analytics-pane.png)
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Summary dashboard gives you a broad overview of your bot's performance. It uses artificial intelligence (AI) technology to show you which topics are having the greatest impact on support case escalation rate, abandon rate, and resolution rate.
+![Summary page](media/analytics-pane.png)
 
-The Summary dashboard includes a variety of charts with graphical views of your bot's key performance indicators. For information about each chart, see:
+The Summary page gives you a broad overview of your bot's performance. It uses artificial intelligence (AI) technology to show you which topics are having the greatest impact on support case escalation rate, abandon rate, and resolution rate.
+
+The Summary page includes a variety of charts with graphical views of your bot's key performance indicators. For information about each chart, see:
 
 * [Summary charts](#summary-charts)
 * [Engagement over time chart](#engagement-over-time-chart)
@@ -29,7 +31,7 @@ The Summary dashboard includes a variety of charts with graphical views of your 
 
 The Engagement rate drivers, Abandon rate drivers, and Resolution rate drivers charts use natural language understanding to group support cases as topics. These charts show you the topics that are having the most impact on the performance of your bot.
  
-By default, the dashboard shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the dashboard.
+By default, the page shows you key performance indicators for the last seven days. To change the time period to the last 30 days, select **Last 30 days** from the drop-down list at the top of the page.
 
 ## Summary charts
 
@@ -81,7 +83,7 @@ The chart displays the impact as a red or blue bar. A red bar indicates that the
 
 Improving the resolution rate for the top resolution-rate topics in red has the greatest impact on improving the overall resolution rate.
 
-To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
+To see additional information about each topic, select the Detail link to display the Topic details page. For more information, see [Topic details page](analytics-topic-details.md).
 
 ## Escalation rate drivers chart
 
@@ -97,7 +99,7 @@ The chart displays the impact as a red or blue bar. A red bar indicates that the
 
 Lowering the escalation rate for the topics in red has the greatest impact on improving the overall escalation rate.
 
-To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
+To see additional information about each topic, select the Detail link to display the Topic details page. For more information, see [Topic details page](analytics-topic-details.md).
 
 ## Abandon rate drivers chart
 
@@ -113,4 +115,4 @@ The chart displays the impact as a red or blue bar. A red bar indicates that the
 
 Improving the abandon rate for the top abandon-rate topics in red has the greatest impact on improving the overall abandon rate.
 
-To see additional information about each topic, select the Detail link to display the Topic details dashboard. For more information, see [Topic details dashboard](analytics-topic-details.md).
+To see additional information about each topic, select the Detail link to display the Topic details page. For more information, see [Topic details page](analytics-topic-details.md).

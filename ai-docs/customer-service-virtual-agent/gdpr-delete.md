@@ -14,6 +14,8 @@ manager: shellyha
 
 # Responding to requests to delete data from Virtual Agent for Customer Service
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs except audit log information.
 
 Dynamics 365 Virtual Agent for Customer Service offers the following experiences to delete personal data for a specific user:

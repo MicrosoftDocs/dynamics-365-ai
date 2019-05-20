@@ -14,6 +14,8 @@ manager: shellyha
 
 # Quickstart: Create and deploy a customer service bot
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Virtual Agent lets you quickly create and deploy your own customer service bot. The bot can chat with customers, ask clarifying questions to identify issues, and guide each customer to a resolution.
 
 This Quickstart takes you through the end-to-end experience of creating a bot, adding topics, deploying your bot, and analyzing data from your bot.

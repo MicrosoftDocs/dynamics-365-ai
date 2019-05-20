@@ -2,7 +2,7 @@
 title: "Creating a PowerApps environment"
 description: "Learn how to create a PowerApps environment for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -13,6 +13,8 @@ manager: shellyha
 ---
 
 # Creating a PowerApps environment
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you create a bot, you must select a PowerApps environment for the bot. You can use an existing environment or create one.
 
@@ -26,17 +28,17 @@ If you encounter problems creating an environment, see [Known issues with creati
 
     Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Then select **Create environment**.
 
-   > ![Create environment](media/create-environment.png)
+    ![Create environment](media/create-environment.png)
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
 3. Select **Create database** to display the **Create a database for this environment** screen.
 
-   > ![Create database](media/create-database.png)
+   ![Create database](media/create-database.png)
 
 4. Select your currency type and language, and then select **Create database**.
 
-   > ![Create database](media/create-database2.png)
+   ![Create database](media/create-database2.png)
 
 > [!NOTE]
 > Creating a database and environment can take some time.

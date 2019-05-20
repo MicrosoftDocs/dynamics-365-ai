@@ -2,6 +2,8 @@
 
 # [Quickstart](quickstart.md)
 
+# [Frequently asked questions](faq.md)
+
 # Getting started
 
 ## [Creating a PowerApps environment](getting-started-new-environment.md)

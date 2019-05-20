@@ -14,6 +14,8 @@ manager: shellyha
 
 # Creating custom topics for your bot
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A topic defines a conversation path with the bot for a specific customer intent. You specify a trigger phrase that prompts the bot to start the conversation. Then create a conversation path in the Virtual Agent's conversation editor to lead customers to a resolution of their support issue.
 
 You can see how the conversation path works in practice by testing it in the Test bot pane and continue to fine-tune the topic until you are ready to deploy it.

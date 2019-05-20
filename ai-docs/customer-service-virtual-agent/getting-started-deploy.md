@@ -14,6 +14,8 @@ manager: shellyha
 
 # Deploying your bot
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Once you have finished designing you virtual agent, you can deploy it to a demo environment on the web or to your live website.
 
 > [!NOTE]

@@ -14,6 +14,8 @@ manager: shellyha
 
 # Work with built-in topics
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 To help you create your custom bot, Virtual Agent includes built-in topics to be used as building blocks for developing the bot's conversation path. The built-in topics can give you a head start on developing your bot. 
 
 For example, there are several system topics that you need to handle some key scenarios within the bot. These include:

@@ -1,8 +1,8 @@
 ---
 title: "Topic details page"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Topic details dashboard."
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Topic details page."
 keywords: ""
-ms.date: 05/15/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,9 +14,11 @@ manager: shellyha
 
 # Topic details page
 
-The Topic details dashboard provides a view into the performance of individual topics and how they can be improved.
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can display the Topic details dashboard by selecting the Detail link in one of the following charts on the [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) dashboards:
+The Topic details page provides a view into the performance of individual topics and how they can be improved.
+
+You can display the Topic details page by selecting the Detail link in one of the following charts on the [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) pages:
 
 * [Escalation rate drivers (Summary page)](analytics-summary.md#escalation-rate-drivers-chart)
 * [Abandon rate drivers (Summary page)](analytics-summary.md#abandon-rate-drivers-chart)
@@ -25,9 +27,9 @@ You can display the Topic details dashboard by selecting the Detail link in one 
 
 ![Topic details link](media/topic-details-link.png)
 
-The Topic details dashboard can also be displayed by opening an individual topic from the Topics page and selecting **Analytics** at the top of the page. 
+The Topic details page can also be displayed by opening an individual topic from the Topics page and selecting **Analytics** at the top of the page. 
 
-The Topic details dashboard includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, see:
+The Topic details page includes a variety of charts with graphical views of a topic's key performance indicators. For information about each chart, see:
 
 * [Topic summary charts](#topic-summary-charts)
 * [Impact summary charts](#impact-summary-charts)

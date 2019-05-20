@@ -1,8 +1,8 @@
 ---
 title: "Analytics overview"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service dashboards."
+description: "Learn about the Dynamics 365 Virtual Agent for Customer Service pages."
 keywords: ""
-ms.date: 05/15/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,11 +14,15 @@ manager: shellyha
 
 # Analytics overview
 
-The Dynamics 365 Virtual Agent for Customer Service analytics dashboards contain a variety of charts that show you key performance indicators for your bot, give you graphical views of the trends and breakdowns in your bot's support topics, and use artificial intelligence technology to highlight support topics that are having the greatest impact on your bot's performance.
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) dashboards by selecting the appropriate tab at the top of the page. The Summary dashboard is displayed by default.
+The Dynamics 365 Virtual Agent for Customer Service analytics pages contain a variety of charts that show you key performance indicators for your bot, give you graphical views of the trends and breakdowns in your bot's support topics, and use artificial intelligence technology to highlight support topics that are having the greatest impact on your bot's performance.
 
-You can display the [Topic details](analytics-topic-details.md) dashboard by selecting the Detail link for a topic in the charts on these dashboards.
+You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-CSAT.md) pages by selecting the appropriate tab at the top of the page. The Summary page is displayed by default.
+
+![Page navigation](media/dashboard-tabs.png)
+
+You can display the [Topic details](analytics-topic-details.md) page by selecting the Detail link for a topic in the charts on these pages.
 
 ![Topic details link](media/topic-details-link.png)
 

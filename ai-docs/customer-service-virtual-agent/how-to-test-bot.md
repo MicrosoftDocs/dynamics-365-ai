@@ -14,6 +14,8 @@ manager: shellyha
 
 # Work with the Test bot pane
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 As you design your bot in Virtual Agent, you can use the Test bot pane to see how the bot leads a customer through the conversation path. To help you find and fix unexpected behavior, you can enable tracing to take you through the conversation path step by step, and navigate to the corresponding node in the conversation editor.
 
 ## To test a topic in the Test bot pane
