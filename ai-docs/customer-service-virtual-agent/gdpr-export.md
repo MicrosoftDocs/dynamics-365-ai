@@ -30,22 +30,22 @@ Dynamics 365 Virtual Agent for Customer Service offers the following capabilitie
 1. Open Virtual Agent in your browser.
 2. On the Settings menu, select **General settings** to display the General tab of the Settings window.
 
-   > ![General settings](media/general-settings.png)
+   ![General settings](media/general-settings.png)
 
 3. In the Export section, select **Export all bot content** to export all bot content, **Export bot system content** to export bot system content, or **Export bot non-system content** to export bot non-system content.
 
-   > ![Export bot content](media/export-bot-content.png)
+   ![Export bot content](media/export-bot-content.png)
 
 ### Export customer data – Analytics data
 
 1. Hover over a chart on one of the Analytics dashboards and select the **More options** ellipses.
 
-   > ![More options](media/more-options.png)
+   ![More options](media/more-options.png)
 
 2. From the drop-down menu, select **Export data**.
 
-    > ![Export data](media/export-data.png)
+    ![Export data](media/export-data.png)
 
 3. To export summarized data, select **Summarized data** and a file format, and then **Export**.
 
-   > ![Export details](media/export-details.png)
+   ![Export details](media/export-details.png)
