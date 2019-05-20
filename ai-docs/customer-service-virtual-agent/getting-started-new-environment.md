@@ -26,7 +26,7 @@ If you encounter problems creating an environment, see [Known issues with creati
 
 
 > [!NOTE]
-> Watch this step-by-step video. [Create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
+> Watch this step-by-step video to [create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
 
 
 1. Enter [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center.
