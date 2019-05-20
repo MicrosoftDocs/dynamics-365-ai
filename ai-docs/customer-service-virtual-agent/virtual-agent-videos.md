@@ -59,6 +59,6 @@ View additional product videos to dive deeper into Virtual Agent functionality.
 
    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
 
-  **Call a flow from within a bot conversation**
+  **Call a flow from within the bot conversation**
 
    Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
