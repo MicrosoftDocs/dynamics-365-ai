@@ -2,7 +2,7 @@
 title: "Creating a bot"
 description: "Learn how to use the Dynamics 365 Virtual Agent for Customer Service to create a bot."
 keywords: ""
-ms.date: 05/17/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -37,15 +37,16 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
   
    ![Create a new bot](media/create-new-bot.PNG)
   
-   Since this is your first bot, it might take a few minutes for everything to be set up. 
-  
-   Here are some things you can do to use this time and explore some features of Virtual Agent.
-    - Chat with a test bot
-    - Trace your conversation in the authoring canvas
-    - View and edit topics
-    - Watch product videos
-
-   When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality of the virtual agent available to you. 
+   > [!NOTE]
+   > If this is your first bot, it might take a few minutes for everything to be set up. 
+   >
+   > Here are some things you can do to use this time and explore some features of Virtual Agent.
+   > - [Chat with a test bot](how-to-test-bot.md#work-with-the-test-bot-pane)
+   > - [Trace your conversation in the authoring canvas](how-to-test-bot.md#to-trace-through-the-topics-conversation-path)
+   > - [View and edit topics](getting-started-bot-designer.md#topics-page) (but not save them)
+   > - [Watch product videos](virtual-agent-videos.md)
+   >
+   > When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality available to you. 
 
 4. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**.
 
