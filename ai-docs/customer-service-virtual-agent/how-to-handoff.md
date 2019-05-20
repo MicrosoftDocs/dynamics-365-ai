@@ -2,7 +2,7 @@
 title: "Hand off a bot conversation to a live agent"
 description: "Learn how to use Virtual Agent to create a bot conversation that hands off to a live agent."
 keywords: ""
-ms.date: 05/14/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -20,15 +20,15 @@ A bot can resolve many customer support issues, but there are times when an issu
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
-   > ![Open Topics page](media/open-topics.png)
+   ![Open Topics page](media/open-topics.png)
 
 2. Hover over the Escalate system topic, and then select the **Edit** icon to open the topic in the conversation editor.
 
-   > ![Edit Escalate topic](media/open-escalate.png)
+   ![Edit Escalate topic](media/open-escalate.png)
 
 3. In the **Bot Says** box, replace the *[link]* placeholder with a link to your engagement hub chat canvas. Then select **Save** to save the topic.
 
-   > ![Save topic](media/replace-placeholder.png)
+   ![Save topic](media/replace-placeholder.png)
 
 You are now ready to redirect users to this topic to initiate a handoff.
 
@@ -36,15 +36,15 @@ You are now ready to redirect users to this topic to initiate a handoff.
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
-   > ![Open Topics page](media/open-topics.png)
+   ![Open Topics page](media/open-topics.png)
 
 2. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to trigger a handoff to live human agent, and then select **Escalate**.
 
-   > ![Select Escalate](media/select-escalate.png)
+   ![Select Escalate](media/select-escalate.png)
 
     Virtual Agent adds an **Escalate** node to the conversation path.
 
-   > ![Add Escalate node](media/add-escalate.png)
+   ![Add Escalate node](media/add-escalate.png)
 
 3. Select **Save** to save the topic. 
 
