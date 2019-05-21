@@ -46,26 +46,29 @@ You can file bugs in the in the [community forum](https://go.microsoft.com/fwlin
 That's great, we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 
+
 ## Bot creation and environments
 
-### Having read/write access to any environment
-In this case, you will see this error: “You do not have permissions to any environments. Please get access from an administrator.”
-To resolve this issue, follow the steps in To create a new PowerApps environment to create a new environment. Use that environment to create your bot.
+### Why do I get an error that I do not have permissions to any environments?
 
-Having sufficient privelege for the selected environment
-Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained that way, we are working to fix this. If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
-To resolve this issue, follow the steps in To create a new PowerApps environment to create a new environment. Use that environment to create your bot.
+It is possible that you do not have read/write access to any environments. In this case, you will see the error: “You do not have permissions to any environments. Please get access from an administrator.” 
+To resolve this issue, follow the steps in [To create a new PowerApps environment]() to create a new environment. Use that environment to create your bot.
 
-Creation of a bot timing out after a long delay
-When creating the first bot in an environment, there is a known issue where the bot creation takes a long time and either:
-Eventually succeeds and lands the user on the Virtual Agent home screen OR
-Errors out as in case above
-If #2 occurred, and you are sure you had sufficient environment privileges (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
+
+### Why do I get "An unexpected server error occurred"?
+
+Is it possible that you do not have sufficient priveleges for the selected environment. Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained to this. If you select an environment that you have has insufficient access to, you will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
+To resolve this issue, follow the steps in [To create a new PowerApps environment]() to create a new environment. Use that environment to create your bot.
+
+
+### Why does my bot creation time out after a long delay?
+
+When creating the first bot in an environment, there is a known issue where the bot creation takes a long time and either eventually succeeds and lands the user on the Virtual Agent home screen, or errors out. If an error occurred and you are sure you had sufficient environment privileges (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
 
 
 ### The PowerApps environment I created does not show up in the down menu of Virtual Agent, why?
 
-Please check if you selected the Region as "USA" while creating the Power Apps (Common Data Service) environment. Currently we support only environments in USA. If you created an environment in other regions, it won't be shown in Virtual Agent. The workaround is to create a new environment with Location as "USA" or use an existing environment that was created in "USA" region.
+Please check if you selected the Region as "USA" while creating the Power Apps (Common Data Service) environment. Currently we support only environments in USA. If you created an environment in other regions, it won't be shown in Virtual Agent. The workaround is to create a new environment with location as "USA" or use an existing environment that was created in "USA" region.
 
 
 ### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
