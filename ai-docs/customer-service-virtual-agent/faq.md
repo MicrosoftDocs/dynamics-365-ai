@@ -111,7 +111,7 @@ The "1 min execution throttle" only applies to "auto-run" type of Flows and does
 
 ## Topic creation and management  
 
-### What is a bot and a topic? 
+### What is a topic? 
 
 A bot is a collection on Topics.  Topics may be authored – customized from provided templates, or created from scratch.  
 
