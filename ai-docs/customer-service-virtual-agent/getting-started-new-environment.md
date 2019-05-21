@@ -48,19 +48,15 @@ Watch this step-by-step video to [create a new PowerApps environment](https://go
 
 ## Known issues with creating a PowerApps environment
 
-When you create your bot's PowerApps environment, you may encounter issues with:
+When you create your bot's PowerApps environment, you may encounter the following issues.
 
-* [Having read/write access to any environment](#having-readwrite-access-to-any-environment)
-* [Having sufficient permissions for the selected environment](#having-sufficient-permissions-for-the-selected-environment)
-* [Creation of a bot timing out after a long delay](#creation-of-a-bot-timing-out-after-a-long-delay)
-
-### Having read/write access to any environment
+### No read/write access to any environment
 
 In this case, you will see this error: “You do not have permissions to any environments. Please get access from an administrator.”
 
 To resolve this issue, follow the steps in [To create a new PowerApps environment](#to-create-a-new-powerapps-environment) to create a new environment. Use that environment to create your bot.
 
-### Having sufficient permissions for the selected environment
+### Insufficient permissions for the selected environment
 
 If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
 
