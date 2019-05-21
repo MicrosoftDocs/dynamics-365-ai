@@ -111,17 +111,34 @@ The "1 min execution throttle" only applies to "auto-run" type of Flows and does
 
 ## Topic creation and management  
 
+### What is a bot and a topic? 
+
+A bot is a collection on Topics.  Topics may be authored – customized from provided templates, or created from scratch.  
+
+### What is the difference between a System topic and a provided template User topic? 
+
+A System topic are linked to provided features like a customer survey, escalate to a live agent or the bot greeting.  Some areas of the System topics may be modified but others are not.  All parts of a the provided User Topics may be modified or deleted.  They are for your customization to fulfull the needs of your Virtual Agent bot. 
+
 ### How do I create my own custom Topic?  
 
 You can find all details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md)
 
 ### How can I test topics that I've customized or created from scratch to make sure they are working properly?
+The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation you designed in the conversation editor works in practice. 
+You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the Test Bot.  Click on any chat bubble to navigate to that point in the conversation. 
 
-Virtual Agent includes a canvas, where you can test your bot and view how the conversation you designed in the conversation editor works in practice. See [Work with the Test bot pane](how-to-test-bot.md) for more details.
+### I saved my content but when I test the virtual agent in the Test Bot, it doesn't seem to reflect my edits.  What's happening? 
+You need to make sure to hit "Save" on the Topic you're editing and then hit the "Start over" button in the Test Bot to ensure the latest content gets updated in the chat canvas when testing your virtual agent. 
 
-### I saved my content but when I test the bot, it doesn't seem to reflect my edits. What's happening?
+### What is the Green outline that appears while I'm testing my topic? 
 
-Make sure to save the topic you're editing and then select the **Start over with latest content** button to ensure the latest content gets updated in the chat canvas when testing your bot.
+The Green outline appears around each node that is successfully tested while using the Test Bot. Those nodes that fail will be outlined in red. 
+
+### What is “Follow” toggle switch in Test Bot? 
+Turn on Follow to ajump between topics while testing your bot. The conversation on the right will update simultaneously. Click on any chat bubble to navigate to that point in the conversation. 
+
+### What is Topic Checker? 
+Topic Checker is where you can see a comprehensive list of all errors and warnings in your Topic.  Errors and Warnings can be saved with a Topic and cleared upon subsequent visits.  Errors should be cleared up before Deploying your bot to production, else unexpected behavior may occur.  Warnings are skipped by the Bot. 
 
 ### Is it possible to link multiple topics?
 
@@ -132,6 +149,10 @@ You can link a different topic within a topic by using the **Go To** option whic
 Currently we don't support context passing in the bot, so you will not be able to launch the bot or trigger a specific topic based on a link or action on the web page. 
 Some inofficial workarounds you may want to consider: deploy the Bot on a custom page, and launch that page as an iframe or pop-up from the parent web page, when the link or action is launched.
 For triggering specific topics you could have multiple bots, and have the Topic content added as part of the Greeting, which always appears when starting a conversation. The downside is that it will be cumbersome to maintain multiple bots for different sets of links/actions.
+
+### What’s a variable and how do I use it? 
+
+Variables store customer responses to Bot questions.  Variables can further be used in expressions evaluating a customer response or passed to a Flow.  Variables can also be used to confirm a customer response. 
 
 ## Flow integration 
 
