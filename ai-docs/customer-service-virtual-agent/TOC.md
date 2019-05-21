@@ -4,7 +4,7 @@
 
 # [Frequently asked questions](faq.md)
 
-# Getting started
+# Inroduction
 
 ## [Creating a PowerApps environment](getting-started-new-environment.md)
 
@@ -38,7 +38,7 @@
 
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
-# Reference
+# Analytics
 
 ## [Analytics overview](analytics-overview.md)
 
