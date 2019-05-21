@@ -184,11 +184,13 @@ The Virtual Agent designer accepts only JSON object format in the message respon
 
 Yes, an existing API can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output. For example, you can use an HTTP call inside a Flow to connect with a 3rd-party API, like shown below:
 
-Also, Microsoift Flow provides hundreds of Connectors to enable you to connect apps, data and devices in the cloud. Examples of popular connectors include Microsoft Common Data Service (CDS), Salesforce, Office 365, Twitter, Dropbox, Google services, and more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list.
+![Connect to 3rd party API in flow](media/connect-API-flow-example.png)
+
+Also, Microsoift Flow provides hundreds of Connectors to enable you to connect apps, data and devices in the cloud. Examples of popular connectors include Microsoft Common Data Service (CDS), Salesforce, Office 365, Twitter, Dropbox, Google services, and more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list of avalaible Flow Connectors.
 
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
-This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow.  If this feature is critical to your business, please request this in our Ideas Board.
+This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow. If this feature is critical to your business, please request this in our Ideas Board.
 
 ### If we have authentication for the user, can we pass user authentication info to a flow?
 
