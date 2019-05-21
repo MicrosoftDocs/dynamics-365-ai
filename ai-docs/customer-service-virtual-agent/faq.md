@@ -117,8 +117,6 @@ Every bot author will be automatically licensed to use Microsoft Flows. No extra
 Make sure the environment you are using to create your flows is same as the environment you are using for the bot.    
 Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, as it is by default). 
 
-![POST method in Flow options](media/flow-http-request-post.png)
-
 View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
 ### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?
