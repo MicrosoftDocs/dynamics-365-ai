@@ -2,7 +2,7 @@
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/17/2019
+ms.date: 05/21/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,7 +18,7 @@ manager: shellyha
 
 ## General 
 
-### What are the various Browsers supported by the Virtual Agent?
+### What are the various browsers supported by the Virtual Agent?
 
 Virtual Agent is supported in the latest versions of Edge, Chrome, and Fire Fox. It is not supported in Internet Explorer.
  
@@ -41,13 +41,30 @@ Yes, Virtual Agent currently doesn't allow storing the user utterance that trigg
 ### I ran into a problem. What should I do to file a bug?  How quickly will you get back to me? 
 
 You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hrs.
-
 ### I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?
 
 That's great, we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 
-## Licensing and environment
+## Bot creation and environments
+
+### Why do I get an error that I do not have permissions to any environments?
+
+It is possible that you do not have read/write access to any environments. In this case, you will see the error: “You do not have permissions to any environments. Please get access from an administrator.” 
+To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
+
+### Why do I get "An unexpected server error occurred"?
+
+Is it possible that you do not have sufficient priveleges for the selected environment. Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained to this. If you select an environment that you have has insufficient access to, you will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
+To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
+
+### Why does my bot creation time out after a long delay?
+
+When creating the first bot in an environment, there is a known issue where the bot creation takes a long time and either eventually succeeds and lands the user on the Virtual Agent home screen, or errors out. If an error occurred and you are sure you had sufficient environment privileges (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
+
+### The PowerApps environment I created does not show up in the down menu of Virtual Agent, why?
+
+Please check if you selected the Region as "USA" while creating the Power Apps (Common Data Service) environment. Currently we support only environments in USA. If you created an environment in other regions, it won't be shown in Virtual Agent. The workaround is to create a new environment with location as "USA" or use an existing environment that was created in "USA" region.
 
 ### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
 
@@ -59,10 +76,6 @@ If you have 10 bot authors in your organization:
  - every P2 license comes with 15K Flow "runs" per month
 Flow runs are "pooled" and the runs are anonymous - so the org actually gets 10x15K Flow runs any Flow can use. Now, this 10x15K is a big number to have for a month, and they can be used by any Flow anyone has created.
 The "1 min execution throttle" only applies to "auto-run" type of Flows and does not apply to Bot Flows. This throttle is only for the Flows that are set up to run automatically in a loop, like "every 1 min, check if there are new emails in my Inbox".
-
-### The Power Apps environment I created does not show up in the down menu of Virtual Agent, why?
-
-Please check if you selected the Region as "USA" while creating the Power Apps (Common Data Service) environment. Currently we support only environments in USA. If you created an environment in other regions, it won't be shown in Virtual Agent. The workaround is to create a new environment with Location as "USA" or use an existing environment that was created in "USA" region.
 
 
 ## Topic creation and management  
@@ -91,16 +104,20 @@ For triggering specific topics you could have multiple bots, and have the Topic 
 
 ## Flow integration 
 
-### How do I create a Microsoft Flow Action in Virtual Agent?
-A: Here is a [video on how to create a Microsoft Flow Action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from the Virtual Agent.
+### How do I create a Microsoft Flow action in Virtual Agent?
+
+A: Here is a [video on how to create a Microsoft Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from Virtual Agent.
 
 ### What license do I need to use Microsoft Flows in Virtual Agent?
+
 Every bot author will be automatically licensed to use Microsoft Flows. No extra steps are needed, as bot authors will be assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/en-us/pricing/).
 
 ### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
 
-Make sure the environment you are using to create your flows is same as the environment you are using for the Bot.    
-Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Flow, and try it out. 
+Make sure the environment you are using to create your flows is same as the environment you are using for the bot.    
+Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, as it is by default). 
+
+View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
 ### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?
 
@@ -118,6 +135,7 @@ Currently, actions in Virtual Agent only support calling third-party APIs via Fl
 
 Currently, passing end user authentication to a flow is not supported in Virtual Agent, but we have this feature on the Roadmap.
 
+
 ## Deployment 
 
 ### How do I share my virtual agent with others?
@@ -127,6 +145,7 @@ You find the details in this article: [To share your bot in the demo website](ge
 ### How I install the bot in a Modern SharePoint site? Is there any additional work that will be required if the given Modern SharePoint restricts embedding code from external sites?
 
 If the Modern SharePoint site allows embedding an iframe, it should be able to embed the bot. We have an iframe code snippet that you can get for your respective bot by going to the **Deploy** page. That snippet can be pasted in any html web page and from there you should see your bot appear. You can get this code to embed in your SharePoint site from **Deploy** > **Custom Website** in Virtual Agent.
+
 
 ## Analytics 
 
