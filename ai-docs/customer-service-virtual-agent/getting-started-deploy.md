@@ -7,7 +7,7 @@ ms.service:
   - "dynamics-365-ai"
 ms.topic: article
 ms.assetid: 
-author: stevesaunders1952
+author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
