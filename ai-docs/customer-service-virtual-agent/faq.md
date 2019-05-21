@@ -166,27 +166,33 @@ Every bot author will be automatically licensed to use Microsoft Flows. No extra
 
 ### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
 
-Make sure the environment you are using to create your flows is same as the environment you are using for the bot.    
-Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, as it is by default). 
+- The environment you are using to create your flows must be the same as the environment you are using for the bot.   
+- Make sure to create your Flows in Solutions, as the Bot cannot see the Flows created in My Flows tab
+- Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, how it is by default). 
 
 View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
+### I created a flow with HTTP Request trigger, and it's visible in my Bot, but when I test my Topic, it fails. Why?
+
+Please make sure this Flow is Turned On (enabled) on Flow portal. The Flows which are Turned Off (disabled) on Flows portal are visible to the Bot Designer and can be incorporated into an Action in the Dialog, but will fail at runtime until they are Turned On.
+
 ### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?
 
-Virtual Agent accepts exclusively JSON format in the message response. The JSON can contain strings and numbers only. We do not support arrays yet, but this feature is on the roadmap
+The Virtual Agent designer accepts only JSON object format in the message response. The JSON object can contain strings and numbers only. In the coming months, we will release a custom Flow connector that will make it easier to create Flows using key/value pairs rather than requring to use JSON format.  We do not support arrays as Flow output for Bots yet, but this feature is on the roadmap. 
 
 ### Can we call a third-party API from a Flow?
 
-Yes, an existing API can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output.
+Yes, an existing API can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output. For example, you can use an HTTP call inside a Flow to connect with a 3rd-party API, like shown below:
+
+Also, Microsoift Flow provides hundreds of Connectors to enable you to connect apps, data and devices in the cloud. Examples of popular connectors include Microsoft Common Data Service (CDS), Salesforce, Office 365, Twitter, Dropbox, Google services, and more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list.
 
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
-Currently, actions in Virtual Agent only support calling third-party APIs via Flow.
+This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow.  If this feature is critical to your business, please request this in our Ideas Board.
 
 ### If we have authentication for the user, can we pass user authentication info to a flow?
 
-Currently, passing end user authentication to a flow is not supported in Virtual Agent, but we have this feature on the Roadmap.
-
+Currently, passing end user authentication to a Flow is not supported in Virtual Agent, but we have this feature on the Roadmap and will be enabled over the coming months.  We will start with token-based authentication.  If you have specific authentication requirements that you would like us to be aware of, please request this in our Ideas Board.
 
 ## Deployment 
 
