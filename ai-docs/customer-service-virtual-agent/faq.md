@@ -52,13 +52,13 @@ That's great, we'd love to hear your thoughts. [Submit your ideas and feedback i
 ### Why do I get an error that I do not have permissions to any environments?
 
 It is possible that you do not have read/write access to any environments. In this case, you will see the error: “You do not have permissions to any environments. Please get access from an administrator.” 
-To resolve this issue, follow the steps in [To create a new PowerApps environment]() to create a new environment. Use that environment to create your bot.
+To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
 
 
 ### Why do I get "An unexpected server error occurred"?
 
 Is it possible that you do not have sufficient priveleges for the selected environment. Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained to this. If you select an environment that you have has insufficient access to, you will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
-To resolve this issue, follow the steps in [To create a new PowerApps environment]() to create a new environment. Use that environment to create your bot.
+To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
 
 
 ### Why does my bot creation time out after a long delay?
