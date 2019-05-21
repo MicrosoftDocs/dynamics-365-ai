@@ -2,7 +2,7 @@
 title: "Creating a PowerApps environment"
 description: "Learn how to create a PowerApps environment for Dynamics 365 Virtual Agent for Customer Service."
 keywords: ""
-ms.date: 05/20/2019
+ms.date: 05/21/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,7 +14,6 @@ manager: shellyha
 
 # Creating a PowerApps environment
 
-
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you create a bot, you must select a PowerApps environment for the bot. You can use an existing environment or create one.
@@ -23,10 +22,7 @@ If you encounter problems creating an environment, see [Known issues with creati
 
 ## To create a new PowerApps environment
 
-
-
-> [!NOTE]
-> Watch this step-by-step video to [create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
+Watch this step-by-step video to [create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
 
 
 1. Enter [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center.
@@ -54,10 +50,9 @@ If you encounter problems creating an environment, see [Known issues with creati
 
 When you create your bot's PowerApps environment, you may encounter issues with:
 
-* Having read/write access to any environment.
-* Having sufficient privelege for the selected environment.
-* Creation of a bot timing out after a long delay.
-
+* [Having read/write access to any environment](#having-readwrite-access-to-any-environment)
+* [Having sufficient permissions for the selected environment](#having-sufficient-permissions-for-the-selected-environment)
+* [Creation of a bot timing out after a long delay](#creation-of-a-bot-timing-out-after-a-long-delay)
 
 ### Having read/write access to any environment
 
@@ -65,19 +60,14 @@ In this case, you will see this error: “You do not have permissions to any env
 
 To resolve this issue, follow the steps in [To create a new PowerApps environment](#to-create-a-new-powerapps-environment) to create a new environment. Use that environment to create your bot.
 
+### Having sufficient permissions for the selected environment
 
-### Having sufficient privelege for the selected environment
-
-Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained that way, we are working to fix this. If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
+If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
 
 To resolve this issue, follow the steps in [To create a new PowerApps environment](#to-create-a-new-powerapps-environment) to create a new environment. Use that environment to create your bot.
 
-
 ### Creation of a bot timing out after a long delay
 
-When creating the first bot in an environment, there is a known issue where the bot creation takes a long time and either:
+When creating the first bot in an environment, there is a known issue where the bot creation takes a long time. 
 
-1.	Eventually succeeds and lands the user on the Virtual Agent home screen OR
-2.	Errors out as in case above
-
-If #2 occurred, and you are sure you had sufficient environment privileges  (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
+If the creation times out and you are sure you had sufficient environment privileges (for example, you created the environment), please refresh your browser. After the refresh, in most cases, you'll find the bot created successfully despite the error; otherwise try [creating the bot](getting-started-create-bot.md) again.
