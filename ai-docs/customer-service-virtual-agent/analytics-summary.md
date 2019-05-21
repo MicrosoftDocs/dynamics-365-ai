@@ -1,12 +1,10 @@
 ---
 title: "Summary page"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Summary page."
-keywords: ""
 ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

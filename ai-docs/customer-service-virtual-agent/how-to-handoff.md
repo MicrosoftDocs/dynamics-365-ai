@@ -1,12 +1,10 @@
 ---
 title: "Hand off a bot conversation to a live agent"
 description: "Learn how to use Virtual Agent to create a bot conversation that hands off to a live agent."
-keywords: ""
 ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

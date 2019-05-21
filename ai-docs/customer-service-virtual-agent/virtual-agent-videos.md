@@ -1,12 +1,10 @@
 ---
 title: "Virtual Agent videos"
 description: "Virtual Agent videos"
-keywords: ""
 ms.date: 05/10/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

@@ -1,12 +1,10 @@
 ---
 title: "Creating a bot"
 description: "Learn how to use the Dynamics 365 Virtual Agent for Customer Service to create a bot."
-keywords: ""
 ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

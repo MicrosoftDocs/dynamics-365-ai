@@ -1,12 +1,10 @@
 ---
 title: "Topic details page"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Topic details page."
-keywords: ""
 ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

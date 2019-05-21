@@ -1,12 +1,10 @@
 ---
 title: "Working with the Virtual Agent"
 description: "Learn how to work with the Virtual Agent."
-keywords: ""
 ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

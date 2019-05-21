@@ -1,12 +1,10 @@
 ---
 title: "Add actions to your bot using Microsoft Flow"
 description: "Learn how to add actions to your bot using Microsoft Flow."
-keywords: ""
 ms.date: 05/16/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha

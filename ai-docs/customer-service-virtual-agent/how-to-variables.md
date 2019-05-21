@@ -1,12 +1,10 @@
 ---
 title: "Work with variables"
 description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service variables."
-keywords: ""
 ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
