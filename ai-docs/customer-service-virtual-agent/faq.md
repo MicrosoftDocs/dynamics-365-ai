@@ -172,7 +172,8 @@ Every bot author will be automatically licensed to use Microsoft Flows. No extra
 
 - The environment you are using to create your flows must be the same as the environment you are using for the bot.   
 - Make sure to [create your Flows in Solutions](https://docs.microsoft.com/en-us/flow/overview-solution-flows), as the Bot cannot see the Flows created in My Flows tab. 
-- Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, how it is by default). 
+- Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, how it is by default):
+![POST method in HTTP Request](media/flow-http-post-method.png)
 
 View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
@@ -187,7 +188,7 @@ The Virtual Agent designer accepts only JSON object format in the message respon
 
 Yes, an existing API or another application can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output. Microsoft Flow provides hundreds of Connectors to enable you to connect to apps, data and devices in the cloud. 
 
-Examples of popular connectors include Microsoft Common Data Service (CDS), Salesforce, Zendesk, ServiceNow, Office 365, Microsoft Teams, Slack, Facebook, Twitter, Dropbox, MailChimp, Google services, and many more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list of avalaible Flow Connectors.
+Examples of popular connectors include Microsoft Common Data Service (CDS), Dynamics 365, Salesforce, Zendesk, ServiceNow, Office 365, Microsoft Teams, Slack, Facebook, Twitter, Dropbox, MailChimp, Google services, and many more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list of avalaible Flow Connectors.
 
 If there is no suitable Connector that you can use out of the box in Flow, you can use an HTTP call inside a Flow to connect to a custom 3rd-party API, like in the example below:
 ![Connect to 3rd party API](media/connect-API-flow.png)
