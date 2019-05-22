@@ -20,22 +20,21 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
 
 ## To create the first bot
 
-1. Navigate to [aka.ms/virtual-agent](http://aka.ms/virtual-agent). If you are visiting for the first time, you will be taken through a wizard-like experience to sign-up and create your first bot. (If you have created a bot before, follow the instructions in [Creating another bot](#to-create-another-bot). Go through the following steps
-- Sign up and obtain a license (ADD LINK TO SIGN UP PAGE)
-- In the **Create a new bot** dialog, give your bot a name and select **Create**. 
+If you encounter an issue while creating your bot, see [Known issues](#known-issues) below.
+
+### Creating a bot - US based users
+
+Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) or follow the steps below.
+
+1. Navigate to [aka.ms/virtual-agent](http://aka.ms/virtual-agent) and select "Sign up". Sign up and if you are signing up for the first time, obtain a license and agree to the terms and conditions
+
+2. In the **Create a new bot** dialog, give your bot a name and select **Create**. 
+
+  > [!NOTE]
+  > If you are based outside of US, you might have to create a new PowerApps environment located in the US. See [Creating a PowerApps environment](getting-started-new-environment.md) for more information on creating a new environment. Once you created a new environment located in the US, select **More options** and choose the correct environment. 
   
    ![Create a new bot](media/create-new-bot.PNG)
-
-
-    If you are visiting for the first time, you will be taken through a wizard-like experience to sign up and create your first bot. You will be going through the following steps:
     
-    - Sign-up to create an account
-    - Obtain the a user license (for public preview access)
-
-3. In the **Create a new bot** dialog, give your bot a name and select **Create**. 
-  
-   ![Create a new bot](media/create-new-bot.PNG)
-  
    > [!NOTE]
    > If this is your first bot, it might take a few minutes for everything to be set up. 
    >
@@ -46,24 +45,14 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
    > - [Watch product videos](virtual-agent-videos.md)
    >
    > When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality available to you. 
+   
+3. You are now ready to [Create cutom topics for your bot](getting-started-create-topics.md)!
 
-4. If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**.
+## Creating additional bots
+
+If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**.
 
    ![New bot icon in title bar](media/new-bot-icon.png)
-
-5. In the 'Create a new bot' dialog when you create a bot, you can expand the **More options** section and choose an environment for the bot. 
-
-Once you have created your bot, you can add topics that represent the customer intents to be addressed by the bot and then deploy it to a web channel. As customers use the bot, you can view analytics information to help you improve it and the overall customer experience.
-
-For more information about creating topics for your bot, see [Creating custom topics for your bot](getting-started-create-topics.md).
-
-For more information about deploying your bot, see [Deploying your bot](getting-started-deploy.md).
-
-For more information about using analytics information to help you improve your bot, see [Using analytics to improve your bot](getting-started-analytics.md).
-
-For more information about working with Virtual Agent, see [Working with Virtual Agent](getting-started-bot-designer.md).
-
-For information about removing your bot from the Virtual Agent environment, see [Deleting a bot](getting-started-delete-bot.md).
 
 ## Known issues with creating a bot
 
