@@ -195,7 +195,7 @@ If there is no suitable Connector that you can use out of the box in Flow, you c
 
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
-This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow. If this feature is critical to your business, please request this in our Ideas Board.
+This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow. If this feature is critical to your business, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 
 ### How do I work with my data in Microsoft Flow?
@@ -213,7 +213,7 @@ Microsoift Flow provides [hundreds of data Connecors](https://docs.microsoft.com
 
 ### If we have authentication for the user, can we pass user authentication info to a flow?
 
-Currently, passing end user authentication to a Flow is not supported in Virtual Agent, but we have this feature on the Roadmap and will be enabled over the coming months.  We will start with token-based authentication.  If you have specific authentication requirements that you would like us to be aware of, please request this in our Ideas Board.
+Currently, passing end user authentication to a Flow is not supported in Virtual Agent, but we have this feature on the Roadmap and will be enabled over the coming months.  We will start with token-based authentication.  If you have specific authentication requirements that you would like us to be aware of, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 ### Can I share the flows I created with other users?
 You can add other users in you orgnization as owners of the flows you have created. Please click on the flow to open its Details page, and select "Add another owner" option in Owners section:
