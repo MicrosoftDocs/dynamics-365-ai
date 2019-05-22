@@ -44,6 +44,9 @@ manager: shellyha
     - [Can we call a third-party API directly from the Virtual Agent action, without going through a flow?](#can-we-call-a-third-party-api-directly-from-the-virtual-agent-action-without-going-through-a-flow)
     - [How do I work with my data in Microsoft Flow?]
     - [If we have authentication for the user, can we pass user authentication info to a flow?]
+    - [Can I share the flows I created with other users?]
+    - [How do I move or copy my flows between different envrironments?]
+    - [Where can I find out more about Microsoft Flows?]
 - [Deployment](#deployment)
     - [How do I share my bot with others?](#how-do-i-share-my-bot-with-others)
     - [How I install the bot in a Modern SharePoint site? Is there any additional work that will be required if the given Modern SharePoint restricts embedding code from external sites?](#how-i-install-the-bot-in-a-modern-sharepoint-site-is-there-any-additional-work-that-will-be-required-if-the-given-modern-sharepoint-restricts-embedding-code-from-external-sites)
@@ -184,7 +187,7 @@ The Virtual Agent designer accepts only JSON object format in the message respon
 
 Yes, an existing API or another application can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output. Microsoft Flow provides hundreds of Connectors to enable you to connect to apps, data and devices in the cloud. 
 
-Examples of popular connectors include Microsoft Common Data Service (CDS), Salesforce, Office 365, Mictoosft Teams, Twitter, Dropbox, Google services, and more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list of avalaible Flow Connectors.
+Examples of popular connectors include Microsoft Common Data Service (CDS), Salesforce, Zendesk, ServiceNow, Office 365, Microsoft Teams, Slack, Facebook, Twitter, Dropbox, MailChimp, Google services, and many more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/en-us/connectors/) to see the full list of avalaible Flow Connectors.
 
 If there is no suitable Connector that you can use out of the box in Flow, you can use an HTTP call inside a Flow to connect to a custom 3rd-party API, like in the example below:
 ![Connect to 3rd party API](media/connect-API-flow.png)
@@ -214,11 +217,16 @@ Currently, passing end user authentication to a Flow is not supported in Virtual
 
 ### Can I share the flows I created with other users?
 You can add other users in you orgnization as owners of the flows you have created. Please click on the flow to open its Details page, and select "Add another owner" option in Owners section:
+![Add another owner](media/add-flow-owner.png)
 
 ### How do I move or copy my flows between different envrironments?
 You can export and import Solutions containing your flows to move them between eniornments. Note that there is currently no way to exposrt or import a single flow. For more information on how to import and export Solutions, plesae refer to Microsoft Flow documentation on how to:
 - [Export a Solution](https://docs.microsoft.com/en-us/flow/export-flow-solution)
 - [Import a Solution](https://docs.microsoft.com/en-us/flow/import-flow-solution)
+
+### Where can I find out more about Microsoft Flows?
+You can find out more about the capabilities of Microsoft Flows on [Frequently asked quetsions](https://docs.microsoft.com/en-us/flow/frequently-asked-questions) page or by using [Flow documentation](https://docs.microsoft.com/en-us/flow/getting-started).
+You can also learn new skills and discover the power of Microsoft Flow with step-by-step [Flow training modules](https://docs.microsoft.com/en-us/learn/browse/?products=flow).
 
 ## Deployment 
 
