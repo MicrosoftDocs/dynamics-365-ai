@@ -21,42 +21,32 @@ Take a look into the Virtual Agent for Customer Service capabilities to help you
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pk-AVqQPUg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## A deeper look at Dynamics 365 Virtual Agent for Customer Service
-
-Get it [here](https://microsoft.sharepoint.com/teams/CCIBotDesignerTeam/Shared%20Documents/General/Demo%20Assets/Airlift_2019-04/CCIVirtualAgentDeepDive_2019-04.mp4).
-
-
-
-
-
 ## Product videos
 
-View additional product videos to dive deeper into Virtual Agent functionality. 
+View product videos to dive deeper into Virtual Agent functionality. 
 
-  **Create a new PowerApps Environment**
+  **Create, test, and deploy your bot**
 
-   Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
+  This overview video walks you through how to create your first bot, create a custom Topic (a dialog you author), shows you  how to test your Topic in real-time, and deploy your bot to a test website that shows you how it will look from your end user's perspective. Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
    
-  **Create, Test, and Deploy a Bot**
+   
+  **Create a new PowerApps environment**
 
-   Get it [here](https://go.microsoft.com/fwlink/?linkid=2062988).
-
-  **Test Your Bot Using Conversation Tracing**
-
-   Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608). 
+  This short feature video shows you how to create your own custom Environments that can house your bot as well as any Flows needed for your bot. Get it [here](https://go.microsoft.com/fwlink/?linkid=2079331).
+   
  
-  **Design a Conversation Using Variables**
+  **Use variables and expressions in bot topics**
 
-   Get it [here](https://go.microsoft.com/fwlink/?linkid=2063608).
+   This short feature video shows you how to use variables to remember user responses for later and how to use expressions together with variables to create dynamic branches within your dialog tree. Get it [here](http://go.microsoft.com/fwlink/?linkid=2063539).
+   
 
-  **Use Analytics and Chat Transcripts to improve bot performance**
+  **Enhance bot capabilities with Microsoft Flow**
+
+  This feature video shows you how to use Microsoft Flow to extend the capabilities of your bot, including connecting to your custom back-end systems, your CRM instance, or anything else supported by Flow's connectors. Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
+   
+   
+  **Use analytics and chat transcripts to improve bot performance**
 
    Get it [here](https://go.microsoft.com/fwlink/?linkid=2063181).
 
-  **Create a Flow**
 
-   Get it [here](https://go.microsoft.com/fwlink/?linkid=2079323).
-
-  **Call a flow from within the bot conversation**
-
-   Get it [here](https://go.microsoft.com/fwlink/?linkid=2079327).
