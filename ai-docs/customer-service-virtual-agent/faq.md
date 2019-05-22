@@ -18,7 +18,7 @@ manager: shellyha
     - [Customers from otside of US signing up for Virtual Agent](#customers-from-otside-of-US-signing-up-for-virtual-agent)
     - [Issues with Flow solutions tab](#issues-with-flow-solutions-tab)
     - [Issues with environment permissions when creating a bot](#issues-with-environment-permissions-when-creating-a-bot)
-    - [Unknown issues when creating a bot](#unknown-issues-when-creating-a-bot)
+    - [Other issues when creating a bot](#other-issues-when-creating-a-bot)
 
 - [General](#general)
     - [What are the various browsers supported by the Virtual Agent?](#what-are-the-various-browsers-supported-by-the-virtual-agent)
@@ -70,7 +70,7 @@ If you are a new customer to Microsoft and you visit flow.microsoft.com portal s
 
 If you experience any problems with your bot creation due to permission issues with the environment you selected, you can [try creating a new environment](getting-started-new-environment.md) and use that environment to create your bot.
 
-### Unknown issues when creating a bot
+### Other issues when creating a bot
 
 See [Creating a bot](getting-started-create-bot.md) if you have any issues while creating your bot.
 
