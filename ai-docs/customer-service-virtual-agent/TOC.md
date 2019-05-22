@@ -4,7 +4,7 @@
 
 # [Frequently asked questions](faq.md)
 
-# Inroduction
+# Introduction
 
 ## [Creating a PowerApps environment](getting-started-new-environment.md)
 
