@@ -15,7 +15,7 @@ manager: shellyha
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 - [Known issues](#known-issues)
-    - [Customers from otside of US signing up for Virtual Agent](#customers-from-otside-of-US-signing-up-for-virtual-agent)
+    - [Customers from otside of US signing up for Virtual Agent](#customers-from-otside-of-us-signing-up-for-virtual-agent)
     - [Issues with Flow solutions tab](#issues-with-flow-solutions-tab)
     - [Issues with environment permissions when creating a bot](#issues-with-environment-permissions-when-creating-a-bot)
     - [Other issues when creating a bot](#other-issues-when-creating-a-bot)
@@ -32,9 +32,8 @@ manager: shellyha
     - [The creation of my bot takes long time. Is that expected?](#the-creation-of-my-bot-takes-long-time-is-that-expected)
     - [Why do I get an error that I do not have permissions to any environments?](#why-do-i-get-an-error-that-i-do-not-have-permissions-to-any-environments)
     - [Why do I get "An unexpected server error occurred"?](#why-do-i-get-an-unexpected-server-error-occurred)
-    - [Why does my bot creation time out after a long delay?](#why-does-my-bot-creation-time-out-after-a-long-delay)
-    - [The PowerApps environment I created does not show up in the down menu of Virtual Agent, why?](#the-powerapps-environment-i-created-does-not-show-up-in-the-down-menu-of-virtual-agent-why)
-    - [What is the cost involved in using Microsoft Flow Actions in Virtual Agent?](#what-is-the-cost-involved-in-using-microsoft-flow-actions-in-virtual-agent)
+    - [The PowerApps environment I created does not show up in the drop down menu of Virtual Agent, why?](#the-powerapps-environment-i-created-does-not-show-up-in-the-drop-down-menu-of-virtual-agent-why)
+    
 - [Topic creation and management](#topic-creation-and-management)
     - [How do I create my own custom Topic?](#how-do-i-create-my-own-custom-topic)
     - [How can I test topics that I've customized or created from scratch to make sure they are working properly?](#how-can-i-test-topics-that-ive-customized-or-created-from-scratch-to-make-sure-they-are-working-properly)
@@ -48,6 +47,7 @@ manager: shellyha
     - [What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?](#what-are-the-response-formats-that-the-virtual-agent-accepts-especially-in-the-message-response-provided-by-the-flow-action)
     - [Can we call a third-party API from a Flow?](#can-we-call-a-third-party-api-from-a-flow)
     - [Can we call a third-party API directly from the Virtual Agent action, without going through a flow?](#can-we-call-a-third-party-api-directly-from-the-virtual-agent-action-without-going-through-a-flow)
+    - [What is the cost involved in using Microsoft Flow Actions in Virtual Agent?](#what-is-the-cost-involved-in-using-microsoft-flow-actions-in-virtual-agent)
 - [Deployment](#deployment)
     - [How do I share my bot with others?](#how-do-i-share-my-bot-with-others)
     - [How I install the bot in a Modern SharePoint site? Is there any additional work that will be required if the given Modern SharePoint restricts embedding code from external sites?](#how-i-install-the-bot-in-a-modern-sharepoint-site-is-there-any-additional-work-that-will-be-required-if-the-given-modern-sharepoint-restricts-embedding-code-from-external-sites)
@@ -118,12 +118,12 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 This might be an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
 
-### The PowerApps environment I created does not show up in the down menu of Virtual Agent, why?
+### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent, why?
 
 Your environment might not show up in the drop down due to the following reasons:
-    1. The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com]() to create a database in your environment.
-    2. The envornment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
-    3. The enviroment didn't finish setting up. To resolve this, retry in a few minutes
+ - The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
+ - The envornment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
+ - The enviroment didn't finish setting up. To resolve this, retry in a few minutes
 
 
 ## Topic creation and management  
