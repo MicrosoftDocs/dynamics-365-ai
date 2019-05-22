@@ -22,11 +22,11 @@ If you encounter problems creating an environment, see [Known issues with creati
 
 Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
 
-1. Go to [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center and log-in using your work or school account.
+1. Go to [https://admin.powerapps.com](https://admin.powerapps.com) and sign in using your work or school account.
 
 2. Select **New environment** to open the New environment dialog.
 
-    Specify a unique name for the environment, select *United States* as the region, and the environment type. Then select **Create environment**.
+    Specify a unique name for the environment, select **United States** as the region, and the environment type. Then select **Create environment**.
 
     ![Create environment](media/create-environment.png)
 
@@ -43,5 +43,5 @@ Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331),
 > [!NOTE]
 > Creating a database and environment and making it available in Virtual Agent can take couple of minutes.
 
-5. You are now ready to use the environment when [creating a new bot](getting-started-create-bot.md)
+5. You are now ready to use the environment when [creating a new bot](getting-started-create-bot.md).
 
