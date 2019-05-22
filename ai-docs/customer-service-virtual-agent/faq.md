@@ -56,6 +56,10 @@ No, you can currently only sign in using your work or school Microsoft account.
 
 Yes, Virtual Agent currently doesn't allow storing the user utterance that triggered the topic as a variable. This feature is on the roadmap for a future release.
 
+### How do I configure my bot to escalate to a human agent? 
+
+Update the “Escalate” system topic and update the “Bot says” node to include the link to your support page. Here’s a [step-by-step document](how-to-handoff.md) explaining the steps you should take. 
+
 ### I ran into a problem. What should I do to file a bug? How quickly will you get back to me? 
 
 You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hrs.
