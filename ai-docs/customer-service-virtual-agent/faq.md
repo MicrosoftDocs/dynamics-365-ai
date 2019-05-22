@@ -15,10 +15,10 @@ manager: shellyha
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 - [Known issues](#known-issues)
-    - [Customers from otside of US signing up for Virtual Agent](#users-from-non-US-tenants-signing-up-for-virtual-agent)
-    - [Issue with Flow solutions tab](#tbd)
-    - [Issues with environment permissions](#i-have-issues-with-powerapps-permissions)
-    - [Issues when creating a bot](#i-run-into-issues-when-creating-my-bot)
+    - [Customers from otside of US signing up for Virtual Agent](#customers-from-otside-of-US-signing-up-for-virtual-agent)
+    - [Issues with Flow solutions tab](#issues-with-flow-solutions-tab)
+    - [Issues with environment permissions when creating a bot](#issues-with-environment-permissions-when-creating-a-bot)
+    - [Unknown issues when creating a bot](#unknown-issues-when-creating-a-bot)
 
 - [General](#general)
     - [What are the various browsers supported by the Virtual Agent?](#what-are-the-various-browsers-supported-by-the-virtual-agent)
@@ -56,11 +56,11 @@ manager: shellyha
 
 ## Known issues
 
-### Users from non-US tenants signing up for Virtual Agent
+### Customers from otside of US signing up for Virtual Agent
 
 Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
-### Issue with Flow solutions tab
+### Issues with Flow solutions tab
 
 If you are a new customer to Microsoft and you visit flow.microsoft.com portal soon after you have created your first bot, you might encounter two issues:
     1. Missing "Solutions" tab on the left rail of flow.microsoft.com. The "Solutions" tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
