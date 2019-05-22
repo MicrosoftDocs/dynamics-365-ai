@@ -42,11 +42,11 @@ manager: shellyha
     - [What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?](#what-are-the-response-formats-that-the-virtual-agent-accepts-especially-in-the-message-response-provided-by-the-flow-action)
     - [Can we call a third-party API from a Flow?](#can-we-call-a-third-party-api-from-a-flow)
     - [Can we call a third-party API directly from the Virtual Agent action, without going through a flow?](#can-we-call-a-third-party-api-directly-from-the-virtual-agent-action-without-going-through-a-flow)
-    - [How do I work with my data in Microsoft Flow?]
-    - [If we have authentication for the user, can we pass user authentication info to a flow?]
-    - [Can I share the flows I created with other users?]
-    - [How do I move or copy my flows between different envrironments?]
-    - [Where can I find out more about Microsoft Flows?]
+    - [How do I work with my data in Microsoft Flow?](#how-do-I-work-with-my-data-in-microsoft-flow?)
+    - [If we have authentication for the user, can we pass user authentication info to a flow?](#if-we-have-authentication-for-the-user-can-we-pass-user-authentication-info-to-a-flow?)
+    - [Can I share the flows I created with other users?](#can-I-share-the-flows-I-created-with-other-users?)
+    - [How do I move or copy my flows between different envrironments?](#how-do-I-move-or-copy-my-flows-between-different-envrironments?)
+    - [Where can I find out more about Microsoft Flows?](#where-can-I-find-out-more-about-microsoft-flows?)
 - [Deployment](#deployment)
     - [How do I share my bot with others?](#how-do-i-share-my-bot-with-others)
     - [How I install the bot in a Modern SharePoint site? Is there any additional work that will be required if the given Modern SharePoint restricts embedding code from external sites?](#how-i-install-the-bot-in-a-modern-sharepoint-site-is-there-any-additional-work-that-will-be-required-if-the-given-modern-sharepoint-restricts-embedding-code-from-external-sites)
