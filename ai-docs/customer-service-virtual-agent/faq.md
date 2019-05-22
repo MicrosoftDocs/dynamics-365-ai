@@ -123,7 +123,6 @@ Turn on Follow to jump between topics while testing your bot. The conversation o
 Topic Checker is where you can see a comprehensive list of all errors and warnings in your topic.  Errors and Warnings can be saved with a topic and cleared upon subsequent visits. Errors should be cleared up before deploying your bot to production. Warnings are skipped by the bot. 
 
 ### Is it possible to link multiple topics?
-
 You can link a different topic within a topic by using the **Go To** option which appears while adding a new node in the dialog flow of a topic.
 
 ### Is it possible to launch the bot to address a specific topic from a link on the page? The scenario we have in mind is a list of links/actions on the page and a couple of them will launch a topic on the bot.
@@ -144,41 +143,70 @@ A: Here is a [video on how to create a Microsoft Flow action](https://go.microso
 
 ### What license do I need to use Microsoft Flows in Virtual Agent?
 
-Every bot author will be automatically licensed to use Microsoft Flows. No extra steps are needed, as bot authors will be assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/en-us/pricing/).
+Every bot author will be automatically licensed to use Microsoft Flows. No extra steps are needed, as bot authors will be assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/pricing/).
 
 ### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
 
-Make sure the environment you are using to create your flows is same as the environment you are using for the bot.    
-Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, as it is by default). 
+- The environment you are using to create your flows must be the same as the environment you are using for the bot.   
+- Make sure to [create your Flows in Solutions](https://docs.microsoft.com/flow/overview-solution-flows), as the bot can't see the Flows created in My Flows tab. 
+- Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, how it is by default):
+![POST method in HTTP Request](media/flow-http-post-method.png)
 
 View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
+### I created a flow with HTTP Request trigger, and it's visible in my bot, but when I test my Topic, it fails. Why?
+
+Please make sure this Flow is turned on (enabled) on the Flow portal. Flows which are turned off (disabled) on Flow portal are visible when editing a bot and can be incorporated into actions. However, they will fail at runtime until they are turned on in the Flow portal.
+
 ### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?
 
-Virtual Agent accepts exclusively JSON format in the message response. The JSON can contain strings and numbers only. We do not support arrays yet, but this feature is on the roadmap
+The Virtual Agent designer accepts only JSON object format in the message response. The JSON object can contain strings and numbers only. In the coming months, we will release a custom Flow connector that will make it easier to create Flows using key/value pairs rather than requiring to use JSON format.  We do not support arrays as Flow output for Bots yet, but this feature is on the roadmap. 
 
 ### Can we call a third-party API from a Flow?
 
-Yes, an existing API can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output.
+Yes, an existing API or another application can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output. Microsoft Flow provides hundreds of Connectors to enable you to connect to apps, data and devices in the cloud. 
+
+Examples of popular connectors include Microsoft Common Data Service (CDS), Dynamics 365, Salesforce, Zendesk, ServiceNow, Office 365, Microsoft Teams, Slack, Facebook, Twitter, Dropbox, MailChimp, Google services, and many more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/connectors/) to see the full list of available Flow Connectors.
+
+If there is no suitable Connector that you can use out of the box in Flow, you can use an HTTP call inside a Flow to connect to a custom 3rd-party API, like in the example below:
+![Connect to 3rd party API](media/connect-API-flow.png)
+
 
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
-Currently, actions in Virtual Agent only support calling third-party APIs via Flow.
+This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow. If this feature is critical to your business, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
+
+
+### How do I work with my data in Microsoft Flow?
+Microsoft Flow provides [hundreds of data Connectors](https://docs.microsoft.com/connectors/) and offers many ways to manipulate you data. Please refer to the following Microsoft Flow documentation on more information on how to:
+- [Use Common Data Service (CDS)](https://docs.microsoft.com/flow/connection-cds)
+- [Create a flow that uses the Common Data Service](https://docs.microsoft.com/flow/common-data-model-intro)
+- [Create multi-step flows](https://docs.microsoft.com/flow/multi-step-logic-flow)
+- [Add condition in a flow](https://docs.microsoft.com/flow/add-condition)
+- [Use expressions with conditions](https://docs.microsoft.com/flow/use-expressions-in-conditions)
+- [Use functions in expressions](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference)
+- [Perform data operations](https://docs.microsoft.com/flow/data-operations)
+- [Loop through your data](https://docs.microsoft.com/flow/apply-to-each)
+- [Filter and copy data](https://docs.microsoft.com/flow/odata-filters)
+- [Troubleshoot your flow](https://docs.microsoft.com/flow/fix-flow-failures)
 
 ### If we have authentication for the user, can we pass user authentication info to a flow?
 
-Currently, passing end user authentication to a flow is not supported in Virtual Agent, but we have this feature on the Roadmap.
+Currently, passing end user authentication to a Flow is not supported in Virtual Agent, but we have this feature on the Roadmap and will be enabled over the coming months.  We will start with token-based authentication.  If you have specific authentication requirements that you would like us to be aware of, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
-### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
+### Can I share the flows I created with other users?
+You can add other users in you organization as owners of the flows you have created. Please click on the flow to open its Details page, and select "Add another owner" option in Owners section:
+![Add another owner](media/add-flow-owner.png)
 
-A Flow license is per user. Users get Flow licenses automatically when they get a Bot license (which is based on number of sessions). There may be a limit for how many Bot Author (P2 Flow licenses) you can have based on the bracket of Bot license you purchased. 
+### How do I move or copy my flows between different environments?
 
-Here is how the flow licensing works in the context of the bot license.
-If you have 10 bot authors in your organization:
- - each of them gets a P2 Flow license
- - every P2 license comes with 15K Flow "runs" per month
-Flow runs are "pooled" and the runs are anonymous - so the org actually gets 10x15K Flow runs any Flow can use. Now, this 10x15K is a big number to have for a month, and they can be used by any Flow anyone has created.
-The "1 min execution throttle" only applies to "auto-run" type of Flows and does not apply to Bot Flows. This throttle is only for the Flows that are set up to run automatically in a loop, like "every 1 min, check if there are new emails in my Inbox".
+You can export and import solutions containing your flows to move them between environments. Note that there is currently no way to export or import a single flow. For more information on how to import and export solutions, please refer to the Microsoft Flow documentation:
+- [Export a Solution](https://docs.microsoft.com/flow/export-flow-solution)
+- [Import a Solution](https://docs.microsoft.com/flow/import-flow-solution)
+
+### Where can I find out more about Microsoft Flows?
+You can find out more about the capabilities of Microsoft Flows on [Frequently asked quetsions](https://docs.microsoft.com/flow/frequently-asked-questions) page or by using [Flow documentation](https://docs.microsoft.com/flow/getting-started).
+You can also learn new skills and discover the power of Microsoft Flow with step-by-step [Flow training modules](https://docs.microsoft.com/learn/browse/?products=flow).
 
 ## Deployment 
 
