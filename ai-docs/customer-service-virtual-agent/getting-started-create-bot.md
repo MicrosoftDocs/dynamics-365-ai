@@ -70,3 +70,10 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
 
 To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
+
+### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent
+
+Your environment might not show up in the drop down due to the following reasons:
+ - The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
+ - The envornment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
+ - The enviroment didn't finish setting up. To resolve this, retry in a few minutes
