@@ -105,6 +105,10 @@ A system topic is linked to predefined features like a customer survey, escalati
 
 You can find all details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md)
 
+### How do I delete Topics? 
+
+You can delete User Topics by hovering over the topic name and then clicking on the Trash Can icon.  Note that only User Topics can be deleted. System Topics are required for the bot to function and can be edited, but not deleted.
+
 ### How can I test topics that I've customized or created from scratch to make sure they are working properly?
 
 Virtual Agent lets you test your bot and see how the conversation you designed in the conversation editor works in practice. 
