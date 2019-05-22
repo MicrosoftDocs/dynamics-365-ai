@@ -20,34 +20,32 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
 
 ## To create your first bot
 
-If you encounter an issue while creating your bot, see [Known issues](#known-issues) below.
+If you encounter an issue while creating your bot, see [Known issues with creating a bot](#known-issues-with-creating-a-bot).
 
 Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) or follow the steps below.
 
 1. Navigate to [aka.ms/virtual-agent](http://aka.ms/virtual-agent) and select "Try Preview". Sign using your work account.
 
-    >[!NOTE]
-    > Personal Microsoft accounts (e.g. john@outlook.com) are not supported at this time
-
-    ![Sign up screen](media/sign-up-screen.png)
+   ![Sign up screen](media/sign-up-screen.png)
     
-You will then be presented with several licensing and terms of service agreement screens.  Once you agree to these terms, you will have licenses granted to you that allow you to access the Preview.
+   You will then be presented with several license agreements and terms of service screens. When you agree to these terms, you will get licenses assigned that allow you to access the Preview.
     
-2. Next, in the **Create a new bot** dialog, you’ll name your bot.  This can be something generic to your company or specific to the scenario you would like to tailor your bot towards – for instance, “Northwind Virtual Agent” for a generic name, or “Dynamics 365 Product Information Bot”.
+2. In the **Create a new bot** dialog, you’ll name your bot.  This can be something generic to your company or specific to the scenario you would like to tailor your bot towards.
 
-By default, your virtual agent will be created in the default PowerApps environment that was created for you in the prior step.  For most users, this is sufficient – however if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
+   ![Create a new bot](media/create-new-bot.PNG)
+
+   By default, your virtual agent will be created in the default PowerApps environment that was created for you in the prior step.  For most users, this is sufficient – however if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
 
    >[!NOTE]
    >Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
   
-   ![Create a new bot](media/create-new-bot.PNG)
+
     
-3. Once you click “Create”, the next process can take up to 15 minutes for the first bot created within a new environment.  
+3. Once you select “Create”, the next process can take up to 15 minutes for the first bot created within a new environment.  
 
    ![Creating new bot screen](media/creating-bot-animation.png) 
 
    > [!NOTE]
-   > If this is your first bot, it might take a few minutes for everything to be set up. 
    >
    > Here are some things you can do to use this time and explore some features of Virtual Agent.
    > - [Chat with a test bot](how-to-test-bot.md#work-with-the-test-bot-pane)
@@ -57,11 +55,8 @@ By default, your virtual agent will be created in the default PowerApps environm
    >
    > When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality available to you. 
    
-   ![Read only bot](media/read-only-bot.png)
    
-4.	When the bot creation process completes (up to 15 minutes for the first bot creation), you’ll see the banner change – you now have full functionality in the bot and can modify any User or System Topic, test out your content changes, or deploy your bot.
-
-    ![Bot created successfully](media/bot-successfully-created.PNG)
+4.	When the bot creation process completes, you’ll see the banner change. You now have full functionality in the bot and can modify topics, test your changes, or deploy your bot.
 
 ## Creating additional bots
 
