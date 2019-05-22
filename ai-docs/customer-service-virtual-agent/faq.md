@@ -14,46 +14,6 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-- [Known issues](#known-issues)
-    - [Customers from otside of US signing up for Virtual Agent](#customers-from-otside-of-us-signing-up-for-virtual-agent)
-    - [Issues with Flow solutions tab](#issues-with-flow-solutions-tab)
-    - [Issues with environment permissions when creating a bot](#issues-with-environment-permissions-when-creating-a-bot)
-    - [Other issues when creating a bot](#other-issues-when-creating-a-bot)
-
-- [General](#general)
-    - [What are the various browsers supported by the Virtual Agent?](#what-are-the-various-browsers-supported-by-the-virtual-agent)
-    - [Can Virtual Agent be styled and branded for an organization? What can be customized and how?](#can-virtual-agent-be-styled-and-branded-for-an-organization-what-can-be-customized-and-how)
-    - [Can multiple team members collaborate on a single bot instance?](#can-multiple-team-members-collaborate-on-a-single-bot-instance)
-    - [Can I sign in using my personal Microsoft account?](#can-i-sign-in-using-my-personal-microsoft-account)
-    - [Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable, is that by design?](#virtual-agent-designer-does-not-seem-to-allow-us-to-store-the-user-utterance-that-triggered-the-topic-as-a-variable-is-that-by-design)
-    - [I ran into a problem. What should I do to file a bug? How quickly will you get back to me?](#i-ran-into-a-problem-what-should-i-do-to-file-a-bug-how-quickly-will-you-get-back-to-me)
-    - [I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?](#i-have-a-new-feature-idea-or-some-ideas-on-how-to-make-a-feature-work-better-how-should-i-submit-these-ideas-to-the-product-team)
-- [Bot creation and environments](#bot-creation-and-environments)
-    - [The creation of my bot takes long time. Is that expected?](#the-creation-of-my-bot-takes-long-time-is-that-expected)
-    - [Why do I get an error that I do not have permissions to any environments?](#why-do-i-get-an-error-that-i-do-not-have-permissions-to-any-environments)
-    - [Why do I get "An unexpected server error occurred"?](#why-do-i-get-an-unexpected-server-error-occurred)
-    - [The PowerApps environment I created does not show up in the drop down menu of Virtual Agent, why?](#the-powerapps-environment-i-created-does-not-show-up-in-the-drop-down-menu-of-virtual-agent-why)
-    
-- [Topic creation and management](#topic-creation-and-management)
-    - [How do I create my own custom Topic?](#how-do-i-create-my-own-custom-topic)
-    - [How can I test topics that I've customized or created from scratch to make sure they are working properly?](#how-can-i-test-topics-that-ive-customized-or-created-from-scratch-to-make-sure-they-are-working-properly)
-    - [I saved my content but when I test the bot, it doesn't seem to reflect my edits. What's happening?](#i-saved-my-content-but-when-i-test-the-bot-it-doesnt-seem-to-reflect-my-edits-whats-happening)
-    - [Is it possible to link multiple topics?](#is-it-possible-to-link-multiple-topics)
-    - [Is it possible to launch the bot to address a specific topic from a link on the page?](#is-it-possible-to-launch-the-bot-to-address-a-specific-topic-from-a-link-on-the-page-the-scenario-we-have-in-mind-is-a-list-of-linksactions-on-the-page-and-a-couple-of-them-will-launch-a-topic-on-the-bot)
-- [Flow integration](#flow-integration)
-    - [How do I create a Microsoft Flow action in Virtual Agent?](#how-do-i-create-a-microsoft-flow-action-in-virtual-agent)
-    - [What license do I need to use Microsoft Flows in Virtual Agent?](#what-license-do-i-need-to-use-microsoft-flows-in-virtual-agent)
-    - [I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?](#i-created-some-new-flows-for-actions-using-microsoft-flow-but-they-are-not-visible-in-virtual-agent-why)
-    - [What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?](#what-are-the-response-formats-that-the-virtual-agent-accepts-especially-in-the-message-response-provided-by-the-flow-action)
-    - [Can we call a third-party API from a Flow?](#can-we-call-a-third-party-api-from-a-flow)
-    - [Can we call a third-party API directly from the Virtual Agent action, without going through a flow?](#can-we-call-a-third-party-api-directly-from-the-virtual-agent-action-without-going-through-a-flow)
-    - [What is the cost involved in using Microsoft Flow Actions in Virtual Agent?](#what-is-the-cost-involved-in-using-microsoft-flow-actions-in-virtual-agent)
-- [Deployment](#deployment)
-    - [How do I share my bot with others?](#how-do-i-share-my-bot-with-others)
-    - [How I install the bot in a Modern SharePoint site? Is there any additional work that will be required if the given Modern SharePoint restricts embedding code from external sites?](#how-i-install-the-bot-in-a-modern-sharepoint-site-is-there-any-additional-work-that-will-be-required-if-the-given-modern-sharepoint-restricts-embedding-code-from-external-sites)
-- [Analytics](#analytics)
-    - [What is the difference between conversation and session? How do sessions work?](#what-is-the-difference-between-conversation-and-session-how-do-sessions-work)
-
 ## Known issues
 
 ### Customers from otside of US signing up for Virtual Agent
@@ -99,6 +59,7 @@ Yes, Virtual Agent currently doesn't allow storing the user utterance that trigg
 ### I ran into a problem. What should I do to file a bug? How quickly will you get back to me? 
 
 You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hrs.
+
 ### I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?
 
 That's great, we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
@@ -128,17 +89,34 @@ Your environment might not show up in the drop down due to the following reasons
 
 ## Topic creation and management  
 
+### What is a topic? 
+
+A bot is a collection on Topics.  Topics may be authored – customized from provided templates, or created from scratch.  
+
+### What is the difference between a System topic and a provided template User topic? 
+
+A System topic are linked to provided features like a customer survey, escalate to a live agent or the bot greeting.  Some areas of the System topics may be modified but others are not.  All parts of a the provided User Topics may be modified or deleted.  They are for your customization to fulfull the needs of your Virtual Agent bot. 
+
 ### How do I create my own custom Topic?  
 
 You can find all details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md)
 
 ### How can I test topics that I've customized or created from scratch to make sure they are working properly?
+The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation you designed in the conversation editor works in practice. 
+You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the Test Bot.  Click on any chat bubble to navigate to that point in the conversation. 
 
-Virtual Agent includes a canvas, where you can test your bot and view how the conversation you designed in the conversation editor works in practice. See [Work with the Test bot pane](how-to-test-bot.md) for more details.
+### I saved my content but when I test the virtual agent in the Test Bot, it doesn't seem to reflect my edits.  What's happening? 
+You need to make sure to hit "Save" on the Topic you're editing and then hit the "Start over" button in the Test Bot to ensure the latest content gets updated in the chat canvas when testing your virtual agent. 
 
-### I saved my content but when I test the bot, it doesn't seem to reflect my edits. What's happening?
+### What is the Green outline that appears while I'm testing my topic? 
 
-Make sure to save the topic you're editing and then select the **Start over with latest content** button to ensure the latest content gets updated in the chat canvas when testing your bot.
+The Green outline appears around each node that is successfully tested while using the Test Bot. Those nodes that fail will be outlined in red. 
+
+### What is “Follow” toggle switch in Test Bot? 
+Turn on Follow to ajump between topics while testing your bot. The conversation on the right will update simultaneously. Click on any chat bubble to navigate to that point in the conversation. 
+
+### What is Topic Checker? 
+Topic Checker is where you can see a comprehensive list of all errors and warnings in your Topic.  Errors and Warnings can be saved with a Topic and cleared upon subsequent visits.  Errors should be cleared up before Deploying your bot to production, else unexpected behavior may occur.  Warnings are skipped by the Bot. 
 
 ### Is it possible to link multiple topics?
 
@@ -149,6 +127,10 @@ You can link a different topic within a topic by using the **Go To** option whic
 Currently we don't support context passing in the bot, so you will not be able to launch the bot or trigger a specific topic based on a link or action on the web page. 
 Some inofficial workarounds you may want to consider: deploy the Bot on a custom page, and launch that page as an iframe or pop-up from the parent web page, when the link or action is launched.
 For triggering specific topics you could have multiple bots, and have the Topic content added as part of the Greeting, which always appears when starting a conversation. The downside is that it will be cumbersome to maintain multiple bots for different sets of links/actions.
+
+### What’s a variable and how do I use it? 
+
+Variables store customer responses to Bot questions.  Variables can further be used in expressions evaluating a customer response or passed to a Flow.  Variables can also be used to confirm a customer response. 
 
 ## Flow integration 
 

@@ -38,13 +38,14 @@ You will then be presented with several licensing and terms of service agreement
 By default, your virtual agent will be created in the default PowerApps environment that was created for you in the prior step.  For most users, this is sufficient – however if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
 
    >[!NOTE]
-   >Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+   >Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
   
    ![Create a new bot](media/create-new-bot.PNG)
     
 3. Once you click “Create”, the next process can take up to 15 minutes for the first bot created within a new environment.  
 
-    ![Creating new bot screen](media/creating-bot-animation.png)
+   ![Creating new bot screen](media/creating-bot-animation.png) 
+
    > [!NOTE]
    > If this is your first bot, it might take a few minutes for everything to be set up. 
    >
