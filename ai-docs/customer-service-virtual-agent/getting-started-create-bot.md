@@ -18,23 +18,33 @@ You can use Virtual Agent to create a powerful custom bot. Virtual Agent makes i
 
 To help get you started and tailor the bot to your specific needs, Virtual Agent lets you create a bot using built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths. These built-in topics can also be useful as a model for building your own conversations for similar customer-support issues. For more information, see [Work with built-in topics](how-to-templates.md).
 
-## To create the first bot
+## To create your first bot
 
 If you encounter an issue while creating your bot, see [Known issues](#known-issues) below.
 
-### Creating a bot - US based users
-
 Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) or follow the steps below.
 
-1. Navigate to [aka.ms/virtual-agent](http://aka.ms/virtual-agent) and select "Sign up". Sign up and if you are signing up for the first time, obtain a license and agree to the terms and conditions
+1. Navigate to [aka.ms/virtual-agent](http://aka.ms/virtual-agent) and select "Try Preview". Sign using your work account.
 
-2. In the **Create a new bot** dialog, give your bot a name and select **Create**. 
+    >[!NOTE]
+    > Personal Microsoft accounts (e.g. john@outlook.com) are not supported at this time
 
-  > [!NOTE]
-  > If you are based outside of US, you might have to create a new PowerApps environment located in the US. See [Creating a PowerApps environment](getting-started-new-environment.md) for more information on creating a new environment. Once you created a new environment located in the US, select **More options** and choose the correct environment. 
+    ![Sign up screen](media/sign-up-screen.png)
+    
+You will then be presented with several licensing and terms of service agreement screens.  Once you agree to these terms, you will have licenses granted to you that allow you to access the Preview.
+    
+2. Next, in the **Create a new bot** dialog, you’ll name your bot.  This can be something generic to your company or specific to the scenario you would like to tailor your bot towards – for instance, “Northwind Virtual Agent” for a generic name, or “Dynamics 365 Product Information Bot”.
+
+By default, your virtual agent will be created in the default PowerApps environment that was created for you in the prior step.  For most users, this is sufficient – however if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
+
+   >[!NOTE]
+   >Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
   
    ![Create a new bot](media/create-new-bot.PNG)
     
+3. Once you click “Create”, the next process can take up to 15 minutes for the first bot created within a new environment.  
+
+    ![Creating new bot screen](media/creating-bot-animation.png)
    > [!NOTE]
    > If this is your first bot, it might take a few minutes for everything to be set up. 
    >
@@ -46,13 +56,17 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
    >
    > When everything is set up, you'll see a message confirming that your bot is ready. At this point, you will have all functionality available to you. 
    
-3. You are now ready to [Create cutom topics for your bot](getting-started-create-topics.md)!
+   ![Read only bot](media/read-only-bot.png)
+   
+4.	When the bot creation process completes (up to 15 minutes for the first bot creation), you’ll see the banner change – you now have full functionality in the bot and can modify any User or System Topic, test out your content changes, or deploy your bot.
+
+    ![Bot created successfully](media/bot-successfully-created.PNG)
 
 ## Creating additional bots
 
 If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar, then selecting **New bot**.
 
-   ![New bot icon in title bar](media/new-bot-icon.png)
+   ![New bot icon in title bar](media/new-bot-icon.PNG)
 
 ## Known issues with creating a bot
 
