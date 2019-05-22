@@ -14,15 +14,22 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+- [Known issues](#known-issues)
+    - [Customers from otside of US signing up for Virtual Agent](#users-from-non-US-tenants-signing-up-for-virtual-agent)
+    - [Issue with Flow solutions tab](#tbd)
+    - [Issues with environment permissions](#i-have-issues-with-powerapps-permissions)
+    - [Issues when creating a bot](#i-run-into-issues-when-creating-my-bot)
+
 - [General](#general)
     - [What are the various browsers supported by the Virtual Agent?](#what-are-the-various-browsers-supported-by-the-virtual-agent)
     - [Can Virtual Agent be styled and branded for an organization? What can be customized and how?](#can-virtual-agent-be-styled-and-branded-for-an-organization-what-can-be-customized-and-how)
     - [Can multiple team members collaborate on a single bot instance?](#can-multiple-team-members-collaborate-on-a-single-bot-instance)
-    - [Can I do end user authentication using AAD or MSA from within the bot?](#can-i-do-end-user-authentication-using-aad-or-msa-from-within-the-bot)
+    - [Can I sign in using my personal Microsoft account?](#can-i-sign-in-using-my-personal-microsoft-account)
     - [Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable, is that by design?](#virtual-agent-designer-does-not-seem-to-allow-us-to-store-the-user-utterance-that-triggered-the-topic-as-a-variable-is-that-by-design)
     - [I ran into a problem. What should I do to file a bug? How quickly will you get back to me?](#i-ran-into-a-problem-what-should-i-do-to-file-a-bug-how-quickly-will-you-get-back-to-me)
     - [I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?](#i-have-a-new-feature-idea-or-some-ideas-on-how-to-make-a-feature-work-better-how-should-i-submit-these-ideas-to-the-product-team)
 - [Bot creation and environments](#bot-creation-and-environments)
+    - [The creation of my bot takes long time. Is that expected?](#the-creation-of-my-bot-takes-long-time-is-that-expected)
     - [Why do I get an error that I do not have permissions to any environments?](#why-do-i-get-an-error-that-i-do-not-have-permissions-to-any-environments)
     - [Why do I get "An unexpected server error occurred"?](#why-do-i-get-an-unexpected-server-error-occurred)
     - [Why does my bot creation time out after a long delay?](#why-does-my-bot-creation-time-out-after-a-long-delay)
@@ -47,6 +54,26 @@ manager: shellyha
 - [Analytics](#analytics)
     - [What is the difference between conversation and session? How do sessions work?](#what-is-the-difference-between-conversation-and-session-how-do-sessions-work)
 
+## Known issues
+
+### Users from non-US tenants signing up for Virtual Agent
+
+Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+
+### Issue with Flow solutions tab
+
+If you are a new customer to Microsoft and you visit flow.microsoft.com portal soon after you have created your first bot, you might encounter two issues:
+    1. Missing "Solutions" tab on the left rail of flow.microsoft.com. The "Solutions" tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
+    2. Within the "Solutions" tab when you choose Common Data Services Default Solution you might get a permission error. Please note that you can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
+
+### Issues with environment permissions when creating a bot
+
+If you experience any problems with your bot creation due to permission issues with the environment you selected, you can [try creating a new environment](getting-started-new-environment.md) and use that environment to create your bot.
+
+### Unknown issues when creating a bot
+
+See [Creating a bot](getting-started-create-bot.md) if you have any issues while creating your bot.
+
 ## General 
 
 ### What are the various browsers supported by the Virtual Agent?
@@ -61,9 +88,9 @@ Currently we don't have any styling or brand customization (e.g. changing the de
 
 We don’t have multi author support currently. It is one bot per author. However, we have this feature on the roadmap for future releases. The current mitigation is to create a service account and share it across the content authors.
 
-### Can I do end user authentication using AAD or MSA from within the bot?
+### Can I sign in using my personal Microsoft account?
 
-We currently do not support any authentication from within the Virtual Agent. However, native support for end user authentication is on the roadmap.
+No, you can currently only sign in using your work or school Microsoft account.
 
 ### Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable, is that by design?
 
@@ -79,6 +106,9 @@ That's great, we'd love to hear your thoughts. [Submit your ideas and feedback i
 
 ## Bot creation and environments
 
+### The creation of my bot takes long time. Is that expected?
+Currently, it can take up to 15 minutes to create the first bot within a tenant. While the bot being created you can explore the portal. Note that any changes won't get saved until the bot is fully created.
+
 ### Why do I get an error that I do not have permissions to any environments?
 
 It is possible that you do not have read/write access to any environments. In this case, you will see the error: “You do not have permissions to any environments. Please get access from an administrator.” 
@@ -86,27 +116,14 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 ### Why do I get "An unexpected server error occurred"?
 
-Is it possible that you do not have sufficient priveleges for the selected environment. Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained to this. If you select an environment that you have has insufficient access to, you will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
-To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
-
-### Why does my bot creation time out after a long delay?
-
-When creating the first bot in an environment, there is a known issue where the bot creation takes a long time and either eventually succeeds and lands the user on the Virtual Agent home screen, or errors out. If an error occurred and you are sure you had sufficient environment privileges (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
+This might be an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
 
 ### The PowerApps environment I created does not show up in the down menu of Virtual Agent, why?
 
-Please check if you selected the Region as "USA" while creating the Power Apps (Common Data Service) environment. Currently we support only environments in USA. If you created an environment in other regions, it won't be shown in Virtual Agent. The workaround is to create a new environment with location as "USA" or use an existing environment that was created in "USA" region.
-
-### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
-
-A Flow license is per user. Users get Flow licenses automatically when they get a Bot license (which is based on number of sessions). There may be a limit for how many Bot Author (P2 Flow licenses) you can have based on the bracket of Bot license you purchased. 
-
-Here is how the flow licensing works in the context of the bot license.
-If you have 10 bot authors in your organization:
- - each of them gets a P2 Flow license
- - every P2 license comes with 15K Flow "runs" per month
-Flow runs are "pooled" and the runs are anonymous - so the org actually gets 10x15K Flow runs any Flow can use. Now, this 10x15K is a big number to have for a month, and they can be used by any Flow anyone has created.
-The "1 min execution throttle" only applies to "auto-run" type of Flows and does not apply to Bot Flows. This throttle is only for the Flows that are set up to run automatically in a loop, like "every 1 min, check if there are new emails in my Inbox".
+Your environment might not show up in the drop down due to the following reasons:
+    1. The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com]() to create a database in your environment.
+    2. The envornment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
+    3. The enviroment didn't finish setting up. To resolve this, retry in a few minutes
 
 
 ## Topic creation and management  
@@ -166,6 +183,16 @@ Currently, actions in Virtual Agent only support calling third-party APIs via Fl
 
 Currently, passing end user authentication to a flow is not supported in Virtual Agent, but we have this feature on the Roadmap.
 
+### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
+
+A Flow license is per user. Users get Flow licenses automatically when they get a Bot license (which is based on number of sessions). There may be a limit for how many Bot Author (P2 Flow licenses) you can have based on the bracket of Bot license you purchased. 
+
+Here is how the flow licensing works in the context of the bot license.
+If you have 10 bot authors in your organization:
+ - each of them gets a P2 Flow license
+ - every P2 license comes with 15K Flow "runs" per month
+Flow runs are "pooled" and the runs are anonymous - so the org actually gets 10x15K Flow runs any Flow can use. Now, this 10x15K is a big number to have for a month, and they can be used by any Flow anyone has created.
+The "1 min execution throttle" only applies to "auto-run" type of Flows and does not apply to Bot Flows. This throttle is only for the Flows that are set up to run automatically in a loop, like "every 1 min, check if there are new emails in my Inbox".
 
 ## Deployment 
 
