@@ -168,6 +168,7 @@ A: Here is a [video on how to create a Microsoft Flow action](https://go.microso
 ### What license do I need to use Microsoft Flows in Virtual Agent?
 
 Every bot author will be automatically licensed to use Microsoft Flows. No extra steps are needed, as bot authors will be assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/en-us/pricing/).
+
 ### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
 
 - The environment you are using to create your flows must be the same as the environment you are using for the bot.   
