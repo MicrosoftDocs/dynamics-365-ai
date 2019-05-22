@@ -22,7 +22,6 @@ manager: "kvivek"
 ## Introduction to segmentation
 
 The segmentation capability of Customer Insights enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
-
 You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take action on.
 
 There are two types of segments:
@@ -49,28 +48,21 @@ The preceding example graph reflects system and custom relationships created dur
 
 The following two sections cover segment creation followed by segment exploration.
 
-## Create segments from the Segment page
+## Creating first segment
 
 To create a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
-If you select **Add Segment**, choose whether you want to create a dynamic segment or a static segment.
+### Step One: Define the segment's properties using the *New Segment* panel
 
-The rest of the segment creation process is done on the **Segment Editor** page.
+// add 1
 
-> [!div class="mx-imgBorder"] 
-> ![](media/new-dynamic-segment.png "New dynamic segment")
+- We will choose between a **Dynamic** and **Static** segment
+- We will give our segment an informative name, display name and description that will help us identify it in the future, when we'll have multiple segments. There are no limitations on display name but there are some limitations on name (space is not allowed for example).
+- Lastly we will click **Next**. At this point we will get to the **Segment builder** screen.
 
-### Step One: Define the segment's properties
-
-- We will give our segment an informative name and description that will help us identify it in the future, when we'll have multiple segments. 
-- In the case of a dynamic segment, we can also choose to activate it at this point through the slider, as shown in the following example. An active (dynamic) segment automatically incorporates changes that are made to your data over time, while an inactive segment does not incorporate any changes that are made to your data. 
-
-  > [!div class="mx-imgBorder"] 
-  > ![](media/segments-allcustomers-status-active.png "Define segment")
-   
 ### Step Two: Create a first group 
 
 In Customer Insights, a group is a set of customers. 
@@ -79,6 +71,7 @@ In Customer Insights, a group is a set of customers.
 
 1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an Order Value field by which we want to segment. In order to choose your entity of interest, select the field shown here.
 
+// replace 1
     > [!div class="mx-imgBorder"] 
     > ![](media/segments-group1-define-filter.png "Choose entity")
 
@@ -86,6 +79,7 @@ In Customer Insights, a group is a set of customers.
 
 3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator, **Equals**, and value, **2**, were chosen.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/customer-group-numbers.png "Customer group filter")
 
@@ -100,51 +94,73 @@ In Customer Insights, a group is a set of customers.
 
 4. Add entities that are related to that entity until getting to the Customer Profile entity as will be shown in the example below. Note that for the completion of this step, you may need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). 
 
+As we can see, there are certain requirements that should be met in order for a group (and the segment as a whole) to be valid.   However, at any point of time you can save your segment as a **draft**.
+If your segment definition indeed miss one or more mandatory selections, you can expect to get the floowing message:
+
+// add 2
+
+Selecting **Later** will create a draft on the segments screen:
+
+// add 3
+
+Note that you will not be able to run the segment until it's a valid segment (and not a draft). You can expect to receive the following message if you try to run:
+
+// add 4
+
 ### Example - Group Creation
 Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
 
 1. Select the **Select an entity** field.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
-
+   
 2. Choose your entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which you want to segment (**SessionID**).
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
 
 3. Select an operator and a value as described earlier.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings2.png "Choose Operator and Value")
 
 4. Select the **ADD** operator.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings3.png "Select ADD")
 
 5. We need to create a path to the Customer Profile entity, but currently our entity (**ClickstreamData: WebsiteDatabase**) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is **OnlineAccount: WebsiteDatabase** (shown in the following example), and so we will choose it.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings4.png "Select OnlineAccount: WebsiteDatabase")
 
 6. Select **All Records** as an operator. No value is needed under this operator:
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings5.png "Select All Records")
 
 7. Select the **ADD** operator again. This time, our entity does have a relationship to the Customer Profile entity (which we will select), as shown here.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-example-entities.png "Select ADD")
 
 8. Select **All Records** as an operator, also for the Customer Profile entity.
 
+// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-example-entities2.png "Select All Records")
 
 At this point, we have completed the mandatory path definition. We recommend that you save your first group's definitions, as shown here.
 
+// cut the properties part from the image
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-save-group-definition.png "Save group definition")
 
