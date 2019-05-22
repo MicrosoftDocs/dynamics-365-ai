@@ -14,6 +14,26 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+## Known issues
+
+### Customers from outside of the US signing up for Virtual Agent
+
+Preview is currently only supported in the US, with data stored in US data centers. If your company is located outside of the US, you will need to create a custom environment with region set to “United States” before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+
+### Issues with Flow solutions tab
+
+If you are a new customer to Microsoft and you visit flow.microsoft.com shortly after you have created your first bot, you might encounter two issues:
+1. Missing "Solutions" tab on the left rail of flow.microsoft.com. The "Solutions" tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
+2. Within the "Solutions" tab when you choose Common Data Services Default Solution you might get a permission error. Please note that you can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
+
+### Issues with environment permissions when creating a bot
+
+If you experience any problems with your bot creation due to permission issues with the environment you selected, you can [try creating a new environment](getting-started-new-environment.md) and use that environment to create your bot.
+
+### Other issues when creating a bot
+
+See [Creating a bot](getting-started-create-bot.md) if you have any issues while creating your bot.
+
 ## General 
 
 ### What are the various browsers supported by the Virtual Agent?
@@ -28,9 +48,9 @@ Currently we don't have any styling or brand customization (e.g. changing the de
 
 We don’t have multi author support currently. It is one bot per author. However, we have this feature on the roadmap for future releases. The current mitigation is to create a service account and share it across the content authors.
 
-### Can I do end user authentication using AAD or MSA from within the bot?
+### Can I sign in using my personal Microsoft account?
 
-We currently do not support any authentication from within the Virtual Agent. However, native support for end user authentication is on the roadmap.
+No, you can currently only sign in using your work or school Microsoft account.
 
 ### Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable, is that by design?
 
@@ -47,6 +67,10 @@ That's great, we'd love to hear your thoughts. [Submit your ideas and feedback i
 
 ## Bot creation and environments
 
+### The creation of my bot takes long time. Is that expected?
+
+Currently, it can take up to 15 minutes to create the first bot within a tenant. While the bot is being created you can explore the portal. Note that any changes won't get saved until the bot is fully created.
+
 ### Why do I get an error that I do not have permissions to any environments?
 
 It is possible that you do not have read/write access to any environments. In this case, you will see the error: “You do not have permissions to any environments. Please get access from an administrator.” 
@@ -54,59 +78,49 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 ### Why do I get "An unexpected server error occurred"?
 
-Is it possible that you do not have sufficient priveleges for the selected environment. Ideally the region (environment) dropdown UI should only contain environments a user has read/write access to; however, the dropdown is not currently constrained to this. If you select an environment that you have has insufficient access to, you will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
-To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
+This might be an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the link to [create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
 
-### Why does my bot creation time out after a long delay?
+### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent, why?
 
-When creating the first bot in an environment, there is a known issue where the bot creation takes a long time and either eventually succeeds and lands the user on the Virtual Agent home screen, or errors out. If an error occurred and you are sure you had sufficient environment privileges (i.e., you created the environment as guided above), then proceed with refreshing your browser. After the refresh, in most cases, you will find that the bot creation succeeded despite the error; else retry the bot creation again.
-
-### The PowerApps environment I created does not show up in the down menu of Virtual Agent, why?
-
-Please check if you selected the Region as "USA" while creating the Power Apps (Common Data Service) environment. Currently we support only environments in USA. If you created an environment in other regions, it won't be shown in Virtual Agent. The workaround is to create a new environment with location as "USA" or use an existing environment that was created in "USA" region.
-
-### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
-
-A Flow license is per user. Users get Flow licenses automatically when they get a Bot license (which is based on number of sessions). There may be a limit for how many Bot Author (P2 Flow licenses) you can have based on the bracket of Bot license you purchased. 
-
-Here is how the flow licensing works in the context of the bot license.
-If you have 10 bot authors in your organization:
- - each of them gets a P2 Flow license
- - every P2 license comes with 15K Flow "runs" per month
-Flow runs are "pooled" and the runs are anonymous - so the org actually gets 10x15K Flow runs any Flow can use. Now, this 10x15K is a big number to have for a month, and they can be used by any Flow anyone has created.
-The "1 min execution throttle" only applies to "auto-run" type of Flows and does not apply to Bot Flows. This throttle is only for the Flows that are set up to run automatically in a loop, like "every 1 min, check if there are new emails in my Inbox".
-
+Your environment might not show up in the drop down due to the following reasons:
+ - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) and create a database in your environment.
+ - The environment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) and create an environment in the US region.
+ - The environment didn't finish setting up. To resolve this, retry in a few minutes
 
 ## Topic creation and management  
 
 ### What is a topic? 
 
-A bot is a collection on Topics.  Topics may be authored – customized from provided templates, or created from scratch.  
+A bot is a collection of topics. You can author topics by customizing a provided templates or creating new topics from scratch.  
 
-### What is the difference between a System topic and a provided template User topic? 
+### What is the difference between a system topic and a provided template user topic? 
 
-A System topic are linked to provided features like a customer survey, escalate to a live agent or the bot greeting.  Some areas of the System topics may be modified but others are not.  All parts of a the provided User Topics may be modified or deleted.  They are for your customization to fulfull the needs of your Virtual Agent bot. 
+A system topic is linked to predefined features like a customer survey, escalation to a live agent, or the bot greeting. Some areas of the system topics can be modified. User topics can be modified or deleted. They are for your customization to fulfill the needs of your Virtual Agent bot. 
 
 ### How do I create my own custom Topic?  
 
 You can find all details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md)
 
 ### How can I test topics that I've customized or created from scratch to make sure they are working properly?
-The Virtual Agent Designer includes a Test Bot, where you can test your virtual agent and view how the conversation you designed in the conversation editor works in practice. 
-You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the Test Bot.  Click on any chat bubble to navigate to that point in the conversation. 
 
-### I saved my content but when I test the virtual agent in the Test Bot, it doesn't seem to reflect my edits.  What's happening? 
-You need to make sure to hit "Save" on the Topic you're editing and then hit the "Start over" button in the Test Bot to ensure the latest content gets updated in the chat canvas when testing your virtual agent. 
+Virtual Agent lets you test your bot and see how the conversation you designed in the conversation editor works in practice. 
+You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the Test bot. Select any chat bubble to navigate to that point in the conversation. 
 
-### What is the Green outline that appears while I'm testing my topic? 
+### When I test the bot, it doesn't seem to reflect my edits. What's happening? 
 
-The Green outline appears around each node that is successfully tested while using the Test Bot. Those nodes that fail will be outlined in red. 
+You need to make sure to save the topic you're editing and then select the "Start over with latest content" button in the Test bot to ensure the latest content gets updated in the chat canvas. 
 
-### What is “Follow” toggle switch in Test Bot? 
-Turn on Follow to ajump between topics while testing your bot. The conversation on the right will update simultaneously. Click on any chat bubble to navigate to that point in the conversation. 
+### What is the green outline that appears while I'm testing my topic? 
+
+The green outline appears around each node that is successfully tested while using the Test bot. Nodes that fail will be outlined in red. 
+
+### What is the “Follow” control in the Test bot? 
+
+Turn on Follow to jump between topics while testing your bot. The conversation on the right will update simultaneously. Click on any chat bubble to navigate to that point in the conversation. 
 
 ### What is Topic Checker? 
-Topic Checker is where you can see a comprehensive list of all errors and warnings in your Topic.  Errors and Warnings can be saved with a Topic and cleared upon subsequent visits.  Errors should be cleared up before Deploying your bot to production, else unexpected behavior may occur.  Warnings are skipped by the Bot. 
+
+Topic Checker is where you can see a comprehensive list of all errors and warnings in your topic.  Errors and Warnings can be saved with a topic and cleared upon subsequent visits. Errors should be cleared up before deploying your bot to production. Warnings are skipped by the bot. 
 
 ### Is it possible to link multiple topics?
 
@@ -155,6 +169,16 @@ Currently, actions in Virtual Agent only support calling third-party APIs via Fl
 
 Currently, passing end user authentication to a flow is not supported in Virtual Agent, but we have this feature on the Roadmap.
 
+### What is the cost involved in using Microsoft Flow Actions in Virtual Agent?
+
+A Flow license is per user. Users get Flow licenses automatically when they get a Bot license (which is based on number of sessions). There may be a limit for how many Bot Author (P2 Flow licenses) you can have based on the bracket of Bot license you purchased. 
+
+Here is how the flow licensing works in the context of the bot license.
+If you have 10 bot authors in your organization:
+ - each of them gets a P2 Flow license
+ - every P2 license comes with 15K Flow "runs" per month
+Flow runs are "pooled" and the runs are anonymous - so the org actually gets 10x15K Flow runs any Flow can use. Now, this 10x15K is a big number to have for a month, and they can be used by any Flow anyone has created.
+The "1 min execution throttle" only applies to "auto-run" type of Flows and does not apply to Bot Flows. This throttle is only for the Flows that are set up to run automatically in a loop, like "every 1 min, check if there are new emails in my Inbox".
 
 ## Deployment 
 
