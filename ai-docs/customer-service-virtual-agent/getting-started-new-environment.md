@@ -16,8 +16,6 @@ manager: shellyha
 
 When you create a bot, you must select a PowerApps environment for the bot. You can use an existing environment or create one.
 
-If you encounter problems creating an environment, see [Known issues with creating a PowerApps environment](#known-issues-with-creating-a-powerapps-environment) below.
-
 ## To create a new PowerApps environment
 
 Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
