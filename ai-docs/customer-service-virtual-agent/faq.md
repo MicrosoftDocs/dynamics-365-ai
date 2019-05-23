@@ -38,7 +38,7 @@ See [Creating a bot](getting-started-create-bot.md) if you have any issues while
 
 ### What are the various browsers supported by the Virtual Agent?
 
-Virtual Agent is supported in the latest versions of Edge, Chrome, and Fire Fox. It is not supported in Internet Explorer.
+Virtual Agent is supported in the latest versions of Edge, Chrome, and Firefox. It is not supported in Internet Explorer.
  
 ### Can Virtual Agent be styled and branded for an organization? What can be customized and how?
 
@@ -62,7 +62,7 @@ Update the “Escalate” system topic and update the “Bot says” node to inc
 
 ### I ran into a problem. What should I do to file a bug? How quickly will you get back to me? 
 
-You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hrs.
+You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639).
 
 ### I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?
 
@@ -109,11 +109,6 @@ You can find all details about creating your own topics in this article: [Creati
 
 You can delete User Topics by hovering over the topic name and then clicking on the Trash Can icon.  Note that only User Topics can be deleted. System Topics are required for the bot to function and can be edited, but not deleted.
 
-### How can I test topics that I've customized or created from scratch to make sure they are working properly?
-
-Virtual Agent lets you test your bot and see how the conversation you designed in the conversation editor works in practice. 
-You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the Test bot. Select any chat bubble to navigate to that point in the conversation. 
-
 ### When I test the bot, it doesn't seem to reflect my edits. What's happening? 
 
 You need to make sure to save the topic you're editing and then select the "Start over with latest content" button in the Test bot to ensure the latest content gets updated in the chat canvas. 
@@ -121,10 +116,6 @@ You need to make sure to save the topic you're editing and then select the "St
 ### What is the green outline that appears while I'm testing my topic? 
 
 The green outline appears around each node that is successfully tested while using the Test bot. Nodes that fail will be outlined in red. 
-
-### What is the “Follow” control in the Test bot? 
-
-Turn on Follow to jump between topics while testing your bot. The conversation on the right will update simultaneously. Click on any chat bubble to navigate to that point in the conversation. 
 
 ### What is Topic Checker? 
 
@@ -147,7 +138,7 @@ Variables store customer responses to Bot questions.  Variables can further be u
 
 ### How do I create a Microsoft Flow action in Virtual Agent?
 
-A: Here is a [video on how to create a Microsoft Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from Virtual Agent.
+Here is a [video on how to create a Microsoft Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from Virtual Agent.
 
 ### What license do I need to use Microsoft Flows in Virtual Agent?
 
@@ -179,13 +170,12 @@ Examples of popular connectors include Microsoft Common Data Service (CDS), Dyna
 If there is no suitable Connector that you can use out of the box in Flow, you can use an HTTP call inside a Flow to connect to a custom 3rd-party API, like in the example below:
 ![Connect to 3rd party API](media/connect-API-flow.png)
 
-
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
 This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow. If this feature is critical to your business, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 
-### How do I work with my data in Microsoft Flow?
+### How to work with your data in Microsoft Flow?
 Microsoft Flow provides [hundreds of data Connectors](https://docs.microsoft.com/connectors/) and offers many ways to manipulate you data. Please refer to the following Microsoft Flow documentation on more information on how to:
 - [Use Common Data Service (CDS)](https://docs.microsoft.com/flow/connection-cds)
 - [Create a flow that uses the Common Data Service](https://docs.microsoft.com/flow/common-data-model-intro)
@@ -238,13 +228,13 @@ A session is intended to capture just one query or problem within a conversation
 
 ### How do I access the conversation designer?
 
-You can access the conversation designer (the visual dialogue tree editor) by selecting **Edit** on a topic. Either by hovering over a topic name and selecting on the pencil icon, or selecting the **Edit** button from the Topic details page.
+You can access the conversation designer (the visual dialog tree editor) by selecting **Edit** on a topic. Either by hovering over a topic name and selecting on the pencil icon, or selecting the **Edit** button from the Topic details page.
  
 ### How do I use variables to save end-user responses for use later?
 
 In the conversation designer, select **User says** and then select **+ Add variable**. This opens the Properties where you can select **Create variable**. Name your variable and select from the different variable types. Now you will be able to refer to previous user utterances using this variable.
     
-### Which variable types do you support?  Will you add more types later?
+### Which variable types do you support? Will you add more types later?
 
 We currently support four variable types: Text, Age, Number, and Currency. The different types help our Natural Language understanding model interpret user responses in different ways. For example, if you create a variable called “MyAge”, the bot would be able to understand that “18 years old” is MyAge = 18. Similarly, if you created a variable called “BankBalance” and set it to a Currency type, it could understand responses such as USD 300 or $300.00 as both equal to 300.
 We have plans to expand the types of variables supported in the coming months, and will also add support for custom defined variable types.
@@ -256,12 +246,12 @@ If you change the variable type, expressions that rely on that variable may beco
 
 ### Do I need to delete orphaned nodes?
 
-You may end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top right portion of the authoring canvas. You don't need to delete these orphaned nodes – your dialogue tree will ignore these nodes as they are inaccessible from the main part of your dialogue tree.
-You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialogue tree.
+You may end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top right portion of the conversation designer. You don't need to delete these orphaned nodes – your dialog tree will ignore these nodes as they are inaccessible from the main part of your dialog tree.
+You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialog tree.
 
 ### I can’t access greater than, less than comparisons in my Expression node – I can only see “is equal to”. Why is this and how to I do other operations? 
 
-The types of operations available to you in your Expression node vary depending on the type of variable used within that Expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You may find that if you change the variable type, certain expressions that you have authored will no longer be valid particularly if changing between Text and Age/Number/Currency types – so when this happens, you will need to modify your Expression nodes for your dialogue to work properly.
+The types of operations available to you in your Expression node vary depending on the type of variable used within that Expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You may find that if you change the variable type, certain expressions that you have authored will no longer be valid particularly if changing between Text and Age/Number/Currency types – so when this happens, you will need to modify your Expression nodes for your dialog to work properly.
 
 ### How do I create Fallback routes?
 You can create fallback routes to cover scenarios where you want the bot to respond to something outside of the listed branches of your tree. For example, if the dialog asks the user to name a city and you have a answers prepared when the user's answer is Seattle or Bellevue, but the user can specify other city names. 
@@ -270,7 +260,7 @@ You may want to author another branch of the tree that covers any response outsi
 
 ![Fallback option](media/fallback-option.png)
 
-## Can I create routing branches without showing suggestion buttons?
+### Can I create routing branches without showing suggestion buttons?
 
 Yes, it is possible to hide suggestion buttons. You can do this by selecting the trash can icon next to the suggestion button in the “User Responses” node.  This retains the routes below, but those routes would only be accessible if the user typed in the response directly to the bot.
 
