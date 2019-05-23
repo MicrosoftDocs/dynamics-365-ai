@@ -28,7 +28,7 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
 
    ![Sign up screen](media/sign-up-screen.png)
     
-   You will then be presented with several license agreements and terms-of-service screens. When you agree to these terms, you are assigned licenses that allow you to access the Preview.
+   You are then presented with several license agreements and terms-of-service screens. When you agree to these terms, you are assigned licenses that allow you to access the Preview.
     
 2. In the **Create a new bot** dialog box, you’ll name your bot. This can be something generic to your company or specific to the scenario you are tailoring your bot to.
 
@@ -51,7 +51,7 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
    > - [Trace your conversation in the authoring canvas](how-to-test-bot.md#to-trace-through-the-topics-conversation-path)
    > - [View and edit topics](getting-started-bot-designer.md#topics-page) (but not save them)
    > - [Watch product videos](virtual-agent-videos.md)
-   >
+   
    
    
    
@@ -65,24 +65,24 @@ If you have already created a bot, you can create a new bot by selecting the **B
 
 ## Known issues with creating a bot
 
-When you are creating your bot, you may encounter the following issues
+When you are creating your bot, you might encounter the following issues.
 
 ### No read/write access to any environment
 
-In this case, you will see this error: “You do not have permissions to any environments. Please get access from an administrator.”
+In this case, you see this error: “You do not have permissions to any environments. Please get access from an administrator.”
 
-To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
+To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
 
 
 ### Insufficient permissions for the selected environment
 
-If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
+If an user selects an environment that they have insufficient access to, they get the following error: “An unexpected server error occurred. Please retry creating your bot.”
 
-To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) to create a new environment. Use that environment to create your bot.
+To resolve this issue, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
 
-### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent
+### The PowerApps environment I created does not show up in the drop-down menu of Virtual Agent
 
-Your environment might not show up in the drop down due to the following reasons:
+Your environment might not show up in the drop-down menu due to the following reasons:
  - The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
- - The envornment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
- - The enviroment didn't finish setting up. To resolve this, retry in a few minutes
+ - The envornment's region is set to something other than United States. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md).
+ - The enviroment didn't finish setting up. To resolve this, retry in a few minutes.
