@@ -39,35 +39,35 @@ Your bot is created in the default PowerApps environment that was created for yo
 
 ## Create a custom Topic
 
-1.	Now that you have full functionality within your bot, you can create your own custom topic – or in other words, a dialogue tree specifying how your bot responds to a user’s question. Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
+1.	Now that you have full functionality within your bot, you can create your own custom topic—or, in other words, a dialogue tree specifying how your bot responds to a user’s question. Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
 
-2.	Start by selecting **Topics** in the left-hand navigation panel, then select **+ New topic** at the top of the page.
+2.	Start by selecting **Topics** in the left pane, and then select **New topic** at the top of the page.
     ![New topic](media/create-new-topic.png)
 
-3. You can now name your topic and include some trigger phrases for this topic. Trigger phrases are examples of the type of user questions or utterances that help teach the bot when to respond with this dialogue. As an example, let’s create a Topic called “Personal Hello World” and add “hello world” as a trigger phrase.  Select **Save topic** and then select **Edit** to proceed.
+3. You can now name your topic and include some trigger phrases for this topic. Trigger phrases are examples of the type of user questions or utterances that help teach the bot when to respond with this dialogue. As an example, let’s create a topic called “Personal Hello World” and add “hello world” as a trigger phrase. Select **Save topic**, and then select **Edit** to proceed.
 
-4. After saving your topic, you will land in the conversation editor – this is the graphical dialogue tree editor that allows you to define the bot responses and overall conversation flow.
+4. After saving your topic, you land in the conversation editor. This is the graphical dialogue tree editor that allows you to define bot responses and overall conversation flow.
 Start by entering “Hello! I’ll create a personalized greeting for you.” into the first Bot Says node. Then, add another Bot Says node by selecting it in the menu below the first Bot Says node.
 
-5. In the second Bot Says node, enter “Where do you live?” and select **User Says** from the menu below the second Bot Says node. Select **+ Add user response**. 
+5. In the second Bot Says node, enter “Where do you live?”, and select **User Says** from the menu below the second Bot Says node. Select **Add user response**. 
 
-6. For the two “User Says” responses, enter “Seattle” and “Bellevue” in the User Responses node. Now, enter “Hello Seattle!” in the Seattle branch on the left, and “Hello Bellevue!” in the Bellevue branch on the right. Select **Save** in the upper right-hand corner.
+6. For the two “User Says” responses, enter “Seattle” and “Bellevue” in the User Responses node. Now, enter “Hello Seattle!” in the Seattle branch on the left and “Hello Bellevue!” in the Bellevue branch on the right. Select **Save** in the upper-right corner.
 
-You now have a very simple, branching dialogue tree – congratulations!  Of course, you can begin to create more complex versions of this tree by incorporating variables, expressions, and Microsoft Flow.
+You now have a very simple branching dialogue tree—congratulations! You can begin to create more complex versions of this tree by incorporating variables, expressions, and Microsoft Flow.
 
 ## Test your content in real time
 
-1.	Now that you have some content authored into a dialogue tree, it’s time to test this out in real-time and see if it’s working as you expected. For this, you’ll use the Test bot panel. Begin by selecting the **Start over with latest content** button near the top of this panel.
+1.	Now that you have some content authored into a dialogue tree, it’s time to test this out in real time to see if it’s working as you expected. For this, you’ll use the Test bot panel. Begin by selecting **Start over with latest content** near the top of this panel.
  
-    If the Test bot is not showing on your screen, select the **Test your bot** button in the lower left-hand corner of your screen.
+    If the test bot is not showing on your screen, select **Test your bot** in the lower-left corner of your screen.
 
-2.	Now that the latest content has been refreshed in the test bot, you can try out your newly authored dialogue tree by typing into the test bot window. Turn on **Tracing** at the top – this will enable you to follow along with the bot as it executes your dialogue. You’ll start to see parts of your dialogue tree highlighted as the bot gets to that portion of the dialog.
+2.	Now that the latest content has been refreshed in the test bot, you can try out your newly authored dialogue tree by typing into the test bot window. Turn on **Tracing** at the top, which enables you to follow along with the bot as it executes your dialogue. You’ll start to see parts of your dialogue tree highlighted as the bot gets to that portion of the dialogue.
 
-3.	Type "hello world" in the chat window and send the message to the bot. You’ll see the top portion of your dialogue tree highlighted in green, and you’ll see “Seattle” and “Bellevue” presented as user options in the test bot window.
-The bot is now waiting for you to respond and has provided suggestions on how to respond. These suggestion buttons reflect what you authored within your dialogue tree in the “User Responses” node.  In the test bot, you can either click on these suggestion buttons to continue, or you can type your response in the chat window.  
+3.	Type "hello world" in the chat window, and send the message to the bot. You’ll see the top portion of your dialogue tree highlighted in green, and you’ll see “Seattle” and “Bellevue” presented as user options in the test bot window.
+The bot is now waiting for you to respond and has provided suggestions on how to respond. These suggestion buttons reflect what you authored within your dialogue tree in the User Responses node. In the test bot, you can either select these suggestion buttons to continue, or you can enter your response into the chat window.  
 	 
 
-4.	You can continue the dialog by selecting the Seattle branch. You’ll see the dialogue stop once you’ve reached the bottom of this branch.  If you author more content, the dialogue will continue – but since we’ve only created a very simple and small dialogue tree, we can reach the end of the content very quickly.
+4.	You can continue the dialogue by selecting the Seattle branch. You’ll see the dialogue stop once you’ve reached the bottom of this branch. If you author more content, the dialogue will continue, but since we’ve only created a very simple and small dialogue tree, we can reach the end of the content very quickly.
 
     This test experience empowers you to quickly create and test a conversation to ensure that the conversation will flow as anticipated. If the dialogue does not reflect your intention, you can change the dialogue, save it, push the latest content into the test bot, and try it out again. None of this changes the deployed version of the bot, so feel free to play around with your content until you are happy with it.
  
