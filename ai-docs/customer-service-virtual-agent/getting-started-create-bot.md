@@ -84,6 +84,6 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 ### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent
 
 Your environment might not show up in the drop down due to the following reasons:
- - The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
- - The envornment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
- - The enviroment didn't finish setting up. To resolve this, retry in a few minutes
+ - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
+ - The environment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md)
+ - The environment didn't finish setting up. To resolve this, retry in a few minutes
