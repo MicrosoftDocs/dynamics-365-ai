@@ -42,11 +42,12 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
 
     
 3. Once you select **Create**, the process for creating the first bot within a new environment can take up to 15 minutes. 
+
    ![Creating new bot screen](media/creating-bot-animation.png) 
 
    > [!NOTE]
    >
-   > Here are some things you can do to use this time and explore some features of Virtual Agent:
+   > Explore some features of Virtual Agent while you are waiting:
    > - [Chat with a test bot](how-to-test-bot.md#work-with-the-test-bot-pane)
    > - [Trace your conversation in the authoring canvas](how-to-test-bot.md#to-trace-through-the-topics-conversation-path)
    > - [View and edit topics](getting-started-bot-designer.md#topics-page) (but not save them)
@@ -58,6 +59,8 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
 4.	When the bot creation process completes, the banner changes. You now have full functionality in the bot and can modify topics, test your changes, or deploy your bot.
 
 ## Creating additional bots
+
+<!--note from editor: Does the Bot icon have a name or a Tooltip associated with it, for example, "Create bot"? If so, revise to something like "selecting **Create bot** [  ]" where brackets are replaced by the icon itself.   -->
 
 If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar and then selecting **New bot**.
 
@@ -82,7 +85,7 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 ### The PowerApps environment I created does not show up in the drop-down menu of Virtual Agent
 
-Your environment might not show up in the drop-down menu due to the following reasons:
- - The enviroment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
- - The envornment's region is set to something other than United States. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md).
- - The enviroment didn't finish setting up. To resolve this, retry in a few minutes.
+Your environment might not show up in the drop-down menu due to one of the following:
+ - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) to create a database in your environment.
+ - The environment's region is set to something other than United States. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md).
+ - The environment didn't finish setting up. To resolve this, retry in a few minutes.
