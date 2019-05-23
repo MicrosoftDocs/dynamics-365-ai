@@ -58,6 +58,10 @@ Start by entering “Hello! I’ll create a personalized greeting for you.” in
 
 You now have a very simple, branching dialog tree – congratulations!  Of course, you can begin to create more complex versions of this tree by incorporating variables, expressions, and Microsoft Flow.
 
+For more information on how to use variables and expressions, see [Using variables and expressions to create dynamic dialogues](http://go.microsoft.com/fwlink/?linkid=2063539).  
+
+For more information on how to use Microsoft Flow, see [Creating and using Flows for extensible dialogues](http://go.microsoft.com/fwlink/?linkid=2079323).
+
 ## Testing your content in real-time
 
 1.	Now that you have some content authored into a dialog tree, it’s time to test this out in real-time and see if it’s working as you expected. For this, you’ll use the Test bot panel. Begin by selecting the **Start over with latest content** button near the top of this panel.
@@ -105,4 +109,8 @@ For now, enter “This is a demonstration of my first bot that I built by myself
 
 2.	You can also view detailed session history and transcripts by selecting “Sessions” from the Analytics tab.  This enables you to download a CSV file with the full session transcript.  This can be a helpful way for you to tune the performance of your bot and change the content in your Topics to improve your bot’s efficiency.
 
-You’ve now created a bot, created your own custom topic, tested it out, deployed it to a demo website, and learned how to analyze your bot’s performance.  Congratulations!  Your bot has many capabilities beyond this, so please try it out and play with the advanced features.
+You’ve now created a bot, created your own custom topic, tested it out, deployed it to a demo website, and learned how to analyze your bot’s performance. Congratulations! Your bot has many capabilities beyond this, so please try it out and play with the advanced features.
+
+For questions not covered in the product documentation or for feature ideas, please [visit our community](http://go.microsoft.com/fwlink/?linkid=2058639) and post questions or ideas.
+
+For more guidance on how to connect to your existing case logs and automatically discover new topics, please try out [Dynamics 365 Customer Service Insights](https://dynamics.microsoft.com/ai/customer-service-insights/).
