@@ -48,20 +48,20 @@ The preceding example graph reflects system and custom relationships created dur
 
 The following two sections cover segment creation followed by segment exploration.
 
-## Creating first segment
+## Creating your first segment
 
-To create a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
+To create a segment, you can either select **Add Segment** at the upper-right corner of the page, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
-### Step One: Define the segment's properties using the *New Segment* panel
+### Step One: Define the segment's properties using the **New Segment** panel
 
 // add 1
 
-- We will choose between a **Dynamic** and **Static** segment
-- We will give our segment an informative name, display name and description that will help us identify it in the future, when we'll have multiple segments. There are no limitations on display name but there are some limitations on name (space is not allowed for example).
-- Lastly we will click **Next**. At this point we will get to the **Segment builder** screen.
+- Choose between a **Dynamic** and a **Static** segment.
+- Give your segment an informative name, a display name, and a description that will help us identify it in the future, when we have multiple segments. There are no limitations on display name but there are some limitations on name (space is not allowed for example).
+- select **Next**. You will go to the **Segment builder** page.
 
 ### Step Two: Create a first group 
 
@@ -94,16 +94,16 @@ In Customer Insights, a group is a set of customers.
 
 4. Add entities that are related to that entity until getting to the Customer Profile entity as will be shown in the example below. Note that for the completion of this step, you may need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). 
 
-As we can see, there are certain requirements that should be met in order for a group (and the segment as a whole) to be valid.   However, at any point of time you can save your segment as a **draft**.
-If your segment definition indeed miss one or more mandatory selections, you can expect to get the floowing message:
+As you can see, there are certain requirements that should be met in order for a group (and the segment as a whole) to be valid.   However, at any point of time you can save your segment as a **draft**.
+If your segment definition is missing one or more mandatory selections, you will get the following message:
 
 // add 2
 
-Selecting **Later** will create a draft on the segments screen:
+Selecting **Later** will create a draft on the segments page:
 
 // add 3
 
-Note that you will not be able to run the segment until it's a valid segment (and not a draft). You can expect to receive the following message if you try to run:
+Note that you will not be able to run the segment until it's a valid segment (and not a draft). You will see the following message if you try to run it:
 
 // add 4
 
@@ -224,7 +224,7 @@ Then, choose one of the following options from the drop-down menu:
 - Exporting the segment to either a CSV file or to a Dynamics 365 for Sales location. For more information on the different exporting options make sure to visit the **Segment Export** section.
 - Turning the segment to inactive or active (depending on its baseline state)
 - Deleting the segment 
-- Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment appears under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
+- Pinning the segment, which moves it to the top of the page for better accessibility. The pinned segment appears under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
 
   > [!div class="mx-imgBorder"] 
   > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
