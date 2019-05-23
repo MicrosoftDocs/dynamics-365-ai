@@ -116,7 +116,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
    ![New bot icon](media/new-bot-icon.png)
 
-    For more information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
+    For more information, see [Creating a bot](getting-started-create-bot.md).
 
 2. On the **Create a new bot** screen, specify a template, a unique name for your bot, and the environment where your flow was created. Then select **Create**.
 
@@ -150,15 +150,15 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
    ![Open flow conversation](media/edit-conversation.png)
 
-    In the conversation editor, enter a bot response in the **Bot Says** node, and then select **User says** to display the **User Responses** node.
+    In the conversation editor, enter a bot response in the **Bot Says** node, and then select **User Says** to display the **User Responses** node.
 
    ![Create conversation](media/create-conversation.png)
 
-    In the user responses node, select **Add Variable** to display the **Properties** pane, where you can create a variable to save a customer's email address.
+    In the **User Responses** node, select **Add Variable** to display the **Properties** pane, where you can create a variable to save a customer's email address.
 
    ![Add variable](media/add-variable.png)
 
-    In the Properties pane, select **Create variable** to display the **Create new variable** window.
+    In the **Properties** pane, select **Create variable** to display the **Create new variable** window.
 
    ![Create new variable](media/create-new-variable.png)
 
@@ -168,7 +168,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
    ![Save variable](media/create-flow-variable.png)
 
-    Virtual Agent adds the variable to the **User Responses** node and creates an **Expression** node. You can delete this node if you do not want to do any validation.
+    Virtual Agent adds the variable to the **User Responses** node, and creates an **Expression** node. You can delete this node if you do not want to do any validation.
 
    ![Delete expression](media/delete-expression.png)
 
@@ -176,7 +176,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
    ![Confirmation node](media/confirmation-node.png)
 
-    To display the specified email address in the user's conversation with the bot, place your cursor in the **Bot Says** node to display the popup menu. Then select the variable you created from the variable drop-down list.
+    To display the specified email address in the user's conversation with the bot, place your cursor in the **Bot Says** node to display the pop-up menu. Then select the variable you created from the variable drop-down list.
 
    ![Select variable](media/select-variable.png)
 
@@ -191,7 +191,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
    ![Create action](media/create-action.png)
 
-9. Add another **Bot Says** node to display the message from the flow to the customer. Place your cursor in the node to display the popup menu, and then select the **message** variable from the variable drop-down list.
+9. Add another **Bot Says** node to display the message from the flow to the customer. Place your cursor in the node to display the pop-up menu, and then select the **message** variable from the variable drop-down list.
 
    ![Display flow message](media/display-flow-message.png)
 
@@ -201,7 +201,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 ## To test the flow
 
-1. In the Test bot pane, select **Start over with latest conversation**. Then specify a trigger phrase for the topic that contains the flow.
+1. In the **Test bot** pane, select **Start over with latest conversation**. Then specify a trigger phrase for the topic that contains the flow.
 
 2. Enter your email address at the prompt.
 
