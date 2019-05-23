@@ -57,7 +57,8 @@ To create a segment, you can either select **Add Segment** at the upper-right co
 
 ### Step One: Define the segment's properties using the **New Segment** panel
 
-// add 1
+> [!div class="mx-imgBorder"] 
+> ![](media/first-segment-step-one.png "Define segment")
 
 - Choose between a **Dynamic** and a **Static** segment.
 - Give your segment an informative name, a display name, and a description that will help us identify it in the future, when we have multiple segments. There are no limitations on display name but there are some limitations on name (space is not allowed for example).
@@ -71,7 +72,6 @@ In Customer Insights, a group is a set of customers.
 
 1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an Order Value field by which we want to segment. In order to choose your entity of interest, select the field shown here.
 
-// replace 1
     > [!div class="mx-imgBorder"] 
     > ![](media/segments-group1-define-filter.png "Choose entity")
 
