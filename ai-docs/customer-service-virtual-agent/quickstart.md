@@ -99,18 +99,25 @@ For more information on how to use Microsoft Flow, see [Creating and using Flows
     You’ll now see two options – one to deploy to a Demo website, and one to deploy to a Custom website. The custom website provides a snippet of code to send to your website administrator. This embeds the bot canvas into the website of your choosing so that your end users can interact with your bot from your web channel.
 
     At this point, it’s premature to deploy your bot to your website, so let’s start with the demo website instead. Select **Demo website**.
+
+    ![Deploy bot to demo website](media/quickstart-deploy-demo.png)
  
 
 2.	Enter a welcome message and conversation starters that will be displayed on your demo website.
-For now, enter “This is a demonstration of my first bot that I built by myself, without writing a line of code!” in the Welcome message, and “Hello world” in the Conversation starters. Select the **Publish** button.
+For **Welcome message**, enter “This is a demonstration of my first bot that I built by myself, without writing a line of code!” and “Hello world” in the **Conversation starters**. Select the **Publish** button.
+
+    ![Set welcome message and conversation starters](media/quickstart-deploy-00.png)
  
 3.	A new window opens in your browser. If this doesn’t happen automatically, check if a pop-up blocker has been activated and allow the window to be opened. This is a webpage that demonstrates what your bot looks like to an end-user who comes to your webpage. The bot canvas is in the lower right-hand corner, and you can interact with it by either typing into the window or by click on the “Hello world” conversation starter you added previously.
- 
+
+    ![Demo website with bot](media/quickstart-deploy-01.png)
 
 4.	You'll find a link added to the Deploy page. This link can be copied and shared with others in your organization and is a great way for others to experience the bot that you have created. This URL is also the same as the one shown in the test webpage.
 
     > [!NOTE]
     > Anyone with this link can interact with your bot using the test webpage shown above, so please do not share sensitive information in this bot. Your visitors will interact with your bot as an “end-user” but will not be able to see the conversation editor.
+
+    ![Share your bot](media/quickstart-deploy-02.png)
 
 
 ## Analyzing the performance of your bot
