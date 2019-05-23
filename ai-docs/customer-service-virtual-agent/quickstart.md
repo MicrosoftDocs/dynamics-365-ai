@@ -69,19 +69,28 @@ For more information on how to use Microsoft Flow, see [Creating and using Flows
 ## Testing your content in real-time
 
 1.	Now that you have some content authored into a dialog tree, it’s time to test this out in real-time and see if it’s working as you expected. For this, you’ll use the Test bot panel. Begin by selecting the **Start over with latest content** button near the top of this panel.
+
+    ![Start bot with latest content](media/quickstart-test-bot-00.png)
  
     If the Test bot is not showing on your screen, select the **Test your bot** button in the lower left-hand corner of your screen.
 
-2.	Now that the latest content has been refreshed in the test bot, you can try out your newly authored dialog tree by typing into the test bot window. Turn on **Tracing** at the top – this will enable you to follow along with the bot as it executes your dialog. You’ll start to see parts of your dialog tree highlighted as the bot gets to that portion of the dialog.
+    ![Test bot control](media/quickstart-test-bot-01.png)
 
-3.	Type "hello world" in the chat window and send the message to the bot. You’ll see the top portion of your dialog tree highlighted in green, and you’ll see “Seattle” and “Bellevue” presented as user options in the test bot window.
-The bot is now waiting for you to respond and has provided suggestions on how to respond. These suggestion buttons reflect what you authored within your dialog tree in the “User Responses” node.  In the test bot, you can either click on these suggestion buttons to continue, or you can type your response in the chat window.  
+2.	Now that the latest content has been refreshed in the test bot, you can try out your newly authored dialog tree by typing into the test bot window. Turn on **Tracing** at the top – this will enable you to follow along with the bot as it executes your dialog. You’ll start to see parts of your dialog tree highlighted as the bot gets to that portion of the dialog.Type "hello world" in the chat window.
+
+    ![Start conversation](media/quickstart-test-bot-02.png)
+
+3.	Send the message to the bot. You’ll see the top portion of your dialog tree highlighted in green, and you’ll see “Seattle” and “Bellevue” presented as user options in the test bot window.    
+    The bot is now waiting for you to respond and has provided suggestions on how to respond. These suggestion buttons reflect what you authored within your dialog tree in the “User Responses” node.  In the test bot, you can either click on these suggestion buttons to continue, or you can type your response in the chat window.  
+
+    ![Tracing conversation](media/quickstart-test-bot-03.png)
 	 
 
 4.	You can continue the dialog by selecting the Seattle branch. You’ll see the dialog stop once you’ve reached the bottom of this branch.  If you author more content, the dialog will continue – but since we’ve only created a very simple and small dialog tree, we can reach the end of the content very quickly.
 
     This test experience empowers you to quickly create and test a conversation to ensure that the conversation will flow as anticipated. If the dialog does not reflect your intention, you can change the dialog, save it, push the latest content into the test bot, and try it out again. None of this changes the deployed version of the bot, so feel free to play around with your content until you are happy with it.
  
+    ![Traced conversation](media/quickstart-test-bot-04.png)
 
 ## Deploying your bot
 
