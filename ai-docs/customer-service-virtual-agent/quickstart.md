@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create and deploy a customer service bot"
 description: "Learn how to quickly create a customer service bot using Virtual Agent."
-ms.date: 05/16/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -14,11 +14,11 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Microsoft Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quickly and easily create powerful bots using a guided, no-code graphical experience – all without the need for data scientists or developers. 
+Microsoft Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quickly and easily create powerful bots using a guided no-code graphical experience—all without the need for data scientists or developers. 
 
-This guide will take you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real-time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. You can also [view this video](http://go.microsoft.com/fwlink/?linkid=2062988) that works through the end-to-end process. 
+This guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. You can also [view the How to Create, Test, and Deploy a Virtual Agent video](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end process. 
 
-## Creating your first bot
+## Create your first bot
 
 1.	Navigate to [http://aka.ms/virtual-agent](http://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Edge, Chrome, and Firefox. On the website, select **Try Preview**, then sign-in with your work email address. Please note that personal Microsoft accounts aren't supported currently.
     ![Sign up page](media/sign-up-screen.png)
