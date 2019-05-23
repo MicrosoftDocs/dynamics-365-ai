@@ -18,23 +18,26 @@ Microsoft Dynamics 365 Virtual Agent for Customer Service empowers customer team
 
 This guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. You can also [view the How to Create, Test, and Deploy a Virtual Agent video](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end process. 
 
+
+<!--note from editor: In step 2 below, add a link to cross reference to Creating a PowerApps environment.   -->
+
 ## Create your first bot
 
-1.	Navigate to [http://aka.ms/virtual-agent](http://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Edge, Chrome, and Firefox. On the website, select **Try Preview**, then sign-in with your work email address. Please note that personal Microsoft accounts aren't supported currently.
+1.	Go to [http://aka.ms/virtual-agent](http://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Microsoft Edge, Chrome, and Firefox. On the website, select **Try Preview**, and then sign in with your work email address. Note that personal Microsoft accounts aren't supported currently.
     ![Sign up page](media/sign-up-screen.png)
 
-2. Next, you’ll choose a name for your bot. This can be something generic to your company or specific to the scenario you would like to tailor your bot towards.
-By default, your bot will be created in the default PowerApps environment that was created for you when signing up. For most users, this is sufficient. However, if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
+2. Next, you’ll choose a name for your bot. This can be something generic to your company or specific to the scenario you are tailoring your bot to.
+Your bot is created in the default PowerApps environment that was created for you when you signed up. For most users, this is sufficient. However, if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the **More options** menu and selecting a different environment.
    > [!NOTE] 
-   > Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see Creating a PowerApps environment.
+   > Preview is currently supported only in the United States, with data stored in US data centers. If your company is domiciled outside of the United States, you need to create a custom environment with **Region** set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see Creating a PowerApps environment.
 
-3.	Once you select **Create**, the next process can take up to 15 minutes for the first bot to be created within a new environment.  
+3.	Once you select **Create**, the process of creating the first bot within a new environment can take up to 15 minutes.  
 
-4. After a few minutes, you’ll land on the Home page and have an opportunity to play around with the bot in “read-only” mode.  While you can't save any edits during this time, you can explore the overall user interface, look at the topics, experiment with the pre-loaded User Topics and System Topics, and interact with your bot using the Test Canvas.  During this time, you can also watch product videos to learn how to complete tasks such as creating a branching dialogue tree using variables and expressions, or creating a Flow and embedding Flows within your dialogue tree.
+4. After a few minutes, you’ll land on the home page and have an opportunity to play around with the bot in read-only mode. You can't save any edits during this time, but you can explore the overall user interface, look at the topics, experiment with the preloaded User Topics and System Topics, and interact with your bot using the Test Canvas. During this time, you can also watch product videos to learn how to complete tasks such as creating a branching dialogue tree using variables and expressions, or creating flows and embedding them within your dialogue tree.
 
-5. When the bot creation process completes (up to 15 minutes for the first bot creation), you’ll see the banner change – you now have full functionality in the bot and can modify any User or System Topic, test out your content changes, or deploy your bot.
+5. When the bot creation process completes, the banner changes. You now have full functionality in the bot and can modify any User or System Topic, test out your content changes, or deploy your bot.
 
-## Creating a custom Topic
+## Create a custom Topic
 
 1.	Now that you have full functionality within your bot, you can create your own custom topic – or in other words, a dialogue tree specifying how your bot responds to a user’s question. Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
 
@@ -52,7 +55,7 @@ Start by entering “Hello! I’ll create a personalized greeting for you.” in
 
 You now have a very simple, branching dialogue tree – congratulations!  Of course, you can begin to create more complex versions of this tree by incorporating variables, expressions, and Microsoft Flow.
 
-## Testing your content in real-time
+## Test your content in real time
 
 1.	Now that you have some content authored into a dialogue tree, it’s time to test this out in real-time and see if it’s working as you expected. For this, you’ll use the Test bot panel. Begin by selecting the **Start over with latest content** button near the top of this panel.
  
@@ -69,7 +72,7 @@ The bot is now waiting for you to respond and has provided suggestions on how to
     This test experience empowers you to quickly create and test a conversation to ensure that the conversation will flow as anticipated. If the dialogue does not reflect your intention, you can change the dialogue, save it, push the latest content into the test bot, and try it out again. None of this changes the deployed version of the bot, so feel free to play around with your content until you are happy with it.
  
 
-## Deploying your bot
+## Deploy your bot
 
 1.	Once you are fine with the content authored in your bot, you can deploy your bot to a website. Start by selecting the **Deploy** tab in the left-hand navigation pane.
 
@@ -90,7 +93,7 @@ For now, enter “This is a demonstration of my first bot that I built by myself
     > Anyone with this link can interact with your bot using the test webpage shown above, so please do not share sensitive information in this bot. Your visitors will interact with your bot as an “end-user” but will not be able to see the conversation editor.
 
 
-## Analyzing the performance of your bot
+## Analyze the performance of your bot
 
 1.	Once your bot has completed interactions with users, the statistics are available via the **Analytics** tab in the left-hand navigation panel. Here, you can find key performance indicators (KPIs) showing the volume of sessions your bot has handled, how effectively your bot was able to engage end-users and resolve issues, escalation rates to human agents, and abandonment rates during conversations.  You will also find CSAT information at the KPI level as well as in the **Customer Satisfaction** tab.
 
