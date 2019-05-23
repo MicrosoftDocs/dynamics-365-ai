@@ -1,7 +1,7 @@
 ---
 title: "Hand off a bot conversation to a live agent"
 description: "Learn how to use Virtual Agent to create a bot conversation that hands off to a live agent."
-ms.date: 05/20/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -15,6 +15,8 @@ manager: shellyha
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate a handoff by redirecting users to the Escalate system topic. To get started, update the Escalate system topic.
+
+<!--note from editor: In Step 2, suggest revising "select the **Edit** icon" to something like "select **Edit** [  ]" where brackets are replaced by the icon itself. -->
 
 ## Update Escalate system topic to handoff to a live agent
 
@@ -38,7 +40,7 @@ You are now ready to redirect users to this topic to initiate a handoff.
 
    ![Open Topics page](media/open-topics.png)
 
-2. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to trigger a handoff to live human agent, and then select **Escalate**.
+2. Open the topic where you want to add the handoff in the conversation editor. Navigate to where you want to trigger a handoff to a live human agent, and then select **Escalate**.
 
    ![Select Escalate](media/select-escalate.png)
 
@@ -48,4 +50,4 @@ You are now ready to redirect users to this topic to initiate a handoff.
 
 3. Select **Save** to save the topic. 
 
-Your topic now redirects to "Escalate" to initiate a handoff to human agent. 
+Your topic now redirects to "Escalate" to initiate a handoff to a human agent. 
