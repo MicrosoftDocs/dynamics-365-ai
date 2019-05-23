@@ -120,7 +120,13 @@ For now, enter “This is a demonstration of my first bot that I built by myself
     > [!NOTE]
     > There is up to a 1-hour delay between when the conversations occur and when the statistics for those conversations appear in the Analytics views.  Also, all interactions with the bot will be logged in analytics, including interactions from your demo website, custom website, or test bot.
 
-2.	You can also view detailed session history and transcripts by selecting “Sessions” from the Analytics tab.  This enables you to download a CSV file with the full session transcript.  This can be a helpful way for you to tune the performance of your bot and change the content in your Topics to improve your bot’s efficiency.
+    ![Analytics pages](media/analytics-pane.png)
+
+2.	You can also view detailed session history and transcripts by selecting **Sessions** from the Analytics tab. This enables you to download a CSV file with the full session transcript which lets you tune the performance of your bot and change the content in your topics to improve your bot’s efficiency.
+
+    ![Download sessions](media/sessions-page.png)
+
+    For more information, see [Using analytics to improve your bot](getting-started-analytics.md).
 
 You’ve now created a bot, created your own custom topic, tested it out, deployed it to a demo website, and learned how to analyze your bot’s performance. Congratulations! Your bot has many capabilities beyond this, so please try it out and play with the advanced features.
 
