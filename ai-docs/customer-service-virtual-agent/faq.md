@@ -224,6 +224,29 @@ If the Modern SharePoint site allows embedding an iframe, it should be able to e
 A conversation is the entire interaction between the bot and a user, starting from the user’s first message to when the chat window is closed or inactive for about an hour. Within a conversation, the user may have more than one query. 
 A session is intended to capture just one query or problem within a conversation. So, a conversation can have multiple sessions. A session starts with the user’s initial query and ends when the user indicates the problem is solved (confirmed success topic) or the session is escalated (escalation topic).
 
+### What’s the definition of an engaged session? 
+
+An engaged session is one where the bot has been able to find a topic that could potentially help answer the customer’s question.  
+
+### What’s the definition of an unengaged session?
+
+An unengaged session is one where the bot can't find a topic that can potentially help solve the customer’s question or issue. Unengaged sessions are an indication that you have missing content and need to create additional topics to address those questions. You can find unengaged sessions by [downloading Session data](analytics-sessions.md) and filtering the Session Outcome column to show unengaged sessions.   
+
+### Can I view the detailed content of sessions between my bot and customers?  
+
+Yes, you can find the detailed content of sessions, by [downloading Session data](analytics-sessions.md).
+
+### How can I improve the performance of my bot over time?   
+
+Start by reviewing the performance of your bot in the Analytics tab. Examine which topics have the most abandoned and escalated sessions. They will appear at the top of the Escalation Rate and Abandon Rate charts. You can also find the detailed content of sessions, by [downloading Session data](analytics-sessions.md). You can then filter by Session Outcome. We recommend you focus on analyzing the content of Escalated, Abandoned and Unengaged sessions first to identify the causes of poor performance.  
+
+### What are the common causes of poor bot performance?    
+
+There are several common causes of poor performance including a high number of unengaged sessions, poorly written content, incomplete topics, or overlapping triggers.  
+- High number of unengaged sessions: Indication that you have missing content and you don’t have topics created to address the type of questions asked by your customers.
+- Poorly written or incomplete topics: A topic may not be well written or is lacking content to address a particular nuance of the customers question. For example, customers may want information on how to get a refund but you only provide information on how to do an exchange. This may result in high number of escalated or abandoned sessions.
+- Overlapping triggers: If you are using the same trigger words on multiple topics, it may result in the bot needing to ask “did you mean” questions after the customer types their first question/utterance to try to determine which topic it should show the customer first. This may result in the bot triggering the wrong topic and bot providing the content the customer needs. 
+
 ## Authoring
 
 ### How do I access the conversation designer?
