@@ -75,14 +75,30 @@ First, select **Filter**.
 > ![](media/customer-card-tile-filter.png "Customer Card tile filter")
 
 Then, check the boxes next to the attributes you want to filter customers by. As with Search, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator on the **Search & filter index** page.
+Next to the filter panel you can see the number of customers that will result from your selected filters.
 
+// replace 1
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers3.png "Customer profiles")
 
 You can remove your saved filters using **Clear filters**.
 
+// replace 2
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-clear-filter.png "Customer Card tile clear filter")
 
+## Save filtered customer base as a segment
+
+Once choosing at least one filter, you can choose to quickly produce a segment for all the customers that are included under your filter criteria. Click the **Save results as a segment**: 
+
+// add 1
+
+All you need to do is to select a segment type (see the **Segments** topic to learn more) as well as naming your segment. You might also choose to give it a **display name** (your segment will carry the display name in the Home page and Segments screen. It has no limitations while the **name** field does have some limitations). 
+
+// add 2
+
+If you wish to process your segment, in the next window choose **Activate**. If you wish to save the segment definition but activate it later choose the **Later** option.
+
+// add 3
 ### Next Step
 Review both the **Data Sources** and **Unify** sections, where you will learn to ingest and unify your data.
