@@ -1,7 +1,7 @@
 ---
 title: "Work with variables"
 description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service variables."
-ms.date: 05/20/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,20 +18,20 @@ Variables let you save responses from your customers in a conversation with a bo
 
 You can use variables to create logical expressions that dynamically route the customer down different conversation paths.
 
-Virtual Agent supports four types of variables:
+Dynamics 365 Virtual Agent for Customer Service supports four types of variables:
 
-* String -- A string of text that the customer enters.
-* Age -- A positive number within the range of standard age.
-* Currency -- A numeric currency value.
-* Number -- A single positive or negative integer.
+* String – A string of text that the customer enters.
+* Age – A positive number within the range of standard age.
+* Currency – A numeric currency value.
+* Number – A single positive or negative integer.
 
 ## To create a variable
 
-1. In the bot conversation editor, select **Add Variable** at the bottom of the **User responses** node where you want to add the variable.
+1. In the bot conversation editor, select **Add Variable** at the bottom of the **User Responses** node where you want to add the variable.
 
    ![Add variable](media/add-variable.png)
 
-2. In the Properties pane, select **Create variable**.
+2. In the **Properties** pane, select **Create variable**.
 
    ![Create variable](media/create-new-variable.png)
 
