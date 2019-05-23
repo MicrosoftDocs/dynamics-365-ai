@@ -1,7 +1,7 @@
 ---
 title: "Deploying your bot"
 description: "Learn how to deploy your Virtual Agent bot."
-ms.date: 05/16/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -17,7 +17,7 @@ manager: shellyha
 Once you have finished designing you virtual agent, you can deploy it to a demo environment on the web or to your live website.
 
 > [!NOTE]
-> Newly deployed bot content won't be available immediately to end users until they restart the conversation. For example, by refreshing the browser window.
+> Newly deployed bot content won't be available immediately to end users until they restart the conversation, by refreshing the browser window, for example.
 
 ## To deploy your bot to a demo environment
 
@@ -25,7 +25,7 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
    ![Open Deploy page](media/open-deploy.png)
 
-2. Select **Demo website** on the Deploy page. The demo website provides a sandbox environment for your team to test the bot and give you feedback.
+2. Select **Demo website** on the Deploy page. The demo website provides a sandbox environment for your team that lets them test the bot and give you feedback.
 
    ![Select demo website](media/deploy-website.png)
 
@@ -33,7 +33,7 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
    ![Deploy bot](media/publish-bot.png)
 
-## To share your bot in the demo website
+## To share your bot on the demo website
 
 1. When you deploy your bot, Virtual Agent adds a **Share your bot** section to the Deploy page that includes the URL for the bot's demo website. Select **Copy** to copy the URL.
 
@@ -41,7 +41,7 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
     Users can open the demo website and test the bot by pasting the URL into their browser.
 
-2. Test the bot in the demo website. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
+2. Test the bot on the demo website. Enter a trigger phrase at the **Type your message** prompt, and then follow the conversation path.
 
    ![Test bot](media/demo-website.png)
 
