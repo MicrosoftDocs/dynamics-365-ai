@@ -48,13 +48,17 @@ By default, your bot will be created in the default PowerApps environment that w
     ![New topic](media/create-new-topic.png)
 
 3. You can now name your topic and include some trigger phrases for this topic. Trigger phrases are examples of the type of user questions or utterances that help teach the bot when to respond with this dialog. As an example, let’s create a Topic called “Personal Hello World” and add “hello world” as a trigger phrase.  Select **Save topic** and then select **Edit** to proceed.
+    ![Create topic and trigger phrase](media/quickstart-create-topic-00.png)
 
 4. After saving your topic, you will land in the conversation editor – this is the graphical dialog tree editor that allows you to define the bot responses and overall conversation flow.
 Start by entering “Hello! I’ll create a personalized greeting for you.” into the first Bot Says node. Then, add another Bot Says node by selecting it in the menu below the first Bot Says node.
+    ![Add node](media/quickstart-create-topic-01.png)
 
 5. In the second Bot Says node, enter “Where do you live?” and select **User Says** from the menu below the second Bot Says node. Select **+ Add user response**. 
+    ![Bot answer](media/quickstart-create-topic-02.png)
 
 6. For the two “User Says” responses, enter “Seattle” and “Bellevue” in the User Responses node. Now, enter “Hello Seattle!” in the Seattle branch on the left, and “Hello Bellevue!” in the Bellevue branch on the right. Select **Save** in the upper right-hand corner.
+    ![Complete conversation](media/quickstart-create-topic-03.png)
 
 You now have a very simple, branching dialog tree – congratulations!  Of course, you can begin to create more complex versions of this tree by incorporating variables, expressions, and Microsoft Flow.
 
