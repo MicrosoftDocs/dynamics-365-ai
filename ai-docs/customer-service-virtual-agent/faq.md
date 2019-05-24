@@ -233,51 +233,52 @@ If the modern SharePoint site allows embedding an iframe, it should be able to e
 
 ## Analytics 
 
-### What is the difference between conversation and session? How do sessions work? 
+### What is the difference between a conversation and a session? How do sessions work? 
 
-A conversation is the entire interaction between the bot and a user, starting from the user’s first message to when the chat window is closed or inactive for about an hour. Within a conversation, the user may have more than one query. 
-A session is intended to capture just one query or problem within a conversation. So, a conversation can have multiple sessions. A session starts with the user’s initial query and ends when the user indicates the problem is solved (confirmed success topic) or the session is escalated (escalation topic).
+A conversation is the entire interaction between the bot and a user, starting from the user’s first message to when the chat window is closed or inactive for about an hour. Within a conversation, the user might have more than one query. 
+A session is intended to capture just one query or problem within a conversation. So, a conversation can have multiple sessions. A session starts with the user’s initial query and ends when the user indicates the problem is solved ("confirmed success" topic) or the session is escalated ("escalation" topic).
 
 ## Authoring
 
 ### How do I access the conversation designer?
 
-You can access the conversation designer (the visual dialogue tree editor) by selecting **Edit** on a topic. Either by hovering over a topic name and selecting on the pencil icon, or selecting the **Edit** button from the Topic details page.
+You can access the conversation designer (the visual dialogue tree editor) by selecting **Edit** on a topic. You can either hover over a topic name and select the pencil icon or select the **Edit** button from the **Topic details** page.
  
-### How do I use variables to save end-user responses for use later?
+### How do I use variables to save end-user responses for later use?
 
-In the conversation designer, select **User says** and then select **+ Add variable**. This opens the Properties where you can select **Create variable**. Name your variable and select from the different variable types. Now you will be able to refer to previous user utterances using this variable.
+In the conversation designer, select **User says**, and then select **Add variable**. This opens **Properties**, where you can select **Create variable**. Name your variable, and select from the different variable types. Now you will be able to refer to previous user utterances using this variable.
     
-### Which variable types do you support?  Will you add more types later?
+### Which variable types do you support? Will you add more types later?
 
-We currently support four variable types: Text, Age, Number, and Currency. The different types help our Natural Language understanding model interpret user responses in different ways. For example, if you create a variable called “MyAge”, the bot would be able to understand that “18 years old” is MyAge = 18. Similarly, if you created a variable called “BankBalance” and set it to a Currency type, it could understand responses such as USD 300 or $300.00 as both equal to 300.
-We have plans to expand the types of variables supported in the coming months, and will also add support for custom defined variable types.
+We currently support four variable types: Text, Age, Number, and Currency. The different types help our natural language understanding model interpret user responses in different ways. For example, if you create a variable called “MyAge”, the bot would be able to understand that “18 years old” is **MyAge = 18**. Similarly, if you created a variable called “BankBalance” and set it to a Currency type, it could understand responses such as **USD 300** or **$300.00** as both equal to 300.
+We have plans to expand the types of variables supported in the coming months, and will also add support for custom-defined variable types.
 
 ### Can I change or rename variables after I’ve created them?
 
-Yes, you can change your variable type or rename your variable after you’ve created them. Select the variable and edit the properties. Select **Done** to complete the changes.
-If you change the variable type, expressions that rely on that variable may become invalid as the operator may no longer be relevant.  For example, if you change a number variable to a text variable but use the expression “FormerNumberVariable is greater than 10”, that expression no longer works when the variable type has been changed.
+Yes, you can change your variable types or rename your variables after you’ve created them. Select the variable and edit the properties. Select **Done** to complete the changes.
+If you change the variable type, expressions that rely on that variable might become invalid because the operator might no longer be relevant.  For example, if you change a number variable to a text variable but use the expression “FormerNumberVariable is greater than 10”, that expression no longer works when the variable type has been changed.
 
 ### Do I need to delete orphaned nodes?
 
-You may end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top right portion of the authoring canvas. You don't need to delete these orphaned nodes – your dialogue tree will ignore these nodes as they are inaccessible from the main part of your dialogue tree.
+You might end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top-right portion of the authoring canvas. You don't need to delete these orphaned nodes—your dialogue tree will ignore these nodes because they are inaccessible from the main part of your dialogue tree.
 You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialogue tree.
 
-### I can’t access greater than, less than comparisons in my Expression node – I can only see “is equal to”. Why is this and how to I do other operations? 
+### I can’t access greater than/less than comparisons in my Expression node—I can only see “is equal to”. Why is this, and how do I do other operations? 
 
-The types of operations available to you in your Expression node vary depending on the type of variable used within that Expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You may find that if you change the variable type, certain expressions that you have authored will no longer be valid particularly if changing between Text and Age/Number/Currency types – so when this happens, you will need to modify your Expression nodes for your dialogue to work properly.
 
-### How do I create Fallback routes?
-You can create fallback routes to cover scenarios where you want the bot to respond to something outside of the listed branches of your tree. For example, if the dialog asks the user to name a city and you have a answers prepared when the user's answer is Seattle or Bellevue, but the user can specify other city names. 
+The types of operations available to you in your Expression node vary depending on the type of variable used within that expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You might find that if you change the variable type, certain expressions that you have authored will no longer be valid, particularly if you are changing between Text and Age/Number/Currency types—so when this happens, you need to modify your Expression nodes for your dialogue to work properly.
 
-You may want to author another branch of the tree that covers any response outside of “Seattle” or “Bellevue”. You can do this by hovering over the lines between the “User Responses” node and the “User Says” nodes. Select the Plus icon and then select **Fallback**.  This adds a branch to the tree that enables you to author content for any response that is not in your two main branches.
+### How do I create fallback routes?
+You can create fallback routes to cover scenarios where you want the bot to respond to something outside of the listed branches of your tree. An example would be if the dialogue asks the user to name a city, and you have answers prepared for when the user's answer is Seattle or Bellevue, but the user specifies another city name. 
+
+You might want to author another branch of the tree that covers any response outside of “Seattle” or “Bellevue”. You can do this by hovering over the lines between the “User Responses” node and the “User Says” nodes. Select the plus icon, and then select **Fallback**.  This adds a branch to the tree that enables you to author content for any response that is not in your two main branches.
 
 ![Fallback option](media/fallback-option.png)
 
 ## Can I create routing branches without showing suggestion buttons?
 
-Yes, it is possible to hide suggestion buttons. You can do this by selecting the trash can icon next to the suggestion button in the “User Responses” node.  This retains the routes below, but those routes would only be accessible if the user typed in the response directly to the bot.
+Yes, it is possible to hide suggestion buttons. You can do this by selecting the trash can icon next to the suggestion button in the “User Responses” node. This retains the routes below, but those routes would only be accessible if the user typed in the response directly to the bot.
 
-In the example below, suppose you want to display the “Seattle” and “Bellevue” suggestions but create a hidden “Redmond” route.  The bot can still route correctly to the Redmond branch if the user types Redmond into the bot window, but Redmond would not be shown as a button.
+In the following example, suppose you want to display the “Seattle” and “Bellevue” suggestions, but you create a hidden “Redmond” route.  The bot can still route correctly to the Redmond branch if the user types Redmond into the bot window, but Redmond would not be shown as a button.
 
 ![Hidden route](media/hidden-route.png)
