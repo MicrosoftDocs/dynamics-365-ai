@@ -20,7 +20,7 @@ You can display [Summary](analytics-summary.md) and [Customer satisfaction](anal
 
 ![Page navigation](media/dashboard-tabs.png)
 
-You can display the [Topic details](analytics-topic-details.md) page by selecting the **Detail** link for a topic in any of the charts on the **Summary** or **Customer satisfaction** page.
+You can display the [Topic details](analytics-topic-details.md) page by selecting the **Detail** link for a topic in any of the charts on the Summary or Customer Satisfaction page.
 
 ![Topic details link](media/topic-details-link.png)
 
