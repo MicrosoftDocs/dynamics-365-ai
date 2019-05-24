@@ -21,7 +21,7 @@ You can display the topic details page by selecting the **Detail** link in one o
 * [Escalation rate drivers (Summary page)](analytics-summary.md#escalation-rate-drivers-chart)
 * [Abandon rate drivers (Summary page)](analytics-summary.md#abandon-rate-drivers-chart)
 * [Resolution rate drivers (Summary page)](analytics-summary.md#resolution-rate-drivers-chart)
-* [Customer satisfaction drivers chart (Customer Satisfaction page)](analytics-CSAT.md#customer-satisfaction-drivers-chart)
+* [Customer satisfaction drivers (Customer Satisfaction page)](analytics-CSAT.md#customer-satisfaction-drivers-chart)
 
 ![Topic details link](media/topic-details-link.png)
 
