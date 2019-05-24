@@ -36,7 +36,7 @@ By default, your bot will be created in the default PowerApps environment that w
 
 ## Creating a custom Topic
 
-1.	Now that you have full functionality within your bot, you can create your own custom topic – or in other words, a dialogue tree specifying how your bot responds to a user’s question. Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
+1.	Now that you have full functionality within your bot, you can create your own custom topic – or in other words, a dialogue tree specifying how your bot responds to a user’s question.
 
 2.	Start by selecting **Topics** in the left-hand navigation panel, then select **+ New topic** at the top of the page.
     ![New topic](media/create-new-topic.png)
