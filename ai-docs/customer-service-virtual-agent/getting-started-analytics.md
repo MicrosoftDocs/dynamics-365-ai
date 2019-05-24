@@ -16,6 +16,9 @@ manager: shellyha
 
 As you create and deploy your bot, you can use analytics to see how your bot is performing. Dynamics 365 Virtual Agent for Customer Service includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
+
+<!--note from editor: MWSG says "Don't use navigation pane unless the term appears in the UI. Use left pane instead if you can.". Based on this, if the term "navigation pane" does not appear in the UI, I suggest changing mention of "navigation pane" to "left pane" in this topic and others. -->
+
 To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page.
 
 ![Open Analytics page](media/open-analytics.png)
