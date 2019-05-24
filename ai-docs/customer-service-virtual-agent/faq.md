@@ -90,6 +90,10 @@ Your environment might not show up in the drop down due to the following reasons
  - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) and create a database in your environment.
  - The environment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) and create an environment in the US region.
  - The environment didn't finish setting up. To resolve this, retry in a few minutes
+ 
+### Why am I getting emails about expiration of my environment?
+
+If you have created your own environment and selected type **Trial** you will be receiving emails about expiring environments as they are valid for 30 days. Once your trial environment expires, all the data and bots in the environment will get deleted. To avoid deletion of your data and loss of access to the apps, flows and resources you have been using convert it to a [production environment](https://go.microsoft.com/fwlink/?linkid=2048531)
 
 ## Topic creation and management  
 
