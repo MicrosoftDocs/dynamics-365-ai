@@ -38,44 +38,44 @@ See [Creating a bot](getting-started-create-bot.md) if you have any issues while
 
 ## General 
 
-### What are the various browsers supported by the Virtual Agent?
+### What are the various browsers supported by Virtual Agent?
 
-Virtual Agent is supported in the latest versions of Edge, Chrome, and Fire Fox. It is not supported in Internet Explorer.
+Virtual Agent is supported in the latest versions of Microsoft Edge, Chrome, and Firefox. It is not supported in Internet Explorer.
  
 ### Can Virtual Agent be styled and branded for an organization? What can be customized and how?
 
-Currently we don't have any styling or brand customization (e.g. changing the default image) for the bot. But this is on the roadmap for a future release.
+Currently we don't have any styling or brand customization for the bot (for example, changing the default image). But this is on the roadmap for a future release.
 
 ### Can multiple team members collaborate on a single bot instance?
 
-We don’t have multi author support currently. It is one bot per author. However, we have this feature on the roadmap for future releases. The current mitigation is to create a service account and share it across the content authors.
+We don’t have multi-author support currently. For now, it is one bot per author. However, we have this feature on the roadmap for future releases. The current mitigation is to create a service account and share it across content authors.
 
 ### Can I sign in using my personal Microsoft account?
 
-No, you can currently only sign in using your work or school Microsoft account.
+No, you can currently sign in only by using your work or school Microsoft account.
 
-### Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable, is that by design?
+### Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable. Is that by design?
 
 Yes, Virtual Agent currently doesn't allow storing the user utterance that triggered the topic as a variable. This feature is on the roadmap for a future release.
 
 ### How do I configure my bot to escalate to a human agent? 
 
-Update the “Escalate” system topic and update the “Bot says” node to include the link to your support page. Here’s a [step-by-step document](how-to-handoff.md) explaining the steps you should take. 
+Update the Escalate system topic, and update the “Bot says” node to include the link to your support page. Here’s a [step-by-step document](how-to-handoff.md) explaining the steps you should take. 
 
 ### I ran into a problem. What should I do to file a bug? How quickly will you get back to me? 
 
-You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hrs.
+You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hours.
 
 ### I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?
 
-That's great, we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
+That's great—we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 
 ## Bot creation and environments
 
-### The creation of my bot takes long time. Is that expected?
+### The creation of my bot takes a long time. Is that expected?
 
-Currently, it can take up to 15 minutes to create the first bot within a tenant. While the bot is being created you can explore the portal. Note that any changes won't get saved until the bot is fully created.
+Currently, it can take up to 15 minutes to create the first bot within a tenant. While the bot is being created, you can explore the portal. Note that any changes won't get saved until the bot is fully created.
 
 ### Why do I get an error that I do not have permissions to any environments?
 
@@ -86,64 +86,66 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 This might be an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the link to [create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
 
-### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent, why?
+### The PowerApps environment I created does not show up in the drop-down menu of Virtual Agent. Why?
 
-Your environment might not show up in the drop down due to the following reasons:
- - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) and create a database in your environment.
- - The environment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) and create an environment in the US region.
+Your environment might not show up in the drop-down menu due to the following reasons:
+ - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com), and create a database in your environment.
+ - The environment's region is set to something other than "United States." To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md), and create an environment in the United States region.
  - The environment didn't finish setting up. To resolve this, retry in a few minutes
 
 ## Topic creation and management  
 
 ### What is a topic? 
 
-A bot is a collection of topics. You can author topics by customizing a provided templates or creating new topics from scratch.  
+<!--note from editor: This doesn't really answer the question of a what a topic is.   -->
+
+A bot is a collection of topics. You can author topics by customizing provided templates or creating new topics from scratch.  
 
 ### What is the difference between a system topic and a provided template user topic? 
 
 A system topic is linked to predefined features like a customer survey, escalation to a live agent, or the bot greeting. Some areas of the system topics can be modified. User topics can be modified or deleted. They are for your customization to fulfill the needs of your Virtual Agent bot. 
 
-### How do I create my own custom Topic?  
+### How do I create my own custom topic?  
 
-You can find all details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md)
+You can find details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md).
 
-### How do I delete Topics? 
+### How do I delete topics? 
 
-You can delete User Topics by hovering over the topic name and then clicking on the Trash Can icon.  Note that only User Topics can be deleted. System Topics are required for the bot to function and can be edited, but not deleted.
+You can delete user topics by hovering over the topic name and then selecting the trash can icon. Note that only user topics can be deleted. System topics are required for the bot to function and can be edited, but not deleted.
 
 ### How can I test topics that I've customized or created from scratch to make sure they are working properly?
 
-Virtual Agent lets you test your bot and see how the conversation you designed in the conversation editor works in practice. 
-You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the Test bot. Select any chat bubble to navigate to that point in the conversation. 
+Virtual Agent lets you test your bot so that you can see how the conversation you designed in the conversation editor works in practice. 
+You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the test bot. Select any chat bubble to navigate to that point in the conversation. 
 
 ### When I test the bot, it doesn't seem to reflect my edits. What's happening? 
 
-You need to make sure to save the topic you're editing and then select the "Start over with latest content" button in the Test bot to ensure the latest content gets updated in the chat canvas. 
+You need to make sure to save the topic you're editing, and then select the **Start over with latest content** button in the test bot. This ensures that the latest content gets updated in the chat canvas. 
 
 ### What is the green outline that appears while I'm testing my topic? 
 
-The green outline appears around each node that is successfully tested while using the Test bot. Nodes that fail will be outlined in red. 
+The green outline appears around each node that is successfully tested while you are using the test bot. Nodes that fail are outlined in red. 
 
-### What is the “Follow” control in the Test bot? 
+### What is the “Follow” control in the test bot? 
 
-Turn on Follow to jump between topics while testing your bot. The conversation on the right will update simultaneously. Click on any chat bubble to navigate to that point in the conversation. 
+Turn on **Follow** to jump between topics while testing your bot. The conversation on the right will update simultaneously. Select any chat bubble to navigate to that point in the conversation. 
 
 ### What is Topic Checker? 
 
-Topic Checker is where you can see a comprehensive list of all errors and warnings in your topic.  Errors and Warnings can be saved with a topic and cleared upon subsequent visits. Errors should be cleared up before deploying your bot to production. Warnings are skipped by the bot. 
+Topic Checker lets you see a comprehensive list of all errors and warnings in your topic. Errors and warnings can be saved with a topic and cleared upon subsequent visits. Errors should be cleared up before deploying your bot to production. Warnings are skipped by the bot. 
 
 ### Is it possible to link multiple topics?
-You can link a different topic within a topic by using the **Go To** option which appears while adding a new node in the dialog flow of a topic.
+You can link a different topic within a topic by using the **Go To** option, which appears when you add a new node in the dialogue flow of a topic.
 
-### Is it possible to launch the bot to address a specific topic from a link on the page? The scenario we have in mind is a list of links/actions on the page and a couple of them will launch a topic on the bot.
+### Is it possible to launch the bot to address a specific topic from a link on the page? The scenario we have in mind is a list of links/actions on the page, and a couple of them will launch a topic on the bot.
 
-Currently we don't support context passing in the bot, so you will not be able to launch the bot or trigger a specific topic based on a link or action on the web page. 
-Some inofficial workarounds you may want to consider: deploy the Bot on a custom page, and launch that page as an iframe or pop-up from the parent web page, when the link or action is launched.
-For triggering specific topics you could have multiple bots, and have the Topic content added as part of the Greeting, which always appears when starting a conversation. The downside is that it will be cumbersome to maintain multiple bots for different sets of links/actions.
+Currently we don't support context passing in the bot, so you will not be able to launch the bot or trigger a specific topic based on a link or action on the webpage. 
+Some unofficial workarounds you might want to consider: deploy the bot on a custom page, and launch that page as an iframe or pop-up from the parent webpage, when the link or action is launched.
+For triggering specific topics, you could have multiple bots, and have the Topic content added as part of the Greeting, which always appears when starting a conversation. The downside is that it will be cumbersome to maintain multiple bots for different sets of links/actions.
 
 ### What’s a variable and how do I use it? 
 
-Variables store customer responses to Bot questions.  Variables can further be used in expressions evaluating a customer response or passed to a Flow.  Variables can also be used to confirm a customer response. 
+Variables store customer responses to bot questions. Variables can be used in expressions evaluating a customer response or passed to a flow. Variables can also be used to confirm a customer response. 
 
 ## Flow integration 
 
@@ -151,9 +153,9 @@ Variables store customer responses to Bot questions.  Variables can further be u
 
 A: Here is a [video on how to create a Microsoft Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from Virtual Agent.
 
-### What license do I need to use Microsoft Flows in Virtual Agent?
+### What license do I need to use Microsoft Flow in Virtual Agent?
 
-Every bot author will be automatically licensed to use Microsoft Flows. No extra steps are needed, as bot authors will be assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/pricing/).
+Every bot author is automatically licensed to use Microsoft Flow. No extra steps are needed. Bot authors are assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/pricing/).
 
 ### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
 
