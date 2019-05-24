@@ -16,7 +16,7 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The first step in responding to a Data Subject Request (DSR) is finding personal data that is the subject of the request. This first step helps you to determine whether a DSR meets your organization's requirements for honoring or declining a DSR request. For example, after finding and reviewing the personal data at issue, you may determine the request doesn’t meet your organization’s requirements because doing so may adversely affect the rights and freedoms of others.
+The first step in responding to a data subject rights request is to search for and identify the customer data that is the subject of the request.  Microsoft provides capabilities that assist you in responding to data subject rights requests, and thereby accessing customer data. However, it is your responsibility to ensure that personal data is located and classified appropriately.
 
 Below is a summary of the types of Virtual Agent for Customer Service resources that contain personal data for a specific user.
 

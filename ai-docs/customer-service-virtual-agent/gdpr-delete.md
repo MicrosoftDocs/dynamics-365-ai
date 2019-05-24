@@ -16,8 +16,6 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The “right to erasure” by the removal of personal data from an organization’s customer data is a key protection in the General Data Protection Regulation (GDPR). Removing personal data includes removing all personal data and system-generated logs except audit log information.
-
 Dynamics 365 Virtual Agent for Customer Service offers the following experiences to delete personal data for a specific user:
 
 * [Bot chat logs](#bot-chat-logs)
@@ -60,3 +58,7 @@ To delete metrics data, you must delete your bot. See [steps to delete your bot]
 ### System telemetry
 
 All bot system telemetry is automatically deleted within 29 days. No action from user is needed.
+
+
+> [!NOTE]
+> Removing personal data includes removing all personal data and system-generated logs except audit log information.
