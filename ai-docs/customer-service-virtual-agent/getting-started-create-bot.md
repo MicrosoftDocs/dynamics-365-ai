@@ -37,7 +37,7 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
    By default, your virtual agent will be created in the default PowerApps environment that was created for you in the prior step.  For most users, this is sufficient – however if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
 
    >[!NOTE]
-   >Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+   >Preview is currently only supported in the US, with data stored in US data centers.  If your company is located outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
   
 
     
