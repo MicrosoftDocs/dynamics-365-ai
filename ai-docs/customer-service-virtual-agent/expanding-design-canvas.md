@@ -39,9 +39,9 @@ To hide the navigation pane, select the navigation pane icon in the upper-left c
 
 ![Hide navigation pane](media/expand-canvas-nav.png)
 
-After you hide the Test bot and navigation panes, the conversation editor design canvas uses the full Virtual Agent screen.
+After you hide the test bot and navigation panes, the conversation editor design canvas uses the full Virtual Agent screen.
 
-To restore the Test bot pane, select **Show bot** or the Show bot icon. To restore the navigation pane, select the navigation pane icon again.
+To restore the test bot pane, select **Show bot** or the Show bot icon. To restore the navigation pane, select the navigation pane icon again.
 
 ## Adjust the position of the conversation path
 
@@ -59,7 +59,7 @@ Select the **Zoom in** button to zoom in for a closer view of part of your conve
 
 ![Zoom in button](media/zoom-in.png)
 
-Select the **Zoom out** button to zoom out for a big picture view of your conversation path.
+Select the **Zoom out** button to zoom out for a big-picture view of your conversation path.
 
 ![Zoom out button](media/zoom-out.png)
 
