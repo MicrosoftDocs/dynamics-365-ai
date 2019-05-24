@@ -26,7 +26,7 @@ This guide will take you through the end-to-end experience of creating a bot for
 2. Next, you’ll choose a name for your bot. This can be something generic to your company or specific to the scenario you would like to tailor your bot towards.
 By default, your bot will be created in the default PowerApps environment that was created for you when signing up. For most users, this is sufficient. However, if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the “More options” menu and selecting a different environment.
    > [!NOTE] 
-   > Preview is currently only supported in the US, with data stored in US data centers.  If your company is domiciled outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see Creating a PowerApps environment.
+   > Preview is currently only supported in the US, with data stored in US data centers.  If your company is located outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see Creating a PowerApps environment.
 
 3.	Once you select **Create**, the next process can take up to 15 minutes for the first bot to be created within a new environment.  
 
