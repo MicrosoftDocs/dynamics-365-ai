@@ -1,7 +1,7 @@
 ---
 title: "Responding to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Delete Requests for Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 05/17/2019
+ms.date: 05/24/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -33,11 +33,11 @@ Bot chat logs are deleted when the bot is deleted.
 Follow these steps to delete a bot:
 
 1. Open Virtual Agent in your browser.
-2. On the Settings menu, select **General settings** to display the General tab of the Settings screen.
+2. On the **Settings** menu, select **General settings** to display the **General** tab of the **Settings** screen.
 
    ![General settings](media/general-settings.png)
 
-3. In the Delete bot section, select **Delete bot**.
+3. In the **Delete bot** section, select **Delete bot**.
 
    ![Delete bot](media/delete-bot.PNG)
 
@@ -45,11 +45,11 @@ All bot content is immediately deleted.
 
 ### Bot chat logs
 
-All bot chat logs are deleted when bot is deleted. See [steps to delete bot](#virtual-agent-bot-content) for more information.
+All bot chat logs are deleted when the bot is deleted. See [steps to delete bot](#virtual-agent-bot-content) for more information.
 
 ### Virtual agent telemetry
 
-All virtual agent telemetry data is automatically deleted within 29 days. No action from user is needed.
+All virtual agent telemetry data is automatically deleted within 29 days. No action from the user is needed.
 
 ### Metrics
 
@@ -57,4 +57,4 @@ To delete metrics data, you must delete your bot. See [steps to delete your bot]
 
 ### System telemetry
 
-All bot system telemetry is automatically deleted within 29 days. No action from user is needed.
+All bot system telemetry is automatically deleted within 29 days. No action from the user is needed.
