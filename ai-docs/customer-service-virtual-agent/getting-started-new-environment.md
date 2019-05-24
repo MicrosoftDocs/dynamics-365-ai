@@ -50,4 +50,5 @@ Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331),
 
 5. You will know that the environment is ready when you see an id string in parenthesis after the environment name. It might take up to 5 minutes before you are ready to use the environment when [creating a new bot](getting-started-create-bot.md).
 
+    ![Environement is ready when string id is appended](media/environment-ready.png)
 
