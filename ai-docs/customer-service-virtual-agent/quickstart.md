@@ -28,7 +28,7 @@ By default, your bot will be created in the default PowerApps environment that w
    > [!NOTE] 
    > Preview is currently only supported in the US, with data stored in US data centers.  If your company is located outside of the US, you will need to create a custom environment with Region set to “United States” before you can create your virtual agent.  For more information on how to create a custom PowerApps environment, see Creating a PowerApps environment.
 
-3.	Once you select **Create**, the next process can take up to 15 minutes for the first bot to be created within a new environment.  
+3.	Once you select **Create**, the process can take up to 15 minutes for the first bot to be created within a new environment.  
 
 4. After a few minutes, you’ll land on the Home page and have an opportunity to play around with the bot in “read-only” mode.  While you can't save any edits during this time, you can explore the overall user interface, look at the topics, experiment with the pre-loaded User Topics and System Topics, and interact with your bot using the Test Canvas.  During this time, you can also watch product videos to learn how to complete tasks such as creating a branching dialogue tree using variables and expressions, or creating a Flow and embedding Flows within your dialogue tree.
 
