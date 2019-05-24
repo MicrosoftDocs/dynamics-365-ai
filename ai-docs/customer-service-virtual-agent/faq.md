@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 05/21/2019
+ms.date: 05/24/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,15 +16,17 @@ manager: shellyha
 
 ## Known issues
 
-### Customers from outside of the US signing up for Virtual Agent
+### Customers from outside of the United States signing up for Virtual Agent
 
-Preview is currently only supported in the US, with data stored in US data centers. If your company is located outside of the US, you will need to create a custom environment with region set to “United States” before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+Preview is currently only supported in the United States, with data stored in US data centers. If your company is located outside of the United States, you need to create a custom environment with the region set to “United States” before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
-### Issues with Flow solutions tab
+### Issues with Microsoft Flow solutions tab
 
 If you are a new customer to Microsoft and you visit flow.microsoft.com shortly after you have created your first bot, you might encounter two issues:
-1. Missing "Solutions" tab on the left rail of flow.microsoft.com. The "Solutions" tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
-2. Within the "Solutions" tab when you choose Common Data Services Default Solution you might get a permission error. Please note that you can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
+- Missing **Solutions** tab on the left rail of flow.microsoft.com. The **Solutions** tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
+- Within the **Solutions** tab, when you choose Common Data Services Default Solution, you might get a permission error. You can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
+
+<!--note from editor: In list item above (also in how-to-flow.md), the term "Common Data Services" is used. Per MWSG, there is no "s"--it is just "Common Data Service".--> 
 
 ### Issues with environment permissions when creating a bot
 
