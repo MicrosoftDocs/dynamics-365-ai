@@ -1,7 +1,7 @@
 ---
 title: "Working with the conversation editor design canvas"
 description: "Learn how to work with the conversation editor design canvas."
-ms.date: 05/16/2019
+ms.date: 05/24/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,26 +16,26 @@ manager: shellyha
 
 As you design the conversation path for your bot in the conversation editor, you often create a conversation path with multiple nodes and branches based on a customer's response to the options you specify. As the conversation path becomes more complex, it can become challenging to view and work with it in the conversation editor design canvas.
 
-To help you work with a complex conversation path, Virtual Agent provides a variety of tools to expand the size of the design canvas, adjust the position of the conversation path, zoom in and out of the canvas, and orient the current view of the conversation path. You can:
+To help you work with a complex conversation path, Dynamics 365 Virtual Agent for Customer Service provides a variety of tools to expand the size of the design canvas, adjust the position of the conversation path, zoom in and out of the canvas, and orient the current view of the conversation path. You can:
 
-* [Expand the size of the design canvas](#expand-the-size-of-the-design-canvas) by hiding the Test bot and navigation pane.
+* [Expand the size of the design canvas](#expand-the-size-of-the-design-canvas) by hiding the test bot and navigation pane.
 * [Adjust the position of the conversation path](#adjust-the-position-of-the-conversation-path) in the design canvas by using the horizontal scroll bar.
 * [Zoom in and out of the design canvas](#zoom-in-and-out-of-the-design-canvas) by using the conversation editor's **Zoom in** and **Zoom out** buttons.
 * [Orient the current view of the conversation path](#orient-the-current-view-of-the-conversation-path) within the conversation path as a whole by using the conversation editor's **Mini-map** button.
 
 ## Expand the size of the design canvas
 
-When you open a topic in the conversation editor, Virtual Agent by default displays the Test bot and navigation panes along with the conversation editor design canvas.
+When you open a topic in the conversation editor, Virtual Agent by default displays the test bot and navigation panes along with the conversation editor design canvas.
 
 ![Conversation editor default](media/conversation-editor-default.png)
 
-To expand the size of the conversation editor design canvas, you can hide the Test bot and navigation panes.
+To expand the size of the conversation editor design canvas, you can hide the test bot and navigation panes.
 
-To hide the Test bot pane, select **Hide bot** in the lower left corner of Virtual Agent.
+To hide the test bot pane, select **Hide bot** in the lower-left corner of Virtual Agent.
 
 ![Hide Test bot](media/hide-test-va.png)
 
-To hide the navigation pane, select the navigation pane icon in the upper left corner of Virtual Agent.
+To hide the navigation pane, select the navigation pane icon in the upper-left corner of Virtual Agent.
 
 ![Hide navigation pane](media/expand-canvas-nav.png)
 
