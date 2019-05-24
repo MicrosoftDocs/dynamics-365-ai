@@ -274,6 +274,8 @@ If you change the variable type, expressions that rely on that variable may beco
 You may end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top right portion of the conversation designer. You don't need to delete these orphaned nodes – your dialog tree will ignore these nodes as they are inaccessible from the main part of your dialog tree.
 You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialog tree.
 
+![Orpahned nodes in the conversation designer](media/orphaned-nodes.png)
+
 ### I can’t access greater than, less than comparisons in my Expression node – I can only see “is equal to”. Why is this and how to I do other operations? 
 
 The types of operations available to you in your Expression node vary depending on the type of variable used within that Expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You may find that if you change the variable type, certain expressions that you have authored will no longer be valid particularly if changing between Text and Age/Number/Currency types – so when this happens, you will need to modify your Expression nodes for your dialog to work properly.
