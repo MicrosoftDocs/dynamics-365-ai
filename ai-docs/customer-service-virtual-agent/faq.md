@@ -160,41 +160,41 @@ Every bot author is automatically licensed to use Microsoft Flow. No extra steps
 ### I created some new flows for actions using Microsoft Flow, but they are not visible in Virtual Agent. Why?
 
 - The environment you are using to create your flows must be the same as the environment you are using for the bot.   
-- Make sure to [create your Flows in Solutions](https://docs.microsoft.com/flow/overview-solution-flows), as the bot can't see the Flows created in My Flows tab. 
-- Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, how it is by default):
+- Make sure to [create your flows in Solutions](https://docs.microsoft.com/flow/overview-solution-flows). The bot can't see the flows created in the **My Flows** tab. 
+- Bots can only invoke flows that have HTTP Request interfaces, so you need to select the right trigger for your flow. Select **When Http Request is received** from the trigger list in Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, which is how it is by default):
 ![POST method in HTTP Request](media/flow-http-post-method.png)
 
 View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
-### I created a flow with HTTP Request trigger, and it's visible in my bot, but when I test my Topic, it fails. Why?
+### I created a flow with an HTTP Request trigger, and it's visible in my bot, but when I test my topic, it fails. Why?
 
-Please make sure this Flow is turned on (enabled) on the Flow portal. Flows which are turned off (disabled) on Flow portal are visible when editing a bot and can be incorporated into actions. However, they will fail at runtime until they are turned on in the Flow portal.
+Make sure the flow is turned on (enabled) on the Microsoft Flow portal. Flows that are turned off (disabled) on the Microsoft Flow portal are visible when editing a bot and can be incorporated into actions. However, they will fail at run time until they are turned on in the Microsoft Flow portal.
 
-### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Flow action?
+### What are the response formats that the Virtual Agent accepts, especially in the message response provided by the Microsoft Flow action?
 
-The Virtual Agent designer accepts only JSON object format in the message response. The JSON object can contain strings and numbers only. In the coming months, we will release a custom Flow connector that will make it easier to create Flows using key/value pairs rather than requiring to use JSON format.  We do not support arrays as Flow output for Bots yet, but this feature is on the roadmap. 
+The Virtual Agent designer accepts only JSON object format in the message response. The JSON object can contain strings and numbers only. In the coming months, we will release a custom Microsoft Flow connector that will make it easier to create flows using key/value pairs rather than requiring the use of JSON format. We do not support arrays as flow output for bots yet, but this feature is on the roadmap. 
 
-### Can we call a third-party API from a Flow?
+### Can we call a third-party API from a flow?
 
-Yes, an existing API or another application can be called from a Flow and the results can be passed back to the Virtual Agent as Flow output. Microsoft Flow provides hundreds of Connectors to enable you to connect to apps, data and devices in the cloud. 
+Yes, an existing API or another application can be called from a flow, and the results can be passed back to the Virtual Agent as flow output. Microsoft Flow provides hundreds of connectors to enable you to connect to apps, data, and devices in the cloud. 
 
-Examples of popular connectors include Microsoft Common Data Service (CDS), Dynamics 365, Salesforce, Zendesk, ServiceNow, Office 365, Microsoft Teams, Slack, Facebook, Twitter, Dropbox, MailChimp, Google services, and many more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/connectors/) to see the full list of available Flow Connectors.
+Examples of popular connectors include Microsoft Common Data Service (CDS), Dynamics 365, Salesforce, Zendesk, ServiceNow, Office 365, Microsoft Teams, Slack, Facebook, Twitter, Dropbox, Mailchimp, Google services, and many more. Please refer to [Microsoft Flow Connector documentation](https://docs.microsoft.com/connectors/) to see the full list of available Microsoft Flow connectors.
 
-If there is no suitable Connector that you can use out of the box in Flow, you can use an HTTP call inside a Flow to connect to a custom 3rd-party API, like in the example below:
+If there is no suitable connector that you can use out of the box in Microsoft Flow, you can use an HTTP call inside a flow to connect to a custom third-party API, like in the following example:
 ![Connect to 3rd party API](media/connect-API-flow.png)
 
 
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
-This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a Flow. If this feature is critical to your business, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
+This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a flow. If this feature is critical to your business, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 
 ### How do I work with my data in Microsoft Flow?
-Microsoft Flow provides [hundreds of data Connectors](https://docs.microsoft.com/connectors/) and offers many ways to manipulate you data. Please refer to the following Microsoft Flow documentation on more information on how to:
+Microsoft Flow provides [hundreds of data connectors](https://docs.microsoft.com/connectors/) and offers many ways to manipulate your data. Refer to the following Microsoft Flow documentation for more information on how to:
 - [Use Common Data Service (CDS)](https://docs.microsoft.com/flow/connection-cds)
 - [Create a flow that uses the Common Data Service](https://docs.microsoft.com/flow/common-data-model-intro)
 - [Create multi-step flows](https://docs.microsoft.com/flow/multi-step-logic-flow)
-- [Add condition in a flow](https://docs.microsoft.com/flow/add-condition)
+- [Add conditions in a flow](https://docs.microsoft.com/flow/add-condition)
 - [Use expressions with conditions](https://docs.microsoft.com/flow/use-expressions-in-conditions)
 - [Use functions in expressions](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference)
 - [Perform data operations](https://docs.microsoft.com/flow/data-operations)
@@ -204,31 +204,31 @@ Microsoft Flow provides [hundreds of data Connectors](https://docs.microsoft.com
 
 ### If we have authentication for the user, can we pass user authentication info to a flow?
 
-Currently, passing end user authentication to a Flow is not supported in Virtual Agent, but we have this feature on the Roadmap and will be enabled over the coming months.  We will start with token-based authentication.  If you have specific authentication requirements that you would like us to be aware of, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
+Currently, passing end-user authentication to a flow is not supported in Virtual Agent, but we have this feature on the roadmap, and it will be enabled over the coming months. We will start with token-based authentication. If you have specific authentication requirements that you would like us to be aware of, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
 ### Can I share the flows I created with other users?
-You can add other users in you organization as owners of the flows you have created. Please click on the flow to open its Details page, and select "Add another owner" option in Owners section:
+You can add other users in you organization as owners of the flows you have created. Select the flow to open its Details page, and select the **Add another owner** option in the Owners section:
 ![Add another owner](media/add-flow-owner.png)
 
 ### How do I move or copy my flows between different environments?
 
-You can export and import solutions containing your flows to move them between environments. Note that there is currently no way to export or import a single flow. For more information on how to import and export solutions, please refer to the Microsoft Flow documentation:
+You can export and import solutions containing your flows to move them between environments. Note that there is currently no way to export or import a single flow. For more information on how to import and export solutions, refer to the Microsoft Flow documentation:
 - [Export a Solution](https://docs.microsoft.com/flow/export-flow-solution)
 - [Import a Solution](https://docs.microsoft.com/flow/import-flow-solution)
 
-### Where can I find out more about Microsoft Flows?
-You can find out more about the capabilities of Microsoft Flows on [Frequently asked quetsions](https://docs.microsoft.com/flow/frequently-asked-questions) page or by using [Flow documentation](https://docs.microsoft.com/flow/getting-started).
+### Where can I find out more about Microsoft Flow?
+You can find out more about the capabilities of Microsoft Flow on the [Frequently asked quetsions](https://docs.microsoft.com/flow/frequently-asked-questions) page or by reading [Flow documentation](https://docs.microsoft.com/flow/getting-started).
 You can also learn new skills and discover the power of Microsoft Flow with step-by-step [Flow training modules](https://docs.microsoft.com/learn/browse/?products=flow).
 
 ## Deployment 
 
 ### How do I share my bot with others?
 
-You find the details in this article: [To share your bot in the demo website](getting-started-deploy.md#to-share-your-bot-in-the-demo-website)
+You can find the details in this article: [To share your bot in the demo website](getting-started-deploy.md#to-share-your-bot-in-the-demo-website)
 
-### How I install the bot in a Modern SharePoint site? Is there any additional work that will be required if the given Modern SharePoint restricts embedding code from external sites?
+### How do I install the bot in a modern SharePoint site? Is there any additional work that will be required if the given modern SharePoint restricts embedding code from external sites?
 
-If the Modern SharePoint site allows embedding an iframe, it should be able to embed the bot. We have an iframe code snippet that you can get for your respective bot by going to the **Deploy** page. That snippet can be pasted in any html web page and from there you should see your bot appear. You can get this code to embed in your SharePoint site from **Deploy** > **Custom Website** in Virtual Agent.
+If the modern SharePoint site allows embedding an iframe, it should be able to embed the bot. We have an iframe code snippet that you can get for your respective bot by going to the **Deploy** page. That snippet can be pasted into any HTML webpage, and from there you should see your bot appear. You can get this code to embed in your SharePoint site from **Deploy** > **Custom Website** in Virtual Agent.
 
 
 ## Analytics 
