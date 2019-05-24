@@ -140,7 +140,7 @@ Variables store customer responses to Bot questions.  Variables can further be u
 
 ### How do I create a Microsoft Flow action in Virtual Agent?
 
-Here is a [video on how to create a Microsoft Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from Virtual Agent.
+Have a look at the article about [Add actions to your bot using Microsoft Flow](how-to-flow.md) and the [video on how to create a Microsoft Flow action that can be executed from Virtual Agent](https://go.microsoft.com/fwlink/?linkid=2079323).
 
 ### What license do I need to use Microsoft Flows in Virtual Agent?
 
@@ -153,7 +153,8 @@ Every bot author will be automatically licensed to use Microsoft Flows. No extra
 - Bots can only invoke Flows that have HTTP Request interfaces, so you need to select the right trigger for your Flow. Select **When Http Request is received** from the trigger list in the Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, how it is by default):
 ![POST method in HTTP Request](media/flow-http-post-method.png)
 
-View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
+> [!NOTE]
+> View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
 ### I created a flow with HTTP Request trigger, and it's visible in my bot, but when I test my Topic, it fails. Why?
 
