@@ -84,13 +84,12 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 This might be an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the link to [create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
 
-![Generic error message](media/error-generic.png)
-
 ### The PowerApps environment I created does not show up in the drop down menu of Virtual Agent, why?
 
 Your environment might not show up in the drop down due to the following reasons:
  - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com) and create a database in your environment.
  - The environment didn't finish setting up. To resolve this, retry in a few minutes.
+   ![Generic error message](media/error-generic.png)
  - The environment's region is set to non-US. To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md) and create an environment in the US region.
    ![Error shown when the environment region is outside of the US](media/error-outside-US.png)
 
