@@ -16,7 +16,10 @@ manager: shellyha
 
 Microsoft Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quickly and easily create powerful bots using a guided, no-code graphical experience – all without the need for data scientists or developers. 
 
-This guide will take you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real-time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. You can also [view this video](http://go.microsoft.com/fwlink/?linkid=2062988) that works through the end-to-end process. 
+This guide will take you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real-time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. 
+
+> [!NOTE]
+> You can also [view this video](http://go.microsoft.com/fwlink/?linkid=2062988) that works through the end-to-end process. 
 
 ## Creating your first bot
 
@@ -42,7 +45,9 @@ By default, your bot will be created in the default PowerApps environment that w
 
 ## Creating a custom Topic
 
-1.	Now that you have full functionality within your bot, you can create your own custom topic – or in other words, a dialog tree specifying how your bot responds to a user’s question. Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
+1.	Now that you have full functionality within your bot, you can create your own custom topic – or in other words, a dialog tree specifying how your bot responds to a user’s question. 
+    > [!NOTE]
+    > Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
 
 2.	Start by selecting **Topics** in the left-hand navigation panel, then select **+ New topic** at the top of the page.
     ![New topic](media/create-new-topic.png)
@@ -62,9 +67,13 @@ Start by entering “Hello! I’ll create a personalized greeting for you.” in
 
 You now have a very simple, branching dialog tree – congratulations!  Of course, you can begin to create more complex versions of this tree by incorporating variables, expressions, and Microsoft Flow.
 
-For more information on how to use variables and expressions, see [Using variables and expressions to create dynamic dialogues](http://go.microsoft.com/fwlink/?linkid=2063539).  
-
-For more information on how to use Microsoft Flow, see [Creating and using Flows for extensible dialogues](http://go.microsoft.com/fwlink/?linkid=2079323).
+> [!NOTE]
+>  
+> Have a look at these related videos: 
+>
+> [Using variables and expressions to create dynamic dialogues](http://go.microsoft.com/fwlink/?linkid=2063539)  
+> 
+> [Creating and using Flows for extensible dialogues](http://go.microsoft.com/fwlink/?linkid=2079323).
 
 ## Testing your content in real-time
 
