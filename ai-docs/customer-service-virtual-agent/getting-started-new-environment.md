@@ -30,7 +30,7 @@ Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331),
   >Please note that the environment needs to be created with region set to **United states**, otherwise you won't be able to use it when creating a bot.
   >Trial environments expire after 30 days. You'll lose any bots created after the trial environment expires.
 
-    ![Create environment](media/create-environment.png)
+    ![Create environment](media/create-environment-2.png)
 
     PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
