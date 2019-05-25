@@ -56,7 +56,7 @@ You can see how the conversation path works in practice by testing it in the **T
 
     As you define the topic's conversation path, you might want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
 
-2. Enter the bot's response to the trigger phrase in the **Bot says** box.
+2. Enter the bot's response to the trigger phrase in the **Bot Says** box.
 
    ![Add bot response](media/bot-response.png)
 
@@ -64,7 +64,7 @@ You can see how the conversation path works in practice by testing it in the **T
 
    ![Additional bot response](media/add-response.png)
 
-    Then enter the additional response in the **Bot says** box.
+    Then enter the additional response in the **Bot Says** box.
 
    ![Additional response text](media/response-text.png)
 
@@ -74,7 +74,7 @@ You can see how the conversation path works in practice by testing it in the **T
 
    ![Add user response](media/user-says.png)
 
-    Enter a response in the **User responses** box.
+    Enter a response in the **User Responses** box.
 
    ![Add user response text](media/user-response.png)
 
@@ -82,7 +82,7 @@ You can see how the conversation path works in practice by testing it in the **T
 
    ![Additional user response](media/second-response.png)
 
-    Then specify the additional response in the **User responses** box.
+    Then specify the additional response in the **User Responses** box.
 
    ![Additional user response text](media/second-response-text.png)
 
