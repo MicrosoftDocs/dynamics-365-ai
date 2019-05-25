@@ -51,7 +51,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
    ![Select trigger](media/select-trigger.png)
 
-4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New Step**.
+4. Add the following JSON code in the **Request Body JSON Schema** box. The code specifies that the flow expects an email address to receive one string input parameter. Then select **New step**.
 
     ``` JSON
     {  
