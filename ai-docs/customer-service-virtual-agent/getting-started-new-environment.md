@@ -38,8 +38,8 @@ Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331),
 
    ![Create database](media/create-database2.png)
 
-  > [!NOTE]
-  > Creating a database and environment and making it available in Dynamics 365 Virtual Agent for Customer Service can take a couple of minutes.
+    > [!NOTE]
+    > Creating a database and environment and making it available in Dynamics 365 Virtual Agent for Customer Service can take a couple of minutes.
 
 5. You are now ready to use the environment when [creating a new bot](getting-started-create-bot.md).
 
