@@ -38,7 +38,7 @@ Your bot is created in the default PowerApps environment that was created for yo
 
 5. When the bot creation process completes, the banner changes. You now have full functionality in the bot and can modify any User or System topic, test out your content changes, or deploy your bot.
 
-## Create a custom Topic
+## Create a custom topic
 
 1.	Now that you have full functionality within your bot, you can create your own custom topic—or, in other words, a dialogue tree specifying how your bot responds to a user’s question. Here's a [video about creating a topic](http://go.microsoft.com/fwlink/?linkid=2063539).
 
