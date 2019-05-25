@@ -12,6 +12,15 @@ manager: shellyha
 
 # Creating a bot
 
+<!--note from editor:MWSG guidance for headings and titles is to use either
+-Verb phrases: “Prepare headings” 
+-Infinitive phrases: “To create a heading” 
+-Noun phrases: “Source data” 
+and also to 
+-Edit out “you can,” “there is,” etc.
+-Avoid gerund ("ing") phrases ("Uploading a blog)-->
+
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can use Dynamics 365 Virtual Agent for Customer Service to create a powerful custom bot. Virtual Agent makes it easy to create bots that address common support issues. You can design a conversation path that leads each customer to a resolution.
