@@ -24,6 +24,8 @@ For information on creating a custom topic, see [Creating custom topics for your
 
 <!--note from editor:   MWSG says "Don't use navigation pane unless the term appears in the UI. Use left pane instead if you can.". Based on this, I suggest changing mention of "navigation pane" to "left pane". -->
 
+<!--note from editor:In Step 2, referring to Edit icon: Suggest rephrasing to "selecting **Edit** [ ] in the Greeting topic" where brackets are replaced by the icon itself.   -->
+
 
 1. On the home page, select **Customize your greeting** to open the Greeting topic in the conversation editor.
 
