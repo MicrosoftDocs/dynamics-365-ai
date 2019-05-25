@@ -30,8 +30,8 @@ The downloaded file contains the following information:
 
 - Chat Transcript: Transcript of the session in the following format:
     - “User says”/“Bot says” structure
-    - Conversation turns separated by semicolons
-      Note that **Bot says** does not include the options presented to the user.
+    - Conversation turns separated by semicolons</br>
+   Note that **Bot says** does not include the options presented to the user.
     
     Example: “User says: store hours; Bot says: Which store are you asking about?; User says: Bellevue; Bot says: Bellevue store is open from 10am to 7pm every day.;”
 
