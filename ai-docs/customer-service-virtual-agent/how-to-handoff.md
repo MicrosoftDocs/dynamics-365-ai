@@ -18,7 +18,7 @@ A bot can resolve many customer support issues, but there are times when an issu
 
 <!--note from editor: In Step 2, suggest revising "select the **Edit** icon" to something like "select **Edit** [  ]" where brackets are replaced by the icon itself. -->
 
-## Update Escalate system topic to handoff to a live agent
+## Update the Escalate system topic to hand off to a live agent
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
@@ -34,7 +34,7 @@ A bot can resolve many customer support issues, but there are times when an issu
 
 You are now ready to redirect users to this topic to initiate a handoff.
 
-## Initiate hand-off to human agent from any user topic
+## Initiate handoff to a human agent from any user topic
 
 1. Select **Topics** in the navigation pane to open the Topics page.
 
