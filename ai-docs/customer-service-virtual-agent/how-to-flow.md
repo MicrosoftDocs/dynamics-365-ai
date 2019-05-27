@@ -16,10 +16,6 @@ manager: shellyha
 
 You can enable your bot to perform an action by invoking a flow. Use a flow that shares the same Common Data Service environment as the bot. First, create a Microsoft PowerApps environment, and then create your flow. Once you have created the flow, you can create a bot that uses an action to invoke the flow.
 
-
-
-<!--note from editor: In the text and screen shots in list below, the term "Common Data Services" is used. Per MWSG, there is no "s"--it is just "Common Data Service".    -->
-
 ## To create a PowerApps environment
 
 1. If you have not already created a PowerApps environment, create one. You must select an environment when you create your bot.
@@ -28,7 +24,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 2. If you do not already have a Microsoft Flow environment, sign in to the admin portal by entering [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser. Select the icon for your account in the upper-right corner of the screen, and then select your PowerApps environment from the list.
 
-3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Services Default Solution**.
+3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Service Default Solution**.
 
    ![Verify database](media/verify-database.png)
    
@@ -39,9 +35,9 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 ## To create a flow
 
-1. Select **Common Data Services Default Solution** to open the solution.
+1. Select **Common Data Service Default Solution** to open the solution.
 
-2. On the **Common Data Services Default Solution** page, select **New**, and then select **Flow** from the list.
+2. On the **Common Data Service Default Solution** page, select **New**, and then select **Flow** from the list.
 
    ![New flow](media/new-flow.png)
 

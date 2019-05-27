@@ -24,9 +24,7 @@ Preview is currently only supported in the United States, with data stored in US
 
 If you are a new customer to Microsoft and you visit flow.microsoft.com shortly after you have created your first bot, you might encounter two issues:
 - Missing **Solutions** tab on the left rail of flow.microsoft.com. The **Solutions** tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
-- Within the **Solutions** tab, when you choose Common Data Services Default Solution, you might get a permission error. You can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
-
-<!--note from editor: In list item above (also in how-to-flow.md), the term "Common Data Services" is used. Per MWSG, there is no "s"--it is just "Common Data Service".--> 
+- Within the **Solutions** tab, when you choose Common Data Service Default Solution, you might get a permission error. You can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
 
 ### Issues with environment permissions when creating a bot
 
