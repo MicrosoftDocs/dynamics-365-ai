@@ -220,7 +220,7 @@ You can also learn new skills and discover the power of Microsoft Flow with step
 
 ### How do I share my bot with others?
 
-You can find the details in this article: [To share your bot in the demo website](getting-started-deploy.md#to-share-your-bot-in-the-demo-website)
+You can find the details in this article: [To share your bot on the demo website](getting-started-deploy.md#to-share-your-bot-on-the-demo-website)
 
 ### How do I install the bot in a modern SharePoint site? Is there any additional work that will be required if the given modern SharePoint restricts embedding code from external sites?
 
