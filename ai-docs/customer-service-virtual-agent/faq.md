@@ -95,9 +95,7 @@ Your environment might not show up in the drop-down menu due to the following re
 
 ### What is a topic? 
 
-<!--note from editor: This doesn't really answer the question of a what a topic is.   -->
-
-A bot is a collection of topics. You can author topics by customizing provided templates or creating new topics from scratch.  
+A topic defines a conversation path with the bot for a specific customer intent. You can author topics by customizing provided templates or creating new topics from scratch.  
 
 ### What is the difference between a system topic and a provided template user topic? 
 

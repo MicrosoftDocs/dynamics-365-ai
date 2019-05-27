@@ -77,8 +77,6 @@ Topic | A Dynamics 365 Virtual Agent for Customer Service topic.
 Rate | The percentage of engaged sessions for the topic that are resolved. A resolved session is an engaged session in which a customer receives an end-of-session survey and either does not respond to the survey or responds with *Yes*.
 Impact | The topic's resolution rate impact score. The resolution rate impact score is the overall resolution rate including the topic minus the overall resolution rate excluding the topic.
 
-<!--note from editor: Confirming that in this sentence in paragraph below it is accurate that it results in a negative impact: "A red bar indicates that the topic's resolution rate is larger than the average resolution rate, resulting in a negative impact on overall resolution rate"--   -->
-
 The chart displays the impact as a red or blue bar. A red bar indicates that the topic's resolution rate is greater than the average resolution rate, resulting in a negative impact on overall resolution rate. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall resolution rate performance.
 
 Improving the resolution rate for the top resolution-rate topics in red has the greatest impact on improving the overall resolution rate.
@@ -111,9 +109,7 @@ Topic | A Dynamics 365 Virtual Agent for Customer Service topic.
 Rate | The percentage of engaged sessions for the topic that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the interaction.
 Impact | The topic's abandon rate impact score. The abandon rate impact score is the overall abandon rate including the topic minus the overall abandon rate excluding the topic.
 
-The chart displays the impact as a red or blue bar. A red bar indicates that the topic's abandon rate is greater than the average abandon rate, resulting in a negative impact on overall abandon rate. A blue bar indicates that the abandon time is shorter, resulting in a positive impact on overall abandon rate performance.
-
-<!--note from editor: In above para, 3rd sentence, should "abandon time is shorter" be "abandon rate is smaller"?   -->
+The chart displays the impact as a red or blue bar. A red bar indicates that the topic's abandon rate is greater than the average abandon rate, resulting in a negative impact on overall abandon rate. A blue bar indicates that the abandon rate is smaller, resulting in a positive impact on overall abandon rate performance.
 
 Improving the abandon rate for the top abandon-rate topics in red has the greatest impact on improving the overall abandon rate.
 

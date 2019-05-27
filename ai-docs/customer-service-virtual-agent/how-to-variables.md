@@ -39,6 +39,4 @@ Dynamics 365 Virtual Agent for Customer Service supports four types of variables
 
    ![Save variable](media/save-variable.png)
 
-<!--note from editor: In Step 3, screen shot says "Done"; text says "Save" -->
-
 Virtual Agent adds the variable to a customer's response and uses expressions to dynamically route the conversation path, letting you tailor the bot's response.

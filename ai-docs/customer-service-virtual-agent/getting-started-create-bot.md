@@ -60,9 +60,7 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
 
 ## Creating additional bots
 
-<!--note from editor: Does the Bot icon have a name or a Tooltip associated with it, for example, "Create bot"? If so, revise to something like "selecting **Create bot** [  ]" where brackets are replaced by the icon itself.   -->
-
-If you have already created a bot, you can create a new bot by selecting the **Bot** icon on the title bar and then selecting **New bot**.
+If you have already created a bot, you can create a new bot by selecting the icon on the title bar to open the **Bots** pane and then selecting **New bot**.
 
    ![New bot icon in title bar](media/new-bot-icon.PNG)
 

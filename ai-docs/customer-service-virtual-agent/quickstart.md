@@ -18,9 +18,6 @@ Microsoft Dynamics 365 Virtual Agent for Customer Service empowers customer team
 
 This guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. You can also [view the How to Create, Test, and Deploy a Virtual Agent video](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end process. 
 
-
-<!--note from editor: In step 2 below, add a link to cross reference to Creating a PowerApps environment.   -->
-
 ## Create your first bot
 
 1.	Go to [http://aka.ms/virtual-agent](http://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Microsoft Edge, Chrome, and Firefox. On the website, select **Try Preview**, and then sign in with your work email address. Note that personal Microsoft accounts aren't supported currently.
@@ -30,7 +27,7 @@ This guide takes you through the end-to-end experience of creating a bot for the
 2. Next, you’ll choose a name for your bot. This can be something generic to your company or specific to the scenario you are tailoring your bot to.
 Your bot is created in the default PowerApps environment that was created for you when you signed up. For most users, this is sufficient. However, if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the **More options** menu and selecting a different environment.
    > [!NOTE] 
-   > Preview is currently supported only in the United States, with data stored in US data centers. If your company is domiciled outside of the United States, you need to create a custom environment with **Region** set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see Creating a PowerApps environment.
+   > Preview is currently supported only in the United States, with data stored in US data centers. If your company is domiciled outside of the United States, you need to create a custom environment with **Region** set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
 3.	Once you select **Create**, the process of creating the first bot within a new environment can take up to 15 minutes.  
 
@@ -76,8 +73,6 @@ The bot is now waiting for you to respond and has provided suggestions on how to
 
 ## Deploy your bot
 
-<!--note from editor: In Step 3 below, include a specific instruction about how to deactivate the pop-up blocker?   -->
-
 1.	Once you are fine with the content authored in your bot, you can deploy your bot to a website. Start by selecting the **Deploy** tab in the left pane.
 
     You’ll now see two options—one to deploy to a demo website, and one to deploy to a custom website. The custom website provides a snippet of code to send to your website administrator. This embeds the bot canvas into the website of your choosing so that your end users can interact with your bot from your web channel.
@@ -88,21 +83,17 @@ The bot is now waiting for you to respond and has provided suggestions on how to
 2.	Enter a welcome message and the conversation starters that will be displayed on your demo website.
 For now, enter “This is a demonstration of my first bot that I built by myself, without writing a line of code!” in the welcome message and “Hello world” in the conversation starters. Select **Publish**.
  
-3.	A new window opens in your browser. If this doesn’t happen automatically, check whether a pop-up blocker has been activated and, if so, allow the window to be opened. This is a webpage that demonstrates what your bot looks like to an end-user who comes to your webpage. The bot canvas is in the lower-right corner, and you can interact with it by either typing into the window or by selecting the “Hello world” conversation starter you added previously.
+3.	A new window opens in your browser. If this doesn’t happen automatically, check whether a pop-up blocker has been activated and, if so, allow the window to be opened. Usually, you can allow pop-ups from the URL field directly. This is a webpage that demonstrates what your bot looks like to an end-user who comes to your webpage. The bot canvas is in the lower-right corner, and you can interact with it by either typing into the window or by selecting the “Hello world” conversation starter you added previously.
  
 
 4.	You'll find a link added to the Deploy page. This link can be copied and shared with others in your organization and is a great way for others to experience the bot that you have created. This URL is also the same as the one shown in the test webpage.
 
     > [!NOTE]
-    > Anyone with this link can interact with your bot using the test webpage shown above, so please do not share sensitive information in this bot. Your visitors will interact with your bot as an “end-user” but will not be able to see the conversation editor.
-
-<!--note from editor: In the Note above--not sure what "test webpage shown above" is referring to--is it referring to an image? Also, use "shown previously" or something like that instead of "above" per MWSG.   -->
+    > Anyone with this link can interact with your bot using the test webpage, so please do not share sensitive information in this bot. Your visitors will interact with your bot as an “end-user” but will not be able to see the conversation editor.
 
 ## Analyze the performance of your bot
 
-<!--note from editor: In Step 1, include what "CSAT" stands for.   -->
-
-1.	Once your bot has completed interactions with users, the statistics are available via the **Analytics** tab in the left pane. Here, you can find key performance indicators (KPIs) showing the volume of sessions your bot has handled, how effectively your bot was able to engage end-users and resolve issues, escalation rates to human agents, and abandonment rates during conversations. You will also find CSAT information at the KPI level as well as in the **Customer Satisfaction** tab.
+1.	Once your bot has completed interactions with users, the statistics are available via the **Analytics** tab in the left pane. Here, you can find key performance indicators (KPIs) showing the volume of sessions your bot has handled, how effectively your bot was able to engage end-users and resolve issues, escalation rates to human agents, and abandonment rates during conversations. You will also find customer satisfaction information at the KPI level as well as in the **Customer Satisfaction** tab.
 
     Note: There is up to a 1-hour delay between when the conversations occur and when the statistics for those conversations appear in the analytics views. Also, all interactions with the bot are logged in analytics, including interactions from your demo website, custom website, or test bot.
 

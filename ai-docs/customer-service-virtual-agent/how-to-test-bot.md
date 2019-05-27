@@ -49,14 +49,10 @@ As you fine-tune your bot, it can be useful to enable tracing to take you throug
 
 2. Follow the steps discussed earlier to [test your topic in the Test bot pane](#to-test-a-topic-in-the-test-bot-pane).
 
-3. As you move through the conversation in the **Test bot** pane, the conversation editor highlights the current place in the conversation path. The conversation editor displays highlighted nodes in green with check marks.
+3. As you move through the conversation in the **Test bot** pane, the conversation editor highlights the current place in the conversation path. The conversation editor displays highlighted nodes in green.
 
    ![Trace bot](media/trace-bot.png)
 
 4. To navigate to an earlier place in the conversation path in the conversation editor, select it in the **Test bot** pane.
-
-
-<!--note from editor: In Step 3 above, do the check marks signify something different than the green highlighting?    -->
-
 
 If the conversation path in the **Test bot** pane moves from one topic to another topic, the conversation editor refreshes and moves between topics to the appropriate highlighted nodes.

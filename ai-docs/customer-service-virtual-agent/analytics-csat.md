@@ -54,9 +54,8 @@ To see additional information about each topic, select the **Detail** link to di
 The Scores over Time chart provides a graphical view of the average CSAT score over the specified time period.
 
 ## Average CSAT Score chart
-<!--note from editor: Is the chart named "Customer Satisfaction" or "Average CSAT Score"? Use name consistently.    -->
 
-The Customer Satisfaction chart provides a graphical view of the average of CSAT scores for sessions in which customers respond to an end-of-session request to take the survey. The CSAT survey asks customers to rate their experience on a scale of "terrible" to "excellent," where "terrible" is given a value of 1 and "excellent" is given a value of 5.
+The Average CSAT Score chart provides a graphical view of the average of CSAT scores for sessions in which customers respond to an end-of-session request to take the survey. The CSAT survey asks customers to rate their experience on a scale of "terrible" to "excellent," where "terrible" is given a value of 1 and "excellent" is given a value of 5.
 
 ## CSAT Survey Response Rate chart
 
