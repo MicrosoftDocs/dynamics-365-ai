@@ -21,7 +21,7 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
 ## To deploy your bot to a demo environment
 
-1. Select **Deploy** in the navigation pane to open the Deploy page.
+1. Select **Deploy** in the left pane to open the Deploy page.
 
    ![Open Deploy page](media/open-deploy.png)
 
@@ -47,7 +47,7 @@ Once you have finished designing you virtual agent, you can deploy it to a demo 
 
 ## To deploy your bot to your own custom website
 
-1. If the Deploy page is not already open, select **Deploy** in the navigation pane to open it.
+1. If the Deploy page is not already open, select **Deploy** in the left pane to open it.
 
 2. Select **Custom website** on the Deploy page.
 

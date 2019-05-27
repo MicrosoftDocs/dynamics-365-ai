@@ -18,30 +18,30 @@ As you design the conversation path for your bot in the conversation editor, you
 
 To help you work with a complex conversation path, Dynamics 365 Virtual Agent for Customer Service provides a variety of tools to expand the size of the design canvas, adjust the position of the conversation path, zoom in and out of the canvas, and orient the current view of the conversation path. You can:
 
-* [Expand the size of the design canvas](#expand-the-size-of-the-design-canvas) by hiding the test bot and navigation pane.
+* [Expand the size of the design canvas](#expand-the-size-of-the-design-canvas) by hiding the test bot and left pane.
 * [Adjust the position of the conversation path](#adjust-the-position-of-the-conversation-path) in the design canvas by using the horizontal scroll bar.
 * [Zoom in and out of the design canvas](#zoom-in-and-out-of-the-design-canvas) by using the conversation editor's **Zoom in** and **Zoom out** buttons.
 * [Orient the current view of the conversation path](#orient-the-current-view-of-the-conversation-path) within the conversation path as a whole by using the conversation editor's **Mini-map** button.
 
 ## Expand the size of the design canvas
 
-When you open a topic in the conversation editor, Virtual Agent by default displays the test bot and navigation panes along with the conversation editor design canvas.
+When you open a topic in the conversation editor, Virtual Agent by default displays the test bot and navigation along with the conversation editor design canvas.
 
 ![Conversation editor default](media/conversation-editor-default.png)
 
-To expand the size of the conversation editor design canvas, you can hide the test bot and navigation panes.
+To expand the size of the conversation editor design canvas, you can hide the test bot and navigation.
 
 To hide the test bot pane, select **Hide bot** in the lower-left corner of Virtual Agent.
 
 ![Hide Test bot](media/hide-test-va.png)
 
-To hide the navigation pane, select the navigation pane icon in the upper-left corner of Virtual Agent.
+To hide the left pane, select the navigation icon in the upper-left corner of Virtual Agent.
 
-![Hide navigation pane](media/expand-canvas-nav.png)
+![Hide left pane](media/expand-canvas-nav.png)
 
-After you hide the test bot and navigation panes, the conversation editor design canvas uses the full Virtual Agent screen.
+After you hide the test bot and left pane, the conversation editor design canvas uses the full Virtual Agent screen.
 
-To restore the test bot pane, select **Show bot** or the Show bot icon. To restore the navigation pane, select the navigation pane icon again.
+To restore the test bot pane, select **Show bot** or the Show bot icon. To restore the left pane, select the navigation icon again.
 
 ## Adjust the position of the conversation path
 

@@ -16,9 +16,9 @@ manager: shellyha
 
 Dynamics 365 Virtual Agent for Customer Service provides a variety of tools to create a powerful custom bot. You can add topics to your bot to help you design a conversation path to resolve customer support issues and then deploy the bot to a web channel. You can also view analytics information to help you improve the bot and the overall customer experience.
 
-Virtual Agent is composed of several pages designed for different tasks. You can access the pages through the navigation pane.
+Virtual Agent is composed of several pages designed for different tasks. You can access the pages through the left pane.
 
-![Navigation pane](media/nav-pane.png)
+![Left pane](media/nav-pane.png)
 
 ## Home page
 

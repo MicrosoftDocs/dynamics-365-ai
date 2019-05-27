@@ -24,7 +24,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 2. If you do not already have a Microsoft Flow environment, sign in to the admin portal by entering [https://flow.microsoft.com]( https://flow.microsoft.com) in your browser. Select the icon for your account in the upper-right corner of the screen, and then select your PowerApps environment from the list.
 
-3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the navigation pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Service Default Solution**.
+3. Verify that the PowerApps environment database was created correctly. Select **Solutions** in the left pane to display the **Solutions** page, and then verify that the Solutions list includes **Common Data Service Default Solution**.
 
    ![Verify database](media/verify-database.png)
    
@@ -105,9 +105,6 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 ## To create a bot that invokes a flow
 
-
-<!--note from editor: In Step 1, suggest revising "select the **New Bot** icon" to something like "select **New bot** [  ]" where brackets are replaced by the icon itself. -->
-
 1. Go to [https://va.ai.dynamics.com](https://va.ai.dynamics.com) in your browser to open the Virtual Agent environment, and then create a new bot in the same environment as your flow. To create a new bot, select the **New Bot** icon on the title bar. Then select **New bot**.
 
    ![New bot icon](media/new-bot-icon.png)
@@ -116,7 +113,7 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 2. On the **Create a new bot** screen, specify a template, a unique name for your bot, and the environment where your flow was created. Then select **Create**.
 
-3. Once you have created your bot, create a topic that uses the flow. Select **Topics** in the navigation pane to open the **Topics** page, and then select **New topic**.
+3. Once you have created your bot, create a topic that uses the flow. Select **Topics** in the left pane to open the **Topics** page, and then select **New topic**.
 
    ![New topic](media/create-new-topic.png)
 

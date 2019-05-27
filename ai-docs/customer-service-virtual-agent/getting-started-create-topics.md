@@ -20,7 +20,7 @@ You can see how the conversation path works in practice by testing it in the **T
 
 ## To create your custom topic
 
-1. Select **Topics** in the navigation pane to open the Topics page.
+1. Select **Topics** in the left pane to open the Topics page.
 
 
    ![Open Topics page](media/open-topics.png)

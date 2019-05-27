@@ -16,15 +16,13 @@ manager: shellyha
 
 A bot can resolve many customer support issues, but there are times when an issue requires a live human agent. As you design the conversation path for your bot topic, you can initiate a handoff by redirecting users to the Escalate system topic. To get started, update the Escalate system topic.
 
-<!--note from editor: In Step 2, suggest revising "select the **Edit** icon" to something like "select **Edit** [  ]" where brackets are replaced by the icon itself. -->
-
 ## Update the Escalate system topic to hand off to a live agent
 
-1. Select **Topics** in the navigation pane to open the Topics page.
+1. Select **Topics** in the left pane to open the Topics page.
 
    ![Open Topics page](media/open-topics.png)
 
-2. Hover over the Escalate system topic, and then select the **Edit** icon to open the topic in the conversation editor.
+2. Hover over the Escalate system topic, and then select **Edit conversation** to open the topic in the conversation editor.
 
    ![Edit Escalate topic](media/open-escalate.png)
 
@@ -36,7 +34,7 @@ You are now ready to redirect users to this topic to initiate a handoff.
 
 ## Initiate handoff to a human agent from any user topic
 
-1. Select **Topics** in the navigation pane to open the Topics page.
+1. Select **Topics** in the left pane to open the Topics page.
 
    ![Open Topics page](media/open-topics.png)
 
