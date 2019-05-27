@@ -1,14 +1,12 @@
 ---
 title: "Analytics overview"
 description: "Learn about the Dynamics 365 Virtual Agent for Customer Service pages."
-keywords: ""
-ms.date: 05/20/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -22,7 +20,7 @@ You can display [Summary](analytics-summary.md) and [Customer satisfaction](anal
 
 ![Page navigation](media/dashboard-tabs.png)
 
-You can display the [Topic details](analytics-topic-details.md) page by selecting the Detail link for a topic in the charts on these pages.
+You can display the [Topic details](analytics-topic-details.md) page by selecting the **Detail** link for a topic in any of the charts on the Summary or Customer Satisfaction page.
 
 ![Topic details link](media/topic-details-link.png)
 

@@ -1,14 +1,12 @@
 ---
 title: "Overview of GDPR compliance for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 Virtual Agent for Customer Service."
-keywords: ""
 ms.date: 05/24/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -60,4 +58,4 @@ When data subjects exercise their rights and make requests, consider the followi
 
 If a data subject asks you to rectify their personal data that resides in your organization, you and your organization must determine if it’s appropriate to honor the request. Rectifying the data might include taking actions such as editing, redacting, or removing personal data.
 
-You can use AD to manage Dynamics 365 Virtual Agent for Customer Service users' identities. Enterprise customers can manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services.
+You can use Azure AD to manage Dynamics 365 Virtual Agent for Customer Service users' identities. Enterprise customers can manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services.

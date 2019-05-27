@@ -2,29 +2,31 @@
 
 # [Quickstart](quickstart.md)
 
+# [Videos](virtual-agent-videos.md)
+
 # [Frequently asked questions](faq.md)
 
-# Getting started
+# Introduction
 
-## [Creating a PowerApps environment](getting-started-new-environment.md)
+## [Create a bot](getting-started-create-bot.md)
 
-## [Creating a bot](getting-started-create-bot.md)
+## [Create a PowerApps environment](getting-started-new-environment.md)
 
-## [Working with Virtual Agent](getting-started-bot-designer.md)
+## [Work with Virtual Agent](getting-started-bot-designer.md)
 
-## [Creating a custom greeting for your bot](getting-started-create-greeting.md)
+## [Create a custom greeting for your bot](getting-started-create-greeting.md)
 
-## [Creating custom topics for your bot](getting-started-create-topics.md)
+## [Create custom topics for your bot](getting-started-create-topics.md)
 
-## [Working with the conversation editor design canvas](expanding-design-canvas.md)
+## [Work with the conversation editor design canvas](expanding-design-canvas.md)
 
-## [Validate a topic with the Topic Checker](topic-checker.md)
+## [Validate a topic with Topic Checker](topic-checker.md)
 
-## [Using analytics to improve your bot](getting-started-analytics.md)
+## [Use analytics to improve your bot](getting-started-analytics.md)
 
-## [Deploying your bot](getting-started-deploy.md)
+## [Deploy your bot](getting-started-deploy.md)
 
-## [Deleting your bot](getting-started-delete-bot.md)
+## [Delete your bot](getting-started-delete-bot.md)
 
 # How-to
 
@@ -38,7 +40,7 @@
 
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
-# Reference
+# Analytics
 
 ## [Analytics overview](analytics-overview.md)
 
@@ -49,8 +51,6 @@
 ## [Topic details page](analytics-topic-details.md)
 
 ## [Sessions page](analytics-sessions.md)
-
-# [Videos](virtual-agent-videos.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 

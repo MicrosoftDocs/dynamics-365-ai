@@ -1,14 +1,12 @@
 ---
 title: "Work with built-in topics"
 description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service built-in topics."
-keywords: ""
-ms.date: 05/16/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
@@ -16,7 +14,7 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To help you create your custom bot, Virtual Agent includes built-in topics to be used as building blocks for developing the bot's conversation path. The built-in topics can give you a head start on developing your bot. 
+To help you create your custom bot, Dynamics 365 Virtual Agent for Customer Service includes built-in topics to be used as building blocks for developing the bot's conversation path. The built-in topics can give you a head start on developing your bot. 
 
 For example, there are several system topics that you need to handle some key scenarios within the bot. These include:
 
@@ -43,11 +41,11 @@ For example, to see how you might build a conversation path for helping customer
 
 ![View Store Hours](media/store-hours.png)
 
-To view the topic's conversation path, select the Store Hours topic in the Topics list to open the topic, and then select the **Edit** button to open the conversation editor.
+To view the topic's conversation path, select the Store Hours topic in the Topics list to open the topic, and then select **Edit** to open the conversation editor.
 
 ![Edit Store Hours](media/edit-store-hours.png)
 
-You can view the trigger phrases and conversation path design in the Store Hours topic and use similar techniques in your own topics.
+You can view the trigger phrases and conversation-path design in the Store Hours topic and use similar techniques in your own topics.
 
 ![View conversation path](media/store-hours-path.png)
 

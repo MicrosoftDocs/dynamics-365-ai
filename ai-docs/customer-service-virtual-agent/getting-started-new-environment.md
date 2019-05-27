@@ -1,35 +1,30 @@
 ---
-title: "Creating a PowerApps environment"
+title: "Create a PowerApps environment"
 description: "Learn how to create a PowerApps environment for Dynamics 365 Virtual Agent for Customer Service."
-keywords: ""
-ms.date: 05/21/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
-# Creating a PowerApps environment
+# Create a PowerApps environment
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you create a bot, you must select a PowerApps environment for the bot. You can use an existing environment or create one.
 
-If you encounter problems creating an environment, see [Known issues with creating a PowerApps environment](#known-issues-with-creating-a-powerapps-environment) later in this topic.
-
 ## To create a new PowerApps environment
 
-Watch this step-by-step video to [create a new PowerApps environment](https://go.microsoft.com/fwlink/?linkid=2079331), or follow the steps below.
+Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331), or follow these steps:
 
+1. Go to [https://admin.powerapps.com](https://admin.powerapps.com) and sign in using your work or school account.
 
-1. Enter [https://admin.powerapps.com](https://admin.powerapps.com) in your browser to open the PowerApps Admin center.
+2. Select **New environment** to open the **New environment** dialog box.
 
-2. Select **New environment** to open the New environment screen.
-
-    Specify a unique name for the environment, *United States* as the region, and *Trial* as the environment type. Then select **Create environment**.
+    Specify a unique name for the environment, select **United States** as the region, and select the environment type. Then select **Create environment**.
 
     ![Create environment](media/create-environment.png)
 
@@ -39,31 +34,12 @@ Watch this step-by-step video to [create a new PowerApps environment](https://go
 
    ![Create database](media/create-database.png)
 
-4. Select your currency type and language, and then select **Create database**.
+4. Select your currency and language, and then select **Create database**.
 
    ![Create database](media/create-database2.png)
 
-> [!NOTE]
-> Creating a database and environment can take some time.
+    > [!NOTE]
+    > Creating a database and environment and making it available in Dynamics 365 Virtual Agent for Customer Service can take a couple of minutes.
 
-## Known issues with creating a PowerApps environment
+5. You are now ready to use the environment when [creating a new bot](getting-started-create-bot.md).
 
-When you create your bot's PowerApps environment, you may encounter the following issues.
-
-### No read/write access to any environment
-
-In this case, you will see this error: “You do not have permissions to any environments. Please get access from an administrator.”
-
-To resolve this issue, follow the steps in [To create a new PowerApps environment](#to-create-a-new-powerapps-environment) to create a new environment. Use that environment to create your bot.
-
-### Insufficient permissions for the selected environment
-
-If the user selects an environment that she has insufficient access to, she will get the following error: “An unexpected server error occurred. Please retry creating your bot.”
-
-To resolve this issue, follow the steps in [To create a new PowerApps environment](#to-create-a-new-powerapps-environment) to create a new environment. Use that environment to create your bot.
-
-### Creation of a bot timing out after a long delay
-
-When creating the first bot in an environment, there is a known issue where the bot creation takes a long time. 
-
-If the creation times out and you are sure you had sufficient environment privileges (for example, you created the environment), please refresh your browser. After the refresh, in most cases, you'll find the bot created successfully despite the error; otherwise try [creating the bot](getting-started-create-bot.md) again.

@@ -1,28 +1,26 @@
 ---
-title: "Using analytics to improve your bot"
-description: "Learn how to use analytics to improve your Dynamics 365 Virtual Agent for Customer Service."
-keywords: ""
-ms.date: 05/20/2019
+title: "Use analytics to improve your bot"
+description: "Learn how to use analytics to improve your virtual agent"
+ms.date: 05/24/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-ms.assetid: 
-author: stevesaunders1952
-ms.author: stevesaunders1952
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 
-# Using analytics to improve your bot
+# Use analytics to improve your bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As you create and deploy your bot, you can use analytics to see how your bot is performing. Virtual Agent includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
+As you create and deploy your bot, you can use analytics to see how your bot is performing. Dynamics 365 Virtual Agent for Customer Service includes built-in dashboards, interactive charts, and visual filters that give you actionable insights into critical performance metrics, operational data, and emerging trends.
 
-To view the analytics dashboards, select **Analytics** in the navigation pane to open the Analytics page.
+To view the analytics dashboards, select **Analytics** in the left pane to open the Analytics page.
 
 ![Open Analytics page](media/open-analytics.png)
 
-You can display [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) pages, or download sessions information by selecting the appropriate tab on the Analytics page.
+You can display the [Summary](analytics-summary.md) and [Customer satisfaction](analytics-csat.md) pages, or download sessions information by selecting the appropriate tab on the Analytics page.
 
 ![Dashboard tabs](media/dashboard-tabs.png)
 
@@ -43,7 +41,7 @@ By default, dashboards display information for the last seven days, but you can 
 
 ## Key performance indicator charts
 
-Key performance indicator charts give you a view of the key performance data for your bot and customer service system for the specified time period. For example, the key performance indicator charts on the Summary page show you:
+Key performance indicator charts give you a view of the key performance data for your bot and customer-service system for the specified time period. For example, the key performance indicator charts on the Summary page show you:
 
 * The total number of sessions during the period.
 * The percentage of total sessions during the period that are engaged sessions.
@@ -58,7 +56,7 @@ Each key performance indicator chart includes an up-and-down indicator next to t
 
 ## Graphical trend and breakdown charts
 
-The dashboards include a variety of graphical charts that give you views of different trends and break down of cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
+The dashboards include a variety of graphical charts that give you views of different trends and break down cases by key criteria such as customer satisfaction, survey response rate, outcomes over time, engagement over time, and daily topic volume.
 
 ![Graphical charts](media/engagement-over-time.png)
 
