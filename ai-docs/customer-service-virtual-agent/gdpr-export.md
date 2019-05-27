@@ -14,8 +14,6 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The right of data portability allows a data subject to request a copy of their personal data in an electronic format (that’s a “structured, commonly used, machine readable, and interoperable format”) that can be transmitted to another data controller.
-
 ## Manage export requests
 
 Dynamics 365 Virtual Agent for Customer Service offers the following capabilities to find or export personal data for a specific user:
