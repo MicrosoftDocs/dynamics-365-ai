@@ -20,6 +20,8 @@ manager: shellyha
 
 Preview is currently only supported in the United States, with data stored in US data centers. If your company is located outside of the United States, you need to create a custom environment with the region set to “United States” before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
+![Error when outside of the United States](media/error-outside-US.png)
+
 ### Issues with Microsoft Flow solutions tab
 
 If you are a new customer to Microsoft and you visit flow.microsoft.com shortly after you have created your first bot, you might encounter two issues:
@@ -33,6 +35,8 @@ If you experience any problems with your bot creation due to permission issues w
 ### Other issues when creating a bot
 
 See [Creating a bot](getting-started-create-bot.md) if you have any issues while creating your bot.
+
+![Generic error](media/error-generic.png)
 
 ## General 
 
