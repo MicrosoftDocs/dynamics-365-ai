@@ -1,7 +1,7 @@
 ---
-title: "Creating custom topics for your bot"
-description: "Learn how to use Virtual Agent to create custom topics for your bot."
-ms.date: 05/16/2019
+title: "Create custom topics for your bot"
+description: "Learn how to use Dynamics 365 Virtual Agent for Customer Service to create custom topics for your bot."
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -10,17 +10,17 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Creating custom topics for your bot
+# Create custom topics for your bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A topic defines a conversation path with the bot for a specific customer intent. You specify a trigger phrase that prompts the bot to start the conversation. Then create a conversation path in the Virtual Agent's conversation editor to lead customers to a resolution of their support issue.
+In Dynamics 365 Virtual Agent for Customer Service, a topic defines a conversation path with the bot for a specific customer intent. You specify a trigger phrase that prompts the bot to start the conversation. Then create a conversation path in Virtual Agent's conversation editor to lead customers to a resolution of their support issue.
 
-You can see how the conversation path works in practice by testing it in the Test bot pane and continue to fine-tune the topic until you are ready to deploy it.
+You can see how the conversation path works in practice by testing it in the **Test bot** pane and continue to fine-tune the topic until you are ready to deploy it.
 
 ## To create your custom topic
 
-1. Select **Topics** in the navigation pane to open the Topics page.
+1. Select **Topics** in the left pane to open the Topics page.
 
 
    ![Open Topics page](media/open-topics.png)
@@ -29,7 +29,7 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    ![Built-in topics](media/template-topics.png)
 
-    Virtual Agent also includes several system topics that help you address common situations--a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
+    Virtual Agent also includes several system topics that help you address common situations—a customer greeting, escalation to a live agent, the end of the conversation, a confirmed success, or a confirmed failure.
 
 2. On the Topics page, select **New topic**.
 
@@ -54,9 +54,9 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    ![Open conversation](media/open-conversation.png)
 
-    As you define the topic's conversation path, you may want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
+    As you define the topic's conversation path, you might want to expand the conversation editor design canvas. For more information on working with the design canvas, see [Working with the conversation editor design canvas](expanding-design-canvas.md).
 
-2. Enter the bot's response to the trigger phrase in the **Bot says** box.
+2. Enter the bot's response to the trigger phrase in the **Bot Says** box.
 
    ![Add bot response](media/bot-response.png)
 
@@ -64,7 +64,7 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    ![Additional bot response](media/add-response.png)
 
-    Then enter the additional response in the **Bot says** box.
+    Then enter the additional response in the **Bot Says** box.
 
    ![Additional response text](media/response-text.png)
 
@@ -74,7 +74,7 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    ![Add user response](media/user-says.png)
 
-    Enter a response in the **User responses** box.
+    Enter a response in the **User Responses** box.
 
    ![Add user response text](media/user-response.png)
 
@@ -82,7 +82,7 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    ![Additional user response](media/second-response.png)
 
-    Then specify the additional response in the **User responses** box.
+    Then specify the additional response in the **User Responses** box.
 
    ![Additional user response text](media/second-response-text.png)
 
@@ -98,19 +98,19 @@ You can see how the conversation path works in practice by testing it in the Tes
 
    Then select **Save** to save the conversation path.
 
-As you design your topic's conversation path, you can use the Test bot pane to see how the bot leads the customer through a conversation.
+As you design your topic's conversation path, you can use the **Test bot** pane to see how the bot leads the customer through a conversation.
 
 ## To test the topic in the Test bot pane
 
-1. To make sure you are using the most current bot content, select **Start over with latest content** at the top of the Test bot pane.
+1. To make sure you are using the most current bot content, select **Start over with latest content** at the top of the **Test bot** pane.
 
    ![Restart conversation](media/restart-conversation.png)
 
-2. At the **Type your message** prompt at the bottom of the Test bot pane, enter a trigger phrase for the topic.
+2. At the **Type your message** prompt at the bottom of the **Test bot** pane, enter a trigger phrase for the topic.
 
    ![Trigger phrase](media/enter-trigger.png)
 
-   The trigger phrase starts the topic's conversation. The Test bot pane displays the bot and user responses that you specified in the conversation editor.
+   The trigger phrase starts the topic's conversation. The **Test bot** pane displays the bot and user responses that you specified in the conversation editor.
 
    ![Start conversation](media/start-conversation.png)
 
@@ -118,8 +118,8 @@ As you design your topic's conversation path, you can use the Test bot pane to s
 
    ![Complete conversation](media/complete-conversation.png)
 
-   If the conversation editor is open, you can click on a response in the Test bot pane to navigate to the response in the conversation editor.
+   If the conversation editor is open, you can select a response in the **Test bot** pane to navigate to the response in the conversation editor.
 
-You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the bot until you are ready to deploy it. For information on deploying your bot, see [Deploying your bot](getting-started-deploy.md).
+You can return to the conversation editor at any time to revise the topic's conversation path and continue to fine-tune the bot until you are ready to deploy it. For more information, see [Deploying your bot](getting-started-deploy.md).
 
-For more information on using the Test bot pane, see [Work with the Test bot pane](how-to-test-bot.md).
+For more information on using the **Test bot** pane, see [Work with the Test bot pane](how-to-test-bot.md).

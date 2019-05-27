@@ -1,7 +1,7 @@
 ---
-title: "Deleting your bot"
+title: "Delete your bot"
 description: "Learn how to delete a Virtual Agent bot."
-ms.date: 05/16/2019
+ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -10,19 +10,19 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Deleting your bot
+# Delete your bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-If you want to remove your bot from the Virtual Agent environment, you can delete it using the **Delete Bot** command on the **Settings** menu.
+If you want to remove your bot from the Dynamics 365 Virtual Agent for Customer Service environment, you can delete it using the **Delete Bot** command on the **Settings** menu.
 
 ## To delete a bot
 
-1. Select the **Settings** button on the Virtual Agent title bar, and then select **General settings** to display the General pane of the Settings window.
+1. Select **Settings** on the Virtual Agent title bar, and then select **General settings** to display the **General** pane of the **Settings** window.
 
    ![Display General pane](media/general-settings.png)
 
-2. In the Delete bot section, select **Delete bot**.
+2. In the **Delete bot** section, select **Delete bot**.
 
    ![Delete bot](media/delete-bot.png)
 
