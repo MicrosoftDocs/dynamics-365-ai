@@ -1,5 +1,5 @@
 ---
-title: "Deploying your bot"
+title: "Deploy your bot"
 description: "Learn how to deploy your Virtual Agent bot."
 ms.date: 05/23/2019
 ms.service:
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Deploying your bot
+# Deploy your bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

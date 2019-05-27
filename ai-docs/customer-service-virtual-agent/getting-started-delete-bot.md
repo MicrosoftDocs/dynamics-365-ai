@@ -1,5 +1,5 @@
 ---
-title: "Deleting your bot"
+title: "Delete your bot"
 description: "Learn how to delete a Virtual Agent bot."
 ms.date: 05/23/2019
 ms.service:
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Deleting your bot
+# Delete your bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

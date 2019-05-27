@@ -1,5 +1,5 @@
 ---
-title: "Creating custom topics for your bot"
+title: "Create custom topics for your bot"
 description: "Learn how to use Dynamics 365 Virtual Agent for Customer Service to create custom topics for your bot."
 ms.date: 05/23/2019
 ms.service:
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Creating custom topics for your bot
+# Create custom topics for your bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

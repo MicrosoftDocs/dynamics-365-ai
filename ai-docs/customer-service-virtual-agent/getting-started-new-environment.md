@@ -1,5 +1,5 @@
 ---
-title: "Creating a PowerApps environment"
+title: "Create a PowerApps environment"
 description: "Learn how to create a PowerApps environment for Dynamics 365 Virtual Agent for Customer Service."
 ms.date: 05/23/2019
 ms.service:
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Creating a PowerApps environment
+# Create a PowerApps environment
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

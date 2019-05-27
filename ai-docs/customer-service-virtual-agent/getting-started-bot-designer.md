@@ -1,6 +1,6 @@
 ---
-title: "Working with a virtual agent"
-description: "Learn how to work with a virtual agent."
+title: "Work with Virtual Agent"
+description: "Learn how to work with a bot."
 ms.date: 05/23/2019
 ms.service:
   - "dynamics-365-ai"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Work with a virtual agent
+# Work with Virtual Agent
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

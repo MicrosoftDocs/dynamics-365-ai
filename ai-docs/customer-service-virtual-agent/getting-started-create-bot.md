@@ -1,5 +1,5 @@
 ---
-title: "Creating a bot"
+title: "Create a bot"
 description: "Learn how to use the Dynamics 365 Virtual Agent for Customer Service to create a bot."
 ms.date: 05/23/2019
 ms.service:
@@ -10,16 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Creating a bot
-
-<!--note from editor:MWSG guidance for headings and titles is to use either
--Verb phrases: “Prepare headings” 
--Infinitive phrases: “To create a heading” 
--Noun phrases: “Source data” 
-and also to 
--Edit out “you can,” “there is,” etc.
--Avoid gerund ("ing") phrases ("Uploading a blog)-->
-
+# Create a bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
