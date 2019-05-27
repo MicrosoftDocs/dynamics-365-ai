@@ -37,10 +37,8 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
    Your virtual agent is created in the default PowerApps environment that was created for you in the prior step. For most users, this is sufficient. However, if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the **More options** menu and selecting a different environment.
 
    >[!NOTE]
-   >Preview is currently supported only in the United States, with data stored in US data centers. If your company is domiciled outside of the United States, you need to create a custom environment, with **Region** set to **United States**, before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+   >Preview is currently supported only in the United States, with data stored in US data centers. If your company is located outside of the United States, you need to create a custom environment, with **Region** set to **United States**, before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
   
-
-    
 3. Once you select **Create**, the process for creating the first bot within a new environment can take up to 15 minutes. 
 
    ![Creating new bot screen](media/creating-bot-animation.png) 
@@ -53,10 +51,7 @@ Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) o
    > - [View and edit topics](getting-started-bot-designer.md#topics-page) (but not save them)
    > - [Watch product videos](virtual-agent-videos.md)
    
-   
-   
-   
-4.	When the bot creation process completes, the banner changes. You now have full functionality in the bot and can modify topics, test your changes, or deploy your bot.
+ 4.	When the bot creation process completes, the banner changes. You now have full functionality in the bot and can modify topics, test your changes, or deploy your bot.
 
 ## Creating additional bots
 

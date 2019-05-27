@@ -24,22 +24,29 @@ Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331),
 
 2. Select **New environment** to open the **New environment** dialog box.
 
-    Specify a unique name for the environment, select **United States** as the region, and select the environment type. Then select **Create environment**.
+    Specify a unique name for the environment, select **United States** as the region, and the environment type. Then select **Create environment**.
 
-    ![Create environment](media/create-environment.png)
+    > [!NOTE]
+    > The environment needs to be created with the region set to **United States**, otherwise you won't be able to use it when creating a bot.
+    > Trial environments expire after 30 days. You'll lose all bots created in the trial environment when it expires.
 
-    PowerApps creates the environment and displays a prompt asking if you want to create a database.
+   ![Create environment](media/create-environment-2.png)
+
+   PowerApps creates the environment and displays a prompt asking if you want to create a database.
 
 3. Select **Create database** to display the **Create a database for this environment** screen.
 
    ![Create database](media/create-database.png)
 
-4. Select your currency and language, and then select **Create database**.
+4. Select your currency, language, and clear the checkbox for **Include sample apps and data** and then select **Create database**.
 
-   ![Create database](media/create-database2.png)
+   > [!NOTE]
+   > Clearing "Include sample apps and data" will speed up the process of environment creation.
 
-    > [!NOTE]
-    > Creating a database and environment and making it available in Dynamics 365 Virtual Agent for Customer Service can take a couple of minutes.
+   ![Create database](media/create-database-2-1.png)
 
-5. You are now ready to use the environment when [creating a new bot](getting-started-create-bot.md).
+
+5. You will know that the environment is ready when you see an its ID in parenthesis after the environment name. It might take up to 5 minutes before you are ready to use the environment when [creating a new bot](getting-started-create-bot.md).
+
+    ![Environment is ready when string id is appended](media/environment-ready.png)
 

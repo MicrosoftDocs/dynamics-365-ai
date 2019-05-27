@@ -90,6 +90,56 @@ Your environment might not show up in the drop-down menu due to the following re
  - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com), and create a database in your environment.
  - The environment's region is set to something other than "United States." To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md), and create an environment in the United States region.
  - The environment didn't finish setting up. To resolve this, retry in a few minutes
+ 
+### Why am I getting emails about the expiration of my environment?
+
+If you have created your own environment and selected **Trial** as the environment type, you'll receive emails when it starts expiring. Trial environments are limited to 30 days. Once your trial environment expires, all the data and bots in the environment will be deleted. To avoid deletion of your data and loss of access to the apps, flows and resources you have been using [convert it to a production environment](https://go.microsoft.com/fwlink/?linkid=2048531)
+
+## Authoring
+
+### How do I access the conversation designer?
+
+You can access the conversation designer (the visual dialogue tree editor) by selecting **Edit** on a topic. You can either hover over a topic name and select the pencil icon or select the **Edit** button from the **Topic details** page.
+ 
+### How do I use variables to save end-user responses for later use?
+
+In the conversation designer, select **User says**, and then select **Add variable**. This opens **Properties**, where you can select **Create variable**. Name your variable, and select from the different variable types. Now you will be able to refer to previous user utterances using this variable.
+    
+### Which variable types do you support? Will you add more types later?
+
+We currently support four variable types: Text, Age, Number, and Currency. The different types help our natural language understanding model interpret user responses in different ways. For example, if you create a variable called “MyAge”, the bot would be able to understand that “18 years old” is **MyAge = 18**. Similarly, if you created a variable called “BankBalance” and set it to a Currency type, it could understand responses such as **USD 300** or **$300.00** as both equal to 300.
+We have plans to expand the types of variables supported in the coming months, and will also add support for custom-defined variable types.
+
+### Can I change or rename variables after I’ve created them?
+
+Yes, you can change your variable types or rename your variables after you’ve created them. Select the variable and edit the properties. Select **Done** to complete the changes.
+If you change the variable type, expressions that rely on that variable might become invalid because the operator might no longer be relevant.  For example, if you change a number variable to a text variable but use the expression “FormerNumberVariable is greater than 10”, that expression no longer works when the variable type has been changed.
+
+### Do I need to delete orphaned nodes?
+
+You might end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top-right portion of the authoring canvas. You don't need to delete these orphaned nodes—your dialogue tree will ignore these nodes because they are inaccessible from the main part of your dialogue tree.
+You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialogue tree.
+
+![Orpahned nodes in the conversation designer](media/orphaned-nodes.png)
+
+### I can’t access greater than/less than comparisons in my Expression node—I can only see “is equal to”. Why is this, and how do I do other operations? 
+
+The types of operations available to you in your Expression node vary depending on the type of variable used within that expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You might find that if you change the variable type, certain expressions that you have authored will no longer be valid, particularly if you are changing between Text and Age/Number/Currency types—so when this happens, you need to modify your Expression nodes for your dialogue to work properly.
+
+### How do I create fallback routes?
+You can create fallback routes to cover scenarios where you want the bot to respond to something outside of the listed branches of your tree. An example would be if the dialogue asks the user to name a city, and you have answers prepared for when the user's answer is Seattle or Bellevue, but the user specifies another city name. 
+
+You might want to author another branch of the tree that covers any response outside of “Seattle” or “Bellevue”. You can do this by hovering over the lines between the “User Responses” node and the “User Says” nodes. Select the plus icon, and then select **Fallback**.  This adds a branch to the tree that enables you to author content for any response that is not in your two main branches.
+
+![Fallback option](media/fallback-option.png)
+
+### Can I create routing branches without showing suggestion buttons?
+
+Yes, it is possible to hide suggestion buttons. You can do this by selecting the trash can icon next to the suggestion button in the “User Responses” node. This retains the routes below, but those routes would only be accessible if the user typed in the response directly to the bot.
+
+In the following example, suppose you want to display the “Seattle” and “Bellevue” suggestions, but you create a hidden “Redmond” route.  The bot can still route correctly to the Redmond branch if the user types Redmond into the bot window, but Redmond would not be shown as a button.
+
+![Hidden route](media/hidden-route.png)
 
 ## Topic creation and management  
 
@@ -246,49 +296,3 @@ There are several common causes of poor performance including a high number of u
 - High number of unengaged sessions: Indication that you have missing content and you don’t have topics created to address the type of questions asked by your customers.
 - Poorly written or incomplete topics: A topic may not be well written or is lacking content to address a particular nuance of the customers question. For example, customers may want information on how to get a refund but you only provide information on how to do an exchange. This may result in high number of escalated or abandoned sessions.
 - Overlapping triggers: If you are using the same trigger words on multiple topics, it may result in the bot needing to ask “did you mean” questions after the customer types their first question/utterance to try to determine which topic it should show the customer first. This may result in the bot triggering the wrong topic and bot providing the content the customer needs. 
-
-## Authoring
-
-### How do I access the conversation designer?
-
-You can access the conversation designer (the visual dialogue tree editor) by selecting **Edit** on a topic. You can either hover over a topic name and select the pencil icon or select the **Edit** button from the **Topic details** page.
- 
-### How do I use variables to save end-user responses for later use?
-
-In the conversation designer, select **User says**, and then select **Add variable**. This opens **Properties**, where you can select **Create variable**. Name your variable, and select from the different variable types. Now you will be able to refer to previous user utterances using this variable.
-    
-### Which variable types do you support? Will you add more types later?
-
-We currently support four variable types: Text, Age, Number, and Currency. The different types help our natural language understanding model interpret user responses in different ways. For example, if you create a variable called “MyAge”, the bot would be able to understand that “18 years old” is **MyAge = 18**. Similarly, if you created a variable called “BankBalance” and set it to a Currency type, it could understand responses such as **USD 300** or **$300.00** as both equal to 300.
-We have plans to expand the types of variables supported in the coming months, and will also add support for custom-defined variable types.
-
-### Can I change or rename variables after I’ve created them?
-
-Yes, you can change your variable types or rename your variables after you’ve created them. Select the variable and edit the properties. Select **Done** to complete the changes.
-If you change the variable type, expressions that rely on that variable might become invalid because the operator might no longer be relevant.  For example, if you change a number variable to a text variable but use the expression “FormerNumberVariable is greater than 10”, that expression no longer works when the variable type has been changed.
-
-### Do I need to delete orphaned nodes?
-
-You might end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top-right portion of the authoring canvas. You don't need to delete these orphaned nodes—your dialogue tree will ignore these nodes because they are inaccessible from the main part of your dialogue tree.
-You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialogue tree.
-
-![Orpahned nodes in the conversation designer](media/orphaned-nodes.png)
-
-### I can’t access greater than/less than comparisons in my Expression node—I can only see “is equal to”. Why is this, and how do I do other operations? 
-
-The types of operations available to you in your Expression node vary depending on the type of variable used within that expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You might find that if you change the variable type, certain expressions that you have authored will no longer be valid, particularly if you are changing between Text and Age/Number/Currency types—so when this happens, you need to modify your Expression nodes for your dialogue to work properly.
-
-### How do I create fallback routes?
-You can create fallback routes to cover scenarios where you want the bot to respond to something outside of the listed branches of your tree. An example would be if the dialogue asks the user to name a city, and you have answers prepared for when the user's answer is Seattle or Bellevue, but the user specifies another city name. 
-
-You might want to author another branch of the tree that covers any response outside of “Seattle” or “Bellevue”. You can do this by hovering over the lines between the “User Responses” node and the “User Says” nodes. Select the plus icon, and then select **Fallback**.  This adds a branch to the tree that enables you to author content for any response that is not in your two main branches.
-
-![Fallback option](media/fallback-option.png)
-
-### Can I create routing branches without showing suggestion buttons?
-
-Yes, it is possible to hide suggestion buttons. You can do this by selecting the trash can icon next to the suggestion button in the “User Responses” node. This retains the routes below, but those routes would only be accessible if the user typed in the response directly to the bot.
-
-In the following example, suppose you want to display the “Seattle” and “Bellevue” suggestions, but you create a hidden “Redmond” route.  The bot can still route correctly to the Redmond branch if the user types Redmond into the bot window, but Redmond would not be shown as a button.
-
-![Hidden route](media/hidden-route.png)
