@@ -2,13 +2,15 @@
 
 # [Quickstart](quickstart.md)
 
+# [Videos](virtual-agent-videos.md)
+
 # [Frequently asked questions](faq.md)
 
 # Introduction
 
-## [Create a PowerApps environment](getting-started-new-environment.md)
-
 ## [Create a bot](getting-started-create-bot.md)
+
+## [Create a PowerApps environment](getting-started-new-environment.md)
 
 ## [Work with Virtual Agent](getting-started-bot-designer.md)
 
@@ -49,8 +51,6 @@
 ## [Topic details page](analytics-topic-details.md)
 
 ## [Sessions page](analytics-sessions.md)
-
-# [Videos](virtual-agent-videos.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 

@@ -62,7 +62,7 @@ Update the Escalate system topic, and update the “Bot says” node to include 
 
 ### I ran into a problem. What should I do to file a bug? How quickly will you get back to me? 
 
-You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639). We will respond within 48 hours.
+You can file bugs in the in the [community forum](https://go.microsoft.com/fwlink/?linkid=2058639).
 
 ### I have a new feature idea or some ideas on how to make a feature work better. How should I submit these ideas to the product team?
 
@@ -109,11 +109,6 @@ You can find details about creating your own topics in this article: [Creating c
 
 You can delete user topics by hovering over the topic name and then selecting the trash can icon. Note that only user topics can be deleted. System topics are required for the bot to function and can be edited, but not deleted.
 
-### How can I test topics that I've customized or created from scratch to make sure they are working properly?
-
-Virtual Agent lets you test your bot so that you can see how the conversation you designed in the conversation editor works in practice. 
-You can test a virtual agent topic by entering a trigger phrase for the topic at the "Type your message" prompt at the bottom of the test bot. Select any chat bubble to navigate to that point in the conversation. 
-
 ### When I test the bot, it doesn't seem to reflect my edits. What's happening? 
 
 You need to make sure to save the topic you're editing, and then select the **Start over with latest content** button in the test bot. This ensures that the latest content gets updated in the chat canvas. 
@@ -121,10 +116,6 @@ You need to make sure to save the topic you're editing, and then select the **
 ### What is the green outline that appears while I'm testing my topic? 
 
 The green outline appears around each node that is successfully tested while you are using the test bot. Nodes that fail are outlined in red. 
-
-### What is the “Follow” control in the test bot? 
-
-Turn on **Follow** to jump between topics while testing your bot. The conversation on the right will update simultaneously. Select any chat bubble to navigate to that point in the conversation. 
 
 ### What is Topic Checker? 
 
@@ -147,7 +138,7 @@ Variables store customer responses to bot questions. Variables can be used in ex
 
 ### How do I create a Microsoft Flow action in Virtual Agent?
 
-A: Here is a [video on how to create a Microsoft Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be executed from Virtual Agent.
+Have a look at the article about [Add actions to your bot using Microsoft Flow](how-to-flow.md) and the [video on how to create a Microsoft Flow action that can be executed from Virtual Agent](https://go.microsoft.com/fwlink/?linkid=2079323).
 
 ### What license do I need to use Microsoft Flow in Virtual Agent?
 
@@ -160,7 +151,8 @@ Every bot author is automatically licensed to use Microsoft Flow. No extra steps
 - Bots can only invoke flows that have HTTP Request interfaces, so you need to select the right trigger for your flow. Select **When Http Request is received** from the trigger list in Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, which is how it is by default):
 ![POST method in HTTP Request](media/flow-http-post-method.png)
 
-View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
+> [!NOTE]
+> View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
 ### I created a flow with an HTTP Request trigger, and it's visible in my bot, but when I test my topic, it fails. Why?
 
@@ -179,13 +171,11 @@ Examples of popular connectors include Microsoft Common Data Service (CDS), Dyna
 If there is no suitable connector that you can use out of the box in Microsoft Flow, you can use an HTTP call inside a flow to connect to a custom third-party API, like in the following example:
 ![Connect to 3rd party API](media/connect-API-flow.png)
 
-
 ### Can we call a third-party API directly from the Virtual Agent action, without going through a flow?
 
 This capability is not currently available directly from the Virtual Agent experience, but you can call any third-party API by wrapping the call in a flow. If this feature is critical to your business, please [submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
-
-### How do I work with my data in Microsoft Flow?
+### How to work with your data in Microsoft Flow?
 Microsoft Flow provides [hundreds of data connectors](https://docs.microsoft.com/connectors/) and offers many ways to manipulate your data. Refer to the following Microsoft Flow documentation for more information on how to:
 - [Use Common Data Service (CDS)](https://docs.microsoft.com/flow/connection-cds)
 - [Create a flow that uses the Common Data Service](https://docs.microsoft.com/flow/common-data-model-intro)
@@ -234,6 +224,29 @@ If the modern SharePoint site allows embedding an iframe, it should be able to e
 A conversation is the entire interaction between the bot and a user, starting from the user’s first message to when the chat window is closed or inactive for about an hour. Within a conversation, the user might have more than one query. 
 A session is intended to capture just one query or problem within a conversation. So, a conversation can have multiple sessions. A session starts with the user’s initial query and ends when the user indicates the problem is solved ("confirmed success" topic) or the session is escalated ("escalation" topic).
 
+### What’s the definition of an engaged session? 
+
+An engaged session is one where the bot has been able to find a topic that could potentially help answer the customer’s question.  
+
+### What’s the definition of an unengaged session?
+
+An unengaged session is one where the bot can't find a topic that can potentially help solve the customer’s question or issue. Unengaged sessions are an indication that you have missing content and need to create additional topics to address those questions. You can find unengaged sessions by [downloading Session data](analytics-sessions.md) and filtering the Session Outcome column to show unengaged sessions.   
+
+### Can I view the detailed content of sessions between my bot and customers?  
+
+Yes, you can find the detailed content of sessions, by [downloading Session data](analytics-sessions.md).
+
+### How can I improve the performance of my bot over time?   
+
+Start by reviewing the performance of your bot in the Analytics tab. Examine which topics have the most abandoned and escalated sessions. They will appear at the top of the Escalation Rate and Abandon Rate charts. You can also find the detailed content of sessions, by [downloading Session data](analytics-sessions.md). You can then filter by Session Outcome. We recommend you focus on analyzing the content of Escalated, Abandoned and Unengaged sessions first to identify the causes of poor performance.  
+
+### What are the common causes of poor bot performance?    
+
+There are several common causes of poor performance including a high number of unengaged sessions, poorly written content, incomplete topics, or overlapping triggers.  
+- High number of unengaged sessions: Indication that you have missing content and you don’t have topics created to address the type of questions asked by your customers.
+- Poorly written or incomplete topics: A topic may not be well written or is lacking content to address a particular nuance of the customers question. For example, customers may want information on how to get a refund but you only provide information on how to do an exchange. This may result in high number of escalated or abandoned sessions.
+- Overlapping triggers: If you are using the same trigger words on multiple topics, it may result in the bot needing to ask “did you mean” questions after the customer types their first question/utterance to try to determine which topic it should show the customer first. This may result in the bot triggering the wrong topic and bot providing the content the customer needs. 
+
 ## Authoring
 
 ### How do I access the conversation designer?
@@ -259,8 +272,9 @@ If you change the variable type, expressions that rely on that variable might be
 You might end up creating orphaned nodes if you delete certain nodes and find that subsequent nodes get relocated to the top-right portion of the authoring canvas. You don't need to delete these orphaned nodes—your dialogue tree will ignore these nodes because they are inaccessible from the main part of your dialogue tree.
 You can reconnect these nodes by selecting the lines between the nodes and dragging them over to your orphaned nodes, reconnecting them to the main dialogue tree.
 
-### I can’t access greater than/less than comparisons in my Expression node—I can only see “is equal to”. Why is this, and how do I do other operations? 
+![Orpahned nodes in the conversation designer](media/orphaned-nodes.png)
 
+### I can’t access greater than/less than comparisons in my Expression node—I can only see “is equal to”. Why is this, and how do I do other operations? 
 
 The types of operations available to you in your Expression node vary depending on the type of variable used within that expression. For text variables, the only operation available is “is equal to”. For Age, Number, or Currency, you have all the operators available to you. You might find that if you change the variable type, certain expressions that you have authored will no longer be valid, particularly if you are changing between Text and Age/Number/Currency types—so when this happens, you need to modify your Expression nodes for your dialogue to work properly.
 
@@ -271,7 +285,7 @@ You might want to author another branch of the tree that covers any response out
 
 ![Fallback option](media/fallback-option.png)
 
-## Can I create routing branches without showing suggestion buttons?
+### Can I create routing branches without showing suggestion buttons?
 
 Yes, it is possible to hide suggestion buttons. You can do this by selecting the trash can icon next to the suggestion button in the “User Responses” node. This retains the routes below, but those routes would only be accessible if the user typed in the response directly to the bot.
 
