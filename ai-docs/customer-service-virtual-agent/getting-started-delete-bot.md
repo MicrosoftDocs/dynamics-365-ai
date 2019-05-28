@@ -24,7 +24,6 @@ If you want to remove your bot from the Dynamics 365 Virtual Agent for Customer 
 
 2. In the **Delete bot** section, select **Delete bot**.
 
-   ![Delete bot](media/delete-bot.png)
 
 Virtual Agent removes your bot from the system and opens the **Create a new bot** screen, giving you the opportunity to create a new bot.
 

@@ -37,8 +37,6 @@ Follow these steps to delete a bot:
 
 3. In the **Delete bot** section, select **Delete bot**.
 
-   ![Delete bot](media/delete-bot.PNG)
-
 All bot content is immediately deleted.
 
 ### Bot chat logs
