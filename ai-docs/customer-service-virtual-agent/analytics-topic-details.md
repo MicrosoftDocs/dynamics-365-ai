@@ -16,6 +16,8 @@ manager: shellyha
 
 The topic details page provides a view into the performance of individual topics and how they can be improved.
 
+![Topic details page](media/topic-details-page.png)
+
 You can display the topic details page by selecting the **Detail** link in one of the following charts on the [Summary](analytics-summary.md) and [Customer Satisfaction](analytics-CSAT.md) pages:
 
 * [Escalation rate drivers (Summary page)](analytics-summary.md#escalation-rate-drivers-chart)
