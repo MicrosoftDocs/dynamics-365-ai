@@ -37,7 +37,7 @@ Description | Details
 ----------- | -------
 Topic | A Dynamics 365 Virtual Agent for Customer Service topic.
 Engaged sessions | The number of engaged sessions for the topic within the specified time period.
-Resolution rate | The percentage of engaged sessions for the topic that are resolved. A resolved session is an engaged session in which the user receives a CSAT survey and either does not respond or responds *Yes*.
+Resolution rate | The percentage of engaged sessions for the topic that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey and either does not respond or responds *Yes*.
 Abandon rate | The percentage of engaged sessions for the topic that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 Escalation rate | The percentage of engaged sessions for the topic that are escalated. An escalated session is an engaged session that is escalated to a human agent.
 Avg CSAT | The average CSAT survey score for the topic.

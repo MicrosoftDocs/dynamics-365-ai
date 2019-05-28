@@ -41,7 +41,7 @@ Description | Details
 ----------- | -------
 Total sessions | The total number of sessions within the specified time period.
 Engagement rate | The percentage of total sessions that are engaged sessions. An engaged session is a session in which a user-created topic (as opposed to a system topic) is triggered, or the session ends in escalation. Engaged sessions can have one of three outcomes—they are either resolved, escalated, or abandoned.
-Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives a customer satisfaction (CSAT) survey and either does not respond or responds *Yes*.
+Resolution rate | The percentage of engaged sessions that are resolved. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question *“Did that answer your question?”* and the user either does not respond or responds *Yes*.
 Escalation rate | The percentage of engaged sessions that are escalated. An escalated session is an engaged session that is escalated to a human agent.
 Abandon rate | The percentage of engaged sessions that are abandoned. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 Average CSAT | The graphical view of the average of CSAT scores for sessions in which customers respond to an end-of-session request to take the survey.
@@ -63,7 +63,7 @@ The Session Outcomes over Time chart provides a graphical view of the daily reso
 
 Description | Details
 ----------- | -------
-Resolved | The daily rate of resolved sessions. A resolved session is an engaged session in which the user receives a customer CSAT survey and either does not respond or responds with *Yes*.
+Resolved | The daily rate of resolved sessions. A resolved session is an engaged session in which the user receives an end-of-conversation survey that asks the question *“Did that answer your question?”* and the user either does not respond or responds *Yes*.
 Escalated | The daily rate of escalated sessions. An escalated session is an engaged session that is escalated to a human agent.
 Abandoned | The daily rate of abandoned sessions. An abandoned session is an engaged session that is neither resolved nor escalated after one hour from the beginning of the session.
 
@@ -74,7 +74,7 @@ The Resolution Rate Drivers chart displays topics in order of their impact on th
 Description | Details
 ----------- | -------
 Topic | A Dynamics 365 Virtual Agent for Customer Service topic.
-Rate | The percentage of engaged sessions for the topic that are resolved. A resolved session is an engaged session in which a customer receives an end-of-session survey and either does not respond to the survey or responds with *Yes*.
+Rate | The percentage of engaged sessions for the topic that are resolved. A resolved session is an engaged session in which a customer receives an end-of-conversation survey and either does not respond to the survey or responds with *Yes*.
 Impact | The topic's resolution rate impact score. The resolution rate impact score is the overall resolution rate including the topic minus the overall resolution rate excluding the topic.
 
 The chart displays the impact as a red or blue bar. A red bar indicates that the topic's resolution rate is greater than the average resolution rate, resulting in a negative impact on overall resolution rate. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall resolution rate performance.
