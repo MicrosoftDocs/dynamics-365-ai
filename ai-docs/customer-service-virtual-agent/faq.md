@@ -159,6 +159,10 @@ A system topic is linked to predefined features like a customer survey, escalati
 
 You can find details about creating your own topics in this article: [Creating custom topics for your bot](getting-started-create-topics.md).
 
+### How many versions of a topic can I have? 
+
+Currently, you can have up to two versions of a topic. A published version and an unpublished version, which you can work on. 
+
 ### How do I delete topics? 
 
 You can delete user topics by hovering over the topic name and then selecting the trash can icon. Note that only user topics can be deleted. System topics are required for the bot to function and can be edited, but not deleted.
@@ -270,6 +274,9 @@ You can find the details in this article: [To share your bot on the demo website
 
 If the modern SharePoint site allows embedding an iframe, it should be able to embed the bot. We have an iframe code snippet that you can get for your respective bot by going to the **Deploy** page. That snippet can be pasted into any HTML webpage, and from there you should see your bot appear. You can get this code to embed in your SharePoint site from **Deploy** > **Custom Website** in Virtual Agent.
 
+### Why are the changes I made to my topic not reflected on the demo website page, or custom website? 
+
+Today you can have up to two versions of a topic, a published version (which you’ve previously deployed) and an unpublished version. When you [edit a topic](getting-started-create-topics.md), that change will not be available until you [redeploy the bot](getting-started-deploy.md). Once redeployed, the bot will use latest state of the topic and end users will see the updated conversation.
 
 ## Analytics 
 
