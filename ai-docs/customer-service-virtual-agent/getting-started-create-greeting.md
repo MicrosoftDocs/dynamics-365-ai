@@ -1,7 +1,7 @@
 ---
 title: "Create a custom greeting for your bot"
 description: "Learn how to create a custom greeting for your bot."
-ms.date: 05/23/2019
+ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

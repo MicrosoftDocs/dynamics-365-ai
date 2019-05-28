@@ -1,7 +1,7 @@
 ---
 title: "Use analytics to improve your bot"
 description: "Learn how to use analytics to improve your virtual agent"
-ms.date: 05/24/2019
+ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

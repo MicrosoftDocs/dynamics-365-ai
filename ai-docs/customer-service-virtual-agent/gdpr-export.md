@@ -1,7 +1,7 @@
 ---
 title: "Responding to GDPR Data Subject Export Requests for Dynamics 365 Virtual Agent for Customer Service"
 description: "Learn how to respond​ to GDPR Data Subject Export Requests for Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 05/24/2019
+ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

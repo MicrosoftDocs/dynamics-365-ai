@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create and deploy a customer service bot"
 description: "Learn how to quickly create a customer service bot using Virtual Agent."
-ms.date: 05/23/2019
+ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

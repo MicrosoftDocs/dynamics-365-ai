@@ -1,7 +1,7 @@
 ---
 title: "Work with built-in topics"
 description: "Learn how to work with Dynamics 365 Virtual Agent for Customer Service built-in topics."
-ms.date: 05/23/2019
+ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article

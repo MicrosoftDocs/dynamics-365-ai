@@ -1,7 +1,7 @@
 ---
 title: "Delete your bot"
 description: "Learn how to delete a Virtual Agent bot."
-ms.date: 05/23/2019
+ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
