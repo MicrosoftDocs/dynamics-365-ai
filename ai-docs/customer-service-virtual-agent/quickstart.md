@@ -14,12 +14,12 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Microsoft Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quickly and easily create powerful bots using a guided no-code graphical experience—all without the need for data scientists or developers. 
+Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quickly and easily create powerful bots using a guided no-code graphical experience—all without the need for data scientists or developers. 
 
-This guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. 
+This quickstart guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. 
 
 > [!NOTE]
-> You can also [view the How to Create, Test, and Deploy a Virtual Agent video](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end process. 
+> [Watch the video How to create, test, and deploy a bot](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end bot creation process. 
 
 ## Create your first bot
 
