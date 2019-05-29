@@ -48,14 +48,14 @@ Using Virtual Agent for Customer Service, you can:
 
 ## Helpful links
 
-[Creating a bot](getting-started-create-bot.md).
+[Creating a bot](getting-started-create-bot.md)
 
-[Creating custom topics for your bot](getting-started-create-topics.md).
+[Creating custom topics for your bot](getting-started-create-topics.md)
 
-[Deploying your bot](getting-started-deploy.md).
+[Deploying your bot](getting-started-deploy.md)
 
-[Using analytics to improve your bot](getting-started-analytics.md).
+[Using analytics to improve your bot](getting-started-analytics.md)
 
-[Working with Virtual Agent](getting-started-bot-designer.md).
+[Working with Virtual Agent](getting-started-bot-designer.md)
 
-[Deleting a bot](getting-started-delete-bot.md).
+[Deleting a bot](getting-started-delete-bot.md)
