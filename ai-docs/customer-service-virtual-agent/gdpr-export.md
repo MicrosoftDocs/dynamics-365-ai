@@ -14,36 +14,24 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Manage export requests
+## Export the bot content
 
-Dynamics 365 Virtual Agent for Customer Service offers the following capabilities to find or export personal data for a specific user:
+1. Go to [https://www.powerapps.com](https://www.powerapps.com) and sign in with your credentials.
 
-* Export customer data – Virtual Agent bot content
-* Export customer data – Virtual Agent system content
-* Export customer data – Virtual Agent non-system content
-* Export customer data – Analytics data
+   ![Sign in to powerapps.com](media/export-1.png)
 
-### Export customer data – Virtual Agent bot content
+2. After signing in, you are redirected to the PowerApps portal.
 
-1. Open Virtual Agent in your browser.
-2. On the **Settings** menu, select **General settings** to display the **General** tab of the **Settings** window.
+   ![PowerApps portal](media/export-2.png)
 
-   ![General settings](media/general-settings.png)
+3. In the left pane, expand the **Data** node. Select **Entities** and select **Export data**.
 
-3. In the Export section, select **Export all bot content** to export all bot content, **Export bot system content** to export bot system content, or **Export bot non-system content** to export bot non-system content.
+   ![Clickpath to export data](media/export-3.png)
 
-   ![Export bot content](media/export-bot-content.png)
+4. On the Export data screen, select **BotContent** and **Note** from the entity list. Select **Export data** in the top right. Your data will take a couple of minutes to be compiled for export.
 
-### Export customer data – Analytics data
+   ![Select entities for export](media/export-4.png)
 
-1. Hover over a chart on one of the Analytics pages and select **More options** (...) .
+5. Select **Download exported data** to download the content.
 
-   ![More options](media/more-options.png)
-
-2. From the drop-down menu, select **Export data**.
-
-    ![Export data](media/export-data.png)
-
-3. To export summarized data, select **Summarized data** and a file format, and then select **Export**.
-
-   ![Export details](media/export-details.png)
+   ![Download exported data](media/export-6.png)
