@@ -48,14 +48,14 @@ Using Virtual Agent for Customer Service, you can:
 
 ## Helpful links
 
-For information about creating a bot, see [Creating a bot](getting-started-create-bot.md).
+[Creating a bot](getting-started-create-bot.md).
 
-For information about creating topics for your bot, see [Creating custom topics for your bot](getting-started-create-topics.md).
+[Creating custom topics for your bot](getting-started-create-topics.md).
 
-For information about deploying your bot, see [Deploying your bot](getting-started-deploy.md).
+[Deploying your bot](getting-started-deploy.md).
 
-For information about using analytics information to help you improve your bot, see [Using analytics to improve your bot](getting-started-analytics.md).
+[Using analytics to improve your bot](getting-started-analytics.md).
 
-For information about working with Virtual Agent, see [Working with Virtual Agent](getting-started-bot-designer.md).
+[Working with Virtual Agent](getting-started-bot-designer.md).
 
-For information about removing your bot from the Dynamics 365 Virtual Agent for Customer Service environment, see [Deleting a bot](getting-started-delete-bot.md).
+[Deleting a bot](getting-started-delete-bot.md).
