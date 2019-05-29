@@ -19,7 +19,7 @@ Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quick
 This quickstart guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. 
 
 > [!NOTE]
-> [Watch the video How to create, test, and deploy a bot](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end bot creation process. 
+> [Check out the video How to create, test, and deploy a bot](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end bot creation process. 
 
 ## Create your first bot
 
