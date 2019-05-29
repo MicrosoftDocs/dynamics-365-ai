@@ -2,7 +2,7 @@
 title: "Use and manage workspaces to connect to different customer service environments"
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 5/29/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -14,13 +14,14 @@ manager: shellyha
 
 # Use and manage workspaces to connect to different customer service environments
 
-When you work with the dashboards in Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
+When you work with the dashboards in Dynamics 365 Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
 
 You can use and manage workspaces in a variety of ways, including:
 
 * [Creating a workspace](#creating-a-workspace)
 * [Opening the demo workspace](#opening-the-demo-workspace)
 * [Switching between workspaces](#switching-between-workspaces)
+* [Sharing a workspace](#sharing-a-workspace)
 * [Deleting a workspace](#deleting-a-workspace)
 
 ## Creating a workspace
@@ -29,7 +30,7 @@ To launch Customer Service Insights, navigate to [https://csi.ai.dynamics.com](h
 
 ![Connect your data screen](media/connect-data.png)
 
-Each workspace displays customer service data from a specific customer service data environment. To connect to a Dynamics 365 for Customer Service Insights environment, select **Dynamics 365** to display the **Choose an environment** screen.
+Each workspace displays customer service data from a specific customer service data environment. To connect to a Dynamics 365 Customer Service Insights environment, select **Dynamics 365** to display the **Choose an environment** screen.
 
 ![Choose an environment screen](media/choose-environment.png)
 
@@ -59,6 +60,25 @@ To switch to a different workspace, select the **Workspaces** icon on the Custom
 
 Customer Service Insights opens the workspace and displays the customer service data associated with the workspace in the dashboards.
 
+## Sharing a workspace
+
+If you want other users to have access to your workspace, you can share it.
+
+To share a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to share to display the **Share** icon, and then select the icon.
+
+![Share workspace](media/share-workspace.png)
+
+On the **Share** tab of the **Share this workspace** dialog box, enter the email address of a user who has a Customer Service Insights license to share the workspace. Users receive an email with an optional message when a workspace gets shared.
+
+## Managing access to workspaces
+
+There are two roles, with different permissions levels, for users of workspaces:  
+
+- **Owner**: Creator of a workspace.</br>
+  Owners manage access to their workspaces.
+- **Viewer**: Read-only role that is introduced when sharing a workspace.<br> 
+  Viewers can access shared workspaces.
+
 ## Deleting a workspace
 
 If you no longer want Customer Service Insights to display a workspace in the list of current workspaces, you can delete it.
@@ -66,35 +86,6 @@ If you no longer want Customer Service Insights to display a workspace in the li
 To delete a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
 
 ![Delete workspace](media/delete-workspace.png)
-<!---
-## Sharing a workspace
 
-If you want other users to have access to your workspace, you can share it.
 
-To share a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Share** icon, and then select the icon.
 
-![Share workspace](media/share-workspace.png)
-
-On the **Share** tab of the **Share this workspace** dialog box, enter the email address of a user to share the workspace.
-
-1.	Users can see sharing icon from my workspaces
-2.	Add email address (within the tenant)
-3.	Optional message
-4.	Share will send user an email with link to access
-5.	To access shared workspace user would need a license 
-
-Managing access to workspaces
-
-1.	See users with access
-2.	Ability to revoke access 
-3.	Learn more page about roles and permissions, it’s a fwlink that we can link to this specific documentation page. 
-
-•	Owner: creator of a workspace. 
- o	Every user who’s using our product before the sharing feature are owners of their workspaces.
- o	They can manage access for their workspaces.
-•	Viewer: new read-only role introduced with the sharing feature. 
- o	They can access workspaces created and shared by the owner. 
- o	They will need a CSI license to see the workspace.
- o	They cannot customize any settings or contribute to any AI feedback on the Topics page.
-
--->
