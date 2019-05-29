@@ -15,7 +15,6 @@ ms.author: udag
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 01
 topic-status: Drafting
 ---
@@ -31,13 +30,14 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 
 As a sales manager, it is important for you to understand how your business is doing at each level of the sales cycle such as lead capture, account creation, contact setup, opportunity management, product catalog, and quote management. Using the Business section, you will get detailed information on all phases of the sales cycle to help you understand how your team is performing and to plan your day-to-day activities. 
 
-On [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
+On [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app, select **Business**. The **Business** section displays, containing the following tabs:
 
-- **Forecast**: Gives you an overview of all sales against the intended quota for the full period.
-- **Actuals**: Give you a deeper understanding of closed revenue.
-- **Pipeline**: Give you visibility into the upcoming deals to identify risks.
-- **Lead**: Helps you predict whether there are enough leads to replenish the pipeline.
-- **Activities**: Give you visibility into the activities that have contributed most to success.
+- **Forecast**: Gives you an overview of all sales against the intended quota for the full period. To learn more, see [Forecast](#forecast)
+- **Actuals**: Give you a deeper understanding of closed revenue. To learn more, see [Actuals](#actuals)
+- **Pipeline**: Give you visibility into the upcoming deals to identify risks. To learn more, see [Pipeline](#pipeline)
+- **Activities**: Give you visibility into the activities that have contributed most to success. To learn more, see [Activities](#activities)
+- **Lead**: Helps you predict whether there are enough leads to replenish the pipeline. To learn more, see [Leads](#leads)
+- **Predictive forecast**: Helps you to predict sales forecast for the current period by providing visibility into your business. To learn more, see [Preview: Predictive forecast](#preview-predictive-forecast)
 
 > [!div class="mx-imgBorder"]
 > ![Open business section](media/d365-ai-business-tabs.png "Open business section")
@@ -173,12 +173,16 @@ The following is an example of how the **Leads** tab displays:
 |**6. Lead quality**|Helps you to understand whether you are generating quality leads. The information is plotted on a pie chart and based on the quality such as hot, warm, and cold. By analyzing this information, you can decide whether to change the process of generating leads or to continue with the existing process.<br>Hovering over a pie displays more information. Highlighting a pie in the chart cross-filters the other visualizations on the report page, and vice versa.|
 |**7. Did we qualify our best leads?**|Displays information on the qualification of the best leads available to you in the pipeline according to the grades. The information is displayed in a bar chart, where the x-axis defines the grades and the y-axis defines the number of best leads.<br>Hovering over the bar displays more information. Highlighting a bar cross-filters the other visualizations on the report page, and vice versa.|
 |**8. Leads by region**|Displays the regions in which you have open leads. Also, helps you to analyze which regions to focus on to increase the leads. Each lead is plotted on the map as a bubble and attached to the address of the account. The size of the bubble determines the value of the lead. Hover over the bubble to see more information such as city and open lead count.<br>Highlighting a bubble cross-filters the other visualizations on the report page, and vice versa.|
- 
+
+
+## Preview: Predictive forecast
+
+[!INCLUDE[work_predictive_forecast](../sales/work-predictive-forecasting.md)]  
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
 
 ### See also
 
-- [Unlock sales potential with Dynamics 365 AI for Sales](dynamics365-ai-sales-app.md)
+- [Unlock sales potential with Dynamics 365 Sales Insights](dynamics365-ai-sales-app.md)

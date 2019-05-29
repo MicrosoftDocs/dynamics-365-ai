@@ -47,7 +47,7 @@ Let's explore those insights:
 - **Customer segments** (#3): Includes segments that were created around your customers. For more information on how to manually create additional segments, visit the **Segments** section.
 
 ### Next step
-Many of the home page insights are dependent upon the completion of the data configuration process, and this process in turn is based on first loading data into Customer Insights. See the [Data Manager](pm-data-manager.md) or [Data Sources](pm-data-sources.md) topics to learn how to complete the data loading process. 
+Many of the home page insights are dependent upon the completion of the data configuration process, and this process in turn is based on first loading data into Customer Insights. See the <!-- [Data Manager](pm-data-manager.md) or --> [Data Sources](pm-data-sources.md) topic to learn how to complete the data loading process. 
 
 Complete these steps before you start building insights on top of your data. 
 

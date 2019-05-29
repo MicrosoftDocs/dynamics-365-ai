@@ -1,7 +1,7 @@
 ---
 title: "Who Knows Whom in Dynamics 365 for Sales | MicrosoftDocs"
 description: "how to get introduced to a lead in Dynamics 365 for Sales."
-keywords: "who knows whom, get introduced to lead, Dynamics 365 for Sales"
+keywords: "who knows whom, get introduced to lead, Dynamics 365 for Sales, Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -89,8 +89,8 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
 ## Privacy notice  
 
-For specific privacy information about [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 
-[Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md)
+[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)

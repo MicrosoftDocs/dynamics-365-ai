@@ -24,17 +24,16 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-Using [!INCLUDE[pn_dynamics_ai_sales](../includes/pn-dynamics-ai-sales.md)], you can track customer related activities and address the questions such as:
+Using [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], you can track customer related activities and address the questions such as:
 - What opportunities should have priority?
 - When was the customer last contacted?
 - Who on the team has been interacting with the customer?
 
 > [!IMPORTANT]
-> - The AI for Sales features are available only in North American (NAM) regions.
-> - You must purchase **Dynamics 365 AI for Sales** license to use AI for
-Sales features.
+> - The Sales Insights features are available only in North American (NAM) regions.
+> - You must purchase **Dynamics 365 Sales Insights** license to use Sales Insights features.
 
-AI for sales consists of the following features:
+Sales Insights consists of the following features:
 - **Relationship analytics:** Gathers relevant information from throughout [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] database to create a graphical display of key performance indicators (KPIs) and activity histories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relationship analytics to gather KPIs](relationship-analytics.md)
 - **Predictive lead scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize leads through scores](work-predictive-lead-scoring.md) 
 - **Predictive opportunity scoring:** Helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality opportunities.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
@@ -46,8 +45,8 @@ For information about how to enable these features, see [Configure and enable em
 
 ## Privacy notices  
 
-For specific privacy information about Dynamics 365 AI for Sales capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
+For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
 
 ### See also
 
-[Configure and enable AI for sales](configure-enable-dynamics-365-ai-sales.md) 
+[Configure and enable Sales Insights](configure-enable-dynamics-365-ai-sales.md) 

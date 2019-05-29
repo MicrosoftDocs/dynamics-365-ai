@@ -19,11 +19,11 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 AI for Sales.
+Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 Sales Insights.
 
 > [!NOTE]
 > - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action)
-> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Dynamics 365 AI for Sales capabilities for sales managers](../sales/dynamics365-ai-sales-app.md) features.
+> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Dynamics 365 Sales Insights capabilities for sales managers](../sales/dynamics365-ai-sales-app.md) features.
 
 ## Action parameters
 
@@ -117,4 +117,4 @@ OData-Version: 4.0
 ### See also
 
 - [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
-- [Dynamics 365 AI for Sales and GDPR](embedded-intelligence-gdpr.md)
+- [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
