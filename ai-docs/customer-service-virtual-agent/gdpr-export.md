@@ -14,23 +14,24 @@ manager: shellyha
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## To export the bot content, please perform the following steps:
+## Export the bot content
 
+1. Go to [https://www.powerapps.com](https://www.powerapps.com) and sign in with your credentials.
 
-1. Go to [https://www.powerapps.com](https://www.powerapps.com) and sign-in with your credentials.
-![powerapps.com](media/export-1.png)
+   ![Sign in to powerapps.com](media/export-1.png)
 
-2. After you sign in, you will arrive to the https://make.powerapps.com portal.
-![make.powerapps.com](media/export-2.png)
+2. After signing in, you are redirected to the PowerApps portal.
 
-3. In the left-hand navigation, expand **Data**, select **Entities**, then on the top navigation bar, click on **Export Data**.
-![exporting button](media/export-3.png)
+   ![PowerApps portal](media/export-2.png)
 
-4. Select **BotContent** and **Note** from the entity list. Click on **Export Data** on the top right navigation.
-![select bot content and note and click export data](media/export-4.png)
+3. In the left pane, expand the **Data** node. Select **Entities** and select **Export data**.
 
-5. Your data will take a couple of minutes to be compiled for export.
-![export loading screen](media/export-5.png)
+   ![Clickpath to export data](media/export-3.png)
 
-6. Click on **Download exported data** to download the bot content.
-![Click on “Download exported data” to download the bot content](media/export-6.png)
+4. On the Export data screen, select **BotContent** and **Note** from the entity list. Select **Export data** in the top right. Your data will take a couple of minutes to be compiled for export.
+
+   ![Select entities for export](media/export-4.png)
+
+5. Select **Download exported data** to download the content.
+
+   ![Download exported data](media/export-6.png)
