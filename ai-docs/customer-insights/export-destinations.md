@@ -1,6 +1,6 @@
 ---
 title: "Export destinations | MicrosoftDocs"
-description: The Export destinations page shows you all locations you’ve setup to export data to and allows you to add new destinations.
+description: The Export destinations page shows you all locations you’ve set up to export data to and allows you to add new destinations.
 ms.custom: ""
 ms.date: 04/04/2019
 ms.reviewer: ""
@@ -30,7 +30,8 @@ The **Export destinations** page shows you all locations you’ve setup to expor
    > [!div class="mx-imgBorder"] 
    > ![](media/add-export-destination.png "Add Export destination")
 
-2. Select **Azure Blob storage** in the **Type** drop down list.
+2. Select **Azure Blob storage** in the **Type** drop-down list.
+
 3. Input the **Account name**, **Account key**, and **Container** for your Blob storage account.
     1. You can find more information on how to find the Azure Blob storage account name and account key here: https://docs.microsoft.com/en-us/azure/storage/common/storage-account-manage
     2. You can also find information on how to create a container here: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container
@@ -39,13 +40,15 @@ The **Export destinations** page shows you all locations you’ve setup to expor
    > ![](media/export-destinations-azure-blob.png "Add Export destination")
 
 4. Give your destination a recognizable name in the **Display name** field.
-5. Click **Next**
+
+5. Select **Next**.
+
 6. Check the box next to each of the entities you want exported to this destination.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-azure-blob-entities.png "Add Export destination")
 
-7. Click **Save**
+7. Select **Save**.
 
 Your export should start shortly if all prerequisites for export have been completed.  In addition, your export will run at the end of every scheduled refresh.  You can find more information about scheduling here: https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-settings#schedule-tab
 
@@ -64,13 +67,14 @@ Data exported from the Export process will be stored in the Azure Blob storage c
    > [!div class="mx-imgBorder"] 
    > ![](media/add-export-destination.png "Add Export destination")
 
-2. Choose "Dynamics 365 for Sales" in the **Type** drop down list.
+2. Choose "Dynamics 365 for Sales" in the **Type** drop-down list.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
 
 3. Define your Dynamics 365 for Sales URL in **Server address*, **Sign in**, select a Dynamics 365 for Sales account, then give your destination a recognizable name in **Display name**.
-4. Click **Add**
+
+4. Select **Add**.
 
 ## View Export destinations
 
@@ -92,17 +96,17 @@ To remove an Export destination, you'll need to start from the main Export desti
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-page.png "Export destinations page")
 
-1. Start by clicking on the vertical ellipsis for the Export destination you wish to remove.
+1. Start by Selecting on the vertical ellipsis for the Export destination you wish to remove.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
 
-2. Click **Remove**
+2. Select **Remove**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
 
-3. Finalize the removal by clicking **Remove** on the confirmation screen
+3. Finalize the removal by Selecting **Remove** on the confirmation screen.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-page-vertical-ellipsis-remove-confirmation.png "Vertical ellipsis remove confirmation")
