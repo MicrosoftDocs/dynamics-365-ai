@@ -72,6 +72,9 @@ You can file bugs in the in the [community forum](https://go.microsoft.com/fwlin
 
 That's great—we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
+### I have an existing bot built on Microsoft Bot Framework and Azure Cognitive Services. How do I leverage Dynamics 365 Virtual Agent for Customer Service?
+
+Dynamics 365 Virtual Agent for Customer Service is built on Microsoft Bot Framework. Organizations with existing bots can leverage [Bot Framework’s dispatch tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch) ([see example](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs)) to seamless integrate the two product offerings. We strive to enable developers to a no-cliff bot building experience by seamlessly integrating into [Bot Framework’s Skill platform](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0) in an upcoming release. 
 
 ## Bot creation and environments
 
