@@ -79,7 +79,6 @@ In Customer Insights, a group is a set of customers.
 
 3. Choose an operator and a value for the attribute we chose in Step 2. In the following example, an operator, **Equals**, and value, **2**, were chosen.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/customer-group-numbers.png "Customer group filter")
 
@@ -94,64 +93,56 @@ In Customer Insights, a group is a set of customers.
 
 4. Add entities that are related to that entity until getting to the Customer Profile entity. Note that for the completion of this step, you may need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). Next we will present an example that illustrates this requirement. 
 
-5. Save your segment. Your segment will be saved and if valid, processed. If some requirements were not met it will be saved as a **draft**. Later we will describe in further detail the draft mode. Select **Back to segments** to go back to the Segments screen and view the segment you have just created:
+5. Save your segment. Your segment will be saved and if valid, processed. If some requirements were not met it will be saved as a **draft**. Later we will describe in further detail the draft mode. Select **Back to segments** to go back to the **Segments** page and view the segment you have just created:
 
-// Add 1
+   > [!div class="mx-imgBorder"] 
+   > ![](media/save-segment.png "Save your segment")
 
 #### Example - Group Creation
 Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
 
 1. Select the **Select an entity** field.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
    
 2. Choose your entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which you want to segment (**SessionID**).
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings.png "Choose entity")
 
 3. Select an operator and a value as described earlier.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings2.png "Choose Operator and Value")
 
 4. Select the **ADD** operator.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings3.png "Select ADD")
 
 5. We need to create a path to the Customer Profile entity, but currently our entity (**ClickstreamData: WebsiteDatabase**) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is **OnlineAccount: WebsiteDatabase** (shown in the following example), and so we will choose it.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings4.png "Select OnlineAccount: WebsiteDatabase")
 
 6. Select **All Records** as an operator. No value is needed under this operator:
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter-settings5.png "Select All Records")
 
 7. Select the **ADD** operator again. This time, our entity does have a relationship to the Customer Profile entity (which we will select), as shown here.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-example-entities.png "Select ADD")
 
 8. Select **All Records** as an operator, also for the Customer Profile entity.
 
-// cut the properties part from the image
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-example-entities2.png "Select All Records")
 
 At this point, we have completed the mandatory path definition. We recommend that you save your first group's definitions, as shown here.
 
-// cut the properties part from the image
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-save-group-definition.png "Save group definition")
 
@@ -159,15 +150,18 @@ At this point, we have completed the mandatory path definition. We recommend tha
 
 As you can see, there are certain requirements that should be met in order for a segment to be processed. However, at any point of time you can save your segment as a **draft**. Upon saving, if your segment definition is missing one or more mandatory selections:
 
-- For a Dynamic segment, it will be saved as a draft on the segments screen:
+- For a Dynamic segment, it will be saved as a draft on the **Segments** page:
 
-// add 2
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-saved-as-draft.png "Segment saved as draft")
 
-- For a Static segment, it will be saved as an inactive segment on the segments screen.
+- For a Static segment, it will be saved as an inactive segment on the **Segments** page.
 
 Note that you will not be able to run or activate the segment (for a Static or Dynamic segment respectively) until it's a valid segment. You will see the following message if you try to run or activate it without meeting all the requirements:
 
-// add 3
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-saved-as-inactive.png "Segment saved as inactive")
+
 
 ### Step Three (optional): Add more conditions to your group 
 
