@@ -36,14 +36,14 @@ The **Export destinations** page shows you all locations you’ve setup to expor
     2. You can also find information on how to create a container here: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-azure-blob.png "Add Export destination")
+   > ![](media/export-destinations-azure-blob.png "Add Export destination")
 
 4. Give your destination a recognizable name in the **Display name** field.
 5. Click **Next**
 6. Check the box next to each of the entities you want exported to this destination.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-azure-blob-entities.png "Add Export destination")
+   > ![](media/export-destinations-azure-blob-entities.png "Add Export destination")
 
 7. Click **Save**
 
@@ -77,7 +77,7 @@ Data exported from the Export process will be stored in the Azure Blob storage c
 When viewing the **Export destinations** page, if you’ve already created destination you will see a table containing several fields for destinations you’ve added, explained below:
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-page.png "Export destinations page")
+   > ![](media/export-destinations-page.png "Export destinations page")
 	
   - Display name: The name you created during the destination creation.
   - Type: The destination type set during the destination creation.  Currently supports:
@@ -90,19 +90,19 @@ When viewing the **Export destinations** page, if you’ve already created desti
 To remove an Export destination, you'll need to start from the main Export destination page.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-page.png "Export destinations page")
+   > ![](media/export-destinations-page.png "Export destinations page")
 
 1. Start by clicking on the vertical ellipsis for the Export destination you wish to remove.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
+   > ![](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
 
 2. Click **Remove**
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
+   > ![](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
 
 3. Finalize the removal by clicking **Remove** on the confirmation screen
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destination-page-vertical-ellipsis-remove-confirmation.png "Vertical ellipsis remove confirmation")
+   > ![](media/export-destinations-page-vertical-ellipsis-remove-confirmation.png "Vertical ellipsis remove confirmation")
