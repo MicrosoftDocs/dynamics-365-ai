@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Insights | MicrosoftDocs"
 description: Overview of Dynamics 365 Customer Insights
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 04/04/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -26,7 +26,10 @@ With Dynamics 365 Customer Insights, build a deep understanding of customers by 
 **Customer Insights enables every organization to unify and understand their customer data and to harness it for intelligent insights and actions.** 
 
 > [!TIP]
-> Check out the following for information on requesting a preview and availability: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/).
+> Check out the following:  
+> - For information on requesting a preview and availability: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/)
+> - Video: [Microsoft Dynamics 365 Customers Insights product demo](https://www.youtube.com/watch?v=yayYM7cc3LU)
+> - Video: [Dynamics 365 Customer Insights demo](https://www.youtube.com/watch?v=JDaajD_TXNQ&feature=youtu.be)
 
 **Customer Insights enables every organization to unify and understand their customer data to harness it for intelligent insights and actions.** 
 

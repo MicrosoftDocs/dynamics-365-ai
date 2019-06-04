@@ -2,7 +2,7 @@
 title: "Permissions | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/19/2019
+ms.date: 04/29/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
