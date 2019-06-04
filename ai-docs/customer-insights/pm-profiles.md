@@ -50,7 +50,7 @@ Select a customer tile to see additional information on that specific customer. 
 
 ## Search for customers
 
-Search for customers by entering an attribute name (for example, the customer’s name) in the search box. As an admin, you can always re-select and re-configure your searchable attributes using the **Search & filter index** screen that is accessible via the **Search & Filter Index** button:
+Search for customers by entering an attribute name (for example, the customer’s name) in the search box. As an admin, you can always re-select and re-configure your searchable attributes using the **Search & filter index** page that is accessible via the **Search & Filter Index** button:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/search-filter-index.png "Search & filter index")
@@ -67,7 +67,7 @@ After selecting one of the customer tiles, you can also search for a specific at
 
 ## Filter customers
 
-Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & filter index** screen. 
+Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & filter index** page. 
 
 First, select **Filter**.
 

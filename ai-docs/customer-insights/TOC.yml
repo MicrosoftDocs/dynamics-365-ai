@@ -46,6 +46,8 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
+#    - name: Export destinations
+#      href: export-destinations.md
   - name: Extensibility
     items:
     - name: Customer Card Add-in 

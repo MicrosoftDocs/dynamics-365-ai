@@ -22,7 +22,6 @@ manager: "kvivek"
 ## Introduction to segmentation
 
 The segmentation capability of Customer Insights enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
-
 You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take action on.
 
 There are two types of segments:
@@ -49,31 +48,25 @@ The preceding example graph reflects system and custom relationships created dur
 
 The following two sections cover segment creation followed by segment exploration.
 
-## Create segments from the Segment page
+## Creating your first segment
 
-To create a segment, you can either select **Add Segment** at the upper-right corner of the screen, or select **Get Started**.
+To create a segment, you can either select **Add Segment** at the upper-right corner of the page, or select **Get Started**.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-segment-full.png "Add segment")
 
-If you select **Add Segment**, choose whether you want to create a dynamic segment or a static segment.
-
-The rest of the segment creation process is done on the **Segment Editor** page.
+### Step One: Define the segment's properties using the **New Segment** panel
 
 > [!div class="mx-imgBorder"] 
-> ![](media/new-dynamic-segment.png "New dynamic segment")
+> ![](media/first-segment-step-one.png "Define segment")
 
-### Step One: Define the segment's properties
+- Choose between a **Dynamic** and a **Static** segment.
+- Give your segment an informative name, a display name, and a description that will help us identify it in the future, when we have multiple segments. There are no limitations on display name but there are some limitations on name (space is not allowed for example).
+- select **Next**. You will go to the **Segment builder** page.
 
-- We will give our segment an informative name and description that will help us identify it in the future, when we'll have multiple segments. 
-- In the case of a dynamic segment, we can also choose to activate it at this point through the slider, as shown in the following example. An active (dynamic) segment automatically incorporates changes that are made to your data over time, while an inactive segment does not incorporate any changes that are made to your data. 
-
-  > [!div class="mx-imgBorder"] 
-  > ![](media/segments-allcustomers-status-active.png "Define segment")
-   
 ### Step Two: Create a first group 
 
-In Customer Insights, a group is a set of customers. 
+In Customer Insights, a group is a set of customers.
 
 **Define a group**
 
@@ -98,16 +91,21 @@ In Customer Insights, a group is a set of customers.
 
     Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
 
-4. Add entities that are related to that entity until getting to the Customer Profile entity as will be shown in the example below. Note that for the completion of this step, you may need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). 
+4. Add entities that are related to that entity until getting to the Customer Profile entity. Note that for the completion of this step, you may need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). Next we will present an example that illustrates this requirement. 
 
-### Example - Group Creation
+5. Save your segment. Your segment will be saved and if valid, processed. If some requirements were not met it will be saved as a **draft**. Later we will describe in further detail the draft mode. Select **Back to segments** to go back to the **Segments** page and view the segment you have just created:
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/save-segment.png "Save your segment")
+
+#### Example - Group Creation
 Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
 
 1. Select the **Select an entity** field.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segments-group1-define-filter.png "Select entity field")
-
+   
 2. Choose your entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which you want to segment (**SessionID**).
 
    > [!div class="mx-imgBorder"] 
@@ -147,6 +145,22 @@ At this point, we have completed the mandatory path definition. We recommend tha
 
 > [!div class="mx-imgBorder"] 
 > ![](media/segmentation-save-group-definition.png "Save group definition")
+
+#### Draft mode
+
+As you can see, there are certain requirements that should be met in order for a segment to be processed. However, at any point of time you can save your segment as a **draft**. Upon saving, if your segment definition is missing one or more mandatory selections:
+
+- For a Dynamic segment, it will be saved as a draft on the **Segments** page:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-saved-as-draft.png "Segment saved as draft")
+
+- For a Static segment, it will be saved as an inactive segment on the **Segments** page.
+
+Note that you will not be able to run or activate the segment (for a Static or Dynamic segment respectively) until it's a valid segment. You will see the following message if you try to run or activate it without meeting all the requirements:
+
+> [!div class="mx-imgBorder"] 
+> ![](media/segment-saved-as-inactive.png "Segment saved as inactive")
 
 
 ### Step Three (optional): Add more conditions to your group 
@@ -192,7 +206,7 @@ Selecting a set operator enables you to define a new group. Saving different gro
 
 On the Segments page, you can view all your saved segments and perform certain actions.
 
-- Dynamic segments appear to the left, and static segments appear to the right.
+- Dynamic segments appear to the left, and Static segments appear to the right.
 - Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trendline to see last week's growth in this segment's members count. If you prefer to view all of your segments in a table format, select one of the following:
   > [!div class="mx-imgBorder"] 
   > ![](media/segmentation-static-segment.png "Static segment")
@@ -205,13 +219,10 @@ You can also perform certain actions with each segment. First, select the follow
 Then, choose one of the following options from the drop-down menu:
 - Editing the segment
 - Viewing the segment's members
-- Exporting the segment to either a CSV file or to a Dynamics 365 for Sales location. For more information on the different exporting options make sure to visit the **Segment Export** section.
-- Turning the segment to inactive or active (depending on its baseline state)
+- Exporting the segment to either a csv. file or to a Dynamics 365 for Sales location. For more information on how to export to a Dynamics 365 location, visit the **Export destinations** section.
+- Turning a Dynamic segment to inactive or active (depending on its baseline state)
+- Running a Static segment
 - Deleting the segment 
-- Pinning the segment, which moves it to the top of the screen for better accessibility. The pinned segment appears under **Pinned Segments** as shown in the following example. To unpin a segment, select **Unpin** (shown in red).
-
-  > [!div class="mx-imgBorder"] 
-  > ![](media/segmentation-dynamic-segment.png "Dynamic segment")
    
 ## Explore a segment: View processing history and segment members
 
@@ -229,7 +240,7 @@ The lower part includes a table with all your segment's members.
 - Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor page to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
     
 ## Next step
-Visit the **Segment Export** section to learn about the different options for exporting your segments. 
+Visit the **Export destinations** section to learn how to export your segment to a Dynamics 365 location. 
 You can also explore the **Customer Card** and **Connectors** sections to get insights on the customer-level.
     
 
