@@ -90,15 +90,11 @@ You can rename a topic either in the Topics list or in the list of the support c
 
 ### To rename a topic in the Topics list
 
-1. Hover over the topic and select the ellipsis to the left of the Total cases number for the topic.
+1. Hover over the topic and select the pencil icon to the left of the Total cases number for the topic and select **Rename topic**.
 
    ![Rename topic](media/rename-topic.png)
 
-2. Select **Rename**.
-
-   ![Select rename](media/select-rename.png)
-
-3. In the **Rename** dialog box, enter the updated name and then select **Save**.
+3. In the **Rename topic** dialog box, enter the updated name and then select **Save**.
 
    ![Save rename](media/save-rename.png)
 
@@ -112,11 +108,11 @@ You can rename a topic either in the Topics list or in the list of the support c
 
 ### To rename a topic in the list of the support cases
 
-1. Select the edit icon next to the topic name at the top of the list.
+1. Select **Rename topic** at the top of the list.
 
-   ![Edit name icon](media/edit-name-icon.png)
+   ![Edit name icon](media/edit-topic-name.png)
 
-2. Enter the updated name.
+2. Enter the updated name and select **Save**.
 
    ![Enter topic name](media/enter-topic-name.png)
 
