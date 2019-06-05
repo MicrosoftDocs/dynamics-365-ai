@@ -1,8 +1,7 @@
 ---
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
-keywords: ""
-ms.date: 4/24/2019
+ms.date: 06/10/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
