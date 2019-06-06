@@ -84,7 +84,7 @@ Select the destination topic from the **Move case title** pane and then select *
 
 ## Renaming a topic
 
-When Customer Service Insights groups support cases into topics, it automatically uses the title of the most relevant support case as the name of the topic. However, you may want to rename the topic. For example, you may want a topic name that is shorter or more clearly describes the underlying support issue. A renamed topic name will send a signal to Customer Service Insights to improve grouping of cases for a topic. The next workspace refresh will include the name change the improvement how topics are generated.
+When Customer Service Insights groups support cases into topics, it automatically uses the title of the most relevant support case as the name of the topic. However, you may want to rename the topic. For example, you may want a topic name that is shorter or more clearly describes the underlying support issue. A renamed topic name will send a signal to Customer Service Insights to improve grouping of cases for a topic. The next workspace refresh will include the name change to improve how topics are generated.
 
 You can rename a topic either in the Topics list or in the list of the support cases associated with the topic.
 
