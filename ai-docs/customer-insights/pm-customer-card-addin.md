@@ -159,7 +159,7 @@ The Customer Card enables you to gain a 360 angle view on each of your customers
 
 ## Timeline control
 
-1. In the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
+1. In the form editor, drag any field from the Field Explorer to where you would like the Timeline control to be placed.  
 
    > [!div class="mx-imgBorder"] 
    > ![](media/contact-form-designer4.png "Address 1: City field")
