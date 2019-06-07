@@ -143,7 +143,7 @@ Review the following requirements for audio and JSON files before you upload:
   | `Id` | Specifies the unique identification code of the call. Generate this code using the GUID generator. |
   | `Title` | (Optional) Specifies the title of the call. |
   | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
-  | `CallDuration` | (Optional) |
+  | `CallDuration` | (Optional) Period for which the call between the agent and customer is established. |
   | `StartTime` | Specifies the start time of the call in milliseconds and calculated based on the UNIX Epoch time. For example, when the call start time is **14 Dec 2018 12:39:56 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544791196000**. |
   | `CallType` or `Direction` | Specifies whether the call is inbound or outbound. |
   | `CallerPhoneNumber` | (Optional) Specifies the phone number of the caller such as your sales rep.|
