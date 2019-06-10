@@ -1,8 +1,7 @@
 ---
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
-keywords: ""
-ms.date: 4/24/2019
+ms.date: 06/10/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -85,21 +84,17 @@ Select the destination topic from the **Move case title** pane and then select *
 
 ## Renaming a topic
 
-When Customer Service Insights groups support cases into topics, it automatically uses the title of the most relevant support case as the name of the topic. However, you may want to rename the topic. For example, you may want a topic name that is shorter or more clearly describes the underlying support issue.
+When Customer Service Insights groups support cases into topics, it automatically uses the title of the most relevant support case as the name of the topic. However, you may want to rename the topic. For example, you may want a topic name that is shorter or more clearly describes the underlying support issue. A renamed topic name will send a signal to Customer Service Insights to improve grouping of cases for a topic. The next workspace refresh will include the name change to improve how topics are generated.
 
 You can rename a topic either in the Topics list or in the list of the support cases associated with the topic.
 
 ### To rename a topic in the Topics list
 
-1. Hover over the topic and select the ellipsis to the left of the Total cases number for the topic.
+1. Hover over the topic and select the pencil icon to the left of the Total cases number for the topic and select **Rename topic**.
 
    ![Rename topic](media/rename-topic.png)
 
-2. Select **Rename**.
-
-   ![Select rename](media/select-rename.png)
-
-3. In the **Rename** dialog box, enter the updated name and then select **Save**.
+3. In the **Rename topic** dialog box, enter the updated name and then select **Save**.
 
    ![Save rename](media/save-rename.png)
 
@@ -113,11 +108,11 @@ You can rename a topic either in the Topics list or in the list of the support c
 
 ### To rename a topic in the list of the support cases
 
-1. Select the edit icon next to the topic name at the top of the list.
+1. Select **Rename topic** at the top of the list.
 
-   ![Edit name icon](media/edit-name-icon.png)
+   ![Edit name icon](media/edit-topic-name.png)
 
-2. Enter the updated name.
+2. Enter the updated name and select **Save**.
 
    ![Enter topic name](media/enter-topic-name.png)
 
