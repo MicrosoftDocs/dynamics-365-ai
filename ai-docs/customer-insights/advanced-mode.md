@@ -44,11 +44,11 @@ For scenarios such as these, you may want to consider using advanced mode.
 
 ### What skills should I have to use advanced mode?
 
-To use advanced mode, you need the skill (or access to someone with the skill) of writing a SQL query which produces your segment as an output.
+To use advanced mode, you need the skill (or access to someone with the skill) to write a SQL query which produces your segment as an output.
 
 ## Get started with advanced mode
 
-There are two ways to enter Advanced mode:
+There are two ways to enter advanced mode:
 
 - The **Create segment** panel:
 
