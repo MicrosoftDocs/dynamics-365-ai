@@ -34,36 +34,41 @@ Advanced mode allows you to use raw SQL data to define any segment. Advanced mod
 
 ### When should I use advanced mode? 
 
-Use advanced mode when you want to create a segment that is difficult or impossible to create on the **Segment builder** screen. For example, consider the following scenarios:
+Use advanced mode when you want to create a segment that is difficult or impossible to create on the **Segment builder** screen. For example, consider the following scenarios which can't be achieved using the Segment builder:
 
-- You can't nest an **AND** operator within an **OR** operator in segment builder.
-- You can't use operators that don’t exist in the segment builder, such as **Time** or **Percentile**.
-- You can't use group filters in ways that are not supported in the segment builder.
+- Nesting an **AND** operator within an **OR** operator.
+- Using operators that don’t exist in the builder, such as **Time** or **Percentile**.
+- Using group filters (**Unite**, **Intersect** and **Exclude**) in ways that are not supported in the builder.
  
 For scenarios such as these, you may want to consider using advanced mode. 
 
 ### What skills should I have to use advanced mode?
 
-To use advanced mode, you need the skill (or access to someone with the skill) to write a SQL query which produces your segment as an output.
+To use advanced mode, you need the skill (or access to someone with the skill) of writing a SQL query which produces your segment as an output.
 
 ## Get started with advanced mode
-
-> [!NOTE]
-> When you create a segment using advanced mode, you must also perform any future edits to this segment using advanced mode.
 
 There are two ways to enter Advanced mode:
 
 - The **Create segment** panel:
-- The **Complete segment definition using SQL** button:
+
+// add image 1
 
 > [!NOTE]
-> When you select the **Complete segment definition using SQL** button,  a notification appears which you have to accept to continue. When you select **Continue**, you commit to perform all future edits of this segment using the advanced mode screen rather than the Segment builder screen.
+> When you create a segment using advanced mode, all future edits to this segment will be done using the advanced mode.
 
+- The **Complete segment definition using SQL** button on the **Segment builder** screen:
 
-## The advanced mode screen
+// add image 2
 
-The advanced mode screen includes four components:
+> [!NOTE]
+> When you select the **Complete segment definition using SQL** button,  a notification appears which you have to accept to continue. Upon acceptance, you commit to perform all future edits to this segment using the advanced mode screen rather than the segment builder screen.
 
+## The Advanced mode screen
+
+The Advanced mode screen includes four components:
+
+// can we crop the top and bottom parts?
 ![Advanced screen](media\advanced-screen.png)
 
 1. ***Editor* window:** This is your working area where you enter your SQL query. Your segment output must include all the fields from the *Customer Insights* entity.  This requirement is already fulfilled through the code that is populated on the first line. Note that if you wish to include additional fields in your segment output you need to write a corresponding statement.
@@ -73,8 +78,8 @@ The advanced mode screen includes four components:
 
 3. ***Save* button:** Use this button to save and process your segment. If it’s a valid query, it will produce a segment and you should expect to see it in the **Segments** screen. If it’s an invalid query, your segment definition will be saved as a draft. Visit the **Segments** topic for more details on the **Draft mode.**
 
-4. ***Back to segments* link:** Use this button to go back to the **Segments** screen.
+4. ***Back to segments***: Use this button to go back to the **Segments** screen.
 
 ## Edit, rename or delete a segment
 
-Any segment that you create or edit using advanced mode must also be edited in advanced mode. You cannot use the **Segment builder** screen to edit these segments. Within the corresponding segment tile on the **Segments** screen, click the **…** button to show the **Edit**, **Rename**, and **Delete** options. 
+Any segment that you create or edit using advanced mode must also be edited in advanced mode. You can not use the **Segment builder** screen to edit these segments. Within the corresponding segment tile on the **Segments** screen, click the **…** button to show the **Edit**, **Rename**, and **Delete** options. 
