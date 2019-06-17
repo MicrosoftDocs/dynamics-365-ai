@@ -52,23 +52,25 @@ There are two ways to enter advanced mode:
 
 - The **Create segment** panel:
 
-// add image 1
+> !div class="mx-imgBorder"]
+> ![Create segment screen](media/enter-advanced-mode-1.png)
 
 > [!NOTE]
-> When you create a segment using advanced mode, all future edits to this segment will be done using the advanced mode.
+> When you create a segment using advanced mode, all future edits to this segment must be done using the advanced mode.
 
 - The **Complete segment definition using SQL** button on the **Segment builder** screen:
 
-// add image 2
+> !div class="mx-imgBorder"]
+> ![Create segment screen](media/enter-advanced-mode-2.png)
 
 > [!NOTE]
-> When you select the **Complete segment definition using SQL** button,  a notification appears which you have to accept to continue. Upon acceptance, you commit to perform all future edits to this segment using the advanced mode screen rather than the segment builder screen.
+> When you select the **Complete segment definition using SQL** button,  a notification appears which you have to accept to continue. After you accept, you have to perform all future edits to this segment using the advanced mode screen rather than the segment builder screen.
 
 ## The Advanced mode screen
 
 The Advanced mode screen includes four components:
 
-// can we crop the top and bottom parts?
+
 ![Advanced screen](media\advanced-screen.png)
 
 1. ***Editor* window:** This is your working area where you enter your SQL query. Your segment output must include all the fields from the *Customer Insights* entity.  This requirement is already fulfilled through the code that is populated on the first line. Note that if you wish to include additional fields in your segment output you need to write a corresponding statement.
