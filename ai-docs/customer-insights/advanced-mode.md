@@ -2,7 +2,7 @@
 title: "Advanced mode | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
