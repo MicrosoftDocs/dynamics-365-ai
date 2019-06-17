@@ -1,2 +1,43 @@
-#Integrate a bot built using the Microsoft Bot Framework and Cognitive services with Microsoft Dynamics 365 AI for Customer Service
+---
+title: "Integrate a bot built using the Microsoft Bot Framework and Cognitive services with Microsoft Dynamics 365 AI for Customer Service"
+description: "Step by step guidance on using your existing Bot Framework bot with Microsoft Dynamics 365 AI for Customer Service"
+ms.date: 06/17/2019
+ms.service:
+  - "dynamics-365-ai"
+ms.topic: article
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
+---
 
+# Integrate a bot built using the Microsoft Bot Framework and Cognitive services with Microsoft Dynamics 365 AI for Customer Service
+
+## Overview 
+
+This document covers the following steps to use Microsoft Bot Framework's dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot,
+
+1. Retrieve topics, utterances and secrets from your virtual agent tenant (TO-DO anchor links)
+1. Convert virtual agent topics & utterances into LU-down format
+1. Train dispatcher custom model with your virtual agent's topics
+1. Deploy dispatcher with custom model
+1. Test dispatcher working seamlessly with your bots
+
+## Pre-requisites
+
+* Bot built using Bot Builder v4 SDK - [TO DO - click here](https://URL)
+* Visual Studio 2017 or higher - [TO DO - click here to download](https://URL)
+* Familiarity with [Microsoft Bot Framwork's dispatcher tool](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
+* Bot Emulator v4 - [click here for github repo](https://github.com/microsoft/BotFramework-Emulator)
+* Virtual Agent utilities & sample code - [TO DO - click here for github repo](https://msazure.visualstudio.com/CCI/_git/Users?path=%2Fsabacha%2FCCIToLU&version=GBmaster)
+
+### Retrieve topics, utterances and secrets from your virtual agent tenant
+
+
+
+### Convert virtual agent topics & utterances into LU-down format
+
+### Train dispatcher custom model with your virtual agent's topics
+
+### Deploy dispatcher with custom model
+
+### Test dispatcher working seamlessly with your bots
