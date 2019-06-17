@@ -71,7 +71,7 @@ There are two ways to enter advanced mode:
 The Advanced mode screen includes four components:
 
 > !div class="mx-imgBorder"]
-> ![Advanced screen](media\advanced-screen.png)
+> ![Advanced screen](media/advanced-screen.png)
 
 1. ***Editor* window:** This is your working area where you enter your SQL query. Your segment output must include all the fields from the *Customer Insights* entity.  This requirement is already fulfilled through the code that is populated on the first line. Note that if you wish to include additional fields in your segment output you need to write a corresponding statement.
 
