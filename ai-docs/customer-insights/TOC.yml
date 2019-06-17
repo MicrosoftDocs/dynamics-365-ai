@@ -11,6 +11,8 @@
   - name: Segments
     href: pm-segments.md
     items:
+    - name: Advanced mode
+      href: advanced-mode.md
     - name: Segment export
       href: segment-export.md
   - name: Measures

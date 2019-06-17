@@ -70,13 +70,15 @@ There are two ways to enter advanced mode:
 
 The Advanced mode screen includes four components:
 
-
-![Advanced screen](media\advanced-screen.png)
+> !div class="mx-imgBorder"]
+> ![Advanced screen](media\advanced-screen.png)
 
 1. ***Editor* window:** This is your working area where you enter your SQL query. Your segment output must include all the fields from the *Customer Insights* entity.  This requirement is already fulfilled through the code that is populated on the first line. Note that if you wish to include additional fields in your segment output you need to write a corresponding statement.
 
-2. ***View guidelines* link:** Make sure you know the few differences between a free-format SQL code and the code format used in Customer Insights. The image below shows some of these guidelines as well as an example for a valid SQL query. Make sure to visit the Spark 2.3 [documentation](link) for more details.
-![Sql guidelines](media/sql-guidelines.png)
+2. ***View guidelines* link:** Make sure you know the few differences between a free-format SQL code and the code format used in Customer Insights. The image below shows some of these guidelines as well as an example for a valid SQL query. Make sure to visit the Spark 2.3 [documentation](https://spark.apache.org/docs/2.3.0/) for more details.
+ 
+  > !div class="mx-imgBorder"]
+  > ![Sql guidelines](media/sql-guidelines.png)
 
 3. ***Save* button:** Use this button to save and process your segment. If it’s a valid query, it will produce a segment and you should expect to see it in the **Segments** screen. If it’s an invalid query, your segment definition will be saved as a draft. Visit the **Segments** topic for more details on the **Draft mode.**
 
