@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 06/04/2019
+ms.date: 06/18/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
