@@ -2,7 +2,7 @@
 title: "Merge | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -49,29 +49,29 @@ On this page, you can choose and exclude attributes:
      > [!div class="mx-imgBorder"] 
      > ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
    
-     In the drop-down menu, select **Don't merge**.
+     In the drop-down menu, select **Separate fields**.
    
      > [!div class="mx-imgBorder"] 
      > ![](media/configure-data-merge-profile-attributes2.png "Merge profile attributes")
 
-- Exclude attributes from the customer profile entity. If you think that some attributes should be excluded from the final customer profile entity, select the  **Exclude** option from the same drop-down menu.
+- Remove attributes from the customer profile entity. If you think that some attributes should be excluded from the final customer profile entity, select the  **Remove** option from the same drop-down menu.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-dont-merge.png "Merge profile attributes don't merge")
 
-   Attributes will move to the **Excluded from profile** section.
+   Attributes will move to the **Removed from customer record** section.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-exclude-from-profile.png "Merge excluded from profile")
 
 ## Step Two: Manually add a merged attribute
 
-Add a merged attribute with **Add Merged Attribute**, as shown in this example.
+Add a merged attribute with **Combine fields**, as shown in this example.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/merge-add-merge-attribute.png "Add merged attributes")
 
-We will perform the manual merge process within the **Merged attribute** pane.
+We will perform the manual merge process within the **Combine fields** pane.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
