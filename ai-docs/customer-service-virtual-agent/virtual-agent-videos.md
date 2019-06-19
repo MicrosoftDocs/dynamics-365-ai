@@ -53,6 +53,9 @@ This feature video shows you how to use Microsoft Flow to extend the capabilitie
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joXCzvi38Fo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    
-### Use analytics and chat transcripts to improve bot performance**
+### Use analytics and chat transcripts to improve bot performance
+
+This feature video shows you how to use the analytics capabilities and chat transcripts in Virtual Agent to further improve the performance of your bot. 
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6gNsmjF6hJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
