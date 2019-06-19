@@ -1,7 +1,7 @@
 ---
 title: "Virtual Agent videos"
 description: "Virtual Agent videos"
-ms.date: 05/29/2019
+ms.date: 06/19/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
