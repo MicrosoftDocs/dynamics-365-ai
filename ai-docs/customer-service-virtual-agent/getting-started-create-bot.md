@@ -16,13 +16,13 @@ manager: shellyha
 
 You can use Dynamics 365 Virtual Agent for Customer Service to create a powerful custom bot. Virtual Agent makes it easy to create bots that address common support issues. You can design a conversation path that leads each customer to a resolution.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eM-hs7maZko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 To help get you started and tailor the bot to your specific needs, Virtual Agent lets you create a bot using built-in content building blocks containing topics, trigger phrases, and pre-authored conversation paths. These built-in topics can also be useful as a model for building your own conversations for similar customer-support issues. For more information, see [Work with built-in topics](how-to-templates.md).
 
 ## To create your first bot
 
 If you encounter an issue while creating your bot, see [Known issues with creating a bot](#known-issues-with-creating-a-bot).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eM-hs7maZko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Go to [aka.ms/virtual-agent](http://aka.ms/virtual-agent) and select **Try Preview**. Sign in using your work account.
 
