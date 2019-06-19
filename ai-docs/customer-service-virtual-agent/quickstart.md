@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create and deploy a customer service bot"
 description: "Learn how to quickly create a customer service bot using Virtual Agent."
-ms.date: 05/29/2019
+ms.date: 06/19/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -18,8 +18,8 @@ Dynamics 365 Virtual Agent for Customer Service empowers customer teams to quick
 
 This quickstart guide takes you through the end-to-end experience of creating a bot for the first time, adding custom topics to your bot, testing content changes in real time, deploying your bot to a test page, and analyzing the performance of your bot after it’s been deployed. 
 
-> [!NOTE]
-> [Check out the video How to create, test, and deploy a bot](http://go.microsoft.com/fwlink/?linkid=2062988), which works through the end-to-end bot creation process. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eM-hs7maZko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Create your first bot
 
