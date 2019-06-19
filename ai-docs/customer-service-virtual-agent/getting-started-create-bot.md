@@ -22,7 +22,7 @@ To help get you started and tailor the bot to your specific needs, Virtual Agent
 
 If you encounter an issue while creating your bot, see [Known issues with creating a bot](#known-issues-with-creating-a-bot).
 
-Watch the [step-by-step video](http://go.microsoft.com/fwlink/?linkid=2062988) or follow these steps:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eM-hs7maZko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Go to [aka.ms/virtual-agent](http://aka.ms/virtual-agent) and select **Try Preview**. Sign in using your work account.
 
