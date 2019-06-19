@@ -23,8 +23,6 @@ Take a look at the Virtual Agent for Customer Service capabilities that can help
 
 ## Product videos
 
-View product videos to dive deeper into Virtual Agent functionality. 
-
 ### Create, test, and deploy your bot
 
 This overview video walks you through how to create your first bot and create a custom topic (a dialogue you author). Additionally, it shows how to test your topic in real time and deploy your bot to a test website to see how it will look from your end user's perspective. 
