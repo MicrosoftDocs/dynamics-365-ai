@@ -218,8 +218,6 @@ Every bot author is automatically licensed to use Microsoft Flow. No extra steps
 - Bots can only invoke flows that have HTTP Request interfaces, so you need to select the right trigger for your flow. Select **When Http Request is received** from the trigger list in Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, which is how it is by default):
 ![POST method in HTTP Request](media/flow-http-post-method.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/joXCzvi38Fo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
 
 ### I created a flow with an HTTP Request trigger, and it's visible in my bot, but when I test my topic, it fails. Why?
 
