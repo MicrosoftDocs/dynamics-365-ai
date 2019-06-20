@@ -57,7 +57,7 @@ Your bot is created in the default PowerApps environment that was created for yo
 
 4. After saving your topic, you land in the conversation editor. This is the graphical dialogue tree editor that allows you to define bot responses and overall conversation flow.
 
-Start by entering “Hello! I’ll create a personalized greeting for you.” into the first Bot Says node. Then, add another Bot Says node by selecting it in the menu below the first Bot Says node.
+   Start by entering “Hello! I’ll create a personalized greeting for you.” into the first Bot Says node. Then, add another Bot Says node by selecting it in the menu below the first Bot Says node.    
     ![Add node](media/quickstart-create-topic-01.png)
 
 5. In the second Bot Says node, enter “Where do you live?”, and select **User Says** from the menu below the second Bot Says node. Select **Add user response**.
