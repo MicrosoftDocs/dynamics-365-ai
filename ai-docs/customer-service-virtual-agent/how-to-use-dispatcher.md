@@ -14,7 +14,7 @@ manager: shellyha
 
 ## Overview 
 
-This document covers the following steps to use Microsoft Bot Framework's dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot,
+This document covers the following steps to use Microsoft Bot Framework's dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
 
 * A. [Retrieve topics, utterances and secrets from your virtual agent tenant](#a-retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
 * B. [Train dispatcher custom model with your virtual agent's topics](#b-train-dispatcher-custom-model-with-your-virtual-agents-topics)
@@ -25,7 +25,7 @@ This document covers the following steps to use Microsoft Bot Framework's dispat
 
   * Bot build using Microsoft Bot Framework Bot Builder v4 SDK
   * Visual Studio 2017 or higher - [click here to download](https://visualstudio.microsoft.com/vs/)
-  * Understanding of Microsoft Bot Framwork's dispatcher tool. [Read more](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
+  * Understanding of Microsoft Bot Framework's dispatcher tool. [Read more](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
   * Understanding how to test & debug bots using Bot Framework Emulator - [Learn more](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-bot?view=azure-bot-service-4.0)
 
 ### Code samples & dependencies
@@ -41,7 +41,7 @@ Code snippets used in this document are available below.
 Follow these steps to use your existing bot with Dynamics 365 Virtual Agent for Customer Service.
 
 ### A. Retrieve topics, utterances and secrets from your virtual agent tenant
-First, we will need to retrieve retrieve your Dynamics Bot content (topics & utterances) and your tenant’s endpoint and direct line secret.
+We will need to retrieve your Dynamics bot's content (topics & utterances), your tenant’s endpoint and direct line secret.
 
 #### 1.	Retrieve bot ID, tenant ID, and auth token from your bot
 
@@ -83,7 +83,7 @@ ludown parse ToLuis --in content.lu
 ```
 
 ### B. Train dispatcher custom model with your virtual agent's topics
-Follow these steps to train and recreate the dispatcher app and add your exported topics & utterance with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow guidance here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
+Follow these steps to train and recreate the dispatcher app and add your exported topics & utterances with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow guidance here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
 ####  1.  Install the dispatch tool (using npm)
 ```
