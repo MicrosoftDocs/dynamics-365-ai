@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 06/18/2019
+ms.date: 06/21/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -78,6 +78,10 @@ Dynamics 365 Virtual Agent for Customer Service is built on Azure Bot Framework.
 
 ### Is Dynamics 365 Virtual Agent for Customer Service available in Government Environments currently?
 At this time, Virtual Agent is not available in the Government Community Cloud.
+
+### Does Virtual Agent support preview releases of Common Data Service (CDS)?
+
+Virtual Agent uses the Common Data Service (CDS) to store your bot's content. Preview releases of CDS may be incompatible with Virtual Agent and may result in an error when creating a bot or when saving topics or conversations. If you encounter an error, and retrying does not resolve the issue, you can [file a bug in the community forum](https://go.microsoft.com/fwlink/?linkid=2058639).
 
 ## Bot creation and environments
 
@@ -204,6 +208,9 @@ Variables store customer responses to bot questions. Variables can be used in ex
 
 Have a look at the article about [Add actions to your bot using Microsoft Flow](how-to-flow.md) and the [video on how to create a Microsoft Flow action that can be executed from Virtual Agent](https://go.microsoft.com/fwlink/?linkid=2079323).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/joXCzvi38Fo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### What license do I need to use Microsoft Flow in Virtual Agent?
 
 Every bot author is automatically licensed to use Microsoft Flow. No extra steps are needed. Bot authors are assigned a P2 Plan Flow license as part of their Virtual Agent license. For details, please refer to [Microsoft Flow Plans documentation](https://flow.microsoft.com/pricing/).
@@ -215,8 +222,6 @@ Every bot author is automatically licensed to use Microsoft Flow. No extra steps
 - Bots can only invoke flows that have HTTP Request interfaces, so you need to select the right trigger for your flow. Select **When Http Request is received** from the trigger list in Microsoft Flow, and make sure you are using the **POST** method under advanced options in the trigger (or leave the method field empty, which is how it is by default):
 ![POST method in HTTP Request](media/flow-http-post-method.png)
 
-> [!NOTE]
-> View this video on how to [create a Flow action](https://go.microsoft.com/fwlink/?linkid=2079323) that can be used with bots. 
 
 ### I created a flow with an HTTP Request trigger, and it's visible in my bot, but when I test my topic, it fails. Why?
 

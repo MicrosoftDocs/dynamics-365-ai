@@ -1,7 +1,7 @@
 ---
 title: "Create a PowerApps environment"
 description: "Learn how to create a PowerApps environment for Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 05/29/2019
+ms.date: 06/19/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -16,9 +16,10 @@ manager: shellyha
 
 When you create a bot, you must select a PowerApps environment for the bot. You can use an existing environment or create one.
 
-## To create a new PowerApps environment
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YL14y3jQbBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Watch the [step-by-step video](https://go.microsoft.com/fwlink/?linkid=2079331), or follow these steps:
+
+## To create a new PowerApps environment
 
 1. Go to [https://admin.powerapps.com](https://admin.powerapps.com) and sign in using your work or school account.
 
