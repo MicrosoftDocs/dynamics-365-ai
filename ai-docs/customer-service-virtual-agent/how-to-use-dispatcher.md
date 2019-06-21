@@ -16,63 +16,62 @@ manager: shellyha
 
 This document covers the following steps to use Microsoft Bot Framework's dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot,
 
-1. Retrieve topics, utterances and secrets from your virtual agent tenant (TO-DO anchor links)
-1. Convert virtual agent topics & utterances into LU-down format
-1. Train dispatcher custom model with your virtual agent's topics
-1. Deploy dispatcher with custom model
-1. Test dispatcher working seamlessly with your bots
+* A. [Retrieve topics, utterances and secrets from your virtual agent tenant](#A.-Retrieve-topics,-utterances-and-secrets-from-your-virtual-agent-tenant)
+* B. [Train dispatcher custom model with your virtual agent's topics](#Train-dispatcher-custom-model-with-your-virtual-agent's-topics)
+* C. [Register and trigger your new dispatch endpoint in code](#Register-and-trigger-your-new-dispatch-endpoint-in-code)
+* D. [Deploy your bot & test dispatcher](#Deploy-your-bot-&-test-dispatcher)
 
 ## Pre-requisites
 
-* Bot built using Bot Builder v4 SDK - [TO DO - click here](https://URL)
-* Visual Studio 2017 or higher - [TO DO - click here to download](https://URL)
-* Familiarity with [Microsoft Bot Framwork's dispatcher tool](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
-* [Sample bot builder sample of dispatch](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
-* Bot Emulator v4 - [click here for github repo](https://github.com/microsoft/BotFramework-Emulator)
-* Virtual Agent utilities & sample code - [TO DO - click here for github repo](https://msazure.visualstudio.com/CCI/_git/Users?path=%2Fsabacha%2FCCIToLU&version=GBmaster)
-* [Microsoft Bot Framework LU down utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
-* [Nuget packet manager](https://nodejs.org/en/)
-* [.NET Core 2.1](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.1.700-windows-x64-installer)
+  * Bot built using Bot Builder v4 SDK - [TO DO - click here](https://URL)
+  * Visual Studio 2017 or higher - [TO DO - click here to download](https://URL)
+  * Familiarity with [Microsoft Bot Framwork's dispatcher tool](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
+  * [Sample bot builder sample of dispatch](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
+  * Bot Emulator v4 - [click here for github repo](https://github.com/microsoft/BotFramework-Emulator)
+  * Virtual Agent utilities & sample code - [TO DO - click here for github repo](https://msazure.visualstudio.com/CCI/_git/Users?path=%2Fsabacha%2FCCIToLU&version=GBmaster)
+  * [Microsoft Bot Framework LU down utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
+  * [Nuget packet manager](https://nodejs.org/en/)
+  * [.NET Core 2.1](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.1.700-windows-x64-installer)
 
-### 1. Retrieve topics, utterances and secrets from your virtual agent tenant
-From your Virtual agent designer, you will need to retrieve bot content (topics & utterances) and your tenant’s endpoint and direct line secret. Here are steps to perform,
+### A. Retrieve topics, utterances and secrets from your virtual agent tenant
+First, we will need to retrieve retrieve your Dynamics Bot content (topics & utterances) and your tenant’s endpoint and direct line secret.
 
 #### 1.	Retrieve bot ID, tenant ID, and auth token from your bot
-  a.	Open Developer Tools (F12) for your web browser
-  b.	Sign-in to your Virtual Agent using your AAD credentials http://va.ai.dynamics.com
-  c.	Go to <Network Tab> (see screenshot below)
+  1.	Open Developer Tools (F12) for your web browser
+  2.	Sign-in to your Virtual Agent using your AAD credentials http://va.ai.dynamics.com
+  3.	Go to <Network Tab> (see screenshot below)
       <TO DO - Screenshot>
-  d.	Filter and look for “client” request (see screenshot below)
+  4.	Filter and look for “client” request (see screenshot below)
       <TO DO - Screenshot>
-  e.	Copy and persist the following details (see screenshot below)
+  5.	Copy and persist the following details (see screenshot below)
         signedInUserAccountInfo.defaultBot.aadTenantId
         signedInUserAccountInfo.defaultBot.id
         signedInUserAccountInfo.defaultBot.name
       <TO DO - Screenshot>
-  f.	Store the above information on your PC - you will need it later.
+  6.	Store the above information on your PC - you will need it later.
 
-#### 1. Retrieve topics and utterances from your bot
-  a.	Export your bot contents from Common Data Store. [See instructions](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
-  b.  Your content will be exported and downloaded as a zip file (e.g. ExportedFiles_1c5d21e9-1d25-4759-a622-0e232a49e197.zip)
-  c.  Unzip the file to find two CSV files - annotations.csv and msdynce_botcontents.csv
+#### 2. Retrieve topics and utterances from your bot
+  1.	Export your bot contents from Common Data Store. [See instructions](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
+  2.  Your content will be exported and downloaded as a zip file (e.g. ExportedFiles_1c5d21e9-1d25-4759-a622-0e232a49e197.zip)
+  3.  Unzip the file to find two CSV files - annotations.csv and msdynce_botcontents.csv
   
-#### 1. Convert the exported content to LU format
-  a.  Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://somelink/)
+#### 3. Convert the exported content to LU format
+  1.  Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://somelink/)
     Note: You will need to use Visual Studio to compile this sample.
-  b. Once compiled and built, use the following command to convert your virtual agent topics & utterances into LU format
+  2. Once compiled and built, use the following command to convert your virtual agent topics & utterances into LU format
     Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.csv -botid <bot id>
-  c. Convert LU file to LUIS Json file format
+  3. Convert LU file to LUIS Json file format
     ludown parse ToLuis --in content.lu
 
-### Train dispatcher custom model with your virtual agent's topics
+### B. Train dispatcher custom model with your virtual agent's topics
 Follow these steps to train and recreate the dispatcher app and add your exported topics & utterance with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow guidance here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
-  1.  First install the dispatch tool (using npm)
+####  1.  Install the dispatch tool (using npm)
 ```
 CMD> npm install -g botdispatch
 ```
 
-  2.  Add exported topics & utterances (exported from step 2 above) using the dispatch tool.
+####  2.  Add exported topics & utterances (exported from step 2 above) using the dispatch tool.
 
 ```
 CMD> dispatch add -type file -name l_cci -f luis.json
@@ -87,7 +86,7 @@ What's your LUIS authoring region [westus, westeurope, australiaeast]:
 File: content.lu added to l_cci.dispatch
 ```
 
-  3.  Generate a dispatch model containing exported topics & utterances
+####  3.  Generate a dispatch model containing exported topics & utterances
     a. Note that you will need to re-train your dispatcher model as more intents are added in future
 
 ```
@@ -129,10 +128,10 @@ Writing summary file ('test_prediction')...
 Please review your dispatch model in ..\Summary.html
 ```
 
-### Register and trigger your new dispatch endpoint in code
+### C. Register and trigger your new dispatch endpoint in code
 The following steps will require you to add code that registers your new dispatch endpoint and trigger it everytime a user's utterance matches intent. We are using the [following sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch) provided by Microsoft Bot Framework team.
 
-  1.  Update appsettings.json in your dispatcher app to include the new endpoint for Virtual agent
+####  1.  Update `appsettings.json` in your dispatcher app to include the new endpoint for Virtual agent
   
 ```csharp
 {
@@ -143,7 +142,7 @@ The following steps will require you to add code that registers your new dispatc
 }
 ```
 
-  2. Add a new class to your project
+####  2. Add a new `DynamicsBot` class to your project
 
 ```csharp
 public class DynamicsBot
@@ -212,7 +211,7 @@ public class DirectLineToken
 }
 ```
 
-  3.  Add a reference to Dynamics bot in IBotServices.cs file
+####  3.  Add a reference to Dynamics bot in `IBotServices.cs` file
   
  ```csharp
 public interface IBotService
@@ -223,7 +222,7 @@ public interface IBotService
 }
  ```
  
-  4. Update BotServices constructor to instatiate DynamicsBotService in BotServices.cs file
+####  4. Update BotServices constructor to instatiate `DynamicsBotService` in `BotServices.cs` file
 
 ```csharp
 DynamicsBotService = new DynamicsBotService(new CCIEndpoint(
@@ -234,7 +233,7 @@ DynamicsBotService = new DynamicsBotService(new CCIEndpoint(
 );
 ```
   
-  5.  Update file DispatchBot.cs to add trigger Dynamics Bot on intent match
+####  5.  Update file `DispatchBot.cs` to add trigger Dynamics Bot on intent match
   
 ```csharp
 private async Task ProcessDynamicsBotAsync(ITurnContext<Microsoft.Bot.Schema.IMessageActivity> turnContext, CancellationToken     cancellationToken)
@@ -316,7 +315,7 @@ private async Task<List<Microsoft.Bot.Connector.DirectLine.Activity>> GetActivit
 }
 ```
 
-  6.  If you want your Dynamics bot to handle unmatched intents for a single fallback, update method DispatchToTopIntentAsync
+####  6.  If you want your Dynamics bot to handle unmatched intents for a single fallback, update method `DispatchToTopIntentAsync`
   
 ```csharp
 case "l_cci":
@@ -327,16 +326,16 @@ default:
 ```
 
 
-### Deploy your bot & test dispatcher
+### D. Deploy your bot & test dispatcher
 We're ready to test our dispatcher to ensure seamless interaction between Dynamics bot and your other bots.
 
-  1.  Deploy your Dynamics bot using [instructions provided here](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
+####  1.  Deploy your Dynamics bot using [instructions provided here](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
+  <TO DO - Add screenshot for deploy>
   
-  2.  Build (Ctrl + Shift + B) and run (F5) your dispatcher app
+####  2.  Build (Ctrl + Shift + B) and run (F5) your dispatcher app
   
-  3.  Open Bot Emulator, add the nme and endpoint to your bot.
-  
-  4.  Your LUIS bot is now capable of sending all matched (and unmatched, if configured) intents to Dynamics bot.
+####  3.  Open Bot Emulator, add the name and endpoint to your bot.
+  <TO DO - Add bot emulator screenshot>
   
 ## Conclusion
 Dynamics 365 Virtual Agent for Customer enables businesses to seamlessly interact with existing bots using dispatcher.
