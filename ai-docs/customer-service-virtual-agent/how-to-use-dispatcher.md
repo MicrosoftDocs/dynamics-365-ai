@@ -72,8 +72,7 @@ signedInUserAccountInfo.defaultBot.name
   3.  Unzip the file to find two CSV files - `annotations.csv` and `msdynce_botcontents.csv`
   
 #### 3. Convert the exported content to LU format
-  1.  Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility]()
-    Note: You will need to use Visual Studio to compile this sample.
+  1.  Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://) Note: You will need to use Visual Studio to compile this sample.
   2. Once compiled and built, use the following command to convert your virtual agent topics & utterances into LU format
 ```
 Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.csv -botid <bot id>
