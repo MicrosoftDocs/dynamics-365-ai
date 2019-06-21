@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Service entities used by Customer Service Insights"
 description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 for Customer Service."
 keywords: "CDS, data entity"
-ms.date: 4/23/2019
+ms.date: 6/21/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -51,7 +51,7 @@ For more information about the Case entity, see [Case Entity Reference](https://
 
 ## CaseResolution entity
 
-The CaseResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the CaseResolution entity to compute case resolution time. If the CaseResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Case entity](#case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the CaseResolution entity:
+The CaseResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the CaseResolution entity to compute case resolution time. If the CaseResolution entity is not available in the system or no resolution record is found from the entity for a resolved case, Customer Service Insights uses the value of the ModifiedOn attribute in the [Case entity](#case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the CaseResolution entity:
 
 Attributes | Type | Details
 -----------|------|--------
@@ -59,6 +59,7 @@ IncidentId | Lookup | A unique incident identifier.
 CreatedOn | DateTime | The date and time the case resolution activity was created. Since a CaseResolution record is created when a case is resolved, this attribute indicates the date and time a case is resolved.
 ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
 StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
+ticketNumber | String | The case number for customer reference and searching capabilities in CRM. Users can review cases grouped into each topic with their case numbers in the Topics page. 
 
 For more information about the CaseResolution entity, see [Case Resolution Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/caseresolution).
 
