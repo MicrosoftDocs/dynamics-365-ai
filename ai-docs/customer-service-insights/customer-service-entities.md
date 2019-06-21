@@ -46,6 +46,7 @@ OwningUser | Lookup | A unique identifier for the support agent who owns the cas
 ProductId | Lookup | A unique identifier for the product associated with the case. Customer Service Insights uses this attribute to look up the product name from the [Product](#product-entity) entity and generate product information for the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
 OwningBusinessUnit | Lookup | A unique identifier for the business unit that owns the case. Customer Service Insights uses this attribute to look up the business unit names from the [BusinessUnit](#businessunit-entity) entity and generate the Business Unit filter values on each dashboard.
 OwningTeam | Lookup | A unique identifier for the team that owns the case. Customer Service Insights uses this attribute to look up the team name from the [Team](#team-entity) entity and generate the Team filter values on each dashboard.
+TicketNumber | String | The case number for customer reference and searching capabilities in a Dynamics 365 for Customer Service environment. Users can review cases grouped into each topic with their case numbers in the Topics page. 
 
 For more information about the Case entity, see [Case Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case).
 
@@ -59,7 +60,6 @@ IncidentId | Lookup | A unique incident identifier.
 CreatedOn | DateTime | The date and time the case resolution activity was created. Since a CaseResolution record is created when a case is resolved, this attribute indicates the date and time a case is resolved.
 ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
 StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
-ticketNumber | String | The case number for customer reference and searching capabilities in a Dynamics 365 for Customer Service environment. Users can review cases grouped into each topic with their case numbers in the Topics page. 
 
 For more information about the CaseResolution entity, see [Case Resolution Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/caseresolution).
 
