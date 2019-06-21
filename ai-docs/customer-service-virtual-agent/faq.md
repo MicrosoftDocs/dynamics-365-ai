@@ -81,7 +81,7 @@ At this time, Virtual Agent is not available in the Government Community Cloud.
 
 ### Does Virtual Agent support preview releases of Common Data Service (CDS)?
 
-Virtual Agent uses the Common Data Service (CDS) to store content. Preview releases of CDS may be incompatible with Virtual Agent and may result in an error when creating a bot or when saving topics or conversations. If you encounter an error, and retrying does not solve issue, you can [file a bug in the community forum](https://go.microsoft.com/fwlink/?linkid=2058639).
+Virtual Agent uses the Common Data Service (CDS) to store your bot's content. Preview releases of CDS may be incompatible with Virtual Agent and may result in an error when creating a bot or when saving topics or conversations. If you encounter an error, and retrying does not resolve the issue, you can [file a bug in the community forum](https://go.microsoft.com/fwlink/?linkid=2058639).
 
 ## Bot creation and environments
 
