@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 06/19/2019
+ms.date: 06/21/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -78,6 +78,10 @@ Dynamics 365 Virtual Agent for Customer Service is built on Azure Bot Framework.
 
 ### Is Dynamics 365 Virtual Agent for Customer Service available in Government Environments currently?
 At this time, Virtual Agent is not available in the Government Community Cloud.
+
+### Does Virtual Agent support preview releases of Common Data Service (CDS)?
+
+Virtual Agent uses the Common Data Service (CDS) to store your bot's content. Preview releases of CDS may be incompatible with Virtual Agent and may result in an error when creating a bot or when saving topics or conversations. If you encounter an error, and retrying does not resolve the issue, you can [file a bug in the community forum](https://go.microsoft.com/fwlink/?linkid=2058639).
 
 ## Bot creation and environments
 
