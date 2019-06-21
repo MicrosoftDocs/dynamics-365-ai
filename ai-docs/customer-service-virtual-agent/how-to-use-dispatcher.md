@@ -37,6 +37,9 @@ Code snippets used in this document are available below.
   * [Nuget packet manager](https://nodejs.org/en/)
   * [.NET Core 2.1 runtime](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.1.700-windows-x64-installer)
 
+## Steps
+Follow these steps to use your existing bot with Dynamics 365 Virtual Agent for Customer Service.
+
 ### A. Retrieve topics, utterances and secrets from your virtual agent tenant
 First, we will need to retrieve retrieve your Dynamics Bot content (topics & utterances) and your tenant’s endpoint and direct line secret.
 
