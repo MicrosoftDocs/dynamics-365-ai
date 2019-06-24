@@ -74,7 +74,7 @@ That's great—we'd love to hear your thoughts. [Submit your ideas and feedback 
 
 ### I have an existing bot built on Azure Bot Framework and Azure Cognitive Services. How do I leverage Dynamics 365 Virtual Agent for Customer Service?
 
-Dynamics 365 Virtual Agent for Customer Service is built on Azure Bot Framework. Organizations with existing bots can leverage [Bot Framework’s dispatch tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch) ([see example](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs)) to integrate the two product offerings. We strive to enable developers with a streamlined bot building experience by seamlessly integrating into [Bot Framework’s Skill platform](https://docs.microsoft.com/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0) in an upcoming release. 
+Dynamics 365 Virtual Agent for Customer Service is built on Azure Bot Framework. Organizations with existing bots can leverage [Bot Framework’s dispatch tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch). You can follow a [step-by-step guidance to setting up dispatcher with your bot built with Dynamics 365 Virtual Agent for Customer Service](how-to-use-dispatcher.md). We strive to enable developers with a streamlined bot building experience by seamlessly integrating into [Bot Framework’s Skill platform](https://docs.microsoft.com/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0) in an upcoming release. 
 
 ### Is Dynamics 365 Virtual Agent for Customer Service available in Government Environments currently?
 At this time, Virtual Agent is not available in the Government Community Cloud.
