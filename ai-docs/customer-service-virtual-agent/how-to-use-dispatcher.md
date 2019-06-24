@@ -27,33 +27,33 @@ This article covers the following steps to use the Microsoft Bot Framework dispa
   * Understanding how to [test and debug bots using Bot Framework Emulator](https://docs.microsoft.com/azure/bot-service/bot-service-debug-bot?view=azure-bot-service-4.0)
 
 ### Code samples & dependencies
+
 Code snippets used in this document are available below.
 
-  * [Bot Framework Dispatcher app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
+  * [Bot Framework Dispatch tool app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
   * [TO DO - Dynamics Bot Content Converter](https://msazure.visualstudio.com/CCI/_git/Users?path=%2Fsabacha%2FCCIToLU&version=GBmaster)
-  * [Microsoft Bot Framework LU down utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
-  * [Nuget packet manager](https://nodejs.org/en/)
+<!-- please resolve to do -->
+  * [Microsoft Bot Framework LUDown utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
+  * [NuGet Package manager](https://nodejs.org/en/)
+<!-- link goes to nodeJS download, did you mean https://www.nuget.org/downloads -->
   * [.NET Core 2.1 runtime](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.1.700-windows-x64-installer)
 
-## Steps
-Follow these steps to use your existing bot with Dynamics 365 Virtual Agent for Customer Service.
+## Retrieve topics, utterances and secrets from your Virtual Agent tenant
+We will need to retrieve your Virtual Agent bot's content (topics & utterances), your tenant’s endpoint and direct line secret.
 
-### Retrieve topics, utterances and secrets from your Virtual Agent tenant
-We will need to retrieve your Dynamics bot's content (topics & utterances), your tenant’s endpoint and direct line secret.
+### Retrieve bot ID, tenant ID, and auth token from your bot
 
-#### 1.	Retrieve bot ID, tenant ID, and auth token from your bot
+1.	Open Developer Tools (F12) for your web browser.
 
-1.	Open Developer Tools (F12) for your web browser
+2.	[Sign in to your Virtual Agent tenant](http://va.ai.dynamics.com) using your Azure AD credentials. 
 
-2.	Sign-in to your Virtual Agent using your AAD credentials http://va.ai.dynamics.com
+3.	Go to the **Network** tab.
+      <TO DO - Screenshot> <!-- ui element, bold? -->
 
-3.	Go to `Network Tab` (see screenshot below)
+4.	Filter and look for “client” requests.
       <TO DO - Screenshot>
 
-4.	Filter and look for “client” request (see screenshot below)
-      <TO DO - Screenshot>
-
-5.	Copy and persist the following details (see screenshot below)
+5.	Copy and persist the following details. 
 ```javascript
 signedInUserAccountInfo.defaultBot.aadTenantId
 signedInUserAccountInfo.defaultBot.id
@@ -61,27 +61,34 @@ signedInUserAccountInfo.defaultBot.name
 ```
 <TO DO - Screenshot>
 
-6.	Store the above information on your PC - you will need it later.
+6.	Store the above information, you will need it later.
 
-#### 2. Retrieve topics and utterances from your bot
-  1.	Export `BotContent` and `Annotations` from Common Data Store. [Click here for instructions](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
-  2.  Content will be exported and downloaded as a zip file 
-        (e.g. `ExportedFiles_1c5d21e9-1d25-4759-a622-0e232a49e197.zip`)
-  3.  Unzip the file to find two CSV files - `annotations.csv` and `msdynce_botcontents.csv`
+### Retrieve topics and utterances from your bot
+  1.	Export `BotContent` and `Annotations` from Common Data Store. [Review how to export data from Virtual Agent](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
   
-#### 3. Convert the exported content to LU format
-  1.  Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://) Note: You will need to use Visual Studio to compile this sample.
-  2. Once compiled and built, use the following command to convert your virtual agent topics & utterances into LU format
-```
-Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.csv -botid <bot id>
-```
-3. Convert LU file to LUIS Json file format
-```
-ludown parse ToLuis --in content.lu
-```
+  2.  Download the zip file and unzip it to find two CSV files: `annotations.csv` and `msdynce_botcontents.csv`
+  
+### Convert the exported content to LU format
+
+  1. Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://).
+  <!--resolve to do -->
+     > [!NOTE]
+     > You'll need to use Visual Studio to compile this sample.
+
+  2. Once compiled and built, use the following command to convert your topics and utterances into LU format.
+
+    ```
+    Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.csv -botid <bot id>
+    ```
+
+  3. Convert the LU file to LUIS Json file format.
+
+    ```
+    ludown parse ToLuis --in content.lu
+    ```
 
 ### Train dispatcher custom model with your Virtual Agent topics
-Follow these steps to train and recreate the dispatcher app and add your exported topics & utterances with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow guidance here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
+Follow these steps to train and recreate the dispatcher app and add your exported topics & utterances with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow the guidance in the Dispatch tool tutorial](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
 ####  1.  Install the dispatch tool (using npm)
 ```
