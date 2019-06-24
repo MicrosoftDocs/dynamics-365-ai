@@ -48,22 +48,21 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 2.	[Sign in to your Virtual Agent tenant](http://va.ai.dynamics.com) using your Azure AD credentials. 
 
 3.	Go to the **Network** tab.
-      <TO DO - Screenshot> <!-- ui element, bold? -->
+      <TO DO - Screenshot>
 
 4.	Filter and look for “client” requests.
       <TO DO - Screenshot>
 
-5.	Copy and persist the following details. 
+5.	Copy the following details. 
     ```javascript
     signedInUserAccountInfo.defaultBot.aadTenantId
     signedInUserAccountInfo.defaultBot.id
     signedInUserAccountInfo.defaultBot.name
     ```
-<TO DO - Screenshot>
-
-6.	Store the above information, you will need it later.
+6.	Store the above information in a file, you will need it later.
 
 ### Retrieve topics and utterances from your bot
+
   1.	Export `BotContent` and `Annotations` from Common Data Store. [Review how to export data from Virtual Agent](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
   
   2.  Download the zip file and unzip it to find two CSV files: `annotations.csv` and `msdynce_botcontents.csv`
@@ -361,11 +360,11 @@ The following steps will require you to add code that registers your new dispatc
 We're ready to test our dispatcher to ensure seamless interaction between DynamicsBot and your other bots.
 
 1.  [Deploy your DynamicsBot](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
-  <TO DO - Add screenshot for deploy>
+    ![Deploy our bot](media/open-deploy.png)
   
 2.  Build (Ctrl + Shift + B) and run (F5) your dispatcher app.
   
 3.  Open Bot Emulator where you add the name and endpoint to your bot.
-  <TO DO - Add bot emulator screenshot>
+    ![Dialog to create new bot in the bot emulator](media/dispatch-bot-emulator.png)
   
 <!-- removed the conclusion because the topic intent is already state in the intro. Just FYI, remove this comment if you agree -->
