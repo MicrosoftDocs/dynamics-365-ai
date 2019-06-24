@@ -54,11 +54,11 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
       <TO DO - Screenshot>
 
 5.	Copy and persist the following details. 
-```javascript
-signedInUserAccountInfo.defaultBot.aadTenantId
-signedInUserAccountInfo.defaultBot.id
-signedInUserAccountInfo.defaultBot.name
-```
+    ```javascript
+    signedInUserAccountInfo.defaultBot.aadTenantId
+    signedInUserAccountInfo.defaultBot.id
+    signedInUserAccountInfo.defaultBot.name
+    ```
 <TO DO - Screenshot>
 
 6.	Store the above information, you will need it later.
@@ -70,24 +70,25 @@ signedInUserAccountInfo.defaultBot.name
   
 ### Convert the exported content to LU format
 
-  1. Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://).
+1. Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://).
   <!--resolve to do -->
+
      > [!NOTE]
      > You'll need to use Visual Studio to compile this sample.
 
-  2. Once compiled and built, use the following command to convert your topics and utterances into LU format.
+2. Once compiled and built, use the following command to convert your topics and utterances into LU format.
 
     ```
     Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.csv -botid <bot id>
     ```
 
-  3. Convert the LU file to LUIS Json file format.
+3. Convert the LU file to LUIS Json file format.
 
     ```
     ludown parse ToLuis --in content.lu
     ```
 
-### Train dispatcher custom model with your Virtual Agent topics
+## Train dispatcher custom model with your Virtual Agent topics
 
 Train and recreate the dispatcher app and add your exported topics and utterances with your existing Cognitive Service intents (eg. LUIS and/or QnA maker) using the Dispatch tool. For more information, [follow the guidance in the Dispatch tool tutorial](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
@@ -155,7 +156,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
     Please review your dispatch model in ..\Summary.html
     ```
 
-### Register and trigger your new dispatch endpoint in code
+## Register and trigger your new dispatch endpoint in code
 
 The following steps will require you to add code that registers your new dispatch endpoint and trigger it whenever a user's utterance matches intent. We are using the [sample provided by Microsoft Bot Framework](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch).
 
@@ -170,7 +171,7 @@ The following steps will require you to add code that registers your new dispatc
     }
     ```
 
-2. Add a new `DynamicsBot` class to your project
+2.  Add a new `DynamicsBot` class to your project
 <!-- in the rest of the article, I updated Dynamics bot to DynamcisBot, assuming you refer to the newly created class. Please review the update usage of the reference thoroughly to ensure accuracy. -->
 
     ```csharp
@@ -355,7 +356,7 @@ The following steps will require you to add code that registers your new dispatc
     ```
 
 
-### Deploy your bot and test the dispatcher
+## Deploy your bot and test the dispatcher
 
 We're ready to test our dispatcher to ensure seamless interaction between DynamicsBot and your other bots.
 
