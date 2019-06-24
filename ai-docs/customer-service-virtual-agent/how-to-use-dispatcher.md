@@ -14,17 +14,17 @@ manager: shellyha
 
 This article covers the following steps to use the Microsoft Bot Framework dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
 
-* A. [Retrieve topics, utterances and secrets from your Virtual Agent tenant](#retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
-* B. [Train dispatcher custom model with your Virtual Agent topics](#train-dispatcher-custom-model-with-your-virtual-agent-topics)
-* C. [Register and trigger your new dispatch endpoint in code](#register-and-trigger-your-new-dispatch-endpoint-in-code)
-* D. [Deploy your bot and test the dispatcher](#deploy-your-bot-and-test-the-dispatcher)
+* [Retrieve topics, utterances and secrets from your Virtual Agent tenant](#retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
+* [Train dispatcher custom model with your Virtual Agent topics](#train-dispatcher-custom-model-with-your-virtual-agent-topics)
+* [Register and trigger your new dispatch endpoint in code](#register-and-trigger-your-new-dispatch-endpoint-in-code)
+* [Deploy your bot and test the dispatcher](#deploy-your-bot-and-test-the-dispatcher)
 
-## Pre-requisites
+## Prerequisites
 
-  * Bot build using Microsoft Bot Framework Bot Builder v4 SDK
-  * Visual Studio 2017 or higher - [click here to download](https://visualstudio.microsoft.com/vs/)
-  * Understanding of Microsoft Bot Framework's dispatcher tool. [Read more](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
-  * Understanding how to test & debug bots using Bot Framework Emulator - [Learn more](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-bot?view=azure-bot-service-4.0)
+  * Bot build using [Microsoft Bot Framework SDK v4](https://github.com/microsoft/botframework)
+  * Visual Studio 2017 or later - [click here to download](https://visualstudio.microsoft.com/vs/)
+  * Understanding of [Microsoft Bot Framework's Dispatch tool](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
+  * Understanding how to [test and debug bots using Bot Framework Emulator](https://docs.microsoft.com/azure/bot-service/bot-service-debug-bot?view=azure-bot-service-4.0)
 
 ### Code samples & dependencies
 Code snippets used in this document are available below.
