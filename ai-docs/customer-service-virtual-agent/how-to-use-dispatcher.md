@@ -72,13 +72,13 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 1. Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://).
   <!--resolve to do -->
 
-     > [!NOTE]
-     > You'll need to use Visual Studio to compile this sample.
+ [!NOTE]
+ You'll need to use Visual Studio installed to compile and run this sample.
 
-2. Once compiled and built, use the following command to convert your topics and utterances into LU format.
+2. Use the following command to compile and run this code sample.
 
     ```
-    Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.csv -botid <bot id>
+    dotnet run -p ContentConverter.csproj -c Release -- -i <path to msdynce_botcontents.csv> -o <path to annotations.csv> -b <your bot id>
     ```
 
 3. Convert the LU file to LUIS Json file format.
@@ -104,17 +104,17 @@ Train and recreate the dispatcher app and add your exported topics and utterance
     Please enter required field(s) below.
     
     What name would you like for your dispatch:
-    l_cci
+    l_dynamicsbot
     What's your LUIS authoring key (from https://www.luis.ai/user/settings):
-    <enter authoring key>
+    <enter authoring key from URL above>
     What's your LUIS authoring region [westus, westeurope, australiaeast]:
     <pick your region: eg. westus>
-    File: content.lu added to l_cci.dispatch
+    File: content.lu added to l_dynamicsbot.dispatch
     ```
 
 3.  Generate a dispatch model containing exported topics and utterances
-    > [!NOTE] 
-    > You'll need to re-train your dispatch model when more intents are added in future.
+    [!NOTE] 
+    You'll need to re-train your dispatch model when more intents are added in future.
 
     ```
     CMD> dispatch create
@@ -122,12 +122,12 @@ Train and recreate the dispatcher app and add your exported topics and utterance
     Exporting services for dispatch...
     Creating dispatch LUIS model json...
     Creating training data...
-    Updating l_cci model...
-    Importing l_cci model...
-    Setting up intents to child services mapping for l_cci...
+    Updating l_dynamicsbot model...
+    Importing l_dynamicsbot model...
+    Setting up intents to child services mapping for l_dynamicsbot...
     Add subscription key and publish child LUIS apps...
-    Training l_cci model...
-    Publishing l_cci model...
+    Training l_dynamicsbot model...
+    Publishing l_dynamicsbot model...
     Writing summary file ('test_prediction')...
     {
       "authoringRegion": "westus",
@@ -139,7 +139,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
         {
           "path": "luis.json",
           "type": "file",
-          "name": "l_cci"
+          "name": "l_dynamicsbot"
         }
       ],
       "serviceIds": [
@@ -150,7 +150,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
       "version": "Dispatch",
       "region": "westus",
       "type": "dispatch",
-      "name": "l_cci"
+      "name": "l_dynamicsbot"
     }
     Please review your dispatch model in ..\Summary.html
     ```
@@ -163,15 +163,15 @@ The following steps will require you to add code that registers your new dispatc
   
     ```csharp
     {
-      "CCIBotId": "<Bot Id>",
-      "CCITenantId": "<Tenant Id>",
-      "CCIBotName": "<Bot Name>",
-      "CCITokenEndpoint": "https://va.ai.dynamics.com/api/botmanagement/v1/directline/directlinetoken",
+      "DynamicsBotId": "<Bot Id>",
+      "DynamicsBotTenantId": "<Tenant Id>",
+      "DynamicsBotName": "<Bot Name>",
+      "DynamicsBotTokenEndpoint": "https://va.ai.dynamics.com/api/botmanagement/v1/directline/directlinetoken",
     }
     ```
 
 2.  Add a new `DynamicsBot` class to your project
-<!-- in the rest of the article, I updated Dynamics bot to DynamcisBot, assuming you refer to the newly created class. Please review the update usage of the reference thoroughly to ensure accuracy. -->
+
 
     ```csharp
     public class DynamicsBot
@@ -187,8 +187,8 @@ The following steps will require you to add code that registers your new dispatc
     
       public string BotName { get; }
     
-      public CCIChannelData ChannelData { get; }
-      public CCIEndpoint Endpoint { get; }
+      public DynamicsBotChannelData ChannelData { get; }
+      public DynamicsBotEndpoint Endpoint { get; }
     
       public async Task<string> GetTokenAsync()
       {
@@ -205,12 +205,12 @@ The following steps will require you to add code that registers your new dispatc
     {
       public DynamicsBotChannelData(string botId, string tenantId, string contentVersion)
       {
-        cci_bot_id = botId;
-        cci_tenant_id = tenantId;
+        dynamics_bot_id = botId;
+        dynamics_bot_tenant_id = tenantId;
       }
     
-      public string cci_bot_id { get; }
-      public string cci_tenant_id { get;  }
+      public string dynamics_bot_id { get; }
+      public string dynamics_bot_tenant_id { get;  }
     }
     
     public class DynamicsBotEndpoint
@@ -247,7 +247,7 @@ The following steps will require you to add code that registers your new dispatc
     {
       LuisRecognizer Dispatch { get; }
       QnAMaker SampleQnA { get; }
-      CCIService CCIService { get; }
+      DynamicsBotService DynamicsBotService { get; }
     }
     ```
  
@@ -347,7 +347,7 @@ The following steps will require you to add code that registers your new dispatc
 6.  If you want your DynamicsBot to handle unmatched intents for a single fallback, update the method `DispatchToTopIntentAsync`.
   
     ```csharp
-    case "l_cci":
+    case "l_dynamicsbot":
     case "None":
     default:
         await ProcessDynamicsBotAsync(turnContext, cancellationToken);
@@ -366,5 +366,3 @@ We're ready to test our dispatcher to ensure seamless interaction between Dynami
   
 3.  Open Bot Emulator where you add the name and endpoint to your bot.
     ![Dialog to create new bot in the bot emulator](media/dispatch-bot-emulator.png)
-  
-<!-- removed the conclusion because the topic intent is already state in the intro. Just FYI, remove this comment if you agree -->
