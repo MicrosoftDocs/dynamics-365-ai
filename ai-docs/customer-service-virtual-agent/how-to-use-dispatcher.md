@@ -88,278 +88,283 @@ signedInUserAccountInfo.defaultBot.name
     ```
 
 ### Train dispatcher custom model with your Virtual Agent topics
-Follow these steps to train and recreate the dispatcher app and add your exported topics & utterances with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow the guidance in the Dispatch tool tutorial](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
-####  1.  Install the dispatch tool (using npm)
-```
-CMD> npm install -g botdispatch
-```
+Train and recreate the dispatcher app and add your exported topics and utterances with your existing Cognitive Service intents (eg. LUIS and/or QnA maker) using the Dispatch tool. For more information, [follow the guidance in the Dispatch tool tutorial](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
-####  2.  Add exported topics & utterances (exported from step 2 above) using the dispatch tool.
+1.  Install the dispatch tool using NuGet package manager.
 
-```
-CMD> dispatch add -type file -name l_cci -f luis.json
-Please enter required field(s) below.
+    ```
+    CMD> npm install -g botdispatch
+    ```
 
-What name would you like for your dispatch:
-l_cci
-What's your LUIS authoring key (from https://www.luis.ai/user/settings):
-<enter authoring key>
-What's your LUIS authoring region [westus, westeurope, australiaeast]:
-<pick your region: eg. westus>
-File: content.lu added to l_cci.dispatch
-```
+2.  Add topics and utterances that you exported earlier using the Dispatch tool.
 
-####  3.  Generate a dispatch model containing exported topics & utterances
-    a. Note that you will need to re-train your dispatcher model as more intents are added in future
+    ```
+    CMD> dispatch add -type file -name l_cci -f luis.json
+    Please enter required field(s) below.
+    
+    What name would you like for your dispatch:
+    l_cci
+    What's your LUIS authoring key (from https://www.luis.ai/user/settings):
+    <enter authoring key>
+    What's your LUIS authoring region [westus, westeurope, australiaeast]:
+    <pick your region: eg. westus>
+    File: content.lu added to l_cci.dispatch
+    ```
 
-```
-CMD> dispatch create
+3.  Generate a dispatch model containing exported topics and utterances
+    > [!NOTE] 
+    > You'll need to re-train your dispatch model when more intents are added in future.
 
-Exporting services for dispatch...
-Creating dispatch LUIS model json...
-Creating training data...
-Updating l_cci model...
-Importing l_cci model...
-Setting up intents to child services mapping for l_cci...
-Add subscription key and publish child LUIS apps...
-Training l_cci model...
-Publishing l_cci model...
-Writing summary file ('test_prediction')...
-{
-  "authoringRegion": "westus",
-  "hierarchical": true,
-  "useAllTrainingData": false,
-  "dontReviseUtterance": false,
-  "copyLuisData": true,
-  "services": [
+    ```
+    CMD> dispatch create
+    
+    Exporting services for dispatch...
+    Creating dispatch LUIS model json...
+    Creating training data...
+    Updating l_cci model...
+    Importing l_cci model...
+    Setting up intents to child services mapping for l_cci...
+    Add subscription key and publish child LUIS apps...
+    Training l_cci model...
+    Publishing l_cci model...
+    Writing summary file ('test_prediction')...
     {
-      "path": "luis.json",
-      "type": "file",
+      "authoringRegion": "westus",
+      "hierarchical": true,
+      "useAllTrainingData": false,
+      "dontReviseUtterance": false,
+      "copyLuisData": true,
+      "services": [
+        {
+          "path": "luis.json",
+          "type": "file",
+          "name": "l_cci"
+        }
+      ],
+      "serviceIds": [
+        "1"
+      ],
+      "appId": "<REDACTED>",
+      "authoringKey": "<REDACTED>",
+      "version": "Dispatch",
+      "region": "westus",
+      "type": "dispatch",
       "name": "l_cci"
     }
-  ],
-  "serviceIds": [
-    "1"
-  ],
-  "appId": "<REDACTED>",
-  "authoringKey": "<REDACTED>",
-  "version": "Dispatch",
-  "region": "westus",
-  "type": "dispatch",
-  "name": "l_cci"
-}
-Please review your dispatch model in ..\Summary.html
-```
+    Please review your dispatch model in ..\Summary.html
+    ```
 
 ### Register and trigger your new dispatch endpoint in code
-The following steps will require you to add code that registers your new dispatch endpoint and trigger it everytime a user's utterance matches intent. We are using the [following sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch) provided by Microsoft Bot Framework team.
 
-####  1.  Update `appsettings.json` in your dispatcher app to include the new endpoint for Virtual agent
+The following steps will require you to add code that registers your new dispatch endpoint and trigger it whenever a user's utterance matches intent. We are using the [sample provided by Microsoft Bot Framework](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch).
+
+1.  Update `appsettings.json` in your dispatcher app to include the new endpoint for Virtual Agent.
   
-```csharp
-{
-  "CCIBotId": "<Bot Id>",
-  "CCITenantId": "<Tenant Id>",
-  "CCIBotName": "<Bot Name>",
-  "CCITokenEndpoint": "https://va.ai.dynamics.com/api/botmanagement/v1/directline/directlinetoken",
-}
-```
-
-####  2. Add a new `DynamicsBot` class to your project
-
-```csharp
-public class DynamicsBot
-{
-  private readonly HttpClient _httpClient;
-
-  public DynamicsBot(CCIEndpoint endpoint, string botName)
-  {
-    Endpoint = endpoint;
-    BotName = botName;
-    _httpClient = new HttpClient();
-  }
-
-  public string BotName { get; }
-
-  public CCIChannelData ChannelData { get; }
-  public CCIEndpoint Endpoint { get; }
-
-  public async Task<string> GetTokenAsync()
-  {
-    var httpRequest = new HttpRequestMessage();
-    httpRequest.Method = new HttpMethod("GET");
-    httpRequest.RequestUri = Endpoint.TokenUrl;
-    var response = await _httpClient.SendAsync(httpRequest);
-    var responseStr = await response.Content.ReadAsStringAsync();
-    return SafeJsonConvert.DeserializeObject<DirectLineToken>(responseStr).token;
-  }
-}
-
-public class DynamicsBotChannelData
-{
-  public DynamicsBotChannelData(string botId, string tenantId, string contentVersion)
-  {
-    cci_bot_id = botId;
-    cci_tenant_id = tenantId;
-  }
-
-  public string cci_bot_id { get; }
-  public string cci_tenant_id { get;  }
-}
-
-public class DynamicsBotEndpoint
-{
-  public DynamicsBotEndpoint(string botId, string tenantId, string tokenEndPoint)
-  {
-    BotId = botId;
-    TenantId = tenantId;
-    TokenEndPoint = tokenEndPoint;
-    UriBuilder uriBuilder = new UriBuilder(tokenEndPoint);
-    uriBuilder.Query = $"botId={BotId}&tenantId={TenantId}";
-    TokenUrl = uriBuilder.Uri;
-  }
-
-  public string BotId { get; }
-
-  public string TenantId { get; }
-
-  public string TokenEndPoint { get; }
-
-  public Uri TokenUrl { get; }
-}
-
-public class DirectLineToken
-{
-  public string token { get; set; }
-}
-```
-
-####  3.  Add a reference to Dynamics bot in `IBotServices.cs` file
-  
- ```csharp
-public interface IBotService
-{
-  LuisRecognizer Dispatch { get; }
-  QnAMaker SampleQnA { get; }
-  CCIService CCIService { get; }
-}
- ```
- 
-####  4. Update BotServices constructor to instatiate `DynamicsBotService` in `BotServices.cs` file
-
-```csharp
-DynamicsBotService = new DynamicsBotService(new CCIEndpoint(
-    configuration["DynamicsBotId"],
-    configuration["DynamicsBotTenantId"],
-    configuration["DynamicsBotTokenEndpoint"]),
-    configuration["DynamicsBotName"]
-);
-```
-  
-####  5.  Update file `DispatchBot.cs` to add trigger Dynamics Bot on intent match
-  
-```csharp
-private async Task ProcessDynamicsBotAsync(ITurnContext<Microsoft.Bot.Schema.IMessageActivity> turnContext, CancellationToken     cancellationToken)
-{
-    var token = await _botService.DynamicsBotService.GetTokenAsync();
-
-    using (var directLineClient = new DirectLineClient(token))
+    ```csharp
     {
-        var conversation = await directLineClient.Conversations.StartConversationAsync();
-        var conversationtId = conversation.ConversationId;
-
-        var response = await directLineClient.Conversations.PostActivityAsync(conversationtId, new Microsoft.Bot.Connector.DirectLine.Activity()
-        {
-            Type = Microsoft.Bot.Connector.DirectLine.ActivityTypes.Message,
-            From = new Microsoft.Bot.Connector.DirectLine.ChannelAccount { Id = "userId", Name = "userName" },
-            Text = turnContext.Activity.Text,
-            ChannelData = JObject.FromObject(_botService.DynamicsBotService.ChannelData),
-            TextFormat = "plain",
-            Locale = "en-Us",
-        });
-
-        Thread.Sleep(4000);
-
-        var activities = await GetActivitiesAsync(directLineClient, conversationtId, _botService.DynamicsBotService.BotName);
-
-        var activity = turnContext.Activity as Microsoft.Bot.Schema.Activity;
-
-        await turnContext.SendActivitiesAsync(
-                   activities
-                   .Select(message =>
-                   {
-                       var reply = activity.CreateReply(message.Text);
-                       reply.Attachments = message?.Attachments?.Select(a => new Microsoft.Bot.Schema.Attachment()
-                       {
-                           Content = a.Content,
-                           ContentType = a.ContentType,
-                           ContentUrl = a.ContentUrl
-                       }).ToList();
-
-                       reply.SuggestedActions = new Microsoft.Bot.Schema.SuggestedActions()
-                       {
-                           Actions = message?.SuggestedActions?.Actions?.Select(a => new Microsoft.Bot.Schema.CardAction()
-                           {
-                               Title = a.Title,
-                               Value = a.Value,
-                               Type = a.Type,
-                               Image = a.Image
-                           }).ToList(),
-                       };
-
-                       return reply;
-                   })
-                   .ToArray());
+      "CCIBotId": "<Bot Id>",
+      "CCITenantId": "<Tenant Id>",
+      "CCIBotName": "<Bot Name>",
+      "CCITokenEndpoint": "https://va.ai.dynamics.com/api/botmanagement/v1/directline/directlinetoken",
     }
-}
+    ```
 
-private async Task<List<Microsoft.Bot.Connector.DirectLine.Activity>> GetActivitiesAsync(DirectLineClient directLineClient, string conversationtId, string botName)
-{
-    ActivitySet response = null;
-    List<Microsoft.Bot.Connector.DirectLine.Activity> result = new List<Microsoft.Bot.Connector.DirectLine.Activity>();
-    string watermark = null;
+2. Add a new `DynamicsBot` class to your project
+<!-- in the rest of the article, I updated Dynamics bot to DynamcisBot, assuming you refer to the newly created class. Please review the update usage of the reference thoroughly to ensure accuracy. -->
 
-    do
+    ```csharp
+    public class DynamicsBot
     {
-        response = await directLineClient.Conversations.GetActivitiesAsync(conversationtId, watermark);
-        watermark = response.Watermark;
+      private readonly HttpClient _httpClient;
+    
+      public DynamicsBot(CCIEndpoint endpoint, string botName)
+      {
+        Endpoint = endpoint;
+        BotName = botName;
+        _httpClient = new HttpClient();
+      }
+    
+      public string BotName { get; }
+    
+      public CCIChannelData ChannelData { get; }
+      public CCIEndpoint Endpoint { get; }
+    
+      public async Task<string> GetTokenAsync()
+      {
+        var httpRequest = new HttpRequestMessage();
+        httpRequest.Method = new HttpMethod("GET");
+        httpRequest.RequestUri = Endpoint.TokenUrl;
+        var response = await _httpClient.SendAsync(httpRequest);
+        var responseStr = await response.Content.ReadAsStringAsync();
+        return SafeJsonConvert.DeserializeObject<DirectLineToken>(responseStr).token;
+      }
+    }
+    
+    public class DynamicsBotChannelData
+    {
+      public DynamicsBotChannelData(string botId, string tenantId, string contentVersion)
+      {
+        cci_bot_id = botId;
+        cci_tenant_id = tenantId;
+      }
+    
+      public string cci_bot_id { get; }
+      public string cci_tenant_id { get;  }
+    }
+    
+    public class DynamicsBotEndpoint
+    {
+      public DynamicsBotEndpoint(string botId, string tenantId, string tokenEndPoint)
+      {
+        BotId = botId;
+        TenantId = tenantId;
+        TokenEndPoint = tokenEndPoint;
+        UriBuilder uriBuilder = new UriBuilder(tokenEndPoint);
+        uriBuilder.Query = $"botId={BotId}&tenantId={TenantId}";
+        TokenUrl = uriBuilder.Uri;
+      }
+    
+      public string BotId { get; }
+    
+      public string TenantId { get; }
+    
+      public string TokenEndPoint { get; }
+    
+      public Uri TokenUrl { get; }
+    }
+    
+    public class DirectLineToken
+    {
+      public string token { get; set; }
+    }
+    ```
 
-        result = response?.Activities?.Where(x =>
-          x.Type == Microsoft.Bot.Connector.DirectLine.ActivityTypes.Message &&
-            string.Equals(x.From.Name, botName, StringComparison.Ordinal)).ToList();
-
-        if (result != null && result.Any())
-        { return result; }
-
-        Thread.Sleep(1000);
-    } while (response.Activities.Any());
-
-    return result;
-}
-```
-
-####  6.  If you want your Dynamics bot to handle unmatched intents for a single fallback, update method `DispatchToTopIntentAsync`
+3.  Add a reference to the DynamicsBot in `IBotServices.cs` file
   
-```csharp
-case "l_cci":
-case "None":
-default:
-    await ProcessDynamicsBotAsync(turnContext, cancellationToken);
-    break;
-```
+    ```csharp
+    public interface IBotService
+    {
+      LuisRecognizer Dispatch { get; }
+      QnAMaker SampleQnA { get; }
+      CCIService CCIService { get; }
+    }
+    ```
+ 
+4. Update BotServices constructor to instatiate `DynamicsBotService` in `BotServices.cs` file
+
+    ```csharp
+    DynamicsBotService = new DynamicsBotService(new CCIEndpoint(
+        configuration["DynamicsBotId"],
+        configuration["DynamicsBotTenantId"],
+        configuration["DynamicsBotTokenEndpoint"]),
+        configuration["DynamicsBotName"]
+    );
+    ```
+  
+5.  Update `DispatchBot.cs` to add a trigger for DynamicsBot on intent match
+  
+    ```csharp
+    private async Task ProcessDynamicsBotAsync(ITurnContext<Microsoft.Bot.Schema.IMessageActivity> turnContext, CancellationToken     cancellationToken)
+    {
+        var token = await _botService.DynamicsBotService.GetTokenAsync();
+    
+        using (var directLineClient = new DirectLineClient(token))
+        {
+            var conversation = await directLineClient.Conversations.StartConversationAsync();
+            var conversationtId = conversation.ConversationId;
+    
+            var response = await directLineClient.Conversations.PostActivityAsync(conversationtId, new Microsoft.Bot.Connector.DirectLine.Activity()
+            {
+                Type = Microsoft.Bot.Connector.DirectLine.ActivityTypes.Message,
+                From = new Microsoft.Bot.Connector.DirectLine.ChannelAccount { Id = "userId", Name = "userName" },
+                Text = turnContext.Activity.Text,
+                ChannelData = JObject.FromObject(_botService.DynamicsBotService.ChannelData),
+                TextFormat = "plain",
+                Locale = "en-Us",
+            });
+    
+            Thread.Sleep(4000);
+    
+            var activities = await GetActivitiesAsync(directLineClient, conversationtId, _botService.DynamicsBotService.BotName);
+    
+            var activity = turnContext.Activity as Microsoft.Bot.Schema.Activity;
+    
+            await turnContext.SendActivitiesAsync(
+                       activities
+                       .Select(message =>
+                       {
+                           var reply = activity.CreateReply(message.Text);
+                           reply.Attachments = message?.Attachments?.Select(a => new Microsoft.Bot.Schema.Attachment()
+                           {
+                               Content = a.Content,
+                               ContentType = a.ContentType,
+                               ContentUrl = a.ContentUrl
+                           }).ToList();
+    
+                           reply.SuggestedActions = new Microsoft.Bot.Schema.SuggestedActions()
+                           {
+                               Actions = message?.SuggestedActions?.Actions?.Select(a => new Microsoft.Bot.Schema.CardAction()
+                               {
+                                   Title = a.Title,
+                                   Value = a.Value,
+                                   Type = a.Type,
+                                   Image = a.Image
+                               }).ToList(),
+                           };
+    
+                           return reply;
+                       })
+                       .ToArray());
+        }
+    }
+    
+    private async Task<List<Microsoft.Bot.Connector.DirectLine.Activity>> GetActivitiesAsync(DirectLineClient directLineClient, string conversationtId, string botName)
+    {
+        ActivitySet response = null;
+        List<Microsoft.Bot.Connector.DirectLine.Activity> result = new List<Microsoft.Bot.Connector.DirectLine.Activity>();
+        string watermark = null;
+    
+        do
+        {
+            response = await directLineClient.Conversations.GetActivitiesAsync(conversationtId, watermark);
+            watermark = response.Watermark;
+    
+            result = response?.Activities?.Where(x =>
+              x.Type == Microsoft.Bot.Connector.DirectLine.ActivityTypes.Message &&
+                string.Equals(x.From.Name, botName, StringComparison.Ordinal)).ToList();
+    
+            if (result != null && result.Any())
+            { return result; }
+    
+            Thread.Sleep(1000);
+        } while (response.Activities.Any());
+    
+        return result;
+    }
+    ```
+
+6.  If you want your DynamicsBot to handle unmatched intents for a single fallback, update the method `DispatchToTopIntentAsync`.
+  
+    ```csharp
+    case "l_cci":
+    case "None":
+    default:
+        await ProcessDynamicsBotAsync(turnContext, cancellationToken);
+        break;
+    ```
 
 
 ### Deploy your bot and test the dispatcher
-We're ready to test our dispatcher to ensure seamless interaction between Dynamics bot and your other bots.
 
-####  1.  Deploy your Dynamics bot using [instructions provided here](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
+We're ready to test our dispatcher to ensure seamless interaction between DynamicsBot and your other bots.
+
+1.  [Deploy your DynamicsBot](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
   <TO DO - Add screenshot for deploy>
   
-####  2.  Build (Ctrl + Shift + B) and run (F5) your dispatcher app
+2.  Build (Ctrl + Shift + B) and run (F5) your dispatcher app.
   
-####  3.  Open Bot Emulator, add the name and endpoint to your bot.
+3.  Open Bot Emulator where you add the name and endpoint to your bot.
   <TO DO - Add bot emulator screenshot>
   
-## Conclusion
-Dynamics 365 Virtual Agent for Customer enables businesses to seamlessly interact with existing bots using dispatcher.
+<!-- removed the conclusion because the topic intent is already state in the intro. Just FYI, remove this comment if you agree -->
