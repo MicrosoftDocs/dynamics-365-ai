@@ -100,7 +100,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
 2.  Add topics and utterances that you exported earlier using the Dispatch tool.
 
     ```
-    CMD> dispatch add -type file -name l_cci -f luis.json
+    CMD> dispatch add -type file -name l_dynamicsbot -f luis.json
     Please enter required field(s) below.
     
     What name would you like for your dispatch:
@@ -178,7 +178,7 @@ The following steps will require you to add code that registers your new dispatc
     {
       private readonly HttpClient _httpClient;
     
-      public DynamicsBot(CCIEndpoint endpoint, string botName)
+      public DynamicsBot(DynamicsBotEndpoint endpoint, string botName)
       {
         Endpoint = endpoint;
         BotName = botName;
@@ -254,7 +254,7 @@ The following steps will require you to add code that registers your new dispatc
 4. Update BotServices constructor to instatiate `DynamicsBotService` in `BotServices.cs` file
 
     ```csharp
-    DynamicsBotService = new DynamicsBotService(new CCIEndpoint(
+    DynamicsBotService = new DynamicsBotService(new DynamicsBotEndpoint(
         configuration["DynamicsBotId"],
         configuration["DynamicsBotTenantId"],
         configuration["DynamicsBotTokenEndpoint"]),
