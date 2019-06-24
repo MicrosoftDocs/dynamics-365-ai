@@ -12,7 +12,7 @@ manager: shellyha
 
 # Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
 
-This article covers the following steps to use the Microsoft Bot Framework dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
+This article covers how to use the Microsoft Bot Framework dispatcher tool to integrate an existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
 
 * [Retrieve topics, utterances and secrets from your Virtual Agent tenant](#retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
 * [Train dispatcher custom model with your Virtual Agent topics](#train-dispatcher-custom-model-with-your-virtual-agent-topics)
@@ -28,7 +28,7 @@ This article covers the following steps to use the Microsoft Bot Framework dispa
 
 ### Code samples & dependencies
 
-Code snippets used in this document are available below.
+Code snippets used in this document are available in these articles:
 
   * [Bot Framework Dispatch tool app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
   * [TO DO - Dynamics Bot Content Converter](https://msazure.visualstudio.com/CCI/_git/Users?path=%2Fsabacha%2FCCIToLU&version=GBmaster)
