@@ -11,12 +11,14 @@
   - name: Segments
     href: pm-segments.md
     items:
+    - name: Advanced mode
+      href: advanced-mode.md
     - name: Segment export
       href: segment-export.md
   - name: Measures
     href: pm-measures.md
   - name: Data
-    # href: pm-data-manager.md
+    # href: pm-data-manager.md 
     items:
     - name: Data sources
       href: pm-data-sources.md
@@ -46,8 +48,8 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
-#    - name: Export destinations
-#      href: export-destinations.md
+    - name: Export destinations
+      href: export-destinations.md
   - name: Extensibility
     items:
     - name: Customer Card Add-in 

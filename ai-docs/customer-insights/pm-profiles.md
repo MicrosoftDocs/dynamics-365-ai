@@ -24,14 +24,17 @@ The **Customers** page presents a consolidated view of each customer based on pr
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers.png "Customer profiles")
 
-**Note:** If you get the following screen upon clicking the **Customers tab** on the app's left side menu, then it means that your administrator didn't define yet at least one searchable attribute using the **Search & Filter Index** screen:
+**Note:** If the following screen appears when you select **Customers** in the left-side navigation pane, your administrator needs to define at least one searchable attribute on the **Search & Filter Index** screen:
 
 > [!div class="mx-imgBorder"] 
 > ![](media/add-attributes3.png "Add attributes")
 
-If that is the case, your administrator can use the **Search & Filter Index** section to learn how to use the **Search & Filter Index** screen. Once at least one attribute was defined as searchable, you should get to the Customers page. 
+If that is the case, your administrator can use the **Search & Filter Index** section to learn how to use the **Search & Filter Index** screen. Once at least one attribute is defined as searchable, you should be able to see the **Customers**page. 
 
-Once gettng to the Customers page, you can start viewing your customers' profiles. You can always go to the next **Customers** page and view more customers profiles using the buttons in the lower-right corner of the page.
+On the **Customers** page, you can start viewing your customers' profiles. You can always go to the next **Customers** page and view more customers profiles using the buttons in the lower-right corner of the 
+
+page.
+<!-- v-dehaas: I recommend removing this image. It shows a prominent navigation element that is very common and widely understood by our audience -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers2.png "Customer profiles")
@@ -39,7 +42,7 @@ Once gettng to the Customers page, you can start viewing your customers' profile
 
 >[!NOTE]
 > Customer profiles are available once you create the unified Customer entity. Make sure you complete the data unification process in order to unlock richer views of your customers. Visit the **Unify** section to learn more. 
-
+<!-- v-dehaas: I recommend removing this image. It shows a prominent navigation element that is very common and widely understood by our audience -->
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile.png "Customer Card tiles")
 
@@ -69,7 +72,8 @@ After selecting one of the customer tiles, you can also search for a specific at
 
 Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & filter index** page. 
 
-First, select **Filter**.
+First, select **Filter** on the top right corner of the **Customers** screen.
+<!-- v-dehaas: I recommend removing this image. It shows a prominent navigation element that is very common and widely understood by our audience -->
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-filter.png "Customer Card tile filter")
@@ -79,7 +83,7 @@ Then, check the boxes next to the attributes you want to filter customers by. As
 > [!div class="mx-imgBorder"] 
 > ![](media/profiles-customers3.png "Customer profiles")
 
-You can remove your saved filters using **Clear filters**.
+To remove your saved filters, select **Clear filters** on the top right corner of of the **Customers** screen.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/customer-card-tile-clear-filter.png "Customer Card tile clear filter")
