@@ -12,14 +12,12 @@ manager: shellyha
 
 # Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
 
-## Overview 
+This article covers the following steps to use the Microsoft Bot Framework dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
 
-This document covers the following steps to use Microsoft Bot Framework's dispatcher tool and integrate your existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
-
-* A. [Retrieve topics, utterances and secrets from your virtual agent tenant](#a-retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
-* B. [Train dispatcher custom model with your virtual agent's topics](#b-train-dispatcher-custom-model-with-your-virtual-agents-topics)
-* C. [Register and trigger your new dispatch endpoint in code](#c-register-and-trigger-your-new-dispatch-endpoint-in-code)
-* D. [Deploy your bot & test dispatcher](#d-deploy-your-bot--test-dispatcher)
+* A. [Retrieve topics, utterances and secrets from your Virtual Agent tenant](#retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
+* B. [Train dispatcher custom model with your Virtual Agent topics](#train-dispatcher-custom-model-with-your-virtual-agent-topics)
+* C. [Register and trigger your new dispatch endpoint in code](#register-and-trigger-your-new-dispatch-endpoint-in-code)
+* D. [Deploy your bot and test the dispatcher](#deploy-your-bot-and-test-the-dispatcher)
 
 ## Pre-requisites
 
@@ -40,7 +38,7 @@ Code snippets used in this document are available below.
 ## Steps
 Follow these steps to use your existing bot with Dynamics 365 Virtual Agent for Customer Service.
 
-### A. Retrieve topics, utterances and secrets from your virtual agent tenant
+### Retrieve topics, utterances and secrets from your Virtual Agent tenant
 We will need to retrieve your Dynamics bot's content (topics & utterances), your tenant’s endpoint and direct line secret.
 
 #### 1.	Retrieve bot ID, tenant ID, and auth token from your bot
@@ -82,7 +80,7 @@ Content-Converter.exe -botinfo msdynce_botcontents.csv -botcontent annotations.c
 ludown parse ToLuis --in content.lu
 ```
 
-### B. Train dispatcher custom model with your virtual agent's topics
+### Train dispatcher custom model with your Virtual Agent topics
 Follow these steps to train and recreate the dispatcher app and add your exported topics & utterances with your existing Cognitive Service’s intents (eg. LUIS and/or QnA maker) using the dispatch tool. For more information, [follow guidance here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
 ####  1.  Install the dispatch tool (using npm)
@@ -147,7 +145,7 @@ Writing summary file ('test_prediction')...
 Please review your dispatch model in ..\Summary.html
 ```
 
-### C. Register and trigger your new dispatch endpoint in code
+### Register and trigger your new dispatch endpoint in code
 The following steps will require you to add code that registers your new dispatch endpoint and trigger it everytime a user's utterance matches intent. We are using the [following sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch) provided by Microsoft Bot Framework team.
 
 ####  1.  Update `appsettings.json` in your dispatcher app to include the new endpoint for Virtual agent
@@ -345,7 +343,7 @@ default:
 ```
 
 
-### D. Deploy your bot & test dispatcher
+### Deploy your bot and test the dispatcher
 We're ready to test our dispatcher to ensure seamless interaction between Dynamics bot and your other bots.
 
 ####  1.  Deploy your Dynamics bot using [instructions provided here](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
