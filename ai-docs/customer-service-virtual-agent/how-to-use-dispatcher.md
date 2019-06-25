@@ -6,8 +6,9 @@ ms.date: 06/25/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
-author: m-hartmann
+author: pawant-ms
 ms.author: mhart
+ms.reviewer: m-hartmann
 manager: shellyha
 ---
 
