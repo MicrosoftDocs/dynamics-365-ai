@@ -72,7 +72,7 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 ### Convert the exported content to LU format
 
 1. Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://).
-  <!--resolve to do -->
+   <!--resolve to do -->
 
    > [!NOTE]
    > You'll need to use Visual Studio installed to compile and run this sample.
@@ -359,7 +359,7 @@ The following steps will require you to add code that registers your new dispatc
 
 We're ready to test our dispatcher to ensure seamless interaction between DynamicsBot and your other bots.
 
-1.  [Deploy your DynamicsBot](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).
+1.  [Deploy your DynamicsBot](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/getting-started-deploy#to-share-your-bot-on-the-demo-website).    
     ![Deploy our bot](media/open-deploy.png)
   
 2.  Build (Ctrl + Shift + B) and run (F5) your dispatcher app.
