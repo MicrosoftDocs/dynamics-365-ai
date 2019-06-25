@@ -44,15 +44,14 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 
 ### Retrieve bot ID, tenant ID, and auth token from your bot
 
-1.	Open Developer Tools (F12) for your web browser.
+1.	In Microsoft Edge, select F12 to open DevTools. For other browsers, similar functionality is available.
 
 2.	[Sign in to your Virtual Agent tenant](http://va.ai.dynamics.com) using your Azure AD credentials. 
 
 3.	Go to the **Network** tab.
-      <TO DO - Screenshot>
+    ![DevTools in Edge browser showing the Network tab](media/devtools-network-preview.png)
 
 4.	Filter and look for “client” requests.
-      <TO DO - Screenshot>
 
 5.	Copy the following details. 
     ```javascript
