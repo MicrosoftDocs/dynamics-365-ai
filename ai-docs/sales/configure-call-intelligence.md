@@ -186,7 +186,7 @@ Review the following requirements for audio and JSON files before you upload:
         "fileChannelType": "Stereo",
         "Country": "United States",
         "Id": "4a14995b-4fd0-493e-85d4-9eb48d28e799",
-        "Title": "4a14995b-4fd0-493e-85d4-9eb48d28e799",
+        "Title": "Contoso Deal",
     }
     ```
 
