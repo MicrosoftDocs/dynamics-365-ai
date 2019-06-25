@@ -14,7 +14,7 @@ manager: shellyha
 
 # Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
 
-This article covers how to use the Microsoft Bot Framework dispatcher tool to integrate an existing bot with your Dynamics 365 Virtual Agent for Customer Service bot.
+This article covers how to use the Microsoft Bot Framework dispatcher tool to integrate an existing bot with your Dynamics 365 Virtual Agent for Customer Service bot. It's intended for experienced IT professionals, such as IT admins or developers who have a solid understanding of developer tools, utilities, and IDEs. 
 
 * [Retrieve topics, utterances and secrets from your Virtual Agent tenant](#retrieve-topics-utterances-and-secrets-from-your-virtual-agent-tenant)
 * [Train dispatcher custom model with your Virtual Agent topics](#train-dispatcher-custom-model-with-your-virtual-agent-topics)
@@ -241,7 +241,7 @@ The following steps will require you to add code that registers your new dispatc
     }
     ```
 
-3.  Add a reference to the DynamicsBot in `IBotServices.cs` file
+3.  Add a reference to the Virtual Agent bot in `IBotServices.cs` file
   
     ```csharp
     public interface IBotService
@@ -263,7 +263,7 @@ The following steps will require you to add code that registers your new dispatc
     );
     ```
   
-5.  Update `DispatchBot.cs` to add a trigger for DynamicsBot on intent match
+5.  Update `DispatchBot.cs` to add a trigger for the Virtual Agent bot on intent match.
   
     ```csharp
     private async Task ProcessDynamicsBotAsync(ITurnContext<Microsoft.Bot.Schema.IMessageActivity> turnContext, CancellationToken     cancellationToken)
@@ -345,7 +345,7 @@ The following steps will require you to add code that registers your new dispatc
     }
     ```
 
-6.  If you want your DynamicsBot to handle unmatched intents for a single fallback, update the method `DispatchToTopIntentAsync`.
+6.  If you want your Virtual Agent bot to handle unmatched intents for a single fallback, update the method `DispatchToTopIntentAsync`.
   
     ```csharp
     case "l_dynamicsbot":
