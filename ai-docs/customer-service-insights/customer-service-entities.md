@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Service entities used by Customer Service Insights"
 description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 for Customer Service."
 keywords: "CDS, data entity"
-ms.date: 4/23/2019
+ms.date: 6/21/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -46,12 +46,13 @@ OwningUser | Lookup | A unique identifier for the support agent who owns the cas
 ProductId | Lookup | A unique identifier for the product associated with the case. Customer Service Insights uses this attribute to look up the product name from the [Product](#product-entity) entity and generate product information for the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
 OwningBusinessUnit | Lookup | A unique identifier for the business unit that owns the case. Customer Service Insights uses this attribute to look up the business unit names from the [BusinessUnit](#businessunit-entity) entity and generate the Business Unit filter values on each dashboard.
 OwningTeam | Lookup | A unique identifier for the team that owns the case. Customer Service Insights uses this attribute to look up the team name from the [Team](#team-entity) entity and generate the Team filter values on each dashboard.
+TicketNumber | String | The case number for customer reference and searching capabilities in a Dynamics 365 for Customer Service environment. In Customer Service Insights, users can review cases grouped into each topic with their case numbers in the Topics page. 
 
 For more information about the Case entity, see [Case Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case).
 
 ## CaseResolution entity
 
-The CaseResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the CaseResolution entity to compute case resolution time. If the CaseResolution entity is not available in the system, Customer Service Insights uses the value of the ModifiedOn attribute in the [Case entity](#case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the CaseResolution entity:
+The CaseResolution entity represents the activity when a case is resolved or reactivated. Customer Service Insights uses the CaseResolution entity to compute case resolution time. If the CaseResolution entity is not available in the system or no resolution record is found from the entity for a resolved case, Customer Service Insights uses the value of the ModifiedOn attribute in the [Case entity](#case-entity) as the case resolution date and time. Customer Service Insights uses the following attributes from the CaseResolution entity:
 
 Attributes | Type | Details
 -----------|------|--------
