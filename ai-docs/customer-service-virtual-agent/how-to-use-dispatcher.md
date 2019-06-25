@@ -1,7 +1,7 @@
 ---
 title: "Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service"
 description: "Step by step guide to using an existing Bot Framework bot with Virtual Agent for Customer Service"
-ms.date: 06/24/2019
+ms.date: 06/25/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -39,6 +39,7 @@ Code snippets used in this document are available in these articles:
   * [.NET Core 2.1 runtime](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.1.700-windows-x64-installer)
 
 ## Retrieve topics, utterances and secrets from your Virtual Agent tenant
+
 We will need to retrieve your Virtual Agent bot's content (topics & utterances), your tenant’s endpoint and direct line secret.
 
 ### Retrieve bot ID, tenant ID, and auth token from your bot
@@ -72,8 +73,8 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 1. Convert your bot content into LU format using our [TO DO - sample "ContentConverter" utility](https://).
   <!--resolve to do -->
 
- [!NOTE]
- You'll need to use Visual Studio installed to compile and run this sample.
+   > [!NOTE]
+   > You'll need to use Visual Studio installed to compile and run this sample.
 
 2. Use the following command to compile and run this code sample.
 
@@ -113,8 +114,8 @@ Train and recreate the dispatcher app and add your exported topics and utterance
     ```
 
 3.  Generate a dispatch model containing exported topics and utterances
-    [!NOTE] 
-    You'll need to re-train your dispatch model when more intents are added in future.
+    > [!NOTE] 
+    > You'll need to re-train your dispatch model when more intents are added in future.
 
     ```
     CMD> dispatch create
@@ -171,7 +172,6 @@ The following steps will require you to add code that registers your new dispatc
     ```
 
 2.  Add a new `DynamicsBot` class to your project
-
 
     ```csharp
     public class DynamicsBot
@@ -353,7 +353,6 @@ The following steps will require you to add code that registers your new dispatc
         await ProcessDynamicsBotAsync(turnContext, cancellationToken);
         break;
     ```
-
 
 ## Deploy your bot and test the dispatcher
 
