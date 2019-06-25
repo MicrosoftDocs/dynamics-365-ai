@@ -1,6 +1,7 @@
 ---
 title: "Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service"
-description: "Step by step guide to using an existing Bot Framework bot with Virtual Agent for Customer Service"
+description: "Step by step guide to using and extending an existing Bot Framework bot with Virtual Agent for Customer Service."
+keywords: "extension, integration, extend bot, bot framework"
 ms.date: 06/25/2019
 ms.service:
   - "dynamics-365-ai"
