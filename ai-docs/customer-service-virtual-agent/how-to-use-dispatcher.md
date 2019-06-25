@@ -204,7 +204,7 @@ The following steps will require you to add code that registers your new dispatc
     
     public class DynamicsBotChannelData
     {
-      public DynamicsBotChannelData(string botId, string tenantId, string contentVersion)
+      public DynamicsBotChannelData(string botId, string tenantId)
       {
         dynamics_bot_id = botId;
         dynamics_bot_tenant_id = tenantId;
