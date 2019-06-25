@@ -183,6 +183,7 @@ The following steps will require you to add code that registers your new dispatc
       {
         Endpoint = endpoint;
         BotName = botName;
+        ChannelData = new DynamicsBotChannelData(endpoint.BotId, endpoint.TenantId);
         _httpClient = new HttpClient();
       }
     
