@@ -33,7 +33,6 @@ This article covers how to use the Microsoft Bot Framework dispatcher tool to in
 Code snippets used in this document are available in these articles:
 
   * [Bot Framework Dispatch tool app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
-  <!--Editing:  This first link goes to a Microsoft repo. Can readers of this article actually view it as intended?> 
   * [TO DO - Dynamics Bot Content Converter](https://msazure.visualstudio.com/CCI/_git/Users?path=%2Fsabacha%2FCCIToLU&version=GBmaster)
 <!-- please resolve to do -->
   * [Microsoft Bot Framework LUDown utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
@@ -66,9 +65,7 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 
 ### Retrieve topics and utterances from your bot
 
-  1.	Export `BotContent` and `Annotations` from Common Data Store. [Review how to export data from Virtual Agent](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
-  <!--note from editor: Please confirm you do mean Common Data Store, not Common Data Service. I have not seen "Common Data Store" before.-->
-
+  1.	Export `BotContent` and `Annotations` from Common Data Service. [Review how to export data from Virtual Agent](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
   
   2.  Download the zip file and unzip it to find two CSV files: `annotations.csv` and `msdynce_botcontents.csv`
   
@@ -76,8 +73,6 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 
 1. Convert your bot content into .lu format using our [TO DO - sample "ContentConverter" utility](https://).
    <!--resolve to do -->
-   <!--note from editor: I am not seeing LU format, but am seeing .lu format, so I changed it to that.-->
-
 
    > [!NOTE]
    > You'll need to use Visual Studio installed to compile and run this sample.
