@@ -79,7 +79,7 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
     dotnet run -p ContentConverter.csproj -c Release -- -i <path to msdynce_botcontents.csv> -c <path to annotations.csv> -b <your bot id>
     ```
 
-3. Convert the Content.lu file to LUIS JSON file format.
+3. Convert the `Content.lu` file to LUIS JSON file format.
 
     ```
     ludown parse ToLuis --in Content.lu
