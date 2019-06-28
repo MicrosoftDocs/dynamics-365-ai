@@ -76,13 +76,13 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 2. Use the following command to compile and run this code sample.
 
     ```
-    dotnet run -p ContentConverter.csproj -c Release -- -c <path to msdynce_botcontents.csv> -i <path to annotations.csv> -b <your bot id>
+    dotnet run -p ContentConverter.csproj -c Release -- -i <path to msdynce_botcontents.csv> -c <path to annotations.csv> -b <your bot id>
     ```
 
-3. Convert the .lu file to LUIS JSON file format.
+3. Convert the Content.lu file to LUIS JSON file format.
 
     ```
-    ludown parse ToLuis --in content.lu
+    ludown parse ToLuis --in Content.lu
     ```
 
 ## Train the dispatcher custom model with your Virtual Agent topics
@@ -107,7 +107,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
     <enter authoring key from URL above>
     What's your LUIS authoring region [westus, westeurope, australiaeast]:
     <pick your region: eg. westus>
-    File: content.lu added to l_dynamicsbot.dispatch
+    File: Content.lu added to l_dynamicsbot.dispatch
     ```
 
 3.  Generate a dispatch model that contains exported topics and utterances.
