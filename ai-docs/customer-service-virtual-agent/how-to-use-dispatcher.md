@@ -41,7 +41,7 @@ Code snippets used in this document are available in these articles:
 
 We will need to retrieve your Virtual Agent bot's content (topics & utterances), your tenant’s endpoint, and the direct line secret.
 
-### Retrieve bot ID, tenant ID, and auth token from your bot
+### Retrieve bot ID and tenant ID from your bot
 
 1.	In Microsoft Edge, select F12 to open DevTools. For other browsers, similar functionality is available.
 
