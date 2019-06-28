@@ -50,6 +50,7 @@ When you create a bot, you must select a PowerApps environment for the bot. You 
 5. You will know that the environment is ready when you see an its ID in parenthesis after the environment name. It might take up to 5 minutes before you are ready to use the environment when [creating a new bot](getting-started-create-bot.md).
 
     ![Environment is ready when string id is appended](media/environment-ready.png)
+    
 
 
 
@@ -65,4 +66,5 @@ Trial environments expire after 30 days. When the environment expires, all the b
 While using the Trial environment, if you created bots you want to retain longer than 30 days, convert the Trial environment to a Production environment. To convert to a Production environment, these criteria must be met:
 1. A suitable PowerApps plan. A plan that enables you to create Production environments.
 2. Available Production quota. There are a fixed number of Production environments you can create with your plan. 
-Follow the steps [here]() to convert a trial environment to production.
+
+Follow the steps [here](https://go.microsoft.com/fwlink/?linkid=2048531) to convert a trial environment to production.
