@@ -20,6 +20,8 @@
 
 ## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
+## [Supported languages for Customer Service Insights](supported-languages.md)
+
 # Reference
 
 ## [Licensing and case-capacity considerations](licensing-case-capacity.md)
