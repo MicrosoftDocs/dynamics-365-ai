@@ -65,4 +65,4 @@ Trial environments expire after 30 days. When the environment expires, all the b
 While using the Trial environment, if you created bots you want to retain longer than 30 days, convert the Trial environment to a Production environment. To convert to a Production environment, these criteria must be met:
 1. A suitable PowerApps plan. A plan that enables you to create Production environments.
 2. Available Production quota. There are a fixed number of Production environments you can create with your plan. 
-Follow the steps here to convert a trial environment to production.
+Follow the steps [here]() to convert a trial environment to production.
