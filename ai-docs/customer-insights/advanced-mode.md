@@ -16,6 +16,7 @@ caps.latest.revision: 31
 author: "dean-haas"
 ms.author: "v-dehaas"
 manager: "kvivek"
+robots: noindex,nofollow
 ---
 
 # Advanced mode 
