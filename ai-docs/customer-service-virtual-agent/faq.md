@@ -107,13 +107,13 @@ Your environment might not show up in the drop-down menu due to the following re
 
 
  
-### Why am I getting a message about the expiration of an environment?
+### Why am I getting a message or email about an environment that is going to expire?
 
-If you have created your own environment and selected **Trial** as the environment type, you'll receive emails shortly before its expiration. Also, in the Virtual Agent Designer, you will a message if you have bots created in an environment that is going to expire in 14 days or less. The message will indicate the name of the environment that is going to expire, the days remaining to expiration, and the names of the bots affected. This pertains only to Trial environments that you have created yourself or been granted access to. 
+If you have created your own environment and selected **Trial** as the environment type, you'll receive emails shortly before its expiration. Also, in the Virtual Agent Designer, you will see a message if you have bots created in a Trial environment that is going to expire in 14 days or less. The message will indicate the name of the environment that is going to expire, the days remaining to expiration, and the names of the bots affected. This pertains only to Trial environments that you have created yourself or been granted access to. 
 
-Trial environments expire after 30 days. When the environment expires, all the bots in the environment will be deleted and the data associated with it, flows, and resources you have been using will be lost. The message indicates that you need to action before the environment expires.
+Trial environments expire after 30 days. When the environment expires, all the bots in the environment will be deleted and the data associated with it, the flows, and resources you have been using will be lost. The message indicates that you need to action before the environment expires.
 
-While using the Trial environment, if you created bots you want to retain longer than 30 days, convert the Trial to a Production environment. To convert to a Production environment, these criteria must be met:
+While using the Trial environment, if you created bots you want to retain longer than 30 days, convert the Trial environment to a Production environment. To convert to a Production environment, these criteria must be met:
 •	A suitable PowerApps plan. A plan that enables you to create Production environments.
 •	Available Production quota. There are a fixed number of Production environments you can create with your plan.
 Follow the steps [here](https://go.microsoft.com/fwlink/?linkid=2048531) to convert a trial environment to production.
