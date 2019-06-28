@@ -171,11 +171,11 @@ The following steps will require you to add code that registers your new dispatc
 2.  Add a new `DynamicsBot` class to your project.
 
     ```csharp
-    public class DynamicsBot
+    public class DynamicsBotService
     {
       private readonly HttpClient _httpClient;
     
-      public DynamicsBot(DynamicsBotEndpoint endpoint, string botName)
+      public DynamicsBotService(DynamicsBotEndpoint endpoint, string botName)
       {
         Endpoint = endpoint;
         BotName = botName;
@@ -217,7 +217,6 @@ The following steps will require you to add code that registers your new dispatc
       {
         BotId = botId;
         TenantId = tenantId;
-        TokenEndPoint = tokenEndPoint;
         UriBuilder uriBuilder = new UriBuilder(tokenEndPoint);
         uriBuilder.Query = $"botId={BotId}&tenantId={TenantId}";
         TokenUrl = uriBuilder.Uri;
@@ -226,8 +225,6 @@ The following steps will require you to add code that registers your new dispatc
       public string BotId { get; }
     
       public string TenantId { get; }
-    
-      public string TokenEndPoint { get; }
     
       public Uri TokenUrl { get; }
     }
