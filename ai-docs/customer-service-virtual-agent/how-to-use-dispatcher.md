@@ -45,7 +45,7 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 
 1.	In Microsoft Edge, select F12 to open DevTools. For other browsers, similar functionality is available.
 
-2.	[Sign in to your Virtual Agent tenant](http://va.ai.dynamics.com) using your Azure Active Directory (Azure AD) credentials. 
+2.	[Sign in to your Virtual Agent tenant](https://va.ai.dynamics.com) using your Azure Active Directory (Azure AD) credentials. 
 
 3.	Go to the **Network** tab.
     ![DevTools in Microsoft Edge browser showing the Network tab](media/devtools-network-preview.png)
