@@ -33,10 +33,8 @@ Code snippets used in this document are available in these articles:
 
   * [Bot Framework Dispatch tool app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
   * [Dynamics 365 Virtual Agent Content Converter](https://go.microsoft.com/fwlink/?linkid=2097857&clcid=0x409)
-<!-- please resolve to do -->
   * [Microsoft Bot Framework LUDown utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
-  * [NuGet Package manager](https://nodejs.org/en/)
-<!-- link goes to nodeJS download, did you mean https://www.nuget.org/downloads -->
+  * [NuGet Package manager](https://www.nuget.org/downloads)
   * .NET Core 2.2 runtime: [x86](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x86-installer) | [x64](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer)
 
 ## Retrieve topics, utterances, and secrets from your Virtual Agent tenant
@@ -70,10 +68,10 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
   
 ### Convert the exported content to LU format
 
-1. Convert your bot content into .lu format using our [sample "ContentConverter" utility](https://go.microsoft.com/fwlink/?linkid=2097857&clcid=0x409).
+1. Convert your bot content into .lu format using [our ContentConverter utility](https://go.microsoft.com/fwlink/?linkid=2097857&clcid=0x409).
    
    > [!NOTE]
-   > You'll need to download, extract and need dotnet core 2.1 to compile and run this sample.
+   > You'll need to download, extract and need dotnet core runtime to compile and run this utility.
 
 2. Use the following command to compile and run this code sample.
 
