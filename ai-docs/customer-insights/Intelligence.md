@@ -18,7 +18,7 @@ ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
 ---
-# Intelligence
+# Intelligence 
 The **Intelligence** page shows you workflows that have been created to generate machine learning insights.  Workflows are design to help you choose the data you want to use, select what will generate the machine learning insight, and map the results back into your Customer Insights data.
 
    > [!div class="mx-imgBorder"] 
