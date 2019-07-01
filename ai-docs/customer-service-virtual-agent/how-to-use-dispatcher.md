@@ -203,12 +203,12 @@ The following steps will require you to add code that registers your new dispatc
     {
       public DynamicsBotChannelData(string botId, string tenantId)
       {
-        dynamics_bot_id = botId;
-        dynamics_bot_tenant_id = tenantId;
+        cci_bot_id = botId;
+        cci_tenant_id = tenantId;
       }
     
-      public string dynamics_bot_id { get; }
-      public string dynamics_bot_tenant_id { get;  }
+      public string cci_bot_id { get; }
+      public string cci_tenant_id { get;  }
     }
     
     public class DynamicsBotEndpoint
