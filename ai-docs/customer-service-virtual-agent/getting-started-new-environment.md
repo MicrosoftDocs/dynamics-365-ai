@@ -63,4 +63,4 @@ When using a trial environment and you want to retain the bots longer than 30 da
 To convert to a production environment, the following criteria must be met:
 
 1. You are eligible to use a suitable PowerApps plan that enables you to create production environments.
-2. You need to have available production quota. There are a fixed number of production environments you can create with your plan.
+2. You need to have available production quota. There is a fixed number of production environments you can create with your plan.
