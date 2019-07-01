@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 06/21/2019
+ms.date: 07/01/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -104,10 +104,16 @@ Your environment might not show up in the drop-down menu due to the following re
  - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com), and create a database in your environment.
  - The environment's region is set to something other than "United States." To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md), and create an environment in the United States region.
  - The environment didn't finish setting up. To resolve this, retry in a few minutes
- 
-### Why am I getting emails about the expiration of my environment?
 
-If you have created your own environment and selected **Trial** as the environment type, you'll receive emails when it starts expiring. Trial environments are limited to 30 days. Once your trial environment expires, all the data and bots in the environment will be deleted. To avoid deletion of your data and loss of access to the apps, flows and resources you have been using [convert it to a production environment](https://go.microsoft.com/fwlink/?linkid=2048531)
+### Why am I getting a message or email about an environment that is going to expire?
+
+If you have created your own environment and selected **Trial** as the environment type, you'll receive emails shortly before it expires. Trial environments expire after 30 days. When the environment expires, all the bots in the environment will be deleted and the data associated with it, the flows, and resources you have been using will be lost. In the Virtual Agent Designer, you'll see a message if you have bots created in a trial environment that is going to expire in 14 days or less. The message will show the name of the environment that is going to expire, the days remaining to expiration, and the names of the bots affected. This pertains only to trial environments that you have created yourself or been granted access to.
+
+When using a trial environment and you want to retain the bots longer than 30 days, convert the trial environment to a production environment. [Learn how to convert a trial environment to a production environment](https://go.microsoft.com/fwlink/?linkid=2048531).
+
+To convert to a production environment, the following criteria must be met:
+1. You are eligible to use a suitable PowerApps plan that enables you to create production environments.
+2. You need to have available production quota. There is a fixed number of production environments you can create with your plan.
 
 ## Authoring
 
