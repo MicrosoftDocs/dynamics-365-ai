@@ -1,7 +1,7 @@
 ---
 title: "Create a PowerApps environment"
 description: "Learn how to create a PowerApps environment for Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 06/19/2019
+ms.date: 07/01/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -50,4 +50,17 @@ When you create a bot, you must select a PowerApps environment for the bot. You 
 5. You will know that the environment is ready when you see an its ID in parenthesis after the environment name. It might take up to 5 minutes before you are ready to use the environment when [creating a new bot](getting-started-create-bot.md).
 
     ![Environment is ready when string id is appended](media/environment-ready.png)
+    
 
+## Trial environments
+
+Trial environments expire after 30 days. When the environment expires, all the bots in the environment will be deleted and the data associated with it, the flows, and resources you have been using will be lost.
+
+If you have created your own environment and selected Trial as the environment type, you'll receive emails shortly before it expires.  In the Virtual Agent Designer, you'll see a message if you have bots created in a trial environment that is going to expire in 14 days or less. The message will show the name of the environment that is going to expire, the days remaining to expiration, and the names of the bots affected. This pertains only to trial environments that you have created yourself or been granted access to.
+
+When using a trial environment and you want to retain the bots longer than 30 days, convert the trial environment to a production environment. [Learn how to convert a trial environment to a production environment](https://go.microsoft.com/fwlink/?linkid=2048531).
+
+To convert to a production environment, the following criteria must be met:
+
+1. You are eligible to use a suitable PowerApps plan that enables you to create production environments.
+2. You need to have available production quota. There is a fixed number of production environments you can create with your plan.

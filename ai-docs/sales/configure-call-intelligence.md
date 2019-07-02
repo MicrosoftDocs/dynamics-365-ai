@@ -140,56 +140,53 @@ Review the following requirements for audio and JSON files before you upload:
 
   |Parameter|Description|
   |---------|-----------|
-  | id | Specifies the unique identification code of the call. Generate this code using the GUID generator. |
-  |title|Specifies the title of the call.|
-  |fileName|Specifies the name of the audio file.|
-  |type|Specifies the type of audio format such as WMA or MP3.|
-  |callStartTime|Specifies the start time of the call in milliseconds and calculated based on the UNIX Epoch time. For example, when the call start time is **14 Dec 2018 12:39:56 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544791196000**.|
-  |callEndTime|Specifies the end time of the call in milliseconds, calculated based on the UNIX Epoch time. For example, when the call end time is **14 Dec 2018 13:39:56 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544794796000**.|
-  |callerPhoneNumber|(Optional) Specifies the phone number of the caller such as your sales rep.|
-  |dialedPhoneNumber|(Optional) Specifies the phone number of the customer whom your sales rep contacted.|
-  |agentId|Specifies the email address of your sales rep.|
-  |agentFirstName|Specifies the first name of your sales rep.|
-  |agentLastName|Specifies the last name of your sales rep.|
-  |managerId|Specifies the email address of the manager to whom the sales rep reports.|
-  |calltype|Specifies whether the call is inbound or outbound.|
-  |language|(Optional) Specifies the language used in the call. Currently we support en-us (English used in the United States) only.|
-  |country|(Optional) Specifies from which country the call originated.|
-  |region|(Optional) Specifies from which region the call originated, such as NA (North America).|
-  |provider|(Optional) Specifies the service provider of the call such as Skype.|
-  |createdTimestamp|Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
-  |isAgentRecordingOnly|(Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. |
-  |fileChannelType|(Optional) Specifies the call channel type such as stereo or mono.|
-  |agentSystemUserId|(Optional) Specifies the unique identification code generated in Dynamics 365 for Sales admin center for the sales rep.|
-  |queueId|(Optional) Specifies the unique identification code for the queue.|
-  |queueName|(Optional) Specifies the name of the queue in which the sales rep is on.|
+  | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
+  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 for Sales organization. |
+  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 for Sales organization. | 
+  | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
+  | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
+  | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, and zh-CN. |
+  | `StartTime` | Specifies the start time of the call in milliseconds and calculated based on the UNIX Epoch time. For example, when the call start time is **14 Dec 2018 12:39:56 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544791196000**. |
+  | `Direction` | Specifies whether the call is inbound or outbound. |
+  | `FileName` | Specifies the name of the audio file. |
+  | `Title` | Specifies the title of the call.|
+  | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
+  | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
+  | `CallContactCrmId` |  (Optional) Specifies the unique identification code of the contact. |
+  | `CallOpportunityCrmId` |  (Optional) Specifies the unique identification code of the opportunity. |
+  | `CallLeadCrmId` |  (Optional) Specifies the unique identification code of the lead. |
+  | `CallAccountCrmId` |  (Optional) Specifies the unique identification code of the account. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 for Sales admin center for the sales rep. |
+  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
+  | `Id`| (Optional) Specifies the unique identification code of the call. Generate this code using the GUID generator. |  
+  | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
+  | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
+  | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
+  | `Region`| (Optional) Specifies from which region the call originated, such as NA (North America). |  
+  | `CreatedTimestamp`| (Optional) Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**. |  
+  | `fileChannelType`| (Optional) Specifies the call channel type such as stereo or mono. |  
+  | `country`| (Optional) Specifies from which country the call originated. |  
 
     The following is an example of JSON file format:
     ```
     {
-      "id": "cdd69838-2a41-4131-aab0-3f3c0b5ebc03",
-      "title": "Sales call", 
-      "fileName": "Sample.mp3", 
-      "callStartTime": "1531863398000", 
-      "callEndTime": "1531863998000", 
-      "callerPhoneNumber": "YourCallerPhoneNumber", 
-      "dialedPhoneNumber": "DialedPhoneNumber",
-      "calltype": "outbound",
-      "agentId": "YourAgentEmail@example.com",
-      "agentFirstName": "Your First Name",
-      "agentLastName": "Your Last Name",
-      "managerId": "YourManagerEmail@example.com",
-      "type": "audio/mp3",
-      "language": "en-US",
-      "country": "USA",
-      "region": "USA",
-      "provider": "Skype",
-      "createdTimestamp": "1531863398000", 
-      "isAgentRecordingOnly": "false",
-      "fileChannelType": "TwoWay",
-      "agentSystemUserId": "UserId",
-      "queueId": "1122",
-      "queueName": "name"
+        "AgentAADUserId": "6b105575-g55a-e611-00ka-5065f38b0211",
+        "StartTime": "1554890363917",
+        "Direction": "OutBound",
+        "CallerPhoneNumber": "Your caller phone number",
+        "CreatedTimestamp": "1554890368934",
+        "CustomerPhoneNumber": "Your customer phone number",
+        "FileName": "Sample.mp3",
+        "IsAgentRecordingOnly": true,
+        "Locale": "en-US",
+        "Provider": "SkypeCTI",
+        "Region": "Commercial Sales",
+        "Title": "Sales call",
+        "CallPhoneCallCrmId": "33840960-a186-0a0b-ae0a-db69afd6b8e5"
+        "fileChannelType": "Stereo",
+        "Country": "United States",
+        "Id": "4a14995b-4fd0-493e-85d4-9eb48d28e799",
+        "Title": "Contoso Deal",
     }
     ```
 
