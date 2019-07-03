@@ -1,5 +1,5 @@
 ---
-title: "Use your existing Microsoft Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service"
+title: "Use a Microsoft Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service"
 description: "Step-by-step guide to using and extending an existing Microsoft Bot Framework bot to work with Dynamics 365 Virtual Agent for Customer Service."
 keywords: "extensibility, integration, extend bot, bot framework"
 ms.date: 07/03/2019
@@ -12,7 +12,7 @@ ms.reviewer: m-hartmann
 manager: shellyha
 ---
 
-# Use your existing Microsoft Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
+# Use a Microsoft Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
 
 This article covers how to use the Microsoft Bot Framework dispatcher tool to integrate an existing bot with your Dynamics 365 Virtual Agent for Customer Service bot. It's intended for experienced IT professionals, such as IT admins or developers who have a solid understanding of developer tools, utilities, and IDEs. 
 
