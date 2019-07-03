@@ -40,7 +40,7 @@
 
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
-## [Use an existing Microsoft Bot Framework bot with a Dynamics 365 bot](how-to-use-dispatcher.md)
+## [Use a Microsoft Bot Framework bot with a Dynamics 365 bot](how-to-use-dispatcher.md)
 
 # Analytics
 
