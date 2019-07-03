@@ -1,7 +1,7 @@
 ---
-title: "Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service"
-description: "Step-by-step guide to using and extending an existing Bot Framework bot with Virtual Agent for Customer Service."
-keywords: "extension, integration, extend bot, bot framework"
+title: "Use your existing Microsoft Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service"
+description: "Step-by-step guide to using and extending an existing Microsoft Bot Framework bot to work with Dynamics 365 Virtual Agent for Customer Service."
+keywords: "extensibility, integration, extend bot, bot framework"
 ms.date: 07/03/2019
 ms.service:
   - "dynamics-365-ai"
@@ -12,7 +12,7 @@ ms.reviewer: m-hartmann
 manager: shellyha
 ---
 
-# Use your existing Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
+# Use your existing Microsoft Bot Framework bot with Dynamics 365 Virtual Agent for Customer Service
 
 This article covers how to use the Microsoft Bot Framework dispatcher tool to integrate an existing bot with your Dynamics 365 Virtual Agent for Customer Service bot. It's intended for experienced IT professionals, such as IT admins or developers who have a solid understanding of developer tools, utilities, and IDEs. 
 
@@ -24,26 +24,26 @@ This article covers how to use the Microsoft Bot Framework dispatcher tool to in
 ## Prerequisites
 
   * Bot built using [Microsoft Bot Framework SDK v4](https://github.com/microsoft/botframework)
-  * Understanding of [Microsoft Bot Framework's Dispatch tool](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
-  * Understanding how to [test and debug bots using Bot Framework Emulator](https://docs.microsoft.com/azure/bot-service/bot-service-debug-bot?view=azure-bot-service-4.0)
+  * Understanding of [Microsoft Bot Framework's dispatch tool](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csaddref%2Ccsbotconfig)
+  * Understanding how to [test and debug bots using Bot Framework emulator](https://docs.microsoft.com/azure/bot-service/bot-service-debug-bot?view=azure-bot-service-4.0)
 
 ### Code samples and dependencies
 
 Code snippets used in this document are available in these articles:
 
-  * [Bot Framework Dispatch tool app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
-  * [Dynamics 365 Virtual Agent Content Converter](https://go.microsoft.com/fwlink/?linkid=2097857&clcid=0x409)
+  * [Bot Framework dispatch tool app sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch)
+  * [Dynamics 365 Virtual Agent Content Converter](https://go.microsoft.com/fwlink/?linkid=2097857)
   * [Microsoft Bot Framework LUDown utility](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Ludown)
   * [NuGet Package manager](https://www.nuget.org/downloads)
   * .NET Core 2.2 runtime: [x86](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x86-installer) | [x64](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer)
 
 ## Retrieve topics and utterances from your Virtual Agent tenant
 
-We will need to retrieve your Virtual Agent bot's content (topics & utterances), your tenant’s endpoint, and the direct line secret.
+You'll need to retrieve your Virtual Agent bot's content (topics and utterances), your tenant’s endpoint, and the direct line secret.
 
 ### Retrieve bot ID and tenant ID from your bot
 
-1.	In Microsoft Edge, select F12 to open DevTools. For other browsers, similar functionality is available.
+1.	In Microsoft Edge, select F12 to open DevTools. (Note: For other browsers, use comparable commands and functionality.)
 
 2.	[Sign in to your Virtual Agent tenant](https://va.ai.dynamics.com) using your Azure Active Directory (Azure AD) credentials. 
 
@@ -68,10 +68,10 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
   
 ### Convert the exported content to LU format
 
-1. Convert your bot content into .lu format using [our ContentConverter utility](https://go.microsoft.com/fwlink/?linkid=2097857&clcid=0x409).
+1. Convert your bot content into .lu format using [our ContentConverter utility](https://go.microsoft.com/fwlink/?linkid=2097857).
    
    > [!NOTE]
-   > You'll need to download, extract and need dotnet core runtime to compile and run this utility.
+   > You'll need to download, extract, and have dotnet core runtime to compile and run this utility.
 
 2. Use the following command to compile and run this code sample.
 
@@ -87,7 +87,7 @@ We will need to retrieve your Virtual Agent bot's content (topics & utterances),
 
 ## Train the dispatcher custom model with your Virtual Agent topics
 
-Train and recreate the dispatcher app and add your exported topics and utterances with your existing Cognitive Service intents (eg. LUIS and/or QnA maker) using the Dispatch tool. For more information, [follow the guidance in the Dispatch tool tutorial](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
+Train and recreate the dispatcher app and add your exported topics and utterances with your existing Cognitive Service intents (eg. LUIS and/or QnA maker) using the Dispatch tool. For more information, [follow the guidance in the dispatch tool tutorial](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs).
 
 1.  Install the dispatch tool using the NuGet package manager.
 
@@ -112,7 +112,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
 
 3.  Generate a dispatch model that contains exported topics and utterances.
     > [!NOTE] 
-    > You'll need to re-train your dispatch model when more intents are added.
+    > You'll need to re-train your dispatch model when more topics are added.
 
     ```
     CMD> dispatch create
@@ -155,7 +155,7 @@ Train and recreate the dispatcher app and add your exported topics and utterance
 
 ## Register and trigger your new dispatch endpoint in code
 
-The following steps will require you to add code that registers your new dispatch endpoint and trigger it whenever a user's utterance matches intent. We are using the [sample provided by the Microsoft Bot Framework](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch).
+The following steps require you to add code that registers your new dispatch endpoint and trigger it whenever a user's utterance matches intent. We are using the [sample provided by the Microsoft Bot Framework](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch).
 
 1.  Update `appsettings.json` in your dispatcher app to include the new endpoint for Virtual Agent.
   

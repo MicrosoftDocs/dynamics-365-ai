@@ -12,13 +12,13 @@
 
 ## [Create a PowerApps environment](getting-started-new-environment.md)
 
-## [Work with Virtual Agent](getting-started-bot-designer.md)
+## [Overview of Virtual Agent pages](getting-started-bot-designer.md)
 
 ## [Create a custom greeting for your bot](getting-started-create-greeting.md)
 
 ## [Create custom topics for your bot](getting-started-create-topics.md)
 
-## [Work with the conversation editor design canvas](expanding-design-canvas.md)
+## [Work with the authoring canvas](expanding-design-canvas.md)
 
 ## [Validate a topic with Topic Checker](topic-checker.md)
 
@@ -40,7 +40,7 @@
 
 ## [Add actions to your bot using Microsoft Flow](how-to-flow.md)
 
-## [Use an existing Bot Framework bot with a Dynamics 365 bot](how-to-use-dispatcher.md)
+## [Use an existing Microsoft Bot Framework bot with a Dynamics 365 bot](how-to-use-dispatcher.md)
 
 # Analytics
 
