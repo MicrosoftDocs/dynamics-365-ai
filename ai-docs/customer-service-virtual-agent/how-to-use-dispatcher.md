@@ -37,7 +37,7 @@ Code snippets used in this document are available in these articles:
   * [NuGet Package manager](https://www.nuget.org/downloads)
   * .NET Core 2.2 runtime: [x86](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x86-installer) | [x64](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer)
 
-## Retrieve topics, utterances, and secrets from your Virtual Agent tenant
+## Retrieve topics and utterances from your Virtual Agent tenant
 
 We will need to retrieve your Virtual Agent bot's content (topics & utterances), your tenant’s endpoint, and the direct line secret.
 
