@@ -45,6 +45,8 @@ Who Knows Whom is available in **Contact** and **Lead** forms. When you open a l
 
     > [!div class="mx-imgBorder"]
     > ![Connection details](media/wkw_connectiondetails.png "Connection details")<br>
+      1. Strength of the connection
+      2. Contact details
   
     To get introduced to the lead, you can send an email to the selected contact without leaving the page you are on. Select **Get Introduced**. This opens an email with a default request to introduce the lead. Select **Send** to send the email. If you want to customize the email with more options, select **Open Email Form**.
 
