@@ -15,8 +15,6 @@ manager: shellyha
 
 The languages shown in the product is based on the language preferences on your computer and your browser settings. This article lists supported languages for Dynamics 365 Customer Service Insights and details on how to update the language preferences.  
 
-![User interface in English and Spanish](media/translated-UI.png)
-
 ## Languages for Customer Service Insights 
 
 - Basque 
@@ -66,6 +64,8 @@ The languages shown in the product is based on the language preferences on your 
 ## What's translated? 
 
 Customer Service Insights will use your language preference to display elements like the menu, dashboard label text, and messages in your preferred language. 
+
+![User interface in English and Spanish](media/translated-UI.png)
 
 Because the dashboard is connected to your data, the following items remain in their original language: 
 
