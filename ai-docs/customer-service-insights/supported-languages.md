@@ -77,5 +77,16 @@ Because the dashboard is connected to your data, the following items remain in t
 
 Customer Service Insights detects your language based on the language preferences on your computer. The way you access and change these preferences may vary depending on your operating system and browser. 
 
-- [Change the display language in Microsoft Windows 10 and Microsoft Edge](https://support.microsoft.com/help/4496404/windows-10-manage-the-input-and-display-language#display_language).
-- [Change languages in Google Chrome](https://support.google.com/chrome/answer/173424).
+### Microsoft Edge
+
+For details about changing languages in Windows 10 and Edge, see [Change the display language in Microsoft Windows 10 and Microsoft Edge](https://support.microsoft.com/help/4496404/windows-10-manage-the-input-and-display-language#display_language).
+
+### Google Chrome
+
+1. Open the menu in Chrome and select **Settings**.
+2. Select **Show advanced settings**.
+3. Under **Languages**, add your desired language. For additional details, see [Change languages in Google Chrome](https://support.google.com/chrome/answer/173424).
+4. Open the menu for the desired language. 
+5. Select the checkbox **Display Google Chrome in this language**, then select **Move to the top**.
+6. Select the **Relaunch** button to bring up your preferred language in Chrome.
+
