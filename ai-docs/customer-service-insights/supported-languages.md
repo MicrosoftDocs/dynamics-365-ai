@@ -86,7 +86,10 @@ For details about changing languages in Windows 10 and Edge, see [Change the dis
 1. Open the menu in Chrome and select **Settings**.
 2. Select **Show advanced settings**.
 3. Under **Languages**, add your desired language. For additional details, see [Change languages in Google Chrome](https://support.google.com/chrome/answer/173424).
-4. Open the menu for the desired language. 
+4. Open the menu for the desired language.
+   ![Menu control for a language in Chrome](media/chrome-language-settings.png)
 5. Select the checkbox **Display Google Chrome in this language**, then select **Move to the top**.
+   ![Adjust language settings in Chrome](media/chrome-move-language.png)
 6. Select the **Relaunch** button to bring up your preferred language in Chrome.
+   ![Relaunch control in Chrome](media/chrome-relaunch-language.png)
 
