@@ -12,7 +12,7 @@ ms.author: tpalmer
 manager: shellyha
 search.app: capaedac-csi
 search.audienceType: enduser
-search.appverid: met168
+search.appverid: met150
 ---
 
 # Service limits in Dynamics 365 Customer Service Insights

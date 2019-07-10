@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 search.app: capaedac-csi
 search.audienceType: enduser
-search.appverid: met161
+search.appverid: met150
 ---
 
 # GDPR compliance in Customer Service Insights

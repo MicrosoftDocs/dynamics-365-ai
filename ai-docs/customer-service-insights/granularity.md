@@ -12,7 +12,7 @@ ms.author: mhart
 manager: shellyha
 search.app: capaedac-csi
 search.audienceType: enduser
-search.appverid: met162
+search.appverid: met150
 ---
 
 # Set the granularity of how Customer Service Insights generates customer service topics
