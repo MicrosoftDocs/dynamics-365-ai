@@ -9,6 +9,9 @@ ms.assetid:
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met150
 ---
 
 # Manage and improve artificial intelligence grouping of support cases as topics
