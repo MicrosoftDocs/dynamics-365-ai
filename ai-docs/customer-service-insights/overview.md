@@ -10,6 +10,9 @@ ms.assetid:
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met166
 ---
 
 # Customer Service Insights overview

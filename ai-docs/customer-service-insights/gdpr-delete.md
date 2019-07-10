@@ -6,10 +6,13 @@ ms.date: 4/30/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
-ms.assetid: 
+ms.assetid:
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met158
 ---
 
 # Respond to requests to delete data from Customer Service Insights

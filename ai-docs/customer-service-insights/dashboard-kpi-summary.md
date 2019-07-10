@@ -3,13 +3,16 @@ title: "KPI summary dashboard"
 description: "Learn about the customer service insights available on the KPI Summary dashboard​."
 keywords: ""
 ms.date: 4/23/2019
-ms.service:
+ms.service: 
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met154
 ---
 
 # KPI summary dashboard

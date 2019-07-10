@@ -6,10 +6,13 @@ ms.date: 05/10/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
-ms.assetid: 
+ms.assetid:
 author: tpalmer
 ms.author: tpalmer
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met168
 ---
 
 # Service limits in Dynamics 365 Customer Service Insights

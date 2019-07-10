@@ -10,6 +10,9 @@ ms.assetid:
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met160
 ---
 
 # Export data to respond to requests for copies of personal data in Customer Service Insights

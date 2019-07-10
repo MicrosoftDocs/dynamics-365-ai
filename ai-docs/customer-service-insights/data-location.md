@@ -10,6 +10,9 @@ ms.assetid:
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met157
 ---
 
 # Where an organization's Customer Service Insights data is located
