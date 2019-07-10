@@ -10,6 +10,9 @@ ms.assetid:
 author: tpalmer
 ms.author: tpalmer
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met150
 ---
 
 # Licensing and case-capacity considerations
