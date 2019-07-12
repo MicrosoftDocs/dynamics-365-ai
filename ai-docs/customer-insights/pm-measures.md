@@ -34,7 +34,7 @@ Once you define measures, you can benefit in a variety of ways. For example:
 
 **Customer Insights supports three types of measures:**
 
-- **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customr_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
+- **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customer_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
 
  > [!div class="mx-imgBorder"] 
  > ![](media/measures-customer-entity.png "Customer_Measure attribute")
