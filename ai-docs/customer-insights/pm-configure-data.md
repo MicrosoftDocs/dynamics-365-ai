@@ -2,7 +2,7 @@
 title: "Unify| MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -27,3 +27,6 @@ After completing the three data-unification phases, you might want to use the op
 - The **Relationships** page is highly recommended for creating segments on the **Segments** page. Visit the **Relationships** section to learn more.
 - The **Enrichment** page is highly recommended for extracting richer insights about your customers. Visit the **Enrichment** section to learn more.
 - The **Activities** page can be used to define some of your ingested attributes as activities. Visit the **Activities** section to learn more.
+
+> [!TIP]
+> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/J0oDeHgaL3w).
