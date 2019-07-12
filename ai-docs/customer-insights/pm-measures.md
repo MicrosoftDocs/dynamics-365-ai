@@ -2,7 +2,7 @@
 title: "Measures | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -27,11 +27,14 @@ Once you define measures, you can benefit in a variety of ways. For example:
 - View measures for a specific customer as part of the **Customer Card**. See the **Customer Card Add-in** section to learn more.
 - Use measures to define a customer segment using the **Segment Builder** page. See the **Segments** section to learn more.
 
+> [!TIP]
+> Check out the following video: [Getting Started: Creating Customer and Business Measures](https://youtu.be/ztG6cFqtdQM).
+
 ## Step One: Choose a measure type
 
 **Customer Insights supports three types of measures:**
 
-- **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customr_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
+- **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customer_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
 
  > [!div class="mx-imgBorder"] 
  > ![](media/measures-customer-entity.png "Customer_Measure attribute")
