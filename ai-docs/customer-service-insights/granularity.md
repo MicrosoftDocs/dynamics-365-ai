@@ -6,10 +6,13 @@ ms.date: 4/23/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
-ms.assetid: 
+ms.assetid:
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.app: capaedac-csi
+search.audienceType: enduser
+search.appverid: met150
 ---
 
 # Set the granularity of how Customer Service Insights generates customer service topics
