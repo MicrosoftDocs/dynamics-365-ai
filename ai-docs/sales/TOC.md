@@ -19,8 +19,10 @@
 ### [FAQs for seller capabilities](faqs-seller-app.md)
 ### [Privacy notice](privacy-notice-seller.md)
 
-## [Dynamics 365 Sales Insights capabilities for sales managers](../sales/dynamics365-ai-sales-app.md)
-### [View overall sales insights](../sales/d365-ai-overview.md)
+## Dynamics 365 Sales Insights application
+
+### [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
+### [View overall sales and seller insights](../sales/dynamics365-sales-insights-app-home-page.md)
 ### [Analyze business performance](../sales/d365-ai-business-performance.md)
 ### [Analyze team performance](../sales/d365-ai-team-performance.md)
 ### [Configure call intelligence](../sales/configure-call-intelligence.md)
