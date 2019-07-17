@@ -24,11 +24,6 @@ The universe represents the setup of Market Insights. It consists of one or more
 
 ## How to configure the universe
 
-### Change the name of the universe
-
-1. In the left navigation select **Universe**.
-2. Select **Edit universe name**.
-
 ### Quickly create a new element
 
 1. In the left navigation select **Universe**.
@@ -37,7 +32,17 @@ The universe represents the setup of Market Insights. It consists of one or more
 4. If you have already created elements, you can choose an element this competes with.
 5. To save your element, select **Create**
 
+### Change the name of the universe
+
+Changing the name of the universe has no impact on the insights. 
+
+1. In the left navigation select **Universe**.
+2. Select **Edit universe name**.
+
 ### Edit an existing element
+
+Editing an element has an impact on insights based on that element. Depending on the change, some or all previously available insights will be removed.   
+New insights will be generated for the updated element. If there is data available, some insights show right after applying the changes while other insights can take up to 3 hours to appear in the feed.
 
 1. In the left navigation select **Universe**.
 2. Select an element from the list.
@@ -45,6 +50,8 @@ The universe represents the setup of Market Insights. It consists of one or more
 4. To save your updates, select **Apply**.
 
 ### Delete an element
+
+Deleting an element will remove all insights based on that element and it can't be undone. Re-creating the element treats it as a new element.
 
 1. In the left navigation select **Universe**.
 2. Select an element from the list.
@@ -77,7 +84,7 @@ This field is auto-populated if you select a verified entry in the Product/Compa
 You can enter only one URL, and it's required if you want to get Journey Insights [TO DO](link).
 
  
-#### Affiliation 
+#### Affiliation field
 
 This field lets you specify how you are related to an element. It's required if you wan to get Competitor Insights [TO DO](link).  
 
@@ -85,3 +92,11 @@ Currently, 3 types of affiliation are supported:
 - Mine
 - Not mine
 - No affiliation 
+
+#### Competes with field
+
+This field lets users specify which companies or products compete with their products or companies. You can only define the competition between the same type of elements and you need to create these elements first.
+
+
+
+Delete element 
