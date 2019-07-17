@@ -25,9 +25,9 @@ topic-status: Drafting
 When you sign into the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data. However, you must set up Dynamics 365 environment, grand app permissions, connect call data, and enable preview to use the features that the application offers.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
--	As an administrator, you can set up the complete application including connecting the call data, grant permissions to create app users, and enable preview. To learn more, see [Administrator setting up application]().
+-	As an administrator, you can set up the complete application including connecting the call data, grant permissions to create app users, and enable preview. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
 
--	As a sales manager or seller, you can set up application only by connecting your Dynamics 365 environment to gather data to display on KPIs. To learn more, see [Manager or seller setting up application]().
+-	As a sales manager or seller, you can set up application only by connecting your Dynamics 365 environment to gather data to display on KPIs. To learn more, see [Manager or seller setting up application](#manager-or-seller-setting-up-application).
 
 The following diagram illustrates the process of setting up application through different user roles:   
 
@@ -36,7 +36,7 @@ The following diagram illustrates the process of setting up application through 
 
 ## Administrator setting up application
 
-1.	Review the perquisites. To learn more, see Prerequisites to setup Sales Insights application.
+1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
 
 2.	Sign in to **Dynamics 365 Sales Insights** application as administrator.
 
@@ -71,7 +71,7 @@ The following diagram illustrates the process of setting up application through 
 
 7.	On the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name** and select **Connect**.
     
-    To learn more on how to get these values, see [Configure conversation intelligence to connect call data]().
+    To learn more on how to get these values, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
     > [!div class="mx-imgBorder"]
     > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
@@ -84,7 +84,7 @@ The following diagram illustrates the process of setting up application through 
     > [!NOTE]
     > If you don’t want to enable the preview feature for your organization, skip this step to proceed. You can always enable the preview features later. To learn more, see [Enable preview features]().
 
-9.	On the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors in Conversation content]().
+9.	On the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors in Conversation content](configure-keywords-competitors.md).
 
     > [!NOTE]
     > You can also skip adding the keywords and competitors and add them later when required.
