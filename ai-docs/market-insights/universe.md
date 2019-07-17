@@ -29,19 +29,13 @@ The universe represents the setup of Market Insights. It consists of one or more
 1. In the left navigation select **Universe**.
 2. Select **Edit universe name**.
 
-### Create a new element
+### Quickly create a new element
 
 1. In the left navigation select **Universe**.
 2. Select **Add an element**.
-3. In the **Create element** pane, enter a product, company, or other element.
-4. Choose the type of element. You can select from **Company**, **Product**, or **Other**.
-5. Enter a website for this element (optional).
-6. Choose how this element is related to you (optional). 
-    a. Select **Mine** if you own this element.
-    b. Select **Not mine** if you compete with this element.
-    c. Select **No affiliation** if you have no relationship with this element.
-7. If you have already created elements, you can choose an element this competes with.
-8. To save your element, select **Create**
+3. In the **Create element** pane, enter a search term and select a result from the list. If you choose a verified element (the list item shows a green check mark), it'll auto-populate the remaining fields but you can change them if needed. 
+4. If you have already created elements, you can choose an element this competes with.
+5. To save your element, select **Create**
 
 ### Edit an existing element
 
@@ -56,3 +50,38 @@ The universe represents the setup of Market Insights. It consists of one or more
 2. Select an element from the list.
 3. In the **Edit element** pane, select **Delete element**.
 4. To confirm your deletion, select **Delete**.
+
+### Advanced configuration of elements
+
+#### Product/Company field 
+
+When entering a product or a company, a list with suggested results appears that lets you choose the most appropriate entry. We strongly recommend to select a verified entry (the list item shows a green check mark) to have the highest accuracy and relevance for your insights. 
+
+#### Element type 
+
+This field is automatically filled in if you select a verified entry in the Product/Company field but you can always change the type of an element.  
+
+Currently, 3 types of elements are supported: 
+- Product
+- Company
+- Other 
+
+Changing the type of an element will influence the accuracy and relevance of the insights for that element. 
+
+Example: If you select the verified entry for Microsoft, the element type will be **Company**. Changing the element type will reduce the quality, accuracy, and relevance of your insights. We recommend to change the auto-populated type only if it's incorrect.
+
+#### Website field
+
+This field is auto-populated if you select a verified entry in the Product/Company field. You can delete or edit the suggested website URL or add a URL if there is no suggested value.
+
+You can enter only one URL, and it's required if you want to get Journey Insights [TO DO](link).
+
+ 
+#### Affiliation 
+
+This field lets you specify how you are related to an element. It's required if you wan to get Competitor Insights [TO DO](link).  
+
+Currently, 3 types of affiliation are supported: 
+- Mine
+- Not mine
+- No affiliation 
