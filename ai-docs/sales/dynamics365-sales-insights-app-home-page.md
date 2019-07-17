@@ -36,7 +36,7 @@ Typically, the home page is divided into the following sections:
 
 -	[What characterizes top sellers?](#what-characterizes-top-sellers)
 
--	[Are my team’s deals on track?](#-are-my-team's-deals-on-track)
+-	[Are my team’s deals on track?](#are-my-teams-deals-on-track)
 
 -	[Call recording KPIs](#call-recording-kpis)
 
