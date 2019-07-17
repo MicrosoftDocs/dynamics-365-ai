@@ -29,7 +29,8 @@ Preview features are features that aren’t complete but are made available on a
 
 As an administrator, you must enable Instant reports and analysis feature as preview to use by sales managers and sellers in your organization. 
 
-Note: If you have already enabled the preview feature through first run set up, you are not required to enable it again. However, you can disable it if you don’t wish to use it in your organization.
+> [!NOTE]
+> If you have already enabled the preview feature through first run set up, you are not required to enable it again. However, you can disable it if you don’t wish to use it in your organization.
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
 
