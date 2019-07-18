@@ -46,9 +46,9 @@ This application is designed to help sales managers and sellers in their day-to-
 
 **As a sales manager/administrator, you can**
 
--	Configure trackers and competitors that you want to track for your team’s calls with customers. To learn more, configure conversation content <link will be added Conversation content>
+-	Configure tracker keywords and competitors that you want to track for your team’s calls with customers. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
--	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see Conversation Intelligence data retention and deletion<link will be added>.
+-	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 
 -	Manage environments and configure call data.
 
@@ -88,11 +88,11 @@ The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights
 
 -	Go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
 
-As a manager or seller, if you are using the application for the first time, connect the application to your Dynamics 365 organization or contact administrator to connect. To learn more, see <link will be added>.
+As a manager or seller, if you are using the application for the first time, connect the application to your Dynamics 365 organization or contact administrator to connect. To learn more, see [First-run set up experience](fre-setup-sales-insight-app.md).
 
 ## How to access the Dynamics 365 Sales Insights application
 
-An administrator must first sign in and configure the application so that the users such as managers and sellers could sign in seamlessly and work the application. To learn more, see <configure Sales Insights application>.
+An administrator must first sign in and configure the application so that the users such as managers and sellers could sign in seamlessly and work the application. To learn more, see [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md).
 
 If not, you sign into the Sales Insights application for the first time as a manager or seller, the application loads with sample data. You must connect your Dynamics 365 for Sales organization to the application to gather KPIs and relevant information to be available on the application. However, if you do not want to connect your organization and want to explore the application, you can continue using the application with the provided sample data.
 
@@ -126,3 +126,6 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+
+- [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

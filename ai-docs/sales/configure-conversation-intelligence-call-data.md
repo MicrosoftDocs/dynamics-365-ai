@@ -166,5 +166,8 @@ Review the following requirements for audio and JSON files before you upload:
 
 ### See also
 
-- [Analyze customer calls](../sales/call-intelligence.md)
-- [FAQs for sales manager capabilities](faqs-sales-manager-app.md)
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+
+- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+
+- [FAQs for Sales Insights application](faqs-sales-manager-app.md)

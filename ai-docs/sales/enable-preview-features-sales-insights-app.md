@@ -56,4 +56,8 @@ The preview feature **Business Q+A** is enabled which uses natural language to p
 
 ### See also
 
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
+- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+
+- [Natural language Q&A](business-qa.md)

@@ -262,4 +262,6 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
+- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 

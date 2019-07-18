@@ -139,3 +139,6 @@ After successful set up, Sales Insights application is ready for you to use to v
 
 ### See also
 
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+
+- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
