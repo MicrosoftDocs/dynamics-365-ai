@@ -3,6 +3,7 @@
 ## [Manage your alerts](alerts-management.md)
 ## [How relevancy is determined](alerts-data-science.md)
 # Work with Market Insights
+## [Navigate in the app](navigation.md)
 ## [Configure the universe and elements](universe.md)
 ## [Manage your settings](settings.md)
 # Additional information
