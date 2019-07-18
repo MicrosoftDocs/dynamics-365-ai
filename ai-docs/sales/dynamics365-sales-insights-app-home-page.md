@@ -89,7 +89,7 @@ The following insights are available for you to understand what customers are ta
 
 ### Tracked keywords
 
-This section shows the tracked keywords that are defined in the application and customers use the most during the sales calls. The application highlights these keywords in this section. Using these keywords, you can identify new sales opportunities that are related to these keywords. 
+This section shows the tracked keywords that are defined in the application and customers use the most during the sales calls. The application highlights these tracked keywords in this section. Using these tracked keywords, you can identify new sales opportunities that are related to these tracked keywords. 
 
 The following image is an example of how the tracked keyword section is displayed:
 
@@ -98,7 +98,7 @@ The following image is an example of how the tracked keyword section is displaye
 
 In this example, you can see that 3D printing and Fused Filament are the trending keywords, and you can define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords that are trending and the number of times that these keywords were mentioned in the calls. The dark-shade bubbles are the trending keywords.
 
-You can define what keywords you want to track during the sales call. To learn more, see configure conversation content. <link to configure conversation content >.
+You can define what keywords you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
 ### Customer sentiment
 
@@ -113,7 +113,7 @@ In this example, you can see that out of 96 sales calls 20 calls have higher tha
 
 ### Brands detected
 
-This section shows the brands that customers have used during the sales calls. Using this insight, you can identify if any competitor brands are mentioned on the sales calls and update your sales strategies accordingly.
+This section shows the brands that customers have used before in sales calls and used for the first time on the sales call. Using this insight, you can identify if any competitor brands are mentioned on the sales calls and update your sales strategies accordingly.
 
 The following image is an example of how the brands detected section is displayed:
 
@@ -133,7 +133,7 @@ The following image is an example of how the competitors mentioned section is di
 
 In this example, you can see that 3D House and Contoso 360 are the trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the 20 competitors that are trending and the number of times that these competitors were mentioned in the calls. The dark-shade bubbles are the trending competitors.
 
-You can define what competitors you want to track during the sales call. To learn more, see configure conversation content. <link to configure conversation content >.
+You can define what competitors you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
 ## What characterizes top sellers?
 
@@ -188,7 +188,7 @@ In this example, you can see that top sellers (42%) are driving more negative cu
 
 ### Switch rate
 
-This section shows the rate at which top sellers are switching the conversations with customers and this indicates a sign of engagement during conversations. Using this insight, you can understand the switch rate of top sellers per hour and identify coaching opportunities for other sellers to improve on switch rate.
+This section shows the rate of which top sellers are talking and listing in conversations with customers and this indicates a sign of engagement during conversations. Using this insight, you can understand the switch rate of top sellers per hour and identify coaching opportunities for other sellers to improve on switch rate.
 
 The following image is an example of how the switch rate section is displayed:
 

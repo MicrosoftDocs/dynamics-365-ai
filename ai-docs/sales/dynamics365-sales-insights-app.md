@@ -52,7 +52,7 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Manage environments and configure call data.
 
--	Enable preview for natural language Q&A. To learn more, see Natural language Q&A <link will be added>.
+-	Enable preview for natural language Q&A. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
 > [!NOTE]
 > When you configure the Sales Insights application as an administrator, the configurations apply to the entire organization. When you configure the Sales Insights application as a manager, the configurations apply only to your team.
@@ -118,7 +118,7 @@ The following procedure explains how to configure your Sales Insights applicatio
 5.	The application takes several minutes to gather the data and display visuals for you. Also, a status message is displayed to update on the progress.
 
 > [!NOTE]
-> This configuration allows to only view the team’s or individual data. An administrator must sign in and configure to connect call data and enable preview features in the Sales Insights application for sales managers and sellers to use. To learn more, see administration guide <link to administration guide>.
+> This configuration allows to only view the team’s or individual data. An administrator must sign in and configure to connect call data and enable preview features in the Sales Insights application for sales managers and sellers to use. To learn more, see [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md).
 
 ## Privacy notice  
 
