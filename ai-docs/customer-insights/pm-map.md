@@ -29,7 +29,7 @@ There are two main goals of the map phase:
 Select the **Map** tile on the **Unify** page to start the map phase.
 
 > [!TIP]
-> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/J0oDeHgaL3w).
+> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs).
 
 ## Select first entities
 

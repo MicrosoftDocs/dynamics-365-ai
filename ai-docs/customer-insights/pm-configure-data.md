@@ -29,4 +29,4 @@ After completing the three data-unification phases, you might want to use the op
 - The **Activities** page can be used to define some of your ingested attributes as activities. Visit the **Activities** section to learn more.
 
 > [!TIP]
-> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/J0oDeHgaL3w).
+> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs). 

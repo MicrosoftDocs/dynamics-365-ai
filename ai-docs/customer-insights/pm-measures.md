@@ -28,7 +28,7 @@ Once you define measures, you can benefit in a variety of ways. For example:
 - Use measures to define a customer segment using the **Segment Builder** page. See the **Segments** section to learn more.
 
 > [!TIP]
-> Check out the following video: [Getting Started: Creating Customer and Business Measures](https://youtu.be/ztG6cFqtdQM).
+> Check out the following video: [Getting Started: Creating Customer and Business Measures](https://youtu.be/aSM1YV84KUc).
 
 ## Step One: Choose a measure type
 
