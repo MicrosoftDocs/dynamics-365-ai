@@ -1,0 +1,46 @@
+---
+title: " | Microsoft Docs"
+description: ""
+ms.date: 07/23/2019
+ms.service: dynamics-365-ai
+ms.topic: article
+author: m-hartmann
+ms.author: mhart
+ms.custom: dyn365-ai-marketinsights
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
+---
+
+# Insights feed and details view
+
+## Navigate the Insights feed
+
+The Insights feed is the place to see your insights for your universe. The feed summarizes each insight and you can expand them to see more details.
+
+To see the latest and most relevant insights for your universe go to to the Insights feed.
+- Select **Insights** in the left navigation
+-OR-
+- Select the product name or icon in the top navigation.
+
+## Work with the Insights feed
+
+In the Insights feed, you can scroll through the list to discover insights for your universe. Separate cards represent individual insights. Every card contains action buttons:
+- **Show more** opens the [details view](#discover-more-information-in-the-details-view) of that insight. 
+- **Share** opens a dialog which allows you to [share this insight](share-insights.md) publicly.
+- **More information (...)** provides a link to the documentation [explaining the data behind your insights](alerts-data-science.md). 
+
+At the end of the list of insights for the current time frame, you can select **Load earlier insights** to see additional insights.
+
+## Discover more information in the details view
+
+Each insight offers additional information by adding more context in the details view. Depending on insight type this can be charts, related news, or further information.
+For more information, see [TO DO link to page about insight types for details](page.md).
+
+To get back to the feed from a detail view, select the arrow symbol in the header of the detail view.
+(Screenshot)
+
