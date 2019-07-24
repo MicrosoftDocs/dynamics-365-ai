@@ -35,9 +35,12 @@ You can enable your bot to perform an action by invoking a flow. Use a flow that
 
 ## To create a flow
 
-1. Select **Common Data Service Default Solution** to open the solution.
+1. Open a solution by selecting **Solutions** in the left pane to display the **Solutions** page, and then selecting the desired solution.
+   
+   > [!NOTE]
+   > Select an existing unmanged solution or optionally create a new solution. For more information, see (Create a solution)[https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-solution].
 
-2. On the **Common Data Service Default Solution** page, select **New**, and then select **Flow** from the list.
+2. On the solution page, select **New**, and then select **Flow** from the list.
 
    ![New flow](media/new-flow.png)
 
