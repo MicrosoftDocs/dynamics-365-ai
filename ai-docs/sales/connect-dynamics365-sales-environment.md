@@ -85,7 +85,6 @@ As an administrator you must configure the Dynamics 365 for Sales environment to
     > [!div class="mx-imgBorder"]
     > ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
  
- 
 11.	Select **Finish** to complete the set-up of Sales Insights application for your organization.
     
     The status message will be displayed on the top of the page.
@@ -94,7 +93,6 @@ As an administrator you must configure the Dynamics 365 for Sales environment to
     > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
 Now, your Sales Insights application is ready with the data of the added environment.
-
 
 ### See also
 

@@ -24,6 +24,10 @@ topic-status: Drafting
 
 You should configure keywords and competitor that you would like to track in the calls and are relevant to you and your organization. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.
 
+> [!NOTE]
+> As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. 
+> The changes you made applies only to your team and doesn't impact the administrator-defined settings for your organization.
+
 Using **Conversation content** section, you can add or remove keywords and competitors to track in the calls. Follow these steps:
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).

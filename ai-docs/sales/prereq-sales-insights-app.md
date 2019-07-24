@@ -32,13 +32,13 @@ Verify the following requirements before setting up the Sales Insights applicati
 
 -	You must get access to Dynamics 365 Sales Insights application. If you do not have access, follow these steps:
     
-    1.	Go to the [Dynamics 365 Sales Insights](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4) appsource page and select **FREE TRAIL** or **TEST DRIVE** according to your requirements.
+    1.	To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
     
     2.	Enter your work email address.
     
     3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-user-signin).
 
--	For conversation intelligence, you must create a v2 storage account with an Azure subscription. To learn more, see [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
+-	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
 ### See also
 
