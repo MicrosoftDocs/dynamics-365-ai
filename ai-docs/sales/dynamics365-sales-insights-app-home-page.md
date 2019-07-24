@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-When you sign into the Dynamics 365 Sales Insights application as a sales manager, you’ll see the home page. This page provides a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the current quarter.
+When you sign into the Dynamics 365 Sales Insights application as a sales manager, you’ll see the home page. This page provides a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the seelcted time period.
 
 Typically, the home page is divided into the following sections:
 
@@ -89,49 +89,52 @@ The following insights are available for you to understand what customers are ta
 
 ### Tracked keywords
 
-This section shows the tracked keywords that are defined in the application and customers use the most during the sales calls. The application highlights these tracked keywords in this section. Using these tracked keywords, you can identify new sales opportunities that are related to these tracked keywords. 
+This insight shows the tracked keywords that are defined in the application and customers use the most during the sales calls. The application highlights these tracked keywords in this section. Using these tracked keywords, you can identify new sales opportunities that are related to these tracked keywords. 
 
 The following image is an example of how the tracked keyword section is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Most tracked keywords](media/si-app-tracked-keywords.png  "Most tracked keywords")
 
-In this example, you can see that 3D printing and Fused Filament are the trending keywords, and you can define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords that are trending and the number of times that these keywords were mentioned in the calls. The dark-shade bubbles are the trending keywords.
+In this example, you can see that 3D printing and Fused Filament are the trending keywords, and you can define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords and the number of times that these keywords were mentioned in calls. The dark-shade bubbles represent the top trending keywords.
 
 You can define what keywords you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
 ### Customer sentiment
 
-This section shows the number of calls that has negative sentiment of customers than the average. Using this insight, you can analyze the pain points that customers express during the call and coach your sales reps to address them to increase the sentient levels.
+This insight shows the number of calls where the negative customers sentiment is more than average. Using this insight:
+
+- You can analyze pain points that customers express during the call and coach your sellers to address to handle the customer conversations well. 
+- You can analyze why customers are expressing these pain points and identify selling opportunities by addressing the gaps that are causing pain points. 
 
 The following image is an example of how the customer sentiment section is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Customer sentiment](media/si-app-customer-sentiment.png  "Customer sentiment")
 
-In this example, you can see that out of 96 sales calls 20 calls have higher than average negative customer sentiment. The doughnut chart shows the total number of calls and the percentage of calls that are positive, neutral, and negative.
+In this example, you can see that 43% of calls have higher than average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
 
 ### Brands detected
 
-This section shows the brands that customers have used before in sales calls and used for the first time on the sales call. Using this insight, you can identify if any competitor brands are mentioned on the sales calls and update your sales strategies accordingly.
+This insight helps to discover new products and brands that customers are speaking about in sales calls, which they never spoke of in previous calls. These brands and products are not defined in the application (tracked keywords and competitors) and the application uses Microsoft Bing's knowledge repository to identify the brands and products to display. Using this insight, you can identify if any competitor brands are mentioned on the sales calls and update your sales strategies accordingly.
 
 The following image is an example of how the brands detected section is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![New brands detected](media/si-app-brands-detected.png  "New brands detected")
 
-In this example, you can see that 3 brands, Northwind 3D, XYG Printer, and 3D Forge are mentioned in the sales calls. You can update the sales strategies to coach your sales teams to minimize the mention of these brands in the calls. The bubbles show the 20 brands that are used most and the number of times that these brands were mentioned in the calls. The dark-shade bubbles are the brands detected.
+In this example, you can see that 3 brands, Northwind 3D, XYG Printer, and 3D Forge are trending most in the sales calls. You can update the sales strategies to coach your sales teams to minimize the mention of these brands in the calls. The bubbles show the 20 brands that are used most and the number of times that these brands were mentioned in the calls. The dark-shade bubbles represent the top trending brands.
 
 ### Competitors mentioned
 
-This section shows the defined competitor names that customers use most and trending upwards during the sales calls. The application highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to these competitors.
+This insight shows the defined competitor names that customers use most and trending upwards during the sales calls. The application highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to these competitors.
 
 The following image is an example of how the competitors mentioned section is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Competitors mentioned](media/si-app-competitors-mentioned.png  "Competitors mentioned")
 
-In this example, you can see that 3D House and Contoso 360 are the trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the 20 competitors that are trending and the number of times that these competitors were mentioned in the calls. The dark-shade bubbles are the trending competitors.
+In this example, you can see that 3D House and Contoso 360 are the trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the top 20 competitors and the number of times that these competitors were mentioned in the calls. The dark-shade bubbles represent the top trending competitors.
 
 You can define what competitors you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
@@ -155,7 +158,7 @@ The following insights are available for you to understand what characterizes to
 
 ### Talk-to-listen ratio
 
-This section shows the average listen and talk ratio of top sellers and rest of the team in conversations with customers. By analyzing this insight, you can understand what working-out for top sellers while in conversation with customers to close deals and generate revenue.
+This insight shows the average listen and talk ratio of top sellers and rest of the team in conversations with customers. By analyzing this insight, you can understand what working-out for top sellers while in conversation with customers to close deals and generate revenue.
 
 The following image is an example of how the talk-to-listen ratio section is displayed:
 
@@ -166,7 +169,7 @@ In this example, you can observe that the top sellers talk (60%) more than liste
 
 ### What are they talking about
 
-This section shows the keywords that are used by the top sellers use more frequently in conversations with customers. By analyzing this insight, you can understand what words the top sellers use that helps them to close deals and generate revenue.
+This insight shows the keywords that are used by the top sellers use more frequently in conversations with customers. By analyzing this insight, you can understand what words the top sellers use that helps them to close deals and generate revenue.
 
 The following image is an example of how the what are they talking about section is displayed:
 
@@ -184,7 +187,7 @@ The following image is an example of how the customer sentiment section is displ
   > [!div class="mx-imgBorder"]
   > ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png  "Comparison of customer sentiment")
 
-In this example, you can see that top sellers (42%) are driving more negative customer sentiment compared to that of your team (28%) and this might be helping the top sellers to address the pain points.
+In this example, you can see that top sellers (42%) are driving more negative customer sentiment compared to that of your team (28%). This indicates that top sellers are asking more questions to identify the customer's pain points and resolve them to key out selling opportunities.
 
 ### Switch rate
 

@@ -47,7 +47,7 @@ This application is designed to help sales managers and sellers in their day-to-
 -	Configure tracker keywords and competitors that you want to track for your team’s calls with customers. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
     > [!NOTE]
-    > Sales managers can also configure tracker keywords and competitors where this configurations apply only to their team.
+    > Sales managers can also define tracker keywords and competitors. These trackers keywords and competitors apply only to their team.
 
 -	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 

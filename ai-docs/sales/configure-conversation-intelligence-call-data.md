@@ -131,7 +131,7 @@ Review the following requirements for audio and JSON files before you upload:
     }
     ```
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md).
+> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#administrator-setting-up-application)
 
 ## Update configuration of call data
 
