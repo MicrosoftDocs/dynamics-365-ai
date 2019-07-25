@@ -28,7 +28,7 @@ Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-i
 [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized as follows:
 
 - [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers
-- [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] application for sales managers and sellers
+- [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] application
 
 ## Dynamics 365 Sales Insights capabilities for sellers
 
@@ -61,8 +61,10 @@ The following features are available under Dynamics 365 Sales Insights app:
 - Team report
 - Conversation intelligence
 
-To learn more, see [Introduction to Sales Insights application](dynamics365-sales-insights-app.md)
+To learn more, see [Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
 
 ### See also
 
-[Administrator guide for Sales Insights](../sales/configure-enable-dynamics-365-ai-sales.md)
+- [Administrator guide for Sales Insights](../sales/configure-enable-dynamics-365-ai-sales.md)
+
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)

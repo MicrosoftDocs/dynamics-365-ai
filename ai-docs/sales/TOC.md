@@ -37,7 +37,7 @@
 #### [View overall sales and seller insights](../sales/dynamics365-sales-insights-app-home-page.md)
 #### [Natural language Q&A](../sales/business-qa.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
-#### [View sales rep information](../sales/conversation-intelligence-seller-details.md)
+#### [View seller information](../sales/conversation-intelligence-seller-details.md)
 
 <!--#### [Analyze team performance](../sales/d365-ai-team-performance.md)
 #### [Analyze customer calls](../sales/call-intelligence.md)-->
