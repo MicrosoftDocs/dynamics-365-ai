@@ -33,7 +33,7 @@
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
 #### [Enable preview features](../sales/enable-preview-features-sales-insights-app.md)
 
-### User Guide
+### User guide
 #### [View overall sales and seller insights](../sales/dynamics365-sales-insights-app-home-page.md)
 #### [Natural language Q&A](../sales/business-qa.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
