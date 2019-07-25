@@ -30,17 +30,17 @@ This application is designed to help sales managers and sellers in their day-to-
 
 **As a sales manager, you can**
 
--	View what’s happening in sales calls, insights on the behaviors of your top sellers, and the sales pipeline for the current quarter. To learn more, see <link will be added Team Overview>
+-	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md)
 
--	View team’s insights, customer sentiment, team’s conversational style, and sales pipeline. To learn more, View and understand team’s overview <link will be added Team Overview>.
+-	View team’s insights, customer sentiment, and team’s conversational style<!--, and sales pipeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
--	View and understand individual sale rep’s conversation style, sales pipeline, customer sentiment, insights, and call history. To learn more, View and understand seller details<link will be added Seller details>
+-	View and understand individual seller’s conversation style<!--, sales pipeline-->, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
 
--	View insights on the status of your current sales period such as the sum of actual revenue, total estimated revenues, total deals won, and the average revenue generated.
+-	View insights on the status of your current sales period such as the sum of actual revenue, total estimated revenues, total deals won, and the average revenue generated. To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
 
 **As a seller, you can**
 
--	View your conversation insights, customer sentiment, conversations style, sales pipeline, and call history. To learn more, View and understand seller details<link will be added Seller details>
+-	View your conversation insights, customer sentiment, conversations style, sales pipeline, and call history. To learn more,  see [View sales rep information](conversation-intelligence-seller-details.md).
 
 **As a administrator, you can**
 
