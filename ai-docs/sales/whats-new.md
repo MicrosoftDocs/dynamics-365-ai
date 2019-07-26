@@ -44,7 +44,7 @@ In this release, we have improved engagement and decision-making with prebuilt a
 
 ### Sales Insights application
 
-Dynamics 365 Sales Insights application is modified and improved with analytics and data science to gather data from call recordings, Dynamics 365 for Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
+Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 for Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
  
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
@@ -52,12 +52,7 @@ This application is designed to help sales managers and sellers in their day-to-
 
     To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
 
-- **Teams overview:** This page helps the sales managers to analyze the overall behavior of their team during the customer call. This helps in identifying coaching scenarios for team to increase sales wins and productivity gains for the business. Using this page, you can:
-
-    - Assess overall customer sentiments and sentiment trends.
-    - Assess your team's contributions toward customer sentiment.
-    - Gain insight into what’s going on with your team.
-    - Analyze you team's conversational style.
+- **Teams overview:** This page helps the sales managers to analyze the overall behavior of their team during the customer call. This helps in identifying coaching scenarios for team to increase sales wins and productivity gains for the business. 
 
     To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
