@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-When you sign into the Dynamics 365 Sales Insights application as a sales manager, you’ll see the home page. This page provides a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the seelcted time period.
+When you sign into the Dynamics 365 Sales Insights application as a sales manager, you’ll see the home page. This page provides a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the selected time period.
 
 Typically, the home page is divided into the following sections:
 

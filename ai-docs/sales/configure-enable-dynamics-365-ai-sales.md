@@ -35,8 +35,7 @@ Enabling and configuring the [!INCLUDE[pn_dynamics_sales_insights](../includes/p
 - Predictive opportunity scoring
 - Notes analysis
 - Talking points
-- Who knows whom
-- Predictive forecasting  
+- Who knows whom  
 
 
 ## GDPR
@@ -286,46 +285,8 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
 
 ## Preview: Configure Predictive forecasting 
 
-Predictive forecast helps sales managers make timely decisions in generating revenue by viewing the predictive forecast report. The report displays the predictive forecasting revenue against the actual revenue that is generated based on the historical opportunities. 
-
-### Prerequisites 
-
-Review the following prerequisites before enabling Predictive forecasting:
-
-- [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] is enabled. To learn more, see [Enable Dynamics 365 Sales Insights features](#enable-dynamics-365-sales-insights-features).
-- [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app is configured for your organization. To learn more, see [Unlock sales potential with Dynamics 365 Sales Insights](../sales/dynamics365-sales-insights-app.md).
-- The organization has at least 36 weeks of historical opportunities. This helps in generating a model to display the predictive forecasting in the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app. However, we recommend you have two years of historical opportunities data for increased prediction accuracy.
-- The fiscal period is configured as monthly or quarterly for your organization. To learn more, see [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings). Predictive forecasting will not work if the fiscal period is defined for half-yearly or yearly.
-- Verify that the proper manager hierarchy is defined for you, and that sales reps or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
-
-### Set up Predictive forecasting
-
-1.	Go to **Settings** > **Sales AI**.<br>
-2.	On the **Overview** tab, select **Configuration** from the **Predictive forecasting** section.<br>
-    > [!div class="mx-imgBorder"]
-    > ![Predictive forecasting configuration](media/predictive-forecasting-tile.png "Predictive forecasting configuration")
-
-    The configuration page opens.<br>
-3. Select **Create model**.<br>
-    > [!div class="mx-imgBorder"]
-    > ![Select Create model option](media/predictive-forecasting-create-model.png "Select Create model option")
-
-    The feature will take approximately 24 hours to create a model and display data for managers. The model will be retrained every seven days to project a better prediction accuracy.<br>
-    The Predictive forecasting feature creates a model for each manager who is an active member in the Sales Insights app in your organization and displays as a list with the status of the model.<br>
-    > [!div class="mx-imgBorder"]
-    > ![Predictive forecasting model is created](media/predictive-forecasting-model-created.png "Predictive forecasting model is created")
-
-    The Predictive forecasting model is created and ready to use in your organization.
-    
-### Troubleshooting
-
-**Inernal error occurs while creating the model**
-
-This error may occur due to insufficient data in your organization for Predictive Forecasting to generate a model. Verify that you have sufficient opportunities data in your organization and regenerate the model. If the error presists contact Microsoft support.
-
-
-> [!NOTE]
-> For more information about Predictive forecasting, see [Predictive forecast](../sales/d365-ai-business-performance.md#preview-predictive-forecast).
+> [!IMPORTANT]
+> Predictive forecasting has been temporarily suspended and we are revisiting to align Predictive forecasting with manual forecasting that is available in Dynamics 365 for Sales. To learn more about manual forecasting, see [Project accurate revenue with sales forecasting](/dynamics365/customer-engagement/sales-enterprise/project-accurate-revenue-sales-forecasting)
 
 
 <!--

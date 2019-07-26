@@ -39,9 +39,6 @@
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 
-<!--#### [Analyze team performance](../sales/d365-ai-team-performance.md)
-#### [Analyze customer calls](../sales/call-intelligence.md)-->
-
 ### [FAQs for Sales Insights application](../sales/faqs-sales-manager-app.md)
 
 ### [Privacy notice](../sales/privacy-notice-manager.md)

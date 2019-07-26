@@ -44,4 +44,26 @@ In this release, we have improved engagement and decision-making with prebuilt a
 
 ### Sales Insights application
 
+Dynamics 365 Sales Insights application is modified and improved with analytics and data science to gather data from call recordings, Dynamics 365 for Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
+ 
+This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
+- **Home page:** The home page is improved to provide a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the selected time period. 
+
+    To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
+
+- **Teams overview:** This page helps the sales managers to analyze the overall behavior of their team during the customer call. This helps in identifying coaching scenarios for team to increase sales wins and productivity gains for the business. Using this page, you can:
+
+    - Assess overall customer sentiments and sentiment trends.
+    - Assess your team's contributions toward customer sentiment.
+    - Gain insight into what’s going on with your team.
+    - Analyze you team's conversational style.
+
+    To learn more, see [View team information](conversation-intelligence-team-overview.md).
+
+- **Seller details:** This page helps both sales manager and seller to analyze the overall behavior of the individual during the customer calls. Using this analysis, you can identifying coaching scenarios to increase sales wins and productivity gains for the business.
+
+    To learn more, see [View sales rep information](conversation-intelligence-seller-details.md)
+
+> [!IMPORTANT]
+> Predictive forecasting has been temporarily suspended and we are revisiting to align Predictive forecasting with manual forecasting that is available in Dynamics 365 for Sales. To learn more about manual forecasting, see [Project accurate revenue with sales forecasting](/dynamics365/customer-engagement/sales-enterprise/project-accurate-revenue-sales-forecasting)
