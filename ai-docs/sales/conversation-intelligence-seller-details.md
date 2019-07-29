@@ -42,7 +42,7 @@ As a sales manager, the **Seller details** page helps you to analyze the overall
 
 -	Comment on call transcripts and share with sellers.
 
-<!--You can provide coaching comments to sales reps through emails.-->
+- You can provide coaching comments to sales reps through emails.
 
 The following image is an example of how the seller page is displayed for sales managers:
 
@@ -58,7 +58,7 @@ Let's look at the KPIs and insights in detail:
 |**3. Insights**|Displays what’s happening with the seller and the latest trends such as customer sentiments and keywords that are trending.|
 |**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that the seller handled.<br>•	**Average talk to listen ratio:** Displays the average talk and listen ratio of the seller during calls with a customer.<br>•  **Sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are behaving and spanning across the specified timeframe for the seller.|
 |**5. Call history**|Displays the sentiments and keywords across the call. Open a specific call and view the keywords and sentiments across the timeline of the call, go to a moment, and look at the call transcript. Select **Show transcript** to view the conversation transcript.|
-|**6. Brands, tracked Keywords, and competitors**|Displays the defined keywords, competitors, and brands that customers used most during conversations with the seller. Selecting a defined keyword, competitor, or brand highlights the timeline of the conversation where it is mentioned.|
+|**6. Tracked Keywords mentioned by customers**|Displays the defined keywords that customers used most during conversations with the seller. Selecting a defined keyword highlights the timeline of the conversation where it is mentioned.|
 |**7. Calls**|Displays the list of calls handled by the seller. Select the call to display the transcript and timeline. |
 |**8. Transcript**|Provides a written record of the call. You can review the transcript and leave a comment on how the sellers could handle the situation better.<br>On a selected timeline, select **Add comment** to provide necessary inputs to the seller and then select **Save**.<br> The bolded text in the transcript are the brands, tracked keywords, and competitors mentioned in the conversation.|
 
@@ -88,7 +88,7 @@ Let's look at the KPIs and insights in detail:
 |**3. Insights**|Displays what’s happening with you and the latest trends such as customer sentiments and keywords that are trending.|
 |**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays the average talk and listen ratio of you during calls with a customer.<br>•  **Sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are behaving and spanning across the specified timeframe for you.|
 |**5. Call history**|Displays list of calls. Open a specific call and view the keywords and sentiments across the timeline of the call, go to a moment, and look at the call transcript. Select **Show transcript** to view the conversation transcript.|
-|**6. Brands, tracked Keywords, and competitors**|Displays the defined keywords, competitors, and brands that the customer used most during the conversation. Selecting a defined keyword, competitor, or brand highlights the timeline of the conversation on where it is mentioned.|
+|**6. Tracked Keywords mentioned by customers**|Displays the defined keywords that the customer used most during the conversation. Selecting a defined keyword highlights the timeline of the conversation on where it is mentioned.|
 |**7. Calls**|Displays the list of calls handled by you. Select the call to display the transcript and timeline. |
 |**8. Transcript**|Provides a written record of the call. You can review the transcript and comments that are posted by your manager or coach on the timeline. You can provide replies to the comments appropriately.<br>On a selected timeline, select **Add comment** to provide necessary replies or self-comments, and then select **Save**.<br> The bolded text in the transcript are the brands, tracked keywords, and competitors mentioned in the conversation.|
 

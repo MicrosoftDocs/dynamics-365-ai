@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # First-run set up experience of Sales Insight application
 
-When you sign into the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data. However, you must set up .
+When you sign into the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
 -	As an administrator, you can set up the complete application including connecting Dynamics 365 environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).

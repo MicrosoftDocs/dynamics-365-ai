@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# View overall sales and seller insights
+# View and understand home page
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
@@ -75,7 +75,7 @@ The following image is an example of how the base KPIs are displayed.
 
 **What are customers talking about** section helps you to understand what’s happening in sales calls and what customers are talking about. Through these understandings, you can derive coaching scenarios for your sales team so that they could be more efficient during the sales calls. 
 
-This also helps in driving new sales strategic motion by looking at the keywords, brands, and competitors mentioned during the call. For example, 3D printer is trending more during customer calls and the 3D printer sales are not reaching targets. You can coach sales reps in selling the 3D printers more effectively to the customers which are not been selling before.
+This also helps in driving new sales strategic motion by looking at the keywords, brands, and competitors mentioned during the call. For example, 3D printer is trending more during customer calls and the 3D printer sales are not reaching targets. You can coach sellers in selling the 3D printers more effectively to the customers which are not been selling before.
 
 The following insights are available for you to understand what customers are talking about:
 
@@ -89,9 +89,9 @@ The following insights are available for you to understand what customers are ta
 
 ### Tracked keywords
 
-This insight shows the tracked keywords that are defined in the application and customers use the most during the sales calls. The application highlights these tracked keywords in this section. Using these tracked keywords, you can identify new sales opportunities that are related to these tracked keywords. 
+This insight shows the tracked keywords that are defined in the application and customers use the most during the sales calls. The application highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to these tracked keywords. 
 
-The following image is an example of how the tracked keyword section is displayed:
+The following image is an example of how the tracked keyword insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Most tracked keywords](media/si-app-tracked-keywords.png  "Most tracked keywords")
@@ -107,18 +107,18 @@ This insight shows the number of calls where the negative customers sentiment is
 - You can analyze pain points that customers express during the call and coach your sellers to address to handle the customer conversations well. 
 - You can analyze why customers are expressing these pain points and identify selling opportunities by addressing the gaps that are causing pain points. 
 
-The following image is an example of how the customer sentiment section is displayed:
+The following image is an example of how the customer sentiment insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Customer sentiment](media/si-app-customer-sentiment.png  "Customer sentiment")
 
-In this example, you can see that 43% of calls have higher than average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
+In this example, you can see that 43% of calls have higher than the average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
 
 ### Brands detected
 
 This insight helps to discover new products and brands that customers are speaking about in sales calls, which they never spoke of in previous calls. These brands and products are not defined in the application (tracked keywords and competitors) and the application uses Microsoft Bing's knowledge repository to identify the brands and products to display. Using this insight, you can identify if any competitor brands are mentioned on the sales calls and update your sales strategies accordingly.
 
-The following image is an example of how the brands detected section is displayed:
+The following image is an example of how the brands detected insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![New brands detected](media/si-app-brands-detected.png  "New brands detected")
@@ -129,7 +129,7 @@ In this example, you can see that 3 brands, Northwind 3D, XYG Printer, and 3D Fo
 
 This insight shows the defined competitor names that customers use most and trending upwards during the sales calls. The application highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to these competitors.
 
-The following image is an example of how the competitors mentioned section is displayed:
+The following image is an example of how the competitors mentioned insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Competitors mentioned](media/si-app-competitors-mentioned.png  "Competitors mentioned")
@@ -160,7 +160,7 @@ The following insights are available for you to understand what characterizes to
 
 This insight shows the average listen and talk ratio of top sellers and rest of the team in conversations with customers. By analyzing this insight, you can understand what working-out for top sellers while in conversation with customers to close deals and generate revenue.
 
-The following image is an example of how the talk-to-listen ratio section is displayed:
+The following image is an example of how the talk-to-listen ratio insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Comparison of Talk-to-listen ratio](media/si-app-talk-to-listen-ratio.png  "Comparison of Talk-to-listen ratio")
@@ -171,18 +171,18 @@ In this example, you can observe that the top sellers talk (60%) more than liste
 
 This insight shows the keywords that are used by the top sellers use more frequently in conversations with customers. By analyzing this insight, you can understand what words the top sellers use that helps them to close deals and generate revenue.
 
-The following image is an example of how the what are they talking about section is displayed:
+The following image is an example of how the what are they talking about insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Keywords top sellers are talking about](media/si-app-what-they-are-talking-about.png  "Keywords that top sellers are talking about")
 
-In this example, you can see that Next steps, Discount, and VIP are the top words mentioned by your top sellers. The bubbles show the top five words that are trending and the number of times that these keywords were mentioned in the calls. The dark-shade bubbles are the trending words.
+In this example, you can see that Next steps, Discount, and VIP are the top words mentioned by your top sellers. The bubbles show the top 20 keywords that are trending and the number of times that these keywords were mentioned in the calls. The dark-shade bubbles are the most trending keywords.
 
 ### Customer sentiment
 
-This section shows how top sellers are doing when compared to the team in terms of positive, neutral, and negative customers sentiments during sales calls. Using this insight, you can analyze what makes the tops sellers more efficient in addressing the customer pain points during the call and how you can coach your other sellers to increase the sentient levels.
+This insight shows how top sellers are doing when compared to the team in terms of positive, neutral, and negative customers sentiments during sales calls. Using this insight, you can analyze what makes the tops sellers more efficient in addressing the customer pain points during the call and how you can coach your other sellers to increase the sentient levels.
 
-The following image is an example of how the customer sentiment section is displayed:
+The following image is an example of how the customer sentiment insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png  "Comparison of customer sentiment")
@@ -191,9 +191,9 @@ In this example, you can see that top sellers (42%) are driving more negative cu
 
 ### Switch rate
 
-This section shows the rate of which top sellers are talking and listing in conversations with customers and this indicates a sign of engagement during conversations. Using this insight, you can understand the switch rate of top sellers per hour and identify coaching opportunities for other sellers to improve on switch rate.
+This insight shows the rate of which top sellers are talking and listing in conversations with customers and this indicates a sign of engagement during conversations. Using this insight, you can understand the switch rate of top sellers per hour and identify coaching opportunities for other sellers to improve on switch rate.
 
-The following image is an example of how the switch rate section is displayed:
+The following image is an example of how the switch rate insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Switch rate of talk to listen](media/si-app-switch-rate.png  "Switch rate of talk to listen")
@@ -202,9 +202,9 @@ In this example, you can see that top seller (45 per hour) are switching more du
 
 ### Engagement with customers
 
-This section helps you to understand what type of communication mode that top sellers are spending their time in engaging with customers. Using this insight, you can identify coaching opportunities for other sellers on communication mode in engaging with customers.
+This insight helps you to understand what type of communication mode that top sellers are spending their time in engaging with customers. Using this insight, you can identify coaching opportunities for other sellers on communication mode in engaging with customers.
 
-The following image is an example of how the engagement with customers section is displayed:
+The following image is an example of how the engagement with customers insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Top sellers communication mode](media/si-app-engagement-with-customer.png  "Top sellers communication mode")
@@ -213,7 +213,7 @@ In this example, you can see that top sellers are spending more time on meeting 
 
 ## Are my team’s deals on track?
 
-Are my team’s deals on track section helps you to understand how your team’s opportunities and leads are doing in the current sales period. Through these understanding, you can identify the opportunities and leads with higher revenue that at risk and need your attention to coach the individual sales reps to improve the health.
+Are my team’s deals on track section helps you to understand how your team’s opportunities and leads are doing in the current sales period. Through these understanding, you can identify the opportunities and leads with higher revenue that at risk and need your attention to coach the individual sellers to improve the health.
 
 The following insights are available for you to understand the deals:
 
@@ -222,25 +222,25 @@ The following insights are available for you to understand the deals:
 
 ### Opportunities at risk
 
-This section helps you to understand the opportunities that are high in revenue and at risk so that you can spend more time by coaching the sales rep who is working with these opportunities to turn into a winning deal.
+This insight helps you to understand the opportunities that are high in revenue and at risk so that you can spend more time by coaching the sales rep who is working with these opportunities to turn into a winning deal.
 
-The following image is an example of how the opportunities at risk section is displayed:
+The following image is an example of how the opportunities at risk insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Opportunities that are at risk](media/si-app-opportunities-at-risk.png  "Opportunities that are at risk")
 
-In this example, you can see that opportunities (Red bubbles) that are high in revenue are poor in health score and are at risk. You need to coach the sales reps who are handling these opportunities that are at risk and turn them into a winning deal.
+In this example, you can see that opportunities (Red bubbles) that are high in revenue are poor in health score and are at risk. You need to coach the sellers who are handling these opportunities that are at risk and turn them into a winning deal.
 
 ### Leads at risk
 
-This section helps you to understand the leads that are losing momentum and at risk so that you can spend more time by coaching the sales rep who is working with these leads to turn into opportunities.
+This insight helps you to understand the leads that are losing momentum and at risk so that you can spend more time by coaching the seller who is working with these leads to turn into opportunities.
 
-The following image is an example of how the leads at risk section is displayed:
+The following image is an example of how the leads at risk insight is displayed:
 
   > [!div class="mx-imgBorder"]
   > ![Leads that are at risk](media/si-app-leads-at-risk.png  "Leads that are at risk")
  
-In this example, you can see that leads (Red bubbles) that are losing momentum with poor health score and are at risk. You need to coach the sales reps who are handling these leads that are losing momentum and turn them into opportunities.
+In this example, you can see that leads (Red bubbles) that are losing momentum with poor health score and are at risk. You need to coach the sellers who are handling these leads that are losing momentum and turn them into opportunities.
 
 ## Call recording KPIs
 

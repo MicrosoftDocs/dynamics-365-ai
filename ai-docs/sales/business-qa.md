@@ -48,6 +48,12 @@ To get started asking questions, you can use the search text box on the Sales In
 
 On the home page, type a conversational question in the **search** text box and press **Enter**. For example, enter **Which opportunities closed last month?** and the **Answers** screen opens with the potential results that are related to the question.
 
+> [!IMPORTANT]
+> If you don't know how to ask a question, type **help** in the **search** text box and press **Enter**. A list of possible questions that the application can answer is displayed. 
+> > [!div class="mx-imgBorder"]
+> > ![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
+
+
 > [!NOTE]
 > You can also open the **Answers** screen by selecting the chat icon.
 

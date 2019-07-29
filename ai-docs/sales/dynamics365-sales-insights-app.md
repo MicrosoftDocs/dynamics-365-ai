@@ -30,6 +30,10 @@ This application is designed to help sales managers and sellers in their day-to-
 
 **As a sales manager, you can**
 
+-	Understand what customers are talking about to get strategic insights on trending tracked keywords, brands, and competitors that allows you to design sales strategies and training of your team. To learn more, see [View home page](dynamics365-sales-insights-app-home-page.md)
+
+-	Understand if your opportunities and leads are loosing momentum and be on top them to convert into deals. To learn more, see [Are my team’s deals on track?](dynamics365-sales-insights-app-home-page.md#are-my-teams-deals-on-track). 
+
 -	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md)
 
 -	View team’s insights, customer sentiment, and team’s conversational style<!--, and sales pipeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).

@@ -34,11 +34,11 @@
 #### [Enable preview features](../sales/enable-preview-features-sales-insights-app.md)
 
 ### User guide
-#### [View overall sales and seller insights](../sales/dynamics365-sales-insights-app-home-page.md)
+#### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
 #### [Natural language Q&A](../sales/business-qa.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 
-### [FAQs for Sales Insights application](../sales/faqs-sales-manager-app.md)
+### [FAQs for Sales Insights application](../sales/faqs-sales-insights-app.md)
 
 ### [Privacy notice](../sales/privacy-notice-manager.md)
