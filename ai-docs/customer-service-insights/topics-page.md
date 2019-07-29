@@ -1,7 +1,7 @@
 ---
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
-ms.date: 06/10/2019
+ms.date: 07/26/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -73,6 +73,8 @@ To rate the placement of a topic's support cases, select the topic in the Topics
 
 Select the **Thumbs Up** icon to indicate the case has been placed correctly within the topic. Select the **Thumbs Down** icon to indicate the case was not placed correctly.
 
+For every new topic discovered in Customer Service Insights, the **Thumbs up** icon is automatically selected for the very first case title. You can change it if needed. When you change it, or select the rating icons for any other case title in the same topic, the AI model will record all the feedback to improve the topic generation results in future refreshes.
+
 ## Moving cases to another topic
 
 If you find support cases grouped in a topic that should be grouped in a different topic on the Topics page, you can move them between topics. When a case is moved to another topic, Customer Service Insights uses that action as implicit feedback to tune its artificial intelligence model. For example, the model will determine whether a similar case should also belong to the other topic. As a result, Customer Service Insights improves its topic generation results in next workspace refresh.
@@ -135,4 +137,4 @@ For more information, see [Set the granularity of how Customer Service Insights 
 
 Customer Service Insights automatically refreshes the data displayed on the Topics page daily. However, you can trigger a refresh on demand without waiting for next daily refresh.
 
-For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md). 
+For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
