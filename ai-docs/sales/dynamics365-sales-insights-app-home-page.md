@@ -187,7 +187,7 @@ The following image is an example of how the customer sentiment section is displ
   > [!div class="mx-imgBorder"]
   > ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png  "Comparison of customer sentiment")
 
-In this example, you can see that top sellers (42%) are driving more negative customer sentiment compared to that of your team (28%). This indicates that top sellers are asking more questions to identify the customer's pain points and resolve them to key out selling opportunities.
+In this example, you can see that top sellers (42%) are driving more negative customer sentiment compared to that of your team (28%). This indicates that top sellers may be asking more questions to identify the customer's pain points and resolve them to key out selling opportunities.
 
 ### Switch rate
 

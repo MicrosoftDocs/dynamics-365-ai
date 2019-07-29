@@ -58,7 +58,4 @@ This application is designed to help sales managers and sellers in their day-to-
 
 - **Seller details:** This page helps both sales manager and seller to analyze the overall behavior of the individual during the customer calls. Using this analysis, you can identifying coaching scenarios to increase sales wins and productivity gains for the business.
 
-    To learn more, see [View sales rep information](conversation-intelligence-seller-details.md)
-
-> [!IMPORTANT]
-> Predictive forecasting has been temporarily suspended and we are revisiting to align Predictive forecasting with manual forecasting that is available in Dynamics 365 for Sales. To learn more about manual forecasting, see [Project accurate revenue with sales forecasting](/dynamics365/customer-engagement/sales-enterprise/project-accurate-revenue-sales-forecasting)
+    To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
