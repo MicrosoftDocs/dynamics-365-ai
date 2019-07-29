@@ -174,4 +174,4 @@ Call data storage container is updated, and you can start uploading the call dat
 
 - [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
 
-- [FAQs for Sales Insights application](faqs-sales-manager-app.md)
+- [FAQs for Sales Insights application](faqs-sales-insights-app.md)
