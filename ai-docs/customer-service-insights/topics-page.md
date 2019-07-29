@@ -23,7 +23,7 @@ You can manage and improve the artificial intelligence grouping of support cases
 
 Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. The Topics page shows all topics that contain three or more cases.
 
-The AI model automatically detects the language used in your support cases and understands text semantics in English, Spanish, German, and French as of July 2019. You will get the best case grouping results with these languages.
+The AI model automatically detects the language used in your support cases and understands text semantics in English, Spanish, German, and French. You will get the best case grouping results with these languages.
 
 ![Topics page](media/topics-page.png)
 
