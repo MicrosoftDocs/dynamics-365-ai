@@ -38,7 +38,7 @@ As an administrator, you must configure the Dynamics 365 for Sales environment t
 
 4.	On the **Settings** page, select **Data source**. 
 
-    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
+    ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
 5.	In the **Dynamics 365 environment** section, select **+ Add an environment**.
 
@@ -71,14 +71,14 @@ As an administrator, you must configure the Dynamics 365 for Sales environment t
  
 10.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on calls. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
-    ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
+![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
     
-    > [!NOTE]
-    > You can skip adding the keywords and competitors and add them later, when required.
+   > [!NOTE]
+   > You can skip adding the keywords and competitors and add them later, when required.
 
 11.	Select **Finish** to complete the setup of the **Sales Insights** application for your organization. The status message will be displayed on the top of the page.
 
-    > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
+    ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
 Now, your Sales Insights application is ready with the data of the added environment.
 
