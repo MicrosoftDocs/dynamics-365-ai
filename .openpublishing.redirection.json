@@ -1,41 +1,6 @@
 {
     "redirections": [
         {
-            "source_path": "ai-docs/sales/dynamics365-ai-sales-app.md",
-            "redirect_url": "dynamics365-sales-insights-app",
-            "redirect_document_id": "false"
-        },
-        {
-            "source_path": "ai-docs/sales/d365-ai-overview.md",
-            "redirect_url": "dynamics365-sales-insights-app-home-page",
-            "redirect_document_id": "false"
-        },
-        {
-            "source_path": "ai-docs/sales/d365-ai-business-performance.md",
-            "redirect_url": "dynamics365-sales-insights-app-home-page",
-            "redirect_document_id": "false"
-        },
-        {
-            "source_path": "ai-docs/sales/d365-ai-team-performance.md",
-            "redirect_url": "conversation-intelligence-team-overview",
-            "redirect_document_id": "false"
-        },
-        {
-            "source_path": "ai-docs/sales/configure-call-intelligence.md",
-            "redirect_url": "configure-conversation-intelligence-call-data",
-            "redirect_document_id": "false"
-        },
-        {
-            "source_path": "ai-docs/sales/call-intelligence.md",
-            "redirect_url": "conversation-intelligence-seller-details",
-            "redirect_document_id": "false"
-        },
-        {
-            "source_path": "ai-docs/sales/faqs-sales-manager-app.md",
-            "redirect_url": "faqs-sales-insights-app",
-            "redirect_document_id": "false"
-        },
-        {
             "source_path": "ai-docs/market-insights/activity-maps.md",
             "redirect_url": "help-hub",
             "redirect_document_id": false
