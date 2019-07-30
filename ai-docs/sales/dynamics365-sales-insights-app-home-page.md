@@ -65,7 +65,7 @@ The base KPIs provide information on the status of your current sales period. By
 
 -	The average revenue generated through each deal in this period.
 
-The following image is an example of how the base KPIs are displayed.
+The following image is an example of how the base KPIs are displayed:
 
   ![Base KPIs](media/si-app-base-kpis.png "Base KPIs")
 
