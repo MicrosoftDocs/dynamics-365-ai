@@ -178,8 +178,6 @@ The following is an example of how the **Leads** tab displays:
 
 ## Preview: Predictive forecast
 
-[!INCLUDE[work_predictive_forecast](../sales/work-predictive-forecasting.md)]  
-
 ## Privacy notice  
 
 For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
