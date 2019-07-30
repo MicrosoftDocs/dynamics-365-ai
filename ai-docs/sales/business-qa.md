@@ -28,71 +28,64 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 
-Sometimes you want quick answers from your data without searching through reports in the sections. The Microsoft Dynamics 365 Sales Insights application provides a natural language **Q&A** feature so you can ask questions using natural language. This enables you to explore your data using intuitive, natural language capabilities and receive answers in the form of charts and graphs.
+Sometimes, you want quick answers from your data without searching through reports in the sections. The **Dynamics 365 Sales Insights** application provides a **Natural language Q&A** feature so you can ask questions using natural language. This enables you to explore your data using intuitive, natural language capabilities and receive answers in the form of charts and graphs.
 
 > [!NOTE]
-> Natural language Q&A is a preview feature and contact your administrator to enable the preview feature in your organization. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
+> **Natural language Q&A** is a preview feature and contact your administrator to enable the preview feature in your organization. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
-For example, when you type "Which opportunities closed last month?", the application displays charts and graphs that contain details of the opportunities that closed last month. If a good report for answering your questions exists, this report will be opened and automatically filtered based on your question. If a report does not already exist, the Sales Insights Q&A capability will automatically generate a result to answer your question.
+For example, when you type "Which opportunities closed last month?" the application displays charts and graphs that contain details of the opportunities that closed last month. If a good report for answering your questions exists, this report will be opened and automatically filtered based on your question. If a report does not already exist, the **Sales Insights Q&A** capability will automatically generate a result to answer your question.
 
-The natural language Q&A capability of Sales Insights application is an ever-evolving system and it is being improved based on your feedback. We recommend you provide feedback for both satisfactory and unsatisfactory results as we tune the capability to work best for your questions.
+The **Natural language Q&A** capability of the Sales Insights application is an ever-evolving system, and it is being improved based on your feedback. We recommend you provide feedback for both satisfactory and unsatisfactory results as we tune the capability to work best for your questions.
 
 To learn more on improving the search, see [Provide feedback to improve search results](#provide-feedback-to-improve-search-results).
 
 To get started asking questions, you can use the search text box on the Sales Insights application home page:
 
-> [!div class="mx-imgBorder"]
-> ![Q&A text box on sales insights application](media/sales-insights-biz-qa.png "Q&A text box on sales insights application")
+![Q&A text box on the Sales Insights application](media/sales-insights-biz-qa.png "Q&A text box on the Sales Insights application")
 
 ## Ask a question
 
-On the home page, type a conversational question in the **search** text box and press **Enter**. For example, enter **Which opportunities closed last month?** and the **Answers** screen opens with the potential results that are related to the question.
+On the home page, type a conversational question in the search text box, and press **Enter**. For example, enter **Which opportunities closed last month?**, and the **Answers** screen opens with the potential results that are related to the question.
 
 > [!IMPORTANT]
-> If you don't know how to ask a question, type **help** in the **search** text box and press **Enter**. A list of possible questions that the application can answer is displayed. 
-> > [!div class="mx-imgBorder"]
-> > ![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
+> If you don't know how to ask a question, type **Help** in the search text box, and press **Enter**. A list of possible questions that the application can answer is displayed. 
+> ![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
 
 
 > [!NOTE]
 > You can also open the **Answers** screen by selecting the chat icon.
 
-> [!div class="mx-imgBorder"]
-> ![Answers page](media/sales-insights-biz-qa-answers-page.png "Answers page")
+![Answers page](media/sales-insights-biz-qa-answers-page.png "Answers page")
 
-The three recommended answers displayed in the results set are the most relevant to the question. You can select and open the relevant results. Here we have selected **Closing Opportunities**. 
+The three recommended answers displayed in the results set are the most relevant to the question. You can select and open the relevant results. Here we selected **Closing Opportunities**. 
 
-> [!div class="mx-imgBorder"]
-> ![Viewing a result](media/sales-insights-biz-qa-answers-page-result.png "Viewing a result")
+![Viewing a result](media/sales-insights-biz-qa-answers-page-result.png "Viewing a result")
 
-You can refine the report by applying filters. Set the filters and select **Apply**. You can also review the **Answer confidence**, which defines the accuracy of the results.
+You can refine the report by applying filters. Set the filters, and select **Apply**. You can also review the **Answer confidence**, which defines the accuracy of the results.
 
 For more examples of asking questions, see [Reference](#reference).
 
 ## Provide feedback to improve search results
 
-At times, the results that the application fetches might not be accurate or relevant to the question you asked. In such cases, you can improve the search results by providing feedback. This feedback helps the application to improve the search results and display more appropriate results in the future. You can always measure the accuracy of the result by viewing the **Answer confidence** in the result page. Follow these steps to provide feedback:
+At times, the results that the application fetches might not be accurate or relevant to the question you asked. In such cases, you can improve the search results by providing feedback. This feedback helps the application to improve the search results and display more appropriate results in the future. You can always measure the accuracy of the result by viewing the **Answer confidence** in the results page. Follow these steps to provide feedback:
 
 1. Sign in to the **Sales Insights** application.
-2. In the **Q&A** text box, type a question and press **Enter**.
+2. In the **Q&A** text box, type a question, and press **Enter**.
 3. If you do not find the appropriate suggestions in response to your question, select **Help us improve**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Help us improve button](media/sales-insights-biz-qa-help-us-improve.png "Select Help us improve button")
+    ![Help us improve button](media/sales-insights-biz-qa-help-us-improve.png "Help us improve button")
     
     **-OR-**
 
-    If the displayed report is not an appropriate answer to your question, on the result page, select **No** for the question **Is this the answer you were looking for?** 
+    If the displayed report is not an appropriate answer to your question, on the results page, select **No** for the question **Is this the answer you were looking for?** 
 
-    > [!div class="mx-imgBorder"]
-    > ![Looking at the right answer option](media/sales-insights-biz-qa-looking-for-right-answer.png "Looking at the right answer option")
+    ![Looking at the right answer option](media/sales-insights-biz-qa-looking-for-right-answer.png "Looking at the right answer option")
 
-4. The **Help us improve** sidekick opens. Choose the appropriate response and select **Send**.
+4. The **Help us improve** sidekick opens. Choose the appropriate response, and select **Send**.
     
-    > [!div class="mx-imgBorder"]
-    > ![Questionnaire to improve Q&A search results](media/sales-insights-biz-qa-help-us-improve-sidekick.png "Questionnaire to improve Q&A search results")
+    ![Questionnaire to improve Q&A search results](media/sales-insights-biz-qa-help-us-improve-sidekick.png "Questionnaire to improve Q&A search results")
 
-    A confirmation message displays and the questionnaire is sent to the application. This should result in more relevant answers the next time you search.
+    A confirmation message displays, and the questionnaire is sent to the application. This should result in more relevant answers the next time you search.
 
 ## Reference
 
@@ -111,9 +104,9 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 - During organization-wide performance review periods
 - When a seller is underachieving
 
-**Example motive**: You have a biweekly meeting with Bert Hair tomorrow and you want reports and information on how he is performing.
+**Example motive**: You have a biweekly meeting with Bert Hair tomorrow, and you want reports and information on how he is performing.
 
-**Questions**: You can ask the following types of questions to the Sales Insights Q&A.
+**Questions**: You can ask the following types of questions to the **Sales Insights Q&A**.
 
 |Type of question|Question|Description|
 |----------------|--------|-----------|
@@ -128,7 +121,7 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 
 ### Scenario 2: Sales manager preparing for business review meeting with sales leadership
 
-**Objective**: The goal of this scenario is to help you as a sales manager to analyze and present the performance of the sales team to sales leadership.
+**Objective**: The goal of this scenario is to help you as a sales manager analyze and present the performance of the sales team to sales leadership.
 
 **Frequency**: When and where you can use this scenario:
 - Monthly, periodically, quarterly, half yearly, and annually
@@ -137,7 +130,7 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 
 **Example motive**: You and other sales managers need to provide a business update on the performance sales teams—including yours—next week at a sales leadership meeting in New York.
 
-**Questions**: You can ask the following types of questions to the Sales Insights Q&A.
+**Questions**: You can ask the following types of questions to the **Sales Insights Q&A*.
 
 |Type of question|Question|Description|
 |----------------|--------|-----------|
@@ -159,7 +152,7 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 
 **Example motive**: You want to see how well your sales team is performing and if you are going to meet sales targets for the period.
 
-**Questions**: You can ask the following types of questions to the Sales Insights Q&A.
+**Questions**: You can ask the following types of questions to the **Sales Insights Q&A**.
 
 |Type of question|Question|Description|
 |----------------|--------|-----------|
