@@ -22,15 +22,15 @@ topic-status: Drafting
 
 # Enable preview features
 
-Preview features are features that aren’t complete but are made available on a “preview” basis so customers can get early access and provide feedback. In Dynamics 365 Sales Insights application, we are providing the **Instant reports and analysis** feature that uses the **Natural language Q&A** model to provide answers to the questions you type. 
+Preview features are features that aren’t complete but are made available on a “preview” basis so customers can get early access and provide feedback. In the Dynamics 365 Sales Insights application, we are providing the **Instant reports and analysis** feature that uses the **Natural language Q&A** model to provide answers to the questions you type. 
 
 > [!IMPORTANT]
-> The Preview feature **Instant reports and analysis** is currently available only in the North American Region (NAM) region.
+> The preview feature **Instant reports and analysis** is currently available only in the North American Region (NAM) region.
 
 As an administrator, you must enable the **Instant reports and analysis** feature as preview to use by sales managers and sellers in your organization. 
 
 > [!NOTE]
-> If you have already enabled the Preview feature through first-run set up, you are not required to enable it again; however, you can disable it if you don’t wish to use it in your organization.
+> If you have already enabled the preview feature through first-run set up, you are not required to enable it again; however, you can disable it if you don’t wish to use it in your organization.
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md).
 
