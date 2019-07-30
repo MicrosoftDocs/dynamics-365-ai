@@ -18,3 +18,4 @@
 ## [Data handling for alerts](alerts-data-handling.md)
 ## [Known issues](known-issues.md)
 ## [FAQ](faq.md)
+## [Release plans](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-market-insights/planned-features)
