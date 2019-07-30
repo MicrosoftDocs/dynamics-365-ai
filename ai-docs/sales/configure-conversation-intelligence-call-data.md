@@ -57,7 +57,7 @@ Create a call recording repository (blob container) in an Azure storage account.
 
 5. Select **OK**.
 
-    The container is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
+    The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
 
 6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect Call intelligence to your Azure storage account.
 
@@ -105,7 +105,7 @@ Review the following requirements for audio and JSON files before you upload:
   | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
   | `Region`| (Optional) Specifies from which region the call originated, such as NA (North America). |  
   | `CreatedTimestamp`| (Optional) Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**. |  
-  | `fileChannelType`| (Optional) Specifies the call channel type such as stereo or mono. |  
+  | `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|  
   | `country`| (Optional) Specifies from which country the call originated. |  
 
     The following is an example of JSON file format:
@@ -124,7 +124,7 @@ Review the following requirements for audio and JSON files before you upload:
         "Region": "Commercial Sales",
         "Title": "Sales call",
         "CallPhoneCallCrmId": "33840960-a186-0a0b-ae0a-db69afd6b8e5"
-        "fileChannelType": "Stereo",
+        "fileChannelType": "TwoWay",
         "Country": "United States",
         "Id": "4a14995b-4fd0-493e-85d4-9eb48d28e799",
         "Title": "Contoso Deal",

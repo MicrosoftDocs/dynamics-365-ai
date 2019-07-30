@@ -26,6 +26,8 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 
 The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application uses analytics and data science to gather data from call recordings, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence.
 
+<div class=embeddedvideo><iframe src=https://go.microsoft.com/fwlink/?linkid=2099797 frameborder=0 allowfullscreen=></iframe></div>
+
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
 **As a sales manager, you can**
@@ -73,11 +75,11 @@ The next sections describe:
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app:
 
--	Verify that you have a subscription to Microsoft Dynamics 365 for Sales. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 for Customer Engagement apps licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
+-	Verify that you have a subscription to Microsoft Dynamics 365 for Sales. To learn more, see [Purchase and assign Dynamics 365 for Customer Engagement apps licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
 
 <!-- - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)-->
 
-- As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies)
+- As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies)
 
 <!-- - As a sales manager, verify that goals are defined for sellers or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
     >[!NOTE]
