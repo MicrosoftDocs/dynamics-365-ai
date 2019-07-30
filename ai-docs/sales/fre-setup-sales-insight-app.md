@@ -32,7 +32,7 @@ When you sign into the Sales Insights application, the application will be avail
 
 The following diagram illustrates the process of setting up application as an administrator:
 
-![Process of setting up Sales insights application through different user roles](media/si-app-fre-admin-endusers.png "Process of setting up Sales insights application through different user roles")
+![Process of setting up the Sales Insights application through different user roles](media/si-app-fre-admin-endusers.png "Process of setting up the Sales Insights application through different user roles")
 
 1.	Review the prerequisites. To learn more, see [Prerequitsites to configure Sales Insights application](prereq-sales-insights-app.md).
 
