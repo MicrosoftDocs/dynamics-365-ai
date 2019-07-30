@@ -71,7 +71,7 @@ As an administrator, you must configure the Dynamics 365 for Sales environment t
  
 10.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on calls. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
-![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
+  ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
     
    > [!NOTE]
    > You can skip adding the keywords and competitors and add them later, when required.
