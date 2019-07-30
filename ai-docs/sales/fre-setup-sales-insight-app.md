@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # First-run set up experience of Sales Insight application
 
-When you sign into the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data. After you sign in, you can set up the application depending on the role that is assigned to you.
+When you sign-in to the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data. After you sign in, you can set up the application depending on the role that is assigned to you.
 
 -	As an administrator, you can set up the complete application including connecting Dynamics 365 environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
 
@@ -40,7 +40,7 @@ The following diagram illustrates the process of setting up application as an ad
 
     ![Administrator sales insights home page](media/si-app-admin-home-page-admin-signin.png "Administrator Sales Insights home page")
  
-3.	Select **Set up Sales Insights** and continue with set up wizard. 
+3.	Select **Set up Sales Insights** and continue with the set up wizard. 
 
 4.	In the **Connect your data** dialog box, select your Dynamics 365 for Sales environment to connect with the application.
 
@@ -68,12 +68,12 @@ The following diagram illustrates the process of setting up application as an ad
 
     ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
  
-8.	If you want to turn on the Preview feature, in the **Turn on the preview features** dialog box, select the Preview feature and then select **Agree and continue**.
+8.	If you want to turn on the preview feature, in the **Turn on the preview features** dialog box, select the preview feature and then select **Agree and continue**.
 
-    ![Turn on preview feature](media/si-app-admin-enable-preview-feature.png "Turn on Preview feature")
+    ![Turn on preview feature](media/si-app-admin-enable-preview-feature.png "Turn on preview feature")
  
     > [!NOTE]
-    > If you don’t want to enable the Preview feature for your organization, skip this step to proceed. You can enable the Preview features later. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
+    > If you don’t want to enable the preview feature for your organization, skip this step to proceed. You can enable the preview features later. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
 9.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
