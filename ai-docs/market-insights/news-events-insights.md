@@ -16,7 +16,7 @@ search.app:
   - D365SE
 ---
 
-# Journey insights
+# News insights
 
 ## News articles
 
