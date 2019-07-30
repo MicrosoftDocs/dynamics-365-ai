@@ -49,7 +49,8 @@ On the home page, type a conversational question in the search text box, and pre
 
 > [!IMPORTANT]
 > If you don't know how to ask a question, type **Help** in the search text box, and press **Enter**. A list of possible questions that the application can answer is displayed. 
-> ![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
+
+![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
 
 
 > [!NOTE]
