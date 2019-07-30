@@ -30,21 +30,21 @@ This application is designed to help sales managers and sellers in their day-to-
 
 **As a sales manager, you can:**
 
--	Understand what customers are talking about to get strategic insights on trending tracked keywords, brands, and competitors that allow you to design sales strategies and training for your team. To learn more, see [View home page](dynamics365-sales-insights-app-home-page.md)
+-	Understand what customers are talking about to get strategic insights on trending tracked keywords, brands, and competitors that allow you to design sales strategies and training for your team. To learn more, see [View and understand home page](dynamics365-sales-insights-app-home-page.md)
 
 -	Understand if your opportunities and leads are losing momentum so you can be on top of them to convert into deals. To learn more, see [Are my team’s deals on track?](dynamics365-sales-insights-app-home-page.md#are-my-teams-deals-on-track). 
 
--	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md)
+-	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [Analyze overall team's behavior on customer calls](conversation-intelligence-team-overview.md)
 
--	View team’s insights, customer sentiment, and team’s conversational style<!--, and sales pipeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).
+-	View team’s insights, customer sentiment, and team’s conversational style<!--, and sales pipeline-->. To learn more, see [Analyze overall team's behavior on customer calls](conversation-intelligence-team-overview.md).
 
--	View and understand individual seller’s conversation style<!--, sales pipeline-->, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
+-	View and understand individual seller’s conversation style<!--, sales pipeline-->, customer sentiment, insights, and call history. To learn more, see [Analyze customer calls to improve sales](conversation-intelligence-seller-details.md).
 
 -	View insights on the status of your current sales period, such as the sum of actual revenue, total estimated revenues, total deals won, and the average revenue generated. To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
 
 **As a seller, you can:**
 
--	View your conversation insights, customer sentiment, conversation style, sales pipeline, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
+-	View your conversation insights, customer sentiment, conversation style, sales pipeline, and call history. To learn more, see [Analyze customer calls to improve sales](conversation-intelligence-seller-details.md).
 
 **As a administrator, you can:**
 
@@ -79,7 +79,7 @@ The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights
 
 ## How to access the Dynamics 365 Sales Insights application
 
-As an administrator, you must configure the application so users (managers and sellers) can see the relevant organization and call data. To learn more, see [First-run set up experience](fre-setup-sales-insight-app.md).
+As an administrator, you must configure the application so users (managers and sellers) can see the relevant organization and call data. To learn more, see [First-run set up experience of Sales Insight application](fre-setup-sales-insight-app.md).
 
 As a user (manager or seller), when you sign to the application for the first time, you might see the following if the administrator hasn't configured the application for you:
 
@@ -103,7 +103,7 @@ The following steps explain how to access the **Sales Insights** application for
 
     ![Accept terms and conditions](media/si-app-tnc.png "Accept terms and conditions")
 
-	The application validates your credentials and gives you further instructions depending on your role. If you have the administrator role assigned to you, you can proceed with configuring the application. To learn more, see [First-run set up experience](fre-setup-sales-insight-app.md).
+	The application validates your credentials and gives you further instructions depending on your role. If you have the administrator role assigned to you, you can proceed with configuring the application. To learn more, see [First-run set up experience of Sales Insight application](fre-setup-sales-insight-app.md).
     
     If you don't have the administrator role assigned to you, a status message is displayed on the top of the page informing you to contact your administrator to configure the application; however, you can continue with the demo data to explore the features and functionalities to enhance your learning curve until the administrator configures the application.
     
