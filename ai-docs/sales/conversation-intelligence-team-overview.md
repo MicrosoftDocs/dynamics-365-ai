@@ -1,8 +1,8 @@
 ---
 title: "Work with conversation intelligence to understand team overview feature for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Analyze overall team performace  to improve sales and generate revenue"
+description: "Analyze overall team performance  to improve sales and generate revenue"
 keywords: "conversation intelligence, Dynamics 365 Sales Insights, sales insights, Sales AI"
-ms.date: 07/31/2018
+ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -24,10 +24,9 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue.  
-The **Teams overview** page helps the sales managers to analyze the overall behavior of their team during the customer call. This helps in identifying coaching scenarios for team to increase sales wins and productivity gains for the business.
+Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page helps the sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
-As a sales manager, these KPIs and insights helps you to: 
+As a sales manager, these KPIs and insights help you to: 
 
 - Assess overall customer sentiments and sentiment trends.
   
@@ -35,20 +34,18 @@ As a sales manager, these KPIs and insights helps you to:
 
 - Gain insight into what’s going on with your team.
 
-- Analyze you team's conversational style.
+- Analyze your team's conversational style.
 
-To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights** application and select **Teams overview**. 
+To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights** application, and select **Teams overview**. 
 
-> [!div class="mx-imgBorder"]
-> ![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")
+![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")
 
 |KPI/Insights|Description|
 |------------|-----------|
 |**1. Date filter**|Provides a timeline for which you want to view the data of your team.|
-|**2. Insights**|Displays what’s happening in your team and the latest trends such as sales reps who are scoring high in customer satisfaction, who might need coaching based on the customer sentiments they are generating, and keywords that are trending.|
+|**2. Insights**|Displays what’s happening in your team and the latest trends, such as sales reps who are scoring high in customer satisfaction as well as those who might need coaching based on the customer sentiments they are generating and keywords that are trending.|
 |**3. Sentiment**|• **Overall customer sentiment:** Specifies the customer sentiment in percentage—positive, negative, or neutral.<br>•	**Customer sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are spanning across the specified timeframe.<br> •	**Customer sentiment by sales rep:** Specifies how each of your sales reps contributed toward generating the overall customer sentiment. Also, shows which sales rep has the highest or lowest contributions.|
 |**4. Conversation style**|• **Listening vs. talking by sales rep:** Specifies the average listen and talk ratio of sales reps in conversations with customers.<br>•	**Average talking speed by sales rep:** Displays the average number of words used per minute by sales reps.<br>• **Longest average customer monologue:** Displays the length of speech without a break by the customer with a sales rep in seconds; this is a signal that sales reps are asking good questions and showing understanding of customer needs.<br>• **Average pause before speaking by sales rep:** Displays how many milliseconds the sales rep paused before responding to customer queries; this is a signal of patience by the sales rep.<br> • **Highest average switch rate:** Displays the average switches between a sales rep and customer in a conversation; this is a sign of engagement during conversations.|
-
 
 ### See also
 

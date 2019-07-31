@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # First-run set up experience of Sales Insight application
 
-When you sign into the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data.
+When you sign-in to the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
 -	As an administrator, you can set up the complete application including connecting Dynamics 365 environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
@@ -33,39 +33,34 @@ After you sign in, you can set up the application depending on the role that is 
 
 The following diagram illustrates the process of setting up application as an administrator:
 
-> [!div class="mx-imgBorder"]
-> ![Process of setting up Sales insights application through different user roles](media/si-app-fre-admin-endusers.png "Process of setting up Sales insights application through different user roles")
+![Process of setting up Sales insights application through different user roles](media/si-app-fre-admin-endusers.png "Process of setting up Sales insights application through different user roles")
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
 
 2.	Sign in to **Dynamics 365 Sales Insights** application as administrator.
 
-    > [!div class="mx-imgBorder"]
-    > ![Administrator sales insights home page](media/si-app-admin-home-page-admin-signin.png "Administrator sales insights home page")
+
+    ![Administrator sales insights home page](media/si-app-admin-home-page-admin-signin.png "Administrator sales insights home page")
  
-3.	Select **Set up Sales Insights** and continue with set up wizard. 
+3.	Select **Set up Sales Insights** and continue with the set up wizard. 
 
 4.	On the **Connect your data** dialog box, select your Dynamics 365 for Sales environment to connect with the application.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
+    ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
   
     The application detects your environment.
 
 5.	On the **Terms and conditions** dialog box, accept the terms and conditions and select **Agree and continue**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
+    ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
  
     The application takes few minutes to connect your data with application and progress dialog box is displayed.
 
-    > [!div class="mx-imgBorder"]
-    > ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")
+    ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")
   
 6.	On the **Create an application user** dialog box, select **Grant permissions** to create application user to use the application.
 
-    > [!div class="mx-imgBorder"]
-    > ![Grant permissions to create application user](media/si-app-admin-grant-permission-create-app-user.png "Grant permissions to create application user")
+    ![Grant permissions to create application user](media/si-app-admin-grant-permission-create-app-user.png "Grant permissions to create application user")
  
     The permission is granted to use the application.
 
@@ -73,8 +68,7 @@ The following diagram illustrates the process of setting up application as an ad
     
     To learn more on how to get these values, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
-    > [!div class="mx-imgBorder"]
-    > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
+    ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
  
 8.	If you want to turn the preview feature, on the **Turn on the preview features** dialog box, select the preview feature and then select **Agree and continue**.
 

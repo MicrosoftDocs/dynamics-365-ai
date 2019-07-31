@@ -2,7 +2,7 @@
 title: "Configure call data for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Configure call data in Dynamics 365 Sales Insights application"
 keywords: "Call intelligence, Dynamics 365 AI for Sales, AI for Sales, Sales AI, Sales Insights application"
-ms.date: 07/31/2018
+ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -24,9 +24,9 @@ topic-status: Drafting
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0. <br>
 
-Conversation intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sellers. This helps the sales managers to change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
+Conversation intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sellers. This helps the sales managers change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
-You must have administrative privileges to configure Call intelligence for your organization. To configure Call intelligence, perform the following steps:
+You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:
 
 1. [Review the prerequisites](prereq-sales-insights-app.md)
 
@@ -35,47 +35,45 @@ You must have administrative privileges to configure Call intelligence for your 
 3. [Upload call recordings](#upload-call-recordings).
 
 > [!NOTE] 
-> If you want to update storage container and connection string, see [Update configuration of call data](#update-configuration-of-call-data). 
+> If you want to update the storage container and connection string, see [Update configuration of call data](#update-configuration-of-call-data). 
 
 ## Create call recording repository
 
-Create a call recording repository (blob container) in an Azure storage account. This helps you to upload the call recordings in the repository for Call intelligence to assess.
+Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess.
  
 1. Sign in to the Azure dashboard.
 
-2. On the navigation pane, select **All resources** and open the desired storage account.
+2. On the navigation pane, select **All resources**, and open the desired storage account.
 
-    > [!div class="mx-imgBorder"]
-    > ![Azure All resources option](media/azure_allresources.png "Azure All resources option")
+    ![Azure All resources option](media/azure_allresources.png "Azure all resources option")
 
-3. From **Blob service**, select **Blobs** > **+ Container**.
+3. From **Blob service**, select **Blobs** then **+ Container**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")
+    ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")
 
-4. Specify the container information such as name and public access level.
+4. Specify the container information, such as name and public access level.
 
 5. Select **OK**.
 
-    The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
+   The container is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
 
-6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect Call intelligence to your Azure storage account.
+6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.
 
-    > [!div class="mx-imgBorder"]
-    > ![Note connection string](media/azure-connectionstring.png "Note the connection string")
+    ![Note connection string](media/azure-connectionstring.png "Note the connection string")
 
 Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence. 
 
 ## Upload call recordings
 
-You can upload the recording in audio formats such as MP3 and WAV in the created call recording repository (blob container) in Azure. Along with the audio format file, you must upload the corresponding metadata file in JSON format.
+You can upload the recordings in audio formats, such as MP3 and WAV, in the created call recording repository (blob container) in Azure. Along with the audio format file, you must upload the corresponding metadata file in JSON format.
+
 > [!NOTE]
-> You must have at least 10 call recording files in the call recording repository to process and display the data in Call intelligence. 
+> You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
 
 Review the following requirements for audio and JSON files before you upload:
 
 - The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
-- The file name cannot contain reserved characters such as **!*'();:@&=+$,/?%#[]"**.
+- The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be less than 260 characters.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
@@ -137,41 +135,37 @@ Review the following requirements for audio and JSON files before you upload:
 
 Configuring the call data helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and providing insights for the call recordings. To configure the call data:
 
-1.	Open Dynamics 365 Sales Insights application. 
+1.	Open the **Dynamics 365 Sales Insights** application. 
 
-2.	Select the Settings icon on the top-right of the page and then select Settings.
+2.	Select the settings icon on the top-right of the page and then select Settings.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
  
 3.	On the **Settings** page, select **Data source**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
+    ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
-4.	On the **Call data** section, enter the **Storage connection** string that you configured in Azure.
+4.	In the **Call data** section, enter the **Storage connection** string that you configured in Azure.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
+    ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
 
-    The list of containers that are available is displayed in the Container name drop down.
+    The list of containers that are available is displayed in the **Container name** drop down.
 
 5.	Select **Container name** from the list.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select container name](media/si-app-admin-call-data-section-container.png "Select container name")
+    ![Select container name](media/si-app-admin-call-data-section-container.png "Select container name")
 
-6.	(Optional) You can download the metadata file sample that is used to upload to the call recording repository in Azure along with the call recording file.
+6.	(Optional) Download the metadata file sample that is used to upload to the call recording repository in Azure along with the call recording file.
 
 7.	Select **Save**.
 
-Call data storage container is updated, and you can start uploading the call data into the new container.
+The call data storage container is updated, and you can start uploading the call data into the new container.
 
 
 ### See also
 
 - [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+- [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
 
 - [FAQs for Sales Insights application](faqs-sales-insights-app.md)
