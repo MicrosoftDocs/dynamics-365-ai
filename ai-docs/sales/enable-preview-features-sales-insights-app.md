@@ -44,11 +44,11 @@ As an administrator, you must enable the **Instant reports and analysis** featur
 
     ![Select preview feature](media/si-app-admin-select-preview-feature.png "Select preview feature")
 
-5.	Select **Business Q+A** and then select **Save**.
+5.	Select **Instant reports and analysis** and then select **Save**.
 
     ![Preview feature enabled](media/si-app-admin-preview-feature-enabled.png "Preview feature enabled")
 
-The Preview feature **Business Q+A** is enabled which uses natural language to process the questions and display answers.
+The Preview feature **Instant reports and analysis** is enabled which uses natural language to process the questions and display answers.
 
 ### See also
 
