@@ -25,30 +25,31 @@ topic-status: Drafting
 **What languages are supported now?​**<br>
 The application supports the following model languages:
 
-- English
-- German
-- French
-- Italian
-- Spanish
-- Japanese
-- Brazilian Portuguese
-- Chinese (simplified)
+- Brazilian Portuguese (pt-BR)
+- Chinese (simplified) (zh-CN)
+- English - United States (en-US)
+- English - Great Britain (en-GB)
+- French - France (fr-FR)
+- German - Germany (de-DE)
+- Italian - Italy (it-IT)
+- Japanese - Japan (ja-JP)
+- Spanish - Spain (es-ES)
+- Spanish - Mexico (es-MX)
 
 The application supports the following machine learning model languages for contextual insights capabilities:
 
 - English
 
-
 **When will you expand to support my region?**<br>
 The application is supported in the following regions:
 
-- North American (NAM)
 - Canada (CAN)
 - Europe, the Middle East, and Africa (EMEA)
 - Great Britain (GBR)
-- Japan (JPN)
-- Oceania (OCE)
 - India (IND) 
+- Japan (JPN)
+- North American (NAM)
+- Oceania (OCE)
 
 **How long does it take for data updates to reflect in the app?**<br>
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
