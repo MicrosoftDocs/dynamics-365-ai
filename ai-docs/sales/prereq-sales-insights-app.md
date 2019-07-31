@@ -24,13 +24,13 @@ topic-status: Drafting
 
 Verify the following requirements before setting up the Sales Insights application for your organization:
 
--	You must have administrator or similar role.
+-	You must have an administrator or similar role.
 
 -	You must have a Dynamics 365 for Sales organization. 
 
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
 
--	You must get access to Dynamics 365 Sales Insights application. If you do not have access, follow these steps:
+-	You must get access to the Dynamics 365 Sales Insights application. If you do not have access, follow these steps:
     
     1.	To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
     

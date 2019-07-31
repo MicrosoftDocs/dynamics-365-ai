@@ -22,41 +22,37 @@ topic-status: Drafting
 
 # Configure keywords and competitors to track
 
-You should configure keywords and competitor that you would like to track in the calls and are relevant to you and your organization. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.
+You should configure keywords and competitors that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.
 
 > [!NOTE]
 > As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. 
-> The changes you made applies only to your team and doesn't impact the administrator-defined settings for your organization.
+> The changes you made apply only to your team and doesn't impact the administrator-defined settings for your organization.
 
-Using **Conversation content** section, you can add or remove keywords and competitors to track in the calls. Follow these steps:
+Using the **Conversation content** section, you can add or remove keywords and competitors to track in the calls. To do this, follow these steps:
 
-1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md).
 
-2.	Open **Dynamics 365 Sales Insights** application. 
+2.	Open the **Dynamics 365 Sales Insights** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
 
 4.	On the **Settings** page, select **Conversation content**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Conversations section](media/si-app-admin-select-conversation-content.png "Conversations section")
+    ![Conversations section](media/si-app-admin-select-conversation-content.png "Conversations section")
 
-5.	On the **Tracked keywords** section, enter a keyword in the **Add a keyword** and press **Enter**.
+5.	On the **Tracked keywords** section, enter a keyword in the **Add a keyword**, and press **Enter**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")
+    ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")
 
 6.	Repeat **step 5** to add other keywords.
 
-7.	On the **Competitors** section, enter a competitor name in the **Add a competitors** and press **Enter**.
+7.	In the **Competitors** section, enter a competitor's name in the **Add a competitor**, and press **Enter**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")
+    ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")
 
-8.	Repeat step 7 to add other competitor name.
+8.	Repeat step 7 to add other competitors' names.
 
 9.	Select **Save**.
 
@@ -64,4 +60,4 @@ Using **Conversation content** section, you can add or remove keywords and compe
 
 - [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+- [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
