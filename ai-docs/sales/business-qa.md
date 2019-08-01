@@ -50,17 +50,19 @@ On the home page, type a conversational question in the search text box, and pre
 > [!IMPORTANT]
 > If you don't know how to ask a question, type **Help** in the search text box, and press **Enter**. A list of possible questions that the application can answer is displayed. Select a question to view the answer.
 
-![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
-
+> [!div class="mx-imgBorder"]
+> ![Get help on how to ask a question](media/si-app-q-a-help.png "Get help on how to ask a question")
 
 > [!NOTE]
 > You can also open the **Answers** screen by selecting the chat icon.
 
-![Answers page](media/sales-insights-biz-qa-answers-page.png "Answers page")
+> [!div class="mx-imgBorder"]
+> ![Answers page](media/sales-insights-biz-qa-answers-page.png "Answers page")
 
 The three recommended answers displayed in the results set are the most relevant to the question. You can select and open the relevant results. Here we selected **Closing Opportunities**. 
 
-![Viewing a result](media/sales-insights-biz-qa-answers-page-result.png "Viewing a result")
+> [!div class="mx-imgBorder"]
+> ![Viewing a result](media/sales-insights-biz-qa-answers-page-result.png "Viewing a result")
 
 You can refine the report by applying filters. Set the filters, and select **Apply**. You can also review the **Answer confidence**, which defines the accuracy of the results.
 
@@ -73,18 +75,21 @@ At times, the results that the application fetches might not be accurate or rele
 1. Sign in to the **Sales Insights** application.
 2. In the **Q&A** text box, type a question, and press **Enter**.
 3. If you do not find the appropriate suggestions in response to your question, select **Help us improve**. 
-
-    ![Help us improve button](media/sales-insights-biz-qa-help-us-improve.png "Help us improve button")
+    
+    > [!div class="mx-imgBorder"]
+    > ![Help us improve button](media/sales-insights-biz-qa-help-us-improve.png "Help us improve button")
     
     **-OR-**
 
     If the displayed report is not an appropriate answer to your question, on the results page, select **No** for the question **Is this the answer you were looking for?** 
 
-    ![Looking at the right answer option](media/sales-insights-biz-qa-looking-for-right-answer.png "Looking at the right answer option")
+    > [!div class="mx-imgBorder"]
+    > ![Looking at the right answer option](media/sales-insights-biz-qa-looking-for-right-answer.png "Looking at the right answer option")
 
 4. The **Help us improve** sidekick opens. Choose the appropriate response, and select **Send**.
     
-    ![Questionnaire to improve Q&A search results](media/sales-insights-biz-qa-help-us-improve-sidekick.png "Questionnaire to improve Q&A search results")
+    > [!div class="mx-imgBorder"]
+    > ![Questionnaire to improve Q&A search results](media/sales-insights-biz-qa-help-us-improve-sidekick.png "Questionnaire to improve Q&A search results")
 
     A confirmation message displays, and the questionnaire is sent to the application. This should result in more relevant answers the next time you search.
 

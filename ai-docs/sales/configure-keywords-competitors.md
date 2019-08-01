@@ -36,21 +36,25 @@ Using the **Conversation content** section, you can add or remove keywords and c
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
-    ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    > [!div class="mx-imgBorder"]
+    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
 
 4.	On the **Settings** page, select **Conversation content**.
 
-    ![Conversations section](media/si-app-admin-select-conversation-content.png "Conversations section")
+    > [!div class="mx-imgBorder"]
+    > ![Conversations section](media/si-app-admin-select-conversation-content.png "Conversations section")
 
 5.	On the **Tracked keywords** section, enter a keyword in the **Add a keyword**, and press **Enter**.
 
-    ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")
+    > [!div class="mx-imgBorder"]
+    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")
 
 6.	Repeat **step 5** to add other keywords.
 
 7.	In the **Competitors** section, enter a competitor's name in the **Add a competitor**, and press **Enter**.
 
-    ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")
+    > [!div class="mx-imgBorder"]
+    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")
 
 8.	Repeat step 7 to add other competitors' names.
 

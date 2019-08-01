@@ -38,7 +38,8 @@ As a sales manager, these KPIs and insights help you to:
 
 To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights** application, and select **Teams overview**. 
 
-![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")
+> [!div class="mx-imgBorder"]
+> ![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")
 
 |KPI/Insights|Description|
 |------------|-----------|

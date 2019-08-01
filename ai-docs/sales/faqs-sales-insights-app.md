@@ -38,7 +38,7 @@ The application supports the following model languages:
 
 The application supports the following machine learning model languages for contextual insights capabilities:
 
-- English
+- English - United States (en-US)
 
 **When will you expand to support my region?**<br>
 The application is supported in the following regions:

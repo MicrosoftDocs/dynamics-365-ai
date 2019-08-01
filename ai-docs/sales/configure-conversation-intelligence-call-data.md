@@ -45,11 +45,13 @@ Create a call recording repository (blob container) in an Azure storage account 
 
 2. On the navigation pane, select **All resources**, and open the desired storage account.
 
-    ![Azure All resources option](media/azure_allresources.png "Azure all resources option")
+    > [!div class="mx-imgBorder"]
+    > ![Azure All resources option](media/azure_allresources.png "Azure all resources option")
 
 3. From **Blob service**, select **Blobs** then **+ Container**.
 
-    ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")
+    > [!div class="mx-imgBorder"]
+    > ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")
 
 4. Specify the container information, such as name and public access level.
 
@@ -59,7 +61,8 @@ Create a call recording repository (blob container) in an Azure storage account 
 
 6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.
 
-    ![Note connection string](media/azure-connectionstring.png "Note the connection string")
+    > [!div class="mx-imgBorder"]
+    > ![Note connection string](media/azure-connectionstring.png "Note the connection string")
 
 Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence. 
 
@@ -139,21 +142,25 @@ Configuring the call data helps us to fetch the call recording from your reposit
 
 2.	Select the settings icon on the top-right of the page and then select Settings.
 
-    ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    > [!div class="mx-imgBorder"]
+    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
  
 3.	On the **Settings** page, select **Data source**. 
 
-    ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
+    > [!div class="mx-imgBorder"]
+    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
 4.	In the **Call data** section, enter the **Storage connection** string that you configured in Azure.
 
-    ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
+    > [!div class="mx-imgBorder"]
+    > ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
 
     The list of containers that are available is displayed in the **Container name** drop down.
 
 5.	Select **Container name** from the list.
 
-    ![Select container name](media/si-app-admin-call-data-section-container.png "Select container name")
+    > [!div class="mx-imgBorder"]
+    > ![Select container name](media/si-app-admin-call-data-section-container.png "Select container name")
 
 6.	(Optional) Download the metadata file sample that is used to upload to the call recording repository in Azure along with the call recording file.
 

@@ -44,7 +44,8 @@ Typically, the home page is divided into the following sections:
 
 You can filter the information on the home page based on a time period, such as last 24 hours, last seven days, last month, current month, or a custom time period. For example, to view the information of the current month, select **This month**, and the information is filtered to display the current month's status in the **Base KPIs**, **What are customers talking about?**, **What characterizes top sellers?**, and **Are my team’s deals on track?** sections.
 
-  ![Time period filter](media/si-app-time-period.png "Time period filter")
+> [!div class="mx-imgBorder"]
+> ![Time period filter](media/si-app-time-period.png "Time period filter")
 
 > [!NOTE]
 > By default, the information displayed from the day the application is configured for your organization.
@@ -67,7 +68,8 @@ The base KPIs provide information on the status of your current sales period. By
 
 The following image is an example of how the base KPIs are displayed:
 
-  ![Base KPIs](media/si-app-base-kpis.png "Base KPIs")
+> [!div class="mx-imgBorder"]
+> ![Base KPIs](media/si-app-base-kpis.png "Base KPIs")
 
 ## What are customers talking about?
 
@@ -91,7 +93,8 @@ This insight shows the tracked keywords that are defined in the application and 
 
 The following image is an example of how the tracked keyword insight is displayed:
 
-  ![Most tracked keywords](media/si-app-tracked-keywords.png "Most tracked keywords")
+> [!div class="mx-imgBorder"]
+> ![Most tracked keywords](media/si-app-tracked-keywords.png "Most tracked keywords")
 
 In this example, you can see that 3D printing and Fused Filament are the trending keywords, so you will be able to define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords and the number of times that these keywords were mentioned in calls. The dark shaded bubbles represent the top trending keywords.
 
@@ -106,7 +109,8 @@ This insight shows the number of calls where the negative customer sentiments ar
 
 The following image is an example of how the customer sentiment insight is displayed:
 
-  ![Customer sentiment](media/si-app-customer-sentiment.png "Customer sentiment")
+> [!div class="mx-imgBorder"]
+> ![Customer sentiment](media/si-app-customer-sentiment.png "Customer sentiment")
 
 In this example, you can see that 43% of calls have higher than the average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
 
@@ -116,7 +120,8 @@ This insight helps to discover new products and brands that customers are speaki
 
 The following image is an example of how the brands detected insight is displayed:
 
-  ![New brands detected](media/si-app-brands-detected.png "New brands detected")
+> [!div class="mx-imgBorder"]
+> ![New brands detected](media/si-app-brands-detected.png "New brands detected")
 
 In this example, you can see that three brands (Northwind 3D, XYG Printer, and 3D Forge) are trending most in the sales calls. You can update the sales strategies to coach your sales teams to minimize the mention of these brands in the calls. The bubbles show the 20 brands that are used most and the number of times that these brands were mentioned in the calls. The dark shaded bubbles represent the top trending brands.
 
@@ -126,7 +131,8 @@ This insight shows the defined competitors' names that customers use most and ar
 
 The following image is an example of how the competitors mentioned insight is displayed:
 
-  ![Competitors mentioned](media/si-app-competitors-mentioned.png "Competitors mentioned")
+> [!div class="mx-imgBorder"]
+> ![Competitors mentioned](media/si-app-competitors-mentioned.png "Competitors mentioned")
 
 In this example, you can see that 3D House and Contoso 360 are the trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the top 20 competitors and the number of times that these competitors were mentioned in the calls. The dark shaded bubbles represent the top trending competitors.
 
@@ -156,7 +162,8 @@ This insight shows the average time top sellers spend talking verus listening to
 
 The following image is an example of how the talk-to-listen ratio insight is displayed:
 
-  ![Comparison of Talk-to-listen ratio](media/si-app-talk-to-listen-ratio.png "Comparison of Talk-to-listen ratio")
+> [!div class="mx-imgBorder"]
+> ![Comparison of Talk-to-listen ratio](media/si-app-talk-to-listen-ratio.png "Comparison of Talk-to-listen ratio")
 
 In this example, you can observe that the top sellers talk (60%) more than listen (40%) to customers compared to the team’s average of talk (50%) to listen (50%). Through this insight, you can learn that talking more is helping the top seller generate revenue, and you can make it as a best practice for other sellers to follow.
 
@@ -166,7 +173,8 @@ This insight shows the keywords that are used by the top sellers use more freque
 
 The following image is an example of how the what are they talking about insight is displayed:
 
-  ![Keywords top sellers are talking about](media/si-app-what-they-are-talking-about.png "Keywords that top sellers are talking about")
+> [!div class="mx-imgBorder"]
+> ![Keywords top sellers are talking about](media/si-app-what-they-are-talking-about.png "Keywords that top sellers are talking about")
 
 In this example, you can see that **Next steps**, **Discount**, and **VIP** are the top words mentioned by your top sellers. The bubbles show the top 20 keywords that are trending and the number of times that these keywords were mentioned in the calls. The dark shaded bubbles are the most trending keywords.
 
@@ -176,7 +184,8 @@ This insight shows how top sellers are doing when compared to the team in terms 
 
 The following image is an example of how the customer sentiment insight is displayed:
 
-  ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png "Comparison of customer sentiment")
+> [!div class="mx-imgBorder"]
+> ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png "Comparison of customer sentiment")
 
 In this example, you can see that top sellers (42%) are driving more negative customer sentiment compared to that of your team (28%). This indicates that top sellers may be asking more questions to identify the customer's pain points in order to resolve them to key out selling opportunities.
 
@@ -186,7 +195,8 @@ This insight shows the rate of which top sellers are talking and listening in co
 
 The following image is an example of how the switch rate insight is displayed:
 
-  ![Switch rate of talk to listen](media/si-app-switch-rate.png "Switch rate of talk to listen")
+> [!div class="mx-imgBorder"]
+> ![Switch rate of talk to listen](media/si-app-switch-rate.png "Switch rate of talk to listen")
 
 In this example, you can see that top seller (45 per hour) is switching more during the conversation with customers than the team average (37 per hour). Through this, you can identify coaching opportunities for the other sellers to improve on switch rates during customer conversations.
 
@@ -196,7 +206,8 @@ This insight helps you to understand what type of communication mode that top se
 
 The following image is an example of how the engagement with customers insight is displayed:
 
-  ![Top sellers communication mode](media/si-app-engagement-with-customer.png "Top sellers communication mode")
+> [!div class="mx-imgBorder"]
+> ![Top sellers communication mode](media/si-app-engagement-with-customer.png "Top sellers communication mode")
 
 In this example, you can see that top sellers are spending more time on meetings (55 hours) than on phone calls (42 hours) and on emails (27 hours) while engaging with customers. By analyzing this, top sellers are engaging customers through meetings and phone calls, so you can plan to coach around these communication modes for other sellers to improve.
 
@@ -215,7 +226,8 @@ This insight helps you to understand high-revenue opportunities that are at risk
 
 The following image is an example of how the opportunities at risk insight is displayed:
 
-  ![Opportunities that are at risk](media/si-app-opportunities-at-risk.png "Opportunities that are at risk")
+> [!div class="mx-imgBorder"]
+> ![Opportunities that are at risk](media/si-app-opportunities-at-risk.png "Opportunities that are at risk")
 
 In this example, you can see that opportunities (red bubbles) that are high in revenue have a poor health score and are at risk. You can use this information to coach the sellers who are handling these opportunities so that they can secure the sale and improve the health score.
 
@@ -225,7 +237,8 @@ This insight helps you to understand the leads that are losing momentum and at r
 
 The following image is an example of how the leads at risk insight is displayed:
 
-  ![Leads that are at risk](media/si-app-leads-at-risk.png "Leads that are at risk")
+> [!div class="mx-imgBorder"]
+> ![Leads that are at risk](media/si-app-leads-at-risk.png "Leads that are at risk")
  
 In this example, you can see the leads (red bubbles) that are losing momentum with poor health score and are at risk. You can use this information to coach the sellers who are handling these leads so that they can turn them into opportunities.
 
@@ -243,7 +256,8 @@ The call recording KPIs provide an understanding on how calls are trending month
 
 The following image is an example of how the call recording KPIs are displayed.
 
-  ![Call recording KPIs](media/si-app-call-recording-kpis.png "Call recording KPIs")
+> [!div class="mx-imgBorder"]
+> ![Call recording KPIs](media/si-app-call-recording-kpis.png "Call recording KPIs")
  
 ## Privacy notice  
 

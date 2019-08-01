@@ -34,51 +34,61 @@ As an administrator, you must configure the Dynamics 365 for Sales environment t
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
-    ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    > [!div class="mx-imgBorder"]
+    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
 
 4.	On the **Settings** page, select **Data source**. 
 
-    ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
+    > [!div class="mx-imgBorder"]
+    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
 5.	In the **Dynamics 365 environment** section, select **+ Add an environment**.
 
-    ![Select an environment to add](media/si-app-admin-select-add-an-environment.png "Select an environment to add")
+    > [!div class="mx-imgBorder"]
+    > ![Select an environment to add](media/si-app-admin-select-add-an-environment.png "Select an environment to add")
  
 6.	In the **Connect your data** dialog box, select your Dynamics 365 for Sales environment to connect with the application.
 
-    ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
+    > [!div class="mx-imgBorder"]
+    > ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
 
     The application now detects your environment.
 
 7.	In the **Terms and conditions** dialog box, accept the terms and conditions, and select **Agree and continue**.
 
-    ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
+    > [!div class="mx-imgBorder"]
+    > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
  
     The application takes few minutes to connect your data with the application, and a progress dialog box is displayed.
 
-    ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")
+    > [!div class="mx-imgBorder"]
+    > ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")
  
 8.	In the **Create an application user** dialog box, select **Grant permissions** to create an application user.
 
-    ![Grant permissions to create application user](media/si-app-admin-grant-permission-create-app-user.png "Grant permissions to create application user")
+    > [!div class="mx-imgBorder"]
+    > ![Grant permissions to create application user](media/si-app-admin-grant-permission-create-app-user.png "Grant permissions to create application user")
  
     > [!NOTE]
     > If you have already added this environment, the step to grant permissions for the application to access the data will be skipped.
 
 9.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get the **Storage connection string** and **Container name** values, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
-    ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
+    > [!div class="mx-imgBorder"]
+    > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
  
 10.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on calls. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
-    ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
+    > [!div class="mx-imgBorder"]
+    > ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
     
    > [!NOTE]
    > You can skip adding the keywords and competitors and add them later, when required.
 
 11.	Select **Finish** to complete the setup of the **Sales Insights** application for your organization. The status message will be displayed on the top of the page.
 
-    ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
+    > [!div class="mx-imgBorder"]
+    > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
 Now, your Sales Insights application is ready with the data of the added environment.
 

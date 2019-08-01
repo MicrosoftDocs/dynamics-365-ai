@@ -38,15 +38,18 @@ As an administrator, you must enable the **Instant reports and analysis** featur
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
-    ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    > [!div class="mx-imgBorder"]
+    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
  
 4.	On the **Settings** page, select **Preview features**.
 
-    ![Select preview feature](media/si-app-admin-select-preview-feature.png "Select preview feature")
+    > [!div class="mx-imgBorder"]
+    > ![Select preview feature](media/si-app-admin-select-preview-feature.png "Select preview feature")
 
 5.	Select **Instant reports and analysis** and then select **Save**.
 
-    ![Preview feature enabled](media/si-app-admin-preview-feature-enabled.png "Preview feature enabled")
+    > [!div class="mx-imgBorder"]
+    > ![Preview feature enabled](media/si-app-admin-preview-feature-enabled.png "Preview feature enabled")
 
 The Preview feature **Instant reports and analysis** is enabled which uses natural language to process the questions and display answers.
 

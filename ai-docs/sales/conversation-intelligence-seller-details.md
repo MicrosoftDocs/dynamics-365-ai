@@ -46,7 +46,8 @@ As a sales manager, the **Seller details** page helps you analyze the overall be
 
 The following image is an example of how the seller page is displayed for sales managers:
 
-![Conversation intelligence seller details view for managers](media/si-app-seller-details-managers.png "Conversation intelligence seller details view for managers")
+> [!div class="mx-imgBorder"]
+> ![Conversation intelligence seller details view for managers](media/si-app-seller-details-managers.png "Conversation intelligence seller details view for managers")
 
 Let's look at the KPIs and insights in detail:
 
@@ -75,7 +76,8 @@ As a seller, the **Seller details** page helps you analyze your overall behavior
 
 The following image is an example of how the seller page is displayed for sellers:
 
-![Conversation intelligence seller details view for sellers](media/si-app-seller-details-seller.png "Conversation intelligence seller details view for sellers")
+> [!div class="mx-imgBorder"]
+> ![Conversation intelligence seller details view for sellers](media/si-app-seller-details-seller.png "Conversation intelligence seller details view for sellers")
 
 Let's look at the KPIs and insights in detail:
 
