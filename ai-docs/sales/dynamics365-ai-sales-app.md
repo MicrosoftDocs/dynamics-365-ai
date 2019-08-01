@@ -1,4 +1,5 @@
 ---
+redirect_url: dynamics365-sales-insights-app
 title: "Unlock sales potential with Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Unlock sales potential with AI-driven insights readily available for Dynamics 365 for Sales"
 keywords: "call intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"

@@ -33,10 +33,12 @@ search.app:
 <h2>Get started</h2>
 <li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 Sales Insights overview</a></li>
 <li><a href="dynamics-365-ai-for-sales.md" data-raw-source="[Dynamics 365 Sales Insights capabilities for sellers overview](dynamics-365-ai-for-sales.md)">Dynamics 365 Sales Insights capabilities for sellers</a></li>
-<li><a href="dynamics365-ai-sales-app.md" data-raw-source="[Dynamics 365 Sales Insights capabilities for sales managers overview](dynamics365-ai-sales-app.md)">Dynamics 365 Sales Insights capabilities for sales managers</a></li>
+<li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Sales Insights applications](dynamics365-sales-insights-app.md)">Overview of Sales Insights applications</a></li>
 </td><td>
-<h2>Administer the system</h2>
+<h2>Administrator guide</h2>
 <li><a href="configure-enable-dynamics-365-ai-sales.md" data-raw-source="[Enable and configure Dynamics 365 Sales Insights capabilities for sellers](configure-enable-dynamics-365-ai-sales.md)">Enable and configure Dynamics 365 Sales Insights capabilities for sellers</a></li>
+
+<li><a href="intro-admin-guide-sales-insights-app.md" data-raw-source="[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)">Introduction to administer Sales Insights application</a></li>
 </td></tr>
 <tr><td>
 <h2>Increase sales</h2>
@@ -48,14 +50,18 @@ search.app:
 <h2>Analyze customer-interaction data</h2>
 <li><a href="relationship-analytics.md" data-raw-source="[View customer activity history with relationship analytics](relationship-analytics.md)">View customer activity history</a></li>
 <li><a href="notes-analysis.md" data-raw-source="[How notes analysis assists you with suggestion](notes-analysis.md)">How notes analysis assists you with suggestion</a></li>
+
 </td></tr>
+
 <tr>
 <td>
-<h2>Analyze business and team performance</h2>
-<li><a href="d365-ai-overview.md" data-raw-source="[View overall sales insights](d365-ai-overview.md)">View overall sales insights</a></li>
-<li><a href="d365-ai-business-performance.md" data-raw-source="[Analyze business performance](d365-ai-business-performance.md)">Analyze business performance</a></li>
-<li><a href="d365-ai-team-performance.md" data-raw-source="[Analyze team performance)](d365-ai-team-performance.md)">Analyze team performance</a></li>
+<h2>Analyze sales and seller insights</h2>
+<li><a href="dynamics365-sales-insights-app-home-page.md" data-raw-source="[View overall sales insights](dynamics365-sales-insights-app-home-page.md)">View overall sales insights</a></li>
+<li><a href="conversation-intelligence-team-overview.md" data-raw-source="[View team information](conversation-intelligence-team-overview.md)">View team information</a></li>
+<li><a href="conversation-intelligence-seller-details.md" data-raw-source="[View seller information](conversation-intelligence-seller-details.md)">View seller information</a></li>
 </td>
+
+
 
 <td>
 <h2>GDPR</h2>
