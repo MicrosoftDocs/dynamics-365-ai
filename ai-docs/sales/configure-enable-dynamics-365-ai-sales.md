@@ -286,7 +286,7 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
 ## Preview: Configure Predictive forecasting 
 
 > [!IMPORTANT]
-> The Predictive forecasting preview has been temporarily suspended as we are revisiting the user experience. In the meantime, you can try manual forecasting preview. To learn more, see [Project accurate revenue with sales forecasting](/dynamics365/customer-engagement/sales-enterprise/project-accurate-revenue-sales-forecasting).
+> We have temporarily suspended the Predictive forecasting preview while we revisit the user experience. In the meantime, you can try the manual forecasting preview. To learn more, see [Project accurate revenue with sales forecasting](/dynamics365/customer-engagement/sales-enterprise/project-accurate-revenue-sales-forecasting).
 
 
 <!--
