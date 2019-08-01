@@ -2,7 +2,7 @@
 title: "Map | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,14 +19,17 @@ manager: "kvivek"
 ---
 # Map
 
-**Map** is the first stage in the data unifiation process that Customer Insights unlocks for you as a user. If havn't so, you can get some more context around the unique data unification capabilities that Customer Insights offers by visiting the **Unify** section. 
+**Map** is the first stage in the data unification process that Customer Insights unlocks for you as a user. If haven't so, you can get some more context around the unique data unification capabilities that Customer Insights offers by visiting the **Unify** section. 
 
 There are two main goals of the map phase:
 
 - **Entity selection:** Identify the entities that can be combined to lead to a dataset with more complete information about your customers.
-- **Attribute selection:** For each entity, identify the columns you want to combine and reconcile in the next data unification phases, match and merge . In Customer Insights, those columns are called *Attributes*.
+- **Attribute selection:** For each entity, identify the columns you want to combine and reconcile in the next data unification phases, match and merge. In Customer Insights, those columns are called *Attributes*.
 
 Select the **Map** tile on the **Unify** page to start the map phase.
+
+> [!TIP]
+> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs).
 
 ## Select first entities
 
@@ -72,7 +75,7 @@ After you select **Edit**, the **Attributes** panel opens.
 > [!div class="mx-imgBorder"] 
 > ![](media/configure-data-map-contact-attributes.png "Columns for Contact")
 
-Use **Search** or scroll down the **Attributes** list to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all attributes by selecting **Select all**. Once one attribute is selected, the same button cwill turn into a **Clear all** button that can be used to clear all your selections.
+Use **Search** or scroll down the **Attributes** list to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all attributes by selecting **Select all**. Once one attribute is selected, the same button will turn into a **Clear all** button that can be used to clear all your selections.
 ## Add and remove entities
 
 Use **Select** to either add or remove entities.

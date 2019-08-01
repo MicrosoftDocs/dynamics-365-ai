@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 description: "Frequently asked questions about Dynamics 365 Virtual Agent for Customer Service."
-ms.date: 06/21/2019
+ms.date: 07/01/2019
 ms.service:
   - "dynamics-365-ai"
 ms.topic: article
@@ -24,13 +24,13 @@ Preview is currently only supported in the United States, with data stored in US
 
 ### Issues with Microsoft Flow solutions tab
 
-If you are a new customer to Microsoft and you visit flow.microsoft.com shortly after you have created your first bot, you might encounter two issues:
+If you are a new customer and you visit flow.microsoft.com shortly after you create your first bot, you might encounter two issues:
 - Missing **Solutions** tab on the left rail of flow.microsoft.com. The **Solutions** tab should appear within 24 hours. You can try refreshing the page to resolve the issue earlier.
 - Within the **Solutions** tab, when you choose Common Data Service Default Solution, you might get a permission error. You can still create a flow and connect it to the bot designer. However, the flow might not appear at flow.microsoft.com for up to 24 hours.
 
 ### Issues with environment permissions when creating a bot
 
-If you experience any problems with your bot creation due to permission issues with the environment you selected, you can [try creating a new environment](getting-started-new-environment.md) and use that environment to create your bot.
+If you experience any problems with your bot creation due to permission issues with the environment you selected, [try creating a new environment](getting-started-new-environment.md) and use that environment to create your bot.
 
 ### Other issues when creating a bot
 
@@ -40,25 +40,25 @@ See [Creating a bot](getting-started-create-bot.md) if you have any issues while
 
 ## General 
 
-### What are the various browsers supported by Virtual Agent?
+### What browsers are supported by Virtual Agent?
 
 Virtual Agent is supported in the latest versions of Microsoft Edge, Chrome, and Firefox. It is not supported in Internet Explorer.
  
 ### Can Virtual Agent be styled and branded for an organization? What can be customized and how?
 
-Currently we don't have any styling or brand customization for the bot (for example, changing the default image). But this is on the roadmap for a future release.
+Currently we don't have any styling or brand customization for the bot (for example, changing the default image). This capability is on the roadmap for a future release.
 
 ### Can multiple team members collaborate on a single bot instance?
 
-We don’t have multi-author support currently. For now, it is one bot per author. However, we have this feature on the roadmap for future releases. The current mitigation is to create a service account and share it across content authors.
+We don’t have multi-author support currently. For now, it is one bot per author. However, this capability is on the roadmap for a future release. The current workaround is to create a service account and share it across content authors.
 
 ### Can I sign in using my personal Microsoft account?
 
-No, you can currently sign in only by using your work or school Microsoft account.
+No, you can sign in only by using your work or school Microsoft account.
 
-### Virtual Agent Designer does not seem to allow us to store the user utterance that triggered the topic as a variable. Is that by design?
+### Virtual Agent does not seem to allow us to store the user utterance that triggered the topic as a variable. Is that by design?
 
-Yes, Virtual Agent currently doesn't allow storing the user utterance that triggered the topic as a variable. This feature is on the roadmap for a future release.
+Yes, Virtual Agent currently doesn't allow storing the user utterance that triggered the topic as a variable. This capability is on the roadmap for a future release.
 
 ### How do I configure my bot to escalate to a human agent? 
 
@@ -72,12 +72,12 @@ You can file bugs in the in the [community forum](https://go.microsoft.com/fwlin
 
 That's great—we'd love to hear your thoughts. [Submit your ideas and feedback in our Idea forum](https://go.microsoft.com/fwlink/?linkid=2064961).
 
-### I have an existing bot built on Azure Bot Framework and Azure Cognitive Services. How do I leverage Dynamics 365 Virtual Agent for Customer Service?
+### I have an existing bot built on Microsoft Bot Framework and Azure Cognitive Services. How do I leverage Dynamics 365 Virtual Agent for Customer Service?
 
-Dynamics 365 Virtual Agent for Customer Service is built on Azure Bot Framework. Organizations with existing bots can leverage [Bot Framework’s dispatch tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch) ([see example](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=cs)) to integrate the two product offerings. We strive to enable developers with a streamlined bot building experience by seamlessly integrating into [Bot Framework’s Skill platform](https://docs.microsoft.com/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0) in an upcoming release. 
+Dynamics 365 Virtual Agent for Customer Service is built on Microsoft Bot Framework. Organizations with existing bots can follow [step-by-step guidance to setting up Microsoft Bot Framework dispatcher with bot built using Dynamics 365 Virtual Agent for Customer Service](how-to-use-dispatcher.md). We will provide developers with a streamlined bot building experience by seamlessly integrating into [Microsoft Bot Framework’s Skill platform](https://docs.microsoft.com/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0) in an upcoming release.
 
-### Is Dynamics 365 Virtual Agent for Customer Service available in Government Environments currently?
-At this time, Virtual Agent is not available in the Government Community Cloud.
+### Is Dynamics 365 Virtual Agent for Customer Service available in government environments?
+No. At this time, Virtual Agent is not available in the Government Community Cloud.
 
 ### Does Virtual Agent support preview releases of Common Data Service (CDS)?
 
@@ -87,7 +87,7 @@ Virtual Agent uses the Common Data Service (CDS) to store your bot's content. Pr
 
 ### The creation of my bot takes a long time. Is that expected?
 
-Currently, it can take up to 15 minutes to create the first bot within a tenant. While the bot is being created, you can explore the portal. Note that any changes won't get saved until the bot is fully created.
+It may take up to 15 minutes to create the first bot within a tenant. While the bot is being created, you can explore the portal. Note that any changes won't get saved until the bot is fully created.
 
 ### Why do I get an error that I do not have permissions to any environments?
 
@@ -96,7 +96,7 @@ To resolve this issue, follow the steps in [To create a new PowerApps environmen
 
 ### Why do I get "An unexpected server error occurred"?
 
-This might be an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the link to [create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
+This error indicates an issue with your current environment. If refreshing your browser doesn't resolve the issue, follow the link to [create a new PowerApps environment](getting-started-new-environment.md). Use that environment to create your bot.
 
 ### The PowerApps environment I created does not show up in the drop-down menu of Virtual Agent. Why?
 
@@ -104,14 +104,20 @@ Your environment might not show up in the drop-down menu due to the following re
  - The environment doesn't have a database created. To resolve this, go to [admin.powerapps.com](https://admin.powerapps.com), and create a database in your environment.
  - The environment's region is set to something other than "United States." To resolve this, follow the steps in [To create a new PowerApps environment](getting-started-new-environment.md), and create an environment in the United States region.
  - The environment didn't finish setting up. To resolve this, retry in a few minutes
- 
-### Why am I getting emails about the expiration of my environment?
 
-If you have created your own environment and selected **Trial** as the environment type, you'll receive emails when it starts expiring. Trial environments are limited to 30 days. Once your trial environment expires, all the data and bots in the environment will be deleted. To avoid deletion of your data and loss of access to the apps, flows and resources you have been using [convert it to a production environment](https://go.microsoft.com/fwlink/?linkid=2048531)
+### Why am I getting a message or email about an environment that is going to expire?
+
+If you have created your own environment and selected **Trial** as the environment type, you'll receive emails shortly before it expires. Trial environments expire after 30 days. When the environment expires, all the bots in the environment will be deleted and the data associated with it, the flows, and resources you have been using will be lost. In the Virtual Agent Designer, you'll see a message if you have bots created in a trial environment that is going to expire in 14 days or less. The message will show the name of the environment that is going to expire, the days remaining to expiration, and the names of the bots affected. This pertains only to trial environments that you have created yourself or been granted access to.
+
+When using a trial environment and you want to retain the bots longer than 30 days, convert the trial environment to a production environment. [Learn how to convert a trial environment to a production environment](https://go.microsoft.com/fwlink/?linkid=2048531).
+
+To convert to a production environment, the following criteria must be met:
+1. You are eligible to use a suitable PowerApps plan that enables you to create production environments.
+2. You need to have available production quota. There is a fixed number of production environments you can create with your plan.
 
 ## Authoring
 
-### How do I access the conversation designer?
+### How do I access the conversation editor?
 
 You can access the conversation designer (the visual dialogue tree editor) by selecting **Edit** on a topic. You can either hover over a topic name and select the pencil icon or select the **Edit** button from the **Topic details** page.
  

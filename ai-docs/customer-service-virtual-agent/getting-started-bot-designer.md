@@ -1,6 +1,6 @@
 ---
-title: "Work with Virtual Agent"
-description: "Learn how to work with a bot."
+title: "Overview of Virtual Agent pages"
+description: "Learn about the Virtual Agent tools that build your own bot."
 ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
@@ -10,13 +10,13 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Work with Virtual Agent
+# Overview of Virtual Agent pages
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Dynamics 365 Virtual Agent for Customer Service provides a variety of tools to create a powerful custom bot. You can add topics to your bot to help you design a conversation path to resolve customer support issues and then deploy the bot to a web channel. You can also view analytics information to help you improve the bot and the overall customer experience.
+Dynamics 365 Virtual Agent for Customer Service provides a variety of tools to create powerful custom bots. You can add topics to your bots to design conversations to resolve customer support issues, and then deploy the bots to a web channel. You can also view analytics to help you improve the bot and the overall customer experience.
 
-Virtual Agent is composed of several pages designed for different tasks. You can access the pages through the left pane.
+Virtual Agent is composed of several pages designed for different tasks. You can access the pages through the navigation pane.
 
 ![Left pane](media/nav-pane.png)
 
