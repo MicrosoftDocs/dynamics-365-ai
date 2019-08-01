@@ -1,4 +1,5 @@
 ---
+redirect_url: conversation-intelligence-seller-details
 title: "Work with call intelligence feature for Dynamics 365 AI for sales | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
 keywords: "call intelligence, Dynamics 365 AI for sales, AI for sales, Sales AI"

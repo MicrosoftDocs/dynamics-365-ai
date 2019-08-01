@@ -28,7 +28,7 @@ Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-i
 [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized as follows:
 
 - [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers
-- [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers
+- [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] application
 
 ## Dynamics 365 Sales Insights capabilities for sellers
 
@@ -48,21 +48,23 @@ Sales Insights offers the following features:
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Sales Insights capabilities for sellers](dynamics-365-ai-for-sales.md)
 
-## Dynamics 365 Sales Insights capabilities for sales managers
+## Dynamics 365 Sales Insights application
 
-The features in the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers are specifically designed to help sales managers intelligently manage their teams, proactively coach sellers, and quickly answer their most important business questions.
+The features in the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] application are specifically designed to help sales managers and sellers to intelligently manage and quickly answer their most important business questions.
 
 > [!NOTE]
 > You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use Dynamics 365 Sales Insights features.
 
 The following features are available under Dynamics 365 Sales Insights app:  
 
-- Business report
+- View overall sales and seller insights
 - Team report
-- Call intelligence
+- Conversation intelligence
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Sales Insights capabilities for sales managers](dynamics365-ai-sales-app.md)
+To learn more, see [Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
 
 ### See also
 
-[Administrator guide for Sales Insights](../sales/configure-enable-dynamics-365-ai-sales.md)
+- [Administrator guide for Sales Insights](../sales/configure-enable-dynamics-365-ai-sales.md)
+
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
