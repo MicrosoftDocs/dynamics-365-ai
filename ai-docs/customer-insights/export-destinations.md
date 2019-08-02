@@ -70,19 +70,42 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
 - Dynamics 365 Marketing (Segments)
 
 
-1. Within the **Export destionations** page, select **Add Destination**.
+1. Within the **Export destinations** page, select **Add Destination**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/add-export-destination.png "Add Export destination")
 
-2. Choose "Dynamics 365 for Sales" in the **Type** drop-down list.
+2. Choose "Dynamics 365 for Sales" or "Dynamics 365 Marketing" in the **Type** drop-down list.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
 
-3. Define your Dynamics 365 for Sales URL in **Server address*, **Sign in**, select a Dynamics 365 for Sales account, then give your destination a recognizable name in **Display name**.
+3. Specify your Dynamics 365 for Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 for Sales or Dynamics 365 Marketing account.
 
-4. Select **Add**.
+   > [!div class="mx-imgBorder"] 
+   > ![](media/add-destination.png "Add destination page")
+
+4. Indicate the field in Customer entity that maps to the Dynamics 365 Contact ID. Only contacts that can be mapped back to Dynamics 365 will be exported. Customer Insights is not creating new contacts in Dynamics 365.
+
+5. Give your destination a recognizable name in **Display name**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/add-destination-display-name.png "Add destination display name")
+
+6. Select **Next**.
+
+7. Select the segment you wish to export, and then select **Save**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/select-segments-to-export.png "Select segment to export")
+
+## Run an Export
+
+Once a destination is set up, your export should start shortly if all prerequisites for export have been completed. In addition, your export for all destinations will run at the end of every scheduled refresh. For more information, see [Schedule tab](pm-settings.md#schedule-tab).
+
+You can also initiate Export manually.
+
+![Export destinations](media/export-destinations-preview.png)
 
 ## View Export destinations
 
