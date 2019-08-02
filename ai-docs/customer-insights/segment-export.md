@@ -2,7 +2,7 @@
 title: "Export a segment | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -25,18 +25,17 @@ Now that you have created one or more segments using the **Segment builder** scr
 
 At present, you can export any of your segments to both a CSV. file and a Dynamics 365 for Sales location. In the future, we will add additional segment export options.
 
-1. Both options are available within the **Segments** page.
+1. The csv. option is available within  the **Segments** page.
       
    - First, select (...) within a specific segment's tile.
-   - Then, select the **Export** option from the actions menu.
-   - Lastly, choose between a CSV format and a specific Dynamics 365 for Sales destination (only the Dynamics 365 for Sales destinations are highlighted below) 
+   - Then, select the **Download as CSV** from the actions menu.
       
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination3.png "Segmentation destination")
       
    Note that you will not see any Dynamics 365 destinations until you add them using the **Export Screen** as explained in the sub-section below. This screen is accessible via the **Export Segment** tab on the left-side menu (under **Admin**).
       
-2. The CSV option is also available in the specific segment's page by selecting **Export** at the top-right corner of the page.
+2. The Dynamics 365 options are available via the [Export destinations](export-destinations.md) page. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segment-menu-export-top.png "Export segment")
@@ -54,7 +53,7 @@ At present, you can export any of your segments to both a CSV. file and a Dynami
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination.png "Segmentation export destination")
 
-3. Upon the completion of Step 3, your destination should appear in the **Destinations** table. Below you can see an example with three created destinations. Beyond the details completed in Step 2, this table also specifies the creation date and time for your destinations.
+3. Upon the completion of Step 2, your destination should appear in the **Destinations** table. Below you can see an example with three created destinations. Beyond the details completed in Step 2, this table also specifies the creation date and time for your destinations.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/segmentation-export-destination2.png "Segmentation add destination")
