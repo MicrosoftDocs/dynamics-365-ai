@@ -2,7 +2,7 @@
 title: "Export destinations | MicrosoftDocs"
 description: The Export destinations page shows you all locations you’ve set up to export data to and allows you to add new destinations.
 ms.custom: ""
-ms.date: 04/04/2019
+ms.date: 08/02/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -22,7 +22,7 @@ manager: "kvivek"
 The **Export destinations** page shows you all locations you’ve setup to export data to and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Customer Insights instance.
 
 ## Add a new Export destination
-
+<!--
 ### Azure Blob storage
 
 1. Within the **Export destinations** page, select **Add destination**.
@@ -60,8 +60,16 @@ Data exported from the Export process will be stored in the Azure Blob storage c
     - Example: Dynamics365CustomerInsights/Export/Customer/Customer_1.csv
   - Data Source entities: Dynamics365CustomerInsights/Export/%DataSourceName%_%EntityName%/%DataSourceName%_%EntityName%_%PartitionId%.csv
     - Example: Dynamics365CustomerInsights/Export/Retail_Contacts/Retail_Contacts_1.csv
+-->
 	
-### Dynamics 365 for Sales
+### Dynamics 365
+
+You can create a Dynamics 365 destination to export your segments. Customer Insights supports two segment export destination types:
+
+- Dynamics 365 Sales (Marketing List)
+- Dynamics 365 Marketing (Segments)
+
+
 1. Within the **Export destionations** page, select **Add Destination**.
 
    > [!div class="mx-imgBorder"] 
