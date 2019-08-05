@@ -20,17 +20,17 @@
 
 ## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
-## [Supported languages for Customer Service Insights](supported-languages.md)
-
 # Reference
 
 ## [Licensing and case-capacity considerations](licensing-case-capacity.md)
 
 ## [Service limits in Customer Service Insights](service-limits.md)
 
+## [Supported languages for Customer Service Insights](supported-languages.md)
+
 ## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
 
-## Dashboard reference 
+## Dashboard reference
 
 ### [Overview](dashboard-overview.md)
 
