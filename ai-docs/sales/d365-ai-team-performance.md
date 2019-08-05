@@ -1,4 +1,5 @@
 ---
+redirect_url: conversation-intelligence-team-overview
 title: " Analyze team  performance in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Analyze how your team is performing in a sales period in Dynamics 365 Sales Insights"
 keywords: ""

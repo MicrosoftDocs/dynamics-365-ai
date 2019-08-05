@@ -1,4 +1,5 @@
 ---
+redirect_url: dynamics365-sales-insights-app-home-page
 title: "Analyze business performance in Dynamics 365 AI for Sales | MicrosoftDocs"
 description: "Analyze how your business is performing in a sales period with Dynamics 365 AI for Sales"
 keywords: ""
@@ -176,8 +177,6 @@ The following is an example of how the **Leads** tab displays:
 
 
 ## Preview: Predictive forecast
-
-[!INCLUDE[work_predictive_forecast](../sales/work-predictive-forecasting.md)]  
 
 ## Privacy notice  
 

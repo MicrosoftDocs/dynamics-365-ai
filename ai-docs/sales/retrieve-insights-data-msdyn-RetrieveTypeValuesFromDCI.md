@@ -23,7 +23,7 @@ Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve p
 
 > [!NOTE]
 > - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action)
-> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Dynamics 365 Sales Insights capabilities for sales managers](../sales/dynamics365-ai-sales-app.md) features.
+> - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Introduction to Sales Insights application](dynamics365-sales-insights-app.md) features.
 
 ## Action parameters
 

@@ -42,10 +42,20 @@ In this release, we have improved engagement and decision-making with prebuilt a
 
 - **Who knows whom**: With Who knows whom, salespeople can easily identify colleagues within their organization who can introduce them to leads or contacts. These introductions increase sales performance to improve lead-to-opportunity conversion rates and help close more deals. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get introduced to a lead](../sales/who-knows-whom.md)
 
-### For sales managers (Preview)
+### Sales Insights application
 
-- **[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app**: The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app proactively and prescriptively provides useful insights from sales data. This helps sales managers to evaluate and improve the performance of their sales teams on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With measurement and pipeline forecasting using relationship health scores, sales managers can better optimize their sales strategies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Sales Insights app for managers](../sales/dynamics365-ai-sales-app.md)
+Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 for Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
+ 
+This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
-- **Call intelligence**: Call intelligence is part of  [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. Call intelligence enables smarter coaching to boost sales conversion rates by analyzing call statistics on sentiments, keyword mentions, and KPIs. By connecting call center telephony recording systems to the app, call center managers can generate conversation insights to make better sales decisions. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and non-Dynamics organizations can use the Microsoft call intelligence to generate conversation insights to make sales decisions that contribute to the growth of your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze customer calls](../sales/call-intelligence.md)
+- **Home page:** The home page is improved to provide a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the selected time period. 
 
-- **Preview: Predictive forecasting**: Predictive forecasting allows you to deliver more accurate forecasts and focus on the right deals. With this, you can accurately predict their team's revenue at the end of each period by leveraging AI-based models. You'll be able to visualize these predictions against quotas to identify opportunities for coaching and course correction. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predictive forecast](../sales/d365-ai-business-performance.md#preview-predictive-forecast)
+    To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
+
+- **Teams overview:** This page helps the sales managers to analyze the overall behavior of their team during the customer call. This helps in identifying coaching scenarios for team to increase sales wins and productivity gains for the business. 
+
+    To learn more, see [View team information](conversation-intelligence-team-overview.md).
+
+- **Seller details:** This page helps both sales manager and seller to analyze the overall behavior of the individual during the customer calls. Using this analysis, you can identifying coaching scenarios to increase sales wins and productivity gains for the business.
+
+    To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).

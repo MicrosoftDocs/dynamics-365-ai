@@ -1,4 +1,5 @@
 ---
+redirect_url: configure-conversation-intelligence-call-data
 title: "Configure Call intelligence for Dynamics 365 AI for Sales | MicrosoftDocs"
 description: "Configure Call intelligence in Dynamics 365 AI for Sales app"
 keywords: "Call intelligence, Dynamics 365 AI for Sales, AI for Sales, Sales AI"
