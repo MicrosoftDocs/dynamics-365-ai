@@ -26,9 +26,11 @@
 
 ## [Service limits in Customer Service Insights](service-limits.md)
 
+## [Supported languages for Customer Service Insights](supported-languages.md)
+
 ## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
 
-## Dashboard reference 
+## Dashboard reference
 
 ### [Overview](dashboard-overview.md)
 

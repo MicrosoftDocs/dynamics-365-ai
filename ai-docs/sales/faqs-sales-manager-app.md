@@ -1,4 +1,5 @@
 ---
+redirect_url: faqs-sales-insights-app
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights app"
 keywords: "FAQs, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
