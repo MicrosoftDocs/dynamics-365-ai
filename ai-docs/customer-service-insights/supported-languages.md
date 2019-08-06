@@ -2,7 +2,7 @@
 title: "Supported languages in Dynamics 365 Customer Service Insights | Microsoft Docs"
 description: "Find out which languages are supported in the Dynamics 365 Customer Service Insights product."
 keywords: ""
-ms.date: 08/05/2019
+ms.date: 08/06/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -17,49 +17,51 @@ The languages shown in the product is based on the language preferences on your 
 
 ## Languages for Customer Service Insights
 
-- Basque
-- Bulgarian
-- Catalan
-- Chinese (Simplified)
-- Chinese (Traditional)
-- Croatian
-- Czech
-- Danish
-- Dutch
-- English
-- Estonian
-- Finnish
-- French
-- Galician
-- German
-- Greek
-- Hebrew
-- Hindi
-- Hungarian
-- Indonesian
-- Italian
-- Japanese
-- Kazakh
-- Korean
-- Latvian
-- Lithuanian
-- Malay
-- Norwegian (Bokmål)
-- Polish
-- Portuguese (Brazil)
-- Portuguese (Portugal)
-- Romanian
-- Russian
-- Serbian (Cyrillic)
-- Serbian (Latin)
-- Slovak
-- Slovenian
-- Spanish
-- Swedish
-- Thai
-- Turkish
-- Ukrainian
-- Vietnamese
+|   |  |
+| ------------- | ------------- |
+|Basque |euskara |
+|Bulgarian |Български |
+|Catalan |català |
+|Chinese (Simplified) |中文(简体) |
+|Chinese (Traditional) |中文(繁體) |
+|Croatian |hrvatski |
+|Czech |čeština |
+|Danish |dansk |
+|Dutch |Nederlands |
+|English |English |
+|Estonian |eesti |
+|Finnish |suomi |
+|French |français |
+|Galician |galego |
+|German |Deutsch |
+|Greek |Ελληνικά |
+|Hindi |हिंदी |
+|Hungarian |magyar |
+|Indonesian |Bahasa Indonesia |
+|Italian |italiano |
+|Japanese |日本語 |
+|Kazakh |Қазақ |
+|Korean |한국어 |
+|Latvian |latviešu |
+|Lithuanian |lietuvių |
+|Malay |Bahasa Melayu |
+|Norwegian (Bokmål) |norsk (bokmål) |
+|Polish |Polski |
+|Portuguese (Brazil) |Português |
+|Portuguese (Portugal) |português |
+|Romanian |română |
+|Russian |Русский |
+|Serbian (Cyrillic) (coming soon)|српски |
+|Serbian (Latin) (coming soon)|srpski |
+|Slovak |slovenčina |
+|Slovenian |slovenski |
+|Spanish |español |
+|Swedish |svenska |
+|Thai |ไทย |
+|Turkish |Türkçe |
+|Ukrainian |українська |
+|Vietnamese |Tiếng Việt |
+
 
 ## What's translated
 
