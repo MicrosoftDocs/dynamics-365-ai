@@ -2,7 +2,7 @@
 title: "Supported languages in Dynamics 365 Customer Service Insights | Microsoft Docs"
 description: "Find out which languages are supported in the Dynamics 365 Customer Service Insights product."
 keywords: ""
-ms.date: 08/05/2019
+ms.date: 08/06/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -17,7 +17,7 @@ The languages shown in the product is based on the language preferences on your 
 
 ## Languages for Customer Service Insights
 
-| First Header  | Second Header |
+|   |  |
 | ------------- | ------------- |
 |Basque |euskara |
 |Bulgarian |Български |
