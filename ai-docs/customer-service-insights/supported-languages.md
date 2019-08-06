@@ -76,7 +76,7 @@ Because the dashboard is connected to your data, the following items remain in t
 
 ## Grouping cases in their original language
 
-The AI model automatically detects the language used in your support cases and understands text semantics in English, Spanish, German, and French. You will get the best case grouping results with these languages. Please note that this feature is in public preview and not yet generally available. If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights). 
+The AI model automatically detects the language used in your support cases and understands text semantics in English, Spanish, German, and French. You will get the best case grouping results with these languages. Please note that this feature is in public preview and not yet generally available. If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
 
 ## Choose your language settings  
 
