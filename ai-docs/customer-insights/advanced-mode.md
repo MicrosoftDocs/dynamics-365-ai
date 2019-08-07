@@ -87,4 +87,4 @@ The advanced mode screen includes four components.
 
 ## Edit, rename, or delete a segment
 
-Any segment that you create or edit using advanced mode must also be edited in advanced mode. You cannot use the Segment builder screen to edit these segments. Within the corresponding segment tile on the **Segments** screen, select the ellipses (…) button to show the **Edit**, **Rename**, and **Delete** options. 
+Any segment that you create or edit using advanced mode must also be edited in advanced mode. You cannot use the Segment builder screen to edit these segments. Within the corresponding segment tile on the **Segments** screen, select the ellipsis (…) button to show the **Edit**, **Rename**, and **Delete** options. 
