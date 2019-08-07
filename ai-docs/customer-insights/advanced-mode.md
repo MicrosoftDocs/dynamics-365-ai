@@ -83,7 +83,7 @@ The advanced mode screen includes four components.
 
 3. ***Save* button**: Use this button to save and process your segment. If it’s a valid query, it will produce a segment and you should expect to see it in the **Segments** screen. If it’s an invalid query, your segment definition will be saved as a draft. Visit the **Segments** topic for more details on the **Draft mode.**
 
-4. ***Back to segments***: Use this button to go back to the **Segments** screen.
+4. ***Back to Segments***: Use this button to go back to the **Segments** screen.
 
 ## Edit, rename, or delete a segment
 
