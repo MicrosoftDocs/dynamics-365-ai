@@ -78,8 +78,8 @@ The advanced mode screen includes four components.
 
 2. ***View guidelines* link**: Make sure you know the few differences between a free-format SQL code and the code format used in Customer Insights. The image below shows some of these guidelines as well as an example for a valid SQL query. Make sure to visit the Spark 2.3 [documentation](https://spark.apache.org/docs/2.3.0/) for more details.
  
-  > [!div class="mx-imgBorder"]
-  > ![SQL guidelines](media/sql-guidelines.png "SQL guidelines")
+   > [!div class="mx-imgBorder"]
+   > ![SQL guidelines](media/sql-guidelines.png "SQL guidelines")
 
 3. ***Save* button**: Use this button to save and process your segment. If it’s a valid query, it will produce a segment and you should expect to see it in the **Segments** screen. If it’s an invalid query, your segment definition will be saved as a draft. Visit the **Segments** topic for more details on the **Draft mode.**
 
