@@ -28,7 +28,7 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 1. On the **Export destinations** page, select **Add destination**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/add-export-destination.png "Add Export destination")
+   > ![Add Export destination](media/add-export-destination.png "Add Export destination")
 
 2. Select **Azure Blob storage** in the **Type** drop-down list.
 
@@ -37,7 +37,7 @@ The **Export destinations** page shows you all locations you’ve set up to expo
     - To learn how to create a container, see [Create a container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/export-destinations-azure-blob.png "Add Export destination")
+    > ![Add destination](media/export-destinations-azure-blob.png "Add destination")
 
 4. Give your destination a recognizable name in the **Display name** field.
 
@@ -46,7 +46,7 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 6. Select the box next to each of the entities you want to export to this destination.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destinations-azure-blob-entities.png "Add Export destination")
+   > ![Select entities to export](media/export-destinations-azure-blob-entities.png "Select entities to export")
 
 7. Select **Save**.
 
@@ -68,12 +68,12 @@ Data exported from the Export process will be stored in the Azure Blob storage c
 1. On the **Export destinations** page, select **Add destination**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/add-export-destination.png "Add export destination")
+   > ![Add Export destination](media/add-export-destination.png "Add Export destination")
 
 2. Choose **Dynamics 365 for Sales** in the **Type** drop-down list.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
+   > ![Select Dynamics 365 for Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
 
 
 <!--from editor: In the following paragraph, it looks like "Enter" would be a better choice than "Define." Also, is "Sign in" an action? If so, it shouldn't be in bold. -->
@@ -88,7 +88,7 @@ Data exported from the Export process will be stored in the Azure Blob storage c
 When viewing the **Export destinations** page, if you’ve already created destination you will see a table containing several fields for destinations you’ve added, as described here:
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destinations-page.png "Export destinations page")
+   > ![Export destinations page](media/export-destinations-page.png "Export destinations page")
 	
   - Display name: The name you created during the destination creation.
   - Type: The destination type set during the destination creation.  Currently supports:
@@ -101,7 +101,7 @@ When viewing the **Export destinations** page, if you’ve already created desti
 To remove an Export destination, start from the main Export destinations page.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/export-destinations-page.png "Export destinations page")
+> ![Export destinations page](media/export-destinations-page.png "Export destinations page")
 
 
 
@@ -111,14 +111,14 @@ To remove an Export destination, start from the main Export destinations page.
 1. Select the vertical ellipsis for the Export destination you want to remove.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
+   > ![Vertical ellipsis](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis")
 
 2. Select **Remove**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis remove")
+   > ![Vertical ellipsis](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis")
 
 3. Finalize the removal by selecting **Remove** on the confirmation screen.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/export-destinations-page-vertical-ellipsis-remove-confirmation.png "Vertical ellipsis remove confirmation")
+   > ![Remove confirmation](media/export-destinations-page-vertical-ellipsis-remove-confirmation.png "Remove confirmation")
