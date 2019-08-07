@@ -25,7 +25,7 @@ robots: noindex,nofollow
 
 ## Overview
 
-Advanced mode allows you to use raw SQL data to define any segment. Advanced mode is a capability on the **Segment builder** screen that is described [here](pm-segments.md). 
+Advanced mode allows you to use raw SQL data to define any segment. Advanced mode is a capability on the **Segment builder** screen. To learn more, see [Segments](pm-segments.md). 
 
 > [!IMPORTANT] 
 >
