@@ -29,23 +29,23 @@ Advanced mode allows you to use raw SQL data to define any segment. Advanced mod
 
 > [!IMPORTANT] 
 >
-> - Customer Insights uses the SQL dialect of **Spark 2.3 (HDI 3.6)**. There are minor differences from a raw SQL which you should be aware of before you type the SQL query for your segment.
+> - Customer Insights uses the SQL dialect of **Spark 2.3 (HDI 3.6)**. There are minor differences from a raw SQL that you should be aware of before you type the SQL query for your segment.
 > - View the SQL guidelines later in this topic.
 > - View the Spark 2.3 [documentation](https://spark.apache.org/docs/2.3.0/). 
 
 ### When should I use advanced mode? 
 
-Use advanced mode when you want to create a segment that is difficult or impossible to create on the **Segment builder** screen. For example, consider the following scenarios which can't be achieved using the Segment builder:
+Use advanced mode when you want to create a segment that is difficult or impossible to create on the **Segment builder** screen. For example, consider the following scenarios that can't be achieved using the Segment builder:
 
 - Nesting an **AND** operator within an **OR** operator.
 - Using operators that don’t exist in the builder, such as **Time** or **Percentile**.
-- Using group filters (**Unite**, **Intersect** and **Exclude**) in ways that are not supported in the builder.
+- Using group filters (**Unite**, **Intersect**, and **Exclude**) in ways that are not supported in the builder.
  
-For scenarios such as these, you may want to consider using advanced mode. 
+For scenarios such as these, you might want to consider using advanced mode. 
 
 ### What skills should I have to use advanced mode?
 
-To use advanced mode, you need the skill (or access to someone with the skill) to write a SQL query which produces your segment as an output.
+To use advanced mode, you need to be able to (or access someone who can) write a SQL query that produces your segment as an output.
 
 ## Get started with advanced mode
 
@@ -53,38 +53,38 @@ There are two ways to enter advanced mode:
 
 - The **Create segment** panel:
 
-> [!div class="mx-imgBorder"]
-> ![Create segment screen](media/enter-advanced-mode-1.png "Create segment screen")
+  > [!div class="mx-imgBorder"]
+  > ![Create segment screen](media/enter-advanced-mode-1.png "Create segment screen")
 
-> [!NOTE]
-> When you create a segment using advanced mode, all future edits to this segment must be done using the advanced mode.
+  > [!NOTE]
+  > When you create a segment using advanced mode, all future edits to this segment must be done using advanced mode.
 
-- The **Complete segment definition using SQL** button on the **Segment builder** screen:
+- The **Complete segment definition using SQL** button on the **Segment builder** screen.
 
-> [!div class="mx-imgBorder"]
-> ![Create segment screen](media/enter-advanced-mode-2.png "Create segment screen")
+  > [!div class="mx-imgBorder"]
+  > ![Create segment screen](media/enter-advanced-mode-2.png "Create segment screen")
 
-> [!NOTE]
-> When you select the **Complete segment definition using SQL** button,  a notification appears which you have to accept to continue. After you accept, you have to perform all future edits to this segment using the advanced mode screen rather than the segment builder screen.
+  > [!NOTE]
+  > When you select the **Complete segment definition using SQL** button,  a notification appears that you have to accept to continue. After you accept, you have to perform all future edits to this segment using the advanced mode screen rather than the Segment builder screen.
 
-## The Advanced mode screen
+## The advanced mode screen
 
-The Advanced mode screen includes four components:
+The advanced mode screen includes four components.
 
 > [!div class="mx-imgBorder"]
 > ![Advanced screen](media/advanced-screen.png "Advanced screen")
 
-1. ***Editor* window:** This is your working area where you enter your SQL query. Your segment output must include all the fields from the *Customer Insights* entity.  This requirement is already fulfilled through the code that is populated on the first line. Note that if you wish to include additional fields in your segment output you need to write a corresponding statement.
+1. ***Editor* window**: This is your working area where you enter your SQL query. Your segment output must include all the fields from the *Customer Insights* entity.  This requirement is already fulfilled through the code that is populated on the first line. Note that if you wish to include additional fields in your segment output you need to write a corresponding statement.
 
-2. ***View guidelines* link:** Make sure you know the few differences between a free-format SQL code and the code format used in Customer Insights. The image below shows some of these guidelines as well as an example for a valid SQL query. Make sure to visit the Spark 2.3 [documentation](https://spark.apache.org/docs/2.3.0/) for more details.
+2. ***View guidelines* link**: Make sure you know the few differences between a free-format SQL code and the code format used in Customer Insights. The image below shows some of these guidelines as well as an example for a valid SQL query. Make sure to visit the Spark 2.3 [documentation](https://spark.apache.org/docs/2.3.0/) for more details.
  
   > [!div class="mx-imgBorder"]
   > ![SQL guidelines](media/sql-guidelines.png "SQL guidelines")
 
-3. ***Save* button:** Use this button to save and process your segment. If it’s a valid query, it will produce a segment and you should expect to see it in the **Segments** screen. If it’s an invalid query, your segment definition will be saved as a draft. Visit the **Segments** topic for more details on the **Draft mode.**
+3. ***Save* button**: Use this button to save and process your segment. If it’s a valid query, it will produce a segment and you should expect to see it in the **Segments** screen. If it’s an invalid query, your segment definition will be saved as a draft. Visit the **Segments** topic for more details on the **Draft mode.**
 
 4. ***Back to segments***: Use this button to go back to the **Segments** screen.
 
-## Edit, rename or delete a segment
+## Edit, rename, or delete a segment
 
-Any segment that you create or edit using advanced mode must also be edited in advanced mode. You can not use the **Segment builder** screen to edit these segments. Within the corresponding segment tile on the **Segments** screen, click the **…** button to show the **Edit**, **Rename**, and **Delete** options. 
+Any segment that you create or edit using advanced mode must also be edited in advanced mode. You cannot use the Segment builder screen to edit these segments. Within the corresponding segment tile on the **Segments** screen, select the ellipses (…) button to show the **Edit**, **Rename**, and **Delete** options. 
