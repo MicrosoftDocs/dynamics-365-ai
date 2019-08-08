@@ -13,7 +13,7 @@ manager: shellyha
 
 # Supported languages for Customer Service Insights
 
-The languages shown in the product is based on the language preferences on your computer and your browser settings. This article lists supported languages for Dynamics 365 Customer Service Insights and details on how to update the language preferences. In addition, it also explains the language support for case grouping as topics using artificial intelligence.
+The languages shown in the product is based on the language preferences on your computer and your browser settings. This article lists supported languages for Dynamics 365 Customer Service Insights and details on how to update the language preferences. In addition, it explains the language support for case grouping as topics using artificial intelligence.
 
 ## Languages for Customer Service Insights
 
