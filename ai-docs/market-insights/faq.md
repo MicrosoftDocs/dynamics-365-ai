@@ -1,11 +1,10 @@
 ---
-title: "Frequently asked questions for Market Insights | Microsoft Docs"
+title: "Frequently asked questions for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Find answers to frequently asked questions about Market Insights."
-keywords: "FAQ, questions, common issues, quota, search setup, search topics"
-ms.date: 04/02/2019
+keywords: "FAQ, questions, common issues"
+ms.date: 08/08/2019
 ms.service: dynamics-365-ai
 ms.topic: article
-ms.assetid: 30351228-2274-4998-933f-6a3fa6453274
 author: m-hartmann
 ms.author: mhart
 ms.custom: dyn365-ai-marketinsights
@@ -18,11 +17,11 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] FAQ
+# FAQ for Dynamics 365 Market Insights
 
 (This topic is pre-release documentation and is subject to change.)
 
-Are you new to [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
+Are you new to Market Insights or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
 
 ## I did not receive an alert email. What happened?
 
