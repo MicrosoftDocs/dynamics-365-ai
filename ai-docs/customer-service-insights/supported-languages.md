@@ -1,6 +1,6 @@
 ---
 title: "Supported languages in Dynamics 365 Customer Service Insights | Microsoft Docs"
-description: "Find out which languages are supported in the Dynamics 365 Customer Service Insights product."
+description: "Find out which languages are supported in Dynamics 365 Customer Service Insights."
 keywords: ""
 ms.date: 08/08/2019
 ms.service:
