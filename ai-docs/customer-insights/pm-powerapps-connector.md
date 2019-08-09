@@ -2,7 +2,7 @@
 title: "Microsoft connector | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 08/08/2019
+ms.date: 08/09/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,9 +19,11 @@ manager: "kvivek"
 ---
 # Microsoft connector
 
+Use the Microsoft connector to connect your PowerApps to Customer Insights or automate workflows with Microsoft Flow.
+
 ## Using the connector in PowerApps
 
-Follow these steps to connect your PowerApps app to Customer Insights:
+Follow these steps to connect your app to Customer Insights:
 
 1. Go to [https://powerapps.microsoft.com/](https://powerapps.microsoft.com/).
 
