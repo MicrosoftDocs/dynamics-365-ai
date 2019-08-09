@@ -1,5 +1,5 @@
 ---
-title: "PowerApps connector | MicrosoftDocs"
+title: "Microsoft connector | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 08/08/2019
@@ -17,7 +17,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# PowerApps connector
+# Microsoft connector
+
+## Using the connector in PowerApps
 
 Follow these steps to connect your PowerApps app to Customer Insights:
 
