@@ -23,7 +23,7 @@ The Activities capability helps consolidate customer activities from various dat
 
 The Activities capability includes two components:
 - **Activities** page: Access this from the **Activities** tab on the left-side menu. Use it to define the activities that you want to view on the customer’s timeline grid.
-- **Timeline grid:** This grid consolidates all the activities of one customer in chronological order, and it can be viewed either within a Customer Engagement app via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) within the **Customer Card Add-In** section to learn how to work with that control.
+- **Timeline grid**: This grid consolidates all the activities of one customer in chronological order, and it can be viewed either within a Customer Engagement app via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) within the **Customer Card Add-In** section to learn how to work with that control.
 
 This topic covers only the **Activities** page.
 
