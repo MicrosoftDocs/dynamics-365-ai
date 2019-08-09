@@ -14,6 +14,7 @@
 ## [News insights](news-events-insights.md)
 ## [Product features insight](product-insights.md)
 # Additional information
+## [Data sources used in Dynamics 365 Market Insights](about-data.md)
 ## [Accessibility for Market Insights](accessibility.md)
 ## [Data handling for alerts](alerts-data-handling.md)
 ## [Known issues](known-issues.md)
