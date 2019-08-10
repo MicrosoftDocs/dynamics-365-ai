@@ -2,7 +2,7 @@
 title: "Supported languages in Dynamics 365 Customer Service Insights | Microsoft Docs"
 description: "Find out which languages are supported in Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 08/08/2019
+ms.date: 08/10/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -101,6 +101,6 @@ Customer Service Insights uses natural language understanding and other artifici
 > [!NOTE]
 > This feature is currently in public preview.  
 
-The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. If more than 70% od the cases are in a language supported by a single model, that model will be used to discover topics from all of your cases; otherwise, the general model is used.
+The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. If more than 70% of the cases are in a language supported by a single model, that model will be used to discover topics from all of your cases; otherwise, the general model is used.
 
 If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
