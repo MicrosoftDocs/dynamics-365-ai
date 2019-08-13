@@ -1,5 +1,5 @@
 ---
-title: "Enrichment MicrosoftDocs"
+title: "Enrichment | MicrosoftDocs"
 description: 
 ms.custom: ""
 ms.date: 04/01/2019
@@ -21,15 +21,15 @@ manager: "kvivek"
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Dynamics 365 Customer Insights enables you to consolidate customer data from all of your sources through the map, match, and merge phases. At the same time, Customer Insights goes beyond that and puts at your fingertips information about your customers that comes from proprietary data. This section covers the **Enrichment** page, which can be used to unlock data on affinities for hundreds of brands and dozens of interest-categories. These affinities are extracted for profiles that might be similar to your customers'. Some examples of interest-categories are *Home Appliances*, *Shoes* and *Financial Planning*.
+Dynamics 365 Customer Insights enables you to consolidate customer data from all of your sources through the map, match, and merge phases. At the same time, Customer Insights goes beyond that and puts at your fingertips information about your customers that comes from proprietary data. This section covers the **Enrichment** page, which can be used to unlock data on affinities for hundreds of brands and dozens of interest-categories. These affinities are extracted for profiles that might be similar to your customers'. Some examples of interest-categories are *Home Appliances*, *Shoes*, and *Financial Planning*.
 
-The **Enrichment** page can be accessed through the app's left-side menu:
+The **Enrichment** page can be accessed through the app's left-side menu.
 
->[!NOTE]
->Completing both the data ingestion and data unification processes is a prerequisite to enrichment. If you don't complete one or more of those steps, you can expect to get the following notification.
-
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
+> [!NOTE]
+> Completing both the data ingestion and data unification processes is a prerequisite to enrichment. If you don't complete one or more of those steps, you can expect to get the following notification.
+>
+> [!div class="mx-imgBorder"] 
+> ![](media/configure-data-enrich-profile.png "Enrich profiles more info needed")
 
 ## Explore the Enrichment page
 
