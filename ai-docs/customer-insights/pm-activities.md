@@ -32,7 +32,7 @@ This topic covers only the **Activities** page.
 Your data sources include entities with transactional and activity data from multiple data sources. On this page, you will identify these entities and select the activities you want to view on the customer’s timeline grid.
 
 
-## Step One: Entity selection
+## Step 1: Entity selection
 
 Choose the entity that includes your target activity or activities.
 
@@ -54,7 +54,7 @@ Choose the entity that includes your target activity or activities.
    > [!div class="mx-imgBorder"] 
    > ![Activities define entities](media/activities-entities-define.png "Activities define entities")
 
-## Step Two: Activity definition
+## Step 2: Activity definition
 
 This step includes all your activity definitions. Using the following example, we will explore those definitions from left to right.
 
