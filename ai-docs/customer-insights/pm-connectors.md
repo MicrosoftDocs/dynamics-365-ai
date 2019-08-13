@@ -25,7 +25,7 @@ The Customer Insights dashboard enables you to use the unified data that you hav
 
 In order to use the Customer Insights dashboard, make sure that you have created at least one data source within the **Data sources** page and ingested at least one dataset (entity) into it. Also, make sure you have [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then, complete the following steps.
 
-### Step One: Installing Power BI Connector
+### Step 1: Installing Power BI Connector
 
 
 <!--from editor: Please check the following download link to make sure it's correct. I wasn't sure if what I saw was what I should see. ("authentication failed") -->
@@ -34,7 +34,7 @@ In order to use the Customer Insights dashboard, make sure that you have created
 1. Download the custom connector file from [here](https://pbimezfile.blob.core.windows.net/publicpreview/mezfile/Dynamics365CustomerInsights.mez?sp=rl&st=2019-04-03T17:20:30Z&se=2019-08-01T17:20:00Z&sv=2018-03-28&sig=XwuEWCSVk%2F%2BBBbaIZv6mGUmqbSCBPT0rUfHuIVZiLmE%3D&sr=b).
 2. Follow steps described [here](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) to install and enable the custom connector.
 
-### Step Two: Publish the Customer Insights dashboard
+### Step 2: Publish the Customer Insights dashboard
 
 
 <!--from editor: Should it be "Microsoft Power BI Desktop" (no "for") in the following sentence? -->
@@ -70,7 +70,7 @@ In order to use the Customer Insights dashboard, make sure that you have created
    > [!div class="mx-imgBorder"] 
    > ![Power BI Connector Load](media/connector-pbi-step-6.png "Power BI Connector Load")
 
-### Step Three: Create your report
+### Step 3: Create your report
 
 Once all of your selected entities have loaded, you are ready to create your customized report using the Power BI navigation menu. Use the **Filters** fields to produce a report around:
 
