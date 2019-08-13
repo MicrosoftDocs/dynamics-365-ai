@@ -92,13 +92,13 @@ In this step, you add entities to your data source. In Customer Insights, entiti
 
    - If you are ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Get data transform table](media/data-manager-get-data-transform-table.png "Get data transform table")
+     > [!div class="mx-imgBorder"] 
+     > ![Get data transform table](media/data-manager-get-data-transform-table.png "Get data transform table")
 
    - We also recommend that you map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. To do this, go to **Map to Standard**, and then map fields from your source data to Common Data Model fields.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Map to standard entity](media/data-manager-get-data-map-entity.png "Map to standard entity")
+     > [!div class="mx-imgBorder"] 
+     > ![Map to standard entity](media/data-manager-get-data-map-entity.png "Map to standard entity")
 
 4. Select **Create** at the bottom of the Power Query window to save.
 
