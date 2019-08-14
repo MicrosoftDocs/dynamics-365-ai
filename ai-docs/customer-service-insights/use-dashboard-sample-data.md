@@ -106,3 +106,5 @@ AI Insights charts include:
 * [Top CSAT impactors (Topic details dashboard)](dashboard-topic-details.md#customer-satisfaction-drivers-chart)
 
 All dashboards include AI Insights charts.
+
+The AI model automatically detects the language used in your support cases and understands text semantics in English, Spanish, German, and French. You will get the best case grouping results with these languages. Please note that this feature is in public preview and not yet generally available. If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights). For more information about the supported languages in general, see [Supported languages for Customer Service Insights](supported-languages.md).
