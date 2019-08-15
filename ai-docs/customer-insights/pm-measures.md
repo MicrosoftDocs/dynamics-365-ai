@@ -30,14 +30,14 @@ Once you define measures, you can benefit in a variety of ways. For example:
 > [!TIP]
 > Check out the following video: [Getting Started: Creating Customer and Business Measures](https://youtu.be/ztG6cFqtdQM).
 
-## Step One: Choose a measure type
+## Step 1: Choose a measure type
 
 **Customer Insights supports three types of measures:**
 
-- **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customer_Measure.** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
+- **Customer attribute**: This measure is a single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customer_Measure** (can be viewed on the **Entities** page). Examples are *Lifetime Value* and *Total Sales*.
 
- > [!div class="mx-imgBorder"] 
- > ![](media/measures-customer-entity.png "Customer_Measure attribute")
+  > [!div class="mx-imgBorder"] 
+  > ![Customer_Measure attribute](media/measures-customer-entity.png "Customer_Measure attribute")
 
 - **Customer measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity is generated for each measure, with potential multiple records per customer. Examples: Number of visits per channel and Total sales per day.
 - **Business measure**: This measure helps you track your business performance and health. Examples: Average sales per customer and Monthly Active Users (MAU).
@@ -48,22 +48,34 @@ There are two possible outputs for a business measure:
 
 Later we show how to create these outputs.
 
-- **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure (can be viewed on the **Entities** page), with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
-- **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *MAU*. Can be created either as a single-number measure that will show up on the **Home** page (default state), or as an entity once one a dimension is added to it (new entity will show up in the **Entities** page).
 
-To begin defining a measure, from the **Measures** page, select **Add New Measure**:
+
+<!--from editor: The two bullets below are near duplicates of the ones above. Which version do you prefer? -->
+
+
+- **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure (can be viewed on the **Entities** page), with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
+- **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *Monthly Active Users (MAU)*. Can be created either as a single-number measure that will show up on the **Home** page (default state), or as an entity once a dimension is added to it (a new entity will show up in the **Entities** page).
+
+To begin defining a measure, from the **Measures** page, select **Add new measure**.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/search-measures.png "Search measures")
+> ![Add new measure](media/search-measures.png "Add new measure")
 
-## Step Two: Choose the starting entity
+## Step 2: Choose the starting entity
 
 Selecting **New Measure** opens the measure creation pane. 
 
 For the **Business Measure** option, you will see the **New business measure** pane:
 
 > [!div class="mx-imgBorder"] 
-> ![](media/new-business-measure.png "New business measure")
+> ![New business measure](media/new-business-measure.png "New business measure")
+
+
+
+
+
+
+
 
 - **Name** (mandatory): After completing the configuration of your measure, it appears on the **Measures** page under this name.
 - **Display name** (optional): As mentioned earlier, your measure is added as an attribute or saved as a new entity. In both cases, the measure carries over the Display Name to the home page and Customer Card.
@@ -122,8 +134,8 @@ Complete these steps:
 3. Choose a field from the list of fields to the right of the **Expression** area to begin your calculation with.
 4. Type an expression in the **Expression** area while choosing more fields to be included in your calculation.
 
-   >[!NOTE]
-   >Currently, Customer Insights supports arithmetic expressions only. Moreover, at present variable calculation is not supported for entities from different entity-paths (visit the **Relationships** section to learn more on what is considered to be an "entity path").
+   > [!NOTE]
+   > Currently, Customer Insights supports arithmetic expressions only. Moreover, at present variable calculation is not supported for entities from different entity-paths (visit the **Relationships** section to learn more on what is considered to be an "entity path").
 
 5. Select **Done**.
 
@@ -190,12 +202,12 @@ When visiting the **Entities** page and choosing the new measure we have just cr
 
 Let's explore the steps involved in defining a new value.
 
- 1. First, select **New value**.
+1. First, select **New value**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/measure-definition3.png "Measure definition")
 
- 2. Then, make your selections.
+2. Then, make your selections.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/measure-definition4.png "Measure definition")
@@ -206,7 +218,7 @@ Let's explore the steps involved in defining a new value.
    - **As**: Your calculation will result in a new value. Define the name of your new value in the Measures entity/attribute. <br />
    - **Display Name**: Define the display name of your new value in the Measures entity/attribute.
 
- 3. Save your measure.
+3. Save your measure.
 
     > [!div class="mx-imgBorder"] 
     > ![](media/measure-definition-save.png "Measure definition")
@@ -218,7 +230,7 @@ Once you have completed your first measure, you'll see the following page summar
 > [!div class="mx-imgBorder"] 
 > ![](media/new-measure.png "New measure")
 
-As mentioned before, you can also view your created measure in one of the folloiwng ways:
+As mentioned before, you can also view your created measure in one of the following ways:
 - If created a **Customer measure**, you can view your new measure entity on the **Entities** page.  
 - If created a **Customer attribute**, you can view your new attribute on the **Entities** page - look for the *Customer_Measure* entity.
 - If created a **Business measure** with no dimensions, you can view your created measure on **Home** page (under *Insights* section). 
