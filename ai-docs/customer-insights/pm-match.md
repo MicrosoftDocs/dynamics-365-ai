@@ -87,15 +87,15 @@ The **New Rule** pane enables you to specify the conditions for that role. As ca
 
 1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
-  > [!IMPORTANT]
-  > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
+   > [!IMPORTANT]
+   > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
 2. An attribute that will be used for matching from the second match pair entity.
 
 3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2), from removing punctuation, to removing spaces, to many others. Some of the options are shown here:
 
-> [!div class="mx-imgBorder"] 
-> ![](media/match-normalization.png "Normalization")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/match-normalization.png "Normalization")
 
 4. The level of precision that will be used for that condition:
 
@@ -186,8 +186,8 @@ Fourth, you can experiment with different thresholds around your conditions in o
 
 1. Select the ellipsis (...) for the match pair rule that you want to experiment with (see #1 in the following example). Then select **Edit**, shown in #2.
 
-  > [!div class="mx-imgBorder"] 
-  > ![](media/configure-data-match-pair-edit.png "Edit match pair")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-match-pair-edit.png "Edit match pair")
 
 2. Identify the condition that you want to experiment with. Each criterion is represented by one row in the **Match rule** pane.
 
