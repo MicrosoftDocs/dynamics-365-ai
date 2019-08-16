@@ -19,16 +19,16 @@ manager: "kvivek"
 ---
 # Merge
 
-The merge phase is the last phase in the data unification process. Its purpose is reconciling conflicting data. Examples of conflicting data might be a customer name that resides in two of your datasets but shows up a little bit differently in each (“Grant Marshall” versus “Grant,” for example), or a phone number format that differs slightly (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis. 
+The merge phase is the last phase in the data unification process. Its purpose is reconciling conflicting data. Examples of conflicting data might be a customer name that resides in two of your datasets but shows up a little differently in each (“Grant Marshall” versus “Grant,” for example), or a phone number format that differs slightly (617-8030-91X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis. 
 
 Once you've completed the match phase, you can start the merge phase by selecting the **Merge** tile on the **Unify** page.
 
-## Step One: Review system recommendations
+## Step 1: Review system recommendations
 
 After you select the **Merge** tile, you see the **Merge** page.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-profile-attributes-full-name.png "Merge profile attribute full name")
+> ![Merge page](media/configure-data-merge-profile-attributes-full-name.png "Merge page")
 
 On this page, you can choose and exclude attributes:
 
@@ -39,42 +39,57 @@ On this page, you can choose and exclude attributes:
    - The attribute's name appears in the first column.
    - The attribute's entity is specified in the second column.
    - The attribute's data source is specified in the third column.
-   - If you wish to view the attributes that are included in one of your auto-merged attributes, select that merged attribute. The two attributes that compose that merged attribute will show up in two new rows beneath the merged attribute.
-
-     > [!div class="mx-imgBorder"] 
-     > ![](media/configure-data-merge-profile-attributes.png "Merge profile attributes")
-
-   - If you wish to unmerge any of the auto-merged attributes, use the button shown in the following example:
-
-     > [!div class="mx-imgBorder"] 
-     > ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
    
-     In the drop-down menu, select **Separate fields**.
+- If you wish to view the attributes that are included in one of your auto-merged attributes, select that merged attribute. The two attributes that compose that merged attribute will show up in two new rows beneath the merged attribute.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-merge-profile-attributes.png "Merge profile attributes")
+
+- If you wish to unmerge any of the auto-merged attributes, use the button shown in the following example:
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-merge-profile-attributes-add-merged.png "Merge profile attribute")
    
-     > [!div class="mx-imgBorder"] 
-     > ![](media/configure-data-merge-profile-attributes2.png "Merge profile attributes")
+   In the drop-down menu, select **Separate fields**.
+   
+   
+   <!-- I don't see "Separate fields" in the drop-down menu shown in this screenshot. -->
+   
+   > [!div class="mx-imgBorder"] 
+   > ![](media/configure-data-merge-profile-attributes2.png "Merge profile attributes")
 
 - Remove attributes from the customer profile entity. If you think that some attributes should be excluded from the final customer profile entity, select the  **Remove** option from the same drop-down menu.
+
+
+<!-- I don't see a Remove option in the drop-down menu shown in the screenshot. -->
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-dont-merge.png "Merge profile attributes don't merge")
 
    Attributes will move to the **Removed from customer record** section.
+   
+   
+   <!-- I don't see a section with that name in the screenshot. -->
 
    > [!div class="mx-imgBorder"] 
    > ![](media/configure-data-merge-exclude-from-profile.png "Merge excluded from profile")
 
-## Step Two: Manually add a merged attribute
+## Step 2: Manually add a merged attribute
+
+
+
+
+
 
 Add a merged attribute with **Combine fields**, as shown in this example.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/merge-add-merge-attribute.png "Add merged attributes")
+> ![Add merged attributes](media/merge-add-merge-attribute.png "Add merged attributes")
 
 We will perform the manual merge process within the **Combine fields** pane.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-merge-attribute-name2.png "Merge attribute name")
+> ![Merge attribute name](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 
 This pane consists of four parts:
 
