@@ -63,7 +63,7 @@ Let’s look at the following three scenarios on how to use notes analysis in yo
 
 ### Scenario 1: Suggest New Contact
 
-When you enter a description such as "Let me introduce you to *Name*" on a note and save. The notes analysis automatically analyzes the text and when you select the highlighted text, a suggestion to create a contact for the name is displayed.
+When you enter a description such as "Let me introduce you to *Name*" on a note and save. The notes analysis automatically analyzes and highlights the text. When you select the highlighted text, a suggestion to create a contact for the name is displayed.
     
 ### Scenario 2: Suggest Task Creation
 
@@ -73,7 +73,7 @@ When you enter descriptions such as following on a note and save:
    - John to confirm the date with Contoso.
    - John, can you please send the code to them? 
 
-The notes analysis automatically analyzes the text and when you select the highlighted text, a suggestion to create a task for the description is displayed.
+The notes analysis automatically analyzes and highlights the text. When you select the highlighted text, a suggestion to create a task for the description is displayed.
 
 ### Scenario 3: New Meeting
 
@@ -82,7 +82,7 @@ When you enter a descriptions such as following on a note and save:
    - Could we talk over coffee while I am in town? 
    - We had a meeting with Contoso last Friday.
 
-The notes analysis automatically analyzes the text and when you select the highlighted text, a suggestion to create a meeting is displayed.
+The notes analysis automatically analyzes and highlights the text. When you select the highlighted text, a suggestion to create a meeting is displayed.
 
 
 ## Privacy notice  
