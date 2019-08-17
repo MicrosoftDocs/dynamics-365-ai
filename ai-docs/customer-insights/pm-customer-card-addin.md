@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 04/04/2019
+ms.date: 08/05/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""

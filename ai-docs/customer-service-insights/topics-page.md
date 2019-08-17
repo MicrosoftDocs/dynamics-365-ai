@@ -1,7 +1,7 @@
 ---
 title: "Manage and improve artificial intelligence grouping of support cases as topics"
 description: "Learn about how to manage and improve artificial intelligence grouping of support cases as topics."
-ms.date: 06/10/2019
+ms.date: 08/06/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -18,9 +18,12 @@ search.appverid: met150
 
 You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting **Topics** in the navigation pane.
 
-**Note:**  The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
+> [!NOTE]
+> The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
 
 Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. The Topics page shows all topics that contain three or more cases.
+
+The AI model automatically detects the language used in your support cases and understands text semantics in English, Spanish, German, and French. You will get the best case grouping results with these languages. Please note that this feature is in public preview and not yet generally available. If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights). For more information about the supported languages in general, see [Supported languages for Customer Service Insights](supported-languages.md).
 
 ![Topics page](media/topics-page.png)
 
@@ -72,6 +75,8 @@ To rate the placement of a topic's support cases, select the topic in the Topics
 ![Ratings icons](media/ratings-icons.png)
 
 Select the **Thumbs Up** icon to indicate the case has been placed correctly within the topic. Select the **Thumbs Down** icon to indicate the case was not placed correctly.
+
+For every new topic discovered in Customer Service Insights, the **Thumbs up** icon is automatically selected for the very first case title. You can change it if needed. When you change it, or select the rating icons for any other case title in the same topic, the AI model will record all the feedback to improve the topic generation results in future refreshes.
 
 ## Moving cases to another topic
 
@@ -135,4 +140,4 @@ For more information, see [Set the granularity of how Customer Service Insights 
 
 Customer Service Insights automatically refreshes the data displayed on the Topics page daily. However, you can trigger a refresh on demand without waiting for next daily refresh.
 
-For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md). 
+For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).

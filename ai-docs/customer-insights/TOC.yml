@@ -58,7 +58,7 @@
       items: 
       - name: Power BI connector
         href: pm-connectors.md
-      - name: PowerApps connector
+      - name: Microsoft connector
         href: pm-powerapps-connector.md
     - name: APIs
       href: pm-apis.md

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/project-accurate-revenue-sales-forecasting
 title: "Work with Predictive forecasting scoring feature for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Predictive forecasting allows you to predict your sales for the current period by providing visibility into your business"
 keywords: "Sales Insights, Predictive forecasting, seller experience"

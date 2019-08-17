@@ -19,7 +19,7 @@ search.app:
   - D365SE
 ---
 
-# Dynamics 365 Sales Insights capabilities for sales manager privacy notices
+# Dynamics 365 Sales Insights application privacy notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).
 
@@ -57,7 +57,5 @@ It is the enterprise customer’s responsibility to comply with the GDPR.  If yo
 
 ### See also
 
-- [View overall sales insights](../sales/d365-ai-overview.md)
-- [Analyze team performance](../sales/d365-ai-team-performance.md)
-- [Analyze business performance](../sales/d365-ai-business-performance.md)
-- [Analyze customer calls](../sales/call-intelligence.md)
+- [Introduction to Sales Insights application](dynamics365-sales-insights-app.md)
+- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)

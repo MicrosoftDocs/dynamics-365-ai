@@ -1,8 +1,8 @@
 ---
-title: "PowerApps connector | MicrosoftDocs"
+title: "Microsoft connector | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 08/09/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -17,9 +17,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# PowerApps connector
+# Microsoft connector
 
-Follow these steps to connect your PowerApps app to Customer Insights:
+Use the Microsoft connector to connect your PowerApps to Customer Insights or automate workflows with Microsoft Flow.
+
+## Using the connector in PowerApps
+
+Follow these steps to connect your app to Customer Insights:
 
 1. Go to [https://powerapps.microsoft.com/](https://powerapps.microsoft.com/).
 
@@ -101,4 +105,10 @@ Follow these steps to connect your PowerApps app to Customer Insights:
     Example: Filter('Unified Customer Activity', CustomerId = Gallery1.Selected.CustomerId)
 
     > [!div class="mx-imgBorder"] 
-    > ![Add Gallery element](media/connector-powerapps14.png "Add Gallery element")
+
+    > ![](media/connector-powerapps14.png "Add Gallery element")
+
+## Automate workflows with Microsoft Flow
+
+You can automate your business processes involving Dynamics 365 Customer Insights through [Microsoft Flow](https://flow.microsoft.com/). For more information, see the [Dynamics 365 Customer Insights connector reference](https://docs.microsoft.com/connectors/customerinsights/) and [Microsoft Flow documentation](https://docs.microsoft.com/flow/).
+
