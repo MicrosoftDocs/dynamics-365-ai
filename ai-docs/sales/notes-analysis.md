@@ -52,9 +52,9 @@ When you have multiple suggestions associated with a note, [!INCLUDE[pn-dyn-365-
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with activities](/dynamics365/customer-engagement/basics/work-with-activities)
 
 
-## Reference
+## Examples
 
-Let’s look at the following three scenarios on how to use notes analysis in your organization.
+The following three scenarios are the examples of how to use notes analysis in your organization.
 
 - [Scenario 1: Suggest New Contact](#scenario-1-suggest-new-contact)
 - [Scenario 2: Suggest Task Creation](#scenario-2-suggest-task-creation)
@@ -63,27 +63,18 @@ Let’s look at the following three scenarios on how to use notes analysis in yo
 
 ### Scenario 1: Suggest New Contact
 
-When you enter a description such as "Let me introduce you to *Name*" on a note and save. The notes analysis automatically analyzes and highlights the text. When you select the highlighted text, a suggestion to create a contact for the name is displayed.
+   - Let me introduce you to John
     
 ### Scenario 2: Suggest Task Creation
 
-When you enter descriptions such as following on a note and save:
-  
    - I will prepare the contract by Friday.
    - John to confirm the date with Contoso.
-   - John, can you please send the code to them? 
-
-The notes analysis automatically analyzes and highlights the text. When you select the highlighted text, a suggestion to create a task for the description is displayed.
-
+   - John, can you please send the code to them?
+ 
 ### Scenario 3: New Meeting
 
-When you enter a descriptions such as following on a note and save:
-  
-   - Could we talk over coffee while I am in town? 
+   - Could we talk over coffee while I am in town?
    - We had a meeting with Contoso last Friday.
-
-The notes analysis automatically analyzes and highlights the text. When you select the highlighted text, a suggestion to create a meeting is displayed.
-
 
 ## Privacy notice  
 
