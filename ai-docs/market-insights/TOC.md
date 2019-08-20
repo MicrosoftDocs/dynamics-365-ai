@@ -9,12 +9,11 @@
 ## [Manage your settings](settings.md)
 ## [Share insights](share-insights.md)
 # Insights references
-## [Age and gender insight](demographic-insights.md)
-## [Journey insights](journey-insights.md)
 ## [News insights](news-events-insights.md)
-## [Product features insight](product-insights.md)
+## [Rising topics](foo.md)
+## [Awareness insights](foo.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)
 ## [Data handling for alerts](alerts-data-handling.md)
 ## [Known issues](known-issues.md)
-## [Release plans](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-market-insights/planned-features)
+## [Release plans](https://docs.microsoft.com/dynamics365-release-plan/)
