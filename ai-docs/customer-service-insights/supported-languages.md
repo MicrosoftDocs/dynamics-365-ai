@@ -51,8 +51,8 @@ The languages shown in the product is based on the language preferences on your 
 |Portuguese (Portugal) |português |
 |Romanian |română |
 |Russian |Русский |
-|Serbian (Cyrillic) (coming soon)|српски |
-|Serbian (Latin) (coming soon)|srpski |
+|Serbian (Cyrillic) |српски |
+|Serbian (Latin) |srpski |
 |Slovak |slovenčina |
 |Slovenian |slovenski |
 |Spanish |español |
