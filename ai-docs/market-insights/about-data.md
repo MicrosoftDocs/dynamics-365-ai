@@ -1,7 +1,7 @@
 ---
 title: " | Microsoft Docs"
 description: ""
-ms.date: 08/09/2019
+ms.date: 08/21/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -22,7 +22,7 @@ Market Insights looks at billions of data points from browser usage and search d
 
 ## Search data
 
-Market Insights uses data points from billions of searches which web users performed. All data points are **aggregated** and **normalized** so no deduction to actual users is possible.
+Market Insights uses data points from billions of searches which web users performed. All data points are **aggregated**, **anonymized**, **normalized**, and converted into signals and insights so no deduction to actual users is possible.
 
 ## Browse data
 
@@ -32,6 +32,6 @@ Market Insights uses **opt-in** browser data from users of Edge and Internet Exp
 
 Market Insights uses a broad variety of international news sites based on Bing News that users visit frequently. Additionally, it analyzes incoming and outgoing traffic to these news sites.
 
-## Social data
+## Web data
 
-To gain insights from human-created 3rd party data sources, Market Insights uses the DataSift API.
+Market Insights parses data available on the public web, such as forums, blogs, and review pages.
