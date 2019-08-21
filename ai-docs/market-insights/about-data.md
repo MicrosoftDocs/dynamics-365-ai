@@ -22,7 +22,7 @@ Market Insights looks at billions of data points from browser usage and search d
 
 ## Search data
 
-Market Insights uses data points from billions of searches which web users performed. All data points are **aggregated**, **anonymized**, **normalized**, and converted into signals and insights so no deduction to actual users is possible.
+Market Insights uses data points from billions of searches which web users perform across multiple devices. All data points are **aggregated**, **anonymized**, **normalized**, and converted into signals and insights so no deduction to actual users is possible.
 
 ## Browse data
 
