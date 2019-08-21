@@ -11,6 +11,7 @@
 # Insights references
 ## [News insights](news-events-insights.md)
 ## [Rising topics](foo.md)
+## [Product features insight](product-insights.md)
 ## [Awareness insights](foo.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)
