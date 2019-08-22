@@ -10,9 +10,8 @@
 ## [Share insights](share-insights.md)
 # Insights references
 ## [News insights](news-events-insights.md)
-## [Rising topics](foo.md)
-## [Product features insight](product-insights.md)
-## [Awareness insights](foo.md)
+### [Product features insight](product-insights.md)
+## [Awareness insights](awareness-insights.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)
 ## [Data handling for alerts](alerts-data-handling.md)
