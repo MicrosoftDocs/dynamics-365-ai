@@ -96,11 +96,11 @@ For details about changing languages in Windows 10 and Edge, see [Change the dis
 
 ## Language support for case grouping as topics
 
-Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. In order to find similar cases more accurately, 4 language models in addition to the English model are available. They include 3 models optimized for specific languages (French, German, and Spanish) and a general model for all languages. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for.
+Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. It comes with a general language model that can discover topics with your cases written in any language. In addition, it also includes four models optimized for specific languages (English, French, German, and Spanish). Each language model also has the capability to process English cases, in addition to the other language it’s optimized for.
 
 > [!NOTE]
 > This feature is currently in public preview.  
 
-The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. If more than 70% of the cases are in a language supported by a single model, that model will be used to discover topics from all of your cases; otherwise, the general model is used.
+The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. If more than 70% of the cases are in languages supported by a specific language model, that model will be used to discover topics from all of your cases; otherwise, the general model is used. For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases. 
 
 If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
