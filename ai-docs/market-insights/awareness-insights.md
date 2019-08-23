@@ -38,6 +38,6 @@ Staying on top of the market for a product or service is critical to success. Th
 
 **Trending search terms** and **Search trend**s are both based on significant changes in their respective context.
 
-When opening the insight details for any of them, you'll find a chart that visualizes the change in volume. Depending on how much the volume changes over time, the chart is based on a a time frame of one day, 28 days, or 90 days.
+When opening the insight details for any of them, you'll find a chart that visualizes the change in volume. If there's a new trending search term or an significant spike in volume, the chart is displayed on a 1-day scale. If the volume changes gradually over time, the chart is based on a a time frame of 28 or 90 days.
 
 Additionally, you'll find relevant articles related to the element which were most clicked recently.
