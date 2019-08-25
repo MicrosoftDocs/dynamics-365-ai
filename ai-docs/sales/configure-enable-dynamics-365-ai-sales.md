@@ -20,7 +20,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Enable and configure Dynamics 365 Sales Inisghts capabilities for sellers
+# Enable and configure Dynamics 365 Sales Insights capabilities for sellers
 
 <!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
 
