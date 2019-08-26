@@ -1,11 +1,10 @@
 ---
-title: "Pointers for Market Insights | Microsoft Docs"
+title: "Pointers for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
-ms.date: 07/03/2019
+ms.date: 08/26/2019
 ms.service: dynamics-365-ai
 ms.topic: article
-ms.assetid: 08bc1f91-bd7b-4083-99d9-72770f5cd673
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -20,6 +19,9 @@ search.app:
 ---
 
 # [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Help & Training
+
+> [!NOTE]
+> If you used the preview of Market Insights alerts, please read the [community blog post](https://community.dynamics.com/365/aimarketinsights/b/marketinsightsteamblog/posts/introducing-a-new-app-experience-for-dynamics-365-market-insights ) for more details about the new app experience.
 
 <table>
 <tr>
