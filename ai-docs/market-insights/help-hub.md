@@ -49,7 +49,7 @@ search.app:
 
 <h2> General information </h2>
 
-<li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">Overview</a></li>
+<li><a href="market-insights-overview.md" data-raw-source="[Market Insights overview](market-insights-overview.md)">Overview</a></li>
 <li><a href="known-issues.md" data-raw-source="[Known issues](known-issues.md)">Known issues</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
 </td>
