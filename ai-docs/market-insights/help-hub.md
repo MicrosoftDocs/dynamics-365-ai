@@ -29,9 +29,9 @@ search.app:
 
 <h2> App experiences</h2>
 
-<li><a href="alerts-overview.md" data-raw-source="[Market Insights alerts](alerts-overview.md)">Market Insights alerts</a></li>
-<li><a href="alerts-management.md" data-raw-source="[Manage your alerts](alerts-management.md)">Manage your alerts</a></li>
-<li><a href="alerts-data-science.md" data-raw-source="[How relevancy is determined](alerts-data-science.md)">How relevancy is determined</a></li>
+<li><a href="navigation.md" data-raw-source="[Navigate in the app](navigation.md)">Navigate in the app</a></li>
+<li><a href="universe.md" data-raw-source="[Configure the universe and elements](universe.md)">Configure the universe and elements</a></li>
+<li><a href="settings.md" data-raw-source="[Manage your settings](settings.md)">Manage your settings</a></li>
 </td>
 
 <td>
@@ -49,6 +49,7 @@ search.app:
 
 <h2> General information </h2>
 
+<li><a href="overview.md" data-raw-source="[Market Insights overview](overview.md)">
 <li><a href="known-issues.md" data-raw-source="[Known issues](known-issues.md)">Known issues</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
 </td>
