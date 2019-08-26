@@ -27,7 +27,7 @@ search.app:
 <tr>
 <td>
 
-<h2> Alerts </h2>
+<h2> App experiences</h2>
 
 <li><a href="alerts-overview.md" data-raw-source="[Market Insights alerts](alerts-overview.md)">Market Insights alerts</a></li>
 <li><a href="alerts-management.md" data-raw-source="[Manage your alerts](alerts-management.md)">Manage your alerts</a></li>
@@ -36,12 +36,26 @@ search.app:
 
 <td>
 
-<h2> General </h2>
+<h2> Insights </h2>
 
-<li><a href="known-issues.md" data-raw-source="[Known issues](known-issues.md)">Known issues</a></li>
-<li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
-<li><a href="alerts-data-handling.md" data-raw-source="[Data handling for alerts](alerts-data-handling.md)">Data handling for alerts</a></li>
+<li><a href="news-events-insights.md" data-raw-source="[News insights](news-events-insights.md)">News insights</a></li>
+<li><a href="product-insights.md" data-raw-source="[Product features insight](product-insights.md)">Product features insights</a></li>
+<li><a href="awareness-insights.md" data-raw-source="[Awareness insights](awareness-insights.md)">Awareness insights</a></li>
 </td>
 </tr>
 
+<tr>
+<td>
+
+<h2> General information </h2>
+
+<li><a href="known-issues.md" data-raw-source="[Known issues](known-issues.md)">Known issues</a></li>
+<li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
+</td>
+
+<td>
+
+
+</td>
+</tr>
 </table>
