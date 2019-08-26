@@ -1,5 +1,5 @@
 # Dynamics 365 Market Insights
-## [Market Insights overview](alerts-overview.md)
+## [Market Insights overview](overview.md)
 ## [Data sources used in Dynamics 365 Market Insights](about-data.md)
 ## [Frequently asked questions](faq.md)
 # Work with Market Insights
