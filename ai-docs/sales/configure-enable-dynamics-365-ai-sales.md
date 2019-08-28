@@ -154,7 +154,7 @@ Predictive lead scoring helps users to focus on revenue generation efforts by pr
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring change maximum score for grade](media/predictive-lead-scoring-change-max-score.png "Predictive lead scoring change maximum score for grade")<br>
 1. Save and apply the model.<br>
-   The predictive lead scoring is configured and ready to use in your organization. The score refreshes every 24 hours. When you recreate a new model, the application takes 24 hours to apply the new model.
+   The predictive lead scoring is configured and ready to use in your organization. The score refreshes every 24 hours. When you recreate a model, the application takes 24 hours to apply the new model.
 
 > [!NOTE]
 > For more information about Predictive lead scoring and how it can help your users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md).
@@ -193,7 +193,7 @@ Predictive opportunity scoring helps users to focus on revenue generation effort
    > [!div class="mx-imgBorder"]
    > ![Predictive opportunity scoring change maximum score for grade](media/predictive-opportunity-scoring-change-max-score.png "Predictive opportunity scoring change maximum score for grade")<br>
 1. Save and apply the model.<br>
-   The predictive opportunity scoring is configured and ready to use in your organization. The score refreshes every 24 hours. When you recreate a new model, the application takes 24 hours to apply the new model.
+   The predictive opportunity scoring is configured and ready to use in your organization. The score refreshes every 24 hours. When you recreate a model, the application takes 24 hours to apply the new model.
 
 > [!NOTE]
 > For more information about Predictive opportunity scoring and how it can help your users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
