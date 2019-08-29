@@ -1,7 +1,7 @@
 ---
 title: " | Microsoft Docs"
 description: ""
-ms.date: 07/17/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -20,7 +20,9 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
-The universe represents the setup of Market Insights. It consists of one or more elements (Limit: XYZ) and the relationship between these elements.
+The universe represents the setup of Market Insights. It consists of one or more elements and the relationship between these elements. You can create up to 15 elements for your universe.
+
+![List of elements in a business universe with an opened edit pane](media/universe-tablemode.png)
 
 ## How to configure the universe
 

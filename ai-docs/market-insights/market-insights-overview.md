@@ -1,7 +1,7 @@
 ---
 title: "Overview for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Introduction to Market Insights."
-ms.date: 08/20/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -21,6 +21,8 @@ search.app:
 (This topic is pre-release documentation and is subject to change.)
 
 Market Insights aims at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The insights are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments.
+
+![Insights feed showing cards with news and more](media/feed-view.png)
 
 - Find out what your **customers** are *saying, searching, and feeling* about your brand, product, company, or your competitors.
 - Know what your **competitors** are doing and learn about product launches, pricing changes, or hiring updates.

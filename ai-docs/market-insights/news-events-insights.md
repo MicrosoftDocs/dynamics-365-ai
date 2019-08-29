@@ -1,7 +1,7 @@
 ---
 title: " | Microsoft Docs"
 description: ""
-ms.date: 08/23/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -24,7 +24,7 @@ Good business decisions are driven by good information. Business and sales profe
 
 **News** provides a view that shows the three most relevant articles in your feed and gives you access to more information about them.
 
-![Top keywords insight card with additional details](media/top-keywords-insight.png)
+![Insight detail showing relevant news articles for a topic](media/insight-details-news.png)
 
 ### News data and frequency
 

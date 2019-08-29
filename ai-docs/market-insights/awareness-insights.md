@@ -1,7 +1,7 @@
 ---
 title: " | Microsoft Docs"
 description: ""
-ms.date: 08/23/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -26,13 +26,13 @@ Staying on top of the market for a product or service is critical to success. Th
 
 **Trending search terms** identifies topics related to elements in the universe which are also searched for by users who search for a given element.
 
-![Top keywords insight card with additional details](media/top-keywords-insight.png)
+![Insight details showing a newly trending search term and related news](media/insight-details-rising-topics.png)
 
 ## Search trends
 
 **Search trends** analyzes the volume of searches for a given element. If a significant change in search volume is detected, a new insight will show in the feed.
 
-![Top keywords insight card with additional details](media/top-keywords-insight.png)
+![Insight details showing a chart with a gradual rise in search trend and related news](media/insight-details-search-trends.png)
 
 ## Data and frequency
 
