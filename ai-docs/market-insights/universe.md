@@ -1,7 +1,7 @@
 ---
 title: " | Microsoft Docs"
 description: ""
-ms.date: 08/29/2019
+ms.date: 08/30/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -62,18 +62,19 @@ Deleting an element will remove all insights based on that element and it can't 
 
 ### Advanced configuration of elements
 
-#### Product/Company field 
+#### Product/Company field
 
-When entering a product or a company, a list with suggested results appears that lets you choose the most appropriate entry. We strongly recommend to select a verified entry (the list item shows a green check mark) to have the highest accuracy and relevance for your insights. 
+When entering a product or a company, a list with suggested results appears that lets you choose the most appropriate entry. We strongly recommend to select a verified entry (the list item shows a green check mark) to have the highest accuracy and relevance for your insights.
 
-#### Element type 
+#### Element type
 
 This field is automatically filled in if you select a verified entry in the Product/Company field but you can always change the type of an element.  
 
-Currently, 3 types of elements are supported: 
+Currently, 3 types of elements are supported:
+
 - Product
 - Company
-- Other 
+- Other
 
 Changing the type of an element will influence the accuracy and relevance of the insights for that element. 
 
@@ -83,22 +84,18 @@ Example: If you select the verified entry for Microsoft, the element type will b
 
 This field is auto-populated if you select a verified entry in the Product/Company field. You can delete or edit the suggested website URL or add a URL if there is no suggested value.
 
-You can enter only one URL, and it's required if you want to get Journey Insights [TO DO](link).
+You can enter only one URL.
 
- 
 #### Affiliation field
 
-This field lets you specify how you are related to an element. It's required if you wan to get Competitor Insights [TO DO](link).  
+This field lets you specify how your business universe is related to an element. 
 
-Currently, 3 types of affiliation are supported: 
+Currently, 3 types of affiliation are supported:
+
 - Mine
 - Not mine
-- No affiliation 
+- No affiliation
 
 #### Competes with field
 
 This field lets users specify which companies or products compete with their products or companies. You can only define the competition between the same type of elements and you need to create these elements first.
-
-
-
-Delete element 

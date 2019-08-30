@@ -41,6 +41,6 @@ At the end of the list of insights for the current time frame, you can select **
 ## Discover more information in the details view
 
 Each insight offers additional information by adding more context in the details view. Depending on insight type this can be charts, related news, or further information.
-For more information, see [TO DO link to page about insight types for details](page.md).
+For more information, see [Available insights in Market Insights](available-insights.md).
 
 To get back to the feed from a detail view, select the arrow symbol in the header of the detail view.
