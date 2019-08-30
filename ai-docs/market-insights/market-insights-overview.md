@@ -16,7 +16,7 @@ search.app:
   - D365SE
 ---
 
-# Dynamics 365 Market Insights - track topics that matter to you
+# Dynamics 365 Market Insights Preview - track topics that matter to you
 
 (This topic is pre-release documentation and is subject to change.)
 

@@ -11,7 +11,7 @@ author: m-hartmann
 ms.author: mhart
 ---
 
-# Data handling for Dynamics 365 Market Insights alerts
+# Data handling for Dynamics 365 Market Insights Preview
 
 (This topic is pre-release documentation and is subject to change.)
 

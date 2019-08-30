@@ -15,6 +15,5 @@
 ## [Awareness insights](awareness-insights.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)
-## [Data handling for alerts](alerts-data-handling.md)
 ## [Known issues](known-issues.md)
 ## [Release plans](https://docs.microsoft.com/dynamics365-release-plan/)

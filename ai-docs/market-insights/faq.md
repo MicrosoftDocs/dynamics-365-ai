@@ -17,7 +17,7 @@ search.app:
   - D365SE
 ---
 
-# FAQ for Dynamics 365 Market Insights
+# FAQ for Dynamics 365 Market Insights Preview
 
 (This topic is pre-release documentation and is subject to change.)
 

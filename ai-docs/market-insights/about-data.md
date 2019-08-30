@@ -16,7 +16,7 @@ search.app:
   - D365
 ---
 
-# Data sources used in Dynamics 365 Market Insights
+# Data sources used in Dynamics 365 Market Insights Preview
 
 Market Insights looks at billions of data points from browser usage and search data to understand what consumers say, seek, and feel in an online world. Read on below to find out more about the different types of data.
 
