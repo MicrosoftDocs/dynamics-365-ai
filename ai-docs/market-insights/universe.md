@@ -30,7 +30,7 @@ The universe represents the setup of Market Insights. It consists of one or more
 
 1. In the left navigation select **Universe**.
 2. Select **Add an element**.
-3. In the **Create element** pane, enter a search term and select a result from the list. If you choose a verified element (the list item shows a green check mark), it'll auto-populate the remaining fields but you can change them if needed. 
+3. In the **Create element** pane, enter a search term and select a result from the list. If you choose a verified element (the list item shows a green check mark), it'll auto-populate the remaining fields but you can change them if needed.
 4. If you have already created elements, you can choose an element this competes with.
 5. To save your element, select **Create**
 

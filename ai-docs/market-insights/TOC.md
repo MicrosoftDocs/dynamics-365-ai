@@ -9,6 +9,7 @@
 ## [Manage your settings](settings.md)
 ## [Share insights](share-insights.md)
 # Insights references
+## [List of insights](available-insights.md)
 ## [News insights](news-events-insights.md)
 ## [Product features insight](product-insights.md)
 ## [Awareness insights](awareness-insights.md)
