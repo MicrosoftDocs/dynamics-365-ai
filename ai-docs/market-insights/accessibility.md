@@ -49,7 +49,6 @@ All tables in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md
 - Each table row can have several cells. To move within a row, use the left and right arrow keys.
 - To move to the next row, use the up and down arrow keys. Focus will move the same cell type in the next row.
 - If a cell contains a single control, the focus will move to the control. Simply activate the control to interact with it. Example: “Remove” control to remove the item of that row.
-- If a cell contains content and/or several controls, the focus is set to the cell border. To interact with the elements inside this cell select the Enter or F2 key to move focus into the cell. In this mode, you can interact with each element in this cell including activating controls by using the arrow keys to move focus. To leave a cell, select the Escape or F2 key to move the focus back onto the cell border.
 
 ### Heighten color contrast of some text and images
 
