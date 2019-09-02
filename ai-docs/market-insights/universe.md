@@ -62,9 +62,12 @@ Deleting an element will remove all insights based on that element and it can't 
 
 ### Advanced configuration of elements
 
-#### Product/Company field
+#### Search field
 
 When entering a product or a company, a list with suggested results appears that lets you choose the most appropriate entry. We strongly recommend to select a verified entry (the list item shows a green check mark) to have the highest accuracy and relevance for your insights.
+
+> [!NOTE]
+> When selecting a verified entry, you can't change the values for element type and website.
 
 #### Element type
 
