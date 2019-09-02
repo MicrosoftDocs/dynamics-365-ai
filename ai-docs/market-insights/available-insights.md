@@ -22,3 +22,4 @@ The following insight types are currently available in the Market Insights app. 
 
 - [Awareness insights](awareness-insights.md)
 - [News insights](news-events-insights.md)
+- [Product features insight](product-insights.md)
