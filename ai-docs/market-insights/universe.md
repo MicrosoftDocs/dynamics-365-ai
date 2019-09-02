@@ -102,3 +102,5 @@ Currently, 3 types of affiliation are supported:
 #### Competes with field
 
 This field lets users specify which companies or products compete with their products or companies. You can only define the competition between the same type of elements and you need to create these elements first.
+
+Select **Add another competitor** if you want to add additional competing elements.
