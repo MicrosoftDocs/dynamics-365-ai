@@ -39,7 +39,10 @@ You must have administrative privileges to configure **Call intelligence** for y
 
 ## Create call recording repository
 
-Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess.
+Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess. 
+
+> [!NOTE] 
+> While creating the repository, ensure that the repository is created in the same region as your tenant to upload the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.    
  
 1. Sign in to the Azure dashboard.
 
