@@ -19,7 +19,7 @@ ms.tgt_pltfrm:
 # Create custom cards in Relationship assistant 
 
 Action cards provides you up to date information on email, meeting, and much more in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. These cards reminds you of upcoming activities; it evaluates your communications, and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more. These cards are displayed on forms, dashboards, and throughout the application to provide relevant information for the context you are working in at the moment.
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md) 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md) 
 
 The action cards contain the following basic elements:
 
@@ -34,7 +34,7 @@ The action cards contain the following basic elements:
 
 You can generate these custom cards in two ways:
 
-- As a sales manager or administrator, you can generate custom insight cards (known as action cards) by using the **Assistant** which is based on Microsoft Flow. This provides you a graphical user interface to generate custom cards. To learn more, see [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
+- As a sales manager or administrator, you can generate custom insight cards (known as action cards) by using the **Assistant** which is based on Microsoft Flow. This provides you a graphical user interface to generate custom cards. To learn more, see [Preview: Manage insight cards](manage-custom-cards-flow.md)
     >[!NOTE]
     > We recommend you to use the **Assistant** to generate the custom insight cards.  
 
@@ -42,7 +42,7 @@ You can generate these custom cards in two ways:
 
 ### See also
 
-- [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
+- [Preview: Manage insight cards](manage-custom-cards-flow.md)
 - [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 - [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
 - [Relationship assistant](relationship-assistant.md)
