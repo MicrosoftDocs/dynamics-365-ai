@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/29/2019
+title: "News insights in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Drive business decisions with good and actual information using news insights."
+ms.date: 09/04/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann

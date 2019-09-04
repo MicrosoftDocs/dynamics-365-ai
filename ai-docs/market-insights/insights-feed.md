@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/29/2019
+title: "Insights feed and insight details in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Work with the insights feed and discover more information with insight details."
+ms.date: 09/04/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -33,8 +33,7 @@ Select **Insights** in the left navigation or select the product name or icon in
 In the Insights feed, you can scroll through the list to discover insights for your universe. Separate cards represent individual insights. Every card contains action buttons:
 
 - **Show more** opens the [details view](#discover-more-information-in-the-details-view) of that insight.
-- **Share** opens a dialog which allows you to [share this insight](share-insights.md) publicly.
-- **More information (...)** provides a link to the documentation [explaining the data behind your insights](alerts-data-science.md).
+- **More information (...)** provides a link to the documentation [explaining the data behind your insights](about-data.md).
 
 At the end of the list of insights for the current time frame, you can select **Load earlier insights** to see additional insights.
 

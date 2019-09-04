@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/30/2019
+title: "Navigate the Dynamics 365 Market Insights app | Microsoft Docs"
+description: "Explanation of the menu items and navigation experience in Market Insights."
+ms.date: 09/04/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -35,6 +35,6 @@ The following items are available:
 - The profile picture or initials opens the **My account** pane where you can sign out from the app. If you signed up with your LinkedIn or Google account, we can't show your account picture and show your initials instead.
 
 - The menu icon expands or collapses the side navigation.
-    - **Insights** shows the feed with insights for the elements you defined in your universe.
+    - **Insights** shows the [feed with insights](insights-feed.md) for the elements you defined in your universe.
     - **Universe** [configures the elements in your universe](universe.md) to receive insights for.
     - **Settings** lets you [manage your account and the notifications](settings.md).
