@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/30/2019
+title: "Awareness insights in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Insights related to the awareness insights type."
+ms.date: 09/04/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -24,7 +24,7 @@ Staying on top of the market for a product or service is critical to success. Th
 
 ## Trending terms
 
-**Trending terms** identifies specific search terms that are trending based on what users are searching for related to a given element in the universe.
+**Trending terms** identifies specific search terms that are trending based on what people are searching for related to a given element in the universe.
 
 ![Insight details showing a newly trending term and related news](media/insight-details-rising-topics.png)
 
@@ -38,6 +38,6 @@ Staying on top of the market for a product or service is critical to success. Th
 
 **Trending terms** and **Search activity** are both based on significant changes in the volume of online web searches for their respective context.
 
-When opening the insight details for any of them, you'll find a chart that visualizes the change in volume. If there's a new trending search term or an significant spike in volume, the chart is displayed on a 1-week scale. If the volume changes gradually over time, the chart is based on a a time frame of 4 months.
+When opening the insight details for any of them, you'll find a chart that visualizes the change in volume. If there's a new trending search term or an significant spike in volume, the chart is displayed on a 1-week scale. If the volume changes gradually over time, the chart is based on a time frame of 4 months.
 
 Additionally, you'll find relevant articles that provide more context for the change shown in the insight.

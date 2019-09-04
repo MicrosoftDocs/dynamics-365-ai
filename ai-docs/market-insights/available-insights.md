@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/30/2019
+title: "Insight types in Market Insights | Microsoft Docs"
+description: "List of available insight types."
+ms.date: 09/04/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -16,9 +16,9 @@ search.app:
   - D365SE
 ---
 
-# Available insights in Market Insights
+# Available insights in Dynamics 365 Market Insights Preview
 
-The following insight types are currently available in the Market Insights app. Please refer to the dedicated pages for more details. 
+The following insight types are currently available in the Market Insights app. Please refer to the dedicated pages for more details.
 
 - [Awareness insights](awareness-insights.md)
 - [News insights](news-events-insights.md)
