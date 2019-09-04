@@ -2,7 +2,7 @@
 title: "Match | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 09/04/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -218,7 +218,7 @@ If you followed Step Four, at this point you should have a better understanding 
   > [!div class="mx-imgBorder"] 
   > ![](media/configure-data-match-order-edit.png "Edit data match order")
 
-- **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. This can be done by substituting the two rules' attributes. Delete and re-create the two rules.
+- **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. You can reorder the match rules by selecting the **Move Up** and **Move Down** options provided in the match rules grid.
 
 - **Edit your rules**: This includes several important changes that you should try as you optimize the match quality. The following options are accessible via the rule's **Edit** button:
 
