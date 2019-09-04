@@ -220,6 +220,14 @@ If you followed Step Four, at this point you should have a better understanding 
 
 - **Change the order of your rules**: If you defined multiple rules, it might be worth changing their order so you can yield a better match quality. You can reorder the match rules by selecting the **Move Up** and **Move Down** options provided in the match rules grid.
 
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-change-rule-order.png "Change rule order")
+
+- **Duplicating your rules:** If you defined a match rule and would like to create a similar rule with modifications, you can make a copy without having to manually recreate all the conditions defined by selecting the **Duplicate** option.
+
+  > [!div class="mx-imgBorder"] 
+  > ![](media/configure-data-duplicate-rule.png "Duplicate a rule")
+
 - **Edit your rules**: This includes several important changes that you should try as you optimize the match quality. The following options are accessible via the rule's **Edit** button:
 
     - **Changing attributes for a condition**: This can be done by reselecting new attributes within the specific condition row.
