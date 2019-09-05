@@ -33,7 +33,7 @@ There are four parts to connecting and using external data sources:
 1.	[Set up a Common Service Database database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
 2.	[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)
 3.	[Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps)
-4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-in-customer-service-insights)  
+4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-for-ai-insights-in-customer-service-insights)  
 
 ![The four parts to connecting and using external data sources are performed one after the other](media/csi-four-parts.png)
  
@@ -73,6 +73,7 @@ To create a custom entity:
  
 4.	Go back to the **Fields** tab and click **+ Add field** to add each of the fields listed in the following table. 
 
+<!-- Need to use html for complex lists inside table below -->
 
 Field name|Field type|Required|Description
 ---|---|---|	---
@@ -83,7 +84,7 @@ Field name|Field type|Required|Description
 *Is escalated* |	**Two Options** (Boolean)|	**No** |	True if the case has been escalated, otherwise False.
 *Escalated date* |	**Date and Time**|	**No** |	If a case was escalated, the date and time the case was escalated in common UTC time zone format.
 *Priority* |	**Option set** (Picklist)|	**No**|	Priority of the case, numeric values that indicate case urgency or severity. <br/>Item name:<br/><ul><li>High</li><li>Normal</li><li>Low</li></ul><br/>In the **Option set** dropdown, select **+ New option set** to enter the labels. The value of each item can be edited later in the [classic solution explorer](#classic).
-*Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#map-your-data-for-AI-insights-in-customer-service-insights) for further information and examples.
+*Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#map-your-data-for-ai-insights-in-customer-service-insights) for further information and examples.
 *Case origin channel* | **Option set** (Picklist)	| **No**|	The support channel where the case originated, input text values of channels your organization uses. For example: <ul><li>Phone</li><li>Email</li><li>Web</li><li>Facebook</li><li>Twitter</li></ul>
 *SLA status* |	**Option set** (Picklist)	| **No**|	The status of the resolution time for the case according to the terms of the service level agreement (SLA). <br />A value of *4* indicates a noncompliant case. Other values indicate the case complies with the SLA. Customer Service Insights currently only reports on whether the case is compliant or not, for now it is only necessary to set *4* for noncompliant cases for dashboards to work, though having other values in the dataset will not affect the reporting.<br />Item:</br><ul><li>In progress: 1</li><li>Nearing noncompliance: 2</li><li>Succeeded: 3</li><li>Noncompliant: 4</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
 *CSAT* |	**Option set** (Picklist) |	**No**|	The customer's level of satisfaction with the handling and resolution of the case. Customer Service Insights uses the following values to indicate the level of satisfaction:<br />Item:</br><ul><li>Very dissatisfied: 1</li><li>Dissatisfied: 2</li><li>Neutral: 3</li><li>Satisfied: 4</li><li>Very satisfied: 5</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
@@ -164,7 +165,7 @@ As an example, your entity and fields mapping should look like the following scr
     ![Select your fields under Map case records](media/csi-map-case-records.png)
  
 
-Once done, your workspace with external data imported in [Import your data from an external source in PowerApps]( #import-your-data-from-an-external-source-in-PowerApps) should be ready with topics identified by AI.
+Once done, your workspace with external data imported in [Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps) should be ready with topics identified by AI.
 >[!TIP]
 > - **KPI Summary**: use **Case Volume Drivers** and **Emerging Topics** to see areas for your cases, click on each topic to see how each affect the resolution, priority, incoming channel, and so on.
 > - **New Cases:** find out which topics have the most new cases and emerging.
