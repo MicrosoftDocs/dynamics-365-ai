@@ -37,15 +37,16 @@ There are four parts to connecting and using external data sources:
 1.	[Set up a Common Service Database database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
 2.	[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)
 3.	[Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps)
-4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-in-customer-service-insights)
+4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-in-customer-service-insights)  
+
 ![The four parts to connecting and using external data sources are performed one after the other](media/csi-four-parts.png)
  
 
 ### Set up a Common Data Service database in PowerApps
 What you’ll need: 
 >[!div class=”checklist”]
-> * A _PowerApps account_. If you don’t have one, [sign up](https://powerapps.microsoft.com/pricing/) for a free trial account at powerapps.com.
-> * An _environment in PowerApps_ where you are the **admin**. If you already have an environment, skip to the next section “[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)”, otherwise, you can create an environment by following the instructions in the [Create a Common Data Service database](../power-platform/admin/create-database) topic at the PowerApps documentation library.
+> * A PowerApps account. If you don’t have one, [sign up](https://powerapps.microsoft.com/pricing/) for a free trial account at powerapps.com.
+> * An environment in PowerApps where you are the **admin**. If you already have an environment, skip to the next section “[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)”, otherwise, you can create an environment by following the instructions in the [Create a Common Data Service database](/power-platform/admin/create-database) topic at the PowerApps documentation library.
 
 ### Create a custom entity in PowerApps
 Entities are used to model and manage business data. CDS has two types of entities:
@@ -55,7 +56,7 @@ Entities are used to model and manage business data. CDS has two types of entiti
 This section will show you how to create a custom entity that you can use to import data from an external source.
 
 >[!NOTE]
->You will need a database in your PowerApps account, where you have a security role of either a System Administrator or System Customizer to create custom entities. You can read more about how to do this in the [database security topic for Power Platform](power-platform/admin/database-security).
+>You will need a database in your PowerApps account, where you have a security role of either a **System Administrator** or **System Customizer** to create custom entities. You can read more about how to do this in the [database security topic for Power Platform](/power-platform/admin/database-security).
 
 To create a custom entity:
 1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
@@ -63,14 +64,14 @@ To create a custom entity:
  
 2.	Select **+ New entity** in the menu bar to open the **New entity** panel:
     1. Enter *my cases* in the first **Display name** field; the **Plural display name** and **Name** fields will be filled out automatically.
-    2. Enter *Case Number** in the **Display name** field under the **Primary Field** section. The **Name** field will be filled out automatically.
+    2. Enter *Case Number* in the **Display name** field under the **Primary Field** section. The **Name** field will be filled out automatically.
     3. Click **Create** to create the entity. The entity will be automatically selected.
 
-![Filled out new entity creation form](media/csi-new-entity.png)
+    ![Filled out new entity creation form](media/csi-new-entity.png)
  
 3.	Go to the **Keys** tab, and select **+ Add key**:
     1.	Enter **Case number** as the **Display name**, and select the **Case number** check box.
-![Case number key showing Case number as the defined field](csi-case-number.png) 
+    ![Case number key showing Case number as the defined field](media/csi-case-number.png) 
  
 4.	Go back to the **Fields** tab and click **+ Add field** to add each of the fields listed in the following table. 
 
@@ -83,33 +84,38 @@ Field name|Field type|Required|Description
 *Resolved date* |	**Date and Time**|	**No** |	The date and time the case was last modified in common UTC time zone format.
 *Is escalated* |	**Two Options** (Boolean)|	**No** |	True if the case has been escalated, otherwise False.
 *Escalated date* |	**Date and Time**|	**No** |	If a case was escalated, the date and time the case was escalated in common UTC time zone format.
-*Priority* |	**Option set** (Picklist)|	**No**|	Priority of the case, numeric values that indicate case urgency or severity. <br/>Item name:<br/><ul><li>High</li><li><Normal></li><li>Low</li><br/>In the **Option set** dropdown, select **+ New option set** to enter the labels. The value of each item can be edited later in the [classic solution explorer](#classic).
-*Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br /><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#statemap) for further information and examples.
-*Case origin channel* | **Option set** (Picklist)	| **No**|	The support channel where the case originated, input text values of channels your organization uses. For example, *<ul><li>Phone</li><li>Email</li><li>Web</li><li>Facebook</li><li>Twitter</li></ul>*
+*Priority* |	**Option set** (Picklist)|	**No**|	Priority of the case, numeric values that indicate case urgency or severity. <br/>Item name:<br/><ul><li>High</li><li>Normal</li><li>Low</li></ul><br/>In the **Option set** dropdown, select **+ New option set** to enter the labels. The value of each item can be edited later in the [classic solution explorer](#classic).
+*Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#statemap) for further information and examples.
+*Case origin channel* | **Option set** (Picklist)	| **No**|	The support channel where the case originated, input text values of channels your organization uses. For example: *<ul><li>Phone</li><li>Email</li><li>Web</li><li>Facebook</li><li>Twitter</li></ul>*
 *SLA status* |	**Option set** (Picklist)	| **No**|	The status of the resolution time for the case according to the terms of the service level agreement (SLA). <br />A value of *4* indicates a noncompliant case. Other values indicate the case complies with the SLA. Customer Service Insights currently only reports on whether the case is compliant or not, for now it is only necessary to set *4* for noncompliant cases for dashboards to work, though having other values in the dataset will not affect the reporting.<br />Item:</br><ul><li>In progress: 1</li><li>Nearing noncompliance: 2</li><li>Succeeded: 3</li><li>Noncompliant: 4</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
 *CSAT* |	**Option set** (Picklist) |	**No**|	The customer's level of satisfaction with the handling and resolution of the case. Customer Service Insights uses the following values to indicate the level of satisfaction:<br />Item:</br><ul><li>Very dissatisfied: 1</li><li>Dissatisfied: 2</li><li>Neutral: 3</li><li>Satisfied: 4</li><li>Very satisfied: 5</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
-*Agent name* |	**Lookup**	|**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Agent name* is a lookup from the [**System user** entity](powerapps/developer/common-data-service/reference/entities/systemuser). As long as your agent data is in the **System user** entity, each case can be associated with an *agent ID* in your case entity, and Customer Service Insights will use the ID to look up the agent names from the **System user** entity.
+*Agent name* |	**Lookup**	|**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](/powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Agent name* is a lookup from the [**System user** entity](/powerapps/developer/common-data-service/reference/entities/systemuser). As long as your agent data is in the **System user** entity, each case can be associated with an *agent ID* in your case entity, and Customer Service Insights will use the ID to look up the agent names from the **System user** entity.
 *Product* |	**Text**|	**No**|	The ability to add custom mapping support for showing *Product* in Customer Service Insights is in development. For now, this is a Dynamics 365 only field. 
-*Business unit* |	**Lookup**|	**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Business unit* is a lookup from the [**Business unit** entity](powerapps/developer/common-data-service/businessunit-entity), which is associated with your user data. Customer Service Insights will look up the *Business unit* for each agent from the **Business unit** entity.
-*Team* |	**Lookup** or **Text**|	**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Team* is a lookup from the [**Team** entity](powerapps/developer/common-data-service/reference/entities/team), which is associated with your user data. Customer Service Insights will look up the *Team* for each agent from the **Team** entity.
+*Business unit* |	**Lookup**|	**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](/powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Business unit* is a lookup from the [**Business unit** entity](/powerapps/developer/common-data-service/businessunit-entity), which is associated with your user data. Customer Service Insights will look up the *Business unit* for each agent from the **Business unit** entity.
+*Team* |	**Lookup** or **Text**|	**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](/powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Team* is a lookup from the [**Team** entity](/powerapps/developer/common-data-service/reference/entities/team), which is associated with your user data. Customer Service Insights will look up the *Team* for each agent from the **Team** entity.
 
  
 
-5. <a id=”classic” />To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
+<a name="classic” />To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
+
 ![Open the classic explorer from the top nav bar](media/csi-switch-to-classic.png)
-    1.	In the Classic Solution Explorer, select **Common Data Services Default Solution**, which will open a new window. 
+
+In the Classic Solution Explorer, select **Common Data Services Default Solution**, which will open a new window. 
 ![Open the CDS solution](media/csi-cds-classic.png)
-     1. In the Common Data Services Default Solution explorer, select **Option Sets** to see all the option sets you just created above. Double click on an item to edit. 
+
+ In the Common Data Services Default Solution explorer, select **Option Sets** to see all the option sets you just created above. Double click on an item to edit. 
 ![Open individual option sets](media/csi-option-sets.png)
-    1. In the **Option sets** window, change the **Value** field to the expected numeric value stated in the table above. Ignore any warnings that appear. 
+   
+ In the **Option sets** window, change the **Value** field to the expected numeric value stated in the table above. Ignore any warnings that appear. 
 ![Change the label and value for an option set](media/csi-modify-option-sets.png)
-    1. Repeat this for the option sets for each of the fields **CSAT** and **SLA Status**.
+
+Repeat this for the option sets for each of the fields **CSAT** and **SLA Status**.
 
 ### Import your data from an external source in PowerApps
 Now that you have created the associated entities with CDS, you will need to specific the data that should be used to populate the entities.
 
 1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
-![New entities label in the PowerApps authoring canvas](/media/csi-entities.png)
+![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
 1.	In the **Power Query** window, select the type of data source that you want to import data from, and enter the appropriate connection URL and settings You should be able to obtain this from the external product’s configuration. 
     > [!NOTE]
     > You may need to disable any adblockers to let a new window to show up.  
@@ -117,14 +123,17 @@ Now that you have created the associated entities with CDS, you will need to spe
 1.	Once the data is loaded, you can use the built-in Power Query functionalities to transform the data further to match the expected values from the fields previously created. 
 
     For example, if your data has status listed in a text format, it’s possible to add a conditional column to transform the data into numeric values. In the following example you’d do this by adding a conditional column under the **Add column** button on the top navigation bar. Then, for each status, you’d map the string value to the number value, such as *Active* as *0*.
-![Add a new conditional column](media/csi-add-col.png)
-![Map the status for each string to the correct numerical value](media/csi-statecode.png)
+
+    ![Add a new conditional column](media/csi-add-col.png)
+
+    ![Map the status for each string to the correct numerical value](media/csi-statecode.png)
 1.	In the **Map entities** window, choose the entity previously created, and use your data fields as the source to map to the entity’s destination fields.
-![Map the status for each string to the correct numerical value](media/csi-map.png)
 
-1. <a id=”statemap” />Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform Admin center and go to Data Integration] (https://admin.powerplatform.microsoft.com/ext/DataIntegration).
+    ![Map the status for each string to the correct numerical value](media/csi-map.png)
 
-1. Find the project you just created, usually named as: **Project #**, and select it to access details for the project.
+1. <a id=”statemap”></a>Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform Admin center and go to Data Integration](https://admin.powerplatform.microsoft.com/ext/DataIntegration).
+
+1. Find the project you just created, usually named as **Project #**, and select it to access details for the project.
 1.	Find the item for **Temp status**, click on the **destination field** to open a window for changing the destination field to **Statecode**.
 ![Select the destination field](media/csi-destination.png)
 ![Set the field as Statecode](media/csi-statecodefield.png)
@@ -132,28 +141,30 @@ Now that you have created the associated entities with CDS, you will need to spe
 1.	Use the **Execution history** to confirm there are no errors for the last run, and now the data is ready in CDS to be used in Customer Service Insights.
 
 > [!TIP]
-> -Each project can be edited to either transform the data or remap old/new fields, go to the Data Integration section in PowerApps to find your project to edit.
+> - Each project can be edited to either transform the data or remap old/new fields, go to the Data Integration section in PowerApps to find your project to edit.
 > - Each job can be scheduled to run on a regular basis, this can also be configured for each Data Integration project.
 > - The Admin center of PowerApps shows the detailed progress and status of each project execution run. You can use this to explore for more information or to conduct investigation into the project’s history..
 
-#### Map your data for AI insights in Customer Service Insights
+### Map your data for AI insights in Customer Service Insights
 Now you can map your data in Customer Service Insights. 
 
-Go to [Customer Service Insights](https://csi.ai.dynamics.com/) to create a workspace connected to your CDS data, as described in the [Map data topic](dynamics365/ai/customer-service-insights/map-data) 
+Go to [Customer Service Insights](https://csi.ai.dynamics.com/) to create a workspace connected to your CDS data, as described in the [Map data topic](/dynamics365/ai/customer-service-insights/map-data) 
 
 As an example, your entity and fields mapping should look like the following screenshots.
 
 1.	Under the **Find case records** section, select your entity
-![Select your entity under Find case records](media/csi-find-case-records.png)
+
+    ![Select your entity under Find case records](media/csi-find-case-records.png)
 
  
 2.	Under the **Map case records** section, choose your fields
-![Select your fields under Map case records](media/csi-map-case-records.png)
+
+    ![Select your fields under Map case records](media/csi-map-case-records.png)
  
 
 Once done, your workspace with external data imported in [Import your data from an external source in PowerApps]( #import-your-data-from-an-external-source-in-PowerApps) should be ready with topics identified by AI.
 >[!TIP]
-> -**KPI Summary**: use **Case Volume Drivers** and **Emerging Topics** to see areas for your cases, click on each topic to see how each affect the resolution, priority, incoming channel, and so on.
+> - **KPI Summary**: use **Case Volume Drivers** and **Emerging Topics** to see areas for your cases, click on each topic to see how each affect the resolution, priority, incoming channel, and so on.
 > -**New Cases:** find out which topics have the most new cases and emerging.
 > - **Customer Satisfaction**: find out the topics that impact CSAT the most.
 > - **Resolutions**: see which topics impact your resolution time both positively and negatively.
