@@ -23,7 +23,7 @@ robots: noindex,nofollow
 Connecting to your data sources is the first step toward consolidating and reconciling customer data that was once disparate and conflicting. Data Manager includes two modules, **Data sources** and **Configure data**, shown here.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/data-manager-get-data-tile.png "Get data tile")
+   > ![Get data tile](media/data-manager-get-data-tile.png "Get data tile")
 
 The [Data sources](pm-data-sources.md) and [Common connectors guidance](pm-common-connectors.md) topics describe how to complete the mandatory data ingestion process by using the **Data sources** page. You learn how to connect to data from:
 
