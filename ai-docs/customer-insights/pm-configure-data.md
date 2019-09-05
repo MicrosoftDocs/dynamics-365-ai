@@ -19,7 +19,7 @@ manager: "kvivek"
 ---
 # Unify
 
-After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. In CI, data unification includes three pages: **Map**, **Match**, and **Merge**.
+After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. In Customer Insights, data unification includes three pages: **Map**, **Match**, and **Merge**.
  
 The goal behind the data unification process is to unify data sources that were once disparate into a master customer dataset that provides a more complete view of your customers. You should complete the three mandatory data unification stages—start with *map*, continue with *match*, and finish with *merge*.
 
@@ -30,3 +30,4 @@ After completing the three data-unification phases, you might want to use the op
 
 > [!TIP]
 > Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs). 
+
