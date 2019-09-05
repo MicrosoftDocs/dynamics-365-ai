@@ -60,7 +60,8 @@ This section will show you how to create a custom entity that you can use to imp
 
 To create a custom entity:
 1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
-![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
+
+    ![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
  
 2.	Select **+ New entity** in the menu bar to open the **New entity** panel:
     1. Enter *my cases* in the first **Display name** field; the **Plural display name** and **Name** fields will be filled out automatically.
@@ -71,6 +72,7 @@ To create a custom entity:
  
 3.	Go to the **Keys** tab, and select **+ Add key**:
     1.	Enter **Case number** as the **Display name**, and select the **Case number** check box.
+    
     ![Case number key showing Case number as the defined field](media/csi-case-number.png) 
  
 4.	Go back to the **Fields** tab and click **+ Add field** to add each of the fields listed in the following table. 
@@ -85,7 +87,7 @@ Field name|Field type|Required|Description
 *Is escalated* |	**Two Options** (Boolean)|	**No** |	True if the case has been escalated, otherwise False.
 *Escalated date* |	**Date and Time**|	**No** |	If a case was escalated, the date and time the case was escalated in common UTC time zone format.
 *Priority* |	**Option set** (Picklist)|	**No**|	Priority of the case, numeric values that indicate case urgency or severity. <br/>Item name:<br/><ul><li>High</li><li>Normal</li><li>Low</li></ul><br/>In the **Option set** dropdown, select **+ New option set** to enter the labels. The value of each item can be edited later in the [classic solution explorer](#classic).
-*Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#statemap) for further information and examples.
+*Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#map-your-data-for-AI-insights-in-customer-service-insights) for further information and examples.
 *Case origin channel* | **Option set** (Picklist)	| **No**|	The support channel where the case originated, input text values of channels your organization uses. For example: *<ul><li>Phone</li><li>Email</li><li>Web</li><li>Facebook</li><li>Twitter</li></ul>*
 *SLA status* |	**Option set** (Picklist)	| **No**|	The status of the resolution time for the case according to the terms of the service level agreement (SLA). <br />A value of *4* indicates a noncompliant case. Other values indicate the case complies with the SLA. Customer Service Insights currently only reports on whether the case is compliant or not, for now it is only necessary to set *4* for noncompliant cases for dashboards to work, though having other values in the dataset will not affect the reporting.<br />Item:</br><ul><li>In progress: 1</li><li>Nearing noncompliance: 2</li><li>Succeeded: 3</li><li>Noncompliant: 4</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
 *CSAT* |	**Option set** (Picklist) |	**No**|	The customer's level of satisfaction with the handling and resolution of the case. Customer Service Insights uses the following values to indicate the level of satisfaction:<br />Item:</br><ul><li>Very dissatisfied: 1</li><li>Dissatisfied: 2</li><li>Neutral: 3</li><li>Satisfied: 4</li><li>Very satisfied: 5</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
@@ -95,8 +97,7 @@ Field name|Field type|Required|Description
 *Team* |	**Lookup** or **Text**|	**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](/powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Team* is a lookup from the [**Team** entity](/powerapps/developer/common-data-service/reference/entities/team), which is associated with your user data. Customer Service Insights will look up the *Team* for each agent from the **Team** entity.
 
  
-
-<a id="classic”></a>To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
+<a id="classic"></a>To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
 
 ![Open the classic explorer from the top nav bar](media/csi-switch-to-classic.png)
 
@@ -119,7 +120,7 @@ Now that you have created the associated entities with CDS, you will need to spe
 
 1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
 
-![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
+    ![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
 
 1.	In the **Power Query** window, select the type of data source that you want to import data from, and enter the appropriate connection URL and settings You should be able to obtain this from the external product’s configuration. 
     > [!NOTE]
@@ -136,7 +137,7 @@ Now that you have created the associated entities with CDS, you will need to spe
 
     ![Map the status for each string to the correct numerical value](media/csi-map.png)
 
-1. <a id=”statemap”></a>Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform Admin center and go to Data Integration](https://admin.powerplatform.microsoft.com/ext/DataIntegration).
+1. Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform Admin center and go to Data Integration](https://admin.powerplatform.microsoft.com/ext/DataIntegration).
 
 1. Find the project you just created, usually named as **Project #**, and select it to access details for the project.
 1.	Find the item for **Temp status**, click on the **destination field** to open a window for changing the destination field to **Statecode**.
