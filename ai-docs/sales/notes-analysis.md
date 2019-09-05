@@ -37,20 +37,44 @@ When you have multiple suggestions associated with a note, [!INCLUDE[pn-dyn-365-
     In this example, the note specifies to call Debra to discuss the pricing of deal and schedule a meeting to discuss meeting.<br>
     > [!div class="mx-imgBorder"]
     > ![Schedule a meeting](media/notesanalysis-schedulemeeting.png "Schedule a meeting")<br>
-    Suggestions to create an appointment and a phone call  are displayed.<br>
+    Suggestions to create an appointment and a phone call are displayed.<br>
     > [!div class="mx-imgBorder"]
     > ![Multiple suggestions](media/notesanalysis-multiplesuggestions.png "Multiple suggestions")<br>
     Use the arrow icon to switch between the suggestions.
 2.	On the **New Appointment suggestion** card, select **Edit and Create**.<br>
     The **Quick Create: Appointment** form opens with prefilled information from the note.<br>
     > [!div class="mx-imgBorder"]
-    > ![Quick creat appointment](media/notesanalysis-quickcreateappointment.png "Quick creat appointment")<br>
+    > ![Quick create appointment](media/notesanalysis-quickcreateappointment.png "Quick create appointment")<br>
 3.	Edit the necessary information and select **Save**.
 4.	Similarly, repeat step 2 and 3 for New phone call suggestion.<br>
     A new appointment and a call are scheduled for the record.<br>
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with activities](/dynamics365/customer-engagement/basics/work-with-activities)
 
+
+## Examples
+
+The following three scenarios are the examples of how to use notes analysis in your organization.
+
+- [Scenario 1: Suggest New Contact](#scenario-1-suggest-new-contact)
+- [Scenario 2: Suggest Task Creation](#scenario-2-suggest-task-creation)
+- [Scenario 3: New Meeting](#scenario-3-new-meeting)
+
+
+### Scenario 1: Suggest New Contact
+
+   - Let me introduce you to John
+    
+### Scenario 2: Suggest Task Creation
+
+   - I will prepare the contract by Friday.
+   - John to confirm the date with Contoso.
+   - John, can you please send the code to them?
+ 
+### Scenario 3: New Meeting
+
+   - Could we talk over coffee while I am in town?
+   - We had a meeting with Contoso last Friday.
 
 ## Privacy notice  
 
