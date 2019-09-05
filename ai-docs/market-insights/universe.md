@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/30/2019
+title: "Configure the universe and elements in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Configure the universe and elements in Dynamics 365 Market Insights."
+ms.date: 09/05/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann

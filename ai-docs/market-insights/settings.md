@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 08/30/2019
+title: "Manage settings in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Manage you personal preferences in the settings area."
+ms.date: 09/05/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,7 +17,7 @@ search.app:
 ---
 # Manage your settings
 
-The settings page in  Preview lets you manage your preferences.
+The settings page in Market Insights Preview lets you manage your preferences.
 
 To find your settings, open the left navigation and select **Settings**.
 
