@@ -96,17 +96,20 @@ Field name|Field type|Required|Description
 
  
 
-<a name="classic” />To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
+<a id="classic”></a>To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
 
 ![Open the classic explorer from the top nav bar](media/csi-switch-to-classic.png)
 
 In the Classic Solution Explorer, select **Common Data Services Default Solution**, which will open a new window. 
+
 ![Open the CDS solution](media/csi-cds-classic.png)
 
- In the Common Data Services Default Solution explorer, select **Option Sets** to see all the option sets you just created above. Double click on an item to edit. 
+ In the Common Data Services Default Solution explorer, select **Option Sets** to see all the option sets you just created above. Double click on an item to edit.
+ 
 ![Open individual option sets](media/csi-option-sets.png)
    
  In the **Option sets** window, change the **Value** field to the expected numeric value stated in the table above. Ignore any warnings that appear. 
+
 ![Change the label and value for an option set](media/csi-modify-option-sets.png)
 
 Repeat this for the option sets for each of the fields **CSAT** and **SLA Status**.
@@ -115,7 +118,9 @@ Repeat this for the option sets for each of the fields **CSAT** and **SLA Status
 Now that you have created the associated entities with CDS, you will need to specific the data that should be used to populate the entities.
 
 1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
+
 ![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
+
 1.	In the **Power Query** window, select the type of data source that you want to import data from, and enter the appropriate connection URL and settings You should be able to obtain this from the external product’s configuration. 
     > [!NOTE]
     > You may need to disable any adblockers to let a new window to show up.  
