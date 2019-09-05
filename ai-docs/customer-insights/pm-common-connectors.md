@@ -35,10 +35,6 @@ section covers the following connectors (in that order):
 > [!div class="mx-imgBorder"] 
 > ![Select Azure blobs](media/connector-azure-storage.png "Select Azure blobs")
 
-
-<!-editor note: The alt/hover text above is the same as for the image below. Is that correct? -->
-
-
 To ingest data to Customer Insights from a CSV file hosted within a blob location in a Microsoft Azure subscription, follow these steps:
 
 1. Select **Azure Blobs** from the list of connectors.
@@ -62,14 +58,10 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
    > [!div class="mx-imgBorder"] 
    > ![Get data tile](media/connector-azure-blobs-container.png "Get data tile")
 
-4.	You will see the various CSV files in the container. Select **[Table]** in the content column to see a preview of the file's content.
+4. You will see the various CSV files in the container. Select **[Table]** in the content column to see a preview of the file's content.
 
-
-<!--editor note: alt/hover text above is same as for image below. Is that right? -->
-
-
-    > [!div class="mx-imgBorder"] 
-    > ![](media/connector-azure-blobs-preview.png "Get data tile")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/connector-azure-blobs-preview.png "Select Table")
    
 ## Ingest data from Dynamics 365
 
