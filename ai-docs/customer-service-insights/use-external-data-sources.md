@@ -23,14 +23,10 @@ Customer Service Insights can work with external data outside of Dynamics 365. W
 ## The Common Data Service 
 Customer Service Insights is designed to get data from the Common Data Service (CDS), which is a secure and cloud-based storage option for your data. It’s straightforward to set up a data integration project to pull data from your external data sources to CDS, and then you’ll be ready to use Customer Service Insights to connect to your data in CDS. 
 The following image describes how other data sources, such as Salesforce or Zendesk, go through a data integration process that then ingests the data into CDS.
+  
 ![Data ingestion process from data source into CDS, which connects to CSI](media/csi-data-ingestion.png)
 
  
-
-
-
-
-
 
 ## Set up and use external data sources
 There are four parts to connecting and using external data sources:
@@ -88,7 +84,7 @@ Field name|Field type|Required|Description
 *Escalated date* |	**Date and Time**|	**No** |	If a case was escalated, the date and time the case was escalated in common UTC time zone format.
 *Priority* |	**Option set** (Picklist)|	**No**|	Priority of the case, numeric values that indicate case urgency or severity. <br/>Item name:<br/><ul><li>High</li><li>Normal</li><li>Low</li></ul><br/>In the **Option set** dropdown, select **+ New option set** to enter the labels. The value of each item can be edited later in the [classic solution explorer](#classic).
 *Temp status* |	**Text**|	**No**|	The case status. Customer Service Insights uses the following values to identify case:<ul><li>Active</li><li>Inactive</li></ul><br />This is for storing the status data temporarily, see the section on [mapping data to expected outputs](#map-your-data-for-AI-insights-in-customer-service-insights) for further information and examples.
-*Case origin channel* | **Option set** (Picklist)	| **No**|	The support channel where the case originated, input text values of channels your organization uses. For example: *<ul><li>Phone</li><li>Email</li><li>Web</li><li>Facebook</li><li>Twitter</li></ul>*
+*Case origin channel* | **Option set** (Picklist)	| **No**|	The support channel where the case originated, input text values of channels your organization uses. For example: <ul><li>Phone</li><li>Email</li><li>Web</li><li>Facebook</li><li>Twitter</li></ul>
 *SLA status* |	**Option set** (Picklist)	| **No**|	The status of the resolution time for the case according to the terms of the service level agreement (SLA). <br />A value of *4* indicates a noncompliant case. Other values indicate the case complies with the SLA. Customer Service Insights currently only reports on whether the case is compliant or not, for now it is only necessary to set *4* for noncompliant cases for dashboards to work, though having other values in the dataset will not affect the reporting.<br />Item:</br><ul><li>In progress: 1</li><li>Nearing noncompliance: 2</li><li>Succeeded: 3</li><li>Noncompliant: 4</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
 *CSAT* |	**Option set** (Picklist) |	**No**|	The customer's level of satisfaction with the handling and resolution of the case. Customer Service Insights uses the following values to indicate the level of satisfaction:<br />Item:</br><ul><li>Very dissatisfied: 1</li><li>Dissatisfied: 2</li><li>Neutral: 3</li><li>Satisfied: 4</li><li>Very satisfied: 5</li></ul><br />You can set the numeric values in the [classic solution explorer](#classic).
 *Agent name* |	**Lookup**	|**No**|	*User*, *Team* and *Business unit* have a special relationship in the Common Data Service, see the [user team entities](/powerapps/developer/common-data-service/user-team-entities) topic for more information.<br />*Agent name* is a lookup from the [**System user** entity](/powerapps/developer/common-data-service/reference/entities/systemuser). As long as your agent data is in the **System user** entity, each case can be associated with an *agent ID* in your case entity, and Customer Service Insights will use the ID to look up the agent names from the **System user** entity.
@@ -149,7 +145,7 @@ Now that you have created the associated entities with CDS, you will need to spe
 > [!TIP]
 > - Each project can be edited to either transform the data or remap old/new fields, go to the Data Integration section in PowerApps to find your project to edit.
 > - Each job can be scheduled to run on a regular basis, this can also be configured for each Data Integration project.
-> - The Admin center of PowerApps shows the detailed progress and status of each project execution run. You can use this to explore for more information or to conduct investigation into the project’s history..
+> - The Admin center of PowerApps shows the detailed progress and status of each project execution run. You can use this to explore for more information or to conduct investigation into the project’s history.
 
 ### Map your data for AI insights in Customer Service Insights
 Now you can map your data in Customer Service Insights. 
@@ -171,7 +167,7 @@ As an example, your entity and fields mapping should look like the following scr
 Once done, your workspace with external data imported in [Import your data from an external source in PowerApps]( #import-your-data-from-an-external-source-in-PowerApps) should be ready with topics identified by AI.
 >[!TIP]
 > - **KPI Summary**: use **Case Volume Drivers** and **Emerging Topics** to see areas for your cases, click on each topic to see how each affect the resolution, priority, incoming channel, and so on.
-> -**New Cases:** find out which topics have the most new cases and emerging.
+> - **New Cases:** find out which topics have the most new cases and emerging.
 > - **Customer Satisfaction**: find out the topics that impact CSAT the most.
 > - **Resolutions**: see which topics impact your resolution time both positively and negatively.
 > - **Topics**: this is where you can manage topics and cases belonging to each topic, you can provide AI feedback to further influence how future AI clustering will work. 
