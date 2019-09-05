@@ -19,12 +19,7 @@ manager: "kvivek"
 ---
 # Customer Card add-in
 
-
-
-<!--from editor: Wondering about "360 angle". I've heard of 360 degrees but not angle. Should it be 360-degree angle? -->
-
-
-The Customer Card enables you to gain a 360-angle view on each of your customers. Once the Customer Card installation is complete, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on selected customers, including their location, age, latest activities, and more. Note that a prerequisite to using the Customer Card is use of the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
+The Customer Card enables you to gain a 360-degree view on each of your customers. Once the Customer Card installation is complete, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on selected customers, including their location, age, latest activities, and more. Note that a prerequisite to using the Customer Card is use of the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
 - In order to view customer activities, those should be first defined using the **Activities** screen.
 - In order to view customer KPIs, those should be first defined using the **Measures** screen. 
 
@@ -156,9 +151,6 @@ The Customer Card enables you to gain a 360-angle view on each of your customers
 
    The customization you perform here will apply across the organization.
    
-   
-<!--from editor: Please confirm that "Corey Bridges" in the following image is an approved fictitious name. -->   
-
    > [!div class="mx-imgBorder"] 
    > ![Demographic control](media/demographic-control.png "Demographic control")
 

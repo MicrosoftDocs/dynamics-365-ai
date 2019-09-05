@@ -54,9 +54,6 @@ Your export should start shortly if all prerequisites for export have been compl
 
 #### Azure Blob storage locations
 
-
-<!--Note from editor: Is "set" correct in the next sentence, or should it be "set up"? -->
-
 Data exported from the Export process will be stored in the Azure Blob storage container you set in your export destination.  The following folder paths are automatically created in your container:
 
   - Customer Insights generated entities: Dynamics365CustomerInsights/Export/%EntityName%/%EntityName%_%PartitionId%.csv
@@ -86,11 +83,6 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
 
    > [!div class="mx-imgBorder"] 
    > ![Select Dynamics 365 for Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
-
-
-<!--from editor: In the following paragraph, it looks like "Enter" would be a better choice than "Define." Also, is "Sign in" an action? If so, it shouldn't be in bold. -->
-
-
 
 3. Specify your Dynamics 365 for Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 for Sales or Dynamics 365 Marketing account.
 
@@ -140,20 +132,15 @@ To remove an Export destination, start from the main Export destinations page.
 > [!div class="mx-imgBorder"] 
 > ![Export destinations page](media/export-destinations-page.png "Export destinations page")
 
-
-
-<!--from editor: The next two images are identical. Seems like the previous image should be used for step 1.  -->
-
-
 1. Select the vertical ellipsis for the Export destination you want to remove.
 
    > [!div class="mx-imgBorder"] 
-   > ![Vertical ellipsis](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis")
+   > ![Vertical ellipsis](media/export-destinations-page-ellipsis.png "Vertical ellipsis")
 
 2. Select **Remove**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Vertical ellipsis](media/export-destinations-page-vertical-ellipsis-remove.png "Vertical ellipsis")
+   > ![Remove](media/export-destinations-page-vertical-ellipsis-remove.png "Remove")
 
 3. Finalize the removal by selecting **Remove** on the confirmation screen.
 
