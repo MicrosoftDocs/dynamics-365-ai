@@ -17,7 +17,7 @@
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create custom actions for insight cards](extend-relationship-assistant-card.md)
-##### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
 ### Configure Productive intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)
@@ -77,7 +77,7 @@
 #### [Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)
 
 ###	Sales insights application
-#### [Introduction to administer Sales Insights application](../sales/intro-admin-guide-sales-insights-app.md)
+#### [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
 #### [Natural language Q&A](../sales/business-qa.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
