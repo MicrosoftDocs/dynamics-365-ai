@@ -19,12 +19,11 @@ manager: "kvivek"
 ---
 # Relationships
 
-## What are relationships useful for?
 
 Relationships help you connect entities and generate a graph of your data. Relationships are used when entities share a common identifier (foreign key) that can be referenced from one entity to another. Connected entities enable you to define segments and measures based on multiple data sources.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/configure-data-relationships-tile.png "Relationships tile")
+> ![Relationships tile](media/configure-data-relationships-tile.png "Relationships tile")
 
 There are two types of relationships:
 
@@ -34,7 +33,7 @@ There are two types of relationships:
 During the match and merge processes, system relationships are created behind the scenes based on intelligent matching. These relationships help relate the Customer Profile records with other corresponding entities' records. The following diagram exemplifies the creation of three system relationships when the customer entity is matched with additional entities to produce the final Customer Profile entity.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/relationships-entities-merge.png "Relationship creation")
+> ![Relationship creation](media/relationships-entities-merge.png "Relationship creation")
 
 - ***CustomerToContact* relationship** was created between the Customer entity and the Contact entity. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
 - ***CustomerToAccount* relationship** was created between the Customer entity and the Account entity. The Customer entity gets the key field **Account_accountId** to relate to the Account entity key field **accountId**.
@@ -45,7 +44,7 @@ During the match and merge processes, system relationships are created behind th
 In addition, you can use the **Relationships** page to define custom relationships as shown here.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/relationships-custom.png "Custom relationships")
+> ![Customer relationships](media/relationships-custom.png "Custom relationships")
 
 Each relationship has two key parts:
 
@@ -55,18 +54,18 @@ Each relationship has two key parts:
 To create a relationship, first select **Add relationship**.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/add-relationships.png "Add relationships")
+> ![Add relationships](media/add-relationships.png "Add relationships")
 
 Next, provide the following information in the **Relationship** pane.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/relationships-add.png "Add a relationship")
+> ![Enter relationship details](media/relationships-add.png "Enter relationship details")
 
 - **Relationship name**: You can provide a meaningful name that reflects the purpose of the relationship (for example, **AccountWebLogs**).
 - **Description**: Friendly description of the relationship.
 - **Source entity**: The name of the entity that is used as a source in the relationship (for example, WebLog).
 - **Cardinality**: This represents the cardinality of the source entity records. For example, “many” means that multiple Weblog records are related to one WebAccount.  
-- **Source lookup/link field**: This field represent the foreign key field in the source entity. For example, WebLog has the **accountId** foreign key field.
+- **Source lookup/link field**: This represents the foreign key field in the source entity. For example, WebLog has the **accountId** foreign key field.
 - **Target entity**: The name of the entity that is used as a target in the relationship (for example, WebAccount).
 - **Target cardinality**: This represents the cardinality of the target entity records. For example, “one” means that multiple Weblog records are related to one WebAccount.
 - **Target key field**: This field represents the key field of target entity. For example, WebAccount has the **accountId** key field.
@@ -81,12 +80,12 @@ To delete a relationship:
 1. Select check boxes for the relationships you want to delete.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/select-relationship-to-delete.png "Select the relationship to delete")
+   > ![Select the relationship to delete](media/select-relationship-to-delete.png "Select the relationship to delete")
 
 2. Select **Delete** at the top of the **Relationships** table.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/delete-relationship.png "Delete relationship")
+   > ![Delete relationship](media/delete-relationship.png "Delete relationship")
 
 ### Next step
 
