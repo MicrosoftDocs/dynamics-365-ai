@@ -39,10 +39,6 @@ On the **Permissions** page, select **Add**. That opens the pane (shown on the r
  
 Then, find the person to whom you want to give that permission. Enter this person's name in the **Select** field.
 
-
-<!-- please confirm that the names in the following screenshot are from an approved fictitious names list. -->
-
-
 > [!div class="mx-imgBorder"] 
 > ![](media/permissions-roles.png "Enter a name")
 
@@ -51,9 +47,6 @@ Lastly, select **Save** in the lower-right corner of the pane. The instance that
 ## View current permissions
 
 After selecting **Save**, you can use the **Permissions** page to explore all the permissions that are currently active.
-
-
-<!-- Same question here about screenshot names - are they approved? -->
 
 > [!div class="mx-imgBorder"] 
 > ![Permissions](media/permissions.png "Permissions")

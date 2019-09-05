@@ -37,9 +37,6 @@ To further understand how to use those capabilities, visit the [**Customers** se
 
 - If it's not your first time, you can get to the **Search & Filter Index** screen through the **Search & Filter Index** button on the **Customers** page:
 
-
-  <!-- from editor: Please confirm that the names in the following image are from an approved fictitious names list. -->
-
   > [!div class="mx-imgBorder"] 
   > ![Get to Search & filter index through Customers page](media/search-sort-filter.png "Get to Search & filter index through Customers page")
 

@@ -47,11 +47,7 @@ As mentioned, you are required to make at least two selections.
 
 Only some formats are supported for each of the fields:
 
-
-<!-- In the following for date of birth, is it correct that sometimes the "M" is uppercase and sometimes lower? -->
-
-
-- Supported formats for **Date of Birth**: M/d/yyyy, MMMM d, yyyy-mm-dd, MMMM yyyy
+- Supported formats for **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
 - Supported formats for **Gender**: Male, Female, Unknown
 - Supported formats for **Zip Code**: Should be a 5-digit US ZIP Code (only US-supported at this point)
 
