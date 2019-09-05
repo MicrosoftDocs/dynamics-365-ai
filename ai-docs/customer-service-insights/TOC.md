@@ -14,6 +14,8 @@
 
 ## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
 
+## [Use external data sources to get AI insights](use-external-data-sources.md)
+
 ## [Map your data to custom entities and fields](map-data.md)
 
 ## [Improve data quality by cleansing support case titles](settings.md)

@@ -46,7 +46,7 @@ This short feature video shows you how to use variables to remember user respons
    
 ### Enhance bot capabilities with Microsoft Flow
 
-This feature video shows you how to use Microsoft Flow to extend the capabilities of your bot, including connecting to your custom back-end systems, your Dynamics 365 for Customer Engagement instance, or anything else supported by Microsoft Flow connectors. 
+This feature video shows you how to use Microsoft Flow to extend the capabilities of your bot, including connecting to your custom back-end systems, an instance in the Dynamics 365 admin center, or anything else supported by Microsoft Flow connectors. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joXCzvi38Fo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
