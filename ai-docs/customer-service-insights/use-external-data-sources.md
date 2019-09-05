@@ -20,7 +20,7 @@ ms.custom: "CSI, data-storage"
 
 Customer Service Insights can work with external data outside of Dynamics 365. Whether your customer service data lives in Salesforce, Zendesk, or other sources, you can leverage the same artificial intelligence (AI) model offered by Customer Service Insights to identify top trends and emerging topics for your organization. 
 
-## The Common Data Service 
+## Common Data Service 
 Customer Service Insights is designed to get data from the Common Data Service (CDS), which is a secure and cloud-based storage option for your data. It’s straightforward to set up a data integration project to pull data from your external data sources to CDS, and then you’ll be ready to use Customer Service Insights to connect to your data in CDS. 
 The following image describes how other data sources, such as Salesforce or Zendesk, go through a data integration process that then ingests the data into CDS.
   
@@ -30,7 +30,7 @@ The following image describes how other data sources, such as Salesforce or Zend
 
 ## Set up and use external data sources
 There are four parts to connecting and using external data sources:
-1.	[Set up a Common Service Database database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
+1.	[Set up a Common Data Service database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
 2.	[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)
 3.	[Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps)
 4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-for-ai-insights-in-customer-service-insights)  
@@ -172,6 +172,6 @@ Once done, your workspace with external data imported in [Import your data from 
 > - **Customer Satisfaction**: find out the topics that impact CSAT the most.
 > - **Resolutions**: see which topics impact your resolution time both positively and negatively.
 > - **Topics**: this is where you can manage topics and cases belonging to each topic, you can provide AI feedback to further influence how future AI clustering will work. 
-> - You can right click on each topic and use Drillthrough to see a detailed dashboard for a topic.
+> - You can right click on each topic and use **Drillthrough** to see a detailed dashboard for a topic.
 
 
