@@ -48,11 +48,6 @@ There are two possible outputs for a business measure:
 
 Later we show how to create these outputs.
 
-
-
-<!--from editor: The two bullets below are near duplicates of the ones above. Which version do you prefer? -->
-
-
 - **Customer Measure**: This measure provides input on customer behavior with breakdown by dimensions. A new entity will be generated per measure (can be viewed on the **Entities** page), with potential multiple records per customer. Examples: *Number of visits per channel* and *Total sales per day*.
 - **Business Measure**: This measure helps you track your business performance and health. Examples: *Average sales per customer* and *Monthly Active Users (MAU)*. Can be created either as a single-number measure that will show up on the **Home** page (default state), or as an entity once a dimension is added to it (a new entity will show up in the **Entities** page).
 

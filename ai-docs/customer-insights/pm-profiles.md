@@ -34,25 +34,12 @@ If that is the case, your administrator can use the **Search & filter index** se
 
 On the **Customers** page, you can start viewing your customers' profiles. You can always go to the next **Customers** page and view more customer profiles using the buttons in the lower-right of the page.
 
-
-<!-- v-dehaas: I recommend removing this image. It shows a prominent navigation element that is very common and widely understood by our audience -->
-
-
-<!-- from editor: Please confirm that names in screenshot are from an approved fictitious  names list. -->
-
 > [!div class="mx-imgBorder"] 
 > ![View customer profiles](media/profiles-customers2.png "View customer profiles")
 
 
 > [!NOTE]
 > Customer profiles are available once you create the unified Customer entity. Make sure you complete the data unification process in order to unlock richer views of your customers. Visit the **Unify** section to learn more. 
-
-
-<!-- v-dehaas: I recommend removing this image. It shows a prominent navigation element that is very common and widely understood by our audience -->
-
-
-<!-- from editor: Please confirm names are from approved list. -->
-
 
 > [!div class="mx-imgBorder"] 
 > ![Customer Card tiles](media/customer-card-tile.png "Customer Card tiles")
@@ -71,10 +58,6 @@ Search for customers by entering an attribute name (for example, the customer’
 
 Note that the search will be executed only within the Customer Profile entity created during the data unification process.
 
-
-<!-- from editor: same concern here and in the remaining screenshots about fictitious names. -->
-
-
 > [!div class="mx-imgBorder"] 
 > ![Customer Card tile search](media/customer-card-tile-search.png "Customer Card tile search")
 
@@ -88,10 +71,6 @@ After selecting one of the customer tiles, you can also search for a specific at
 Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & filter index** page. 
 
 First, select **Filter** on the top right corner of the **Customers** screen.
-
-
-<!-- v-dehaas: I recommend removing this image. It shows a prominent navigation element that is very common and widely understood by our audience -->
-
 
 > [!div class="mx-imgBorder"] 
 > ![Customer Card tile filter](media/customer-card-tile-filter.png "Customer Card tile filter")

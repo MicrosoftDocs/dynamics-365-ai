@@ -33,7 +33,7 @@ section covers the following connectors (in that order):
 ## Ingest data from a file hosted in an Azure blob
 
 > [!div class="mx-imgBorder"] 
-> ![Select Azure blobs](media/connector-azure-storage.png "Select Azure blobs")
+> ![Ingest data](media/connector-azure-storage.png "Ingest data")
 
 To ingest data to Customer Insights from a CSV file hosted within a blob location in a Microsoft Azure subscription, follow these steps:
 
@@ -61,7 +61,7 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
 4. You will see the various CSV files in the container. Select **[Table]** in the content column to see a preview of the file's content.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/connector-azure-blobs-preview.png "Select Table")
+   > ![](media/connector-azure-blobs-preview.png "Select [Table]")
    
 ## Ingest data from Dynamics 365
 
@@ -79,11 +79,8 @@ To ingest data to Customer Insights from a CSV file hosted within a blob locatio
 
 4. Choose your entities of interest from the left-side menu, and then review them on the right-side window:
 
-
-<!--editor note: Is "Log in" accurate alt/hover text for the next image? I don't see any sign-in area. -->
-
    > [!div class="mx-imgBorder"] 
-   > ![Log in](media/connector-ce-log-in.png "Log in")
+   > ![Choose entities](media/connector-ce-log-in.png "Choose entities")
 
    > [!div class="mx-imgBorder"] 
    > ![Connector account](media/connector-account.png "Connector account")

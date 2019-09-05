@@ -57,9 +57,5 @@ In order to see your customer insights in Power BI, make sure that you have crea
 Once all of your selected entities have loaded, you'll have the capabilities of Power BI combined with your data from Dynamics 365 Customer Insights!
 
 ### See also
-
-
-<!--from editor: The first link goes to a page titled "Add a filter to a report in Power BI" - do you want the link text to match? -->
-
  [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)<br/>
  [What is Power BI Desktop?](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)

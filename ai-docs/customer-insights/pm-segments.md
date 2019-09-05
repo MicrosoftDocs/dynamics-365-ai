@@ -19,11 +19,6 @@ manager: "kvivek"
 ---
 # Segments 
 
-
-<!-- This second heding isn't needed. -->
-
-## Introduction to segmentation
-
 The segmentation capability of Customer Insights enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
 
 You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take action on.
@@ -192,10 +187,6 @@ Each group produces a specific set of customers. Start by selecting **Add Group*
 
 Three set operators are displayed: **Union**, **Intersect**, and **Exclude**.
 
-
-<!-- from editor: The screenshot shows "Except" instead of "Exclude." -->
-
-
 > [!div class="mx-imgBorder"] 
 > ![Customer group add union](media/customer-group-union.png "Customer group add union")
  
@@ -204,9 +195,6 @@ Selecting a set operator enables you to define a new group. Saving different gro
 - **Union** unites the new group you have created in Step 4 with the group you have created in Steps 2 and 3. With this option, data that is common to both groups is maintained, as well as data that is not common to both groups.
 
 - **Intersect** intersects the two groups. Only data that is common to both groups is maintained in the unified group.
-
-
-<!-- Should the following change to "Except" ? -->
 
 - **Exclude** excludes the two groups. Only data that is not common to both groups is maintained.
    

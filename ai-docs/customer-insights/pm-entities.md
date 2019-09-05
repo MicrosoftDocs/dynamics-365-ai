@@ -54,7 +54,4 @@ Both the **Fields** table and the **Data** table show only a sample of your enti
 
 ### Next step
 
-
-<!-- This link opens a page called "Unify" - is that correct? If so, we should change the link text to match. -->
-
-See the [**Configure data** section](pm-configure-data.md) to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.
+See the [Unify](pm-configure-data.md) section to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.
