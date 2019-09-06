@@ -46,8 +46,8 @@ What you’ll need:
 
 ### Create a custom entity in PowerApps
 Entities are used to model and manage business data. CDS has two types of entities:
--	[Standard entities that are used by default](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses the standard incident entity by default)
--	[Custom-created entities](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (you’ll need to create one of these to use external data sources)
+-	[Standard entities](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses the standard incident entity by default)
+-	[Custom-created entities](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (if you don't already have a Dynamics 365 Customer Service license, you’ll need to create one of these to use external data sources)
 
 This section will show you how to create a custom entity that you can use to import data from an external source.
 
