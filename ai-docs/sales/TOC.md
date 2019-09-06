@@ -1,7 +1,6 @@
 # [Dynamics 365 Sales Insights](help-hub.md)
 
 ## [Overview](overview.md) 
-<!--Overview of Sales Insights applications and Sales Insights-->
 
 ## [What's new](whats-new.md)
 

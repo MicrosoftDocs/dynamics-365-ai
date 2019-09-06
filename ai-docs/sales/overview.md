@@ -84,4 +84,4 @@ To learn more, see [Overview of Sales Insights applications](dynamics365-sales-i
 
 ### See also
 
-[Introduction to administer Sales Insights](../sales/configure-enable-dynamics-365-ai-sales.md)
+[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
