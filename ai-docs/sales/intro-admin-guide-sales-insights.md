@@ -30,7 +30,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -	[Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features).
 
--	[Configure Sales Insights application](#configure-sales-insights-application).
+-	[Introduction to administer Sales Insights application](#introduction-to-administer-sales-insights-application).
 
 ## Enable and configure free Sales Insights features
 
