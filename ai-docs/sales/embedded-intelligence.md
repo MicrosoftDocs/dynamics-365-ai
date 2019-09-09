@@ -22,7 +22,7 @@ Embedded intelligence is a suite of features which continuously analyze the vast
   
 Embedded intelligence includes the following features, which all work together to amplify their individual strengths:  
   
-- Relationship assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use relationship assistant to guide customer communications](relationship-assistant.md)  
+- Relationship assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use relationship assistant to guide customer communications](assistant.md)  
 - Email engagement. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md)   
 - Auto capture. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture of related emails](auto-capture.md)  
   
