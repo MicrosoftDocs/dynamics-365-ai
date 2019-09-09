@@ -1,8 +1,8 @@
 ---
-title: "Create insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Create custom insight cards using Microsoft Flow in assistant"
-keywords: "AI for sales, assistant, custom cards, insight cards"
-ms.date: 03/22/2019
+title: "Create insight cards using Microsoft Flow in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Create custom insight cards using Microsoft Flow in Assistant"
+keywords: " "
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -17,12 +17,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-# Preview: Create custom insight cards
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] 
+# Create custom insight cards
 
 As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following illustrates a high-level flow of insight card creation:
 
@@ -31,32 +26,41 @@ As an administrator or sales manager, you can create your own suggested actions 
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
-1. Sign in to **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]** and go to **Settings** > **Sales AI**.
-2. Select **Configure** on the **Assistant** section or select the **Assistant** tab.
-    
-    ![Open assistant tab](media/cc-open-assistant.png "Open assistant tab")
-    
+1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
+
+2.	Go to **Change area** and select **Sales Insights settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
+
+3. On the sitemap, select **Home** under **Assistant** to go to **Assistant Studio** page.
+
+    > [!TIP]
+    > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to **Assistant Studio** page.
+
+4. On the Assistant Studio page, select **+ Create a new insight card**.
+ 
     A template selection page opens. 
     
     > [!NOTE]
     > We recommend you use templates to create insight cards.
 
-3. Select a template to create the card.
+5. Select a template to create the card.
 
     > [!NOTE]
     > If you want to create insight cards from an empty flow, select **Create from blank**. To learn more, see [Create a flow in Microsoft Flow](/flow/get-started-logic-flow).
     
     In this example, we selected the **Due date is coming up** template to create the custom card.
-    
-    ![Select insight card creation template](media/cc-insight-card-template-selection.png "Select insight card creation template")
-    
-    A new tab opens with the flow selections options.
-        
-    ![Account validation in flow](media/cc-account-validation-flow.png "Account validation in flow")
-    
-    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Dynamics 365 and Dynamics 365 AI for Sales. Once you are successfully signed in, you can continue creating the card.
 
-    If any of the account is not valid, the **Continue** button is grayed out and you cannot proceed further. Select the **More options** icon (…) and choose the options **+ add new connection** or **Update** accordingly to sign in.
+    > [!div class="mx-imgBorder"]    
+    > ![Select insight card creation template](media/si-admin-create-cards-template-selection-page.png "Select insight card creation template")
+
+    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to common data services and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
+
+    If any of the account is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credentials.
+
+    > [!div class="mx-imgBorder"]       
+    > ![Accounts validation in flow](media/si-admin-flow-account-validation.png "Accounts validation in flow")
 
 4. Select **Continue**.
 

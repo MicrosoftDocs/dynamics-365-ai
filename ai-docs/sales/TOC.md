@@ -11,13 +11,14 @@
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
 <!--new file name-->
-#### [Manage insight cards](manage-custom-cards-flow.md)
-<!--This section is merged with Configure assistant. Redirect should direct to configure-assistant.md#configure-assistant-full-capabilities-to-manage-insight-cards -->
+<!--#### [Manage insight cards](manage-custom-cards-flow.md)
+This section is merged with Configure assistant. Redirect should direct to configure-assistant.md#configure-assistant-full-capabilities-to-manage-insight-cards -->
 #### [Create insight cards](create-insight-cards-flow.md)
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create custom actions for insight cards](extend-relationship-assistant-card.md)
 #### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+#### [Action cards reference](action-cards-reference.md)
 
 ### Configure Productive intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)
