@@ -5,8 +5,8 @@
 ## [What's new](whats-new.md)
 
 ## Administrator guide 
-### [Introduction to administer Sales Insights](../sales/configure-enable-dynamics-365-ai-sales.md)
-<!--File name should be changed-->
+### [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+<!--create redirect for configure-enable-dynamics-365-ai-sales.md to this section-->
 
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
