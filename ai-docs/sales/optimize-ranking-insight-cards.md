@@ -1,8 +1,8 @@
 ---
-title: "Optimize insight cards ranking in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Optimize insight cards ranking in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Optimize ranking for cards in assistant"
-keywords: "AI for sales, ,"
-ms.date: 03/21/2019
+keywords: " "
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -17,12 +17,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-# Preview: Optimize ranking of insight cards
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+# Optimize ranking of insight cards
 
 Several cards are defined for your organization and all will be displayed to the users through an externally prioritized list. In this list of cards, users might miss those that are important and need follow-up. The **Optimize ranking** option in Assistant allows you to optimize the ranking of cards that are important and promotes those cards to display at the top.
 
@@ -30,14 +25,17 @@ You can define up to four rules in the ranking section, based on entities such a
 
 Follow these steps to rank the cards:
 
-1. Sign in to **Dynamics 365 for Sales** and go to **Settings** > **Sales AI**.
-2. In the **Assistant** section, select **Configure** or select the **Assistant** tab.
+1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
 
-    ![Open Assistant tab](media/cc-open-assistant.png "Open Assistant tab")
+2.	Go to **Change area** and select **Sales Insights settings**.
 
-3. On the **Assistant** tab, select the **Optimize ranking** tab.
+    > [!div class="mx-imgBorder"]
+    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-   ![Optimize ranking tab](media/cc-optimize-ranking-tab.png "Optimize ranking tab")
+3. On the sitemap, select **Optimize ranking** tab under **Assistant**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Optimize ranking tab](media/si-admin-optimize-ranking-tab.png "Optimize ranking tab")
  
     The list of rankings that are defined in your organization is displayed.
 
@@ -55,12 +53,18 @@ Follow these steps to rank the cards:
 
         For example, you want to prioritize cards of accounts where the annual revenue is more than $100,000 and display it to your user in your organization. You define the rule as, **Cards related to** *account* **with** *annual revenue* *above* *100,000*.
 
+    > [!div class="mx-imgBorder"]
+    > ![Optimize ranking tab with example](media/si-admin-optimize-ranking-tab-example.png "Optimize ranking tab with example")
+
+
 5. Save the rule.
 
     The ranking rule is created, processed, and applied to the cards in your organization.
 
 ### See also
 
-- [Manage custom insight cards using Microsoft Flow](manage-custom-cards-flow.md)
-- [Create insight cards](create-insight-cards-flow.md)
-- [Edit insight cards](edit-insight-cards.md)
+[Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
+
+[Create insight cards](create-insight-cards-flow.md)
+
+[Edit insight cards](edit-insight-cards.md)
