@@ -18,7 +18,6 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create custom actions for insight cards](extend-relationship-assistant-card.md)
 #### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
-#### [Action cards reference](action-cards-reference.md)
 
 ### Configure Productive intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)
@@ -59,9 +58,9 @@ This section is merged with Configure assistant. Redirect should direct to confi
 ## User guide
 
 ### Assistant studio
-#### [Guide customer communications with assistant](relationship-assistant.md)
-<!--File name should be changed-->
-#### [Stay updated with Action cards](action-cards-reference.md)
+#### [Guide customer communications with assistant](assistant.md)
+<!--File name is changed create redirect for relationship-assistant.md to this.-->
+#### [Stay updated with cards](action-cards-reference.md)
 
 ###	Productive intelligence
 #### [View message interactions with email engagement](email-engagement.md)

@@ -1,8 +1,8 @@
 ---
-title: "Edit insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Edit  insight cards in assistant"
-keywords: "AI for sales, assistant, custom cards, insight cards"
-ms.date: 03/22/2019
+title: "Edit insight cards using Microsoft Flow in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Edit insight cards in assistant"
+keywords: " "
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -17,12 +17,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-# Preview: Edit insight cards
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] 
+# Edit insight cards
 
 Editing the cards allows you to perform the following tasks based on the card:
 
@@ -33,29 +28,32 @@ Editing the cards allows you to perform the following tasks based on the card:
 
 ## Turn cards on or off
 
-Different users have different needs in using the cards, and you don’t want to show the card for some users at this point of time. Similarly, you don’t want to show certain cards in your organization or you might not need them to be displayed at this time. You can turn the cards on or off depending on the need to show them to specific user roles in the **Assistant** section of the **Sales AI** setup center.
+Different users have different needs in using the cards, and you don’t want to show the card for some users at this point of time. Similarly, you don’t want to show certain cards in your organization or you might not need them to be displayed at this time. You can turn the cards on or off depending on the need to show them to specific user roles in the **Personal settings** section of the **Sales Insights settings** setup center.
 
 When you turn off a card, the assistant feature disables the card for the security roles you have assigned the card to. However, the assistant feature doesn't disable other properties that are associated with the card. For the card that you generated using Microsoft Flow, you can disable the card but you can't delete the flow. Even after you disable the card, the flow remains active because other custom insight cards might use the flow.
 
-Go to the **Assistant** tab and open a card from the list that you want to turn on or off. Select the **On**/**Off** toggle as required. In this example, we turned on the **Upcoming Meeting (Exchange) opportunity** card.
-    
-![Turn card on or off](media/cc-edit-card-on-off-toggle.png "Turn card on or off")
+Go to the **Assistant Studio** page (**Home** tab) under **Assistant** and open a card from the list that you want to turn on or off. Select the **On**/**Off** toggle as required. In this example, we turned on the **Stake holder Recommendation** card.
+
+> [!div class="mx-imgBorder"]
+> ![Turn card on or off](media/si-admin-edit-card-on-off-toggle.png "Turn card on or off")
 
 ### Turn multiple cards on or off
 
-To turn multiple cards on or off, go to the **Assistant** tab and select the cards that you want to turn on or off. Select **Turn on cards** or **Turn off cards** as per your requirement.
+To turn multiple cards on or off, go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the cards that you want to turn on or off. Select **Turn on cards** or **Turn off cards** as per your requirement.
 
-In this example, we want to turn off the cards **Issue detected**, **Stakeholder recommendations**, and **Task due today**. After choosing the cards, select **Turn off cards** and the three cards are disabled. 
-    
-![Turn off or on multiple cards ](media/cc-edit-card-on-off-multiple-cards.png "Turn off or on multiple cards")
+In this example, we want to turn off the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Questions**. After choosing the cards, select **Turn off cards** and the three cards are disabled. 
+
+> [!div class="mx-imgBorder"]
+> ![Turn off or on multiple cards ](media/si-admin-edit-card-on-off-multiple-cards.png "Turn off or on multiple cards")
 
 ### Turn cards on or off for a security role
 
-If you want to turn off cards for a particular security role, go to the **Assistant** tab and filter the cards based on the role. Choose the cards that you want to turn off for the selected role and select **Remove for this role**. The cards will not show for the role that you have selected.
+If you want to turn off cards for a particular security role, go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and filter the cards based on the role. Choose the cards that you want to turn off for the selected role and select **Remove for *role name***. The cards will not show for the role that you have selected.
 
-In this example we have filtered the cards with the security role **Sales manager** and chosen the cards **Card name placeholder**, **Opportunity at risk**, and **Stakeholder recommendation**. Select **Remove for this role** and the cards are turned off only for the **Sales manager** role. 
-    
-![Turn off or on multiple cards for a role](media/cc-edit-card-on-off-multiple-cards-role.png "Turn off or on multiple cards for a role ")
+In this example we have filtered the cards with the security role **Survey Owner** and chosen the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Questions**. Select **Remove for Survey Owner** and the cards are turned off only for the **Survey Owner** role. 
+
+> [!div class="mx-imgBorder"]
+> ![Turn off or on multiple cards for a role](media/si-admin-edit-card-on-off-multiple-cards-role.png "Turn off or on multiple cards for a role")
 
 ## Assign roles to or remove roles from a card
 
@@ -64,39 +62,61 @@ When you create a card, you must specify the security roles to whom you want the
 >[!NOTE]
 >The security roles you see in the cards are defined in Dynamics 365 for Customer Engagement. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
-1. Go to the **Assistant** tab and select the card for which you want to add the security roles. In this example, we have selected the **Opportunity Health Score Changed** card.
+1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we have selected the **Opportunity at Risk (sentiment based)** card.
 
-   ![Roles assigned to card](media/cc-edit-card-assigned-roles.png "Roles assigned to card")
+    > [!div class="mx-imgBorder"]
+    > ![View insight card details](media/si-admin-edit-card-assigned-roles.png "View insight card details")
 
-   You can see that by default the card is assigned to the security roles **Salesperson** and **Sales manager**.
-2. Select the **Show by security role (preview)** section and the list of security roles that are available in your organization is displayed.
+2. Go to the **Display Settings** tab. You can see that by default the card is assigned to the security roles **Salesperson** and **Sales manager**.
 
-   ![Security roles to add to card organization](media/cc-edit-card-assign-role-select-role.png "Security roles to add to card organization")
+    > [!div class="mx-imgBorder"]
+    > ![Roles assigned to card](media/si-admin-edit-card-assigned-roles-display-tab.png "Roles assigned to card")
 
-   In this example we have added the **Marketing Manager** security role to the **Opportunity Health Score Changed** card.
+3. Under the **Show by security role (preview)** section, select Add the security role search box. A list of security roles that are available in your organization is displayed.
 
-   ![Security role added to card](media/cc-edit-card-assign-role-added-role.png "Security role added to card")
+    > [!div class="mx-imgBorder"]
+    > ![Security roles to add to card organization](media/si-admin-edit-card-assigned-roles-select-role.png "Security roles to add to card organization")
 
-3. Close the card.
-4. (Optional) To remove security roles, select the role to remove. In this example, we are removing the **Marketing Manager** security role from the **Opportunity Health Score Changed** card.
+   In this example we have added the **Marketing Manager** security role to the **Opportunity at Risk (sentiment based)** card.
 
-   ![Remove security role for card](media/cc-edit-card-assign-role-remove-role.png "Remove security role for card")
+    > [!div class="mx-imgBorder"]
+    > ![Security role added to card](media/si-admin-edit-card-assigned-roles-added-role.png "Security role added to card")
+
+4. Save the card.
+
+5. (Optional) To remove security roles, select the role to remove. In this example, we are removing the **Marketing Manager** security role from the **Opportunity at Risk (sentiment based)** card.
+
+    > [!div class="mx-imgBorder"]
+    > ![Remove security role for card](media/si-admin-edit-card-assigned-roles-remove-role.png "Remove security role for card")
 
 ## Set priority for a card
 
 You can prioritize the cards that display in your organization. When you set a card as a priority, the card is displayed to the user at the top.
 
-When you open the **Assistant** tab, the list of cards that are defined for your organization is displayed. A check mark corresponding to the card specifies that the card is set as priority. In this example, the **Opportunity at risk** card is set as high priority. This card will be promoted above other cards and displayed on top of the others.
-    
-![Card priority list view](media/cc-edit-card-assign-priority-list.png "Card priority list view")
+When you open the **Manage insight cards** page (**Insight cards** tab), the list of cards that are defined for your organization is displayed. A check mark corresponding to the card in **High priority** column specifies that the card is set as priority.
 
-1. Go to the **Assistant** tab and open the card that you want to set as a priority. Select **High Priority (preview)**. In this example, we are selecting and prioritizing the **Upcoming Meeting (Exchange)** card.
+> [!NOTE]
+> You can also select the **High priority** tab to view the high priority cards.
 
-   ![Set priority to card](media/cc-set-proprity-card.png "Set priority to card")
+In this example, **SuggestedContacts** and **SuggestedActivities** cards are set as high priority. These cards will be promoted above other cards and displayed on top of the others.
 
-2. Close the card. The **Upcoming Meeting (Exchange)** card is set as priority and you can verify that the **High priority** column corresponding to the card is updated with a check.
+> [!div class="mx-imgBorder"]
+> ![Card priority list view](media/si-admin-edit-card-assign-priority-list.png "Card priority list view")
 
-    ![Updated priority list view](media/cc-priority-list-view.png "Updated priority list view")
+
+1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and open the card that you want to set as a priority.
+
+2. Go to the **Display Settings** tab and select **High priority**. In this example, we are selecting and prioritizing the **Customer Questions** card.
+
+    > [!div class="mx-imgBorder"]
+    > ![Set priority to card](media/si-admin-edit-card-set-priority-card.png "Set priority to card")
+ 
+2. Save the card.
+
+    The **Customer Questions** card is set as priority and you can verify that the **High priority** column corresponding to the card is updated with a check.
+
+    > [!div class="mx-imgBorder"]
+    > ![Updated priority list view](media/si-admin-edit-card-priority-list-view.png "Updated priority list view")
 
 To know how to optimize ranking of cards,  see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md).
 
@@ -105,9 +125,9 @@ To know how to optimize ranking of cards,  see [Optimize ranking of insight card
 You can always edit the flow of the card when there is a business need to update it. You can add or update conditions and steps, and update the properties of a condition. 
 
 > [!NOTE]
-> The **Edit in Flow** option appears only for the cards that are created in Microsoft Flow.
+> The **Edit in Flow** option appears only for the cards that are created in Microsoft Flow. You can see flow icon corresponding to the name of the cards that are created using Flow.
 
-1. Go to the **Assistant** tab and select the card for which you want to change the flow. In this example we have selected the **Opportunity Health Score Changed** card.
+1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example we have selected the **Opportunity Health Score Changed** card.
 
    ![Open card to edit in flow](media/cc-edit-flow.png "Open card to edit in flow")
  
@@ -123,6 +143,8 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 
 ### See also
 
-- [Manage custom insight cards using Microsoft Flow](manage-custom-cards-flow.md)
-- [Create insight cards](create-insight-cards-flow.md)
-- [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
+[Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
+
+[Create insight cards](create-insight-cards-flow.md)
+
+[Optimize ranking of insight cards](optimize-ranking-insight-cards.md)

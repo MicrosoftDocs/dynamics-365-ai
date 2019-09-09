@@ -123,6 +123,8 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 ### See also
 
-- [Manage custom insight cards using Microsoft Flow](manage-custom-cards-flow.md)
-- [Edit insight cards](edit-insight-cards.md)
-- [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
+[Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
+
+[Edit insight cards](edit-insight-cards.md)
+
+[Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
