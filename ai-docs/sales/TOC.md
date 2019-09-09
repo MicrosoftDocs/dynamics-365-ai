@@ -12,6 +12,7 @@
 #### [Configure Assistant](configure-assistant.md)
 <!--new file name-->
 #### [Manage insight cards](manage-custom-cards-flow.md)
+<!--This section is merged with Configure assistant. Redirect should direct to configure-assistant.md#configure-assistant-full-capabilities-to-manage-insight-cards -->
 #### [Create insight cards](create-insight-cards-flow.md)
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)

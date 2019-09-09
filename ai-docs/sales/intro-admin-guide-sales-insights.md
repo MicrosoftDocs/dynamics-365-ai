@@ -89,7 +89,7 @@ Before you can configure the features, you must accept the privacy notice to ena
 
 After you enable the free Sales Insights features, you can configure the features for your organization.
 
--	To configure Assistant (free), see <link to assistant free configuration section>
+-	To configure Assistant (free), see [Configure and manage insight cards for Assistant (free)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-free).
 
 -	To configure Auto capture (free), see <link to auto capture free configuration section>
 
@@ -160,7 +160,7 @@ The advanced Sales Insights features are not available by default. You must enab
 
 After enabling the advanced Sales Insights features, you can configure the advanced features as required:
 
--	To configure Assistant (full capabilities), see <link to assistant full capabilities configuration section>
+-	To configure Assistant (full capabilities), see [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md##configure-and-manage-insight-cards-for-assistant-full-capabilities).
 
 -	To configure Notes analysis, see <link to Notes analysis configuration section>
 
