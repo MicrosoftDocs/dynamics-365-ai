@@ -17,9 +17,9 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create custom actions for insight cards](extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+##### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
-### Configure Productive intelligence 
+### Configure Productivity intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)
 <!--new file name-->
 #### [Enable Auto capture](configure-auto-capture.md)
@@ -35,10 +35,10 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Configure Who knows whom](configure-who-knows-whom.md)
 <!--new file name-->
 #### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
-#### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
-#### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
-#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
-		
+##### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
+##### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
+##### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+
 ### Configure Predictive models
 #### [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
 <!--new file name-->
@@ -57,12 +57,12 @@ This section is merged with Configure assistant. Redirect should direct to confi
 
 ## User guide
 
-### Assistant studio
+### Assistant
 #### [Guide customer communications with assistant](assistant.md)
 <!--File name is changed create redirect for relationship-assistant.md to this.-->
 #### [Stay updated with cards](action-cards-reference.md)
 
-###	Productive intelligence
+###	Productivity intelligence
 #### [View message interactions with email engagement](email-engagement.md)
 #### [Display related emails with auto capture](auto-capture.md)
 #### [How notes analysis assists you with suggestion](notes-analysis.md)

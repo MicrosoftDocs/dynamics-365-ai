@@ -70,28 +70,35 @@ In this procedure, we will show as an example how to create an insight to act wh
     - **Step 3**: Define control
     
     You can edit the steps according to your requirements.
-    
-    ![Edit flow template](media/cc-edit-template.png "Edit flow template")
+
+    > [!div class="mx-imgBorder"]       
+    > ![Edit flow template](media/cc-edit-template.png "Edit flow template")
 
 5. In step 1, a schedule when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
 
-    ![Create card schedule](media/cc-card-schedule-step.png "Create card schedule")
+    > [!div class="mx-imgBorder"]       
+    > ![Create card schedule](media/cc-card-schedule-step.png "Create card schedule")
 
     If you want to change the flow, select the + icon on the connector that is linking to the next step and select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/flow/multi-step-logic-flow).
+
 6. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
 
     Select **Show advanced options** to further update the step by configuring the parameters **Filter Query**, **Order By**, **Top Count**, and **Expand Query**.
 
-    ![Define card operations](media/cc-card-operation-step.png "Define card operations")
+    > [!div class="mx-imgBorder"]       
+    > ![Define card operations](media/cc-card-operation-step.png "Define card operations")
+
 7. In step 3, an **apply to each** control is selected and enter the necessary information.
 
     a. The **Value** token is added to the **Select an output from previous steps** box. This value is obtained from the previous step where we defined the entity.
-     
-      ![Select output from previous step](media/cc-add-information-condition-value.png "Select output from previous step")  
+    
+    > [!div class="mx-imgBorder"]       
+    > ![Select output from previous step](media/cc-add-information-condition-value.png "Select output from previous step")  
   
     b. The condition step is defined to match the date of the task that is defined in step 2 to the current date to trigger the condition. Here, we are defining the value as **formatDateTime(item()?['scheduledend'],'yyyy-MM-dd')**, the condition as **is equal to**, and the threshold value as **formatDateTime(utcNow(),'yyyy-MM-dd')**.
     
-      ![Add a condition](media/cc-add-condition.png "Add a condition")
+    > [!div class="mx-imgBorder"]       
+    > ![Add a condition](media/cc-add-condition.png "Add a condition")
     
       To learn more about conditions, see [Add a condition to a flow](/flow/add-condition).
 
@@ -106,19 +113,49 @@ In this procedure, we will show as an example how to create an insight to act wh
         
       When you select a text box, the dynamic content pane appears. You can select and add the relevant fields. These dynamic content field variables and values displayed by these fields change according to the information passed.
 
-      ![Add condition information](media/cc-add-condition-information-yes.png "Add condition information")
+      > [!div class="mx-imgBorder"]       
+      > ![Add condition information](media/cc-add-condition-information-yes.png "Add condition information")
 
     To learn more about expression conditions, see [Use expressions in conditions to check multiple values](/flow/use-expressions-in-conditions).
 
-8. Save the flow.
+8. Use **Flow Checker** to verify errors and warnings in the flow. 
+
+    Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is error and warning free. The checker is always active, appearing in the command bar in the designer. The checker shows a Red dot when it finds one or more errors in your flow.
+
+    For example, while creating **For due date coming up** card, you have not entered **Card Name**. The flow checker identifies the error and displays a red dot.  
+
+       > [!div class="mx-imgBorder"]       
+       > ![Flow checker with error](media/si-admin-create-flow-flow-checker-red-dot-example.png "Flow checker with error")
+
+    Select the **Flow Checker** and the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** is not entered. Resolve the error to continue.
+
+       > [!div class="mx-imgBorder"]       
+       > ![Flow checker error details](media/si-admin-create-flow-flow-checker-details-example.png "Flow checker error details")
 
     > [!NOTE]
-    > - If any errors occur, the **Flow Checker** displays the errors and warnings that you can resolve. You must resolve these errors and save the flow.
-    > - If you want to execute and ensure the flow is working properly before using it in the organization, select **Test**. This runs and validates each step in the flow. If any error occurs on a step, the step highlights and resolve the error to proceed.
-    > In this example, you see that the step **Look at all tasks in Dynamics 365** has failed the test. Select the step and more information on the error is displayed. You must resolve the error to proceed.
+    > You must resolve all errors and warnings to save the flow.
+
+9. Select **Test** button to test your flow. 
+
+    Ensure that all the configured steps are working as required. The test feature runs and validates each step in the flow and highlights if any error occurs on a step. You must resolve the error to proceed.
+
+    In this example, you see that the step **Look at all tasks in Dynamics 365** has failed the test. Select the step and more information on the error is displayed. You must resolve the error to proceed.
+
+    > [!div class="mx-imgBorder"]
     > ![Test flow of card](media/cc-test-run-flow.png "Test flow of card")
 
+10. Save the flow.
+
     When the card is saved, the **Manage insight cards** list gets updated and the **Due date coming up** card displays. Now you can edit the card to set priority and assign to different security roles.
+
+## View saved flows
+
+
+
+
+
+
+
 
 
 ### See also

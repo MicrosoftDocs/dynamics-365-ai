@@ -24,9 +24,6 @@ topic-status: Drafting
 
 The Assistant (formerly known as Relationship assistant) helps the sellers to track their daily actions and communications through a collection of actionable cards known as insight cards. 
 
-> [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Dynamics 365 for Sales are subject to our privacy statement.
-
 The Sales Insights provides assistant in two forms:
 
 - **Assistant for free**: This feature is available as free along with Dynamics 365 Sales. As an administrator, you must configure this feature for sellers in your organization to view insight cards such as task due today, custom activity due today, and email due today. These cards are available out-of-the-box with Dynamics 365 Sales. By default, the base cards are available in your organization, even if you do not enable the assistant. To configure Assistant (free), see [Configure and manage insight cards for Assistant (free)](#configure-and-manage-insight-cards-for-assistant-free).
@@ -34,6 +31,9 @@ The Sales Insights provides assistant in two forms:
 - **Assistant with advanced features through Studio**: The advanced assistant is available in Dynamics 365 Sales through the **Dynamics 365 Sales Insights** license. As an administrator, you must configure this feature for sales managers and sellers to create and manage insight cards through Studio. The Assistant (full capabilites) contains the **Home** and **Optimize ranking** tabs along with the tab **Insight cards** for you to configure and manage the custom insight cards. To configure the advanced Assistant, see [Configure and manage insight cards for Assistant (full capabilities)](#configure-and-manage-insight-cards-for-assistant-full-capabilities).
 
 ## Configure and manage insight cards for Assistant (free)
+
+> [!IMPORTANT]
+> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Dynamics 365 for Sales are subject to our privacy statement.
 
 1. Assign user privileges to give access to the Assistant features. The privileges required to access Sales Insights features are automatically enabled for all out-of-the-box security roles, but they're initially disabled for all custom roles. If you enable any Sales Insights features, you must check the settings listed in the following table to help ensure that your users can access those features, and to help ensure that other features don't stop working because of privilege cascades related to these features.
 
@@ -86,7 +86,7 @@ Sellers can also set their own personal preferences for their action cards. They
 ## Configure and manage insight cards for Assistant (full capabilities)
 
 > [!NOTE]
-> If you are using the preview Assistant, you will see the tabs **Home** and **Optimize ranking** already available for you and you don't need to do any additional configuration to enable the feature.
+> If you are using the preview assistant, you will see the tabs **Home** and **Optimize ranking** already available for you and you don't need to do any additional configuration to enable the feature.
 
 The Assistant (formerly known as Relationship assistant) displays actionable insight cards (formerly called action cards) for users in Dynamics 365 Sales. The assistant is evolving and we're introducing new capabilities such as customized insight cards to your team.
 
@@ -130,13 +130,13 @@ With the new redesigned assistant administration, you can perform tasks that wer
     > [!div class="mx-imgBorder"]
     > ![Assistant Studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant Studio home page")
 
-    1. **Create cards with Microsoft Flow**: This allows you to create cards that are custom made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md).
+       1. **Create cards with Microsoft Flow**: This allows you to create cards that are custom made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md).
     
-    2. **Quick view cards through tabs**: The tabs allows you to quickly view cards that are most popular, recently used, high in priority, and created by your organization.
+       2. **Quick view cards through tabs**: The tabs allows you to quickly view cards that are most popular, recently used, high in priority, and created by your organization.
     
-    3. **Table with card details**: This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize.  To learn more, see [Edit insight cards](edit-insight-cards.md).
+       3. **Table with card details**: This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize. To learn more, see [Edit insight cards](edit-insight-cards.md).
 
-    4.  **Search cards**: This allows you to search cards that you want to view or manage.
+       4.  **Search cards**: This allows you to search cards that you want to view or manage.
 
 4. On the **Optimize ranking** tab, you can create rules to prioritize cards to appear in the application.
 
