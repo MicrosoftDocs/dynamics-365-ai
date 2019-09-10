@@ -84,6 +84,7 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 
 ## [FAQs](faqs-sales-insights.md)
+<!-- create redirects for faqs-sales-insights-app.md and faqs-seller-app.md to this section-->
 <!--new file name-->
 
 ## [Privacy notice](privacy-notice.md) 
