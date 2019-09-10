@@ -129,11 +129,13 @@ You can always edit the flow of the card when there is a business need to update
 
 1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example we have selected the **No update in opportunity** card.
 
-   ![Open card to edit in flow](media/si-admin-edit-flow-select-edit-flow.png "Open card to edit in flow")
+    > [!div class="mx-imgBorder"]
+    > ![Open card to edit in flow](media/si-admin-edit-flow-select-edit-flow.png "Open card to edit in flow")
  
 2. Select **Edit card logic in Microsoft Flow** and the flow opens in a tab to edit.
 
-   ![Edit flow of card](media/si-admin-edit-card-edit-flow.png "Edit flow of card")
+    > [!div class="mx-imgBorder"]
+    > ![Edit flow of card](media/si-admin-edit-card-edit-flow.png "Edit flow of card")
  
 3. Edit the flow as required and select **Save**. The flow of the card is updated.
 
