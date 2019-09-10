@@ -125,15 +125,15 @@ To know how to optimize ranking of cards,  see [Optimize ranking of insight card
 You can always edit the flow of the card when there is a business need to update it. You can add or update conditions and steps, and update the properties of a condition. 
 
 > [!NOTE]
-> The **Edit in Flow** option appears only for the cards that are created in Microsoft Flow. You can see flow icon corresponding to the name of the cards that are created using Flow.
+> The **Edit card logic in Microsoft Flow** option appears only for the cards that are created in Microsoft Flow. You can see flow icon corresponding to the name of the cards that are created using Flow.
 
-1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example we have selected the **Opportunity Health Score Changed** card.
+1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example we have selected the **No update in opportunity** card.
 
-   ![Open card to edit in flow](media/cc-edit-flow.png "Open card to edit in flow")
+   ![Open card to edit in flow](media/si-admin-edit-flow-select-edit-flow.png "Open card to edit in flow")
  
-2. Select **Edit in Flow** and the flow opens in a tab to edit.
+2. Select **Edit card logic in Microsoft Flow** and the flow opens in a tab to edit.
 
-   ![Edit flow of card](media/cc-edit-card-edit-flow.png "Edit flow of card")
+   ![Edit flow of card](media/si-admin-edit-card-edit-flow.png "Edit flow of card")
  
 3. Edit the flow as required and select **Save**. The flow of the card is updated.
 
