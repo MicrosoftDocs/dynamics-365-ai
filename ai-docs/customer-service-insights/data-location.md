@@ -51,6 +51,9 @@ Microsoft may replicate customer data to other regions available within the same
 |                               |                                           |
 |    Japan                      |    Japan East (Tokyo, Saitama)            |
 |                               |    Japan West (Osaka)                     |
+| | |
+| France | France Central (Paris) |
+| | Framce South (Marseille) |
 
 
 
