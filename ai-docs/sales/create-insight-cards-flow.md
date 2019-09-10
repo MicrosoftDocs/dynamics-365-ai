@@ -159,7 +159,7 @@ After you create a flow, a card must be generated to based on the created flow t
 
 To access the saved flows, follow these steps:
 
-1. Go to [Microsoft Flow](flow.microsoft.com) and sign in with your Dynamics 365 credentials.
+1. Go to [Microsoft Flow](https://flow.microsoft.com) and sign in with your Dynamics 365 credentials.
 
     > [!NOTE]
     > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 
