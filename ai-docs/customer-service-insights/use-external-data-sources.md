@@ -20,7 +20,7 @@ ms.custom: "CSI, data-storage"
 
 Customer Service Insights can work with external data outside of Dynamics 365. Whether your customer service data lives in Salesforce, Zendesk, or other sources, you can leverage the same artificial intelligence (AI) model offered by Customer Service Insights to identify top trends and emerging topics for your organization. 
 
-## The Common Data Service 
+## Common Data Service 
 Customer Service Insights is designed to get data from the Common Data Service (CDS), which is a secure and cloud-based storage option for your data. It’s straightforward to set up a data integration project to pull data from your external data sources to CDS, and then you’ll be ready to use Customer Service Insights to connect to your data in CDS. 
 The following image describes how other data sources, such as Salesforce or Zendesk, go through a data integration process that then ingests the data into CDS.
   
@@ -30,7 +30,7 @@ The following image describes how other data sources, such as Salesforce or Zend
 
 ## Set up and use external data sources
 There are four parts to connecting and using external data sources:
-1.	[Set up a Common Service Database database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
+1.	[Set up a Common Data Service database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
 2.	[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)
 3.	[Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps)
 4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-for-ai-insights-in-customer-service-insights)  
@@ -46,8 +46,8 @@ What you’ll need:
 
 ### Create a custom entity in PowerApps
 Entities are used to model and manage business data. CDS has two types of entities:
--	[Standard entities that are used by default](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses these)
--	[Custom-created entities](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (you’ll need to create one of these to use external data sources)
+-	[Standard entities](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses the standard incident entity by default)
+-	[Custom entities](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (given incident is a restricted entity available only for those with a Dynamics 365 Customer Service license, you’ll need to create one of these to use external data sources)
 
 This section will show you how to create a custom entity that you can use to import data from an external source.
 
@@ -113,7 +113,7 @@ In the Classic Solution Explorer, select **Common Data Services Default Solution
 Repeat this for the option sets for each of the fields **CSAT** and **SLA Status**.
 
 ### Import your data from an external source in PowerApps
-Now that you have created the associated entities with CDS, you will need to specific the data that should be used to populate the entities.
+Now that you have created the associated entity within CDS, you will need to set up the data import process to populate the entity created. 
 
 1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
 
@@ -172,6 +172,6 @@ Once done, your workspace with external data imported in [Import your data from 
 > - **Customer Satisfaction**: find out the topics that impact CSAT the most.
 > - **Resolutions**: see which topics impact your resolution time both positively and negatively.
 > - **Topics**: this is where you can manage topics and cases belonging to each topic, you can provide AI feedback to further influence how future AI clustering will work. 
-> - You can right click on each topic and use Drillthrough to see a detailed dashboard for a topic.
+> - You can right click on each topic and use **Drillthrough** to see a detailed dashboard for a topic.
 
 
