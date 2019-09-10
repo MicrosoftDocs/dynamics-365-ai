@@ -86,7 +86,9 @@ Sellers can also set their own personal preferences for their action cards. They
 ## Configure and manage insight cards for Assistant (full capabilities)
 
 > [!NOTE]
-> If you are using the preview assistant, you will see the tabs **Home** and **Optimize ranking** already available for you and you don't need to do any additional configuration to enable the feature.
+> If you are using the preview assistant, you will see the tabs **Home** and **Optimize ranking** already available for you and you don't need to do any additional configuration to enable the feature. However, a banner is displayed on the top of the page to upgrade to latest Sales Insights. Select **Update now** to updated the solution to the latest version.
+> > [!div class="mx-imgBorder"]
+> > ![Update solution](media/si-admin-update-solution-latest.png "Update solution") 
 
 The Assistant (formerly known as Relationship assistant) displays actionable insight cards (formerly called action cards) for users in Dynamics 365 Sales. The assistant is evolving and we're introducing new capabilities such as customized insight cards to your team.
 

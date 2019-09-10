@@ -135,9 +135,14 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!NOTE]
     > You must resolve all errors and warnings to save the flow.
 
-11. Select **Test** button to test your flow. 
+11. (Optional) Select **Test** button to test your flow. 
 
     Ensure that all the configured steps are working as required. The test feature runs and validates each step in the flow and highlights if any error occurs on a step. You must resolve the error to proceed.
+
+    Select an option to test the flow by triggering actions or by using the data from previous test runs, and then select **Save & Test**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Test flow type](media/si-admin-create-flow-select-test-flow.png "Select Test flow type")
 
     In this example, you see that the step **Look at all tasks in Dynamics 365** has failed the test. Select the step and more information on the error is displayed. You must resolve the error to proceed.
 
@@ -148,15 +153,28 @@ In this procedure, we will show as an example how to create an insight to act wh
 
     When the card is saved, the **Manage insight cards** list gets updated and the **Due date coming up** card displays. Now you can edit the card to set priority and assign to different security roles.
 
-## View saved flows
+## View your saved flows
 
+After you create a flow, a card must be generated to based on the created flow to access the flow in the designer. Sometimes, cards may not be generated immediately and you may not find the created flow to update or view. 
 
+To access the saved flows, follow these steps:
 
+1. Go to [Microsoft Flow](flow.microsoft.com) and sign in with your Dynamics 365 credentials.
 
+    > [!NOTE]
+    > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 
 
+2. Select Solutions and then select Default Solution.
 
+    > [!div class="mx-imgBorder"]
+    > ![Select default solution option](media/si-admin-view-flows-solution-selection.png "Select default solution option")
 
+    All default solutions are listed.
 
+3. On the tool bar, go to Search and search for the flow that you want update or view.
+
+    > [!div class="mx-imgBorder"]
+    > ![Search your solution](media/si-admin-view-flows-search-solution.png "Search your solution")
 
 ### See also
 
