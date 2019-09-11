@@ -1,7 +1,7 @@
 ---
 title: "Navigate the Dynamics 365 Market Insights app | Microsoft Docs"
 description: "Explanation of the menu items and navigation experience in Market Insights."
-ms.date: 09/04/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
