@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Find answers to frequently asked questions about Market Insights."
 keywords: "FAQ, questions, common issues"
-ms.date: 09/04/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
