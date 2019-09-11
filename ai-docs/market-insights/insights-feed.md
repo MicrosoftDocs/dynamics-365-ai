@@ -18,6 +18,8 @@ search.app:
 
 # Insights feed and details view
 
+(This topic is pre-release documentation and is subject to change.)
+
 The Insights feed is the place to see your insights for your universe. The feed summarizes each insight and you can expand them to see more details.
 
 ## Navigate the Insights feed

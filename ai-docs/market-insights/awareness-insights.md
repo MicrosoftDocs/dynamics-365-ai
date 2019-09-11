@@ -1,7 +1,7 @@
 ---
 title: "Awareness insights in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Insights related to the awareness insights type."
-ms.date: 09/04/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # Awareness insights
+
+(This topic is pre-release documentation and is subject to change.)
 
 ## Overview
 

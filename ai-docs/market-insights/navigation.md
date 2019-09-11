@@ -18,6 +18,8 @@ search.app:
 
 # Navigate in the app
 
+(This topic is pre-release documentation and is subject to change.)
+
 The main navigation in Dynamics 365 Market Insights Preview lets you access all relevant areas and consists of the header and the left-side navigation. 
 
 ## Navigation items
@@ -37,4 +39,4 @@ The following items are available:
 - The menu icon expands or collapses the side navigation.
     - **Insights** shows the [feed with insights](insights-feed.md) for the elements you defined in your universe.
     - **Universe** [configures the elements in your universe](universe.md) to receive insights for.
-    - **Settings** lets you [manage your account and the notifications](settings.md).
+    - **Preferences** lets you [manage your account and the notifications](settings.md).

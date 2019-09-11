@@ -18,6 +18,8 @@ search.app:
 
 # News insights
 
+(This topic is pre-release documentation and is subject to change.)
+
 ## News articles
 
 Good business decisions are driven by good information. Business and sales professionals need to stay updated on their own and their customers' activities on a daily basis. However, it can be time costly to navigate individual websites in search of what's most relevant.

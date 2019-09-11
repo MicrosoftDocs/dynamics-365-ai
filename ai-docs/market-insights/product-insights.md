@@ -18,9 +18,13 @@ search.app:
 
 # Product attributes insight
 
+(This topic is pre-release documentation and is subject to change.)
+
+
 ## Overview
 
-Customers often search online to compare features of competing products or services before making a decision. For example, customers who are interested in purchasing a new computer may care more about one feature than another (for example, screen size vs. battery life).  
+Customers often search online to compare features of competing products or services before making a decision. For example, customers who are interested in purchasing a new computer may care more about one feature than another (for example, screen size vs. battery life).   
+
 **Commonly searched keywords** provides a view with the top 5 keywords associated with your, or any, products or services.
 
 > [!div class="mx-imgBorder"]

@@ -17,6 +17,8 @@ search.app:
 ---
 # Manage your settings
 
+(This topic is pre-release documentation and is subject to change.)
+
 The settings page in Market Insights Preview lets you manage your preferences.
 
 To find your settings, open the left navigation and select **Preferences**.

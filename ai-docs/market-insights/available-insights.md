@@ -18,6 +18,8 @@ search.app:
 
 # Available insights in Dynamics 365 Market Insights Preview
 
+(This topic is pre-release documentation and is subject to change.)
+
 The following insight types are currently available in the Market Insights app. Please refer to the dedicated pages for more details.
 
 - [Awareness insights](awareness-insights.md)
