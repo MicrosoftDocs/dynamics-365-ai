@@ -22,7 +22,8 @@ search.app:
 
 The universe represents the setup of Market Insights Preview. It consists of one or more elements and the relationship between these elements. You can create up to 30 elements for your universe.
 
-![List of elements in a business universe with an opened edit pane](media/universe-tablemode.png)
+> [!div class="mx-imgBorder"]
+> ![List of elements in a business universe with an opened edit pane](media/universe-tablemode.png)
 
 ## How to configure the universe
 

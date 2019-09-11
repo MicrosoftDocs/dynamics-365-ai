@@ -22,7 +22,8 @@ The Insights feed is the place to see your insights for your universe. The feed 
 
 ## Navigate the Insights feed
 
-![Insights feed showing cards with news and more](media/feed-view.png)
+> [!div class="mx-imgBorder"]
+> ![Insights feed showing cards with news and more](media/feed-view.png)
 
 To see the latest and most relevant insights for your universe go to to the Insights feed.
 

@@ -24,7 +24,8 @@ Good business decisions are driven by good information. Business and sales profe
 
 **News** provides a view that shows the three most relevant articles in your feed and gives you access to more information about them.
 
-![Insight detail showing relevant news articles for a topic](media/insight-details-news.png)
+> [!div class="mx-imgBorder"]
+> ![Insight detail showing relevant news articles for a topic](media/insight-details-news.png)
 
 ### News data and frequency
 

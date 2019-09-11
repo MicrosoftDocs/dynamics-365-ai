@@ -10,9 +10,7 @@
 # Insights references
 ## [List of insights](available-insights.md)
 ## [News insights](news-events-insights.md)
-## [Product features insight](product-insights.md)
+## [Product attributes insight](product-insights.md)
 ## [Awareness insights](awareness-insights.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)
-## [Known issues](known-issues.md)
-## [Release plans](https://docs.microsoft.com/dynamics365-release-plan/)

@@ -26,13 +26,15 @@ Staying on top of the market for a product or service is critical to success. Th
 
 **Trending terms** identifies specific search terms that are trending based on what people are searching for related to a given element in the universe.
 
-![Insight details showing a newly trending term and related news](media/insight-details-rising-topics.png)
+> [!div class="mx-imgBorder"]
+> ![Insight details showing a newly trending term and related news](media/insight-details-rising-topics.png)
 
 ## Search activity
 
 **Search activity** analyzes the volume of searches for a given element. If a significant change in search volume is detected, a new insight will show in the feed.
 
-![Insight details showing a chart with a gradual rise in search trend and related news](media/insight-details-search-trends.png)
+> [!div class="mx-imgBorder"]
+> ![Insight details showing a chart with a gradual rise in search trend and related news](media/insight-details-search-trends.png)
 
 ## Data and frequency
 

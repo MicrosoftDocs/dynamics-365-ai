@@ -22,7 +22,8 @@ search.app:
 
 Market Insights aims at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The insights are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments.
 
-![Insights feed showing cards with news and more](media/feed-view.png)
+> [!div class="mx-imgBorder"]
+> ![Insights feed showing cards with news and more](media/feed-view.png)
 
 - Find out what your **customers** are *saying, searching, and feeling* about your brand, product, company, or your competitors.
 - Know what your **competitors** are doing and learn about product launches, pricing changes, or hiring updates.
