@@ -16,8 +16,8 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Create insight cards](create-insight-cards-flow.md)
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
-#### [Create custom actions for insight cards](extend-relationship-assistant-card.md)
-##### [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+#### [Create insight cards using solution](extend-relationship-assistant-card.md)
+##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
 ### Configure Productivity intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)
@@ -34,10 +34,6 @@ This section is merged with Configure assistant. Redirect should direct to confi
 <!--new file name-->
 #### [Configure Who knows whom](configure-who-knows-whom.md)
 <!--new file name-->
-#### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
-##### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
-##### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
-##### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 
 ### Configure Predictive models
 #### [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
@@ -54,6 +50,11 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Connect to Dynamics 365 for Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
 #### [Enable preview features](../sales/enable-preview-features-sales-insights-app.md)
+
+### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
+#### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
+#### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
+#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 
 ## User guide
 
