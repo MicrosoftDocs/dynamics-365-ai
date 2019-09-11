@@ -29,6 +29,7 @@ The following items are available:
 - The app name redirects you to the Insights feed.
 
 - The help icon opens a pane with helpful links:
+
     - **Help documentation** brings you to the content you are currently reading.
     - **Community** links a forum where you can post questions, get help from other users or discuss topics related to Market Insights.
     - **Send feedback** opens a feedback form to share your opinion about Market Insights Preview. We'd love to hear from you!
@@ -37,6 +38,7 @@ The following items are available:
 - The profile picture or initials opens the **My account** pane where you can sign out from the app. If you signed up with your LinkedIn or Google account, we can't show your account picture and show your initials instead.
 
 - The menu icon expands or collapses the side navigation.
+
     - **Insights** shows the [feed with insights](insights-feed.md) for the elements you defined in your universe.
-    - **Universe** [configures the elements in your universe](universe.md) to receive insights for.
+    - **Universe** allows you to [configure the elements in your universe](universe.md) to receive insights for.
     - **Preferences** lets you [manage your account and the notifications](settings.md).
