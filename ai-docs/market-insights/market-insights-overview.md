@@ -1,7 +1,7 @@
 ---
 title: "Overview for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Introduction to Market Insights."
-ms.date: 08/29/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann

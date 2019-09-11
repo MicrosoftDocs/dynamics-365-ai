@@ -1,7 +1,7 @@
 ---
 title: "Data sources for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Data sources used to calculate and find insights for business professionals."
-ms.date: 09/04/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann

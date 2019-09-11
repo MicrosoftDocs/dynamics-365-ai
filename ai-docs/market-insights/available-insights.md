@@ -1,7 +1,7 @@
 ---
 title: "Insight types in Market Insights | Microsoft Docs"
 description: "List of available insight types."
-ms.date: 09/04/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -22,4 +22,4 @@ The following insight types are currently available in the Market Insights app. 
 
 - [Awareness insights](awareness-insights.md)
 - [News insights](news-events-insights.md)
-- [Product features insight](product-insights.md)
+- [Product attributes insights](product-insights.md)
