@@ -20,6 +20,10 @@ search.app:
 
 (This topic is pre-release documentation and is subject to change.)
 
+Today, business professionals face several challenges to understanding their customers and their market. An enormous amount of information is continuously being updated and coming from many different sources. In addition, some of the information needed might not be accessible. It might also take weeks or months to collect and understand the information about a specific topic, and this information is often expensive to access, gather, and process. In the worst case, you might miss an important event or find out about it too late. These challenges result in low visibility into market trends and missed opportunities to build customer relationships.
+
+With Dynamics 365 Market Insights, you can close this gap with access to a variety of insights about the things you’re interested in most (such as your products, customers, competitors, partners, events, and general topics). These insights come from a variety of data sources (including but not limited to news, web data, internet browsing behavior, and search activity) and are delivered to you in a concise, timely, and proactive manner. In addition to providing relevant news about your topics, Market Insights also enables you to make more informed decisions based on what consumers say, seek, and feel about their products and brands.
+
 Market Insights aims at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The insights are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments.
 
 > [!div class="mx-imgBorder"]
@@ -48,7 +52,7 @@ We apply data science and machine learning to your topic, finding articles with 
 
 ### Content relevant for business professionals
 
-In addition, we try to bring you content that is more relevant for business professionals like mergers, acquisitions, product launches/sunsets, customer issues etc. As our service evolves, we will continue making improvements and love to hear your feedback. Send us feedback directly from the app experience so we can improve the service.
+In addition, we bring you content that is more relevant for business professionals like mergers, acquisitions, product launches/sunsets, customer issues etc. As our service evolves, we will continue making improvements and love to hear your feedback. Send us feedback directly from the app experience so we can improve the service.
 
 ### Features tailored to business professionals
 
