@@ -31,9 +31,12 @@ The universe represents the setup of Market Insights Preview. It consists of one
 
 1. In the left navigation select **Universe**.
 2. Select **Add an element**.
-3. In the **Create element** pane, enter a search term and select a result from the list. If you choose a verified element (the list item shows a green check mark), it'll auto-populate the remaining fields but you can change them if needed.
+3. In the **Create element** pane, enter a search term and select a result from the list. If you choose a verified entity (the list item shows a green check mark), it'll auto-populate the **Type** and **Website** fields.
 4. If you have already created elements, you can choose an element this competes with.
 5. To save your element, select **Create**
+
+> [!TIP]
+> We recommend using verified entities in your elements because this allows the system to generate insights with higher accuracy and relevance which leads to better quality in general. If the topic that matters to you isn't available as verified entity, you can choose a custom entity and its type and website manually.
 
 ### Change the name of the universe
 
@@ -41,6 +44,7 @@ Changing the name of the universe has no impact on the insights.
 
 1. In the left navigation select **Universe**.
 2. Select **Edit universe name**.
+3. Edit the name and select **Save** to apply your changes.
 
 ### Edit an existing element
 
@@ -49,7 +53,7 @@ New insights will be generated for the updated element. If there is data availab
 
 1. In the left navigation select **Universe**.
 2. Select an element from the list.
-3. In the **Edit element** pane, update the values. 
+3. In the **Edit element** pane, update the values.
 4. To save your updates, select **Apply**.
 
 ### Delete an element
@@ -72,17 +76,13 @@ When entering a product or a company, a list with suggested results appears that
 
 #### Element type
 
-This field is automatically filled in if you select a verified entry in the Product/Company field but you can always change the type of an element.  
+This field is automatically filled in if you select a verified entry and you can't edit it. However, if you select a custom entry, you can freely choose the type of your element.  
 
 Currently, 3 types of elements are supported:
 
 - Product
 - Company
 - Other
-
-Changing the type of an element will influence the accuracy and relevance of the insights for that element. 
-
-Example: If you select the verified entry for Microsoft, the element type will be **Company**. Changing the element type will reduce the quality, accuracy, and relevance of your insights. We recommend to change the auto-populated type only if it's incorrect.
 
 #### Website field
 
@@ -100,8 +100,16 @@ Currently, 3 types of affiliation are supported:
 - Not mine
 - No affiliation
 
+For example, if you work for Microsoft and one of your elements is PowerBI, we recommend that you set the affiliation to “Mine”.
+
+> [!NOTE]
+> Currently, your insights won't change when defining the affiliation of an element.
+
 #### Competes with field
 
-This field lets users specify which companies or products compete with their products or companies. You can only define the competition between the same type of elements and you need to create these elements first.
+This field lets users specify which companies or products compete with their products or companies.
+
+> [!NOTE]
+> Currently, your insights won't change when defining competitors of your elements.
 
 Select **Add another competitor** if you want to add additional competing elements.
