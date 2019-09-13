@@ -29,7 +29,7 @@ Market Insights aims at helping business professionals stay ahead of the game on
 > [!div class="mx-imgBorder"]
 > ![Insights feed showing cards with news and more](media/feed-view.png)
 
-- Find out what your **customers** are *saying, searching, and feeling* about your brand, product, company, or your competitors.
+- Find out what your **customers** are *saying, seeking, and feeling* about your brand, product, company, or your competitors.
 - Know what your **competitors** are doing and learn about product launches, pricing changes, or hiring updates.
 - Track what’s happening in the **industry** and if there are product trends, new entrants to the market, or rumors of mergers and acquisitions.
 - Keep an eye on **major events** that are important to your business like conferences, trade shows, or specific product launches.
