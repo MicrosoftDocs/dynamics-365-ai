@@ -42,6 +42,3 @@ To have your data exported, updated, or deleted, send us an [email](mailto:micus
 > - If you request deletion of your data, all data will be removed and can't be restored. Even after signing in with the same profile again, all your alerts and feedback we gathered to refine your alerts will be lost.
 > - To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. If this doesn't work, send us an email and request the change.
  
-### See also
-[Market Insights alerts overview](alerts-overview.md)    
-[Manage your alerts](alerts-management.md)    
