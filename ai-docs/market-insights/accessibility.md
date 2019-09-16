@@ -2,7 +2,7 @@
 title: "Accessibility for Market Insights | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Market Insights."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 05/09/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: c4e0ec5b-2b74-4805-9741-f0aae8501ec2
@@ -21,12 +21,12 @@ search.app:
   - D365SE
 ---
 
-# Accessibility for [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)]
+# Accessibility for [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Preview
 
 (This topic is pre-release documentation and is subject to change.)
 
 [Microsoft is committed to building software that enables people with different abilities](https://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
-[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
+[!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Preview enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
 ## Accessibility capabilities built into [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)]
 
@@ -49,7 +49,6 @@ All tables in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md
 - Each table row can have several cells. To move within a row, use the left and right arrow keys.
 - To move to the next row, use the up and down arrow keys. Focus will move the same cell type in the next row.
 - If a cell contains a single control, the focus will move to the control. Simply activate the control to interact with it. Example: “Remove” control to remove the item of that row.
-- If a cell contains content and/or several controls, the focus is set to the cell border. To interact with the elements inside this cell select the Enter or F2 key to move focus into the cell. In this mode, you can interact with each element in this cell including activating controls by using the arrow keys to move focus. To leave a cell, select the Escape or F2 key to move the focus back onto the cell border.
 
 ### Heighten color contrast of some text and images
 
