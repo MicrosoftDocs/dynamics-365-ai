@@ -1,11 +1,10 @@
 ---
-title: "Frequently asked questions for Market Insights | Microsoft Docs"
+title: "Frequently asked questions for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Find answers to frequently asked questions about Market Insights."
-keywords: "FAQ, questions, common issues, quota, search setup, search topics"
-ms.date: 04/02/2019
+keywords: "FAQ, questions, common issues"
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
-ms.assetid: 30351228-2274-4998-933f-6a3fa6453274
 author: m-hartmann
 ms.author: mhart
 ms.custom: dyn365-ai-marketinsights
@@ -18,33 +17,28 @@ search.app:
   - D365SE
 ---
 
-# [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] FAQ
+# FAQ for Dynamics 365 Market Insights Preview
 
 (This topic is pre-release documentation and is subject to change.)
 
-Are you new to [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
+Are you new to Market Insights or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
 
-## I did not receive an alert email. What happened?
+## Where does the data come from?
 
-- After you [create an alert](alerts-management.md#create-an-alert), you will receive your first alert the next morning. We are working on sending you a confirmation email right away (coming soon).
-- We don't send an email when there isn't something important enough to alert you about. 
-- Please [sign in](alerts-management.md#sign-in-to-the-app) to your account to verify if you had created an alert.
+Market Insights uses billions of data points, mainly from searches which web users performed and browser data. For more information, see [Data sources used in Dynamics 365 Market Insights](about-data.md).
 
-## The news articles in the email don't seem relevant to my topic. What's going on?
+## What does “normalized search volume" mean?
 
-Making sure the [email content is relevant to you](alerts-data-science.md) is our top priority. Please send us feedback if you have this issue. You can select the **Flag as irrelevant** link in the email to make this process most efficient.
+We provide search volume on a scale from 0 to 100 where 100 represents the peak search volume for an element in the given time period. All other data points are relative to this peak search volume. A value of 50 means the element is half as popular from its peak popularity. A value of 0 means that there isn't enough search volume data to provide a normalized value.
 
-## The preview I am seeing doesn't seem that relevant. Why?
+## What is a spike increase vs. a gradual increase?
 
-There's a lot of AI that goes into curating the best content for you. In order to show you a preview immediately, we only do some of it - so rest assured that in most cases what you get in your email will be better than what you see in the preview. The preview is there to help you refine your topic. In the coming months, we will improve the preview significantly.
+A spike represents a significant increase in search volume over a 24-48 hour period. A gradual increase represents a significant increase in search volume over a 28 or 90 day period. Market Insights uses rolling averages to ensure the increases truly represent a rising interest.
 
-## How do I setup a topic with more than just a phrase?
+## How often do insights get updated?
 
-Please use the **Show advanced** functionality to [refine your topic](alerts-management.md#tips-on-refining-your-topic). 
+It depends on the type of insights. Some are updated daily, others less frequently. Please refer to the documentation about the [available insights](available-insights.md) to learn more.
 
-### See also
+## What is a "verified" company or product?
 
-[Market Insights alerts - track topics that matter to you](alerts-overview.md)    
-[How relevancy is determined in alerts](alerts-data-science.md)    
-[Data handling for Dynamics 365 Market Insights alerts](alerts-data-handling.md)
- 
+We maintain a curated set of entities based on the most popular search queries. These entities are well understood by the system and come with enriched information. **Verified** indicates that the selected element is one of our curated entities. Market Insights can provide better and richer insights for verified entities.

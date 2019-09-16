@@ -1,11 +1,10 @@
 ---
-title: "Pointers for Market Insights | Microsoft Docs"
+title: "Pointers for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
-ms.date: 07/03/2019
+ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
-ms.assetid: 08bc1f91-bd7b-4083-99d9-72770f5cd673
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -21,25 +20,42 @@ search.app:
 
 # [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md)] Help & Training
 
+> [!NOTE]
+> If you used the preview of Market Insights alerts, please read the [community blog post](https://community.dynamics.com/365/aimarketinsights/b/marketinsightsteamblog/posts/introducing-a-new-app-experience-for-dynamics-365-market-insights ) for more details about the new app experience.
+
 <table>
 <tr>
 <td>
 
-<h2> Alerts </h2>
+<h2> App experiences</h2>
 
-<li><a href="alerts-overview.md" data-raw-source="[Market Insights alerts](alerts-overview.md)">Market Insights alerts</a></li>
-<li><a href="alerts-management.md" data-raw-source="[Manage your alerts](alerts-management.md)">Manage your alerts</a></li>
-<li><a href="alerts-data-science.md" data-raw-source="[How relevancy is determined](alerts-data-science.md)">How relevancy is determined</a></li>
+<li><a href="navigation.md" data-raw-source="[Navigate in the app](navigation.md)">Navigate in the app</a></li>
+<li><a href="universe.md" data-raw-source="[Configure the universe and elements](universe.md)">Configure the universe and elements</a></li>
+<li><a href="settings.md" data-raw-source="[Manage your settings](settings.md)">Manage your settings</a></li>
 </td>
 
 <td>
 
-<h2> General </h2>
+<h2> Insights </h2>
 
-<li><a href="known-issues.md" data-raw-source="[Known issues](known-issues.md)">Known issues</a></li>
-<li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
-<li><a href="alerts-data-handling.md" data-raw-source="[Data handling for alerts](alerts-data-handling.md)">Data handling for alerts</a></li>
+<li><a href="news-events-insights.md" data-raw-source="[News insights](news-events-insights.md)">News insights</a></li>
+<li><a href="product-insights.md" data-raw-source="[Product attributes insight](product-insights.md)">Product features insights</a></li>
+<li><a href="awareness-insights.md" data-raw-source="[Awareness insights](awareness-insights.md)">Awareness insights</a></li>
 </td>
 </tr>
 
+<tr>
+<td>
+
+<h2> General information </h2>
+
+<li><a href="market-insights-overview.md" data-raw-source="[Market Insights overview](market-insights-overview.md)">Overview</a></li>
+<li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
+</td>
+
+<td>
+
+
+</td>
+</tr>
 </table>
