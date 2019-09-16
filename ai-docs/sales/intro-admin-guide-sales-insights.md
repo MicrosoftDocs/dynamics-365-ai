@@ -91,9 +91,9 @@ After you enable the free Sales Insights features, you can configure the feature
 
 -	To configure Assistant (free), see [Configure and manage insight cards for Assistant (free)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-free).
 
--	To configure Auto capture (free), see <link to auto capture free configuration section>
+-	To configure Auto capture (free), see [Enable Auto capture](configure-auto-capture.md)
 
--	To configure Email engagement (free), see <link to email engagement free configuration section>
+-	To configure Email engagement (free), see [Configure and enable email engagement](configure-email-engagement.md)
 
 ## Enable and configure advanced Sales Insights features
 

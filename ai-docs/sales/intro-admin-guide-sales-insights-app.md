@@ -1,7 +1,6 @@
 ---
 title: "Introduction on how to administer Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Introduction on how to administer Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 

@@ -1,7 +1,6 @@
 ---
-title: "Get suggestive action on notes for Dynamics 365 Customer Engagement  | MicrosoftDocs"
+title: "Get suggestive action on notes for Dynamics 365 Sales Insights  | MicrosoftDocs"
 description: "Get intelligent suggestions on action that you take on notes you enter during a recent meeting or discussion with your customer."
-keywords: "notes analysis, Dynamics 365 Sales Insights, AI sales, Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -22,17 +21,15 @@ topic-status: Drafting
 
 # How Notes analysis assists you with suggestion
 
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
-
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] allows you to view and quickly enter notes on **Timeline** control (formerly known as activity wall). When you enter notes regarding a recent meeting or discussion with your customer, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] monitors these notes and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.<br>
+Dynamics 365 Sales Insights allows you to view and quickly enter notes on **Timeline** control (formerly known as activity wall). When you enter notes regarding a recent meeting or discussion with your customer, Dynamics 365 Sales Insights monitors these notes and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.<br>
 **Timeline** control is available on contacts, opportunities, leads, accounts, and case forms.<br> 
  > [!div class="mx-imgBorder"]
  > ![Suggested actions on Timeline control](media/notesanalysis-timelinecontrol.png "Suggested actions on Timeline control")<br>
 When you save a note, the text in the note is highlighted and when selected, suggestions are displayed. These suggestions include: Creating activities, tasks, contacts, meeting, content requests, and issue detection.<br>
-For example, you created a note “*Meet the customer on the May 4 at 4:00 PM*”. When you select this text, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] provides an automatic suggestion to create an appointment.<br>
+For example, you created a note “*Meet the customer on the May 4 at 4:00 PM*”. When you select this text, Dynamics 365 Sales Insights provides an automatic suggestion to create an appointment.<br>
  > [!div class="mx-imgBorder"]
  > ![Create an appointment](media/notesanalysis_createappointment.png "Create an appointment")<br>
-When you have multiple suggestions associated with a note, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] displays those multiple suggestions—you can take timely actions depending on your requirements. For example, you have created a note to contact your customer regarding pricing and schedule a meeting to further discuss the deal. The note shows suggestions to create an appointment and schedule a phone call. Let's look this example to see how suggestion-based notes work with multiple suggestions:<br>
+When you have multiple suggestions associated with a note, Dynamics 365 Sales Insights displays those multiple suggestions—you can take timely actions depending on your requirements. For example, you have created a note to contact your customer regarding pricing and schedule a meeting to further discuss the deal. The note shows suggestions to create an appointment and schedule a phone call. Let's look this example to see how suggestion-based notes work with multiple suggestions:<br>
 1.	Open a record with the note and select the note text. <br> 
     In this example, the note specifies to call Debra to discuss the pricing of deal and schedule a meeting to discuss meeting.<br>
     > [!div class="mx-imgBorder"]

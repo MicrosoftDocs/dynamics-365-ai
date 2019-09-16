@@ -1,7 +1,7 @@
 ---
 title: "First-run set up experience for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "First-run set up experience for Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
+keywords: 
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 

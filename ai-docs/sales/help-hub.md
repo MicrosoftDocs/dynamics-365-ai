@@ -1,7 +1,6 @@
 ---
 title: "Documentation resources for Dynamics 365 Sales Insights | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Insights."
-keywords: "sales;help;AI;sales AI"
 ms.date: 10/31/2018
 ms.service: 
   - dynamics-365-sales
