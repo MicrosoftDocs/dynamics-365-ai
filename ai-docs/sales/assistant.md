@@ -1,5 +1,5 @@
 ---
-title: "Relationship assistant for Dynamics 365 Sales | MicrosoftDocs"
+title: "Assistant for Dynamics 365 Sales | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -15,28 +15,28 @@ ms.tgt_pltfrm:
 caps.latest.revision: 22
 ---
 
-# Use relationship assistant to guide customer communications
+# Use assistant to guide customer communications
 
-The relationship assistant is part of the new *Embedded intelligence* suite of features. The assistant keeps an eye on your daily actions and communications, and generates a collection of *action cards* that are displayed prominently throughout the application to provide tailored, actionable insights. The assistant reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more.  
+The assistant (formerly known as assistant) is part of the new *Embedded intelligence* suite of features. The assistant keeps an eye on your daily actions and communications, and generates a collection of *action cards* that are displayed prominently throughout the application to provide tailored, actionable insights. The assistant reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more.  
 
-The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
+The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Assistant](configure-assistant.md).
 
-## How and where the relationship assistant can help you  
+## How and where the assistant can help you  
 
- The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
+ The assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
 
  When you start your day by signing in to Dynamics 365 Sales, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   
- ![Relationship assistant carousel on a dashboard](media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
+ ![assistant carousel on a dashboard](media/relationship-assistant-carousel-on-dashboard.png "assistant carousel on a dashboard")  
   
- The figure shows a typical dashboard that includes the relationship assistant carousel. It highlights the following elements:  
+ The figure shows a typical dashboard that includes the assistant carousel. It highlights the following elements:  
   
-1. **Action card carousel**: The relationship assistant shows pending action cards here. The most important card is shown on the left, and additional cards may be visible depending on your screen resolution and which view you are using. As you work, dismissing and snoozing cards, additional cards slide in from the right. The figure shows a top-level dashboard, so these cards are drawn from all areas of the site; carousels are also available on individual record views, where the cards are filtered for your specific context.  
+1. **Action card carousel**: The assistant shows pending action cards here. The most important card is shown on the left, and additional cards may be visible depending on your screen resolution and which view you are using. As you work, dismissing and snoozing cards, additional cards slide in from the right. The figure shows a top-level dashboard, so these cards are drawn from all areas of the site; carousels are also available on individual record views, where the cards are filtered for your specific context.  
   
 2. **Action card**: This is a single action card.  
   
 3. **Assistant column button**:  select the button to view all available action cards in a vertical, scrollable column. The carousel is hidden when you choose this view.    
-4. **Feedback and customization buttons**: These are shown in the upper-right corner of both the carousel and the column views. Use the button on the left to provide feedback about the assistant to Microsoft. Use the button on the right to open your relationship assistant preferences, where you can choose which types of cards you want to see and set options for some of them.  
+4. **Feedback and customization buttons**: These are shown in the upper-right corner of both the carousel and the column views. Use the button on the left to provide feedback about the assistant to Microsoft. Use the button on the right to open your assistant preferences, where you can choose which types of cards you want to see and set options for some of them.  
   
 As you drill down into specific records, such as an opportunity or contact, the assistant displays only those cards that are related to the record you are working with. As on the front-page dashboard, the assistant typically opens by showing a carousel, and includes an **Assistant** tab in the center column, which you can open to scroll through all the available cards for the current record.  
   
@@ -56,17 +56,17 @@ Action cards are made up of the following elements, as labeled in the figure:
 
 ## Enable and configure the action cards that are most helpful for you  
 
- You can customize the relationship assistant by choosing which types of action cards you'd like to see and, for some types of cards, by setting configuration options. To configure the relationship assistant:  
+ You can customize the assistant by choosing which types of action cards you'd like to see and, for some types of cards, by setting configuration options. To configure the assistant:  
   
-1. Open the relationship assistant settings by doing *one* of the following:  
+1. Open the assistant settings by doing *one* of the following:  
   
-   - Go to any page in Dynamics 365 Sales where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
+   - Go to any page in Dynamics 365 Sales where you can see action cards, and then select the **Customize** button ![Customize cards button in the assistant](media/customize-cards-shown-relationship-assistant.png "Customize cards button in the assistant") in the upper-right corner of the card container.  
   
-   - Select the **Settings** button ![Settings button on the nav bar](media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal relationship assistant settings** link.  
+   - Select the **Settings** button ![Settings button on the nav bar](media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal assistant settings** link.  
   
-2. The **Relationship assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
+2. The **assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
   
-   ![Relationship assistant settings window](media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
+   ![assistant settings window](media/relationship-assistant-settings-window.png "assistant settings window")  
   
     Work with these settings as follows:  
   
@@ -84,9 +84,10 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 ## Privacy notice  
 
-For specific privacy information about Relationship assistant, see [Privacy notice](privacy-notice-ee.md).
+For specific privacy information about assistant, see [Privacy notice](privacy-notice-ee.md).
 
 ### See also  
 
--  [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)<br>
--  [Action cards reference](action-cards-reference.md)
+[Configure Assistant](configure-assistant.md)
+
+[Action cards reference](action-cards-reference.md)
