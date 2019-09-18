@@ -203,3 +203,7 @@ You can also update each setting later as required. The following are the availa
 [Overview of Dynamics 365 Sales Insights](overview.md)
 
 [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
+
+[GDPR for Sales Insights](embedded-intelligence-gdpr.md)
+
+[Privacy notice](privacy-notice.md) 

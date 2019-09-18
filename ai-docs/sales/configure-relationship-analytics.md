@@ -84,3 +84,11 @@ To enable Dynamics 365 Sales Insights – Analytics, follow these steps:
 [View customer activity history](../sales/relationship-analytics.md)
 
 [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+
+[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+
+[GDPR for Sales Insights](embedded-intelligence-gdpr.md)
+
+[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+
+[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)

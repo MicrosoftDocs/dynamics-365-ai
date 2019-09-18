@@ -42,7 +42,7 @@ This section is merged with Configure assistant. Redirect should direct to confi
 <!--new file name-->
 
 ### Configure Sales Insights application
-#### [Introduction to administer Sales Insights application](../sales/intro-admin-guide-sales-insights-app.md)
+<!--#### [Introduction to administer Sales Insights application](../sales/intro-admin-guide-sales-insights-app.md) Remove the section intro-admin-guide-sales-insights-app.md and add redirect to intro-admin-guide-sales-insights.md-->
 #### [Prerequisites to use Sales Insights application](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
 #### [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md)
