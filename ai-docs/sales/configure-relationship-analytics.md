@@ -52,7 +52,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
     |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
     > [!div class="mx-imgBorder"]
-    > ![Relationship analytics configuration settings page](media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")
+    > ![Relationship analytics configuration settings page](media/si-admin-relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")
 
 6. Select **Save**.
 
