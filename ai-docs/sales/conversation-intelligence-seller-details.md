@@ -18,8 +18,6 @@ topic-status: Drafting
 
 # Analyze customer calls to improve sales
 
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
-
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to the **Dynamics 365 Sales Insights** application, and select **Seller details**.
 
 ## Seller details page for sales managers
