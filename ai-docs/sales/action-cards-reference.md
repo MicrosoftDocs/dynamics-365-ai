@@ -1,5 +1,5 @@
 ---
-title: "insight cards reference for Dynamics 365 apps | MicrosoftDocs"
+title: "insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online

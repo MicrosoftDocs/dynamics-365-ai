@@ -50,7 +50,7 @@ Verify the following prerequisites before enabling email engagement for your org
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the **Sales Insights settings** page, select **Grant Permissions**.
+3. On the **Sales Insights settings** page, select **Grant Permissions** from the **Email engagement (fee)** section.
 
     > [!div class="mx-imgBorder"]
     > ![Email engagement grant permissions](media/si-admin-email-engagement-grant-permissions.png "Email engagement grant permissions") <br>

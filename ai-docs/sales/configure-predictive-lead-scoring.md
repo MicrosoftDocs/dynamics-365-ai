@@ -27,25 +27,32 @@ Predictive lead scoring helps users to focus on revenue generation efforts by pr
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3.  On the sitemap, select **Lead scoring** under **Predictive models** to go to **Manage insight cards** page.
+3.  On the sitemap, select **Lead scoring** under **Predictive models**.
 
     > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Predictive lead scoring** section to go to **Manage insight cards** page.
+    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Predictive lead scoring** section to go to configuration page.
 
-1. On the **Overview** tab, select **Configuration** from the **Predictive lead scoring** section.
+    The **Getting started** page opens.
+
     > [!div class="mx-imgBorder"]
-    > ![Predictive lead scoring configuration](media/predictive-lead-scoring-configuration.png "Predictive lead scoring configuration")<br>
+    > ![Predictive lead scoring getting started page](media/si-admin-predictive-lead-scoring-getting-started-page.png "Predictive lead scoring getting started page")
 
-   > [!NOTE]
-   > You can also select the **Predictive lead scoring** tab.
+4. Select **Create Model**.
 
-   The configuration page opens.
-3. Select **Create Model**.
     > [!div class="mx-imgBorder"]
-    > ![Create model in Predictive lead scoring](media/predictive-lead-scoring-create-model.png "Create model in Predictive lead scoring")<br>
+    > ![Create model in Predictive lead scoring](media/si-admin-predictive-lead-scoring-create-model.png "Create model in Predictive lead scoring")<br>
 
-   Creating a model takes a few minutes. You will see the progress on the screen.<br>
-1. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
+   Creating a model takes a few minutes. You will see the progress on the screen.
+
+
+
+
+
+
+
+
+5. Verify that the **Prediction Accuracy** score from **Model Outcome** matches your organizational requirements and select **Apply Model**.
+
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring accuracy score](media/predictive-lead-scoring-score-accuracy.png "Predictive lead scoring accuracy score")<br>
   
