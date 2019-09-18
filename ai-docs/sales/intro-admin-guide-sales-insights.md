@@ -162,17 +162,17 @@ After enabling the advanced Sales Insights features, you can configure the advan
 
 -	To configure Assistant (full capabilities), see [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md##configure-and-manage-insight-cards-for-assistant-full-capabilities).
 
--	To configure Notes analysis, see <link to Notes analysis configuration section>
+-	To configure Notes analysis, see [Configure Notes analysis](configure-notes-analysis.md).
 
--	To configure Relationship analytics, see <link to Relationship analytics configuration section>
+-	To configure Relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).
 
--	To configure Talking points, see <link to Talking points configuration section>
+-	To configure Talking points, see [Configure Talking points](configure-talking-points.md).
 
--	To configure Who knows whom, see <link to Who knows whom configuration section>
+-	To configure Who knows whom, see [Configure Who knows whom](configure-who-knows-whom.md).
 
--	To configure Predictive lead scoring, see <link to Predictive lead scoring configuration section>
+-	To configure Predictive lead scoring, see [Configure Predictive lead scoring](configure-predictive-lead-scoring.md).
 
--	To configure Predictive opportunity scoring, see <link to Predictive opportunity scoring configuration section>
+-	To configure Predictive opportunity scoring, see [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
 
 ## Introduction to administer Sales Insights application

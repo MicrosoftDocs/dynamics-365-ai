@@ -30,7 +30,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 3. On the sitemap, select **Relationship analytics** under **Connection insights**.
 
     > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Relationship analytics** section to go to configuration page.
+    > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Relationship analytics** section to go to configuration page.
 
     The configuration page opens.
 
