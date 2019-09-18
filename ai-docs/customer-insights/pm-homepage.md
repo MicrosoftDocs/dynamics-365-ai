@@ -22,12 +22,12 @@ manager: "kvivek"
 The first page you see in the Dynamics 365 Customer Insights app is the home page. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/home-page-insights.png "Insights on Home page")
+> ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
 
-If you are a trial user, make sure you switch from a demo environment before you start. You can do this with the **Environment** toggle in the upper-right corner of the page. You can switch to any of the real-data envirounments that are available to you (and that will show up once you click the toggle):
+If you are a trial user, make sure you switch from a demo environment before you start. You can do this with the **Environment** toggle in the upper-right corner of the page. You can switch to any of the real-data environments that are available to you (and that will show up once you click the toggle):
 
 > [!div class="mx-imgBorder"] 
-> ![](media/home-page-environment-switcher.png "Switch environment")
+> ![Switch environment](media/home-page-environment-switcher.png "Switch environment")
 
 ## Exploring the home page
 
@@ -38,7 +38,7 @@ Through the data manager and unify processes, you can create a unified dataset o
 The types of insights you can expect to view on the home page are shown here.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/home-page-insights2.png "Insights on Home page")
+> ![Insights on Home page](media/home-page-insights2.png "Insights on Home page")
 
 Let's explore those insights:
 

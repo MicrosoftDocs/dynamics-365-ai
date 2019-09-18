@@ -19,7 +19,7 @@ manager: "kvivek"
 ---
 # Customer Card add-in
 
-The Customer Card enables you to gain a 360 angle view on each of your customers. Once completing the Customer Card installation, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on a selected customer, including his or her location, age, latest activities, and much more. Note that a prerequisite to utilizing the customer Card is using the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
+The Customer Card enables you to gain a 360-degree view on each of your customers. Once the Customer Card installation is complete, you can start using the **Timeline Control** and **Demographic Control** to unlock rich insights on selected customers, including their location, age, latest activities, and more. Note that a prerequisite to using the Customer Card is use of the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
 - In order to view customer activities, those should be first defined using the **Activities** screen.
 - In order to view customer KPIs, those should be first defined using the **Measures** screen. 
 
@@ -31,173 +31,173 @@ The Customer Card enables you to gain a 360 angle view on each of your customers
 
 
   > [!div class="mx-imgBorder"] 
-  > ![](media/permissions-page.png "Permissions page")
+  > ![Permissions page](media/permissions-page.png "Permissions page")
 
 ## Install Customer Card Add-in
 
 1. As an admin, go to the **Settings** section in Customer Engagement, and select **Solutions**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/settings-solutions.png "Settings solutions")
+   > ![Settings solutions](media/settings-solutions.png "Settings solutions")
 
 2. Select the display name link for the Customer Insights solution.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/select-display-name.png "Select display name")
+   > ![Select display name](media/select-display-name.png "Select display name")
 
-   If the Customer Insights solution does not appear in your list of solutions, select the **Get Solutions from Marketplace** button above the list. This will take you to Microsoft AppSource. 
+   If the Customer Insights solution does not appear in your list of solutions, select **Get Solutions from Marketplace** above the list. This will take you to Microsoft AppSource. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/get-solutions-from-marketplace2.png "Get Solutions from Marketplace")
+   > ![Get Solutions from Marketplace](media/get-solutions-from-marketplace2.png "Get Solutions from Marketplace")
 
 
    In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment. 
 
-3. Here you will configure the overall settings for the Customer Card add-in. The first step is to sign in with the admin Azure Active Directory (AAD) account you use to configure Customer Insights.
+3. Here you will configure the overall settings for the Customer Card add-in. The first step is to sign in with the admin Azure Active Directory (Azure AD) account you use to configure Customer Insights.
 
    > [!NOTE]
-   > Check that the browser pop-up blocker is not blocking the authentication window when you select the **Authenticate** button. 
+   > Check that the browser pop-up blocker does not block the authentication window when you select the **Authenticate** button. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/login-with-org-credentials.png "Log in with org credentials")
+   > ![Log in with org credentials](media/login-with-org-credentials.png "Log in with org credentials")
 
 4. The next step is to select the Customer Insights instance you want to fetch data from.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/select-instance-to-connect.png "Select instance to connect to")
+   > ![Select instance to connect to](media/select-instance-to-connect.png "Select instance to connect to")
 
 5. The last step on the overall setting is to select which field in the Customer Insights Customer entity corresponds to the ID of the Contact entity in your Customer Engagement organization. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/contact-id-field.png "Contact id field")
+   > ![Contact ID field](media/contact-id-field.png "Contact ID field")
 
 6. Select **Save configuration** to save the setting. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/card-configuration-save.png "Save card configuration")
+   > ![Save card configuration](media/card-configuration-save.png "Save card configuration")
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/card-configuration-save2.png "Save card configuration")
+   > ![Configuration saved](media/card-configuration-save2.png "Configuration saved")
 
 7. Next, you will need to assign the following user roles:
 
-   - Customer Insights Customizer: Assign this role to the users who will customize the content to be shown on the card for the whole organization.
+   - Customer Insights Card Customizer: Assign this role to the users who will customize the content to be shown on the card for the whole organization.
    - Customer Insights Card Standard User: Assign this role to the users who will use the card for consumption, but who won’t customize. 
    
    > [!div class="mx-imgBorder"] 
-   > ![](media/manage-user-roles.png "Manage user roles")
+   > ![Manage user roles](media/manage-user-roles.png "Manage user roles")
 
 8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in Customer Engagement, and then select **Customizations**. 
  
    > [!div class="mx-imgBorder"] 
-   > ![](media/settings-customizations.png "Settings Customizations")
+   > ![Settings customizations](media/settings-customizations.png "Settings customizations")
 
 9. Select **Customize the System**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/settings-customize-system.png "Settings Customize the System")
+   > ![Customize the System](media/settings-customize-system.png "Customize the System")
 
 10.	Browse to the Contact entity, expand its menu, and then select **Forms**. 
     
     > [!div class="mx-imgBorder"] 
-    > ![](media/contact-entity-definition.png "Contact entity definition")
+    > ![Expand Contact entity menu](media/contact-entity-definition.png "Expand Contact entity menu")
 
 11. Select the contact form to which you would like to add the Customer Card controls.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/contact-active-forms.png "Contact active forms")
+    > ![Select Contact form](media/contact-active-forms.png "Select Contact form")
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/contact-form-designer.png "Contact form")
+    > ![Contact form summary](media/contact-form-designer.png "Contact form summary")
 
 ## Demographic control
 
 1. To add the demographic control, in the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/contact-form-designer2.png "Address 1: City field")
+   > ![Choose a field in Field Explorer](media/contact-form-designer2.png "Choose a field in Field Explorer")
 
 2. Select the field you just added, and select **Change Properties**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/contact-form-designer3.png "Address 1: City field")
+   > ![Select Change Properties](media/contact-form-designer3.png "Select Change Properties")
 
-3. Clear the **Display label on the form** box. 
+3. Clear the **Display label on the form** check box. 
    
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties.png "Field properties")
+   > ![Clear the check box](media/field-properties.png "Clear the check box")
 
 4. Go to the **Controls** tab and select **Add Control**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control.png "Field properties add control")
+   > ![Select Add Control](media/field-properties-add-control.png "Select Add Control")
 
 5. Select **Demographic_Control**, and then select **Add**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control-demographic.png "Field properties control demographic")
+   > ![Add Demographic_Control](media/field-properties-add-control-demographic.png "Add Demographic_Control")
 
 6. Select the **Web** option for **Demographic_Control**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control-demographic2.png "Field properties control demographic")
+   > ![Select the Web option](media/field-properties-add-control-demographic2.png "Select the Web options")
 
 7. Select **Save** and **Publish** to publish the contact form where you have placed the demographic control.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control-demographic3.png "Field properties publish control demographic")
+   > ![Save and then publish](media/field-properties-add-control-demographic3.png "Save and then publish")
 
 8. Go to the published contact form. You will see the demographic control. You might need to sign in the first time you use it. To customize what you want to show on the demographic control, select the edit button in the upper-right corner. 
 
    The customization you perform here will apply across the organization.
+   
+   > [!div class="mx-imgBorder"] 
+   > ![Demographic control](media/demographic-control.png "Demographic control")
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/demographic-control.png "Demographic control")
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/add-new-field.png "Add new field")
+   > ![Add new field](media/add-new-field.png "Add new field")
 
 ## Timeline control
 
 1. In the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/contact-form-designer4.png "Address 1: City field")
+   > ![Select field in Field Explorer](media/contact-form-designer4.png "Select field in Field Explorer")
 
 2. Select the field you just added, and then select **Change Properties**. 
  
    > [!div class="mx-imgBorder"] 
-   > ![](media/contact-form-designer-publish.png "Address 1: City field publish")
+   > ![Select Change Properties](media/contact-form-designer-publish.png "Select Change Properties")
 
-3. Clear the **Display label on the form** box.
+3. Clear the **Display label on the form** check box.
    
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-display-label.png "Address 1: City field display label")
+   > ![Clear check box](media/field-properties-display-label.png "Clear check box")
 
 4. Go to the **Controls** tab, and select **Add Control**.
 
    
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control2.png "Add control")
+   > ![Select Add Control](media/field-properties-add-control2.png "Select Add Control")
 
 
 5. Select **Timeline_Control** and then **Add**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control3.png "Add control")
+   > ![Add control](media/field-properties-add-control3.png "Add control")
 
 6. Select the **Web** option for **Timeline_Control**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-add-control4.png "Modify control properties")
+   > ![Select Web option](media/field-properties-add-control4.png "Select Web option")
 
 7. Select **Save** and **Publish** to publish the contact form where you have placed the timeline control.
    
    > [!div class="mx-imgBorder"] 
-   > ![](media/field-properties-publish-control.png "Publish form")
+   > ![Publish form](media/field-properties-publish-control.png "Publish form")
 
 8. Go to the published contact form. You will see the timeline control. You might need to sign in the first time you use it. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/timeline-control.png "Timeline control")
+   > ![Timeline control](media/timeline-control.png "Timeline control")
 

@@ -25,34 +25,36 @@ The Customer Insights connector enables you to use the unified data that you hav
 
 In order to see your customer insights in Power BI, make sure that you have created at least one data source within the **Data sources** page and ingested at least one dataset (entity) into it. Also, make sure you have [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your computer. Then, complete the following steps.
 
-1. Open Microsoft Power BI for Desktop and select **Get Data** in the menu at the top of the page.
+
+1. Open Microsoft Power BI Desktop and select **Get Data** in the menu at the top of the page.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/connector-powerbi-get-data.png "Power BI Get Data")
+   > ![Power BI Get Data](media/connector-powerbi-get-data.png "Power BI Get Data")
+ 
+2. Search for **Dynamics 365 Customer Insights (Beta)**, select it from the menu on the right, and then click **Connect** on the lower-right corner.
 
-2. Search for **Dynamics 365 Customer Insights (Beta)**, select it from the menu on the right, and then select **Connect** in the lower-right corner.
+    > [!div class="mx-imgBorder"] 
+    > ![Power BI Connector Get Data](media/connector-pbi-step-3.png "Power BI Connector Get Data")
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/connector-pbi-step-3.png "Power BI Connector Get Data")
+3. If you have not used this connector before, you will need to sign in with the same account you use to view the data in Dynamics 365 Customer Insights.
 
-3. If you have not used this connector before, you'll need to sign in with same account you use to view the data in Dynamics 365 Customer Insights.
+4. You will see a list of all the environments you can access. You can select the arrow next to any of the environments to see a full list of entities you can import into:
 
-4. You'll see a list of all of the environments you have access to. You can select the arrow next to any of the environments to see a full list of entities you can import into.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/connector-pbi-step-4.png "Power BI Connector Navigator")
-
-5. Select the check boxes next to the entities you want to load, and then select **Load** in the bottom-right corner of the dialog box. You can select multiple entities from multiple environments.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/connector-pbi-step-5.png "Power BI Connector Navigator")
+   > ![Power BI Connector Navigator](media/connector-pbi-step-4.png "Power BI Connector Navigator")
 
-6. You will see a dialog box like the following while your data is imported.
+5. Select the check boxes next to the entities you want to load, and then click **Load** in the lower-right corner of the dialog box. You can select multiple entities from multiple environments.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/connector-pbi-step-6.png "Power BI Connector Load")
+   > ![Select check boxes](media/connector-pbi-step-5.png "Select check boxes")
 
-Once your data is imported, you'll have the capabilities of Power BI combined with your data from Dynamics 365 Customer Insights!
+6. You will see the following loading dialog box while your entities are loaded. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![Power BI Connector Load](media/connector-pbi-step-6.png "Power BI Connector Load")
+
+Once all of your selected entities have loaded, you'll have the capabilities of Power BI combined with your data from Dynamics 365 Customer Insights!
 
 ### See also
  [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)<br/>
