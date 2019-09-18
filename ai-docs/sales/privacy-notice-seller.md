@@ -1,6 +1,6 @@
 ---
 title: " Dynamics 365 Sales Insights capabilities for sellers Privacy Notices | Microsoft Docs"
-description: "Privacy notices for AI for Sales capabilities for sellers."
+description: "Privacy notices for Sales Insights capabilities for sellers."
 keywords: "privacy notice, privacy statement addition"
 ms.date: 10/31/2018
 ms.service: dynamics-365-ai
@@ -44,10 +44,16 @@ An administrator can enable [!INCLUDE[pn_dynamics_sales_insights](../includes/pn
 
 ### See also
 
-- [Configure and enable Sales Insights](configure-enable-dynamics-365-ai-sales.md)
-- [Use Relationship analytics to gather KPIs](relationship-analytics.md)
-- [Prioritize leads through scores](work-predictive-lead-scoring.md) 
-- [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
-- [How notes analysis assists you with suggestion](notes-analysis.md)
-- [Know conversation starters for your customers](talking-points.md)
-- [How to get introduced to a lead](who-knows-whom.md)
+[Configure and enable Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+
+[Use Relationship analytics to gather KPIs](relationship-analytics.md)
+
+[Prioritize leads through scores](work-predictive-lead-scoring.md) 
+
+[Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+
+[How notes analysis assists you with suggestion](notes-analysis.md)
+
+[Know conversation starters for your customers](talking-points.md)
+
+[How to get introduced to a lead](who-knows-whom.md)

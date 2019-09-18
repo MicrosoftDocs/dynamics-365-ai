@@ -1,14 +1,10 @@
 ---
-title: "Get suggestive action on notes for Dynamics 365 Customer Engagement  | MicrosoftDocs"
+title: "Get suggestive action on notes for Dynamics 365 Sales  | MicrosoftDocs"
 description: "Get intelligent suggestions on action that you take on notes you enter during a recent meeting or discussion with your customer."
-keywords: "notes analysis, Dynamics 365 Sales Insights, AI sales, Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: aabede7c-a3fa-459d-a237-1f1d03ba3e62
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # How Notes analysis assists you with suggestion
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] allows you to view and quickly enter notes on **Timeline** control (formerly known as activity wall). When you enter notes regarding a recent meeting or discussion with your customer, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] monitors these notes and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.<br>
 **Timeline** control is available on contacts, opportunities, leads, accounts, and case forms.<br> 

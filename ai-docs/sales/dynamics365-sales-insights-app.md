@@ -1,14 +1,10 @@
 ---
 title: "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 for Sales"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Sales"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # Improve seller coaching and sales potential with Dynamics 365 Sales Insights application
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application uses analytics and data science to gather data from call recordings, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence.
 
@@ -131,6 +125,6 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
+[View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

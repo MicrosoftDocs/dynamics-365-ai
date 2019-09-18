@@ -1,14 +1,10 @@
 ---
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights seller capabilities"
-keywords: "FAQs, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 12/13/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 93d16444-2a11-4c2b-841b-91a609c81f6a
 author: udaykirang
 ms.author: udag
@@ -25,7 +21,7 @@ topic-status: Drafting
 ## Relationship analytics
 
 **What do I need in order to use Relationship analytics?​**<br>
-Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​
+Relationship analytics uses data from Dynamics 365 Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​
 
 **How do I enable Relationship analytics?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​

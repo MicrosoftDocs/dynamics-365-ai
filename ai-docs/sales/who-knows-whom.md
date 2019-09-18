@@ -1,14 +1,10 @@
 ---
-title: "Who Knows Whom in Dynamics 365 for Sales | MicrosoftDocs"
-description: "how to get introduced to a lead in Dynamics 365 for Sales."
-keywords: "who knows whom, get introduced to lead, Dynamics 365 for Sales, Sales Insights"
+title: "Who Knows Whom in Dynamics 365 Sales | MicrosoftDocs"
+description: "how to get introduced to a lead in Dynamics 365 Sales."
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56
 author: udag
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # How to get introduced to a lead 
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 As a sales representative, you will interact with leads whom you have never met or talked to and it can be difficult to turn these interactions into positive outcomes. To help in these situations, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] provides a feature known as **Who Knows Whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help in getting introduced to a lead and increase the chances of a positive outcome during the interaction.
 

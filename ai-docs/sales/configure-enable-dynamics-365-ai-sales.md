@@ -1,14 +1,10 @@
 ---
-title: "Configure and enable Sales Insights add-on for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Configure and enable Sales insights add-on"
-keywords: "sales insights addon, insights addon, relationship analytics, predictive lead scoring, lead scoring"
+title: "Configure and enable Sales Insights add-on for Dynamics 365 Sales | MicrosoftDocs"
+description: "Configure and enable Sales insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 93676b52-d168-497d-957f-ae2c8627645a
 author: udaykirang
 ms.author: udag
@@ -20,9 +16,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Enable and configure Dynamics 365 Sales Inisghts capabilities for sellers
-
-<!--Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0-->
+# Enable and configure Dynamics 365 Sales Insights capabilities for sellers
 
 > [!IMPORTANT]
 > - Dynamics 365 Sales Insights capabilities for sellers requires [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 9.1.0.35 and above.
@@ -315,7 +309,10 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities 
 
 ### See also
 
-- [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
-- [GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)
-- [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
-- [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+
+[GDPR for Sales insights add-on](embedded-intelligence-gdpr.md)
+
+[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+
+[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)

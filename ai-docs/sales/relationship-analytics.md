@@ -1,14 +1,10 @@
 ---
-title: "Preview feature: Relationship analytics for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Learn how to analyze customer interaction data with Dynamics 365 (online)."
-keywords: "relationship analytics, customer interaction data, My Open Opportunities by Relationship, relationship activities"
+title: "Preview feature: Relationship analytics for Dynamics 365 Sales | MicrosoftDocs"
+description: "Learn how to analyze customer interaction data with Dynamics 365 Sales."
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # Use Relationship analytics to gather KPIs 
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
 
@@ -224,8 +218,12 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities 
 
 ### See also  
 
-- [Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
-- [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)
-- [Opt out of Relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
-- [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
-- [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+
+[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)
+
+[Opt out of Relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+
+[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+
+[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)

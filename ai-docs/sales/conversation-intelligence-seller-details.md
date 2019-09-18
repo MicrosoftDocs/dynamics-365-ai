@@ -1,14 +1,10 @@
 ---
-title: "Work with call intelligence feature for Dynamics 365 AI for sales | MicrosoftDocs"
+title: "Work with call intelligence feature for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
-keywords: "call intelligence, Dynamics 365 AI for sales, AI for sales, Sales AI"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag
@@ -98,4 +94,4 @@ Let's look at the KPIs and insights in detail:
 
 - [First-run set up experience of Sales Insights application](fre-setup-sales-insight-app.md)
 
-- [Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md)
+- [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)

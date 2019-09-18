@@ -1,14 +1,10 @@
 ---
 title: "First-run set up experience for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "First-run set up experience for Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: udaykirang
 ms.author: udag
@@ -45,10 +41,10 @@ The following diagram illustrates the process of setting up application as an ad
  
 3.	Select **Set up Sales Insights** and continue with the set up wizard. 
 
-4.	On the **Connect your data** dialog box, select your Dynamics 365 for Sales environment to connect with the application.
+4.	On the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
+    > ![Select Dynamics 365 Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")
   
     The application detects your environment.
 
@@ -103,6 +99,6 @@ Now, your Sales Insights application is ready, and managers and sellers can use 
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)

@@ -48,8 +48,8 @@ The data passed in these events include Azure storage account name, blob contain
 ### Bing 
 [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] Preview insight app uses Customer Data from the name, address, and industry fields of your account records and sends it to Bing (a consumer service) for the purpose of showing relevant news. Data sent to Bing will be devoid of any of your company’s information and only stored for diagnostics purposes. 
 
-## Installation and removal of the AI for Sales Preview insight app
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users and administrators who are allowed to register new applications in Azure Active Directory, can enable the AI for Sales Preview insight app by signing in to the app and consenting to the required permissions. Administrators can change these permissions, which can include removing access to the app, at https://myapps.microsoft.com 
+## Installation and removal of the Sales Insights Preview insight app
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users and administrators who are allowed to register new applications in Azure Active Directory, can enable the Sales Insights Preview insight app by signing in to the app and consenting to the required permissions. Administrators can change these permissions, which can include removing access to the app, at https://myapps.microsoft.com 
 
 ## Handling GDPR for call intelligence
 It is the enterprise customer’s responsibility to comply with the GDPR.  If you choose to honor and execute a data subject rights (DSR) request for delete or edit, please email [Microsoft](mailto:D365callintelligence@microsoft.com) and Microsoft will manually process the DSR to delete and edit.
@@ -57,5 +57,6 @@ It is the enterprise customer’s responsibility to comply with the GDPR.  If yo
 
 ### See also
 
-- [Introduction to Sales Insights application](dynamics365-sales-insights-app.md)
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to Sales Insights application](dynamics365-sales-insights-app.md)
+
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
