@@ -80,6 +80,12 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Prioritize leads using predictive scores](work-predictive-lead-scoring.md)
 #### [Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)
 
+### Dynamics 365 assistant for Microsoft Teams
+#### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
+#### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
+#### [Learn the basics](learn-basics-dynamics-365-application-teams.md)
+#### [Working with meetings](working-with-meetings-teams.md)
+
 ###	Sales insights application
 #### [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)

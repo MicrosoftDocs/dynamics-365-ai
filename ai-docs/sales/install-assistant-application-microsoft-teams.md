@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Install Dynamics 365 application on Microsoft Teams
 
-Dynamics 365 application on Microsoft Teams helps the sales personals in the organization to keep track of daily meetings, customer interactions, and insights. When you add the application to the Microsoft Teams desktop app, you can open the app on the Teams mobile app and access the information as required. To learn more, see [Access sales assistant application on Teams](). 
+Dynamics 365 application on Microsoft Teams helps the sales personals in the organization to keep track of daily meetings, customer interactions, and insights. When you add the application to the Microsoft Teams desktop app, you can open the app on the Teams mobile app and access the information as required. To learn more, see [Access the application on Microsoft Teams](access-assistant-application-teams.md). 
 
 ## Install Dynamics 365 app
 
@@ -51,8 +51,8 @@ To add the application to Microsoft Teams, follow these steps:
 
 ### See also
 
-[Enable Dynamics 365 assistant application on Microsoft Teams](#enable-dynamics-365-assistant-application-on-microsoft-teams)
+[Enable Dynamics 365 assistant application on Microsoft Teams](intro-admin-guide-sales-insights.md#enable-dynamics-365-assistant-application-on-microsoft-teams)
 
 [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
 
-
+[Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
