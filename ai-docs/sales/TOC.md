@@ -41,6 +41,9 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 <!--new file name-->
 
+### [Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+#### [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
+
 ### Configure Sales Insights application
 <!--#### [Introduction to administer Sales Insights application](../sales/intro-admin-guide-sales-insights-app.md) Remove the section intro-admin-guide-sales-insights-app.md and add redirect to intro-admin-guide-sales-insights.md-->
 #### [Prerequisites to use Sales Insights application](../sales/prereq-sales-insights-app.md)
@@ -90,6 +93,7 @@ This section is merged with Configure assistant. Redirect should direct to confi
 
 ## [Privacy notice](privacy-notice.md) 
 <!--new file name-->
+<!--create redirects to privacy-notice-ee.md, privacy-notice-manager.md, and privacy-notice-seller.md  -->
 
 
 <!--Old ToC-->

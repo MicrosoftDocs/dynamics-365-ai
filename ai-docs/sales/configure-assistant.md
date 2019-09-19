@@ -159,3 +159,5 @@ With the new redesigned assistant administration, you can perform tasks that wer
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
 [Create custom actions for insight cards](extend-relationship-assistant-card.md)
+
+[Privacy notice](privacy-notice.md)
