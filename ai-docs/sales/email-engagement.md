@@ -154,7 +154,7 @@ When email engagement is enabled for your site, all of the controls required to 
 |![Email follow state blocked](media/email-follow-state-blocked.png "Email follow state blocked")|Indicates that one or more of the current email's recipients have following set to Do Not Allow, which means that you can't follow this message unless you remove the recipients that don't allow following (or change their settings). You now have the following options:<br /><br /> -   Select the **View Preferences** link to open a pop-up window that shows the name and following  preference for each recipient. From here you can open any recipient's record by clicking their name in the list.<br />-   If you have attempted to fix the issue by removing recipients or changing settings, then select **Retry Follow** to try again.<br />-   Select **Don't Follow** to stop attempting to follow this message.|  
   
 > [!NOTE]
->  Within about 15 minutes of the first time a followed message is registered as opened, the system notifies you by creating a new action card for the relationship assistant. The card provides links to the message, related records, and action buttons to generate a call activity, snooze the alert, or dismiss it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](relationship-assistant.md)  
+>  Within about 15 minutes of the first time a followed message is registered as opened, the system notifies you by creating a new action card for the relationship assistant. The card provides links to the message, related records, and action buttons to generate a call activity, snooze the alert, or dismiss it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guide customer communications with assistant](assistant.md).  
   
 <a name="FollowedAttachments"></a>   
 
@@ -285,7 +285,7 @@ You can use this feature both with followed and unfollowed messages.
   
 11. When you are ready to send the message, select **Send**.  
   
-    When the reminder gets triggered, the system notifies you by creating a new action card for the Relationship Assistant. The card will be given high priority, so you should see it right away. The card provides links to the message, related records, and action buttons to dismiss or snooze the alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](relationship-assistant.md)  
+    When the reminder gets triggered, the system notifies you by creating a new action card for the Relationship Assistant. The card will be given high priority, so you should see it right away. The card provides links to the message, related records, and action buttons to dismiss or snooze the alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guide customer communications with assistant](assistant.md).  
   
 <a name="ViewEngagementHistory"></a>   
 

@@ -40,7 +40,10 @@ You can generate these custom cards in two ways:
 
 ### See also
 
-- [Preview: Manage insight cards](manage-custom-cards-flow.md)
-- [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
-- [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
-- [Relationship assistant](relationship-assistant.md)
+[Manage insight cards](manage-custom-cards-flow.md)
+
+[Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+
+[Configure Assistant](configure-assistant.md)
+
+[Guide customer communications with assistant](assistant.md)
