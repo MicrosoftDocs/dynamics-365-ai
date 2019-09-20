@@ -10,7 +10,7 @@
 # Insights references
 ## [List of insights](available-insights.md)
 ## [News insights](news-events-insights.md)
-## [Product attributes insight](product-insights.md)
+## [Product insights](product-insights.md)
 ## [Awareness insights](awareness-insights.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)

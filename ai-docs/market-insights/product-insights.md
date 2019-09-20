@@ -16,7 +16,7 @@ search.app:
   - D365SE
 ---
 
-# Product insight
+# Product insights
 
 (This topic is pre-release documentation and is subject to change.)
 
