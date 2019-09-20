@@ -58,9 +58,6 @@ To view the KPIs and insights of Call intelligence, go to **Call intelligence** 
 
 When you open call intelligence, the application displays the **Teams** tab that provides insights on the team based on certain parameters such as customer sentiments, content, and conversational KPIs. You can assess these parameters of each individual and identify sales reps who might need coaching.
 
-> [!div class="mx-imgBorder"]
-> ![Call intelligence teams view](media/callintelligence-teams.png "Call intelligence teams view")
-
 |KPI/Insights|Description|
 |------------|-----------|
 |**1. Total calls recorded and Total call recording duration**|Specifies the total calls that were recorded during the specified time and the total duration of the recorded calls.|
