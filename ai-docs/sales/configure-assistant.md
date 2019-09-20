@@ -33,7 +33,7 @@ The Sales Insights provides assistant in two forms:
 ## Configure and manage insight cards for Assistant (free)
 
 > [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Dynamics 365 for Sales are subject to our privacy statement.
+> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Dynamics 365 Sales are subject to our privacy statement.
 
 1. Assign user privileges to give access to the Assistant features. The privileges required to access Sales Insights features are automatically enabled for all out-of-the-box security roles, but they're initially disabled for all custom roles. If you enable any Sales Insights features, you must check the settings listed in the following table to help ensure that your users can access those features, and to help ensure that other features don't stop working because of privilege cascades related to these features.
 

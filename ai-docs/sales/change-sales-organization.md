@@ -22,6 +22,13 @@ topic-status: Drafting
 
 # Change sales organization
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 By default, when you access the Dynamics 365 assistant app for Teams on mobile, the app assigns the recent organization that you are associated with. If you are associated with multiple organizations, the Dynamics 365 for Teams app provides an option to choose an organization from the list of organizations. This helps you to keep up to date with different organization that you are associated with.
 
 To change an organization, follow these steps:

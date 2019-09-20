@@ -28,7 +28,7 @@ For example, say you have two opportunities - Opportunity A and Opportunity B - 
 
 > [!IMPORTANT]
 > To enable Predictive opportunity scoring in your organization, contact your system administrator.
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-enable-dynamics-365-ai-sales.md#configure-predictive-opportunity-scoring)
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
 ## Understand opportunity scoring in views
 
@@ -64,11 +64,6 @@ The numbered sections are:
 
 3. **Feedback.** Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
-
-## Privacy notice  
-
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md) 
+[Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)

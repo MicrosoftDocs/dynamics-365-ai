@@ -42,7 +42,7 @@ Verify the following prerequisites before enabling Auto capture for your organiz
 
 ### Enable auto capture
 
-After you accept the privacy statement for embedded intelligence, **Auto capture** is enabled by default. If it's not enabled, select the toggle button to enable Auto capture.
+After you accept the privacy statement for Sales Insights , **Auto capture** is enabled by default. If it's not enabled, select the toggle button to enable Auto capture.
 
    > [!div class="mx-imgBorder"]
    > ![Enable or disable Auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable Auto capture")

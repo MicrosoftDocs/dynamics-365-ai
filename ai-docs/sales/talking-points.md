@@ -22,8 +22,6 @@ topic-status: Drafting
 
 # Know conversation starters for your customers 
 
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
-
 As a sales representative, you interact with many customers and it can be difficult to remember details about each, such as:
 -  Latest entertainment event they attended.
 -  Favorite sports or games they watch.
@@ -38,7 +36,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], **Talking poin
 > ![Talking point](media/talkingpoints.png "Talking point")
 
 > [!NOTE]
-> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md).
+> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Talking points](configure-talking-points.md).
 
 Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
 
@@ -52,11 +50,6 @@ Select each topic icon on the Talking points to navigate. This helps you to star
 
 Talking points will display only the latest communication for each topic on the tile. For example, you received an email about a baseball game yesterday and you received another email today about football. The sports topic in the Talking points will be updated with the mail you received about football. 
 
-
-## Privacy notice  
-
-For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+[Configure Talking points](configure-talking-points.md)

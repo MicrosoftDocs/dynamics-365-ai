@@ -45,10 +45,10 @@ The following diagram illustrates the process of setting up application as an ad
  
 3.	Select **Set up Sales Insights** and continue with the set up wizard. 
 
-4.	On the **Connect your data** dialog box, select your Dynamics 365 for Sales environment to connect with the application.
+4.	On the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
+    > ![Select Dynamics 365 Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")
   
     The application detects your environment.
 

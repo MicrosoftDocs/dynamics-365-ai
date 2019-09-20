@@ -1,11 +1,10 @@
 ---
-title: "Auto capture for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag
@@ -18,15 +17,12 @@ caps.latest.revision: 13
 
 # Auto capture of related emails
 
-<br>
-
+[!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]
 Auto capture enables [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] to access your email in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find and display messages that are related to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. This makes it easy to see your relevant email messages together with all of the other activities that are related to a given record in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. Each message remains private and visible only to you unless you choose to convert it to a *tracked email*, which you can do with just one click to make that email visible to the rest of your team in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
   
-Auto capture is part of the *Embedded intelligence* suite of features. 
-  
-[Watch a short video (1:43) about Dynamics 365 for Customer Engagement Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
+Auto capture is part of the *Sales Insights* suite of features. 
 
-The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
+The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Enable Auto capture](configure-auto-capture.md).  
   
 ## View auto-captured messages and convert them into tracked messages  
 
@@ -68,7 +64,7 @@ The administrator must enable auto capture before you can try it out. For comple
 ## Set your auto capture options  
  When auto capture is enabled for your site, it will also be enabled for you by default. If you prefer not to see the messages, then you can turn this feature off. You can turn it back on at any time. When the feature is turned off for your site, you won't see the setting in your personal options. To set your auto capture options:  
   
-1.  Select the gear button on the nav bar, and then choose **Options** from the menu.  
+1.  Select the gear button on the nav bar, and then choose **Personalization Settings** from the menu.  
   
     ![Options menu](media/options-menu.png "Options menu")  
   
@@ -76,7 +72,7 @@ The administrator must enable auto capture before you can try it out. For comple
   
     ![Auto capture personal options](media/auto-capture-personal-options.png "Auto capture personal options")  
   
-3.  Set the **Show email not tracked in Dynamics 365 for Customer Engagement in the Activities list** option to **Yes** or **No**, as needed.  
+3.  Set the **Show email not tracked in Dynamics 365 in the Activities list** option to **Yes** or **No**, as needed.  
   
 4.  Select **OK**.  
 
@@ -97,10 +93,7 @@ The following describes the support for viewing, opening, and tracking untracked
   
 <a name="BKMK_Privacy"></a>   
 
-## Privacy notice  
 
-For specific privacy information about Auto capture, see [Privacy notice](privacy-notice-ee.md).
-  
 ### See also
 
-[Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
+[Enable Auto capture](configure-auto-capture.md)

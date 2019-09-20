@@ -1,7 +1,6 @@
 ---
 title: "Work with Predictive lead scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
 description: ""
-keywords: ""
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -28,7 +27,7 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
  
 > [!IMPORTANT]
 > To enable Predictive lead scoring in your organization, contact your system administrator.
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-enable-dynamics-365-ai-sales.md#configure-predictive-lead-scoring)
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
 
 ## Understand Predictive lead scoring in views
 
@@ -64,10 +63,6 @@ The numbered sections are:
 
 3.	**Feedback.** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
-## Privacy notice  
-
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+[Configure Predictive lead scoring](configure-predictive-lead-scoring.md)

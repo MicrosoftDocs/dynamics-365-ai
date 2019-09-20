@@ -235,6 +235,11 @@ You can also update each setting later as required. The following are the availa
 
 -	Enable preview features. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
+
+## Privacy Notice
+
+For specific privacy information about Dynamics 365 Sales Insights capabilities, see [Privacy notice](privacy-notice.md).
+
 ### See also
 
 [Overview of Dynamics 365 Sales Insights](overview.md)

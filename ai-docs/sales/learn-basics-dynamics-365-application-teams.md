@@ -22,6 +22,13 @@ topic-status: Drafting
 
 # Learn the basics
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 When you open the Dynamics 365 assistant app in Teams on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insights cards that are specific to you. Typically, the home page displays as following:
 
 > [!div class="mx-imgBorder"]

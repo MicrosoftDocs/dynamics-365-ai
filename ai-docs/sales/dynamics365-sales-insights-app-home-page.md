@@ -1,6 +1,6 @@
 ---
 title: " View overall insights of your sales and sellers in Dynamics 365 Sales Insights app | MicrosoftDocs"
-description: "View high-level information on sales and sellers with AI-driven insights readily available for Dynamics 365 for Sales"
+description: "View high-level information on sales and sellers with AI-driven insights readily available for Dynamics 365 Sales Insights"
 keywords: ""
 ms.date: 08/01/2019
 ms.service: crm-online
@@ -21,8 +21,6 @@ topic-status: Drafting
 ---
 
 # View and understand home page
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 When you sign-in to the Dynamics 365 Sales Insights application as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
 
@@ -258,13 +256,9 @@ The following image is an example of how the call recording KPIs are displayed.
 
 > [!div class="mx-imgBorder"]
 > ![Call recording KPIs](media/si-app-call-recording-kpis.png "Call recording KPIs")
- 
-## Privacy notice  
-
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#introduction-to-administer-sales-insights-application)
 
-- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 
+[Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 

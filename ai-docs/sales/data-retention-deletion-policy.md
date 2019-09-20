@@ -1,7 +1,6 @@
 ---
 title: "Data retention and deletion policy for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Data retention and deletion policy for Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -101,6 +100,6 @@ To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 fo
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)

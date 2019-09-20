@@ -79,4 +79,4 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
-[Configure Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+[Configure Notes analysis](configure-notes-analysis.md)

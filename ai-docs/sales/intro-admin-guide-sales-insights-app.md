@@ -41,6 +41,7 @@ You can also update each setting later as required. The following are the availa
 
 -	Enable preview features. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
+
 ### See also
 
 [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)

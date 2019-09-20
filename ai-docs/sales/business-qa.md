@@ -21,7 +21,6 @@ topic-status: Drafting
 
 # Natural language Q&A 
 
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -170,6 +169,6 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 
 ### See also
 
-- [Enable preview features](enable-preview-features-sales-insights-app.md)
+[Enable preview features](enable-preview-features-sales-insights-app.md)
 
-- [View and understand home page](dynamics365-sales-insights-app-home-page.md)
+[View and understand home page](dynamics365-sales-insights-app-home-page.md)

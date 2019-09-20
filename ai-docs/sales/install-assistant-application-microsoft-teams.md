@@ -22,6 +22,13 @@ topic-status: Drafting
 
 # Install Dynamics 365 application on Microsoft Teams
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 Dynamics 365 application on Microsoft Teams helps the sales personals in the organization to keep track of daily meetings, customer interactions, and insights. When you add the application to the Microsoft Teams desktop app, you can open the app on the Teams mobile app and access the information as required. To learn more, see [Access the application on Microsoft Teams](access-assistant-application-teams.md). 
 
 ## Install Dynamics 365 app

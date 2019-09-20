@@ -1,7 +1,6 @@
 ---
 title: "Enable preview features in Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Enable preview features in Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -55,8 +54,8 @@ The Preview feature **Instant reports and analysis** is enabled which uses natur
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
 
-- [Natural language Q&A](business-qa.md)
+[Natural language Q&A](business-qa.md)

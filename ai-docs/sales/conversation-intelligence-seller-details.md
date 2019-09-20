@@ -1,7 +1,6 @@
 ---
-title: "Work with call intelligence feature for Dynamics 365 AI for sales | MicrosoftDocs"
+title: "Work with call intelligence feature for Dynamics 365 sales Insights | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
-keywords: "call intelligence, Dynamics 365 AI for sales, AI for sales, Sales AI"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -21,8 +20,6 @@ topic-status: Drafting
 ---
 
 # Analyze customer calls to improve sales
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to the **Dynamics 365 Sales Insights** application, and select **Seller details**.
 
@@ -94,8 +91,8 @@ Let's look at the KPIs and insights in detail:
 
 ### See also
 
-- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
+[Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
 
-- [First-run set up experience of Sales Insights application](fre-setup-sales-insight-app.md)
+[First-run set up experience of Sales Insights application](fre-setup-sales-insight-app.md)
 
-- [Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md)
+[Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md)

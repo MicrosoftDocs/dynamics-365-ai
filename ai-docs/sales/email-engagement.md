@@ -1,11 +1,10 @@
 ---
-title: "Email engagement for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag
@@ -18,7 +17,7 @@ caps.latest.revision: 25
 
 # Use email engagement to view message interactions
 
- Email engagement is part of the new *Embedded intelligence* suite of features. Email engagement helps you to:  
+ Email engagement is part of the new *Sales Insights* suite of features. Email engagement helps you to:  
   
 -   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.  
   
@@ -32,7 +31,7 @@ caps.latest.revision: 25
   
 -   Review the full interaction history of a single message, or review  KPIs.  
   
-The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
+The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable Email engagement](configure-email-engagement.md).
 
 > [!NOTE]
 >  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] even when the feature is turned off. These include:  
@@ -162,7 +161,7 @@ When email engagement is enabled for your site, all of the controls required to 
 ### Add followed attachments  
   
 > [!NOTE]
->  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)  
+>  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Email engagement](configure-email-engagement.md)  
   
  Followed attachments can tell you when a recipient opens an attachment. To add one or more followed attachments:  
   
@@ -365,4 +364,4 @@ For specific privacy information about Email engagement, see [Privacy notice](pr
   
 ### See also  
 
-[Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
+[Enable Email engagement](configure-email-engagement.md)
