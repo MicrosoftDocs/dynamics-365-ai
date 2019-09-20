@@ -51,3 +51,4 @@ To configure the bot, follow these steps:
 
 [Access the application on Microsoft Teams](access-assistant-application-teams.md)
 
+[Get answers through bot assistant](use-bot-assistant.md)

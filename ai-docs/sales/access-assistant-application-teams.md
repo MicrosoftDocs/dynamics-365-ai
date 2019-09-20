@@ -61,7 +61,7 @@ When you first sign into the Dynamics 365 assistant app on your mobile, cards ar
     > ![Dynamics 365 app homepage](media/si-teams-app-home-page.png "Dynamics 365 app homepage")
 
     > [!NOTE]
-    > If you want to change your sale organization, see [Change sales organization]().
+    > If you want to change your sale organization, see [Change sales organization](change-sales-organization.md).
 
 
 ### See also

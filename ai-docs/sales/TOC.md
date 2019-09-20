@@ -85,6 +85,8 @@ This section is merged with Configure assistant. Redirect should direct to confi
 #### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
 #### [Learn the basics](learn-basics-dynamics-365-application-teams.md)
 #### [Working with meetings](working-with-meetings-teams.md)
+#### [Change sales organization](change-sales-organization.md)
+#### [Get answers through bot assistant](use-bot-assistant.md)
 
 ###	Sales insights application
 #### [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)

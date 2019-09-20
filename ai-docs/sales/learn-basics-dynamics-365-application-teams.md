@@ -47,7 +47,7 @@ The settings option allows you to change your organization, send feedback, and i
 > [!div class="mx-imgBorder"]
 > ![View settings page](media/si-teams-app-settings-page.png "View settings page")
 
-The organization option helps you to change the organization and view the information regarding the selected organization. To learn more, see [Change sales organization]().
+The organization option helps you to change the organization and view the information regarding the selected organization. To learn more, see [Change sales organization](change-sales-organization.md).
 
 To send feedback, select **Share feedback**. A pop up appears on the bottom of the screen with options: **Tell us what you like** and **Tell us how we can get better**. Select the feedback option appropriately. On the feedback form, enter the information that you would like to share with us and your email. Sharing your email is optional and if you share, it helps us to gather more information on the feedback that you have shared and receive communication on the status. After you enter the necessary information, select **Send**. 
 

@@ -47,3 +47,5 @@ An administrator or you can add this application on Microsoft Teams. To learn mo
 [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
 
 [Access the application on Microsoft Teams](access-assistant-application-teams.md)
+
+[Get answers through bot assistant](use-bot-assistant.md)
