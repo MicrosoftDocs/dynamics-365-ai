@@ -61,7 +61,7 @@ To switch to a different workspace, select the **Workspaces** icon on the Custom
 
 ![Switch workspaces](media/switch-workspaces.png)
 
-Customer Service Insights opens the workspace and displays the customer service data associated with the workspace in the dashboards. Next time when you visit Customer Service Insights, it will open the last workspace you switched to. 
+Customer Service Insights opens the workspace and displays the customer service data associated with the workspace in the dashboards.
 
 ## Sharing a workspace
 
