@@ -27,7 +27,7 @@ Customers often search online to compare features of competing products or servi
 **Commonly searched keywords** provides a view with the top 5 keywords associated with your, or any, products or services.
 
 > [!div class="mx-imgBorder"]
-> ![Commonly searched keywords insight card with additional details](media/insight-details-product-attributes.png)
+> ![Commonly searched keywords insight card with additional details](media/insight-details-product-insight.png)
 
 ## Data and frequency
 
