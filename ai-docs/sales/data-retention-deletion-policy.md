@@ -100,6 +100,6 @@ To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 fo
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
