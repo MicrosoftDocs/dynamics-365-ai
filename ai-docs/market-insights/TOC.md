@@ -7,6 +7,7 @@
 ## [Configure the universe and elements](universe.md)
 ## [Insights feed and details view](insights-feed.md)
 ## [Manage your settings](settings.md)
+## [Share insights](share-insights.md)
 # Insights references
 ## [List of insights](available-insights.md)
 ## [News insights](news-events-insights.md)
