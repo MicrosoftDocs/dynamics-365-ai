@@ -81,7 +81,7 @@ The Sales Insights provides assistant in two forms:
 Sellers can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. To learn more, see [Guide customer communications with assistant](assistant.md)
 
 > [!NOTE]
-> When custom action cards are created in your organization, an option to enable these cards are displayed under **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Relationship assistant](extend-relationship-assistant-card.md) 
+> When custom action cards are created in your organization, an option to enable these cards are displayed under **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Assistant](extend-relationship-assistant-card.md) 
 
 ## Configure and manage insight cards for Assistant (full capabilities)
 
@@ -112,12 +112,14 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
 1. Verify that you have [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
 
-2. On the sitemap, select **Home** under **Assistant** to go to **Assistant Studio** page.
+2. Go to **Change area** and select **Sales Insights settings**.
+
+3. On the sitemap, select **Home** under **Assistant** to go to **Assistant Studio** page.
 
     > [!TIP]
     > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to **Assistant Studio** page.
 
-3. On the **Home** tab (**Assistant Studio** page), you can:
+4. On the **Home** tab (**Assistant Studio** page), you can:
     
     - Create custom insight cards.
 
@@ -139,7 +141,7 @@ With the new redesigned assistant administration, you can perform tasks that wer
     | **3** | **Table with card details** | This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize. To learn more, see [Edit insight cards](edit-insight-cards.md). |
     | **4** | **Search cards** | This allows you to search cards that you want to view or manage. |
     
-4. On the **Optimize ranking** tab, you can create rules to prioritize cards to appear in the application.
+5. On the **Optimize ranking** tab, you can create rules to prioritize cards to appear in the application.
 
     The following is an example of the **Optimize ranking** tab:
 

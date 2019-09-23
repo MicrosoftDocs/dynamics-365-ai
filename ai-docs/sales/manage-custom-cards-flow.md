@@ -17,14 +17,9 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-# Preview: Manage insight cards
+# Manage insight cards
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-
-The relationship assistant displays actionable insight cards (formerly called action cards) for users in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. The relationship assistant is evolving and we're introducing new preview capabilities such as customized insight cards to your team. To learn more about predefined insight cards, see [Action cards](action-cards-reference.md).
+The Assistant displays actionable insight cards (formerly called action cards) for users in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. The Assistant is evolving and we're introducing new preview capabilities such as customized insight cards to your team. To learn more about predefined insight cards, see [Action cards](action-cards-reference.md).
 
 With the new redesigned assistant administration, you can perform tasks that were previously available, such as turn on and off the insight cards and set thresholds for certain cards. Additionally, you can use preview capabilities to create customized insight cards and optimize card ranking for your Dynamics 365 for Sales organization. The preview features include:
 
@@ -36,7 +31,7 @@ With the new redesigned assistant administration, you can perform tasks that wer
 - [Edit flow of an insight card](edit-insight-cards.md#edit-flow-of-a-card)
 
 > [!NOTE]
-> To learn more about the characteristics of insight cards (formerly called action cards), see [Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)
+> To learn more about the characteristics of insight cards (formerly called action cards), see [Create custom cards in assistant](sample-extend-relationship-assistant-card-type.md)
 
 
 ## Prerequisites
@@ -44,8 +39,8 @@ With the new redesigned assistant administration, you can perform tasks that wer
 Verify the following prerequisites before you start working on insight card creation.
 
 - You must have administrative privileges.
-- You must purchase a **Dynamics 365 AI for Sales** license. However, in preview you do not need to acquire the **Dynamics 365 AI for Sales** license.
-- Embedded intelligence is enabled. To learn more, see [How to enable Embedded intelligence](configure-enable-embedded-intelligence.md#how-to-enable-embedded-intelligence).
+- You must purchase a **Dynamics 365 Sales Insights** license.
+- Advanced Sales insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
 - Preview features for Assistant are enabled.
     1. Sign in to **Dynamics 365 for Sales** and go to **Settings** > **Sales AI**.
     2. Select **Configure** on the **Assistant** section.
@@ -62,7 +57,7 @@ Verify the following prerequisites before you start working on insight card crea
 
 ## Understand Assistant tab
 
-After enabling Embedded intelligence, select **Configuration** on the **Assistant** section to go to the **Assistant** tab (configuration page). The assistant displays two tabs:
+After enabling Sa;es Insights features, select **Configuration** on the **Assistant** section to go to the **Assistant** tab (configuration page). The assistant displays two tabs:
 
 - **Manage insight cards**
 - **Optimize ranking**
@@ -99,6 +94,8 @@ To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-
 
 ### See also
 
-- [Create insight cards](create-insight-cards-flow.md)
-- [Edit insight cards](edit-insight-cards.md)
-- [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
+[Create insight cards](create-insight-cards-flow.md)
+
+[Edit insight cards](edit-insight-cards.md)
+
+[Optimize ranking of insight cards](optimize-ranking-insight-cards.md)

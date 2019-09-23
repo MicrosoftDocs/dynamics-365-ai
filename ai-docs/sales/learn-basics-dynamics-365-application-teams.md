@@ -45,7 +45,7 @@ The meetings for current day are displayed along with the participants, regardin
 
 ## Highlighted insights
 
-The highlighted insight section displays the insight cards that are most important and with relevant information about what you must do next. You can perform the defined actions on the cards such as open, send email, snooze, and dismiss. You can open the card to see the details and what the card is regarding. To learn more, see [Use assistant to guide customer communications](relationship-assistant.md).
+The highlighted insight section displays the insight cards that are most important and with relevant information about what you must do next. You can perform the defined actions on the cards such as open, send email, snooze, and dismiss. You can open the card to see the details and what the card is regarding. To learn more, see [Use assistant to guide customer communications](assistant.md).
 
 ## Settings
 

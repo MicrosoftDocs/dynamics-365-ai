@@ -1,6 +1,6 @@
 ---
 title: "Download custom card sample for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to download and what resources are present to create a custom actions or learn about extending the relationship assistant action card."
+description: "Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card."
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -14,11 +14,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Sample: Extend Relationship assistant card type (custom card)
+# Sample: Extend assistant card type (custom card)
 
 ## Create custom action card
 The following process explains how to create a custom card:
-- **Step 1:** Download the extend Relationship assistant card type sample solution
+- **Step 1:** Download the extend Assistant card type sample solution
 - **Step 2:** Build the solution (ExtPkgDeployer.sln)
 - **Step 3:** Import the package using the package deployer tool
 - **Step 4:** Verify the new card type
@@ -30,11 +30,11 @@ Review the prerequisites before you create the custom cards in your organization
 
 - You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
-## Step 1: Download the extend Relationship assistant card type sample solution
+## Step 1: Download the extend Assistant card type sample solution
 
 [Download](https://go.microsoft.com/fwlink/?linkid=2034351) the sample custom card solution.
 
-The samples show how to create a custom card in Relationship assistant programmatically.
+The samples show how to create a custom card in Assistant programmatically.
 
 Go to the path `ExtPkgDeployer\PkgFolder\extensibility_example_sol\WebResources`. Under the **WebResources** folder, you can see three files that are required to create a custom card.
 
@@ -313,23 +313,28 @@ You can verify the custom cards are created in your organization as end user and
 **As end user**
 
 1. Log in to **Dynamics 365 Sales**.
-2. Under **Relationship assistant** section, you can see your created action card.
+2. Under **Assistant** section, you can see your created action card.
     
     > [!div class="mx-imgBorder"]
     > ![example of extended action card](media/devdoc-extended-card.png "example of extended action card")
 
 **As administrator**
 
-1. Log in to **Dynamics 365 Sales**.
-2. Go to **Settings** > **Setup AI**.
-3. Select **Configuration** on Relationship assistant section or select **Relationship assistant** tab.
-4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
-    > [!div class="mx-imgBorder"]
-    > ![Administer extended action card](media/relationship-assistant-custom-card-selection.png "Administer extended action card")
+1. Log in to **Dynamics 365 Sales** and go to **Sales Hub app**.
+
+2. Go to **Change area** and select **Sales Insights settings**.
+
+3. On the sitemap, select **Insights cards** under **Assistant** to go to **Manage insight cards** page.
+
+4. On the **Manage insight cards** page, you see an option to enable created custom actions cards in your organization.
+
+To learn more on how to enable cards, see [Turn on or off insights cards](edit-insight-cards.md#turn-cards-on-or-off).
 
 
 ### See also
 
-- [Create custom cards in Relationship assistant ](extend-relationship-assistant-card.md)
-- [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
-- [Relationship assistant](relationship-assistant.md)
+[Create custom cards in Assistant](extend-relationship-assistant-card.md)
+
+[Configure Assistant](configure-assistant.md)
+
+[Guide customer communications with assistant](assistant.md)

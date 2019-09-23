@@ -14,7 +14,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Create custom cards in Relationship assistant 
+# Create custom cards in Assistant 
 
 Action cards provides you up to date information on email, meeting, and much more in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. These cards reminds you of upcoming activities; it evaluates your communications, and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more. These cards are displayed on forms, dashboards, and throughout the application to provide relevant information for the context you are working in at the moment.
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md) 
@@ -36,13 +36,13 @@ You can generate these custom cards in two ways:
     >[!NOTE]
     > We recommend you to use the **Assistant** to generate the custom insight cards.  
 
-- As a developer, you can create new card types according to your organizational requirements and make them available for users. To learn more, see [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+- As a developer, you can create new card types according to your organizational requirements and make them available for users. To learn more, see [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
 ### See also
 
 [Manage insight cards](manage-custom-cards-flow.md)
 
-[Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+[Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
 [Configure Assistant](configure-assistant.md)
 
