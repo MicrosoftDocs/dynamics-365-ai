@@ -259,6 +259,6 @@ The following image is an example of how the call recording KPIs are displayed.
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#introduction-to-administer-sales-insights-application)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 

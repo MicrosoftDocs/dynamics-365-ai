@@ -32,7 +32,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -	[Enable Dynamics 365 assistant application on Microsoft Teams](#enable-dynamics-365-assistant-application-on-microsoft-teams).
 
--	[Introduction to administer Sales Insights application](#introduction-to-administer-sales-insights-application).
+-	[Introduction to administer Sales Insights application](#administer-sales-insights-application).
 
 ## Enable and configure free Sales Insights features
 
@@ -213,7 +213,7 @@ After you have reviewed the prerequisites, install and configure the Dynamics 36
 
 - Configure Dynamics 365 bot, see [Configure Dynamics 365 bot](configure-dynamics-365-bot.md).
 
-## Introduction to administer Sales Insights application
+## Administer Sales Insights application
 
 The **Sales Insights** application assists the sales managers and sellers in your organization to get an overview of the conversation with customers. The **Sales Insights** application helps:
 

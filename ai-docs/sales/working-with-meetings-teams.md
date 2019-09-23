@@ -49,7 +49,7 @@ The meeting preparation page is typically divided into the following sections:
 
 3.	[Regarding entity](#regarding-entity)
 
-4.	[Activity timeline and insight cards](#activity-timeline-and-insight-cards)
+4.	[Activity timeline and insight cards](#activities-timeline-and-insights-cards)
 
 ## Meeting information
 

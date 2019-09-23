@@ -125,6 +125,6 @@ The following procedure explains how to access Sales Insights application for th
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#introduction-to-administer-sales-insights-application)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

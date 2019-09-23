@@ -40,7 +40,7 @@ The following diagram illustrates the various features available in [!INCLUDE[pn
 
 The free Sales Insights features available for free with Dynamics 365 Sales. These features consist of: 
 
-- **Assistant (free)**: The assistant (formerly known as Relationship assistant) combines and analyzes the information that is at its disposal from Dynamics 365 Sales, and then generates a collection of action cards, which are displayed as your entry point to Dynamics 365 Sales on mobile devices, and as a carousel or column display on your web-based dashboards. To learn more, see  [Use assistant to guide customer communications](relationship-assistant.md). 
+- **Assistant (free)**: The assistant (formerly known as Relationship assistant) combines and analyzes the information that is at its disposal from Dynamics 365 Sales, and then generates a collection of action cards, which are displayed as your entry point to Dynamics 365 Sales on mobile devices, and as a carousel or column display on your web-based dashboards. To learn more, see  [Use assistant to guide customer communications](assistant.md). 
 
 - **Auto capture (free)**: The auto capture analyzes your email messages directly in Microsoft Exchange to find all messages that might be relevant to your work in sales. The application looks for messages to or from relevant email addresses and presents you with the relevant messages right in Sales. To learn more, see [Auto capture of related emails](auto-capture.md). 
 
@@ -64,6 +64,8 @@ The advanced Sales Insights features consist of [free Sales Insights features](#
 - **Talking points**: The talking points displays topics to start a conversation with your customer such as sports, vacation, family, and entertainment. To learn more, see [Know conversation starters for your customers](talking-points.md). 
 
 - **Who knows whom**: The who knows whom provides details such as names and email addresses of your colleagues who know a lead that you are going to interact. To learn more, see [How to get introduced to a lead](who-knows-whom.md). 
+
+- **Dynamics 365 assistant for Microsoft Teams**: The Dynamics assistant app provides sellers timely and in context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md). 
 
 ## Sales Insights application 
 
