@@ -26,7 +26,8 @@ Obtaining accurate customer demographic information can be an expensive and time
 
 **Gender** and **Age** insights provide a view with the percentage of male and female distributions, as well as age distribution of those who are searching for elements you defined.
 
-![Demographic insight in the Market Insights app](media/insight-details-demographics.png)
+> [!div class="mx-imgBorder"]
+> ![Demographic insight in the Market Insights app](media/insight-details-demographics.png)
 
 ## Data and frequency
 
