@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 07/25/2019
+title: "Demographic insights in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Insights related to the demographics insights type."
+ms.date: 09/24/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -16,13 +16,15 @@ search.app:
   - D365SE
 ---
 
-# Age and gender insight
+# Demographic insights
 
 ## Overview
 
 Obtaining accurate customer demographic information can be an expensive and time consuming task.
 
 **Gender** and **Age** insights provide a view with the percentage of male and female distributions, as well as age distribution of those who are searching for elements you defined.
+
+![Demographic insight in the Market Insights app](media/insight-details-demographics.png)
 
 ## Data and frequency
 
