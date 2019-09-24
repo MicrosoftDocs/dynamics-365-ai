@@ -18,6 +18,8 @@ search.app:
 
 # Demographic insights
 
+(This topic is pre-release documentation and is subject to change.)
+
 ## Overview
 
 Obtaining accurate customer demographic information can be an expensive and time consuming task.
