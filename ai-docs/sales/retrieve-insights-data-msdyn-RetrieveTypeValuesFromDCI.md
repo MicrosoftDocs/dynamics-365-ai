@@ -1,13 +1,10 @@
 ---
-title: "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (Dynamics 365 Customer Engagement) | Microsoft Docs  "
+title: "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (Dynamics 365 Sales) | Microsoft Docs  "
 description: "Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service that is used to compute and store data"
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 author: KumarVivek
 ms.author: kvivek
@@ -16,8 +13,6 @@ topic-status: Drafting
 ---
 
 # Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 Sales Insights.
 
@@ -116,5 +111,6 @@ OData-Version: 4.0
 
 ### See also
 
-- [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
-- [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
+[Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
+
+[Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)

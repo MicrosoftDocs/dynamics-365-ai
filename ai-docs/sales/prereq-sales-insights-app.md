@@ -1,14 +1,10 @@
 ---
 title: "Prerequisites to administer Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Prerequisites on how to administer Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
 author: udaykirang
 ms.author: udag
@@ -26,7 +22,7 @@ Verify the following requirements before setting up the Sales Insights applicati
 
 -	You must have an administrator or similar role.
 
--	You must have a Dynamics 365 for Sales organization. 
+-	You must have a Dynamics 365 Sales organization. 
 
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
 

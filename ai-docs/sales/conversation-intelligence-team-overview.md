@@ -1,14 +1,10 @@
 ---
 title: "Work with conversation intelligence to understand team overview feature for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Analyze overall team performance  to improve sales and generate revenue"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, sales insights, Sales AI"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: c631cfc1-ed6b-41e1-a1aa-3437a344ef22
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # Analyze overall team's behavior on customer calls
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page helps the sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
@@ -54,4 +48,4 @@ To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights**
 
 - [First-run set up experience](fre-setup-sales-insight-app.md)
 
-- [Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md)
+- [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)

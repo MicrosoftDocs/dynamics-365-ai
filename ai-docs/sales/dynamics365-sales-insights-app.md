@@ -1,14 +1,10 @@
 ---
 title: "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 for Sales"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Sales"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # Improve seller coaching and sales potential with Dynamics 365 Sales Insights application
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application uses analytics and data science to gather data from call recordings, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence.
 
@@ -57,7 +51,7 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 
--	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
+-	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
 
 -	Enable preview for natural language Q&A. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
@@ -75,7 +69,7 @@ The next sections describe:
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app:
 
--	Verify that you have a subscription to Microsoft Dynamics 365 for Sales. To learn more, see [Purchase and assign Dynamics 365 for Customer Engagement apps licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
+-	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
 
 <!-- - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)-->
 
@@ -103,12 +97,12 @@ The following procedure explains how to access Sales Insights application for th
 
 1.	Signs into [Dynamics 365 Sales Insights](https://sales.ai.dynamics.com/) application, the home page is displayed with the demo data.
 
-2.	Selects **Set up Sales Insights** to connect to Dynamics 365 for Sales organization.
+2.	Selects **Set up Sales Insights** to connect to Dynamics 365 Sales organization.
 
     > [!div class="mx-imgBorder"]
     > ![Sales insights application first sign in](media/si-app-manager-first-signin.png "Sales insights application first sign in")
 
-3.	Selects the Dynamics 365 for Sales organization to connect and this helps to compute and consolidate the necessary insights about your team.
+3.	Selects the Dynamics 365 Sales organization to connect and this helps to compute and consolidate the necessary insights about your team.
 
     > [!div class="mx-imgBorder"]
     > ![select Dynamics 365 sales organization](media/si-app-select-organization.png  "select Dynamics 365 sales organization")
@@ -131,6 +125,6 @@ For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
+[View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

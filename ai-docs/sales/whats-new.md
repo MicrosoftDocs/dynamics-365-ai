@@ -44,7 +44,7 @@ In this release, we have improved engagement and decision-making with prebuilt a
 
 ### Sales Insights application
 
-Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 for Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
+Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
  
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 

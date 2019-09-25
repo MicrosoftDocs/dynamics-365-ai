@@ -1,14 +1,10 @@
 ---
 title: "Configure call data for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Configure call data in Dynamics 365 Sales Insights application"
-keywords: "Call intelligence, Dynamics 365 AI for Sales, AI for Sales, Sales AI, Sales Insights application"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 5fbbe749-6b23-49a6-91a1-0499f9a4fb92
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # Configure conversation intelligence to connect call data
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0. <br>
 
 Conversation intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sellers. This helps the sales managers change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
@@ -60,7 +54,7 @@ Create a call recording repository (blob container) in an Azure storage account 
 
 5. Select **OK**.
 
-   The container is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
+   The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
 
 6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.
 
@@ -86,8 +80,8 @@ Review the following requirements for audio and JSON files before you upload:
   |Parameter|Description|
   |---------|-----------|
   | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
-  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 for Sales organization. |
-  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 for Sales organization. | 
+  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Sales organization. |
+  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Sales organization. | 
   | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
   | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
   | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, and zh-CN. |
@@ -102,7 +96,7 @@ Review the following requirements for audio and JSON files before you upload:
   | `CallOpportunityCrmId` |  (Optional) Specifies the unique identification code of the opportunity. |
   | `CallLeadCrmId` |  (Optional) Specifies the unique identification code of the lead. |
   | `CallAccountCrmId` |  (Optional) Specifies the unique identification code of the account. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 for Sales admin center for the sales rep. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 Sales admin center for the sales rep. |
   | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
@@ -174,8 +168,8 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
 
-- [FAQs for Sales Insights application](faqs-sales-insights-app.md)
+[FAQs for Sales Insights application](faqs-sales-insights-app.md)

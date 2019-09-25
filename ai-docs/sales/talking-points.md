@@ -6,9 +6,6 @@ ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 765ca303-8a4b-4520-999f-9f70c32aaa74
 author: udag
 ms.author: udag
@@ -21,8 +18,6 @@ topic-status: Drafting
 ---
 
 # Know conversation starters for your customers 
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 As a sales representative, you interact with many customers and it can be difficult to remember details about each, such as:
 -  Latest entertainment event they attended.
