@@ -17,36 +17,52 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
+
+<!--from editor: The wording of the title seems a bit off. I suggest something like "Introduction to administering Dynamics 365 Sales Insights" or just "Administer Dynamics 365 Sales Insights". -->
+
+
+
 # Introduction to administer Dynamics 365 Sales Insights
 
-Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to use the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] in their organization. In [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)], some features are available as free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization.
+Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to use Sales Insights in their organization. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization.
 
-As an administrator, you can enable and configure the Sales Insights features as required in your organization. The following are the scenarios that you could use to enable and configure Sales Insights features:
+As an administrator, you can enable and configure the Sales Insights features as required in your organization. Here are the scenarios you could use to enable and configure Sales Insights features:
 
--	[Enable and configure free Sales Insights features](#enable-and-configure-free-sales-insights-features).
+-	[Enable and configure free Sales Insights features](#enable-and-configure-free-sales-insights-features)
 
--	[Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features).
+-	[Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features)
 
--	[Enable Dynamics 365 assistant application on Microsoft Teams](#enable-dynamics-365-assistant-application-on-microsoft-teams).
+-	[Enable Dynamics 365 assistant application on Microsoft Teams](#enable-dynamics-365-assistant-application-on-microsoft-teams)
 
--	[Introduction to administer Sales Insights application](#administer-sales-insights-application).
+-	[Administer Sales Insights application](#administer-sales-insights-application)
 
 ## Enable and configure free Sales Insights features
 
-The free Sales Insights features – **Assistant (free)**, **Auto capture (free)**, **Email engagement (free)**, are available for you along with Dynamics 365 Sales. You can configure these free features as required in your organization. The following diagram illustrates the steps to configure these features:
+
+The free Sales Insights features—**Assistant (free)**, **Auto capture (free)**, and **Email engagement (free)**—are available for you along with Dynamics 365 Sales. You can configure these free features as required in your organization. The following diagram illustrates the steps to configure these features:
 
 > [!div class="mx-imgBorder"]
 > ![Steps to configure Sales Insights free feature](media/si-free-features-config-steps.png "Steps to configure Sales Insights free feature")
+
+
+
+<!--from editor: For step 2, the text should either match the heading, or vice versa. -->
+
 
 1.	[Review requirements and prerequisites](#requirements-and-prerequisites).
 
 2.	[Accept privacy notice to enable free Sales Insights features](#enable-free-sales-insights-features). 
 
-3.	[Configure the following free features as required](#configure-free-sales-insights-features).
+3.	[Configure the free features as required](#configure-free-sales-insights-features).
 
 ### Requirements and prerequisites
 
 Review the following requirements and prerequisites to enable free Sales Insights features:
+
+
+<!--from editor: Note that the "Action cards reference" link goes to a page titled "Insight cards reference." -->
+
+
 
 -	There are some feature restrictions depending on which versions of Dynamics 365 Sales and Office 365 you're running, as detailed in the following table.
 
@@ -56,18 +72,18 @@ Review the following requirements and prerequisites to enable free Sales Insight
     | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises) | <ul><li>Assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>|
     |[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
--	The features Assistant, Email engagement, and Auto capture are available for Dynamics 365 Sales with Enterprise license only.
+-	Assistant, Email engagement, and Auto capture are available for Dynamics 365 Sales with an Enterprise license only.
 
--	You must have administrator or an equivalent security role.
+-	You must have an administrator or equivalent security role.
 
 ### Enable free Sales Insights features
 
-Before you can configure the features, you must accept the privacy notice to enable the configurations. To accept the privacy notice, follow these steps:
+Before you can configure the features, you must accept the privacy notice to enable the configurations. To accept the privacy notice, follow these steps listed here.
 
 > [!IMPORTANT]
 > [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise and enable the features only if you're certain that they don't violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts.
 
-1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
+1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -78,8 +94,9 @@ Before you can configure the features, you must accept the privacy notice to ena
 
     > [!div class="mx-imgBorder"]
     > ![Steps to configure Sales Insights free feature](media/si-admin-accept-privacy-notice.png "Select accept privacy notice option")
- 
-    The free Sales Insights features are enabled for your organization and you can configure features such as Assistant (free), Auto capture, and Email engagement.
+
+
+    The free Sales Insights features are enabled for your organization and you can configure features such as Assistant (free), Auto capture (free), and Email engagement (free).
  
     > [!div class="mx-imgBorder"]
     > ![Free Sales Insights features enabled](media/si-admin-free-features-enabled.png "Free Sales Insights features enabled")
@@ -90,18 +107,18 @@ After you enable the free Sales Insights features, you can configure the feature
 
 -	To configure Assistant (free), see [Configure and manage insight cards for Assistant (free)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-free).
 
--	To configure Auto capture (free), see [Enable Auto capture](configure-auto-capture.md)
+-	To configure Auto capture (free), see [Configure and enable auto capture](configure-auto-capture.md).
 
--	To configure Email engagement (free), see [Configure and enable email engagement](configure-email-engagement.md)
+-	To configure Email engagement (free), see [Configure and enable email engagement](configure-email-engagement.md).
 
 ## Enable and configure advanced Sales Insights features
 
-The advanced Sales Insights features provide intelligent insights on leads, opportunities, customers, and sales data that helps sellers to take timely actions to close deals and generate revenue. The advanced Sales Insights features includes – **Assistant (full capabilities)** with Studio, **Notes analysis**, **Relationship analytics**, **Who knows whom**, **Predictive lead scoring**, and **Predictive opportunity scoring**. You can configure these features as required in your organization.
+The advanced Sales Insights features provide intelligent insights on leads, opportunities, customers, and sales data that help sellers to take timely actions to close deals and generate revenue. The advanced Sales Insights features include **Assistant (full capabilities)** with Studio, **Notes analysis**, **Relationship analytics**, **Who knows whom**, **Predictive lead scoring**, and **Predictive opportunity scoring**. You can configure these features as required in your organization.
 
 The following diagram illustrates the steps to configure these features:
 
 > [!div class="mx-imgBorder"]
-> ![Steps to configure Sales Insights advanced feature](media/si-advanced-features-config-steps.png "Steps to configure Sales Insights advanced feature")
+> ![Steps to configure Sales Insights advanced features](media/si-advanced-features-config-steps.png "Steps to configure Sales Insights advanced features")
 
 1.	[Review GDPR](#review-gdpr).
 
@@ -114,7 +131,7 @@ The following diagram illustrates the steps to configure these features:
 
 ### Review GDPR
 
-To learn about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md).
+To learn about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]-related **General Data Protection Regulation (GDPR)**, see [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md).
 
 ### Review the prerequisites
 
@@ -126,14 +143,14 @@ Review the following requirements before you enable and configure the advanced S
 
 - Exchange email server is configured, and mailbox is enabled using **Email Configurations** in Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 
-- If you want to use LinkedIn data for Relationship analytics, verify that the LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write back from LinkedIn Sales navigator is enabled.
+- If you want to use LinkedIn data for Relationship analytics, verify that the LinkedIn solution is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and write-back from LinkedIn Sales navigator is enabled.
 
 ### Enable advanced Sales Insights
 
 The advanced Sales Insights features are not available by default. You must enable these features by accepting the terms and conditions for your organization. To accept the terms and conditions, follow these steps:
 
 
-1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
+1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -145,7 +162,7 @@ The advanced Sales Insights features are not available by default. You must enab
     > [!div class="mx-imgBorder"]
     > ![Select try sales insights](media/si-admin-select-try-sales-insights.png "Select try sales insights")
  
-4.	On the Sales Insights set up page, carefully read and select the terms and conditions, and then select **Continue**.
+4.	On the Sales Insights setup page, carefully read and select the terms and conditions, and then select **Continue**.
 
     > [!div class="mx-imgBorder"]
     > ![Select accept terms and conditions](media/si-admin-accept-terms-and-conditions.png "Select accept terms and conditions")
@@ -153,13 +170,13 @@ The advanced Sales Insights features are not available by default. You must enab
     The installation takes a few minutes to complete, and then the status appears in the status bar. After the installation is complete, you are ready to configure the advanced Sales Insights features.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced sales insights settings page](media/si-admin-advanced-installation-complete.png "Advanced sales insights settings page")
+    > ![Advanced Sales Insights settings page](media/si-admin-advanced-installation-complete.png "Advanced Sales Insights settings page")
  
 ### Configure advanced Sales Insights features
 
 After enabling the advanced Sales Insights features, you can configure the advanced features as required:
 
--	To configure Assistant (full capabilities), see [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md##configure-and-manage-insight-cards-for-assistant-full-capabilities).
+-	To configure Assistant (full capabilities), see [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities).
 
 -	To configure Notes analysis, see [Configure Notes analysis](configure-notes-analysis.md).
 
@@ -176,13 +193,13 @@ After enabling the advanced Sales Insights features, you can configure the advan
 
 ## Enable Dynamics 365 assistant application on Microsoft Teams
 
-The Dynamics Assistant app provides sellers timely and in context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
+The Dynamics 365 assistant app provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
 
 To install the Dynamics 365 assistant application, follow these steps:
 
-1. [Review the Prerequisites](#prerequisites)
+1. [Review the prerequisites](#prerequisites)
 
-2. [Install Dynamics 365 assistant application and bot](#install-dynamics-365-assistant-application-and-bot)
+2. [Install the Dynamics 365 assistant application and bot](#install-dynamics-365-assistant-application-and-bot)
 
 ### Prerequisites
 
@@ -190,15 +207,15 @@ Verify the following requirements before setting up and using the sales assistan
 
 **As an administrator**
 
-   - Enable preview feature in Dynamics 365. To learn more, see [What are Preview features, and how do I enable them?](/dynamics365/customer-engagement/admin/what-are-preview-features-how-do-i-enable-them)
+   - Enable the preview feature in Dynamics 365. To learn more, see [What are Preview features, and how do I enable them?](/dynamics365/customer-engagement/admin/what-are-preview-features-how-do-i-enable-them)
 
-   - Enable Talking points, Who knows whom, and Insight cards in your organization to leverage the services to get full utilization of assistant app. To learn more,[Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features).
+   - Enable Talking points, Who knows whom, and Insight cards in your organization to leverage the services to get full utilization of assistant app. To learn more, see [Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features).
 
-**As a sales manager or Seller**
+**As a sales manager or seller**
 
-   - Install Dynamics 365 app on Microsoft Teams.
+   - Install the Dynamics 365 app on Microsoft Teams.
 
-   - Have Dynamics 365 Sales license.
+   - Obtain a Dynamics 365 Sales license.
 
    - Have an active Dynamics 365 Sales organization.
 
@@ -206,9 +223,9 @@ Verify the following requirements before setting up and using the sales assistan
 
 After you have reviewed the prerequisites, install and configure the Dynamics 365 assistant application and bot for Teams.
 
-- To install Dynamics 365 assistant application on Microsoft Teams, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
+- To install the Dynamics 365 assistant application on Microsoft Teams, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
 
-- Configure Dynamics 365 assistant bot, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
+- To configure the Dynamics 365 assistant bot, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
 
 ## Administer Sales Insights application
 
@@ -218,7 +235,7 @@ The **Sales Insights** application assists the sales managers and sellers in you
 
 -	Sellers analyze their conversation data and identify improvements in the conversation style to enhance sales and generate revenue.
 
-As an administrator, when you sign-in to the application for the first time, you can set up the application. After you complete the setup, sales managers and sellers in your organization can sign-in and use the application seamlessly. To learn more, see [First-run set up experience of Sales Insight application](fre-setup-sales-insight-app.md).
+As an administrator, when you sign in to the application for the first time, you can set up the application. After you complete the setup, sales managers and sellers in your organization can sign in and use the application seamlessly. To learn more, see [First-run setup experience of Sales Insight application](fre-setup-sales-insight-app.md).
 
 You can also update each setting later as required. The following are the available configurations:
 
@@ -228,21 +245,25 @@ You can also update each setting later as required. The following are the availa
 
 -	Define keywords and competitors that will be tracked in conversations. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
--	Define how long you want to retain the data in the application and remove seller specific data. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
+-	Define how long you want to retain the data in the application and remove seller-specific data. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 
 -	Enable preview features. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
 
-## Privacy Notice
+## Privacy notice
 
 For specific privacy information about Dynamics 365 Sales Insights capabilities, see [Privacy notice](privacy-notice.md).
 
 ### See also
 
+
+<!--from editor: The second link goes to a page titled "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application". Is that the correct page? -->
+
+
 [Overview of Dynamics 365 Sales Insights](overview.md)
 
 [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
 
-[GDPR for Sales Insights](embedded-intelligence-gdpr.md)
+[Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
 
-[Privacy notice](privacy-notice.md) 
+[Sales Insights privacy notice](privacy-notice.md) 
