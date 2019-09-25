@@ -1,14 +1,10 @@
 ---
 title: "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Sales Insights"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag
@@ -55,7 +51,7 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 
--	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
+-	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
 
 -	Enable preview for natural language Q&A. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
@@ -73,7 +69,7 @@ The next sections describe:
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app:
 
--	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [Purchase and assign Dynamics 365 apps licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
+-	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
 
 <!-- - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)-->
 

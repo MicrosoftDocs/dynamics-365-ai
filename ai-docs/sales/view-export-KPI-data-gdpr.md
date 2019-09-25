@@ -5,9 +5,6 @@ keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
 author: KumarVivek
 ms.author: kvivek
@@ -41,7 +38,7 @@ After viewing the results, you can export data to Microsoft Excel, if required. 
 
 ![](media/export-excel-gdpr.png)
 
-For more information about exporting data from dynamics 365 to excel, see [Export data to Excel](/dynamics365/customer-engagement/basics/export-data-excel)
+For more information about exporting data from Dynamics 365 Sales to excel, see [Export data to Excel](/dynamics365/customer-engagement/basics/export-data-excel)
 
 ## See also
 

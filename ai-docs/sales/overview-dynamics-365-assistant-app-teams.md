@@ -6,9 +6,6 @@ ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 149c2aa5-5b81-466b-9031-60b6fdc07947
 author: udaykirang
 ms.author: udag
@@ -31,7 +28,7 @@ topic-status: Drafting
 
 In a fast-moving world, as a salesperson, you need to be on top of daily sales activities so that you can close deals and maintain proper communications with the customer. The Dynamics assistant app provides sellers timely and in context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
 
-The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365.
+The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 assistant app. The app provides sellers a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365.
 
 This application enables you to:
 
@@ -41,17 +38,17 @@ This application enables you to:
 
 -	**Take the next best action**: Get proactive suggestions for the next best action to ensure nothing falls between the cracks. To learn more, see [Guide customer communications with assistant](assistant.md).
 
--	**Capture meeting notes**: Instead of typing notes into Dynamics 365 once you are back at the office, use your phone to capture notes right after the meeting, while on the go, ensuring every task is captured and addressed.
+-	**Capture meeting notes**: Instead of typing notes into Dynamics 365 Sales once you are back at the office, use your phone to capture notes right after the meeting, while on the go, ensuring every task is captured and addressed.
 
 -	**Transform business cards into contacts**: Save time manually entering contacts with the new business card scanner. Easily use your phone's camera to capture business cards. Analyze and save relevant information as new contacts directly in Dynamics 365.
 
-An administrator or you can add this application on Microsoft Teams. To learn more, see [Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
+An administrator or you can add this application on Microsoft Teams. To learn more, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
 
 ### See also
 
-[Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
-[Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
+[Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
 
 [Access the application on Microsoft Teams](access-assistant-application-teams.md)
 

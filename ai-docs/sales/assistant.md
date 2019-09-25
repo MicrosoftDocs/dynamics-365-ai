@@ -1,5 +1,5 @@
 ---
-title: "Assistant for Dynamics 365 Sales | MicrosoftDocs"
+title: "Assistant for Dynamics 365 Sales Insights | MicrosoftDocs"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 

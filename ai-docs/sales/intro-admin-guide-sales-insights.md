@@ -6,9 +6,6 @@ ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: be0a1a73-f667-4ade-be83-55cd9b4eebe4
 author: udaykirang
 ms.author: udag
@@ -209,9 +206,9 @@ Verify the following requirements before setting up and using the sales assistan
 
 After you have reviewed the prerequisites, install and configure the Dynamics 365 assistant application and bot for Teams.
 
-- To install Dynamics 365 application on Microsoft Teams, see [Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
+- To install Dynamics 365 assistant application on Microsoft Teams, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
 
-- Configure Dynamics 365 bot, see [Configure Dynamics 365 bot](configure-dynamics-365-bot.md).
+- Configure Dynamics 365 assistant bot, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
 
 ## Administer Sales Insights application
 
@@ -225,7 +222,7 @@ As an administrator, when you sign-in to the application for the first time, you
 
 You can also update each setting later as required. The following are the available configurations:
 
--	Connect your Dynamics 365 environment to gather data and display on KPIs. To learn more, see [Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md).
+-	Connect your Dynamics 365 Sales environment to gather data and display on KPIs. To learn more, see [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md).
 
 -	Connect to call data repository. To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 

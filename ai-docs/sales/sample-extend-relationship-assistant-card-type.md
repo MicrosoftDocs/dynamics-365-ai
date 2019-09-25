@@ -201,9 +201,9 @@ The build is successful, and you can see that under the `<folder>\ExtPkgDeployer
 
 2. In the introduction screen of the Package Deployer tool, choose **Continue**.
 
-3. In the authentication screen, provide authentication details to connect to the Dynamics 365 instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
+3. In the authentication screen, provide authentication details to connect to the Dynamics 365 Sales instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
 
-4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 instance. Review the information and choose **Next**. 
+4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 Sales instance. Review the information and choose **Next**. 
  
 5. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 Sales organization where it will be deployed to. Review the information and choose **Next**.
  

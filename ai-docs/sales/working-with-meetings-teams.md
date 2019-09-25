@@ -6,9 +6,6 @@ ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 8f433c64-e57b-43a6-b57c-3bf75d2255f6
 author: udaykirang
 ms.author: udag
@@ -134,7 +131,7 @@ You can update the regarding entity when it is no more relevant or there are cha
 
 See a combined view of your and customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline that are related to the regarding entity. The Timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.
 
-This timeline activities and cards are fetched from your Dynamics 365 sales organization for the selected regarding entity.
+This timeline activities and cards are fetched from your Dynamics 365 Sales organization for the selected regarding entity.
 
 The following image is an example of an activity timeline for an opportunity regarding entity:
 
@@ -143,6 +140,6 @@ The following image is an example of an activity timeline for an opportunity reg
 
 ### See also
 
-[Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
 [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)

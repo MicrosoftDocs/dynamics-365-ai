@@ -6,7 +6,6 @@ ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: e59e67ad-3646-4929-a6f8-c97ab2c5f6e2
 author: udaykirang
 ms.author: udag
@@ -159,7 +158,7 @@ After you create a flow, a card must be generated to based on the created flow t
 
 To access the saved flows, follow these steps:
 
-1. Go to [Microsoft Flow](https://flow.microsoft.com) and sign in with your Dynamics 365 credentials.
+1. Go to [Microsoft Flow](https://flow.microsoft.com) and sign in with your Dynamics 365 Sales credentials.
 
     > [!NOTE]
     > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 

@@ -5,9 +5,6 @@ ms.date: 08/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 64fc7327-265d-4d85-bc58-5f2bcadf4ae1
 author: udaykirang
 ms.author: udag
@@ -19,11 +16,11 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Connect to Dynamics 365 environment
+# Connect to Dynamics 365 Sales environment
 
 The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your Sales Insights application. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
-At a time, you can have only one active Dynamics 365 environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
+At a time, you can have only one active Dynamics 365 Sales environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
 
 As an administrator, you must configure the Dynamics 365 Sales environment to connect to the Sales Insights application.
 

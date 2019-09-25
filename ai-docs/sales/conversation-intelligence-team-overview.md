@@ -5,9 +5,6 @@ ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: c631cfc1-ed6b-41e1-a1aa-3437a344ef22
 author: udaykirang
 ms.author: udag
@@ -51,4 +48,4 @@ To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights**
 
 [First-run set up experience](fre-setup-sales-insight-app.md)
 
-[Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md)
+[Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)

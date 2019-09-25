@@ -1,14 +1,10 @@
 ---
 title: "Talking points in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Know conversation starters of customers in Dynamics 365 Sales Insights."
-keywords: "talking points, conversation starters, Dynamics 365 Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 765ca303-8a4b-4520-999f-9f70c32aaa74
 author: udag
 ms.author: udag
@@ -38,7 +34,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], **Talking poin
 > [!NOTE]
 > If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Talking points](configure-talking-points.md).
 
-Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
+Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 Sales analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
 
 > [!div class="mx-imgBorder"]
 > ![Talking point sample](media/talkingpoints-sample.png "Talking point sample")<br>

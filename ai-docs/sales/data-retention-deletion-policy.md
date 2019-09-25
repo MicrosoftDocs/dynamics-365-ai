@@ -5,9 +5,6 @@ ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
 author: udaykirang
 ms.author: udag
@@ -96,7 +93,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
     > [!div class="mx-imgBorder"]
     > ![Seller data deleted](media/si-app-admin-seller-delete-deleted.png "Seller data deleted")
 
-To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 for Customer Engagement apps and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).
+To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).
 
 ### See also
 

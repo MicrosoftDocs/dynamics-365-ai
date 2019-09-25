@@ -5,9 +5,6 @@ ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
 author: udaykirang
 ms.author: udag

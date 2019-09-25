@@ -6,9 +6,6 @@ ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: a0643618-6720-4260-b720-8f5cbca32d39
 author: udaykirang
 ms.author: udag
@@ -20,7 +17,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Dynamics 365 bot
+# Configure Dynamics 365 assistant bot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -29,9 +26,9 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-The Dynamics 365 app for Teams bot helps you to get information from your Dynamics 365 organization in the Microsoft Teams conversations tab.
+The Dynamics 365 assistant app for Teams bot helps you to get information from your Dynamics 365 Sales organization in the Microsoft Teams conversations tab.
 
-As a user when you first access the Dynamics 365 app asks you to configure the bot. You can configure the bot only through your desktop app.
+As a user when you first access the Dynamics 365 assistant app asks you to configure the bot. You can configure the bot only through your desktop app.
 
 To configure the bot, follow these steps:
 
@@ -54,7 +51,7 @@ To configure the bot, follow these steps:
 
 ### See also
 
-[Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
 [Access the application on Microsoft Teams](access-assistant-application-teams.md)
 
