@@ -26,3 +26,4 @@ The following insight types are currently available in the Market Insights app. 
 - [News insights](news-events-insights.md)
 - [Product insights](product-insights.md)
 - [Demographic insights](demographic-insights.md)
+- [Journey insights](journey-insights.md)

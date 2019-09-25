@@ -13,6 +13,7 @@
 ## [News insights](news-events-insights.md)
 ## [Product insights](product-insights.md)
 ## [Awareness insights](awareness-insights.md)
-## [Demographic insight](demographic-insights.md)
+## [Demographic insights](demographic-insights.md)
+## [Journey insights](journey-insights.md)
 # Additional information
 ## [Accessibility for Market Insights](accessibility.md)
