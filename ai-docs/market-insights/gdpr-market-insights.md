@@ -22,6 +22,12 @@ search.app:
 
 To run and improve the service for Market Insights Preview, we need to store some user data. This article is directed at users of the Market Insights Preview service. It outlines which data we gather, why we store it, and how you can request to export your data, update your name in the app, or delete your personal data.
 
+The GDPR gives people (known in the GDPR as data subjects) specific rights to their personal data, including the ability to: obtain copies of personal data, request corrections or deletions, receive personal data in an electronic format so it can be moved to another controller, or to restrict processing of personal data.
+
+A formal request by a data subject to a controller to take an action on their personal data is called a Data Subject Request (DSR).
+
+Dynamics 365 Market Insights Preview includes capabilities to fulfill obligations to data subjects when they raise requests to manage their personal data.
+
 ## Data storage in Market Insights alerts
 
 The following data is stored:
