@@ -1,5 +1,5 @@
 ---
-title: "Get suggestive action on notes for Dynamics 365 Sales  | MicrosoftDocs"
+title: "Get suggestive action on notes for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Get intelligent suggestions on action that you take on notes you enter during a recent meeting or discussion with your customer."
 ms.date: 10/31/2018
 ms.service: crm-online

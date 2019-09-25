@@ -38,7 +38,7 @@ After viewing the results, you can export data to Microsoft Excel, if required. 
 
 ![](media/export-excel-gdpr.png)
 
-For more information about exporting data from dynamics 365 Customer Engagement to excel, see [Export data to Excel](/dynamics365/customer-engagement/basics/export-data-excel)
+For more information about exporting data from Dynamics 365 Sales to excel, see [Export data to Excel](/dynamics365/customer-engagement/basics/export-data-excel)
 
 ## See also
 

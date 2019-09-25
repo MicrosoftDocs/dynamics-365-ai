@@ -21,7 +21,7 @@ topic-status: Drafting
 When you sign-in to the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
--	As an administrator, you can set up the complete application including connecting Dynamics 365 environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
+-	As an administrator, you can set up the complete application including connecting Dynamics 365 Sales environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
 
 -	As a sales manager or seller, you can access the application with demo data and administrator must configure the application to view the data relevant to you.
 

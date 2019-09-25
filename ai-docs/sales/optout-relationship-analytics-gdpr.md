@@ -14,7 +14,7 @@ topic-status: Drafting
 
 # Opt out of relationship analytics (GDPR)
 
-A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](configure-enable-dynamics-365-ai-sales.md) the Dyanmics 365 Sales Insights features in your Dynamics 365 instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
+A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](configure-enable-dynamics-365-ai-sales.md) the Dyanmics 365 Sales Insights features in your Dynamics 365 Sales instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
 
 - Setting the **GDPR Optout** field to "yes/true" will prohibit any relationship analytics to be performed on the entity record's data.
 - Setting the **GDPR Optout** field to "no/false" will allow relationship analytics to be performed on the entity record's data.
