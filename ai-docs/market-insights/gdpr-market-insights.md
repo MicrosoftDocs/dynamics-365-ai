@@ -16,7 +16,37 @@ search.app:
   - D365SE
 ---
 
-## Data handling and GDPR for Dynamics 365 Market Insights
+# Data handling and GDPR for Dynamics 365 Market Insights
 
+(This topic is pre-release documentation and is subject to change.)
 
+To run and improve the service for Market Insights Preview, we need to store some user data. This article is directed at users of the Market Insights Preview service. It outlines which data we gather, why we store it, and how you can request to export your data, update your name in the app, or delete your personal data.
 
+## Data storage in Market Insights alerts
+
+The following data is stored:
+
+- **Profile information** from the initial sign-up to sign you in again and access the app and your configuration
+    - **Account information** (type of account) you use to sign in to recognize your profile when signing in again
+    - **First and last name** to display your name in the app
+    - **Email address** to send notification emails to the right recipient
+- **List of alerts** you created to find articles you may be interested in
+- **Clicks** on news article links in the notification email to improve the relevance of insights sent to you
+- **Read rate** of email messages for usage statistics
+- **Feedback** you provide about the relevance of the alert email
+- **Visits** to the Market Insights Preview website for usage statistics
+
+## Delete your data
+
+Each user can [delete their user account](settings.md#delete-your-account) to remove all stored data immediately. Deleting the account will also stop all email notifications from Market Insights Preview.
+
+> [!IMPORTANT]
+> - If you request deletion of your data, all data will be removed and can't be restored. Even after signing in with the same profile again, your universe and preferences will be reset to the default state.
+
+## Request export of your data
+
+To have your data exported, send us an [email](mailto:micustreqs@microsoft.com) and our team will follow up with you.
+
+## Update your name in the app
+
+To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. If this doesn't work, send us an [email](mailto:micustreqs@microsoft.com) and request the change.
