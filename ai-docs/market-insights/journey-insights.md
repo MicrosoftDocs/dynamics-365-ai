@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 07/29/2019
+title: "Journey insights in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Insights related to the Journey insights type."
+ms.date: 09/25/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -20,18 +20,17 @@ search.app:
 
 ## Overview
 
-Customers navigate their way into a website and out of it in many different ways. Knowing this journey can be insightful for businesses to decide where to invest their digital resources.
+Tracking traffic volume change to or from a website is critical to keep track of  customer’s online behavior. Journey insights helps to detect gradual or sharp website traffic volume change and identify the channels causing the traffic changes. This enables business professionals to understand campaign effectiveness and customer preference. More importantly, Journey insights enables understanding of both proprietary and 3rd-party websites, including competitor’s website. For example, you can be notified when a competing brand’s website has seen significant traffic increase from news sites over the past weeks.  
 
-**Journey** provides a view that notifies you when there is a significant change of traffic volume (increase, decrease, spike or a sharp drop) to a website you choose.
+**Traffic volume change of a website** provides a view of the top channel contributing to the detected web traffic change and associated timeline with the website of your interest.
 
-![Top keywords insight card with additional details](media/top-keywords-insight.png)
+> [!div class="mx-imgBorder"]
+> ![Journey insight details in Market Insights](media/insight-details-journey.png)
 
 ## Data and frequency
 
-**Journey** will show up one day after an element is added and remains static until a significant change in volume is detected in one or more channels, either incoming traffic to or outgoing traffic from the website of interest.
-The data is refreshed on weekly basis and will aggregate the last 13 weeks (91 days).
+**Traffic volume change of a website** aggregates data of website traffic by visits from a variety of channels. The contribution to the overall website traffic volume change is analyzed across a time frame. Trends are normalized over time to ensure the data stays anonymous.
 
-**Journey** triggers notifications based on two conditions:
+Traffic volume from or to a website will refresh daily.
 
-- Gradual changes (raise and decline) take place over a period longer than a week (up to 90 days)
-- Spiking changes are triggered when the change occurs over a shorter period of time
+If the traffic volume changes significantly, caused by a certain channel, a notification will be sent through the app the following day.
