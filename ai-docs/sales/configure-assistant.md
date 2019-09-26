@@ -141,7 +141,7 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
 
 
-<!--from editor: What does S.No. mean - screenshot number? Instead, could it just be Number? -->
+    <!--from editor: What does S.No. mean - screenshot number? Instead, could it just be Number? -->
 
 
     | S.No. | Feature | Description |
