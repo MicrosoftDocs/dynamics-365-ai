@@ -74,7 +74,7 @@ The Sales Insights Assistant is available in two forms:
 6. To view more details of the cards such as preview of the cards, last modified time, turn on or off the card, and description, select the card.
 
 
-<!--from editor: Is there an image of the icon? I can't tell what it looks like. Also, here's what the style guide says about icon names: When referring to an icon, use bold formatting for the icon name. In instructions, use the name of the icon and its image, but don't use the word icon. -->
+    <!--from editor: Is there an image of the icon? I can't tell what it looks like. Also, here's what the style guide says about icon names: When referring to an icon, use bold formatting for the icon name. In instructions, use the name of the icon and its image, but don't use the word icon. -->
 
 
     > [!TIP]
