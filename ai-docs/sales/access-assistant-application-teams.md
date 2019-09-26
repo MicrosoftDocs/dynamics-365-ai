@@ -1,6 +1,6 @@
 ---
-title: "Introduction on how to install bot for Dynamics 365 assistant app | MicrosoftDocs"
-description: "Introduction on how to install bot for Dynamics 365 assistant app. "
+title: "How to install bot for Dynamics 365 assistant app | MicrosoftDocs"
+description: "Introduction on how to install bot for Dynamics 365 assistant app."
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -17,6 +17,14 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
+
+<!--from editor:
+Is this the same "assistant" as in Sales Insights Assistant? If yes, in other topics I edited, it was referred to as Sales Insights Assistant. This topic doesn't connect it with Sales Insights.
+Also, is the metadata title correct? I see nothing here about a bot.
+-->
+
+
+
 # Access Dynamics 365 assistant application
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -26,50 +34,50 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-Access the Dynamics 365 assistant application on mobile device lets you view and track daily meetings, customer interactions, and insights in your organization.
+The Dynamics 365 assistant application on mobile devices lets you view and track daily meetings, customer interactions, and insights in your organization.
 
 ## Prerequisites
 
-Review the following prerequisites to access the Dynamics 365 assistant application on mobile device:
+Review the following prerequisites to access the Dynamics 365 assistant application on mobile devices:
 
--	Verify that you have installed Microsoft Teams app on your mobile device. 
+-	Verify that you have installed the Microsoft Teams app on your mobile device. 
 
--	Verify that Dynamics 365 app for Microsoft Teams is added to apps list in Teams. To learn more, see [Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
+-	Verify that the Dynamics 365 app for Microsoft Teams is added to the apps list in Teams. To learn more, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
 
 ## Open Dynamics 365 app
 
-On you mobile device open the Microsoft Teams app and select the Dynamics 365 app when it is pinned to the app bar.
+On your mobile device, open the Microsoft Teams app and select the Dynamics 365 app when it is pinned to the app bar.
 
 > [!div class="mx-imgBorder"]
 > ![Select and open Dynamics 365 app in Teams](media/si-teams-open-app-teams-app-bar.png "Select and open Dynamics 365 app in Teams")
 
 > [!NOTE]
->  If the app is not pinned to app bar, select more options (**...**) and then select and open the app.
+>  If the app is not pinned to the app bar, select **More (...)** and then select and open the app.
 > > [!div class="mx-imgBorder"]
 > > ![Select and open Dynamics 365 app in Teams through more options](media/si-teams-open-app-teams-more-options.png "Select and open Dynamics 365 app in Teams through more options")
 
-## First run experience
+## First-run experience
 
-When you first sign into the Dynamics 365 assistant app on your mobile, cards are displayed providing a short walk through about assistant capabilities. After the walk through, a welcome page is displayed with organizational information, and you are connected to the organization that you currently belong.
+When you first sign in to the Dynamics 365 assistant app on your mobile device, you'll see cards that provide a short walkthrough of the assistant capabilities. After the walkthrough, you'll see a welcome page with organizational information. You are now connected to your organization.
 
-1.	[Open Dynamics 365 app](#open-dynamics-365-app) on Teams. 
+1.	[Open the Dynamics 365 app](#open-dynamics-365-app) on Teams. 
 
-2.	Display cards appear on the app. After you review the cards, on the last card, select **Got it** to move the home page.
+2.	Review the display cards on the app. On the last card, select **Got it** to move to the home page.
     
     > [!div class="mx-imgBorder"]
     > ![Dynamics 365 app tour cards](media/si-teams-app-tour-cards.png "Dynamics 365 app tour cards")
 
-3.	The homepage displays with a welcome message and you are connected to the organization that you are associated with.
+3.	The home page displays with a welcome message. You are now connected to the organization that you are associated with.
  
     > [!div class="mx-imgBorder"]
-    > ![Dynamics 365 app homepage](media/si-teams-app-home-page.png "Dynamics 365 app homepage")
+    > ![Dynamics 365 app home page](media/si-teams-app-home-page.png "Dynamics 365 app home page")
 
     > [!NOTE]
-    > If you want to change your sale organization, see [Change sales organization](change-sales-organization.md).
+    > If you want to change your sales organization, see [Change sales organization](change-sales-organization.md).
 
 
 ### See also
 
-[Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
 [Learn the basics](learn-basics-dynamics-365-application-teams.md)
