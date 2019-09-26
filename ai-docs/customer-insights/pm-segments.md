@@ -218,7 +218,7 @@ You can also perform certain actions with each segment. First, select the follow
 Then, choose one of the following options from the drop-down menu:
 - Editing the segment.
 - Viewing the segment's members.
-- Exporting the segment to either a CSV file or to a Dynamics 365 for Sales location. For more information on how to export to a Dynamics 365 location, visit the **Export destinations** section.
+- Exporting the segment to either a CSV file or to a Dynamics 365 Sales location. For more information on how to export to a Dynamics 365 location, visit the **Export destinations** section.
 - Turning a Dynamic segment to inactive or active (depending on its baseline state).
 - Running a Static segment.
 - Deleting the segment. 

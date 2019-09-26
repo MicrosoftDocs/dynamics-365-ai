@@ -33,8 +33,8 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 2. Select **Azure Blob storage** in the **Type** drop-down list.
 
 3. Enter the **Account name**, **Account key**, and **Container** for your Blob storage account.
-    - To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-manage).
-    - To learn how to create a container, see [Create a container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
+    - To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-account-manage).
+    - To learn how to create a container, see [Create a container](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
     > [!div class="mx-imgBorder"] 
     > ![Add destination](media/export-destinations-azure-blob.png "Add destination")
@@ -50,7 +50,7 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 
 7. Select **Save**.
 
-Your export should start shortly if all prerequisites for export have been completed.  In addition, your export will run at the end of every scheduled refresh.  To learn more about scheduling, see [Schedule tab](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-settings#schedule-tab).
+Your export should start shortly if all prerequisites for export have been completed.  In addition, your export will run at the end of every scheduled refresh.  To learn more about scheduling, see [Schedule tab](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-settings#schedule-tab).
 
 #### Azure Blob storage locations
 
@@ -78,13 +78,13 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
    > ![Add Export destination](media/add-export-destination.png "Add Export destination")
 
 
-2. Choose "Dynamics 365 for Sales" or "Dynamics 365 Marketing" in the **Type** drop-down list.
+2. Choose "Dynamics 365 Sales" or "Dynamics 365 Marketing" in the **Type** drop-down list.
 
 
    > [!div class="mx-imgBorder"] 
-   > ![Select Dynamics 365 for Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
+   > ![Select Dynamics 365 Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 Sales")
 
-3. Specify your Dynamics 365 for Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 for Sales or Dynamics 365 Marketing account.
+3. Specify your Dynamics 365 Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 Sales or Dynamics 365 Marketing account.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/add-destination.png "Add destination page")
@@ -122,7 +122,7 @@ When viewing the **Export destinations** page, if you’ve already created desti
   - Display name: The name you created during the destination creation.
   - Type: The destination type set during the destination creation.  Currently supports:
     - Azure Blob storage
-    - Dynamics 365 for Sales
+    - Dynamics 365 Sales
   - Created: The date you created the destination.
 
 ## Remove an Export destination

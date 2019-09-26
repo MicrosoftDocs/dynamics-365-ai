@@ -30,7 +30,7 @@
 
 ## [Supported languages for Customer Service Insights](supported-languages.md)
 
-## [Dynamics 365 for Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
+## [Dynamics 365 Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
 
 ## Dashboard reference
 

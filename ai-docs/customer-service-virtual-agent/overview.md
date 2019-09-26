@@ -51,7 +51,7 @@ Using Virtual Agent for Customer Service, you can:
 
     ![Analytics page](media/analytics-pane.png)
 
-6. **Better together.** Virtual Agent for Customer Service works hand-in-hand with [Dynamics 365 for Customer Service Insights](https://dynamics.microsoft.com/en-us/ai/customer-service-insights) to provide a holistic view of your customer service operations. You can use Customer Service Insights and Virtual Agent together to determine which topics are trending or consuming support resources, and then easily automate them.
+6. **Better together.** Virtual Agent for Customer Service works hand-in-hand with [Dynamics 365 Customer Service Insights](https://dynamics.microsoft.com/ai/customer-service-insights) to provide a holistic view of your customer service operations. You can use Customer Service Insights and Virtual Agent together to determine which topics are trending or consuming support resources, and then easily automate them.
 
 ## Helpful links
 
