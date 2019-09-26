@@ -36,6 +36,7 @@ The following data is stored:
     - **Account information** (type of account) you use to sign in to recognize your profile when signing in again
     - **First and last name** to display your name in the app
     - **Email address** to send notification emails to the right recipient
+- **List of elements (Universe)** that you selected and set properties for, to provide insights to you for topics you're interested in
 - **List of alerts** that were created for you to present you articles you may be interested in
 - **Clicks** on news article links in the notification email to improve the relevance of insights sent to you
 - **Read rate** of email messages for usage statistics
