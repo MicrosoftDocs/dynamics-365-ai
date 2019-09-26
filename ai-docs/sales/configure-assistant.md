@@ -1,6 +1,6 @@
 ---
-title: "Introduction on how to configure assistant | MicrosoftDocs"
-description: "Describes how to configure assistant both free and advanced features."
+title: "Configure Sales Insights assistant | MicrosoftDocs"
+description: "Describes how to configure assistant, both free and advanced features."
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -17,15 +17,15 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Sales Insights Assistant
+# Configure Sales Insights assistant
 
-The Assistant (formerly known as Relationship assistant) helps the sellers to track their daily actions and communications through a collection of actionable cards known as insight cards. 
+The Dynamics 365 Sales Insights Assistant (formerly known as Relationship assistant) helps sellers track their daily actions and communications through a collection of actionable cards known as insight cards. 
 
-The Sales Insights provides assistant in two forms:
+The Sales Insights assistant is available in two forms:
 
-- **Assistant for free**: This feature is available as free along with Dynamics 365 Sales. As an administrator, you must configure this feature for sellers in your organization to view insight cards such as task due today, custom activity due today, and email due today. These cards are available out-of-the-box with Dynamics 365 Sales. By default, the base cards are available in your organization, even if you do not enable the assistant. To configure Assistant (free), see [Configure and manage insight cards for Assistant (free)](#configure-and-manage-insight-cards-for-assistant-free).
+- **Assistant (free)**: This feature is available for free with Dynamics 365 Sales. As an administrator, you must configure this feature for sellers in your organization to view insight cards such as task due today, custom activity due today, and email due today. These cards are available out of the box with Dynamics 365 Sales. By default, the base cards are available in your organization, even if you do not enable the assistant. To configure Assistant (free), see [Configure and manage insight cards for Assistant (free)](#configure-and-manage-insight-cards-for-assistant-free).
 
-- **Assistant with advanced features through Studio**: The advanced assistant is available in Dynamics 365 Sales through the **Dynamics 365 Sales Insights** license. As an administrator, you must configure this feature for sales managers and sellers to create and manage insight cards through Studio. The Assistant (full capabilites) contains the **Home** and **Optimize ranking** tabs along with the tab **Insight cards** for you to configure and manage the custom insight cards. To configure the advanced Assistant, see [Configure and manage insight cards for Assistant (full capabilities)](#configure-and-manage-insight-cards-for-assistant-full-capabilities).
+- **Assistant with advanced features through Studio**: The advanced assistant is available in Dynamics 365 Sales through the **Dynamics 365 Sales Insights** license. As an administrator, you must configure this feature for sales managers and sellers to create and manage insight cards through Studio. The Assistant (full capabilities) contains the **Home** and **Optimize ranking** tabs along with the tab **Insight cards** for you to configure and manage the custom insight cards. To configure the advanced Assistant, see [Configure and manage insight cards for Assistant (full capabilities)](#configure-and-manage-insight-cards-for-assistant-full-capabilities).
 
 ## Configure and manage insight cards for Assistant (free)
 
