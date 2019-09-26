@@ -32,13 +32,19 @@ The Dynamics 365 assistant app for Microsoft Teams provides information about yo
 <!--from editor: The following two images have no path, so I'm commenting-out the tags and the intros. -->
 
 
-The meetings provide basic information such as subject, time and location, participants, regarding entities, and related entities. <!--The following image is an example of a meeting card:
-> [!div class="mx-imgBorder"]
-> ![ ](media/ " ") -->
+The meetings provide basic information such as subject, time and location, participants, regarding entities, and related entities. <!--The following image is an example of a meeting card: -->
 
-To view more details, select and open the meeting. The **Meeting preparation** page opens with detailed information. <!--The following image is an example of a meeting preparation page:
+<!--
 > [!div class="mx-imgBorder"]
-> ![ ](media/ " ")  -->
+> ![ ](media/ " ") 
+-->
+
+To view more details, select and open the meeting. The **Meeting preparation** page opens with detailed information. <!--The following image is an example of a meeting preparation page: -->
+
+<!--
+> [!div class="mx-imgBorder"]
+> ![ ](media/ " ")  
+-->
 
 The meeting preparation page is typically divided into the following sections:
 
