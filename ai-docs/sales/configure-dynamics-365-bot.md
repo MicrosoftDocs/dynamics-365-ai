@@ -1,6 +1,6 @@
 ---
-title: "Introduction on how to install bot for Dynamics 365 assistant app | MicrosoftDocs"
-description: "Introduction on how to install bot for Dynamics 365 assistant app. "
+title: "How to install bot for Dynamics 365 assistant app | MicrosoftDocs"
+description: "Introduction on how to install bot for Dynamics 365 assistant app."
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -28,24 +28,24 @@ topic-status: Drafting
 
 The Dynamics 365 assistant app for Teams bot helps you to get information from your Dynamics 365 Sales organization in the Microsoft Teams conversations tab.
 
-As a user when you first access the Dynamics 365 assistant app asks you to configure the bot. You can configure the bot only through your desktop app.
+When you first access the Dynamics 365 assistant app, it asks you to configure the bot. You can configure the bot only through your desktop app.
 
 To configure the bot, follow these steps:
 
 1. Verify that you have reviewed prerequisites and installation procedures. To learn more, see [Enable Dynamics 365 assistant application on Microsoft Teams](intro-admin-guide-sales-insights.md#enable-dynamics-365-assistant-application-on-microsoft-teams).
 
-2. On desktop, sign into **Microsoft Teams** and open the **Dynamics 365** app.
+1. On the desktop, sign in to **Microsoft Teams** and open the **Dynamics 365** app.
 
-3. On the welcome message, select **Configure**.
-
-3.	Select an environment, and then select **Next**.
+1. On the welcome screen, select **Configure**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Dynamics 365 app in Teams](media/si-admin-teams-bot-config.png "Select Dynamics 365 app in Teams")
     
+1.	Select an environment, and then select **Next**.
+ 
     If the environment has multiple app modules (Sales, Marketing, Service, and so on), then you'll also select an app module.
 
-4.	Enter credentials and sign in.
+1.	Enter your credentials and sign in.
     
     The bot setup is complete, and you can start using the bot.
 
@@ -53,6 +53,6 @@ To configure the bot, follow these steps:
 
 [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
-[Access the application on Microsoft Teams](access-assistant-application-teams.md)
+[Access Dynamics 365 assistant application](access-assistant-application-teams.md)
 
 [Get answers through bot assistant](use-bot-assistant.md)
