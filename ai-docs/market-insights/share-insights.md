@@ -1,7 +1,7 @@
 ---
 title: "Share insights publicly from Dynamics 365 Market Insights Preview | Microsoft Docs"
 description: "Share insights publicly using LinkedIn, Twitter, or the direct URL."
-ms.date: 09/25/2019
+ms.date: 09/26/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
