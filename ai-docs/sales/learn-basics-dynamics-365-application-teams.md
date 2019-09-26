@@ -1,6 +1,6 @@
 ---
-title: "Under and learn the basics of Dynamics 365 assistant app | MicrosoftDocs"
-description: "Under and learn the basics of Dynamics 365 assistant app."
+title: "Understand and learn the basics of Dynamics 365 assistant app | MicrosoftDocs"
+description: "Understand and learn the basics of Dynamics 365 assistant app."
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -26,10 +26,13 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-When you open the Dynamics 365 assistant app in Teams on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insights cards that are specific to you. Typically, the home page displays as following:
+When you open the Dynamics 365 assistant app in Teams on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following:
 
+
+<!--from editor: No image path here, so I'm commenting-out the tags. -->
+<!--
 > [!div class="mx-imgBorder"]
-> ![ ](media/ " ")
+> ![ ](media/ " ")-->
 
 1.	[Highlighted meetings](#highlighted-meetings)
 2.	[Highlighted insights](#highlighted-insights)
@@ -38,33 +41,46 @@ When you open the Dynamics 365 assistant app in Teams on your mobile device, you
 
 ## Highlighted meetings
 
-The meetings for current day are displayed along with the participants, regarding, and related entities. To learn more see [Working with meetings](working-with-meetings-teams.md).
+Meetings for the current day are displayed along with participants, regarding, and related entities. To learn more, see [Working with meetings](working-with-meetings-teams.md).
 
 ## Highlighted insights
 
-The highlighted insight section displays the insight cards that are most important and with relevant information about what you must do next. You can perform the defined actions on the cards such as open, send email, snooze, and dismiss. You can open the card to see the details and what the card is regarding. To learn more, see [Use assistant to guide customer communications](assistant.md).
+The highlighted insights section displays the insight cards that are most important and with relevant information about what you must do next. You can perform the defined actions on the cards such as open, send email, snooze, or dismiss. You can open the card to see the details and what the card is about. To learn more, see [Use assistant to guide customer communications](assistant.md).
 
 ## Settings
 
-The settings option allows you to change your organization, send feedback, and information about the app version. 
+The settings option allows you to change your organization, send feedback, and get information about the app version. 
 
 > [!div class="mx-imgBorder"]
 > ![View settings page](media/si-teams-app-settings-page.png "View settings page")
 
 The organization option helps you to change the organization and view the information regarding the selected organization. To learn more, see [Change sales organization](change-sales-organization.md).
 
-To send feedback, select **Share feedback**. A pop up appears on the bottom of the screen with options: **Tell us what you like** and **Tell us how we can get better**. Select the feedback option appropriately. On the feedback form, enter the information that you would like to share with us and your email. Sharing your email is optional and if you share, it helps us to gather more information on the feedback that you have shared and receive communication on the status. After you enter the necessary information, select **Send**. 
 
-The following image is an example of **Tell what you like feedback** form.
+
+<!--from editor: Below, where it talks about sharing email, does it mean "and communicate with you about the status"? It's unclear who is receiving the communication. 
+Also, not sure what "the status" means because they're just providing feedback, not requesting assistance.  -->
+
+
+To send feedback, select **Share feedback**. A pop-up appears at the bottom of the screen with these options: **Tell us what you like** and **Tell us how we can get better**. Select the appropriate feedback option. On the feedback form, enter the information that you want to share with us and your email. Sharing your email is optional; if you share, it helps us to gather more information on the feedback that you have shared and receive communication on the status. After you enter the necessary information, select **Send**. 
+
+Here is an example of a **Tell us what you like** feedback form.
 
 > [!div class="mx-imgBorder"]
-> ![Tell what you like feedback form](media/si-teams-app-settings-feedback-tell-what-you-like.png "Tell what you like feedback form")
+> ![Tell us what you like feedback form](media/si-teams-app-settings-feedback-tell-what-you-like.png "Tell us what you like feedback form")
 
 ## Bot
+
+
+
+<!--from editor: The following link needs a path. -->
+
 
 The bot allows you to search your organization for records within the Dynamics 365 assistant app in Teams. To learn more, see [Get answers through bot assistant]().
 
 ### See also
+
+<!--from editor: The first link text doesn't match the page title. Should it? -->
 
 [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
 
