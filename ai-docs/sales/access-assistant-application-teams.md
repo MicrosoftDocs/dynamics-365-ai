@@ -58,6 +58,9 @@ On your mobile device, open the Microsoft Teams app and select the Dynamics 365 
 
 ## First-run experience
 
+<!--from editor: I don't think the next paragraph is needed because it basically says the same thing that the steps say. -->
+
+
 When you first sign in to the Dynamics 365 assistant app on your mobile device, you'll see cards that provide a short walkthrough of the assistant capabilities. After the walkthrough, you'll see a welcome page with organizational information. You are now connected to your organization.
 
 1.	[Open the Dynamics 365 app](#open-dynamics-365-app) on Teams. 
