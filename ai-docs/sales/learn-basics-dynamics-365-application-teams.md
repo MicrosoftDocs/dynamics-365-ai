@@ -28,11 +28,8 @@ topic-status: Drafting
 
 When you open the Dynamics 365 assistant app in Teams on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following:
 
-
-<!--from editor: No image path here, so I'm commenting-out the tags. -->
-<!--
 > [!div class="mx-imgBorder"]
-> ![ ](media/ " ")-->
+> ![Home page full view](media/si-teams-app-home-page-full.png "Home page full view")
 
 1.	[Highlighted meetings](#highlighted-meetings)
 2.	[Highlighted insights](#highlighted-insights)
@@ -56,13 +53,7 @@ The settings option allows you to change your organization, send feedback, and g
 
 The organization option helps you to change the organization and view the information regarding the selected organization. To learn more, see [Change sales organization](change-sales-organization.md).
 
-
-
-<!--from editor: Below, where it talks about sharing email, does it mean "and communicate with you about the status"? It's unclear who is receiving the communication. 
-Also, not sure what "the status" means because they're just providing feedback, not requesting assistance.  -->
-
-
-To send feedback, select **Share feedback**. A pop-up appears at the bottom of the screen with these options: **Tell us what you like** and **Tell us how we can get better**. Select the appropriate feedback option. On the feedback form, enter the information that you want to share with us and your email. Sharing your email is optional; if you share, it helps us to gather more information on the feedback that you have shared and receive communication on the status. After you enter the necessary information, select **Send**. 
+To send feedback, select **Share feedback**. A pop-up appears at the bottom of the screen with these options: **Tell us what you like** and **Tell us how we can get better**. Select the appropriate feedback option. On the feedback form, enter the information that you want to share with us and your email. Sharing your email ID is optional; if you share, it helps us to gather more information on the feedback that you have shared and communicate with you about the status. After you enter the necessary information, select **Send**. 
 
 Here is an example of a **Tell us what you like** feedback form.
 
@@ -71,17 +62,8 @@ Here is an example of a **Tell us what you like** feedback form.
 
 ## Bot
 
-
-
-<!--from editor: The following link needs a path. -->
-
-
-The bot allows you to search your organization for records within the Dynamics 365 assistant app in Teams. To learn more, see [Get answers through bot assistant]().
+The bot allows you to search your organization for records within the Dynamics 365 assistant app in Teams. To learn more, see [Get answers through bot assistant](use-bot-assistant.md).
 
 ### See also
-
-<!--from editor: The first link text doesn't match the page title. Should it? -->
-
-[Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
 
 [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)

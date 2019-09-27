@@ -28,23 +28,17 @@ topic-status: Drafting
 
 The Dynamics 365 assistant app for Microsoft Teams provides information about your daily meetings on your mobile device. This helps you to prepare for an upcoming meeting so that you can build a strong relationship with customers. These meetings display the list of participants who are external and not in your organization. The app displays meetings related to your current day and keeps you up to date by syncing in real time with your Office 365 account. 
 
+The meetings provide basic information such as subject, time and location, participants, regarding entities, and related entities. 
 
-<!--from editor: The following two images have no path, so I'm commenting-out the tags and the intros. -->
-
-
-The meetings provide basic information such as subject, time and location, participants, regarding entities, and related entities. <!--The following image is an example of a meeting card: -->
-
-<!--
 > [!div class="mx-imgBorder"]
-> ![ ](media/ " ") 
--->
+> ![Meeting preparation page](media/si-teams-app-meeting-preparations.png "Meeting preparation page") 
 
-To view more details, select and open the meeting. The **Meeting preparation** page opens with detailed information. <!--The following image is an example of a meeting preparation page: -->
 
-<!--
+To view more details, select and open the meeting. The **Meeting preparation** page opens with detailed information. 
+
 > [!div class="mx-imgBorder"]
-> ![ ](media/ " ")  
--->
+> ![Meeting page with more details](media/si-teams-app-meeting-preparations-more-details.png "Meeting page with more details")  
+
 
 The meeting preparation page is typically divided into the following sections:
 
@@ -54,7 +48,7 @@ The meeting preparation page is typically divided into the following sections:
 
 3.	[Regarding entity](#regarding-entity)
 
-4.	[Activity timeline and insight cards](#activities-timeline-and-insights-cards)
+4.	[Activity timeline and insight cards](#activities-timeline-and-insight-cards)
 
 ## Meeting information
 
@@ -69,9 +63,7 @@ Participants are the customers and the organizer who are attending the meeting. 
 If any customers in the participant list are not in your contacts, you can add them to the contact list in the Dynamics 365 Sales organization. These contacts are displayed under the **NEW CONTACT** section. 
 
 
-<!--from editor: What is the text that they select - is it "Add to Dynamics 365" ? It should be in bold. -->
-
-Select the contact and the contact opens. At the bottom of the customer details page, select add to Dynamics 365. The customer is added to the contact list in the Dynamics 365 Sales organization.
+Select the contact and the contact opens. At the bottom of the customer details page, select **Add to Dynamics 365**. The customer is added to the contact list in the Dynamics 365 Sales organization.
 
 ### View details of a customer
 
@@ -137,10 +129,7 @@ You can update the regarding entity when it no longer is relevant or there are c
 
 2.	From the **REGARDING** section, select more options (**…**) and then select **Change regarding record**.
 
-## Activities timeline and insights cards
-
-<!--from editor: Is it insights cards or insight cards? I think it's been inconsistent across topics. -->
-
+## Activities timeline and insight cards
 
 See a combined view of your interactions with customers across various channels, such as phone, email, or even social activities in the timeline that are related to the regarding entity. The timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.
 
@@ -149,7 +138,7 @@ The timeline activities and cards are retrieved from your Dynamics 365 Sales org
 The following image is an example of an activity timeline for an opportunity regarding entity.
 
 > [!div class="mx-imgBorder"]
-> ![Activities timeline and insights cards page](media/si-teams-app-activities-timeline-insights-cards.png "Activities timeline and insights cards page")
+> ![Activities timeline and insight cards page](media/si-teams-app-activities-timeline-insights-cards.png "Activities timeline and insight cards page")
 
 ### See also
 

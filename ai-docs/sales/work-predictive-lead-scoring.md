@@ -16,7 +16,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Work with Predictive lead scoring
+# Prioritize leads through scores
 
 In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The Predictive lead scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for leads that are available for you in your pipeline. This model assigns a score between 0 to 100 for leads based on the signals from leads and related entities such as contact and account. Using these scores, you can identify and prioritize leads that have more chances of converting into opportunities. 
 

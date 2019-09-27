@@ -29,10 +29,6 @@ Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-i
 
 The following diagram illustrates the various features available in [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]: 
 
-
-<!--from editor: I don't see Talking Points and Assistant for Teams in the image. Should they be? -->
-
-
 > [!div class="mx-imgBorder"]
 > ![Sales Insights feature categories](media/si-features-categories.png "Sales Insights feature categories")
 
@@ -51,24 +47,11 @@ These Sales Insights features are available for free with Dynamics 365 Sales:
 
 The advanced Sales Insights features consist of the [free Sales Insights features](#free-sales-insights-features) along with the following features: 
 
-
-
-<!--from editor: in the next paragraph, should "Manage insight cards" have a link? -->
-
-
-- **Assistant with Studio (full capabilities)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the Studio to users. The Studio helps you to create custom insight cards through Microsoft Flow. After you create the cards, you can configure prioritization and who can see the cards. To learn more, see Manage insight cards. 
+- **Assistant with Studio (full capabilities)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the Studio to users. The Studio helps you to create custom insight cards through Microsoft Flow. After you create the cards, you can configure prioritization and who can see the cards. To learn more, see [Manage insight cards](manage-custom-cards-flow.md). 
 
 - **Relationship analytics**: Gathers information from Dynamics 365 Sales for key performance indicators (KPIs) and activity histories, and displays it in a graphical representation. To learn more, see [Use Relationship analytics to gather KPIs](relationship-analytics.md). 
 
-
-<!--from editor: The following links to a page titled "Work with Predictive lead scoring" -->
-
-
 - **Predictive lead scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality leads. To learn more, see [Prioritize leads through scores](work-predictive-lead-scoring.md). 
-
-
-<!--from editor: This links to a page titled "Convert opportunities into deals" -->
-
 
 - **Predictive opportunity scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality opportunities. To learn more, see [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md). 
 
@@ -95,10 +78,7 @@ The following features are available under the Dynamics 365 Sales Insights app:
 - Team report
 - Conversation intelligence
 
-
-<!-- The following links to a page titled "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application"  -->
-
-To learn more, see [Overview of Sales Insights applications](dynamics365-sales-insights-app.md).
+To learn more, see [Improve seller coaching and sales potential with Dynamics 365 Sales Insights application](dynamics365-sales-insights-app.md).
 
 ### See also
 

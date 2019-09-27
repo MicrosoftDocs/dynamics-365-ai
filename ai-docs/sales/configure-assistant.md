@@ -17,10 +17,6 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-
-<!--from editor: There were many mentions of action cards in this topic that I changed to insight cards (based on the info later in this topic that says insight cards used to be called action cards. -->
-
-
 # Configure Sales Insights Assistant
 
 The Dynamics 365 Sales Insights Assistant (formerly known as Relationship assistant) helps sellers track their daily actions and communications through a collection of actionable cards known as insight cards. 
@@ -73,12 +69,8 @@ The Sales Insights Assistant is available in two forms:
     
 6. To view more details of the cards such as preview of the cards, last modified time, turn on or off the card, and description, select the card.
 
-
-    <!--from editor: Is there an image of the icon? I can't tell what it looks like. Also, here's what the style guide says about icon names: When referring to an icon, use bold formatting for the icon name. In instructions, use the name of the icon and its image, but don't use the word icon. -->
-
-
     > [!TIP]
-    > Alternatively, select the more options icon corresponding to the card and then select **Edit**. 
+    > Alternatively, select the **More options** corresponding to the card and then select **Edit**. 
 
     > [!div class="mx-imgBorder"]
     > ![View card details](media/si-admin-assistant-view-card-details.png "View card details")
@@ -139,13 +131,8 @@ With the new redesigned assistant administration, you can perform tasks that wer
     > [!div class="mx-imgBorder"]
     > ![Assistant Studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant Studio home page")
 
-
-
-    <!--from editor: What does S.No. mean - screenshot number? Instead, could it just be Number? -->
-
-
-    | S.No. | Feature | Description |
-    |-------|---------|-------------|
+    | Number | Feature | Description |
+    |--------|---------|-------------|
     | **1** | **Create cards with Microsoft Flow** | This allows you to create cards that are custom made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md). |
     | **2** | **Quick view cards through tabs** | The tabs allows you to quickly view cards that are most popular, recently used, high in priority, and created by your organization. |
     | **3** | **Table with card details** | This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize. To learn more, see [Edit insight cards](edit-insight-cards.md). |

@@ -17,12 +17,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-
-<!--from editor: The wording of the title seems a bit off. I suggest something like "Introduction to administering Dynamics 365 Sales Insights" or just "Administer Dynamics 365 Sales Insights". -->
-
-
-
-# Introduction to administer Dynamics 365 Sales Insights
+# Introduction to administering Dynamics 365 Sales Insights
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to use Sales Insights in their organization. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization.
 
@@ -44,14 +39,9 @@ The free Sales Insights features—**Assistant (free)**, **Auto capture (free)**
 > [!div class="mx-imgBorder"]
 > ![Steps to configure Sales Insights free feature](media/si-free-features-config-steps.png "Steps to configure Sales Insights free feature")
 
-
-
-<!--from editor: For step 2, the text should either match the heading, or vice versa. -->
-
-
 1.	[Review requirements and prerequisites](#requirements-and-prerequisites).
 
-2.	[Accept privacy notice to enable free Sales Insights features](#enable-free-sales-insights-features). 
+2.	[Enable free Sales Insights features](#enable-free-sales-insights-features). 
 
 3.	[Configure the free features as required](#configure-free-sales-insights-features).
 
@@ -59,18 +49,13 @@ The free Sales Insights features—**Assistant (free)**, **Auto capture (free)**
 
 Review the following requirements and prerequisites to enable free Sales Insights features:
 
-
-<!--from editor: Note that the "Action cards reference" link goes to a page titled "Insight cards reference." -->
-
-
-
 -	There are some feature restrictions depending on which versions of Dynamics 365 Sales and Office 365 you're running, as detailed in the following table.
 
     | Product version | Available Sales Insights (free) features |
     |-----------------|------------------------------------------|    
     | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] | <ul><li>Assistant</li> <li>Email engagement</li> <li>Auto capture</li></ul>|
     | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises) | <ul><li>Assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>|
-    |[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
+    |[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Insight cards reference](action-cards-reference.md)</li> <li>No features or insight cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
 -	Assistant, Email engagement, and Auto capture are available for Dynamics 365 Sales with an Enterprise license only.
 
@@ -256,13 +241,9 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities,
 
 ### See also
 
-
-<!--from editor: The second link goes to a page titled "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application". Is that the correct page? -->
-
-
 [Overview of Dynamics 365 Sales Insights](overview.md)
 
-[Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
+[Improve seller coaching and sales potential with Dynamics 365 Sales Insights application](../sales/dynamics365-sales-insights-app.md)
 
 [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
 

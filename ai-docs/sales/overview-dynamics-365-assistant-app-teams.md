@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Dynamics 365 assistant app for Microsoft Teams | MicrosoftDocs"
-description: "Introduction to Dynamics 365 assistant app for Microsoft Teams"
+title: "Introduction to Dynamics 365 assistant app for Teams | MicrosoftDocs"
+description: "Introduction to Dynamics 365 assistant app for Teams"
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -17,10 +17,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Overview of Dynamics 365 assistant application for Microsoft 365
-
-
-<!--from editor: Is the assistant app for Teams or is it for Microsoft 365? The metadata title says one thing and the page title says the other. Are they interchangeable? -->
+# Overview of Dynamics 365 assistant application for Teams
 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -32,11 +29,7 @@ topic-status: Drafting
 
 In a fast-moving world, as a salesperson, you need to be on top of daily sales activities so that you can close deals and maintain proper communications with the customer. The Dynamics 365 assistant app provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
 
-
-<!--from editor: I don't understand the first sentence below. It is saying that the app is available on Teams as part of the same app. Either something is not correct or it needs rewording. -->
-
-
-The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 assistant app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365.
+The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365.
 
 This application enables you to:
 

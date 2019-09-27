@@ -1,6 +1,6 @@
 ---
-title: "How to install bot for Dynamics 365 assistant app | MicrosoftDocs"
-description: "Introduction on how to install bot for Dynamics 365 assistant app."
+title: "How to access Dynamics 365 assistant app for Microsoft Teams | MicrosoftDocs"
+description: "How to access Dynamics 365 assistant app for Microsoft Teams."
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -17,15 +17,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-
-<!--from editor:
-Is this the same "assistant" as in Sales Insights Assistant? If yes, in other topics I edited, it was referred to as Sales Insights Assistant. This topic doesn't connect it with Sales Insights.
-Also, is the metadata title correct? I see nothing here about a bot.
--->
-
-
-
-# Access Dynamics 365 assistant application
+# Access Dynamics 365 assistant application on Teams
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -57,11 +49,6 @@ On your mobile device, open the Microsoft Teams app and select the Dynamics 365 
 > > ![Select and open Dynamics 365 app in Teams through more options](media/si-teams-open-app-teams-more-options.png "Select and open Dynamics 365 app in Teams through more options")
 
 ## First-run experience
-
-<!--from editor: I don't think the next paragraph is needed because it basically says the same thing that the steps say. -->
-
-
-When you first sign in to the Dynamics 365 assistant app on your mobile device, you'll see cards that provide a short walkthrough of the assistant capabilities. After the walkthrough, you'll see a welcome page with organizational information. You are now connected to your organization.
 
 1.	[Open the Dynamics 365 app](#open-dynamics-365-app) on Teams. 
 
