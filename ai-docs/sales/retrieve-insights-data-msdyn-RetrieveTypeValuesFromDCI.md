@@ -111,5 +111,6 @@ OData-Version: 4.0
 
 ### See also
 
-- [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
-- [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
+[Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
+
+[Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)

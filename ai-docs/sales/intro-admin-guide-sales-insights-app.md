@@ -5,9 +5,6 @@ ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 5ca3cb5c-62c6-4d5f-a032-91da7f088693
 author: udaykirang
 ms.author: udag
@@ -31,7 +28,7 @@ As an administrator, when you sign-in to the application for the first time, you
 
 You can also update each setting later as required. The following are the available configurations:
 
--	Connect your Dynamics 365 environment to gather data and display on KPIs. To learn more, see [Connect to Dynamics 365 for Sales environment](connect-dynamics365-sales-environment.md).
+-	Connect your Dynamics 365 Sales environment to gather data and display on KPIs. To learn more, see [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md).
 
 -	Connect to call data repository. To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 

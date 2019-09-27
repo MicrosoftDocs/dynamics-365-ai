@@ -1,8 +1,7 @@
 ---
 title: "Overview of Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Overview of the AI features that are offered with Sales"
-keywords: " "
-ms.date: 10/01/2019
+ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
