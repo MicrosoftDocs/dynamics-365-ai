@@ -41,7 +41,7 @@ The following data is stored:
 - **Clicks** on news article links in the notification email to improve the relevance of insights sent to you
 - **Read rate** of email messages for usage statistics
 - **Feedback** you provide about the relevance of the notification email to improve the Market Insights service
-- **Visits** to the Market Insights Preview website for usage statistics
+- **Visits** to the Market Insights Preview website for usage statistics; includes the location (city level) from where the user calls the website
 
 ## Delete your data
 
