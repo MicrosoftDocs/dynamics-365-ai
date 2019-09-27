@@ -26,24 +26,24 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-The bot for Dynamics 365 assistant app for Teams feature allows you to search Dynamics 365 apps records within Microsoft Teams conversations. 
+The bot for Dynamics 365 assistant app for Microsoft Teams allows you to search Dynamics 365 apps records within Microsoft Teams conversations. 
 
-When you are using the bot for the first time, you must configure the bot by selecting the environment and signing in. After the first configuration, you can start using the bot without any configurations. To learn more, see [Configure Dynamics 365 bot](configure-dynamics-365-bot.md).
+When you use the bot for the first time, you must configure it by selecting the environment and signing in. After the first configuration, you can use the bot without any configurations. To learn more, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
 
-Open the Dynamics 365 assistant app on mobile and select the bot icon. A conversation page opens, and you can start typing questions in the search field to find related answers.
+Open the Dynamics 365 assistant app on your mobile device and select the bot icon. A conversation page will open, and you can type questions in the search field to find related answers.
 
-For example, if you enter **Contoso** in the search field and press enter, the result will display top matches for **Contoso** such as accounts, contacts, opportunities, and leads. Select a result, and you can further go into the details of the result.
+For example, you can enter **Contoso** in the search field and press Enter.
 
 > [!div class="mx-imgBorder"]
 > ![Search using bot](media/si-teams-app-bot-search.png "Search using bot")
 
-**Results**:
+The result will display top matches for Contoso, such as accounts, contacts, opportunities, and leads. Select a result and you can get further details.
 
 > [!div class="mx-imgBorder"]
 > ![Results of the search](media/si-teams-app-bot-search-results.png "Results of the search")
 
 ### See also
 
-[Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
+[Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
 
-[Access the application on Microsoft Teams](access-assistant-application-teams.md)
+[Access Dynamics 365 assistant application](access-assistant-application-teams.md)
