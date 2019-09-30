@@ -35,4 +35,4 @@ Obtaining accurate customer demographic information can be an expensive and time
 
 **Age** and **Gender** distribution data is recalculated every week and surfaced in the feed.
 
-**Demographic insights** aggregates data from web search users who search for related terms of the selected element. Each web search user is assigned to a demographic segment by using data science models on their search query terms and patterns from multiple search sessions.
+**Demographic insights** aggregate data from web search users who search for related terms of the selected element. Each web search user is assigned to a demographic segment by using data science models on their search query terms and patterns from multiple search sessions.
