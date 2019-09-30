@@ -60,7 +60,7 @@ In this example we have filtered the cards with the security role **Survey Owner
 When you create a card, you must specify the security roles to whom you want the card to display. By default, all the cards are assigned to the security roles **Salesperson** and **Sales manager**. You can edit the card to assign or remove the security roles to the card. 
 
 >[!NOTE]
->The security roles you see in the cards are defined in Dynamics 365 for Customer Engagement. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
+>The security roles you see in the cards are defined in the Common Data Service platform. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
 1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we have selected the **Opportunity at Risk (sentiment based)** card.
 
