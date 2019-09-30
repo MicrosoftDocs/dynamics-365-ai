@@ -37,7 +37,6 @@ The following data is stored:
     - **First and last name** to display your name in the app
     - **Email address** to send notification emails to the right recipient
 - **List of elements (Universe)** that you selected and set properties for, to provide insights for topics you're interested in
-- **List of alerts** that were created for you to present you articles you may be interested in
 - **Clicks** on news article links in the notification email to improve the relevance of insights sent to you
 - **Read rate** of email messages for usage statistics
 - **Feedback** you provide about the relevance of the notification email to improve the Market Insights service
