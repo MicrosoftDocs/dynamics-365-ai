@@ -40,7 +40,7 @@ search.app:
 <li><a href="configure-email-engagement.md" data-raw-source="[Configure and enable email engagement](configure-email-engagement.md)">Configure and enable email engagement</a></li>
 <li><a href="configure-auto-capture.md" data-raw-source="[Configure and enable auto capture](configure-auto-capture.md)">Configure and enable auto capture</a></li>
 <li><a href="configure-notes-analysis.md" data-raw-source="[Configure Notes analysis](configure-notes-analysis.md)">Configure Notes analysis</a></li>
-<li><a href="configure-relationship-analytics" data-raw-source="[Configure Relationship analytics](configure-relationship-analytics.md)">Configure Relationship analytics</a></li>
+<li><a href="configure-relationship-analytics.md" data-raw-source="[Configure Relationship analytics](configure-relationship-analytics.md)">Configure Relationship analytics</a></li>
 <li><a href="configure-talking-points.md" data-raw-source="[Configure Talking points](configure-talking-points.md)">Configure Talking points</a></li>
 <li><a href="configure-who-knows-whom.md" data-raw-source="[Configure Who knows whom](configure-who-knows-whom.md)">Configure Who knows whom</a></li>
 <li><a href="configure-predictive-lead-scoring.md" data-raw-source="[Configure Predictive lead scoring](configure-predictive-lead-scoring.md)">Configure Predictive lead scoring</a></li>
