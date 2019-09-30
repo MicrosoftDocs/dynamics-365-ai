@@ -42,7 +42,6 @@ These Sales Insights features are available for free with Dynamics 365 Sales:
 
 - **Email engagement (free)**: The email engagement helps you create more effective email messages—and learn how your contacts are interacting with them. Stay on top of your email and prioritize those prospects or customers that are most engaged. To learn more, see [Use email engagement to view message interactions](email-engagement.md). 
 
-
 ## Advanced Sales Insights features 
 
 The advanced Sales Insights features consist of the [free Sales Insights features](#free-sales-insights-features) along with the following features: 
