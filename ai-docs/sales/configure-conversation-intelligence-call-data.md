@@ -168,8 +168,8 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
 
-[FAQs for Sales Insights application](faqs-sales-insights-app.md)
+[FAQs](faqs-sales-insights.md)

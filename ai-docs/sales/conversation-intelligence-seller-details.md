@@ -1,5 +1,5 @@
 ---
-title: "Work with call intelligence feature for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Work with call intelligence feature for Dynamics 365 sales Insights | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -88,8 +88,8 @@ Let's look at the KPIs and insights in detail:
 
 ### See also
 
-- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
+[Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
 
-- [First-run set up experience of Sales Insights application](fre-setup-sales-insight-app.md)
+[First-run set up experience of Sales Insights application](fre-setup-sales-insight-app.md)
 
-- [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+[Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)

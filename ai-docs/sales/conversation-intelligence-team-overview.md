@@ -44,8 +44,8 @@ To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights**
 
 ### See also
 
-- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
+[Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
 
-- [First-run set up experience](fre-setup-sales-insight-app.md)
+[First-run set up experience](fre-setup-sales-insight-app.md)
 
-- [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+[Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)

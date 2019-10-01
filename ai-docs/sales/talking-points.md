@@ -1,7 +1,6 @@
 ---
 title: "Talking points in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Know conversation starters of customers in Dynamics 365 Sales Insights."
-keywords: "talking points, conversation starters, Dynamics 365 Sales Insights"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -33,9 +32,9 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], **Talking poin
 > ![Talking point](media/talkingpoints.png "Talking point")
 
 > [!NOTE]
-> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable sales insights add-on](configure-enable-dynamics-365-ai-sales.md).
+> If you do not see **Talking points** in the summary of the contact page, contact your administrator to enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Talking points](configure-talking-points.md).
 
-Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
+Let's say for example a customer sent you an email about a recent vacation in which he enjoyed skiing. Dynamics 365 Sales analyzes the email and automatically categorizes it to sports. This text will appear in the Talking points tile in the sports category. <br>
 
 > [!div class="mx-imgBorder"]
 > ![Talking point sample](media/talkingpoints-sample.png "Talking point sample")<br>
@@ -47,11 +46,6 @@ Select each topic icon on the Talking points to navigate. This helps you to star
 
 Talking points will display only the latest communication for each topic on the tile. For example, you received an email about a baseball game yesterday and you received another email today about football. The sports topic in the Talking points will be updated with the mail you received about football. 
 
-
-## Privacy notice  
-
-For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+[Configure Talking points](configure-talking-points.md)

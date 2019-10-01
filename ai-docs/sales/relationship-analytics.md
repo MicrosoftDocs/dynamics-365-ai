@@ -1,6 +1,6 @@
 ---
-title: "Preview feature: Relationship analytics for Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to analyze customer interaction data with Dynamics 365 Sales."
+title: "Relationship analytics for Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Learn how to analyze customer interaction data with Dynamics 365 Sales Insights."
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -99,7 +99,7 @@ You can view complete relationship analytics for an individual record, including
 
 **Time spent.** Shows the relative amount of time spent on activities related to the record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  <br>
 
-**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](/dynamics365/customer-engagement/sales-enterprise/email-engagement)  <br>
+**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md)  <br>
 
 **Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users. <br>
 
@@ -174,7 +174,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 |Overall (all activities)|Total time spent|Total time spent|  
 
 > [!NOTE]
-> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](/dynamics365/customer-engagement/sales-enterprise/email-engagement)  
+> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [View message interactions with email engagement](email-engagement.md)  
 
  For KPIs that report <!--time spent by you,--> your team and your customer, the system finds durations by applying the rules outlined in the following table:  
 
@@ -212,13 +212,9 @@ Your administrator can choose which types of activities are most relevant for yo
 
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
-## Privacy notice  
-
-For specific privacy information about Dynamics 365 Sales Insights capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also  
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+[Configure Relationship analytics](configure-relationship-analytics.md)
 
 [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)
 

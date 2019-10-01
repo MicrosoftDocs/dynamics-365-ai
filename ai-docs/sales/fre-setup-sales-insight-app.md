@@ -99,6 +99,6 @@ Now, your Sales Insights application is ready, and managers and sellers can use 
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)

@@ -1,5 +1,46 @@
 {
     "redirections": [
+    {
+      "source_path": "ai-docs/sales/configure-enable-dynamics-365-ai-sales.md",
+      "redirect_url": "intro-admin-guide-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/intro-admin-guide-sales-insights-app.md",
+      "redirect_url": "intro-admin-guide-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/faqs-sales-insights-app.md",
+      "redirect_url": "faqs-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/faqs-seller-app.md",
+      "redirect_url": "faqs-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/privacy-notice-seller.md",
+      "redirect_url": "privacy-notice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/privacy-notice-manager.md",
+      "redirect_url": "privacy-notice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/call-intelligence.md",
+      "redirect_url": "conversation-intelligence-seller-details",
+      "redirect_document_id": "false"
+    },
+    {
+        "source_path": "ai-docs/sales/configure-call-intelligence.md",
+        "redirect_url": "configure-conversation-intelligence-call-data",
+        "redirect_document_id": "false"
+      },
+             
         {
             "source_path": "ai-docs/market-insights/activity-maps.md",
             "redirect_url": "help-hub",

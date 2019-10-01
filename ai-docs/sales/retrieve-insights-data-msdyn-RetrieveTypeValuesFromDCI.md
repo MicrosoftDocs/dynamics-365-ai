@@ -1,5 +1,5 @@
 ---
-title: "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (Dynamics 365 Sales) | Microsoft Docs  "
+title: "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (Dynamics 365 Sales Insights) | Microsoft Docs  "
 description: "Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service that is used to compute and store data"
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/31/2018

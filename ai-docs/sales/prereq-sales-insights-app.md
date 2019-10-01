@@ -38,6 +38,6 @@ Verify the following requirements before setting up the Sales Insights applicati
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
-- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 
+[Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 
