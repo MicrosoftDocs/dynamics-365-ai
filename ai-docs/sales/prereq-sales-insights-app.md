@@ -32,12 +32,12 @@ Verify the following requirements before setting up the Sales Insights applicati
     
     2.	Enter your work email address.
     
-    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-user-signin).
+    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-user-signin).
 
--	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
+-	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
-- [Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 
+[Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 

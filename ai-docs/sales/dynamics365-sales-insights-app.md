@@ -1,6 +1,6 @@
 ---
 title: "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Sales"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Sales Insights"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -51,7 +51,7 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 
--	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
+-	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
 
 -	Enable preview for natural language Q&A. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
@@ -69,7 +69,7 @@ The next sections describe:
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app:
 
--	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](/dynamics365/customer-engagement/admin/purchase-assign-online-licenses) 
+-	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/en-us/power-platform/admin/wp-license-management) 
 
 <!-- - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)-->
 
@@ -119,12 +119,8 @@ The following procedure explains how to access Sales Insights application for th
     > [!div class="mx-imgBorder"]
     > ![Application status message when manager signs in](media/si-app-admin-message-bar-manager.png  "Application status message when manager signs in")
 
-## Privacy notice  
-
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sales managers, see [Privacy notice](privacy-notice-manager.md).
-
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

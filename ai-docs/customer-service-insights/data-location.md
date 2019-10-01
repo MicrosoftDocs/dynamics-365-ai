@@ -59,7 +59,7 @@ Microsoft may replicate customer data to other regions available within the same
 
 ## Customer data at rest in geo
 
-Microsoft will not transfer customer data outside the selected Azure geographic location (geo) for Dynamics 365 for Customer Service Insights except when:
+Microsoft will not transfer customer data outside the selected Azure geographic location (geo) for Dynamics 365 Customer Service Insights except when:
 
 - It is necessary for Microsoft to provide customer support, troubleshoot the service, or comply with legal requirements.
 - Customers use services that are designed to operate globally, including the following: 

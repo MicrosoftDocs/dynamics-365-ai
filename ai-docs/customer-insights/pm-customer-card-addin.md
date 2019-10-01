@@ -13,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 
 caps.latest.revision: 31
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
 ---
 # Customer Card add-in
 
@@ -25,9 +25,9 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
 
 ## Requirements
 
-- Dynamics 365 for Customer Engagement version 9.0 and later.
+- Model-driven apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), version 9.0 and later.
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub. 
-- Users who will use the Customer Insights Customer Card in Dynamics 365 for Customer Engagement need to be added as users on Dynamics 365 Customer Insights. You can do so on the **Permissions** page in the **Admin** section, as discussed later in this topic.
+- Users who will use the Customer Insights Customer Card in model-driven apps in Dynamics 365 need to be added as users on Dynamics 365 Customer Insights. You can do so on the **Permissions** page in the **Admin** section, as discussed later in this topic.
 
 
   > [!div class="mx-imgBorder"] 
@@ -35,7 +35,7 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
 
 ## Install Customer Card Add-in
 
-1. As an admin, go to the **Settings** section in Customer Engagement, and select **Solutions**. 
+1. As an admin, go to the **Settings** section in model-driven apps in Dynamics 365, and select **Solutions**. 
 
    > [!div class="mx-imgBorder"] 
    > ![Settings solutions](media/settings-solutions.png "Settings solutions")
@@ -66,7 +66,7 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
    > [!div class="mx-imgBorder"] 
    > ![Select instance to connect to](media/select-instance-to-connect.png "Select instance to connect to")
 
-5. The last step on the overall setting is to select which field in the Customer Insights Customer entity corresponds to the ID of the Contact entity in your Customer Engagement organization. 
+5. The last step on the overall setting is to select which field in the Customer Insights Customer entity corresponds to the ID of the Contact entity in your model-driven apps in Dynamics 365 organization. 
 
    > [!div class="mx-imgBorder"] 
    > ![Contact ID field](media/contact-id-field.png "Contact ID field")
@@ -87,7 +87,7 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
    > [!div class="mx-imgBorder"] 
    > ![Manage user roles](media/manage-user-roles.png "Manage user roles")
 
-8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in Customer Engagement, and then select **Customizations**. 
+8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**. 
  
    > [!div class="mx-imgBorder"] 
    > ![Settings customizations](media/settings-customizations.png "Settings customizations")
