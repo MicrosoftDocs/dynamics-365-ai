@@ -59,7 +59,7 @@ Follow these steps to load data into Customer Insights:
    > [!div class="mx-imgBorder"] 
    > ![Get data select source](media/data-manager-get-select-source.png "Get data select source")
 
-   - To load data from Customer Engagement, choose the  **Common Data Service** connector.
+   - To load data from model-driven apps in Dynamics 365, choose the  **Common Data Service** connector.
 
      > [!div class="mx-imgBorder"] 
      > ![Get data connection settings](media/data-manager-get-data-connection-settings.png "Get data connection settings")
