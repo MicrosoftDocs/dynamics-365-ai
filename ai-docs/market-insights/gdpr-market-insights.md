@@ -1,7 +1,7 @@
 ---
 title: "Data handling and GDPR in Dynamics 365 Market Insights | Microsoft Docs"
 description: "How Market Insights handles data, and how you can file a DSR."
-ms.date: 09/25/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -22,7 +22,7 @@ search.app:
 
 To run and improve the service for Market Insights Preview, we need to store some user data. This article is directed at users of the Market Insights Preview service. It outlines which data we gather, why we store it, and how you can request to export your data, update your name in the app, or delete your personal data.
 
-The GDPR gives people (known in the GDPR as data subjects) specific rights to their personal data, including the ability to: obtain copies of personal data, request corrections or deletions, restrict processing of personal data, or to receive personal data in an electronic format so it can be moved to another controller. The controller is the organization that collects and makes use of the personal data.
+The General Data Protection Regulation (GDPR) gives people (known in the GDPR as data subjects) specific rights to their personal data, including the ability to: obtain copies of personal data, request corrections or deletions, restrict processing of personal data, or to receive personal data in an electronic format so it can be moved to another controller. The controller is the organization that collects and makes use of the personal data.
 
 A formal request by a data subject to a controller to take an action on their personal data is called a Data Subject Request (DSR).
 
@@ -55,4 +55,4 @@ To have your data exported, send us an [email](mailto:micustreqs@microsoft.com) 
 
 ## Update your name in the app
 
-To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. If this doesn't work, send us an [email](mailto:micustreqs@microsoft.com) and request the change.
+To change your name in the app, update it on the profile you used to sign in. The app will sync your updated name from the profile directly. 
