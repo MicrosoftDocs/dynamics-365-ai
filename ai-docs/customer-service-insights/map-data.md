@@ -49,7 +49,9 @@ See [Use workspaces to connect to different customer service environments](use-w
    ![Select entity](media/select-entity.png)
 
 4. On the **Map your incident records** page, select the data fields you want to use from the drop-down menu. Some fields have been mapped automatically. Then select **Done**.
-Note: previously, the Incident Id field is available for mapping, now it's automatically mapped to the primary key of your dataset.
+>[!NOTE]
+>Previously, the *Incident Id* field was available for mapping, now it's automatically mapped to the primary key of your dataset.
+
 
    ![Map fields](media/map-fields.png)
 
