@@ -142,8 +142,8 @@ Review the following requirements for audio and JSON files before you upload:
   |Parameter|Description|
   |---------|-----------|
   | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
-  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 for Sales organization. |
-  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 for Sales organization. | 
+  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Sales organization. |
+  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Sales organization. | 
   | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
   | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
   | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, and zh-CN. |
@@ -157,7 +157,7 @@ Review the following requirements for audio and JSON files before you upload:
   | `CallOpportunityCrmId` |  (Optional) Specifies the unique identification code of the opportunity. |
   | `CallLeadCrmId` |  (Optional) Specifies the unique identification code of the lead. |
   | `CallAccountCrmId` |  (Optional) Specifies the unique identification code of the account. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 for Sales admin center for the sales rep. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 Sales admin center for the sales rep. |
   | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
   | `Id`| (Optional) Specifies the unique identification code of the call. Generate this code using the GUID generator. |  
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
