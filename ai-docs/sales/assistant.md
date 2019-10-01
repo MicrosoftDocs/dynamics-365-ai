@@ -81,10 +81,6 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 3. Select **Save** to save your settings and close the window.  
   
-## Privacy notice  
-
-For specific privacy information about assistant, see [Privacy notice](privacy-notice-ee.md).
-
 ### See also  
 
 [Configure Assistant](configure-assistant.md)

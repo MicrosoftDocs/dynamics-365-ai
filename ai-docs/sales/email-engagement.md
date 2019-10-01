@@ -357,11 +357,6 @@ Any time you compose an email that includes one or more recipients that do  not 
   
 To view the tracking preferences for all of the recipients of a message, select the **View Recipients' Preferences** link shown above the body text. A pop-up window opens, showing the name and follow preference for each recipient. From here you can open any contact, account, or lead record by selecting their name in the list.  
   
-
-## Privacy notice  
-
-For specific privacy information about Email engagement, see [Privacy notice](privacy-notice-ee.md).
-  
 ### See also  
 
 [Enable Email engagement](configure-email-engagement.md)
