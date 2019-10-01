@@ -78,13 +78,13 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
    > ![Add Export destination](media/add-export-destination.png "Add Export destination")
 
 
-2. Choose "Dynamics 365 for Sales" or "Dynamics 365 Marketing" in the **Type** drop-down list.
+2. Choose "Dynamics 365 Sales" or "Dynamics 365 Marketing" in the **Type** drop-down list.
 
 
    > [!div class="mx-imgBorder"] 
-   > ![Select Dynamics 365 for Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 for Sales")
+   > ![Select Dynamics 365 Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 Sales")
 
-3. Specify your Dynamics 365 for Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 for Sales or Dynamics 365 Marketing account.
+3. Specify your Dynamics 365 Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 Sales or Dynamics 365 Marketing account.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/add-destination.png "Add destination page")
@@ -122,7 +122,7 @@ When viewing the **Export destinations** page, if you’ve already created desti
   - Display name: The name you created during the destination creation.
   - Type: The destination type set during the destination creation.  Currently supports:
     - Azure Blob storage
-    - Dynamics 365 for Sales
+    - Dynamics 365 Sales
   - Created: The date you created the destination.
 
 ## Remove an Export destination
