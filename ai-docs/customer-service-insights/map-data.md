@@ -17,12 +17,12 @@ search.appverid: met150
 
 # Map your data to custom entities and fields
 
-Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 for Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Case entity and several other related entities in Common Data Service (CDS) for Apps.
+Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the Case entity and several other related entities in Common Data Service (CDS) for Apps.
 
 However, you may want to generate insights by mapping to data from custom entities and fields in Common Data Service. Mapping to data from custom entities and fields is useful in the following cases:
 
-* You are not a Dynamics 365 for Customer Service customer.
-* You are a Dynamics 365 for Customer Service customer, but your service solution is customized and you use custom entities and fields to store support case data.
+* You are not a Dynamics 365 Customer Service customer.
+* You are a Dynamics 365 Customer Service customer, but your service solution is customized and you use custom entities and fields to store support case data.
 * You want to use a custom field other than the support case title in your Dynamics 365 Customer Service Insights dashboards.
 
 When you create a Customer Service Insights workspace and connect to a Dynamics 365 environment, Customer Service Insights prompts you to map your data:
@@ -32,7 +32,7 @@ When you create a Customer Service Insights workspace and connect to a Dynamics 
 
 After a workspace is created, you can map to data from custom entities and fields by specifying Data mapping settings.
 
-See [Dynamics 365 for Customer Service entities used by Customer Service Insights](customer-service-entities.md) for more information about common entities.
+See [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md) for more information about common entities.
 
 See [Use workspaces to connect to different customer service environments](use-workspaces.md) for more information on using a workspace to connect to an environment.
 

@@ -33,8 +33,8 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 2. Select **Azure Blob storage** in the **Type** drop-down list.
 
 3. Enter the **Account name**, **Account key**, and **Container** for your Blob storage account.
-    - To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-manage).
-    - To learn how to create a container, see [Create a container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
+    - To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-account-manage).
+    - To learn how to create a container, see [Create a container](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
     > [!div class="mx-imgBorder"] 
     > ![Add destination](media/export-destinations-azure-blob.png "Add destination")
@@ -50,7 +50,7 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 
 7. Select **Save**.
 
-Your export should start shortly if all prerequisites for export have been completed.  In addition, your export will run at the end of every scheduled refresh.  To learn more about scheduling, see [Schedule tab](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-settings#schedule-tab).
+Your export should start shortly if all prerequisites for export have been completed.  In addition, your export will run at the end of every scheduled refresh.  To learn more about scheduling, see [Schedule tab](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-settings#schedule-tab).
 
 #### Azure Blob storage locations
 

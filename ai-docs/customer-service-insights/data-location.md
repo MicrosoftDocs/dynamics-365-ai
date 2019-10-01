@@ -51,12 +51,15 @@ Microsoft may replicate customer data to other regions available within the same
 |                               |                                           |
 |    Japan                      |    Japan East (Tokyo, Saitama)            |
 |                               |    Japan West (Osaka)                     |
+| | |
+| France | France Central (Paris) |
+| | Framce South (Marseille) |
 
 
 
 ## Customer data at rest in geo
 
-Microsoft will not transfer customer data outside the selected Azure geographic location (geo) for Dynamics 365 for Customer Service Insights except when:
+Microsoft will not transfer customer data outside the selected Azure geographic location (geo) for Dynamics 365 Customer Service Insights except when:
 
 - It is necessary for Microsoft to provide customer support, troubleshoot the service, or comply with legal requirements.
 - Customers use services that are designed to operate globally, including the following: 
@@ -68,8 +71,8 @@ Microsoft will not transfer customer data outside the selected Azure geographic 
     - Services that provide global routing functions and do not process or store customer data. This includes Azure DNS, which provides domain name services that route to different regions; or
     - Preview, beta, or other pre-release services, which typically store customer data in the United States but may store it globally. 
     - Additionally, certain types of customer data (specifically the application name, application description, and application logo) will be stored globally, rather than in the primary storage geo.
-- Customers configure external services to extend Dynamics 365 for Customer Service Insights such customer configurations may cause customer data to be transferred outside of the selected geo. Examples of customer configurable external services include: 
+- Customers configure external services to extend Dynamics 365 Customer Service Insights such customer configurations may cause customer data to be transferred outside of the selected geo. Examples of customer configurable external services include: 
   - Machine Learning Cognitive Services: If features that use cognitive services are activated, customer data for domains such as product recommendations and demand forecasting can be synchronized outside of the configured region. Use of these features is optional. You can find more information [here](https://azure.microsoft.com/services/cognitive-services/recommendations/).
-  - Data integration: Configuration of Dynamics 365 for Customer Service Insights data management features that work with external services (whether provided by Microsoft or a third party) may result in the transfer of core customer data outside of the region configured for the production environment to a geographic location that customers designate. You can find more information [here](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/integration-overview).
-  - Microsoft Power BI, Microsoft PowerApps, and Microsoft Flow: Customers who connect their Power BI, PowerApps, or Flow deployment to Dynamics 365 for Customer Service Insights may send customer data outside of the designated region to the geographic area where their Power BI, PowerApps, or Flow is deployed. You can find more details [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
-  - Microsoft Visual Studio Team Services: Customers can choose where to store custom code, metadata, and data assets that support their Dynamics 365 for Customer Service Insights implementation. You can find more information about the availability of Visual Studio Team Services [here](https://azure.microsoft.com/regions/services/?v=17.42n).
+  - Data integration: Configuration of Dynamics 365 Customer Service Insights data management features that work with external services (whether provided by Microsoft or a third party) may result in the transfer of core customer data outside of the region configured for the production environment to a geographic location that customers designate. You can find more information [here](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/integration-overview).
+  - Microsoft Power BI, Microsoft PowerApps, and Microsoft Flow: Customers who connect their Power BI, PowerApps, or Flow deployment to Dynamics 365 Customer Service Insights may send customer data outside of the designated region to the geographic area where their Power BI, PowerApps, or Flow is deployed. You can find more details [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+  - Microsoft Visual Studio Team Services: Customers can choose where to store custom code, metadata, and data assets that support their Dynamics 365 Customer Service Insights implementation. You can find more information about the availability of Visual Studio Team Services [here](https://azure.microsoft.com/regions/services/?v=17.42n).

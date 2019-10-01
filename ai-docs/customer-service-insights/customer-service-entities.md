@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Service entities used by Customer Service Insights"
-description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 for Customer Service."
+title: "Dynamics 365 Customer Service entities used by Customer Service Insights"
+description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 Customer Service."
 keywords: "CDS, data entity"
 ms.date: 6/21/2019
 ms.service: 
@@ -15,9 +15,9 @@ search.audienceType: enduser
 search.appverid: met150
 ---
 
-# Dynamics 365 for Customer Service entities used by Customer Service Insights
+# Dynamics 365 Customer Service entities used by Customer Service Insights
 
-When a workspace is created from a Dynamics 365 for Customer Service environment, Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 for Customer Service entities:
+When a workspace is created from a Dynamics 365 Customer Service environment, Customer Service Insights loads customer service data and generates dashboards using the following Dynamics 365 Customer Service entities:
 
 - [Case entity](#case-entity)
 - [CaseResolution entity](#caseresolution-entity)
@@ -49,9 +49,9 @@ OwningUser | Lookup | A unique identifier for the support agent who owns the cas
 ProductId | Lookup | A unique identifier for the product associated with the case. Customer Service Insights uses this attribute to look up the product name from the [Product](#product-entity) entity and generate product information for the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
 OwningBusinessUnit | Lookup | A unique identifier for the business unit that owns the case. Customer Service Insights uses this attribute to look up the business unit names from the [BusinessUnit](#businessunit-entity) entity and generate the Business Unit filter values on each dashboard.
 OwningTeam | Lookup | A unique identifier for the team that owns the case. Customer Service Insights uses this attribute to look up the team name from the [Team](#team-entity) entity and generate the Team filter values on each dashboard.
-TicketNumber | String | The case number for customer reference and searching capabilities in a Dynamics 365 for Customer Service environment. In Customer Service Insights, users can review cases grouped into each topic with their case numbers in the Topics page. 
+TicketNumber | String | The case number for customer reference and searching capabilities in a Dynamics 365 Customer Service environment. In Customer Service Insights, users can review cases grouped into each topic with their case numbers in the Topics page. 
 
-For more information about the Case entity, see [Case Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case).
+For more information about the Case entity, see [Case Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case).
 
 ## CaseResolution entity
 
@@ -64,7 +64,7 @@ CreatedOn | DateTime | The date and time the case resolution activity was create
 ModifiedOn | DateTime | The date and time the case resolution activity was last modified.
 StateCode | Status | The case resolution status. Customer Service Insights uses the following values to indicate the status: 1 (Open), 2 (Completed), or 3 (Canceled). If a case is reactivated, Customer Service Insights updates the StateCode to 3 (Canceled). When the StateCode value is 2 (Completed), Customer Service Insights uses the value of the CreatedOn attribute as the case resolution date and time.
 
-For more information about the CaseResolution entity, see [Case Resolution Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/caseresolution).
+For more information about the CaseResolution entity, see [Case Resolution Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/caseresolution).
 
 ## BusinessUnit entity
 
@@ -75,7 +75,7 @@ Attributes | Type | Details
 BusinessUnitId | UniqueIdentifier (Primary Key) | A unique business unit identifier.
 Name | String | The name of the business unit. Customer Service Insights uses this attribute to generate the Business Unit filter values on each dashboard.
 
-For more information about the BusinessUnit entity, see [BusinessUnit Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/businessunit).
+For more information about the BusinessUnit entity, see [BusinessUnit Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/businessunit).
 
 ## Product entity
 
@@ -86,7 +86,7 @@ Attributes | Type | Details
 ProductId | UniqueIdentifier (Primary Key) | A unique product identifier.
 Name | String | The name of the product. Customer Service Insights uses this attribute to generate the [Topic details dashboard](dashboard-topic-details.md) and the Product filter values on each dashboard.
 
-For more information about the Product entity, see [Product Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/product).
+For more information about the Product entity, see [Product Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/product).
 
 ## User entity
 
@@ -97,7 +97,7 @@ Attributes | Type | Details
 SystemUserId | UniqueIdentifier (Primary Key) | A unique identifier for the support agent.
 FullName | String | The full name of the support agent. Customer Service Insights uses this attribute to generate agent performance charts on the [Case resolution dashboard](dashboard-case-resolutions.md) and [Topic details dashboard](dashboard-topic-details.md).
 
-For more information about the User entity, see [User Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/user).
+For more information about the User entity, see [User Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/user).
 
 ## Team entity
 
@@ -108,4 +108,4 @@ Attributes | Type | Details
 TeamId | UniqueIdentifier (Primary Key) | A unique team identifier.
 Name | String | The name of the team. Customer Service Insights uses this attribute to generate the Team filter values on each dashboard.
 
-For more information about the Team entity, see [Team Entity Reference](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/team).
+For more information about the Team entity, see [Team Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/team).
