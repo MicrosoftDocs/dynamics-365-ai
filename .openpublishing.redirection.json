@@ -30,6 +30,17 @@
       "redirect_url": "privacy-notice",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ai-docs/sales/call-intelligence.md",
+      "redirect_url": "conversation-intelligence-seller-details",
+      "redirect_document_id": "false"
+    },
+    {
+        "source_path": "ai-docs/sales/configure-call-intelligence.md",
+        "redirect_url": "configure-conversation-intelligence-call-data",
+        "redirect_document_id": "false"
+      },
+             
         {
             "source_path": "ai-docs/market-insights/activity-maps.md",
             "redirect_url": "help-hub",
