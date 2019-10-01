@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Relationship analytics for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Relationship analytics for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to analyze customer interaction data with Dynamics 365 Sales Insights."
 ms.date: 10/31/2018
 ms.service: crm-online

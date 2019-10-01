@@ -94,7 +94,7 @@ When email engagement is enabled for your site, all of the controls required to 
 <a name="NewMessage"></a>   
 
 ### Create a new message  
- You can activate email engagement features for any email that you send from within [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The main record for the message (typically the record are looking at when you create it), is set as its **Regarding** value, though the various to, from, and copy-to email addresses can also affect the places where you are able to see the message and where its KPIs may apply. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship analytics](relationship-analytics.md)-->  
+ You can activate email engagement features for any email that you send from within [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The main record for the message (typically the record are looking at when you create it), is set as its **Regarding** value, though the various to, from, and copy-to email addresses can also affect the places where you are able to see the message and where its KPIs may apply.  
   
  To add an email activity to a record:  
   
