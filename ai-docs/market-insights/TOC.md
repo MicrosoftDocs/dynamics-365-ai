@@ -16,5 +16,4 @@
 ## [Demographic insights](demographic-insights.md)
 ## [Journey insights](journey-insights.md)
 # Additional information
-## [Data handling and GDPR](gdpr-market-insights.md)
 ## [Accessibility for Market Insights](accessibility.md)
