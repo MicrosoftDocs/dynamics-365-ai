@@ -6,9 +6,6 @@ ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 6b697179-a0f0-4aee-b636-6cb7426212ec
 author: udaykirang
 ms.author: udag
@@ -24,27 +21,23 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. Visit this page to see what has been added or updated recently.
 
-## [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] Fall 2018 ([!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], version 9.1.0.35 and above)
+## Assistant 
 
-In this release, we have improved engagement and decision-making with prebuilt and embedded insights that are quick to deploy and easy to act on. Find the best prospects and customers for sales reps to focus on as well as the most relevant and impactful actions to move relationships forward. Empower your managers to improve sales performance and deliver proactive coaching.
+The new redesigned assistant administration helps the administrator or sales manager create custom insight cards, prioritize cards, optimize card ranking, and assign cards to user roles for your Dynamics 365 Sales organization.
 
-### For sales reps
+To learn more, see [Configure Assistant](configure-assistant.md).
 
-- **Relationship analytics**: Relationship analytics empowers salespeople by providing a view into the health of a sales deal in the opportunity pipeline by combining the engagement data from Dynamics 365, Exchange Online, and LinkedIn InMail. This helps sales reps to understand the relationship health and trend, and evaluate where to invest their time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View customer activity history](../sales/relationship-analytics.md)
+## Dynamics 365 assistant app for Teams
 
-- **Predictive lead scoring**: Predictive lead scoring provides scores for leads based on key variables of your leads. This helps the sales reps to prioritize their efforts and focus on leads that are more likely to convert into opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize leads using predictive scores](../sales/work-predictive-lead-scoring.md)
+The Dynamics 365 assistant app for Teams is available as **Preview**.
 
-- **Predictive opportunity scoring**: Predictive opportunity scoring provides scores for opportunities based on key variables of your opportunities. This helps the sales reps to focus their efforts on opportunities that are more likely to convert into deals. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prioritize opportunities using predictive scores](../sales/work-predictive-opportunity-scoring.md)
+The Dynamics 365 assistant app for Teams helps salespersons to view daily activities to maintain proper communications with the customer and close deals. It also provides timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
 
-- **Notes analysis**: Notes analysis looks at your notes and posts on your timeline wall and suggests actions that you can take. The suggestions include creating a task and appointment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How notes analysis assists you with suggestions](../sales/notes-analysis.md)
+To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md).
 
-- **Talking points**: Salespeople interact with many customers over time and it can be difficult to remember every detail about these customers. Talking points intelligently picks up key past email communications about topics such as sports, health, family, and entertainment to help sales reps start a new conversation with customers they haven't spoken with recently or have never met face to face. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Know conversation starters for your customers](../sales/talking-points.md)
+## Sales Insights application
 
-- **Who knows whom**: With Who knows whom, salespeople can easily identify colleagues within their organization who can introduce them to leads or contacts. These introductions increase sales performance to improve lead-to-opportunity conversion rates and help close more deals. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get introduced to a lead](../sales/who-knows-whom.md)
-
-### Sales Insights application
-
-Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 for Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
+Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
  
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 

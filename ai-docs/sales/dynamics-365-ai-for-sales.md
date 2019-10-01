@@ -1,14 +1,10 @@
 ---
-title: "Sales insights add-on for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Sales insights add-on for Dynamics 365 Sales | MicrosoftDocs"
 description: "Get insights into customer opportunities, activities, and leads."
-keywords: "sales insights addon, insights addon, relationship analytics, predective lead scoring, lead scoring"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 4aa7a903-c577-4d74-b7cd-20b2a1c7eaec
 author: udaykirang
 ms.author: udag
@@ -21,8 +17,6 @@ topic-status: Drafting
 ---
 
 # Get insights on opportunities, activities, leads, and interactions of customers
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 Using [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], you can track customer related activities and address the questions such as:
 - What opportunities should have priority?

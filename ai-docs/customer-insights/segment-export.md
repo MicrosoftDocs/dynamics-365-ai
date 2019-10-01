@@ -23,7 +23,7 @@ manager: "kvivek"
 
 Now that you have created one or more segments using the **Segment builder** screen, you are ready to start acting upon your data. Make sure to first visit the [**Segments** section](pm-segments.md) if you haven't done so. 
 
-At present, you can export any of your segments to both a CSV file and a Dynamics 365 for Sales location. In the future, we will add additional segment export options.
+At present, you can export any of your segments to both a CSV file and a Dynamics 365 Sales location. In the future, we will add additional segment export options.
 
 1. The csv. option is available within  the **Segments** page.
       
@@ -48,7 +48,7 @@ At present, you can export any of your segments to both a CSV file and a Dynamic
    > [!div class="mx-imgBorder"] 
    > ![Add destination](media/segmentation-add-destination.png "Segmentation add destination")
 
-2. Give your destination a recognizable name, define its URL, and then select a Dynamics 365 for Sales account.
+2. Give your destination a recognizable name, define its URL, and then select a Dynamics 365 Sales account.
 
    > [!div class="mx-imgBorder"] 
    > ![Export destination](media/segmentation-export-destination.png "Segmentation export destination")
@@ -63,7 +63,7 @@ At present, you can export any of your segments to both a CSV file and a Dynamic
    > [!div class="mx-imgBorder"] 
    > ![Segmentation destination](media/segmentation-export-destination3.png "Segmentation destination")
     
-   Upon clicking your Dynamics 365 for Sales destination, you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message:
+   Upon clicking your Dynamics 365 Sales destination, you should wait until the exporting process has completed. As long as it's in progress you can expect to see the following message:
   
    > [!div class="mx-imgBorder"] 
    > ![Segmentation export in process](media/segmentation-export-in-process.png "Segmentation export in process")

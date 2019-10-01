@@ -1,14 +1,10 @@
 ---
 title: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 08/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 64fc7327-265d-4d85-bc58-5f2bcadf4ae1
 author: udaykirang
 ms.author: udag
@@ -20,13 +16,13 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Connect to Dynamics 365 environment
+# Connect to Dynamics 365 Sales environment
 
-The **Data sources** section helps you to disconnect or connect a Dynamics 365 for Sales environment with your Sales Insights application. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
+The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your Sales Insights application. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
-At a time, you can have only one active Dynamics 365 environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
+At a time, you can have only one active Dynamics 365 Sales environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
 
-As an administrator, you must configure the Dynamics 365 for Sales environment to connect to the Sales Insights application.
+As an administrator, you must configure the Dynamics 365 Sales environment to connect to the Sales Insights application.
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md).
 
@@ -47,10 +43,10 @@ As an administrator, you must configure the Dynamics 365 for Sales environment t
     > [!div class="mx-imgBorder"]
     > ![Select an environment to add](media/si-app-admin-select-add-an-environment.png "Select an environment to add")
  
-6.	In the **Connect your data** dialog box, select your Dynamics 365 for Sales environment to connect with the application.
+6.	In the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 for Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 for Sales environment")
+    > ![Select Dynamics 365 Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")
 
     The application now detects your environment.
 
@@ -94,6 +90,6 @@ Now, your Sales Insights application is ready with the data of the added environ
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
-- [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)

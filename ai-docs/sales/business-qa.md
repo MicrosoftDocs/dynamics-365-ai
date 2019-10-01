@@ -1,14 +1,11 @@
 ---
-title: "Use natural language Q&A to get insights into your sales and call data in Dynamics 365 AI for Sales | MicrosoftDocs"
-description: "Use natural language Q&A to get insights into your sales and call data in Dynamics 365 AI for Sales"
+title: "Use natural language Q&A to get insights into your sales and call data in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Use natural language Q&A to get insights into your sales and call data in Dynamics 365 Sales Insights"
 keywords: ""
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 2fb98f4f-7e15-4eb3-918d-cc76067ca74f
 author: udaykirang
 ms.author: udag
@@ -21,7 +18,6 @@ topic-status: Drafting
 
 # Natural language Q&A 
 
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -170,6 +166,6 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 
 ### See also
 
-- [Enable preview features](enable-preview-features-sales-insights-app.md)
+[Enable preview features](enable-preview-features-sales-insights-app.md)
 
-- [View and understand home page](dynamics365-sales-insights-app-home-page.md)
+[View and understand home page](dynamics365-sales-insights-app-home-page.md)

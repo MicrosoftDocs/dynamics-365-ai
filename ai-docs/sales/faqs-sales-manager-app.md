@@ -2,14 +2,10 @@
 redirect_url: faqs-sales-insights-app
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights app"
-keywords: "FAQs, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 12/13/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 673c693b-9265-4641-bb31-a72b8a97bb3a
 author: udaykirang
 ms.author: udag
