@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 07/25/2019
+title: "Demographic insights in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Insights related to the demographics insights type."
+ms.date: 09/26/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -16,7 +16,9 @@ search.app:
   - D365SE
 ---
 
-# Age and gender insight
+# Demographic insights
+
+(This topic is pre-release documentation and is subject to change.)
 
 ## Overview
 
@@ -24,8 +26,13 @@ Obtaining accurate customer demographic information can be an expensive and time
 
 **Gender** and **Age** insights provide a view with the percentage of male and female distributions, as well as age distribution of those who are searching for elements you defined.
 
+> [!div class="mx-imgBorder"]
+> ![Demographic insight in the Market Insights app](media/insight-details-demographics.png)
+
 ## Data and frequency
 
-**Gender** and **Age** distribution will show up right after an element is added. An insight will be delivered when a significant change (a change in share of voice among the gender segments that is more than what has been observed in the past year) is detected.
+**Age** and **Gender** distribution will show after finishing the initial setup. Generally, Age and gender distribution data can take up to 24 hours to appear, especially after adding or editing an element in the universe.
 
-**Demographic Insights** aggregates data from users who search for related terms on [https://www.bing.com/](https://bing.com) for the topic selected. Each user is assigned to a demographic segment by using Data science models on the user's search query terms and patterns from multiple search sessions.
+**Age** and **Gender** distribution data is recalculated every week and surfaced in the feed.
+
+**Demographic insights** aggregate data from web search users who search for related terms of the selected element. Each web search user is assigned to a demographic segment by using data science models on their search query terms and patterns from multiple search sessions.

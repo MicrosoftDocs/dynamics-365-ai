@@ -1,7 +1,7 @@
 ---
-title: " | Microsoft Docs"
-description: ""
-ms.date: 07/18/2019
+title: "Share insights publicly from Dynamics 365 Market Insights Preview | Microsoft Docs"
+description: "Share insights publicly using LinkedIn, Twitter, or the direct URL."
+ms.date: 09/26/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -23,4 +23,4 @@ Share insights with colleagues or your audience by using the **Share** control o
 ![Share control on an insight card](media/insight-share-button.png)
 
 > [!IMPORTANT]
-> The item you are sharing is the expanded snippet of the insight. If you decide to share an insight, the insight will be made publicly available to anyone with the link to that page. No authentication is required to view the insight. 
+> The item you are sharing is the insight in the details view without additional information. If you decide to share an insight, the insight will be made publicly available to anyone with the link to that page. No authentication is required to view the insight.
