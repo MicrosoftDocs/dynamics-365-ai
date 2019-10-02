@@ -1,14 +1,11 @@
 ---
-title: "Work with Predictive opportunity scoring feature for Dynamics 365 Customer Engagement  | MicrosoftDocs"
+title: "Work with Predictive opportunity scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: dc27cdd2-0c47-4d90-b01b-d7d37e275809
 author: udaykirang
 ms.author: udag
@@ -20,9 +17,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Convert opportunities into deals
-
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
+# Prioritize opportunities through scores
 
 In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The Predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. This model assigns a score between 0 and 100 for opportunities based on the signals from opportunities and related entities such as contact and account. Using these scores, you can identify and prioritize opportunities that have more chances of converting into wins. 
 
@@ -30,7 +25,7 @@ For example, say you have two opportunities - Opportunity A and Opportunity B - 
 
 > [!IMPORTANT]
 > To enable Predictive opportunity scoring in your organization, contact your system administrator.
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-enable-dynamics-365-ai-sales.md#configure-predictive-opportunity-scoring)
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
 ## Understand opportunity scoring in views
 
@@ -66,11 +61,6 @@ The numbered sections are:
 
 3. **Feedback.** Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
-
-## Privacy notice  
-
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md) 
+[Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)

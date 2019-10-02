@@ -13,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 
 caps.latest.revision: 31
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
 ---
 # Common connectors
 
