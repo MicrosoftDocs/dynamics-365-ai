@@ -34,8 +34,10 @@ To establish a 360° view of the customer and make Customer Insights models avai
 |[Segment](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/segment)   | Defines a group of members that exhibit common traits.        |
 |[SegmentMembership](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/segmentmembership)     | Members participating in a given segment.        |
 
-For more details, see the documentation about the [Customer Insights entity schemas in the Common Data Model](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/overview). 
+For more details, see the documentation about the [Customer Insights entity schemas in the Common Data Model](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/overview).
+
+## View entities using the CDM Entity Navigator
 
 You can view the Customer Insights entities in the [CDM Entity Navigator](https://microsoft.github.io/CDM/). Select the **Load from GitHub!** button and navigate to **foundationCommon** > **crmCommon** > **solutions** > **customerInsights** where you'll find the list of Customer Insights entities and their definitions.
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![CDM Entity Navigator showing CustomerActivity entity](media/CDM-entity-navigator.png "CDM Entity Navigator showing CustomerActivity entity")
