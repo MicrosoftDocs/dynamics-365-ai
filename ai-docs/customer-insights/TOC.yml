@@ -54,6 +54,8 @@
     items:
     - name: Customer Card Add-in 
       href: pm-customer-card-addin.md
+    - name: Entities schema in Common Data Model
+      href: entity-schemas.md
     - name: Connectors
       items: 
       - name: Power BI connector
