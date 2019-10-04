@@ -17,11 +17,7 @@ topic-status: Drafting
 ---
 
 # How Notes analysis assists you with suggestion
-
-Dynamics 365 Sales Insights allows you to view and quickly enter notes on **Timeline** control (formerly known as activity wall). Notes analysis suggests actions only for the following activity types: **Appointment**, **Phone Call**, **Task**, **Note**, and **Post**. When you enter notes regarding a recent meeting or discussion with your customer, notes analysis monitors these notes and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.<br>
-
-> [!NOTE]
-> Notes analysis does not support **Email** activity type.
+Notes analysis provides you with suggestions for actions based on customer-related activities. When you create a new activity, such as **Email**, **Appointment**, **Phone Call**, **Task**, **Note**, or **Post**, notes analysis monitors these activities and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.
 
 **Timeline** control is available on contacts, opportunities, leads, accounts, and case forms.<br> 
  > [!div class="mx-imgBorder"]
