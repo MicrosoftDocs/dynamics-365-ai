@@ -79,6 +79,10 @@ The following features are available under the Dynamics 365 Sales Insights app:
 
 To learn more, see [Improve seller coaching and sales potential with Dynamics 365 Sales Insights application](dynamics365-sales-insights-app.md).
 
+## For effective use of Sales Insights
+
+For effective use of Dynamics 365 Sales Insights, use the out-of-the-box entities (contact, opportunity, lead, account, and case) while creating records in the application. If changes to the entity are required in your organization, customize only these out-of-the-box entities to meet your requirements. This helps the application to analyze the records, and generate models and predictions effectively.
+
 ### See also
 
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
