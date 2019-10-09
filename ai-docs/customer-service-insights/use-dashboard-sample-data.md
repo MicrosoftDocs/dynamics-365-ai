@@ -21,14 +21,14 @@ The dashboards included in Customer Service Insights provide a rich set of analy
 
 Some key features of the dashboards include:
 
-* Filters to let you view customer service data for a specific time period, product, support channel, business unit, or team.
+* Filters to let you view customer service data for a specific time period, product, support channel, business unit, or case assigned directly to a team.
 * Key performance indicator charts that give you the basics of how your system is performing.
 * Graphical charts showing trends and breakdowns of cases from a variety of views.
 * AI Insights charts that use artificial intelligence technology to show the impact and trends of cases related to specific support topics.
 
 ## Dashboard filters
 
-Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or teams associated with your case data. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
+Filters on each dashboard let you view a subset of your customer service data. You can view information for support cases for a specific time period, or according to one or more specific product areas, support channels, business units, or directly assigned teams that are associated with your case data. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
 
 ![Dashboard filters](media/dashboard-filters.png)
 
