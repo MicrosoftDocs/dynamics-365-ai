@@ -96,7 +96,7 @@ For details about changing languages in Windows 10 and Edge, see [Change the dis
 
 ## Language support for case grouping as topics
 
-Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. It comes with natral language understanding models that can understand the text sementics and intents in the following languages:
+Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. It comes with natral language understanding models that can understand the text sementics and intent in the following languages:
 
 * English
 * French
@@ -110,7 +110,7 @@ Customer Service Insights uses natural language understanding and other artifici
 > [!NOTE]
 > The support for Italian, Japanese, Portuguese and Simplified Chinese is currently in public preview.  
 
-Each language model above also has the capability to process English cases, in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natrual language processing, but without the understanding of text sementics and intents. 
+Each language model above also has the capability to process English cases, in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text sementics and intent. 
 
 The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. If more than 70% of the cases are in languages supported by a specific language model, that model will be used to discover topics from all of your cases; otherwise, a mixed-language model is used. For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases. 
 
