@@ -1,14 +1,10 @@
 ---
 title: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application | MicrosoftDocs"
 description: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application"
-keywords: "conversation intelligence, Dynamics 365 Sales Insights, AI for sales, Sales AI, Sales Insights"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
 author: udaykirang
 ms.author: udag
@@ -62,6 +58,6 @@ Using the **Conversation content** section, you can add or remove keywords and c
 
 ### See also
 
-- [Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
 
-- [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)

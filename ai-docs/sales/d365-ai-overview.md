@@ -1,7 +1,7 @@
 ---
 redirect_url: dynamics365-sales-insights-app-home-page
 title: " View overall insights of your sales in Dynamics 365 AI Sales Insights | MicrosoftDocs"
-description: "View high-level information on forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news with AI-driven insights readily available for Dynamics 365 for Sales"
+description: "View high-level information on forecast, leaderboard, pipeline, highlights, upcoming meetings, and relevant news with AI-driven insights readily available for Dynamics 365 Sales"
 keywords: ""
 ms.date: 10/31/2018
 ms.service: crm-online

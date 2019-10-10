@@ -1,14 +1,10 @@
 ---
-title: "Who Knows Whom in Dynamics 365 for Sales | MicrosoftDocs"
-description: "how to get introduced to a lead in Dynamics 365 for Sales."
-keywords: "who knows whom, get introduced to lead, Dynamics 365 for Sales, Sales Insights"
+title: "Who Knows Whom in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "how to get introduced to a lead in Dynamics 365 Sales Insights."
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56
 author: udag
 ms.author: udag
@@ -22,8 +18,6 @@ topic-status: Drafting
 
 # How to get introduced to a lead 
 
-Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
-
 As a sales representative, you will interact with leads whom you have never met or talked to and it can be difficult to turn these interactions into positive outcomes. To help in these situations, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] provides a feature known as **Who Knows Whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help in getting introduced to a lead and increase the chances of a positive outcome during the interaction.
 
 Who knows Whom relationships are calculated from the communication and collaboration patterns of users in your Microsoft Exchange environment. This data helps connect you to others users within your Microsoft Exchange environment that can help facilitate a connection. Contacts or leads that are external to your Microsoft Exchange organization can be queried for and, in some cases, users internal to your Microsoft Exchange organization can also be queried for. For example, this is possible if a user within your Microsoft Exchange organization has added the an internal user’s email address to their Microsoft Exchange address book.
@@ -31,7 +25,7 @@ Who knows Whom relationships are calculated from the communication and collabora
 Who Knows Whom is available in **Contact** and **Lead** forms. When you open a lead or contact and select the **Sales Insights** view, the **Who Knows Whom** tile is displayed.  
 
 > [!NOTE]
-> If you do not see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, contact your administrator to enable this feature.
+> If you do not see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, contact your administrator to enable this feature. To learn more, see [Configure Who knows whom](configure-who-knows-whom.md).
 
 > [!div class="mx-imgBorder"]
 > ![Who Knows Whom widget](media/wkw-widget.png "Who knows whom widget")
@@ -88,11 +82,6 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 6.	Select **Send**.<br>
     The email is sent to Tricia to introduce Yvonne. 
 
-
-## Privacy notice  
-
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities for sellers, see [Privacy notice](privacy-notice-seller.md).
-
 ### See also
 
-[Configure and enable Dynamics 365 Sales Insights](configure-enable-dynamics-365-ai-sales.md)
+[Configure Who knows whom](configure-who-knows-whom.md)

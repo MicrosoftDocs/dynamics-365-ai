@@ -13,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 
 caps.latest.revision: 31
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
 robots: noindex,nofollow
 ---
 # Intelligence 
@@ -78,7 +78,7 @@ The **Intelligence** page shows you workflows that have been created to generate
    > [!div class="mx-imgBorder"] 
    > ![Run action](media/intelligence-action-run.png "Run action")
 
-Your workflow will also automatically run each time you have a scheduled refresh. Learn more about [setting up scheduled refreshes](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-settings#schedule-tab).
+Your workflow will also automatically run each time you have a scheduled refresh. Learn more about [setting up scheduled refreshes](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-settings#schedule-tab).
 
 ## Deleting a workflow
 

@@ -1,13 +1,10 @@
 ---
-title: "Dynamics365 AI for Sales and GDPR (Dynamics 365 Sales Insights) | Microsoft Docs  "
-description: "Protect customer privacy and remain compliant with GDPR regulations when using Dynamics365 AI for Sales"
+title: "Dynamics365 Sales Insights and GDPR (Dynamics 365 Sales Insights) | Microsoft Docs  "
+description: "Protect customer privacy and remain compliant with GDPR regulations when using Dynamics 365 Sales Insights"
 keywords: "GDPR; data protection; privacy;"
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: d12b1dbe-b02e-4f61-92b7-3cf06516fe6e
 author: KumarVivek
 ms.author: kvivek
@@ -16,8 +13,6 @@ topic-status: Drafting
 ---
 
 # Dynamics 365 Sales Insights and GDPR
-
-AApplies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
 The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 
