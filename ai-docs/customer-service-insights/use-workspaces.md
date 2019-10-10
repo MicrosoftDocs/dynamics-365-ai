@@ -78,17 +78,21 @@ On the **Share** tab of the **Share this workspace** dialog box, enter the email
 There are two roles, with different permissions levels, for users of workspaces:  
 
 - **Owner**: Creator of a workspace.</br>
-  Owners manage access to their workspaces.
-- **Viewer**: Read-only role that is introduced when sharing a workspace.<br> 
-  Viewers can access shared workspaces.
+  Owners can manage access to their workspaces by adding and removing users.
+- **Viewer**: Read-only role to see a shared workspace without the ability to edit.<br> 
+  Viewers can access workspaces shared with them, and remove shared workspace from their "My workspaces" list.
 
 ## Deleting a workspace
 
 If you no longer want Customer Service Insights to display a workspace in the list of current workspaces, you can delete it.
 
-To delete a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
+To delete a workspace, if you are the owner of a workspace, select the **Workspaces** icon on the Customer Service Insights title bar to open the **My workspaces** pane. Hover over the workspace you want to delete to display the **Delete** icon, and then select the icon.
 
 ![Delete workspace](media/delete-workspace.png)
 
+If you are a viewer of a shared workspace, you can remove a shared workspace from your view by using the same **Delete** icon as noted above, or use the **Share** icon to use the **Share this workspace** dialog box to remove yourself from the list. Please note this only removes the shared workspace from your view, does not delete the workspace from other users. 
+
+![Delete workspace](media/viewer-delete-workspace.PNG)
+![Delete workspace](media/viewer-delete-workspace2.PNG)
 
 
