@@ -103,9 +103,9 @@ Review the following requirements for audio and JSON files before you upload:
   | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
   | `Region`| (Optional) Specifies from which region the call originated, such as NA (North America). |  
   | `CreatedTimestamp`| (Optional) Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**. |  
-  | `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|  
-  | `country`| (Optional) Specifies from which country the call originated. |  
-
+  | `country`| (Optional) Specifies from which country the call originated. | 
+  <!--| `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|-->
+  
     The following is an example of JSON file format:
     ```
     {
