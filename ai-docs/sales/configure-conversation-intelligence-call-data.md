@@ -75,6 +75,7 @@ Review the following requirements for audio and JSON files before you upload:
 - The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
 - The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be less than 260 characters.
+- The call recording should be a stereo type recording only.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
   |Parameter|Description|
