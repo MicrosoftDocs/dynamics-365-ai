@@ -1,6 +1,6 @@
 ---
-title: "Awareness insights in Dynamics 365 Market Insights | Microsoft Docs"
-description: "Insights related to the awareness insights type."
+title: "Community insights in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Insights related to the community insights type."
 ms.date: 09/16/2019
 ms.service: dynamics-365-ai
 ms.topic: article
@@ -16,32 +16,21 @@ search.app:
   - D365SE
 ---
 
-# Awareness insights
+# Community insight
 
 (This topic is pre-release documentation and is subject to change.)
 
 ## Overview
 
-Staying on top of the market for a product or service is critical to success. There are several aspects of a business universe that the product leader needs to understand to stay on top. Awareness insights helps business professionals understand their customer's interest in elements of their business universe by finding tending search terms and highlighting how awareness and interest evolves over time; based on what people are searching for online.
+Identifying online spaces where own or competitor's business is being discussed can be a difficult and time-consuming process. Nonetheless this knowledge is crucial in order to stay up-to-date or to interact in these discussions.  
 
-## Trending terms
+## Top Communities
 
-**Trending terms** identifies specific search terms that are trending based on what people are searching for related to a given element in the universe.
+**Top Communities** identifies up to five online communities that are most relevant related to an element configured in the universe.  
 
-> [!div class="mx-imgBorder"]
-> ![Insight details showing a newly trending term and related news](media/insight-details-rising-topics.png)
-
-## Search activity
-
-**Search activity** analyzes the volume of searches for a given element. If a significant change in search volume is detected, a new insight will show in the feed.
-
-> [!div class="mx-imgBorder"]
-> ![Insight details showing a chart with a gradual rise in search trend and related news](media/insight-details-search-trends.png)
 
 ## Data and frequency
 
-**Trending terms** and **Search activity** are both based on significant changes in the volume of online web searches for their respective context.
+**Top Communities** will show after finishing the initial setup if at least one community was detected. Generally, the insight is recalculated every week and surfaced in the feed. If there are significant changes (e.g. a new community was detected and is in the top communities for the first time), the insight will show in the feed as well. 
 
-When opening the insight details for any of them, you'll find a chart that visualizes the change in volume. If there's a new trending search term or an significant spike in volume, the chart is displayed on a 1-week scale. If the volume changes gradually over time, the chart is based on a time frame of 4 months.
-
-Additionally, you'll find relevant articles that provide more context for the change shown in the insight.
+**Top Communities** aggregate various data from web (such as number of visitors) around a selected element and calculate a relevance score for every community. 
