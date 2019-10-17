@@ -75,7 +75,7 @@ Before you can configure the features, you must accept the privacy notice to ena
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
  
-3.	On the **Sales Insights settings** page, select **I agree** from the **Privacy and data sharing** section.
+3.	On the **Sales Insights settings** page, select **I agree** from the **Terms of service** section.
 
     > [!div class="mx-imgBorder"]
     > ![Steps to configure Sales Insights free feature](media/si-admin-accept-privacy-notice.png "Select accept privacy notice option")
