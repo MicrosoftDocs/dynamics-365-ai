@@ -41,7 +41,7 @@ Microsoft may replicate customer data to other regions available within the same
 |    United Kingdom             |    UK South (London)                      |
 |                               |    UK West (Cardiff, Durham)              |
 |                               |                                           |
-|    Brazil                     |    Brazil South (São Paulo State)         |
+|    Brazil                     |    Brazil South (São Paulo State)<sup>1</sup>|
 |                               |                                           |
 |    Canada                     |    Canada Central (Toronto)               |
 |                               |    Canada East (Québec City)              |
@@ -55,7 +55,7 @@ Microsoft may replicate customer data to other regions available within the same
 | France | France Central (Paris) |
 | | Framce South (Marseille) |
 
-
+<sup>1 Because there is only one region in Brazil, customer data in Brazil South may be replicated to South Central US (Texas) for disaster recovery purposes. </sup>
 
 ## Customer data at rest in geo
 
@@ -76,4 +76,5 @@ Microsoft will not transfer customer data outside the selected Azure geographic 
   - **Data integration:** Configuration of Dynamics 365 for Customer Service Insights data management features that work with external services (whether provided by Microsoft or a third party) may result in the transfer of core customer data outside of the region configured for the production environment to a geographic location that customers designate. You can find more information [here](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/integration-overview).
   - **Microsoft Power BI, Microsoft PowerApps, and Microsoft Flow:** Customers who connect their Power BI, PowerApps, or Flow deployment to Dynamics 365 for Customer Service Insights may send customer data outside of the designated region to the geographic area where their Power BI, PowerApps, or Flow is deployed. You can find more details [here](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
   - **Microsoft Visual Studio Team Services:** Customers can choose where to store custom code, metadata, and data assets that support their Dynamics 365 for Customer Service Insights implementation. You can find more information about the availability of Visual Studio Team Services [here](https://azure.microsoft.com/regions/services/?v=17.42n).
-  - **Dynamics 365 Customer Engagement geo to geo migration:** Customers can request to change the geo location of their Dynamics 365 Customer Engagement instance by doing a geo to geo migration.  However, this action will not automatically migrate your Dynamics 365 Customer Service Insights (CSI) workspaces created *before* the geo to geo migration.  As a result, such CSI workspaces may be in a different geo location than your other Dynamics 365 Customer Engagement data.  CSI workspaces created *after* the geo to geo migration will be in the same region as the rest of your Dynamics 365 Customer Engagement instance.  You can find more information [here](https://go.microsoft.com/fwlink/?linkid=2105275).
+  - **Dynamics 365 Customer Engagement geo to geo migration:** Customers can request to change the geo location of their Dynamics 365 Customer Engagement environment by doing a geo to geo migration.  However, this action will not automatically migrate your Dynamics 365 Customer Service Insights (CSI) workspaces created *before* the geo to geo migration.  As a result, such CSI workspaces may be in a different geo location than your other Dynamics 365 Customer Engagement data.  CSI workspaces created *after* the geo to geo migration will be in the same region as the rest of your Dynamics 365 Customer Engagement environment.  You can find more information [here](https://go.microsoft.com/fwlink/?linkid=2105275).
+  - **New geo location for Dynamics 365 Customer Service Insights data:** If a new Dynamics 365 Customer Service Insights geo location is introduced in the same geo as your Dynamics 365 Customer Engagement environment, then Microsoft will perform a manual geo to geo migration on your behalf to store your Dynamics 365 Customer Service Insights data in the same geo as your Dynamics 365 Customer Engagement environment.  However, if your workspace has not been logged into for over 30 days, then the migration will not be completed successfully and your Dynamics 365 Customer Service Insights data will not be stored in the same geo as your Dynamics 365 Customer Engagement environment.   
