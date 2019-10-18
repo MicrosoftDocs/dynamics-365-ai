@@ -18,12 +18,12 @@ search.appverid: met150
 
 You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting **Topics** in the navigation pane.
 
+Customer Service Insights automatically detects the language used in your support cases. It comes with natural language understanding models that can understand text sementics and intent from your cases. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for. For more information about the supported languages, see [Language support for case grouping as topics](supported-languages.md#language-support-for-case-grouping-as-topics).
+
 > [!NOTE]
 > The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
 
 Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. The Topics page shows all topics that contain three or more cases.
-
-Customer Service Insights automatically detects the language used in your support cases. It comes with natural language understanding models that can understand text sementics and intent from your cases. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for. For more information about the supported languages, see [Language support for case grouping as topics](supported-languages.md#language-support-for-case-grouping-as-topics).
 
 ![Topics page](media/topics-page.png)
 
@@ -36,6 +36,8 @@ You can then view and manage the topics and associated support cases in a variet
 * [Renaming a topic](#renaming-a-topic)
 * [Controlling the granularity of how support topics are generated](#controlling-the-granularity-of-how-support-topics-are-generated)
 * [Refreshing the data displayed on the Topics page](#refreshing-the-data-displayed-on-the-topics-page)
+
+If your Topics page doesn't show any topic, see [Troubleshooting empty Topics page](#troubleshooting-empty-Topics-page).
 
 ## Searching for a topic
 
@@ -141,3 +143,18 @@ For more information, see [Set the granularity of how Customer Service Insights 
 Customer Service Insights automatically refreshes the data displayed on the Topics page daily. However, you can trigger a refresh on demand without waiting for next daily refresh.
 
 For more information on triggering a refresh of your data, see [Trigger a refresh of your Customer Service Insights dashboard data](trigger-refresh.md).
+
+## Troubleshooting empty Topics page
+
+There are multiple reasons when your Topics page is empty:
+
+* Your workspace has just been created and the data are still being proceeded. If this is the case, wait until the workspace is fully provisioned. You will get an email when the workspace is fully ready for you to use. 
+* No data is loaded in your workspace. When this happens, you also see all the charts in dashboards are blank. You can try the following options:
+  * If your case data are not stored in Case entity, you can [map your data to custom entities and fields](map-data.md). For more information which data entities and fields are used by default, see [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md).
+  * Customer Service Insights only loads data created in the last 60 days. Check the creation date of your case records to make sure the data are created inside of the 60-day window. See [Service limits in Dynamics 365 Customer Service Insights](service-limits.md) for more details. 
+* The Topics page only shows topics that group 3 or more cases. For topics that have fewer than 3 cases, they may still show up in the AI Insights chart in other dashboards, but the Topics page doesn't display them. Try the following options when this happens:
+  * [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md) to discover topics at more general scope.
+  * Bring more case data to your workspaces, so that each topic may include more relevant cases.
+
+  If the problem still exists after you've tried all the above otpions, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
+
