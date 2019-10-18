@@ -148,7 +148,7 @@ For more information on triggering a refresh of your data, see [Trigger a refres
 
 There are multiple reasons when your Topics page is empty:
 
-* Your workspace has just been created and the data are still being proceeded. If this is the case, wait until the workspace is fully provisioned. You will get an email when the workspace is fully ready for you to use. 
+* Your workspace has just been created and the data is still being processed. If this is the case, wait until the workspace is fully provisioned. You will get an email when the workspace is fully ready for you to use. 
 * No data is loaded in your workspace. When this happens, you also see all the charts in dashboards are blank. You can try the following options:
   * If your case data are not stored in Case entity, you can [map your data to custom entities and fields](map-data.md). For more information which data entities and fields are used by default, see [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md).
   * Customer Service Insights only loads data created in the last 60 days. Check the creation date of your case records to make sure the data are created inside of the 60-day window. See [Service limits in Dynamics 365 Customer Service Insights](service-limits.md) for more details. 
