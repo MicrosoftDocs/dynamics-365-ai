@@ -16,12 +16,12 @@ manager: shellyha
     
 Virtual Agent can be deployed into the Microsoft Azure datacenters (also referred to as “regions”) listed in this article. You can create a bot by default in your tenant’s location or you can choose the datacenter you want to use when [setting up your environment](getting-started-new-environment.md).
 
-Microsoft may replicate customer data to other regions available within the same geography for data durability, except as specified in the **Customer data at rest in geo** section. 
+Microsoft may replicate customer data to other regions available within the same geography for data durability. 
 
 No matter where customer data is stored, Microsoft does not control or limit the locations from which customers or their end users may access customer data.
 
 ## Data locations
-**Azure geographic areas (geos)** | **Azure datacenters (regions)**
+Azure geographic areas (geos) | Azure datacenters (regions)
  ---|---
 United States | East US (Blue Ridge, VA), South Central US (Des Moines, IA), West US (Quincy, WA)
 Europe | West Europe (Netherlands), North Europe (Ireland)
