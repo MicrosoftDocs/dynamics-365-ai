@@ -37,7 +37,7 @@ You can then view and manage the topics and associated support cases in a variet
 * [Controlling the granularity of how support topics are generated](#controlling-the-granularity-of-how-support-topics-are-generated)
 * [Refreshing the data displayed on the Topics page](#refreshing-the-data-displayed-on-the-topics-page)
 
-If your Topics page doesn't show any topic, see [Troubleshooting empty Topics page](#troubleshooting-empty-Topics-page).
+If your Topics page doesn't show any topic, see [Troubleshooting empty Topics page](#troubleshooting-empty-topics-page).
 
 ## Searching for a topic
 
