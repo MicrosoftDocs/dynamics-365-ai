@@ -148,13 +148,13 @@ For more information on triggering a refresh of your data, see [Trigger a refres
 
 There are multiple reasons when your Topics page is empty:
 
-* Your workspace has just been created and the data is still being processed. If this is the case, wait until the workspace is fully provisioned. You will get an email when the workspace is fully ready for you to use. 
-* No data is loaded in your workspace. When this happens, you also see all the charts in dashboards are blank. You can try the following options:
-  * If your case data are not stored in Case entity, you can [map your data to custom entities and fields](map-data.md). For more information which data entities and fields are used by default, see [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md).
-  * Customer Service Insights only loads data created in the last 60 days. Check the creation date of your case records to make sure the data are created inside of the 60-day window. See [Service limits in Dynamics 365 Customer Service Insights](service-limits.md) for more details. 
+* Your workspace has just been created and the data is still being processed. If this is the case, wait until the workspace is fully provisioned. You will receive an email when the workspace is fully ready for you to use. 
+* No data is loaded in your workspace. When this happens, you will also see that the charts on the dashboards are blank. You can try the following options:
+  * If your case data are not stored in Case entity, you can [map your data to custom entities and fields](map-data.md). For more information on which data entities and fields are used by default, see [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md).
+  * Customer Service Insights only loads data created in the last 60 days. Check the creation date of your case records to make sure the data is created inside of the 60-day window. See [Service limits in Dynamics 365 Customer Service Insights](service-limits.md) for more details. 
 * The Topics page only shows topics that group 3 or more cases. For topics that have fewer than 3 cases, they may still show up in the AI Insights chart in other dashboards, but the Topics page doesn't display them. Try the following options when this happens:
-  * [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md) to discover topics at more general scope.
+  * [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md) to discover topics at a more general scope.
   * Bring more case data to your workspaces, so that each topic may include more relevant cases.
 
-  If the problem still exists after you've tried all the above otpions, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
+  If the problem still exists after you've tried these options, refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
 
