@@ -36,7 +36,7 @@ For example, when you rename a topic on the Topics page, Customer Service Insigh
 
 
 >[!NOTE]
->If a refresh does not cause your data to be updated, your sign-in token may have expired. Sign out of the app and then sign back in to refresh the token and update the data.
+>If the scheduled daily refresh didn't get the latest data, it's likely due to your sign-in token being expired. This issue will resolve itself as soon as you log back into CSI, and you can use manual refresh to get the latest data .
 
 For more information on data mapping settings, see [Map your data to custom entities and fields](map-data.md).
 
