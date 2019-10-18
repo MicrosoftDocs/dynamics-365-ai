@@ -31,7 +31,7 @@ ms.date: 10/31/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="Customer Insights icon" src="/dynamics365/images/CustomerInsights_36px_blue.svg">
+                                                    <img alt="Customer Insights icon" src="/dynamics365/images/CustomerInsights_color.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -50,7 +50,7 @@ ms.date: 10/31/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="Customer Service Insights icon" src="/dynamics365/images/CustomerServiceInsights_outline_36px_blue.svg">
+                                                    <img alt="Customer Service Insights icon" src="/dynamics365/images/CustomerServiceInsights_color.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -69,7 +69,7 @@ ms.date: 10/31/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="Market Insights icon" src="/dynamics365/images/MarketInsights_outline_36px_blue.svg">
+                                                    <img alt="Market Insights icon" src="/dynamics365/images/Market_Insights_color.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -88,7 +88,7 @@ ms.date: 10/31/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img alt="Sales icon" src="/dynamics365/images/Sales_outline_36px_blue.svg">
+                                                    <img alt="Sales icon" src="/dynamics365/images/SalesInsights_color.svg">
                                                 </div>
                                             </div>
                                             <div class="cardText">
