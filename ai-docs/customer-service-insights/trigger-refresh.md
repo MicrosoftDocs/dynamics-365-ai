@@ -19,6 +19,9 @@ search.appverid: met150
 
 Customer Service Insights automatically refreshes the data displayed on dashboards daily. However, you may want dashboards to display data that is more current than the data from the last automatic refresh.
 
+>[!IMPORTANT]
+>There is a limit of 10 on-demand refreshes per day per workspace.
+
 If you want to update the dashboards to use current data, you can trigger a refresh on demand without waiting for next daily refresh. Customer Service Insights gives you the option of refreshing your workspace when you make any of following changes:
 
 * Update data mapping settings
@@ -31,7 +34,9 @@ For example, when you rename a topic on the Topics page, Customer Service Insigh
 
    ![Refresh workspace](media/refresh-workspace.png)
 
-**Note:**  There is a limit of 10 on-demand refreshes per day per workspace.
+
+>[!NOTE]
+>If a refresh does not cause your data to be updated, your sign-in token may have expired. Sign out of the app and then sign back in to refresh the token and update the data.
 
 For more information on data mapping settings, see [Map your data to custom entities and fields](map-data.md).
 
