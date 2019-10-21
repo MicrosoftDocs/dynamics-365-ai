@@ -1,6 +1,6 @@
 ---
 title: "Data locations for Dynamics 365 Customer Service Insights"
-description: "Learn about the regions where data for Customer Service Insights is stored."
+description: "Learn where data for Customer Service Insights is stored."
 keywords: "data location"
 ms.date: 10/21/2019
 ms.service:
