@@ -36,10 +36,6 @@ To scan a business card, follow these steps:
 
 2.	On the home page, select **Add menu** (**+**). The options to scan slide from the bottom.
 
-
-<!--from editor: Please confirm that Colin Ballinger, shown in the following image, is from a Microsoft approved fictitious names list. Also, that the NC address is approved for public use. -->
-
-
     > [!div class="mx-imgBorder"]
     > ![Scan options](media/si-teams-app-scan-options.png "Scan options")
 
@@ -50,8 +46,6 @@ To scan a business card, follow these steps:
 
 
 <!--from editor: It would be nice if we had a more authentic-looking business card to use in the above image. Also, are Henry Brill and Northwind Papers approved fictitious names? -->
-
-
 
 4.	Face the camera toward the business card and ensure that the card remains within the scan area (rectangular area). Snap a photo of the card. 
 
@@ -118,10 +112,6 @@ You can open the note scanner in two ways:
 1.	Open the Dynamics 365 assistant app on Teams on mobile.
 
 2.	If the meeting is completed, select **Add a note**. 
-
-
-<!--from editor: I'm switching the images so they are with the correct info. -->
-
 
     > [!div class="mx-imgBorder"]
     > ![Scan meeting notes after meeting ends](media/si-teams-app-scan-note-after-meeting-ends.png "Scan meeting notes after meeting ends")
