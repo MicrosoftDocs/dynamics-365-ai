@@ -1,7 +1,7 @@
 ---
-title: "Community insights in Dynamics 365 Market Insights | Microsoft Docs"
-description: "Insights related to the community insights type."
-ms.date: 09/16/2019
+title: "Community insight in Dynamics 365 Market Insights | Microsoft Docs"
+description: "Insights related to the community insight type."
+ms.date: 10/21/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -22,15 +22,14 @@ search.app:
 
 ## Overview
 
-Identifying online spaces where own or competitor's business is being discussed can be a difficult and time-consuming process. Nonetheless this knowledge is crucial in order to stay up-to-date or to interact in these discussions.  
+Identifying online areas where the own or a competitor's business is discussed can be a difficult and time-consuming process. However, this knowledge is critical to stay up-to-date or to engage in these discussions.  
 
 ## Top Communities
 
-**Top Communities** identifies up to five online communities that are most relevant related to an element configured in the universe.  
-
+**Top Communities** identifies up to five online communities that are the most relevant related to an element configured in the universe.  
 
 ## Data and frequency
 
-**Top Communities** will show after finishing the initial setup if at least one community was detected. Generally, the insight is recalculated every week and surfaced in the feed. If there are significant changes (e.g. a new community was detected and is in the top communities for the first time), the insight will show in the feed as well. 
+**Top Communities** will show after finishing the initial setup if at least one community was detected. Generally, the insight is recalculated every week and shown in the Insights feed. If there are significant changes (for example, a new community was detected and is in the top communities for the first time), the insight will show in the feed as well. 
 
-**Top Communities** aggregate various data from web (such as number of visitors) around a selected element and calculate a relevance score for every community. 
+**Top Communities** aggregates various data from the web (such as number of visitors) around a selected element and calculates a relevance score for every community. 
