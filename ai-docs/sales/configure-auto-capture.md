@@ -34,7 +34,7 @@ Verify the following prerequisites before enabling Auto capture for your organiz
 
 - You must use [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
 
-- Users must use the web client for Dynamics 365 Sales (other front ends aren't supported)].  
+- Users must use the web client for Dynamics 365 Sales (other front ends aren't supported).  
 
 - For each user that requires access to this feature, you must approve their email address to allow queries against [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email) 
 
