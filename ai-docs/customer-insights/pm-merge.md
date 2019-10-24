@@ -1,18 +1,13 @@
 ---
 title: "Merge | MicrosoftDocs"
 description: 
-ms.custom: ""
 ms.date: 06/17/2019
-ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -26,9 +21,6 @@ Once you've completed the match phase, you can start the merge phase by selectin
 ## Step 1: Review system recommendations
 
 After you select the **Merge** tile, you see the **Merge** page.
-
-> [!div class="mx-imgBorder"] 
-> ![Merge page](media/configure-data-merge-profile-attributes-full-name.png "Merge page")
 
 On this page, you can choose and exclude attributes:
 
@@ -45,54 +37,19 @@ On this page, you can choose and exclude attributes:
    > [!div class="mx-imgBorder"] 
    > ![Select merged attribute](media/configure-data-merge-profile-attributes.png "Select merged attribute")
 
-- If you wish to unmerge any of the auto-merged attributes, use the button shown in the following example:
-
-   > [!div class="mx-imgBorder"] 
-   > ![Unmerge attributes](media/configure-data-merge-profile-attributes-add-merged.png "Unmerge attributes")
-   
+- If you wish to unmerge any of the auto-merged attributes, select the ellipses icon.
+  
 -  In the drop-down menu, select **Separate fields**.
-   
-   
-   <!-- I don't see "Separate fields" in the drop-down menu shown in this screenshot. -->
-   
-   > [!div class="mx-imgBorder"] 
-   > ![Separate fields](media/configure-data-merge-profile-attributes2.png "Separate fields")
 
-- Remove attributes from the customer profile entity. If you think that some attributes should be excluded from the final customer profile entity, select the  **Remove** option from the same drop-down menu.
-
-
-<!-- I don't see a Remove option in the drop-down menu shown in the screenshot. -->
-
-   > [!div class="mx-imgBorder"] 
-   > ![Exclude attributes](media/configure-data-merge-dont-merge.png "Exclude attributes")
+- Remove attributes from the customer profile entity. If you think that some attributes should be excluded from the final customer profile entity, select the  **Don't merge** option from the same drop-down menu.
 
    Attributes will move to the **Removed from customer record** section.
-   
-   
-   <!-- I don't see a section with that name in the screenshot. -->
-
-   > [!div class="mx-imgBorder"] 
-   > ![Remoted attributes](media/configure-data-merge-exclude-from-profile.png "Removed attributes")
 
 ## Step 2: Manually add a merged attribute
 
-Add a merged attribute with **Combine fields**, as shown in this example.
-
-
-<!-- I don't see a Combine fields option in the screenshot. -->
-
-
-> [!div class="mx-imgBorder"] 
-> ![Add merged attributes](media/merge-add-merge-attribute.png "Add merged attributes")
+To add a merged attribute, select **Combine fields**.
 
 We will perform the manual merge process within the **Combine fields** pane.
-
-
-<!-- Should it be "Merged field" as shown in the screenshot? -->
-
-
-> [!div class="mx-imgBorder"] 
-> ![Merge attribute name](media/configure-data-merge-attribute-name2.png "Merge attribute name")
 
 This pane consists of four parts:
 
@@ -102,14 +59,7 @@ This pane consists of four parts:
 
 **Select duplicate attributes**: Within this menu, select the attributes that you want to merge from the matched entities. You can also use Search to locate the attributes. 
 
-
-<!-- Regarding the above, the screenshot shows "Select duplicate fields." -->
-
-
-**Rank by importance:** Prioritize one attribute above the others—the values for your merged attribute will come only from that source. In the example below, since we think that the *WebAccountCSV* entity includes the most accurate data about the *Full Names* attribute, we will prioritize this entity over *ContactCSV* by selecting the arrow next to *WebAccountCSV*. As a result, *WebAccountCSV* moves to first priority, while *ContactCSV* moves to second priority when pulling values for the *Full Name* attribute:
-
-> [!div class="mx-imgBorder"] 
-> ![Merged attributes](media/configure-data-merge-attributes2.png "Merged attributes")
+**Rank by importance:** Prioritize one attribute above the others—the values for your merged attribute will come only from that source. In the example below, since we think that the *WebAccountCSV* entity includes the most accurate data about the *Full Names* attribute, we will prioritize this entity over *ContactCSV* by selecting the arrow next to *WebAccountCSV*. As a result, *WebAccountCSV* moves to first priority, while *ContactCSV* moves to second priority when pulling values for the *Full Name* attribute.
 
 ## Step 3: Run your merge
 
@@ -120,10 +70,7 @@ Whether you manually merge attributes or let the system merge for you, at this p
 
 Note that if **Run** is disabled at this point, you should try two things:
 
-- First, refresh your page and see if the button becomes active.
-
-  > [!div class="mx-imgBorder"] 
-  > ![Data merge](media/configure-data-merge-image18.png "Data merge")
+- First, refresh the page in your browser and see if the button becomes active.
 
 - Second, go back to the **Match** page and reselect **Run**. Then, return to the **Merge** page and see if that resolved the problem.
 
@@ -132,10 +79,6 @@ Once the **Merge is running** message disappears, merge has completed and resolv
 > [!div class="mx-imgBorder"] 
 > ![Data merge in progress](media/configure-data-merge-image17.png "Data merge in progress")
 
-> [!div class="mx-imgBorder"] 
-> ![Save and Run](media/configure-data-merge-save-run.png "Save and Run")
-
-
 ### Next Step
 
 Congratulations! You have completed both the data ingestion and data unification phases. Now you are ready to do one of the following:
@@ -143,4 +86,3 @@ Congratulations! You have completed both the data ingestion and data unification
 - Complete more data configurations (**Activities**, **Relationships**, or **Enrichment**). Although they are  optional, they can help you unlock richer insights into your customers. 
 
 - Continue to insight exploration via the **Segments**, **Customer Card**, and **Connectors** sections. Note that **Segments** will equip you with aggregate-level insights on your customer base, while **Customer Card** and **Connectors** will enable you to unlock insights on each of your customers.
- 
