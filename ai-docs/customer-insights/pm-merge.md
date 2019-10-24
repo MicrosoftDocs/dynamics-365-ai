@@ -1,7 +1,7 @@
 ---
 title: "Merge | MicrosoftDocs"
 description: 
-ms.date: 06/17/2019
+ms.date: 10/24/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
