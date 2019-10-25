@@ -44,9 +44,6 @@ To scan a business card, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Camera opens to snap business card](media/si-teams-app-scan-card-camera.png  "Camera opens to snap business card")
 
-
-<!--from editor: It would be nice if we had a more authentic-looking business card to use in the above image. Also, are Henry Brill and Northwind Papers approved fictitious names? -->
-
 4.	Face the camera toward the business card and ensure that the card remains within the scan area (rectangular area). Snap a photo of the card. 
 
     The details of the card such as name, role, business email, business phone, and account are captured on the creation form. 
