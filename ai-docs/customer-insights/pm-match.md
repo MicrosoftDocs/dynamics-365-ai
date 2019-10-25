@@ -1,18 +1,13 @@
 ---
 title: "Match | MicrosoftDocs"
 description: 
-ms.custom: ""
-ms.date: 09/04/2019
-ms.reviewer: ""
+ms.date: 10/24/2019
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -116,31 +111,19 @@ For the purpose of this section we will limit our match rule to only one conditi
 
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules using **Add rules**. 
 
-Note that when creating rules, order matters. The matching algorithm tries to match on the basis of your first rule (represented by the first row in the table in the following example) and continues to the second rule (represented by the second row) only if no matches were identified under the first rule.
-
-> [!div class="mx-imgBorder"] 
-> ![New rule priority](media/configure-data-match-new-rule-priority.png "New rule priority")
+Note that when creating rules, order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
 
 For the purpose of this section, we will stay with only one rule.
 
 ## Step 3: Run your specified match order
 
-Now you are ready to run the match order that you have defined in Steps 1 and 2. This can be done by selecting **Save** and then **Run** as shown in the following example. Next to these buttons is a **Discard changes** button that lets you delete the definitions of your match.
+Now you are ready to run the match order that you have defined in Steps 1 and 2. This can be done by selecting **Save** and then **Run** in the user interface. Next to these buttons is a **Discard changes** button that lets you delete the definitions of your match.
 
-> [!div class="mx-imgBorder"] 
-> ![Discard or save and run](media/configure-data-match-commands.png "Discard or save and run")
-
-It's possible that the matching algorithm will take some time to complete. While running, you can expect to see the following status diagram.
-
-> [!div class="mx-imgBorder"] 
-> ![Data match is running](media/configure-data-match-running.png "Data match is running")
+It's possible that the matching algorithm will take some time to complete.
 
 While it's not possible to use any of the **Match** page functionalities until the match process completes, you can visit other product modules through the left navigation pane. For example, you can use this time to define relationships through the **Relationships** page or activities via the **Activities** page. 
 
 Above the status diagram, a **Matching records** notification displays for as long as the match algorithm runs. When the match process is complete, the **Match** page becomes available again, and the **Matching records** message disappears. 
-
-> [!div class="mx-imgBorder"] 
-> ![Data match run is complete](media/configure-data-match-run-complete.png "Data match run is complete")
 
 As mentioned in Step 1, the first match results in the creation of a unified master entity. All subsequent matches result in the expansion of that entity. Upon completion of the match process, see a preview of the unified customer entity by selecting **View last run**.
 
@@ -175,10 +158,7 @@ Second, you can assess the results of each match pair as shown in #2 in the prec
 > [!div class="mx-imgBorder"] 
 > ![View at the rule level](media/configure-data-match-view-rule-level.png "View at the rule level")
 
-Third, you can view the percentage of successfully matched records at the rule level (shown in #1 in the preceding example). By selecting the button that is shown in #2, you can view all these records (again, on the rule level). The following window exemplifies the preview you can expect to see.
-
-> [!div class="mx-imgBorder"] 
-> ![Match preview](media/configure-data-match-preview.png "Match preview")
+Third, you can view the percentage of successfully matched records at the rule level (shown in #1 in the preceding example). By selecting the button that is shown in #2, you can view all these records (again, on the rule level). 
 
 We recommend that you review at least a part of it in order to validate that records were matched according to your expectations.
 

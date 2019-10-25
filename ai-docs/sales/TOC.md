@@ -30,7 +30,7 @@
 #### [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
 
-### [Install Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+### [Configure Dynamics 365 application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 #### [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
 
 ### Configure Sales Insights application
@@ -72,6 +72,7 @@
 #### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
 #### [Learn the basics](learn-basics-dynamics-365-application-teams.md)
 #### [Working with meetings](working-with-meetings-teams.md)
+#### [Scan business cards and meeting notes](scan-business-cards-notes.md)
 #### [Change sales organization](change-sales-organization.md)
 #### [Get answers through bot assistant](use-bot-assistant.md)
 
