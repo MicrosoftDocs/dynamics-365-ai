@@ -1,18 +1,13 @@
 ---
 title: "Data sources | MicrosoftDocs"
 description: 
-ms.custom: ""
-ms.date: 04/01/2019
-ms.reviewer: ""
+ms.date: 10/23/2019
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -21,12 +16,12 @@ manager: shellyha
 
 Dynamics 365 Customer Insights lets you bring together data from many sources:
 
-- Transactional sources 
+- Transactional sources
 - Observational sources
 - Behavioral sources
 - Other sources
 
-You can bring in data to Dynamics 365 Customer Insights by using the 20-plus out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector. 
+You can bring in data to Dynamics 365 Customer Insights by using the 20-plus out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
 
 To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of them.
 
@@ -46,18 +41,12 @@ Follow these steps to load data into Customer Insights:
    > [!div class="mx-imgBorder"] 
    > ![Get data add](media/data-manager-get-data-add.png "Get data add")
 
-3. Provide a name for the data source, and select **Save**. This creates the data source. 
-
-   > [!div class="mx-imgBorder"] 
-   > ![Get data create](media/data-manager-get-data-create.png "Get data create")
+3. Provide a **Name** for the data source, and select **Save**. This creates the data source. 
 
 4. Choose one of the many connectors that are available.
   
    > [!NOTE]
    > Some of the data sources (such as OData) shown in the following image are not yet supported. 
-
-   > [!div class="mx-imgBorder"] 
-   > ![Get data select source](media/data-manager-get-select-source.png "Get data select source")
 
    - To load data from model-driven apps in Dynamics 365, choose the  **Common Data Service** connector.
 
@@ -102,9 +91,6 @@ In this step, you add entities to your data source. In Customer Insights, entiti
 
 4. Select **Create** at the bottom of the Power Query window to save.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Create](media/configure-data-edit-queries-create.png "Create")
-
 5. After saving, you can expect to see your data source added to the **Data sources** page.
 
    > [!div class="mx-imgBorder"] 
@@ -116,12 +102,9 @@ In this step, you add entities to your data source. In Customer Insights, entiti
    - No data was ingested yet (see #2 in the preceding image).
    - Data is still loading into Customer Insights (represented by a warning sign icon; see #3 in the preceding image).
 
-   At this point, you should refresh the data source that you just saved. Select the button shown in the following image, and then select **Refresh**.
+6. At this point, you should refresh the data source that you just saved. Select the ellipses under **Actions** and then select **Refresh**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Data sources refresh](media/configure-data-sources-refresh.png "Data sources refresh")
-
-   Repeat the same steps for each data source you want to ingest into Customer Insights.
+  Repeat the same steps for each data source you want to ingest into Customer Insights.
 
 ### Step 3 (optional): Review ingested data
 
