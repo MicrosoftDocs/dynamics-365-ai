@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Install Dynamics 365 assistant application on Microsoft Teams
+# Configure Dynamics 365 assistant application on Microsoft Teams
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
