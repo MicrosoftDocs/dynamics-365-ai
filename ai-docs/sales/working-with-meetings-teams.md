@@ -33,12 +33,10 @@ The meetings provide basic information such as subject, time and location, parti
 > [!div class="mx-imgBorder"]
 > ![Meeting preparation page](media/si-teams-app-meeting-preparations.png "Meeting preparation page") 
 
-
 To view more details, select and open the meeting. The **Meeting preparation** page opens with detailed information. 
 
 > [!div class="mx-imgBorder"]
 > ![Meeting page with more details](media/si-teams-app-meeting-preparations-more-details.png "Meeting page with more details")  
-
 
 The meeting preparation page is typically divided into the following sections:
 

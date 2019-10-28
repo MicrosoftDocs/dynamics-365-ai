@@ -1,23 +1,19 @@
 ---
 title: "Segmentation| MicrosoftDocs"
 description: 
-ms.custom: ""
-ms.date: 04/01/2019
-ms.reviewer: ""
+ms.date: 10/24/2019
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
-# Segments 
+
+# Segments
 
 The segmentation capability of Customer Insights enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
 
@@ -38,13 +34,6 @@ Later, we will learn how to produce such segments.
 - Group 1 uses **Order** as the starting entity in order to find customers who have placed an order for more than $500 in the last 90 days.
 - Group 2 uses **Case** as the starting entity in order to find customers who have had an escalated case in the last 30 days.
 
-<!--
-> [!div class="mx-imgBorder"] 
-> ![](media/segmentation-conceptual.png "System and custom relationships created during configuration")
-
-The preceding example graph reflects system and custom relationships created during configuration. The data graph helps dictate the sequence by which segmentation filter criteria are defined within the **Segment Editor** page.
--->
-
 The following two sections cover segment creation followed by segment exploration.
 
 ## Creating your first segment
@@ -55,9 +44,6 @@ To create a segment, you can either select **Add Segment** at the upper-right co
 > ![Add segment](media/add-segment-full.png "Add segment")
 
 ### Step 1: Define the segment's properties using the **New Segment** panel
-
-> [!div class="mx-imgBorder"] 
-> ![Define segment](media/first-segment-step-one.png "Define segment")
 
 - Choose between a **Dynamic** and a **Static** segment.
 - Give your segment an informative name, a display name, and a description that will help us identify it in the future, when we have multiple segments. There are no limitations on display name but there are some limitations on name (a space is not allowed, for example).
@@ -70,9 +56,6 @@ In Customer Insights, a group is a set of customers.
 **Define a group**
 
 1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an Order Value field by which we want to segment. In order to choose your entity of interest, select the field shown here.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Choose entity](media/segments-group1-define-filter.png "Choose entity")
 
 2. Choose the attribute by which you want to segment. Our attribute can have one of four value types: numerical, string, date, or Boolean. In the following example, an attribute with a numerical value is used as a filter.
 
@@ -92,43 +75,23 @@ In Customer Insights, a group is a set of customers.
 
 4. Add entities that are related to that entity until getting to the Customer Profile entity. Note that for the completion of this step, you might need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). Next we will present an example that illustrates this requirement. 
 
-5. Save your segment. Your segment will be saved and if valid, processed. If some requirements were not met, it will be saved as a **draft**. Later we will describe in further detail the draft mode. Select **Back to segments** to go back to the **Segments** page and view the segment you just created:
-
-   > [!div class="mx-imgBorder"] 
-   > ![Save your segment](media/save-segment.png "Save your segment")
+5. **Save** your segment. Your segment will be saved and if valid, processed. If some requirements were not met, it will be saved as a **draft**. Later we will describe in further detail the draft mode. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
 
 #### Example – group creation
+
 Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
 
 1. Select the **Select an entity** field.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select entity field](media/segments-group1-define-filter.png "Select entity field")
    
 2. Choose your entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which you want to segment (**SessionID**).
 
-   > [!div class="mx-imgBorder"] 
-   > ![Choose entity](media/segments-group1-define-filter-settings.png "Choose entity")
-
 3. Select an operator and a value as described earlier.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Choose Operator and Value](media/segments-group1-define-filter-settings2.png "Choose Operator and Value")
 
 4. Select the **ADD** operator.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select ADD](media/segments-group1-define-filter-settings3.png "Select ADD")
-
 5. We need to create a path to the Customer Profile entity, but currently our entity (**ClickstreamData: WebsiteDatabase**) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is **OnlineAccount: WebsiteDatabase** (shown in the following example), and so we will choose it.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select OnlineAccount: WebsiteDatabase](media/segments-group1-define-filter-settings4.png "Select OnlineAccount: WebsiteDatabase")
-
-6. Select **All Records** as an operator. No value is needed under this operator:
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select All Records](media/segments-group1-define-filter-settings5.png "Select All Records")
+6. Select **All Records** as an operator. No value is needed under this operator.
 
 7. Select the **ADD** operator again. This time, our entity does have a relationship to the Customer Profile entity (which we will select), as shown here.
 
@@ -140,27 +103,20 @@ Let's explore a case in which we want to segment our customers by a specific cli
    > [!div class="mx-imgBorder"] 
    > ![Select All Records](media/segments-example-entities2.png "Select All Records")
 
-At this point, we have completed the mandatory path definition. We recommend that you save your first group's definitions, as shown here.
+At this point, we have completed the mandatory path definition. We recommend that you save your first group's definitions.
 
 > [!div class="mx-imgBorder"] 
 > ![Save group definition](media/segmentation-save-group-definition.png "Save group definition")
 
 #### Draft mode
 
-As you can see, there are certain requirements that should be met in order for a segment to be processed. However, at any point of time you can save your segment as a **draft**. Upon saving, if your segment definition is missing one or more mandatory selections:
+As you can see, there are certain requirements that should be met in order for a segment to be processed. However, at any point of time you can save your segment as a **draft**. Upon saving, if your segment definition is missing one or more mandatory selections.
 
-- For a Dynamic segment, it will be saved as a draft on the **Segments** page:
-
-> [!div class="mx-imgBorder"] 
-> ![Segment saved as draft](media/segment-saved-as-draft.png "Segment saved as draft")
+- For a Dynamic segment, it will be saved as a draft on the **Segments** page.
 
 - For a Static segment, it will be saved as an inactive segment on the **Segments** page.
 
-Note that you will not be able to run or activate the segment (for a Static or Dynamic segment respectively) until it's a valid segment. You will see the following message if you try to run or activate it without meeting all the requirements:
-
-> [!div class="mx-imgBorder"] 
-> ![Segment saved as inactive](media/segment-saved-as-inactive.png "Segment saved as inactive")
-
+Note that you will not be able to run or activate the segment (for a Static or Dynamic segment respectively) until it's a valid segment. You will see the following message if you try to run or activate it without meeting all the requirements.
 
 ### Step 3 (optional): Add more conditions to your group 
 
@@ -241,5 +197,3 @@ The lower part includes a table with all your segment's members.
 ## Next step
 Visit the **Export destinations** section to learn how to export your segment to a Dynamics 365 location. 
 You can also explore the **Customer Card** and **Connectors** sections to get insights on the customer level.
-    
-

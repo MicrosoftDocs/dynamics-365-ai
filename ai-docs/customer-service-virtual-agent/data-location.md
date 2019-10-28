@@ -10,7 +10,9 @@ ms.author: iawilt
 manager: shellyha
 ---
 
+
 # Data location of an organization using Dynamics 365 Virtual Agent for Customer Service
+
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
     
