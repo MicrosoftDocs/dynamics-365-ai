@@ -63,3 +63,5 @@
 ## [Requests to delete data](gdpr-delete.md)
 
 ## [Requests to discover data](gdpr-discovery.md)
+
+## [Where an organization's Virtual Agent data is located](data-location.md)
