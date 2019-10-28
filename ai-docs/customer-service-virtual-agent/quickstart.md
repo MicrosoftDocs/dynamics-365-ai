@@ -23,7 +23,7 @@ This quickstart guide takes you through the end-to-end experience of creating a 
 
 ## Create your first bot
 
-1.	Go to [https://aka.ms/virtual-agent](https://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Microsoft Edge, Chrome, and Firefox. On the website, select **Try preview**, and then sign in with your work email address. Note that personal Microsoft accounts aren't supported currently.
+1.	Go to [aka.ms/virtual-agent](https://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Microsoft Edge, Chrome, and Firefox. On the website, select **Try preview**, and then sign in with your work email address. Note that personal Microsoft accounts aren't supported currently.
 
     ![Sign up page](media/sign-up-screen.png)
 
