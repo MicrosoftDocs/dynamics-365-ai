@@ -18,7 +18,7 @@ manager: shellyha
 
 ### Customers from outside supported data locations signing up for Virtual Agent
 
-Preview is currently only supported in the locations listed in the [supported data locations](data-location.md) topic, with data stored in respective data centers. If your company is located outside of the supported data locations, you need to create a custom environment with the region set to a supported data location before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+Preview is currently only supported in the locations listed in the [supported data locations](data-location.md) topic, with data stored in respective datacenters. If your company is located outside of the supported data locations, you need to create a custom environment with the region set to a supported data location before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
 ### Issues with Microsoft Flow solutions tab
 
