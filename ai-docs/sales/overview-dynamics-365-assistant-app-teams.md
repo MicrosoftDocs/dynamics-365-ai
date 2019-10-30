@@ -57,21 +57,19 @@ To enable and configure the Dynamics 365 assistant application, follow these ste
 
 ### Prerequisites
 
-Verify the following requirements before setting up and using the sales assistant application for your organization:
+Perform the following prerequisites before setting up and using the sales assistant application for your organization:
 
-**As an administrator**
+- Contact your administrator to enable the following:
 
-   - Enable the preview feature and set **Microsoft Teams Integration Preview** option as **Yes** through the Common Data Service platform. To learn more, see [What are Preview features, and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
+   - From the Common Data Service platform, enable preview feature and configure **Microsoft Teams Integration Preview** option as **Yes**. To learn more, see [What are Preview features, and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
 
-   - Enable Talking points, Who knows whom, and Insight cards in your organization to leverage the services to get full utilization of assistant app. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
+   - For your organization, enable Talking points, Who knows whom, and insight cards to leverage the services to get full utilization of assistant app. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
 
-**As a sales manager or seller**
+- Install the Dynamics 365 app on Microsoft Teams.
 
-   - Install the Dynamics 365 app on Microsoft Teams.
+- Obtain a Dynamics 365 Sales license.
 
-   - Obtain a Dynamics 365 Sales license.
-
-   - Have an active Dynamics 365 Sales organization.
+- Have an active Dynamics 365 Sales organization.
 
 ### Install Dynamics 365 assistant application and bot
 
