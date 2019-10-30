@@ -18,6 +18,13 @@ topic-status: Drafting
 
 # Scan business cards and meeting notes
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 The Dynamics 365 assistant app provides an integrated scan option that allows you to quickly create or add notes, contacts, and tasks. For example, when you complete a meeting with a potential customer, you can use the scan option to scan the business card and create a contact. You also can scan handwritten notes to generate tasks and notes in Dynamics 365 Sales.
 
 The app provides the following options:
