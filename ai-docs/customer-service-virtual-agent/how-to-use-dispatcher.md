@@ -62,7 +62,7 @@ You'll need to retrieve your Virtual Agent bot's content (topics and utterances)
 
 ### Retrieve topics and utterances from your bot
 
-  1.	Export `BotContent` and `Annotations` from Common Data Service. [Review how to export data from Virtual Agent](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
+  1.	Export `BotContent` and `Note` entities from Common Data Service. [Review how to export data from Virtual Agent](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/gdpr-export).
   
   2.  Download the zip file and unzip it to find two CSV files: `annotations.csv` and `msdynce_botcontents.csv`
   
