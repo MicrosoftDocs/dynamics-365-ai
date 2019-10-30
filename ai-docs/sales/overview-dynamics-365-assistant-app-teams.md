@@ -73,9 +73,9 @@ Perform the following prerequisites before setting up and using the sales assist
 
 ### Install Dynamics 365 assistant application and bot
 
-After you have reviewed the prerequisites, install and configure the Dynamics 365 assistant application and bot for Teams.
+After you have reviewed the prerequisites, configure the Dynamics 365 assistant application and bot for Teams.
 
-- To install the Dynamics 365 assistant application on Microsoft Teams, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
+- To configure the Dynamics 365 assistant application on Microsoft Teams, see [Configure Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
 
 - To configure the Dynamics 365 assistant bot, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
 

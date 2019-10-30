@@ -51,7 +51,7 @@ To configure the bot, follow these steps:
 
 ### See also
 
-[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
+[Configure Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
 [Access Dynamics 365 assistant application](access-assistant-application-teams.md)
 
