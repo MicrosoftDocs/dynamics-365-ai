@@ -17,7 +17,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Overview of Dynamics 365 assistant application for Teams
+# Dynamics 365 assistant application for Teams
 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
