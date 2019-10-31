@@ -23,14 +23,14 @@ This quickstart guide takes you through the end-to-end experience of creating a 
 
 ## Create your first bot
 
-1.	Go to [http://aka.ms/virtual-agent](http://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Microsoft Edge, Chrome, and Firefox. On the website, select **Try preview**, and then sign in with your work email address. Note that personal Microsoft accounts aren't supported currently.
+1.	Go to [aka.ms/virtual-agent](https://aka.ms/virtual-agent) in your browser to begin. Supported browsers include Microsoft Edge, Chrome, and Firefox. On the website, select **Try preview**, and then sign in with your work email address. Note that personal Microsoft accounts aren't supported currently.
 
     ![Sign up page](media/sign-up-screen.png)
 
 2. Next, you’ll choose a name for your bot. This can be something generic to your company or specific to the scenario you are tailoring your bot to.
 Your bot is created in the default PowerApps environment that was created for you when you signed up. For most users, this is sufficient. However, if you want to specify a custom PowerApps environment for your virtual agent, you can do so by expanding the **More options** menu and selecting a different environment.
    > [!NOTE] 
-   > Preview is currently supported only in the United States, with data stored in US data centers. If your company is located outside of the United States, you need to create a custom environment with **Region** set to “United States” before you can create your virtual agent. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
+   > Preview is currently supported only in the locations listed in the [supported data locations](data-location.md) topic, with data stored in respective data centers. If your company is located outside of the supported data locations, you need to create a custom environment with **Region** set to a supported data location before you can create your bot. For more information on how to create a custom PowerApps environment, see [Creating a PowerApps environment](getting-started-new-environment.md).
 
    ![Name the new bot](media/create-new-bot-screen.png)
 
@@ -72,9 +72,9 @@ You now have a very simple branching dialogue tree—congratulations! You can be
 >  
 > Have a look at these related videos: 
 >
-> [Using variables and expressions to create dynamic dialogues](http://go.microsoft.com/fwlink/?linkid=2063539)  
+> [Using variables and expressions to create dynamic dialogues](https://go.microsoft.com/fwlink/?linkid=2063539)  
 > 
-> [Creating and using Flows for extensible dialogues](http://go.microsoft.com/fwlink/?linkid=2079323).
+> [Creating and using Flows for extensible dialogues](https://go.microsoft.com/fwlink/?linkid=2079323).
  
 ## Test your content in real time
 
@@ -146,6 +146,6 @@ For now, enter “This is a demonstration of my first bot that I built by myself
 
 You’ve now created a bot, created your own custom topic, tested it out, deployed it to a demo website, and learned how to analyze your bot’s performance. Congratulations! Your bot has many capabilities beyond this, so please try it out and play with the advanced features
 
-For questions not covered in the product documentation or for feature ideas, please [visit our community](http://go.microsoft.com/fwlink/?linkid=2058639) and post questions or ideas.
+For questions not covered in the product documentation or for feature ideas, please [visit our community](https://go.microsoft.com/fwlink/?linkid=2058639) and post questions or ideas.
 
 For more guidance on how to connect to your existing case logs and automatically discover new topics, please try out [Dynamics 365 Customer Service Insights](https://dynamics.microsoft.com/ai/customer-service-insights/).
