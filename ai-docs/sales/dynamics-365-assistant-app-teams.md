@@ -2,7 +2,7 @@
 title: "Introduction to Dynamics 365 assistant app for Teams | MicrosoftDocs"
 description: "Introduction to Dynamics 365 assistant app for Teams"
 keywords: " "
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -43,14 +43,46 @@ This application enables you to:
 
 -	**Transform business cards into contacts**: Save time it takes to manually enter contacts with the new business card scanner. Easily use your phone's camera to capture business cards. Analyze and save relevant information as new contacts directly in Dynamics 365.
 
-You or an administrator can add this application on Microsoft Teams. To learn more, see [Install Dynamics 365 assistant application on Microsoft Teams]().
+You or an administrator can add this application on Microsoft Teams. To learn more, see [Enable Dynamics 365 assistant application on Microsoft Teams](#enable-dynamics-365-assistant-application-on-microsoft-teams).
+
+## Configure Dynamics 365 assistant application on Microsoft Teams
+
+The Dynamics 365 assistant app provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
+
+To enable and configure the Dynamics 365 assistant application, follow these steps:
+
+1. [Review the prerequisites](#prerequisites)
+
+2. [Install the Dynamics 365 assistant application and bot](#install-dynamics-365-assistant-application-and-bot)
+
+### Prerequisites
+
+Perform the following prerequisites before setting up and using the sales assistant application for your organization:
+
+- Enable preview feature and select **Microsoft Teams Integration Preview** as **Yes** in the Common Data Service platform. To learn more, see [What are Preview features, and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
+
+- Enable **Talking points**, **Who knows whom**, and **Assistant** for your organization to leverage the services to get full utilization of assistant app. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
+
+- Install the Dynamics 365 app on Microsoft Teams.
+
+- Obtain a Dynamics 365 Sales license.
+
+- Have an active Dynamics 365 Sales organization.
+
+### Install Dynamics 365 assistant application and bot
+
+After you have reviewed the prerequisites, configure the Dynamics 365 assistant application and bot for Teams.
+
+- To configure the Dynamics 365 assistant application on Microsoft Teams, see [Configure Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
+
+- To configure the Dynamics 365 assistant bot, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
 
 ### See also
-
-[Configure Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams)
 
 [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
 [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
 
 [Access Dynamics 365 assistant application](access-assistant-application-teams.md)
+
+[Get answers through bot assistant](use-bot-assistant.md)
