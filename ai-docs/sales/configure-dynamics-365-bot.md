@@ -32,7 +32,7 @@ When you first access the Dynamics 365 assistant app, it asks you to configure t
 
 To configure the bot, follow these steps:
 
-1. Verify that you have reviewed prerequisites and installation procedures. To learn more, see [Enable Dynamics 365 assistant application on Microsoft Teams](overview-dynamics-365-assistant-app-teams.md#enable-dynamics-365-assistant-application-on-microsoft-teams).
+1. Verify that you have reviewed prerequisites. To learn more, see [configure Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams).
 
 1. On the desktop, sign in to **Microsoft Teams** and open the **Dynamics 365** app.
 

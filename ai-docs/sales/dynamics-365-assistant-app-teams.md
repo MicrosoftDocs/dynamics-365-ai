@@ -43,7 +43,7 @@ This application enables you to:
 
 -	**Transform business cards into contacts**: Save time it takes to manually enter contacts with the new business card scanner. Easily use your phone's camera to capture business cards. Analyze and save relevant information as new contacts directly in Dynamics 365.
 
-You or an administrator can add this application on Microsoft Teams. To learn more, see [Enable Dynamics 365 assistant application on Microsoft Teams](#enable-dynamics-365-assistant-application-on-microsoft-teams).
+You or an administrator can add this application on Microsoft Teams. To learn more, see [Configure Dynamics 365 assistant application on Microsoft Teams](#configure-dynamics-365-assistant-application-on-microsoft-teams).
 
 ## Configure Dynamics 365 assistant application on Microsoft Teams
 
