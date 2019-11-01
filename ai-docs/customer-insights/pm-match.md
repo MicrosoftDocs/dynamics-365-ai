@@ -1,7 +1,7 @@
 ---
 title: "Match | MicrosoftDocs"
 description: 
-ms.date: 10/24/2019
+ms.date: 11/01/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -211,7 +211,48 @@ If you followed Step 4, at this point you should have a better understanding of 
     - **Changing attributes for a condition**: This can be done by reselecting new attributes within the specific condition row.
     - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step 4, we covered how to get insight into the effects of the three threshold levels on your match quality.
     - **Changing normalization method for a condition**: This can be done by reselecting the normalization method.
-    
+
+## Step 6 (optional): Specify your custom match records regardless of the rules (preview)
+
+If you want to address a scenario where you want certain records to always match and/or certain records to never match based on your business rules, you can upload those rules in bulk to the match process.
+
+1. Select the **Custom match** option on the **Match order** screen. 
+
+  > [!div class="mx-imgBorder"] 
+  > ![](media/custom-match-create.png "Create a custom match")
+
+2.	If you have no uploaded entities, you will see a new **Custom match** dialog box which requires you to fill in some details. If you've done this before, proceed to step 8.
+
+  > [!div class="mx-imgBorder"] 
+  > ![](media/custom-match-new-dialog-box.png "New custom match dialog box")
+ 
+3.	Select **Fill in the template**. This will download a template file that can be used to specify which records from which entities should always match and/or never match. You'll need to separately fill in the always match records and never match records in two different files.
+
+4.	The template contains fields to specify the entity and the entity primary key values to be used in the custom match, for example, if you want primary key 12345 from Sales entity to always match with primary key 34567 from Contact entity, you need to specify as follows:
+    -	Entity1: Sales
+    -	Entity1Key: 12345
+    -	Entity2: Contact
+    - Entity2Key: 34567
+
+	 Note that the same template file can specify custom match records from multiple entities.
+
+5.	Once you add all the overrides you want to apply, save the template file.
+
+6.	In Customer Insights, go to **Data sources** and ingest the template files as new entities. Once ingested, you can use them to specify the Match configuration.
+
+7.	Once the files are ingested and entities are available, select the **Custom match** option again and you'll see options to specify the entities you want to include. Select the appropriate entities from the drop down menu. Selecting an entity is not compulsory if you choose to skip either always match and/or never match. 
+
+  > [!div class="mx-imgBorder"] 
+  > ![](media/custom-match-overrides.png "Custom match overrides")
+ 
+8.	Once you select the entities you want to use for **Always match** and **Never match**, select **Done**.
+
+9.	Select **Save** on the **Match** page for the custom match configuration you just set up.
+
+10.	Select **Run** on the **Match** page to start the matching process and the custom match configuration will be taken in to effect, and any system matched rules are overridden by the configuration set.
+
+11.	Once the matching is complete, you can verify the **ConflationMatchPair** entity to confirm that the overrides are actually applied in the conflation matches.
+
 ### Next Step
 Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the [**Merge**](pm-merge.md) section.
 
