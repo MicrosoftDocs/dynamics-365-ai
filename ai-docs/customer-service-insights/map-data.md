@@ -7,7 +7,7 @@ ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid:
-author: iaaanw
+author: iaanw
 ms.author: iawilt
 manager: shellyha
 search.app: capaedac-csi
