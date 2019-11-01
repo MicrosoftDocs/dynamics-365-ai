@@ -1,7 +1,7 @@
 ---
 title: "Segmentation| MicrosoftDocs"
 description: 
-ms.date: 10/24/2019
+ms.date: 11/01/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -193,7 +193,43 @@ The lower part includes a table with all your segment's members.
 - Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The preceding example is typical for a **Customer** entity, but it is only one of many possible representations.
 
 - Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor page to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
+
+## Recommended segments
+
+In addition to the segment builder, there is another path for creating segments in Customer Insights. Recommended segments lets you build simple segments (with a single operator) quickly.
+
+1. Select one of the tiles on the **Segments** page to get started.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/quick-segment-overview.png "Select a tile for a quick segment")
+ 
+    - Select the **Profiles** option to build a segment that is based on the unified Customer entity. 
+    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page. 
+ 
+2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.
+
+3. The system will provide some additional insights that help you create better segments of your customers. 
+   - For categorial fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
+   - For a numerical attribute the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
+
+4.	The system will provide you with an **Estimated segment size** so you can choose whether to actually generate the segment you have defined or first revisit it get a different segment size.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/quick-segment-name.png "Name and estimation for a quick segment")
+
+5. Provide a **Name** for your segment. Optionally, provide a **Display name**.
+
+6. Select **Save** to create your segment. 
+
+7. After segment finished processing, you can view your segment like any other segment you have created.
+
+For the following scenarios,we advise to use the segment builder rather than the recommended segments capability:
+
+- Creating segments with filters on categorial fields where the operator is different than the **Is** operator
+- Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater then** and **Less then** operators
+- Creating segments with filters on date type of fields
     
-## Next step
+## Next steps
+
 Visit the **Export destinations** section to learn how to export your segment to a Dynamics 365 location. 
 You can also explore the **Customer Card** and **Connectors** sections to get insights on the customer level.
