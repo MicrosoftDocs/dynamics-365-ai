@@ -1,6 +1,6 @@
 ---
 title: "Sessions page"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Sessions page."
+description: "Learn about the Power Virtual Agents Sessions page."
 ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Sessions page
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 ![Sessions page](media/sessions-page.png)
 

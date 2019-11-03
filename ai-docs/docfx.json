@@ -41,11 +41,14 @@
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Dynamics 365 AI",
-      "breadcrumb_path": "/dynamics365/ai/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
     "fileMetadata": {
+      "breadcrumb_path": {
+        "**.*":"/dynamics365/ai/breadcrumb/toc.json",
+        "customer-service-virtual-agent/**.*":"/dynamics365/ai/customer-service-virtual-agent/bc/toc.json"
+      },
       "searchScope": {
         "**.*": [
           "Dynamics 365",
