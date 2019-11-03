@@ -1,6 +1,6 @@
 ---
 title: "Topic details page"
-description: "Learn about the Dynamics 365 Virtual Agent for Customer Service Topic details page."
+description: "Learn about the Power Virtual Agents Topic details page."
 ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Topic details page
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 The topic details page provides a view into the performance of individual topics and how they can be improved.
 

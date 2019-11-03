@@ -1,6 +1,6 @@
 ---
-title: "Overview of GDPR compliance for Dynamics 365 Virtual Agent for Customer Service"
-description: "Learn how to respond​ to GDPR Data Subject Requests for Dynamics 365 Virtual Agent for Customer Service."
+title: "Overview of GDPR compliance for Power Virtual Agents"
+description: "Learn how to respond​ to GDPR Data Subject Requests for Power Virtual Agents."
 ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
@@ -10,9 +10,9 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# GDPR compliance for Virtual Agent for Customer Service
+# GDPR compliance for Power Virtual Agents
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 The EU Data Protection Regulation (GDPR) gives rights to people (known in the regulation as *data subjects*) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the *data controller* or just *controller*). Personal data is defined broadly under the GDPR as any data that relates to an identified or identifiable natural person. The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of it, requesting changes to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take an action on their personal data is called in this document a *Data Subject Rights Request* or DSR request.
 
@@ -58,4 +58,4 @@ When data subjects exercise their rights and make requests, consider the followi
 
 If a data subject asks you to rectify their personal data that resides in your organization, you and your organization must determine if it’s appropriate to honor the request. Rectifying the data might include taking actions such as editing, redacting, or removing personal data.
 
-You can use Azure AD to manage Dynamics 365 Virtual Agent for Customer Service users' identities. Enterprise customers can manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services.
+You can use Azure AD to manage Power Virtual Agents users' identities. Enterprise customers can manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services.
