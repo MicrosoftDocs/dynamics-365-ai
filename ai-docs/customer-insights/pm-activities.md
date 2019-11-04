@@ -22,7 +22,7 @@ The Activities capability includes two components:
 
 This topic covers only the **Activities** page.
 
-## Activities page
+## Define an activity
 
 Your data sources include entities with transactional and activity data from multiple data sources. On this page, you will identify these entities and select the activities you want to view on the customer’s timeline grid.
 
