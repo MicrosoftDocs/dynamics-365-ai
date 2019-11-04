@@ -48,14 +48,14 @@ Later we show how to create these outputs.
 
 To begin defining a measure, from the **Measures** page, select **Add new measure**.
 
-## Step 2: Choose the starting entity
+## Step 2: Complete selections on the Measure creation pane
 
 Selecting **New Measure** opens the measure creation pane. 
 
 - **Name** (mandatory): After completing the configuration of your measure, it appears on the **Measures** page under this name.
 - **Display name** (optional): As mentioned earlier, your measure is added as an attribute or saved as a new entity. In both cases, the measure carries over the Display Name to the home page and Customer Card.
 
-## Step 3: Choose related entities
+## Step 3: Complete selections on the Measures builder
 
 After completing Step 2, you'll see the following page:
 
