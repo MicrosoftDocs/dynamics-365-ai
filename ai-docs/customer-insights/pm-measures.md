@@ -52,17 +52,8 @@ To begin defining a measure, from the **Measures** page, select **Add new measur
 
 Selecting **New Measure** opens the measure creation pane. 
 
-For the **Business Measure** option, you will see the **New business measure** pane.
-
 - **Name** (mandatory): After completing the configuration of your measure, it appears on the **Measures** page under this name.
 - **Display name** (optional): As mentioned earlier, your measure is added as an attribute or saved as a new entity. In both cases, the measure carries over the Display Name to the home page and Customer Card.
-- **Starting entity** (mandatory): Choose the entity you wish to build your measure around. For example, we might choose an *Orders* entity as a starting entity if our measure is *Average order amount*. If you want to include fields from multiple entities in your measure fields, choose any of these entities.  
-
-You see the **New profile measure** pane where you select the **Customer Measure** option.
-
-This pane is similar to the one you see when you select the **Business Measure** option, except for one difference: The Customer Profile entity is automatically selected as your starting entity. This default selection can't be changed.
-
-You see the **New profile attribute** pane where you select the **Customer Attribute** option.
 
 ## Step 3: Choose related entities
 
@@ -71,7 +62,7 @@ After completing Step 2, you'll see the following page:
 > [!div class="mx-imgBorder"] 
 > ![Measure definition](media/measure-definition.png "Measure definition")
 
-Customer Insights lets you build measures by leveraging data from multiple data sources that are now connected through the Customer entity. At this point, you should decide whether additional entities are needed as part of your measure definition. 
+Customer Insights lets you build measures by leveraging data from multiple data sources that are now connected through the Customer entity. Start by selecting a first entity from the drop-down list. At this point, you should decide whether additional entities are needed as part of your measure definition. 
 
 One use case might be creating an expression that is based on attributes from two or more different entities (see Step 4).  Another use case, specifically for the customer measure and business measure, is creating a measure entity that is composed of multiple entities (see Step 5). 
 
@@ -170,6 +161,8 @@ Once you have completed your first measure, you'll see the following page summar
 
 > [!div class="mx-imgBorder"] 
 > ![Summary of new measures](media/new-measure.png "Summary of new measures")
+
+This table lists the measure’s type, creation owner, creation date and time, edit owner, last edit sate and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure, you can see a preview of the measure output. Select **Donwnload as CSV** to export the data.
 
 As mentioned before, you can also view your created measure in one of the following ways:
 - If you created a **Customer measure**, you can view your new measure entity on the **Entities** page.  
