@@ -52,7 +52,7 @@ All tables in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md
 
 ### Heighten color contrast of some text and images
 
-The high contrast setting in Windows heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the Ease of Access page in [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx), [Windows 8](http://www.microsoft.com/enable/products/windows8/default.aspx), and [Windows 7](http://www.microsoft.com/enable/products/windows7/default.aspx).
+The high contrast setting in Windows heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the Ease of Access page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx), [Windows 8](https://www.microsoft.com/enable/products/windows8/default.aspx), and [Windows 7](https://www.microsoft.com/enable/products/windows7/default.aspx).
 
 ### Enlarge the user interface with zooming in the browser
 
@@ -67,7 +67,7 @@ For accessibility information for specific browsers, visit the following website
   
 -   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
   
--   [Safari accessibility features](http://www.apple.com/support/accessibility/)  
+-   [Safari accessibility features](https://www.apple.com/support/accessibility/)  
   
 -   [Google Chrome accessibility features](https://sites.google.com/a/chromium.org/dev/user-experience)  
   
