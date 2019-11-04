@@ -1,6 +1,6 @@
 ---
-title: "Virtual Agent Topic Checker"
-description: "Learn how to validate Virtual Agent topics with Topic Checker."
+title: "Power Virtual Agents Topic Checker"
+description: "Learn how to validate Power Virtual Agents topics with Topic Checker."
 ms.date: 05/29/2019
 ms.service:
   - "dynamics-365-ai"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Validate a topic with Topic Checker
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 Topic Checker is available in the conversation editor for any topic defined for your bot. It allows you to see the health of a topic and shows the errors and warnings that have failed validation. You can select the listed errors or warnings to go to the node or field that has failed validation. As you fix the errors, they will disappear from Topic Checker, either automatically or after saving the topic.
 
