@@ -45,6 +45,9 @@ To create a segment, you can either select **Add Segment** at the upper-right co
 
 ### Step 1: Define the segment's properties using the **New Segment** panel
 
+> [!div class="mx-imgBorder"] 
+> ![Choose segment type](media/choose-segment-type.png "Choose segment type")
+
 - Choose between a **Dynamic** and a **Static** segment.
 - Give your segment an informative name, a display name, and a description that will help us identify it in the future, when we have multiple segments. There are no limitations on display name but there are some limitations on name (a space is not allowed, for example).
 - Select **Next**. You will go to the **Segment builder** page.
@@ -210,7 +213,14 @@ In addition to the segment builder, there is another path for creating segments 
 
 3. The system will provide some additional insights that help you create better segments of your customers. 
    - For categorial fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
+
+     > [!div class="mx-imgBorder"] 
+     > ![](media/categorial-fields-select.png "Select a value for categorial fields")
+
    - For a numerical attribute the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
+
+     > [!div class="mx-imgBorder"] 
+     > ![](media/numerical-fields-select.png "Select a value for numerical fields")
 
 4.	The system will provide you with an **Estimated segment size** so you can choose whether to actually generate the segment you have defined or first revisit it get a different segment size.
 

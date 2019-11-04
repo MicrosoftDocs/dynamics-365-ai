@@ -1,18 +1,13 @@
 ---
 title: "Activities | MicrosoftDocs"
-description: 
-ms.custom: ""
-ms.date: 04/01/2019
-ms.reviewer: ""
+description: Work with the Activities page in Dynamics 365 Customer Insights
+ms.date: 11/04/2019
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -27,58 +22,39 @@ The Activities capability includes two components:
 
 This topic covers only the **Activities** page.
 
-## Activities page
+## Define an activity
 
-Your data sources include entities with transactional and activity data from multiple data sources. On this page, you will identify these entities and select the activities you want to view on the customer’s timeline grid.
+Your data sources include entities with transactional and activity data from multiple data sources. On this page, you will identify these entities and select the activities you want to view on the customer’s timeline grid. Choose the entity that includes your target activity or activities.
 
-
-## Step 1: Entity selection
-
-Choose the entity that includes your target activity or activities.
-
-1. Select **Add entity**.
+1. Select **Add activity**.
   
    > [!div class="mx-imgBorder"] 
    > ![Activities add entity](media/activities-add-entity.png "Activities add entity")
 
-2. Select all the entities that include transactional or activity data. You can enter an entity's name into Search (highlighted in the following example).
-   
-   > [!div class="mx-imgBorder"] 
-   > ![Activities search entities](media/activities-search-entities.png "Activities search entities")
-
-3. Select **Done**. Once selected, you'll see the creation of a row for each selected entity. We will complete the required fields in Step Two. 
-
 > [!NOTE]
-> To be included in the timeline grid, an entity must have at least one attribute of type **Date**. Entities without **Date** fields will not be added.
- 
+> To be included in the timeline grid, an entity must have at least one attribute of type **Date**. Entities without **Date** fields will not be added. If no such entity is identified, the **Add activity** control is disabled.
+
+2. Provide values for the following fields.
+
+    -	**Select entity**: Select an entity that includes transactional or activity data. 
+    -	**Primary key**: Use this field to distinguish between all of your entity's records. This field should not contain any duplicate values, null values, or missing values.
+    - **Activity name**: Give your activity a recognizable name.
+    -	**Activity time**: Select the field that represents the start time of your activity.
+    -	**Description** (not mandatory): Select the field that represents a description of the activity
+
+3. Set up a relationship.
+
    > [!div class="mx-imgBorder"] 
-   > ![Activities define entities](media/activities-entities-define.png "Activities define entities")
+   > ![Define the entity relationship](media/activities-entities-define.png "Define the entity relationship")
 
-## Step 2: Activity definition
+    - **Source field**: Select the field in your activity entity that will be used to establish a relationship with another entity.
+    - **Target entity**: Select the entity with which your Activity entity will be in relationship.
+    -	**Target field**: Select the field in the Target entity that will be used to establish a relationship with the Activity entity.
 
-This step includes all your activity definitions. Using the following example, we will explore those definitions from left to right.
+4. Select **Done** to save your selections. Then, select **Run** on the **Activities**.
 
-> [!div class="mx-imgBorder"] 
-> ![Activities entities close](media/activities-entities-close.png "Activities entities close")
-    
-- **Entity** (no selection is needed): Specifies your chosen entity's name.
-- **Source** (no selection is needed): Specifies your chosen entity's data source name.
-- **Primary key**: This field will be used to distinguish between all of your entity's records. This field should not contain any duplicate values, null values, or missing values. Options include **ActivityID**, **SessionID**, and **OrderID**, but there are many others. 
-- **Activity name**: Select the specific field that includes data on your activity. 
-- **Show activity by**: The timeline grid is sorted by date in descending order (from newest to oldest). Decide if you want to show the activity by Start or End time for it to be placed correctly on the timeline. Using this field, choose which of the two options will serve as the primary method for placing the activity on the timeline grid. (In the following example, Start Time was chosen as the primary method.)
-- **Start time or end time:** Depends on your previous selection. At this point, you should select the field that represents the start/end time. Only one field is required, but you can select both times if those are known for your activity.
-- **Duration**: Select the field that represents the duration of your activity.
-- **Unit**: Select the unit of time for the duration of your activity.
-- **Description**: Select the field that represents a description of the activity
-- **Icon**: You can add an icon to easily distinguish this activity on the timeline. You can add an icon to your activity if it's publicly available. A URL address or Unicode is required.
-- **Delete** button: Selecting the button that is highlighted in the preceding image will delete that specific activity.
-  
-You can now define your next activity by selecting **Add**. Don't forget to save your activities.
-
-> [!div class="mx-imgBorder"] 
-> ![Save and add activities entities](media/activities-add-save-entity.png "Save and add activities entities")
    
-## Next step
+## Next steps
 
 Once you define your activities, you can:
 1. Explore the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) under the **Customer Card Add-in** section in order to learn how to view information on these activities for each of your customers.
