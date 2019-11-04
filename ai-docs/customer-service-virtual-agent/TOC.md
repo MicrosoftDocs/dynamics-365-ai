@@ -10,7 +10,7 @@
 
 ## [Create a bot](getting-started-create-bot.md)
 
-## [Create a PowerApps environment](getting-started-new-environment.md)
+## [Create a Power Apps environment](getting-started-new-environment.md)
 
 ## [Overview of Virtual Agent pages](getting-started-bot-designer.md)
 

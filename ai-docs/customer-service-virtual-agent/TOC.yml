@@ -10,7 +10,7 @@
   items:
    - name: Create a bot
      href: getting-started-create-bot.md
-   - name: Create a PowerApps environment
+   - name: Create a Power Apps environment
      href: getting-started-new-environment.md
    - name: Overview of Power Virtual Agents pages
      href: getting-started-bot-designer.md
