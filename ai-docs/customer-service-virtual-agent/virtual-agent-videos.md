@@ -44,9 +44,9 @@ This short feature video shows you how to use variables to remember user respons
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dO88tvhvfDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    
-### Enhance bot capabilities with Microsoft Flow
+### Enhance bot capabilities with Power Automate
 
-This feature video shows you how to use Microsoft Flow to extend the capabilities of your bot, including connecting to your custom back-end systems, an instance in the Dynamics 365 admin center, or anything else supported by Microsoft Flow connectors. 
+This feature video shows you how to use Power Automate to extend the capabilities of your bot, including connecting to your custom back-end systems, an instance in the Dynamics 365 admin center, or anything else supported by Microsoft Flow connectors. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joXCzvi38Fo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
