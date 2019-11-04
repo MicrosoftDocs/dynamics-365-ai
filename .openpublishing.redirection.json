@@ -1,5 +1,5 @@
 {
-    "redirections": [
+  "redirections": [
     {
       "source_path": "ai-docs/sales/configure-enable-dynamics-365-ai-sales.md",
       "redirect_url": "intro-admin-guide-sales-insights",
@@ -36,385 +36,544 @@
       "redirect_document_id": "false"
     },
     {
-        "source_path": "ai-docs/sales/configure-call-intelligence.md",
-        "redirect_url": "configure-conversation-intelligence-call-data",
-        "redirect_document_id": "false"
-      },
-             
-        {
-            "source_path": "ai-docs/market-insights/activity-maps.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/adaptive-learning.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/add-rules-search-topic.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/admin-takeover.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/analytics-conversations.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/analytics-location.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/analytics-overview.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/analytics-sentiment.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/analytics-sources.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/analyze-social-data-using-widgets.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/assign-user-roles.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/author-details.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/author-tags.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/automation-rules.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/configure-automatic-record-creation.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/configure-social-selling-assistant.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/connect-dynamics-365-record-creation.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/connect-other-domains.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/create-delete-search-topic.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/create-dynamics-365-record-from-social-post.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/custom-sources.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/data-retention.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/delegated-admin.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/email-alerts.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/engage-on-social-networks.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/event-hubs-json-reference.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/facebook-pages-data-acquisition.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/get-content-pack-for-power-bi.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/get-started.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/instagram-data-acquisition.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/install-social-selling-assistant.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/integrate-widgets-dynamics-365.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/link-posts-to-dynamics-365.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-access-tokens.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-authors.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-connection-dynamics-365-record-creation.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-connections.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-global-settings.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-licenses.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-post-quota.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/manage-social-profiles.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/more-options-with-data-set.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/office-365-groups.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/overview-marketing-scenario.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/overview-sales-scenario.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/overview-service-scenario.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/overview.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/personalize-social-selling-assistant.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/posts-conversations.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/privacy-notices.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/publish-react-posts.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/readme.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/refine-search-rules.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/release-notes.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/search-results-quality.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/search-topic-categories.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/set-up-first-steps.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/set-up-searches.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/settings-administration.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/sign-in.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/social-center.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/social-insights-widgets.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/social-profiles-health-state.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/social-selling-assistant-overview.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/sources-coverage.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/stream-data-to-event-hubs.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/system-browser-settings.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/tags.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/understand-filters.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/use-filters.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/user-preferences.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/user-roles.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/work-with-event-hubs.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/work-with-posts.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "ai-docs/market-insights/work-with-social-selling-assistant.md",
-            "redirect_url": "help-hub",
-            "redirect_document_id": false
-        }
-    ]
+      "source_path": "ai-docs/sales/configure-call-intelligence.md",
+      "redirect_url": "configure-conversation-intelligence-call-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/market-insights/activity-maps.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/adaptive-learning.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/add-rules-search-topic.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/admin-takeover.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/analytics-conversations.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/analytics-location.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/analytics-overview.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/analytics-sentiment.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/analytics-sources.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/analyze-social-data-using-widgets.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/assign-user-roles.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/author-details.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/author-tags.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/automation-rules.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/configure-automatic-record-creation.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/configure-social-selling-assistant.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/connect-dynamics-365-record-creation.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/connect-other-domains.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/create-delete-search-topic.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/create-dynamics-365-record-from-social-post.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/custom-sources.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/data-retention.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/delegated-admin.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/email-alerts.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/engage-on-social-networks.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/event-hubs-json-reference.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/facebook-pages-data-acquisition.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/get-content-pack-for-power-bi.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/get-started.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/instagram-data-acquisition.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/install-social-selling-assistant.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/integrate-widgets-dynamics-365.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/link-posts-to-dynamics-365.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-access-tokens.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-authors.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-connection-dynamics-365-record-creation.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-connections.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-global-settings.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-licenses.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-post-quota.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/manage-social-profiles.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/more-options-with-data-set.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/office-365-groups.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/overview-marketing-scenario.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/overview-sales-scenario.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/overview-service-scenario.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/overview.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/personalize-social-selling-assistant.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/posts-conversations.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/privacy-notices.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/publish-react-posts.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/readme.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/refine-search-rules.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/release-notes.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/search-results-quality.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/search-topic-categories.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/set-up-first-steps.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/set-up-searches.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/settings-administration.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/sign-in.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/social-center.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/social-insights-widgets.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/social-profiles-health-state.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/social-selling-assistant-overview.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/sources-coverage.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/stream-data-to-event-hubs.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/system-browser-settings.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/tags.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/understand-filters.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/use-filters.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/user-preferences.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/user-roles.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/work-with-event-hubs.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/work-with-posts.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/work-with-social-selling-assistant.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/analytics-csat.md",
+      "redirect_url": "/power-virtual-agents/analytics-csat",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/analytics-overview.md",
+      "redirect_url": "/power-virtual-agents/analytics-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/analytics-sessions.md",
+      "redirect_url": "/power-virtual-agents/analytics-sessions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/analytics-summary.md",
+      "redirect_url": "/power-virtual-agents/analytics-summary",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/analytics-topic-details.md",
+      "redirect_url": "/power-virtual-agents/analytics-topic-details",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/configuration-hand-off-omnichannel.md",
+      "redirect_url": "/power-virtual-agents/configuration-hand-off-omnichannel",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/data-location.md",
+      "redirect_url": "/power-virtual-agents/data-location",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/expanding-design-canvas.md",
+      "redirect_url": "/power-virtual-agents/expanding-design-canvas",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/faq.md",
+      "redirect_url": "/power-virtual-agents/faq",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/gdpr-delete.md",
+      "redirect_url": "/power-virtual-agents/gdpr-delete",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/gdpr-discovery.md",
+      "redirect_url": "/power-virtual-agents/gdpr-discovery",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/gdpr-export.md",
+      "redirect_url": "/power-virtual-agents/gdpr-export",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/gdpr-summary.md",
+      "redirect_url": "/power-virtual-agents/gdpr-summary",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-analytics.md",
+      "redirect_url": "/power-virtual-agents/getting-started-analytics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-bot-designer.md",
+      "redirect_url": "/power-virtual-agents/getting-started-bot-designer",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-create-bot.md",
+      "redirect_url": "/power-virtual-agents/getting-started-create-bot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-create-greeting.md",
+      "redirect_url": "/power-virtual-agents/getting-started-create-greeting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-create-topics.md",
+      "redirect_url": "/power-virtual-agents/getting-started-create-topics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-delete-bot.md",
+      "redirect_url": "/power-virtual-agents/getting-started-delete-bot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-deploy.md",
+      "redirect_url": "/power-virtual-agents/getting-started-deploy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/getting-started-new-environment.md",
+      "redirect_url": "/power-virtual-agents/getting-started-new-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/how-to-flow.md",
+      "redirect_url": "/power-virtual-agents/how-to-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/how-to-handoff.md",
+      "redirect_url": "/power-virtual-agents/how-to-handoff",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/how-to-templates.md",
+      "redirect_url": "/power-virtual-agents/how-to-templates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/how-to-test-bot.md",
+      "redirect_url": "/power-virtual-agents/how-to-test-bot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/how-to-use-dispatcher.md",
+      "redirect_url": "/power-virtual-agents/how-to-use-dispatcher",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/how-to-variables.md",
+      "redirect_url": "/power-virtual-agents/how-to-variables",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/overview.md",
+      "redirect_url": "/power-virtual-agents/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/quickstart.md",
+      "redirect_url": "/power-virtual-agents/quickstart",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/topic-checker.md",
+      "redirect_url": "/power-virtual-agents/topic-checker",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/videos.md",
+      "redirect_url": "/power-virtual-agents/videos",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-virtual-agent/virtual-agent-videos.md",
+      "redirect_url": "/power-virtual-agents/virtual-agent-videos",
+      "redirect_document_id": "false"
+    }
+  ]
 }
