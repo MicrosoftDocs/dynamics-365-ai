@@ -30,34 +30,34 @@ The following image describes how other data sources, such as Salesforce or Zend
 
 ## Set up and use external data sources
 There are four parts to connecting and using external data sources:
-1.	[Set up a Common Data Service database in PowerApps](#set-up-a-common-data-service-database-in-powerapps)
-2.	[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)
-3.	[Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps)
+1.	[Set up a Common Data Service database in Power Apps](#set-up-a-common-data-service-database-in-power-apps)
+2.	[Create a custom entity in Power Apps](#create-a-custom-entity-in-power-apps)
+3.	[Import your data from an external source in Power Apps](#import-your-data-from-an-external-source-in-power-apps)
 4.	[Map your data for AI insights in Customer Service Insights](#map-your-data-for-ai-insights-in-customer-service-insights)  
 
 ![The four parts to connecting and using external data sources are performed one after the other](media/csi-four-parts.png)
  
 
-### Set up a Common Data Service database in PowerApps
+### Set up a Common Data Service database in Power Apps
 What you’ll need: 
 >[!div class=”checklist”]
-> * A PowerApps account. If you don’t have one, [sign up](https://powerapps.microsoft.com/pricing/) for a free trial account at powerapps.com.
-> * An environment in PowerApps where you are the **admin**. If you already have an environment, skip to the next section “[Create a custom entity in PowerApps](#create-a-custom-entity-in-powerapps)”, otherwise, you can create an environment by following the instructions in the [Create a Common Data Service database](/power-platform/admin/create-database) topic at the PowerApps documentation library.
+> * A Power Apps account. If you don’t have one, [sign up](https://powerapps.microsoft.com/pricing/) for a free trial account at powerapps.com.
+> * An environment in Power Apps where you are the **admin**. If you already have an environment, skip to the next section “[Create a custom entity in Power Apps](#create-a-custom-entity-in-power-apps)”, otherwise, you can create an environment by following the instructions in the [Create a Common Data Service database](/power-platform/admin/create-database) topic at the Power Apps documentation library.
 
-### Create a custom entity in PowerApps
+### Create a custom entity in Power Apps
 Entities are used to model and manage business data. CDS has two types of entities:
--	[Standard entities](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses the standard incident entity by default)
--	[Custom entities](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (given incident is a restricted entity available only for those with a Dynamics 365 Customer Service license, you’ll need to create one of these to use external data sources)
+-	[Standard entities](/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses the standard incident entity by default)
+-	[Custom entities](/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (given incident is a restricted entity available only for those with a Dynamics 365 Customer Service license, you’ll need to create one of these to use external data sources)
 
 This section will show you how to create a custom entity that you can use to import data from an external source.
 
 >[!NOTE]
->You will need a database in your PowerApps account, where you have a security role of either a **System Administrator** or **System Customizer** to create custom entities. You can read more about how to do this in the [database security topic for Power Platform](/power-platform/admin/database-security).
+>You will need a database in your Power Apps account, where you have a security role of either a **System Administrator** or **System Customizer** to create custom entities. You can read more about how to do this in the [database security topic for Power Platform](/power-platform/admin/database-security).
 
 To create a custom entity:
-1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
+1.	In the [Power Apps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
 
-    ![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
+    ![New entities label in the Power Apps authoring canvas](media/csi-entities.png)
  
 2.	Select **+ New entity** in the menu bar to open the **New entity** panel:
     1. Enter *my cases* in the first **Display name** field; the **Plural display name** and **Name** fields will be filled out automatically.
@@ -112,12 +112,12 @@ In the Classic Solution Explorer, select **Common Data Services Default Solution
 
 Repeat this for the option sets for each of the fields **CSAT** and **SLA Status**.
 
-### Import your data from an external source in PowerApps
+### Import your data from an external source in Power Apps
 Now that you have created the associated entity within CDS, you will need to set up the data import process to populate the entity created. 
 
-1.	In the [PowerApps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
+1.	In the [Power Apps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
 
-    ![New entities label in the PowerApps authoring canvas](media/csi-entities.png)
+    ![New entities label in the Power Apps authoring canvas](media/csi-entities.png)
 
 1.	In the **Power Query** window, select the type of data source that you want to import data from, and enter the appropriate connection URL and settings You should be able to obtain this from the external product’s configuration. 
     > [!NOTE]
@@ -144,9 +144,9 @@ Now that you have created the associated entity within CDS, you will need to set
 1.	Use the **Execution history** to confirm there are no errors for the last run, and now the data is ready in CDS to be used in Customer Service Insights.
 
 > [!TIP]
-> - Each project can be edited to either transform the data or remap old/new fields, go to the Data Integration section in PowerApps to find your project to edit.
+> - Each project can be edited to either transform the data or remap old/new fields, go to the Data Integration section in Power Apps to find your project to edit.
 > - Each job can be scheduled to run on a regular basis, this can also be configured for each Data Integration project.
-> - The Admin center of PowerApps shows the detailed progress and status of each project execution run. You can use this to explore for more information or to conduct investigation into the project’s history.
+> - The Admin center of Power Apps shows the detailed progress and status of each project execution run. You can use this to explore for more information or to conduct investigation into the project’s history.
 
 ### Map your data for AI insights in Customer Service Insights
 Now you can map your data in Customer Service Insights. 
@@ -165,7 +165,7 @@ As an example, your entity and fields mapping should look like the following scr
     ![Select your fields under Map case records](media/csi-map-case-records.png)
  
 
-Once done, your workspace with external data imported in [Import your data from an external source in PowerApps](#import-your-data-from-an-external-source-in-powerapps) should be ready with topics identified by AI.
+Once done, your workspace with external data imported in [Import your data from an external source in Power Apps](#import-your-data-from-an-external-source-in-power-apps) should be ready with topics identified by AI.
 >[!TIP]
 > - **KPI Summary**: use **Case Volume Drivers** and **Emerging Topics** to see areas for your cases, click on each topic to see how each affect the resolution, priority, incoming channel, and so on.
 > - **New Cases:** find out which topics have the most new cases and emerging.
