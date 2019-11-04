@@ -67,8 +67,7 @@ Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sal
 ## Create and send followed email message  
   
 > [!NOTE]
->  - This section describes how to work with email engagement features in the [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 Customer Engagement app for Outlook User's Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).  
-> - Users can only follow emails through on Email form.
+> Users can only follow emails through on Email form.
 
 When email engagement is enabled for your site, all of the controls required to create and send an email with some or all of its  features enabled are available on the **New Email** page, as shown in the following figure. This page is shown whenever you create an email in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
   
@@ -118,23 +117,17 @@ When email engagement is enabled for your site, all of the controls required to 
   
 1.  Create a new message as described previously in [Create a new message](#NewMessage).  
   
-2.  Select **Insert Template** button ![Insert Template button](media/insert-template-button.png "Insert Template button") on the toolbar. When you use a template, you'll  usually choose it right away, immediately after creating the message and before you do anything else.  
+2.  On the command bar, select **Insert Template**. When you use a template, you'll  usually choose it right away, immediately after creating the message and before you do anything else.  
   
-3.  A pop-up window opens, and shows the available and recommended templates.  
+3.  On the **Insert Template** pop-up window, choose the language and then choose a template from the **Search Template** lookup.   
   
     ![Select Template window](media/select-template-window.png "Select Template window")  
   
-    You can see the following here:  
- 
-    - Recommended templates are marked with a star symbol.  
-  
-    - Choose any listed template to see more information about it in the right-hand column, including live statistics for its reply rate, open rate, and number sent.  
-  
-4.  Choose a template and select **Select**. Template content is loaded into your message.  
+4.  Select **Select**. Template content is loaded into your message.  
   
 5.  Customize the template content as needed and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-6.  When you are ready to send the message, seelct **Send** (or seelct **Save** if you want to save a draft and finish it later).  
+6.  When you are ready to send the message, select **Send** (or select **Save** if you want to save a draft and finish it later).  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create templates for email](/dynamics365/customer-engagement/admin/create-templates-email)  
   
@@ -171,30 +164,31 @@ When email engagement is enabled for your site, all of the controls required to 
   
 3. Select **Save** on the toolbar to save your message. This enables the attachment feature for this message.  
   
-4. Select **Add Attachment** button at the top of **Attachment** area.  
+4. From the **Attachment** section, select **More Commands**![More Commands button in Appointment Activity](media/morecommands.gif "More Commands button in Appointment Activity") > **New Attachment**.  
   
    ![Add attachment button](media/add-attachment-button.png "Add attachment button")  
   
-5. The **Manage Attachment** dialog opens.  
+    The **Manage Attachment** dialog opens.  
   
    ![Manage Attachment window](media/manage-attachment-window.png "Manage Attachment window")  
   
-6. Select **Choose File** button to open a file-browser window, then locate and select the file.  
+6. Select **Choose File** to open a file-browser window, then locate and select the file.  
   
-7. Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
+<!-- 7. Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
   
    ![Manage Attachment window with document and follow button](media/manage-attachment-window-document-follow-button.png "Manage Attachment window with document and follow button")  
   
-8. Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).  
+8. Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).  -->
   
 9. Select **Close** to close the pop-up window.  
   
 10. Your file is now listed in the **Attachment** area. Note that each attachment listed here indicates its size and follow status.  
   
-    > [!NOTE]
+<!--    > [!NOTE]
     >  To remove an attachment or edit its follow status, click its name in this list to open its **Manage Attachment** window, and then use the buttons provided.  
     >   
     > ![Remove or unfollow an attachment](media/remove-unfollow-attachment.png "Remove or unfollow an attachment")  
+-->
   
 11. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
@@ -330,7 +324,7 @@ You can use this feature both with followed and unfollowed messages.
 
  You can see email template results and recommendations for all of the templates defined in your system by doing the following:  
   
-1.  Go to **Settings** > **Templates**, and then choose **Email Templates**.  
+1.  Go to **Settings** > **Business** > **Templates**, and then choose **Email Templates**.  
   
 2.  You now see the list of templates, which includes columns that show the **Reply Rate**, **Open Rate**, and**Sent Email Count** results for each template (where available), plus their **Recommended** status.  
   
@@ -345,7 +339,7 @@ You can use this feature both with followed and unfollowed messages.
   
 1.  Open the contact, account, or lead record you want to work with.  
   
-2.  Under the **Contact Preferences** heading, find the **Follow Email** setting.  
+2.  Go to the **Details** tab, under the **CONTACT PREFERENCES** section, find the **Follow Email** setting.  
   
     ![Contact preferences for a contact](media/contact-preferences-contact.png "Contact preferences for a contact")  
   
