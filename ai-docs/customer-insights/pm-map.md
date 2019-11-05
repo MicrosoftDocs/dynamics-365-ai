@@ -101,5 +101,10 @@ There are two selections you must complete prior to the completion of the map ph
 - **Primary key**: (Selected in the preceding example.) It is mandatory that you select one attribute as a primary key for each of your chosen entities. Note that for an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values. 
 - **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.  
 
+For Organizations (Preview), the attribute type should be mapped to Organization.Name
+> [!div class="mx-imgBorder"] 
+> ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
+
+
 ### Next step
 As part of the data unification process, go to the **Match** page by selecting **Match** in the left-side menu or by selecting the **Match** tile on the **Unify** page. Visit [**Match**](pm-match.md) to learn about this phase.
