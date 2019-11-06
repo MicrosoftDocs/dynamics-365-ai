@@ -96,7 +96,9 @@ The **New Rule** pane enables you to specify the conditions for that role. As ca
 
    > [!div class="mx-imgBorder"] 
    > ![Normalization](media/match-normalization.png "Normalization")
-For Organization (Preview) name normalization, you can also select "Type (Phone, Name, Organization)" as shown below.
+   
+   
+   For Organization (Preview) name normalization, you can also select "Type (Phone, Name, Organization)" as shown below.
 
    > [!div class="mx-imgBorder"] 
    > ![Normalization-B2B](media/match-normalization-b2b.png "Normalization-b2b")
