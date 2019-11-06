@@ -19,14 +19,14 @@ manager: "kvivek"
 ---
 # Customers
 
-The **Customers** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. Customers can be individuals or Organizations (Preview). The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
+The **Customers** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. Customers can be individuals or organizations (Preview). The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
 
 > [!div class="mx-imgBorder"] 
-> ![Customer profiles](media/profiles-customers.png "Customer profiles B2C")
+> ![B2C customer profiles](media/profiles-customers.png "B2C customer profiles")
 
 Organizations (Preview)
 > [!div class="mx-imgBorder"] 
-> ![Customer profiles](media/profile-customers-b2b.png "Customer profiles B2B")
+> ![B2B customer profiles](media/profile-customers-b2b.png "B2B customer profiles")
 
 > [!NOTE]
 > If the following screen appears when you select **Customers** in the left-side navigation pane, your administrator needs to define at least one searchable attribute on the **Search & filter index** screen:
