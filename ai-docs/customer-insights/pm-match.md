@@ -218,7 +218,7 @@ If you followed Step 4, at this point you should have a better understanding of 
     - **Changing threshold for a condition**: This can be quickly achieved via the threshold bar. In Step 4, we covered how to get insight into the effects of the three threshold levels on your match quality.
     - **Changing normalization method for a condition**: This can be done by reselecting the normalization method.
 
-## Step 6 (optional): Specify your custom match records regardless of the rules (preview)
+## Step 6 (optional): Specify your custom match records regardless of the rules
 
 If you want to address a scenario where you want certain records to always match and/or certain records to never match based on your business rules, you can upload those rules in bulk to the match process.
 
