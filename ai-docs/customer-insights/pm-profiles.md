@@ -2,7 +2,7 @@
 title: "Customers | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 11/07/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -19,10 +19,14 @@ manager: shellyha
 ---
 # Customers
 
-The **Customers** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Each customer profile is represented by a Customer Card tile as shown here:
+The **Customers** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Customers can be individuals or organizations (Preview). Each customer profile is represented by a Customer Card tile as shown here:
 
 > [!div class="mx-imgBorder"] 
-> ![Customer profiles](media/profiles-customers.png "Customer profiles")
+> ![B2C customer profiles](media/profiles-customers.png "B2C customer profiles")
+
+Organizations (Preview)
+> [!div class="mx-imgBorder"] 
+> ![B2B customer profiles](media/profile-customers-b2b.png "B2B customer profiles")
 
 > [!NOTE]
 > If the following screen appears when you select **Customers** in the left-side navigation pane, your administrator needs to define at least one searchable attribute on the **Search & filter index** screen:
