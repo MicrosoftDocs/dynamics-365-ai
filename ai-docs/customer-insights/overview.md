@@ -21,6 +21,11 @@ manager: shellyha
 
 Customer experience is at the very core of every organization’s digital transformation ambitions. To compete in today’s market, organizations need to build meaningful relationships with their customers on a personal level. The ability to effectively personalize at scale requires a complete, unified view of customers. 
 
+> [!NOTE]
+> **Get started with a 30-day trial**
+> 
+> To see Dynamics 365 Customer Insights in action quickly, you can [sign up for a 30-day trial](https://go.microsoft.com/fwlink/?LinkId=2083350). The trial will expire after 30 days and your data in the trial environment will be deleted.
+
 With Dynamics 365 Customer Insights, build a deep understanding of customers by connecting customer data from various transactional, behavioral, and observational sources to create a 360-degree customer view. Use  these insights to drive customer-centric experiences and processes.
 
 **Customer Insights enables every organization to unify and understand their customer data and to harness it for intelligent insights and actions.** 
