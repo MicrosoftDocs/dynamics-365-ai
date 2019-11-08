@@ -1,44 +1,39 @@
 ---
-title: "Home | MicrosoftDocs"
-description: Home
-ms.custom: ""
-ms.date: 04/01/2019
+title: "Home page in Dynamics 365 Customer Insights | MicrosoftDocs"
+description: Start exploring the app on the Home page in Dynamics 365 Customer Insights
+ms.date: 11/08/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
-# Home 
 
-The first page you see in the Dynamics 365 Customer Insights app is the home page. 
+# Home
 
-> [!div class="mx-imgBorder"] 
-> ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
+The first page you see in the Dynamics 365 Customer Insights app is **Home**. The Home page gives you a holistic view of your customer base and metrics to track the health of your business.
 
-If you are a trial user, make sure you switch from a demo environment before you start. You can do this with the **Environment** toggle in the upper-right corner of the page. You can switch to any of the real-data environments that are available to you (and that will show up once you click the toggle):
+## Change between environments
+
+You can switch from a demo environment to your live environments if you want to work with data of your customers, given they've already been [set up and configured](pm-data-sources.md). Select the **Environment** control in the upper-right corner of the page to change environments.
 
 > [!div class="mx-imgBorder"] 
 > ![Switch environment](media/home-page-environment-switcher.png "Switch environment")
 
-## Exploring the home page
+## Explore the home page
 
-The Customer Insights home page gives you a holistic view of your customer base and metrics to track the health of your business. To access these insights on the home page, take a few steps to onboard, unite, and enrich your data. 
+To access these insights on the home page, take a few steps to onboard, unite, and enrich your data. 
 
 Through the data manager and unify processes, you can create a unified dataset of your customers out of datasets that are currently siloed and disconnected. Then you can use capabilities such as *Measures*, *Enrichment*, and *Activities* to unlock richer insights. Use capabilities such as *Segments* and *Customer Card* to act on the new insights.
 
 The types of insights you can expect to view on the home page are shown here.
 
 > [!div class="mx-imgBorder"] 
-> ![Insights on Home page](media/home-page-insights2.png "Insights on Home page")
+> ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
 
 Let's explore those insights:
 
@@ -47,8 +42,6 @@ Let's explore those insights:
 - **Customer segments** (#3): Includes segments that were created around your customers. For more information on how to manually create additional segments, visit the **Segments** section.
 
 ### Next step
-Many of the home page insights are dependent upon the completion of the data configuration process, and this process in turn is based on first loading data into Customer Insights. See the <!-- [Data Manager](pm-data-manager.md) or --> [Data Sources](pm-data-sources.md) topic to learn how to complete the data loading process. 
+Many of the home page insights are dependent upon the completion of the data configuration process, and this process in turn is based on first loading data into Customer Insights. See the [Data Sources](pm-data-sources.md) topic to learn how to complete the data loading process.
 
-Complete these steps before you start building insights on top of your data. 
-
- 
+Complete these steps before you start building insights on top of your data.
