@@ -21,7 +21,7 @@ You can manage and improve the artificial intelligence grouping of support cases
 Customer Service Insights automatically detects the language used in your support cases. It comes with natural language understanding models that can understand text sementics and intent from your cases. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for. For more information about the supported languages, see [Language support for case grouping as topics](supported-languages.md#language-support-for-case-grouping-as-topics).
 
 > [!NOTE]
-> The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
+> The Topics page in the sample workspace doesn't support actions such as renaming a topic, moving cases to another topic, providing feedback, etc. To try these functionalities, create your own Customer Service Insights workspace.
 
 Customer Service Insights uses artificial intelligence technology to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. The Topics page shows all topics that contain three or more cases.
 
