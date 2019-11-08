@@ -30,6 +30,7 @@ Customer Service Insights uses artificial intelligence technology to group relat
 You can then view and manage the topics and associated support cases in a variety of ways, including:
 
 * [Searching for a topic](#searching-for-a-topic)
+* [Viewing analytics for a topic](#viewing-analytics-for-a-topic)
 * [Viewing support cases for a topic](#viewing-support-cases-for-a-topic)
 * [Providing feedback to fine-tune the way cases are grouped into topics](#providing-feedback-to-fine-tune-the-way-cases-are-grouped-into-topics)
 * [Moving cases to another topic](#moving-cases-to-another-topic)
@@ -51,9 +52,21 @@ To restore the original topic list, clear the search box by selecting the close 
 
 ![Clear search](media/clear-search.png)
 
+## Viewing analytics for a topic
+
+You can view the analytics of a topic through the Topic details analytics dashboard by selecting the topic in the Topics list. For example, to view the analytics for the *Password reset link is invalid* topic, select it in the list.
+
+![View cases](media/view-cases.png)
+
+ You can also display the Topic details analytics dashboard from one of the AI Insights charts in the [KPI summary](dashboard-kpi-summary.md), [Incoming cases](dashboard-incoming-cases.md), [Customer satisfaction](dashboard-CSAT.md), and [Case resolution](dashboard-case-resolutions.md) dashboards. To display the Topic details analytics dashboard from AI Insights charts, click the link icon in **Details** column accoresponding to the topic you want to drill through. 
+
+![Topic details drillthrough](media/topic-drillthrough.png)
+
+The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic. For more information about the Topic details anlytics dashboard, see [Topic details dashboard](dashboard-topic-details.md).
+
 ## Viewing support cases for a topic
 
-You can view the top 200 support cases associated with a topic by selecting it in the Topics list. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list.
+You can view the top 200 most relevant support cases associated with a topic by selecting it in the Topics list, then select **Cases** tab on the page. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list, then select **Cases** tab.
 
 ![View cases](media/view-cases.png)
 

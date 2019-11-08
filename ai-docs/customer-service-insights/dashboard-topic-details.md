@@ -1,6 +1,6 @@
 ---
-title: "Topic details dashboard"
-description: "Learn about the customer service insights available on the Topic details dashboard​."
+title: "Topic details analytics dashboard"
+description: "Learn about the customer service insights available on the Topic details analytics dashboard​."
 keywords: ""
 ms.date: 4/23/2019
 ms.service:
@@ -15,17 +15,17 @@ search.audienceType: enduser
 search.appverid: met150
 ---
 
-# Topic details dashboard
+# Topic details analytics dashboard
 
-![Topic details dashboard](media/topic-details.png)
+![Topic details analytics dashboard](media/topic-details.png)
 
-The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
+The Topic details analytics dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic.
 
-You can display the Topic details dashboard from one of the AI Insights charts in the [KPI summary](dashboard-kpi-summary.md), [Incoming cases](dashboard-incoming-cases.md), [Customer satisfaction](dashboard-CSAT.md), and [Case resolution](dashboard-case-resolutions.md) dashboards. To display the Topic details dashboard, right-click a topic name, hover over **Drillthrough**, and then select **Topic drillthrough**.
+You can display the Topic details analytics dashboard from one of the AI Insights charts in the [KPI summary](dashboard-kpi-summary.md), [Incoming cases](dashboard-incoming-cases.md), [Customer satisfaction](dashboard-CSAT.md), and [Case resolution](dashboard-case-resolutions.md) dashboards. To display the Topic details analytics dashboard, click the link icon in **Details** column accoresponding to the topic you want to drill through, or select a topic from the Topics page. 
 
 ![Topic details drillthrough](media/topic-drillthrough.png)
 
-The Topic details dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
+The Topic details analytics dashboard includes a variety of charts with graphical views of key performance indicators for the topic. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
 * [Topic details KPI charts](#topic-details-kpi-charts)
 * [Overall impact charts](#overall-impact-charts)

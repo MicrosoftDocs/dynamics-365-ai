@@ -122,7 +122,7 @@ To see additional information about each topic, right-click the topic name, hove
 
 ## Emerging topics chart
 
-![Emerging topics chart](media/emerging-topics.png)
+![Emerging topics chart](media/emerging-topics-kpi.png)
 
 The Emerging topics chart displays support topics that have a high volume of change in order of the change in volume over the specified time period. This chart shows the topics with high volume changes before they become popular topics.
 
