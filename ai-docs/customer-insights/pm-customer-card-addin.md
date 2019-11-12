@@ -78,12 +78,6 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
 
 6. Select **Save configuration** to save the setting. 
 
-   > [!div class="mx-imgBorder"] 
-   > ![Save card configuration](media/card-configuration-save.png "Save card configuration")
-
-   > [!div class="mx-imgBorder"] 
-   > ![Configuration saved](media/card-configuration-save2.png "Configuration saved")
-
 7. Next, you will need to assign the following user roles:
 
    - Customer Insights Card Customizer: Assign this role to the users who will customize the content to be shown on the card for the whole organization.
