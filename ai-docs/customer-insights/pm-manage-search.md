@@ -80,5 +80,5 @@ The **Filter** menu on the **Customers** page can include a varying number of at
 
 3. Select **Run** once you are ready to apply your settings.
 
-> [!div class="mx-imgBorder"]
-> ![Save and Run](media/search-sort-filter-save-run.png "Save and Run")
+   > [!div class="mx-imgBorder"]
+   > ![Save and Run](media/search-sort-filter-save-run.png "Save and Run")
