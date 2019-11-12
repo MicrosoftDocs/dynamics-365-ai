@@ -2,7 +2,7 @@
 title: "Customer Card add-in | MicrosoftDocs"
 description: Customer Card add-in
 ms.custom: ""
-ms.date: 08/05/2019
+ms.date: 11/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -33,7 +33,7 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
   > [!div class="mx-imgBorder"] 
   > ![Permissions page](media/permissions-page.png "Permissions page")
 
-## Install Customer Card Add-in
+## Install the Customer Card Add-in
 
 1. As an admin, go to the **Settings** section in model-driven apps in Dynamics 365, and select **Solutions**. 
 
@@ -71,12 +71,11 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
    > [!div class="mx-imgBorder"] 
    > ![Contact ID field](media/contact-id-field.png "Contact ID field")
   
-    For associating an Account form to an Organization, you can select the Customers Insights Customer entity that corresponds to the Organization ID (CompanyId in this case).
+    To assiociate an Account form to an organization, you can select the Customers Insights Customer entity that corresponds to the organization ID (CompanyId in this case).
    > [!div class="mx-imgBorder"] 
    > ![Contact ID field](media/customer-card-add-in-b2b.png "Account ID field")
 
-
-6. Select **Save configuration** to save the setting. 
+6. Select **Save configuration** to save the settings. 
 
 7. Next, you will need to assign the following user roles:
 
