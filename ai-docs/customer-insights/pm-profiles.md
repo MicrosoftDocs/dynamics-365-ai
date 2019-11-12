@@ -1,6 +1,6 @@
 ---
 title: "Customers | MicrosoftDocs"
-description: 
+description: Get a consolidated view on you unified customer profiles.
 ms.date: 11/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
