@@ -1,25 +1,20 @@
 ---
 title: "Customers | MicrosoftDocs"
 description: 
-ms.custom: ""
-ms.date: 11/07/2019
+ms.date: 11/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
 # Customers
 
-The **Customers** page presents a consolidated view of each customer based on profile data you gathered from all of your data sources. The page also lets you search for customers. Customers can be individuals or organizations (Preview). Each customer profile is represented by a Customer Card tile as shown here:
+The **Customers** page presents a consolidated view of your customers based on profile data gathered from all data sources. Customer profiles are available once you [create the unified Customer entity](pm-configure-data.md). Make sure you complete the data unification process in order to get richer views of your customers. The page also let you search for customers. Customers can be individuals or organizations (preview). Each customer or organization profile is represented by a tile. Select a tile to see additional information on that specific customer or organization. Use the pagination controls at the bottom of the page to see additional records.
 
 > [!div class="mx-imgBorder"] 
 > ![B2C customer profiles](media/profiles-customers.png "B2C customer profiles")
@@ -29,65 +24,27 @@ Organizations (Preview)
 > ![B2B customer profiles](media/profile-customers-b2b.png "B2B customer profiles")
 
 > [!NOTE]
-> If the following screen appears when you select **Customers** in the left-side navigation pane, your administrator needs to define at least one searchable attribute on the **Search & filter index** screen:
-
-> [!div class="mx-imgBorder"] 
-> ![Add attributes](media/add-attributes3.png "Add attributes")
-
-If that is the case, your administrator can use the **Search & filter index** section to learn how to use the **Search & filter index** screen. Once at least one attribute is defined as searchable, you should be able to see the **Customers** page. 
-
-On the **Customers** page, you can start viewing your customers' profiles. You can always go to the next **Customers** page and view more customer profiles using the buttons in the lower-right of the page.
-
-> [!div class="mx-imgBorder"] 
-> ![View customer profiles](media/profiles-customers2.png "View customer profiles")
-
-
-> [!NOTE]
-> Customer profiles are available once you create the unified Customer entity. Make sure you complete the data unification process in order to unlock richer views of your customers. Visit the **Unify** section to learn more. 
-
-> [!div class="mx-imgBorder"] 
-> ![Customer Card tiles](media/customer-card-tile.png "Customer Card tiles")
-
-Select a customer tile to see additional information on that specific customer. As shown here, that information might include attributes such as **Country**, **Email**, **Street address**, and **Phone** that exist in one or more of your data sources:
-
-> [!div class="mx-imgBorder"] 
-> ![Customer Card tile customer info](media/customer-card-tile-customer-info.png "Customer Card tile customer info")
+> If can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](pm-manage-search.md) on the **Search & filter index**.
 
 ## Search for customers
 
-Search for customers by entering an attribute name (for example, the customer’s name) in the search box. As an admin, you can always reselect and reconfigure your searchable attributes using the **Search & filter index** page that is accessible via the **Search & filter index** button:
+Search for customers by entering a name or some other attribute in the search box. The search only works within the Customer Profile entity created during the data unification process.
 
-> [!div class="mx-imgBorder"] 
-> ![Search & filter index](media/search-filter-index.png "Search & filter index")
-
-Note that the search will be executed only within the Customer Profile entity created during the data unification process.
-
-> [!div class="mx-imgBorder"] 
-> ![Customer Card tile search](media/customer-card-tile-search.png "Customer Card tile search")
-
-After selecting one of the customer tiles, you can also search for a specific attribute within this customer's information.
-
-> [!div class="mx-imgBorder"] 
-> ![Search for customer attribute](media/customer-card-tile-search2.png "Search for customer attribute")
+As an admin, you can configure the searchable attributes using the **Search & filter index** page. For more information, see [Manage search & filter index](pm-manage-search.md).
 
 ## Filter customers
 
-Filtering customers can be done via a menu that includes your Customer Profile entity fields as filters. Same as for search, your admin will first need to define those fields as filterable using the **Search & filter index** page. 
+You can filter customers by the Customer Profile entity fields. Similar to search, your admin will first need to define the fields as filterable using the **Search & filter index** page.
 
-First, select **Filter** on the top right corner of the **Customers** screen.
+1. Select **Filter** on the top right corner of the **Customers** page.
 
-> [!div class="mx-imgBorder"] 
-> ![Customer Card tile filter](media/customer-card-tile-filter.png "Customer Card tile filter")
+2. Check the boxes next to the attributes you want to filter customers by.
 
-Then, check the boxes next to the attributes you want to filter customers by. As with Search, you will be able to filter only by attributes that exist in your Customer Profile entity and that were defined by the administrator on the **Search & filter index** page.
+   > [!div class="mx-imgBorder"] 
+   > ![Customer profiles](media/profiles-customers3.png "Customer profiles")
 
-> [!div class="mx-imgBorder"] 
-> ![Customer profiles](media/profiles-customers3.png "Customer profiles")
+3. Remove your filters by selecting **Clear filters** on the top right corner of the **Customers** screen.
 
-To remove your saved filters, select **Clear filters** on the top right corner of the **Customers** screen.
+## Next steps
 
-> [!div class="mx-imgBorder"] 
-> ![Customer Card tile clear filter](media/customer-card-tile-clear-filter.png "Customer Card tile clear filter")
-
-### Next Step
-Review both the **Data Sources** and **Unify** sections, where you will learn to ingest and unify your data.
+[Add more data sources](pm-data-sources.md) and [unify your customer profiles](pm-configure-data.md).
