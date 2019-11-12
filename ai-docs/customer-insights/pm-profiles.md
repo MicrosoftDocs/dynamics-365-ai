@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Customers
 
 The **Customers** page presents a consolidated view of your customers based on profile data gathered from all data sources. Customer profiles are available once you [create the unified Customer entity](pm-configure-data.md). Make sure you complete the data unification process in order to get richer views of your customers. The page also let you search for customers. Customers can be individuals or organizations (preview). Each customer or organization profile is represented by a tile. Select a tile to see additional information on that specific customer or organization. Use the pagination controls at the bottom of the page to see additional records.
