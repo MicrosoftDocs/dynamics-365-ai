@@ -70,6 +70,11 @@ The Customer Card enables you to gain a 360-degree view on each of your customer
 
    > [!div class="mx-imgBorder"] 
    > ![Contact ID field](media/contact-id-field.png "Contact ID field")
+  
+    For associating an Account form to an Organization, you can select the Customers Insights Customer entity that corresponds to the Organization ID (Company ID in the example below).
+   > [!div class="mx-imgBorder"] 
+   > ![Contact ID field](media/customer-card-add-in-b2b.png "Account ID field")
+
 
 6. Select **Save configuration** to save the setting. 
 
