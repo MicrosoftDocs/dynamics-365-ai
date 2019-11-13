@@ -21,7 +21,7 @@ topic-status: Drafting
 The Who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts. 
 
 > [!NOTE]
-> Relationship analytics is currently not avalable in North American (NAM) region.
+> Relationship analytics is currently not available in the North American (NAM) region.
 
 To configure who knows whom, follow these steps:
 
