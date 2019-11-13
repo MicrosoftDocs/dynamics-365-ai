@@ -174,15 +174,15 @@ When email engagement is enabled for your site, all of the controls required to 
   
 6. Select **Choose File** to open a file-browser window, then locate and select the file.  
   
-<!-- 7. Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
+7. Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
   
    ![Manage Attachment window with document and follow button](media/manage-attachment-window-document-follow-button.png "Manage Attachment window with document and follow button")  
   
-8. Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).  -->
+8. Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).
   
-6. Select **Close** to close the pop-up window.  
+9. Select **Close** to close the pop-up window.  
   
-7. Your file is now listed in the **Attachment** area. Note that each attachment listed here indicates its size and follow status.  
+10. Your file is now listed in the **Attachment** area. Note that each attachment listed here indicates its size and follow status.  
   
 <!--    > [!NOTE]
     >  To remove an attachment or edit its follow status, click its name in this list to open its **Manage Attachment** window, and then use the buttons provided.  
@@ -190,9 +190,9 @@ When email engagement is enabled for your site, all of the controls required to 
     > ![Remove or unfollow an attachment](media/remove-unfollow-attachment.png "Remove or unfollow an attachment")  
 -->
 
-8. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
+11. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-9. When you are ready to send the message, select **Send** (or select **Save** if you want to save a draft and finish it later).  
+12. When you are ready to send the message, select **Send** (or select **Save** if you want to save a draft and finish it later).  
   
 <a name="DeliveryTime"></a>   
 
