@@ -21,7 +21,7 @@ topic-status: Drafting
 Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account to the users.
 
 > [!NOTE]
-> Relationship analytics is currently not avalable in North American (NAM) region.
+> Relationship analytics is currently not available in the North American (NAM) region.
 
 To configure Relationship analytics, follow these steps:
 
