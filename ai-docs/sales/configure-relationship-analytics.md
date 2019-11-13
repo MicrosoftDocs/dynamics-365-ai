@@ -18,7 +18,12 @@ topic-status: Drafting
 
 # Configure Relationship analytics
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account to the users. To configure Relationship analytics, follow these steps:
+Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account to the users.
+
+> [!NOTE]
+> Relationship analytics is currently not avalable in North American (NAM) region.
+
+To configure Relationship analytics, follow these steps:
 
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
 
