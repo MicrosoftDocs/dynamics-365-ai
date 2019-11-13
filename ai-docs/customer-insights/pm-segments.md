@@ -1,7 +1,7 @@
 ---
 title: "Segmentation| MicrosoftDocs"
 description: 
-ms.date: 11/01/2019
+ms.date: 11/13/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -15,54 +15,45 @@ manager: shellyha
 
 # Segments
 
-The segmentation capability of Customer Insights enables you to group your customers into cohorts based on demographic, transactional, or behavioral customer attributes. Using segmentation, you can target promotional campaigns, sales activities, and customer support actions to achieve your business goals. 
+The segmentation capability in Dynamics 365 Customer Insights enables you to group your customers based on demographic, transactional, or behavioral attributes. You can use segmentation to target promotional campaigns, sales activities, and customer support actions to achieve your business goals.
 
-You can define complex filters around the Customer Profile entity and its graph of related entities. Each segment, after processing, outputs a set of customer entity records that you can export and take action on.
+You can define complex filters around the Customer Profile entity and its related entities. Each segment, after processing, creates a set of customer entity records that you can export and take action on.
 
 There are two types of segments:
 
-- **Static**: A segment that is processed only once—either upon the creation or update of any of its filters. These segments are especially useful when properties are not expected to change over time or when they are expected to be used only once. Example use case: Customers who attended an expo event. 
-- **Dynamic**: A segment that is processed according to a recurring schedule. These segments are especially useful when customers' attributes change over time. Example use case: Customers who have bought products worth more than $500 in the last three months. The current refresh schedule for dynamic segments is every 12 hours.
+- **Static segments**: Segments that are processed only once — either after the creation or update of any of its filters. Use static segments when properties are not expected to change over time or when they are expected to be used only once. For example, customers who attended a specific event.
+- **Dynamic segments**: Segments that are processed according to a recurring schedule. Use dynamic segments when customers' attributes change over time. For example, customers who have bought products worth more than $500 in the last three months. Currently, dynamic segments are refreshed 12 hours.
 
-The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who have placed orders of more than $500 in the last 90 days **and** who have been involved in a customer service call that got escalated in the last 30 days
-
-Later, we will learn how to produce such segments. 
+The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who ordered goods for more than $500 in the last 90 days *and* who were involved in a customer service call that got escalated.
 
 > [!div class="mx-imgBorder"] 
 > ![Multiple groups](media/segmentation-group1-2.png "Multiple groups")
 
-- Group 1 uses **Order** as the starting entity in order to find customers who have placed an order for more than $500 in the last 90 days.
-- Group 2 uses **Case** as the starting entity in order to find customers who have had an escalated case in the last 30 days.
+## Create a new segment
 
-The following two sections cover segment creation followed by segment exploration.
+Segments are managed on the **Segments** page in Customer Insights.
 
-## Creating your first segment
+1. Go to the **Segments** page in Customer Insights.
 
-To create a segment, you can either select **Add Segment** at the upper-right corner of the page, or select **Get Started**.
+2. Select **New segment**.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Add segment](media/add-segment-full.png "Add segment")
 
-### Step 1: Define the segment's properties using the **New Segment** panel
+3. In the **New segment** pane, choose a segment type and provide a **Name**.
 
-> [!div class="mx-imgBorder"] 
-> ![Choose segment type](media/choose-segment-type.png "Choose segment type")
+  > [!div class="mx-imgBorder"] 
+  > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
 
-- Choose between a **Dynamic** and a **Static** segment.
-- Give your segment an informative name, a display name, and a description that will help us identify it in the future, when we have multiple segments. There are no limitations on display name but there are some limitations on name (a space is not allowed, for example).
-- Select **Next**. You will go to the **Segment builder** page.
+  Optionally, provide a display name, and a description that helps identifying the segment. 
 
-### Step 2: Create a first group 
+4. Select **Next** to get to the **Segment builder** page where you define a group. A group is a set of customers.
 
-In Customer Insights, a group is a set of customers.
+5. Choose the entity that includes the attribute you want to segment by.
 
-**Define a group**
+6. Choose the attribute by which you want to segment. The attribute can have one of four value types: numerical, string, date, or Boolean. 
 
-1. Choose the entity that includes the specific attribute you want to segment by. For example, choose an Orders entity, since it includes an Order Value field by which we want to segment. In order to choose your entity of interest, select the field shown here.
-
-2. Choose the attribute by which you want to segment. Our attribute can have one of four value types: numerical, string, date, or Boolean. In the following example, an attribute with a numerical value is used as a filter.
-
-3. Choose an operator and a value for the attribute we chose in step 2. In the following example, an operator (**Equals**) and value (**2**) were chosen.
+7. Choose an operator and a value for the selected attribute.
 
    > [!div class="mx-imgBorder"] 
    > ![Custom group filter](media/customer-group-numbers.png "Customer group filter")
@@ -74,11 +65,13 @@ In Customer Insights, a group is a set of customers.
    |3    |Operator         |
    |4    |Value         |
 
-    Note that one of the segmentation strengths of Customer Insights is the variety of operators it supports. 
+8. Add entities that are related to that entity until getting to the Customer Profile entity. To this step, you might need to first [define relationships between entities](pm-relationships.md) on the **Relationships** page.
 
-4. Add entities that are related to that entity until getting to the Customer Profile entity. Note that for the completion of this step, you might need to first define relationships between entities using the **Relationships** page (see the “Relationships” section for more information). Next we will present an example that illustrates this requirement. 
+9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be [saved as a draft](#draft-mode).
 
-5. **Save** your segment. Your segment will be saved and if valid, processed. If some requirements were not met, it will be saved as a **draft**. Later we will describe in further detail the draft mode. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
+10. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
+
+<!-- continue here-->
 
 #### Example – group creation
 
