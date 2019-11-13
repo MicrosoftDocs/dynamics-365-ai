@@ -18,12 +18,7 @@ topic-status: Drafting
 
 # Configure Who knows whom
 
-The Who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts. 
-
-> [!NOTE]
-> Who knows whom is currently not available in the North American (NAM) region.
-
-To configure who knows whom, follow these steps:
+The Who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts. To configure who knows whom, follow these steps:
 
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
 
