@@ -46,7 +46,7 @@ The KPI summary charts summarize the key performance indicators for the specifie
 
 Description | Details
 ----------- | -------
-Total cases | New cases created within the specified time period plus rollover cases (including all rollover cases that are active, resolved, or canceled within the specified time period)
+Total cases | New cases created within the specified time period plus rollover cases (including all rollover cases that are active; and rollover cases that were resolved or canceled within the specified time period)
 Resolutions | All cases resolved within specified time period
 Escalations | All cases escalated within specified time period
 SLA compliant | Of the total cases, the cases that are service-level-agreement (SLA) compliant (including rollover cases and new cases that are SLA compliant)
