@@ -51,8 +51,8 @@ For more information, see [Dynamics 365 Customer Service entities used by Custom
 >[!NOTE]
 >Previously, the *Incident Id* field was available for mapping; now it's automatically mapped to the primary key of your dataset.
 
-
-   ![Map fields](media/map-fields.png)
+ > [!div class="mx-imgBorder"]
+ > ![Map fields](media/map-fields.png)
 
 ## To map data by specifying data mapping settings
 
