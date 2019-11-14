@@ -2,7 +2,7 @@
 title: "Use external data sources in Customer Service Insights to get AI insights"
 description: "No matter where your customer service data lives, you can leverage the same AI model offered by CSI to identify top trends and emerging topics."
 keywords: "data, external, salesforce, zendesk, source, insights"
-ms.date: 11/1/2019
+ms.date: 11/14/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -62,7 +62,7 @@ To create a custom entity:
  
 2.	Select **+ New entity** in the menu bar to open the **New entity** panel:
     1. Enter *my cases* in the first **Display name** field; the **Plural display name** and **Name** fields will be filled out automatically.
-    2. Enter *Case Number* in the **Display name** field under the **Primary Field** section. The **Name** field will be filled out automatically.
+    2. Enter *Case number* in the **Display name** field under the **Primary Field** section. The **Name** field will be filled out automatically.
     3. Click **Create** to create the entity. The entity will be automatically selected.
 
     ![Filled out new entity creation form](media/csi-new-entity.png)
@@ -78,7 +78,7 @@ To create a custom entity:
 
 Field name|Field type|Required|Description
 ---|---|---|	---
-*Case Number* |**Text**|	**Yes** |	The ticket number (or combination of characters and digits) you use to track cases. This should be unique and will be used as the primary key of the dataset. <br />Note: if your dataset has two separate fields for uniquely identifying each case the display number of each case (for example, *case id* and *case number*), it’s possible to create two separate fields for data import, and set the unique *case id* as the primary key, then map *case number* as the display field (shown in the next section)
+*Case number* |**Text**|	**Yes** |	The ticket number (or combination of characters and digits) you use to track cases. This should be unique and will be used as the primary key of the dataset. <br />Note: if your dataset has two separate fields for uniquely identifying each case the display number of each case (for example, *case id* and *case number*), it’s possible to create two separate fields for data import, and set the unique *case id* as the primary key, then map *case number* as the display field (shown in the next section)
 *Case title* |	**Text** (single line) or **Multiline Text** (multi line) |	**Yes**|	A summary of the customer support issue. The AI will use this field to cluster similar cases based on semantic meaning. <br />Edit **Maximum length** under **Advanced options** to fit your data (for example, *500*). This is measured in characters allowed in the field.
 *Source created date* |**Date and Time**|	**Yes** |	The date and time the case was created in common UTC time zone format.
 *Resolved date* |	**Date and Time**|	**No** |	The date and time the case was last modified in common UTC time zone format.
@@ -166,7 +166,7 @@ As an example, your entity and fields mapping should look like the following scr
     ![Select your fields under Map case records](media/csi-map-case-records.png)
  
 
-Once done, your workspace with external data imported in [Import your data from an external source in Power Apps](#import-your-data-from-an-external-source-in-power-apps) should be ready with topics identified by AI.
+After mapping is complete, your workspace with external data imported in [Import your data from an external source in Power Apps](#import-your-data-from-an-external-source-in-power-apps) should be ready with topics identified by AI.
 >[!TIP]
 > - **KPI Summary**: use **Case Volume Drivers** and **Emerging Topics** to see areas for your cases, click on each topic to see how each affect the resolution, priority, incoming channel, and so on.
 > - **New Cases:** find out which topics have the most new cases and emerging.
