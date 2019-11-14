@@ -47,10 +47,10 @@ You or an administrator can add this application on Microsoft Teams. To learn mo
 
 ### See also
 
+[Configure Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams)
+
 [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
 [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
 
 [Access Dynamics 365 assistant application](access-assistant-application-teams.md)
-
-[Get answers through bot assistant](use-bot-assistant.md)

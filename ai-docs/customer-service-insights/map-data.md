@@ -84,4 +84,8 @@ Here are some things to keep in mind when you map your data to custom entities a
 
   For example, *SLAStatus* indicates whether a case is compliant with the service level agreement (SLA). You can define multiple different values for compliant cases. Customer Service Insights only uses the value *4* to identify noncompliant cases. The pick list values defined for *Satisfaction* indicate the customer satisfaction score (CSAT). Customer Service Insights reads values from 1 to 5 to calculate the average CSAT.
 
+
 * When you create a custom entity and field in PowerApps, a custom option value is auto-generated for each option label you add to a form. As a result, make sure a pick list's option values are aligned with data requirements. For example, the values of a CSAT field should reflect the actual CSAT score (*1* to *5* in most cases) and an SLA status field should use the value *4* to indicate that a case is not compliant.
+
+  For example, SLA Status indicates whether a case is compliant with the service level agreement (SLA). You can define multiple different values for compliant cases. Customer Service Insights only uses the value 4 to identify noncompliant cases. The pick list values defined for Satisfaction indicate the customer satisfaction score (CSAT). Customer Service Insights reads value from 1 to 5 to calculate the average CSAT.
+
