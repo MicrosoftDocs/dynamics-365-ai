@@ -67,7 +67,7 @@ Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sal
 ## Create and send followed email message  
   
 > [!NOTE]
-> Users can only follow emails through on Email form.
+> Users can only follow emails through an Email form.
 
 When email engagement is enabled for your site, all of the controls required to create and send an email with some or all of its  features enabled are available on the **New Email** page, as shown in the following figure. This page is shown whenever you create an email in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
   
@@ -184,12 +184,6 @@ When email engagement is enabled for your site, all of the controls required to 
   
 10. Your file is now listed in the **Attachment** area. Note that each attachment listed here indicates its size and follow status.  
   
-<!--    > [!NOTE]
-    >  To remove an attachment or edit its follow status, click its name in this list to open its **Manage Attachment** window, and then use the buttons provided.  
-    >   
-    > ![Remove or unfollow an attachment](media/remove-unfollow-attachment.png "Remove or unfollow an attachment")  
--->
-
 11. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
 12. When you are ready to send the message, select **Send** (or select **Save** if you want to save a draft and finish it later).  
