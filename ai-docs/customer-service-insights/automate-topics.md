@@ -57,4 +57,4 @@ After reviewing topic details and identify a candiate for automation, you can au
 ## Automate topics from Topics page
 You can also automate topics from Topics page. To do that, go to Topics page, hover over the topic you want to automate in the topic list, rhwn select **Automate** icon. 
 
-![Automate topics from Topics page](media/automate-topic-details.png)
+![Automate topics from Topics page](media/automate-topic-list.png)
