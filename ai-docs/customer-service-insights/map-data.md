@@ -2,7 +2,7 @@
 title: "Map your data to custom entities and fields"
 description: "Generate insights by mapping your data to custom data entities and fields in Dynamics 365 Customer Service Insights​."
 keywords: ""
-ms.date: 11/1/2019
+ms.date: 11/14/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -18,7 +18,7 @@ ms.collection: CSI
 
 # Map your data to custom entities and fields
 
-Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the *Case* entity and several other related entities in Common Data Service (CDS) for Apps.
+Dynamics 365 Customer Service Insights works by default with data from the Dynamics 365 Customer Service application. The built-in dashboards and interactive charts in Customer Service Insights use data stored in default Dynamics 365 entities and data fields, primarily in the *case* entity and several other related entities in Common Data Service (CDS).
 
 However, you may want to generate insights by mapping to data from custom entities and fields in CDS. Mapping to data from custom entities and fields is useful in the following cases:
 
@@ -33,9 +33,7 @@ When you create a Customer Service Insights workspace and connect to a Dynamics 
 
 After a workspace is created, you can map to data from custom entities and fields by specifying data mapping settings.
 
-See [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md) for more information about common entities.
-
-See [Use workspaces to connect to different customer service environments](use-workspaces.md) for more information on using a workspace to connect to an environment.
+For more information, see [Dynamics 365 Customer Service entities used by Customer Service Insights](customer-service-entities.md) and [Use workspaces to connect to different customer service environments](use-workspaces.md).
 
 ## To map data when you connect to a Dynamics 365 environment
 
@@ -45,11 +43,11 @@ See [Use workspaces to connect to different customer service environments](use-w
 
    ![Map your data](media/map-your-data.png)
 
-3. On the **Find your incident records** page, select the entity or entities that contain the data fields you want to use for mapping, and then select **Next**.
+3. On the **Find your incident records** page, select any entities that contain the data fields you want to use for mapping, and then select **Next**.
 
    ![Select entity](media/select-entity.png)
 
-4. On the **Map your incident records** page, select the data fields you want to use from the drop-down menu. Some fields have been mapped automatically. Then select **Done**.
+4. On the **Map your incident records** page, select the data fields you want to use from the drop-down list. Some fields have been mapped automatically. Then select **Done**.
 >[!NOTE]
 >Previously, the *Incident Id* field was available for mapping; now it's automatically mapped to the primary key of your dataset.
 
