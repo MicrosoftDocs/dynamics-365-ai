@@ -39,7 +39,7 @@ You can consider topics as good candidates for automation, if they are:
 * Straightforward to resolve, so that a bot is more likely capable to handle it. You can tell that if a topic has lower average resolution time, higher resolution rate, and/or fewer escalations;
 * Topics appear or will appear with higher volume, so that the automation can bring you more business benefit and impact. You can tell that from [case volume drivers](dashboard-kpi-summary.md#case-volume-drivers-chart) and [emerging topics](dashboard-kpi-summary.md#emerging-topics-chart) in Customer Service Insights.
 
-Customer Service Insights also calculates resolution time impact for each topic, which has already taken into account both average resolution time and case volume. See [Resolution time drivers chart](dashboard-case-resolutions.md) for more details how resolution time impact is calculated. 
+Customer Service Insights also calculates resolution time impact for each topic, which has already taken into account both average resolution time and case volume. See [Resolution time drivers chart](dashboard-case-resolutions.md#resolution-time-drivers-chart) for more details how resolution time impact is calculated. 
 
 To view topic details analytics, see [Topic details analytics dashboard](dashboard-topic-details.md) for more information. 
 
