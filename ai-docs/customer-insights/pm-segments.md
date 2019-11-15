@@ -90,7 +90,7 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 8. Add entities that are related to that entity until getting to the Customer Profile entity. To this step, you might need to first [define relationships between entities](pm-relationships.md) on the **Relationships** page.
 
-9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be [saved as a draft](#draft-mode).
+9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be saved as a draft.
 
 10. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
 
