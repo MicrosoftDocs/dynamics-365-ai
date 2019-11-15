@@ -1,7 +1,7 @@
 ---
 title: "Segmentation| MicrosoftDocs"
 description: 
-ms.date: 11/13/2019
+ms.date: 11/14/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -28,6 +28,32 @@ The following example illustrates the depth of the Customer Insights segmentatio
 
 > [!div class="mx-imgBorder"] 
 > ![Multiple groups](media/segmentation-group1-2.png "Multiple groups")
+
+## Manage existing segments
+
+
+On the **Segments** page, you can view all your saved segments and manage them.
+
+Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trend line to see how the customer count in the segement evolved over time. 
+
+To see your segments in a table format, select the table format icon.
+
+> [!div class="mx-imgBorder"] 
+> ![Static segment](media/segmentation-static-segment.png "Static segment")
+
+To manage a segment, select the ellipses on the segment's tile.
+
+> [!div class="mx-imgBorder"]
+> ![Explore segments](media/segments-list2.png "Explore segments")
+
+The following options are available:
+
+- Edit the segment
+- View the segment's members
+- [Export](export-destinations.md). the segment
+- Change a state of a dynamic segment to inactive or active
+- Run the processing of a static segment
+- Delete the segment
 
 ## Create a new segment
 
@@ -78,7 +104,7 @@ If not all requirements to process a segment are met, you can safe the segment a
 
 You can't run or activate the segment until it's a valid segment. You'll see a message in the app if you try to run or activate a segment that isn't valid.
 
-## Add more conditions to a group (optinal)
+## Add more conditions to a group
 
 To add more conditions to a group, you can use two logical operators:
 
@@ -91,65 +117,49 @@ To add more conditions to a group, you can use two logical operators:
 
 Note that currently, it's possible to nest an **OR** operator under an **AND** operator but not vice versa.
 
-## Combine multiple groups (optional)
+## Combine multiple groups
 
-Each group produces a specific set of customers. Start by selecting **Add Group**.
+Each group produces a specific set of customers and you combine these groups to get include the customers you need for your business case.
 
-> [!div class="mx-imgBorder"] 
-> ![Customer group add group](media/customer-group-add-group.png "Customer group add group")
+1. Open a segement on the **Segments** page.
 
-Three set operators are displayed: **Union**, **Intersect**, and **Exclude**.
+2. Select **Add Group**.
 
-> [!div class="mx-imgBorder"] 
-> ![Customer group add union](media/customer-group-union.png "Customer group add union")
- 
-Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
+   > [!div class="mx-imgBorder"]
+   > ![Customer group add group](media/customer-group-add-group.png "Customer group add group")
 
-- **Union** unites the new group you have created in Step 4 with the group you have created in Steps 2 and 3. With this option, data that is common to both groups is maintained, as well as data that is not common to both groups.
+3. Select one of the following set operators: **Union**, **Intersect**, or **Exclude**.
 
-- **Intersect** intersects the two groups. Only data that is common to both groups is maintained in the unified group.
+   > [!div class="mx-imgBorder"] 
+   > ![Customer group add union](media/customer-group-union.png "Customer group add union")
 
-- **Exclude** excludes the two groups. Only data that is not common to both groups is maintained.
-   
-## Explore segments from the Segments page
+   Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
 
-> [!div class="mx-imgBorder"] 
-> ![Explore segments](media/segments-list2.png "Explore segments")
+   - **Union** unites the two groups. In general, this creates a larger group in total.
 
-On the Segments page, you can view all your saved segments and perform certain actions.
+   - **Intersect** overlaps the two groups. Only data that *is common* to both groups is maintained in the unified group.
 
-- Dynamic segments appear to the left, and Static segments appear to the right.
-- Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trendline to see last week's growth in this segment's members count. If you prefer to view all of your segments in a table format, select one of the following:
-  > [!div class="mx-imgBorder"] 
-  > ![Static segment](media/segmentation-static-segment.png "Static segment")
+   - **Exclude** combines the two groups. Only data that is *not common* to both groups is maintained.
 
-You can also perform certain actions with each segment. First, select the following button on the segment's tile:
+## View processing history and segment members
 
-> [!div class="mx-imgBorder"] 
-> ![Click button in segment tile](media/segments-list.png "Click button in segment tile")
+You can see consolidated data about a segment by reviewing it's details.
 
-Then, choose one of the following options from the drop-down menu:
-- Editing the segment.
-- Viewing the segment's members.
-- Exporting the segment to either a CSV file or to a Dynamics 365 Sales location. For more information on how to export to a Dynamics 365 location, visit the **Export destinations** section.
-- Turning a Dynamic segment to inactive or active (depending on its baseline state).
-- Running a Static segment.
-- Deleting the segment. 
-   
-## Explore a segment: View processing history and segment members
+On the **Segments** page, select the segment you want to review.
 
-Select a segment's name in the **Segments** page to get to the page shown in the following example. This page consolidates data at the segment level. The upper part of the page includes a trend graph that specifies changes in this segment's member count. In addition, hovering over each data point shows the member count for that point. Above the graph, you can find the current member count and last week's growth. 
+The upper part of the page includes a trend graph that visualizes changes in of member count. Hover over data points to see the member count on a specific date.
 
-As highlighted in this example, you can adjust the trend's time scope as well (last 30 days, last 60 days, and so on).
+You can update the the time frame of the visualization.
 
 > [!div class="mx-imgBorder"] 
 > ![Segment time range](media/segment-time-range.png "Segment time range")
 
-The lower part includes a table with all your segment's members.
+The lower part contains a list of the segment members.
 
-- Note that the specific fields that appear in this table are based on the attributes of your segment’s entities. The preceding example is typical for a **Customer** entity, but it is only one of many possible representations.
-
-- Also note that this table shows only a preview of your records. It presents the first 100 records of your segment so that you can quickly evaluate your segment and go back to the segment editor page to change its definitions. As we will see in the next section, exporting your segment produces a file that includes all your records.
+> [!NOTE]
+> Fields that appear in this list are based on the attributes of your segment’s entities.
+>
+>The list is a preview of the matching segment members and shows the first 100 records of your segment so that you can quickly evaluate it and review its definitions if needed. To see all matching records, you need to [export the segment](export-destinations.md).
 
 ## Recommended segments
 
@@ -158,7 +168,7 @@ In addition to the segment builder, there is another path for creating segments 
 1. Select one of the tiles on the **Segments** page to get started.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/quick-segment-overview.png "Select a tile for a quick segment")
+    > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
  
     - Select the **Profiles** option to build a segment that is based on the unified Customer entity. 
     - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page. 
@@ -168,18 +178,12 @@ In addition to the segment builder, there is another path for creating segments 
 3. The system will provide some additional insights that help you create better segments of your customers. 
    - For categorial fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
 
-     > [!div class="mx-imgBorder"] 
-     > ![](media/categorial-fields-select.png "Select a value for categorial fields")
-
    - For a numerical attribute the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
-
-     > [!div class="mx-imgBorder"] 
-     > ![](media/numerical-fields-select.png "Select a value for numerical fields")
 
 4.	The system will provide you with an **Estimated segment size** so you can choose whether to actually generate the segment you have defined or first revisit it get a different segment size.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/quick-segment-name.png "Name and estimation for a quick segment")
+    > ![Name and estimation for a quick segment](media/quick-segment-name.png "Name and estimation for a quick segment")
 
 5. Provide a **Name** for your segment. Optionally, provide a **Display name**.
 
@@ -192,8 +196,7 @@ For the following scenarios,we advise to use the segment builder rather than the
 - Creating segments with filters on categorial fields where the operator is different than the **Is** operator
 - Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater then** and **Less then** operators
 - Creating segments with filters on date type of fields
-    
+
 ## Next steps
 
-Visit the **Export destinations** section to learn how to export your segment to a Dynamics 365 location. 
-You can also explore the **Customer Card** and **Connectors** sections to get insights on the customer level.
+[Export a segment](export-destinations.md) and explore the [Customer Card](pm-customer-card-addin.md) and [Connectors](pm-connectors.md) to get insights on the customer level.
