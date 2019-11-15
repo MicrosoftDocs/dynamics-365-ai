@@ -40,5 +40,5 @@ Export options for Dynamics 365 are available from the [Export destinations](exp
 
 On the **Segment Export** page, under the **Destinations** table you can find another table, called **Exported Segments**, which lists  information around the segments you have exported.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Segmentation export segments](media/segmentation-export-segments.png "Segmentation export segments")
