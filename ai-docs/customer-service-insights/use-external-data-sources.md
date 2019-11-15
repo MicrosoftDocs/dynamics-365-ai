@@ -95,20 +95,20 @@ Field name|Field type|Required|Description
 
  
 <a id="classic"></a>To change the value of an **Option set** item, select **Solutions** in the navigation pane, then select **Switch to classic** to open the Classic Solution Explorer.
-
-![Open the classic explorer from the top nav bar](media/csi-switch-to-classic.png)
+> [!div class="mx-imgBorder"]
+> ![Open the classic explorer from the top nav bar](media/csi-switch-to-classic.png)
 
 In the Classic Solution Explorer, select **Common Data Services Default Solution**, which will open a new window. 
-
-![Open the CDS solution](media/csi-cds-classic.png)
+> [!div class="mx-imgBorder"]
+> ![Open the CDS solution](media/csi-cds-classic.png)
 
  In the Common Data Services Default Solution explorer, select **Option Sets** to see all the option sets you just created above. Double click on an item to edit.
- 
-![Open individual option sets](media/csi-option-sets.png)
+> [!div class="mx-imgBorder"]
+> ![Open individual option sets](media/csi-option-sets.png)
    
  In the **Option sets** window, change the **Value** field to the expected numeric value stated in the table above. Ignore any warnings that appear. 
-
-![Change the label and value for an option set](media/csi-modify-option-sets.png)
+> [!div class="mx-imgBorder"]
+> ![Change the label and value for an option set](media/csi-modify-option-sets.png)
 
 Repeat this for the option sets for each of the fields **CSAT** and **SLA Status**.
 
@@ -116,8 +116,8 @@ Repeat this for the option sets for each of the fields **CSAT** and **SLA Status
 Now that you have created the associated entity within CDS, you will need to set up the data import process to populate the entity created. 
 
 1.	In the [Power Apps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
-
-    ![New entities label in the Power Apps authoring canvas](media/csi-entities.png)
+    > [!div class="mx-imgBorder"]
+    > ![New entities label in the Power Apps authoring canvas](media/csi-entities.png)
 
 1.	In the **Power Query** window, select the type of data source that you want to import data from, and enter the appropriate connection URL and settings You should be able to obtain this from the external product’s configuration. 
     > [!NOTE]
@@ -126,21 +126,23 @@ Now that you have created the associated entity within CDS, you will need to set
 1.	Once the data is loaded, you can use the built-in Power Query functionalities to transform the data further to match the expected values from the fields previously created. 
 
     For example, if your data has status listed in a text format, it’s possible to add a conditional column to transform the data into numeric values. In the following example you’d do this by adding a conditional column under the **Add column** button on the top navigation bar. Then, for each status, you’d map the string value to the number value, such as *Active* as *0*.
-
-    ![Add a new conditional column](media/csi-add-col.png)
+    > [!div class="mx-imgBorder"]
+    > ![Add a new conditional column](media/csi-add-col.png)
 
     ![Map the status for each string to the correct numerical value](media/csi-statecode.png)
 1.	In the **Map entities** window, choose the entity previously created, and use your data fields as the source to map to the entity’s destination fields.
-
-    ![Map the status for each string to the correct numerical value](media/csi-map.png)
+    > [!div class="mx-imgBorder"]
+    > ![Map the status for each string to the correct numerical value](media/csi-map.png)
 
 1. Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform Admin center and go to Data Integration](https://admin.powerplatform.microsoft.com/ext/DataIntegration).
 
 1. Find the project you just created, usually named as **Project #**, and select it to access details for the project.
 1.	Find the item for **Temp status**, click on the **destination field** to open a window for changing the destination field to **Statecode**.
-![Select the destination field](media/csi-destination.png)
-![Set the field as Statecode](media/csi-statecodefield.png)
-1.	Once done, click **Save** and then **Run project**. 
+> [!div class="mx-imgBorder"]
+> ![Select the destination field](media/csi-destination.png)
+> [!div class="mx-imgBorder"]
+> ![Set the field as Statecode](media/csi-statecodefield.png)
+1.	Choose **Save** and then **Run project**. 
 1.	Use the **Execution history** to confirm there are no errors for the last run, and now the data is ready in CDS to be used in Customer Service Insights.
 
 > [!TIP]
@@ -156,13 +158,13 @@ Go to [Customer Service Insights](https://csi.ai.dynamics.com/) to create a work
 As an example, your entity and fields mapping should look like the following screenshots.
 
 1.	Under the **Find case records** section, select your entity
-
-    ![Select your entity under Find case records](media/csi-find-case-records.png)
+> [!div class="mx-imgBorder"]
+> ![Select your entity under Find case records](media/csi-find-case-records.png)
 
  
 2.	Under the **Map case records** section, choose your fields
-
-    ![Select your fields under Map case records](media/csi-map-case-records.png)
+> [!div class="mx-imgBorder"]
+> ![Select your fields under Map case records](media/csi-map-case-records.png)
  
 
 After mapping is complete, your workspace with external data imported in [Import your data from an external source in Power Apps](#import-your-data-from-an-external-source-in-power-apps) should be ready with topics identified by AI.
