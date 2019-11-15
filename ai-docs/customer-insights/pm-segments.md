@@ -37,9 +37,6 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 2. Select **New segment**.
 
-> [!div class="mx-imgBorder"]
-> ![Add segment](media/add-segment-full.png "Add segment")
-
 3. In the **New segment** pane, choose a segment type and provide a **Name**.
 
   > [!div class="mx-imgBorder"] 
@@ -71,66 +68,30 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 10. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
 
-<!-- continue here-->
+## Draft mode for segments
 
-#### Example – group creation
+If not all requirements to process a segment are met, you can safe the segment as a draft and access it from the **Segments** page.
 
-Let's explore a case in which we want to segment our customers by a specific clickstream activity attribute. In our example, it will be a session ID that is not equal to 1 (since this session was done on an older, outdated website version that is irrelevant for our current targeting efforts). This is the series of steps we should complete.
+- For a Dynamic segment, it will be saved as a draft.
 
-1. Select the **Select an entity** field.
-   
-2. Choose your entity of interest (**ClickStreamData: WebsiteDatabase**) and the attribute by which you want to segment (**SessionID**).
+- For a Static segment, it will be saved as an inactive segment.
 
-3. Select an operator and a value as described earlier.
+You can't run or activate the segment until it's a valid segment. You'll see a message in the app if you try to run or activate a segment that isn't valid.
 
-4. Select the **ADD** operator.
+## Add more conditions to a group (optinal)
 
-5. We need to create a path to the Customer Profile entity, but currently our entity (**ClickstreamData: WebsiteDatabase**) doesn't have a relationship with the Customer Profile entity. The only entity that has a relationship with our entity is **OnlineAccount: WebsiteDatabase** (shown in the following example), and so we will choose it.
+To add more conditions to a group, you can use two logical operators:
 
-6. Select **All Records** as an operator. No value is needed under this operator.
+- **AND** operator: UBoth conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities.
 
-7. Select the **ADD** operator again. This time, our entity does have a relationship to the Customer Profile entity (which we will select), as shown here.
+- **OR** operator: Either one of the conditions needs to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select ADD](media/segments-example-entities.png "Select ADD")
-
-8. Select **All Records** as an operator, also for the Customer Profile entity.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select All Records](media/segments-example-entities2.png "Select All Records")
-
-At this point, we have completed the mandatory path definition. We recommend that you save your first group's definitions.
-
-> [!div class="mx-imgBorder"] 
-> ![Save group definition](media/segmentation-save-group-definition.png "Save group definition")
-
-#### Draft mode
-
-As you can see, there are certain requirements that should be met in order for a segment to be processed. However, at any point of time you can save your segment as a **draft**. Upon saving, if your segment definition is missing one or more mandatory selections.
-
-- For a Dynamic segment, it will be saved as a draft on the **Segments** page.
-
-- For a Static segment, it will be saved as an inactive segment on the **Segments** page.
-
-Note that you will not be able to run or activate the segment (for a Static or Dynamic segment respectively) until it's a valid segment. You will see the following message if you try to run or activate it without meeting all the requirements.
-
-### Step 3 (optional): Add more conditions to your group 
-
-The following two logical operators can be used for that purpose:
-
-- **AND**: Under this option, both conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities (one condition per entity) as shown here.
-    
-  > [!div class="mx-imgBorder"] 
-  > ![Both conditions met](media/segmentation-both-conditions.png "Both conditions met")
-    
-- **OR**: Under this option, either one of the conditions needs to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity, as shown here.
-    
-   > [!div class="mx-imgBorder"] 
-   > ![Either conditions met](media/segmentation-either-condition.png "Either conditions met")
+   > [!div class="mx-imgBorder"]
+   > ![OR operator where either condition needs to be met](media/segmentation-either-condition.png "OR operator where either condition needs to be met")
 
 Note that currently, it's possible to nest an **OR** operator under an **AND** operator but not vice versa.
 
-### Step 4 (optional): Combine multiple groups via set operators
+## Combine multiple groups (optional)
 
 Each group produces a specific set of customers. Start by selecting **Add Group**.
 
