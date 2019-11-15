@@ -123,13 +123,13 @@ Now that you have created the associated entity within CDS, you will need to set
     > [!NOTE]
     > You may need to disable any adblockers to let a new window to show up.  
 
-1.	Once the data is loaded, you can use the built-in Power Query functionalities to transform the data further to match the expected values from the fields previously created. 
+1.	After the data is loaded, you can use the built-in Power Query functionalities to transform the data further to match the expected values from the fields previously created. 
 
     For example, if your data has status listed in a text format, it’s possible to add a conditional column to transform the data into numeric values. In the following example you’d do this by adding a conditional column under the **Add column** button on the top navigation bar. Then, for each status, you’d map the string value to the number value, such as *Active* as *0*.
     > [!div class="mx-imgBorder"]
     > ![Add a new conditional column](media/csi-add-col.png)
-
-    ![Map the status for each string to the correct numerical value](media/csi-statecode.png)
+    > [!div class="mx-imgBorder"]
+    > ![Map the status for each string to the correct numerical value](media/csi-statecode.png)
 1.	In the **Map entities** window, choose the entity previously created, and use your data fields as the source to map to the entity’s destination fields.
     > [!div class="mx-imgBorder"]
     > ![Map the status for each string to the correct numerical value](media/csi-map.png)
