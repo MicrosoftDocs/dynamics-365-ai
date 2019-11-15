@@ -1,5 +1,5 @@
 ---
-title: "Export a segment | MicrosoftDocs"
+title: "Export a segment | Microsoft Docs"
 description: Learn how to export a segment to a CSV file or a Dynamics 365 app. 
 ms.date: 11/14/2019
 ms.reviewer: ""
