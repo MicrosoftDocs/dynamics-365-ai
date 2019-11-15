@@ -1,6 +1,6 @@
 ---
 title: "Segmentation| MicrosoftDocs"
-description: 
+description: Create segments of customers to group them based on various attributes.
 ms.date: 11/14/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
