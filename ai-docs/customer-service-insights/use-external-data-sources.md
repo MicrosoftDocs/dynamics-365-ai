@@ -63,16 +63,15 @@ To create a custom entity:
 2.	Select **+ New entity** in the menu bar to open the **New entity** panel:
     1. Enter *my cases* in the first **Display name** field; the **Plural display name** and **Name** fields will be filled out automatically.
     2. Enter *Case number* in the **Display name** field under the **Primary Field** section. The **Name** field will be filled out automatically.
-    3. Click **Create** to create the entity. The entity will be automatically selected.
+    3. Choose **Create** to create the entity. The entity will be automatically selected.
  > [!div class="mx-imgBorder"]
  > ![Filled out new entity creation form](media/csi-new-entity.png)
  
-3.	Go to the **Keys** tab, and select **+ Add key**:
-    1.	Enter **Case number** as the **Display name**, and select the **Case number** check box.
+3.	Go to the **Keys** tab, and select **+ Add key**. Enter **Case number** as the **Display name**, and select the **Case number** check box.
   > [!div class="mx-imgBorder"]
   > ![Case number key showing Case number as the defined field](media/csi-case-number.png) 
  
-4.	Go back to the **Fields** tab and click **+ Add field** to add each of the fields listed in the following table. 
+4.	Go back to the **Fields** tab and choose **+ Add field** to add each of the fields listed in the following table. 
 
 <!-- Need to use html for complex lists inside table below -->
 
