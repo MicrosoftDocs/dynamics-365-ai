@@ -18,7 +18,7 @@ search.appverid: met150
 
 You can manage and improve the artificial intelligence grouping of support cases as topics by using the Topics page. You can display the Topics page by selecting **Topics** in the navigation pane.
 
-Customer Service Insights automatically detects the language used in your support cases. It comes with natural language understanding models that can understand text sementics and intent from your cases. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for. For more information about the supported languages, see [Language support for case grouping as topics](supported-languages.md#language-support-for-case-grouping-as-topics).
+Customer Service Insights automatically detects the language used in your support cases. It comes with natural language understanding models that can understand text semantics and intent from your cases. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for. For more information about the supported languages, see [Language support for case grouping as topics](supported-languages.md#language-support-for-case-grouping-as-topics).
 
 > [!NOTE]
 > The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
