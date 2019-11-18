@@ -20,43 +20,32 @@ This article provides information on how to connect a Common Data Model with Dyn
 
 - Data in your Azure Data Lake needs to follow the Common Data Model standard. Other formats aren't supported at the moment.
 
+- Customer Insights supports Azure Data Lake *Gen2* storage accounts exclusively. You can't use Azure Data Lake Gen1 storage accounts in Customer Insights.
+
 - Data stored in an online service such as Azure Data Lake Storage may be stored in a different location than where data is processed or stored in Dynamics 365 Customer Insights. By importing, or connecting to, data stored in an online service such as Azure Data Lake Storage, you agree that data can be transferred to, and stored with, Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
 
 ## Connect to a Common Data Model folder
 
-Navigate to Data > Data sources > Click ‘+ Add data source’  
+1. In Customer Insights, go to **Data** > **Data sources**.
 
-Select the ‘Connect to a Common Data Model folder’ option and click Next 
+2. Select **Add data source**.
 
- 
+3. Select **Connect to a Common Data Model folder** and select **Next**.
 
-Provide a name to identify this data source and click Next. 
+4. Enter a **Name** for the data source and select **Next**.
 
-Provide the storage details Account name, Access key and the Container details and click Next. 
+5. Provide the **Account name**, the **Access key**, and the **Container** for your Azure Data Lake storage and select **Next**.
 
- 
+6. In the **Select a Common Data Model folder** dialog, select the model.json file from the list that you want to use to import the corresponding entities into Customer Insights and select **Next**.
+   > [!NOTE]
+   > Any model.json file associated with another data source in the instance won't show in the list.
 
- 
+7. You'll get a list of available entities from the selected model.json file. You can review the entities and select **Save**. All of the listed entities will be attached to Customer Insights.
 
-We support only Azure Data Lake Gen2 storage accounts. Azure Data Lake Gen1 storage accounts are not supported. 
+8. After saving your selections, the **Data sources** page opens and you can see the newly added Common Data Model folder connection as a data source.
 
- 
-
-You will see a list of model.json files available from all the hierarchically specified folders in the container. Note that any model.json file associated with another data source in the instance will not be listed here. 
-
- 
-
-Select a model.json file that you would like to attach the corresponding entities into Customer Insights and click Next. 
-
-You will see the list of entities available from the selected model.json file for your review. 
-
- 
-
-You can review all the entities available and click Save. Currently we do not have an option to select entities from the available list and all the entities will be attached to CI. 
-
-Once you click on Save, you will be taken to the Data sources page and will see the newly added CDM folder connection as a data source. 
-
-A model.json can only associate with one data source in the instance. Meaning, two data sources cannot point to the same model.json file in any given instance. However, a model.json file can be referenced in a data source from multiple instances
+> [!NOTE]
+> A model.json file can only associate with one data source in the same instance. However, the same model.json file can be used for data sources in multiple instances.
 
 ## Edit a Common Data Model folder data source
 
