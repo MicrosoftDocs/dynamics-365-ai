@@ -49,18 +49,20 @@ This article provides information on how to connect a Common Data Model with Dyn
 > [!NOTE]
 > A model.json file can only associate with one data source in the same instance. However, the same model.json file can be used for data sources in multiple instances.
 
-## Edit a Common Data Model folder data source
+## Edit a Common Data Model data source
 
-If you would like to update the access key for the storage account that contains Common Data Model folder you connected to, click on the ellipsis, and select Edit option. 
+You can update the access key for the storage account that contains the Common Data Model folder you connected to Customer Insights or change the model.json file. If you want to connect to a different container from your storage account, or change the account name, you need to [create a new data source connection](#connect-to-a-common-data-model-folder).
 
-You will see the storage details screen and notice that the Account name and Container are disabled, and Access key is enabled for any edits or updates.  
+1. In Customer Insights, go to **Data** > **Data sources**. 
 
-Account name and container cannot be edited on a data source. 
+2. Next to the data source you'd like to update, select the ellipsis.
 
-If you want to connect to a different container from your storage account, you will need to create a new data source connection. 
+3. Select the **Edit** option from the list.
+ 
+4. Optionally, update the **Access key** and select **Next**.
+   ![Dialog to edit and update an access key for an existing data source](media/edit-access-key.png)
 
-Alternatively, if you would like to select a different model.json file from the container, you may do so by clicking Next in the Storage details page without any edits and go to the Common Data Model folder screen and select a different model.json file and therefore a different set of entities. 
+5. Optionally, choose a different model.json file with a different set of entities from the container.
 
-If there are any downstream dependencies on the existing model.json file and the set of entities, you will receive an error message about the dependency and that you cannot select a different model.json file. If you were to continue to select a new model.json file, you need to remove those dependencies, and then you can select a new model.json file and the entities to be used in CI. 
-
-If you cannot remove the downstream dependencies, we recommend creating a new data source and attach this model.json. 
+   > [!IMPORTANT]
+   > If there are dependencies on the existing model.json file and the set of entities, you'll see an error message and can't select a different model.json file. Remove those dependencies before changing the model.json file or create a new data source with the model.json file that you want to use to avoid removing the dependencies.
