@@ -72,15 +72,26 @@ When you create a new environment, you can specify basic settings, and optionall
 
    If you create multiple instances of Customer Insights and choose to save the output entities from all those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
 
-   
-h.	Once you select to save CI output Azure Data Lake Storage Gen2 option and create the instance, you will not be able to revert that setting. You can however update the Access key as needed. If you wish to change the storage option, you will need to delete the instance and create a new instance altogether.
-Editing an existing environment setting
-1.	Once you create an environment, you can edit the environment details like name etc.
-2.	In the Environments panel, click on the ellipsis option and select Edit to edit the environment details.
-3.	Only display name can be edited for an environment. Region and Type cannot be edited.
-4.	(Preview) If an environment has a setting to save all output entities data to the customer’s Azure Data Lake Storage Gen2 option, only account key can be updated. Account name and Container name cannot be edited.
- 
-Deleting an existing environment
-1.	In the Environments panel, click on the ellipsis option and select Delete to delete an environment.
-2.	You will see a confirmation screen to confirm if you want to delete the environment and asks you to type in the environment name.
-3.	Once you type in the environment name and click Delete, environment will be deleted, and you will see a confirmation message that the environment is deleted.
+## Edit an existing environment
+
+You can edit some of the details of existing environments.
+
+1. Select the **Settings** symbol in the header of the app.
+
+2. Select **Environments**.
+
+3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Edit**.
+
+4. You can update the **Display name** but you can't change **Region** and **Type** of the environment.
+
+5. (Preview) If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change **Account name** and **Container** name.
+
+## Deleting an existing environment
+
+1. Select the **Settings** symbol in the header of the app.
+
+2. Select **Environments**.
+
+3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Delete**.
+
+4. To confirm the deletion, enter the the environment name and select **Delete**.
