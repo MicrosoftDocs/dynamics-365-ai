@@ -2,13 +2,13 @@
 title: "Topic details analytics dashboard"
 description: "Learn about the customer service insights available on the Topic details analytics dashboard​."
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 11/19/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: m-hartmann
-ms.author: mhart
+author: iaanw
+ms.author: iawilt
 manager: shellyha
 search.app: capaedac-csi
 search.audienceType: enduser
