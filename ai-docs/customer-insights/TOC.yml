@@ -59,6 +59,8 @@
       href: pm-customer-card-addin.md
     - name: Entities schema in Common Data Model
       href: entity-schemas.md
+    - name: Connect to a Common Data Model
+      href: use-own-data-lake.md
     - name: Connectors
       items: 
       - name: Power BI connector

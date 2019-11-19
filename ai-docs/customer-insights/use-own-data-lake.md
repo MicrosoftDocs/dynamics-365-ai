@@ -35,6 +35,7 @@ This article provides information on how to connect a Common Data Model with Dyn
 4. Enter a **Name** for the data source and select **Next**.
 
 5. Provide the **Account name**, the **Access key**, and the **Container** for your Azure Data Lake storage and select **Next**.
+   
    ![Dialog box to enter connection details for Azure Data Lake](media/enter-storage-details.png)
 
 6. In the **Select a Common Data Model folder** dialog, select the model.json file from the list that you want to use to import the corresponding entities into Customer Insights and select **Next**.
@@ -42,6 +43,7 @@ This article provides information on how to connect a Common Data Model with Dyn
    > Any model.json file associated with another data source in the instance won't show in the list.
 
 7. You'll get a list of available entities from the selected model.json file. You can review the entities and select **Save**. All of the listed entities will be attached to Customer Insights.
+   
    ![Dialog box showing a list of entities from a model.json file](media/review-entities.png)
 
 8. After saving your selections, the **Data sources** page opens and you can see the newly added Common Data Model folder connection as a data source.
@@ -60,6 +62,7 @@ You can update the access key for the storage account that contains the Common D
 3. Select the **Edit** option from the list.
  
 4. Optionally, update the **Access key** and select **Next**.
+   
    ![Dialog to edit and update an access key for an existing data source](media/edit-access-key.png)
 
 5. Optionally, choose a different model.json file with a different set of entities from the container.
