@@ -51,6 +51,8 @@
       href: pm-settings.md
     - name: Permissions
       href: pm-permissions.md
+    - name: Create and manage environments
+      href: create-instance-environments.md
     - name: Export destinations
       href: export-destinations.md
   - name: Extensibility
