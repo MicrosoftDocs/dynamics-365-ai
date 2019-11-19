@@ -56,8 +56,8 @@ When you create a new environment, you can specify basic settings, and optionall
    - **Display name**: The name that represents this enviroment in the Customer Insights app
    - **Region**: The region into which the service is deployed and hosted
    - **Type**: Select if you want to create a Production environment or a Sandbox environment
-
-   ![Settings dialog for a new environment](media/create-new-environment.png)
+    > [!div class="mx-imgBorder"]
+    > ![Settings dialog for a new environment](media/create-new-environment.png)
 
 2. Optionally, you can select **Advanced** to configure additional settings:
 <!--could use an image-->
@@ -69,8 +69,8 @@ When you create a new environment, you can specify basic settings, and optionall
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
    - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The container name is always set to **customerinsights** and you can't change it.
-
-   ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
+     > [!div class="mx-imgBorder"]
+     > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
 
    When you start performing operations in Customer Insights like data ingestion, running data unification, creating segments, etc. the corresponding folders will get created in the storage account you specified above, and the data files and model.json files will get created and added to the respective sub-folders based on the operations you perform.
 
