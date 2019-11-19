@@ -16,23 +16,26 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Predictive lead scoring
-
+# Configure predictive lead scoring
+<!--Neeraja: See the first sentence for the definition of Predictive lead scoring at https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-sales/predictive-lead-scoring. You might want to be consistent with what is already written.-->
+<!--Neeraja: The topic comes under the Administrator Guide and therefore, do we need to mention "As an administrator"?-->
+<!--Neeraja: For my understanding, please clarify what is the benefit of the model with a score? How is the information useful? Consider writing as "...the application uses out-of-the-box fields..."-->
+<!--Neeraja: Users use the model or the score?-->
 Predictive lead scoring helps users to focus on revenue generation efforts by providing scores for the leads based on which users can prioritize their leads. As an administrator, when you configure the predictive lead scoring feature, the system uses standard (out-of-the-box) fields related to leads to generate a model with a score. Using this score, users can do the following:
  
 - Identify quality leads and convert them into opportunities.
  
 - Spend time on leads that have low scores, and convert them into possible opportunities.
-
+<!--Neeraja: Consider writing as "The custom fields can be specific...". Does the preview configure the enhanced model? Consider writing as "The feature is available in preview mode. You must enable the preview mode to configure predictive lead scoring."-->
 The enhanced predictive lead scoring lets you add custom fields to generate a model for predictive lead scoring that is accurate. The custom fields could be specific to your organization so that you can decide the impact of the outcome. The feature is available as a preview, and you must enable the preview to configure the enhanced model.
-
+<!--Neeraja: Use a period and not colon in lead in text for figures and illustrations."-->
 The following illustration explains how you can configure the predictive lead scoring:
 
 > [!div class="mx-imgBorder"]
 > ![Steps to configure predictive lead scoring](media/si-pls-config-steps.png "Steps to configure predictive lead scoring")
 
 Before we configure the predictive lead scoring, let's under the configuration page after a model is generated.
-
+<!---->
 ## Understand configuration page
 
 when a model is generated, the configuration page displays as shown in the following screen shot:
