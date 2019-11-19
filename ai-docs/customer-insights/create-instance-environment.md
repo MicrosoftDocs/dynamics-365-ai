@@ -18,6 +18,8 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 ## Sign up for Customer Insights and create the first instance
 
+<!-- worth creating a separate topic to sign up the first time for a Get started node and keep environment creation under the admin node?-->
+
 1. In your browser, go to the [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) website.
 
 2. Select **Get Started**.
@@ -38,6 +40,8 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 1. Select the **Settings** symbol in the header of the app.
 
+<!--why not under Admin in left nav?-->
+
 2. Select **Environments**.
 
 3. In the panel on the right side of the screen, select **New environment**.
@@ -53,21 +57,22 @@ When you create a new environment, you can specify basic settings, and optionall
    - **Region**: The region into which the service is deployed and hosted
    - **Type**: Select if you want to create a Production environment or a Sandbox environment
 
-2.	Optionally, you can select **Advanced** to configure additional settings:
-a.	In the Advanced settings, you can select the storage where you want to store/write the output data generated from Customer Insights. 
-b.	This will have two options, Customer Insights storage and Azure Data Lake Storage Gen2. By default, Customer Insights storage option is selected.
-c.	Customer Insights storage option means that all the output entities will be stored in the Customer Insights team managed data lake.
-d.	If you wish to save/write the output entities generated out of Customer Insights into your own ADLS Gen2 storage account, select the Azure Data Lake Storage Gen2 option from this dropdown.
-Note:
-By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights.  Learn more at the Microsoft Trust Center.
-Ingested entities will continue to be written to the CI managed data lake. There is no option available currently to write the ingested entities also to the customer’s data lake. That is a future enhancement.
+2. Optionally, you can select **Advanced** to configure additional settings:
+<!--could use an image-->
+   - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (am Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake storage). By default, Customer Insights storage option is selected. 
+   <!-- add a link when the BYODL docs go live-->
+   > [!NOTE]
+   > By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)    
+   > Currently, ingested entities are always stored in the Customer Insights managed data lake.
+   > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
-We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts are not supported yet.
+   - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The container name is always set to **customerinsights** and you can't change it.
 
-e.	Once you select Azure Data Lake Storage Gen2 option, you will see two fields for Account name and Account key to specify your storage account. Notice that the Container name is defaulted to ‘customerinsights’ and cannot be edited. 
- 
-f.	With this setting, once you start performing operations in Customer Insights like data ingestion, running data unification, creating segments and measures etc., you will notice that the corresponding folders will get created in the storage account folder you specified above, and the data files and model.json files will get created and added to the respective subfolders based on the operations you perform.
-g.	If you create multiple instances of Customer Insights and choose to save the output entities from all those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
+   When you start performing operations in Customer Insights like data ingestion, running data unification, creating segments, etc. the corresponding folders will get created in the storage account you specified above, and the data files and model.json files will get created and added to the respective sub-folders based on the operations you perform.
+
+   If you create multiple instances of Customer Insights and choose to save the output entities from all those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
+
+   
 h.	Once you select to save CI output Azure Data Lake Storage Gen2 option and create the instance, you will not be able to revert that setting. You can however update the Access key as needed. If you wish to change the storage option, you will need to delete the instance and create a new instance altogether.
 Editing an existing environment setting
 1.	Once you create an environment, you can edit the environment details like name etc.
