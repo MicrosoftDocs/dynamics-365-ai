@@ -42,11 +42,11 @@ when a model is generated, the configuration page displays as shown in the follo
 
 | Number | Feature | Description |
 |--------|---------|-------------|
-|1|Actions you can perform on the model|- **Publish**: The **Publish** button allows you to publish a model to your organization. When published, users in your organization can see **My Open Leads Scored** system view and lead score widget on lead forms. When a model is published this option gets disabled and becomes active only when you retrain or edit the model.<br>- **Revert version**: The Revert version button allows you to return the model to the previous version when the retrained model is not satisfactory or not at an acceptable level of your organization's requirements. This option is available only when you retrain a model. <br>- **Edit fields**: The **Edit fields** button allows you to update or add the fields that are affecting the prediction accuracy score. To learn more, see [Retrain the model](#retrain-a-model) |
-|2|version details|- **Version trained on**: This parameter displays a date that lets you know when the model was last trained.<br>- **Status**: This parameter lets you know if the trained model is created successfully, created with errors, or failed. Depending on the status you can take further steps to resolve the errors and retrain the model.<br>- **Attributes used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory. <br>- **Prediction accuracy**: This parameter displays the percentage of the model's accuracy in predicting the leads that could convert into opportunities. <br>- **Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score. |
+|1|Actions you can perform on the model|- **Publish**: The **Publish** button allows you to publish a model to your organization. When published, users in your organization can see **My Open Leads Scored** system view and lead score widget on lead forms. When a model is published this option gets disabled and will be active only when you retrain or edit the model.<br>- **Revert version**: The Revert version button allows you to return the model to the previous version when the retrained model is not satisfactory or not at an acceptable level of your organization's requirements. This option is available only when you retrain a model. <br>- **Edit fields**: This option is available only when the preview is enabled. The **Edit fields** button allows you to update or add the fields that are affecting the prediction accuracy score. To learn more, see [Retrain the model](#retrain-a-model). <br>- **Retrain Model**: This option is available only for standard model creation. You can select this option to regenerate a model with updated information that is available in your organization for improved predictive accuracy score.|
+|2|version details|- **Version trained on**: This parameter displays a date that lets you know when the model was last trained.<br>- **Status**: This parameter lets you know the status of the model.<br>- **Attributes used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory. <br>- **Prediction accuracy**: This parameter displays the percentage of the model's accuracy in predicting the leads that could convert into opportunities. <br>- **Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score. |
 |3|Lead score grading|- **Lead qualification rate**: . <br>- **Max score**: . <br>- **Grading**: When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded as A, B, C, or D according to the lead score that a lead has and this score is influenced by the attributes that we selected while creating the model. Leads that are graded as A has more chance of converting into opportunities and D being the least. You can configure the range for the grading according to your organizational requirements. When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50. |
 
-## Create system default model 
+## Generate system default model 
 
 This model is generated based on the standard attributes (fields) that are chosen by the application.  
 
@@ -86,16 +86,75 @@ This model is generated based on the standard attributes (fields) that are chose
 
     - **View details**: Select **View details** if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Retrain the model](#retrain-a-model). 
 
-To learn more about the configuration page, see [Understand configuration page](#understand-configuration-page)
+    To learn more about the configuration page, see [Understand configuration page](#understand-configuration-page).
 
-## Create custom defined model
-
-
+7. Publish the model. The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under the **Lead Score** column.
 
 
+## Generate custom defined model
 
+At times, the system defined model does not be accurate for your organization, as your organization might not use the standard attributes for leads that are used to generate the model. The enhanced predictive lead scoring allows you to choose your organizational specific attributes (fields) that are used to generate lead score for a model. You must enable preview before you generate the lead score.
+
+Follow these steps:
+
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+
+2.	Go to **Change area** and select **Sales Insights settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
+
+3.  On the sitemap, select **Lead scoring** under **Predictive models**.
+
+    > [!TIP]
+    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Predictive lead scoring** section to go to configuration page.
+
+    The **predictive lead scoring** configuration page displays.
+
+    > [!div class="mx-imgBorder"]
+    > ![Predictive lead scoring getting started page](media/si-admin-predictive-lead-scoring-getting-started-page.png "Predictive lead scoring getting started page")
+
+4. Select **Enable preview** and then select **Get started**. 
+
+    > [!TIP]
+    > Alternatively, without enabling the preview, select **Get started** and a pop up dialog displays to enable the preview. Accept terms and conditions and then select **Enable preview**. 
+
+    The application starts generating a model and a notification is displayed on the screen. The application uses the standard attributes to generate the model.
+
+    > [!div class="mx-imgBorder"]
+    > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
+
+5. After the model is generated, a confirmation notification displays that displays prediction accuracy score and top five fields that are influencing the score. Select **Publish** or **View details**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Model training confirmation notification](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
+
+    - **Publish**: Select **Publish** if the score's accuracy is at an acceptable level as per your organization's standard.
+
+    - **View details**: Select **View details** if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Retrain the model](#retrain-a-model). 
+
+6. On the **Edit model** page, select your custom attributes from **Main Entity** and **Related Entities**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Edit model page](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
+
+7. Select **Retrain model**. A confirmation message is displayed. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Retrain model confirmation message](media/si-admin-predictive-lead-scoring-retrain-model-confirmation-message.png "Retrain model confirmation message")
+
+8. Select **OK**. The model starts to generate with the selected custom attributes and and a notification is displayed on the screen.
+
+9. After the model is generated, publish the model.
+
+    The prediction lead scoring is applied in your organization and users can see the lead scoring in their views under the **Lead Score** column.
 
 ## Retrain a model
+
+
+
+
+
 
 
 4. Select **Create Model**.
