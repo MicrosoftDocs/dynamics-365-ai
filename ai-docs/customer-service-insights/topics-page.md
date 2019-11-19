@@ -21,7 +21,7 @@ You can manage and improve the AI grouping of support cases as topics by using t
 Customer Service Insights automatically detects the language used in your support cases. It comes with natural language understanding models that can understand text semantics and intent from your cases. Each language model also has the capability to process English cases, in addition to the other language it’s optimized for. For more information about the supported languages, see [Language support for case grouping as topics](supported-languages.md#language-support-for-case-grouping-as-topics).
 
 > [!NOTE]
-> The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
+> The Topics page in the sample workspace doesn't support actions such as renaming a topic, moving cases to another topic, providing feedback, etc. To try these functionalities, create your own Customer Service Insights workspace.
 
 Customer Service Insights uses AI to group related support cases as topics and display them on the Topics page in order of the number of cases associated with each topic. The Topics page shows all topics that contain three or more cases.
 
@@ -30,6 +30,7 @@ Customer Service Insights uses AI to group related support cases as topics and d
 You can then view and manage the topics and associated support cases in a variety of ways, including:
 
 * [Searching for a topic](#searching-for-a-topic)
+* [Viewing analytics for a topic](#viewing-analytics-for-a-topic)
 * [Viewing support cases for a topic](#viewing-support-cases-for-a-topic)
 * [Providing feedback to fine-tune the way cases are grouped into topics](#providing-feedback-to-fine-tune-the-way-cases-are-grouped-into-topics)
 * [Moving cases to another topic](#moving-cases-to-another-topic)
@@ -51,9 +52,21 @@ To restore the original topic list, clear the search box by selecting the close 
 
 ![Clear search](media/clear-search.png)
 
+## Viewing analytics for a topic
+
+You can view the analytics of a topic through the Topic details analytics dashboard by selecting the topic in the Topics list. For example, to view the analytics for the *Password reset link is invalid* topic, select it in the list.
+
+![View cases](media/view-cases.png)
+
+ You can also display the Topic details analytics dashboard from one of the AI Insights charts in the [KPI summary](dashboard-kpi-summary.md), [Incoming cases](dashboard-incoming-cases.md), [Customer satisfaction](dashboard-CSAT.md), and [Case resolution](dashboard-case-resolutions.md) dashboards. To display the Topic details analytics dashboard from AI Insights charts, click the link icon in **Details** column accoresponding to the topic you want to drill through. 
+
+![Topic details drillthrough](media/topic-drillthrough.png)
+
+The Topic details dashboard gives you a detailed overview of key performance indicators for a specific topic, including using artificial intelligence (AI) technology to show you the impact by product and channel on customer satisfaction scores and resolution time for the topic. For more information about the Topic details anlytics dashboard, see [Topic details dashboard](dashboard-topic-details.md).
+
 ## Viewing support cases for a topic
 
-You can view the top 200 support cases associated with a topic by selecting it in the Topics list. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list.
+You can view the top 200 most relevant support cases associated with a topic by selecting it in the Topics list, then select **Cases** tab on the page. For example, to view the support cases associated with the *Password reset link is invalid* topic, select it in the list, then select **Cases** tab.
 
 ![View cases](media/view-cases.png)
 

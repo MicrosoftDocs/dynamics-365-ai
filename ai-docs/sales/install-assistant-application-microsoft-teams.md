@@ -40,7 +40,7 @@ As an individual, you can add the application to Microsoft Teams to highlight th
 
 To add the application to Microsoft Teams, follow these steps:
 
-1. Verify that you have reviewed prerequisites and installation procedures. To learn more, see [Enable Dynamics 365 assistant application on Microsoft Teams](intro-admin-guide-sales-insights.md#enable-dynamics-365-assistant-application-on-microsoft-teams).
+1. Verify that you have reviewed prerequisites. To learn more, see [Configure Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams).
 
 2. Open the Microsoft Teams desktop application and go to **Apps**.
 
@@ -58,7 +58,7 @@ To add the application to Microsoft Teams, follow these steps:
 
 ### See also
 
-[Enable Dynamics 365 assistant application on Microsoft Teams](intro-admin-guide-sales-insights.md#enable-dynamics-365-assistant-application-on-microsoft-teams)
+[Enable Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams)
 
 [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
 
