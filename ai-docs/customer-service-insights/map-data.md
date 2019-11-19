@@ -2,7 +2,7 @@
 title: "Map your data to custom entities and fields"
 description: "Generate insights by mapping your data to custom data entities and fields in Dynamics 365 Customer Service Insights​."
 keywords: ""
-ms.date: 11/14/2019
+ms.date: 11/19/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -78,15 +78,12 @@ For more information, see [Dynamics 365 Customer Service entities used by Custom
 Here are some things to keep in mind when you map your data to custom entities and fields:
 
 * The drop-down list on the form only shows source fields in types that are compatible with the destination fields.
-<!--from editor: I don't find any style guidance on "picklist" at all, but it's one word in a related topic. -->
 
-* Several data fields in the Case entity&mdash;including Priority, SupportChannel, SLAStatus, and Satisfaction&mdash;are picklists. A *picklist* is an attribute type in Common Data Service you can use to select multiple options. Each option consists of a numeric value and a string label.<!--from editor: Please verify the rewrite below. I'm not sure I caught the point being made.-->
+* Several data fields in the Case entity&mdash;including Priority, SupportChannel, SLAStatus, and Satisfaction&mdash;are picklists. A *picklist* is an attribute type in Common Data Service you can use to select multiple options. Each option consists of a numeric value and a string label.
 
   For example, SLAStatus indicates whether a case is compliant with the service-level agreement (SLA). You can define multiple different values for compliant cases; however, to identify non-compliant cases, Customer Service Insights only uses the value **4**. In another example, the picklist values defined for Satisfaction indicate customer satisfaction (CSAT) scores ranging from **1** to **5**. Customer Service Insights reads these values to calculate average CSAT.
 
-<!--from editor: Is the reference to "Power Apps" an artifact, or is it okay here? Also I rearranged the examples in the third sentence just to match the order in which they're discussed above.-->
+
 * When you create a custom entity and field in Power Apps, a custom option value is auto-generated for each option label you add to a form. It's important you make sure the picklist's option values are aligned with data requirements. For example, an SLAStatus field should use the value **4** to indicate that a case is not compliant, and the values of a CSAT field should reflect the actual CSAT score (**1** to **5**, in most cases).
 
-<!--from editor: Removed redundant paragraph:
-For example, SLA Status indicates whether a case is compliant with the service level agreement. You can define multiple different values for compliant cases. Customer Service Insights only uses the value 4 to identify noncompliant cases. The pick list values defined for Satisfaction indicate the customer satisfaction score (CSAT). Customer Service Insights reads value from 1 to 5 to calculate the average CSAT.
--->
+
