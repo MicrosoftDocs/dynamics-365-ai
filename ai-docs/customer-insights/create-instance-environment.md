@@ -14,35 +14,46 @@ manager: shellyha
 
 # Create a Customer Insights instance
 
-The following steps explain how to create a Customer Insights instance and specify the basic and advanced settings for provisioning an environment.
-Creating an instance for the first time
-1.	Open a browser and navigate to: https://dynamics.microsoft.com/ai/customer-insights/
-2.	Click Get Started
-3.	Based on your scenario, you can click on either of the links to start a trial or get access to environments via PartnerSource or login as a Microsoft employee.
- 
+This article explains how to create a Dynamics 365 Customer Insights instance and how to provision an environment.
 
-4.	Once you create an environment from the appropriate channels as above, you will progress to https://home.ci.ai.dynamics.com
-5.	You may see a provisioning screen as below for the terms and conditions acceptance.
- 
+## Sign up for Customer Insights and create the first instance
 
-6.	Click on Continue to create the new instance. 
-7.	You may be prompted to create a new environment. Refer to Settings section to specify the basic and advanced settings for the instance.
-8.	Once you specify the basic and optional advanced settings, click Create button to create the instance.
-9.	You will see an intermediate screen while the instance creation happens in the background, and once done, you will be signed into Customer Insights and will be taken to the Customer Insights home page.
+1. In your browser, go to the [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) website.
 
-Creating an instance from within an existing instance
-You can also create a new instance after from an existing instance in the following way
-1.	Click on the Settings icon on the top right of the screen and select Environments option.
-2.	A new panel will show up from right side of the screen and will display the list of existing instances in your tenant.
-3.	On the bottom left part of the panel, you will see an option to create new environment.
-4.	Click on ‘+New environment’ link and this will open a new pop up screen to fill in details to create an environment.
-5.	Once you specify the basic and optional advanced settings as mentioned in the Settings section, click Create button to create the instance.
-6.	You may see an intermediate screen while the instance creation happens in the background, and once done, you will see that the new instance record gets added to the Environments panel on the right side.
-Settings
+2. Select **Get Started**.
 
-1.	In the pop-up screen, provide a display name, select the region into which you wish to deploy the service and type. Type can be either a Production or a Sandbox instance, depending on your requirement.
- 
-2.	Advanced settings:
+3. Choose your preferred sign-up scenario and select the corresponding link.
+
+4. You may need to accept the terms and conditions and select **Continue** to start creating the instance.
+
+5. After the environment is created, you'll be redirected to [your Customer Insights instance](https://home.ci.ai.dynamics.com).
+
+6. You can use the demo environment to explore the app, or create a new environment. Learn more about specifying the settings to create an environment.
+
+7. After specifying the environment settings, select **Create**.
+
+8. You'll be signed in to Customer Insights when the environment was created successfully.
+
+## Create an environment from an existing Customer Insights instance
+
+1. Select the **Settings** symbol in the header of the app.
+
+2. Select **Environments**.
+
+3. In the panel on the right side of the screen, select **New environment**.
+
+4. Specify the basic and advanced settings and select **Create** to create the environment.
+
+## New environment settings
+
+When you create a new environment, you can specify basic settings, and optionally, some advanced settings.
+
+1. In the **Create new environment** dialog, provide the following details:
+   - **Display name**: The name that represents this enviroment in the Customer Insights app
+   - **Region**: The region into which the service is deployed and hosted
+   - **Type**: Select if you want to create a Production environment or a Sandbox environment
+
+2.	Optionally, you can select **Advanced** to configure additional settings:
 a.	In the Advanced settings, you can select the storage where you want to store/write the output data generated from Customer Insights. 
 b.	This will have two options, Customer Insights storage and Azure Data Lake Storage Gen2. By default, Customer Insights storage option is selected.
 c.	Customer Insights storage option means that all the output entities will be stored in the Customer Insights team managed data lake.
