@@ -18,21 +18,37 @@ topic-status: Drafting
 
 # Configure Predictive lead scoring
 
-Predictive lead scoring helps users to focus on revenue generation efforts by providing scores for the leads based on which users can prioitize thier leads. As an administrator, when you configure the predictive lead scoring feature, the system uses standard (out-of-the-box) fields related to leads to generate a model with a score. Using this score, users can do the following:
+Predictive lead scoring helps users to focus on revenue generation efforts by providing scores for the leads based on which users can prioritize their leads. As an administrator, when you configure the predictive lead scoring feature, the system uses standard (out-of-the-box) fields related to leads to generate a model with a score. Using this score, users can do the following:
  
 - Identify quality leads and convert them into opportunities.
  
-- Spend time on leads that have low score, and convert them into possible opportunities.
+- Spend time on leads that have low scores, and convert them into possible opportunities.
 
-The enhanced predictive lead scoring lets you add custom fields to generate a model for predictive lead scoring that is accurate. The custom fields could be specific to your organization so that you can decide the impact of the outcome. 
+The enhanced predictive lead scoring lets you add custom fields to generate a model for predictive lead scoring that is accurate. The custom fields could be specific to your organization so that you can decide the impact of the outcome. The feature is available as a preview, and you must enable the preview to configure the enhanced model.
 
-The feature is available as preview, and you must enable the preview to configure the enhanced model. The following illustration explains how you can configure the predictive lead scoring:
+The following illustration explains how you can configure the predictive lead scoring:
 
 > [!div class="mx-imgBorder"]
 > ![Steps to configure predictive lead scoring](media/si-pls-config-steps.png "Steps to configure predictive lead scoring")
 
+Before we configure the predictive lead scoring, let's under the configuration page after a model is generated.
 
-## Create default system model 
+## Understand configuration page
+
+when a model is generated, the configuration page displays as shown in the following screen shot:
+
+> [!div class="mx-imgBorder"]
+> ![Configure page](media/si-admin-predictive-lead-scoring-configuration-page.png "Configure page")
+
+| Number | Feature | Description |
+|--------|---------|-------------|
+|1|Actions you can perform on the model|**Publish**: The **Publish** button allows you to publish a model to your organization. When published, users in your organization can see **My Open Leads Scored** system view and lead score widget on lead forms. When a model is published this option gets disabled and becomes active only when you retrain or edit the model.<br>**Revert version**: The Revert version button allows you to return the model to the previous version when the retrained model is not satisfactory or not at an acceptable level of your organization's requirements. This option is available only when you retrain a model. <br>**Edit fields**: The **Edit fields** button allows you to update or add the fields that are affecting the prediction accuracy score. To learn more, see [Retrain the model](#retrain-the-model) |
+|2|version details|**Version trained on**: This parameter displays a date that lets you know when the model was last trained.<br> **Status**: This parameter lets you know if the trained model is created successfully, created with errors, or failed. Depending on the status you can take further steps to resolve the errors and retrain the model.<br> **Attributes used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory. <br> **Prediction accuracy**: This parameter displays the percentage of the model's accuracy in predicting the leads that could convert into opportunities. <br> **Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score. |
+|3|Lead score grading|**Lead qualification rate**: . <br> **Max score**: . <br> **Grading**: When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded as A, B, C, or D according to the lead score that a lead has and this score is influenced by the attributes that we selected while creating the model. Leads that are graded as A has more chance of converting into opportunities and D being the least. You can configure the range for the grading according to your organizational requirements. When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50. |
+
+## Create system default model 
+
+This model is generated based on the standard attributes (fields) that are chosen by the application.  
 
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
 
@@ -46,12 +62,12 @@ The feature is available as preview, and you must enable the preview to configur
     > [!TIP]
     > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Predictive lead scoring** section to go to configuration page.
 
-    The **predictive lead scoring** configuration page opens.
+    The **predictive lead scoring** configuration page displays.
 
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring getting started page](media/si-admin-predictive-lead-scoring-getting-started-page.png "Predictive lead scoring getting started page")
 
-4. Select **Get started** and a pop up dialog opens to enable the preview.
+4. Select **Get started** and a pop up dialog displays to enable the preview.
 
     > [!div class="mx-imgBorder"]
     > ![Preview notification pop up window](media/si-admin-predictive-lead-scoring-preview-notification.png "Preview notification pop up window")
@@ -70,6 +86,8 @@ The feature is available as preview, and you must enable the preview to configur
 
     - **View details**: Select **View details** if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Retrain the model](#retrain-the-model). 
 
+To learn more about the configuration page, see [Understand configuration page](#understand-configuration-page)
+
 ## Create custom defined model
 
 
@@ -77,7 +95,7 @@ The feature is available as preview, and you must enable the preview to configur
 
 
 
-
+## Retrain a model
 
 
 4. Select **Create Model**.
