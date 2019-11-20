@@ -51,22 +51,24 @@ This section walks you through on creating a measure from scratch. You can build
 
 7. Provide a **Name** for the variable.
 
-<!---->
+8. In the **Expression** area, choose a field to begin your calculation with.
 
-8. Select the **Expression** area.
-3. Choose a field from the list of fields to the right of the **Expression** area to begin your calculation with.
-4. Type an expression in the **Expression** area while choosing more fields to be included in your calculation.
+9. Type an expression in the **Expression** area while choosing more fields to be included in your calculation.
 
    > [!NOTE]
-   > Currently, Customer Insights supports arithmetic expressions only. Moreover, at present variable calculation is not supported for entities from different entity-paths (visit the **Relationships** section to learn more about what is considered to be an "entity path").
+   > Currently, Customer Insights supports arithmetic expressions only. Additionally, variable calculation isn't supported for entities from different [entity paths](pm-relationships.md).
 
-5. Select **Done**.
+10. Select **Done**.
+
+11. In the Measure definition section, you'll define how your chosen entities and calculated variables are aggregated in a new measure entity or attribute.
+
+<!----> 
 
 In the following example, we have defined a calculation for the relative contribution of a single purchase to the Customer Lifetime Value (CLTV).
 
 ## Step 5: Define your Measure entity or attribute
 
-In this step, you will decide how to aggregate and summarize your chosen entities and calculated variables into a Measures entity or attribute. 
+In this step, you will  
 
 **Step 1**: Defining first dimension.
 
