@@ -78,8 +78,8 @@ This model is generated based on the standard attributes (fields) that are chose
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
-<!--Neeraja:You have displays written twice in the following sentence.-->
-6. After the model is generated, a confirmation notification displays that displays prediction accuracy score and top five fields that are influencing the score. Select **Publish** or **View details**. 
+
+6. After the model is generated, a confirmation notification displays with the prediction accuracy score and top five fields that are influencing the score. Select **Publish** or **View details**. 
 
     > [!div class="mx-imgBorder"]
     > ![Model training confirmation notification](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
@@ -94,8 +94,8 @@ This model is generated based on the standard attributes (fields) that are chose
 
 
 ## Generate custom defined model
-<!--Neeraja: A word is missing after "does not" in the following sentence -->
-At times, the system defined model does not be accurate for your organization, as your organization might not use the standard attributes for leads that are used to generate the model. The enhanced predictive lead scoring allows you to choose your organizational specific attributes (fields) that are used to generate lead score for a model. You must enable preview before you generate the lead score.
+
+At times, the system defined model cannot be accurate for your organization, as your organization might not use the standard attributes for leads that are used to generate the model. The enhanced predictive lead scoring allows you to choose your organizational specific attributes (fields) that are used to generate lead score for a model. You must enable preview before you generate the lead score.
 
 Follow these steps:
 
@@ -119,14 +119,14 @@ Follow these steps:
 4. Select **Enable preview** and then select **Get started**. 
 
     > [!TIP]
-    > Alternatively, without enabling the preview, select **Get started** and a pop up dialog displays to enable the preview. Accept terms and conditions and then select **Enable preview**. 
+    > Alternatively, without enabling the preview, select **Get started** and a pop-up dialog displays to enable the preview. Accept terms and conditions and then select **Enable preview**. 
 
     The application starts generating a model and a notification is displayed on the screen. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
-<!--Neeraja: Displays is mentioned twice in the following sentence -->
-5. After the model is generated, a confirmation notification displays that displays prediction accuracy score and top five fields that are influencing the score. Select **Publish** or **View details**. 
+
+5. After the model is generated, a confirmation notification displays with the prediction accuracy score and top five fields that are influencing the score. Select **Publish** or **View details**. 
 
     > [!div class="mx-imgBorder"]
     > ![Model training confirmation notification](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
