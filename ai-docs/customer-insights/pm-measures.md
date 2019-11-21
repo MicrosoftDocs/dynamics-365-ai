@@ -1,7 +1,7 @@
 ---
 title: "Measures in Dynamics 365 Customer Insights | Microsoft Docs"
 description: Define customer-related measures to analyze and reflect the performance of certain business areas. 
-ms.date: 11/20/2019
+ms.date: 11/21/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -26,7 +26,7 @@ This section walks you through on creating a measure from scratch. You can build
 2. Select **New measure**.
 
 3. Choose the measure **Type**:
- 
+
    - **Customer attribute**: A single field per customer that reflects a score, value, or state for the customer. Customer attributes are created as attributes in a new system-generated entity called **Customer_Measure**.
 
    - **Customer measure**: Insights on customer behavior with breakdown by selected dimensions. A new entity is generated for each measure, potentially with multiple records per customer.
@@ -37,7 +37,7 @@ This section walks you through on creating a measure from scratch. You can build
 
 5. In the **Entities** section, select the first entity from the drop-down list. At this point, you should decide whether additional entities are needed as part of your measure definition.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Measure definition](media/measure-definition.png "Measure definition")
 
    To add more entities, select **Add entity** and select entities you want to use for the measure.
@@ -63,8 +63,8 @@ This section walks you through on creating a measure from scratch. You can build
 11. In the **Measure definition** section, you'll define how your chosen entities and calculated variables are aggregated in a new measure entity or attribute.
 
 12. Select **New dimension**. You can think of a dimension as a *group by* function. The data output of your Measure entity or attribute will be grouped by all of your defined dimensions.
-    
-    > [!div class="mx-imgBorder"] 
+
+    > [!div class="mx-imgBorder"]
     > ![Choose aggregate cycle](media/measures-businessreport-measure-definition2.png "Choose aggregate cycle")
 
     Select or enter the following information as part of your dimension's definition:
@@ -82,28 +82,38 @@ This section walks you through on creating a measure from scratch. You can build
 
 14. Select **Save** to apply your changes to the measure.
 
-## View your measures 
+## View your measures
 
 After creating at least one measure, you'll see a list of measures on the **Measures** page in Customer Insights.
 
-You'll find informatin about the measure type, the creator, creation date and time, last edit state and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output. 
+You'll find information about the measure type, the creator, creation date and time, last edit state and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output.
+
 To export the data, select **Download as CSV** after opening the measure preview.
-
-
-
-
-
-
 
 ## Edit measures
 
-You can also edit, delete, or rename the data of any of your created measures by first selecting the vertical ellipsis.
+You can edit or rename your created measures.
 
-Choose options from the drop-down menu.
+1. Go to the **Measures** page.
+
+2. Select the vertical ellipsis next to the measure you want to change.
+
+3. Choose **Edit** from the options in the drop-down menu.
+
+4. Apply your changes and select **Save**.
 
 ## Delete measures
 
+You can delete existing measures.
 
+1. Go to the **Measures** page.
+
+2. Select the vertical ellipsis next to the measure you want to delete.
+
+3. Choose **Delete** from the options in the drop-down menu.
+
+4. Confirm your deletion.
 
 ## Next step
-Make sure to visit the **Unify** section if you haven't yet completed the data configuration process. Upon the completion of the Unify modules, you might want to use the measure you have just created to create your first customers segment using the **Segments** page. You can also unlock more insights via the **Activities** and **Enrich Profiles** pages.
+
+You cam use existing measures to create your first customer segment on the **Segments** page. For more information, see [Segments](pm-segments.md).
