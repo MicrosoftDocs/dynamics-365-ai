@@ -1,7 +1,7 @@
 ---
-title: "Data sources | MicrosoftDocs"
-description: 
-ms.date: 10/23/2019
+title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
+description: Bring data from various sources into Dynamics 365 Customer Insights.
+ms.date: 11/21/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -12,25 +12,19 @@ author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Data sources
 
-Dynamics 365 Customer Insights lets you bring together data from many sources:
+Dynamics 365 Customer Insights lets you use your data from a wide range of data sources.
 
-- Transactional sources
-- Observational sources
-- Behavioral sources
-- Other sources
+You can bring in data to Customer Insights by one of the many out-of-the-box connectors that are available for sources such as Dynamics 365 apps, Azure SQL databases, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
 
-You can bring in data to Dynamics 365 Customer Insights by using the 20-plus out-of-the-box connectors that we make available for sources such as Dynamics 365, Azure SQL Database, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
+## Bring your data into Customer Insights
 
-To import data to Customer Insights, create a data source on the **Data sources** page. We recommend that you have multiple data sources because this allows you to have different refresh schedules and credentials for each of them.
-
-## Bring your data into Customer Insights 
-
-> [!IMPORTANT]
+> [!NOTE]
 > Currently, on-premises data sources are not supported in Customer Insights. 
 
-### Step 1 (mandatory): Create a new data source
+### Create a new data source
 
 Follow these steps to load data into Customer Insights:
 
@@ -56,7 +50,7 @@ Follow these steps to load data into Customer Insights:
 5. After you choose a connector, you are required to fill in some fields. For guidance on filling in fields for some of the most common data sources (for example, Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).  
 
 
-### Step 2 (mandatory): Adding, reviewing, and transforming entities
+### Add, review, and transform entities
 
 In this step, you add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each of them (an Orders dataset or Sales dataset, for example) is an entity. 
 
@@ -106,14 +100,14 @@ In this step, you add entities to your data source. In Customer Insights, entiti
 
   Repeat the same steps for each data source you want to ingest into Customer Insights.
 
-### Step 3 (optional): Review ingested data
+## Review ingested data
 
 It is possible that the data load will take some time. After successfully refreshing, the ingested data can be reviewed from the **Entities** page as shown in the following example. For more information on the **Entities** page, see [Data Manager: Entities](pm-entities.md).
 
 > [!div class="mx-imgBorder"] 
 > ![Data manager entities](media/data-manager-entities-data.png "Data manager entities")
 
-### Step 4 (optional): Edit existing data sources
+## Edit existing data sources
 
 > [!NOTE]
 > The Edit operation is available only for data sources that are not currently refreshing.
@@ -135,7 +129,6 @@ Follow these steps to edit an existing data source.
    > [!div class="mx-imgBorder"] 
    > ![Data sources delete](media/configure-data-sources-delete.png "Data sources delete")
 
-### Next steps
+## Next steps
 
 At this point, you are ready to unlock unique customer insights. See the **Unify** topic to learn more. If you want to review all the entities that were ingested to the system first, see **Entities**. 
-
