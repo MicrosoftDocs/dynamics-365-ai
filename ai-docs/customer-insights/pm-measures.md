@@ -60,88 +60,40 @@ This section walks you through on creating a measure from scratch. You can build
 
 10. Select **Done**.
 
-11. In the Measure definition section, you'll define how your chosen entities and calculated variables are aggregated in a new measure entity or attribute.
+11. In the **Measure definition** section, you'll define how your chosen entities and calculated variables are aggregated in a new measure entity or attribute.
 
-<!----> 
-
-In the following example, we have defined a calculation for the relative contribution of a single purchase to the Customer Lifetime Value (CLTV).
-
-## Step 5: Define your Measure entity or attribute
-
-In this step, you will  
-
-**Step 1**: Defining first dimension.
-
-You can think of a dimension as a “group by” function: The data within your new Measure entity or attribute will 
-be grouped by all of your defined dimensions.
-
-In the following example, we have defined **State** as the dimension field of the **BusinessReport: Customer 360** Measure entity. On the screen, we can see that the data we included in that entity (first column) is grouped by the State column (second column).
-
-Select or enter the following information as part of your dimension's definition:
-
-> [!div class="mx-imgBorder"] 
-> ![Measure definition](media/measure-definition2.png "Measure definition")
-
-**Entity/variable**: If you define a Measure entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute. <br />
-**Field**: Choose the specific attribute to be included either in your Measure entity or attribute. <br />
-**Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you have selected a Date type of attribute. 
-
-> [!div class="mx-imgBorder"] 
-> ![Choose aggregate cycle](media/measures-businessreport-measure-definition2.png "Choose aggregate cycle")
-
-**As**: Defines the name of your new field in the Measure entity or attribute. <br />
-**Display name**: Defines the display name of your field in the Measure entity or attribute.
-
-> [!NOTE]
-> Your Business measure will be saved as a single-number entity and will appear on the home page unless you complete Step 2 below (adding more dimensions to your measure). If you complete Step 2, the measure will **not** show up on the home page.
-  
-**Step 2 (optional)**: Add more dimensions by selecting **Add new dimension** and making the same selections we have just illustrated.
-
-**Step 3 (optional)**: Add aggregate functions. 
-
-Any aggregation that you create results in a new value within your Measures entity or attribute. 
-Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, **Count Unique**, **First**, and **Last**.
-
-Note: 
-- Under the **Last** operator, the last record that was added to each dimension value will be taken. For example, if the dimension is CustomerID and the Last operator is applied on a Sales attribute, the result will be the last sales record for each CustomerID.
-- Under the **First** operator, the first record will be taken for each dimension value.
-
-
-For example, let's assume that we have added the aggregated value **Average Service Amount**, which takes the average of every **Service Amount** field within the entity **Service: Orders** and averages it.
-
-When visiting the **Entities** page and choosing the new measure we have just created (called **AggregatedFieldExample**), we can see that our aggregation formula has created the new value **Average Service Amount**.
-
-Let's explore the steps involved in defining a new value.
-
-1. First, select **New value**.
-
-2. Then, make your selections.
-
-   - **Function**: At present, we support **Sum**, **Min**, **Max**, **Count**, and **Unique Count** as aggregation options. <br />
-   - **Entity/variable**: Choose the entity that includes the attribute on which you want to base your calculation. You can also choose a variable if you created one as part of Step 4. <br />
-   - **Field**: Choose the specific attribute or variable on which you want to base your calculation. <br />
-   - **As**: Your calculation will result in a new value. Define the name of your new value in the Measures entity/attribute. <br />
-   - **Display name**: Define the display name of your new value in the Measures entity/attribute.
-
-3. Save your measure.
-
+12. Select **New dimension**. You can think of a dimension as a *group by* function. The data output of your Measure entity or attribute will be grouped by all of your defined dimensions.
+    
     > [!div class="mx-imgBorder"] 
-    > ![Save measure definition](media/measure-definition-save.png "Save measure definition")
+    > ![Choose aggregate cycle](media/measures-businessreport-measure-definition2.png "Choose aggregate cycle")
+
+    Select or enter the following information as part of your dimension's definition:
+
+    - **Entity**: If you define a Measure entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute.
+    - **Field**: Choose the specific attribute to be included either in your Measure entity or attribute.
+    - **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you have selected a Date type attribute.
+    - **As**: Defines the name of your new field.
+    - **Display name**: Defines the display name of your field.
+
+    > [!NOTE]
+    > Your business measure will be saved as a single-number entity and will appear on the **Home** page unless you add more dimensions to your measure. After adding more dimensions, the measure will *not* show up on the **Home** page.
+
+13. Optionally, add aggregation functions. Any aggregation that you create results in a new value within your Measures entity or attribute. Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, **Count Unique**, **First** (takes the first record of a dimension value), and **Last** (takes the last record that was added to a dimension value).
+
+14. Select **Save** to apply your changes to the measure.
 
 ## View your measures 
 
-Once you have completed your first measure, you'll see the following page summarizing your created measures.
+After creating at least one measure, you'll see a list of measures on the **Measures** page in Customer Insights.
 
-> [!div class="mx-imgBorder"] 
-> ![Summary of new measures](media/new-measure.png "Summary of new measures")
+You'll find informatin about the measure type, the creator, creation date and time, last edit state and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output. 
+To export the data, select **Download as CSV** after opening the measure preview.
 
-This table lists the measure’s type, creation owner, creation date and time, edit owner, last edit sate and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure, you can see a preview of the measure output. Select **Donwnload as CSV** to export the data.
 
-As mentioned before, you can also view your created measure in one of the following ways:
-- If you created a **Customer measure**, you can view your new measure entity on the **Entities** page.  
-- If you created a **Customer attribute**, you can view your new attribute on the **Entities** page. Look for the *Customer_Measure* entity.
-- If you created a **Business measure** with no dimensions, you can view your created measure on the **Home** page (under the *Insights* section). 
-- Lastly, if you created a **Business measure** with one or more dimensions, you can find your new measure entity on the **Entities** page. 
+
+
+
+
 
 ## Edit measures
 
