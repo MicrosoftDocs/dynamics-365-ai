@@ -1,7 +1,7 @@
 ---
 title: "Community insight in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Insights related to the community insight type."
-ms.date: 10/21/2019
+ms.date: 11/21/2019
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
