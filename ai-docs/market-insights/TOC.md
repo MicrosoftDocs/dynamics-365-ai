@@ -15,6 +15,7 @@
 ## [Awareness insights](awareness-insights.md)
 ## [Demographic insights](demographic-insights.md)
 ## [Journey insights](journey-insights.md)
+## [Community insight](community-insight.md)
 # Additional information
 ## [Data handling](data-handling-market-insights.md)
 ## [Accessibility for Market Insights](accessibility.md)
