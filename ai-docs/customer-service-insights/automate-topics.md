@@ -1,60 +1,67 @@
 ---
-title: "Automate topics to Power Virtual Agents"
-description: "Learn how to automate topics discovered by Dynamics 365 Customer Service Insights to Power Virtual Agents."
+title: "Automate the create of Power Virtual Agents bot topics"
+description: "Use topics discovered by Customer Service Insights as pre-filled bot topics in Power Virtual Agents."
 keywords: ""
-ms.date: 11/13/2019
+ms.date: 11/22/2019
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: gxy001
-ms.author: xiaoying
-manager: tpalmer
+author: iaanw
+ms.author: iawilt
+manager: shellyha
+ms.reviewer: xiaoying
 search.app: capaedac-csi
 search.audienceType: enduser
 search.appverid: met150
 ---
 
-# Automate topics to Power Virtual Agents
+# Automate topics to a Power Virtual Agents bot
 
-Power Virtual Agents empowers teams to easily create powerful bots and automate support conversations using a guided, no-code graphical interface without the need for data scientists or developers. Using Power Virtual Agents, you can:
+[Power Virtual Agents](/power-virtual-agents/index) empowers teams to easily create powerful bots and automate support conversations using a guided, no-code graphical interface without the need for data scientists or developers. 
 
-* Empower your teams by allowing them to easily build bots themselves without needing intermediaries, or coding or AI expertise.
-* Reduce costs by easily automating common support inquiries and freeing human agent time to deal with more complex issues.
-* Improve customer satisfaction by allowing customers to self-help and resolve issues quickly 24/7 using rich personalized bot conversations.
-
-For topics discovered by Customer Service Insights, you can identify automation candidates by reviewing the topic details analytics, selecting a topic to automate and then editing the topic in Power Virtual Agents. For more information about Power Virtual Agents, see [Power Virtual Agents overview](https://docs.microsoft.com/power-virtual-agents/overview). 
+You can automate the creation of topics in Power Virtual Agents by copying over topics discovered by Customer Service Insights. This is helpful if you have a support topic in Customer Service Insights that you'd like to add to a support bot, to help drive resolution rates and customer satisfaction rates.
 
 ## Prerequisite to automate topics
 
-It requires the following prerequisites to automate a topic from Customer Service Insights to Power Virtual Agents:
+You musth have the following to automate a topic from Customer Service Insights to Power Virtual Agents:
 
-* A valid license to access Power Virtual Agents. Go to https://aka.ms/TryPVA to sign up for a trial if you haven't sign up. 
-* A bot created in Power Virtual Agents. See [Quickstart: Create and deploy a customer service bot](https://docs.microsoft.com/power-virtual-agents/quickstart) to create your first bot. 
+- A valid license to access Power Virtual Agents. Go to https://aka.ms/TryPVA for more information and to sign up for a trial. 
+
+- A [bot created in Power Virtual Agents](/power-virtual-agents/authoring-first-bot).
 
 ## Identify topics for automation 
 
-You can consider topics as good candidates for automation, if they are:
+Consider topics as good candidates for automation if they are:
 
-* Straightforward to resolve, so that a bot is more likely capable to handle it. You can tell that if a topic has lower average resolution time, higher resolution rate, and/or fewer escalations;
-* Topics appear or will appear with higher volume, so that the automation can bring you more business benefit and impact. You can tell that from [case volume drivers](dashboard-kpi-summary.md#case-volume-drivers-chart) and [emerging topics](dashboard-kpi-summary.md#emerging-topics-chart) in Customer Service Insights.
+* Straightforward to resolve, so that it's more likely a bot can handle or resolve the issue. 
+    
+    For example, a topic that has lower average resolution time, higher resolution rate, and/or fewer escalations is one that could be considered straightforward to resolve.
 
-Customer Service Insights also calculates resolution time impact for each topic, which has already taken into account both average resolution time and case volume. See [Resolution time drivers chart](dashboard-case-resolutions.md#resolution-time-drivers-chart) for more details how resolution time impact is calculated. 
+* Topics that have a high volume, so that the automation can bring you more business benefit and impact. 
 
-To view topic details analytics, see [Topic details analytics dashboard](dashboard-topic-details.md) for more information. 
+    You can determine volume from [case volume drivers](dashboard-kpi-summary.md#case-volume-drivers-chart) and [emerging topics](dashboard-kpi-summary.md#emerging-topics-chart) in Customer Service Insights.
 
-## Automate topics from topic details page
-After reviewing topic details and identify a candiate for automation, you can automate the topic right away from the topic details page:
+Customer Service Insights also calculates the [resolution time impact for each topic](dashboard-case-resolutions.md#resolution-time-drivers-chart), which has already taken into account both average resolution time and case volume. 
 
-1. In topic details page, select **Automate** on the top. 
+To view topic details analytics, see the [Topic details analytics dashboard](dashboard-topic-details.md) article for more information. 
+
+## Automate topics from the topic details page
+After reviewing topic details and identifying a candiate for automation, you can automate the topic right away from the topic details page:
+
+1. In the topic details page, select **Automate** at the top. 
 
     ![Automate topics from topic details page](media/automate-topic-details.png)
 
-2. Customer Service Insights creates a new topic in Power Virtual Agents in a new browser tab. **Name** and **Trigger phrases** are prefilled from the topic you selected for automation. Customer Service Insights prefills **Trigger phrases** with non-duplicated case titles from the most relevant cases (up to 3 cases). 
+2. Customer Service Insights creates a new topic in Power Virtual Agents in a new browser tab. 
 
-3. Review the topic name and trigger phrases, and follow the other steps in [Create custom topics for your bot](https://docs.microsoft.com/power-virtual-agents/getting-started-create-topics) to complete the creation of your bot topic. 
+    The **Name** and **Trigger phrases** are prefilled from the topic you selected for automation. 
+    
+    Customer Service Insights prefills **Trigger phrases** with non-duplicated case titles from the most relevant cases (up to three cases). 
 
-## Automate topics from Topics page
-You can also automate topics from Topics page. To do that, go to Topics page, hover over the topic you want to automate in the topic list, rhwn select **Automate** icon. 
+3. Review the topic name and trigger phrases, and follow the other steps in the [Create custom topics for your bot](/power-virtual-agents/getting-started-create-topics) article to complete the creation of your bot topic. 
+
+## Automate topics from the Topics page
+You can also automate topics from  the Topics page: hover over the topic you want to automate in the topic list, then select the **Automate** icon. 
 
 ![Automate topics from Topics page](media/automate-topic-list.png)

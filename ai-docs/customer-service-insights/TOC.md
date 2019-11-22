@@ -14,7 +14,7 @@
 
 ## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
 
-## [Automate topics to Power Virtual Agents](automate-topics.md)
+## [Automate topics to a Power Virtual Agents bot](automate-topics.md)
 
 ## [Use external data sources to get AI insights](use-external-data-sources.md)
 
