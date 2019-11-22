@@ -21,6 +21,8 @@ After completing the map phase, you're ready to match your entities. The match p
 
 Go to **Unify** > **Match** and select **Set order** to start the match phase.
 
+<!--remove example since it's not consistent?-->
+
 Each match involves two entities that are unified into a single entity, while persisting each unique customer record. In the following example, we selected three entities: **ContactCSV: TestData** as the **Primary** entity, **WebAccountCSV: TestData** as **Entity 2**, and **CallRecordSmall: TestData** as **Entity 3**. The diagram above the selections illustrates how the match order will be executed.
 
 > [!div class="mx-imgBorder"]
