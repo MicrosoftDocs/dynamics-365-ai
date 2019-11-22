@@ -1,33 +1,35 @@
 ---
-title: "Unify| MicrosoftDocs"
-description: 
-ms.custom: ""
-ms.date: 07/12/2019
+title: "Unify data in Dynamics 365 Customer Insights | Microsoft Docs"
+description: Overview about unifying data ingested to Dynamics 365 Customer Insights
+ms.date: 11/22/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Unify
 
-After completing the data ingestion process, you are ready to unlock the unique data-unification features that Dynamics 365 Customer Insights offers. In Customer Insights, data unification includes three pages: **Map**, **Match**, and **Merge**.
- 
-The goal behind the data unification process is to unify data sources that were once disparate into a master customer dataset that provides a more complete view of your customers. You should complete the three mandatory data unification stages—start with *map*, continue with *match*, and finish with *merge*.
+<!--rename file-->
 
-After completing the three data-unification phases, you might want to use the optional **Relationships**, **Enrichment**, and **Activities** pages.
-- The **Relationships** page is highly recommended for creating segments on the **Segments** page. Visit the **Relationships** section to learn more.
-- The **Enrichment** page is highly recommended for extracting richer insights about your customers. Visit the **Enrichment** section to learn more.
-- The **Activities** page can be used to define some of your ingested attributes as activities. Visit the **Activities** section to learn more.
+After [setting up the data sources](pm-data-sources.md), you can unify the data in Dynamics 365 Customer Insights. Data unification includes three steps: **Map**, **Match**, and **Merge**.
+
+The data unification process lets you unify data sources that were once disparate into a single master customer dataset that provides holistic view of your customers, a unified customer profile. Unification stages are mandatory and performed in the following order:
+
+1. [Map](pm-map.md)
+2. [Match](pm-match.md)
+3. [Merge](pm-merge.md)
+
+After completing the data unification, you can optionally
+
+- [set up relationships between entities](pm-relationships.md) to create sophisticated segments,
+- [enrich your data](pm-enrichment.md) to get a wider range of insights about your customers,
+- or [define activities](pm-activities.md) from some of the ingested attributes.
 
 > [!TIP]
-> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs). 
-
+> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs).

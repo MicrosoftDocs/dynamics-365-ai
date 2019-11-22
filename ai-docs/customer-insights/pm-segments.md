@@ -22,7 +22,7 @@ You can define complex filters around the Customer Profile entity and its relate
 There are two types of segments:
 
 - **Static segments**: Segments that are processed only once — either after the creation or update of any of its filters. Use static segments when properties are not expected to change over time or when they are expected to be used only once. For example, customers who attended a specific event.
-- **Dynamic segments**: Segments that are processed according to a recurring schedule. Use dynamic segments when customers' attributes change over time. For example, customers who have bought products worth more than $500 in the last three months. Currently, dynamic segments are refreshed 12 hours.
+- **Dynamic segments**: Segments that are processed according to a recurring schedule. Use dynamic segments when customers' attributes change over time. For example, customers who have bought products worth more than $500 in the last three months.
 
 The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who ordered goods for more than $500 in the last 90 days *and* who were involved in a customer service call that got escalated.
 
@@ -31,14 +31,13 @@ The following example illustrates the depth of the Customer Insights segmentatio
 
 ## Manage existing segments
 
-
 On the **Segments** page, you can view all your saved segments and manage them.
 
-Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trend line to see how the customer count in the segement evolved over time. 
+Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trend line to see how the customer count in the segement evolved over time.
 
 To see your segments in a table format, select the table format icon.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Static segment](media/segmentation-static-segment.png "Static segment")
 
 To manage a segment, select the ellipses on the segment's tile.
@@ -50,7 +49,7 @@ The following options are available:
 
 - Edit the segment
 - View the segment's members
-- [Export](export-destinations.md). the segment
+- [Export](export-destinations.md) the segment
 - Change a state of a dynamic segment to inactive or active
 - Run the processing of a static segment
 - Delete the segment
@@ -65,7 +64,7 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 3. In the **New segment** pane, choose a segment type and provide a **Name**.
 
-  > [!div class="mx-imgBorder"] 
+  > [!div class="mx-imgBorder"]
   > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
 
   Optionally, provide a display name, and a description that helps identifying the segment. 
@@ -74,11 +73,11 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 5. Choose the entity that includes the attribute you want to segment by.
 
-6. Choose the attribute by which you want to segment. The attribute can have one of four value types: numerical, string, date, or Boolean. 
+6. Choose the attribute by which you want to segment. The attribute can have one of four value types: numerical, string, date, or Boolean.
 
 7. Choose an operator and a value for the selected attribute.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Custom group filter](media/customer-group-numbers.png "Customer group filter")
 
    |Number |Definition  |
@@ -108,7 +107,7 @@ You can't run or activate the segment until it's a valid segment. You'll see a m
 
 To add more conditions to a group, you can use two logical operators:
 
-- **AND** operator: UBoth conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities.
+- **AND** operator: Both conditions must be met as part of the segmentation process. This option is most useful when you define conditions across different entities.
 
 - **OR** operator: Either one of the conditions needs to be met as part of the segmentation process. This option is most useful when you define multiple conditions for the same entity.
 
@@ -167,27 +166,27 @@ In addition to the segment builder, there is another path for creating segments 
 
 1. Select one of the tiles on the **Segments** page to get started.
 
-    > [!div class="mx-imgBorder"] 
+    > [!div class="mx-imgBorder"]
     > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
- 
+
     - Select the **Profiles** option to build a segment that is based on the unified Customer entity. 
-    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page. 
- 
+    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
+
 2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.
 
-3. The system will provide some additional insights that help you create better segments of your customers. 
+3. The system will provide some additional insights that help you create better segments of your customers.
    - For categorial fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
 
    - For a numerical attribute the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
 
-4.	The system will provide you with an **Estimated segment size** so you can choose whether to actually generate the segment you have defined or first revisit it get a different segment size.
+4. The system will provide you with an **Estimated segment size** so you can choose whether to actually generate the segment you have defined or first revisit it get a different segment size.
 
-    > [!div class="mx-imgBorder"] 
+    > [!div class="mx-imgBorder"]
     > ![Name and estimation for a quick segment](media/quick-segment-name.png "Name and estimation for a quick segment")
 
 5. Provide a **Name** for your segment. Optionally, provide a **Display name**.
 
-6. Select **Save** to create your segment. 
+6. Select **Save** to create your segment.
 
 7. After segment finished processing, you can view your segment like any other segment you have created.
 
