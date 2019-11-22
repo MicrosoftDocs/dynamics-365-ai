@@ -74,29 +74,18 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 
 6. Select **Save configuration** to save the setting.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save card configuration](media/card-configuration-save.png "Save card configuration")
-
-   > [!div class="mx-imgBorder"]
-   > ![Configuration saved](media/card-configuration-save2.png "Configuration saved")
-
+<!-- Is it sufficiently clear how to assign user roles? -->
 7. Next, assign the following user roles:
 
-   - Customer Insights Card Customizer: Assign this role to users who will customize the content shown on the card for the whole organization.
-   - Customer Insights Card Standard User: Assign this role to users who will use the card for consumption, but who won’t customize.
+   - **Customer Insights Card Customizer**: Assign this role to users who will customize the content shown on the card for the whole organization.
+   - **Customer Insights Card Standard User**: Assign this role to users who will use the card for consumption, but who won’t customize.
   
-   > [!div class="mx-imgBorder"]
-   > ![Manage user roles](media/manage-user-roles.png "Manage user roles")
-
 8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**.
 
    > [!div class="mx-imgBorder"]
    > ![Settings customizations](media/settings-customizations.png "Settings customizations")
 
 9. Select **Customize the System**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Customize the System](media/settings-customize-system.png "Customize the System")
 
 10. Browse to the Contact entity, expand its menu, and then select **Forms**.
 
@@ -130,13 +119,7 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 
 4. Go to the **Controls** tab and select **Add Control**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Add Control](media/field-properties-add-control.png "Select Add Control")
-
 5. Select **Demographic_Control**, and then select **Add**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Add Demographic_Control](media/field-properties-add-control-demographic.png "Add Demographic_Control")
 
 6. Select the **Web** option for **Demographic_Control**.
 
@@ -176,14 +159,8 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > ![Clear check box](media/field-properties-display-label.png "Clear check box")
 
 4. Go to the **Controls** tab, and select **Add Control**.
-  
-   > [!div class="mx-imgBorder"]
-   > ![Select Add Control](media/field-properties-add-control2.png "Select Add Control")
 
 5. Select **Timeline_Control** and then **Add**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Add control](media/field-properties-add-control3.png "Add control")
 
 6. Select the **Web** option for **Timeline_Control**.
 
