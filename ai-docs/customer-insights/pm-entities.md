@@ -52,6 +52,13 @@ Note that the items in the **Type** column are Common Data Model associated type
 
 Both the **Fields** table and the **Data** table show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
+> [!div class="mx-imgBorder"] 
+> ![Fields table](media/data-manager-entities-summary.png "Data summary table")
+
+To learn more about the Data ingested in the entity, **Summary** provides you some important characteristics of the data, such as nulls, missing values, unique values, counts and distributions, as applicable to your data. 
+Clicking on the chart icon, will provide you the summary of the data.
+> [!div class="mx-imgBorder"] 
+> ![Fields table](media/data-manager-entities-summary-chart.png "Data summary chart")
 ### Next step
 
 See the [Unify](pm-configure-data.md) section to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.
