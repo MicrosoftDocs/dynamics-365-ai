@@ -15,73 +15,48 @@ manager: shellyha
 
 # Match
 
-<!--continue here-->
+After completing the map phase, you're ready to match your entities. The match phase lets you specify how to combine your datasets into a unified customer profile dataset, which will be used to gain unique insights about your customers. The match phase requires at least [two mapped entities](pm-map.md).
 
-Once the map phase is completed, you're ready to match your entities. Select **Match** on the **Unify** page to get to the **Match** page.
+## Specify the match order
 
-Note that the match phase requires at least two mapped entities. If you have not mapped at least two entities, you receive a message to go back to the **Map** page and meet the requirement.
+Go to **Unify** > **Match** and select **Set order** to start the match phase.
 
-If you did map at least two entities, you can expect to reach the following page. Select **Set order** once you are ready to start the match phase.
+Each match involves two entities that are unified into a single entity, while persisting each unique customer record. In the following example, we selected three entities: **ContactCSV: TestData** as the **Primary** entity, **WebAccountCSV: TestData** as **Entity 2**, and **CallRecordSmall: TestData** as **Entity 3**. The diagram above the selections illustrates how the match order will be executed.
 
-  > [!div class="mx-imgBorder"]
-  > ![Start the match phase](media/configure-data-match-new-rule.png "Start the match phase")
-
-## The match phase
-
-The match phase enables you to specify how to combine your datasets into a unified **Customer Profile** dataset, which will be used later to unlock unique insights about your customers.
-
-If this is the first time you are going through the match process, complete these mandatory steps:
-
-1. Specify the order by which your mapped entities will be matched.
-2. Define rules for the first matched pair.
-3. Run your specified matches.
-4. (Optional) Review and validate your matches.
-5. (Optional) Make changes to your **Match order** and **Rules** definitions.
+> [!div class="mx-imgBorder"]
+> ![Edit the data match order](media/configure-data-match-order-edit-page.png "Edit the data match order")
   
-The following sections describe these steps.
+First, the **Primary** entity is matched with **Entity 2**. Then, the dataset that results from the first match is matched with **Entity 3**.
+In this example, we only selected two matches. However, the system supports more matches.
 
-## Step 1: Specify the match order
-
-Each match involves two entities that are unified into a single entity, while maintaining each unique customer record. In the following example, the user has selected three entities: **ContactCSV: TestData** as the **Primary** entity, **WebAccountCSV: TestData** as **Entity 2**, and **CallRecordSmall: TestData** as **Entity 3**. The diagram above these selections illustrates how the match order will be executed:
-
-- **First match**: First, the **Primary** entity is matched with **Entity 2**.
-- **Second match**: Then, the dataset that results from the first match is matched with **Entity 3**.
-- And so forth (in our example, we made selections only for two matches, but the system supports more than two).
-
-  > [!div class="mx-imgBorder"]
-  > ![Edit the data match order](media/configure-data-match-order-edit-page.png "Edit the data match order")
-  
 > [!IMPORTANT]
-> The entity that you choose as your **Primary** entity will serve as the basis for your unified master dataset. In other words, any future entities that are selected during the match phase will be added to this entity. At the same time, this doesn't mean that the unified entity will include **all** of the data included in this entity.
+> The entity that you choose as your **Primary** entity will serve as the basis for your unified master dataset. Additional entities that are selected during the match phase will be added to this entity. At the same time, this doesn't mean that the unified entity will include *all* of the data included in this entity.
 >
-> There are two considerations that can help you select your **Primary** entity:
+> There are two considerations that can help you choose the hierarchy of your entities:
 >
 > - What entity do you consider having the most complete and reliable data about your customers?
 > - Does the entity that you just identified have attributes that are also shared by other entities (for example, name, phone number, or email address)? If not, choose your second most reliable entity.
 
-You can always remove entities from your match order. Lastly, select **Done** to save your match order.
+Select **Done** to save your match order.
 
-> [!NOTE]
-> The questions you asked to make your first selection can help you choose **Entity 2** as well. Among your ingested (and mapped) entities, what entity do you consider to have the second most reliable and complete data? Moreover, does it include at least one field that is shared by the **Primary** entity, and possibly additional fields that are shared by other ingested entities?
+## Define rules for your first match pair
 
-## Step 2: Define rules for your first match pair
-
-Once you've completed Step 1, you can expect to reach the **Match** page, which includes your defined matches (in the following example, the user specified two matches). Note that the tiles at the top of the screen will be empty until you run your match order in Step 3. These will be used for validation as explained in Step 4.
+After specifying the match order, you'll get back to the **Match** page which now lists the defined matches. The tiles at the top of the screen will be empty until you run your match order the next step.
 
 > [!div class="mx-imgBorder"]
 > ![Define rules](media/configure-data-match-need-rules.png "Define rules")
 
-The warning sign (outlined in the preceding example) implies that we didn't define at least one match rule for our match pair, which is mandatory. Match rules dictate the logic by which a specific pair of entities will be matched. In order to define your first rule, open the **Rule Definition** pane by selecting the corresponding match row in the matches table (#1) and then selecting **Create new rule** (#2).
+The **Needs Rules** warning suggests that no match rule is defined for a match pair. Match rules specify the logic by which a specific pair of entities will be matched. To define your first rule, open the **Rule Definition** pane by selecting the corresponding match row in the matches table (1) and then selecting **Create new rule** (2).
 
 > [!div class="mx-imgBorder"]
 > ![Create new rule](media/configure-data-match-new-rule2.png "Create new rule")
 
-That opens the **New rule** pane.
+In the **New Rule** pane, configure the conditions for that rule. Each condition is represented by two rows that include mandatory selections.
 
 > [!div class="mx-imgBorder"]
 > ![New rule pane](media/configure-data-match-new-rule-condition.png "New rule pane")
 
-The **New Rule** pane enables you to specify the conditions for that role. As can be seen in the image above, each condition is represented by two rows that include the following mandatory selections:
+<!--continue here-->
 
 1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
