@@ -2,7 +2,7 @@
 title: "Admin | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 11/25/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -23,10 +23,9 @@ The Customer Insights administration pages include the **Permissions** and **Set
 
 **If you are an administrator:**
 
-- You can use the **Permissions** page to give other users across the organization access to Customer Insights. There are two types of access: **Reader** and **Writer**. You can learn how they differ by visiting the [**Permissions** section](pm-permissions.md). 
-- You can use the **Settings** page to give easily identifiable names to your instances. You can also specify a name for your organization and define a region for it. 
+- You can use the **Permissions** page to give other users across the organization access to Customer Insights. There are two types of access: **Reader** and **Writer**. See how they differ by visiting the [**Permissions** section](pm-permissions.md).
+- You can use the **Settings** page to give easily identifiable names to your instances. You can also specify a name for your organization and define its region.
 
 **If you are not an administrator:**
 
-- You can use the **Permissions** page to learn what is accessible to you as a user. As explained in the [**Permissions** section](pm-permissions.md), what you have access to depends on whether you have **Writer** or **Reader** permissions.
-
+- You can use the **Permissions** page to learn what is accessible to you as a user. As explained in the [**Permissions** section](pm-permissions.md), what you can access  depends on whether you have **Writer** or **Reader** permissions.
