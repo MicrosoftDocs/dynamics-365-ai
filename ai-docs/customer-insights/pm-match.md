@@ -1,7 +1,7 @@
 ---
 title: "Match | Microsoft Docs"
 description: Complete the matching phase to get a unified customer profile in Dynamics 365 Customer Insights
-ms.date: 11/22/2019
+ms.date: 11/25/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
