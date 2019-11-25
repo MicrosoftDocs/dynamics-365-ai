@@ -205,4 +205,4 @@ To specify the conditions that certain records always match and/or certain recor
 
 ## Next Step
 
-Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the [**Merge**](pm-merge.md) section.
+Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the [**Merge**](pm-merge.md) topic.
