@@ -48,57 +48,56 @@ After specifying the match order, you'll get back to the **Match** page which no
 > [!div class="mx-imgBorder"]
 > ![Define rules](media/configure-data-match-need-rules.png "Define rules")
 
-The **Needs Rules** warning suggests that no match rule is defined for a match pair. Match rules specify the logic by which a specific pair of entities will be matched. To define your first rule, open the **Rule Definition** pane by selecting the corresponding match row in the matches table (1) and then selecting **Create new rule** (2).
+The **Needs Rules** warning suggests that no match rule is defined for a match pair. Match rules specify the logic by which a specific pair of entities will be matched.
 
-> [!div class="mx-imgBorder"]
-> ![Create new rule](media/configure-data-match-new-rule2.png "Create new rule")
-
-In the **New Rule** pane, configure the conditions for that rule. Each condition is represented by two rows that include mandatory selections.
-
-> [!div class="mx-imgBorder"]
-> ![New rule pane](media/configure-data-match-new-rule-condition.png "New rule pane")
-
-<!--continue here-->
-
-1. An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
-
-   > [!IMPORTANT]
-   > You should avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
-
-2. An attribute that will be used for matching from the second match pair entity.
-
-3. **Normalization method**: Various normalization options are available for the attributes chosen in fields (1) and (2), from removing punctuation, to removing spaces, to many others. Some of the options are shown here:
+1. To define your first rule, open the **Rule Definition** pane by selecting the corresponding match row in the matches table (1) and then selecting **Create new rule** (2).
 
    > [!div class="mx-imgBorder"]
-   > ![Normalization](media/match-normalization.png "Normalization")
+   > ![Create new rule](media/configure-data-match-new-rule2.png "Create new rule")
 
-   For Organization (Preview) name normalization, you can also select **Type (Phone, Name, Organization)** as shown below.
+2. In the **Edit Rule** pane, configure the conditions for that rule. Each condition is represented by two rows that include mandatory selections.
+
+   > [!div class="mx-imgBorder"]
+   > ![New rule pane](media/configure-data-match-new-rule-condition.png "New rule pane")
+
+   1) An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
+
+   > [!TIP]
+   > Avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
+
+   2) An attribute that will be used for matching from the second match pair entity.
+
+   3) **Normalization method**: Various normalization options are available for the selected attributes. For example, removing punctuation or removing spaces
+
+   For Organization name normalization (Preview), you can also select **Type (Phone, Name, Organization)**
 
    > [!div class="mx-imgBorder"]
    > ![Normalization-B2B](media/match-normalization-b2b.png "Normalization-B2B")
 
-4. The level of precision that will be used for that condition:
+   4) The level of precision that will be used for this condition. Select **Exact** to only match records that that match 100 percent. Select one of the other levels to match records that are not 100 percent identical. You can also use the slider to define the percentage that records need to match. Values on the slider are between 0 and 1. So 0.64 represents 64 percent.
 
-   - Select **Exact**, on the left-side of the scale, if you want only exact matching records to be matched.
-
-   - Select one of the other levels to match records that are not 100 percent identical. **High** fits cases where precision is more important than reach, such as a financial service to a specific customer. **Low** fits cases where the opposite is true, such as a marketing campaign. The **Medium** level serves as a middle-ground option.
+3. Select **Done** so save the rule.
 
 ### Add multiple conditions
 
-If you want to match your entities only if multiple conditions are met, you can do so by adding more conditions that are linked through an **AND** operator. Select **Add condition** (#1 in the following example). You can also remove conditions by selecting the delete button (#2 in the following example).
+If you want to match your entities only if multiple conditions are met, you can do so by adding more conditions that are linked through an AND operator.
 
-> [!div class="mx-imgBorder"]
-> ![Add condition](media/configure-data-match-new-rule-add-condition.png "Add condition")
+1. In the **Edit rule** pane, select **Add condition**. You can also delete conditions by selecting the remove button next to an existing condition.
 
-For the purpose of this section we will limit our match rule to only one condition.
+2. Select **Done** so save the rule.
 
-### Add multiple rules
+## Add multiple rules
 
-If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. If you believe that your entities can be matched on the basis of different sets of attributes, you should add more rules using **Add rules**.
+If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. To have your entities matched on the basis of different sets of attributes, you can add more rules. 
 
-Note that when creating rules, order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
+1. In Cutomer Insights, go the the **Match** page.
 
-For the purpose of this section, we will stay with only one rule.
+2. Select the entity your want to update and select **Add rules**.
+
+3. Follow the procedure as outlined in [Define rules for your first match pair](#define-rules-for-your-first-match-pair).
+
+> [!NOTE]
+> The rule order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
 
 ## Step 3: Run your specified match order
 
