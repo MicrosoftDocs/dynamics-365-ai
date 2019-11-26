@@ -1,7 +1,7 @@
 ---
 title: "Create a Customer Insights instance and environments | Microsoft Docs"
 description: Create an instance of Dynamics 365 Customer Insights and environments in existing instances.
-ms.date: 11/18/2019
+ms.date: 11/26/2019
 ms.service: dynamics-365-ai
 ms.topic: "article"
 applies_to: 
@@ -17,8 +17,6 @@ manager: shellyha
 This article explains how to create a Dynamics 365 Customer Insights instance and how to provision an environment.
 
 ## Sign up for Customer Insights and create the first instance
-
-<!-- worth creating a separate topic to sign up the first time for a Get started node and keep environment creation under the admin node?-->
 
 1. In your browser, go to the [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) website.
 
@@ -40,8 +38,6 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 1. Select the **Settings** symbol in the header of the app.
 
-<!--why not under Admin in left nav?-->
-
 2. Select **Environments**.
 
 3. In the panel on the right side of the screen, select **New environment**.
@@ -60,11 +56,12 @@ When you create a new environment, you can specify basic settings, and optionall
     > ![Settings dialog for a new environment](media/create-new-environment.png)
 
 2. Optionally, you can select **Advanced** to configure additional settings:
-<!--could use an image-->
-   - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (am Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake storage). By default, Customer Insights storage option is selected. 
-   <!-- add a link when the BYODL docs go live-->
+
+   - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (a Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake storage). By default, Customer Insights storage option is selected. 
+
    > [!NOTE]
-   > By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)    
+   > By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
+   >
    > Currently, ingested entities are always stored in the Customer Insights managed data lake.
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
@@ -88,7 +85,7 @@ You can edit some of the details of existing environments.
 
 4. You can update the **Display name** but you can't change **Region** and **Type** of the environment.
 
-5. (Preview) If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change **Account name** and **Container** name.
+5. If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change **Account name** and **Container** name.
 
 ## Deleting an existing environment
 
