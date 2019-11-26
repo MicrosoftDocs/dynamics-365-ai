@@ -12,9 +12,9 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connect to a Common Data Model using an Azure Data Lake Gen2 account
+# Connect to a Common Data Model folder using an Azure Data Lake Gen2 account
 
-This article provides information on how to connect a Common Data Model with Dynamics 365 Customer Insights using your Azure Data Lake Storage Gen2 account.
+This article provides information on how to connect a Common Data Model folder with Dynamics 365 Customer Insights using your Azure Data Lake Storage Gen2 account.
 
 ## Important considerations
 
