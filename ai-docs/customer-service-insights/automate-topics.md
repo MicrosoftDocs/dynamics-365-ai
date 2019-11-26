@@ -1,5 +1,5 @@
 ---
-title: "Automate the create of Power Virtual Agents bot topics"
+title: "Automate the creation of Power Virtual Agents bot topics"
 description: "Use topics discovered by Customer Service Insights as pre-filled bot topics in Power Virtual Agents."
 keywords: ""
 ms.date: 11/22/2019
