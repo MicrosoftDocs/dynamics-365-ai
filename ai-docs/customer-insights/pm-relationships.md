@@ -1,28 +1,23 @@
 ---
-title: "Relationships | MicrosoftDocs"
-description: 
-ms.custom: ""
+title: "Relationships | Microsoft Docs"
+description: Connect entities to create segments and measures from multiple data sources in Dynamics 365 Customer Insights.
 ms.date: 04/01/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
-# Relationships
 
+# Relationships
 
 Relationships help you connect entities and generate a graph of your data. Relationships are used when entities share a common identifier (foreign key) that can be referenced from one entity to another. Connected entities enable you to define segments and measures based on multiple data sources.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Relationships tile](media/configure-data-relationships-tile.png "Relationships tile")
 
 There are two types of relationships:
@@ -32,7 +27,7 @@ There are two types of relationships:
 
 During the match and merge processes, system relationships are created behind the scenes based on intelligent matching. These relationships help relate the Customer Profile records with other corresponding entities' records. The following diagram exemplifies the creation of three system relationships when the customer entity is matched with additional entities to produce the final Customer Profile entity.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Relationship creation](media/relationships-entities-merge.png "Relationship creation")
 
 - ***CustomerToContact* relationship** was created between the Customer entity and the Contact entity. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
@@ -43,7 +38,7 @@ During the match and merge processes, system relationships are created behind th
 
 In addition, you can use the **Relationships** page to define custom relationships as shown here.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Customer relationships](media/relationships-custom.png "Custom relationships")
 
 Each relationship has two key parts:
@@ -53,12 +48,12 @@ Each relationship has two key parts:
 
 To create a relationship, first select **Add relationship**.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Add relationships](media/add-relationships.png "Add relationships")
 
 Next, provide the following information in the **Relationship** pane.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Enter relationship details](media/relationships-add.png "Enter relationship details")
 
 - **Relationship name**: You can provide a meaningful name that reflects the purpose of the relationship (for example, **AccountWebLogs**).
@@ -79,16 +74,14 @@ To delete a relationship:
 
 1. Select check boxes for the relationships you want to delete.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Select the relationship to delete](media/select-relationship-to-delete.png "Select the relationship to delete")
 
 2. Select **Delete** at the top of the **Relationships** table.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Delete relationship](media/delete-relationship.png "Delete relationship")
 
-### Next step
+## Next step
 
 System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources that are no longer siloed. Visit the **Segments** section to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities** section.
-
-
