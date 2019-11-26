@@ -1,6 +1,6 @@
 ---
-title: "Activities | MicrosoftDocs"
-description: Work with the Activities page in Dynamics 365 Customer Insights
+title: "Activities | Microsoft Docs"
+description: Define activities in Dynamics 365 Customer Insights to see them in a customer timeline. 
 ms.date: 11/26/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
