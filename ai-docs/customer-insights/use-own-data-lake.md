@@ -14,7 +14,7 @@ manager: shellyha
 
 # Connect to a Common Data Model folder using an Azure Data Lake Gen2 account
 
-This article provides information on how to connect a Common Data Model folder with Dynamics 365 Customer Insights using your Azure Data Lake Storage Gen2 account.
+This article provides information on how to connect a Common Data Model folder     with Dynamics 365 Customer Insights using your Azure Data Lake Storage Gen2 account.
 
 ## Important considerations
 
@@ -51,18 +51,18 @@ This article provides information on how to connect a Common Data Model folder w
 > [!NOTE]
 > A model.json file can only associate with one data source in the same instance. However, the same model.json file can be used for data sources in multiple instances.
 
-## Edit a Common Data Model data source
+## Edit a Common Data Model folder data source
 
 You can update the access key for the storage account that contains the Common Data Model folder you connected to Customer Insights or change the model.json file. If you want to connect to a different container from your storage account, or change the account name, you need to [create a new data source connection](#connect-to-a-common-data-model-folder).
 
-1. In Customer Insights, go to **Data** > **Data sources**. 
+1. In Customer Insights, go to **Data** > **Data sources**.
 
 2. Next to the data source you'd like to update, select the ellipsis.
 
 3. Select the **Edit** option from the list.
- 
+
 4. Optionally, update the **Access key** and select **Next**.
-   
+
    ![Dialog to edit and update an access key for an existing data source](media/edit-access-key.png)
 
 5. Optionally, choose a different model.json file with a different set of entities from the container.
