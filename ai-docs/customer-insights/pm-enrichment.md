@@ -17,7 +17,7 @@ manager: shellyha
 
 Dynamics 365 Customer Insights consolidates customer data from all of your data sources after completing the map, match, and merge phases. At the same time, Customer Insights goes beyond that and provides information about your customers that comes from proprietary data. The **Enrichment** page enables your to get insights from data on affinities for hundreds of brands and dozens of interest-categories. These affinities are extracted from profiles that might be similar to the profile of you customers.
 
-In Customer Insights, go **Enrichment** to configure and view the data.
+In Customer Insights, go to **Data** > **Enrichment** to configure and view the data.
 
 ## Explore the Enrichment page
 
