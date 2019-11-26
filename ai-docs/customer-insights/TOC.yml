@@ -27,6 +27,8 @@
       href: pm-data-sources.md
     - name: Common connectors guidance
       href: pm-common-connectors.md
+    - name: Connect to a Common Data Model folder
+      href: connect-common-data-model-folder.md
     - name: Entities
       href: pm-entities.md
     - name: Unify
