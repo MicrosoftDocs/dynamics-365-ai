@@ -2,7 +2,7 @@
 title: "Export destinations | MicrosoftDocs"
 description: The Export destinations page shows you all locations you’ve set up to export data to and allows you to add new destinations.
 ms.custom: ""
-ms.date: 08/02/2019
+ms.date: 11/27/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -77,9 +77,6 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
 
 2. Choose "Dynamics 365 Sales" or "Dynamics 365 Marketing" in the **Type** dropdown list.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Dynamics 365 Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 Sales")
-
 3. Specify your Dynamics 365 Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 Sales or Dynamics 365 Marketing account.
 
    > [!div class="mx-imgBorder"]
@@ -89,15 +86,9 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
 
 5. Give your destination a recognizable name in the **Display name** field.
 
-   > [!div class="mx-imgBorder"]
-   > ![Add destination display name](media/add-destination-display-name.png "Add destination display name")
-
 6. Select **Next**.
 
 7. Select the segments you wish to export, and then select **Save**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select segment to export](media/select-segments-to-export.png "Select segment to export")
 
 ## Run an Export
 
@@ -105,14 +96,9 @@ Once a destination is created, your export should start shortly if all prerequis
 
 You can also initiate an Export manually by selecting **Export** at the upper right of the page.
 
-![Export destinations](media/export-destinations-preview.png)
-
 ## View Export destinations
 
 If you’ve already created any destinations, you'll see them listed in a table on the **Export destinations** page. This table has three columns:
-
-   > [!div class="mx-imgBorder"]
-   > ![Export destinations page](media/export-destinations-page.png "Export destinations page")
 
 - **Display name**: The name you entered when creating the destination.
 - **Type**: The destination type you set when creating the destination. Currently supports:
@@ -124,9 +110,6 @@ If you’ve already created any destinations, you'll see them listed in a table 
 
 To remove an Export destination, start from the main **Export destinations** page.
 
-> [!div class="mx-imgBorder"]
-> ![Export destinations page](media/export-destinations-page.png "Export destinations page")
-
 1. Select the vertical ellipsis for the Export destination you want to remove.
 
    > [!div class="mx-imgBorder"]
@@ -134,10 +117,4 @@ To remove an Export destination, start from the main **Export destinations** pag
 
 2. Select **Remove** from the dropdown menu.
 
-   > [!div class="mx-imgBorder"]
-   > ![Remove](media/export-destinations-page-vertical-ellipsis-remove.png "Remove")
-
 3. Finalize the removal by selecting **Remove** on the confirmation screen.
-
-   > [!div class="mx-imgBorder"]
-   > ![Remove confirmation](media/export-destinations-page-vertical-ellipsis-remove-confirmation.png "Remove confirmation")
