@@ -170,10 +170,10 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
 1. Go to the predictive opportunity scoring configuration page and select **Retrain model**.
 
-     The application starts generating a model and a notification is displayed on the screen.
+    The application starts generating a model and a notification is displayed on the screen.
 
-   > [!div class="mx-imgBorder"]
-   > ![Model training notification](media/si-admin-predictive-opportunity-scoring-model-training-notification.png "Model training notification")
+    > [!div class="mx-imgBorder"]
+    > ![Model training notification](media/si-admin-predictive-opportunity-scoring-model-training-notification.png "Model training notification")
 
 2. Review and publish the model.
 
