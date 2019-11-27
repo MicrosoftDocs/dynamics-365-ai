@@ -172,8 +172,8 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
      The application starts generating a model and a notification is displayed on the screen.
 
-    > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
+   > [!div class="mx-imgBorder"]
+   > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
 
 2. Review and publish the model.
 

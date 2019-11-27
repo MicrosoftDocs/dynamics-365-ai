@@ -28,12 +28,10 @@ When you configure the predictive opportunity scoring feature, the application u
 
 The enhanced predictive opportunity scoring lets you add custom fields to generate a model for predictive opportunity scoring that is accurate. The custom fields can be specific to your organization so that you can decide the impact of the outcome. The feature is available in preview mode. You must enable the preview mode to configure predictive opportunity scoring.
 
-<!--
 The following illustration explains how you can configure the predictive opportunity scoring.
 
 > [!div class="mx-imgBorder"]
 > ![Steps to configure predictive opportunity scoring](media/si-pos-config-steps.png "Steps to configure predictive opportunity scoring")
--->
 
 Before we configure the predictive opportunity scoring, let's understand the configuration page after a model is generated.
 
@@ -174,8 +172,8 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
      The application starts generating a model and a notification is displayed on the screen.
 
-    > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-opportunity-scoring-model-training-notification.png "Model training notification")
+   > [!div class="mx-imgBorder"]
+   > ![Model training notification](media/si-admin-predictive-opportunity-scoring-model-training-notification.png "Model training notification")
 
 2. Review and publish the model.
 
