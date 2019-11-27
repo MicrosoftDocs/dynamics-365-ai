@@ -19,9 +19,10 @@ manager: shellyha
 ---
 # Export destinations
 
-The **Export destinations** page shows you all locations you’ve set up to export data to and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Customer Insights instance.
+The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Customer Insights instance.
 
 ## Add a new Export destination
+
 <!--
 ### Azure Blob storage
 
@@ -61,7 +62,6 @@ Data exported from the Export process will be stored in the Azure Blob storage c
   - Data Source entities: Dynamics365CustomerInsights/Export/%DataSourceName%_%EntityName%/%DataSourceName%_%EntityName%_%PartitionId%.csv
     - Example: Dynamics365CustomerInsights/Export/Retail_Contacts/Retail_Contacts_1.csv
 -->
-	
 
 ### Dynamics 365
 
@@ -70,38 +70,34 @@ You can create a Dynamics 365 destination to export your segments. Customer Insi
 - Dynamics 365 Sales (Marketing List)
 - Dynamics 365 Marketing (Segments)
 
-
 1. Within the **Export destinations** page, select **Add Destination**.
 
-
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Add Export destination](media/add-export-destination.png "Add Export destination")
-
 
 2. Choose "Dynamics 365 Sales" or "Dynamics 365 Marketing" in the **Type** drop-down list.
 
-
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Select Dynamics 365 Sales](media/export-destinations-dynamics365-for-sales.png "Select Dynamics 365 Sales")
 
 3. Specify your Dynamics 365 Sales or Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and then select a Dynamics 365 Sales or Dynamics 365 Marketing account.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/add-destination.png "Add destination page")
+   > [!div class="mx-imgBorder"]
+   > ![Add destination page](media/add-destination.png "Add destination page")
 
 4. Indicate the field in Customer entity that maps to the Dynamics 365 Contact ID. Only contacts that can be mapped back to Dynamics 365 will be exported. Customer Insights is not creating new contacts in Dynamics 365.
 
 5. Give your destination a recognizable name in **Display name**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/add-destination-display-name.png "Add destination display name")
+   > [!div class="mx-imgBorder"]
+   > ![Add destination display name](media/add-destination-display-name.png "Add destination display name")
 
 6. Select **Next**.
 
 7. Select the segment you wish to export, and then select **Save**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/select-segments-to-export.png "Select segment to export")
+   > [!div class="mx-imgBorder"]
+   > ![Select segment to export](media/select-segments-to-export.png "Select segment to export")
 
 ## Run an Export
 
@@ -109,40 +105,39 @@ Once a destination is set up, your export should start shortly if all prerequisi
 
 You can also initiate Export manually.
 
-
 ![Export destinations](media/export-destinations-preview.png)
 
 ## View Export destinations
 
 When viewing the **Export destinations** page, if you’ve already created destination you will see a table containing several fields for destinations you’ve added, as described here:
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Export destinations page](media/export-destinations-page.png "Export destinations page")
-	
-  - Display name: The name you created during the destination creation.
-  - Type: The destination type set during the destination creation.  Currently supports:
-    - Azure Blob storage
-    - Dynamics 365 Sales
-  - Created: The date you created the destination.
+
+- Display name: The name you created during the destination creation.
+- Type: The destination type set during the destination creation.  Currently supports:
+  - Azure Blob storage
+  - Dynamics 365 Sales
+- Created: The date you created the destination.
 
 ## Remove an Export destination
 
 To remove an Export destination, start from the main Export destinations page.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Export destinations page](media/export-destinations-page.png "Export destinations page")
 
 1. Select the vertical ellipsis for the Export destination you want to remove.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Vertical ellipsis](media/export-destinations-page-ellipsis.png "Vertical ellipsis")
 
 2. Select **Remove**.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Remove](media/export-destinations-page-vertical-ellipsis-remove.png "Remove")
 
 3. Finalize the removal by selecting **Remove** on the confirmation screen.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Remove confirmation](media/export-destinations-page-vertical-ellipsis-remove-confirmation.png "Remove confirmation")
