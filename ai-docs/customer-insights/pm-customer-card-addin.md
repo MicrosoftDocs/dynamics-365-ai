@@ -32,15 +32,9 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub.
 - Individuals who will use the Customer Card in model-driven Dynamics 365 apps need to be added as users. You can do so on the Customer Insights **Permissions** page in the **Admin** section, as discussed later in this topic.
 
-  > [!div class="mx-imgBorder"]
-  > ![Permissions page](media/permissions-page.png "Permissions page")
-
 ## Install Customer Card Add-in
 
 1. As an admin, go to the **Settings** section in model-driven apps in Dynamics 365, and select **Solutions**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Settings solutions](media/settings-solutions.png "Settings solutions")
 
 2. Select the **Display Name** link for the Customer Insights solution.
 
@@ -49,9 +43,6 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 
    If the Customer Insights solution does not appear in your list of solutions, select **Get Solutions from Marketplace** above the list. This will take you to Microsoft AppSource.
 
-   > [!div class="mx-imgBorder"]
-   > ![Get Solutions from Marketplace](media/get-solutions-from-marketplace2.png "Get Solutions from Marketplace")
-
    In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment.
 
 3. Here you will configure the overall settings for the Customer Card add-in. Sign in with the admin Azure Active Directory (Azure AD) account you use to configure Customer Insights.
@@ -59,13 +50,9 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > [!NOTE]
    > Check that the browser pop-up blocker does not block the authentication window when you select the **Authenticate** button.
 
-   > [!div class="mx-imgBorder"]
-   > ![Log in with org credentials](media/login-with-org-credentials.png "Log in with org credentials")
+<!-- we need to check that we use the right UI text for "Authenticate"-->
 
 4. Select the Customer Insights instance you want to fetch data from.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select instance to connect to](media/select-instance-to-connect.png "Select instance to connect to")
 
 5. Select the field in the Customer Insights Customer entity that matches the ID of your Contact entity.
 
@@ -97,9 +84,6 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
     > [!div class="mx-imgBorder"]
     > ![Select Contact form](media/contact-active-forms.png "Select Contact form")
 
-    > [!div class="mx-imgBorder"]
-    > ![Contact form summary](media/contact-form-designer.png "Contact form summary")
-
 ## Demographic control
 
 1. To add the demographic control, in the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.
@@ -109,13 +93,7 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 
 2. Select the field you just added, and select **Change Properties**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Change Properties](media/contact-form-designer3.png "Select Change Properties")
-
-3. Clear the **Display label on the form** check box.
-
-   > [!div class="mx-imgBorder"]
-   > ![Clear the check box](media/field-properties.png "Clear the check box")
+3. In the **Field Properties** dialog, clear the **Display label on the form** check box.
 
 4. Go to the **Controls** tab and select **Add Control**.
 
@@ -128,9 +106,6 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 
 7. Select **Save** and **Publish** to publish the contact form where you have placed the demographic control.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save and then publish](media/field-properties-add-control-demographic3.png "Save and then publish")
-
 8. Go to the published contact form. You will see the demographic control. You might need to sign in the first time you use it.
 
    To customize what you want to show on the demographic control, select the edit button in the upper-right corner. This customization will apply across the organization.
@@ -138,25 +113,13 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > [!div class="mx-imgBorder"]
    > ![Demographic control](media/demographic-control.png "Demographic control")
 
-   > [!div class="mx-imgBorder"]
-   > ![Add new field](media/add-new-field.png "Add new field")
-
 ## Timeline control
 
 1. In the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
 
-   > [!div class="mx-imgBorder"]
-   > ![Select field in Field Explorer](media/contact-form-designer4.png "Select field in Field Explorer")
-
 2. Select the field you just added, and then select **Change Properties**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Change Properties](media/contact-form-designer-publish.png "Select Change Properties")
-
-3. Clear the **Display label on the form** check box.
-  
-   > [!div class="mx-imgBorder"]
-   > ![Clear check box](media/field-properties-display-label.png "Clear check box")
+3. In the **Field Properties** dialog, clear the **Display label on the form** check box.
 
 4. Go to the **Controls** tab, and select **Add Control**.
 
@@ -168,11 +131,5 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > ![Select Web option](media/field-properties-add-control4.png "Select Web option")
 
 7. Select **Save** and **Publish** to publish the contact form where you have placed the timeline control.
-  
-   > [!div class="mx-imgBorder"]
-   > ![Publish form](media/field-properties-publish-control.png "Publish form")
 
 8. Go to the published contact form. You will see the timeline control. You might need to sign in the first time you use it.
-
-   > [!div class="mx-imgBorder"]
-   > ![Timeline control](media/timeline-control.png "Timeline control")
