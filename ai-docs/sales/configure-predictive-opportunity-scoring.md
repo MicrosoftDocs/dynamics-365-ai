@@ -95,7 +95,7 @@ This model is generated based on the standard attributes (fields) that are chose
 > [!NOTE]
 > For more information on how predictive opportunity scoring helps users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
 
-## Generate custom-defined models
+## Generate custom-defined model
 
 At times, the system-defined model may not be accurate for your organization, as your organization might not use the standard attributes for opportunities that are used to generate the model. The enhanced predictive opportunity scoring chooses custom attributes that are specific to your organization to generate a model. Also, it allows you to choose custom attributes (fields) that are used to generate the opportunity score for a model. You must enable preview before you generate the opportunity score.
 

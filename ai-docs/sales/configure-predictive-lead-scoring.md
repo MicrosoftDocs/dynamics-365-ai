@@ -95,7 +95,7 @@ This model is generated based on the standard attributes (fields) that are chose
 > [!NOTE]
 > For more information on how predictive lead scoring helps users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md).
 
-## Generate custom-defined models
+## Generate custom-defined model
 
 At times, the system-defined model may not be accurate for your organization, as your organization might not use the standard attributes for leads that are used to generate the model. The enhanced predictive lead scoring chooses custom attributes that are specific to your organization to generate a model. Also, it allows you to choose custom attributes (fields) that are used to generate the lead score for a model. You must enable preview before you generate the lead score.
 
@@ -164,7 +164,7 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
 1. Go to the predictive lead scoring configuration page, and select **Edit fields**.
 
-2. Perform Steps 6 to 9 from [Generate custom-defined models](#generate-custom-defined-model).
+2. Perform Steps 6 to 9 from [Generate custom-defined model](#generate-custom-defined-model).
 
 **When preview is not enabled**
 
