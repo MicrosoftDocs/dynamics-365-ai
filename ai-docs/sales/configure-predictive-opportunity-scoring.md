@@ -35,7 +35,7 @@ The following illustration explains how you can configure the predictive opportu
 
 Before we configure the predictive opportunity scoring, let's understand the configuration page after a model is generated.
 
-## Understand configuration page
+## Understand the configuration page
 
 When a model is generated, the configuration page displays as shown in the following screenshot:
 
@@ -48,7 +48,7 @@ When a model is generated, the configuration page displays as shown in the follo
 |2|Version details|- **Version trained on**: This parameter displays a date that lets you know when the model was last trained.<br>- **Status**: This parameter lets you know the status of the model.<br>- **Attributes used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory.<br>- **Prediction accuracy**: This parameter displays the percentage of the model's accuracy in predicting the opportunities that could convert into opportunities.<br>- **Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score. |
 |3|Opportunity score grading| **Grading**: When a model is published, the opportunities that are in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded as A, B, C, or D according to the opportunity score that an opportunity has, and this score is influenced by the attributes that we selected while creating the model. Opportunities that are graded as A are more likely to be converted into deals than opportunities that are graded D. You can configure the range for the grading according to your organizational requirements. When you change opportunity score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum opportunity score range for **Grade B** changes to 50. |
 
-## Generate system default model 
+## Generate system-default model 
 
 This model is generated based on the standard attributes (fields) that are chosen by the application.  
 
@@ -95,9 +95,9 @@ This model is generated based on the standard attributes (fields) that are chose
 > [!NOTE]
 > For more information on how predictive opportunity scoring helps users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
 
-## Generate custom defined model
+## Generate custom-defined models
 
-At times, the system defined model may not be accurate for your organization, as your organization might not use the standard attributes for opportunities that are used to generate the model. The enhanced predictive opportunity scoring chooses custom attributes that are specific to your organization to generate a model. Also, it allows you to choose custom attributes (fields) that are used to generate the opportunity score for a model. You must enable preview before you generate the opportunity score.
+At times, the system-defined model may not be accurate for your organization, as your organization might not use the standard attributes for opportunities that are used to generate the model. The enhanced predictive opportunity scoring chooses custom attributes that are specific to your organization to generate a model. Also, it allows you to choose custom attributes (fields) that are used to generate the opportunity score for a model. You must enable preview before you generate the opportunity score.
 
 Follow these steps:
 
@@ -164,7 +164,7 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
 1. Go to the predictive opportunity scoring configuration page, and select **Edit fields**.
 
-2. Perform Steps 6 to 9 from [Generate custom defined model](#generate-custom-defined-model).
+2. Perform Steps 6 to 9 from [Generate custom-defined model](#generate-custom-defined-model).
 
 **When preview is not enabled**
 
