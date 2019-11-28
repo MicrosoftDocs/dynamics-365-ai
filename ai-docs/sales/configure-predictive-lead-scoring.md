@@ -35,7 +35,7 @@ The following illustration explains how you can configure the predictive lead sc
 
 Before we configure the predictive lead scoring, let's understand the configuration page after a model is generated.
 
-## Understand configuration page
+## Understand the configuration page
 
 When a model is generated, the configuration page displays as shown in the following screenshot:
 
@@ -48,11 +48,11 @@ When a model is generated, the configuration page displays as shown in the follo
 |2|version details|- **Version trained on**: This parameter displays a date that lets you know when the model was last trained.<br>- **Status**: This parameter lets you know the status of the model.<br>- **Attributes used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory.<br>- **Prediction accuracy**: This parameter displays the percentage of the model's accuracy in predicting the leads that could convert into opportunities.<br>- **Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score. |
 |3|Lead score grading| **Grading**: When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded as A, B, C, or D according to the lead score that a lead has and this score is influenced by the attributes that we selected while creating the model. Leads that are graded as A are more likely to be converted into opportunities than leads that are graded D. You can configure the range for the grading according to your organizational requirements. When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50. |
 
-## Generate system default model 
+## Generate system-default model 
 
 This model is generated based on the standard attributes (fields) that are chosen by the application.  
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features). 
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -72,9 +72,9 @@ This model is generated based on the standard attributes (fields) that are chose
 4. Select **Get started**, and a pop-up dialog displays to enable the preview.
 
     > [!div class="mx-imgBorder"]
-    > ![Preview notification pop up window](media/si-admin-predictive-lead-scoring-preview-notification.png "Preview notification pop up window")
+    > ![Preview notification pop-up window](media/si-admin-predictive-lead-scoring-preview-notification.png "Preview notification pop-up window")
 
-5. Select **Continue without preview**. The application starts generating a model and a notification is displayed on the screen.
+5. Select **Continue without preview**. The application starts generating a model, and a notification is displayed on the screen.
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
@@ -88,14 +88,14 @@ This model is generated based on the standard attributes (fields) that are chose
 
     - **View details**: Select **View details** if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Retrain the model](#retrain-a-model). 
 
-    To learn more about the configuration page, see [Understand configuration page](#understand-configuration-page).
+    To learn more about the configuration page, see [Understand the configuration page](#understand-configuration-page).
 
 7. Publish the model. The prediction lead scoring is applied in your organization, and users can see the lead scoring in their views under the **Lead Score** column.
 
 > [!NOTE]
 > For more information on how predictive lead scoring helps users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md).
 
-## Generate custom defined model
+## Generate custom-defined models
 
 At times, the system-defined model may not be accurate for your organization, as your organization might not use the standard attributes for leads that are used to generate the model. The enhanced predictive lead scoring chooses custom attributes that are specific to your organization to generate a model. Also, it allows you to choose custom attributes (fields) that are used to generate the lead score for a model. You must enable preview before you generate the lead score.
 
@@ -123,7 +123,7 @@ Follow these steps:
     > [!TIP]
     > Alternatively, without enabling the preview, select **Get started**, and a pop-up dialog displays to enable the preview. Accept terms and conditions, and then select **Enable preview**. 
 
-    The application starts generating a model and a notification is displayed on the screen. The application uses the standard attributes to generate the model.
+    The application starts generating a model, and a notification is displayed on the screen. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
     > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
@@ -144,7 +144,7 @@ Follow these steps:
 
 7. Select **Retrain model**. 
 
-    The model starts to generate with the selected custom attributes and and a notification is displayed on the screen.
+    The model starts to generate with the selected custom attributes and a notification is displayed on the screen.
 
 9. After the model is generated, publish the model.
 
@@ -164,7 +164,7 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
 1. Go to the predictive lead scoring configuration page, and select **Edit fields**.
 
-2. Perform Steps 6 to 9 from [Generate custom defined model](#generate-custom-defined-model).
+2. Perform Steps 6 to 9 from [Generate custom-defined models](#generate-custom-defined-model).
 
 **When preview is not enabled**
 
