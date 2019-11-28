@@ -88,7 +88,7 @@ This model is generated based on the standard attributes (fields) that are chose
 
     - **View details**: Select **View details** if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Retrain the model](#retrain-a-model). 
 
-    To learn more about the configuration page, see [Understand the configuration page](#understand-configuration-page).
+    To learn more about the configuration page, see [Understand the configuration page](#understand-the-configuration-page).
 
 7. Publish the model. The prediction lead scoring is applied in your organization, and users can see the lead scoring in their views under the **Lead Score** column.
 
