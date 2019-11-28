@@ -16,7 +16,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Predictive opportunity scoring
+# Configure predictive opportunity scoring
 
 Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.
 
@@ -52,7 +52,7 @@ When a model is generated, the configuration page displays as shown in the follo
 
 This model is generated based on the standard attributes (fields) that are chosen by the application.  
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features). 
 
 2.	Go to **Change area**, and select **Sales Insights settings**.
 
