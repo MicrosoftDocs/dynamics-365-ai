@@ -10,7 +10,7 @@
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
 #### [Create insight cards](create-insight-cards-flow.md)
-#### [Tutorial 1: Create Hello World card][assistant-tutorial1.md]
+#### [Tutorial 1: Create Hello World card](assistant-tutorial1.md)
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create insight cards using solution](extend-relationship-assistant-card.md)
