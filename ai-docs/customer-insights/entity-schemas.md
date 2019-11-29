@@ -1,8 +1,7 @@
 ---
 title: "Customer Insights entities schema in the Common Data Model | MicrosoftDocs"
 description: Work with entities from Dynamics 365 Customer Insights in the Common Data Model
-ms.custom: ""
-ms.date: 10/03/2019
+ms.date: 11/29/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -16,7 +15,7 @@ manager: shellyha
 
 # Customer Insights entities schema in the Common Data Model
 
-The [Common Data Model](https://docs.microsoft.com/common-data-model/) (CDM) is a declarative specification, and a definition of standard entities that represent commonly used concepts and activities across business and productivity applications. This is being extended to observational and analytical data as well. The Common Data Model provides well-defined, modular, and extensible business entities—such as Account, Business Unit, Case, Contact, Lead, Opportunity, and Product—as well as interactions with vendors, workers, and customers—such as activities and service level agreements. Anyone can build on and extend Common Data Model definitions to capture additional business-specific ideas.
+The [Common Data Model](https://docs.microsoft.com/common-data-model/) is a declarative specification, and a definition of standard entities that represent commonly used concepts and activities across business and productivity applications. This is being extended to observational and analytical data as well. The Common Data Model provides well-defined, modular, and extensible business entities—such as Account, Business Unit, Case, Contact, Lead, Opportunity, and Product—as well as interactions with vendors, workers, and customers—such as activities and service level agreements. Anyone can build on and extend Common Data Model definitions to capture additional business-specific ideas.
 
 This is a shared data model that allows applications and data integrators to collaborate more easily by providing a unified definition of data. The Common Data Model includes a rich metadata system with standard entities, relationships, hierarchies, traits, and more. It originated from Dynamics 365 apps and is open-sourced on GitHub with over 260 standard entities. A large ecosystem of internal and external partners contribute industry-specific concepts to the Common Data Model.
 
@@ -36,8 +35,8 @@ To establish a 360-degree view of the customer and make Customer Insights models
 
 For more details, see the documentation about the [Customer Insights entity schemas in the Common Data Model](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/overview).
 
-## View entities using the CDM Entity Navigator
+## View entities using the Common Data Model Entity Navigator
 
-You can view Customer Insights entities in the [CDM Entity Navigator](https://microsoft.github.io/CDM/). Select the **Load from GitHub!** button and navigate to **foundationCommon** > **crmCommon** > **solutions** > **customerInsights** where you'll find the list of Customer Insights entities and their definitions.
+You can view Customer Insights entities in the [Common Data Model Entity Navigator](https://microsoft.github.io/CDM/). Select the **Load from GitHub!** button and navigate to **foundationCommon** > **crmCommon** > **solutions** > **customerInsights** where you'll find the list of Customer Insights entities and their definitions.
 > [!div class="mx-imgBorder"]
 > ![CDM Entity Navigator showing CustomerActivity entity](media/CDM-entity-navigator.png "CDM Entity Navigator showing CustomerActivity entity")
