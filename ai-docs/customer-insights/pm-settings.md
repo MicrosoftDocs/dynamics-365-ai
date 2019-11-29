@@ -1,128 +1,69 @@
 ---
-title: "System | MicrosoftDocs"
-description: 
-ms.custom: ""
-ms.date: 04/01/2019
+title: "System | Microsoft Docs"
+description: Learn about system settings in Dynamics 365 Customer Insights.
+ms.date: 11/26/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # System
 
-The **System** page encapsulates everything that you need as an administrator to closely monitor the various processes that run behind the scenes of Customer Insights. As shown here, it includes four parts: **Status**, **Schedule**, **About**, and **General**.
+The **System** page contains everything that administrators need to closely monitor the various processes running behind the scenes of Customer Insights. It includes four tabs: **Status**, **Schedule**, **About**, and **General**.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![System page](media/system-tabs.png "System page")
 
 > [!NOTE]
-> If your data sources are updated on a regular basis, we highly recommend that you use the **Schedule** tab. Make sure to review "Schedule tab" later in this topic.
+> If your data sources are updated on a regular basis, we highly recommend that you use the **Schedule** tab. Make sure to review the "Schedule tab" section later in this topic.
 
 ## Status tab
 
-The **Status** tab enables you to track the progress of data ingestion as well as several important product processes. With that, you can ensure the completeness of any major process you define in Customer Insights. This tab includes two tables:
+The **Status** tab lets you track the progress of data ingestion as well as several important product processes. User this to ensure the completeness of any major process you've defined in Customer Insights. This tab includes two tables:
 
-- **Data sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies the names of those data sources. The middle column shows the status of ingestion for each of the data sources: 
+- **Data sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies the names of those data sources. The middle column shows the status of ingestion for each of the data sources:
   - Didn't start
   - In progress
   - Already completed
   
    The right-side column shows the last data refresh date for each of the data sources.
 
-    > [!div class="mx-imgBorder"] 
-    > ![System data sources](media/system-data-sources.png "System data sources")
-
 - **System processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. The left-side column specifies the names of those processes. The middle column shows the status of progress for each of the processes:
-    - Didn't start 
-    - In progress 
-    - Already completed 
+  - Didn't start
+  - In progress
+  - Already completed
   
     The right-side column shows the last data refresh date for each of the processes.
 
-    > [!div class="mx-imgBorder"] 
+    > [!div class="mx-imgBorder"]
     > ![Refresh date](media/system-status-processes.png "Refresh date")
 
-- In addition, you can view the details of each completed data source ingestion or system process by selecting that data source or system process row. In the following example, the user has selected the **Dynamics** data source that has ingestion status **Completed** (#1). Additional details on that data source are also displayed (#2).
-
-  > [!div class="mx-imgBorder"] 
-  > ![Data source details](media/system-database-details.png "Data source details")
+You can view the details of each completed data source ingestion or system process by selecting that item.
 
 ## Schedule tab
 
-Use the **Schedule** tab to refresh all of your ingested Customer Insights data and to schedule the frequency and timing of the refreshes. As data is constantly updated in some or all of your data sources, it's important to ensure that those updates appear in your unified customer profile. The **Schedule** tab enables you to achieve that automatically.
+Use the **Schedule** tab to schedule automatic refreshes of all your ingested Customer Insights data. This helps to ensure that updates from your data sources are reflected in your unified customer profile.
 
-> [!div class="mx-imgBorder"] 
-> ![System data refresh off](media/system-data-refresh-off.png "System data refresh off")
+1. In Customer Insights, go to **Admin** > **System** and select the **Schedule** tab.
 
-In Customer Insights, the default state for data refresh is **Off**, reflecting no scheduled refreshes (as shown in the preceding example). To allow scheduled refreshes, change the toggle at the top of the screen to **On**, as shown in the following example:
+2. The default state for data refreshes is **Off**. To enable scheduled refreshes, change the toggle at the top of the screen to **On**.
 
-> [!div class="mx-imgBorder"] 
-> ![System data refresh on](media/system-data-refresh-on.png "System data refresh on")
+3. Choose between **Weekly** (default) and **Daily** refreshes. If you intend to schedule weekly refreshes, select one or more days on which you want to run the refresh.
 
-The next step is to decide between **Weekly** (default) and **Daily** refreshes.
+4. Select the **Time** field. In the timer dropdown, use the arrows to set your refresh timing. When you are finished, select **Set**. If you'd like to schedule multiple refreshes in a single day, select **Add another time**.
 
-> [!div class="mx-imgBorder"] 
-> ![System data refresh period](media/system-data-refresh-period.png "System data refresh period")
-
-**To schedule a daily refresh:**
-
-1. Select the **Time** field.
-
-   > [!div class="mx-imgBorder"] 
-   > ![System data refresh time period](media/system-data-refresh-time-period.png "System data refresh time period")
-
-2. In the timer shown in the preceding example, use the four arrows to set your refresh timing. When you are finished, select **Set**. You can also close the timer without saving your selections by selecting **Close**.
-
-3. Set multiple daily refreshes by selecting **Add another time**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![System data refresh add another time](media/system-data-refresh-add-another-time.png "System data refresh add another time")
-
-4. To discard any of your saved timings, select the boxes shown here.
-
-   > [!div class="mx-imgBorder"] 
-   > ![System data refresh discard time](media/system-data-refresh-discard-time.png "System data refresh discard time")
-
-**To schedule a weekly refresh:**
-
-1. Check the boxes for the days on which you want to execute a refresh.
-  
-    > [!div class="mx-imgBorder"] 
-    > ![System data refresh weekly time](media/system-data-refresh-weekly-time.png "System data refresh weekly time")
-
-2. Follow the steps for scheduling a daily refresh to complete the weekly refresh setting.
-
-3. **Save** your changes.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Save changes](media/system-data-refresh-save.png "System data refresh save")
+5. Select **Save** to apply your changes.
 
 ## About tab
 
-> [!div class="mx-imgBorder"] 
-> ![About tab](media/system-data-about-tab.png "System data About tab")
-
-Several options are available on this page, as shown in the following example. These options can serve important business requirements, such as using Customer Insights from different regions or distinguishing between multiple work instances.
-
-> [!div class="mx-imgBorder"] 
-> ![Settings](media/settings.png "Settings")
-
-- **Display name**: Determine how your user name will be shown.
-- **Instance name**: Give your work instances identifiable names. This is recommended if you have more than one instance.
-- **Region**: Determine your organization's region.
+The **About** tab contains your organization's **Display name**, as well as the active **Instance name** and **Region**. If you have more than one work instance, it is recommended that you give each an easily identifiable name.
 
 ## General tab
 
-Currently, only one option, **Language**, is available to you on the **General** tab. The languages we support show up in this menu. Don't forget to **Save** your selection. 
-
-> [!div class="mx-imgBorder"] 
-> ![General tab](media/system-tabs-general.png "General tab")
+Only one option, **Language**, is currently available on the **General** tab. Supported languages appear in this menu. Select **Save** to apply your changes.
