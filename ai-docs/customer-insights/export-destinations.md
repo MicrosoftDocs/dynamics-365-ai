@@ -1,22 +1,18 @@
 ---
-title: "Export destinations | MicrosoftDocs"
+title: "Export destinations | Microsoft Docs"
 description: The Export destinations page shows you all locations you’ve set up to export data to and allows you to add new destinations.
-ms.custom: ""
 ms.date: 11/27/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Export destinations
 
 The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Customer Insights instance.
