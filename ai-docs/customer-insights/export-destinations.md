@@ -1,8 +1,8 @@
 ---
 title: "Export destinations | Microsoft Docs"
-description: The Export destinations page shows you all locations you’ve set up to export data to and allows you to add new destinations.
-ms.date: 11/27/2019
-ms.reviewer: ""
+description: "The Export destinations page lets you export data and manage destinations for exporting data."
+ms.date: 12/02/2019
+ms.reviewer: NimrodMagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -15,7 +15,7 @@ manager: shellyha
 
 # Export destinations
 
-The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Customer Insights instance.
+The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Dynamics 365 Customer Insights instance.
 
 ## Add a new Export destination
 
@@ -97,9 +97,7 @@ You can also initiate an Export manually by selecting **Export** at the upper ri
 If you’ve already created any destinations, you'll see them listed in a table on the **Export destinations** page. This table has three columns:
 
 - **Display name**: The name you entered when creating the destination.
-- **Type**: The destination type you set when creating the destination. Currently supports:
-  - Azure Blob storage
-  - Dynamics 365 Sales
+- **Type**: The destination type you set when creating the destination.
 - **Created**: The date you created the destination.
 
 ## Remove an Export destination
