@@ -1,8 +1,8 @@
 ---
 title: "Export a segment | Microsoft Docs"
-description: Learn how to export a segment to a CSV file or a Dynamics 365 app. 
-ms.date: 11/14/2019
-ms.reviewer: ""
+description: "Learn how to export a segment to a CSV file or a model-driven Dynamics 365 app."
+ms.date: 12/02/2019
+ms.reviewer: NimrodMagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -14,8 +14,6 @@ manager: shellyha
 ---
 
 # Export a segment
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 After [creating segments](pm-segments.md), you can start acting upon your data.
 
