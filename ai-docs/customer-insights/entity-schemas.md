@@ -1,5 +1,5 @@
 ---
-title: "Customer Insights entities schema in the Common Data Model | MicrosoftDocs"
+title: "Customer Insights entities schema in the Common Data Model | Microsoft Docs"
 description: "Work with entities from Dynamics 365 Customer Insights in the Common Data Model."
 ms.date: 11/29/2019
 ms.reviewer: mukeshpo
