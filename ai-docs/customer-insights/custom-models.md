@@ -2,7 +2,7 @@
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
 ms.date: 12/02/2019
-ms.reviewer: 
+ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
 applies_to: 
