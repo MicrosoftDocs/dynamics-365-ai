@@ -1,8 +1,8 @@
 ---
-title: "Home page in Dynamics 365 Customer Insights | MicrosoftDocs"
-description: Start exploring the app on the Home page in Dynamics 365 Customer Insights
-ms.date: 11/12/2019
-ms.reviewer: ""
+title: "Home page in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Start exploring the app on the Home page in Dynamics 365 Customer Insights."
+ms.date: 12/02/2019
+ms.reviewer: NimrodMagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -21,8 +21,6 @@ The first page you see in the Dynamics 365 Customer Insights app is **Home**. Th
 
 You can switch from a demo environment to your live environments if you want to work with data of your customers, given they've already been [set up and configured](pm-data-sources.md). Select the **Environment** control in the upper-right corner of the page to change environments.
 
-<!-- update screenshot -->
-
 > [!div class="mx-imgBorder"] 
 > ![Switch environment](media/home-page-environment-switcher.png "Switch environment")
 
@@ -31,8 +29,6 @@ You can switch from a demo environment to your live environments if you want to 
 To see insights on the home page, take a few moments to [add data sources](pm-data-sources.md), [unify](pm-configure-data.md), and [enrich your data](pm-enrichment.md).
 
 First, you should create a unified dataset of your customers out of datasets that are currently siloed and disconnected. Then you can use capabilities such as *Measures*, *Enrichment*, and *Activities* to unlock richer insights. Use capabilities such as *Segments* and *Customers* to act on the new insights.
-
-<!-- update/remove screenshot -->
 
 > [!div class="mx-imgBorder"] 
 > ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
