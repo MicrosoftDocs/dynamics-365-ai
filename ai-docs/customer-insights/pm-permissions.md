@@ -1,8 +1,8 @@
 ---
 title: "Permissions | Microsoft Docs"
-description: Learn about permissions and user roles in Dynamics 365 Customer Insights.
-ms.date: 11/27/2019
-ms.reviewer: ""
+description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
+ms.date: 12/02/2019
+ms.reviewer: NimrodMagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -37,6 +37,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 - Enrich customer profiles with Microsoft Graph data using the **Enrichment** page.
 
 ## Administrator
+
 - All permissions available to the Contributor.
 - Change settings on the **System** page, including the working language and refresh schedules for your system processes.
 - View and add permissions using the **Permissions** page.
@@ -63,7 +64,7 @@ Use the **Permissions** page to see what role assignments are currently active.
 - The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports only individual users, but in the future it will also support groups and applications that can connect to Customer Insights via APIs.
 - Roles are specified under the **Role** column.
 - Use the search field at the top of the page to locate specific users.
-- You can click any column title to sort the results by that column's value.
+- You can select any column title to sort the results by that column's value.
 
 ## View and filter permissions by role
 
