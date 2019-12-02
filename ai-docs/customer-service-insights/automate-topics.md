@@ -16,7 +16,7 @@ search.audienceType: enduser
 search.appverid: met150
 ---
 
-# Automate topics to a Power Virtual Agents bot
+# Automate topics for a Power Virtual Agents bot
 
 [Power Virtual Agents](/power-virtual-agents/index) empowers teams to easily create powerful bots and automate support conversations using a guided, no-code graphical interface without the need for data scientists or developers. 
 
