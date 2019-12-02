@@ -1,6 +1,6 @@
 ---
 title: "Common connectors guidance | Microsoft Docs"
-description: Learn how to work with frequently used connectors for data sources in Dynamics 365 Customer Insights. 
+description: "Learn how to work with frequently used connectors for data sources in Dynamics 365 Customer Insights."
 ms.date: 11/22/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
@@ -40,7 +40,7 @@ This topic extends on the content from the [Data sources](pm-data-sources.md) ar
 
 3. Enter the **Server URL**.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Provide server URL](media/connector-provide-server-url.png "Provide server URL")
 
 4. Sign in with your credentials.
@@ -58,7 +58,7 @@ This topic extends on the content from the [Data sources](pm-data-sources.md) ar
 
 3. Enter details for your **Server**, **Database** name, **Username**, and **Password**.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Provide database settings](media/connector-provide-database-settings.png "Provide database settings")
 
 4. Choose data from the tables you want to bring into Customer Insights and select **Next**.
@@ -76,8 +76,7 @@ This topic extends on the content from the [Data sources](pm-data-sources.md) ar
 
    https://microsoft.sharepoint.com/teams/YourTeamName/Shared%20Documents/yourFolder/yourFile.csv
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Format URL](media/connector-format-url1.png "Format URL")
 
 4. Enter the formatted URL to your CSV file and select **Next**.
-

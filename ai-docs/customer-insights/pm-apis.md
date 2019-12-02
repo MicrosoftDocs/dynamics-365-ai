@@ -1,18 +1,13 @@
 ---
-title: "APIs | MicrosoftDocs"
-description: 
-ms.custom: ""
-ms.date: 11/21/2019
-ms.reviewer: ""
+title: "APIs | Microsoft Docs"
+description: "APIs for Dynamics 365 Customer Insights."
+ms.date: 12/02/2019
+ms.reviewer: NimrodMagen
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
