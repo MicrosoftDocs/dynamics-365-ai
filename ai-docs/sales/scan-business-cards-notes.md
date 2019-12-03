@@ -27,6 +27,9 @@ topic-status: Drafting
 
 The Dynamics 365 assistant app provides an integrated scan option that allows you to quickly create or add notes, contacts, and tasks. For example, when you complete a meeting with a potential customer, you can use the scan option to scan the business card and create a contact. You also can scan handwritten notes to generate tasks and notes in Dynamics 365 Sales.
 
+>[!NOTE]
+>You must have the **Common Data Service User** role assigned to you to use the business card and note scan control.
+
 The app provides the following options:
 
 -	[Scan business cards](#scan-business-cards)
