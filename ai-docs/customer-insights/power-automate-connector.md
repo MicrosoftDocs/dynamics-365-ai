@@ -15,4 +15,13 @@ manager: shellyha
 
 # Power Automate connector (Preview)
 
-Add content here. 
+Power Automate is now integrated with Dynamics 365 Customer Insights and available as an admin control to be informed on the refresh of data sources. 
+
+The integration of Power Automate lets you configure simple flows through a direct link to the Customer Insights connector and triggers in Power Automate. 
+ 
+## Create a Power Automate flow in Customer Insights
+
+1.	In Customer Insights, go to **Admin** > **System**.
+2.	On the **System** page, select the **Status** tab.
+3.	Above the **Data Sources** section, select **Flows** and select **Create a flow** from the drop-down list.
+4.	In the Power Automate app select one of the available triggers and create your preferred flow. If you are creating your first flow, you need to authenticate with the Power Automate connector first.
