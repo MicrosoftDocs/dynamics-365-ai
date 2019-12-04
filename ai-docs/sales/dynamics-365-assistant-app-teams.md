@@ -69,7 +69,7 @@ Perform the following prerequisites before setting up and using the sales assist
 
 - Have an active Dynamics 365 Sales organization.
 
-- Assign **Common Data Service User** role for users to use business cards scan. To learn more, see (Assign a security role to a user)[/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user].
+- Assign **Common Data Service User** role for users to use business cards scan. To learn more, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 ### Install Dynamics 365 assistant application and bot
 
