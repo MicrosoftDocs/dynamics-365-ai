@@ -1,8 +1,8 @@
 ---
-title: "Customers | MicrosoftDocs"
-description: Get a consolidated view on you unified customer profiles.
-ms.date: 11/12/2019
-ms.reviewer: ""
+title: "Customers | Microsoft Docs"
+description: "Get a consolidated view on you unified customer profiles in Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
+ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

@@ -1,8 +1,8 @@
 ---
 title: "Common connectors guidance | Microsoft Docs"
 description: "Learn how to work with frequently used connectors for data sources in Dynamics 365 Customer Insights."
-ms.date: 11/22/2019
-ms.reviewer: ""
+ms.date: 12/04/2019
+ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

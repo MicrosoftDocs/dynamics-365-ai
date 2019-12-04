@@ -2,7 +2,7 @@
 title: "Admin | Microsoft Docs"
 description: "Overview about the administrator scenarios in Dynamics 365 Customer Insights."
 ms.date: 12/02/2019
-ms.reviewer: NimrodMagen
+ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

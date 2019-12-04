@@ -1,8 +1,8 @@
 ---
 title: "Unify data in Dynamics 365 Customer Insights | Microsoft Docs"
-description: Overview about unifying data ingested to Dynamics 365 Customer Insights
-ms.date: 11/22/2019
-ms.reviewer: ""
+description: "Overview about unifying data ingested to Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
+ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

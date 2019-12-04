@@ -1,8 +1,8 @@
 ---
 title: "Microsoft connector | Microsoft Docs"
-description: Connect Dynamics 365 Customer Insights with Power Apps and Power Automate.
-ms.date: 11/25/2019
-ms.reviewer: ""
+description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
+ms.date: 12/04/2019
+ms.reviewer: groxer
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

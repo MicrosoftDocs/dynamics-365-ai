@@ -1,7 +1,7 @@
 ---
 title: "Merge process to unify data in Dynamics 365 Customer Insights | Microsoft Docs"
-description: Learn about the merge phase in the data unification process of Dynamics 365 Customer Insights
-ms.date: 11/25/2019
+description: "Learn about the merge phase in the data unification process of Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -10,6 +10,7 @@ applies_to:
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: adkuppa
 manager: shellyha
 ---
 

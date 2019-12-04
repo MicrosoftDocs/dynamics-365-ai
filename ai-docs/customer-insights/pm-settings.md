@@ -1,8 +1,7 @@
 ---
 title: "System | Microsoft Docs"
-description: Learn about system settings in Dynamics 365 Customer Insights.
-ms.date: 11/26/2019
-ms.reviewer: ""
+description: "Learn about system settings in Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -10,6 +9,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: nimagen
 manager: shellyha
 ---
 

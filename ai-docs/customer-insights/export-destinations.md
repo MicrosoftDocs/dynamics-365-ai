@@ -2,7 +2,7 @@
 title: "Export destinations | Microsoft Docs"
 description: "The Export destinations page lets you export data and manage destinations for exporting data."
 ms.date: 12/02/2019
-ms.reviewer: NimrodMagen
+ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

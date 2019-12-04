@@ -1,8 +1,8 @@
 ---
 title: "Power BI connector | Microsoft Docs"
-description: Learn how to use the Dynamics 365 Customer Insights connector in Power BI. 
-ms.date: 11/26/2019
-ms.reviewer: ""
+description: "Learn how to use the Dynamics 365 Customer Insights connector in Power BI."
+ms.date: 12/04/2019
+ms.reviewer: groxer
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -36,7 +36,8 @@ In order to see your customer insights in Power BI, make sure that you have crea
 
 6. You will see a loading dialog box while your entities are loaded. Once all of your selected entities have loaded, you'll have the capabilities of Power BI combined with your data from Customer Insights.
 
-### See also
+## See also
 
- [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)<br/>
+ [Add a filter to a Power BI service report (in Editing view)](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)
+
  [What is Power BI Desktop?](https://docs.microsoft.com/power-bi/desktop-what-is-desktop)

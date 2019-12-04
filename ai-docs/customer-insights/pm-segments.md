@@ -1,15 +1,15 @@
 ---
-title: "Segmentation| MicrosoftDocs"
-description: Create segments of customers to group them based on various attributes.
-ms.date: 11/14/2019
+title: "Segmentation| Microsoft Docs"
+description: "Create segments of customers to group them based on various attributes."
+ms.date: 12/04/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: nimagen
 manager: shellyha
 ---
 
@@ -26,7 +26,7 @@ There are two types of segments:
 
 The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who ordered goods for more than $500 in the last 90 days *and* who were involved in a customer service call that got escalated.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Multiple groups](media/segmentation-group1-2.png "Multiple groups")
 
 ## Manage existing segments
@@ -67,7 +67,7 @@ Segments are managed on the **Segments** page in Customer Insights.
   > [!div class="mx-imgBorder"]
   > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
 
-  Optionally, provide a display name, and a description that helps identifying the segment. 
+  Optionally, provide a display name, and a description that helps identifying the segment.
 
 4. Select **Next** to get to the **Segment builder** page where you define a group. A group is a set of customers.
 
@@ -129,7 +129,7 @@ Each group produces a specific set of customers and you combine these groups to 
 
 3. Select one of the following set operators: **Union**, **Intersect**, or **Exclude**.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Customer group add union](media/customer-group-union.png "Customer group add union")
 
    Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
@@ -150,7 +150,7 @@ The upper part of the page includes a trend graph that visualizes changes in of 
 
 You can update the the time frame of the visualization.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Segment time range](media/segment-time-range.png "Segment time range")
 
 The lower part contains a list of the segment members.
@@ -169,7 +169,7 @@ In addition to the segment builder, there is another path for creating segments 
     > [!div class="mx-imgBorder"]
     > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
 
-    - Select the **Profiles** option to build a segment that is based on the unified Customer entity. 
+    - Select the **Profiles** option to build a segment that is based on the unified Customer entity.
     - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
 
 2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.

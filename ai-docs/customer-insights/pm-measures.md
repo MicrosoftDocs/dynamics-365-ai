@@ -1,7 +1,7 @@
 ---
 title: "Measures in Dynamics 365 Customer Insights | Microsoft Docs"
-description: Define customer-related measures to analyze and reflect the performance of certain business areas. 
-ms.date: 11/21/2019
+description: "Define customer-related measures to analyze and reflect the performance of certain business areas."
+ms.date: 12/04/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -9,6 +9,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: nimagen
 manager: shellyha
 ---
 # Measures

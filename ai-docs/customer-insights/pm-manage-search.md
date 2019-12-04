@@ -1,8 +1,8 @@
 ---
-title: "Search & filter index | MicrosoftDocs"
-description: Quickly find information about unified customer profiles and filter for specified attributes.
-ms.date: 11/12/2019
-ms.reviewer: ""
+title: "Search & filter index | Microsoft Docs"
+description: "Quickly find information about unified customer profiles and filter for specified attributes."
+ms.date: 12/04/2019
+ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -17,14 +17,12 @@ manager: shellyha
 
 The result of unifying your customer data is a Customer Profile entity that provides a unified view into your total customer base. To quickly [find information on a specific customer or a group of customers](pm-profiles.md), you can configure the **Search** and **Filter** capabilities on the **Customers** page. Read on to learn how an admin can edit the attributes on the **Search & filter index** page which are available for searching and filtering to their users.
 
-<!-- update screenshot -->
-
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Search filter](media/search-filter.png "Search filter")
 
 ## Add fields and specify attributes
 
-If it's the first time you define searchable attributes as an administrator, you need to define indexed fields first. We suggest you choose all the attributes by which users will be able to search and filter customers on the **Customers** page. You can only specify attributes that exist in the Customer Profile entity that you created during the data unification process. 
+If it's the first time you define searchable attributes as an administrator, you need to define indexed fields first. We suggest you choose all the attributes by which users will be able to search and filter customers on the **Customers** page. You can only specify attributes that exist in the Customer Profile entity that you created during the data unification process.
 
 1. Open the **Customers** page and select **Go to Search & filter index**. If you defined the attributes before, select the **Search & Filter index** control on the **Customers** page.
 
@@ -32,9 +30,7 @@ If it's the first time you define searchable attributes as an administrator, you
 
 3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add** (#1 in the image below). You can also remove any selected attributes using **Delete** symbol (#2 in the image below).
 
-<!-- update screenshots -->
-
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Add or remove attributes](media/search-sort-filter-add.png "Add or remove attributes")
 
 ## Explore the Indexed customer fields table

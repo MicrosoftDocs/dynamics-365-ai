@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: Map data to create unified customer profile in Dynamics 365 Customer Insights
-ms.date: 11/22/2019
+ms.date: 12/04/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -10,6 +10,7 @@ applies_to:
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: adkuppa
 manager: shellyha
 ---
 
@@ -30,7 +31,7 @@ For more information about the general flow of data unification, see [Unify](pm-
 
 3. In the **Add entity** pane, select the entities you want to add. We recommend to select at least two entities to benefit from the data unification process.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
    For example, we're adding the **Contact** and **Survey** entities. It might be useful to understand which address corresponds to a survey participant.
@@ -41,7 +42,7 @@ For more information about the general flow of data unification, see [Unify](pm-
 
 After selecting your entities, the **Map** page list the ingested entities.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![See ingested entities](media/data-manager-configure-map-ingested-entities.png "See ingested entities")
 
 The system auto-selected all the attributes for which an attribute type was auto-identified. Those attributes include names, email address, and several others. Review these attributes their specified types since they'll be used to combine your entities in the *match* configuration phase.
@@ -52,7 +53,7 @@ The system auto-selected all the attributes for which an attribute type was auto
 
 2. Select **Edit** to add or remove attributes.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Add or remove attributes](media/configure-data-map-edit.png "Add or remove attributes")
 
 3. Use the search or scroll down to find and select your attributes of interest.
@@ -63,12 +64,12 @@ The system auto-selected all the attributes for which an attribute type was auto
 
 1. On **Unify** > **Map**, select the **Select** control to add or remove entities.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Add or remove entities](media/data-manager-configure-map-edit.png "Add or remove entities")
 
 2. In the **Entities** pane, select the entities that you want to add or clear the selection for entities that you want to remove. Currently, you can't remove entities if they were already matched.
 
-   > [!div class="mx-imgBorder"] 
+   > [!div class="mx-imgBorder"]
    > ![Edit entities list](media/data-manager-configure-map-edit-customer-entity.png "Edit entities list")
 
 ## Select primary keys and define attribute types
@@ -83,7 +84,7 @@ Before completing the matching phase, you need to define the primary key and its
 - **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
 
   For Organizations (Preview), the attribute type should be mapped to "Organization.Name"
-  > [!div class="mx-imgBorder"] 
+  > [!div class="mx-imgBorder"]
   > ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
 
 ## Next step

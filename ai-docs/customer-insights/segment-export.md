@@ -2,7 +2,7 @@
 title: "Export a segment | Microsoft Docs"
 description: "Learn how to export a segment to a CSV file or a model-driven Dynamics 365 app."
 ms.date: 12/02/2019
-ms.reviewer: NimrodMagen
+ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

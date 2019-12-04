@@ -1,8 +1,8 @@
 ---
 title: "Relationships | Microsoft Docs"
-description: Connect entities to create segments and measures from multiple data sources in Dynamics 365 Customer Insights.
-ms.date: 11/26/2019
-ms.reviewer: ""
+description: "Connect entities to create segments and measures from multiple data sources in Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
+ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 

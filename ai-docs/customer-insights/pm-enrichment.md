@@ -1,8 +1,8 @@
 ---
 title: "Enrichment | Microsoft Docs"
-description: Get insights from data on affinities for hundreds of brands and dozens of interest-categories in Dynamics 365 Customer Insights.
-ms.date: 11/26/2019
-ms.reviewer: ""
+description: "Get insights from data on affinities for hundreds of brands and dozens of interest-categories in Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
+ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
