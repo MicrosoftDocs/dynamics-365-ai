@@ -48,7 +48,7 @@ After selecting the **Fields** tab, the **Fields** table appears. You can use th
 Note that the items in the **Type** column are Common Data Model associated types. Those are semantic types that are either auto-identified by the system or can be manually identified using the **Map** screen (visit the **Map** section to learn more). Those types can differ from the attributes' data types (for example, the field *Email* below has a data type *Text* but its (semantic) CDM-type might be *Email* or *EmailAddress*):
 
 > [!div class="mx-imgBorder"] 
-> ![Fields table](media/data-manager-entities-fields.png "Fields table")
+> ![Fields table](media/data-manager-entities-fields.PNG "Fields table")
 
 Both the **Fields** table and the **Data** table show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
