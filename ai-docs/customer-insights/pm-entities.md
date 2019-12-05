@@ -2,7 +2,7 @@
 title: "Get data | MicrosoftDocs"
 description: 
 ms.custom: ""
-ms.date: 04/01/2019
+ms.date: 11/28/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.suite: ""
@@ -51,6 +51,12 @@ Note that the items in the **Type** column are Common Data Model associated type
 > ![Fields table](media/data-manager-entities-fields.png "Fields table")
 
 Both the **Fields** table and the **Data** table show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
+
+To learn more about the Data ingested in the entity, the **Summary** column provides you some important characteristics of the data, such as nulls, missing values, unique values, counts and distributions, as applicable to your data.
+Select the chart icon to see the summary of the data.
+
+> [!div class="mx-imgBorder"]
+> ![Summary symbol](media/data-manager-entities-summary.png "Data summary table")
 
 ### Next step
 
