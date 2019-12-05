@@ -13,8 +13,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 01
 ---
 
-<!--notes from editor: Edits okay? It seems that other titles have all specified "Sales Insights" rather than simply "Sales." Also, when another tutorial is published it will make sense to call this "Tutorial 1," but it seems misleading when there's only one. People might think there's something missing.-->
-# Building custom insights for Dynamics 365 Sales Insights<br>Tutorial: Hello world
+# Building custom insights for Dynamics 365 Sales Insights<br>Tutorial 1: Hello world
 
 ## Objective
 
@@ -31,7 +30,6 @@ In the search box, enter **Recurrence**. In the search results, under **Triggers
 > [!div class="mx-imgBorder"]
 > ![Search for the recurrence schedule option](media/assistant-tutorial-1-recurrence-search.png "Search for the recurrence schedule option")
 
-<!--note from editor: Recommend deleting any notes about how the reader can change values to suit their requirements. I think that's understood in a tutorial.-->
 Open the recurrence schedule trigger. Enter **Interval** as **1**, and select **Frequency** as **Day**. This ensures that the trigger will run once a day. Set **At these hours** to **8**, to run the trigger every morning at 8 AM.
 
 > [!div class="mx-imgBorder"]
@@ -56,7 +54,7 @@ When you sign in, you'll see the following screen, where you can define the fiel
 
 | Parameter | Description |
 |-----------|-------------|
-| **Environment** | The Dynamics 365 org in which we're creating the card. You can choose your org from the list. |
+| **Environment** | The Dynamics 365 organization in which we're creating the card. You can choose your organization from the list. |
 | **Card name** | The name of the card, which is displayed at the top of the card. This should be a simple string, with no special characters or dynamic content. |
 | **Card header** | The title of the card, which appears just below the card name. |
 | **Card text** | The text that's displayed in the body of the card. |
@@ -70,7 +68,6 @@ Enter the following information on the **Create card for assistant** screen. The
 > [!div class="mx-imgBorder"]
 > ![Enter the Sales Insights card settings](media/assistant-tutorial-1-sales-insights-card-information.png "Enter the Sales Insights card settings")
 
-<!--note from editor: Under "Environment," is the edit okay? It seems you mention above that the reader can choose their own org name here. Also, I think under "Card text" you want to give the reader the actual input that will result in the sample card that we're showing them how to create.-->
 | Parameter | Value |
 |-----------|-------|
 | **Environment** | assistantstudio (or the name of your org)|
@@ -96,8 +93,8 @@ Now, every morning at 8 AM you'll see a card on your Dynamics 365 dashboard that
 > [!div class="mx-imgBorder"]
 > ![Sample Sales Insights card](media/assistant-tutorial-1-sample-insights-card.png "Sample Sales Insights card")
 
-<!--note from editor: Edit okay? I'm not sure whether this is what you called "Assistant Studio page" earlier.-->
-You can also see the card type on the **Assistant Studio** page.
+You can also see the card type on the **Assistant Studio** home page.
 
 > [!div class="mx-imgBorder"]
 > ![List of Sales Insights cards](media/assistant-tutorial-1-list-insights-cards.png "List of Sales Insights cards")
+
