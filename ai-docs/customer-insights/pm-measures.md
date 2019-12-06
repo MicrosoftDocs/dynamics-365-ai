@@ -46,7 +46,7 @@ This section walks you through on creating a measure from scratch. You can build
    > [!NOTE]
    > You can select only entities that have relationships to your starting entity. If you haven't defined relationships yet, see [Relationships](pm-relationships.md) for more details.
 
-6. In the **Variables** section, select **New variable**.
+6. Optionally, you can configure variables. In the **Variables** section, select **New variable**.
 
    Variables are calculations that are made on each of your selected records. For example, summing point-of-sale (POS) and online sales for each of your customers' records.
 
@@ -87,11 +87,13 @@ This section walks you through on creating a measure from scratch. You can build
 
 After creating at least one measure, you'll see a list of measures on the **Measures** page in Customer Insights.
 
-You'll find information about the measure type, the creator, creation date and time, last edit state and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output.
+You'll find information about the measure type, the creator, creation date and time, last edit date and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output.
 
 To export the data, select **Download as CSV** after opening the measure preview.
 
 ## Edit measures
+
+<!-- add screenshot showing the ellipsis -->
 
 You can edit or rename your created measures.
 
