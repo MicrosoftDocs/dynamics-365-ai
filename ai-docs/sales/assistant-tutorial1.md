@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 01
 ---
 
-# Building custom insights for Dynamics 365 Sales Insights<br>Tutorial 1: Hello world
+# Tutorial 1: Hello world
 
 ## Objective
 
@@ -98,3 +98,6 @@ You can also see the card type on the **Assistant Studio** home page.
 > [!div class="mx-imgBorder"]
 > ![List of Sales Insights cards](media/assistant-tutorial-1-list-insights-cards.png "List of Sales Insights cards")
 
+### See also
+
+[Tutorial 2: Sample insight for each user in your org](assistant-tutorial2.md)
