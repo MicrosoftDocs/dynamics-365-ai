@@ -75,7 +75,7 @@ Data exported from the Export process will be stored in the Azure Blob storage c
 3. Define your Dynamics 365 for Sales URL in **Server address**, select **Sign in**, and select a Dynamics 365 Sales account.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/add-destination.png "Add destination page")
+   > ![](media/export-destinations-dynamics365-for-sales.png "Add destination page")
 
 4. Give your destination a recognizable name in **Display name**.
 
