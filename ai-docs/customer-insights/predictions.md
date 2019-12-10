@@ -18,13 +18,19 @@ manager: shellyha
 Predictions lets you easily create predicted values that can enhance your understanding of a customer. ON the Predictions page, you can see predictions that you’ve configured in other parts of Customer Insights, and enables you to further customize them.
 
 > [!NOTE]
-> This feature requires a Common Data Service environment to work properly.
->
 > You can't use this feature if your environment uses Azure Data Lake Gen 2 storage.
 >
 > The predictions feature uses automated means to evaluate data and make predictions based on that data, and therefore has the capability to be used as a method of profiling, as that term is defined by the General Data Protection Regulation (“GDPR”). Customer’s use of this feature to process data may be subject to GDPR or other laws or regulations. You are responsible for ensuring that your use of Customer Insights, including predictions, complies with all applicable laws and regulations, including laws related to privacy, personal data, biometric data, data protection, and confidentiality of communications.
 
-There currently are two methods to create a prediction.
+## Prerequisites
+
+Before your organization will be able to use the predictions feature, ensure the following prerequisites are met:
+
+1. Your organization has an instance set up in the Common Data Service. Note that the credentials (user name and password) that you use in Common Data Service and in Dynamics 365 Customer Insights should match.
+
+2. Your Customer Insights environment is attached to your Common Data Service instance.
+
+If you [create the first environment](create-manage-environment.md), configure it in the **Create an environment** dialog and select **Advanced**. In the **Use predictions** section, enter the Common Data Service instance URL to which you want to attach your Customer Insights instance. If you have already created an environment, go to the Environment settings and expand **Advanced** settings where you enter the Common Data Service URL in the **Use predictions** section.
 
 ## Create a prediction in the Customer Entity
 
@@ -103,7 +109,7 @@ After you have created a prediction, you can customize the model in the AI Build
 
 1. In Customer Insights, go to **Intelligence** > **Predictions**.
 
-2. Select the prediction you want to edit. 
+2. Select the prediction you want to edit.
 
 3. Select the ellipsis in the **Actions** column and choose **View**.
 
