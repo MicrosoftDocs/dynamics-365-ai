@@ -72,7 +72,7 @@ The system auto-selected all the attributes for which an attribute type was auto
    > [!div class="mx-imgBorder"]
    > ![Edit entities list](media/data-manager-configure-map-edit-customer-entity.png "Edit entities list")
 
-## Select primary keys and define attribute types
+## Select primary key and define attribute types
 
 Before completing the matching phase, you need to define the primary key and its attribute type for every added entity.
 
@@ -83,9 +83,11 @@ Before completing the matching phase, you need to define the primary key and its
 
 - **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
 
-  For Organizations (Preview), the attribute type should be mapped to "Organization.Name"
-  > [!div class="mx-imgBorder"]
-  > ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
+## Set attributes for organizations
+
+For Organizations (Preview), the attribute type should be mapped to "Organization.Name"
+> [!div class="mx-imgBorder"]
+> ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
 
 ## Next step
 

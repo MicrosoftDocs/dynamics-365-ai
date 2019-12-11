@@ -1,7 +1,7 @@
 ---
 title: "Common connectors guidance | Microsoft Docs"
 description: "Learn how to work with frequently used connectors for data sources in Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 12/11/2019
 ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -31,6 +31,9 @@ This topic extends on the content from the [Data sources](pm-data-sources.md) ar
 4. You now see a folder structure with all containers in the Blob storage. Select the container that includes your CSV file, and select **Next**.
 
 5. You now see the available CSV files in the container. Select **[Table]** in the content column to see a preview of the file's content.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Table control in CSV file](media/connector-azure-blobs-preview.png)
 
 ## Dynamics 365 apps using Common Data Service
 
