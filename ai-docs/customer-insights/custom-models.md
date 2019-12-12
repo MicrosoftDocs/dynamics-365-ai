@@ -1,7 +1,7 @@
 ﻿---
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 12/02/2019
+ms.date: 12/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -47,9 +47,6 @@ The **Custom Models** page lists workflows that have been created to generate in
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created and select **Edit**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Edit action](media/intelligence-action-edit.png "Edit action")
-
 2. You can update your workflow's recognizable name in the **Display name** field, but changing the Web service is not possible. If you want to create a new prediction using a different web service, follow the steps in [Add a new workflow](#add-a-new-workflow). When you're done, select **Next**.
 
 3. For each **Web service input**, select the matching **Entity** from Customer Insights.  When you're done, select **Next**.
@@ -60,9 +57,6 @@ The **Custom Models** page lists workflows that have been created to generate in
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
 
-   > [!div class="mx-imgBorder"]
-   > ![Run action](media/intelligence-action-run.png "Run action")
-
 2.  Select **Run**.
 
 Your workflow also runs automatically when there's a scheduled refresh. Learn more about [setting up scheduled refreshes](pm-settings.md#schedule-tab).
@@ -70,9 +64,6 @@ Your workflow also runs automatically when there's a scheduled refresh. Learn mo
 ## Delete a workflow
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
-
-   > [!div class="mx-imgBorder"]
-   > ![Delete action](media/intelligence-action-delete.png "Delete action")
 
 2. Select **Delete**.
 

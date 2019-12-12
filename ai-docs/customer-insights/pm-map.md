@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: Map data to create unified customer profile in Dynamics 365 Customer Insights
-ms.date: 12/04/2019
+ms.date: 12/12/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -64,8 +64,8 @@ The system auto-selected all the attributes for which an attribute type was auto
 
 1. On **Unify** > **Map**, select the **Select** control to add or remove entities.
 
-> [!div class="mx-imgBorder"]
-> ![Add or remove entities](media/data-manager-configure-map-edit.png "Add or remove entities")
+   > [!div class="mx-imgBorder"]
+   > ![Add or remove entities](media/data-manager-configure-map-edit.png "Add or remove entities")
 
 2. In the **Entities** pane, select the entities that you want to add or clear the selection for entities that you want to remove. Currently, you can't remove entities if they were already matched.
 
