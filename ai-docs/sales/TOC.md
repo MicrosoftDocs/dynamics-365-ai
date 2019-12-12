@@ -14,7 +14,7 @@
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create insight cards using solution](extend-relationship-assistant-card.md)
 ##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
-#### [Tutorials]
+#### Tutorials
 ##### [Tutorial 1: Create Hello World card](assistant-tutorial1.md)
 ##### [Tutorial 2: Sample insight for each user in your organization](assistant-tutorial2.md)
 
