@@ -1,7 +1,7 @@
 ---
 title: "Entities page in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "View ingested data on the Entities page in Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 12/12/2019
 ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -37,13 +37,20 @@ Select an entity to explore the different fields and records included within tha
 - The **Data** tab is selected by default and shows a table listing details about individual records of the entity.
 
 > [!div class="mx-imgBorder"]
-> ![Fields table](media/data-manager-entities-fields.png "Fields table")
+> ![Fields table](media/data-manager-entities-fields.PNG "Fields table")
 
 - The **Fields** tab shows a table to review details for the selected entity, such as field names, data types, and types. The **Type** column shows Common Data Model associated types. Those are semantic types that are either auto-identified by the system or can be [manually mapped](pm-map.md) by a user. Those types can differ from the attributes' data types (for example, the field *Email* below has a data type *Text* but its (semantic) Common Data Model type might be *Email* or *EmailAddress*):
 
 > [!NOTE]
 > Both tables show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
-## Next step
+To learn more about the data ingested in the entity, the **Summary** column provides you some important characteristics of the data, such as nulls, missing values, unique values, counts and distributions, as applicable to your data.
+
+Select the chart icon to see the summary of the data.
+
+> [!div class="mx-imgBorder"]
+> ![Summary symbol](media/data-manager-entities-summary.png "Data summary table")
+
+### Next step
 
 See the [Unify](pm-configure-data.md) topic to learn how to *map*, *match*, and *merge* the ingested data.

@@ -1,7 +1,7 @@
 ---
 title: "Customer Card add-in | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 12/12/2019
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -28,7 +28,7 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub.
 - Individuals who will use the Customer Card in model-driven Dynamics 365 apps need to be added as users. You can do so on the Customer Insights **Permissions** page in the **Admin** section, as discussed later in this topic.
 
-## Install Customer Card Add-in
+## Install the Customer Card Add-in
 
 1. As an admin, go to the **Settings** section in model-driven apps in Dynamics 365, and select **Solutions**.
 
@@ -64,18 +64,24 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    - **Customer Insights Card Standard User**: Assign this role to users who will use the card for consumption, but who won’t customize.
   
 8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**.
+  
+    To associate an Account form to an organization, you can select the Customers Insights Customer entity that corresponds to the organization ID (CompanyId in this case).
+   > [!div class="mx-imgBorder"]
+   > ![Contact ID field](media/customer-card-add-in-b2b.png "Account ID field")
+
+9. Select **Save configuration** to save the settings.
 
    > [!div class="mx-imgBorder"]
    > ![Settings customizations](media/settings-customizations.png "Settings customizations")
 
-9. Select **Customize the System**.
+10. Select **Customize the System**.
 
-10. Browse to the Contact entity, expand its menu, and then select **Forms**.
+11. Browse to the Contact entity, expand its menu, and then select **Forms**.
 
     > [!div class="mx-imgBorder"]
     > ![Expand Contact entity menu](media/contact-entity-definition.png "Expand Contact entity menu")
 
-11. Select the contact form to which you would like to add the Customer Card controls.
+12. Select the contact form to which you would like to add the Customer Card controls.
 
     > [!div class="mx-imgBorder"]
     > ![Select Contact form](media/contact-active-forms.png "Select Contact form")

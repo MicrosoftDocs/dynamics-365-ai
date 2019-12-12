@@ -96,7 +96,7 @@ For details about changing languages in Windows 10 and Edge, see [Change the dis
 
 ## Language support for case grouping as topics
 
-Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. It comes with natural language understanding models that can understand the text sementics and intent in the following languages:
+Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. It comes with natural language understanding models that can understand the text semantics and intent in the following languages:
 
 * English
 * French
