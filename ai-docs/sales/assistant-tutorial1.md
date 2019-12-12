@@ -81,6 +81,7 @@ Enter the following information on the **Create card for assistant** screen. The
 
 Select **Save** on the **Create card for assistant** screen.
 
+<a name="test-the-flow"></a>
 ## Step 5: Test the flow
 
 Testing ensures that the insight card has been configured properly. To test, select **Test** in the upper-right corner and follow the instructions.
