@@ -177,7 +177,9 @@ To access the saved flows, follow these steps:
 
 ### See also
 
-[Tutorial 1: Create Hello World card][assistant-tutorial1.md]
+[Tutorial 1: Create Hello World card](assistant-tutorial1.md)
+
+[Tutorial 2: Sample insight for each user in your organization](assistant-tutorial2.md)
 
 [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
 
