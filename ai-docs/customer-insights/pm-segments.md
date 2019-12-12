@@ -1,7 +1,7 @@
 ---
-title: "Segmentation| Microsoft Docs"
+title: "Segments | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 12/04/2019
+ms.date: 12/12/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -33,7 +33,7 @@ The following example illustrates the depth of the Customer Insights segmentatio
 
 On the **Segments** page, you can view all your saved segments and manage them.
 
-Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trend line to see how the customer count in the segement evolved over time.
+Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trend line to see how the customer count in the segment evolved over time.
 
 To see your segments in a table format, select the table format icon.
 
@@ -64,10 +64,10 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 3. In the **New segment** pane, choose a segment type and provide a **Name**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
+   > [!div class="mx-imgBorder"]
+   > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
 
-  Optionally, provide a display name, and a description that helps identifying the segment.
+   Optionally, provide a display name, and a description that helps identifying the segment.
 
 4. Select **Next** to get to the **Segment builder** page where you define a group. A group is a set of customers.
 
@@ -120,7 +120,7 @@ Note that currently, it's possible to nest an **OR** operator under an **AND** o
 
 Each group produces a specific set of customers and you combine these groups to get include the customers you need for your business case.
 
-1. Open a segement on the **Segments** page.
+1. Open a segment on the **Segments** page.
 
 2. Select **Add Group**.
 
@@ -166,16 +166,16 @@ In addition to the segment builder, there is another path for creating segments 
 
 1. Select one of the tiles on the **Segments** page to get started.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
+   > [!div class="mx-imgBorder"]
+   > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
 
-    - Select the **Profiles** option to build a segment that is based on the unified Customer entity.
-    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
+   - Select the **Profiles** option to build a segment that is based on the unified Customer entity.
+   - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
 
 2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.
 
 3. The system will provide some additional insights that help you create better segments of your customers.
-   - For categorial fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
+   - For categorical fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
 
    - For a numerical attribute the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
 
@@ -192,7 +192,7 @@ In addition to the segment builder, there is another path for creating segments 
 
 For the following scenarios,we advise to use the segment builder rather than the recommended segments capability:
 
-- Creating segments with filters on categorial fields where the operator is different than the **Is** operator
+- Creating segments with filters on categorical fields where the operator is different than the **Is** operator
 - Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater then** and **Less then** operators
 - Creating segments with filters on date type of fields
 
