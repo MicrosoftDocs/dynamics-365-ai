@@ -131,6 +131,7 @@ The application supports the following machine learning model languages for cont
 **When will you expand to support my region?**<br>
 The application is supported in the following regions:
 
+- Asia Pacific (APJ)
 - Canada (CAN)
 - Europe, the Middle East, and Africa (EMEA)
 - Great Britain (GBR)

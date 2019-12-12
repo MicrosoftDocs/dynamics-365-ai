@@ -1,58 +1,51 @@
 ---
-title: "Get data | MicrosoftDocs"
-description: 
-ms.custom: ""
-ms.date: 11/28/2019
-ms.reviewer: ""
+title: "Entities page in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "View ingested data on the Entities page in Dynamics 365 Customer Insights."
+ms.date: 12/12/2019
+ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Entities
 
-After ingesting your data using the **Data sources** page, you can visit the **Entities** page to evaluate how complete and useful it is. In Customer Insights, *Entities* are *datasets*. Many of the product processes—from data unification, to relationships and segmentation, to measures and activities—are all organized around the entities you will choose. Reviewing the Entities page can help you validate the output of each of those processes. 
+After [configuring your data sources](pm-data-sources.md), go to the **Entities** page to evaluate the quality of the ingested data. In Dynamics 365 Customer Insights, entities are considered datasets. Multiple capabilities of Customer Insights are built around these entities. Reviewing them closely can help you validate the output of those capabilities.
 
-> [!div class="mx-imgBorder"] 
-> ![Entities page and seven columns](media/scorecard-entities-import-data.png "Entities page and seven columns")
+The **Entities** page lists entities and includes several columns:
 
-The **Entities** page includes seven columns: 
-- **Name**: The name of your data entity—a category such as Account or Activity, for example. Note that a warning sign next to an entity name means that the data for that entity didn't load successfully. 
-- **Source**: Answers the question *From what data source was this entity ingested?* (for example, a CSV file or Azure data source).
-- **Created by**: Answers the question *By whom was this entity originally created?*
-- **Created**: Answers the question *When was this entity created?*
-- **Updated by**: Answers the question *By whom was this entity's data updated?*
-- **Last updated**: Answers the question *When was the last time this entity's data was updated?*
-- **Last refresh**: Answers the question *When was the last time this entity's data was refreshed?*
+- **Name**: The name of your data entity. If you see a warning symbol next to an entity name means that the data for that entity didn't load successfully.
+- **Source**: The type of data sources that ingested the entity
+- **Created by**: Name of the person who created the entity
+- **Created**: Date and time of the entity creation
+- **Updated by**: Name of the person who updated the entity
+- **Last updated**: Date and time of the last update of the entity
+- **Last refresh**: Date and time of the last data refresh
 
 ## Exploring a specific entity's data
 
+Select an entity to explore the different fields and records included within that entity.
 
-Select an entity to explore the different fields and records included within that entity. In the example below, the *Survey: SurveyData* entity was selected:
-
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Select an entity](media/data-manager-entities-data.png "Select an entity")
 
-When you open the **Entities** page, the **Data** tab is selected by default (shown in the preceding image), and the **Data** table appears below it. This table provides details about each of this entity's records, including the record's value, when it was created, and when it was last refreshed.
+- The **Data** tab is selected by default and shows a table listing details about individual records of the entity.
 
-After selecting the **Fields** tab, the **Fields** table appears. You can use this table to view all the details for the selected entity, such as field names, data types, and types. 
+> [!div class="mx-imgBorder"]
+> ![Fields table](media/data-manager-entities-fields.PNG "Fields table")
 
-Note that the items in the **Type** column are Common Data Model associated types. Those are semantic types that are either auto-identified by the system or can be manually identified using the **Map** screen (visit the **Map** section to learn more). Those types can differ from the attributes' data types (for example, the field *Email* below has a data type *Text* but its (semantic) CDM-type might be *Email* or *EmailAddress*):
+- The **Fields** tab shows a table to review details for the selected entity, such as field names, data types, and types. The **Type** column shows Common Data Model associated types. Those are semantic types that are either auto-identified by the system or can be [manually mapped](pm-map.md) by a user. Those types can differ from the attributes' data types (for example, the field *Email* below has a data type *Text* but its (semantic) Common Data Model type might be *Email* or *EmailAddress*):
 
-> [!div class="mx-imgBorder"] 
-> ![Fields table](media/data-manager-entities-fields.png "Fields table")
+> [!NOTE]
+> Both tables show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
-Both the **Fields** table and the **Data** table show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
+To learn more about the data ingested in the entity, the **Summary** column provides you some important characteristics of the data, such as nulls, missing values, unique values, counts and distributions, as applicable to your data.
 
-To learn more about the Data ingested in the entity, the **Summary** column provides you some important characteristics of the data, such as nulls, missing values, unique values, counts and distributions, as applicable to your data.
 Select the chart icon to see the summary of the data.
 
 > [!div class="mx-imgBorder"]
@@ -60,4 +53,4 @@ Select the chart icon to see the summary of the data.
 
 ### Next step
 
-See the [Unify](pm-configure-data.md) section to learn how to complete the three mandatory data configuration phases: *map*, *match*, and *merge*.
+See the [Unify](pm-configure-data.md) topic to learn how to *map*, *match*, and *merge* the ingested data.
