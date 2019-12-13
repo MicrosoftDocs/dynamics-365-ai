@@ -1,62 +1,79 @@
 ---
-title: "Activities | MicrosoftDocs"
-description: Work with the Activities page in Dynamics 365 Customer Insights
-ms.date: 11/04/2019
+title: "Activities | Microsoft Docs"
+description: "Define activities in Dynamics 365 Customer Insights to see them in a customer timeline." 
+ms.date: 12/02/2019
 ms.service: dynamics-365-ai
+ms.reviewer: mukeshpo
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Activities
 
-The Activities capability helps consolidate customer activities from various data sources. This creates a customer timeline view. Business analysts can configure activities to be displayed on a customer dashboard with a timeline view, which can be embedded in business applications.
-
-The Activities capability includes two components:
-- **Activities** page: Access this from the **Activities** tab on the left-side menu. Use it to define the activities that you want to view on the customer’s timeline grid.
-- **Timeline grid**: This grid consolidates all the activities of one customer in chronological order, and it can be viewed either within model-driven apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of that grid. Visit the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) within the **Customer Card Add-In** section to learn how to work with that control.
+Consolidate customer activities from various data sources in Dynamics 365 Customer Insights that you want to view on the customer's timeline. In a next step, you can create a customer timeline which consolidates all the activities of a customer in chronological order. It can be shown in model-driven apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of the timeline. Visit the [**Timeline Control** section](pm-customer-card-addin.md#timeline-control) to learn how to work with that control.
 
 This topic covers only the **Activities** page.
 
 ## Define an activity
 
-Your data sources include entities with transactional and activity data from multiple data sources. On this page, you will identify these entities and select the activities you want to view on the customer’s timeline grid. Choose the entity that includes your target activity or activities.
+Your data sources include entities with transactional and activity data from multiple data sources. Identify these entities and select the activities you want to view on the customer’s timeline. Choose the entity that includes your target activity or activities.
 
-1. Select **Add activity**.
-  
-   > [!div class="mx-imgBorder"] 
-   > ![Activities add entity](media/activities-add-entity.png "Activities add entity")
+1. In Customer Insights, go to **Data** > **Activities**.
 
-> [!NOTE]
-> To be included in the timeline grid, an entity must have at least one attribute of type **Date**. Entities without **Date** fields will not be added. If no such entity is identified, the **Add activity** control is disabled.
+2. Select **Add activity**.
 
-2. Provide values for the following fields.
+   > [!NOTE]
+   > An entity must have at least one attribute of type **Date** to be included in a customer timeline and you can't add entities without **Date** fields. The **Add activity** control is disabled if no such entity is found.
 
-    -	**Select entity**: Select an entity that includes transactional or activity data. 
-    -	**Primary key**: Use this field to distinguish between all of your entity's records. This field should not contain any duplicate values, null values, or missing values.
-    - **Activity name**: Give your activity a recognizable name.
-    -	**Activity time**: Select the field that represents the start time of your activity.
-    -	**Description** (not mandatory): Select the field that represents a description of the activity
+3. In the **Add activity** pane, set the values for the following fields:
 
-3. Set up a relationship.
+   - **Entity**: Select an entity that includes transactional or activity data.
+   - **Primary key**: Select the field that uniquely identifies a record. It shouldn't contain any duplicate values, empty values, or missing values.
+   - **Timestamp**: Select the field that represents the start time of your activity.
+   - **Event**: Select the field that is the event for the activity.
+   - **Details**: Optionally, select the field that is added for additional details.
+   - **Icon**: Optionally, select the icon that represents this activity.
 
-   > [!div class="mx-imgBorder"] 
+3. In the **Set up relationship** section, configure the detail to connect your activity data to its corresponding customer.
+
+   > [!div class="mx-imgBorder"]
    > ![Define the entity relationship](media/activities-entities-define.png "Define the entity relationship")
 
     - **Source field**: Select the field in your activity entity that will be used to establish a relationship with another entity.
-    - **Target entity**: Select the entity with which your Activity entity will be in relationship.
-    -	**Target field**: Select the field in the Target entity that will be used to establish a relationship with the Activity entity.
+    - **Target entity**: Select the customer entity with which your activity entity will be in relationship.
+    - **Target field**: Select the field in the customer entity that will be used to establish a relationship with the activity entity.
 
-4. Select **Done** to save your selections. Then, select **Run** on the **Activities**.
+4. Select **Save** to apply your changes.
 
-   
+5. On the **Activities** page, select **Run**.
+
+## Edit an activity
+
+1. In Customer Insights, go to **Data** > **Activities**.
+
+2. Select the vertical ellipses (...) in the **Actions** column of the activity you want to edit.
+
+3. Select **Edit** from the drop-down list.
+
+4. In the **Edit activity** pane, update the values and select **Save**.
+
+5. On the **Activities** page, select **Run**.
+
+## Delete an activity
+
+1. In Customer Insights, go to **Data** > **Activities**.
+
+2. Select the vertical ellipses (...) in the **Actions** column of the activity you want to remove.
+
+3. Select **Remove** from the drop-down list.
+
+4. Confirm your deletion.
+
 ## Next steps
 
-Once you define your activities, you can:
-1. Explore the [**Timeline Control** subsection](pm-customer-card-addin.md#timeline-control) under the **Customer Card Add-in** section in order to learn how to view information on these activities for each of your customers.
-2. Visit the **Connectors** section to learn how to set up the **Power BI** dashboard where you can also view information on these activities for each of your customers.
-
+After defining your activities, review the [Customer Card add-in](pm-customer-card-addin.md) content to learn how to view information on these activities in model-driven apps in Dynamics 365. To learn how to set up the Power BI dashboard, see the [Power BI connector](pm-connectors.md) topic.
