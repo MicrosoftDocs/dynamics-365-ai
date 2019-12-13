@@ -70,30 +70,30 @@ Enter the following information on the **Create card for assistant** screen.
 | **Button type** | Open URL |
 | **Button URL/record ID** | https://www.bing.com |
 | **Button entity**| Leave this box blank as you have selected **Button type** as **Open URL**. |
-| **Display entity** | Choose the entity type from the list. <!--Can you say what the entity type value will be? Also I'm not clear what "form" refers to; could it be "dashboard"?--> This determines which entity's form will display the card. |
-| **Display record ID** | The record ID of the entity corresponding to the entity type selected in the **Display entity** field. <!--can you say what this will be?-->|
-| **Show for** | The record ID/userId of the user who should see this card on their Dynamics 365 dashboard. More information: [Configure Show for](#configure-show-for). |
+| **Display entity** | Choose an entity type from the list. Here select the entity type as **Opportunity** and the card will be displayed on the opportunity forms of the of the selected **Display record ID**. |
+| **Display record ID** | The record ID of the entity corresponding to the entity type selected in the **Display entity** field. |
+| **Show for** | The record ID of the user who should see this card on their Dynamics 365 dashboard. More information: [Configure Show for](#configure-show-for). |
 | **Show from** | The start time from when the card will be displayed (you can accept the default, which is immediately after creation). |
 | **Show until** | The expiry time of the card after it has been displayed (the default is 24 hours after creation). |
 
 ### Configure Show for
 
-Configure the Show for field to display this card for all the users in your organization.
+Configure the **Show for** field to display this card for each user in your organization.
 
-1. In the **Show for** dialog box,select an output of a previous action&mdash;in this case, the **List records** action of the **Common Data Service** connector.
+1. In the **Show for** dialog box, select an output of a previous action&mdash;in this case, the **List records** action of the **Common Data Service** connector.
 
-> [!div class="mx-imgBorder"]
-> ![Select add dynamic content option](media/assistant-tutorial-2-add-dynamic-content.png "Select add dynamic content option")
+    > [!div class="mx-imgBorder"]
+    > ![Select add dynamic content option](media/assistant-tutorial-2-add-dynamic-content.png "Select add dynamic content option")
 
 2. Select **Add dynamic content**, and then search for and select **User (Unique identifier for the user)**.
 
-> [!div class="mx-imgBorder"]
-> ![Search for user option](media/assistant-tutorial-2-add-user-option.png "Search for user option")
+    > [!div class="mx-imgBorder"]
+    > ![Search for user option](media/assistant-tutorial-2-add-user-option.png "Search for user option")
 
-This creates an **Apply to each** statement, which creates a card for each user who was returned from the **List records** action.
+    This creates an **Apply to each** statement, which creates a card for each user who was returned from the **List records** action.
 
-> [!div class="mx-imgBorder"]
-> ![Apply to each section](media/assistant-tutorial-2-apply-to-each-section.png "Apply to each section")
+    > [!div class="mx-imgBorder"]
+    > ![Apply to each section](media/assistant-tutorial-2-apply-to-each-section.png "Apply to each section")
 
 
 ## Step 4: Save the flow
