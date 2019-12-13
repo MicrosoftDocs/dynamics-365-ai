@@ -579,7 +579,7 @@
       "source_path": "ai-docs/market-insights/what-s-new.md",
       "redirect_url": "/dynamics365/ai/market-insights/release-notes",
       "redirect_document_id": "false"
-    },
+    },    
     {
       "source_path": "ai-docs/sales/d365-ai-business-performance.md",
       "redirect_url": "dynamics365-sales-insights-app-home-page",
@@ -619,6 +619,11 @@
       "source_path": "ai-docs/customer-insights/index.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/sales/dynamics-365-ai-for-sales.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"  
     }
   ]
 }

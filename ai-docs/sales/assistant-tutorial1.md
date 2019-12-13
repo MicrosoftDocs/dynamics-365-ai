@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 01
 ---
 
-# Building custom insights for Dynamics 365 Sales Insights<br>Tutorial 1: Hello world
+# Tutorial 1: Hello world
 
 ## Objective
 
@@ -81,6 +81,7 @@ Enter the following information on the **Create card for assistant** screen. The
 
 Select **Save** on the **Create card for assistant** screen.
 
+<a name="test-the-flow"></a>
 ## Step 5: Test the flow
 
 Testing ensures that the insight card has been configured properly. To test, select **Test** in the upper-right corner and follow the instructions.
@@ -98,3 +99,6 @@ You can also see the card type on the **Assistant Studio** home page.
 > [!div class="mx-imgBorder"]
 > ![List of Sales Insights cards](media/assistant-tutorial-1-list-insights-cards.png "List of Sales Insights cards")
 
+### See also
+
+[Tutorial 2: Sample insight for each user in your org](assistant-tutorial2.md)
