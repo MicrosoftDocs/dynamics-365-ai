@@ -16,7 +16,7 @@
 ##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 #### Tutorials
 ##### [Tutorial 1: Create Hello World card](assistant-tutorial1.md)
-##### [Tutorial 2: Sample insight for each user in your organization](assistant-tutorial2.md)
+##### [Tutorial 2: Create a Hello World card for each user in your organization](assistant-tutorial2.md)
 
 ### Configure Productivity intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)

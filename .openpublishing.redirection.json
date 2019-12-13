@@ -581,6 +581,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ai-docs/sales/dynamics-365-ai-for-sales.md",
+      "redirect_url": "dynamics365-sales-insights-app-home-page",
+      "redirect_document_id": "false"  
+    },    
+    {
       "source_path": "ai-docs/sales/d365-ai-business-performance.md",
       "redirect_url": "dynamics365-sales-insights-app-home-page",
       "redirect_document_id": "false"
