@@ -1,8 +1,18 @@
 {
   "redirections": [
     {
-      "source_path": "ai-docs/sales/configure-enable-dynamics-365-ai-sales.md",
-      "redirect_url": "intro-admin-guide-sales-insights",
+      "source_path": "ai-docs/customer-insights/intelligence.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-insights/advanced-mode.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-data-manager.md",
+      "redirect_url": "overview",
       "redirect_document_id": "false"
     },
     {
