@@ -1,94 +1,68 @@
 ---
-title: "Relationships | MicrosoftDocs"
-description: 
-ms.custom: ""
-ms.date: 04/01/2019
-ms.reviewer: ""
+title: "Relationships | Microsoft Docs"
+description: "Connect entities to create segments and measures from multiple data sources in Dynamics 365 Customer Insights."
+ms.date: 12/04/2019
+ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
-caps.latest.revision: 31
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
+
 # Relationships
 
+Relationships help you connect entities and generate a graph of your data when entities share a common identifier (foreign key) that can be referenced from one entity to another. Connected entities enable you to define segments and measures based on multiple data sources.
 
-Relationships help you connect entities and generate a graph of your data. Relationships are used when entities share a common identifier (foreign key) that can be referenced from one entity to another. Connected entities enable you to define segments and measures based on multiple data sources.
-
-> [!div class="mx-imgBorder"] 
-> ![Relationships tile](media/configure-data-relationships-tile.png "Relationships tile")
-
-There are two types of relationships:
-
-- **System relationships**: These are created by the system automatically and cannot be edited.
-- **Custom relationships**: These are created by the user during configuration and can be edited.
+There are two types of relationships. Non-editable system relationships which are created automatically and custom relationships, created and configured by a user.
 
 During the match and merge processes, system relationships are created behind the scenes based on intelligent matching. These relationships help relate the Customer Profile records with other corresponding entities' records. The following diagram exemplifies the creation of three system relationships when the customer entity is matched with additional entities to produce the final Customer Profile entity.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Relationship creation](media/relationships-entities-merge.png "Relationship creation")
 
 - ***CustomerToContact* relationship** was created between the Customer entity and the Contact entity. The Customer entity gets the key field **Contact_contactId** to relate to the Contact entity key field **contactId**.
 - ***CustomerToAccount* relationship** was created between the Customer entity and the Account entity. The Customer entity gets the key field **Account_accountId** to relate to the Account entity key field **accountId**.
 - ***CustomerToWebAccount* relationship** was created between the Customer entity and the WebAccount entity. The Customer entity gets the key field **WebAccount_webaccountId** to relate to the WebAccount entity key field **webaccountId**.
 
-## The Relationships page
+## Create a relationship
 
-In addition, you can use the **Relationships** page to define custom relationships as shown here.
+Define custom relationships on the **Relationships** page. Each relationship consists of a Source entity (the entity that holds the foreign key) and a Target entity (the entity that the source entity’s foreign key points to).
 
-> [!div class="mx-imgBorder"] 
-> ![Customer relationships](media/relationships-custom.png "Custom relationships")
+1. In Customer Insights, go to **Data** > **Relationships**.
 
-Each relationship has two key parts:
+2. Select **New relationship**.
 
-- **Source entity**: Represents the entity that holds the foreign key.
-- **Target entity**: Represents the entity that the source entity’s foreign key points to.
+3. In the **Add relationship** pane, provide the following information:
 
-To create a relationship, first select **Add relationship**.
+   > [!div class="mx-imgBorder"]
+   > ![Enter relationship details](media/relationships-add.png "Enter relationship details")
 
-> [!div class="mx-imgBorder"] 
-> ![Add relationships](media/add-relationships.png "Add relationships")
-
-Next, provide the following information in the **Relationship** pane.
-
-> [!div class="mx-imgBorder"] 
-> ![Enter relationship details](media/relationships-add.png "Enter relationship details")
-
-- **Relationship name**: You can provide a meaningful name that reflects the purpose of the relationship (for example, **AccountWebLogs**).
-- **Description**: Friendly description of the relationship.
-- **Source entity**: The name of the entity that is used as a source in the relationship (for example, WebLog).
-- **Cardinality**: This represents the cardinality of the source entity records. For example, “many” means that multiple Weblog records are related to one WebAccount.  
-- **Source lookup/link field**: This represents the foreign key field in the source entity. For example, WebLog has the **accountId** foreign key field.
-- **Target entity**: The name of the entity that is used as a target in the relationship (for example, WebAccount).
-- **Target cardinality**: This represents the cardinality of the target entity records. For example, “one” means that multiple Weblog records are related to one WebAccount.
-- **Target key field**: This field represents the key field of target entity. For example, WebAccount has the **accountId** key field.
+   - **Relationship name**: Name that reflects the purpose of the relationship (for example, **AccountWebLogs**).
+   - **Description**: Description of the relationship.
+   - **Source entity**: Select the entity that is used as a source in the relationship (for example, WebLog).
+   - **Cardinality**: Select the cardinality of the source entity records. For example, “many” means that multiple Weblog records are related to one WebAccount.
+   - **Source key field**: This represents the foreign key field in the source entity. For example, WebLog has the **accountId** foreign key field.
+   - **Target entity**: Select the entity that is used as a target in the relationship (for example, WebAccount).
+   - **Target cardinality**: Select the cardinality of the target entity records. For example, “one” means that multiple Weblog records are related to one WebAccount.
+   - **Target key field**: This field represents the key field of target entity. For example, WebAccount has the **accountId** key field.
 
 > [!NOTE]
-> For now, only many-to-one and one-to-one relationships are supported. Many-to-many relationships can be created using two many-to-one relationships and a link entity—an entity that is used to connect the source entity and the target entity.
+> Only many-to-one and one-to-one relationships are supported. Many-to-many relationships can be created using two many-to-one relationships and a link entity (an entity that is used to connect the source entity and the target entity).
 
-## How to delete a relationship
+## Delete a relationship
 
-To delete a relationship:
+1. In Customer Insights, go to **Data** > **Relationships**.
 
-1. Select check boxes for the relationships you want to delete.
+2. Select check boxes for the relationships you want to delete.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select the relationship to delete](media/select-relationship-to-delete.png "Select the relationship to delete")
+3. Select **Delete** at the top of the **Relationships** table.
 
-2. Select **Delete** at the top of the **Relationships** table.
+4. Confirm your deletion.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Delete relationship](media/delete-relationship.png "Delete relationship")
+## Next step
 
-### Next step
-
-System and custom relationships are used in the **Segment Editor page** to create segments based on multiple data sources that are no longer siloed. Visit the **Segments** section to learn more. Alternatively, you might want to define activities in your data. Visit the **Activities** section.
-
-
+System and custom relationships are used to create segments based on multiple data sources that are no longer siloed. For more information, see [Segments](pm-segments.md).

@@ -1,7 +1,7 @@
 ---
-title: "Map | MicrosoftDocs"
-description: 
-ms.date: 11/07/2019
+title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
+description: Map data to create unified customer profile in Dynamics 365 Customer Insights
+ms.date: 12/12/2019
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -10,95 +10,88 @@ applies_to:
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: adkuppa
 manager: shellyha
 ---
+
 # Map
 
-**Map** is the first stage in the data unification process that Customer Insights unlocks for you as a user. If haven't done so, you can get some more context around the unique data unification capabilities that Customer Insights offers by visiting the **Unify** section. 
+**Map** is the first stage in the data unification process in Dynamics 365 Customer Insights. Mapping consists of two phases:
 
-There are two main goals of the map phase:
+- *Entity selection*: Identify the combinable entities that lead to a dataset with more complete information about your customers.
+- *Attribute selection*: For each entity, identify the columns you want to combine and reconcile in the next data unification phases, *match* and *merge*. In Customer Insights, those columns are called *Attributes*.
 
-- **Entity selection**: Identify the entities that can be combined to lead to a dataset with more complete information about your customers.
-- **Attribute selection**: For each entity, identify the columns you want to combine and reconcile in the next data unification phases, match and merge. In Customer Insights, those columns are called *Attributes*.
+For more information about the general flow of data unification, see [Unify](pm-configure-data.md).
 
-Select the **Map** tile on the **Unify** page to start the map phase.
+## Select the first entities
 
-> [!TIP]
-> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs).
+1. In Customer Insights, go to **Unify** > **Map**.
 
-## Select first entities
+2. Start the map phase by selecting **Add entities**.
 
-Start the map phase by selecting **Add entities**.
+3. In the **Add entity** pane, select the entities you want to add. We recommend to select at least two entities to benefit from the data unification process.
 
-> [!div class="mx-imgBorder"] 
-> ![Add entities](media/data-manager-configure-map-add-entities.png "Add entities")
+   > [!div class="mx-imgBorder"]
+   > ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-On the next screen, choose the entities you want. 
+   For example, we're adding the **Contact** and **Survey** entities. It might be useful to understand which address corresponds to a survey participant.
 
-> [!div class="mx-imgBorder"] 
-> ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
+4. Select **Save** to confirm your selections.
 
-In the preceding example, the user searched for the **Contact** and **Survey** entities, since these include information that might be valuable to combine. An example might be understanding what address corresponds to what survey participant (given that the **Address** attribute exists only in the **Contact** entity). 
+## Review system-selected attributes
 
-Then, the user selected the **Contact** and **Survey** entities. Those were found within the **Dynamics** and **Surveydata** data sources that were ingested through the **Data sources** page. 
+After selecting your entities, the **Map** page list the ingested entities.
 
-Lastly, the user selected **Save**.
-
-> [!NOTE] 
-> You should search for and select at least two entities in order to benefit from the data unification process.
-
-## View system auto-selections
-
-The following page appears after you select your entities.
-
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![See ingested entities](media/data-manager-configure-map-ingested-entities.png "See ingested entities")
 
-- On the left, you can see your ingested entities. By default, the first entity is auto-selected (**ContactCSV** in the preceding example). To move to any other entity, select that entity's tile. 
-
-- Note that the system auto-selected all the attributes for which an attribute type was auto-identified. Those attributes include names, email address, and several others in the preceding example. Shown outlined in red, those preselected attributes appear in the first column, while their types are specified in the third column. You should review those preselected attributes since they will be used to combine your entities in the *match* configuration phase. 
+The system auto-selected all the attributes for which an attribute type was auto-identified. Those attributes include names, email address, and several others. Review these attributes their specified types since they'll be used to combine your entities in the *match* configuration phase.
 
 ## Add and remove attributes
 
-Use **Edit** to add and remove attributes.
+1. On **Unify** > **Map**, select the entity to select attributes from.
 
-> [!div class="mx-imgBorder"] 
-> ![Add or remove attributes](media/configure-data-map-edit.png "Add or remove attributes")
+2. Select **Edit** to add or remove attributes.
 
-After you select **Edit**, the **Attributes** panel opens.
+   > [!div class="mx-imgBorder"]
+   > ![Add or remove attributes](media/configure-data-map-edit.png "Add or remove attributes")
 
-> [!div class="mx-imgBorder"] 
-> ![Columns for Contact](media/configure-data-map-contact-attributes.png "Columns for Contact")
+3. Use the search or scroll down to find and select your attributes of interest.
 
-Use **Search** or scroll down the **Attributes** list to locate and select your attributes of interest. Finish by selecting **Save**. Note that you can also choose all attributes by selecting **Select all**. Once one attribute is selected, the same button will turn into a **Clear all** button that can be used to clear all your selections.
+4. Finish by selecting **Save**.
+
 ## Add and remove entities
 
-Use **Select** to either add or remove entities.
+1. On **Unify** > **Map**, select the **Select** control to add or remove entities.
 
-> [!div class="mx-imgBorder"] 
-> ![Add or remove entities](media/data-manager-configure-map-edit.png "Add or remove entities")
+   > [!div class="mx-imgBorder"]
+   > ![Add or remove entities](media/data-manager-configure-map-edit.png "Add or remove entities")
 
-Select the entities that you want to add to your existing entities list, and clear entities that you want to remove.
+2. In the **Entities** pane, select the entities that you want to add or clear the selection for entities that you want to remove. Currently, you can't remove entities if they were already matched.
 
-> [!NOTE]
-> Currently, it's not possible to remove entities from the **Map** page if they were already matched on the **Match** page. 
+   > [!div class="mx-imgBorder"]
+   > ![Edit entities list](media/data-manager-configure-map-edit-customer-entity.png "Edit entities list")
 
-> [!div class="mx-imgBorder"] 
-> ![Edit entities list](media/data-manager-configure-map-edit-customer-entity.png "Edit entities list")
+## Select primary key and define attribute types
 
-## Select primary keys and define attribute types
+Before completing the matching phase, you need to define the primary key and its attribute type for every added entity.
 
-> [!div class="mx-imgBorder"] 
+> [!div class="mx-imgBorder"]
 > ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
 
-There are two selections you must complete prior to the completion of the map phase.
+- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values.
 
-- **Primary key**: (Selected in the preceding example.) It is mandatory that you select one attribute as a primary key for each of your chosen entities. Note that for an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values. 
-- **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system. 
+- **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
 
-  For Organizations (Preview), the attribute type should be mapped to "Organization.Name"
-  > [!div class="mx-imgBorder"] 
-  > ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
+## Set attributes for organizations
 
-### Next step
-As part of the data unification process, go to the **Match** page by selecting **Match** in the left-side menu or by selecting the **Match** tile on the **Unify** page. Visit [**Match**](pm-match.md) to learn about this phase.
+For Organizations (Preview), the attribute type should be mapped to "Organization.Name"
+> [!div class="mx-imgBorder"]
+> ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
+
+## Next step
+
+As part of the data unification process, go to the **Match** page. Visit [**Match**](pm-match.md) to learn about this phase.
+
+> [!TIP]
+> Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs).
