@@ -69,10 +69,10 @@ Enter the following information on the **Create card for assistant** screen.
 | **Card text** | This is my sample flow card for **formatDateTime(utcNow(), 'D')**<br>(This expression gets the current date in the format **DayOfWeek, Month Day, Year**.) |
 | **Button type** | Open URL |
 | **Button URL/record ID** | https://www.bing.com |
-| **Button entity**| Leave this box blank as you have selected **Button type** as **Open URL**. |
-| **Display entity** | Choose an entity type from the list. Here select the entity type as **Opportunity** and the card will be displayed on the opportunity forms of the of the selected **Display record ID**. |
+| **Button entity**| Leave this box blank, because you've selected **Button type** as **Open URL**. |
+| **Display entity** | Select the entity type as **Opportunity**, to display the card on the opportunity forms of the selected **Display record ID**. |
 | **Display record ID** | The record ID of the entity corresponding to the entity type selected in the **Display entity** field. |
-| **Show for** | The record ID of the user who should see this card on their Dynamics 365 dashboard. More information: [Configure Show for](#configure-show-for). |
+| **Show for** | The record ID of the user who will see this card on their Dynamics 365 dashboard. More information: [Configure Show for](#configure-show-for) |
 | **Show from** | The start time from when the card will be displayed (you can accept the default, which is immediately after creation). |
 | **Show until** | The expiry time of the card after it has been displayed (the default is 24 hours after creation). |
 
@@ -83,12 +83,12 @@ Configure the **Show for** field to display this card for each user in your orga
 1. In the **Show for** dialog box, select an output of a previous action&mdash;in this case, the **List records** action of the **Common Data Service** connector.
 
     > [!div class="mx-imgBorder"]
-    > ![Select add dynamic content option](media/assistant-tutorial-2-add-dynamic-content.png "Select add dynamic content option")
+    > ![Select add dynamic content option](media/assistant-tutorial-2-add-dynamic-content.png "Select the Add dynamic content option")
 
 2. Select **Add dynamic content**, and then search for and select **User (Unique identifier for the user)**.
 
     > [!div class="mx-imgBorder"]
-    > ![Search for user option](media/assistant-tutorial-2-add-user-option.png "Search for user option")
+    > ![Search for user option](media/assistant-tutorial-2-add-user-option.png "Search for User option")
 
     This creates an **Apply to each** statement, which creates a card for each user who was returned from the **List records** action.
 
