@@ -18,7 +18,7 @@ caps.latest.revision: 1
 
 # Create custom insight cards
 
-As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following illustrates a high-level flow of insight card creation:
+As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following digaram illustrates a high-level flow of insight card creation:
 
 > [!div class="mx-imgBorder"]
 > ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
@@ -56,7 +56,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
     The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to common data services and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
 
-    If any of the account is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credentials.
+    If any of the accounts is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credential.
 
     > [!div class="mx-imgBorder"]       
     > ![Accounts validation in flow](media/si-admin-flow-account-validation.png "Accounts validation in flow")
