@@ -32,8 +32,8 @@ As an administrator, you can enable and configure the Sales Insights features as
 >[!IMPORTANT]
 > For proper installation and effective use of Sales Insights, ensure that the **Change Tracking** option for the following entities are enabled: Account, Contact, Lead, Opportunity, System User, Team, Queue, Organization, Email, Phone Call, Task, Appointment, Activity Party,  Connection, Business Unit, Metric, Opportunity Product, Product, Opportunity Sales Process, Process Stage, Connection Role, Workflow, Goal, Role, and System User Roles.
 > 1. Go to **Settings** > **Customizations** > **Customize the System**. 
-> 2. On the **Default Solution** page, select an *Entity* and under the **General** tab, go to **Data Services** section. 
-> 3. Verify the **Change Tracking** option is enabled.    
+> 2. On the **Default Solution** page, expand **Entity** and then select an entity.
+> 3. In the **General** tab, under **Data Services** section, verify that the **Change Tracking** option is enabled.    
 
 ## Enable and configure free Sales Insights features
 
