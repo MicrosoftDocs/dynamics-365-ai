@@ -93,11 +93,11 @@ Review the following requirements for audio and JSON files before you upload:
   | `Title` | Specifies the title of the call.|
   | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
   | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
-  | `CallContactCrmId` |  (Optional) Specifies the unique identification code of the contact. |
-  | `CallOpportunityCrmId` |  (Optional) Specifies the unique identification code of the opportunity. |
-  | `CallLeadCrmId` |  (Optional) Specifies the unique identification code of the lead. |
-  | `CallAccountCrmId` |  (Optional) Specifies the unique identification code of the account. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 Sales admin center for the sales rep. |
+  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
+  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
+  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
+  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
   | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
