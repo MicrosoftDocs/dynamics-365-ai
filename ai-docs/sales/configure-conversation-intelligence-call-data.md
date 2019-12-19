@@ -74,7 +74,7 @@ Review the following requirements for audio and JSON files before you upload:
 
 - The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
 - The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
-- The length of the file name should be less than 260 characters.
+- The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
@@ -93,11 +93,11 @@ Review the following requirements for audio and JSON files before you upload:
   | `Title` | Specifies the title of the call.|
   | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
   | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
-  | `CallContactCrmId` |  (Optional) Specifies the unique identification code of the contact. |
-  | `CallOpportunityCrmId` |  (Optional) Specifies the unique identification code of the opportunity. |
-  | `CallLeadCrmId` |  (Optional) Specifies the unique identification code of the lead. |
-  | `CallAccountCrmId` |  (Optional) Specifies the unique identification code of the account. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the unique identification code generated in Dynamics 365 Sales admin center for the sales rep. |
+  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
+  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
+  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
+  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
   | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
@@ -107,7 +107,7 @@ Review the following requirements for audio and JSON files before you upload:
   | `country`| (Optional) Specifies from which country the call originated. | 
   <!--| `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|-->
   
-    The following is an example of JSON file format:
+    The following sample is an example of JSON file format:
     ```
     {
         "AgentAADUserId": "6b105575-g55a-e611-00ka-5065f38b0211",
@@ -153,7 +153,7 @@ Configuring the call data helps us to fetch the call recording from your reposit
     > [!div class="mx-imgBorder"]
     > ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
 
-    The list of containers that are available is displayed in the **Container name** drop down.
+    The list of containers that are available is displayed in the **Container name** drop-down.
 
 5.	Select **Container name** from the list.
 
