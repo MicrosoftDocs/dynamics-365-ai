@@ -74,7 +74,7 @@ Review the following requirements for audio and JSON files before you upload:
 
 - The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
 - The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
-- The length of the file name should be less than 260 characters.
+- The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
@@ -107,7 +107,7 @@ Review the following requirements for audio and JSON files before you upload:
   | `country`| (Optional) Specifies from which country the call originated. | 
   <!--| `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|-->
   
-    The following is an example of JSON file format:
+    The following sample is an example of JSON file format:
     ```
     {
         "AgentAADUserId": "6b105575-g55a-e611-00ka-5065f38b0211",
@@ -153,7 +153,7 @@ Configuring the call data helps us to fetch the call recording from your reposit
     > [!div class="mx-imgBorder"]
     > ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
 
-    The list of containers that are available is displayed in the **Container name** drop down.
+    The list of containers that are available is displayed in the **Container name** drop-down.
 
 5.	Select **Container name** from the list.
 
