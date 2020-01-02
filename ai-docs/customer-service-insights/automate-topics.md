@@ -22,6 +22,9 @@ search.appverid: met150
 
 You can automate the creation of topics in Power Virtual Agents by copying over topics discovered by Customer Service Insights. This is helpful if you have a support topic in Customer Service Insights that you'd like to add to a support bot, to help drive resolution rates and customer satisfaction rates.
 
+>[!NOTE]
+>If your Power Virtual Agents bot is created in a geographic location that is different from your Customer Service Insights workspace, the data of topics you selected for automation will go to the geogrpahic location of your bot outside from Customer Service Insights. For more information about Power Virtual Agents geographic location support, see [Data locations for organizations using Power Virtual Agents](/power-virtual-agents/data-location). For geographic locations supported in Customer Service Insights, see [Where an organization's Customer Service Insights data is located](data-location.md).
+
 ## Prerequisite to automate topics
 
 You musth have the following to automate a topic from Customer Service Insights to Power Virtual Agents:
