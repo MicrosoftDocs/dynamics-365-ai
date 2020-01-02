@@ -2,7 +2,7 @@
 title: "Automate the creation of Power Virtual Agents bot topics"
 description: "Use topics discovered by Customer Service Insights as pre-filled bot topics in Power Virtual Agents."
 keywords: ""
-ms.date: 12/2/2019
+ms.date: 1/3/2020
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -22,9 +22,14 @@ search.appverid: met150
 
 You can automate the creation of topics in Power Virtual Agents by copying over topics discovered by Customer Service Insights. This is helpful if you have a support topic in Customer Service Insights that you'd like to add to a support bot, to help drive resolution rates and customer satisfaction rates.
 
+>[!NOTE]
+>If your Power Virtual Agents bot is created in a geographic location that is different from your Customer Service Insights workspace, the data for topics you select for automation will go to the geographic location of your bot outside Customer Service Insights. 
+>
+>For more information about Power Virtual Agents geographic location support, see [Data locations for organizations using Power Virtual Agents](/power-virtual-agents/data-location). For geographic locations supported in Customer Service Insights, see [Where an organization's Customer Service Insights data is located](data-location.md).
+
 ## Prerequisite to automate topics
 
-You musth have the following to automate a topic from Customer Service Insights to Power Virtual Agents:
+You must have the following to automate a topic from Customer Service Insights to Power Virtual Agents:
 
 - A valid license to access Power Virtual Agents. Go to https://aka.ms/TryPVA for more information and to sign up for a trial. 
 
@@ -47,7 +52,7 @@ Customer Service Insights also calculates the [resolution time impact for each t
 To view topic details analytics, see the [Topic details analytics dashboard](dashboard-topic-details.md) article for more information. 
 
 ## Automate topics from the topic details page
-After reviewing topic details and identifying a candiate for automation, you can automate the topic right away from the topic details page:
+After reviewing topic details and identifying a candidate for automation, you can automate the topic from the topic details page:
 
 1. In the topic details page, select **Automate** at the top. 
 
