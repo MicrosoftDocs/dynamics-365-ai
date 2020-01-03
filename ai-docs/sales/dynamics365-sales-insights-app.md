@@ -24,25 +24,25 @@ The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights
 
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
-**As a sales manager, you can**
+**As a sales manager, you can:**
 
--	Understand what customers are talking about to get strategic insights on trending tracked keywords, brands, and competitors that allows you to design sales strategies and training of your team. To learn more, see [View home page](dynamics365-sales-insights-app-home-page.md)
+-	Understand what customers are talking about to get strategic insights on trending tracked keywords, brands, and competitors that allow you to design sales strategies and training of your team. To learn more, see [View home page](dynamics365-sales-insights-app-home-page.md).
 
--	Understand if your opportunities and leads are loosing momentum and be on top them to convert into deals. To learn more, see [Are my team’s deals on track?](dynamics365-sales-insights-app-home-page.md#are-my-teams-deals-on-track). 
+-	Understand if your opportunities and leads are losing momentum and be on top them to convert into deals. To learn more, see [Are my team’s deals on track?](dynamics365-sales-insights-app-home-page.md#are-my-teams-deals-on-track) 
 
--	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md)
+-	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
 -	View team’s insights, customer sentiment, and team’s conversational style<!--, and sales pipeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
--	View and understand individual seller’s conversation style<!--, sales pipeline-->, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
+-	View and understand an individual seller’s conversation style<!--, sales pipeline-->, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
 
 -	View insights on the status of your current sales period such as the sum of actual revenue, total estimated revenues, total deals won, and the average revenue generated. To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
 
-**As a seller, you can**
+**As a seller, you can:**
 
 -	View your conversation insights, customer sentiment, conversations style, sales pipeline, and call history. To learn more,  see [View sales rep information](conversation-intelligence-seller-details.md).
 
-**As a administrator, you can**
+**As an administrator, you can:**
 
 -	Configure tracker keywords and competitors that you want to track for your team’s calls with customers. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
@@ -51,7 +51,7 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Configure how long you want to retain or delete team’s or individual seller’s data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).
 
--	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
+-	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
 -	Enable preview for natural language Q&A. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
@@ -69,11 +69,11 @@ The next sections describe:
 
 Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app:
 
--	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management) 
+-	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management). 
 
 <!-- - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)-->
 
-- As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies)
+- As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 <!-- - As a sales manager, verify that goals are defined for sellers or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
     >[!NOTE]
@@ -81,38 +81,38 @@ Before you start using the application, we suggest you review the following requ
 
 ## How to get the Dynamics 365 Sales Insights application
 
-The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application is a standalone application and you must sign into the app to use it. To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
+The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application is a standalone application and you must sign in to the app to use it. To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
 
 ## How to access the Dynamics 365 Sales Insights application
 
-As an administrator, you must configure the application so users (managers and sellers) could see the relevant organization and call data. To learn more, see [First-run set up experience](fre-setup-sales-insight-app.md).
+As an administrator, you must configure the application so users (managers and sellers) can see the relevant organization and call data. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
 
-As a user (manager or seller), when you sign to the application for the first time, you might see the following:
+As a user (manager or seller), when you sign in to the application for the first time, you might see the following:
 
 - **Sample data**: If the administrator hasn't configured the application for you. The sample data helps you to explore the features and functionalities so you can enhance your learning curve.
 
 - **Relevant organization and call data**: If the administrator has configured the application for you.
 
-The following procedure explains how to access Sales Insights application for the first time:
+The following procedure explains how to access the Sales Insights application for the first time:
 
-1.	Signs into [Dynamics 365 Sales Insights](https://sales.ai.dynamics.com/) application, the home page is displayed with the demo data.
+1.	Sign in to the [Dynamics 365 Sales Insights](https://sales.ai.dynamics.com/) application. The home page is displayed with the demo data.
 
-2.	Selects **Set up Sales Insights** to connect to Dynamics 365 Sales organization.
-
-    > [!div class="mx-imgBorder"]
-    > ![Sales insights application first sign in](media/si-app-manager-first-signin.png "Sales insights application first sign in")
-
-3.	Selects the Dynamics 365 Sales organization to connect and this helps to compute and consolidate the necessary insights about your team.
+2.	Select **Set up Sales Insights** to connect to the Dynamics 365 Sales organization.
 
     > [!div class="mx-imgBorder"]
-    > ![select Dynamics 365 sales organization](media/si-app-select-organization.png  "select Dynamics 365 sales organization")
+    > ![Sales insights application first sign-in](media/si-app-manager-first-signin.png "Sales insights application first sign-in")
 
-4.	On the **Terms and condition** dialog, accepts the terms and conditions, and selects **Agree and continue**.
+3.	Select the Dynamics 365 Sales organization to connect to. This helps to compute and consolidate the necessary insights about your team.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Dynamics 365 sales organization](media/si-app-select-organization.png  "Select Dynamics 365 sales organization")
+
+4.	On the **Terms and condition** dialog box, accept the terms and conditions and then select **Agree and continue**.
 
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions](media/si-app-tnc.png  "Accept terms and conditions")
 
-	The application validates your credentials and gives you further instructions depending on your role. If you have administrator role assigned to you, you can proceed with configuring the application. To learn more, see [First-run set up experience](fre-setup-sales-insight-app.md).
+	The application validates your credentials and gives you further instructions depending on your role. If you have an administrator role assigned to you, you can proceed with configuring the application. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
     
     If you don't have the administrator role assigned to you, a status message is displayed on the top of the page specifying you to contact your administrator to configure the application. However, you can continue with the demo data to explore the features and functionalities to enhance your learning curve until the administrator configures the application.
     
@@ -121,6 +121,6 @@ The following procedure explains how to access Sales Insights application for th
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
