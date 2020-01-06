@@ -1,19 +1,21 @@
----
-title: "Supported languages in Dynamics 365 Customer Service Insights | Microsoft Docs"
-description: "Find out which languages are supported in Dynamics 365 Customer Service Insights."
+--
+title: "Supported languages in Dynamics 365 Customer Service Insights"
+description: "Identify and configure language support in Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 08/10/2019
+ms.date: 01/07/2020
 ms.service:
   - dynamics-365-ai
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
+author: iaanw
+ms.author: iawilt
 manager: shellyha
 ---
 
 # Supported languages for Customer Service Insights
 
-The languages shown in the product is based on the language preferences on your computer and your browser settings. This article lists supported languages for Dynamics 365 Customer Service Insights and details on how to update the language preferences. In addition, it explains the language support for case grouping as topics using artificial intelligence.
+Dynamics 365 Customer Service Insights supports a number of languages. This topic lists the available languages and provides support for changing the language, grouping cases based on language, and how and what content is translated.
+
+
 
 ## Languages for Customer Service Insights
 
@@ -76,9 +78,11 @@ Because the dashboard is connected to your data, the following items remain in t
 
 ## Choose your language settings  
 
-Customer Service Insights detects your language based on the language preferences on your computer. The way you access and change these preferences may vary depending on your operating system and browser. 
+The list of languages is shown in the product is based on the language preferences and regional settings obtained from your device and browser settings.
 
-### Microsoft Edge
+The way you access and change these preferences may vary depending on your operating system and browser. 
+
+### Windows 10 and Microsoft Edge
 
 For details about changing languages in Windows 10 and Edge, see [Change the display language in Microsoft Windows 10 and Microsoft Edge](https://support.microsoft.com/help/4496404/windows-10-manage-the-input-and-display-language#display_language).
 
@@ -96,7 +100,7 @@ For details about changing languages in Windows 10 and Edge, see [Change the dis
 
 ## Language support for case grouping as topics
 
-Customer Service Insights uses natural language understanding and other artificial intelligence technology to discover actionable insights by automatically grouping similar support cases into topics. It comes with natural language understanding models that can understand the text semantics and intent in the following languages:
+Customer Service Insights comes with natural language understanding models that can understand the text semantics and intent in the following languages:
 
 * English
 * French
@@ -107,8 +111,12 @@ Customer Service Insights uses natural language understanding and other artifici
 * Simplified Chinese
 * Spanish
 
-Each language model above also has the capability to process English cases, in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text sementics and intent. 
+Each language model also has the capability to process English cases in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text sementics and intent. 
 
-The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. If more than 70% of the cases are in languages supported by a specific language model, that model will be used to discover topics from all of your cases; otherwise, a mixed-language model is used. For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases. 
+The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. 
+
+If more than 70% of the cases are in languages supported by a specific language model, that model will be used to discover topics from all of your cases; otherwise, a mixed-language model is used. 
+
+For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases. 
 
 If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
