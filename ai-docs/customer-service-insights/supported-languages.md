@@ -111,7 +111,7 @@ Customer Service Insights comes with natural language understanding models that 
 * Simplified Chinese
 * Spanish
 
-Each language model also has the capability to process English cases in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text sementics and intent. 
+Each language model also has the capability to process English cases in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text semantics and intent. 
 
 The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. 
 
