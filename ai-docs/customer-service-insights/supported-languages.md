@@ -101,14 +101,11 @@ Customer Service Insights uses natural language understanding and other artifici
 * English
 * French
 * German
-* Italian (Public Preview)
-* Japanese (Public Preview)
-* Portuguese (Public Preview)
-* Simplified Chinese (Public Preview)
+* Italian
+* Japanese
+* Portuguese
+* Simplified Chinese
 * Spanish
-
-> [!NOTE]
-> The support for Italian, Japanese, Portuguese and Simplified Chinese is currently in public preview.  
 
 Each language model above also has the capability to process English cases, in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text sementics and intent. 
 
