@@ -1,4 +1,4 @@
---
+---
 title: "Supported languages in Dynamics 365 Customer Service Insights"
 description: "Identify and configure language support in Dynamics 365 Customer Service Insights."
 keywords: ""
