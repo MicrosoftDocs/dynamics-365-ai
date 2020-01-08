@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
 ms.date: 12/12/2019
@@ -24,7 +24,7 @@ The **Custom Models** page lists workflows that have been created to generate in
 
 1. On the **Custom Models** page, select **New Workflow**.
 
-2. Give your workflow a recognizable name in the **Display name** field, choose the [web service you've published using Azure Machine Learning services](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** drop-down and select **Next**.
+2. Give your workflow a recognizable name in the **Display name** field, choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** drop-down and select **Next**.
 
 3. For each **Web service input**, select the matching **Entity** from Customer Insights and select **Next**.
 
