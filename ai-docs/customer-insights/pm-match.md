@@ -1,7 +1,7 @@
 ---
 title: "Match | Microsoft Docs"
 description: "Complete the matching phase to get a unified customer profile in Dynamics 365 Customer Insights."
-ms.date: 12/11/2019
+ms.date: 01/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -61,21 +61,23 @@ The **Needs Rules** warning suggests that no match rule is defined for a match p
    > [!div class="mx-imgBorder"]
    > ![New rule pane](media/configure-data-match-new-rule-condition.png "New rule pane")
 
-   1 - An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
+   Entity/Field (first) - An attribute that will be used for matching from the first match pair entity (for example, name, phone, or email address). Choose an attribute that is likely unique to the customer, and similar information can be found in other entities.
 
    > [!TIP]
    > Avoid matching on the basis of activity-type attributes. In other words, if an attribute seems to be an activity, then it might be a poor criteria to match by.  
 
-   2 - An attribute that will be used for matching from the second match pair entity.
+   Entity/Field (Second) - An attribute that will be used for matching from the second match pair entity.
 
-   3 - **Normalization method**: Various normalization options are available for the selected attributes. For example, removing punctuation or removing spaces
+   Normalize - **Normalization method**: Various normalization options are available for the selected attributes. For example, removing punctuation or removing spaces
 
    For Organization name normalization (Preview), you can also select **Type (Phone, Name, Organization)**
 
    > [!div class="mx-imgBorder"]
    > ![Normalization-B2B](media/match-normalization-b2b.png "Normalization-B2B")
 
-   4 - The level of precision that will be used for this condition. Select **Exact** to only match records that that match 100 percent. Select one of the other levels to match records that are not 100 percent identical. You can also use the slider to define the percentage that records need to match. Values on the slider are between 0 and 1. So 0.64 represents 64 percent.
+   Precision level - The level of precision that will be used for this condition. Setting a precision level for a match condition can have two types: **Basic** and **Custom**.  
+   - Basic: Provides you with four options to select from: Low, Medium, High, and Exact. Select **Exact** to only match records that that match 100 percent. Select one of the other levels to match records that are not 100 percent identical.
+   - Custom: Use the slider to define the custom percentage that records need to match or enter a value in the **Custom** field. The system will only match records passing this threshold as conflated match pairs. Values on the slider are between 0 and 1. So 0.64 represents 64 percent.
 
 3. Select **Done** so save the rule.
 
@@ -103,6 +105,8 @@ If each condition applies to a single pair of attributes, then rules represent s
 ## Run your match order
 
 After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You can find the unified customer profile entity which was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs: Customer 360**.
+
+If you want to make additional changes and re-run the step, you can cancel a match process while it's in progress. Select **Stop** on the notification bar while the matching of records is in progress to stop the current run.
 
 When the match process is complete, the **Matching records** message disappears and you can use all functionality of the page again.
 

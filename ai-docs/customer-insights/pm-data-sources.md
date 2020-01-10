@@ -1,7 +1,7 @@
 ---
 title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Bring data from various sources into Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 01/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
