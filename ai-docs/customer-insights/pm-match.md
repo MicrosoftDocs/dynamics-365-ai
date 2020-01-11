@@ -79,7 +79,7 @@ The **Needs Rules** warning suggests that no match rule is defined for a match p
    - Basic: Provides you with four options to select from: Low, Medium, High, and Exact. Select **Exact** to only match records that that match 100 percent. Select one of the other levels to match records that are not 100 percent identical.
    - Custom: Use the slider to define the custom percentage that records need to match or enter a value in the **Custom** field. The system will only match records passing this threshold as conflated match pairs. Values on the slider are between 0 and 1. So 0.64 represents 64 percent.
 
-3. Select **Done** so save the rule.
+3. Select **Done** to save the rule.
 
 ### Add multiple conditions
 
