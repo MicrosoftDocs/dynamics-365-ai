@@ -17,9 +17,12 @@
       href: segment-export.md
   - name: Measures
     href: pm-measures.md
+  - name: Intelligence
     items: 
-      - name: Intelligence
+      - name: Custom models
         href: custom-models.md
+      - name: Predictions
+        href: predictions.md
   - name: Data
     # href: pm-data-manager.md 
     items:
