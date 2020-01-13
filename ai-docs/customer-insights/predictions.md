@@ -1,7 +1,7 @@
 ---
 title: "Predictions | Microsoft Docs"
 description: "Prediction capabilities in Dynamics 365 Customer Insights."
-ms.date: 11/10/2019
+ms.date: 01/13/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
