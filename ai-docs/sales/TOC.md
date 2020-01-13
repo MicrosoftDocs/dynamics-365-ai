@@ -10,11 +10,13 @@
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
 #### [Create insight cards](create-insight-cards-flow.md)
-#### [Tutorial 1: Create Hello World card](assistant-tutorial1.md)
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create insight cards using solution](extend-relationship-assistant-card.md)
 ##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+#### Tutorials
+##### [Tutorial 1: Create Hello World card](assistant-tutorial1.md)
+##### [Tutorial 2: Create a Hello World card for each user in your organization](assistant-tutorial2.md)
 
 ### Configure Productivity intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)

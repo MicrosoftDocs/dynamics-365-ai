@@ -1,6 +1,6 @@
 ---
-title: "Create insight cards using Microsoft Flow in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Create custom insight cards using Microsoft Flow in Assistant"
+title: "Create insight cards using Microsoft Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Create custom insight cards using Microsoft Power Automate in Assistant"
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -18,7 +18,7 @@ caps.latest.revision: 1
 
 # Create custom insight cards
 
-As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following illustrates a high-level flow of insight card creation:
+As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
 
 > [!div class="mx-imgBorder"]
 > ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
@@ -47,7 +47,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 5. Select a template to create the card.
 
     > [!NOTE]
-    > If you want to create insight cards from an empty flow, select **Create from blank**. To learn more, see [Create a flow in Microsoft Flow](/flow/get-started-logic-flow).
+    > If you want to create insight cards from an empty flow, select **Create from blank**. To learn more, see [Create a flow in Power Automate](/power-automate/get-started-logic-flow).
     
     In this example, we selected the **Due date is coming up** template to create the custom card.
 
@@ -56,7 +56,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
     The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to common data services and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
 
-    If any of the account is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credentials.
+    If any of the accounts is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credential.
 
     > [!div class="mx-imgBorder"]       
     > ![Accounts validation in flow](media/si-admin-flow-account-validation.png "Accounts validation in flow")
@@ -78,7 +78,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Create card schedule](media/cc-card-schedule-step.png "Create card schedule")
 
-    If you want to change the flow, select the + icon on the connector that is linking to the next step and select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/flow/multi-step-logic-flow).
+    If you want to change the flow, select the + icon on the connector that is linking to the next step and select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
 
 8. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
 
@@ -99,7 +99,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Add a condition](media/cc-add-condition.png "Add a condition")
     
-      To learn more about conditions, see [Add a condition to a flow](/flow/add-condition).
+      To learn more about conditions, see [Add a condition to a flow](/power-automate/add-condition).
 
     c. The **If yes** section defines the properties of the card and actions you can take. Here we have selected an action to **Create a card for the assistant**. Enter the following information:
 
@@ -115,7 +115,7 @@ In this procedure, we will show as an example how to create an insight to act wh
       > [!div class="mx-imgBorder"]       
       > ![Add condition information](media/cc-add-condition-information-yes.png "Add condition information")
 
-    To learn more about expression conditions, see [Use expressions in conditions to check multiple values](/flow/use-expressions-in-conditions).
+    To learn more about expression conditions, see [Use expressions in conditions to check multiple values](/power-automate/use-expressions-in-conditions).
 
 10. Use **Flow Checker** to verify errors and warnings in the flow. 
 
@@ -158,7 +158,7 @@ After you create a flow, a card must be generated to based on the created flow t
 
 To access the saved flows, follow these steps:
 
-1. Go to [Microsoft Flow](https://flow.microsoft.com) and sign in with your Dynamics 365 Sales credentials.
+1. Go to [Microsoft Power Automate](https://flow.microsoft.com) and sign in with your Dynamics 365 Sales credentials.
 
     > [!NOTE]
     > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 
@@ -177,7 +177,9 @@ To access the saved flows, follow these steps:
 
 ### See also
 
-[Tutorial 1: Create Hello World card][assistant-tutorial1.md]
+[Tutorial 1: Create Hello World card](assistant-tutorial1.md)
+
+[Tutorial 2: Create a Hello World card for each user in your organization](assistant-tutorial2.md)
 
 [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
 
