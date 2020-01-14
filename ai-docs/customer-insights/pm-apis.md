@@ -1,7 +1,7 @@
 ---
 title: "APIs | Microsoft Docs"
 description: "APIs for Dynamics 365 Customer Insights."
-ms.date: 12/02/2019
+ms.date: 01/14/2019
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -15,7 +15,7 @@ manager: shellyha
 
 # APIs
 
-There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
 The goal of this section is not to cover all the Customer Insights APIs but rather to:
 
@@ -43,7 +43,7 @@ If you are not familiar with Swagger, see the following step-by-step tutorial: [
 
 ## Limitations involved with using the Customer Insights Conflation APIs
 
-See the **Conflation** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **Conflation** table on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
 ### Limitations by field (across all Conflation APIs)
 
@@ -66,7 +66,7 @@ See the **Conflation** table on the [Customer Insights Swagger webpage](https://
 
 ## Limitations involved with using the Customer Insights Relationship APIs
 
-See the **EntityMetadata** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **EntityMetadata** table on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
 ### Limitations common to all APIs
 
@@ -95,4 +95,4 @@ For relationship APIs specifically, any time {relationshipName} is provided, a r
 2. Use APIs for querying: Get specific parts of a segment.
 3. Use APIs for searching and querying specific segment member data.
 
-See the **SegmentManagement** table on the [Customer Insights Swagger webpage](https://tip.api.ci.ai.dynamics.com/swagger/index.html).
+See the **SegmentManagement** table on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
