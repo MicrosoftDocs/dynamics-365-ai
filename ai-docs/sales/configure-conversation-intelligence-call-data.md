@@ -68,7 +68,10 @@ Now you are ready to upload call recordings to the blob container and configure 
 You can upload the recordings in audio formats, such as MP3 and WAV, in the created call recording repository (blob container) in Azure. Along with the audio format file, you must upload the corresponding metadata file in JSON format.
 
 > [!NOTE]
-> You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
+> - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
+> - The **conversation-intelligence-managed** container is created and managed automatically by the application.
+
+
 
 Review the following requirements for audio and JSON files before you upload:
 
