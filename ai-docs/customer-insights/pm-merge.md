@@ -1,7 +1,7 @@
 ---
 title: "Merge process to unify data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about the merge phase in the data unification process of Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 01/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 applies_to: 
@@ -51,7 +51,7 @@ To exclude an attribute from the final customer profile entity, find it in the *
 
 ## Manually add a merged attribute
 
-<!--needs more details and screesshots-->
+<!--needs more details and screenshots-->
 
 To add a merged attribute, go to the **Merge** page.
 
@@ -68,6 +68,8 @@ To add a merged attribute, go to the **Merge** page.
 ## Run your merge
 
 Whether you manually merge attributes or let the system merge them, you can always run your merge. Select **Run** on the **Merge** page to start the process.
+
+If you want to make additional changes and re-run the step, you can cancel a merge process while it's in progress. Select **Stop** on the notification bar while the merging of records is in progress to stop the current run.
 
 > [!div class="mx-imgBorder"]
 > ![Data merge Save and Run](media/configure-data-merge-save-run.png "Data merge Save and Run")

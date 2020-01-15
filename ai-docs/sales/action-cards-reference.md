@@ -1,5 +1,5 @@
 ---
-title: "insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
+title: "Insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -14,6 +14,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 22
 ---
+
+
+
+<!--from editor: Off-topic question - line 280 refers to Action card, as does the image that follows. Should that text and image be updated to Insight card? -->
+
 
 # Insight cards reference
 
@@ -39,7 +44,7 @@ Base cards relate to the core features of Dynamics 365 Sales such as contacts an
 - Available for both online and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)].  
 - Uses Dynamics 365 Sales data. 
 
-The following are the list of cards that are available under Basic cards: 
+The following cards are available under Basic cards: 
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:hidden;border-width:1px;overflow:hidden;word-break:normal;}
@@ -79,9 +84,9 @@ The following are the list of cards that are available under Basic cards:
 
 > [!IMPORTANT]
 > - These cards only available if you are using Dynamics 365 Sales Insights with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
-> - You will need to [set up server-side-sync](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
+> - You will need to [set up server-side sync](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
-The following list of cards are available under Email cards from Exchange:
+The following cards are available under Email cards from Exchange:
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
@@ -133,7 +138,7 @@ The following list of cards are available under Email cards from Exchange:
 |<a name="OpportunityRiskKTGModel"></a>**Opportunity at Risk KTG Model** <br />![Insight card for Opportunity at Risk KTG Model](media/ActionCard_OpportunityRiskKTGModel.png "Insight card for Opportunity at Risk KTG Model")|- **Description**<br /> Tell you that when an email is received on Exchange inbox concerning an open opportunity contains a phrase which can put the opportunity at risk.<br />- **Actions**<br />Open the opportunity.|
 |<a name="TaskDueDate"></a>**Task due today** <br />![Insight card for task due today](media/ActionCard_TaskDueToday.png "Insight card for task due today")|- **Description**<br />Tells you that a task assigned to you is due today. <br />- **Features**<br /> Shows the time the task is due or scheduled.<br />Shows the name of the task record (click to open the record).<br />Shows the task description (shortened for space if needed).<br />- **Actions**<br />Mark the task complete.<br />Close the task.|
 |<a name="CustomerQuestion"></a>**Customer question** <br />![Insight card for yes/no request](media/ActionCard_YesNoRequest.png "Insight card for yes/no request")|- **Description**<br />An email from a known contact in your inbox appears to be asking a  question.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that a question has arrived.<br />Displays the sentence from the email that appears to be asking a simple question.<br />- **Actions**<br />Open the email.|
-|<a name="MissedEmail"></a>**Missed Email** <br /> <!-- ![Insight card for missed email](media/Actioncard_MissedEmail.png "Insight card for missed email")-->|- **Description**<br />Tells that an important email is unread for configured number of day.<br />The threshold number of days configurable on Settings page.To learn more, see [Assistant](assistant.md). By Default, the number of days for Unread email is 3 days.<br /> <br />- **Actions**<br />Open the email|
+|<a name="MissedEmail"></a>**Missed Email** <br /> <!-- ![Insight card for missed email](media/Actioncard_MissedEmail.png "Insight card for missed email")-->|- **Description**<br />Tells that an important email is unread for configured number of day.<br />The threshold number of days configurable on Settings page. To learn more, see [Assistant](assistant.md). By Default, the number of days for Unread email is 3 days.<br /> <br />- **Actions**<br />Open the email|
 
   
 <a name="RelationshipAnalyticsCards"></a>   
@@ -145,7 +150,7 @@ The following list of cards are available under Email cards from Exchange:
 > - These cards are only available for Dynamics 365 Sales Insights. 
 > - These cards use Dynamics 365 Sales data.
 
-The following list of cards are available under Relationship analytics Cards:
+The following cards are available under Relationship analytics cards:
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
@@ -174,7 +179,7 @@ The following list of cards are available under Relationship analytics Cards:
 > - These cards are only available for Dynamics 365 Sales Insights. 
 > - These cards are only available if email engagement is enabled. To learn more, see [Email engagement](email-engagement.md)
 
-The following list of cards are available under Email engagement Cards: 
+The following cards are available under Email engagement cards: 
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
@@ -205,7 +210,7 @@ The following list of cards are available under Email engagement Cards:
 > - These cards are only displayed on mobile devices.  
 > - These cards are not available for the [Microsoft Cloud Germany datacenter](/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-germany).
  
-The following list of cards are available under Productivity Cards: 
+The following cards are available under Productivity cards: 
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
@@ -243,7 +248,7 @@ The following list of cards are available under Productivity Cards:
 > - These cards are only available for Dynamics 365 Sales Insights. 
 > - These cards use Dynamics 365 Sales data.
 
-The following list of cards are available under "Today" Cards: 
+The following cards are available under "Today" cards: 
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
