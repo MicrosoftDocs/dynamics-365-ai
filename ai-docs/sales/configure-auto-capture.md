@@ -101,11 +101,11 @@ Before you enable premium auto capture, perform the following tasks:
 2.	On the sitemap, select **Auto capture** under **Productivity intelligence**.
 
 3.	On the settings page, under the **Premium auto capture (preview)** section, set the toggle to **Enable preview version**. 
-    
+
     The preview version is enabled.
 
-   > [!div class="mx-imgBorder"]
-   > ![Enable or disable Premium auto capture](media/si-admin-auto-capture-enable-premium.png "Enable or disable Premium auto capture")
+    > [!div class="mx-imgBorder"]
+    > ![Enable or disable Premium auto capture](media/si-admin-auto-capture-enable-premium.png "Enable or disable Premium auto capture")
     
 4.	Select one of the following options: 
 
@@ -113,8 +113,8 @@ Before you enable premium auto capture, perform the following tasks:
 
     -	**Specific security roles**: Select this option to enable this feature for specific security roles and choose the security roles. In the following example, we are adding security roles **Sales Manager**, **Salesperson**, and **Marketing Manager**.
 
-       > [!div class="mx-imgBorder"]
-       > ![Add security roles](media/si-admin-auto-capture-premium-add-security-roles.png "Add security roles")
+        > [!div class="mx-imgBorder"]
+        > ![Add security roles](media/si-admin-auto-capture-premium-add-security-roles.png "Add security roles")
 
 5.	Choose the communication channels to capture customer related activities. You can choose **Email**, **Calendar**, and **Contacts**.
 

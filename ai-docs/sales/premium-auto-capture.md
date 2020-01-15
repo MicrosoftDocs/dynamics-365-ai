@@ -21,9 +21,12 @@ Premium auto capture provides suggestions to create contacts (in addition to cap
 ## Provide consent
 
 When administrator enables premium auto capture, you need to provide consent  to allow Dynamics 365 Sales to access your Outlook data so that auto capture can provide suggestions on activities and contacts. You can provide consent through one of the following:
-•	[Timeline](#through-timeline)
-•	[Relationship assistant section](#through-relationship-assistant-section)
-•	[Personal settings](#through-personal-settings)
+
+-	[Timeline](#through-timeline)
+
+-	[Relationship assistant section](#through-relationship-assistant-section)
+
+-	[Personal settings](#through-personal-settings)
 
 ### Through Timeline
 
