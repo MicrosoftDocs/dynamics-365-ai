@@ -70,8 +70,10 @@
       items: 
       - name: Power BI connector
         href: pm-connectors.md
-      - name: Microsoft connector
+      - name: Power Apps connector
         href: pm-powerapps-connector.md
+      - name: Power Automate Connector
+        href: power-automate-connector.md
     - name: APIs
       href: pm-apis.md
   - name: Data Subject Rights (DSR) requests under GDPR
