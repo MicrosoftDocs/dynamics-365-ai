@@ -20,9 +20,6 @@ topic-status: Drafting
 
 Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account to the users. 
 
->[!NOTE]
-> Relationship analytics is currently available only in the North American (NAM) region.
-
 To configure Relationship analytics, follow these steps:
 
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
