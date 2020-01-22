@@ -4,9 +4,6 @@ description: "Prediction capabilities in Dynamics 365 Customer Insights."
 ms.date: 01/13/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: nimagen

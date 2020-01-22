@@ -4,9 +4,6 @@ description: Work with Common Data Model data in Dynamics 365 Customer Insights 
 ms.date: 11/26/2019
 ms.service: dynamics-365-ai
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
