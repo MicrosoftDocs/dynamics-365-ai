@@ -56,7 +56,9 @@
 
 ###	Productivity intelligence
 #### [View message interactions with email engagement](email-engagement.md)
-#### [Display related emails with auto capture](auto-capture.md)
+#### [Capture customer related activities with auto capture](auto-capture.md)
+##### [Basic auto capture](free-auto-capture.md)
+##### [Premium auto capture](premium-auto-capture.md)
 #### [How notes analysis assists you with suggestion](notes-analysis.md)
 	
 ###	Connection insights
