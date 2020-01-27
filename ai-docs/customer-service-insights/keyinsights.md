@@ -24,8 +24,8 @@ The homepage (preview) of Dynamics 365 Customer Service Insights presents insigh
   
 At the top of the page, you can find workspace information on nubmer of case data imported, number of topics discovered, and percentage of cases that were successfully clusterd to find the topics. 
 * **Workspace:**  name of your environment with your customer service data.
-* **Case collected:** number of total cases imported into this workspace, using the method of all cases created in the last 60 days or up to 1 million cases, whichever's great. See more details around limits [here](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-insights/service-limits).
-* **Topics:** number of topics discovered from percentage of total imported cases that were successfully clustered based on semantic similarity. 
+* **Case collected:** number of total cases imported into this workspace, using the method of all cases created in the last 60 days or up to 1 million cases, whichever's great. See more details around limits [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/service-limits).
+* **Topics:** number of topics discovered from percentage of total imported cases that were successfully clustered based on semantic similarity. If no topics are discovered, it could be caused by multiple reasons such as not enough case data in the workspace, or clustering is still in progress. Find more troubleshooting details [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/topics-page#troubleshooting-empty-topics-page).
 * **Time period selectors:** enable comparison between the selected time period and the previous period to see how KPIs are changing over time as well as across different time ranges. The default selection is "Last 7 days", based on the creation date of cases imported since the last refresh. 
   * Last 24 hours
   * Last 7 days
@@ -34,14 +34,23 @@ At the top of the page, you can find workspace information on nubmer of case dat
 * **Refreshed date:** this timestamp indicates when the workspace was last refreshed, cases created up until the last refresh date are imported to the workspace, which are used to calculate AI and BI insights. 
 
 ## Topics to watch 
+<screenshot>
+Topics ranked high across these 3 key areas are shown in **Topics to watch** to make it easier for customer service managers to discover top issues: 
+* **Volume driver:** Topics with the largest volume of cases created in the selected time period.
+* **Negative CSAT impact:** Topics that have the most negative impact on your total CSAT score. CSAT is data collected from surveys.
+* **Emerging rate:** Get a "heads-up" on topics with high rate of new incoming cases in the selected time period.
 
-To make it easier and quicker to see which topic issues are worth noting, this section surfaces the key topics that w
+<screenshot>
+Clicking on the light bulb icon will display a quick inline explanination on the reason behind showing these topics, as well as recommendations on possible actions to take. 
 
-<top 3 table>
-The first 3
-
+## Topics with longest average resolution time
 <Topcis with longest average resolution time>
-  
+
+Why this matters
+Identifying these topics will help your team focus on issues that are taking a long time to resolve. Agents with the longest and shortest resolution times in those topics are highlighted to suggest potential training opportunities.
+
+Recommendation
+Empower agents performing well in a topic to coach agents who are taking longer than average to resolve similar.
 <Consider automatin these topics>
   
 <Topics impacting CSAT by channel>
