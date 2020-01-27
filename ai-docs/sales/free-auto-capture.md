@@ -21,15 +21,13 @@ The captured activities shown on timeline wall, rely on a set of rules, specific
 > [!div class="mx-imgBorder"]
 > ![ ](media/ " ")
 
-The screenshot shows tracked and auto-captured (not tracked) emails on Timeline, and highlights the following:
+The screenshot shows tracked and auto captured (not tracked) emails on Timeline, and highlights the following:
 
-1.	**Tracked emails**: This email is already being tracked, so it is already imported into Sales and is being shared with your team. A black color envelope symbol is used to Indicate that the mail is tracked, imported into Sales, and shared with your team.
+1.	**Tracked emails**: This email is already being tracked, so it is already imported into Sales and is being shared with your team. A envelope symbol is used to indicate that the mail is tracked, imported into Sales, and shared with your team.
 
 2.	**Auto capture emails**: These emails were detected by auto capture as being relevant to the current record, but they are still private so only you can see them. Compared to tracked messages, these messages show a gray symbol and a dotted border, and include a **Track** link and a private email label.
 
 3.	**Track link**: Select the link to track an activity captured by auto capture, making it visible to everyone with access to the timeline wall of this specific record.
-
-4.	**Private label**: Activities found by auto capture but not yet tracked in Sales include this label to indicate their status.
 
 The activities captured by auto capture finds are only visible to you, so other members of your sales team will not be able to see them in Sales. Select the **Track** link to turn any auto capture message into a tracked email message, save the activity into the Sales database and makes it visible to other members of your team. It may take a few minutes for an activity to go from untracked to tracked, during which time it will show a **Tracking pending** message.
 

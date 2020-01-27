@@ -16,11 +16,12 @@ caps.latest.revision: 01
 
 # Premium auto capture
 
-Premium auto capture provides suggestions to create contacts (in addition to capturing emails and meetings), based on communications by reducing overall time spent on these tasks and enabling sales personnel to focus on generating revenue.
+Premium auto capture provides suggestions to create contacts and activities in addition to capturing emails and meetings, based on communications by reducing overall time spent on these tasks and enabling sales personnel to focus on generating revenue.
+
 
 ## Provide consent
 
-When administrator enables premium auto capture, you need to provide consent  to allow Dynamics 365 Sales to access your Outlook data so that auto capture can provide suggestions on activities and contacts. You can provide consent through one of the following:
+When administrator enables premium auto capture, you need to provide consent to allow Dynamics 365 Sales to access your Outlook data so that auto capture can provide suggestions on activities and contacts. You can provide consent through one of the following options:
 
 -	[Timeline](#through-timeline)
 
@@ -34,17 +35,14 @@ When administrator enables premium auto capture, you need to provide consent  to
 
 2.	From the site map, select an entity. For example, **Opportunities**.
 
-3.	Select a record from the list. For example, Interest shown in AX27.
-
-    > [!div class="mx-imgBorder"]
-    > ![ ](media/ " ")
+3.	Select a record from the list.
 
 4.	On the **Timeline**, select **Allow access** to provide consent.
 
     > [!div class="mx-imgBorder"]
     > ![Provide consent on timeline](media/auto-capture-timeline-provide-consent.png "Provide consent on timeline") 
 
-    After you provide your consent, premium auto capture gathers the relevant suggestions, such as contacts and activities.
+    After you provide your consent, auto capture gathers the relevant suggestions, such as contacts and activities.
 
 ### Through Relationship assistant section
 
@@ -70,8 +68,15 @@ When administrator enables premium auto capture, you need to provide consent  to
 
 3.	From the site map, select **Sales Insights** > **Personal settings** > **Productivity intelligence** > **Auto capture**.
 
-<!-- complete this section -->
+4.	Enable the **Enable preview version** option to provide consent that allows Dynamics 365 to access your Outlook data to get activity and contact suggestions. 
 
+    > [!div class="mx-imgBorder"]
+    > ![Provide consent through personal settings](media/auto-capture-premium-consent-personal-settings.png "Provide consent through personal settings") 
+
+    > [!NOTE]
+    > Disable the **Enable preview version** option if you don't want Dynamics 365 to access your Outlook data to get activity and contact suggestions. 
+
+     After you provide your consent, the auto capture gathers the relevant suggestions, such as contacts and activities.
 
 
 ## Manage activity suggestions on Timeline
@@ -83,7 +88,7 @@ When you open a record of an entity, the **Timeline** displays the activity sugg
 
 By default, a single suggestion is displayed. Select **Show more** and the suggestions are expanded to display up to three suggestions. 
 
-If you have more than three suggestions, the **Show all** option is displayed. Select **Show all** to view all the available suggestions.
+If you've more than three suggestions, the **Show all** option is displayed. Select **Show all** to view the list available suggestions.
 
 > [!div class="mx-imgBorder"]
 > ![Auto capture all activity suggestions](media/auto-capture-premium-all-activity-suggestions.png "Auto capture all activity suggestions")
@@ -93,18 +98,18 @@ If you have more than three suggestions, the **Show all** option is displayed. S
     > [!div class="mx-imgBorder"]
     > ![Save activity suggestion on timeline](media/auto-capture-premium-save-activity-suggestion-timeline.png "Save activity suggestion on timeline") 
 
--	**Edit**: Select this option to add a suggestion as an activity for another record. When you edit and save the suggestion, it will be available as activity on the **Timeline** wall of the added record and is visible for users who access that record. For example, you opened an opportunity **Interest shown in AX27**. On the **Timeline**, you observe that **Gern Blanston sent an email** suggestion is more appropriate for **Computer Appliances** opportunity than the suggested opportunity. Select the edit option and use the **Regarding** lookup entity to choose **Computer Appliances**. 
+-	**Edit**: Select this option to add a suggestion as an activity for another record. When you edit and save the suggestion, it's available as activity on the **Timeline** wall of the added record and is visible for users who has access to the record. For example, you opened an email from **Gern Blanston**. On the **Timeline**, you observe that **Gern Blanston sent an email** suggestion is more appropriate for **Jim Glynn** than the suggested email. Select the edit option and use the **Regarding** lookup entity to choose **Jim Glynn**. 
  
     > [!div class="mx-imgBorder"]
     > ![Edit activity suggestion on timeline](media/auto-capture-premium-edit-activity-suggestion-timeline.png "Edit activity suggestion on timeline") 
 
-    Save the change and a confirmation message displays specifying that the activity is added to the **Computer Appliances** opportunity.
+    Save the change and a confirmation message displays specifying that the activity is added to the **Jim Glynn** email.
 
--	**Dismiss**: Select this option if you do not want a suggestion to be added as an activity on the **Timeline** wall. For example, you opened an opportunity **Interest shown in AX27**. On the **Timeline**, you observe that **Gern Blanston sent an email** suggestion is not appropriate for regarding field that it is associated with and you want to ignore. Select the dismiss option and a confirmation message is displays. Select **OK** and the suggestion is ignored from the list. 
+-	**Dismiss**: Select this option if you don't want to add a suggestion as activity on the **Timeline** wall. For example, you opened an opportunity **Interest shown in AX27**. On the **Timeline**, you observe that **Gern Blanston sent an email** suggestion is not appropriate for regarding fields that it is associated with and you want to ignore. Select the dismiss option and a confirmation message is displays. Select **OK** and the suggestion is ignored from the list. 
 
 ## Manage activity suggestions through grid
 
-The activity suggestions grid provides a single view for all the captured activities based on your communications. This ensures that the information is not lost on **Timeline** and helps you keep track of activity suggestions at one location (**Activity suggestion** grid). The activity list consists of emails and meetings that are fetched and captured from your Outlook data by premium auto capture. 
+The activity suggestions grid provides a single view for all the captured activities based on your communications. This ensures the information isn't lost on **Timeline** and helps you track activity suggestions at one location (**Activity suggestion** grid). The activity list consists of emails and meetings that are fetched and captured from your Outlook data by premium auto capture. 
 
 > [!div class="mx-imgBorder"]
 > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
@@ -119,7 +124,7 @@ The Activity suggestions grid consists of the following columns:
 
 -	**Regarding**: This column specifies the record for which the activity can be added.
 
-Also, **Relationship assistant** displays a card to alert you when new activity suggestions are available. Select **Open activity suggestions** to open the **Activity suggestions** grid and perform appropriate actions on the suggestions.
+Also, **Relationship assistant** displays a card to alert you when new activity suggestions are available. Select **Open activity suggestions** to open the **Activity suggestions** grid and take appropriate actions on the suggestions.
 
 > [!div class="mx-imgBorder"]
 > ![Activity suggestion in relationship assistant](media/auto-capture-premium-activity-suggestion-relationship-assistant.png "Activity suggestion in relationship assistant")
@@ -136,14 +141,14 @@ To save an activity to be visible on the **Timeline** wall for a record for othe
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **Auto capture (preview)** > **Activity suggestions**.
+2.	From the site map, select **AutoCapture Preview** > **Activity suggestions**.
 
     A list of available activities displays.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
 
-3.	Select an activity. In this example, we are selecting an email from **Phyllis Reid** that is related to **Printers and Paper clips**.
+3.	Select an activity. In this example, we're selecting an email from **Phyllis Reid** that is related to **Printers and Paper clips**.
 
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
@@ -159,25 +164,25 @@ To save an activity to be visible on the **Timeline** wall for a record for othe
 
 ### Edit activity
 
-After reviewing the activity suggestion, you identify that the activity suggestion does not belong to the assigned **Regarding** entity. You can change regarding entity by selecting the appropriate entity for which the activity belongs. Follow these steps:
+After reviewing the activity suggestion, you identify that the activity suggestion doesn't belong to the assigned **Regarding** entity. You can change regarding entity by selecting the appropriate entity for which the activity belongs. Follow these steps:
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **Auto capture (preview)** > **Activity suggestions**.
+2.	From the site map, select ***AutoCapture Preview** > **Activity suggestions**.
 
     A list of available activities displays.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
  
-3.	Select an activity suggestion. In this example, we are selecting an email from **Phyllis Reid** that is related to **Printers and Paper clips**.
+3.	Select an activity suggestion. In this example, we're selecting an email from **Phyllis Reid** that is related to **Printers and Paper clips**.
 
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
 
 4.	Select **Edit and save**. A dialog opens to select the new regarding entity.
 
-5.	Use the **Regarding** lookup entity to select a regarding entity for the activity suggestion. In this example, we are selecting **Computer Appliances** regarding.
+5.	Use the **Regarding** lookup entity to select a regarding entity for the activity suggestion. In this example, we're selecting **Jim Glynn** regarding.
 
     > [!div class="mx-imgBorder"]
     > ![Edit activity suggestion on timeline](media/auto-capture-premium-edit-activity-suggestion-timeline.png "Edit activity suggestion on timeline") 
@@ -188,18 +193,18 @@ After reviewing the activity suggestion, you identify that the activity suggesti
 
 ### Delete activity
 
-Delete activity suggestions if you do not want them to add as activities on Timeline. Follow these steps:
+Delete activity suggestions if you don't want them to add as activities on Timeline. Follow these steps:
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **Auto capture (preview)** > **Activity suggestions**.
+2.	From the site map, select ***AutoCapture Preview** > **Activity suggestions**.
 
     A list of available activities displays.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
  
-3.	Select an activity suggestion. In this example, we are selecting an email from **Phyllis Reid** that is related to **Printers and Paper clips**.
+3.	Select an activity suggestion. In this example, we're selecting an email from **Phyllis Reid** that is related to **Printers and Paper clips**.
 
     > [!NOTE]
     > You can select multiple activity suggestions to delete.
@@ -231,7 +236,7 @@ The Contact suggestions grid consists of the following columns:
 
 -	**Email**: This column specifies the email address of the contact suggestion.
 
-Also, **Relationship assistant** displays a card to alert you when a contact suggestion is available. Select **Open contact suggestions** to open the **Contact suggestions grid** and perform appropriate actions on the suggestions.
+Also, **Relationship assistant** displays a card to alert you when a contact suggestion is available. Select **Open contact suggestions** to open the **Contact suggestions grid** and take appropriate actions on the suggestions.
 
 > [!div class="mx-imgBorder"]
 > ![Contact suggestion in relationship assistant](media/auto-capture-premium-contact-suggestion-relationship-assistant.png "Contact suggestion in relationship assistant")
@@ -248,14 +253,14 @@ To save a contact, follow these steps:
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **Auto capture (preview)** > **Contact suggestions**.
+2.	From the site map, select ***AutoCapture Preview** > **Contact suggestions**.
 
     A list of available contact suggestions is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestion grid view")
 
-3.	Select a contact. In this example, we are selecting **Joel Mccoy**.
+3.	Select a contact. In this example, we're selecting **Joel Mccoy**.
 
     > [!div class="mx-imgBorder"]
     > ![Select a contact](media/auto-capture-premium-select-contact-suggestion.png "Select a contact")
@@ -275,41 +280,41 @@ After reviewing the contact suggestion, you identify that some information of th
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **Auto capture (preview)** > **Contact suggestions**.
+2.	From the site map, select **AutoCapture Preview** > **Contact suggestions**.
 
     A list of available contact suggestions is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestion grid view")
 
-3.	Select a contact. In this example, we are selecting **Joel Mccoy**.
+3.	Select a contact. In this example, we're selecting **Joel Mccoy**.
 
     > [!div class="mx-imgBorder"]
     > ![Select a contact](media/auto-capture-premium-select-contact-suggestion.png "Select a contact")
 
-4.	Select **Edit and save**. A dialog opens to edit the contact information.
+4.	Select **Edit and save**. A **Quick Create: Contact** form opens to edit the contact information.
 
     > [!div class="mx-imgBorder"]
-    > ![ ](media/  " ")
+    > ![Edit a contact information](media/auto-capture-premium-edit-contact-quick-create-form.png  "Edit a contact information")
 
-5.	Edit the contact information as required and select **Save**. 
+5.	Edit the contact information as required and select **Save and Close**. 
 
     The contact is created and saved in your Dynamics 365 organization, and a confirmation message is displayed at the bottom of the screen.
 
 ### Delete contact
 
-Delete contact suggestions if you do not want them to add to your contact list. Follow these steps:
+Delete contact suggestions if you don't want them to add to your contact list. Follow these steps:
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **Auto capture (preview)** > **Contact suggestions**.
+2.	From the site map, select ***AutoCapture Preview** > **Contact suggestions**.
 
     A list of available contact suggestions is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestion grid view")
 
-3.	Select a contact. In this example, we are selecting **Joel Mccoy**.
+3.	Select a contact. In this example, we're selecting **Joel Mccoy**.
 
     > [!NOTE]
     > You can select multiple contact suggestions to delete.
