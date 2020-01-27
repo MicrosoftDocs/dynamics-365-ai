@@ -18,10 +18,7 @@ caps.latest.revision: 01
 
 The captured activities shown on timeline wall, rely on a set of rules, specific to the record type. For example, if you are looking at an opportunity in Sales, then timeline shows, in addition to all the activities you have logged, suggestions for up to 50 recent emails and meetings from your Microsoft Exchange account that were sent to or from the primary contact for the opportunity or its stakeholders.
 
-> [!div class="mx-imgBorder"]
-> ![ ](media/ " ")
-
-The screenshot shows tracked and auto captured (not tracked) emails on Timeline, and highlights the following:
+You can identify the tracked and auto captured (not tracked) emails on Timeline:
 
 1.	**Tracked emails**: This email is already being tracked, so it is already imported into Sales and is being shared with your team. A envelope symbol is used to indicate that the mail is tracked, imported into Sales, and shared with your team.
 
