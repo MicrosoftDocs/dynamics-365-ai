@@ -35,10 +35,11 @@ At the top of the page, you can find workspace information on nubmer of case dat
 
 ## Topics to watch 
 <screenshot>
-Topics ranked high across these 3 key areas are shown in **Topics to watch** to make it easier for customer service managers to discover top issues: 
-* **Volume driver:** Topics with the largest volume of cases created in the selected time period.
-* **Negative CSAT impact:** Topics that have the most negative impact on your total CSAT score. CSAT is data collected from surveys.
-* **Emerging rate:** Get a "heads-up" on topics with high rate of new incoming cases in the selected time period.
+Topics ranked high across these 3 key areas are shown in **Topics to watch** to make it easier for customer service managers to discover top issues:
+  
+  * **Volume driver:** Topics with the largest volume of cases created in the selected time period.
+  * **Negative CSAT impact:** Topics that have the most negative impact on your total CSAT score. CSAT is data collected from surveys.
+  * **Emerging rate:** Get a "heads-up" on topics with high rate of new incoming cases in the selected time period.
 
 <screenshot>
 Clicking on the light bulb icon will display a quick inline explanination on the reason behind showing these topics, as well as recommendations on possible actions to take. 
