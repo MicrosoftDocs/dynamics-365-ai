@@ -44,25 +44,28 @@ Topics ranked high across these 3 key areas are shown in **Topics to watch** to 
 <screenshot>
 Clicking on the light bulb icon will display a quick inline explanination on the reason behind showing these topics, as well as recommendations on possible actions to take. 
 
-## Topics with longest average resolution time
+### Topics with longest average resolution time
 <Topcis with longest average resolution time>
 
-Why this matters
-Identifying these topics will help your team focus on issues that are taking a long time to resolve. Agents with the longest and shortest resolution times in those topics are highlighted to suggest potential training opportunities.
+Focusing on average resolution time (time difference between when the case is created to resolved), these topic issues are based on similar cases taking a long time to resolve. Shortest and longest resolution times are also shown to compare with the average resolution time for understanding the whole picture. 
 
-Recommendation
-Empower agents performing well in a topic to coach agents who are taking longer than average to resolve similar.
+<screenshot of icons>
+
+The light bulb icon is here to provide an explaination inline, the link icon will take you directly to the **Resolutions dashboard** for more topics and metrics around resolution time.
+
+### Consider automating these topis
+
 <Consider automatin these topics>
-  
+
+Chatbot is a great solution to automate incoming cases that are easy to resolve and high in volume, the topics suggested here are based on these factors, meant to be used with your chatbot solution. If you are using Power Virtual Agents, the topic automation process is easily integration, learn how to automate a topic from CSI to PVA [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics).
+
+### Topics impacting CSAT by channel
+
 <Topics impacting CSAT by channel>
-  
+
+Customer satisfaction score is crucial for using data to determine how satisfied your customers are. Given there are various channels where the topics can come in, the channel with the lowest CSAT score is shown here, along with top topic issues affecting the low CSAT score the most. 
+
+### Peak time with high case volume
 <Peak time with high case volume>
-### 
-Iof the concept of "cards" that highlights key topics to watch across various analytics dimensions. It
 
-## Compare time range
-
-<insert workspace info screenshot>
-  
-<insert time period selector screenshot>
-  
+Here you can find when's the peak time (in UTC time zone) of new incoming cases, the topic issues the occur during this time period is shown here to ensure the staffing schedule is aligned to the peak hour and issues faced. 
