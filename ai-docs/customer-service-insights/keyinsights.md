@@ -20,9 +20,10 @@ search.appverid: met150
 
 The homepage (preview) of Dynamics 365 Customer Service Insights presents insights from your customer service data in a visually rich way, making it easier to discover topic issues to focus on and why they are suggested. 
 
-<insert header screenshot>
-  
 At the top of the page, you can find workspace information on nubmer of case data imported, number of topics discovered, and percentage of cases that were successfully clusterd to find the topics. 
+
+![homepage header](media/home_header.png)
+
 * **Workspace:**  name of your environment with your customer service data.
 * **Case collected:** number of total cases imported into this workspace, using the method of all cases created in the last 60 days or up to 1 million cases, whichever's great. See more details around limits [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/service-limits).
 * **Topics:** number of topics discovered from percentage of total imported cases that were successfully clustered based on semantic similarity. If no topics are discovered, it could be caused by multiple reasons such as not enough case data in the workspace, or clustering is still in progress. Find more troubleshooting details [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/topics-page#troubleshooting-empty-topics-page).
@@ -34,38 +35,45 @@ At the top of the page, you can find workspace information on nubmer of case dat
 * **Refreshed date:** this timestamp indicates when the workspace was last refreshed, cases created up until the last refresh date are imported to the workspace, which are used to calculate AI and BI insights. 
 
 ## Topics to watch 
-<screenshot>
+
+![topics to watch](media/home_topicstowatch.png)
+
 Topics ranked high across these 3 key areas are shown in **Topics to watch** to make it easier for customer service managers to discover top issues:
   
   * **Volume driver:** Topics with the largest volume of cases created in the selected time period.
   * **Negative CSAT impact:** Topics that have the most negative impact on your total CSAT score. CSAT is data collected from surveys.
   * **Emerging rate:** Get a "heads-up" on topics with high rate of new incoming cases in the selected time period.
 
-<screenshot>
 Clicking on the light bulb icon will display a quick inline explanination on the reason behind showing these topics, as well as recommendations on possible actions to take. 
 
+![topics to watch insights](media/home_topicstowatch_insights.png)
+
+
 ### Topics with longest average resolution time
-<Topcis with longest average resolution time>
+
+![topics with longest average resolution time](media/home_avgrestime.png)
 
 Focusing on average resolution time (time difference between when the case is created to resolved), these topic issues are based on similar cases taking a long time to resolve. Shortest and longest resolution times are also shown to compare with the average resolution time for understanding the whole picture. 
 
-<screenshot of icons>
+![card insights and link to relevant dashboard](media/home_resolution_icons.png)
 
 The light bulb icon is here to provide an explaination inline, the link icon will take you directly to the **Resolutions dashboard** for more topics and metrics around resolution time.
 
 ### Consider automating these topis
 
-<Consider automatin these topics>
+![topics that are automation candidates for chatbots](media/home_automationcandidates.png)
 
 Chatbot is a great solution to automate incoming cases that are easy to resolve and high in volume, the topics suggested here are based on these factors, meant to be used with your chatbot solution. If you are using Power Virtual Agents, the topic automation process is easily integration, learn how to automate a topic from CSI to PVA [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics).
 
 ### Topics impacting CSAT by channel
 
-<Topics impacting CSAT by channel>
+![topics that impacts CSAT by channel](media/home_csatchannel.png)
 
 Customer satisfaction score is crucial for using data to determine how satisfied your customers are. Given there are various channels where the topics can come in, the channel with the lowest CSAT score is shown here, along with top topic issues affecting the low CSAT score the most. 
 
 ### Peak time with high case volume
-<Peak time with high case volume>
+![peak time with high case volume and relevanat topics](media/home_peaktime.png)
 
 Here you can find when's the peak time (in UTC time zone) of new incoming cases, the topic issues the occur during this time period is shown here to ensure the staffing schedule is aligned to the peak hour and issues faced. 
+
+
