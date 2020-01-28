@@ -20,7 +20,11 @@ search.appverid: met150
 
 The homepage (preview) of Dynamics 365 Customer Service Insights presents insights from your customer service data in a visually rich way, making it easier to discover topic issues to focus on and why they are suggested. 
 
-At the top of the page, you can find workspace information on nubmer of case data imported, number of topics discovered, and percentage of cases that were successfully clusterd to find the topics. 
+This is a new landing page experience when you open Customer Service Insights, it's also accessible in the left navigation as a new option in addition to the existing 4 dashboards and Topics list page. 
+
+![homepage](media/home.png)
+
+At the top of the homepage, you can find workspace information on nubmer of case data imported, number of topics discovered, and percentage of cases that were successfully clusterd to find the topics. 
 
 ![homepage header](media/home_header.png)
 
