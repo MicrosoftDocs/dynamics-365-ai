@@ -95,7 +95,7 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 ## Draft mode for segments
 
-If not all requirements to process a segment are met, you can safe the segment as a draft and access it from the **Segments** page.
+If not all requirements to process a segment are met, you can save the segment as a draft and access it from the **Segments** page.
 
 - For a Dynamic segment, it will be saved as a draft.
 
