@@ -14,46 +14,46 @@
   items:
     - name: Data sources
       href: pm-data-sources.md
-    - name: Common connectors guidance
+    - name: Common connectors
       href: pm-common-connectors.md
-    - name: Connect to a Common Data Model folder
+    - name: Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
-    - name: Entities
+    - name: Entities and datasets
       href: pm-entities.md
 
 - name: Data unification
   items: 
-    - name: Unify
+    - name: Unification overview
       href: pm-configure-data.md
-    - name: Map
+    - name: Entities and attributes
       href: pm-map.md
-    - name: Match
+    - name: Entity matching
       href: pm-match.md
-    - name: Merge
+    - name: Avoid conflicting data
       href: pm-merge.md
-    - name: Customers
+    - name: Unified customer profile page
       href: pm-profiles.md
-    - name: Search & filter index
+    - name: Filtered customer profiles
       href: pm-manage-search.md
 
 - name: Data enrichment
   items: 
-  - name: Custom models
+  - name: Custom machine learning models
     href: custom-models.md
-  - name: Enrichment
+  - name: Affinities and demographics
     href: pm-enrichment.md
-  - name: Activities
+  - name: Customer activities
     href: pm-activities.md
-  - name: Relationships
+  - name: Relationships and connected entities
     href: pm-relationships.md
 
 - name: Data analysis
   items: 
-  - name: Segments
+  - name: Segments and customer groups
     href: pm-segments.md
-  - name: Measures
+  - name: Measures and KPIs
     href: pm-measures.md
-  - name: Predictions
+  - name: Value predictions
     href: predictions.md
 
 - name: Export options
@@ -68,7 +68,7 @@
       href: pm-connectors.md
     - name: Power Apps connector
       href: pm-powerapps-connector.md
-    - name: Power Automate Connector
+    - name: Power Automate connector
       href: power-automate-connector.md
 
 - name: Extensibility
@@ -80,13 +80,13 @@
 
 - name: Administration
   items: 
-    - name: System
+    - name: System configuration
       href: pm-settings.md
-    - name: Permissions
+    - name: User permissions
       href: pm-permissions.md
-    - name: Create and manage environments
+    - name: Managing environments
       href: create-manage-environment.md
-    - name: Admin 
+    - name: Admin settings 
       href: pm-admin.md
     
 - name: Data Subject Rights (DSR) requests under GDPR
