@@ -5,9 +5,6 @@ ms.date: 01/08/2020
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
