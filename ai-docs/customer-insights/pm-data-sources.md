@@ -4,9 +4,6 @@ description: "Bring data from various sources into Dynamics 365 Customer Insight
 ms.date: 01/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 
 author: m-hartmann
 ms.author: mhart

@@ -4,10 +4,6 @@ description: "Learn about the merge phase in the data unification process of Dyn
 ms.date: 01/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: adkuppa

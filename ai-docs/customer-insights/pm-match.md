@@ -1,13 +1,9 @@
 ---
 title: "Match | Microsoft Docs"
 description: "Complete the matching phase to get a unified customer profile in Dynamics 365 Customer Insights."
-ms.date: 01/10/2020
+ms.date: 01/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: adkuppa
@@ -16,7 +12,7 @@ manager: shellyha
 
 # Match
 
-After completing the map phase, you're ready to match your entities. The match phase lets you specify how to combine your datasets into a unified customer profile dataset, which will be used to gain unique insights about your customers. The match phase requires at least [two mapped entities](pm-map.md).
+After completing the map phase, you're ready to match your entities. The match phase specifies how to combine your datasets into a unified customer profile dataset. The match phase requires at least [two mapped entities](pm-map.md).
 
 ## Specify the match order
 
@@ -29,7 +25,7 @@ Each match involves two entities that are unified into a single entity, while pe
 > [!div class="mx-imgBorder"]
 > ![Edit the data match order](media/configure-data-match-order-edit-page.png "Edit the data match order")
   
-First, the **Primary** entity is matched with **Entity 2**. Then, the dataset that results from the first match is matched with **Entity 3**.
+The **Primary** entity is matched with **Entity 2**. The dataset that results from the first match is matched with **Entity 3**.
 In this example, we only selected two matches. However, the system supports more matches.
 
 > [!IMPORTANT]
@@ -44,7 +40,7 @@ Select **Done** to save your match order.
 
 ## Define rules for your first match pair
 
-After specifying the match order, you'll get back to the **Match** page which now lists the defined matches. The tiles at the top of the screen will be empty until you run your match order the next step.
+After specifying the match order, you'll get back to the **Match** page, which now lists the defined matches. The tiles at the top of the screen will be empty until you run your match order the next step.
 
 > [!div class="mx-imgBorder"]
 > ![Define rules](media/configure-data-match-need-rules.png "Define rules")
@@ -76,14 +72,14 @@ The **Needs Rules** warning suggests that no match rule is defined for a match p
    > ![Normalization-B2B](media/match-normalization-b2b.png "Normalization-B2B")
 
    Precision level - The level of precision that will be used for this condition. Setting a precision level for a match condition can have two types: **Basic** and **Custom**.  
-   - Basic: Provides you with four options to select from: Low, Medium, High, and Exact. Select **Exact** to only match records that that match 100 percent. Select one of the other levels to match records that are not 100 percent identical.
+   - Basic: Provides you with four options to select from: Low, Medium, High, and Exact. Select **Exact** to only match records that that match 100 percent. Select one of the other levels to match records that aren't 100 percent identical.
    - Custom: Use the slider to define the custom percentage that records need to match or enter a value in the **Custom** field. The system will only match records passing this threshold as conflated match pairs. Values on the slider are between 0 and 1. So 0.64 represents 64 percent.
 
 3. Select **Done** to save the rule.
 
 ### Add multiple conditions
 
-If you want to match your entities only if multiple conditions are met, you can do so by adding more conditions that are linked through an AND operator.
+To match your entities only if multiple conditions are met, you can do so by adding more conditions that are linked through an AND operator.
 
 1. In the **Edit rule** pane, select **Add condition**. You can also delete conditions by selecting the remove button next to an existing condition.
 
@@ -93,9 +89,9 @@ If you want to match your entities only if multiple conditions are met, you can 
 
 If each condition applies to a single pair of attributes, then rules represent sets of one or more conditions. To have your entities matched on the basis of different sets of attributes, you can add more rules.
 
-1. In Customer Insights, go the the **Match** page.
+1. In Customer Insights, go to the **Match** page.
 
-2. Select the entity your want to update and select **Add rules**.
+2. Select the entity you want to update and select **Add rules**.
 
 3. Follow the procedure as outlined in [Define rules for your first match pair](#define-rules-for-your-first-match-pair).
 
@@ -104,9 +100,9 @@ If each condition applies to a single pair of attributes, then rules represent s
 
 ## Run your match order
 
-After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You can find the unified customer profile entity which was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs: Customer 360**.
+After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You can find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
 
-If you want to make additional changes and re-run the step, you can cancel a match process while it's in progress. Select **Stop** on the notification bar while the matching of records is in progress to stop the current run.
+If you want to make additional changes and rerun the step, you can cancel a match process while it's in progress. Select **Stop** on the notification bar while the matching of records is in progress to stop the current run.
 
 When the match process is complete, the **Matching records** message disappears and you can use all functionality of the page again.
 
@@ -125,8 +121,8 @@ Evaluate the quality of your match pairs and refine it:
 
 - On the **Match** page, you'll find two tiles showing initial insights about your data.
 
-  - **Unique customers** shows the number of unique profiles that the system identified.
-  - **Matched records** shows the number of matches across all of your match pairs.
+  - **Unique customers**: shows the number of unique profiles that the system identified.
+  - **Matched records**: shows the number of matches across all of your match pairs.
 
 - In the **Match order** table, you can assess the results of each match pair by comparing the number of records that came from this match-pair entity side by side with the percentage of successfully matched records.
 
@@ -144,7 +140,7 @@ Evaluate the quality of your match pairs and refine it:
 
 ## Optimize your matches
 
-After following the guidance in the previous section you should have a better understanding of the quality of you match runs. Increase the quality by reconfiguring some of your match parameters:
+Increase the quality by reconfiguring some of your match parameters:
 
 - **Change the match order** by selecting **Edit** and change the match order fields.
 
@@ -167,7 +163,7 @@ After following the guidance in the previous section you should have a better un
   - Change the threshold for a condition: Adjust the precision slider.
   - Change the normalization method for a condition: Update the normalization method.
 
-## Specify your custom match records regardless of the rules
+## Specify your custom match records
 
 To specify the conditions that certain records always match and/or certain records never match based, you can upload those rules in bulk to the match process.
 
@@ -176,12 +172,12 @@ To specify the conditions that certain records always match and/or certain recor
    > [!div class="mx-imgBorder"]
    > ![Create a custom match](media/custom-match-create.png "Create a custom match")
 
-2. If you have no uploaded entities, you will see a new **Custom match** dialog box which requires you to fill in some details. If you've done this before, proceed to step 8.
+2. If you have no uploaded entities, you will see a new **Custom match** dialog box that requires you to fill in some details. If you've provided the detail earlier, proceed to step 8.
 
    > [!div class="mx-imgBorder"]
    > ![New custom match dialog box](media/custom-match-new-dialog-box.png "New custom match dialog box")
 
-3. Select **Fill in the template**. This downloads a template file that can be used to specify which records from which entities should always match and/or never match. You'll need to separately fill in the always match records and never match records in two different files.
+3. Select **Fill in the template** to get a template file that can be used to specify which records from which entities should always match and/or never match. You'll need to separately fill in the always match records and never match records in two different files.
 
 4. The template contains fields to specify the entity and the entity primary key values to be used in the custom match, for example, if you want primary key 12345 from Sales entity to always match with primary key 34567 from Contact entity, you need to specify as follows:
     - Entity1: Sales
@@ -195,7 +191,7 @@ To specify the conditions that certain records always match and/or certain recor
 
 6. In Customer Insights, go to **Data sources** and ingest the template files as new entities. Once ingested, you can use them to specify the Match configuration.
 
-7. After uploading the files and entities are available, select the **Custom match** option again and you'll see options to specify the entities you want to include. Select the required entities from the drop down menu. Selecting an entity is not compulsory if you choose to skip either always match and/or never match.
+7. After uploading the files and entities are available, select the **Custom match** option again and you'll see options to specify the entities you want to include. Select the required entities from the drop-down menu.
 
    > [!div class="mx-imgBorder"]
    > ![Custom match overrides](media/custom-match-overrides.png "Custom match overrides")
@@ -206,8 +202,8 @@ To specify the conditions that certain records always match and/or certain recor
 
 10. Select **Run** on the **Match** page to start the matching process and the custom match configuration will be taken in to effect, and any system matched rules are overridden by the configuration set.
 
-11. Once the matching is complete, you can verify the **ConflationMatchPair** entity to confirm that the overrides are actually applied in the conflation matches.
+11. Once the matching is complete, you can verify the **ConflationMatchPair** entity to confirm that the overrides are applied in the conflation matches.
 
 ## Next Step
 
-Once you've completed the match process for at least one match pair, you are ready to resolve possible contradictions in your data by going through the [**Merge**](pm-merge.md) topic.
+After completing the match process for at least one match pair, you're ready to resolve possible contradictions in your data by going through the [**Merge**](pm-merge.md) topic.
