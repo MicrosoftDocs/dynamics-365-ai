@@ -1,8 +1,8 @@
 ---
-title: "Export data from Customer Service Insights"
-description: "Export data from Customer Service Insights"
+title: "Export data from Dynamics 365 Customer Service Insights"
+description: "Export data from Dynamics Customer Service Insights"
 keywords: ""
-ms.date: 1/14/2020
+ms.date: 1/31/2020
 ms.service:
   - dynamics-365-ai
 ms.topic: article
@@ -16,29 +16,28 @@ search.audienceType: enduser
 search.appverid: met150
 ---
 
-# Export data from Customer Service Insights
+# Export data from Dynamics 365 Customer Service Insights
 
-Customer Service Insights now offers a way for you to get AI and BI insights outside of the out-of-box dashboards automatically created in the workspace. 
+[!INCLUDE[cc-beta-prelease-disclaimer.md](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To access the option to export your Customer Service Insights data:
-1. Go to **Settings**
+Dynamics 365 Customer Service Insights enables you to export your data to a web API endpoint where you can then query it for additional insights that go beyond the dashboards that come with the application. 
+
+1. Go to **Settings**.
 
     ![Settings - export data](media/exportdata_settings.png)
 
-2. Click on **Export data**, it will open up the Export data window where you can choose the method of export.
+2. Select **Export data**. You see the Export data window where you choose the export method.
 
     ![Export data using web api](media/exportdata_webapi.png)
 
-3. Click on **Generate url** to create a new Web API endpoint to get the exported data, use the copy icon on the right to easily get the full url. 
-4. **Delete url** will disable the previously generated url from being accessible. You can always generate a new url after deletion. 
+3. Select **Generate URL** to create a new web API endpoint for the exported data. Note that you can use the copy button to copy the URL to the clipboard. 
 
-Currently the ability to export data via Web API is in preview. 
+4. **Delete URL** disables any previously generated URL. Note that you can generate a new URL after deletion. 
 
-Soon, the ability to export via connectors from Power BI, Power Apps, and Power Automate will be supported.
 
-## Data fields exported
+## Exported data fields 
 
-The Web API endpoint will export all the data fields listed below, given they are available in your workspace. It's possible that some workspaces won't have all the fields listed below if they aren't applicable or configured correctly in data mapping. Lear more about custom data entity/field mapping [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data).
+The web API endpoint includes the data fields listed here if they are available in your workspace. It's possible that some workspaces won't have all the fields listed if they aren't applicable or are mapped incorrectly. More information: [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data)
 
 **Case data**
  - Case title
@@ -47,7 +46,7 @@ The Web API endpoint will export all the data fields listed below, given they ar
  - Resolved date
  - Escalated on date
  - Is escalated
- - Business Unit
+ - Business unit
  - Priority
  - State
  - Assigned agent name
@@ -61,17 +60,17 @@ The Web API endpoint will export all the data fields listed below, given they ar
 **Generated data**
 - Topic
 - Is topic popular
-- Topic id
+- Topic ID
 - Relevance score
 
-The full list of entities and fields used by Customer SErvice Insights is documented [here](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities).
+More information: [Dynamics 365 Customer Service entities used by Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities).
 
 
 ## Considerations
-* Before sharing the exported data with others, be sure you have the right permissions to share the data and the sharee can access the data. 
-* The exported data are refreshed with the typical workspace refresh schedule on a daily basis. Workspace refresh will be temporarily paused due to inactivity after 30 days, which will also lead to the exported data being stale. 
-* If you suspect the url may be leaked, simply delete the url and generate it again, which will disable the old url to prevent it from being used. 
-* Rate limits for accessing the API for every IP address: 
+* Before sharing the exported data with others, verify that you and the people you're sharing with have the correct permissions. 
+* The exported data is refreshed daily, following the typical workspace refresh schedule. When workspace refresh is temporarily paused due to inactivity after 30 days, exported data is also not refreshed. 
+* If you suspect the URL has been inappropriately shared, delete the URL and generate a new one. This action disables the old URL and prevents it from being used. 
+* Rate limits for accessing the API for every IP address are: 
   * 5 times per minute
   * 20 times per hour
   * 100 times per day
