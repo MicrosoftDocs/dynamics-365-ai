@@ -56,6 +56,11 @@ The system auto-selected all the attributes for which an attribute type was auto
 
 4. Finish by selecting **Save**.
 
+> [!NOTE]
+> There needs to be field which is mapped to the attribute of type Person.FullName.
+> This field is used to populate the Customer Name in the Customers Tab. If no field is set with
+> attribute of Person.FullName , the Customer cards will appear nameless. 
+
 ## Add and remove entities
 
 1. On **Unify** > **Map**, select the **Select** control to add or remove entities.
