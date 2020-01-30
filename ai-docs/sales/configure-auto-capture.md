@@ -24,13 +24,13 @@ topic-status: Drafting
 When you enable auto capture, you help salespeople in your organization by suggesting relevant customer activities in Microsoft Dynamics 365 Sales by capturing emails and meetings from Outlook.
 
 Auto capture is available in two forms:
-<!--note from editor: Edit to the first line below is suggested, just to help later when we're contrasting the two versions. I didn't call it "basic auto capture" everywhere, but I did change some references later in this topic to clarify which version we're talking about. (Lines 39, 45, 53, and 65.)-->
+
 -	**Auto capture** (also called _basic auto capture_): This feature is available for free with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable auto capture](#how-to-enable-basic-auto-capture).
 
--	**Premium auto capture**: Premium auto capture is available as a preview <!--note from editor: This is still a preview feature? We need to add a public preview disclaimer in that case, yes?-->with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable and configure premium auto capture](#how-to-enable-and-configure-premium-auto-capture).
+-	**Premium auto capture**: Premium auto capture is available as a preview with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable and configure premium auto capture](#how-to-enable-and-configure-premium-auto-capture).
 
 > [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Sales Insights are subject to the Microsoft Privacy Statement.<!--note from editor: Is this what you mean by "our privacy statement"? If so, should we link to it? https://privacy.microsoft.com/en-us/privacystatement If not, should we link to the relevant privacy statement? Should I ask Renee, or do you know what's the right thing to do here?-->
+> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Sales Insights are subject to the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2116778).
 
 ## Things you must know
 
@@ -38,7 +38,7 @@ Before you configure auto capture for Dynamics 365 Sales in your organization, n
 
 -	You can enable both basic and premium auto capture for your organization.
 
--	To enable both versions of auto capture, you select a group of security roles to use premium auto capture and you select other security roles to use auto capture.<!--note from editor: Edit suggested, maybe inaccurate. The original was a bit ambiguous: "...and other security roles will have auto capture." I assume that if a security role isn't defined for one type of auto capture or another, it won't be able to use auto capture at all? If that's not the case, please excuse and maybe explicitly say that any roles not assigned to use premium auto capture will default to basic.-->
+-	To enable both versions of auto capture, you select a group of security roles to use premium auto capture. By default, security roles that are not assigned to use premium auto capture uses basic auto capture.
 
 -	When premium auto capture is enabled for your entire organization, basic auto capture is disabled.
 
@@ -56,7 +56,7 @@ Before you enable auto capture, perform the following tasks:
 
 -	Enable Sales Insights. To learn more, see [Enable and configure free Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-free-sales-insights-features).
 
--	Use Microsoft Exchange Online as your email server.<!--note from editor: Should we specify Exchange as the server and Outlook as the mail client? We sometimes refer to Exchange data and Exchange account, and sometimes it's Outlook data. Should it be consistent?-->
+-	Use Exchange as the server and Outlook as the mail client.
 
 -	Approve the email addresses of users to allow queries against their Exchange data (this requires tenant-level admin privileges). To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email).
 
@@ -68,13 +68,20 @@ Before you enable auto capture, perform the following tasks:
 
 2.	On the site map under **Productivity intelligence**, select **Auto capture**. 
 
-3.	Turn on the **Enable basic auto capture** toggle.<!--note from editor: I think it would be better if the toggle were turned on in this image. Also, there should be a space in "365to". -->
+3.	Turn on the **Enable basic auto capture** toggle.
 
    > [!div class="mx-imgBorder"]
    > ![Enable or disable auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable auto capture")
 
 ## How to enable and configure premium auto capture
-<!--note from editor: Please check this edit. I got a little lost here; this edit is my attempt to make it clear what you get extra with premium auto capture.-->
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 In addition to getting suggestions for customer-related activities through capturing emails and meetings, premium auto capture gets suggestions by capturing contacts through a salesperson's communications.
 
 To enable and configure premium auto capture, follow these steps:
@@ -89,7 +96,7 @@ Before you enable premium auto capture, perform the following tasks:
 
 -	Enable Sales Insights. To learn more, see [Enable and configure free Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-free-sales-insights-features).
 
--	Use Microsoft Exchange Online as your email server.<!--note from editor: As above. Should we specify Outlook as the client?-->
+-	Use Exchange as the server and Outlook as the mail client.
 
 -	(Optional) Approve the email addresses of users to allow queries against Exchange (this requires tenant-level admin privileges) and set up server-side synchronization. If you don't configure these options, users will be required to provide consent to access their Outlook data. To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email) and [Set up server-side synchronization of email, appointments, contacts, and tasks](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
@@ -99,7 +106,7 @@ Before you enable premium auto capture, perform the following tasks:
 
 2.	On the site map under **Productivity intelligence**, select **Auto capture**.
 
-3.	On the settings page, in the **Premium auto capture (preview)** section, turn on the **Enable preview version** toggle<!--note from editor: The image shows the toggle label as "Preview version enabled."-->.
+3.	On the settings page, in the **Premium auto capture (preview)** section, turn on the **Enable preview version** toggle.
 
     > [!div class="mx-imgBorder"]
     > ![Enable or disable premium auto capture](media/si-admin-auto-capture-enable-premium.png "Enable or disable premium auto capture")
@@ -108,7 +115,7 @@ Before you enable premium auto capture, perform the following tasks:
 
     -	**All security roles**: Select this option to enable the feature for the entire organization.
 
-    -	**Specific security roles**: Select this option to enable this feature for specific security roles, and then choose the security roles. In the example in the following image, we're adding the security roles **Sales Manager**, **Salesperson**, and **Marketing Manager**.<!--note from editor: The following image also shows the toggle as "Preview version enabled."-->
+    -	**Specific security roles**: Select this option to enable this feature for specific security roles, and then choose the security roles. In the example in the following image, we're adding the security roles **Sales Manager**, **Salesperson**, and **Marketing Manager**.
 
         > [!div class="mx-imgBorder"]
         > ![Add security roles](media/si-admin-auto-capture-premium-add-security-roles.png "Add security roles")

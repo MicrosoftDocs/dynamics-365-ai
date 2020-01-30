@@ -16,25 +16,34 @@ caps.latest.revision: 01
 
 # Basic auto capture
 
-The activities captured by the auto capture feature are shown on the timeline in Microsoft Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Microsoft Exchange account <!--note from editor: Or "Outlook account"?-->that were sent to or from the primary contact for the opportunity or its stakeholders.
+The activities captured by the auto capture feature are shown on the timeline in Microsoft Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
 
-You can identify the tracked and auto-captured (not yet tracked) emails on the timeline, as shown in the following image.
-<!--note from editor: There must be a graphic missing here? The numbered paragraphs below would be perfect as callouts to screenshot like the ones in premium-auto-capture.md.-->
+You can identify the tracked and auto-captured (not yet tracked) emails and meetings on the timeline:
 
-1.	**Tracked emails**: The envelope symbol indicates that this email is already being tracked, so it's already imported into Sales and is being shared with your team.
+-	**Auto capture emails and meetings**: These emails and meetings were detected by auto capture as being relevant to the current record, but they're still private so only you can see them. Compared to tracked messages, these messages are shown as untracked emails or meetings. In the following sample screenshot, we're showing untracekd email:
 
-2.	**Auto capture emails**: These emails were detected by auto capture as being relevant to the current record, but they're still private so only you can see them. Compared to tracked messages, these messages show a gray symbol <!--note from editor: Is this the grayed-out lightbulb you're referring to? This really should have an illustration here!-->and a dotted border, and include a **Track** link and a private email label.
+    > [!div class="mx-imgBorder"]
+    > ![Auto captured email](media/auto-capture-basic-capture-email.png "Auto captured email")
 
-3.	**Track link**: Select the link to track an activity captured by auto capture, making it visible to everyone who has access to the timeline of this specific record.
-<!--note from editor: Without the graphic that surely belongs above, it's hard to tell whether the following paragraph is going to look too repetitive. I'd like to revisit it after the graphic is added.-->
-The activities that auto capture finds are only visible to you, so other members of your sales team won't be able to see them in Sales. When you select the **Track** link on any auto capture message, you turn it into a tracked email message, which saves the activity into the Sales database and makes it visible to other members of your team. It might take a few minutes for an activity to go from not being tracked to tracked, during which time it will show a **Tracking pending** message.
+-	**Track link**: Select the **Track** icon on an untracked activity captured by auto capture, making it visible to everyone who has access to the timeline of this specific record.
+The activities that auto capture finds are only visible to you, so other members of your sales team won't be able to see them in Dynamics 365 Sales. When you select the **Track** link on any auto capture message, you turn it into a tracked email message, which saves the activity into the Dynamics 365 Sales database and makes it visible to other members of your team. It might take a few minutes for an activity to go from not being tracked to track, during which time it will show a **Tracking pending** message.
+
+    > [!div class="mx-imgBorder"]
+    > ![Contact suggestion grid view](media/auto-capture-basic-track-link.png "Contact suggestions grid view")
+
+
+-	**Tracked emails and meetings**: The envelope symbol indicates that this email or meeting is already being tracked, so it's already imported into Sales and is being shared with your team.
+
+    > [!div class="mx-imgBorder"]
+    > ![Contact suggestion grid view](media/auto-capture-basic-tracked-email.png "Contact suggestions grid view")
+
 
 As with other types of activity tiles shown on the timeline, you can select the tile to expand or collapse the content on the tile.
 
 ## Which activities are captured?
 
-Auto capture queries your Microsoft Exchange account <!--note from editor: Or "Outlook account"?-->and looks for activities related to the record you're looking at. The following table summarizes how auto capture identifies related activities.
-<!--note from editor: Edits to the table are meant to make the second column parallel. The verb is in the column heading, so we don't need "use" in the column entries.-->
+Auto capture queries your Outlook account and looks for activities related to the record you're looking at. The following table summarizes how auto capture identifies related activities.
+
 |Entity type|Matches these field values to the To, CC, or From address of each email and meeting |  
 |-----------------|--------------------------------------------------------------------------------------|  
 |Account|**Email** address of the listed **Primary Contact**.<br /><br /> **Email** addresses of the top 50 contacts that have the account as their parent account.<br /><br /> All **Email** addresses defined for the account record itself.|  

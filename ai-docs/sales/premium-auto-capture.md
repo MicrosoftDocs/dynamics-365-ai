@@ -15,18 +15,26 @@ caps.latest.revision: 01
 ---
 
 # Premium auto capture
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 <!--note from editor: I don't see any of the the fictitious names used in body copy and images in our list of approved fictitious names. If these names weren't included with sample data, please redo the graphics and text. This is true of the company names also - I don't find any in CELAweb's list of acceptable fake company names. More information: https://microsoft.sharepoint.com/sites/LCAWeb/Home/Copyrights-Trademarks-and-Patents/Trademarks/Fictitious-Names#-->
 <!--note from editor: Please double-check the edit to this first paragraph. I tried to make one clear statement of what premium auto capture gives that the basic flavor doesn't. I don't think I captured it completely.-->
 Premium auto capture helps salespeople focus on generating revenue instead of spending their time updating Dynamics 365 Sales data and logging every customer-related activity. In addition to activity suggestions based on capturing emails and meetings, premium auto capture also provides suggestions for creating new contacts.
 
 
 ## Give consent
-<!--note from editor: I thought the configure-auto-capture.md topic says that if the admin wants to, they can set this up so no one has to give their individual consent. If this is true, maybe this could say "you might need to give your consent to allow..." -->
-When an administrator enables premium auto capture, you need to give your consent to allow Dynamics 365 Sales to access your Outlook data <!--note from editor: Or "Exchange"?-->so that auto capture can provide suggestions for activities and contacts. You can give consent in one of the following ways:
+
+When an administrator enables premium auto capture, you need to give your consent to allow Dynamics 365 Sales to access your Exchange data so that auto capture can provide suggestions for activities and contacts. You can give consent in one of the following ways:
 
 -	[Timeline](#through-the-timeline)
 
--	[Relationship Assistant](#through-the-relationship-assistant)<!--note from editor: I haven't seen the Sales Hub UI, so maybe I'm wrong to capitalize Relationship Assistant. If so, please excuse!-->
+-	[Relationship Assistant](#through-the-relationship-assistant)
 
 -	[Personal settings](#through-personal-settings)
 
@@ -77,7 +85,7 @@ When an administrator enables premium auto capture, you need to give your consen
 
 ## Manage activity suggestions on the timeline
 
-When you open the record for an entity, the timeline displays the activity suggestions, such as emails and meetings, that are available for the record. Based on the communication captured from your Microsoft Exchange<!--note from editor: Should this be "Exchange data," "Exchange account," or "Outlook data"? Or a combination of them?-->, these suggestions will be visible only to you. The suggestions are available for you to review and save for other users to view. You can also dismiss or edit the suggestions, to make sure you capture the right information in the right place. 
+When you open the record for an entity, the timeline displays the activity suggestions, such as emails and meetings, that are available for the record. Based on the communication captured from your Exchange data, these suggestions will be visible only to you. The suggestions are available for you to review and save for other users to view. You can also dismiss or edit the suggestions, to make sure you capture the right information in the right place. 
 
 > [!div class="mx-imgBorder"]
 > ![Auto capture suggestions](media/auto-capture-premium-activity-suggestions.png "Auto capture suggestions")
@@ -87,12 +95,12 @@ By default, a single suggestion is displayed. You can select **Show more** to di
 > [!div class="mx-imgBorder"]
 > ![Auto capture all activity suggestions](media/auto-capture-premium-all-activity-suggestions.png "Auto capture all activity suggestions")
 
--	**Save**: Select this option to add a suggestion as an activity on the timeline wall of a record. After the suggestion is added, other users in your organization can view this suggestion for the record. For example, you open an opportunity **Interest shown in AX27** and observe that there are a few suggestions available under it on the timeline. With the **Gern Blanston sent an email** suggestion selected, select the **Save**<!--note from editor: Edit assumes "Save" is the tooltip for the icon--> icon. The suggestion is saved as an **Gern Blanston sent an email** activity on the timeline, and will be visible for other users who access this opportunity.
+-	**Save**: Select this option to add a suggestion as an activity on the timeline wall of a record. After the suggestion is added, other users in your organization can view this suggestion for the record. For example, you open an opportunity **Interest shown in AX27** and observe that there are a few suggestions available under it on the timeline. With the **Gern Blanston sent an email** suggestion selected, select the **Save** icon. The suggestion is saved as an **Gern Blanston sent an email** activity on the timeline, and will be visible for other users who access this opportunity.
 
     > [!div class="mx-imgBorder"]
     > ![Save activity suggestion on timeline](media/auto-capture-premium-save-activity-suggestion-timeline.png "Saved activity suggestion on the timeline") 
 
--	**Edit**: Select this option to add a suggestion as an activity for another record. When you edit and save the suggestion, it's available as an activity on the timeline of the other record and will be visible for users who have access to the record. For example, you open an email from **Gern Blanston**. On the timeline, you observe that the **Gern Blanston sent an email** suggestion is more appropriate for **Jim Glynn** than the suggested email<!--note from editor: I'm not sure what "than the suggested email" refers to?-->. Select the edit option, and then use the **Regarding** lookup to choose **Jim Glynn**. 
+-	**Edit**: Select this option to add a suggestion as an activity for another record. When you edit and save the suggestion, it's available as an activity on the timeline of the other record and will be visible for users who have access to the record. For example, you open an email from **Gern Blanston**. On the timeline, you observe that the **Gern Blanston sent an email** suggestion is more appropriate for **Jim Glynn** than the suggestion. Select the edit option, and then use the **Regarding** lookup to choose **Jim Glynn**. 
  
     > [!div class="mx-imgBorder"]
     > ![Edit activity suggestion on timeline](media/auto-capture-premium-edit-activity-suggestion-timeline.png "Edit an activity suggestion on the timeline") 
@@ -152,7 +160,7 @@ To save an activity so it will be visible on the timeline for a record for other
  
 5.	In the confirmation message that appears, select **Save**.
 
-The activity suggestion is removed from the suggestions list and added to the timeline of the **Regarding** record<!--note from editor: I'm not sure whether this should be "field," "record," or "entity. It looks like the UI for the lookup calls it a "record," so I'll go with that.-->, making it visible for everyone who has access to the record.
+The activity suggestion is removed from the suggestions list and added to the timeline of the **Regarding** record, making it visible for everyone who has access to the record.
 
 ### Edit an activity
 
