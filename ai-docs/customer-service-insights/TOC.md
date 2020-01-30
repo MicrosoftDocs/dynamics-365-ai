@@ -4,6 +4,8 @@
 
 # How-tos
 
+## [Discover insights from your customer service data](keyinsights.md)
+
 ## [Use and manage workspaces to connect to different customer service environments](use-workspaces.md)
 
 ## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
@@ -14,7 +16,7 @@
 
 ## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
 
-## [Automate topics to a Power Virtual Agents bot](automate-topics.md)
+## [Automate topics for a Power Virtual Agents bot](automate-topics.md)
 
 ## [Use external data sources to get AI insights](use-external-data-sources.md)
 
@@ -26,31 +28,27 @@
 
 ## [Export data from Dynamics 365 Customer Service Insights](exportdata.md)
 
-## [Discover insights from your customer service data](keyinsights.md)
+# [Licensing and case-capacity considerations](licensing-case-capacity.md)
 
-# Reference
+# [Service limits in Customer Service Insights](service-limits.md)
 
-## [Licensing and case-capacity considerations](licensing-case-capacity.md)
+# [Supported languages for Customer Service Insights](supported-languages.md)
 
-## [Service limits in Customer Service Insights](service-limits.md)
+# [Dynamics 365 Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
 
-## [Supported languages for Customer Service Insights](supported-languages.md)
+# Dashboard reference
 
-## [Dynamics 365 Customer Service entities shared with Customer Service Insights](customer-service-entities.md)
+## [Overview](dashboard-overview.md)
 
-## Dashboard reference
+## [KPI summary](dashboard-kpi-summary.md)
 
-### [Overview](dashboard-overview.md)
+## [New cases](dashboard-incoming-cases.md)
 
-### [KPI summary](dashboard-kpi-summary.md)
+## [Customer satisfaction](dashboard-CSAT.md)
 
-### [New cases](dashboard-incoming-cases.md)
+## [Resolutions](dashboard-case-resolutions.md)
 
-### [Customer satisfaction](dashboard-CSAT.md)
-
-### [Resolutions](dashboard-case-resolutions.md)
-
-### [Topic details](dashboard-topic-details.md)
+## [Topic details](dashboard-topic-details.md)
 
 # Data Subject Rights (DSR) requests under GDPR
 
