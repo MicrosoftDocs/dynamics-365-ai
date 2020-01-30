@@ -24,7 +24,7 @@ caps.latest.revision: 01
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
 <!--note from editor: I don't see any of the the fictitious names used in body copy and images in our list of approved fictitious names. If these names weren't included with sample data, please redo the graphics and text. This is true of the company names also - I don't find any in CELAweb's list of acceptable fake company names. More information: https://microsoft.sharepoint.com/sites/LCAWeb/Home/Copyrights-Trademarks-and-Patents/Trademarks/Fictitious-Names#-->
-<!--note from editor: Please double-check the edit to this first paragraph. I tried to make one clear statement of what premium auto capture gives that the basic flavor doesn't. I don't think I captured it completely.-->
+
 Premium auto capture helps salespeople focus on generating revenue instead of spending their time updating Dynamics 365 Sales data and logging every customer-related activity. In addition to activity suggestions based on capturing emails and meetings, premium auto capture also provides suggestions for creating new contacts.
 
 
