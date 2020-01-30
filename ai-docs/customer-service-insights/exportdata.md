@@ -32,12 +32,14 @@ Dynamics 365 Customer Service Insights enables you to export your data to a web 
 
 3. Select **Generate URL** to create a new web API endpoint for the exported data. Note that you can use the copy button to copy the URL to the clipboard. 
 
-4. **Delete URL** disables any previously generated URL. Note that you can generate a new URL after deletion. 
+**Delete URL** disables any previously generated URL. Note that you can generate a new URL after deletion. 
 
 
 ## Exported data fields 
 
-The web API endpoint includes the data fields listed here if they are available in your workspace. It's possible that some workspaces won't have all the fields listed if they aren't applicable or are mapped incorrectly. More information: [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data)
+The web API endpoint includes the data fields listed here if they are available in your workspace. It's possible that some workspaces won't have all the fields listed if they aren't applicable or are mapped incorrectly. 
+
+More information: [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data)
 
 **Case data**
  - Case title
@@ -63,13 +65,16 @@ The web API endpoint includes the data fields listed here if they are available 
 - Topic ID
 - Relevance score
 
-More information: [Dynamics 365 Customer Service entities used by Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities).
+More information: [Dynamics 365 Customer Service entities used by Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities)
 
 
 ## Considerations
 * Before sharing the exported data with others, verify that you and the people you're sharing with have the correct permissions. 
+
 * The exported data is refreshed daily, following the typical workspace refresh schedule. When workspace refresh is temporarily paused due to inactivity after 30 days, exported data is also not refreshed. 
+
 * If you suspect the URL has been inappropriately shared, delete the URL and generate a new one. This action disables the old URL and prevents it from being used. 
+
 * Rate limits for accessing the API for every IP address are: 
   * 5 times per minute
   * 20 times per hour
