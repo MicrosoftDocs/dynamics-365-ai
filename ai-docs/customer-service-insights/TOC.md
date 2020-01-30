@@ -24,6 +24,10 @@
 
 ## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
+## [Export data from Dynamics 365 Customer Service Insights](exportdata.md)
+
+## [Discover insights from your customer service data](keyinsights.md)
+
 # Reference
 
 ## [Licensing and case-capacity considerations](licensing-case-capacity.md)
