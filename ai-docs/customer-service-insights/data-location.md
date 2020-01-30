@@ -54,6 +54,8 @@ Microsoft may replicate customer data to other regions available within the same
 | | |
 | France | France Central (Paris) |
 | | Framce South (Marseille) |
+| | |
+| United Arab Emirates | UAE Central (Abu Dhabi)
 
 <sup>1 Because there is only one region in Brazil, customer data in Brazil South may be replicated to South Central US (Texas) for disaster recovery purposes. </sup>
 
