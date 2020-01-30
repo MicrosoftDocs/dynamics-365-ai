@@ -26,7 +26,7 @@ When an administrator enables premium auto capture, you need to give your consen
 
 -	[Timeline](#through-the-timeline)
 
--	[Relationship Assistant](#through-the-relationship-assistant-section)<!--note from editor: I haven't seen the Sales Hub UI, so maybe I'm wrong to capitalize Relationship Assistant. If so, please excuse!-->
+-	[Relationship Assistant](#through-the-relationship-assistant)<!--note from editor: I haven't seen the Sales Hub UI, so maybe I'm wrong to capitalize Relationship Assistant. If so, please excuse!-->
 
 -	[Personal settings](#through-personal-settings)
 

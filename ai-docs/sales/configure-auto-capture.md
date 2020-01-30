@@ -25,7 +25,7 @@ When you enable auto capture, you help salespeople in your organization by sugge
 
 Auto capture is available in two forms:
 <!--note from editor: Edit to the first line below is suggested, just to help later when we're contrasting the two versions. I didn't call it "basic auto capture" everywhere, but I did change some references later in this topic to clarify which version we're talking about. (Lines 39, 45, 53, and 65.)-->
--	**Auto capture** (also called _basic auto capture_): This feature is available for free with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable auto capture](#how-to-enable-auto-capture).
+-	**Auto capture** (also called _basic auto capture_): This feature is available for free with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable auto capture](#how-to-enable-basic-auto-capture).
 
 -	**Premium auto capture**: Premium auto capture is available as a preview <!--note from editor: This is still a preview feature? We need to add a public preview disclaimer in that case, yes?-->with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable and configure premium auto capture](#how-to-enable-and-configure-premium-auto-capture).
 
@@ -46,9 +46,9 @@ Before you configure auto capture for Dynamics 365 Sales in your organization, n
 
 Enable basic auto capture by following these steps:
 
-1.	[Review prerequisites for auto capture](#prerequisites-for-auto-capture).
+1.	[Review prerequisites for auto capture](#prerequisites-for-basic-auto-capture).
 
-2.	[Enable auto capture](#enable-auto-capture).
+2.	[Enable auto capture](#enable-basic-auto-capture).
 
 ### Prerequisites for basic auto capture
 
