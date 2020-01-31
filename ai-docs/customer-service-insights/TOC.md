@@ -1,3 +1,5 @@
+# [Dynamics 365 Customer Service Insights]
+
 # [Overview](overview.md)
 
 # [Quickstart](quickstart.md)
@@ -38,7 +40,7 @@
 
 ## [Improve data quality by cleansing support case titles](settings.md)
 
-## [Export data from Dynamics 365 Customer Service Insights](exportdata.md)
+## [Export data from Customer Service Insights](exportdata.md)
 
 
 # Manage and automate topics
