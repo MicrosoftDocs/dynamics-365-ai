@@ -144,7 +144,7 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 
 ## View card usage metrics 
 
-Each insight card that is available in Assistant shows usage metrics based on the views and actions that users do. These metrics help to get real-time data on how the card is unutilized. Also, you can analyze what updates are necessary for the card, if it is under-utilized.
+Each insight card that is available in Assistant shows usage metrics based on the views and actions that users perform. These metrics help to get real-time data on how the card is utilized. Also, you can analyze what updates are necessary for the card, if it is under-utilized.
 
 The metrics are calculated as follows:
 
