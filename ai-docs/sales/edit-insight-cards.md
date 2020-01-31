@@ -165,7 +165,7 @@ The following metrics are available on the card.
 |------|---------|-------------|
 | 1 | Header | specifies the number of times the card has been displayed to the number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
 | 2 | Action | Displays in percentage value the number of times the user performed actions on the card. |
-| 3 | Snooze or dismiss | Displays in percentage value the number of times the user performed snooze and dismiss actions the card. |
+| 3 | Snooze or dismiss | Displays in percentage value the number of times users has performed snooze and dismiss actions on the card. |
 | 4 | No action | Displays in percentage value the number of times the user didn't performed actions on the card. |
 | 5 | Feedback | Displays in percentage value the number of times the user liked and disliked the card. Also, a header displays the total number of users who gave the feedback. |
 

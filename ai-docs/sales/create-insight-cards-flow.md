@@ -199,9 +199,9 @@ You can add actions that a user can do on a card. To select an action, follow th
 
     - **Launch playbook**:  Perform the steps in [Launch playbook](#launch-playbook) to launch a playbook with the custom action.
 
-    - Open record
+    - **Open record**
 
-    - Open URL
+    - **Open URL**
 
     - **REST**: Perform the steps in [REST](#rest) to invoke a REST API with the custom action.
 
