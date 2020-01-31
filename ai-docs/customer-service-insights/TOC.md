@@ -63,7 +63,7 @@
 ## [Where an organization's Customer Service Insights data is located](data-location.md)
 
 
-# Technical reference
+# Reference
 
 ## [Licensing and case-capacity considerations](licensing-case-capacity.md)
 
