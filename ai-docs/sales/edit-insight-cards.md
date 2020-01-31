@@ -146,7 +146,7 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 
 Each insight card that is available in Assistant shows usage metrics based on the views and actions that users perform. These metrics help to get real-time data on how the card is utilized. Also, you can analyze what updates are necessary for the card, if it is under-utilized.
 
-The metric values are for the last 30 day and calculated as follows:
+The metric values are for the last 30 days and calculated as follows:
 
 ```
 Percentage value = (Number of actions performed * 100) / Number of views.
@@ -154,12 +154,12 @@ Percentage value = (Number of actions performed * 100) / Number of views.
 
 For example, when a card is displayed for 10 users and only four users have performed an action, the value displayed is 40%.
 
-Also, at the bottom of each metric, a trend value is displayed for the past 30 days ago from the current day. For example, the metric value was 30% in the past 30 days ago and 40% on current day, the trend value displays a 10% increase in the utilization.
+Also, at the bottom of each metric, a trend value is displayed for the last 30 days from the current date. For example, the metric value was 30% in the last 30 days and 40% on current date, the trend value displays a 10% increase in the utilization.
 
 > [!NOTE]
 > The metric values are refreshed every 24 hours.
 
-The following metrics are available on an Insight card.
+The following metrics are available on the card.
 
 | Number | Metrics | Description |
 |------|---------|-------------|
