@@ -106,7 +106,7 @@ In this procedure, we will show as an example how to create an insight to act wh
       -  **Organization Name**: The name of the organization for which you want to trigger the card.
       - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards**.
       - **Description**: The summary or the basic information of the card that is to be displayed.
-      - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type.
+      - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. To learn more, see [Add actions to cards](#add-actions-to-cards)
       - **Action Parameter**: The ID of the created action.
       - Optionally, you can configure the advanced options for the condition. Select **Show advanced options** and update the parameters **Title**, **Start Date**, **End Date**, **Display to**, **Reasons**, **Regarding Object ID**, **Action Parameter Entity ID Type**, and **Regarding Object Type**.
         
@@ -174,6 +174,129 @@ To access the saved flows, follow these steps:
 
     > [!div class="mx-imgBorder"]
     > ![Search your solution](media/si-admin-view-flows-search-solution.png "Search your solution")
+
+## Add actions to cards
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+You can add actions that a user can do on a card. To select an action, follow these steps:
+
+1. In the **Search connectors and actions** box, enter **Sales Insights**.
+
+2. Select the **Create card for assistant V2 (preview)** connector.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select action for card](media/insight-cards-select-action.png "Select action for card")
+
+3. In **Button type**, select one of the following actions:
+
+    - **Custom action (CRM process)**: Perform the steps in [Custom action (CRM process)](#custom-action-crm-process) to invoke a custom action that is defined in Dynamics 365 Sales for an entity. 
+
+    - **Launch playbook**:  Perform the steps in [Launch playbook](#launch-playbook) to launch a playbook with the custom action.
+
+    - **Open record**
+
+    - **Open URL**
+
+    - **REST**: Perform the steps in [REST](#rest) to invoke a REST API with the custom action.
+
+    > [!div class="mx-imgBorder"]
+    > ![List of supported actions for card](media/insight-card-button-types.png "List of supported actions for card")
+
+
+### Custom action (CRM process)
+
+Use **Custom action (CRM process)** option to invoke a custom action that is defined in Dynamics 365 Sales for an entity. To learn more, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+To add a custom action, follow these steps:
+
+1. In the **Search connectors and actions** box, enter **Sales Insights**.
+
+2. Select the **Choose custom action (CRM process) for insight card (preview)** connector.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select action for card](media/insight-cards-select-action.png "Select action for card")
+
+    A step to choose a custom action appears.
+
+    > [!div class="mx-imgBorder"]
+    > ![Step to add custom action](media/insight-card-custom-action.png "Step to add custom action")
+
+3. In the **Choose custom action (CRM process) for insight card** step, enter the required information.
+
+    | Parameter | Description |
+    |-----------|-------------|
+    | Environment (org)| Select your organization name. |
+    | Filter by entity | Choose the entity that is associated with the action. |
+    | Custom action (CRM process)| Select the custom action that you want to perform on the card. |
+    | Status | This is a dynamic field and the values that are displayed here are based on the selected custom action. | 
+
+4. Define the card by using the chosen custom action. In the **Create card for assistant V2** step, enter the required information.
+
+    | Parameter | Description |
+    |-----------|-------------|
+    | Environment (org)| Select your organization name. |
+    | Card name | Enter a name for the card. |
+    | Card header| Enter a name to appear on the header of the card.  |
+    | Card text | Enter a message to appear in the body of the card. |
+    | Button text | Enter a name for the button that should appear on the card. |
+    | Button type | Select the button type as **Custom action (CRM process)**. |
+    | Custom action for insight card | Select the box. The custom action that is defined in the previous step is added automatically. This option appears only for the **Custom action (CRM process)** button type. | 
+
+    > [!div class="mx-imgBorder"]
+    > ![Create card for the custom action](media/insight-card-custom-action-define-card.png "Create card for the custom action")
+
+### Launch playbook
+
+Use the **Launch playbook** option to launch a playbook from the card. Before you use the playbook option, verify that playbook solution is available in your organization. To learn more, see [Enforce best practices with playbooks](/sales-enterprise/enforce-best-practices-playbooks).
+
+1. On the **Create card for assistant V2 (preview)** step, select the **Button type** as **Launch playbook**.
+
+2. Enter the information as required.
+
+    | Parameter | Description |
+    |-----------|-------------|
+    | Environment (org)| Select your organization name. |
+    | Card name | Enter a name for the card. |
+    | Card header| Enter a name to appear on the header of the card.  |
+    | Card text | Enter a message to appear in the body of the card. |
+    | Button text | Enter a name for the button that should appear on the card. |
+    | Button type | Select the button type as **Launch playbook**. |
+    | Playbook template | Select a template in the list of playbook templates. This option appears only for the **Launch playbook** button type. |
+    | Entity type | Select the entity type of which you want to launch the playbook template for. This option appears only for the **Launch playbook** button type. |
+    | Record ID| Enter the unique ID of the selected entity. This option appears only for the **Launch playbook** button type. | 
+
+    > [!div class="mx-imgBorder"]
+    > ![Create card for playbook](media/insight-card-play-book.png "Create card for playbook")
+
+### REST
+
+Use the **REST** option to invoke REST APIs.  
+
+1. On the **Create card for assistant V2 (preview)** step, select the **Button type** as **REST**.
+
+2. Enter the information as required.
+
+    | Parameter | Description |
+    |-----------|-------------|
+    | Environment (org)| Select your organization name. |
+    | Card name | Enter a name for the card. |
+    | Card header| Enter a name to appear on the header of the card.  |
+    | Card text | Enter a message to appear in the body of the card. |
+    | Button text | Enter a name for the button that should appear on the card. |
+    | Button type | Select the button type as **REST**. |
+    | Endpoint | Enter the URL of the corresponding API to call. This option appears only for the **REST** button type. |
+    | HTTP method | Choose an HTTP method for the API to call. This option appears only for the **REST** button type. |
+    | Body| Enter request parameters for the REST API. This option appears only for the **REST** button type.| 
+
+    > [!div class="mx-imgBorder"]
+    > ![Create card for playbook](media/insight-card-rest-api.png "Create card for playbook")
+    
 
 ### See also
 
