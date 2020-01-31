@@ -149,7 +149,7 @@ Each insight card that is available in Assistant shows usage metrics based on th
 The metric values are for the last 30 days and calculated as follows:
 
 ```
-Percentage value = (Number of actions performed * 100) / Number of views.
+Percentage value = (Number of actions performed * 100) / Number of views
 ```
 
 For example, when a card is displayed for 10 users and only four users have performed an action, the value displayed is 40%.
