@@ -38,14 +38,14 @@
 
 ## [Map your data to custom entities and fields](map-data.md)
 
-## [Improve data quality by cleansing support case titles](settings.md)
-
 ## [Export data from Customer Service Insights](exportdata.md)
 
 
 # Manage and automate topics
 
 ## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
+
+## [Improve data quality by cleansing support case titles](settings.md)
 
 ## [Automate topics for a Power Virtual Agents bot](automate-topics.md)
 
