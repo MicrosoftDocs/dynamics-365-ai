@@ -144,11 +144,11 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 
 ## View card usage metrics 
 
-Each insight card that is available in Assistant shows usage metrics based on the views and actions that users perform. These metrics helps to get a realtime data on how the card is untilzed by users in an organization. Also, analyze the updates that are necessary for a card, if it is underutilized.
+Each insight card that is available in Assistant shows usage metrics based on the views and actions that users perform. These metrics help to get realtime data on how the card is unutilized by users in an organization. Also, analyze the updates that are necessary for a card, if it is underutilized.
 
-The metrics calculation is the percentage of number of actions performed by users against the number of views for the last 30 days. For example, a card is displayed for 10 users and only 4 users has performed an action, the value is displayed as 40%.
+The metrics calculation is the percentage of the number of actions performed by users against the number of views for the last 30 days. For example, a card is displayed for 10 users and only 4 users have performed an action, the value is displayed as 40%.
 
-Also, a footer under each metric displays how the value is trending compared to past 30 days from today. For example, the metric value was 30% in the past 30 days and today it is 40% percent, the trend value displays an up arrow with 10% specfying that the utilizayion is increased.
+Also, a footer under each metric displays how the value is trending compared to the past 30 days from today. For example, the metric value was 30% in the past 30 days and today it is 40% percent, the trend value displays an up arrow with 10% specifying that the utilization is increased.
 
 > [!NOTE]
 > The metric values refreshes every 24 hours.
@@ -157,7 +157,7 @@ The following metrics are available on an Insight card:
 
 | Number | Metrics | Description |
 |------|---------|-------------|
-| 1 | Header | Specifies how namy times the card is displayed to number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
+| 1 | Header | Specifies how many times the card is displayed to number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
 | 2 | Action | Specifies the percentage on how many times the users has performed actions on the card. |
 | 3 | Snooze or dismiss | Specifies the percentage on how many times the users has snoozed and dismissed the card. |
 | 4 | No action | Specifies the percentage on how many times the users hasn't performed actions on the card. |
