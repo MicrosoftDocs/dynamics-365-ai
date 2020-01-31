@@ -1,4 +1,4 @@
-# [Dynamics 365 Customer Service Insights]
+# Dynamics 365 Customer Service Insights
 
 # [Overview](overview.md)
 
