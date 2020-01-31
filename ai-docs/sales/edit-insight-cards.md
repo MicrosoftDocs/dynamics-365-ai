@@ -25,6 +25,7 @@ Editing the cards allows you to perform the following tasks based on the card:
 - Assign to or remove roles from a card
 - Set priority of a card
 - Edit the flow of a card
+- View card usage metrics 
 
 ## Turn cards on or off
 
@@ -141,6 +142,26 @@ You can always edit the flow of the card when there is a business need to update
 
 To learn more about editing the flow, see [Add an action](/flow/multi-step-logic-flow) and [Add a condition](/flow/add-condition).
 
+## View card usage metrics 
+
+Each insight card that are available in Assistant shows usage metrics based on the views and actions that users perform. These metrics helps to get a realtime data on how the card is untilzed by users in an organization. Also, analyze the updates that are necessary for a card, if it is underutilized.
+
+The metrics calculation is the percentage of number of actions performed by users against the number of views. For example, a card is displayed for 10 users and only 4 users has performed an action, the value is displayed as 40%.
+
+The following metrics are available on an Insight card:
+
+| Number | Metrics | Description |
+|------|---------|-------------|
+| 1 | Header | Specifies how namy times the card is displayed to number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
+| 2 | Action | Specifies the percentage on how many times the users has performed actions on the card. |
+| 3 | Snooze or dismiss | Specifies the percentage on how many times the users has snoozed and dismissed the card. |
+| 4 | No action | Specifies the percentage on how many times the users hasn't performed actions the card. |
+| 5 | Feedback | Specifies the percentage on how many times the users has liked and disliked the card. Also, a header displays the total number of users gave the feedback. |
+
+ > [!div class="mx-imgBorder"]
+ > ![Insight card metrics](media/insight-card-metrics.png "Insight card metrics")
+
+
 
 
 ### See also
@@ -150,3 +171,4 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 [Create insight cards](create-insight-cards-flow.md)
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
+
