@@ -21,11 +21,11 @@ caps.latest.revision: 1
 
 Editing the cards allows you to do the following tasks based on the card:
 
-- Turn cards on or off
-- Assign to or remove roles from a card
-- Set priority of a card
-- Edit the flow of a card
-- View card usage metrics 
+- [Turn cards on or off](#turn-cards-on-or-off)
+- [Assign to or remove roles from a card](#assign-roles-to-or-remove-roles-from-a-card)
+- [Set priority of a card](#set-priority-for-a-card)
+- [Edit flow of a card](#edit-flow-of-a-card)
+- [View card usage metrics](#view-card-usage-metrics) 
 
 ## Turn cards on or off
 
