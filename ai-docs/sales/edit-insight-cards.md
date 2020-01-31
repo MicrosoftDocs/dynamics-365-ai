@@ -157,13 +157,13 @@ For example, when a card is displayed for 10 users and only four users have perf
 Also, at the bottom of each metric, a trend value is displayed for the past 30 days ago from the current day. For example, the metric value was 30% in the past 30 days ago and 40% on current day, the trend value displays a 10% increase in the utilization.
 
 > [!NOTE]
-> The metric values refreshes every 24 hours.
+> The metric values are refreshed every 24 hours.
 
-The following metrics are available on an Insight card:
+The following metrics are available on an Insight card.
 
 | Number | Metrics | Description |
 |------|---------|-------------|
-| 1 | Header | Specifies how many times the card has been displayed to how many users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
+| 1 | Header | specifies the number of times the card has been displayed to the number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
 | 2 | Action | Displays in percentage value the number of times the user performed actions on the card. |
 | 3 | Snooze or dismiss | Displays in percentage value the number of times the user performed snooze and dismiss actions the card. |
 | 4 | No action | Displays in percentage value the number of times the user didn't performed actions on the card. |
