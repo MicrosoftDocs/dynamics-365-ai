@@ -11,7 +11,7 @@
 
 ## Dashboard reference
 
-### [Overview](dashboard-overview.md)
+### [Dashboard overview](dashboard-overview.md)
 
 ### [KPI summary](dashboard-kpi-summary.md)
 
