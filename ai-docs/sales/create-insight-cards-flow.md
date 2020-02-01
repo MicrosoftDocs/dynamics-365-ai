@@ -16,6 +16,11 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
+
+<!--from editor: Note that the first image still contains mentions of "Dynamics 365 for Sales. Also, check the link in line 86; unsure if it's correct. Please check the organization name in the images in lines 79 and 93 - is it OK for that to be visible? -->
+
+
+
 # Create custom insight cards
 
 As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
@@ -25,17 +30,17 @@ As an administrator or sales manager, you can create your own suggested actions 
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
-1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
+1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the sitemap, select **Home** under **Assistant** to go to **Assistant Studio** page.
+3. On the site map, under **Assistant**, select **Home** to go to the **Assistant Studio** page.
 
     > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to **Assistant Studio** page.
+    > Alternatively, on the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to the **Assistant Studio** page.
 
 4. On the Assistant Studio page, select **+ Create a new insight card**.
  
@@ -54,16 +59,16 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]    
     > ![Select insight card creation template](media/si-admin-create-cards-template-selection-page.png "Select insight card creation template")
 
-    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to common data services and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
+    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Common Data Service and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
 
-    If any of the accounts is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credential.
+    If any of the accounts are not valid, the **Continue** button appears dimmed and you cannot proceed. Select **Update** to sign in with a valid credential.
 
     > [!div class="mx-imgBorder"]       
     > ![Accounts validation in flow](media/si-admin-flow-account-validation.png "Accounts validation in flow")
 
 6. Select **Continue**.
 
-    The predefined flow is displayed. In this example, we are creating an insight when a due date is coming up for an opportunity. There are three steps associated with the predefined flow with the prepopulated data. 
+    The predefined flow is displayed. In this example, we are creating an insight when a due date is coming up for an opportunity. There are three steps associated with the predefined flow with the prepopulated data: 
     - **Step 1**: Create schedule
     - **Step 2**: Define operation
     - **Step 3**: Define control
@@ -73,12 +78,20 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Edit flow template](media/cc-edit-template.png "Edit flow template")
 
-7. In step 1, a schedule when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
+7. In step 1, a schedule for when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
 
     > [!div class="mx-imgBorder"]       
     > ![Create card schedule](media/cc-card-schedule-step.png "Create card schedule")
+ 
+    If you want to change the flow, select the plus (+) icon on the connector that is linking to the next step and then select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
 
-    If you want to change the flow, select the + icon on the connector that is linking to the next step and select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
+
+
+
+
+
+
+
 
 8. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
 
@@ -87,7 +100,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Define card operations](media/cc-card-operation-step.png "Define card operations")
 
-9. In step 3, an **apply to each** control is selected and enter the necessary information.
+9. In step 3, select an **apply to each** control and enter the necessary information.
 
     a. The **Value** token is added to the **Select an output from previous steps** box. This value is obtained from the previous step where we defined the entity.
     
@@ -154,7 +167,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 ## View your saved flows
 
-After you create a flow, a card must be generated to based on the created flow to access the flow in the designer. Sometimes, cards may not be generated immediately and you may not find the created flow to update or view. 
+After you create a flow, a card must be generated based on the created flow to access the flow in the designer. Sometimes, cards may not be generated immediately and you may not find the created flow to update or view. 
 
 To access the saved flows, follow these steps:
 
