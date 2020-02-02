@@ -20,7 +20,7 @@ Predictive forecasting helps sellers and managers improve their forecast accurac
 
 Review the following requirements before you use the predictive forecast feature: 
 
-- Purchase a **Dynamics 365 Sales Insights** license or start a trial to use advanced Sales Insights features. 
+- Purchase a Dynamics 365 Sales Insights license or start a trial to use advanced Sales Insights features. 
 
 - Enable forecasting. To learn more, see <!--note from editor: Shouldn't this link go to the main topic, configure-forecast? Seems like a nicer jumping-off point.-->[Enable forecasting](https://docs.microsoft.com/dynamics365/sales-enterprise/enable-forecast). 
 

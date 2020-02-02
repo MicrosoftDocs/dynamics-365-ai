@@ -12,15 +12,15 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Analyze deals flow between snapshots
+# Analyze deals flows between snapshots
 
-The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach them to improve their forecast accuracy.
+The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.
 
-Review the following prerequisites before you start using deals flow analysis:
+Review the following prerequisite before you start using deals flow analysis:
 
--	Verify that at least two snapshots are created for the forecast. To learn more, see [Manage snapshots for a forecast](manage-snapshots-forecast.md).
+-	Verify that at least two snapshots have been created for the forecast. To learn more, see [Manage snapshots for a forecast](manage-snapshots-forecast.md).
 
-## View deals flow
+## View a deals flow
 
 1.	Sign in to the Sales Hub app.
 
@@ -70,7 +70,7 @@ The order of forecast categories depends on how the forecast columns are arrange
 
 ### View summary and flow
 
--	When you place the cursor<!--note from editor: Should this be "When you hover over a forecast category..."? That's how it was described in the CE topics.--> on a forecast category in the stack, a summary of the category is displayed, including the forecast category with snapshot name, the aggregated budget amount, and the number of opportunities that are influencing the aggregated amount. Also, the flow is highlighted to show how the opportunities are trending between the snapshots.
+-	When you hover over a forecast category in the stack, a summary of the category is displayed, including the forecast category with snapshot name, the aggregated budget amount, and the number of opportunities that are influencing the aggregated amount. Also, the flow is highlighted to show how the opportunities are trending between the snapshots.
 
 -	This flow depends on how the status of the opportunity in a forecast category of Snapshot 1 changed to the other forecast category in Snapshot 2. If there's no change in the status of the opportunity, the flow remains the same between forecast categories in the snapshots.
 
@@ -93,7 +93,7 @@ You can identify whether the selected flow is for a team or an individual by loo
 
 -	If the heading name contains only **Username**, you're looking at an individual user's deals flow.
 
-The deals flow of other users that you can see depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts.md#forecasts-and-sales-hierarchy).
+The deals flow of other users that you can see depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).
 
 ### See also
 
