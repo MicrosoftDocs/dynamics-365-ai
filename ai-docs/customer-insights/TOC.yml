@@ -12,13 +12,13 @@
 
 - name: Data sources
   items:
-    - name: Data sources
+    - name: Add data sources
       href: pm-data-sources.md
-    - name: Common connectors
+    - name: Learn about common connectors
       href: pm-common-connectors.md
-    - name: Common Data Model folder as a data source
+    - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
-    - name: Entities and datasets
+    - name: Understand entities and datasets
       href: pm-entities.md
 
 - name: Data unification
