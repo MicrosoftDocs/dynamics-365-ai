@@ -166,7 +166,7 @@ After reviewing the activity suggestion, perhaps you decide that the suggestion 
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select ***AutoCapture Preview** > **Activity suggestions**.
+2.	On the site map, select **AutoCapture Preview** > **Activity suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
@@ -193,7 +193,7 @@ Delete any activity suggestions that you don't want to add as activities on the 
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select ***AutoCapture Preview** > **Activity suggestions**.
+2.	On the site map, select **AutoCapture Preview** > **Activity suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
@@ -247,7 +247,7 @@ To save a contact, follow these steps:
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select ***AutoCapture Preview** > **Contact suggestions**.
+2.	On the site map, select **AutoCapture Preview** > **Contact suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestions grid view")
@@ -297,7 +297,7 @@ Delete contact suggestions if you don't want to add them to your contact list. F
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select ***AutoCapture Preview** > **Contact suggestions**.
+2.	On the site map, select **AutoCapture Preview** > **Contact suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestions grid view")
