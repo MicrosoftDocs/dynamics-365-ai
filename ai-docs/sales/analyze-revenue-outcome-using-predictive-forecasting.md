@@ -34,10 +34,10 @@ The **Prediction** column shows the predicted revenue for each seller and manage
 
 Open a forecast that includes a **Prediction** column. To learn more, see [View a forecast](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts). 
 
-The following screen shows an example of a **Prediction** column.<!--note from editor: Note the file name of the graphic is misspelled.--> 
+The following screen shows an example of a **Prediction** column. 
 
 > [!div class="mx-imgBorder"]
-> ![Prediction column](media/predictive-forecasting-prediciton-column.png "Prediction column")
+> ![Prediction column](media/predictive-forecasting-prediction-column.png "Prediction column")
 
 When you hover over the information icon on the column header, the last recalculation date of the prediction is shown. Predictions are recalculated every seven days.
 

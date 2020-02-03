@@ -51,7 +51,7 @@ After you choose the snapshots, select **Run**. The chart is updated to display 
 The chart has two data categories: **Snapshot 1** is shown in the stack in the leftmost column and **Snapshot 2** is shown in the stack in the rightmost column. 
 
 > [!NOTE]
-> When you select a user to view <!--note from editor: I don't know what this means. Do you select a flow chart or do you select a user?-->the flow chart and the flow chart isn't displayed, the user is added to the hierarchy after **Snapshot 1** is taken. An error message appears, stating that there is no data available for the selected user.
+> When you select a user to view the flow chart and the flow chart isn't displayed, the user is added to the hierarchy after **Snapshot 1** is taken. An error message appears, stating that there is no data available for the selected user.
 
 The order of forecast categories depends on how the forecast columns are arranged in the grid view. The **Won** forecast category is always on top, and **Lost** is at the bottom.
 

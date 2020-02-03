@@ -1,6 +1,6 @@
 ---
-title: "Understand the configuration of predictive forecasting in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand the configuration of predictive forecasting in Dynamics 365 Sales Insights."
+title: "Understand the configuration of premium forecasting in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Understand the configuration of premium forecasting in Dynamics 365 Sales Insights."
 ms.date: 02/03/2020
 ms.service: 
   - "dynamics-365-sales"
@@ -12,9 +12,9 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# About predictive forecasting
-<!--note from editor: I assume "premium forecasting" should be "predictive forecasting" throughout? Also, should this be in the TOC? I don't see it there.-->
-Predictive forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, predictive forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes. 
+# About premium forecasting
+
+Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes. 
 
 ## Prerequisites 
 
@@ -22,7 +22,7 @@ Review the following requirements before you use the predictive forecast feature
 
 - Purchase a Dynamics 365 Sales Insights license or start a trial to use advanced Sales Insights features. 
 
-- Enable forecasting. To learn more, see <!--note from editor: Shouldn't this link go to the main topic, configure-forecast? Seems like a nicer jumping-off point.-->[Enable forecasting](https://docs.microsoft.com/dynamics365/sales-enterprise/enable-forecast). 
+- Enable forecasting. To learn more, see [Enable forecasting](https://docs.microsoft.com/dynamics365/sales-enterprise/enable-forecast). 
 
 ## Features available in predictive forecasting
 
