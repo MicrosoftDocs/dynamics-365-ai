@@ -1,5 +1,5 @@
 ---
-title: "Edit insight cards using Microsoft Flow in Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Edit insight cards using Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Edit insight cards in assistant"
 keywords: " "
 ms.date: 10/01/2019
@@ -17,6 +17,9 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
+<!--from editor: I changed mentions of Microsoft Flow to Power Automate. -->
+
+
 # Edit insight cards
 
 Editing the cards allows you to do the following tasks based on the card:
@@ -29,9 +32,9 @@ Editing the cards allows you to do the following tasks based on the card:
 
 ## Turn cards on or off
 
-Different users have different needs in using the cards, and you don’t want to show the card for some users at this point of time. Similarly, you don’t want to show certain cards in your organization or you might not need them to be displayed at this time. You can turn the cards on or off depending on the need to show them to specific user roles in the **Personal settings** section of the **Sales Insights settings** setup center.
+Different users have different needs in using the cards, and you don’t want to show the card for some users at this point in time. Similarly, you don’t want to show certain cards in your organization or you might not need them to be displayed at this time. You can turn the cards on or off depending on the need to show them to specific user roles in the **Personal settings** section of the **Sales Insights settings** setup center.
 
-When you turn off a card, the assistant feature disables the card for the security roles you've assigned the card to. However, the assistant feature doesn't disable other properties that are associated with the card. For the card that you generated using Microsoft Flow, you can disable the card but you can't delete the flow. Even after you disable the card, the flow remains active because other custom insight cards might use the flow.
+When you turn off a card, the assistant feature disables the card for the security roles you've assigned the card to. However, the assistant feature doesn't disable other properties that are associated with the card. For the card that you generated using Microsoft Power Automate, you can disable the card but you can't delete the flow. Even after you disable the card, the flow remains active because other custom insight cards might use the flow.
 
 Go to the **Assistant Studio** page (**Home** tab) under **Assistant** and open a card from the list that you want to turn on or off. Select the **On**/**Off** toggle as required. In this example, we turned on the **Stake holder Recommendation** card.
 
@@ -42,7 +45,7 @@ Go to the **Assistant Studio** page (**Home** tab) under **Assistant** and open 
 
 To turn multiple cards on or off, go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the cards that you want to turn on or off. Select **Turn on cards** or **Turn off cards** as per your requirement.
 
-In this example, we want to turn off the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Questions**. After choosing the cards, select **Turn off cards** and the three cards are disabled. 
+In this example, we want to turn off the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Question**. After choosing the cards, select **Turn off cards** and the three cards are disabled. 
 
 > [!div class="mx-imgBorder"]
 > ![Turn off or on multiple cards ](media/si-admin-edit-card-on-off-multiple-cards.png "Turn off or on multiple cards")
@@ -51,10 +54,16 @@ In this example, we want to turn off the cards **SuggestedContacts**, **Suggeste
 
 If you want to turn off cards for a particular security role, go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and filter the cards based on the role. Choose the cards that you want to turn off for the selected role and select **Remove for *role name***. The cards will not show for the role that you have selected.
 
-In this example, we have filtered the cards with the security role **Survey Owner** and chosen the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Questions**. Select **Remove for Survey Owner** and the cards are turned off only for the **Survey Owner** role. 
+In this example, we have filtered the cards with the security role **Survey Owner** and chosen the cards **SuggestedContacts**, **SuggestedActivities**, and **Customer Question**. Select **Remove for Survey Owner** and the cards are turned off only for the **Survey Owner** role. 
 
 > [!div class="mx-imgBorder"]
 > ![Turn off or on multiple cards for a role](media/si-admin-edit-card-on-off-multiple-cards-role.png "Turn off or on multiple cards for a role")
+
+
+
+
+
+
 
 ## Assign roles to or remove roles from a card
 
