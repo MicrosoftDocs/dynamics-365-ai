@@ -281,7 +281,7 @@ Use the **Launch playbook** option to launch a playbook from the card. Before yo
 
 ### REST
 
-Use the **REST** option to invoke REST APIs.  
+Use the **REST** option to invoke REST API.  
 
 1. On the **Create card for assistant V2 (preview)** step, select the **Button type** as **REST**.
 
