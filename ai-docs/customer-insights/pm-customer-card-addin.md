@@ -1,7 +1,7 @@
 ---
 title: "Customer Card add-in | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 12/12/2019
+ms.date: 02/03/2020
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -14,7 +14,7 @@ manager: shellyha
 
 The Customer Card add-in gives you a 360-degree view of each of your customers. Once installed, you can start using  **Timeline Control** and **Demographic Control** to unlock rich insights on selected customers, including their location, age, latest activities, and more.
 
-Note that a prerequisite to using the Customer Card is use of the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
+A prerequisite to using the Customer Card is use of the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
 
 - To view customer activities, they should first be defined using the **Activities** screen.
 - To view customer KPIs, they should first be defined using the **Measures** screen.
@@ -34,11 +34,11 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > [!div class="mx-imgBorder"]
    > ![Select display name](media/select-display-name.png "Select display name")
 
-   If the Customer Insights solution does not appear in your list of solutions, select **Get Solutions from Marketplace** above the list. This will take you to Microsoft AppSource.
+   If the Customer Insights solution doesn't appear in your list of solutions, select **Get Solutions from Marketplace** above the list. This will take you to Microsoft AppSource.
 
    In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment.
 
-3. Here you will configure the overall settings for the Customer Card add-in. Sign in with the admin Azure Active Directory (Azure AD) account you use to configure Customer Insights.
+3. Here you'll configure the overall settings for the Customer Card add-in. Sign in with the admin Azure Active Directory (Azure AD) account you use to configure Customer Insights.
 
    > [!NOTE]
    > Check that the browser pop-up blocker does not block the authentication window when you select the **Authenticate** button.
@@ -103,9 +103,9 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > [!div class="mx-imgBorder"]
    > ![Select the Web option](media/field-properties-add-control-demographic2.png "Select the Web options")
 
-7. Select **Save** and **Publish** to publish the contact form where you have placed the demographic control.
+7. Select **Save** and **Publish** to publish the contact form where you've placed the demographic control.
 
-8. Go to the published contact form. You will see the demographic control. You might need to sign in the first time you use it.
+8. Go to the published contact form. You'll see the demographic control. You might need to sign in the first time you use it.
 
    To customize what you want to show on the demographic control, select the edit button in the upper-right corner. This customization will apply across the organization.
   
@@ -114,7 +114,7 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
 
 ## Timeline control
 
-1. In the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.  
+1. In the form editor, drag any field from the Field Explorer to where you'd like to place the demographic control.  
 
 2. Select the field you just added, and then select **Change Properties**.
 
@@ -129,6 +129,6 @@ Note that a prerequisite to using the Customer Card is use of the **Search & Fil
    > [!div class="mx-imgBorder"]
    > ![Select Web option](media/field-properties-add-control4.png "Select Web option")
 
-7. Select **Save** and **Publish** to publish the contact form where you have placed the timeline control.
+7. Select **Save** and **Publish** to publish the contact form where you've placed the timeline control.
 
-8. Go to the published contact form. You will see the timeline control. You might need to sign in the first time you use it.
+8. Go to the published contact form. You'll see the timeline control. You might need to sign in the first time you use it.
