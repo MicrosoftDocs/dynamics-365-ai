@@ -25,71 +25,72 @@
   items: 
     - name: Unification overview
       href: pm-configure-data.md
-    - name: Entities and attributes
+    - name: Map entities and attributes
       href: pm-map.md
-    - name: Entity matching
+    - name: Match entities
       href: pm-match.md
-    - name: Avoid conflicting data
+    - name: Merge entities
       href: pm-merge.md
-    - name: Unified customer profile page
+    - name: Review unified customer profiles
       href: pm-profiles.md
-    - name: Filtered customer profiles
+    - name: Filter unified customer profiles
       href: pm-manage-search.md
 
 - name: Data enrichment
   items: 
-  - name: Custom machine learning models
-    href: custom-models.md
-  - name: Affinities and demographics
-    href: pm-enrichment.md
-  - name: Customer activities
-    href: pm-activities.md
-  - name: Relationships and connected entities
+  - name: Build relationships and connected entities
     href: pm-relationships.md
+  - name: Implement custom machine learning models
+    href: custom-models.md
+  - name: Analyze affinities and demographics
+    href: pm-enrichment.md
+  - name: List customer activities
+    href: pm-activities.md
 
 - name: Data analysis
   items: 
-  - name: Segments and customer groups
+  - name: Create segments and customer groups
     href: pm-segments.md
-  - name: Measures and KPIs
+  - name: Define measures and KPIs
     href: pm-measures.md
-  - name: Value predictions
+  - name: Complete date using value predictions
     href: predictions.md
 
 - name: Export options
   items: 
-    - name: Segment export
+    - name: Export segments
       href: segment-export.md
-    - name: Export destinations
+    - name: Set up export destinations
       href: export-destinations.md
-    - name: Customer Card Add-in 
+    - name: Install the Customer Card Add-in 
       href: pm-customer-card-addin.md
-    - name: Power BI connector
+    - name: Configure the Power BI connector
       href: pm-connectors.md
-    - name: Power Apps connector
+    - name: Configure the Power Apps connector
       href: pm-powerapps-connector.md
-    - name: Power Automate connector
+    - name: Configure the Power Automate connector
       href: power-automate-connector.md
 
 - name: Extensibility
   items:
-    - name: Entities schema in Common Data Model
+    - name: Review the entities schema in Common Data Model
       href: entity-schemas.md
-    - name: APIs
+    - name: Work with APIs
       href: pm-apis.md
 
 - name: Administration
   items: 
-    - name: System configuration
-      href: pm-settings.md
-    - name: User permissions
-      href: pm-permissions.md
-    - name: Managing environments
-      href: create-manage-environment.md
-    - name: Admin settings 
+    - name: Familiarize with admin settings 
       href: pm-admin.md
+    - name: Set up the system configuration
+      href: pm-settings.md
+    - name: Define user permissions
+      href: pm-permissions.md
+    - name: Manage multiple environments
+      href: create-manage-environment.md
+
     
-- name: Data Subject Rights (DSR) requests under GDPR
+- name: DSR requests under GDPR
   href: pm-gdpr.md
 
  
