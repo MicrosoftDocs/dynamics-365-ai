@@ -17,7 +17,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-<!--from editor: I changed mentions of Microsoft Flow to Power Automate. -->
+<!--from editor: I changed mentions of Microsoft Flow to Power Automate. However, in the "Edit flow of a card" section, Microsoft Flow is used in UI text and in the screenshot. Has this UI been updated? In the image in line 72, the text under "Description" is poorly worded. If possible to change, this would work better: "Tells you when an email is received concerning an open opportunity with negative sentiment that can put the opportunity at risk." Also, see my question on line 168. -->
 
 
 # Edit insight cards
@@ -59,20 +59,14 @@ In this example, we have filtered the cards with the security role **Survey Owne
 > [!div class="mx-imgBorder"]
 > ![Turn off or on multiple cards for a role](media/si-admin-edit-card-on-off-multiple-cards-role.png "Turn off or on multiple cards for a role")
 
-
-
-
-
-
-
 ## Assign roles to or remove roles from a card
 
 When you create a card, you must specify the security roles to whom you want the card to display. By default, all the cards are assigned to the security roles **Salesperson** and **Sales manager**. You can edit the card to assign or remove the security roles to the card. 
 
->[!NOTE]
->The security roles you see in the cards are defined in the Common Data Service platform. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
+> [!NOTE]
+> The security roles you see in the cards are defined in the Common Data Service platform. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
-1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we've selected the **Opportunity at Risk (sentiment based)** card.
+1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we've selected the **Opportunity at Risk (sentiment based)** card.
 
     > [!div class="mx-imgBorder"]
     > ![View insight card details](media/si-admin-edit-card-assigned-roles.png "View insight card details")
@@ -82,7 +76,7 @@ When you create a card, you must specify the security roles to whom you want the
     > [!div class="mx-imgBorder"]
     > ![Roles assigned to card](media/si-admin-edit-card-assigned-roles-display-tab.png "Roles assigned to card")
 
-3. Under the **Show by security role (preview)** section, select Add the security role search box. A list of security roles that are available in your organization is displayed.
+3. Under the **Show by security role (preview)** section, select the **Add a security role** search box. A list of security roles that are available in your organization is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Security roles to add to card organization](media/si-admin-edit-card-assigned-roles-select-role.png "Security roles to add to card organization")
@@ -103,27 +97,27 @@ When you create a card, you must specify the security roles to whom you want the
 
 You can prioritize the cards that display in your organization. When you set a card as a priority, the card is displayed to the user at the top.
 
-When you open the **Manage insight cards** page (**Insight cards** tab), the list of cards that are defined for your organization is displayed. A check mark corresponding to the card in **High priority** column specifies that the card is set as priority.
+When you open the **Manage insight cards** page (**Insight cards** tab), the list of cards that are defined for your organization is displayed. A check mark corresponding to the card in the **High priority** column specifies that the card is set as priority.
 
 > [!NOTE]
 > You can also select the **High priority** tab to view the high priority cards.
 
-In this example, **SuggestedContacts** and **SuggestedActivities** cards are set as high priority. These cards will be promoted above other cards and displayed on top of the others.
+In this example, the **SuggestedContacts** and **SuggestedActivities** cards are set as high priority. These cards will be promoted above other cards and displayed on top of the others.
 
 > [!div class="mx-imgBorder"]
 > ![Card priority list view](media/si-admin-edit-card-assign-priority-list.png "Card priority list view")
 
 
-1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and open the card that you want to set as a priority.
+1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and open the card that you want to set as a priority.
 
-2. Go to the **Display Settings** tab and select **High priority**. In this example, we're selecting and prioritizing the **Customer Questions** card.
+2. Go to the **Display Settings** tab and select **High priority**. In this example, we're selecting and prioritizing the **Customer Question** card.
 
     > [!div class="mx-imgBorder"]
     > ![Set priority to card](media/si-admin-edit-card-set-priority-card.png "Set priority to card")
  
 2. Save the card.
 
-    The **Customer Questions** card is set as priority and you can verify that the **High priority** column corresponding to the card is updated with a check.
+    The **Customer Question** card is set as priority and you can verify that the **High priority** column corresponding to the card is updated with a check.
 
     > [!div class="mx-imgBorder"]
     > ![Updated priority list view](media/si-admin-edit-card-priority-list-view.png "Updated priority list view")
@@ -137,7 +131,7 @@ You can always edit the flow of the card when there is a business need to update
 > [!NOTE]
 > The **Edit card logic in Microsoft Flow** option appears only for the cards that are created in Microsoft Flow. You can see flow icon corresponding to the name of the cards that are created using Flow.
 
-1. Go to the go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example, we have selected the **No update in opportunity** card.
+1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example, we have selected the **No update in opportunity** card.
 
     > [!div class="mx-imgBorder"]
     > ![Open card to edit in flow](media/si-admin-edit-flow-select-edit-flow.png "Open card to edit in flow")
@@ -153,7 +147,7 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 
 ## View card usage metrics 
 
-Each insight card that is available in Assistant shows usage metrics based on the views and actions that users perform. These metrics help to get real-time data on how the card is utilized. Also, you can analyze what updates are necessary for the card, if it is under-utilized.
+Each insight card that is available in Assistant shows usage metrics based on the views and actions that users perform. These metrics help to get real-time data on how the card is used. Also, you can analyze what updates are necessary for the card, if it is underused.
 
 The metric values are for the last 30 days and calculated as follows:
 
@@ -163,19 +157,23 @@ Percentage value = (Number of actions performed * 100) / Number of views
 
 For example, when a card is displayed for 10 users and only four users have performed an action, the value displayed is 40%.
 
-Also, at the bottom of each metric, a trend value is displayed for the last 30 days from the current date. For example, the metric value was 30% in the last 30 days and 40% on current date, the trend value displays a 10% increase in the utilization.
+Also, at the bottom of each metric, a trend value is displayed for the last 30 days from the current date. For example, the metric value was 30% in the last 30 days and 40% on the current date, so the trend value displays a 10% increase in usage.
 
 > [!NOTE]
 > The metric values are refreshed every 24 hours.
 
 The following metrics are available on the card.
 
+
+<!--from editor: In numbers 2, 3, 4, and 5 below, does it display numbers for one user, or multiple users? -->
+
+
 | Number | Metrics | Description |
 |------|---------|-------------|
-| 1 | Header | specifies the number of times the card has been displayed to the number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
+| 1 | Header | Specifies the number of times the card has been displayed to the number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
 | 2 | Action | Displays in percentage value the number of times the user performed actions on the card. |
-| 3 | Snooze or dismiss | Displays in percentage value the number of times users has performed snooze and dismiss actions on the card. |
-| 4 | No action | Displays in percentage value the number of times the user didn't performed actions on the card. |
+| 3 | Snooze or dismiss | Displays in percentage value the number of times the user performed snooze and dismiss actions on the card.|
+| 4 | No action | Displays in percentage value the number of times the user didn't perform actions on the card. |
 | 5 | Feedback | Displays in percentage value the number of times the user liked and disliked the card. Also, a header displays the total number of users who gave the feedback. |
 
  > [!div class="mx-imgBorder"]
@@ -187,7 +185,7 @@ The following metrics are available on the card.
 
 [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
 
-[Create insight cards](create-insight-cards-flow.md)
+[Create custom insight cards](create-insight-cards-flow.md)
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
