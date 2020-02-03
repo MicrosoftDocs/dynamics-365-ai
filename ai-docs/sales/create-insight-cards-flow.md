@@ -17,7 +17,7 @@ caps.latest.revision: 1
 ---
 
 
-<!--from editor: Note that the first image still contains mentions of "Dynamics 365 for Sales. Also, check the link in line 86; unsure if it's correct. Please check the organization name in the images in lines 79 and 93 - is it OK for that to be visible? -->
+<!--from editor: Note that the first image still contains mentions of "Dynamics 365 for Sales. Also, check the links in lines 86 and 261; they open a 404 page when I try. Please check the organization name in the images in lines 79 and 93 - is it OK for that to be visible? -->
 
 
 
@@ -85,14 +85,6 @@ In this procedure, we will show as an example how to create an insight to act wh
  
     If you want to change the flow, select the plus (+) icon on the connector that is linking to the next step and then select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
 
-
-
-
-
-
-
-
-
 8. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
 
     Select **Show advanced options** to further update the step by configuring the parameters **Filter Query**, **Order By**, **Top Count**, and **Expand Query**.
@@ -119,7 +111,7 @@ In this procedure, we will show as an example how to create an insight to act wh
       -  **Organization Name**: The name of the organization for which you want to trigger the card.
       - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards**.
       - **Description**: The summary or the basic information of the card that is to be displayed.
-      - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. To learn more, see [Add actions to cards](#add-actions-to-cards)
+      - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. To learn more, see [Add actions to cards](#add-actions-to-cards).
       - **Action Parameter**: The ID of the created action.
       - Optionally, you can configure the advanced options for the condition. Select **Show advanced options** and update the parameters **Title**, **Start Date**, **End Date**, **Display to**, **Reasons**, **Regarding Object ID**, **Action Parameter Entity ID Type**, and **Regarding Object Type**.
         
@@ -132,14 +124,14 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 10. Use **Flow Checker** to verify errors and warnings in the flow. 
 
-    Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is error and warning free. The checker is always active, appearing in the command bar in the designer. The checker shows a Red dot when it finds one or more errors in your flow.
+    Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is error and warning free. The checker is always active, appearing in the command bar in the designer. The checker shows a red dot when it finds one or more errors in your flow.
 
-    For example, while creating **For due date coming up** card, you have not entered **Card Name**. The flow checker identifies the error and displays a red dot.  
+    For example, while creating a **For due date coming up** card, you haven't entered **Card Name**. The flow checker identifies the error and displays a red dot.  
 
     > [!div class="mx-imgBorder"]       
     > ![Flow checker with error](media/si-admin-create-flow-flow-checker-red-dot-example.png "Flow checker with error")
 
-    Select the **Flow Checker** and the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** is not entered. Resolve the error to continue.
+    When you select **Flow Checker**, the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** is not entered. Resolve the error to continue.
 
     > [!div class="mx-imgBorder"]       
     > ![Flow checker error details](media/si-admin-create-flow-flow-checker-details-example.png "Flow checker error details")
@@ -147,7 +139,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!NOTE]
     > You must resolve all errors and warnings to save the flow.
 
-11. (Optional) Select **Test** button to test your flow. 
+11. (Optional) Select the **Test** button to test your flow. 
 
     Ensure that all the configured steps are working as required. The test feature runs and validates each step in the flow and highlights if any error occurs on a step. You must resolve the error to proceed.
 
@@ -176,7 +168,7 @@ To access the saved flows, follow these steps:
     > [!NOTE]
     > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 
 
-2. Select Solutions and then select Default Solution.
+2. Select **Solutions** and then select **Default Solution**.
 
     > [!div class="mx-imgBorder"]
     > ![Select default solution option](media/si-admin-view-flows-solution-selection.png "Select default solution option")
@@ -224,7 +216,7 @@ You can add actions that a user can do on a card. To select an action, follow th
 
 ### Custom action (CRM process)
 
-Use **Custom action (CRM process)** option to invoke a custom action that is defined in Dynamics 365 Sales for an entity. To learn more, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Use the **Custom action (CRM process)** option to invoke a custom action that is defined in Dynamics 365 Sales for an entity. To learn more, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 To add a custom action, follow these steps:
 
