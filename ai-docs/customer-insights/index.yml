@@ -1,0 +1,55 @@
+### YamlMime:Landing
+
+title: Dynamics 365 Customer Insights
+summary: Welcome to Customer Insights! Build your Customer Data Platform by bringing data from various channels, unifying the data, enriching it, and exporting it to first-party and third-party apps for your users.
+
+metadata:
+  title: Customer Insights documentation
+  description: Help hub with key links for Dynamics 365 Customer Insights.
+  ms.service: dynamics-365-ai
+  ms.topic: landing-page
+  ms.collection: collection
+  author: m-hartmann
+  ms.author: mhart
+  ms.date: 02/04/2020
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Ingest data sources
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Add data sources
+            url: pm-data-sources.md
+          - text: Connect to a Common Data Model folder
+            url: connect-common-data-model-folder.md
+          - text: Understand entities
+            url: pm-entities.md
+
+  # Card (optional)
+  - title: Unify customer profiles
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Map
+            url: pm-map.md
+          - text: Match
+            url: pm-match.md
+          - text: Merge
+            url: pm-merge.md
+
+  # Card
+  - title: Enrich unified customer profiles
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Configure relationships
+            url: pm-relationships.md
+          - text: List customer activities
+            url: activities.md
+          - text: Bring your own machine learning models
+            url: custom-models.md
