@@ -1,7 +1,7 @@
 ---
 title: "Entities page in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "View ingested data on the Entities page in Dynamics 365 Customer Insights."
-ms.date: 12/12/2019
+ms.date: 01/30/2020
 ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -16,7 +16,7 @@ After [configuring your data sources](pm-data-sources.md), go to the **Entities*
 
 The **Entities** page lists entities and includes several columns:
 
-- **Name**: The name of your data entity. If you see a warning symbol next to an entity name means that the data for that entity didn't load successfully.
+- **Name**: The name of your data entity. If you see a warning symbol next to an entity name, it means that the data for that entity didn't load successfully.
 - **Source**: The type of data sources that ingested the entity
 - **Created by**: Name of the person who created the entity
 - **Created**: Date and time of the entity creation
@@ -36,12 +36,12 @@ Select an entity to explore the different fields and records included within tha
 > [!div class="mx-imgBorder"]
 > ![Fields table](media/data-manager-entities-fields.PNG "Fields table")
 
-- The **Fields** tab shows a table to review details for the selected entity, such as field names, data types, and types. The **Type** column shows Common Data Model associated types. Those are semantic types that are either auto-identified by the system or can be [manually mapped](pm-map.md) by a user. Those types can differ from the attributes' data types (for example, the field *Email* below has a data type *Text* but its (semantic) Common Data Model type might be *Email* or *EmailAddress*):
+- The **Fields** tab shows a table to review details for the selected entity, such as field names, data types, and types. The **Type** column shows Common Data Model associated types, which are either auto-identified by the system or [manually mapped](pm-map.md) by users. These are semantic types that can differ from the attributes' data types—for example, the field *Email* below has a data type *Text* but its (semantic) Common Data Model type might be *Email* or *EmailAddress*.
 
 > [!NOTE]
 > Both tables show only a sample of your entity's data. To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](pm-data-sources.md).
 
-To learn more about the data ingested in the entity, the **Summary** column provides you some important characteristics of the data, such as nulls, missing values, unique values, counts and distributions, as applicable to your data.
+To learn more about the data ingested in the entity, the **Summary** column provides you with some important characteristics of the data, such as nulls, missing values, unique values, counts, and distributions, as applicable to your data.
 
 Select the chart icon to see the summary of the data.
 
