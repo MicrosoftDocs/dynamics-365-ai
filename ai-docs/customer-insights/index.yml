@@ -50,6 +50,6 @@ landingContent:
           - text: Configure relationships
             url: pm-relationships.md
           - text: List customer activities
-            url: activities.md
+            url: pm-activities.md
           - text: Bring your own machine learning models
             url: custom-models.md
