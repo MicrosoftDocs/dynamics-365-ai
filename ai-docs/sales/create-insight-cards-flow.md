@@ -16,11 +16,6 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-
-<!--from editor: Note that the first image still contains mentions of "Dynamics 365 for Sales. Also, check the links in lines 86 and 261; they open a 404 page when I try. Please check the organization name in the images in lines 79 and 93 - is it OK for that to be visible? -->
-
-
-
 # Create custom insight cards
 
 As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:

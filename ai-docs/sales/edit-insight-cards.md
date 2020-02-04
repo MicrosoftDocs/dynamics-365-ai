@@ -17,9 +17,6 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
-<!--from editor: I changed mentions of Microsoft Flow to Power Automate. However, in the "Edit flow of a card" section, Microsoft Flow is used in UI text and in the screenshot. Has this UI been updated? In the image in line 72, the text under "Description" is poorly worded. If possible to change, this would work better: "Tells you when an email is received concerning an open opportunity with negative sentiment that can put the opportunity at risk." Also, see my question on line 168. -->
-
-
 # Edit insight cards
 
 Editing the cards allows you to do the following tasks based on the card:
@@ -129,14 +126,14 @@ To know how to optimize ranking of cards,  see [Optimize ranking of insight card
 You can always edit the flow of the card when there is a business need to update it. You can add or update conditions and steps, and update the properties of a condition. 
 
 > [!NOTE]
-> The **Edit card logic in Microsoft Flow** option appears only for the cards that are created in Microsoft Flow. You can see flow icon corresponding to the name of the cards that are created using Flow.
+> The **Edit card logic in Microsoft Power Automate** option appears only for the cards that are created in Microsoft Power Automate. You can see a flow icon corresponding to the name of the cards that are created using Power Automate.
 
 1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to change the flow. In this example, we have selected the **No update in opportunity** card.
 
     > [!div class="mx-imgBorder"]
     > ![Open card to edit in flow](media/si-admin-edit-flow-select-edit-flow.png "Open card to edit in flow")
  
-2. Select **Edit card logic in Microsoft Flow** and the flow opens in a tab to edit.
+2. Select **Edit card logic in Microsoft Power Automate** and the flow opens in a tab to edit.
 
     > [!div class="mx-imgBorder"]
     > ![Edit flow of card](media/si-admin-edit-card-edit-flow.png "Edit flow of card")
@@ -168,8 +165,8 @@ The following metrics are available on the card.
 |------|---------|-------------|
 | 1 | Header | Specifies the number of times the card has been displayed to the number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
 | 2 | Action | Displays in percentage value the number of times the users performed actions on the card. |
-| 3 | Snooze or dismiss | Displays in percentage value the number of times the users performed snooze and dismiss actions on the card.|
-| 4 | No action | Displays in percentage value the number of times the users didn't perform actions on the card. |
+| 3 | Snooze or dismiss | Displays in percentage value that users have performed snooze and dismiss actions on the card.|
+| 4 | No action | Displays in percentage value that users didn't perform actions on the card. |
 | 5 | Feedback | Displays in percentage value the number of times the users liked and disliked the card. Also, a header displays the total number of users who gave the feedback. |
 
  > [!div class="mx-imgBorder"]
