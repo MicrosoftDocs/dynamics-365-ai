@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: Map data to create unified customer profile in Dynamics 365 Customer Insights
-ms.date: 12/12/2019
+ms.date: 02/03/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -15,7 +15,7 @@ manager: shellyha
 **Map** is the first stage in the data unification process in Dynamics 365 Customer Insights. Mapping consists of two phases:
 
 - *Entity selection*: Identify the combinable entities that lead to a dataset with more complete information about your customers.
-- *Attribute selection*: For each entity, identify the columns you want to combine and reconcile in the next data unification phases, *match* and *merge*. In Customer Insights, those columns are called *Attributes*.
+- *Attribute selection*: For each entity, identify the columns you want to combine and reconcile in the *match* and *merge* phases. In Customer Insights, these columns are called *Attributes*.
 
 For more information about the general flow of data unification, see [Unify](pm-configure-data.md).
 
@@ -25,7 +25,7 @@ For more information about the general flow of data unification, see [Unify](pm-
 
 2. Start the map phase by selecting **Add entities**.
 
-3. In the **Add entity** pane, select the entities you want to add. We recommend to select at least two entities to benefit from the data unification process.
+3. In the **Add entity** pane, select the entities you want to add. We recommend selecting at least two entities to benefit from the data unification process.
 
    > [!div class="mx-imgBorder"]
    > ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
@@ -41,7 +41,7 @@ After selecting your entities, the **Map** page list the ingested entities.
 > [!div class="mx-imgBorder"]
 > ![See ingested entities](media/data-manager-configure-map-ingested-entities.png "See ingested entities")
 
-The system auto-selected all the attributes for which an attribute type was auto-identified. Those attributes include names, email address, and several others. Review these attributes their specified types since they'll be used to combine your entities in the *match* configuration phase.
+The system automatically selected all the attributes for which an attribute type was identified. Those attributes include names, email address, and several others. Review these attributes their specified types since they'll be used to combine your entities in the *match* configuration phase.
 
 ## Add and remove attributes
 
@@ -54,7 +54,7 @@ The system auto-selected all the attributes for which an attribute type was auto
 
 3. Use the search or scroll down to find and select your attributes of interest.
 
-4. Finish by selecting **Save**.
+4. Select **Save**.
 
 ## Add and remove entities
 
@@ -63,7 +63,7 @@ The system auto-selected all the attributes for which an attribute type was auto
    > [!div class="mx-imgBorder"]
    > ![Add or remove entities](media/data-manager-configure-map-edit.png "Add or remove entities")
 
-2. In the **Entities** pane, select the entities that you want to add or clear the selection for entities that you want to remove. Currently, you can't remove entities if they were already matched.
+2. In the **Entities** pane, select the entities you want to add, or clear the selection for entities you want to remove. Currently, you can't remove entities if they've already been matched.
 
    > [!div class="mx-imgBorder"]
    > ![Edit entities list](media/data-manager-configure-map-edit-customer-entity.png "Edit entities list")
@@ -75,7 +75,7 @@ Before completing the matching phase, you need to define the primary key and its
 > [!div class="mx-imgBorder"]
 > ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
 
-- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it should not include either duplicate values, missing values, or null values.
+- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include either duplicate values, missing values, or null values.
 
 - **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
 
