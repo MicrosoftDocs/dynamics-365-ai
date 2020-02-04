@@ -16,6 +16,11 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
+
+<!--from editor: Note that the first image still contains mentions of "Dynamics 365 for Sales. Also, check the links in lines 86 and 261; they open a 404 page when I try. Please check the organization name in the images in lines 79 and 93 - is it OK for that to be visible? -->
+
+
+
 # Create custom insight cards
 
 As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
@@ -25,17 +30,17 @@ As an administrator or sales manager, you can create your own suggested actions 
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
-1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
+1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the sitemap, select **Home** under **Assistant** to go to **Assistant Studio** page.
+3. On the site map, under **Assistant**, select **Home** to go to the **Assistant Studio** page.
 
     > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to **Assistant Studio** page.
+    > Alternatively, on the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to the **Assistant Studio** page.
 
 4. On the Assistant Studio page, select **+ Create a new insight card**.
  
@@ -54,16 +59,16 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]    
     > ![Select insight card creation template](media/si-admin-create-cards-template-selection-page.png "Select insight card creation template")
 
-    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to common data services and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
+    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Common Data Service and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
 
-    If any of the accounts is not valid, the **Continue** button is grayed out and you cannot proceed further. Select **Update** to sign in with a valid credential.
+    If any of the accounts are not valid, the **Continue** button appears dimmed and you cannot proceed. Select **Update** to sign in with a valid credential.
 
     > [!div class="mx-imgBorder"]       
     > ![Accounts validation in flow](media/si-admin-flow-account-validation.png "Accounts validation in flow")
 
 6. Select **Continue**.
 
-    The predefined flow is displayed. In this example, we are creating an insight when a due date is coming up for an opportunity. There are three steps associated with the predefined flow with the prepopulated data. 
+    The predefined flow is displayed. In this example, we are creating an insight when a due date is coming up for an opportunity. There are three steps associated with the predefined flow with the prepopulated data: 
     - **Step 1**: Create schedule
     - **Step 2**: Define operation
     - **Step 3**: Define control
@@ -73,12 +78,12 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Edit flow template](media/cc-edit-template.png "Edit flow template")
 
-7. In step 1, a schedule when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
+7. In step 1, a schedule for when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
 
     > [!div class="mx-imgBorder"]       
     > ![Create card schedule](media/cc-card-schedule-step.png "Create card schedule")
-
-    If you want to change the flow, select the + icon on the connector that is linking to the next step and select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
+ 
+    If you want to change the flow, select the plus (+) icon on the connector that is linking to the next step and then select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
 
 8. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
 
@@ -87,7 +92,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Define card operations](media/cc-card-operation-step.png "Define card operations")
 
-9. In step 3, an **apply to each** control is selected and enter the necessary information.
+9. In step 3, select an **apply to each** control and enter the necessary information.
 
     a. The **Value** token is added to the **Select an output from previous steps** box. This value is obtained from the previous step where we defined the entity.
     
@@ -106,7 +111,7 @@ In this procedure, we will show as an example how to create an insight to act wh
       -  **Organization Name**: The name of the organization for which you want to trigger the card.
       - **Card Name**: Name of the card to refer to in the list of available cards in the **Manage insight cards**.
       - **Description**: The summary or the basic information of the card that is to be displayed.
-      - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. To learn more, see [Add actions to cards](#add-actions-to-cards)
+      - **Action**: The convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. To learn more, see [Add actions to cards](#add-actions-to-cards).
       - **Action Parameter**: The ID of the created action.
       - Optionally, you can configure the advanced options for the condition. Select **Show advanced options** and update the parameters **Title**, **Start Date**, **End Date**, **Display to**, **Reasons**, **Regarding Object ID**, **Action Parameter Entity ID Type**, and **Regarding Object Type**.
         
@@ -119,14 +124,14 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 10. Use **Flow Checker** to verify errors and warnings in the flow. 
 
-    Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is error and warning free. The checker is always active, appearing in the command bar in the designer. The checker shows a Red dot when it finds one or more errors in your flow.
+    Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is error and warning free. The checker is always active, appearing in the command bar in the designer. The checker shows a red dot when it finds one or more errors in your flow.
 
-    For example, while creating **For due date coming up** card, you have not entered **Card Name**. The flow checker identifies the error and displays a red dot.  
+    For example, while creating a **For due date coming up** card, you haven't entered **Card Name**. The flow checker identifies the error and displays a red dot.  
 
     > [!div class="mx-imgBorder"]       
     > ![Flow checker with error](media/si-admin-create-flow-flow-checker-red-dot-example.png "Flow checker with error")
 
-    Select the **Flow Checker** and the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** is not entered. Resolve the error to continue.
+    When you select **Flow Checker**, the corresponding error is displayed with more details. In this example, the error specifies that the **Card Name** is not entered. Resolve the error to continue.
 
     > [!div class="mx-imgBorder"]       
     > ![Flow checker error details](media/si-admin-create-flow-flow-checker-details-example.png "Flow checker error details")
@@ -134,7 +139,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!NOTE]
     > You must resolve all errors and warnings to save the flow.
 
-11. (Optional) Select **Test** button to test your flow. 
+11. (Optional) Select the **Test** button to test your flow. 
 
     Ensure that all the configured steps are working as required. The test feature runs and validates each step in the flow and highlights if any error occurs on a step. You must resolve the error to proceed.
 
@@ -154,7 +159,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
 ## View your saved flows
 
-After you create a flow, a card must be generated to based on the created flow to access the flow in the designer. Sometimes, cards may not be generated immediately and you may not find the created flow to update or view. 
+After you create a flow, a card must be generated based on the created flow to access the flow in the designer. Sometimes, cards may not be generated immediately and you may not find the created flow to update or view. 
 
 To access the saved flows, follow these steps:
 
@@ -163,7 +168,7 @@ To access the saved flows, follow these steps:
     > [!NOTE]
     > By default, your organization is selected based on your latest association. If you have multiple organizations associated with you, select the proper organization from your profile settings. 
 
-2. Select Solutions and then select Default Solution.
+2. Select **Solutions** and then select **Default Solution**.
 
     > [!div class="mx-imgBorder"]
     > ![Select default solution option](media/si-admin-view-flows-solution-selection.png "Select default solution option")
@@ -211,7 +216,7 @@ You can add actions that a user can do on a card. To select an action, follow th
 
 ### Custom action (CRM process)
 
-Use **Custom action (CRM process)** option to invoke a custom action that is defined in Dynamics 365 Sales for an entity. To learn more, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Use the **Custom action (CRM process)** option to invoke a custom action that is defined in Dynamics 365 Sales for an entity. To learn more, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 To add a custom action, follow these steps:
 
