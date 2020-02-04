@@ -164,17 +164,13 @@ Also, at the bottom of each metric, a trend value is displayed for the last 30 d
 
 The following metrics are available on the card.
 
-
-<!--from editor: In numbers 2, 3, 4, and 5 below, does it display numbers for one user, or multiple users? -->
-
-
 | Number | Metrics | Description |
 |------|---------|-------------|
 | 1 | Header | Specifies the number of times the card has been displayed to the number of users. For example, if a card is displayed 621 times to 362 users, then the header shows **Shown 621 times, to 362 users**. |
-| 2 | Action | Displays in percentage value the number of times the user performed actions on the card. |
-| 3 | Snooze or dismiss | Displays in percentage value the number of times the user performed snooze and dismiss actions on the card.|
-| 4 | No action | Displays in percentage value the number of times the user didn't perform actions on the card. |
-| 5 | Feedback | Displays in percentage value the number of times the user liked and disliked the card. Also, a header displays the total number of users who gave the feedback. |
+| 2 | Action | Displays in percentage value the number of times the users performed actions on the card. |
+| 3 | Snooze or dismiss | Displays in percentage value the number of times the users performed snooze and dismiss actions on the card.|
+| 4 | No action | Displays in percentage value the number of times the users didn't perform actions on the card. |
+| 5 | Feedback | Displays in percentage value the number of times the users liked and disliked the card. Also, a header displays the total number of users who gave the feedback. |
 
  > [!div class="mx-imgBorder"]
  > ![Insight card metrics](media/insight-card-metrics.png "Insight card metrics")
