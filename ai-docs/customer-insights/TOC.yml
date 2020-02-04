@@ -1,5 +1,5 @@
 - name: Dynamics 365 Customer Insights
-  href: index.md
+  href: index.yml
 
 - name: Product overview
   href: overview.md
@@ -10,8 +10,8 @@
 - name: Free trial
   href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
 
-- name: First steps
-  href: pm-homepage.md
+# - name: First steps
+#  href: pm-homepage.md
 
 - name: Data sources
   items:
