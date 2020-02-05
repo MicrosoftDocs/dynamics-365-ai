@@ -1,7 +1,7 @@
 ---
 title: "Power Apps connector | Microsoft Docs"
 description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
-ms.date: 12/04/2019
+ms.date: 02/04/2020
 ms.reviewer: groxer
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -48,7 +48,7 @@ Follow these steps to connect your app to Customer Insights:
    > [!div class="mx-imgBorder"]
    > ![Choose an entity](media/connector-powerapps8.png "Choose an entity")
 
-10. You are now ready to start building an app with Customer Insights data. For example, let's add a gallery element to list the customers we have ingested on Customer Insights.
+10. You're now ready to start building an app with Customer Insights data. For example, let's add a gallery element to list the customers we've ingested on Customer Insights.
 
     > [!div class="mx-imgBorder"]
     > ![Add a gallery element](media/connector-powerapps9.png "Add a gallery element")

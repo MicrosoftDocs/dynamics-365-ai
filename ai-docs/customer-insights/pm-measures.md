@@ -1,7 +1,7 @@
 ---
 title: "Measures in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Define customer-related measures to analyze and reflect the performance of certain business areas."
-ms.date: 12/04/2019
+ms.date: 02/04/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -11,13 +11,13 @@ manager: shellyha
 ---
 # Measures
 
-**Measures** represent key performance indicators (KPIs) that reflect the performance and health of specific business areas. Dynamics 365 Customer Insights provides an intuitive experience for building different types of measures, using a query-builder that doesn’t require you to manually code or validate your measures. You can track your business measures on the **Home** page, see measures for a specific customer as part of the **Customer Card**, and use measures to define a customer segments on the **Segments** page.
+**Measures** represent key performance indicators (KPIs) that reflect the performance and health of specific business areas. Dynamics 365 Customer Insights provides an intuitive experience for building different types of measures, using a query builder that doesn’t require you to code or validate your measures manually. You can track your business measures on the **Home** page, see measures for specific customers on the **Customer Card**, and use measures to define customer segments on the **Segments** page.
 
 [View this video - Getting Started: Creating Customer and Business Measures](https://youtu.be/aSM1YV84KUc).
 
 ## Create a measure
 
-This section walks you through on creating a measure from scratch. You can build measures by leveraging data from multiple data sources that are connected through the Customer entity
+This section walks you through creating a measure from scratch. You can build measures with data from multiple data sources that are connected through the Customer entity.
 
 1. In Customer Insights, go to **Measures**.
 
@@ -41,7 +41,7 @@ This section walks you through on creating a measure from scratch. You can build
    To add more entities, select **Add entity** and select entities you want to use for the measure.
 
    > [!NOTE]
-   > You can select only entities that have relationships to your starting entity. If you haven't defined relationships yet, see [Relationships](pm-relationships.md) for more details.
+   > You can select only entities that have relationships to your starting entity. For more information about defining relationships, see [Relationships](pm-relationships.md).
 
 6. Optionally, you can configure variables. In the **Variables** section, select **New variable**.
 
@@ -69,14 +69,14 @@ This section walks you through on creating a measure from scratch. You can build
 
     - **Entity**: If you define a Measure entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute.
     - **Field**: Choose the specific attribute to be included either in your Measure entity or attribute.
-    - **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you have selected a Date type attribute.
+    - **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you've selected a Date type attribute.
     - **As**: Defines the name of your new field.
     - **Display name**: Defines the display name of your field.
 
     > [!NOTE]
     > Your business measure will be saved as a single-number entity and will appear on the **Home** page unless you add more dimensions to your measure. After adding more dimensions, the measure will *not* show up on the **Home** page.
 
-13. Optionally, add aggregation functions. Any aggregation that you create results in a new value within your Measures entity or attribute. Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, **Count Unique**, **First** (takes the first record of a dimension value), and **Last** (takes the last record that was added to a dimension value).
+13. Optionally, add aggregation functions. Any aggregation that you create results in a new value within your Measures entity or attribute. Supported aggregation functions are: **Min**, **Max**, **Average**, **Median**, **Sum**, **Count Unique**, **First** (takes the first record of a dimension value), and **Last** (takes the last record added to a dimension value).
 
 14. Select **Save** to apply your changes to the measure.
 
@@ -84,7 +84,7 @@ This section walks you through on creating a measure from scratch. You can build
 
 After creating at least one measure, you'll see a list of measures on the **Measures** page in Customer Insights.
 
-You'll find information about the measure type, the creator, creation date and time, last edit date and time, status (whether the measure is active, inactive or failed from being created), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output.
+You'll find information about the measure type, the creator, creation date and time, last edit date and time, status (whether the measure is active, inactive, or failed), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output.
 
 To export the data, select **Download as CSV** after opening the measure preview.
 
