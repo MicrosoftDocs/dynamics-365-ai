@@ -36,6 +36,8 @@ Before you create a snapshot for a forecast, note the following:
 
 -	You can't take snapshots for an active forecast that's either entirely in the past or entirely in the future. For example, if it's currently January 25, 2020 and your forecast has an end date of January 24, 2020, you won't be able to take a snapshot of this forecast because its end date has already passed.
 
+- Snapshots save only the system-calculated forecast values and will not consider the adjusted values. To learn more, see [Adjust values in a forecast](/sales-enterprise/adjust-values-in-forecast).
+
 **To create snapshots**
 
 1.	Sign in to the Sales Hub app.
