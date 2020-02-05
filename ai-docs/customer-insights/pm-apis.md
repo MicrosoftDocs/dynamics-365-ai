@@ -1,7 +1,7 @@
 ---
 title: "APIs | Microsoft Docs"
 description: "APIs for Dynamics 365 Customer Insights."
-ms.date: 01/14/2019
+ms.date: 02/03/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,16 +12,16 @@ manager: shellyha
 
 # APIs
 
-There are currently several types of APIs that you can start using with Dynamics 365 Customer Insights. The details (including parameters and responses) of these APIs can be found on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
+There are currently several types of APIs you can use with Dynamics 365 Customer Insights. Details of these APIs, including parameters and responses, can be found on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
-The goal of this section is not to cover all the Customer Insights APIs but rather to:
+The goal of this section isn't to cover all the Customer Insights APIs, but rather to:
 
 - Provide guidance on how to use the Swagger tool.
-- Provide explanations around some of the most important functionalities that you, as a user, can leverage through our APIs.
+- Provide explanations around some of the most important functionalities that you, as a user, can take advantage of through our APIs.
 
 ## How to use the Customer Insights Swagger webpage
 
-If you are not familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
+If you aren't familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
 
 ## Functionalities served with the Customer Insights Open Data Protocol APIs
 
@@ -47,18 +47,18 @@ See the **Conflation** table on the [Customer Insights Swagger webpage](https://
 | Field | Limitation |
 |---------|---------|
 | {instanceId} | ID must be the ID of an existing instance, and the user issuing the request must have access to that instance. |
-| {entityName} | It should be an entity name that has data ingested for the given instance (and a data source, if that is given as well). |
-| {datasourceId} | ID must be the ID of a data source that exists inside of the given instance. |
+| {entityName} | This should be an entity name that has data ingested for the given instance (and a data source, if given as well). |
+| {datasourceId} | ID must be the ID of a data source that exists in the given instance. |
 | {conflationId} | ID must be the ID of an existing conflation for the given instance. |
 
 ### Additional limitations by API
 
 | API | Limitations |
 |---------|---------|
-| PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation | 1. Request body will have a list of entity names, per data source. These must actually exist as ingested entities for the data source. <br/><br/> 2. Each entity named in request body must already have a primary key defined. |
+| PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation | 1. Request body will have a list of entity names, per data source. These names must actually exist as ingested entities for the data source. <br/><br/> 2. Each entity named in request body must already have a primary key defined. |
 | PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/entityInformation/{entityName} | Same limitations as above, except the request body will have a single entity name, not a list. |
 | PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/datasources/<br/>{datasourceId}/entityInformation/{entityName} | Same limitations as above. |
-| PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflationPlan | 1. Any entity that appears in the plan must have been ingested in the referenced data source. <br/><br/> 2. Any attribute that appears in the plan must actually exist as an attribute as the referenced entity. <br/><br/> 3. Any entity that appears in the plan must have a primary key defined. <br/><br/> 4. All entities in the ConflationOrder must have corresponding EntityConflationInformation. <br/><br/> 5. At least 1 rule and criteria must be defined. <br/><br/> 6. No copy criteria may be included in the plan. <br/><br/> 7. All entities in the plan must appear in the entity conflation order. <br/><br/> 8. Entities cannot appear in the plan out of the order defined in ConflationOrder. <br/><br/> 9. All matched attributes must have the same type. |
+| PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflationPlan | 1. Any entity that appears in the plan must have been ingested in the referenced data source. <br/><br/> 2. Any attribute that appears in the plan must actually exist as an attribute as the referenced entity. <br/><br/> 3. Any entity that appears in the plan must have a primary key defined. <br/><br/> 4. All entities in the ConflationOrder must have corresponding EntityConflationInformation. <br/><br/> 5. At least 1 rule and criteria must be defined. <br/><br/> 6. No copy criteria may be included in the plan. <br/><br/> 7. All entities in the plan must appear in the entity conflation order. <br/><br/> 8. Entities can't appear in the plan out of the order defined in ConflationOrder. <br/><br/> 9. All matched attributes must have the same type. |
 | PATCH<br/>/api/instances/{instanceId}/conflations/{conflationId}/conflictResolutionRules | 1. Same as above. <br/><br/> 2. Same as above. <br/><br/> 3. Same as above <br/><br/> 4. At least 1 resolution policy must be defined against at least 1 source attribute. <br/><br/> All entities defined in the resolution policy must be part of the conflation plan.
 
 ## Limitations involved with using the Customer Insights Relationship APIs
@@ -75,16 +75,16 @@ Most of these APIs require that data has already been ingested, with the followi
 - GET /api/instances/{instanceId}/manage/relationships/{relationshipName}
 - DELETE /api/instances/{instanceId}/manage/relationships/{relationshipName}
 
-For relationship APIs specifically, any time {relationshipName} is provided, a relationship with that name in the given instance must actually exist.
+For relationship APIs specifically, anytime {relationshipName} is provided, a relationship with that name in the given instance must actually exist.
 
 ### Additional limitations by API
 
 | API | Limitations |
 |---------|---------|
-| PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/entityInfo | 1. Request body will have a list of entity names. These must all have been ingested into the given data source. <br/><br/> 2. Request body will have a list of attribute names associated with each entity. These must actually exist as attributes of the entity. <br/><br/> 3. The only allowed values for “EntityType” are “Activity” and “Unspecified”. <br/><br/> 4. If EntityType = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile. <br/><br/> 5. If the TimestampFieldName is provided for an entity, this must be the name of one of that entity's attributes. The attribute must have type DateTime or long. |
+| PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/entityInfo | 1. Request body will have a list of entity names. These names must all have been ingested into the given data source. <br/><br/> 2. Request body will have a list of attribute names associated with each entity. These names must actually exist as attributes of the entity. <br/><br/> 3. The only allowed values for “EntityType” are “Activity” and “Unspecified”. <br/><br/> 4. If EntityType = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile. <br/><br/> 5. If the TimestampFieldName is provided for an entity, it must be the name of one of that entity's attributes. The attribute must have type DateTime or long. |
 | PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/{entityName}/entityInfo | 1. Same as above, but for a single entity rather than a list. <br/><br/> 2. Same as above. <br/><br/> 3. Same as above. <br/><br/> 4. Same as above. <br/><br/> 5. Same as above |
 | PATCH<br/>/api/instances/{instanceId}/manage/relationships | 1. Relationship name can only include letters, numbers, and underscores. <br/><br/> 2. Relationship name must be unique.<br/><br/> 3. Cardinality can have only two values: “OneToMany” or “ManyToOne”. <br/><br/> 4. There are only four possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination. <br/><br/> 5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance. <br/><br/> 6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity. |
-| PATCH<br/>/api/instances/{instanceId}/manage/relationships/{relationshipName} | Same limitations as above, except #2 does not apply here, since the name was already validated during creation (whereas this is an update). |
+| PATCH<br/>/api/instances/{instanceId}/manage/relationships/{relationshipName} | Same limitations as above, except #2 doesn't apply here, since the name was already validated during creation (while this action is an update). |
 
 ## Functionalities served with the Customer Insights Segmentation APIs
 

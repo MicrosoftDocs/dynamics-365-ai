@@ -1,7 +1,7 @@
 ---
 title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Bring data from various sources into Dynamics 365 Customer Insights."
-ms.date: 01/10/2020
+ms.date: 01/31/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 ms.assetid: 
@@ -15,7 +15,7 @@ manager: shellyha
 
 Dynamics 365 Customer Insights lets you use your data from a wide range of data sources.
 
-You can bring in data to Customer Insights by one of the many out-of-the-box connectors that are available for sources such as Dynamics 365 apps, Azure SQL databases, and Azure Blob storage. Even if you don’t find a suitable out-of-the-box connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
+Import data to Customer Insights with one of the many out-of-the-box connectors that are available for sources such as Dynamics 365 apps, Azure SQL databases, and Azure Blob storage. Even if you don’t find a suitable connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
 
 ## Bring your data into Customer Insights
 
@@ -32,13 +32,13 @@ You can bring in data to Customer Insights by one of the many out-of-the-box con
 
 4. Choose one of the available connectors. To load data from Dynamics 365 apps, choose the **Common Data Service** connector.
 
-5. Enter the required details for the selected connector. For some of the most frequently used data sources (for example, Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md) for additional details.  
+5. Enter the required details for the selected connector. For more information about some of the most frequently used data sources (like Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).
 
 ### Add, review, and transform entities
 
 In this step, you'll add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each dataset is its own entity.
 
-1. In the **Edit queries** dialog of Power Query you can review and refine the data. The entities that the system identified in your selected data source appear in the left pane (1).
+1. In the **Edit queries** dialog of Power Query you can review and refine the data. The entities that the systems identified in your selected data source appear in the left pane (1).
 
    > [!div class="mx-imgBorder"]
    > ![Edit queries dialog with three areas highlighted](media/data-manager-configure-edit-queries.png "Edit queries dialog with three areas highlighted")
@@ -52,9 +52,9 @@ In this step, you'll add entities to your data source. In Customer Insights, ent
 
    These transformations are highly recommended:
 
-   - If you are ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
+   - If you're ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
 
-   - Map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. To do this, select **Map to standard** in the Power Query header, and then map fields from your source data to Common Data Model fields.
+   - Map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. To do so, select **Map to standard** in the Power Query header, and then map fields from your source data to Common Data Model fields.
 
 4. Select **Create** at the bottom of the Power Query window to save the transformations. After saving, you'll find you data source on the **Data sources** page.
 
@@ -62,7 +62,7 @@ In this step, you'll add entities to your data source. In Customer Insights, ent
 
 ## Review ingested data sources
 
-You will see the name of each ingested data source, as well as the last time the data was refreshed for that data source and the status of the data source.
+You'll see the name of each ingested data source, as well as its status and the last time the data was refreshed for that source.
 
 > [!div class="mx-imgBorder"]
 > ![Data source added](media/configure-data-datasource-added.png "Data source added")
@@ -89,7 +89,7 @@ Loading data can take some time. After a successful refresh, the ingested data c
 
 3. Apply your changes in the **Edit queries** Power Query dialog.
 
-4. Select **Create** in Power Query after completing your edits. This saves your changes.
+4. Select **Create** in Power Query after completing your edits to save your changes.
 
 ## Delete a data source
 

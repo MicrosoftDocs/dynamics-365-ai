@@ -12,7 +12,7 @@ manager: shellyha
 
 # Predictions
 
-Predictions lets you easily create predicted values that can enhance your understanding of a customer. ON the Predictions page, you can see predictions that you’ve configured in other parts of Customer Insights, and enables you to further customize them.
+Predictions lets you easily create predicted values that can enhance your understanding of a customer. On the Predictions page, you can see predictions that you’ve configured in other parts of Customer Insights, and enables you to further customize them.
 
 > [!NOTE]
 > You can't use this feature if your environment uses Azure Data Lake Gen 2 storage.

@@ -1,7 +1,7 @@
 ---
 title: "Permissions | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 12/02/2019
+ms.date: 02/04/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -20,7 +20,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 - Search and filter customer profiles using the **Customers** page. (Note: Data fields should first be indexed as searchable by your administrator.)
 - Explore and export entities using the **Entities** page.
 - View the status of system processes  using the **System** page.
-- Export  segments from the **Segments** page to either a .csv file or to a Dynamics 365 Sales destination. (Note: Dynamics 365 Sales destinations should first be defined by your administrator.)
+- Export segments from the **Segments** page to either a .csv file or to a Dynamics 365 Sales destination. (Note: Dynamics 365 Sales destinations should first be defined by your administrator.)
 - Install and use the **Power BI Customer Insights** dashboard to seek insights on your customers.
 
 ## Contributor
@@ -45,26 +45,26 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 ## Assign roles and permissions
 
-1. On the **Permissions** page, select **Add**. This opens the **Add permissions** pane.
+1. On the **Permissions** page, select **Add** to open the **Add permissions** pane.
 
 2. In the **Select** field, find the user whose permissions you want to adjust. Choose a **Role** to assign to that user.
 
    > [!div class="mx-imgBorder"]
    > ![Enter a name](media/permissions-roles.png "Enter a name")
 
-3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user whose permissions you have changed. This user will be able to enter the Customer Insights app and perform actions according to their specified role.
+3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user whose permissions you've changed. This user will be able to enter the Customer Insights app and perform actions according to their specified role.
 
 ## View current permissions
 
 Use the **Permissions** page to see what role assignments are currently active.
 
-- The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports only individual users, but in the future it will also support groups and applications that can connect to Customer Insights via APIs.
+- The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports only individual users. In the future, it will also support groups and applications that can connect to Customer Insights via APIs.
 - Roles are specified under the **Role** column.
 - Use the search field at the top of the page to locate specific users.
 - You can select any column title to sort the results by that column's value.
 
 ## View and filter permissions by role
 
-On **Permissions** page, select **Filter** to open the **Filter** pane. Use this to filter the results on the page by role.
+On **Permissions** page, select **Filter** to open the **Filter** pane. Here you can filter the results on the page by role.
 
-On the **Permissions** page, select **Roles** to open the **Roles** pane. Use this to see at a glance how many users are assigned to each role.
+On the **Permissions** page, select **Roles** to open the **Roles** pane. Here you can see at a glance how many users are assigned to each role.

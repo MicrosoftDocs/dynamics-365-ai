@@ -1,7 +1,7 @@
 ---
 title: "Unify data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Overview about unifying data ingested to Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 02/03/2020
 ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -16,7 +16,7 @@ manager: shellyha
 
 After [setting up the data sources](pm-data-sources.md), you can unify the data in Dynamics 365 Customer Insights. Data unification includes three steps: **Map**, **Match**, and **Merge**.
 
-The data unification process lets you unify data sources that were once disparate into a single master customer dataset that provides holistic view of your customers, a unified customer profile. Unification stages are mandatory and performed in the following order:
+The data unification process lets you unify once-disparate data sources into a single master dataset that provides a unified view of your customers. Unification stages are mandatory, and performed in the following order:
 
 1. [Map](pm-map.md)
 2. [Match](pm-match.md)

@@ -1,7 +1,7 @@
 ---
 title: "Home page in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Start exploring the app on the Home page in Dynamics 365 Customer Insights."
-ms.date: 12/02/2019
+ms.date: 02/03/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,11 +12,11 @@ manager: shellyha
 
 # Home
 
-The first page you see in the Dynamics 365 Customer Insights app is **Home**. The Home page gives you a holistic view of your customer base and metrics to track the health of your business.
+The first page you'll see in Dynamics 365 Customer Insights is **Home**. This page shows an overview of your customer base, and metrics to track the health of your business.
 
 ## Change between environments
 
-You can switch from a demo environment to your live environments if you want to work with data of your customers, given they've already been [set up and configured](pm-data-sources.md). Select the **Environment** control in the upper-right corner of the page to change environments.
+Switch from a demo environment to a live environment if you want to work with your customers' data. To do so, you must have set up and configured [data sources](pm-data-sources.md). Select the **Environment** control in the upper-right corner of the page to change environments.
 
 > [!div class="mx-imgBorder"] 
 > ![Switch environment](media/home-page-environment-switcher.png "Switch environment")
@@ -25,7 +25,7 @@ You can switch from a demo environment to your live environments if you want to 
 
 To see insights on the home page, take a few moments to [add data sources](pm-data-sources.md), [unify](pm-configure-data.md), and [enrich your data](pm-enrichment.md).
 
-First, you should create a unified dataset of your customers out of datasets that are currently siloed and disconnected. Then you can use capabilities such as *Measures*, *Enrichment*, and *Activities* to unlock richer insights. Use capabilities such as *Segments* and *Customers* to act on the new insights.
+First, create a unified dataset of your customers out of datasets that are currently siloed and disconnected. Then you can use capabilities such as *Measures*, *Enrichment*, and *Activities* to unlock richer insights. Use capabilities such as *Segments* and *Customers* to act on these new insights.
 
 > [!div class="mx-imgBorder"] 
 > ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
@@ -38,4 +38,4 @@ Insights on the home page usually contain the following information:
 
 ## Next step
 
-Many of the home page insights are dependent upon the completion of the data configuration process, and this process in turn is based on first loading data into Customer Insights. See the [Data Sources](pm-data-sources.md) topic to learn how to add data sources.
+Many of the home page insights are dependent on the completion of the data configuration process. This process, in turn, depends on first loading data into Customer Insights. See the [Data Sources](pm-data-sources.md) topic to learn how to add data sources.

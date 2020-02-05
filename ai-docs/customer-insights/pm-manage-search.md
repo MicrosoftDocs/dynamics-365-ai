@@ -1,7 +1,7 @@
 ---
 title: "Search & filter index | Microsoft Docs"
 description: "Quickly find information about unified customer profiles and filter for specified attributes."
-ms.date: 12/04/2019
+ms.date: 02/03/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,14 +12,14 @@ manager: shellyha
 
 # Search & filter index
 
-The result of unifying your customer data is a Customer Profile entity that provides a unified view into your total customer base. To quickly [find information on a specific customer or a group of customers](pm-profiles.md), you can configure the **Search** and **Filter** capabilities on the **Customers** page. Read on to learn how an admin can edit the attributes on the **Search & filter index** page which are available for searching and filtering to their users.
+The result of unifying your customer data is a Customer Profile entity that provides a unified view into your total customer base. To quickly [find information on a specific customer or group of customers](pm-profiles.md), you can configure the **Search** and **Filter** capabilities on the **Customers** page. Read on to learn how admins can edit the attributes on the **Search & filter index** page, which are available to users for searching and filtering.
 
 > [!div class="mx-imgBorder"]
 > ![Search filter](media/search-filter.png "Search filter")
 
 ## Add fields and specify attributes
 
-If it's the first time you define searchable attributes as an administrator, you need to define indexed fields first. We suggest you choose all the attributes by which users will be able to search and filter customers on the **Customers** page. You can only specify attributes that exist in the Customer Profile entity that you created during the data unification process.
+If it's the first time you define searchable attributes as an administrator, you need to define indexed fields first. We suggest you choose all the attributes by which users can search and filter customers on the **Customers** page. You can only specify attributes that exist in the Customer Profile entity that you created during the data unification process.
 
 1. Open the **Customers** page and select **Go to Search & filter index**. If you defined the attributes before, select the **Search & Filter index** control on the **Customers** page.
 
@@ -53,25 +53,25 @@ The **Filter** menu on the **Customers** page can include a varying number of at
   > [!div class="mx-imgBorder"]
   > ![String filter options](media/string-filter-options.png "String filter options")
 
-  Specify the number of desired results on the **Filter** panel and the order policy by which they will be organized.
+  Specify the number of desired results on the **Filter** panel and the order policy by which they'll be organized.
 
 - Numerical-type attributes
 
   > [!div class="mx-imgBorder"]
   > ![Number filter options](media/number-filter-options.png "Number filter options")
 
-  Specify the intervals included on the **Filter** panel and the order policy by which they will be organized.
+  Specify the intervals included on the **Filter** panel and the order policy by which they'll be organized.
 
 - Date-type attributes
 
   > [!div class="mx-imgBorder"]
   > ![Date filter options](media/date-filter-options.png "Date filter options")
 
-  Specify the intervals included on the filter panel and the order policy by which they will be organized.
+  Specify the intervals included on the filter panel and the order policy by which they'll be organized.
 
 2. Select **Save** to apply your changes.
 
-3. Select **Run** once you are ready to apply your settings.
+3. Select **Run** once you're ready to apply your settings.
 
    > [!div class="mx-imgBorder"]
    > ![Save and Run](media/search-sort-filter-save-run.png "Save and Run")
