@@ -12,7 +12,7 @@ manager: shellyha
 
 # Export destinations
 
-The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. Additionally, it shows you all possible extensibility options currently available in Customer Insights. Get a quick overview, description and find out what you can do with each extensibility option to fully embrace the value of Customer Insights. Export unified profiles, measures and segments to the apps relevant for your business to further increase productivity.
+The **Export destinations** page shows you all locations you’ve set up to export data to. You can also add new destinations for export. Additionally, it shows extensibility options currently available in Customer Insights. Get a quick overview, description, and find out what you can do with each extensibility option. Export unified profiles, measures, and segments to supported apps relevant for your business.
 
 Go to **Admin** > **Export destinations** to find the following extensibility options:
 
@@ -50,7 +50,7 @@ To add or edit export destinations, you’ll need to be an administrator of your
 
 7. Select **Save**.
 
-Your export should start shortly if all prerequisites for export have been completed. In addition, your export will run at the end of every scheduled refresh.  To learn more about scheduling, see [Schedule tab](pm-settings.md#schedule-tab).
+Your export should start shortly if all prerequisites for export have been completed. The export will also run with every scheduled refresh. To learn more about scheduling, see [Schedule tab](pm-settings.md#schedule-tab).
 
 #### Azure Blob storage locations
 
@@ -107,4 +107,4 @@ To remove an Export destination, start from the main **Export destinations** pag
 
 2. Select **Remove** from the dropdown menu.
 
-3. Finalize the removal by selecting **Remove** on the confirmation screen.
+3. Confirm the removal by selecting **Remove** on the confirmation screen.
