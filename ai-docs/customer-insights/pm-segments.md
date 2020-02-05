@@ -1,7 +1,7 @@
 ---
 title: "Segments | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 12/12/2019
+ms.date: 02/04/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -18,10 +18,10 @@ You can define complex filters around the Customer Profile entity and its relate
 
 There are two types of segments:
 
-- **Static segments**: Segments that are processed only once — either after the creation or update of any of its filters. Use static segments when properties are not expected to change over time or when they are expected to be used only once. For example, customers who attended a specific event.
+- **Static segments**: Segments that are processed only once — either after the creation or update of any of its filters. Use static segments when properties aren't expected to change over time, or when they're expected to be used only once—for example, customers who attended a specific event.
 - **Dynamic segments**: Segments that are processed according to a recurring schedule. Use dynamic segments when customers' attributes change over time. For example, customers who have bought products worth more than $500 in the last three months.
 
-The following example illustrates the depth of the Customer Insights segmentation capability. We have defined a segment for customers who ordered goods for more than $500 in the last 90 days *and* who were involved in a customer service call that got escalated.
+The following example illustrates the depth of the Customer Insights segmentation capability. We've defined a segment for customers who ordered more than $500 of goods in the last 90 days *and* who were involved in a customer service call that got escalated.
 
 > [!div class="mx-imgBorder"]
 > ![Multiple groups](media/segmentation-group1-2.png "Multiple groups")
@@ -111,7 +111,7 @@ To add more conditions to a group, you can use two logical operators:
    > [!div class="mx-imgBorder"]
    > ![OR operator where either condition needs to be met](media/segmentation-either-condition.png "OR operator where either condition needs to be met")
 
-Note that currently, it's possible to nest an **OR** operator under an **AND** operator but not vice versa.
+It's currently possible to nest an **OR** operator under an **AND** operator, but not the other way around.
 
 ## Combine multiple groups
 
@@ -139,13 +139,13 @@ Each group produces a specific set of customers and you combine these groups to 
 
 ## View processing history and segment members
 
-You can see consolidated data about a segment by reviewing it's details.
+You can see consolidated data about a segment by reviewing its details.
 
 On the **Segments** page, select the segment you want to review.
 
-The upper part of the page includes a trend graph that visualizes changes in of member count. Hover over data points to see the member count on a specific date.
+The upper part of the page includes a trend graph that visualizes changes in member count. Hover over data points to see the member count on a specific date.
 
-You can update the the time frame of the visualization.
+You can update the time frame of the visualization.
 
 > [!div class="mx-imgBorder"]
 > ![Segment time range](media/segment-time-range.png "Segment time range")
@@ -159,7 +159,7 @@ The lower part contains a list of the segment members.
 
 ## Recommended segments
 
-In addition to the segment builder, there is another path for creating segments in Customer Insights. Recommended segments lets you build simple segments (with a single operator) quickly.
+In addition to the segment builder, there's another path for creating segments in Customer Insights. Recommended segments lets you build simple segments (with a single operator) quickly.
 
 1. Select one of the tiles on the **Segments** page to get started.
 
@@ -172,11 +172,11 @@ In addition to the segment builder, there is another path for creating segments 
 2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.
 
 3. The system will provide some additional insights that help you create better segments of your customers.
-   - For categorical fields we will show 10 top customer counts. Choose a **Value** and select **Review**.
+   - For categorical fields, we will show 10 top customer counts. Choose a **Value** and select **Review**.
 
-   - For a numerical attribute the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
+   - For a numerical attribute, the system will show what attribute value falls under each customer's percentile. Choose an **Operator** and a **Value**, then select **Review**.
 
-4. The system will provide you with an **Estimated segment size** so you can choose whether to actually generate the segment you have defined or first revisit it get a different segment size.
+4. The system will provide you with an **Estimated segment size**. You can choose whether to generate the segment you've defined, or first revisit it to get a different segment size.
 
     > [!div class="mx-imgBorder"]
     > ![Name and estimation for a quick segment](media/quick-segment-name.png "Name and estimation for a quick segment")
@@ -185,12 +185,12 @@ In addition to the segment builder, there is another path for creating segments 
 
 6. Select **Save** to create your segment.
 
-7. After segment finished processing, you can view your segment like any other segment you have created.
+7. After the segment has finished processing, you can view it like any other segment you've created.
 
-For the following scenarios,we advise to use the segment builder rather than the recommended segments capability:
+For the following scenarios, we advise using the segment builder rather than the recommended segments capability:
 
 - Creating segments with filters on categorical fields where the operator is different than the **Is** operator
-- Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater then** and **Less then** operators
+- Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater than**, and **Less than** operators
 - Creating segments with filters on date type of fields
 
 ## Next steps
