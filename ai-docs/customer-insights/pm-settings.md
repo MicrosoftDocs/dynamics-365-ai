@@ -1,7 +1,7 @@
 ---
 title: "System | Microsoft Docs"
 description: "Learn about system settings in Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 02/05/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -22,9 +22,9 @@ The **System** page contains everything that administrators need to closely moni
 
 ## Status tab
 
-The **Status** tab lets you track the progress of data ingestion as well as several important product processes. User this to ensure the completeness of any major process you've defined in Customer Insights. This tab includes two tables:
+The **Status** tab lets you track the progress of data ingestion and several important product processes. Use this tab to ensure the completeness of any major process you've defined in Customer Insights. This tab includes two tables:
 
-- **Data sources**: This table lists all the data sources from which you are ingesting your data. The left-side column specifies the names of those data sources. The middle column shows the status of ingestion for each of the data sources:
+- **Data sources**: This table lists all the data sources from which you're ingesting your data. The left-side column specifies the names of those data sources. The middle column shows the status of ingestion for each of the data sources:
   - Didn't start
   - In progress
   - Already completed
@@ -45,7 +45,7 @@ You can view the details of each completed data source ingestion or system proce
 
 ## Schedule tab
 
-Use the **Schedule** tab to schedule automatic refreshes of all your ingested Customer Insights data. This helps to ensure that updates from your data sources are reflected in your unified customer profile.
+Use the **Schedule** tab to schedule automatic refreshes of all your ingested Customer Insights data. This helps ensure that updates from your data sources are reflected in your unified customer profile.
 
 1. In Customer Insights, go to **Admin** > **System** and select the **Schedule** tab.
 
@@ -53,13 +53,13 @@ Use the **Schedule** tab to schedule automatic refreshes of all your ingested Cu
 
 3. Choose between **Weekly** (default) and **Daily** refreshes. If you intend to schedule weekly refreshes, select one or more days on which you want to run the refresh.
 
-4. Select the **Time** field. In the timer dropdown, use the arrows to set your refresh timing. When you are finished, select **Set**. If you'd like to schedule multiple refreshes in a single day, select **Add another time**.
+4. Select the **Time** field. In the timer dropdown, use the arrows to set your refresh timing. When you're finished, select **Set**. If you'd like to schedule multiple refreshes in a single day, select **Add another time**.
 
 5. Select **Save** to apply your changes.
 
 ## About tab
 
-The **About** tab contains your organization's **Display name**, as well as the active **Instance name** and **Region**. If you have more than one work instance, it is recommended that you give each an easily identifiable name.
+The **About** tab contains your organization's **Display name**, the active **Instance name**, and the **Region**. If you have more than one work instance, you should give each an easily identifiable name.
 
 ## General tab
 
