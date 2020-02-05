@@ -1,8 +1,8 @@
 ---
 title: "Export destinations | Microsoft Docs"
 description: "The Export destinations page lets you export data and manage destinations for exporting data."
-ms.date: 12/12/2019
-ms.reviewer: nimagen
+ms.date: 02/05/2020
+ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -12,16 +12,26 @@ manager: shellyha
 
 # Export destinations
 
-The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. To add or edit export destinations, you’ll need to be an administrator of your Dynamics 365 Customer Insights instance.
+The **Export destinations** page shows you all locations you’ve set up to export data to, and allows you to add new destinations. Additionally, it shows you all possible extensibility options currently available in Customer Insights. Get a quick overview, description and find out what you can do with each extensibility option to fully embrace the value of Customer Insights. Export unified profiles, measures and segments to the apps relevant for your business to further increase productivity.
+
+Go to **Admin** > **Export destinations** to find the following extensibility options:
+
+- [Dynamics 365 Customer Card Add-in](pm-customer-card-addin.md)
+- [Power Automate connector](power-automate-connector.md)
+- [Power Apps connector](pm-powerapps-connector.md)
+- [Power BI connector](pm-connectors.md)
+- [Dynamics 365 Sales](#dynamics-365-sales)
+- [Dynamics 365 Marketing](#dynamics-365-marketing)
+- [Azure Blob Storage](#azure-blob-storage)
+- [Customer Insights API](pm-apis.md)
 
 ## Add a new Export destination
+
+To add or edit export destinations, you’ll need to be an administrator of your Dynamics 365 Customer Insights instance.
 
 ### Azure Blob storage
 
 1. On the **Export destinations** page, select **Add destination**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Add Export destination](media/add-export-destination.png "Add Export destination")
 
 2. Select **Azure Blob storage** in the **Type** drop-down list.
 
@@ -37,9 +47,6 @@ The **Export destinations** page shows you all locations you’ve set up to expo
 5. Select **Next**.
 
 6. Select the box next to each of the entities you want to export to this destination.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select entities to export](media/export-destinations-azure-blob-entities.png "Select entities to export")
 
 7. Select **Save**.
 
@@ -58,15 +65,24 @@ Data exported from the Export process will be stored in the Azure Blob storage c
 
 1. On the **Export destinations** page, select **Add destination**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Add Export destination](media/add-export-destination.png "Add Export destination")
+2. Choose **Dynamics 365 Sales** in the **Type** drop-down list.
 
-2. Choose "Dynamics 365 Sales" in the **Type** drop-down list.
-
-3. Define your Dynamics 365 for Sales URL in **Server address**, select **Sign in**, and select a Dynamics 365 Sales account.
+3. Define your Dynamics 365 Sales URL in **Server address**, select **Sign in**, and select a Dynamics 365 Sales account.
 
    > [!div class="mx-imgBorder"]
    > ![Add destination page](media/export-destinations-dynamics365-for-sales.png "Add destination page")
+
+4. Give your destination a recognizable name in **Display name**.
+
+5. Select **Add**.
+
+### Dynamics 365 Marketing
+
+1. On the **Export destinations** page, select **Add destination**.
+
+2. Choose **Dynamics 365 Marketing** in the **Type** drop-down list.
+
+3. Define your Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and select a Dynamics 365 Marketing account.
 
 4. Give your destination a recognizable name in **Display name**.
 
