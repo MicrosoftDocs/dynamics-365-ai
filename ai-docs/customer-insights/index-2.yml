@@ -11,7 +11,7 @@ metadata:
   ms.collection: collection
   author: m-hartmann
   ms.author: mhart
-  ms.date: 02/04/2020
+  ms.date: 02/06/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -19,6 +19,17 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
+  - title: Familiarize with Customer Insights
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Product overview
+            url: overview.md
+          - text: New and updated features
+            url: https://aka.ms/Dynamics365ReleasePlan
+          - text: Free trial
+            url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
+
   - title: Ingest data sources
     linkLists:
       - linkListType: how-to-guide
@@ -30,8 +41,7 @@ landingContent:
           - text: Understand entities
             url: pm-entities.md
 
-  # Card (optional)
-  - title: Unify customer profiles
+  - title: Unify data
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -43,9 +53,9 @@ landingContent:
             url: pm-merge.md
 
   # Card
-  - title: Enrich unified customer profiles
+  - title: Enrich customer profiles
     linkLists:
-      - linkListType: tutorial
+      - linkListType: how-to-guide
         links:
           - text: Configure relationships
             url: pm-relationships.md
@@ -53,3 +63,25 @@ landingContent:
             url: pm-activities.md
           - text: Bring your own machine learning models
             url: custom-models.md
+
+  - title: Export customer data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Set up export destinations
+            url: export-destinations.md
+          - text: Install the Customer Card Add-in 
+            url: pm-customer-card-addin.md
+          - text: Export segments
+            url: segment-export.md 
+
+  - title: Administer Customer Insights
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Configure the system
+            url: pm-settings.md
+          - text: Define user permissions 
+            url: pm-permissions.md
+          - text: Manage multiple environments
+            url: create-manage-environment.md
