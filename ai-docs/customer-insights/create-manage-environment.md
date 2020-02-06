@@ -1,7 +1,7 @@
 ---
 title: "Create a Customer Insights instance and environments | Microsoft Docs"
 description: Create an instance of Dynamics 365 Customer Insights and environments in existing instances.
-ms.date: 11/26/2019
+ms.date: 02/05/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -46,7 +46,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 When you create a new environment, you can specify basic settings, and optionally, some advanced settings.
 
 1. In the **Create new environment** dialog, provide the following details:
-   - **Display name**: The name that represents this enviroment in the Customer Insights app
+   - **Display name**: The name that represents this environment in the Customer Insights app
    - **Region**: The region into which the service is deployed and hosted
    - **Type**: Select if you want to create a Production environment or a Sandbox environment
     > [!div class="mx-imgBorder"]
@@ -54,7 +54,7 @@ When you create a new environment, you can specify basic settings, and optionall
 
 2. Optionally, you can select **Advanced** to configure additional settings:
 
-   - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (a Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake storage). By default, Customer Insights storage option is selected. 
+   - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (an Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake Storage). By default, the Customer Insights storage option is selected.
 
    > [!NOTE]
    > By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
@@ -62,13 +62,13 @@ When you create a new environment, you can specify basic settings, and optionall
    > Currently, ingested entities are always stored in the Customer Insights managed data lake.
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
-   - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The container name is always set to **customerinsights** and you can't change it.
+   - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The container name is always set to **customerinsights** and can't be changed.
      > [!div class="mx-imgBorder"]
      > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
 
-   When you start performing operations in Customer Insights like data ingestion, running data unification, creating segments, etc. the corresponding folders will get created in the storage account you specified above, and the data files and model.json files will get created and added to the respective sub-folders based on the operations you perform.
+   When you perform operations in Customer Insights, such as data ingestion or segment creation, corresponding folders will be created in the storage account you specified above. Data files and model.json files will be created and added to the respective subfolders based on the operations you perform.
 
-   If you create multiple instances of Customer Insights and choose to save the output entities from all those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
+   If you create multiple instances of Customer Insights and choose to save the output entities from those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
 
 ## Edit an existing environment
 
@@ -78,7 +78,7 @@ You can edit some of the details of existing environments.
 
 2. Select **Environments**.
 
-3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Edit**.
+3. In the Environments panel, select the ellipses next to the environment you want to edit and select **Edit**.
 
 4. You can update the **Display name** but you can't change **Region** and **Type** of the environment.
 
@@ -90,6 +90,6 @@ You can edit some of the details of existing environments.
 
 2. Select **Environments**.
 
-3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Delete**.
+3. In the Environments panel, select the ellipses next to the environment you want to edit and select **Delete**.
 
-4. To confirm the deletion, enter the the environment name and select **Delete**.
+4. To confirm the deletion, enter the environment name and select **Delete**.
