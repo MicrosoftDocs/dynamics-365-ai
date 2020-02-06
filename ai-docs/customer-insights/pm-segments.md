@@ -135,7 +135,7 @@ Each group produces a specific set of customers and you combine these groups to 
 
    - **Intersect** overlaps the two groups. Only data that *is common* to both groups is maintained in the unified group.
 
-   - **Exclude** combines the two groups. Only data that is *not common* to both groups is maintained.
+   - **Except** combines the two groups. Only data that *is not common* to both groups is maintained.
 
 ## View processing history and segment members
 

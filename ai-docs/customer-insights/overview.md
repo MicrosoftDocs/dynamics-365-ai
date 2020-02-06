@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Overview of Dynamics 365 Customer Insights."
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,14 +12,14 @@ manager: shellyha
 
 # Dynamics 365 Customer Insights
 
-Customer experience is at the very core of every organization’s digital transformation ambitions. To compete in today’s market, organizations need to build meaningful relationships with their customers on a personal level. The ability to effectively personalize at scale requires a complete, unified view of customers.
+Customer experience is at the very core of every organization’s digital transformation ambitions. To compete in today’s market, organizations must build meaningful relationships with their customers on a personal level. Effectively personalizing at scale requires a complete, unified customer view.
 
 > [!NOTE]
 > **Get started with a 30-day trial**
 >
 > To see Dynamics 365 Customer Insights in action quickly, you can [sign up for a 30-day trial](https://go.microsoft.com/fwlink/?LinkId=2083350). The trial will expire after 30 days and your data in the trial environment will be deleted.
 
-With Dynamics 365 Customer Insights, build a deep understanding of customers by connecting customer data from various transactional, behavioral, and observational sources to create a 360-degree customer view. Use  these insights to drive customer-centric experiences and processes.
+Dynamics 365 Customer Insights helps you build a deeper understanding of your customers. Connect data from various transactional, behavioral, and observational sources to create a 360-degree customer view. Use these insights to drive customer-centric experiences and processes.
 
 **Customer Insights enables every organization to unify and understand their customer data and to harness it for intelligent insights and actions.**
 
@@ -36,7 +36,7 @@ With Customer Insights, organizations can:
 
 - **Eliminate data silos and unify customer data**
 
-  - Connect and unify your data with ease—bring in transactional, observational, and behavioral data from popular data sources by leveraging prebuilt connectors.
+  - Connect and unify your data with ease—bring in transactional, observational, and behavioral data from popular data sources by using prebuilt connectors.
   - Transform customer data intelligently—build unified customer profiles conforming to the [Common Data Model](https://docs.microsoft.com/common-data-model/). Resolve customer identities with AI/ML-driven recommendations.
 
 - **Enrich with audience intelligence contained within Microsoft Graph**

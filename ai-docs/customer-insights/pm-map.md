@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: Map data to create unified customer profile in Dynamics 365 Customer Insights
-ms.date: 02/03/2020
+ms.date: 02/05/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -55,6 +55,9 @@ The system automatically selected all the attributes for which an attribute type
 3. Use the search or scroll down to find and select your attributes of interest.
 
 4. Select **Save**.
+
+> [!NOTE]
+> One field should map to the attribute Person.FullName to populate the customer name in customer card. Otherwise, the customer cards will appear nameless. 
 
 ## Add and remove entities
 
