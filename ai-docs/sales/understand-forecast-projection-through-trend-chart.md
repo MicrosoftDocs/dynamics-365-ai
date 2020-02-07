@@ -36,7 +36,7 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 ## Understand trend charts
 
 > [!NOTE]
-> Columns available for trending can be configured in the forecast configuration. To learn more, see configure columns.<!--note from editor: LOOK THIS UP-->
+> Columns available for trending can be configured in the forecast configuration. To learn more, see [configure columns](/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
 
 The following screenshot shows an example of a trend chart.
 
