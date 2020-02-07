@@ -18,7 +18,6 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-  # Card (optional)
   - title: Familiarize with Customer Insights
     linkLists:
       - linkListType: overview
@@ -27,8 +26,10 @@ landingContent:
             url: overview.md
           - text: New and updated features
             url: https://aka.ms/Dynamics365ReleasePlan
-          - text: Free trial
-            url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
+          - text: Community site
+            url: https://go.microsoft.com/fwlink/?linkid=2073991
+          - text: Submit ideas
+            url: https://go.microsoft.com/fwlink/?linkid=2074172
 
   - title: Ingest data sources
     linkLists:
