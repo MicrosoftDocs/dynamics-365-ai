@@ -52,7 +52,7 @@ Topics ranked high across these three key areas are shown in **Topics to watch**
   * **Negative CSAT impact** Topics that have the most negative impact on your total CSAT score. CSAT is data collected from surveys.
   * **Emerging rate** Get a "heads-up" on topics with high rate of new incoming cases in the selected time period.
 
-Selecting the light bulb button displays a short inline explanination of the reason for showing these topics, as well as recommendations of possible actions to take. 
+Selecting the light bulb button displays a short inline explanation of the reason for showing these topics, as well as recommendations of possible actions to take. 
 
 ![topics to watch insights](media/home_topicstowatch_insights.png)
 
@@ -82,7 +82,7 @@ Customer satisfaction score is crucial for using data to determine how satisfied
 
 
 ### Peak time with high case volume
-You can determine the peak time (in UTC time zone) for new incoming cases. The topics that occur during this time period are shown so yo can ensure the staffing schedule is aligned to peak hours and issues. 
+You can determine the peak time (in UTC time zone) for new incoming cases. The topics that occur during this time period are shown so you can ensure the staffing schedule is aligned to peak hours and issues. 
 
 ![peak time with high case volume and relevant topics](media/home_peaktime.png)
 
