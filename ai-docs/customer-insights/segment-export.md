@@ -1,7 +1,7 @@
 ---
 title: "Export a segment | Microsoft Docs"
 description: "Learn how to export a segment to a CSV file or a model-driven Dynamics 365 app."
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -14,7 +14,7 @@ manager: shellyha
 
 After [creating segments](pm-segments.md), you can start acting upon your data.
 
-You can export your segments to a CSV file or a Dynamics 365 Sales location. we plan to add more export options soon, so stay tuned.
+You can export your segments to a CSV file or a Dynamics 365 Sales location. More export options are planned for the future.
 
 ## Export to a CSV file
 
@@ -31,9 +31,9 @@ Export options for Dynamics 365 are available from the [Export destinations](exp
 > [!NOTE]
 > You won't see options to export segments to Dynamics 365 apps unless an admin adds the destinations from **Admin** > **Export destinations**.
 
-## View segments you have exported
+## View exported segments
 
-On the **Segment Export** page, under the **Destinations** table you can find another table, called **Exported Segments**, which lists  information around the segments you have exported.
+On the **Segment Export** page, under the **Destinations** table you can find another table, called **Exported Segments**, which lists  information around the segments you've exported.
 
 > [!div class="mx-imgBorder"]
 > ![Segmentation export segments](media/segmentation-export-segments.png "Segmentation export segments")

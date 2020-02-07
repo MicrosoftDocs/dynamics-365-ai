@@ -1,7 +1,7 @@
 ---
 title: "Relationships | Microsoft Docs"
 description: "Connect entities to create segments and measures from multiple data sources in Dynamics 365 Customer Insights."
-ms.date: 12/04/2019
+ms.date: 02/04/2020
 ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -14,9 +14,9 @@ manager: shellyha
 
 Relationships help you connect entities and generate a graph of your data when entities share a common identifier (foreign key) that can be referenced from one entity to another. Connected entities enable you to define segments and measures based on multiple data sources.
 
-There are two types of relationships. Non-editable system relationships which are created automatically and custom relationships, created and configured by a user.
+There are two types of relationships. Non-editable system relationships, which are created automatically, and custom relationships created and configured by users.
 
-During the match and merge processes, system relationships are created behind the scenes based on intelligent matching. These relationships help relate the Customer Profile records with other corresponding entities' records. The following diagram exemplifies the creation of three system relationships when the customer entity is matched with additional entities to produce the final Customer Profile entity.
+During the match and merge processes, system relationships are created behind the scenes based on intelligent matching. These relationships help relate the Customer Profile records with other corresponding entities' records. The following diagram illustrates the creation of three system relationships when the customer entity is matched with additional entities to produce the final Customer Profile entity.
 
 > [!div class="mx-imgBorder"]
 > ![Relationship creation](media/relationships-entities-merge.png "Relationship creation")

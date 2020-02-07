@@ -1,7 +1,7 @@
 ---
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 01/08/2020
+ms.date: 02/05/2020
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Custom Models
 
-The **Custom Models** page lists workflows that have been created to generate insights based on Azure Machine Learning models. Workflows help you choose the data you want to use, select what will generate the insights, and map the results back to your Customer Insights data.
+The **Custom Models** page lists workflows that have been created to generate insights based on Azure Machine Learning models. Workflows help you to choose the data you want to use, select how insights are generated, and map the results back to your Customer Insights data.
 
 > [!NOTE]
 > You'll need to have an Azure Data Lake Storage Gen2 storage account associated with your Azure Studio instance to use this feature. For more information, see [Create an Azure Data Lake Storage Gen2 storage account](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)
@@ -21,7 +21,7 @@ The **Custom Models** page lists workflows that have been created to generate in
 
 1. On the **Custom Models** page, select **New Workflow**.
 
-2. Give your workflow a recognizable name in the **Display name** field, choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** drop-down and select **Next**.
+2. Give your workflow a recognizable name in the **Display name** field. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown. Then select **Next**.
 
 3. For each **Web service input**, select the matching **Entity** from Customer Insights and select **Next**.
 
@@ -44,7 +44,7 @@ The **Custom Models** page lists workflows that have been created to generate in
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created and select **Edit**.
 
-2. You can update your workflow's recognizable name in the **Display name** field, but changing the Web service is not possible. If you want to create a new prediction using a different web service, follow the steps in [Add a new workflow](#add-a-new-workflow). When you're done, select **Next**.
+2. You can update your workflow's recognizable name in the **Display name** field, but changing the Web service isn't possible. If you want to create a new prediction using a different web service, follow the steps in [Add a new workflow](#add-a-new-workflow). When you're done, select **Next**.
 
 3. For each **Web service input**, select the matching **Entity** from Customer Insights.  When you're done, select **Next**.
 
@@ -54,7 +54,7 @@ The **Custom Models** page lists workflows that have been created to generate in
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
 
-2.  Select **Run**.
+2. Select **Run**.
 
 Your workflow also runs automatically when there's a scheduled refresh. Learn more about [setting up scheduled refreshes](pm-settings.md#schedule-tab).
 
@@ -64,4 +64,4 @@ Your workflow also runs automatically when there's a scheduled refresh. Learn mo
 
 2. Select **Delete**.
 
-Your workflow will be deleted, but the entity that was created when you created the workflow persists and can be viewed from the **Entities** page.
+Your workflow will be deleted. The entity that was created when you created the workflow persists, and can be viewed from the **Entities** page.
