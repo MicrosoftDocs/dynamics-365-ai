@@ -37,7 +37,7 @@ You must have the following to automate a topic from Customer Service Insights t
 
 ## Identify topics for automation 
 
-Consider topics as good candidates for automation if they are:
+Customer Service Insights generates suggestion on the topics you can consider for automation. The suggested topics are listed in the **Consider automating these topics** section at [the home page](keyinsights.md). In general, consider topics as good candidates for automation if they are:
 
 * Straightforward to resolve, so that it's more likely a bot can handle or resolve the issue. 
     
