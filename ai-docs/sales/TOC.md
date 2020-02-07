@@ -29,8 +29,10 @@
 #### [Configure Who knows whom](configure-who-knows-whom.md)
 
 ### Configure Predictive models
-#### [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
-#### [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+#### [Predictive lead scoring](configure-predictive-lead-scoring.md)
+#### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+#### [Premium forecasting](configure-premium-forecasting.md)
+#### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
@@ -69,6 +71,9 @@
 ###	Predictive models
 #### [Prioritize leads using predictive scores](work-predictive-lead-scoring.md)
 #### [Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)
+#### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
+#### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
+#### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 
 ### Dynamics 365 assistant for Microsoft Teams
 #### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)

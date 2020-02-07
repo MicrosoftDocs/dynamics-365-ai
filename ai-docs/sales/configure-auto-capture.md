@@ -120,6 +120,9 @@ Before you enable premium auto capture, perform the following tasks:
         > [!div class="mx-imgBorder"]
         > ![Add security roles](media/si-admin-auto-capture-premium-add-security-roles.png "Add security roles")
 
+        >[!NOTE]
+        >The security roles displayed in the lookup are from the parent business unit and will not display child business unit's security roles. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).   
+
 5.	Select the communication channels in which you want to capture customer-related activities. You can choose **Email**, **Calendar**, and **Contacts**.
 
 6.	Save the settings.
