@@ -25,6 +25,9 @@ caps.latest.revision: 01
 
 Premium auto capture helps salespeople focus on generating revenue instead of spending their time updating Dynamics 365 Sales data and logging every customer-related activity. In addition to activity suggestions based on capturing emails and meetings, premium auto capture also provides suggestions for creating new contacts.
 
+> [!NOTE]
+> To view the **Activity suggestions** and **Contact suggestions** options on the **Sales** site map, the security role assigned to you must have read privileges on **Suggested Activity** and **Suggested Contact** entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges). <br>
+> By default, administrators can view these options on the **Sales** site map. However, you must enable premium auto capture feature in your organization to use it. To learn more, see [How to enable and configure premium auto capture](configure-auto-capture.md#how-to-enable-and-configure-premium-auto-capture)
 
 ## Give consent
 

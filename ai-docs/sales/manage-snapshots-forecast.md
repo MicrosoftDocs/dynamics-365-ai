@@ -14,6 +14,10 @@ manager: shujoshi
 
 # Manage snapshots for a forecast
 
+> [!NOTE]
+> This is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+> For information about how to enable these features, see Opt in to 2020 release wave 1 updates [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in)
+
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time.
 
 To visualize the flow of forecast data between two snapshots, use a flow chart. To learn more, see [Analyze deals flows between snapshots](analyze-deals-flow-between-snapshots.md).
