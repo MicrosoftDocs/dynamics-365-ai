@@ -28,8 +28,6 @@ landingContent:
             url: https://aka.ms/Dynamics365ReleasePlan
           - text: Community site
             url: https://go.microsoft.com/fwlink/?linkid=2073991
-          - text: Submit ideas
-            url: https://go.microsoft.com/fwlink/?linkid=2074172
 
   - title: Ingest data sources
     linkLists:
