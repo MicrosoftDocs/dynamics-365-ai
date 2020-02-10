@@ -17,7 +17,7 @@ topic-status: Drafting
 ---
 
 # How Notes analysis assists you with suggestion
-Notes analysis provides you with suggestions for actions based on customer-related activities. When you create a new activity, such as **Appointment**, **Phone Call**, **Task**, **Note**, **Post**, or **Custom action types**, notes analysis monitors these activities and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.
+Notes analysis provides you with suggestions for actions based on customer-related activities. When you create an activity, such as appointment, phone call, task, note, post, or custom activities, the notes analysis feature analyzes the descriptions provided in these activities and gives you intelligent suggestions. With these suggestions, you can take actions, such as creating a meeting request and adding a contact.
 
 > [!NOTE]
 > Notes analysis does not support **Email** activity type.
