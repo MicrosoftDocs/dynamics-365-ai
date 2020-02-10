@@ -18,7 +18,7 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-  - title: Familiarize with Customer Insights
+  - title: About Customer Insights
     linkLists:
       - linkListType: overview
         links:
@@ -37,8 +37,8 @@ landingContent:
         links:
           - text: Add data sources
             url: pm-data-sources.md
-          - text: Connect to a Common Data Model folder
-            url: connect-common-data-model-folder.md
+          - text: Use common connectors
+            url: pm-common-connectors.md
           - text: Understand entities
             url: pm-entities.md
 
@@ -71,10 +71,14 @@ landingContent:
         links:
           - text: Set up export destinations
             url: export-destinations.md
-          - text: Install the Customer Card Add-in 
+          - text: Customer cards in Dynamics 365 apps 
             url: pm-customer-card-addin.md
-          - text: Export segments
-            url: segment-export.md 
+          - text: Power BI connector
+            url: pm-connectors.md
+          - text: Power Apps connector
+            url: pm-powerapps-connector.md
+          - text: Power Automate connector
+            url: power-automate-connector.md
 
   - title: Administer Customer Insights
     linkLists:

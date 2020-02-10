@@ -74,13 +74,6 @@
     - name: Configure the Power Automate connector
       href: power-automate-connector.md
 
-- name: Extensibility
-  items:
-    - name: Review the entities schema in Common Data Model
-      href: entity-schemas.md
-    - name: Work with APIs
-      href: pm-apis.md
-
 - name: Administration
   items: 
     - name: Familiarize with admin settings 
@@ -92,14 +85,14 @@
     - name: Manage multiple environments
       href: create-manage-environment.md
 
-    
+- name: Extensibility
+  items:
+    - name: Review the entities schema in Common Data Model
+      href: entity-schemas.md
+    - name: Work with APIs
+      href: pm-apis.md
+
 - name: DSR requests under GDPR
   href: pm-gdpr.md
-
-- name: Customer Insights community
-  href: https://go.microsoft.com/fwlink/?linkid=2073991
-
-- name: Submit ideas
-  href: https://go.microsoft.com/fwlink/?linkid=2074172
 
  
