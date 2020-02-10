@@ -1,82 +1,98 @@
 - name: Dynamics 365 Customer Insights
+  href: index.yml
+
+- name: Product overview
   href: overview.md
+
+- name: New and updated features
+  href: https://aka.ms/Dynamics365ReleasePlan
+
+- name: Free trial
+  href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
+
+# - name: First steps
+#  href: pm-homepage.md
+
+- name: Data sources
   items:
-  - name: Home
-    href: pm-homepage.md
-  - name: Customers
-    href: pm-profiles.md
-    items:
-    - name: Search & filter index
-      href: pm-manage-search.md
-  - name: Segments
-    href: pm-segments.md
-    items:
- #   - name: Advanced mode
- #     href: advanced-mode.md
-    - name: Segment export
-      href: segment-export.md
-  - name: Measures
-    href: pm-measures.md
-  - name: Intelligence
-    items: 
-      - name: Custom models
-        href: custom-models.md
-      - name: Predictions
-        href: predictions.md
-  - name: Data
-    # href: pm-data-manager.md 
-    items:
-    - name: Data sources
+    - name: Add data sources
       href: pm-data-sources.md
-    - name: Common connectors guidance
+    - name: Learn about common connectors
       href: pm-common-connectors.md
-    - name: Connect to a Common Data Model folder
+    - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
-    - name: Entities
+    - name: Understand entities and datasets
       href: pm-entities.md
-    - name: Unify
+
+- name: Data unification
+  items: 
+    - name: Unification overview
       href: pm-configure-data.md
-      items: 
-      - name: Map
-        href: pm-map.md
-      - name: Match
-        href: pm-match.md
-      - name: Merge
-        href: pm-merge.md
-    - name: Enrichment
-      href: pm-enrichment.md
-    - name: Activities
-      href: pm-activities.md
-    - name: Relationships
-      href: pm-relationships.md
-  - name: Admin 
-    href: pm-admin.md
-    items:
-    - name: System
-      href: pm-settings.md
-    - name: Permissions
-      href: pm-permissions.md
-    - name: Create and manage environments
-      href: create-manage-environment.md
-    - name: Export destinations
+    - name: Map entities and attributes
+      href: pm-map.md
+    - name: Match entities
+      href: pm-match.md
+    - name: Merge entities
+      href: pm-merge.md
+    - name: Review unified customer profiles
+      href: pm-profiles.md
+    - name: Filter unified customer profiles
+      href: pm-manage-search.md
+
+- name: Data enrichment
+  items: 
+  - name: Build relationships and connected entities
+    href: pm-relationships.md
+  - name: Implement custom machine learning models
+    href: custom-models.md
+  - name: Analyze affinities and demographics
+    href: pm-enrichment.md
+  - name: List customer activities
+    href: pm-activities.md
+
+- name: Data analysis
+  items: 
+  - name: Create segments and customer groups
+    href: pm-segments.md
+  - name: Define measures and KPIs
+    href: pm-measures.md
+  - name: Complete date using value predictions
+    href: predictions.md
+
+- name: Export options
+  items: 
+    - name: Export segments
+      href: segment-export.md
+    - name: Set up export destinations
       href: export-destinations.md
-  - name: Extensibility
-    items:
-    - name: Customer Card Add-in 
+    - name: Install the Customer Card Add-in 
       href: pm-customer-card-addin.md
-    - name: Entities schema in Common Data Model
+    - name: Configure the Power BI connector
+      href: pm-connectors.md
+    - name: Configure the Power Apps connector
+      href: pm-powerapps-connector.md
+    - name: Configure the Power Automate connector
+      href: power-automate-connector.md
+
+- name: Administration
+  items: 
+    - name: Familiarize with admin settings 
+      href: pm-admin.md
+    - name: Set up the system configuration
+      href: pm-settings.md
+    - name: Define user permissions
+      href: pm-permissions.md
+    - name: Manage multiple environments
+      href: create-manage-environment.md
+
+- name: Extensibility
+  items:
+    - name: Review the entities schema in Common Data Model
       href: entity-schemas.md
-    - name: Connectors
-      items: 
-      - name: Power BI connector
-        href: pm-connectors.md
-      - name: Power Apps connector
-        href: pm-powerapps-connector.md
-      - name: Power Automate Connector
-        href: power-automate-connector.md
-    - name: APIs
+    - name: Work with APIs
       href: pm-apis.md
-  - name: Data Subject Rights (DSR) requests under GDPR
-    href: pm-gdpr.md
+
+- name: DSR requests under GDPR
+  href: pm-gdpr.md
 
  

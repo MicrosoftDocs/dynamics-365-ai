@@ -1,0 +1,90 @@
+### YamlMime:Landing
+
+title: Dynamics 365 Customer Insights
+summary: Welcome to Customer Insights, your Customer Data Platform (CDP)! Consume, unify, and organize customer data from multiple sources. Create and manage customer profiles and real-time segmentation. Integrate customer data with other systems to make it even more actionable.
+
+metadata:
+  title: Customer Insights documentation
+  description: Help hub with key links for Dynamics 365 Customer Insights.
+  ms.service: dynamics-365-ai
+  ms.topic: landing-page
+  ms.collection: collection
+  author: m-hartmann
+  ms.author: mhart
+  ms.date: 02/06/2020
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  - title: About Customer Insights
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Product overview
+            url: overview.md
+          - text: New and updated features
+            url: https://aka.ms/Dynamics365ReleasePlan
+          - text: Community site
+            url: https://go.microsoft.com/fwlink/?linkid=2073991
+
+  - title: Ingest data sources
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Add data sources
+            url: pm-data-sources.md
+          - text: Use common connectors
+            url: pm-common-connectors.md
+          - text: Understand entities
+            url: pm-entities.md
+
+  - title: Unify data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Map
+            url: pm-map.md
+          - text: Match
+            url: pm-match.md
+          - text: Merge
+            url: pm-merge.md
+
+  # Card
+  - title: Enrich customer profiles
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Configure relationships
+            url: pm-relationships.md
+          - text: List customer activities
+            url: pm-activities.md
+          - text: Bring your own machine learning models
+            url: custom-models.md
+
+  - title: Export customer data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Set up export destinations
+            url: export-destinations.md
+          - text: Customer cards in Dynamics 365 apps 
+            url: pm-customer-card-addin.md
+          - text: Power BI connector
+            url: pm-connectors.md
+          - text: Power Apps connector
+            url: pm-powerapps-connector.md
+          - text: Power Automate connector
+            url: power-automate-connector.md
+
+  - title: Administer Customer Insights
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Configure the system
+            url: pm-settings.md
+          - text: Define user permissions 
+            url: pm-permissions.md
+          - text: Manage multiple environments
+            url: create-manage-environment.md
