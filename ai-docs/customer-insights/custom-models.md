@@ -1,7 +1,7 @@
 ---
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 02/05/2020
+ms.date: 02/12/2020
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -12,10 +12,13 @@ manager: shellyha
 
 # Custom Models
 
-The **Custom Models** page lists workflows that have been created to generate insights based on Azure Machine Learning models. Workflows help you to choose the data you want to use, select how insights are generated, and map the results back to your Customer Insights data.
+The **Custom Models** page lists workflows that have been created to generate insights based on Azure Machine Learning models. Workflows help you choose the data you want to use, select what will generate the insights, and map the results back to your Customer Insights data. [Read the blog about extending Customer Insights with custom models based on Azure Machine Learning](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/).
 
-> [!NOTE]
-> You'll need to have an Azure Data Lake Storage Gen2 storage account associated with your Azure Studio instance to use this feature. For more information, see [Create an Azure Data Lake Storage Gen2 storage account](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)
+## Prerequisites
+
+- To deploy custom models, you need [Azure Machine Learning Enterprise edition](https://azure.microsoft.com/pricing/details/machine-learning/).
+
+- You need an Azure Data Lake Storage Gen2 storage account associated with your Azure Studio instance to use this feature. For more information, see [Create an Azure Data Lake Storage Gen2 storage account](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)
 
 ## Add a new workflow
 
