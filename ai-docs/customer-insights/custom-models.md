@@ -12,7 +12,7 @@ manager: shellyha
 
 # Custom Models
 
-The **Custom Models** page lists workflows that have been created to generate insights based on Azure Machine Learning models. Workflows help you choose the data you want to use, select what will generate the insights, and map the results back to your Customer Insights data. [Read the blog about extending Customer Insights with custom models based on Azure Machine Learning](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/).
+The **Custom Models** page lists workflows based on Azure Machine Learning models. Workflows help you choose the data you want to generate from insights and map the results to your Customer Insights data. [Read the blog about extending Customer Insights with custom models based on Azure Machine Learning](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/).
 
 ## Prerequisites
 
