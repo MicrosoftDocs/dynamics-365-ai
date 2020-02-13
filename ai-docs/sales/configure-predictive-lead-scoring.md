@@ -28,9 +28,6 @@ When you configure the predictive lead scoring feature, the application uses out
 
 The enhanced predictive lead scoring lets you add custom fields to generate a model for predictive lead scoring that is accurate. The custom fields can be specific to your organization so that you can decide the impact of the outcome. The feature is available in preview mode. You must enable the preview mode to configure predictive lead scoring.
 
->[!IMPORTANT]
->We recommend you not to use the form designer to add the predicitve lead scoring widget to the lead form. 
-
 The following illustration explains how you can configure the predictive lead scoring.
 
 > [!div class="mx-imgBorder"]
