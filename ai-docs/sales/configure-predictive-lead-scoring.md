@@ -93,7 +93,7 @@ This model is generated based on the standard attributes (fields) that are chose
 7. Publish the model. The prediction lead scoring is applied in your organization, and users can see the lead scoring in their views under the **Lead Score** column.
 
 >[!IMPORTANT]
->We recommend not to use the form designer to add the predicitve lead scoring widget to the lead form.
+>We recommend not to use the form designer to add the predictive lead scoring widget to the lead form.
 
 > [!NOTE]
 > For more information on how predictive lead scoring helps users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md).
@@ -154,7 +154,7 @@ Follow these steps:
     The prediction lead scoring is applied in your organization, and users can see the lead scoring in their views under the **Lead Score** column.
     
 >[!IMPORTANT]
->We recommend not to use the form designer to add the predicitve lead scoring widget to the lead form.
+>We recommend not to use the form designer to add the predictive lead scoring widget to the lead form.
 
 > [!NOTE]
 > For more information on how predictive lead scoring helps users, see [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md).
