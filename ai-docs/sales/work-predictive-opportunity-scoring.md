@@ -19,7 +19,7 @@ topic-status: Drafting
 
 # Prioritize opportunities through scores
 
-In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The Predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. By default, the out-of-the-box model chooses top factors that influance the score. An administator can view and modify the top factors that influance the scores by customizing the model. To learn more, see [Generate custom-defined model](configure-predictive-opportunity-scoring.md#generate-custom-defined-model)
+In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The Predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. By default, the out-of-the-box model chooses top factors that influance the score. An administator can view and modify the top factors that influance the scores by customizing the model. To learn more, see [Generate custom-defined model](configure-predictive-opportunity-scoring.md#generate-custom-defined-model).
 
 This model assigns a score between 0 and 100 for opportunities based on the signals from opportunities and related entities such as contact and account. Using these scores, you can identify and prioritize opportunities that have more chances of converting into wins. 
 
