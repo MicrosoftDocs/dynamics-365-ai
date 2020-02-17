@@ -95,7 +95,7 @@ This model is generated based on the standard attributes (fields) that are chose
    The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity Score** column and a widget in the opportunity form.
 
 >[!IMPORTANT]
->Don't use the form designer to add the predictive opportunity scoring widget to the opportunity form. 
+>Adding the predictive opportunity scoring widget to a form through legacy form designer is not supported. 
 
 > [!NOTE]
 > For more information on how predictive opportunity scoring helps users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
@@ -155,8 +155,8 @@ Follow these steps:
 
     The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity Score** column and a widget in the opportunity form.
     
-   >[!IMPORTANT]
-   >Don't use the form designer to add the predictive opportunity scoring widget to the opportunity form. 
+>[!IMPORTANT]
+>Adding the predictive opportunity scoring widget to a form through legacy form designer is not supported. 
 
 > [!NOTE]
 > For more information on how predictive opportunity scoring helps users, see [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md).
