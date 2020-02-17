@@ -16,6 +16,9 @@ manager: shujoshi
 
 Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes. 
 
+>[!IMPORTANT]
+>Premium forecasting is not available on Government Community Cloud (GCC), France, and India. 
+
 ## Prerequisites 
 
 Review the following requirements before you use the predictive forecast feature: 
