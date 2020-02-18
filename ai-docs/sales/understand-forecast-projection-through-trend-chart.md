@@ -17,7 +17,7 @@ manager: shujoshi
 The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
 
 > [!NOTE]
-> The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About predictive forecasting](configure-premium-forecasting.md).
+> The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ## View trend charts
 

@@ -98,4 +98,4 @@ The deals flow of other users that you can see depends on the sales hierarchy de
 ### See also
 
 [Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>
-[About predictive forecasting](configure-premium-forecasting.md)
+[About premium forecasting](configure-premium-forecasting.md)
