@@ -80,3 +80,7 @@ More information: [Dynamics 365 Customer Service entities used by Customer Servi
   * 20 times per hour
   * 100 times per day
 
+* Rate limits for accessing the API for every key as the parameter of that API’s are:
+  * 5 times per minute
+  * 20 times per hour
+  * 100 times per day
