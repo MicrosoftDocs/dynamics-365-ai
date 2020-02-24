@@ -63,7 +63,7 @@ More information: [Map your data to custom entities and fields](https://docs.mic
  - Resolve by SLA
  - Case number
 
-**Generated data**
+**Created data**
 - Topic
 - Is topic popular
 - Topic ID
