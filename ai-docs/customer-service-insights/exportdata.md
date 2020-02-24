@@ -75,7 +75,7 @@ More information: [Dynamics 365 Customer Service entities used by Customer Servi
 ## Considerations
 * Before sharing the exported data with others, check that you and the people you're sharing with have the correct permissions. 
 
-* The exported data is refreshed daily, following the typical workspace refresh schedule.  Exported data is not refreshed if a workspace refresh is temporarily paused because of inactivity after 30 days.
+* The exported data is refreshed daily, following the typical workspace refresh schedule.  Exported data isn't refreshed if a workspace refresh is temporarily paused because of inactivity after 30 days.
 
 * If you suspect the URL has been inappropriately shared, delete the URL and generate a new one. This action disables the old URL and prevents it from being used. 
 
