@@ -1,6 +1,6 @@
 ---
 title: "Export data from Dynamics 365 Customer Service Insights"
-description: "Export data from Dynamics Customer Service Insights"
+description: "Export data from Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 1/31/2020
 ms.service:
@@ -69,9 +69,9 @@ More information: [Dynamics 365 Customer Service entities used by Customer Servi
 
 
 ## Considerations
-* Before sharing the exported data with others, verify that you and the people you're sharing with have the correct permissions. 
+* Before sharing the exported data with others, check that you and the people you're sharing with have the correct permissions. 
 
-* The exported data is refreshed daily, following the typical workspace refresh schedule. When workspace refresh is temporarily paused due to inactivity after 30 days, exported data is also not refreshed. 
+* The exported data is refreshed daily, following the typical workspace refresh schedule. When a workspace refresh is temporarily paused due to inactivity after 30 days, exported data is also not refreshed. 
 
 * If you suspect the URL has been inappropriately shared, delete the URL and generate a new one. This action disables the old URL and prevents it from being used. 
 
@@ -80,7 +80,7 @@ More information: [Dynamics 365 Customer Service entities used by Customer Servi
   * 20 times per hour
   * 100 times per day
 
-* Rate limits for accessing the API for every key as the parameter of that API’s are:
+* Rate limits for accessing the API for every key as the parameter of that API are:
   * 5 times per minute
   * 20 times per hour
   * 100 times per day
