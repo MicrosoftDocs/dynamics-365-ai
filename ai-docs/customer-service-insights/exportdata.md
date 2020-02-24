@@ -1,14 +1,14 @@
 ---
 title: "Export data from Dynamics 365 Customer Service Insights"
-description: "Export data from Dynamics 365 Customer Service Insights"
+description: "Export data with an API endpoint URL so you can get further insights into your data beyond the default dashboards."
 keywords: ""
 ms.date: 2/24/2020
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: alicelu
-ms.author: alicelu
+author: iaanw
+ms.author: iawilt
 manager: shellyha
 ms.reviewer: alicelu
 search.app: capaedac-csi
