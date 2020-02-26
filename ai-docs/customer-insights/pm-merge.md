@@ -70,7 +70,7 @@ If you want to make additional changes and rerun the step, you can cancel an in-
 
 After the **Merge is running** message disappears, merge has completed and resolved contradictions in your data according to the policies you defined. Your merged and unmerged attributes are included in your unified profile entity, while excluded attributes are not.
 
-If this wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and making measures will re-run automatically. You see the status of each downstream process by going to its page. After all downstream processes have been re-run, your customer profiles reflect any changes you made.
+If this wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and making measures will run again automatically. You see the status of each downstream process by going to its page. After all downstream processes have been run again, your customer profiles reflect any changes you made.
 
 ## Next Step
 
