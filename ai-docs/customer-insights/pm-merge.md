@@ -76,4 +76,3 @@ If this wasn't the first time you ran a merge successfully, all downstream proce
 
 Configure [activities](pm-activities.md), [enrichment](pm-enrichment.md), or [relationships](pm-relationships.md) to gain more insights about your customers.
 
-If this wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and making measures will re-run automatically. You can see the status of each downstream process by going to its page. After all downstream processes have been re-run, your customer profiles will reflect any changes you made.
