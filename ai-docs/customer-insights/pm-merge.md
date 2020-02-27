@@ -1,7 +1,7 @@
 ---
 title: "Merge process to unify data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about the merge phase in the data unification process of Dynamics 365 Customer Insights."
-ms.date: 02/25/2020
+ms.date: 02/26/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -75,4 +75,7 @@ If this wasn't the first time you ran a merge successfully, all downstream proce
 ## Next Step
 
 Configure [activities](pm-activities.md), [enrichment](pm-enrichment.md), or [relationships](pm-relationships.md) to gain more insights about your customers.
+
+If you already configured activities, enrichment, or relationships, or if you defined segments, they'll be processed automatically to use the latest customer data.
+
 
