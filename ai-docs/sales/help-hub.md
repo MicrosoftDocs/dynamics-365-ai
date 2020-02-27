@@ -45,6 +45,8 @@ search.app:
 <li><a href="configure-who-knows-whom.md" data-raw-source="[Configure Who knows whom](configure-who-knows-whom.md)">Configure Who knows whom</a></li>
 <li><a href="configure-predictive-lead-scoring.md" data-raw-source="[Configure Predictive lead scoring](configure-predictive-lead-scoring.md)">Configure Predictive lead scoring</a></li>
 <li><a href="configure-predictive-opportunity-scoring.md" data-raw-source="[Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)">Configure Predictive opportunity scoring</a></li>
+<li><a href="configure-premium-forecasting.md" data-raw-source="[Premium forecasting](configure-premium-forecasting.md)">Premium forecasting</a></li>
+<li><a href="manage-snapshots-forecast.md" data-raw-source="[Manage snapshots for a forecast](manage-snapshots-forecast.md)">Manage snapshots for a forecast</a></li>
 <li><a href="install-assistant-application-microsoft-teams.md" data-raw-source="[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)">Install Dynamics 365 assistant application on Microsoft Teams</a></li>
 <li><a href="fre-setup-sales-insight-app.md" data-raw-source="[First-run set up experience of Sales Insight application](fre-setup-sales-insight-app.md)">First-run set up experience of Sales Insight application</a></li>
 <li><a href="configure-conversation-intelligence-call-data.md" data-raw-source="[Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)">Configure conversation intelligence to connect call data</a></li>
@@ -55,6 +57,9 @@ search.app:
 <li><a href="assistant.md" data-raw-source="[Use assistant to guide customer communications](assistant.md)">Use assistant to guide customer communications</a></li>
 <li><a href="work-predictive-lead-scoring.md" data-raw-source="[Prioritize leads using predictive scores](work-predictive-lead-scoring.md)">Prioritize leads using predictive scores</a></li>
 <li><a href="work-predictive-opportunity-scoring.md" data-raw-source="[Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)">Prioritize opportunities using predictive scores</a></li>
+<li><a href="analyze-revenue-outcome-using-predictive-forecasting.md" data-raw-source="[Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)">Analyze revenue outcome using predictive forecasting</a></li>
+<li><a href="understand-forecast-projection-through-trend-chart.md" data-raw-source="[Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)">Understand forecast projection through trend chart</a></li>
+<li><a href="analyze-deals-flow-between-snapshots.md" data-raw-source="[Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)">Analyze deals flow between snapshots</a></li>
 <li><a href="talking-points.md" data-raw-source="[Know conversation starters for your customers](talking-points.md)">Know conversation starters for your customers</a></li>
 <li><a href="who-knows-whom.md" data-raw-source="[Get introduced to a lead](who-knows-whom.md)">Get introduced to a lead</a></li>
 <li><a href="working-with-meetings-teams.md" data-raw-source="[Working with meetings](working-with-meetings-teams.md)">Working with meetings</a></li>
