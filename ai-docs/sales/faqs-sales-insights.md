@@ -27,23 +27,23 @@ topic-status: Drafting
 **What languages are supported now?**<br>
 The sales insights supports the following model languages:<br>
 
-| Feature	| Language supported |
+| Feature    | Language supported |
 |---------|--------------------|
-| Auto capture<br>Predictive lead scoring<br>Predictive opportunity scoring<br>Premium forecasting<br>Relationship analytics<br>Who knows whom | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
+| Assistant studio<br>Auto capture<br>Email engagement<br>Predictive lead scoring<br>Predictive opportunity scoring<br>Premium forecasting<br>Relationship analytics<br>Who knows whom | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
 | Taking points<br>Notes analysis<br>Exchange insight cards in Assistant | English - United States (en-US) |
-| Sales Insights application | English - United States (en-US)<br>French - France (fr-FR) |
+| Conversation intelligence (Sales insights application) | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
 
 **In which region sales insights is available?**<br>
 Sales insights is available in the following regions:<br>
 
--	Asia Pacific (APJ)
--	Canada (CAN)
--	Europe, the Middle East, and Africa (EMEA)
--	Great Britain (GBR)
--	India (IND)
--	Japan (JPN)
--	North American (NAM)
--	Oceania (OCE)
+-    Asia Pacific (APJ)
+-    Canada (CAN)
+-    Europe, the Middle East, and Africa (EMEA)
+-    Great Britain (GBR)
+-    India (IND)
+-    Japan (JPN)
+-    North American (NAM)
+-    Oceania (OCE)
 
 ## Relationship analytics
 
@@ -111,7 +111,7 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
 
 **How is my privacy protected?​**<br>
-User privacy is safeguarded because only emails from the signed-in user’s mailbox are shown. A colleague won't be able to see those same talking points unless they were also a recipient of that email.​
+User privacy is safeguarded because only emails from the signed-in user's mailbox are shown. A colleague won't be able to see those same talking points unless they were also a recipient of that email.​
 
 **How long will it take for results to appear?​**<br>
 It takes a few seconds to display the results.​
