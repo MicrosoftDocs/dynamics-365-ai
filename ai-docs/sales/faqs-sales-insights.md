@@ -26,10 +26,11 @@ topic-status: Drafting
 
 **What languages are supported now?**<br>
 The sales insights supports the following model languages:<br>
+
 | Feature	| Language supported |
 |---------|--------------------|
-|Predictive lead scoring, Predictive opportunity scoring, Relationship analytics, Who knows whom, and premium forecasting|Brazilian Portuguese (pt-BR)<br> Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX)|
-| Taking points, Notes analysis, and Exchange insight cards in Assistant | English - United States (en-US) |
+| Predictive lead scoring<br>Predictive opportunity scoring<br>Relationship analytics<br>Who knows whom<br>Premium forecasting | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
+| Taking points<br>Notes analysis<br>Exchange insight cards in Assistant | English - United States (en-US) |
 | Sales Insights application | English - United States (en-US)<br>French - France (fr-FR) |
 
 **In which region sales insights is available?**<br>
