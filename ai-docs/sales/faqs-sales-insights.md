@@ -22,6 +22,28 @@ topic-status: Drafting
 
 # Frequently asked questions for Sales Insights
 
+## Language and region support
+
+**What languages are supported now?**<br>
+The sales insights supports the following model languages:<br>
+| Feature	| Language supported |
+|---------|--------------------|
+|Predictive lead scoring, Predictive opportunity scoring, Relationship analytics, Who knows whom, and premium forecasting|Brazilian Portuguese (pt-BR)<br> Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX)|
+| Taking points, Notes analysis, and Exchange insight cards in Assistant | English - United States (en-US) |
+| Sales Insights application | English - United States (en-US)<br>French - France (fr-FR) |
+
+**In which region sales insights is available?**<br>
+Sales insights is available in the following regions:<br>
+
+-	Asia Pacific (APJ)
+-	Canada (CAN)
+-	Europe, the Middle East, and Africa (EMEA)
+-	Great Britain (GBR)
+-	India (IND)
+-	Japan (JPN)
+-	North American (NAM)
+-	Oceania (OCE)
+
 ## Relationship analytics
 
 **What do I need in order to use Relationship analytics?​**<br>
@@ -44,9 +66,11 @@ An administrator can influence the relationship health score by changing the wei
 **What do I need in order to use lead/opportunity scoring?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​
 
-To build a lead score model, a minimum of 100 qualified and 1,000 disqualified leads are required. 
+To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required. 
 
 To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required. 
+
+verify that the leads and opportunities are created on or after January 01, in the previous year.
 
 **Can I customize the model?​**<br>
 You cannot customize the model. The out-of-the-box model automatically selects the features for the model.
@@ -109,36 +133,6 @@ Everyone in the tenant (in the United States until geo availability expands) wil
 Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact/lead. Consequently, this means a salesperson might not see the same results as another salesperson because they know different people in the organization.
 
 ## Sales Insights application
-
-**What languages are supported now?​**<br>
-The application supports the following model languages:
-
-- Brazilian Portuguese (pt-BR)
-- Chinese (simplified) (zh-CN)
-- English - United States (en-US)
-- English - Great Britain (en-GB)
-- French - France (fr-FR)
-- German - Germany (de-DE)
-- Italian - Italy (it-IT)
-- Japanese - Japan (ja-JP)
-- Spanish - Spain (es-ES)
-- Spanish - Mexico (es-MX)
-
-The application supports the following machine learning model languages for contextual insights capabilities:
-
-- English - United States (en-US)
-
-**When will you expand to support my region?**<br>
-The application is supported in the following regions:
-
-- Asia Pacific (APJ)
-- Canada (CAN)
-- Europe, the Middle East, and Africa (EMEA)
-- Great Britain (GBR)
-- India (IND) 
-- Japan (JPN)
-- North American (NAM)
-- Oceania (OCE)
 
 **How long does it take for data updates to reflect in the app?**<br>
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
