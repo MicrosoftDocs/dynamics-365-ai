@@ -25,17 +25,16 @@ topic-status: Drafting
 ## Language and region support
 
 **What languages are supported now?**<br>
-The sales insights supports the following model languages:<br>
+Sales insights supports the following model languages:<br>
 
-| Feature    | Language supported |
+| Feature | Language supported |
 |---------|--------------------|
 | Assistant studio<br>Auto capture<br>Email engagement<br>Predictive lead scoring<br>Predictive opportunity scoring<br>Premium forecasting<br>Relationship analytics<br>Who knows whom | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
 | Taking points<br>Notes analysis<br>Exchange insight cards in Assistant | English - United States (en-US) |
 | Conversation intelligence (Sales insights application) | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
 
-**In which region sales insights is available?**<br>
+**In which region is Sales Insights available?**<br>
 Sales insights is available in the following regions:<br>
-
 -    Asia Pacific (APJ)
 -    Canada (CAN)
 -    Europe, the Middle East, and Africa (EMEA)
