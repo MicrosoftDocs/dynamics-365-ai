@@ -29,8 +29,8 @@ Sales insights supports the following languages:<br>
 
 | Feature | Language supported |
 |---------|--------------------|
-| Assistant studio<br>Auto capture<br>Email engagement<br>Predictive lead scoring<br>Predictive opportunity scoring<br>Premium forecasting<br>Relationship analytics<br>Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
-| Taking points<br>Notes analysis<br>Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
+| Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Taking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
 | Contact suggestions in Auto capture | Supports only English and French to analyze the body of an email for contacts. |
 | Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), English, French, German, Italian, Japanese, Portuguese (Brazil), and Spanish. |
 
