@@ -25,13 +25,16 @@ topic-status: Drafting
 ## Language and region support
 
 **What languages are supported now?**<br>
-Sales insights supports the following model languages:<br>
+Sales insights supports the following languages:<br>
 
 | Feature | Language supported |
 |---------|--------------------|
-| Assistant studio<br>Auto capture<br>Email engagement<br>Predictive lead scoring<br>Predictive opportunity scoring<br>Premium forecasting<br>Relationship analytics<br>Who knows whom | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
-| Taking points<br>Notes analysis<br>Exchange insight cards in Assistant | English - United States (en-US) |
-| Conversation intelligence (Sales insights application) | Brazilian Portuguese (pt-BR)<br>Chinese (simplified) (zh-CN)<br>English - United States (en-US)<br>English - Great Britain (en-GB)<br>French - France (fr-FR)<br>German - Germany (de-DE)<br>Italian - Italy (it-IT)<br>Japanese - Japan (ja-JP)<br>Spanish - Spain (es-ES)<br>Spanish - Mexico (es-MX) |
+| Assistant studio<br>Auto capture<br>Email engagement<br>Predictive lead scoring<br>Predictive opportunity scoring<br>Premium forecasting<br>Relationship analytics<br>Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Taking points<br>Notes analysis<br>Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
+| Contact suggestions for Auto capture | Supports only English and French to analyze the body of an email for contacts. |
+| Conversation intelligence (Sales insights application) | Portuguese (Brazil), Chinese Simplified (PRC), English, French, German, Italian, Japanese, and Spanish. |
+
+To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
 **In which region is Sales Insights available?**<br>
 Sales insights is available in the following regions:<br>
