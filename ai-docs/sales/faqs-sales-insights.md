@@ -113,7 +113,7 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
 
 **How is my privacy protected?​**<br>
-User privacy is safeguarded because only emails from the signed-in user's mailbox are shown. A colleague won't be able to see those same talking points unless they were also a recipient of that email.​
+User privacy is safeguarded because only emails from the signed-in user's mailbox are shown. Your colleagues won't be able to see those same talking points unless they were also a recipient of that email.​
 
 **How long will it take for results to appear?​**<br>
 It takes a few seconds to display the results.​
