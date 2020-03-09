@@ -73,7 +73,7 @@ To build a lead score model, a minimum of 40 qualified and 40 disqualified leads
 
 To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required. 
 
-verify that the leads and opportunities are created on or after January 01, in the previous year.
+Verify that the leads and opportunities are created on or after January 01, in the previous year.
 
 **Can I customize the model?​**<br>
 You cannot customize the model. The out-of-the-box model automatically selects the features for the model.
