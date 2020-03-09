@@ -31,7 +31,7 @@ Sales insights supports the following languages:<br>
 |---------|--------------------|
 | Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
 | Taking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
-| Activity-content based Auto capture |- For contacts, we supports only English and French to analyze the body of emails and meetings.<br>- For activities, we supports English, French, German, Italian, and Dutch to analyze the body of emails and meetings. |
+| Activity-content based Auto capture |- For contacts, only English and French is supported to analyze the body of emails and meetings.<br>- For activities, English, French, German, Italian, and Dutch is supported to analyze the body of emails and meetings. |
 | Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), English, French, German, Italian, Japanese, Portuguese (Brazil), and Spanish. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
