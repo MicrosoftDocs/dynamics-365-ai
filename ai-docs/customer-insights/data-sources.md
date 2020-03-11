@@ -14,13 +14,12 @@ manager: shellyha
 
 The **Chose data source** page organizes data types in the following categories:
 
-- All categories
-- File
-- Database
-- Power Platform
-- Azure
-- Online Services
-- Other
+- [File](#file-data-sources)
+- [Database](#database-data-sources)
+- [Power Platform](#power-platform-data-sources)
+- [Azure](#azure-data-sources)
+- [Online services](#online-services-data-sources)
+- [Other](#other-data-sources)
 
 ## File data sources
 
