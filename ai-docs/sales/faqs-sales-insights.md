@@ -82,7 +82,7 @@ You cannot customize the model. The out-of-the-box model automatically selects t
 No. In this release, you cannot create multiple models. You can create only one model for all leads and one model for all opportunities.
 
 **What is the minimum data required to create a lead/opportunity score model?​**<br>
-A minimum of 100 qualified and 1,000 disqualified leads are required to build a lead score model. 
+A minimum of 40 qualified and 40 disqualified leads are required to build a lead score model. 
 
 A minimum of 40 won and 40 lost opportunities are required to build an opportunity scoring model.​
 
