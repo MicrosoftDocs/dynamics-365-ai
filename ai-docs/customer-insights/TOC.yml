@@ -38,17 +38,15 @@
       href: pm-profiles.md
     - name: Filter unified customer profiles
       href: pm-manage-search.md
+    - name: Build relationships and connected entities
+      href: pm-relationships.md
+    - name: Implement custom machine learning models
+      href: custom-models.md
 
 - name: Data enrichment
   items: 
-  - name: Build relationships and connected entities
-    href: pm-relationships.md
-  - name: Implement custom machine learning models
-    href: custom-models.md
-  - name: Analyze affinities and demographics
+  - name: Enrich with brand and interest affinities
     href: pm-enrichment.md
-  - name: List customer activities
-    href: pm-activities.md
 
 - name: Data analysis
   items: 
@@ -58,6 +56,8 @@
     href: pm-measures.md
   - name: Complete date using value predictions
     href: predictions.md
+  - name: List customer activities
+    href: pm-activities.md
 
 - name: Export options
   items: 
