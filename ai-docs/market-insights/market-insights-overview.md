@@ -1,7 +1,7 @@
 ---
 title: "Overview for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Introduction to Market Insights."
-ms.date: 09/16/2019
+ms.date: 03/17/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -18,11 +18,13 @@ search.app:
 
 # Dynamics 365 Market Insights Preview - track topics that matter to you
 
+Dynamics 365 Market Insights Preview is no longer available as a standalone application to new customers starting from Apr 10, 2020 and will end the service for all existing customers by May 11, 2020. We will incorporate the core technology and learnings from Market Insights preview into [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) and [Microsoft Bing Industry Updates](https://newspro.microsoft.com/baw/homepage). Read the [Market Insights discontinuation FAQ](eos-faq.md) to learn more.
+
 (This topic is pre-release documentation and is subject to change.)
 
 Today, business professionals face several challenges to understanding their customers and their market. An enormous amount of information is continuously being updated and coming from many different sources. In addition, some of the information needed might not be accessible. It might also take weeks or months to collect and understand the information about a specific topic, and this information is often expensive to access, gather, and process. In the worst case, you might miss an important event or find out about it too late. These challenges result in low visibility into market trends and missed opportunities to build customer relationships.
 
-With Dynamics 365 Market Insights, you can close this gap with access to a variety of insights about the things you’re interested in most (such as your products, customers, competitors, partners, events, and general topics). These insights come from a variety of data sources (including but not limited to news, web data, internet browsing behavior, and search activity) and are delivered to you in a concise, timely, and proactive manner. In addition to providing relevant news about your topics, Market Insights also enables you to make more informed decisions based on what consumers say, seek, and feel about their products and brands.
+With Dynamics 365 Market Insights, you can close this gap with access to a variety of insights about the things you're interested in most (such as your products, customers, competitors, partners, events, and general topics). These insights come from a variety of data sources (including but not limited to news, web data, internet browsing behavior, and search activity) and are delivered to you in a concise, timely, and proactive manner. In addition to providing relevant news about your topics, Market Insights also enables you to make more informed decisions based on what consumers say, seek, and feel about their products and brands.
 
 Market Insights aims at helping business professionals stay ahead of the game on topics related to their work in a quick and easy way. The insights are designed specifically for business leaders and employees in Sales, Marketing, Customer Service, or Finance departments.
 
@@ -31,7 +33,7 @@ Market Insights aims at helping business professionals stay ahead of the game on
 
 - Find out what your **customers** are *saying, seeking, and feeling* about your brand, product, company, or your competitors.
 - Know what your **competitors** are doing and learn about product launches, pricing changes, or hiring updates.
-- Track what’s happening in the **industry** and if there are product trends, new entrants to the market, or rumors of mergers and acquisitions.
+- Track what's happening in the **industry** and if there are product trends, new entrants to the market, or rumors of mergers and acquisitions.
 - Keep an eye on **major events** that are important to your business like conferences, trade shows, or specific product launches.
 
 ## Key benefits for Market Insights
@@ -44,7 +46,7 @@ The service recognizes products, brands and companies so you can be assured that
 
 ### Insights from online activity
 
-We go beyond what's in the news about your topic to give you actionable information that can help with your job. We derive insights from people’s activity on the web and searches on the web to bring you what's trending related to your topic before it even makes it to the news. Or, you can see how some news/event impacted consumer behavior online.
+We go beyond what's in the news about your topic to give you actionable information that can help with your job. We derive insights from people's activity on the web and searches on the web to bring you what's trending related to your topic before it even makes it to the news. Or, you can see how some news/event impacted consumer behavior online.
 
 ### Less spam
 
