@@ -40,15 +40,15 @@ The assistant is available on the application in the following ways:
 
 -	**Navigation bar**: Select the bulb icon to open the assistant and the insight cards are displayed in a pane. The following screen is an example of assistant displayed on navigation bar:
 
-    > [!div class="mx-imgBorder"]
-    > ![Assistant widget through navigation bar](media/assistant-widget-navigation-bar.png "Assistant widget through navigation bar")
+   > [!div class="mx-imgBorder"]
+   > ![Assistant widget through navigation bar](media/assistant-widget-navigation-bar.png "Assistant widget through navigation bar")
 
 -	**Dashboards**: An assistant widget is displayed on **Sales Activity Social Dashboard** dashboard.
 
 -	**Entities**: An assistant widget displays insight cards related to the following entities – accounts, contacts, leads, opportunities, and cases. The following screen is an example of assistant widget displayed on dashboards and entities:
 
-    > [!div class="mx-imgBorder"]
-    > ![Assistant widget in entities](media/assistant-widget-entities.png "Assistant widget in entities")
+   > [!div class="mx-imgBorder"]
+   > ![Assistant widget in entities](media/assistant-widget-entities.png "Assistant widget in entities")
 
 ## What cards do I see?
 
@@ -62,12 +62,12 @@ Typically, the insight cards are categorized into notifications and insights, wh
 
 -	**Notifications**: Displays insight cards about your upcoming, and past-due items and events. The notifications include meetings and reminders sections.
    
-    The **upcoming meetings** section displays the cards on meetings that are scheduled for the current day.
+   The **upcoming meetings** section displays the cards on meetings that are scheduled for the current day.
    
-    The **reminders** section displays the cards that require your attention.
+   The **reminders** section displays the cards that require your attention.
    
-    >[!NOTE]
-    >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
+   >[!NOTE]
+   >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
 
 -	**Insight**: Displays custom insight cards that are generated using the Assistant Studio. For example, the suggestions include an email with a potential negative sentiment that puts an opportunity as risk, prioritize an opportunity, suggest a cross-sale, and prompt to look at auto capture recent items.
 
@@ -104,9 +104,9 @@ Typically, an insight card is made up of the following elements, as labeled in t
 
 4.	**Dismiss**: Select the button to dismiss card permanently, regardless of whether you've completed the action it recommends.
 
-    >[!NOTE]
-    >- When you snooze or dismiss a card, a confirmation message displays for a specified time. If you do not undo before the time expires, the card will automatically be snoozed or dismissed. You can configure the time to display the confirmation message. To learn more, see [Configure Sales Insights Assistant](configure-assistant.md).
-    >- After a certain period of time, insight cards will be automatically dismissed if there is no action performed on the cards.
+   >[!NOTE]
+   >- When you snooze or dismiss a card, a confirmation message displays for a specified time. If you do not undo before the time expires, the card will automatically be snoozed or dismissed. You can configure the time to display the confirmation message. To learn more, see [Configure Sales Insights Assistant](configure-assistant.md).
+   >- After a certain period of time, insight cards will be automatically dismissed if there is no action performed on the cards.
 
 5.	**Feedback**: Helps you to provide feedback on how useful the card is for you. Select thumbs-up icon if the card is useful for you or select thumbs-down icon if it’s not. The feedback helps Microsoft and your organization administrators to improve the card experience and make it more helpful for you. To learn more, see [View card usage metrics](edit-insight-cards.md#view-card-usage-metrics).
 
@@ -130,25 +130,25 @@ You can configure the assistant by choosing which types of insight cards you'd l
 
    - **Turn on a card**: Choose a card that is turned off and then select **Turn on cards**.  
 
-     Alternatively, you can select the **More options** icon on the card and then select **Turn on card**. 
+      Alternatively, you can select the **More options** icon on the card and then select **Turn on card**. 
       
-     The turned off icon is displayed on turned off cards.
+      The turned off icon is displayed on turned off cards.
 
-     > [!div class="mx-imgBorder"]
-     > ![Turn on insight card](media/assistant-personal-settings-card-turn-on.png "Turn on insight card")
+      > [!div class="mx-imgBorder"]
+      > ![Turn on insight card](media/assistant-personal-settings-card-turn-on.png "Turn on insight card")
 
-     >[!NOTE]
-     >You can select multiple cards that are turned off and then turn on simultaneously. 
+      >[!NOTE]
+      >You can select multiple cards that are turned off and then turn on simultaneously. 
 
    - **Turn off a card**: Choose a card that is turned on and then select **Turn off cards**. The card is turned off and will not be displayed for you. 
 
-     Alternatively, you can select the **More options** icon on the card and then select **Turn off card**. 
+      Alternatively, you can select the **More options** icon on the card and then select **Turn off card**. 
       
-     > [!div class="mx-imgBorder"]
-     > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
+      > [!div class="mx-imgBorder"]
+      > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
 
-     >[!NOTE]
-     >You can select multiple cards that are turned on and then turn off simultaneously. 
+      >[!NOTE]
+      >You can select multiple cards that are turned on and then turn off simultaneously. 
 
 
 ### See also  
