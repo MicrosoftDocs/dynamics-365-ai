@@ -40,14 +40,15 @@ The assistant is available on the application in the following ways:
 
 -	**Navigation bar**: Select the bulb icon to open the assistant and the insight cards are displayed in a pane. The following screen is an example of assistant displayed on navigation bar:
 
-   <image>
+    > [!div class="mx-imgBorder"]
+    > ![Assistant widget through navigation bar](media/assistant-widget-navigation-bar.png "Assistant widget through navigation bar")
 
--	**Dashboards**: An assistant widget is displayed on Sales Activity Social Dashboard dashboard.
-
+-	**Dashboards**: An assistant widget is displayed on **Sales Activity Social Dashboard** dashboard.
 
 -	**Entities**: An assistant widget displays insight cards related to the following entities – accounts, contacts, leads, opportunities and cases. The following screen is an example of assistant widget displayed on dashboards and entities:
 
-   <image>
+    > [!div class="mx-imgBorder"]
+    > ![Assistant widget in entities](media/assistant-widget-entities.png "Assistant widget in entities")
 
 ## What cards do I see?
 
@@ -61,12 +62,12 @@ Typically, the insight cards are categorized into notifications and insights whi
 
 -	**Notifications**: Displays insight cards about your upcoming, and past-due items and events. The notifications include meetings and reminders sections.
    
-   The **upcoming meetings** section displays the cards on meetings that are scheduled for the current day.
+    The **upcoming meetings** section displays the cards on meetings that are scheduled for the current day.
    
-   The **reminders** section displays the cards that requires your attention.
+    The **reminders** section displays the cards that requires your attention.
    
-   >[!NOTE]
-   >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
+    >[!NOTE]
+    >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
 
 -	**Insight**: Displays custom insight cards that are generated using the Assistant Studio. For example, the suggestions include an email with a potential negative sentiment that puts an opportunity as risk, prioritize an opportunity, suggest a cross-sale, and prompt to look at auto capture recent items.
 
@@ -79,81 +80,79 @@ In this example, we are viewing the **reminders** category. The heading specifie
 > [!div class="mx-imgBorder"]
 > ![Reminder section](media/assistant-reminders-section.png "Reminder section")
 
+To view complete details of the activity, select the card. In this example, we have selected the meeting **Stage changed** and the detailed information of the change is displayed. Further, select **Open** to view more details.
+
+> [!div class="mx-imgBorder"]
+> ![Details of Stage changed card](media/assistant-reminders-section-stage-chnaged.png "Details of Stage changed card")
+
+Also, you can perform action on cards, such as open activity, snooze, dismiss, like, or dislike the card. To learn more, see [Elements of an insight card]().
+
+## Elements of an insight card
+
+When you open the assistant, it typically displays basic information such as names and description. To further view the detailed information of the cards, select and open the card.
+
+> [!div class="mx-imgBorder"]
+> ![Elements of an insight card](media/assistant-elements-of-an-insight-card.png "Elements of an insight card")
+
+Typically, an insight card is made up of the following elements, as labeled in the figure:
+
+1.	**Main content area**: Shows the title of the record the card refers to, its summary, the card type, and other basic information.
+
+2.	**Actions area**: Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. To learn more, see [Insight cards reference](action-cards-reference.md).
+
+3.	**Snooze**: Select the button to hide card temporarily. Snooze time varies by card type. Once the snooze time expires the card will again be visible. The snooze time of cards varies from 5 minutes to 12 hours depends on the type of card.
+
+4.	**Dismiss**: Select the button to dismiss card permanently, regardless of whether you have completed the action it recommends.
+
+    >[!NOTE]
+    >- When you snooze or dismiss a card, a confirmation message displays for a specified time. If you do not undo before the time expires, the card will automatically be snoozed or dismissed. You can configure the time to display the confirmation message. To learn more, see [Configure Sales Insights Assistant](configure-assistant.md).
+    >- After a certain period of time, insight cards will be automatically dismissed if there is no action performed on the cards.
+
+5.	**Feedback**: Helps you to provide feedback on how useful the card is for you. Select thumbs-up icon if the card is useful for you or select thumbs-down icon if it’s not. The feedback helps Microsoft and your organization administrators to improve the card experience and make it more helpful for you. To learn more, see [View card usage metrics](edit-insight-cards.md#view-card-usage-metrics).
+
+## Manage insight cards
+
+You can configure the assistant by choosing which types of insight cards you'd like to see or hide. 
+
+>[!NOTE]
+>You can configure certain cards, such as **No activity with a record**, where you can display the card when there is activity for the set number of days on the record. These configuration will override the administrator configuration and is applicable only for you.
+
+1.	Sign in to the **Dynamics 365 Sales Hub** app.
+
+2.	At the bottom of the site map, select **Change area**, and then select **Sales Insights settings**.
+
+3.	Select **Personal settings** and under **Assistant studio**, select **Insight cards**. 
+   
+   The **Manage insight cards** page appears with the list of insight cards that are ordered by status and priority.
+
+    > [!div class="mx-imgBorder"]
+    > ![Personal settings for assistant](media/assistant-personal-settings.png "Personal settings for assistant")
+
+    - **Turn on a card**: Choose a card that is turned off and then select **Turn on cards**.  
+
+      Alternatively, you can select the **More options** icon on the card and then select **Turn on card**. 
+      
+      The turned off icon is displayed on turned off cards.
+
+      > [!div class="mx-imgBorder"]
+      > ![Turn on insight card](media/assistant-personal-settings-card-turn-on.png "Turn on insight card")
+
+      >[!NOTE]
+      >You can select multiple cards that are turned off and then turn on simultaneously. 
+
+    - **Turn off a card**: Choose a card that is turned on and then select **Turn off cards**. The card is turned off and will not displayed for you. 
+
+      Alternatively, you can select the **More options** icon on the card and then select **Turn off card**. 
+      
+      > [!div class="mx-imgBorder"]
+      > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
+
+      >[!NOTE]
+      >You can select multiple cards that are turned on and then turn off simultaneously. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- When you start your day by signing in to Dynamics 365 Sales, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
-  
- ![assistant carousel on a dashboard](media/relationship-assistant-carousel-on-dashboard.png "assistant carousel on a dashboard")  
-  
- The figure shows a typical dashboard that includes the assistant carousel. It highlights the following elements:  
-  
-1. **Action card carousel**: The assistant shows pending action cards here. The most important card is shown on the left, and additional cards may be visible depending on your screen resolution and which view you are using. As you work, dismissing and snoozing cards, additional cards slide in from the right. The figure shows a top-level dashboard, so these cards are drawn from all areas of the site; carousels are also available on individual record views, where the cards are filtered for your specific context.  
-  
-2. **Action card**: This is a single action card.  
-  
-3. **Assistant column button**:  select the button to view all available action cards in a vertical, scrollable column. The carousel is hidden when you choose this view.    
-4. **Feedback and customization buttons**: These are shown in the upper-right corner of both the carousel and the column views. Use the button on the left to provide feedback about the assistant to Microsoft. Use the button on the right to open your assistant preferences, where you can choose which types of cards you want to see and set options for some of them.  
-  
-As you drill down into specific records, such as an opportunity or contact, the assistant displays only those cards that are related to the record you are working with. As on the front-page dashboard, the assistant typically opens by showing a carousel, and includes an **Assistant** tab in the center column, which you can open to scroll through all the available cards for the current record.  
-  
-![Action card example](media/action-card-example.png "Action card example")  
-  
-Action cards are made up of the following elements, as labeled in the figure:  
-  
-1. **Main content area**: Shows the title of the record the card refers to, its summary, the card type, and other basic information. Click anywhere in this area (except for on the two buttons) to open the related item, which might be a Dynamics 365 Sales record or an email message .  
-  
-2. **Actions area**: Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)  
-  
-3. **Snooze button**: select the button to hide card temporarily. Snooze time varies by card type. Once the snooze time expires the card will again be visible.  
-  
-4. **Dismiss button**:  select the button to dismiss card permanently, regardless of whether you have completed the action it recommends.  
-  
-<a name="Configure"></a>   
-
-## Enable and configure the action cards that are most helpful for you  
-
- You can customize the assistant by choosing which types of action cards you'd like to see and, for some types of cards, by setting configuration options. To configure the assistant:  
-  
-1. Open the assistant settings by doing *one* of the following:  
-  
-   - Go to any page in Dynamics 365 Sales where you can see action cards, and then select the **Customize** button ![Customize cards button in the assistant](media/customize-cards-shown-relationship-assistant.png "Customize cards button in the assistant") in the upper-right corner of the card container.  
-  
-   - Select the **Settings** button ![Settings button on the nav bar](media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal assistant settings** link.  
-  
-2. The **assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
-  
-   ![assistant settings window](media/relationship-assistant-settings-window.png "assistant settings window")  
-  
-    Work with these settings as follows:  
-  
-   - The cards are organized by category, each with its own section on the page. Expand or collapse each section to show or hide the list of card types for each category.  
-  
-   - Select the check box for each type of action card that you'd like to see. Clear the check box for card types that you don't want to see.  
-  
-   - Some types of cards include additional settings, which are shown in to the right of the check box when available.  
-  
-   - If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
-  
-     For a complete description of all card types, including configuration settings where available, see [Action cards reference](action-cards-reference.md)  
-  
-3. Select **Save** to save your settings and close the window.  
-  
 ### See also  
 
 [Configure Assistant](configure-assistant.md)
 
-[Action cards reference](action-cards-reference.md)
+[Insight cards reference](action-cards-reference.md)
