@@ -44,73 +44,39 @@ Configuring the brands and interests enrichment consists of two steps.
    To add a brand or interest, start typing in the corresponding input area to get suggestions based on matching terms. If we don't list a brand or interest you are looking for, send us feedback using the **Suggest** link.
 
 2. **Map your fields**
-   Map fields from your customer entity to at least two attributes. This defines the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields.
+   Map fields from your unified customer entity to at least two attributes. This defines the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to finalize the field mapping.
 
    The following formats and values are supported:
-   - Date of Birth: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
-   - Gender: Male, Female, Unknown
-   - Zip Code: 5-digit US ZIP Code (only supported for the United States)
-   - State: 2-letter abbreviation (only supported for the United States)
+   - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
+   - **Gender**: Male, Female, Unknown
+   - **Zip Code**: 5-digit US ZIP Code (only supported for the United States)
+   - **State**: 2-letter abbreviation (only supported for the United States)
 
-## Explore the Enrichment page
+## Run enrichment
 
-The **Enrichment** page includes two major sections where you'll define the parameters to enrich your data.
+You can run the enrichment after configuring brands, interests, and the field mapping for demographics. TO start the process, select **Run** on the **Data** > **Enrichment** page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Depending on the size of your customer data, it can take several minutes for an enrichment run to complete.
 
-![Screenshot of the Enrichment page in Customer Insights](media/configure-data-enrich-profile-page.png)
+## Enrichment results
 
-- **Demographics**: Define demographics for a specific group of profile types for which you want to gain insights around preferred brands and interests.
+Once the enrichment run is successfully completed, you can review the results in terms of the total and a breakdown by brands and interests of the number of customer profiles enriched.
 
-- **Brands and categories**: Select whether Customer Insights delivers insights about groups of profiles based on your own selections, or based on industry trends.
+You can also see the enriched data by selecting View enriched data in the chart. Enriched data for Brands can be found in the BrandAffinityFromMicrosoft entity and for Interests can be found in InterestAffinityFromMicrosoft. These entities can also be accessed under the Enrichment group in Data > Entities.
 
-## Demographics section
+## See enrichment data on the customer card
 
-You'll need to define the values for at least two fields to enrich your unified customer profiles.
+Brand and interest affinities can also be viewed on individual customer cards. Go to **Customers** and select a customer profile. In the customer card, you'll find charts for the brands and interests that people in that customer's demographic profile have affinity for.
 
-The following formats and values are supported:
+## Next steps
 
-- **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
-- **Gender**: Male, Female, Unknown
-- **Zip Code**: 5-digit US ZIP Code (only supported for the US)
+Consider extracting more insights and powering your business process by leveraging your customer data enriched with brand and interest affinities. Create [Segments](pm-segments.md), [Measures](pm-measures.md) and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.
 
-## Brands and categories section
-
-Choose one of the following options. Then, provide the information for that option.
-
-- **Choose on my own**: This option lets you choose brands and categories of interest to get affinities for those selections.
-
-   To add a brand or category, enter a keyword in the corresponding input field. The system will search for a keyword match in the underlying database. If a match isn't found, you can send a suggestion to the Customer Insights team. You can add up to five brands or categories.
-
-- **Industry's top brands and categories**: For a selected industry, get the brands and interests that your customer base has the highest affinity for. *Customer base* refers to customer profiles that are similar to the ones defined in the **Demographics** section.
-  
-## Run the enrichment process
-
-After defining or updating values on the **Enrichment** page, you need to select **Run** in the page header to start the enrichment process. It can take a few minutes to run the enrichment algorithm.
-
-## Validate the enrichment process output
-
-After the enrichment process completes, you'll find the number of **Enriched profiles** on the **Enrichment** page.
 
 > [!div class="mx-imgBorder"]
 > ![Enriched profiles](media/configure-data-enrich-profile-succeeded.png "Enriched profiles")
 
-If the enrichment process fails, you'll find the reason at the top of the screen.
-
-## Gain richer insights into your customer base
-
-After completing the enrichment process, you'll find additional information on affinities for brands and interests.
-
-1. Go to the **Home** page and find affinity bar charts in the **Insights** section.
-
-2. Go to **Data** > **Entities** and select the **MsftAudienceIntelligence: Customer Insights** entity.
 
    > [!div class="mx-imgBorder"]
    > ![MsftAudienceIntelligence: Customer Insights entity](media/configure-data-entities-info.png "MsftAudienceIntelligence: Customer Insights entity")
 
-   - The **Segment** column lists the brands and interests that were evaluated by the enrichment algorithm.
-   - The **IndustryVertical** column lists the industry to which the brands and interests belong.
-   - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers'. The affinity numbers represent ranks, with a rank of "1" standing for the strongest affinity.
-   - To export this entity, select **Download as CSV**.
 
-## Next step
-
-Consider extracting more insights using the **Segments**, **Customer Card**, and **Connectors** modules if you haven't done so. You also might want to define **Measures** or **Activities** for richer insights.
