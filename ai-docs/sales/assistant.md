@@ -16,7 +16,7 @@ caps.latest.revision: 22
 
 # Use the assistant to guide customer communications
 
-The assistant (formerly known as relationship assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored, actionable insights. 
+The assistant (formerly known as relationship assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
 
 The assistant reminds you of upcoming activities, by:
 
@@ -31,7 +31,7 @@ The assistant reminds you of upcoming activities, by:
 
 ## How and where the assistant can help you  
 
-The assistant works by analyzing all of the data at its disposal and generating a collection of insight cards, each of which includes a message summarizing what the card is about, plus a set of actions. The assistant sorts the cards by priority and filters them for your current context.
+The assistant works by analyzing the data at its disposal and generating a collection of insight cards, each of which includes a message, summarizing what the card is about, plus a set of actions. The assistant sorts the cards by priority and filters them for your current context.
 
 The assistant is available on the application in the following ways:
 
@@ -45,26 +45,26 @@ The assistant is available on the application in the following ways:
 
 -	**Dashboards**: An assistant widget is displayed on **Sales Activity Social Dashboard** dashboard.
 
--	**Entities**: An assistant widget displays insight cards related to the following entities – accounts, contacts, leads, opportunities and cases. The following screen is an example of assistant widget displayed on dashboards and entities:
+-	**Entities**: An assistant widget displays insight cards related to the following entities – accounts, contacts, leads, opportunities, and cases. The following screen is an example of assistant widget displayed on dashboards and entities:
 
     > [!div class="mx-imgBorder"]
     > ![Assistant widget in entities](media/assistant-widget-entities.png "Assistant widget in entities")
 
 ## What cards do I see?
 
--	When you open the assistant through the navigation bar or dashboard, you will see the cards that are relevant to you.
+-	When you open the assistant through the navigation bar or dashboard, you'll see the cards that are relevant to you.
 
--	When you open the assistant through a record, you will see the cards that are related to that record. 
+-	When you open the assistant through a record, you'll see the cards that are related to that record. 
 
 ## Categorization of insight cards
 
-Typically, the insight cards are categorized into notifications and insights which helps you to understand whether to take actions immediately or to view for information and act later.
+Typically, the insight cards are categorized into notifications and insights, which help you to understand whether to take actions immediately or to view for information and act later.
 
 -	**Notifications**: Displays insight cards about your upcoming, and past-due items and events. The notifications include meetings and reminders sections.
    
     The **upcoming meetings** section displays the cards on meetings that are scheduled for the current day.
    
-    The **reminders** section displays the cards that requires your attention.
+    The **reminders** section displays the cards that require your attention.
    
     >[!NOTE]
     >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
@@ -73,14 +73,14 @@ Typically, the insight cards are categorized into notifications and insights whi
 
 ### Characteristics of assistant categories
 
-By default, latest five insight cards are displayed on the assistant in each category. Select Show more to view more available cards. The heading displays the total number of insight cards that are available for you or for the record you are associated with in each category.
+By default, latest five insight cards are displayed on the assistant in each category. Select Show more to view more available cards. The heading displays the total number of insight cards that are available for you or for the record you're associated with in each category.
 
-In this example, we are viewing the **reminders** category. The heading specifies that there is a total of 13 reminders available and the latest five are displayed with basic information. 
+In this example, we're viewing the **reminders** category. The heading specifies that there's a total of 13 reminders available and the latest five are displayed with basic information. 
 
 > [!div class="mx-imgBorder"]
 > ![Reminder section](media/assistant-reminders-section.png "Reminder section")
 
-To view complete details of the activity, select the card. In this example, we have selected the meeting **Stage changed** and the detailed information of the change is displayed. Further, select **Open** to view more details.
+To view complete details of the activity, select the card. In this example, we've selected the meeting **Stage changed** and the detailed information of the change is displayed. Further, you can select **Open** to view more details.
 
 > [!div class="mx-imgBorder"]
 > ![Details of Stage changed card](media/assistant-reminders-section-stage-chnaged.png "Details of Stage changed card")
@@ -102,7 +102,7 @@ Typically, an insight card is made up of the following elements, as labeled in t
 
 3.	**Snooze**: Select the button to hide card temporarily. Snooze time varies by card type. Once the snooze time expires the card will again be visible. The snooze time of cards varies from 5 minutes to 12 hours depends on the type of card.
 
-4.	**Dismiss**: Select the button to dismiss card permanently, regardless of whether you have completed the action it recommends.
+4.	**Dismiss**: Select the button to dismiss card permanently, regardless of whether you've completed the action it recommends.
 
     >[!NOTE]
     >- When you snooze or dismiss a card, a confirmation message displays for a specified time. If you do not undo before the time expires, the card will automatically be snoozed or dismissed. You can configure the time to display the confirmation message. To learn more, see [Configure Sales Insights Assistant](configure-assistant.md).
@@ -125,30 +125,30 @@ You can configure the assistant by choosing which types of insight cards you'd l
    
    The **Manage insight cards** page appears with the list of insight cards that are ordered by status and priority.
 
-    > [!div class="mx-imgBorder"]
-    > ![Personal settings for assistant](media/assistant-personal-settings.png "Personal settings for assistant")
+   > [!div class="mx-imgBorder"]
+   > ![Personal settings for assistant](media/assistant-personal-settings.png "Personal settings for assistant")
 
-    - **Turn on a card**: Choose a card that is turned off and then select **Turn on cards**.  
+   - **Turn on a card**: Choose a card that is turned off and then select **Turn on cards**.  
 
-      Alternatively, you can select the **More options** icon on the card and then select **Turn on card**. 
+     Alternatively, you can select the **More options** icon on the card and then select **Turn on card**. 
       
-      The turned off icon is displayed on turned off cards.
+     The turned off icon is displayed on turned off cards.
 
-      > [!div class="mx-imgBorder"]
-      > ![Turn on insight card](media/assistant-personal-settings-card-turn-on.png "Turn on insight card")
+     > [!div class="mx-imgBorder"]
+     > ![Turn on insight card](media/assistant-personal-settings-card-turn-on.png "Turn on insight card")
 
-      >[!NOTE]
-      >You can select multiple cards that are turned off and then turn on simultaneously. 
+     >[!NOTE]
+     >You can select multiple cards that are turned off and then turn on simultaneously. 
 
-    - **Turn off a card**: Choose a card that is turned on and then select **Turn off cards**. The card is turned off and will not displayed for you. 
+   - **Turn off a card**: Choose a card that is turned on and then select **Turn off cards**. The card is turned off and will not be displayed for you. 
 
-      Alternatively, you can select the **More options** icon on the card and then select **Turn off card**. 
+     Alternatively, you can select the **More options** icon on the card and then select **Turn off card**. 
       
-      > [!div class="mx-imgBorder"]
-      > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
+     > [!div class="mx-imgBorder"]
+     > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
 
-      >[!NOTE]
-      >You can select multiple cards that are turned on and then turn off simultaneously. 
+     >[!NOTE]
+     >You can select multiple cards that are turned on and then turn off simultaneously. 
 
 
 ### See also  
