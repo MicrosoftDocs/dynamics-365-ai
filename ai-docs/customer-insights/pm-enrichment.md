@@ -1,7 +1,7 @@
 ---
 title: "Enrichment | Microsoft Docs"
 description: "Get insights from data on affinities for hundreds of brands and dozens of interest-categories in Dynamics 365 Customer Insights."
-ms.date: 03/17/2020
+ms.date: 03/18/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -15,6 +15,8 @@ manager: shellyha
 Leverage proprietary data from the Microsoft Graph to enrich your customer data with brands and interests affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers in terms of their affinities to specific brands and interests.
 
 In Customer Insights, go to **Data** > **Enrichment** to configure and view the data.
+
+:::image type="content" source="media/enrichment-page.png" alt-text="Enrichment page with configuraiton options":::
 
 ## About Microsoft Graph
 
@@ -35,6 +37,8 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 ## Configure Enrichment
 
 Configuring the brands and interests enrichment consists of two steps.
+
+:::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
 
 1. **Define your brands and interests**
    Select one of the following options.
@@ -61,11 +65,15 @@ Depending on the size of your customer data, it can take several minutes for an 
 
 Once the enrichment run is successfully completed, you can review the results in terms of the total and a breakdown by brands and interests of the number of customer profiles enriched.
 
+:::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
+
 You can also see the enriched data by selecting View enriched data in the chart. Enriched data for Brands can be found in the BrandAffinityFromMicrosoft entity and for Interests can be found in InterestAffinityFromMicrosoft. These entities can also be accessed under the Enrichment group in Data > Entities.
 
 ## See enrichment data on the customer card
 
 Brand and interest affinities can also be viewed on individual customer cards. Go to **Customers** and select a customer profile. In the customer card, you'll find charts for the brands and interests that people in that customer's demographic profile have affinity for.
+
+:::image type="content" source="media/enrichment-customer-card.png" alt-text="Customer card with enriched data":::
 
 ## Next steps
 
