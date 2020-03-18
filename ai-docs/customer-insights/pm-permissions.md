@@ -18,7 +18,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 - Explore insights and segments within the **Home** and **Segments** pages.
 - Search and filter customer profiles using the **Customers** page. (Note: Data fields should first be indexed as searchable by your administrator.)
-- View and explore the **Enrichments** page.
+- View and explore the **Enrichment** page.
 - Explore and export entities using the **Entities** page.
 - View the status of system processes  using the **System** page.
 - Export segments from the **Segments** page to either a .csv file or to a Dynamics 365 Sales destination. (Note: Dynamics 365 Sales destinations should first be defined by your administrator.)
