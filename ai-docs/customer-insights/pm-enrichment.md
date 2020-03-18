@@ -67,7 +67,7 @@ Once the enrichment run is successfully completed, you can review the results in
 
 :::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
 
-You can also see the enriched data by selecting View enriched data in the chart. Enriched data for Brands can be found in the BrandAffinityFromMicrosoft entity and for Interests can be found in InterestAffinityFromMicrosoft. These entities can also be accessed under the Enrichment group in Data > Entities.
+You can also see the enriched data by selecting **View enriched data** in the chart. Enriched data for brands can be found in the **BrandAffinityFromMicrosoft** entity and for interests can be found in **InterestAffinityFromMicrosoft**. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
 
 ## See enrichment data on the customer card
 
