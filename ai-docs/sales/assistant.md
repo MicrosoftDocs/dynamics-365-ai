@@ -14,15 +14,86 @@ ms.tgt_pltfrm:
 caps.latest.revision: 22
 ---
 
-# Use assistant to guide customer communications
+# Use the assistant to guide customer communications
 
-The assistant (formerly known as Relationship assistant) is part of the new *Sales Insights* suite of features. The assistant keeps an eye on your daily actions and communications, and generates a collection of *action cards* that are displayed prominently throughout the application to provide tailored, actionable insights. The assistant reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more.  
+The assistant (formerly known as relationship assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored, actionable insights. 
 
-The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Assistant](configure-assistant.md).
+The assistant reminds you of upcoming activities, by:
+
+-	Evaluating your communications, and notifies you when a contact or account has been inactive for a while.
+
+-	Identifying email messages that may be waiting for a reply.
+
+-	Alerting you when an opportunity is nearing its close date and much more.
+  
+>[!NOTE]
+>The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Assistant](configure-assistant.md).
 
 ## How and where the assistant can help you  
 
- The assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
+The assistant works by analyzing all of the data at its disposal and generating a collection of insight cards, each of which includes a message summarizing what the card is about, plus a set of actions. The assistant sorts the cards by priority and filters them for your current context.
+
+The assistant is available on the application in the following ways:
+
+>[!NOTE]
+>The assistant on the application may vary depending on the configuration set by your administrator. 
+
+-	**Navigation bar**: Select the bulb icon to open the assistant and the insight cards are displayed in a pane. The following screen is an example of assistant displayed on navigation bar:
+
+   <image>
+
+-	**Dashboards**: An assistant widget is displayed on Sales Activity Social Dashboard dashboard.
+
+
+-	**Entities**: An assistant widget displays insight cards related to the following entities – accounts, contacts, leads, opportunities and cases. The following screen is an example of assistant widget displayed on dashboards and entities:
+
+   <image>
+
+## What cards do I see?
+
+-	When you open the assistant through the navigation bar or dashboard, you will see the cards that are relevant to you.
+
+-	When you open the assistant through a record, you will see the cards that are related to that record. 
+
+## Categorization of insight cards
+
+Typically, the insight cards are categorized into notifications and insights which helps you to understand whether to take actions immediately or to view for information and act later.
+
+-	**Notifications**: Displays insight cards about your upcoming, and past-due items and events. The notifications include meetings and reminders sections.
+   
+   The **upcoming meetings** section displays the cards on meetings that are scheduled for the current day.
+   
+   The **reminders** section displays the cards that requires your attention.
+   
+   >[!NOTE]
+   >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
+
+-	**Insight**: Displays custom insight cards that are generated using the Assistant Studio. For example, the suggestions include an email with a potential negative sentiment that puts an opportunity as risk, prioritize an opportunity, suggest a cross-sale, and prompt to look at auto capture recent items.
+
+### Characteristics of assistant categories
+
+By default, latest five insight cards are displayed on the assistant in each category. Select Show more to view more available cards. The heading displays the total number of insight cards that are available for you or for the record you are associated with in each category.
+
+In this example, we are viewing the **reminders** category. The heading specifies that there is a total of 13 reminders available and the latest five are displayed with basic information. 
+
+> [!div class="mx-imgBorder"]
+> ![Reminder section](media/assistant-reminders-section.png "Reminder section")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  When you start your day by signing in to Dynamics 365 Sales, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   

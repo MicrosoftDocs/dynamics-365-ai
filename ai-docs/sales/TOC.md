@@ -75,6 +75,11 @@
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 
+### Sales accelerator
+#### []()
+#### []()
+#### []()
+
 ### Dynamics 365 assistant for Microsoft Teams
 #### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
 #### [Install Dynamics 365 application on Teams](install-assistant-application-microsoft-teams.md)
