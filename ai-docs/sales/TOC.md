@@ -34,6 +34,11 @@
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
+### Configure Sales accelerator
+#### []()
+#### []()
+#### []()
+
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Sales Insights application
