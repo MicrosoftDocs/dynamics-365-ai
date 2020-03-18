@@ -70,13 +70,3 @@ Brand and interest affinities can also be viewed on individual customer cards. G
 ## Next steps
 
 Consider extracting more insights and powering your business process by leveraging your customer data enriched with brand and interest affinities. Create [Segments](pm-segments.md), [Measures](pm-measures.md) and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.
-
-
-> [!div class="mx-imgBorder"]
-> ![Enriched profiles](media/configure-data-enrich-profile-succeeded.png "Enriched profiles")
-
-
-   > [!div class="mx-imgBorder"]
-   > ![MsftAudienceIntelligence: Customer Insights entity](media/configure-data-entities-info.png "MsftAudienceIntelligence: Customer Insights entity")
-
-
