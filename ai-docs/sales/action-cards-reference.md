@@ -48,8 +48,6 @@ The following cards are available under Upcoming meetings:
   </tr>
   <tr>
     <td><a href="#NearbyCustomers">Near by Customers</a></td> 
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
@@ -82,8 +80,15 @@ The following cards are available under Reminders:
   </tr>
 </table>
 
-
-
+|Insight card	| Availability | Description |
+|-------------|--------------|-------------|
+| <a name="ActivityDueDate"></a>**{Activity} due today** <br />  ![Insight card for task due today](media/ActionCard_TaskDueToday.png "Insight card for task due today") | Dynamics 365 Sales | **Description**:<br> Tells you that an activity assigned to you is due today.<br> **Features**:<br>Indicates the type of activity (email, letter, phone call, task, or custom).<br> **Actions**: <br>Close task<br>Complete|
+|||
+|||
+|||
+|||
+|||
+|||
 
 
 
@@ -132,7 +137,7 @@ The following cards are available under Basic cards:
 
 |||  
 |-|-|  
-|<a name="ActivityDueDate"></a>**{Activity} due today** <br />  ![Insight card for task due today](media/ActionCard_TaskDueToday.png "Insight card for task due today")|- **Description**<br />     Tells you that an activity assigned to you is due today. Activity types include: email, fax, letter, phone call, task, service appointment, and custom.<br />- **Features**<br />     Indicates the type of activity (email, fax, letter, phone call, task, service appointment, or custom).<br />     Shows the time the activity is due or scheduled.<br />     Shows the name of the activity record (click to open the record).<br />     Shows the activity description (shortened for space if needed).<br />- **Actions**<br />     Mark the activity complete.<br />     Close the activity.|  
+||- **Description**<br />     Tells you that an activity assigned to you is due today. Activity types include: email, fax, letter, phone call, task, service appointment, and custom.<br />- **Features**<br />     Indicates the type of activity (email, fax, letter, phone call, task, service appointment, or custom).<br />     Shows the time the activity is due or scheduled.<br />     Shows the name of the activity record (click to open the record).<br />     Shows the activity description (shortened for space if needed).<br />- **Actions**<br />     Mark the activity complete.<br />     Close the activity.|  
 |<a name="CloseDateComingSoon"></a>**Close date coming soon** <a name="CloseDateComingSoon"></a> <br />  ![Insight card for close date coming soon](media/ActionCard_Meeting.png "Insight card for close date coming soon")|- **Description**<br />     Tells you that an open opportunity will soon reach its estimated close date. When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when you view a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.<br />- **Configuration options**<br />     Set how many days before the close date to start showing the card. The default value is set by your administrator.<br />- **Features**<br />     Identifies the opportunity.<br />     Tells how far away the close date is.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Open the opportunity.|  
 |<a name="MeetingToday"></a>**Meeting today** <br />  ![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")|- **Description**<br />     Tells that you have a meeting scheduled for today.<br />     There is also an "upcoming meeting" card, which first appears 30 minutes before your meeting, provides more features, and is given a higher priority. To learn more, see [Productivity cards](#ProductivityCards)<br />- **Features**<br />     Shows the meeting title, with a link to the meeting record.<br />     Shows the meeting description (shortened for space if needed).<br />     Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, stocks, and more.<br />- **Actions**<br />     Open the appointment|  
 |<a name="MissedCloseDate"></a>**Missed close date** <br />  ![Insight card for missed close date](media/ActionCard_CloseDateMissed.png "Insight card for missed close date")|- **Description**<br />     Tells you that an open opportunity has passed its close date. When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when viewing a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.<br />- **Features**<br />     Identifies the opportunity.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Open the opportunity.|  
