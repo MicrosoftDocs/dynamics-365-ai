@@ -37,7 +37,7 @@
 ### Configure Sales accelerator
 #### []()
 #### []()
-#### []()
+#### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
@@ -83,7 +83,7 @@
 ### Sales accelerator
 #### []()
 #### []()
-#### []()
+#### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
 
 ### Dynamics 365 assistant for Microsoft Teams
 #### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
