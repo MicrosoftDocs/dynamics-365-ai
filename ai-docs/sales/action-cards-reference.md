@@ -48,6 +48,8 @@ The following cards are available under Upcoming meetings:
   </tr>
   <tr>
     <td><a href="#NearbyCustomers">Near by Customers</a></td> 
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -55,7 +57,7 @@ The following cards are available under Upcoming meetings:
 |Insight card	| Availability | Description |
 |-------------|--------------|-------------|
 |<a name="MeetingToday"></a>**Meeting today** <br/>  ![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")<br>**Meeting today (Exchange)**<br>![Insight card for meeting today exchange](media/ActionCard_MeetingTodayExchange.png "Insight card for meeting today exchange") | Dynamics 365 Sales | **Description**:<br>Tells that you have a meeting scheduled for today. <br>The Meeting Today card is derived from your appointments in Dynamics 365 Sales organization. <br>The Meeting Today (Exchange) card is derived from Exchange server.<br>**Features**:<br>Shows the meeting title, with a link to the meeting record. Shows the meeting description, location, start time, and key participants Open the detailed view to see the regarded entity and a collection of closely related insight cards, including relevant people, companies, opportunities, nearby customers, news, and more.<br>**Actions**: <br>Join Meeting<br>Email Attendees.|
-| <a name="UpcomingMeeting"></a>**Upcoming Meeting** <br />  ![Insight card for upcoming meeting](media/ActionCard_Meeting.png "Insight card for upcoming meeting")<br> **Upcoming Meeting(Exchange)** <br />  ![Insight card for upcoming meeting exchange](media/ActionCard_MeetingExchange.png "Insight card for upcoming meeting exchange")| Dynamics 365 Sales | **Description**: <br>Tells that you have a meeting scheduled to start in 30 minutes or less. When available, this card is given highest priority and appears at the top of the stack. That way, you'll have all of your important meeting information available. <br> The "meeting today" card is similar, but it's shown all day until the meeting ends, provides fewer features, and is given lower priority. <br>**Features**: Shows the meeting title, with a link to the meeting record.<br>Shows the meeting description (shortened for space if needed). <br>Shows the regarding record (with link).<br> Shows a list of attendees (with link to the full list if there's more than four).<br>Displays a map of the location (if relevant and available; not for online meetings).<br> Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, and more.<br>**Actions**:<br> Join Meeting <br> Email Attendees |
+| <a name="UpcomingMeeting"></a>**Upcoming Meeting** <br />  ![Insight card for upcoming meeting](media/ActionCard_Meeting.png "Insight card for upcoming meeting")<br> **Upcoming Meeting(Exchange)** <br />  ![Insight card for upcoming meeting exchange](media/ActionCard_MeetingExchange.png "Insight card for upcoming meeting exchange")| Dynamics 365 Sales | **Description**: <br>Tells that you have a meeting scheduled to start in 30 minutes or less. When available, this card is given highest priority and appears at the top of the stack. That way, you'll have all of your important meeting information available. <br> The "meeting today" card is similar, but it's shown all day until the meeting ends, provides fewer features, and is given lower priority. <br>**Features**:<br> Shows the meeting title, with a link to the meeting record.<br>Shows the meeting description (shortened for space if needed). <br>Shows the regarding record (with link).<br> Shows a list of attendees (with link to the full list if there's more than four).<br>Displays a map of the location (if relevant and available; not for online meetings).<br> Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, and more.<br>**Actions**:<br> Join Meeting <br> Email Attendees |
 | <a name="RelatedNEWS"></a>**Related News** <br />  ![Insight card for related news](media/ActionCard_RelevantNews.png "Insight card for related news") | Dynamics 365 Sales Insights | **Description**: <br>The card displays news headlines related to companies that are participating at the meeting. It's shown in the card details view when you tap a meeting card from the assistant feed.<br> **Features**:<br> Shows the date when the news was last updated.<br> Thumbnail image and headline for each found article. Click to view the full article. |
 | <a name="NearbyCustomers"></a>**Nearby Customers** <br />  ![Insight card for nearby customers](media/ActionCard_NearbyCustomers.png "Insight card for nearby customers")| Dynamics 365 Sales Insights | **Description**: <br>The card finds customers that are located nearby the meeting location. It's shown in the card details view when you tap a meeting card from the assistant feed.<br> **Features**:<br> Shows the name of the nearest city. <br> Shows basic information about each company.|
 
@@ -71,36 +73,91 @@ The following cards are available under Reminders:
   <tr>
     <td><a href="#ActivityDueDate"><i>{activity}</i> due Today</a></td> 
     <td><a href="#CloseDateComingSoon">Close date coming soon</a></td>
-    
+    <td><a href="#MissedCloseDate">Missed (opportunity) closed date</a></td>    
   </tr>
   <tr>
-    <td><a href="#MissedCloseDate">Missed closed date</a></td>
-    <td><a href="#PostMeetingFollowup">Post-meeting follow-up</a></td>
+    <td><a href="#EmailOpened">Email Opened</a></td>
+    <td><a href="#EmailReminder">Email Reminder</a></td>
+    <td><a href="#NoActivityWithType">No Activity with {<i>record type</i>}</a></td>
+  </tr>
+  <tr>
+    <td><a href="#RecentMeetingExchange">Recent Meeting/Recent meeting (Exchange)</a></td>
+    <td></td>
     <td></td>
   </tr>
 </table>
 
 |Insight card	| Availability | Description |
 |-------------|--------------|-------------|
-| <a name="ActivityDueDate"></a>**{Activity} due today** <br />  ![Insight card for task due today](media/ActionCard_TaskDueToday.png "Insight card for task due today") | Dynamics 365 Sales | **Description**:<br> Tells you that an activity assigned to you is due today.<br> **Features**:<br>Indicates the type of activity (email, letter, phone call, task, or custom).<br> **Actions**: <br>Close task<br>Complete|
-|||
-|||
-|||
-|||
-|||
-|||
-
-
-
-
-
+| <a name="ActivityDueDate"></a>**{*Activity*} due today** <br />  ![Insight card for task due today](media/ActionCard_TaskDueToday.png "Insight card for task due today") | Dynamics 365 Sales | **Description**:<br> Tells you that an activity assigned to you is due today.<br> **Features**:<br>Indicates the type of activity (email, letter, phone call, task, or custom).<br> **Actions**: <br>Close task<br>Complete|
+| <a name="CloseDateComingSoon"></a>**Close date coming soon** <a name="CloseDateComingSoon"></a> <br />  ![Insight card for close date coming soon](media/ActionCard_Meeting.png "Insight card for close date coming soon") | Dynamics 365 Sales | **Description**: <br>Tells you that an open opportunity will soon reach its estimated close date. <br>**Features**:<br> Identifies the opportunity.<br>Tells how far away the close date is.<br>**Actions**:<br> Open opportunity<br>**Configuration options**:<br> Set how many days before the close date to start showing the card. The default value is set by your administrator.<br>**Note**: When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when you view a specific opportunity you'll see this card even if that opportunity is assigned to somebody else. |
+| <a name="MissedCloseDate"></a>**Missed (opportunity) close date** <br />  ![Insight card for missed close date](media/ActionCard_CloseDateMissed.png "Insight card for missed close date") | Dynamics 365 Sales | **Description**:<br> Tells you that an open opportunity has passed its close date. <br>**Features**:<br> Identifies the opportunity.<br>**Actions**:<br> Open opportunity<br>**Note**: When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when viewing a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.|
+|<a name="EmailOpened"></a>**Email opened** <br />  ![Insight card for email opened](media/ActionCard_OpenedEmail.png "Insight card for email opened")| Dynamics 365 Sales Insights | **Description**: <br>A followed email was opened by its recipient.<br>**Features**:<br>Names the contact you sent the email to.<br>Provides descriptive text that shows the subject of the email, the time it was opened, and the approximate location where it was opened.<br>**Actions**:<br>Call {*Contact*}<br>Open contact<br>**Prerequisites**:<br>Enable email engagement to use this card. To learn more, see [Configure and enable email engagement](configure-email-engagement.md). |
+| <a name="EmailReminder"></a>**Email reminder** <br />  ![Insight card for email reminder](media/ActionCard_EmailReminder.png "Insight card for email reminder") | Dynamics 365 Sales Insights | **Description**: <br> You set a follow up reminder for an email you recently sent, and its trigger conditions have just been met. Trigger conditions always include a date but may also include conditionals such as whether the email wasn't opened or replied to by that date.<br>**Features**:<br> Names the contact that you sent the email to.<br>Tells you that you set a follow up reminder for this email.<br>Provides a description that summarizes the trigger conditions.<br>**Actions**:<br>Call {*Contact*}<br>Open contact<br>**Prerequisites**:<br>Enable email engagement to use this card. To learn more, see [Configure and enable email engagement](configure-email-engagement.md). |
+| <a name="NoActivityWithType"></a>**No activity with {*record type*}** <br />  ![Insight card for no activity](media/ActionCard_NoActivity.png "Insight card for no activity") | Dynamics 365 Sales Insights | **Description**:<br>Allows you know that a record that you own has been inactive for some time. Applies to contact, opportunity, lead, account, and case records.<br>**Features**: <br>Identifies the type and name of the relevant record.<br>Explains why the card was generated.<br>**Actions**:<br>Send Email<br>Open Entity<br>**Configuration options**: <br> Set the number of days of inactivity that must pass before a card is generated. You can set a different value for each type of supported record (contact, opportunity, lead, account, and case). |
+| <a name="RecentMeetingExchange"></a>**Recent meeting** <br />![Insight card for recent meeting](media/ActionCard_RecentMeeting.png "Insight card for recent meeting")<br>**Recent meeting (Exchange)** <br />![Insight card for recent meeting exchange](media/ActionCard_RecentMeetingExchange.png "Insight card for recent meeting exchange")| Dynamics 365 Sales  | **Description**: Tells you that a meeting that you organized (where you are the record owner) has recently ended, giving you an easy opportunity to document the meeting in Dynamics 365 Sales. The card is displayed for 30 minutes after the scheduled end of the meeting, and then removed.<br>**Features**:<br>Identifies the meeting.<br>**Actions**:<br>Open Meeting<br>Take Notes |
 
 ## Insights
 
+The following cards are available under Insights:
+
+<style type="text/css">
+.tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
+</style>
+
+<table class="tg">
+  <tr>
+    <td><a href="#IssueDetected">Issue Detected</a></td>
+    <td><a href="#StakeHolderRecommendation">Stakeholder Recommendation</a></td>
+    <td><a href="#CompetitorMentioned">Competitor Mentioned</a></td> 
+  </tr>
+  <tr>
+    <td><a href="#CustomerQuestion">Customer Question</a></td>
+    <td><a href="#NewleadupSellOpportunity">New lead up sell Opportunity</a></td>
+    <td><a href="#OpportunityRisk">Opportunity at Risk (Phrase detection)</a></td>
+  </tr>
+  <tr>
+    <td><a href="#MeetingRequested">Meeting Requested</td>
+    <td><a href="#FileRequested">File Requested</a></td>
+    <td><a href="#MissedEmail">Missed Email</a></td>
+  </tr>
 
 
 
 
+
+
+  <tr>
+    <td><a href="#MeetingTodayExchange">Meeting Today</a></td>
+    <td><a href="#UpcomingMeetingExchange">Upcoming Meeting</a></td>
+    <td><a href="#TaskDueDate">Task due Today</a></td>
+
+  </tr>
+  <tr>
+    <td><a href="#OpportunityRiskKTGModel">Opportunity at Risk KTG Model</a></td>
+
+    <td><a href=""></a></td>
+  </tr>
+</table>
+
+|Insight card	| Availability | Description |
+|-------------|--------------|-------------|
+| <a name="IssueDetected"></a>**Issue detected** <br/>![Insight card for case detected](media/ActionCard_CaseDetection.png "Insight card for case detected") | Dynamics 365 Sales | **Description**: <br>An email from a known contact in your inbox appears to include a support request.<br>**Features**:<br>Shows the name of the contact.<br>Tells you that an email that appears to include a support request has arrived.<br>Displays the sentence from the email that appears to be asking for help.<br>**Actions**: <br>Create case<br>Open email |
+| <a name="StakeHolderRecommendation"></a>**Stakeholder recommendation** <br/>![Insight card for recommended stakeholder](media/ActionCard_RecommendedStakeholder.png "Insight card for recommended stakeholder") | Dynamics 365 Sales | **Description**: <br> An email regarding an open opportunity has arrived, and it includes an extra recipient that is not yet listed as a stakeholder for that opportunity.<br>**Features**:<br>Shows the name of the potential stakeholder.<br>Tells you that this person might be a stakeholder in an open opportunity.<br>Displays a short description that includes the name of the opportunity.<br>**Actions**:<br>Add as stakeholder<br>Always Do This<br>**Note**: This  is the same as the configuration setting available for this card type, and you can reset it by going to your Assistant settings. To learn more, see [Assistant](assistant.md).<br>**Configuration options**:<br>You can choose to add the stakeholder automatically rather than show the card.|
+| <a name="CompetitorMentioned"></a>**Competitor mentioned** <br/>![Insight card for competitor mentioned](media/ActionCard_CompetitorMentioned.png "Insight card for competitor mentioned") | Dynamics 365 Sales | **Description**: <br> A tracked email that is set as regarding a Sales opportunity appears to refer to a company that is listed as a competitor in your system.<br>**Features**:<br>Shows the name of the competitor.<br>Tells you that a competitor was mentioned in an email.<br>Click the card to open the opportunity that the email is set to be regarding.<br>**Actions**:<br>Add as Competitor<br>Always Do This <br>**Note**: This is the same as the configuration setting available for this card type, and you can reset it by going to your Assistant settings. To learn more, see [Assistant](assistant.md).<br>**Configuration options**:<br>Set this feature to add the competitor automatically rather than showing the card. |
+| <a name="CustomerQuestion"></a>**Customer question** <br/>![Insight card for yes/no request](media/ActionCard_YesNoRequest.png "Insight card for yes/no request") | Dynamics 365 Sales | **Description**:<br>An email from a known contact in your inbox appears to be asking a question.<br>**Features**:<br>Shows the name of the contact.<br>Tells you that a question has arrived.<br>Displays the sentence from the email that appears to be asking a simple question.<br> |
+| <a name="NewleadupSellOpportunity"></a>**New lead/upsell opportunity**<br />![Insight card for potential lead or upsell](media/ActionCard_LeadOrUpsell.png "Insight card for potential lead or upsell") | Dynamics 365 Sales | **Description**: <br>An email from a known or unknown contact appears to be asking for more information about a product. For known contacts, this may be an upsell opportunity. For unknown contacts, this could be a new lead.<br>**Features**:<br>Shows the name of the sender.<br>Tells you that an email has arrived that may represent an upsell or new-lead opportunity.<br>Displays the sentence from the email that appears to be asking for product information.<br>**Actions**:<br>Open email. |
+|<a name="OpportunityRisk"></a>**Opportunity at Risk (Phrase detection)** <br />![Insight card for Opportunity at risk phrase detection](media/ActionCard_OpportunityRiskPhraseDetection.png "Insight card for Opportunity at Risk phrase detection")| Dynamics 365 Sales | **Description**: Tell you that when an email is received concerning an open opportunity with negative sentiment which can put the opportunity at risk.<br>**Actions**:<br>Open opportunity.|
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
 
 
 
@@ -123,12 +180,12 @@ The following cards are available under Basic cards:
 <table class="tg">
   <tr>
     <td><a href="#ActivityDueDate"><i>{activity}</i> due Today</a></td> 
-    <td><a href="#CloseDateComingSoon">Close date coming soon</a></td>
+
     <td><a href="#MeetingToday">Meeting Today</td>
   </tr>
   <tr>
-    <td><a href="#MissedCloseDate">Missed closed date</a></td>
-    <td><a href="#PostMeetingFollowup">Post-meeting follow-up</a></td>
+     <td><a href="#PostMeetingFollowup">Post-meeting follow-up</a></td>
+     <td><a href="#PostMeetingFollowup">Post-meeting follow-up</a></td>
     <td></td>
   </tr>
 </table>
@@ -138,9 +195,9 @@ The following cards are available under Basic cards:
 |||  
 |-|-|  
 ||- **Description**<br />     Tells you that an activity assigned to you is due today. Activity types include: email, fax, letter, phone call, task, service appointment, and custom.<br />- **Features**<br />     Indicates the type of activity (email, fax, letter, phone call, task, service appointment, or custom).<br />     Shows the time the activity is due or scheduled.<br />     Shows the name of the activity record (click to open the record).<br />     Shows the activity description (shortened for space if needed).<br />- **Actions**<br />     Mark the activity complete.<br />     Close the activity.|  
-|<a name="CloseDateComingSoon"></a>**Close date coming soon** <a name="CloseDateComingSoon"></a> <br />  ![Insight card for close date coming soon](media/ActionCard_Meeting.png "Insight card for close date coming soon")|- **Description**<br />     Tells you that an open opportunity will soon reach its estimated close date. When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when you view a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.<br />- **Configuration options**<br />     Set how many days before the close date to start showing the card. The default value is set by your administrator.<br />- **Features**<br />     Identifies the opportunity.<br />     Tells how far away the close date is.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Open the opportunity.|  
+||- **Description**<br />     Tells you that an open opportunity will soon reach its estimated close date. When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when you view a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.<br />- **Configuration options**<br />     Set how many days before the close date to start showing the card. The default value is set by your administrator.<br />- **Features**<br />     Identifies the opportunity.<br />     Tells how far away the close date is.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Open the opportunity.|  
 |<a name="MeetingToday"></a>**Meeting today** <br />  ![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")|- **Description**<br />     Tells that you have a meeting scheduled for today.<br />     There is also an "upcoming meeting" card, which first appears 30 minutes before your meeting, provides more features, and is given a higher priority. To learn more, see [Productivity cards](#ProductivityCards)<br />- **Features**<br />     Shows the meeting title, with a link to the meeting record.<br />     Shows the meeting description (shortened for space if needed).<br />     Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, stocks, and more.<br />- **Actions**<br />     Open the appointment|  
-|<a name="MissedCloseDate"></a>**Missed close date** <br />  ![Insight card for missed close date](media/ActionCard_CloseDateMissed.png "Insight card for missed close date")|- **Description**<br />     Tells you that an open opportunity has passed its close date. When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when viewing a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.<br />- **Features**<br />     Identifies the opportunity.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Open the opportunity.|  
+||- **Description**<br />     Tells you that an open opportunity has passed its close date. When you are viewing a dashboard, you'll only see these cards for opportunities that are assigned to you, but when viewing a specific opportunity you'll see this card even if that opportunity is assigned to somebody else.<br />- **Features**<br />     Identifies the opportunity.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Open the opportunity.|  
 |<a name="PostMeetingFollowup"></a>**Post-meeting follow-up**<br/> ![Insight card for recent meeting](media/ActionCard_RecentMeeting.png "Insight card for recent meeting")|- **Description**<br />     Tells you that a meeting that you organized (where you are the record owner) has recently ended, giving you an easy opportunity to document the meeting in Dynamics 365 Sales.<br />- **Features**<br />     Identifies the meeting.<br />     Provides text explaining why the card was generated.<br />- **Actions**<br />     Add notes to the meeting record.<br />     Open the meeting record.|  
   
 <a name="ExchangeCards"></a>   
@@ -158,56 +215,22 @@ The following cards are available under Basic cards:
 
 The following cards are available under Email cards from Exchange:
 
-<style type="text/css">
-.tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-
-<table class="tg">
-  <tr>
-    <td><a href="#CompetitorMentioned">Competitor Mentioned</a></td> 
-    <td><a href="#IssueDetected">Issue Detected</a></td>
-    <td><a href="#MeetingRequested">Meeting Requested</td>
-  </tr>
-  <tr>
-    <td><a href="#NewleadupSellOpportunity">New lead up sell Opportunity</a></td>
-    <td><a href="#StakeHolderRecommendation">Stake holder Recommendation</a></td>
-    <td><a href="#FileRequested">File Requested</a></td>
-  </tr>
-  <tr>
-    <td><a href="#OpportunityRiskSentiment">Opportunity at Risk sentiment</a></td>
-    <td><a href="#MeetingTodayExchange">Meeting Today</a></td>
-    <td><a href="#UpcomingMeetingExchange">Upcoming Meeting</a></td>
-  </tr>
-  <tr>
-    <td><a href="#RecentMeetingExchange">Recent Meeting</a></td>
-    <td><a href="#TaskDueDate">Task due Today</a></td>
-    <td><a href="#CustomerQuestion">Customer Question</a></td>
-  </tr>
-  <tr>
-    <td><a href="#OpportunityRiskKTGModel">Opportunity at Risk KTG Model</a></td>
-    <td><a href="#MissedEmail">Missed Email</a></td>
-    <td><a href=""></a></td>
-  </tr>
-</table>
-
-<br> 
-
 
 |||
 |-|-|
-|<a name="CompetitorMentioned"></a>**Competitor mentioned** <br />![Insight card for competitor mentioned](media/ActionCard_CompetitorMentioned.png "Insight card for competitor mentioned")|-**Description**<br />A tracked email that is set as regarding a Sales opportunity appears to refer to a company that is listed as a competitor in your system.<br />- **Configuration options**<br />Set this feature to add the competitor automatically rather than showing the card.<br />- **Features**<br />Shows the name of the competitor<br />Tells you that a competitor was mentioned in an email.<br />Click the card to open the opportunity that the email is set to be regarding.<br />-**Actions**<br />Choose **Add as Competitor** to add the competitor to the regarding opportunity.<br />Choose **Always Do This** to add competitors automatically instead of showing more cards like this. This is the same as the configuration setting available for this card type, and you can reset it by going to your **Assistant** settings (To learn more, see [Assistant](assistant.md)).|
+||-**Description**<br />A tracked email that is set as regarding a Sales opportunity appears to refer to a company that is listed as a competitor in your system.<br />- **Configuration options**<br />Set this feature to add the competitor automatically rather than showing the card.<br />- **Features**<br />Shows the name of the competitor<br />Tells you that a competitor was mentioned in an email.<br />Click the card to open the opportunity that the email is set to be regarding.<br />-**Actions**<br />Choose **Add as Competitor** to add the competitor to the regarding opportunity.<br />Choose **Always Do This** to add competitors automatically instead of showing more cards like this. This is the same as the configuration setting available for this card type, and you can reset it by going to your **Assistant** settings (To learn more, see [Assistant](assistant.md)).|
 |<a name="IssueDetected"></a>**Issue detected** <br />![Insight card for case detected](media/ActionCard_CaseDetection.png "Insight card for case detected")|- **Description**<br />An email from a known contact in your inbox appears to include a support request.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that an email that appears to include a support request has arrived.<br />Displays the sentence from the email that appears to be asking for help.<br />- **Actions**<br />Create a new case.<br />Open the email.|
 |<a name="MeetingRequested"></a>**Meeting requested**<br />![Insight card for meeting request](media/ActionCard_MeetingRequest.png "Insight card for meeting request")|-**Description**<br />An email from a known contact in your inbox appears to include a meeting request.<br />-**Features**<br />Shows the name of the contact.<br />Tells you that a meeting request has arrived.<br />Displays the sentence from the email that appears to be asking for a meeting.<br />-**Actions**<br />Create a new meeting.<br />Open the email.|
-|<a name="NewleadupSellOpportunity"></a>**New lead/upsell opportunity**<br />![Insight card for potential lead or upsell](media/ActionCard_LeadOrUpsell.png "Insight card for potential lead or upsell")|-**Description**<br />An email from a known or unknown contact appears to be asking for more information about a product. For known contacts, this may be an upsell opportunity. For unknown contacts, this could be a new lead.<br />- **Features**<br />Shows the name of the sender.<br />Tells you that an email has arrived that may represent an upsell or new-lead opportunity.<br />Displays the sentence from the email that appears to be asking for product information.<br />- **Actions**<br />Open the email.|
-|<a name="StakeHolderRecommendation"></a>**Stakeholder recommendation** <br />![Insight card for recommended stakeholder](media/ActionCard_RecommendedStakeholder.png "Insight card for recommended stakeholder")|- **Description**<br />An email regarding an open opportunity has arrived, and it includes an extra recipient that is not yet listed as a stakeholder for that opportunity.<br />- **Configuration options**<br />You can choose to add the stakeholder automatically rather than show the card.<br />- **Features**<br />Shows the name of the potential stakeholder<br />Tells you that this person might be a stakeholder in an open opportunity<br />Displays a short description that includes the name of the opportunity.<br />- **Actions**<br />     Add the contact as a stakeholder for the related opportunity.<br />Choose **Always Do This** to add stakeholders automatically instead of showing more cards like this. This is the same as the configuration setting available for this card type, and you can reset it by going to your **Assistant** settings (To learn more, see [Assistant](assistant.md)).|
+||-**Description**<br />An email from a known or unknown contact appears to be asking for more information about a product. For known contacts, this may be an upsell opportunity. For unknown contacts, this could be a new lead.<br />- **Features**<br />Shows the name of the sender.<br />Tells you that an email has arrived that may represent an upsell or new-lead opportunity.<br />Displays the sentence from the email that appears to be asking for product information.<br />- **Actions**<br />Open the email.|
+||- **Description**<br />An email regarding an open opportunity has arrived, and it includes an extra recipient that is not yet listed as a stakeholder for that opportunity.<br />- **Configuration options**<br />You can choose to add the stakeholder automatically rather than show the card.<br />- **Features**<br />Shows the name of the potential stakeholder<br />Tells you that this person might be a stakeholder in an open opportunity<br />Displays a short description that includes the name of the opportunity.<br />- **Actions**<br />     Add the contact as a stakeholder for the related opportunity.<br />Choose **Always Do This** to add stakeholders automatically instead of showing more cards like this. This is the same as the configuration setting available for this card type, and you can reset it by going to your **Assistant** settings (To learn more, see [Assistant](assistant.md)).|
 |<a name="FileRequested"></a>**File requested**<br />![Insight card for file request](media/ActionCard_FileRequest.png "Insight card for file request")|- **Description**<br />An email from a known contact in your inbox appears to include a request for a file.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that a request for a file has arrived.<br />Displays the sentence from the email that appears to be asking for a file.<br />- **Actions**<br />Open the email.|
-|<a name="OpportunityRiskSentiment"></a>**Opportunity at Risk sentiment** <br />![Insight card for Opportunity at Risk sentiment](media/ActionCard_OpportunityRiskSentiment.png "Insight card for Opportunity at Risk sentiment")|- **Description**<br /> Tell you that when an email is received concerning an open opportunity with negative sentiment which can put the opportunity at risk.<br />- **Actions**<br />Open the opportunity.|
+||- **Description**<br /> Tell you that when an email is received concerning an open opportunity with negative sentiment which can put the opportunity at risk.<br />- **Actions**<br />Open the opportunity.|
 |<a name="MeetingTodayExchange"></a>**Meeting today** <br />![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")|- **Description**<br />Tells that you have a meeting scheduled for today.<br />There is also an "upcoming meeting" card, which first appears 30 minutes before your meeting, provides more features, and is given a higher priority. To learn more, see [Productivity cards](#ProductivityCards)<br />- **Features**<br />Shows the meeting title, with a link to the meeting record.<br />Shows the meeting description (shortened for space if needed).<br />Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, stocks, and more.<br />- **Actions**<br />Open the appointment|
 |<a name="UpcomingMeetingExchange"></a>**Upcoming Meeting** <br />![Insight card for upcoming meeting](media/ActionCard_Meeting.png "Insight card for upcoming meeting")|- **Description**<br />Tells that you have a meeting scheduled to start in 30 minutes or less. When available, this card is given highest priority and appears at the top of the stack. That way, you'll have all of your important meeting information available.<br />The "meeting today" card is similar, but it's shown all day, provides fewer features, and is given lower priority. To learn more, see [Base cards](#base-cards)<br />- **Features**<br />Shows the meeting title, with a link to the meeting record.<br />Shows the meeting description (shortened for space if needed).<br />Shows the regarding record (with link).<br />Shows a list of attendees (with link to the full list if there's more than four).<br />Displays a map of  the location (if relevant and available; not for online meetings).<br />Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, stocks, and more.<br />- **Actions**<br />Open the appointment that triggered the card.|
-|<a name="RecentMeetingExchange"></a>**Recent meeting** <br />![Insight card for recent meeting](media/ActionCard_RecentMeeting.png "Insight card for recent meeting")|- **Description**<br />Tells you that a meeting that you organized (where you are the record owner) has recently ended, giving you an easy opportunity to document the meeting in Sales. The card is displayed for 30 minutes after the scheduled end of the meeting, and then removed.<br />- **Features**<br />Identifies the meeting.<br /> Provides text explaining why the card was generated.<br />- **Actions**<br />Add notes to the meeting record.<br />Open the meeting record.|
+||- **Description**<br />Tells you that a meeting that you organized (where you are the record owner) has recently ended, giving you an easy opportunity to document the meeting in Sales. The card is displayed for 30 minutes after the scheduled end of the meeting, and then removed.<br />- **Features**<br />Identifies the meeting.<br /> Provides text explaining why the card was generated.<br />- **Actions**<br />Add notes to the meeting record.<br />Open the meeting record.|
 |<a name="OpportunityRiskKTGModel"></a>**Opportunity at Risk KTG Model** <br />![Insight card for Opportunity at Risk KTG Model](media/ActionCard_OpportunityRiskKTGModel.png "Insight card for Opportunity at Risk KTG Model")|- **Description**<br /> Tell you that when an email is received on Exchange inbox concerning an open opportunity contains a phrase which can put the opportunity at risk.<br />- **Actions**<br />Open the opportunity.|
 |<a name="TaskDueDate"></a>**Task due today** <br />![Insight card for task due today](media/ActionCard_TaskDueToday.png "Insight card for task due today")|- **Description**<br />Tells you that a task assigned to you is due today. <br />- **Features**<br /> Shows the time the task is due or scheduled.<br />Shows the name of the task record (click to open the record).<br />Shows the task description (shortened for space if needed).<br />- **Actions**<br />Mark the task complete.<br />Close the task.|
-|<a name="CustomerQuestion"></a>**Customer question** <br />![Insight card for yes/no request](media/ActionCard_YesNoRequest.png "Insight card for yes/no request")|- **Description**<br />An email from a known contact in your inbox appears to be asking a  question.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that a question has arrived.<br />Displays the sentence from the email that appears to be asking a simple question.<br />- **Actions**<br />Open the email.|
+||- **Description**<br />An email from a known contact in your inbox appears to be asking a  question.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that a question has arrived.<br />Displays the sentence from the email that appears to be asking a simple question.<br />- **Actions**<br />Open the email.|
 |<a name="MissedEmail"></a>**Missed Email** <br /> <!-- ![Insight card for missed email](media/Actioncard_MissedEmail.png "Insight card for missed email")-->|- **Description**<br />Tells that an important email is unread for configured number of day.<br />The threshold number of days configurable on Settings page. To learn more, see [Assistant](assistant.md). By Default, the number of days for Unread email is 3 days.<br /> <br />- **Actions**<br />Open the email|
 
   
@@ -228,7 +251,7 @@ The following cards are available under Relationship analytics cards:
 
 <table class="tg">
   <tr>
-    <td><a href="#NoActivityWithType">No Activity with {<i>record type</i>}</a></td>
+
     <td><a href=""></a></td>
     <td><a href=""></a></td>
   </tr>
@@ -238,7 +261,7 @@ The following cards are available under Relationship analytics cards:
 
 |||  
 |-|-|  
-|<a name="NoActivityWithType"></a>**No activity with {record type}** <br />  ![Insight card for no activity](media/ActionCard_NoActivity.png "Insight card for no activity")|- **Description**<br />     Lets you know that a record that you own has been inactive for some time. Applies to contact, opportunity, lead, account, and case records.<br />- **Configuration options**<br />     Set the number of days of inactivity that must pass before a card is generated. You can set a different value for each type of supported record (contact, opportunity, lead, account, and case).<br />- **Features**<br /> Identifies the type and name of the relevant record.<br />     Explains why the card was generated.<br />- **Actions**<br />     Open the record.<br />     Create an email addressed to the primary contact for the record.|  
+||- **Description**<br />     Lets you know that a record that you own has been inactive for some time. Applies to contact, opportunity, lead, account, and case records.<br />- **Configuration options**<br />     Set the number of days of inactivity that must pass before a card is generated. You can set a different value for each type of supported record (contact, opportunity, lead, account, and case).<br />- **Features**<br /> Identifies the type and name of the relevant record.<br />     Explains why the card was generated.<br />- **Actions**<br />     Open the record.<br />     Create an email addressed to the primary contact for the record.|  
   
 <a name="EmailEngagementCards"></a>   
 
@@ -257,8 +280,8 @@ The following cards are available under Email engagement cards:
 
 <table class="tg">
   <tr>
-    <td><a href="#EmailOpened">Email Opened</a></td>
-    <td><a href="#EmailReminder">Email Reminder</a></td>
+
+
     <td><a href=""></a></td>
   </tr>
 </table>
@@ -267,8 +290,8 @@ The following cards are available under Email engagement cards:
 
 |||  
 |-|-|  
-|<a name="EmailOpened"></a>**Email opened** <br />  ![Insight card for email opened](media/ActionCard_OpenedEmail.png "Insight card for email opened")|- **Description**<br />     A followed email was opened by its recipient.<br />- **Features**<br />     Names the contact you sent the email to.<br />     Provides descriptive text that shows the subject of the email, the time it was opened, and the approximate location where it was opened.<br />- **Actions**<br />     Call the contact<br />     Open the contact record|  
-|<a name="EmailReminder"></a>**Email reminder** <br />  ![Insight card for email reminder](media/ActionCard_EmailReminder.png "Insight card for email reminder")|- **Description**<br />     You set a followup reminder for an email you recently sent, and its trigger conditions have just been met. Trigger conditions always include a date, but may also include conditionals such as whether the email wasn't opened or replied to by that date.<br />- **Features**<br />     Names the contact that you sent the email to.<br />     Tells you that you set a followup reminder for this email.<br />     Provides a description that summarizes the trigger conditions.<br />- **Actions**<br />     Open the contact record<br />     Call the contact|  
+||- **Description**<br />     A followed email was opened by its recipient.<br />- **Features**<br />     Names the contact you sent the email to.<br />     Provides descriptive text that shows the subject of the email, the time it was opened, and the approximate location where it was opened.<br />- **Actions**<br />     Call the contact<br />     Open the contact record|  
+||- **Description**<br />     You set a followup reminder for an email you recently sent, and its trigger conditions have just been met. Trigger conditions always include a date, but may also include conditionals such as whether the email wasn't opened or replied to by that date.<br />- **Features**<br />     Names the contact that you sent the email to.<br />     Tells you that you set a followup reminder for this email.<br />     Provides a description that summarizes the trigger conditions.<br />- **Actions**<br />     Open the contact record<br />     Call the contact|  
   
 <a name="ProductivityCards"></a>   
 
