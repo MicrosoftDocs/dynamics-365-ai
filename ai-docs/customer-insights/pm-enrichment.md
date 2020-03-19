@@ -1,7 +1,7 @@
 ---
 title: "Enrichment | Microsoft Docs"
 description: "Get insights from data on affinities for hundreds of brands and dozens of interest-categories in Dynamics 365 Customer Insights."
-ms.date: 03/18/2020
+ms.date: 03/19/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Enrichment
 
-Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers in terms of their affinities to specific brands and interests.
+Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers based on their affinities to specific brands and interests.
 
 In Customer Insights, go to **Data** > **Enrichment** to configure and view the data.
 
@@ -28,7 +28,7 @@ We use our proprietary online search data from the Microsoft Graph to determine 
 
 The **affinity score** is calculated on a 100-point scale, with 100 representing the segment that has the highest affinity for a brand or interest.
 
-The **affinity confidence** is also on a 100-point scale indicating the system's confidence level for a given segment having affinity for the brand or interest. Confidence level is based on the segment size and the segment granularity. This relates to the amount of data we have for a given segment and how many attributes (age, gender, location) were used on a given profile.
+The **affinity confidence** is also on a 100-point scale indicating the system's confidence level for a given segment having affinity for the brand or interest. Confidence level is based on the segment size and the segment granularity. Segment size is determined by the amount of data we have for a given segment. Segment granularity is determined by how many attributes (age, gender, location) were used on a given profile.
 
 We don't normalize the scores for your dataset. Consequently, you may not see all possible affinity score values for your dataset. For example, there may be no enriched customer profile with an affinity score of 100 in your data if no customers exist in the demographic segment that scored 100 for a given brand or interest.
 
@@ -38,8 +38,6 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 ## Configure Enrichment
 
 Configuring brands and interests enrichment consists of two steps:
-
-:::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
 
 1. **Define your brands and interests**
 
@@ -58,6 +56,8 @@ Configuring brands and interests enrichment consists of two steps:
    - **Gender**: Male, Female, Unknown
    - **Zip Code**: 5-digit US ZIP Code (only supported for the United States)
    - **State**: 2-letter abbreviation (only supported for the United States)
+
+:::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
 
 ## Run enrichment
 
