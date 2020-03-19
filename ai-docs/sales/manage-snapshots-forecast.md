@@ -91,5 +91,5 @@ The snapshot list is refreshed, and the deleted snapshot is removed from the lis
 
 ### See also
 
-[About predictive forecasting](configure-premium-forecasting.md)<br>
+[About premium forecasting](configure-premium-forecasting.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)

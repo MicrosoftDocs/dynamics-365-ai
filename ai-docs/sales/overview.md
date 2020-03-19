@@ -54,6 +54,8 @@ The advanced Sales Insights features consist of the [free Sales Insights feature
 
 - **Predictive opportunity scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality opportunities. To learn more, see [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md). 
 
+- **Premium forecasting**: Helps you to focus on revenue generation efforts by providing forecast projections based on sales pipeline and historical data. To learn more, see [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
+
 - **Notes analysis**: Monitors notes that you enter regarding a recent meeting or discussion with your customer to provide intelligent suggestions. To learn more, see [How notes analysis assists you with suggestion](notes-analysis.md). 
 
 - **Talking points**: Displays topics to start a conversation with your customer such as sports, vacation, family, and entertainment. To learn more, see [Know conversation starters for your customers](talking-points.md). 

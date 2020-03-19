@@ -21,7 +21,7 @@ Predictive forecasting helps sellers and managers improve their forecast accurac
 
 Review the following prerequisite before you start using predictive forecasting:
 
-  -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About predictive forecasting](configure-premium-forecasting.md).
+  -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ## Understand the Prediction column and details in a forecast
 
@@ -61,4 +61,4 @@ The prediction details graph consists of the following values:
 
 ### See also
 
-[About predictive forecasting](configure-premium-forecasting.md)
+[About premium forecasting](configure-premium-forecasting.md)

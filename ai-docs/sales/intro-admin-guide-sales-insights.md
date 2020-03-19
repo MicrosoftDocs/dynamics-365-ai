@@ -178,6 +178,8 @@ After enabling the advanced Sales Insights features, you can configure the advan
 
 -	To configure Predictive opportunity scoring, see [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
+-   To configure premium forecasting, see [About premium forecasting](configure-premium-forecasting.md).
+
 
 ## Administer Sales Insights application
 
