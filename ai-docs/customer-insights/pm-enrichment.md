@@ -16,7 +16,7 @@ Leverage proprietary data from the Microsoft Graph to enrich your customer data 
 
 In Customer Insights, go to **Data** > **Enrichment** to configure and view the data.
 
-:::image type="content" source="media/enrichment-page.png" alt-text="Enrichment page with configuraiton options":::
+:::image type="content" source="media/enrichment-page.png" alt-text="Enrichment page with configuration options":::
 
 ## About Microsoft Graph
 
