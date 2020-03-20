@@ -35,8 +35,8 @@
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
 ### Configure Sales accelerator
-#### []()
-#### []()
+#### [Enable and configure Sales accelerator](#enable-configure-sales-accelerator.md)
+#### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
