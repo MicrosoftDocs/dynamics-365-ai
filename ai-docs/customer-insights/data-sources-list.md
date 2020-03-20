@@ -1,7 +1,7 @@
 ---
 title: "Available data sources for Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Inbound connectors for data sources in Dynamics 365 Customer Insights."
-ms.date: 03/11/2020
+ms.date: 03/20/2020
 ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -11,6 +11,8 @@ manager: shellyha
 ---
 
 # Available data sources
+
+This article covers the list of available data sources to ingest data into Dynamics 365 Customer Insights. For more information about adding a data source in the app, see [Connect data sources](pm-data-sources.md)
 
 The **Chose data source** page organizes data types in the following categories:
 
