@@ -1,7 +1,7 @@
 ---
 title: "Permissions | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 02/04/2020
+ms.date: 03/18/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -18,6 +18,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 - Explore insights and segments within the **Home** and **Segments** pages.
 - Search and filter customer profiles using the **Customers** page. (Note: Data fields should first be indexed as searchable by your administrator.)
+- View and explore the **Enrichment** page.
 - Explore and export entities using the **Entities** page.
 - View the status of system processes  using the **System** page.
 - Export segments from the **Segments** page to either a .csv file or to a Dynamics 365 Sales destination. (Note: Dynamics 365 Sales destinations should first be defined by your administrator.)
@@ -31,7 +32,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 - Define **Relationships** and **Activities**.
 - Create segments using the **Segment Builder** page.
 - Create measures using the **Measures** page.
-- Enrich customer profiles with Microsoft Graph data using the **Enrichment** page.
+- Manage configuration and enrich customer profiles from the **Enrichment** page.
 
 ## Administrator
 
