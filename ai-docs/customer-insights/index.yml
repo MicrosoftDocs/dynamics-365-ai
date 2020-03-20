@@ -11,7 +11,7 @@ metadata:
   ms.collection: collection
   author: m-hartmann
   ms.author: mhart
-  ms.date: 02/06/2020
+  ms.date: 03/17/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -52,7 +52,7 @@ landingContent:
             url: pm-merge.md
 
   # Card
-  - title: Enrich customer profiles
+  - title: Refine customer profiles
     linkLists:
       - linkListType: how-to-guide
         links:
