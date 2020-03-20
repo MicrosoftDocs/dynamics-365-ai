@@ -12,7 +12,7 @@ manager: shellyha
 
 # Available data sources
 
-This article covers the list of available data sources to ingest data into Dynamics 365 Customer Insights. For more information about adding a data source in the app, see [Connect data sources](pm-data-sources.md)
+This article covers the list of available data sources to ingest data into Dynamics 365 Customer Insights. For more information about adding a data source in the app, see [Connect data sources](pm-data-sources.md).
 
 The **Chose data source** page organizes data types in the following categories:
 
