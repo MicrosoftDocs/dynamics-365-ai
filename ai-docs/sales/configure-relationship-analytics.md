@@ -63,7 +63,7 @@ To configure Relationship analytics, follow these steps:
     >[!NOTE]
     >- The preview feature is available only for **Opportunity** entity.
     >- You must have at least 30 won and 30 lost opportunities to compare with the existing opportunities.
-    >- To know how users use this feature, see [View similar opportunities](configure-relationship-analytics.md#view-similar-opportunities).
+    >- To know how users use this feature, see [View similar opportunities](relationship-analytics.md#view-similar-opportunities).
 
     > [!div class="mx-imgBorder"]
     > ![Enable preview to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable preview to view similar opportunities")
