@@ -295,3 +295,4 @@ To delete sequence, follow these steps:
 
 [Enable and configure Sales accelerator](#enable-configure-sales-accelerator.md)
 
+[Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)

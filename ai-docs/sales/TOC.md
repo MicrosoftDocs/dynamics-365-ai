@@ -81,8 +81,8 @@
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 
 ### Sales accelerator
-#### []()
-#### []()
+#### [What is sales accelerator](sales-accelerator-intro.md)
+#### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
 
 ### Dynamics 365 assistant for Microsoft Teams
