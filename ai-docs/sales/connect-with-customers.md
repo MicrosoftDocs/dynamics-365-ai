@@ -15,9 +15,6 @@ As a seller, you can connect with your customers by using multiple channels, suc
 
 If an activity is not required to be completed by the due date or you are unable to connect with a customer, you can either skip or postpone the activity. More information: [Skip or postpone an activity](#skip-or-postpone-an-activity)
 
-`Phone image to engagement center and up next widget`
-`Email image to engagement center and up next widget`
-
 ## Call a customer
 
 You can make a phone call to your customer from the engagement center or the **Up next** widget.
@@ -30,19 +27,22 @@ When you make a phone call, a Phone Call activity is created and linked to the l
 - **Phone Number**: Mobile phone number of the contact to whom the call is made.
 - **Direction**: Direction of the call. The value will always be **Outgoing**, as the call is made and not received.
 
-`image`
+> [!div class="mx-imgBorder"]
+> ![Phone call activity](media/phone-call-activity.png "Phone call activity")
 
 The mobile phone number   of the contact is used to initiate the call. If the mobile phone number of the contact   is not available, the softphone dialer is displayed,   and you can dial the number manually. If the contact has set the preference not to be contacted through phone, a corresponding message is displayed. After you make the phone call successfully, you must mark the Phone Call activity as complete.  
 
 To make a phone call, do either of the following:
 
-- Select the phone icon in the engagement center record.
+- Select the phone icon in the **My work** list record.
 
-    `image`
+    > [!div class="mx-imgBorder"]
+    > ![Phone call from My work list](media/my-work-list-call.png "Phone call from My work list")
 
-- Select Call in the Up next widget activity.
+- Select **Call** in the **Up next** widget activity.
 
-    `image`
+    > [!div class="mx-imgBorder"]
+    > ![Phone call from the Up next widget](media/up-next-widget-call.png "Phone call from the Up next widget")
 
 ## Send an email to a customer
 
@@ -52,13 +52,15 @@ While composing an email, if you try to navigate to another record or send an em
 
 To send an email, do either of the following:
 
-- Select the email icon in the engagement center record.
+- Select the email icon in the **My work** list record.
 
-    `image`
+    > [!div class="mx-imgBorder"]
+    > ![Send email from My work list](media/my-work-list-email.png "Send email from My work list")
 
-- Select Email in the Up next widget activity.
+- Select **Email** in the **Up next** widget activity.
 
-    `image`
+    > [!div class="mx-imgBorder"]
+    > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
 
 ## Skip or postpone an activity
 
@@ -72,7 +74,8 @@ To skip an activity:
 
 2.	Select **More actions** > **Skip item**.
 
-    `image`
+    > [!div class="mx-imgBorder"]
+    > ![Skip an activity](media/skip-activity.png "Skip an activity")
 
 The activity is skipped and the next activity in sequence is displayed.
 
@@ -82,7 +85,14 @@ To postpone an activity:
 
 2.	Select **More actions** > **Postpone**.
 
+    > [!div class="mx-imgBorder"]
+    > ![Postpone an activity](media/postpone-activity.png "Postpone an activity")
+
 3.	Select the new date and time by which the activity should be completed.
 
-    `image`
+    > [!div class="mx-imgBorder"]
+    > ![Select snooze date and time](media/snooze-time.png "Select snooze date and time")
 
+### See also
+
+[Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
