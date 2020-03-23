@@ -53,7 +53,7 @@ Follow these steps to view work list:
 
     The engagement center page opens, and the following screen is an example.
 
-       
+    <image>   
 
     | Number | Feature | Description |
     |--------|---------|-------------|
