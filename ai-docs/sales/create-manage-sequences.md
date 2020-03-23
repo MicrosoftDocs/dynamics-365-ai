@@ -177,7 +177,7 @@ To connect  sequence to a record, follow these steps:
 
     A confirmation message displays at the bottom of the page and the sequence is connected  to the selected lead records. Now, sellers who have access to the lead record can see the activities.
     
-## View details of a sequence and connected records
+## View details of sequences and connected records
 
 You can view the details of a sequence and the records associated with it. This view can also be used to remove records associated with the sequence. Follow these steps:
 
