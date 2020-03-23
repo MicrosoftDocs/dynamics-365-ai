@@ -107,6 +107,14 @@ You can view complete relationship analytics for an individual record, including
 
 **Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  <br> 
 
+## View similar opportunities 
+
+
+
+
+
+
+
 
 <a name="Calculations"></a>   
 

@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Configure Relationship analytics
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead or account to the users. 
+Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
 
 To configure Relationship analytics, follow these steps:
 
@@ -56,7 +56,19 @@ To configure Relationship analytics, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Relationship analytics configuration settings page](media/si-admin-relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")
 
-6. Select **Save**.
+6. (Optional) To view similar opportunities, under **Similar opportunities**, toggle to enable **Preview**.
+
+    By enabling this option, user in your organization can see an improved relationship assistant tab for opportunities. The tab displays the analytics along with the suggestions on similar opportunities through AI-driven models that monitor customer relationships by analyzing interactions, patterens, languages, and trends.
+
+    >[!NOTE]
+    >- The preview feature is available only for **Opportunity** entity.
+    >- You must have at least 30 won and 30 lost opportunities to compare with the existing opportunities.
+    >- To know how users use this feature, see [View similar opportunities](configure-relationship-analytics.md#view-similar-opportunities).
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable preview to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable preview to view similar opportunities")
+
+7. Select **Save**.
 
    Relationship analytics is ready to use in your organization.
 
