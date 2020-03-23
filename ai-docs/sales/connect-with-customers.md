@@ -11,13 +11,13 @@ manager: shujoshi
 
 # Connect with customers through a record or the up next widget 
 
-As a seller, you can connect with your customers by using multiple channels, such as phone and email daily without losing context and switching to multiple application. If you have activities to contact customers through a phone call or an email, corresponding icons and buttons of phone and email are displayed in your engagement center and the Up next widget. After you make the phone call or send an email, you must mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
+As a seller, you can connect with your customers by using multiple channels, such as phone and email daily without losing context and switching to multiple application. If you have activities to contact customers through a phone call or an email, corresponding icons and buttons of phone and email are displayed in your **My work** list and the **Up next** widget. After you make the phone call or send an email, you must mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
 
 If an activity is not required to be completed by the due date or you are unable to connect with a customer, you can either skip or postpone the activity. More information: [Skip or postpone an activity](#skip-or-postpone-an-activity)
 
 ## Call a customer
 
-You can make a phone call to your customer from the engagement center or the **Up next** widget.
+You can make a phone call to your customer from the **My work** list or the **Up next** widget.
 
 When you make a phone call, a Phone Call activity is created and linked to the lead or opportunity. The Phone Call activity captures the following information:
 
@@ -46,7 +46,7 @@ To make a phone call, do either of the following:
 
 ## Send an email to a customer
 
-You can send an email to your customer from the engagement center or the **Up next** widget. If the email address of a contact is not available, a warning message is displayed. When you send an email, an Email activity is created and linked to the lead or opportunity.
+You can send an email to your customer from the **My work** list or the **Up next** widget. If the email address of a contact is not available, a warning message is displayed. When you send an email, an Email activity is created and linked to the lead or opportunity.
 
 While composing an email, if you try to navigate to another record or send an email from another lead/opportunity, a warning message is displayed to save the email. 
 
