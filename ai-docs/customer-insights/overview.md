@@ -12,7 +12,7 @@ manager: shellyha
 
 # Dynamics 365 Customer Insights
 
-Customer experience is at the very core of every organization’s digital transformation ambitions. To compete in today’s market, organizations must build meaningful relationships with their customers on a personal level. Effectively personalizing at scale requires a complete, unified customer view.
+Customer experience is at the very core of every organization's digital transformation ambitions. To compete in today's market, organizations must build meaningful relationships with their customers on a personal level. Effectively personalizing at scale requires a complete, unified customer view.
 
 > [!NOTE]
 > **Get started with a 30-day trial**
@@ -36,7 +36,7 @@ With Customer Insights, organizations can:
 
 - **Eliminate data silos and unify customer data**
 
-  - Connect and unify your data with ease—bring in transactional, observational, and behavioral data from popular data sources by using prebuilt connectors.
+  - Connect and unify your data with ease—bring in transactional, observational, and behavioral data from popular [data sources by using prebuilt connectors](data-sources-list.md).
   - Transform customer data intelligently—build unified customer profiles conforming to the [Common Data Model](https://docs.microsoft.com/common-data-model/). Resolve customer identities with AI/ML-driven recommendations.
 
 - **Enrich with audience intelligence contained within Microsoft Graph**
@@ -56,7 +56,7 @@ The release will include capabilities for the following key users:
   - Access to a rich collection of Microsoft Power Platform connectors to ingest all your customer data.
   - Ability to unify customer data and transform it into the [Common Data Model](https://docs.microsoft.com/common-data-model/) format.
   - Enrich customer information with insights from audience intelligence contained within Microsoft Graph, such as brand affinity and interests.
-  - “Clicks-not-code” configuration and debugging experience to help easily configure Customer Insights and identify potential issues.
+  - "Clicks-not-code" configuration and debugging experience to help easily configure Customer Insights and identify potential issues.
   - Cleanse and standardize customer data across disparate sources with AI-powered recommendations.  
 
 - **Business users:**
