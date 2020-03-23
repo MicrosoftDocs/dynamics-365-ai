@@ -21,4 +21,4 @@ By using Sales accelerator:
 
 ### See also
 
-[Enable and configure Sales accelerator](#enable-configure-sales-accelerator.md)
+[Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)
