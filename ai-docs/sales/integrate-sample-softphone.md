@@ -36,3 +36,7 @@ To configure the sample:
 
 > [!IMPORTANT]
 > A Phone Call activity is created before a phone call is initiated from the softphone dialer. As an existing customer of Channel Integration Framework, if you have configured or implemented your system to create a Phone Call activity within the softphone dialer, you must remove the configuration or implementation to avoid creation of duplicate Phone Call activities. 
+
+### See also
+
+[Connect with customers through a record or the up next widget ](connect-with-customers.md)
