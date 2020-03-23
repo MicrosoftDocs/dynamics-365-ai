@@ -17,6 +17,8 @@
   items:
     - name: Add data sources
       href: pm-data-sources.md
+    - name: Available data sources
+      href: data-sources-list.md
     - name: Learn about common connectors
       href: pm-common-connectors.md
     - name: Add a Common Data Model folder as a data source

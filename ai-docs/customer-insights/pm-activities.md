@@ -12,13 +12,13 @@ manager: shellyha
 
 # Activities
 
-Consolidate customer activities from various data sources in Dynamics 365 Customer Insights that you want to view on the customer's timeline. In a next step, you can create a customer timeline which consolidates all the activities of a customer in chronological order. It can be shown in model-driven apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of the timeline. Visit the [**Timeline Control** section](pm-customer-card-addin.md#timeline-control) to learn how to work with that control.
+Consolidate customer activities from various [data sources](data-sources-list.md) in Dynamics 365 Customer Insights that you want to view on the customer's timeline. In a next step, you can create a customer timeline which consolidates all the activities of a customer in chronological order. It can be shown in model-driven apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), via the Customer Card add-in, or within a Power BI dashboard. A specific control is used for the creation of the timeline. Visit the [**Timeline Control** section](pm-customer-card-addin.md#timeline-control) to learn how to work with that control.
 
 This topic covers only the **Activities** page.
 
 ## Define an activity
 
-Your data sources include entities with transactional and activity data from multiple data sources. Identify these entities and select the activities you want to view on the customer’s timeline. Choose the entity that includes your target activity or activities.
+Your data sources include entities with transactional and activity data from multiple data sources. Identify these entities and select the activities you want to view on the customer's timeline. Choose the entity that includes your target activity or activities.
 
 1. In Customer Insights, go to **Data** > **Activities**.
 
