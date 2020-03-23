@@ -58,7 +58,7 @@ To configure Relationship analytics, follow these steps:
 
 6. (Optional) To view similar opportunities, under **Similar opportunities**, toggle to enable **Preview**.
 
-    By enabling this option, user in your organization can see an improved relationship assistant tab for opportunities. The tab displays the analytics along with the suggestions on similar opportunities through AI-driven models that monitor customer relationships by analyzing interactions, patterens, languages, and trends.
+    By enabling this option, users in your organization can see an improved relationship analytics tab for opportunities. The tab displays the KPIs along with the suggestions on similar opportunities through AI-driven models that monitor customer relationships by analyzing interactions, patterens, languages, and trends.
 
     >[!NOTE]
     >- The preview feature is available only for **Opportunity** entity.
