@@ -31,7 +31,7 @@ A sales manager configures the worklist by defining the sequence for the leads a
 
 Review the following prerequisites before you start using the engagement center:
 
-- Sales accelerator feature is installed in your organization and your role is assigned to access work list . To learn more, [Enable and configure Sales accelerator](#enable-configure-sales-accelerator.md).
+- Sales accelerator feature is installed in your organization and your role is assigned to access work list . To learn more, [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md).
 
 - A softphone and an email server are configured for your security role. 
 

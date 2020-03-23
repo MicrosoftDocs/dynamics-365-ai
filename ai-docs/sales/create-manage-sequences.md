@@ -29,7 +29,7 @@ Review the following prerequisites before configuring a sequence:
 
 - You must have the **Sequence Manager** security role. To learn more, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
-- Sales accelerator is enabled and installed in your organization. To learn more, see [Enable and configure Sales accelerator](#enable-configure-sales-accelerator.md).
+- Sales accelerator is enabled and installed in your organization. To learn more, see [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md).
 
 ## Create and activate a sequence
 
@@ -225,7 +225,7 @@ You can view the details of a sequence and the records associated with it. This 
 
     The record is removed from the assigned list and can be connected to a different sequence.
 
-# Edit sequence
+## Edit sequence
 
 You can edit sequences that are in inactive state only. Deactivate a sequence before you edit it. For example, the selling process in your organization has changed. To adhere to the latest process, you can edit a sequence to match the new process.
 
@@ -293,6 +293,6 @@ To delete sequence, follow these steps:
 
 ### See also
 
-[Enable and configure Sales accelerator](#enable-configure-sales-accelerator.md)
+[Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)
 
 [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
