@@ -20,7 +20,7 @@ Refreshing new and updated data for data sources in Customer Insights provides t
 
 ## Configure incremental refresh
 
-Customer Insights allows incremental refresh for data sources that support incremental ingestion. For example, Azure SQL databases with date and time fields which indicate when data records were last updated.
+Customer Insights allows incremental refresh for data sources that support incremental ingestion. For example, Azure SQL databases with date and time fields, which indicate when data records were last updated.
 
 1. In Customer Insights, [create a new data source](pm-data-sources.md).
 
@@ -47,4 +47,4 @@ Customer Insights allows incremental refresh for data sources that support incre
    - **Define the "last updated" field**: This field will only display date/time attributes. Select an attribute that indicates when the records were last updated.
    - **Check for updates frequency**: Specify how often you want the system to check updates.
 
-1. Select **Save** to to finalize the creation of the data source. The initial data refresh will be a full refresh. Afterwards, the incremental data refresh happens as configured in the previous step.
+1. Select **Save** to complete the creation of the data source. The initial data refresh will be a full refresh. Afterwards, the incremental data refresh happens as configured in the previous step.
