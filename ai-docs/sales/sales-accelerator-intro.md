@@ -9,7 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# What is Sales accelerator 
+# What is sales accelerator 
 
 Sales teams in organizations must focus on high-velocity selling. The sellers who are part of sales teams spend valuable time seeking who is the best customer in their list , navigating across multiple sources, identify who they need to engage with , when and how. 
 

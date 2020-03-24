@@ -34,8 +34,8 @@
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
-### Configure Sales accelerator
-#### [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)
+### Configure sales accelerator
+#### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
