@@ -38,6 +38,9 @@ Customer Insights allows incremental refresh for data sources that support incre
 
 1. On **Incremental refresh settings**, you'll configure the incremental refresh for all entities here that you selected when creating the data source.
 
+   > [!div class="mx-imgBorder"]
+   > ![Configure entities in a data source for incremental refresh](media/incremental-refresh-settings.png "Configure entities in a data source for incremental refresh")
+
 1. Select an entity, and provide the following details:
 
    - **Define the primary key**: Select a primary key for the entity/table.
