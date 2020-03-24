@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Enrichment of customer profiles with brand and interest affinities
+# Enrichment of customer profiles with brand and interest affinities TEST
 
 Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers based on their affinities to specific brands and interests.
 
