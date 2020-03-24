@@ -35,7 +35,7 @@ When an administrator enables premium auto capture, you need to give your consen
 
 -	[Timeline](#through-the-timeline)
 
--	[Relationship Assistant](#through-the-relationship-assistant)
+-	[Assistant](#through-the-assistant)
 
 -	[Personal settings](#through-personal-settings)
 
@@ -53,18 +53,18 @@ When an administrator enables premium auto capture, you need to give your consen
     > ![Provide consent on the timeline](media/auto-capture-timeline-provide-consent.png "Give consent on the timeline") 
 
 
-### Through the Relationship Assistant
+### Through the Assistant
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
 2.	On the site map, select an entity&mdash;for example, **Dashboard**.
 
-3.	In the **Relationship Assistant** section, select **Turn on suggestions**.
+3.	In the **Assistant** section, select **Turn on suggestions**.
  
 4.	In the **Turn on activity and contact suggestions** message, select **Allow access**.
  
     > [!div class="mx-imgBorder"]
-    > ![Provide consent through relationship assistant](media/auto-capture-ra-provide-consent.png "Give consent through the Relationship Assistant") 
+    > ![Provide consent through assistant](media/auto-capture-ra-provide-consent.png "Give consent through the Assistant") 
 
 
 ### Through personal settings
@@ -127,7 +127,7 @@ The Activity suggestions grid consists of the following columns:
 
 -	**Regarding**: This column specifies the record to which the activity can be added.
 
-Also, the Relationship Assistant displays a card to alert you when new activity suggestions are available. Select **Open activity suggestions** to open the activity suggestions grid and take appropriate action on the suggestions.
+Also, the Assistant displays a card to alert you when new activity suggestions are available. Select **Open activity suggestions** to open the activity suggestions grid and take appropriate action on the suggestions.
 
 > [!div class="mx-imgBorder"]
 > ![Activity suggestion in relationship assistant](media/auto-capture-premium-activity-suggestion-relationship-assistant.png "Activity suggestion in the Relationship Assistant")
@@ -233,7 +233,7 @@ The contact suggestions grid consists of the following columns:
 
 -	**Email**: This column specifies the email address of the suggested contact.
 
-Also, the Relationship Assistant displays a card to alert you when a contact suggestion is available. Select **Open contact suggestions** to open the contact suggestions grid and take appropriate action on the suggestions.
+Also, the Assistant displays a card to alert you when a contact suggestion is available. Select **Open contact suggestions** to open the contact suggestions grid and take appropriate action on the suggestions.
 
 > [!div class="mx-imgBorder"]
 > ![Contact suggestion in relationship assistant](media/auto-capture-premium-contact-suggestion-relationship-assistant.png "Contact suggestion in the Relationship Assistant")
