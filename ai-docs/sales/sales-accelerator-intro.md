@@ -11,7 +11,9 @@ manager: shujoshi
 
 # What is Sales accelerator 
 
-Sales teams in organizations must focus on high-velocity selling. The sellers who are part of sales teams spend valuable time in navigating across multiple sources and then identify how to approach customers. To overcome this challenge, Sales accelerator in Dynamics 365 Sales Insights provides a tailored experience for sellers by minimizing the time spent on gathering information across multiple sources and focus on approaching customers. Also, Sales accelerator helps sellers to sell smartly, by building a strong pipeline, offering context, and surfacing automated recommendations throughout a sales sequence  that helps to transform the sales process.
+Sales teams in organizations must focus on high-velocity selling. The sellers who are part of sales teams spend valuable time seeking who is the best customer in their list , navigating across multiple sources, identify who they need to engage with , when and how. 
+
+To overcome this challenge, Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time spent on wondering who is the next best customer to reach, gathering information across multiple sources and focus on how approaching customers. Also, Sales accelerator helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process.
 
 By using Sales accelerator:
 
