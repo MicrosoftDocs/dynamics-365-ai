@@ -1,7 +1,7 @@
 ---
 title: "Create and manage segments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 03/24/2020
+ms.date: 03/25/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -29,14 +29,9 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 1. Go to the **Segments** page in Customer Insights.
 
-2. Select **New**.
-
-3. Select the **Blank segment** option.
+2. Select **New** > **Blank segment**.
 
 3. In the **New segment** pane, choose a segment type and provide a **Name**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
 
    Optionally, provide a display name, and a description that helps identifying the segment.
 
@@ -58,7 +53,10 @@ Segments are managed on the **Segments** page in Customer Insights.
    |3    |Operator         |
    |4    |Value         |
 
-8. In case the entity is connected to the unified customer entity in multiple [relationship paths](pm-relationships.md), you need to define this path in order for the segment to be valid. To accomplish that, select the related entities one by one until the **Customer** entity is shown in the entity drop down. Then, use the **All records** attribute option for each condition you are adding to conclude that entity.
+8. If the entity is connected to the unified customer entity through [relationships](pm-relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the drop down. Then, choose **All records** for each condition.
+
+   > [!div class="mx-imgBorder"]
+   > ![Relationship path during segment creation](media/segments-multiple-relationships.png "Relationship path during segment creation")
 
 9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be saved as a draft.
 
@@ -74,15 +72,18 @@ You can sort the segments in a column, by selecting a column heading.
 
 Use the **Search** box in the top right corner to filter the segments.
 
-If you select a segment, you can perform the following options:
+> [!div class="mx-imgBorder"]
+> ![Options to manage an existing segment](media/segments-selected-segment.png "Options to manage an existing segment")
+
+Select a segment to perform the following options:
 
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** the segment to include the latest data.
 - **Activate** or **Deactivate** the segment. Alternatively, you an use the **Schedule later** functionality in the **Activate/Deactivate** drop-down to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
-- **Download** the segment as a .CSV file.
-- **Export** the list of customer IDs in the segment for processing in another application.
+- **Download** the list of members in a segment as a .CSV file.
+- **Add to** sends the list of customer IDs in the segment for processing in another application.
 - **Delete** the segment.
 
 ## Refresh segments
@@ -154,14 +155,9 @@ The lower part contains a list of the segment members.
 
 ## Quick segments
 
-In addition to the segment builder, there's another path for creating segments in Customer Insights. Quick segments let you build simple segments (with a single operator) quickly.
+In addition to the segment builder, there's another path for creating segments in Customer Insights. Quick segments let you build simple segments (with a single operator) quickly and with instant insights.
 
-1. Select **New** on the **Segments** page.
-
-1. Select **Quickly create from**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
+1. On the **Segments** page, select **New** > **Quickly create from**.
 
    - Select the **Profiles** option to build a segment that is based on the unified Customer entity.
    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
