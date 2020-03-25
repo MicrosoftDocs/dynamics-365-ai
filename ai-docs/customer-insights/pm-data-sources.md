@@ -1,7 +1,7 @@
 ---
 title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Bring data from various sources into Dynamics 365 Customer Insights."
-ms.date: 01/31/2020
+ms.date: 03/25/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 ms.assetid: 
@@ -33,6 +33,9 @@ Import data to Customer Insights with one of the many [out-of-the-box connectors
 4. Choose one of the [available connectors](data-sources-list.md). To load data from Dynamics 365 apps, choose the **Common Data Service** connector.
 
 5. Enter the required details for the selected connector. For more information about some of the most frequently used data sources (like Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).
+
+> [!NOTE]
+> If supported by the data source, you can [configure an incremental refresh](incremental-refresh-data-sources.md) to speed up the refresh process.
 
 ### Add, review, and transform entities
 
