@@ -50,9 +50,6 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 2. In the **Select** field, find the user whose permissions you want to adjust. Choose a **Role** to assign to that user.
 
-   > [!div class="mx-imgBorder"]
-   > ![Enter a name](media/permissions-roles.png "Enter a name")
-
 3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user whose permissions you've changed. This user will be able to enter the Customer Insights app and perform actions according to their specified role.
 
 ## View current permissions
