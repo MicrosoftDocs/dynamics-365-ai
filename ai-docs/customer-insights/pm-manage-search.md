@@ -25,10 +25,7 @@ If it's the first time you define searchable attributes as an administrator, you
 
 2. Select **Add fields** to specify the indexed fields.
 
-3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add** (#1 in the image below). You can also remove any selected attributes using **Delete** symbol (#2 in the image below).
-
-> [!div class="mx-imgBorder"]
-> ![Add or remove attributes](media/search-sort-filter-add.png "Add or remove attributes")
+3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add**. You can also remove any selected attributes by selecting the **Delete** symbol.
 
 ## Explore the Indexed customer fields table
 
@@ -42,9 +39,6 @@ The following information is presented in the table.
 ## Editing filtering options for a given attribute
 
 The **Filter** menu on the **Customers** page can include a varying number of attribute levels (for example, different age groups to filter customers by).
-
-> [!div class="mx-imgBorder"]
-> ![Table on Search & filter index page](media/search-sort-filter-edit.png "Table on Search & filter index page")
 
 1. Select **Add Filter** for a given attribute on the **Search & filter index** page. You can define the number of results and the order in which they'll be organized. Depending on the attribute's data type, one of the following panes appears.
 
