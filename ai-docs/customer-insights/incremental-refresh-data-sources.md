@@ -1,7 +1,7 @@
 ---
 title: "Incremental refresh for ingested large data sources in Customer Insights | Microsoft Docs"
 description: "Refresh new and updated data for large data sources in Dynamics 365 Customer Insights."
-ms.date: 03/24/2020
+ms.date: 03/25/2020
 ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -15,8 +15,8 @@ manager: shellyha
 Refreshing new and updated data for data sources in Customer Insights provides the following advantages:
 
 - **Faster refreshes** - Only data that has changed gets refreshed. For example, only from the past five days of a historical dataset.
-- **Increased reliability** - Reduced necessity to maintain long-running connections to volatile source systems reduces the risk of connection issues.
-- **Reduced resource consumption** - Less data to refresh reduces the consumption of computing resources.
+- **Increased reliability** - Reduced necessity to maintain connections to volatile source systems reduces the risk of connection issues.
+- **Reduced resource consumption** - Less data to refresh leads to more efficient use of computing resources, decreasing the environmental footprint.
 
 ## Configure incremental refresh
 
@@ -44,7 +44,7 @@ Customer Insights allows incremental refresh for data sources that support incre
 1. Select an entity, and provide the following details:
 
    - **Define the primary key**: Select a primary key for the entity/table.
-   - **Define the "last updated" field**: This field will only display date/time attributes. Select an attribute that indicates when the records were last updated.
-   - **Check for updates frequency**: Specify how often you want the system to check updates.
+   - **Define the "last updated" field**: This field will only display attributes of type date/time. Select an attribute that indicates when the records were last updated. It'll be used to identify the records that fall within the incremental refresh time frame.
+   - **Check for updates frequency**: Specify how long you want the incremental refresh time frame to be.
 
 1. Select **Save** to complete the creation of the data source. The initial data refresh will be a full refresh. Afterwards, the incremental data refresh happens as configured in the previous step.
