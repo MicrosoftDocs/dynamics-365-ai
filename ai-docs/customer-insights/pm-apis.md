@@ -1,7 +1,7 @@
 ---
 title: "APIs | Microsoft Docs"
 description: "APIs for Dynamics 365 Customer Insights."
-ms.date: 02/03/2020
+ms.date: 03/25/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -24,9 +24,6 @@ The goal of this section isn't to cover all the Customer Insights APIs, but rath
 If you aren't familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
 
 ## Functionalities served with the Customer Insights Open Data Protocol APIs
-
-> [!div class="mx-imgBorder"]
-> ![Open Data Protocol APIs](media/api-entity-data.png "Open Data Protocol APIs")
 
 - PUT API: /api/instances/{instanceId}/data/{relativePath}
 
@@ -81,9 +78,9 @@ For relationship APIs specifically, anytime {relationshipName} is provided, a re
 
 | API | Limitations |
 |---------|---------|
-| PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/entityInfo | 1. Request body will have a list of entity names. These names must all have been ingested into the given data source. <br/><br/> 2. Request body will have a list of attribute names associated with each entity. These names must actually exist as attributes of the entity. <br/><br/> 3. The only allowed values for “EntityType” are “Activity” and “Unspecified”. <br/><br/> 4. If EntityType = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile. <br/><br/> 5. If the TimestampFieldName is provided for an entity, it must be the name of one of that entity's attributes. The attribute must have type DateTime or long. |
+| PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/entityInfo | 1. Request body will have a list of entity names. These names must all have been ingested into the given data source. <br/><br/> 2. Request body will have a list of attribute names associated with each entity. These names must actually exist as attributes of the entity. <br/><br/> 3. The only allowed values for "EntityType" are "Activity" and "Unspecified". <br/><br/> 4. If EntityType = Activity, then the entity with this EntityType must have a relationship to an entity with type Profile. <br/><br/> 5. If the TimestampFieldName is provided for an entity, it must be the name of one of that entity's attributes. The attribute must have type DateTime or long. |
 | PATCH<br/>/api/instances/{instanceId}/manage/datasources/{datasourceId}/<br/>entities/{entityName}/entityInfo | 1. Same as above, but for a single entity rather than a list. <br/><br/> 2. Same as above. <br/><br/> 3. Same as above. <br/><br/> 4. Same as above. <br/><br/> 5. Same as above |
-| PATCH<br/>/api/instances/{instanceId}/manage/relationships | 1. Relationship name can only include letters, numbers, and underscores. <br/><br/> 2. Relationship name must be unique.<br/><br/> 3. Cardinality can have only two values: “OneToMany” or “ManyToOne”. <br/><br/> 4. There are only four possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination. <br/><br/> 5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance. <br/><br/> 6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity. |
+| PATCH<br/>/api/instances/{instanceId}/manage/relationships | 1. Relationship name can only include letters, numbers, and underscores. <br/><br/> 2. Relationship name must be unique.<br/><br/> 3. Cardinality can have only two values: "OneToMany" or "ManyToOne". <br/><br/> 4. There are only four possible relationship types: SingleKeyRelationshipOrigin, SingleKeyRelationshipDestination, DataSourceLineageOrigin, DataSourceLineageDestination. <br/><br/> 5. Both the FromEntity and ToEntity must be the names of entities that actually exist in the instance. <br/><br/> 6. Both the FromAttribute and ToAttribute must actually exist as attributes of the FromEntity and ToEntity. |
 | PATCH<br/>/api/instances/{instanceId}/manage/relationships/{relationshipName} | Same limitations as above, except #2 doesn't apply here, since the name was already validated during creation (while this action is an update). |
 
 ## Functionalities served with the Customer Insights Segmentation APIs
