@@ -84,7 +84,7 @@ This section walks you through creating a measure from scratch. You can build me
 
 After creating at least one measure, you'll see a list of measures on the **Measures** page in Customer Insights.
 
-You'll find information about the measure type, the creator, creation date and time, last edit date and time, status (whether the measure is active, inactive, or failed), and last refresh date and time. When you select a measure from the list, you can see a preview of the measure output.
+You'll find information about the measure type, the creator, creation date and time, last edit date and time, status (whether the measure is active, inactive, or failed), and last refresh date and time. When you select a measure from the list, you can see a preview of its output.
 
 To refresh all of your measures at the same time, select **Refresh all** without selecting a specific measure.
 
@@ -93,7 +93,7 @@ To refresh all of your measures at the same time, select **Refresh all** without
 
 Alternatively, select a measure from the list and perform one of the following actions:
 
-- Select the measure name to see it's details.
+- Select the measure name to see its details.
 - **Edit** the configuration of the measure.
 - **Rename** the measure.
 - **Delete** the measure.
