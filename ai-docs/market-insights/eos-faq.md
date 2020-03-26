@@ -1,7 +1,7 @@
 ---
 title: "End of service of Dynamics 365 Market Insights | Microsoft Docs"
 description: "Frequently asked questions about the end of service announcement for Market Insights."
-ms.date: 03/17/2020
+ms.date: 03/26/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -9,32 +9,51 @@ ms.author: mhart
 ms.custom: dyn365-ai-marketinsights
 ---
 
-# Frequently Asked Questions about Dynamics 365 Market Insights Preview discontinuation
+# Frequently asked questions about the end of service Dynamics 365 Market Insights Preview  
 
-[Market Insights Preview](https://dynamics.microsoft.com/ai/market-insights/) is being discontinued. We will incorporate the core technology and learning from the app into [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) and [Microsoft Bing Industry Updates](https://newspro.microsoft.com/baw/homepage).
+Market Insights Preview will no longer be available to new customers starting April 10, 2020. Service for all existing customers will end on May 11, 2020.
 
-## What are the Key Dates?
+## Why is Market Insights Preview being discontinued?
 
-**April 10, 2020** – Market Insights Preview no longer available as a standalone application to new customers.
+Microsoft continually evolves the product strategy based on customer feedback. While we are discontinuing Market Insights Preview, we will incorporate the core technology and learnings from Market Insights preview into [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights) and [Microsoft Bing industry updates](https://newspro.microsoft.com/baw/homepage).
 
-**May 11, 2020** – End of service for all customers.
+## What is Dynamics 365 Customer Insights?
 
-## What is the recommended path for Market Insights Preview customers?
+Customer Insights is an intuitive and flexible customer data platform to unlock insights and power personalized customer experiences. It provides the capability to unify all customer data across the full range of sources to get a single view of customers.
 
-Depending on your needs, you can engage with [Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) and/or [Bing Industry Updates](https://newspro.microsoft.com/baw/homepage).
+Information on the enhanced capabilities of Customer Insights can found on its [webpage](https://dynamics.microsoft.com/ai/customer-insights).
 
-## What are the key points of Dynamics 365 Customer Insights?
+## What key capabilities of Market Insights Preview will be used to enhance Customer Insights and Bing industry updates?
 
-[Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) is a subscription application designed to make the benefits of AI a reality for your business by maximizing customer lifetime value with AI-driven insights based on unified customer profiles.
+Entity recognition of brands and social-demographic insights, two key capabilities from Market Insights Preview, will be used to enhance Customer Insights. These capabilities power the brand and interest affinities enrichment in Customer Insights. We will also use the key learnings from Market Insights Preview to influence the Bing industry updates roadmap.
 
-It can help you to transform into a customer-centric organization where marketing, sales, and service professionals have the insights they need to personalize engagement. It enables you to see results faster with a ready-to-go Customer Data Platform designed to deliver insights that can be acted upon with minimal training and IT assistance.
+## What is the difference between Market Insights Preview and Bing Industry Updates?
 
-Its business advantages include: providing a holistic view of your customers, extensive ability to discover insights and take action, its ability to adapt and extend capabilities to your needs, and the confidence gained when you rely on a productive and trusted platform.  
+Market Insights Preview offered articles and insights curated specifically for you. Bing provides a broader perspective, offering a selection of industries and news topics to follow. Bing compiles updates into a daily industry newsletter. Customers can customize their content mix easily at the bottom of any Industry Updates email. Customers can also adjust the delivery time and frequency.
 
-## What are the key points of Bing Industry Updates?
+|  |                                      | Dynamics 365 Market Insights                                                             | Bing industry updates    |
+|----------------------|-----------------------------------------------------------|--------------------------------------------------------------|-----|
+| **Target user**          |                     | Business professionals, product owners | Business professionals, Microsoft Search in Bing users    |
+| **UX**                  | Email notifications summarizing news                      | Yes                                                          | Yes |
+|                      | Email notifications summarizing trends                    | Yes                                                          | No  |
+|                      | Web-application with insights feed and details              | Yes                                                          | No  |
+|                      | Insights & notification configuration                     | Yes                                                          | Yes |
+| **Content**              | News & events on specific entities (companies/products)   | Yes                                                          | Yes |
+|                      | Product insights (attributes)                             | Yes                                                          | No  |
+|                      | Intranet (SharePoint), MSN/LinkedIn News                  | No                                                           | Yes |
+|                      | Awareness insights (search terms trend and search activity) | Yes                                                          | No  |
+|                      | Demographic insights: age and gender (search)                | Yes                                                          | No  |
+|                      | Gender (search)                                           | Yes                                                          | No  |
+|                      | Community insights (top communities)                      | Yes                                                          | No  |
+| **Personalization**      | Explicit customization through personal settings          | Yes                                                          | Yes |
+|                      | Implicit internet discovery through Microsoft Graph              | No                                                           | Yes |
 
-[Bing Industry Updates](https://newspro.microsoft.com/baw/homepage) are a free service through Bing that gather and deliver news on industries that you select. Email notifications deliver News & Events on specific companies and products. It allows explicit customization through personal settings and will quickly become the smart way to start your workday.
+## What happens to my data?
 
-## Resources  
+We have no plans to retain customer data after the service ends on May 11, 2020.  
 
-For questions related to transitioning, please contact your Microsoft representative or partner, or email [MIEOL@microsoft.com](mailto:MIEOL@microsoft.com).
+## Where can I get support for additional inquiries?
+
+Customers and partners can email their inquiries to
+ [MIEOL@microsoft.com](mailto:MIEOL@microsoft.com).
+ 
