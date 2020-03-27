@@ -2,7 +2,7 @@
 title: "Accessibility for Market Insights | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Market Insights."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 11/04/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: c4e0ec5b-2b74-4805-9741-f0aae8501ec2
@@ -22,6 +22,8 @@ search.app:
 ---
 
 # Accessibility for [!INCLUDE[Dynamics 365 Market Insights](../includes/pn-market-insights-long.md)] Preview
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 
@@ -48,11 +50,11 @@ All tables in [!INCLUDE[Market Insights](../includes/pn-market-insights-short.md
 - A table has only one tab stop.
 - Each table row can have several cells. To move within a row, use the left and right arrow keys.
 - To move to the next row, use the up and down arrow keys. Focus will move the same cell type in the next row.
-- If a cell contains a single control, the focus will move to the control. Simply activate the control to interact with it. Example: “Remove” control to remove the item of that row.
+- If a cell contains a single control, the focus will move to the control. Simply activate the control to interact with it. Example: "Remove" control to remove the item of that row.
 
 ### Heighten color contrast of some text and images
 
-The high contrast setting in Windows heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the Ease of Access page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx), [Windows 8](https://www.microsoft.com/enable/products/windows8/default.aspx), and [Windows 7](https://www.microsoft.com/enable/products/windows7/default.aspx).
+The high contrast setting in Windows heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You'll find this setting on the Ease of Access page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx), [Windows 8](https://www.microsoft.com/enable/products/windows8/default.aspx), and [Windows 7](https://www.microsoft.com/enable/products/windows7/default.aspx).
 
 ### Enlarge the user interface with zooming in the browser
 
