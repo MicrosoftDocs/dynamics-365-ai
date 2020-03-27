@@ -1,7 +1,7 @@
 ---
 title: "End of service of Dynamics 365 Market Insights | Microsoft Docs"
 description: "Frequently asked questions about the end of service announcement for Market Insights."
-ms.date: 03/26/2020
+ms.date: 04/09/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -9,7 +9,7 @@ ms.author: mhart
 ms.custom: dyn365-ai-marketinsights
 ---
 
-# Frequently asked questions about the end of service Dynamics 365 Market Insights Preview  
+# Frequently asked questions about the end of service for Dynamics 365 Market Insights Preview  
 
 Market Insights Preview will no longer be available to new customers starting April 10, 2020. Service for all existing customers will end on May 11, 2020.
 
@@ -56,4 +56,3 @@ We have no plans to retain customer data after the service ends on May 11, 2020.
 
 Customers and partners can email their inquiries to
  [MIEOL@microsoft.com](mailto:MIEOL@microsoft.com).
- 
