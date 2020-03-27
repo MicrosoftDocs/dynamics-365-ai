@@ -11,9 +11,9 @@ manager: shujoshi
 
 # Create and manage sequences
 
-Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.<!--Suggested.-->
+Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 
-As a sales manager, you can use the sequence designer to:<!--Edit suggested. This paragraph seemed just to restate the introduction. -->
+As a sales manager, you can use the sequence designer to:
 
 - [Create and activate a sequence](#create-and-activate-a-sequence).
 - [Connect a sequence to records](#connect-a-sequence-to-records).
@@ -31,7 +31,7 @@ Before you start, be sure you have met the following prerequisites:
 
 ## Create and activate a sequence
 
-Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle leads and opportunities. This lets sellers concentrate on selling and gives them a better understanding of what to do next.<!--Edits suggested, to avoid a bit of repetitiveness. -->
+Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle leads and opportunities. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
 **To create and activate a sequence**
 
@@ -109,7 +109,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         > [!div class="mx-imgBorder"]
         > ![Add wait time](media/sequence-activity-set-wait-time-created.png "Add wait time")
 
-8. Select the **Add** icon, and then repeat steps 6 and 7<!--Do you really repeat step 6, or just step 7?--> for all the activities that you want to add to the sequence. 
+8. Select the **Add** icon, and then repeat **step 7** for all the activities that you want to add to the sequence. 
 
 9. Select **More options** in the upper-right corner of the page, and then select **Save**.
 
@@ -120,7 +120,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     >[!NOTE]
     >An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.  
     
-The sequence is activated and listed in the sequence designer home page.
+    The sequence is activated and listed in the sequence designer home page.
 
    > [!div class="mx-imgBorder"]
    > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page") 
@@ -150,7 +150,7 @@ After you create and activate the sequence for the selling process, you connect 
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")
 
     >[!NOTE]
-    >You can't connect a sequence to a record that has already been associated with a different sequence. You must remove the record from the sequence it's currently associated with, and then connect it to the sequence you want.<!--Edit okay? I found this a bit hard to parse. Maybe I didn't make it better.--> More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
+    >You can't connect a sequence to a record that has already been associated with a different sequence. You must remove the record from the sequence it's currently associated with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
 
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
 
@@ -225,14 +225,14 @@ If your organization changes its selling process, you might want to edit a seque
    
    - If the sequence is **Active**, select it, and then select **More options** > **Deactivate**. 
 
-4. Hover over the sequence, and then select **More options** > **Edit steps**<!--Screen shot just says **Edit**. -->.
+4. Hover over the sequence, and then select **More options** > **Edit**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Edit](media/sequence-edit-select-edit.png "Select Edit")
 
 5. Do one of the following:
 
-    - To add an activity, perform steps 6 and 7<!--or just step 7?--> from [Create and activate a sequence](#create-and-activate-a-sequence), earlier in this article.
+    - To add an activity, perform **step 7** from [Create and activate a sequence](#create-and-activate-a-sequence), earlier in this article.
     
     - To edit an activity, select **More options** > **Edit**.
 
@@ -241,7 +241,7 @@ If your organization changes its selling process, you might want to edit a seque
 
         Make the edits you want, and then select **Save**. 
 
-6. (Optional) If you want the sequence to be available to associate with<!--Edit okay? --> records, select **Activate**. 
+6. (Optional) If you want the sequence to be available to associate with records, select **Activate**. 
 
 7. Exit the sequence designer.
 
