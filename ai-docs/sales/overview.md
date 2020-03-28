@@ -62,6 +62,8 @@ The advanced Sales Insights features consist of the [free Sales Insights feature
 
 - **Who knows whom**: Provides details such as names and email addresses of your colleagues who know a lead that you are going to interact with. To learn more, see [How to get introduced to a lead](who-knows-whom.md). 
 
+- **Sales accelerator**: Helps sales teams in organizations to focus on high-velocity selling by a tailored experience for sellers by minimizing the time spent on identifying who is the next best customer to reach, gathering information across multiple sources, and focus on how approaching customers.  To learn more, see [What is sales accelerator](sales-accelerator-intro.md).
+
 - **Dynamics 365 assistant for Microsoft Teams**: Provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md). 
 
 ## Sales Insights application 
