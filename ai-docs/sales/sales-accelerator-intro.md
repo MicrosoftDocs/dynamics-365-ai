@@ -1,6 +1,6 @@
 ---
 title: "Understand what is sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand what is sales accelerator in Dynamics 365 Sales Insights."
+description: "Identify the best customer to contact next and prioritize sales activities by using the Sales accelerator in Dynamics 365 Sales Insights."
 ms.date: 04/01/2020
 ms.service: crm-online
 ms.topic: article
@@ -9,17 +9,17 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# What is sales accelerator 
+# What is the Sales accelerator? 
 
-Sales teams in organizations must focus on high-velocity selling. The sellers who are part of sales teams spend valuable time seeking who is the best customer in their list , navigating across multiple sources, identify who they need to engage with , when and how. 
+Sales teams in organizations must focus on high-velocity selling. The sellers who are part of these sales teams spend valuable time identifying the best customer in their customer list, navigating across multiple sources to identify who they need to engage with, when, and how. 
 
-To overcome this challenge, Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time spent on wondering who is the next best customer to reach, gathering information across multiple sources and focus on how approaching customers. Also, Sales accelerator helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process.
+To overcome this challenge, the Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. The Sales accelerator gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process.
 
-By using Sales accelerator:
+By using the Sales accelerator:
 
-- Sellers can prioritize their customer list in a fast and easy way through an intelligent work list . The   work list  helps to reach out to the next best lead or opportunity by displaying relevant sales information and customer context available immediately which make every communication more successful. To learn more, see [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md).
+- Sellers can prioritize their customer list in a fast and easy way by using an intelligent work list. The work list helps sellers reach out to the next best lead or opportunity by displaying relevant sales information and customer context that's available immediately, which helps make every communication more successful. More information: [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 
-- Sales managers can use the sequence designer to configure sequence which defines activity steps that help sellers to prioritize activities for the day, be productive in their job, and focus on selling. To learn more, see [Create and manage sequence](create-manage-sequences.md).
+- Sales managers can use the sequence designer to configure sequences of activities that define steps to help sellers prioritize their activities for the day, be productive in their jobs, and focus on selling. More information: [Create and manage sequences](create-manage-sequences.md)
 
 ### See also
 
