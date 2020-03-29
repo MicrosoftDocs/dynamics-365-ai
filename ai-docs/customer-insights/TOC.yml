@@ -17,10 +17,14 @@
   items:
     - name: Add data sources
       href: pm-data-sources.md
+    - name: Available data sources
+      href: data-sources-list.md
     - name: Learn about common connectors
       href: pm-common-connectors.md
     - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
+    - name: Incremental refresh for data sources
+      href: incremental-refresh-data-sources.md
     - name: Understand entities and datasets
       href: pm-entities.md
 
