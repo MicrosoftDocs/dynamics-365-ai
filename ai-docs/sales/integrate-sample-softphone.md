@@ -23,10 +23,10 @@ Organizations can integrate a softphone dialer from their telephony provider in 
 
 1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. More information: [How to get Dynamics 365 Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/get-channel-integration-framework)
 
-2. Integrate the [sample app available on the Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) by using Dynamics 365 Channel Integration Framework. More information: [Sample softphone integration using Dynamics 365 Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/sample-softphone-integration)
+2. Integrate the sample app (ChannelIntegrationFramework_Sample.zip) on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) by using Dynamics 365 Channel Integration Framework. More information: [Sample softphone integration using Dynamics 365 Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/sample-softphone-integration)
 
     > [!IMPORTANT]
-    > You must use the sample app from the [**Download Center link**](https://go.microsoft.com/fwlink/p/?linkid=2104590), and not the link that's mentioned in the "Sample softphone integration using Dynamics 365 Channel Integration Framework" article.
+    > You must use the sample app (ChannelIntegrationFramework_Sample.zip) from the [Download Center link](https://go.microsoft.com/fwlink/p/?linkid=2104590), and not the link that's mentioned in the "Sample softphone integration using Dynamics 365 Channel Integration Framework" article.
 
 3.  Configure the channel provider for your Dynamics 365 Sales organization. More information: [How to configure a channel provider for your Dynamics 365 organization](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework)
 
