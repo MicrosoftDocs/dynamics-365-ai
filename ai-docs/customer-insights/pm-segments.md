@@ -18,7 +18,7 @@ You can define complex filters around the Customer Profile entity and its relate
 
 Unless stated otherwise, all segments in Customer Insights are **Dynamic segments**, which are refreshed on a recurring schedule.
 
-The following example illustrates the depth of the Customer Insights segmentation capability. We've defined a segment for customers who ordered more than $500 of goods in the last 90 days *and* who were involved in a customer service call that got escalated.
+The following example illustrates the depth of the Customer Insights segmentation capability. We've defined a segment for customers who ordered at least $500 of goods in the last 90 days *and* who were involved in a customer service call that got escalated.
 
 > [!div class="mx-imgBorder"]
 > ![Multiple groups](media/segmentation-group1-2.png "Multiple groups")
@@ -39,7 +39,7 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 5. Choose the entity that includes the attribute you want to segment by.
 
-6. Choose the attribute by which you want to segment. The attribute can have one of four value types: numerical, string, date, or Boolean.
+6. Choose the attribute to segment by. This attribute can have one of four value types: numerical, string, date, or Boolean.
 
 7. Choose an operator and a value for the selected attribute.
 
@@ -53,7 +53,7 @@ Segments are managed on the **Segments** page in Customer Insights.
    |3    |Operator         |
    |4    |Value         |
 
-8. If the entity is connected to the unified customer entity through [relationships](pm-relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the drop down. Then, choose **All records** for each condition.
+8. If the entity is connected to the unified customer entity through [relationships](pm-relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
 
    > [!div class="mx-imgBorder"]
    > ![Relationship path during segment creation](media/segments-multiple-relationships.png "Relationship path during segment creation")
@@ -68,7 +68,7 @@ On the **Segments** page, you can view all your saved segments and manage them.
 
 Each segment is represented by a row that includes the segment's name, state, refresh status, member count, weekly member count change, and last refresh date and time.
 
-You can sort the segments in a column, by selecting a column heading.
+You can sort the segments in a column by selecting the column heading.
 
 Use the **Search** box in the top right corner to filter the segments.
 
@@ -80,7 +80,7 @@ Select a segment to perform the following options:
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** the segment to include the latest data.
-- **Activate** or **Deactivate** the segment. Alternatively, you an use the **Schedule later** functionality in the **Activate/Deactivate** drop-down to specify a future date and time for activation and deactivation of a particular segment.
+- **Activate** or **Deactivate** the segment. Alternatively, you an use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
 - **Download** the list of members in a segment as a .CSV file.
 - **Add to** sends the list of customer IDs in the segment for processing in another application.
@@ -94,7 +94,7 @@ You can refresh all segments at once by selecting **Refresh all** on the **Segme
 
 If not all requirements to process a segment are met, you can save the segment as a draft and access it from the **Segments** page.
 
-It will be saved as an inactive segment and you can't activate it until it's a valid segment. .
+It will be saved as an inactive segment, and can't be activated it until it's valid.
 
 ## Add more conditions to a group
 
@@ -111,7 +111,7 @@ It's currently possible to nest an **OR** operator under an **AND** operator, bu
 
 ## Combine multiple groups
 
-Each group produces a specific set of customers and you combine these groups to get include the customers you need for your business case.
+Each group produces a specific set of customers. You can combine these groups to include the customers required for your business case.
 
 1. Open a segment on the **Segments** page.
 
@@ -120,7 +120,7 @@ Each group produces a specific set of customers and you combine these groups to 
    > [!div class="mx-imgBorder"]
    > ![Customer group add group](media/customer-group-add-group.png "Customer group add group")
 
-3. Select one of the following set operators: **Union**, **Intersect**, or **Exclude**.
+3. Select one of the following set operators: **Union**, **Intersect**, or **Except**.
 
    > [!div class="mx-imgBorder"]
    > ![Customer group add union](media/customer-group-union.png "Customer group add union")
@@ -163,7 +163,7 @@ In addition to the segment builder, there's another path for creating segments i
    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
    - Select the **Intelligence** option to build a segment around one of the output entities you generated using either the **Predictions** or **Custom Models** capabilities.
 
-2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.
+2. In the **New quick segment** dialog box, select an attribute from the **Field** dropdown.
 
 3. The system will provide some additional insights that help you create better segments of your customers.
    - For categorical fields, we will show 10 top customer counts. Choose a **Value** and select **Review**.
@@ -185,7 +185,7 @@ For the following scenarios, we advise using the segment builder rather than the
 
 - Creating segments with filters on categorical fields where the operator is different than the **Is** operator
 - Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater than**, and **Less than** operators
-- Creating segments with filters on date type of fields
+- Creating segments with filters on date type fields
 
 ## Next steps
 
