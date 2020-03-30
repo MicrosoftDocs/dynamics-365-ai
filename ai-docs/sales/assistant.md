@@ -27,7 +27,7 @@ The assistant reminds you of upcoming activities, by:
 -	Alerting you when an opportunity is nearing its close date and much more.
   
 >[!NOTE]
->The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Assistant](configure-assistant.md).
+>The administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Assistant](configure-assistant.md).
 
 ## How and where the assistant can help you  
 
@@ -69,11 +69,11 @@ Typically, the insight cards are categorized into notifications and insights, wh
    >[!NOTE]
    >Custom insight cards created by your organization through Assistant Studio are displayed as reminders.
 
--	**Insight**: Displays custom insight cards that are generated using the Assistant Studio. For example, the suggestions include an email with a potential negative sentiment that puts an opportunity as risk, prioritize an opportunity, suggest a cross-sale, and prompt to look at auto capture recent items.
+-	**Insight**: Displays suggestions based on AI-driven models for things that requires your attention. For example, the suggestions include an email with a potential negative sentiment that puts an opportunity as risk, prioritize an opportunity, suggest a cross-sale, and prompt to look at auto capture recent items.
 
 ### Characteristics of assistant categories
 
-By default, latest five insight cards are displayed on the assistant in each category. Select Show more to view more available cards. The heading displays the total number of insight cards that are available for you or for the record you're associated with in each category.
+By default, top five insight cards are displayed on the assistant in each category. Select Show more to view more available cards. The heading displays the total number of insight cards that are available for you or for the record you're associated with in each category.
 
 In this example, we're viewing the **reminders** category. The heading specifies that there's a total of 13 reminders available and the latest five are displayed with basic information. 
 
