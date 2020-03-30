@@ -146,6 +146,21 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
     To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md).
 
+## Disable teasers
+
+The updates in Sales Insights are displayed to sellers  as teasers in the Assistant. By default, the teasers are enabled in your organization. However, you can disable if you don’t wish to display the teasers. To disable, follow these steps:
+
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
+
+2. On the site map, select **Overview**.
+
+3. Go to **Teasers** section and toggle the option to disable the teasers.
+
+    > [!div class="mx-imgBorder"]
+    > ![Disable teasers](media/disable-teasers.png "Disable teasers")
+
+    The teasers are disabled in your organization.
+
 ### See also
 
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)

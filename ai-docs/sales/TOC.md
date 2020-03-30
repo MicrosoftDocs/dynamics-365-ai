@@ -58,8 +58,12 @@
 ## User guide
 
 ### Assistant
-#### [Guide customer communications with assistant](assistant.md)
-#### [Stay updated with cards](action-cards-reference.md)
+#### [Guide customer communications with assistant](assistant-v1.md)
+#### [Stay updated with cards](action-cards-reference-v1.md)
+
+### Assistant version 2
+#### [Guide customer communications with assistant version 2](assistant.md)
+#### [Stay updated with cards in assistant version 2](action-cards-reference.md)
 
 ###	Productivity intelligence
 #### [View message interactions with email engagement](email-engagement.md)

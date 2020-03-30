@@ -16,6 +16,9 @@ caps.latest.revision: 22
 
 # Use the assistant to guide customer communications
 
+>[!IMPORTANT]
+>To benefit from the new features of Assistat version 2, opt-in for early access. More information: [How to enable early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
+
 The assistant (formerly known as relationship assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
 
 The assistant reminds you of upcoming activities, by:
