@@ -120,7 +120,7 @@ Each group produces a specific set of customers. You can combine these groups to
    > [!div class="mx-imgBorder"]
    > ![Customer group add group](media/customer-group-add-group.png "Customer group add group")
 
-3. Select one of the following set operators: **Union**, **Intersect**, or **Exclude**.
+3. Select one of the following set operators: **Union**, **Intersect**, or **Except**.
 
    > [!div class="mx-imgBorder"]
    > ![Customer group add union](media/customer-group-union.png "Customer group add union")
