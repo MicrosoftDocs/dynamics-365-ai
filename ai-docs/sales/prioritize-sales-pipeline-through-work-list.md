@@ -10,12 +10,20 @@ manager: shujoshi
 ---
 
 # Prioritize your sales pipeline by using the work list 
-<!--Edit to the H1 okay? -->
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
+
 During their workday, sellers need to juggle multiple tasks as they work on multiple leads and opportunities. As a result, it can be hard for them to plan and prioritize their customer-facing activities. The work list in the Sales accelerator for Dynamics 365 Sales Insights helps sellers prioritize their time and effort to ensure that important leads and opportunities aren't left behind. 
 
 The Sales accelerator work list gives sellers the following capabilities:
 
-- Manage and view records&mdash;such as leads and opportunities<!--"Such as" implies that other types of records can appear in the work list. Is this true? If not, "such as" is misleading.-->&mdash;that include the activities that are due to be performed that day, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)
+- Manage and view records&mdash; leads and opportunities&mdash;that include the activities that are due to be performed that day, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)
 
 - Manage the work list by sorting, filtering, and grouping all records. More information: [Filter records in the work list](#filter-records-in-work-list)
 
@@ -24,7 +32,7 @@ The Sales accelerator work list gives sellers the following capabilities:
 - Communicate with customers through phone and email. More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md)
 
 - Add manual activities to records in addition to those that have been defined in a sequence, if an ad-hoc activity is required. More information: [Add manual tasks to records](#add-manual-tasks-to-records)
-<!-- Okay to make this last sentence a note? Otherwise it kind of got lost.-->
+
 > [!NOTE]
 > The work list is configured by a sales manager who defines the sequence of activities for leads and opportunities by using the sequence designer. More information: [Create and manage sequences](create-manage-sequences.md)
 
@@ -42,7 +50,7 @@ Review the following prerequisites before you start using work lists:
 
 ## View my records by using the work list<a name="view-my-records-through-work-list"></a>
 
-The work list displays a list of records that are assigned to you or to the security role you're associated with. The records display activities that are due for the current date&mdash;or pending from previous dates&mdash;<!--Edit okay?-->that were created manually or through a sequence. This helps you to access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities (leads and opportunities) to display to you in the work list. The top of the record in the work list will always be the next best customer with the highest prediction score.
+The work list displays a list of records that are assigned to you or to the security role you're associated with. The records display activities that are due for the current date&mdash;or pending from previous dates&mdash;that were created manually or through a sequence. This helps you to access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities (leads and opportunities) to display to you in the work list. The top of the record in the work list will always be the next best customer with the highest prediction score.
 
 **To view the work list**
 
@@ -50,7 +58,7 @@ The work list displays a list of records that are assigned to you or to the secu
 
 2. From the site map, under **My Work**, select **Sales accelerator (preview)**. 
 
-    The work list page opens, as shown in the following example.<!--The table following this graphic is too focused on the features, though I understand why people are excited to reveal them to the public. These callout tables usually just consist of the callout number and a description, with no column headings, no "Feature" column, and no detailed procedural-type information like there is here. I suspect I'd get pushback on making any changes, but maybe a future iteration...?-->
+    The work list page opens, as shown in the following example.
 
     > [!div class="mx-imgBorder"]
     > ![Work list page](media/sa-worklist-page.png "Work list page")
@@ -115,7 +123,7 @@ Sort records by choosing a sort option. In the header, you can see the total num
 
     - **Newest on top** to view new records with the latest date to complete an activity the on top in ascending order.<!--Similarly, could this be something like "**Newest on top** to display the records that include activities with the most recent due times, sorted from the most recent to the oldest."--> 
 
-    For example, there are ten records available in your work list. The number of records for which you need to complete the activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option to sort by and **Newest on top** for the sort order, the records are sorted from the newest to oldest activity completion date into **Today**, **Yesterday**, and **Last 7 days**<!--Edit okay? I think "ascending order" can be ambiguous when it comes to dates. Going from today's date to yesterday's date is actually a descending order (i.e. the 27th to the 26th to the 25th...)-->.
+    For example, there are ten records available in your work list. The number of records for which you need to complete the activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option to sort by and **Newest on top** for the sort order, the records are sorted from the newest to oldest activity completion date into **Today**, **Yesterday**, and **Last 7 days**.
 
     By default, **Due time** and **Newest on top** are selected for sort order.
 
@@ -135,7 +143,7 @@ Using the **Up next** widget, you can view and perform actions on activities on 
 
 - In a sequence, a sales manager creates activities and applies them to the record according to business requirements. The activities in the sequence are displayed in the **Up next** widget.
 
-- For manual tasks, you or a sales manager can create a task on the timeline<!--Should this be "work list"?-->. The task is displayed in the **Up next** widget as an activity, depending on its due time. This activity is available to you and other sellers who have access to the record.
+- For manual tasks, you or a sales manager can create a task on the timeline. The task is displayed in the **Up next** widget as an activity, depending on its due time. This activity is available to you and other sellers who have access to the record.
 
 The following image shows an example of the **Up next** widget.
 
@@ -150,7 +158,7 @@ The following image shows an example of the **Up next** widget.
 
 2. **Upcoming activity**: The upcoming activity is view-only, and you can't perform an action. The upcoming activity is displayed so you know what activity will appear next when you complete the current activity.
 
-3. **Completed activities**: The completed activities are the activities that are marked as complete or skipped for a record.<!--Edit okay? It didn't seem accurate to say the record was moved to the completed items list.-->
+3. **Completed activities**: The completed activities are the activities that are marked as complete or skipped for a record.
     
     To view the completed activities list, select **Show completed**. The section expands to display the list of completed activities with details such as whether the activity was completed or was it skipped, with date and time. You can't perform any actions on these tasks; they're view-only. The following screen is an example of an expanded section of completed items.
 
