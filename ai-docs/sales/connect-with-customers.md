@@ -11,17 +11,17 @@ manager: shujoshi
 
 # Connect with customers by using a record or the Up next widget
 
-As a seller using Dynamics 365 Sales, you can connect with your customers daily by using multiple channels, such as phone and email, without losing context or needing to switch among multiple applications. When an activity for contacting customers through a phone call or email appears in a sequence, the corresponding phone or email icons are displayed in your **My work** list and the **Up next** widget. After you make the phone call or send the email, you mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
+As a seller using Dynamics 365 Sales, you can connect with your customers daily by using multiple channels, such as phone and email, without losing context or needing to switch among multiple applications. When an activity for contacting customers through a phone call or email appears in a sequence, the corresponding phone or email icons are displayed in your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) record and the [Up next](prioritize-sales-pipeline-through-work-list.md#understand-the-up-next-widget) widget. After you make the phone call or send the email, you mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
 
 If an activity isn't required to be completed by the due date or you're unable to connect with a customer, you can [skip or postpone the activity](#skip-or-postpone-an-activity).
 
 ## Call a customer
 
-You can make a phone call to your customer from the **My work** list or the **Up next** widget. The mobile phone number of the contact is used to initiate the call. If the mobile phone number isn't available, the softphone dialer is displayed so you can dial the number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the Phone Call activity as complete.
+You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The mobile phone number of the contact is used to initiate the call. If the mobile phone number isn't available, the softphone dialer is displayed so you can dial the number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the Phone Call activity as complete.
 
 When you make a phone call, a Phone Call activity is created and linked to the lead or opportunity. The Phone Call activity captures the following information:
 
-- **Subject**: Name of the task in the **Up next** widget.
+- **Subject**: Name of the activity in the **Up next** widget.
 - **Call From**: Name of the contact who made the call.
 - **Call To**: Name of the contact to whom the call is made.
 - **Phone Number**: Mobile phone number of the contact to whom the call is made.
@@ -46,7 +46,7 @@ Do either of the following:
 
 ## Send an email to a customer
 
-You can send an email to your customer from the **My work** list or the **Up next** widget. If the email address of a contact isn't available, a warning message is displayed. When you send an email, an Email activity is created and linked to the lead or opportunity.
+You can send an email to your customer from a record in the the **My work** list or an activity in the **Up next** widget. If the email address of a contact isn't available, a warning message is displayed. When you send an email, an Email activity is created and linked to the lead or opportunity.
 
 While composing an email, if you try to navigate to another record or send an email from another lead or opportunity, a warning message is displayed to save the email first.
 
@@ -97,4 +97,5 @@ The activity is skipped, and the next activity in the sequence is displayed.
 
 ### See also
 
-[Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
+[Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)<br>
+[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
