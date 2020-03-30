@@ -11,6 +11,13 @@ manager: shujoshi
 
 # Create and manage sequences
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 
 As a sales manager, you can use the sequence designer to:
@@ -27,7 +34,7 @@ Before you start, be sure you have met the following prerequisites:
 
 - You have the **Sequence Manager** security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
-- The sales accelerator has been enabled and installed in your organization. More information: [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md)<!--Please stand by for the final titles for these related articles and features. I'm still not sure what the nomenclature should be. I need to verify with the editing team what they've learned. The release notes call it the "sales acceleration feature," but I see that the UI calls it "sales accelerator." -->
+- The sales accelerator has been enabled and installed in your organization. More information: [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 ## Create and activate a sequence
 
@@ -61,7 +68,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Choose an activity](media/sequence-choose-activity.png "Choose an activity")
     
-    - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon<!--Edit okay?--> is displayed on the record. When a seller selects the icon, an email composer opens with a template if one was selected. If no template was selected, an empty email composer opens.
+    - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template if one was selected. If no template was selected, an empty email composer opens.
 
         > [!div class="mx-imgBorder"]
         > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity") 
@@ -87,7 +94,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         > [!div class="mx-imgBorder"]
         > ![Phone call activity](media/sequence-activity-phone-call-created.png "Phone call activity")
 
-    - **Task**: Creates a custom activity that you define, such as scheduling a meeting and <!--I don't know what the following clause means. What is the "activity selector"? If it's the screen shown at the beginning of this step, it does seem to have Task as one of its fields.-->meet the customer on the field that are not specified in the activity selector.
+    - **Task**: Creates a custom activity that you define, such as scheduling a meeting and meet the customer on the field that are not specified in the activity selector.
 
         > [!div class="mx-imgBorder"]
         > ![Add a custom task activity](media/sequence-activity-add-task.png "Add a custom task activity")
@@ -150,7 +157,7 @@ After you create and activate the sequence for the selling process, you connect 
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")
 
     >[!NOTE]
-    >You can't connect a sequence to a record that has already been associated with a different sequence. You must remove the record from the sequence it's currently associated with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
+    >You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
 
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
 
@@ -161,11 +168,11 @@ After you create and activate the sequence for the selling process, you connect 
 
 6. Select a sequence, and then select **Connect**.
 
-A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities associated with it.
+A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
 
 ## View details of a sequence and its connected records
 
-You can view the details of a sequence and the records associated with it. This view can also be used to remove records associated with the sequence.
+You can view the details of a sequence and the records connected with it. This view can also be used to remove records connected with the sequence.
 
 **To view details of a sequence and its connected records**
 
@@ -185,12 +192,12 @@ You can view the details of a sequence and the records associated with it. This 
     > [!div class="mx-imgBorder"]
     > ![Select properties](media/sequence-active-sequence-select-properties.png "Select properties")
 
-    The sequence opens in the **Summary** view. You can view the details of the sequence such as the name of the sequence, its owner, its status, the entity that the sequence is associated with, and the total number of activities defined in it.
+    The sequence opens in the **Summary** view. You can view the details of the sequence such as the name of the sequence, its owner, its status, the entity that the sequence is connected with, and the total number of activities defined in it.
 
     > [!div class="mx-imgBorder"]
     > ![Active sequence summary page](media/sequence-active-sequence-summary.png "Active sequence summary page")
     
-6. To view associated<!--Edit okay? We've called them "connected," "associated," and now "assigned." Is there a difference among these terms? If not, maybe we should just stick with "connected"?--> records, select the **Connected records** tab.
+6. To view connected records, select the **Connected records** tab.
 
     > [!div class="mx-imgBorder"]
     > ![View connected records](media/sequence-active-sequence-view-connected-records.png "View connected records")
@@ -241,13 +248,13 @@ If your organization changes its selling process, you might want to edit a seque
 
         Make the edits you want, and then select **Save**. 
 
-6. (Optional) If you want the sequence to be available to associate with records, select **Activate**. 
+6. (Optional) If you want the sequence to be available to connect with records, select **Activate**. 
 
 7. Exit the sequence designer.
 
 ## Delete a sequence
 
-You can delete sequences that your organization no longer needs, and they'll be deleted permanently from the app. You can delete active or inactive sequences. When you delete an active sequence, the records that were associated with the sequence will be disassociated from it.
+You can delete sequences that your organization no longer needs, and they'll be deleted permanently from the app. You can delete active or inactive sequences. When you delete an active sequence, the records that were connected with the sequence will be disconnected from it.
 
 **To delete a sequence**
 

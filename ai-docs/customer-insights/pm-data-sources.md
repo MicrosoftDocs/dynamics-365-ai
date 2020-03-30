@@ -1,7 +1,7 @@
 ---
 title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Bring data from various sources into Dynamics 365 Customer Insights."
-ms.date: 01/31/2020
+ms.date: 03/25/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 ms.assetid: 
@@ -13,9 +13,9 @@ manager: shellyha
 
 # Data sources
 
-Dynamics 365 Customer Insights lets you use your data from a wide range of data sources.
+Dynamics 365 Customer Insights lets you use your data from [a wide range of data sources](data-sources-list.md).
 
-Import data to Customer Insights with one of the many out-of-the-box connectors that are available for sources such as Dynamics 365 apps, Azure SQL databases, and Azure Blob storage. Even if you don’t find a suitable connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
+Import data to Customer Insights with one of the many [out-of-the-box connectors](data-sources-list.md) that are available for sources such as Dynamics 365 apps, Azure SQL databases, and Azure Blob storage. Even if you don't find a suitable connector for your source, you can export the data from your source as a CSV file and import it to Customer Insights with the CSV connector.
 
 ## Bring your data into Customer Insights
 
@@ -30,9 +30,12 @@ Import data to Customer Insights with one of the many out-of-the-box connectors 
 
 3. Provide a **Name** for the data source, and select **Save** to create the data source.
 
-4. Choose one of the available connectors. To load data from Dynamics 365 apps, choose the **Common Data Service** connector.
+4. Choose one of the [available connectors](data-sources-list.md). To load data from Dynamics 365 apps, choose the **Common Data Service** connector.
 
 5. Enter the required details for the selected connector. For more information about some of the most frequently used data sources (like Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).
+
+> [!NOTE]
+> If supported by the data source, you can [configure an incremental refresh](incremental-refresh-data-sources.md) to speed up the refresh process.
 
 ### Add, review, and transform entities
 
