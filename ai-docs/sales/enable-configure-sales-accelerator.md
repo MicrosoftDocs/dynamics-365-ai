@@ -11,7 +11,14 @@ manager: shujoshi
 
 # Enable and configure the Sales accelerator
 
-The Sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the Sales Hub app<!--edit okay? Not sure what the "work hub" is. -->. A sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. The sequence is then applied to leads or opportunities, and assigned to a seller automatically according to your organization's sales strategies.
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
+The Sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in Sales Hub app. A sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. The sequence is then applied to leads or opportunities, and assigned to a seller automatically according to your organization's sales strategies.
 
 As an administrator, you must enable and configure the Sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
@@ -37,7 +44,7 @@ For the best experience of the Sales accelerator, enable and configure [predicti
 
 ## Enable the preview
 
-The Sales accelerator is available as a preview feature<!--Edit okay?--> in Sales Insights<!--Edit okay? Is "sales insights" being used in a generic way in this article? If so, that seems very confusing, to use the name of an app this way.-->. You must enable the preview and accept the preview terms and conditions to use the Sales accelerator in your organization.
+The Sales accelerator is available as a preview feature in Sales Insights. You must enable the preview and accept the preview terms and conditions to use the Sales accelerator in your organization.
 
 1. Sign in to Dynamics 365 Sales Hub, and go to **Change area** > **Sales Insights settings**.
 
