@@ -74,14 +74,13 @@ This also helps in driving strategic motion by looking at the keywords, brands, 
 
 The following insights are available for you to understand what customers are talking about:
 
--	[Tracked keywords](#tracked-keywords)
-
 -	[Customer sentiment](#customer-sentiment)
 
--	[Brands detected](#brands-detected)
+-	[Tracked keywords](#tracked-keywords)
 
--	[Competitors mentioned](#competitors-mentioned)
+-	[Tracked competitors](#tracked-competitors)
 
+-	[Other brands and organizations](#other-brands-and-organizations)
 
 ### Customer sentiment
 
