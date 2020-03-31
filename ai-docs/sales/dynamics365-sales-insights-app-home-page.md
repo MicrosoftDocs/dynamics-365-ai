@@ -82,18 +82,6 @@ The following insights are available for you to understand what customers are ta
 
 -	[Competitors mentioned](#competitors-mentioned)
 
-### Tracked keywords
-
-This insight shows the tracked keywords that are defined in the application and that customers use the most during the sales calls. The application highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to them. 
-
-The following image is an example of how the tracked keyword insight is displayed:
-
-> [!div class="mx-imgBorder"]
-> ![Most tracked keywords](media/si-app-tracked-keywords.png "Most tracked keywords")
-
-In this example, you can see that 3D printing and Fused Filament are the trending keywords, so you will be able to define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords and the number of times that these keywords were mentioned in calls. The dark shaded bubbles represent the top trending keywords.
-
-You can define what keywords you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
 ### Customer sentiment
 
@@ -107,20 +95,32 @@ The following image is an example of how the customer sentiment insight is displ
 > [!div class="mx-imgBorder"]
 > ![Customer sentiment](media/si-app-customer-sentiment.png "Customer sentiment")
 
-In this example, you can see that 43% of calls have higher than the average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
+In this example, you can see that 200 calls are analyzed and 27% of calls have higher than the average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
 
-### Brands detected
-
-This insight helps to discover new products and brands that customers are speaking about in sales calls, which they never spoke of in previous calls. These brands and products are not defined in the application (tracked keywords and competitors), and the application uses Microsoft Bing's knowledge repository to identify the brands and products to display. Using this insight, you can identify if any competitor brands are mentioned on the sales calls and update your sales strategies accordingly.
-
-The following image is an example of how the brands detected insight is displayed:
+Select **Show details** to view more details on how the customer sentiment is trending over time and the list of calls that is contributing in analyzing the customer sentiment. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).  
 
 > [!div class="mx-imgBorder"]
-> ![New brands detected](media/si-app-brands-detected.png "New brands detected")
+> ![Customer sentiment more details page](media/si-app-customer-sentiment-details.png "Customer sentiment more details page")
 
-In this example, you can see that three brands (Northwind 3D, XYG Printer, and 3D Forge) are trending most in the sales calls. You can update the sales strategies to coach your sales teams to minimize the mention of these brands in the calls. The bubbles show the 20 brands that are used most and the number of times that these brands were mentioned in the calls. The dark shaded bubbles represent the top trending brands.
+### Tracked keywords
 
-### Competitors mentioned
+This insight shows the tracked keywords that are defined in the application and that customers use the most during the sales calls. The application highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to them. 
+
+The following image is an example of how the tracked keyword insight is displayed:
+
+> [!div class="mx-imgBorder"]
+> ![Most tracked keywords](media/si-app-tracked-keywords.png "Most tracked keywords")
+
+In this example, you can see that STL (+32%), Jewelers (+26%), and Fabrication (+23%) are most trending keywords, so you will be able to define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords and the number of times that these keywords were mentioned in calls. 
+
+You can define what keywords you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
+
+Select **Show details** to view more details on top trending keywords. The details, such as how many times that each keyword is mentioned in the total number of calls, trend of each keyword over the time, and the list of calls that is contributing in analyzing the keywords. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
+
+> [!div class="mx-imgBorder"]
+> ![Most tracked keywords more details page](media/si-app-tracked-keywords-details.png "Most tracked keywords more details page")
+
+### Tracked competitors
 
 This insight shows the defined competitors' names that customers use most and are trending upwards during the sales calls. The application highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to them.
 
@@ -129,9 +129,31 @@ The following image is an example of how the competitors mentioned insight is di
 > [!div class="mx-imgBorder"]
 > ![Competitors mentioned](media/si-app-competitors-mentioned.png "Competitors mentioned")
 
-In this example, you can see that 3D House and Contoso 360 are the trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the top 20 competitors and the number of times that these competitors were mentioned in the calls. The dark shaded bubbles represent the top trending competitors.
+In this example, you can see that Contoso 360 (+31%), Engravex (+26%), and Protosystem (+22%) are the most trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the top 20 competitors and the number of times that these competitors were mentioned in the calls. 
 
 You can define what competitors you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
+
+Select **Show details** to view more details on top trending competitors. The details, such as how many times that each competitor is mentioned in the total number of calls, trend of each competitors over the time, and the list of calls that is contributing in analyzing the competitors. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
+
+> [!div class="mx-imgBorder"]
+> ![Competitors mentioned more details page](media/si-app-competitors-mentioned-details.png "Competitors mentioned more details page")
+
+
+### Other brands and organizations
+
+This insight helps to discover new products, brands, and organizations that customers are speaking about in sales calls, which they never spoke of in previous calls. These products, brands, and organizations are not defined in the application (tracked keywords and competitors), and the application uses Microsoft Bing's knowledge repository to identify the products, brands, and organizations to display. Using this insight, you can identify if any competitor brands and organizations are mentioned on the sales calls and update your sales strategies accordingly.
+
+The following image is an example of how the brands and organizations detected insight is displayed:
+
+> [!div class="mx-imgBorder"]
+> ![New brands detected](media/si-app-brands-detected.png "New brands detected")
+
+In this example, you can see that three brands and organizations (Da Vinci 3D, MakerHouse, and Northwind 3D) are trending most in the sales calls. You can update the sales strategies to coach your sales teams to minimize the mention of these brands in the calls. The bubbles show the 20 brands that are used most and the number of times that these brands and organizations were mentioned in the calls. 
+
+Select **Show details** to view more details on top brands and organizations. The details, such as how many times that each brand and organization are mentioned in the total number of calls, trend of each brand and organization over the time, and the list of calls that is contributing in analyzing the brands and organizations. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
+
+> [!div class="mx-imgBorder"]
+> ![New brands detected more details page](media/si-app-brands-detected-details.png "New brands detected more details page")
 
 ## What characterizes top sellers?
 
@@ -141,9 +163,9 @@ By analyzing these insights, you can understand what makes the top sellers most 
 
 The following insights are available for you to understand what characterizes top sellers:
 
--	[Talk-to-listen ratio](#talk-to-listen-ratio)
+-	[Average talk to listen ratio](#average-talk-to-listen-ratio)
 
--	[What are they talking about](#what-are-they-talking-about)
+-	[Best practice keywords](#best-practice-keywords)
 
 -	[Customer sentiment](#customer-sentiment)
 
@@ -151,7 +173,7 @@ The following insights are available for you to understand what characterizes to
 
 -	[Engagement with customers](#engagement-with-customers)
 
-### Talk-to-listen ratio
+### Average talk to listen ratio
 
 This insight shows the average time top sellers spend talking verus listening to customers compared to the rest of the sales team. By analyzing this insight, you can understand what works for top sellers to close deals and generate revenue.
 
@@ -160,9 +182,11 @@ The following image is an example of how the talk-to-listen ratio insight is dis
 > [!div class="mx-imgBorder"]
 > ![Comparison of Talk-to-listen ratio](media/si-app-talk-to-listen-ratio.png "Comparison of Talk-to-listen ratio")
 
-In this example, you can observe that the top sellers talk (60%) more than listen (40%) to customers compared to the team’s average of talk (50%) to listen (50%). Through this insight, you can learn that talking more is helping the top seller generate revenue, and you can make it as a best practice for other sellers to follow.
+In this example, you can observe that the top sellers talk (59%) more than listen (41%) to customers compared to the team’s average of talk (61%) to listen (39%). Through this insight, you can learn that talking more is helping the top seller generate revenue, and you can make it as a best practice for other sellers to follow.
 
-### What are they talking about
+Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's talk verus listen ratio with customers.
+
+### Best practice keywords
 
 This insight shows the keywords that are used by the top sellers use more frequently in conversations with customers. By analyzing this insight, you can understand what words the top sellers use that helps them to close deals and generate revenue.
 
@@ -171,7 +195,12 @@ The following image is an example of how the what are they talking about insight
 > [!div class="mx-imgBorder"]
 > ![Keywords top sellers are talking about](media/si-app-what-they-are-talking-about.png "Keywords that top sellers are talking about")
 
-In this example, you can see that **Next steps**, **Discount**, and **VIP** are the top words mentioned by your top sellers. The bubbles show the top 20 keywords that are trending and the number of times that these keywords were mentioned in the calls. The dark shaded bubbles are the most trending keywords.
+In this example, you can see that **Discount**, **VIP**, and **Fabrication** are the top words mentioned by your top sellers. The bubbles show the top 20 keywords that are trending and the number of times that these keywords were mentioned in the calls. 
+
+Select **Show details** to view more details on top best practice keywords. The details, such as how many times that each best practice keyword is mentioned in the total number of calls, trend of each best practice keyword over the time, and the list of calls that is contributing in analyzing the keywords. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
+
+> [!div class="mx-imgBorder"]
+> ![Keywords that top sellers are talking about more details page](media/si-app-what-they-are-talking-about-details.png "Keywords that top sellers are talking about more details page")
 
 ### Customer sentiment
 
@@ -182,7 +211,9 @@ The following image is an example of how the customer sentiment insight is displ
 > [!div class="mx-imgBorder"]
 > ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png "Comparison of customer sentiment")
 
-In this example, you can see that top sellers (42%) are driving more negative customer sentiment compared to that of your team (28%). This indicates that top sellers may be asking more questions to identify the customer's pain points in order to resolve them to key out selling opportunities.
+In this example, you can see that top sellers (28%) are driving more negative customer sentiment compared to that of your team (26%). This indicates that top sellers may be asking more questions to identify the customer's pain points in order to resolve them to key out selling opportunities.
+
+Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on customer sentiment.
 
 ### Switch rate
 
@@ -193,7 +224,9 @@ The following image is an example of how the switch rate insight is displayed:
 > [!div class="mx-imgBorder"]
 > ![Switch rate of talk to listen](media/si-app-switch-rate.png "Switch rate of talk to listen")
 
-In this example, you can see that top seller (45 per hour) is switching more during the conversation with customers than the team average (37 per hour). Through this, you can identify coaching opportunities for the other sellers to improve on switch rates during customer conversations.
+In this example, you can see that top seller (33 per hour) is switching less during the conversation with customers than the team average (34 per hour). Through this, you can identify coaching opportunities for the other sellers to improve on switch rates during customer conversations.
+
+Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's switch rates with customers compared to the team's average.
 
 ### Engagement with customers
 
