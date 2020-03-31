@@ -85,4 +85,4 @@ Action cards are made up of the following elements, as labeled in the figure:
 
 [Configure Assistant](configure-assistant.md)
 
-[Action cards reference](action-cards-reference.md)
+[Action cards reference](action-cards-reference-v1.md)

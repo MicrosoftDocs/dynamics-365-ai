@@ -280,7 +280,7 @@ If you see an alert about having insufficient permissions to use an Insight card
 3. Choose the **Core Records** tab.
 4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.
 
-![Insight card security role privilege](media/action-card-permissions600-v1.png)
+![Insight card security role privilege](media/action-card-permissions600.png)
  
 <a name="BKMK_Privacy"></a>   
 
