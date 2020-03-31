@@ -39,7 +39,7 @@ The administrator must enable auto capture before you can try it out. For comple
   
 As you drill down into specific records, such as an opportunity or contact, the assistant displays only those cards that are related to the record you are working with. As on the front-page dashboard, the assistant typically opens by showing a carousel, and includes an **Assistant** tab in the center column, which you can open to scroll through all the available cards for the current record.  
   
-![Action card example](media/action-card-example.png "Action card example")  
+![Action card example](media/action-card-example-v1.png "Action card example")  
   
 Action cards are made up of the following elements, as labeled in the figure:  
   
