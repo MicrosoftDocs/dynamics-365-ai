@@ -25,6 +25,8 @@
       href: connect-common-data-model-folder.md
     - name: Understand entities and datasets
       href: pm-entities.md
+    - name: Real-time data ingestion
+      href: pm-real-time.md
 
 - name: Data unification
   items: 
