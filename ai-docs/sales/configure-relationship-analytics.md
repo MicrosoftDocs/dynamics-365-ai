@@ -81,12 +81,12 @@ To enable Dynamics 365 Sales Insights – Analytics, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")
 
-2. Select **Settings** > **Services & add-ins** > **Dynamics 365 Sales Insights – Analytics**.
+2. Select **Settings** > **Settings** > **Dynamics 365 Sales Insights – Analytics**.
 
     > [!div class="mx-imgBorder"]
     > ![Select customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")
 
-3. Read the description and configure the Dynamics 365 Sales Insights – Analytics settings as **on** and select **Save**.
+3. Read the description carefully, then select the **Allow org data to be used by ‎Dynamics 365 Sales Insights - Analytics**‎ option and select **Save changes**.
 
     > [!div class="mx-imgBorder"]
     > ![Enable and save customer insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")
