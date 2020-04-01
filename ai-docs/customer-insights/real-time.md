@@ -26,12 +26,16 @@ This service lets you publish a new [activity](#pm-activities) from your source 
 
 You can achieve this by building your own pipeline and connect directly to the Customer Insights real-time API.
 
-*Note*
 
-*Activities do not change once created. They are only deleted when the profile is deleted.
-Activities ingested through the real-time API are only kept for 30 days. If you want them to be included in Customer Insights for longer you should ensure that they also get added to the data source.
-At the moment the unified profile, including segments and enrichments, will not be updated based on the new activity. The same goes for the Customer Card. 
-Activities added only through real-time are not part of exports, and do not show up in PowerBI.*
+> [!NOTE]
+>
+> Activities do not change once created. They are only deleted when the profile is deleted.
+
+> Activities ingested through the real-time API are only kept for 30 days. If you want them to be included in Customer Insights for longer you should ensure that they also get added to the data source.
+  
+> At the moment the unified profile, including segments and enrichments, will not be updated based on the new activity. The same goes for the Customer Card.
+
+> Activities added only through real-time are not part of exports, and do not show up in PowerBI.
 
 
 ## How to connect directly to the real-time API?
@@ -57,10 +61,11 @@ In order to find this specific entity name format navigate to **data** then **En
 
 5.	Under entity (request body) enter the new activity as a json object.
 
-*Note*
+> [!NOTE]
+>
+> The format of the entity sent in the request body is the same as the one received when doing a GET on this resource.
 
-*The format of the entity sent in the request body is the same as the one received when doing a GET on this resource.
-All the fields of the json object sent in the request body to the POST can be seen in the Fields tab on the selected entity page.*
+> All the fields of the json object sent in the request body to the POST can be seen in the Fields tab on the selected entity page.*
 
    > [!div class="mx-imgBorder"]
    > ![Fields](media/Fields.png "Fields entity tab in the entity page in Customer Insights.")
