@@ -109,7 +109,7 @@ The following cards are available under **Insights**.
 <table class="tg">
   <tr>
     <td><a href="#IssueDetected">Issue detected</a></td>
-    <td><a href="#StakeHolderRecommendation">Stakeholder recommendation</a></td>
+    <td><a href="#SuggestedStakeholder">Suggested stakeholder</a></td>
     <td><a href="#CompetitorMentioned">Competitor mentioned</a></td> 
   </tr>
   <tr>
