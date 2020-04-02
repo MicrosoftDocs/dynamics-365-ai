@@ -47,7 +47,7 @@ The assistant works by analyzing the data at its disposal and generating a colle
 
 - **Dashboards**: The following image shows an assistant widget displayed on the **Sales Activity Social Dashboard**.
 
-- **Entities**: An assistant widget displays insight cards related to the following entities: accounts, contacts, leads, opportunities, and cases. The following image is an example of an assistant widget displayed on an entity<!--I deleted "dashboards and" because you imply in the next section that the widget looks the same on the nav bar and dashboards, but different on entity records. In the following image, can you use another name besides Nancy Miller? (Unless she's part of sample data.) Also, please use a different street address. The CELA guidelines say "For street addresses, you should use sequential numbers, common street names, and incorrect zip codes." I recommend something like 3456 Elm Dr. The zip code is fine as it is because it's not valid for Menlo Park.-->.
+- **Entities**: An assistant widget displays insight cards related to the following entities: accounts, contacts, leads, opportunities, and cases. The following image is an example of an assistant widget displayed on an entity.
 
    > [!div class="mx-imgBorder"]
    > ![Assistant widget on an entity record](media/assistant-widget-entities.png "Assistant widget on an entity record")
