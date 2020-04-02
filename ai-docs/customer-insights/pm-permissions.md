@@ -50,7 +50,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 2. In the **Select** field, find the user or group whose permissions you want to adjust. Choose a **Role** to assign to that user or group.
 
-3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. This user or these users will be able to enter the Customer Insights app and perform actions according to their specified role.
+3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. Users can access the Customer Insights app and perform actions according to their specified role.
 
 ## View current permissions
 
