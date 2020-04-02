@@ -1,6 +1,6 @@
 ---
 title: "Teams bot | Microsoft Docs"
-description: "Get a consolidated view on you unified customer profiles in Dynamics 365 Customer Insights."
+description: "Look up unified customer profiles from Customer Insights in Microsoft Teams with the help of a bot."
 ms.date: 02/04/2020
 ms.reviewer: sthe
 ms.service: dynamics-365-ai
@@ -9,7 +9,7 @@ author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
-# Connect Microsoft Teams with Customer Insights 
+# Work with the Customer Insights Teams bot  
 You can now connect Dynamics 365 Customer Insights with Microsoft Teams, so that you and your employees can consume unified customer profiles with the help of a bot in Microsoft Teams. 
 ## Prerequisites
 In order to configure Dynamics 365 Customer Insights in Microsoft Teams, make sure 
