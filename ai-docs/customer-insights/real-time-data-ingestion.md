@@ -1,7 +1,7 @@
 ---
 title: "Real-time data ingestion for Dynamics 365 Customer Insights | Microsoft Docs"
 description: "General information about real-time capabilities in Customer Insights."
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -18,22 +18,20 @@ The near real-time functionality lets you see the latest interactions that your 
 
 The real-time feature can be implemented by building your own pipeline and connect directly to the Customer Insights real-time API.
 
-This service lets you publish a new [activity](pm-activities.md) from your source system (an **individual** source record) to a [unified customer profile](pm-profiles.md) in Customer Insights, within **seconds**. In data processing terminology this is called a **point update**.
+This service lets you publish a new [activity](pm-activities.md) from your source system (an *individual* source record) to a [unified customer profile](pm-profiles.md) in Customer Insights, within *seconds*. They are referred to as *real-time updates*.
 
-By opposition, the standard, scheduled Customer Insights updates encompass a **large number** of data records (thousands to 100’s of million), are processed in bulk and take **much longer time**. Those are referred to as **batch updates**.
+On the other hand, the refreshes in Customer Insights include a *large number* of records. They are processed in bulk and take *much longer*. Those are referred to as *scheduled refreshes*.
 
-This distinction is important: point updates are not a replacement for batch updates.
+This distinction is important. Real-time updates are not a replacement for scheduled refreshes.
 
 For example, activities ingested through the real-time API will only be kept for 30 days. If you want them to be included in Customer Insights for longer you should ensure that they also get added to the data source, so that they get ported during the next scheduled batch update of Customer Insights.
 
-Likewise, activities added only through real-time are not part of exports and won’t show up in PowerBI.
-
+Following the same logic, activities added only through the real-time API are not part of exports and won't show up in PowerBI either.
 
 > [!NOTE]
 >
 > - Activities don't change once created. They are only deleted when the profile is deleted.
-> > - Currently, the unified profile and the customer card, including segments and enrichments, won't update based on the new activity.
-
+> - Currently, the unified profile and the customer card, including segments and enrichments, won't update based on the new activity.
 
 ## Connect directly to the real-time API
 
