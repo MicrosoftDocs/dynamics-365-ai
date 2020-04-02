@@ -74,7 +74,7 @@
     - name: Dynamics 365 Marketing
       href: export-dynamics365-marketing.md
     - name: Dynamics 365 Sales
-      href: export-dynamics365-sales
+      href: export-dynamics365-sales.md
     - name: Dynamics 365 Sales Hub add-in
       href: pm-customer-card-addin.md
     - name: Power BI
