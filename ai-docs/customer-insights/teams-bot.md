@@ -2,20 +2,20 @@
 title: "Teams bot | Microsoft Docs"
 description: "Look up unified customer profiles from Customer Insights in Microsoft Teams with the help of a bot."
 ms.date: 02/04/2020
-ms.reviewer: sthe
+ms.reviewer: mhart
 ms.service: dynamics-365-ai
-ms.topic: "get-started-article"
-author: m-hartmann
-ms.author: mhart
+ms.topic: "teams-bot"
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
 ---
 # Work with the Customer Insights Teams bot  
 You can now connect Dynamics 365 Customer Insights with Microsoft Teams, so that you and your employees can consume unified customer profiles with the help of a bot in Microsoft Teams. 
 ## Prerequisites
 In order to configure Dynamics 365 Customer Insights in Microsoft Teams, make sure 
-* you’ve created at least one data source within the **Data Sources** page 
-* you’ve completed the M3 process.[link] 
-* You’ve configured fields to be indexed for search. [link]
+* you’ve created at least one data source within the **Data Sources** page. 
+* you’ve completed the [unification process](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-configure-data). 
+* You’ve added fields to the [search and filter index](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-manage-search).
 * You have access to both Customer Insights and to Microsoft Teams on the same tenant. 
 
 ## How to configure the bot
