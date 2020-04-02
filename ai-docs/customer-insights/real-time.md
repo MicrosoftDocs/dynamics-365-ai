@@ -47,7 +47,7 @@ Prerequisites: have an instance with activities (only activities set up in the *
 To find the entity name format, go to **Data** > **Entities** and select the entity you want to use.
 
    > [!div class="mx-imgBorder"]
-   > ![Entity name](media/EntityName.png "The specific entity name format.")
+   > ![Entity name format](media/real-time-entity.png "Entity name format")
 
 5. Under entity (request body) enter the new activity as a json object. The format of the entity in the request body is the same as the one received when performing a GET call on this resource.
 
