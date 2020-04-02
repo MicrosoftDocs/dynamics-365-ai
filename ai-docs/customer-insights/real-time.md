@@ -1,64 +1,57 @@
 ---
 title: "Real-time data ingestion for Dynamics 365 Customer Insights | Microsoft Docs"
-description: "Generalities about Customer Insights' real time capabilities"
-ms.date: 04/1/2020
-ms.reviewer: 
+description: "General information about real-time capabilities in Customer Insights."
+ms.date: 04/01/2020
+ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "article"
-author: David Saturnin
+author: adasatu
 ms.author: a-dasatu
-manager: marcinzi
+manager: shellyha
 ---
 
 # Real-time data ingestion
 
-
-The near real-time functionality let you see the latest interactions that your customers have made with your products or company services.
-
-**In this article**
-- [Real-time creation of activities](#Real-time-creation-of-activities-on-the-unified-customer-profile)
-- [Connecting to the real-time API](#How-to-connect-directly-to-the-real-time-API?)
-
+The near real-time functionality lets you see the latest interactions that your customers have made with your products or services.
 
 ## Real-time creation of activities
 
-This service lets you publish a new [activity](#pm-activities) from your source system to a [unified customer profile](#pm-profiles) in Customer Insights, without having to wait for the next scheduled CI update.
+This service lets you publish a new [activity](pm-activities.md) from your source system to a [unified customer profile](pm-profiles.md) in Customer Insights, without having to wait for the next scheduled data refresh.
 
 You can achieve this by building your own pipeline and connect directly to the Customer Insights real-time API.
 
-Please note that:
-- Activities do not change once created. They are only deleted when the profile is deleted.
-- Activities ingested through the real-time API are only kept for 30 days. If you want them to be included in Customer Insights for longer you should ensure that they also get added to the data source.
-- At the moment the unified profile, including segments and enrichments, will not be updated based on the new activity. The same goes for the Customer Card.
-- Activities added only through real-time are not part of exports, and do not show up in PowerBI.
+> [!NOTE]
+>
+> - Activities don't change once created. They are only deleted when the profile is deleted.
+> - Activities ingested through the real-time API are only kept for 30 days. If you want them to be included in Customer Insights for longer, add them to the data source.
+> - Currently, the unified profile and the customer card, including segments and enrichments, won't update based on the new activity.
+> - Activities added only through the real-time API aren't included in an exported data set.
 
+## Connect directly to the real-time API
 
-## How to connect directly to the real-time API?
+Details of this API, including parameters and responses, can be found in the **RealTime** section on the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html). [Learn more about how to use the Customer Insights Swagger webpage](pm-apis.md#how-to-use-the-customer-insights-swagger-webpage).
 
-Details of this API, including parameters and responses, can be found on the [How to use the Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html). Read more about Swagger under [How to use the Customer Insights Swagger webpage](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-apis#how-to-use-the-customer-insights-swagger-webpage).
-For further explanations around the real-time functionality, see this section of our API documentation page.
+### Example of a call to the real-time API
 
-**Step by step example of a call to the API**
+Prerequisites: have an instance with activities (only activities set up in the **activities screen** can be received by Customer Insights in real-time). To add an activity, an entity with date/time type fields is required.
 
-Prerequisites: have an instance with activities (only activities set up in the **activities screen** can be received by Customer Insights in real-time). In order to be able to add an activity, an entity with date/time base fields should be available.
+1. Go to the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
-1.	Navigate to the online API tool [Swagger](https://global.api.ci.ai.dynamics.com/swagger/index.html).
+2. On that page, go to the **EntityData** section and select **POST** /api/instances/{instanceId}/data/{entityName}. 
 
-2.	On that page, find **POST** /api/instances/{instanceId}/data/{entityName}
+3. Select **Try it out**.
 
-3. In the field **instanceId**, enter your instance ID (it can either be found in your url, after **instanceId=**, or under **settings**, **environments**).
+3. In the field **instanceId**, enter your instance ID which you find in the URL of your Cusomter Insights instance, or in **Settings** > **Environments**.
 
-4.	Under relative path, enter the name of the entity you chose, following this format: **datasourcename_entityname**
-In order to find this specific entity name format navigate to **data** then **Entities** and click on the chosen entity (e.g. in CIIAD you could click on “eCommercePurchases” and use the title “eCommerce” and the subtitle “eCommercePurchase”s, separated by underscore, like this: eCommerce_eCommercePurchases).
+4. Under relative path, enter the name of the entity you chose, following this format: **DataSource_EntityName**.    
+To find the entity name format, go to **Data** > **Entities** and select the entity you want to use.
 
    > [!div class="mx-imgBorder"]
    > ![Entity name](media/EntityName.png "The specific entity name format.")
 
-5.	Under entity (request body) enter the new activity as a json object.
+5. Under entity (request body) enter the new activity as a json object. The format of the entity in the request body is the same as the one received when performing a GET call on this resource.
 
-Please note that:
-- The format of the entity sent in the request body is the same as the one received when doing a GET on this resource.
-- All the fields of the json object sent in the request body to the POST can be seen in the Fields tab on the selected entity page.
+   All the fields of the json object sent in the request body can be seen in the **Fields** tab on the selected entity in **Data** > **Entities**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Fields](media/Fields.png "Fields entity tab in the entity page in Customer Insights.")
+   <!--- >> [!div class="mx-imgBorder"]
+   > ![Fields](media/Fields.png "Fields entity tab in the entity page in Customer Insights.") --->
