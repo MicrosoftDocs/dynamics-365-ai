@@ -65,17 +65,23 @@
 
 - name: Export options
   items: 
-    - name: Export segments
-      href: segment-export.md
-    - name: Set up export destinations
+    - name: Discover export destinations
       href: export-destinations.md
-    - name: Install the Customer Card Add-in 
+    - name: Azure Blob Storage
+      href: export-azure-blob-storage.md
+    - name: Dynamics 365 Customer Service add-in
       href: pm-customer-card-addin.md
-    - name: Configure the Power BI connector
+    - name: Dynamics 365 Marketing
+      href: export-dynamics365-marketing.md
+    - name: Dynamics 365 Sales
+      href: export-dynamics365-sales
+    - name: Dynamics 365 Sales Hub add-in
+      href: pm-customer-card-addin.md
+    - name: Power BI
       href: pm-connectors.md
-    - name: Configure the Power Apps connector
+    - name: Power Apps
       href: pm-powerapps-connector.md
-    - name: Configure the Power Automate connector
+    - name: Power Automate
       href: power-automate-connector.md
 
 - name: Administration
