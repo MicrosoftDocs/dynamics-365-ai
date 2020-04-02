@@ -30,17 +30,21 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Understand if your opportunities and leads are losing momentum and be on top them to convert into deals. To learn more, see [Are my team’s deals on track?](dynamics365-sales-insights-app-home-page.md#are-my-teams-deals-on-track) 
 
--	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers<!--, and the sales pipeline for the timeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).
+-	View and compare what’s happening in sales calls and insights on the behaviors of your top sellers. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
--	View team’s insights, customer sentiment, and team’s conversational style<!--, and sales pipeline-->. To learn more, see [View team information](conversation-intelligence-team-overview.md).
+-	View team’s insights, customer sentiment, and team’s conversational style. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
--	View and understand an individual seller’s conversation style<!--, sales pipeline-->, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
+-	View and understand an individual seller’s conversation style, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
 
 -	View insights on the status of your current sales period such as the sum of actual revenue, total estimated revenues, total deals won, and the average revenue generated. To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
+
+-	Listen to conversation and read transcript to get action items, signals, and business-critical insights. To learn more, see [call summary page]().  
 
 **As a seller, you can:**
 
 -	View your conversation insights, customer sentiment, conversations style, sales pipeline, and call history. To learn more,  see [View sales rep information](conversation-intelligence-seller-details.md).
+
+-	Listen to conversation and read transcript to get action items, signals, and business-critical insights. To learn more, see [call summary page](). 
 
 **As an administrator, you can:**
 
@@ -53,7 +57,9 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
--	Enable preview for natural language Q&A. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
+-	
+
+
 
 
 The next sections describe:
@@ -71,13 +77,7 @@ Before you start using the application, we suggest you review the following requ
 
 -	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management). 
 
-<!-- - Verify that the fiscal year period is configured for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with fiscal year settings](/dynamics365/customer-engagement/admin/work-fiscal-year-settings)-->
-
 - As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
-
-<!-- - As a sales manager, verify that goals are defined for sellers or individuals in your hierarchy.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a goal (Sales and Sales Hub)](/dynamics365/customer-engagement/sales-enterprise/create-edit-goal-sales)
-    >[!NOTE]
-    >While defining goals, ensure that **Goal Metric** parameter is configured as **Revenue**. -->
 
 ## How to get the Dynamics 365 Sales Insights application
 
