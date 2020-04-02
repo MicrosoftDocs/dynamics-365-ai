@@ -16,16 +16,24 @@ The near real-time functionality lets you see the latest interactions that your 
 
 ## Real-time creation of activities
 
-This service lets you publish a new [activity](pm-activities.md) from your source system to a [unified customer profile](pm-profiles.md) in Customer Insights, without having to wait for the next scheduled data refresh.
+The real-time feature can be implemented by building your own pipeline and connect directly to the Customer Insights real-time API.
 
-You can achieve this by building your own pipeline and connect directly to the Customer Insights real-time API.
+This service lets you publish a new [activity](pm-activities.md) from your source system (an **individual** source record) to a [unified customer profile](pm-profiles.md) in Customer Insights, within **seconds**. In data processing terminology this is called a **point update**.
+
+By opposition, the standard, scheduled Customer Insights updates encompass a **large number** of data records (thousands to 100’s of million), are processed in bulk and take **much longer time**. Those are referred to as **batch updates**.
+
+This distinction is important: point updates are not a replacement for batch updates.
+
+For example, activities ingested through the real-time API will only be kept for 30 days. If you want them to be included in Customer Insights for longer you should ensure that they also get added to the data source, so that they get ported during the next scheduled batch update of Customer Insights.
+
+Likewise, activities added only through real-time are not part of exports and won’t show up in PowerBI.
+
 
 > [!NOTE]
 >
 > - Activities don't change once created. They are only deleted when the profile is deleted.
-> - Activities ingested through the real-time API are only kept for 30 days. If you want them to be included in Customer Insights for longer, add them to the data source.
-> - Currently, the unified profile and the customer card, including segments and enrichments, won't update based on the new activity.
-> - Activities added only through the real-time API aren't included in an exported data set.
+> > - Currently, the unified profile and the customer card, including segments and enrichments, won't update based on the new activity.
+
 
 ## Connect directly to the real-time API
 
