@@ -37,7 +37,7 @@ Prerequisites: have an instance with activities (only activities set up in the *
 
 1. Go to the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
-2. On that page, go to the **EntityData** section and select **POST** /api/instances/{instanceId}/data/{entityName}. 
+2. On that page, go to the **EntityData** section and select **POST** /api/instances/{instanceId}/data/{entityName}.
 
 3. Select **Try it out**.
 
@@ -52,6 +52,3 @@ To find the entity name format, go to **Data** > **Entities** and select the ent
 5. Under entity (request body) enter the new activity as a json object. The format of the entity in the request body is the same as the one received when performing a GET call on this resource.
 
    All the fields of the json object sent in the request body can be seen in the **Fields** tab on the selected entity in **Data** > **Entities**.
-
-   <!--- >> [!div class="mx-imgBorder"]
-   > ![Fields](media/Fields.png "Fields entity tab in the entity page in Customer Insights.") --->
