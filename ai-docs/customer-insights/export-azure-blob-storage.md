@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to an Azure Blob storage | Microsoft Docs"
 description: "Learn how to configure the connection to Azure Blob storage."
-ms.date: 04/02/2020
+ms.date: 04/03/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Connector to Azure Blob storage
 
-VALUE PROP and CATEGORIZATION
+Store your Customer Insights data in an Azure Blob or use it to transfer your data to other applications.
 
 ## Configure the connector to Azure Blob storage
 
@@ -39,4 +39,4 @@ Exported data is stored in the Azure Blob storage container you configured. The 
 
 ## Export the data
 
-You can [export data on demand](export-destinations.md), or in [scheduled intervals](pm-settings.md#schedule-tab).
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
