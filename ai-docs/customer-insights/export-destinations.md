@@ -1,7 +1,7 @@
 ---
 title: "Export destinations | Microsoft Docs"
 description: "The Export destinations page lets you export data and manage destinations for exporting data."
-ms.date: 02/05/2020
+ms.date: 04/03/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -25,46 +25,42 @@ Go to **Admin** > **Export destinations** to find the following extensibility op
 - [Azure Blob Storage](export-azure-blob-storage.md)
 - [Customer Insights API](pm-apis.md)
 
-## Add a new Export destination
+## Add a new export destination
 
-To add or edit export destinations, you'll need to be an administrator of your Dynamics 365 Customer Insights instance.
+To add destinations, you'll need to be an administrator of your Dynamics 365 Customer Insights instance.
 
+1. Go to **Admin** > **Export destinations**.
 
+1. Switch to the **My export destinations** tab.
 
-### Dynamics 365 Sales
+1. Select **Add destination** to create a new export destination.
 
-1. On the **Export destinations** page, select **Add destination**.
+1. In the **Add destination** pane, select the **Type** of export destination in the drop down.
 
-2. Choose **Dynamics 365 Sales** in the **Type** drop-down list.
+1. Provide the required details and select **Next** to create the export destination.
 
-3. Define your Dynamics 365 Sales URL in **Server address**, select **Sign in**, and select a Dynamics 365 Sales account.
+Alternatively, you can select **Set up** on a tile on the **Discover** tab.
 
-   > [!div class="mx-imgBorder"]
-   > ![Add destination page](media/export-destinations-dynamics365-for-sales.png "Add destination page")
-
-4. Give your destination a recognizable name in **Display name**.
-
-5. Select **Add**.
-
-### Dynamics 365 Marketing
-
-1. On the **Export destinations** page, select **Add destination**.
-
-2. Choose **Dynamics 365 Marketing** in the **Type** drop-down list.
-
-3. Define your Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and select a Dynamics 365 Marketing account.
-
-4. Give your destination a recognizable name in **Display name**.
-
-5. Select **Add**.
+For more details about a specific connectors, refer to the detailed help topics.
 
 ## View Export destinations
 
-If you've already created any destinations, you'll see them listed in a table on the **Export destinations** page. This table has three columns:
+After creating export destinations, they are listed in a table on the **My export destinations** tab. This table has three columns:
 
 - **Display name**: The name you entered when creating the destination.
-- **Type**: The destination type you set when creating the destination.
+- **Type**: The export destination type you set when creating the destination.
 - **Created**: The date you created the destination.
+
+## Edit an export destination
+
+1. Select the vertical ellipsis for the Export destination you want to edit.
+
+   > [!div class="mx-imgBorder"]
+   > ![Vertical ellipsis](media/export-destinations-page-ellipsis.png "Vertical ellipsis")
+
+1. Select **Edit** from the dropdown menu.
+
+1. Change the values that require update and select **Save**.
 
 ## Export data on demand
 
