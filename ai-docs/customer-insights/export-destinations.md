@@ -72,7 +72,8 @@ After configuring a connector for an export destination, exports will run with e
 
 To export data without waiting for a scheduled refresh, go the **My export destinations** tab on **Admin** > **Export destinations**.
 
-<!-- SCREENSHOT -->
+> [!div class="mx-imgBorder"]
+> ![Vertical ellipsis](media/export-destinations-page-ellipsis.png "Vertical ellipsis")
 
 - Select **Export** above the list to run the export to all export destinations simultaneously.
 - Select the ellipses (...) after a list item and then choose the **Export** option to run the export for a single export destination.
