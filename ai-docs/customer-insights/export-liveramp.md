@@ -17,8 +17,7 @@ Activate your data in LiveRamp to connect with over 500 platforms across digital
 ## Prerequisites
 
 - You need a LiveRamp subscription to use this connector.
-- To get a subscription, [contact LiveRamp](https://liveramp.com/contact/) directly. [Learn more about LiveRamp Onboarding](https://liveramp.com/our-platform/data-onboarding/
-).
+- To get a subscription, [contact LiveRamp](https://liveramp.com/contact/) directly. [Learn more about LiveRamp Onboarding](https://liveramp.com/our-platform/data-onboarding/).
 
 ## Connect to LiveRamp
 
