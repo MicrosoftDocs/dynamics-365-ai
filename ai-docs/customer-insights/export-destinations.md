@@ -66,6 +66,17 @@ If you've already created any destinations, you'll see them listed in a table on
 - **Type**: The destination type you set when creating the destination.
 - **Created**: The date you created the destination.
 
+## Export data on demand
+
+After configuring a connector for an export destination, exports will run with every [scheduled refresh](pm-settings.md#schedule-tab).
+
+To export data without waiting for a scheduled refresh, go the **My export destinations** tab on **Admin** > **Export destinations**.
+
+<!-- SCREENSHOT -->
+
+- Select **Export** above the list to run the export to all export destinations simultaneously.
+- Select the ellipses (...) after a list item and then choose the **Export** option to run the export for a single export destination.
+
 ## Remove an Export destination
 
 To remove an Export destination, start from the main **Export destinations** page.
