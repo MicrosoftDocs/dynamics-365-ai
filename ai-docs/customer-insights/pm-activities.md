@@ -39,11 +39,12 @@ Your data sources include entities with transactional and activity data from mul
 3. In the **Set up relationship** section, configure the detail to connect your activity data to its corresponding customer.
 
    > [!div class="mx-imgBorder"]
-   > ![Define the entity relationship](media/activities-entities-define.png "Define the entity relationship")
+   > ![Define the entity relationship](media/activities-entities-define-v2.png "Define the entity relationship")
 
-    - **Source field**: Select the field in your activity entity that will be used to establish a relationship with another entity.
-    - **Target entity**: Select the customer entity with which your activity entity will be in relationship.
-    - **Target field**: Select the field in the customer entity that will be used to establish a relationship with the activity entity.
+    - **Activity entity field**: Select the field in your activity entity that will be used to establish a relationship with another entity.
+    - **Customer entity**: Select the corresponding source customer entity with which your activity entity will be in relationship. You can relate to only those source customer entities which are used in the data unification process.
+    - **Customer entity field**: This will be prepopulated with the primary key of the source customer entity as seleccted in the Map page. This primary key field in the source customer entity  will be used to establish a relationship with the activity entity.
+    - **Name**: If there already exists a relationship between this activity entity and the selected source customer entity, that relationship name will be prepopulated in a read-only mode. If there exists no such relationship, a new relationship will be created with the name provided here.
 
 4. Select **Save** to apply your changes.
 
@@ -53,9 +54,9 @@ Your data sources include entities with transactional and activity data from mul
 
 1. In Customer Insights, go to **Data** > **Activities**.
 
-2. Select the vertical ellipses (...) in the **Actions** column of the activity you want to edit.
+2. Click anywhere on the activity entity row you want to edit and you will see **Edit** option on the action pane. Alternatively, you can hover your mouse on the entity row and you will find the **Edit** icon displayed right next to the entity name.
 
-3. Select **Edit** from the drop-down list.
+3. Click on the **Edit** icon.
 
 4. In the **Edit activity** pane, update the values and select **Save**.
 
@@ -65,11 +66,14 @@ Your data sources include entities with transactional and activity data from mul
 
 1. In Customer Insights, go to **Data** > **Activities**.
 
-2. Select the vertical ellipses (...) in the **Actions** column of the activity you want to remove.
+2. Click anywhere on the activity entity row you want to remove and you will see **Delete** option on the action pane. Alternatively, you can hover your mouse on the entity row and you will find the **Delete** icon displayed. You can select multiple activity entities to be deleted at once.
 
-3. Select **Remove** from the drop-down list.
+3. Click on the **Delete** icon.
 
 4. Confirm your deletion.
+
+ [!div class="mx-imgBorder"]
+   > ![Edit or delete the entity relationship](media/activities-entities-edit-delete.png "Edit or delete the entity relationship")
 
 ## Next steps
 
