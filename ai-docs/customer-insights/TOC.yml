@@ -77,7 +77,7 @@
       href: pm-powerapps-connector.md
     - name: Configure the Power Automate connector
       href: power-automate-connector.md
-    - name: Configure the LiveRamp&reg; connector
+    - name: Configure the LiveRamp connector
       href: export-liveramp.md
 
 - name: Administration

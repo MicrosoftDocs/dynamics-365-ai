@@ -57,5 +57,5 @@ These credentials may be different from your LiveRamp Onboarding credentials.
 
 ## Export the data
 
-The export will start shortly if all prerequisites for export have been completed. The export will also run with every scheduled refresh.
+The export will start shortly if all prerequisites for export have been completed. The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
 Once the export is successfully completed, you can sign in to LiveRamp Onboarding to activate and distribute your data.
