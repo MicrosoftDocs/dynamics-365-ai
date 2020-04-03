@@ -12,7 +12,7 @@ manager: shellyha
 
 # Connector to LiveRamp&reg;
 
-Activate your data in LiveRamp to connect with over 500 platforms across digital, social, and TV ecosystems. Leverage your data in LiveRamp for targeting, suppressing, and personalizing ad campaigns.
+Activate your data in LiveRamp to connect with over 500 platforms across digital, social, and TV ecosystems. Work with your data in LiveRamp for targeting, suppressing, and personalizing ad campaigns.
 
 ## Prerequisites
 
@@ -58,4 +58,4 @@ These credentials may be different from your LiveRamp Onboarding credentials.
 ## Export the data
 
 The export will start shortly if all prerequisites for export have been completed. The export will also run with every scheduled refresh.
-Once the export is successfully completed, you can login to LiveRamp Onboarding to activate and distribute your data.
+Once the export is successfully completed, you can sign in to LiveRamp Onboarding to activate and distribute your data.
