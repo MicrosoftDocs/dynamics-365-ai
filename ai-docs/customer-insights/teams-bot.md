@@ -1,7 +1,7 @@
 ---
 title: "Teams bot | Microsoft Docs"
 description: "Look up unified customer profiles from Customer Insights in Microsoft Teams with the help of a bot."
-ms.date: 02/04/2020
+ms.date: 04/03/2020
 ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "teams-bot"
@@ -9,25 +9,37 @@ author: stefanie-msft
 ms.author: sthe
 manager: shellyha
 ---
-# Work with the Customer Insights Teams bot  
-You can now connect Dynamics 365 Customer Insights with Microsoft Teams, so that you and your employees can consume unified customer profiles with the help of a bot in Microsoft Teams. 
+
+# Work with the Customer Insights Teams bot
+
+Connect Dynamics 365 Customer Insights with Microsoft Teams to let a bot look up unified customer profiles in Teams channels.
+
 ## Prerequisites
-In order to configure Dynamics 365 Customer Insights in Microsoft Teams, make sure 
-* you’ve created at least one data source within the **Data Sources** page. 
-* you’ve completed the [unification process](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-configure-data). 
-* You’ve added fields to the [search and filter index](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-manage-search).
-* You have access to both Customer Insights and to Microsoft Teams on the same tenant. 
 
-## How to configure the bot
-1.	In Dynamics 365 Customer Insights, navigate to **Export Destinations** and select **Set up** on the Microsoft Teams tile
-2.	You get redirected to the **Apps**  on Microsoft Teams. Alternatively open Microsoft Teams and navigate to **Apps** in the bottom left corner. 
-3.	Search for “Dynamics 365 Customer Insights (Preview)” app 
-4.	Hit **Add** after you’ve found the “Dynamics 365 Customer Insights (Preview)” app
-5.	The Customer insights bot welcomes you and you can get started (in case you are using the bot for the first time, you need to login first)
-## What can you do with the bot?
-The “Dynamics 365 Customer Insights bot allows you to look up unified customer profiles. To achieve this, simply type **search**, followed by a name, email address or other field on the unified customer profile that is being indexed for search. 
-The bot will present a result or in case of multiple hits, a result list of matching customer profiles where you can select the one you were looking for. The bot will then present a card with up to 15 fields on the customer profile. 
+To set up and configure the bot, the following prerequisites must be met:
 
-If you happen to have multiple Dynamics 365 Customer Insights instances on the same tenant, you can apply the **switchinstance** command in the Microsoft Teams bot to choose which instance you want to connect to. 
+- There's at least one [data source added](pm-data-sources.md).
+- The [unification process](pm-configure-data.md) is complete.
+- Fields are added to the [search and filter index](pm-manage-search.md).
+- Customer Insights and Microsoft Teams are in the same organization.
 
-Type **help** any time to see a list of available commands for the bot.  
+## Set up and configure the bot
+
+1. In Customer Insights, go to **Admin** > **Export Destinations**.
+1. On the Microsoft Teams tile, select **Set up**.
+1. You're redirected to the **Apps** area in Teams. Alternatively, open Teams and select **Apps** in the bottom left corner.
+1. Search for **Dynamics 365 Customer Insights** and select the app.
+1. Select **Add**.
+1. After signing in to Customer Insights in Teams, you'll see a welcome message and can get started.
+
+## Things you can do with the bot
+
+The bot provides lookup capabilities for unified customer profiles.
+
+- Enter **search** and append a name, email address, or any other field on the unified customer profile that is added to the search and filter index.
+
+  The bot will present a card with up to 15 fields from the resulting customer profile. If there are multiple matches, you can select the profile to see from a list of results.
+
+- If your organization maintains multiple Customer Insights instances in the same org, you can enter **switchinstance** to choose which instance you want to connect the bot to.
+
+- Enter **help** to see a list of available commands for the bot.  
