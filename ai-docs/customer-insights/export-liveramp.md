@@ -24,7 +24,7 @@ Activate your data in LiveRamp to connect with over 500 platforms across digital
 
 1. Go to **Admin** > **Export destinations**  and select **Add destination**.
 
-1. Select LiveRamp in the Type drop-down list.
+1. Select **LiveRamp** in the **Type** drop down list.
 
 1. Give your destination a recognizable name in the **Display name** field.
 
