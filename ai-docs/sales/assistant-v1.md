@@ -57,29 +57,40 @@ Action cards are made up of the following elements, as labeled in the figure:
 
  You can customize the assistant by choosing which types of action cards you'd like to see and, for some types of cards, by setting configuration options. To configure the assistant:  
   
-1. Open the assistant settings by doing *one* of the following:  
+1. Sign in to the **Dynamics 365 Sales Hub** app.
+
+2. At the bottom of the site map, select **Change area**, and then select **Sales Insights settings**.
+
+3. Select **Personal settings**, and under **Assistant studio**, select **Insight cards**.
+
+   The **Manage insight cards** page appears with the list of insight cards ordered by status and priority.
+
+   > [!div class="mx-imgBorder"]
+   > ![Personal settings for assistant](media/assistant-personal-settings.png "Personal settings for assistant")
+
+**To turn on a card**
+
+- Choose a card that's turned off, and then select **Turn on cards**.  
+
+   Alternatively, you can select the **More options** icon on the card, and then select **Turn on card**. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Turn on an insight card](media/assistant-personal-settings-card-turn-on.png "Turn on an insight card")
+
+**To turn off a card**
+
+- Choose a card that's turned on, and then select **Turn off cards**. The card will no longer be displayed for you. 
+
+  Alternatively, you can select the **More options** icon on the card, and then select **Turn off card**. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
+
+   >[!NOTE]
+   >- You can select multiple cards and turn off or turn on according to your requirements. 
+   >- Some types of cards include additional settings, which are shown in to the right of the check box when available.  
+   >- If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
   
-   - Go to any page in Dynamics 365 Sales where you can see action cards, and then select the **Customize** button ![Customize cards button in the assistant](media/customize-cards-shown-relationship-assistant.png "Customize cards button in the assistant") in the upper-right corner of the card container.  
-  
-   - Select the **Settings** button ![Settings button on the nav bar](media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal assistant settings** link.  
-  
-2. The **assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
-  
-   ![assistant settings window](media/relationship-assistant-settings-window.png "assistant settings window")  
-  
-    Work with these settings as follows:  
-  
-   - The cards are organized by category, each with its own section on the page. Expand or collapse each section to show or hide the list of card types for each category.  
-  
-   - Select the check box for each type of action card that you'd like to see. Clear the check box for card types that you don't want to see.  
-  
-   - Some types of cards include additional settings, which are shown in to the right of the check box when available.  
-  
-   - If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
-  
-     For a complete description of all card types, including configuration settings where available, see [Action cards reference](action-cards-reference.md)  
-  
-3. Select **Save** to save your settings and close the window.  
   
 ### See also  
 
