@@ -1,7 +1,7 @@
 ---
 title: "Create and manage segments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 03/25/2020
+ms.date: 04/03/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -89,6 +89,28 @@ Select a segment to perform the following options:
 ## Refresh segments
 
 You can refresh all segments at once by selecting **Refresh all** on the **Segments** page. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
+
+## Download and export segments
+
+You can download your segments to a CSV file or export them to Dynamics 365 Sales.
+
+### Download segments to a CSV file
+
+1. Go to the **Segments** page.
+
+2. Select the ellipses in a specific segment's tile.
+
+3. Select **Download as CSV** from the actions drop-down list.
+
+### Export segments to Dynamics 365 Sales
+
+Before exporting segments to Dynamics 365 Sales, an admin needs to [create the export destination](export-destinations.md) for Dynamics 365 Sales.
+
+1. Go to the **Segments** page.
+
+2. Select the ellipses in a specific segment's tile.
+
+3. Select **Add to** from the actions drop-down list and select the export destination you want to send the data to.
 
 ## Draft mode for segments
 
