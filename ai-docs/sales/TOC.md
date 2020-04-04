@@ -43,7 +43,7 @@
 #### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
 #### [Connect to Dynamics 365 Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
-#### [Enable preview features](../sales/enable-preview-features-sales-insights-app.md)
+#### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
 
 ### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
