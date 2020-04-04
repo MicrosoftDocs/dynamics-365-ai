@@ -78,4 +78,4 @@ As a sales manager, when you open Your team page in settings, you can view the l
 
 [Prerequisites to use Conversation intelligence application](prereq-sales-insights-app.md)
 
-[Overview of Conversation Intelligence applications](../sales/dynamics365-sales-insights-app.md)
+[Overview of Conversation Intelligence applications](dynamics365-sales-insights-app.md)
