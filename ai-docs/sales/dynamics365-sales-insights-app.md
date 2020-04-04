@@ -20,8 +20,6 @@ topic-status: Drafting
 
 The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application uses analytics and data science to gather data from call recordings, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence.
 
-<div class=embeddedvideo><iframe src=https://go.microsoft.com/fwlink/?linkid=2099797 frameborder=0 allowfullscreen=></iframe></div>
-
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
 **As a sales manager, you can:**

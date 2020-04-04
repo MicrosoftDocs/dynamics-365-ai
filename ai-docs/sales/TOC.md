@@ -43,6 +43,7 @@
 #### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
 #### [Connect to Dynamics 365 Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
+#### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
 #### [Configure and view your team page](../sales/configure-view-your-team-page.md)
 #### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
 
@@ -90,7 +91,6 @@
 ###	Conversation Intelligence application
 #### [Overview of Conversation Intelligence applications](../sales/dynamics365-sales-insights-app.md)
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
-#### [Natural language Q&A](../sales/business-qa.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 
