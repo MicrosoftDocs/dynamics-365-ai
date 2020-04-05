@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Use Relationship analytics to gather KPIs 
 
-We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
+We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.  
 
  Relationship analytics help sales professionals and managers answer questions such as:  
 
@@ -68,7 +68,7 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
     ![Relationship pipeline chart](media/relationship-analytics-relationship-pipeline-chart.png "Relationship pipeline chart") 
 
 
-Each upcoming opportunity is plotted as a bubble on the relationship pipeline chart. The size of each bubble indicates the estimated revenue of the opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. Therefore, the most critical opportunities are those with the largest bubbles located near the bottom-left corner, while the most promising opportunities are near the top of the chart.  
+Each upcoming opportunity is plotted as a bubble on the relationship pipeline chart. The size of each bubble indicates the estimated revenue of the opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. So, the most critical opportunities are those with the largest bubbles located near the bottom-left corner, while the most promising opportunities are near the top of the chart.  
 
 Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health: green for good, yellow for fair, red for poor, and gray for zero (which indicates that the results have not been calculated, or that there is not enough data).  
 
@@ -87,26 +87,28 @@ The relationship pipeline chart relies on several values being available for eac
 <a name="AnalyzeHealth"></a>   
 
 ## Analyze the health and activity history of a customer or opportunity  
-You can view complete relationship analytics for an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are available in two expandable sections when you view an individual record, such as a specific opportunity.  <br>
+You can view complete relationship analytics for an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are available in two expandable sections when you view an individual record, such as a specific opportunity. 
 
 ![Activity analysis details](media/activity-analysis-details.png "Activity analysis details") 
-  <br>
-**Relationship health and trend.** Shows your overall relationship health with the customer and includes the recent trend.  <br>
-- **Next interaction.** Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.  <br>
-- **Last interaction.** Shows the date and time for the last activity that you completed for the record.  If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.  <br>
+  
 
-**All interactions.**  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type such as email, meetings, and phone calls.<br>  
+**Relationship health and trend.** Shows your overall relationship health with the customer and includes the recent trend. 
 
-**Time spent.** Shows the relative amount of time spent on activities related to the record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  <br>
+  - **Next interaction.** Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
 
-**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md)  <br>
+  - **Last interaction.** Shows the date and time for the last activity that you completed for the record.  If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
 
-**Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users. <br>
+**All interactions.**  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type such as email, meetings, and phone calls. 
 
-**Most contacted by.** Provides statistics about the your team who most contacted customers. These contacts may include customers who are heavily involved with the your team even if they are not part of the record’s users. <br>
+**Time spent.** Shows the relative amount of time spent on activities related to the record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.
 
-**Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  <br> 
+**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md).
 
+**Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users.
+
+**Most contacted by.** Provides statistics about your team who most contacted customers. These contacts may include customers who are heavily involved with your team even if they are not part of the record’s users.
+
+**Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received. 
 
 <a name="Calculations"></a>   
 
