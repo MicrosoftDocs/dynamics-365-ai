@@ -73,7 +73,7 @@ Do either of the following:
 
 ## Skip or postpone an activity
 
-You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as cancelled.
+You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
 
 If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can postpone the activity, and select a new date and time to connect with the customer. Note that you can't postpone a manual task.
 
