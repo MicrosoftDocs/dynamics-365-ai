@@ -1,6 +1,6 @@
 ---
-title: "Improve seller coaching and sales potential with Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Sales Insights"
+title: "Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence application | MicrosoftDocs"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for Dynamics 365 Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -16,9 +16,9 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Improve seller coaching and sales potential with Dynamics 365 Sales Insights application
+# Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence
 
-The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application uses analytics and data science to gather data from call recordings, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence.
+Conversation Intelligence uses analytics and data science to gather data from call recordings, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, Conversation Intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence.
 
 This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
 
@@ -36,13 +36,17 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	View insights on the status of your current sales period such as the sum of actual revenue, total estimated revenues, total deals won, and the average revenue generated. To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
 
--	Listen to conversation and read transcript to get action items, signals, and business-critical insights. To learn more, see [call summary page]().  
+-	Listen to conversation and read transcript to get action items, signals, and business-critical insights. To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md). 
+
+-	Translate non-English call transcript to English. To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md). 
 
 **As a seller, you can:**
 
 -	View your conversation insights, customer sentiment, conversations style, sales pipeline, and call history. To learn more,  see [View sales rep information](conversation-intelligence-seller-details.md).
 
--	Listen to conversation and read transcript to get action items, signals, and business-critical insights. To learn more, see [call summary page](). 
+-	Listen to conversation and read transcript to get action items, signals, and business-critical insights. To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md). 
+
+-	Translate non-English call transcript to English. To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md).
 
 **As an administrator, you can:**
 
@@ -55,33 +59,34 @@ This application is designed to help sales managers and sellers in their day-to-
 
 -	Manage environments and configure call data. To learn more, see [Connect to Dynamics 365 sales environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
--	
+-	Monitor call and insight processing data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).
 
+-	Configure the levels of hierarchy for which sales managers can view the call data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).
 
 
 
 The next sections describe:
 
-- Recommendations for using the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application
+- Recommendations for using Conversation Intelligence
 
-- How to get the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application
+- How to get Conversation Intelligence
 
-- How to access the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application
+- How to access Conversation Intelligence
 
 
-## Recommendations to use Sales Insights application
+## Recommendations to use Conversation Intelligence
 
-Before you start using the application, we suggest you review the following requirements for effective use of the [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] app:
+Before you start using the application, we suggest you review the following requirements for effective use of the Conversation Intelligence:
 
 -	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management). 
 
 - As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
-## How to get the Dynamics 365 Sales Insights application
+## How to get the Dynamics 365 Conversation Intelligence
 
-The [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application is a standalone application and you must sign in to the app to use it. To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
+The Conversation Intelligence is a standalone application and you must sign in to the app to use it. To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
 
-## How to access the Dynamics 365 Sales Insights application
+## How to access the Dynamics 365 Conversation Intelligence
 
 As an administrator, you must configure the application so users (managers and sellers) can see the relevant organization and call data. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
 
@@ -91,14 +96,14 @@ As a user (manager or seller), when you sign in to the application for the first
 
 - **Relevant organization and call data**: If the administrator has configured the application for you.
 
-The following procedure explains how to access the Sales Insights application for the first time:
+The following procedure explains how to access Conversation Intelligence for the first time:
 
-1.	Sign in to the [Dynamics 365 Sales Insights](https://sales.ai.dynamics.com/) application. The home page is displayed with the demo data.
+1.	Sign in to the [Dynamics 365 Conversation Intelligence](https://sales.ai.dynamics.com/) application. The home page is displayed with the demo data.
 
-2.	Select **Set up Sales Insights** to connect to the Dynamics 365 Sales organization.
+2.	Select **Set up Conversation Intelligence** to connect to the Dynamics 365 Sales organization.
 
     > [!div class="mx-imgBorder"]
-    > ![Sales insights application first sign-in](media/si-app-manager-first-signin.png "Sales insights application first sign-in")
+    > ![Conversation Intelligence application first sign-in](media/si-app-manager-first-signin.png "Conversation Intelligence application first sign-in")
 
 3.	Select the Dynamics 365 Sales organization to connect to. This helps to compute and consolidate the necessary insights about your team.
 
@@ -119,6 +124,6 @@ The following procedure explains how to access the Sales Insights application fo
 
 ### See also
 
-[Administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
