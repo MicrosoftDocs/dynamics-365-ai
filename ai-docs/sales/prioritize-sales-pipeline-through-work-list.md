@@ -119,9 +119,9 @@ Sort records by choosing a sort option. In the header, you can see the total num
 
 - **Due time**: When you select this option, the records in the work list are sorted according to the due time before which an activity must be completed. You can select the sort order as: 
 
-    - **Oldest on top** to view the records with the oldest date to complete an activity on the top in ascending order.<!--I don't know what this means. Does it mean "**Oldest on top** to display records that include activities that have passed their due date, sorted from the longest time past due to the shortest." Or something similar? -->
+    - **Oldest on top** to view the records that include activities that have passed their due date, sorted from the longest time past due to the shortest.
 
-    - **Newest on top** to view new records with the latest date to complete an activity the on top in ascending order.<!--Similarly, could this be something like "**Newest on top** to display the records that include activities with the most recent due times, sorted from the most recent to the oldest."--> 
+    - **Newest on top** to view the records that include activities with the most recent due times, sorted from the most recent to the oldest.
 
     For example, there are ten records available in your work list. The number of records for which you need to complete the activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option to sort by and **Newest on top** for the sort order, the records are sorted from the newest to oldest activity completion date into **Today**, **Yesterday**, and **Last 7 days**.
 
