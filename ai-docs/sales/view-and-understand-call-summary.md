@@ -39,7 +39,7 @@ This helps to connect the call with the activity inside Dynamics 365. To learn m
 
 ## View call summary page in Conversation Intelligence
 
-Open a conversation from the **Call history** section; the call summary page is displayed. To understand the call summary page, see [Understand the call summary page](). 
+Open a conversation from the **Call history** section; the call summary page is displayed. To understand the call summary page, see [Understand the call summary page](#understand-the-call-summary-page). 
 
 ## View call insights tab in Sales Hub app
 
@@ -47,11 +47,11 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 1.	Sign in to Dynamics 365 and select **Change area** > **Sales**.
 
-2.	On the site map, select Activities. 
+2.	On the site map, select **Activities**. 
 
 3.	Select a phone call activity for which you want to view the call summary.
 
-4.	Select the Call Insights tab. The call summary of the selected phone activity is displayed. 
+4.	Select the **Call Insights** tab. The call summary of the selected phone activity is displayed. 
 
     >[!NOTE]
     >Select the **Related opportunity** tab to see the list of opportunities that are associated with the call. To add related opportunities to the call, select the lookup icon and add the opportunity.
@@ -59,7 +59,7 @@ The **Call Insights** tab is available under activities for leads and opportunit
     > [!div class="mx-imgBorder"]
     > ![Call insights tab in activities](media/si-app-activities-call-insights-tab.png "Call insights tab in activities")
 
-    To understand the **Call Insight** tab, see [Understand the call summary page]().
+    To understand the **Call Insight** tab, see [Understand the call summary page](#understand-the-call-summary-page).
 
 ## Understand the call summary page
 
