@@ -288,6 +288,6 @@ The following image is an example of how the call recording KPIs are displayed.
 
 ### See also
 
-[Introduction to administer Conversation Intelligence  application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence  application](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Overview of Conversation Intelligence  applications](dynamics365-sales-insights-app.md) 

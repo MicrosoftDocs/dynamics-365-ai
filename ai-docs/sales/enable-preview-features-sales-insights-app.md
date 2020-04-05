@@ -1,6 +1,6 @@
 ---
-title: "Enable coming soon features in Dynamics 365 Conversation Intelligence application | MicrosoftDocs"
-description: "Enable preview features in Dynamics 365 Conversation Intelligence application "
+title: "Enable coming soon features in Dynamics 365 Conversation Intelligence | MicrosoftDocs"
+description: "Enable preview features in Dynamics 365 Conversation Intelligence."
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -30,7 +30,7 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 > [!NOTE]
 > If you have already enabled the preview feature through first-run set up, you are not required to enable it again; however, you can disable it if you don’t wish to use it in your organization.
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation intelligence application](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation intelligence](prereq-sales-insights-app.md).
 
 2.	Open the **Dynamics 365 Conversation Intelligence** application. 
 
@@ -53,6 +53,6 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 
 ### See also
 
-[Introduction to administer Conversation intelligence application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to use Conversation intelligence application](prereq-sales-insights-app.md)
+[Prerequisites to use Conversation intelligence](prereq-sales-insights-app.md)

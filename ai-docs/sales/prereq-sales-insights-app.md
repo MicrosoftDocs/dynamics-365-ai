@@ -38,6 +38,6 @@ Verify the following requirements before setting up Conversation Intelligence fo
 
 ### See also
 
-[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Overview of Conversation Intelligences](dynamics365-sales-insights-app.md) 
