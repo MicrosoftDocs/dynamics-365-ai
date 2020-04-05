@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn what's new in the latest release of Dynamics 365 Sales Insights."
 keywords: 
-ms.date: 10/31/2018
+ms.date: 04/06/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -19,36 +19,15 @@ topic-status: Drafting
 
 # What's new in Dynamics 365 Sales Insights
 
-Welcome to [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)]. Visit this page to see what has been added or updated recently.
+This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 
-## Assistant 
+For information about new features releasing over the next few months that you can use for planning, see:
+- [2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/artificial-intelligence/dynamics365-sales-insights/planned-features)  
+- [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-sales-insights/planned-features)
+- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/April19/artificial-intelligence/dynamics365-ai-sales/planned-features)
 
-The new redesigned assistant administration helps the administrator or sales manager create custom insight cards, prioritize cards, optimize card ranking, and assign cards to user roles for your Dynamics 365 Sales organization.
 
-To learn more, see [Configure Assistant](configure-assistant.md).
+> [!NOTE]
+> Releases are rolled out to different regions over several days. New or updated functionality might not appear immediately.
 
-## Dynamics 365 assistant app for Teams
-
-The Dynamics 365 assistant app for Teams is available as **Preview**.
-
-The Dynamics 365 assistant app for Teams helps salespersons to view daily activities to maintain proper communications with the customer and close deals. It also provides timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
-
-To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md).
-
-## Sales Insights application
-
-Dynamics 365 Sales Insights application is enhanced with analytics and data science to gather data from call recordings, Dynamics 365 Sales, and Microsoft Office. It then provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. 
- 
-This application is designed to help sales managers and sellers in their day-to-day job to keep track of their work. 
-
-- **Home page:** The home page is improved to provide a high-level information on the status of your current sales period and insights on what your customers are talking about, what are behaviors of your top sellers, and team’s sales pipeline for the selected time period. 
-
-    To learn more, see [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md).
-
-- **Teams overview:** This page helps the sales managers to analyze the overall behavior of their team during the customer call. This helps in identifying coaching scenarios for team to increase sales wins and productivity gains for the business. 
-
-    To learn more, see [View team information](conversation-intelligence-team-overview.md).
-
-- **Seller details:** This page helps both sales manager and seller to analyze the overall behavior of the individual during the customer calls. Using this analysis, you can identifying coaching scenarios to increase sales wins and productivity gains for the business.
-
-    To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
+To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=5f82c7ac-92b0-e811-a96a-000d3a1bece3&forumName=Dynamics%20365%20Sales).
