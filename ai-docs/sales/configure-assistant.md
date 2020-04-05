@@ -132,8 +132,8 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
     | Number | Feature | Description |
     |--------|---------|-------------|
-    | **1** | **Create cards with Microsoft Flow** | This allows you to create cards that are custom made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md). |
-    | **2** | **Quick view cards through tabs** | The tabs allows you to quickly view cards that are most popular, recently used, high in priority, and created by your organization. |
+    | **1** | **Create cards with Microsoft Flow** | This allows you to create cards that are custom-made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md). |
+    | **2** | **Quick view cards through tabs** | The tabs allow you to quickly view cards that are most popular, recently used, high in priority, and created by your organization. |
     | **3** | **Table with card details** | This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize. To learn more, see [Edit insight cards](edit-insight-cards.md). |
     | **4** | **Search cards** | This allows you to search cards that you want to view or manage. |
     
