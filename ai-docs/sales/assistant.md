@@ -67,7 +67,7 @@ Insight cards are categorized either as notifications that need immediate attent
    > [!NOTE]
    > Any custom insight cards created by your organization through Assistant Studio will be displayed as reminders.
 
--	**Insight**: Displays suggestions based on AI-driven models for things that requires your attention. For example, a card might highlight an email with a negative sentiment that could put an opportunity at risk, suggest ways to prioritize an opportunity, suggest a cross-sale, or prompt you to look at recent items that have been auto-captured.
+-	**Insight**: Displays suggestions based on AI-driven models for things that require your attention. For example, a card might highlight an email with a negative sentiment that could put an opportunity at risk, suggest ways to prioritize an opportunity, suggest a cross-sale, or prompt you to look at recent items that have been auto-captured.
 
 ### Characteristics of assistant categories
 
