@@ -172,7 +172,7 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
 

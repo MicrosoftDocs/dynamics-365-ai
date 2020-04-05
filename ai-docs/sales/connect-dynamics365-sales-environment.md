@@ -90,6 +90,6 @@ Now, your Conversation Intelligence is ready with the data of the added environm
 
 ### See also
 
-[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
