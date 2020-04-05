@@ -1,6 +1,6 @@
 ---
-title: "First-run set up experience for Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "First-run set up experience for Dynamics 365 Sales Insights application"
+title: "First-run set up experience for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
+description: "First-run set up experience for Dynamics 365 Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -16,9 +16,9 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# First-run set up experience of Sales Insight application
+# First-run set up experience of Conversation Intelligence
 
-When you sign-in to the Sales Insights application, the application will be available for you to use and explore the various features through the provided demo data.
+When you sign-in to Conversation Intelligence, the application will be available for you to use and explore the various features through the provided demo data.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
 -	As an administrator, you can set up the complete application including connecting Dynamics 365 Sales environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
@@ -30,16 +30,16 @@ After you sign in, you can set up the application depending on the role that is 
 The following diagram illustrates the process of setting up application as an administrator:
 
 > [!div class="mx-imgBorder"]
-> ![Process of setting up Sales insights application through different user roles](media/si-app-fre-admin-endusers.png "Process of setting up Sales insights application through different user roles")
+> ![Process of setting up Conversation Intelligence through different user roles](media/si-app-fre-admin-endusers.png "Process of setting up Conversation Intelligence through different user roles")
 
-1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
+1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Sign in to **Dynamics 365 Sales Insights** application as administrator.
+2.	Sign in to **Dynamics 365 Conversation Intelligence** application as administrator.
 
     > [!div class="mx-imgBorder"]
-    > ![Administrator sales insights home page](media/si-app-admin-home-page-admin-signin.png "Administrator sales insights home page")
+    > ![Administrator Conversation Intelligence home page](media/si-app-admin-home-page-admin-signin.png "Administrator Conversation Intelligence home page")
  
-3.	Select **Set up Sales Insights** and continue with the set up wizard. 
+3.	Select **Set up Conversation Intelligence** and continue with the set up wizard. 
 
 4.	On the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.
 
@@ -88,17 +88,17 @@ The following diagram illustrates the process of setting up application as an ad
     > [!div class="mx-imgBorder"]
     > ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")
  
-10.	Select **Finish** to complete the set-up of Sales Insights application for your organization.
+10.	Select **Finish** to complete the set-up of Conversation Intelligence for your organization.
 
     The status message will be displayed on the top of the page.
 
     > [!div class="mx-imgBorder"]
     > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
-Now, your Sales Insights application is ready, and managers and sellers can use to view this data.
+Now, your Conversation Intelligence is ready, and managers and sellers can use to view this data.
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
-[Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to use Conversation Intelligence](prereq-sales-insights-app.md)

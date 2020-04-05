@@ -124,6 +124,6 @@ The following procedure explains how to access Conversation Intelligence for the
 
 ### See also
 
-[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

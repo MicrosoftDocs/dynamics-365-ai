@@ -41,8 +41,8 @@
 
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
-### Configure Conversation Intelligence application
-#### [Prerequisites to use Conversation Intelligence application](../sales/prereq-sales-insights-app.md)
+### Configure Conversation Intelligence
+#### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
 #### [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md)
 #### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
@@ -102,8 +102,8 @@
 #### [Change sales organization](change-sales-organization.md)
 #### [Get answers through bot assistant](use-bot-assistant.md)
 
-###	Conversation Intelligence application
-#### [Overview of Conversation Intelligence applications](../sales/dynamics365-sales-insights-app.md)
+###	Conversation Intelligence
+#### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)

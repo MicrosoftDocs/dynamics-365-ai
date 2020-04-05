@@ -27,7 +27,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -	[Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features)
 
--	[Administer Sales Insights application](#administer-sales-insights-application)
+-	[Administer Conversation Intelligence](#administer-conversation-intelligence)
 
 >[!IMPORTANT]
 > For proper installation and effective use of Sales Insights, ensure that the **Change Tracking** option for the following entities are enabled: Account, Contact, Lead, Opportunity, System User, Team, Queue, Organization, Email, Phone Call, Task, Appointment, Activity Party,  Connection, Business Unit, Metric, Opportunity Product, Product, Opportunity Sales Process, Process Stage, Connection Role, Workflow, Goal, Role, and System User Roles.

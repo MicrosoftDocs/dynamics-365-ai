@@ -1,6 +1,6 @@
 ---
-title: "Prerequisites to administer Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Prerequisites on how to administer Dynamics 365 Sales Insights application"
+title: "Prerequisites to administer Dynamics 365 Conversation Intelligence | MicrosoftDocs"
+description: "Prerequisites on how to administer Dynamics 365 Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -16,9 +16,9 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Prerequisites to configure Sales Insights application
+# Prerequisites to configure Conversation Intelligence
 
-Verify the following requirements before setting up the Sales Insights application for your organization:
+Verify the following requirements before setting up Conversation Intelligence for your organization:
 
 -	You must have an administrator or similar role.
 
@@ -26,7 +26,7 @@ Verify the following requirements before setting up the Sales Insights applicati
 
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
 
--	You must get access to the Dynamics 365 Sales Insights application. If you do not have access, follow these steps:
+-	You must get access to the Dynamics 365 Conversation Intelligence. If you do not have access, follow these steps:
     
     1.	To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
     
@@ -38,6 +38,6 @@ Verify the following requirements before setting up the Sales Insights applicati
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
-[Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 
+[Overview of Conversation Intelligences](dynamics365-sales-insights-app.md) 

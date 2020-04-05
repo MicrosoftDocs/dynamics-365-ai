@@ -27,9 +27,9 @@ The call summary is available in both Conversation Intelligence and Sales Hub ap
 
 Review the following prerequisites before using the call summary page:
 
-- You must have configured Conversation Intelligence application to process the call recordings. To learn more, see [Administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application).
+- You must have configured Conversation Intelligence to process the call recordings. To learn more, see [Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
 
-- You must have processed call recordings in Conversation Intelligence application. To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
+- You must have processed call recordings in Conversation Intelligence. To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
 - You must have the latest [Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) installed in your organization to view the call insights tab in Sales Hub app. 
 

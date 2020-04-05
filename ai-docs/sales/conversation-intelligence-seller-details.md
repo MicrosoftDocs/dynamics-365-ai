@@ -1,5 +1,5 @@
 ---
-title: "Work with call intelligence feature for Dynamics 365 sales Insights | MicrosoftDocs"
+title: "Work with call intelligence feature for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Analyze customer calls to improve sales
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to the **Dynamics 365 Sales Insights** application, and select **Seller details**.
+Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to the **Dynamics 365 Conversation Intelligence** application, and select **Seller details**.
 
 ## Seller details page for sales managers
 
@@ -82,8 +82,8 @@ Let's look at the KPIs and insights in detail:
 
 ### See also
 
-[Overview of Sales Insights applications](dynamics365-sales-insights-app.md)
+[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
 
-[First-run set up experience of Sales Insights application](fre-setup-sales-insight-app.md)
+[First-run set up experience of Conversation Intelligence](fre-setup-sales-insight-app.md)
 
 [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
