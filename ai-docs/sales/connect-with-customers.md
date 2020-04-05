@@ -53,7 +53,7 @@ Do either of the following:
 
 ## Send an email to a customer
 
-You can send an email to your customer from a record in the the **My work** list or an activity in the **Up next** widget. If the email address of a contact isn't available, a warning message is displayed. When you send an email, an Email activity is created and linked to the lead or opportunity.
+You can send an email to your customer from a record in the **My work** list or an activity in the **Up next** widget. If the email address of a contact isn't available, a warning message is displayed. When you send an email, an Email activity is created and linked to the lead or opportunity.
 
 While composing an email, if you try to navigate to another record or send an email from another lead or opportunity, a warning message is displayed to save the email first.
 
