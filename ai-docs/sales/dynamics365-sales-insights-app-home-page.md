@@ -1,6 +1,6 @@
 ---
-title: " View overall insights of your sales and sellers in Dynamics 365 Sales Insights app | MicrosoftDocs"
-description: "View high-level information on sales and sellers with AI-driven insights readily available for Dynamics 365 Sales Insights"
+title: " View overall insights of your sales and sellers in Dynamics 365 Conversation Intelligence app | MicrosoftDocs"
+description: "View high-level information on sales and sellers with AI-driven insights readily available for Dynamics 365 Conversation Intelligence "
 keywords: ""
 ms.date: 08/01/2019
 ms.service: crm-online
@@ -19,7 +19,7 @@ topic-status: Drafting
 
 # View and understand home page
 
-When you sign-in to the Dynamics 365 Sales Insights application as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
+When you sign-in to Dynamics 365 Conversation Intelligence application as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
 
 Typically, the home page is divided into the following sections:
 
@@ -37,7 +37,7 @@ Typically, the home page is divided into the following sections:
 
 ## Time period filter
 
-You can filter the information on the home page based on a time period, such as last 24 hours, last seven days, last month, current month, or a custom time period. For example, to view the information of the current month, select **This month**, and the information is filtered to display the current month's status in the **Base KPIs**, **What are customers talking about?**, **What characterizes top sellers?**, and **Are my team’s deals on track?** sections.
+You can filter the information on the home page based on a time period, such as last 24 hours, last 7 days, this month, all time, or a custom time period. For example, to view the information of the current month, select **This month**, and the information is filtered to display the current month's status in the **Base KPIs**, **What are customers talking about?**, **What characterizes top sellers?**, and **Are my team’s deals on track?** sections.
 
 > [!div class="mx-imgBorder"]
 > ![Time period filter](media/si-app-time-period.png "Time period filter")
@@ -68,7 +68,7 @@ The following image is an example of how the base KPIs are displayed:
 
 ## What are customers talking about?
 
-The **What are customers talking about** section helps you to understand what’s happening in sales calls and what customers are talking about. Through these understandings, you can derive coaching scenarios for your sales team so that they could be more efficient during the sales calls. 
+The **What are customers talking about** section helps you to understand what’s happening in sales calls and what customers are talking about. These insights can provide you with possible ideas for coaching scenarios for your sales team, helping them improve their performance during the sales calls. 
 
 This also helps in driving strategic motion by looking at the keywords, brands, and competitors mentioned during the call. For example, "3D printer" is trending more during customer calls, but the 3D printer sales are not reaching targets. You can coach the sales team on how to sell the 3D printers more effectively to customers.
 
@@ -96,32 +96,32 @@ The following image is an example of how the customer sentiment insight is displ
 
 In this example, you can see that 200 calls are analyzed and 27% of calls have higher than the average negative customer sentiment. The doughnut chart shows the percentage of calls that are positive, neutral, and negative.
 
-Select **Show details** to view more details on how the customer sentiment is trending over time and the list of calls that is contributing in analyzing the customer sentiment. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).  
+Select **Show details** to view more details on how the customer sentiment is trending over time and the list of calls thatcontributed to this analysis. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).  
 
 > [!div class="mx-imgBorder"]
 > ![Customer sentiment more details page](media/si-app-customer-sentiment-details.png "Customer sentiment more details page")
 
 ### Tracked keywords
 
-This insight shows the tracked keywords that are defined in the application and that customers use the most during the sales calls. The application highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to them. 
+This insight shows the tracked keywords that are defined in the application and that customers use the most during the sales calls. Conversation Intelligence highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to them. 
 
 The following image is an example of how the tracked keyword insight is displayed:
 
 > [!div class="mx-imgBorder"]
 > ![Most tracked keywords](media/si-app-tracked-keywords.png "Most tracked keywords")
 
-In this example, you can see that STL (+32%), Jewelers (+26%), and Fabrication (+23%) are most trending keywords, so you will be able to define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords and the number of times that these keywords were mentioned in calls. 
+In this example, you can see that STL (+32%), Jewelers (+26%), and Fabrication (+23%) are the keywords that are trending the highest, so you could, theoretically, define a sales strategy related to these keywords. The bubbles show the top 20 tracked keywords and the number of times that these keywords were mentioned in calls. 
 
 You can define what keywords you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
-Select **Show details** to view more details on top trending keywords. The details, such as how many times that each keyword is mentioned in the total number of calls, trend of each keyword over the time, and the list of calls that is contributing in analyzing the keywords. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
+Select **Show details** to view more details on top trending keywords. The details include how many times that each keyword is mentioned in the total number of calls, trend of each keyword over the time, and the list of calls that is contributing to the keyword analysis. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
 
 > [!div class="mx-imgBorder"]
 > ![Most tracked keywords more details page](media/si-app-tracked-keywords-details.png "Most tracked keywords more details page")
 
 ### Tracked competitors
 
-This insight shows the defined competitors' names that customers use most and are trending upwards during the sales calls. The application highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to them.
+This insight shows the defined competitors' names that customers use most and are trending upwards during the sales calls. Conversation Intelligence highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to them.
 
 The following image is an example of how the competitors mentioned insight is displayed:
 
@@ -174,7 +174,7 @@ The following insights are available for you to understand what characterizes to
 
 ### Average talk to listen ratio
 
-This insight shows the average time top sellers spend talking verus listening to customers compared to the rest of the sales team. By analyzing this insight, you can understand what works for top sellers to close deals and generate revenue.
+This insight shows the average time top sellers spend talking against listening to customers compared to the rest of the sales team. By analyzing this insight, you can understand what works for top sellers to close deals and generate revenue.
 
 The following image is an example of how the talk-to-listen ratio insight is displayed:
 
@@ -183,7 +183,7 @@ The following image is an example of how the talk-to-listen ratio insight is dis
 
 In this example, you can observe that the top sellers talk (59%) more than listen (41%) to customers compared to the team’s average of talk (61%) to listen (39%). Through this insight, you can learn that talking more is helping the top seller generate revenue, and you can make it as a best practice for other sellers to follow.
 
-Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's talk verus listen ratio with customers.
+Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's talk against listen ratio with customers.
 
 ### Best practice keywords
 
@@ -288,6 +288,6 @@ The following image is an example of how the call recording KPIs are displayed.
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence  application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
 
-[Overview of Sales Insights applications](dynamics365-sales-insights-app.md) 
+[Overview of Conversation Intelligence  applications](dynamics365-sales-insights-app.md) 

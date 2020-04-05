@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Analyze overall team's behavior on customer calls
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page helps the sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
+Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in Conversation Intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
 As a sales manager, these KPIs and insights help you to: 
 
@@ -30,17 +30,17 @@ As a sales manager, these KPIs and insights help you to:
 
 - Analyze your team's conversational style.
 
-To view the **Teams overview** page, sign in to  **Dynamics 365 Sales Insights** application, and select **Teams overview**. 
+To view the **Teams overview** page, sign in to  **Dynamics 365 Conversation Intelligence**, and select **Teams overview**. 
 
 > [!div class="mx-imgBorder"]
 > ![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")
 
 |KPI/Insights|Description|
 |------------|-----------|
-|**1. Date filter**|Provides a timeline for which you want to view the data of your team.|
-|**2. Team insights**|Displays what’s happening in your team and the latest trends, such as sales reps who are scoring high in customer satisfaction as well as those who might need coaching based on the customer sentiments they are generating and keywords that are trending.|
-|**3. Customer sentiment**|• **Overall customer sentiment:** Specifies the customer sentiment in percentage—positive, negative, or neutral.<br>•	**Customer sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are spanning across the specified timeframe.<br> •	**Customer sentiment by sales rep:** Specifies how each of your sales reps contributed toward generating the overall customer sentiment. Also, shows which sales rep has the highest or lowest contributions.|
-|**4. Conversation style**|• **Talk to listen ratio:** Specifies the average listen and talk ratio of sales reps in conversations with customers.<br>•	**Talking speed:** Displays the average number of words used per minute by sales reps.<br> • **Switches per hour:** Displays the average switches between a sales rep and customer in a conversation; this is a sign of engagement during conversations.<br>• **Pause before speaking:** Displays how many milliseconds the sales rep paused before responding to customer queries; this is a signal of patience by the sales rep.<br>• **Longest customer monologue:** Displays the length of speech without a break by the customer with a sales rep in seconds; this is a signal that sales reps are asking good questions and showing understanding of customer needs.|
+|**1. Date filter**|Provides a time period for which you can your team's call data and insight.|
+|**2. Team insights**|Displays what’s happening in your team and the latest trends, such as which sales reps are scoring high in customer satisfaction as well as those who might need coaching based on the customer sentiments they are generating and keywords that are trending.|
+|**3. Customer sentiment**|• **Overall customer sentiment:** Specifies the customer sentiment in percentage—positive, negative, or neutral.<br>•	**Customer sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are spanning across the specified timeframe.<br> •	**Customer sentiment by sales rep:** Specifies how each of your sales reps contributed toward generating the overall customer sentiment. Also, shows which sales rep have the highest or lowest contributions.|
+|**4. Conversation style**|• **Talk to listen ratio:** Specifies the average listen and talk ratio of sales reps in conversations with customers.<br>•	**Talking speed:** Displays the average number of words used per minute by sales reps.<br> • **Switches per hour:** Displays the average switches between a sales rep and customer in a conversation, meaning the amount of times the conversation switched from one person to another. This is a sign of engagement during conversations.<br>• **Pause before speaking:** Displays how many milliseconds the sales rep paused before responding to customer queries; this is a signal of patience by the sales rep.<br>• **Longest customer monologue:** Displays the longest length of speech without a break by the customer with a sales rep in seconds; this is a signal that sales reps are asking good questions and showing understanding of customer needs.|
 
 ### See also
 

@@ -107,6 +107,7 @@
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
+#### [View and understand call summary](../sales/view-and-understand-call-summary.md)
 
 ## [FAQs](faqs-sales-insights.md)
 
