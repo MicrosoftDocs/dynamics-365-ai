@@ -101,7 +101,7 @@ After you enable the free Sales Insights features, you can configure the feature
 
 ## Enable and configure advanced Sales Insights features
 
-The advanced Sales Insights features provide intelligent insights on leads, opportunities, customers, and sales data that help sellers to take timely actions to close deals and generate revenue. The advanced Sales Insights features include **Assistant (full capabilities)** with Studio, **Notes analysis**, **Relationship analytics**, **Who knows whom**, **Predictive lead scoring**, and **Predictive opportunity scoring**. You can configure these features as required in your organization.
+The advanced Sales Insights features provide intelligent insights on leads, opportunities, customers, and sales data that help sellers to take timely actions to close deals and generate revenue. The advanced Sales Insights features include **Assistant (full capabilities)** with Studio, **Notes analysis**, **Relationship analytics**, **Who knows whom**, **Predictive lead scoring**, **Predictive opportunity scoring**, **Premium forecasting**, and **Sales accelerator**. You can configure these features as required in your organization.
 
 The following diagram illustrates the steps to configure these features:
 
@@ -179,6 +179,8 @@ After enabling the advanced Sales Insights features, you can configure the advan
 -	To configure Predictive opportunity scoring, see [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
 -   To configure premium forecasting, see [About premium forecasting](configure-premium-forecasting.md).
+
+-   To configure premium forecasting, see [Enable and configure sales accelerator](enable-configure-sales-accelerator.md).
 
 
 ## Administer Sales Insights application
