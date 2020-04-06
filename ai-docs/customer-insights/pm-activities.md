@@ -54,7 +54,7 @@ Your data sources include entities with transactional and activity data from mul
 
 1. In Customer Insights, go to **Data** > **Activities**.
 
-2. Select the activity entity you want to edit and select **Edit**. r, you can hover over the entity row and select the **Edit** icon.
+2. Select the activity entity you want to edit and select **Edit**. Or, you can hover over the entity row and select the **Edit** icon.
 
 3. Click on the **Edit** icon.
 
