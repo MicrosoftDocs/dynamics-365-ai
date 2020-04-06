@@ -632,7 +632,7 @@
     },
     {
       "source_path": "ai-docs/customer-insights/segment-export.md",
-      "redirect_url": "pm-segments.md",
+      "redirect_url": "pm-segments",
       "redirect_document_id": "false"  
     }
   ]
