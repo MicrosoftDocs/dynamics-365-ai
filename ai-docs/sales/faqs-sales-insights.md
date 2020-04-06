@@ -29,9 +29,9 @@ Sales insights supports the following languages:<br>
 
 | Feature | Language supported |
 |---------|--------------------|
-| Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
-| Taking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
-| Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, and Dutch. |
+| Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Talking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
+| Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
 | Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), English, French, German, Italian, Japanese, Portuguese (Brazil), and Spanish. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
@@ -46,6 +46,22 @@ Sales insights is available in the following regions:<br>
 -    Japan (JPN)
 -    North American (NAM)
 -    Oceania (OCE)
+
+## Assistant
+
+**How do I disable teasers?**
+
+To disable, follow these steps:
+
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
+
+2. On the site map, select **Overview**.
+
+3. Go to **Teasers** section and toggle the option to disable the teasers.
+
+    > [!div class="mx-imgBorder"]
+    > ![Disable teasers](media/disable-teasers.png "Disable teasers")
+
 
 ## Relationship analytics
 
@@ -82,7 +98,7 @@ You cannot customize the model. The out-of-the-box model automatically selects t
 No. In this release, you cannot create multiple models. You can create only one model for all leads and one model for all opportunities.
 
 **What is the minimum data required to create a lead/opportunity score model?​**<br>
-A minimum of 100 qualified and 1,000 disqualified leads are required to build a lead score model. 
+A minimum of 40 qualified and 40 disqualified leads are required to build a lead score model. 
 
 A minimum of 40 won and 40 lost opportunities are required to build an opportunity scoring model.​
 

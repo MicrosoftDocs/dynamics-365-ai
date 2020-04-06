@@ -34,6 +34,11 @@
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
+### Configure sales accelerator
+#### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
+#### [Create and manage sequences](create-manage-sequences.md)
+#### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
+
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Sales Insights application
@@ -53,8 +58,12 @@
 ## User guide
 
 ### Assistant
-#### [Guide customer communications with assistant](assistant.md)
-#### [Stay updated with cards](action-cards-reference.md)
+#### [Guide customer communications with assistant](assistant-v1.md)
+#### [Stay updated with cards](action-cards-reference-v1.md)
+
+### Assistant version 2
+#### [Guide customer communications with assistant version 2](assistant.md)
+#### [Stay updated with cards in assistant version 2](action-cards-reference.md)
 
 ###	Productivity intelligence
 #### [View message interactions with email engagement](email-engagement.md)
@@ -74,6 +83,11 @@
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
+
+### Sales accelerator
+#### [What is sales accelerator](sales-accelerator-intro.md)
+#### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
+#### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
 
 ### Dynamics 365 assistant for Microsoft Teams
 #### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)

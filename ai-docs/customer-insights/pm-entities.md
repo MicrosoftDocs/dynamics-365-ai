@@ -17,7 +17,7 @@ After [configuring your data sources](pm-data-sources.md), go to the **Entities*
 The **Entities** page lists entities and includes several columns:
 
 - **Name**: The name of your data entity. If you see a warning symbol next to an entity name, it means that the data for that entity didn't load successfully.
-- **Source**: The type of data sources that ingested the entity
+- **Source**: The type of data source that ingested the entity
 - **Created by**: Name of the person who created the entity
 - **Created**: Date and time of the entity creation
 - **Updated by**: Name of the person who updated the entity

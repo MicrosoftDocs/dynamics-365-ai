@@ -1,7 +1,7 @@
 ---
-title: "Enrichment | Microsoft Docs"
-description: "Get insights from data on affinities for hundreds of brands and dozens of interest-categories in Dynamics 365 Customer Insights."
-ms.date: 01/30/2020
+title: "Enrichment of customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
+ms.date: 03/19/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,71 +10,74 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Enrichment
+# Enrichment of customer profiles with brand and interest affinities
 
-The **Enrichment** page helps you gain data-driven insights on affinities for hundreds of brands and dozens of interest categories. These affinities are extracted from profiles that are similar to those of your customers.
+Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers based on their affinities to specific brands and interests.
 
 In Customer Insights, go to **Data** > **Enrichment** to configure and view the data.
 
-## Explore the Enrichment page
+:::image type="content" source="media/enrichment-page.png" alt-text="Enrichment page with configuration options":::
 
-The **Enrichment** page includes two major sections where you'll define the parameters to enrich your data.
+## About Microsoft Graph
 
-![Screenshot of the Enrichment page in Customer Insights](media/configure-data-enrich-profile-page.png)
+We use our proprietary online search data from the Microsoft Graph to determine affinities for brands and interests across various demographic segments (defined by age, gender and/or location). The online search volume for a given brand or interest is used to determine how much affinity a given demographic segment has to that brand or interest, relative to other demographic segments.
 
-- **Demographics**: Define demographics for a specific group of profile types for which you want to gain insights around preferred brands and interests.
+[Learn more about Microsoft Graph](https://docs.microsoft.com/graph/overview).
 
-- **Brands and categories**: Select whether Customer Insights delivers insights about groups of profiles based on your own selections, or based on industry trends.
+## Affinity score and confidence
 
-## Demographics section
+The **affinity score** is calculated on a 100-point scale, with 100 representing the segment that has the highest affinity for a brand or interest.
 
-You'll need to define the values for at least two fields to enrich your unified customer profiles.
+The **affinity confidence** is also on a 100-point scale indicating the system's confidence level for a given segment having affinity for the brand or interest. Confidence level is based on the segment size and the segment granularity. Segment size is determined by the amount of data we have for a given segment. Segment granularity is determined by how many attributes (age, gender, location) were used on a given profile.
 
-The following formats and values are supported:
+We don't normalize the scores for your dataset. Consequently, you may not see all possible affinity score values for your dataset. For example, there may be no enriched customer profile with an affinity score of 100 in your data if no customers exist in the demographic segment that scored 100 for a given brand or interest.
 
-- **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
-- **Gender**: Male, Female, Unknown
-- **Zip Code**: 5-digit US ZIP Code (only supported for the US)
+> [!TIP]
+> When [creating segments](pm-segments.md) using affinity scores, review the distribution of affinity scores for your dataset before deciding on the appropriate score thresholds. For example, an affinity score of 10 can be considered significant in a dataset that has a highest affinity score of only 25 for a given brand or interest.
 
-## Brands and categories section
+## Configure Enrichment
 
-Choose one of the following options. Then, provide the information for that option.
+Configuring brands and interests enrichment consists of two steps:
 
-- **Choose on my own**: This option lets you choose brands and categories of interest to get affinities for those selections.
+1. **Define your brands and interests**
 
-   To add a brand or category, enter a keyword in the corresponding input field. The system will search for a keyword match in the underlying database. If a match isn't found, you can send a suggestion to the Customer Insights team. You can add up to five brands or categories.
+   Select one of the following options:
+   - **Industry**: Choose your industry, and the system automatically identifies the top brands and interests relevant to your industry and enriches your customer data with them.
+   - **Choose your own**: Select up to five items from an extensive list of brands and interests that are most important to your organization to enrich your customer data with.
 
-- **Industry's top brands and categories**: For a selected industry, get the brands and interests that your customer base has the highest affinity for. *Customer base* refers to customer profiles that are similar to the ones defined in the **Demographics** section.
-  
-## Run the enrichment process
+   To add a brand or interest, start typing in the corresponding input area to get suggestions based on matching terms. If we don't list a brand or interest you are looking for, send us feedback using the **Suggest** link.
 
-After defining or updating values on the **Enrichment** page, you need to select **Run** in the page header to start the enrichment process. It can take a few minutes to run the enrichment algorithm.
+2. **Map your fields**
 
-## Validate the enrichment process output
+   Map fields from your unified customer entity to at least two attributes. This defines the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to finalize the field mapping.
 
-After the enrichment process completes, you'll find the number of **Enriched profiles** on the **Enrichment** page.
+   The following formats and values are supported:
+   - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
+   - **Gender**: Male, Female, Unknown
+   - **Zip Code**: 5-digit US ZIP Code (only supported for the United States)
+   - **State**: 2-letter abbreviation (only supported for the United States)
 
-> [!div class="mx-imgBorder"]
-> ![Enriched profiles](media/configure-data-enrich-profile-succeeded.png "Enriched profiles")
+:::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
 
-If the enrichment process fails, you'll find the reason at the top of the screen.
+## Run enrichment
 
-## Gain richer insights into your customer base
+You can run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the **Data** > **Enrichment** page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Depending on the size of your customer data, it can take several minutes for an enrichment run to complete.
 
-After completing the enrichment process, you'll find additional information on affinities for brands and interests.
+## Enrichment results
 
-1. Go to the **Home** page and find affinity bar charts in the **Insights** section.
+Once the enrichment run has successfully completed, you can review the total number of enriched customers, as well as a breakdown of brands and interests in the enriched customer profiles.
 
-2. Go to **Data** > **Entities** and select the **MsftAudienceIntelligence: Customer Insights** entity.
+:::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
 
-   > [!div class="mx-imgBorder"]
-   > ![MsftAudienceIntelligence: Customer Insights entity](media/configure-data-entities-info.png "MsftAudienceIntelligence: Customer Insights entity")
+You can also see the enriched data by selecting **View enriched data** in the chart. Enriched data for brands can be found in the **BrandAffinityFromMicrosoft** entity, while data for interests can be found in **InterestAffinityFromMicrosoft**. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
 
-   - The **Segment** column lists the brands and interests that were evaluated by the enrichment algorithm.
-   - The **IndustryVertical** column lists the industry to which the brands and interests belong.
-   - The rest of the columns specify relative affinities to these brands and interests among profiles that are similar to your customers'. The affinity numbers represent ranks, with a rank of "1" standing for the strongest affinity.
-   - To export this entity, select **Download as CSV**.
+## See enrichment data on the customer card
 
-## Next step
+Brand and interest affinities can also be viewed on individual customer cards. Go to **Customers** and select a customer profile. In the customer card, you'll find charts for the brands and interests that people in that customer's demographic profile have affinity for.
 
-Consider extracting more insights using the **Segments**, **Customer Card**, and **Connectors** modules if you haven't done so. You also might want to define **Measures** or **Activities** for richer insights.
+:::image type="content" source="media/enrichment-customer-card.png" alt-text="Customer card with enriched data":::
+
+## Next steps
+
+Consider extracting more insights and powering your business processes by leveraging your enriched customer data. Create [Segments](pm-segments.md), [Measures](pm-measures.md), and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.
