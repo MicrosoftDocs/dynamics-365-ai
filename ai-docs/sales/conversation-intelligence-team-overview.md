@@ -1,5 +1,5 @@
 ---
-title: "Work with conversation intelligence to understand team overview feature for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
+title: "Work with conversation intelligence to understand team overview feature for Conversation Intelligence | MicrosoftDocs"
 description: "Analyze overall team performance  to improve sales and generate revenue"
 ms.date: 08/01/2019
 ms.service: crm-online
@@ -30,7 +30,7 @@ As a sales manager, these KPIs and insights help you to:
 
 - Analyze your team's conversational style.
 
-To view the **Teams overview** page, sign in to  **Dynamics 365 Conversation Intelligence**, and select **Teams overview**. 
+To view the **Teams overview** page, sign in to  **Conversation Intelligence**, and select **Teams overview**. 
 
 > [!div class="mx-imgBorder"]
 > ![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")

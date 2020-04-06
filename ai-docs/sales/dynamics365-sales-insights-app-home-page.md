@@ -1,6 +1,6 @@
 ---
-title: " View overall insights of your sales and sellers in Dynamics 365 Conversation Intelligence app | MicrosoftDocs"
-description: "View high-level information on sales and sellers with AI-driven insights readily available for Dynamics 365 Conversation Intelligence "
+title: " View overall insights of your sales and sellers in Conversation Intelligence | MicrosoftDocs"
+description: "View high-level information on sales and sellers with AI-driven insights readily available for Conversation Intelligence "
 keywords: ""
 ms.date: 08/01/2019
 ms.service: crm-online
@@ -19,7 +19,7 @@ topic-status: Drafting
 
 # View and understand home page
 
-When you sign-in to Dynamics 365 Conversation Intelligence application as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
+When you sign-in to Conversation Intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
 
 Typically, the home page is divided into the following sections:
 

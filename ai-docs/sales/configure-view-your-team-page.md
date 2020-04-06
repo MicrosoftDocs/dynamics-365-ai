@@ -1,6 +1,6 @@
 ---
-title: "Configure and view your team page in Dynamics 365 Conversation Intelligence application | MicrosoftDocs"
-description: "Configure and view your team page in Dynamics 365 Conversation Intelligence application "
+title: "Configure and view your team page in Conversation Intelligence | MicrosoftDocs"
+description: "Configure and view your team page in Conversation Intelligence "
 ms.date: 04/09/2020
 ms.service: crm-online
 ms.topic: article
@@ -13,7 +13,14 @@ topic-status: Drafting
 
 # Configure and view your team page
 
-As an administrator, you can configure the levels of hierarchy for which sales managers can view in Conversation Intelligence application. When configured, sales managers will be able to view the hierarchy under **Your team**.
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
+As an administrator, you can configure the levels of hierarchy for which sales managers can view in Conversation Intelligence. When configured, sales managers will be able to view the hierarchy under **Your team**.
 
 Let’s look at the example to understand hierarchy levels:
 
@@ -33,9 +40,9 @@ The matrix explains which data you’ll view as a sales manager, for different h
 
 ## Configure hierarchy levels
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation intelligence application](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Dynamics 365 Conversation Intelligence** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -60,7 +67,7 @@ As a sales manager, when you open Your team page in settings, you can view the l
 >[!NOTE]
 >To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact administrator to change the hierarchy on their behalf.
 
-1.	Open the **Dynamics 365 Conversation Intelligence** application. 
+1.	Open the **Conversation Intelligence** application. 
 
 2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -76,6 +83,6 @@ As a sales manager, when you open Your team page in settings, you can view the l
 
 ### See also
 
-[Prerequisites to use Conversation intelligence application](prereq-sales-insights-app.md)
+[Prerequisites to use Conversation intelligence](prereq-sales-insights-app.md)
 
-[Overview of Conversation Intelligence applications](dynamics365-sales-insights-app.md)
+[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)

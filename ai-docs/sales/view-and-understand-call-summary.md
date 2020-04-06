@@ -1,6 +1,6 @@
 ---
-title: "View and understand call summary in Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "View and understand call summary in Dynamics 365 Conversation Intelligence."
+title: "View and understand call summary in Conversation Intelligence | MicrosoftDocs"
+description: "View and understand call summary in Conversation Intelligence."
 ms.date: 04/09/2020
 ms.service: crm-online
 ms.topic: article
@@ -10,6 +10,13 @@ manager: shujoshi
 ---
 
 # View and understand call summary  
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
 Sellers and their managers need an easy way to review their conversations with their customers, and quickly find relevant talking points, keywords, and insights.
 
@@ -33,7 +40,7 @@ Review the following prerequisites before using the call summary page:
 
 - You must have the latest [Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) installed in your organization to view the call insights tab in Sales Hub app. 
 
-- You must include and update the CallPhoneCallCrmId parameter with your Dynamics 365 organization’s GUID to the metadata file while uploading the call recordings for processing. 
+- You must include and update the **CallPhoneCallCrmId** parameter with your Dynamics 365 organization’s GUID to the metadata file while uploading the call recordings for processing. To learn more, see [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md).
 
 This helps to connect the call with the activity inside Dynamics 365. To learn more, see [Upload call recordings](configure-conversation-intelligence-call-data.md#upload-call-recordings).
 

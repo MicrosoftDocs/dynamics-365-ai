@@ -1,6 +1,6 @@
 ---
-title: "First-run set up experience for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "First-run set up experience for Dynamics 365 Conversation Intelligence"
+title: "First-run set up experience for Conversation Intelligence | MicrosoftDocs"
+description: "First-run set up experience for Conversation Intelligence"
 ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
@@ -34,7 +34,7 @@ The following diagram illustrates the process of setting up application as an ad
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Sign in to **Dynamics 365 Conversation Intelligence** application as administrator.
+2.	Sign in to **Conversation Intelligence** application as administrator.
 
     > [!div class="mx-imgBorder"]
     > ![Administrator Conversation Intelligence home page](media/si-app-admin-home-page-admin-signin.png "Administrator Conversation Intelligence home page")

@@ -1,6 +1,6 @@
 ---
-title: "Data retention and deletion policy for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "Data retention and deletion policy for Dynamics 365 Conversation Intelligence"
+title: "Data retention and deletion policy for Conversation Intelligence | MicrosoftDocs"
+description: "Data retention and deletion policy for Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -37,7 +37,7 @@ To configure the retention policy:
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open **Dynamics 365 Conversation Intelligence** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -64,7 +64,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open **Dynamics 365 Conversation Intelligence** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 

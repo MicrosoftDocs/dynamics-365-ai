@@ -1,5 +1,5 @@
 ---
-title: "Work with call intelligence feature for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
+title: "Work with call intelligence feature for Conversation Intelligence | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
 ms.date: 10/31/2018
 ms.service: crm-online
@@ -16,27 +16,31 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Analyze customer calls to improve sales
+# View a seller’s performance to identify best practices and coaching opportunities 
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to the **Dynamics 365 Conversation Intelligence** application, and select **Seller details**.
+View insights and analysis of each seller’s performance during calls with customers and leads. 
+
+The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation Intelligence**, and select **Seller details**.
 
 ## Seller details page for sales managers
 
-As a sales manager, the **Seller details** page helps you analyze the overall behavior of an individual seller during customer calls. Using this analysis, you can identifying coaching scenarios to increase sales wins and productivity gains for the business. With the **Seller details** page, you can:
+As a sales manager, the **Seller details** page helps you analyze the overall behavior of an individual seller during customer calls. Using this analysis, you can identify coaching scenarios to increase wins and productivity gains for the business. With the **Seller details** page, you can:
 
 - Identify keywords that customers use during calls.
 
-- Identify competitor names that customers bring up during calls.
+- Identify competitor names that customers mention during calls.
 
 - Identify potential sellers who might need coaching.
 
-- Drill down into the seller view and analyze the data, such as conversational KPIs, insights, and customer sentiment.
+- Identify best practices of your top sellers.
 
-- Analyze call transcripts and identify the areas where sellers need coaching.
+- Drill down into each seller view and analyze the data, such as conversational KPIs, insights, and customer sentiment.
 
--	Comment on call transcripts and share with sellers.
+- Analyze call transcripts and identify the areas where sellers need coaching, or where top sellers excel.
 
-- Provide coaching comments to sales reps through emails.
+- Comment on call transcripts and share with sellers.
+
+- Drill down into specific seller’s calls to follow up on action items, signals, such as keywords, competitors mentioned during the call, and identify possible coaching activities.
 
 The following image is an example of how the seller page is displayed for sales managers:
 
@@ -48,22 +52,24 @@ Let's look at the KPIs and insights in detail:
 |KPI/Insights|Description|
 |------------|-----------|
 |**1. Date filter**|Select a timeline for which you want to view the data.|
-|**2. Basic information**|Select a seller from the drop-down list to view that seller's information such as insights, statistics, and call history. With this information, you can assess seller's behavior and identify areas where the seller requires coaching. <br> You can send an email and chat with the seller instantly to provide coaching inputs or gather information as required. Select the email icon to send an email and select the chat icon to chat with the seller. <br> This insights also displays the basic information of the seller such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
-|**3. Insights**|Displays what’s happening with the seller and the latest trends such as customer sentiments and keywords that are trending.|
-|**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that the seller handled.<br>•	**Average talk to listen ratio:** Displays the average talk and listen ratio of the seller during calls with a customer.<br>•  **Sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are behaving and spanning across the specified timeframe for the seller.|
-|**5. Call history**|Displays the sentiments and keywords across the call. Open a specific call and view the keywords and sentiments across the timeline of the call, go to a moment, and look at the call transcript. Select **Show transcript** to view the conversation transcript. To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md)|
+|**2. Basic information**|Select a seller from the drop-down list to view that seller's information such as insights, statistics, and call history. With this information, you can assess a seller's behavior and identify areas where the seller requires coaching.<br>You can comment directly on call transcripts to provide coaching inputs or gather information as required. You can also send them an email or chat directly. Select the email icon to send an email and select the chat icon to chat with the seller.<br>These insights also show the seller’s conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
+|**3. Insights**|Displays what’s happening with the seller and the latest trends specific to each seller, such as customer sentiment and talk-to-listen ratio.|
+|**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that the seller handled.<br>•	**Average talk to listen ratio:** Displays the average talk-to-listen ratio of the seller during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe for the seller.|
+|**5. Call history**|Displays a list of the seller’s calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md)|
 
 ## Seller details page for sellers
 
-As a seller, the **Seller details** page helps you analyze your overall behavior during customer calls. Using this analysis, you can identifying coaching scenarios to increase your sales wins and productivity gains for the business. With the **Seller details** page, you can:
+As a seller, the **Seller details** page helps you analyze your overall behavior during customer calls. Using this analysis, you can identify best practices, as well as areas that you need to improve. With the **Seller details** page, you can:
 
-- Identify keywords that customers use during calls.
+-	Identify the main keywords that customers use during calls.
 
-- Identify competitor names that customers bring up during calls.
+-	Identify competitor names that customers mention during calls.
 
-- Analyze call transcripts and identify the areas where you need coaching.
+-	Analyze call transcripts and identify the areas where you need coaching.
 
-- View comments on call transcripts that managers or coaches share.
+-	View your manager’s comments on your call transcripts.
+
+-	Drill down into specific calls to follow up on action items, view signals (e.g, keywords, competitors mentioned during the call), read the transcript, and more.
 
 The following image is an example of how the seller page is displayed for sellers:
 
@@ -75,10 +81,10 @@ Let's look at the KPIs and insights in detail:
 |KPI/Insights|Description|
 |------------|-----------|
 |**1. Date filter**|Select a timeline for which you want to view the data.|
-|**2. Basic information**|Displays your basic information such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
-|**3. Insights**|Displays what’s happening with you and the latest trends such as customer sentiments and keywords that are trending.|
-|**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays the average talk and listen ratio of you during calls with a customer.<br>•  **Sentiment over time:** Displays how the three customer sentiments (positive, negative, and neutral) are behaving and spanning across the specified timeframe for you.|
-|**5. Call history**|Displays list of calls. Open a specific call and view the keywords and sentiments across the timeline of the call, go to a moment, and look at the call transcript. Select **Show transcript** to view the conversation transcript. To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md)|
+|**2. Basic information**|Displays your conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
+|**3. Insights**|Displays the latest trends specific to you, such as customer sentiment and talk-to-listen ration.|
+|**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays your average talk-to-listen ratio during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe.|
+|**5. Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md)|
 
 ### See also
 

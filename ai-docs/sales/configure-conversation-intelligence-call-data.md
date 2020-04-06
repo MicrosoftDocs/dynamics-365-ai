@@ -1,6 +1,6 @@
 ---
-title: "Configure call data for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "Configure call data in Dynamics 365 Conversation Intelligence"
+title: "Configure call data for Conversation Intelligence | MicrosoftDocs"
+description: "Configure call data in Conversation Intelligence"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -139,7 +139,7 @@ Review the following requirements for audio and JSON files before you upload:
 
 Configuring the call data helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and providing insights for the call recordings. To configure the call data:
 
-1.	Open the **Dynamics 365 Conversation Intelligence** application. 
+1.	Open the **Conversation Intelligence** application. 
 
 2.	Select the settings icon on the top-right of the page and then select Settings.
 

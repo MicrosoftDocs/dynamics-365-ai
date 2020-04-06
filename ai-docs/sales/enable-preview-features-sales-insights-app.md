@@ -1,6 +1,6 @@
 ---
-title: "Enable coming soon features in Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "Enable preview features in Dynamics 365 Conversation Intelligence."
+title: "Enable coming soon features in Conversation Intelligence | MicrosoftDocs"
+description: "Enable preview features in Conversation Intelligence."
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -18,7 +18,14 @@ topic-status: Drafting
 
 # Enable coming soon features
 
-Sometimes coming soon features that change the look, feel, or functionality of the application, are added to the Dynamics 365 Conversation Intelligence application before the formal release.
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
+Sometimes coming soon features that change the look, feel, or functionality of the application, are added to Conversation Intelligence before the formal release.
 
 As an administrator, activating **Coming soon** mode gives users in your organization early access to these new features, allowing them to share feedback with us before the changes are formally released. 
 
@@ -32,7 +39,7 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Dynamics 365 Conversation Intelligence** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 

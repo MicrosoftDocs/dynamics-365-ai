@@ -81,7 +81,7 @@ The following features are available under the Dynamics 365 Sales Insights app:
 - Team report
 - Conversation intelligence
 
-To learn more, see [Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence](dynamics365-sales-insights-app.md).
+To learn more, see [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md).
 
 ## For effective use of Sales Insights
 

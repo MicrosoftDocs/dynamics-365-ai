@@ -1,6 +1,6 @@
 ---
-title: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Conversation Intelligence"
+title: "Configure keywords and competitors to track in Conversation Intelligence | MicrosoftDocs"
+description: "Configure keywords and competitors to track in Conversation Intelligence"
 ms.date: 08/01/2018
 ms.service: crm-online
 ms.custom: 
@@ -26,7 +26,7 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Dynamics 365 Conversation Intelligence** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 

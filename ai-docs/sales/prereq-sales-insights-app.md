@@ -1,6 +1,6 @@
 ---
-title: "Prerequisites to administer Dynamics 365 Conversation Intelligence | MicrosoftDocs"
-description: "Prerequisites on how to administer Dynamics 365 Conversation Intelligence"
+title: "Prerequisites to administer Conversation Intelligence | MicrosoftDocs"
+description: "Prerequisites on how to administer Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -26,9 +26,9 @@ Verify the following requirements before setting up Conversation Intelligence fo
 
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
 
--	You must get access to the Dynamics 365 Conversation Intelligence. If you do not have access, follow these steps:
+-	You must get access to Conversation Intelligence. If you do not have access, follow these steps:
     
-    1.	To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
+    1.	To access the app, go to [Conversation Intelligence](https://sales.ai.dynamics.com/).
     
     2.	Enter your work email address.
     
