@@ -65,8 +65,6 @@
 
 - name: Export options
   items: 
-    - name: Export segments
-      href: segment-export.md
     - name: Set up export destinations
       href: export-destinations.md
     - name: Install the Customer Card Add-in 
