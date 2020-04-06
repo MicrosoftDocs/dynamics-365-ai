@@ -1,7 +1,7 @@
 ---
 title: "First-run set up experience for Dynamics 365 Conversation Intelligence | MicrosoftDocs"
 description: "First-run set up experience for Dynamics 365 Conversation Intelligence"
-ms.date: 07/31/2018
+ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -72,13 +72,13 @@ The following diagram illustrates the process of setting up application as an ad
     > [!div class="mx-imgBorder"]
     > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
  
-8.	If you want to turn the preview feature, on the **Turn on the preview features** dialog box, select the preview feature and then select **Agree and continue**.
+8.	If you want to turn the coming soon feature, on the **Coming soon** dialog box, select the preview feature and then select **Agree and continue**.
 
     > [!div class="mx-imgBorder"]
     > ![Turn on preview feature](media/si-app-admin-enable-preview-feature.png "Turn on preview feature")
  
     > [!NOTE]
-    > If you don’t want to enable the preview feature for your organization, skip this step to proceed. You can always enable the preview features later. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
+    > If you don’t want to enable the preview feature for your organization, skip this step to proceed. You can always enable the preview features later. To learn more, see [Enable coming soon features](enable-preview-features-sales-insights-app.md).
 
 9.	On the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and competitors in Conversation content](configure-keywords-competitors.md).
 
