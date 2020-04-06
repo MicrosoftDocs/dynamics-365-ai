@@ -1,7 +1,7 @@
 ---
 title: "Measures in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Define customer-related measures to analyze and reflect the performance of certain business areas."
-ms.date: 03/25/2020
+ms.date: 04/06/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -9,6 +9,7 @@ ms.author: mhart
 ms.reviewer: nimagen
 manager: shellyha
 ---
+
 # Work with measures
 
 **Measures** represent key performance indicators (KPIs) that reflect the performance and health of specific business areas. Dynamics 365 Customer Insights provides an intuitive experience for building different types of measures, using a query builder that doesn't require you to code or validate your measures manually. You can track your business measures on the **Home** page, see measures for specific customers on the **Customer Card**, and use measures to define customer segments on the **Segments** page.
@@ -69,7 +70,7 @@ This section walks you through creating a measure from scratch. You can build me
 
     - **Entity**: If you define a Measure entity, it should include at least one attribute. If you define a Measure attribute, it will include only one attribute by default. This selection is about choosing the entity that includes that attribute.
     - **Field**: Choose the specific attribute to be included either in your Measure entity or attribute.
-    - **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. This is a required selection only if you've selected a Date type attribute.
+    - **Bucket**: Choose whether you want to aggregate data on a daily, monthly, or annual basis. It's a required selection only if you've selected a Date type attribute.
     - **As**: Defines the name of your new field.
     - **Display name**: Defines the display name of your field.
 
