@@ -1,7 +1,7 @@
 ---
 title: "Teams bot | Microsoft Docs"
 description: "Look up unified customer profiles from Customer Insights in Microsoft Teams with the help of a bot."
-ms.date: 04/03/2020
+ms.date: 04/06/2020
 ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "teams-bot"
