@@ -10,7 +10,7 @@ ms.author: a-dasatu
 manager: shellyha
 ---
 
-# Real-time data ingestion
+# Real-time data ingestion (preview)
 
 The near real-time functionality lets you see the latest interactions that your customers have made with your products or services within seconds.
 
