@@ -29,12 +29,11 @@ You can post an activity in the format of your source system or in the UnifiedAc
 
 Activities ingested through the real-time API expire and will only be kept for 30 days. If you want them to be included in Customer Insights for longer you need to ensure that they also get added to the data source. This will pull them during the next scheduled refresh of Customer Insights.
 
-Following the same logic, activities added only through the real-time API are not part of exports and won't show up in PowerBI either.
-
 > [!NOTE]
 >
 > - Activities are immutable. They don't change once created.
 > - Currently, segments and measures won't update based on the new activity.
+> - Activities added only through the real-time API are not part of exports and won't show up in PowerBI either.
 
 ## Connect directly to the real-time API
 
@@ -49,7 +48,7 @@ Details of this API, including parameters and responses, can be found in the *En
 - [Activities configured and run](pm-activities.md)
 - Authenticating account requires Contributor or Admin role
 
-1. Follow the [steps to use Swagger UI in production](pm-apis.md#use-swagger-ui-in-production).
+1. Follow the [steps to use Swagger UI](pm-apis.md#use-swagger-ui).
 
 2. On that page, go to the **EntityData** endpoint and select the **POST** /api/instances/{instanceId}/data/{entityName} action.
 
@@ -57,7 +56,7 @@ Details of this API, including parameters and responses, can be found in the *En
 
 4. In the field **instanceId**, enter your instance ID which you find in the URL of your Customer Insights instance, or in **Settings** > **Environments**.
 
-5. Under relative path, enter the name of the entity you chose. For example, UnifiedActivity.    
+5. Under relative path, enter the name of the entity you chose. For example, eCommerce_eCommercePurchases.    
 You can find all entities in Customer Insights on **Data** > **Entities**.
 
    > [!div class="mx-imgBorder"]
