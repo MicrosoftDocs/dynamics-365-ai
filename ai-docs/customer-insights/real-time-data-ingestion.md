@@ -49,7 +49,7 @@ Details of this API, including parameters and responses, can be found in the *En
 - [Activities configured and run](pm-activities.md)
 - Authenticating account requires Contributor or Admin role
 
-1. Follow the steps to use Swagger in production.
+1. Follow the [steps to use Swagger UI in production](pm-apis.md#use-swagger-ui-in-production).
 
 2. On that page, go to the **EntityData** endpoint and select the **POST** /api/instances/{instanceId}/data/{entityName} action.
 
