@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to an LiveRamp | Microsoft Docs"
 description: "Learn how to configure the connection to LiveRamp."
-ms.date: 04/03/2020
+ms.date: 04/06/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Connector to LiveRamp&reg;
 
-Activate your data in LiveRamp to connect with over 500 platforms across digital, social, and TV ecosystems. Work with your data in LiveRamp for targeting, suppressing, and personalizing ad campaigns.
+Activate your data in LiveRamp to connect with over 500 platforms across digital, social, and TV ecosystems. Work with your data in LiveRamp to target, suppress, and personalize ad campaigns.
 
 ## Prerequisites
 
@@ -23,11 +23,11 @@ Activate your data in LiveRamp to connect with over 500 platforms across digital
 
 1. Go to **Admin** > **Export destinations**  and select **Add destination**.
 
-1. Select **LiveRamp** in the **Type** drop down list.
+1. Select **LiveRamp** in the **Type** dropdown list.
 
 1. Give your destination a recognizable name in the **Display name** field.
 
-1. Provide **Username** and **Password** for your LiveRamp Secure FTP (SFTP) account.
+1. Provide a **Username** and **Password** for your LiveRamp Secure FTP (SFTP) account.
 These credentials may be different from your LiveRamp Onboarding credentials.
 
 1. Select **Verify** to test the connection to LiveRamp.
@@ -45,9 +45,9 @@ These credentials may be different from your LiveRamp Onboarding credentials.
 1. Select **Add attribute** to map additional attributes to send to LiveRamp.
 
    > [!TIP]
-   > Sending more key identifier attributes to LiveRamp likely gets you a higher match rate.
+   > Sending more key identifier attributes to LiveRamp is likely to get you a higher match rate.
 
-1. Select the checkbox next to each of the segments you want to export to LiveRamp.
+1. Select the segments you want to export to LiveRamp.
 
 1. Select **Save**.
 
