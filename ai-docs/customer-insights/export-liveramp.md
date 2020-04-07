@@ -47,7 +47,7 @@ These credentials may be different from your LiveRamp Onboarding credentials.
    > [!TIP]
    > Sending more key identifier attributes to LiveRamp is likely to get you a higher match rate.
 
-1. Select the checkbox next to the segments you want to export to LiveRamp.
+1. Select the segments you want to export to LiveRamp.
 
 1. Select **Save**.
 
