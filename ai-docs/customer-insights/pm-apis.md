@@ -23,7 +23,7 @@ The goal of this section isn't to cover all the Customer Insights APIs, but rath
 
 If you aren't familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
 
-## Use Swagger UI in production
+## Use Swagger UI
 
 1. Go to [Customer Insights Swagger UI webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
@@ -31,7 +31,7 @@ If you aren't familiar with Swagger, see the following step-by-step tutorial: [S
 
 3. Open the **Instances GET** endpoint and select **Try it out** to  execute the call.
 
-4. Copy the value from **scaleUnitUri** and replace the URL in your address bar with it.
+4. Copy the value from **scaleUnitUri** and replace the server address (https://global.api.ci.ai.dynamics.com) in your address bar with it.
 
 ## Functionalities served with the Customer Insights Open Data Protocol APIs
 
