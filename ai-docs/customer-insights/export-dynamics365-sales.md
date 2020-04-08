@@ -1,15 +1,35 @@
+---
+title: "Export Customer Insights data to an Dynamics 365 Sales | Microsoft Docs"
+description: "Learn how to configure the connection to Dynamics 365 Sales."
+ms.date: 04/08/2020
+ms.reviewer: philk
+ms.service: dynamics-365-ai
+ms.topic: "get-started-article"
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
+---
 
-### Dynamics 365 Sales
+# Connector for Dynamics 365 Sales
 
-1. On the **Export destinations** page, select **Add destination**.
+Use your customer data to create marketing lists, follow up workflows, and send out promotions with Dynamics 365 Sales.
 
-2. Choose **Dynamics 365 Sales** in the **Type** drop-down list.
+## Configure the connector for Sales
 
-3. Define your Dynamics 365 Sales URL in **Server address**, select **Sign in**, and select a Dynamics 365 Sales account.
+1. In Customer Insights, go to **Admin** > **Export destinations**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Add destination page](media/export-destinations-dynamics365-for-sales.png "Add destination page")
+1. Under **Dynamics 365 Sales** select **Set up**.
 
-4. Give your destination a recognizable name in **Display name**.
+1. Give your export destination a recognizable name in the **Display name** field.
 
-5. Select **Add**.
+1. Enter your organization's Sales URL in the **Server address** field.
+
+1. In the **Server admin account** section, select **Sign in** and choose a Dynamics 365 Sales account.
+
+1. Map a Customer Insights field to the Dynamics 365 Contact ID.
+
+1. Select **Next**.
+
+## Export the data
+
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).

@@ -1,6 +1,6 @@
 ---
-title: "Export Customer Insights data to an Azure Blob storage | Microsoft Docs"
-description: "Learn how to configure the connection to Azure Blob storage."
+title: "Export Customer Insights data to Dynamics 365 Marketing | Microsoft Docs"
+description: "Learn how to configure the connection to Dynamics 365 Marketing."
 ms.date: 04/08/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
@@ -26,7 +26,7 @@ Use the [segments created in Customer Insights](pm-segments.md) to generate camp
 
 1. In the **Server admin account** section, select **Sign in** and choose a Dynamics 365 Marketing account.
 
-1. Map Customer Insights fil to the Dynamics 365 Contact ID.
+1. Map a Customer Insights field to the Dynamics 365 Contact ID.
 
 1. Select **Next**.
 
