@@ -25,11 +25,11 @@ If you aren't familiar with Swagger, see the following step-by-step tutorial: [S
 
 ## Use Swagger UI
 
-1. Go to [Customer Insights Swagger UI webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
+1. Go to the [Customer Insights Swagger UI webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
-2. Select **Authenticate** and use your Customer Insights credentials.
+2. Select **Authorize** and use your Customer Insights credentials.
 
-3. Open the **Instances GET** endpoint and select **Try it out** to  execute the call.
+3. Open the Instances > GET endpoint. Select **Try it out** and **Execute** the call.
 
 4. Copy the value from **scaleUnitUri** and replace the server address (https://global.api.ci.ai.dynamics.com) in your address bar with it.
 
