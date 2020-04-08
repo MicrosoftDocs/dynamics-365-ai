@@ -27,6 +27,8 @@
       href: incremental-refresh-data-sources.md
     - name: Understand entities and datasets
       href: pm-entities.md
+    - name: Real-time data ingestion
+      href: real-time-data-ingestion.md
 
 - name: Data unification
   items: 
