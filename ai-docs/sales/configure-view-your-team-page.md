@@ -11,6 +11,9 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
+<!--Please confirm that the names in the final image are from an approved fictitious names list. -->
+
+
 # Configure and view your team page
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -35,12 +38,12 @@ The matrix explains which data you’ll view as a sales manager, for different h
 | Level 2 | Choose this option to get insights on both your direct team members and their direct team members. |
 | Level 3 | Choose this option to get insights on level 1, level 2, and level 2’s team members. |
 
->[!NOTE]
->Conversation Intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [set up manager and position hierarchies](https://docs.microsoft.com/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
+> [!NOTE]
+> Conversation Intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](https://docs.microsoft.com/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ## Configure hierarchy levels
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation intelligence](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
 
 2.	Open the **Conversation Intelligence** application. 
 
@@ -62,10 +65,10 @@ The matrix explains which data you’ll view as a sales manager, for different h
 
 ## View your team
 
-As a sales manager, when you open Your team page in settings, you can view the list of employees who are part of your hierarchy as configured by the administrator. 
+As a sales manager, when you open the Your team page in settings, you can view the list of employees who are part of your hierarchy as configured by the administrator. 
 
->[!NOTE]
->To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact administrator to change the hierarchy on their behalf.
+> [!NOTE]
+> To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf.
 
 1.	Open the **Conversation Intelligence** application. 
 
@@ -79,10 +82,10 @@ As a sales manager, when you open Your team page in settings, you can view the l
     > [!div class="mx-imgBorder"]
     > ![View your team members](media/si-app-admin-view-your-team-members.png "View your team members")
 
-    The list is updated every 24 hours to display the current active sellers in managers hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.
+    The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.
 
 ### See also
 
-[Prerequisites to use Conversation intelligence](prereq-sales-insights-app.md)
+[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
 
-[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
+[Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
