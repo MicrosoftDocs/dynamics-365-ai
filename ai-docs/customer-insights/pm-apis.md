@@ -35,9 +35,6 @@ If you aren't familiar with Swagger, see the following step-by-step tutorial: [S
 
 ## Functionalities served with the Customer Insights Open Data Protocol APIs
 
-> [!div class="mx-imgBorder"]
-> ![Open Data Protocol APIs](media/api-entity-data.png "Open Data Protocol APIs")
-
 - PUT API: /api/instances/{instanceId}/data/{relativePath}
 
 | Functionality | Guidance | Limitations |

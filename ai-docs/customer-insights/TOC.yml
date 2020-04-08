@@ -23,6 +23,8 @@
       href: pm-common-connectors.md
     - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
+    - name: Incremental refresh for data sources
+      href: incremental-refresh-data-sources.md
     - name: Understand entities and datasets
       href: pm-entities.md
     - name: Real-time data ingestion
@@ -65,8 +67,6 @@
 
 - name: Export options
   items: 
-    - name: Export segments
-      href: segment-export.md
     - name: Set up export destinations
       href: export-destinations.md
     - name: Install the Customer Card Add-in 

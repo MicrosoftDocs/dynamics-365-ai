@@ -48,18 +48,15 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 1. On the **Permissions** page, select **Add** to open the **Add permissions** pane.
 
-2. In the **Select** field, find the user whose permissions you want to adjust. Choose a **Role** to assign to that user.
+2. In the **Select** field, find the user or group whose permissions you want to adjust. Choose a **Role** to assign to that user or group.
 
-   > [!div class="mx-imgBorder"]
-   > ![Enter a name](media/permissions-roles.png "Enter a name")
-
-3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user whose permissions you've changed. This user will be able to enter the Customer Insights app and perform actions according to their specified role.
+3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. Users can access the Customer Insights app and perform actions according to their specified role.
 
 ## View current permissions
 
 Use the **Permissions** page to see what role assignments are currently active.
 
-- The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports only individual users. In the future, it will also support groups and applications that can connect to Customer Insights via APIs.
+- The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports individual users and groups. 
 - Roles are specified under the **Role** column.
 - Use the search field at the top of the page to locate specific users.
 - You can select any column title to sort the results by that column's value.
