@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: Map data to create unified customer profile in Dynamics 365 Customer Insights
-ms.date: 02/05/2020
+ms.date: 04/02/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -81,6 +81,16 @@ Before completing the matching phase, you need to define the primary key and its
 - **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include either duplicate values, missing values, or null values.
 
 - **Attribute type**: Categories of your attributes, such as email address or name. Adding a custom entity type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
+
+## Add images to profiles
+
+If an entity contains URLs to publicly available profile images or logos, you can add them to the unified customer profile.
+
+Select the entity and find the field that contains the URL to the profile image. In the **Type** input field manually enter the following value: 
+- For a person: Person.ProfileImage
+- For an organization: Organization.LogoImage
+
+Proceed with the unification steps and ensure the attribute that contains the image URL is also added in the [Merge](pm-merge.md) step.
 
 ## Set attributes for organizations
 
