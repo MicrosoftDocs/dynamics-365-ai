@@ -48,7 +48,7 @@ The following diagram illustrates the process of setting up application as an ad
   
     The application detects your environment.
 
-5.	On the **Terms and conditions** dialog box, accept the terms and conditions and select **Agree and continue**.
+5.	On the **Terms and conditions** dialog box, read and select the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement) and [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Agree and continue**.
 
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
