@@ -1,13 +1,35 @@
+---
+title: "Export Customer Insights data to an Azure Blob storage | Microsoft Docs"
+description: "Learn how to configure the connection to Azure Blob storage."
+ms.date: 04/08/2020
+ms.reviewer: philk
+ms.service: dynamics-365-ai
+ms.topic: "get-started-article"
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
+---
 
+# Connector for Dynamics 365 Marketing
 
-### Dynamics 365 Marketing
+Use the [segments created in Customer Insights](pm-segments.md) to generate campaigns and reach out to specific groups of customers with Dynamics 365 Marketing.
 
-1. On the **Export destinations** page, select **Add destination**.
+## Configure the connector for Marketing
 
-2. Choose **Dynamics 365 Marketing** in the **Type** drop-down list.
+1. In Customer Insights, go to **Admin** > **Export destinations**.
 
-3. Define your Dynamics 365 Marketing URL in **Server address**, select **Sign in**, and select a Dynamics 365 Marketing account.
+1. Under **Dynamics 365 Marketing** select **Set up**.
 
-4. Give your destination a recognizable name in **Display name**.
+1. Give your export destination a recognizable name in the **Display name** field.
 
-5. Select **Add**.
+1. Enter your organization's Marketing URL in the **Server address** field.
+
+1. In the **Server admin account** section, select **Sign in** and choose a Dynamics 365 Marketing account.
+
+1. Map Customer Insights fil to the Dynamics 365 Contact ID.
+
+1. Select **Next**.
+
+## Export the data
+
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).

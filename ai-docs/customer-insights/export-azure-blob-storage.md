@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to an Azure Blob storage | Microsoft Docs"
 description: "Learn how to configure the connection to Azure Blob storage."
-ms.date: 04/03/2020
+ms.date: 04/08/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,13 +10,15 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connector to Azure Blob storage
+# Connector for Azure Blob storage
 
 Store your Customer Insights data in an Azure Blob or use it to transfer your data to other applications.
 
-## Configure the connector to Azure Blob storage
+## Configure the connector for Azure Blob storage
 
-1. On the **Export destinations** page, locate **Azure Blob storage** and select **Set up**.
+1. In Customer Insights, go to **Admin** > **Export destinations**.
+
+1. Under **Azure Blob Storage** select **Set up**.
 
 1. Enter **Account name**, **Account key**, and **Container** for your Azure Blob storage account.
     - To learn more about how to find the Azure Blob storage account name and account key, see [Manage storage account settings in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-account-manage).
