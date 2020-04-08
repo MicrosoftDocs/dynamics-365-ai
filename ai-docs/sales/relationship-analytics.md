@@ -110,6 +110,53 @@ You can view complete relationship analytics for an individual record, including
 
 **Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received. 
 
+
+## View similar opportunities 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
+The enhanced relationship analytics is provided to you as a preview and administrator must enable before you start using. To learn more, see **step 6** in [Configure Relationship analytics](configure-relationship-analytics.md).
+
+The current relationship analytics provides information such as graphs, KPIs, email interaction history, full activity history, and relationship health. This information doesn't offer a comparison with similar deals that are won, what is working, and what isn’t working in the deal’s engagement practices.
+
+As a seller, it's important for you to understand what is working better for a deal and learn about the best engagement practices from similar deals that are won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that are won. Also, a list of similar deals that are won is displayed at the bottom. By opening the deals, you can learn what has worked, and what didn't work and implement these learnings in the current deal to close.
+
+The following screen is an example of enhanced relationship analytics:
+
+> [!div class="mx-imgBorder"]
+> ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")
+
+1. **Relationship health**: Shows your overall relationship health with the customer and includes the recent trend for the deal. 
+  
+    - **Next interaction.** Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
+    - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
+  
+    Also, show the top three most active contacts for the deal from you and your customer's organizations with the last interaction time details.
+
+2. **Customer interactions**: Shows the latest insight on average interactions with customers compared to similar deals that are closed as won. Also, suggest the next best interaction that you can do with this deal. 
+
+    The graph displays the total number of activities initiated by members of your team and by the customer compared with the similar deals. The activities are broken down by general type such as email, meetings, and phone calls. 
+
+3. **Hourly investment**: Shows the latest insight with average time spent on similar deals that are closed as won compared to the current deal. Also, suggest the next best action that you can do with this deal. 
+
+    The graph displays the average time spent in interacting with customers in similar deals compared with the current deal.
+
+4. **Response time**: Shows the latest insight on average time (in hours) take to respond to customer queries compared to similar deals that are closed as won. Also, suggest the next best action that you can do with this deal.
+
+    The graph displays how fast you and your team is responding to customers in the current deal compared with similar deals.
+
+5. **Response ratio**: Shows the latest insight on the rate at which the response is given to customers compared to similar deals that are closed as won. Also, suggest the next best action that you can do with this deal.
+
+    The graph displays the percentage of the rate at which you and your team are responding to customers in the current deal compared with similar deals.
+
+6. **Similar won deals**: Shows the list of similar opportunities that are closed as won deals. The columns display activities count, time spent, response time, and response ration for each opportunity. You can select and open an opportunity to view what has worked better in the deal to close as won and implement these observations in the current deal to close as won. The list refreshes every seven days.
+
+
 <a name="Calculations"></a>   
 
 ## How relationship analytics values are calculated  
