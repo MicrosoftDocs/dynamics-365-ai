@@ -128,7 +128,7 @@ The following image is an example of how the "competitors mentioned" insight is 
 > [!div class="mx-imgBorder"]
 > ![Competitors mentioned](media/si-app-competitors-mentioned.png "Competitors mentioned")
 
-In this example, you can see that Contoso 360 (+31%), Engravex (+26%), and Protosystem (+22%) are the most trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the top 20 competitors and the number of times that these competitors were mentioned in the calls. 
+In this example, you can see that Contoso 360 (+31%), Relecloud (+26%), and Protosystem (+22%) are the most trending competitors, and you can define a sales strategy related to these competitors. The bubbles show the top 20 competitors and the number of times that these competitors were mentioned in the calls. 
 
 You can define which competitors you want to track during the sales call. To learn more, see [Configure keywords and competitors to track](configure-keywords-competitors.md).
 
