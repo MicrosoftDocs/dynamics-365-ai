@@ -1,7 +1,7 @@
 ---
-title: "Export Customer Insights data to an LiveRamp | Microsoft Docs"
+title: "Export Customer Insights data to LiveRamp | Microsoft Docs"
 description: "Learn how to configure the connection to LiveRamp."
-ms.date: 04/06/2020
+ms.date: 04/09/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
