@@ -629,6 +629,11 @@
       "source_path": "ai-docs/sales/dynamics-365-ai-for-sales.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"  
+    },
+    {
+      "source_path": "ai-docs/customer-insights/segment-export.md",
+      "redirect_url": "pm-segments",
+      "redirect_document_id": "false"  
     }
   ]
 }

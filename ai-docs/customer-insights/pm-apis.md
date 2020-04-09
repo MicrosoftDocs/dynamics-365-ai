@@ -1,7 +1,7 @@
 ---
 title: "APIs | Microsoft Docs"
 description: "APIs for Dynamics 365 Customer Insights."
-ms.date: 03/25/2020
+ms.date: 04/07/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # APIs
 
-There are currently several types of APIs you can use with Dynamics 365 Customer Insights. Details of these APIs, including parameters and responses, can be found on the [Customer Insights Swagger webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
+There are currently several types of APIs you can use with Dynamics 365 Customer Insights. Details of these APIs, including parameters and responses, can be found on the [Customer Insights Swagger UI webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
 The goal of this section isn't to cover all the Customer Insights APIs, but rather to:
 
@@ -22,6 +22,16 @@ The goal of this section isn't to cover all the Customer Insights APIs, but rath
 ## How to use the Customer Insights Swagger webpage
 
 If you aren't familiar with Swagger, see the following step-by-step tutorial: [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html).
+
+## Use Swagger UI
+
+1. Go to the [Customer Insights Swagger UI webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
+
+2. Select **Authorize** and use your Customer Insights credentials.
+
+3. Open the **Instances** > **GET /api/instances** endpoint. Select **Try it out** and **Execute** the call.
+
+4. Copy the value from **scaleUnitUri** and replace the server address (https://global.api.ci.ai.dynamics.com) in your address bar with it.
 
 ## Functionalities served with the Customer Insights Open Data Protocol APIs
 

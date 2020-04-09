@@ -1,7 +1,7 @@
 ---
 title: "Share insights publicly from Dynamics 365 Market Insights Preview | Microsoft Docs"
 description: "Share insights publicly using LinkedIn, Twitter, or the direct URL."
-ms.date: 09/26/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # Share insights 
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 Share insights with colleagues or your audience by using the **Share** control on any insight in the feed or the details page. You can share an insight directly to Twitter and LinkedIn, or copy the link to the insight to distribute it using other media.
 
