@@ -18,7 +18,7 @@ topic-status: Drafting
 ---
 
 
-<!--Please confirm that the people and business names in these images are from an approved fictitious names source.   -->
+<!--Please confirm that the people and business names in these images are from an approved fictitious names source. Also, please look for three questions farther down in this topic.  -->
 
 
 
