@@ -2,13 +2,13 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 4/23/2019
+ms.date: 4/6/2020
 ms.service:
   - dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: m-hartmann
-ms.author: mhart
+author: iaanw
+ms.author: iawilt
 manager: shellyha
 search.app: capaedac-csi
 search.audienceType: enduser
@@ -22,6 +22,8 @@ Dynamics 365 Customer Service Insights ([https://csi.ai.dynamics.com](https://cs
 Customer Service Insights uses artificial intelligence to automatically group your cases into topics using natural language understanding. Topics enable you to discover and adapt to current and emerging trends, improve brand sentiment, and identify problem areas. By pinpointing and fixing issues before they impact customers, you can deliver better customer service experiences.
 
 The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
+
+You can access Customer Service Insights dashboards through either the [standalone app](https://csi.ai.dynamics.com) or Dynamics 365 Customer Service Hub. See [Configure Customer Service Insights reports](/dynamics365/customer-service/configure-customer-service-analytics-insights-csh#configure-customer-service-insights-reports) to see how to set up the dashboards and reports in Customer Service Hub.
 
 ![Example of KPI summary dashboard](media/kpi-summary.png)
 

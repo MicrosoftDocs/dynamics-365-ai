@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Dynamics 365 Market Insights Preview is no longer available as a standalone application to new customers starting on April 10, 2020 and will end the service for all existing customers on May 11, 2020. We will incorporate the core technology and learnings from Market Insights Preview into [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) and [Microsoft Bing Industry Updates](https://newspro.microsoft.com/baw/homepage). Read the [Market Insights discontinuation FAQ](../market-insights/eos-faq.md) to learn more.

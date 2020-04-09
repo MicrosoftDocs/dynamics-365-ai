@@ -2,7 +2,7 @@
 title: "Data science concepts applied to alerts | Microsoft Docs"
 description: "Data science for alerts in Market Insights."
 keywords: "data science, alerts, daily digest, email"
-ms.date: 04/01/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 8f826a0a-b807-4342-81ba-d4df94496dee
@@ -19,6 +19,8 @@ search.app:
 ---
 
 # How relevancy is determined in alerts
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 

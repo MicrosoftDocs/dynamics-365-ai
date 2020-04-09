@@ -1,7 +1,7 @@
 ---
 title: "Enrichment of customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 03/19/2020
+ms.date: 04/09/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Enrichment of customer profiles with brand and interest affinities
+# Enrichment of customer profiles with brand and interest affinities (preview)
 
 Leverage proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers based on their affinities to specific brands and interests.
 
