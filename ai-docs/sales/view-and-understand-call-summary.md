@@ -9,10 +9,6 @@ ms.author: udag
 manager: shujoshi
 ---
 
-
-<!-- See questions farther down in this topic. Also, please confirm that any people or business names in the images are from approved fictitious name sources. -->
-
-
 # View and understand call summary  
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -76,11 +72,6 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 The following image is an example of the call summary page:
 
-
-<!-- Just pointing out that the names in the following image are Theresa and Stella, but the conversation calls them Maria and Elizabeth, which is a little strange to anyone paying that much attention. -->
-
-
-
 > [!div class="mx-imgBorder"]
 > ![Call summary page](media/si-app-call-summary-page.png "Call summary page")
 
@@ -110,12 +101,7 @@ Let's look at the KPIs and insights on the call summary page in detail:
 
     -	**Prices**: Displays prices mentioned during the call; for example, the product will cost **$50**. When you select a price, you can see where it was mentioned on the timeline.
 
-
-
-    <!-- In the following paragraph, is "When you select one below ..." correct? Unclear what is below. -->
-
-
-    -	**Buying intent**: Displays possible buying intent mentioned during the call; for example, **I want to buy a printer**. When you select one below, you can see where it was mentioned on the timeline.
+    -	**Buying intent**: Displays possible buying intent mentioned during the call; for example, **I want to buy a printer**. When you select a buying intent, you can see where it was mentioned on the timeline.
 
 3.	**Core conversation information**: Displays metrics such as average talking speed, switch per conversations, average pause, and longest customer monologue.
 
@@ -126,11 +112,6 @@ Let's look at the KPIs and insights on the call summary page in detail:
     As a seller, you can review the transcript and comments that are posted by your manager or coach on the timeline. You can provide replies to the comments appropriately.
 
     On a selected timeline, select **Add comment** to provide necessary replies or self-comments, and then select **Save**. 
-
-
-
-    <!-- Can you also convert from English to other supported languages? -->
-
 
     The bolded text in the transcript are the brands, tracked keywords, and competitors mentioned in the conversation. If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the Translate icon to convert the transcript into English.
 

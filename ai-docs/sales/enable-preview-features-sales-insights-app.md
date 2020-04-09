@@ -16,8 +16,6 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-<!--The "note" in line 39 says almost the same thing as "important" in line 34. Suggest removing one. -->
-
 # Enable coming soon features
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -32,12 +30,9 @@ Sometimes "coming soon" features that change the look, feel, or functionality of
 As an administrator, activating **Coming soon** mode gives users in your organization early access to these new features, allowing them to share feedback with us before the changes are formally released. 
 
 > [!IMPORTANT]
-> If you’ve already enabled **Coming soon** mode during your first-run setup, you’re not required to enable it again; however, you can disable **Coming soon** mode in your organization  if you don’t wish to experience the new features that are yet to be released.
+> If you’ve already enabled **Coming soon** mode during your first-run setup, you’re not required to enable it again; however, you can disable **Coming soon** mode in your organization if you don’t wish to experience the new features that are yet to be released.
 
 **Follow these steps to enable previews**:
-
-> [!NOTE]
-> If you have already enabled the preview feature through first-run set up, you are not required to enable it again; however, you can disable it if you don’t wish to use it in your organization.
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
 

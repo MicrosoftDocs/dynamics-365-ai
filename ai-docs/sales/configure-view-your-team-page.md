@@ -11,9 +11,6 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-<!--Please confirm that the names in the final image are from an approved fictitious names list. -->
-
-
 # Configure and view your team page
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]

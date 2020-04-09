@@ -17,11 +17,6 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-
-<!--Please confirm that the people and business names in these images are from an approved fictitious names source. Also, please look for three questions farther down in this topic.  -->
-
-
-
 # View and understand home page
 
 When you sign in to Conversation Intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
@@ -139,11 +134,6 @@ You can define which competitors you want to track during the sales call. To lea
 
 Select **Show details** to view more details on top trending competitors. The details include how many times each competitor is mentioned in the total number of calls, trend of each competitor over time, and the list of calls that are contributing in analyzing the competitors. Further, you can select each call and view the summary. To learn more about call summary, see [View and understand call summary](view-and-understand-call-summary.md).
 
-
-
-<!-- This image looks nearly identical to the one in line 125 - is that correct?  -->
-
-
 > [!div class="mx-imgBorder"]
 > ![Competitors mentioned more details page](media/si-app-competitors-mentioned-details.png "Competitors mentioned more details page")
 
@@ -220,10 +210,6 @@ The following image is an example of how the "customer sentiment" insight is dis
 > [!div class="mx-imgBorder"]
 > ![Comparison of customer sentiment](media/si-app-customer-sentiment-top-sellers.png "Comparison of customer sentiment")
 
-
-<!--Unsure about "to key out selling opportunities" in the following paragraph. Is something missing? -->
-
-
 In this example, you can see that top sellers (28%) are driving more negative customer sentiment compared to that of your team (26%). This indicates that top sellers may be asking more questions to identify the customer's pain points in order to resolve them to key out selling opportunities.
 
 Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on customer sentiment.
@@ -250,12 +236,7 @@ The following image is an example of how the "engagement with customers" insight
 > [!div class="mx-imgBorder"]
 > ![Top sellers communication mode](media/si-app-engagement-with-customer.png "Top sellers communication mode")
 
-
-
-<!--The numbers cited below don't match the image. -->
-
-
-In this example, you can see that top sellers are spending more time on meetings (55 hours) than on phone calls (42 hours) and on emails (27 hours) while engaging with customers. By analyzing this, top sellers are engaging customers through meetings and phone calls, so you can plan to coach around these communication modes for other sellers to improve.
+In this example, you can see that top sellers are spending more time on meetings (6 hours) than on phone calls (1 hours) and on emails (23 hours) while engaging with customers. By analyzing this, top sellers are engaging customers through meetings and phone calls, so you can plan to coach around these communication modes for other sellers to improve.
 
 ## Are my team’s deals on track?
 
