@@ -9,6 +9,10 @@ ms.author: udag
 manager: shujoshi
 ---
 
+
+<!-- See questions farther down in this topic. Also, please confirm that any people or business names in the images are from approved fictitious name sources. -->
+
+
 # View and understand call summary  
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -18,9 +22,9 @@ manager: shujoshi
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-Sellers and their managers need an easy way to review their conversations with their customers, and quickly find relevant talking points, keywords, and insights.
+Sellers and their managers need an easy way to review their conversations with their customers and quickly find relevant talking points, keywords, and insights.
 
-The call summary page provides a high-level view on how the call went, and includes signals (such as identified action items and relevant keywords mentioned), the call timeline, a transcript, and more.
+The call summary page provides a high-level view of how the call went, and includes signals (such as identified action items and relevant keywords mentioned), the call timeline, a transcript, and more.
 
 The information on the call summary page helps:
 
@@ -32,15 +36,15 @@ The call summary is available in both Conversation Intelligence and Sales Hub ap
 
 ## Prerequisites
 
-Review the following prerequisites before using the call summary page:
+Before using the call summary page, you must:
 
-- You must have configured Conversation Intelligence to process the call recordings. To learn more, see [Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
+- Configure Conversation Intelligence to process the call recordings. To learn more, see [Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).
 
-- You must have processed call recordings in Conversation Intelligence. To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
+- Process call recordings in Conversation Intelligence. To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
-- You must have the latest [Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) installed in your organization to view the call insights tab in Sales Hub app. 
+- Have the latest [Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) installed in your organization to view the call insights tab in the Sales Hub app. 
 
-- You must include and update the **CallPhoneCallCrmId** parameter with your Dynamics 365 organization’s GUID to the metadata file while uploading the call recordings for processing. To learn more, see [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md).
+- Include and update the **CallPhoneCallCrmId** parameter with your Dynamics 365 organization’s GUID to the metadata file while uploading the call recordings for processing. To learn more, see [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md).
 
 This helps to connect the call with the activity inside Dynamics 365. To learn more, see [Upload call recordings](configure-conversation-intelligence-call-data.md#upload-call-recordings).
 
@@ -48,7 +52,7 @@ This helps to connect the call with the activity inside Dynamics 365. To learn m
 
 Open a conversation from the **Call history** section; the call summary page is displayed. To understand the call summary page, see [Understand the call summary page](#understand-the-call-summary-page). 
 
-## View call insights tab in Sales Hub app
+## View Call Insights tab in Sales Hub app
 
 The **Call Insights** tab is available under activities for leads and opportunities. When a customer call regarding a lead or opportunity is processed in Conversation Intelligence, the **Call Insights** tab displays the information on the summary of the call. 
 
@@ -60,8 +64,8 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 4.	Select the **Call Insights** tab. The call summary of the selected phone activity is displayed. 
 
-    >[!NOTE]
-    >Select the **Related opportunity** tab to see the list of opportunities that are associated with the call. To add related opportunities to the call, select the lookup icon and add the opportunity.
+    > [!NOTE]
+    > Select the **Related opportunity** tab to see the list of opportunities that are associated with the call. To add related opportunities to the call, select the lookup icon and add the opportunity.
 
     > [!div class="mx-imgBorder"]
     > ![Call insights tab in activities](media/si-app-activities-call-insights-tab.png "Call insights tab in activities")
@@ -72,6 +76,11 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 The following image is an example of the call summary page:
 
+
+<!-- Just pointing out that the names in the following image are Theresa and Stella, but the conversation calls them Maria and Elizabeth, which is a little strange to anyone paying that much attention. -->
+
+
+
 > [!div class="mx-imgBorder"]
 > ![Call summary page](media/si-app-call-summary-page.png "Call summary page")
 
@@ -81,27 +90,32 @@ Let's look at the KPIs and insights on the call summary page in detail:
 
 2.	**Signals pane**: Displays relevant talking points that were mentioned during the call:
 
-    -	**Action items**: Displays the list of actionable items mentioned during the call, for example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you click on an action item, you can see where it was mentioned on the timeline.
+    -	**Action items**: Displays the list of actionable items mentioned during the call; for example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline.
 
-    -	**All keywords**: Displays keywords mentioned during the call. When you click on a keyword, you can see where it was mentioned on the timeline.
+    -	**All keywords**: Displays keywords mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.
 
-    -	**Tracked competitors**: Displays the defined competitors mentioned during the call. When you click on a competitor, you can see where it was mentioned on the timeline.
+    -	**Tracked competitors**: Displays the defined competitors mentioned during the call. When you select a competitor, you can see where it was mentioned on the timeline.
 
-    -	**Tracked keywords**: Displays the pre-defined keywords that customers mentioned during the call. When you click on a keyword, you can see where it was mentioned on the timeline.
+    -	**Tracked keywords**: Displays the predefined keywords that customers mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.
 
-    -	**Other brands and org**: Displays brand and organization names (other than your organization’s) mentioned during the call. When you click on a brand or organization name, you can see where it was mentioned on the timeline. 
+    -	**Other brands and org**: Displays brand and organization names (other than your organization’s) mentioned during the call. When you select a brand or organization name, you can see where it was mentioned on the timeline. 
 
-    -	**Best-practice keywords**: Displays keywords that can be used as best-practices during the call. When you click on a best practice keyword, you can see where it was mentioned on the timeline.
+    -	**Best-practice keywords**: Displays keywords that can be used as best practices during the call. When you select a best practice keyword, you can see where it was mentioned on the timeline.
 
-    -	**People**: Displays the names of people mentioned during the call. For example, **Sarah** calling from Contoso. When you click on a name, you can see where it was mentioned on the timeline.
+    -	**People**: Displays the names of people mentioned during the call; for example, **Sarah** calling from Contoso. When you select a name, you can see where it was mentioned on the timeline.
 
-    -	**Products**: Displays the names of the products mentioned during the call, for example, I only know how to use a **Fabrikam LED TV**. When you click on a product, you can see where it was mentioned on the timeline.
+    -	**Products**: Displays the names of the products mentioned during the call; for example, I only know how to use a **Fabrikam LED TV**. When you select a product, you can see where it was mentioned on the timeline.
 
-    -	**Times**: Displays times mentioned during the call, for example, let’s talk next **week**. When you click on a time, you can see where it was mentioned on the timeline.
+    -	**Times**: Displays times mentioned during the call; for example, let’s talk next **week**. When you select a time, you can see where it was mentioned on the timeline.
 
-    -	**Prices**: Displays prices mentioned during the call, for example, the product will cost **$50**. When you click on a price, you can see where it was mentioned on the timeline.
+    -	**Prices**: Displays prices mentioned during the call; for example, the product will cost **$50**. When you select a price, you can see where it was mentioned on the timeline.
 
-    -	**Buying intent**: Displays possible buying intent mentioned during the call, for example, **I want to buy a printer**. When you click on one below, you can see where it was mentioned on the timeline.
+
+
+    <!-- In the following paragraph, is "When you select one below ..." correct? Unclear what is below. -->
+
+
+    -	**Buying intent**: Displays possible buying intent mentioned during the call; for example, **I want to buy a printer**. When you select one below, you can see where it was mentioned on the timeline.
 
 3.	**Core conversation information**: Displays metrics such as average talking speed, switch per conversations, average pause, and longest customer monologue.
 
@@ -113,6 +127,11 @@ Let's look at the KPIs and insights on the call summary page in detail:
 
     On a selected timeline, select **Add comment** to provide necessary replies or self-comments, and then select **Save**. 
 
+
+
+    <!-- Can you also convert from English to other supported languages? -->
+
+
     The bolded text in the transcript are the brands, tracked keywords, and competitors mentioned in the conversation. If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the Translate icon to convert the transcript into English.
 
     > [!div class="mx-imgBorder"]
@@ -121,6 +140,6 @@ Let's look at the KPIs and insights on the call summary page in detail:
 
 ### See also
 
-[Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
+[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)
 
 [Track and manage activities](https://docs.microsoft.com/dynamics365/sales-enterprise/manage-activities)
