@@ -41,14 +41,16 @@
 
 ### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
-### Configure Sales Insights application
-#### [Prerequisites to use Sales Insights application](../sales/prereq-sales-insights-app.md)
+### Configure Conversation Intelligence
+#### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
 #### [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md)
 #### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
 #### [Connect to Dynamics 365 Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
-#### [Enable preview features](../sales/enable-preview-features-sales-insights-app.md)
+#### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
+#### [Configure and view your team page](../sales/configure-view-your-team-page.md)
+#### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
 
 ### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
@@ -100,12 +102,12 @@
 #### [Change sales organization](change-sales-organization.md)
 #### [Get answers through bot assistant](use-bot-assistant.md)
 
-###	Sales insights application
-#### [Overview of Sales Insights applications](../sales/dynamics365-sales-insights-app.md)
+###	Conversation Intelligence
+#### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
-#### [Natural language Q&A](../sales/business-qa.md)
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
+#### [View and understand call summary](../sales/view-and-understand-call-summary.md)
 
 ## [FAQs](faqs-sales-insights.md)
 

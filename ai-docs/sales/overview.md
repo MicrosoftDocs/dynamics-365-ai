@@ -25,7 +25,7 @@ Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-i
 
 - [Advanced Sales Insights features](#advanced-sales-insights-features)
 
-- [Sales Insights application](#sales-insights-application) 
+- [Conversation Intelligence](#conversation-intelligence) 
 
 The following diagram illustrates the various features available in [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]: 
 
@@ -66,11 +66,11 @@ The advanced Sales Insights features consist of the [free Sales Insights feature
 
 - **Dynamics 365 assistant for Microsoft Teams**: Provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md). 
 
-## Sales Insights application 
+## Conversation Intelligence 
 
-The Sales Insights application provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the Dynamics 365 Sales Insights application provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence. 
+Conversation Intelligence provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the Dynamics 365 Conversation Intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence. 
 
-The features in the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] application are specifically designed to help sales managers and sellers to intelligently manage and quickly answer their most important business questions.
+The features in Conversation Intelligence are specifically designed to help sales managers and sellers to intelligently manage and quickly answer their most important business questions.
 
 > [!NOTE]
 > You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use Dynamics 365 Sales Insights features.
@@ -81,7 +81,7 @@ The following features are available under the Dynamics 365 Sales Insights app:
 - Team report
 - Conversation intelligence
 
-To learn more, see [Improve seller coaching and sales potential with Dynamics 365 Sales Insights application](dynamics365-sales-insights-app.md).
+To learn more, see [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md).
 
 ## For effective use of Sales Insights
 
