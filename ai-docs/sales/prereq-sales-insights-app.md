@@ -26,7 +26,7 @@ Verify the following requirements before setting up Conversation Intelligence fo
 
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
 
--	You must get access to Conversation Intelligence. If you do not have access, follow these steps:
+-	You must get access to Conversation Intelligence. If you don't have access, follow these steps:
     
     1.	To access the app, go to [Conversation Intelligence](https://sales.ai.dynamics.com/).
     
@@ -40,4 +40,4 @@ Verify the following requirements before setting up Conversation Intelligence fo
 
 [Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Overview of Conversation Intelligences](dynamics365-sales-insights-app.md) 
+[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md) 
