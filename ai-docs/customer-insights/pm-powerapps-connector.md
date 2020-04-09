@@ -1,8 +1,8 @@
 ---
 title: "Power Apps connector | Microsoft Docs"
 description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
-ms.date: 02/04/2020
-ms.reviewer: groxer
+ms.date: 04/08/2020
+ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -12,13 +12,11 @@ manager: shellyha
 
 # Microsoft Power Apps connector
 
-Use the Microsoft connector to connect your Power Apps to Dynamics 365 Customer Insights, or to automate workflows with Power Automate.
+Bring unified customer profiles into your personalized apps with Power Apps. Choose a template or completely customize how your data appears.
 
-## Using the connector in Power Apps
+## Connect Power Apps to Customer Insights
 
-Follow these steps to connect your app to Customer Insights:
-
-1. Go to [https://powerapps.microsoft.com/](https://powerapps.microsoft.com/).
+1. Go to [https://powerapps.microsoft.com/](https://powerapps.microsoft.com/) and sign in.
 
 2. Select **New** and then create a **Blank app**. Choose **Phone layout** or **Tablet layout**. Tablet layout gives you more workspace.
 
