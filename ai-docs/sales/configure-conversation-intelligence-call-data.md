@@ -1,6 +1,6 @@
 ---
-title: "Configure call data for Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Configure call data in Dynamics 365 Sales Insights application"
+title: "Configure call data for Conversation Intelligence | MicrosoftDocs"
+description: "Configure call data in Conversation Intelligence"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -139,7 +139,7 @@ Review the following requirements for audio and JSON files before you upload:
 
 Configuring the call data helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and providing insights for the call recordings. To configure the call data:
 
-1.	Open the **Dynamics 365 Sales Insights** application. 
+1.	Open the **Conversation Intelligence** application. 
 
 2.	Select the settings icon on the top-right of the page and then select Settings.
 
@@ -172,8 +172,8 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
 
 [FAQs](faqs-sales-insights.md)

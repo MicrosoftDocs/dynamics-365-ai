@@ -1,7 +1,7 @@
 ---
 title: "Data handling R in Dynamics 365 Market Insights | Microsoft Docs"
 description: "How Market Insights handles data, and how you can delete or export your data."
-ms.date: 10/02/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # Data handling for Dynamics 365 Market Insights
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 

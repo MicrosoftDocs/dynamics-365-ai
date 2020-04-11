@@ -27,7 +27,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -	[Enable and configure advanced Sales Insights features](#enable-and-configure-advanced-sales-insights-features)
 
--	[Administer Sales Insights application](#administer-sales-insights-application)
+-	[Administer Conversation Intelligence](#administer-conversation-intelligence)
 
 >[!IMPORTANT]
 > For proper installation and effective use of Sales Insights, ensure that the **Change Tracking** option for the following entities are enabled: Account, Contact, Lead, Opportunity, System User, Team, Queue, Organization, Email, Phone Call, Task, Appointment, Activity Party,  Connection, Business Unit, Metric, Opportunity Product, Product, Opportunity Sales Process, Process Stage, Connection Role, Workflow, Goal, Role, and System User Roles.
@@ -183,9 +183,9 @@ After enabling the advanced Sales Insights features, you can configure the advan
 -   To configure premium forecasting, see [Enable and configure sales accelerator](enable-configure-sales-accelerator.md).
 
 
-## Administer Sales Insights application
+## Administer Conversation Intelligence
 
-The **Sales Insights** application assists the sales managers and sellers in your organization to get an overview of the conversation with customers. The **Sales Insights** application helps:
+Conversation Intelligence assists the sales managers and sellers in your organization to get an overview of the conversation with customers. Conversation Intelligence helps:
 
 -	Sales managers drill down to get call statistics for individual sellers, such as customer sentiment, keywords used, and competitors mentioned in the conversation. Sales managers can use this data to give smarter coaching to sellers and improve the business.
 
@@ -205,7 +205,6 @@ You can also update each setting later as required. The following are the availa
 
 -	Enable preview features. To learn more, see [Enable preview features](enable-preview-features-sales-insights-app.md).
 
-
 ## Privacy notice
 
 For specific privacy information about Dynamics 365 Sales Insights capabilities, see [Privacy notice](privacy-notice.md).
@@ -214,7 +213,7 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities,
 
 [Overview of Dynamics 365 Sales Insights](overview.md)
 
-[Improve seller coaching and sales potential with Dynamics 365 Sales Insights application](../sales/dynamics365-sales-insights-app.md)
+[Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
 
 [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
 
