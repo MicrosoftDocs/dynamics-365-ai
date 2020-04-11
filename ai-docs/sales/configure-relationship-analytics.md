@@ -36,27 +36,14 @@ To configure Relationship analytics, follow these steps:
 
     The configuration page opens.
 
-    > [!div class="mx-imgBorder"]
-    > ![Relationship analytics configuration page](media/si-admin-relationship-analytics-configuration-page.png "Relationship analytics configuration page")
-
-4. Select **Enable Relationship analytics for your organization** to enable relationship analytics for your organization and then select **Save**.
+4. Select the toggle to enable relationship analytics for your organization.
 
     > [!div class="mx-imgBorder"]
     > ![Enable relationship assistant for organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable relationship assistant for organization")
 
     The Relationship analytics is enabled in your organization and you can configure the parameters as required.
 
-5. Configure the parameters as described in the following table.
-
-    |**Parameter**|**Description**|
-    |-|-|
-    |**Data Sources**|**CRM Activities:** If enabled, all historical data from [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is ingested for computation in Relationship analytics.<br>**LinkedIn:** If enabled, the data from LinkedIn will be ingested for KPI and health computation. By default, the option is enabled when LinkedIn is installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br> **Note**: This option is not available if LinkedIn is not installed in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].<br>**Exchange Data:** If enabled, 30 days of data from Exchange is ingested for KPI and health computation. Exchange connector ingests three days of data per day until the last 30 days of data is complete.|
-    |**Relationship Health Score**|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|
-    |**Communications Frequency**|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|
-    > [!div class="mx-imgBorder"]
-    > ![Relationship analytics configuration settings page](media/si-admin-relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page")
-
-6. (Optional) To view similar opportunities, under **Similar opportunities**, toggle to enable **Preview**.
+5. (Optional) Enable the preview to view similar opportunities, under **Similar opportunities** in **Relationship analytics** tab for opportunities, toggle to enable **Preview**.
 
     By enabling this option, users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with the suggestions calculated from similar won opportunities through AI-driven models.
 
@@ -68,7 +55,29 @@ To configure Relationship analytics, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Enable preview to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable preview to view similar opportunities")
 
-7. Select **Save**.
+6. To show the relationship health score in opportunities, views, and charts, select the toggle to enable.
+
+    >[!NOTE]
+    >You can disable the option if you don't wish to display the score in opportunities, views, and charts. However, disabling the option does not affect the process of gathering the relevent health data.
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable relationship health for organization](media/relationship-analytics-relationship-health-enable.png "Enable relationship health for organization")
+
+7. Adjust the importance of activities of different types as they contribute to the relationship health score.
+
+    Businesses place different emphasis on the type of communication used with customers.The activities includes, Emails, Meetings, Phone calls, and Tasks. 
+    
+    > [!div class="mx-imgBorder"]
+    > ![Adjust activity influence for relationship health](media/relationship-analytics-relationship-health-adjust-activity.png "Adjust activity influence for relationship health")
+
+8. Choose **Communications Frequency**. 
+
+    Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.
+
+    > [!div class="mx-imgBorder"]
+    > ![Choose communication frequency](media/relationship-analytics-communication-frequency.png  "Choose communication frequency")
+
+9. Select **Save**.
 
    Relationship analytics is ready to use in your organization.
 
