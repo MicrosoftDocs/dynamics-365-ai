@@ -65,7 +65,3 @@ Bring unified customer profiles into your personalized apps with Power Apps. Cho
 14. To display the unified timeline for a customer, add a Gallery element, and add the Items property: **Filter('Unified Customer Activity', CustomerId = {Customer_Id})**
 
     Example: Filter('Unified Customer Activity', CustomerId = Gallery1.Selected.CustomerId)
-
-## Automate workflows with Power Automate
-
-You can automate your business processes involving Dynamics 365 Customer Insights through [Power Automate](https://flow.microsoft.com/). For more information, see the [Dynamics 365 Customer Insights connector reference](https://docs.microsoft.com/connectors/customerinsights/) and [Power Automate documentation](https://docs.microsoft.com/power-automate/).

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Power Automate connector | Microsoft Docs"
 description: "Create flows in Microsoft Power Automate from Dynamics 365 Customer Insights."
-ms.date: 04/08/2020
+ms.date: 04/14/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -12,7 +12,9 @@ manager: shellyha
 
 # Power Automate connector (preview)
 
-Trigger specific events to occur automatically when your data changes and manage more complex flows directly in Power Automate.
+Trigger specific events to occur automatically when your data changes and manage more complex flows directly in [Power Automate](https://flow.microsoft.com/).
+
+For more information, see the [Dynamics 365 Customer Insights connector reference](https://docs.microsoft.com/connectors/customerinsights/) and [Power Automate documentation](https://docs.microsoft.com/power-automate/).
 
 ## Create a Power Automate flow in Customer Insights
 
