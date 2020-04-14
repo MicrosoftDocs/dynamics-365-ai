@@ -79,7 +79,9 @@
       href: export-dynamics365-sales.md
     - name: Dynamics 365 Sales Hub add-in
       href: pm-customer-card-addin.md
-    - name: Power BI
+    - name: Work with the Customer Insights Teams bot 
+      href: export-teams-bot.md
+    - name: Configure the Power BI connector
       href: pm-connectors.md
     - name: Power Apps
       href: pm-powerapps-connector.md
