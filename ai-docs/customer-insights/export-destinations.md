@@ -24,6 +24,7 @@ Go to **Admin** > **Export destinations** to find the following extensibility op
 - [Dynamics 365 Marketing](export-dynamics365-marketing.md)
 - [Azure Blob Storage](export-azure-blob-storage.md)
 - [Connector to LiveRamp&reg;](export-liveramp.md)
+- [Bot for Microsoft Teams](export-teams-bot.md)
 - [Customer Insights API](pm-apis.md)
 
 ## Add a new export destination
