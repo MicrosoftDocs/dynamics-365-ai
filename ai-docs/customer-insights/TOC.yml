@@ -71,6 +71,8 @@
       href: export-destinations.md
     - name: Install the Customer Card Add-in 
       href: pm-customer-card-addin.md
+    - name: Work with the Customer Insights Teams bot 
+      href: export-teams-bot.md
     - name: Configure the Power BI connector
       href: pm-connectors.md
     - name: Configure the Power Apps connector
