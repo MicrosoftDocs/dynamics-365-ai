@@ -1,4 +1,5 @@
-# Dynamics 365 Market Insights
+# [Dynamics 365 Market Insights discontinuation](eos-faq.md)
+# Market Insights
 ## [Market Insights overview](market-insights-overview.md)
 ## [Data sources used in Dynamics 365 Market Insights](about-data.md)
 ## [Frequently asked questions](faq.md)

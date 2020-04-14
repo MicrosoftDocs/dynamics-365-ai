@@ -25,6 +25,8 @@
       href: connect-common-data-model-folder.md
     - name: Incremental refresh for data sources
       href: incremental-refresh-data-sources.md
+    - name: Real-time data ingestion
+      href: real-time-data-ingestion.md
     - name: Understand entities and datasets
       href: pm-entities.md
 
@@ -65,8 +67,6 @@
 
 - name: Export options
   items: 
-    - name: Export segments
-      href: segment-export.md
     - name: Set up export destinations
       href: export-destinations.md
     - name: Install the Customer Card Add-in 
@@ -79,6 +79,8 @@
       href: pm-powerapps-connector.md
     - name: Configure the Power Automate connector
       href: power-automate-connector.md
+    - name: Configure the LiveRamp connector
+      href: export-liveramp.md
 
 - name: Administration
   items: 

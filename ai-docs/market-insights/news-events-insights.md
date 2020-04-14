@@ -1,7 +1,7 @@
 ---
 title: "News insights in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Drive business decisions with good and actual information using news insights."
-ms.date: 09/16/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # News insights
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 
