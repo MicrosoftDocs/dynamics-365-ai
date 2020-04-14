@@ -132,8 +132,8 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
     | Number | Feature | Description |
     |--------|---------|-------------|
-    | **1** | **Create cards with Microsoft Flow** | This allows you to create cards that are custom made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md). |
-    | **2** | **Quick view cards through tabs** | The tabs allows you to quickly view cards that are most popular, recently used, high in priority, and created by your organization. |
+    | **1** | **Create cards with Microsoft Flow** | This allows you to create cards that are custom-made for your organization. To learn more, see [Creating custom insight cards](create-insight-cards-flow.md). |
+    | **2** | **Quick view cards through tabs** | The tabs allow you to quickly view cards that are most popular, recently used, high in priority, and created by your organization. |
     | **3** | **Table with card details** | This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize. To learn more, see [Edit insight cards](edit-insight-cards.md). |
     | **4** | **Search cards** | This allows you to search cards that you want to view or manage. |
     
@@ -145,6 +145,21 @@ With the new redesigned assistant administration, you can perform tasks that wer
     > ![Optimize ranking tab](media/si-admin-assistant-optimize-ranking.png "Optimize ranking tab")
 
     To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md).
+
+## Disable teasers
+
+The updates in Sales Insights are displayed to sellers  as teasers in the Assistant. By default, the teasers are enabled in your organization. However, you can disable if you don’t wish to display the teasers. To disable, follow these steps:
+
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
+
+2. On the site map, select **Overview**.
+
+3. Go to **Teasers** section and toggle the option to disable the teasers.
+
+    > [!div class="mx-imgBorder"]
+    > ![Disable teasers](media/disable-teasers.png "Disable teasers")
+
+    The teasers are disabled in your organization.
 
 ### See also
 

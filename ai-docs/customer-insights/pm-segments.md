@@ -1,7 +1,7 @@
 ---
-title: "Segments | Microsoft Docs"
+title: "Create and manage segments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 02/04/2020
+ms.date: 04/03/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,46 +10,18 @@ ms.reviewer: nimagen
 manager: shellyha
 ---
 
-# Segments
+# Create and manage segments
 
 The segmentation capability in Dynamics 365 Customer Insights enables you to group your customers based on demographic, transactional, or behavioral attributes. You can use segmentation to target promotional campaigns, sales activities, and customer support actions to achieve your business goals.
 
 You can define complex filters around the Customer Profile entity and its related entities. Each segment, after processing, creates a set of customer entity records that you can export and take action on.
 
-There are two types of segments:
+Unless stated otherwise, all segments in Customer Insights are **Dynamic segments**, which are refreshed on a recurring schedule.
 
-- **Static segments**: Segments that are processed only once — either after the creation or update of any of its filters. Use static segments when properties aren't expected to change over time, or when they're expected to be used only once—for example, customers who attended a specific event.
-- **Dynamic segments**: Segments that are processed according to a recurring schedule. Use dynamic segments when customers' attributes change over time. For example, customers who have bought products worth more than $500 in the last three months.
-
-The following example illustrates the depth of the Customer Insights segmentation capability. We've defined a segment for customers who ordered more than $500 of goods in the last 90 days *and* who were involved in a customer service call that got escalated.
+The following example illustrates the depth of the Customer Insights segmentation capability. We've defined a segment for customers who ordered at least $500 of goods in the last 90 days *and* who were involved in a customer service call that got escalated.
 
 > [!div class="mx-imgBorder"]
 > ![Multiple groups](media/segmentation-group1-2.png "Multiple groups")
-
-## Manage existing segments
-
-On the **Segments** page, you can view all your saved segments and manage them.
-
-Each segment is represented by a tile that includes the segment's name, description, last date of data refresh, and historical trend (if it exists). Hover over the trend line to see how the customer count in the segment evolved over time.
-
-To see your segments in a table format, select the table format icon.
-
-> [!div class="mx-imgBorder"]
-> ![Static segment](media/segmentation-static-segment.png "Static segment")
-
-To manage a segment, select the ellipses on the segment's tile.
-
-> [!div class="mx-imgBorder"]
-> ![Explore segments](media/segments-list2.png "Explore segments")
-
-The following options are available:
-
-- Edit the segment
-- View the segment's members
-- [Export](export-destinations.md) the segment
-- Change a state of a dynamic segment to inactive or active
-- Run the processing of a static segment
-- Delete the segment
 
 ## Create a new segment
 
@@ -57,12 +29,9 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 1. Go to the **Segments** page in Customer Insights.
 
-2. Select **New segment**.
+2. Select **New** > **Blank segment**.
 
 3. In the **New segment** pane, choose a segment type and provide a **Name**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Choose segment type](media/choose-segment-type.png "Choose segment type")
 
    Optionally, provide a display name, and a description that helps identifying the segment.
 
@@ -70,7 +39,7 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 5. Choose the entity that includes the attribute you want to segment by.
 
-6. Choose the attribute by which you want to segment. The attribute can have one of four value types: numerical, string, date, or Boolean.
+6. Choose the attribute to segment by. This attribute can have one of four value types: numerical, string, date, or Boolean.
 
 7. Choose an operator and a value for the selected attribute.
 
@@ -84,21 +53,70 @@ Segments are managed on the **Segments** page in Customer Insights.
    |3    |Operator         |
    |4    |Value         |
 
-8. Add entities that are related to that entity until getting to the Customer Profile entity. To this step, you might need to first [define relationships between entities](pm-relationships.md) on the **Relationships** page.
+8. If the entity is connected to the unified customer entity through [relationships](pm-relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
+
+   > [!div class="mx-imgBorder"]
+   > ![Relationship path during segment creation](media/segments-multiple-relationships.png "Relationship path during segment creation")
 
 9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be saved as a draft.
 
 10. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
 
+## Manage existing segments
+
+On the **Segments** page, you can view all your saved segments and manage them.
+
+Each segment is represented by a row that includes the segment's name, state, refresh status, member count, weekly member count change, and last refresh date and time.
+
+You can sort the segments in a column by selecting the column heading.
+
+Use the **Search** box in the top right corner to filter the segments.
+
+> [!div class="mx-imgBorder"]
+> ![Options to manage an existing segment](media/segments-selected-segment.png "Options to manage an existing segment")
+
+Select a segment to perform the following options:
+
+- **View** the segment details, including member count trend a preview of segment members.
+- **Edit** the segment to change its properties.
+- **Refresh** the segment to include the latest data.
+- **Activate** or **Deactivate** the segment. Alternatively, you an use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
+- **Rename** the segment.
+- **Download** the list of members in a segment as a .CSV file.
+- **Add to** sends the list of customer IDs in the segment for processing in another application.
+- **Delete** the segment.
+
+## Refresh segments
+
+You can refresh all segments at once by selecting **Refresh all** on the **Segments** page. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
+
+## Download and export segments
+
+You can download your segments to a CSV file or export them to Dynamics 365 Sales.
+
+### Download segments to a CSV file
+
+1. Go to the **Segments** page.
+
+2. Select the ellipses in a specific segment's tile.
+
+3. Select **Download as CSV** from the actions drop-down list.
+
+### Export segments to Dynamics 365 Sales
+
+Before exporting segments to Dynamics 365 Sales, an admin needs to [create the export destination](export-destinations.md) for Dynamics 365 Sales.
+
+1. Go to the **Segments** page.
+
+2. Select the ellipses in a specific segment's tile.
+
+3. Select **Add to** from the actions drop-down list and select the export destination you want to send the data to.
+
 ## Draft mode for segments
 
 If not all requirements to process a segment are met, you can save the segment as a draft and access it from the **Segments** page.
 
-- For a Dynamic segment, it will be saved as a draft.
-
-- For a Static segment, it will be saved as an inactive segment.
-
-You can't run or activate the segment until it's a valid segment. You'll see a message in the app if you try to run or activate a segment that isn't valid.
+It will be saved as an inactive segment, and can't be activated it until it's valid.
 
 ## Add more conditions to a group
 
@@ -115,7 +133,7 @@ It's currently possible to nest an **OR** operator under an **AND** operator, bu
 
 ## Combine multiple groups
 
-Each group produces a specific set of customers and you combine these groups to get include the customers you need for your business case.
+Each group produces a specific set of customers. You can combine these groups to include the customers required for your business case.
 
 1. Open a segment on the **Segments** page.
 
@@ -124,7 +142,7 @@ Each group produces a specific set of customers and you combine these groups to 
    > [!div class="mx-imgBorder"]
    > ![Customer group add group](media/customer-group-add-group.png "Customer group add group")
 
-3. Select one of the following set operators: **Union**, **Intersect**, or **Exclude**.
+3. Select one of the following set operators: **Union**, **Intersect**, or **Except**.
 
    > [!div class="mx-imgBorder"]
    > ![Customer group add union](media/customer-group-union.png "Customer group add union")
@@ -153,23 +171,21 @@ You can update the time frame of the visualization.
 The lower part contains a list of the segment members.
 
 > [!NOTE]
-> Fields that appear in this list are based on the attributes of your segment’s entities.
+> Fields that appear in this list are based on the attributes of your segment's entities.
 >
 >The list is a preview of the matching segment members and shows the first 100 records of your segment so that you can quickly evaluate it and review its definitions if needed. To see all matching records, you need to [export the segment](export-destinations.md).
 
-## Recommended segments
+## Quick segments
 
-In addition to the segment builder, there's another path for creating segments in Customer Insights. Recommended segments lets you build simple segments (with a single operator) quickly.
+In addition to the segment builder, there's another path for creating segments in Customer Insights. Quick segments let you build simple segments (with a single operator) quickly and with instant insights.
 
-1. Select one of the tiles on the **Segments** page to get started.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select a tile for a quick segment](media/quick-segment-overview.png "Select a tile for a quick segment")
+1. On the **Segments** page, select **New** > **Quickly create from**.
 
    - Select the **Profiles** option to build a segment that is based on the unified Customer entity.
    - Select the **Measures** option to build a segment around each of the Customer Attribute type of measures you have previously created on the **Measures** page.
+   - Select the **Intelligence** option to build a segment around one of the output entities you generated using either the **Predictions** or **Custom Models** capabilities.
 
-2. In the **New quick segment** dialog box, select an attribute from the **Field** drop-down.
+2. In the **New quick segment** dialog box, select an attribute from the **Field** dropdown.
 
 3. The system will provide some additional insights that help you create better segments of your customers.
    - For categorical fields, we will show 10 top customer counts. Choose a **Value** and select **Review**.
@@ -191,7 +207,7 @@ For the following scenarios, we advise using the segment builder rather than the
 
 - Creating segments with filters on categorical fields where the operator is different than the **Is** operator
 - Creating segments with filters on numerical fields where the operator is different than the **Between**, **Greater than**, and **Less than** operators
-- Creating segments with filters on date type of fields
+- Creating segments with filters on date type fields
 
 ## Next steps
 
