@@ -1,8 +1,8 @@
 ---
 title: "Power Apps connector | Microsoft Docs"
 description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
-ms.date: 04/08/2020
-ms.reviewer: philk
+ms.date: 04/14/2020
+ms.reviewer: nikeller
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Microsoft Power Apps connector
+# Microsoft Power Apps connector (preview)
 
 Bring unified customer profiles into your personalized apps with Power Apps. Choose a template or completely customize how your data appears.
 

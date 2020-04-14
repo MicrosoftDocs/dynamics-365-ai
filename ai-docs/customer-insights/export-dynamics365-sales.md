@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to an Dynamics 365 Sales | Microsoft Docs"
 description: "Learn how to configure the connection to Dynamics 365 Sales."
-ms.date: 04/08/2020
+ms.date: 04/14/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connector for Dynamics 365 Sales
+# Connector for Dynamics 365 Sales (preview)
 
 Use your customer data to create marketing lists, follow up workflows, and send out promotions with Dynamics 365 Sales.
 

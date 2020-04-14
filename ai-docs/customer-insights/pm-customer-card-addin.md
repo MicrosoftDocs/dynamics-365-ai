@@ -1,7 +1,7 @@
 ---
 title: "Customer Card Add-in | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 04/08/2020
+ms.date: 04/14/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Customer Card Add-in
+# Customer Card Add-in (preview)
 
 Get a 360-degree view of your customers inside Dynamics 365 apps. View demographics, insights, and activity timelines with the Customer Card Add-in.
 

@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to an Azure Blob storage | Microsoft Docs"
 description: "Learn how to configure the connection to Azure Blob storage."
-ms.date: 04/08/2020
+ms.date: 04/14/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connector for Azure Blob storage
+# Connector for Azure Blob storage (preview)
 
 Store your Customer Insights data in an Azure Blob or use it to transfer your data to other applications.
 
