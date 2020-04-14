@@ -1,7 +1,7 @@
 ---
-title: "Teams bot | Microsoft Docs"
+title: "Bot for Microsoft Teams | Microsoft Docs"
 description: "Look up unified customer profiles from Customer Insights in Microsoft Teams with the help of a bot."
-ms.date: 04/08/2020
+ms.date: 04/14/2020
 ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "teams-bot"
@@ -30,8 +30,8 @@ To set up and configure the bot, the following prerequisites must be met:
 
 1. In Customer Insights, go to **Admin** > **Export Destinations**.
 1. On the Microsoft Teams tile, select **Set up**.
-1. You're redirected to the **Apps** area in Teams. You can also open Teams and select **Apps** in the bottom-left corner.
-1. Search for **Dynamics 365 Customer Insights** and select the app.
+1. You're redirected to the **Apps** area in Teams. You can also open Teams and select **Apps** in the bottom-left corner or [get it from AppSource](https://go.microsoft.com/fwlink/?linkid=2124104) directly.
+1. Search for **Customer Insights** and select the app.
 1. Select **Add**.
 1. After signing in to Customer Insights in Teams, you'll see a welcome message and can get started.
 
