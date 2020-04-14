@@ -10,7 +10,7 @@ ms.author: sthe
 manager: shellyha
 ---
 
-# Bot for Microsoft Teams
+# Bot for Microsoft Teams (preview)
 
 Connect Dynamics 365 Customer Insights with Teams to let a bot look up unified customer profiles in Teams channels.
 
