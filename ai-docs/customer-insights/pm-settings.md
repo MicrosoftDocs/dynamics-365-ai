@@ -38,9 +38,6 @@ The **Status** tab lets you track the progress of data ingestion and several imp
   
     The right-side column shows the last data refresh date for each of the processes.
 
-    > [!div class="mx-imgBorder"]
-    > ![Refresh date](media/system-status-processes.png "Refresh date")
-
 You can view the details of each completed data source ingestion or system process by selecting that item.
 
 ## Schedule tab
