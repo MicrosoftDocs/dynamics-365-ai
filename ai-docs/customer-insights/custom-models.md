@@ -30,7 +30,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 1. Select **Sign in** with your credentials for the selected organization.
 
-1. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown. Then select **Next**.
+1. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown and select **Next**.
 
 1. For each **Web service input**, select the matching **Entity** from Customer Insights and select **Next**.
 
