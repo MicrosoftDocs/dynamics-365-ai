@@ -63,10 +63,10 @@ To add a merged attribute, go to the **Merge** page.
 
 Whether you manually merge attributes or let the system merge them, you can always run your merge. Select **Run** on the **Merge** page to start the process.
 
-If you want to make additional changes and rerun the step, you can cancel an in-progress merge. Select **Refreshing ...** above and on the right side of the Customer fields table and select the **Cancel job** button in the side pane that appears.
-
 > [!div class="mx-imgBorder"]
 > ![Data merge Save and Run](media/configure-data-merge-save-run.png "Data merge Save and Run")
+
+If you want to make additional changes and rerun the step, you can cancel an in-progress merge. Select **Refreshing ...** above and on the right side of the Customer fields table and select the **Cancel job** button in the side pane that appears.
 
 After the **Refreshing ...** text changes to **Successful**, merge has completed and resolved contradictions in your data according to the policies you defined. Your merged and unmerged attributes are included in your unified profile entity, while excluded attributes are not.
 
