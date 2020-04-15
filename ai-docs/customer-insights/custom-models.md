@@ -1,8 +1,8 @@
 ---
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 02/12/2020
-ms.reviewer: ""
+ms.date: 04/15/2020
+ms.reviewer: wameng
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -22,18 +22,24 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 ## Add a new workflow
 
-1. On the **Custom Models** page, select **New Workflow**.
+1. Go to **Intelligence** > **Custom Models** and select **New Workflow**.
 
-2. Give your workflow a recognizable name in the **Display name** field. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown. Then select **Next**.
+1. Give your custom model a recognizable name in the **Name** field.
 
-3. For each **Web service input**, select the matching **Entity** from Customer Insights and select **Next**.
+1. Select the organization that contains the web service in **Tenant that contains your web service**.
+
+1. Select **Sign in** with your credentials for the selected organization.
+
+1. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown. Then select **Next**.
+
+1. For each **Web service input**, select the matching **Entity** from Customer Insights and select **Next**.
 
    > [!div class="mx-imgBorder"]
    > ![Configure a workflow](media/intelligence-screen2.png "Configure a workflow")
 
-4. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights CustomerId and select **Save**.
+1. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights CustomerId and select **Save**.
 
-5. You'll see the **Workflow Saved** screen, and attributes about your new workflow that will be important to remember:
+1. You'll see the **Workflow Saved** screen, and attributes about your new workflow that will be important to remember:
 
    > [!div class="mx-imgBorder"]
    > ![Review workflow configuration](media/intelligence-screen4.png "Review workflow configuration")
@@ -41,7 +47,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
    1. **Workflow name:** The display name for your workflow.
    2. **Entity created:** The name of the entity where the output from your workflow will be stored. You can find this entity in the **[Entities](pm-entities.md)** page.
 
-6. Select **Done** to return to the **Custom Models** page.
+1. Select **Done**.
 
 ## Edit a workflow
 
