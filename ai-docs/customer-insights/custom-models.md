@@ -37,15 +37,9 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
    > [!div class="mx-imgBorder"]
    > ![Configure a workflow](media/intelligence-screen2.png "Configure a workflow")
 
-1. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights CustomerId and select **Save**.
+1. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights Customer ID and select **Save**.
 
-1. You'll see the **Workflow Saved** screen, and attributes about your new workflow that will be important to remember:
-
-   > [!div class="mx-imgBorder"]
-   > ![Review workflow configuration](media/intelligence-screen4.png "Review workflow configuration")
-
-   1. **Workflow name:** The display name for your workflow.
-   2. **Entity created:** The name of the entity where the output from your workflow will be stored. You can find this entity in the **[Entities](pm-entities.md)** page.
+1. You'll see the **Workflow Saved** screen with details about the workflow you just created.
 
 1. Select **Done**.
 
@@ -53,11 +47,11 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created and select **Edit**.
 
-2. You can update your workflow's recognizable name in the **Display name** field, but changing the Web service isn't possible. If you want to create a new prediction using a different web service, follow the steps in [Add a new workflow](#add-a-new-workflow). When you're done, select **Next**.
+2. You can update your workflow's recognizable name in the **Display name** field, but you can't change the web service. Select **Next**.
 
-3. For each **Web service input**, select the matching **Entity** from Customer Insights.  When you're done, select **Next**.
+3. For each **Web service input**, select the matching **Entity** from Customer Insights.  Then, select **Next**.
 
-4. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights CustomerId.  When you're done, click **Save**.
+4. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights Customer ID.  When you're done, select **Save**.
 
 ## Run a workflow
 
@@ -65,12 +59,12 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 2. Select **Run**.
 
-Your workflow also runs automatically when there's a scheduled refresh. Learn more about [setting up scheduled refreshes](pm-settings.md#schedule-tab).
+Your workflow also runs automatically with every scheduled refresh. Learn more about [setting up scheduled refreshes](pm-settings.md#schedule-tab).
 
 ## Delete a workflow
 
 1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
 
-2. Select **Delete**.
+2. Select **Delete** and confirm your deletion.
 
-Your workflow will be deleted. The entity that was created when you created the workflow persists, and can be viewed from the **Entities** page.
+Your workflow will be deleted. The [entity](pm-entities.md) that was created when you created the workflow persists, and can be viewed from the **Entities** page.
