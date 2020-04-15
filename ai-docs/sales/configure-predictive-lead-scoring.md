@@ -162,7 +162,7 @@ When your model is old or the prediction accuracy score doesn't match your organ
 
 1. Go to the predictive lead scoring configuration page, and select **Edit fields**.
 
-2. Perform Steps 6 to 9 from [Generate custom-defined model](#generate-custom-defined-model).
+2. Perform Steps 6 to 8 from [Generate custom-defined model](#generate-custom-defined-model).
 
 ### See also
 

@@ -143,7 +143,7 @@ Follow these steps:
 
     The model starts to generate with the selected custom attributes, and a notification is displayed on the screen.
 
-9. After the model is generated, publish the model.
+8. After the model is generated, publish the model.
 
     The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity Score** column and a widget in the opportunity form.
     
@@ -160,14 +160,9 @@ When your model is old or the prediction accuracy score doesn't match your organ
 > [!NOTE]
 > We recommend that you train the model once the data is refreshed in your organization for better prediction accuracy scoring.
 
-1. Go to the predictive opportunity scoring configuration page, and select **Retrain model**.
+1. Go to the predictive lead scoring configuration page, and select **Edit fields**.
 
-    The application starts generating a model, and a notification is displayed on the screen.
-
-    > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-opportunity-scoring-model-training-notification.png "Model training notification")
-
-2. Review and publish the model.
+2. Perform Steps 6 to 8 from [Generate custom-defined model](#generate-custom-defined-model).
 
 
 ### See also
