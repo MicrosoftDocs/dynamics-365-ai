@@ -50,4 +50,4 @@ The **About** tab contains your organization's **Display name**, the active **In
 
 ## General tab
 
-Only one option, **Language**, is currently available on the **General** tab. Supported languages appear in this menu. Select **Save** to apply your changes.
+There are two options on the **General** tab, **Language** and **Country/Region format**. The supported options for each appear in each dropdown menu. If you want to change either or both, select the change(s) you want and then select **Save**.
