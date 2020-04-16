@@ -22,13 +22,13 @@ The **System** page contains everything that administrators need to closely moni
 
 ## Status tab
 
-The **Status** tab lets you track the progress of data ingestion and several important product processes. Use this tab to ensure the completeness of any major process you've defined in Customer Insights. This tab includes a table with separate sections for each type of refresh task that has been and could be run in your environments, including tables for Data sources, System processes, and Data preparation. These refresh tasks align with the entities in your system.
+The **Status** tab lets you track the progress of data ingestion and several important product processes. Review the information on this tab to ensure the completeness of any major process you've defined in Customer Insights. This tab includes a table with separate sections for each type of refresh task that has been and could be run in your environments, including tables for data sources, system processes, and data preparation. The refresh tasks align with the entities in your system.
 
 The table has three columns. The left column specifies the name of task and its corresponding entity. The middle column defines the status of the current or last run of that task, and the right column specifies when the task was last updated.
 
-You can view the details of the last several runs of the task by clicking on its name.
+You can view the details of the last several runs of the task by selecting its name.
 
-Clicking the status of a task will show you the progress details of the entire job it was in.
+Select the status of a task to see the progress details of the entire job it was in.
 
 ## Schedule tab
 
