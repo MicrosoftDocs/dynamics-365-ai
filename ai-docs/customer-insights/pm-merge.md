@@ -1,7 +1,7 @@
 ---
 title: "Merge process to unify data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about the merge phase in the data unification process of Dynamics 365 Customer Insights."
-ms.date: 02/26/2020
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -66,11 +66,11 @@ Whether you manually merge attributes or let the system merge them, you can alwa
 > [!div class="mx-imgBorder"]
 > ![Data merge Save and Run](media/configure-data-merge-save-run.png "Data merge Save and Run")
 
-If you want to make additional changes and rerun the step, you can cancel an in-progress merge. Select **Refreshing ...** above and on the right side of the Customer fields table and select the **Cancel job** button in the side pane that appears.
+To make additional changes and rerun the step, you can cancel an in-progress merge. Select **Refreshing ...** and select **Cancel job**  in the side pane that appears.
 
-After the **Refreshing ...** text changes to **Successful**, merge has completed and resolved contradictions in your data according to the policies you defined. Your merged and unmerged attributes are included in your unified profile entity, while excluded attributes are not.
+After the **Refreshing ...** text changes to **Successful**, merge has completed and resolved contradictions in your data according to the policies you defined. Merged and unmerged attributes are included in the unified profile entity. Excluded attributes aren't included in the unified profile entity.
 
-If this wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and making measures will run again automatically. You see the status of each downstream process by going to its page. After all downstream processes have been run again, your customer profiles reflect any changes you made.
+If it wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and measures will rerun automatically. After all downstream processes have been rerun, the customer profiles reflect any changes you made.
 
 ## Next Step
 
