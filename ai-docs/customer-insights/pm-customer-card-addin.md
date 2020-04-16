@@ -64,71 +64,32 @@ It can take some time for the solution to be installed to your environment.
 
 ## Add Customer Insights controls to forms
   
-1. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**.
-
-1. Select **Save configuration** to save the settings.
-
-   > [!div class="mx-imgBorder"]
-   > ![Settings customizations](media/settings-customizations.png "Settings customizations")
+1. To add the Customer Card controls to your Contact form, go to the **Settings** > **Customizations** in Dynamics 365.
 
 1. Select **Customize the System**.
 
-1. Browse to the Contact entity, expand its menu, and then select **Forms**.
+1. Browse to the **Contact** entity, expand it and select **Forms**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Expand Contact entity menu](media/contact-entity-definition.png "Expand Contact entity menu")
-
-1. Select the contact form to which you would like to add the Customer Card controls.
+1. Select the contact form to which you want to add the Customer Card controls.
 
     > [!div class="mx-imgBorder"]
     > ![Select Contact form](media/contact-active-forms.png "Select Contact form")
 
-## Demographic control
+1. To add a control, in the form editor, drag any field from the **Field Explorer** to where you want the control to appear.
 
-1. To add the demographic control, in the form editor, drag any field from the Field Explorer to where you would like the demographic control to be placed.
+1. Select the field on the form that you just added, and select **Change Properties**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Choose a field in Field Explorer](media/contact-form-designer2.png "Choose a field in Field Explorer")
-
-2. Select the field you just added, and select **Change Properties**.
-
-3. In the **Field Properties** dialog, clear the **Display label on the form** check box.
-
-4. Go to the **Controls** tab and select **Add Control**.
-
-5. Select **Demographic_Control**, and then select **Add**.
-
-6. Select the **Web** option for **Demographic_Control**.
+1. Go to the **Controls** tab and select **Add Control**. Choose one of the available custom controls and select **Add**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select the Web option](media/field-properties-add-control-demographic2.png "Select the Web options")
+   > ![Select a control](media/customer-card-add-in-select-control.png "Select a control")
 
-7. Select **Save** and **Publish** to publish the contact form where you've placed the demographic control.
+1. In the **Field Properties** dialog, clear the **Display label on the form** check box.
 
-8. Go to the published contact form. You'll see the demographic control. You might need to sign in the first time you use it.
+1. Select the **Web** option for the control.
 
-   To customize what you want to show on the demographic control, select the edit button in the upper-right corner. This customization will apply across the organization.
-  
-   > [!div class="mx-imgBorder"]
-   > ![Demographic control](media/demographic-control.png "Demographic control")
+1. Select **Save** and **Publish** to publish the updated contact form.
 
-## Timeline control
+1. Go to the published contact form. You'll see the newly added control. You might need to sign in the first time you use it.
 
-1. In the form editor, drag any field from the Field Explorer to where you'd like to place the demographic control.  
-
-2. Select the field you just added, and then select **Change Properties**.
-
-3. In the **Field Properties** dialog, clear the **Display label on the form** check box.
-
-4. Go to the **Controls** tab, and select **Add Control**.
-
-5. Select **Timeline_Control** and then **Add**.
-
-6. Select the **Web** option for **Timeline_Control**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select Web option](media/field-properties-add-control4.png "Select Web option")
-
-7. Select **Save** and **Publish** to publish the contact form where you've placed the timeline control.
-
-8. Go to the published contact form. You'll see the timeline control. You might need to sign in the first time you use it.
+   To customize what you want to show on the custom control, select the edit button in the upper-right corner.
