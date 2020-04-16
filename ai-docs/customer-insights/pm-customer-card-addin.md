@@ -1,7 +1,7 @@
 ---
 title: "Customer Card Add-in | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 04/14/2020
+ms.date: 04/16/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -16,11 +16,13 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 
 ## Prerequisites
 
-- Dynamics 365 Sales or Dynamics 365 Customer Service, version 9.0 and later with Unified Interface enabled (Sales Hub or Customer Service Hub).
+- Model-driven Dynamics 365 app (such as Sales Hub or Customer Service Hub), version 9.0 and later with Unified Interface enabled.
 - Users of the Customer Card Add-in need to be [added as users](pm-permissions.md) in Customer Insights.
 - [Configured search and filter capabilities](pm-manage-search.md) in Customer Insights.
-- [Configured activities](pm-activities.md) in Customer Insights if you want to use the Timeline control.
-- [Configured measures](pm-measures.md) in Customer Insights if you want to use the Measures control.
+- Demographic control: Demographic fields, such as age or gender are available in the unified customer profile.
+- Intelligence control: Requires data in Customer Insights generated using Azure Machine Learning ([Predictions](predictions.md) or [Custom Models](custom-models.md))
+- Measure control: Requires [configured measures](pm-measures.md) in Customer Insights.
+- Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights.
 
 ## Install the Customer Card Add-in
 
