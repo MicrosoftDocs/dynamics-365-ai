@@ -1,7 +1,7 @@
 ---
 title: "Match | Microsoft Docs"
 description: "Complete the matching phase to get a unified customer profile in Dynamics 365 Customer Insights."
-ms.date: 02/04/2020
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -102,7 +102,7 @@ Each condition applies to a single pair of attributes, while rules represent set
 
 After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
 
-If you want to make additional changes and rerun the step, you can cancel a match in progress. Do so by selecting the **Refreshing ...** text above and on the right side of the Match order table and then selecting the **Cancel job** button at the bottom of the side pane that appears.
+To make additional changes and rerun the step, you can cancel a match in progress. Select the **Refreshing ...** text and select **Cancel job** at the bottom of the side pane that appears.
 
 When the match process is complete, the **Refreshing ...** text will change to **Successful** and you can use all functionality of the page again.
 
