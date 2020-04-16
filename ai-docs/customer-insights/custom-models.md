@@ -1,7 +1,7 @@
 ---
-title: "Custom Models | Microsoft Docs"
+title: "Custom machine learning models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 02/12/2020
+ms.date: 04/16/2020
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Custom Models
+# Custom machine learning models
 
 The **Custom Models** page lists workflows based on Azure Machine Learning models. Workflows help you choose the data you want to generate from insights and map the results to your Customer Insights data. [Read the blog about extending Customer Insights with custom models based on Azure Machine Learning](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/) and the [blog with examples of custom models](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/05/examples-of-extending-dynamics-365-customer-insights-with-azure-ml/).
 

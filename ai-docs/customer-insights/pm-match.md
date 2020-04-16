@@ -1,7 +1,7 @@
 ---
-title: "Match | Microsoft Docs"
-description: "Complete the matching phase to get a unified customer profile in Dynamics 365 Customer Insights."
-ms.date: 02/04/2020
+title: "Match entities in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Match entities to create unified customer profiles in Dynamics 365 Customer Insights."
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: adkuppa
 manager: shellyha
 ---
 
-# Match
+# Match entities
 
 After completing the map phase, you're ready to match your entities. The match phase specifies how to combine your datasets into a unified customer profile dataset. The match phase requires at least [two mapped entities](pm-map.md).
 
