@@ -26,58 +26,59 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 
 ## Install the Customer Card Add-in
 
+The Customer Card Add-in is a solution for Dynamics 365 model-driven apps. To install the solution, go to AppSource and search for **Dynamics Customer Card**. Select the [Customer Card Add-in on AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.dynamics_365_customer_insights_customer_card_addin?tab=Overview) and select **Get It Now**.
+
+You may need to sign in with your admin credentials for the Dynamics 365 model-drive app to install the solution.
+
+It can take some time for the solution to be installed to your environment.
+
+## Configure the Customer Card Add-in
+
 1. As an admin, go to the **Settings** section in model-driven apps in Dynamics 365, and select **Solutions**.
 
-2. Select the **Display Name** link for the Customer Insights solution.
+1. Select the **Display Name** link for the **Dynamics 365 Customer Insights Customer Card Add-in (Preview)** solution.
 
    > [!div class="mx-imgBorder"]
    > ![Select display name](media/select-display-name.png "Select display name")
 
-   If the Customer Insights solution doesn't appear in your list of solutions, select **Get Solutions from Marketplace** above the list. This will take you to Microsoft AppSource.
-
-   In Microsoft AppSource, search for the Dynamics Customer Card and select **Get It Now**. It may take some time for the solution to be installed to your environment.
-
-3. Here you'll configure the overall settings for the Customer Card add-in. Sign in with the admin Azure Active Directory (Azure AD) account you use to configure Customer Insights.
+1. Select **Sign in** and enter the credentials for the admin account you use to configure Customer Insights.
 
    > [!NOTE]
-   > Check that the browser pop-up blocker does not block the authentication window when you select the **Authenticate** button.
+   > Check that the browser pop-up blocker does not block the authentication window when you select the **Sign in** button.
 
-<!-- we need to check that we use the right UI text for "Authenticate"-->
+1. Select the Customer Insights instance you want to fetch data from.
 
-4. Select the Customer Insights instance you want to fetch data from.
-
-5. Select the field in the Customer Insights Customer entity that matches the ID of your Contact entity.
+1. Now you define which field from Customer Insights maps to a record in the Dynamics 365 app. You need to map at least one field.
+   - To map with a contact, select the field in the Customer Insights Customer entity that matches the ID of your contact entity.
+   - To map with an account, select the field in the Customers Insights Customer entity that corresponds to the organization ID.
 
    > [!div class="mx-imgBorder"]
    > ![Contact ID field](media/contact-id-field.png "Contact ID field")
 
-6. Select **Save configuration** to save the setting.
+1. Select **Save configuration** to save the settings.
 
-<!-- Is it sufficiently clear how to assign user roles? -->
-7. Next, assign the following user roles:
+1. Next, you need to assign security roles in Dynamics 365 so users can customize and see the customer card. In Dynamics 365, go to **Settings** > **Security** > **Users**. Select the users to edit user roles and select **Manage roles**. Assign the following roles:
 
    - **Customer Insights Card Customizer**: Assign this role to users who will customize the content shown on the card for the whole organization.
    - **Customer Insights Card Standard User**: Assign this role to users who will use the card for consumption, but who won't customize.
-  
-8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**.
-  
-    To associate an Account form to an organization, you can select the Customers Insights Customer entity that corresponds to the organization ID (CompanyId in this case).
-   > [!div class="mx-imgBorder"]
-   > ![Contact ID field](media/customer-card-add-in-b2b.png "Account ID field")
 
-9. Select **Save configuration** to save the settings.
+## Add Customer Insights controls to forms
+  
+1. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**.
+
+1. Select **Save configuration** to save the settings.
 
    > [!div class="mx-imgBorder"]
    > ![Settings customizations](media/settings-customizations.png "Settings customizations")
 
-10. Select **Customize the System**.
+1. Select **Customize the System**.
 
-11. Browse to the Contact entity, expand its menu, and then select **Forms**.
+1. Browse to the Contact entity, expand its menu, and then select **Forms**.
 
     > [!div class="mx-imgBorder"]
     > ![Expand Contact entity menu](media/contact-entity-definition.png "Expand Contact entity menu")
 
-12. Select the contact form to which you would like to add the Customer Card controls.
+1. Select the contact form to which you would like to add the Customer Card controls.
 
     > [!div class="mx-imgBorder"]
     > ![Select Contact form](media/contact-active-forms.png "Select Contact form")
