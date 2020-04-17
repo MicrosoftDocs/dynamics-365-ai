@@ -79,7 +79,7 @@ The following procedure explains how to access call insights:
 3.	If you are viewing call insights for the first time, you will see a banner-type message at the top that is prefaced with **DEMO APP: Explore the app with sample data.** To set up call insights, select the **set up call insights** link in the banner message.
 
     > [!div class="mx-imgBorder"]
-    > ![Select set up call insights link](media/ci-first-signin.png  "Select the set up call insights link")
+    > ![Select set up call insights link](media/ci-first-signin.png "Select the set up call insights link")
     
 4.	Select your Dynamics 365 environment to connect to. This helps to compute and consolidate the necessary insights about your team.
 
