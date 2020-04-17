@@ -29,7 +29,7 @@ To configure Relationship analytics, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the site map, select **Relationship analytics** under **Connection insights**.<!--Unless the tip shows a more convenient way to get to the configuration page, you don't need it. Procedures are meant to be a guided passage through the UI, not describe every possible path through it.-->
+3. On the site map, select **Relationship analytics** under **Connection insights**.
 
     > [!TIP]
     > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Relationship analytics** section to go to configuration page.
