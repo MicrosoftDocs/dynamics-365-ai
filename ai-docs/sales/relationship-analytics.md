@@ -155,10 +155,9 @@ The following screen is an example of enhanced relationship analytics:
 
 5. **Response ratio**: Shows the rate at which a response is given to customers in this deal compared to similar deals that were closed as won.
 
-    The graph displays the percentage at which you and your team are responding to customers<!--What does "percentage at which you're responding" mean? Does it mean "the percentage of customer queries that you and your team have responded to"? --> in the current deal compared with similar deals.
+    The graph displays the percentage of customer queries that you and your team have responded to in the current deal compared with similar deals.
 
 6. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
-
 
 <a name="Calculations"></a>   
 
