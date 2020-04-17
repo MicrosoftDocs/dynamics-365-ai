@@ -1,6 +1,6 @@
 ---
 title: "Overview of Customer Service Insights Call Intelligence | MicrosoftDocs"
-description: "Improve agent coaching and customer experience with AI-driven insights readily available for Conversation Intelligence"
+description: "Improve agent coaching and customer experience with AI-driven insights readily available for Customer Service Insights"
 ms.date: 04/20/2020
 ms.service: 
  - dynamics-365-ai
@@ -12,11 +12,11 @@ manager: shujoshi
 
 ---
 
-# Improve agent coaching and customer experience with Conversation Intelligence
+# Improve agent coaching and customer experience with call insights
 
-Conversation Intelligence uses analytics and data science to gather data from agents’ call recordings and Dynamics 365 Customer Service Insights. Conversation Intelligence analyzes the data to provide you with the information and insights to intelligently manage your team and proactively coach agents. To achieve this, Conversation Intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, agent, and call.
+Call insights uses analytics and data science to gather data from agents’ call recordings and Dynamics 365 Customer Service Insights. Conversation Intelligence analyzes the data to provide you with the information and insights to intelligently manage your team and proactively coach agents. To achieve this, call insights displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, agent, and call.
 
-Conversation Intelligence is designed to help supervisors and agents in their day-to-day jobs, providing the tools they need to track their performance in calls with leads and customers.
+Call insights is designed to help supervisors and agents in their day-to-day jobs, providing the tools they need to track their performance in calls with leads and customers.
 
 **As a supervisor, you can:**
 
@@ -27,8 +27,6 @@ Conversation Intelligence is designed to help supervisors and agents in their da
 -	View and understand each individual agent’s conversation style, customer sentiment, insights, and call history. 
 
 -	Listen to calls, read transcripts, see possible action items, and view business-critical insights.
-
--	Translate non-English call transcript to English.
 
 
 **As an administrator, you can:**
@@ -61,11 +59,11 @@ Before you start using the application, we suggest you review the following requ
 
 -	As an administrator, verify that the proper hierarchy is defined for you, and that supervisors or individuals are added to it. 
 
-## How to get Conversation Intelligence
+## How to get call insights
 
-Conversation Intelligence is a standalone application and you must sign in to the app to use it. To access the app, go to [customerserviceinsights.ai.dynamics.com](https://customerserviceinsights.ai.dynamics.com/).
+Call insights is a standalone application and you must sign in to the app to use it. To access the app, go to [customerserviceinsights.ai.dynamics.com](https://customerserviceinsights.ai.dynamics.com/).
 
-## How to access Conversation Intelligence
+## How to access call insights
 
 As an administrator, you must configure the application so users (managers and sellers) can see the relevant organization and call data. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
 
@@ -96,10 +94,10 @@ The following procedure explains how to access Conversation Intelligence for the
 
 	The application validates your credentials and gives you further instructions, depending on your role. If you have an administrator role assigned to you, you can proceed with configuring the application. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
     
-    If you don't have the administrator role assigned to you, a status message is displayed on the top of the page, requesting that you contact your administrator to configure the application. You can continue using Conversation Intelligence (with the demo data to explore the features and functionalities) until the administrator configures the application.
+    If you don't have the administrator role assigned to you, a status message is displayed on the top of the page, requesting that you contact your administrator to configure the application. You can continue using call insights (with the demo data to explore the features and functionalities) until the administrator configures the application.
 
 ### See also
 
-[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Administer call insights](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
+[View overall agent insights](dynamics365-sales-insights-app-home-page.md)
