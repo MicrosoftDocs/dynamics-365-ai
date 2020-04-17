@@ -63,9 +63,14 @@
 
 ## [Configure keywords and products to track](ci-admin-config-keywords-products.md)
 
+## [Connect to Dynamics 365 Customer Service enironment](ci-connect-customer-service-env.md)
+
+## [Data retention and deletion through Privacy](ci-admin-data-retention-deletion.md)
+
 ## [Analyze overall team performance](ci-team-overview.md)
 
 ## [Analyze agent performance](ci-agent-overview.md)
+
 
 # Data Subject Rights (DSR) requests under GDPR
 
