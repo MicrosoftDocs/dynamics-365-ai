@@ -63,7 +63,7 @@
 
 ## [Configure keywords and products to track](ci-admin-config-keywords-products.md)
 
-## [Connect to Dynamics 365 Customer Service enironment](ci-connect-customer-service-env.md)
+## [Connect to Dynamics 365 Customer Service environment](ci-connect-customer-service-env.md)
 
 ## [Data retention and deletion through Privacy](ci-admin-data-retention-deletion.md)
 
