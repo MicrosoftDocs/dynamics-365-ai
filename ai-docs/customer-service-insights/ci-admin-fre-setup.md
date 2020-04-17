@@ -12,7 +12,7 @@ manager: shujoshi
 
 ---
 
-# First-run setup experience of call insights
+# First-run setup experience for call insights
 
 When you sign in to Customer Service Insights for the first time, you can use and explore the various call insights features through the provided demo data.
 
