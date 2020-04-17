@@ -21,7 +21,7 @@ You should configure keywords and products that are relevant to you and your org
 
 Using the **Conversation content** section, you can add or remove keywords and products to track in the calls. To do this, follow these steps:
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure call insights(ci-admin-prereqs.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure call insights](ci-admin-prereqs.md).
 
 2.	Open the **Conversation Intelligence** application. 
 
