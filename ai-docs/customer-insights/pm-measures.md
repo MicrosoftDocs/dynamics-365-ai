@@ -98,8 +98,8 @@ Alternatively, select a measure from the list and perform one of the following a
 - **Edit** the configuration of the measure.
 - **Rename** the measure.
 - **Delete** the measure.
-- Select the ellipses (...) and then **Refresh** to start the refresh process for the measure.
-- Select the ellipses (...) and then **Download** to get a .CSV file of the measure.
+- Select the ellipsis (...) and then **Refresh** to start the refresh process for the measure.
+- Select the ellipsis (...) and then **Download** to get a .CSV file of the measure.
 
 ## Next step
 
