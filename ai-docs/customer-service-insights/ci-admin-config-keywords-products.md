@@ -1,6 +1,6 @@
 ---
-title: "Configure keywords and competitors to track in Conversation Intelligence | MicrosoftDocs"
-description: "Configure keywords and competitors to track in Conversation Intelligence"
+title: "Configure keywords and products to track in call insights | MicrosoftDocs"
+description: "Configure keywords and products to track in call insights"
 ms.date: 04/20/2020
 ms.service: 
  - dynamics-365-ai
