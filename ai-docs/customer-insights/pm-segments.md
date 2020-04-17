@@ -98,7 +98,7 @@ You can download your segments to a CSV file or export them to Dynamics 365 Sale
 
 1. Go to the **Segments** page.
 
-2. Select the ellipses in a specific segment's tile.
+2. Select the ellipsis in a specific segment's tile.
 
 3. Select **Download as CSV** from the actions drop-down list.
 
@@ -108,7 +108,7 @@ Before exporting segments to Dynamics 365 Sales, an admin needs to [create the e
 
 1. Go to the **Segments** page.
 
-2. Select the ellipses in a specific segment's tile.
+2. Select the ellipsis in a specific segment's tile.
 
 3. Select **Add to** from the actions drop-down list and select the export destination you want to send the data to.
 
