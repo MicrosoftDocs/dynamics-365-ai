@@ -80,7 +80,7 @@ The following procedure explains how to access call insights:
 
     > [!div class="mx-imgBorder"]
     > ![Select set up call insights link](media/ci-first-signin.png "Select the set up call insights link")
-    
+
 4.	Select your Dynamics 365 environment to connect to. This helps to compute and consolidate the necessary insights about your team.
 
     > [!div class="mx-imgBorder"]
