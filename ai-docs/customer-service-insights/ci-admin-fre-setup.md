@@ -1,6 +1,6 @@
 ---
-title: "First-run set up experience for call insights | MicrosoftDocs"
-description: "First-run set up experience for call insights"
+title: "First-run setup experience for call insights | MicrosoftDocs"
+description: "First-run setup experience for call insights"
 ms.date: 04/20/2020
 ms.service: 
  - dynamics-365-ai
@@ -12,9 +12,10 @@ manager: shujoshi
 
 ---
 
-# First-run set up experience of call insights
+# First-run setup experience of call insights
 
 When you sign in to Customer Service Insights for the first time, you can use and explore the various call insights features through the provided demo data.
+
 Depending on your role:
 
 -	As an administrator, you can set up the complete call insights features, including connecting your Dynamics 365 Customer Service environment, granting app permissions, connecting call data, enabling preview, and defining tracked key words and to use. 
