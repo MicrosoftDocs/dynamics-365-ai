@@ -1,7 +1,7 @@
 ---
-title: "Incremental refresh for ingested large data sources in Customer Insights | Microsoft Docs"
+title: "Incremental refresh for large data sources in Customer Insights | Microsoft Docs"
 description: "Refresh new and updated data for large data sources in Dynamics 365 Customer Insights."
-ms.date: 03/25/2020
+ms.date: 04/16/2020
 ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "article"
