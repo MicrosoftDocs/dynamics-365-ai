@@ -26,6 +26,9 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 1. Give your custom model a recognizable name in the **Name** field.
 
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the New workflow pane](media/new-workflow.png "Screenshot of the New workflow pane")
+
 1. Select the organization that contains the web service in **Tenant that contains your web service**.
 
 1. Select **Sign in** with your credentials for the selected organization.
