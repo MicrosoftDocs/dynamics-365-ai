@@ -80,8 +80,8 @@ Review the following requirements for audio and JSON files before you upload:
   |Parameter|Description|
   |---------|-----------|
   | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
-  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Sales organization. |
-  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Sales organization. | 
+  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Customer Service Insights organization. |
+  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Customer Service Insights organization. | 
   | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
   | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
   | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, and zh-CN. |
@@ -91,16 +91,16 @@ Review the following requirements for audio and JSON files before you upload:
   | `FileName` | Specifies the name of the audio file. |
   | `Title` | Specifies the title of the call.|
   | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
-  | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
-  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
-  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
-  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
-  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
-  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
+  | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your agent contacted. |
+  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Customer Service Insights. |
+  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Customer Service Insights. |
+  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Customer Service Insights. |
+  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Customer Service Insights. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Customer Service Insights. |
+  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your agent. The value is specified in True or False. By default, the value is False. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
-  | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
-  | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
+  | `QueueName`| (Optional) Specifies the name of the queue in which the agent is on. |  
+  | `Provider`| (Optional) Specifies the service provider of the call, such as Skype. |  
   | `Region`| (Optional) Specifies from which region the call originated, such as NA (North America). |  
   | `CreatedTimestamp`| (Optional) Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**. |  
   | `country`| (Optional) Specifies from which country the call originated. | 
