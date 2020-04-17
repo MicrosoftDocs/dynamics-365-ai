@@ -25,14 +25,14 @@ You must have administrative privileges to configure **Call intelligence** for y
 3. [Upload call recordings](#upload-call-recordings).
 
 > [!NOTE] 
-> If you want to update the storage container and connection string, see [Update configuration of call data](#update-configuration-of-call-data). 
+> If you want to update the storage container and connection string, see [Update configuration of call data](#update-configuration-of-call-data).
 
 ## Create call recording repository
 
-Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess. 
+Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess.
 
-> [!NOTE] 
-> While creating the repository, ensure that the repository is created in the same region as your tenant to upload the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.    
+> [!NOTE]
+> While creating the repository, ensure that the repository is created in the same region as your tenant to upload the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.
  
 1. Sign in to the Azure dashboard.
 
@@ -57,7 +57,7 @@ Create a call recording repository (blob container) in an Azure storage account 
     > [!div class="mx-imgBorder"]
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")
 
-Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence. 
+Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence.
 
 ## Upload call recordings
 
