@@ -15,7 +15,7 @@ manager: shujoshi
 
 View insights and analysis of each agent’s performance during calls with customers and leads. 
 
-The information you see on the **Agent details** page varies according to your role (supervisor or agent). To view the **Agent details** page, sign in to **Customer Service Insights**, and select "My workspaces" > "Call insights" > "Agent details**.
+The information you see on the **Agent details** page varies according to your role (supervisor or agent). To view the **Agent details** page, sign in to **Customer Service Insights**, and select **My workspaces** > **Call insights** > **Agent details**.
 
 ## Agent details page for supervisors
 
