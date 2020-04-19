@@ -30,4 +30,4 @@ Verify the following requirements before setting up call insights for your organ
 
 [First-run setup experience](ci-admin-fre-setup.md)
 
-[Configure call intelligence to connect call data](ci-admin-config-call-data.md)
+[Configure call insights to connect call data](ci-admin-config-call-data.md)
