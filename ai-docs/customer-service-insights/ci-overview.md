@@ -89,12 +89,18 @@ The following procedure explains how to access call insights:
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions](media/ci-app-tnc.png "Accept terms and conditions")
 
-	The application validates your credentials and gives you further instructions, depending on your role. If you have an administrator role assigned to you, you can proceed with configuring call insights. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
+	The application validates your credentials and gives you further instructions, depending on your role. If you have an administrator role assigned to you, you can proceed with configuring call insights. To learn more, see [First-run setup experience](ci-admin-fre-setup.md).
     
     If you don't have the administrator role assigned to you, a status message is displayed on the top of the page, requesting that you contact your administrator to configure the feature. You can continue using call insights (with the demo data to explore the features and functionalities) until your administrator configures the feature.
 
 ### See also
 
-[Administer call insights](ci-admin-prereqs.md)
+[Prerequisites to use call insights](ci-admin-prereqs.md)
 
-[View overall agent insights](dynamics365-sales-insights-app-home-page.md)
+[First-run setup experience](ci-admin-fre-setup.md)
+
+[Configure keywords and products to track](ci-admin-config-keywords-products.md)
+
+[Analyze overall team performance](ci-team-overview.md)
+
+[Analyze agent performance](ci-agent-overview.md)
