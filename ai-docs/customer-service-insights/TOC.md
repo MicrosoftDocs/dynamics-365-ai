@@ -51,7 +51,8 @@
 
 ## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
-# Configure and manage call insights
+
+# Configure and manage call insights (Preview)
 
 ## [Discover insights about AI-based call data](ci-overview.md)
 
@@ -59,7 +60,7 @@
 
 ## [First-run setup experience](ci-admin-fre-setup.md)
 
-## [Configure call intelligence to connect call data](ci-admin-config-call-data.md)
+## [Configure call insights to connect call data](ci-admin-config-call-data.md)
 
 ## [Configure keywords and products to track](ci-admin-config-keywords-products.md)
 
