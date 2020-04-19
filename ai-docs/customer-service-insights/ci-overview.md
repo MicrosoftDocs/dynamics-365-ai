@@ -81,6 +81,9 @@ The following procedure explains how to access call insights:
 
 4.	Select your Dynamics 365 environment to connect to. This helps to compute and consolidate the necessary insights about your team.
 
+    > [!div class="mx-imgBorder"]
+    > ![Select Dynamics 365 environment](media/ci-select-environment.png "Select your Dynamics 365 environment")
+
 5.	In the **Terms and conditions** dialog box, accept the terms and conditions and then select **Agree and continue**.
 
     > [!div class="mx-imgBorder"]
