@@ -37,9 +37,7 @@ Call insights is designed to help supervisors and agents in their day-to-day job
 
 -	Manage environments and configure call data.
 
--	Monitor call and insight processing data.
-
--	Configure the levels of hierarchy for which supervisorss can view the call data.
+-	Configure the levels of hierarchy for which supervisors can view the call data.
 
 
 The next sections describe:
