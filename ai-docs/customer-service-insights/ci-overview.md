@@ -82,12 +82,12 @@ The following procedure explains how to access call insights:
 4.	Select your Dynamics 365 environment to connect to. This helps to compute and consolidate the necessary insights about your team.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 environment](media/ci-select-environment.png  "Select your Dynamics 365 environment")
+    > ![Select Dynamics 365 environment](media/ci-select-environment.png "Select your Dynamics 365 environment")
 
 5.	In the **Terms and conditions** dialog box, accept the terms and conditions and then select **Agree and continue**.
 
     > [!div class="mx-imgBorder"]
-    > ![Accept terms and conditions](media/ci-app-tnc.png  "Accept terms and conditions")
+    > ![Accept terms and conditions](media/ci-app-tnc.png "Accept terms and conditions")
 
 	The application validates your credentials and gives you further instructions, depending on your role. If you have an administrator role assigned to you, you can proceed with configuring call insights. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
     
@@ -95,6 +95,6 @@ The following procedure explains how to access call insights:
 
 ### See also
 
-[Administer call insights](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Administer call insights](ci-admin-prereqs.md)
 
 [View overall agent insights](dynamics365-sales-insights-app-home-page.md)
