@@ -52,7 +52,7 @@ The following diagram illustrates the process of setting up application as an ad
 
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
- 
+
     The application takes few minutes to connect your data with application and progress dialog box is displayed.
  
     > [!div class="mx-imgBorder"]
