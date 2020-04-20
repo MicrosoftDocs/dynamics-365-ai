@@ -13,6 +13,8 @@ manager: shujoshi
 
 # View an agent's performance to identify best practices and coaching opportunities 
 
+[!INCLUDE cc-beta-prerelease-disclaimer]
+
 View insights and analysis of each agent’s performance during calls with customers and leads. 
 
 The information you see on the **Agent details** page varies according to your role (supervisor or agent). To view the **Agent details** page, sign in to **Customer Service Insights**, and select **My workspaces** > **Call insights** > **Agent details**.
@@ -56,7 +58,7 @@ As an agent, the **Agent details** page helps you analyze your overall behavior 
 
 -	Identify the main keywords that customers use during calls.
 
--	Identify competitor names that customers mention during calls.
+-	Identify product names that customers mention during calls.
 
 -	Analyze call transcripts and identify the areas where you need coaching.
 
@@ -77,12 +79,16 @@ Let's look at the KPIs and insights in detail:
 |**2. Basic information**|Displays your conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
 |**3. Insights**|Displays the latest trends specific to you, such as customer sentiment and talk-to-listen ration.|
 |**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays your average talk-to-listen ratio during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe.|
-|**5. Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md)|
+|**5. Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md)|
 
 ### See also
 
-[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
+[Overview of call insights](ci-overview.md)
 
-[First-run set up experience of Conversation Intelligence](fre-setup-sales-insight-app.md)
+[Prerequisites to use call insights](ci-admin-prereqs.md)
 
-[Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+[First-run setup experience](ci-admin-fre-setup.md)
+
+[Analyze overall team performance](ci-team-overview.md)
+
+[View and understand call summary](ci-view-understand-call-summary.md)
