@@ -14,6 +14,8 @@ manager: shujoshi
 
 # First-run setup experience for call insights
 
+[!INCLUDE cc-beta-prerelease-disclaimer]
+
 When you sign in to Customer Service Insights for the first time, you can use and explore the various call insights features through the provided demo data.
 
 Depending on your role:
