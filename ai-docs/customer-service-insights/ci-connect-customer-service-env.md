@@ -9,6 +9,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi 
+
 ---
 
 # Connect to Dynamics 365 Customer Service environment
@@ -53,7 +54,7 @@ As an administrator, you must configure the Dynamics 365 Customer Service enviro
     The application takes few minutes to connect your data with the application, and a progress dialog box is displayed.
 
     > [!div class="mx-imgBorder"]
-    > ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")
+    > ![Environment connection progress](media/ci-app-admin-connection-progress-d365-org.png "Environment connection progress")
  
 8.	In the **Create an application user** dialog box, select **Grant permissions** to create an application user.
 
@@ -85,6 +86,12 @@ Now, your call insights feature is ready with the data of the added environment.
 
 ### See also
 
-[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Discover insights about AI-based call data](ci-overview.md)
 
-[Prerequisites to configure Conversation Intelligence](ci-admin-prereqs.md)
+[Prerequisites to use call insights](ci-admin-prereqs.md)
+
+[First-run setup experience](ci-admin-fre-setup.md)
+
+[Configure call insights to connect call data](ci-admin-config-call-data.md)
+
+[Configure keywords and products to track](ci-admin-config-keywords-products.md)
