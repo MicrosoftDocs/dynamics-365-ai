@@ -12,11 +12,11 @@ manager: shujoshi
 
 ---
 
-# Configure call intelligence to connect call data
+# Configure call insights to connect call data
 
 Call insights in Dynamics 365 Customer Service Insights helps supervisors in your organization have an overview of the call center and drill down to get call statistics for individual agents. This helps the supervisors change the shape of the business by giving smarter coaching and enhancing performance to improve customer satisfaction.
 
-You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:
+You must have administrative privileges to configure **Call insights** for your organization. To configure **Call insights**, perform the following steps:
 
 1. [Review the prerequisites](ci-admin-prereqs.md)
 
@@ -52,19 +52,19 @@ Create a call recording repository (blob container) in an Azure storage account 
 
    The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
 
-6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.
+6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call insights** to your Azure storage account.
 
     > [!div class="mx-imgBorder"]
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")
 
-Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence.
+Now you are ready to upload call recordings to the blob container and configure the call data for call insights.
 
 ## Upload call recordings
 
 You can upload the recordings in audio formats, such as MP3 and WAV, in the created call recording repository (blob container) in Azure. Along with the audio format file, you must upload the corresponding metadata file in JSON format.
 
 > [!NOTE]
-> - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
+> - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call insights**. 
 > - The **conversation-intelligence-managed** container is created and managed automatically by the application.
 
 
@@ -80,8 +80,8 @@ Review the following requirements for audio and JSON files before you upload:
   |Parameter|Description|
   |---------|-----------|
   | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
-  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Customer Service Insights organization. |
-  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Customer Service Insights organization. | 
+  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Customer Service organization. |
+  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Customer Service organization. | 
   | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
   | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
   | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, and zh-CN. |
@@ -92,17 +92,15 @@ Review the following requirements for audio and JSON files before you upload:
   | `Title` | Specifies the title of the call.|
   | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
   | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your agent contacted. |
-  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Customer Service Insights. |
-  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Customer Service Insights. |
-  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Customer Service Insights. |
-  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Customer Service Insights. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Customer Service Insights. |
+  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Customer Service. |
+  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Customer Service. |
+  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Customer Service. |
+  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Customer Service. |
   | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your agent. The value is specified in True or False. By default, the value is False. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the agent is on. |  
   | `Provider`| (Optional) Specifies the service provider of the call, such as Skype. |  
   | `Region`| (Optional) Specifies from which region the call originated, such as NA (North America). |  
-  | `CreatedTimestamp`| (Optional) Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**. |  
   | `country`| (Optional) Specifies from which country the call originated. | 
   <!--| `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|-->
   
@@ -129,18 +127,18 @@ Review the following requirements for audio and JSON files before you upload:
     ```
     <!--"fileChannelType": "TwoWay",-->
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#administrator-setting-up-application)
+> [Continue with the first-run set up experience](ci-admin-fre-setup.md#administrator-setting-up-application)
 
 ## Update configuration of call data
 
 Configuring the call data helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and providing insights for the call recordings. To configure the call data:
 
-1.	Open the **Conversation Intelligence** application. 
+1.	Open **call insights** in Customer Service Insights. 
 
 2.	Select the settings icon on the top-right of the page and then select Settings.
 
     > [!div class="mx-imgBorder"]
-    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    > ![Select settings option](media/ci-app-admin-select-settings.png "Select settings option")
  
 3.	On the **Settings** page, select **Data source**. 
 
@@ -159,9 +157,7 @@ Configuring the call data helps us to fetch the call recording from your reposit
     > [!div class="mx-imgBorder"]
     > ![Select container name](media/si-app-admin-call-data-section-container.png "Select container name")
 
-6.	(Optional) Download the metadata file sample that is used to upload to the call recording repository in Azure along with the call recording file.
-
-7.	Select **Save**.
+6.	Select **Save**.
 
 The call data storage container is updated, and you can start uploading the call data into the new container.
 
@@ -171,5 +167,7 @@ The call data storage container is updated, and you can start uploading the call
 [Overview of call insights in Dynamics 365 Customer Service Insights](ci-overview.md)
 
 [Prerequisites to configure call insights](ci-admin-prereqs.md)
+
+[First-run setup experience](ci-admin-fre-setup.md)
 
 
