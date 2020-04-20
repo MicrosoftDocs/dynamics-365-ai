@@ -49,7 +49,7 @@ Consider the following before you start using predictive forecasting, you must h
 
 -	Data should be real as in the usage scenarios for both closed and open opportunities. For example, opportunity created date should be before close date.
 
-- Predictive forecasting service selects forecast model according to the available data, therefore, larger volume of closed opportunities with more complete values will result in getting more accurate forecast.
+- Predictive forecasting service selects forecast model according to the available data, so, larger volume of closed opportunities with more complete values will result in getting more accurate forecasts.
 
 - **Prediction** column is available only for **Org chart forecast**&ndash;based forecasts.  
 

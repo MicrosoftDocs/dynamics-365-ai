@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # First-run set up experience of Conversation Intelligence
 
-When you sign-in to Conversation Intelligence, the application will be available for you to use and explore the various features through the provided demo data.
+When you sign in to Conversation Intelligence, the application will be available for you to use and explore the various features through the provided demo data.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
 -	As an administrator, you can set up the complete application including connecting Dynamics 365 Sales environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
@@ -39,7 +39,7 @@ The following diagram illustrates the process of setting up application as an ad
     > [!div class="mx-imgBorder"]
     > ![Administrator Conversation Intelligence home page](media/si-app-admin-home-page-admin-signin.png "Administrator Conversation Intelligence home page")
  
-3.	Select **Set up Conversation Intelligence** and continue with the set up wizard. 
+3.	Select **Set up Conversation Intelligence** and continue with the setup wizard. 
 
 4.	On the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.
 
