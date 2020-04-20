@@ -54,9 +54,9 @@ Let's look at the KPIs and insights on the call summary page in detail:
 
 **Call playback timeline**: Displays the call playback timeline with the sentiments highlighted (such as positive, neutral, and negative). You can go to a specific moment on the call by clicking on the timeline. The call transcript (on the right) will automatically scroll to that moment in the call. You can also pause the call, rewind, forward, and adjust volume as required. 
 
-**Call transcript**: Provides a written record of the call. As a manager, you can review the transcript and leave a comment (for example, suggesting how the seller could possibly handle such a situation in the future). 
+**Call transcript**: Provides a written record of the call. As a supervisor, you can review the transcript and leave a comment (for example, suggesting how the agent could possibly handle such a situation in the future). 
 
-   As a seller, you can review the transcript and comments that are posted by your manager or coach on the timeline. You can provide replies to the comments appropriately.
+   As an agent, you can review the transcript and comments that are posted by your supervisor or coach on the timeline. You can provide replies to the comments appropriately.
 
    On a selected timeline, select **Add comment** to provide necessary replies or self-comments, and then select **Save**. 
 
