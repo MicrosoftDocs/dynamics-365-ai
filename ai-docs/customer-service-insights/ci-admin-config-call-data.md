@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Configure call insights to connect call data
 
+[!INCLUDE cc-beta-prerelease-disclaimer]
+
 Call insights in Dynamics 365 Customer Service Insights helps supervisors in your organization have an overview of the call center and drill down to get call statistics for individual agents. This helps the supervisors change the shape of the business by giving smarter coaching and enhancing performance to improve customer satisfaction.
 
 You must have administrative privileges to configure **Call insights** for your organization. To configure **Call insights**, perform the following steps:
@@ -135,7 +137,7 @@ Configuring the call data helps us to fetch the call recording from your reposit
 
 1.	Open **call insights** in Customer Service Insights. 
 
-2.	Select the settings icon on the top-right of the page and then select Settings.
+2.	Select the settings icon on the top-right of the page and then select **Settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select settings option](media/ci-app-admin-select-settings.png "Select settings option")
@@ -143,19 +145,19 @@ Configuring the call data helps us to fetch the call recording from your reposit
 3.	On the **Settings** page, select **Data source**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
+    > ![Data source section](media/ci-app-admin-select-data-source.png "Data source section")
  
 4.	In the **Call data** section, enter the **Storage connection** string that you configured in Azure.
 
     > [!div class="mx-imgBorder"]
-    > ![Select storage connection string](media/si-app-admin-call-data-section.png "Select storage connection string")
+    > ![Select storage connection string](media/ci-app-admin-call-data-section.png "Select storage connection string")
 
     The list of containers that are available is displayed in the **Container name** drop-down.
 
 5.	Select **Container name** from the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Select container name](media/si-app-admin-call-data-section-container.png "Select container name")
+    > ![Select container name](media/ci-app-admin-call-data-section-container.png "Select container name")
 
 6.	Select **Save**.
 
