@@ -37,7 +37,7 @@ Using the **Conversation content** section, you can add or remove keywords and p
     > [!div class="mx-imgBorder"]
     > ![Conversations section](media/ci-app-admin-select-conversation-content.png "Conversations section")
 
-5.	On the **Tracked keywords** section, enter a keyword in the **Add a keyword**, and press **Enter**.
+5.	On the **Tracked support keywords** section, enter a keyword in the **Add a keyword**, and press **Enter**.
 
     > [!div class="mx-imgBorder"]
     > ![Tracked keywords section](media/ci-app-admin-enter-tracked-keywords.png "Tracked keywords section")
