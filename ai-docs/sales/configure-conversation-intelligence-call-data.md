@@ -77,7 +77,7 @@ Review the following requirements for audio and JSON files before you upload:
 - The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
-- The names of uploaded files must be unique for your organization and must not be repeated.
+- The names of the uploaded files must be unique for your organization and must not be repeated.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
   |Parameter|Description|
