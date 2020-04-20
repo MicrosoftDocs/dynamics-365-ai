@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Prerequisites to configure call insights
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Verify the following requirements before setting up call insights for your organization:
 
