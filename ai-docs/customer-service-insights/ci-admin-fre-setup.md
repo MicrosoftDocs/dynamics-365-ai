@@ -75,7 +75,7 @@ Depending on your role:
     > You can also skip adding the keywords and products and add them later when required.
 
     > [!div class="mx-imgBorder"]
-    > ![Add tracked keywords and products](media/si-app-admin-keywords-and-product-tracking.png "Add tracked keywords and products")
+    > ![Add tracked keywords and products](media/ci-app-admin-keywords-and-product-tracking.png "Add tracked keywords and products")
  
 10.	Select **Finish** to complete the call insights configuration for your organization.
 
