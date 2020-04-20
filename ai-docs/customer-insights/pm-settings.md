@@ -1,7 +1,7 @@
 ---
-title: "System | Microsoft Docs"
+title: "System configuration in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about system settings in Dynamics 365 Customer Insights."
-ms.date: 02/05/2020
+ms.date: 04/17/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: nimagen
 manager: shellyha
 ---
 
-# System
+# System configuration
 
 The **System** page contains everything that administrators need to closely monitor the various processes running behind the scenes of Customer Insights. It includes four tabs: **Status**, **Schedule**, **About**, and **General**.
 
