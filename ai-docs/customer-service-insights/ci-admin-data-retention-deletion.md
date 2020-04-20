@@ -62,7 +62,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
 
 1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation Intelligence** application. 
+2.	Open **call insights** in Customer Service Insights. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -74,7 +74,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
     > [!div class="mx-imgBorder"]
     > ![Select privacy option](media/ci-app-admin-settings-privacy.png "Select privacy option")
  
-5.	In the **Delete seller data** section, select the seller for whom you want to delete the data and then select **Delete data**.
+5.	In the **Delete agent data** section, select the seller for whom you want to delete the data and then select **Delete data**.
 
     > [!NOTE]
     > You can also you use the search option to find and select the seller. 
@@ -82,17 +82,17 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
     In this example we are deleting the seller Robin Counts’s data.
 
     > [!div class="mx-imgBorder"]
-    > ![Select a seller to delete data](media/ci-app-admin-select-seller-delete.png "Select a seller to delete data")
+    > ![Select an agent to delete data](media/ci-app-admin-select-agent-delete.png "Select an agent to delete data")
 
 6.	On the confirmation message, select **Delete**.
 
     > [!div class="mx-imgBorder"]
-    > ![Confirmation message to delete data](media/ci-app-admin-message-seller-data-delete.png "Confirmation message to delete data")
+    > ![Confirmation message to delete data](media/ci-app-admin-message-agent-data-delete.png "Confirmation message to delete data")
 
-    The selected seller data is deleted from Conversation Intelligence.
+    The selected agent data is deleted from Conversation Intelligence.
 
     > [!div class="mx-imgBorder"]
-    > ![Seller data deleted](media/ci-app-admin-seller-delete-deleted.png "Seller data deleted")
+    > ![Agent data deleted](media/ci-app-admin-agent-delete-deleted.png "Agent data deleted")
 
 To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).
 
