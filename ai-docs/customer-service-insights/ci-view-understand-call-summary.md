@@ -65,14 +65,14 @@ Let's look at the KPIs and insights on the call summary page in detail:
 
 ### See also
 
-## [Overview of call insights](ci-overview.md)
+[Overview of call insights](ci-overview.md)
 
-## [Prerequisites to use call insights](ci-admin-prereqs.md)
+[Prerequisites to use call insights](ci-admin-prereqs.md)
 
-## [First-run setup experience](ci-admin-fre-setup.md)
+[First-run setup experience](ci-admin-fre-setup.md)
 
-## [Configure keywords and products to track](ci-admin-config-keywords-products.md)
+[Configure keywords and products to track](ci-admin-config-keywords-products.md)
 
-## [Analyze overall team performance](ci-team-overview.md)
+[Analyze overall team performance](ci-team-overview.md)
 
-## [Analyze agent performance](ci-agent-overview.md)
+[Analyze agent performance](ci-agent-overview.md)
