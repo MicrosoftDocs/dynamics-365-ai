@@ -1,7 +1,7 @@
 ---
-title: "Activities | Microsoft Docs"
-description: "Define activities in Dynamics 365 Customer Insights to see them in a customer timeline." 
-ms.date: 04/06/2020
+title: "Customer activities | Microsoft Docs"
+description: "Manage customer activities in Dynamics 365 Customer Insights and view them in customer timeline." 
+ms.date: 04/17/2020
 ms.service: dynamics-365-ai
 ms.reviewer: mukeshpo
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Activities
+# Customer activities
 
 Combine customer activities from [various data sources](data-sources-list.md) in Dynamics 365 Customer Insights. In a next step, create a customer timeline that includes all the activities of a customer in chronological order. You can include the timeline in model-driven apps in Dynamics 365 via the Customer Card add-in, or in a Power BI dashboard. Visit the [**Timeline Control** section](pm-customer-card-addin.md#timeline-control) to learn how to configure that control.
 
