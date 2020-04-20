@@ -13,7 +13,7 @@ manager: shujoshi
 
 # Configure keywords and products to track
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You should configure keywords and products that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or products are mentioned in a call, call insights will gather the data and display it appropriately on the dashboard.
 
