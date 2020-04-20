@@ -26,7 +26,7 @@ Depending on your role:
 
 ## Administrator setting up application
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure call insights](ci-admin-prereqs-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure call insights](ci-admin-prereqs.md).
 
 2.	Sign in to the Dynamics 365 Customer Service Insights application.
 
