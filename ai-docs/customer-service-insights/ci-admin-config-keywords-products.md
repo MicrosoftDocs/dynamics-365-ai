@@ -49,7 +49,7 @@ Using the **Conversation content** section, you can add or remove keywords and p
     > [!div class="mx-imgBorder"]
     > ![Products section](media/ci-app-admin-enter-products.png "Products section")
 
-8.	Repeat step 7 to add other product names.
+8.	Repeat **step 7** to add other product names.
 
 9.	Select **Save**.
 
