@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Analyze overall team's behavior on customer calls
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Customer Service calls are one of the most important part of your business, as these calls help you to change the shape of your business by improving customer satisfaction. The **Team overview** page in call insights helps supervisors analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase customer satisfaction and activity gains for the business.
 
