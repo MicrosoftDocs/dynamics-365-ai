@@ -15,7 +15,7 @@ manager: shujoshi
 
 The **Data sources** section helps you to disconnect or connect a Dynamics 365 Customer Service environment with call insights. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
-At a time, you can have only one active Dynamics 365 Customer Service environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
+At a time, you can have only one active Dynamics 365 Customer Service environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and products, as well as provide permission to access the data to the added environment.
 
 As an administrator, you must configure the Dynamics 365 Customer Service environment to connect to call insights.
 
@@ -26,12 +26,12 @@ As an administrator, you must configure the Dynamics 365 Customer Service enviro
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")
+    > ![Select settings option](media/ci-app-admin-select-settings.png "Select settings option")
 
 4.	On the **Settings** page, select **Data source**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
+    > ![Data source section](media/ci-app-admin-select-data-source.png "Data source section")
  
 5.	In the **Dynamics 365 environment** section, select **+ Add an environment**.
 
@@ -66,12 +66,12 @@ As an administrator, you must configure the Dynamics 365 Customer Service enviro
 9.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get the **Storage connection string** and **Container name** values, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
 
     > [!div class="mx-imgBorder"]
-    > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
+    > ![Enter values to connect call data](media/ci-app-admin-connect-call-data.png "Enter values to connect call data")
  
 10.	In the **Keyword and product tracking** dialog box, add the keywords and products that you want to track on calls. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and products to track](ci-admin-config-keywords-products.md).
 
     > [!div class="mx-imgBorder"]
-    > ![Add tracked keywords and products](media/si-app-admin-keywords-and-product-tracking.png "Add tracked keywords and competitors")
+    > ![Add tracked keywords and products](media/ci-app-admin-keywords-and-product-tracking.png "Add tracked keywords and competitors")
     
    > [!NOTE]
    > You can skip adding the keywords and competitors and add them later, when required.
