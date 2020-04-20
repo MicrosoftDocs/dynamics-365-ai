@@ -79,9 +79,7 @@ Depending on your role:
  
 10.	Select **Finish** to complete the call insights configuration for your organization.
 
-    The status message will be displayed on the top of the page.
-  
-Now, your call insights feature is ready, and supervisors and agents can use it to view the data.
+    The status message will be displayed on the top of the page. Call insights is now ready, and supervisors and agents can use it to view the data.
 
 ### See also
 
