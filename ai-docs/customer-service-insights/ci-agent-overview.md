@@ -13,7 +13,7 @@ manager: shujoshi
 
 # View an agent's performance to identify best practices and coaching opportunities 
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 View insights and analysis of each agent’s performance during calls with customers and leads. 
 
