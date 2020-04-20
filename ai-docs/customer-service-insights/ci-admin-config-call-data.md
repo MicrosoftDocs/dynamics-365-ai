@@ -157,7 +157,7 @@ Configuring the call data helps us to fetch the call recording from your reposit
 5.	Select **Container name** from the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Select container name](media/ci-app-admin-call-data-section-container.png "Select container name")
+    > ![Select storage connection string](media/ci-app-admin-call-data-section-container.png "Select container name")
 
 6.	Select **Save**.
 
