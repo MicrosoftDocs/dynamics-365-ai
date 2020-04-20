@@ -20,7 +20,7 @@ Verify the following requirements before setting up call insights for your organ
 
 -	You must have a Dynamics 365 Customer Service organization. 
 
--	You must purchase a [Dynamics 365 Customer Service Insights](https://aka.ms/csinsights) license. 
+-	You must purchase a [Dynamics 365 Customer Service Insights](https://dynamics.microsoft.com/ai/customer-service-insights/) license. 
 
 -	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
