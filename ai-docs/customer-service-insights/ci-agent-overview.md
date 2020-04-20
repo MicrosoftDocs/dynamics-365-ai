@@ -46,7 +46,7 @@ The following the KPIs and insights are displayed for supervisors who view an ag
 |**Basic information**|Select an agent from the drop-down list to view that agent's information such as insights, statistics, and call history. With this information, you can assess an agent's behavior and identify areas where the agent requires coaching.<br>You can comment directly on call transcripts to provide coaching inputs or gather information as required. You can also send them an email or chat directly. Select the email icon to send an email and select the chat icon to chat with the agent.<br>These insights also show the agent’s conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
 |**Insights**|Displays what’s happening with the agent and the latest trends specific to each agent, such as customer sentiment and talk-to-listen ratio.|
 |**Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that the agent handled.<br>•	**Average talk to listen ratio:** Displays the average talk-to-listen ratio of the agent during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe for the agent.|
-|**Call history**|Displays a list of the agent’s calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md)|
+|**Call history**|Displays a list of the agent’s calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md).|
 
 ## Agent details page for agent
 
@@ -70,7 +70,7 @@ The following KPIs and insights in detail are displayed for agents viewing their
 |**Basic information**|Displays your conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
 |**Insights**|Displays the latest trends specific to you, such as customer sentiment and talk-to-listen ration.|
 |**Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays your average talk-to-listen ratio during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe.|
-|**Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md)|
+|**Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md).|
 
 ### See also
 
