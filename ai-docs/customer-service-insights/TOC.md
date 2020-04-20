@@ -72,6 +72,8 @@
 
 ## [Analyze agent performance](ci-agent-overview.md)
 
+## [View and Understand call summary](ci-view-understand-call-summary.md)
+
 
 # Data Subject Rights (DSR) requests under GDPR
 
