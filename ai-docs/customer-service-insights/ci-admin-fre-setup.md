@@ -69,7 +69,7 @@ Depending on your role:
     > [!div class="mx-imgBorder"]
     > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")
  
-9.	On the **Keyword and product tracking** dialog box, add the keywords and products that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and products in conversation content](ci-admin-config-keywords-products.md).
+9.	On the **Support keyword and product tracking** dialog box, add the keywords and products that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and products in conversation content](ci-admin-config-keywords-products.md).
 
     > [!NOTE]
     > You can also skip adding the keywords and products and add them later when required.
