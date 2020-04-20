@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Connect to Dynamics 365 Customer Service environment
 
+[!INCLUDE cc-beta-prerelease-disclaimer]
+
 The **Data sources** section helps you to disconnect or connect a Dynamics 365 Customer Service environment with call insights. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
 At a time, you can have only one active Dynamics 365 Customer Service environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and products, as well as provide permission to access the data to the added environment.
@@ -64,29 +66,26 @@ As an administrator, you must configure the Dynamics 365 Customer Service enviro
     > [!NOTE]
     > If you have already added this environment, the step to grant permissions for the application to access the data will be skipped.
 
-9.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get the **Storage connection string** and **Container name** values, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).
+9.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. To learn more on how to get the **Storage connection string** and **Container name** values, see [Configure call insights to connect call data](ci-admin-config-call-data.md).
 
     > [!div class="mx-imgBorder"]
-    > ![Enter values to connect call data](media/ci-app-admin-connect-call-data.png "Enter values to connect call data")
+    > ![Enter values to connect call data](media/ci-app-admin-select-data-source.png "Enter values to connect call data")
  
 10.	In the **Keyword and product tracking** dialog box, add the keywords and products that you want to track on calls. You can update these keywords and trackers later when your organization requires a change. To learn more, see [Configure keywords and products to track](ci-admin-config-keywords-products.md).
 
     > [!div class="mx-imgBorder"]
-    > ![Add tracked keywords and products](media/ci-app-admin-keywords-and-product-tracking.png "Add tracked keywords and competitors")
+    > ![Add tracked keywords and products](media/ci-app-admin-select-conversation-content.png "Add tracked keywords and products")
     
    > [!NOTE]
    > You can skip adding the keywords and competitors and add them later, when required.
 
-11.	Select **Finish** to complete the setup of the **Conversation Intelligence** application for your organization. The status message will be displayed on the top of the page.
-
-    > [!div class="mx-imgBorder"]
-    > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
+11.	Select **Finish** to complete the setup of the **call insights** feature for your organization. The status message will be displayed on the top of the page.
   
 Now, your call insights feature is ready with the data of the added environment.
 
 ### See also
 
-[Discover insights about AI-based call data](ci-overview.md)
+[Overview of call insights](ci-overview.md)
 
 [Prerequisites to use call insights](ci-admin-prereqs.md)
 
