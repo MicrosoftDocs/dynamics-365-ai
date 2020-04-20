@@ -56,11 +56,13 @@ To configure the retention policy:
 
 Retention policy configuration is saved, and the analyzed call recording data will be retained until the selected option.
 
-## Delete seller data
+## Delete agent data
 
-You can delete seller’s data when a seller is not reporting to you, moved to another team, leaving your organization, or seller requests to delete his data. This data includes the seller’s statistics and call history. To delete a seller’s data that you don’t want to see in your insights:
+You can delete an agent's data when the agent no longer reports to you, moves to another team, leaves your organization, or the agent requests to delete their data. This data includes the agent’s statistics and call history. 
 
-1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
+To delete an agent’s data that you don’t want to see in your insights:
+
+1.	Review the prerequisites. To learn more, see [Prerequisites to set up call insights](ci-admin-prereqs.md).
 
 2.	Open **call insights** in Customer Service Insights. 
 
@@ -74,12 +76,12 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
     > [!div class="mx-imgBorder"]
     > ![Select privacy option](media/ci-app-admin-settings-privacy.png "Select privacy option")
  
-5.	In the **Delete agent data** section, select the seller for whom you want to delete the data and then select **Delete data**.
+5.	In the **Delete agent data** section, select the agent for whom you want to delete the data, then select **Delete data**.
 
     > [!NOTE]
     > You can also you use the search option to find and select the seller. 
 
-    In this example we are deleting the seller Robin Counts’s data.
+    In this example, we are deleting the agent Robin Counts’s data.
 
     > [!div class="mx-imgBorder"]
     > ![Select an agent to delete data](media/ci-app-admin-select-agent-delete.png "Select an agent to delete data")
@@ -89,7 +91,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
     > [!div class="mx-imgBorder"]
     > ![Confirmation message to delete data](media/ci-app-admin-message-agent-data-delete.png "Confirmation message to delete data")
 
-    The selected agent data is deleted from Conversation Intelligence.
+    The selected agent data is deleted from call insights.
 
     > [!div class="mx-imgBorder"]
     > ![Agent data deleted](media/ci-app-admin-agent-delete-deleted.png "Agent data deleted")
@@ -98,7 +100,7 @@ To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 an
 
 ### See also
 
-[Discover insights about AI-based call data](ci-overview.md)
+[Overview of call insights](ci-overview.md)
 
 [Prerequisites to use call insights](ci-admin-prereqs.md)
 
