@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Connect to Dynamics 365 Customer Service environment
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **Data sources** section helps you to disconnect or connect a Dynamics 365 Customer Service environment with call insights. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
