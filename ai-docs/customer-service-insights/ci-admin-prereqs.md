@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Prerequisites to configure call insights
 
+[!INCLUDE cc-beta-prerelease-disclaimer]
+
 Verify the following requirements before setting up call insights for your organization:
 
 -	You must have an administrator or similar role.
