@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Configure call insights to connect call data
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Call insights in Dynamics 365 Customer Service Insights helps supervisors in your organization have an overview of the call center and drill down to get call statistics for individual agents. This helps the supervisors change the shape of the business by giving smarter coaching and enhancing performance to improve customer satisfaction.
 
