@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Improve supervisor coaching and agent experience with call insights
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The call insights feature in Dynamics 365 Customer Service Insights uses analytics and data science to gather data from agents’ call recordings. Call insights analyzes the data to provide you with the information and insights to intelligently manage your team and proactively coach agents. To achieve this, call insights displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, agent, and call.
 
