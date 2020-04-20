@@ -48,10 +48,13 @@ The following diagram illustrates the process of setting up application as an ad
   
     The application detects your environment.
 
-5.	On the **Terms and conditions** dialog box, read and select the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement) and [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Agree and continue**.
+5.	On the **Terms and conditions** dialog box, carefully read and select the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement) and [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Agree and continue**.
 
     > [!div class="mx-imgBorder"]
     > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")
+
+    >[!NOTE]
+    >Selecting the first check box, allows Microsoft to collect your organization's data to improve the quality of insights. This check box is optional.
 
     The application takes few minutes to connect your data with application and progress dialog box is displayed.
  
