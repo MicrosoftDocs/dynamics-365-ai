@@ -69,7 +69,7 @@
   items: 
     - name: Set up export destinations
       href: export-destinations.md
-    - name: Install the Customer Card Add-in 
+    - name: Install the Customer Card add-in 
       href: pm-customer-card-addin.md
     - name: Work with the Customer Insights Teams bot 
       href: export-teams-bot.md

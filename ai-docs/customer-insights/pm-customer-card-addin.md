@@ -1,7 +1,7 @@
 ---
-title: "Customer Card add-in | Microsoft Docs"
+title: "Customer Card add-in for Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 02/03/2020
+ms.date: 04/17/2020
 ms.reviewer: ""
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,7 +12,7 @@ manager: shellyha
 
 # Customer Card add-in
 
-The Customer Card add-in gives you a 360-degree view of each of your customers. Once installed, you can start using  **Timeline Control** and **Demographic Control** to unlock rich insights on selected customers, including their location, age, latest activities, and more.
+The Customer Card add-in gives you a 360-degree view of each of your customers. Once installed, you can start using **Timeline Control** and **Demographic Control** to unlock rich insights on selected customers, including their location, age, latest activities, and more.
 
 A prerequisite to using the Customer Card is use of the **Search & Filter Index** screen (accessible via the **Customers** page) to index your data. Also note that:
 
@@ -25,7 +25,7 @@ A prerequisite to using the Customer Card is use of the **Search & Filter Index*
 - Unified Interface enabled: Sales Hub, Customer Service Hub, Project Resource Hub.
 - Individuals who will use the Customer Card in model-driven Dynamics 365 apps need to be added as users. You can do so on the Customer Insights **Permissions** page in the **Admin** section, as discussed later in this topic.
 
-## Install the Customer Card Add-in
+## Install the Customer Card add-in
 
 1. As an admin, go to the **Settings** section in model-driven apps in Dynamics 365, and select **Solutions**.
 
@@ -58,7 +58,7 @@ A prerequisite to using the Customer Card is use of the **Search & Filter Index*
 7. Next, assign the following user roles:
 
    - **Customer Insights Card Customizer**: Assign this role to users who will customize the content shown on the card for the whole organization.
-   - **Customer Insights Card Standard User**: Assign this role to users who will use the card for consumption, but who won’t customize.
+   - **Customer Insights Card Standard User**: Assign this role to users who will use the card for consumption, but who won't customize.
   
 8. Now you can add the Customer Card controls into your contact form. To do so, go to the **Settings** section in model-driven apps in Dynamics 365, and then select **Customizations**.
   

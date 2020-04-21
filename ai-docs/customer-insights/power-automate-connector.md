@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Power Automate connector | Microsoft Docs"
+title: "Power Automate connector | Microsoft Docs"
 description: "Create flows in Microsoft Power Automate from Dynamics 365 Customer Insights."
-ms.date: 02/05/2020
+ms.date: 04/21/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: philk
 manager: shellyha
 ---
 
-# Power Automate connector (Preview)
+# Power Automate connector (preview)
 
 Power Automate is now integrated with Dynamics 365 Customer Insights, and available as an admin control to be informed on the refresh of data sources.
 
