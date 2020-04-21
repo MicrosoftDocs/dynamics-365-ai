@@ -68,7 +68,7 @@ When you select the light bulb<!--inline graphic would be nice here, then you wo
 
 ![Topics that are automation candidates for chatbots](media/home_automationcandidates.png "Topics that are automation candidates for chatbots")
 
-A chatbot solution is a great way to automate incoming cases that are high in volume and easy to resolve. The topics are suggested based on these factors. When your organization uses Power Virtual Agents, the topic automation process is an easy integration with Dynamics 365 Customer Service Insights. More information: [Automate topics for a Power Virtual Agents bot](automate-topics)
+A chatbot solution is a great way to automate incoming cases that are high in volume and easy to resolve. The topics are suggested based on these factors. When your organization uses Power Virtual Agents, the topic automation process is an easy integration with Dynamics 365 Customer Service Insights. More information: [Automate topics for a Power Virtual Agents bot](automate-topics.md)
 
 ### Topics impacting CSAT by channel
 
