@@ -28,7 +28,7 @@ The top of the home page includes workspace information, such as the number of c
 
 ![Home page header](media/home_header.png "Home page header")
 
-- **Workspace:** Is the name of your environment that includes<!--Suggested.--> your customer service data.
+- **Workspace:** Is the name of your environment that includes your customer service data.
 - **Case collected:** Is the number of total cases imported into this workspace, calculated by using the method of all cases created in the last 60 days or up to 1 million cases, whichever is greater. More information: [Service limits in Dynamics 365 Customer Service Insights](service-limits.md)
 - **Summary:** Is the number of topics discovered from a percentage of the total imported cases that were successfully clustered based on semantic similarity. If no topics are discovered, it might be because there isn't enough case data in the workspace or clustering is still in progress. More information: [Manage and improve AI grouping of support cases as topics](topics-page.md#troubleshooting-empty-topics-page)
 - **Time period selectors:** Let you compare the selected time period and the previous period to see how KPIs are changing over time and across different time ranges. The default selection is **Last 7 days**, based on the creation date of cases imported since the last refresh. The available time periods are:
