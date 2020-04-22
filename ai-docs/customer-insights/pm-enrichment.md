@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 04/16/2020
+ms.date: 04/22/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -20,7 +20,7 @@ In Customer Insights, go to **Data** > **Enrichment** to configure and view the 
 
 ## About Microsoft Graph
 
-We use our proprietary online search data from the Microsoft Graph to determine affinities for brands and interests across various demographic segments (defined by age, gender and/or location). The online search volume for a given brand or interest is used to determine how much affinity a given demographic segment has to that brand or interest, relative to other demographic segments.
+We use online search data from the Microsoft Graph to find affinities for brands and interests across various demographic segments (defined by age, gender, or location). The online search volume for a brand or interest determines how much affinity a demographic segment, compared to other segments, has to that brand or interest.
 
 [Learn more about Microsoft Graph](https://docs.microsoft.com/graph/overview).
 
@@ -28,9 +28,9 @@ We use our proprietary online search data from the Microsoft Graph to determine 
 
 The **affinity score** is calculated on a 100-point scale, with 100 representing the segment that has the highest affinity for a brand or interest.
 
-The **affinity confidence** is also on a 100-point scale indicating the system's confidence level for a given segment having affinity for the brand or interest. Confidence level is based on the segment size and the segment granularity. Segment size is determined by the amount of data we have for a given segment. Segment granularity is determined by how many attributes (age, gender, location) were used on a given profile.
+The **affinity confidence** is also calculated on a 100-point scale. It indicates the system's confidence level that a segment has an affinity for the brand or interest. Confidence level is based on the segment size and the segment granularity. Segment size is determined by the amount of data we have for a given segment. Segment granularity is determined by how many attributes (age, gender, location) are available in a profile.
 
-We don't normalize the scores for your dataset. Consequently, you may not see all possible affinity score values for your dataset. For example, there may be no enriched customer profile with an affinity score of 100 in your data if no customers exist in the demographic segment that scored 100 for a given brand or interest.
+We don't normalize the scores for your dataset. Consequently, you may not see all possible affinity score values for your dataset. For example, there may be no enriched customer profile with affinity score 100 in your data. That's possible if no customers exist in the demographic segment that scored 100 for a given brand or interest.
 
 > [!TIP]
 > When [creating segments](pm-segments.md) using affinity scores, review the distribution of affinity scores for your dataset before deciding on the appropriate score thresholds. For example, an affinity score of 10 can be considered significant in a dataset that has a highest affinity score of only 25 for a given brand or interest.
@@ -42,35 +42,35 @@ Configuring brands and interests enrichment consists of two steps:
 1. **Define your brands and interests**
 
    Select one of the following options:
-   - **Industry**: Choose your industry, and the system automatically identifies the top brands and interests relevant to your industry and enriches your customer data with them.
-   - **Choose your own**: Select up to five items from an extensive list of brands and interests that are most important to your organization to enrich your customer data with.
+   - **Industry**: The system identifies the top brands and interests relevant to your industry and enriches your customer data with them.
+   - **Choose your own**: Select up to five items from the list of brands and interests that are most relevant to your organization.
 
-   To add a brand or interest, start typing in the corresponding input area to get suggestions based on matching terms. If we don't list a brand or interest you are looking for, send us feedback using the **Suggest** link.
+   To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
 
 2. **Map your fields**
 
-   Map fields from your unified customer entity to at least two attributes. This defines the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to finalize the field mapping.
+   Map fields from your unified customer entity to at least two attributes to define the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to complete the field mapping.
 
    The following formats and values are supported:
    - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
    - **Gender**: Male, Female, Unknown
-   - **Zip Code**: 5-digit US ZIP Code (only supported for the United States)
-   - **State**: 2-letter abbreviation (only supported for the United States)
+   - **Zip Code**: five-digit US ZIP Code (only supported for the United States)
+   - **State**: two-letter abbreviation (only supported for the United States)
 
 :::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
 
 ## Run enrichment
 
-You can run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the **Data** > **Enrichment** page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
-Depending on the size of your customer data, it can take several minutes for an enrichment run to complete.
+Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the **Data** > **Enrichment** page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 ## Enrichment results
 
-Once the enrichment run has successfully completed, you can review the total number of enriched customers, as well as a breakdown of brands and interests in the enriched customer profiles.
+After running the enrichment process, review the total number of enriched customers and a breakdown of brands and interests in the enriched customer profiles.
 
 :::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
 
-You can also see the enriched data by selecting **View enriched data** in the chart. Enriched data for brands can be found in the **BrandAffinityFromMicrosoft** entity, while data for interests can be found in **InterestAffinityFromMicrosoft**. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
+Review the enriched data by selecting **View enriched data** in the chart. Enriched data for brands goes to the **BrandAffinityFromMicrosoft** entity. Data for interests is in the **InterestAffinityFromMicrosoft** entity. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
 
 ## See enrichment data on the customer card
 
@@ -80,4 +80,4 @@ Brand and interest affinities can also be viewed on individual customer cards. G
 
 ## Next steps
 
-Consider extracting more insights and powering your business processes by leveraging your enriched customer data. Create [Segments](pm-segments.md), [Measures](pm-measures.md), and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.
+Build on top of your enriched customer data. Create [Segments](pm-segments.md), [Measures](pm-measures.md), and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.
