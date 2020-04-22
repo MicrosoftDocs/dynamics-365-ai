@@ -151,7 +151,7 @@ Everyone in the tenant (in the United States until geo availability expands) wil
 **​How are the connections weighted?**<br>
 Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact/lead. Consequently, this means a salesperson might not see the same results as another salesperson because they know different people in the organization.
 
-## Sales Insights application
+## Conversation Intelligence
 
 **How long does it take for data updates to reflect in the app?**<br>
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.

@@ -41,12 +41,15 @@ After you activate the forecast for the first time, predictive forecasting will 
 
 To learn more, see [Configure forecasts in your organization](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast).
 
-Consider the following before you start using predictive forecasting:
+Consider the following before you start using predictive forecasting, you must have:
 
-- At least 200 closed opportunities are required for the predictive forecasting model to work. To get the most accurate predictions, you must have at least two years' worth of closed opportunities.
+-	More than 10 closed opportunities with values filled for the fields–**Actual Value**, **Actual Close Date**, **Estimated Value**, and **Estimated Close Date**. 
 
-    > [!NOTE]
-    > Configure the **Actual Close Date** and **Actual Revenue** fields for the opportunities.
+-	Open opportunities with values filled for the fields–**Estimated Value** and **Estimated Close Date**. 
+
+-	Data should be real as in the usage scenarios for both closed and open opportunities. For example, opportunity created date should be before close date.
+
+- Predictive forecasting service selects forecast model according to the available data, so, larger volume of closed opportunities with more complete values will result in getting more accurate forecasts.
 
 - **Prediction** column is available only for **Org chart forecast**&ndash;based forecasts.  
 
