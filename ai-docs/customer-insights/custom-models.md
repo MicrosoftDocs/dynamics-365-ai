@@ -45,7 +45,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 ## Edit a workflow
 
-1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created and select **Edit**.
+1. On the **Custom Models** page, select the vertical ellipsis in the **Actions** column next to a workflow you've previously created and select **Edit**.
 
 2. You can update your workflow's recognizable name in the **Display name** field, but changing the Web service isn't possible. If you want to create a new prediction using a different web service, follow the steps in [Add a new workflow](#add-a-new-workflow). When you're done, select **Next**.
 
@@ -55,7 +55,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 ## Run a workflow
 
-1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
+1. On the **Custom Models** page, select the vertical ellipsis in the **Actions** column next to a workflow you've previously created.
 
 2. Select **Run**.
 
@@ -63,7 +63,7 @@ Your workflow also runs automatically when there's a scheduled refresh. Learn mo
 
 ## Delete a workflow
 
-1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
+1. On the **Custom Models** page, select the vertical ellipsis in the **Actions** column next to a workflow you've previously created.
 
 2. Select **Delete**.
 

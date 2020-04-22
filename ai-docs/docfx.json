@@ -73,6 +73,15 @@
           "AI apps",
           "AI for Customer Insights"
         ]
+      },
+      "search.app": {
+        "customer-insights/**.*": "CI"
+      },
+      "search.audienceType": {
+        "customer-insights/**.*": "enduser"
+      },
+      "search.appverid": {
+        "customer-insights/**.*": "met150"
       }
     },
     "template": [],
