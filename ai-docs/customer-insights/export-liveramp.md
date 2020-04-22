@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connector to LiveRamp&reg; (preivew)
+# Connector to LiveRamp&reg; (preview)
 
 Activate your data in LiveRamp to connect with over 500 platforms across digital, social, and TV ecosystems. Work with your data in LiveRamp to target, suppress, and personalize ad campaigns.
 

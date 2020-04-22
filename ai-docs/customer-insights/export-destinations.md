@@ -1,7 +1,7 @@
 ---
 title: "Export destinations | Microsoft Docs"
 description: "The Export destinations page lets you export data and manage destinations for exporting data."
-ms.date: 04/14/2020
+ms.date: 04/22/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -29,7 +29,7 @@ Go to **Admin** > **Export destinations** to find the following extensibility op
 
 ## Add a new export destination
 
-To add destinations, you'll need to be an administrator of your Dynamics 365 Customer Insights instance. If you are exporting to Microsoft services, we assume both services are in the same organization.
+To add destinations, you'll need to be an administrator of your Dynamics 365 Customer Insights instance. If you export to Microsoft services, we assume both services are in the same organization.
 
 1. Go to **Admin** > **Export destinations**.
 
@@ -37,17 +37,15 @@ To add destinations, you'll need to be an administrator of your Dynamics 365 Cus
 
 1. Select **Add destination** to create a new export destination.
 
-1. In the **Add destination** pane, select the **Type** of export destination in the drop down.
+1. In the **Add destination** pane, select the **Type** of export destination in the drop-down.
 
 1. Provide the required details and select **Next** to create the export destination.
 
-Alternatively, you can select **Set up** on a tile on the **Discover** tab.
-
-For more details about a specific connectors, refer to the detailed help topics.
+You can also select **Set up** on a tile on the **Discover** tab.
 
 ## View Export destinations
 
-After creating export destinations, they are listed in a table on the **My export destinations** tab. This table has three columns:
+After creating export destinations, you'll find them in a table on the **My export destinations** tab. This table has three columns:
 
 - **Display name**: The name you entered when creating the destination.
 - **Type**: The export destination type you set when creating the destination.
@@ -74,7 +72,7 @@ To export data without waiting for a scheduled refresh, go the **My export desti
 > ![Vertical ellipsis](media/export-destinations-page-ellipsis.png "Vertical ellipsis")
 
 - Select **Export** above the list to run the export to all export destinations simultaneously.
-- Select the ellipses (...) after a list item and then choose the **Export** option to run the export for a single export destination.
+- Select the ellipsis (...) after a list item and then choose the **Export** option to run the export for a single export destination.
 
 ## Remove an Export destination
 

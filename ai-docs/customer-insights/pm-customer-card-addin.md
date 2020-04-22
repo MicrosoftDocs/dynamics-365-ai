@@ -19,7 +19,7 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 - Model-driven Dynamics 365 app (such as Sales Hub or Customer Service Hub), version 9.0 and later with Unified Interface enabled.
 - Users of the Customer Card Add-in need to be [added as users](pm-permissions.md) in Customer Insights.
 - [Configured search and filter capabilities](pm-manage-search.md) in Customer Insights.
-- Demographic control: Demographic fields, such as age or gender are available in the unified customer profile.
+- Demographic control: Demographic fields, such as age or genders are available in the unified customer profile.
 - Intelligence control: Requires data in Customer Insights generated using Azure Machine Learning ([Predictions](predictions.md) or [Custom Models](custom-models.md))
 - Measure control: Requires [configured measures](pm-measures.md) in Customer Insights.
 - Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights.
@@ -48,7 +48,7 @@ It can take some time for the solution to be installed to your environment.
 
 1. Select the Customer Insights instance you want to fetch data from.
 
-1. Now you define which field from Customer Insights maps to a record in the Dynamics 365 app. You need to map at least one field.
+1. Now you define which field from Customer Insights maps to a record in the Dynamics 365 app.
    - To map with a contact, select the field in the Customer Insights Customer entity that matches the ID of your contact entity.
    - To map with an account, select the field in the Customer Insights Customer entity that matches the ID of your account entity.
 
