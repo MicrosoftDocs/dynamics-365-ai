@@ -1,7 +1,7 @@
 ---
 title: "Custom Models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 04/15/2020
+ms.date: 04/22/2020
 ms.reviewer: wameng
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -31,7 +31,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 1. Select the organization that contains the web service in **Tenant that contains your web service**.
 
-1. Select **Sign in** with your credentials for the selected organization.
+1. If your Azure Machine Learning subscription is in a different tenant than Customer Insights, select **Sign in** with your credentials for the selected organization.
 
 1. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown and select **Next**.
 
