@@ -40,7 +40,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
    > [!div class="mx-imgBorder"]
    > ![Configure a workflow](media/intelligence-screen2.png "Configure a workflow")
 
-1. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights Customer ID and select **Save**.
+1. Select the matching attribute from the **Customer ID in results** drop-down list that identifies customers in Customer Insights and select **Save**.
 
 1. You'll see the **Workflow Saved** screen with details about the workflow you just created.
 
@@ -54,7 +54,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 3. For each **Web service input**, select the matching **Entity** from Customer Insights.  Then, select **Next**.
 
-4. Select the matching attribute from the **Customer ID in results** drop-down list that maps to your Customer Insights Customer ID.  When you're done, select **Save**.
+4. Select the matching attribute from the **Customer ID in results** drop-down list.  When you're done, select **Save**.
 
 ## Run a workflow
 
