@@ -1,7 +1,7 @@
 ---
 title: "Customer Card Add-in | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 04/16/2020
+ms.date: 04/22/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -28,7 +28,7 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 
 The Customer Card Add-in is a solution for Dynamics 365 model-driven apps. To install the solution, go to AppSource and search for **Dynamics Customer Card**. Select the [Customer Card Add-in on AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.dynamics_365_customer_insights_customer_card_addin?tab=Overview) and select **Get It Now**.
 
-You may need to sign in with your admin credentials for the Dynamics 365 model-drive app to install the solution.
+You may need to sign in with your admin credentials for the Dynamics 365 model-driven app to install the solution.
 
 It can take some time for the solution to be installed to your environment.
 
@@ -50,7 +50,7 @@ It can take some time for the solution to be installed to your environment.
 
 1. Now you define which field from Customer Insights maps to a record in the Dynamics 365 app. You need to map at least one field.
    - To map with a contact, select the field in the Customer Insights Customer entity that matches the ID of your contact entity.
-   - To map with an account, select the field in the Customers Insights Customer entity that corresponds to the organization ID.
+   - To map with an account, select the field in the Customer Insights Customer entity that matches the ID of your account entity.
 
    > [!div class="mx-imgBorder"]
    > ![Contact ID field](media/contact-id-field.png "Contact ID field")
