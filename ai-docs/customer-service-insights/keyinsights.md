@@ -48,9 +48,7 @@ Topics that rank high across the following three key areas are shown under **Top
 - **Negative CSAT impact** shows topics that have the greatest negative impact on your total CSAT score. CSAT data is collected from surveys.
 - The emerging rate gives you a "heads-up" about topics that have a high rate of new incoming cases in the selected time period.
 
-When you select the light bulb, a short inline explanation of the reason for showing these topics is displayed with recommendations of possible actions to take.
-
-![Topics to watch insights](media/home_topicstowatch_insights.png "Topics to watch insights")
+When you select the light bulb ![Light bulb](media/light-bulb.png "Light bulb"), a short inline explanation of the reason for showing these topics is displayed with recommendations of possible actions to take.
 
 ### Topics impacting resolution time
 
@@ -58,15 +56,13 @@ These topics have a higher negative impact on the overall average resolution tim
 
 ![Topics impacting resolution time](media/home_avgrestime.png "Topics impacting resolution time")
 
-When you select the light bulb, an inline explanation is displayed. The link takes you to the **Resolutions dashboard** for more topics and metrics about resolution time.
-
-![Card insights and a link to the Resolutions dashboard](media/home_resolution_icons.png "Card insights and a link to the Resolutions dashboard")
+When you select the light bulb ![Light bulb](media/light-bulb.png "Light bulb"), an inline explanation is displayed. The link ![Link to the Resolutions dashboard](media/home_resolution_icons.png "Link to the Resolutions dashboard") takes you to the **Resolutions dashboard** for more topics and metrics about resolution time.
 
 ### Consider automating these topics
 
 ![Topics that are automation candidates for chatbots](media/home_automationcandidates.png "Topics that are automation candidates for chatbots")
 
-A chatbot solution is a great way to automate incoming cases that are high in volume and easy to resolve. The topics are suggested based on these factors. When your organization uses Power Virtual Agents, the topic automation process is an easy integration with Dynamics 365 Customer Service Insights. More information: [Automate topics for a Power Virtual Agents bot](automate-topics.md)
+A chatbot solution is a great way to automate incoming cases that are high in volume and easy to resolve. The topics are suggested based on these factors. When your organization uses Power Virtual Agents, the topic automation process is an easy integration with Dynamics 365 Customer Service Insights. More information: [Automate topics for a Power Virtual Agents bot](automate-topics.md).
 
 ### Topics impacting CSAT by channel
 
