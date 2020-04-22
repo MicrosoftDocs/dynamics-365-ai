@@ -39,7 +39,7 @@ An example to use Customer Insights data, is to show customer profiles in a [gal
 1. Select **Customer** as the data source for items.
 
     > [!div class="mx-imgBorder"]
-    > ![Select a data source](media/choose-data-source-powerapps.png "Select a data source")
+    > ![Select a data source](media/choose-datasource-powerapps.png "Select a data source")
 
 1. You can change the data panel on the right to select which field for the Customer entity to show on the gallery.
 
