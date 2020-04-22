@@ -1,7 +1,7 @@
 ---
 title: "Power Apps connector | Microsoft Docs"
 description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
-ms.date: 04/14/2020
+ms.date: 04/22/2020
 ms.reviewer: nikeller
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,56 +12,41 @@ manager: shellyha
 
 # Microsoft Power Apps connector (preview)
 
-Bring unified customer profiles into your personalized apps with Power Apps. Choose a template or completely customize how your data appears.
+Bring unified customer profiles into your personalized apps with Power Apps.
 
 ## Connect Power Apps to Customer Insights
 
-1. Go to [https://powerapps.microsoft.com/](https://powerapps.microsoft.com/) and sign in.
+Customer Insights is one of the many [available sources for data in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources).
 
-2. Select **New** and then create a **Blank app**. Choose **Phone layout** or **Tablet layout**. Tablet layout gives you more workspace.
+Refer to the Power Apps documentation to learn how to [add a data connection to an app](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection).
 
-3. Add the Customer Insights connector by going to **View** > **Data Sources**.
+## Available entities
 
-   > [!div class="mx-imgBorder"]
-   > ![Select View > Data sources](media/connector-powerapps2.png "Select View > Data sources")
+After adding Customer Insights as a data connection, you can choose the following entities in Power Apps:
 
-4. In the side pane, select **Add data source**.
+- Customer: to use data from the [unified customer profile](pm-profiles.md).
+- Unified Customer Activity: to display the [activity timeline](pm-activities.md) on the app.
 
-5. Select **New connection**.
+## Example gallery control
 
-6. Search for "Customer Insights" and select the **Dynamics 365 Customer Insights** connector.
+An example to use Customer Insights data, is to show customer profiles in a [gallery control](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-gallery).
 
-7. Select **Create** to establish the connection and sign in with the account you use for Customer Insights.
+1. Add a **Gallery** control to an app you're building.
 
-8. Select the Customer Insights instance you want to fetch data from.
+> [!div class="mx-imgBorder"]
+> ![Add a gallery element](media/connector-powerapps9.png "Add a gallery element")
 
-   > [!div class="mx-imgBorder"]
-   > ![Select an instance](media/connector-powerapps7.png "Select an instance")
-
-9. Choose one or both of the following entities:
-
-   - Customer: to use data from the unified customer profile.
-   - Unified Customer Activity: to display the unified timeline on the app.
-
-   > [!div class="mx-imgBorder"]
-   > ![Choose an entity](media/connector-powerapps8.png "Choose an entity")
-
-10. You're now ready to start building an app with Customer Insights data. For example, let's add a gallery element to list the customers we've ingested on Customer Insights.
+1. Select **Customer** as the data source for items.
 
     > [!div class="mx-imgBorder"]
-    > ![Add a gallery element](media/connector-powerapps9.png "Add a gallery element")
+    > ![Select a data source](media/choose-datasource-powerapps.png "Select a data source")
 
-11. Select **Customer** as the data source for items.
+1. You can change the data panel on the right to select which field for the Customer entity to show on the gallery.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select a data source](media/connector-powerapps10.png "Select a data source")
-
-12. You can change the data panel on the right to select which field for the Customer entity to show on the gallery.
-
-13. If you want to show any field from the selected customer on the gallery, fill in the Text property of a label:  **{Name_of_the_gallery}.Selected.{property_name}**
+1. If you want to show any field from the selected customer on the gallery, fill in the Text property of a label:  **{Name_of_the_gallery}.Selected.{property_name}**
 
     Example: Gallery1.Selected.address1_city
 
-14. To display the unified timeline for a customer, add a Gallery element, and add the Items property: **Filter('Unified Customer Activity', CustomerId = {Customer_Id})**
+1. To display the unified timeline for a customer, add a Gallery element, and add the Items property: **Filter('Unified Customer Activity', CustomerId = {Customer_Id})**
 
     Example: Filter('Unified Customer Activity', CustomerId = Gallery1.Selected.CustomerId)
