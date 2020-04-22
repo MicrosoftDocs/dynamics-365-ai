@@ -1,6 +1,6 @@
 ---
-title: "Export Customer Insights data to LiveRamp | Microsoft Docs"
-description: "Learn how to configure the connection to LiveRamp."
+title: "LiveRamp connector | Microsoft Docs"
+description: "Learn how to export Dynamics 365 Customer Insights data to LiveRamp."
 ms.date: 04/22/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connector to LiveRamp&reg; (preview)
+# LiveRamp&reg; connector (preview)
 
 Activate your data in LiveRamp to connect with over 500 platforms across digital, social, and TV ecosystems. Work with your data in LiveRamp to target, suppress, and personalize ad campaigns.
 

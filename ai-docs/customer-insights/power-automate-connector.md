@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Power Automate connector | Microsoft Docs"
+title: "Power Automate connector | Microsoft Docs"
 description: "Create flows in Microsoft Power Automate from Dynamics 365 Customer Insights."
-ms.date: 04/14/2020
+ms.date: 04/21/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann

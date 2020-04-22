@@ -1,6 +1,6 @@
 ---
 title: "Export destinations | Microsoft Docs"
-description: "The Export destinations page lets you export data and manage destinations for exporting data."
+description: "Export data and manage export destinations in Dynamics 365 Customer Insights."
 ms.date: 04/22/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai

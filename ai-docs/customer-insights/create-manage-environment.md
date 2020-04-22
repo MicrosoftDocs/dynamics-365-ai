@@ -1,7 +1,7 @@
 ---
-title: "Create a Customer Insights instance and environments | Microsoft Docs"
-description: Create an instance of Dynamics 365 Customer Insights and environments in existing instances.
-ms.date: 02/05/2020
+title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Create and manage environments in Dynamics 365 Customer Insights."
+ms.date: 04/17/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -9,7 +9,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Create a Customer Insights instance
+# Manage environments
 
 This article explains how to create a Dynamics 365 Customer Insights instance and how to provision an environment.
 

@@ -1,7 +1,7 @@
 ---
-title: "APIs | Microsoft Docs"
-description: "APIs for Dynamics 365 Customer Insights."
-ms.date: 04/07/2020
+title: "Work with APIs in Customer Insights | Microsoft Docs"
+description: "APIs and functionalities for Dynamics 365 Customer Insights."
+ms.date: 04/17/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# APIs
+# Work with APIs
 
 There are currently several types of APIs you can use with Dynamics 365 Customer Insights. Details of these APIs, including parameters and responses, can be found on the [Customer Insights Swagger UI webpage](https://global.api.ci.ai.dynamics.com/swagger/index.html).
 
