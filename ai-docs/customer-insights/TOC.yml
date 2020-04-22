@@ -67,19 +67,27 @@
 
 - name: Export options
   items: 
-    - name: Set up export destinations
+    - name: Discover export destinations
       href: export-destinations.md
-    - name: Install the Customer Card Add-in 
+    - name: Azure Blob Storage
+      href: export-azure-blob-storage.md
+    - name: Dynamics 365 Customer Service (Add-in)
       href: pm-customer-card-addin.md
-    - name: Work with the Customer Insights Teams bot 
+    - name: Dynamics 365 Marketing
+      href: export-dynamics365-marketing.md
+    - name: Dynamics 365 Sales
+      href: export-dynamics365-sales.md
+    - name: Dynamics 365 Sales Hub (Add-in)
+      href: pm-customer-card-addin.md
+    - name: Microsoft Teams (bot) 
       href: export-teams-bot.md
-    - name: Configure the Power BI connector
+    - name: Power BI
       href: pm-connectors.md
-    - name: Configure the Power Apps connector
+    - name: Power Apps
       href: pm-powerapps-connector.md
-    - name: Configure the Power Automate connector
+    - name: Power Automate
       href: power-automate-connector.md
-    - name: Configure the LiveRamp connector
+    - name: LiveRamp
       href: export-liveramp.md
 
 - name: Administration

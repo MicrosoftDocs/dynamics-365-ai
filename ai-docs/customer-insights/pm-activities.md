@@ -12,7 +12,7 @@ manager: shellyha
 
 # Activities
 
-Combine customer activities from [various data sources](data-sources-list.md) in Dynamics 365 Customer Insights. In a next step, create a customer timeline that includes all the activities of a customer in chronological order. You can include the timeline in model-driven apps in Dynamics 365 via the Customer Card add-in, or in a Power BI dashboard. Visit the [**Timeline Control** section](pm-customer-card-addin.md#timeline-control) to learn how to configure that control.
+Combine customer activities from [various data sources](data-sources-list.md) in Dynamics 365 Customer Insights. In a next step, create a customer timeline that includes all the activities of a customer in chronological order. You can include the timeline in model-driven apps in Dynamics 365 via the [Customer Card add-in](pm-customer-card-addin.md), or in a Power BI dashboard.
 
 This article covers only the **Activities** page.
 
