@@ -1,7 +1,7 @@
 ---
-title: "Create a Customer Insights instance and environments | Microsoft Docs"
-description: Create an instance of Dynamics 365 Customer Insights and environments in existing instances.
-ms.date: 02/05/2020
+title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Create and manage environments in Dynamics 365 Customer Insights."
+ms.date: 04/17/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -9,7 +9,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Create a Customer Insights instance
+# Manage environments
 
 This article explains how to create a Dynamics 365 Customer Insights instance and how to provision an environment.
 
@@ -78,7 +78,7 @@ You can edit some of the details of existing environments.
 
 2. Select **Environments**.
 
-3. In the Environments panel, select the ellipses next to the environment you want to edit and select **Edit**.
+3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Edit**.
 
 4. You can update the **Display name** but you can't change **Region** and **Type** of the environment.
 
@@ -90,6 +90,6 @@ You can edit some of the details of existing environments.
 
 2. Select **Environments**.
 
-3. In the Environments panel, select the ellipses next to the environment you want to edit and select **Delete**.
+3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Delete**.
 
 4. To confirm the deletion, enter the environment name and select **Delete**.

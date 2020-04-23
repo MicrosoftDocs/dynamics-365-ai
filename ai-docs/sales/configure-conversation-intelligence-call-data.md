@@ -1,6 +1,6 @@
 ---
-title: "Configure call data for Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Configure call data in Dynamics 365 Sales Insights application"
+title: "Configure call data for Conversation Intelligence | MicrosoftDocs"
+description: "Configure call data in Conversation Intelligence"
 ms.date: 08/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -71,14 +71,13 @@ You can upload the recordings in audio formats, such as MP3 and WAV, in the crea
 > - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
 > - The **conversation-intelligence-managed** container is created and managed automatically by the application.
 
-
-
 Review the following requirements for audio and JSON files before you upload:
 
 - The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
 - The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
+- The names of the uploaded files must be unique for your organization and must not be repeated.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
   |Parameter|Description|
@@ -139,7 +138,7 @@ Review the following requirements for audio and JSON files before you upload:
 
 Configuring the call data helps us to fetch the call recording from your repository and process the audio file for call analytics. The analysis includes creating transcripts and providing insights for the call recordings. To configure the call data:
 
-1.	Open the **Dynamics 365 Sales Insights** application. 
+1.	Open the **Conversation Intelligence** application. 
 
 2.	Select the settings icon on the top-right of the page and then select Settings.
 
@@ -172,8 +171,8 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
 
 [FAQs](faqs-sales-insights.md)

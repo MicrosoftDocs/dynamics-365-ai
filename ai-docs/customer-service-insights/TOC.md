@@ -52,6 +52,29 @@
 ## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
 
+# Configure and manage call insights (Preview)
+
+## [Discover insights about AI-based call data](ci-overview.md)
+
+## [Prerequisites to use call insights](ci-admin-prereqs.md)
+
+## [First-run setup experience](ci-admin-fre-setup.md)
+
+## [Configure call insights to connect call data](ci-admin-config-call-data.md)
+
+## [Configure keywords and products to track](ci-admin-config-keywords-products.md)
+
+## [Connect to Dynamics 365 Customer Service environment](ci-connect-customer-service-env.md)
+
+## [Data retention and deletion through Privacy](ci-admin-data-retention-deletion.md)
+
+## [Analyze overall team performance](ci-team-overview.md)
+
+## [Analyze agent performance](ci-agent-overview.md)
+
+## [View and understand call summary](ci-view-understand-call-summary.md)
+
+
 # Data Subject Rights (DSR) requests under GDPR
 
 ## [GDPR compliance and Customer Service Insights](gdpr-summary.md)

@@ -1,7 +1,7 @@
 ---
-title: "Connect Common Data Model data to an Azure Data Lake Gen2 account | Microsoft Docs"
-description: Work with Common Data Model data in Dynamics 365 Customer Insights using Azure Data Lake Storage.
-ms.date: 02/05/2020
+title: "Connect Common Data Model data to an Azure Data Lake account | Microsoft Docs"
+description: "Work with Common Data Model data in Dynamics 365 Customer Insights using Azure Data Lake Storage."
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -9,7 +9,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Connect to a Common Data Model folder using an Azure Data Lake Gen2 account
+# Connect to a Common Data Model folder using an Azure Data Lake account
 
 This article provides information on how to connect a Common Data Model folder with Dynamics 365 Customer Insights using your Azure Data Lake Storage Gen2 account.
 

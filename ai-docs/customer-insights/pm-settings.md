@@ -1,7 +1,7 @@
 ---
-title: "System | Microsoft Docs"
+title: "System configuration in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about system settings in Dynamics 365 Customer Insights."
-ms.date: 02/05/2020
+ms.date: 04/17/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: nimagen
 manager: shellyha
 ---
 
-# System
+# System configuration
 
 The **System** page contains everything that administrators need to closely monitor the various processes running behind the scenes of Customer Insights. It includes four tabs: **Status**, **Schedule**, **About**, and **General**.
 
@@ -22,26 +22,13 @@ The **System** page contains everything that administrators need to closely moni
 
 ## Status tab
 
-The **Status** tab lets you track the progress of data ingestion and several important product processes. Use this tab to ensure the completeness of any major process you've defined in Customer Insights. This tab includes two tables:
+The **Status** tab lets you track the progress of data ingestion and several important product processes. Review the information on this tab to ensure the completeness of any major process you've defined in Customer Insights. This tab includes a table with separate sections for each type of refresh task that has been and could be run in your environments, including tables for data sources, system processes, and data preparation. The refresh tasks align with the entities in your system.
 
-- **Data sources**: This table lists all the data sources from which you're ingesting your data. The left-side column specifies the names of those data sources. The middle column shows the status of ingestion for each of the data sources:
-  - Didn't start
-  - In progress
-  - Already completed
-  
-   The right-side column shows the last data refresh date for each of the data sources.
+The table has three columns. The left column specifies the name of task and its corresponding entity. The middle column defines the status of the current or last run of that task, and the right column specifies when the task was last updated.
 
-- **System processes**: This table lists all the processes that should be executed in Customer Insights to create a unified customer profile. The left-side column specifies the names of those processes. The middle column shows the status of progress for each of the processes:
-  - Didn't start
-  - In progress
-  - Already completed
-  
-    The right-side column shows the last data refresh date for each of the processes.
+You can view the details of the last several runs of the task by selecting its name.
 
-    > [!div class="mx-imgBorder"]
-    > ![Refresh date](media/system-status-processes.png "Refresh date")
-
-You can view the details of each completed data source ingestion or system process by selecting that item.
+Select the status of a task to see the progress details of the entire job it was in.
 
 ## Schedule tab
 
@@ -63,4 +50,4 @@ The **About** tab contains your organization's **Display name**, the active **In
 
 ## General tab
 
-Only one option, **Language**, is currently available on the **General** tab. Supported languages appear in this menu. Select **Save** to apply your changes.
+There are two options on the **General** tab, **Language** and **Country/Region format**. You can select the supported options for each in the dropdown menu. Select **Save** to apply your selection.

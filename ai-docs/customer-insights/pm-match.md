@@ -1,7 +1,7 @@
 ---
-title: "Match | Microsoft Docs"
-description: "Complete the matching phase to get a unified customer profile in Dynamics 365 Customer Insights."
-ms.date: 02/04/2020
+title: "Match entities in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Match entities to create unified customer profiles in Dynamics 365 Customer Insights."
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: adkuppa
 manager: shellyha
 ---
 
-# Match
+# Match entities
 
 After completing the map phase, you're ready to match your entities. The match phase specifies how to combine your datasets into a unified customer profile dataset. The match phase requires at least [two mapped entities](pm-map.md).
 
@@ -102,18 +102,11 @@ Each condition applies to a single pair of attributes, while rules represent set
 
 After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
 
-If you want to make additional changes and rerun the step, you can cancel a match in progress. Do so by selecting **Stop** on the notification bar.
+To make additional changes and rerun the step, you can cancel a match in progress. Select the **Refreshing ...** text and select **Cancel job** at the bottom of the side pane that appears.
 
-When the match process is complete, the **Matching records** message disappears and you can use all functionality of the page again.
+When the match process is complete, the **Refreshing ...** text will change to **Successful** and you can use all functionality of the page again.
 
 The first match process results in the creation of a unified master entity. All subsequent match runs result in the expansion of that entity.
-
-To see a preview of the unified customer entity after running the match process, select **View last run**.
-
-> [!div class="mx-imgBorder"]
-> ![View last run](media/match-conflation-match-pairs.png "View last run")
-
-The preview shows details about the matches and how confident the system is about the accuracy of the match. Select **Download** to in the preview to download the customer profile dataset.
 
 ## Review and validate your matches
 

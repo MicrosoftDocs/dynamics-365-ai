@@ -29,8 +29,8 @@ Sales insights supports the following languages:<br>
 
 | Feature | Language supported |
 |---------|--------------------|
-| Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
-| Taking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
+| Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Talking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
 | Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), English, French, German, Italian, Japanese, Portuguese (Brazil), and Spanish. |
 
@@ -46,6 +46,22 @@ Sales insights is available in the following regions:<br>
 -    Japan (JPN)
 -    North American (NAM)
 -    Oceania (OCE)
+
+## Assistant
+
+**How do I disable teasers?**
+
+To disable, follow these steps:
+
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
+
+2. On the site map, select **Overview**.
+
+3. Go to **Teasers** section and toggle the option to disable the teasers.
+
+    > [!div class="mx-imgBorder"]
+    > ![Disable teasers](media/disable-teasers.png "Disable teasers")
+
 
 ## Relationship analytics
 
@@ -135,7 +151,7 @@ Everyone in the tenant (in the United States until geo availability expands) wil
 **​How are the connections weighted?**<br>
 Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact/lead. Consequently, this means a salesperson might not see the same results as another salesperson because they know different people in the organization.
 
-## Sales Insights application
+## Conversation Intelligence
 
 **How long does it take for data updates to reflect in the app?**<br>
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.

@@ -1,7 +1,7 @@
 ---
 title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
-description: "Bring data from various sources into Dynamics 365 Customer Insights."
-ms.date: 01/31/2020
+description: "Learn how to import data from various sources into Dynamics 365 Customer Insights."
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 ms.assetid: 
@@ -34,6 +34,9 @@ Import data to Customer Insights with one of the many [out-of-the-box connectors
 
 5. Enter the required details for the selected connector. For more information about some of the most frequently used data sources (like Dynamics 365, CSV and text files, Blob storage, and Azure SQL Database), see [Common Connectors Guidance](pm-common-connectors.md).
 
+> [!NOTE]
+> If supported by the data source, you can [configure an incremental refresh](incremental-refresh-data-sources.md) to speed up the refresh process.
+
 ### Add, review, and transform entities
 
 In this step, you'll add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each dataset is its own entity.
@@ -58,7 +61,7 @@ In this step, you'll add entities to your data source. In Customer Insights, ent
 
 4. Select **Create** at the bottom of the Power Query window to save the transformations. After saving, you'll find you data source on the **Data sources** page.
 
-5. On the **Data sources** page, select the ellipses under **Actions** and then select **Refresh**.
+5. On the **Data sources** page, select the ellipsis under **Actions** and then select **Refresh**.
 
 ## Review ingested data sources
 
@@ -85,7 +88,7 @@ Loading data can take some time. After a successful refresh, the ingested data c
 
 1. In Customer Insights, go to **Data sources**.
 
-2. Select the vertical ellipses next to the data source you want to change and select **Edit** from the drop-down menu.
+2. Select the vertical ellipsis next to the data source you want to change and select **Edit** from the drop-down menu.
 
 3. Apply your changes in the **Edit queries** Power Query dialog.
 
@@ -95,7 +98,7 @@ Loading data can take some time. After a successful refresh, the ingested data c
 
 1. In Customer Insights, go to **Data sources**.
 
-2. Select the vertical ellipses next to the data source you want to remove and select **Delete** from the drop-down menu.
+2. Select the vertical ellipsis next to the data source you want to remove and select **Delete** from the drop-down menu.
 
 3. Confirm your deletion.
 

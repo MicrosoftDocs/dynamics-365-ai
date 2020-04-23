@@ -1,6 +1,6 @@
 ---
-title: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application"
+title: "Configure keywords and competitors to track in Conversation Intelligence | MicrosoftDocs"
+description: "Configure keywords and competitors to track in Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -26,9 +26,9 @@ You should configure keywords and competitors that are relevant to you and your 
 
 Using the **Conversation content** section, you can add or remove keywords and competitors to track in the calls. To do this, follow these steps:
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Dynamics 365 Sales Insights** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -58,6 +58,6 @@ Using the **Conversation content** section, you can add or remove keywords and c
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights-app.md)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights-app.md)
 
-[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
