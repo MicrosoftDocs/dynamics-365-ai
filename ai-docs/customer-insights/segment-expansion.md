@@ -35,40 +35,38 @@ manager: shellyha
 
 1. Exclude customers in your source segment by selecting the **Exclude everyone in source segment** checkbox.
 
-1. By default, the system suggests to include only 20% of the customers that were found to be similar with all similarity degrees. Edit this threshold as needed. As you increase this threshold, be aware that precision will decrease.
+1. By default, the system suggests to include only 20% of the customers that were found to be similar with all similarity degrees. Edit this threshold as needed. Increasing this threshold will decrease precision.
 
-1. Select **Run** at the bottom of the page.
+1. Select **Run** at the bottom of the page to start a binary classification task (a method of machine learning) which analyzes the dataset.
 
 ## View an expanded segment output
 
-Upon clicking **Run** an ML model (binary classification) will be used to analyze your data. You can expect to see a notification at the top of the **Segment list page** until processing of the expanded segment has been completed. Once that happens, you will see your segment added to the list. 
-Click **View** to view the expanded segment **Members page**. Note that the Members page for an expanded segment include two additional components:
-1. A **Similarity score** column was added: The values in this column range between 0 and 1. For more information on Similarity scores visit the last section of this topic.
+After processing the expanded segment, you'll find the new segment listed on the **Segments** page.
 
-2. Description of the distribution of the results among the four score ranges mentioned above.
+Select **View** in the action bar to open the segment details of the expanded segment. This view contains information about the distribution of the results between the four score ranges of the [similarity score](#about-similarity-scores). You'll also find the similarity score values in the **Segment members preview**.
 
-## Act on an expanded segment output
+## Use the output of an expanded segment
 
-You can act on an expanded segment output in many ways that are common to other segments. Including **Exporting a segment, building a **Measure** on top of the segment, using it in **Predictions** or **Custom models**, and connecting it to **Flow**. To learn more on these mechanisms and others, visit the **Segments** topic.  
+You can [work with the output of an expanded segment](pm-segments.md) similar to other segments. For example, export the segment, build a measure, etc.
 
 ## Refresh and edit an expanded segment
 
-In order to refresh an expanded segment, choose it on the **Segment list** page and click **Refresh** from the top action menu. Note that it result in a new ML algorithm that will process your data with the previous configurations you set up for your expansion.
-Currently editing an expanded segment will also result in a new ML algorithm that will process your data. Upon the completion of the following steps, your previously created expanded segment will be deleted and replaced with a new expanded segment.
+To refresh an expanded segment, select it on the **Segments** page and select **Refresh** in the action bar.
 
-1.	Choose your expanded segment of interest within the **Segment list** page.
-2.	Click **Edit** on the top action menu.
-3.	Your previous selections will be shown in the **Expand segment** page and you can change any of them as needed.
-4.	Click **Run** at the bottom of the page.
+Editing an expanded segment results in a new run to process your data. The previously created expanded segment gets replaced with the new expanded segment.    
+To edit an expanded segment. select it on the **Segments** page and select **Edit** in the action bar. Apply your changes and select **Run** to start the processing.
 
 ## Delete an expanded segment
 
-Simply choose your expanded segment of interest from the **Segment list** page and click **Delete** from the top action menu.
+Select the segment on the **Segments** page and select **Delete** in the action bar. Then, confirm your deletion.
 
 ## About similarity scores
 
-The AI model gives custoemrs a score based on how similar they are to customers in your source segment. The scores range between 0.55-1 with 0.55 representing some similarity and 1 representing customers who are completely similar. Customers with scores below 0.55 are not included in the model output since a score below 0.5 represents customers who were found to be non-similar to some extent to the source segment. 
-- Scores below 0.4 reflect customers the system didn’t find to be similar to the source
-- Scores between 0.4 – 0.6 reflect customers the system found to be somewhat similar
-- Scores between 0.6 – 0.8 reflect customers the system found to be similar
-- Scores between 0.8 – 1 reflect customers the system found to be very similar
+The binary classification machine learning model assigns a score to customers in the expanded segment, based on how similar they are to customers in the source segment.
+
+- Similarity scores below 0.4 are customers the system classified as *not similar* to customers in the source segment
+- Similarity scores between 0.4 – 0.6 are classified as *somewhat similar*
+- Similarity scores between 0.6 – 0.8 are classified as *similar*
+- Similarity scores between 0.8 – 1 are customers the system classified as *very similar*
+
+Customers with similarity scores below 0.55 are not included in the model output because they are not considered similar enough to the source segment.
