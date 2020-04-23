@@ -29,16 +29,16 @@ manager: shellyha
 1. Review the suggested name for your new segment and change it if necessary.
 
 1. Review the fields that define your new segment. These fields define the basis on which the system will try to find similar customers to your source segment. The system will select recommended fields by default.
-  Fields that can significantly decrease the model performance are automatically excluded:
+  Fields that can significantly reduce the model performance are automatically excluded:
   
   - Fields with the following data types: StringType, BooleanType, CharType, LongType, IntType, DoubleType, FloatType, ShortType
   - Fields with a cardinality (the number of elements in a field) of less than 2 or more than 30
 
-1. Choose if you want to include **All customers** or only those in a **Specific existing segment** in your new segment.
+1. Choose if you want to include **All customers** or only customers in a **Specific existing segment** in your new segment.
 
 1. Exclude customers in your source segment by selecting the **Exclude everyone in source segment** checkbox.
 
-1. By default, the system suggests to include only 20% of the customers that were found to be similar with all similarity degrees. Edit this threshold as needed. Increasing this threshold will decrease precision.
+1. By default, the system suggests including only 20% of the customers that were found to be similar with all similarity degrees. Edit this threshold as needed. Increasing this threshold will reduce the precision.
 
 1. Select **Run** at the bottom of the page to start a binary classification task (a method of machine learning) which analyzes the dataset.
 
@@ -46,11 +46,11 @@ manager: shellyha
 
 After processing the expanded segment, you'll find the new segment listed on the **Segments** page.
 
-Select **View** in the action bar to open the segment details of the expanded segment. This view contains information about the distribution of the results between the four score ranges of the [similarity score](#about-similarity-scores). You'll also find the similarity score values in the **Segment members preview**.
+Select **View** in the action bar to open the segment detail. This view contains information about the result distribution across [similarity scores](#about-similarity-scores). You'll also find the similarity score values in the **Segment members preview**.
 
 ## Use the output of an expanded segment
 
-You can [work with the output of an expanded segment](pm-segments.md) similar to other segments. For example, export the segment, build a measure, etc.
+You can [work with the output of an expanded segment](pm-segments.md) similar to other segments. For example, export the segment or build a measure.
 
 ## Refresh and edit an expanded segment
 
@@ -65,11 +65,11 @@ Select the segment on the **Segments** page and select **Delete** in the action 
 
 ## About similarity scores
 
-The binary classification machine learning model assigns a score to customers in the expanded segment, based on how similar they are to customers in the source segment.
+The binary classification machine learning model assigns a score to customers in the expanded segment. The score is based on the similarity to customers in the source segment.
 
 - Similarity scores below 0.4 are customers the system classified as *not similar* to customers in the source segment
 - Similarity scores between 0.4 – 0.6 are classified as *somewhat similar*
 - Similarity scores between 0.6 – 0.8 are classified as *similar*
 - Similarity scores between 0.8 – 1 are customers the system classified as *very similar*
 
-Customers with similarity scores below 0.55 are not included in the model output because they are not considered similar enough to the source segment.
+Customers with similarity scores below 0.55 aren't included in the model output. The system doesn't consider them similar enough to the source segment.
