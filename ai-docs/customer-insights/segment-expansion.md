@@ -23,6 +23,9 @@ manager: shellyha
 
 1. In the action bar, select **Expand segment**.
 
+   > [!div class="mx-imgBorder"]
+   > ![Expand segment](media/expand-segment.png "Expand segment")
+
 1. Review the suggested name for your new segment and change it if necessary.
 
 1. Review the fields that define your new segment. These fields define the basis on which the system will try to find similar customers to your source segment. The system will select recommended fields by default.
