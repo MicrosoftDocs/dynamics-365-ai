@@ -1,6 +1,6 @@
 ---
-title: "Merge process to unify data in Dynamics 365 Customer Insights | Microsoft Docs"
-description: "Learn about the merge phase in the data unification process of Dynamics 365 Customer Insights."
+title: "Merge entities in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Merge entities to create unified customer profiles in Dynamics 365 Customer Insights."
 ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,9 +10,9 @@ ms.reviewer: adkuppa
 manager: shellyha
 ---
 
-# Merge
+# Merge entities
 
-The merge phase is the last phase in the data unification process. Its purpose is reconciling conflicting data. Examples of conflicting data could include a customer name found in two of your datasets but that shows up a little differently in each (“Grant Marshall” versus “Grant Marshal”), or a phone number that differs in format (617-803-091X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis.
+The merge phase is the last phase in the data unification process. Its purpose is reconciling conflicting data. Examples of conflicting data could include a customer name found in two of your datasets but that shows up a little differently in each ("Grant Marshall" versus "Grant Marshal"), or a phone number that differs in format (617-803-091X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis.
 
 After completing the [match phase](pm-match.md), you start the merge phase by selecting the **Merge** tile on the **Unify** page.
 

@@ -1,7 +1,7 @@
 ---
 title: "Measures in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Define customer-related measures to analyze and reflect the performance of certain business areas."
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: nimagen
 manager: shellyha
 ---
 
-# Work with measures
+# Define and manage measures
 
 **Measures** represent key performance indicators (KPIs) that reflect the performance and health of specific business areas. Dynamics 365 Customer Insights provides an intuitive experience for building different types of measures, using a query builder that doesn't require you to code or validate your measures manually. You can track your business measures on the **Home** page, see measures for specific customers on the **Customer Card**, and use measures to define customer segments on the **Segments** page.
 
