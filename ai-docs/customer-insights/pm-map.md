@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
-description: Map data to create unified customer profile in Dynamics 365 Customer Insights
-ms.date: 04/02/2020
+description: "Map data to create unified customer profiles in Dynamics 365 Customer Insights."
+ms.date: 04/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -10,7 +10,7 @@ ms.reviewer: adkuppa
 manager: shellyha
 ---
 
-# Map
+# Map entities and attributes
 
 **Map** is the first stage in the data unification process in Dynamics 365 Customer Insights. Mapping consists of two phases:
 

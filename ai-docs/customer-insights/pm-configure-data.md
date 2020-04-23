@@ -1,7 +1,7 @@
 ---
 title: "Unify data in Dynamics 365 Customer Insights | Microsoft Docs"
-description: "Overview about unifying data ingested to Dynamics 365 Customer Insights."
-ms.date: 02/03/2020
+description: "Learn how to unify data ingested into Dynamics 365 Customer Insights."
+ms.date: 04/16/2020
 ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Unify
+# Data unification
 
 <!--rename file-->
 
