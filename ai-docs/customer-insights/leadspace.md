@@ -17,9 +17,9 @@ Leadspace is a software as a service (SaaS) Data Science Company. As a 3rd party
 ## Prerequisites
 
 To configure Leadspace, the following prerequisites must be met:
--	An active Leadspace license, the “perpetual key” (referred to as “Leadspace token” in Customer Insights). Please reach out directly to [Leadspace] (https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
--	You have the [Administrator] (pm-permissions#administrator) role in Customer Insights.
--	You have [unified customer profiles] (pm-profiles).
+-	An active Leadspace license, the “perpetual key” (referred to as “Leadspace token” in Customer Insights). Please reach out directly to [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
+-	You have the [Administrator](pm-permissions#administrator) role in Customer Insights.
+-	You have [unified customer profiles](pm-profiles).
 
 ## Configuration
 
@@ -35,6 +35,6 @@ To configure Leadspace, the following prerequisites must be met:
 
 ## Enrichment results
 
-After running the enrichment you can review the newly enriched company data under [My enrichments] (pm-profiles). You can find out when your last update took place and the amount of enriched profiles.
+After running the enrichment you can review the newly enriched company data under [My enrichments](pm-profiles). You can find out when your last update took place and the amount of enriched profiles.
 You also have the possibility to access a detailed view of each enriched profile by clicking on the “View enriched data” button.
-[Learn more about the Leadspace APIs] (https://support.leadspace.com/hc/en-us/sections/201997649-API).
+[Learn more about the Leadspace APIs](https://support.leadspace.com/hc/en-us/sections/201997649-API).
