@@ -1,7 +1,7 @@
 ---
 title: "Assistant for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Stay on top of your day with insight cards from the sales assistant"
-ms.date: 10/31/2018
+ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
