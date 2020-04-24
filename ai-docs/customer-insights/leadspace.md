@@ -26,7 +26,7 @@ To configure Leadspace, the following prerequisites must be met:
 1. Enter an active Leadspace token (perpetual key) and tick the checkbox if you agree to the stated privacy policy.
 
    > [!div class="mx-imgBorder"]
-   > ![Leadspace configuration page](media/enrichment-leadspace-configuration.png "Entity name format")
+   > ![Leadspace configuration page](media/enrichment-leadspace-configuration.png)
 
 2.	Define which fields from your unified profiles should be used to lookup for matching company data from Leadspace. The **company name** field is required, but in order to allow for a better match up two other fields, **company website** and **company location**, can be added.
 **Save** to complete the field mapping.
