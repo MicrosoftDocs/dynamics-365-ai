@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights"
 keywords: " "
-ms.date: 10/01/2019
+ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
