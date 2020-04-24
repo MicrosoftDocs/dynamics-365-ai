@@ -62,6 +62,89 @@ To disable, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
+## Sales accelerator 
+
+**How do I add the Up next widget to an entity form?**
+
+>[!NOTE]
+>You can add the **Up next** widget only to managed forms.
+
+To add the **Up next** widget to an entity form, follow these steps:
+
+1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.
+
+2.	Add a **Form** to the solution. 
+
+3.	Save the changes and publish the customizations.
+
+4.	Export the created **AddWidget** solution as **UnManaged**.
+
+5.	Delete the Solution **AddWidget** from the organization.
+
+6.	Extract the zip file of the downloaded solution.
+
+7.	Change the ```<Managed>``` value to 1 in the file ```Solution.xml``` and then save. 
+
+    ```<Managed>1</Managed>```
+
+8.	Open the ```customizations.xml``` file and remove the parameter ```<systemform unmodified="1">```.
+
+9.	Choose the ```<column>``` under **Summary** tab, where you want to add the widget.
+
+10.	Add the ```<section>``` tag as following: 
+
+    ```
+    <section name="CadenceWidget" showlabel="false" showbar="false" id="{<NEW_GUID_G1>}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{<NEW_GUID_G2> }">
+      <labels>
+          <label description="Cadence Widget" languagecode="1033" />
+      </labels>
+      <rows>
+          <row>
+              <cell id="{<NEW_GUID_G3>}" showlabel="false" colspan="1" rowspan="6" labelid="{<NEW_GUID_G4> }">
+                  <labels>
+                      <label description="Cadence widget" languagecode="1033" />
+                  </labels>
+                  <control id="CadenceWidgetControl" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"  uniqueid="{<NEW_GUID_G5>}" isunbound="true">
+                      <parameters />
+                  </control>
+              </cell>
+          </row>
+          <row />
+          <row />
+          <row />
+          <row />
+          <row />
+      </rows>
+    </section>
+    ```
+11.	Replace all the ```<NEW_GUID_G*>``` occurrences by generating a new GUID for each place.
+
+12.	For ```<controlDescriptions>``` node, add a child node as following:
+
+    ```
+    <controlDescription forControl="{<GUID_G5>}">
+    <customControl formFactor="2" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
+        <parameters />
+    </customControl>
+    <customControl formFactor="0" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
+        <parameters />
+    </customControl>
+    <customControl formFactor="1" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
+        <parameters />
+    </customControl>
+    </controlDescription>
+    ```
+13.	Replace the ```<GUID_G5>``` in ```customizations.xml``` with the **GUID_G5** generated from **step 11**.
+
+14.	Save the changes and zip the folder.
+
+15.	Open Dynamics 365 and go to **Settings** > **Solutions**.
+
+16.	Import the zipped solution. 
+
+17.	Publish all customizations.
+
+18.	Verify that the **Up next** Widget successfully shows up on the form.
 
 ## Relationship analytics
 
