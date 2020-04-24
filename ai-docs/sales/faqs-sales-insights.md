@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Frequently asked questions for Sales Insights
+# Frequently asked questions
 
 ## Language and region support
 

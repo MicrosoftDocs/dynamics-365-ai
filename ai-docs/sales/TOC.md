@@ -5,7 +5,7 @@
 ## [What's new](whats-new.md)
 
 ## Administrator guide 
-### [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
@@ -39,7 +39,7 @@
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
-### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
+### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Conversation Intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
