@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn what's new in the latest release of Dynamics 365 Sales Insights."
 keywords: 
-ms.date: 06/04/2020
+ms.date: 04/06/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
