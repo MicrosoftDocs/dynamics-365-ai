@@ -1,12 +1,12 @@
 ---
 title: "Supported languages in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Understand and configure language support in Dynamics 365 Customer Insights."
-ms.date: 04/23/2020
+ms.date: 04/24/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
 ms.author: mhart
-ms.reviewer: nimagen
+ms.reviewer: philk
 manager: shellyha
 ---
 
@@ -63,13 +63,13 @@ Dynamics 365 Customer Insights supports a number of languages. This topic lists 
 
 ## What's translated
 
-Customer Insights will use your language preference to display elements like the menu, dashboard label text, and system messages in your preferred language.
+Customer Insights will use your language preference to display elements like the menu, label text, and system messages in your preferred language.
 
-Because the dashboard is connected to your data, the following items remain in their original language:
+Because most features are based on your data, some items remain in their original language. For example:
 
 - Your data, including entities and segments
 - Your environment name
 
 ## Choose your language settings  
 
-To change your preferred language within Customer Insights, select **Admin** -> **System**. Under the **General** tab, choose a **Language** from the dropdown. Select **Save** to confirm the change.
+Change your preferred language within Customer Insights [on the **System** page](pm-settings).
