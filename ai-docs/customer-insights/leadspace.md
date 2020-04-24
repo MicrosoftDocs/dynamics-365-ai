@@ -38,4 +38,5 @@ To configure Leadspace, the following prerequisites must be met:
 After running the enrichment you can review the newly enriched company data under [My enrichments](pm-profiles). You can find out when your last update took place and the amount of enriched profiles.
 
 You also have the possibility to access a detailed view of each enriched profile by clicking on the “View enriched data” button.
+
 [Learn more about the Leadspace APIs](https://support.leadspace.com/hc/en-us/sections/201997649-API).
