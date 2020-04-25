@@ -1,7 +1,7 @@
 ---
 title: "Work with call intelligence feature for Conversation Intelligence | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
-ms.date: 10/31/2018
+ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

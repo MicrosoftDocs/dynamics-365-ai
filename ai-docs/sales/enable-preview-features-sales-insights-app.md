@@ -1,7 +1,7 @@
 ---
 title: "Enable coming soon features in Conversation Intelligence | MicrosoftDocs"
 description: "Enable preview features in Conversation Intelligence."
-ms.date: 08/01/2019
+ms.date: 04/08/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
