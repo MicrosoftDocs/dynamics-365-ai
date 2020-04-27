@@ -32,7 +32,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 - Define **Relationships** and **Activities**.
 - Create segments using the **Segment Builder** page.
 - Create measures using the **Measures** page.
-- Manage configuration and enrich customer profiles from the **Enrichment** page.
+- Manage configuration and enrich customer profiles from the **Enrichment** page (for 1st party enrichments only).
 
 ## Administrator
 
@@ -41,6 +41,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 - View and add permissions using the **Permissions** page.
 - Set Search and Filter definitions for the Customers page using the **Search & Filter Index** page (accessible via the **Customers** page)
 - Define Dynamics 365 Sales segment destinations using the **Segment Export** page.
+- Manage configuration and enrich customer profiles from the **Enrichment** page (for all enrichments).
 - Install and use the **Customer Card Add-in**.
 - Add and use the **Power Apps connector** to create apps with Customer Insights data.
 
