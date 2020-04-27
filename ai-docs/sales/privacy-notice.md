@@ -93,6 +93,11 @@ The data passed in these events include Azure storage account name, blob contain
 
 It is the enterprise customer’s responsibility to comply with the GDPR. If you choose to honor and execute a data subject rights (DSR) request for delete or edit, please email [Microsoft](mailto:D365callintelligence@microsoft.com) and Microsoft will manually process the DSR to delete and edit.
 
+## Data protection
+
+Data as it is in transit between user devices and the Microsoft datacenters are secured. Connections established between customers and Microsoft datacenters are encrypted, and all public endpoints are secured using industry-standard TLS. TLS effectively establishes a security-enhanced browser to server connection to help ensure data confidentiality and integrity between desktops and datacenters. API access from the customer endpoint to the server is also similarly protected. Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
+
+All the data stored as part of sales insights are encrypted using Microsoft encryption keys.
 
 ### See also
 

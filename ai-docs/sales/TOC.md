@@ -5,7 +5,7 @@
 ## [What's new](whats-new.md)
 
 ## Administrator guide 
-### [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
@@ -39,7 +39,7 @@
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
-### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
+### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Conversation Intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
@@ -91,8 +91,8 @@
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
 
-### Dynamics 365 assistant for Microsoft Teams
-#### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
+### Dynamics 365 Assistant for Microsoft Teams
+#### [Overview of Dynamics 365 Assistant](overview-dynamics-365-assistant-app-teams.md)
 #### [Install Dynamics 365 application on Teams](install-assistant-application-microsoft-teams.md)
 #### [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
 #### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
