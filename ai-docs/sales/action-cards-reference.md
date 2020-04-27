@@ -46,7 +46,7 @@ The following cards are available under **Upcoming meetings**.
     <td><a href="#RelatedNEWS">Related news</a></td>
   </tr>
   <tr>
-    <td><a href="#NearbyCustomers">Near by customers</a></td> 
+    <td><a href="#NearbyCustomers">Nearby customers</a></td> 
     <td></td>
     <td></td>
   </tr>
@@ -58,7 +58,7 @@ The following cards are available under **Upcoming meetings**.
 |<a name="MeetingToday"></a>**Meeting today** <br/>  ![Insight card for meeting today](media/ActionCard_MeetingToday.png "Insight card for meeting today")<br>**Meeting today (Exchange)**<br>![Insight card for meeting today exchange](media/ActionCard_MeetingTodayExchange.png "Insight card for meeting today exchange") | **Description**:<br>Tells that you have a meeting scheduled for today. <br>The **Meeting Today** card is derived from your appointments in Dynamics 365 Sales organization. <br>The **Meeting Today (Exchange)** card is derived from you **Exchange** server.<br>**Features**:<br>Shows the meeting title, with a link to the meeting record. Shows the meeting description, location, start time, and key participants Open the detailed view to see the regarded entity and a collection of closely related insight cards, including relevant people, companies, opportunities, near by customers, news, and more.<br>**Actions**: <br>Open Appointment<br>Email Attendees|
 | <a name="UpcomingMeeting"></a>**Upcoming Meeting** <br />  ![Insight card for upcoming meeting](media/ActionCard_UpcomingMeeting.png "Insight card for upcoming meeting")<br> **Upcoming Meeting(Exchange)** <br />  ![Insight card for upcoming meeting exchange](media/ActionCard_UpcomingMeetingExchange.png "Insight card for upcoming meeting exchange") | **Description**: <br>Tells that you have a meeting scheduled to start in 30 minutes or less. When available, this card is given highest priority and appears at the top of the stack. That way, you'll have all of your important meeting information available. <br> The "meeting today" card is similar, but it's shown all day until the meeting ends, provides fewer features, and is given lower priority. <br>**Features**:<br> Shows the meeting title, with a link to the meeting record.<br>Shows the meeting description (shortened for space if needed). <br>Shows the regarding record (with link).<br> Shows a list of attendees (with link to the full list if there's more than four).<br>Displays a map of the location (if relevant and available; not for online meetings).<br> Open the detailed view to see a collection of closely related insight cards, including relevant people, companies, opportunities, news, and more.<br>**Actions**:<br> Join Meeting <br> Email Attendees |
 | <a name="RelatedNEWS"></a>**Related News** <br />  ![Insight card for related news](media/ActionCard_RelevantNews.png "Insight card for related news") | **Description**: <br>The card displays news headlines related to companies that are participating at the meeting. It's shown in the card details view when you tap a meeting card from the assistant feed.<br> **Features**:<br> Shows the date when the news was last updated.<br> Thumbnail image and headline for each found article. Click to view the full article. |
-| <a name="NearbyCustomers"></a>**Near by Customers** <br />  ![Insight card for near by customers](media/ActionCard_NearbyCustomers.png "Insight card for near by customers")| **Description**: <br>The card finds customers that are located near by the meeting location. It's shown in the card details view when you tap a meeting card from the assistant feed.<br> **Features**:<br> Shows the top three near by customers. <br> Shows basic information about each company.|
+| <a name="NearbyCustomers"></a>**Nearby Customers** <br />  ![Insight card for nearby customers](media/ActionCard_NearbyCustomers.png "Insight card for nearby customers")| **Description**: <br>The card finds customers that are located near by the meeting location. It's shown in the card details view when you tap a meeting card from the assistant feed.<br> **Features**:<br> Shows the top three near by customers. <br> Shows basic information about each company.|
 
 ## Reminders
 
@@ -154,20 +154,6 @@ The following cards are available under **Insights**.
 | <a name="TodaysTopPeople"></a>**Today's Top People** <br />![Insight card for top people today](media/ActionCard_TopPeople.png "Insight card for top people today") | **Description**: <br>The system analyzes your appointments, tasks, and other work for the day and generates this card to show the contacts you're most likely to interact with today.<br>**Features**:<br>Shows each contact's name and portrait.<br>Shows each contact's title and any business they have with you today (such as a meeting, task, or phone call).<br>Click to view full contact details. |
 | <a name="TodaysTopRecords"></a>**Today's Top Records**<br />![Insight card for top records today](media/ActionCard_TopRecords.png "Insight card for top records today") | **Description**:<br> The system analyzes all of the Sales records that are related to you and lists the records that you are most likely to be working with today based on your recent activities and date information (such as a due date or appointment) in each record.<br>**Features**:<br> Shows a thumbnail image and a summary of each found record.<br>Click to view the full record. |
 | <a name="UpcomingFlight"></a>**Upcoming Flight** <br />  ![flight](media/ActionCard_Flight.png "Insight card for upcoming flight") | **Description**: <br>This card is generated when your Exchange inbox includes an email message that contains a flight confirmation. The system then matches the flight dates to upcoming meetings and finds other information related to the location that you are flying to, such as other nearby customers.<br>**Note**: This card doesn't show live or updated flight information, just information from the flight confirmation email message that triggered the card.<br>**Features**: <br>Flight company and flight number, with a link to the flight record.<br>Departure and arrival times, with airport codes.<br>Related meeting record, with link. Up to three meetings may be listed here.<br>List of customer offices near the destination airport, with links. <br>**Actions**:<br>Open Email |
-
-## Insufficient permissions
-
-If you see an alert about having insufficient permissions to use an Insight card, take these steps:
-
-1. Go to **Settings** > **Security** > **Security Roles**.
-2. Choose the user role viewing the insight cards.
-3. Select the **Core Records** tab.
-4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.
-
-   ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
- 
-## Privacy notice  
-[!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
 
 ### See also
 

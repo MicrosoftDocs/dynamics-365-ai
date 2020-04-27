@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Frequently asked questions
 
-## Language and region support
+## General
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:<br>
@@ -61,6 +61,24 @@ To disable, follow these steps:
 
     > [!div class="mx-imgBorder"]
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
+
+**I am getting insufficient permissions alert**
+
+If you see an alert about having insufficient permissions to use an Insight card, take these steps:
+
+1. Go to **Settings** > **Security** > **Security Roles**.
+
+2. Choose the user role viewing the insight cards.
+
+3. Select the **Core Records** tab.
+
+4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.
+
+   ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
+
+**How do I extend the trial period of Sales Insights?**
+
+If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.commicrosoft-365/commerce/extend-your-trial?view=o365-worldwide).
 
 ## Sales accelerator 
 

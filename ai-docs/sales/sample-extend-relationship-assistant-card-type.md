@@ -30,6 +30,8 @@ Review the prerequisites before you create the custom cards in your organization
 
 - You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
+- To use this feature, you must purchase a **Dynamics 365 Sales Insights** license, or start a trial to use Sales Insights features.
+
 ## Step 1: Download the extend Assistant card type sample solution
 
 [Download](https://go.microsoft.com/fwlink/?linkid=2034351) the sample custom card solution.
