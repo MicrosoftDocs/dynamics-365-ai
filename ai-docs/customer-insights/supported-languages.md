@@ -1,7 +1,7 @@
 ---
 title: "Supported languages in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Understand and configure language support in Dynamics 365 Customer Insights."
-ms.date: 04/24/2020
+ms.date: 04/27/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -46,7 +46,7 @@ Dynamics 365 Customer Insights supports a number of languages. This topic lists 
 | Malay | Bahasa Melayu |
 | Norwegian (Bokmål) | norsk (bokmål) |
 | Polish | Polski |
-| Portuguese (Brazil) | Português |
+| Portuguese (Brazil) | português |
 | Portuguese (Portugal) | português |
 | Romanian | română |
 | Russian | Русский |
