@@ -47,6 +47,10 @@ Sales insights is available in the following regions:<br>
 -    North American (NAM)
 -    Oceania (OCE)
 
+**How do I extend the trial period of Sales Insights?**
+
+If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.commicrosoft-365/commerce/extend-your-trial?view=o365-worldwide).
+
 ## Assistant
 
 **How do I disable teasers?**
@@ -75,10 +79,6 @@ If you see an alert about having insufficient permissions to use an Insight card
 4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.
 
    ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
-
-**How do I extend the trial period of Sales Insights?**
-
-If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.commicrosoft-365/commerce/extend-your-trial?view=o365-worldwide).
 
 ## Sales accelerator 
 
