@@ -20,7 +20,16 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-As an administrator, you need to track and understand the status of sellers’ calls with customers in the application. The **System monitoring** page in the Conversation Intelligence application helps administrators ensure that the calls were successfully processed. Administrators can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, administrators can view the reasons for each error and take the appropriate steps.
+You need to track and understand the status of calls with customers in the application. The **System monitoring** page in the Conversation Intelligence application helps you ensure that the calls were successfully processed. You can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, you can view the reasons for each error and take the appropriate steps.
+
+The call processing information you view on the page depends on the role that you are assigned.
+
+| Role | What I view? |
+|------|-------------|
+| Adminitrator | View the call processing information of the entire organization. |
+| Sales Manager | View the call processing information of the team including theirs'. |
+| Seller | View the call processing information that belongs only to them. |
+
 
 To view the **System monitoring** page, follow these steps:
 
