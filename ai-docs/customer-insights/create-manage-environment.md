@@ -1,7 +1,7 @@
 ---
 title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create and manage environments in Dynamics 365 Customer Insights."
-ms.date: 04/17/2020
+ms.date: 04/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -21,7 +21,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 3. Choose your preferred sign-up scenario and select the corresponding link.
 
-4. You may need to accept the terms and conditions and select **Continue** to start creating the instance.
+4. You need to accept the terms and conditions and select **Continue** to start creating the instance.
 
 5. After the environment is created, you'll be redirected to [your Customer Insights instance](https://home.ci.ai.dynamics.com).
 
@@ -31,7 +31,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 8. You'll be signed in to Customer Insights when the environment was created successfully.
 
-## Create an environment from an existing Customer Insights instance
+## Create an environment
 
 1. Select the **Settings** symbol in the header of the app.
 
@@ -39,18 +39,16 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 3. In the panel on the right side of the screen, select **New environment**.
 
-4. Specify the basic and advanced settings and select **Create** to create the environment.
+### New environment settings
 
-## New environment settings
+There are two ways to create a new enviroment. You can either create an entirely new environment or you can copy some data from an existing environment. 
 
-   - You can create a new environment either by creating as a new environment altogether or copy from an existing environment.
-   - If you choose to copy configuration from an existing environment, you will need to select the “Copy from existing environment” option and you will see a list of available environments from your tenant where you can copy from.
-   - Once you select an environment from the available list, display name will be automatically copied from that selected environment name. You can edit this name if you want to.
+If you don't want to create an environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments from your organinzation where you can copy data from.
 
-Specify basic settings, and optionally, some advanced settings.
+### Specify environment settings
 
 1. In the **Create new environment** dialog, provide the following details:
-   - **Display name**: The name that represents this environment in the Customer Insights app. This field will be prepopulated with a name if you choose "Copy from existing environment" option. You can edit this name if you want to.
+   - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you copy from an exsiting environment but you can change it.
    - **Region**: The region into which the service is deployed and hosted
    - **Type**: Select if you want to create a Production environment or a Sandbox environment
     > ![Settings dialog for a new environment](media/provisioning-copy-configuration.png)
@@ -73,7 +71,7 @@ Specify basic settings, and optionally, some advanced settings.
 
    If you create multiple instances of Customer Insights and choose to save the output entities from those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
 
-## Additional notes on "Copy from existing environment" option
+### Additional considerations for copy configuration
 
  > [!NOTE]
    - This copy configuration will only copy the configuration settings. Currently we support copy of the data source settings, data unification settings, relationships, measures, segments, and user permissions. We plan to include additional components in the next releases.
