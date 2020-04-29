@@ -4,6 +4,7 @@ description: "Create and manage environments in Dynamics 365 Customer Insights."
 ms.date: 04/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
+ms.reviewer: adkuppa
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -41,9 +42,9 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 ### New environment settings
 
-There are two ways to create a new enviroment. You can either create an entirely new environment or you can copy some data from an existing environment. 
+There are two ways to create a new environment. You can either create an entirely new environment or you can copy some configuration settings from an existing environment.
 
-If you don't want to create an environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments from your organinzation where you can copy data from.
+If you don't want to create a new environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments from your organization where you can copy data from.
 
 ### Specify environment settings
 
@@ -51,8 +52,7 @@ If you don't want to create an environment from scratch, select **Copy from exis
    - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you copy from an exsiting environment but you can change it.
    - **Region**: The region into which the service is deployed and hosted
    - **Type**: Select if you want to create a Production environment or a Sandbox environment
-    > ![Settings dialog for a new environment](media/provisioning-copy-configuration.png)
-    
+
 2. Optionally, you can select **Advanced** to configure additional settings:
 
    - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (an Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake Storage). By default, the Customer Insights storage option is selected.
@@ -73,24 +73,32 @@ If you don't want to create an environment from scratch, select **Copy from exis
 
 ### Additional considerations for copy configuration
 
- > [!NOTE]
-   - This copy configuration will only copy the configuration settings. Currently we support copy of the data source settings, data unification settings, relationships, measures, segments, and user permissions. We plan to include additional components in the next releases.
-   - No data source credentials and data will be copied. You need to provide the credentials for every data source and refresh the data sources manually. 
-   - “Common Data Model folder " and “Common data Service managed lake” data sources will not be copied over. You will need to create those data sources manually with exact name as seen in the source environment.
-   - Once data sources are refreshed, you will need to manually execute the data unification processes as well as execute the measures and segments etc.
-   
-   Once you create an new environment using “copy configuration” option, you will see a confirmation message that the environment has been created and the configurations are copied over. You can click on the “Go to data sources” button to go the datasources page directly where you can see all the data sources listed down.
+The following configuration settings are copied:
 
-> ![Copy configuration complete](media/copy-configuration-complete.png)
+- Data sources
+- Data unification settings
+- Relationships
+- Measures
+- Segments
+- User permissions
 
-All the data sources will be “Credentials required” state and you can edit the data source to enter the credentials to refresh them and start using them in the your processes.
+The following settings are *not* copied:
 
+- Customer profiles
+- Data source credentials. You'll have to provide the credentials for every data source and refresh the data sources manually.
+- Data sources from Common Data Model folder and Common Data Service managed lake. You'll have to create those data sources manually with the same name as in the source environment.
+
+When you copy an environment, you'll see a confirmation message that the new environment has been created and the configurations are copied over. Select **Go to data sources** to see the list of data sources.
+
+All the data sources will be show a **Credentials required** status. Edit the data sources and enter the credentials to refresh them.
+
+> [!div class="mx-imgBorder"]
 > ![Data sources copied](media/data-sources-copied.png)
 
-Once the data sources are refreshed and you go to the Unify page, you will find that the Unify settings from the source environment are copied over and you can edit them as you need or simply click Run to execute the data unification process to create the Customer entity.
+After refreshing the data sources, go to **Data** > **Unify** where you find settings from the source environment. Edit them as needed or simply select **Run** to start the data unification process and create the unified customer entity.
 
-Once the Merge step in the unification is complete, you can go to the Measures and Segments pages to refresh those components.
-   
+When the data unification is complete, go to **Measures** and **Segments** to refresh them too.
+
 ## Edit an existing environment
 
 You can edit some of the details of existing environments.
@@ -105,7 +113,7 @@ You can edit some of the details of existing environments.
 
 5. If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change **Account name** and **Container** name.
 
-## Deleting an existing environment
+## Delete an existing environment
 
 1. Select the **Settings** symbol in the header of the app.
 
