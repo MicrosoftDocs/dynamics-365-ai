@@ -24,14 +24,17 @@ If an activity isn't required to be completed by the due date or you're unable t
 
 ## Call a customer
 
-You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The mobile phone number of the contact is used to initiate the call. If the mobile phone number isn't available, the softphone dialer is displayed so you can dial the number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the Phone Call activity as complete.
+You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the softphone dialer is displayed so you can dial the number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
 
-When you make a phone call, a Phone Call activity is created and linked to the lead or opportunity. The Phone Call activity captures the following information:
+When you make a phone call, a **Phone Call** activity is created and linked to the lead or opportunity. The **Phone Call** activity captures the following information:
+
+>[!NOTE]
+>Administrator must configure the option to automatically create the phone call activity. To learn more, see **step 4** from [Configure the Sales accelerator](enable-configure-sales-accelerator.md#configure-the-sales-accelerator).
 
 - **Subject**: Name of the activity in the **Up next** widget.
 - **Call From**: Name of the contact who made the call.
 - **Call To**: Name of the contact to whom the call is made.
-- **Phone Number**: Mobile phone number of the contact to whom the call is made.
+- **Phone Number**: Phone number of the contact to whom the call is made.
 - **Direction**: Direction of the call. This value will always be **Outgoing**, because the call is made and not received.
 
 > [!div class="mx-imgBorder"]
