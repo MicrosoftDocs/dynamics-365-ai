@@ -72,4 +72,4 @@ Because most features are based on your data, some items remain in their origina
 
 ## Choose your language settings  
 
-Change your preferred language within Customer Insights [on the **System** page](pm-settings).
+Change your preferred language within Customer Insights [on the **System** page](pm-settings.md).
