@@ -100,6 +100,8 @@
       href: pm-permissions.md
     - name: Manage multiple environments
       href: create-manage-environment.md
+    - name: Supported languages
+      href: supported-languages.md
 
 - name: Extensibility
   items:
