@@ -26,7 +26,7 @@ The call processing information you can view and track on the page depends on th
 
 | Role | Which calls can I track? |
 |------|--------------------------|
-| Adminitrator | Call processing information of the entire organization. |
+| Administrator | Call processing information of the entire organization. |
 | Sales Manager | Call processing information of your and your teams'. |
 | Seller | Call processing information of your calls. |
 
