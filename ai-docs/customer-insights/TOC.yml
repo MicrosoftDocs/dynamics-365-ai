@@ -51,7 +51,9 @@
 
 - name: Data enrichment
   items: 
-  - name: Enrich with brand and interest affinities
+  - name: Enrich customer profiles
+    href: enrichment-hub.md
+  - name: Brand and interest affinities
     href: pm-enrichment.md
 
 - name: Data analysis
