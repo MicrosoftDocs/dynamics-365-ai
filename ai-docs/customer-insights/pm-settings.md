@@ -50,4 +50,10 @@ The **About** tab contains your organization's **Display name**, the active **In
 
 ## General tab
 
-There are two options on the **General** tab, **Language** and **Country/Region format**. You can select the supported options for each in the dropdown menu. Select **Save** to apply your selection.
+There are two options on the **General** tab, **Language** and **Country/Region format**.
+
+Customer Insights [supports a number of languages](supported-languages.md). To change your preferred language, choose a **Language** from the dropdown.
+
+To change your preferred formatting for dates, time, and numbers, use the **Country/Region format** dropdown. A formatting preview is displayed under this field. Customer Insights will automatically suggest a selection when you choose a new language.
+
+Select **Save** to confirm your selections.
