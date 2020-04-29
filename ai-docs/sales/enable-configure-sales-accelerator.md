@@ -70,7 +70,12 @@ The Sales accelerator is now enabled, and you can configure it for your organiza
     >[!div class="mx-imgBorder"]
     >![Choose content and layout for entities](media/sa-choose-content-layout.png "Choose content and layout for entities") 
 
-4. In the **Security roles** section, select one of the following options to provide permissions to users to access the Sales Hub app.
+4. In the **Engagement channels** section, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.
+
+    >[!div class="mx-imgBorder"]
+    >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
+
+5. In the **Security roles** section, select one of the following options to provide permissions to users to access the Sales Hub app.
 
     >[!div class="mx-imgBorder"]
     >![Select security role](media/sa-select-security-role.png "Select security role") 
@@ -80,9 +85,13 @@ The Sales accelerator is now enabled, and you can configure it for your organiza
     | All security roles | Use this option to give access to view the Sales Hub app to all the security roles in your organization. |
     | Specific security roles | Use this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |
 
-5. Save and publish the configuration.
+6. Save and publish the configuration.
+    
+    A confirmation message is displayed at the top of the page. Sales managers and sellers can now start using the Sales accelerator.
 
-A confirmation message is displayed at the top of the page. Sales managers and sellers can now start using the Sales accelerator.
+## Customizations
+
+By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faqs-sales-insights.md#sales-accelerator). 
 
 ### See also
 
