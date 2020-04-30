@@ -32,10 +32,10 @@ There are six types of status for tasks in Customer Insights. The following stat
 
 - **Processing:** Task is in progress. The status can change to Successful or Failure.
 - **Successful:** Task completed successfully.
-- **Skipped:**: Task got skipped because one or more of the downstream processes this task depends on are either failing or got skipped. See [Refresh policies](#refresh-policies) for more details.
+- **Skipped:** Task got skipped because it depends on downstream processes that failed or got skipped. For more information, see [Refresh policies](#refresh-policies).
 - **Failure:** Processing  of the task has failed.
 - **Canceled:** Processing was canceled by the user before it finished.
-- **Queued:** Processing is queued and will start once all the downstream tasks are completed. See [Refresh policies](#refresh-policies) for more details.
+- **Queued:** Processing is queued and will start once all the downstream tasks are completed. For more information, see [Refresh policies](#refresh-policies).
 
 ### Refresh policies
 
@@ -60,7 +60,7 @@ Use the **Schedule** tab to schedule automatic refreshes of all your ingested Cu
 
 1. In Customer Insights, go to **Admin** > **System** and select the **Schedule** tab.
 
-2. The default state for data refreshes is **Off**. To enable scheduled refreshes, change the toggle at the top of the screen to **On**.
+2. The default state for the scheduled refresh is **Off**. To enable scheduled refreshes, change the toggle at the top of the screen to **On**.
 
 3. Choose between **Weekly** (default) and **Daily** refreshes. If you intend to schedule weekly refreshes, select one or more days on which you want to run the refresh.
 
