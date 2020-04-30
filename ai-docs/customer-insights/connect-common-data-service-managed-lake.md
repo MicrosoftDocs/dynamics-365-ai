@@ -49,7 +49,7 @@ Only one data source can simultaneously use the same Common Data Service managed
 ## Edit a Common Data Service managed lake data source
 
 You only edit the entity selection after creating the data source. For example, if additional entities were added to Common Data Service that you also want to see in Customer Insights.    
-To connect to a different Common Data Service, [create a new data source](#connect-common-data-service-managed-lake).
+To connect to a different Common Data Service, [create a new data source](#connect-to-a-common-data-service-managed-lake).
 
 1. In Customer Insights, go to **Data** > **Data sources**.
 
