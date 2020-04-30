@@ -64,6 +64,9 @@ Configuring brands and interests enrichment consists of two steps:
 Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the **Data** > **Enrichment** page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
+> [!TIP]
+> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+
 ## Enrichment results
 
 After running the enrichment process, review the total number of enriched customers and a breakdown of brands and interests in the enriched customer profiles.
