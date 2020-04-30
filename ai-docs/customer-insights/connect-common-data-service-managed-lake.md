@@ -42,7 +42,7 @@ Data stored in online services, such as Azure Data Lake Storage, may be stored i
    > [!div class="mx-imgBorder"]
    > ![Dialog box showing a list of entities in the Common Data Service org](media/select-analytical-entities.png)
 
-7. Save your selection to start syncing the selected entities to the Common Data Service managed lake. You'll find the newly added connection on the **Data sources** page. It'll be queued or refreshing and show the entities count as 0 until all the entities are synced and available for usage in Customer Insights.
+7. Save your selection to start syncing the selected entities to the Common Data Service managed lake. You'll find the newly added connection on the **Data sources** page. It will be queued or refreshing and show the entities count as 0 until all the entities are synced and available for usage in Customer Insights.
 
 Only one data source can simultaneously use the same Common Data Service managed lake in a Customer Insights instance.
 
