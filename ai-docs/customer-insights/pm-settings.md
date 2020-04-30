@@ -47,7 +47,7 @@ This list shows the refresh policies for each of the main processes in Customer 
 - **Segments**: Runs manually (single time refresh) and according to the [configured schedule](#schedule-tab). Depends on Merge. Insights depend on its processing.
 - **Measures**: Runs manually (single time refresh) and according to the [configured schedule](#schedule-tab). Depends on Merge.
 - **Activities**: Runs manually (single time refresh) and according to the [configured schedule](#schedule-tab). Depends on Merge.
-- **Enrichment**: Runs manually (single time refresh) and according to the schedule defined within the **Schedular tab**. Depends on Merge.
+- **Enrichment**: Runs manually (single time refresh) and according to the [configured schedule](#schedule-tab). Depends on Merge.
 - **Search**: Runs manually (single time refresh) and according to the [configured schedule](#schedule-tab). Depends on Merge.
 - **Data preparation**: Runs according to the [configured schedule](#schedule-tab). Depends on Merge.
 - **Insights**: Runs manually (single time refresh) and according to the [configured schedule](#schedule-tab). Depends on Segments.
