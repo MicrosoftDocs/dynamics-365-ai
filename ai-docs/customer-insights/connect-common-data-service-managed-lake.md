@@ -1,21 +1,22 @@
 ---
 title: "Connect to entities in the Common Data Service managed lake | Microsoft Docs"
-description: "Work with Common Data Service managed lake data in Dynamics 365 Customer Insights via Athena framework"
-ms.date: 04/28/2020
+description: "Work with the Common Data Service managed data lake in Dynamics 365 Customer Insights."
+ms.date: 04/30/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: adkuppa
 ms.author: adkuppa
 manager: shefym
+ms.reviewer: mhart
 ---
 
-# Connect to data in CDS Managed Lake guidance (preview)
+# Connect to data in a Common Data Service managed data lake (preview)
 
-This article provides information on how existing Dynamics customers can quickly connect to their analytical entities available in the CDS Managed Lake from Dynamics 365 Customer Insights.
+This article provides information on how existing Dynamics 365 customers can quickly connect to their analytical entities in the Common Data Service managed lake from Dynamics 365 Customer Insights.
 
 ## Important considerations
 
-- Data stored in online services, such as Azure Data Lake Storage, may be stored in a different location than where data is processed or stored in Dynamics 365 Customer Insights. By importing or connecting to data stored in online services, you agree that data can be transferred to and stored with Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
+Data stored in online services, such as Azure Data Lake Storage, may be stored in a different location than where data is processed or stored in Dynamics 365 Customer Insights. By importing or connecting to data stored in online services, you agree that data can be transferred to and stored with Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
 
 ## Connect to a Common Data Service managed lake
 
@@ -27,28 +28,28 @@ This article provides information on how existing Dynamics customers can quickly
 
 4. Enter a **Name** for the data source and select **Next**.
 
-5. Provide the **Server address** for your Common Data Service org, and select **Sign in**.
-      > ![Dialog box to enter CDS Org server address](media/enter-CDS-org-details.png)
-   
+5. Provide the **Server address** for your Common Data Service organization, and select **Sign in**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Dialog box to enter Common Data Service server address](media/enter-CDS-org-details.png)
+
    > [!NOTE]
-   > You must be an admin on the CDS Org to be able to proceed further and see the list of entities available in the managed lake.
+   > You must be an admin on the Common Data Service org to to proceed and see the list of entities available in the managed lake.
 
-6. Once you are authenticated against the CDS org, you'll get a list of available entities in the CDS org.
-  - Select the entities you want to use in Customer Insights from the available list. 
-  - You may notice that some entities are already enabled, this could be because they may have been enabled already by other insights applications for their scenarios. 
-  - You cannot unselect an entity if it is already selected i.e., enabled for analytics. 
-  - Those already enabled entities will be available for usage in Customer Insights once the data source is created.
+6. Select the entities you want to use in Customer Insights from the available list.    
+   If some entities are already selected, they might be used by other insights applications and you can't change the selection. These entities will be available in Customer Insights once the data source is created.
 
-   > ![Dialog box showing a list of entities from a CDS org](media/select-analytical-entities.png)
-   
-7. After saving your selections, these selected entities will start to be synced to the CDS Managed Lake from CDS Org. You will be taken to the **Data sources** page and will see the newly added CDS managed lake connection as a data source. It may be in ‘Pending’ or ‘Refreshing’ state and show the entities count as 0 until all the entities are synced to the lake and are available for consumption in Customer Insights.
+   > [!div class="mx-imgBorder"]
+   > ![Dialog box showing a list of entities in the Common Data Service org](media/select-analytical-entities.png)
 
-8. A CDS managed lake can only associate with one data source in the instance. Meaning, two data sources cannot point to the same CDS managed lake in any given instance.
+7. Save your selection to start syncing the selected entities to the Common Data Service managed lake. You'll find the newly added connection on the **Data sources** page. It'll be queued or refreshing and show the entities count as 0 until all the entities are synced and available for usage in Customer Insights.
+
+Only one data source can simultaneously use the same Common Data Service managed lake in a Customer Insights instance.
 
 ## Edit a Common Data Service managed lake data source
 
-You cannot edit the Common Data Service managed lake data source connection details once it is created. Only **Edit** option available here is to select additional entities to consume in the Customer Insights. 
-To connect to a different CDS Org, [create a new data source connection](#connect-common-data-service-managed-lake).
+You only edit the entity selection after creating the data source. For example, if additional entities were added to Common Data Service that you also want to see in Customer Insights.    
+To connect to a different Common Data Service, [create a new data source](#connect-common-data-service-managed-lake).
 
 1. In Customer Insights, go to **Data** > **Data sources**.
 
@@ -56,5 +57,4 @@ To connect to a different CDS Org, [create a new data source connection](#connec
 
 3. Select the **Edit** option from the list.
 
-4. Optionally, select additional entities from the available list of entities and select **Save**.
-  - This will also cover the scenario of any additional entities getting added to your CDS org, and those entities getting included in Customer Insights by default. Those new entities will not be included in CI unless you explicitly select them as well or make sure that the data source is manually edited.
+4. Select additional entities from the available list of entities and select **Save**.
