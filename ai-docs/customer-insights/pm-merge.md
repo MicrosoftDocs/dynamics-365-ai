@@ -72,6 +72,9 @@ After the **Refreshing ...** text changes to **Successful**, merge has completed
 
 If it wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and measures will rerun automatically. After all downstream processes have been rerun, the customer profiles reflect any changes you made.
 
+> [!TIP]
+> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+
 ## Next Step
 
 Configure [activities](pm-activities.md), [enrichment](pm-enrichment.md), or [relationships](pm-relationships.md) to gain more insights about your customers.

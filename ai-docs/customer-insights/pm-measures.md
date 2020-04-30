@@ -101,6 +101,9 @@ Alternatively, select a measure from the list and perform one of the following a
 - Select the ellipsis (...) and then **Refresh** to start the refresh process for the measure.
 - Select the ellipsis (...) and then **Download** to get a .CSV file of the measure.
 
+> [!TIP]
+> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+
 ## Next step
 
 You cam use existing measures to create your first customer segment on the **Segments** page. For more information, see [Segments](pm-segments.md).
