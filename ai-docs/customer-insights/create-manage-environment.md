@@ -22,7 +22,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 3. Choose your preferred sign-up scenario and select the corresponding link.
 
-4. You need to accept the terms and conditions and select **Continue** to start creating the instance.
+4. Accept the terms and conditions and select **Continue** to start creating the instance.
 
 5. After the environment is created, you'll be redirected to [your Customer Insights instance](https://home.ci.ai.dynamics.com).
 
@@ -49,7 +49,7 @@ If you don't want to create a new environment from scratch, select **Copy from e
 ### Specify environment settings
 
 1. In the **Create new environment** dialog, provide the following details:
-   - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you copy from an exsiting environment but you can change it.
+   - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you copy from an existing environment but you can change it.
    - **Region**: The region into which the service is deployed and hosted
    - **Type**: Select if you want to create a Production environment or a Sandbox environment
 
@@ -67,7 +67,7 @@ If you don't want to create a new environment from scratch, select **Copy from e
      > [!div class="mx-imgBorder"]
      > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
 
-   When you perform operations in Customer Insights, such as data ingestion or segment creation, corresponding folders will be created in the storage account you specified above. Data files and model.json files will be created and added to the respective subfolders based on the operations you perform.
+   When you run processes in Customer Insights, such as data ingestion or segment creation, corresponding folders will be created in the storage account you specified above. Data files and model.json files will be created and added to the respective subfolders based on the process you run.
 
    If you create multiple instances of Customer Insights and choose to save the output entities from those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
 
@@ -88,14 +88,14 @@ The following settings are *not* copied:
 - Data source credentials. You'll have to provide the credentials for every data source and refresh the data sources manually.
 - Data sources from Common Data Model folder and Common Data Service managed lake. You'll have to create those data sources manually with the same name as in the source environment.
 
-When you copy an environment, you'll see a confirmation message that the new environment has been created and the configurations are copied over. Select **Go to data sources** to see the list of data sources.
+When you copy an environment, you'll see a confirmation message that the new environment has been created. Select **Go to data sources** to see the list of data sources.
 
-All the data sources will be show a **Credentials required** status. Edit the data sources and enter the credentials to refresh them.
+All the data sources will show a **Credentials required** status. Edit the data sources and enter the credentials to refresh them.
 
 > [!div class="mx-imgBorder"]
 > ![Data sources copied](media/data-sources-copied.png)
 
-After refreshing the data sources, go to **Data** > **Unify** where you find settings from the source environment. Edit them as needed or simply select **Run** to start the data unification process and create the unified customer entity.
+After refreshing the data sources, go to **Data** > **Unify** where you find settings from the source environment. Edit them as needed or select **Run** to start the data unification process and create the unified customer entity.
 
 When the data unification is complete, go to **Measures** and **Segments** to refresh them too.
 
