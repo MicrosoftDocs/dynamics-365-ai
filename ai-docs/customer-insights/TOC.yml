@@ -22,7 +22,7 @@
     - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
     - name: Add Common Data Service managed data lake
-      href: connect-common-data-service-managed-lake.md
+      href: connect-common-data-service-lake.md
     - name: Learn about common connectors
       href: pm-common-connectors.md
     - name: Incremental refresh for data sources
