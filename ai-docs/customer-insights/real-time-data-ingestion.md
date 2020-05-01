@@ -46,7 +46,7 @@ The real-time API lets you publish a new activity from your source system (an in
 > - Activities added only through the real-time API are not part of exports and won't show up in PowerBI.
 
 We will now present you two ways to connect to the Customer Insights real-time API:
-- indirectly, via a “plug and play” [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/en-us/connectors/customerinsights/)
+- indirectly, via a “plug and play” [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/)
 - directly, with code
 
 Both ways share the following **prerequisites**:
@@ -58,13 +58,13 @@ Both ways share the following **prerequisites**:
 
 ## Connect via the Dynamics 365 Customer Insights connector
 
-The real-time API can ingest data from a dedicated Power Platform Connector, the  [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/en-us/connectors/customerinsights/), without the need to write and deploy any code.
-The connector can do the same real-time actions as the API. Please note that you will need a valid license for premium connectors (details about licensing can be found in the [Power Apps and Power Automate licensing FAQs] (https://docs.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq)).
-Read more about how to use the  [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/en-us/connectors/customerinsights/) in the following documentation:
--	in Power Platform’s [Power Apps and/or Power Automate] (https://docs.microsoft.com/en-us/connectors/)
--	in Azure [Logic Apps] (https://docs.microsoft.com/en-us/azure/connectors/apis-list) (some coding required)
+The real-time API can ingest data from a dedicated Power Platform Connector, the  [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/), without the need to write and deploy any code.
+The connector can do the same real-time actions as the API. Please note that you will need a valid license for premium connectors (details about licensing can be found in the [Power Apps and Power Automate licensing FAQs] (https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)).
+Read more about how to use the  [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/) in the following documentation:
+-	in Power Platform’s [Power Apps and/or Power Automate] (https://docs.microsoft.com/connectors/)
+-	in Azure [Logic Apps] (https://docs.microsoft.com/azure/connectors/apis-list) (some coding required)
 
-For details about the creation of flows please refer to the [Power Automate documentation] (https://docs.microsoft.com/en-us/power-automate/).
+For details about the creation of flows please refer to the [Power Automate documentation] (https://docs.microsoft.com/power-automate/).
 
 
 
