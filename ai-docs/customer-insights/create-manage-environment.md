@@ -1,7 +1,7 @@
 ---
 title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create and manage environments in Dynamics 365 Customer Insights."
-ms.date: 04/17/2020
+ms.date: 04/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 ms.reviewer: adkuppa
@@ -32,7 +32,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 8. You'll be signed in to Customer Insights when the environment was created successfully.
 
-## Create an environment from an existing Customer Insights instance
+## Create an environment
 
 1. Select the **Settings** symbol in the header of the app.
 
@@ -40,7 +40,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 3. In the panel on the right side of the screen, select **New environment**.
 
-4. Specify the basic and advanced settings and select **Create** to create the environment.
+### New environment settings
 
 There are two ways to create a new environment. You can either create an entirely new environment or you can copy some configuration settings from an existing environment.
 
