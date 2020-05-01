@@ -46,6 +46,8 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 
 ## Assign roles and permissions
 
+Administrators may use the **Permissions** page to grant user role assignments within Customer Insights.
+
 1. On the **Permissions** page, select **Add** to open the **Add permissions** pane.
 
 2. In the **Select** field, find the user or group whose permissions you want to adjust. Choose a **Role** to assign to that user or group.

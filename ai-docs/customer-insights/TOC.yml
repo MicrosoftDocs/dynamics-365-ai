@@ -93,12 +93,10 @@
       href: export-liveramp.md
 
 - name: Administration
-  items: 
-    - name: Familiarize with admin settings 
-      href: pm-admin.md
+  items:
     - name: Set up the system configuration
       href: pm-settings.md
-    - name: Define user permissions
+    - name: Assign user permissions
       href: pm-permissions.md
     - name: Manage multiple environments
       href: create-manage-environment.md
