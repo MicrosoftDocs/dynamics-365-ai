@@ -1,13 +1,13 @@
 ---
 title: "Connect to entities in the Common Data Service managed lake | Microsoft Docs"
 description: "Work with the Common Data Service managed data lake in Dynamics 365 Customer Insights."
-ms.date: 04/30/2020
+ms.date: 05/01/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
-author: adkuppa
-ms.author: adkuppa
-manager: shefym
-ms.reviewer: mhart
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
+ms.reviewer: adkuppa
 ---
 
 # Connect to data in a Common Data Service managed data lake (preview)
@@ -34,15 +34,15 @@ Data stored in online services, such as Azure Data Lake Storage, may be stored i
    > ![Dialog box to enter Common Data Service server address](media/enter-CDS-org-details.png)
 
    > [!NOTE]
-   > You must be an admin on the Common Data Service org to to proceed and see the list of entities available in the managed lake.
+   > You must be an admin on the Common Data Service org to proceed and see the list of entities available in the managed lake.
 
 6. Select the entities you want to use in Customer Insights from the available list.    
-   If some entities are already selected, they might be used by other insights applications and you can't change the selection. These entities will be available in Customer Insights once the data source is created.
+   If some entities are already selected, they might be used by other Dynamics 365 applications (such as Dynamics 365 Sales Insights or Customer Service Insights). You can't change the selection. These entities will be available in Customer Insights once the data source is created.
 
    > [!div class="mx-imgBorder"]
    > ![Dialog box showing a list of entities in the Common Data Service org](media/select-analytical-entities.png)
 
-7. Save your selection to start syncing the selected entities to the Common Data Service managed lake. You'll find the newly added connection on the **Data sources** page. It will be queued or refreshing and show the entities count as 0 until all the entities are synced and available for usage in Customer Insights.
+7. Save your selection to start syncing the selected entities to the Common Data Service managed lake. You'll find the newly added connection on the **Data sources** page. It will be queued for refresh and show the entities count as 0 until all the entities are synced.
 
 Only one data source can simultaneously use the same Common Data Service managed lake in a Customer Insights instance.
 
