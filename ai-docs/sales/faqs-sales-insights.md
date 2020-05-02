@@ -49,7 +49,7 @@ Sales insights is available in the following regions:<br>
 
 **How do I extend the trial period of Sales Insights?**
 
-If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.commicrosoft-365/commerce/extend-your-trial?view=o365-worldwide).
+If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.com/microsoft-365/commerce/extend-your-trial?view=o365-worldwide).
 
 ## Assistant
 
@@ -66,7 +66,7 @@ To disable, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
-**I am getting insufficient permissions alert**
+**Why am I getting insufficient permissions alert while using an Insight card?**
 
 If you see an alert about having insufficient permissions to use an Insight card, take these steps:
 
