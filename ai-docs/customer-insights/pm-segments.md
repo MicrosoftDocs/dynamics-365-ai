@@ -80,7 +80,7 @@ Select a segment to perform the following options:
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** the segment to include the latest data.
-- **Activate** or **Deactivate** the segment. Alternatively, you an use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
+- **Activate** or **Deactivate** the segment. Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
 - **Download** the list of members in a segment as a .CSV file.
 - **Add to** sends the list of customer IDs in the segment for processing in another application.
