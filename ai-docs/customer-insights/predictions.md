@@ -23,7 +23,7 @@ Predictions lets you easily create predicted values that can enhance your unders
 
 Before your organization can use the predictions feature, the following prerequisites must be met:
 
-1. Your organization has an instance [set up in the Common Data Service](https://docs.microsoft.com/en-us/ai-builder/build-model#prerequisites). The credentials (user name and password) that you use in Common Data Service and in Dynamics 365 Customer Insights should match.
+1. Your organization has an instance [set up in the Common Data Service](https://docs.microsoft.com/ai-builder/build-model#prerequisites). The credentials (user name and password) that you use in Common Data Service and in Dynamics 365 Customer Insights should match.
 
 2. Your Customer Insights environment is attached to your Common Data Service instance.
 
@@ -151,4 +151,4 @@ If you can't complete the attach Common Data Service process due to an error, yo
     1. Select **Save & Close**.
     1. Select the Customer Insights user you just created.
     1. Select **Manage Roles** in the top menu bar.
-    1. Select **System Adminstrator**, then select **OK**.
+    1. Select **System Administrator**, then select **OK**.
