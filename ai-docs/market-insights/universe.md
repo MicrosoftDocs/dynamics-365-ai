@@ -1,7 +1,7 @@
 ---
 title: "Configure the universe and elements in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Configure the universe and elements in Dynamics 365 Market Insights."
-ms.date: 09/16/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # Configure the universe and elements in Dynamics 365 Market Insights Preview
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 
@@ -100,7 +102,7 @@ Currently, 3 types of affiliation are supported:
 - Not mine
 - No affiliation
 
-For example, if you work for Microsoft and one of your elements is PowerBI, we recommend that you set the affiliation to “Mine”.
+For example, if you work for Microsoft and one of your elements is PowerBI, we recommend that you set the affiliation to "Mine".
 
 > [!NOTE]
 > Currently, your insights won't change when defining the affiliation of an element.

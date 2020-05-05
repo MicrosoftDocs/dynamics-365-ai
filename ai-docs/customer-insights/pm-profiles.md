@@ -1,7 +1,7 @@
 ---
-title: "Customers | Microsoft Docs"
-description: "Get a consolidated view on you unified customer profiles in Dynamics 365 Customer Insights."
-ms.date: 02/04/2020
+title: "Customer profiles | Microsoft Docs"
+description: "Get a consolidated view of your unified customer data in Dynamics 365 Customer Insights."
+ms.date: 04/16/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Customers
+# Customer profiles
 
 The **Customers** page presents a consolidated view of your customers, based on profile data gathered from [all data sources](data-sources-list.md). Customer profiles are available once you [create the unified Customer entity](pm-configure-data.md). Make sure you complete the data unification process to get richer views of your customers. The page also lets you search for customers.
 
@@ -24,7 +24,7 @@ Organizations (Preview)
 > ![B2B customer profiles](media/profile-customers-b2b.png "B2B customer profiles")
 
 > [!NOTE]
-> If can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](pm-manage-search.md) on the **Search & filter index**.
+> If you can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](pm-manage-search.md) on the **Search & filter index**.
 
 ## Search for customers
 
@@ -47,4 +47,4 @@ You can filter customers by the Customer Profile entity fields. Similar to searc
 
 ## Next steps
 
-[Add more data sources](pm-data-sources.md) and [unify your customer profiles](pm-configure-data.md).
+[Add more data sources](pm-data-sources.md) or [create customer segments](pm-segments.md).

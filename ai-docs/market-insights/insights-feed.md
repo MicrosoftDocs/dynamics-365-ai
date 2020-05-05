@@ -1,7 +1,7 @@
 ---
 title: "Insights feed and insight details in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Work with the insights feed and discover more information with insight details."
-ms.date: 09/16/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -17,6 +17,8 @@ search.app:
 ---
 
 # Insights feed and details view
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 

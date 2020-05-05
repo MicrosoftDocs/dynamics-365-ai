@@ -32,7 +32,7 @@ search.app:
 <h2>Get started</h2>
 <li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 Sales Insights overview</a></li>
 <li><a href="overview-dynamics-365-assistant-app-teams.md" data-raw-source="[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)">Overview of Dynamics 365 assistant application for Teams</a></li>
-<li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Sales Insights applications](dynamics365-sales-insights-app.md)">Overview of Sales Insights applications</a></li>
+<li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)">Overview of Overview of Conversation Intelligence</a></li>
 </td><td>
 <h2>Administrator guide</h2>
 <li><a href="intro-admin-guide-sales-insights.md" data-raw-source="[Introduction to administering Dynamics 365 Sales Insights](intro-admin-guide-sales-insights.md)">Introduction to administering Dynamics 365 Sales Insights</a></li>
@@ -48,7 +48,7 @@ search.app:
 <li><a href="configure-premium-forecasting.md" data-raw-source="[Premium forecasting](configure-premium-forecasting.md)">Premium forecasting</a></li>
 <li><a href="manage-snapshots-forecast.md" data-raw-source="[Manage snapshots for a forecast](manage-snapshots-forecast.md)">Manage snapshots for a forecast</a></li>
 <li><a href="install-assistant-application-microsoft-teams.md" data-raw-source="[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)">Install Dynamics 365 assistant application on Microsoft Teams</a></li>
-<li><a href="fre-setup-sales-insight-app.md" data-raw-source="[First-run set up experience of Sales Insight application](fre-setup-sales-insight-app.md)">First-run set up experience of Sales Insight application</a></li>
+<li><a href="fre-setup-sales-insight-app.md" data-raw-source="[First-run set up experience of Conversation Intelligence](fre-setup-sales-insight-app.md)">First-run set up experience of Conversation Intelligence</a></li>
 <li><a href="configure-conversation-intelligence-call-data.md" data-raw-source="[Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)">Configure conversation intelligence to connect call data</a></li>
 </td></tr>
 
@@ -79,7 +79,7 @@ search.app:
 <tr>
 <td>
 <h2>Analyze sales and seller insights</h2>
-<li><a href="dynamics365-sales-insights-app-home-page.md" data-raw-source="[View overall sales insights](dynamics365-sales-insights-app-home-page.md)">View overall sales insights</a></li>
+<li><a href="dynamics365-sales-insights-app-home-page.md" data-raw-source="[View and understand home page](dynamics365-sales-insights-app-home-page.md)">View and understand home page</a></li>
 <li><a href="conversation-intelligence-team-overview.md" data-raw-source="[View team information](conversation-intelligence-team-overview.md)">View team information</a></li>
 <li><a href="conversation-intelligence-seller-details.md" data-raw-source="[View seller information](conversation-intelligence-seller-details.md)">View seller information</a></li>
 </td>

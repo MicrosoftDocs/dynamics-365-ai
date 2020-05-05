@@ -70,7 +70,7 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
     > [!div class="mx-imgBorder"]
     > ![Select connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select connection graph option")
 
-3. Read the description and configure the Dynamics 365 Sales Insights – Connection Graph settings as **on**.
+3.  Read the description carefully and then select the **Allow org data to be used by ‎Dynamics 365 Sales Insights - Analytics**‎ option.
 
     > [!div class="mx-imgBorder"]
     > ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save connection graph")
@@ -80,7 +80,7 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
     > [!div class="mx-imgBorder"]
     > ![Enable and save connection graph](media/sales-insights-addon-admincenter-connection-graph-exclude-group.png "Enable and save connection graph")
 
-5. Select **Save**.
+5. Select **Save changes**.
 
 
 ### See also

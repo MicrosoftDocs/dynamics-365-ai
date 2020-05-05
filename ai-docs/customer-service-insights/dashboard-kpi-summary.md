@@ -2,7 +2,7 @@
 title: "KPI summary dashboard"
 description: "Learn about the customer service insights available on the KPI Summary dashboard​."
 keywords: ""
-ms.date: 11/19/2019
+ms.date: 04/24/2020
 ms.service: 
   - dynamics-365-ai
 ms.topic: article
@@ -17,20 +17,21 @@ search.appverid: met150
 
 # KPI summary dashboard
 
-![KPI summary dashboard](media/kpi-summary.png)
+![KPI summary dashboard](media/kpi-summary-dash.png)
 
 The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
-* [KPI summary charts](#kpi-summary-charts)
-* [Case breakdown](#case-breakdown-chart)
-* [Case priority](#case-priority-chart)
-* [Case channel](#case-channel-chart)
-* [Case tracking](#case-tracking-chart)
-* [Unresolved cases by age](#unresolved-cases-by-age-chart)
-* [Case volume drivers (AI Insights)](#case-volume-drivers-chart)
-* [Emerging topics (AI Insights)](#emerging-topics-chart)
+- [KPI summary dashboard](#kpi-summary-dashboard)
+  - [KPI summary charts](#kpi-summary-charts)
+  - [Case breakdown chart](#case-breakdown-chart)
+  - [Case priority chart](#case-priority-chart)
+  - [Case channel chart](#case-channel-chart)
+  - [Case tracking chart](#case-tracking-chart)
+  - [Unresolved cases by age chart](#unresolved-cases-by-age-chart)
+  - [Case volume drivers chart](#case-volume-drivers-chart)
+  - [Emerging topics chart](#emerging-topics-chart)
 
 The Case volume drivers and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 

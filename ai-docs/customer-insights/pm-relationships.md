@@ -1,7 +1,7 @@
 ---
-title: "Relationships | Microsoft Docs"
-description: "Connect entities to create segments and measures from multiple data sources in Dynamics 365 Customer Insights."
-ms.date: 02/04/2020
+title: "Relationships between entities | Microsoft Docs"
+description: "Create and manage relationships between entities from multiple data sources in Dynamics 365 Customer Insights."
+ms.date: 04/14/2020
 ms.reviewer: mukeshpo
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Relationships
+# Relationships between entities
 
 Relationships help you connect entities and generate a graph of your data when entities share a common identifier (foreign key) that can be referenced from one entity to another. Connected entities enable you to define segments and measures based on multiple data sources.
 
@@ -27,7 +27,7 @@ During the match and merge processes, system relationships are created behind th
 
 ## Create a relationship
 
-Define custom relationships on the **Relationships** page. Each relationship consists of a Source entity (the entity that holds the foreign key) and a Target entity (the entity that the source entity’s foreign key points to).
+Define custom relationships on the **Relationships** page. Each relationship consists of a Source entity (the entity that holds the foreign key) and a Target entity (the entity that the source entity's foreign key points to).
 
 1. In Customer Insights, go to **Data** > **Relationships**.
 
@@ -41,10 +41,10 @@ Define custom relationships on the **Relationships** page. Each relationship con
    - **Relationship name**: Name that reflects the purpose of the relationship (for example, **AccountWebLogs**).
    - **Description**: Description of the relationship.
    - **Source entity**: Select the entity that is used as a source in the relationship (for example, WebLog).
-   - **Cardinality**: Select the cardinality of the source entity records. For example, “many” means that multiple Weblog records are related to one WebAccount.
+   - **Cardinality**: Select the cardinality of the source entity records. For example, "many" means that multiple Weblog records are related to one WebAccount.
    - **Source key field**: This represents the foreign key field in the source entity. For example, WebLog has the **accountId** foreign key field.
    - **Target entity**: Select the entity that is used as a target in the relationship (for example, WebAccount).
-   - **Target cardinality**: Select the cardinality of the target entity records. For example, “one” means that multiple Weblog records are related to one WebAccount.
+   - **Target cardinality**: Select the cardinality of the target entity records. For example, "one" means that multiple Weblog records are related to one WebAccount.
    - **Target key field**: This field represents the key field of target entity. For example, WebAccount has the **accountId** key field.
 
 > [!NOTE]

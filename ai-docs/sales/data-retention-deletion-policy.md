@@ -1,6 +1,6 @@
 ---
-title: "Data retention and deletion policy for Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Data retention and deletion policy for Dynamics 365 Sales Insights application"
+title: "Data retention and deletion policy for Conversation Intelligence | MicrosoftDocs"
+description: "Data retention and deletion policy for Conversation Intelligence"
 ms.date: 07/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -18,7 +18,10 @@ topic-status: Drafting
 
 # Data retention and deletion through Privacy
 
-When you configure conversation intelligence, sales call recordings of sales reps are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls. Sales Insights application provides the following options to configure your retention period:
+>[!IMPORTANT]
+>This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
+
+When you configure conversation intelligence, sales call recordings of sales reps are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls. Conversation Intelligence provides the following options to configure your retention period:
 
 -	[Retention policy](#retention-policy)
 
@@ -26,15 +29,15 @@ When you configure conversation intelligence, sales call recordings of sales rep
 
 ## Retention Policy
 
-Retention policy allows you to determine how long you want to keep the analyzed call recording data in the Sales Insights application by specifying a time limit. When you specify a retention time limit, the application retains the call recording data for the specified time limit. The application deletes the data when the time limit is reached. 
+Retention policy allows you to determine how long you want to keep the analyzed call recording data in Conversation Intelligence by specifying a time limit. When you specify a retention time limit, the application retains the call recording data for the specified time limit. The application deletes the data when the time limit is reached. 
 
 For example, retention time limit is set 30 days. At any given time, application retains the call data from the time it is analyzed to 30 days. On the 31st day, the application deletes the analyzed call data.
 
 To configure the retention policy:
 
-1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
+1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open **Dynamics 365 Sales Insights** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -59,9 +62,9 @@ Retention policy configuration is saved, and the analyzed call recording data wi
 
 You can delete seller’s data when a seller is not reporting to you, moved to another team, leaving your organization, or seller requests to delete his data. This data includes the seller’s statistics and call history. To delete a seller’s data that you don’t want to see in your insights:
 
-1.	Review the perquisites. To learn more, see [Prerequisites to setup Sales Insights application](prereq-sales-insights-app.md).
+1.	Review the perquisites. To learn more, see [Prerequisites to setup Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open **Dynamics 365 Sales Insights** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -88,7 +91,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
     > [!div class="mx-imgBorder"]
     > ![Confirmation message to delete data](media/si-app-admin-message-seller-data-delete.png "Confirmation message to delete data")
 
-    The selected seller data is deleted from the Sales Insights application.
+    The selected seller data is deleted from Conversation Intelligence.
 
     > [!div class="mx-imgBorder"]
     > ![Seller data deleted](media/si-app-admin-seller-delete-deleted.png "Seller data deleted")
@@ -97,6 +100,6 @@ To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 an
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to use Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to use Conversation Intelligence](prereq-sales-insights-app.md)

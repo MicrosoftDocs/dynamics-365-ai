@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Market Insights | Microsoft Docs"
 description: "Find answers to frequently asked questions about Market Insights."
 keywords: "FAQ, questions, common issues"
-ms.date: 09/16/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -19,6 +19,8 @@ search.app:
 
 # FAQ for Dynamics 365 Market Insights Preview
 
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
+
 (This topic is pre-release documentation and is subject to change.)
 
 Are you new to Market Insights or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
@@ -27,7 +29,7 @@ Are you new to Market Insights or looking for some help? We've compiled a list o
 
 Market Insights uses billions of data points, mainly from searches which web users performed and browser data. For more information, see [Data sources used in Dynamics 365 Market Insights](about-data.md).
 
-## What does “normalized search volume" mean?
+## What does "normalized search volume" mean?
 
 We provide search volume on a scale from 0 to 100 where 100 represents the peak search volume for an element in the given time period. All other data points are relative to this peak search volume. A value of 50 means the element is half as popular from its peak popularity. A value of 0 means that there isn't enough search volume data to provide a normalized value.
 

@@ -2,7 +2,7 @@
 title: "Data handling for Market Insights alerts | Microsoft Docs"
 description: "Learn which data we store, why, and how you can get it updated and exported."
 keywords: "alert management, daily digest, email"
-ms.date: 03/29/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.custom: dyn365-ai-marketinsights
 ms.topic: article
@@ -12,6 +12,8 @@ ms.author: mhart
 ---
 
 # Data handling for Dynamics 365 Market Insights Preview
+
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
 
 (This topic is pre-release documentation and is subject to change.)
 

@@ -1,7 +1,7 @@
 ---
 title: "Journey insights in Dynamics 365 Market Insights | Microsoft Docs"
 description: "Insights related to the Journey insights type."
-ms.date: 09/25/2019
+ms.date: 03/27/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 author: m-hartmann
@@ -18,9 +18,11 @@ search.app:
 
 # Journey insights
 
+[!INCLUDE [market-insights-eos](../includes/market-insights-eos.md)]
+
 ## Overview
 
-Tracking traffic volume change to or from a website is critical to keep track of  customer’s online behavior. Journey insights helps to detect gradual or sharp website traffic volume change and identify the channels causing the traffic changes. This enables business professionals to understand campaign effectiveness and customer preference. More importantly, Journey insights enables understanding of both proprietary and 3rd-party websites, including competitor’s website. For example, you can be notified when a competing brand’s website has seen significant traffic increase from news sites over the past weeks.  
+Tracking traffic volume change to or from a website is critical to keep track of  customer's online behavior. Journey insights helps to detect gradual or sharp website traffic volume change and identify the channels causing the traffic changes. This enables business professionals to understand campaign effectiveness and customer preference. More importantly, Journey insights enables understanding of both proprietary and 3rd-party websites, including competitor's website. For example, you can be notified when a competing brand's website has seen significant traffic increase from news sites over the past weeks.  
 
 **Traffic volume change of a website** provides a view of the top channel contributing to the detected web traffic change and associated timeline with the website of your interest.
 

@@ -1,6 +1,6 @@
 ---
-title: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application | MicrosoftDocs"
-description: "Configure keywords and competitors to track in conversation intelligence for Dynamics 365 Sales Insights application"
+title: "Configure keywords and competitors to track in Conversation Intelligence | MicrosoftDocs"
+description: "Configure keywords and competitors to track in Conversation Intelligence"
 ms.date: 08/01/2018
 ms.service: crm-online
 ms.custom: 
@@ -18,15 +18,15 @@ topic-status: Drafting
 
 # Connect to Dynamics 365 Sales environment
 
-The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your Sales Insights application. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
+The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your Conversation Intelligence. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
 
 At a time, you can have only one active Dynamics 365 Sales environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
 
-As an administrator, you must configure the Dynamics 365 Sales environment to connect to the Sales Insights application.
+As an administrator, you must configure the Dynamics 365 Sales environment to connect to Conversation Intelligence.
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Dynamics 365 Sales Insights** application. 
+2.	Open the **Conversation Intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -81,15 +81,15 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
    > [!NOTE]
    > You can skip adding the keywords and competitors and add them later, when required.
 
-11.	Select **Finish** to complete the setup of the **Sales Insights** application for your organization. The status message will be displayed on the top of the page.
+11.	Select **Finish** to complete the setup of the **Conversation Intelligence** application for your organization. The status message will be displayed on the top of the page.
 
     > [!div class="mx-imgBorder"]
     > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
-Now, your Sales Insights application is ready with the data of the added environment.
+Now, your Conversation Intelligence is ready with the data of the added environment.
 
 ### See also
 
-[Introduction to administer Sales Insights application](intro-admin-guide-sales-insights.md#administer-sales-insights-application)
+[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to configure Sales Insights application](prereq-sales-insights-app.md)
+[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)

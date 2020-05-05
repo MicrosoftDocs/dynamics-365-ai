@@ -1,7 +1,7 @@
 ---
-title: "Search & filter index | Microsoft Docs"
+title: "Search and filter customer profiles | Microsoft Docs"
 description: "Quickly find information about unified customer profiles and filter for specified attributes."
-ms.date: 02/03/2020
+ms.date: 04/16/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Search & filter index
+# Customer profiles: Search & filter index
 
 The result of unifying your customer data is a Customer Profile entity that provides a unified view into your total customer base. To quickly [find information on a specific customer or group of customers](pm-profiles.md), you can configure the **Search** and **Filter** capabilities on the **Customers** page. Read on to learn how admins can edit the attributes on the **Search & filter index** page, which are available to users for searching and filtering.
 
@@ -25,10 +25,7 @@ If it's the first time you define searchable attributes as an administrator, you
 
 2. Select **Add fields** to specify the indexed fields.
 
-3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add** (#1 in the image below). You can also remove any selected attributes using **Delete** symbol (#2 in the image below).
-
-> [!div class="mx-imgBorder"]
-> ![Add or remove attributes](media/search-sort-filter-add.png "Add or remove attributes")
+3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add**. You can also remove any selected attributes by selecting the **Delete** symbol.
 
 ## Explore the Indexed customer fields table
 
@@ -43,35 +40,14 @@ The following information is presented in the table.
 
 The **Filter** menu on the **Customers** page can include a varying number of attribute levels (for example, different age groups to filter customers by).
 
-> [!div class="mx-imgBorder"]
-> ![Table on Search & filter index page](media/search-sort-filter-edit.png "Table on Search & filter index page")
-
 1. Select **Add Filter** for a given attribute on the **Search & filter index** page. You can define the number of results and the order in which they'll be organized. Depending on the attribute's data type, one of the following panes appears.
 
-- String-type attributes
+- String-type attributes: Specify the number of desired results on the **String filter options** pane and the order policy by which they'll be organized.
 
-  > [!div class="mx-imgBorder"]
-  > ![String filter options](media/string-filter-options.png "String filter options")
+- Numerical-type attributes: Specify the intervals included on the **Number filter options** pane and the order policy by which they'll be organized.
 
-  Specify the number of desired results on the **Filter** panel and the order policy by which they'll be organized.
-
-- Numerical-type attributes
-
-  > [!div class="mx-imgBorder"]
-  > ![Number filter options](media/number-filter-options.png "Number filter options")
-
-  Specify the intervals included on the **Filter** panel and the order policy by which they'll be organized.
-
-- Date-type attributes
-
-  > [!div class="mx-imgBorder"]
-  > ![Date filter options](media/date-filter-options.png "Date filter options")
-
-  Specify the intervals included on the filter panel and the order policy by which they'll be organized.
+- Date-type attributes:  Specify the intervals included on the **Date filter options** pane and the order policy by which they'll be organized.
 
 2. Select **Save** to apply your changes.
 
 3. Select **Run** once you're ready to apply your settings.
-
-   > [!div class="mx-imgBorder"]
-   > ![Save and Run](media/search-sort-filter-save-run.png "Save and Run")
