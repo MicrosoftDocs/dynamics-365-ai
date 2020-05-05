@@ -129,28 +129,26 @@ The next run of your prediction will use the updated model you've created.
 
 4. Confirm the deletion.
 
-
 ## Troubleshooting
 
-If you're unable to complete the attach Common Data Service process due to an error, you may be able to complete the process manually.  There are two known issues that can occur with the attach process:
+If you can't complete the attach Common Data Service process due to an error, you can try to complete the process manually. There are two known issues that can occur in the attach process:
 
-1. Customer Insights Solution not installed
-    1. Complete the instructions found here: https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-customer-card-addin#install-the-customer-card-add-in
+- The Customer Insights Customer Card Add-in solution is not installed.
+    1. Complete the instructions to [install and configure the solution](pm-customer-card-addin.md).
 
-2. Customer Insights Application Permissions not granted
-    1. Navigate to https://admin.powerplatform.microsoft.com
-    2. Click on **Environments**, then click on the ellipses next to the environment you wish to add the permission to and select **Settings**
-    3. Expand **Users + permissions**, then click on **Users**
-    4. Click the **+ New** button, then click on **User** under New User and select **Application User** if it's not already selected
-    5. Enter the following information:
+- Customer Insights Application Permissions aren't granted.
+    1. Go to [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com).
+    1. Select **Environments**.
+    1. Select the ellipsis next to the environment you want to add the permission to and select **Settings**.
+    1. Expand **Users + permissions** and select **Users**.
+    1. Select **+ New** and select **User**.
+    1. Select **Application User** if it's not already selected and enter the following information:
         - **User Name:** cihelp@microsoft.com
         - **Application ID:** 38c77d00-5fcb-4cce-9d93-af4738258e3c
         - **First Name:** Customer
         - **Last Name:** Insights
         - **Primary Email:** cihelp@microsoft.com
-    6. Click **Save & Close**
-    7. Select the Customer Insights user you just created
-    8. Click **Manage Roles** in the top menu bar
-    9. Select **System Adminstrator**, then click **OK**
-
-Performing the steps above should resolve any complications for attaching to the Common Data Service.
+    1. Select **Save & Close**.
+    1. Select the Customer Insights user you just created.
+    1. Select **Manage Roles** in the top menu bar.
+    1. Select **System Adminstrator**, then select **OK**.
