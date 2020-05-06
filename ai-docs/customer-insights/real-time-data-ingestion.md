@@ -46,8 +46,8 @@ The real-time API lets you publish a new activity from your source system (an in
 > - Activities added only through the real-time API are not part of exports and won't show up in PowerBI.
 
 We will now present you two ways to connect to the Customer Insights real-time API:
-- indirectly, via a “plug and play” [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/)
-- directly, with code
+- [indirectly] (link to the "Connect via the Dynamics 365 Customer Insights connector" subsection), via a “plug and play” [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/)
+- [directly] (link to the "Connect directly to the real-time API" subsection), with code
 
 Both ways share the following **prerequisites**:
 - A Customer Insights instance
