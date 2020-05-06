@@ -54,7 +54,7 @@
   - name: Enrich with brand and interest affinities
     href: pm-enrichment.md
   - name: Enrich with Leadspace
-    href: leadspace.md
+    href: enrichment-leadspace.md
 
 - name: Data analysis
   items: 
