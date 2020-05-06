@@ -19,8 +19,8 @@ Leadspace is a data science company that provides a B2B Customer Data Platform. 
 To configure Leadspace, the following prerequisites must be met:
 
 - You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Please reach out directly to [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
-- You have the [Administrator](pm-permissions#administrator) role in Customer Insights.
-- You have [unified customer profiles](pm-profiles) for companies.
+- You have the [Administrator](pm-permissions.md#administrator) role in Customer Insights.
+- You have [unified customer profiles](pm-profiles.md) for companies.
 
 ## Configuration
 
@@ -33,11 +33,11 @@ To configure Leadspace, the following prerequisites must be met:
    > [!div class="mx-imgBorder"]
    > ![Leadspace configuration page](media/enrichment-leadspace-configuration.png "Leadspace configuration page")
 
-1.	Select **Add data** and define which fields from your unified profiles should be used to look for matching company data from Leadspace. The **company name** field is required. For a higher match accuracy, up two other fields, **company website** and **company location**, can be added.
+1. Select **Add data** and define which fields from your unified profiles should be used to look for matching company data from Leadspace. The **company name** field is required. For a higher match accuracy, up two other fields, **company website** and **company location**, can be added.
 
 1. Select **Save** to complete the field mapping.
 
-1.	Select **Run** to enrich the company profiles. How long an enrichment run takes depends on the number of unified customer profiles. Expect it to take at least 1 minute per 1.000 profiles.
+1. Select **Run** to enrich the company profiles. How long an enrichment run takes depends on the number of unified customer profiles. Expect it to take at least 1 minute per 1.000 profiles.
 
 ## Enrichment results
 
