@@ -61,7 +61,7 @@ Both ways share the following prerequisites:
 ## Connect via the Dynamics 365 Customer Insights connector
 
 The real-time API can ingest data from a dedicated Power Platform connector, the [Dynamics 365 Customer Insights connector](https://docs.microsoft.com/connectors/customerinsights/), without the need to write and deploy any code.    
-The connector can do the same real-time actions as the API. Note that you need a valid license for premium connectors. For more information, see [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq).
+The connector can do the same real-time actions as the API. You need a valid license for premium connectors. For more information, see [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq).
 
 Read more about how to use the [Dynamics 365 Customer Insights connector](https://docs.microsoft.com/connectors/customerinsights/):
 
@@ -73,6 +73,6 @@ For details about creating flows, see the [Power Automate documentation](https:/
 ## Connect directly to the real-time API
 
 You can use the real-time capabilities by building your own pipeline and connecting directly to the Customer Insights real-time API.    
-Note that you can post an activity in the format of your source system or in the UnifiedActivity format. Get the format by making an an API call to /api/instances/{instanceId}/manage/entities/UnifiedActivity.
+You can post an activity in the format of your source system or in the UnifiedActivity format. Get the format by making an API call to /api/instances/{instanceId}/manage/entities/UnifiedActivity.
 
 Details of this API, including parameters and responses, can be found in the **EntityData** section on the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html). [Learn more about how to use the Customer Insights Swagger webpage](pm-apis.md#how-to-use-the-customer-insights-swagger-webpage).
