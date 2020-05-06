@@ -16,7 +16,8 @@ Use data from sources like Microsoft and other partners to enrich your customer 
 
 :::image type="content" source="media/enrichment-hub-page.png" alt-text="Enrichment hub page in Customer Insights":::
 
-In Customer Insights, go to **Data** > **Enrichment** to work with enrichment options.
+In Customer Insights, go to **Data** > **Enrichment** to work with enrichment options.    
+You need to have Contributor or Administrator permissions to create or edit enrichtments. For more information, see [Permissions](pm-permissions.md).
 
 On the **Discover** tab, you'll find the following enrichments:
 
