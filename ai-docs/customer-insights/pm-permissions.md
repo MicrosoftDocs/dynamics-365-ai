@@ -32,7 +32,7 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 - Define **Relationships** and **Activities**.
 - Create segments using the **Segment Builder** page.
 - Create measures using the **Measures** page.
-- Manage configuration and enrich customer profiles from the **Enrichment** page (for 1st party enrichments only).
+- Manage configuration and enrich customer profiles from the **Enrichment** page (for first party enrichments only).
 
 ## Administrator
 
