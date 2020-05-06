@@ -1,7 +1,7 @@
 ---
 title: "Real-time data ingestion for Dynamics 365 Customer Insights | Microsoft Docs"
 description: "General information about real-time capabilities in Customer Insights"
-ms.date: 05/01/2020
+ms.date: 05/06/2020
 ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -19,21 +19,22 @@ In Customer Insights, scheduled refreshes include large numbers of records and s
 The real-time functionality provides data immediately for consumption in Customer Insights, until the subsequent scheduled refresh pulls this data from the data source.
 
 Real-time updates have an expiration time after which they no longer override the value from the data source:
-- Profile updates will only be kept for 4 hours
-- Activities will only be kept for 30 days
 
-Those default values are API call parameters that you can change. Their aim is to ensure that your source data remain your source of truth. Therefore, if you want real-time updates to be included in Customer Insights for longer, you need to ensure that they also get added into your data source, so they get pulled during the next scheduled refresh of Customer Insights.
+- Profile updates will be kept for 4 hours
+- Activities will be kept for 30 days
+
+These values are API call parameters that you can change. They aim to ensure that your source data remains your source of truth. If you want real-time updates to be included in Customer Insights for longer, you need to add them to a data source so they get pulled during the next scheduled refresh.
 
 ## Real-time update of the unified customer profile fields
 
 Updated profiles will show in the customer card view, or any other visualization of Customer Insights data, within a few seconds.
 
-Since for the moment real time operations first take place after the data unification has happened, they only apply to the unified customer profiles. Consequently, real time profile changes will not update measures, segment membership or enrichments.
+Because real-time operations take place after the data unification has happened, they only apply to the unified customer profiles. Consequently, real-time profile changes will not update measures, segment membership, or enrichments.
 
-**Limitations**
--	Customer profiles can be updated, but not created or deleted.
--	Exporting real-time updates to external systems, like **Power BI**, is not possible at the moment.
+### Limitations
 
+- Customer profiles can be updated, but not created or deleted.
+- Exporting real-time updates to external systems, like **Power BI**, is not possible at the moment.
 
 ## Real-time creation of activities
 
@@ -45,32 +46,33 @@ The real-time API lets you publish a new activity from your source system (an in
 > - Currently, segments and measures won't update based on the new activity.
 > - Activities added only through the real-time API are not part of exports and won't show up in PowerBI.
 
-We will now present you two ways to connect to the Customer Insights real-time API:
-- [indirectly] (link to the "Connect via the Dynamics 365 Customer Insights connector" subsection), via a “plug and play” [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/)
-- [directly] (link to the "Connect directly to the real-time API" subsection), with code
+There are two ways to connect to the Customer Insights real-time API:
 
-Both ways share the following **prerequisites**:
+- [indirectly](#connect-via-the-dynamics-365-customer-insights-connector), using the [Dynamics 365 Customer Insights connector](https://docs.microsoft.com/connectors/customerinsights/)
+- [directly](#connect-directly-to-the-real-time-api), with code
+
+Both ways share the following prerequisites:
+
 - A Customer Insights instance
 - Unified customer profiles
 - Activities configured and run
-- Contributor or Administrator level permissions (for authenticating your account)
-
+- Contributor or Administrator permissions to authenticate your account
 
 ## Connect via the Dynamics 365 Customer Insights connector
 
-The real-time API can ingest data from a dedicated Power Platform Connector, the  [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/), without the need to write and deploy any code.
-The connector can do the same real-time actions as the API. Please note that you will need a valid license for premium connectors (details about licensing can be found in the [Power Apps and Power Automate licensing FAQs] (https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)).
-Read more about how to use the  [Dynamics 365 Customer Insights connector] (https://docs.microsoft.com/connectors/customerinsights/) in the following documentation:
--	in Power Platform’s [Power Apps and/or Power Automate] (https://docs.microsoft.com/connectors/)
--	in Azure [Logic Apps] (https://docs.microsoft.com/azure/connectors/apis-list) (some coding required)
+The real-time API can ingest data from a dedicated Power Platform connector, the [Dynamics 365 Customer Insights connector](https://docs.microsoft.com/connectors/customerinsights/), without the need to write and deploy any code.    
+The connector can do the same real-time actions as the API. Note that you need a valid license for premium connectors. For more information, see [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq).
 
-For details about the creation of flows please refer to the [Power Automate documentation] (https://docs.microsoft.com/power-automate/).
+Read more about how to use the [Dynamics 365 Customer Insights connector](https://docs.microsoft.com/connectors/customerinsights/):
 
+- Power Platform [Power Apps and/or Power Automate](https://docs.microsoft.com/connectors/)
+- Azure [Logic Apps](https://docs.microsoft.com/azure/connectors/apis-list)
 
+For details about creating flows, see the [Power Automate documentation](https://docs.microsoft.com/power-automate/).
 
 ## Connect directly to the real-time API
 
-The real-time feature can also be used by building your own pipeline and connecting directly to the Customer Insights real-time API.
-Please note that you can post an activity in the format of your source system or in the UnifiedActivity format (get it by making an an API call to /api/instances/{instanceId}/manage/entities/UnifiedActivity).
+You can use the real-time capabilities by building your own pipeline and connecting directly to the Customer Insights real-time API.    
+Note that you can post an activity in the format of your source system or in the UnifiedActivity format. Get the format by making an an API call to /api/instances/{instanceId}/manage/entities/UnifiedActivity.
 
 Details of this API, including parameters and responses, can be found in the **EntityData** section on the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html). [Learn more about how to use the Customer Insights Swagger webpage](pm-apis.md#how-to-use-the-customer-insights-swagger-webpage).
