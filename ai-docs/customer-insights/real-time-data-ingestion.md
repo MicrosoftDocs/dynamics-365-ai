@@ -34,7 +34,7 @@ Because real-time operations take place after the data unification has happened,
 ### Limitations
 
 - Customer profiles can be updated, but not created or deleted.
-- Exporting real-time updates to external systems, like **Power BI**, is not possible at the moment.
+- Exporting real-time updates to external systems, like Power BI, is not possible at the moment.
 
 ## Real-time creation of activities
 
