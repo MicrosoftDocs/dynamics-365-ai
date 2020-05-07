@@ -69,7 +69,7 @@ As an agent, the **Agent details** page helps you analyze your overall behavior 
 The following image is an example of how the agent page is displayed for agents:
 
 > [!div class="mx-imgBorder"]
-> ![Call insights agent details view for sellers](media/si-app-seller-details-agent.png "Call insights agent details view for agents")
+> ![Call insights agent details view for sellers](media/ci-app-agent-details-agent.png "Call insights agent details view for agents")
 
 The following KPIs and insights in detail are displayed for agents viewing their own data:
 
