@@ -1,7 +1,7 @@
 ---
 title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create and manage environments in Dynamics 365 Customer Insights."
-ms.date: 04/29/2020
+ms.date: 05/07/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 ms.reviewer: adkuppa
@@ -26,7 +26,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 5. After the environment is created, you'll be redirected to [your Customer Insights instance](https://home.ci.ai.dynamics.com).
 
-6. You can use the demo environment to explore the app, or create a new environment. Learn more about specifying the settings to create an environment.
+6. Use the demo environment to explore the app, or create a new environment by following the steps in the next section.
 
 7. After specifying the environment settings, select **Create**.
 
@@ -84,13 +84,13 @@ The following configuration settings are copied:
 
 The following settings are *not* copied:
 
-- Customer profiles
+- Customer profiles.
 - Data source credentials. You'll have to provide the credentials for every data source and refresh the data sources manually.
 - Data sources from Common Data Model folder and Common Data Service managed lake. You'll have to create those data sources manually with the same name as in the source environment.
 
 When you copy an environment, you'll see a confirmation message that the new environment has been created. Select **Go to data sources** to see the list of data sources.
 
-All the data sources will show a **Credentials required** status. Edit the data sources and enter the credentials to refresh them.
+All the data sources will show a **Credentials Required** status. Edit the data sources and enter the credentials to refresh them.
 
 > [!div class="mx-imgBorder"]
 > ![Data sources copied](media/data-sources-copied.png)
