@@ -1,12 +1,12 @@
 ---
 title: "Predictions in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use predictions to fill in incomplete customer data in Dynamics 365 Customer Insights."
-ms.date: 04/17/2020
+ms.date: 05/05/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
 ms.author: mhart
-ms.reviewer: nimagen
+ms.reviewer: zacook
 manager: shellyha
 ---
 
@@ -23,7 +23,7 @@ Predictions lets you easily create predicted values that can enhance your unders
 
 Before your organization can use the predictions feature, the following prerequisites must be met:
 
-1. Your organization has an instance set up in the Common Data Service. The credentials (user name and password) that you use in Common Data Service and in Dynamics 365 Customer Insights should match.
+1. Your organization has an instance [set up in the Common Data Service](https://docs.microsoft.com/ai-builder/build-model#prerequisites). The credentials (user name and password) that you use in Common Data Service and in Dynamics 365 Customer Insights should match.
 
 2. Your Customer Insights environment is attached to your Common Data Service instance.
 
@@ -128,3 +128,27 @@ The next run of your prediction will use the updated model you've created.
 3. Select the ellipsis in the **Actions** column and choose **Delete**.
 
 4. Confirm the deletion.
+
+## Troubleshooting
+
+If you can't complete the attach Common Data Service process due to an error, you can try to complete the process manually. There are two known issues that can occur in the attach process:
+
+- The Customer Insights Customer Card Add-in solution is not installed.
+    1. Complete the instructions to [install and configure the solution](pm-customer-card-addin.md).
+
+- Customer Insights Application Permissions aren't granted.
+    1. Go to [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com).
+    1. Select **Environments**.
+    1. Select the ellipsis next to the environment you want to add the permission to and select **Settings**.
+    1. Expand **Users + permissions** and select **Users**.
+    1. Select **+ New** and select **User**.
+    1. Select **Application User** if it's not already selected and enter the following information:
+        - **User Name:** cihelp@microsoft.com
+        - **Application ID:** 38c77d00-5fcb-4cce-9d93-af4738258e3c
+        - **First Name:** Customer
+        - **Last Name:** Insights
+        - **Primary Email:** cihelp@microsoft.com
+    1. Select **Save & Close**.
+    1. Select the Customer Insights user you just created.
+    1. Select **Manage Roles** in the top menu bar.
+    1. Select **System Administrator**, then select **OK**.
