@@ -1,7 +1,7 @@
 ---
 title: "Use call insights to improve agent performance | MicrosoftDocs"
 description: "Analyze customer calls to improve agent performance and customer satisfaction"
-ms.date: 04/20/2020
+ms.date: 05/07/2020
 ms.service: 
  - dynamics-365-ai
 ms.custom: 
@@ -37,8 +37,12 @@ As a supervisor, the **Agent details** page helps you analyze the overall behavi
 
 - Drill down into specific agent’s calls to follow up on action items, signals, such as keywords, and identify possible coaching activities.
 
+The following image is an example of how the agent page is displayed for supervisors:
 
-The following the KPIs and insights are displayed for supervisors who view an agent page:
+> [!div class="mx-imgBorder"]
+> ![Call insights agent details view for supervisors](media/ci-app-agent-details-supervisor.png "Call insights agent details view for supervisors")
+
+The following KPIs and insights are displayed for supervisors who view an agent page:
 
 |KPI/Insights|Description|
 |------------|-----------|
@@ -46,7 +50,7 @@ The following the KPIs and insights are displayed for supervisors who view an ag
 |**Basic information**|Select an agent from the drop-down list to view that agent's information such as insights, statistics, and call history. With this information, you can assess an agent's behavior and identify areas where the agent requires coaching.<br>You can comment directly on call transcripts to provide coaching inputs or gather information as required. You can also send them an email or chat directly. Select the email icon to send an email and select the chat icon to chat with the agent.<br>These insights also show the agent’s conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
 |**Insights**|Displays what’s happening with the agent and the latest trends specific to each agent, such as customer sentiment and talk-to-listen ratio.|
 |**Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that the agent handled.<br>•	**Average talk to listen ratio:** Displays the average talk-to-listen ratio of the agent during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe for the agent.|
-|**Call history**|Displays a list of the agent’s calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md).|
+|**Call history**|Displays a list of the agent’s calls. Open a specific call to listen to the call, see the transcript, and view the call signals (for example, keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md).|
 
 ## Agent details page for agent
 
@@ -62,6 +66,11 @@ As an agent, the **Agent details** page helps you analyze your overall behavior 
 
 -	Drill down into specific calls to follow up on action items, view signals (e.g, keywords), read the transcript, and more.
 
+The following image is an example of how the agent page is displayed for agents:
+
+> [!div class="mx-imgBorder"]
+> ![Call insights agent details view for sellers](media/si-app-seller-details-agent.png "Call insights agent details view for agents")
+
 The following KPIs and insights in detail are displayed for agents viewing their own data:
 
 |KPI/Insights|Description|
@@ -70,7 +79,7 @@ The following KPIs and insights in detail are displayed for agents viewing their
 |**Basic information**|Displays your conversational style, with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue.|
 |**Insights**|Displays the latest trends specific to you, such as customer sentiment and talk-to-listen ration.|
 |**Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays your average talk-to-listen ratio during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe.|
-|**Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md).|
+|**Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (for example, keywords mentioned during the call). To learn more, see [View and understand call summary](ci-view-understand-call-summary.md).|
 
 ### See also
 
