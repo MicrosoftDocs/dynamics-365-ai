@@ -1,7 +1,7 @@
 ---
-title: "Admin | Microsoft Docs"
-description: "Overview about the administrator scenarios in Dynamics 365 Customer Insights."
-ms.date: 12/02/2019
+title: "Admin settings in Dynamics 365 Customer Insights | Microsoft Docs"
+description: "Administrator settings and capabilities in Dynamics 365 Customer Insights."
+ms.date: 04/17/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -9,7 +9,7 @@ author: m-hartmann
 ms.author: mhart
 manager: shellyha
 ---
-# Admin
+# Admin settings
 
 The Dynamics 365 Customer Insights administration pages include the **Permissions**, **System**, and **Export destinations** pages. You can access them from the left-side navigation.
 

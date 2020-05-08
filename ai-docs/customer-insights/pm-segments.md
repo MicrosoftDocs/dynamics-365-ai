@@ -90,6 +90,9 @@ Select a segment to perform the following options:
 
 You can refresh all segments at once by selecting **Refresh all** on the **Segments** page. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
 
+> [!TIP]
+> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+
 ## Download and export segments
 
 You can download your segments to a CSV file or export them to Dynamics 365 Sales.
@@ -98,7 +101,7 @@ You can download your segments to a CSV file or export them to Dynamics 365 Sale
 
 1. Go to the **Segments** page.
 
-2. Select the ellipses in a specific segment's tile.
+2. Select the ellipsis in a specific segment's tile.
 
 3. Select **Download as CSV** from the actions drop-down list.
 
@@ -108,7 +111,7 @@ Before exporting segments to Dynamics 365 Sales, an admin needs to [create the e
 
 1. Go to the **Segments** page.
 
-2. Select the ellipses in a specific segment's tile.
+2. Select the ellipsis in a specific segment's tile.
 
 3. Select **Add to** from the actions drop-down list and select the export destination you want to send the data to.
 

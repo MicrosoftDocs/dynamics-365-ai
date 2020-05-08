@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights"
 keywords: " "
-ms.date: 10/01/2019
+ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -20,9 +20,9 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Frequently asked questions for Sales Insights
+# Frequently asked questions
 
-## Language and region support
+## General
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:<br>
@@ -47,6 +47,10 @@ Sales insights is available in the following regions:<br>
 -    North American (NAM)
 -    Oceania (OCE)
 
+**How do I extend the trial period of Sales Insights?**
+
+If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.com/microsoft-365/commerce/extend-your-trial?view=o365-worldwide).
+
 ## Assistant
 
 **How do I disable teasers?**
@@ -62,6 +66,103 @@ To disable, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
+**Why am I getting insufficient permissions alert while using an Insight card?**
+
+If you see an alert about having insufficient permissions to use an Insight card, take these steps:
+
+1. Go to **Settings** > **Security** > **Security Roles**.
+
+2. Choose the user role viewing the insight cards.
+
+3. Select the **Core Records** tab.
+
+4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.
+
+   ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
+
+## Sales accelerator 
+
+**How do I add the Up next widget to an entity form?**
+
+>[!NOTE]
+>You can add the **Up next** widget only to managed forms.
+
+To add the **Up next** widget to an entity form, follow these steps:
+
+1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.
+
+2.	Add a **Form** to the solution. 
+
+3.	Save the changes and publish the customizations.
+
+4.	Export the created **AddWidget** solution as **UnManaged**.
+
+5.	Delete the Solution **AddWidget** from the organization.
+
+6.	Extract the zip file of the downloaded solution.
+
+7.	Change the ```<Managed>``` value to 1 in the file ```Solution.xml``` and then save. 
+
+    ```<Managed>1</Managed>```
+
+8.	Open the ```customizations.xml``` file and remove the parameter ```<systemform unmodified="1">```.
+
+9.	Choose the ```<column>``` under **Summary** tab, where you want to add the widget.
+
+10.	Add the ```<section>``` tag as following: 
+
+    ```
+    <section name="CadenceWidget" showlabel="false" showbar="false" id="{<NEW_GUID_G1>}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{<NEW_GUID_G2> }">
+      <labels>
+          <label description="Cadence Widget" languagecode="1033" />
+      </labels>
+      <rows>
+          <row>
+              <cell id="{<NEW_GUID_G3>}" showlabel="false" colspan="1" rowspan="6" labelid="{<NEW_GUID_G4> }">
+                  <labels>
+                      <label description="Cadence widget" languagecode="1033" />
+                  </labels>
+                  <control id="CadenceWidgetControl" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"  uniqueid="{<NEW_GUID_G5>}" isunbound="true">
+                      <parameters />
+                  </control>
+              </cell>
+          </row>
+          <row />
+          <row />
+          <row />
+          <row />
+          <row />
+      </rows>
+    </section>
+    ```
+11.	Replace all the ```<NEW_GUID_G*>``` occurrences by generating a new GUID for each place.
+
+12.	For ```<controlDescriptions>``` node, add a child node as following:
+
+    ```
+    <controlDescription forControl="{<GUID_G5>}">
+    <customControl formFactor="2" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
+        <parameters />
+    </customControl>
+    <customControl formFactor="0" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
+        <parameters />
+    </customControl>
+    <customControl formFactor="1" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
+        <parameters />
+    </customControl>
+    </controlDescription>
+    ```
+13.	Replace the ```<GUID_G5>``` in ```customizations.xml``` with the **GUID_G5** generated from **step 11**.
+
+14.	Save the changes and zip the folder.
+
+15.	Open Dynamics 365 and go to **Settings** > **Solutions**.
+
+16.	Import the zipped solution. 
+
+17.	Publish all customizations.
+
+18.	Verify that the **Up next** Widget successfully shows up on the form.
 
 ## Relationship analytics
 
@@ -151,7 +252,7 @@ Everyone in the tenant (in the United States until geo availability expands) wil
 **​How are the connections weighted?**<br>
 Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact/lead. Consequently, this means a salesperson might not see the same results as another salesperson because they know different people in the organization.
 
-## Sales Insights application
+## Conversation Intelligence
 
 **How long does it take for data updates to reflect in the app?**<br>
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.

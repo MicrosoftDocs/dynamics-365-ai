@@ -1,6 +1,6 @@
 ---
 title: "Assistant for Dynamics 365 Sales Insights | MicrosoftDocs"
-ms.date: 10/31/2018
+ms.date: 04/08/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

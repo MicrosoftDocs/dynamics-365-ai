@@ -1,7 +1,7 @@
 ---
 title: "Work with conversation intelligence to understand team overview feature for Conversation Intelligence | MicrosoftDocs"
 description: "Analyze overall team performance  to improve sales and generate revenue"
-ms.date: 08/01/2019
+ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

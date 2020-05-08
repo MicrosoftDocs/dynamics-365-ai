@@ -1,7 +1,7 @@
 ---
-title: "Custom Models | Microsoft Docs"
+title: "Custom machine learning models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 04/22/2020
+ms.date: 05/08/2020
 ms.reviewer: wameng
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Custom Models
+# Custom machine learning models
 
 The **Custom Models** page lists workflows based on Azure Machine Learning models. Workflows help you choose the data you want to generate from insights and map the results to your Customer Insights data. [Read the blog about extending Customer Insights with custom models based on Azure Machine Learning](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/) and the [blog with examples of custom models](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/05/examples-of-extending-dynamics-365-customer-insights-with-azure-ml/).
 
@@ -48,7 +48,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 ## Edit a workflow
 
-1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created and select **Edit**.
+1. On the **Custom Models** page, select the vertical ellipsis in the **Actions** column next to a workflow you've previously created and select **Edit**.
 
 2. You can update your workflow's recognizable name in the **Display name** field, but you can't change the web service. Select **Next**.
 
@@ -58,7 +58,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 ## Run a workflow
 
-1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
+1. On the **Custom Models** page, select the vertical ellipsis in the **Actions** column next to a workflow you've previously created.
 
 2. Select **Run**.
 
@@ -66,7 +66,7 @@ Your workflow also runs automatically with every scheduled refresh. Learn more a
 
 ## Delete a workflow
 
-1. On the **Custom Models** page, select the vertical ellipses in the **Actions** column next to a workflow you've previously created.
+1. On the **Custom Models** page, select the vertical ellipsis in the **Actions** column next to a workflow you've previously created.
 
 2. Select **Delete** and confirm your deletion.
 

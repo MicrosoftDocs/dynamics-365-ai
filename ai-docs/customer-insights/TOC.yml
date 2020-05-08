@@ -19,10 +19,12 @@
       href: pm-data-sources.md
     - name: Available data sources
       href: data-sources-list.md
-    - name: Learn about common connectors
-      href: pm-common-connectors.md
     - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model-folder.md
+    - name: Add Common Data Service managed data lake
+      href: connect-common-data-service-lake.md
+    - name: Learn about common connectors
+      href: pm-common-connectors.md
     - name: Incremental refresh for data sources
       href: incremental-refresh-data-sources.md
     - name: Real-time data ingestion
@@ -67,19 +69,27 @@
 
 - name: Export options
   items: 
-    - name: Set up export destinations
+    - name: Discover export destinations
       href: export-destinations.md
-    - name: Install the Customer Card Add-in 
+    - name: Azure Blob Storage
+      href: export-azure-blob-storage.md
+    - name: Dynamics 365 Customer Service (Add-in)
       href: pm-customer-card-addin.md
-    - name: Work with the Customer Insights Teams bot 
+    - name: Dynamics 365 Marketing
+      href: export-dynamics365-marketing.md
+    - name: Dynamics 365 Sales
+      href: export-dynamics365-sales.md
+    - name: Dynamics 365 Sales Hub (Add-in)
+      href: pm-customer-card-addin.md
+    - name: Microsoft Teams (bot) 
       href: export-teams-bot.md
-    - name: Configure the Power BI connector
+    - name: Power BI
       href: pm-connectors.md
-    - name: Configure the Power Apps connector
+    - name: Power Apps
       href: pm-powerapps-connector.md
-    - name: Configure the Power Automate connector
+    - name: Power Automate
       href: power-automate-connector.md
-    - name: Configure the LiveRamp connector
+    - name: LiveRamp
       href: export-liveramp.md
 
 - name: Administration
@@ -92,6 +102,8 @@
       href: pm-permissions.md
     - name: Manage multiple environments
       href: create-manage-environment.md
+    - name: Supported languages
+      href: supported-languages.md
 
 - name: Extensibility
   items:

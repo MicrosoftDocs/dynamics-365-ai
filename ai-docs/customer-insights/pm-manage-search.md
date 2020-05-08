@@ -1,7 +1,7 @@
 ---
-title: "Search & filter index | Microsoft Docs"
+title: "Search and filter customer profiles | Microsoft Docs"
 description: "Quickly find information about unified customer profiles and filter for specified attributes."
-ms.date: 03/25/2020
+ms.date: 04/16/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Search & filter index
+# Customer profiles: Search & filter index
 
 The result of unifying your customer data is a Customer Profile entity that provides a unified view into your total customer base. To quickly [find information on a specific customer or group of customers](pm-profiles.md), you can configure the **Search** and **Filter** capabilities on the **Customers** page. Read on to learn how admins can edit the attributes on the **Search & filter index** page, which are available to users for searching and filtering.
 

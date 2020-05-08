@@ -78,13 +78,9 @@ The Sales Insights Assistant is available in two forms:
 Sellers can also set their own personal preferences for their insight cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. To learn more, see [Use assistant to guide customer communications](assistant.md).
 
 > [!NOTE]
-> When custom insight cards are created in your organization, an option to enable these cards is displayed under the **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Assistant](extend-relationship-assistant-card.md) 
+> When custom insight cards are created in your organization, an option to enable these cards is displayed under the **Custom Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Assistant](extend-relationship-assistant-card.md) 
 
 ## Configure and manage insight cards for Assistant (full capabilities)
-
-> [!NOTE]
->- If you are using the preview assistant, you will see the tabs **Home** and **Optimize ranking** already available and you don't need to do any additional configuration to enable the feature. However, a banner is displayed at the top of the page to upgrade to the latest Sales Insights. Select **Update now** to update the solution to the latest version.<br> ![Update solution](media/si-admin-update-solution-latest.png "Update solution") 
->- If you’re still using the preview version of the assistant studio, you’ll have access until November 30, 2019. From December 1, you’ll need to install Sales Insights and purchase licenses for your team to continue using advanced Assistant capabilities, such as creating and editing insight cards and optimizing card ranking.
 
 The Assistant (formerly known as Relationship assistant) displays actionable insight cards (formerly called action cards) for users in Dynamics 365 Sales. The Assistant is evolving and we're introducing new capabilities such as customized insight cards to your team.
 

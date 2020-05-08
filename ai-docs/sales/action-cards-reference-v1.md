@@ -282,11 +282,6 @@ If you see an alert about having insufficient permissions to use an Insight card
 
 ![Insight card security role privilege](media/action-card-permissions600.png)
  
-<a name="BKMK_Privacy"></a>   
-
-## Privacy notice  
-[!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
-
 ### See also
 
 [Use assistant to guide customer communications](assistant-v1.md)

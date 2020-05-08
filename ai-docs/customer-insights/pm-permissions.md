@@ -1,7 +1,7 @@
 ---
-title: "Permissions | Microsoft Docs"
+title: "User permissions in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 03/18/2020
+ms.date: 04/17/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Permissions
+# User permissions
 
 The **Permissions** page is where you'll set up roles and permissions for using Dynamics 365 Customer Insights across your organization. Customer Insights includes three types of roles.
 
