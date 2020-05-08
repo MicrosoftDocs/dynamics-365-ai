@@ -12,7 +12,7 @@ manager: shellyha
 
 # Custom machine learning models
 
-The **Custom Models** page lists workflows based on Azure Machine Learning models. Workflows help you choose the data you want to generate from insights and map the results to your Customer Insights data. [Read the blog about extending Customer Insights with custom models based on Azure Machine Learning](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/) and the [blog with examples of custom models](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/05/examples-of-extending-dynamics-365-customer-insights-with-azure-ml/).
+**Intelligence** > **Custom Models** lets you manage workflows based on Azure Machine Learning models. Workflows help you choose the data you want to generate from insights and map the results to your Customer Insights data. [Read the blog about extending Customer Insights with custom models](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/04/extending-dynamics-365-customer-insights-with-azure-ml-based-custom-models/) and the [blog with examples of custom models](https://cloudblogs.microsoft.com/dynamics365/it/2019/10/05/examples-of-extending-dynamics-365-customer-insights-with-azure-ml/).
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 1. If your Azure Machine Learning subscription is in a different tenant than Customer Insights, select **Sign in** with your credentials for the selected organization.
 
-1. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown and select **Next**.
+1. Choose the [web service you've published using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) in the **Web service that contains your model** dropdown. Then, select **Next**.
 
 1. For each **Web service input**, select the matching **Entity** from Customer Insights and select **Next**.
 
@@ -42,7 +42,7 @@ The **Custom Models** page lists workflows based on Azure Machine Learning model
 
 1. Select the matching attribute from the **Customer ID in results** drop-down list that identifies customers in Customer Insights and select **Save**.
 
-1. You'll see the **Workflow Saved** screen with details about the workflow you just created.
+1. You'll see the **Workflow Saved** screen with details about the workflow.
 
 1. Select **Done**.
 
