@@ -11,6 +11,14 @@ manager: shujoshi
 
 Assigns a lead and opportunity entity record to a sequence.
 
+## Parameters
+
+|Name |Description |
+|-----|-----|
+|`RegardingEntityId`|Unique identifier of the entity record that is to be assigned to the sequence.|
+|`RegardingEntityName`|Logical name of the entity|
+|`CadenceId`|Unique identifier of the sequence|
+
 ## Example
 
 ```json
