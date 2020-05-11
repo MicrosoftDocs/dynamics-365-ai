@@ -109,6 +109,10 @@
 #### [View and understand call summary](../sales/view-and-understand-call-summary.md)
 #### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
 
+## Developer Guide
+### Action Reference
+#### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
+
 ## [FAQs](faqs-sales-insights.md)
 
 ## [Privacy notice](privacy-notice.md) 
