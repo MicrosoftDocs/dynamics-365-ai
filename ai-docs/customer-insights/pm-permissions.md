@@ -1,7 +1,7 @@
 ---
 title: "User permissions in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 05/07/2020
+ms.date: 05/11/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -65,6 +65,8 @@ Use the **Permissions** page to see what role assignments are currently active.
 
 ## View and filter permissions by role
 
-On **Permissions** page, select **Filter** to open the **Filter** pane. Here you can filter the results on the page by role.
+On the **Permissions** page:
 
-On the **Permissions** page, select **Roles** to open the **Roles** pane. Here you can see at a glance how many users are assigned to each role.
+- Select **Filter** to open the **Filter** pane. Here you can filter the results on the page by role.
+
+- Select **Roles** to open the **Roles** pane. Here you can see at a glance how many users are assigned to each role.
