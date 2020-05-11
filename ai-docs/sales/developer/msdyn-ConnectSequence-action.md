@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ConnectSequence Action | MicrosoftDocs"
 description: ""
-ms.date: 05/08/2020
+ms.date: 05/11/2020
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -15,9 +15,9 @@ Assigns a lead and opportunity entity record to a sequence.
 
 |Name |Description |
 |-----|-----|
-|`RegardingEntityId`|Unique identifier of the entity record that is to be assigned to the sequence.|
+|`RegardingEntityId`|Unique identifier of the entity record that is to be connected to the sequence.|
 |`RegardingEntityName`|Logical name of the entity|
-|`CadenceId`|Unique identifier of the sequence|
+|`SequenceId`|Unique identifier of the sequence|
 
 ## Example
 
@@ -27,7 +27,7 @@ POST [Organization URI]/api/data/v9.1/msdyn_ConnectSequence
 {
     "RegardingEntityId":"03468c60-6d5b-ea11-a811-000d3a54419d",
     "RegardingEntityName":"lead",
-    "CadenceId":"BCEC0282-7A58-EA11-A811-000D3A54419D"
+    "SequenceId":"BCEC0282-7A58-EA11-A811-000D3A54419D"
 }
 ```
 
