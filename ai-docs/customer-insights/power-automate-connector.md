@@ -1,7 +1,7 @@
 ---
 title: "Power Automate connector | Microsoft Docs"
 description: "Create flows in Microsoft Power Automate from Dynamics 365 Customer Insights."
-ms.date: 04/21/2020
+ms.date: 05/12/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -14,7 +14,19 @@ manager: shellyha
 
 Trigger specific events to occur automatically when your data changes and manage more complex flows directly in [Power Automate](https://flow.microsoft.com/).
 
-For more information, see the [Dynamics 365 Customer Insights connector reference](https://docs.microsoft.com/connectors/customerinsights/) and [Power Automate documentation](https://docs.microsoft.com/power-automate/).
+## Power Automate triggers
+
+You can use a variety of triggers that allow you to setup flows to automate daily work tasks, such as notifications or more advanced actions. 
+
+- Trigger when a data source refresh fails 
+- Trigger when a data source refresh succeeds
+- Trigger when a threshold is crossed on a segment. Note: the trigger is limited to the threshold being surpassed
+- Trigger when a threshold is crossed on a business measure. Note: the trigger is limited to the threshold being surpassed
+
+[Configure your triggers in Power Automate](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
+
+## Power Automate actions
+Our Power Automate connector does provide different actions that can be used next to the available triggers. For more information, see the [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/).
 
 ## Create a Power Automate flow in Customer Insights
 
