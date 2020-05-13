@@ -28,7 +28,7 @@ To configure Leadspace, the following prerequisites must be met:
 
 1. Select **Set up** on the Leadspace tile.
 
-1. Select **Add token** and enter an active **Leadspace token** (perpetual key) and select the checkbox to agree to the privacy policy.
+1. Select **Add token** and enter an active **Leadspace token** (perpetual key). Review and provide your consent for **Data privacy and compliance** by selecting the **I agree** checkbox. Confirm both inputs by selecting **Apply**.
 
    > [!div class="mx-imgBorder"]
    > ![Leadspace configuration page](media/enrichment-leadspace-configuration.png "Leadspace configuration page")
