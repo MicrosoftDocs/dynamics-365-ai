@@ -16,17 +16,17 @@ Trigger specific events to occur automatically when your data changes and manage
 
 ## Power Automate triggers
 
-You can use a variety of triggers that allow you to setup flows to automate daily work tasks, such as notifications or more advanced actions. 
+You can use a variety of triggers that allow you to create flows to automate repetitive tasks, such as notifications or more advanced actions. 
 
-- Trigger when a data source refresh fails 
-- Trigger when a data source refresh succeeds
-- Trigger when a threshold is crossed on a segment. Note: the trigger is limited to the threshold being surpassed
-- Trigger when a threshold is crossed on a business measure. Note: the trigger is limited to the threshold being surpassed
+- Trigger when a data source refresh fails. 
+- Trigger when a data source refresh succeeds.
+- Trigger when a threshold is crossed on a segment. The trigger is limited to crossing above the threshold.
+- Trigger when a threshold is crossed on a business measure. The trigger is limited crossing above the threshold.
 
 [Configure your triggers in Power Automate](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
 
 ## Power Automate actions
-Our Power Automate connector does provide different actions that can be used next to the available triggers. For more information, see the [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/).
+The Power Automate connector provides other actions than the available triggers. For more information, see the [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/).
 
 ## Create a Power Automate flow in Customer Insights
 
