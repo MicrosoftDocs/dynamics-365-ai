@@ -1,7 +1,7 @@
 ---
 title: "Data Subject Rights (DSR) requests under GDPR | Microsoft Docs"
 description: "Respond to Data Subject Requests for Dynamics 365 Customer Insights."
-ms.date: 02/03/2020
+ms.date: 05/14/2020
 ms.reviewer: wimohabb
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -25,12 +25,12 @@ Dynamics 365 Customer Insights offers the following in-product experiences to de
 
 #### Manage delete requests for customer data
 
-A Customer Insights admin can follow these steps to delete customer data:
+A Customer Insights admin can follow these steps to remove customer data that was deleted in the data source:
 
 1. Sign in to Dynamics 365 Customer Insights.
 2. Navigate to the **Data sources** page.
-3. For each data source in the list that contains customer data:
-   1. Select (...) under **Action**, and then select **Refresh**.
+3. For each data source in the list that contains deleted customer data:
+   1. Select (...) and then select **Refresh**.
    2. Check the status of the data source under **Status**. A check mark means the refresh was successful. A warning triangle means something went wrong. If a warning triangle is displayed, contact D365CI@microsoft.com.
 
 > [!div class="mx-imgBorder"]
@@ -43,7 +43,7 @@ A Customer Insights admin can follow these steps to delete Customer Insights use
 1. Sign in to Dynamics 365 Customer Insights.
 2. Navigate to the **Permissions** page.
 3. Select the check box for the user you want to delete.
-4. Select **Remove** in the upper-left corner of the grid.
+4. Select **Remove**.
 
 > [!div class="mx-imgBorder"]
 > ![Handling GDPR delete requests for Customer Insights user data](media/gdpr-permissions.png "Handling GDPR delete requests for Customer Insights user data")
