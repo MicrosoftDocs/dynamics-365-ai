@@ -1,7 +1,7 @@
 ---
 title: "Expand existing segments with AI | Microsoft Docs"
 description: "Find similar customer segments with artificial intelligence."
-ms.date: 04/21/2020
+ms.date: 05/15/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -38,13 +38,16 @@ manager: shellyha
 
 1. Exclude customers in your source segment by selecting the **Exclude everyone in source segment** checkbox.
 
-1. By default, the system suggests including only 20% of the customers that were found to be similar with all similarity degrees. Edit this threshold as needed. Increasing this threshold will reduce the precision.
+1. By default, the system suggests including only 20% of the target audience size in your output. Edit this threshold as needed. Increasing the threshold will reduce the precision.
 
 1. Select **Run** at the bottom of the page to start a binary classification task (a method of machine learning) which analyzes the dataset.
 
 ## View an expanded segment output
 
 After processing the expanded segment, you'll find the new segment listed on the **Segments** page.
+
+> [!div class="mx-imgBorder"]
+> ![Expanded segment](media/expanded-segment.png "Expanded segment")
 
 Select **View** in the action bar to open the segment detail. This view contains information about the result distribution across [similarity scores](#about-similarity-scores). You'll also find the similarity score values in the **Segment members preview**.
 
@@ -72,4 +75,4 @@ The binary classification machine learning model assigns a score to customers in
 - Similarity scores between 0.6 – 0.8 are classified as *similar*
 - Similarity scores between 0.8 – 1 are customers the system classified as *very similar*
 
-Customers with similarity scores below 0.55 aren't included in the model output. The system doesn't consider them similar enough to the source segment.
+Customers with similarity scores below 0.4 aren't included in the model output. The system doesn't consider them similar enough to the source segment.
