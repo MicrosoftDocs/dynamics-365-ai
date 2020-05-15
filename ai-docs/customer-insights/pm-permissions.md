@@ -60,13 +60,5 @@ Use the **Permissions** page to see what role assignments are currently active.
 
 - The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports individual users and groups.
 - Roles are specified under the **Role** column.
-- Use the search field at the top of the page to locate specific users.
-- You can select any column title to sort the results by that column's value.
-
-## View and filter permissions by role
-
-On the **Permissions** page:
-
-- Select **Filter** to open the **Filter** pane. Here you can filter the results on the page by role.
-
-- Select **Roles** to open the **Roles** pane. Here you can see at a glance how many users are assigned to each role.
+- Select any column title to sort the results by that column's value.
+- Use the **Search** field at the top of the page to locate specific users.
