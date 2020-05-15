@@ -63,7 +63,7 @@ If you don't want to create a new environment from scratch, select **Copy from e
    > Currently, ingested entities are always stored in the Customer Insights managed data lake.
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
-   - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The container name is always set to **customerinsights** and can't be changed.
+   - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
      > [!div class="mx-imgBorder"]
      > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
 
@@ -109,9 +109,9 @@ You can edit some of the details of existing environments.
 
 3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Edit**.
 
-4. You can update the **Display name** but you can't change **Region** and **Type** of the environment.
+4. You can update the environment's **Display name**, but you can't change the **Region** or **Type**.
 
-5. If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change **Account name** and **Container** name.
+5. If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change the **Account name** or **Container** name.
 
 ## Delete an existing environment
 
@@ -119,6 +119,6 @@ You can edit some of the details of existing environments.
 
 2. Select **Environments**.
 
-3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Delete**.
+3. In the Environments panel, select the ellipsis next to the target environment and select **Delete**.
 
 4. To confirm the deletion, enter the environment name and select **Delete**.
