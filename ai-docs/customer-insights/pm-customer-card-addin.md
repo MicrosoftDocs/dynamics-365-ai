@@ -17,7 +17,7 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 ## Prerequisites
 
 - Model-driven Dynamics 365 app (such as Sales Hub or Customer Service Hub), version 9.0 and later with Unified Interface enabled.
-- Customer profiles [from the Dynamics 365 model-driven app ingested using Common Data Service](pm-common-connectors.md#dynamics-365-apps-using-common-data-service) to Customer Insights.
+- Customer profiles [from the Dynamics 365 model-driven app ingested to Customer Insights using Common Data Service](pm-common-connectors.md#dynamics-365-apps-using-common-data-service).
 - Users of the Customer Card Add-in need to be [added as users](pm-permissions.md) in Customer Insights.
 - [Configured search and filter capabilities](pm-manage-search.md) in Customer Insights.
 - Demographic control: Demographic fields, such as age or genders are available in the unified customer profile.
