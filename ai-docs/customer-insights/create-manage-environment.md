@@ -1,7 +1,7 @@
 ---
 title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create and manage environments in Dynamics 365 Customer Insights."
-ms.date: 05/07/2020
+ms.date: 05/18/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 ms.reviewer: adkuppa
@@ -42,20 +42,20 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 ### New environment settings
 
-There are two ways to create a new environment. You can either create an entirely new environment or you can copy some configuration settings from an existing environment.
+There are two ways to create a new environment. You can either specify an entirely new configuration, or you can copy some configuration settings from an existing environment.
 
-If you don't want to create a new environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments from your organization where you can copy data from.
+If you don't want to create a new environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments in your organization where you can copy data from.
 
 ### Specify environment settings
 
 1. In the **Create new environment** dialog, provide the following details:
-   - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you copy from an existing environment but you can change it.
-   - **Region**: The region into which the service is deployed and hosted
-   - **Type**: Select if you want to create a Production environment or a Sandbox environment
+   - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you've copied an existing environment, but you can change it.
+   - **Region**: The region into which the service is deployed and hosted.
+   - **Type**: Select whether you want to create a Production or Sandbox environment.
 
 2. Optionally, you can select **Advanced** to configure additional settings:
 
-   - **Storage**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (an Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake Storage). By default, the Customer Insights storage option is selected.
+   - **Save all data to**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (an Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake Storage). By default, the Customer Insights storage option is selected.
 
    > [!NOTE]
    > By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
@@ -63,7 +63,7 @@ If you don't want to create a new environment from scratch, select **Copy from e
    > Currently, ingested entities are always stored in the Customer Insights managed data lake.
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
-   - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
+   - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
      > [!div class="mx-imgBorder"]
      > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
 
@@ -95,7 +95,7 @@ All the data sources will show a **Credentials Required** status. Edit the data 
 > [!div class="mx-imgBorder"]
 > ![Data sources copied](media/data-sources-copied.png)
 
-After refreshing the data sources, go to **Data** > **Unify** where you find settings from the source environment. Edit them as needed or select **Run** to start the data unification process and create the unified customer entity.
+After refreshing the data sources, go to **Data** > **Unify**. Here you'll find settings from the source environment. Edit them as needed or select **Run** to start the data unification process and create the unified customer entity.
 
 When the data unification is complete, go to **Measures** and **Segments** to refresh them too.
 
