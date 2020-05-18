@@ -107,7 +107,7 @@
 
 - name: Extensibility
   items:
-    - name: Review the entities schema in Common Data Model
+    - name: Review the entity schemas in Common Data Model
       href: entity-schemas.md
     - name: Work with APIs
       href: pm-apis.md
