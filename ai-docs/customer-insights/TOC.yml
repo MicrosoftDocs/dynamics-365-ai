@@ -58,8 +58,8 @@
   items: 
   - name: Create segments and customer groups
     href: pm-segments.md
-  - name: Use AI on segments
-    href: segments-ai.md
+  - name: Expand existing segments
+    href: segment-expansion.md
   - name: Define measures and KPIs
     href: pm-measures.md
   - name: Complete data using value predictions

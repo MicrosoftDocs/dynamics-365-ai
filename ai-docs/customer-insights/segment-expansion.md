@@ -1,7 +1,7 @@
 ---
 title: "Expand existing segments with AI | Microsoft Docs"
 description: "Find similar customer segments with artificial intelligence."
-ms.date: 05/15/2020
+ms.date: 05/18/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -70,9 +70,9 @@ Select the segment on the **Segments** page and select **Delete** in the action 
 
 The binary classification machine learning model assigns a score to customers in the expanded segment. The score is based on the similarity to customers in the source segment.
 
-- Similarity scores below 0.4 are customers the system classified as *not similar* to customers in the source segment
-- Similarity scores between 0.4 – 0.6 are classified as *somewhat similar*
-- Similarity scores between 0.6 – 0.8 are classified as *similar*
-- Similarity scores between 0.8 – 1 are customers the system classified as *very similar*
+- Similarity scores below 0.55 are customers the system classified as *not similar* to customers in the source segment
+- Similarity scores between 0.55 – 0.7 are classified as *somewhat similar*
+- Similarity scores between 0.7 – 0.85 are classified as *similar*
+- Similarity scores between 0.85 – 1 are customers the system classified as *very similar*
 
 Customers with similarity scores below 0.4 aren't included in the model output. The system doesn't consider them similar enough to the source segment.
