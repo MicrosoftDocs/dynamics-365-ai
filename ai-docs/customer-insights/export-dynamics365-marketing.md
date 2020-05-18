@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to Dynamics 365 Marketing | Microsoft Docs"
 description: "Learn how to configure the connection to Dynamics 365 Marketing."
-ms.date: 04/22/2020
+ms.date: 05/18/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
