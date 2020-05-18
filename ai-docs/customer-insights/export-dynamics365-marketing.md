@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to Dynamics 365 Marketing | Microsoft Docs"
 description: "Learn how to configure the connection to Dynamics 365 Marketing."
-ms.date: 04/22/2020
+ms.date: 05/18/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,7 +12,11 @@ manager: shellyha
 
 # Connector for Dynamics 365 Marketing (preview)
 
-Use the [segments created in Customer Insights](pm-segments.md) to generate campaigns and contact specific groups of customers with Dynamics 365 Marketing.
+Use the [segments created in Customer Insights](pm-segments.md) to generate campaigns and contact specific groups of customers with Dynamics 365 Marketing. For more information, see [Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/customer-insights-segments)
+
+## Prerequisite
+
+Contact records [from Dynamics 365 Marketing ingested to Customer Insights using Common Data Service](pm-common-connectors.md#dynamics-365-apps-using-common-data-service).
 
 ## Configure the connector for Marketing
 
