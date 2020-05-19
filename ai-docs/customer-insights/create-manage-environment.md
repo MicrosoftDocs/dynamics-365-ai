@@ -1,7 +1,7 @@
 ---
 title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create and manage environments in Dynamics 365 Customer Insights."
-ms.date: 05/18/2020
+ms.date: 05/19/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 ms.reviewer: adkuppa
@@ -34,21 +34,21 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 ## Create an environment
 
+There are two ways to create a new environment. You can either specify an entirely new configuration, or you can copy some configuration settings from an existing environment.
+
+To create an environment:
+
 1. Select the **Settings** symbol in the header of the app.
 
 2. Select **Environments**.
 
 3. In the panel on the right side of the screen, select **New environment**.
 
-### New environment settings
-
-There are two ways to create a new environment. You can either specify an entirely new configuration, or you can copy some configuration settings from an existing environment.
-
 If you don't want to create a new environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments in your organization where you can copy data from.
 
 ### Specify environment settings
 
-1. In the **Create new environment** dialog, provide the following details:
+1. In the **Create an environment** dialog, provide the following details:
    - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you've copied an existing environment, but you can change it.
    - **Region**: The region into which the service is deployed and hosted.
    - **Type**: Select whether you want to create a Production or Sandbox environment.
@@ -66,6 +66,8 @@ If you don't want to create a new environment from scratch, select **Copy from e
    - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
      > [!div class="mx-imgBorder"]
      > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
+
+   - If you want to use [predictions](predictions.md), enter your Common Data Service instance URL in the **Server address** field under **Use predictions**.
 
    When you run processes in Customer Insights, such as data ingestion or segment creation, corresponding folders will be created in the storage account you specified above. Data files and model.json files will be created and added to the respective subfolders based on the process you run.
 
