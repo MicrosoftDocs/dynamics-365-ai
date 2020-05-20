@@ -10,37 +10,45 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Subscription Churn
-The Subscription Churn prediction feature enables you to predict whether a customer is at risk for no longer using your company’s subscription products or services.  You can create new Subscription Churn predictions in the Intelligence -> Predictions page, and see other predictions you may have created by clicking "My predictions".
+# Predict subscription churn
+
+Subscription churn prediction helps predicting whether a customer is at risk for no longer using your company’s subscription products or services. You can create new subscription churn predictions on the **Intelligence** > **Predictions** page. Select **My predictions** to see other predictions that you have created.
 
 ## Prerequisites
 
-[!NOTE] To create a prediction, a user must have Contributor or Administrator level permissions in your instance.
+1. To create a prediction, you need at least Contributor permissions in Customer Insights.
 
-1. Data about your subscriptions and their history including:
-- Subscription Identifiers – how do we distinguish subscriptions?
-- Customer Identifiers – how can we match subscriptions to your customers?
-- Subscription Event Dates – Start dates, end dates, what dates the subscription events occurred on.
-- Subscription Information – Is this a recurring subscription?  How often does it recur?
-    1. Required semantic data schema:
-    - Subscription ID: This is the identifier of a subscription - it should be a unique value per subscription
-	- Subscription End Date: This is the date the subscription expires for the customer
-	- Subscription Start Date: This is the date the subscription starts for the customer
-	- Transaction Date: This is the date a subscription change happened.  For instance, a customer renewing a subscription, starting a subscription, or ending a subscription would all be considered transactions on the subscription record.
-	- Is it a recurring subscription: This is a true/false field that determines if the subscription will renew with the same subscription ID for the customer without customer intervention
-	- Recurrence Frequency (in months): For recurring subscriptions, this is the period the subscription will renew for.  It is represented in months.  For instance, a yearly subscription that auto-renews for a customer in year-long increments should have 12 as a value for the record.
-	- (Optional)Subscription Amount: This is the amount of currency the subscription renewal would cost the customer.  This can help identify patterns for different levels of subscriptions.
-2. Data about customer activities including:
-- Activity Identifiers: how do we distinguish one activity from another for the same type of activity?
-- Customer Identifiers: how can we match activities to your customers?
-- Activity Information: What is the name of the activity?  When did it happen?
-	1. Required semantic data schema:
-	- Primary key: This is the identifier for a unique activity event.  For instance, a website visit for a customer, or a usage record showing the customer viewed a television show episode would have a unique identifier for each event of a website visit, or viewing of a television episode.
-	- Timestamp: This is the date/time of the event identified by the Primary key.
-	- Event: This field should represent the name of the event you want to use.  For instance, a field called "UserAction" in a streaming video service could have the value of "Viewed".
-	- Details: This field should represent detailed information about the event.  For instance, a field called "ShowTitle" in a streaming video service could have the value of a video a customer watched.
-3. Business Knowledge
-- What does churn mean for your business? We support time-based churn definitions, meaning a customer is considered to have churned a period of time after their subscription is ended.
+1. To create a subscription churn prediction, we need data about your subscriptions and their history:
+
+   - Subscription identifiers to distinguish subscriptions.
+   - Customer identifiers to match subscriptions to your customers.
+   - Subscription event dates which define start dates, end dates, and the dates the subscription events occurred on.
+   - Subscription information to define if it's a recurring subscription and how often it renews.
+
+   - The semantic data schema for subscriptions requires the following information:
+
+     - Subscription ID: A unique identifier of a subscription.
+     - Subscription End Date: The date the subscription expires for the customer.
+     - Subscription Start Date: The date the subscription starts for the customer.
+     - Transaction Date: The date a subscription change happened. For example, a customer buying or cancelling a subscription.
+     - Recurrence: A boolean true/false field that determines if the subscription will renew with the same subscription ID without customer intervention
+     - Recurrence Frequency (in months): For recurring subscriptions, this is the period the subscription will renew for. It's represented in months. For example, a yearly subscription that auto-renews for a customer every year for another year has the value 12.
+     - (Optional) Subscription Amount: The amount of currency a customer pays for the subscription renewal. It can help identify patterns for different levels of subscriptions.
+
+1. Additionally, we need some data about customer activities:
+
+   - Activity identifiers to distinguish activities of the same type.
+   - Customer identifiers to map activities to your customers.
+   - Activity information containing the name and date of the activity.
+
+   - The semantic data schema for customer activities includes:
+
+     - Primary key: A unique identifier for an activity. For example, a website visit or a usage record showing the customer viewed a television show episode.
+     - Timestamp: The date and time of the event identified by the primary key.
+     - Event: The name of the event you want to use. For example, a field called "UserAction" in a streaming video service could have the value of "Viewed".
+     - Details: Detailed information about the event. For example, a field called "ShowTitle" in a streaming video service could have the value of a video a customer watched.
+
+1. Business knowledge to understand what churn means for your business. We support time-based churn definitions, meaning a customer is considered to have churned a period of time after their subscription is ended.
 
 ## Create a Subscription Churn prediction
 
