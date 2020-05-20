@@ -39,7 +39,7 @@ This article provides information on how to connect a Common Data Model folder w
    > [!NOTE]
    > Any model.json file associated with another data source in the instance won't show in the list.
 
-7. You'll get a list of available entities from the selected model.json file. You can review the entities and select **Save**. All of the listed entities will be attached to Customer Insights.
+7. You'll get a list of available entities from the selected model.json file. You can review and select from the list of entities available and select **Save**. All of the selected entities will be attached to Customer Insights.
    > [!div class="mx-imgBorder"]
    > ![Dialog box showing a list of entities from a model.json file](media/review-entities.png)
 
@@ -63,6 +63,8 @@ You can update the access key for the storage account containing the Common Data
    ![Dialog to edit and update an access key for an existing data source](media/edit-access-key.png)
 
 5. Optionally, choose a different model.json file with a different set of entities from the container.
+
+6. Optionally, you can select additional entities to be attached to Customer Insights. You can also remove any already selected entities if there are no dependencies.
 
    > [!IMPORTANT]
    > If there are dependencies on the existing model.json file and the set of entities, you'll see an error message and can't select a different model.json file. Remove those dependencies before changing the model.json file or create a new data source with the model.json file that you want to use to avoid removing the dependencies.
