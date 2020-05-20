@@ -3,7 +3,7 @@ title: "Customer activities | Microsoft Docs"
 description: "Manage customer activities in Dynamics 365 Customer Insights and view them in customer timeline." 
 ms.date: 05/20/2020
 ms.service: dynamics-365-ai
-ms.reviewer: mukeshpo
+ms.reviewer: adkuppa
 ms.topic: "get-started-article"
 author: m-hartmann
 ms.author: mhart
