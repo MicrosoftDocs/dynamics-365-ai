@@ -52,40 +52,34 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 
 ## Create a Subscription Churn prediction
 
-[!TIP] At any point of configuring the Subscription Churn prediction, you can choose to "Save and close" to save your progress for later alterations.  You can always return to your saved prediction by navigating to the My predictions tab in the Intelligence -> Predictions page
-
-1. In Customer Insights, go to Intelligence -> Predictions
-2. Find the tile titled "Subscription churn model (preview)" and select "Use this model"
-3. Enter a name for the model so you can distinguish it from other models you may create
-4. Enter an output entity name - this is the name that will be given to the model entity and appear on the Entities page after your run your model. Include letters and numbers only, without any spaces
-5. Click next
-6. Enter the amount of days from a subscription end date that your business would consider a customer to be in a churned state.  This time period is typically associated with business activities, like offers or other marketing efforts, to attempt to recover a customer and prevent the customer loss.
-7. Click next
-8. Click Add data for Subscription history
-9. Select the entity that provides the subscription history information as described in the prerequisite section of this document
-10. If the fields below are not populated, you'll need to configure the relationship from your subscription history entity to the Customer entity.
-    1. Select the Field that identifies the customer from your subscription history table that can be directly related back to the primary customer id of your Customer entity.
-    2. Select the Customer entity that matches your primary Customer entity
-    3. Enter a name that describes the relationship.  For instance, a good pattern can be Entityname1Entityname2ID, replacing the Entityname1 with the name of your first entity, and Entityname2 with the name of your second entity
-    3. Click Next
-11. Map the semantic fields to attributes within your subscription history entity.  For descriptions of the fields, refer to the prerequisites section of this document.
-12. Click Save
-13. Click Add data for Customer activities
-14. Select the entity that provides the customer activity information as described in the prerequisite section of this document
-15. Select an activity type that matches to the type of customer activity you are configuring.  If you don't see an option that matches to the activity type you need, select "Create new" and type in the name of the activity type.
-16. If the fields below are not populated, you'll need to configure the relationship from your customer activity entity to the Customer entity.
-    1. Select the Field that identifies the customer from your customer activity table that can be directly related back to the primary customer id of your Customer entity.
-    2. Select the Customer entity that matches your primary Customer entity
-    3. Enter a name that describes the relationship.  For instance, a good pattern can be Entityname1Entityname2ID, replacing the Entityname1 with the name of your first entity, and Entityname2 with the name of your second entity
-    4. Click Next
-17. Map the semantic fields to attributes within your customer activity entity.  For descriptions of the fields, refer to the prerequisites section of this document.
-18. Click Save
-19. (Optional) If you have any other customer activities you would like to include, repeat steps 13 - 18.
-20. Click Next
-21. Set a frequency to retrain your model. This is important to update the accuracy of predictions as new data is imported into Customer Insights. Most businesses can retrain once per month and retain good accuracy for their prediction.
-22. Click Next
-23. Review the selections you have made.  You can navigate back to any part of the prediction configuration from this page by clicking the edit link under the value presented, or clicking the associated configuration step from the left side menu.
-24. If all values are configured correctly, click "Save and run".  The configuration process will begin the prediction process and will navigate you back to the My predictions tab in the Intelligence -> Predictions page.  You can see the status of your prediction, as well as other predictions.  The run process may take several hours to complete depending on the amount of data used in the prediction.
+1. In Customer Insights, go to **Intelligence** > **Predictions**.
+1. Select the **Subscription churn model (preview)** tile and select **Use this model**.
+1. Provide a name for the model to distinguish it from other models.
+1. Provide a name for the output entity. That's the name that the model entity will use. Include letters and numbers only, without any spaces and select **Next**.
+1. Enter the number of days from a subscription end date that your business considers a customer to be in a churned state. This period is typically liked to business activities like offers or other marketing efforts trying to prevent losing the customer. Then, select **Next**.
+   >[!TIP]
+   > You can select **Save and close** at any time to save the prediction as a draft. You'll find the draft prediction in the **My predictions** tab to continue.
+1. Select **Add data for Subscription history** and choose the entity that provides the subscription history information as described in the [prerequisites](#prerequisites).
+1. If the fields below aren't populated, configure the relationship from your subscription history entity to the Customer entity.
+    1. Select the field that identifies the customer in the subscription history table which can be directly related to the primary customer ID of your Customer entity.
+    1. Select the Customer entity that matches your primary Customer entity
+    1. Enter a name that describes the relationship. For example, Entityname1Entityname2ID where Entityname1 is the name of your first entity, and Entityname2 the name of your second entity.
+1. Select **Next**.
+1. Map the semantic fields to attributes within your subscription history entity and select **Save**. For descriptions of the fields, have a look at the [prerequisites](#prerequisites).
+1. Select **Add data for Customer activities** and choose the entity that provides the customer activity information as described in the prerequisites.
+1. Select an activity type that matches to the type of customer activity you are configuring.  If you don't see an option that matches to the activity type you need, select **Create new** and provide the name of the activity type.
+1. If the fields below are not populated, you'll need to configure the relationship from your customer activity entity to the Customer entity.
+    1. Select the field that identifies the customer in the customer activity table which can be directly related to the primary customer ID of your Customer entity.
+    1. Select the Customer entity that matches your primary Customer entity
+    1. Enter a name that describes the relationship. For example, Entityname1Entityname2ID where Entityname1 is the name of your first entity, and Entityname2 the name of your second entity.
+1. Select **Next**.
+1. Map the semantic fields to attributes within your customer activity entity and select **Save**. For descriptions of the fields, have a look at the [prerequisites](#prerequisites).
+1. (Optional) If you have any other customer activities you would like to include, repeat the steps above.
+1. Select **Next**.
+1. Set a frequency to retrain your model. This is important to update the accuracy of predictions as new data is imported into Customer Insights. Most businesses can retrain once per month and retain good accuracy for their prediction.
+1. Select **Next**.
+1. Review the configuration. You can navigate back to any part of the prediction configuration from this page by selecting **Edit** under the shown value. Alternatively, you can select a configuration step from the progress indicator.
+1. If all values are configured correctly, select **Save and run** to begin the prediction process. On the **My predictions** tab, you can see the status of your predictions. The process may take several hours to complete depending on the amount of data used in the prediction.
 
 ## Reviewing a prediction status and results
 
