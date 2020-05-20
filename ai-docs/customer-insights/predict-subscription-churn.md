@@ -81,44 +81,47 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 1. Review the configuration. You can navigate back to any part of the prediction configuration from this page by selecting **Edit** under the shown value. Alternatively, you can select a configuration step from the progress indicator.
 1. If all values are configured correctly, select **Save and run** to begin the prediction process. On the **My predictions** tab, you can see the status of your predictions. The process may take several hours to complete depending on the amount of data used in the prediction.
 
-## Reviewing a prediction status and results
+## Review a prediction status and results
 
-1. Navigate to the My predictions tab in the Intelligence -> Predictions page.
-2. Find the prediction you would like to review and note the following fields:
-    1. Prediction name: This is the name of the prediction chosen during the configuration of a prediction.
-    2. Prediction type: Displays the type of model used for the prediction
-    3. Output entity: this is the name that was provided while configuring the prediction to store the output of the prediction.  You can find an entity with this name in the Entities page.
-    4. Predicted field: this is populated only for some types of predictions, and is not used for Subscription Churn.
-    5. Status: contains the current status of the prediction's run state including
-        - Queued: the prediction is currently waiting for prerequisite processes to run.
-        - Refreshing: the prediction is currently executing the "score" stage of processing, producing output results that will flow into the Output entity.
-        - Failed: the prediction has failed.  Click "Logs" for more details
-        - 
-    6. Edited: The last date the configuration for the prediction was altered and saved.
-    7. Last refreshed: The last date the prediction executed and refreshed results in the Output entity.
-3. Click the vertical ellipses next to the prediction you would like to review results for, then click View.
-4. Review the results for the prediction.  There are three primary sections of data within the results page
-    1. Training model performance: A, B, or C values can be represented in this section.  This indicates the performance of the prediction, and can help you make the decision to use the results stored in the Output entity.
-        - Scores lower than "C" will result in a failed execution of the prediction. Look to [Fixing a failed prediction](#fixing-a-failed-prediction) for how to potentially resolve this and finish your prediction.
-    2. Likelihood to churn (number of customers): This shows bucketed groups of customers based on their predicted risk of churn. This can help you later if you want to create a segment of high risk customers to understand where your cutoff should be for segment membership.
-    3. 
+1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
+1. Select the prediction you want to review.
+   - Prediction name: The name of the prediction provided when creating it.
+   - Prediction type: The type of model used for the prediction
+   - Output entity: Name of the entity to store the output of the prediction. You can find an entity with this name on **Data** > **Entities**.
+   - Predicted field: This field is populated only for some types of predictions, and is not used in subscription churn prediction.
+   - Status: The current status of the prediction's run.
+        - Queued: The prediction is currently waiting for other processes to run.
+        - Refreshing: The prediction is currently running the "score" stage of processing to produce results that will flow into the output entity.
+        - Failed: the prediction has failed. Select **Logs** for more details.
+        -
+   - Edited: The date the configuration for the prediction was changed.
+   - Last refreshed: The date the prediction refreshed results in the output entity.
+1. Select the vertical ellipses next to the prediction you want to review results for and select **View**.
+1. There are three primary sections of data within the results page:
+   - Training model performance: A, B, or C values can be represented in this section. This indicates the performance of the prediction, and can help you make the decision to use the results stored in the Output entity.
+        - Scores lower than "C" will result in a failed execution of the prediction. See [Fixing a failed prediction](#fix-a-failed-prediction) for possible resolutions to finish your prediction.
+   - Likelihood to churn (number of customers): Groups of customers based on their predicted risk of churn. This data can help you later if you want to create a segment customers with high churn risk to understand where your cutoff should be for segment membership.
+   -
 
-## Fixing a failed prediction
+## Fix a failed prediction
 
-1. Navigate to the My predictions tab in the Intelligence -> Predictions page.
-2. Click the vertical ellipses next to the prediction you would like to view error logs for, then click Logs.
-3. Open each error that is presented.  There are several types of errors that can occur, and they should describe what condition caused the error.  For instance, an error noting there was not enough data to accurately predict can typically be resolved by loading additional data into Customer Insights.
+1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
+1. Select the vertical ellipses next to the prediction you would like to view error logs for and select **Logs**.
+1. Review all the errors. There are several types of errors that can occur, and they describe what condition caused the error. For example, an error noting there was not enough data to accurately predict can typically be resolved by loading additional data into Customer Insights.
 
-## Refreshing a prediction
+## Refresh a prediction
 
-[!NOTE] Predictions will automatically refresh on the same schedule your data refreshes as configured in the Admin -> System -> Schedule tab
+Predictions will automatically refresh on the same [schedule your data refreshes](pm-settings.md#schedule-tab) as configured in settings.
 
-1. Navigate to the My predictions tab in the Intelligence -> Predictions page.
-2. Click the vertical ellipses next to the prediction you would like to manually refresh results for, then click Refresh.
+1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
+1. Select the vertical ellipses next to the prediction you want to refresh.
+1. Select **Refresh**.
 
-## Deleting a prediction
+## Delete a prediction
 
-[!NOTE] Deleting a prediction will not remove its corresponding Output entity.
+1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
+1. Select the vertical ellipses next to the prediction you want to delete.
+1. Select **Delete**.
 
-1. Navigate to the My predictions tab in the Intelligence -> Predictions page.
-2. Click the vertical ellipses next to the prediction you would like to delete, then click Delete.
+> [!NOTE]
+> Deleting a prediction will not remove its output entity.
