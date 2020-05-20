@@ -76,3 +76,10 @@ You can use the real-time capabilities by building your own pipeline and connect
 You can post an activity in the format of your source system or in the UnifiedActivity format. Get the format by making an API call to /api/instances/{instanceId}/manage/entities/UnifiedActivity.
 
 Details of this API, including parameters and responses, can be found in the **EntityData** section on the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html). [Learn more about how to use the Customer Insights Swagger webpage](pm-apis.md#how-to-use-the-customer-insights-swagger-webpage).
+
+## Understand your real-time usage with telemetry
+
+This feature gives you an overview of the volume of requests posted to the real-time API, as well as hints about issues you may have encountered. You can access it by going to **Admin**, then **System** and then **Real-time**.
+
+From the **group by** selector you can choose how to best present your real-time interactions on a timeline ranging from the last 24 hours to the last 30 days: by result (successes or failures), created by (source of the event), ingested entity (entity qualified name) or API method. The data is available as a history chart and as a table.
+
