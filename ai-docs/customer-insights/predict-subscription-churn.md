@@ -1,3 +1,15 @@
+---
+title: "Subscription churn prediction | Microsoft Docs"
+description: "Predict whether a customer is at risk for no longer using your company’s subscription products or services."
+ms.date: 05/20/2020
+ms.reviewer: zacook
+ms.service: dynamics-365-ai
+ms.topic: "article"
+author: m-hartmann
+ms.author: mhart
+manager: shellyha
+---
+
 # Subscription Churn
 
 Subscription churn prediction helps predicting whether a customer is at risk for no longer using your company’s subscription products or services. You can create new subscription churn predictions on the **Intelligence** > **Predictions** page. Select **My predictions** to see other predictions that you have created.
