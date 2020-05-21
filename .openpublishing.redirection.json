@@ -744,6 +744,16 @@
       "source_path": "ai-docs/market-insights/universe.md",
       "redirect_url": "eos-faq",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/assistant-v1.md",
+      "redirect_url": "assistant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/action-cards-reference-v1.md",
+      "redirect_url": "action-cards-reference",
+      "redirect_document_id": false
     }
   ]
 }
