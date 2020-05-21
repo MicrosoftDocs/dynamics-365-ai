@@ -45,7 +45,8 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 
 1. In Customer Insights, go to **Intelligence** > **Predictions**.
 1. Select the **Subscription churn model (preview)** tile and select **Use this model**.
-:::image type="content" source="media/subscription-churn-usethismodel.PNG" alt-text="Subscription Churn model tile with Use this model button":::
+   > [!div class="mx-imgBorder"]
+   > ![Subscription Churn model tile with Use this model button](media/subscription-churn-usethismodel.PNG "Subscription Churn model tile with Use this model button")
 1. Provide a name for the model to distinguish it from other models.
 1. Provide a name for the output entity. That's the name that the model entity will use. Include letters and numbers only, without any spaces and select **Next**.
 1. Enter the number of days from a subscription end date that your business considers a customer to be in a churned state. This period is typically liked to business activities like offers or other marketing efforts trying to prevent losing the customer. Then, select **Next**.
@@ -56,10 +57,12 @@ Subscription churn prediction helps predicting whether a customer is at risk for
     1. Select the field that identifies the customer in the subscription history table which can be directly related to the primary customer ID of your Customer entity.
     1. Select the Customer entity that matches your primary Customer entity
     1. Enter a name that describes the relationship. For example, Entityname1Entityname2ID where Entityname1 is the name of your first entity, and Entityname2 the name of your second entity.
-    :::image type="content" source="media/subscription-churn-subscriptionhistoryrelationship.PNG" alt-text="Subscription history page showing the creation of a relationship to customer":::
+       > [!div class="mx-imgBorder"]
+       > ![Subscription history page showing the creation of a relationship to customer](media/subscription-churn-subscriptionhistoryrelationship.PNG "Subscription history page showing the creation of a relationship to customer")
 1. Select **Next**.
 1. Map the semantic fields to attributes within your subscription history entity and select **Save**. For descriptions of the fields, have a look at the [prerequisites](#prerequisites).
-:::image type="content" source="media/subscription-churn-subscriptionhistorymapping.PNG" alt-text="Subscription history page showing semantic attributes that are mapped to fields in the selected subscription history entity":::
+   > [!div class="mx-imgBorder"]
+   > ![Define the entity relationship](media/subscription-churn-subscriptionhistorymapping.PNG "Subscription history page showing semantic attributes that are mapped to fields in the selected subscription history entity")
 1. Select **Add data** for **Customer activities** and choose the entity that provides the customer activity information as described in the prerequisites.
 1. Select an activity type that matches to the type of customer activity you are configuring.  If you don't see an option that matches to the activity type you need, select **Create new** and provide the name of the activity type.
 1. If the fields below are not populated, you'll need to configure the relationship from your customer activity entity to the Customer entity.
@@ -69,7 +72,8 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 1. Select **Next**.
 1. Map the semantic fields to attributes within your customer activity entity and select **Save**. For descriptions of the fields, have a look at the [prerequisites](#prerequisites).
 1. (Optional) If you have any other customer activities you would like to include, repeat the steps above.
-:::image type="content" source="media/subscription-churn-customeractivitiesmapping.PNG" alt-text="Customer activities page showing semantic attributes that are mapped to fields in the selected customer activity entity":::
+   > [!div class="mx-imgBorder"]
+   > ![Define the entity relationship](media/subscription-churn-customeractivitiesmapping.PNG "Customer activities page showing semantic attributes that are mapped to fields in the selected customer activity entity")
 1. Select **Next**.
 1. Set a frequency to retrain your model. This is important to update the accuracy of predictions as new data is imported into Customer Insights. Most businesses can retrain once per month and retain good accuracy for their prediction.
 1. Select **Next**.
@@ -79,7 +83,8 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 ## Reviewing a prediction status and results
 
 1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
-    :::image type="content" source="media/subscription-churn-mypredictions.PNG" alt-text="View of the My Predictions page":::
+   > [!div class="mx-imgBorder"]
+   > ![View of the My Predictions page](media/subscription-churn-mypredictions.PNG "View of the My Predictions page")
 1. Select the prediction you want to review.
    - **Prediction name:** The name of the prediction provided when creating it.
    - **Prediction type:** The type of model used for the prediction
@@ -93,24 +98,29 @@ Subscription churn prediction helps predicting whether a customer is at risk for
    - **Edited:** The date the configuration for the prediction was changed.
    - **Last refreshed:** The date the prediction refreshed results in the output entity.
 1. Select the vertical ellipses next to the prediction you want to review results for and select **View**.
-:::image type="content" source="media/subscription-churn-verticalellipses.PNG" alt-text="View of options in the vertical ellipses menu for a prediction including edit, refresh, view, logs, and delete":::
+   > [!div class="mx-imgBorder"]
+   > ![View of options in the vertical ellipses menu for a prediction including edit, refresh, view, logs, and delete](media/subscription-churn-verticalellipses.PNG "View of options in the vertical ellipses menu for a prediction including edit, refresh, view, logs, and delete")
 1. There are three primary sections of data within the results page:
     1. **Training model performance:** A, B, or C values can be represented in this section. This indicates the performance of the prediction, and can help you make the decision to use the results stored in the Output entity.
         - Scores are determined as A, B, or C based on the following rules:
             - **A** = If the percentage of users we predicted churn for in a sample set of data were accurately predicted is greater than the 10% above the average churn rate.
             - **B** = If the percentage of users we predicted churn for in a sample set of data were accurately predicted is greater than 0% and less than 10% of average churn rate.
             - **C** = If the percentage of users we predicted churn for in a sample set of data were accurately predicted is less than the average churn rate.
-    :::image type="content" source="media/subscription-churn-modelperformance.PNG" alt-text="View of the model performance result":::
+               > [!div class="mx-imgBorder"]
+               > ![View of the model performance result](media/subscription-churn-modelperformance.PNG "View of the model performance result")
     2. **Likelihood to churn (number of customers):** Groups of customers based on their predicted risk of churn. This data can help you later if you want to create a segment customers with high churn risk to understand where your cutoff should be for segment membership.
-    :::image type="content" source="media/subscription-churn-resultdistribution.PNG" alt-text="Graph showing distribution of churn results, broken into ranges from 0-100%":::
+       > [!div class="mx-imgBorder"]
+       > ![Graph showing distribution of churn results, broken into ranges from 0-100%](media/subscription-churn-resultdistribution.PNG "Graph showing distribution of churn results, broken into ranges from 0-100%")
     3. **Most influential factors:** There are many factors that are taken into account when creating your prediction.  Each of these factors have their importance calculated for the predictions a model creates in aggregate.  You can use these factors to help validate your prediction results, and can use this information later to also begin to create segments that could help influence churn risk for customers.
-    :::image type="content" source="media/subscription-churn-influentialfactors.PNG" alt-text="List showing influential factors and their importance in predicting the churn result":::
+       > [!div class="mx-imgBorder"]
+       > ![List showing influential factors and their importance in predicting the churn result](media/subscription-churn-influentialfactors.PNG "List showing influential factors and their importance in predicting the churn result")
 
 ## Fix a failed prediction
 
 1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
 1. Select the vertical ellipses next to the prediction you would like to view error logs for and select **Logs**.
-:::image type="content" source="media/subscription-churn-logsbutton.PNG" alt-text="View of results menu bar including close, edit model, and logs buttons":::
+   > [!div class="mx-imgBorder"]
+   > ![View of results menu bar including close, edit model, and logs buttons](media/subscription-churn-logsbutton.PNG "View of results menu bar including close, edit model, and logs buttons")
 1. Review all the errors. There are several types of errors that can occur, and they describe what condition caused the error. For example, an error noting there was not enough data to accurately predict can typically be resolved by loading additional data into Customer Insights.
 
 ## Refresh a prediction
