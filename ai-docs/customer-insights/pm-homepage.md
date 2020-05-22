@@ -1,7 +1,7 @@
 ---
 title: "Home page in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Start exploring the app on the Home page in Dynamics 365 Customer Insights."
-ms.date: 02/03/2020
+ms.date: 05/22/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,30 +12,28 @@ manager: shellyha
 
 # Home
 
-The first page you'll see in Dynamics 365 Customer Insights is **Home**. This page shows an overview of your customer base, and metrics to track the health of your business.
-
-## Change between environments
-
-Switch from a demo environment to a live environment if you want to work with your customers' data. To do so, you must have set up and configured [data sources](pm-data-sources.md). Select the **Environment** control in the upper-right corner of the page to change environments.
-
-> [!div class="mx-imgBorder"] 
-> ![Switch environment](media/home-page-environment-switcher.png "Switch environment")
-
-## Explore the home page
-
-To see insights on the home page, take a few moments to [add data sources](pm-data-sources.md), [unify](pm-configure-data.md), and [enrich your data](pm-enrichment.md).
-
-First, create a unified dataset of your customers out of datasets that are currently siloed and disconnected. Then you can use capabilities such as *Measures*, *Enrichment*, and *Activities* to unlock richer insights. Use capabilities such as *Segments* and *Customers* to act on these new insights.
+The first page you'll see in Dynamics 365 Customer Insights is **Home**. This page shows an overview of your customer base as well as metrics to track the health of your business.
 
 > [!div class="mx-imgBorder"] 
 > ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
 
-Insights on the home page usually contain the following information:
+## Explore the home page
 
-- **Aggregated insights**: Tiles with business insights that you define on the **Measures** page. Only Business measures will show up here. They can include predictive key performance indicators (KPIs) such as average likelihood of customer churn.
-- **Insights about brands and interests**: This unique information can be unlocked using the **Enrichment** capabilities after completing the *Map*, *Match*, and *Merge* phases.  
-- **Customer segments**: Includes segments that were created around your customers. For more information on how to create additional segments, see the [Segments](pm-segments.md) article.
+Under **Insights**, you'll see tiles with [measures](pm-measures.md). These are key performance indicators (KPIs) that you've defined, such as average likelihood of customer churn or average online spend per customer.
+
+The **Potential interests** and **Potential brands** sections help you to gain a greater insight into your customer base by understanding the interests and brands that they have affinity for. This information can be unlocked using the [enrichment](pm-enrichment.md) capabilities, after completing the [map](pm-map.md), [match](pm-match.md), and [merge](pm-merge.md) phases.
+
+**Segments** displays groups of customers based on demographic, behavioral, or transactional attributes that you've defined. [Creating segments](pm-segments.md) helps you to better target your business activities.
+
+## Change between environments
+
+Once you've set up and configured [data sources](pm-data-sources.md), you'll want to switch from a demo environment to a live environment. This allows you to work with your customers' data. Select the **Environment** control in the upper-right corner of the page to change environments.
+
+> [!div class="mx-imgBorder"] 
+> ![Switch environment](media/home-page-environment-switcher.png "Switch environment")
+
+Administrators can create and manage [multiple environments](create-manage-environment.md). This may be useful if, for instance, your organization operates internationally and you need to segregate data and insights in varying ways to meet regulatory constraints.
 
 ## Next step
 
-Many of the home page insights are dependent on the completion of the data configuration process. This process, in turn, depends on first loading data into Customer Insights. See the [Data Sources](pm-data-sources.md) topic to learn how to add data sources.
+To see your own insights on the home page, you'll first need to [add data sources](pm-data-sources.md). Then, [unify](pm-configure-data.md) your data to build customer profiles,  and [enrich](pm-enrichment.md) these to unlock a wider range of insights related to brand and interest affinities.
