@@ -103,7 +103,7 @@ Viewing a snapshot allows you to see and understand the data of the forecast at 
     > [!div class="mx-imgBorder"]
     > ![View underlying opportunities of a column](media/predictive-forecasting-snapshot-select-column-opportunities.png "View underlying opportunites of a column")
 
-4.	To bo back to the forecast, select **Back to forecast**.
+5.	To go back to the forecast, select **Back to forecast**.
 
 ## Delete a snapshot
 
