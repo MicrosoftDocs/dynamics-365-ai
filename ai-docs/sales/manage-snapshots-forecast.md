@@ -89,6 +89,8 @@ The snapshot list is refreshed to display the added snapshot, and you can verify
 
 The snapshot list is refreshed, and the deleted snapshot is removed from the list.
 
+
+
 ### See also
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
