@@ -69,42 +69,6 @@ Before you create a snapshot for a forecast, note the following:
 
 The snapshot list is refreshed to display the added snapshot, and you can verify its progress in the status column.
 
-## View snapshots
-
-Viewing a snapshot allows you to see and understand the data of the forecast at the moment in time when it's taken including the underlying opportunities. Also, you can compare and understand the data between your current forecast and snapshot on how the forecast is doing. 
-
-
-**To view snapshots**
-
-1.	Sign in to the Sales Hub app and go to **Performance** > **Forecasts**.
-
-2.	Select the forecast for which you want to view the snapshots.
-
-3.	Select **Snapshot history**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Select snapshot history](media/predictive-forecasting-select-snapshot-history.png "Select snapshot history")
-
-    A list of snapshot that is available for the selected forecast is displayed in the **Snapshot history** pane.
-    
-    > [!div class="mx-imgBorder"]
-    > ![Snapshot history pane](media/predictive-forecasting-snapshot-history-pane.png "Snapshot history pane")
-
-4.	Select a snapshot to view. In this example, we're selecting **Mar18-1** snapshot and displayed as shown in the following image:
-
-    > [!div class="mx-imgBorder"]
-    > ![View a snapshot](media/predictive-forecasting-select-snapshot-to-view.png "View a snapshot")
-
-    >[!NOTE]
-    >The data displayed in the snapshot is view only and can't be modify.
-
-    You can select a column and see the underlying opportunities that are defining the value of the column at that point in time. For example, we're selecting Kenny Smith's Committed column and the underlying opportunities that are defining the value in the **Committed** column at that point in time are displayed.
-    
-    > [!div class="mx-imgBorder"]
-    > ![View underlying opportunities of a column](media/predictive-forecasting-snapshot-select-column-opportunities.png "View underlying opportunites of a column")
-
-5.	To go back to the forecast, select **Back to forecast**.
-
 ## Delete a snapshot
 
 1.	In the forecast, select the **More options** icon, and then select **Add/view snapshots**. 
