@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Subscription Churn
+# Subscription churn prediction
 
 Subscription churn prediction helps predicting whether a customer is at risk for no longer using your company’s subscription products or services. You can create new subscription churn predictions on the **Intelligence** > **Predictions** page. Select **My predictions** to see other predictions that you have created.
 
