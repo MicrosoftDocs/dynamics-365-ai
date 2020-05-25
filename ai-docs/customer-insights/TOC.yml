@@ -64,6 +64,8 @@
     href: pm-measures.md
   - name: Complete data using value predictions
     href: predictions.md
+  - name: Predict subscription churn
+    href: predict-subscription-churn.md
   - name: List customer activities
     href: pm-activities.md
 
