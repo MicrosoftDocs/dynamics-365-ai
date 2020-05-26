@@ -45,14 +45,14 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
   The timeline of the Customer Card Add-in solution for Dynamics 365 model-driven apps matches the activity timeline in Customer Insights. The pagination of the timeline improved, showing up to 50 activities at once. It also allows loading additional activities in the timeline.    
   For more information, see [Customer Card Add-in](pm-customer-card-addin.md).
 
-- **Power automate trigger for segment changes**
+- **Power Automate trigger for segment changes**
 
-  Triggers for Power Automate define what you can build a flow from. The newly added trigger lets you define a threshold for a segment. For example, you can create a notification that gets sent when the defined threshold is passed. Additionally, the trigger brings information that allows you to build more complex workflows in Power Automate.    
+  Triggers for Power Automate define what you can build a flow from. The newly added trigger lets you define a threshold for a segment. For example, you can create a notification that gets sent when the defined threshold is passed.    
   For more information, see [Power Automate connector](power-automate-connector.md).
 
 - **Multitenant support for custom models**
 
-  Configure workflows for custom models with a web service of a different Azure Machine Learning tenant. You can sign in to the Azure Machine Learning tenant from Customer Insights when creating a new workflow for custom models. This is an addition to the existing capability of integrating with your own custom Azure Machine Learning web service.    
+  Configure workflows for custom models with a web service of a different Azure Machine Learning tenant. You can sign in to the Azure Machine Learning tenant from Customer Insights when creating a new workflow for custom models. This capability is an addition to the existing capability of integrating with your own custom Azure Machine Learning web service.    
   For more information, see [Custom machine learning models](custom-models.md).
 
 #### Measures
@@ -93,7 +93,7 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 
 - **Customer Insights available in Microsoft Dynamics 365 Online Government**
 
-  With more and more channels for interactions, citizen data is scattered across myriad systems, leading to siloed data and a fragmented view of information about citizen interactions. Without a complete view of each citizen's interactions across channels, it's impossible for governments to modernize at scale. Microsoft is committed to supporting the technology needs of government to keep up with citizen expectations for consistent and responsive experiences.    
+  With more and more channels for interactions, citizen data is scattered across myriad systems, leading to siloed data, and a fragmented view of information about citizen interactions. Without a complete view of each citizen's interactions across channels, it's impossible for governments to modernize at scale. Microsoft is committed to supporting the technology needs of government to keep up with citizen expectations for consistent and responsive experiences.    
   With 2020 release wave 1, Dynamics 365 Customer Insights will be available for the Government Community Cloud (GCC), an environment built to meet the higher compliance needs of United States government agencies. Agencies gain a unified view of citizens and use prebuilt AI to derive insights that improve interactions, empower employees, and transform communities, while reducing IT complexity and meeting United States compliance and security standards. Dynamics 365 Government meets the demanding requirements of the US Federal Risk and Authorization Management Program (FedRAMP), enabling United States federal agencies to benefit from the cost savings and rigorous security of the Microsoft Cloud.
 
 ## April 2020 update
@@ -106,7 +106,7 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 
 - **Map activity entity to standard activity type**
   
-  Activity configuration and storage is currently based on a static design to view them in a timeline. The semantic meaning of activities, which has potential for multiple use-cases in AI models, isn't fully used at the moment. We plan to make the activity timeline more dynamic, based on the activity type and better semantic understanding of the activities. This feature aims to identify the activity type as defined in Common Data Model for any ingested activity.
+  Activity configuration and storage are currently based on a static design to view them in a timeline. The semantic meaning of activities, which has potential for multiple use-cases in AI models, isn't fully used at the moment. We plan to make the activity timeline more dynamic, based on the activity type and better semantic understanding of the activities. This feature aims to identify the activity type as defined in Common Data Model for any ingested activity.
   For more information, see [Customer activities](pm-activities.md).
 
 #### Data ingestion
@@ -142,7 +142,7 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 
 - **Measure list page**
   
-  Improvements to the measures page include support for actions on a single measure and on multiple measures at once. As well as the addition of a search field to find and track measures quickly.    
+  Improvements to the measures page include support for actions on a single measure and on multiple measures at once. Additionally, you'll find a search field to find and track measures quickly.    
   For more information, see [Create and manage segments](pm-segments.md).
 
 #### Segments
@@ -156,5 +156,5 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 
 - **Copy configuration settings to a new environment**
   
-  Copy your Customer Insights configuration from one environment to another. While creating a new environment, you can select an existing environment you want to copy the configuration from. We currently support data sources, data unification, relationships, measures, and segments configuration to be copied. Data source credentials and actual data will not be copied.    
+  Copy your Customer Insights configuration from one environment to another. While creating a new environment, you can select an existing environment you want to copy the configuration from. We currently support data sources, data unification, relationships, measures, and segments to be copied. Data source credentials and actual data aren't copied.    
   For more information, see [Manage environments](create-manage-environment.md).
