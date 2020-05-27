@@ -1,7 +1,7 @@
 ---
 title: "System configuration in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about system settings in Dynamics 365 Customer Insights."
-ms.date: 04/30/2020
+ms.date: 05/27/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -24,9 +24,20 @@ The **System** page contains everything that administrators need to closely moni
 
 The **Status tab** lets you track the progress of data ingestion, data exports, and several important product processes. Review the information on this tab to ensure the completeness of any major process you've defined in Customer Insights.
 
-This tab includes status tables for **Data sources**, **System processes**, and **Exported data**. Each table tracks the **Name** of the task and its corresponding entity, the **Status** of its most recent run, and when the task was last **Refreshed**/**Updated**/**Exported**.
+This tab includes status tables for **Data sources**, **System processes**, and **Data preparation**. Each table tracks the **Name** of the task and its corresponding entity, the **Status** of its most recent run, and when it was **Last updated**.
 
 View the details of the tasks' last several runs by selecting its name.
+
+### Status types
+
+There are six types of status for tasks in Customer Insights. The following status types also show on the *Match*, *Merge*, *Data sources*, *Segments*, *Measures*, *Enrichment*, *Activities*, and *Predictions* pages:
+
+- **Processing:** Task is in progress. The status can change to Successful or Failure.
+- **Successful:** Task completed successfully.
+- **Skipped:**: Task got skipped because one or more of the downstream processes this task depends on are either failing or got skipped. See [Refresh policies](#refresh-policies) for more details.
+- **Failure:** Processing  of the task has failed.
+- **Canceled:** Processing was canceled by the user before it finished.
+- **Queued:** Processing is queued and will start once all the downstream tasks are completed. See [Refresh policies](#refresh-policies) for more details.
 
 ### Refresh policies
 
