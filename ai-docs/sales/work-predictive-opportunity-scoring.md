@@ -51,20 +51,53 @@ The numbered columns are:
 
 ## Analyze and improve your opportunity score
 
-In forms, you can use the **Opportunity Score** widget to see the top 10 reasons that are influencing the opportunity score. These reasons come from the opportunity attributes and attributes from the related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a win deal.
+In forms, you can use the **Opportunity Score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the opportunity attributes and attributes from the related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a possible win deal.
 
-The following screen displays a typical **Opportunity Score** widget with the reasons that are influencing the opportunity score.
+The following screen displays a typical **opportunity Score** widget with reasons that are influencing the opportunity score.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget.png "Predictive opportunity score widget")
 
-The numbered sections are:
+Typically, you can categorize the screen into the following sections:
 
-1. **Basic Information.** Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity score trend—to help you avoid going back to the **My Open Opportunities Scored** view to see basic information.
+-	[Basic information](#basic-information)
 
-2. **Top Reasons.** Displays the list of reasons that are affecting the opportunity score. This helps you to analyze and consider the opportunity for converting it into a win deal. You can also take necessary action to improve the opportunity score, such as set up meetings and follow-ups.
+-	[Top reasons](#top-reasons)
 
-3. **Feedback.** Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
+### Basic information
+
+Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity trend.
+
+> [!div class="mx-imgBorder"]
+> ![Predictive opportunity score basic information](media/predictive-opportunity-scoring-widget-basic-information.png "Predictive opportunity score basic information")
+
+### Top reasons
+
+Displays the list of positive and negative reasons that are affecting the opportunity score. This helps you to analyze and consider the opportunity for converting into an opportunity. 
+
+> [!div class="mx-imgBorder"]
+> ![Predictive opportunity score top reasons](media/predictive-opportunity-scoring-widget-top-reasons.png "Predictive opportunity score top reasons")
+
+When you move cursor over a reason, a tool tip is displayed with an insight on what is causing the positive or negative reason to be on the top. Further, you can work on the insight and take necessary action to improve the opportunity.
+
+In the following example, for the reason **Finance is a strong** industry, the tool tip is displayed as **64% of leads from the financial industry are qualified within 3 days**. 
+
+> [!div class="mx-imgBorder"]
+> ![Predictive opportunity score top reasons tool tip](media/predictive-opportunity-scoring-widget-top-reasons-tool-tip.png "Predictive opportunity score top reasons tool tip")
+
+The **opportunity score** widget displays the only top five positive and negative reasons. To view all the positive and negative reasons that are affecting the opportunity score, select **Details**. 
+
+The **opportunity score** pane opens with a list of all score improvers (positives) and harmers (negatives) along with a graph on how the opportunity score is trending over the time.
+
+> [!div class="mx-imgBorder"]
+> ![Predictive opportunity score details tab](media/predictive-opportunity-scoring-widget-top-reasons-details-tab.png "Predictive opportunity score details tab")
+
+To further know about the opportunity score, such as what is opportunity score, how it works, what does grades mean, and attributes are impacting the score, select **About** tab. 
+
+The **About** tab helps you understand what opportunity score is and how it works, along with information on how the grades are categorized in your organization by administrators under **What does it mean** and the attributes that are impacting the score in your organization under **What impacts the score**.
+
+> [!div class="mx-imgBorder"]
+> ![Predictive opportunity score about tab](media/predictive-opportunity-scoring-widget-top-reasons-about-tab.png "Predictive opportunity score about tab")
 
 ### See also
 
