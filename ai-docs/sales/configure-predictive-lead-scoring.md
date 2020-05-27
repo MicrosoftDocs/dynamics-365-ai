@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure predictive lead scoring for Sales Insights"
-ms.date: 10/01/2019
+ms.date: 06/01/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -37,16 +37,75 @@ Before we configure the predictive lead scoring, let's understand the configurat
 
 ## Understand the configuration page
 
-When a model is generated, the configuration page displays as shown in the following screenshot:
+When a model is generated and published, the configuration page displays as shown in the following screenshot:
 
 > [!div class="mx-imgBorder"]
 > ![Configuration page](media/si-admin-predictive-lead-scoring-configuration-page.png "Configuration page")
 
-| Number | Feature | Description |
-|--------|---------|-------------|
-|1|Actions you can perform on the model|- **Publish**: The **Publish** button allows you to publish a model to your organization. Subsequently, users in your organization can see **My Open Leads Scored** system view and lead score widget on lead forms. After you publish, the **Publish** button is available only when you retrain or edit the model.<br>- **Revert version**: The **Revert version** button allows you to return the model to the previous version when the retrained model is not satisfactory or not at an acceptable level of your organization's requirements. This option is available only when you retrain a model.<br>- **Edit fields**: The **Edit fields** button allows you to update or add the fields that affect the prediction accuracy score. To learn more, see [Retrain the model](#retrain-a-model).<br>- **Retrain Model**: You can select this option to regenerate a model with updated information that is available in your organization for improved predictive accuracy score. This option is available only for standard model creation.|
-|2|Version details|- **Version trained on**: This parameter displays a date that lets you know when the model was last trained.<br>- **Status**: This parameter lets you know the status of the model.<br>- **Attributes used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory.<br>- **Prediction accuracy**: This parameter displays the percentage of the model's accuracy in predicting the leads that could convert into opportunities.<br>- **Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score. |
-|3|Lead score grading| **Grading**: When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded as A, B, C, or D according to the lead score that a lead has and this score is influenced by the attributes that we selected while creating the model. Leads that are graded as A are more likely to be converted into opportunities than leads that are graded D. You can configure the range for the grading according to your organizational requirements. When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50. |
+
+Typically, you can categorize the screen into the following sections:
+
+-	[Actions you can perform on the model](#actions-you-can-perform-on-the-model)
+
+-	[Version details]()
+
+-	[Lead score grading]()
+
+### Actions you can perform on the model
+
+Displays the actionable buttons that you can perform on the mode.
+
+> [!div class="mx-imgBorder"]
+> ![Action buttons of Lead scoring](media/si-admin-predictive-lead-scoring-buttons.png "Action buttons of Lead scoring")
+
+-	**Publish**: The **Publish** button allows you to publish a model to your organization. Subsequently, users in your organization can see My Open Leads Scored system view and lead score widget on lead forms. After you publish, the **Publish** button is available only after you retrain or edit the model.
+
+-	**Revert version**: The **Revert version** button allows you to return the model to the previous version when the retrained model is not satisfactory or not at an acceptable level of your organization's requirements. This option is available only when you retrain and the model is not published.
+
+-	**Edit fields**: The **Edit fields** button allows you to update or add the fields that affect the prediction accuracy score. This is useful when you want to tweak the model to consider a unique business process. To learn more, see Retrain the model.
+
+-	**Retrain Model**: The **Retrain Model** button is available only for standard model creation. You can select this option to regenerate a model with updated information that is available in your organization for improved predictive accuracy score.
+
+### Version details
+
+Displays the parameters with information of the model such as, version trained date, status of the version, fields used, and most influential fields. 
+
+> [!div class="mx-imgBorder"]
+> ![Version details of Lead scoring](media/si-admin-predictive-lead-scoring-version-details.png "Version details of Lead scoring")
+
+Let’s look at these parameters in detail:
+
+-	**Version trained on**: This parameter displays a date that lets you know when the model was last trained.
+
+-	**Status**: This parameter lets you know the status of the model.
+
+-	**Fields used**: This parameter lets you know the number of attributes (fields) used from the available list to generate the prediction accuracy score for the model. You can select the **Retrain with recommended fields** option to retrain the model with standard (out-of-the-box) attributes if the outcome of the trained model is not satisfactory.
+
+    If the parameter displays **edited** corresponding to the number of fields used, specifies that the model generated is custom defined.
+
+-	**Model performance**: This parameter displays information on the model's performance in predicting the leads that could convert into opportunities. Depending on the information, you can take appropriate action on what you want to do with the model.
+
+    >[NOTE]
+    >The range of the accuracy score is defined based on the Area Under the Curve (AUC) classification measurements.
+
+    -	**Ready to publish**: This specifies that the model accuracy is above the range and expect that the model performance will be good. 
+
+    -	**OK to publish**: This specifies that the model accuracy is within the range and expect that the model may have a reasonable perform.
+
+    -	**Not ready to publish**: This specifies that the model accuracy is below the range and expect that the model performance will be bad.
+
+-	**Retrain automatically**: This parameter allows you to retrain the model, automatically. To learn more, see [Automatically retrain](#automatic-retrain). 
+
+-	**Most influential fields**: This parameter displays the top five attributes (fields) that are most affecting the outcome of the prediction accuracy score.
+
+### Lead score grading
+
+When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded as A, B, C, or D according to the lead score that a lead has and this score is influenced by the attributes that we selected while creating the model. Leads that are graded as A are more likely to be converted into opportunities than leads that are graded D. 
+
+> [!div class="mx-imgBorder"]
+> ![Grading of Lead scoring](media/si-admin-predictive-lead-scoring-grading.png "Grading of Lead scoring")
+
+You can configure the range for the grading according to your organizational requirements. When you change lead score range for a grade, the preceding grade's maximum range value changes automatically depending on the changed minimum grade value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
 
 ## Generate system-default model 
 
@@ -155,10 +214,32 @@ Follow these steps:
 
 ## Retrain a model
 
-When your model is old or the prediction accuracy score doesn't match your organization's standards, you can retrain the model, which in turn increases the prediction accuracy score. The application uses the latest data (leads) from your organization to train the model so that it can provide better accuracy of the lead score for your users. 
+A model is retrained when it is old or the prediction accuracy score doesn't match your organization's standards, which in turn might increases the prediction accuracy score. The application uses the latest data (leads) from your organization to train the model so that it can provide better accuracy of the lead score for your users.
 
-> [!NOTE]
-> We recommend that you train the model once the data is refreshed in your organization for better prediction accuracy scoring.
+>[!NOTE]
+>We recommend that you train the model once the data is refreshed in your organization for better prediction accuracy scoring.
+
+You can retrain the model [automatically](#automatic-retrain) or [manually](#manual-retrain).
+
+### Automatic retrain
+
+Automatic retraining allows the application to retrain a model automatically once every 15 days. This may allow the model to learn from the data and improve the prediction accuracy over time. Depending on the model’s accuracy, the application takes an appropriate decision whether to publish or ignore the retrained model.
+
+To retrain a model automatically, go to the predictive lead scoring configuration page and enable **Retrain automatically**.
+
+Here are the scenarios where the application automatically publishes the model:
+
+-	When the accuracy of the retrained model is equal or more than 95% of the active model.
+
+-	When the current model is more than three months old.
+
+>[!NOTE]
+>If the accuracy of the retrained model is below the range of the application’s standard, the model will not be published automatically. 
+
+For example, model accuracy of the retrained model is good, and this specifies that the model is better compared to the current model. The retrained model will be published automatically.
+
+
+### Manual retrain
 
 1. Go to the predictive lead scoring configuration page, and select **Edit fields**.
 
