@@ -69,7 +69,7 @@ Typically, you can categorize the screen into the following sections:
 Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity trend.
 
 > [!div class="mx-imgBorder"]
-> ![Predictive opportunity score basic information](media/predictive-opportunity-scoring-widget-basic-information.png "Predictive opportunity score basic information")
+> ![Predictive opportunity score basic information](media/predictive-lead-scoring-widget-basic-information.png "Predictive opportunity score basic information")
 
 ### Top reasons
 
@@ -80,7 +80,7 @@ Displays the list of positive and negative reasons that are affecting the opport
 
 When you move cursor over a reason, a tool tip is displayed with an insight on what is causing the positive or negative reason to be on the top. Further, you can work on the insight and take necessary action to improve the opportunity.
 
-In the following example, for the reason **Finance is a strong** industry, the tool tip is displayed as **64% of leads from the financial industry are qualified within 3 days**. 
+In the following example, for the reason **Estimated revenue is higher than most successful opportunities.** industry, the tool tip is displayed as **15% of opportunities with estimated revenue above 19900 are closed as won**. 
 
 > [!div class="mx-imgBorder"]
 > ![Predictive opportunity score top reasons tool tip](media/predictive-opportunity-scoring-widget-top-reasons-tool-tip.png "Predictive opportunity score top reasons tool tip")
