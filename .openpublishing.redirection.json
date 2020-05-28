@@ -634,6 +634,126 @@
       "source_path": "ai-docs/customer-insights/segment-export.md",
       "redirect_url": "pm-segments",
       "redirect_document_id": "false"  
+    },
+    {
+      "source_path": "ai-docs/market-insights/about-data.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/accessibility.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/alerts-data-handling.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/alerts-data-science.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/alerts-management.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/available-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/awareness-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/community-insight.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/data-handling-market-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/demographic-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/faq.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/help-hub.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/insights-feed.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/journey-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/known-issues.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/market-insights-overview.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/navigation.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/news-events-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/product-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/settings.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/share-insights.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/market-insights/universe.md",
+      "redirect_url": "eos-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/assistant-v1.md",
+      "redirect_url": "assistant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/action-cards-reference-v1.md",
+      "redirect_url": "action-cards-reference",
+      "redirect_document_id": false
     }
   ]
 }

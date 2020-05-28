@@ -59,12 +59,8 @@
 ## User guide
 
 ### Assistant
-#### [Guide customer communications with assistant](assistant-v1.md)
-#### [Stay updated with cards](action-cards-reference-v1.md)
-
-### Assistant version 2
-#### [Guide customer communications with assistant version 2](assistant.md)
-#### [Stay updated with cards in assistant version 2](action-cards-reference.md)
+#### [Guide customer communications with assistant](assistant.md)
+#### [Stay updated with cards in assistant](action-cards-reference.md)
 
 ###	Productivity intelligence
 #### [View message interactions with email engagement](email-engagement.md)
@@ -84,6 +80,7 @@
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
+#### [View snapshots](view-snapshots.md)
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
@@ -108,6 +105,10 @@
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 #### [View and understand call summary](../sales/view-and-understand-call-summary.md)
 #### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
+
+## Developer Guide
+### Action Reference
+#### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
 
 ## [FAQs](faqs-sales-insights.md)
 

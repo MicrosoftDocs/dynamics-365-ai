@@ -53,8 +53,12 @@
 
 - name: Data enrichment
   items: 
-  - name: Enrich with brand and interest affinities
+  - name: Enrich customer profiles
+    href: enrichment-hub.md
+  - name: Brand and interest affinities
     href: pm-enrichment.md
+  - name: Enrich with Leadspace
+    href: enrichment-leadspace.md
 
 - name: Data analysis
   items: 
@@ -64,6 +68,8 @@
     href: pm-measures.md
   - name: Complete data using value predictions
     href: predictions.md
+  - name: Predict subscription churn
+    href: predict-subscription-churn.md
   - name: List customer activities
     href: pm-activities.md
 
@@ -105,7 +111,7 @@
 
 - name: Extensibility
   items:
-    - name: Review the entities schema in Common Data Model
+    - name: Review the entity schemas in Common Data Model
       href: entity-schemas.md
     - name: Work with APIs
       href: pm-apis.md
