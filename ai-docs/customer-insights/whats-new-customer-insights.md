@@ -72,10 +72,6 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
   
   Users can select multiple segments and take actions on them, like refreshing the segments, with a single click.    
 
-- **Improvements to compounded segments**
-
-  Users can create, edit, and delete segments that are based on other segments. For example, a segment constructed on another segment that was constructed on a third segment.    
-
 - **Refresh segments**
 
   Users can refresh a single segment or select only the segments they want to refresh.    
@@ -84,10 +80,6 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 
   The new design of the segments page uses a list format that lets you see more segments at once. A search field is added to find segments quickly. Users can now apply actions like downloading or deleting on multiple segments at once. A new trend experience is introduced to quickly identify significant changes on segments.    
   For more information, see [Create and manage segments](pm-segments.md).
-
-- **Expand segments**
-  
-  Segment expansion lets you find similar customers in your customer base using artificial intelligence. A binary classification machine learning model assigns a similarity score to customers in the expanded segment. The score is based on the similarity to customers in the source segment. Depending on the similarity score, customer profiles are added to a newly created segment.
 
 #### System administration
 
@@ -151,6 +143,10 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
   
   The In-set operator allows segmentation for customers by several possible string values. Before this operator was added, you had to construct such segments with multiple OR conditions. The In-set operator lets you do that with a single condition.    
   For more information, see [Create and manage segments](pm-segments.md).
+
+- **Improvements to compounded segments**
+
+  Users can create, edit, and delete segments that are based on other segments. For example, a segment constructed on another segment that was constructed on a third segment.    
 
 #### System administration
 
