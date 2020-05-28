@@ -34,7 +34,7 @@ There are six types of status for tasks in Customer Insights. The following stat
 
 - **Processing:** Task is in progress. The status can change to Successful or Failure.
 - **Successful:** Task completed successfully.
-- **Skipped:**: Task got skipped because one or more of the downstream processes this task depends on are either failing or got skipped. See [Refresh policies](#refresh-policies) for more details.
+- **Skipped:** Task got skipped because one or more of the downstream processes this task depends on are either failing or got skipped. See [Refresh policies](#refresh-policies) for more details.
 - **Failure:** Processing  of the task has failed.
 - **Canceled:** Processing was canceled by the user before it finished.
 - **Queued:** Processing is queued and will start once all the downstream tasks are completed. See [Refresh policies](#refresh-policies) for more details.
@@ -83,3 +83,7 @@ Customer Insights [supports a number of languages](supported-languages.md). To c
 To change your preferred formatting for dates, time, and numbers, use the **Country/Region format** dropdown. A formatting preview is displayed under this field. Customer Insights will automatically suggest a selection when you choose a new language.
 
 Select **Save** to confirm your selections.
+
+## Real-time tab
+
+Find details about the real-time API usage and see which events happened in a given time range. For more information, see [Real-time data ingestion](real-time-data-ingestion.md).
