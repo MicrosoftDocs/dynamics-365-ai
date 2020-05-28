@@ -60,17 +60,17 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be saved as a draft.
 
-10. Select **Back to segments** to go back to the **Segments** page and view the segment you just created.
+10. Select **Back to segments** to go back to the **Segments** page.
 
 ## Manage existing segments
 
 On the **Segments** page, you can view all your saved segments and manage them.
 
-Each segment is represented by a row that includes the segment's name, state, refresh status, member count, weekly member count change, and last refresh date and time.
+Each segment is represented by a row that includes additional information about the segment.
 
 You can sort the segments in a column by selecting the column heading.
 
-Use the **Search** box in the top right corner to filter the segments.
+Use the **Search** box in the top-right corner to filter the segments.
 
 > [!div class="mx-imgBorder"]
 > ![Options to manage an existing segment](media/segments-selected-segment.png "Options to manage an existing segment")
@@ -80,10 +80,10 @@ Select a segment to use the following options:
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** segments to include the latest data.
-- **Activate** or **Deactivate** the segment. Alternatively, you an use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
+- **Activate** or **Deactivate** the segment. You can also use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation or deactivation.
 - **Rename** the segment.
 - **Download** the list of members as a .CSV file.
-- **Add to** sends the list of customer IDs in the segment for processing in another application.
+- **Add to** will send the list of customer IDs in the segment for processing in another application.
 - **Delete** the segment.
 
 ## Refresh segments
@@ -152,7 +152,7 @@ Each group produces a specific set of customers. You can combine these groups to
 
    Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
 
-   - **Union** unites the two groups. In general, this creates a larger group in total.
+   - **Union** unites the two groups.
 
    - **Intersect** overlaps the two groups. Only data that *is common* to both groups is maintained in the unified group.
 
