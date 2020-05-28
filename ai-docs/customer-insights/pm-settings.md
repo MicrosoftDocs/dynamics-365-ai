@@ -34,10 +34,10 @@ There are six types of status for tasks in Customer Insights. The following stat
 
 - **Processing:** Task is in progress. The status can change to Successful or Failure.
 - **Successful:** Task completed successfully.
-- **Skipped:** Task got skipped because one or more of the downstream processes this task depends on are either failing or got skipped. See [Refresh policies](#refresh-policies) for more details.
+- **Skipped:** Task got skipped. One or more of the downstream processes this task depends on are failing or got skipped.
 - **Failure:** Processing  of the task has failed.
 - **Canceled:** Processing was canceled by the user before it finished.
-- **Queued:** Processing is queued and will start once all the downstream tasks are completed. See [Refresh policies](#refresh-policies) for more details.
+- **Queued:** Processing is queued and will start once all the downstream tasks are completed. For more information, see [Refresh policies](#refresh-policies).
 
 ### Refresh policies
 
@@ -58,7 +58,7 @@ Select the status of a task to see the progress details of the entire job it was
 
 ## Schedule tab
 
-Use the **Schedule** tab to schedule automatic refreshes of all your ingested Customer Insights data. This helps ensure that updates from your data sources are reflected in your unified customer profiles.
+Use the **Schedule** tab to schedule automatic refreshes of all your ingested Customer Insights data. Automatic refreshes help ensure that updates from your data sources are reflected in your unified customer profiles.
 
 1. In Customer Insights, go to **Admin** > **System** and select the **Schedule** tab.
 
