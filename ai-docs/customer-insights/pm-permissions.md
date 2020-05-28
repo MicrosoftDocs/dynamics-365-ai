@@ -1,7 +1,7 @@
 ---
 title: "User permissions in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 05/11/2020
+ms.date: 05/28/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -17,11 +17,11 @@ The **Permissions** page is where you'll set up roles and permissions for using 
 ## Viewer
 
 - Explore insights and segments within the **Home** and **Segments** pages.
-- Search and filter customer profiles using the **Customers** page. (Note: Data fields should first be indexed as searchable by your administrator.)
+- Search and filter customer profiles using the **Customers** page. Fields must be searchable.
 - View and explore the **Enrichment** page.
 - Explore and export entities using the **Entities** page.
 - View the status of system processes  using the **System** page.
-- Export segments from the **Segments** page to either a .csv file or to a Dynamics 365 Sales destination. (Note: Dynamics 365 Sales destinations should first be defined by your administrator.)
+- Export segments from the **Segments** page to either a .CSV file or to a Dynamics 365 Sales destination.
 - Install and use the **Power BI Customer Insights** dashboard to seek insights on your customers.
 
 ## Contributor
@@ -53,13 +53,13 @@ Administrators may use the **Permissions** page to grant user role assignments w
 
 2. Use the **Search** field to find the Azure Active Directory user or group whose permissions you want to adjust. Select a **Role** to assign to that user or group.
 
-3. Select **Save**. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. Users can access the Customer Insights app and perform actions according to their specified role.
+3. Select **Save**. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. Users can access the Customer Insights app and work according to their specified role.
 
 ## View current permissions
 
 Use the **Permissions** page to see what role assignments are currently active.
 
-- The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports individual users and groups.
+- The **Type** column specifies a single user, group, or application. The system supports individual users and groups.
 - Roles are specified under the **Role** column.
 - Select any column title to sort the results by that column's value.
 - Use the **Search** field at the top of the page to locate specific users.
