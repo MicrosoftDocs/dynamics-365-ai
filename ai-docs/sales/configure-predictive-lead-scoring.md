@@ -57,7 +57,7 @@ The uppermost section of the page displays the actions that you can perform on t
 > [!div class="mx-imgBorder"]
 > ![Actions for lead scoring](media/si-admin-predictive-lead-scoring-buttons.png "Actions for lead scoring")
 
-- **Publish**: When you publish a model to your organization, users in your organization can see the **My Open Leads Scored** system view and the **Lead Score** widget on lead forms. After you publish, the **Publish** button will only become available after you retrain or edit the model.
+- **Publish**: When you publish a model to your organization, users in your organization can see the **My Open Leads Scored** system view and the **Lead score** widget on lead forms. After you publish, the **Publish** button will only become available after you retrain or edit the model.
 
 - **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is available only when you retrain a model but you haven't yet published it.<!--Edit okay? I wanted to emphasize the window of time where the action is available.-->
 
@@ -143,7 +143,7 @@ This model is generated based on the standard attributes (fields) that are chose
 
 6. Publish the model. 
 
-   The prediction lead scoring is applied in your organization. Users can see the lead scoring in their views under the **Lead Score** column and a widget in the lead form.
+   The prediction lead scoring is applied in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form.
 
 >[!IMPORTANT]
 >Adding the predictive lead scoring widget to a form through legacy form designer is not supported.
@@ -201,7 +201,7 @@ Follow these steps:
 
 8. After the model is generated, publish the model.
 
-    The prediction lead scoring is applied in your organization. Users can see the lead scoring in their views under the **Lead Score** column and a widget in the lead form.
+    The prediction lead scoring is applied in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form.
     
 >[!IMPORTANT]
 >Adding the predictive lead scoring widget to a form through legacy form designer is not supported.

@@ -58,7 +58,7 @@ The uppermost section of the page displays the actions that you can perform on t
 > [!div class="mx-imgBorder"]
 > ![Actions for opportunity scoring](media/si-admin-predictive-lead-scoring-buttons.png "Actions for opportunity scoring")
 
-- **Publish**: When you publish a model to your organization, users in your organization can see the **My Open Opportunities Scored** system view and the **Opportunity Score** widget on opportunity forms. After you publish, the **Publish** button will only become available after you retrain or edit the model.
+- **Publish**: When you publish a model to your organization, users in your organization can see the **My Open Opportunities Scored** system view and the **Opportunity score** widget on opportunity forms. After you publish, the **Publish** button will only become available after you retrain or edit the model.
 
 - **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is available only when you retrain a model but you haven't yet published it.
 
@@ -144,7 +144,7 @@ This model is generated based on the standard attributes (fields) that are chose
 
 7. Publish the model. 
  
-   The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity Score** column and a widget in the opportunity form.
+   The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form.
 
 >[!IMPORTANT]
 >Adding the predictive opportunity scoring widget to a form through legacy form designer is not supported. 
@@ -202,7 +202,7 @@ Follow these steps:
 
 8. After the model is generated, publish the model.
 
-    The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity Score** column and a widget in the opportunity form.
+    The prediction opportunity scoring is applied in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form.
     
 >[!IMPORTANT]
 >Adding the predictive opportunity scoring widget to a form through legacy form designer is not supported. 
