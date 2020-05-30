@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 04/22/2020
+ms.date: 04/29/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -14,9 +14,11 @@ manager: shellyha
 
 Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities. These affinities are determined based on data from people with similar demographics to your customers. This information helps you to better understand and segment your customers based on their affinities to specific brands and interests.
 
-In Customer Insights, go to **Data** > **Enrichment** to configure and view the data.
+In Customer Insights, go to **Data** > **Enrichment** to [configure and view enrichments](enrichment-hub.md).
 
-:::image type="content" source="media/enrichment-page.png" alt-text="Enrichment page with configuration options":::
+To configure brand affinities enrichment, go to the **Discover** tab and select **Enrich my data** on the **Brands** tile.
+
+To configure interest affinities enrichment, go to the **Discover** tab and select **Enrich my data** on the **Interests** tile.
 
 ## About Microsoft Graph
 
@@ -37,13 +39,13 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 ## Configure Enrichment
 
-Configuring brands and interests enrichment consists of two steps:
+Configuring brands or interests enrichment consists of two steps:
 
-1. **Define your brands and interests**
+1. **Define your brands or interests**
 
    Select one of the following options:
-   - **Industry**: The system identifies the top brands and interests relevant to your industry and enriches your customer data with them.
-   - **Choose your own**: Select up to five items from the list of brands and interests that are most relevant to your organization.
+   - **Industry**: The system identifies the top brands or interests relevant to your industry and enriches your customer data with them.
+   - **Choose your own**: Select up to five items from the list of brands or interests that are most relevant to your organization.
 
    To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
 
@@ -61,7 +63,7 @@ Configuring brands and interests enrichment consists of two steps:
 
 ## Run enrichment
 
-Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the **Data** > **Enrichment** page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 > [!TIP]
@@ -69,7 +71,7 @@ Depending on the size of your customer data, it may take several minutes for an 
 
 ## Enrichment results
 
-After running the enrichment process, review the total number of enriched customers and a breakdown of brands and interests in the enriched customer profiles.
+After running the enrichment process, go to **My enrichments** to review the total number of enriched customers and a breakdown of brands or interests in the enriched customer profiles.
 
 :::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
 
@@ -77,7 +79,7 @@ Review the enriched data by selecting **View enriched data** in the chart. Enric
 
 ## See enrichment data on the customer card
 
-Brand and interest affinities can also be viewed on individual customer cards. Go to **Customers** and select a customer profile. In the customer card, you'll find charts for the brands and interests that people in that customer's demographic profile have affinity for.
+Brand and interest affinities can also be viewed on individual customer cards. Go to **Customers** and select a customer profile. In the customer card, you'll find charts for the brands or interests that people in that customer's demographic profile have affinity for.
 
 :::image type="content" source="media/enrichment-customer-card.png" alt-text="Customer card with enriched data":::
 
