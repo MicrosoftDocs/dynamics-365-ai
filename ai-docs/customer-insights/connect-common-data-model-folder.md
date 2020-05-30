@@ -19,6 +19,14 @@ This article provides information on how to connect a Common Data Model folder w
 
 - Customer Insights supports Azure Data Lake *Gen2* storage accounts exclusively. You can't use Azure Data Lake Gen1 storage accounts in Customer Insights.
 
+- The Azure Data Lake you intend to connect and bring data from should be in the same Azure region your Customer Insights environment is provisioned in. Connecting to data from a Common Data Model folder from an Azure Data Lake in a different Azure region is not a supported configuration. 
+
+> [!NOTE]
+> To know the Azure region of the Customer Insights environment, 
+   - Click on the **Settings** option on the top right part of the screen
+   - Select **Environments**
+   - In the new **Environments** panel, note the **Region** value of the environment
+
 - Data stored in online services, such as Azure Data Lake Storage, may be stored in a different location than where data is processed or stored in Dynamics 365 Customer Insights. By importing or connecting to data stored in online services, you agree that data can be transferred to and stored with Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
 
 ## Connect to a Common Data Model folder
