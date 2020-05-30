@@ -1,5 +1,5 @@
 ---
-title: "Improve data quality by cleansing support case titles​"
+title: "Improve data quality by cleaning support case titles​"
 description: "Learn how to improve AI Insights charts by removing extraneous tags in support case titles."
 keywords: ""
 ms.date: 6/04/2020
@@ -57,16 +57,14 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
  
   - You can specify up to 100 phrases to ignore.
 
-
-   > [!div class="mx-imgBorder"]
-   > ![Phrases to ignore](media/phrases-to-ignore.png "Phrases to ignore")
+  > [!div class="mx-imgBorder"]
+  > ![Phrases to ignore](media/phrases-to-ignore.png "Phrases to ignore")
    
 
    For text examples, click **Show example**.
-
-
-   > [!div class="mx-imgBorder"]
-   > ![Show example for Phrases to ignore](media/show-example-phrases.png "Show an example of how data cleaning is applied to phrases")
+   
+  > [!div class="mx-imgBorder"]
+  > ![Show example for Phrases to ignore](media/show-example-phrases.png "Show an example of how data cleaning is applied to phrases")
    
    
 
