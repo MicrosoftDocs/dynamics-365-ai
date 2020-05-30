@@ -36,10 +36,15 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
    > ![Case title cleaning page](media/case-title-cleaning.png "Case title cleaning page")
    
 
-2. If your case titles include tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. To see an example of how the cleansing settings will be applied to titles, select **Show example**.
+2. If your case titles include tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. 
 
-   ![Cleansing settings](media/cleansing-settings.png)
+(Need screen with drop-down menu - cannot see in sample data)
 
+To see an example of how the cleaning settings will be applied to titles, select **Show example**.
+
+   
+   > [!div class="mx-imgBorder"]
+   > ![Show example for Sections to ignore](media/show-example-sections.png "Show an example of cleaning settings are applied to titles")
    
 
 3. Under **Phrases to ignore (Preview)**, specify the phrases you want ignored. Keep in mind the following:
@@ -51,7 +56,18 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
  
 >- You can specify up to 100 phrases to ignore.
 
+
+   > [!div class="mx-imgBorder"]
+   > ![Case title cleaning page](media/case-title-cleaning.png "Case title cleaning page")
+   
+
 > For text examples, click **Show example**.
+
+
+   > [!div class="mx-imgBorder"]
+   > ![Show example for Phrases to ignore](media/show-example-phrases.png "Show an example of how data cleaning is applied to phrases")
+   
+   
 
 4. When you are through entering your conditions, select **Save**.
 
