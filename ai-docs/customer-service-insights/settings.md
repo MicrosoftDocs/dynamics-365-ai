@@ -38,9 +38,9 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
 
 2. If your case titles include tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. 
 
-(Need screen with drop-down menu - cannot see in sample data)
+   (Need screen with drop-down menu - cannot see in sample data)
 
-To see an example of how the cleaning settings will be applied to titles, select **Show example**.
+   To see an example of how the cleaning settings will be applied to titles, select **Show example**.
 
    
    > [!div class="mx-imgBorder"]
@@ -62,7 +62,7 @@ To see an example of how the cleaning settings will be applied to titles, select
    > ![Phrases to ignore](media/phrases-to-ignore.png "Phrases to ignore")
    
 
-  For text examples, click **Show example**.
+   For text examples, click **Show example**.
 
 
    > [!div class="mx-imgBorder"]
