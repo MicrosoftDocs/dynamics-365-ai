@@ -61,6 +61,7 @@ If you don't want to create a new environment from scratch, select **Copy from e
    > By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
    >
    > Currently, ingested entities are always stored in the Customer Insights managed data lake.
+   > We support only Azure Data Lake Gen2 storage accounts from the same Azure region you selected above to provision your Customer Insights environment. Specifying an Azure Data Lake from a different Azure region is not a supported configuration
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
    - For the Azure Data Lake Storage Gen2 option, you need to specify **Account name** and **Account key** for your storage account. The container name is always set to **customerinsights** and can't be changed.
