@@ -72,8 +72,8 @@ To see an example of how the cleaning settings will be applied to titles, select
 
 4. When you are through entering your conditions, select **Save**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Save cleaning settings](media/save-cleaning-settings.png "Save cleaning settings")
+   [!div class="mx-imgBorder"]
+   ![Save cleaning settings](media/save-cleaning-settings.png "Save cleaning settings")
    
    
 5. Customer Service Insights gives you the option of refreshing your workspace. The settings take effect when you refresh the workspace. Select **Refresh** to refresh the workspace.
