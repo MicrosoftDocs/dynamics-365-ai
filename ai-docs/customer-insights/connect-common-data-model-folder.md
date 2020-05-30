@@ -1,11 +1,12 @@
 ---
 title: "Connect Common Data Model data to an Azure Data Lake account | Microsoft Docs"
 description: "Work with Common Data Model data in Dynamics 365 Customer Insights using Azure Data Lake Storage."
-ms.date: 04/16/2020
+ms.date: 05/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: adkuppa
 manager: shellyha
 ---
 
@@ -19,13 +20,10 @@ This article provides information on how to connect a Common Data Model folder w
 
 - Customer Insights supports Azure Data Lake *Gen2* storage accounts exclusively. You can't use Azure Data Lake Gen1 storage accounts in Customer Insights.
 
-- The Azure Data Lake you intend to connect and bring data from should be in the same Azure region your Customer Insights environment is provisioned in. Connecting to data from a Common Data Model folder from an Azure Data Lake in a different Azure region is not a supported configuration. 
+- The Azure Data Lake you want to connect and ingest data from have to be in the same Azure region as Customer Insights environment. Connecting to a Common Data Model folder from an Azure Data Lake in a different Azure region is not supported.
 
 > [!NOTE]
-> To know the Azure region of the Customer Insights environment, 
-   - Click on the **Settings** option on the top right part of the screen
-   - Select **Environments**
-   - In the new **Environments** panel, note the **Region** value of the environment
+> To know the Azure region of the Customer Insights environment, select the settings icon on the right side of the application header. Then, select **Environments**. In the **Environments** panel you'll find the **Region** value of the environment.
 
 - Data stored in online services, such as Azure Data Lake Storage, may be stored in a different location than where data is processed or stored in Dynamics 365 Customer Insights. By importing or connecting to data stored in online services, you agree that data can be transferred to and stored with Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
 
@@ -47,7 +45,7 @@ This article provides information on how to connect a Common Data Model folder w
    > [!NOTE]
    > Any model.json file associated with another data source in the instance won't show in the list.
 
-7. You'll get a list of available entities from the selected model.json file. You can review and select from the list of entities available and select **Save**. All of the selected entities will be attached to Customer Insights.
+7. You'll get a list of available entities from the selected model.json file. You can review and select from the list of available entities and select **Save**. All of the selected entities will be attached to Customer Insights.
    > [!div class="mx-imgBorder"]
    > ![Dialog box showing a list of entities from a model.json file](media/review-entities.png)
 
