@@ -47,21 +47,22 @@ To see an example of how the cleaning settings will be applied to titles, select
    > ![Show example for Sections to ignore](media/show-example-sections.png "Show an example of cleaning settings are applied to titles")
    
 
-3. Under **Phrases to ignore (Preview)**, specify the phrases you want ignored. Keep in mind the following:
->- Phrases are not case-sensitive and can contain letters or symbols.
+3. Under **Phrases to ignore (Preview)**, specify the phrases you want ignored. 
+  Keep in mind the following:
+  - Phrases are not case-sensitive and can contain letters or symbols.
 
->- Spaces can be included between letters and symbols, but spaces at the beginning or ending of a phrase will be trimmed. 
+  - Spaces can be included between letters and symbols, but spaces at the beginning or ending of a phrase will be trimmed. 
 
->- Phrases can have up to 200 characters, and each phrase must be separated by a line break.
+  - Phrases can have up to 200 characters, and each phrase must be separated by a line break.
  
->- You can specify up to 100 phrases to ignore.
+  - You can specify up to 100 phrases to ignore.
 
 
    > [!div class="mx-imgBorder"]
-   > ![Case title cleaning page](media/case-title-cleaning.png "Case title cleaning page")
+   > ![Phrases to ignore](media/phrases-to-ignore.png "Phrases to ignore")
    
 
-> For text examples, click **Show example**.
+  For text examples, click **Show example**.
 
 
    > [!div class="mx-imgBorder"]
