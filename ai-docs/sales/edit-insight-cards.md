@@ -63,7 +63,7 @@ When you create a card, you can specify the security roles to whom you want the 
 > [!NOTE]
 > The security roles you see in the cards are defined in the Common Data Service platform. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
-1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we've selected the **Opportunity at Risk (sentiment based)** card.
+1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we've selected the **Close date coming soon** card.
 
     > [!div class="mx-imgBorder"]
     > ![View insight card details](media/si-admin-edit-card-assigned-roles.png "View insight card details")
@@ -75,14 +75,14 @@ When you create a card, you can specify the security roles to whom you want the 
     > [!div class="mx-imgBorder"]
     > ![Security roles to add to card organization](media/si-admin-edit-card-assigned-roles-select-role.png "Security roles to add to card organization")
 
-   In this example, we have added the **Marketing Manager** security role to the **Opportunity at Risk (sentiment based)** card.
+   In this example, we have added the **Marketing Manager** security role to the **Close date coming soon** card.
 
     > [!div class="mx-imgBorder"]
     > ![Security role added to card](media/si-admin-edit-card-assigned-roles-added-role.png "Security role added to card")
 
 4. Save the card.
 
-5. To remove security roles, select the role to remove. In this example, we're removing the **Marketing Manager** security role from the **Opportunity at Risk (sentiment based)** card.
+5. To remove security roles, select the role to remove. In this example, we're removing the **Marketing Manager** security role from the **Close date coming soon** card.
 
     > [!div class="mx-imgBorder"]
     > ![Remove security role for card](media/si-admin-edit-card-assigned-roles-remove-role.png "Remove security role for card")
