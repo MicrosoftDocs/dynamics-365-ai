@@ -25,11 +25,11 @@ If it's the first time you define searchable attributes as an administrator, you
 
 > [!NOTE]
 > We create a default search index configuration on the available attributes in the Customer entity from the following semantic types as defined in the Map page.
-- Person First name, Last name, Middle name, Full Name
-- Organization Name
-- Email address
-- Phone number
-- Location information
+> - Person First name, Last name, Middle name, Full Name
+> - Organization Name
+> - Email address
+> - Phone number
+> - Location information
 
 2. Select **+ Add** to specify the indexed fields.
 
