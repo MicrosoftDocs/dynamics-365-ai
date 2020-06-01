@@ -21,11 +21,19 @@ The result of unifying your customer data is a Customer Profile entity that prov
 
 If it's the first time you define searchable attributes as an administrator, you need to define indexed fields first. We suggest you choose all the attributes by which users can search and filter customers on the **Customers** page. You can only specify attributes that exist in the Customer Profile entity that you created during the data unification process.
 
-1. Open the **Customers** page and select **Go to Search & filter index**. If you defined the attributes before, select the **Search & Filter index** control on the **Customers** page.
+1. Open the **Customers** page and select **Search & filter index**.
 
-2. Select **Add fields** to specify the indexed fields.
+> [!NOTE]
+> We create a default search index configuration on the available attributes in the Customer entity from the following semantic types as defined in the Map page.
+- Person First name, Last name, Middle name, Full Name
+- Organization Name
+- Email address
+- Phone number
+- Location information
 
-3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add**. You can also remove any selected attributes by selecting the **Delete** symbol.
+2. Select **+ Add** to specify the indexed fields.
+
+3. Select the attributes in the list you want to add as indexed fields. You can always add more attributes by selecting **Add**. You can also remove any selected attributes by selecting the **Remove** symbol.
 
 ## Explore the Indexed customer fields table
 
