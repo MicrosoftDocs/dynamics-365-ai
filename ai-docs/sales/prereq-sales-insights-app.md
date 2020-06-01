@@ -27,7 +27,9 @@ Verify the following requirements before setting up Conversation Intelligence fo
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
     
     >[!NOTE]
-    >Though the **Sales Insights** license gets you access to the **Conversation intelligence** feature, it provides only 3 hours of call processing capacity for the entire organization. However, to extend the call processing capacity, you must purchase the **Call intelligence** add-on for Sales Insights. To learn more, see **Add-on Capacities** section in **Appendix F: Dynamics 365 Capacity Add-ons** from [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+    >The Sales Insights license provides you access to the Conversation Intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br> 
+    >To extend the capacity of processing hours for your organization, you must purchase the Conversation Intelligence add-on for Sales Insights.<br>
+    >To learn more, see **Add-on Capacities** section in **Appendix F: Dynamics 365 Capacity Add-ons** from [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
     
 -	You must get access to Conversation Intelligence. If you don't have access, follow these steps:
     
