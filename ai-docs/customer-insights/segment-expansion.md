@@ -10,18 +10,18 @@ ms.reviewer: nimagen
 manager: shellyha
 ---
 
-# Expand segments (preview)
+# Similar Customers (preview)
 
-*Segment expansion* lets you find similar customers in your customer base using artificial intelligence. You need to have at least one segment created to use this feature. Expanding segments help find customers that are similar to an **existing** segment.
+*Find similar* lets you find similar customers in your customer base using artificial intelligence. You need to have at least one segment created to use this feature. Expanding the criteria of an existing segment help find customers that are similar to that  segment.
 
 > [!NOTE]
-> Segment expansion uses automated means to evaluate data and make predictions based on that data, and therefore has the capability to be used as a method of profiling, as that term is defined by the General Data Protection Regulation (“GDPR”). Customer’s use of this feature to process data may be subject to GDPR or other laws or regulations. You are responsible for ensuring that your use of Customer Insights, including predictions, complies with all applicable laws and regulations, including laws related to privacy, personal data, biometric data, data protection, and confidentiality of communications.
+> *Find similar* uses automated means to evaluate data and make predictions based on that data, and therefore has the capability to be used as a method of profiling, as that term is defined by the General Data Protection Regulation (“GDPR”). Customer’s use of this feature to process data may be subject to GDPR or other laws or regulations. You are responsible for ensuring that your use of Customer Insights, including predictions, complies with all applicable laws and regulations, including laws related to privacy, personal data, biometric data, data protection, and confidentiality of communications.
 
-## Expand an existing segment
+## Finding similar customers
 
-1. In Customer Insights, go to **Segments** and select the segment you want to expand. That's your *source segment*.
+1. In Customer Insights, go to **Segments** and select the segment you want to base your new segment on. That's your *source segment*.
 
-1. In the action bar, select **Expand segment**.
+1. In the action bar, select **Find similar**.
 
    > [!div class="mx-imgBorder"]
    > ![Expand segment](media/expand-segment.png "Expand segment")
@@ -42,33 +42,33 @@ manager: shellyha
 
 1. Select **Run** at the bottom of the page to start a binary classification task (a method of machine learning) which analyzes the dataset.
 
-## View an expanded segment output
+## View the similar segment
 
-After processing the expanded segment, you'll find the new segment listed on the **Segments** page.
+After processing the similar segment, you'll find the new segment listed on the **Segments** page.
 
 > [!div class="mx-imgBorder"]
 > ![Expanded segment](media/expanded-segment.png "Expanded segment")
 
 Select **View** in the action bar to open the segment detail. This view contains information about the result distribution across [similarity scores](#about-similarity-scores). You'll also find the similarity score values in the **Segment members preview**.
 
-## Use the output of an expanded segment
+## Use the output of an similar segment
 
-You can [work with the output of an expanded segment](pm-segments.md) similar to other segments. For example, export the segment or build a measure.
+You can [work with the output of a similar segment](pm-segments.md) as you do with other segments. For example, export the segment or build a measure.
 
-## Refresh and edit an expanded segment
+## Refresh and edit a similar segment
 
-To refresh an expanded segment, select it on the **Segments** page and select **Refresh** in the action bar.
+To refresh a similar segment, select it on the **Segments** page and select **Refresh** in the action bar.
 
-Editing an expanded segment results in a new run to process your data. The previously created expanded segment gets replaced with the new expanded segment.    
-To edit an expanded segment. select it on the **Segments** page and select **Edit** in the action bar. Apply your changes and select **Run** to start the processing.
+Editing a similar segment results in a new run to process your data. The previously created segment gets updated with refreshed data based on any changes to the criteria of the similar segment.    
+To edit a similar segment, select it on the **Segments** page and select **Edit** in the action bar. Apply your changes and select **Run** to start the processing.
 
-## Delete an expanded segment
+## Delete a similar segment
 
 Select the segment on the **Segments** page and select **Delete** in the action bar. Then, confirm your deletion.
 
 ## About similarity scores
 
-The binary classification machine learning model assigns a score to customers in the expanded segment. The score is based on the similarity to customers in the source segment.
+The binary classification machine learning model assigns a score to customers in the similar segment. The score is based on the similarity to customers in the source segment.
 
 - Similarity scores below 0.55 are customers the system classified as *not similar* to customers in the source segment
 - Similarity scores between 0.55 – 0.7 are classified as *somewhat similar*
