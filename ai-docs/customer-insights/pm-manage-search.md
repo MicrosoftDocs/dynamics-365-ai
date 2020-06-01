@@ -24,7 +24,7 @@ If it's the first time you define searchable attributes as an administrator, you
 1. Open the **Customers** page and select **Search & filter index**.
 
 > [!NOTE]
-> We create a default search index configuration on the available attributes in the Customer entity from the following semantic types as defined in the Map page.
+> We create a default search index configuration on the available attributes in the Customer entity from the following semantic types as defined on the Map page.
 > - Person First name, Last name, Middle name, Full Name
 > - Organization Name
 > - Email address
