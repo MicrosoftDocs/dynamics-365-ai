@@ -81,7 +81,7 @@ The parameters displayed in this section show information about the status and p
 
     If the parameter displays **edited** corresponding to the number of fields used, this specifies that the model generated is custom-defined.
 
--	**Model performance** displays information about the model's performance in predicting the opportunities that mighe be converted into deals. Depending on the information, you can take appropriate action on what you want to do with the model.
+-	**Model performance** displays information about the model's performance in predicting the opportunities that might be converted into deals. Depending on the information, you can take appropriate action on what you want to do with the model.
 
     >[!NOTE]
     >The range of the accuracy score is defined based on the area under the curve (AUC) classification measurements.

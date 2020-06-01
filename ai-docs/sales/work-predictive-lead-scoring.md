@@ -57,7 +57,7 @@ The following image shows a typical **Lead score** widget, which lists the reaso
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
 
-Typically<!--I assume that when you say "typically," that means that sometimes the screen doesn't look like this? If the screen always will show these sections, then "Typically" doesn't work.-->, the screen is organized into the following sections:<!--note from editor: This edit echoes the  configure-predictive-lead-scoring article, which also involved turning the sentence from active to passive voice. That's okay; active voice doesn't really work here. The reader isn't categorizing the sections of these screens, he or she is just looking at the screen as you explain it. -->
+Typically, the screen is organized into the following sections:
 
 - [Basic information](#basic-information)
 
