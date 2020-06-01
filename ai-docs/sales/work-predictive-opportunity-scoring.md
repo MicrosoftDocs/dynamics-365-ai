@@ -73,7 +73,7 @@ The information included in this section covers the opportunity score, opportuni
 
 ### Top reasons
 
-The most important reasons&mdash;both positive and negative&mdash;that affect the opportunity score are listed here. You can use these reasons to analyze how you might convert the opportunity into a deal.<!--Edit okay?--> 
+The most important reasons&mdash;both positive and negative&mdash;that affect the opportunity score are listed here. You can use these reasons to analyze how you might convert the opportunity into a deal.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive opportunity score top reasons](media/predictive-opportunity-scoring-widget-top-reasons.png "Predictive opportunity score top reasons")

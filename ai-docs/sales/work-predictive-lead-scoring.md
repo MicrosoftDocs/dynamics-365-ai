@@ -72,7 +72,7 @@ The information included in this section covers the lead score, lead grade, and 
 
 ### Top reasons
 
-The most important reasons&mdash;both positive and negative&mdash;that affect the lead score are listed here. You can use these reasons to analyze how you might convert the lead into an opportunity.<!--Suggested-->
+The most important reasons&mdash;both positive and negative&mdash;that affect the lead score are listed here. You can use these reasons to analyze how you might convert the lead into an opportunity.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score top reasons](media/predictive-lead-scoring-widget-top-reasons.png "Predictive lead score top reasons")
@@ -90,7 +90,7 @@ The **Lead score** pane opens with a list of all score improvers (positives) and
 
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score Details tab](media/predictive-lead-scoring-widget-top-reasons-details-tab.png "Predictive lead score Details tab")
-<!--The following paragraph consolidates the two that were here before. Some of the text seemed redundant.-->
+
 For more information about the lead score, select the **About** tab. The **About** tab helps you understand what the lead score is and how it works. Under **What does it mean?**, you'll find information about how lead scores are categorized by admins in your organization. Under **What impacts the score?**, you'll find the attributes that affect lead scores in your organization.
 
 > [!div class="mx-imgBorder"]

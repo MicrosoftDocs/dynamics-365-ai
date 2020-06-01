@@ -51,7 +51,7 @@ Typically, the configuration page is organized into the following sections:
 -	[Lead score grading](#lead-score-grading)
 
 ### Actions you can perform on the model
-<!--Edits to remove "button" descriptor are suggested. The Style Guide prefers we use the name of a button alone. Also, talking about actions moves the focus to what the user wants to do, rather than on what our pretty UI looks like. :)-->
+
 The uppermost section of the page displays the actions that you can perform on the model.
 
 > [!div class="mx-imgBorder"]
@@ -59,7 +59,7 @@ The uppermost section of the page displays the actions that you can perform on t
 
 - **Publish**: When you publish a model to your organization, users in your organization can see the **My Open Leads Scored** system view and the **Lead score** widget on lead forms. After you publish, the **Publish** button will only become available after you retrain or edit the model.
 
-- **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is available only when you retrain a model but you haven't yet published it.<!--Edit okay? I wanted to emphasize the window of time where the action is available.-->
+- **Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is available only when you retrain a model but you haven't yet published it.
 
 - **Edit fields**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to tweak the model to consider a unique business process. More information: [Retrain a model](#retrain-a-model)
 
@@ -67,7 +67,7 @@ The uppermost section of the page displays the actions that you can perform on t
 
 ### Version details
 
-The parameters displayed in this section show information about the status and performance of the model.<!-- Suggested-->
+The parameters displayed in this section show information about the status and performance of the model.
 
 > [!div class="mx-imgBorder"]
 > ![Version details for the lead scoring model](media/si-admin-predictive-lead-scoring-version-details.png "Version details for the lead scoring model")
@@ -83,7 +83,7 @@ The parameters displayed in this section show information about the status and p
 -	**Model performance** displays information about the model's performance in predicting the leads that might be converted into opportunities. Depending on the information, you can take appropriate action on what you want to do with the model.
 
     >[!NOTE]
-    >The range of the accuracy score is defined based on the area under the curve (AUC) classification measurements.<!--Can you give a link to further information, in case the reader isn't familiar with the term? -->
+    >The range of the accuracy score is defined based on the area under the curve (AUC) classification measurements.
 
   -	**Ready to publish** specifies that the model accuracy is above the range, and you can expect that the model will perform well. 
 
@@ -97,12 +97,12 @@ The parameters displayed in this section show information about the status and p
 
 ### Lead score grading
 
-When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded A, B, C, or D, according to the lead's lead score. This score is influenced by the attributes that we selected while creating the model. Leads that are graded A are more likely to be converted into opportunities than leads that are given a<!--Suggested, just to vary the wording a bit.--> D. 
+When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded A, B, C, or D, according to the lead's lead score. This score is influenced by the attributes that we selected while creating the model. Leads that are graded A are more likely to be converted into opportunities than leads that are given a D. 
 
 > [!div class="mx-imgBorder"]
 > ![Grading of lead scores](media/si-admin-predictive-lead-scoring-grading.png "Grading of lead scores")
 
-You can configure the range for the grading according to your organizational requirements. When you change the lead score range for a grade, the maximum range value for the adjacent<!--Edit okay?--> grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
+You can configure the range for the grading according to your organizational requirements. When you change the lead score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
 
 ## Generate system-default model 
 
@@ -211,29 +211,29 @@ Follow these steps:
 
 ## Retrain a model
 
-It's time to retrain a model when its prediction accuracy score doesn't match your organization's standards, or simply when it gets old.<!--Edit okay?--> Retraining generally increases the prediction accuracy score.<!--Edit okay? I didn't know what this was saying.--> The application uses the latest data (leads) from your organization to train the model so that it can provide more accurate lead scores for your users.
+It's time to retrain a model when its prediction accuracy score doesn't match your organization's standards, or simply when it gets old. Retraining generally increases the prediction accuracy score. The application uses the latest data (leads) from your organization to train the model so that it can provide more accurate scores for your users.
 
 >[!NOTE]
 >We recommend that you train the model after the data is refreshed in your organization, for better prediction accuracy scoring.
 
-You can retrain the model automatically or manually. Both methods are described in the following sections.<!--Suggested. Links are fine for remote sections within a long article, but I just don't think it makes sense to link to the very next line.-->
+You can retrain the model automatically or manually. Both methods are described in the following sections.
 
 ### Automatic retraining
 
-Automatic retraining allows the application to retrain a model automatically once every 15 days. This can allow the model to learn from historical<!--Edit okay? I assume that the model is being trained with actual data from the past?--> data and improve its prediction accuracy over time. Depending on the model's accuracy, the application makes an informed decision whether to publish or ignore the retrained model.
+Automatic retraining allows the application to retrain a model automatically once every 15 days. This can allow the model to learn from historical data and improve its prediction accuracy over time. Depending on the model's accuracy, the application makes an informed decision whether to publish or ignore the retrained model.
 
 To retrain a model automatically, go to the predictive lead scoring configuration page and enable **Retrain automatically**.
 
 Here are the scenarios where the application automatically publishes the model:
 
--	When the accuracy of the retrained model is equal to or greater than 95&nbsp;percent of the accuracy<!--Is this what 95 percent refers to?--> of the active model.
+-	When the accuracy of the retrained model is equal to or greater than 95&nbsp;percent of the accuracy of the active model.
 
 -	When the current model is more than three months old.
 
 >[!NOTE]
 >If the accuracy of the retrained model is below the range of the application's standard, the model won't be published automatically. 
 
-For example, the accuracy of a retrained model is good and this<!--What is "this" in this case? --> indicates that the model is better than the current model. In this case, the retrained model will be published automatically.
+For example, the accuracy of a retrained model is good and this indicates that the model is better than the current model. In this case, the retrained model will be published automatically.
 
 ### Manual retraining
 
