@@ -754,6 +754,11 @@
       "source_path": "ai-docs/sales/action-cards-reference-v1.md",
       "redirect_url": "action-cards-reference",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-admin.md",
+      "redirect_url": "index",
+      "redirect_document_id": false
     }
   ]
 }
