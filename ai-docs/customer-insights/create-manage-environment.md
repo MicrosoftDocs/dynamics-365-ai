@@ -78,12 +78,19 @@ If you don't want to create a new environment from scratch, select **Copy from e
 
 The following configuration settings are copied:
 
-- Data sources
-- Data unification settings
-- Relationships
-- Measures
+- Feature configurations
+- Inegsted/imported data sources
+- Data unification (Map, Match, Merge) configuration
 - Segments
-- User permissions
+- Measures
+- Relationships
+- Activities
+- Search & filter Index
+- Export destinations
+- Scheduled refresh
+- Enrichments
+- Model management
+- Role assignments
 
 The following settings are *not* copied:
 
