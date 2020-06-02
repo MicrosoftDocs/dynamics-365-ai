@@ -1,7 +1,7 @@
 ---
 title: "System configuration in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about system settings in Dynamics 365 Customer Insights."
-ms.date: 05/27/2020
+ms.date: 06/02/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -84,6 +84,6 @@ To change your preferred formatting for dates, time, and numbers, use the **Coun
 
 Select **Save** to confirm your selections.
 
-## Real-time tab
+## API usage tab
 
 Find details about the real-time API usage and see which events happened in a given time range. For more information, see [Real-time data ingestion](real-time-data-ingestion.md).
