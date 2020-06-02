@@ -10,8 +10,8 @@
 - name: Free trial
   href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
 
-# - name: First steps
-#  href: pm-homepage.md
+- name: First steps
+  href: pm-homepage.md
 
 - name: Data sources
   items:
@@ -53,8 +53,12 @@
 
 - name: Data enrichment
   items: 
-  - name: Enrich with brand and interest affinities
+  - name: Enrich customer profiles
+    href: enrichment-hub.md
+  - name: Brand and interest affinities
     href: pm-enrichment.md
+  - name: Enrich with Leadspace
+    href: enrichment-leadspace.md
 
 - name: Data analysis
   items: 
@@ -64,6 +68,8 @@
     href: pm-measures.md
   - name: Complete data using value predictions
     href: predictions.md
+  - name: Predict subscription churn
+    href: predict-subscription-churn.md
   - name: List customer activities
     href: pm-activities.md
 
@@ -93,12 +99,10 @@
       href: export-liveramp.md
 
 - name: Administration
-  items: 
-    - name: Familiarize with admin settings 
-      href: pm-admin.md
+  items:
     - name: Set up the system configuration
       href: pm-settings.md
-    - name: Define user permissions
+    - name: Assign user permissions
       href: pm-permissions.md
     - name: Manage multiple environments
       href: create-manage-environment.md
