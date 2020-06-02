@@ -79,18 +79,18 @@ If you don't want to create a new environment from scratch, select **Copy from e
 The following configuration settings are copied:
 
 - Feature configurations
-- Inegsted/imported data sources only (data sources related to attaching data from CDM folder or CDS managed lake direct pipelines are not be supported yet)
+- Inegsted/imported data sources
 - Data unification (Map, Match, Merge) configuration
 - Segments
 - Measures
 - Relationships
 - Activities
-- Search & Filter Index
-- Export Destinations
-- Schedule Refresh
+- Search & filter Index
+- Export destinations
+- Scheduled refresh
 - Enrichments
-- Model Management
-- Role Assignments
+- Model management
+- Role assignments
 
 The following settings are *not* copied:
 
