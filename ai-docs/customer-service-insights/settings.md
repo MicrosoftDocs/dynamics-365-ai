@@ -42,11 +42,9 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
    > ![Drop-down menu for Sections to ignore](media/case-data-cleaning-select-position.png "Show the drop-down menu to select the position for Sections to ignore")
 
    To see an example of how the cleaning settings will be applied to titles, select **Show example**.
-
    
    > [!div class="mx-imgBorder"]
    > ![Show example for Sections to ignore](media/show-example-sections.png "Show an example of cleaning settings are applied to titles")
-   
 
 3. Under **Phrases to ignore (Preview)**, specify the phrases you want ignored. 
   Keep in mind the following:
@@ -67,12 +65,11 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
   > [!div class="mx-imgBorder"]
   > ![Show example for Phrases to ignore](media/show-example-phrases.png "Show an example of how data cleaning is applied to phrases")
    
-   
 
 4. When you are through entering your conditions, select **Save**.
 
-   [!div class="mx-imgBorder"]
-   ![Save cleaning settings](media/save-cleaning-settings.png "Save cleaning settings")
+  > [!div class="mx-imgBorder"]
+  > ![Save cleaning settings](media/save-cleaning-settings.png "Save cleaning settings")
    
    
 5. Customer Service Insights gives you the option of refreshing your workspace. The settings take effect when you refresh the workspace. Select **Refresh** to refresh the workspace.
