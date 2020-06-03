@@ -1,6 +1,6 @@
 ---
-title: "Improve data quality by cleaning support case titles​"
-description: "Learn how to improve AI Insights charts by removing extraneous tags in support case titles."
+title: "Improve data quality by cleaning support case data​"
+description: "Learn how to improve AI Insights charts by removing extraneous tags in support case data."
 keywords: ""
 ms.date: 6/04/2020
 ms.service:
@@ -15,7 +15,7 @@ search.audienceType: enduser
 search.appverid: met150
 ---
 
-# Improve data quality by cleaning support case titles
+# Improve data quality by cleaning support case data
 
 Customer Service Insights uses artificial intelligence technology to give you insights into your customer service data by grouping support cases as *topics* that are a collection of related cases. This can help you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -23,17 +23,17 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
 
 **Note**: The **Phrases to ignore** feature is a preview release and is subject to change in future releases.
 
-## To clean support case titles
+## To clean support case data
 
 1. Select the **Settings** button on the Customer Service Insights title bar, and then select **Data cleaning**.
 
    > [!div class="mx-imgBorder"]
    > ![Data cleaning](media/data-cleaning-setting.png "Data cleaning setting page")
 
-   Customer Service Insights displays the **Case title cleaning** page.
+   Customer Service Insights displays the **Data cleaning** page.
 
    > [!div class="mx-imgBorder"]
-   > ![Case title cleaning page](media/case-title-cleaning.png "Case title cleaning page")
+   > ![Data cleaning page](media/case-title-cleaning.png "Data cleaning page")
    
 
 2. If your case titles include tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. 
