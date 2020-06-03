@@ -35,7 +35,7 @@ The following predictive forecasting features are available with Sales Insights.
 
 Provides an AI-powered forecast that helps sellers and managers understand how much revenue their sales team can achieve. These predictions are calculated based on historical data and the current sales pipeline, and are available at each level of the hierarchy. A detailed breakdown is also provided. 
 
-To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. When you create a forecast based on the **Org chart forecast** template, the **Prediction** column should appear. Select the **Prediction** column to add to a forecast. To learn more, see [Choose layout and columns](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
+To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
 
 After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
 
