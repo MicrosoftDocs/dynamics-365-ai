@@ -33,12 +33,13 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
    Customer Service Insights displays the **Data cleaning** page.
 
    > [!div class="mx-imgBorder"]
-   > ![Data cleaning page](media/case-title-cleaning.png "Data cleaning page")
+   > ![Data cleaning page](media/case-data-cleaning.png "Data cleaning page")
    
 
 2. If your case data includes tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. 
 
-   (Need screen with drop-down menu - cannot see in sample data)
+   > [!div class="mx-imgBorder"]
+   > ![Drop-down menu for Sections to ignore](media/case-data-cleaning-select-position.png "Show the drop-down menu to select the position for Sections to ignore")
 
    To see an example of how the cleaning settings will be applied to titles, select **Show example**.
 
