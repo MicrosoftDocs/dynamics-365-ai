@@ -36,7 +36,7 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
    > ![Data cleaning page](media/case-title-cleaning.png "Data cleaning page")
    
 
-2. If your case titles include tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. 
+2. If your case data includes tags, under **Sections to ignore**, use the drop-down menu to specify where you put them and any punctuation marks you use to separate them. 
 
    (Need screen with drop-down menu - cannot see in sample data)
 
