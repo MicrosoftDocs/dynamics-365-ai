@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 05/26/2020
+ms.date: 06/04/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -55,12 +55,6 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
   Configure workflows for custom models with a web service of a different Azure Machine Learning tenant. You can sign in to the Azure Machine Learning tenant from Customer Insights when creating a new workflow for custom models. This capability is an addition to the existing capability of integrating with your own custom Azure Machine Learning web service.    
   For more information, see [Custom machine learning models](custom-models.md).
 
-#### Measures
-
-- **Improvements to compounded measures**
-  
-  Users can create, edit, and delete measures that are based on other measures. For example, a measure constructed on another measure that was constructed on a third measure.
-
 #### Segments
 
 - **Entity path automation**
@@ -75,6 +69,11 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 - **Refresh segments**
 
   Users can refresh a single segment or select only the segments they want to refresh.    
+
+  
+- **Improvements to compounded segments**
+
+  Users can create, edit, and delete segments that are based on other segments. For example, a segment constructed on another segment that was constructed on a third segment.    
 
 - **Segment list page**
 
@@ -103,7 +102,7 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 
 #### Data ingestion
 
-- **Real-time data ingestion(activities)**
+- **Real-time data ingestion: activities**
   
   Real-time data ingestion provides data immediately for consumption in Customer Insights, until the subsequent scheduled refresh pulls this data from the data source.    
   For more information, see [Real-time data ingestion](https://docs.microsoft.com/dynamics365/ai/customer-insights/real-time-data-ingestion).
@@ -137,16 +136,16 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
   Improvements to the measures page include support for actions on a single measure and on multiple measures at once. Additionally, you'll find a search field to find and track measures quickly.    
   For more information, see [Create and manage segments](pm-segments.md).
 
+- **Improvements to compounded measures**
+  
+  Users can create, edit, and delete measures that are based on other measures. For example, a measure constructed on another measure that was constructed on a third measure.
+
 #### Segments
 
 - **Additional operator**
   
   The In-set operator allows segmentation for customers by several possible string values. Before this operator was added, you had to construct such segments with multiple OR conditions. The In-set operator lets you do that with a single condition.    
   For more information, see [Create and manage segments](pm-segments.md).
-
-- **Improvements to compounded segments**
-
-  Users can create, edit, and delete segments that are based on other segments. For example, a segment constructed on another segment that was constructed on a third segment.    
 
 #### System administration
 
