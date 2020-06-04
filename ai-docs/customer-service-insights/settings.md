@@ -42,9 +42,9 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
    > ![Drop-down menu for Sections to ignore](media/case-data-cleaning-select-position.png "Show the drop-down menu to select the position for Sections to ignore")
 
    To see an example of how the cleaning settings will be applied to titles, select **Show example**.
-   
+
    > [!div class="mx-imgBorder"]
-   > ![Show example for Sections to ignore](media/show-example-sections.png "Show an example of cleaning settings are applied to titles")
+   > ![Show example for Sections to ignore](media/show-example-sections.png "Show an example of how cleaning settings are applied to titles")
 
 3. Under **Phrases to ignore (Preview)**, specify the phrases you want ignored. Keep in mind the following:
    - Phrases are not case-sensitive and can contain letters or symbols.
