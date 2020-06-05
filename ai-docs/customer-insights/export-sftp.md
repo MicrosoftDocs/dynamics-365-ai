@@ -23,7 +23,7 @@ Use your customer data in 3rd party applications by exporting them securely thro
 3.	Give your destination a recognizable name in the **Display name** field.
 4.	Provide a **Username**, **Password** and **Hostname** (example.com:1234/folderpath) for your SFTP account.
 5.	Select **Verify** to test the connection.
-6.	After successful verification, decide whether to export your data **zipped** or **unzipped**, and with which **field delimiter**. 
+6.	After successful verification, decide whether to export your data as **Zipped** or **Unzipped**, and with which **field delimiter**. 
 7.	Provide your consent for **Data privacy and compliance** by selecting the I agree checkbox.
 8.	Select **Next** to start configuring the export
 
