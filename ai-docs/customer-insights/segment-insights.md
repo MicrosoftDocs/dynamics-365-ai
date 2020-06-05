@@ -31,7 +31,7 @@ You can also analyze how the overlap changes for specific attributes. For exampl
 
 1. Provide a name for you overlap analysis, an optional display name, and a description.
 
-1. Select **Save** to start the analysis. The overlap analysis is ready when the status changes from Refreshing to Successful. 
+1. Select **Save** to start the analysis. The overlap analysis is ready when the status changes from Refreshing to Successful.
 
 ### View and optimize an overlap analysis
 
@@ -43,13 +43,39 @@ Select an insight to see the analysis results:
 - The number of member who are included only in one of the segments but not in the rest of the segments.
 - If you selected fields while configuring the overlap analysis, you'll find them in the corresponding tabs. You can use the filter drop-down to select any attribute level of interest and the table at the bottom will show the corresponding data.
 
-Actions you can take with your insights using the options in the command bar:
+## Segment differentiators analysis
 
-- **Back** to go the list of insights
+Segment differentiators help you find out what differentiates a segment from the rest of your customers or from another segment. You just have to select a segment and the system will identify profile attributes and measures that distinguish the selected segment.
+
+### Run a differentiator analysis
+
+1. Go to **Segments** and select the **Insights (preview)** tab.
+
+1. Select **New** and choose the **Overlap** option in the **Choose Insight Type** pane.
+
+1. Choose the segment you want to analyze as **Primary segment** and select **Next**.
+
+1. Choose **All customers** or a **Secondary segment** to compare your primary segment with and select **Next**.
+
+1. Optionally, choose one or more fields of interest to focus the analysis around specific attributes instead of looking at all attributes and select **Next**.
+
+1. Provide a name for you overlap analysis, an optional display name, and a description.
+
+1. Select **Save** to start the analysis. The overlap analysis is ready when the status changes from Refreshing to Successful.
+
+### View and optimize a differentiators analysis
+
+After completing the analysis, you find details on this insight on **Segments** > **Insights (preview)**.
+
+Select an insight to see the analysis results. A differentiator analysis includes two tabs. The **Attributes** tab lists profile attributes considered as differentiators. The **Measures** tab lists measures considered as differentiators. Each tab includes the following details:
+
+- Ranked list of differentiators, sorted by difference score.
+- The **Difference score** for each differentiator. The difference score represents the degree of difference of an attribute between two segments. The higher the difference score, the more the attributes differ between the two segments. Select any of the scores to open the **Difference score** pane with the distributions of values for that attribute across the two compared segments.
+
+## Manage segment insights
+
+You can use the following options on your insights from the command bar:
+
+- **Back** to return the list of insights
 - **Refresh** to run the analysis again
 - **Delete** to remove this insight
-
-
-
-Next steps 
-With segment overlap you can gain further insights into your customer base. Based on those insights you may want to create a new segment that captures one or more of the overlaps you have generated. Moreover, you can utilize the second type of analysis, Segment differentiators, to further understand what differentiates one of the segments you have analyzed from the rest of your customers or from another segment of interest. 
