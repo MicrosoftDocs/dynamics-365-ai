@@ -48,6 +48,8 @@
       href: pm-manage-search.md
     - name: Build relationships and connected entities
       href: pm-relationships.md
+    - name: List customer activities
+      href: pm-activities.md
     - name: Implement custom machine learning models
       href: custom-models.md
 
@@ -60,18 +62,21 @@
   - name: Enrich with Leadspace
     href: enrichment-leadspace.md
 
-- name: Data analysis
+- name: Segments and measures
   items: 
   - name: Create segments and customer groups
     href: pm-segments.md
+  - name: Get insights on segments
+    href: segment-insights.md
   - name: Define measures and KPIs
     href: pm-measures.md
+
+- name: Predictions
+  items: 
   - name: Complete data using value predictions
     href: predictions.md
   - name: Predict subscription churn
     href: predict-subscription-churn.md
-  - name: List customer activities
-    href: pm-activities.md
 
 - name: Export options
   items: 
