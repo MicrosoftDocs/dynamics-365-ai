@@ -73,7 +73,7 @@ The numbered sections are:
 
 ### Opportunity score widget in early access
 
-[!INCLUDE[cc-early-access-2020w1](/includes/cc-early-access-2020w1.md)]
+[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 When you have opted in for early access of enhanced predictive opportunity scoring, the following image shows a typical **Opportunity score** widget, which lists the reasons that are influencing the opportunity score.
 
