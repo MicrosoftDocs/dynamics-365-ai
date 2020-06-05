@@ -53,8 +53,8 @@ The numbered columns are:
 In forms, you can use the **Lead score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the lead attributes and attributes from related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity.
 
 >[!IMPORTANT]
->- If you have opted in for early access of enhanced predictive lead scoring, the lead score widget provides more information on top reasons along with basic information. To learn more, see [Lead score widget in preview mode](#lead-score-widget-in-preview-mode). <br>
->- With the October 2020 release, the enhanced predictive lead scoring will be available of all organization.
+>- If you have opted in for early access of enhanced predictive lead scoring, the lead score widget provides more information on top reasons along with basic information. To learn more, see [Lead score widget in early access](#lead-score-widget-in-early-access). <br>
+>- With the October 2020 release, the enhanced predictive lead scoring will be available for all organizations.
 
 The following screen displays a typical lead score widget with reasons that are influencing the lead score:
 
@@ -69,7 +69,9 @@ The numbered sections are:
 
 3. **Feedback** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. To provide feedback, select the Chat icon and enter the expected score and comments. To save the feedback, select Send.
 
-### Lead score widget in preview mode
+### Lead score widget in early access
+
+[!INCLUDE[cc-early-access-2020w1](/includes/cc-early-access-2020w1.md)]
 
 When you have opted in for early access of enhanced predictive lead scoring, the following image shows a typical **Lead score** widget, which lists the reasons that are influencing the lead score.
 
