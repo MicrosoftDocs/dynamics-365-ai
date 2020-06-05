@@ -22,8 +22,8 @@ Create custom or lookalike audiences on Facebook with your unified customer prof
 2.	Under Facebook Ads Manager, select **Set up**
 3.	Give your destination a recognizable name in the **Display name** field
 4.	Click on the **Continue with Facebook** button to authenticate with Facebook
-a.	Several sequential pop windows will show up for the Facebook authentication 
-b.  Granting the **ads_management** permission to Customer Insights is a separate and additional step after the initial authentication
+    - Several sequential pop windows will show up for the Facebook authentication 
+    - Granting the **ads_management** permission to Customer Insights is a separate and additional step after the initial authentication
 5.	After authentication is completed and permission is granted select the **Facebook Ads Account** that you want to work with. 
 6.	Select an **existing Custom Audience** from the drop down, or create a new custom audience by selecting New custom Audience
 7.	Provide your consent for **Data privacy and compliance** by selecting the **I agree** checkbox
@@ -32,22 +32,14 @@ b.  Granting the **ads_management** permission to Customer Insights is a separat
 ## Configure
 1.	In the **Choose your key identifier field**, select **Email**, **Name and address**, or **Phone** to send to Facebook Ads Manager
 2.	Map the corresponding attributes from your unified customer entity for the selected key identifier.
-Tip: The best chances for a match occur if you select **Email** as key identifier. Adding additional identifiers may increase the matching rate. 
+    > [TIP] 
+    > The best chances for a match occur if you select **Email** as key identifier. Adding additional identifiers may increase the matching rate. 
 3.	Select **Add attribute** to map additional attributes to send to Facebook Ads Manager
-a.	Attributes from Facebook Ads Manager are mapping to the following user friendly names
-i.	**FN** = **First Name**
-ii.	**LN** = **Last Name**
-iii.	**FI** = **First Initial**
-iv.	**PHONE** = **Phone**
-v.	**GEN** = **Gender**
-vi.	**DOB** = **Date of birth**
-vii.	**ST** = **State**
-viii.	**CT** = **City**
-ix.	**ZIP** = **Postal code / Zip code**
-x.	**COUNTRY** = **Country / Region**
+    - Attributes from Facebook Ads Manager are mapping to the following user friendly names
+    - **FN** = **First Name**, **LN** = **Last Name**, **FI** = **First Initial**, **PHONE** = **Phone**, **GEN** = **Gender**, **DOB** = **Date of birth**, **ST** = **State**, **CT** = **City**, **ZIP** = **Postal code / Zip code**, **COUNTRY** = **Country / Region**
 4.	Select the segments you want to export
 5.	Select **Save**
-Tip: Read more about **Audiences in Facebook Ads Manager** and how to use them efficiently.  https://www.facebook.com/business/help/744354708981227?id=2469097953376494
+    > [TIP] Read more about [**Audiences in Facebook Ads Manager**](https://www.facebook.com/business/help/744354708981227?id=2469097953376494) and how to use them efficiently.
 
 # Export
 1.	Go to **Export destinations** tab to view your configured destinations 
