@@ -21,9 +21,10 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 - Users of the Customer Card Add-in need to be [added as users](pm-permissions.md) in Customer Insights.
 - [Configured search and filter capabilities](pm-manage-search.md) in Customer Insights.
 - Demographic control: Demographic fields, such as age or genders are available in the unified customer profile.
+- Enrichment control: Requires [enrichments](enrichment-hub.md) applied to customer profiles in Customer Insights.
 - Intelligence control: Requires data in Customer Insights generated using Azure Machine Learning ([Predictions](predictions.md) or [Custom Models](custom-models.md))
 - Measure control: Requires [configured measures](pm-measures.md) in Customer Insights.
-- Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights.
+- Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights. This control is not providing the same functionality as the real timeline control of Dynamics 365. 
 
 ## Install the Customer Card Add-in
 
@@ -82,15 +83,12 @@ It can take some time for the solution to be installed to your environment.
 
 1. Go to the **Controls** tab and select **Add Control**. Choose one of the available custom controls and select **Add**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select a control](media/customer-card-add-in-select-control.png "Select a control")
-
 1. In the **Field Properties** dialog, clear the **Display label on the form** check box.
 
-1. Select the **Web** option for the control.
+1. Select the **Web** option for the control. For the Enrichment control, select which enrichment type to display in your widget by changing to property “enrichmentType”. You need add a separate enrichment control for each enrichment type that you want to display.  
 
 1. Select **Save** and **Publish** to publish the updated contact form.
 
 1. Go to the published contact form. You'll see the newly added control. You might need to sign in the first time you use it.
 
-   To customize what you want to show on the custom control, select the edit button in the upper-right corner.
+1. To customize what you want to show on the custom control, select the edit button in the upper-right corner.
