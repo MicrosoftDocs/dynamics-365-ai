@@ -1,5 +1,5 @@
 ---
-title: "Export Customer Insights data to Dynamics 365 Marketing | Microsoft Docs"
+title: "Export Customer Insights data to FAcebook Ads Manager | Microsoft Docs"
 description: "Learn how to configure the connection to Facebook Ads Manager."
 ms.date: 06/05/2020
 ms.reviewer: philk
@@ -54,8 +54,6 @@ Export segments of unified customer profiles to Facebook Ads Manager to create c
 
 1. Select **Save**.
 
+## Export the data
 
-# Export
-1.	Go to **Export destinations** tab to view your configured destinations 
-2.	If you want to trigger the export manually **select** the ellipsis (...) after your destination and then choose the Export option to run the export for this specific destination
-3.	The export is also running automatically with every scheduled refresh
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
