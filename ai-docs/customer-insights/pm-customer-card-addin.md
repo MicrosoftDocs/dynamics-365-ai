@@ -1,7 +1,7 @@
 ---
 title: "Customer Card Add-in | Microsoft Docs"
 description: "Install and configure the Customer Card add-in for Dynamics 365 Customer Insights."
-ms.date: 05/18/2020
+ms.date: 06/05/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -21,10 +21,10 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 - Users of the Customer Card Add-in need to be [added as users](pm-permissions.md) in Customer Insights.
 - [Configured search and filter capabilities](pm-manage-search.md) in Customer Insights.
 - Demographic control: Demographic fields, such as age or genders are available in the unified customer profile.
-- Enrichment control: Requires [enrichments](enrichment-hub.md) applied to customer profiles in Customer Insights.
+- Enrichment control: Requires active [enrichments](enrichment-hub.md) applied to customer profiles.
 - Intelligence control: Requires data in Customer Insights generated using Azure Machine Learning ([Predictions](predictions.md) or [Custom Models](custom-models.md))
 - Measure control: Requires [configured measures](pm-measures.md) in Customer Insights.
-- Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights. This control is not providing the same functionality as the real timeline control of Dynamics 365. 
+- Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights. This control doesn't provide the same functionality as the timeline control of Dynamics 365 model-driven apps.
 
 ## Install the Customer Card Add-in
 
@@ -85,7 +85,7 @@ It can take some time for the solution to be installed to your environment.
 
 1. In the **Field Properties** dialog, clear the **Display label on the form** check box.
 
-1. Select the **Web** option for the control. For the Enrichment control, select which enrichment type to display in your widget by changing to property “enrichmentType”. You need add a separate enrichment control for each enrichment type that you want to display.  
+1. Select the **Web** option for the control. For the Enrichment control, select which enrichment type you want to display by configuring the **enrichmentType** field. You need to add a separate enrichment control for each enrichment type.
 
 1. Select **Save** and **Publish** to publish the updated contact form.
 
