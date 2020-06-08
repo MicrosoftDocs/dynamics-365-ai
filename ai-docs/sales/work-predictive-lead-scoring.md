@@ -52,9 +52,6 @@ The numbered columns are:
 
 In forms, you can use the **Lead score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the lead attributes and attributes from related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity.
 
->[!IMPORTANT]
->If you have opted in for early access of enhanced predictive lead scoring, the lead score widget provides more information on top reasons along with basic information. To learn more, see [Lead score widget in early access](#lead-score-widget-in-early-access).
-
 The following screen displays a typical lead score widget with reasons that are influencing the lead score:
 
 > [!div class="mx-imgBorder"]
@@ -68,53 +65,6 @@ The numbered sections are:
 
 3. **Feedback** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. To provide feedback, select the Chat icon and enter the expected score and comments. To save the feedback, select Send.
 
-### Lead score widget in early access
-
-[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
-When you have opted in for early access of enhanced predictive lead scoring, the following image shows a typical **Lead score** widget, which lists the reasons that are influencing the lead score.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
-
-Typically, the screen is organized into the following sections:
-
-- [Basic information](#basic-information)
-
-- [Top reasons](#top-reasons)
-
-### Basic information
-
-The information included in this section covers the lead score, lead grade, and score trend.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score basic information](media/predictive-lead-scoring-widget-basic-information.png "Predictive lead score basic information")
-
-### Top reasons
-
-The most important reasons&mdash;both positive and negative&mdash;that affect the lead score are listed here. You can use these reasons to analyze how you might convert the lead into an opportunity.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score top reasons](media/predictive-lead-scoring-widget-top-reasons.png "Predictive lead score top reasons")
-
-When you move your cursor over a reason, a tooltip displays an insight about what's causing the reason to be listed on top. You can work on this insight and take any necessary action to improve the lead.
-
-In the following example, for the reason "Finance is a strong industry," the tooltip displays the insight "64% of leads from the financial industry are qualified within 3 days." 
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score top reasons tooltip](media/predictive-lead-scoring-widget-top-reasons-tool-tip.png "Predictive lead score top reasons tooltip")
-
-The **Lead score** widget displays only the top five positive and negative reasons. To view all the positive and negative reasons that are affecting the lead score, select **Details**. 
-
-The **Lead score** pane opens with a list of all score improvers (positives) and harmers (negatives), along with a graph that shows how the lead score is trending over time.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score Details tab](media/predictive-lead-scoring-widget-top-reasons-details-tab.png "Predictive lead score Details tab")
-
-For more information about the lead score, select the **About** tab. The **About** tab helps you understand what the lead score is and how it works. Under **What does it mean?**, you'll find information about how lead scores are categorized by admins in your organization. Under **What impacts the score?**, you'll find the attributes that affect lead scores in your organization.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score About tab](media/predictive-lead-scoring-widget-top-reasons-about-tab.png "Predictive lead score About tab")
 
 ### See also
 
