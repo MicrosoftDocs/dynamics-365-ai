@@ -24,7 +24,7 @@ Organizations (Preview)
 > ![B2B customer profiles](media/profile-customers-b2b.png "B2B customer profiles")
 
 > [!NOTE]
-> If can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](pm-manage-search.md) on the **Search & filter index**.
+> If you can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](pm-manage-search.md) on the **Search & filter index**.
 
 ## Search for customers
 
@@ -47,4 +47,4 @@ You can filter customers by the Customer Profile entity fields. Similar to searc
 
 ## Next steps
 
-[Add more data sources](pm-data-sources.md) and [unify your customer profiles](pm-configure-data.md).
+[Add more data sources](pm-data-sources.md) or [create customer segments](pm-segments.md).

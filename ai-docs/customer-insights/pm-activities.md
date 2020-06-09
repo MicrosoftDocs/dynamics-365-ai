@@ -1,9 +1,9 @@
 ---
 title: "Customer activities | Microsoft Docs"
 description: "Manage customer activities in Dynamics 365 Customer Insights and view them in customer timeline." 
-ms.date: 04/17/2020
+ms.date: 05/20/2020
 ms.service: dynamics-365-ai
-ms.reviewer: mukeshpo
+ms.reviewer: adkuppa
 ms.topic: "get-started-article"
 author: m-hartmann
 ms.author: mhart
@@ -33,8 +33,10 @@ Your data sources include entities with transactional and activity data from mul
    - **Primary key**: Select the field that uniquely identifies a record. It shouldn't contain any duplicate values, empty values, or missing values.
    - **Timestamp**: Select the field that represents the start time of your activity.
    - **Event**: Select the field that is the event for the activity.
+   - **Web address**: Select the field that represents a URL providing additional information about this activity. For example, the transactional system that sources this activity. This URL can be any field from the data source, or it can be constructed as a new field using a Power Query transformation. This URL data will be stored in the Unified Activity entity, which can be consumed downstream using APIs.
    - **Details**: Optionally, select the field that is added for additional details.
    - **Icon**: Optionally, select the icon that represents this activity.
+   - **Activity Type**: Define the activity type reference to Common Data Model that best describes the semantic definition of the activity.
 
 1. In the **Set up relationship** section, configure the details to connect your activity data to its corresponding customer.
 
@@ -49,6 +51,9 @@ Your data sources include entities with transactional and activity data from mul
 1. Select **Save** to apply your changes.
 
 1. On the **Activities** page, select **Run**.
+
+> [!TIP]
+> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Edit an activity
 

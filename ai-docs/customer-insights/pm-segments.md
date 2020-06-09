@@ -6,15 +6,15 @@ ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
 ms.author: mhart
-ms.reviewer: nimagen
+ms.reviewer: jimsonc
 manager: shellyha
 ---
 
 # Create and manage segments
 
-The segmentation capability in Dynamics 365 Customer Insights enables you to group your customers based on demographic, transactional, or behavioral attributes. You can use segmentation to target promotional campaigns, sales activities, and customer support actions to achieve your business goals.
+The segmentation capability in Dynamics 365 Customer Insights enables you to group your customers based on demographic, transactional, or behavioral attributes. You can use segments to target promotional campaigns, sales activities, and customer support actions to achieve your business goals.
 
-You can define complex filters around the Customer Profile entity and its related entities. Each segment, after processing, creates a set of customer entity records that you can export and take action on.
+You can define complex filters around the Customer Profile entity and its related entities. Each segment, after processing, creates a set of customer records that you can export and take action on.
 
 Unless stated otherwise, all segments in Customer Insights are **Dynamic segments**, which are refreshed on a recurring schedule.
 
@@ -60,13 +60,13 @@ Segments are managed on the **Segments** page in Customer Insights.
 
 9. Select **Save** to save your segment. Your segment will be saved and processed if all requirements are validated. Otherwise, it will be saved as a draft.
 
-10. Select **Back to segments** to go back to the **Segments** page and view the segment you created.
+10. Select **Back to segments** to go back to the **Segments** page.
 
 ## Manage existing segments
 
 On the **Segments** page, you can view all your saved segments and manage them.
 
-Each segment is represented by a row that includes the segment's name, state, refresh status, member count, weekly member count change, and last refresh date and time.
+Each segment is represented by a row that includes additional information about the segment.
 
 You can sort the segments in a column by selecting the column heading.
 
@@ -82,13 +82,16 @@ Select a segment to do the following:
 - **Refresh** the segment to include the latest data.
 - **Activate** or **Deactivate** the segment. Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
-- **Download** the list of members in a segment as a .CSV file.
-- **Add to** sends the list of customer IDs in the segment for processing in another application.
+- **Download** the list of members as a .CSV file.
+- **Add to** will send the list of customer IDs in the segment for processing in another application.
 - **Delete** the segment.
 
 ## Refresh segments
 
-You can refresh all segments at once by selecting **Refresh all** on the **Segments** page. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
+You can refresh all segments at once by selecting **Refresh all** on the **Segments** page or you can refresh one or multiple segments when you select them and choose **Refresh** in from the options. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
+
+> [!TIP]
+> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Download and export segments
 

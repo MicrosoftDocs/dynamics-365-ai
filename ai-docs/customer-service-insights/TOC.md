@@ -45,7 +45,7 @@
 
 ## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
 
-## [Improve data quality by cleansing support case titles](settings.md)
+## [Improve data quality by cleaning support case data](settings.md)
 
 ## [Automate topics for a Power Virtual Agents bot](automate-topics.md)
 

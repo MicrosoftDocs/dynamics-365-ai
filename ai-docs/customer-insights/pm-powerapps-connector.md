@@ -47,6 +47,6 @@ An example to use Customer Insights data, is to show customer profiles in a [gal
 
     Example: Gallery1.Selected.address1_city
 
-1. To display the unified timeline for a customer, add a Gallery element, and add the Items property: **Filter('Unified Customer Activity', CustomerId = {Customer_Id})**
+1. To display the unified timeline for a customer, add a Gallery element, and add the Items property: **Filter('UnifiedActivity', CustomerId = {Customer_Id})**
 
-    Example: Filter('Unified Customer Activity', CustomerId = Gallery1.Selected.CustomerId)
+    Example: Filter('UnifiedActivity', CustomerId = Gallery1.Selected.CustomerId)

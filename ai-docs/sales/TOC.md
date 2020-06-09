@@ -5,7 +5,7 @@
 ## [What's new](whats-new.md)
 
 ## Administrator guide 
-### [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
 ### Configure Assistant
 #### [Configure Assistant](configure-assistant.md)
@@ -34,12 +34,12 @@
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
-### Configure sales accelerator
+### Configure Sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
-### [Install Dynamics 365 assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
+### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Conversation Intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
@@ -48,7 +48,6 @@
 #### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
 #### [Connect to Dynamics 365 Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
-#### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
 #### [Configure and view your team page](../sales/configure-view-your-team-page.md)
 #### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
 
@@ -60,12 +59,8 @@
 ## User guide
 
 ### Assistant
-#### [Guide customer communications with assistant](assistant-v1.md)
-#### [Stay updated with cards](action-cards-reference-v1.md)
-
-### Assistant version 2
-#### [Guide customer communications with assistant version 2](assistant.md)
-#### [Stay updated with cards in assistant version 2](action-cards-reference.md)
+#### [Guide customer communications with assistant](assistant.md)
+#### [Stay updated with cards in assistant](action-cards-reference.md)
 
 ###	Productivity intelligence
 #### [View message interactions with email engagement](email-engagement.md)
@@ -85,14 +80,15 @@
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
+#### [View snapshots](view-snapshots.md)
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
 
-### Dynamics 365 assistant for Microsoft Teams
-#### [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
+### Dynamics 365 Assistant for Microsoft Teams
+#### [Overview of Dynamics 365 Assistant](overview-dynamics-365-assistant-app-teams.md)
 #### [Install Dynamics 365 application on Teams](install-assistant-application-microsoft-teams.md)
 #### [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
 #### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
@@ -108,6 +104,11 @@
 #### [View team information](../sales/conversation-intelligence-team-overview.md)
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 #### [View and understand call summary](../sales/view-and-understand-call-summary.md)
+#### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
+
+## Developer Guide
+### Action Reference
+#### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
 
 ## [FAQs](faqs-sales-insights.md)
 

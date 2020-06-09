@@ -42,26 +42,31 @@ The numbered columns are:
 
 1. **Opportunity Score.** Specifies the value that represents the likelihood of the opportunity to convert into a deal on a scale of 1 to 100. An opportunity with score of 100 has the highest likelihood of converting into a win deal.
 
+    >[!NOTE]
+    >The model calculates the score every 24 hours, therefore, the application may take up to 24 hours to display the score for new opportunities.
+
 1. **Opportunity Score Trend.** Specifies the direction in which an opportunity is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present opportunity score with the previous score. For example, the score of an opportunity was 65 and the present score has decreased to 45. A down arrow is displayed in the **Opportunity Score Trend** column specifying that the opportunity is losing traction and needs some action from you to improve the score.
 
 1. **Opportunity Grade.** Specifies a ranks or level of quality that is given to an opportunity based on the generated score. Opportunities with higher grade have more chances of converting into win deals. The grades of an opportunity are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (green) is the opportunity with the highest likelihood for conversion into a win deal followed by Grade B (purple), Grade C (yellow), and Grade D (red). The system administrator can define opportunity score ranges for a grade, depending on the organizational requirements. 
 
-## Analyze and improve your opportunity score
 
-In forms, you can use the **Opportunity Score** widget to see the top 10 reasons that are influencing the opportunity score. These reasons come from the opportunity attributes and attributes from the related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a win deal.
+## Understand opportunity scoring widget
 
-The following screen displays a typical **Opportunity Score** widget with the reasons that are influencing the opportunity score.
+In forms, you can use the **opportunity score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the opportunity attributes and attributes from related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a possible deal.
+
+The following screen displays a typical opportunity score widget with reasons that are influencing the opportunity score:
 
 > [!div class="mx-imgBorder"]
-> ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget.png "Predictive opportunity score widget")
+> ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget-v1.png "Predictive opportunity score widget")
 
 The numbered sections are:
 
-1. **Basic Information.** Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity score trend—to help you avoid going back to the **My Open Opportunities Scored** view to see basic information.
+1. **Basic Information**: Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity score trend—to help you avoid going back to the **My Open Opportunities Scored** view to see basic information.
 
-2. **Top Reasons.** Displays the list of reasons that are affecting the opportunity score. This helps you to analyze and consider the opportunity for converting it into a win deal. You can also take necessary action to improve the opportunity score, such as set up meetings and follow-ups.
+2. **Top Reasons**: Displays the list of reasons that are affecting the opportunity score. This helps you to analyze and consider the opportunity for converting it into a win deal. You can also take necessary action to improve the opportunity score, such as set up meetings and follow-ups.
 
-3. **Feedback.** Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
+3. **Feedback**: Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
+
 
 ### See also
 

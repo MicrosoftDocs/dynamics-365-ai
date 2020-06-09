@@ -36,7 +36,10 @@ You can generate these custom cards in two ways:
     >[!NOTE]
     > We recommend you to use the **Assistant** to generate the custom insight cards.  
 
-- As a developer, you can create new card types according to your organizational requirements and make them available for users. To learn more, see [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+- As a developer, you can create card types according to your organizational requirements and make them available for users. To learn more, see [Sample: Create custom insight cards type](sample-extend-relationship-assistant-card-type.md)
+
+    >[!NOTE]
+    >To use this feature, you must purchase a **Dynamics 365 Sales Insights** license, or start a trial to use Sales Insights features.
 
 ### See also
 

@@ -2,7 +2,7 @@
 title: "Opt out of relationship analytics (GDPR) (Dynamics 365 Sales Insights) | Microsoft Docs  "
 description: "Opt out to ensure that no relationship analytics is performed on your data when using Sales Insights."
 keywords: "GDPR; data protection; privacy; Sales Insights"
-ms.date: 10/31/2018
+ms.date: 04/08/2020
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 6f86a039-15cc-46aa-b6fb-8dd8260de0ba
