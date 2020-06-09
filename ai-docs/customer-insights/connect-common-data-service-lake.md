@@ -10,7 +10,7 @@ manager: shellyha
 ms.reviewer: adkuppa
 ---
 
-# Connect to data in a Common Data Service managed data lake (preview)
+# Connect to data in a Common Data Service managed data lake
 
 This article provides information on how existing Dynamics 365 customers can quickly connect to their analytical entities in the Common Data Service managed lake from Dynamics 365 Customer Insights.
 
