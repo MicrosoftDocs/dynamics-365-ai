@@ -104,9 +104,9 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 1. There are three primary sections of data within the results page:
     1. **Training model performance:** A, B, or C are possible scores. This score indicates the performance of the prediction, and can help you make the decision to use the results stored in the output entity.
         - Scores are determined based on the following rules:
-            - **A** when the percentage of users in a sample data set that were accurately predicted to churn is more than 10% above the average churn rate.
-            - **B** when the percentage of users in a sample data set that were accurately predicted to churn is between 0% and 10% of the average churn rate.
-            - **C** when the percentage of users in a sample data set that were accurately predicted to churn is less than the average churn rate.
+            - **A** when the model accurately predicted at least 50% of the total predictions, and when the percentage of accurate predictions for customers who churned is greater than the historical average churn rate by at least 10% of the historical average churn rate.
+            - **B** when the model accurately predicted at least 50% of the total predictions, and when the percentage of accurate predictions for customers who churned is up to 10% greater than the historical average churn rate of the historical average churn rate.
+            - **C** when the model accurately predicted less 50% of the total predictions, or when the percentage of accurate predictions for customers who churned is less than the historical average churn rate.
                > [!div class="mx-imgBorder"]
                > ![View of the model performance result](media/subscription-churn-modelperformance.PNG "View of the model performance result")
     1. **Likelihood to churn (number of customers):** Groups of customers based on their predicted risk of churn. This data can help you later if you want to create a segment of customers with high churn risk. Such segments help to understand where your cutoff should be for segment membership.
@@ -139,4 +139,4 @@ Predictions will automatically refresh on the same [schedule your data refreshes
 1. Select **Delete**.
 
 > [!NOTE]
-> Deleting a prediction will not remove its output entity.
+> Deleting a prediction will remove its output entity.
