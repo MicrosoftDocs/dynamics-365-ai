@@ -1,7 +1,7 @@
 ---
 title: "Segment insights in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Get insights on existing segments in Customer Insights."
-ms.date: 06/05/2020
+ms.date: 06/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -10,14 +10,14 @@ ms.reviewer: jimsonc
 manager: shellyha
 ---
 
-# Segments insights (preview)
+# Segment insights (preview)
 
-Discover additional information and insights around your existing segments. Find out what differentiates a segment from other groups of customers or what they have in common.
+Discover additional information and insights around your existing segments. Find out what differentiates two segments or what they have in common.
 
 ## Segment overlap
 
-Segment overlap analysis shows how many and which customers are common to two or more segments. For example, how a segment with high spenders overlaps with a segment that contains customers that are satisfied with yor service or product.
-You can also analyze how the overlap changes for specific attributes. For example, by drilling down to a specific city.
+Segment overlap analysis shows how many and which customers are common to two or more segments. For example, how a segment of frequent customers overlaps with a segment that contains customers that are satisfied with your service or product.
+You can also analyze how the overlap changes for specific attributes.
 
 ### Run an overlap analysis
 
@@ -35,15 +35,15 @@ You can also analyze how the overlap changes for specific attributes. For exampl
 
 ### View and optimize an overlap analysis
 
-After completing the analysis, you find details on this insight on **Segments** > **Insights (preview)**.
+After completing the analysis, find details on this insight on **Segments** > **Insights (preview)**.
 
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="media/segment-overlap.png" alt-text="Segment overlap insight details":::
 
 Select an insight to see the analysis results:
 
-- The number of members who overlap between the segments selected for analysis.
-- The number of member who are included only in one of the segments but not in the rest of the segments.
+- The number of members overlapping the segments selected for analysis.
+- The number of members included in one of the segments but not in the rest of the segments.
 - If you selected fields while configuring the overlap analysis, you'll find them in the corresponding tabs. You can use the filter drop-down to select any attribute level of interest and the table at the bottom will show the corresponding data.
 
 ## Segment differentiators
@@ -60,7 +60,7 @@ Segment differentiators help you find out what differentiates a segment from the
 
 1. Choose **All customers** or a **Secondary segment** to compare your primary segment with and select **Next**.
 
-1. Optionally, choose one or more fields of interest to focus the analysis around specific attributes instead of looking at all attributes and select **Next**.
+1. Optionally, choose one or more fields of interest to focus the analysis on specific attributes and select **Next**.
 
 1. Provide a name for you overlap analysis, an optional display name, and a description.
 
@@ -68,15 +68,15 @@ Segment differentiators help you find out what differentiates a segment from the
 
 ### View and optimize a differentiators analysis
 
-After completing the analysis, you find details on this insight on **Segments** > **Insights (preview)**.
+After completing the analysis, find details on this insight on **Segments** > **Insights (preview)**.
 
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="media/segment-differentiators.png" alt-text="Segment differentiator insight details":::
 
-Select an insight to see the analysis results. A differentiator analysis includes two tabs. The **Attributes** tab lists profile attributes considered as differentiators. The **Measures** tab lists measures considered as differentiators. Each tab includes the following details:
+Select an insight to see the analysis results. A differentiator analysis includes two tabs. The **Attributes** tab lists profile attributes considered as differentiators. The **Measures** tab lists differentiators. Each tab includes the following details:
 
 - Ranked list of differentiators, sorted by difference score.
-- The **Difference score** for each differentiator. The difference score represents the degree of difference of an attribute between two segments. The higher the difference score, the more the attributes differ between the two segments. Select any of the scores to open the **Difference score** pane with the distributions of values for that attribute across the two compared segments.
+- The **Difference score** for each differentiator. The difference score represents the degree of difference of an attribute between two segments. The higher the difference score, the more the attributes differ between the two segments. Select a score to open the **Difference score** pane with the distributions of values for that attribute.
 
 ## Manage segment insights
 
