@@ -1,18 +1,18 @@
 ---
-title: "Expand existing segments with AI | Microsoft Docs"
+title: "Find similar customers with AI | Microsoft Docs"
 description: "Find similar customer segments with artificial intelligence."
-ms.date: 05/18/2020
+ms.date: 06/10/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
 ms.author: mhart
-ms.reviewer: nimagen
+ms.reviewer: jimsonc
 manager: shellyha
 ---
 
 # Similar Customers (preview)
 
-*Find similar* lets you find similar customers in your customer base using artificial intelligence. You need to have at least one segment created to use this feature. Expanding the criteria of an existing segment help find customers that are similar to that  segment.
+This feature lets you find similar customers in your customer base using artificial intelligence. You need to have at least one segment created to use this feature. Expanding the criteria of an existing segment help find customers that are similar to that segment.
 
 > [!NOTE]
 > *Find similar* uses automated means to evaluate data and make predictions based on that data, and therefore has the capability to be used as a method of profiling, as that term is defined by the General Data Protection Regulation (“GDPR”). Customer’s use of this feature to process data may be subject to GDPR or other laws or regulations. You are responsible for ensuring that your use of Customer Insights, including predictions, complies with all applicable laws and regulations, including laws related to privacy, personal data, biometric data, data protection, and confidentiality of communications.
@@ -24,7 +24,7 @@ manager: shellyha
 1. In the action bar, select **Find similar**.
 
    > [!div class="mx-imgBorder"]
-   > ![Expand segment](media/expand-segment.png "Expand segment")
+   > ![Find similar customers](media/expand-segment.png "Find similar customers")
 
 1. Review the suggested name for your new segment and change it if necessary.
 
@@ -47,11 +47,11 @@ manager: shellyha
 After processing the similar segment, you'll find the new segment listed on the **Segments** page.
 
 > [!div class="mx-imgBorder"]
-> ![Expanded segment](media/expanded-segment.png "Expanded segment")
+> ![Similar customers segment](media/expanded-segment.png "Similar customers segment")
 
 Select **View** in the action bar to open the segment detail. This view contains information about the result distribution across [similarity scores](#about-similarity-scores). You'll also find the similarity score values in the **Segment members preview**.
 
-## Use the output of an similar segment
+## Use the output of a similar segment
 
 You can [work with the output of a similar segment](pm-segments.md) as you do with other segments. For example, export the segment or build a measure.
 
@@ -59,7 +59,7 @@ You can [work with the output of a similar segment](pm-segments.md) as you do wi
 
 To refresh a similar segment, select it on the **Segments** page and select **Refresh** in the action bar.
 
-Editing a similar segment results in a new run to process your data. The previously created segment gets updated with refreshed data based on any changes to the criteria of the similar segment.    
+Editing a similar segment will reprocess your data. The previously created segment gets updated with refreshed data.    
 To edit a similar segment, select it on the **Segments** page and select **Edit** in the action bar. Apply your changes and select **Run** to start the processing.
 
 ## Delete a similar segment
