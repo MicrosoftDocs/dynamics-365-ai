@@ -30,13 +30,13 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 - **Real-time data ingestion: history views**
 
   When using our API to ingest real-time updates, you can see up to 30 days of aggregated history for these updates. You have access to aggregates of all successful or failed API calls including their outcome, source system, and other useful metadata.    
-  For more information, see [Real-time data ingestion](https://docs.microsoft.com/dynamics365/ai/customer-insights/real-time-data-ingestion).
+  For more information, see [Real-time data ingestion](real-time-data-ingestion.md).
 
 - **Real-time data ingestion: profile updates**
 
   This extension of the real-time data ingestion lets you see, within seconds, changes to specific user profile fields.    
   In addition to the real-time functionality for activities, Customer Insights supports low latency updates to profile fields. Real-time updates for profile fields have an expiration time and are therefore not a replacement for scheduled refreshes.    
-  For more information, see [Real-time data ingestion](https://docs.microsoft.com/dynamics365/ai/customer-insights/real-time-data-ingestion).
+  For more information, see [Real-time data ingestion](real-time-data-ingestion.md).
 
 #### Extensibility
 
@@ -105,12 +105,12 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 - **Real-time data ingestion: activities**
   
   Real-time data ingestion provides data immediately for consumption in Customer Insights, until the subsequent scheduled refresh pulls this data from the data source.    
-  For more information, see [Real-time data ingestion](https://docs.microsoft.com/dynamics365/ai/customer-insights/real-time-data-ingestion).
+  For more information, see [Real-time data ingestion](real-time-data-ingestion.md).
 
 - **Improvements to data preparation**
   
   Learn more about the data ingested in an entity. With the data summary, you can understand the data quality characteristics that can help to take appropriate action.    
-  For more information, see [Explore entity data](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-entities#exploring-a-specific-entitys-data).
+  For more information, see [Explore entity data](pm-entities.md#exploring-a-specific-entitys-data).
 
 - **Ingest analytical data from Dynamics 365 with Common Data Service**
   
