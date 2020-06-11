@@ -87,6 +87,10 @@
       href: export-dynamics365-sales.md
     - name: Dynamics 365 Sales Hub (Add-in)
       href: pm-customer-card-addin.md
+    - name: Facebook Ads Manager
+      href: export-facebook.md
+    - name: LiveRamp
+      href: export-liveramp.md
     - name: Microsoft Teams (bot) 
       href: export-teams-bot.md
     - name: Power BI
@@ -95,8 +99,8 @@
       href: pm-powerapps-connector.md
     - name: Power Automate
       href: power-automate-connector.md
-    - name: LiveRamp
-      href: export-liveramp.md
+    - name: SFTP
+      href: export-sftp.md
 
 - name: Administration
   items:
