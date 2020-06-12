@@ -62,4 +62,4 @@ Define custom relationships on the **Relationships** page. Each relationship con
 
 ## Next step
 
-System and custom relationships are used to create segments based on multiple data sources that are no longer siloed. For more information, see [Segments](pm-segments.md).
+System and custom relationships are used to create segments based on multiple data sources that are no longer siloed. For more information, see [Segments](segments.md).

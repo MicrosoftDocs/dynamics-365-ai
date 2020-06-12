@@ -56,4 +56,4 @@ Export segments of unified customer profiles to Facebook Ads Manager to create c
 
 ## Export the data
 
-You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](system.md#schedule-tab).
