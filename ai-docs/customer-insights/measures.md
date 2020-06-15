@@ -42,7 +42,7 @@ This section walks you through creating a measure from scratch. You can build me
    To add more entities, select **Add entity** and select entities you want to use for the measure.
 
    > [!NOTE]
-   > You can select only entities that have relationships to your starting entity. For more information about defining relationships, see [Relationships](pm-relationships.md).
+   > You can select only entities that have relationships to your starting entity. For more information about defining relationships, see [Relationships](relationships.md).
 
 6. Optionally, you can configure variables. In the **Variables** section, select **New variable**.
 
@@ -55,7 +55,7 @@ This section walks you through creating a measure from scratch. You can build me
 9. Type an expression in the **Expression** area while choosing more fields to be included in your calculation.
 
    > [!NOTE]
-   > Currently, Customer Insights supports arithmetic expressions only. Additionally, variable calculation isn't supported for entities from different [entity paths](pm-relationships.md).
+   > Currently, Customer Insights supports arithmetic expressions only. Additionally, variable calculation isn't supported for entities from different [entity paths](relationships.md).
 
 10. Select **Done**.
 
@@ -102,8 +102,8 @@ Alternatively, select a measure from the list and perform one of the following a
 - Select the ellipsis (...) and then **Download** to get a .CSV file of the measure.
 
 > [!TIP]
-> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Next step
 
-You cam use existing measures to create your first customer segment on the **Segments** page. For more information, see [Segments](pm-segments.md).
+You cam use existing measures to create your first customer segment on the **Segments** page. For more information, see [Segments](segments.md).

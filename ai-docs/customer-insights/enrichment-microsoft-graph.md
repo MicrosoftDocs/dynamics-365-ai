@@ -35,7 +35,7 @@ The **affinity confidence** is also calculated on a 100-point scale. It indicate
 We don't normalize the scores for your dataset. Consequently, you may not see all possible affinity score values for your dataset. For example, there may be no enriched customer profile with affinity score 100 in your data. That's possible if no customers exist in the demographic segment that scored 100 for a given brand or interest.
 
 > [!TIP]
-> When [creating segments](pm-segments.md) using affinity scores, review the distribution of affinity scores for your dataset before deciding on the appropriate score thresholds. For example, an affinity score of 10 can be considered significant in a dataset that has a highest affinity score of only 25 for a given brand or interest.
+> When [creating segments](segments.md) using affinity scores, review the distribution of affinity scores for your dataset before deciding on the appropriate score thresholds. For example, an affinity score of 10 can be considered significant in a dataset that has a highest affinity score of only 25 for a given brand or interest.
 
 ## Configure Enrichment
 
@@ -67,7 +67,7 @@ Run the enrichment after configuring brands, interests, and the field mapping fo
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 > [!TIP]
-> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Enrichment results
 
@@ -85,4 +85,4 @@ Brand and interest affinities can also be viewed on individual customer cards. G
 
 ## Next steps
 
-Build on top of your enriched customer data. Create [Segments](pm-segments.md), [Measures](pm-measures.md), and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.
+Build on top of your enriched customer data. Create [Segments](segments.md), [Measures](measures.md), and even [export the data](export-destinations.md) to deliver personalized experiences to your customers.

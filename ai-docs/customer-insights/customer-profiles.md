@@ -12,7 +12,7 @@ manager: shellyha
 
 # Customer profiles
 
-The **Customers** page presents a consolidated view of your customers, based on profile data gathered from [all data sources](data-sources-list.md). Customer profiles are available once you [create the unified Customer entity](pm-configure-data.md). Make sure you complete the data unification process to get richer views of your customers. The page also lets you search for customers.
+The **Customers** page presents a consolidated view of your customers, based on profile data gathered from [all data sources](data-sources-list.md). Customer profiles are available once you [create the unified Customer entity](data-unification.md). Make sure you complete the data unification process to get richer views of your customers. The page also lets you search for customers.
 
 Customers can be individuals or organizations (preview). Each customer or organization profile is represented by a tile. Select a tile to see additional information on that specific customer or organization. Use the pagination controls at the bottom of the page to see additional records.
 
@@ -24,13 +24,13 @@ Organizations (Preview)
 > ![B2B customer profiles](media/profile-customers-b2b.png "B2B customer profiles")
 
 > [!NOTE]
-> If you can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](pm-manage-search.md) on the **Search & filter index**.
+> If you can't see the tiles when you select **Customers** in navigation, your administrator needs to [define at least one searchable attribute](search-filter-index.md) on the **Search & filter index**.
 
 ## Search for customers
 
 Search for customers by entering a name or some other attribute in the search box. The search only works within the Customer Profile entity created during the data unification process.
 
-As an admin, you can configure the searchable attributes using the **Search & filter index** page. For more information, see [Manage search & filter index](pm-manage-search.md).
+As an admin, you can configure the searchable attributes using the **Search & filter index** page. For more information, see [Manage search & filter index](search-filter-index.md).
 
 ## Filter customers
 
@@ -47,4 +47,4 @@ You can filter customers by the Customer Profile entity fields. Similar to searc
 
 ## Next steps
 
-[Add more data sources](pm-data-sources.md) or [create customer segments](pm-segments.md).
+[Add more data sources](data-sources.md) or [create customer segments](segments.md).

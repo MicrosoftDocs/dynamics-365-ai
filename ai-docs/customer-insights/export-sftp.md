@@ -48,4 +48,4 @@ Use your customer data in third-party applications by exporting them to a Secure
 
 ## Export the data
 
-You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](system.md#schedule-tab).

@@ -759,6 +759,126 @@
       "source_path": "ai-docs/customer-insights/pm-admin.md",
       "redirect_url": "index",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/connect-common-data-model-folder.md",
+      "redirect_url": "connect-common-data-model",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/create-manage-environment.md",
+      "redirect_url": "manage-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-activities.md",
+      "redirect_url": "activities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-apis.md",
+      "redirect_url": "apis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-configure-data.md",
+      "redirect_url": "data-unification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-connectors.md",
+      "redirect_url": "export-power-bi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-customer-card-addin.md",
+      "redirect_url": "customer-card-add-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-data-sources.md",
+      "redirect_url": "data-sources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-enrichment.md",
+      "redirect_url": "enrichment-microsoft-graph",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-entities.md",
+      "redirect_url": "entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-gdpr.md",
+      "redirect_url": "gdpr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-homepage.md",
+      "redirect_url": "home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-manage-search.md",
+      "redirect_url": "search-filter-index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-map.md",
+      "redirect_url": "map-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-match.md",
+      "redirect_url": "match-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-measures.md",
+      "redirect_url": "measures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-merge.md",
+      "redirect_url": "merge-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-permissions.md",
+      "redirect_url": "permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-powerapps-connector.md",
+      "redirect_url": "export-power-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-profiles.md",
+      "redirect_url": "customer-profiles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-relationships.md",
+      "redirect_url": "relationships",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-segments.md",
+      "redirect_url": "segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-settings.md",
+      "redirect_url": "system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/power-automate-connector.md",
+      "redirect_url": "export-power-automate",
+      "redirect_document_id": false
     }
   ]
 }

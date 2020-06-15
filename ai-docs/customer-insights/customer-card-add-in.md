@@ -18,13 +18,13 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 
 - Model-driven Dynamics 365 app (such as Sales Hub or Customer Service Hub), version 9.0 and later with Unified Interface enabled.
 - Customer profiles [from the Dynamics 365 model-driven app ingested to Customer Insights using Common Data Service](pm-common-connectors.md#dynamics-365-apps-using-common-data-service).
-- Users of the Customer Card Add-in need to be [added as users](pm-permissions.md) in Customer Insights.
-- [Configured search and filter capabilities](pm-manage-search.md) in Customer Insights.
+- Users of the Customer Card Add-in need to be [added as users](permissions.md) in Customer Insights.
+- [Configured search and filter capabilities](search-filter-index.md) in Customer Insights.
 - Demographic control: Demographic fields, such as age or genders are available in the unified customer profile.
 - Enrichment control: Requires active [enrichments](enrichment-hub.md) applied to customer profiles.
 - Intelligence control: Requires data in Customer Insights generated using Azure Machine Learning ([Predictions](predictions.md) or [Custom Models](custom-models.md))
-- Measure control: Requires [configured measures](pm-measures.md) in Customer Insights.
-- Timeline control: Requires [configured activities](pm-activities.md) in Customer Insights. This control doesn't provide the same functionality as the timeline control of Dynamics 365 model-driven apps.
+- Measure control: Requires [configured measures](measures.md) in Customer Insights.
+- Timeline control: Requires [configured activities](activities.md) in Customer Insights. This control doesn't provide the same functionality as the timeline control of Dynamics 365 model-driven apps.
 
 ## Install the Customer Card Add-in
 

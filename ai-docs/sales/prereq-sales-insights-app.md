@@ -1,7 +1,7 @@
 ---
 title: "Prerequisites to administer Conversation Intelligence | MicrosoftDocs"
 description: "Prerequisites on how to administer Conversation Intelligence"
-ms.date: 07/31/2018
+ms.date: 06/01/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
