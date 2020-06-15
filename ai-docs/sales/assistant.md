@@ -97,7 +97,7 @@ When you open the assistant, it displays the name and basic description of each 
 
 2. **Actions area**: Provides convenient links to help you complete whatever action the card is recommending. The type of links and number of links (up to two) vary by card type. More information: [Insight cards reference](action-cards-reference.md)
 
-3. **Snooze**: Select the clock icon to hide the card temporarily. The snooze time varies by card type. After the snooze time expires, the card will again be visible. The snooze time varies from 5 minutes to 12 hours, depending on the type of card.
+3. **Snooze**: The snooze time varies by card type. All the high priority and cards of type Today will be snoozed for 1 hour, and all other cards will be snoozed for 24 hours. After the snooze time expires, the card will again be visible.
 
 4. **Dismiss**: Select this button to dismiss the card permanently, regardless of whether you've completed the action it recommends.
 

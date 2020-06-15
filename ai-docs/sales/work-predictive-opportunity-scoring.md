@@ -2,7 +2,7 @@
 title: "Work with Predictive opportunity scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/31/2018
+ms.date: 06/01/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
