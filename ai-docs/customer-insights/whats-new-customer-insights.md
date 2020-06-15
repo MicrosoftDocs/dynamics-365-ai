@@ -43,12 +43,12 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 - **Updated timeline and pagination on the Customer Card Add-in**
 
   The timeline of the Customer Card Add-in solution for Dynamics 365 model-driven apps matches the activity timeline in Customer Insights. The pagination of the timeline improved, showing up to 50 activities at once. It also allows loading additional activities in the timeline.    
-  For more information, see [Customer Card Add-in](pm-customer-card-addin.md).
+  For more information, see [Customer Card Add-in](customer-card-add-in.md).
 
 - **Power Automate trigger for segment changes**
 
   Triggers for Power Automate define what you can build a flow from. The newly added trigger lets you define a threshold for a segment. For example, you can create a notification that gets sent when the defined threshold is passed.    
-  For more information, see [Power Automate connector](power-automate-connector.md).
+  For more information, see [Power Automate connector](export-power-automate.md).
 
 - **Multitenant support for custom models**
 
@@ -78,7 +78,7 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 - **Segment list page**
 
   The new design of the segments page uses a list format that lets you see more segments at once. A search field is added to find segments quickly. Users can now apply actions like downloading or deleting on multiple segments at once. A new trend experience is introduced to quickly identify significant changes on segments.    
-  For more information, see [Create and manage segments](pm-segments.md).
+  For more information, see [Create and manage segments](segments.md).
 
 #### System administration
 
@@ -98,7 +98,7 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 - **Map activity entity to standard activity type**
   
   Activity configuration and storage are currently based on a static design to view them in a timeline. The semantic meaning of activities, which has potential for multiple use-cases in AI models, isn't fully used at the moment. We plan to make the activity timeline more dynamic, based on the activity type and better semantic understanding of the activities. This feature aims to identify the activity type as defined in Common Data Model for any ingested activity.
-  For more information, see [Customer activities](pm-activities.md).
+  For more information, see [Customer activities](activities.md).
 
 #### Data ingestion
 
@@ -110,7 +110,7 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 - **Improvements to data preparation**
   
   Learn more about the data ingested in an entity. With the data summary, you can understand the data quality characteristics that can help to take appropriate action.    
-  For more information, see [Explore entity data](pm-entities.md#exploring-a-specific-entitys-data).
+  For more information, see [Explore entity data](entities.md#exploring-a-specific-entitys-data).
 
 - **Ingest analytical data from Dynamics 365 with Common Data Service**
   
@@ -134,7 +134,7 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 - **Measure list page**
   
   Improvements to the measures page include support for actions on a single measure and on multiple measures at once. Additionally, you'll find a search field to find and track measures quickly.    
-  For more information, see [Create and manage segments](pm-segments.md).
+  For more information, see [Create and manage segments](segments.md).
 
 - **Improvements to compounded measures**
   
@@ -145,11 +145,11 @@ The Dynamics 365 Customer Insights updates in April 2020 includes several featur
 - **Additional operator**
   
   The In-set operator allows segmentation for customers by several possible string values. Before this operator was added, you had to construct such segments with multiple OR conditions. The In-set operator lets you do that with a single condition.    
-  For more information, see [Create and manage segments](pm-segments.md).
+  For more information, see [Create and manage segments](segments.md).
 
 #### System administration
 
 - **Copy configuration settings to a new environment**
   
   Copy your Customer Insights configuration from one environment to another. While creating a new environment, you can select an existing environment you want to copy the configuration from. We currently support data sources, data unification, relationships, measures, and segments to be copied. Data source credentials and actual data aren't copied.    
-  For more information, see [Manage environments](create-manage-environment.md).
+  For more information, see [Manage environments](manage-environments.md).

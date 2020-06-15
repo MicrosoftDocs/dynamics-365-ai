@@ -79,7 +79,7 @@ There are four possible statuses:
 |Refreshing    |Data ingestion is in progress. You can cancel this operation by selecting **Stop refreshing** in the **Actions** column. Stopping the refresh of a data source will revert it to its last refresh state.       |
 |Unable to refresh     |Data ingestion ran into errors. Select the **See details** link to review the errors within 24 hours of the time of failure.         |
 
-Loading data can take some time. After a successful refresh, the ingested data can be reviewed from the **Entities** page. For more information, see [Entities](pm-entities.md).
+Loading data can take some time. After a successful refresh, the ingested data can be reviewed from the **Entities** page. For more information, see [Entities](entities.md).
 
 ## Edit existing data sources
 
@@ -104,4 +104,4 @@ Loading data can take some time. After a successful refresh, the ingested data c
 
 ## Next step
 
-To review all the entities that were ingested to the system, see [Entities](pm-entities.md).
+To review all the entities that were ingested to the system, see [Entities](entities.md).

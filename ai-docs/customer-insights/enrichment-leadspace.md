@@ -19,8 +19,8 @@ Leadspace is a data science company that provides a B2B Customer Data Platform. 
 To configure Leadspace, the following prerequisites must be met:
 
 - You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly to [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
-- You have the [Administrator](pm-permissions.md#administrator) role in Customer Insights.
-- You have [unified customer profiles](pm-profiles.md) for companies.
+- You have the [Administrator](permissions.md#administrator) role in Customer Insights.
+- You have [unified customer profiles](customer-profiles.md) for companies.
 
 ## Configuration
 
@@ -41,7 +41,7 @@ To configure Leadspace, the following prerequisites must be met:
 
 ## Enrichment results
 
-After running the enrichment, you can review the newly enriched company data under [My enrichments](pm-profiles.md). You can find the time of the last update and the number of enriched profiles.
+After running the enrichment, you can review the newly enriched company data under [My enrichments](customer-profiles.md). You can find the time of the last update and the number of enriched profiles.
 
 You can access a detailed view of each enriched profile by selecting **View enriched data**.
 

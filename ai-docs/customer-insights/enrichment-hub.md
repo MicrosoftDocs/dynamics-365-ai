@@ -17,12 +17,12 @@ Use data from sources like Microsoft and other partners to enrich your customer 
 :::image type="content" source="media/enrichment-hub-page.png" alt-text="Enrichment hub page in Customer Insights":::
 
 In Customer Insights, go to **Data** > **Enrichment** to work with enrichment options.    
-You need to have Contributor or Administrator permissions to create or edit enrichments. For more information, see [Permissions](pm-permissions.md).
+You need to have Contributor or Administrator permissions to create or edit enrichments. For more information, see [Permissions](permissions.md).
 
 On the **Discover** tab, you'll find the following enrichments:
 
-- [Brands](pm-enrichment.md) provided by Microsoft Graph
-- [Interests](pm-enrichment.md) provided by Microsoft Graph
+- [Brands](enrichment-microsoft-graph.md) provided by Microsoft Graph
+- [Interests](enrichment-microsoft-graph.md) provided by Microsoft Graph
 - [Company data provided by Leadspace](enrichment-leadspace.md)
 
 On the **My enrichments** tab, you can see the enrichments you've configured and edit their properties.

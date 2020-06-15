@@ -62,7 +62,7 @@ manager: shellyha
 
 2. Select **Run**.
 
-Your workflow also runs automatically with every scheduled refresh. Learn more about [setting up scheduled refreshes](pm-settings.md#schedule-tab).
+Your workflow also runs automatically with every scheduled refresh. Learn more about [setting up scheduled refreshes](system.md#schedule-tab).
 
 ## Delete a workflow
 
@@ -70,4 +70,4 @@ Your workflow also runs automatically with every scheduled refresh. Learn more a
 
 2. Select **Delete** and confirm your deletion.
 
-Your workflow will be deleted. The [entity](pm-entities.md) that was created when you created the workflow persists, and can be viewed from the **Entities** page.
+Your workflow will be deleted. The [entity](entities.md) that was created when you created the workflow persists, and can be viewed from the **Entities** page.
