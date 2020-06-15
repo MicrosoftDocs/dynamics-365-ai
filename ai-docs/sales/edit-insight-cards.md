@@ -2,7 +2,7 @@
 title: "Edit insight cards using Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Edit insight cards in assistant"
 keywords: " "
-ms.date: 10/01/2019
+ms.date: 06/01/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

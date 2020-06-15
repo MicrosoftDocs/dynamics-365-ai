@@ -53,7 +53,7 @@ Segments are managed on the **Segments** page in Customer Insights.
    |3    |Operator         |
    |4    |Value         |
 
-8. If the entity is connected to the unified customer entity through [relationships](pm-relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer:CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
+8. If the entity is connected to the unified customer entity through [relationships](relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
 
    > [!div class="mx-imgBorder"]
    > ![Relationship path during segment creation](media/segments-multiple-relationships.png "Relationship path during segment creation")
@@ -91,7 +91,7 @@ Select a segment to do the following:
 You can refresh all segments at once by selecting **Refresh all** on the **Segments** page or you can refresh one or multiple segments when you select them and choose **Refresh** in from the options. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
 
 > [!TIP]
-> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Download and export segments
 
@@ -214,4 +214,4 @@ For the following scenarios, we advise using the segment builder rather than the
 
 ## Next steps
 
-[Export a segment](export-destinations.md) and explore the [Customer Card](pm-customer-card-addin.md) and [Connectors](pm-connectors.md) to get insights on the customer level.
+[Export a segment](export-destinations.md) and explore the [Customer Card](customer-card-add-in.md) and [Connectors](export-power-bi.md) to get insights on the customer level.

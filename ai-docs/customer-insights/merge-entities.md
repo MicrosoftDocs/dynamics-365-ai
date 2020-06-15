@@ -14,7 +14,7 @@ manager: shellyha
 
 The merge phase is the last phase in the data unification process. Its purpose is reconciling conflicting data. Examples of conflicting data could include a customer name found in two of your datasets but that shows up a little differently in each ("Grant Marshall" versus "Grant Marshal"), or a phone number that differs in format (617-803-091X versus 617803091X). Merging those conflicting data points is done on an attribute-by-attribute basis.
 
-After completing the [match phase](pm-match.md), you start the merge phase by selecting the **Merge** tile on the **Unify** page.
+After completing the [match phase](match-entities.md), you start the merge phase by selecting the **Merge** tile on the **Unify** page.
 
 ## Review system recommendations
 
@@ -73,11 +73,11 @@ After the **Refreshing ...** text changes to **Successful**, merge has completed
 If it wasn't the first time you ran a merge successfully, all downstream processes, including enrichment, segmentation, and measures will rerun automatically. After all downstream processes have been rerun, the customer profiles reflect any changes you made.
 
 > [!TIP]
-> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Next Step
 
-Configure [activities](pm-activities.md), [enrichment](pm-enrichment.md), or [relationships](pm-relationships.md) to gain more insights about your customers.
+Configure [activities](activities.md), [enrichment](enrichment-microsoft-graph.md), or [relationships](relationships.md) to gain more insights about your customers.
 
 If you already configured activities, enrichment, or relationships, or if you defined segments, they'll be processed automatically to use the latest customer data.
 

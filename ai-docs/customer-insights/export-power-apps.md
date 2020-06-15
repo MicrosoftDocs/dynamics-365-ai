@@ -24,8 +24,8 @@ Refer to the Power Apps documentation to learn how to [add a data connection to 
 
 After adding Customer Insights as a data connection, you can choose the following entities in Power Apps:
 
-- Customer: to use data from the [unified customer profile](pm-profiles.md).
-- Unified Customer Activity: to display the [activity timeline](pm-activities.md) on the app.
+- Customer: to use data from the [unified customer profile](customer-profiles.md).
+- Unified Customer Activity: to display the [activity timeline](activities.md) on the app.
 
 ## Example gallery control
 
