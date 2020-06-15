@@ -71,7 +71,7 @@
   - name: Predict subscription churn
     href: predict-subscription-churn.md
   - name: List customer activities
-    href: ctivities.md
+    href: activities.md
 
 - name: Export options
   items: 
@@ -109,7 +109,7 @@
     - name: Assign user permissions
       href: permissions.md
     - name: Manage multiple environments
-      href: manage-environment.md
+      href: manage-environments.md
     - name: Supported languages
       href: supported-languages.md
 
