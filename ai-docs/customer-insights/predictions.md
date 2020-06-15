@@ -80,7 +80,7 @@ As part of this flow, you'll choose a specific attribute to base your segment on
 > [!NOTE]
 > You can only find these predictions in Customer Insights, and will not be able to find these predictions in the AI Builder model list page.
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**. Select the **My predictions** tab.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to review.
 
