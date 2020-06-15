@@ -21,9 +21,9 @@ Connect Dynamics 365 Customer Insights with Teams to let a bot look up unified c
 
 To set up and configure the bot, the following prerequisites must be met:
 
-- There's at least one [data source added](pm-data-sources.md).
-- The [unification process](pm-configure-data.md) is complete.
-- Fields are added to the [search and filter index](pm-manage-search.md).
+- There's at least one [data source added](data-sources.md).
+- The [unification process](data-unification.md) is complete.
+- Fields are added to the [search and filter index](search-filter-index.md).
 - Customer Insights and Teams are in the same organization.
 
 ## Configure the bot

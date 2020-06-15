@@ -17,7 +17,7 @@ manager: shellyha
 - *Entity selection*: Identify the combinable entities that lead to a dataset with more complete information about your customers.
 - *Attribute selection*: For each entity, identify the columns you want to combine and reconcile in the *match* and *merge* phases. In Customer Insights, these columns are called *Attributes*.
 
-For more information about the general flow of data unification, see [Unify](pm-configure-data.md).
+For more information about the general flow of data unification, see [Unify](data-unification.md).
 
 ## Select the first entities
 
@@ -90,7 +90,7 @@ Select the entity and find the field that contains the URL to the profile image.
 - For a person: Person.ProfileImage
 - For an organization: Organization.LogoImage
 
-Proceed with the unification steps and ensure the attribute that contains the image URL is also added in the [Merge](pm-merge.md) step.
+Proceed with the unification steps and ensure the attribute that contains the image URL is also added in the [Merge](merge-entities.md) step.
 
 ## Set attributes for organizations
 
@@ -100,7 +100,7 @@ For Organizations (Preview), the attribute type should be mapped to "Organizatio
 
 ## Next step
 
-As part of the data unification process, go to the **Match** page. Visit [**Match**](pm-match.md) to learn about this phase.
+As part of the data unification process, go to the **Match** page. Visit [**Match**](match-entities.md) to learn about this phase.
 
 > [!TIP]
 > Check out the following video: [Getting Started: Creating a Unified Customer Profile](https://youtu.be/oBfGEhucAxs).

@@ -12,7 +12,7 @@ manager: shellyha
 
 # Match entities
 
-After completing the map phase, you're ready to match your entities. The match phase specifies how to combine your datasets into a unified customer profile dataset. The match phase requires at least [two mapped entities](pm-map.md).
+After completing the map phase, you're ready to match your entities. The match phase specifies how to combine your datasets into a unified customer profile dataset. The match phase requires at least [two mapped entities](map-entities.md).
 
 ## Specify the match order
 
@@ -109,7 +109,7 @@ When the match process is complete, the **Refreshing ...** text will change to *
 The first match process results in the creation of a unified master entity. All subsequent match runs result in the expansion of that entity.
 
 > [!TIP]
-> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Review and validate your matches
 
@@ -202,4 +202,4 @@ You can specify conditions that certain records should always match or never mat
 
 ## Next step
 
-After completing the match process for at least one match pair, you may resolve possible contradictions in your data by going through the [**Merge**](pm-merge.md) topic.
+After completing the match process for at least one match pair, you may resolve possible contradictions in your data by going through the [**Merge**](merge-entities.md) topic.

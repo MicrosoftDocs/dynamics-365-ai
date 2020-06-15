@@ -12,7 +12,7 @@ manager: shellyha
 
 # Connector for Dynamics 365 Marketing (preview)
 
-Use the [segments created in Customer Insights](pm-segments.md) to generate campaigns and contact specific groups of customers with Dynamics 365 Marketing. For more information, see [Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/customer-insights-segments)
+Use the [segments created in Customer Insights](segments.md) to generate campaigns and contact specific groups of customers with Dynamics 365 Marketing. For more information, see [Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/customer-insights-segments)
 
 ## Prerequisite
 
@@ -36,4 +36,4 @@ Contact records [from Dynamics 365 Marketing ingested to Customer Insights using
 
 ## Export the data
 
-You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](system.md#schedule-tab).

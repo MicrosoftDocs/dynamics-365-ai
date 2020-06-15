@@ -12,7 +12,7 @@ manager: shellyha
 
 # Common connectors
 
-This topic extends on the content from the [Data sources](pm-data-sources.md) article. You'll learn how to load data into Dynamics 365 Customer Insights from the most frequently used connectors. Refer to the following sections to ingest data from the described sources.
+This topic extends on the content from the [Data sources](data-sources.md) article. You'll learn how to load data into Dynamics 365 Customer Insights from the most frequently used connectors. Refer to the following sections to ingest data from the described sources.
 
 ## CSV file hosted on Microsoft Azure Blob storage
 

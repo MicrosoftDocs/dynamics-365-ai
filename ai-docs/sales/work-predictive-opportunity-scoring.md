@@ -2,7 +2,7 @@
 title: "Work with Predictive opportunity scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/31/2018
+ms.date: 06/01/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -49,53 +49,24 @@ The numbered columns are:
 
 1. **Opportunity Grade.** Specifies a ranks or level of quality that is given to an opportunity based on the generated score. Opportunities with higher grade have more chances of converting into win deals. The grades of an opportunity are categorized into A, B, C, and D with colors green, purple, yellow, and red, respectively, where Grade A (green) is the opportunity with the highest likelihood for conversion into a win deal followed by Grade B (purple), Grade C (yellow), and Grade D (red). The system administrator can define opportunity score ranges for a grade, depending on the organizational requirements. 
 
-## Analyze and improve your opportunity score
 
-In forms, you can use the **Opportunity score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the opportunity attributes and attributes from related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a possible won deal.
+## Understand opportunity scoring widget
 
-The following image shows a typical **Opportunity score** widget, which lists the reasons that are influencing the opportunity score.
+In forms, you can use the **opportunity score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the opportunity attributes and attributes from related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a possible deal.
 
-> [!div class="mx-imgBorder"]
-> ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget.png "Predictive opportunity score widget")
-
-Typically, the screen is organized into the following sections:
-
-- [Basic information](#basic-information)
-
-- [Top reasons](#top-reasons)
-
-### Basic information
-
-The information included in this section covers the opportunity score, opportunity grade, and opportunity trend.
+The following screen displays a typical opportunity score widget with reasons that are influencing the opportunity score:
 
 > [!div class="mx-imgBorder"]
-> ![Predictive opportunity score basic information](media/predictive-lead-scoring-widget-basic-information.png "Predictive opportunity score basic information")
+> ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget-v1.png "Predictive opportunity score widget")
 
-### Top reasons
+The numbered sections are:
 
-The most important reasons&mdash;both positive and negative&mdash;that affect the opportunity score are listed here. You can use these reasons to analyze how you might convert the opportunity into a deal.
+1. **Basic Information**: Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity score trend—to help you avoid going back to the **My Open Opportunities Scored** view to see basic information.
 
-> [!div class="mx-imgBorder"]
-> ![Predictive opportunity score top reasons](media/predictive-opportunity-scoring-widget-top-reasons.png "Predictive opportunity score top reasons")
+2. **Top Reasons**: Displays the list of reasons that are affecting the opportunity score. This helps you to analyze and consider the opportunity for converting it into a win deal. You can also take necessary action to improve the opportunity score, such as set up meetings and follow-ups.
 
-When you move your cursor over a reason, a tooltip displays an insight about what's causing the reason to be listed on top. You can work on this insight and take any necessary action to improve the opportunity.
+3. **Feedback**: Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
-In the following example, for the reason "Estimated revenue is higher than most successful opportunities," the tooltip displays the insight **15% of opportunities with estimated revenue above 19900 are closed as won." 
-
-> [!div class="mx-imgBorder"]
-> ![Predictive opportunity score top reasons tooltip](media/predictive-opportunity-scoring-widget-top-reasons-tool-tip.png "Predictive opportunity score top reasons tooltip")
-
-The **Opportunity score** widget displays only the top five positive and negative reasons. To view all the positive and negative reasons that are affecting the opportunity score, select **Details**. 
-
-The **Opportunity score** pane opens with a list of all score improvers (positives) and harmers (negatives), along with a graph that shows how the opportunity score is trending over time.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive opportunity score Details tab](media/predictive-opportunity-scoring-widget-top-reasons-details-tab.png "Predictive opportunity score Details tab")
-
-For more information about the opportunity score, select the **About** tab. The **About** tab helps you understand what the opportunity score is and how it works. Under **What does it mean?**, you'll find information about how opportunity scores are categorized by admins in your organization. Under **What impacts the score?**, you'll find the attributes that affect opportunity scores in your organization.
-
-> [!div class="mx-imgBorder"]
-> ![Predictive opportunity score About tab](media/predictive-opportunity-scoring-widget-top-reasons-about-tab.png "Predictive opportunity score About tab")
 
 ### See also
 

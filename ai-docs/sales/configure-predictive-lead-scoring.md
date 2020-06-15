@@ -35,7 +35,7 @@ The following illustration explains how you can configure the predictive lead sc
 
 Before we configure the predictive lead scoring, let's understand the configuration page after a model is generated.
 
-## Understand the configuration page
+## Understand the configuration page 
 
 When a model is generated and published, the configuration page is displayed as shown in the following image.
 
