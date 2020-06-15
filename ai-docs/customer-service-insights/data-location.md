@@ -36,7 +36,7 @@ Microsoft may replicate customer data to other regions available within the same
 |                               |    Australia Southeast   (Victoria)       |
 |                               |                                           |
 |    Asia Pacific               |    Southeast Asia (Singapore)             |
-|                               |    East Asia (Hong Kong)                  |
+|                               |    East Asia (Hong Kong SAR)              |
 |                               |                                           |
 |    United Kingdom             |    UK South (London)                      |
 |                               |    UK West (Cardiff, Durham)              |

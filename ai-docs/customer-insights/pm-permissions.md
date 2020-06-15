@@ -1,7 +1,7 @@
 ---
 title: "User permissions in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 04/17/2020
+ms.date: 05/28/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -12,57 +12,54 @@ manager: shellyha
 
 # User permissions
 
-The **Permissions** page is where you'll set up roles and permissions for using Dynamics 365 Customer Insights across your organization. Customer Insights includes three types of roles.
+The **Permissions** page is where you'll set up roles and permissions for using Dynamics 365 Customer Insights across your organization. Customer Insights includes three types of roles:
 
 ## Viewer
 
 - Explore insights and segments within the **Home** and **Segments** pages.
-- Search and filter customer profiles using the **Customers** page. (Note: Data fields should first be indexed as searchable by your administrator.)
+- Search and filter customer profiles using the **Customers** page. Fields must be searchable.
 - View and explore the **Enrichment** page.
 - Explore and export entities using the **Entities** page.
 - View the status of system processes  using the **System** page.
-- Export segments from the **Segments** page to either a .csv file or to a Dynamics 365 Sales destination. (Note: Dynamics 365 Sales destinations should first be defined by your administrator.)
+- Export segments from the **Segments** page to either a .CSV file or to a Dynamics 365 Sales destination.
 - Install and use the **Power BI Customer Insights** dashboard to seek insights on your customers.
 
 ## Contributor
 
 - All permissions available to the Viewer.
-- Load and transform data using the **Data Sources** page.
+- Load and transform data using the **Data sources** page.
 - Complete the *Data Unification* sections (**Map**, **Match**, and **Merge**) which result in the unified customer profile entity.
 - Define **Relationships** and **Activities**.
-- Create segments using the **Segment Builder** page.
+- Create segments using the **Segments** page.
 - Create measures using the **Measures** page.
-- Manage configuration and enrich customer profiles from the **Enrichment** page.
+- Manage configuration and enrich customer profiles from the **Enrichment** page (for first party enrichments only).
 
 ## Administrator
 
 - All permissions available to the Contributor.
 - Change settings on the **System** page, including the working language and refresh schedules for your system processes.
 - View and add permissions using the **Permissions** page.
-- Set Search and Filter definitions for the Customers page using the **Search & Filter Index** page (accessible via the **Customers** page)
-- Define Dynamics 365 Sales segment destinations using the **Segment Export** page.
+- Set search and filter definitions for the Customers page using the **Search & filter index** page (accessible via the **Customers** page).
+- Define Dynamics 365 Sales segment destinations using the **Export destinations** page.
+- Manage configuration and enrich customer profiles from the **Enrichment** page (for all enrichments).
 - Install and use the **Customer Card Add-in**.
 - Add and use the **Power Apps connector** to create apps with Customer Insights data.
 
 ## Assign roles and permissions
 
-1. On the **Permissions** page, select **Add** to open the **Add permissions** pane.
+Administrators may use the **Permissions** page to grant user role assignments within Customer Insights.
 
-2. In the **Select** field, find the user or group whose permissions you want to adjust. Choose a **Role** to assign to that user or group.
+1. On the **Permissions** page, select **Add users** to open the **Add/Edit permissions** pane.
 
-3. Select **Save** in the lower-right corner of the pane. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. Users can access the Customer Insights app and perform actions according to their specified role.
+2. Use the **Search** field to find the Azure Active Directory user or group whose permissions you want to adjust. Select a **Role** to assign to that user or group.
+
+3. Select **Save**. The current work instance will automatically be shared with the user or members of the group whose permissions you've changed. Users can access the Customer Insights app and work according to their specified role.
 
 ## View current permissions
 
 Use the **Permissions** page to see what role assignments are currently active.
 
-- The **Type** column specifies a single user, group, or application. Currently, Customer Insights supports individual users and groups. 
+- The **Type** column specifies a single user, group, or application. The system supports individual users and groups.
 - Roles are specified under the **Role** column.
-- Use the search field at the top of the page to locate specific users.
-- You can select any column title to sort the results by that column's value.
-
-## View and filter permissions by role
-
-On **Permissions** page, select **Filter** to open the **Filter** pane. Here you can filter the results on the page by role.
-
-On the **Permissions** page, select **Roles** to open the **Roles** pane. Here you can see at a glance how many users are assigned to each role.
+- Select any column title to sort the results by that column's value.
+- Use the **Search** field at the top of the page to locate specific users.

@@ -5,13 +5,13 @@
   href: overview.md
 
 - name: New and updated features
-  href: https://aka.ms/Dynamics365ReleasePlan
+  href: whats-new-customer-insights.md
 
 - name: Free trial
   href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
 
-# - name: First steps
-#  href: pm-homepage.md
+- name: First steps
+  href: pm-homepage.md
 
 - name: Data sources
   items:
@@ -53,8 +53,12 @@
 
 - name: Data enrichment
   items: 
-  - name: Enrich with brand and interest affinities
+  - name: Enrich customer profiles
+    href: enrichment-hub.md
+  - name: Brand and interest affinities
     href: pm-enrichment.md
+  - name: Enrich with Leadspace
+    href: enrichment-leadspace.md
 
 - name: Data analysis
   items: 
@@ -83,6 +87,10 @@
       href: export-dynamics365-sales.md
     - name: Dynamics 365 Sales Hub (Add-in)
       href: pm-customer-card-addin.md
+    - name: Facebook Ads Manager
+      href: export-facebook.md
+    - name: LiveRamp
+      href: export-liveramp.md
     - name: Microsoft Teams (bot) 
       href: export-teams-bot.md
     - name: Power BI
@@ -91,16 +99,14 @@
       href: pm-powerapps-connector.md
     - name: Power Automate
       href: power-automate-connector.md
-    - name: LiveRamp
-      href: export-liveramp.md
+    - name: SFTP
+      href: export-sftp.md
 
 - name: Administration
-  items: 
-    - name: Familiarize with admin settings 
-      href: pm-admin.md
+  items:
     - name: Set up the system configuration
       href: pm-settings.md
-    - name: Define user permissions
+    - name: Assign user permissions
       href: pm-permissions.md
     - name: Manage multiple environments
       href: create-manage-environment.md

@@ -48,22 +48,23 @@ The numbered columns are:
 
 3. **Lead Score Trend.** Specifies the direction in which a lead is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present lead score with the previous score. For example, the score of a lead was 65 and the present score is decreased to 45. A down arrow is displayed in the **Lead Score Trend** column specifying that the lead is losing traction and needs some action from you to improve the score. 
  
-## Analyze and improve your lead score
+## Understand lead scoring widget
 
-In forms, you can use the **Lead Score** widget to see the top 10 reasons that are influencing the score. These reasons come from the lead attributes and attributes from the related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity. 
+In forms, you can use the **Lead score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the lead attributes and attributes from related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity.
 
-The following screen displays a typical Lead Score widget with reasons that are influencing the lead score. 
+The following screen displays a typical lead score widget with reasons that are influencing the lead score:
 
 > [!div class="mx-imgBorder"]
-> ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
+> ![Predictive lead score widget](media/predictive-lead-scoring-widget-v1.png "Predictive lead score widget")
 
 The numbered sections are:
 
-1.	**Basic Information.** Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
+1. **Basic Information**: Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
 
-2.	**Top Reasons.** Displays the list of reasons that are affecting the lead score. This helps you to analyze and consider the lead for converting into an opportunity. You can also take necessary actions to improve the lead score, such as set up meetings and follow-ups.
+2. **Top Reasons** Displays the list of reasons that are affecting the lead score. This helps you to analyze and consider the lead for converting into an opportunity. You can also take necessary actions to improve the lead score, such as set up meetings and follow-ups.
 
-3.	**Feedback.** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
+3. **Feedback** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. To provide feedback, select the Chat icon and enter the expected score and comments. To save the feedback, select Send.
+
 
 ### See also
 

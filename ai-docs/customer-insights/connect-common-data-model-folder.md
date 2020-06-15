@@ -1,11 +1,12 @@
 ---
 title: "Connect Common Data Model data to an Azure Data Lake account | Microsoft Docs"
 description: "Work with Common Data Model data in Dynamics 365 Customer Insights using Azure Data Lake Storage."
-ms.date: 04/16/2020
+ms.date: 05/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
 ms.author: mhart
+ms.reviewer: adkuppa
 manager: shellyha
 ---
 
@@ -18,6 +19,11 @@ This article provides information on how to connect a Common Data Model folder w
 - Data in your Azure Data Lake needs to follow the Common Data Model standard. Other formats aren't supported at the moment.
 
 - Customer Insights supports Azure Data Lake *Gen2* storage accounts exclusively. You can't use Azure Data Lake Gen1 storage accounts in Customer Insights.
+
+- The Azure Data Lake you want to connect and ingest data from have to be in the same Azure region as Customer Insights environment. Connecting to a Common Data Model folder from an Azure Data Lake in a different Azure region is not supported.
+
+> [!NOTE]
+> To know the Azure region of the Customer Insights environment, select the settings icon on the right side of the application header. Then, select **Environments**. In the **Environments** panel you'll find the **Region** value of the environment.
 
 - Data stored in online services, such as Azure Data Lake Storage, may be stored in a different location than where data is processed or stored in Dynamics 365 Customer Insights. By importing or connecting to data stored in online services, you agree that data can be transferred to and stored with Dynamics 365 Customer Insights. [Learn more at the Microsoft Trust Center.](https://www.microsoft.com/trust-center)
 
@@ -39,7 +45,7 @@ This article provides information on how to connect a Common Data Model folder w
    > [!NOTE]
    > Any model.json file associated with another data source in the instance won't show in the list.
 
-7. You'll get a list of available entities from the selected model.json file. You can review the entities and select **Save**. All of the listed entities will be attached to Customer Insights.
+7. You'll get a list of available entities from the selected model.json file. You can review and select from the list of available entities and select **Save**. All of the selected entities will be attached to Customer Insights.
    > [!div class="mx-imgBorder"]
    > ![Dialog box showing a list of entities from a model.json file](media/review-entities.png)
 
@@ -64,5 +70,9 @@ You can update the access key for the storage account containing the Common Data
 
 5. Optionally, choose a different model.json file with a different set of entities from the container.
 
+6. Optionally, you can select additional entities to be attached to Customer Insights. You can also remove any already selected entities if there are no dependencies.
+
    > [!IMPORTANT]
    > If there are dependencies on the existing model.json file and the set of entities, you'll see an error message and can't select a different model.json file. Remove those dependencies before changing the model.json file or create a new data source with the model.json file that you want to use to avoid removing the dependencies.
+
+   
