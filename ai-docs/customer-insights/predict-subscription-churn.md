@@ -16,7 +16,7 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 
 ## Prerequisites
 
-1. At least [Contributor permissions](pm-permissions.md) in Customer Insights.
+1. At least [Contributor permissions](permissions.md) in Customer Insights.
 1. Business knowledge to understand what churn means for your business. We support time-based churn definitions, meaning a customer is considered to have churned a period of time after their subscription is ended.
 1. Data about your subscriptions and their history:
     - Subscription identifiers to distinguish subscriptions.
@@ -112,7 +112,7 @@ Subscription churn prediction helps predicting whether a customer is at risk for
     1. **Likelihood to churn (number of customers):** Groups of customers based on their predicted risk of churn. This data can help you later if you want to create a segment of customers with high churn risk. Such segments help to understand where your cutoff should be for segment membership.
        > [!div class="mx-imgBorder"]
        > ![Graph showing distribution of churn results, broken into ranges from 0-100%](media/subscription-churn-resultdistribution.PNG "Graph showing distribution of churn results, broken into ranges from 0-100%")
-    1. **Most influential factors:** There are many factors that are taken into account when creating your prediction. Each of the factors has their importance calculated for the aggregated predictions a model creates. You can use these factors to help validate your prediction results. Or you can use this information later to [create segments](pm-segments.md) that could help influence churn risk for customers.
+    1. **Most influential factors:** There are many factors that are taken into account when creating your prediction. Each of the factors has their importance calculated for the aggregated predictions a model creates. You can use these factors to help validate your prediction results. Or you can use this information later to [create segments](segments.md) that could help influence churn risk for customers.
        > [!div class="mx-imgBorder"]
        > ![List showing influential factors and their importance in predicting the churn result](media/subscription-churn-influentialfactors.PNG "List showing influential factors and their importance in predicting the churn result")
 
@@ -126,7 +126,7 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 
 ## Refresh a prediction
 
-Predictions will automatically refresh on the same [schedule your data refreshes](pm-settings.md#schedule-tab) as configured in settings.
+Predictions will automatically refresh on the same [schedule your data refreshes](system.md#schedule-tab) as configured in settings.
 
 1. Go to the **My predictions** tab on **Intelligence** > **Predictions**.
 1. Select the vertical ellipses next to the prediction you want to refresh.

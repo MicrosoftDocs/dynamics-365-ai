@@ -75,10 +75,10 @@ For details about creating flows, see the [Power Automate documentation](https:/
 You can use the real-time capabilities by building your own pipeline and connecting directly to the Customer Insights real-time API.    
 You can post an activity in the format of your source system or in the UnifiedActivity format. Get the format by making an API call to /api/instances/{instanceId}/manage/entities/UnifiedActivity.
 
-Details of this API, including parameters and responses, can be found in the **EntityData** section on the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html). [Learn more about how to use the Customer Insights Swagger webpage](pm-apis.md#how-to-use-the-customer-insights-swagger-webpage).
+Details of this API, including parameters and responses, can be found in the **EntityData** section on the [Swagger UI page](https://global.api.ci.ai.dynamics.com/swagger/index.html). [Learn more about how to use the Customer Insights Swagger webpage](apis.md#how-to-use-the-customer-insights-swagger-webpage).
 
 ## Understand your real-time usage with telemetry
 
-Get an overview of the volume of requests posted to the real-time API and information about issues the system may encounter. You can [access the real-time telemetry](pm-settings.md#api-usage-tab) by going to **Admin** > **System** > **API usage**.
+Get an overview of the volume of requests posted to the real-time API and information about issues the system may encounter. You can [access the real-time telemetry](system.md#api-usage-tab) by going to **Admin** > **System** > **API usage**.
 
 Use the **Group by** selector to choose how to best present your real-time interactions on a timeline ranging from the last 24 hours to the last 30 days. You can group the data by API method, entity qualified name (ingested entity), created by (source of the event), result (success or failure) or error codes. The data is available as a history chart and as a table.

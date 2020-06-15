@@ -16,16 +16,16 @@ The **Export destinations** page shows you all locations you've set up to export
 
 Go to **Admin** > **Export destinations** to find the following extensibility options:
 
-- [Dynamics 365 Customer Card Add-in](pm-customer-card-addin.md)
-- [Power Automate connector](power-automate-connector.md)
-- [Power Apps connector](pm-powerapps-connector.md)
-- [Power BI connector](pm-connectors.md)
+- [Dynamics 365 Customer Card Add-in](customer-card-add-in.md)
+- [Power Automate connector](export-power-automate.md)
+- [Power Apps connector](export-power-apps.md)
+- [Power BI connector](export-power-bi.md)
 - [Dynamics 365 Sales](export-dynamics365-sales.md)
 - [Dynamics 365 Marketing](export-dynamics365-marketing.md)
 - [Azure Blob Storage](export-azure-blob-storage.md)
 - [Connector to LiveRamp&reg;](export-liveramp.md)
 - [Bot for Microsoft Teams](export-teams-bot.md)
-- [Customer Insights API](pm-apis.md)
+- [Customer Insights API](apis.md)
 
 ## Add a new export destination
 
@@ -64,7 +64,7 @@ After creating export destinations, you'll find them in a table on the **My expo
 
 ## Export data on demand
 
-After configuring a connector for an export destination, exports will run with every [scheduled refresh](pm-settings.md#schedule-tab).
+After configuring a connector for an export destination, exports will run with every [scheduled refresh](system.md#schedule-tab).
 
 To export data without waiting for a scheduled refresh, go the **My export destinations** tab on **Admin** > **Export destinations**.
 

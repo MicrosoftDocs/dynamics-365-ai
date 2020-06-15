@@ -36,4 +36,4 @@ Contact records [from Dynamics 365 Sales ingested to Customer Insights using Com
 
 ## Export the data
 
-You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](pm-settings.md#schedule-tab).
+You can [export data on demand](export-destinations.md). The export will also run with every [scheduled refresh](system.md#schedule-tab).

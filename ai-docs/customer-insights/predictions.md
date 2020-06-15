@@ -27,7 +27,7 @@ Before your organization can use the predictions feature, the following prerequi
 
 2. Your Customer Insights environment is attached to your Common Data Service instance.
 
-If you're [creating a new environment](create-manage-environment.md), configure it in the **Create an environment** dialog and select **Advanced**. If you've already created an environment, go to its settings and select **Advanced**. Either way, in the **Use predictions** section, enter the Common Data Service instance URL to which you want to attach your Customer Insights instance.
+If you're [creating a new environment](manage-environments.md), configure it in the **Create an environment** dialog and select **Advanced**. If you've already created an environment, go to its settings and select **Advanced**. Either way, in the **Use predictions** section, enter the Common Data Service instance URL to which you want to attach your Customer Insights instance.
 
 ## Create a prediction in the Customer Entity
 
@@ -137,7 +137,7 @@ The next run of your prediction will use the updated model you've created.
 If you can't complete the attach Common Data Service process due to an error, you can try to complete the process manually. There are two known issues that can occur in the attach process:
 
 - The Customer Insights Customer Card Add-in solution is not installed.
-    1. Complete the instructions to [install and configure the solution](pm-customer-card-addin.md).
+    1. Complete the instructions to [install and configure the solution](customer-card-add-in.md).
 
 - Customer Insights Application Permissions aren't granted.
     1. Go to [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com).

@@ -12,7 +12,7 @@ manager: shellyha
 
 # Customer activities
 
-Combine customer activities from [various data sources](data-sources-list.md) in Dynamics 365 Customer Insights. In a next step, create a customer timeline that includes all the activities of a customer in chronological order. You can include the timeline in model-driven apps in Dynamics 365 via the [Customer Card add-in](pm-customer-card-addin.md), or in a Power BI dashboard.
+Combine customer activities from [various data sources](data-sources-list.md) in Dynamics 365 Customer Insights. In a next step, create a customer timeline that includes all the activities of a customer in chronological order. You can include the timeline in model-driven apps in Dynamics 365 via the [Customer Card add-in](customer-card-add-in.md), or in a Power BI dashboard.
 
 This article covers only the **Activities** page.
 
@@ -53,7 +53,7 @@ Your data sources include entities with transactional and activity data from mul
 1. On the **Activities** page, select **Run**.
 
 > [!TIP]
-> There are [six types of status](pm-settings.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](pm-settings.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
 
 ## Edit an activity
 
@@ -81,4 +81,4 @@ Your data sources include entities with transactional and activity data from mul
 
 ## Next steps
 
-You can review the [Customer Card add-in](pm-customer-card-addin.md) article to show activities in model-driven apps. To build a Power BI dashboard, have a look at the [Power BI connector](pm-connectors.md) article.
+You can review the [Customer Card add-in](customer-card-add-in.md) article to show activities in model-driven apps. To build a Power BI dashboard, have a look at the [Power BI connector](export-power-bi.md) article.
