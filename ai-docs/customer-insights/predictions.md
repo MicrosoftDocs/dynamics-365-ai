@@ -97,7 +97,7 @@ As part of this flow, you'll choose a specific attribute to base your segment on
 
 ## Update a prediction
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**. Select the **My predictions** tab.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to update and select the **Update** icon.
 
@@ -107,7 +107,7 @@ As part of this flow, you'll choose a specific attribute to base your segment on
 
 After you've created a prediction, you can customize the model in the AI Builder to increase the effectiveness of your model.  
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**. Select the **My predictions** tab.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to edit.
 
@@ -124,7 +124,7 @@ The next run of your prediction will use the updated model you've created.
 
 ## Remove a prediction
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**. Select the **My predictions** tab.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to delete.
 
