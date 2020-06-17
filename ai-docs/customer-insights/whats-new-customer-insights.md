@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 06/11/2020
+ms.date: 06/16/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -13,6 +13,10 @@ manager: shellyha
 # What's new in Dynamics 365 Customer Insights
 
 We're excited to announce our newest updates! This article summarizes public preview features, general availability enhancements, and feature updates. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
+
+You can also watch the following video to learn more about the capabilities planned for 2020 release wave 1. 
+
+> [!VIDEO https://www.youtube.com/embed/jQh-7pscH30]
 
 We roll out updates on a region-by-region basis. So certain regions might see features before others. Unless specified differently, you don't need to take any action and we'll update the app automatically with no downtime.
 
