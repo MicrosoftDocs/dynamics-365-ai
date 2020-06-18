@@ -28,8 +28,6 @@ Conversation Intelligence is designed to help sales managers and sellers in thei
 
 -	View and compare what’s happening in sales calls and get insights into best practices by learning more about the behaviors of your top sellers. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
--	Understand if your opportunities and leads are on track or losing momentum. To learn more, see [Are my team’s deals on track?](dynamics365-sales-insights-app-home-page.md#are-my-teams-deals-on-track) 
-
 -	View your team’s performance, with insights, customer sentiment, and conversational style. To learn more, see [View team information](conversation-intelligence-team-overview.md).
 
 -	View and understand each individual seller’s conversation style, customer sentiment, insights, and call history. To learn more, see [View sales rep information](conversation-intelligence-seller-details.md).
