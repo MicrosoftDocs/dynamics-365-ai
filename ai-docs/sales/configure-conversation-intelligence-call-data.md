@@ -1,7 +1,7 @@
 ---
 title: "Configure call data for Conversation Intelligence | MicrosoftDocs"
 description: "Configure call data in Conversation Intelligence"
-ms.date: 04/08/2020
+ms.date: 06/18/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
