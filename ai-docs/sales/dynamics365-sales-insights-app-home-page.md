@@ -2,7 +2,7 @@
 title: View overall insights of your sales and sellers in Conversation Intelligence | MicrosoftDocs"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for Conversation Intelligence "
 keywords: ""
-ms.date: 04/09/2020
+ms.date: 06/18/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
