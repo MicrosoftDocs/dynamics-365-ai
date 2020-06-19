@@ -37,6 +37,9 @@ Provides an AI-powered forecast that helps sellers and managers understand how m
 
 To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
 
+>[!NOTE]
+> **Predective** coloumn is now available for all hierarchies with rollup entity as **Opportunity**.
+
 After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
 
 To learn more, see [Configure forecasts in your organization](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast).
@@ -50,8 +53,6 @@ Consider the following before you start using predictive forecasting, you must h
 -	Data should be real as in the usage scenarios for both closed and open opportunities. For example, opportunity created date should be before close date.
 
 - Predictive forecasting service selects forecast model according to the available data, so, larger volume of closed opportunities with more complete values will result in getting more accurate forecasts.
-
-- **Prediction** column is available only for **Org chart forecast**&ndash;based forecasts.  
 
 - Additional filters created for the forecast don't negatively affect the outcome of the predictive forecasting model.
 
