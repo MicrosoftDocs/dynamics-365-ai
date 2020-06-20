@@ -17,9 +17,6 @@ caps.latest.revision: 22
 
 # Use Sales Insights Assistant to guide customer communications
 
->[!IMPORTANT]
->To benefit from the new features of Sales Insights Assistant version 2, opt-in for early access. More information: [How to enable early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
-
 Sales Insights Assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
 
 Some ways the assistant reminds you of upcoming activities are:
