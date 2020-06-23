@@ -22,6 +22,7 @@ You can use a variety of triggers that allow you to create flows to automate rep
 - Trigger when a data source refresh succeeds.
 - Trigger when a threshold is crossed on a segment. The trigger is limited to crossing above the threshold.
 - Trigger when a threshold is crossed on a business measure. The trigger is limited crossing above the threshold.
+- Trigger when a full refresh of Customer Insights (data sources, segments, measures,...) is completed.
 
 [Configure your triggers in Power Automate](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
 
