@@ -26,7 +26,10 @@ To configure Leadspace, the following prerequisites must be met:
 
 1. Go to **Data** > **Enrichment**.
 
-1. Select **Set up** on the Leadspace tile.
+1. Select **Enrich my data** on the Leadspace tile.
+
+   > [!div class="mx-imgBorder"]
+   > ![Leadspace tile](media/Leadspace-tile-Hub.png "Leadspace tile")
 
 1. Select **Add token** and enter an active **Leadspace token** (perpetual key). Review and provide your consent for **Data privacy and compliance** by selecting the **I agree** checkbox. Confirm both inputs by selecting **Apply**.
 
