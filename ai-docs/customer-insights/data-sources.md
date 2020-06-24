@@ -1,7 +1,7 @@
 ---
 title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn how to import data from various sources into Dynamics 365 Customer Insights."
-ms.date: 04/16/2020
+ms.date: 06/24/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 ms.assetid: 
@@ -59,7 +59,7 @@ In this step, you'll add entities to your data source. In Customer Insights, ent
 
    - Map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. To do so, select **Map to standard** in the Power Query header, and then map fields from your source data to Common Data Model fields.
 
-4. Select **Create** at the bottom of the Power Query window to save the transformations. After saving, you'll find you data source on the **Data sources** page.
+4. Select **Create** at the bottom of the Power Query window to save the transformations. After saving, you'll find your data source on the **Data sources** page.
 
 5. On the **Data sources** page, select the ellipsis under **Actions** and then select **Refresh**.
 
