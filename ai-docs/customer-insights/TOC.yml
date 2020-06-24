@@ -10,6 +10,9 @@
 - name: Free trial
   href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
 
+- name: Access your instance
+  href: https://home.ci.ai.dynamics.com/
+
 - name: First steps
   href: home.md
 
