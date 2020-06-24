@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Dynamics 365 Customer Insights
-summary: Welcome to Customer Insights, your Customer Data Platform (CDP)! Consume, unify, and organize customer data from multiple sources. Create and manage customer profiles and real-time segmentation. Integrate customer data with other systems to make it even more actionable.
+summary: Welcome to Customer Insights, your Customer Data Platform (CDP)! Ingest, unify, and organize customer data from multiple sources. Create and manage customer profiles and real-time segmentation. Integrate customer data with other systems to make it even more actionable. [Access your Customer Insights instance](https://home.ci.ai.dynamics.com/) now or [create a Trial](https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights) to try it out.
 
 metadata:
   title: Customer Insights documentation
