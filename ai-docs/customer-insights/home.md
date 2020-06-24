@@ -12,7 +12,7 @@ manager: shellyha
 
 # Start your journey in Customer Insights on the Home page
 
-You can [access your Customer Insights](https://home.ci.ai.dynamics.com/) instance after it's created and ready to go. 
+You can [access your Customer Insights instance](https://home.ci.ai.dynamics.com/) on the following URL: [https://home.ci.ai.dynamics.com/](https://home.ci.ai.dynamics.com/).
 The first page you'll see in Dynamics 365 Customer Insights is **Home**. This page shows an overview of your customer base as well as metrics to track the health of your business.
 
 > [!div class="mx-imgBorder"] 
