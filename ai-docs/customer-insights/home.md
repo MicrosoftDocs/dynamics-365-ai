@@ -1,7 +1,7 @@
 ---
 title: "Home page in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Start exploring the app on the Home page in Dynamics 365 Customer Insights."
-ms.date: 06/01/2020
+ms.date: 06/24/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -10,8 +10,9 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Home
+# Start your journey in Customer Insights on the Home page
 
+You can [access your Customer Insights](https://home.ci.ai.dynamics.com/) instance after it's created and ready to go. 
 The first page you'll see in Dynamics 365 Customer Insights is **Home**. This page shows an overview of your customer base as well as metrics to track the health of your business.
 
 > [!div class="mx-imgBorder"] 
