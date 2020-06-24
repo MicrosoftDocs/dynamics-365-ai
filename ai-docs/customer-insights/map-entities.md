@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Map data to create unified customer profiles in Dynamics 365 Customer Insights."
-ms.date: 04/16/2020
+ms.date: 06/24/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -41,7 +41,7 @@ After selecting your entities, the **Map** page list the ingested entities.
 > [!div class="mx-imgBorder"]
 > ![See ingested entities](media/data-manager-configure-map-ingested-entities.png "See ingested entities")
 
-The system automatically selected all the attributes for which an attribute type was identified. Those attributes include names, email address, and several others. Review these attributes their specified types since they'll be used to combine your entities in the *match* configuration phase.
+The system automatically selected all the attributes for which an attribute type was identified. Those attributes include names, email address, and several others. Review these attributes and their specified types since they'll be used to combine your entities in the *match* configuration phase.
 
 ## Add and remove attributes
 
