@@ -1,7 +1,7 @@
 ---
 title: "Find similar customers with AI | Microsoft Docs"
 description: "Find similar customer segments with artificial intelligence."
-ms.date: 06/10/2020
+ms.date: 06/25/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -15,24 +15,24 @@ manager: shellyha
 This feature lets you find similar customers in your customer base using artificial intelligence. You need to have at least one segment created to use this feature. Expanding the criteria of an existing segment help find customers that are similar to that segment.
 
 > [!NOTE]
-> *Find similar* uses automated means to evaluate data and make predictions based on that data, and therefore has the capability to be used as a method of profiling, as that term is defined by the General Data Protection Regulation (“GDPR”). Customer’s use of this feature to process data may be subject to GDPR or other laws or regulations. You are responsible for ensuring that your use of Customer Insights, including predictions, complies with all applicable laws and regulations, including laws related to privacy, personal data, biometric data, data protection, and confidentiality of communications.
+> *Find similar customers* uses automated means to evaluate data and make predictions based on that data, and therefore has the capability to be used as a method of profiling, as that term is defined by the General Data Protection Regulation (“GDPR”). Customer’s use of this feature to process data may be subject to GDPR or other laws or regulations. You are responsible for ensuring that your use of Customer Insights, including predictions, complies with all applicable laws and regulations, including laws related to privacy, personal data, biometric data, data protection, and confidentiality of communications.
 
 ## Finding similar customers
 
 1. In Customer Insights, go to **Segments** and select the segment you want to base your new segment on. That's your *source segment*.
 
-1. In the action bar, select **Find similar**.
+1. In the action bar, select **Find similar customers**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Find similar customers](media/expand-segment.png "Find similar customers")
+<!--   > [!div class="mx-imgBorder"]
+   > ![Find similar customers](media/expand-segment.png "Find similar customers") -->
 
 1. Review the suggested name for your new segment and change it if necessary.
 
 1. Review the fields that define your new segment. These fields define the basis on which the system will try to find similar customers to your source segment. The system will select recommended fields by default.
   Fields that can significantly reduce the model performance are automatically excluded:
   
-  - Fields with the following data types: StringType, BooleanType, CharType, LongType, IntType, DoubleType, FloatType, ShortType
-  - Fields with a cardinality (the number of elements in a field) of less than 2 or more than 30
+   - Fields with the following data types: StringType, BooleanType, CharType, LongType, IntType, DoubleType, FloatType, ShortType
+   - Fields with a cardinality (the number of elements in a field) of less than 2 or more than 30
 
 1. Choose if you want to include **All customers** or only customers in a **Specific existing segment** in your new segment.
 
