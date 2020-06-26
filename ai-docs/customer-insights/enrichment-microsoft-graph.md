@@ -48,8 +48,6 @@ In order to select a country, press the **Change** link next to **Country/Region
 
 - For **Interests** it is still **US only** at the moment.
 
-## Configure Enrichment
-
 ## Implications related to country selection
 
 - When [choosing your own] brands, we will provide suggestions based on the selected country.
@@ -59,6 +57,7 @@ We will also use that selected country to enrich your customer profiles that don
 
 - When enriching profiles, we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
 
+## Configure Enrichment
 
 Configuring brands or interests enrichment consists of two steps:
 
