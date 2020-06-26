@@ -20,7 +20,10 @@ To configure brand affinities enrichment, go to the **Discover** tab and select 
 
 To configure interest affinities enrichment, go to the **Discover** tab and select **Enrich my data** on the **Interests** tile.
 
-BrandsInterest-tile-Hub.png
+
+   > [!div class="mx-imgBorder"]
+   > ![Brands & Interests tiles](media/BrandsInterest-tile-Hub.png "Brands & Interest tiles")
+
 
 ## About Microsoft Graph
 
