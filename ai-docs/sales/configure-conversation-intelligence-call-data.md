@@ -1,7 +1,7 @@
 ---
 title: "Configure call data for Conversation Intelligence | MicrosoftDocs"
 description: "Configure call data in Conversation Intelligence"
-ms.date: 04/08/2020
+ms.date: 06/18/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -65,13 +65,16 @@ Now you are ready to upload call recordings to the blob container and configure 
 
 ## Upload call recordings
 
-You can upload the recordings in audio formats, such as MP3 and WAV, in the created call recording repository (blob container) in Azure. Along with the audio format file, you must upload the corresponding metadata file in JSON format.
+You must upload the call recording the the created call recording repository (blob container) in Azure to process and get data. You must upload the following files to process the calls:
+
+- Call recording file in audio formats, such as MP3 and WAV.
+- Corresponding metadata file in JSON format.
 
 > [!NOTE]
 > - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
 > - The **conversation-intelligence-managed** container is created and managed automatically by the application.
 
-Review the following requirements for audio and JSON files before you upload:
+**Review the following requirements for audio and JSON files before you upload**
 
 - The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
 - The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.

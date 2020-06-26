@@ -12,7 +12,7 @@ manager: shellyha
 
 # Complete your partial data with predictions
 
-Predictions lets you easily create predicted values that can enhance your understanding of a customer. On the **Predictions** page, you can see predictions that you've configured in other parts of Customer Insights, and enables you to further customize them.
+Predictions lets you easily create predicted values that can enhance your understanding of a customer. On the **Intelligence** > **Predictions** page, you can select **My predictions** to see predictions that you've configured in other parts of Customer Insights, and allow you to further customize them.
 
 > [!NOTE]
 > You can't use this feature if your environment uses Azure Data Lake Gen 2 storage.
@@ -77,7 +77,10 @@ As part of this flow, you'll choose a specific attribute to base your segment on
 
 ## View a prediction
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**.
+> [!NOTE]
+> You can only find these predictions in Customer Insights, and will not be able to find these predictions in the AI Builder model list page.
+
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to review.
 
@@ -94,7 +97,7 @@ As part of this flow, you'll choose a specific attribute to base your segment on
 
 ## Update a prediction
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to update and select the **Update** icon.
 
@@ -104,7 +107,7 @@ As part of this flow, you'll choose a specific attribute to base your segment on
 
 After you've created a prediction, you can customize the model in the AI Builder to increase the effectiveness of your model.  
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to edit.
 
@@ -121,7 +124,7 @@ The next run of your prediction will use the updated model you've created.
 
 ## Remove a prediction
 
-1. In Customer Insights, go to **Intelligence** > **Predictions**.
+1. In Customer Insights, go to **Intelligence** > **Predictions** > **My predictions**.
 
 2. Select the prediction you want to delete.
 

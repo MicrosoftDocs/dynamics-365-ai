@@ -2,7 +2,7 @@
 title: View overall insights of your sales and sellers in Conversation Intelligence | MicrosoftDocs"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for Conversation Intelligence "
 keywords: ""
-ms.date: 04/09/2020
+ms.date: 06/18/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -30,8 +30,6 @@ Typically, the home page is divided into the following sections:
 -	[What are customers talking about?](#what-are-customers-talking-about)
 
 -	[What characterizes top sellers?](#what-characterizes-top-sellers)
-
--	[Are my team’s deals on track?](#are-my-teams-deals-on-track)
 
 -	[Call recording KPIs](#call-recording-kpis)
 
@@ -237,37 +235,6 @@ The following image is an example of how the "engagement with customers" insight
 > ![Top sellers communication mode](media/si-app-engagement-with-customer.png "Top sellers communication mode")
 
 In this example, you can see that top sellers are spending more time on meetings (6 hours) than on phone calls (1 hours) and on emails (23 hours) while engaging with customers. By analyzing this, top sellers are engaging customers through meetings and phone calls, so you can plan to coach around these communication modes for other sellers to improve.
-
-## Are my team’s deals on track?
-
-The **Are my team’s deals on track** section helps you understand how your team’s opportunities and leads are doing in the current sales period. Through this understanding, you can identify the opportunities and leads with higher revenue that are at risk and need your attention. You can coach the individual sellers to improve the overall sales health of the company.
-
-The following insights are available for you to understand the deals:
-
--	[Opportunities at risk](#opportunities-at-risk)
--	[Leads at risk](#leads-at-risk)
-
-### Opportunities at risk
-
-This insight helps you to understand high-revenue opportunities that are at risk so that you can spend more time coaching the sales rep who is working with these opportunities in order to secure a winning deal.
-
-The following image is an example of how the "opportunities at risk" insight is displayed:
-
-> [!div class="mx-imgBorder"]
-> ![Opportunities that are at risk](media/si-app-opportunities-at-risk.png "Opportunities that are at risk")
-
-In this example, you can see that opportunities (red bubbles) that are high in revenue have a poor health score and are at risk. You can use this information to coach the sellers who are handling these opportunities so that they can secure the sale and improve the health score.
-
-### Leads at risk
-
-This insight helps you to understand the leads that are losing momentum and are at risk so that you can spend more time coaching the seller who is working with these leads.
-
-The following image is an example of how the "leads at risk" insight is displayed:
-
-> [!div class="mx-imgBorder"]
-> ![Leads that are at risk](media/si-app-leads-at-risk.png "Leads that are at risk")
- 
-In this example, you can see the leads (red bubbles) that are losing momentum with a poor health score and are at risk. You can use this information to coach the sellers who are handling these leads so that they can turn them into opportunities.
 
 ## Call recording KPIs
 

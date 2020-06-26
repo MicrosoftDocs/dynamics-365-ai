@@ -10,6 +10,9 @@
 - name: Free trial
   href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
 
+- name: Access your instance
+  href: https://home.ci.ai.dynamics.com/
+
 - name: First steps
   href: home.md
 
@@ -66,6 +69,8 @@
     href: segments.md
   - name: Get insights on segments
     href: segment-insights.md
+  - name: Find similar customers
+    href: find-similar-customer-segments.md
   - name: Define measures and KPIs
     href: measures.md
 
