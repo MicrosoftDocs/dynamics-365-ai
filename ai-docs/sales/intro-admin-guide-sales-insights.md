@@ -30,10 +30,11 @@ As an administrator, you can enable and configure the Sales Insights features as
 -	[Administer Conversation Intelligence](#administer-conversation-intelligence)
 
 >[!IMPORTANT]
-> For proper installation and effective use of Sales Insights, ensure that the **Change Tracking** option for the following entities are enabled: Account, Contact, Lead, Opportunity, System User, Team, Queue, Organization, Email, Phone Call, Task, Appointment, Activity Party,  Connection, Business Unit, Metric, Opportunity Product, Product, Opportunity Sales Process, Process Stage, Connection Role, Workflow, Goal, Role, and System User Roles.
+> For proper installation and effective use of Sales Insights, ensure that the **Change Tracking** option for the following entities are enabled: Account, Contact, Lead, Opportunity, System User, Team, Queue, Organization, Email, Phone Call, Task, Appointment, Activity Party,  Connection, Business Unit, Metric, Opportunity Product, Product, Opportunity Sales Process, Process Stage, Connection Role, Workflow, Goal, Role, System User Roles, Note, Auto Capture Settings, Auto Capture Rule, and Lead To Opportunity Sales Process.
 > 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 > 2. On the **Default Solution** page, expand **Entity** and then select an entity.
-> 3. In the **General** tab, under **Data Services** section, verify that the **Change Tracking** option is enabled.    
+> 3. In the **General** tab, under **Data Services** section, verify that the **Change Tracking** option is enabled.<br> 
+> Also, ensure that you do not update or delete the **Sales Insights MDL Config** solution from the solutions. If update or delete, the Sales Insights may not work as designed. 
 
 ## Enable and configure free Sales Insights features
 
