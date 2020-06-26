@@ -37,7 +37,28 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 > [!TIP]
 > When [creating segments](segments.md) using affinity scores, review the distribution of affinity scores for your dataset before deciding on the appropriate score thresholds. For example, an affinity score of 10 can be considered significant in a dataset that has a highest affinity score of only 25 for a given brand or interest.
 
+## Supported countries
+
+- For **Brands** you have the possibility to select one of the following **six countries**: Australia, Canada (English), France, Germany, United Kingdom or United States (English).
+
+In order to select a country, press the **Change** link next to **Country/Region** and in the fly-out menu pick from the list of available **Country/Region** then press **Apply**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Choosing a country](media/Choose-country.png "Choosing a country")
+
+- For **Interests** it is still **US only** at the moment.
+
 ## Configure Enrichment
+
+## Implications related to country selection
+
+- When [choosing your own] brands, we will provide suggestions based on the selected country.
+
+- When mapping your fields, if the Country/Region field is left unmapped, we will use Microsoft Graph data from the selected country to enrich your customer profiles.
+We will also use that selected country to enrich your customer profiles that don't have Country/Region data available.
+
+- When enriching profiles, we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
+
 
 Configuring brands or interests enrichment consists of two steps:
 
@@ -59,7 +80,7 @@ Configuring brands or interests enrichment consists of two steps:
    - **Zip Code**: five-digit US ZIP Code (only supported for the United States)
    - **State**: two-letter abbreviation (only supported for the United States)
 
-:::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
+:::image type="content" source="media/Map-your-fields.png" alt-text="Add data pane for data enrichment":::
 
 ## Run enrichment
 
@@ -73,7 +94,7 @@ Depending on the size of your customer data, it may take several minutes for an 
 
 After running the enrichment process, go to **My enrichments** to review the total number of enriched customers and a breakdown of brands or interests in the enriched customer profiles.
 
-:::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
+:::image type="content" source="media/My-enrichments.png" alt-text="Preview of results after running the enrichment process":::
 
 Review the enriched data by selecting **View enriched data** in the chart. Enriched data for brands goes to the **BrandAffinityFromMicrosoft** entity. Data for interests is in the **InterestAffinityFromMicrosoft** entity. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
 
