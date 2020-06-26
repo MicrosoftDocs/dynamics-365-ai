@@ -67,6 +67,8 @@
   items: 
   - name: Create segments and customer groups
     href: segments.md
+  - name: Find similar customers
+    href: find-similar-customer-segments.md
   - name: Define measures and KPIs
     href: measures.md
   - name: Complete data using value predictions
