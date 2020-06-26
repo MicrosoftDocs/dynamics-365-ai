@@ -20,6 +20,8 @@ To configure brand affinities enrichment, go to the **Discover** tab and select 
 
 To configure interest affinities enrichment, go to the **Discover** tab and select **Enrich my data** on the **Interests** tile.
 
+BrandsInterest-tile-Hub.png
+
 ## About Microsoft Graph
 
 We use online search data from the Microsoft Graph to find affinities for brands and interests across various demographic segments (defined by age, gender, or location). The online search volume for a brand or interest determines how much affinity a demographic segment, compared to other segments, has to that brand or interest.
