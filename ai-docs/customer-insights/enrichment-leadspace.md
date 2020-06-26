@@ -1,7 +1,7 @@
 ---
 title: "Enrichment of company profiles with the third-party enrichment Leadspace in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "General information about the Leadspace third-party enrichment in Customer Insights."
-ms.date: 05/25/2020
+ms.date: 06/23/2020
 ms.reviewer: mhart
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -18,7 +18,7 @@ Leadspace is a data science company that provides a B2B Customer Data Platform. 
 
 To configure Leadspace, the following prerequisites must be met:
 
-- You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly to [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
+- You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
 - You have the [Administrator](permissions.md#administrator) role in Customer Insights.
 - You have [unified customer profiles](customer-profiles.md) for companies.
 
@@ -26,7 +26,10 @@ To configure Leadspace, the following prerequisites must be met:
 
 1. Go to **Data** > **Enrichment**.
 
-1. Select **Set up** on the Leadspace tile.
+1. Select **Enrich my data** on the Leadspace tile.
+
+   > [!div class="mx-imgBorder"]
+   > ![Leadspace tile](media/leadspace-tile.png "Leadspace tile")
 
 1. Select **Add token** and enter an active **Leadspace token** (perpetual key). Review and provide your consent for **Data privacy and compliance** by selecting the **I agree** checkbox. Confirm both inputs by selecting **Apply**.
 
