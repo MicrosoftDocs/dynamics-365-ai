@@ -18,7 +18,7 @@ Leadspace is a data science company that provides a B2B Customer Data Platform. 
 
 To configure Leadspace, the following prerequisites must be met:
 
-- You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly to [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
+- You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
 - You have the [Administrator](permissions.md#administrator) role in Customer Insights.
 - You have [unified customer profiles](customer-profiles.md) for companies.
 
