@@ -73,11 +73,11 @@ We'll use a fictitious scenario of Contoso Hotel for the models in this article.
 - Customer profiles of hotel guests. These profiles contain information for each customer. It includes data like name, birth date, postal address, gender, phone number.
 - Usage of services offered by the hotel. For example, the use of spa, laundry services, WiFi, or courier. This information is logged for each registered customer. Typically use of services is linked with the stay. In some cases, the services can be used by customers without staying in the hotel.
 
-### Churn Analysis
+## Churn Analysis
 
 Churn analysis applies to different business areas. In this example, we’re going to look at service churn, specifically in the context of hotel services as described above. It provides a working example of an end–to–end model pipeline that can be used as a starting point for any other type of churn model.
 
-#### Definition of Churn
+### Definition of Churn
 
 The definition of churn can differ based on the scenario. In this example, a guest who hasn’t visited the hotel in the past year, should be labeled as churned.  
 
@@ -85,7 +85,7 @@ The experiment template can be imported from the gallery. First, ensure that 
 
 :::image type="content" source="media/import-data-azure-blob-storage.png" alt-text="Import data for churn model":::
 
-#### Featurization
+### Featurization
 
 Based on the definition of churn, we first identify the raw features that will influence the label. Then, we process these raw features into numerical features that can be used with machine learning models. Data integration happens in Customer Insights so we can join these tables by using the *Customer ID* created by Customer Insights.
 
@@ -104,7 +104,7 @@ Final list of features:
 | 5           | Check-in and Checkout dates  | StayDayCount, StayDayCount2016, StayDayCount2015, StayDayCount2014, StayCount, StayCount2016. StayCount2015, StayCount2014                |
 | 6           | Service Usage                | UsageTenure, ConciergeUsage, CourierUsage, DryCleaningUsage, GymUsage, PhoneUsage, RestaurantUsage, SpaUsage, TelevisionUsage, WifiUsage  |
 
-#### Model selection
+### Model selection
 
 Now we need to choose the optimal algorithm to use. In this case, most features are based on categorical features. Typically, decision tree–based models work well. If there are only numerical features, neural networks could be a better choice. Support vector machine (SVM) also is a good candidate in such situations; however, it needs quite a bit of tuning to extract the best performance. We choose **Two-Class Boosted Decision Tree** as the first model of choice followed by **Two-Class SVM** as the second model. Azure Machine Learning Studio lets you do A/B testing of two so it’s beneficial to start with two models rather than one.
 
@@ -116,31 +116,31 @@ We also apply a technique called **Permutation Feature Importance**, an import
 
 The entire [churn experiment is available in the Azure AI Gallery](https://gallery.azure.ai/Experiment/Hotel-Churn-Predictive-Exp).
 
-### Customer lifetime value prediction
+## Customer lifetime value prediction
 
 The customer lifetime value (CLTV) calculation is one of the key metrics that a business can use to assess and segment its customers. For the hotel business, it’s critical to know their customers. For example, understanding factors that make up good customers is crucial information. It helps the hotel management assess which features they need to focus on and improve to satisfy their high paying customers. These decisions can have a direct impact on sales and earnings. In this example, we will define the CLTV as the cumulative amount brought in by the customer in the designated time frame.  
 
-#### Definition of CLTV
+### Definition of CLTV
 
 For this example, we define the CLTV of a customer as the total dollar amount the customer is expected to spend in the next 365 days. We are going to use the past three years’ worth of data for all customers to predict this value.
 
-#### Featurization
+### Featurization
 
 In this case, featurization is going to be quite like the churn scenario. However, the labels and predicted values are different than defined above.
 
-#### Model selection
+### Model selection
 
 Predicting the CLTV is a regression problem as the predicted value is a positive valued continuous variable. Based on the feature properties, we select **Boosted Decision Tree Regression** as one algorithm and **Neural Network Regression** as another algorithm to train the model.
 
-### Product recommendation or Next Best Action
+## Product recommendation or Next Best Action
 
 Product recommendation in a hotel scenario is interpreted as recommending services offered by the hotel to the customers. The objective is to choose the appropriate services for customers so that their usage is maximized. It’s similar to movie recommendations for video streaming service users.
 
-#### Definition of Product Recommendation or Next Best Action
+### Definition of Product Recommendation or Next Best Action
 
 We define the goal as maximizing the dollar amount of service usage by offering the best matching services to hotel customers according to their interest.
 
-#### Featurization
+### Featurization
 
 Like the churn model, we are joining the hotel ServiceCustomerID with CustomerID in order to build recommendations consistently per CustomerID.
 
@@ -148,7 +148,7 @@ Like the churn model, we are joining the hotel ServiceCustomerID with Custome
 
 The data is sourced from three different entities and features are derived from them. The featurization for the problem of recommendation is different compared to churn or CLTV scenarios. The recommendation model needs input data in the form of three sets of features.
 
-#### Model selection
+### Model selection
 
 We predict products or services by using the algorithm called **Train Matchbox Recommender** to train the recommendation model.
 
@@ -166,4 +166,4 @@ The entire [product recommendation experiment can be accessed in Azure AI Galle
 
 To use these predictions in Customer Insights, you need to **export** the predictions along with the customer IDs. [Export them to the same Azure Blob storage location](https://docs.microsoft.com/azure/storage/common/storage-import-export-data-from-blobs) that you export the Customer Insights data to. The predictive web service can be scheduled to run regularly and update the scores.
 
-The data generated by the custom model can be used in Customer Insights to further enrich your customer data. Learn about using custom models in Customer Insights.
+The data generated by the custom model can be used in Customer Insights to further enrich your customer data. [Learn about using custom models in Customer Insights.](custom-models.md)
