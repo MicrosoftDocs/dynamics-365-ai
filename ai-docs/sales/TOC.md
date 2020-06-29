@@ -113,8 +113,8 @@
 ### Action Reference
 #### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
 ### Entity Reference
-#### [msdyn_PredictiveScore](../sales-enterprise/developer/msdyn_predictivescore.md)
-#### [msdyn_PredictiveModelScore](../sales-enterprise/developer/msdyn_predictivemodelscore.md)
+#### [msdyn_PredictiveScore](developer/msdyn_predictivescore.md)
+#### [msdyn_PredictiveModelScore](developer/msdyn_predictivemodelscore.md)
 
 ## [FAQs](faqs-sales-insights.md)
 
