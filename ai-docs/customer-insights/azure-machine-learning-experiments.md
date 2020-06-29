@@ -12,7 +12,7 @@ manager: shellyha
 
 # Use Azure Machine Learning-based custom models in Customer Insights
 
-The unified data in Dynamics 365 Customer Insights is an ideal source to build machine learning (ML) models that can generate additional business insights. Customer Insights provides seamless integration with Azure Machine Learning to use your own custom models.
+The unified data in Dynamics 365 Customer Insights is an ideal source to build machine learning (ML) models that can generate additional business insights. Customer Insights integrates with Azure Machine Learning to use your own custom models.
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ You can now create a new experiment, or you can import an existing experiment te
 
 You’ll find them in the template gallery.
 
-1. If you create a new experiment or use an experiment template from the gallery, you need to configure the **Import Data** properties first. Use the guided experience or directly provide details to access the Azure Blob Storage with your Customer Insights data.  
+1. If you create a new experiment or use an experiment template from the gallery, you need to configure the **Import Data** properties. Use the guided experience or directly provide details to access the Azure Blob Storage with your Customer Insights data.  
 
    :::image type="content" source="media/azure-machine-learning-studio-experiment.png" alt-text="Azure Machine Learning Studio experiment":::
 
@@ -57,7 +57,7 @@ You’ll find them in the template gallery.
 
 1. Test and optimize the model performance.
 
-1. When you’re satisfied with the quality of a model, select **Set up web service** > **Predictive Web Service**. This option imports the trained model and the featurization pipeline from the training experiment to a predictive service, which can take another set of input data with same schema as used in the training experiment to make the predictions.
+1. When you’re satisfied with the quality of a model, select **Set up web service** > **Predictive Web Service**. This option imports the trained model and the featurization pipeline from the training experiment to a predictive service. The predictive service can take another set of input data with the schema used in the training experiment to make predictions.
 
    :::image type="content" source="media/predictive-webservice-control.png" alt-text="Set up a predictive web service":::
 
@@ -67,19 +67,19 @@ You’ll find them in the template gallery.
 
 ## Sample models from the gallery
 
-We will use a fictitious scenario of Contoso Hotel for the models in this article. Contoso Hotel gathers the following data:
+We'll use a fictitious scenario of Contoso Hotel for the models in this article. Contoso Hotel gathers the following data:
 
-- CRM data consisting of hotel stay activity. The data set includes information about the dates of stay for each registered customer. It also contains information about the booking, room types, details of spend, etc. The data spans four years, from January 2014 to January 2018.
-- Customer profiles of hotel guests. These profiles contain information for each customer. It includes name, birth date, postal address, gender, phone number, etc.
-- Usage of services offered by the hotel. For example, the use of spa, laundry services, WiFi, courier, etc. This information is logged for each registered customer. Typical use of services is linked with the stay, but it is not required; in some cases, the services can be used by customers without staying in the hotel.
+- CRM data consisting of hotel stay activity. The data set includes information about the dates of stay for each registered customer. It also contains information about the booking, room types, details of spend, and so on. The data spans four years, from January 2014 to January 2018.
+- Customer profiles of hotel guests. These profiles contain information for each customer. It includes data like name, birth date, postal address, gender, phone number.
+- Usage of services offered by the hotel. For example, the use of spa, laundry services, WiFi, or courier. This information is logged for each registered customer. Typically use of services is linked with the stay. In some cases, the services can be used by customers without staying in the hotel.
 
 ### Churn Analysis
 
-Churn analysis can be performed in different business areas. In this example, we’re going to look at service churn, specifically in the context of hotel services as described above. It provides a working example of an end–to–end model pipeline that can be used as a starting point for any other type of churn model.
+Churn analysis applies to different business areas. In this example, we’re going to look at service churn, specifically in the context of hotel services as described above. It provides a working example of an end–to–end model pipeline that can be used as a starting point for any other type of churn model.
 
 #### Definition of Churn
 
-The definition of churn can differ significantly based on the scenario. In this this example, a guest who hasn’t visited the hotel in the past year, should be labeled as churned.  
+The definition of churn can differ based on the scenario. In this example, a guest who hasn’t visited the hotel in the past year, should be labeled as churned.  
 
 The experiment template can be imported from the gallery. First, ensure that you import the data for **Hotel Stay Activity**, **Customer data**, and **Service Usage Data** from Azure Blob storage.
 
@@ -91,7 +91,7 @@ Based on the definition of churn, we first identify the raw features that will 
 
 :::image type="content" source="media/join-imported-data.png" alt-text="Join imported data":::
 
-The featurization for building the model for churn analysis can be a little tricky. The data is a function of time with new hotel activity recorded on daily basis. We must consider this for featurization and generate static features from the dynamic data. In this case, we generate multiple features from hotel activity with a sliding window of one year. We also expand the categorical features like room type, booking type, etc. into separate features using one-hot encoding.  
+The featurization for building the model for churn analysis can be a little tricky. The data is a function of time with new hotel activity recorded on daily basis. During featurization, we want to generate static features from the dynamic data. In this case, we generate multiple features from hotel activity with a sliding window of one year. We also expand the categorical features like room type or booking type into separate features using one-hot encoding.  
 
 Final list of features:
 
@@ -106,13 +106,13 @@ Final list of features:
 
 #### Model selection
 
-Now we need to choose the optimal algorithm to use. In this case, most features are based on categorical features. Typically, decision tree–based models perform well. In case of purely numerical features, neural networks could be a better choice. Support vector machine (SVM) also is a good candidate in such situations; however, it needs quite a bit of tuning to extract the best performance. We choose **Two-Class Boosted Decision Tree** as the first model of choice followed by **Two-Class SVM** as the second model. Azure Machine Learning Studio lets you perform A/B testing of two so it’s beneficial to start with two models rather than one.
+Now we need to choose the optimal algorithm to use. In this case, most features are based on categorical features. Typically, decision tree–based models work well. If there are only numerical features, neural networks could be a better choice. Support vector machine (SVM) also is a good candidate in such situations; however, it needs quite a bit of tuning to extract the best performance. We choose **Two-Class Boosted Decision Tree** as the first model of choice followed by **Two-Class SVM** as the second model. Azure Machine Learning Studio lets you do A/B testing of two so it’s beneficial to start with two models rather than one.
 
 The following image shows the model training and evaluation pipeline from Azure Machine Learning Studio.
 
 :::image type="content" source="media/azure-machine-learning-model.png" alt-text="Churn model in Azure Machine Learning Studio":::
 
-We also apply a technique called **Permutation Feature Importance** which is an important aspect of model optimization. Built-in models have little to no insight into the impact of any specific feature on the final prediction. The feature importance calculator uses a custom algorithm to compute the influence of individual features on the outcome for a specific model. The feature importance is normalized between +1 to -1. A negative influence means that the corresponding feature has counter-intuitive influence on the outcome and should be removed from the model. A positive influence indicates that the feature is contributing heavily towards the prediction. These values should not be confused with correlation coefficients as they are completely different metrics. For more information, see [Permutation Feature Importance](https://docs.microsoft.com/azure/machine-learning/studio-module-reference/permutation-feature-importance).
+We also apply a technique called **Permutation Feature Importance**, an important aspect of model optimization. Built-in models have little to no insight into the impact of any specific feature on the final prediction. The feature importance calculator uses a custom algorithm to compute the influence of individual features on the outcome for a specific model. The feature importance is normalized between +1 to -1. A negative influence means the corresponding feature has counter-intuitive influence on the outcome and should be removed from the model. A positive influence indicates the feature is contributing heavily towards the prediction. These values aren't correlation coefficients as they are different metrics. For more information, see [Permutation Feature Importance](https://docs.microsoft.com/azure/machine-learning/studio-module-reference/permutation-feature-importance).
 
 The entire [churn experiment is available in the Azure AI Gallery](https://gallery.azure.ai/Experiment/Hotel-Churn-Predictive-Exp).
 
@@ -138,7 +138,7 @@ Product recommendation in a hotel scenario is interpreted as recommending servic
 
 #### Definition of Product Recommendation or Next Best Action
 
-We define the goal as maximizing the dollar amount of service usages by offering the best matching services to hotel customers according to their interest.
+We define the goal as maximizing the dollar amount of service usage by offering the best matching services to hotel customers according to their interest.
 
 #### Featurization
 
@@ -150,13 +150,13 @@ The data is sourced from three different entities and features are derived from
 
 #### Model selection
 
-We predict products or services by using the the algorithm called **Train Matchbox Recommender** to train the recommendation model.
+We predict products or services by using the algorithm called **Train Matchbox Recommender** to train the recommendation model.
 
 :::image type="content" source="media/azure-machine-learning-model-recommendation-algorithm.png" alt-text="Product recommendation algorithm":::
 
 The three input ports for the **Train Matchbox Recommender** model takes in the training service usage data, customer description (optional), and service description. There are three different ways of scoring the model. One is for model evaluation where a Normalized Discounted Cumulative Gain (NDCG) score is calculated to rank the rated items. In this experiment, we have NDCG score as 0.97. The other two options are scoring the model on the entire recommendable service catalog or scoring only on items that users have not used before.
 
-Looking further on the distributions of the recommendations on the entire service catalog, we notice that phone, WiFi, and courier are the top services to be recommended. This is consistent with what we found from the distributions of the service consumption data:
+Looking further on the distributions of the recommendations on the entire service catalog, we notice that phone, WiFi, and courier are the top services to be recommended. It's consistent with what we found from the distributions of the service consumption data:
 
 :::image type="content" source="media/azure-machine-learning-model-output.png" alt-text="Recommendation model output":::
 
