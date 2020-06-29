@@ -160,7 +160,7 @@ Looking further on the distributions of the recommendations on the entire servic
 
 :::image type="content" source="media/azure-machine-learning-model-output.png" alt-text="Recommendation model output":::
 
-The entire [product recommendation experiment can be accessed in Azure AI Gallery.](https://gallery.cortanaintelligence.com/Experiment/Recommendation-4)
+The entire [product recommendation experiment can be accessed in Azure AI Gallery.](https://gallery.azure.ai/Experiment/Recommendation-4)
 
 ## Integrate custom models in Customer Insights
 
