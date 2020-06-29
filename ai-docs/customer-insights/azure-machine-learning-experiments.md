@@ -25,17 +25,17 @@ The unified data in Dynamics 365 Customer Insights is an ideal source to build m
 
 In a first step, we need to create a workspace for and open the Azure Machine Learning Studio.
 
-1. Go to [www.portal.azure.com](http://www.portal.azure.com/) and sign in.
+1. Go to [https://www.portal.azure.com](https://www.portal.azure.com/) and sign in.
 
 1. Select **Create a resource**.
 
 1. Search **Machine Learning Studio Workspace** and select **Create**.
 
-1. Enter the required details to [create the workspace](https://docs.microsoft.com/en-us/azure/machine-learning/studio/create-workspace). Choose the **Web service plan pricing tier** based on the size of data you plan to import from Customer Insights. For best performance, select    the **Location** that is geographically closest to you.
+1. Enter the required details to [create the workspace](https://docs.microsoft.com/azure/machine-learning/studio/create-workspace). Choose the **Web service plan pricing tier** based on the size of data you plan to import from Customer Insights. For best performance, select    the **Location** that is geographically closest to you.
 
 1. After creating the resource, the Machine Learning Studio workspace dashboard appears. Select **Launch Machine Learning Studio**.
 
-![](media/azure-machine-learning-studio.png)
+   :::image type="content" source="media/azure-machine-learning-studio.png" alt-text="Azure Machine Learning Studio user interface":::
 
 ## Work with Azure Machine Learning Studio
 
@@ -45,13 +45,13 @@ You can now create a new experiment, or you can import an existing experiment te
 
 - [Customer lifetime value](#customer-lifetime-value-prediction)
 
-- [Product recommendation or next best action](#product-recommendation-or-next-best-action)
+- [Product recommendation or next best action](#productrecommendation-or-next-best-action)
 
 You’ll find them in the template gallery.
 
 1. If you create a new experiment or use an experiment template from the gallery, you need to configure the **Import Data** properties first. Use the guided experience or directly provide details to access the Azure Blob Storage with your Customer Insights data.  
 
-   ![](media/azure-machine-learning-studio-experiment.png)
+   :::image type="content" source="media/azure-machine-learning-studio-experiment.png" alt-text="Azure Machine Learning Studio experiment":::
 
 1. Now you can build a custom processing pipeline to clean and preprocess the data, extract features, and train a suitable model.
 
@@ -61,7 +61,7 @@ You’ll find them in the template gallery.
 
    :::image type="content" source="media/predictive-webservice-control.png" alt-text="Set up a predictive web service":::
 
-1. Once the predictive web service experiment is successful, you can deploy it for auto scheduling. To have the web service to work with Customer Insights, choose the **Deploy Web Service** > **Deploy Web Service [New] Preview** option. [Learn more about deploying a web service](https://docs.microsoft.com/en-us/azure/machine-learning/studio/deploy-a-machine-learning-web-service).
+1. Once the predictive web service experiment is successful, you can deploy it for auto scheduling. To have the web service to work with Customer Insights, choose the **Deploy Web Service** > **Deploy Web Service [New] Preview** option. [Learn more about deploying a web service](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service).
 
    :::image type="content" source="media/predictive-webservice-deploy.png" alt-text="Deploy a predictive web service":::
 
