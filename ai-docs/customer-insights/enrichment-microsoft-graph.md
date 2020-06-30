@@ -50,12 +50,12 @@ In order to select a country, press the **Change** link next to **Country/Region
 
 ## Implications related to country selection
 
-- When [choosing your own] brands, we will provide suggestions based on the selected country.
+- When [choosing your own](#supported-countries) brands, we will provide suggestions based on the selected country.
 
-- When mapping your fields, if the Country/Region field is left unmapped, we will use Microsoft Graph data from the selected country to enrich your customer profiles.
+- When [mapping your fields](#configure-enrichment), if the Country/Region field is left unmapped, we will use Microsoft Graph data from the [selected country](#supported-countries) to enrich your customer profiles.
 We will also use that selected country to enrich your customer profiles that don't have Country/Region data available.
 
-- When enriching profiles, we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
+- When [enriching profiles](#run-enrichment), we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
 
 ## Configure Enrichment
 
