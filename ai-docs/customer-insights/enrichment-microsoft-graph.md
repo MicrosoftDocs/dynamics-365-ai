@@ -44,7 +44,7 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 In order to select a country, press the **Change** link next to **Country/Region** and in the fly-out menu pick from the list of available **Country/Region** then press **Apply**.
 
    > [!div class="mx-imgBorder"]
-   > ![Choosing a country](media/Choose-country.png "Choosing a country")
+   > ![Choosing a country](media/Choose-country.png.png "Choosing a country")
 
 - For **Interests** it is still **US only** at the moment.
 
@@ -79,7 +79,7 @@ Configuring brands or interests enrichment consists of two steps:
    - **Zip Code**: five-digit US ZIP Code (only supported for the United States)
    - **State**: two-letter abbreviation (only supported for the United States)
 
-:::image type="content" source="media/Map-your-fields.png" alt-text="Add data pane for data enrichment":::
+:::image type="content" source="media/Map-your-fields.png.png" alt-text="Add data pane for data enrichment":::
 
 ## Run enrichment
 
@@ -93,7 +93,7 @@ Depending on the size of your customer data, it may take several minutes for an 
 
 After running the enrichment process, go to **My enrichments** to review the total number of enriched customers and a breakdown of brands or interests in the enriched customer profiles.
 
-:::image type="content" source="media/My-enrichments.png" alt-text="Preview of results after running the enrichment process":::
+:::image type="content" source="media/My-enrichments.png.png" alt-text="Preview of results after running the enrichment process":::
 
 Review the enriched data by selecting **View enriched data** in the chart. Enriched data for brands goes to the **BrandAffinityFromMicrosoft** entity. Data for interests is in the **InterestAffinityFromMicrosoft** entity. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
 
