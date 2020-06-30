@@ -52,7 +52,7 @@ In order to select a country, press the **Change** link next to **Country/Region
 
 - When [choosing your own](#supported-countries) brands, we will provide suggestions based on the selected country.
 
-- When [mapping your fields](#configure-enrichment), if the Country/Region field is left unmapped, we will use Microsoft Graph data from the [selected country](#supported-countries) to enrich your customer profiles.
+- When [mapping your fields](#map-your-fields), if the Country/Region field is left unmapped, we will use Microsoft Graph data from the [selected country](#supported-countries) to enrich your customer profiles.
 We will also use that selected country to enrich your customer profiles that don't have Country/Region data available.
 
 - When [enriching profiles](#run-enrichment), we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
@@ -61,19 +61,21 @@ We will also use that selected country to enrich your customer profiles that don
 
 Configuring brands or interests enrichment consists of two steps:
 
-1. **Define your brands or interests**
+### Define your brands or interests
 
    Select one of the following options:
+
    - **Industry**: The system identifies the top brands or interests relevant to your industry and enriches your customer data with them.
    - **Choose your own**: Select up to five items from the list of brands or interests that are most relevant to your organization.
 
    To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
 
-2. **Map your fields**
+### Map your fields
 
    Map fields from your unified customer entity to at least two attributes to define the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to complete the field mapping.
 
    The following formats and values are supported:
+
    - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
    - **Gender**: Male, Female, Unknown
    - **Zip Code**: five-digit US ZIP Code (only supported for the United States)
