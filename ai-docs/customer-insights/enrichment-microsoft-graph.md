@@ -52,8 +52,7 @@ In order to select a country, press the **Change** link next to **Country/Region
 
 - When [choosing your own](#supported-countries) brands, we will provide suggestions based on the selected country.
 
-- When [mapping your fields](#map-your-fields), if the Country/Region field is left unmapped, we will use Microsoft Graph data from the [selected country](#supported-countries) to enrich your customer profiles.
-We will also use that selected country to enrich your customer profiles that don't have Country/Region data available.
+- When [mapping your fields](#map-your-fields), if the Country/Region field is left unmapped, we will use Microsoft Graph data from the [selected country](#supported-countries) to enrich your customer profiles, including profiles that may not have Country/Region data.
 
 - When [enriching profiles](#run-enrichment), we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
 
@@ -78,8 +77,10 @@ Configuring brands or interests enrichment consists of two steps:
 
    - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
    - **Gender**: Male, Female, Unknown
-   - **Zip Code**: five-digit US ZIP Code (only supported for the United States)
-   - **State**: two-letter abbreviation (only supported for the United States)
+   - **Postal code**: five-digit ZIP Codes for US, standard Postal code everywhere else
+   - **City**: standard city name in English. Examples: Sydney, Toronto, Paris, Berlin, London, New York
+   - **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany or the UK.
+   - **Country**: standard country name in English. Some variations are acceptable. <<list the acceptable variations here>>
 
 :::image type="content" source="media/Map-your-fields.png.png" alt-text="Add data pane for data enrichment":::
 
