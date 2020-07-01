@@ -12,7 +12,7 @@ manager: shellyha
 
 # Use Azure Machine Learning-based custom models in Customer Insights
 
-The unified data in Dynamics 365 Customer Insights is an ideal source to build machine learning (ML) models that can generate additional business insights. Customer Insights integrates with Azure Machine Learning to use your own custom models.
+The unified data in Dynamics 365 Customer Insights is an ideal source for building machine learning models that can generate additional business insights. Customer Insights integrates with Azure Machine Learning to use your own custom models.
 
 ## Prerequisites
 
@@ -31,23 +31,21 @@ In a first step, we need to create a workspace for and open the Azure Machine Le
 
 1. Search **Machine Learning Studio Workspace** and select **Create**.
 
-1. Enter the required details to [create the workspace](https://docs.microsoft.com/azure/machine-learning/studio/create-workspace). Choose the **Web service plan pricing tier** based on the size of data you plan to import from Customer Insights. For best performance, select    the **Location** that is geographically closest to you.
+1. Enter the required details to [create the workspace](https://docs.microsoft.com/azure/machine-learning/studio/create-workspace). Choose the **Web service plan pricing tier** based on the amount of data you plan to import from Customer Insights. For best performance, select the **Location** that is geographically closest to you.
 
-1. After creating the resource, the Machine Learning Studio workspace dashboard appears. Select **Launch Machine Learning Studio**.
+1. After creating the resource, the Machine Learning Studio workspace dashboard will appear. Select **Launch Machine Learning Studio**.
 
    :::image type="content" source="media/azure-machine-learning-studio.png" alt-text="Azure Machine Learning Studio user interface":::
 
 ## Work with Azure Machine Learning Studio
 
-You can now create a new experiment, or you can import an existing experiment template from the sample gallery. As part of Customer Insights, we provide sample experiments for three standard scenarios.
+You can now create a new experiment, or import an existing experiment template from the sample gallery. Customer Insights includes sample experiments for three standard scenarios:
 
 - [Churn prediction](#churn-analysis)
 
 - [Customer lifetime value](#customer-lifetime-value-prediction)
 
 - [Product recommendation or next best action](#productrecommendation-or-next-best-action)
-
-You’ll find them in the template gallery.
 
 1. If you create a new experiment or use an experiment template from the gallery, you need to configure the **Import Data** properties. Use the guided experience or directly provide details to access the Azure Blob Storage with your Customer Insights data.  
 
@@ -61,7 +59,7 @@ You’ll find them in the template gallery.
 
    :::image type="content" source="media/predictive-webservice-control.png" alt-text="Set up a predictive web service":::
 
-1. Once the predictive web service experiment is successful, you can deploy it for auto scheduling. To have the web service to work with Customer Insights, choose the **Deploy Web Service** > **Deploy Web Service [New] Preview** option. [Learn more about deploying a web service](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service).
+1. Once the predictive web service experiment is successful, you can deploy it for auto scheduling. To have the web service work with Customer Insights, select **Deploy Web Service** > **Deploy Web Service [New] Preview**. [Learn more about deploying a web service](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service).
 
    :::image type="content" source="media/predictive-webservice-deploy.png" alt-text="Deploy a predictive web service":::
 
@@ -70,8 +68,8 @@ You’ll find them in the template gallery.
 We'll use a fictitious scenario of Contoso Hotel for the models in this article. Contoso Hotel gathers the following data:
 
 - CRM data consisting of hotel stay activity. The data set includes information about the dates of stay for each registered customer. It also contains information about the booking, room types, details of spend, and so on. The data spans four years, from January 2014 to January 2018.
-- Customer profiles of hotel guests. These profiles contain information for each customer. It includes data like name, birth date, postal address, gender, phone number.
-- Usage of services offered by the hotel. For example, the use of spa, laundry services, WiFi, or courier. This information is logged for each registered customer. Typically use of services is linked with the stay. In some cases, the services can be used by customers without staying in the hotel.
+- Customer profiles of hotel guests. These profiles contain information about each customer, including their name, birthdate, postal address, gender, and phone number.
+- Usage of services offered by the hotel, such as the spa, laundry, WiFi, or courier. This information is logged for each registered customer. Typically, use of services is linked with the stay. In some cases, services can be used by customers without staying in the hotel.
 
 ## Churn Analysis
 
@@ -79,7 +77,7 @@ Churn analysis applies to different business areas. In this example, we’re goi
 
 ### Definition of Churn
 
-The definition of churn can differ based on the scenario. In this example, a guest who hasn’t visited the hotel in the past year, should be labeled as churned.  
+The definition of churn can differ based on the scenario. In this example, a guest who hasn’t visited the hotel in the past year should be labeled as churned.  
 
 The experiment template can be imported from the gallery. First, ensure that you import the data for **Hotel Stay Activity**, **Customer data**, and **Service Usage Data** from Azure Blob storage.
 
@@ -106,9 +104,9 @@ Final list of features:
 
 ### Model selection
 
-Now we need to choose the optimal algorithm to use. In this case, most features are based on categorical features. Typically, decision tree–based models work well. If there are only numerical features, neural networks could be a better choice. Support vector machine (SVM) also is a good candidate in such situations; however, it needs quite a bit of tuning to extract the best performance. We choose **Two-Class Boosted Decision Tree** as the first model of choice followed by **Two-Class SVM** as the second model. Azure Machine Learning Studio lets you do A/B testing of two so it’s beneficial to start with two models rather than one.
+Now we need to choose the optimal algorithm to use. In this case, most features are based on categorical features. Typically, decision tree–based models work well. If there are only numerical features, neural networks could be a better choice. Support vector machine (SVM) also is a good candidate in such situations; however, it needs quite a bit of tuning to extract the best performance. We choose **Two-Class Boosted Decision Tree** as the first model of choice followed by **Two-Class SVM** as the second model. Azure Machine Learning Studio lets you do A/B testing, so it’s beneficial to start with two models rather than one.
 
-The following image shows the model training and evaluation pipeline from Azure Machine Learning Studio.
+The following image shows the model training and evaluation pipeline from Azure Machine Learning Studio:
 
 :::image type="content" source="media/azure-machine-learning-model.png" alt-text="Churn model in Azure Machine Learning Studio":::
 
@@ -118,7 +116,7 @@ The entire [churn experiment is available in the Azure AI Gallery](https://gall
 
 ## Customer lifetime value prediction
 
-The customer lifetime value (CLTV) calculation is one of the key metrics that a business can use to assess and segment its customers. For the hotel business, it’s critical to know their customers. For example, understanding factors that make up good customers is crucial information. It helps the hotel management assess which features they need to focus on and improve to satisfy their high paying customers. These decisions can have a direct impact on sales and earnings. In this example, we will define the CLTV as the cumulative amount brought in by the customer in the designated time frame.  
+The customer lifetime value (CLTV) calculation is one of the key metrics that a business can use to assess and segment its customers. For the hotel business, it’s critical to know their customers. For example, understanding factors that make up good customers is crucial information. It helps the hotel management assess which features they need to focus on and improve to satisfy their high paying customers. These decisions can have a direct impact on sales and earnings.  
 
 ### Definition of CLTV
 
@@ -154,9 +152,9 @@ We predict products or services by using the algorithm called **Train Matchbox 
 
 :::image type="content" source="media/azure-machine-learning-model-recommendation-algorithm.png" alt-text="Product recommendation algorithm":::
 
-The three input ports for the **Train Matchbox Recommender** model takes in the training service usage data, customer description (optional), and service description. There are three different ways of scoring the model. One is for model evaluation where a Normalized Discounted Cumulative Gain (NDCG) score is calculated to rank the rated items. In this experiment, we have NDCG score as 0.97. The other two options are scoring the model on the entire recommendable service catalog or scoring only on items that users have not used before.
+The three input ports for the **Train Matchbox Recommender** model takes in the training service usage data, customer description (optional), and service description. There are three different ways of scoring the model. One is for model evaluation where a Normalized Discounted Cumulative Gain (NDCG) score is calculated to rank the rated items. In this experiment, we have the NDCG score as 0.97. The other two options are scoring the model on the entire recommendable service catalog, or scoring only on items that users have not used before.
 
-Looking further on the distributions of the recommendations on the entire service catalog, we notice that phone, WiFi, and courier are the top services to be recommended. It's consistent with what we found from the distributions of the service consumption data:
+Looking further on the distributions of the recommendations on the entire service catalog, we notice that phone, WiFi, and courier are the top services to be recommended. This is consistent with what we found from the distributions of the service consumption data:
 
 :::image type="content" source="media/azure-machine-learning-model-output.png" alt-text="Recommendation model output":::
 
@@ -166,4 +164,4 @@ The entire [product recommendation experiment can be accessed in Azure AI Galle
 
 To use these predictions in Customer Insights, you need to **export** the predictions along with the customer IDs. [Export them to the same Azure Blob storage location](https://docs.microsoft.com/azure/storage/common/storage-import-export-data-from-blobs) that you export the Customer Insights data to. The predictive web service can be scheduled to run regularly and update the scores.
 
-The data generated by the custom model can be used in Customer Insights to further enrich your customer data. [Learn about using custom models in Customer Insights.](custom-models.md)
+Data generated by the custom model can be used in Customer Insights to further enrich your customer data. [Learn about using custom models in Customer Insights.](custom-models.md)
