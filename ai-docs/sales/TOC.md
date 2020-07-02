@@ -109,6 +109,9 @@
 ## Developer Guide
 ### Action Reference
 #### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
+### Entity Reference
+#### [msdyn_PredictiveScore](developer/msdyn_predictivescore.md)
+#### [msdyn_PredictiveModelScore](developer/msdyn_predictivemodelscore.md)
 
 ## [FAQs](faqs-sales-insights.md)
 
