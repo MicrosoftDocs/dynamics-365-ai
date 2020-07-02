@@ -691,6 +691,3 @@ Same as msdyn_predictivemodelscore entity [msdyn_PS_PMS](msdyn_predictivemodelsc
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### See also
-
-<xref href="Microsoft.Dynamics.CRM.msdyn_predictivescore?text=msdyn_predictivescore EntityType" />
