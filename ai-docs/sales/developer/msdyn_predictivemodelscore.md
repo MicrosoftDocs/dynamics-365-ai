@@ -13,6 +13,8 @@ manager: "shujoshi"
 ---
 # msdyn_predictivemodelscore Entity Reference
 
+> [!NOTE]
+> This entity is for internal use only.
 
 **Added by**: Predictive Scoring Common Solution
 
