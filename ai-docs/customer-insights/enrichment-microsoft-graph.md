@@ -76,17 +76,17 @@ Configuring brands or interests enrichment consists of two steps:
    The following formats and values are supported:
 
    - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
-   - **Gender**: Male, Female, Unknown
+   - **Gender**: male, female, unknown
    - **Postal code**: five-digit ZIP Codes for US, standard Postal code everywhere else
    - **City**: standard city name in English. Examples: Sydney, Toronto, Paris, Berlin, London, New York
    - **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany or the UK.
-   - **Country**: standard country name in English. The following variations, with or without capital letters (for example US is the same as Us, uS and us) are acceptable:
-      - US: unitedstatesofamerica, unitedstates, united states, usa, enus, us, america
-      - CA: canada, ca, enca, frca
-      - GB: unitedkingdom, uk, greatbritain, great britain, gb, enuk, engb, unitedkingdomofgreatbritainandnorthernireland, unitedkingdomofgreatbritain
-      - AU : australia, au, enau, commonwealthofaustralia
-      - FR : france, fr, frfr, frenchrepublic
-      - DE : germany, german, deutschland, allemagne, de, dede, federalrepublicofgermany, republicofgermany
+   - **Country**: values are case insensitive and spaces are ignored. The following variations are acceptable:
+      - US: United States of America, unitedstates, united states, usa, us, america
+      - CA: Canada, ca
+      - GB: United Kingdom, uk, greatbritain, great britain, gb, unitedkingdomofgreatbritainandnorthernireland, unitedkingdomofgreatbritain
+      - AU : Australia, au, commonwealthofaustralia
+      - FR : France, fr, frenchrepublic
+      - DE : Germany, german, deutschland, allemagne, de, federalrepublicofgermany, republicofgermany
 
 
 :::image type="content" source="media/map-your-fields.png" alt-text="Add data pane for data enrichment":::
