@@ -242,6 +242,69 @@ For example, the accuracy of a retrained model is good and this indicates that t
 
 2. Perform steps 6 through 8 from the [Generate custom-defined model](#generate-custom-defined-model) procedure, earlier in this article.
 
+## Add opportunity scoring widget to a form
+
+By default, the predictive opportunity scoring widget is available only in the out-of-the-box **Sales Insights** form. If you’re using customized forms for opportunities and want to display the predictive opportunity scoring widget in the custom form, you can do it by following these steps:
+
+>[!NOTE]
+>Adding of opportunity scoring widget is only supported in Unified Interface apps.
+
+1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Business Management settings** page opens in a new browser tab.
+
+2. Select **Settings** > **Customizations** > **Customize the System**.
+
+3. In the solution explorer, under **Components**, expand **Entities** and then select **Opportunity** > **Forms**.
+
+4. Select and open the form for which you want to add the widget.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Select a form](media/pos-select-form.png "Select a form")
+
+5. In the **Field Explorer** pane, clear the selection for **Only show unused fields**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Clear the selection for Only show unused fields](media/pos-clear-selection-show-unused-fields.png "Clear the selection for Only show unused fields")
+
+6. Select and drag the **Opportunity Score** field to a desired location in a section. In this example, we’re selecting and dragging the **Opportunity Score** field to the **General** section.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Add opportunity score field](media/pos-add-opportunity-score-field.png "Add opportunity score field")
+
+7. Double-click the **Opportunity Score** field to open the **Field Properties** dialog.
+
+8. In the **Display** tab, under the **Label** section, clear the selection for **Display label on the form**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Clear the selection for display label on the form](media/pos-clear-selection-display-label.png "Clear the selection for display label on the form")
+
+9. In the **Control** tab, select **Add control**.
+
+    The **Add control** dialog opens.
+
+10.	Select **Predictive opportunity score** and then select **Add**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Select and add predictive opportunity score control](media/pos-select-predictive-opportunity-score-control.png "Select and add predictive opportunity score control")
+
+    The **Predictive opportunity score** control is added.
+
+11.	For **Predictive opportunity score** control, enable the options **Web**, **Phone**, and **Tablet** and then select **OK**. 
+
+    > [!div class="mx-imgBorder"]  
+    > ![Enable the options for predictive opportunity score control](media/pos-enable-control-options.png "Enable the options for predictive opportunity score control")
+ 
+	The predictive opportunity score widget is added to the form.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Predictive opportunity score widget is added to the form](media/pos-opportunity-score-widget-added.png "Predictive opportunity score widget is added to the form")
+ 
+12.	Save and publish the form.
+
 ### See also
 
 [Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md)  
