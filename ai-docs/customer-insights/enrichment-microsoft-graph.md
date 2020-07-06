@@ -73,7 +73,7 @@ Configuring brands or interests enrichment consists of two steps:
 
 Map fields from your unified customer entity to at least two attributes to define the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to complete the field mapping.
 
-The following formats and values are supported:
+The following formats and values are supported, values are not case-sensitive:
 
 - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
 - **Gender**: Male, Female, Unknown
@@ -81,14 +81,14 @@ The following formats and values are supported:
 - **City**: city name in English
 - **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany or the UK.
 - **Country/Region**: country name in English.
-  The following variations, regardless of capitalization work:
+  The following variations are supported:
 
-  - United States: unitedstatesofamerica, unitedstates, united states, usa, enus, us, america
-  - Canada: canada, ca, enca, frca
-  - United Kingdom: unitedkingdom, uk, greatbritain, great britain, gb, enuk, engb, unitedkingdomofgreatbritainandnorthernireland, unitedkingdomofgreatbritain
-  - Australia : australia, au, enau, commonwealthofaustralia
-  - France : france, fr, frfr, frenchrepublic
-  - Germany : germany, german, deutschland, allemagne, de, dede, federalrepublicofgermany, republicofgermany
+  - US: United States of America, United States, USA, US, America
+  - CA: Canada, CA
+  - GB: United Kingdom, UK, Great Britain, GB, United Kingdom of Great Britain and Northern Ireland, United Kingdom of Great Britain
+  - AU : Australia, AU, Common Wealth of Australia
+  - FR : France, FR, French Republic
+  - DE : Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
 ## Run enrichment
 
