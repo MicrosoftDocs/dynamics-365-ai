@@ -41,20 +41,20 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 - For **Brands** you have the possibility to select one of the following **six countries**: Australia, Canada (English), France, Germany, United Kingdom or United States (English).
 
-In order to select a country, press the **Change** link next to **Country/Region** and in the fly-out menu pick from the list of available **Country/Region** then press **Apply**.
+In order to select a country/region, press the **Change** link next to **Country/Region** and in the fly-out menu pick from the list of available **Country/Region** then press **Apply**.
 
    > [!div class="mx-imgBorder"]
    > ![Choosing a country](media/choose-country.png "Choosing a country")
 
 - For **Interests** it is still **US only** at the moment.
 
-## Implications related to country selection
+## Implications related to country/region selection
 
-- When [choosing your own](#supported-countries) brands, we will provide suggestions based on the selected country.
+- When [choosing your own](#supported-countries) brands, we will provide suggestions based on the selected country/region.
 
-- When [mapping your fields](#map-your-fields), if the Country/Region field is left unmapped, we will use Microsoft Graph data from the [selected country](#supported-countries) to enrich your customer profiles. We will also use that selected country to enrich your customer profiles that don't have Country/Region data available.
+- When [mapping your fields](#map-your-fields), if the country/region field is left unmapped, we will use Microsoft Graph data from the [selected country/region](#supported-countries) to enrich your customer profiles. We will also use that selected country/region to enrich your customer profiles that don't have country/region data available.
 
-- When [enriching profiles](#run-enrichment), we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
+- When [enriching profiles](#run-enrichment), we will enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, even though the country selected is Germany, we will enrich United States located profiles if we have Microsoft Graph data available for the selected brands in the US.
 
 ## Configure Enrichment
 
@@ -73,20 +73,20 @@ Configuring brands or interests enrichment consists of two steps:
 
    Map fields from your unified customer entity to at least two attributes to define the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to complete the field mapping.
 
-   The following formats and values are supported:
+   The following formats and values are supported (values are case insensitive):
 
    - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
    - **Gender**: male, female, unknown
    - **Postal code**: five-digit ZIP Codes for US, standard Postal code everywhere else
    - **City**: standard city name in English. Examples: Sydney, Toronto, Paris, Berlin, London, New York
-   - **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany or the UK.
-   - **Country**: values are case insensitive and spaces are ignored. The following variations are acceptable:
-      - US: United States of America, unitedstates, united states, usa, us, america
-      - CA: Canada, ca
-      - GB: United Kingdom, uk, greatbritain, great britain, gb, unitedkingdomofgreatbritainandnorthernireland, unitedkingdomofgreatbritain
-      - AU : Australia, au, commonwealthofaustralia
-      - FR : France, fr, frenchrepublic
-      - DE : Germany, german, deutschland, allemagne, de, federalrepublicofgermany, republicofgermany
+   - **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany or the UK
+   - **Country/Region**: the following variations are acceptable
+      - US: United States of America, United States, USA, US, America
+      - CA: Canada, CA
+      - GB: United Kingdom, UK, Great Britain, GB, United Kingdom of Great Britain and Northern Ireland, United Kingdom of Great Britain
+      - AU : Australia, AU, Common Wealth of Australia
+      - FR : France, FR, French Republic
+      - DE : Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
 
 :::image type="content" source="media/map-your-fields.png" alt-text="Add data pane for data enrichment":::
