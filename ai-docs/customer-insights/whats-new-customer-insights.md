@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 06/16/2020
+ms.date: 07/07/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -22,6 +22,62 @@ We roll out updates on a region-by-region basis. So certain regions might see fe
 
 > [!TIP]
 > To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=79a8c474-4e35-e911-a971-000d3a4f3343&forumName=Dynamics%20365%20Customer%20Insights).
+
+## June 2020 updates
+
+The Dynamics 365 Customer Insights updates in June 2020 includes several features, performance upgrades, and bug fixes.
+
+### New and updated features in June 2020
+
+#### Enrichment
+
+- **Enrichment with company data from Leadspace**
+  
+  Define fields in unified customer profiles that are used to look up related company data from Leadspace. After running the enrichment process, B2B profiles are enriched with additional attributes including company size, location, industry, and more.    
+  This collaboration allows you to improve the quality of your data with input from third-party services. To use this enrichment you'll need a license from Leadspace to access its B2B company data. Customer Insights will use that license to keep your data enriched continuously.    
+  For more information, see [Enrichment of company profiles with Leadspace](enrichment-leadspace.md).
+
+- **Enrichment hub page**
+
+  All available data enrichment from first- and third-party enrichment providers gets configured in the same place. Configuring data enrichment is a seamless experience that is managed from a common place.    
+  For more information, see [Enrichment for customer profiles](enrichment-hub.md).
+
+- **Separate brand and interest affinity enrichment**
+
+  The brands and interests affinities are now available as two independent enrichments. This gives you the flexibility to configure and manage them separately, depending on your business requirements or needs.    
+  For more information, see [Enrich customer profiles with brand and interest affinities](enrichment-microsoft-graph.md).
+
+#### Extensibility
+
+- **Clickable URLs for unified activities on the Dynamics 365 Customer Card Add-in**
+
+  The unified activities in the Customer Card Add-in are now showing clickable URLs if such URLs have been defined in Customer Insights during the configuration of activities.    
+  For more information, see [Customer Card Add-in](customer-card-add-in.md).
+
+- **Brand and interest affinities available on the Dynamics 365 Customer Card Add-in**
+
+  A new control on the Dynamics 365 Customer Card Add-in lets you show brand and interest enrichments on your contacts on model-driven Dynamics 365 apps.    
+  For more information, see [Customer Card Add-in](customer-card-add-in.md).
+
+- **Additional Power Automate triggers**
+
+  We have extended our triggers for Power Automate and added the following triggers:
+  - Get a notification or perform an action when an automated full refresh (data sources, unification, segments, measures, exports) completes
+  - Define a threshold for a business measure. For example, you can create a notification that gets sent when the defined threshold is passed. Additionally, the trigger brings information that allows you to build more complex workflows in Power Automate.    
+  For more information, see [Power Automate connector](export-power-automate.md)
+
+- **Export to Facebook Ads Manager**
+  
+  This capability lets you export segments from Customer Insights to Facebook Ads Manager. Segments are exported as custom audiences to use unified customer profiles from Customer Insights in Facebook marketing campaigns and ads. The custom audiences are also usable to create campaigns on Instagram through Facebook Ads Manager.    
+  For more information, see [Connector for Facebook Ads Manager](export-facebook.md).
+
+#### Predictions
+
+#### Segments
+
+#### System administration
+
+
 
 ## May 2020 updates
 
