@@ -73,6 +73,18 @@ The Dynamics 365 Customer Insights updates in June 2020 includes several feature
 
 #### Predictions
 
+- **Subscription churn prediction**
+
+Follow a simple, guided experience to create churn prediction in subscription areas like cloud services, customer membership, and other sectors. 
+
+The subscription churn prediction feature enables you to predict the likelihood of a customer stopping the use of subscription-based products or services without engaging a data scientist. Using the prediction score, you can combine other information about your customers to create segments of high churn risk.  With the help of this segment, you can use integrations with Customer Insights to directly target customers in marketing, customer support, and other scenarios to reduce the risk of churn for specific customers to improve revenue and reduce cost.
+
+Within the experience, you can configure the definition of churn as a time-based window specific to your business.  For example, a video streaming business that has a monthly subscription process might want to consider a customer to have churned after 15 days after the expiration of their subscription.
+
+As you continue through the prediction, we'll guide you through what data is needed, and enable you to map data about your business to fields required to predict churn for your customers. As business information changes, you can also set a schedule to retrain on new information in your system to adapt to changing business circumstances.
+
+For more information, see [Subscription churn prediction (preview)](predict-subscription-churn.md).
+
 #### Segments
 
 #### System administration
