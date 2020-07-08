@@ -62,7 +62,6 @@ It can take some time for the solution to be installed to your environment.
 1. Next, you need to assign security roles in Dynamics 365 so users can customize and see the customer card. In Dynamics 365, go to **Settings** > **Security** > **Users**. Select the users to edit user roles and select **Manage roles**. Assign the following roles:
 
    - **Customer Insights Card Customizer**: Assign this role to users who will customize the content shown on the card for the whole organization.
-   - **Customer Insights Card Standard User**: Assign this role to users who will use the card for consumption, but who won't customize.
 
 ## Add Customer Insights controls to forms
   
