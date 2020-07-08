@@ -241,12 +241,12 @@ For example, the accuracy of a retrained model is good and this indicates that t
 
 2. Perform steps 6 through 8 from the [Generate custom-defined model](#generate-custom-defined-model) procedure, earlier in this article.
 
-## Add lead scoring widget to a form
+## Add the lead scoring widget to a form
 
-By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you’re using customized forms for leads and want to display the predictive lead scoring widget in the custom form, you can do it by following these steps:
+By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for leads, you can display the predictive lead scoring widget on your custom forms by following these steps.<!--Suggested.-->
 
->[!NOTE]
->Adding of lead scoring widget is only supported in Unified Interface apps.
+> [!NOTE]
+> Adding lead scoring widgets is only supported in Unified Interface apps.
 
 1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
 
@@ -257,50 +257,50 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 2. Select **Settings** > **Customizations** > **Customize the System**.
 
-3. In the solution explorer, under **Components**, expand **Entities** and then select **Lead** > **Forms**.
+3. In the solution explorer under **Components**, expand **Entities**, and then select **Lead** > **Forms**.
 
-4. Select and open the form for which you want to add the widget.
+4. Select and open the form to which you want to add the widget.
 
     > [!div class="mx-imgBorder"]  
     > ![Select a form](media/pls-select-form.png "Select a form")
 
-5. In the **Field Explorer** pane, clear the selection for **Only show unused fields**.
+5. In the **Field Explorer** pane, clear the **Only show unused fields** check box.<!--Edit okay? It looks like a check box in the image.-->
 
     > [!div class="mx-imgBorder"]  
-    > ![Clear the selection for Only show unused fields](media/pls-clear-selection-show-unused-fields.png "Clear the selection for Only show unused fields")
+    > ![Clear the Only show unused fields check box](media/pls-clear-selection-show-unused-fields.png "Clear the Only show unused fields check box")
 
-6. Select and drag the **Lead Score** field to a desired location in a section. In this example, we’re selecting and dragging the **Lead Score** field to the **General** section.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Add lead score field](media/pls-add-lead-score-field.png "Add lead score field")
-
-7. Double-click the **Lead Score** field to open the **Field Properties** dialog.
-
-8. In the **Display** tab, under the **Label** section, clear the selection for **Display label on the form**.
+6. Select and drag the **Lead Score** field to the location you want. In this example, we're dragging it to the **General** section.
 
     > [!div class="mx-imgBorder"]  
-    > ![Clear the selection for display label on the form](media/pls-clear-selection-display-label.png "Clear the selection for display label on the form")
+    > ![Add the Lead score field](media/pls-add-lead-score-field.png "Add the Lead Score field")
 
-9. In the **Control** tab, select **Add control**.
+7. Double-click the **Lead Score** field and open the **Field Properties** dialog box.
 
-    The **Add control** dialog opens.
-
-10.	Select **Predictive lead score** and then select **Add**.
+8. On the **Display** tab, in the **Label** section,<!--Or it could be "...under **Label**..."-->, clear the **Display label on the form** check box.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select and add predictive lead score control](media/pls-select-predictive-lead-score-control.png "Select and add predictive lead score control")
+    > ![Clear the Display label on the form check box](media/pls-clear-selection-display-label.png "Clear the Display label on the form check box")
+
+9. On the **Control** tab, select **Add control**.
+
+    The **Add control** dialog box opens.
+
+10.	Select **Predictive lead score**, and then select **Add**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Select and add the predictive lead score control](media/pls-select-predictive-lead-score-control.png "Select and add the predictive lead score control")
 
     The **Predictive lead score** control is added.
 
-11.	For **Predictive lead score** control, enable the options **Web**, **Phone**, and **Tablet** and then select **OK**. 
+11.	For **Predictive lead score**, select the **Web**, **Phone**, and **Tablet** options, and then select **OK**. 
 
     > [!div class="mx-imgBorder"]  
-    > ![Enable the options for predictive lead score control](media/pls-enable-control-options.png "Enable the options for predictive lead score control")
+    > ![Enable options for the predictive lead score control](media/pls-enable-control-options.png "Enable options for the predictive lead score control")
  
 	The predictive lead score widget is added to the form.
 
     > [!div class="mx-imgBorder"]  
-    > ![Predictive lead score widget is added to the form](media/pls-lead-score-widget-added.png "Predictive lead score widget is added to the form")
+    > ![The predictive lead score widget is added to the form](media/pls-lead-score-widget-added.png "The predictive lead score widget is added to the form")
  
 12.	Save and publish the form.
 
