@@ -1,7 +1,7 @@
 ---
-title: "Enrich customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
+title: "Enrich customer profiles with Microsoft Graph in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 04/29/2020
+ms.date: 07/09/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -42,29 +42,54 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 > [!TIP]
 > When [creating segments](segments.md) using affinity scores, review the distribution of affinity scores for your dataset before deciding on the appropriate score thresholds. For example, an affinity score of 10 can be considered significant in a dataset that has a highest affinity score of only 25 for a given brand or interest.
 
+## Supported countries/regions
+
+- For **Brands** you can select one of the following options: Australia, Canada (English), France, Germany, United Kingdom, or United States (English).
+
+  To select a country, open the **Brands enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
+
+- **Interests** are currently only available for the United States.
+
+### Implications related to country selection
+
+- When [choosing your own brands](#define-your-brands-or-interests), we will provide suggestions based on the selected country/region.
+
+- When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
+
+- When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
+
 ## Configure Enrichment
 
 Configuring brands or interests enrichment consists of two steps:
 
-1. **Define your brands or interests**
+### Define your brands or interests
 
-   Select one of the following options:
-   - **Industry**: The system identifies the top brands or interests relevant to your industry and enriches your customer data with them.
-   - **Choose your own**: Select up to five items from the list of brands or interests that are most relevant to your organization.
+Select one of the following options:
 
-   To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
+- **Industry**: The system identifies the top brands or interests relevant to your industry and enriches your customer data with them.
+- **Choose your own**: Select up to five items from the list of brands or interests that are most relevant to your organization.
 
-2. **Map your fields**
+To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
 
-   Map fields from your unified customer entity to at least two attributes to define the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to complete the field mapping.
+### Map your fields
 
-   The following formats and values are supported:
-   - **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
-   - **Gender**: Male, Female, Unknown
-   - **Zip Code**: five-digit US ZIP Code (only supported for the United States)
-   - **State**: two-letter abbreviation (only supported for the United States)
+Map fields from your unified customer entity to at least two attributes to define the demographic segment you want us to use for enriching your customer data. Select **Edit** to define the mapping of the fields and select **Apply** when you're done. Select **Save** to complete the field mapping.
 
-:::image type="content" source="media/enrichment-add-data.png" alt-text="Add data pane for data enrichment":::
+The following formats and values are supported, values are not case-sensitive:
+
+- **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
+- **Gender**: Male, Female, Unknown
+- **Postal code**: five-digit ZIP Codes for US, standard postal code everywhere else
+- **City**: city name in English
+- **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany, or the UK.
+- **Country/Region**:
+
+  - US: United States of America, United States, USA, US, America
+  - CA: Canada, CA
+  - GB: United Kingdom, UK, Great Britain, GB, United Kingdom of Great Britain and Northern Ireland, United Kingdom of Great Britain
+  - AU: Australia, AU, Common Wealth of Australia
+  - FR: France, FR, French Republic
+  - DE: Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
 ## Run enrichment
 
@@ -78,7 +103,7 @@ Depending on the size of your customer data, it may take several minutes for an 
 
 After running the enrichment process, go to **My enrichments** to review the total number of enriched customers and a breakdown of brands or interests in the enriched customer profiles.
 
-:::image type="content" source="media/enrichment-preview.png" alt-text="Preview of results after running the enrichment process":::
+:::image type="content" source="media/my-enrichments.png" alt-text="Preview of results after running the enrichment process":::
 
 Review the enriched data by selecting **View enriched data** in the chart. Enriched data for brands goes to the **BrandAffinityFromMicrosoft** entity. Data for interests is in the **InterestAffinityFromMicrosoft** entity. You'll also find these entities listed in the **Enrichment** group in **Data** > **Entities**.
 
