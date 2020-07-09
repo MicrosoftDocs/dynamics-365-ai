@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 06/16/2020
+ms.date: 07/09/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -14,7 +14,7 @@ manager: shellyha
 
 We're excited to announce our newest updates! This article summarizes public preview features, general availability enhancements, and feature updates. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
-You can also watch the following video to learn more about the capabilities planned for 2020 release wave 1. 
+You can also watch the following video to learn more about the capabilities planned for 2020 release wave 1.
 
 > [!VIDEO https://www.youtube.com/embed/jQh-7pscH30]
 
@@ -22,6 +22,88 @@ We roll out updates on a region-by-region basis. So certain regions might see fe
 
 > [!TIP]
 > To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=79a8c474-4e35-e911-a971-000d3a4f3343&forumName=Dynamics%20365%20Customer%20Insights).
+
+## June 2020 updates
+
+The Dynamics 365 Customer Insights updates in June 2020 includes several features, performance upgrades, and bug fixes.
+
+### New and updated features in June 2020
+
+#### Enrichment
+
+- **Enrichment with company data from Leadspace**
+  
+  Define fields in unified customer profiles that are used to look up related company data from Leadspace. After running the enrichment process, B2B profiles are enriched with additional attributes including company size, location, industry, and more.    
+  This collaboration allows you to improve the quality of your data with input from third-party services. To use this enrichment you'll need a license from Leadspace to access its B2B company data. Customer Insights will use that license to keep your data enriched continuously.    
+  For more information, see [Enrichment of company profiles with Leadspace](enrichment-leadspace.md).
+
+- **Enrichment hub page**
+
+  All available data enrichment from first- and third-party enrichment providers gets configured in the same place. Configuring data enrichment is a seamless experience that is managed from a common place.    
+  For more information, see [Enrichment for customer profiles](enrichment-hub.md).
+
+- **Separate brand and interest affinity enrichment**
+
+  The brands and interests affinities are now available as two independent enrichments. Separated enrichments give you the flexibility to configure and manage them individually, depending on your business requirements or needs.    
+  For more information, see [Enrich customer profiles with brand and interest affinities](enrichment-microsoft-graph.md).
+
+#### Extensibility
+
+- **Clickable URLs for unified activities on the Dynamics 365 Customer Card Add-in**
+
+  The unified activities in the Customer Card Add-in are now showing clickable URLs if such URLs have been defined in Customer Insights during the configuration of activities.    
+  For more information, see [Customer Card Add-in](customer-card-add-in.md).
+
+- **Brand and interest affinities available on the Dynamics 365 Customer Card Add-in**
+
+  A new control on the Dynamics 365 Customer Card Add-in lets you show brand and interest enrichments on your contacts on model-driven Dynamics 365 apps.    
+  For more information, see [Customer Card Add-in](customer-card-add-in.md).
+
+- **Additional Power Automate triggers**
+
+  We have extended our triggers for Power Automate and added the following triggers:
+  - Get a notification or perform an action when an automated full refresh (data sources, unification, segments, measures, exports) completes
+  - Define a threshold for a business measure. For example, you can create a notification that gets sent when the defined threshold is passed. Additionally, the trigger brings information that allows you to build more complex workflows in Power Automate.    
+  For more information, see [Power Automate connector](export-power-automate.md)
+
+- **Export to Facebook Ads Manager**
+  
+  This capability lets you export segments from Customer Insights to Facebook Ads Manager. Segments are exported as custom audiences to use unified customer profiles from Customer Insights in Facebook marketing campaigns and ads. The custom audiences are also usable to create campaigns on Instagram through Facebook Ads Manager.    
+  For more information, see [Connector for Facebook Ads Manager](export-facebook.md).
+
+#### Predictions
+
+- **Subscription churn prediction**
+
+  Follow a guided experience to create churn prediction in subscription areas like cloud services, customer membership, and other sectors. 
+
+  The subscription churn prediction feature enables you to predict the likelihood of a customer stopping the use of subscription-based products or services without engaging a data scientist. Using the prediction score, you can combine other information about your customers to create segments of high churn risk. With the help of this segment, you can use integrations with Customer Insights to directly target customers in marketing, customer support, and other scenarios to reduce the risk of churn for specific customers to improve revenue and reduce cost.
+
+  Within the experience, you can configure the definition of churn as a time-based window specific to your business. For example, a video streaming business that has a monthly subscription process might want to consider a customer to have churned after 15 days after the expiration of their subscription.
+
+  As you continue through the prediction, we'll guide you through what data is needed, and enable you to map data about your business to fields required to predict churn for your customers. As business information changes, you can also set a schedule to retrain on new information in your system to adapt to changing business circumstances.    
+  For more information, see [Subscription churn prediction (preview)](predict-subscription-churn.md).
+
+#### Segments
+
+- **Find similar customers**
+  
+  Find similar customers in your customer base using artificial intelligence. A binary classification machine learning model assigns a similarity score to customers in the expanded segment. The score is based on the similarity to customers in the source segment. Depending on the similarity score, customer profiles are added to a newly created segment.
+
+  Sometimes referred to as lookalike modeling in digital marketing, it uses an AI model to help find customers who are similar to another segment of your customers by factoring in additional attributes. It not only allows you to pick the attributes but also allows you to specify the maximum number of customers who should be in this new segment. The AI model will then compute similarity scores for each customer based on your selected attributes and find customers with the higher average similarity score. The resulting segment will include customers who look similar to the customer in your original segment.    
+  For more information, see [Similar Customers](find-similar-customer-segments.md).
+
+- **Segment overlap and differentiators**
+
+  Segment overlap lets you see how many and which customers are common to two or more segments. For example, how a high-spenders segment overlaps with a high-satisfaction customers segment or how a churning customer segment overlaps with a low-satisfaction customers segment. Additionally, you can analyze how the overlap changes based on an additional attribute of your choice.
+
+  Segment differentiators reveal what differentiates one segment from the rest of your customers or from another segment. All you need to do is identify a segment and the system will identify profile attributes and measures that distinguish the segment in the form of a ranked list of differentiators—from the strongest differentiator to the weakest.    
+  For more information, see [Segment insights (preview)](segment-insights.md).
+
+- **Segment lifetime**
+  
+  Define a schedule to activate or deactivate a segment.    
+  For more information, see [Manage existing segments](segments.md#manage-existing-segments).
 
 ## May 2020 updates
 
