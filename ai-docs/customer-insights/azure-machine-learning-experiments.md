@@ -49,6 +49,8 @@ You can now create a new experiment, or import an existing experiment template f
 
 1. If you create a new experiment or use an experiment template from the gallery, you need to configure the **Import Data** properties. Use the guided experience or directly provide details to access the Azure Blob Storage with your Customer Insights data.  
 
+   ![Azure Machine Learning Studio experiment](media/azure-machine-learning-studio-experiment.png)
+
 1. Now you can build a custom processing pipeline to clean and preprocess the data, extract features, and train a suitable model.
 
 1. Test and optimize the model performance.
