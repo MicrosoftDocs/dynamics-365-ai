@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 07/07/2020
+ms.date: 07/09/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -14,7 +14,7 @@ manager: shellyha
 
 We're excited to announce our newest updates! This article summarizes public preview features, general availability enhancements, and feature updates. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
-You can also watch the following video to learn more about the capabilities planned for 2020 release wave 1. 
+You can also watch the following video to learn more about the capabilities planned for 2020 release wave 1.
 
 > [!VIDEO https://www.youtube.com/embed/jQh-7pscH30]
 
@@ -44,7 +44,7 @@ The Dynamics 365 Customer Insights updates in June 2020 includes several feature
 
 - **Separate brand and interest affinity enrichment**
 
-  The brands and interests affinities are now available as two independent enrichments. This gives you the flexibility to configure and manage them separately, depending on your business requirements or needs.    
+  The brands and interests affinities are now available as two independent enrichments. Separated enrichments give you the flexibility to configure and manage them individually, depending on your business requirements or needs.    
   For more information, see [Enrich customer profiles with brand and interest affinities](enrichment-microsoft-graph.md).
 
 #### Extensibility
@@ -75,14 +75,13 @@ The Dynamics 365 Customer Insights updates in June 2020 includes several feature
 
 - **Subscription churn prediction**
 
-  Follow a simple, guided experience to create churn prediction in subscription areas like cloud services, customer membership, and other sectors. 
+  Follow a guided experience to create churn prediction in subscription areas like cloud services, customer membership, and other sectors. 
 
   The subscription churn prediction feature enables you to predict the likelihood of a customer stopping the use of subscription-based products or services without engaging a data scientist. Using the prediction score, you can combine other information about your customers to create segments of high churn risk. With the help of this segment, you can use integrations with Customer Insights to directly target customers in marketing, customer support, and other scenarios to reduce the risk of churn for specific customers to improve revenue and reduce cost.
 
   Within the experience, you can configure the definition of churn as a time-based window specific to your business. For example, a video streaming business that has a monthly subscription process might want to consider a customer to have churned after 15 days after the expiration of their subscription.
 
-  As you continue through the prediction, we'll guide you through what data is needed, and enable you to map data about your business to fields required to predict churn for your customers. As business information changes, you can also set a schedule to retrain on new information in your system to adapt to changing business circumstances.
-
+  As you continue through the prediction, we'll guide you through what data is needed, and enable you to map data about your business to fields required to predict churn for your customers. As business information changes, you can also set a schedule to retrain on new information in your system to adapt to changing business circumstances.    
   For more information, see [Subscription churn prediction (preview)](predict-subscription-churn.md).
 
 #### Segments
@@ -91,16 +90,14 @@ The Dynamics 365 Customer Insights updates in June 2020 includes several feature
   
   Find similar customers in your customer base using artificial intelligence. A binary classification machine learning model assigns a similarity score to customers in the expanded segment. The score is based on the similarity to customers in the source segment. Depending on the similarity score, customer profiles are added to a newly created segment.
 
-  Sometimes referred to as lookalike modeling in digital marketing, it uses an AI model to help find customers who are similar to another segment of your customers by factoring in additional attributes. It not only allows you to pick the attributes but also allows you to specify the maximum number of customers who should be in this new segment. The AI model will then compute similarity scores for each customer based on your selected attributes and find customers with the higher average similarity score. The resulting segment will include customers who look similar to the customer in your original segment.
-
+  Sometimes referred to as lookalike modeling in digital marketing, it uses an AI model to help find customers who are similar to another segment of your customers by factoring in additional attributes. It not only allows you to pick the attributes but also allows you to specify the maximum number of customers who should be in this new segment. The AI model will then compute similarity scores for each customer based on your selected attributes and find customers with the higher average similarity score. The resulting segment will include customers who look similar to the customer in your original segment.    
   For more information, see [Similar Customers](find-similar-customer-segments.md).
 
 - **Segment overlap and differentiators**
 
-  Segment overlap lets you see how many and which customers are common to two or more segments. For example, how a high-spenders segment overlaps with a high-satisfaction customers segment or how a churning customers segment overlaps with a low-satisfaction customers segment. Additionally, you can analyze how the overlap changes based on an additional attribute of your choice.
+  Segment overlap lets you see how many and which customers are common to two or more segments. For example, how a high-spenders segment overlaps with a high-satisfaction customers segment or how a churning customer segment overlaps with a low-satisfaction customers segment. Additionally, you can analyze how the overlap changes based on an additional attribute of your choice.
 
-  Segment differentiators reveal what differentiates one segment from the rest of your customers or from another segment. All you need to do is identify a segment and the system will identify profile attributes and measures that distinguish the segment in the form of a ranked list of differentiators—from the strongest differentiator to the weakest.
-
+  Segment differentiators reveal what differentiates one segment from the rest of your customers or from another segment. All you need to do is identify a segment and the system will identify profile attributes and measures that distinguish the segment in the form of a ranked list of differentiators—from the strongest differentiator to the weakest.    
   For more information, see [Segment insights (preview)](segment-insights.md).
 
 - **Segment lifetime**
