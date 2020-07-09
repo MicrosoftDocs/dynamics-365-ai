@@ -36,6 +36,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 > 3. In the **General** tab, under **Data Services** section, verify that the **Change Tracking** option is enabled.
 ><br>
 >Also, ensure that you do not delete the **Sales Insights MDL Config** solution from the solutions. If deleted, the Sales Insights features give inaccurate results and might be disabled. 
+> However, if you wish to delete the **Sales Insights MDL Config** solution due to storage issues, unistall the **SalesInsightsAddOn** solution too. This esures that the **Sales Insights MDL Config** solution will not install automitacally when future updates are pushed to your organization. 
 
 ## Enable and configure free Sales Insights features
 
