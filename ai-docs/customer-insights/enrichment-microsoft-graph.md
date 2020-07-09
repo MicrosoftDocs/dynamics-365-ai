@@ -43,9 +43,6 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
   To select a country, open the **Brands enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Choosing a country](media/choose-country.png "Choosing a country")
-
 - **Interests** are currently only available for the United States.
 
 ### Implications related to country selection
