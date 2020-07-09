@@ -1,7 +1,7 @@
 ---
-title: "Enrich customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
+title: "Enrich customer profiles with Microsoft Graph in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 04/29/2020
+ms.date: 07/09/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -39,7 +39,7 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 ## Supported countries/regions
 
-- For **Brands** you can select one of the following options: Australia, Canada (English), France, Germany, United Kingdom or United States (English).
+- For **Brands** you can select one of the following options: Australia, Canada (English), France, Germany, United Kingdom, or United States (English).
 
   To select a country, open the **Brands enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
 
@@ -50,7 +50,7 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 ### Implications related to country selection
 
-- When [choosing your own brands brands](#define-your-brands-or-interests), we will provide suggestions based on the selected country/region.
+- When [choosing your own brands](#define-your-brands-or-interests), we will provide suggestions based on the selected country/region.
 
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
@@ -62,12 +62,12 @@ Configuring brands or interests enrichment consists of two steps:
 
 ### Define your brands or interests
 
-   Select one of the following options:
+Select one of the following options:
 
-   - **Industry**: The system identifies the top brands or interests relevant to your industry and enriches your customer data with them.
-   - **Choose your own**: Select up to five items from the list of brands or interests that are most relevant to your organization.
+- **Industry**: The system identifies the top brands or interests relevant to your industry and enriches your customer data with them.
+- **Choose your own**: Select up to five items from the list of brands or interests that are most relevant to your organization.
 
-   To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
+To add a brand or interest, enter it in the input area to get suggestions based on matching terms. If we don't list a brand or interest you're looking for, send us feedback using the **Suggest** link.
 
 ### Map your fields
 
@@ -79,16 +79,15 @@ The following formats and values are supported, values are not case-sensitive:
 - **Gender**: Male, Female, Unknown
 - **Postal code**: five-digit ZIP Codes for US, standard postal code everywhere else
 - **City**: city name in English
-- **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany or the UK.
-- **Country/Region**: country name in English.
-  The following variations are supported:
+- **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany, or the UK.
+- **Country/Region**:
 
   - US: United States of America, United States, USA, US, America
   - CA: Canada, CA
   - GB: United Kingdom, UK, Great Britain, GB, United Kingdom of Great Britain and Northern Ireland, United Kingdom of Great Britain
-  - AU : Australia, AU, Common Wealth of Australia
-  - FR : France, FR, French Republic
-  - DE : Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
+  - AU: Australia, AU, Common Wealth of Australia
+  - FR: France, FR, French Republic
+  - DE: Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
 ## Run enrichment
 
