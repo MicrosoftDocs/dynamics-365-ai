@@ -52,7 +52,7 @@
     - name: Build relationships and connected entities
       href: relationships.md
     - name: List customer activities
-    href: activities.md
+      href: activities.md
 
 - name: Data enrichment
   items: 
