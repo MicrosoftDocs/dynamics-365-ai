@@ -51,8 +51,8 @@
       href: search-filter-index.md
     - name: Build relationships and connected entities
       href: relationships.md
-    - name: Implement custom machine learning models
-      href: custom-models.md
+    - name: List customer activities
+    href: activities.md
 
 - name: Data enrichment
   items: 
@@ -80,8 +80,11 @@
     href: predictions.md
   - name: Predict subscription churn
     href: predict-subscription-churn.md
-  - name: List customer activities
-    href: activities.md
+  - name: Implement custom machine learning models
+    href: custom-models.md
+  - name: Experiments with Azure Machine learning
+    href: azure-machine-learning-experiments.md
+
 
 - name: Export options
   items: 

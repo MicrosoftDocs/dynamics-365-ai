@@ -1,7 +1,7 @@
 ---
 title: "Azure Machine Learning experiments in Customer Insights | Microsoft Docs"
 description: "Use Azure Machine Learning-based custom models in Dynamics 365 Customer Insights."
-ms.date: 07/01/2020
+ms.date: 07/09/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
