@@ -244,7 +244,7 @@ For example, the accuracy of a retrained model is good and this indicates that t
 
 ## Add the opportunity scoring widget to a form
 
-By default, the predictive opportunity scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for opportunities, you can display the predictive opportunity scoring widget on your custom forms by following these steps.
+By default, the predictive opportunity scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for opportunities, you can display the predictive opportunity scoring widget on your custom forms by following these steps..
 
 > [!NOTE]
 > Adding opportunity scoring widgets is only supported in Unified Interface apps.
@@ -258,7 +258,7 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 2. Select **Settings** > **Customizations** > **Customize the System**.
 
-3. In the solution explorer under **Components**, expand **Entities**, and then select **Opportunity** > **Forms**.
+3. In the solution explorer, under **Components**, expand **Entities**, and then select **Opportunity** > **Forms**.
 
 4. Select and open the form to which you want to add the widget.
 

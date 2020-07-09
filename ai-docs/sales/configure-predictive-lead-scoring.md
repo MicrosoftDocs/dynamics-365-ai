@@ -243,7 +243,7 @@ For example, the accuracy of a retrained model is good and this indicates that t
 
 ## Add the lead scoring widget to a form
 
-By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for leads, you can display the predictive lead scoring widget on your custom forms by following these steps.<!--Suggested.-->
+By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for leads, you can display the predictive lead scoring widget on your custom forms by following these steps.
 
 > [!NOTE]
 > Adding lead scoring widgets is only supported in Unified Interface apps.
@@ -257,14 +257,14 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 2. Select **Settings** > **Customizations** > **Customize the System**.
 
-3. In the solution explorer under **Components**, expand **Entities**, and then select **Lead** > **Forms**.
+3. In the solution explorer, under **Components**, expand **Entities**, and then select **Lead** > **Forms**.
 
 4. Select and open the form to which you want to add the widget.
 
     > [!div class="mx-imgBorder"]  
     > ![Select a form](media/pls-select-form.png "Select a form")
 
-5. In the **Field Explorer** pane, clear the **Only show unused fields** check box.<!--Edit okay? It looks like a check box in the image.-->
+5. In the **Field Explorer** pane, clear the **Only show unused fields** check box.
 
     > [!div class="mx-imgBorder"]  
     > ![Clear the Only show unused fields check box](media/pls-clear-selection-show-unused-fields.png "Clear the Only show unused fields check box")
@@ -276,7 +276,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 7. Double-click the **Lead Score** field and open the **Field Properties** dialog box.
 
-8. On the **Display** tab, in the **Label** section,<!--Or it could be "...under **Label**..."-->, clear the **Display label on the form** check box.
+8. On the **Display** tab, in the **Label** section, clear the **Display label on the form** check box.
 
     > [!div class="mx-imgBorder"]  
     > ![Clear the Display label on the form check box](media/pls-clear-selection-display-label.png "Clear the Display label on the form check box")
