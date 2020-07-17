@@ -36,7 +36,7 @@ The assistant displays cards in the following categories:
 The following cards are available under **Upcoming meetings**.
 
 >[!NOTE]
->The standard insight card types are available to you with Sales Enterprise license.
+>The standard insight card types are available to you with the Sales Enterprise license.
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:hidden;border-width:1px;overflow:hidden;word-break:normal;}
@@ -68,8 +68,8 @@ The following cards are available under **Upcoming meetings**.
 The following cards are available under **Reminders**.
 
 >[!NOTE]
->- The standard insight card types are available to you with Sales Enterprise license.
->- The premium insight card types are available to you with Sales Insights license. 
+>- The standard insight card types are available to you with the Sales Enterprise license.
+>- The premium insight card types are available to you with the Sales Insights license. 
 
 
 <style type="text/css">
@@ -113,9 +113,9 @@ The following cards are available under **Reminders**.
 The following cards are available under **Insights**.
 
 >[!NOTE]
->- The standard insight card types are available to you with Sales Enterprise license.
->- The premium insight card types are available to you with Sales Insights license. 
->- The premium insight card types that get data from LinkedIn requires Sales Navigator license.
+>- The standard insight card types are available to you with the Sales Enterprise license.
+>- The premium insight card types are available to you with the Sales Insights license. 
+>- The premium insight card types that get data from LinkedIn requires the Sales Navigator license.
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
