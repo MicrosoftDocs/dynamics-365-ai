@@ -36,7 +36,7 @@ The assistant displays cards in the following categories:
 The following cards are available under **Upcoming meetings**.
 
 >[!NOTE]
-> Premium insight card types require a Sales Insights or Sales Navigator license. 
+>The standard insight card types are available to you with Sales Enterprise license.
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:hidden;border-width:1px;overflow:hidden;word-break:normal;}
@@ -68,7 +68,9 @@ The following cards are available under **Upcoming meetings**.
 The following cards are available under **Reminders**.
 
 >[!NOTE]
-> Premium insight card types require a Sales Insights or Sales Navigator license. 
+>- The standard insight card types are available to you with Sales Enterprise license.
+>- The premium insight card types are available to you with Sales Insights license. 
+
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:hidden;border-width:1px;overflow:hidden;word-break:normal;}
@@ -111,7 +113,9 @@ The following cards are available under **Reminders**.
 The following cards are available under **Insights**.
 
 >[!NOTE]
-> Premium insight card types require a Sales Insights or Sales Navigator license. 
+>- The standard insight card types are available to you with Sales Enterprise license.
+>- The premium insight card types are available to you with Sales Insights license. 
+>- The premium insight card types that get data from LinkedIn requires Sales Navigator license.
 
 <style type="text/css">
 .tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
@@ -153,7 +157,7 @@ The following cards are available under **Insights**.
 |Insight card	| Type | Description |
 |-------------|------|-------------|
 |<a name="OpportunityRiskSentiment"></a>**Opportunity at Risk (sentiment detection)** <br />![Insight card for Opportunity at risk sentiment](media/ActionCard_OpportunityRiskSentiment.png "Insight card for Opportunity at Risk sentiment") |  Standard | **Description**: Tell you that when an email is received concerning an open opportunity with negative sentiment which can put the opportunity at risk.<br>**Actions**:<br>Open Email<br>Open opportunity.|
-|<a name="OpportunityRiskPhrase"></a>**Opportunity at Risk (phrase detection)** <br />![Insight card for Opportunity at risk phrase detection](media/ActionCard_OpportunityRiskPhraseDetection.png "Insight card for Opportunity at Risk phrase detection") | Standard | **Description**: Tell you that when an email is received concerning an open opportunity contains a phrase about about legal, delays, or budget issues which can put the opportunity at risk.<br>**Actions**:<br>Open Email<br>Open opportunity.|
+|<a name="OpportunityRiskPhrase"></a>**Opportunity at Risk (phrase detection)** <br />![Insight card for Opportunity at risk phrase detection](media/ActionCard_OpportunityRiskPhraseDetection.png "Insight card for Opportunity at Risk phrase detection") | Standard | **Description**: Tell you that when an email is received concerning an open opportunity contains a phrase about legal, delays, or budget issues which can put the opportunity at risk.<br>**Actions**:<br>Open Email<br>Open opportunity.|
 | <a name="CompetitorMentioned"></a>**Competitor mentioned** <br/>![Insight card for competitor mentioned](media/ActionCard_CompetitorMentioned.png "Insight card for competitor mentioned") |  Standard | **Description**: <br> A tracked email that is set as regarding a sales opportunity appears to refer to a company that is listed as a competitor in your system..<br>**Actions**:<br>Add Competitor<br>Always Add<br>**Configuration options**:<br>Set this feature to add the competitor automatically rather than showing the card.<br>**Note**: This is the same as the configuration setting available for this card type, and you can reset it by going to your Assistant settings. To learn more, see [Assistant](assistant.md). |
 | <a name="IssueDetected"></a>**Issue detected** <br/>![Insight card for case detected](media/ActionCard_CaseDetection.png "Insight card for case detected") | Standard |  **Description**: <br>An email from a known contact in your inbox appears to include a support request.<br>**Features**:<br>Shows the name of the contact.<br>Tells you that an email that appears to include a support request has arrived.<br>Displays the sentence from the email that appears to be asking for help.<br>**Actions**: <br>Create Case<br>Open Email |
 | <a name="CustomerQuestion"></a>**Customer question** <br/>![Insight card for yes/no request](media/ActionCard_YesNoRequest.png "Insight card for yes/no request") | Standard |**Description**:<br>An email from a known contact in your inbox appears to be asking a question.<br>**Features**:<br>Shows the name of the contact.<br>Tells you that a question has arrived.<br>Displays the sentence from the email that appears to be asking a simple question.<br>**Actions**:<br>Open Email|
