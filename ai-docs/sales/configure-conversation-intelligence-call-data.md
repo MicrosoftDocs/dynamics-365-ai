@@ -103,7 +103,7 @@ You must upload the call recording the the created call recording repository (bl
   | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
   | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
   | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
-  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. |
+  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False.If the value is set as True, the call will not be processed. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
   | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
