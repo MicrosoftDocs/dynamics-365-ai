@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles with Microsoft Graph in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 07/09/2020
+ms.date: 07/21/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -44,11 +44,9 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 ## Supported countries/regions
 
-- For **Brands** you can select one of the following options: Australia, Canada (English), France, Germany, United Kingdom, or United States (English).
+- For **Brands** and **Interests** you can select one of the following options: Australia, Canada (English), France, Germany, United Kingdom, or United States (English).
 
-  To select a country, open the **Brands enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
-
-- **Interests** are currently only available for the United States.
+  To select a country, open the **Brands enrichment** or **Interest enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
 
 ### Implications related to country selection
 
