@@ -1,5 +1,5 @@
 ---
-title: "Export Customer Insights data to FAcebook Ads Manager | Microsoft Docs"
+title: "Export Customer Insights data to Facebook Ads Manager | Microsoft Docs"
 description: "Learn how to configure the connection to Facebook Ads Manager."
 ms.date: 06/05/2020
 ms.reviewer: philk
