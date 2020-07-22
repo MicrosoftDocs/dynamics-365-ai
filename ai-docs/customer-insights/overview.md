@@ -30,8 +30,6 @@ Dynamics 365 Customer Insights helps you build a deeper understanding of your cu
 > - Video: [Microsoft Dynamics 365 Customers Insights product demo](https://www.youtube.com/watch?v=yayYM7cc3LU)
 > - Video: [Dynamics 365 Customer Insights demo](https://www.youtube.com/watch?v=JDaajD_TXNQ&feature=youtu.be)
 
-**Customer Insights enables every organization to unify and understand their customer data to harness it for intelligent insights and actions.**
-
 With Customer Insights, organizations can:  
 
 - **Eliminate data silos and unify customer data**
