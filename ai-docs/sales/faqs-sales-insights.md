@@ -27,21 +27,68 @@ topic-status: Drafting
 **In which region is Sales Insights available?**<br>
 Sales insights is available in the following regions:
 
--    Asia Pacific (APJ)
--    Canada (CAN)
--    Europe, the Middle East, and Africa (EMEA)
--    Great Britain (GBR)
--    India (IND)
--    Japan (JPN)
--    North American (NAM)
--    Oceania (OCE)
+<table>
 
-The following are the limitations with region availability:
+<tr>
+<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JAP</th><th>OCE</th><th>SAM</th><th>FRA</th><th>UAE</th><th>SA</th><th>GCC</th>
+</tr>
 
-- All Sales Insights features are not available on Government Community Cloud (GCC).
-- For relationship analytics, support for Exchange online is available only in North American (NAM) and Europe, the Middle East, and Africa (EMEA).
-- Who knows whom is currently available only in North American (NAM).
-- Premium forecasting is not available in France and India.
+<tr>
+<td>Assistant</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Sales accelerator</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Conversation intelligence</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Auto capture</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Notes analysis</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Relationship analytics</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Who knows whom</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Talking points</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Predictive lead scoring</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Predictive opportunity scoring</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr>
+<td>Premium forecasting</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+</tr>
+
+<tr><td></td></tr>
+
+<tr>
+<td>Legend</td><td style="background: rgb(0,255,0);"></td><td>Available</td><td style="background: rgb(255,0,0);"></td><td>Not available</td>
+</tr>
+
+</table>
+
+
+
+>[!NOTE]
+>For relationship analytics, support for Exchange online is available only in North American (NAM) and Europe, the Middle East, and Africa (EMEA).
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:<br>
