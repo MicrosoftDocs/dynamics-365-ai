@@ -38,14 +38,25 @@ To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365
 
 **In which region is Sales Insights available?**<br>
 Sales insights is available in the following regions:<br>
--    Asia Pacific (APJ)
--    Canada (CAN)
--    Europe, the Middle East, and Africa (EMEA)
--    Great Britain (GBR)
--    India (IND)
--    Japan (JPN)
--    North American (NAM)
--    Oceania (OCE)
+
+>[!NOTE]
+>Sales Insights features are not available on Government Community Cloud (GCC).
+
+| Feature | Region availablility |
+|---------|----------------------|
+|Assistant and premium assistant|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Email engagement|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Auto capture and premium auto capture|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Notes analysis|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Relationship analytics|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)<br>**Note**: Support for Exchange online is available only in North American (NAM) and Europe, the Middle East, and Africa (EMEA).|
+|Talking points|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Who knows Whom|North American (NAM)|
+|Predictive lead scoring|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Predictive opportunity scoring|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Premium forecasting|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)<br>**Note**: Premium forecasting is not available in France and India.|
+|Sales Accelerator and sequences|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|Conversation intelligence|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
+|The assistant application for Teams|Asia Pacific (APJ)<br>Canada (CAN)<br>Europe, the Middle East, and Africa (EMEA)<br>Great Britain (GBR)<br>India (IND)<br>Japan (JPN)<br>North American (NAM)<br>Oceania (OCE)|
 
 **How do I extend the trial period of Sales Insights?**
 
