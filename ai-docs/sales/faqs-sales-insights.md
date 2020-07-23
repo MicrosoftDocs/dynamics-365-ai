@@ -27,13 +27,13 @@ topic-status: Drafting
 **In which region is Sales Insights available?**<br>
 Sales insights is available in the following regions:
 
-<table>
+<table  border="2" bordercolor="#808080">
 
 <tr>
 <th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JAP</th><th>OCE</th><th>SAM</th><th>FRA</th><th>UAE</th><th>SA</th><th>GCC</th>
 </tr>
 <tr>
-<td>Assistant</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Assistant</td><td style="background: rgb(0,255,0);"> . </td><td style="background: rgb(0,255,0);"> . </td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
 <tr>
 <td>Sales accelerator</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
@@ -65,9 +65,11 @@ Sales insights is available in the following regions:
 <tr>
 <td>Premium forecasting</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
+
 <tr>
-<td></td><td></td><td></td><td></td><td></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td>
+<td></td>
 </tr>
+
 <tr>
 <td>Legend</td><td style="background: rgb(0,255,0);"></td><td>Available</td><td style="background: rgb(255,0,0);"></td><td>Not available</td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td>
 </tr>
