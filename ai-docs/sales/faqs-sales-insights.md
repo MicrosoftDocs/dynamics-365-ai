@@ -33,7 +33,7 @@ Sales insights is available in the following regions:
 -    Great Britain (GBR)
 -    India (IND)
 -    Japan (JPN)
--    North American (NAM)
+-    North America (NAM)
 -    Oceania (OCE)
 
 >[!NOTE]
