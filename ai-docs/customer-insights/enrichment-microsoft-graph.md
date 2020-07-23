@@ -44,9 +44,9 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 ## Supported countries/regions
 
-- For **Brands** and **Interests** you can select one of the following options: Australia, Canada (English), France, Germany, United Kingdom, or United States (English).
+We currently support the following country/region options: Australia, Canada (English), France, Germany, United Kingdom, or United States (English).
 
-  To select a country, open the **Brands enrichment** or **Interest enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
+To select a country, open the **Brands enrichment** or **Interest enrichment** and select **Change** next to **Country/Region**. In the **Country/Region settings** pane, choose an option and select **Apply**.
 
 ### Implications related to country selection
 
@@ -54,7 +54,7 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
-- When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
+- When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands and interests, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
 
 ## Configure Enrichment
 
