@@ -27,59 +27,65 @@ topic-status: Drafting
 **In which region is Sales Insights available?**<br>
 Sales insights is available in the following regions:
 
-<table border="1" bordercolor="#808080">
+-    Asia Pacific (APJ)
+-    Canada (CAN)
+-    Europe, the Middle East, and Africa (EMEA)
+-    Great Britain (GBR)
+-    India (IND)
+-    Japan (JPN)
+-    North American (NAM)
+-    Oceania (OCE)
+
+>[!NOTE]
+>Sales Insights is not available on Government Community Cloud (GCC).
+
+**In which region is the features available?**<br>
+Sales insights features are available in the following regions:
+
+<table>
 
 <tr>
-<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JAP</th><th>OCE</th><th>SAM</th><th>FRA</th><th>UAE</th><th>SA</th><th>GCC</th>
+<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JAP</th><th>OCE</th><th>SAM</th><th>FRA</th><th>UAE</th><th>SA</th>
 </tr>
 <tr>
-<td>Assistant</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(0,255,0);">Yes</td><td style="background: rgb(255,0,0);">No</td><td style="background: rgb(255,0,0);">No</td><td style="background: rgb(255,0,0);">No</td><td style="background: rgb(255,0,0);">No</td><td style="background: rgb(255,0,0);">No</td>
+<td>Assistant</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Sales accelerator</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Sales accelerator</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Conversation intelligence</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Conversation intelligence</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Auto capture</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Auto capture</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Notes analysis</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Notes analysis</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Relationship analytics</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Relationship analytics</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Who knows whom</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Who knows whom</td><td style="text-align:center"><span><b>&#x2714;</b></span></td>
+<td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Talking points</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Talking points</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Predictive lead scoring</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Predictive lead scoring</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Predictive opportunity scoring</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
+<td>Predictive opportunity scoring</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Premium forecasting</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
-</tr>
-
-<tr>
-<td></td>
-</tr>
-
-<tr>
-<td>Legend</td><td style="background: rgb(0,255,0);"></td><td>Available</td><td style="background: rgb(255,0,0);"></td><td>Not available</td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td>
+<td>Premium forecasting</td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><span><b>&#x2714;</b></span></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 
 </table>
 
-
-
 >[!NOTE]
->For relationship analytics, support for Exchange online is available only in North American (NAM) and Europe, the Middle East, and Africa (EMEA).
+>For relationship analytics, support for Exchange online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:<br>
