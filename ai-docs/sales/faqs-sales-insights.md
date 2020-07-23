@@ -32,55 +32,44 @@ Sales insights is available in the following regions:
 <tr>
 <th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JAP</th><th>OCE</th><th>SAM</th><th>FRA</th><th>UAE</th><th>SA</th><th>GCC</th>
 </tr>
-
 <tr>
 <td>Assistant</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Sales accelerator</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Conversation intelligence</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Auto capture</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Notes analysis</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Relationship analytics</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Who knows whom</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Talking points</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Predictive lead scoring</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Predictive opportunity scoring</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
 <tr>
 <td>Premium forecasting</td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(0,255,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td><td style="background: rgb(255,0,0);"></td>
 </tr>
-
-<tr><td></td></tr>
-
 <tr>
-<td>Legend</td><td style="background: rgb(0,255,0);"></td><td>Available</td><td style="background: rgb(255,0,0);"></td><td>Not available</td>
+<td></td><td></td><td></td><td></td><td></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td>
+</tr>
+<tr>
+<td>Legend</td><td style="background: rgb(0,255,0);"></td><td>Available</td><td style="background: rgb(255,0,0);"></td><td>Not available</td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td><tr></td>
 </tr>
 
 </table>
