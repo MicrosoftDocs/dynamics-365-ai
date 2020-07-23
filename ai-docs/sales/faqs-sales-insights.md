@@ -24,8 +24,70 @@ topic-status: Drafting
 
 ## General
 
+**In which region is Sales Insights available?**<br>
+Sales insights is available in the following regions:
+
+-    Asia Pacific (APJ)
+-    Canada (CAN)
+-    Europe, the Middle East, and Africa (EMEA)
+-    Great Britain (GBR)
+-    India (IND)
+-    Japan (JPN)
+-    North America (NAM)
+-    Oceania (OCE)
+
+>[!NOTE]
+>Sales Insights is not available on Government Community Cloud (GCC).
+
+**In which region is the features available?**<br>
+Sales insights features are available in the following regions:
+
+<table>
+
+<tr>
+<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JPN</th><th>OCE</th><th>SAM</th>
+</tr>
+<tr>
+<td>Assistant</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Sales accelerator</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Conversation intelligence</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td>
+</tr>
+<tr>
+<td>Auto capture</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Notes analysis</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Relationship analytics</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Who knows whom</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span</td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Talking points</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Predictive lead scoring</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Predictive opportunity scoring</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+<tr>
+<td>Premium forecasting</td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#3D9140;"><b>&#x2714;</b></span></td><td style="text-align:center"><span style = "color:#FF0800;"><b>&#x2716;</b></span></td>
+</tr>
+
+</table>
+
+>[!NOTE]
+>For relationship analytics, support for Exchange online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
+
 **What languages are supported now?**<br>
-Sales insights supports the following languages:<br>
+Sales insights support the following languages:<br>
 
 | Feature | Language supported |
 |---------|--------------------|
@@ -35,17 +97,6 @@ Sales insights supports the following languages:<br>
 | Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), and Spanish. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
-
-**In which region is Sales Insights available?**<br>
-Sales insights is available in the following regions:<br>
--    Asia Pacific (APJ)
--    Canada (CAN)
--    Europe, the Middle East, and Africa (EMEA)
--    Great Britain (GBR)
--    India (IND)
--    Japan (JPN)
--    North American (NAM)
--    Oceania (OCE)
 
 **How do I extend the trial period of Sales Insights?**
 
