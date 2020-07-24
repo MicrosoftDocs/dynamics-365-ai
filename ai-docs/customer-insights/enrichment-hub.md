@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use capabilities to enrich your customer data in Dynamics 365 Customer Insights."
-ms.date: 05/25/2020
+ms.date: 07/24/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -26,3 +26,15 @@ On the **Discover** tab, you'll find the following enrichments:
 - [Company data provided by Leadspace](enrichment-leadspace.md)
 
 On the **My enrichments** tab, you can see the enrichments you've configured and edit their properties.
+
+## Manage existing enrichments
+
+Go to the **My enrichments** to see all configured enrichments. Each enrichment is represented as a row that includes additional information about the enrichment. 
+
+Select an enrichment to see the following options: 
+
+- View
+- Edit
+- Refresh
+- Deactivate (or Activate)
+- Delete
