@@ -18,7 +18,7 @@ Bring unified customer profiles into your personalized apps with Power Apps.
 
 Customer Insights is one of the many [available sources for data in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources).
 
-Refer to the Power Apps documentation to learn how to [add a data connection to an app](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection).
+Refer to the Power Apps documentation to learn how to [add a data connection to an app](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection). We recommend you review how [delegation in Power Apps handles large data sets](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview).
 
 ## Available entities
 
