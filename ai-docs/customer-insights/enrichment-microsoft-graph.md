@@ -91,9 +91,9 @@ The following formats and values are supported, values are not case-sensitive:
   - FR: France, FR, French Republic
   - DE: Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
-## Run enrichment
+## Refresh enrichment
 
-Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Refresh** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 > [!TIP]
