@@ -31,10 +31,10 @@ On the **My enrichments** tab, you can see the enrichments you've configured and
 
 Go to the **My enrichments** to see all configured enrichments. Each enrichment is represented as a row that includes additional information about the enrichment. 
 
-Select an enrichment to see the following options: 
+Select an enrichment to see the following options:
 
-- View
-- Edit
-- Refresh
-- Deactivate (or Activate)
-- Delete
+- **View** enrichment details with the number of enriched customer profiles.
+- **Edit** the enrichment configuration.
+- **Refresh** the enrichment to update customer profiles with the latest data.
+- **Deactivate** an existing enrichment to stop it from refreshing automatically with every scheduled refresh. Data from the last successful refresh will continue to be available. **Activate** an inactive enrichment to restart a scheduled refresh.
+- **Delete** the enrichment. Before you can delete an enrichment, you need to remove all dependencies (for example segments or measures based on enriched data). All enrichment data will be removed from customer profiles.
