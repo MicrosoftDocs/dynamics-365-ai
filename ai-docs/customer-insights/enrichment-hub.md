@@ -31,7 +31,9 @@ On the **My enrichments** tab, you can see the enrichments you've configured and
 
 Go to the **My enrichments** to see all configured enrichments. Each enrichment is represented as a row that includes additional information about the enrichment. 
 
-Select an enrichment to see the following options:
+Select an enrichment to see the available options.
+
+:::image type="content" source="media/enrichment-hub-options.png" alt-text="Options to manage enrichments in the list of enrichments":::
 
 - **View** enrichment details with the number of enriched customer profiles.
 - **Edit** the enrichment configuration.
