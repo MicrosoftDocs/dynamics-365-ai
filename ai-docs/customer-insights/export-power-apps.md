@@ -1,7 +1,7 @@
 ---
 title: "Power Apps connector | Microsoft Docs"
 description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
-ms.date: 04/22/2020
+ms.date: 07/24/2020
 ms.reviewer: nikeller
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -18,7 +18,7 @@ Bring unified customer profiles into your personalized apps with Power Apps.
 
 Customer Insights is one of the many [available sources for data in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources).
 
-Refer to the Power Apps documentation to learn how to [add a data connection to an app](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection).
+Refer to the Power Apps documentation to learn how to [add a data connection to an app](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection). We recommend you also review [how Power Apps uses delegation to handle large datasets in Canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview).
 
 ## Available entities
 
