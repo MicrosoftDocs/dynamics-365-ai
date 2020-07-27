@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles with Microsoft Graph in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 07/09/2020
+ms.date: 07/27/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -77,11 +77,11 @@ Map fields from your unified customer entity to at least two attributes to defin
 
 The following formats and values are supported, values are not case-sensitive:
 
-- **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
+- **Date of Birth**: We recommend that date of birth is converted to DateTime type during data ingestion. Alternatively, it can be a string in format "yyyy-MM-dd".
 - **Gender**: Male, Female, Unknown
-- **Postal code**: five-digit ZIP Codes for US, standard postal code everywhere else
-- **City**: city name in English
-- **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany, or the UK.
+- **Postal code**: Five-digit ZIP Codes for US, standard postal code everywhere else
+- **City**: City name in English
+- **State/Province**: Two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany, or the UK.
 - **Country/Region**:
 
   - US: United States of America, United States, USA, US, America
