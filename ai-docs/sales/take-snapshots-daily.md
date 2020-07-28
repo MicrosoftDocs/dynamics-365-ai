@@ -39,6 +39,6 @@ To enable the snapshots, follow these steps:
 
 ### See also
 
-[View snapshot history](view-snapshots-history.md)
+[View snapshot history](view-snapshot-history.md)
 
 [Analyze deal flows between dates](analyze-deal-flows.md)
