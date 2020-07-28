@@ -9,7 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Take snapshots daily
+# Take snapshot daily
 
 <!-- Early access preview note will be added here -->
 
@@ -39,6 +39,6 @@ To enable the snapshots, follow these steps:
 
 ### See also
 
-[View snapshots history](view-snapshots-history.md)
+[View snapshot history](view-snapshots-history.md)
 
 [Analyze deal flows between dates](analyze-deal-flows.md)

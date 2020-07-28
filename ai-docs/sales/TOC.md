@@ -84,7 +84,7 @@
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 #### [Analyze deal flows between dates](analyze-deal-flows.md)
 #### [View snapshots](view-snapshots.md)
-#### [View snapshots history](view-snapshots-history.md)
+#### [View snapshot history](view-snapshot-history.md)
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
