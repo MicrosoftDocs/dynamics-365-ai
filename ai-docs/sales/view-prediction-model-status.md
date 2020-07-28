@@ -13,6 +13,7 @@ manager: shujoshi
 
 <!--Early access preview note will be added here-->
 
+
 You can view the details of the prediction model, such as last calculated date and errors in a forecast. After a calculation or recalculation, an icon is displayed corresponding to **Prediction** column in the [Layout configuration step](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast) of a forecast. Based on the icon you can determine whether the model is successful or not.
 
 >[!NOTE]
@@ -32,6 +33,6 @@ When the calculation or recalculation fails, an alert icon is displayed correspo
 > [!div class="mx-imgBorder"]
 > ![Erroneous calculation of prediction model](media/predictive-forecasting-erroneous-model-creation.png "Erroneous calculation of prediction model")
 
-## See also
+### See also
 
 [Premium forecasting](configure-premium-forecasting.md)
