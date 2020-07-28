@@ -82,10 +82,9 @@
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
-#### [Analyze deal flows](analyze-deal-flows.md)
+#### [Analyze deal flows between dates](analyze-deal-flows.md)
 #### [View snapshots](view-snapshots.md)
 #### [View snapshots history](view-snapshots-history.md)
-
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
