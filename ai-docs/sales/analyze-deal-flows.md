@@ -13,7 +13,7 @@ manager: shujoshi
 
 <!-- Early access preview note will be added here -->
 
-The Flow chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus, enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.
+The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus, enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.
 
 Review the following prerequisite before you start using deals flow analysis:
 
@@ -27,7 +27,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
 3.	Select the **Flow** tab.
 
-    A sankey chart is displayed, showing the comparison between the two latest snapshots for the selected forecast.
+    A sankey chart is displayed with a comparison between two latest snapshots for the forecast.
 
     > [!div class="mx-imgBorder"]
     > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
@@ -37,7 +37,7 @@ Review the following prerequisite before you start using deals flow analysis:
     > [!div class="mx-imgBorder"]
     > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")
  
-    After choosing the dates, select **Apply**. The chart is updated to display the deal flow.
+    Select **Apply**. The chart is updated to display the deal flow.
 
     > [!div class="mx-imgBorder"]
     > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    

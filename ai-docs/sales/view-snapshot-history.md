@@ -45,7 +45,7 @@ Viewing a snapshot allows you to see and understand the data of the forecast at 
 4.	To view snapshot on a specific date, select the calendar icon and select the date. The snapshot for that day is displayed.
 
     >[!NOTE]
-    >If a date is inactive, specifies that there is no snapshot available for that date.
+    >If a date is inactive, it specifies that there is no snapshot available for that date.
 
     > [!div class="mx-imgBorder"]
     > ![Select a date to view forecast history](media/predictive-forecasting-snapshot-select-date-forecast-history.png "Select a date to view forecast history")
@@ -63,7 +63,7 @@ For a snapshot, you can view the underlying opportunities of a column or users t
 
 3.	To view the details of an underlying opportunity, under **Actions** column, select the navigate icon corresponding to the opportunity. 
 
-The opportunity is opened in a new tab. The information displayed in the opportunity will be latest and not the information as on the date of snapshot.
+    The opportunity is opened in a new tab. The information displayed in the opportunity will be latest and not the information as on the date of snapshot.
 
 ### See also
 
