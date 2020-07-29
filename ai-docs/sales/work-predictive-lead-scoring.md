@@ -52,6 +52,9 @@ The numbered columns are:
 
 In forms, you can use the **Lead score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the lead attributes and attributes from related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity.
 
+>[!IMPORTANT]
+>If you have opted in for early access of enhanced predictive lead scoring, the lead score widget provides more information on top reasons along with basic information. To learn more, see [Lead score widget in early access](#lead-score-widget-in-early-access).
+
 The following screen displays a typical lead score widget with reasons that are influencing the lead score:
 
 > [!div class="mx-imgBorder"]
