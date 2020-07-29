@@ -77,7 +77,7 @@ Map fields from your unified customer entity to at least two attributes to defin
 
 The following formats and values are supported, values are not case-sensitive:
 
-- **Date of Birth**: We recommend that date of birth is converted to DateTime type during data ingestion. Alternatively, it can be a string in ISO 8601 format "yyyy-MM-dd" or "yyyy-MM-ddTHH:mm:ssZ".
+- **Date of Birth**: We recommend that date of birth is converted to DateTime type during data ingestion. Alternatively, it can be a string in [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format "yyyy-MM-dd" or "yyyy-MM-ddTHH:mm:ssZ".
 - **Gender**: Male, Female, Unknown
 - **Postal code**: Five-digit ZIP Codes for US, standard postal code everywhere else
 - **City**: City name in English
