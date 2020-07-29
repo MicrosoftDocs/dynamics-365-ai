@@ -15,11 +15,11 @@ manager: shujoshi
 
 Earlier, you could take snapshots manually only, and therefore you might miss or doesn’t have necessary sources to take the snapshot at a required point in time. Now, snapshots are taken automatically each day. 
 
-You can enable snapshots while configuring forecasts. When configured for a forecast, the snapshots are taken only for that forecast and you can view deal flows and trend data based on the snapshots.
+You can enable snapshots while configuring forecasts. When enabled, the snapshots are taken daily for that forecast and you can view deal flows and trend data based on the snapshots.
 
 >[!NOTE]
->- Premium forecasting must be enabled.
->- If you disable the snapshot option for a forecast, only the previously taken snapshots are available.    
+>- Premium forecasting must be enabled for snapshot feature.
+>- You can enable or disable snapshot option any time while a forecast active. When disabled, the previously taken snapshots are still available.    
 
 To enable the snapshots, follow these steps:
 
@@ -30,7 +30,7 @@ To enable the snapshots, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Snapshot configuration step](media/predictive-forecasting-snapshot-configuration-step.png "Snapshot configuration step") 
 
-2.	Select to enable the **Daily snapshots** option. The snapshots are automatically taken daily after the forecast is active. Once the forecast is active, snapshots might take few hours to get created.
+2.	Select to enable the **Daily snapshots** option. The snapshots are automatically taken daily after the forecast is active. Once the forecast is active, the initial snapshot might take few hours to generate.
 
     > [!div class="mx-imgBorder"]
     > ![Enable daily snapshot option](media/predictive-forecasting-snapshot-enable-daily.png "Enable daily snapshot option") 
