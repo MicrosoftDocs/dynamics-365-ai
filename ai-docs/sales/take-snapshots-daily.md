@@ -9,27 +9,28 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Take snapshot daily
+# Take snapshots automatically
 
 <!-- Early access preview note will be added here -->
 
-Earlier, premium forecasting lets you take the snapshots manually, and you may forget or doesn’t have necessary sources to take the snapshot at a required point in time. With the early access, predictive forecasting lets you take snapshots automatically. 
+Earlier, you could take snapshots manually only, and therefore you might miss or doesn’t have necessary sources to take the snapshot at a required point in time. Now, snapshots are taken automatically each day. 
 
-When you enable premium forecasting through Sales Insights, the option to enable snapshots is available to you while configuring a forecast. The snapshots are taken only for that forecast and allow you to create deal flows and trend data visualizations.
+You can enable snapshots while configuring forecasts. When configured for a forecast, the snapshots are taken only for that forecast and you can view deal flows and trend data based on the snapshots.
 
 >[!NOTE]
->If you disable the snapshot option, snapshots are not created, and you can’t view deal flows and trend data visualizations for the forecast.
+>- Premium forecasting must be enabled.
+>- If you disable the snapshot option for a forecast, only the previously taken snapshots are available.    
 
 To enable the snapshots, follow these steps:
 
-1.	While configuring a forecast, after the **Filter data** step you're proceeded to the **Snapshots** step. 
+1.	While configuring a forecast, the **Snapshots** step is displayed. 
 
     To learn more on how to create a forecast, see [Configure forecast using custom rollup entity](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast-using-custom-rollup-entity)
  
     > [!div class="mx-imgBorder"]
     > ![Snapshot configuration step](media/predictive-forecasting-snapshot-configuration-step.png "Snapshot configuration step") 
 
-2.	Select to enable the Daily snapshots option to take snapshots daily. The snapshots are automatically taken daily after the forecast is active. For each forecast, automatic snapshots are taken at six-hour time gap and help in proper utilization of application resources that are required to take snapshot.
+2.	Select to enable the **Daily snapshots** option. The snapshots are automatically taken daily after the forecast is active. Once the forecast is active, snapshots might take few hours to get created.
 
     > [!div class="mx-imgBorder"]
     > ![Enable daily snapshot option](media/predictive-forecasting-snapshot-enable-daily.png "Enable daily snapshot option") 

@@ -67,4 +67,4 @@ The opportunity is opened in a new tab. The information displayed in the opportu
 
 ### See also
 
-[Take snapshot daily](take-snapshots-daily.md)
+[Take snapshots automaticlly](take-snapshots-daily.md)

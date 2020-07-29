@@ -57,6 +57,6 @@ To learn more about deal flows and understand the chart, see [Analyze deals flow
 
 ### See also
 
-[Take snapshot daily](take-snapshots-daily.md)
+[Take snapshots automaticlly](take-snapshots-daily.md)
 
 [View snapshot history](view-snapshot-history.md)

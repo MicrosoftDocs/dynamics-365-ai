@@ -34,7 +34,7 @@
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [View prediction model status](view-prediction-model-status.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
-#### [Take snapshots daily](take-snapshots-daily.md)
+#### [Take snapshots automaticlly](take-snapshots-daily.md)
 
 ### Configure Sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
