@@ -60,6 +60,4 @@ To add the application to Microsoft Teams, follow these steps:
 
 [Enable Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams)
 
-[Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
-
 [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
