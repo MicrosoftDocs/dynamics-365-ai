@@ -1,14 +1,14 @@
 ---
 title: "Configure and view your team page in call insights | MicrosoftDocs"
 description: "Configure and view your team page in call insights "
-ms.date: 04/09/2020
-ms.service: crm-online
+ms.date: 07/30/2020
+ms.service: 
+ - dynamics-365-ai
+ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: shujoshi
-caps.latest.revision: 01
-topic-status: Drafting
+author: lalexms
+ms.author: laalexan
+manager: shujoshi 
 ---
 
 # Configure and view your team page
