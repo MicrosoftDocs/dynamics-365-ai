@@ -14,6 +14,9 @@ manager: shujoshi
 
 # Analyze deals flows between snapshots
 
+>[!NOTE]
+>If you have opted in for early access, follow the process as specified in [Analyze deal flow between dates in early access](#analyze-deal-flow-between-dates-in-early-access).
+
 The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.
 
 Review the following prerequisite before you start using deals flow analysis:
