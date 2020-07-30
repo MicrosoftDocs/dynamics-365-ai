@@ -1,0 +1,59 @@
+### YamlMime:Hub
+
+title: Microsoft Dynamics 365 AI apps documentation # < 60 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: m365
+
+metadata:
+  title: Microsoft Dynamics 365 AI apps documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  ms.service: dynamics-365-crossapp #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: KumarVivek #Required; your GitHub user alias, with correct capitalization.
+  ms.author: kvivek #Required; microsoft alias of author; optional team alias.
+  ms.date: 10/31/2018 #Required; mm/dd/yyyy format.
+
+# productDirectory section (optional)
+productDirectory:
+  items:
+    # Card
+    - title: DYNAMICS 365 Customer Insights
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: /dynamics365/images/CustomerInsights_color.svg
+      links:
+        - url: /dynamics365/ai/customer-insights/overview
+          text: Overview
+        - url: /dynamics365/ai/customer-insights/pm-homepage
+          text: Home page
+        - url: /dynamics365/ai/customer-insights/pm-data-manager
+          text: Data Manager
+    # Card
+    - title: DYNAMICS 365 AI FOR Customer Service Insights
+      imageSrc: /dynamics365/images/CustomerServiceInsights_color.svg
+      links:
+        - url: /dynamics365/ai/customer-service-insights/overview
+          text: Overview
+        - url: /dynamics365/ai/customer-service-insights/quickstart
+          text: Quickstart
+        - url: /dynamics365/ai/customer-service-insights/dashboard-overview
+          text: Dashboard overview
+    # Card
+    - title: DYNAMICS 365 AI FOR Market Insights
+      imageSrc: /dynamics365/images/Market_Insights_color.svg
+      links:
+        - url: /dynamics365/ai/market-insights/overview
+          text: Overview
+        - url: /dynamics365/ai/market-insights/get-started
+          text: Get started
+        - url: /dynamics365/ai/market-insights/settings-administration
+          text: Administration
+    # Card
+    - title: DYNAMICS 365 SALES INSIGHTS
+      imageSrc: /dynamics365/images/SalesInsights_color.svg
+      links:
+        - url: /dynamics365/ai/sales/overview
+          text: Overview
+        - url: /dynamics365/ai/sales/dynamics-365-ai-for-sales
+          text: Dynamics 365 Sales Insights capabilities for sellers
+        - url: /dynamics365/ai/sales/dynamics365-sales-insights-app
+          text: Dynamics 365 Sales Insights application
+
