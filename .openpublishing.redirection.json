@@ -889,6 +889,16 @@
       "source_path": "ai-docs/sales/use-bot-assistant.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/assistant-tutorial1.md",
+      "redirect_url": "configure-assistant#assistant-studio-tutorials",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/assistant-tutorial2.md",
+      "redirect_url": "configure-assistant#assistant-studio-tutorials",
+      "redirect_document_id": false
     }
   ]
 }
