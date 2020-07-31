@@ -879,6 +879,16 @@
       "source_path": "ai-docs/customer-insights/power-automate-connector.md",
       "redirect_url": "export-power-automate",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/configure-dynamics-365-bot.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/use-bot-assistant.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
+      "redirect_document_id": false
     }
   ]
 }
