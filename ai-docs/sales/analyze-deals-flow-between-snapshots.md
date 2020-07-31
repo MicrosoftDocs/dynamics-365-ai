@@ -101,7 +101,7 @@ The deals flow of other users that you can see depends on the sales hierarchy de
 
 ## Analyze deal flow between dates in early access
 
-<!-- Early access preview note will be added here -->
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
 The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus, enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.
 
@@ -155,13 +155,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
     You can't edit the opportunities inline. However, in the **Action** column, select the navigate icon corresponding to the opportunity that you want to edit and the opportunity is opened in a browser tab. The saved changes won't affect the status of the opportunity in the snapshot, because the snapshots are taken at a moment in time by using frozen data.
 
-
-
-
-
-
-
-## Whose deals flow am I viewing?
+### Whose deals flow am I viewing?
 
 You can identify whether the selected flow is for a team or an individual by looking at the deals flow heading:
 

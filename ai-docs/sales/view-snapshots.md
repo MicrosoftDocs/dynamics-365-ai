@@ -51,9 +51,9 @@ Viewing a snapshot allows you to see and understand the data of the forecast at 
 
 5.	To go back to the forecast, select **Back to forecast**.
 
-## View snapshot history
+## View snapshot history in early access
 
-<!-- Early access preview note will be added here -->
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
 Viewing a snapshot allows you to see and understand the data of the forecast at that moment in time when it's taken including the underlying opportunities. Also, you can compare and understand the data between your current forecast and snapshot on how the forecast is doing.
 

@@ -92,13 +92,13 @@ The snapshot list is refreshed to display the added snapshot, and you can verify
 
 The snapshot list is refreshed, and the deleted snapshot is removed from the list.
 
-## Take snapshots automatically
+## Take snapshots automatically in early access
 
-<!-- Early access preview note will be added here -->
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
-Earlier, you could take snapshots manually only, and therefore you might miss or doesn’t have necessary sources to take the snapshot at a required point in time. Now, snapshots are taken automatically each day. 
+A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time. 
 
-You can enable snapshots while configuring forecasts. When enabled, the snapshots are taken daily for that forecast and you can view deal flows and trend data based on the snapshots.
+Now, snapshots are taken automatically each day. You can enable snapshots while configuring forecasts. When enabled, the snapshots are taken daily for that forecast and you can view deal flows and trend data based on the snapshots.
 
 >[!NOTE]
 >- Premium forecasting must be enabled for snapshot feature.
