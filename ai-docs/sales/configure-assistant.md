@@ -142,6 +142,12 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
     To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md).
 
+## Assistant studio tutorials
+
+The assistant tutorials are available for you to try and learn how to create custom insight cards using Microsoft Power Automate through low code no code. Using the tutorials, you learn from creating a basic custom insight, a hello world equivalent, and gradually increase the complexity as you go along.
+
+To learn more, see [Assistant studio tutorials for Dynamics 365 Sales Insights](https://docs.microsoft.com/learn/modules/sales-insights-lab/).
+
 ## Disable teasers
 
 The updates in Sales Insights are displayed to sellers  as teasers in the Assistant. By default, the teasers are enabled in your organization. However, you can disable if you don’t wish to display the teasers. To disable, follow these steps:
