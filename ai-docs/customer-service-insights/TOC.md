@@ -68,6 +68,8 @@
 
 ## [Data retention and deletion through Privacy](ci-admin-data-retention-deletion.md)
 
+## [Configure and view your team page](ci-admin-config-team.md)
+
 ## [Analyze overall team performance](ci-team-overview.md)
 
 ## [Analyze agent performance](ci-agent-overview.md)
