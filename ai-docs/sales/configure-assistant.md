@@ -144,7 +144,7 @@ With the new redesigned assistant administration, you can perform tasks that wer
 
 ## Assistant studio tutorials
 
-The assistant tutorials are available for you to try and learn how to create custom insight cards using Microsoft Power Automate through low code no code. Using the tutorials, you learn from creating a basic custom insight, a hello world equivalent, and gradually increase the complexity as you go along.
+The assistant tutorials are available for you to learn and try how to create custom insight cards using Microsoft Power Automate through  minimal or no code. Using the tutorials, you learn from creating a basic custom insight, a hello world equivalent, and gradually increase the complexity as you go along.
 
 To learn more, see [Assistant studio tutorials for Dynamics 365 Sales Insights](https://docs.microsoft.com/learn/modules/sales-insights-lab/).
 
