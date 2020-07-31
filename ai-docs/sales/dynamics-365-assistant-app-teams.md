@@ -53,7 +53,7 @@ To enable and configure the Dynamics 365 assistant application, follow these ste
 
 1. [Review the prerequisites](#prerequisites)
 
-2. [Install the Dynamics 365 assistant application and bot](#install-dynamics-365-assistant-application-and-bot)
+2. [Install the Dynamics 365 assistant application](#install-dynamics-365-assistant-application)
 
 ### Prerequisites
 
@@ -71,20 +71,15 @@ Perform the following prerequisites before setting up and using the sales assist
 
 - Assign **Common Data Service User** role for users to use business cards scan. To learn more, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
-### Install Dynamics 365 assistant application and bot
+### Install Dynamics 365 assistant application
 
-After you have reviewed the prerequisites, configure the Dynamics 365 assistant application and bot for Teams.
+After you have reviewed the prerequisites, configure the Dynamics 365 assistant application for Teams.
 
 - To configure the Dynamics 365 assistant application on Microsoft Teams, see [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md).
 
-- To configure the Dynamics 365 assistant bot, see [Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md).
 
 ### See also
 
 [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
 
-[Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
-
 [Access Dynamics 365 assistant application](access-assistant-application-teams.md)
-
-[Get answers through bot assistant](use-bot-assistant.md)
