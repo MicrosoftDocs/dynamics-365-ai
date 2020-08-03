@@ -300,10 +300,6 @@ Use the **REST** option to invoke REST API.
 
 ### See also
 
-[Tutorial 1: Create Hello World card](assistant-tutorial1.md)
-
-[Tutorial 2: Create a Hello World card for each user in your organization](assistant-tutorial2.md)
-
 [Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
 
 [Edit insight cards](edit-insight-cards.md)
