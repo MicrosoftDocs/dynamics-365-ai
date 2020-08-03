@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use capabilities to enrich your customer data in Dynamics 365 Customer Insights."
-ms.date: 07/27/2020
+ms.date: 08/03/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
