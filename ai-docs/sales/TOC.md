@@ -32,7 +32,6 @@
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [View prediction model status](view-prediction-model-status.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
-#### [Take snapshots automaticlly](take-snapshots-daily.md)
 
 ### Configure Sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
@@ -80,9 +79,8 @@
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
-#### [Analyze deal flows between dates](analyze-deal-flows.md)
 #### [View snapshots](view-snapshots.md)
-#### [View snapshot history](view-snapshot-history.md)
+
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
