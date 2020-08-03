@@ -10,36 +10,35 @@ manager: shujoshi
 ---
 
 # Take snapshots automatically
-
+<!--Do you want to change the title and description to match the H1? (That is, to say "automatically" also?) -->
 <!-- Early access preview note will be added here -->
 
-Earlier, you could take snapshots manually only, and therefore you might miss or doesn’t have necessary sources to take the snapshot at a required point in time. Now, snapshots are taken automatically each day. 
+Earlier, you could only take snapshots manually, and therefore you might have missed&mdash;or lacked necessary sources to take&mdash;a snapshot that you needed. Now, snapshots can be<!--Edit okay?--> taken automatically each day. 
 
 You can enable snapshots while configuring forecasts. When enabled, the snapshots are taken daily for that forecast and you can view deal flows and trend data based on the snapshots.
 
 >[!NOTE]
->- Premium forecasting must be enabled for snapshot feature.
->- You can enable or disable snapshot option any time while a forecast active. When disabled, the previously taken snapshots are still available.    
+>- Premium forecasting must be enabled for the snapshot feature.
+>- You can enable or disable snapshots any time while a forecast active. When disabled, the previously taken snapshots are still available.
 
-To enable the snapshots, follow these steps:
+**To enable snapshots**
 
 1.	While configuring a forecast, the **Snapshots** step is displayed. 
 
-    To learn more on how to create a forecast, see [Configure forecast using custom rollup entity](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast-using-custom-rollup-entity)
+    More information: [Configure forecasts by using a custom rollup entity](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast-using-custom-rollup-entity)
  
     > [!div class="mx-imgBorder"]
     > ![Snapshot configuration step](media/predictive-forecasting-snapshot-configuration-step.png "Snapshot configuration step") 
 
-2.	Select to enable the **Daily snapshots** option. The snapshots are automatically taken daily after the forecast is active. Once the forecast is active, the initial snapshot might take few hours to generate.
+2.	Set the **Daily snapshots** toggle to **Enabled**. After the forecast is active, snapshots are automatically taken daily. The initial snapshot might take a few hours to generate.
 
     > [!div class="mx-imgBorder"]
-    > ![Enable daily snapshot option](media/predictive-forecasting-snapshot-enable-daily.png "Enable daily snapshot option") 
+    > ![Enable daily snapshots](media/predictive-forecasting-snapshot-enable-daily.png "Enable daily snapshots") 
  
 >[!IMPORTANT]
->While configuring columns for a forecast, ensure that each column is unique, and the **Selector** option doesn’t have duplicates. If duplicates exist, an error is displayed stating that snapshots can’t be enabled for the forecast while activating the forecast.
+>While configuring columns for a forecast, ensure that each column is unique and the **Selector** option doesn't have duplicates. If duplicates exist, when you activate the forecast an error will be displayed that states that snapshots can't be enabled for the forecast.
 
 ### See also
 
-[View snapshot history](view-snapshot-history.md)
-
-[Analyze deal flows between dates](analyze-deal-flows.md)
+[View snapshot history](view-snapshot-history.md)  
+[Analyze deal flows between dates](analyze-deal-flows.md)  
