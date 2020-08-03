@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Dynamics 365 assistant app for Teams | MicrosoftDocs"
-description: "Introduction to Dynamics 365 assistant app for Teams"
+title: "Overview of Dynamics 365 assistant app for Teams | MicrosoftDocs"
+description: "An overview of Dynamics 365 assistant app for Teams"
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
