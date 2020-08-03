@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Dynamics 365 assistant app for Teams | MicrosoftDocs"
+title: "Introduction to Dynamics 365 assistant app for Teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Introduction to Dynamics 365 assistant app for Teams"
 keywords: " "
 ms.date: 11/01/2019
