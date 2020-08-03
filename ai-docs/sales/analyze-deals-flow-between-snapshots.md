@@ -101,7 +101,7 @@ The **Flow** chart provides a visual representation of how the forecast changes 
 
 Review the following prerequisite before you start using deals flow analysis:	
 
-- Verify that at least two snapshots have been created for the forecast. To learn more, see [Take snapshot daily](take-snapshots-daily.md).	
+- Verify that at least two snapshots have been created for the forecast. To learn more, see [Take snapshots automatically in early access](manage-snapshots-forecast.md#take-snapshots-automatically-in-early-access).	
 
 **View and understand a deals flow**	
 
