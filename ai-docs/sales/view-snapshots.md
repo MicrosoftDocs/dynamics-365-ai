@@ -15,7 +15,7 @@ manager: shujoshi
 # View snapshots
 
 >[!NOTE]
->If you have opted in for early access, follow the process as specified in [View snapshot history](#view-snapshot-history).
+>If you have opted in for early access, follow the process as specified in [View snapshot history in early access](#view-snapshot-history-in-early-access).
 
 Viewing a snapshot allows you to see and understand the data of the forecast at the moment in time when it's taken including the underlying opportunities. Also, you can compare and understand the data between your current forecast and snapshot on how the forecast is doing. 
 

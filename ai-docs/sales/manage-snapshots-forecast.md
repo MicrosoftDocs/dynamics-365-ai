@@ -15,7 +15,7 @@ manager: shujoshi
 # Manage snapshots for a forecast
 
 >[!NOTE]
->If you have opted in for early access, follow the process as specified in [Take snapshots automatically](#take-snapshots-automatically).
+>If you have opted in for early access, follow the process as specified in [Take snapshots automatically in early access](#take-snapshots-automatically-in-early-access).
 
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time.
 
