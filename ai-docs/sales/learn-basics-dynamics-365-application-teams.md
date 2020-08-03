@@ -34,7 +34,6 @@ When you open the Dynamics 365 assistant app in Teams on your mobile device, you
 1.	[Highlighted meetings](#highlighted-meetings)
 2.	[Highlighted insights](#highlighted-insights)
 3.	[Settings](#settings)
-4.	[Bot](#bot)
 
 ## Highlighted meetings
 
@@ -59,10 +58,6 @@ Here is an example of a **Tell us what you like** feedback form.
 
 > [!div class="mx-imgBorder"]
 > ![Tell us what you like feedback form](media/si-teams-app-settings-feedback-tell-what-you-like.png "Tell us what you like feedback form")
-
-## Bot
-
-The bot allows you to search your organization for records within the Dynamics 365 assistant app in Teams. To learn more, see [Get answers through bot assistant](use-bot-assistant.md).
 
 ### See also
 

@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Dynamics 365 assistant app for Teams | MicrosoftDocs"
-description: "Introduction to Dynamics 365 assistant app for Teams"
+title: "Overview of Dynamics 365 assistant app for Teams | MicrosoftDocs"
+description: "An overview of Dynamics 365 assistant app for Teams"
 keywords: " "
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -50,7 +50,5 @@ You or an administrator can add this application on Microsoft Teams. To learn mo
 [Configure Dynamics 365 assistant application on Microsoft Teams](dynamics-365-assistant-app-teams.md#configure-dynamics-365-assistant-application-on-microsoft-teams)
 
 [Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)
-
-[Configure Dynamics 365 assistant bot](configure-dynamics-365-bot.md)
 
 [Access Dynamics 365 assistant application](access-assistant-application-teams.md)

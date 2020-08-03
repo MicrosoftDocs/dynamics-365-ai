@@ -56,7 +56,7 @@ We don't normalize the scores for your dataset. Consequently, you may not see al
 
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
-- When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
+- When [enriching profiles](#refresh-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
 
 ## Configure Enrichment
 
@@ -91,9 +91,9 @@ The following formats and values are supported, values are not case-sensitive:
   - FR: France, FR, French Republic
   - DE: Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
-## Run enrichment
+## Refresh enrichment
 
-Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Refresh** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 > [!TIP]
