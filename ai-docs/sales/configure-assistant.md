@@ -99,7 +99,7 @@ The premium assistant that is part of Sales Insights add-on offers advanced capa
 > [!NOTE]
 > You can create custom cards not only from the Studio but also directly using solution, see [Create custom cards in the assistant](extend-relationship-assistant-card.md).
 
-1. Verify that you have [Installed and configured premium Sales Insights features](intro-admin-guide-sales-insights.md##install-and-configure-premium-sales-insights-features).
+1. Verify that you have [Installed and configured premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 2. Go to **Change area** at the bottom-left of the page and select **Sales Insights settings**.
 

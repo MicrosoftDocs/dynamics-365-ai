@@ -30,7 +30,7 @@ Email engagement helps the user in your organization to receive alerts and remin
 
 Verify the following prerequisites before enabling email engagement for your organization:
 
-- To configure, enable standard Sales Insights features. To learn more, see [Enable and configure free Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-free-sales-insights-features).
+- To configure, enable standard Sales Insights features. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
 
 - To use followed email attachments:
 

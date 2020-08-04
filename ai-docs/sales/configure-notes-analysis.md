@@ -20,7 +20,7 @@ topic-status: Drafting
 
 TTo help users with intelligent suggestions when they enter an activity in the timeline such as appointment, email, phone call, task, note, post, or custom activities, enable notes analysis, enable notes analysis.
 
-1. Verify that premium Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md##install-and-configure-premium-sales-insights-features). 
+1. Verify that premium Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2.	Go to **Change area** at the bottom-left of the page and select **Sales Insights settings**.
 
@@ -47,4 +47,4 @@ TTo help users with intelligent suggestions when they enter an activity in the t
 
 [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
 
-[Installed and configured premium Sales Insights features](intro-admin-guide-sales-insights.md##install-and-configure-premium-sales-insights-features)
+[Installed and configured premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
