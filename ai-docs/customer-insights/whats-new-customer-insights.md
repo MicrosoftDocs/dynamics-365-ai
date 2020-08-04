@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 07/28/2020
+ms.date: 08/04/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
