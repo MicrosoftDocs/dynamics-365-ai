@@ -37,9 +37,7 @@ Sales insights is available in the following regions:
 -    Oceania (OCE)
 
 >[!NOTE]
->-	Sales Insights is not available in the following regions – Brazil, France, Germany, South Africa, and UAE.
->-	Sales Insights is not available on Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
-
+>Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, France, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 **In which region is the features available?**<br>
 Sales insights features are available in the following regions:
