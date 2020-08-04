@@ -37,8 +37,8 @@ Sales insights is available in the following regions:
 -    Oceania (OCE)
 
 >[!NOTE]
->-	Sales Insights is not available in the following regions – Brazil, France, Germany, South Africa, and UAE.
->-	Sales Insights is not available on Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
+>-	Currently, Sales Insights is not available in the following regions – Brazil, France, Germany, South Africa, and UAE.
+>-	Currently, Sales Insights is not available on Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 
 **In which region is the features available?**<br>
@@ -86,7 +86,7 @@ Sales insights features are available in the following regions:
 </table>
 
 >[!NOTE]
->For relationship analytics, support for Exchange online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
+>Currently, for relationship analytics, support for Exchange online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
 
 **What languages are supported now?**<br>
 Sales insights support the following languages:<br>
