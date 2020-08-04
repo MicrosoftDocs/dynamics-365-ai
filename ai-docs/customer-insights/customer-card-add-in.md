@@ -24,7 +24,7 @@ Get a 360-degree view of your customers inside Dynamics 365 apps. View demograph
 - Enrichment control: Requires active [enrichments](enrichment-hub.md) applied to customer profiles.
 - Intelligence control: Requires data in Customer Insights generated using Azure Machine Learning ([Predictions](predictions.md) or [Custom Models](custom-models.md))
 - Measure control: Requires [configured measures](measures.md) in Customer Insights.
-- Timeline control: Requires [configured activities](activities.md) in Customer Insights. This control doesn't provide the same functionality as the timeline control of Dynamics 365 apps.
+- Timeline control: Requires [configured activities](activities.md) in Customer Insights.
 
 ## Install the Customer Card Add-in
 

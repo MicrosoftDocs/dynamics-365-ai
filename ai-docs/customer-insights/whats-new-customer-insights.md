@@ -76,7 +76,7 @@ The Dynamics 365 Customer Insights updates in June 2020 include several features
 
 - **Brand and interest affinities available on the Dynamics 365 Customer Card Add-in**
 
-  A new control on the Dynamics 365 Customer Card Add-in lets you show brand and interest enrichments on your contacts on model-driven Dynamics 365 apps.    
+  A new control on the Dynamics 365 Customer Card Add-in lets you show brand and interest enrichments on your contacts in customer engagement apps in Dynamics 365.    
   For more information, see [Customer Card Add-in](customer-card-add-in.md).
 
 - **Additional Power Automate triggers**
@@ -148,7 +148,7 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 
 - **Updated timeline and pagination on the Customer Card Add-in**
 
-  The timeline of the Customer Card Add-in solution for Dynamics 365 model-driven apps matches the activity timeline in Customer Insights. The pagination of the timeline improved, showing up to 50 activities at once. It also allows loading additional activities in the timeline.    
+  The timeline of the Customer Card Add-in solution matches the activity timeline in Customer Insights. The pagination of the timeline improved, showing up to 50 activities at once. It also allows loading additional activities in the timeline.    
   For more information, see [Customer Card Add-in](customer-card-add-in.md).
 
 - **Power Automate trigger for segment changes**
