@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 07/09/2020
+ms.date: 08/04/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -23,9 +23,29 @@ We roll out updates on a region-by-region basis. So certain regions might see fe
 > [!TIP]
 > To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=79a8c474-4e35-e911-a971-000d3a4f3343&forumName=Dynamics%20365%20Customer%20Insights).
 
+## July 2020 updates
+
+The Dynamics 365 Customer Insights updates in July 2020 include several features, performance upgrades, and bug fixes.
+
+### New and updated features in July 2020
+
+#### Extensibility
+
+- **Power Automate trigger for completed unification process**
+
+  We have extended our triggers for Power Automate and let you create a notification or action when a refresh of the unification process (map, match, merge) is completed.    
+  For more information, see [Power Automate connector](export-power-automate.md)
+
+#### Enrichment
+
+- **Brand affinities enrichment available in additional markets**
+
+  We're extending the availability of the brand affinities enrichment beyond the United States to five additional markets: Canada, Australia, United Kingdom, France, and Germany. With this extension, you can enrich your customer data with local brands in these markets. We'll also enrich your customer profiles that are located in these markets by using local proprietary data from Microsoft Graph.
+  For more information, see [Enrich customer profiles with brand and interest affinities](enrichment-microsoft-graph.md)
+
 ## June 2020 updates
 
-The Dynamics 365 Customer Insights updates in June 2020 includes several features, performance upgrades, and bug fixes.
+The Dynamics 365 Customer Insights updates in June 2020 include several features, performance upgrades, and bug fixes.
 
 ### New and updated features in June 2020
 
@@ -56,7 +76,7 @@ The Dynamics 365 Customer Insights updates in June 2020 includes several feature
 
 - **Brand and interest affinities available on the Dynamics 365 Customer Card Add-in**
 
-  A new control on the Dynamics 365 Customer Card Add-in lets you show brand and interest enrichments on your contacts on model-driven Dynamics 365 apps.    
+  A new control on the Dynamics 365 Customer Card Add-in lets you show brand and interest enrichments on your contacts in customer engagement apps in Dynamics 365.    
   For more information, see [Customer Card Add-in](customer-card-add-in.md).
 
 - **Additional Power Automate triggers**
@@ -128,7 +148,7 @@ The Dynamics 365 Customer Insights updates in May 2020 includes several features
 
 - **Updated timeline and pagination on the Customer Card Add-in**
 
-  The timeline of the Customer Card Add-in solution for Dynamics 365 model-driven apps matches the activity timeline in Customer Insights. The pagination of the timeline improved, showing up to 50 activities at once. It also allows loading additional activities in the timeline.    
+  The timeline of the Customer Card Add-in solution matches the activity timeline in Customer Insights. The pagination of the timeline improved, showing up to 50 activities at once. It also allows loading additional activities in the timeline.    
   For more information, see [Customer Card Add-in](customer-card-add-in.md).
 
 - **Power Automate trigger for segment changes**
