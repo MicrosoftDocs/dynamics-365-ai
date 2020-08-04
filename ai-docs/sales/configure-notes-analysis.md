@@ -16,13 +16,13 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Notes analysis
+# Configure notes analysis
 
-To help users with intelligent auto-suggestions when they enter notes regarding a recent meeting or discussion with a customer in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], enable Notes analysis.
+TTo help users with intelligent suggestions when they enter an activity in the timeline such as appointment, email, phone call, task, note, post, or custom activities, enable notes analysis, enable notes analysis.
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features). 
+1. Verify that premium Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md##install-and-configure-premium-sales-insights-features). 
 
-2.	Go to **Change area** and select **Sales Insights settings**.
+2.	Go to **Change area** at the bottom-left of the page and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
@@ -47,4 +47,4 @@ To help users with intelligent auto-suggestions when they enter notes regarding 
 
 [How Notes analysis assists you with intelligent suggestion](notes-analysis.md)
 
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+[Installed and configured premium Sales Insights features](intro-admin-guide-sales-insights.md##install-and-configure-premium-sales-insights-features)

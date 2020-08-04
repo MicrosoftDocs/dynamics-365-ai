@@ -17,14 +17,14 @@
 
 
 ### Configure Productivity intelligence 
-#### [Enable Email engagement](configure-email-engagement.md)
-#### [Enable Auto capture](configure-auto-capture.md)
-#### [Configure Notes analysis](configure-notes-analysis.md)
+#### [Configure email engagement](configure-email-engagement.md)
+#### [Configure auto capture](configure-auto-capture.md)
+#### [Configure notes analysis](configure-notes-analysis.md)
 
 ### Configure Connection insights
-#### [Configure Relationship analytics](configure-relationship-analytics.md)
-#### [Configure Talking points](configure-talking-points.md)
-#### [Configure Who knows whom](configure-who-knows-whom.md)
+#### [Configure relationship analytics](configure-relationship-analytics.md)
+#### [Configure talking points](configure-talking-points.md)
+#### [Configure who knows whom](configure-who-knows-whom.md)
 
 ### Configure Predictive models
 #### [Predictive lead scoring](configure-predictive-lead-scoring.md)

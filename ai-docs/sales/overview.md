@@ -88,11 +88,6 @@ The premium Sales Insights features require a Sales Insights license that consis
 > [!NOTE]
 > The premium Sales Insights features that are in preview don’t require Sales Insights license during the preview period.
 
-
-## For effective use of Sales Insights
-
-For effective use of Dynamics 365 Sales Insights, use the out-of-the-box entities (contact, opportunity, lead, account, and case) while creating records in the application. If changes to the entity are required in your organization, customize only these out-of-the-box entities to meet your requirements. This helps the application to analyze the records, and generate models and predictions effectively.
-
 ### See also
 
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
