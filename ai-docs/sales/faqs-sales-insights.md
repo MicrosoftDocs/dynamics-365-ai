@@ -86,12 +86,11 @@ Sales insights features are available in the following regions:
 >[!NOTE]
 >For relationship analytics, support for Exchange online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
 
-**Which version of Exchange is supported for features in Sales Insight**
-
+**Which version of Exchange is supported for features in Sales Insight** <br>
 The Sales Insights features support the following versions of Exchange:
 
-| Feature | Exchange Online |Exchange On-Premises 2013 and up | With no Exchange |
-|---------|-----------------|---------------------------------|------------------|
+| Feature | Exchange Online |Exchange On-Premises 2013 and above | With no Exchange |
+|---------|-----------------|------------------------------------|------------------|
 | Relationship analytics and health	| Yes	| No | Yes |
 | Assistant | Yes	| No | Yes |
 | Email engagement | Yes | Yes | No |
