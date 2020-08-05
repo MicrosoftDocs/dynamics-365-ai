@@ -22,7 +22,7 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 
 To configure Relationship analytics, follow these steps:
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2. Go to **Change area** and select **Sales Insights settings**.
 
@@ -107,7 +107,6 @@ To enable Dynamics 365 Sales Insights – Analytics, follow these steps:
 ### See also
 
 [View customer activity history](../sales/relationship-analytics.md)  
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)  
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  

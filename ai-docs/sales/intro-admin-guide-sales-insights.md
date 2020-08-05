@@ -165,7 +165,7 @@ The premium Sales Insights features are not available by default. You must insta
 After installing the premium Sales Insights features, you can configure the premium features as required:
 
 
--	To configure the assistant premium, see [Configure and manage insight cards for the premium assistant](configure-assistant.md##configure-and-manage-insight-cards-for-the-premium-assistant).
+-	To configure the assistant premium, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant).
 
 -	To configure auto capture premium, see [Configure Auto capture](configure-auto-capture.md).
 

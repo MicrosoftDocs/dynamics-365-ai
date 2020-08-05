@@ -77,4 +77,4 @@ The flow chart provides a visual representation of how the forecast changes betw
 ### See also
 
 [Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)

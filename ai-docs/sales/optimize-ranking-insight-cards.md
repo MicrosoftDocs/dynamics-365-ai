@@ -69,7 +69,7 @@ Follow these steps to rank the cards:
 
 ### See also
 
-[Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
 
 [Create insight cards](create-insight-cards-flow.md)
 

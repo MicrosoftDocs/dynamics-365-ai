@@ -36,7 +36,7 @@ Ensure that you meet the following requirements:
 
 - Purchase a **Dynamics 365 Sales Insights** license, or start a trial to use advanced Sales Insights features.
 
-- Enable advanced Sales Insights features. More information: [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+- Enable advanced Sales Insights features. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 ### Recommendation
 

@@ -25,7 +25,7 @@ The Who knows whom feature helps users to quickly identify colleagues within the
 
 To configure who knows whom, follow these steps:
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -87,4 +87,4 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
 
 [Get introduced to lead](../sales/who-knows-whom.md)
 
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)

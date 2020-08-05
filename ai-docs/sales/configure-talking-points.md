@@ -20,7 +20,7 @@ topic-status: Drafting
 
 The Talking points feature helps users in your organization to quickly establish communications with customers. To configure talking points, follow these steps:
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -55,4 +55,4 @@ The Talking points feature helps users in your organization to quickly establish
 
 [Know conversation starters for your customers](../sales/talking-points.md)
 
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
