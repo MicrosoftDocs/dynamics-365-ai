@@ -1,6 +1,6 @@
 ---
-title: "Monitor call and insight processing in Conversation Intelligence | MicrosoftDocs"
-description: "Monitor call and insight processing in Conversation Intelligence "
+title: "Monitor call and insight processing in conversation intelligence | MicrosoftDocs"
+description: "Monitor call and insight processing in conversation intelligence "
 ms.date: 04/09/2020
 ms.service: crm-online
 ms.topic: article
@@ -20,7 +20,7 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-As a user of Conversation Intelligence, you might want to track and understand the status of calls with customers. The **System monitoring** page in the Conversation Intelligence application helps you ensure that the calls were successfully processed. You can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, you can view the reasons for each error and take the appropriate steps.
+As a user of conversation intelligence, you might want to track and understand the status of calls with customers. The **System monitoring** page in the conversation intelligence application helps you ensure that the calls were successfully processed. You can monitor the status of calls that have been processed, are yet to be processed, or could not be processed. When call processing errors occur, you can view the reasons for each error and take the appropriate steps.
 
 The call processing information you can view and track on the page depends on the role that you are assigned.
 
@@ -33,9 +33,9 @@ The call processing information you can view and track on the page depends on th
 
 To view the **System monitoring** page, follow these steps:
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation Intelligence** application. 
+2.	Open the **Conversation intelligence** application. 
 
 3.	Select **System monitoring** to open the system monitoring page.
 
@@ -52,6 +52,6 @@ To view the **System monitoring** page, follow these steps:
 
 ### See also
 
-[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
-[Improve seller coaching and sales potential with Conversation Intelligence](../sales/configure-conversation-intelligence-call-data.md)
+[Improve seller coaching and sales potential with conversation intelligence](../sales/configure-conversation-intelligence-call-data.md)

@@ -16,9 +16,9 @@ caps.latest.revision: 20
 topic-status: Drafting
 ---
 
-# Use Relationship analytics to gather KPIs 
+# Use relationship analytics to gather KPIs 
 
-We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.  
+Relationship analytics enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.  
 
  Relationship analytics help sales professionals and managers answer questions such as:  
 
@@ -265,11 +265,11 @@ In addition to the absolute health score, the system also reports the general tr
 
 ### See also  
 
-[Configure Relationship analytics](configure-relationship-analytics.md)
+[Configure relationship analytics](configure-relationship-analytics.md)
 
 [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)
 
-[Opt out of Relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
+[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
 
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
 

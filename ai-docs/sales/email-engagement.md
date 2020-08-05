@@ -17,7 +17,7 @@ caps.latest.revision: 25
 
 # Use email engagement to view message interactions
 
- Email engagement is part of the new *Sales Insights* suite of features. Email engagement helps you to:  
+ Email engagement helps you to:  
   
 -   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.  
   
@@ -31,7 +31,7 @@ caps.latest.revision: 25
   
 -   Review the full interaction history of a single message, or review  KPIs.  
   
-The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable Email engagement](configure-email-engagement.md).
+The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable email engagement](configure-email-engagement.md).
 
 > [!NOTE]
 >  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] even when the feature is turned off. These include:  
@@ -347,4 +347,4 @@ To view the tracking preferences for all of the recipients of a message, select 
   
 ### See also  
 
-[Enable Email engagement](configure-email-engagement.md)
+[Enable email engagement](configure-email-engagement.md)

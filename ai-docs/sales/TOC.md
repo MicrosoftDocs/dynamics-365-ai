@@ -8,7 +8,7 @@
 ### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
 ### Configure Assistant
-#### [Configure Assistant](configure-assistant.md)
+#### [Configure the assistant](configure-assistant.md)
 #### [Create insight cards](create-insight-cards-flow.md)
 #### [Edit insight cards](edit-insight-cards.md)
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)

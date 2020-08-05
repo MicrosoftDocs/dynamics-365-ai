@@ -1,5 +1,5 @@
 ---
-title: "Work with conversation intelligence to understand team overview feature for Conversation Intelligence | MicrosoftDocs"
+title: "Work with conversation intelligence to understand team overview feature for conversation intelligence | MicrosoftDocs"
 description: "Analyze overall team performance  to improve sales and generate revenue"
 ms.date: 04/09/2020
 ms.service: crm-online
@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Analyze overall team's behavior on customer calls
 
-Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in Conversation Intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
+Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
 As a sales manager, these KPIs and insights help you to: 
 
@@ -30,7 +30,7 @@ As a sales manager, these KPIs and insights help you to:
 
 - Analyze your team's conversational style.
 
-To view the **Teams overview** page, sign in to  **Conversation Intelligence**, and select **Teams overview**. 
+To view the **Teams overview** page, sign in to  **Conversation intelligence**, and select **Teams overview**. 
 
 > [!div class="mx-imgBorder"]
 > ![Conversation intelligence teams overview](media/si-app-teams-overview.png "Conversation intelligence teams overview")
@@ -44,7 +44,7 @@ To view the **Teams overview** page, sign in to  **Conversation Intelligence**, 
 
 ### See also
 
-[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
+[Overview of conversation intelligence](dynamics365-sales-insights-app.md)
 
 [First-run set up experience](fre-setup-sales-insight-app.md)
 
