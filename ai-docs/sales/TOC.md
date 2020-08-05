@@ -15,7 +15,6 @@
 #### [Create insight cards using solution](extend-relationship-assistant-card.md)
 ##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
-
 ### Configure Productivity intelligence 
 #### [Configure email engagement](configure-email-engagement.md)
 #### [Configure auto capture](configure-auto-capture.md)
