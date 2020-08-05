@@ -84,7 +84,7 @@ Before you can configure the features, you must accept the privacy notice to ena
     > ![Select accept privacy notice option](media/si-admin-accept-privacy-notice.png "Select accept privacy notice option")
 
 
-    The standard Sales Insights features are enabled for your organization and you can configure features such as the assistant standard, auto capture (standard), and email engagement standard.
+    The standard Sales Insights features are enabled for your organization and you can configure features such as the assistant standard, auto capture (standard), and email engagement (standard).
  
     > [!div class="mx-imgBorder"]
     > ![Standard Sales Insights features enabled](media/si-admin-free-features-enabled.png "Standard Sales Insights features enabled")
