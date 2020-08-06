@@ -38,6 +38,8 @@ Verify the following prerequisites before enabling email engagement for your org
 
     - Enable document management for email in Dynamics 365 Sales. To learn more, see [Enable SharePoint document management for specific entities](/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities).  
 
+    - Enable SharePoint to be shared externally to anonymous (unauthenticated) users to allow external email recipients to access file attachments. To learn more, see [External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+
 - To enable delivery-time recommendations based on recipients' time zones, you must enable [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] in Dynamics 365 Sales. To learn more, see [System Settings dialog box - General tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab).
 
 ## Enable email engagement
@@ -54,10 +56,10 @@ Verify the following prerequisites before enabling email engagement for your org
     > [!div class="mx-imgBorder"]
     > ![Email engagement grant permissions](media/si-admin-email-engagement-grant-permissions.png "Email engagement grant permissions") <br>
 
-    a confirmation message is displayed in a tab. Close the tab and proceed to set up email engagement.
+    A confirmation message is displayed in a tab. Close the tab and proceed to set up email engagement.
 
     > [!NOTE]
-    > If you have already grant permissions, this step will be skipped. You don't have to grant permissions to Email engagement again.<br>
+    > If you have already grant permissions, this step will be skipped. You don't have to grant permissions to email engagement again.<br>
 
 4. On the **Email engagement** section, select **Set up** and then select the toggle to enable. 
 

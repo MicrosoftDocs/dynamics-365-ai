@@ -27,7 +27,7 @@ Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-i
 Sales insights helps organizations in the following four areas:
 
 -	**Guided selling**: Guide sellers on their next course of actions with timely and actionable insights.
--	**Productivity intelligence**: Free up sellers time by minimizing manual data entry with contextual, real-time suggestions for creating new records.
+-	**Productivity intelligence**: Free up sellers time by minimizing manual data entry with contextual, real-time suggestions for updating existing and creating new records making sure you data is always up to date.
 -	**Connection insights**: Build stronger relationship with customers and move relationships forward with AI-guided selling. Take pre-emptive steps to mitigate risks with a relationship health score.
 -	**Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy.
 
@@ -60,9 +60,9 @@ The premium Sales Insights features require a Sales Insights license that consis
 
 ### Productivity intelligence
 
--	**Notes analysis**: Monitors notes that you enter regarding a recent meeting or discussion with your customer to provide intelligent suggestions for new activities. To learn more, see [How notes analysis assists you with suggestion](notes-analysis.md).
-
 -	**Sales accelerator and sequence (preview)**: Helps sales teams in organizations to focus on high-velocity selling by a tailored experience for sellers by minimizing the time spent on identifying who is the next best customer to reach, gathering information across multiple sources, and focus on how approaching customers. To learn more, see [What is sales accelerator](sales-accelerator-intro.md).
+
+-	**Notes analysis**: Monitors notes that you enter regarding a recent meeting or discussion with your customer to provide intelligent suggestions for new activities. To learn more, see [How notes analysis assists you with suggestion](notes-analysis.md).
 
 ### Connection insights
 
