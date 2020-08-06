@@ -14,9 +14,7 @@
 #### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 #### [Create insight cards using solution](extend-relationship-assistant-card.md)
 ##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
-#### Tutorials
-##### [Tutorial 1: Create Hello World card](assistant-tutorial1.md)
-##### [Tutorial 2: Create a Hello World card for each user in your organization](assistant-tutorial2.md)
+
 
 ### Configure Productivity intelligence 
 #### [Enable Email engagement](configure-email-engagement.md)
@@ -32,6 +30,7 @@
 #### [Predictive lead scoring](configure-predictive-lead-scoring.md)
 #### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 #### [Premium forecasting](configure-premium-forecasting.md)
+#### [View prediction model status](view-prediction-model-status.md)
 #### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
 
 ### Configure Sales accelerator
@@ -82,6 +81,7 @@
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 #### [View snapshots](view-snapshots.md)
 
+
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
@@ -90,13 +90,12 @@
 ### Dynamics 365 Assistant for Microsoft Teams
 #### [Overview of Dynamics 365 Assistant](overview-dynamics-365-assistant-app-teams.md)
 #### [Install Dynamics 365 application on Teams](install-assistant-application-microsoft-teams.md)
-#### [Configure Dynamics 365 bot](configure-dynamics-365-bot.md)
 #### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
 #### [Learn the basics](learn-basics-dynamics-365-application-teams.md)
 #### [Working with meetings](working-with-meetings-teams.md)
 #### [Scan business cards and meeting notes](scan-business-cards-notes.md)
 #### [Change sales organization](change-sales-organization.md)
-#### [Get answers through bot assistant](use-bot-assistant.md)
+
 
 ###	Conversation Intelligence
 #### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)

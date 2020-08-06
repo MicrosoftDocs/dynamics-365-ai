@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles with Microsoft Graph in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 07/27/2020
+ms.date: 08/06/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -54,7 +54,11 @@ To select a country, open the **Brands enrichment** or **Interest enrichment** a
 
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
+<<<<<<< HEAD
 - When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands and interests, including profiles that are not in the selected country/region. For example, if you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands and interests in the US.
+=======
+- When [enriching profiles](#refresh-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
+>>>>>>> 1615e41ba1a352b87fb8e0993cd5efed82b60da3
 
 ## Configure Enrichment
 
@@ -75,11 +79,11 @@ Map fields from your unified customer entity to at least two attributes to defin
 
 The following formats and values are supported, values are not case-sensitive:
 
-- **Date of Birth**: m/d/yyyy, mmmm d, yyyy-mm-dd, mmmm yyyy
+- **Date of Birth**: We recommend that date of birth is converted to DateTime type during data ingestion. Alternatively, it can be a string in [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format "yyyy-MM-dd" or "yyyy-MM-ddTHH:mm:ssZ".
 - **Gender**: Male, Female, Unknown
-- **Postal code**: five-digit ZIP Codes for US, standard postal code everywhere else
-- **City**: city name in English
-- **State/Province**: two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany, or the UK.
+- **Postal code**: Five-digit ZIP Codes for US, standard postal code everywhere else
+- **City**: City name in English
+- **State/Province**: Two-letter abbreviation for the US and Canada. Two or three letter abbreviation for Australia. Not applicable for France, Germany, or the UK.
 - **Country/Region**:
 
   - US: United States of America, United States, USA, US, America
@@ -89,9 +93,9 @@ The following formats and values are supported, values are not case-sensitive:
   - FR: France, FR, French Republic
   - DE: Germany, German, Deutschland, Allemagne, DE, Federal Republic of Germany, Republic of Germany
 
-## Run enrichment
+## Refresh enrichment
 
-Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Run** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
+Run the enrichment after configuring brands, interests, and the field mapping for demographics. To start the process, select **Refresh** on the brand or interest configuration page. Additionally, you can let the system run the enrichment automatically as part of a scheduled refresh.
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 > [!TIP]

@@ -40,11 +40,11 @@ To configure Leadspace, the following prerequisites must be met:
 
 1. Select **Save** to complete the field mapping.
 
-1. Select **Run** to enrich the company profiles. How long an enrichment run takes depends on the number of unified customer profiles. Expect it to take at least 1 minute per 1.000 profiles.
+1. Select **Refresh** to enrich the company profiles. How long refreshing an enrichment takes depends on the number of unified customer profiles. Expect it to take at least 1 minute per 1.000 profiles.
 
 ## Enrichment results
 
-After running the enrichment, you can review the newly enriched company data under [My enrichments](customer-profiles.md). You can find the time of the last update and the number of enriched profiles.
+After refreshing the enrichment, you can review the newly enriched company data under [My enrichments](customer-profiles.md). You can find the time of the last update and the number of enriched profiles.
 
 You can access a detailed view of each enriched profile by selecting **View enriched data**.
 
