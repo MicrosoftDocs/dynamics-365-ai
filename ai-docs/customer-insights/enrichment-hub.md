@@ -38,7 +38,6 @@ Select an enrichment to see the available options. Alternatively, you can select
 - **View** enrichment details with the number of enriched customer profiles.
 - **Edit** the enrichment configuration.
 - **Refresh** the enrichment to update customer profiles with the latest data.
-- **Deactivate** an existing enrichment to stop it from refreshing automatically with every scheduled refresh. Data from the last successful refresh will continue to be available.
-- **Activate** an inactive enrichment to restart automatic refreshing with every scheduled refresh.
+- **Deactivate** an existing enrichment to stop it from refreshing automatically with every scheduled refresh. Data from the last successful refresh will continue to be available. **Activate** an inactive enrichment to restart automatic refreshing with every scheduled refresh.
 
 You can refresh or deactivate multiple enrichments at once by selecting them in the list. View and edit options aren't available as bulk action and only work for one enrichment at a time.
