@@ -107,8 +107,8 @@ The Sales Insights features support the following versions of Exchange:
 </table>
 
 >[!NOTE]
+>- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics will not contain Exchange data and the assistant will not display cards that are based on Exchange data. 
 >- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
->- The assistant and relationship analytics can work without Exchange. However, the information displayed in the features will not contain Exchange data.  
 
 **What languages are supported now?**<br>
 Sales insights support the following languages:<br>
