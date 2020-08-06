@@ -125,7 +125,7 @@ To learn about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sal
 
 Review the following requirements before you install and configure the premium Sales Insights feature:
 
-- You must purchase a **Dynamics 365 Sales Insights** license or start a trial to use the premium Sales Insights features.
+- You must purchase a Sales Insights or a Sales Premium license or start a trial to use the premium Sales Insights features.
 
 - You must be a Dynamics 365 Sales administrator.
 

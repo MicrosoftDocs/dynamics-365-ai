@@ -52,7 +52,7 @@ The standard Sales Insights features are available as part of the Dynamics 365 S
 
 ## Premium Sales Insights features 
 
-The premium Sales Insights features require a Sales Insights license that consist of the [standard features](#standard-sales-insights-features) along with the following features:
+The premium Sales Insights features require a Sales Insights or a Sales Premium license that consist of the [standard features](#standard-sales-insights-features) along with the following features:
 
 ### Guided selling
 
@@ -66,13 +66,13 @@ The premium Sales Insights features require a Sales Insights license that consis
 
 ### Connection insights
 
+-	**Conversation intelligence**: Conversation intelligence provides you with information and insights on top of your customer calls, that help  easily follow-up on business critical items, allow sellers to quickly transform their engagements into revenue and enable managers intelligently manage the sales team and proactively coach sellers. To achieve this, the Dynamics 365 Conversation Intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence, such as Sentiment analysis, Keywords detection, Action Items extraction and tracking, alongside the option to playback the call and sift through the transcript - provide an easy way to go through thousands and millions of calls to get to those which matter most in seconds. To learn more, see [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md).
+
 -	**Relationship analytics and health**: Gathers information from Dynamics 365 Sales for key performance indicators (KPIs) and activity histories and displays it in a graphical representation. To learn more, see [Use Relationship analytics to gather KPIs](relationship-analytics.md). 
 
 -	**Talking points**: Suggests topics to start a conversation with your customers based on historical email conversations such as sports, vacation, family, and entertainment. To learn more, see [Know conversation starters for your customers](talking-points.md).
 
 -	**Who knows whom**: Provides details such as names and email addresses of your colleagues who know a lead that you are going to interact with. To learn more, see [How to get introduced to a lead](who-knows-whom.md).
-
--	**Conversation intelligence**: Conversation intelligence provides you with information and insights on top of your customer calls, that help  easily follow-up on business critical items, allow sellers to quickly transform their engagements into revenue and enable managers intelligently manage the sales team and proactively coach sellers. To achieve this, the Dynamics 365 Conversation Intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence, such as Sentiment analysis, Keywords detection, Action Items extraction and tracking, alongside the option to playback the call and sift through the transcript - provide an easy way to go through thousands and millions of calls to get to those which matter most in seconds. To learn more, see [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
 
 ### Predictive scoring
 
@@ -86,7 +86,7 @@ The premium Sales Insights features require a Sales Insights license that consis
 **Dynamics 365 assistant for Microsoft Teams (preview)**: Provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md). 
 
 > [!NOTE]
-> The premium Sales Insights features that are in preview don’t require Sales Insights license during the preview period.
+> The premium Sales Insights features that are in preview don’t require a Sales Insights or a Sales Premium license during the preview period.
 
 ### See also
 
