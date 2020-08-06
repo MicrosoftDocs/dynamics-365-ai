@@ -20,10 +20,8 @@ To configure brand affinities enrichment, go to the **Discover** tab and select 
 
 To configure interest affinities enrichment, go to the **Discover** tab and select **Enrich my data** on the **Interests** tile.
 
-
    > [!div class="mx-imgBorder"]
    > ![Brands & Interests tiles](media/BrandsInterest-tile-Hub.png "Brands & Interest tiles")
-
 
 ## About Microsoft Graph
 
@@ -54,7 +52,7 @@ To select a country, open the **Brands enrichment** or **Interest enrichment** a
 
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
-- When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands and interests, including profiles that are not in the selected country/region. For example, if you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands and interests in the US.
+- When [enriching profiles](#refresh-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands and interests, including profiles that are not in the selected country/region. For example, if you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands and interests in the US.
 
 ## Configure Enrichment
 
