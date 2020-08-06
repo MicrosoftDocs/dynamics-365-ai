@@ -54,11 +54,7 @@ To select a country, open the **Brands enrichment** or **Interest enrichment** a
 
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
-<<<<<<< HEAD
 - When [enriching profiles](#run-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands and interests, including profiles that are not in the selected country/region. For example, if you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands and interests in the US.
-=======
-- When [enriching profiles](#refresh-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands, including profiles that are not in the selected country/region. For example, you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands in the US.
->>>>>>> 1615e41ba1a352b87fb8e0993cd5efed82b60da3
 
 ## Configure Enrichment
 
