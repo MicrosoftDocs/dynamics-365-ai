@@ -1,7 +1,7 @@
 ---
 title: "Configure talking points for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure talking points for Sales Insights"
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -28,11 +28,6 @@ The talking points feature helps users in your organization to quickly establish
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
 3.  On the sitemap, select **Talking points** under **Connection insights**.
-
-    > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Notes analysis** section to go to configuration page.
-
-    The configuration page opens.
 
     > [!div class="mx-imgBorder"]
     > ![Talking points configuration page](media/si-admin-talking-points-configuration-page.png "Talking points configuration page")

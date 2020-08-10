@@ -1,7 +1,7 @@
 ---
 title: "Overview of Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Overview of the AI features that are offered with Sales"
-ms.date: 04/06/2020
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -66,7 +66,7 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 ### Connection insights
 
--	**Conversation intelligence**: Conversation intelligence provides you with information and insights on top of your customer calls that help you easily follow up on business-critical items, allow sellers to quickly transform their engagements into revenue, and enable managers to intelligently manage the sales team and proactively coach sellers. To achieve this, <!--I don't find "Dynamics 365 Conversation Intelligence" anywhere.-->conversation intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversation intelligence, such as sentiment analysis, keyword detection, action-item extraction and tracking, in addition to the option to play back the call and sift through the transcript&mdash;all of which provide an easy way to go through thousands and millions of calls to get to those that matter most, in seconds. More information: [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
+-	**Conversation intelligence**: Conversation intelligence provides you with information and insights on top of your customer calls that help you easily follow up on business-critical items, allow sellers to quickly transform their engagements into revenue, and enable managers to intelligently manage the sales team and proactively coach sellers. To achieve this, conversation intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversation intelligence, such as sentiment analysis, keyword detection, action-item extraction and tracking, in addition to the option to play back the call and sift through the transcript&mdash;all of which provide an easy way to go through thousands and millions of calls to get to those that matter most, in seconds. More information: [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
 
 -	**Relationship analytics and health**: Gathers information from Dynamics 365 Sales for KPIs and activity histories, and displays it graphically. More information: [Use Relationship analytics to gather KPIs](relationship-analytics.md)
 

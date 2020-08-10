@@ -1,7 +1,7 @@
 ---
 title: "Configure notes analysis for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure notes analysis for Sales Insights"
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -28,11 +28,6 @@ To help users with intelligent suggestions when they enter an activity in the ti
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
 
 3.  On the site map under **Productivity intelligence**, select **Notes analysis**.
-
-    > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Manage** from the **Notes analysis** section to go to configuration page.<!--Please see my note about redundant procedure steps in configure-assistant.md and consider deleting this tip.-->
-
-    The configuration page opens.<!--Recommend deleting.-->
 
     > [!div class="mx-imgBorder"]
     > ![Notes analysis configuration page](media/si-admin-notes-analysis-configuration-page.png "Notes analysis configuration page")

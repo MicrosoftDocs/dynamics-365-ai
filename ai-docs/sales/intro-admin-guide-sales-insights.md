@@ -2,7 +2,7 @@
 title: "Introduction on how to administer Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Introduction on how to administer Dynamics 365 Sales Insights"
 keywords: " "
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -53,9 +53,9 @@ Review the following requirements and prerequisites to enable standard Sales Ins
 
     | Product version | Available standard Sales Insights features |
     |-----------------|--------------------------------------------|    
-    | Dynamics 365 <!--Enterprise note from editor: Please double-check this reference to "Enterprise." It isn't sanctioned anywhere that I can find. Simply using "Dynamics 365" is okay in relation to Office 365, perhaps that's what this should be? See https://styleguides.azurewebsites.net/Styleguide/Read?id=2858&topicid=44073 Or should it be "Dynamics 365 Sales Enterprise"?--> with Microsoft Exchange Online | <ul><li>Assistant (standard cards)</li> <li>Email engagement</li> <li>Auto capture</li></ul>|
-    | Dynamics 365 <!--Enterprise note from editor: Please verify.-->with Microsoft Exchange (on-premises) | <ul><li>o	Assistant (all cards except cards based on Exchange information)</li> <li>Email engagement</li></ul>|
-    |Dynamics 365 (on-premises) Enterprise Edition<!--I don't find this product anywhere either. Please verify!-->| <ul><li>Assistant (standard cards) |
+    | Dynamics 365 with Microsoft Exchange Online | <ul><li>Assistant (standard cards)</li> <li>Email engagement</li> <li>Auto capture</li></ul>|
+    | Dynamics 365 with Microsoft Exchange (on-premises) | <ul><li>o	Assistant (all cards except cards based on Exchange information)</li> <li>Email engagement</li></ul>|
+    | Dynamics 365 (on-premises) | <ul><li>Assistant (standard cards) |
 
 - The assistant, email engagement, and auto capture features are available for Dynamics 365 Sales with an Enterprise license only.
 
@@ -78,7 +78,7 @@ Before you can configure these features, you must accept the privacy notice. To 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
  
-3.	In the **Terms of service** section, select **I agree**.<!--Because you opened this page in the previous step, you don't have to give a description of where the current step is taking place.-->
+3.	In the **Terms of service** section, select **I agree**.
 
     > [!div class="mx-imgBorder"]
     > ![Agree to the terms of service](media/si-admin-accept-privacy-notice.png "Agree to the terms of service")
@@ -101,7 +101,7 @@ After you enable the standard Sales Insights features, you can configure the fea
 
 ## Install and configure premium Sales Insights features
 
-The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio<!--Edit okay?-->, auto capture premium (preview), notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, assistant app for Microsoft Teams, and sales accelerator and sequence (preview). You can configure these features as required in your organization.
+The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, auto capture premium (preview), notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, assistant app for Microsoft Teams, and sales accelerator and sequence (preview). You can configure these features as required in your organization.
 
 The following diagram illustrates the steps to configure these features:
 

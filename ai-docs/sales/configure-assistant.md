@@ -2,7 +2,7 @@
 title: "Configure Sales Insights Assistant | MicrosoftDocs"
 description: "Describes how to configure Assistant, both free and advanced features."
 keywords: " "
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -18,7 +18,7 @@ topic-status: Drafting
 ---
 
 # Configure the assistant
-<!--note from editor: Please consider deleting the sections where I've noted the content is redundant. The problem with restating things is not only that they're expensive to localize, they're confusing to the reader. I had to stop and back up several times to verify whether the information had been covered already or was I seeing something new; duplicating it means we're introducing "a difference that makes no difference."-->
+
 The assistant in Dynamics 365 Sales (formerly known as relationship assistant) helps sellers track their daily actions and communications through a collection of actionable insight cards. 
 
 The assistant is available in two forms:
@@ -42,12 +42,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ### Configure and manage standard insight cards
 
-1. On the site map under **Assistant**, select **Insight cards**.<!--note from editor: In a procedure, you don't have to describe what happens as a result of the steps you're telling the reader to take. It's best to remain crisp and directive, not so descriptive. That makes for less work and cost for you and for Loc.-->
-
-    > [!TIP]
-    > Alternatively, on the **Sales Insights settings** page, select **Manage** from the **Assistant (free)** section.<!--note from editor: Recommend deleting this tip. You don't need to describe two ways to do the same thing in a procedure. Readers want to get something done, they don't want to know all the different paths they might take. You'll not only keep from distracting the reader, you'll save work for yourself and Loc.-->
-
-    The list of available cards is displayed.<!--Recommend deleting; this is another description of what the reader is already looking at.--> For details about each available insight card, including details about the configuration settings available for each and other details, see [Insight cards reference](action-cards-reference.md).<!--Procedures also aren't the right place to interrupt the steps you're guiding the reader through to stop and say "here's more information about that." They make more sense in the procedure introduction or in the "See also" block at the end.-->
+1. On the site map under **Assistant**, select **Insight cards**.
 
     > [!div class="mx-imgBorder"]
     > ![List of insight cards](media/si-admin-assistant-card-list.png "List of insight cards")
@@ -63,15 +58,12 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 3. To turn off (disable) the insight cards, select the cards that have been turned on, and then select **Turn off cards**.
     
-    In this example, we've selected the cards **SuggestedContacts**<!--It's unfortunate that the UI is missing a space here. Can you ask someone on the UI team to fix this?--> and **Upcoming Flight**.
+    In this example, we've selected the cards **SuggestedContacts** and **Upcoming Flight**.
 
     > [!div class="mx-imgBorder"]
     > ![Select cards to turn off](media/si-admin-assistant-turn-off-cards.png "Select cards to turn off")
     
-4. To see a preview of a card, get more details about it&mdash;such as a description and the time it was last modified&mdash;or turn it on or off, select the card.<!--Edit okay? I didn't understand the original.-->
-
-    > [!TIP]
-    > Alternatively, you can select **More options** (...)<!--Edit okay? I presume this command is accessed through the ellipsis, but the screenshot doesn't actually show it.--> corresponding to the card, and then select **Edit**.<!--But... recommend deleting this tip.-->
+4. To see a preview of a card, get more details about it&mdash;such as a description and the time it was last modified&mdash;or turn it on or off, select the card.
 
     > [!div class="mx-imgBorder"]
     > ![View card details](media/si-admin-assistant-view-card-details.png "View card details")
@@ -80,7 +72,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ## Configure and manage insight cards for the premium assistant
 
-The premium assistant that's part of the Sales Insights add-on offers advanced capabilities, including:<!--Deletion suggested; it's entirely covered in the list below.-->
+The premium assistant that's part of the Sales Insights add-on offers advanced capabilities, including:
 
 - [Creating custom insight cards](create-insight-cards-flow.md).
 
@@ -105,29 +97,16 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
 
 3. On the site map under **Assistant**, select **Home**.
 
-    > [!TIP]
-    > Alternatively, on the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section.<!--As above: recommend deleting.-->
-
-4. On the **Home** tab (**Assistant Studio** page), you can:<!--You don't need this bulleted list, recommend deleting. You've described exactly these things in the callout table for the image (which is excellent, by the way!).-->
+4. On the **Home** tab (**Assistant Studio** page), you can perform actions as described in the below table.
     
-    - Create custom insight cards.
-
-    - View popular, recent, high priority, and cards created by your organization. 
-
-    - View information about the cards that are available for your organization in a tabular format.
-
-    - Search for cards.
-    
-    The following is an example of an **Assistant Studio** page:
-
     > [!div class="mx-imgBorder"]
     > ![Assistant studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant studio home page")
 
     |  |  | 
     |--------|---------|
-    | **1**<!--Callout tables don't usually have header rows, and in this case you really don't need to have a column devoted to the feature name, not when it works so well as part of the description. The very best way to format this would be to have orange numbers in this column that look exactly like the numbers in your image, but these numbers work well also.--> | Create cards with that are custom-made for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
+    | **1** | Create cards with that are custom-made for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
     | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. |
-    | **3** | Table with card details displays the cards that are available in your organization. More information: [Edit insight cards](edit-insight-cards.md)<!--This isn't the place to list everything you can do to a card AND give a link to the same information. --> |
+    | **3** | Table with card details displays the cards that are available in your organization. More information: [Edit insight cards](edit-insight-cards.md) |
     | **4** | Search for cards that you want to view or manage. |
     
 5. On the **Optimize ranking** tab, you can create rules to prioritize cards to appear in the application.
@@ -158,7 +137,7 @@ The updates in Sales Insights are displayed to sellers as teasers in the assista
     > [!div class="mx-imgBorder"]
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
-Teasers will be disabled in your organization.<!--This is also not strictly necessary because it's the outcome of this procedure, it's descriptive rather than prescriptive, but at least it doesn't describe something that the reader is currently looking at. I moved the indent to the left because it doesn't apply to the last step, it applies to the entire procedure.-->
+Teasers will be disabled in your organization.
 
 ### See also
 

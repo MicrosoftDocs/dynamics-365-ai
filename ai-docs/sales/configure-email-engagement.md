@@ -1,7 +1,7 @@
 ---
 title: "Configure email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure email engagement for Sales Insights"
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -61,7 +61,7 @@ Verify the following prerequisites before enabling email engagement for your org
     > [!NOTE]
     > If you've already granted permissions, this step will be skipped. You don't have to grant permissions to email engagement again.
 
-4. In the **Email engagement** section, select **Set up**<!--This command doesn't show in the screenshot; will the reader know where it is?--> and then turn on the toggle. 
+4. In the **Email engagement** section, select **Set up** and then turn on the toggle. 
 
     > [!div class="mx-imgBorder"]
     > ![Enable email engagement](media/si-admin-email-engagement-enable.png "Enable email engagement") 

@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure who knows whom for Sales Insights"
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -33,11 +33,6 @@ To configure who knows whom, follow these steps:
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
 3.  On the sitemap, select **Who knows whom** under **Connection insights**.
-
-    > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Who knows whom** section to go to configuration page.
-
-    The configuration page opens.
 
     > [!div class="mx-imgBorder"]
     > ![Who knows whom configuration page](media/si-admin-who-know-whom-configuration-page.png "Who knows whom configuration page")
