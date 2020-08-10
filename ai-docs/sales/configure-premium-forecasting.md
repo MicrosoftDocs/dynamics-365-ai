@@ -27,9 +27,9 @@ Review the following requirements before you use the predictive forecast feature
 
 - Enable forecasting. To learn more, see [Configure forecasts in your organization](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast). 
 
-## Features available in predictive forecasting
+## Features available in premium forecasting
 
-The following predictive forecasting features are available with Sales Insights.
+The following premium forecasting features are available with Sales Insights.
 
 ### Forecast predictions
 
@@ -77,4 +77,5 @@ The flow chart provides a visual representation of how the forecast changes betw
 ### See also
 
 [Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)<br>
+[Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)

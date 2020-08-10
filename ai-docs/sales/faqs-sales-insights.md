@@ -37,9 +37,7 @@ Sales insights is available in the following regions:
 -    Oceania (OCE)
 
 >[!NOTE]
->-	Currently, Sales Insights is not available in the following regions – Brazil, France, Germany, South Africa, and UAE.
->-	Currently, Sales Insights is not available on Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
-
+>Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, France, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 **In which region is the features available?**<br>
 Sales insights features are available in the following regions:
@@ -82,11 +80,35 @@ Sales insights features are available in the following regions:
 <tr>
 <td>Premium forecasting</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
+</table>
 
+**Which version of Exchange is supported for features in Sales Insight?** <br>
+The Sales Insights features support the following versions of Exchange:
+
+<table>
+<tr>
+<th>Feature</th><th>Exchange Online</th><th>Exchange Server 2013 and above</th><th>With no Exchange</th>
+</tr>
+<tr>
+<td>Relationship analytics and health</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
+</tr>
+<tr>
+<td>Assistant</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
+</tr>
+<tr>
+<td>Email engagement</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td>
+</tr>
+<tr>
+<td>Who knows whom</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
+</tr>
+<tr>
+<td>Talking points</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
+</tr>
 </table>
 
 >[!NOTE]
->Currently, for relationship analytics, support for Exchange online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
+>- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics will not contain Exchange data and the assistant will not display cards that are based on Exchange data. 
+>- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
 
 **What languages are supported now?**<br>
 Sales insights support the following languages:<br>
