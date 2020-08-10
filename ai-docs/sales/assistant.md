@@ -15,9 +15,9 @@ ms.tgt_pltfrm:
 caps.latest.revision: 22
 ---
 
-# Use Sales Insights Assistant to guide customer communications
+# Use the assistant to guide customer communications
 
-Sales Insights Assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
+The assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
 
 Some ways the assistant reminds you of upcoming activities are:
 
@@ -28,7 +28,7 @@ Some ways the assistant reminds you of upcoming activities are:
 - Alerting you when an opportunity is nearing its close date.
   
 >[!NOTE]
->The administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Assistant](configure-assistant.md).
+>The administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure the assistant](configure-assistant.md).
 
 ## How and where the assistant can help you  
 
@@ -149,5 +149,5 @@ You can configure the assistant by choosing which types of insight cards you'd l
 
 ### See also  
 
-[Configure Sales Insights Assistant](configure-assistant.md)  
+[Configure the assistant](configure-assistant.md)  
 [Insight cards reference](action-cards-reference.md)

@@ -28,9 +28,9 @@ For example, say you have two leads - Lead A and Lead B - in your pipeline. The 
 > To enable Predictive lead scoring in your organization, contact your system administrator.
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
 
-## Understand Predictive lead scoring in views
+## Understand predictive lead scoring in views
 
-The **My Open Leads Scored** system view is available when Predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. By analyzing these parameters, you can  identify and prioritize leads to convert into opportunities.
+The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. By analyzing these parameters, you can  identify and prioritize leads to convert into opportunities.
 
 The following screen displays a typical view that consists of columns that can be used to analyze and prioritize the leads.
 
@@ -118,4 +118,4 @@ For more information about the lead score, select the **About** tab. The **About
 
 ### See also
 
-[Configure Predictive lead scoring](configure-predictive-lead-scoring.md)
+[Configure predictive lead scoring](configure-predictive-lead-scoring.md)

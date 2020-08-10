@@ -19,19 +19,19 @@ topic-status: Drafting
 
 # Prioritize opportunities through scores
 
-In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The Predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Generate custom-defined model](configure-predictive-opportunity-scoring.md#generate-custom-defined-model).
+In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Generate custom-defined model](configure-predictive-opportunity-scoring.md#generate-custom-defined-model).
 
 This model assigns a score between 0 and 100 for opportunities based on the signals from opportunities and related entities such as contact and account. Using these scores, you can identify and prioritize opportunities that have more chances of converting into wins. 
 
 For example, say you have two opportunities - Opportunity A and Opportunity B - in your pipeline. The opportunity scoring model applies a score of 75 for Opportunity A and 55 for Opportunity B. By looking at the score, you can predict that Opportunity A has more chances of converting into a win deal and you can engage it. Also, you can further analyze why the score of Opportunity B is low by looking at the top reasons that are influencing the score and deciding how to improve this score.
 
 > [!IMPORTANT]
-> To enable Predictive opportunity scoring in your organization, contact your system administrator.
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+> To enable predictive opportunity scoring in your organization, contact your system administrator.
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
 ## Understand opportunity scoring in views
 
-The **My Open Opportunities Scored** system view is available for you when Predictive opportunity scoring is enabled in your organization. This view provides a list of opportunities with different parameters, including opportunity score, opportunity grade, and opportunity score trend. By analyzing these parameters, you can identify and prioritize opportunities to convert into win deals.
+The **My Open Opportunities Scored** system view is available for you when predictive opportunity scoring is enabled in your organization. This view provides a list of opportunities with different parameters, including opportunity score, opportunity grade, and opportunity score trend. By analyzing these parameters, you can identify and prioritize opportunities to convert into win deals.
 
 The following screen displays a typical view that consists of columns that can be used to analyze and prioritize the opportunities.
 
@@ -120,4 +120,4 @@ For more information about the opportunity score, select the **About** tab. The 
 
 ### See also
 
-[Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)

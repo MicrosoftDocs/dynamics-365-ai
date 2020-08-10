@@ -1,6 +1,6 @@
 ---
-title: "Enable coming soon features in Conversation Intelligence | MicrosoftDocs"
-description: "Enable preview features in Conversation Intelligence."
+title: "Enable coming soon features in conversation intelligence | MicrosoftDocs"
+description: "Enable preview features in conversation intelligence."
 ms.date: 04/08/2020
 ms.service: crm-online
 ms.custom: 
@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Enable coming soon features
 
-Sometimes "coming soon" features that change the look, feel, or functionality of the application are added to Conversation Intelligence before the formal release.
+Sometimes "coming soon" features that change the look, feel, or functionality of the application are added to conversation intelligence before the formal release.
 
 As an administrator, activating **Coming soon** mode gives users in your organization early access to these new features, allowing them to share feedback with us before the changes are formally released. 
 
@@ -27,9 +27,9 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 
 **Follow these steps to enable previews**:
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation Intelligence** application. 
+2.	Open the **Conversation intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -50,6 +50,6 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 
 ### See also
 
-[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)

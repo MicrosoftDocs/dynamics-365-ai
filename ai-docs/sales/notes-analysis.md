@@ -16,19 +16,19 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# How Notes analysis assists you with suggestion
+# How notes analysis assists you with suggestion
 Notes analysis provides you with suggestions for actions based on customer-related activities. When you create an activity, such as appointment, email, phone call, task, note, post, or custom activities, the notes analysis feature analyzes the descriptions provided in these activities and gives you intelligent suggestions. With these suggestions, you can take actions, such as creating a meeting request and adding a contact.
 
 **Timeline** control is available on contacts, opportunities, leads, accounts, and case forms.<br> 
  > [!div class="mx-imgBorder"]
  > ![Suggested actions on Timeline control](media/notesanalysis-timelinecontrol.png "Suggested actions on Timeline control")<br>
 With notes analysis, the text in the activity is highlighted and when selected, suggestions are displayed. These suggestions include: Creating activities, tasks, contacts, meeting, content requests, and issue detection.<br>
-For example, you created a note “*Meet the customer on the May 4 at 4:00 PM*”. When you select this text, Dynamics 365 Sales Insights provides an automatic suggestion to create an appointment.<br>
+For example, you created a note “*Meet the customer on May 4 at 4:00 PM*”. When you select this text, Dynamics 365 Sales Insights provides an automatic suggestion to create an appointment.<br>
  > [!div class="mx-imgBorder"]
  > ![Create an appointment](media/notesanalysis_createappointment.png "Create an appointment")<br>
 When you have multiple suggestions associated with an activity, Dynamics 365 Sales Insights displays those multiple suggestions—you can take timely actions depending on your requirements. For example, you have created a note to contact your customer regarding pricing and schedule a meeting to further discuss the deal. The note shows suggestions to create an appointment and schedule a phone call. Let's look this example to see how suggestion-based activities work with multiple suggestions:<br>
 1.	Open a record with the note and select the note text. <br> 
-    In this example, the note specifies to call Debra to discuss the pricing of deal and schedule a meeting to discuss meeting.<br>
+    In this example, the note specifies to call Debra to discuss the pricing of the deal and schedule a meeting to discuss the deal.<br>
     > [!div class="mx-imgBorder"]
     > ![Schedule a meeting](media/notesanalysis-schedulemeeting.png "Schedule a meeting")<br>
     Suggestions to create an appointment and a phone call are displayed.<br>

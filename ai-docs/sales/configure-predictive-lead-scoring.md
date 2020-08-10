@@ -108,7 +108,7 @@ You can configure the range for the grading according to your organizational req
 
 This model is generated based on the standard attributes (fields) that are chosen by the application.  
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features). 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2. Go to **Change area** and select **Sales Insights settings**.
 
@@ -157,7 +157,7 @@ At times, the system-defined model may not be accurate for your organization, as
 
 Follow these steps:
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features). 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2. Go to **Change area** and select **Sales Insights settings**.
 
@@ -307,4 +307,5 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 ### See also
 
 [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)  
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)

@@ -54,7 +54,7 @@ Enable basic auto capture by following these steps:
 
 Before you enable auto capture, perform the following tasks: 
 
--	Enable Sales Insights. To learn more, see [Enable and configure free Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-free-sales-insights-features).
+-	Enable Sales Insights. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
 
 -	Use Exchange as the server and Outlook as the mail client.
 
@@ -94,7 +94,7 @@ To enable and configure premium auto capture, follow these steps:
 
 Before you enable premium auto capture, perform the following tasks:
 
--	Enable Sales Insights. To learn more, see [Enable and configure free Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-free-sales-insights-features).
+-	Enable Sales Insights. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
 
 -	Use Exchange as the server and Outlook as the mail client.
 

@@ -1,6 +1,6 @@
 ---
-title: "Configure and view your team page in Conversation Intelligence | MicrosoftDocs"
-description: "Configure and view your team page in Conversation Intelligence "
+title: "Configure and view your team page in conversation intelligence | MicrosoftDocs"
+description: "Configure and view your team page in conversation intelligence "
 ms.date: 04/09/2020
 ms.service: crm-online
 ms.topic: article
@@ -20,7 +20,7 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-As an administrator, you can configure the levels of hierarchy for which sales managers can view in Conversation Intelligence. When configured, sales managers will be able to view the hierarchy under **Your team**.
+As an administrator, you can configure the levels of hierarchy for which sales managers can view in conversation intelligence. When configured, sales managers will be able to view the hierarchy under **Your team**.
 
 Let’s look at the example to understand hierarchy levels:
 
@@ -36,13 +36,13 @@ The matrix explains which data you’ll view as a sales manager, for different h
 | Level 3 | Choose this option to get insights on level 1, level 2, and level 2’s team members. |
 
 > [!NOTE]
-> Conversation Intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](https://docs.microsoft.com/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
+> Conversation intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](https://docs.microsoft.com/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ## Configure hierarchy levels
 
-1.	Review the prerequisites. To learn more, see [Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md).
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-2.	Open the **Conversation Intelligence** application. 
+2.	Open the **Conversation intelligence** application. 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -67,7 +67,7 @@ As a sales manager, when you open the Your team page in settings, you can view t
 > [!NOTE]
 > To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf.
 
-1.	Open the **Conversation Intelligence** application. 
+1.	Open the **Conversation intelligence** application. 
 
 2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -83,6 +83,6 @@ As a sales manager, when you open the Your team page in settings, you can view t
 
 ### See also
 
-[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
-[Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
+[Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)

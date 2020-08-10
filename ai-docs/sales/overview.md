@@ -1,7 +1,7 @@
 ---
 title: "Overview of Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Overview of the AI features that are offered with Sales"
-ms.date: 04/06/2020
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -20,78 +20,74 @@ topic-status: Drafting
 Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)].
 
 >[!IMPORTANT]
->This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
+>This feature is intended to help sales managers or supervisors enhance their team's performance. This feature isn't intended for use in making&mdash;and shouldn't be used to make&mdash;decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
 
-[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] is a suite of features that continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Office 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster. These features are categorized as follows: 
+[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Office 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
-- [Free Sales Insights features](#free-sales-insights-features) 
+Sales Insights helps organizations in the following four areas:
 
-- [Advanced Sales Insights features](#advanced-sales-insights-features)
+-	**Guided selling**: Guide sellers on their next course of action with timely and actionable insights.
+-	**Productivity intelligence**: Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date.
+-	**Connection insights**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Take preemptive steps to mitigate risks with a relationship health score.
+-	**Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy.
 
-- [Conversation Intelligence](#conversation-intelligence) 
-
-The following diagram illustrates the various features available in [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]: 
+These Sales Insights features are categorized as [standard](#standard-sales-insights-features) and [premium](#premium-sales-insights-features). The following diagram illustrates the various features available in [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]: 
 
 > [!div class="mx-imgBorder"]
 > ![Sales Insights feature categories](media/si-features-categories.png "Sales Insights feature categories")
 
-## Free Sales Insights features 
+## Standard Sales Insights features
 
-These Sales Insights features are available for free with Dynamics 365 Sales: 
+The standard Sales Insights features are available as part of the Dynamics 365 Sales Enterprise plan.
 
-- **Assistant (free)**: The assistant (formerly known as Relationship assistant) combines and analyzes the information that is at its disposal from Dynamics 365 Sales, and then generates a collection of action cards that are displayed as your entry point to Dynamics 365 Sales on mobile devices, and as a carousel or column display on your web-based dashboards. To learn more, see  [Use assistant to guide customer communications](assistant.md). 
+### Guided selling
 
-- **Auto capture (free)**: The auto capture analyzes your email messages directly in Microsoft Exchange to find all messages that might be relevant to your work in sales. The application looks for messages to or from relevant email addresses and presents you with the relevant messages right in Sales. To learn more, see [Auto capture of related emails](auto-capture.md). 
+-	**Assistant (standard)**: The assistant (formerly known as relationship assistant) analyzes information from Dynamics 365, Exchange, and other sources and suggests personalized and actionable insights to guide sellers on their best course of action, to build stronger relationships with their customers and to close more deals. More information: [Use assistant to guide customer communications](assistant.md)
 
-- **Email engagement (free)**: The email engagement helps you create more effective email messages—and learn how your contacts are interacting with them. Stay on top of your email and prioritize those prospects or customers that are most engaged. To learn more, see [Use email engagement to view message interactions](email-engagement.md). 
+### Productivity intelligence
 
-## Advanced Sales Insights features 
+-	**Auto capture (standard + premium)**: Auto capture helps keep track of customer engagements by surfacing suggestions to track emails and meetings from Exchange right in Sales. This way, nothing falls through the cracks and you have full control over what's being shared. In addition to activity capture, auto capture also surfaces suggestions for new contacts based on these activities. More information: [Capture customer-related activities with Auto capture](auto-capture.md)
 
-The advanced Sales Insights features consist of the [free Sales Insights features](#free-sales-insights-features) along with the following features: 
+-	**Email engagement (standard)**: Email engagement helps you create more effective email messages&mdash;and learn how your contacts are interacting with them. Stay on top of your email and prioritize those prospects or customers that are most engaged. More information: [Use email engagement to view message interactions](email-engagement.md) 
 
-- **Assistant with Studio (full capabilities)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the Studio to users. The Studio helps you to create custom insight cards through Microsoft Flow. After you create the cards, you can configure prioritization and who can see the cards. To learn more, see [Manage insight cards](manage-custom-cards-flow.md). 
+## Premium Sales Insights features
 
-- **Relationship analytics**: Gathers information from Dynamics 365 Sales for key performance indicators (KPIs) and activity histories, and displays it in a graphical representation. To learn more, see [Use Relationship analytics to gather KPIs](relationship-analytics.md). 
+The premium Sales Insights features require a Sales Insights or a Sales Premium license that consists of the [standard features](#standard-sales-insights-features) along with the following features.
 
-- **Predictive lead scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality leads. To learn more, see [Prioritize leads through scores](work-predictive-lead-scoring.md). 
+### Guided selling
 
-- **Predictive opportunity scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality opportunities. To learn more, see [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md). 
+-	**Assistant (premium)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the assistant studio. The assistant studio<!--Edit okay?--> helps you to create custom insight cards through Power Automate, configure prioritization, and identify who can see the cards. More information: [Manage insight cards](manage-custom-cards-flow.md)
 
-- **Premium forecasting**: Helps you to focus on revenue generation efforts by providing forecast projections based on sales pipeline and historical data. To learn more, see [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
+### Productivity intelligence
 
-- **Notes analysis**: Monitors notes that you enter regarding a recent meeting or discussion with your customer to provide intelligent suggestions. To learn more, see [How notes analysis assists you with suggestion](notes-analysis.md). 
+-	**Sales accelerator and sequence (preview)**: Helps sales teams in organizations to focus on high-velocity selling by offering a tailored experience for sellers that minimizes the time spent identifying who is the next best customer to reach, gathering information across multiple sources, and focusing on how to approach<!--Edit okay?--> customers. More information: [What is sales accelerator](sales-accelerator-intro.md)
 
-- **Talking points**: Displays topics to start a conversation with your customer such as sports, vacation, family, and entertainment. To learn more, see [Know conversation starters for your customers](talking-points.md). 
+-	**Notes analysis**: Monitors notes that you enter about a recent meeting or discussion with your customer to provide intelligent suggestions for new activities. More information: [How notes analysis assists you with suggestion](notes-analysis.md)
 
-- **Who knows whom**: Provides details such as names and email addresses of your colleagues who know a lead that you are going to interact with. To learn more, see [How to get introduced to a lead](who-knows-whom.md). 
+### Connection insights
 
-- **Sales accelerator**: Helps sales teams in organizations to focus on high-velocity selling by a tailored experience for sellers by minimizing the time spent on identifying who is the next best customer to reach, gathering information across multiple sources, and focus on how approaching customers.  To learn more, see [What is sales accelerator](sales-accelerator-intro.md).
+-	**Conversation intelligence**: Conversation intelligence provides you with information and insights on top of your customer calls that help you easily follow up on business-critical items, allow sellers to quickly transform their engagements into revenue, and enable managers to intelligently manage the sales team and proactively coach sellers. To achieve this, conversation intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversation intelligence, such as sentiment analysis, keyword detection, action-item extraction and tracking, in addition to the option to play back the call and sift through the transcript&mdash;all of which provide an easy way to go through thousands and millions of calls to get to those that matter most, in seconds. More information: [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
 
-- **Dynamics 365 assistant for Microsoft Teams**: Provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. To learn more, see [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md). 
+-	**Relationship analytics and health**: Gathers information from Dynamics 365 Sales for KPIs and activity histories, and displays it graphically. More information: [Use Relationship analytics to gather KPIs](relationship-analytics.md)
 
-## Conversation Intelligence 
+-	**Talking points**: Suggests topics to start a conversation with your customers based on historical email conversations such as sports, vacation, family, and entertainment. More information: [Know conversation starters for your customers](talking-points.md)
 
-Conversation Intelligence provides you with the information and insights to intelligently manage the sales team, proactively coach sellers, and quickly answer questions regarding the business. To achieve this, the Dynamics 365 Conversation Intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversations intelligence. 
+-	**Who knows whom**: Provides details such as names and email addresses of your colleagues who know a lead who you're going to interact with. More information: [How to get introduced to a lead](who-knows-whom.md)
 
-The features in Conversation Intelligence are specifically designed to help sales managers and sellers to intelligently manage and quickly answer their most important business questions.
+### Predictive scoring
+
+-	**Predictive lead scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality leads. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
+
+-	**Predictive opportunity scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on win opportunities. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+
+-	**Premium forecasting**: Helps you to focus on revenue generation efforts by providing forecast projections based on sales pipeline and historical data. More information: [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
+
+**Dynamics 365 assistant for Microsoft Teams (preview)**: Provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. More information: [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
 
 > [!NOTE]
-> You must purchase a **[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]** license to use Dynamics 365 Sales Insights features.
-
-The following features are available under the Dynamics 365 Sales Insights app:  
-
-- Overall sales and seller insights
-- Team report
-- Conversation intelligence
-
-To learn more, see [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md).
-
-## For effective use of Sales Insights
-
-For effective use of Dynamics 365 Sales Insights, use the out-of-the-box entities (contact, opportunity, lead, account, and case) while creating records in the application. If changes to the entity are required in your organization, customize only these out-of-the-box entities to meet your requirements. This helps the application to analyze the records, and generate models and predictions effectively.
+> The premium Sales Insights features that are in preview don't require a Sales Insights or a Sales Premium license during the preview period.
 
 ### See also
 
-[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
-
+[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
 [Sales Insights privacy notice](privacy-notice.md)

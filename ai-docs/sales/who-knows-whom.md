@@ -84,4 +84,4 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
 ### See also
 
-[Configure Who knows whom](configure-who-knows-whom.md)
+[Configure who knows whom](configure-who-knows-whom.md)

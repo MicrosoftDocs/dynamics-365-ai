@@ -1,5 +1,5 @@
 ---
-title: "Work with call intelligence feature for Conversation Intelligence | MicrosoftDocs"
+title: "Work with call intelligence feature for conversation intelligence | MicrosoftDocs"
 description: "Analyze customer call to improve sales and generate revenue"
 ms.date: 04/09/2020
 ms.service: crm-online
@@ -20,7 +20,7 @@ topic-status: Drafting
 
 View insights and analysis of each seller’s performance during calls with customers and leads. 
 
-The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation Intelligence**, and select **Seller details**.
+The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation intelligence**, and select **Seller details**.
 
 ## Seller details page for sales managers
 
@@ -88,8 +88,8 @@ Let's look at the KPIs and insights in detail:
 
 ### See also
 
-[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
+[Overview of conversation intelligence](dynamics365-sales-insights-app.md)
 
-[First-run set up experience of Conversation Intelligence](fre-setup-sales-insight-app.md)
+[First-run set up experience of conversation intelligence](fre-setup-sales-insight-app.md)
 
 [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)

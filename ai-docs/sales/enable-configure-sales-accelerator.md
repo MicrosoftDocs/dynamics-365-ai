@@ -9,7 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Enable and configure the Sales accelerator
+# Enable and configure the sales accelerator
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -18,9 +18,9 @@ manager: shujoshi
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-The Sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in Sales Hub app. A sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. The sequence is then applied to leads or opportunities, and assigned to a seller automatically according to your organization's sales strategies.
+The sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in Sales Hub app. A sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. The sequence is then applied to leads or opportunities, and assigned to a seller automatically according to your organization's sales strategies.
 
-As an administrator, you must enable and configure the Sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
+As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
 1. [Review the prerequisites and recommendation](#review-the-prerequisites-and-recommendations).
 
@@ -36,7 +36,7 @@ Ensure that you meet the following requirements:
 
 - Purchase a **Dynamics 365 Sales Insights** license, or start a trial to use advanced Sales Insights features.
 
-- Enable advanced Sales Insights features. More information: [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+- Enable advanced Sales Insights features. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 ### Recommendation
 
@@ -44,7 +44,7 @@ For the best experience of the Sales accelerator, enable and configure [predicti
 
 ## Enable the preview
 
-The Sales accelerator is available as a preview feature in Sales Insights. You must enable the preview and accept the preview terms and conditions to use the Sales accelerator in your organization.
+The sales accelerator is available as a preview feature in Sales Insights. You must enable the preview and accept the preview terms and conditions to use the sales accelerator in your organization.
 
 1. Sign in to Dynamics 365 Sales Hub, and go to **Change area** > **Sales Insights settings**.
 
@@ -57,9 +57,9 @@ The Sales accelerator is available as a preview feature in Sales Insights. You m
     >[!div class="mx-imgBorder"]
     >![Enable preview](media/sa-enable-preview.png "Enable preview")
 
-The Sales accelerator is now enabled, and you can configure it for your organization.
+The sales accelerator is now enabled, and you can configure it for your organization.
 
-## Configure the Sales accelerator
+## Configure the sales accelerator
 
 1. Sign in to Dynamics 365 Sales Hub, and go to **Change area** > **Sales Insights settings**.
 
@@ -87,7 +87,7 @@ The Sales accelerator is now enabled, and you can configure it for your organiza
 
 6. Save and publish the configuration.
     
-    A confirmation message is displayed at the top of the page. Sales managers and sellers can now start using the Sales accelerator.
+    A confirmation message is displayed at the top of the page. Sales managers and sellers can now start using the sales accelerator.
 
 ## Customizations
 
@@ -96,4 +96,4 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)  
-[What is the Sales accelerator?](sales-accelerator-intro.md)
+[What is the sales accelerator?](sales-accelerator-intro.md)

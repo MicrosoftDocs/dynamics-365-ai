@@ -16,13 +16,13 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Relationship analytics
+# Configure relationship analytics
 
 Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
 
-To configure Relationship analytics, follow these steps:
+To configure relationship analytics, follow these steps:
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2. Go to **Change area** and select **Sales Insights settings**.
 
@@ -36,7 +36,7 @@ To configure Relationship analytics, follow these steps:
 
     The configuration page opens.
 
-4. Select the toggle to enable Relationship analytics for your organization.
+4. Select the toggle to enable relationship analytics for your organization.
 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")
@@ -47,7 +47,7 @@ To configure Relationship analytics, follow these steps:
 
 5. (Optional) To enable the preview to view similar opportunities, under **Similar opportunities** on the **Relationship analytics** tab for opportunities, turn on the **Preview enabled** toggle.
 
-    By enabling this option, users in your organization can see an improved Relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.
+    By enabling this option, users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.
 
     >[!NOTE]
     >- The preview feature is available only for the Opportunity entity.
@@ -83,7 +83,7 @@ To configure Relationship analytics, follow these steps:
 
    Relationship analytics is ready to use in your organization.
 
-Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information regarding communications&mdash;such as emails and meetings&mdash;for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on the Relationship analytics configuration page is automatically selected. 
+Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information regarding communications&mdash;such as emails and meetings&mdash;for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable this, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. 
 
 To enable Dynamics 365 Sales Insights – Analytics, follow these steps: 
 
@@ -107,7 +107,6 @@ To enable Dynamics 365 Sales Insights – Analytics, follow these steps:
 ### See also
 
 [View customer activity history](../sales/relationship-analytics.md)  
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)  
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
