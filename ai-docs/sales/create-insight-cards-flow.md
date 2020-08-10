@@ -300,7 +300,7 @@ Use the **REST** option to invoke REST API.
 
 ### See also
 
-[Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
 
 [Edit insight cards](edit-insight-cards.md)
 

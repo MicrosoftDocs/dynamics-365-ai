@@ -1,6 +1,6 @@
 ---
-title: "Improve seller coaching and sales potential with Conversation Intelligence | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for Conversation Intelligence"
+title: "Improve seller coaching and sales potential with conversation intelligence | MicrosoftDocs"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence"
 ms.date: 04/09/2020
 ms.service: crm-online
 ms.custom: 
@@ -16,11 +16,11 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Improve seller coaching and sales potential with Conversation Intelligence
+# Improve seller coaching and sales potential with conversation intelligence
 
-Conversation Intelligence uses analytics and data science to gather data from sellers’ call recordings and Dynamics 365 Sales. Conversation Intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, Conversation Intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
+Conversation intelligence uses analytics and data science to gather data from sellers’ call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 
-Conversation Intelligence is designed to help sales managers and sellers in their day-to-day job, providing the tools they need to track their sales performance in calls with leads and customers.
+Conversation intelligence is designed to help sales managers and sellers in their day-to-day job, providing the tools they need to track their sales performance in calls with leads and customers.
 
 **As a sales manager, you can:**
 
@@ -63,26 +63,26 @@ Conversation Intelligence is designed to help sales managers and sellers in thei
 
 The next sections describe:
 
-- Recommendations for using Conversation Intelligence
+- Recommendations for using conversation intelligence
 
-- How to get Conversation Intelligence
+- How to get conversation intelligence
 
-- How to access Conversation Intelligence
+- How to access conversation intelligence
 
 
-## Recommendations to use Conversation Intelligence
+## Recommendations to use conversation intelligence
 
-Before you start using the application, we suggest you review the following requirements for effective use of Conversation Intelligence:
+Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:
 
 -	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management). 
 
 -	As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
-## How to get Conversation Intelligence
+## How to get conversation intelligence
 
-Conversation Intelligence is a standalone application and you must sign in to the app to use it. To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
+Conversation intelligence is a standalone application and you must sign in to the app to use it. To access the app, go to [sales.ai.dynamics.com](https://sales.ai.dynamics.com/).
 
-## How to access Conversation Intelligence
+## How to access conversation intelligence
 
 As an administrator, you must configure the application so users (managers and sellers) can see the relevant organization and call data. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
 
@@ -92,9 +92,9 @@ As a user (manager or seller), when you sign in to the application for the first
 
 - **Relevant organization and call data**: You’ll be able to view your organization’s data if the administrator has configured the application for you.
 
-The following procedure explains how to access Conversation Intelligence for the first time:
+The following procedure explains how to access conversation intelligence for the first time:
 
-1.	Sign in to the [Conversation Intelligence](https://sales.ai.dynamics.com/) application. The home page is displayed with demo data.
+1.	Sign in to the [Conversation intelligence](https://sales.ai.dynamics.com/) application. The home page is displayed with demo data.
 
 2.	Select **Set up Conversation Intelligence** to connect to your Dynamics 365 Sales organization.
 
@@ -113,13 +113,13 @@ The following procedure explains how to access Conversation Intelligence for the
 
 	The application validates your credentials and gives you further instructions depending on your role. If you have an administrator role assigned to you, you can proceed with configuring the application. To learn more, see [First-run setup experience](fre-setup-sales-insight-app.md).
     
-    If you don't have the administrator role assigned to you, a status message is displayed on the top of the page requesting that you contact your administrator to configure the application. You can continue using Conversation Intelligence (with the demo data to explore the features and functionalities) until the administrator configures the application.
+    If you don't have the administrator role assigned to you, a status message is displayed on the top of the page requesting that you contact your administrator to configure the application. You can continue using conversation intelligence (with the demo data to explore the features and functionalities) until the administrator configures the application.
     
     > [!div class="mx-imgBorder"]
     > ![Application status message when manager signs in](media/si-app-admin-message-bar-manager.png  "Application status message when manager signs in")
 
 ### See also
 
-[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)

@@ -173,7 +173,7 @@ The following metrics are available on the card.
 
 ### See also
 
-[Configure and manage insight cards for Assistant (full capabilities)](configure-assistant.md#configure-and-manage-insight-cards-for-assistant-full-capabilities)
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
 
 [Create custom insight cards](create-insight-cards-flow.md)
 

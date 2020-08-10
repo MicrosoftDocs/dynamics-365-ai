@@ -61,7 +61,7 @@ Perform the following prerequisites before setting up and using the sales assist
 
 - Enable preview feature and select **Microsoft Teams Integration Preview** as **Yes** in the Common Data Service platform. To learn more, see [What are Preview features, and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
 
-- Enable **Talking points**, **Who knows whom**, and **Assistant** for your organization to leverage the services to get full utilization of assistant app. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
+- Enable **Talking points**, **Who knows whom**, and **Assistant** for your organization to leverage the services to get full utilization of assistant app. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 - Install the Dynamics 365 app on Microsoft Teams.
 

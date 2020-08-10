@@ -1,6 +1,6 @@
 ---
-title: View overall insights of your sales and sellers in Conversation Intelligence | MicrosoftDocs"
-description: "View high-level information on sales and sellers with AI-driven insights readily available for Conversation Intelligence "
+title: View overall insights of your sales and sellers in conversation intelligence | MicrosoftDocs"
+description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence "
 keywords: ""
 ms.date: 06/18/2020
 ms.service: crm-online
@@ -19,7 +19,7 @@ topic-status: Drafting
 
 # View and understand home page
 
-When you sign in to Conversation Intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
+When you sign in to conversation intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
 
 Typically, the home page is divided into the following sections:
 
@@ -101,7 +101,7 @@ Select **Show details** to view more details on how the customer sentiment is tr
 
 ### Tracked keywords
 
-This insight shows the tracked keywords that are defined in the application and that customers use the most during the sales calls. Conversation Intelligence highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to them. 
+This insight shows the tracked keywords that are defined in the application and that customers use the most during the sales calls. Conversation intelligence highlights these tracked keywords in this insight. Using these tracked keywords, you can identify new sales opportunities that are related to them. 
 
 The following image is an example of how the "tracked keywords" insight is displayed:
 
@@ -119,7 +119,7 @@ Select **Show details** to view more details on top trending keywords. The detai
 
 ### Tracked competitors
 
-This insight shows the defined competitors' names that customers use most and are trending upwards during the sales calls. Conversation Intelligence highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to them.
+This insight shows the defined competitors' names that customers use most and are trending upwards during the sales calls. Conversation intelligence highlights these competitors in this section. Using these competitors, you can identify new sales opportunities that are related to them.
 
 The following image is an example of how the "competitors mentioned" insight is displayed:
 
@@ -255,6 +255,6 @@ The following image is an example of how the call recording KPIs are displayed.
 
 ### See also
 
-[Administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md) 
+[Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 

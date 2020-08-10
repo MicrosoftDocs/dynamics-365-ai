@@ -1,6 +1,6 @@
 ---
-title: "Prerequisites to administer Conversation Intelligence | MicrosoftDocs"
-description: "Prerequisites on how to administer Conversation Intelligence"
+title: "Prerequisites to administer conversation intelligence | MicrosoftDocs"
+description: "Prerequisites on how to administer conversation intelligence"
 ms.date: 06/01/2020
 ms.service: crm-online
 ms.custom: 
@@ -16,9 +16,9 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Prerequisites to configure Conversation Intelligence
+# Prerequisites to configure conversation intelligence
 
-Verify the following requirements before setting up Conversation Intelligence for your organization:
+Verify the following requirements before setting up conversation intelligence for your organization:
 
 -	You must have an administrator or similar role.
 
@@ -27,13 +27,13 @@ Verify the following requirements before setting up Conversation Intelligence fo
 -	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
     
     >[!NOTE]
-    >The Sales Insights license provides you access to the Conversation Intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br> 
-    >To extend the capacity of processing hours for your organization, you must purchase the Conversation Intelligence add-on for Sales Insights.<br>
+    >The Sales Insights license provides you access to the conversation intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br> 
+    >To extend the capacity of processing hours for your organization, you must purchase the conversation intelligence add-on for Sales Insights.<br>
     >To learn more, see **Add-on Capacities** section in **Appendix F: Dynamics 365 Capacity Add-ons** from [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
     
--	You must get access to Conversation Intelligence. If you don't have access, follow these steps:
+-	You must get access to conversation intelligence. If you don't have access, follow these steps:
     
-    1.	To access the app, go to [Conversation Intelligence](https://sales.ai.dynamics.com/).
+    1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).
     
     2.	Enter your work email address.
     
@@ -43,6 +43,6 @@ Verify the following requirements before setting up Conversation Intelligence fo
 
 ### See also
 
-[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md) 
+[Overview of conversation intelligence](dynamics365-sales-insights-app.md) 

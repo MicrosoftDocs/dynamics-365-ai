@@ -1,7 +1,7 @@
 ---
 title: "Configure talking points for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure talking points for Sales Insights"
-ms.date: 10/01/2019
+ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -16,11 +16,11 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure Talking points
+# Configure talking points
 
-The Talking points feature helps users in your organization to quickly establish communications with customers. To configure talking points, follow these steps:
+The talking points feature helps users in your organization to quickly establish communications with customers. To configure talking points, follow these steps:
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features) 
+1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -28,11 +28,6 @@ The Talking points feature helps users in your organization to quickly establish
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
 3.  On the sitemap, select **Talking points** under **Connection insights**.
-
-    > [!TIP]
-    > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Notes analysis** section to go to configuration page.
-
-    The configuration page opens.
 
     > [!div class="mx-imgBorder"]
     > ![Talking points configuration page](media/si-admin-talking-points-configuration-page.png "Talking points configuration page")
@@ -49,10 +44,10 @@ The Talking points feature helps users in your organization to quickly establish
 
 5. Select **Save**.<br>
 
-    The Talking points feature is configured and ready to use in your organization.
+    The talking points feature is configured and ready to use in your organization.
 
 ### See also
 
 [Know conversation starters for your customers](../sales/talking-points.md)
 
-[Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)

@@ -23,7 +23,7 @@ Review the following prerequisite before you start using predictive forecasting:
 
   -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
-## Understand the Prediction column and details in a forecast
+## Understand the prediction column and details in a forecast
 
 The **Prediction** column shows the predicted revenue for each seller and manager. Predictions are based on the **Status** field of an opportunity. To optimize the accuracy of the predictions, ensure the **Forecast Category** values are kept in sync with the **Status** field. For the out-of-the-box forecast category, a workflow ensures that when an opportunity is closed as **Won** or **Lost**, the forecast category is updated with the proper value. 
 

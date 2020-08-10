@@ -38,7 +38,7 @@ Verify the following prerequisites before you start working on insight card crea
 
 - You must have administrative privileges.
 - You must purchase a **Dynamics 365 Sales Insights** license.
-- Advanced Sales insights features are enabled. To learn more, see [Enable and configure advanced Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-advanced-sales-insights-features).
+- Advanced Sales insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 - Preview features for Assistant are enabled.
     1. Sign in to **Dynamics 365 Sales** and go to **Settings** > **Sales AI**.
     2. Select **Configure** on the **Assistant** section.

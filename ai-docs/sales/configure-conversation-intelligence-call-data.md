@@ -1,6 +1,6 @@
 ---
-title: "Configure call data for Conversation Intelligence | MicrosoftDocs"
-description: "Configure call data in Conversation Intelligence"
+title: "Configure call data for conversation intelligence | MicrosoftDocs"
+description: "Configure call data in conversation intelligence"
 ms.date: 06/18/2020
 ms.service: crm-online
 ms.custom: 
@@ -174,8 +174,8 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer Conversation Intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
+[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
-[Prerequisites to configure Conversation Intelligence](prereq-sales-insights-app.md)
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 [FAQs](faqs-sales-insights.md)
