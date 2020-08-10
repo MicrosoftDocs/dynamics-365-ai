@@ -57,7 +57,7 @@ Review the following requirements and prerequisites to enable standard Sales Ins
     | Dynamics 365 with Microsoft Exchange (on-premises) | <ul><li>o	Assistant (all cards except cards based on Exchange information)</li> <li>Email engagement</li></ul>|
     | Dynamics 365 (on-premises) | <ul><li>Assistant (standard cards) |
 
-- The assistant, email engagement, and auto capture features are available for Dynamics 365 Sales with an Enterprise license only.
+- The assistant, email engagement, and auto capture features are available for Dynamics 365 Sales with an Enterprise or Sales Premium license.
 
 - You must have an administrator or equivalent security role.
 
