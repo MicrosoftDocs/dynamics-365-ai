@@ -40,6 +40,8 @@ Subscription churn prediction helps predicting whether a customer is at risk for
         - **Timestamp:** The date and time of the event identified by the primary key.
         - **Event:** The name of the event you want to use. For example, a field called "UserAction" in a streaming video service could have the value of "Viewed".
         - **Details:** Detailed information about the event. For example, a field called "ShowTitle" in a streaming video service could have the value of a video a customer watched.
+   >[!NOTE]
+   > You'll need at least 2 activity records for 50% of the customers you want to calculate churn for.
 
 ## Create a subscription churn prediction
 
@@ -47,11 +49,21 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 1. Select the **Subscription churn model (preview)** tile and select **Use this model**.
    > [!div class="mx-imgBorder"]
    > ![Subscription Churn model tile with Use this model button](media/subscription-churn-usethismodel.PNG "Subscription Churn model tile with Use this model button")
+
+### Name model
+
 1. Provide a name for the model to distinguish it from other models.
 1. Provide a name for the output entity using letters and numbers only, without any spaces. That's the name that the model entity will use. Then, select **Next**.
-1. Enter the number of **Days since subscription ended** that your business considers a customer to be in a churned state. This period is typically liked to business activities like offers or other marketing efforts trying to prevent losing the customer. Then, select **Next**.
+
+### Define customer churn
+
+1. Enter the number of **Days since subscription ended** that your business considers a customer to be in a churned state. This period is typically liked to business activities like offers or other marketing efforts trying to prevent losing the customer.
+1. Enter the number of **Days to look into future to predict churn** to set a window to predict churn for. As an example, you may only want to predict the risk of churn for your customers over the next 90 days to align to your marketing retention efforts. Predicting churn risk for longer or shorter periods of time may make it more difficult to address the factors in your churn risk profile, but this is highly dependent on your specific business requirements. Select **Next** to continue
    >[!TIP]
    > You can select **Save and close** at any time to save the prediction as a draft. You'll find the draft prediction in the **My predictions** tab to continue.
+
+### Add required data
+
 1. Select **Add data** for **Subscription history** and choose the entity that provides the subscription history information as described in the [prerequisites](#prerequisites).
 1. If the fields below aren't populated, configure the relationship from your subscription history entity to the Customer entity.
     1. Select the **Subscription history entity**.
@@ -76,6 +88,9 @@ Subscription churn prediction helps predicting whether a customer is at risk for
    > [!div class="mx-imgBorder"]
    > ![Define the entity relationship](media/subscription-churn-customeractivitiesmapping.PNG "Customer activities page showing semantic attributes that are mapped to fields in the selected customer activity entity")
 1. Select **Next**.
+
+### Set schedule and review
+
 1. Set a frequency to retrain your model. This setting is important to update the accuracy of predictions as new data is imported into Customer Insights. Most businesses can retrain once per month and get a good accuracy for their prediction.
 1. Select **Next**.
 1. Review the configuration. You can go back to any part of the prediction configuration by selecting **Edit** under the shown value. Or you can select a configuration step from the progress indicator.
