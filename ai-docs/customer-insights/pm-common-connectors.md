@@ -1,8 +1,8 @@
 ---
 title: "Common connectors guidance | Microsoft Docs"
 description: "Learn how to work with frequently used connectors for data sources in Dynamics 365 Customer Insights."
-ms.date: 12/11/2019
-ms.reviewer: mukeshpo
+ms.date: 08/19/2020
+ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -51,7 +51,7 @@ This topic extends on the content from the [Data sources](data-sources.md) artic
    > ![Connector account](media/connector-account.png "Connector account")
    
    > [!NOTE]
-   > You can find the current limitations and issues with connecting to **Common Data Service** here - https://docs.microsoft.com/en-us/power-query/connectors/commondataservice#limitations-and-issues.
+   > For more information on the current limitations and issues with connecting to **Common Data Service**, see [the connecor reference for Common Data Service - Limitations and issues](https://docs.microsoft.com/power-query/connectors/commondataservice#limitations-and-issues).
 
 ## Data stored in an Azure SQL database
 
