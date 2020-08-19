@@ -49,6 +49,9 @@ This topic extends on the content from the [Data sources](data-sources.md) artic
 
    > [!div class="mx-imgBorder"]
    > ![Connector account](media/connector-account.png "Connector account")
+   
+   > [!NOTE]
+   > You can find the current limitations and issues with connecting to **Common Data Service** here - https://docs.microsoft.com/en-us/power-query/connectors/commondataservice#limitations-and-issues.
 
 ## Data stored in an Azure SQL database
 
