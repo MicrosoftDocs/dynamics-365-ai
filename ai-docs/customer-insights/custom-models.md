@@ -1,7 +1,7 @@
 ---
 title: "Custom machine learning models | Microsoft Docs"
 description: "Work with custom models from Azure Machine Learning in Dynamics 365 Customer Insights."
-ms.date: 05/08/2020
+ms.date: 08/19/2020
 ms.reviewer: wameng
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -17,6 +17,8 @@ manager: shellyha
 ## Prerequisites
 
 - To deploy a web service, you need [Azure Machine Learning Enterprise edition](https://azure.microsoft.com/pricing/details/machine-learning/).
+
+- Currently, this feature only supports web services published through [Azure Machine Learning Classic](https://studio.azureml.net).
 
 - You need an Azure Data Lake Storage Gen2 storage account associated with your Azure Studio instance to use this feature. For more information, see [Create an Azure Data Lake Storage Gen2 storage account](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)
 
