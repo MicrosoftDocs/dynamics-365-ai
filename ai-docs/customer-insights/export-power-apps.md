@@ -27,6 +27,18 @@ After adding Customer Insights as a data connection, you can choose the followin
 - Customer: to use data from the [unified customer profile](customer-profiles.md).
 - Unified Customer Activity: to display the [activity timeline](activities.md) on the app.
 
+## Limitations
+
+Retrievable entities: You can only retrieve the Customer, UnifiedActivity and Segments entities through the Power Apps connector. Other entities are showing up, because the underlying connector supports them through triggers in Power Automate but not in Power Apps.  
+
+Delegation: Delegation is only working for the entities Customer and UnifiedActivity. 
+
+- Delegation for “Customer”: To use delegation for this entity, the respective fields need to be indexed in Search & Filter index in Customer Insights.  
+
+- Delegation for “UnifiedActivity”: delegation for this entity is restricted to the fields ActivityId and CustomerId.  
+
+- Learn more about delegation: https://docs.microsoft.com/en-us/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps 
+
 ## Example gallery control
 
 An example to use Customer Insights data, is to show customer profiles in a [gallery control](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-gallery).
