@@ -39,8 +39,8 @@ Create visualizations for your Customer Insights data with the Power BI Desktop 
 
 ## Large data sets
 
-The Customer Insights connector for Power BI is designed to work for data sets that contain up to 1 million customer profiles. Importing larger data sets may work, but it takes a long time and the process could run into a time-out due to Power BI limitations. For more information, see [Power BI: Recommendations for large data sets](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
+The Customer Insights connector for Power BI is designed to work for data sets that contain up to 1 million customer profiles. Importing larger data sets may work, but it takes a long time. Additionally, the process could run into a time-out because of Power BI limitations. For more information, see [Power BI: Recommendations for large data sets](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
 
 ### Work with a subset of data
 
-* Consider working with a subset of your Customer Insights data, by creating [segments](segments.md) instead of exporting all Customer Insights entities to Power BI.
+* Consider working with a subset of your Customer Insights data. For example, you can create [segments](segments.md) instead of exporting all Customer Insights entities to Power BI.
