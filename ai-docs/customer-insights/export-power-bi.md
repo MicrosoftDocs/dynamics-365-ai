@@ -1,7 +1,7 @@
 ---
 title: "Power BI connector | Microsoft Docs"
 description: "Learn how to use the Dynamics 365 Customer Insights connector in Power BI."
-ms.date: 08/14/2020
+ms.date: 08/19/2020
 ms.reviewer: sthe
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -29,7 +29,7 @@ Create visualizations for your Customer Insights data with the Power BI Desktop 
 
 1. **Sign in** with the same organizational account you use for Customer Insights and select **Connect**.
 
-1. In the Navigator dialog box. you see the list of all Customer Insights instances you have access to. Expand an instance and open any of the folders (Entities, Measures, Segments, Enrichments). Open e.g. the **Entities** folder, to see all entities you can import.
+1. In the **Navigator** dialog box. you see the list of all Customer Insights instances you have access to. Expand an instance and open any of the folders (Entities, Measures, Segments, Enrichments). For example, open the **Entities** folder, to see all entities you can import.
 
    ![Power BI Connector Navigator](media/power-bi-navigator.png "Power BI Connector Navigator")
 
@@ -38,7 +38,9 @@ Create visualizations for your Customer Insights data with the Power BI Desktop 
 1. You'll see a loading dialog box while your entities are loaded. Once all of your selected entities have loaded, you can use the capabilities of Power BI on Customer Insights data.
 
 ## Large data sets
-The Customer Insights connector for Power BI is designed to work for data sets up to 1 Million CI profiles. Importing larger data sets may work, but needs a long time and there is a risk of a time out due to limitatons on Power BI's side. [Learn more about Power BI's recommendation for large data sets](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
 
-### Workaround
-* Consider working with a subset of your Customer Insights data, by creating [Segments](segments.md) instead of exporting all Customer Insights entities to Power BI.
+The Customer Insights connector for Power BI is designed to work for data sets that contain up to 1 million customer profiles. Importing larger data sets may work, but it takes a long time and the process could run into a time-out due to Power BI limitations. For more information, see [Power BI: Recommendations for large data sets](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets). 
+
+### Work with a subset of data
+
+* Consider working with a subset of your Customer Insights data, by creating [segments](segments.md) instead of exporting all Customer Insights entities to Power BI.
