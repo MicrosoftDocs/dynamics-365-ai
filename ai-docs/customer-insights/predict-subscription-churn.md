@@ -1,7 +1,7 @@
 ---
 title: "Subscription churn prediction | Microsoft Docs"
 description: "Predict whether a customer is at risk for no longer using your company’s subscription products or services."
-ms.date: 05/25/2020
+ms.date: 08/19/2020
 ms.reviewer: zacook
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -40,8 +40,8 @@ Subscription churn prediction helps predicting whether a customer is at risk for
         - **Timestamp:** The date and time of the event identified by the primary key.
         - **Event:** The name of the event you want to use. For example, a field called "UserAction" in a streaming video service could have the value of "Viewed".
         - **Details:** Detailed information about the event. For example, a field called "ShowTitle" in a streaming video service could have the value of a video a customer watched.
-   >[!NOTE]
-   > You'll need at least 2 activity records for 50% of the customers you want to calculate churn for.
+   > [!NOTE]
+   > You'll need at least two activity records for 50% of the customers you want to calculate churn for.
 
 ## Create a subscription churn prediction
 
@@ -58,7 +58,7 @@ Subscription churn prediction helps predicting whether a customer is at risk for
 ### Define customer churn
 
 1. Enter the number of **Days since subscription ended** that your business considers a customer to be in a churned state. This period is typically liked to business activities like offers or other marketing efforts trying to prevent losing the customer.
-1. Enter the number of **Days to look into future to predict churn** to set a window to predict churn for. As an example, you may only want to predict the risk of churn for your customers over the next 90 days to align to your marketing retention efforts. Predicting churn risk for longer or shorter periods of time may make it more difficult to address the factors in your churn risk profile, but this is highly dependent on your specific business requirements. Select **Next** to continue
+1. Enter the number of **Days to look into future to predict churn** to set a window to predict churn for. For example, to predict the risk of churn for your customers over the next 90 days to align to your marketing retention efforts. Predicting churn risk for longer or shorter periods of time can make it more difficult to address the factors in your churn risk profile, but this is highly dependent on your specific business requirements. Select **Next** to continue
    >[!TIP]
    > You can select **Save and close** at any time to save the prediction as a draft. You'll find the draft prediction in the **My predictions** tab to continue.
 
@@ -89,7 +89,7 @@ Subscription churn prediction helps predicting whether a customer is at risk for
    > ![Define the entity relationship](media/subscription-churn-customeractivitiesmapping.PNG "Customer activities page showing semantic attributes that are mapped to fields in the selected customer activity entity")
 1. Select **Next**.
 
-### Set schedule and review
+### Set schedule and review configuration
 
 1. Set a frequency to retrain your model. This setting is important to update the accuracy of predictions as new data is imported into Customer Insights. Most businesses can retrain once per month and get a good accuracy for their prediction.
 1. Select **Next**.
