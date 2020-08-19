@@ -35,8 +35,6 @@ When an administrator enables premium auto capture, you need to give your consen
 
 -	[Timeline](#through-the-timeline)
 
--	[Assistant](#through-the-assistant)
-
 -	[Personal settings](#through-personal-settings)
 
 ### Through the timeline
@@ -51,21 +49,6 @@ When an administrator enables premium auto capture, you need to give your consen
 
     > [!div class="mx-imgBorder"]
     > ![Provide consent on the timeline](media/auto-capture-timeline-provide-consent.png "Give consent on the timeline") 
-
-
-### Through the Assistant
-
-1.	Sign in to the Dynamics 365 Sales Hub app.
-
-2.	On the site map, select an entity&mdash;for example, **Dashboard**.
-
-3.	In the **Assistant** section, select **Turn on suggestions**.
- 
-4.	In the **Turn on activity and contact suggestions** message, select **Allow access**.
- 
-    > [!div class="mx-imgBorder"]
-    > ![Provide consent through assistant](media/auto-capture-ra-provide-consent.png "Give consent through the Assistant") 
-
 
 ### Through personal settings
 
@@ -96,12 +79,12 @@ By default, a single suggestion is displayed. You can select **Show more** to di
 > [!div class="mx-imgBorder"]
 > ![Auto capture all activity suggestions](media/auto-capture-premium-all-activity-suggestions.png "Auto capture all activity suggestions")
 
--	**Save**: Select this option to add a suggestion as an activity on the timeline wall of a record. After the suggestion is added, other users in your organization can view this suggestion for the record. For example, you open an opportunity **Interest shown in AX27** and observe that there are a few suggestions available under it on the timeline. With the **Kenny Smith sent an email** suggestion selected, select the **Save** icon. The suggestion is saved as an **Kenny Smith sent an email** activity on the timeline, and will be visible for other users who access this opportunity.
+-	**Sync and connect**: Select the check mark icon to add a suggestion as an activity on the timeline wall of a record. After the suggestion is added, other users in your organization can view this suggestion for the record. For example, you open an opportunity **Interest shown in AX27** and observe that there are a few suggestions available under it on the timeline. With the **Kenny Smith sent an email** suggestion selected, select the **Save** icon. The suggestion is saved as an **Kenny Smith sent an email** activity on the timeline, and will be visible for other users who access this opportunity.
 
     > [!div class="mx-imgBorder"]
     > ![Save activity suggestion on timeline](media/auto-capture-premium-save-activity-suggestion-timeline.png "Saved activity suggestion on the timeline") 
 
--	**Edit**: Select this option to add a suggestion as an activity for another record. When you edit and save the suggestion, it's available as an activity on the timeline of the other record and will be visible for users who have access to the record. For example, you open an email from **Kenny Smith**. On the timeline, you observe that the **Kenny Smith sent an email** suggestion is more appropriate for **Jim Glynn** than the suggestion. Select the edit option, and then use the **Regarding** lookup to choose **Jim Glynn**. 
+-	**Edit**: Select the pencil icon to add a suggestion as an activity for another record. When you edit and save the suggestion, it's available as an activity on the timeline of the other record and will be visible for users who have access to the record. For example, you open an email from **Kenny Smith**. On the timeline, you observe that the **Kenny Smith sent an email** suggestion is more appropriate for **Jim Glynn** than the suggestion. Select the edit option, and then use the **Regarding** lookup to choose **Jim Glynn**. 
  
     > [!div class="mx-imgBorder"]
     > ![Edit activity suggestion on timeline](media/auto-capture-premium-edit-activity-suggestion-timeline.png "Edit an activity suggestion on the timeline") 
@@ -125,7 +108,11 @@ The Activity suggestions grid consists of the following columns:
 
 -	**Subject**: This column specifies the subject line of the activity.
 
+-	**Regarding entity**: This column specifies the entity to which the activity could be added.
+
 -	**Regarding**: This column specifies the record to which the activity can be added.
+
+-	**Created date**: This column specifies the date and time on which the activity is created.
 
 Also, the Assistant displays a card to alert you when new activity suggestions are available. Select **Open activity suggestions** to open the activity suggestions grid and take appropriate action on the suggestions.
 
@@ -134,17 +121,17 @@ Also, the Assistant displays a card to alert you when new activity suggestions a
 
 You can perform the following actions on the suggested activities:
 
--	Save, edit, or delete an activity
+-	Sync and connect, edit, or remove an activity
 
--	Save or delete multiple activities
+-	Sync and connect, or remove multiple activities
 
-### Save an activity
+### Sync and connect an activity
 
 To save an activity so it will be visible on the timeline for a record for other sales personnel, follow these steps:
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select **AutoCapture Preview** > **Activity suggestions**.
+2.	On the site map, select **My work** > **Activity suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
@@ -154,12 +141,12 @@ To save an activity so it will be visible on the timeline for a record for other
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
 
-4.	On the toolbar, select **Save as activity**.
+4.	On the toolbar, select **Sync and connect**.
 
     > [!div class="mx-imgBorder"]
     > ![Save activity suggestion confirmation message](media/auto-capture-premium-save-activity-confirmation-message.png "Save activity suggestion confirmation message")
  
-5.	In the confirmation message that appears, select **Save**.
+5.	In the confirmation message that appears, select **Sync and connect**.
 
 The activity suggestion is removed from the suggestions list and added to the timeline of the **Regarding** record, making it visible for everyone who has access to the record.
 
@@ -169,7 +156,7 @@ After reviewing the activity suggestion, perhaps you decide that the suggestion 
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select **AutoCapture Preview** > **Activity suggestions**.
+2.	On the site map, select **My work** > **Activity suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
@@ -179,24 +166,24 @@ After reviewing the activity suggestion, perhaps you decide that the suggestion 
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
 
-4.	Select **Edit and save**.
+4.	Select **Edit**.
 
 5.	In the **Regarding** lookup, select an appropriate **Regarding** record for the activity suggestion. In this example, we're selecting **Jim Glynn**.
 
     > [!div class="mx-imgBorder"]
     > ![Edit activity suggestion on timeline](media/auto-capture-premium-edit-activity-suggestion-timeline.png "Edit an activity suggestion on the timeline") 
 
-6.	Select **Save**.
+6.	Select **Sync and connect**.
 
 The activity suggestion is removed from the suggestions list and added to the timeline of the **Regarding** record, making it visible for everyone who has access to the record.
 
-### Delete an activity
+### remove an activity
 
-Delete any activity suggestions that you don't want to add as activities on the timeline. Follow these steps:
+Remove any activity suggestions that you don't want to add as activities on the timeline. Follow these steps:
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select **AutoCapture Preview** > **Activity suggestions**.
+2.	On the site map, select **My work** > **Activity suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
@@ -209,7 +196,7 @@ Delete any activity suggestions that you don't want to add as activities on the 
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
  
-4.	Select **Delete**.
+4.	Select **Remove**.
 
     > [!div class="mx-imgBorder"]
     > ![Delete activity suggestion confirmation message](media/auto-capture-premium-delete-activity-confirmation-message.png "Delete activity suggestion confirmation message")
@@ -240,7 +227,7 @@ Also, the Assistant displays a card to alert you when a contact suggestion is av
  
 You can perform the following actions on the suggested contacts:
 
--	Edit, save, or delete a contact
+-	Save, edit and save, or delete a contact
 
 -	Save or delete multiple contacts
 
@@ -250,7 +237,7 @@ To save a contact, follow these steps:
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select **AutoCapture Preview** > **Contact suggestions**.
+2.	On the site map, select **Customer** > **Contact suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestions grid view")
@@ -269,13 +256,13 @@ To save a contact, follow these steps:
 
 A success message is displayed at the bottom of the screen, and the contact is created in your Dynamics 365 organization.
  
-### Edit contact
+### Edit and save contact
 
 After reviewing the contact suggestion, you identify that some information of the contact suggestion needs update. You can update the information and save. Follow these steps:
 
 1.	Sign in to Dynamics 365 Sales Hub app.
 
-2.	From the site map, select **AutoCapture Preview** > **Contact suggestions**.
+2.	From the site map, select **Customer** > **Contact suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestion grid view")
