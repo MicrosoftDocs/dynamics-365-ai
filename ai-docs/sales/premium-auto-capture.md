@@ -108,11 +108,11 @@ The Activity suggestions grid consists of the following columns:
 
 -	**Subject**: This column specifies the subject line of the activity.
 
--	**Regarding entity**: This column specifies the entity to which the activity could be added.
+-	**Regarding Entity**: This column specifies the entity to which the activity could be added.
 
 -	**Regarding**: This column specifies the record to which the activity can be added.
 
--	**Created date**: This column specifies the date and time on which the activity is created.
+-	**Created Date**: This column specifies the date and time on which the activity is created.
 
 Also, the Assistant displays a card to alert you when new activity suggestions are available. Select **Open activity suggestions** to open the activity suggestions grid and take appropriate action on the suggestions.
 
@@ -216,7 +216,7 @@ The contact suggestions grid consists of the following columns:
 
 -	**Full Name**: This column specifies the full name of the suggested contact.
 
--	**Company Name**: This column specifies the name of the company with which the suggested contact is associated.
+-	**Account Name**: This column specifies the name of the company with which the suggested contact is associated.
 
 -	**Email**: This column specifies the email address of the suggested contact.
 
@@ -287,7 +287,7 @@ Delete contact suggestions if you don't want to add them to your contact list. F
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	On the site map, select **AutoCapture Preview** > **Contact suggestions**.
+2.	On the site map, select **Customer** > **Contact suggestions**.
 
     > [!div class="mx-imgBorder"]
     > ![Contact suggestion grid view](media/auto-capture-premium-contact-suggestion-grid-view.png "Contact suggestions grid view")
