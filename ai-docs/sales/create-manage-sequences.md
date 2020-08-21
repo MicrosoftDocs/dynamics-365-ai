@@ -138,11 +138,24 @@ Next, you connect the active sequence to lead or opportunity records.
 
 After you create and activate the sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.
 
-**To connect a sequence to records**
+>[!NOTE]
+>- You must have the sequence manager, sales manager, or administrator role to access and connect a sequence to records.
+>- You can connect sequence to the following type of records only:
+>   - Leads that are in **New** state.
+>   - Opportunities that are in **Open** state. 
+
+You can connect a sequence to records in the following ways:
+
+- [Through the lead or opportunity grid view](#ContactThroughGridView)
+- [Through a record](#ContactThroughARecord)
+- [Through a sequence](#ContactThroughASequence)
+
+<a name="ContactThroughGridView"></a>
+**Through the lead or opportunity grid view**
 
 1. Sign in to the **Sales Hub** app.
 
-2. At the bottom of the site map, select **Change area** > **Sales**.
+2. Go to **Change area** in the lower-left corner of the page and select **Sales**.
 
 3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.
 
@@ -168,7 +181,76 @@ After you create and activate the sequence for the selling process, you connect 
 
 6. Select a sequence, and then select **Connect**.
 
-A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
+    A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
+
+<a name="ContactThroughARecord"></a>
+**Through a record**
+
+1. Sign in to the **Sales Hub** app.
+
+2. Go to **Change area** in the lower-left corner of the page and select **Sales**.
+
+3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.
+
+    In this example, we select **Leads**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Lead view](media/sequence-connect-lead-view.png "Lead view")
+    
+4. Open a record to which you want to connect the sequence. In this example, we opened the lead **Nancy Anderson**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Open a leads to connect the sequence to](media/sequence-open-lead-connect-sequence.png "Open a lead to connect the sequence to")
+
+    >[!NOTE]
+    >You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records).
+    
+5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
+
+    In this example, a list of sequences that are configured for the **Lead** entity is displayed. 
+
+    > [!div class="mx-imgBorder"]
+    > ![List of sequences for leads](media/sequence-lead-list-sequence.png "List of sequences for leads")
+
+6. Select a sequence, and then select **Connect**.
+
+    A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
+
+<a name="ContactThroughASequence"></a>
+**Through a sequence**
+
+1. Sign in to the **Sales Hub** app.
+
+2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.
+
+3. Under **Acceleration**, select **Sequence (preview)**.
+
+4. On the **Sequences (preview)** page, select the **Active** tab.
+
+    > [!div class="mx-imgBorder"]
+    > ![Active sequences list view](media/sequence-home-page-active-sequence.png "Active sequences list view")
+    
+5. Hover over a sequence, and then select **More options** > **Properties**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select properties](media/sequence-active-sequence-select-properties.png "Select properties")
+
+    The sequence opens in the **Summary** view. You can view the details of the sequence such as the name of the sequence, its owner, its status, the entity that the sequence is connected with, and the total number of activities defined in it.
+
+    > [!div class="mx-imgBorder"]
+    > ![Active sequence summary page](media/sequence-active-sequence-summary.png "Active sequence summary page")
+
+6. Select the **Connected records** tab and then select **Connect records**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select connect records](media/sequence-select-connect-records.png "Select connect records")
+
+7. From the list, select records that you want to connect to the sequence and then select **Connect**. In this example, we are connecting the lead **Debra Garcia** to the sequence.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select records to connect](media/sequence-select-records-to-connect.png "Select records to connect")
+
+    The record is connected to the sequence and displayed in the list. Now, sellers who have access to the record can see the activities connected with it.    
 
 ## View details of a sequence and its connected records
 
@@ -202,7 +284,9 @@ You can view the details of a sequence and the records connected with it. This v
     > [!div class="mx-imgBorder"]
     > ![View connected records](media/sequence-active-sequence-view-connected-records.png "View connected records")
 
-7. To remove a record from the sequence, select the record, and then select **Disconnect**.
+7. To connect records, select **Connect records**. More information: [Connect records through a sequence](#ContactThroughASequence)    
+
+8. To remove a record from the sequence, select the record, and then select **Disconnect**.
 
     > [!div class="mx-imgBorder"]
     > ![Select a record to remove](media/sequence-active-sequence-remove-record.png "Select a record to remove")
