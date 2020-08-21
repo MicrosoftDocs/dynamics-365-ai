@@ -29,15 +29,19 @@ After adding Customer Insights as a data connection, you can choose the followin
 
 ## Limitations
 
-Retrievable entities: You can only retrieve the Customer, UnifiedActivity and Segments entities through the Power Apps connector. Other entities are showing up, because the underlying connector supports them through triggers in Power Automate but not in Power Apps.  
+### Retrievable entities
 
-Delegation: Delegation is only working for the entities Customer and UnifiedActivity. 
+You can only retrieve the **Customer**, **UnifiedActivity** and **Segments** entities through the Power Apps connector. Other entities are shown because the underlying connector supports them through triggers in Power Automate.  
 
-- Delegation for “Customer”: To use delegation for this entity, the respective fields need to be indexed in Search & Filter index in Customer Insights.  
+### Delegation
 
-- Delegation for “UnifiedActivity”: delegation for this entity is restricted to the fields ActivityId and CustomerId.  
+Delegation works for the Customer entity and UnifiedActivity entity. 
 
-- Learn more about delegation: https://docs.microsoft.com/en-us/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps 
+- Delegation for **Customer** entity: To use delegation for this entity, the fields need to be indexed in [Search & filter index](search-filter-index.md) in Customer Insights.  
+
+- Delegation for **UnifiedActivity**: Delegation for this entity only works for the fields **ActivityId** and **CustomerId**.  
+
+- For more information about delegation, see [Power Apps delegable functions and operations](https://docs.microsoft.com/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps). 
 
 ## Example gallery control
 
