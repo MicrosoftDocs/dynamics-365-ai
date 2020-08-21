@@ -31,7 +31,7 @@ After adding Customer Insights as a data connection, you can choose the followin
 
 ### Retrievable entities
 
-You can only retrieve the **Customer**, **UnifiedActivity** and **Segments** entities through the Power Apps connector. Other entities are shown because the underlying connector supports them through triggers in Power Automate.  
+You can only retrieve the **Customer**, **UnifiedActivity**, and **Segments** entities through the Power Apps connector. Other entities are shown because the underlying connector supports them through triggers in Power Automate.  
 
 ### Delegation
 
