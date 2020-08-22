@@ -1,7 +1,7 @@
 ---
 title: "Power Apps connector | Microsoft Docs"
 description: "Connect Dynamics 365 Customer Insights with Power Apps and Power Automate."
-ms.date: 07/24/2020
+ms.date: 08/21/2020
 ms.reviewer: nikeller
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -26,6 +26,22 @@ After adding Customer Insights as a data connection, you can choose the followin
 
 - Customer: to use data from the [unified customer profile](customer-profiles.md).
 - Unified Customer Activity: to display the [activity timeline](activities.md) on the app.
+
+## Limitations
+
+### Retrievable entities
+
+You can only retrieve the **Customer**, **UnifiedActivity**, and **Segments** entities through the Power Apps connector. Other entities are shown because the underlying connector supports them through triggers in Power Automate.  
+
+### Delegation
+
+Delegation works for the Customer entity and UnifiedActivity entity. 
+
+- Delegation for **Customer** entity: To use delegation for this entity, the fields need to be indexed in [Search & filter index](search-filter-index.md) in Customer Insights.  
+
+- Delegation for **UnifiedActivity**: Delegation for this entity only works for the fields **ActivityId** and **CustomerId**.  
+
+- For more information about delegation, see [Power Apps delegable functions and operations](https://docs.microsoft.com/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps). 
 
 ## Example gallery control
 
