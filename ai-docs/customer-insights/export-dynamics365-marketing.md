@@ -1,7 +1,7 @@
 ---
 title: "Export Customer Insights data to Dynamics 365 Marketing | Microsoft Docs"
 description: "Learn how to configure the connection to Dynamics 365 Marketing."
-ms.date: 05/18/2020
+ms.date: 08/21/2020
 ms.reviewer: philk
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -33,6 +33,10 @@ Contact records [from Dynamics 365 Marketing ingested to Customer Insights using
 1. Map a Customer Insights field to the Dynamics 365 Contact ID.
 
 1. Select **Next**.
+
+1. Choose one or more segments.
+
+1. Select **Save**.
 
 ## Export the data
 
