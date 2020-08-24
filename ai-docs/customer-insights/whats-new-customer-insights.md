@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 08/04/2020
+ms.date: 08/24/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -22,6 +22,32 @@ We roll out updates on a region-by-region basis. So certain regions might see fe
 
 > [!TIP]
 > To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=79a8c474-4e35-e911-a971-000d3a4f3343&forumName=Dynamics%20365%20Customer%20Insights).
+
+## August 2020 updates
+
+The Dynamics 365 Customer Insights updates in August 2020 include several features, performance upgrades, and bug fixes.
+
+### New and updated features in August 2020
+
+#### Data unification
+
+- **Improved experience for the map stage during data unification**
+
+  The experience to the map stage in the data unification process lets you select entities, attributes, and define semantics in a more seamless way.
+
+  The changes include:
+  
+  - fewer interactions required to add entities and fields
+  - improved search capabilities on the map page
+  - visual and easy identification of the suggested field type
+
+#### Enrichment
+
+- **Interest affinities enrichment available in additional markets**
+
+  We're extending the availability of the interest affinities enrichment beyond the United States to five additional markets: Canada, Australia, United Kingdom, France, and Germany. With this extension, you can enrich your customer data with additional interests applicable to these markets. We'll also enrich your customer profiles that are located in these markets by using local proprietary data from Microsoft Graph.
+  For more information, see [Enrich customer profiles with brand and interest affinities](enrichment-microsoft-graph.md)
+
 
 ## July 2020 updates
 
