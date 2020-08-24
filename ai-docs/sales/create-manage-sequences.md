@@ -32,7 +32,7 @@ As a sales manager, you can use the sequence designer to:
 
 Before you start, be sure you have met the following prerequisites:
 
-- You have the **Sequence Manager** security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+- You must have the sequence manager, sales manager, or administrator role to access and connect a sequence to records. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 - The sales accelerator has been enabled and installed in your organization. More information: [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md).
 
@@ -139,8 +139,7 @@ Next, you connect the active sequence to lead or opportunity records.
 After you create and activate the sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.
 
 >[!NOTE]
->- You must have the sequence manager, sales manager, or administrator role to access and connect a sequence to records.
->- You can connect sequence to the following type of records only:
+>You can connect sequence to the following type of records only:
 >   - Leads that are in **New** state.
 >   - Opportunities that are in **Open** state. 
 
