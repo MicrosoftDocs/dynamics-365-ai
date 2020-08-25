@@ -70,10 +70,23 @@ The sales accelerator is now enabled, and you can configure it for your organiza
     >[!div class="mx-imgBorder"]
     >![Choose content and layout for entities](media/sa-choose-content-layout.png "Choose content and layout for entities") 
 
-4. In the **Engagement channels** section, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.
+4. In the **Engagement channels** section, configure the following options:
 
-    >[!div class="mx-imgBorder"]
-    >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
+    - Select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.
+
+        >[!div class="mx-imgBorder"]
+        >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
+
+    -  Configure **Phone number priority** by choosing the phone numbers in the order for which the dialer should use when calls are initiated from the **UP next** widget through sequence step or from the work list. The order is initiated as **Default**, **Fallback1**, and **Fallback2**.
+        
+        For example, select **Default** as **Business Phone**, **Fallback1** as **Mobile Phone**, and **Fallback2** as **Home Phone**. When sellers initiate call, the **Business Phone** is dialed. If the lead or primary contact doesn't have business phone, the **Mobile phone** is dialed. If the lead or primary contact doesn't have business and mobile phone, the **Home Phone** is dialed.      
+
+        >[!NOTE]
+        >For opportunities, the phone number priority will be applied to the primary contacts.
+
+        >[!div class="mx-imgBorder"]
+        >![Choose phone numbers in the order to initiate call](media/sa-engagement-channel-phonecall-priority.png "Choose phone numbers in the order to initiate call")
+
 
 5. In the **Security roles** section, select one of the following options to provide permissions to users to access the Sales Hub app.
 
