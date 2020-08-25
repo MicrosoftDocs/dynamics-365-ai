@@ -87,22 +87,22 @@ The Sales Insights features support the following versions of Exchange:
 
 <table>
 <tr>
-<th>Feature</th><th>Exchange Online</th><th>Exchange Server 2013 and above</th><th>With no Exchange</th>
+<th>Feature</th><th>Exchange Online</th><th>Exchange Server 2013 and above</th><th>Is Exchange required?</th>
 </tr>
 <tr>
-<td>Relationship analytics and health</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
+<td>Relationship analytics and health</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
 </tr>
 <tr>
-<td>Assistant</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
+<td>Assistant</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
 </tr>
 <tr>
-<td>Email engagement</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td>
+<td>Email engagement</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td>
 </tr>
 <tr>
-<td>Who knows whom</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
+<td>Who knows whom</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
 </tr>
 <tr>
-<td>Talking points</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
+<td>Talking points</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
 </tr>
 </table>
 
