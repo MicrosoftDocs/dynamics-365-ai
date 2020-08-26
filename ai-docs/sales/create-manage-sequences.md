@@ -65,24 +65,24 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
 7. Choose and configure one of the following activities:
 
-   > [!div class="mx-imgBorder"]
-   > ![Choose an activity](media/sequence-choose-activity.png "Choose an activity")
+    > [!div class="mx-imgBorder"]
+    > ![Choose an activity](media/sequence-choose-activity.png "Choose an activity")
     
-   - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template if one was selected. If no template was selected, an empty email composer opens.
+    - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template if one was selected. If no template was selected, an empty email composer opens.
 
-      > [!div class="mx-imgBorder"]
-      > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity") 
+       > [!div class="mx-imgBorder"]
+       > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity") 
 
-      Enter the following information to configure the email activity:
+       Enter the following information to configure the email activity:
 
-      1. A name and description for the activity. The information you enter here will be displayed to sellers.
+       1. A name and description for the activity. The information you enter here will be displayed to sellers.
 
-      2. If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step.
+       2. If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step.
 
-      3. Save the activity.
+       3. Save the activity.
 
-         > [!div class="mx-imgBorder"]
-         > ![Email activity](media/sequence-activity-email-created.png "Email activity")
+          > [!div class="mx-imgBorder"]
+          > ![Email activity](media/sequence-activity-email-created.png "Email activity")
 
     - **Phone call**: Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.
 
