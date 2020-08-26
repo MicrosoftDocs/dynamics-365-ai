@@ -95,7 +95,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         > ![Phone call activity](media/sequence-activity-phone-call-created.png "Phone call activity")
 
 
-        <!-- from editor: Please check the rewording in the following sentence. -->
+        <!-- from editor: Please check the rewording I made in the following sentence. -->
 
 
     - **Task**: Creates a custom activity that you define, such as scheduling a meeting with the customer, that is not specified in the activity selector.
