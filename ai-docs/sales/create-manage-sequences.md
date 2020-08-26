@@ -94,7 +94,11 @@ Every organization has its own selling processes for sellers to follow. A sequen
         > [!div class="mx-imgBorder"]
         > ![Phone call activity](media/sequence-activity-phone-call-created.png "Phone call activity")
 
-    - **Task**: Creates a custom activity that you define, such as scheduling a meeting and meet the customer on the field that are not specified in the activity selector.
+
+        <!-- from editor: Please check the rewording in the following sentence. -->
+
+
+    - **Task**: Creates a custom activity that you define, such as scheduling a meeting with the customer, that is not specified in the activity selector.
 
         > [!div class="mx-imgBorder"]
         > ![Add a custom task activity](media/sequence-activity-add-task.png "Add a custom task activity")
@@ -124,13 +128,13 @@ Every organization has its own selling processes for sellers to follow. A sequen
     
 11. Select **Yes** in the confirmation message that appears.
 
-    >[!NOTE]
-    >An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.  
+    > [!NOTE]
+    > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.  
     
     The sequence is activated and listed in the sequence designer home page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page") 
+    > [!div class="mx-imgBorder"]
+    > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page") 
 
 Next, you connect the active sequence to lead or opportunity records.
 
@@ -138,10 +142,10 @@ Next, you connect the active sequence to lead or opportunity records.
 
 After you create and activate the sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.
 
->[!NOTE]
->You can connect sequence to the following type of records only:
->   - Leads that are in **New** state.
->   - Opportunities that are in **Open** state. 
+> [!NOTE]
+> You can connect a sequence to the following types of records only:
+> - Leads that are in **New** state.
+> - Opportunities that are in **Open** state. 
 
 You can connect a sequence to records in the following ways:
 
@@ -168,8 +172,8 @@ You can connect a sequence to records in the following ways:
     > [!div class="mx-imgBorder"]
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")
 
-    >[!NOTE]
-    >You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
+    > [!NOTE]
+    > You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
 
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
 
@@ -199,10 +203,10 @@ You can connect a sequence to records in the following ways:
 4. Open a record to which you want to connect the sequence. In this example, we opened the lead **Nancy Anderson**.
 
     > [!div class="mx-imgBorder"]
-    > ![Open a leads to connect the sequence to](media/sequence-open-lead-connect-sequence.png "Open a lead to connect the sequence to")
+    > ![Open a lead to connect the sequence to](media/sequence-open-lead-connect-sequence.png "Open a lead to connect the sequence to")
 
-    >[!NOTE]
-    >You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records).
+    > [!NOTE]
+    > You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records).
     
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
 
@@ -232,7 +236,7 @@ You can connect a sequence to records in the following ways:
 5. Hover over a sequence, and then select **More options** > **Properties**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select properties](media/sequence-active-sequence-select-properties.png "Select properties")
+    > ![Select Properties](media/sequence-active-sequence-select-properties.png "Select Properties")
 
     The sequence opens in the **Summary** view. You can view the details of the sequence such as the name of the sequence, its owner, its status, the entity that the sequence is connected with, and the total number of activities defined in it.
 
@@ -242,9 +246,9 @@ You can connect a sequence to records in the following ways:
 6. Select the **Connected records** tab and then select **Connect records**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select connect records](media/sequence-select-connect-records.png "Select connect records")
+    > ![Select Connect records](media/sequence-select-connect-records.png "Select Connect records")
 
-7. From the list, select records that you want to connect to the sequence and then select **Connect**. In this example, we are connecting the lead **Debra Garcia** to the sequence.
+7. From the list, select the records that you want to connect to the sequence and then select **Connect**. In this example, we are connecting the lead **Debra Garcia** to the sequence.
 
     > [!div class="mx-imgBorder"]
     > ![Select records to connect](media/sequence-select-records-to-connect.png "Select records to connect")
@@ -286,6 +290,10 @@ You can view the details of a sequence and the records connected with it. This v
 7. To connect records, select **Connect records**. More information: [Connect records through a sequence](#ContactThroughASequence)    
 
 8. To remove a record from the sequence, select the record, and then select **Disconnect**.
+
+
+<!-- note from editor: The image shows that the button to select is "Remove," not "Disconnect." -->
+
 
     > [!div class="mx-imgBorder"]
     > ![Select a record to remove](media/sequence-active-sequence-remove-record.png "Select a record to remove")
@@ -358,4 +366,4 @@ You can delete sequences that your organization no longer needs, and they'll be 
 ### See also
 
 [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md)  
-[Prioritize the sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
