@@ -77,9 +77,9 @@ The sales accelerator is now enabled, and you can configure it for your organiza
         >[!div class="mx-imgBorder"]
         >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
 
-    -  Configure **Phone number priority** by choosing the phone numbers in the order for which the dialer should use when calls are initiated from the **UP next** widget through sequence step or from the work list. The order is initiated as **Default**, **Fallback1**, and **Fallback2**.
-        
-        For example, select **Default** as **Business Phone**, **Fallback1** as **Mobile Phone**, and **Fallback2** as **Home Phone**. When sellers initiate call, the **Business Phone** is dialed. If the lead or primary contact doesn't have business phone, the **Mobile phone** is dialed. If the lead or primary contact doesn't have business and mobile phone, the **Home Phone** is dialed.      
+    -  In **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they are listed.
+
+        For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dailed, if it is available. If it is not available, the call goes to the next option.      
 
         >[!NOTE]
         >For opportunities, the phone number priority will be applied to the primary contacts.
