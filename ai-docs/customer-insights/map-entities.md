@@ -31,9 +31,9 @@ For more information about the general flow of data unification, see [Unify](dat
    > [!div class="mx-imgBorder"]
    > ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-   In this example, we're adding the **eCommerceContacts** and **loyCustomers** entities. By shoosing these entities, you can derive insights on which of the online business customers are loyalty program members.
+   In this example, we're adding the **eCommerceContacts** and **loyCustomers** entities. By choosing these entities, you can derive insights on which of the online business customers are loyalty program members.
    
-   You can search on keywords across all attributes and entites to select the required attributes you want to map.
+   You can search on keywords across all attributes and entities to select the required attributes you want to map.
    
      > [!div class="mx-imgBorder"]
    > ![Search fields example](media/data-manager-configure-map-search-fields-example.png "Search fields example")
@@ -42,7 +42,7 @@ For more information about the general flow of data unification, see [Unify](dat
 
 ## Select primary key and semantic type for attributes
 
-After selecting your entities, the **Map** page lists the selected entities for your review. You need to define the primary key for an entity and identify the semantic type for an attribute in the entity.
+After selecting your entities, the **Map** page lists the selected entities for your review. Define the primary key for an entity and identify the semantic type for an attribute in the entity.
 
 - **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from. Numeric data type support will be available in the upcoming releases.
 
@@ -55,7 +55,7 @@ Attributes that aren't automatically mapped to a semantic type are grouped in th
 > [!div class="mx-imgBorder"]
 > ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
 
-The type field drop-down shows the recommended semantic type as the first value with an star symbol.
+The type field drop-down shows the recommended semantic type as the first value with a star symbol.
 
 > [!NOTE]
 > One field should map to the semantic type Person.FullName to populate the customer name in customer card. Otherwise, the customer cards will appear nameless. 
@@ -78,15 +78,15 @@ The type field drop-down shows the recommended semantic type as the first value 
 
 If an entity contains URLs to publicly available profile images or logos, you can add them to the unified customer profile.
 
-Select the entity and find the field that contains the URL to the profile image. In the **Type** input field manually enter the following value: 
+Select the entity and find the field that contains the URL to the profile image. In the **Type** input field, manually enter the following value: 
 - For a person: Person.ProfileImage
 - For an organization: Organization.LogoImage
 
-Proceed with the unification steps and ensure the attribute that contains the image URL is also added in the [Merge](merge-entities.md) step.
+Continue with the unification steps and ensure the attribute that contains the image URL is also added in the [Merge](merge-entities.md) step.
 
 ## Set attributes for organizations
 
-For rganizations (Preview), the attribute type should be mapped to "Organization.Name"
+For organizations (Preview), the attribute type should be mapped to "Organization.Name"
 > [!div class="mx-imgBorder"]
 > ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
 
