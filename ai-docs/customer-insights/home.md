@@ -1,7 +1,7 @@
 ---
 title: "Home page in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Start exploring the app on the Home page in Dynamics 365 Customer Insights."
-ms.date: 06/24/2020
+ms.date: 08/27/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -20,11 +20,11 @@ The first page you'll see in Dynamics 365 Customer Insights is **Home**. This pa
 
 ## Explore the home page
 
-Under **Insights**, you'll see tiles with [measures](measures.md). Measures are key performance indicators (KPIs) that you've defined, such as average likelihood of customer churn or average online spend per customer.
+Under **Recent segments**, you see groups of customers based on demographic, behavioral, or transactional attributes that you've defined. [Creating segments](segments.md) helps you to better target your business activities.
 
-The **Potential interests** and **Potential brands** sections help you to gain a greater insight into your customer base by understanding the interests and brands that they have affinity for. This information can be unlocked using the [enrichment](enrichment-microsoft-graph.md) capabilities, after completing the [map](map-entities.md), [match](match-entities.md), and [merge](merge-entities.md) phases.
+**Recent measures** shows tiles with [measures](measures.md). Measures are key performance indicators (KPIs) that you've defined, such as average likelihood of customer churn or average online spend per customer.
 
-**Segments** displays groups of customers based on demographic, behavioral, or transactional attributes that you've defined. [Creating segments](segments.md) helps you to better target your business activities.
+The **Recent enrichments** section lists the results of the enrichment runs that completed recently. Enrichments add information about your customer base. For example, by understanding the interests and brands that they have affinity for. This information can be unlocked using the [enrichment](enrichment-microsoft-graph.md) capabilities, after completing the [map](map-entities.md), [match](match-entities.md), and [merge](merge-entities.md) phases.
 
 ## Change between environments
 
