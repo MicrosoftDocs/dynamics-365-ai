@@ -44,16 +44,16 @@ For more information about the general flow of data unification, see [Unify](dat
 
 After selecting your entities, the **Map** page lists the selected entities for your review. You need to define the primary key for an entity and identify the semantic type for an attribute in the entity.
 
-> [!div class="mx-imgBorder"]
-> ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
-
 - **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as parimary keys and will be displayed in a field for you to select from. *Numeric data type support will be available in the upcoming releases.*
 
 - **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
 
 All attributes for which a semantic type is auto-identified by the system are grouped into a *mapped fields* section. Those attributes include names, email address, and several others. Review these attributes and their specified types since they'll be used to combine your entities in the *merge* configuration phase.
 
-Any attributes that are not auto-identified with a semantic type by the system will be grouped in *unmapped fields* section. Select the type field for that attribute, and type your custom attribute-type name. Once you identify a semantic type, that attribute will automatically be moved into the *mapped fields* section. 
+Any attributes that are not auto-identified with a semantic type by the system will be grouped in *unmapped fields* section. Select the type field for that attribute, and type your custom attribute-type name. Once you identify a semantic type, that attribute will automatically be moved into the *mapped fields* section.
+
+> [!div class="mx-imgBorder"]
+> ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
 
 The type field displays the system recommended semantic type as the first value in the type fields with an star indicator.
 
