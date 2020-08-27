@@ -26,36 +26,36 @@ For more information about the general flow of data unification, see [Unify](dat
 
 2. Start the map phase by selecting **Select entities**.
 
-3. Select the entities and attributes you want to use in the *match* and *merge* phases. You can include all attributes from an entity by selecting the "include all fields" checkbox at the entity level or select the required attributes individually from an entity. We recommend selecting at least two entities to benefit from the data unification process.
+3. Select the entities and attributes you want to use in the *match* and *merge* phases. You can select the required attributes individually from an entity or include all attributes from an entity by selecting the **Include all fields** checkbox on the entity level. We recommend selecting at least two entities to benefit from the data unification process.
 
    > [!div class="mx-imgBorder"]
    > ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
 
-   For example, we're adding the **eCommerceContacts** and **loyCustomers** entities. By picking these entities to unify the customer data, you can derive meaningful insights on which of the online business customers are loyalty program members in your business.
+   In this example, we're adding the **eCommerceContacts** and **loyCustomers** entities. By shoosing these entities, you can derive insights on which of the online business customers are loyalty program members.
    
-   You can search on keywords across all attribute names and entity names and select the required attributes to map.
+   You can search on keywords across all attributes and entites to select the required attributes you want to map.
    
      > [!div class="mx-imgBorder"]
    > ![Search fields example](media/data-manager-configure-map-search-fields-example.png "Search fields example")
 
 4. Select **Apply** to confirm your selections.
 
-## Select primary key and define semantic type for attributes
+## Select primary key and semantic type for attributes
 
 After selecting your entities, the **Map** page lists the selected entities for your review. You need to define the primary key for an entity and identify the semantic type for an attribute in the entity.
 
-- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from. *Numeric data type support will be available in the upcoming releases.*
+- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from. Numeric data type support will be available in the upcoming releases.
 
-- **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
+- **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for an attribute, and type your custom semantic type name. You can also change the attribute types that were identified by the system.
 
-All attributes for which a semantic type is auto-identified by the system are grouped into a *mapped fields* section. Those attributes include names, email address, and several others. Review these attributes and their specified types since they'll be used to combine your entities in the *merge* configuration phase.
+All attributes for which a semantic type is automatically identified are grouped in the **Review mapped fields** section. Review these attributes and their semantic types because they'll be used to combine your entities in the merge step of data unification.
 
-Any attributes that are not auto-identified with a semantic type by the system will be grouped in *unmapped fields* section. Select the type field for that attribute, and type your custom attribute-type name. Once you identify a semantic type, that attribute will automatically be moved into the *mapped fields* section.
+Attributes that aren't automatically mapped to a semantic type are grouped in the **Define the data in the unmapped fields** section. Select the semantic type field for the unmapped attributes, or enter your custom attribute-type name.
 
 > [!div class="mx-imgBorder"]
 > ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
 
-The type field displays the system recommended semantic type as the first value in the type fields with an star indicator.
+The type field drop-down shows the recommended semantic type as the first value with an star symbol.
 
 > [!NOTE]
 > One field should map to the semantic type Person.FullName to populate the customer name in customer card. Otherwise, the customer cards will appear nameless. 
@@ -67,7 +67,7 @@ The type field displays the system recommended semantic type as the first value 
 
 1. On **Unify** > **Map**, select **Edit fields**.
 
-2. In the **Edit fields** panel, add or remove attributes and entities. Use the search or scroll down to find and select your attributes and entities of interest. You can't remove an attribute or an entity if they've already been matched.
+2. In the **Edit fields** pane, add or remove attributes and entities. Use the search or scroll to find and select your attributes and entities of interest. You can't remove an attribute or an entity if they've already been matched.
 
    > [!div class="mx-imgBorder"]
    > ![Add or remove attributes](media/configure-data-map-edit.png "Add or remove attributes")
@@ -86,7 +86,7 @@ Proceed with the unification steps and ensure the attribute that contains the im
 
 ## Set attributes for organizations
 
-For Organizations (Preview), the attribute type should be mapped to "Organization.Name"
+For rganizations (Preview), the attribute type should be mapped to "Organization.Name"
 > [!div class="mx-imgBorder"]
 > ![Primary key and attribute type B2B](media/configure-data-map-edit-b2b.png "Primary key and attribute type B2B")
 
