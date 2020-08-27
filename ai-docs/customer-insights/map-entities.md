@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Map data to create unified customer profiles in Dynamics 365 Customer Insights."
-ms.date: 06/24/2020
+ms.date: 08/27/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -24,9 +24,9 @@ For more information about the general flow of data unification, see [Unify](dat
 
 1. In Customer Insights, go to **Data** > **Unify** > **Map**.
 
-2. Start the map phase by selecting **+ Select entities**.
+2. Start the map phase by selecting **Select entities**.
 
-3. Select the entities and attributes you want to use in the *match* and *merge* phases. You can include all attributes from an entity by selecting the "include all fields" checbox at the entity level or select the required attributes individually from an entity. We recommend selecting at least two entities to benefit from the data unification process.
+3. Select the entities and attributes you want to use in the *match* and *merge* phases. You can include all attributes from an entity by selecting the "include all fields" checkbox at the entity level or select the required attributes individually from an entity. We recommend selecting at least two entities to benefit from the data unification process.
 
    > [!div class="mx-imgBorder"]
    > ![Add entities example](media/data-manager-configure-map-add-entities-example.png "Add entities example")
@@ -44,7 +44,7 @@ For more information about the general flow of data unification, see [Unify](dat
 
 After selecting your entities, the **Map** page lists the selected entities for your review. You need to define the primary key for an entity and identify the semantic type for an attribute in the entity.
 
-- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as parimary keys and will be displayed in a field for you to select from. *Numeric data type support will be available in the upcoming releases.*
+- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from. *Numeric data type support will be available in the upcoming releases.*
 
 - **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for that attribute, and type your custom attribute-type name. You can also change the attribute types that were auto-identified by the system.
 
@@ -67,7 +67,7 @@ The type field displays the system recommended semantic type as the first value 
 
 1. On **Unify** > **Map**, select **Edit fields**.
 
-2. In the **Edit fields** panel, add or remove attributes and entities. Use the search or scroll down to find and select your attributes and entities of interest. You can't remove an attriute or an entity if they've already been matched.
+2. In the **Edit fields** panel, add or remove attributes and entities. Use the search or scroll down to find and select your attributes and entities of interest. You can't remove an attribute or an entity if they've already been matched.
 
    > [!div class="mx-imgBorder"]
    > ![Add or remove attributes](media/configure-data-map-edit.png "Add or remove attributes")
