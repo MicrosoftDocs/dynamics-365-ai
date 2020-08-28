@@ -70,10 +70,23 @@ The sales accelerator is now enabled, and you can configure it for your organiza
     >[!div class="mx-imgBorder"]
     >![Choose content and layout for entities](media/sa-choose-content-layout.png "Choose content and layout for entities") 
 
-4. In the **Engagement channels** section, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.
+4. In the **Engagement channels** section, configure the following options:
 
-    >[!div class="mx-imgBorder"]
-    >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
+    - Select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.
+
+        >[!div class="mx-imgBorder"]
+        >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
+
+    -  In **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they are listed.
+
+        For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed, if it is available. If it is not available, the call goes to the next option.      
+
+        >[!NOTE]
+        >For opportunities, the phone number priority will be applied to the primary contacts.
+
+        >[!div class="mx-imgBorder"]
+        >![Choose phone numbers in the order to initiate call](media/sa-engagement-channel-phonecall-priority.png "Choose phone numbers in the order to initiate call")
+
 
 5. In the **Security roles** section, select one of the following options to provide permissions to users to access the Sales Hub app.
 
