@@ -32,7 +32,7 @@ As a sales manager, you can use the sequence designer to:
 
 Before you start, be sure you have met the following prerequisites:
 
-- You must have the sequence manager, sales manager, or administrator role to access and connect a sequence to records. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+- You must have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 - The sales accelerator has been enabled and installed in your organization. More information: [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md).
 
@@ -93,10 +93,6 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
         > [!div class="mx-imgBorder"]
         > ![Phone call activity](media/sequence-activity-phone-call-created.png "Phone call activity")
-
-
-        <!-- from editor: Please check the rewording I made in the following sentence. -->
-
 
     - **Task**: Creates a custom activity that you define, such as scheduling a meeting with the customer, that is not specified in the activity selector.
 
@@ -290,10 +286,6 @@ You can view the details of a sequence and the records connected with it. This v
 7. To connect records, select **Connect records**. More information: [Connect records through a sequence](#ContactThroughASequence)    
 
 8. To remove a record from the sequence, select the record, and then select **Disconnect**.
-
-
-<!-- note from editor: The image shows that the button to select is "Remove," not "Disconnect." -->
-
 
     > [!div class="mx-imgBorder"]
     > ![Select a record to remove](media/sequence-active-sequence-remove-record.png "Select a record to remove")
