@@ -32,7 +32,7 @@ As a sales manager, you can use the sequence designer to:
 
 Before you start, be sure you have met the following prerequisites:
 
-- You have the **Sequence Manager** security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+- You must have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 - The sales accelerator has been enabled and installed in your organization. More information: [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md).
 
@@ -70,19 +70,19 @@ Every organization has its own selling processes for sellers to follow. A sequen
     
     - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template if one was selected. If no template was selected, an empty email composer opens.
 
-        > [!div class="mx-imgBorder"]
-        > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity") 
+       > [!div class="mx-imgBorder"]
+       > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity") 
 
-        Enter the following information to configure the email activity:
+       Enter the following information to configure the email activity:
 
-        1. A name and description for the activity. The information you enter here will be displayed to sellers.
+       1. A name and description for the activity. The information you enter here will be displayed to sellers.
 
-        2. If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step.
+       2. If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step.
 
-        3. Save the activity.
+       3. Save the activity.
 
-         > [!div class="mx-imgBorder"]
-         > ![Email activity](media/sequence-activity-email-created.png "Email activity")
+          > [!div class="mx-imgBorder"]
+          > ![Email activity](media/sequence-activity-email-created.png "Email activity")
 
     - **Phone call**: Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.
 
@@ -94,7 +94,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         > [!div class="mx-imgBorder"]
         > ![Phone call activity](media/sequence-activity-phone-call-created.png "Phone call activity")
 
-    - **Task**: Creates a custom activity that you define, such as scheduling a meeting and meet the customer on the field that are not specified in the activity selector.
+    - **Task**: Creates a custom activity that you define, such as scheduling a meeting with the customer, that is not specified in the activity selector.
 
         > [!div class="mx-imgBorder"]
         > ![Add a custom task activity](media/sequence-activity-add-task.png "Add a custom task activity")
@@ -124,13 +124,13 @@ Every organization has its own selling processes for sellers to follow. A sequen
     
 11. Select **Yes** in the confirmation message that appears.
 
-    >[!NOTE]
-    >An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.  
+    > [!NOTE]
+    > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.  
     
     The sequence is activated and listed in the sequence designer home page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page") 
+    > [!div class="mx-imgBorder"]
+    > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page") 
 
 Next, you connect the active sequence to lead or opportunity records.
 
@@ -138,11 +138,23 @@ Next, you connect the active sequence to lead or opportunity records.
 
 After you create and activate the sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.
 
-**To connect a sequence to records**
+> [!NOTE]
+> You can connect a sequence to the following types of records only:
+> - Leads that are in **New** state.
+> - Opportunities that are in **Open** state. 
+
+You can connect a sequence to records in the following ways:
+
+- [Through the lead or opportunity grid view](#ContactThroughGridView)
+- [Through a record](#ContactThroughARecord)
+- [Through a sequence](#ContactThroughASequence)
+
+<a name="ContactThroughGridView"></a>
+**Through the lead or opportunity grid view**
 
 1. Sign in to the **Sales Hub** app.
 
-2. At the bottom of the site map, select **Change area** > **Sales**.
+2. Go to **Change area** in the lower-left corner of the page and select **Sales**.
 
 3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.
 
@@ -156,8 +168,8 @@ After you create and activate the sequence for the selling process, you connect 
     > [!div class="mx-imgBorder"]
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")
 
-    >[!NOTE]
-    >You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
+    > [!NOTE]
+    > You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records)
 
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
 
@@ -168,7 +180,76 @@ After you create and activate the sequence for the selling process, you connect 
 
 6. Select a sequence, and then select **Connect**.
 
-A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
+    A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
+
+<a name="ContactThroughARecord"></a>
+**Through a record**
+
+1. Sign in to the **Sales Hub** app.
+
+2. Go to **Change area** in the lower-left corner of the page and select **Sales**.
+
+3. Under **Sales**, select **Leads** or **Opportunities**, depending on the records you want to connect.
+
+    In this example, we select **Leads**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Lead view](media/sequence-connect-lead-view.png "Lead view")
+    
+4. Open a record to which you want to connect the sequence. In this example, we opened the lead **Nancy Anderson**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Open a lead to connect the sequence to](media/sequence-open-lead-connect-sequence.png "Open a lead to connect the sequence to")
+
+    > [!NOTE]
+    > You can't connect a sequence to a record that has already been connected with a different sequence. You must remove the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records).
+    
+5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.
+
+    In this example, a list of sequences that are configured for the **Lead** entity is displayed. 
+
+    > [!div class="mx-imgBorder"]
+    > ![List of sequences for leads](media/sequence-lead-list-sequence.png "List of sequences for leads")
+
+6. Select a sequence, and then select **Connect**.
+
+    A confirmation message appears at the bottom of the page, and the sequence is connected to the selected lead records. Now, sellers who have access to the lead record can see the activities connected with it.
+
+<a name="ContactThroughASequence"></a>
+**Through a sequence**
+
+1. Sign in to the **Sales Hub** app.
+
+2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.
+
+3. Under **Acceleration**, select **Sequence (preview)**.
+
+4. On the **Sequences (preview)** page, select the **Active** tab.
+
+    > [!div class="mx-imgBorder"]
+    > ![Active sequences list view](media/sequence-home-page-active-sequence.png "Active sequences list view")
+    
+5. Hover over a sequence, and then select **More options** > **Properties**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Properties](media/sequence-active-sequence-select-properties.png "Select Properties")
+
+    The sequence opens in the **Summary** view. You can view the details of the sequence such as the name of the sequence, its owner, its status, the entity that the sequence is connected with, and the total number of activities defined in it.
+
+    > [!div class="mx-imgBorder"]
+    > ![Active sequence summary page](media/sequence-active-sequence-summary.png "Active sequence summary page")
+
+6. Select the **Connected records** tab and then select **Connect records**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Connect records](media/sequence-select-connect-records.png "Select Connect records")
+
+7. From the list, select the records that you want to connect to the sequence and then select **Connect**. In this example, we are connecting the lead **Debra Garcia** to the sequence.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select records to connect](media/sequence-select-records-to-connect.png "Select records to connect")
+
+    The record is connected to the sequence and displayed in the list. Now, sellers who have access to the record can see the activities connected with it.    
 
 ## View details of a sequence and its connected records
 
@@ -202,7 +283,9 @@ You can view the details of a sequence and the records connected with it. This v
     > [!div class="mx-imgBorder"]
     > ![View connected records](media/sequence-active-sequence-view-connected-records.png "View connected records")
 
-7. To remove a record from the sequence, select the record, and then select **Disconnect**.
+7. To connect records, select **Connect records**. More information: [Connect records through a sequence](#ContactThroughASequence)    
+
+8. To remove a record from the sequence, select the record, and then select **Disconnect**.
 
     > [!div class="mx-imgBorder"]
     > ![Select a record to remove](media/sequence-active-sequence-remove-record.png "Select a record to remove")
@@ -275,4 +358,4 @@ You can delete sequences that your organization no longer needs, and they'll be 
 ### See also
 
 [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md)  
-[Prioritize the sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
