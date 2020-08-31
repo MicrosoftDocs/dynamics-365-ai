@@ -96,13 +96,16 @@ You must upload the call recording the the created call recording repository (bl
   | `Direction` | Specifies whether the call is inbound or outbound. |
   | `FileName` | Specifies the name of the audio file. |
   | `Title` | Specifies the title of the call.|
+  | `AgentChannel` | (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
   | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
   | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
-  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
-  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
+  | `CallContactCrmId` | (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
+  | `CallOpportunityCrmId` | (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
+  | `CallMediaReferenceCrmId`| (Optional) Specifies the ID (GUID) of softphone that is used during the integration with Dynamics 365 Channel Integration Framework. |
   | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
   | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
   | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
+  | `CallScope` | (Optional) Specifies whether the call is internal or external. The value is **External** or **Internal**.|
   | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False.If the value is set as True, the call will not be processed. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
