@@ -65,7 +65,7 @@ Now you are ready to upload call recordings to the blob container and configure 
 
 ## Upload call recordings
 
-You must upload the call recording the the created call recording repository (blob container) in Azure to process and get data. You must upload the following files to process the calls:
+You must upload the call recording the created call recording repository (blob container) in Azure to process and get data. You must upload the following files to process the calls:
 
 - Call recording file in audio formats, such as MP3 and WAV.
 - Corresponding metadata file in JSON format.
@@ -106,7 +106,7 @@ You must upload the call recording the the created call recording repository (bl
   | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
   | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
   | `CallScope` | (Optional) Specifies whether the call is internal or external. The value is **External** or **Internal**.|
-  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False.If the value is set as True, the call will not be processed. |
+  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. If the value is set as True, the call will not be processed. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
   | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
