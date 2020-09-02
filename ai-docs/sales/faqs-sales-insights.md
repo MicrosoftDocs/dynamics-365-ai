@@ -122,6 +122,23 @@ Sales insights support the following languages:<br>
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
+**Where is my organization's data stored?**
+
+Depending on the region where your organization is hosted, data is stored in the following locations:
+
+| Region | Primary Azure data center location  | Secondary Azure data center location |
+|--------|-------------------------------------|--------------------------------------|
+| Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong) |
+| Canada (CAN) | Canada Central (Toronto) | Canada East (Quebec City) |
+| Europe, the Middle East, and Africa (EMEA) | West Europe (Netherlands) | North Europe (Ireland) |
+| France (FRA) | France Central (Paris) | West Europe (Netherlands) |
+| Great Britain (GBR) | UK South (London) | UK West (Cardiff) |
+| India (IND) | Central India (Pune) | South India (Chennai) |
+| Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
+| North America (NAM) | East US (Virginia) | -- |
+| Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
+| South America (SAM) | Brazil South (São Paulo State) | South Central US (Texas) |
+
 **How do I extend the trial period of Sales Insights?**
 
 If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.com/microsoft-365/commerce/extend-your-trial?view=o365-worldwide).
