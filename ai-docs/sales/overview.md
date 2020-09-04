@@ -19,9 +19,6 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)].
 
->[!IMPORTANT]
->This feature is intended to help sales managers or supervisors enhance their team's performance. This feature isn't intended for use in making&mdash;and shouldn't be used to make&mdash;decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
-
 [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Office 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
 Sales Insights helps organizations in the following four areas:

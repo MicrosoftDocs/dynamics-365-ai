@@ -87,22 +87,22 @@ The Sales Insights features support the following versions of Exchange:
 
 <table>
 <tr>
-<th>Feature</th><th>Exchange Online</th><th>Exchange Server 2013 and above</th><th>With no Exchange</th>
+<th>Feature</th><th>Exchange Online</th><th>Exchange Server 2013 and above</th><th>Is Exchange required?</th>
 </tr>
 <tr>
-<td>Relationship analytics and health</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
+<td>Relationship analytics and health</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
 </tr>
 <tr>
-<td>Assistant</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
+<td>Assistant</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
 </tr>
 <tr>
-<td>Email engagement</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td>
+<td>Email engagement</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td>
 </tr>
 <tr>
-<td>Who knows whom</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
+<td>Who knows whom</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
 </tr>
 <tr>
-<td>Talking points</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
+<td>Talking points</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
 </tr>
 </table>
 
@@ -118,7 +118,7 @@ Sales insights support the following languages:<br>
 | Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
 | Talking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), and Spanish. |
+| Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), and Spanish. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 

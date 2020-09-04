@@ -65,7 +65,7 @@ Now you are ready to upload call recordings to the blob container and configure 
 
 ## Upload call recordings
 
-You must upload the call recording the the created call recording repository (blob container) in Azure to process and get data. You must upload the following files to process the calls:
+You must upload the call recording the created call recording repository (blob container) in Azure to process and get data. You must upload the following files to process the calls:
 
 - Call recording file in audio formats, such as MP3 and WAV.
 - Corresponding metadata file in JSON format.
@@ -90,20 +90,23 @@ You must upload the call recording the the created call recording repository (bl
   | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Sales organization. | 
   | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
   | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
-  | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, and zh-CN. |
+  | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, pt-PT, nl-NL, and zh-CN. |
   | `Id`| Specifies the unique identification code of the call. Generate this code using the GUID generator. |
   | `StartTime` | Specifies the start time of the call in milliseconds and calculated based on the UNIX Epoch time. For example, when the call start time is **14 Dec 2018 12:39:56 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544791196000**. |
   | `Direction` | Specifies whether the call is inbound or outbound. |
   | `FileName` | Specifies the name of the audio file. |
   | `Title` | Specifies the title of the call.|
+  | `AgentChannel` | (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
   | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
   | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
-  | `CallContactCrmId` |  (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
-  | `CallOpportunityCrmId` |  (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
+  | `CallContactCrmId` | (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
+  | `CallOpportunityCrmId` | (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
+  | `CallMediaReferenceCrmId`| (Optional) Specifies the ID (GUID) of softphone that is used during the integration with Dynamics 365 Channel Integration Framework. |
   | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
   | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
   | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
-  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False.If the value is set as True, the call will not be processed. |
+  | `CallScope` | (Optional) Specifies whether the call is internal or external. The value is **External** or **Internal**.|
+  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. If the value is set as True, the call will not be processed. |
   | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
   | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
   | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
