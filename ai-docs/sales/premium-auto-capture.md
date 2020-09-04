@@ -136,7 +136,7 @@ To save an activity so it will be visible on the timeline for a record for other
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
 
-3.	Select an activity. In this example, we're selecting an email from **Kenny Smith** that's related to **Printers and Paper clips**.
+3.	Select an activity. In this example, we're selecting an email that's related to **Chairs & Tables**.
 
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
@@ -161,7 +161,7 @@ After reviewing the activity suggestion, perhaps you decide that the suggestion 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
  
-3.	Select an activity suggestion. In this example, we're selecting an email from **Kenny Smith** that's related to **Printers and Paper clips**.
+3.	Select an activity suggestion. In this example, we're selecting an email that's related to **Chairs & Tables**.
 
     > [!div class="mx-imgBorder"]
     > ![Select an activity](media/auto-capture-premium-select-activity-suggestion.png "Select an activity")
@@ -188,7 +188,7 @@ Remove any activity suggestions that you don't want to add as activities on the 
     > [!div class="mx-imgBorder"]
     > ![Activity suggestion grid view](media/auto-capture-premium-activity-suggestion-grid-view.png "Activity suggestion grid view")
  
-3.	Select an activity suggestion. In this example, we're selecting an email from **Kenny Smith** that's related to **Printers and Paper clips**.
+3.	Select an activity suggestion. In this example, we're selecting an email that's related to **Chairs & Tables**.
 
     > [!NOTE]
     > You can select multiple activity suggestions to delete.
