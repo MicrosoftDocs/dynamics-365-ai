@@ -79,19 +79,19 @@ By default, a single suggestion is displayed. You can select **Show more** to di
 > [!div class="mx-imgBorder"]
 > ![Auto capture all activity suggestions](media/auto-capture-premium-all-activity-suggestions.png "Auto capture all activity suggestions")
 
--	**Sync and connect**: Select the check mark icon to add a suggestion as an activity on the timeline wall of a record. After the suggestion is added, other users in your organization can view this suggestion for the record. For example, you open an opportunity **Interest shown in AX27** and observe that there are a few suggestions available under it on the timeline. With the **Kenny Smith sent an email** suggestion selected, select the **Save** icon. The suggestion is saved as an **Kenny Smith sent an email** activity on the timeline, and will be visible for other users who access this opportunity.
+-	**Sync and connect**: Select the check mark icon to add a suggestion as an activity on the timeline wall of a record. After the suggestion is added, other users in your organization can view this suggestion for the record. For example, you open an opportunity **Interest shown in AX27** and observe that there are a few suggestions available under it on the timeline. With the **Kenny Smith sent an email** suggestion selected, select the **Sync and connect** icon. The suggestion is saved as an **Kenny Smith sent an email** activity on the timeline, and will be visible for other users who access this opportunity.
 
     > [!div class="mx-imgBorder"]
     > ![Save activity suggestion on timeline](media/auto-capture-premium-save-activity-suggestion-timeline.png "Saved activity suggestion on the timeline") 
 
--	**Edit**: Select the pencil icon to add a suggestion as an activity for another record. When you edit and save the suggestion, it's available as an activity on the timeline of the other record and will be visible for users who have access to the record. For example, you open an email from **Kenny Smith**. On the timeline, you observe that the **Kenny Smith sent an email** suggestion is more appropriate for **Jim Glynn** than the suggestion. Select the edit option, and then use the **Regarding** lookup to choose **Jim Glynn**. 
+-	**Edit**: Select the pencil icon to add a suggestion as an activity for another record. When you edit and sync the suggestion, it's available as an activity on the timeline of the other record and will be visible for users who have access to the record. For example, you open an email from **Kenny Smith**. On the timeline, you observe that the **Kenny Smith sent an email** suggestion is more appropriate for **Jim Glynn** than the suggestion. Select the edit option, and then use the **Regarding** lookup to choose **Jim Glynn**. 
  
     > [!div class="mx-imgBorder"]
     > ![Edit activity suggestion on timeline](media/auto-capture-premium-edit-activity-suggestion-timeline.png "Edit an activity suggestion on the timeline") 
 
     After you save the change, a confirmation message appears and specifies that the activity has been added to the **Jim Glynn** email.
 
--	**Dismiss**: Select this option if you don't want to add a suggestion as an activity on the timeline. For example, you opened an opportunity **Interest shown in AX27**. On the timeline, you observe that the **Kenny Smith sent an email** suggestion isn't appropriate for the **Regarding** fields that it's associated with, and you want to ignore it. Select the dismiss option, and then select **OK** in the confirmation message that appears. The suggestion will no longer appear in the list.
+-	**Remove**: Select this option if you don't want to add a suggestion as an activity on the timeline. For example, you opened an opportunity **Interest shown in AX27**. On the timeline, you observe that the **Kenny Smith sent an email** suggestion isn't appropriate for the **Regarding** fields that it's associated with, and you want to ignore it. Select the remove option, and then select **OK** in the confirmation message that appears. The suggestion will no longer appear in the list.
 
 ## Manage activity suggestions through the grid
 
@@ -177,7 +177,7 @@ After reviewing the activity suggestion, perhaps you decide that the suggestion 
 
 The activity suggestion is removed from the suggestions list and added to the timeline of the **Regarding** record, making it visible for everyone who has access to the record.
 
-### remove an activity
+### Remove an activity
 
 Remove any activity suggestions that you don't want to add as activities on the timeline. Follow these steps:
 
