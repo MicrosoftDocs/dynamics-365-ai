@@ -101,7 +101,7 @@ You must upload the call recording the created call recording repository (blob c
   | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
   | `CallContactCrmId` | (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
   | `CallOpportunityCrmId` | (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
-  | `CallMediaReferenceCrmId`| (Optional) Specifies the ID (GUID) of softphone that is used during the integration with Dynamics 365 Channel Integration Framework. |
+  | `CallMediaReferenceCrmId`| (Optional) Specifies the string of softphone that is used during the integration with Dynamics 365 Channel Integration Framework. |
   | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
   | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
   | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
