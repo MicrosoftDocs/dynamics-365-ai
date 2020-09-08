@@ -18,7 +18,7 @@ Leadspace is a data science company that provides a B2B Customer Data Platform. 
 
 To configure Leadspace, the following prerequisites must be met:
 
-- You have active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
+- You have an active Leadspace license and the “perpetual key” (referred to as **Leadspace token** in Customer Insights). Contact directly [Leadspace](https://www.leadspace.com/products/leadspace-on-demand/) for details about their product.
 - You have the [Administrator](permissions.md#administrator) role in Customer Insights.
 - You have [unified customer profiles](customer-profiles.md) for companies.
 
@@ -40,7 +40,7 @@ To configure Leadspace, the following prerequisites must be met:
 
 1. Select **Save** to complete the field mapping.
 
-1. Select **Refresh** to enrich the company profiles. How long refreshing an enrichment takes depends on the number of unified customer profiles. Expect it to take at least 1 minute per 1.000 profiles.
+1. Select **Run** to enrich the company profiles. How long refreshing an enrichment takes depends on the number of unified customer profiles. Expect it to take at least 1 minute per 1.000 profiles.
 
 ## Enrichment results
 
