@@ -44,7 +44,7 @@ When you hover over the information icon on the column header, the last recalcul
 Select a value in the prediction column to display the **Prediction details** pane.
 
   > [!div class="mx-imgBorder"]
-  > ![Prediction column](media/predictive-forecasting-prediction-details.png "Prediction details")
+  > ![Prediction details](media/predictive-forecasting-prediction-details.png "Prediction details")
 
 The prediction details graph consists of the following values:
 
