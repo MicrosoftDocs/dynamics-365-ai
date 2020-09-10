@@ -95,7 +95,6 @@
 #### [Scan business cards and meeting notes](scan-business-cards-notes.md)
 #### [Change sales organization](change-sales-organization.md)
 
-
 ###	Conversation Intelligence
 #### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
 #### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)

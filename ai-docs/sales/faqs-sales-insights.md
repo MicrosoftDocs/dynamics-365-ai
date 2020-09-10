@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights"
 keywords: " "
-ms.date: 04/09/2020
+ms.date: 09/10/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -121,6 +121,23 @@ Sales insights support the following languages:<br>
 | Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), and Spanish. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
+
+**Where is my organization's data stored?**
+
+Depending on the region where your organization is hosted, data is stored in the following locations:
+
+| Region | Primary Azure data center location  | Secondary Azure data center location |
+|--------|-------------------------------------|--------------------------------------|
+| Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong) |
+| Canada (CAN) | Canada Central (Toronto) | Canada East (Quebec City) |
+| Europe, the Middle East, and Africa (EMEA) | West Europe (Netherlands) | North Europe (Ireland) |
+| France (FRA) | France Central (Paris) | -- |
+| Great Britain (GBR) | UK South (London) | UK West (Cardiff) |
+| India (IND) | Central India (Pune) | South India (Chennai) |
+| Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
+| North America (NAM) | East US (Virginia) | West US 2 (Washington) |
+| Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
+| South America (SAM) | Brazil South (São Paulo State) | -- |
 
 **How do I extend the trial period of Sales Insights?**
 
