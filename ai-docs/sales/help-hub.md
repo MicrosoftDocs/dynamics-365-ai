@@ -2,17 +2,11 @@
 title: "Documentation resources for Dynamics 365 Sales Insights | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Insights."
 ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-sales
+ms.service: crm-online
 ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 4e9e7a65-1dcb-45b3-a9c8-4113f1f41416
 author: udaykirang
-ms.author: shujoshi
+ms.author: udag
 manager: shujoshi
 topic-status: Drafting
 search.audienceType: 
