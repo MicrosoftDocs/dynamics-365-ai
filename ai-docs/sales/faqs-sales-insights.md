@@ -131,13 +131,13 @@ Depending on the region where your organization is hosted, data is stored in the
 | Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong) |
 | Canada (CAN) | Canada Central (Toronto) | Canada East (Quebec City) |
 | Europe, the Middle East, and Africa (EMEA) | West Europe (Netherlands) | North Europe (Ireland) |
-| France (FRA) | France Central (Paris) | West Europe (Netherlands) |
+| France (FRA) | France Central (Paris) | -- |
 | Great Britain (GBR) | UK South (London) | UK West (Cardiff) |
 | India (IND) | Central India (Pune) | South India (Chennai) |
 | Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
-| North America (NAM) | East US (Virginia) | -- |
+| North America (NAM) | East US (Virginia) | West US 2 (Washington) |
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
-| South America (SAM) | Brazil South (São Paulo State) | South Central US (Texas) |
+| South America (SAM) | Brazil South (São Paulo State) | -- |
 
 **How do I extend the trial period of Sales Insights?**
 
