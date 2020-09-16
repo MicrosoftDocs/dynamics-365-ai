@@ -4,9 +4,9 @@ Customer Insights connects data from a broad set of sources. Connecting a data s
 
 You can add a data source via three main ways:
 
-- Through dozens of Power Query connectors
-- From a Common Data Model folder
-- From your own Common Data Service lake
+- [Through dozens of Power Query connectors](connect-power-query.md)
+- [From a Common Data Model folder](connect-common-data-model.md)
+- [From your own Common Data Service lake](connect-common-data-service-lake.md)
 
 > [!NOTE]
 > You can't add data from on-premises data sources yet.
