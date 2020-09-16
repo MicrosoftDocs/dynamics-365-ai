@@ -12,7 +12,7 @@ manager: shellyha
 
 # Connect to a Power Query data source
 
-Adding data sources based on Power Query connectors usually follow the same steps as outnlined below. For details about specific connectors, refer to the linked articles in the Power Query connector reference.
+Adding data sources based on Power Query connectors usually follow the same steps as outlined below. For details about specific connectors, refer to the linked articles in the Power Query connector reference.
 
 ## Add a data source through Power Query connectors
 
@@ -33,6 +33,10 @@ As an example, we'll connect to a CSV file with customer data hosted on an Azure
 
    > [!div class="mx-imgBorder"]
    > ![Select Table control in CSV file](media/connector-azure-blobs-preview.png)
+
+## Transform Power Query entities
+
+Link to PQ content for transforming entities. Aditya to review closely if we cover customer use cases properly.
 
 ## Available Power Query data sources
 
