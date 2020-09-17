@@ -31,7 +31,7 @@ Entity recognition of brands and social-demographic insights, two key capabiliti
 
 Market Insights Preview offered articles and insights curated specifically for you. Bing provides a broader perspective, offering a selection of industries and news topics to follow. Bing compiles updates into a daily industry newsletter. Customers can customize their content mix easily at the bottom of any Industry Updates email. Customers can also adjust the delivery time and frequency.
 
-|  |                                      | Dynamics 365 Market Insights                                                             | Bing industry updates    |
+| Area | Feature                                     | Dynamics 365 Market Insights                                                             | Bing industry updates    |
 |----------------------|-----------------------------------------------------------|--------------------------------------------------------------|-----|
 | **Target user**          |                     | Business professionals, product owners | Business professionals, Microsoft Search in Bing users    |
 | **UX**                  | Email notifications summarizing news                      | Yes                                                          | Yes |

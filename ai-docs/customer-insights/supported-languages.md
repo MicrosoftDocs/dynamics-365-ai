@@ -16,7 +16,7 @@ Dynamics 365 Customer Insights supports a number of languages. This topic lists 
 
 ## Languages for Customer Insights
 
-| | |
+| Language name (English)| 	Language Name (native language) |
 | ------------- | ------------- |
 | Basque | euskara |
 | Bulgarian | Български |
