@@ -1,5 +1,5 @@
 ---
-title: "Enrichment of with the third-party enrichment Experian in Dynamics 365 Customer Insights | Microsoft Docs"
+title: "Enrichment with the third-party enrichment Experian in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "General information about the Experian third-party enrichment in Customer Insights."
 ms.date: 09/17/2020
 ms.reviewer: kishorem
@@ -16,7 +16,7 @@ Experian is a global leader in consumer and business credit reporting and market
 
 ## Prerequisites
 
-To configure Leadspace, the following prerequisites must be met:
+To configure Experian, the following prerequisites must be met:
 
 - You have an active Experian subscription. To get a subscription, [contact Experian](https://www.experian.com/marketing-services/contact) directly. [Learn more about Experian Data Enrichment](https://www.experian.com/marketing-services/microsoft?cmpid=ems_web_mci_cdppage).
 - You have the User ID, Party ID and Model Number for your SSH-enabled Secure Transport (ST) account that Experian created for you.
