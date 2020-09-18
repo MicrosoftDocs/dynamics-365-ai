@@ -12,113 +12,65 @@ manager: shellyha
 
 # Connect to a Power Query data source
 
-Adding data sources based on Power Query connectors usually follow the same steps as outlined below. For details about specific connectors, refer to the linked articles in the Power Query connector reference.
+Adding data sources based on Power Query connectors usually follow the same steps as outlined below.
+## Create a new data source
 
-## Add a data source through Power Query connectors
+1. In Customer Insights, go to **Data sources**.
 
-As an example, we'll connect to a CSV file with customer data hosted on an Azure Blog storage account.
+2. Select **Get data**.
 
-1. In Customer Insights, create a new data source.
+3. Provide a **Name** for the data source, and select **Save** to create the data source.
 
-2. Select **Azure Blob storage** from the list of connectors.
+4. Choose one of the available connectors. To load data from Dynamics 365 apps, choose the **Common Data Service** connector.
 
-3. Enter the **Account name** and **Account key**, then select **Next**.
-
-   > [!NOTE]
-   > You can find your account name and key from the **Access keys** area in the Azure admin portal.
-
-4. You now see a folder structure with all containers in the Blob storage. Select the container that includes your CSV file, and select **Next**.
-
-5. You now see the available CSV files in the container. Select **[Table]** in the content column to see a preview of the file's content.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select Table control in CSV file](media/connector-azure-blobs-preview.png)
-
-## Transform Power Query entities
-
-Link to PQ content for transforming entities. Aditya to review closely if we cover customer use cases properly.
+5. Enter the required details for the selected connector.
 
 ## Available Power Query data sources
 
-This article covers the list of available data sources to ingest data into Dynamics 365 Customer Insights. For more information about adding a data source in the app, see [Connect data sources](data-sources.md).
+See the [Power Query connector reference](https://docs.microsoft.com/power-query/connectors/) for an up-to-date list of connectors that you can select to import data to Customer Insights. 
 
-The **Choose data source** page organizes data types in the following categories:
+All connectors that have a checkmark in the **Customer Insights (Dataflows)** column are available when creating a new data source in Customer Insights. Have a look at the connector reference of a specific connector to learn more about its prerequisites and other details.
 
-- [File](#file-data-sources)
-- [Database](#database-data-sources)
-- [Power Platform](#power-platform-data-sources)
-- [Azure](#azure-data-sources)
-- [Online services](#online-services-data-sources)
-- [Other](#other-data-sources)
+## Edit Power Query data sources
 
-### File data sources
+> [!NOTE]
+> You can only edit data sources that aren't in the process of refreshing.
 
-The File category provides the following data connections:
+1. In Customer Insights, go to **Data sources**.
 
-- Access
-- Excel
-- Folder
-- JSON
-- PDF
-- SharePoint folder
-- Text/CSV
-- XML
+2. Select the vertical ellipsis next to the data source you want to change and select **Edit** from the drop-down menu.
 
-### Database data sources
+<Screenshot>
 
-The Database category provides the following data connections:
+3. Apply your changes in the **Edit queries** Power Query dialog.
 
-- Amazon Redshift
-- Google BigQuery
-- IBM Db2 database
-- Impala
-- MySQL database
-- Oracle database
-- PostgreSQL database
-- SQL Server database
-- Sybase database
-- Teradata database
-- Vertica
+4. Select **Create** in Power Query after completing your edits to save your changes.
 
-### Power Platform data sources
+### Add, review, and transform entities
 
-The Power Platform category provides the following data connections:
+In this step, you'll add entities to your data source. In Customer Insights, entities are datasets. If you have a database that includes multiple datasets, each dataset is its own entity.
 
-- Common Data Service
+1. In the **Edit queries** dialog of Power Query you can review and refine the data. The entities that the systems identified in your selected data source appear in the left pane (1).
 
-### Azure data sources
+   > [!div class="mx-imgBorder"]
+   > ![Edit queries dialog with three areas highlighted](media/data-manager-configure-edit-queries.png "Edit queries dialog with three areas highlighted")
 
-The Azure category provides the following data connections:
+2. You can also transform your data. Select an entity to edit or transform. Then, open one of the menus (2) located at the top of the Power Query window to find a specific transformation. Each transformation is added as a processing step (3), which can be modified as needed.
 
-- Azure Blobs
-- Azure Data Lake Storage Gen2
-- Azure HDInsight Spark
-- Azure SQL Data Warehouse
-- Azure SQL database
-- Azure Tables
+   > [!NOTE]
+   > It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*segmentation*, *match*, or *merge*, for example). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes.
 
-### Online services data sources
+3. You can add additional entities to your data source by selecting **Get data** in the **Edit queries** dialog.
 
-The Online services category provides the following data connections:
+   These transformations are highly recommended:
 
-- Microsoft Exchange Online
-- Salesforce objects
-- Salesforce reports
-- SharePoint Online list
+   - If you're ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
 
-### Other data sources
+   - Map your data to a standard format of data. Customer Insights allows you to map your data to the Common Data Model. To do so, select **Map to standard** in the Power Query header, and then map fields from your source data to Common Data Model fields.
 
-The Other category provides the following data connections:
+4. Select **Create** at the bottom of the Power Query window to save the transformations. After saving, you'll find your data source on the **Data sources** page.
 
-- Active Directory
-- OData
-- Odbc
-- SharePoint list
-- Spark
-- Web API
-- Web page
-- Blank table
-- Blank query
+5. On the **Data sources** page, select the ellipsis under **Actions** and then select **Refresh**.
 
-
-
+> [!TIP]
+> Power Query provides a lot of pre-built transformation options. For more information, see [Power Query Transformations](https://docs.microsoft.com/power-query/power-query-what-is-power-query#transformations).
