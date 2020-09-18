@@ -3,8 +3,7 @@ title: "Set the granularity of how Customer Service Insights generates customer 
 description: "Learn how to set the granularity of how Customer Service Insights generates customer service topics."
 keywords: ""
 ms.date: 4/23/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
 author: m-hartmann

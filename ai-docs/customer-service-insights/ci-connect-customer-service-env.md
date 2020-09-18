@@ -2,8 +2,7 @@
 title: "Connect to Dynamics 365 Customer Service environment | MicrosoftDocs"
 description: "Connect to the Dynamics 365 Customer Service environment"
 ms.date: 04/20/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms

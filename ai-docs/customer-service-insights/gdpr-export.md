@@ -3,8 +3,7 @@ title: "Export data to respond to GDPR Data Subject Requests (DSR) for copies of
 description: "Respond to GDPR Data Subject Requests (DSR) to provide copies of personal data in Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: m-hartmann

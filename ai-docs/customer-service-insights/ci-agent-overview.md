@@ -2,8 +2,7 @@
 title: "Use call insights to improve agent performance | MicrosoftDocs"
 description: "Analyze customer calls to improve agent performance and customer satisfaction"
 ms.date: 05/07/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms

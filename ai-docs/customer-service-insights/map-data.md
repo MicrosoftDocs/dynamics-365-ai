@@ -3,8 +3,7 @@ title: "Map your data to custom entities and fields"
 description: "Generate insights by mapping your data to custom data entities and fields in Dynamics 365 Customer Service Insights​."
 keywords: ""
 ms.date: 11/19/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
 author: iaanw
