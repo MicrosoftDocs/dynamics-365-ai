@@ -3,8 +3,7 @@ title: "Data locations for Dynamics 365 Customer Service Insights"
 description: "Learn where data for Customer Service Insights is stored."
 keywords: "data location"
 ms.date: 1/3/2020
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: iaanw

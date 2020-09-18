@@ -2,8 +2,7 @@
 title: "Configure and view your team page in call insights | MicrosoftDocs"
 description: "Configure and view your team page in call insights "
 ms.date: 07/30/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms

@@ -3,8 +3,7 @@ title: "Improve data quality by cleaning support case data​"
 description: "Learn how to improve AI Insights charts by removing extraneous tags in support case data."
 keywords: ""
 ms.date: 6/04/2020
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
 author: lalexms

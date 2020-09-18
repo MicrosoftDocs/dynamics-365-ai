@@ -3,8 +3,7 @@ title: "Dynamics 365 Customer Service entities used by Customer Service Insights
 description: "Learn about the entities and attributes used by Customer Service Insights when a workspace is connected with Dynamics 365 Customer Service."
 keywords: "CDS, data entity"
 ms.date: 6/21/2019
-ms.service: 
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: m-hartmann

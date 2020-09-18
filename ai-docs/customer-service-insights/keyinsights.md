@@ -3,8 +3,7 @@ title: "Discover insights from your customer service data by using Dynamics 365 
 description: "Easily discover AI insights on the home page of Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 04/23/2020
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: alicelu

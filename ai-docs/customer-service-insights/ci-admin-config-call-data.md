@@ -2,8 +2,7 @@
 title: "Configure call data for call insights in Customer Service Insights | MicrosoftDocs"
 description: "Configure call data for call insights"
 ms.date: 04/20/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms

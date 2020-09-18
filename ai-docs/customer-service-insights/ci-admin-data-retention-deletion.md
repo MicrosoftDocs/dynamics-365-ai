@@ -2,8 +2,7 @@
 title: "Data retention and deletion policy for call insights | MicrosoftDocs"
 description: "Data retention and deletion policy for call insights"
 ms.date: 04/20/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms
