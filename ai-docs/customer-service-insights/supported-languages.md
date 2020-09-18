@@ -3,8 +3,7 @@ title: "Supported languages in Dynamics 365 Customer Service Insights"
 description: "Identify and configure language support in Dynamics 365 Customer Service Insights."
 keywords: ""
 ms.date: 01/07/2020
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 author: iaanw
 ms.author: iawilt

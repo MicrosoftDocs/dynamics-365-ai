@@ -3,8 +3,7 @@ title: "GDPR compliance in Dynamics 365 Customer Service Insights"
 description: "Summary of capabilities for handling GDPR Data Subject Requests (DSR) for data used in Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: m-hartmann

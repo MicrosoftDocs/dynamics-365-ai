@@ -3,8 +3,7 @@ title: "Respond to requests to delete data from Customer Service Insights"
 description: "Respond to GDPR Data Subject Requests (DSR) to delete data from Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
 author: m-hartmann
