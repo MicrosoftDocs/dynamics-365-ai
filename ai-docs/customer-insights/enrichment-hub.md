@@ -23,7 +23,8 @@ On the **Discover** tab, you'll find the following enrichments:
 
 - [Brands](enrichment-microsoft-graph.md) provided by Microsoft Graph
 - [Interests](enrichment-microsoft-graph.md) provided by Microsoft Graph
-- [Company data provided by Leadspace](enrichment-leadspace.md)
+- [Company data](enrichment-leadspace.md)  provided by Leadspace
+- [Demographics](enrichment-experian.md) provided by Experian
 
 On the **My enrichments** tab, you can see the enrichments you've configured and edit their properties.
 
