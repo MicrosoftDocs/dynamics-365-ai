@@ -28,6 +28,8 @@ Create visualizations for your Customer Insights data with the Power BI Desktop 
 1. Select the result and select **Connect**.
 
 1. **Sign in** with the same organizational account you use for Customer Insights and select **Connect**.
+   > [!NOTE]
+   > The account you indicate in this step is used for data fetching from Customer Insights and does not need to be the same you are logged in with in Power BI itself (visible in top right corner of Power BI). Whenever you want to reset the account that is used for data fetching from Customer Insights, open Power BI, go to: File > Options and settings > Data source settings and find your list of data sources. Select "Dynamics 365 Customer Insights Login" and select "Clear permissions".  
 
 1. In the **Navigator** dialog box. you see the list of all Customer Insights instances you have access to. Expand an instance and open any of the folders (Entities, Measures, Segments, Enrichments). For example, open the **Entities** folder, to see all entities you can import.
 
