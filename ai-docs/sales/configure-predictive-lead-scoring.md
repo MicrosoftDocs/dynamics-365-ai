@@ -175,10 +175,7 @@ If you are using your custom attributes for lead generation, you can generate th
     >[!NOTE]
     >If there are not enough leads to generate the model, an error message is displayed. Review and edit the configurations and try generating the model again.
 
-9. After the model is generated, a confirmation notification displays with a model performance message, top fields that are influencing, and the option to choose to automatically retrain the model. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Model training confirmation notification](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
+9. After the model is generated, the lead scoring configuration page is displayed with the version summary such as, model performance, top fields that are influencing, and the option to choose to automatically retrain the model. 
 
 10.	Select **Publish**. If the score's accuracy is at an acceptable level as per your organization's standard. 
 
@@ -206,7 +203,19 @@ In organizations with different lines of business, you may need different models
     > [!div class="mx-imgBorder"]
     > ![Predictive lead scoring add model page](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Predictive lead scoring add model page") 
 
-3.	Perform steps 4 to 10 from [First-run set up experience](#first-run-set-up-experience) to add the model. 
+3.	Perform steps 4 to 8 from [First-run set up experience](#first-run-set-up-experience) to add the model. 
+
+4. After the model is generated, a confirmation notification displays with a model performance message, top fields that are influencing, and the option to choose to automatically retrain the model. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Model training confirmation notification](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
+
+5.	Select **Publish**. If the score's accuracy is at an acceptable level as per your organization's standard. 
+
+    The model is applied to the selected set of opportunities in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md). 
+
+    >[!NOTE]
+    >Select View details if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Edit and retrain a model](#edit-and-retrain-a-model).
 
 ## Edit and retrain a model
 
@@ -333,6 +342,6 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 ### See also
 
-[Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)  
+[Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)  
 
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)

@@ -73,13 +73,12 @@ On the upper-left section of the page, using Select model drop-down list, you ca
 The upper-right section of the page displays the actions that you can perform on the model.
 
 > [!div class="mx-imgBorder"]
-> ![Actions for opportunity scoring](media/si-admin-predictive-opportunity-scoring-buttons.png "Actions for opportunity scoring")
+> ![Actions for opportunity scoring](media/si-admin-predictive-lead-scoring-buttons.png "Actions for opportunity scoring")
 
 -	**Publish**: When you publish a model to your organization, users in your organization can see the My Open Opportunities Scored system view and the opportunity score widget on opportunity forms. After you publish, the button grays out and will be available only after you retrain or edit the model.
 -	**Edit model**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to tweak the model to modify fields to consider or include a unique business process. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
 -	**Revert version**: You can return the model to its previous version when the retrained model isn't satisfactory or doesn't meet an acceptable level of your organization's requirements. This action is available only when you retrain a model, but you haven't yet published it.
 -	**Delete model**: You can delete models that are not required in your organization. This option is displayed for published models. To learn more, see [Delete a model](#delete-a-model).
-
 
 ### Version details
 
@@ -134,7 +133,7 @@ If you are using your custom attributes for opportunity generation, you can gene
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the sitemap, select **Opportiunity scoring** under **Predictive models**.
+3. On the sitemap, select **Opportunity scoring** under **Predictive models**.
 
     > [!TIP]
     > Alternatively, in the **Sales Insights settings** page, select **Set up** from the **Predictive opportunity scoring** section to go to configuration page.
@@ -176,10 +175,7 @@ If you are using your custom attributes for opportunity generation, you can gene
     >[!NOTE]
     >If there are not enough opportunities to generate the model, an error message is displayed. Review and edit the configurations and try generating the model again.
 
-9. After the model is generated, a confirmation notification displays with a model performance message, top fields that are influencing, and the option to choose to automatically retrain the model. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Model training confirmation notification](media/si-admin-predictive-opportunity-scoring-model-confirmation-notification.png "Model training confirmation notification")
+9. After the model is generated, the lead scoring configuration page is displayed with the version summary such as, model performance, top fields that are influencing, and the option to choose to automatically retrain the model. 
 
 10.	Select **Publish**. If the score's accuracy is at an acceptable level as per your organization's standard. 
 
@@ -207,7 +203,19 @@ In organizations with different lines of business, you may need different models
     > [!div class="mx-imgBorder"]
     > ![Predictive opportunity scoring add model page](media/si-admin-predictive-opportunity-scoring-model-add-model-page.png "Predictive opportunity scoring add model page") 
 
-3.	Perform steps 4 to 10 from [First-run set up experience](#first-run-set-up-experience) to add the model. 
+3.	Perform steps 4 to 8 from [First-run set up experience](#first-run-set-up-experience) to add the model. 
+
+4. After the model is generated, a confirmation notification displays with a model performance message, top fields that are influencing, and the option to choose to automatically retrain the model. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Model training confirmation notification](media/si-admin-predictive-opportunity-scoring-model-confirmation-notification.png "Model training confirmation notification")
+
+5.	Select **Publish**. If the score's accuracy is at an acceptable level as per your organization's standard. 
+
+    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md). 
+
+    >[!NOTE]
+    >Select View details if the score's accuracy is not at an acceptable level. You can review the details of the model and edit the fields to improve the score's accuracy. To learn more, see [Edit and retrain a model](#edit-and-retrain-a-model).
 
 ## Edit and retrain a model
 
@@ -254,7 +262,7 @@ You can delete a model when it’s no longer required in your organization. You 
 
 1. Go to the predictive opportunity scoring configuration page.
 
-2. Select a model from **Select model** and then select **Delete model**. In this example, we have selected the model **OpportunityScoring_202009181011**.
+2. Select a model from **Select model** and then select **Delete model**. In this example, we have selected the model **OpportunityScoring_202009231810**.
 
     >[!NOTE]
     >You can’t delete a model if the **Retrain automatically** option is enabled. Disable the option to delete.
@@ -334,6 +342,6 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 ### See also
 
-[Convert opportunities into deals](../sales/work-predictive-opportunity-scoring.md)  
+[Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
 
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
