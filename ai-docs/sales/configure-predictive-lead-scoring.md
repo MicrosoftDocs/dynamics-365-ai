@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure predictive lead scoring for Sales Insights"
-ms.date: 06/01/2020
+ms.date: 09/27/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -165,7 +165,7 @@ If you are using your custom attributes for lead generation, you can generate th
 
     With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model should score.
 
-8. Select Get started. 
+8. Select **Get started**. 
 
     The application starts generating a model, and a notification is displayed on the screen. The application uses the standard attributes to generate the model.
 
