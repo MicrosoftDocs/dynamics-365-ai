@@ -196,7 +196,7 @@ In organizations with different lines of business, you may need different models
 2.	At the bottom-left of the page, select **Add model**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select add add model](media/si-admin-predictive-lead-scoring-model-select-add-model "Select add add model")
+    > ![Select add model](media/si-admin-predictive-lead-scoring-model-select-add-model.png "Select add model")
 
     >[!NOTE]
     >If you have 10 models that include both published and unpublished, the **Add model** option is disabled. Delete the models that are no more required in your organization. To learn more, see [Delete a model](#delete-a-model).
