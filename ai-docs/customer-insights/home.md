@@ -10,15 +10,42 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Start your journey in Customer Insights on the Home page
+# Start your journey in Customer Insights 
 
 You can [access your Customer Insights instance](https://home.ci.ai.dynamics.com/) on the following URL: [https://home.ci.ai.dynamics.com/](https://home.ci.ai.dynamics.com/).
-The first page you'll see in Dynamics 365 Customer Insights is **Home**. This page shows an overview of your customer base and key metrics to track the health of your business.
+
+## Creating your first Trial environment
+Upon providing your AAD credentials and work email the first screen you will see is used for the creation of your first environment.
+
+Follow those steps:
+1.	Name your environment
+2.	Select Trial type
+3.	Select your Region 
+4.	(Optional and available only for Dynamics 365 admins): If you wish to use the predictive capabilities of Customer Insights (Customer churn, etc), click Advanced settings and then enter the server URL of your organization.
+5.	Click Create 
+
+Upon successful instance creation, the next screen you will see it the **demo instance** one.
+
+This instance allows you to experiment with Customer Insights while utilizing non-real demo data. 
+
+**Note:** You can also tweak the demo instance data to match your specific industry by clicking the **Settings icon** at the top menu and then hitting **Demo settings**. You can also change the theme for your trial instance using any of the themes in this panel. 
+
+Once you are ready to use your real environment, click the **Environment button** at the top bar menu and then choose the environment you have just created from the panel in order to switch to it. Note that your trial instance will expire after 30 days. After that timeline you will be prompted to either buy or delete this instance.
+
+## Creating your first Production or Sandbox environment
+In your trial environment, click the **Settings icon** at the top menu and then hit **New environment.** 
+
+Follow the steps mentioned above for setting up a new Trial instance. The only difference from the experience mentioned above for Trial is that you will be able to save your data to another location besides Customer Insights storage. You can save it to *Azure Data Lake Storage (ADLS)*. 
+
+To achieve that, click **Advanced settings** and then provide your account name and account key. 
+
+**Important:** By saving data to Azure Data Lake Storage, you agree that data will be transferred to and stored in the appropriate geographic location for that Azure storage account, which may differ from where data is stored in Dynamics 365 Customer Insights. Learn more by visiting the *Microsoft Trust Center.* 
+
+## Explore the home page
+The **Home page** shows an overview of your customer base and key metrics to track the health of your business.
 
 > [!div class="mx-imgBorder"] 
 > ![Insights on Home page](media/home-page-insights.png "Insights on Home page")
-
-## Explore the home page
 
 Under **Recent segments**, you see groups of customers based on demographic, behavioral, or transactional attributes that you've defined. [Creating segments](segments.md) helps you to better target your business activities.
 
