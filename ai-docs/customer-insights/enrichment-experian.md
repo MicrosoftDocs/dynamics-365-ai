@@ -19,7 +19,7 @@ Experian is a global leader in consumer and business credit reporting and market
 To configure Experian, the following prerequisites must be met:
 
 - You have an active Experian subscription. To get a subscription, [contact Experian](https://www.experian.com/marketing-services/contact) directly. [Learn more about Experian Data Enrichment](https://www.experian.com/marketing-services/microsoft?cmpid=ems_web_mci_cdppage).
-- You have the User ID, Party ID and Model Number for your SSH-enabled Secure Transport (ST) account that Experian created for you.
+- You have the User ID, Party ID, and Model Number for your SSH-enabled Secure Transport (ST) account that Experian created for you.
 - You have the [Administrator](permissions.md#administrator) role in Customer Insights.
 
 ## Configuration
@@ -31,11 +31,11 @@ To configure Experian, the following prerequisites must be met:
    > [!div class="mx-imgBorder"]
    > ![Experian tile](media/experian-tile.png "Experian tile")
 
-1. Select **Get started** and enter the User ID, Party ID and Model Number for your Experian Secure Transport account. Review and provide your consent for **Data privacy and compliance** by selecting the **I agree** checkbox. Confirm all inputs by selecting **Apply**.
+1. Select **Get started** and enter the User ID, Party ID, and Model Number for your Experian Secure Transport account. Review and provide your consent for **Data privacy and compliance** by selecting the **I agree** checkbox. Confirm all inputs by selecting **Apply**.
 
 ## Map your fields
 
-1. Select **Add data** and choose your key identifiers from **Name and Address**, **E-mail** or **Phone** to send to Experian for identity resolution.
+1. Select **Add data** and choose your key identifiers from **Name and Address**, **E-mail**, or **Phone** to send to Experian for identity resolution.
 
    > [!TIP]
    > More key identifier attributes sent to Experian likely yield a higher match rate.
