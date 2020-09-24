@@ -62,6 +62,8 @@
     href: enrichment-microsoft-graph.md
   - name: Enrich with Leadspace
     href: enrichment-leadspace.md
+  - name: Enrich with Experian
+    href: enrichment-experian.md
 
 - name: Segments and measures
   items: 
