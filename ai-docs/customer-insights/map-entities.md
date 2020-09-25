@@ -46,7 +46,12 @@ After selecting your entities, the **Map** page lists the selected entities for 
 
 - **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String, integer, and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from.
 
-- **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for an attribute, and type your custom semantic type name. You can also change the attribute types that were identified by the system.
+- **Attribute semantic type**: Categories of your attributes, such as email address or name. To leverage AI models for smart prediction of semantics, save time and improve accuracy, toggle the "Intelligent mapping" to ON, and you will see AI model based semantics recommendation highlighted in the Type field for you to select. You can select any other type as well from the available list of options.
+
+> [!div class="mx-imgBorder"]
+> ![Primary key and attribute type](media/data-manager-configure-map-add-attributes-semantic-prediction.png "attribute type and semantic prediction")
+
+Adding a custom semantic type is also possible. Select the type field for an attribute, and type your custom semantic type name. This way, you can also change the attribute types that were identified by the system.
 
 All attributes for which a semantic type is automatically identified are grouped in the **Review mapped fields** section. Review these attributes and their semantic types because they'll be used to combine your entities in the merge step of data unification.
 
