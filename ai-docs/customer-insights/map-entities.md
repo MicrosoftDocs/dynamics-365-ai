@@ -1,7 +1,7 @@
 ---
 title: "Map data in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Map data to create unified customer profiles in Dynamics 365 Customer Insights."
-ms.date: 08/27/2020
+ms.date: 09/25/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -46,7 +46,12 @@ After selecting your entities, the **Map** page lists the selected entities for 
 
 - **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String, integer, and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from.
 
-- **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for an attribute, and type your custom semantic type name. You can also change the attribute types that were identified by the system.
+- **Attribute semantic type**: Categories of your attributes, such as email address or name. To use AI models for smart prediction of semantics, save time and improve accuracy, set **Intelligent mapping** to **ON**. Intelligent mapping highlights AI-based semantics recommendation in the **Type** field. If you set it to **OFF**, you will see our regular mapping recommendations. You can select any semantic type from the available list of options and override the suggested selection.
+
+> [!div class="mx-imgBorder"]
+> ![Attribute type and semantic prediction](media/data-manager-configure-map-add-attributes-semantic-prediction.png "Attribute type and semantic prediction")
+
+Adding a custom semantic type is also possible. Select the type field for an attribute, and type your custom semantic type name. This way, you can also change the attribute types that were identified by the system.
 
 All attributes for which a semantic type is automatically identified are grouped in the **Review mapped fields** section. Review these attributes and their semantic types because they'll be used to combine your entities in the merge step of data unification.
 
@@ -55,13 +60,8 @@ Attributes that aren't automatically mapped to a semantic type are grouped in th
 > [!div class="mx-imgBorder"]
 > ![Primary key and attribute type](media/data-manager-configure-map-add-attributes.png "Primary key and attribute type")
 
-The type field drop-down shows the recommended semantic type as the first value with a star symbol.
-
 > [!NOTE]
 > One field should map to the semantic type Person.FullName to populate the customer name in customer card. Otherwise, the customer cards will appear nameless. 
-
-> [!div class="mx-imgBorder"]
-> ![semantic type recommendation](media/data-manager-configure-map-semantic-type-recommendation.png "semantic type recommendation")
 
 ## Add and remove attributes and entities
 
