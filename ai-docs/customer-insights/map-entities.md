@@ -44,7 +44,7 @@ For more information about the general flow of data unification, see [Unify](dat
 
 After selecting your entities, the **Map** page lists the selected entities for your review. Define the primary key for an entity and identify the semantic type for an attribute in the entity.
 
-- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from. Numeric data type support will be available in the upcoming releases.
+- **Primary key**: Select one attribute as a primary key for each of your entities. For an attribute to be a valid primary key, it shouldn't include duplicate values, missing values, or null values. String, integer, and GUID data type attributes are supported as primary keys and will be displayed in a field for you to select from.
 
 - **Attribute semantic type**: Categories of your attributes, such as email address or name. Adding a custom semantic type is also possible. Select the type field for an attribute, and type your custom semantic type name. You can also change the attribute types that were identified by the system.
 
