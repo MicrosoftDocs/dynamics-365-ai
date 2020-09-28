@@ -1,7 +1,7 @@
 ---
 title: "User permissions in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Learn about permissions and user roles in Dynamics 365 Customer Insights."
-ms.date: 05/28/2020
+ms.date: 09/28/2020
 ms.reviewer: nimagen
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
