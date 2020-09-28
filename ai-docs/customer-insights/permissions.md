@@ -12,7 +12,11 @@ manager: shellyha
 
 # User permissions
 
-The **Permissions** page is where you'll set up roles and permissions for using Dynamics 365 Customer Insights across your organization. Customer Insights includes three types of roles:
+The **Permissions** page is where you'll set up roles and permissions for using Dynamics 365 Customer Insights across your organization.
+
+You need to have administrator permissions to see the page. To access the permissions page in Customer Insights, go to **Admin** > **Permissions**.
+
+Customer Insights includes three types of roles:
 
 ## Viewer
 
@@ -57,7 +61,7 @@ Administrators may use the **Permissions** page to grant user role assignments w
 
 ## View current permissions
 
-Use the **Permissions** page to see what role assignments are currently active.
+Go to **Admin** > **Permissions** page to see what role assignments are currently active.
 
 - The **Type** column specifies a single user, group, or application. The system supports individual users and groups.
 - Roles are specified under the **Role** column.
