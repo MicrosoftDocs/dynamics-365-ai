@@ -34,7 +34,7 @@ Go to the **My enrichments** to see all configured enrichments. Each enrichment 
 
 Select an enrichment to see the available options. Alternatively, you can select the ellipsis (...) on a list item to see the options.
 
-:::image type="content" source="media/enrichment-hub-options-run.png" alt-text="Options to manage enrichments in the list of enrichments":::
+<!--- :::image type="content" source="media/enrichment-hub-options-run.png" alt-text="Options to manage enrichments in the list of enrichments"::: --->
 
 - **View** enrichment details with the number of enriched customer profiles.
 - **Edit** the enrichment configuration.
