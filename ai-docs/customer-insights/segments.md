@@ -53,7 +53,7 @@ Segments are managed on the **Segments** page in Customer Insights.
    |3    |Operator         |
    |4    |Value         |
 
-8. If the entity is connected to the unified customer entity through [relationships](relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
+8. If the entity is connected to the unified customer entity through [relationships](relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer:CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
 
    > [!div class="mx-imgBorder"]
    > ![Relationship path during segment creation](media/segments-multiple-relationships.png "Relationship path during segment creation")
@@ -75,16 +75,16 @@ Use the **Search** box in the top-right corner to filter the segments.
 > [!div class="mx-imgBorder"]
 > ![Options to manage an existing segment](media/segments-selected-segment.png "Options to manage an existing segment")
 
-Select a segment to do the following:
+The following action are available when you select a segment:
 
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** the segment to include the latest data.
-- **Activate** or **Deactivate** the segment. Segments have two possible states - active or inactive. This primarily when editing a segment. You can edit the properties of an inactive segment but does not have to wait for the segment to refresh every time it's saved. This lets you refine the segment definition quickly and only run the segment when it's ready. If a [scheduled refresh](system.md#schedule-tab) is configured, inactive segments have the **Status** listed as **Skipped**, indicating that a refresh wasn't even attempted. When an inactive segment is activated, it'll refresh and will be incuded in scheduled refreshes.
+- **Activate** or **Deactivate** the segment. Segments have two possible states - active or inactive. These states come in handy when editing a segment. You can edit the properties of an inactive segment but does not have to wait for the segment to refresh every time it's saved. Inactive segments let you refine the segment definition quickly and only run the segment when it's ready. If a [scheduled refresh](system.md#schedule-tab) is configured, inactive segments have the **Status** listed as **Skipped**, indicating that a refresh wasn't even attempted. When an inactive segment is activated, it will refresh and will be included in scheduled refreshes.
   Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
 - **Download** the list of members as a .CSV file.
-- **Add to** will send the list of customer IDs in the segment for processing in another application.
+- **Add to** option sends the list of customer IDs in the segment for processing in another application.
 - **Delete** the segment.
 
 ## Refresh segments
@@ -151,7 +151,7 @@ Each group produces a specific set of customers. You can combine these groups to
    > [!div class="mx-imgBorder"]
    > ![Customer group add union](media/customer-group-union.png "Customer group add union")
 
-   Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
+   Select a set operator to define a new group. Save different groups to determine what data gets maintained:
 
    - **Union** unites the two groups.
 
