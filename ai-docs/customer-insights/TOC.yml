@@ -19,7 +19,7 @@
 - name: Data sources
   items:
     - name: Data sources overview
-      href: data-sources-overview.md
+      href: data-sources.md
     - name: Add data sources via Power Query connectors
       href: connect-power-query.md
     - name: Add a Common Data Model folder as a data source
