@@ -1,7 +1,7 @@
 ---
-title: "Incremental refresh for large data sources in Customer Insights | Microsoft Docs"
-description: "Refresh new and updated data for large data sources in Dynamics 365 Customer Insights."
-ms.date: 04/16/2020
+title: "Incremental refresh for Power Query-based data sources | Microsoft Docs"
+description: "Refresh new and updated data for large data sources based on Power Query."
+ms.date: 09/28/2020
 ms.reviewer: adkuppa
 ms.service: dynamics-365-ai
 ms.topic: "article"
@@ -10,9 +10,9 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Incremental refresh for large data sources
+# Incremental refresh for data sources based on Power Query
 
-Incremental refresh for data sources in Customer Insights provides the following advantages:
+Incremental refresh for data sources provides the following advantages:
 
 - **Faster refreshes** - Only data that has changed gets refreshed. For example, you might refresh only the past five days of a historical dataset.
 - **Increased reliability** - With smaller refreshes, you don't need to maintain connections to volatile source systems for as long, reducing the risk of connection issues.
@@ -20,15 +20,15 @@ Incremental refresh for data sources in Customer Insights provides the following
 
 ## Configure incremental refresh
 
-Customer Insights allows incremental refresh for data sources imported through Power Query that support incremental ingestion. For example, Azure SQL databases with date and time fields, which indicate when data records were last updated.
+Dynamics 365 Customer Insights allows incremental refresh for data sources imported through Power Query that support incremental ingestion. For example, Azure SQL databases with date and time fields, which indicate when data records were last updated.
 
-1. In Customer Insights, [create a new data source](data-sources.md).
+1. [Create a new data source based on Power Query](connect-power-query.md).
 
 1. Provide a name for the data source.
 
 1. Select a data source that supports incremental refresh, such as Azure SQL database.
 
-1. Select the entities or tables to ingest into Customer Insights and transform the data.
+1. Select the entities or tables to ingest.
 
 1. Complete the transformation steps and select **Next**.
 
