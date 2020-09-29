@@ -27,7 +27,7 @@ Using this score, you can:
 
 For example, say you have two leads&mdash;Lead A and Lead B&mdash;in your pipeline. The lead scoring model applies a score of 80 for Lead A and 50 for Lead B. By looking at the score, you can predict that Lead A has a greater chance of being converted into an opportunity, and you can engage it. Also, you can further analyze why the score of Lead B is low by looking at the top reasons influencing the score and deciding whether to improve this score.
 
-The following image shows an example of a lead scoring widget.<!--Would it be helpful to a reader with low vision if we fully described this image? In the new image extension in docs, the length of the description is basically unlimited. Please see https://review.docs.microsoft.com/en-us/help/contribute/markdown-reference?branch=master#complex-images-with-long-descriptions and see what you think!-->
+The following image shows an example of a lead scoring widget.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
@@ -36,7 +36,7 @@ The following image shows an example of a lead scoring widget.<!--Would it be he
 >[!IMPORTANT]
 >If you're using a version of predictive lead scoring earlier than 2020 release wave 2 for Dynamics 365, delete the model. This is necessary because the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
 
-You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.<!--What does "impact of the outcome" mean here?-->
+You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
 ## Prerequisites
 
@@ -54,7 +54,7 @@ Before we configure the predictive lead scoring, let's understand the configurat
 > [!div class="mx-imgBorder"]
 > ![Configuration page](media/si-admin-predictive-lead-scoring-configuration-page.png "Configuration page")
 
-Typically<!--Is this the right word? It sounds a bit unsure.-->, the configuration page is organized into the following sections:
+The configuration page is organized into the following sections:
 
 - [Select a model](#select-model)
 - [Actions you can perform on the model](#actions-you-can-perform-on-the-model)
@@ -136,10 +136,7 @@ If you're using custom attributes for lead generation, you can generate the mode
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the site map under **Predictive models**, select **Lead scoring**.<!--You don't need the tip below. You only need to (should) give one way to get a procedure accomplished.-->
-
-    > [!TIP]
-    > Alternatively, on the **Sales Insights settings** page, select **Set up** from the **Predictive lead scoring** section to go to the configuration page.
+3. On the site map under **Predictive models**, select **Lead scoring**.
 
     The **Predictive lead scoring** configuration page is displayed.
 
@@ -150,11 +147,11 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-5. In the **Business process flow** list, select a flow that's relevant for the leads for which you're generating the model. The values displayed in the list are the business process flows that are defined for leads in your organization.<!--I'm not sure why the following paragraphs are here (especially the first one). The concepts are fully covered elsewhere, so wouldn't they be better simply as "more information" links?-->
+5. In the **Business process flow** list, select a flow that's relevant for the leads for which you're generating the model. The values displayed in the list are the business process flows that are defined for leads in your organization.
 
     A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business process flows to represent the work of different security roles or lines of business.
 
-    You must enable custom business process flow entities for analytics and to be able to select them.<!--Not sure what "and to be able select" meant.--> More information: [Configure Entity For Managed Lake](https://dynamics.wiki/index.php/Configure_Entity_For_Managed_Lake)
+    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Configure Entity For Managed Lake](https://dynamics.wiki/index.php/Configure_Entity_For_Managed_Lake)
 
 6. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively. 
 
@@ -166,7 +163,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 
 7. Select **Filter column** and **Filter values** to define the leads for which the model must score. 
 
-    With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will<!--For more information, please see Writing Style Guide about "should."--> score.
+    With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will score.
 
 8. Select **Get started**.
 
