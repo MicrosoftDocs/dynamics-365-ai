@@ -51,4 +51,3 @@ Loading data can take some time. After a successful refresh, the ingested data c
 2. Select the vertical ellipsis next to the data source you want to remove and select **Delete** from the drop-down menu.
 
 3. Confirm your deletion.
-1. 
