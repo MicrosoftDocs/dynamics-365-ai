@@ -204,7 +204,7 @@ In organizations that have different lines of business, you might need different
     > [!div class="mx-imgBorder"]
     > ![Predictive opportunity scoring add model page](media/si-admin-predictive-opportunity-scoring-model-add-model-page.png "Predictive opportunity scoring add model page")
 
-3. Perform steps 4 through 8 in [First-run set up experience](#first-run-set-up-experience), earlier in this topic, to add the model. 
+3. Perform steps 4 through 8 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
 4. AAfter the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
