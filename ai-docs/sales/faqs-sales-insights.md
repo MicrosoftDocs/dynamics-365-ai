@@ -66,7 +66,7 @@ Sales insights features are available in the following regions:
 <td>Relationship analytics</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
-<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></td>
+<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></td>
 </tr>
 <tr>
 <td>Talking points</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td>
@@ -339,10 +339,30 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 The graph requires approximately 24 hours to populate the results for the first time. Subsequent updates take 3-6 days based on new activities included in the graph.​
 
 **​Who will be included in the graph?​**<br>
-Everyone in the tenant (in the United States until geo availability expands) will be included in the graph. Administrators have the option to opt out users or DLs, such as C-suite, M&A, finance, and so on. Per user, the self-serve opt-out will be available in the next few months.​
+Everyone in the tenant will be included in the graph. Administrators or users have the option to opt out users or DLs, such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-connection-graph).​
 
 **​How are the connections weighted?**<br>
 Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact/lead. Consequently, this means a salesperson might not see the same results as another salesperson because they know different people in the organization.
+
+**What is the source of the data?**<br>
+Who Knows Whom has the following data sources:
+-	**Dynamics 365**: The lead or contact email ID that is used to query the Exchange Online to find who in the tenant has communication with sellers.
+-	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, seller’s contacts, and the organization directory.
+
+**Where is the data stored?**<br>
+The insights are generated within the Exchange Online system, so we follow the same data security principals as Exchange Online. To learn more, see [Security and compliance for Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance). 
+
+**What is the data retention policy and where is it set?**<br>
+The service is fully GDPR-compliant. Dynamics 365 won’t cache any data on its side and the data is queried every time when a page load with Who Knows Whom.
+
+**How do I opt out?**<br>
+Currently, you cannot opt out of as an individual.
+
+**How does an Exchange administrator exclude users?**<br>
+The Exchange administrator can provide the AAD group that contains all the users that they want to exclude such as, CEOs and vice presidents. 
+
+**What level of access does administrators have?**<br>
+The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales and Exchange administrator must enable in Exchange Online. By enabling, a connection is established between Dynamics 365 Sales and Exchange Online to exchange data within the subsystems. If any of the administrators disables it, the data won’t be visible on the Who Knows Who widget.
 
 ## Conversation Intelligence
 
@@ -353,7 +373,7 @@ The data is refreshed periodically and could take up to 12 hours to reflect. We 
 Yes, the application is also available for sellers and can view their conversational insights.
 
 **Is an admin needed to enable the app for my organization?**<br>
-Yes. Administrator must configure the application for you to use. If administrator did not configure the application, you can explore the application with the demo data that is provided.
+Yes. Administrator must configure the application for you to use. If administrator didn't configure the application, you can explore the application with the demo data that is provided.
 
 **Which telephony system do you support?​**<br>
 The application is independent of telephony systems. If you have stereo call recordings (two-channel stereo), we process them at scale to generate insights​.
