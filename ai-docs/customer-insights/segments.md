@@ -1,7 +1,7 @@
 ---
 title: "Create and manage segments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 04/06/2020
+ms.date: 09/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -80,7 +80,8 @@ Select a segment to do the following:
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** the segment to include the latest data.
-- **Activate** or **Deactivate** the segment. Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
+- **Activate** or **Deactivate** the segment. Segments have two possible states - active or inactive. This primarily when editing a segment. You can edit the properties of an inactive segment but does not have to wait for the segment to refresh every time it's saved. This lets you refine the segment definition quickly and only run the segment when it's ready. If a [scheduled refresh](system.md#schedule-tab) is configured, inactive segments have the **Status** listed as **Skipped**, indicating that a refresh wasn't even attempted. When an inactive segment is activated, it'll refresh and will be incuded in scheduled refreshes.
+  Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
 - **Download** the list of members as a .CSV file.
 - **Add to** will send the list of customer IDs in the segment for processing in another application.
