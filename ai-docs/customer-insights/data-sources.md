@@ -1,19 +1,19 @@
 ---
-title: "Data sources in Dynamics 365 Customer Insights | Microsoft Docs"
-description: "Learn how to import data from various sources into Dynamics 365 Customer Insights."
+title: "Use data sources to ingest data | Microsoft Docs"
+description: "Learn how to import data from various sources."
 ms.date: 09/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 ms.assetid: 
 author: m-hartmann
 ms.author: mhart
-ms.reviewer: mukeshpo
+ms.reviewer: adkuppa
 manager: shellyha
 ---
 
 # Overview about data sources
 
-Customer Insights connects data from a broad set of sources. Connecting a data source to Customer Insights is often referred to as the process of *data ingestion*. After bringing th data into customer Insights, you can [unify](data-unification.md) the data and get a holistic view of the customer data, and take action on it.
+Dynamics 365 Customer Insights connects data from a broad set of sources. Connecting to a data source is often referred to as the process of *data ingestion*. After ingesting the data, you can [unify](data-unification.md) it to get a holistic view of the customer data, and take action on it.
 
 ## Add a data source
 
@@ -46,8 +46,9 @@ Loading data can take some time. After a successful refresh, the ingested data c
 
 ## Delete a data source
 
-1. In Customer Insights, go to **Data sources**.
+1. Go to **Data** > **Data sources**.
 
 2. Select the vertical ellipsis next to the data source you want to remove and select **Delete** from the drop-down menu.
 
 3. Confirm your deletion.
+1. 
