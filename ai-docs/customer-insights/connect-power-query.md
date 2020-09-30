@@ -42,23 +42,24 @@ Power Query offers a broad set of connectors to ingest data. Most of these conne
    These transformations are highly recommended:
 
    - If you're ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
-
-   - Map your data to a standard format of data. For example, you can map your data to the Common Data Model. To do so, select **Map to standard** in the Power Query header, and then map fields from your source data to Common Data Model fields.
+   - Ensure the data type is set appropriately.
 
 1. Select **Save** at the bottom of the Power Query window to save the transformations. After saving, you'll find your data source on **Data** > **Data sources**.
 
-1. On the **Data sources** page, select the ellipsis next to the newly created data source and select **Refresh**.
+1. On the **Data sources** page, you'll notice the new data source is in **Refreshing** status.
 
 ## Available Power Query data sources
 
 See the [Power Query connector reference](https://docs.microsoft.com/power-query/connectors/) for an up-to-date list of connectors that you can select to import data to Customer Insights. 
 
-All connectors that have a checkmark in the **Customer Insights (Dataflows)** column are available when creating a new data source based on Power Query. Have a look at the connector reference of a specific connector to learn more about its prerequisites and other details.
+All connectors that have a checkmark in the **Customer Insights (Dataflows)** column are available when creating a new data source based on Power Query. Have a look at the connector reference of a specific connector to learn more about its prerequisites, limitations, and other details.
 
 ## Edit Power Query data sources
 
 > [!NOTE]
-> It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*segmentation*, *match*, or *merge*, for example). Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes.
+> It might not be possible to make changes to data sources that are currently being used in one of the app's processes (*segmentation*, *match*, or *merge*, for example). 
+>
+> Using the **Settings** page, you can track the progress of each of the active processes. When a process completes, you can return to the **Data Sources** page and make your changes.
 
 1. Go to **Data** > **Data sources**.
 
