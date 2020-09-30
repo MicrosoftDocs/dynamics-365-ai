@@ -334,18 +334,18 @@ It takes a few seconds to display the results.​
 
 ## Who knows whom
 
-**What do I need to build a connection graph in Who knows whom?​**<br>
-To build a connection graph in Who knows whom, Office 365 Exchange is required. The graph is built only on user accounts that are in the following Office 365 geography locations
-location:
+**What do I need to build a connection graph in who knows whom?​**<br>
+To build a connection graph in who knows whom, Office 365 Exchange is required. The graph is built only on user accounts that are in the following Office 365 geography locations:
 - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
-- Global Geography 3 - Americas (Brazil, Chile, United States).<br>
+- Global Geography 3 - Americas (Brazil, Chile, United States).
+
 To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 
 Also, server-side sync is required for email introduction requests. ​
 
-**How do I enable Who knows whom?​**<br>
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
+**How do I enable who knows whom?​**<br>
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the who knows whom feature from **Settings** > **AI setup**.​
 
 **How long will it take for results to appear?**<br>
 The graph requires approximately 1-3 days to populate the results for the first time. Subsequently, updates take 3-6 days based on new activities included in the graph.​
