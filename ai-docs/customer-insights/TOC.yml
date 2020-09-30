@@ -13,8 +13,14 @@
 - name: Access your instance
   href: https://home.ci.ai.dynamics.com/
 
-- name: First steps
-  href: home.md
+- name: Get started
+  items:
+    - name: Create you first environment
+      href: home.md
+    - name: Create a unified customer profile
+      href: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+    - name: Work with the app
+      href: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
 
 - name: Data sources
   items:
