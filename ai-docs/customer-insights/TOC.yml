@@ -15,7 +15,7 @@
 
 - name: Get started
   items:
-    - name: Create you first environment
+    - name: Start your journey with Customer Insights
       href: home.md
     - name: Create a unified customer profile
       href: https://docs.microsoft.com/learn/modules/unified-customer-profile/
