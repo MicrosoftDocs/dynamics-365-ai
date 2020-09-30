@@ -109,6 +109,11 @@ The Sales Insights features support the following versions of Exchange:
 >[!NOTE]
 >- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics will not contain Exchange data and the assistant will not display cards that are based on Exchange data. 
 >- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
+>- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region specific data canter location:
+>   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
+>   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
+>   - Global Geography 3 - Americas (Brazil, Chile, United States).<br>
+>   To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 
 **What languages are supported now?**<br>
 Sales insights support the following languages:<br>
@@ -329,14 +334,21 @@ It takes a few seconds to display the results.​
 
 ## Who knows whom
 
-**What do I need in order to use Who knows whom?​**<br>
-Who knows whom requires Office 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
+**What do I need to build a connection graph in Who knows whom?​**<br>
+To build a connection graph in Who knows whom, Office 365 Exchange is required. The graph is built only on user accounts that are in the following Office 365 geography locations
+location:
+- Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
+- Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
+- Global Geography 3 - Americas (Brazil, Chile, United States).<br>
+To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
+
+Also, server-side sync is required for email introduction requests. ​
 
 **How do I enable Who knows whom?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
 
 **How long will it take for results to appear?**<br>
-The graph requires approximately 24 hours to populate the results for the first time. Subsequent updates take 3-6 days based on new activities included in the graph.​
+The graph requires approximately 1-3 days to populate the results for the first time. Subsequently, updates take 3-6 days based on new activities included in the graph.​
 
 **​Who will be included in the graph?​**<br>
 Everyone in the tenant will be included in the graph. Administrators or users have the option to opt out users or DLs, such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-connection-graph).​
@@ -356,7 +368,7 @@ The insights are generated within the Exchange Online system, so we follow the s
 The service is fully GDPR-compliant. Dynamics 365 won’t cache any data on its side and the data is queried every time when a page load with Who Knows Whom.
 
 **How do I opt out?**<br>
-Currently, you cannot opt out of as an individual.
+You can choose to opt out of the connection graph. To learn more, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-connection-graph).​
 
 **How does an Exchange administrator exclude users?**<br>
 The Exchange administrator can provide the AAD group that contains all the users that they want to exclude such as, CEOs and vice presidents. 

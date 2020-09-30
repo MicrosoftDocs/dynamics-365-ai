@@ -85,6 +85,9 @@ To configure the Dynamics 365 Sales Insights connection graph, follow these step
 
 As a user, you can always choose to opt out of the connection graph if you don't want Dynamics 365 Sales Insights to analyze your data such as, communication and collaboration with in Office 365 organization. 
 
+>[!NOTE]
+>You can opt out of the connection graph only if your Office 365 organization is in EMEA or Asia Pacific global geography. To learn more, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
+
 1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/) settings.
 
     > [!div class="mx-imgBorder"]
