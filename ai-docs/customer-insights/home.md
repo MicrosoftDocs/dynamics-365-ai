@@ -14,7 +14,10 @@ manager: shellyha
 
 ## Create a trial environment
 
-You can sign up for a trial on the [trial sign up page](https://dynamics.microsoft.com/get-started/free-trial/?appname=customerinsights). Trials expire after 30 days.
+You can sign up for a trial on the [trial sign up page](https://dynamics.microsoft.com/get-started/free-trial/?appname=customerinsights). 
+
+> [!NOTE]
+> Trials expire after 30 days.
 
 1. Choose the **Sign up for a free trial** option and select **Sign up now**.
 
@@ -30,10 +33,7 @@ You can sign up for a trial on the [trial sign up page](https://dynamics.microso
 
 1. Select **Create**. 
 
-After the environment was created, you'll see the **Demo** environment which lets you explore the app with ficicious data.
-
-> [!TIP]
-> You can also change the sample data to match your industry. Select the **Settings** icon in the header and select **Demo settings**. Additionally, you can change the visual theme. 
+After the environment was created, you'll see the **Demo** environment which lets you explore the app with ficicious data. You can change the sample data to match your industry. Select the **Settings** icon in the header and select **Demo settings**. Additionally, you can change the visual theme. 
 
 You [switch to the environment](#change-between-environments) you created during the sign up process to work with you own data.
 
