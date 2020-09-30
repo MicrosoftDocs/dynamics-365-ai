@@ -112,7 +112,7 @@ The Sales Insights features support the following versions of Exchange:
 >- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region specific data canter location:
 >   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 >   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
->   - Global Geography 3 - Americas (Brazil, Chile, United States).<br>
+>   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
 >   To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 
 **What languages are supported now?**<br>
@@ -338,7 +338,7 @@ It takes a few seconds to display the results.​
 To build a connection graph in who knows whom, Office 365 Exchange is required. The graph is built only on user accounts that are in the following Office 365 geography locations:
 - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
-- Global Geography 3 - Americas (Brazil, Chile, United States).
+- Global Geography 3 – Americas (Brazil, Chile, United States).
 
 To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 

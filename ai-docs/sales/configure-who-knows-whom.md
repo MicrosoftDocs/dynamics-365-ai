@@ -25,7 +25,7 @@ The Who knows whom feature helps users to quickly identify colleagues within the
 >- For Office 365 data, you organization's data location must be in one of the following locations and not in your region specific data canter location:
 >   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 >   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
->   - Global Geography 3 - Americas (Brazil, Chile, United States).<br>
+>   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
 >   To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 
 To configure who knows whom, follow these steps:
