@@ -1,7 +1,7 @@
 ---
 title: "Create and manage segments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create segments of customers to group them based on various attributes."
-ms.date: 04/06/2020
+ms.date: 09/29/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -53,7 +53,7 @@ Segments are managed on the **Segments** page in Customer Insights.
    |3    |Operator         |
    |4    |Value         |
 
-8. If the entity is connected to the unified customer entity through [relationships](relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer : CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
+8. If the entity is connected to the unified customer entity through [relationships](relationships.md), you need to define the relationship path to create a valid segment. Add the entities from the relationship path until you can select the **Customer:CustomerInsights** entity from the dropdown. Then, choose **All records** for each condition.
 
    > [!div class="mx-imgBorder"]
    > ![Relationship path during segment creation](media/segments-multiple-relationships.png "Relationship path during segment creation")
@@ -75,15 +75,16 @@ Use the **Search** box in the top-right corner to filter the segments.
 > [!div class="mx-imgBorder"]
 > ![Options to manage an existing segment](media/segments-selected-segment.png "Options to manage an existing segment")
 
-Select a segment to do the following:
+The following action are available when you select a segment:
 
 - **View** the segment details, including member count trend a preview of segment members.
 - **Edit** the segment to change its properties.
 - **Refresh** the segment to include the latest data.
-- **Activate** or **Deactivate** the segment. Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
+- **Activate** or **Deactivate** the segment. Segments have two possible states - active or inactive. These states come in handy when editing a segment. For inactive segments, the segment definition exists but it doesn't contain any customers yet. When you activate a segment, its state changes from 'inactive' to 'active" and it starts looking for customers that match the segment definition. If a [scheduled refresh](system.md#schedule-tab) is configured, inactive segments have the **Status** listed as **Skipped**, indicating that a refresh wasn't even attempted. When an inactive segment is activated, it will refresh and will be included in scheduled refreshes.
+  Alternatively, you can use the **Schedule later** functionality in the **Activate/Deactivate** dropdown to specify a future date and time for activation and deactivation of a particular segment.
 - **Rename** the segment.
 - **Download** the list of members as a .CSV file.
-- **Add to** will send the list of customer IDs in the segment for processing in another application.
+- **Add to** option sends the list of customer IDs in the segment for processing in another application.
 - **Delete** the segment.
 
 ## Refresh segments
@@ -91,7 +92,7 @@ Select a segment to do the following:
 You can refresh all segments at once by selecting **Refresh all** on the **Segments** page or you can refresh one or multiple segments when you select them and choose **Refresh** in from the options. Alternatively, you can configure a recurring refresh on **Admin** > **System** > **Schedule**.
 
 > [!TIP]
-> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job. After selecting **See details** for one of the job's tasks, you find additional information: processing time, the last processing date, and all errors and warnings associated with the task.
 
 ## Download and export segments
 
@@ -150,7 +151,7 @@ Each group produces a specific set of customers. You can combine these groups to
    > [!div class="mx-imgBorder"]
    > ![Customer group add union](media/customer-group-union.png "Customer group add union")
 
-   Selecting a set operator enables you to define a new group. Saving different groups determines what data gets maintained:
+   Select a set operator to define a new group. Save different groups to determine what data gets maintained:
 
    - **Union** unites the two groups.
 

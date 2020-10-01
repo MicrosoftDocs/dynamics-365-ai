@@ -3,8 +3,7 @@ title: "Trigger a refresh of your Customer Service Insights data"
 description: "Learn how to trigger a refresh of your Customer Service Insights data."
 keywords: ""
 ms.date: 4/25/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: m-hartmann

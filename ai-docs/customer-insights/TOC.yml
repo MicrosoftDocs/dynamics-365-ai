@@ -13,8 +13,14 @@
 - name: Access your instance
   href: https://home.ci.ai.dynamics.com/
 
-- name: First steps
-  href: home.md
+- name: Get started
+  items:
+    - name: Start your journey
+      href: home.md
+    - name: Create a unified customer profile
+      href: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+    - name: Work with the app
+      href: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
 
 - name: Data sources
   items:
@@ -60,6 +66,8 @@
     href: enrichment-microsoft-graph.md
   - name: Enrich with Leadspace
     href: enrichment-leadspace.md
+  - name: Enrich with Experian
+    href: enrichment-experian.md
 
 - name: Segments and measures
   items: 

@@ -2,11 +2,11 @@
 title: "Enrichment of company profiles with the third-party enrichment Leadspace in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "General information about the Leadspace third-party enrichment in Customer Insights."
 ms.date: 06/23/2020
-ms.reviewer: mhart
+ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "article"
-author: adasatu
-ms.author: a-dasatu
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 

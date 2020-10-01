@@ -2,8 +2,7 @@
 title: "Overview of call insights in Dynamics 365 Customer Service Insights | MicrosoftDocs"
 description: "Improve agent coaching and customer experience with AI-driven insights readily available for Customer Service Insights"
 ms.date: 04/20/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms

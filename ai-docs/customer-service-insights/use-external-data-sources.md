@@ -3,8 +3,7 @@ title: "Use external data sources in Customer Service Insights to get AI insight
 description: "No matter where your customer service data lives, you can leverage the same AI model offered by CSI to identify top trends and emerging topics."
 keywords: "data, external, salesforce, zendesk, source, insights"
 ms.date: 11/14/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: iaanw

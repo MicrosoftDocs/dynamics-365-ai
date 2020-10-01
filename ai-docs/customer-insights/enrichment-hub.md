@@ -23,7 +23,8 @@ On the **Discover** tab, you'll find the following enrichments:
 
 - [Brands](enrichment-microsoft-graph.md) provided by Microsoft Graph
 - [Interests](enrichment-microsoft-graph.md) provided by Microsoft Graph
-- [Company data provided by Leadspace](enrichment-leadspace.md)
+- [Company data](enrichment-leadspace.md)  provided by Leadspace
+- [Demographics](enrichment-experian.md) provided by Experian
 
 On the **My enrichments** tab, you can see the enrichments you've configured and edit their properties.
 
@@ -33,7 +34,7 @@ Go to the **My enrichments** to see all configured enrichments. Each enrichment 
 
 Select an enrichment to see the available options. Alternatively, you can select the ellipsis (...) on a list item to see the options.
 
-:::image type="content" source="media/enrichment-hub-options-run.png" alt-text="Options to manage enrichments in the list of enrichments":::
+<!--- :::image type="content" source="media/enrichment-hub-options-run.png" alt-text="Options to manage enrichments in the list of enrichments"::: --->
 
 - **View** enrichment details with the number of enriched customer profiles.
 - **Edit** the enrichment configuration.

@@ -1,7 +1,7 @@
 ---
 title: "Enrich customer profiles with Microsoft Graph in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Use proprietary data from the Microsoft Graph to enrich your customer data with brand and interest affinities in Dynamics 365 Customer Insights."
-ms.date: 08/06/2020
+ms.date: 09/28/2020
 ms.reviewer: kishorem
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
@@ -50,6 +50,8 @@ To select a country, open the **Brands enrichment** or **Interest enrichment** a
 
 - When [choosing your own brands](#define-your-brands-or-interests), we will provide suggestions based on the selected country/region.
 
+- When [choosing an industry](#define-your-brands-or-interests), we will identify the most relevant brands or interests based on the selected country/region.
+
 - When [mapping your fields](#map-your-fields), if the Country/Region field isn't mapped, we'll use Microsoft Graph data from the selected country/region to enrich your customer profiles. We'll also use that selection to enrich your customer profiles that don't have country/region data available.
 
 - When [enriching profiles](#refresh-enrichment), we'll enrich all customer profiles for which we have Microsoft Graph data available for the selected brands and interests, including profiles that are not in the selected country/region. For example, if you selected Germany, we'll enrich profiles located in the United States if we have Microsoft Graph data available for the selected brands and interests in the US.
@@ -93,7 +95,7 @@ Run the enrichment after configuring brands, interests, and the field mapping fo
 Depending on the size of your customer data, it may take several minutes for an enrichment run to complete.
 
 > [!TIP]
-> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job.
+> There are [six types of status](system.md#status-types) for tasks/processes in Customer Insights. Additionally, most processes [depend on other downstream processes](system.md#refresh-policies). You can select the status of a process to see details on the progress of the entire job. After selecting **See details** for one of the job's tasks, you find additional information: processing time, the last processing date, and all errors and warnings associated with the task.
 
 ## Enrichment results
 

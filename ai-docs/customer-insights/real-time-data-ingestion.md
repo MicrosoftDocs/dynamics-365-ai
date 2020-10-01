@@ -2,11 +2,11 @@
 title: "Real-time data ingestion for Dynamics 365 Customer Insights | Microsoft Docs"
 description: "General information about real-time capabilities in Customer Insights"
 ms.date: 06/02/2020
-ms.reviewer: mhart
+ms.reviewer: nikeller
 ms.service: dynamics-365-ai
 ms.topic: "article"
-author: adasatu
-ms.author: a-dasatu
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
 ---
 

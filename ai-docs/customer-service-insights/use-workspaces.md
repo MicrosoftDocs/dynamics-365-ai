@@ -3,8 +3,7 @@ title: "Use and manage workspaces to connect to different customer service envir
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
 ms.date: 5/29/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
 author: m-hartmann

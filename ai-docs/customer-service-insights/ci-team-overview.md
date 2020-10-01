@@ -2,8 +2,7 @@
 title: "Understand team overview feature for call insights | MicrosoftDocs"
 description: "Analyze overall team performance to improve calls"
 ms.date: 04/20/2020
-ms.service: 
- - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
 author: lalexms

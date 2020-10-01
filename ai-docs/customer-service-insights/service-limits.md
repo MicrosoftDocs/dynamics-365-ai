@@ -3,8 +3,7 @@ title: "Service limits in Dynamics 365 Customer Service Insights"
 description: "Understand limits and restrictions within the Dynamics 365 Customer Service Insights product."
 keywords: ""
 ms.date: 05/10/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
 author: tpalmer

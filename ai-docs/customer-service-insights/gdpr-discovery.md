@@ -3,8 +3,7 @@ title: "Respond to GDPR Data Subject Discovery Requests (DSR) for Dynamics 365 C
 description: "Find resources containing personal data to respond to GDPR discovery requests for Dynamics 365 Customer Service Insights"
 keywords: ""
 ms.date: 4/30/2019
-ms.service:
-  - dynamics-365-ai
+ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
 author: m-hartmann
