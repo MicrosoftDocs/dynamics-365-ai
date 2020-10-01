@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Create a new enviroment
+# Create a new environment
 
 ## Create a trial environment
 
