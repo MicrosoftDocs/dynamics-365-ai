@@ -10,7 +10,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Start your journey with Dynamics 365 Customer Insights
+# Create a new environment
 
 ## Create a trial environment
 
