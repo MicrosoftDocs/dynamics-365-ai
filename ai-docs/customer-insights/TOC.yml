@@ -15,7 +15,7 @@
 
 - name: Get started
   items:
-    - name: Start your journey
+    - name: Create a new environment
       href: home.md
     - name: Create a unified customer profile
       href: https://docs.microsoft.com/learn/modules/unified-customer-profile/
