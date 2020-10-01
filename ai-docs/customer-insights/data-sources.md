@@ -13,11 +13,11 @@ manager: shellyha
 
 # Overview about data sources
 
-Dynamics 365 Customer Insights connects data from a broad set of sources. Connecting to a data source is often referred to as the process of *data ingestion*. After ingesting the data, you can [unify](data-unification.md) it to get a holistic view of the customer data, and take action on it.
+Dynamics 365 Customer Insights connects data from a broad set of sources. Connecting to a data source is often referred to as the process of *data ingestion*. After ingesting the data, you can [unify](data-unification.md) and take action on it.
 
 ## Add a data source
 
-Please refer to the detailed articles on how to add a data source, depending on which option you choose.
+Refer to the detailed articles on how to add a data source, depending on which option you choose.
 
 You can add a data source in three main ways:
 
@@ -30,7 +30,7 @@ You can add a data source in three main ways:
 
 ## Review ingested data
 
-You'll see the name of each ingested data source, as well as its status and the last time the data was refreshed for that source.
+You'll see the name of each ingested data source, its status, and the last time the data was refreshed for that source.
 
 > [!div class="mx-imgBorder"]
 > ![Data source added](media/configure-data-datasource-added.png "Data source added")

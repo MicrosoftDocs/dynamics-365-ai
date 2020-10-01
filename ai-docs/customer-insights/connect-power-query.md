@@ -12,7 +12,7 @@ manager: shellyha
 
 # Connect to a Power Query data source
 
-Power Query offers a broad set of connectors to ingest data. Most of these connectors are supported by Dynamics 365 Customer Insights. Adding data sources based on Power Query connectors generally follows the steps outlined below. However, depending on the connector you use, different information is required. Refer to documentation about individual connectors in [Power Query connector reference](https://docs.microsoft.com/power-query/connectors/) for additional details.
+Power Query offers a broad set of connectors to ingest data. Most of these connectors are supported by Dynamics 365 Customer Insights. Adding data sources based on Power Query connectors generally follows the steps outlined in the next section. However, depending on the connector you use, different information is required. For more information, see the documentation about individual connectors in the [Power Query connector reference](https://docs.microsoft.com/power-query/connectors/).
 
 ## Create a new data source
 
@@ -35,13 +35,13 @@ Power Query offers a broad set of connectors to ingest data. Most of these conne
    > [!div class="mx-imgBorder"]
    > ![Edit queries dialog](media/data-manager-configure-edit-queries.png "Edit queries dialog")
 
-1. You can also transform your data. Select an entity to edit or transform. Open one of the menus located at the top of the Power Query window to apply a specific transformation. Each transformation gets listed under **Applied steps**. Power Query provides a lot of pre-built transformation options. For more information, see [Power Query Transformations](https://docs.microsoft.com/power-query/power-query-what-is-power-query#transformations).
+1. You can also transform your data. Select an entity to edit or transform. Use the options in the Power Query window to apply transformations. Each transformation gets listed under **Applied steps**. Power Query provides numerous pre-built transformation options. For more information, see [Power Query Transformations](https://docs.microsoft.com/power-query/power-query-what-is-power-query#transformations).
 
 1. You can add additional entities to your data source by selecting **Get data** in the **Edit queries** dialog.
 
    These transformations are highly recommended:
 
-   - If you're ingesting data from a CSV file, and the first row has headers, go to **Transform table** and select **Use headers as first row**.
+   - If you're ingesting data from a CSV file, the first row often contains headers. Go to **Transform table** and select **Use headers as first row**.
    - Ensure the data type is set appropriately.
 
 1. Select **Save** at the bottom of the Power Query window to save the transformations. After saving, you'll find your data source on **Data** > **Data sources**.
@@ -52,7 +52,7 @@ Power Query offers a broad set of connectors to ingest data. Most of these conne
 
 See the [Power Query connector reference](https://docs.microsoft.com/power-query/connectors/) for an up-to-date list of connectors that you can select to import data to Customer Insights. 
 
-All connectors that have a checkmark in the **Customer Insights (Dataflows)** column are available when creating a new data source based on Power Query. Have a look at the connector reference of a specific connector to learn more about its prerequisites, limitations, and other details.
+Connectors with a checkmark in the **Customer Insights (Dataflows)** column are available to create new data sources based on Power Query. Review the documentation of a specific connector to learn more about its prerequisites, limitations, and other details.
 
 ## Edit Power Query data sources
 
@@ -68,6 +68,6 @@ All connectors that have a checkmark in the **Customer Insights (Dataflows)** co
    > [!div class="mx-imgBorder"]
    > ![Edit option](media/edit-option-data-sources.png "Edit option")
 
-3. Apply your changes and transformations in the **Power Query - Edit queries** dialog and refer to the section above for additional details.
+3. Apply your changes and transformations in the **Power Query - Edit queries** dialog as described in the [Create a new data source](#create-a-new-data-source) section.
 
 4. Select **Save** in Power Query after completing your edits to save your changes.

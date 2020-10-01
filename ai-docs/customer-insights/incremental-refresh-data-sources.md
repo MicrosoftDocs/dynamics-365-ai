@@ -44,7 +44,7 @@ Dynamics 365 Customer Insights allows incremental refresh for data sources impor
 1. Select an entity, and provide the following details:
 
    - **Define the primary key**: Select a primary key for the entity or table.
-   - **Define the "last updated" field**: This field will only display attributes of type date or time. Select an attribute that indicates when the records were last updated. It'll be used to identify the records that fall within the incremental refresh time frame.
+   - **Define the "last updated" field**: This field will only display attributes of type date or time. Select an attribute that indicates when the records were last updated. It will be used to identify the records that fall within the incremental refresh time frame.
    - **Check for updates every**: Specify how long you want the incremental refresh time frame to be.
 
 1. Select **Save** to complete the creation of the data source. The initial data refresh will be a full refresh. Afterwards, the incremental data refresh happens as configured in the previous step.
