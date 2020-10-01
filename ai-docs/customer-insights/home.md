@@ -33,7 +33,7 @@ You can sign up for a trial on the [trial sign up page](https://dynamics.microso
 
 1. Select **Create**. 
 
-After the environment was created, you'll see the **Demo** environment which lets you explore the app with ficticious data. You can change the sample data to match your industry. Select the **Settings** icon in the header and select **Demo settings**. Additionally, you can change the visual theme. 
+After the environment was created, you'll see the **Demo** environment which lets you explore the app with fictitious data. You can change the sample data to match your industry. Select the **Settings** icon in the header and select **Demo settings**. Additionally, you can change the visual theme. 
 
 You [switch to the environment](#change-between-environments) you created during the sign-up process to work with your own data.
 
