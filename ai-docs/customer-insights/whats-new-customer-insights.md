@@ -39,7 +39,7 @@ This new feature predicts the semantic types of input attributes that are passed
 
 - **Task details pane**
 
-The Task details pane enables you to see details about tasks that the system performs. It's a handy way to identify issues with the configuration and find solutions.
+The task details pane enables you to see details about tasks that the system rus. It's a handy way to identify issues with the configuration and find solutions.
 Review the error messages see how you address potential issues.
  
 - **Processing information added to additional pages**
@@ -56,7 +56,7 @@ Additionally, errors in the **Details** column are now more detailed and actiona
  
 - **Cancel reverts job back to previous state**
 
-When you cancel the a task, for example, in the match process, it will revert back to its latest state. For example, if you the Match process completed yesterday and you cacnel it today, it will revert to yesterday's successful state.
+When you cancel a task, for example, in the match process, it will revert back to its latest state. For example, if the Match process completed yesterday and you cancel it today, it will revert to yesterday's successful state.
 
 
 ## August 2020 updates
