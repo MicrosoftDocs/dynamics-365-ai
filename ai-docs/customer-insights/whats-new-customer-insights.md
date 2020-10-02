@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 09/08/2020
+ms.date: 10/02/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -22,6 +22,42 @@ We roll out updates on a region-by-region basis. So certain regions might see fe
 
 > [!TIP]
 > To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=79a8c474-4e35-e911-a971-000d3a4f3343&forumName=Dynamics%20365%20Customer%20Insights).
+
+## September 2020 updates
+
+The Dynamics 365 Customer Insights updates in September 2020 include several features, performance upgrades, and bug fixes.
+
+### New and updated features in September 2020
+
+#### Activities
+
+- **Intelligent prediction of attribute semantics**
+
+This new feature predicts the semantic types of input attributes that are passed on to the data unification process. It uses machine learning models that improve accuracy and save time.
+
+#### System administration
+
+- **Task details pane**
+
+The Task details pane enables you to see details about tasks that the system performs. It's a handy way to identify issues with the configuration and find solutions.
+Review the error messages see how you address potential issues.
+ 
+- **Processing information added to additional pages**
+
+This improvement adds information about the status of your entities on the **Entities** and **Customers** page.
+ 
+Additionally, you can find details about the progress of processes, along with the task details, on both of these pages.
+
+- **Improvements to system status page**
+
+We improved the structure of the status details table on **System** > **Status** when reviewing data exports.
+ 
+Additionally, errors in the **Details** column are now more detailed and actionable. 
+ 
+- **Cancel reverts job back to previous state**
+
+When you cancel the a task, for example, in the match process, it will revert back to its latest state. For example, if you the Match process completed yesterday and you cacnel it today, it will revert to yesterday's successful state.
+
 
 ## August 2020 updates
 
