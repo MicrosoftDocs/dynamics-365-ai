@@ -2,92 +2,97 @@
 
 # [Overview](overview.md)
 
-# [Quickstart](quickstart.md)
+# Customer Service Insights across your organization
+
+# Standalone app
+
+## [Dynamics 365 Customer Service user redirection](ci-user-redirection.md)
+
+## [Quickstart](quickstart.md)
+
+## Discover insights from your customer service data
+
+### [Discover insights from your customer service data](keyinsights.md)
+
+### [Identify areas for improvement](improve-system.md)
+
+### Dashboard reference
+
+#### [Dashboard overview](dashboard-overview.md)
+
+#### [KPI summary](dashboard-kpi-summary.md)
+
+#### [New cases](dashboard-incoming-cases.md)
+
+#### [Customer satisfaction](dashboard-CSAT.md)
+
+#### [Resolutions](dashboard-case-resolutions.md)
+
+#### [Topic details](dashboard-topic-details.md)
 
 
-# Discover insights from your customer service data
+## Manage workspaces and data
 
-## [Discover insights from your customer service data](keyinsights.md)
+### [Use and manage workspaces to connect to different customer service environments](use-workspaces.md)
 
-## [Identify areas for improvement](improve-system.md)
+### [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
 
-## Dashboard reference
+### [Trigger a refresh of Customer Service Insights data](trigger-refresh.md)
 
-### [Dashboard overview](dashboard-overview.md)
+### [Use external data sources to get AI insights](use-external-data-sources.md)
 
-### [KPI summary](dashboard-kpi-summary.md)
+### [Map your data to custom entities and fields](map-data.md)
 
-### [New cases](dashboard-incoming-cases.md)
-
-### [Customer satisfaction](dashboard-CSAT.md)
-
-### [Resolutions](dashboard-case-resolutions.md)
-
-### [Topic details](dashboard-topic-details.md)
+### [Export data from Customer Service Insights](exportdata.md)
 
 
-# Manage workspaces and data
+## Manage and automate topics
 
-## [Use and manage workspaces to connect to different customer service environments](use-workspaces.md)
+### [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
 
-## [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md)
+### [Improve data quality by cleaning support case data](settings.md)
 
-## [Trigger a refresh of Customer Service Insights data](trigger-refresh.md)
+### [Automate topics for a Power Virtual Agents bot](automate-topics.md)
 
-## [Use external data sources to get AI insights](use-external-data-sources.md)
-
-## [Map your data to custom entities and fields](map-data.md)
-
-## [Export data from Customer Service Insights](exportdata.md)
+### [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
 
 
-# Manage and automate topics
+## Configure and manage call insights (Preview)
 
-## [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md)
+### [Discover insights about AI-based call data](ci-overview.md)
 
-## [Improve data quality by cleaning support case data](settings.md)
+### [Prerequisites to use call insights](ci-admin-prereqs.md)
 
-## [Automate topics for a Power Virtual Agents bot](automate-topics.md)
+### [First-run setup experience](ci-admin-fre-setup.md)
 
-## [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md)
+### [Configure call insights to connect call data](ci-admin-config-call-data.md)
 
+### [Configure keywords and products to track](ci-admin-config-keywords-products.md)
 
-# Configure and manage call insights (Preview)
+### [Connect to Dynamics 365 Customer Service environment](ci-connect-customer-service-env.md)
 
-## [Discover insights about AI-based call data](ci-overview.md)
+### [Data retention and deletion through Privacy](ci-admin-data-retention-deletion.md)
 
-## [Prerequisites to use call insights](ci-admin-prereqs.md)
+### [Configure and view your team page](ci-admin-config-team.md)
 
-## [First-run setup experience](ci-admin-fre-setup.md)
+### [Analyze overall team performance](ci-team-overview.md)
 
-## [Configure call insights to connect call data](ci-admin-config-call-data.md)
+### [Analyze agent performance](ci-agent-overview.md)
 
-## [Configure keywords and products to track](ci-admin-config-keywords-products.md)
-
-## [Connect to Dynamics 365 Customer Service environment](ci-connect-customer-service-env.md)
-
-## [Data retention and deletion through Privacy](ci-admin-data-retention-deletion.md)
-
-## [Configure and view your team page](ci-admin-config-team.md)
-
-## [Analyze overall team performance](ci-team-overview.md)
-
-## [Analyze agent performance](ci-agent-overview.md)
-
-## [View and understand call summary](ci-view-understand-call-summary.md)
+### [View and understand call summary](ci-view-understand-call-summary.md)
 
 
-# Data Subject Rights (DSR) requests under GDPR
+## Data Subject Rights (DSR) requests under GDPR
 
-## [GDPR compliance and Customer Service Insights](gdpr-summary.md)
+### [GDPR compliance and Customer Service Insights](gdpr-summary.md)
 
-## [Discovery requests from data subjects](gdpr-discovery.md)
+### [Discovery requests from data subjects](gdpr-discovery.md)
 
-## [Requests for copies of personal data](gdpr-export.md)
+### [Requests for copies of personal data](gdpr-export.md)
 
-## [Requests to delete personal data](gdpr-delete.md)
+### [Requests to delete personal data](gdpr-delete.md)
 
-## [Where an organization's Customer Service Insights data is located](data-location.md)
+### [Where an organization's Customer Service Insights data is located](data-location.md)
 
 
 # Reference
