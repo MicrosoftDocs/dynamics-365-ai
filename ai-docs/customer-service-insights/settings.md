@@ -43,7 +43,7 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
    > [!div class="mx-imgBorder"]
    > ![Show example for Sections to ignore](media/show-example-sections.png "Show an example of how cleaning settings are applied to titles")
 
-3. Under **Phrases to ignore (Preview)**, specify the phrases you want ignored. Keep in mind the following:
+3. Under **Phrases to ignore**, specify the phrases you want ignored. Keep in mind the following:
    - Phrases are not case-sensitive and can contain letters or symbols.
    - You can use spaces in between letters and symbols, but spaces at the beginning or ending of a phrase will be trimmed.
    - Phrases can have up to 200 characters, and each phrase must be separated by a line break.
