@@ -2,7 +2,7 @@
 title: "Improve data quality by cleaning support case data​"
 description: "Learn how to improve AI Insights charts by removing extraneous tags in support case data."
 keywords: ""
-ms.date: 6/04/2020
+ms.date: 10/05/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
@@ -27,7 +27,7 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
 1. Select the **Settings** button on the Customer Service Insights title bar, and then select **Data cleaning**.
 
    > [!div class="mx-imgBorder"]
-   > ![Data cleaning](media/data-cleaning-setting.png "Data cleaning setting page")
+   > ![Data cleaning](media/data-cleaning-setting.png "Data cleaning settings page")
 
    Customer Service Insights displays the **Data cleaning** page.
 
