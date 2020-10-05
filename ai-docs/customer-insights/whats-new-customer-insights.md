@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 09/08/2020
+ms.date: 10/05/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -22,6 +22,53 @@ We roll out updates on a region-by-region basis. So certain regions might see fe
 
 > [!TIP]
 > To submit and vote on feature requests and product suggestions, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=79a8c474-4e35-e911-a971-000d3a4f3343&forumName=Dynamics%20365%20Customer%20Insights).
+
+## September 2020 updates
+
+The Dynamics 365 Customer Insights updates in September 2020 include several features, performance upgrades, and bug fixes.
+
+### New and updated features in September 2020
+
+#### Activities
+
+- **Intelligent prediction of attribute semantics**
+
+This new feature predicts the semantic types of input attributes that are passed on to the data unification process. It uses machine learning models that improve accuracy and save time.
+
+#### Enrichments
+
+- **Demographics enrichment from Experian**
+
+The demographics enrichment from Experian is now available in preview. Experian is a global leader in consumer and business credit reporting and marketing services. With [Experian’s data enrichment services](https://www.experian.com/marketing-services/microsoft?cmpid=ems_web_mci_cdppage), you can build a deeper understanding of your customers by enriching your customer profiles with demographic data such as household size, income, and more.
+
+To use this feature, you must have an active Experian subscription.
+
+For more information, see [Enrich customer profiles with demographics from Experian](enrichment-experian.md)
+
+
+#### System administration
+
+- **Task details pane**
+
+The task details pane enables you to see details about tasks that the system runs. It's a handy way to identify issues with the configuration and find solutions.
+Review the error messages see how you address potential issues.
+ 
+- **Processing information added to additional pages**
+
+This improvement adds information about the status of your entities on the **Entities** and **Customers** page.
+ 
+Additionally, you can find details about the progress of processes, along with the task details, on both of these pages.
+
+- **Improvements to system status page**
+
+We improved the structure of the status details table on **System** > **Status** when reviewing data exports.
+ 
+Additionally, errors in the **Details** column are now more detailed and actionable. 
+ 
+- **Cancel reverts job back to previous state**
+
+When you cancel a task, for example, in the match process, it will revert back to its latest state. For example, if the Match process completed yesterday and you cancel it today, it will revert to yesterday's successful state.
+
 
 ## August 2020 updates
 
@@ -80,7 +127,7 @@ The Dynamics 365 Customer Insights updates in June 2020 include several features
 - **Enrichment with company data from Leadspace**
   
   Define fields in unified customer profiles that are used to look up related company data from Leadspace. After running the enrichment process, B2B profiles are enriched with additional attributes including company size, location, industry, and more.    
-  This collaboration allows you to improve the quality of your data with input from third-party services. To use this enrichment you'll need a license from Leadspace to access its B2B company data. Customer Insights will use that license to keep your data enriched continuously.    
+  This collaboration allows you to improve the quality of your data with input from third-party services. To use this enrichment, you'll need a license from Leadspace to access its B2B company data. Customer Insights will use that license to keep your data enriched continuously.    
   For more information, see [Enrichment of company profiles with Leadspace](enrichment-leadspace.md).
 
 - **Enrichment hub page**
