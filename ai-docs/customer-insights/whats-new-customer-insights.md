@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Customer Insights) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Customer Insights releases."
-ms.date: 10/02/2020
+ms.date: 10/05/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
 author: m-hartmann
@@ -34,6 +34,17 @@ The Dynamics 365 Customer Insights updates in September 2020 include several fea
 - **Intelligent prediction of attribute semantics**
 
 This new feature predicts the semantic types of input attributes that are passed on to the data unification process. It uses machine learning models that improve accuracy and save time.
+
+#### Enrichments
+
+- **Demographics enrichment from Experian**
+
+The demographics enrichment from Experian is now available in preview. Experian is a global leader in consumer and business credit reporting and marketing services. With [Experian’s data enrichment services](https://www.experian.com/marketing-services/microsoft?cmpid=ems_web_mci_cdppage), you can build a deeper understanding of your customers by enriching your customer profiles with demographic data such as household size, income, and more.
+
+To use this feature, you must have an active Experian subscription.
+
+For more inforamtion, see [Enrich customer profiles with demographics from Experian](enrichment-experian.md)
+
 
 #### System administration
 
