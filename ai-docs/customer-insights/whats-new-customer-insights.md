@@ -43,14 +43,14 @@ The demographics enrichment from Experian is now available in preview. Experian 
 
 To use this feature, you must have an active Experian subscription.
 
-For more inforamtion, see [Enrich customer profiles with demographics from Experian](enrichment-experian.md)
+For more information, see [Enrich customer profiles with demographics from Experian](enrichment-experian.md)
 
 
 #### System administration
 
 - **Task details pane**
 
-The task details pane enables you to see details about tasks that the system rus. It's a handy way to identify issues with the configuration and find solutions.
+The task details pane enables you to see details about tasks that the system runs. It's a handy way to identify issues with the configuration and find solutions.
 Review the error messages see how you address potential issues.
  
 - **Processing information added to additional pages**
@@ -127,7 +127,7 @@ The Dynamics 365 Customer Insights updates in June 2020 include several features
 - **Enrichment with company data from Leadspace**
   
   Define fields in unified customer profiles that are used to look up related company data from Leadspace. After running the enrichment process, B2B profiles are enriched with additional attributes including company size, location, industry, and more.    
-  This collaboration allows you to improve the quality of your data with input from third-party services. To use this enrichment you'll need a license from Leadspace to access its B2B company data. Customer Insights will use that license to keep your data enriched continuously.    
+  This collaboration allows you to improve the quality of your data with input from third-party services. To use this enrichment, you'll need a license from Leadspace to access its B2B company data. Customer Insights will use that license to keep your data enriched continuously.    
   For more information, see [Enrichment of company profiles with Leadspace](enrichment-leadspace.md).
 
 - **Enrichment hub page**
