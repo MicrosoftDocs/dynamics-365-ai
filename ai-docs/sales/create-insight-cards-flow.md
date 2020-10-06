@@ -25,6 +25,9 @@ As an administrator or sales manager, you can create your own suggested actions 
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
+> [!NOTE]
+> To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
+
 1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
 2.	Go to **Change area** and select **Sales Insights settings**.
