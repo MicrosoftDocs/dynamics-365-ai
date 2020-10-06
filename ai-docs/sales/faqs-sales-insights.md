@@ -302,7 +302,7 @@ The grade is just grouping scores in four buckets that the admin can configure.
 ## Notes analysis
 
 **What do I need in order to use Notes analysis?​**<br>
-Notes analysis requires Office 365.​
+Notes analysis requires Microsoft 365.​
 
 **How do I enable Notes analysis?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Notes analysis feature from **Settings** > **AI setup**.​
@@ -313,7 +313,7 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 ## Talking points
 
 **What do I need in order to use Talking points?​**<br>
-Talking points require Office 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
+Talking points require Microsoft 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
 
 **How do I enable Talking points?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Talking points feature from **Settings** > **AI setup**.​
@@ -330,10 +330,10 @@ It takes a few seconds to display the results.​
 ## Who knows whom
 
 **What do I need in order to use Who knows whom?​**<br>
-Who knows whom requires Office 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
+Who knows whom requires Microsoft 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
 
 **How do I enable Who knows whom?​**<br>
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Microsoft 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
 
 **How long will it take for results to appear?**<br>
 The graph requires approximately 24 hours to populate the results for the first time. Subsequent updates take 3-6 days based on new activities included in the graph.​

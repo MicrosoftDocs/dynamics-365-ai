@@ -19,7 +19,7 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)].
 
-[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Office 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
+[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
 Sales Insights helps organizations in the following four areas:
 
