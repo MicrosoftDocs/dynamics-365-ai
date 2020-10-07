@@ -2,7 +2,7 @@
 
 ## [Overview](overview.md)
 
-## Customer Service Insights across your organization
+## [Customer Service Insights across your organization](ci-insights-across-org.md)
 
 ## Standalone app
 
