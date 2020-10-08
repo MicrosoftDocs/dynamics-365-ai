@@ -42,6 +42,9 @@ To create an environment:
 
 1. Select **New environment**.
 
+   > [!div class="mx-imgBorder"]
+   > ![Environment settings](media/environment-settings-dialog.png)
+
 1. In the **Create new environment** dialog, select **New environment**.
 
    If you want to [copy data from the current environment](#additional-considerations-for-copy-configuration-preview), select **Copy from existing environment**. You'll see a list of all available environments in your organization where you can copy data from.
@@ -63,8 +66,8 @@ To create an environment:
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
    - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
-     > [!div class="mx-imgBorder"]
-     > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
+   
+
 
    - If you want to use [predictions](predictions.md), enter your Common Data Service instance URL in the **Server address** field under **Use predictions**.
 
