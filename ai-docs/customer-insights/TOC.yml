@@ -13,21 +13,25 @@
 - name: Access your instance
   href: https://home.ci.ai.dynamics.com/
 
-- name: First steps
-  href: home.md
+- name: Get started
+  items:
+    - name: Create a new environment
+      href: home.md
+    - name: Create a unified customer profile
+      href: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+    - name: Work with the app
+      href: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
 
 - name: Data sources
   items:
-    - name: Add data sources
+    - name: Data sources overview
       href: data-sources.md
-    - name: Available data sources
-      href: data-sources-list.md
+    - name: Add data sources via Power Query connectors
+      href: connect-power-query.md
     - name: Add a Common Data Model folder as a data source
       href: connect-common-data-model.md
     - name: Add Common Data Service managed data lake
       href: connect-common-data-service-lake.md
-    - name: Learn about common connectors
-      href: pm-common-connectors.md
     - name: Incremental refresh for data sources
       href: incremental-refresh-data-sources.md
     - name: Real-time data ingestion

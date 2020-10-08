@@ -51,9 +51,18 @@ The assistant works by analyzing the data at its disposal and generating a colle
 
 ## What cards do I see?
 
-- When you open the assistant by using the navigation bar or a dashboard, you'll see the cards that are relevant to you.
+- When you open the assistant by using the navigation bar or dashboard, you'll see the cards that you are the owner or part of a team that owns the card.
 
-- When you open the assistant through an entity record, you'll see the cards that are related to that record. 
+   > [!NOTE]
+   > Meeting cards are special and displayed to users that are either the  owner, organizer, or an attendee in the meeting.
+
+- When you open the assistant through an entity record, you'll see the cards that belongs to the record or to related records. The list of related records varies from one entity to  another:
+   -	**Account**: Account and its related contacts, opportunities, and incidents.
+   -	**Opportunity**: Opportunity and its related contacts.
+   -	**Incident**: Incident and its related contacts, and accounts.
+   -	**Lead**: Lead and its related contacts.
+   -	**Custom Entity**: Related accounts and contacts.
+   -	**All other entities**: The entity itself only.
 
 ## Categorization of insight cards
 
