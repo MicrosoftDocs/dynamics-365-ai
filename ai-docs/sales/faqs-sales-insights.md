@@ -340,41 +340,41 @@ To build a connection graph in who knows whom, Office 365 Exchange is required. 
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
+More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
 
 Also, server-side sync is required for email introduction requests. ​
 
 **How do I enable who knows whom?​**<br>
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Office 365 admin, and enable the who knows whom feature from **Settings** > **AI setup**.​
+Install Sales Insights, opt in to the connection graph from the Office 365 admin center<!--note from editor: Edit okay?-->, and enable the who knows whom feature from **Settings** > **AI setup**.​
 
 **How long will it take for results to appear?**<br>
-The graph requires approximately 1-3 days to populate the results for the first time. Subsequently, updates take 3-6 days based on new activities included in the graph.​
+It takes about one to three days for results to populate the graph the first time. Subsequently, updates take three to six days, depending on the new activities included in the graph.​
 
 **​Who will be included in the graph?​**<br>
-Everyone in the tenant will be included in the graph. Administrators or users have the option to opt out users or DLs, such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-connection-graph).​
+Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).​
 
 **​How are the connections weighted?**<br>
-Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact/lead. Consequently, this means a salesperson might not see the same results as another salesperson because they know different people in the organization.
+Connections are weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
 
 **What is the source of the data?**<br>
-Who Knows Whom has the following data sources:
--	**Dynamics 365**: The lead or contact email ID that is used to query the Exchange Online to find who in the tenant has communication with sellers.
--	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, seller’s contacts, and the organization directory.
+Who knows whom has the following data sources:
+-	**Dynamics 365**: The lead or contact email ID that is used to query Exchange Online to find who in the tenant has communication with sellers.
+-	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, sellers' contacts, and the organization directory.
 
 **Where is the data stored?**<br>
-The insights are generated within the Exchange Online system, so we follow the same data security principals as Exchange Online. To learn more, see [Security and compliance for Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance). 
+The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
 
-**What is the data retention policy and where is it set?**<br>
-The service is fully GDPR-compliant. Dynamics 365 won’t cache any data on its side and the data is queried every time when a page load with Who Knows Whom.
+**What is the data retention policy, and where is it set?**<br>
+The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 **How do I opt out?**<br>
-You can choose to opt out of the connection graph. To learn more, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-connection-graph).​
+You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).
 
 **How does an Exchange administrator exclude users?**<br>
-The Exchange administrator can provide the AAD group that contains all the users that they want to exclude such as, CEOs and vice presidents. 
+The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
 
-**What level of access does administrators have?**<br>
-The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales and Exchange administrator must enable in Exchange Online. By enabling, a connection is established between Dynamics 365 Sales and Exchange Online to exchange data within the subsystems. If any of the administrators disables it, the data won’t be visible on the Who Knows Who widget.
+**What level of access do administrators have?**<br>
+The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales, and the Exchange administrator must enable it in Exchange Online. Enabling the feature establishes a connection between Dynamics 365 Sales and Exchange Online, so data can be exchanged between the systems.<!--note from editor: Edit okay? "Within the subsystems" wasn't clear to me (also, "subsystems" isn't meaningfully defined in our style guides).--> If any of the administrators disable it, the data won't be visible on the who knows who widget.
 
 ## Conversation Intelligence
 
