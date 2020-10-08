@@ -345,7 +345,7 @@ More information: [Datacenter locations](https://docs.microsoft.com/microsoft-36
 Also, server-side sync is required for email introduction requests. ​
 
 **How do I enable who knows whom?​**<br>
-Install Sales Insights, opt in to the connection graph from the Office 365 admin center<!--note from editor: Edit okay?-->, and enable the who knows whom feature from **Settings** > **AI setup**.​
+Install Sales Insights, opt in to the connection graph from the Office 365 admin center, and enable the who knows whom feature.​
 
 **How long will it take for results to appear?**<br>
 It takes about one to three days for results to populate the graph the first time. Subsequently, updates take three to six days, depending on the new activities included in the graph.​
@@ -374,7 +374,7 @@ You can choose to opt out of the connection graph. More information: [Opt out of
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
 
 **What level of access do administrators have?**<br>
-The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales, and the Exchange administrator must enable it in Exchange Online. Enabling the feature establishes a connection between Dynamics 365 Sales and Exchange Online, so data can be exchanged between the systems.<!--note from editor: Edit okay? "Within the subsystems" wasn't clear to me (also, "subsystems" isn't meaningfully defined in our style guides).--> If any of the administrators disable it, the data won't be visible on the who knows who widget.
+The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales, and the Exchange administrator must enable it in Exchange Online. Enabling the feature establishes a connection between Dynamics 365 Sales and Exchange Online, so data can be exchanged between the systems. If any of the administrators disable it, the data won't be visible on the who knows who widget.
 
 ## Conversation Intelligence
 

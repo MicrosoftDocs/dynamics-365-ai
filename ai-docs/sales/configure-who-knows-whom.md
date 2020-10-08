@@ -19,14 +19,14 @@ topic-status: Drafting
 # Configure who knows whom
 
 The who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
-<!--note from editor: I used HTML in the note so the "More information" block could align properly. I modified the text of the link because it occurred so close to our (correct!) use of "datacenter."-->
+
 >[!NOTE]
 ><ul><li>Who knows whom is currently available in Europe, Middle East, and Africa (EMEA) and North American (NAM) regions.</li><li>For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 > <ul><li>Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)</li><li>Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).</li><li>Global Geography 3 – Americas (Brazil, Chile, United States).</li></ul>More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)</ul>
 
 To configure who knows whom, follow these steps:
 
-1. Verify that advanced Sales Insights Add-in for Dynamics 365<!--note from editor: I guess I didn't realize before this that Sales Insights is an add-in. Please double-check me on that: https://styleguides.azurewebsites.net/Styleguide/Read?id=2858&topicid=44523 --> features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+1. Verify that advanced Sales Insights Add-in for Dynamics 365 features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
@@ -79,7 +79,7 @@ To configure the Sales Insights connection graph, follow these steps:
 
 ## Opt out of the connection graph
 
-As a user, you can always choose to opt out of the connection graph if you don't want Sales Insights to analyze your communication and collaboration data.<!--note from editor: Edit okay? I'm not sure what the "such as" clause meant to say here.--> 
+As a user, you can always choose to opt out of the connection graph if you don't want Sales Insights to analyze your communication and collaboration data. 
 
 >[!NOTE]
 >You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
