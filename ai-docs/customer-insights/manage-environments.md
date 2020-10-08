@@ -22,7 +22,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 3. Choose your preferred sign-up scenario and select the corresponding link.
 
-4. Accept the terms and conditions and select **Continue** to start creating the orgaization.
+4. Accept the terms and conditions and select **Continue** to start creating the organization.
 
 5. After the environment is created, you'll be redirected to [Customer Insights](https://home.ci.ai.dynamics.com).
 
@@ -65,7 +65,7 @@ To create an environment:
    > We support only Azure Data Lake Gen2 storage accounts from the same Azure region you selected above to provision your Customer Insights environment. Specifying an Azure Data Lake from a different Azure region is not supported.
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
-   - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
+   - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name can't be changed.
    
 
 
