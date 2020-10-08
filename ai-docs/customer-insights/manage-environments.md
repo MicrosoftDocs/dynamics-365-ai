@@ -1,10 +1,10 @@
 ---
 title: "Manage environments in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Create and manage environments in Dynamics 365 Customer Insights."
-ms.date: 05/29/2020
+ms.date: 10/08/2020
 ms.service: dynamics-365-ai
 ms.topic: "article"
-ms.reviewer: adkuppa
+ms.reviewer: nimagen
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
@@ -14,17 +14,17 @@ manager: shellyha
 
 This article explains how to create a Dynamics 365 Customer Insights instance and how to provision an environment.
 
-## Sign up for Customer Insights and create the first instance
+## Sign up for Customer Insights and create an organization
 
-1. In your browser, go to the [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) website.
+1. Go to the [Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) website.
 
 2. Select **Get Started**.
 
 3. Choose your preferred sign-up scenario and select the corresponding link.
 
-4. Accept the terms and conditions and select **Continue** to start creating the instance.
+4. Accept the terms and conditions and select **Continue** to start creating the organization.
 
-5. After the environment is created, you'll be redirected to [your Customer Insights instance](https://home.ci.ai.dynamics.com).
+5. After the environment is created, you'll be redirected to [Customer Insights](https://home.ci.ai.dynamics.com).
 
 6. Use the demo environment to explore the app, or create a new environment by following the steps in the next section.
 
@@ -32,7 +32,7 @@ This article explains how to create a Dynamics 365 Customer Insights instance an
 
 8. You'll be signed in to Customer Insights when the environment was created successfully.
 
-## Create an environment
+## Create an environment in an existing organization
 
 There are two ways to create a new environment. You can either specify an entirely new configuration, or you can copy some configuration settings from an existing environment.
 
@@ -40,20 +40,21 @@ To create an environment:
 
 1. Select the **Settings** symbol in the header of the app.
 
-2. Select **Environments**.
+1. Select **New environment**.
 
-3. In the panel on the right side of the screen, select **New environment**.
+   > [!div class="mx-imgBorder"]
+   > ![Environment settings](media/environment-settings-dialog.png)
 
-If you don't want to create a new environment from scratch, select **Copy from existing environment**. You'll see a list of all available environments in your organization where you can copy data from.
+1. In the **Create new environment** dialog, select **New environment**.
 
-### Specify environment settings
+   If you want to [copy data from the current environment](#additional-considerations-for-copy-configuration-preview), select **Copy from existing environment**. You'll see a list of all available environments in your organization where you can copy data from.
 
-1. In the **Create an environment** dialog, provide the following details:
-   - **Display name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you've copied an existing environment, but you can change it.
+1. Provide the following details:
+   - **Name**: The name that represents this environment in the Customer Insights app. This field is already filled in if you've copied an existing environment, but you can change it.
    - **Region**: The region into which the service is deployed and hosted.
    - **Type**: Select whether you want to create a Production or Sandbox environment.
 
-2. Optionally, you can select **Advanced** to configure additional settings:
+2. Optionally, you can select **Advanced settings**:
 
    - **Save all data to**: Specifies where you want to store the output data generated from Customer Insights. You'll have two options: **Customer Insights storage** (an Azure Data Lake managed by the Customer Insights team) and **Azure Data Lake Storage Gen2** (your own Azure Data Lake Storage). By default, the Customer Insights storage option is selected.
 
@@ -64,9 +65,9 @@ If you don't want to create a new environment from scratch, select **Copy from e
    > We support only Azure Data Lake Gen2 storage accounts from the same Azure region you selected above to provision your Customer Insights environment. Specifying an Azure Data Lake from a different Azure region is not supported.
    > We support only Azure Data Lake Gen2 Hierarchical Name Space (HNS) enabled storage accounts. Non-HNS storage accounts aren't supported yet.
 
-   - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name is always set to **customerinsights** and can't be changed.
-     > [!div class="mx-imgBorder"]
-     > ![Environment settings for Azure Data Lake Gen2 storage](media/environment-settings-dialog.png)
+   - For the Azure Data Lake Storage Gen2 option, you need to specify the **Account name** and **Account key** for your storage account. The **Container** name can't be changed.
+   
+
 
    - If you want to use [predictions](predictions.md), enter your Common Data Service instance URL in the **Server address** field under **Use predictions**.
 
@@ -74,7 +75,7 @@ If you don't want to create a new environment from scratch, select **Copy from e
 
    If you create multiple instances of Customer Insights and choose to save the output entities from those instances in your storage account, separate folders will be created for each instance with ci_<instanceid> in the container.
 
-### Additional considerations for copy configuration
+### Additional considerations for copy configuration (preview)
 
 The following configuration settings are copied:
 
@@ -113,22 +114,18 @@ When the data unification is complete, go to **Measures** and **Segments** to re
 
 You can edit some of the details of existing environments.
 
-1. Select the **Settings** symbol in the header of the app.
+1. Go to **Admin** > **System** > **About**.
 
-2. Select **Environments**.
+1. Select **Edit**.
 
-3. In the Environments panel, select the ellipsis next to the environment you want to edit and select **Edit**.
+1. You can update the environment's **Display name**, but you can't change the **Region** or **Type**.
 
-4. You can update the environment's **Display name**, but you can't change the **Region** or **Type**.
-
-5. If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change the **Account name** or **Container** name.
+1. If an environment is configured to store data in Azure Data Lake Storage Gen2, you can update the **Account key**. However, you can't change the **Account name** or **Container** name.
 
 ## Delete an existing environment
 
-1. Select the **Settings** symbol in the header of the app.
+1. Go to **Admin** > **System** > **About**.
 
-2. Select **Environments**.
+1. Select **Delete**.
 
-3. In the Environments panel, select the ellipsis next to the target environment and select **Delete**.
-
-4. To confirm the deletion, enter the environment name and select **Delete**.
+1. To confirm the deletion, enter the environment name and select **Delete**.

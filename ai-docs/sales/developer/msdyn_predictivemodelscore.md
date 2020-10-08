@@ -7,8 +7,8 @@ ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "susikka"
-ms.author: "susikka"
+author: udaykirang
+ms.author: udag
 manager: "shujoshi"
 ---
 # msdyn_predictivemodelscore Entity Reference
