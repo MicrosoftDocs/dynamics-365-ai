@@ -106,4 +106,4 @@ Alternatively, select a measure from the list and perform one of the following a
 
 ## Next step
 
-You cam use existing measures to create your first customer segment on the **Segments** page. For more information, see [Segments](segments.md).
+You can use existing measures to create your first customer segment on the **Segments** page. For more information, see [Segments](segments.md).
