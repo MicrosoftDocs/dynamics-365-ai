@@ -4,6 +4,8 @@
 
 ## [Customer Service Insights across your organization](ci-insights-across-org.md)
 
+## [Service limits in Customer Service Insights](service-limits.md)
+
 ## Standalone app
 
 ### [Dynamics 365 Customer Service user redirection](ci-user-redirection.md)
@@ -98,8 +100,6 @@
 ## Reference
 
 ### [Licensing and case-capacity considerations](licensing-case-capacity.md)
-
-### [Service limits in Customer Service Insights](service-limits.md)
 
 ### [Supported languages for Customer Service Insights](supported-languages.md)
 
