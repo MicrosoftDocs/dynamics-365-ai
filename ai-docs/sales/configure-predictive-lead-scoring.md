@@ -149,7 +149,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 
 5. In the **Business process flow** list, select a flow that's relevant for the leads for which you're generating the model. The values displayed in the list are the business process flows that are defined for leads in your organization.
 
-    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business process flows to represent the work of different security roles or lines of business.
+    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business processes flows to represent the work of different security roles or lines of business.
 
     You must enable custom business process flow entities for analytics and to be able to select them. More information: [Define entities for analytics](#define-entities-for-analytics)
 
@@ -296,7 +296,7 @@ Follow these steps:
 
 CRUD can be performed either through OData/SDK or solution import. 
 
-- Sample create operation payload through OData:
+- Sample to create operation payload through OData:
 
     ```HTTP
     POST http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs
@@ -306,7 +306,7 @@ CRUD can be performed either through OData/SDK or solution import.
     }
     ```
 
-- Sample Patch operation payload to update a record via OData:
+- Sample to patch operation payload to update a record via OData:
 
     ```HTTP
     PATCH http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs(<copy guid from 'entityanalyticsconfigid' column>)
@@ -316,7 +316,7 @@ CRUD can be performed either through OData/SDK or solution import.
     ```    
     To learn more on how to use OData requests for Update and Delete, see [Update and delete entities using the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api)
      
-- Sample managed solution to enable 'Account' and 'Contact' entity for managed lake. Create the following three XML files and zip them into **ADLSConfigDataSampleTest.zip**.
+- Sample to manage solution to enable 'Account' and 'Contact' entity for managed lake. Create the following three XML files and zip them into **ADLSConfigDataSampleTest.zip**.
     - **[Content_Types].xml**
         ```XML
         <?xml version="1.0" encoding="UTF-8"?>

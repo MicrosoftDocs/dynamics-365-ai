@@ -144,14 +144,13 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 4. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
 
-
     By default, the name is selected as **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
 5. In the **Business process flow** list, select a business process flow that's relevant for the opportunities for which you're generating the model. The values displayed in the list are the business process flows that are defined for opportunities in your organization.
 
-    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business process flows to represent the work of different security roles or lines of business.
+    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business processes flows to represent the work of different security roles or lines of business.
 
-    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Configure Entity For Managed Lake](https://dynamics.wiki/index.php/Configure_Entity_For_Managed_Lake)
+    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Define entities for analytics](#define-entities-for-analytics)
 
 6. In the **State option set** list, select the option set in which the status of the opportunities is defined, and then select the corresponding won and lost values in the **Won value** and **Lost value** lists, respectively.
 
@@ -177,7 +176,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 9. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
-10. Select **Publish**,if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
     The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
 
@@ -271,6 +270,180 @@ You can delete a model when it’s no longer required in your organization. You 
 3. In the confirmation message that appears, select **Delete**.
 
 The model is deleted from your organization.
+
+## Define entities for analytics
+
+To display the list of business process flows that are defined for opportunities in your organization, the business process flows entities must be enabled display in the list and allow for analytics.
+
+Follow these steps:
+
+1. Verify that **Change Tracking** is enabled for the business process flow entity for Managed Lake. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
+
+2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Managed Lake. You must update the following columns:
+
+    a. `ParentEntityLogicalName`: Logical name of the entity. 
+
+    b. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Managed Lake and if **False**, the entity will not sync to Managed Lake. By default, the value is set as 'False'.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create an entry for managed lake](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for managed lake")
+
+>[!NOTE]
+>Change Tracking on the business process flow entity and `IsEnabledForADLS` must be configured as true to sync the data to ADLS using **Export to data lake** (**Athena**).
+
+**Examples:**    
+
+CRUD can be performed either through OData/SDK or solution import. 
+
+- Sample to create operation payload through OData:
+
+    ```HTTP
+    POST http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs
+    {
+        isenabledforadls: true,
+        parententitylogicalname: "account"
+    }
+    ```
+
+- Sample to patch operation payload to update a record via OData:
+
+    ```HTTP
+    PATCH http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs(<copy guid from 'entityanalyticsconfigid' column>)
+    {
+        isenabledforadls: false
+    }   
+    ```    
+    To learn more on how to use OData requests for Update and Delete, see [Update and delete entities using the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api)
+     
+- Sample to manage solution to enable 'Account' and 'Contact' entity for managed lake. Create the following three XML files and zip them into **ADLSConfigDataSampleTest.zip**.
+    - **[Content_Types].xml**
+        ```XML
+        <?xml version="1.0" encoding="UTF-8"?>
+        -<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+        <Default ContentType="application/octet-stream" Extension="xml"/>
+        </Types>
+        ```
+    - **customizations.xml**
+        ```XML
+        <?xml version="1.0"?>
+        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <Entities/>
+        <Roles/>
+        <Workflows/>
+        <FieldSecurityProfiles/>
+        <Templates/>
+        <EntityMaps/>
+        <EntityRelationships/>
+        <OrganizationSettings/>
+        <optionsets/>
+        <CustomControls/>
+        <EntityDataProviders/>
+        -<EntityAnalyticsConfigs>
+            -<EntityAnalyticsConfig>
+                <parententitylogicalname>account</parententitylogicalname>
+                <isenabledforadls>1</isenabledforadls>
+            </EntityAnalyticsConfig>
+            -<EntityAnalyticsConfig>
+                <parententitylogicalname>contact</parententitylogicalname>
+                <isenabledforadls>1</isenabledforadls>
+            </EntityAnalyticsConfig>
+        </EntityAnalyticsConfigs>
+        -<Languages>
+            <Language>1033</Language>
+        </Languages>
+        </ImportExportXml>
+        ```
+    - **solution.xml**
+        ```XML
+        <?xml version="1.0"?>
+        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generatedBy="OnPremise" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.5507">
+        -<SolutionManifest>
+            <UniqueName>ADLSConfigDataTest</UniqueName>
+            -<LocalizedNames>
+                <LocalizedName languagecode="1033" description="ADLSConfigDataTest"/>
+            </LocalizedNames>
+            <Descriptions/>
+            <Version>1.0</Version>
+            <Managed>1</Managed>
+            -<Publisher>
+                <UniqueName>Cr7e230</UniqueName>
+                -<LocalizedNames>
+                    <LocalizedName languagecode="1033" description="CDS Default Publisher"/>
+                </LocalizedNames>
+                <Descriptions/>
+                <EMailAddress xsi:nil="true"/>
+                <SupportingWebsiteUrl xsi:nil="true"/>
+                <CustomizationPrefix>cr926</CustomizationPrefix>
+                <CustomizationOptionValuePrefix>88399</CustomizationOptionValuePrefix>
+                -<Addresses>
+                    -<Address>
+                        <AddressNumber>1</AddressNumber>
+                        <AddressTypeCode xsi:nil="true"/>
+                        <City xsi:nil="true"/>
+                        <County xsi:nil="true"/>
+                        <Country xsi:nil="true"/>
+                        <Fax xsi:nil="true"/>
+                        <FreightTermsCode xsi:nil="true"/>
+                        <ImportSequenceNumber xsi:nil="true"/>
+                        <Latitude xsi:nil="true"/>
+                        <Line1 xsi:nil="true"/>
+                        <Line2 xsi:nil="true"/>
+                        <Line3 xsi:nil="true"/>
+                        <Longitude xsi:nil="true"/>
+                        <Name xsi:nil="true"/>
+                        <PostalCode xsi:nil="true"/>
+                        <PostOfficeBox xsi:nil="true"/>
+                        <PrimaryContactName xsi:nil="true"/>
+                        <ShippingMethodCode xsi:nil="true"/>
+                        <StateOrProvince xsi:nil="true"/>
+                        <Telephone1 xsi:nil="true"/>
+                        <Telephone2 xsi:nil="true"/>
+                        <Telephone3 xsi:nil="true"/>
+                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
+                        <UPSZone xsi:nil="true"/>
+                        <UTCOffset xsi:nil="true"/>
+                        <UTCConversionTimeZoneCode xsi:nil="true"/>
+                    </Address>
+                    -<Address>
+                        <AddressNumber>2</AddressNumber>
+                        <AddressTypeCode xsi:nil="true"/>
+                        <City xsi:nil="true"/>
+                        <County xsi:nil="true"/>
+                        <Country xsi:nil="true"/>
+                        <Fax xsi:nil="true"/>
+                        <FreightTermsCode xsi:nil="true"/>
+                        <ImportSequenceNumber xsi:nil="true"/>
+                        <Latitude xsi:nil="true"/>
+                        <Line1 xsi:nil="true"/>
+                        <Line2 xsi:nil="true"/>
+                        <Line3 xsi:nil="true"/>
+                        <Longitude xsi:nil="true"/>
+                        <Name xsi:nil="true"/>
+                        <PostalCode xsi:nil="true"/>
+                        <PostOfficeBox xsi:nil="true"/>
+                        <PrimaryContactName xsi:nil="true"/>
+                        <ShippingMethodCode xsi:nil="true"/>
+                        <StateOrProvince xsi:nil="true"/>
+                        <Telephone1 xsi:nil="true"/>
+                        <Telephone2 xsi:nil="true"/>
+                        <Telephone3 xsi:nil="true"/>
+                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
+                        <UPSZone xsi:nil="true"/>
+                        <UTCOffset xsi:nil="true"/>
+                        <UTCConversionTimeZoneCode xsi:nil="true"/>
+                    </Address>
+                </Addresses>
+            </Publisher>
+            -<RootComponents>
+                <RootComponent behavior="0" schemaName="account" type="430"/>
+                <RootComponent behavior="0" schemaName="contact" type="430"/>
+            </RootComponents>
+            <MissingDependencies/>
+        </SolutionManifest>
+        </ImportExportXml>
+        ```
+
+
 
 ## Add the opportunity scoring widget to a form
 
