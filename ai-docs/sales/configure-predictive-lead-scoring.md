@@ -274,7 +274,9 @@ The model is deleted from your organization.
 
 ## Define entities for analytics
 
-To display the list of business process flows that are defined for leads in your organization, the business process flows entities must be enabled display in the list and allow for analytics. Follow these steps:
+To display the list of business process flows that are defined for leads in your organization, the business process flows entities must be enabled display in the list and allow for analytics.
+
+Follow these steps:
 
 1. Verify that **Change Tracking** is enabled for the business process flow entity for Managed Lake. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
@@ -286,6 +288,9 @@ To display the list of business process flows that are defined for leads in your
 
     > [!div class="mx-imgBorder"]
     > ![Create an entry for managed lake](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for managed lake")
+
+>[!NOTE]
+>Change Tracking on the business process flow entity and `IsEnabledForADLS` must be configured as true to sync the data to ADLS using **Export to data lake** (**Athena**).
 
 **Examples:**    
 
