@@ -17,17 +17,17 @@ This topic describes features that have been removed, or that are planned for re
 
 This list is intended to help you consider these removals and deprecations for your own planning.
 
-## Features removed or deprecated in the Sales Insights 9.1.0.23744 release
+## Features removed or deprecated in the Sales Insights
 
 ### Dynamics 365 assistant application for Teams
 
 |||
 |-------------|------------|
 | Reason for deprecation/removal | Not legally required. |
-| Replaced by another feature? | Yes |
+| Replaced by another feature? | Yes. An improved version of the application for mobile devices with features that include some of the capabilities of Dynamics 365 assistant application for Teams. |
 | Product areas affected | Application |
 | Deployment option | All |
-| Status ||
+| Status | Removed: By October 15, 2020 |
 
 
 ### See also
