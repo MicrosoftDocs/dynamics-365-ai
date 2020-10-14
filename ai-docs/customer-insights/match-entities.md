@@ -106,9 +106,9 @@ Once the self-conflated record is identified that record will be used in the cro
 
 ### Add self-conflation rules
 
-1. Go to the **Merged duplictes** section and select **Set entities**.
-2. In this **Set entities** section, select the entities you want to apply self-conflation 
-3. Specify how to merge the duplicate records and pick the final winner record, from the three merge options to select from
+1. Go to the **Merged duplicates** section and select **Set entities**.
+2. In this **Set entities** section, select the entities you want to apply self-conflation.
+3. Specify how to merge the duplicate records and pick the final winner record, from the three merge options to select from.
   - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
   - *Most recent*: Identifies the winner record based on the most recency. Needs a datetime or a numeric field to define the recency.
   - *Least recent*: Identifies the winner record based on the least recency. Needs a datetime or a numeric field to define the recency.
@@ -116,9 +116,9 @@ Once the self-conflated record is identified that record will be used in the cro
  > [!div class="mx-imgBorder"]
    > ![Normalization-B2B](media/match-selfconflation.png "self-conflation")
  
- 4. Once the entities are selected to be self-conflated and their merge preference is set, you can define the self-conflation match rules at an entity level similar to match rules set in cross entity matching.
+ 4. Once the entities are selected and their merge preference is set, you can define the self-conflation match rules at an entity level similar to match rules set in cross entity matching.
  - Select field lists down all the available fields from that entity you want deduplicate source data on.
- - Normalize and precision settings are the same as in the cross entity matching.
+ - Specify the normalization and precision settings in similar way as specified in the cross entity matching.
  - You can define any number of conditions in a self-conflation match rule.
  
 > [!div class="mx-imgBorder"]
