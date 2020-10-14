@@ -98,6 +98,41 @@ Each condition applies to a single pair of attributes, while rules represent set
 > [!NOTE]
 > The rule order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
 
+## Add self conflation rules
+
+Along with specifying cross entity matching rules as outline in the above sections, you can also specify self-conflation rules. Self-conflation is the process to identify the duplicate records and merge all those records into one record, and link all the source records to this merged record as alternate ids to the merged record.
+
+Once the self-conflated record is identified that record will be used in the cross-entity matching process. Self-conflation process can be applied to every entity used in the Match process.
+
+### Add self-conflation rules
+
+1. Go to the **Merged duplictes** section and select **Set entities**.
+2. In this **Set entities** section, select the entities you want to apply self-conflation 
+3. Specify how to merge the duplicate records and pick the final winner record, from the three merge options to select from
+ - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
+ - *Most recent*: Identifies the winner record based on the most recency. Needs a datetime or a numeric field to define the recency.
+ - *Least recent*: Identifies the winner record based on the least recency. Needs a datetime or a numeric field to define the recency.
+ 
+ > [!div class="mx-imgBorder"]
+   > ![Normalization-B2B](media/match-selfconflation.png "self-conflation")
+ 
+ 4. Once the entities are selected to be self-conflated and their merge preference is set, you can define the self-conflation match rules at an entity level similar to match rules set in cross entity matching.
+ - Select field lists down all the available fields from that entity you want deduplicate source data on.
+ - Normalize and precision settings are the same as in the cross entity matching.
+ - You can define any number of conditions in a self-conflation match rule.
+ 
+> [!div class="mx-imgBorder"]
+   > ![Normalization-B2B](media/match-selfconflation-rules.png "self-conflation-rules")
+
+5. You can create any number of self-conflation rules on an entity. 
+6. Once all such self-conflation rules are created and the match process is run, these self-conflation rules, in addition to primary key based system defined self-conflation rule, establish a grouping of records based on the conditions and rules specified. Once the records are grouped, the merge policy is applied to identify the winner record.
+7. This winner record is then passed on to participate in the cross-entity matching.
+8. Any custom match rules defined for always match and never match take precedence over self-conflation match rules output as well, meaning, if self-conflation match rule identifies a matching set, and there exists a custom match rule to never match those two records, then those two records will never be matched on self-conflation, even though they satisfy the self-conflation rules.
+9. Once the match process is run, you will see the self-conflation stats at every entity and rule level based on the match run.
+   
+> [!NOTE]
+> Specifying self-conflation rules is not mandatory. If no self-conflation rules are specified, system defined self-conflation rules based on the primary key of the entity and the fields used in the cross entity matching rules will be applied before passing the entity data into cross entity matching for enhanced performance and system sanity.   
+
 ## Run your match order
 
 After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
