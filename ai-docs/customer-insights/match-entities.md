@@ -98,20 +98,20 @@ Each condition applies to a single pair of attributes, while rules represent set
 > [!NOTE]
 > The rule order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
 
-## Add self conflation rules
+## Add self-conflation rules
 
-Along with specifying cross entity matching rules as outline in the above sections, you can also specify self-conflation rules. Self-conflation is the process to identify the duplicate records and merge all those records into one record, and link all the source records to this merged record as alternate ids to the merged record.
+Along with specifying cross entity matching rules as outline in the above sections, you can also specify self-conflation rules. *Self-conflation* is the process to identify the duplicate records and merge all those records into one record, and link all the source records to this merged record as alternate ids to the merged record.
 
-Once the self-conflated record is identified that record will be used in the cross-entity matching process. Self-conflation process can be applied to every entity used in the Match process.
+Once the self-conflated record is identified that record will be used in the cross-entity matching process. Self-conflation process is implemented at the entity level and can be applied to every entity used in the Match process.
 
 ### Add self-conflation rules
 
 1. Go to the **Merged duplictes** section and select **Set entities**.
 2. In this **Set entities** section, select the entities you want to apply self-conflation 
 3. Specify how to merge the duplicate records and pick the final winner record, from the three merge options to select from
- - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
- - *Most recent*: Identifies the winner record based on the most recency. Needs a datetime or a numeric field to define the recency.
- - *Least recent*: Identifies the winner record based on the least recency. Needs a datetime or a numeric field to define the recency.
+  - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
+  - *Most recent*: Identifies the winner record based on the most recency. Needs a datetime or a numeric field to define the recency.
+  - *Least recent*: Identifies the winner record based on the least recency. Needs a datetime or a numeric field to define the recency.
  
  > [!div class="mx-imgBorder"]
    > ![Normalization-B2B](media/match-selfconflation.png "self-conflation")
@@ -131,11 +131,11 @@ Once the self-conflated record is identified that record will be used in the cro
 9. Once the match process is run, you will see the self-conflation stats at every entity and rule level based on the match run.
    
 > [!NOTE]
-> Specifying self-conflation rules is not mandatory. If no self-conflation rules are specified, system defined self-conflation rules based on the primary key of the entity and the fields used in the cross entity matching rules will be applied before passing the entity data into cross entity matching for enhanced performance and system sanity.   
+> Specifying self-conflation rules is not mandatory. If no self-conflation rules are specified, system defined self-conflation rules will be applied and collapse all records that share the same value combination (exact match) from primary key and the fields that involve in the matching rules into a single record before passing the entity data into cross entity matching for enhanced performance and system sanity.
 
 ## Run your match order
 
-After defining the match rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
+After defining the match rules, including cross entity matching as well as self-conflation rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
 
 To make additional changes and rerun the step, you can cancel a match in progress. Select the **Refreshing ...** text and select **Cancel job** at the bottom of the side pane that appears.
 
