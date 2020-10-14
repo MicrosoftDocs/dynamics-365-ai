@@ -116,7 +116,7 @@ After a deduplicated record is identified, that record will be used in the cross
    - *Least recent*: Identifies the winner record based on the least recency. Needs a date or a numeric field to define the recency.
  
    > [!div class="mx-imgBorder"]
-   > ![Normalization-B2B](media/match-selfconflation.png "self-conflation")
+   > ![Deduplication rules step 1](media/match-selfconflation.png "Deduplication rules step 1")
  
 1. Once the entities are selected and their merge preference is set, select **Create new rule** to define the deduplication rules at an entity level.
    - **Select field** lists all the available fields from that entity you want to deduplicate source data on.
@@ -124,7 +124,7 @@ After a deduplicated record is identified, that record will be used in the cross
    - You can define additional conditions by selecting **Add condition**.
  
    > [!div class="mx-imgBorder"]
-   > ![Normalization-B2B](media/match-selfconflation-rules.png "self-conflation-rules")
+   > ![Deduplication rules step 2](media/match-selfconflation-rules.png "Deduplication rules step 2")
 
   You can create multiple deduplication rules for an entity. 
 
