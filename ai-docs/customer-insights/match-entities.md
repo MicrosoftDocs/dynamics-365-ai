@@ -98,7 +98,7 @@ Each condition applies to a single pair of attributes, while rules represent set
 
 ## Define deduplication on a match entity
 
-Along with specifying cross entity matching rules as outlined in the above sections, you can also specify deduplications rules. *Deduplication* is a process. It identifies duplicate records, merges them into one record, and links all the source records to this merged record with alternate ids to the merged record.
+Along with specifying cross entity matching rules as outlined in the above sections, you can also specify deduplications rules. *Deduplication* is a process. It identifies duplicate records, merges them into one record, and links all the source records to this merged record with alternate IDs to the merged record.
 
 After a deduplicated record is identified, that record will be used in the cross-entity matching process. Deduplication is implemented at the entity level and can be applied to every entity used in the Match process.
 
@@ -119,7 +119,7 @@ After a deduplicated record is identified, that record will be used in the cross
    > ![Normalization-B2B](media/match-selfconflation.png "self-conflation")
  
 1. Once the entities are selected and their merge preference is set, select **Create new rule** to define the deduplication rules at an entity level.
-   - **Select field** lists all the available fields from that entity you want deduplicate source data on.
+   - **Select field** lists all the available fields from that entity you want to deduplicate source data on.
    - Specify the normalization and precision settings in similar way as specified in the cross entity matching.
    - You can define additional conditions by selecting **Add condition**.
  
@@ -128,11 +128,11 @@ After a deduplicated record is identified, that record will be used in the cross
 
   You can create multiple deduplication rules for an entity. 
 
-1. Running the match process now groups the records based on the conditions defined in the deduplication rules.After grouping the records, the merge policy is applied to identify the winner record.
+1. Running the match process now groups the records based on the conditions defined in the deduplication rules. After grouping the records, the merge policy is applied to identify the winner record.
 
 1. This winner record is then passed on to the cross-entity matching.
 
-1. Any custom match rules defined for always match and never match take overrule deduplication rules. If a deduplication rule identifies matching records, and a custom match rule is set to never match those records, then these two records won't be matched.
+1. Any custom match rules defined for always match and never match overrule deduplication rules. If a deduplication rule identifies matching records, and a custom match rule is set to never match those records, then these two records won't be matched.
 
 1. After running the match process, you will see the deduplication stats.
    
@@ -141,7 +141,7 @@ After a deduplicated record is identified, that record will be used in the cross
 
 ## Run your match order
 
-After defining the match rules, including cross entity matching as well as self-conflation rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs : CustomerInsights**.
+After defining the match rules, including cross entity matching as well as self-conflation rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs:CustomerInsights**.
 
 To make additional changes and rerun the step, you can cancel a match in progress. Select the **Refreshing ...** text and select **Cancel job** at the bottom of the side pane that appears.
 
