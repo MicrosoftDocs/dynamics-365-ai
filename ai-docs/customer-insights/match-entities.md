@@ -102,7 +102,7 @@ Along with specifying cross entity matching rules as outlined in the above secti
 
 After a deduplicated record is identified, that record will be used in the cross-entity matching process. Deduplication is implemented at the entity level and can be applied to every entity used in the Match process.
 
-### Add self-conflation rules
+### Add deduplication rules
 
 1. In Customer insights, go to **Data** > **Unify** > **Match**.
 
@@ -113,7 +113,7 @@ After a deduplicated record is identified, that record will be used in the cross
 1. Specify how to merge the duplicate records and choose one of three merge options:
    - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
    - *Most recent*: Identifies the winner record based on the most recency. Requires a date or a numeric field to define the recency.
-   - *Least recent*: Identifies the winner record based on the least recency. Needs a date or a numeric field to define the recency.
+   - *Least recent*: Identifies the winner record based on the least recency. Requires a date or a numeric field to define the recency.
  
    > [!div class="mx-imgBorder"]
    > ![Deduplication rules step 1](media/match-selfconflation.png "Deduplication rules step 1")
