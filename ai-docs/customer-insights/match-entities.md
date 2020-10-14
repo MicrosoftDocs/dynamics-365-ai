@@ -1,7 +1,7 @@
 ---
 title: "Match entities in Dynamics 365 Customer Insights | Microsoft Docs"
 description: "Match entities to create unified customer profiles in Dynamics 365 Customer Insights."
-ms.date: 04/16/2020
+ms.date: 10/14/2020
 ms.service: dynamics-365-ai
 ms.topic: "get-started-article"
 author: m-hartmann
@@ -17,8 +17,6 @@ After completing the map phase, you're ready to match your entities. The match p
 ## Specify the match order
 
 Go to **Unify** > **Match** and select **Set order** to start the match phase.
-
-<!--remove example since it's not consistent?-->
 
 Each match unifies two or more entities into a single entity, while persisting each unique customer record. In the following example, we selected three entities: **ContactCSV: TestData** as the **Primary** entity, **WebAccountCSV: TestData** as **Entity 2**, and **CallRecordSmall: TestData** as **Entity 3**. The diagram above the selections illustrates how the match order will be executed.
 
@@ -98,40 +96,48 @@ Each condition applies to a single pair of attributes, while rules represent set
 > [!NOTE]
 > The rule order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
 
-## Define self-conflation on a Match entity
+## Define deduplication on a match entity
 
-Along with specifying cross entity matching rules as outline in the above sections, you can also specify self-conflation rules. *Self-conflation* is the process to identify the duplicate records and merge all those records into one record, and link all the source records to this merged record as alternate ids to the merged record.
+Along with specifying cross entity matching rules as outlined in the above sections, you can also specify deduplications rules. *Deduplication* is a process. It identifies duplicate records, merges them into one record, and links all the source records to this merged record with alternate ids to the merged record.
 
-Once the self-conflated record is identified that record will be used in the cross-entity matching process. Self-conflation process is implemented at the entity level and can be applied to every entity used in the Match process.
+After a deduplicated record is identified, that record will be used in the cross-entity matching process. Deduplication is implemented at the entity level and can be applied to every entity used in the Match process.
 
 ### Add self-conflation rules
 
-1. Go to the **Merged duplicates** section and select **Set entities**.
-2. In this **Set entities** section, select the entities you want to apply self-conflation.
-3. Specify how to merge the duplicate records and pick the final winner record, from the three merge options to select from.
-  - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
-  - *Most recent*: Identifies the winner record based on the most recency. Needs a datetime or a numeric field to define the recency.
-  - *Least recent*: Identifies the winner record based on the least recency. Needs a datetime or a numeric field to define the recency.
+1. In Customer insights, go to **Data** > **Unify** > **Match**.
+
+1. In the **Merged duplicates** section, select **Set entities**.
+
+1. In the **Merge preferences** section, select the entities you want to apply deduplication to.
+
+1. Specify how to merge the duplicate records and choose one of three merge options:
+   - *Most filled*: Identifies the record with most filled attributes as the winner record. This is the default merge option.
+   - *Most recent*: Identifies the winner record based on the most recency. Requires a date or a numeric field to define the recency.
+   - *Least recent*: Identifies the winner record based on the least recency. Needs a date or a numeric field to define the recency.
  
- > [!div class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    > ![Normalization-B2B](media/match-selfconflation.png "self-conflation")
  
- 4. Once the entities are selected and their merge preference is set, you can define the self-conflation match rules at an entity level similar to match rules set in cross entity matching.
- - Select field lists down all the available fields from that entity you want deduplicate source data on.
- - Specify the normalization and precision settings in similar way as specified in the cross entity matching.
- - You can define any number of conditions in a self-conflation match rule.
+1. Once the entities are selected and their merge preference is set, select **Create new rule** to define the deduplication rules at an entity level.
+   - **Select field** lists all the available fields from that entity you want deduplicate source data on.
+   - Specify the normalization and precision settings in similar way as specified in the cross entity matching.
+   - You can define additional conditions by selecting **Add condition**.
  
-> [!div class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    > ![Normalization-B2B](media/match-selfconflation-rules.png "self-conflation-rules")
 
-5. You can create any number of self-conflation rules on an entity. 
-6. Once all such self-conflation rules are created and the match process is run, these self-conflation rules, in addition to primary key based system defined self-conflation rule, establish a grouping of records based on the conditions and rules specified. Once the records are grouped, the merge policy is applied to identify the winner record.
-7. This winner record is then passed on to participate in the cross-entity matching.
-8. Any custom match rules defined for always match and never match take precedence over self-conflation match rules output as well, meaning, if self-conflation match rule identifies a matching set, and there exists a custom match rule to never match those two records, then those two records will never be matched on self-conflation, even though they satisfy the self-conflation rules.
-9. Once the match process is run, you will see the self-conflation stats at every entity and rule level based on the match run.
+  You can create multiple deduplication rules for an entity. 
+
+1. Running the match process now groups the records based on the conditions defined in the deduplication rules.After grouping the records, the merge policy is applied to identify the winner record.
+
+1. This winner record is then passed on to the cross-entity matching.
+
+1. Any custom match rules defined for always match and never match take overrule deduplication rules. If a deduplication rule identifies matching records, and a custom match rule is set to never match those records, then these two records won't be matched.
+
+1. After running the match process, you will see the deduplication stats.
    
 > [!NOTE]
-> Specifying self-conflation rules is not mandatory. If no self-conflation rules are specified, system defined self-conflation rules will be applied and collapse all records that share the same value combination (exact match) from primary key and the fields that involve in the matching rules into a single record before passing the entity data into cross entity matching for enhanced performance and system sanity.
+> Specifying deduplication rules isn't mandatory. If no such rules are configured, the system-defined rules are applied. They collapse all records that share the same value combination (exact match) from primary key and the fields in the matching rules into a single record before passing the entity data to cross-entity matching for enhanced performance and system sanity.
 
 ## Run your match order
 
