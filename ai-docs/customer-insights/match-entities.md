@@ -98,7 +98,7 @@ Each condition applies to a single pair of attributes, while rules represent set
 > [!NOTE]
 > The rule order matters. The matching algorithm tries to match on the basis of your first rule and continues to the second rule only if no matches were identified under the first rule.
 
-## Add self-conflation rules
+## Define self-conflation on a Match entity
 
 Along with specifying cross entity matching rules as outline in the above sections, you can also specify self-conflation rules. *Self-conflation* is the process to identify the duplicate records and merge all those records into one record, and link all the source records to this merged record as alternate ids to the merged record.
 
