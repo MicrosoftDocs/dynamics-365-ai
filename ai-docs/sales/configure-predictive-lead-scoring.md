@@ -489,7 +489,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 7. From the site map, select **Display** > **Predictive score**.
 
     >[!NOTE]
-    >Ensure that the added column place holder is selected. If not, the widget will added in a random place in the form. 
+    >Ensure that the added place holder column is selected. If not, the widget will added at a random place in the form. 
 
     > [!div class="mx-imgBorder"]  
     > ![Select predictive score widget](media/power-select-predictive-score-widget.png "Select predictive score widget")
