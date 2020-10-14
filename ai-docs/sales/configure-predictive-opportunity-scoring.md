@@ -453,61 +453,62 @@ By default, the predictive opportunity scoring widget is available only in the o
 > - Adding opportunity scoring widgets is only supported in Unified Interface apps.
 > - You can't use the legacy form designer to add an opportunity scoring widget to a form.
 
-1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) portal.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Power apps home page](media/power-apps-home-page.png "Power apps home page")
 
-    The **Business Management settings** page opens in a new browser tab.
-
-2. Select **Settings** > **Customizations** > **Customize the System**.
-
-3. In the solution explorer, under **Components**, expand **Entities**, and then select **Opportunity** > **Forms**.
-
-4. Select and open the form to which you want to add the widget.
+2. Search and select your organization's environment.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select a form](media/pos-select-form.png "Select a form")
+    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
 
-5. In the **Field Explorer** pane, clear the **Only show unused fields** check box.
+    You're connected to your organization.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Clear the Only show unused fields check box](media/pos-clear-selection-show-unused-fields.png "Clear the Only show unused fields check box")
+3. Select **Data** > **Entities**.
 
-6. Select and drag the **Opportunity Score** field to the location you want. In this example, we're dragging it to the **General** section.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Add the Opportunity Score field](media/pos-add-opportunity-score-field.png "Add the Opportunity Score field")
-
-7. Double-click to select the **Opportunity Score** field to open the **Field Properties** dialog box.
-
-8. On the **Display** tab, in the **Label** section, clear the **Display label on the form** check box.
+    The **Entities** page opens with the list of entities.
 
     > [!div class="mx-imgBorder"]  
-    > ![Clear the Display label on the form check box](media/pos-clear-selection-display-label.png "Clear the Display label on the form check box")
+    > ![Entities page with list of entities](media/power-apps-entities-page.png "Entities page with list of entities")
 
-9. On the **Control** tab, select **Add control**.
+4. Open the entity, and select the **Forms** tab and then select a main form to add the widget. In this example, the entity **Opportunity** is selected and then the main form **Opportunity** is selected.
 
-    The **Add control** dialog box opens.
-
-10. Select **Predictive opportunity score**, and then select **Add**.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Select and add the predictive opportunity score control](media/pos-select-predictive-opportunity-score-control.png "Select and add the predictive opportunity score control")
-
-    The **Predictive opportunity score** control is added.
-
-11. For **Predictive opportunity score** control, select the **Web**, **Phone**, and **Tablet** options, and then select **OK**. 
+    >[!NOTE]
+    >If you are unable to view the entity for which you want to add the widget, on the top-right conrner of the page, change the filters settings to **All**. 
 
     > [!div class="mx-imgBorder"]  
-    > ![Enable options for the predictive opportunity score control](media/pos-enable-control-options.png "Enable options for the predictive opportunity score control")
+    > ![Select opportunity main form under forms tab](media/power-apps-opportunity-main-form.png "Select opportunity main form under forms tab")
 
-    The predictive opportunity score widget is added to the form.
+5. In the form designer page, select **Component** and then from **Layout**, add a column to the form as a placer holder to add the widget.
 
     > [!div class="mx-imgBorder"]  
-    > ![Predictive opportunity score widget is added to the form](media/pos-opportunity-score-widget-added.png "Predictive opportunity score widget is added to the form")
+    > ![Add a column to form](media/power-apps-layout-add-column-form.png "Add a column to form")
 
-12. Save and publish the form.
+    The column is added to the form.
+
+7. From the site map, select **Display** > **Predictive score**.
+
+    >[!NOTE]
+    >Ensure that the added column place holder is selected. If not, the widget will added in a random place in the form. 
+
+    > [!div class="mx-imgBorder"]  
+    > ![Select predictive score widget](media/power-select-predictive-score-widget.png "Select predictive score widget")
+
+8. On the **Edit predictive score** pop-up, select **Done**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Select done to add predictive score widget](media/power-app-predictive-score-widget-options.png "Select done to add predictive score widget")
+
+    The predictive score widget is added to the form.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Predictive score widget added to the form](media/power-app-predictive-opportunity-score-widget-added.png "Predictive score widget added to the form")
+
+    >[!NOTE]
+    >To hide the **New section** label, on the **Properties** tab of the **New Section** settings pane, select **Hide label**.
+
+9. Save and publish the form.
 
 ### See also
 
