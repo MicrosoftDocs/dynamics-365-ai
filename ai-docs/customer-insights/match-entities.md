@@ -141,7 +141,7 @@ After a deduplicated record is identified, that record will be used in the cross
 
 ## Run your match order
 
-After defining the match rules, including cross entity matching as well as self-conflation rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs:CustomerInsights**.
+After defining the match rules, including cross-entity matching and deduplication rules, you can run the match order. On the **Match** page, select **Run** to start the process. The matching algorithm might take some time to complete. You can't change properties on the **Match** page until the match process completes. You'll find the unified customer profile entity that was created on the **Entities** page. Your unified customer entity is called **ConflationMatchPairs:CustomerInsights**.
 
 To make additional changes and rerun the step, you can cancel a match in progress. Select the **Refreshing ...** text and select **Cancel job** at the bottom of the side pane that appears.
 
