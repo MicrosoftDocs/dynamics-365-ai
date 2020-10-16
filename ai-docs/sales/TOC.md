@@ -4,6 +4,8 @@
 
 ## [What's new](whats-new.md)
 
+## [Removed or deprecated features](removed-deprecated-features.md)
+
 ## Administrator guide 
 ### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
