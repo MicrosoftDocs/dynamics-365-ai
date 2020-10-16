@@ -54,7 +54,7 @@ The who knows whom feature is configured and ready to use in your organization.
 After you enable the who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to collect the communication and collaboration details of users from Exchange server.
 
 > [!NOTE]
-> Contact your Office 365 administrator to enable the Sales Insights connection graph if you don't have sufficient privileges to enable it.
+> Contact your Microsoft 365 administrator to enable the Sales Insights connection graph if you don't have sufficient privileges to enable it.
 
 To configure the Sales Insights connection graph, follow these steps:
 
