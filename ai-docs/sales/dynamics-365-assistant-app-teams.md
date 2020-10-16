@@ -29,7 +29,7 @@ topic-status: Drafting
 
 In a fast-moving world, as a salesperson, you need to be on top of daily sales activities so that you can close deals and maintain proper communications with the customer. The Dynamics 365 assistant app provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers.
 
-The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365.
+The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Microsoft 365 and Dynamics 365.
 
 This application enables you to:
 

@@ -68,7 +68,7 @@ Microsoft will not transfer customer data outside the selected Azure geographic 
     - Dynamics 365 home page, which stores application names, descriptions, and logos globally for performance.
     - Azure Active Directory, which may store Active Directory data globally. More information: [What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)
     - Azure Multi-Factor Authentication, which may store Multi-Factor Authentication data globally. More information: [How it works: Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks).
-    - Customer data collected during the onboarding process by the Microsoft Office 365 Admin Center. More information: [About the Microsoft 365 admin center](https://support.office.com/article/About-the-Office-365-Admin-Center-758befc4-0888-4009-9f14-0d147402fd23).
+    - Customer data collected during the onboarding process by the Microsoft 365 Admin Center. More information: [About the Microsoft 365 admin center](https://support.office.com/article/About-the-Office-365-Admin-Center-758befc4-0888-4009-9f14-0d147402fd23).
     - Services that provide global routing functions and do not process or store customer data. This includes Azure DNS, which provides domain name services that route to different regions; or
     - Preview, beta, or other pre-release services, which typically store customer data in the United States but may store it globally. 
     - Additionally, certain types of customer data (specifically the application name, application description, and application logo) will be stored globally, rather than in the primary storage geographic region.

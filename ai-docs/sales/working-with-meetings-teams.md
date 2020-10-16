@@ -26,7 +26,7 @@ topic-status: Drafting
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-The Dynamics 365 assistant app for Microsoft Teams provides information about your daily meetings on your mobile device. This helps you to prepare for an upcoming meeting so that you can build a strong relationship with customers. These meetings display the list of participants who are external and not in your organization. The app displays meetings related to your current day and keeps you up to date by syncing in real time with your Office 365 account. 
+The Dynamics 365 assistant app for Microsoft Teams provides information about your daily meetings on your mobile device. This helps you to prepare for an upcoming meeting so that you can build a strong relationship with customers. These meetings display the list of participants who are external and not in your organization. The app displays meetings related to your current day and keeps you up to date by syncing in real time with your Microsoft 365 account. 
 
 The meetings provide basic information such as subject, time and location, participants, regarding entities, and related entities. 
 

@@ -49,7 +49,7 @@ The standard Sales Insights features&mdash;assistant (standard), Auto capture (s
 
 Review the following requirements and prerequisites to enable standard Sales Insights features:
 
-- Some feature restrictions apply depending on which versions of Dynamics 365 Sales and Office 365 you're running, as detailed in the following table.
+- Some feature restrictions apply depending on which versions of Dynamics 365 Sales and Microsoft 365 you're running, as detailed in the following table.
 
     | Product version | Available standard Sales Insights features |
     |-----------------|--------------------------------------------|    
