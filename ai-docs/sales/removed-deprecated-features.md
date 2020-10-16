@@ -17,9 +17,7 @@ This topic describes features that have been removed, or that are planned for re
 
 This list is intended to help you consider these removals and deprecations for your own planning.
 
-## Features removed or deprecated in the Sales Insights
-
-### Dynamics 365 assistant application for Teams
+## Dynamics 365 assistant application for Teams
 
 |||
 |-------------|------------|
