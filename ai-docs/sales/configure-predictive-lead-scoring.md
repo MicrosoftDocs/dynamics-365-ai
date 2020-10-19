@@ -234,7 +234,7 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 - When the current model is more than three months old.
 
     >[!NOTE]
-    >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard and the existing user-published model will be retained.
+    >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
 ### Manually retraining
 
@@ -274,29 +274,29 @@ The model is deleted from your organization.
 
 ## Define entities for analytics
 
-To display the list of business process flows that are defined for leads in your organization, the business process flows entities must be enabled display in the list and allow for analytics.
+To display the list of business process flows that are defined for leads in your organization, and to allow for analytics, the business process flows entities must be enabled.
+<!--markdownlint-disable MD036-->
+**To define entities for analytics**
+<!--markdownlint-enable MD036-->
+1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage<!--note from editor: I assume that this is what you mean by "managed lake" and "ADLS"? (neither of those terms are our style). Please check this edit throughout this section.-->. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
 
-Follow these steps:
+2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. You must update the following columns:<!--note from editor: You don't want to use "a, b" for substeps. Trust me on this! Or, see the Docs contributor guide: https://review.docs.microsoft.com/en-us/help/contribute/markdown-reference?branch=master#numbered-list -->
 
-1. Verify that **Change Tracking** is enabled for the business process flow entity for Managed Lake. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    1. `ParentEntityLogicalName`: The logical name of the entity. 
 
-2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Managed Lake. You must update the following columns:
-
-    a. `ParentEntityLogicalName`: Logical name of the entity. 
-
-    b. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Managed Lake and if **False**, the entity will not sync to Managed Lake. By default, the value is set as 'False'.
+    1. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Data Lake Storage and if **False**, the entity won't sync to Data Lake Storage. By default, the value is **False**.
 
     > [!div class="mx-imgBorder"]
-    > ![Create an entry for managed lake](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for managed lake")
+    > ![Create an entry for Data Lake Storage](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
 
 >[!NOTE]
->Change Tracking on the business process flow entity and `IsEnabledForADLS` must be configured as true to sync the data to ADLS using **Export to data lake** (**Athena**).
+>Change tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.<!--note from editor: I think "Athena" was the code name for the service and isn't needed any more. I'm basing this edit on \github\powerapps-docs-pr\powerapps-docs\maker\common-data-service\export-to-data-lake.md)-->
 
-**Examples:**    
+**Examples:**
 
-CRUD can be performed either through OData/SDK or solution import. 
+Create, read, update, and delete (CRUD) operations can be performed either through OData/SDK or solution import.
 
-- Sample to create operation payload through OData:
+- Sample to create an operation payload through OData:
 
     ```HTTP
     POST http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs
@@ -306,7 +306,7 @@ CRUD can be performed either through OData/SDK or solution import.
     }
     ```
 
-- Sample to patch operation payload to update a record via OData:
+- Sample to patch an operation payload to update a record through OData:
 
     ```HTTP
     PATCH http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs(<copy guid from 'entityanalyticsconfigid' column>)
@@ -314,9 +314,9 @@ CRUD can be performed either through OData/SDK or solution import.
         isenabledforadls: false
     }   
     ```    
-    To learn more on how to use OData requests for Update and Delete, see [Update and delete entities using the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api)
+    To learn more about how to use OData requests for update and delete, go to [Update and delete entities using the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api).
      
-- Sample to manage solution to enable 'Account' and 'Contact' entity for managed lake. Create the following three XML files and zip them into **ADLSConfigDataSampleTest.zip**.
+- Sample to manage a solution to enable Account and Contact entities for Data Lake Storage. Create the following three XML files, and zip them into **ADLSConfigDataSampleTest.zip**.
     - **[Content_Types].xml**
         ```XML
         <?xml version="1.0" encoding="UTF-8"?>
@@ -452,17 +452,15 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 > - Adding lead scoring widgets is only supported in Unified Interface apps.
 > - You can't use the legacy form designer to add a lead scoring widget to a form.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) portal.
+1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
     > [!div class="mx-imgBorder"]  
-    > ![Power apps home page](media/power-apps-home-page.png "Power apps home page")
+    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")
 
-2. Search and select your organization's environment.
+2. Search for and select your organization's environment.
 
     > [!div class="mx-imgBorder"]  
     > ![Select your organization](media/power-apps-select-org.png "Select your organization")
-
-    You're connected to your organization.
 
 3. Select **Data** > **Entities**.
 
@@ -471,41 +469,39 @@ By default, the predictive lead scoring widget is available only in the out-of-t
     > [!div class="mx-imgBorder"]  
     > ![Entities page with list of entities](media/power-apps-entities-page.png "Entities page with list of entities")
 
-4. Open the entity, and select the **Forms** tab and then select a main form to add the widget. In this example, the entity **Lead** is selected and then the main form **Lead** is selected.
+4. Open the entity, select the **Forms** tab, and then select a main form to add the widget to. In this example, the entity **Lead** is selected and the main form **Lead** is selected.
 
     >[!NOTE]
-    >If you are unable to view the entity for which you want to add the widget, on the top-right conrner of the page, change the filters settings to **All**. 
+    >If you're unable to view the entity to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select lead main form under forms tab](media/power-apps-lead-main-form.png "Select lead main form under forms tab")
+    > ![Select the Lead main form on the Forms tab](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
 
-5. In the form designer page, select **Component** and then from **Layout**, add a column to the form as a placer holder to add the widget.
+5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add a column to form](media/power-apps-layout-add-column-form.png "Add a column to form")
-
-    The column is added to the form.
+    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")
 
 7. From the site map, select **Display** > **Predictive score**.
 
     >[!NOTE]
-    >Ensure that the added place holder column is selected. If not, the widget will added at a random place in the form. 
+    >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form. 
 
     > [!div class="mx-imgBorder"]  
-    > ![Select predictive score widget](media/power-select-predictive-score-widget.png "Select predictive score widget")
+    > ![Select the predictive score widget](media/power-select-predictive-score-widget.png "Select the predictive score widget")
 
-8. On the **Edit predictive score** pop-up, select **Done**.
+8. In the **Edit predictive score** pop-up window, select **Done**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select done to add predictive score widget](media/power-app-predictive-score-widget-options.png "Select done to add predictive score widget")
+    > ![Select Done to add the predictive score widget](media/power-app-predictive-score-widget-options.png "Select Done to add the predictive score widget")
 
-    The predictive score widget is added to the form.
+    The predictive score widget is added to the form, as shown in the following image.
 
     > [!div class="mx-imgBorder"]  
     > ![Predictive score widget added to the form](media/power-app-predictive-score-widget-added.png "Predictive score widget added to the form")
 
     >[!NOTE]
-    >To hide the **New section** label, on the **Properties** tab of the **New Section** settings pane, select **Hide label**.
+    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
 
