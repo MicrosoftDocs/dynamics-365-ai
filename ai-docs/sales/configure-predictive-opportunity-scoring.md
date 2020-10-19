@@ -274,12 +274,12 @@ The model is deleted from your organization.
 ## Define entities for analytics
 
 To display the list of business process flows that are defined for opportunities in your organization, and to allow for analytics, the business process flows entities must be enabled.
-<!--markdownlint-disable MD036-->
-**To define entities for analytics**
-<!--markdownlint-enable MD036-->
-1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage<!--note from editor: I assume that this is what you mean by "managed lake" and "ADLS"? (neither of those terms are our style). Please check this edit throughout this section.-->. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
 
-2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. You must update the following columns:<!--note from editor: You don't want to use "a, b" for substeps. Trust me on this! Or, see the Docs contributor guide: https://review.docs.microsoft.com/en-us/help/contribute/markdown-reference?branch=master#numbered-list -->
+**To define entities for analytics**
+
+1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
+
+2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. You must update the following columns:
 
     1. `ParentEntityLogicalName`: The logical name of the entity. 
 
@@ -289,7 +289,7 @@ To display the list of business process flows that are defined for opportunities
     > ![Create an entry for Data Lake Storage](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
 
 >[!NOTE]
->Change Tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.<!--note from editor: I think "Athena" was the code name for the service and isn't needed any more. I'm basing this edit on \github\powerapps-docs-pr\powerapps-docs\maker\common-data-service\export-to-data-lake.md)-->
+>Change Tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.
 
 **Examples:**    
 
