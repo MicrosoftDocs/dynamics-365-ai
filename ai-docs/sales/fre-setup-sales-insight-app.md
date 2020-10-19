@@ -18,14 +18,15 @@ topic-status: Drafting
 
 # First-run set up experience of conversation intelligence
 
+you can configure the conversation intelligence through [conversation intelligence application](#configure-in-conversation-intelligence-application) or through [Sales Hub app](#configure-in-sales-hub-app). 
 When you sign in to conversation intelligence, the application will be available for you to use and explore the various features through the provided demo data.
 After you sign in, you can set up the application depending on the role that is assigned to you.
 
--	As an administrator, you can set up the complete application including connecting Dynamics 365 Sales environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers. To learn more, see [Administrator setting up application](#administrator-setting-up-application).
+-	As an administrator, you can set up the complete application including connecting Dynamics 365 Sales environment, grant app permissions, connect call data, enable preview, and define tracked key words and competitors to use the features that the application offers.
 
 -	As a sales manager or seller, you can access the application with demo data and administrator must configure the application to view the data relevant to you.
 
-## Administrator setting up application
+## Configure in conversation intelligence application
 
 The following diagram illustrates the process of setting up application as an administrator:
 
@@ -99,6 +100,86 @@ The following diagram illustrates the process of setting up application as an ad
     > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
 Now, your conversation intelligence is ready, and managers and sellers can use to view this data.
+
+
+## Configure in Sales Hub app
+
+Perform the following steps to configure conversation intelligence through the Sale Hub app:
+
+1.	You must have an administrator or equivalent security role. To learn more, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+2.	Sign in to Dynamics 365 Sales, and go to the **Sales Hub** app.
+
+3.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
+
+4.	In the configuration page, under **Productivity**, select **Conversation intelligence**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
+
+5.	Under the **Call recording storage** section, configure the storage-related options as described:
+
+    - **Storage location**: Enter the **Storage connection string** and **Container name** to upload the call recordings for analysis. More information: [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md).
+
+    - **Retention policy**: Choose a retention time limit, the application retains the call recording data for the specified time limit and deletes when the time limit is reached. More information: [Retention Policy](data-retention-deletion-policy.md#retention-policy). 
+
+    > [!div class="mx-imgBorder"]
+    > ![Configuration call recording storage](media/ci-admin-connection-storage.png "Configuration call recording storage")
+
+6.	Under the **Conversation tracking** section, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization requires a change. Also, you can add languages in which the sellers may use during their calls with customers. More information: [Configure keywords, competitors, and languages in Conversation content](../sales/configure-keywords-competitors.md).
+
+    > [!div class="mx-imgBorder"]
+    > ![Configuration conversation trackers](media/ci-admin-conversation-trackers.png "Configuration conversation trackers")
+
+    >[!NOTE]
+    >-	Storage and conversation tracking are the only required field for the first-time onboarding to Conversation Intelligence. Now you can already publish the settings if you want. Go to step 11. 
+    >-	Sales managers can configure the conversation trackers specific to their team. More information: [Configure Conversation tracking in Sales Hub app](#).
+
+7.	Under the **Sales team management** section, configure the top sellers and hierarchy options as described:
+
+    - **Call data visibility**: Select the levels of hierarchy for which sales managers can view in conversation intelligence data.
+
+    - **Team members and top performers**: You can view the names of your team members who's calls are being analyzed in conversation intelligence, select which of them are your top performers, and delete their data if necessary.
+
+        You can choose the top performers manually or let the application choose automatically. Select an option as required:
+
+        - **Manually select top performers**: Allows you to manually choose the top performers from the list of sellers. Under the **Top performer** column, select the star icon corresponding to a seller. The seller is added to the top performers list on which the seller's data is compared against other sellers. 
+
+        - **Enable automatic identification of top performers**: Allows the application to automatically select the top performers based on the amount of leads they qualified or opportunities they won. When you select to automatically select to performers, the drop-down list is enabled to choose **by won opportunities** or **by lead qualification**. Choose an option appropriate. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Choose and confiogure sales team](media/ci-admin-choose-sales-team.png "Choose and confiogure sales team")              
+
+    You can skip configuring this section and add them later when required. To learn more, see [Configure and view your team page](../sales/configure-view-your-team-page.md).
+
+8.	Under the **License usage** section, you can view the information on the total call recording processing hours left and used. This is view only and can’t be changed.
+
+    > [!div class="mx-imgBorder"]
+    > ![View license usage information](media/ci-admin-license-usage.png "View license usage information")
+ 
+9.	Under the **Privacy** section, selecting the check box to allow Microsoft to improve the quality of insights through read-only access to your organization’s data in conversation intelligence. This is optional. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable privacy](media/ci-admin-enable-privacy.png "Enable privacy")
+ 
+10.	Under the **Coming soon** section, select the **Access new features before they’re released to all our customers** option to turn the coming soon feature.
+    
+    If you don’t want to enable the preview feature for your organization, skip this step to proceed. You can always enable the preview features later. To learn more, see [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md).
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable coming soon features](media/ci-admin-coming-soon-features.png "Enable coming soon features")
+
+11.	Select **Save + publish**.
+    
+    A message is displayed to accept the terms and conditions. Read the terms and conditions, and privacy statement carefully. Select **Agree and continue**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Agree terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree terms and conditions to publish the configurations")
+    
+    Conversation intelligence is configured and ready for use in your organization.
 
 ### See also
 

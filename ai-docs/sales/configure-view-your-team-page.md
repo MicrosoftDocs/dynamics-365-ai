@@ -22,6 +22,7 @@ topic-status: Drafting
 
 As an administrator, you can configure the levels of hierarchy for which sales managers can view in conversation intelligence. When configured, sales managers will be able to view the hierarchy under **Your team**.
 
+<a name=understand-hierarchy-levels></a>
 Let’s look at the example to understand hierarchy levels:
 
 The matrix explains which data you’ll view as a sales manager, for different hierarchy levels. 
@@ -80,6 +81,73 @@ As a sales manager, when you open the Your team page in settings, you can view t
     > ![View your team members](media/si-app-admin-view-your-team-members.png "View your team members")
 
     The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.
+
+## Configure sales team information in Sales Hub app
+
+As an administrator or sales manager, you can:
+
+-	Configure the levels of hierarchy that you can view. 
+-	View the list of employees who are part of your hierarchy.
+-	Select the top  performers in your hierarchy.  
+-	Delete seller data.
+
+Follow these steps:
+
+1.	Sign in to Dynamics 365 Sales, and go to the **Sales Hub** app.
+
+2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
+
+3.	In the configuration page, under **Productivity**, select **Conversation intelligence**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
+
+4.	Open the **Sales team management** section.
+
+    > [!div class="mx-imgBorder"]
+    > ![Choose and confiogure sales team](media/ci-admin-choose-sales-team.png "Choose and confiogure sales team")         
+
+5.	Configure the hierarchy levels.
+
+    Choose a hierarchy level from the **Call data visibility** list to display team members for managers. You can choose up to a maximum of three levels. To learn more, see [understand hierarchy levels](#understand-hierarchy-levels).   
+
+    > [!div class="mx-imgBorder"]
+    > ![Choose hierarchy levels](media/ci-admin-choose-hierarchy-levels.png "Choose hierarchy levels")
+
+    A list of team members is displayed under **Team members and top performers**. The list updates every 24 hours to display the current active sellers in the manager's hierarchy.
+
+6.	Choose the top performers. 
+
+    The top performers who are selected here are compared against other sellers in your team. The comparisons project how the other sellers are performing against top performer’s best practices and display KPIs and relevant data on the home page in [What characterizes top sellers?](..sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
+
+    Under **Team members and top performers**, choose the top performers manually or let the application choose automatically. Select an option as necessary.
+
+    - **Manually select top performers**: Allows you to manually choose the top performers from the list of sellers. Under the **Top performer** column, select the star icon corresponding to a seller.  
+        
+        > [!div class="mx-imgBorder"]
+        > ![Select top performers manually](media/ci-admin-choose-top-performers-manually.png "Select top performers manually")
+
+    - **Enable automatic identification of top performers**: Allows the application to automatically select the top performers based on the amount of leads they qualified or opportunities they won. When you select to automatically select to performers, the drop-down list is enabled to choose **by won opportunities** or **by lead qualification**. Choose an option appropriate.     
+
+        > [!div class="mx-imgBorder"]
+        > ![Select top performers automatically](media/ci-admin-choose-top-performers-automatically.png "Select top performers automatically")
+
+6.	Delete seller data. 
+
+    You can delete seller’s data when a seller is not reporting to you, moved to another team, leaving your organization, or seller requests to delete data. This data includes the seller’s statistics and call history. 
+
+    Hover over the seller's name for who you want to delete the data. Under the **Delete sellers data** column, select **Delete data**.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Delete a seller data](media/ci-admin-delete-seller-data.png "Delete a seller data")
+
+    The selected seller data is deleted from conversation intelligence.
+
+7.	Save the configuration.     
+
 
 ### See also
 
