@@ -121,7 +121,7 @@ Follow these steps:
 
 6.	Choose the top performers. 
 
-    The top performers who are selected here are compared against other sellers in your team. The comparisons project how the other sellers are performing against top performer’s best practices and display KPIs and relevant data on the home page in [What characterizes top sellers?](..sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
+    The top performers who are selected here are compared against other sellers in your team. The comparisons project how the other sellers are performing against top performer’s best practices and display KPIs and relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
 
     Under **Team members and top performers**, choose the top performers manually or let the application choose automatically. Select an option as necessary.
 

@@ -136,7 +136,7 @@ Perform the following steps to configure conversation intelligence through the S
 
     >[!NOTE]
     >-	Storage and conversation tracking are the only required field for the first-time onboarding to Conversation Intelligence. Now you can already publish the settings if you want. Go to step 11. 
-    >-	Sales managers can configure the conversation trackers specific to their team. More information: [Configure Conversation tracking in Sales Hub app](#).
+    >-	Sales managers can configure the conversation trackers specific to their team.
 
 7.	Under the **Sales team management** section, configure the top sellers and hierarchy options as described:
 
@@ -153,7 +153,7 @@ Perform the following steps to configure conversation intelligence through the S
     > [!div class="mx-imgBorder"]
     > ![Choose and confiogure sales team](media/ci-admin-choose-sales-team.png "Choose and confiogure sales team")              
 
-    You can skip configuring this section and add them later when required. To learn more, see [Configure and view your team page](../sales/configure-view-your-team-page.md).
+    You can skip configuring this section and add them later when required. To learn more, see [Configure sales team information in Sales Hub app](../sales/configure-view-your-team-page.md##configure-sales-team-information-in-sales-hub-app).
 
 8.	Under the **License usage** section, you can view the information on the total call recording processing hours left and used. This is view only and can’t be changed.
 
