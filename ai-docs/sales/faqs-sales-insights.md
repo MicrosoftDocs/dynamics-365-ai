@@ -39,7 +39,7 @@ Sales insights is available in the following regions:
 >[!NOTE]
 >Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, France, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
-**In which region is the features available?**<br>
+**In which region are the features available?**<br>
 Sales insights features are available in the following regions:
 
 <table>
@@ -116,7 +116,7 @@ The Sales Insights features support the following versions of Exchange:
 >   To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 
 **What languages are supported now?**<br>
-Sales insights support the following languages:<br>
+Sales insights supports the following languages:<br>
 
 | Feature | Language supported |
 |---------|--------------------|
@@ -407,6 +407,5 @@ No. The call recordings are deleted as soon as the audio file is processed​.
 
 ### See also
 
-[Overview](overview.md)
-
+[Overview](overview.md)  
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
