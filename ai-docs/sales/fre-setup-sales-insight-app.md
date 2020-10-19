@@ -153,7 +153,7 @@ Perform the following steps to configure conversation intelligence through the S
     > [!div class="mx-imgBorder"]
     > ![Choose and confiogure sales team](media/ci-admin-choose-sales-team.png "Choose and confiogure sales team")              
 
-    You can skip configuring this section and add them later when required. To learn more, see [Configure sales team information in Sales Hub app](../sales/configure-view-your-team-page.md##configure-sales-team-information-in-sales-hub-app).
+    You can skip configuring this section and add them later when required. To learn more, see [Configure sales team information in Sales Hub app](../sales/configure-view-your-team-page.md#configure-sales-team-information-in-sales-hub-app).
 
 8.	Under the **License usage** section, you can view the information on the total call recording processing hours left and used. This is view only and can’t be changed.
 
