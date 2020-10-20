@@ -1,7 +1,7 @@
 ---
 title: "Redirection messaging for Customer Serivce Insights | MicrosoftDocs"
 description: "Learn about the redirection messages with information about how to access the newest features of the embedded insights experience."
-ms.date: 10/19/2020
+ms.date: 10/20/2020
 ms.service: dynamics-365-ai
 ms.custom: 
 ms.topic: article
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Redirection messaging for Customer Service Insights
 
-Customer Service Insights is moving to the core Dynamics 365 Customer Service applications. As a result, you may one of the following banner messages in your standalone application workspaces:
+Customer Service Insights capabilities are becoming deeply integrated into the D365 Customer Service agent and manager experiences instead of through the current standalone Customer Service Insights application. As a result, you may see any of the following banner messages in your standalone application workspaces:
 
 #### Banner Message: "These reports are moving. View the new and improved Insights experience in Dynamics 365 Customer Service."
 
