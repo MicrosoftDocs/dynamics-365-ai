@@ -149,9 +149,9 @@ If you're using custom attributes for lead generation, you can generate the mode
 
 5. In the **Business process flow** list, select a flow that's relevant for the leads for which you're generating the model. The values displayed in the list are the business process flows that are defined for leads in your organization.
 
-    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business process flows to represent the work of different security roles or lines of business.
+    A business process flow defines a set of steps that users can perform to achieve an outcome. An organization can have multiple business processes flows to represent the work of different security roles or lines of business.
 
-    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Configure Entity For Managed Lake](https://dynamics.wiki/index.php/Configure_Entity_For_Managed_Lake)
+    You must enable custom business process flow entities for analytics and to be able to select them. More information: [Define entities for analytics](#define-entities-for-analytics)
 
 6. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively. 
 
@@ -234,7 +234,7 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 - When the current model is more than three months old.
 
     >[!NOTE]
-    >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard and the existing user-published model will be retained.
+    >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
 ### Manually retraining
 
@@ -272,6 +272,178 @@ You can delete a model when it's no longer required in your organization. You ca
 
 The model is deleted from your organization.
 
+## Define entities for analytics
+
+To display the list of business process flows that are defined for leads in your organization, and to allow for analytics, the business process flows entities must be enabled.
+
+**To define entities for analytics**
+
+1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
+
+2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. You must update the following columns:
+
+    1. `ParentEntityLogicalName`: The logical name of the entity. 
+
+    1. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Data Lake Storage and if **False**, the entity won't sync to Data Lake Storage. By default, the value is **False**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create an entry for Data Lake Storage](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
+
+>[!NOTE]
+>Change tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.
+
+**Examples:**
+
+Create, read, update, and delete (CRUD) operations can be performed either through OData/SDK or solution import.
+
+- Sample to create an operation payload through OData:
+
+    ```HTTP
+    POST http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs
+    {
+        isenabledforadls: true,
+        parententitylogicalname: "account"
+    }
+    ```
+
+- Sample to patch an operation payload to update a record through OData:
+
+    ```HTTP
+    PATCH http://<OrgUrl>/api/data/v9.0/entityanalyticsconfigs(<copy guid from 'entityanalyticsconfigid' column>)
+    {
+        isenabledforadls: false
+    }   
+    ```    
+    To learn more about how to use OData requests for update and delete, go to [Update and delete entities using the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api).
+     
+- Sample to manage a solution to enable Account and Contact entities for Data Lake Storage. Create the following three XML files, and zip them into **ADLSConfigDataSampleTest.zip**.
+    - **[Content_Types].xml**
+        ```XML
+        <?xml version="1.0" encoding="UTF-8"?>
+        -<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+        <Default ContentType="application/octet-stream" Extension="xml"/>
+        </Types>
+        ```
+    - **customizations.xml**
+        ```XML
+        <?xml version="1.0"?>
+        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <Entities/>
+        <Roles/>
+        <Workflows/>
+        <FieldSecurityProfiles/>
+        <Templates/>
+        <EntityMaps/>
+        <EntityRelationships/>
+        <OrganizationSettings/>
+        <optionsets/>
+        <CustomControls/>
+        <EntityDataProviders/>
+        -<EntityAnalyticsConfigs>
+            -<EntityAnalyticsConfig>
+                <parententitylogicalname>account</parententitylogicalname>
+                <isenabledforadls>1</isenabledforadls>
+            </EntityAnalyticsConfig>
+            -<EntityAnalyticsConfig>
+                <parententitylogicalname>contact</parententitylogicalname>
+                <isenabledforadls>1</isenabledforadls>
+            </EntityAnalyticsConfig>
+        </EntityAnalyticsConfigs>
+        -<Languages>
+            <Language>1033</Language>
+        </Languages>
+        </ImportExportXml>
+        ```
+    - **solution.xml**
+        ```XML
+        <?xml version="1.0"?>
+        -<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generatedBy="OnPremise" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.5507">
+        -<SolutionManifest>
+            <UniqueName>ADLSConfigDataTest</UniqueName>
+            -<LocalizedNames>
+                <LocalizedName languagecode="1033" description="ADLSConfigDataTest"/>
+            </LocalizedNames>
+            <Descriptions/>
+            <Version>1.0</Version>
+            <Managed>1</Managed>
+            -<Publisher>
+                <UniqueName>Cr7e230</UniqueName>
+                -<LocalizedNames>
+                    <LocalizedName languagecode="1033" description="CDS Default Publisher"/>
+                </LocalizedNames>
+                <Descriptions/>
+                <EMailAddress xsi:nil="true"/>
+                <SupportingWebsiteUrl xsi:nil="true"/>
+                <CustomizationPrefix>cr926</CustomizationPrefix>
+                <CustomizationOptionValuePrefix>88399</CustomizationOptionValuePrefix>
+                -<Addresses>
+                    -<Address>
+                        <AddressNumber>1</AddressNumber>
+                        <AddressTypeCode xsi:nil="true"/>
+                        <City xsi:nil="true"/>
+                        <County xsi:nil="true"/>
+                        <Country xsi:nil="true"/>
+                        <Fax xsi:nil="true"/>
+                        <FreightTermsCode xsi:nil="true"/>
+                        <ImportSequenceNumber xsi:nil="true"/>
+                        <Latitude xsi:nil="true"/>
+                        <Line1 xsi:nil="true"/>
+                        <Line2 xsi:nil="true"/>
+                        <Line3 xsi:nil="true"/>
+                        <Longitude xsi:nil="true"/>
+                        <Name xsi:nil="true"/>
+                        <PostalCode xsi:nil="true"/>
+                        <PostOfficeBox xsi:nil="true"/>
+                        <PrimaryContactName xsi:nil="true"/>
+                        <ShippingMethodCode xsi:nil="true"/>
+                        <StateOrProvince xsi:nil="true"/>
+                        <Telephone1 xsi:nil="true"/>
+                        <Telephone2 xsi:nil="true"/>
+                        <Telephone3 xsi:nil="true"/>
+                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
+                        <UPSZone xsi:nil="true"/>
+                        <UTCOffset xsi:nil="true"/>
+                        <UTCConversionTimeZoneCode xsi:nil="true"/>
+                    </Address>
+                    -<Address>
+                        <AddressNumber>2</AddressNumber>
+                        <AddressTypeCode xsi:nil="true"/>
+                        <City xsi:nil="true"/>
+                        <County xsi:nil="true"/>
+                        <Country xsi:nil="true"/>
+                        <Fax xsi:nil="true"/>
+                        <FreightTermsCode xsi:nil="true"/>
+                        <ImportSequenceNumber xsi:nil="true"/>
+                        <Latitude xsi:nil="true"/>
+                        <Line1 xsi:nil="true"/>
+                        <Line2 xsi:nil="true"/>
+                        <Line3 xsi:nil="true"/>
+                        <Longitude xsi:nil="true"/>
+                        <Name xsi:nil="true"/>
+                        <PostalCode xsi:nil="true"/>
+                        <PostOfficeBox xsi:nil="true"/>
+                        <PrimaryContactName xsi:nil="true"/>
+                        <ShippingMethodCode xsi:nil="true"/>
+                        <StateOrProvince xsi:nil="true"/>
+                        <Telephone1 xsi:nil="true"/>
+                        <Telephone2 xsi:nil="true"/>
+                        <Telephone3 xsi:nil="true"/>
+                        <TimeZoneRuleVersionNumber xsi:nil="true"/>
+                        <UPSZone xsi:nil="true"/>
+                        <UTCOffset xsi:nil="true"/>
+                        <UTCConversionTimeZoneCode xsi:nil="true"/>
+                    </Address>
+                </Addresses>
+            </Publisher>
+            -<RootComponents>
+                <RootComponent behavior="0" schemaName="account" type="430"/>
+                <RootComponent behavior="0" schemaName="contact" type="430"/>
+            </RootComponents>
+            <MissingDependencies/>
+        </SolutionManifest>
+        </ImportExportXml>
+        ```
+
 ## Add the lead scoring widget to a form
 
 By default, the predictive lead scoring widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for leads, you can display the predictive lead scoring widget on your custom forms by following these steps.
@@ -280,61 +452,58 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 > - Adding lead scoring widgets is only supported in Unified Interface apps.
 > - You can't use the legacy form designer to add a lead scoring widget to a form.
 
-1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
+1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")
 
-    The **Business Management settings** page opens in a new browser tab.
-
-2. Select **Settings** > **Customizations** > **Customize the System**.
-
-3. In the solution explorer, under **Components**, expand **Entities**, and then select **Lead** > **Forms**.
-
-4. Select and open the form to which you want to add the widget.
+2. Search for and select your organization's environment.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select a form](media/pls-select-form.png "Select a form")
+    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
 
-5. In the **Field Explorer** pane, clear the **Only show unused fields** check box.
+3. Select **Data** > **Entities**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Clear the Only show unused fields check box](media/pls-clear-selection-show-unused-fields.png "Clear the Only show unused fields check box")
-
-6. Select and drag the **Lead Score** field to the location you want. In this example, we're dragging it to the **General** section.
+    The **Entities** page opens with the list of entities.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add the Lead score field](media/pls-add-lead-score-field.png "Add the Lead Score field")
+    > ![Entities page with list of entities](media/power-apps-entities-page.png "Entities page with list of entities")
 
-7. Double-click to select the **Lead Score** field to open the **Field Properties** dialog box.
+4. Open the entity, select the **Forms** tab, and then select a main form to add the widget to. In this example, the entity **Lead** is selected and the main form **Lead** is selected.
 
-8. On the **Display** tab, in the **Label** section, clear the **Display label on the form** check box.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Clear the Display label on the form check box](media/pls-clear-selection-display-label.png "Clear the Display label on the form check box")
-
-9. On the **Control** tab, select **Add control**.
-
-    The **Add control** dialog box opens.
-
-10. Select **Predictive lead score**, and then select **Add**.
+    >[!NOTE]
+    >If you're unable to view the entity to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select and add the predictive lead score control](media/pls-select-predictive-lead-score-control.png "Select and add the predictive lead score control")
+    > ![Select the Lead main form on the Forms tab](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
 
-    The **Predictive lead score** control is added.
-
-11. For **Predictive lead score**, select the **Web**, **Phone**, and **Tablet** options, and then select **OK**. 
+5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
     > [!div class="mx-imgBorder"]  
-    > ![Enable options for the predictive lead score control](media/pls-enable-control-options.png "Enable options for the predictive lead score control")
+    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")
 
-    The predictive lead score widget is added to the form.
+7. From the site map, select **Display** > **Predictive score**.
+
+    >[!NOTE]
+    >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form. 
 
     > [!div class="mx-imgBorder"]  
-    > ![The predictive lead score widget is added to the form](media/pls-lead-score-widget-added.png "The predictive lead score widget is added to the form")
+    > ![Select the predictive score widget](media/power-select-predictive-score-widget.png "Select the predictive score widget")
 
-12. Save and publish the form.
+8. In the **Edit predictive score** pop-up window, select **Done**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Select Done to add the predictive score widget](media/power-app-predictive-score-widget-options.png "Select Done to add the predictive score widget")
+
+    The predictive score widget is added to the form, as shown in the following image.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Predictive score widget added to the form](media/power-app-predictive-score-widget-added.png "Predictive score widget added to the form")
+
+    >[!NOTE]
+    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
+
+9. Save and publish the form.
 
 ### See also
 
