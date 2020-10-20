@@ -8,7 +8,7 @@
 
 ## Standalone app
 
-### [Dynamics 365 Customer Service user redirection](ci-user-redirection.md)
+### [Redirection messaging for Customer Service Insights](ci-user-redirection.md)
 
 ### [Quickstart](quickstart.md)
 
