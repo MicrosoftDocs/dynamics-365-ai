@@ -17,7 +17,7 @@ search.appverid: met150
 
 # Customer Service Insights overview
 
-Dynamics 365 Customer Service Insights helps agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligents (AI) and analytics capabilities for Customer Service and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
+Dynamics 365 Customer Service Insights helps agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
 Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
 
