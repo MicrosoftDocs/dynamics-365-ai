@@ -899,6 +899,266 @@
       "source_path": "ai-docs/sales/assistant-tutorial2.md",
       "redirect_url": "configure-assistant#assistant-studio-tutorials",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/activities.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/activities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/apis.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/apis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/azure-machine-learning-experiments.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/azure-machine-learning-experiments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/connect-common-data-model.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/connect-common-data-model",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/connect-common-data-service-lake.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/connect-common-data-service-lake",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/connect-power-query.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/connect-power-query",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/customer-card-add-in.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/customer-card-add-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/customer-profiles.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/customer-profiles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/custom-models.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/custom-models",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/data-sources.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/data-sources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/data-sources-list.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/data-sources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/data-unification.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/data-unification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/enrichment-experian.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/enrichment-experian",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/enrichment-hub.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/enrichment-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/enrichment-leadspace.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/enrichment-leadspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/enrichment-microsoft-graph.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/enrichment-microsoft-graph",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/entities.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/entity-schemas.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/entity-schemas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-azure-blob-storage.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-azure-blob-storage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-destinations.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-destinations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-dynamics365-marketing.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-dynamics365-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-dynamics365-sales.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-dynamics365-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-facebook.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-facebook",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-liveramp.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-liveramp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-power-apps.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-power-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-power-automate.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-power-automate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-power-bi.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-power-bi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-sftp.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-sftp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/export-teams-bot.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/export-teams-bot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/find-similar-customer-segments.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/find-similar-customer-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/gdpr.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/gdpr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/home.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/incremental-refresh-data-sources.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/incremental-refresh-data-sources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/index.yml",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/manage-environments.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/manage-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/map-entities.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/map-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/match-entities.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/match-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/measures.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/measures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/merge-entities.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/merge-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/overview.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/permissions.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/pm-common-connectors.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/connect-power-query",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/predictions.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/predictions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/predict-subscription-churn.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/predict-subscription-churn",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/real-time-data-ingestion.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/real-time-data-ingestion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/relationships.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/relationships",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/search-filter-index.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/search-filter-index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/segment-insights.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/segment-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/segments.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/supported-languages.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/supported-languages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/system.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-insights/whats-new-customer-insights.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/whats-new-audience-insights",
+      "redirect_document_id": false
     }
   ]
 }
