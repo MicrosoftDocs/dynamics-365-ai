@@ -2,7 +2,7 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 10/19/2020
+ms.date: 10/22/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
@@ -27,7 +27,7 @@ Customer Service Insights offerings can help you better understand your organiza
 
 You can access Customer Service Insights dashboards through either the [standalone app](https://csi.ai.dynamics.com) or Dynamics 365 Customer Service Hub. See [Configure Customer Service Insights reports](/dynamics365/customer-service/configure-customer-service-analytics-insights-csh#configure-customer-service-insights-reports) to see how to set up the dashboards and reports in Customer Service Hub.
 
-![Example of KPI summary dashboard](media/kpi-summary.png)
+![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
 For a walkthrough of how to connect to your customer service data to gain insights into your customer support system, see [Quickstart - Get immediate insights into your customer service system's performance](quickstart.md).
 
