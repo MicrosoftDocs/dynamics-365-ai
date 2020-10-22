@@ -107,7 +107,7 @@ Perform the following steps to configure conversation intelligence through the S
 
 2.	Sign in to Dynamics 365 Sales, and go to the **Sales Hub** app.
 
-3.	Select the **change area** ![](media/change-area-icon.png) <!--note from editor: Okay to use the icon here? I thought it would be a nice touch.--> in the lower-left corner of the page, and then select **Sales Insights settings**. 
+3.	Select the **change area** ![change area](media/change-area-icon.png) <!--note from editor: Okay to use the icon here? I thought it would be a nice touch.--> in the lower-left corner of the page, and then select **Sales Insights settings**. 
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
@@ -150,7 +150,7 @@ Perform the following steps to configure conversation intelligence through the S
     > [!div class="mx-imgBorder"]
     > ![Choose and configure your sales team](media/ci-admin-choose-sales-team.png "Choose and configure your sales team")
 
-    You can skip configuring this section and add your sales team later, when required. More information: [Configure sales team information in Sales Hub app](../sales/configure-view-your-team-page.md#configure-sales-team-information-in-sales-hub-app)
+    You can skip configuring this section and add your sales team later, when required. More information: [Configure sales team information in Sales Hub app](../sales/configure-view-your-team-page.md#configure-sales-team-information-in-the-sales-hub-app)
 
 8.	In the **License usage** section, you can view the information about the total call recording processing hours left and used. This information view-only and can't be changed.
 

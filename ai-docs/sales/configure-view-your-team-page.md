@@ -95,7 +95,7 @@ As an administrator or sales manager, you can:
 
 1.	Sign in to Dynamics 365 Sales, and go to the **Sales Hub** app.
 
-2.  Select the **change area** ![](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**. 
+2.  Select the **change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**. 
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
