@@ -6,9 +6,9 @@
 
 ## Service limits in Customer Service Insights
 
-### [Service limits for the embedded Customer Service app](service-limits-embedded-app.md)
+### [Service limits for the Customer Service Insights embedded services](service-limits-embedded-app.md)
 
-### [Service limits for the standalone Customer Service Insights app](service-limits.md)
+### [Service limits for the standalone Customer Service Insights standalone app](service-limits.md)
 
 ## Standalone app
 
