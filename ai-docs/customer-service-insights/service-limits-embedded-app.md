@@ -21,8 +21,8 @@ This article describes the built-in limits to the Customer Service Insights serv
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
 | Cases | 24-month data retention limit. |  |
-| Analytics reports | None currently. | No limits on number of interactions or drill-throughs within reports. |
-| Topics | Three or more related cases for model. | Topics are generated from the 100K+ cases. |
+| Analytics reports | None currently | No limits on number of interactions or drill-throughs within reports. |
+| Topics | Three or more related cases for model | Topics are generated from the 100k+ cases. |
 | Case suggestions | 30 cases |  |
 | Conversation suggestions | 150 conversations | |
-| Data refresh | Once every 24 hours. | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see Information about [Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
+| Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see {Information you need to know about Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
