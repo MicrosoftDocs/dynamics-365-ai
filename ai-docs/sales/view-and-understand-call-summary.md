@@ -70,7 +70,7 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 ## Understand the call summary page
 
-Typically, call summary can be divided into the following sections:
+Typically, a call summary page can be divided into the following sections:
 
 - [Call summary, action items, and keywords](#call-summary-action-items-and-keywords)
 - [Call transcript and translation](#call-transcript-and-translation)
@@ -78,22 +78,33 @@ Typically, call summary can be divided into the following sections:
 
 ### Call summary, action items, and keywords
 
-- **Call summary tab**: Displays the names of the participants along with the KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that are added to the conversation for better searchability.
+- **Call summary tab**:
+    
+    The **Call summary** tab displays the names of the participants along with the KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that are added to the conversation for better searchability.
 
     The following image is an example of the **Call summary** tab:
 
     > [!div class="mx-imgBorder"]
     > ![Call summary tab](media/ci-summary-call-summary.png "Call summary tab")
 
-- **Action items tab**:
+- **Action items tab**: 
 
-Notes: 1. What are sellers required to keep track on after interacting with a customer?
-Actions: 1. Send email (ext) 2. Create task (crm) 3. Scheudle appointment (ext) 4. Schedule a phone call (crm) 5. Share/export all action items (as am email, as notes)
+    The **Action items** tab displays the list of of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline.
+    
+    The actionable items includes: Send an email, set up a meeting, and create a task.
+
+    - **Send an email**: This suggestion is displayed when a seller mentions about sending an email. For example, **Daisy Phillips** is a seller and **Regina Murphy** is a customer and during their call Daisy mentions that she'll send an email to customer service team about the bank holiday request to Regina. The suggestion is displayed as shown in the following image:
+
+        > [!div class="mx-imgBorder"]
+        > ![Call summary tab](media/ci-action-item-send-email.png "Call summary tab")
+
+         
 
 
 
+- **Keywords tab**:
 
-- **Keywords tab**: Displays relevant talking points that were mentioned during the call:
+    The **Keywords** tab displays relevant talking points that were mentioned during the call:
 
     - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.
     - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso. When you select a name, you can see where it was mentioned on the timeline.
@@ -109,7 +120,9 @@ Actions: 1. Send email (ext) 2. Create task (crm) 3. Scheudle appointment (ext) 
 
 ### Call transcript and translation
 
-- **Conversation tab**: Displays the written record of the call and timeline where you can read, comment, and translate.
+- **Conversation tab**:
+    
+    The **Conversation** tab displays the written record of the call and timeline where you can read, comment, and translate.
 
     The following image is an example of the **Conversation** tab:
 
@@ -118,7 +131,7 @@ Actions: 1. Send email (ext) 2. Create task (crm) 3. Scheudle appointment (ext) 
         
     As a manager, you can review the transcript and leave a comment (for example, suggesting how the seller could possibly handle such a situation in the future). 
     
-        As a seller, you can review the transcript and comments that are posted by your manager or coach on the timeline. 
+    As a seller, you can review the transcript and comments that are posted by your manager or coach on the timeline. 
     
     You can provide replies to the comments appropriately. Hover over a specific transcript on the timeline and select **Add comment** to provide necessary replies or self-comments, and then select **Save**.
 
@@ -129,7 +142,9 @@ Actions: 1. Send email (ext) 2. Create task (crm) 3. Scheudle appointment (ext) 
     
     If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
-- **Related opportunity tab**: Allows you to view or add opportunities that are related to the call and this helps other users who are viewing call summary to have an insight on what this conversation is regarding. 
+- **Related opportunity tab**:
+
+    The **Related opportunity** tab allows you to view or add opportunities that are related to the call and this helps other users who are viewing call summary to have an insight on what this conversation is regarding. 
 
     If no opportunity is add to the conversation, select **Search** and add the related opportunity.
     
@@ -143,7 +158,7 @@ The following image is an example of the **Conversation** tab:
 > [!div class="mx-imgBorder"]
 > ![Playback timeline with segmentation](media/ci-summary-playback.png "Playback timeline with segmentation")
 
-The playback timeline displays the sentiments highlighted (such as positive, neutral, and negative). The diamond icons specify the the brands, tracked keywords, and competitors mentioned in the timeline.
+The playback timeline displays the sentiments highlighted (such as positive, neutral, and negative). The diamond icons specify the brands, tracked keywords, and competitors mentioned in the timeline.
 
 You can go to a specific moment on the call by clicking on the timeline. The call transcript will automatically scroll to that moment in the call. You can also pause the call, rewind, forward, and adjust volume as required.
 
