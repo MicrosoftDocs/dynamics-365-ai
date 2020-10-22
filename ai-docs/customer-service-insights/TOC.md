@@ -4,7 +4,11 @@
 
 ## [Customer Service Insights across your organization](ci-insights-across-org.md)
 
-## [Service limits in Customer Service Insights](service-limits.md)
+## Service limits in Customer Service Insights
+
+### [Service limits for the embedded Customer Service app](service-limits-embedded-app.md)
+
+### [Service limits for the standalone Customer Service Insights app](service-limits.md)
 
 ## Standalone app
 
