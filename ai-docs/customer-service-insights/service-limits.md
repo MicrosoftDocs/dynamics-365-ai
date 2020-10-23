@@ -30,9 +30,9 @@ This following table lists the built-in limits for the embedded version of insig
  
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| Date retention | 24 month data retention limit | Reports are limited to case data from the last 24 months. |
+| Date retention | 24-month data retention limit | Reports are limited to case data from the last 24 months. |
 | Dashboard interactions | No limit | No limits on the number of interactions or drill-throughs within reports. |
-| Topics | At least 3 related cases | Topics require at least three semantically related cases for the model to generate topics. |
+| Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see [Information you need to know about Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
 
 
