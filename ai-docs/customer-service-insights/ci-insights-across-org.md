@@ -21,10 +21,10 @@ Customer Service Insights are now available in an embedded experience for Dynami
 For details on the Customer Service offerings, see the following capabilities: 
 
 - [Customer Service Insights](https://docs.microsoft.com/dynamics365/customer-service/introduction-customer-service-analytics)
-- [Dashboards overview](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-analytics-insights-csh)
+- [Dashboards overview](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh)
 - [Customer Service Analytics in Power BI ]( https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics)
-- [Knowledge search analytics](https://docs.microsoft.com/en-us/dynamics365/customer-service/knowledge-search-analytics-cs)
-- [AI suggestions for similar cases and knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
+- [Knowledge search analytics](https://docs.microsoft.com/dynamics365/customer-service/knowledge-search-analytics-cs)
+- [AI suggestions for similar cases and knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
 
 ## Omnichannel for Customer Service
 
