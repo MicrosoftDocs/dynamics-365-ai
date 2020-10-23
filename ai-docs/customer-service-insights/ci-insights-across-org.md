@@ -12,11 +12,11 @@ manager: shujoshi
 
 # Customer Service Insights across your support organization
 
-Customer Service Insights can currently connect with your data from Customer Service Hub, Customer Service workspace, and Omnichannel to provide your support organization with a more complete set of analytics reports.
+Customer Service Insights can currently connect with your data from Dynamics 365 Customer Service and Omnichannel to provide your support organization with a more complete set of analytics reports.
 
 ## Customer Service Applications 
 
-Customer Service Insights are now available in an embedded experience for Customer Service Hub and Workspace. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment, with several pre-made dashboards that can be viewed by across your management team.  
+Customer Service Insights are now available in an embedded experience for Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment, with several pre-made dashboards that can be viewed by across your management team.  
 
 For details on the Customer Service offerings, see the following capabilities: 
 
