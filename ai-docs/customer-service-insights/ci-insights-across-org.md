@@ -28,7 +28,7 @@ For details on the Customer Service offerings, see the following capabilities:
 
 ## Omnichannel for Customer Service
 
-Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. With the sentiment analysis dashboard, you can leverage Omnichannel's [real time sentiment data](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis#preview-sentiment-drivers-reporting) to gain a better understanding of how customer interactions drive KPIs and satisfaction scores. 
+Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. With the sentiment analysis dashboard, you can leverage Omnichannel's [real-time sentiment data](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis#preview-sentiment-drivers-reporting) to gain a better understanding of how customer interactions drive KPIs and satisfaction scores. 
 
 For details on Omnichannel offerings, see the following topics:
 
