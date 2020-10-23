@@ -25,7 +25,7 @@ Customer Service Insights uses AI to automatically group your cases into topics 
 
 Customer Service Insights offerings can help you better understand your organization's performance and needs across multiple applications and areas. To get a deeper look at how Customer Service Insights is working to provide you with a full spectrum service solution, see [Customer Service Insights across your organization](ci-insights-across-org.md). 
 
-You can access Customer Service Insights dashboards through either the [standalone app](https://csi.ai.dynamics.com) or Dynamics 365 Customer Service Hub. See [Configure Customer Service Insights reports](/dynamics365/customer-service/configure-customer-service-analytics-insights-csh#configure-customer-service-insights-reports) to see how to set up the dashboards and reports in Customer Service Hub.
+You can access Customer Service Insights dashboards through either the [standalone app](https://csi.ai.dynamics.com) or Dynamics 365 Customer Service. See [Configure Customer Service Insights reports](https://docs.microsoft.com/dynamics365/customer-service/configure-customer-service-analytics-insights-csh) to see how to set up the dashboards and reports in Dynamics 365 Customer Service.
 
 ![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
