@@ -1,5 +1,5 @@
 ---
-title: "Redirection messaging for Customer Serivce Insights | MicrosoftDocs"
+title: "Redirection messaging for Customer Service Insights | MicrosoftDocs"
 description: "Learn about the redirection messages with information about how to access the newest features of the embedded insights experience."
 ms.date: 10/20/2020
 ms.service: dynamics-365-ai
