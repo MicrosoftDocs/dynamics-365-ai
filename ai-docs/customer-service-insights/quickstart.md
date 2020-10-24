@@ -16,7 +16,7 @@ search.appverid: met150
 
 # Quickstart - Get immediate insights into your customer service system's performance
 
-Dynamics 365 Customer Service Insights lets you quickly connect to your existing Dynamics 365 customer service data to gain immediate insights into your system's performance. You can also explore with sample data.
+Dynamics 365 Customer Service Insights lets you quickly connect to your existing Dynamics 365 customer service data to gain immediate insights into your system's performance. 
 
 > [!NOTE]
 > This standalone experience is moving into Dynamics 365 Customer Service where you can find the same capabilities deeply embedded in the customer service experiences. For more information, see [Customer Service Insights across your support organization](ci-insights-across-org.md). 
