@@ -24,19 +24,19 @@ The following tables outline the limits based on the insights version you are us
 - [Embedded Customer Service Hub and Customer Service workspace limits](#embedded-customer-service-insights-limits)
 - [Standalone app limits](#standalone-customer-service-insights-app-limits)
 
-## Embedded Customer Service Insights limits
+## Service limits
 
 This following table lists the built-in limits for the embedded version of insights in Customer Service Hub and Customer Service workspace.
  
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| Date retention | 24-month data retention limit | Reports are limited to case data from the last 24 months. |
+| Data age limit | 24-month period | Reports are limited to case data from the last 24 months. |
 | Dashboard interactions | No limit | No limits on the number of interactions or drill-throughs within reports. |
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see [Information you need to know about Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
 
 
-## Standalone Customer Service Insights app limits
+## Standalone service limits
 
 This following table lists the built-in limits for the Customer Service Insights standalone app.
  
