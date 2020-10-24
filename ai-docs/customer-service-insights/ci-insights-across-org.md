@@ -12,23 +12,23 @@ manager: shujoshi
 
 # Customer Service Insights across your support organization
 
-Customer Service Insights can currently connect with your data from Dynamics 365 Customer Service and Omnichannel to provide your support organization with a more complete set of analytics reports.
+Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel data to provide your support organization with out-of-box AI and BI capabilities, such as customer service analytics, similar case suggestions and more. Different applications will surface slightly different feature sets, as detailed below..
 
 ## Customer Service Applications 
 
-Customer Service Insights are now available in an embedded experience for Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment, with several pre-made dashboards that can be viewed by across your management team.  
+Customer Service Insights is now an embedded in Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment, with several pre-made dashboards that can be viewed by across your management team.  
 
 For details on the Customer Service offerings, see the following capabilities: 
 
-- [Customer Service Insights](https://docs.microsoft.com/dynamics365/customer-service/introduction-customer-service-analytics)
-- [Dashboards overview](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh)
-- [Customer Service Analytics in Power BI ]( https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics)
+- [Customer Service historical analytics](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh)
+- [Topic clustering for cases](https://docs.microsoft.com/dynamics365/customer-service/topics-dashboard-cs)
+- [Customer Service Analytics in Power BI ](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics)
 - [Knowledge search analytics](https://docs.microsoft.com/dynamics365/customer-service/knowledge-search-analytics-cs)
 - [AI suggestions for similar cases and knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
 
 ## Omnichannel for Customer Service
 
-Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. With the sentiment analysis dashboard, you can leverage Omnichannel's [real-time sentiment data](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis#preview-sentiment-drivers-reporting) to gain a better understanding of how customer interactions drive KPIs and satisfaction scores. 
+Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can leverage Omnichannel's [real-time sentiment data](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis#preview-sentiment-drivers-reporting) to gain a better understanding of how customer interactions drive KPIs and satisfaction scores. 
 
 For details on Omnichannel offerings, see the following topics:
 
