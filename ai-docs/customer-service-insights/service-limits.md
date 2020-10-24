@@ -21,8 +21,8 @@ This article describes the built-in limits to the Customer Service Insights serv
 
 The following tables outline the limits based on the insights version you are using:
 
-- [Embedded Customer Service Hub and Customer Service workspace limits](#embedded-customer-service-insights-limits)
-- [Standalone app limits](#standalone-customer-service-insights-app-limits)
+- [Embedded Customer Service Hub and Customer Service workspace limits](#service-limits)
+- [Standalone app limits](#standalone-service-limits)
 
 ## Service limits
 
