@@ -171,8 +171,8 @@ Relationship analytics is concerned with activities performed by the *people* as
 This table shows how the system finds contacts that have an interest in each type of record. Later, the system will look for activities associated with each contact and decide which of those activities should be included in KPI calculations for that record.  
 
 
-|             | Internal contacts  |  External contacts |
-|-------------|--------------------|--------------------|
+|  Records | Internal contacts  |  External contacts |
+|----------|--------------------|--------------------|
 |   Account   | -   Any [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] user.|-   The **Primary Contact** for the account.<br />-   All contacts in the account's **Contacts** list. |
 | Opportunity | -   The **Owner** of the opportunity record.<br />-   All users in the opportunity's **Sales Team** list. | -   The customer **Contact** listed for the opportunity.<br />-   All contacts in the opportunity's **Stakeholders** list.<br />-   The primary contact for the related **Account** record. |
 |    Lead     | -   The **Owner** of the lead record. | -   Contact information in the lead's **Contact** section.<br />-   All contacts in the lead's **Stakeholders** list. |
@@ -210,8 +210,8 @@ Here are a few examples of how the rules outlined in the previous sections might
 
 After the system has found all the relevant activities, it's ready to calculate the KPIs and other analytics for each record. The following table summarizes the KPIs that are available.  
 
-||Initiated or completed by your team|Initiated or completed by the customer's team|  
-|-|-----------------------------------------|---------------------------------------------------|  
+|Activity type|Initiated or completed by your team|Initiated or completed by the customer's team|  
+|-------------|-----------------------------------------|---------------------------------------------------|  
 |Emails|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies<br /><br /> Interaction results for followed emails (opens, attachment views, and link views)|  
 |Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
 |Phone calls|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|  
