@@ -23,7 +23,7 @@
 #### [Configure notes analysis](configure-notes-analysis.md)
 
 ### Configure Connection insights
-#### [Configure relationship analytics](configure-relationship-analytics.md)
+#### [Configure relationship analytics and health](configure-relationship-analytics.md)
 #### [Configure talking points](configure-talking-points.md)
 #### [Configure who knows whom](configure-who-knows-whom.md)
 

@@ -116,18 +116,11 @@ You can view complete relationship analytics for an individual record, including
 
 ## Relationship analytics with similar opportunities 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
-
-Enhanced relationship analytics is provided to you as a preview. An administrator must enable the feature before you can start using it. More information: [step 5 in Configure Relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview)
-
 The current relationship analytics provides information such as graphs, KPIs, email interaction history, full activity history, and relationship health. This information doesn't offer a comparison with similar deals that were won, what's working, or what isn't working in the deal's engagement practices.
 
 As a seller, it's important for you to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that were won. Also, a list of similar deals that were won is displayed at the bottom. By opening the deals, you can learn what has worked and what didn't work, and implement these learnings in the deal you're currently trying to close.
+
+An administrator must enable the feature before you can start using it. More information: [step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview)
 
 The following screen is an example of enhanced relationship analytics:
 
@@ -220,14 +213,14 @@ After the system has found all the relevant activities, it's ready to calculate 
 ||Initiated or completed by your team|Initiated or completed by the customer's team|  
 |-|-----------------------------------------|---------------------------------------------------|  
 |Emails|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies<br /><br /> Interaction results for followed emails (opens, attachment views, and link views)|  
-|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /><!-- Total time spent by you (not multiplied by the number of team members)<br />--> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
+|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
 |Phone calls|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|  
 |Overall (all activities)|Total time spent|Total time spent|  
 
 > [!NOTE]
 > Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [View message interactions with email engagement](email-engagement.md)  
 
- For KPIs that report <!--time spent by you,--> your team and your customer, the system finds durations by applying the rules outlined in the following table:  
+ For KPIs that report your team and your customer, the system finds durations by applying the rules outlined in the following table:  
 
 |Activity type|Source of duration value|  
 |-------------------|------------------------------|  
@@ -238,10 +231,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 
 > [!TIP]
 > The time calculations for appointments are bit special. The details are given in the previous tables, but here's an example to illustrate it.  
-> 
 > If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
-> 
-> <!-- - **Time spent by me**: *30 minutes* (the appointment was 30 minutes) --> 
 > - **Time spent by my team**: *90 minutes* (30 min. × 3 team members present)  
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)  
 
