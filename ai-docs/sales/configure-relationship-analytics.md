@@ -50,7 +50,7 @@ To configure relationship analytics, follow these steps:
 
     By enabling this option, users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.
 
-    If you don't want to view the similar opportunites in your organization, you can select the toggle and disable. The older version of relationship analytics is available for users.
+    If you don't want to view the similar opportunities in your organization, you can select the toggle and disable. The older version of relationship analytics is available for users.
 
     For newly configured organizations, the enhanced relationship analytics is available by default for contacts, opportunities, leads, and accounts.
 
