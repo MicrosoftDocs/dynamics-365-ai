@@ -23,7 +23,7 @@ During their workday, sellers need to juggle multiple tasks as they work on mult
 
 The Sales accelerator work list gives sellers the following capabilities:
 
-- Manage and view records&mdash; leads and opportunities&mdash;that include the activities that are due to be performed that day, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)
+- Manage and view records&mdash;leads and opportunities&mdash;that include the activities that are due to be performed that day, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)
 
 - Manage the work list by sorting, filtering, and grouping all records. More information: [Filter records in the work list](#filter-records-in-work-list)
 
@@ -66,76 +66,74 @@ The work list displays a list of records that are assigned to you or to the secu
     | Number | Feature | Description |
     |--------|---------|-------------|
     | 1 | **Filter, sort, group records** | You can filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter records in work list ](#filter-records-in-work-list)<br>By using the lookup icon, you can search for a specific record by using the record name. Also, you can filter the records according to the due date: select the calendar icon, and then select **By Today** or **From Tomorrow**.<br>Refresh the list after you complete an activity on a record and the record will be removed from the list.|
-    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. You must perform and complete the activities on these records from the current date and from previous dates.<br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Select the record to view more information.<br>You can perform the specified activity for the record by selecting the activity icon in the record. More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md)<br>When you complete an activity on the record, select the refresh icon, the list will be refreshed, and the record will be removed from the list.<br>**Note**: The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
+    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a Blue vertical bar on the right. You must perform and complete the activities on these records from the current date and from previous dates.<br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Select the record to view more information.<br>You can perform the specified activity for the record by selecting the activity icon in the record. More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md)<br>When you complete an activity on the record, select the refresh icon, the list will be refreshed, and the record will be removed from the list.<br>**Note**: The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date. More information: [Understand the Up next widget](#understand-the-up-next-widget)|
     
 ## Filter records in the work list<a name="filter-records-in-work-list"></a>
 
-Use filters to prioritize the records in the work list so you can reach customers at the right time. The work list provides the following filtering mechanisms to prioritize records:
+Use filters to prioritize the records in the work list so you can reach customers at the right time. The following screen provides the list of options that are available to filter work list:
 
-- [Filter by](#filter-by)
+> [!div class="mx-imgBorder"]
+> ![Work list filter options](media/sa-worklist-filter-options.png "Work list filter options")
 
-- [Group by](#group-by)
+let's understand the filter options in detail:
 
-- [Sort by](#sort-by)
+- **Unopened**: Select the option to filter the list to view records that are not opened or unread.
+- **Followed**: Select the option to  filter the list to view records that are followed by you.
+- **Overdue**: Select the option to  filter the list to view records with pending tasks that are not completed on time.
+- **More filters**: Select the options to filter the list by selecting the entity and activity types. When you select the filters, the list is refreshed to display the filtered records.    
+    - The **Record type** filter options are **Lead** and **Opportunity**. You can select both options to view all records, or you can select an individual entity to view only the records that belong to that entity.
 
-### Filter by
+        Select at least one option to display relevant records in the work list. If no records match your selected entity type, an empty list is displayed.
 
-Filter the list by selecting the entity and activity types. When you select the filters, the list is refreshed to display the filtered records.
+        By default, all filter options are selected.
+
+    - The **Activity type** filter options are **Call**, **Email**, and **Task**. You can select all or any specific option to filter the records to display in the work list.
+
+        Select at least one option to display relevant records in the work list. If no records match your selected activity type, an empty list is displayed.
+
+        By default, all filter options are selected.
+
+    For example, when you select the entity type as **Lead** and the activity type as **Call**, the work list displays only the lead records that include call activities.
+
+- **Sort**: Select the options to organize records into groups selecting a **Sort by** type and display the records in the order of sort by choosing a **Sort order** option. 
+
+    - **Due date**: When you select this option, the records in the work list are sorted according to the due time before which an activity must be completed. You can select the sort order as: 
+
+        - **Due soonest on top** to view the records that include activities that have passed their due date, sorted from the longest time past due to the shortest.
+
+        - **Due latest on top** to view the records that include activities with the most recent due times, sorted from the most recent to the oldest.
+
+        For example, there are 10 records available in your work list. The number of records for which you need to complete the activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option to sort by and **Newest on top** for the sort order, the records are sorted from the newest to oldest activity completion date into **Today**, **Yesterday**, and **Last 7 days**.
+
+        By default, **Due date** and **Due soonest on top** are selected for sort.
+
+    - **Score**: When you select this option, the records in the work list are sorted according to the priority score assigned to each task. You can select the sort order as:
+
+        - **Highest on top** to view the records in descending order, with the highest score on top.
+
+        - **Lowest on top** to view the records in ascending order, with the lowest score on top.
+
+        For example, you have records with priority scores 95, 92, 89,45, 54, and 73. When you select the **Priority score** option to sort by and **Highest on top** for the sort order, records are sorted by priority in descending order, with the record that has highest score (95) on top.
+
+    - **Name**: When you select this option, the records in the work list are sorted according to the record name. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order. 
+
+    - **Activity type**: When you select this option, the records in the work list are sorted according to the source of the activities: **Sequence** and **Manual**. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+
+    - **Record type**: When you select this option, the records in the work list are sorted according to **Call**, **Email**, and **Task** activity types. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+
+    - **Sequence name**: When you select this option, the records in the work list are sorted according to the name of the sequence that is assigned.  You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+
+- **Settings**: Using the work list settings, you can choose what must happen to a record when a step is completed or skipped. Select **Settings** and on the **Work list settings** dialog box choose the following options:
+
+    | Option | Description |
+    |--------|-------------|
+    | Ask before moving to the next work item | Select this option to display a confirmation message to whether to go to the next in-line record or stay on the same record after you complete or skip.<br>![Confirmation message whether to move to next record or stay on the same record](media/sa-worklist-filter-settings-confirmation-message.png "Confirmation message whether to move to next record or stay on the same record") |
+    | Automatically go to the next work item | Select this option to go to the next in-line record after you complete or skip the step on the current record. |
+    | Stay on the same record | Select this option to remain on the same record even after you complete or skip the step. By default, this option is selected for both **When I mark a step as complete** and **When I skip a step**.|
     
-- The **Entity type** filter options are **Lead** and **Opportunity**. You can select both options to view all records, or you can select an individual entity to view only the records that belong to that entity.
-
-    You must select at least one option to display relevant records in the work list. If no records match your selected entity type, an empty list is displayed.
-
-    By default, all filter options are selected.
-
-- The **Activity type** filter options are **Call**, **Email**, and **Task**. You can select all or any specific option to filter the records to display in the work list.
-
-    You must select at least one option to display relevant records in the work list. If no records match your selected activity type, an empty list is displayed.
-
-    By default, all filter options are selected.
-
-For example, when you select the entity type as **Lead** and the activity type as **Call**, the work list displays only the lead records that include call activities.<!--Edit okay?-->
-
-### Group by
-
-Organize records into groups by selecting a group type. In the header, you can see the total number of records available in each group. You can select the group type as:
-
-- **Due time**: When you select this option, the records in the work list are grouped according to the time that an activity must be completed by. 
-
-    For example, there are ten records in your work list. The number of records for which you need to complete activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option, the records are grouped as **Today**, **Yesterday**, and **Last 7 days**. 
-
-    By default, **Due time** is selected to group the records.
-
-- **Entity type**: When you select this option, the records in the work list are grouped into **Leads** and **Opportunities**.
-
-- **Activity type**: When you select this option, the records in the work list are grouped into **Call**, **Email**, and **Task** activity types.
-
-- **Activity source**: When you select this option, the records in the work list are grouped into the source of the activities: **Sequence** and **Manual**.
-
-### Sort by
-
-Sort records by choosing a sort option. In the header, you can see the total number of records available in each sort order. You can select the sort option as:
-
-- **Due time**: When you select this option, the records in the work list are sorted according to the due time before which an activity must be completed. You can select the sort order as: 
-
-    - **Oldest on top** to view the records that include activities that have passed their due date, sorted from the longest time past due to the shortest.
-
-    - **Newest on top** to view the records that include activities with the most recent due times, sorted from the most recent to the oldest.
-
-    For example, there are ten records available in your work list. The number of records for which you need to complete the activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option to sort by and **Newest on top** for the sort order, the records are sorted from the newest to oldest activity completion date into **Today**, **Yesterday**, and **Last 7 days**.
-
-    By default, **Due time** and **Newest on top** are selected for sort order.
-
-- **Priority score**: When you select this option, the records in the work list are sorted according to the priority score assigned to each task. You can select the sort order as:
-
-    - **Lowest on top** to view the records in ascending order, with the lowest score on top.
-
-    - **Highest on top** to view the records in descending order, with the highest score on top.
-
-    For example, you have records with priority scores 95, 92, 89,45, 54, and 73. When you select the **Priority score** option to sort by and **Highest on top** for the sort order, records are sorted by priority in descending order, with the record that has highest score (95) on top.
-
-- **Name**: When you select this option, the records in the work list are sorted according to the record name. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+    > [!div class="mx-imgBorder"]
+    > ![Work list settings](media/sa-worklist-filter-settings.png "Work list settings")  
 
 ## Understand the Up next widget
 
