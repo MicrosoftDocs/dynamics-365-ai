@@ -23,7 +23,7 @@ During their workday, sellers need to juggle multiple tasks as they work on mult
 
 The Sales accelerator work list gives sellers the following capabilities:
 
-- Manage and view records&mdash;leads and opportunities&mdash;that include the activities that are due to be performed that day, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)
+- Manage and view records&mdash;leads and opportunities&mdash;that include the activities that are due in the last 30 days to be performed, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)
 
 - Manage the work list by sorting, filtering, and grouping all records. More information: [Filter records in the work list](#filter-records-in-work-list)
 
@@ -31,7 +31,7 @@ The Sales accelerator work list gives sellers the following capabilities:
 
 - Communicate with customers through phone and email. More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md)
 
-- Add manual activities to records in addition to those that have been defined in a sequence, if an ad-hoc activity is required. More information: [Add manual tasks to records](#add-manual-tasks-to-records)
+- Add manual activities to records in addition to those that have been defined in a sequence, if an ad-hoc activity is required. More information: [Add manual activities to records](#add-manual-activities-to-records)
 
 > [!NOTE]
 > The work list is configured by a sales manager who defines the sequence of activities for leads and opportunities by using the sequence designer. More information: [Create and manage sequences](create-manage-sequences.md)
@@ -65,8 +65,8 @@ The work list displays a list of records that are assigned to you or to the secu
 
     | Number | Feature | Description |
     |--------|---------|-------------|
-    | 1 | **Filter, sort, group records** | You can filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter records in work list ](#filter-records-in-work-list)<br>By using the lookup icon, you can search for a specific record by using the record name. Also, you can filter the records according to the due date: select the calendar icon, and then select **By Today** or **From Tomorrow**.<br>Refresh the list after you complete an activity on a record and the record will be removed from the list.|
-    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a Blue vertical bar on the right. You must perform and complete the activities on these records from the current date and from previous dates.<br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more option and the task to perform.<br> Select **More options** to follow the record and change the state of the record to unread or read. <br> Select the activity icon to perform the specified activity for the record in the **UP next** widget.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br> More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md). <br>When you complete an activity on the record, select the refresh icon, the list will be refreshed, and the record will be removed from the list.<br>**Note**: The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
+    | 1 | **Filter, sort, group records** | You can filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter records in work list ](#filter-records-in-work-list)<br>By using the lookup icon, you can search for a specific record by using the record name. Also, you can filter the records according to the due date: select the calendar icon, and then select **By Today** or **From Tomorrow**. |
+    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a Blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options and the activity to perform.<br> Select **More options** to follow the record and change the state of the record to unread or read. <br> Select the activity icon to perform the specified activity for the record.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br> More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md). <br>When you complete an activity on the record, select the refresh icon, the list will be refreshed, and the record will be removed from the list.<br>**Note**: The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date. More information: [Understand the Up next widget](#understand-the-up-next-widget)|
     
 ## Filter records in the work list<a name="filter-records-in-work-list"></a>
@@ -100,9 +100,9 @@ let's understand the filter options in detail:
 
     - **Due date**: When you select this option, the records in the work list are sorted according to the due time before which an activity must be completed. You can select the sort order as: 
 
-        - **Due soonest on top** to view the records that include activities that have passed their due date, sorted from the longest time past due to the shortest.
+        - **Due soonest on top** to view the records that include activities with the most recent due times, sorted from the most recent to the oldest.
 
-        - **Due latest on top** to view the records that include activities with the most recent due times, sorted from the most recent to the oldest.
+        - **Due latest on top** to view the records that include activities that have passed their due date, sorted from the longest time past due to the shortest.
 
         For example, there are 10 records available in your work list. The number of records for which you need to complete the activities within the due time are as follows: three for today, four from yesterday, and three from this week. When you select the **Due time** option to sort by and **Newest on top** for the sort order, the records are sorted from the newest to oldest activity completion date into **Today**, **Yesterday**, and **Last 7 days**.
 
@@ -118,11 +118,11 @@ let's understand the filter options in detail:
 
     - **Name**: When you select this option, the records in the work list are sorted according to the record name. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order. 
 
-    - **Activity type**: When you select this option, the records in the work list are sorted according to the source of the activities: **Sequence** and **Manual**. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+    - **Activity type**: When you select this option, the records in the work list are sorted into **Call**, **Email**, and **Task** activity types. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
 
-    - **Record type**: When you select this option, the records in the work list are sorted according to **Call**, **Email**, and **Task** activity types. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+    - **Record type**: When you select this option, the records in the work list are grouped into **Leads** and **Opportunities**. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
 
-    - **Sequence name**: When you select this option, the records in the work list are sorted according to the name of the sequence that is assigned.  You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
+    - **Sequence name**: When you select this option, the records in the work list are sorted according to the name of the sequence that is assigned. If you have added activities manually to a record without sequences, then these records appear under **No sequence** group. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
 
 - **Settings**: Using the work list settings, you can choose what must happen to a record when a step is completed or skipped. Select **Settings** and on the **Work list settings** dialog box choose the following options:
 
@@ -141,7 +141,7 @@ Using the **Up next** widget, you can view and perform actions on activities on 
 
 - In a sequence, a sales manager creates activities and applies them to the record according to business requirements. The activities in the sequence are displayed in the **Up next** widget.
 
-- For manual tasks, you or a sales manager can create a task on the timeline. The task is displayed in the **Up next** widget as an activity, depending on its due time. This activity is available to you and other sellers who have access to the record.
+- For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as an activity, depending on its due time. This activity is available to you and other sellers who have access to the record.
 
 The following image shows an example of the **Up next** widget.
 
@@ -163,11 +163,11 @@ The following image shows an example of the **Up next** widget.
     > [!div class="mx-imgBorder"]
     > ![View completed activities](media/sa-view-completed-activities.png "View completed activities")
 
-## Add manual tasks to records
+## Add manual activities to records
 
 Using the sequence, your sales manager can define activities for you such as email, phone calls, and tasks. To meet business requirements, you might have to add extra activities to a lead or an opportunity. You can manually add activities for leads and opportunities to appear in the **Up next** widget in addition to activities defined in the sequence for a given day. The manual activities include email, phone calls, and tasks.
 
-The characteristics of manual activities are similar to an activity defined in a sequence. Sellers must perform the task and mark it as complete. Then the activity will be moved to the list of completed activities in the **Up next** widget. A sales manager or you, as a seller, can add the manual activity to the records that you or your security role owns.
+The characteristics of manual activities are similar to an activity defined in a sequence. Sellers must perform the activity and mark it as complete. Then the activity will be moved to the list of completed activities in the **Up next** widget. A sales manager or you, as a seller, can add the manual activity to the records that you or your security role owns.
 
 **To add a manual activity**
 
@@ -175,7 +175,7 @@ The characteristics of manual activities are similar to an activity defined in a
 
 2. From the site map, under **My Work**, select **Sales accelerator (preview)**. 
 
-3. Select the record for which you want to add the manual task from the work list.
+3. Select the record for which you want to add the manual activity from the work list.
 
 4. In the **Timeline** section, select the plus (+) icon.
 
