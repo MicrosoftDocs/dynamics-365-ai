@@ -121,6 +121,9 @@ Every organization has its own selling processes for sellers to follow. A sequen
 9. Select **More options** in the upper-right corner of the page, and then select **Save**.
 
 10. Select **More options** again, and then select **Activate** to activate the sequence.
+
+    >[!NOTE]
+    >At a time, you can have upto 250 active sequences in your organization. 
     
 11. Select **Yes** in the confirmation message that appears.
 
