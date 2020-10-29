@@ -20,7 +20,7 @@ manager: shujoshi
 
 As a seller using Dynamics 365 Sales, you can connect with your customers daily by using multiple channels, such as phone and email, without losing context or needing to switch among multiple applications. When an activity for contacting customers through a phone call or email appears in a sequence, the corresponding phone or email icons are displayed in your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) record and the [Up next](prioritize-sales-pipeline-through-work-list.md#understand-the-up-next-widget) widget. After you make the phone call or send the email, you mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
 
-If an activity isn't required to be completed by the due date or you're unable to connect with a customer, you can [skip or postpone the activity](#skip-or-postpone-an-activity).
+If an activity isn't required to be completed by the due date or you're unable to connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity).
 
 ## Call a customer
 
@@ -74,11 +74,11 @@ Do either of the following:
     > [!div class="mx-imgBorder"]
     > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
 
-## Skip or postpone an activity
+## Skip or snooze an activity
 
 You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
 
-If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can postpone the activity, and select a new date and time to connect with the customer. Note that you can't postpone a manual task.
+If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. Note that you can't snooze a manual task.
 
 **To skip an activity**
 
@@ -91,14 +91,14 @@ If you're unable to connect with a customer by the due date&mdash;but still need
 
 The activity is skipped, and the next activity in the sequence is displayed.
 
-**To postpone an activity**
+**To snooze an activity**
 
-1. In the **Up next** widget, go to the activity you want to postpone.
+1. In the **Up next** widget, go to the activity you want to snooze.
 
-2. Select **More actions** > **Postpone**.
+2. Select **More actions** > **Snooze**.
 
     > [!div class="mx-imgBorder"]
-    > ![Postpone an activity](media/postpone-activity.png "Postpone an activity")
+    > ![Snooze an activity](media/postpone-activity.png "Snooze an activity")
 
 3. Select the new date and time by which the activity should be completed.
 
