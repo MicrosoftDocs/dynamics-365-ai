@@ -1,7 +1,7 @@
 ---
 title: "View and understand the status of prediction column in a forecast | MicrosoftDocs"
 description: "View and understand the status of prediction column in a forecast."
-ms.date: 08/01/2020
+ms.date: 10/26/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # View prediction model status 
-
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
 You can view the details of the prediction model, such as last predicted date and errors in a forecast. After a model is generated, an icon is displayed corresponding to the **Prediction** column in the [layout configuration step](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast) of a forecast. Based on the icon, you can determine whether the model was successful.
 

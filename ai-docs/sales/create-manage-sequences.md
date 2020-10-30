@@ -1,7 +1,7 @@
 ---
 title: "Create and manage sequences with Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to create and manage sequences with Dynamics 365 Sales Insights."
-ms.date: 04/01/2020
+ms.date: 10/26/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -121,6 +121,9 @@ Every organization has its own selling processes for sellers to follow. A sequen
 9. Select **More options** in the upper-right corner of the page, and then select **Save**.
 
 10. Select **More options** again, and then select **Activate** to activate the sequence.
+
+    >[!NOTE]
+    >At a time, you can have upto 250 active sequences in your organization. 
     
 11. Select **Yes** in the confirmation message that appears.
 
