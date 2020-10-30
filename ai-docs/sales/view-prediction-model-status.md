@@ -1,7 +1,7 @@
 ---
 title: "View and understand the status of prediction column in a forecast | MicrosoftDocs"
 description: "View and understand the status of prediction column in a forecast."
-ms.date: 08/01/2020
+ms.date: 10/26/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang

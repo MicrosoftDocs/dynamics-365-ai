@@ -1,7 +1,7 @@
 ---
 title: "Understand how to view snapshots for a forecast in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Understand how to view snapshots for a forecast in Dynamics 365 Sales Insights"
-ms.date: 08/01/2020
+ms.date: 10/26/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

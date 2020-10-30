@@ -1,7 +1,7 @@
 ---	
 title: "Analyze deals flow between snapshots in Dynamics 365 Sales Insights | MicrosoftDocs"	
 description: "Analyze deals flow between snapshots in Dynamics 365 Sales Insights."	
-ms.date: 08/01/2020	
+ms.date: 10/26/2020	
 ms.service: crm-online
 ms.custom: 	
 ms.topic: article	
@@ -29,7 +29,8 @@ Review the following prerequisite before you start using deals flow analysis:
     A sankey chart is displayed with a comparison between two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.	
 
     > [!div class="mx-imgBorder"]	
-    > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 	
+    > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
+
 4.	To compare snapshots, choose a **Start** and **End** dates from the calendar. The start date should always be older than the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
 
     > [!div class="mx-imgBorder"]	
@@ -56,6 +57,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
     > [!div class="mx-imgBorder"]	
     > ![Underlying opportunities of a forecast category](media/predictive-forecasting-deal-underlying-opportunities-forecast-category.png "Underlying opportunities of a forecast category")	
+
     You can't edit the opportunities inline. However, in the **Action** column, select the navigate icon corresponding to the opportunity that you want to edit and the opportunity is opened in a browser tab. The saved changes won't affect the status of the opportunity in the snapshot, because the snapshots are taken at a moment in time by using frozen data.	
 
 ### Whose deals flow am I viewing?	

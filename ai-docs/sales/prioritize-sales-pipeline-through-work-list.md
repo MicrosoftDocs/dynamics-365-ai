@@ -1,7 +1,7 @@
 ---
 title: "Understand how to prioritize your sales pipeline through the work list in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Prioritize your sales pipeline by using the work list in Dynamics 365 Sales Insights."
-ms.date: 04/01/2020
+ms.date: 10/30/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
