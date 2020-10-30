@@ -68,5 +68,5 @@ For a snapshot, you can view the underlying opportunities of a column or the use
 ### See also
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
-[Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>
+[Take snapshots automatically](manage-snapshots-forecast.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)

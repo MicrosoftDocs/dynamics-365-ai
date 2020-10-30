@@ -58,7 +58,7 @@ Consider the following before you start using predictive forecasting, you must h
 
 ### Snapshots
 
-Sales organizations can use snapshots to "freeze" forecast data at a moment in time. To learn more about how to use snapshots and how deals flow between two snapshots, see [Manage snapshots for a forecast](manage-snapshots-forecast.md) and [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
+Sales organizations can use snapshots to "freeze" forecast data at a moment in time. To learn more about how to use snapshots and how deals flow between two snapshots, see [Take snapshots automatically](manage-snapshots-forecast.md) and [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
 
 ### Trend chart
 
@@ -74,6 +74,6 @@ The flow chart provides a visual representation of how the forecast changes betw
 
 ### See also
 
-[Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>
+[Take snapshots automatically](manage-snapshots-forecast.md)<br>
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)<br>
 [Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)

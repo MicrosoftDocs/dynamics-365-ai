@@ -32,7 +32,7 @@
 #### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 #### [Premium forecasting](configure-premium-forecasting.md)
 #### [View prediction model status](view-prediction-model-status.md)
-#### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
+#### [Take snapshots automatically ](manage-snapshots-forecast.md)
 
 ### Configure Sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
@@ -81,7 +81,6 @@
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 #### [View snapshots](view-snapshots.md)
-
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
