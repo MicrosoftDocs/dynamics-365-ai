@@ -51,8 +51,6 @@ Viewing a snapshot allows you to see and understand the data of the forecast at 
 
 ## View snapshot history in early access
 
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
-
 You can view a snapshot to see and understand the data of the forecast at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 
 >[!NOTE]

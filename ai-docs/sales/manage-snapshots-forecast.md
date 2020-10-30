@@ -12,9 +12,6 @@ manager: shujoshi
 
 # Manage snapshots for a forecast
 
->[!NOTE]
->If you have opted in for early access, follow the process as specified in [Take snapshots automatically in early access](#take-snapshots-automatically-in-early-access).
-
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time.
 
 To visualize the flow of forecast data between two snapshots, use a flow chart. To learn more, see [Analyze deals flows between snapshots](analyze-deals-flow-between-snapshots.md).
@@ -23,7 +20,7 @@ To visualize the flow of forecast data between two snapshots, use a flow chart. 
 
 Review the following prerequisites before you start using snapshots:
 
--	Purchase a Dynamics 365 Sales Insights license or start a trial to use advanced Sales Insights features.
+-	Purchase a sales premium license, Dynamics 365 Sales Insights license, or start a trial to use advanced Sales Insights features.
 
 -	Only users who have the security roles required to create and write in the forecast configuration can create snapshots. To learn more, see [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
 
@@ -91,8 +88,6 @@ The snapshot list is refreshed to display the added snapshot, and you can verify
 The snapshot list is refreshed, and the deleted snapshot is removed from the list.
 
 ## Take snapshots automatically in early access
-
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time. 
 
