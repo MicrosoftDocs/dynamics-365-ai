@@ -30,7 +30,8 @@
 ### Configure Predictive models
 #### [Predictive lead scoring](configure-predictive-lead-scoring.md)
 #### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
-#### [Premium forecasting](configure-premium-forecasting.md)
+
+### [Configure premium forecasting](configure-premium-forecasting.md)
 #### [View prediction model status](view-prediction-model-status.md)
 #### [Take snapshots automatically ](manage-snapshots-forecast.md)
 
@@ -77,6 +78,8 @@
 ###	Predictive models
 #### [Prioritize leads using predictive scores](work-predictive-lead-scoring.md)
 #### [Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)
+
+### Premium forecasting
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
