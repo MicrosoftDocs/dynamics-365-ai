@@ -72,6 +72,11 @@
           "Dynamics 365",
           "AI apps",
           "AI for Customer Insights"
+        ],
+        "sales/**.*": [
+          "Dynamics 365",
+          "AI apps",
+          "Sales Insights"
         ]
       },
       "search.app": {
