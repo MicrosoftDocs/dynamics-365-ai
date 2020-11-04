@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary in conversation intelligence | MicrosoftDocs"
 description: "View and understand call summary in conversation intelligence."
-ms.date: 04/09/2020
+ms.date: 11/06/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
