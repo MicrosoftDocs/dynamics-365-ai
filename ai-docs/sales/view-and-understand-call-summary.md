@@ -11,13 +11,6 @@ manager: shujoshi
 
 # View and understand call summary  
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
-
 Sellers and their managers need an easy way to review their conversations with their customers and quickly find relevant talking points, keywords, and insights.
 
 The call summary page provides a high-level view of how the call went, and includes signals (such as identified action items and relevant keywords mentioned), the call timeline, a transcript, and more.
