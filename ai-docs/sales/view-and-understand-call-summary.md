@@ -91,18 +91,24 @@ Typically, a call summary page can be divided into the following sections:
 
     The **Action items** tab displays the list of of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline.
     
-    The actionable items includes: Send an email, set up a meeting, and create a task.
+    The actionable items includes: Send an email, set up a meeting, create a task, and set up a call.
 
     - **Send an email**: This suggestion is displayed when a seller mentions about sending an email. For example, **Daisy Phillips** is a seller and **Regina Murphy** is a customer and during their call Daisy mentions that she'll send an email to customer service team about the bank holiday request to Regina. The suggestion is displayed as shown in the following image:
 
         > [!div class="mx-imgBorder"]
         > ![Call summary tab](media/ci-action-item-send-email.png "Call summary tab")
 
-         
+    - **Set up a meeting**:
+
+
+    - **Create a task**:
+
+
+    - **Set up a call**:                 
 
 
 
-- **Keywords tab**:
+- **Highlights tab**:
 
     The **Keywords** tab displays relevant talking points that were mentioned during the call:
 
