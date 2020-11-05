@@ -44,7 +44,7 @@ When you hover over the information icon on the column header, the last recalcul
 Select a value in the prediction column to display the **Prediction details** pane.
 
 > [!div class="mx-imgBorder"]
-> ![Prediction details](media/predictive-forecasting-prediction-details.png "Prediction details")
+> ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")
 
 The prediction details graph consists of the following values:  
 -	**Closed won**: Total actual revenue of opportunities that have been closed as won during the current forecast period.  
@@ -52,7 +52,10 @@ The prediction details graph consists of the following values:
 -	**Predicted from new**: Total estimated revenue from new opportunities that are predicted to close during the current forecasting period and are contributing to the prediction.   
 -	**Total prediction**: Total predicted amount for the current forecasting period.
 
-The top factors that influence prediction are displayed below the graph. These factors help you to understand the key points of the graph that is displayed in the Prediction details pane. You can see up to five top factors that are influencing the prediction. The top factors are categorized into three types:  
+The top factors that influence prediction are displayed below the graph. These factors help you to understand the key points of the graph that is displayed in the Prediction details pane. You can see up to five top factors that are influencing the prediction.  
+>[!NOTE]
+>Administrator or forecast manager must [enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).  
+The top factors are categorized into three types:  
 -	A Green icon with upward trend represents a positive influencing factor.  
 -	A Red icon with downward trend represents a negative influencing factor.  
 -	A Grey icon with left arrow represents a neutral influencing factor.  
@@ -64,4 +67,5 @@ Similarly, the negative influencing factor is that 22% of opportunities are pred
 
 ### See also
 
-[About premium forecasting](configure-premium-forecasting.md)
+[About premium forecasting](configure-premium-forecasting.md)  
+[Enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors)
