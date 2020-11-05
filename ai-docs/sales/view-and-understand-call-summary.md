@@ -53,15 +53,11 @@ Typically, a call summary page can be divided into the following sections:
 
 ### Call summary, action items, and keywords
 
-- **Call summary tab**:      
-    The **Call summary** tab displays the names of the participants along with the KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that are added to the conversation for better searchability.  
-    The following image is an example of the **Call summary** tab:  
+- **Call summary tab**: The **Call summary** tab displays the names of the participants along with the KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that are added to the conversation for better searchability. The following image is an example of the **Call summary** tab:  
     > [!div class="mx-imgBorder"]
     > ![Call summary tab](media/ci-summary-call-summary.png "Call summary tab")
 
-- **Action items tab**:  
-    The **Action items** tab displays the list of of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline.      
-    The actionable items includes: Send an email, set up a meeting, create a task, and set up a call.  
+- **Action items tab**: The **Action items** tab displays the list of of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline. The actionable items includes: Send an email, set up a meeting, create a task, and set up a call.  
     - **Send an email**: This suggestion is displayed when a seller mentions about sending an email. For example, **Daisy Phillips** is a seller and **Regina Murphy** is a customer and during their call Daisy mentions that she'll send an email to customer service team about the bank holiday request to Regina. The suggestion is displayed as shown in the following image:  
         > [!div class="mx-imgBorder"]
         > ![Call summary tab](media/ci-action-item-send-email.png "Call summary tab")  
@@ -76,23 +72,20 @@ Typically, a call summary page can be divided into the following sections:
 
 
 
-- **Highlights tab**:  
-    The **Keywords** tab displays relevant talking points that were mentioned during the call:  
-        - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.  
-        - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso. When you select a name, you can see where it was mentioned on the timeline.  
-        - **Products**: Displays the names of the products mentioned during the call; for example, I only know how to use a Fabrikam LED TV. When you select a product, you can see where it was mentioned on the timeline.  
-        - **Competitors**: Displays the defined competitors mentioned during the call. When you select a competitor, you can see where it was mentioned on the timeline.  
-        - **Best-practice keywords**: Displays keywords that can be used as best practices during the call. When you select a best practice keyword, you can see where it was mentioned on the timeline.  
-        - **Other brands and org**: Displays brand and organization names (other than your organization’s) mentioned during the call. When you select a brand or organization name, you can see where it was mentioned on the timeline.  
+- **Highlights tab**: The **Highlights** tab displays relevant talking points that were mentioned during the call.  
+    - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.  
+    - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso. When you select a name, you can see where it was mentioned on the timeline.  
+    - **Products**: Displays the names of the products mentioned during the call; for example, I only know how to use a Fabrikam LED TV. When you select a product, you can see where it was mentioned on the timeline.  
+    - **Competitors**: Displays the defined competitors mentioned during the call. When you select a competitor, you can see where it was mentioned on the timeline.  
+    - **Best-practice keywords**: Displays keywords that can be used as best practices during the call. When you select a best practice keyword, you can see where it was mentioned on the timeline.  
+    - **Other brands and org**: Displays brand and organization names (other than your organization’s) mentioned during the call. When you select a brand or organization name, you can see where it was mentioned on the timeline.  
     The following image is an example of the **Keywords** tab:  
     > [!div class="mx-imgBorder"]
     > ![Keywords tab](media/ci-summary-keywords.png "Keywords tab")
 
 ### Call transcript and translation
 
-- **Conversation tab**:      
-    The **Conversation** tab displays the written record of the call and timeline where you can read, comment, and translate.  
-    The following image is an example of the **Conversation** tab:  
+- **Conversation tab**: The **Conversation** tab displays the written record of the call and timeline where you can read, comment, and translate. The following image is an example of the **Conversation** tab:  
     > [!div class="mx-imgBorder"]
     > ![Conversation tab with sample transcript](media/ci-transcript-conversation-transcript.png "Conversation tab with sample transcript")          
     As a manager, you can review the transcript and leave a comment (for example, suggesting how the seller could possibly handle such a situation in the future).       
@@ -103,9 +96,7 @@ Typically, a call summary page can be divided into the following sections:
     The bolded text in the transcript are the brands, tracked keywords, and competitors mentioned in the conversation.      
     If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
-- **Related opportunity tab**:  
-    The **Related opportunity** tab allows you to view or add opportunities that are related to the call and this helps other users who are viewing call summary to have an insight on what this conversation is regarding.   
-    If no opportunity is add to the conversation, select **Search** and add the related opportunity.      
+- **Related opportunity tab**: The **Related opportunity** tab allows you to view or add opportunities that are related to the call and this helps other users who are viewing call summary to have an insight on what this conversation is regarding. If no opportunity is add to the conversation, select **Search** and add the related opportunity.      
     > [!div class="mx-imgBorder"]
     > ![Add a related opportunity](media/ci-transcript-search-add-opportunity.png "Add a related opportunity")
 
