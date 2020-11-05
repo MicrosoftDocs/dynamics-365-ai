@@ -78,14 +78,17 @@ The matrix explains which data you’ll view as a sales manager, for different h
 
 ## Choose top performers 
 
-The top performers who are selected here are compared against other sellers in your team. The comparisons project how the other sellers are performing against top performer’s best practices and display KPIs and relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
-1. Under **Team members and top performers**, choose the top performers manually or let the application choose automatically. Select an option as necessary.  
+The top performers who are selected here are compared against other sellers in your team to project how the other sellers are performing based on best practices conversational style KPIs. Those are displayed with relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
+1. Under **Team members and top performers**, you can choose the top performers manually or let the application choose automatically. Select an option as necessary.  
     - **Manually select top performers**: Allows you to manually choose the top performers from the list of sellers. Under the **Top performer** column, select the star icon corresponding to a seller.          
         > [!div class="mx-imgBorder"]
         > ![Select top performers manually](media/ci-admin-choose-top-performers-manually.png "Select top performers manually")  
-    - **Enable automatic identification of top performers**: Allows the application to automatically select the top performers based on the amount of leads they qualified or opportunities they won. When you select to automatically select to performers, the drop-down list is enabled to choose **by won opportunities** or **by lead qualification**. Choose an option appropriate.     
+    - **Enable automatic identification of top performers**: Allows the application to automatically select the top performers based on the amount of leads they qualified or opportunities they won. When you select to automatically select top performers, the drop-down list is enabled to choose **by won opportunities** or **by lead qualification**. Choose an option appropriate.     
         > [!div class="mx-imgBorder"]
         > ![Select top performers automatically](media/ci-admin-choose-top-performers-automatically.png "Select top performers automatically")  
+        >[!NOTE]
+        >when choose to select top performers automatically, conversation intelligence identify the top performers based on the KPIs you stated and they are updated by the relevant time range that is selected in the application.  
+        >![Top performers time range selection](media/ci-top-performers.png "Top performers time range selection")  
 2.	Save the configuration. 
 
 ## Delete seller data 
