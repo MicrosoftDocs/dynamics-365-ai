@@ -55,12 +55,12 @@ The graph in the **Prediction details** pane consists of the following values:
 The top factors that influence the prediction are displayed below the graph. These factors help you to understand the key points of the graph. As many as five of these factors will appear.
 
 >[!NOTE]
->In order for **Prediction details** to be displayed, an administrator or forecast manager must [enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).<!--note from editor: Edit okay? I didn't know what the significance of this note was.-->  
+>In order for **Prediction details** to be displayed, an administrator or forecast manager must [enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).  
 
-The top prediction factors are categorized into three types:<!--note from editor: What do you think of using these icons inline?-->  
+The top prediction factors are categorized into three types:  
 -	A green icon with an upward-trending arrow (![Green icon](media/predictive-forecasting-factor-green-icon.png)) represents a positive influencing factor.  
 -	A red icon with a downward-trending arrow (![Red icon](media/predictive-forecasting-factor-red-icon.png)) represents a negative influencing factor.  
--	A gray icon with a horizontal<!--note from editor: Edit okay? The arrow seems to point right rather than left, but I think the horizontality is actually what's important here.--> arrow (![Gray icon](media/predictive-forecasting-factor-gray-icon.png)) represents a neutral influencing factor.  
+-	A gray icon with a horizontal arrow (![Gray icon](media/predictive-forecasting-factor-gray-icon.png)) represents a neutral influencing factor.  
 
 The following image shows an example of a **Top factors that influence prediction** section. 
 
