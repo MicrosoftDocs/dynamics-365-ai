@@ -46,24 +46,32 @@ Select a value in the prediction column to display the **Prediction details** pa
 > [!div class="mx-imgBorder"]
 > ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")
 
-The prediction details graph consists of the following values:  
+The graph in the **Prediction details** pane consists of the following values:  
 -	**Closed won**: Total actual revenue of opportunities that have been closed as won during the current forecast period.  
--	**Predicted from open**: Total estimated revenue from open opportunities predicted to close during the current forecasting period and are contributing to the prediction.  
--	**Predicted from new**: Total estimated revenue from new opportunities that are predicted to close during the current forecasting period and are contributing to the prediction.   
+-	**Predicted from open**: Total estimated revenue from open opportunities that are predicted to close during the current forecasting period and are contributing to the prediction.  
+-	**Predicted from new**: Total estimated revenue from new opportunities that are predicted to close during the current forecasting period and are contributing to the prediction.
 -	**Total prediction**: Total predicted amount for the current forecasting period.
 
-The top factors that influence prediction are displayed below the graph. These factors help you to understand the key points of the graph that is displayed in the Prediction details pane. You can see up to five top factors that are influencing the prediction.  
+The top factors that influence the prediction are displayed below the graph. These factors help you to understand the key points of the graph. As many as five of these factors will appear.
+
 >[!NOTE]
->Administrator or forecast manager must [enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).  
-The top factors are categorized into three types:  
--	A Green icon with upward trend represents a positive influencing factor.  
--	A Red icon with downward trend represents a negative influencing factor.  
--	A Grey icon with left arrow represents a neutral influencing factor.  
-The following screen is an example of top influencing factors section:  
+>In order for **Prediction details** to be displayed, an administrator or forecast manager must [enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).<!--note from editor: Edit okay? I didn't know what the significance of this note was.-->  
+
+The top prediction factors are categorized into three types:<!--note from editor: What do you think of using these icons inline?-->  
+-	A green icon with an upward-trending arrow (![Green icon](media/predictive-forecasting-factor-green-icon.png)) represents a positive influencing factor.  
+-	A red icon with a downward-trending arrow (![Red icon](media/predictive-forecasting-factor-red-icon.png)) represents a negative influencing factor.  
+-	A gray icon with a horizontal<!--note from editor: Edit okay? The arrow seems to point right rather than left, but I think the horizontality is actually what's important here.--> arrow (![Gray icon](media/predictive-forecasting-factor-gray-icon.png)) represents a neutral influencing factor.  
+
+The following image shows an example of a **Top factors that influence prediction** section. 
+
 > [!div class="mx-imgBorder"]
 > ![Prediction top factors](media/predictive-forecasting-top-factors.png "Prediction top factors")  
-Here, you can see the positive influencing factor is that $247.22K will flow from new deals in the remaining 59 days of the period, $124.91K (51%) of it will flow in the last 17 days.  
-Similarly, the negative influencing factor is that 22% of opportunities are predicted to slip to the next period and neutral influencing factor is that 3,614 opportunities in the pipeline are expected to close within this forecast period.
+
+| Icon | Influencing factor
+| - | -|
+| ![Green icon](media/predictive-forecasting-factor-green-icon.png) |The top positive influencing factor is that $247.22K will flow from new deals in the remaining 59 days of the period, and $124.91K (51%) of it will flow in the last 17 days.|
+| ![Red icon](media/predictive-forecasting-factor-red-icon.png) | The negative influencing factor is that 22% of opportunities are predicted to slip to the next period. |
+|  ![Gray icon](media/predictive-forecasting-factor-gray-icon.png) | The neutral influencing factor is that 3,614 opportunities in the pipeline are expected to close within this forecast period. |
 
 ### See also
 
