@@ -59,7 +59,7 @@ Typically, a call summary page can be divided into the following sections:
 
 - **Action items tab**: Displays the list of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline. The actionable items include: Send an email, set up a meeting, create a task, and set up a call.  
 
-    - **Set up a call**: If there is a mention about calling in the transcript, the application analyzes the transcript and displays a suggestion to create a call. Also, the transcript is highlighted in Blue to show for which the call must be created. Enter the details:  
+    - **Set up a call**: If there is a mention related to call in the transcript, the application analyzes the transcript and displays a suggestion to create a call. Also, the transcript is highlighted in Blue to show for which the call must be created. Enter the details:  
         - **Subject**: Provides an understanding on what the call is about for sellers who are viewing it. 
         - **From**: Select the name of the seller. The selected seller will make a call to the contact that you add in **To** field.   
         - **To**: Select the name of the customer for who the seller must make the call.
@@ -68,7 +68,7 @@ Typically, a call summary page can be divided into the following sections:
         Select **Create** and the call activity is created. The call activity can be viewed under the activities of the attached record entity and the seller's activity list.
         >[!NOTE]
         >- While setting up a call, if you want to enter more details, select the down arrow icon corresponding to **Create** and select **Create and Edit**. Also, If you think it is more related to a task than a call, select **Create task**.   
-        >- If you don't want to create a task, select **Delete**.  
+        >- If you don't want to create a call activity, select **Delete**.  
         > [!div class="mx-imgBorder"]
         > ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")   
         When the call activity is created, select the call under **See call** and the call activity is opened in a browser tab.  
@@ -76,34 +76,37 @@ Typically, a call summary page can be divided into the following sections:
     - **Create a task**: If there is a mention about a piece of work that the seller must perform in the transcript, the application analyzes the transcript and displays a suggestion to create a task. Also, the transcript is highlighted in Blue to show for which the task must be created. Enter the details:  
         - **Subject**: Provides an understanding on what the task is for sellers who are viewing it. 
         - **Owner**: Select the owner of the task from the list.
-        - **Set date**: Select a date in which the task must be completed.
+        - **Date and time**: Select a date in which the task must be completed.
         - **Regarding field**: Select a record from an entity that specifies what the task is about, such as opportunity, lead, contact, or account, which provides you with relevant information.  
         Select **Create** and the task activity is created. The task activity can be viewed under the activities of the attached record entity and the owner's activity list.   
         >[!NOTE]
         >- While creating the task activity, if you want to enter more details, select **Create and Edit**.
-        >- If you don't want to create a task, select **Delete**.   
+        >- If you don't want to create a task activity, select **Delete**.   
         > [!div class="mx-imgBorder"]
         > ![Create a task](media/ci-action-item-create-task.png "Create a task")      
         When the task activity is created, select the task under **See task** and the task activity is opened in a browser tab.     
 
-    - **Send an email**: If there is a mention about calling in the transcript, the application analyzes the transcript and displays a suggestion to create a call. Also, the transcript is highlighted in Blue to show for which the call must be created. Enter the details:  
-        - **Subject**: Provides an understanding on what the call is about for sellers who are viewing it. 
-        - **From**: Select the name of the seller. The selected seller will make a call to the contact that you add in **To** field.   
-        - **To**: Select the name of the customer for who the seller must make the call.
-        - **Set date**: Select a date and time on which the call must be made.
-        - **Regarding field**: Select a record from an entity that specifies what the call is about, such as opportunity, lead, contact, or account, which provides you with relevant information.   
-        Select **Create** and the call activity is created. The call activity can be viewed under the activities of the attached record entity and the seller's activity list.
+    - **Send an email**: If there is a mention related to email in the transcript, the application analyzes the transcript and displays a suggestion to send an email. Also, the transcript is highlighted in Blue to show for which the email must be sent. Enter the details:  
+        - **Subject**: Provides an understanding on what the email is about for users who are receiving it. 
+        - **From**: By default, the name of the seller who participated in the call is selected.    
+        - **To**: Select the recipients for whom you want to send the email.
+        Select **Open email** and your configured email editor is opened. Compose the email and send. 
         >[!NOTE]
-        >- While setting up a call, if you want to enter more details, select the down arrow icon corresponding to **Create** and select **Create and Edit**. Also, If you think it is more related to a task than a call, select **Create task**.   
-        >- If you don't want to create a task, select **Delete**.  
+        >- If you think it is more related to a task than an email, select **Create task**.   
+        >- If you don't want to send an email, select **Delete**.  
         > [!div class="mx-imgBorder"]
         > ![Send an email](media/ci-action-item-send-email.png "Send an email")   
-        When the call activity is created, select the call under **See call** and the call activity is opened in a browser tab.  
-
-
-    - **Set up a meeting**:                 
-
-
+         
+    - **Set up a meeting**: If there is a mention related to a meeting in the transcript, the application analyzes the transcript and displays a suggestion to set up a meeting. Also, the transcript is highlighted in Blue to show for which the meeting must be set up. Enter the details:  
+        - **Subject**: Provides an understanding on what the task is for sellers who are viewing it. 
+        - **Owner**: By default, the name of the seller who participated in the call is selected.
+        - **To**: Select the recipients for whom you want to send the email.
+        - **Date and time**: Select a date and time on which you want to schedule the meeting.
+        Select **Open calendar** and the meeting activity is opened in your configured calendar.    
+        >[!NOTE]
+        >- If you think it is more related to a task than an meeting, select **Create task**.   
+        > [!div class="mx-imgBorder"]
+        > ![Set up a meeting](media/ci-action-item-setup-meeting.png "Set up a meeting")      
 
 - **Highlights tab**: Displays relevant talking points that were mentioned during the call.  
     - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.  
@@ -140,7 +143,7 @@ The following image is an example of playback section:
 > [!div class="mx-imgBorder"]
 > ![Playback timeline with segmentation](media/ci-summary-playback.png "Playback timeline with segmentation")     
 
-Using the call playback feature, you can play and listen to the recorded call audio. Also, you can drag the progress bar or click at a specific point on timeline from where you want to listen. The call transcript will automatically scroll to that moment in the call. You can also pause the call, rewind, forward, and adjust volume as required.  
+Using the call playback feature, you can play and listen to the recorded call audio. Also, you can drag the progress bar or select at a specific point on timeline from where you want to listen. The call transcript will automatically scroll to that moment in the call. You can also pause the call, rewind, forward, and adjust volume as required.  
 The playback timeline displays the sentiments highlighted (such as positive, neutral, and negative).  
 
 When you go to **Highlights** tab and select a keyword or any other highlights, diamond icons appear on the playback timeline specifying that the selected highlight is mentioned at that time.  Also, hover over on a keyword displays a Gray diamond icon.  
