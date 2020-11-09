@@ -2,7 +2,7 @@
 title: " Dynamics 365 Sales Insights capabilities Privacy Notices | Microsoft Docs"
 description: "Privacy notices Sales Insights capabilities."
 keywords: "privacy notice, privacy statement addition"
-ms.date: 10/01/2019
+ms.date: 10/26/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 40143ca0-2e09-4fb0-9c80-406671024000
@@ -24,9 +24,9 @@ search.app:
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).
 
-## Sales Insights free features
+## Sales Insights standard features
 
-For specific privacy information about Sales insights free features, refer to the paragraphs below.
+For specific privacy information about Sales insights standard features, refer to the paragraphs below.
 
 [!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
 
@@ -34,9 +34,9 @@ For specific privacy information about Sales insights free features, refer to th
 
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
 
-## Sales Insights advanced features
+## Sales Insights premium features
 
-For specific privacy information about Dynamics 365 Sales Insights advanced features, refer to the paragraphs below.
+For specific privacy information about Dynamics 365 Sales Insights premium features, refer to the paragraphs below.
 
 By enabling [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data will be sent to and used by (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation, and (2) Azure Container Instance for the purpose of predictive model training and scoring. By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory service and Azure Container Instance.
 
@@ -53,9 +53,9 @@ Azure components and services that are involved with Dynamics 365 Sales Insights
 
 An administrator can enable [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities by installing it as a solution in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In addition, an administrator can subsequently disable the feature by uninstalling this solution from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization.
 
-## Sales Insights application
+## Conversation intelligence application
 
-For specific privacy information about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] application, refer to the paragraphs below.
+For specific privacy information about Conversation intelligence application, refer to the paragraphs below.
 
 By enabling [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] Preview capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data, (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation and (2) will be sent to Bing news to acquire relevant and up to date news on products, industries and customers.>
 

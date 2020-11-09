@@ -2,21 +2,43 @@
 title: "Service limits in Dynamics 365 Customer Service Insights"
 description: "Understand limits and restrictions within the Dynamics 365 Customer Service Insights product."
 keywords: ""
-ms.date: 05/10/2019
+ms.date: 10/22/2020
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
-author: tpalmer
-ms.author: tpalmer
-manager: shellyha
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 search.app: capaedac-csi
 search.audienceType: enduser
 search.appverid: met150
+
 ---
 
 # Service limits in Dynamics 365 Customer Service Insights
 
 This article describes the built-in limits to the Customer Service Insights service, which are designed to ensure the reliability and stability of the service. Any requests for changes can be made through the [Ideas forum](https://go.microsoft.com/fwlink/?linkid=2024757). 
+
+The following tables outline the limits based on the insights version you are using:
+
+- [Embedded Customer Service Hub and Customer Service workspace limits](#service-limits)
+- [Standalone app limits](#standalone-service-limits)
+
+## Service limits
+
+This following table lists the built-in limits for the embedded version of insights in Customer Service Hub and Customer Service workspace.
+ 
+| Area  | Limits  | Notes |
+|-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+| Data age limit | 24-month period | Reports are limited to case data from the last 24 months. |
+| Dashboard interactions | No limit | No limits on the number of interactions or drill-throughs within reports. |
+| Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
+| Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see [Information you need to know about Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
+
+
+## Standalone service limits
+
+This following table lists the built-in limits for the Customer Service Insights standalone app.
  
 | Area  | Limits  | Notes |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
