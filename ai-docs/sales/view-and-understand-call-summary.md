@@ -47,32 +47,65 @@ The **Call Insights** tab is available under activities for leads and opportunit
 ## Understand the call summary page
 
 Typically, a call summary page can be divided into the following sections:  
-- [Summary, action items, and keywords](#summary-action-items-and-keywords)  
+- [Summary, action items, and highlights](#summary-action-items-and-highlights)  
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)  
 
-### Summary, action items, and keywords
+### Summary, action items, and highlights
 
 - **Summary tab**: Displays the names of the participants along with the KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that are added to the conversation for better searchability. The following image is an example of the **Summary** tab:  
     > [!div class="mx-imgBorder"]
     > ![Sample summary tab](media/ci-summary-call-summary.png "Sample summary tab")
 
-- **Action items tab**: Displays the list of of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline. The actionable items includes: Send an email, set up a meeting, create a task, and set up a call.  
-    - **Set up a call**:  
+- **Action items tab**: Displays the list of actionable items mentioned during the call where sellers required to keep track on after interacting with a customer. For example, **I'll send you an email** or **I'll follow up with Michelle tomorrow**. When you select an action item, you can see where it was mentioned on the timeline. The actionable items include: Send an email, set up a meeting, create a task, and set up a call.  
 
-    - **Create a task**:
-
-
-    - **Send an email**: This suggestion is displayed when a seller mentions about sending an email. For example, **Daisy Phillips** is a seller and **Regina Murphy** is a customer and during their call Daisy mentions that she'll send an email to customer service team about the bank holiday request to Regina. The suggestion is displayed as shown in the following image:  
+    - **Set up a call**: If there is a mention about calling in the transcript, the application analyzes the transcript and displays a suggestion to create a call. Also, the transcript is highlighted in Blue to show for which the call must be created. Enter the details:  
+        - **Subject**: Provides an understanding on what the call is about for sellers who are viewing it. 
+        - **From**: Select the name of the seller. The selected seller will make a call to the contact that you add in **To** field.   
+        - **To**: Select the name of the customer for who the seller must make the call.
+        - **Set date**: Select a date and time on which the call must be made.
+        - **Regarding field**: Select a record from an entity that specifies what the call is about, such as opportunity, lead, contact, or account, which provides you with relevant information.   
+        Select **Create** and the call activity is created. The call activity can be viewed under the activities of the attached record entity and the seller's activity list.
+        >[!NOTE]
+        >- While setting up a call, if you want to enter more details, select the down arrow icon corresponding to **Create** and select **Create and Edit**. Also, If you think it is more related to a task than a call, select **Create task**.   
+        >- If you don't want to create a task, select **Delete**.  
         > [!div class="mx-imgBorder"]
-        > ![Call summary tab](media/ci-action-item-send-email.png "Call summary tab")
+        > ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")   
+        When the call activity is created, select the call under **See call** and the call activity is opened in a browser tab.  
+
+    - **Create a task**: If there is a mention about a piece of work that the seller must perform in the transcript, the application analyzes the transcript and displays a suggestion to create a task. Also, the transcript is highlighted in Blue to show for which the task must be created. Enter the details:  
+        - **Subject**: Provides an understanding on what the task is for sellers who are viewing it. 
+        - **Owner**: Select the owner of the task from the list.
+        - **Set date**: Select a date in which the task must be completed.
+        - **Regarding field**: Select a record from an entity that specifies what the task is about, such as opportunity, lead, contact, or account, which provides you with relevant information.  
+        Select **Create** and the task activity is created. The task activity can be viewed under the activities of the attached record entity and the owner's activity list.   
+        >[!NOTE]
+        >- While creating the task activity, if you want to enter more details, select **Create and Edit**.
+        >- If you don't want to create a task, select **Delete**.   
+        > [!div class="mx-imgBorder"]
+        > ![Create a task](media/ci-action-item-create-task.png "Create a task")      
+        When the task activity is created, select the task under **See task** and the task activity is opened in a browser tab.     
+
+    - **Send an email**: If there is a mention about calling in the transcript, the application analyzes the transcript and displays a suggestion to create a call. Also, the transcript is highlighted in Blue to show for which the call must be created. Enter the details:  
+        - **Subject**: Provides an understanding on what the call is about for sellers who are viewing it. 
+        - **From**: Select the name of the seller. The selected seller will make a call to the contact that you add in **To** field.   
+        - **To**: Select the name of the customer for who the seller must make the call.
+        - **Set date**: Select a date and time on which the call must be made.
+        - **Regarding field**: Select a record from an entity that specifies what the call is about, such as opportunity, lead, contact, or account, which provides you with relevant information.   
+        Select **Create** and the call activity is created. The call activity can be viewed under the activities of the attached record entity and the seller's activity list.
+        >[!NOTE]
+        >- While setting up a call, if you want to enter more details, select the down arrow icon corresponding to **Create** and select **Create and Edit**. Also, If you think it is more related to a task than a call, select **Create task**.   
+        >- If you don't want to create a task, select **Delete**.  
+        > [!div class="mx-imgBorder"]
+        > ![Send an email](media/ci-action-item-send-email.png "Send an email")   
+        When the call activity is created, select the call under **See call** and the call activity is opened in a browser tab.  
 
 
     - **Set up a meeting**:                 
 
 
 
-- **Highlights tab**: The **Highlights** tab displays relevant talking points that were mentioned during the call.  
+- **Highlights tab**: Displays relevant talking points that were mentioned during the call.  
     - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call. When you select a keyword, you can see where it was mentioned on the timeline.  
     - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso. When you select a name, you can see where it was mentioned on the timeline.  
     - **Products**: Displays the names of the products mentioned during the call; for example, I only know how to use a Fabrikam LED TV. When you select a product, you can see where it was mentioned on the timeline.  
@@ -85,9 +118,9 @@ Typically, a call summary page can be divided into the following sections:
 
 ### Call transcript and translation
 
-- **Conversation tab**: The **Conversation** tab displays the written record of the call and timeline where you can read, comment, and translate. The following image is an example of the **Conversation** tab:  
+- **Transcript tab**: Displays the written record of the call and timeline where you can read, comment, and translate. The following image is an example of the **Transcript** tab:  
     > [!div class="mx-imgBorder"]
-    > ![Conversation tab with sample transcript](media/ci-transcript-conversation-transcript.png "Conversation tab with sample transcript")          
+    > ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")          
     As a manager, you can review the transcript and leave a comment (for example, suggesting how the seller could possibly handle such a situation in the future).       
     As a seller, you can review the transcript and comments that are posted by your manager or coach on the timeline.      
     You can provide replies to the comments appropriately. Hover over a specific transcript on the timeline and select **Add comment** to provide necessary replies or self-comments, and then select **Save**.  
@@ -95,22 +128,25 @@ Typically, a call summary page can be divided into the following sections:
     > ![add comment to transcripts](media/ci-transcript-comment.png "add comment to transcripts")      
     The bolded text in the transcript are the brands, tracked keywords, and competitors mentioned in the conversation.      
     If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
-
-- **Related opportunity tab**: The **Related opportunity** tab allows you to view or add opportunities that are related to the call and this helps other users who are viewing call summary to have an insight on what this conversation is regarding. If no opportunity is add to the conversation, select **Search** and add the related opportunity.      
+<!--
+- **Related opportunity tab**: Allows you to view or add opportunities that are related to the call and this helps other users who are viewing call summary to have an insight on what this conversation is regarding. If no opportunity is added to the conversation, select **Search** and add the related opportunity.      
     > [!div class="mx-imgBorder"]
-    > ![Add a related opportunity](media/ci-transcript-search-add-opportunity.png "Add a related opportunity")
+    > ![Add a related opportunity](media/ci-transcript-search-add-opportunity.png "Add a related opportunity")-->
 
 ### Call playback timeline and segmentation
 
-The following image is an example of the **Conversation** tab:  
+The following image is an example of playback section:  
+
 > [!div class="mx-imgBorder"]
-> ![Playback timeline with segmentation](media/ci-summary-playback.png "Playback timeline with segmentation")  
-The playback timeline displays the sentiments highlighted (such as positive, neutral, and negative). The diamond icons specify the brands, tracked keywords, and competitors mentioned in the timeline.  
-You can go to a specific moment on the call by clicking on the timeline. The call transcript will automatically scroll to that moment in the call. You can also pause the call, rewind, forward, and adjust volume as required.  
-The **Topics** section on the top of the playback timeline divides the call timeline into segments. The segmentation lets you understand which part of the conversation is most interesting, and what is interesting. Some examples of the segments are introduction, solution, price quote, and call close. 
+> ![Playback timeline with segmentation](media/ci-summary-playback.png "Playback timeline with segmentation")     
 
-### See also
+Using the call playback feature, you can play and listen to the recorded call audio. Also, you can drag the progress bar or click at a specific point on timeline from where you want to listen. The call transcript will automatically scroll to that moment in the call. You can also pause the call, rewind, forward, and adjust volume as required.  
+The playback timeline displays the sentiments highlighted (such as positive, neutral, and negative).  
 
-[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)
+When you go to **Highlights** tab and select a keyword or any other highlights, diamond icons appear on the playback timeline specifying that the selected highlight is mentioned at that time.  Also, hover over on a keyword displays a Gray diamond icon.  
 
+The **Topics** section on the top of the playback timeline lets you understand how the conversation is divided into multiple segments. By selecting a segment, you can navigate to a specific segment in the conversation that is more important to you. Some examples of the segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment and the playback timeline is highlighted for the selected segment. Also, if the selected segment consists any action items and keywords, they are displayed under their respective tabs.  
+
+### See also  
+[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)  
 [Track and manage activities](https://docs.microsoft.com/dynamics365/sales-enterprise/manage-activities)
