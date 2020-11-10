@@ -18,11 +18,11 @@ manager: "shujoshi"
 
 **Added by**: Predictive Scoring Common Solution
 
-Entity set path: [organizationURI]/api/data/v9.1/msdyn_predictivemodelscores  
-Display name: Predictive Model Score  
-Alternate key: msdyn_PredictiveModelScoreKey  
-Alternate key attributes: msdyn_entityid, msdyn_entitytype, and msdyn_predictionid  
-Operations supported:   
+**Entity set path**: ```[organizationURI]/api/data/v9.1/msdyn_predictivemodelscores```  
+**Display name**: Predictive Model Score  
+**Alternate key**: msdyn_PredictiveModelScoreKey  
+**Alternate key attributes**: msdyn_entityid, msdyn_entitytype, and msdyn_predictionid  
+**Operations supported**:   
   - For admin: Create, retrieve, retrieve multiple, update, and delete
   - For other users: Retrieve
 
