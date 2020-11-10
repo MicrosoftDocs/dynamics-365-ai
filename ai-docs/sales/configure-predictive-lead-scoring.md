@@ -34,8 +34,8 @@ The following image shows an example of a lead scoring widget.
 
 
 >[!IMPORTANT]
->- If you're using a version of predictive lead scoring earlier than 2020 release wave 2 for Dynamics 365, delete the model. This is necessary because the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
->- From 2020 release wave 2 for Dynamics 365, we are writing the lead scoring related data to **msdyn_predictivescore** entity. We've stopped writing the data to opportunity entity. This entity is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
+>- If you're using predictive lead scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
+>- From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** entity and stopped writing to lead entity. This entity is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
 
 You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
