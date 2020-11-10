@@ -16,8 +16,7 @@ manager: "shujoshi"
 > [!NOTE]
 > This entity is for internal use only.
 
-**Added by**: Predictive Scoring Common Solution
-
+**Added by**: Predictive Scoring Common Solution  
 **Entity set path**: ```[organizationURI]/api/data/v9.1/msdyn_predictivemodelscores```  
 **Display name**: Predictive Model Score  
 **Alternate key**: msdyn_PredictiveModelScoreKey  

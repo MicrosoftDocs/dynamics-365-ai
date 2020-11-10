@@ -14,8 +14,7 @@ manager: shujoshi
 # msdyn_predictivescore Entity Reference
 
 
-**Added by**: Predictive Scoring Common Solution
-
+**Added by**: Predictive Scoring Common Solution  
 **Entity set path**: ```[organizationURI]/api/data/v9.1/msdyn_predictivescores```  
 **Display name**: Predictive Score  
 **Alternate key**: msdyn_PredictiveScoreKey  
