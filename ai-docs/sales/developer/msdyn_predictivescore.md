@@ -1,7 +1,7 @@
 ---
 title: "msdyn_predictivescore Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_predictivescore entity."
-ms.date: 06/25/2020
+ms.date: 11/10/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -9,17 +9,19 @@ applies_to:
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: udaykirang
 ms.author: udag
-manager: "susikka"
+manager: shujoshi
 ---
 # msdyn_predictivescore Entity Reference
 
 
-**Added by**: Predictive Scoring Common Solution
-
-
-## Messages
-
-Create, Delete, IsValidStateTransition, Retrieve, RetrieveMultiple, SetState, Update
+**Added by**: Predictive Scoring Common Solution  
+**Entity set path**: ```[organizationURI]/api/data/v9.1/msdyn_predictivescores```  
+**Display name**: Predictive Score  
+**Alternate key**: msdyn_PredictiveScoreKey  
+**Alternate key attributes**: msdyn_entityid and msdyn_entitytype  
+**Operations supported**:   
+  - For admin: Create, retrieve, retrieve multiple, update, and delete
+  - For other users: Retrieve
 
 ## Entity Properties
 
