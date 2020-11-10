@@ -19,7 +19,7 @@ Use this reference to understand the available operations that can be performed 
 |[msdyn_PredictiveModelScore](developer/msdyn_predictivemodelscore.md)|The custom entity used to generate scores for each model. For internal use only.|
 |msdyn_PredictiveScoringCommon|The solution contains relationships from lead and opportunity to **msdyn_predictivescore**, and information on **msdyn_PredictiveScore** and **msdyn_PredictiveModelScore** entities. This is a common solution that holds information related to lead and opportunity scoring.|
 
-
 ### See also
 
-[Developer Guide for Sales](../developer-guide.md)
+[Predictive lead scoring](configure-predictive-lead-scoring.md)  
+[Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
