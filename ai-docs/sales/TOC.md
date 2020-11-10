@@ -111,6 +111,7 @@
 ### Action Reference
 #### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
 ### Entity Reference
+#### [Entity reference](entity-reference.md)
 #### [msdyn_PredictiveScore](developer/msdyn_predictivescore.md)
 #### [msdyn_PredictiveModelScore](developer/msdyn_predictivemodelscore.md)
 
