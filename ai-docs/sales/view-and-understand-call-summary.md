@@ -148,7 +148,7 @@ The playback timeline displays the sentiments highlighted (such as positive, neu
 
 When you go to **Highlights** tab and select a keyword or any other highlights, diamond icons appear on the playback timeline specifying that the selected highlight is mentioned at that time.  Also, hover over on a keyword displays a Gray diamond icon.  
 
-The **Topics** section on the top of the playback timeline lets you understand how the conversation is divided into multiple segments. By selecting a segment, you can navigate to a specific segment in the conversation that is more important to you. Some examples of the segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment and the playback timeline is highlighted for the selected segment. Also, if the selected segment consists any action items and keywords, they are displayed under their respective tabs.  
+On the timeline, you can see segmentations of the conversation. For each segment the application identify topics that were discussed the most in it, if any. To better drill down into the conversation, you can choose specific segment and identify the insights which relevant to it. Some examples of the segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment and the playback timeline is highlighted for the selected segment. Also, if the selected segment consists any action items and keywords, they are displayed under their respective tabs.  
 
 ### See also  
 [Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)  
