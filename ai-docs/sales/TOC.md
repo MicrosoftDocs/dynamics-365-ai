@@ -39,6 +39,7 @@
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
+#### [Add the Up next widget to an entity form](add-upnext-widget-form.md)
 
 ### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 

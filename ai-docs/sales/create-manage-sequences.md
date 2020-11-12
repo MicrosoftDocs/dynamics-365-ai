@@ -1,7 +1,7 @@
 ---
 title: "Create and manage sequences with Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to create and manage sequences with Dynamics 365 Sales Insights."
-ms.date: 10/26/2020
+ms.date: 11/16/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
