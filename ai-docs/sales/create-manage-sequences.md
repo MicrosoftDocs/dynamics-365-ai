@@ -46,6 +46,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Create a sequence dialog box](media/sequence-create-sequence.png "Create a sequence dialog box")   
 5. In the **Create a sequence** dialog dox, enter the following information:   
+
     | Parameter | Description |
     |-----------|-------------|
     | Sequence name | The name of the sequence. |
