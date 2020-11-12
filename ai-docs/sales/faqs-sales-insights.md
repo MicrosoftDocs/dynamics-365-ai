@@ -142,7 +142,6 @@ Depending on the region where your organization is hosted, data is stored in the
 | Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
 | North America (NAM) | East US (Virginia) | West US 2 (Washington) |
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
-| South America (SAM) | Brazil South (São Paulo State) | -- |
 
 **How do I extend the trial period of Sales Insights?**
 
