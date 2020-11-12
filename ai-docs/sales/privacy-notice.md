@@ -36,43 +36,35 @@ For specific privacy information about Sales insights standard features, refer t
 
 ## Sales Insights premium features
 
-For specific privacy information about Dynamics 365 Sales Insights premium features, refer to the paragraphs below.
-
-By enabling [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data will be sent to and used by (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation, and (2) Azure Container Instance for the purpose of predictive model training and scoring. By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory service and Azure Container Instance. The data that is sent include contacts, opportunities, leads, accounts, activities, and additional metadata information.
-
+For specific privacy information about Dynamics 365 Sales Insights premium features, refer to the paragraphs below.  
+By enabling [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Data will be sent to and used by (1) Azure Data Factory for the purpose of data movement and transformation for KPI computation, and (2) Azure Container Instance for the purpose of predictive model training and scoring. By installing this solution, you agree for this limited set of data to be sent to Azure Data Factory service and Azure Container Instance. The data that is sent include contacts, opportunities, leads, accounts, activities, and additional metadata information.  
 Azure components and services that are involved with Dynamics 365 Sales Insights are detailed in the following sections.
-[!Include[cc_privacy_note_azure_trust_center](../includes/cc-privacy-note-azure-trust-center.md)]
+[!Include[cc_privacy_note_azure_trust_center](../includes/cc-privacy-note-azure-trust-center.md)]  
 
-### Azure Data Factory
+**Azure Data Factory**
 [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure Data Factory, a cloud data integration service, to orchestrate and automate the movement and transformation of data (including Customer Data) between services.
 
-### Azure Container Instance
+**Azure Container Instance**
 [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure Container instance, a cloud-based container service, to create predictive model training and scoring pipelines dynamically. 
 
-### Installation and Removal of Dynamics 365 Sales Insights
-
+**Installation and Removal of Dynamics 365 Sales Insights**  
 An administrator can enable [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities by installing it as a solution in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In addition, an administrator can subsequently disable the feature by uninstalling this solution from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization.
 
 ## Conversation intelligence
 
 For specific privacy information about conversation intelligence of Dynamics 365 Sales, refer to the paragraphs below.
 
-### Azure Services
-
-Azure components and services that are involved with conversation intelligence are detailed in the following sections.
-
+**Azure Services**  
+Azure components and services that are involved with conversation intelligence are detailed in the following sections.  
 [!Include[cc_privacy_note_azure_trust_center](../includes/cc-privacy-note-azure-trust-center.md)]
 
-### Azure Data Factory
-
+**Azure Data Factory** 
 [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] Preview uses Azure Data Factory, a cloud data integration service, to orchestrate and automate the movement and transformation of data (including Customer Data) between services.
 
-### Installation and removal of conversation intelligence
-
+**Installation and removal of conversation intelligence**  
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users and administrators who are allowed to register new applications in Azure Active Directory, can enable conversation intelligence by signing in to the app and consenting to the required permissions. Administrators can change these permissions, which can include removing access to the app, at https://myapps.microsoft.com 
 
-### Handling GDPR for conversation intelligence
-
+**Handling GDPR for conversation intelligence**  
 It is the enterprise customer’s responsibility to comply with the GDPR. If you choose to honor and execute a data subject rights (DSR) request for delete or edit, please email [Microsoft](mailto:D365callintelligence@microsoft.com) and Microsoft will manually process the DSR to delete and edit.
 
 ## Data protection
