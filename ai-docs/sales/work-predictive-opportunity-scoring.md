@@ -52,7 +52,7 @@ The numbered columns are:
 
 ## Understand opportunity scoring widget
 
-In forms, you can use the opportunity score widget to see the top positive and negative reasons that are influencing the score. These reasons come from the opportunity attributes and attributes from related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a possible deal. The following image shows a typical **Opportunity score** widget, which lists the reasons that are influencing the opportunity score.
+In forms, you can use the opportunity score widget displays the top positive and negative reasons that influence the score. These reasons come from the opportunity attributes and attributes from related entities. The reasons help you to analyze and work on the opportunity to improve the score and convert the opportunity into a possible deal. The following image shows a typical **Opportunity score** widget.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget.png "Predictive opportunity score widget")
