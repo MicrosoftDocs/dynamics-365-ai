@@ -1,6 +1,6 @@
 ---
 title: "Work with Predictive lead scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
-description: ""
+description: "Work with Predictive lead scoring feature in Sales Insights for Dynamics 365 Sales"
 ms.date: 11/16/2020
 ms.service: crm-online
 ms.custom: 
