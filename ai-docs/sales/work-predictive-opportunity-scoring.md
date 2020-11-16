@@ -52,28 +52,6 @@ The numbered columns are:
 
 ## Understand opportunity scoring widget
 
-In forms, you can use the **opportunity score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the opportunity attributes and attributes from related entities. This helps you to analyze and work on the opportunity to improve the score and convert it into a possible deal.
-
->[!IMPORTANT]
->If you have opted in for early access of enhanced predictive opportunity scoring, the opportunity score widget provides more information on top reasons along with basic information. To learn more, see [Opportunity score widget in early access](#opportunity-score-widget-in-early-access).
-
-The following screen displays a typical opportunity score widget with reasons that are influencing the opportunity score:
-
-> [!div class="mx-imgBorder"]
-> ![Predictive opportunity score widget](media/predictive-opportunity-scoring-widget-v1.png "Predictive opportunity score widget")
-
-The numbered sections are:
-
-1. **Basic Information**: Displays the basic information of an opportunity—such as opportunity score, opportunity grade, and opportunity score trend—to help you avoid going back to the **My Open Opportunities Scored** view to see basic information.
-
-2. **Top Reasons**: Displays the list of reasons that are affecting the opportunity score. This helps you to analyze and consider the opportunity for converting it into a win deal. You can also take necessary action to improve the opportunity score, such as set up meetings and follow-ups.
-
-3. **Feedback**: Displays feedback that's provided by a user to an opportunity. You can change the feedback with an appropriate opportunity score. To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
-
-### Opportunity score widget in early access
-
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
-
 When you have opted in for early access of enhanced predictive opportunity scoring, the following image shows a typical **Opportunity score** widget, which lists the reasons that are influencing the opportunity score.
 
 > [!div class="mx-imgBorder"]
