@@ -1,7 +1,7 @@
 ---
 title: "Work with Predictive lead scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
 description: ""
-ms.date: 06/01/2020
+ms.date: 11/16/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -50,7 +50,7 @@ The numbered columns are:
  
 ## Understand lead scoring widget
 
-When you have opted in for early access of enhanced predictive lead scoring, the following image shows a typical **Lead score** widget, which lists the reasons that are influencing the lead score.
+In forms, you can use the Lead score widget to see the top positive and negative reasons that are influencing the score. These reasons come from the lead attributes and attributes from related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity. The following image shows a typical **Lead score** widget, which lists the reasons that are influencing the lead score.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
