@@ -30,21 +30,17 @@ Call summaries are available from the conversation intelligence capabilities of 
 
 ## View the call summary page
 
-**To view the call summary page in conversation intelligence in Sales Insights**
-
-- From the **Call history** section, open a conversation.
-
+**To view the call summary page in conversation intelligence in Sales Insights**  
+- From the **Call history** section, open a conversation.   
 The call summary page is displayed.
 
-**To view the call summary page on the Call Insights tab in Sales Hub app**
-
+**To view the call summary page on the Call Insights tab in Sales Hub app**   
 The **Call Insights** tab is available under activities for leads and opportunities. When a customer call about a lead or opportunity is processed in conversation intelligence, the **Call Insights** tab displays the information on the summary of the call.  
 
 1.	Sign in to Dynamics 365, and select **Change area** > **Sales**.  
 2.	On the site map, select **Activities**.
 3.	Select a phone call activity for which you want to view the call summary.  
-4.	Select the **Call Insights** tab.
-
+4.	Select the **Call Insights** tab.   
 The call summary for the selected phone call activity is displayed.
 
 > [!NOTE]
@@ -63,32 +59,25 @@ A call summary page includes the following sections:
 
 ### Summary, action items, and highlights
 
-#### Summary tab
-
-The **Summary** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows a **Summary** tab.
-
+#### Summary tab   
+The **Summary** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows a **Summary** tab.    
 > [!div class="mx-imgBorder"]
 > ![Sample Summary tab](media/ci-summary-call-summary.png "Sample Summary tab")
 
-#### Action items tab
-
+#### Action items tab   
 Displays a list of items mentioned during the call that sellers will need to keep track of and take action on after the call ends&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, you can see where it was mentioned on the transcript. Actionable items include: **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
 
-##### Set up a call
-
- If a call is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a call is displayed.
-
+##### Set up a call   
+ If a call is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a call is displayed.   
 > [!div class="mx-imgBorder"]
 > ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")
 
-1. Enter the following details:
-  
+1. Enter the following details:     
    - **Subject**: Summarize what the call is about. 
    - **From**: Select the name of the seller who will make a call to the contact that you add in the **To** field.
    - **To**: Select the name of the customer to call.
    - **Set date**: Select the date and time at which the call must be made.
-   - **Regarding field**: Select a record from an entity&mdash;such as opportunity, lead, contact, or account&mdash;that gives relevant information about the call.
-
+   - **Regarding field**: Select a record from an entity&mdash;such as opportunity, lead, contact, or account&mdash;that gives relevant information about the call.   
 2. Select **Create**.
 
 >[!NOTE]
@@ -97,10 +86,8 @@ Displays a list of items mentioned during the call that sellers will need to kee
 
 The call activity can be viewed under the activities of the attached record entity and on the seller's activity list. After the call activity is created, you can select the call under **See call** and the call activity will open in a browser tab.
 
-##### Create a task
-
-If a piece of work that the seller must perform is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.
-
+##### Create a task   
+If a piece of work that the seller must perform is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.   
 > [!div class="mx-imgBorder"]
 > ![Create a task](media/ci-action-item-create-task.png "Create a task")
 
@@ -108,8 +95,7 @@ If a piece of work that the seller must perform is mentioned in the transcript, 
    - **Subject**: Summarize what's involved in the task.
    - **Owner**: Select the owner of the task.
    - **Date and time**: Select a date by which the task must be completed.
-   - **Regarding field**: Select a record from an entity&mdash;such as an opportunity, lead, contact, or account&mdash;that gives relevant information about the task.  
-
+   - **Regarding field**: Select a record from an entity&mdash;such as an opportunity, lead, contact, or account&mdash;that gives relevant information about the task.   
 2. Select **Create**.
 
 >[!NOTE]
@@ -117,82 +103,62 @@ If a piece of work that the seller must perform is mentioned in the transcript, 
 
 The task activity can be viewed under the activities of the attached record entity and on the owner's activity list. When the task activity is created, you can select the task under **See task** and the task activity will open in a browser tab.
 
-##### Send an email
-
-If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.
-
+##### Send an email  
+If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.  
 > [!div class="mx-imgBorder"]
 > ![Send an email](media/ci-action-item-send-email.png "Send an email")
 
-1. Enter the following details:  
-
+1. Enter the following details:    
    - **Subject**: Summarize what the email is about.
    - **From**: By default, the name of the seller who participated in the call is selected.
-   - **To**: Select the recipients to send the email to.
-
+   - **To**: Select the recipients to send the email to.   
 2. Select **Open email**, and then compose and send the email.
 
 >[!NOTE]
 >If you think this action item would be better handled as a task than an email, select **Create task**. 
 
-##### Set up a meeting
-
-If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.
-
+##### Set up a meeting   
+If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.   
 > [!div class="mx-imgBorder"]
 > ![Set up a meeting](media/ci-action-item-setup-meeting.png "Set up a meeting")
 
-1. Enter the following details:
-
+1. Enter the following details:   
    - **Subject**: Summarize the reason for the meeting. 
    - **Owner**: By default, the name of the seller who participated in the call is selected.
    - **To**: Select the contacts to meet with.
-   - **Date and time**: Select a date and time on which you want to schedule the meeting.
-
+   - **Date and time**: Select a date and time on which you want to schedule the meeting.   
 2. Select **Open calendar**.
 
 >[!NOTE]
 >If you think this action item would be better handled as a task than a meeting, select **Create task**.
 
-#### Highlights tab
-
-The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.
-
+#### Highlights tab   
+The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.   
 - **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
 - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso.
 - **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV."  
 - **Competitors**: Displays the predefined competitors that customers mentioned during the call.
 - **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
-- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.
+- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.  
 
-The following image is an example of a **Highlights** tab.
-
+The following image is an example of a **Highlights** tab.   
 > [!div class="mx-imgBorder"]
 > ![Highlights tab](media/ci-summary-keywords.png "Highlights tab")
 
-### Call transcript and translation
-
-The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. The following image shows an example of a **Transcript** tab.
-
+### Call transcript and translation    
+The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. The following image shows an example of a **Transcript** tab.    
 > [!div class="mx-imgBorder"]
-> ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")
-
-As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.
-
-As a seller, you can review the transcript and comments that have been posted by your manager or coach. 
-
-You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.  
-
+> ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")   
+- As a manager, you can review the transcript and leave a comment&mdash;for example, suggesting how the seller might handle a similar situation in the future.   
+- As a seller, you can review the transcript and comments that have been posted by your manager or coach.    
+You can reply to comments, or add your own. Hover over the relevant area of the transcript, select **Add comment** to reply or make a comment yourself, and then select **Save**.   
 > [!div class="mx-imgBorder"]
-> ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")
-
+> ![Add a comment to a transcript](media/ci-transcript-comment.png "Add a comment to a transcript")   
 The brands, tracked keywords, and competitors mentioned in the conversation are formatted in bold in the transcript.
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
-### Call playback timeline and segmentation
-
-The following image shows a call playback timeline.  
-
+### Call playback timeline and segmentation   
+The following image shows an example call playback timeline.    
 > [!div class="mx-imgBorder"]
 > ![Playback timeline with segmentation](media/ci-summary-playback.png "Playback timeline with segmentation")
 
@@ -204,5 +170,5 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 
 ### See also
 
-[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)  
+[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)      
 [Track and manage activities](https://docs.microsoft.com/dynamics365/sales-enterprise/manage-activities)

@@ -1,7 +1,7 @@
 ---
 title: "Configure and view your team page in conversation intelligence | MicrosoftDocs"
 description: "Configure and view your team page in conversation intelligence "
-ms.date: 04/09/2020
+ms.date: 11/17/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
