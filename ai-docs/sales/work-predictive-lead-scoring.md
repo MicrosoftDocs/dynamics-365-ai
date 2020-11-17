@@ -1,7 +1,7 @@
 ---
 title: "Work with Predictive lead scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
-description: ""
-ms.date: 06/01/2020
+description: "Work with Predictive lead scoring feature in Sales Insights for Dynamics 365 Sales"
+ms.date: 11/16/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -50,29 +50,7 @@ The numbered columns are:
  
 ## Understand lead scoring widget
 
-In forms, you can use the **Lead score** widget to see the top positive and negative reasons that are influencing the score. These reasons come from the lead attributes and attributes from related entities. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity.
-
->[!IMPORTANT]
->If you have opted in for early access of enhanced predictive lead scoring, the lead score widget provides more information on top reasons along with basic information. To learn more, see [Lead score widget in early access](#lead-score-widget-in-early-access).
-
-The following screen displays a typical lead score widget with reasons that are influencing the lead score:
-
-> [!div class="mx-imgBorder"]
-> ![Predictive lead score widget](media/predictive-lead-scoring-widget-v1.png "Predictive lead score widget")
-
-The numbered sections are:
-
-1. **Basic Information**: Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
-
-2. **Top Reasons** Displays the list of reasons that are affecting the lead score. This helps you to analyze and consider the lead for converting into an opportunity. You can also take necessary actions to improve the lead score, such as set up meetings and follow-ups.
-
-3. **Feedback** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. To provide feedback, select the Chat icon and enter the expected score and comments. To save the feedback, select Send.
-
-### Lead score widget in early access
-
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
-
-When you have opted in for early access of enhanced predictive lead scoring, the following image shows a typical **Lead score** widget, which lists the reasons that are influencing the lead score.
+In forms, the lead score widget displays the top positive and negative reasons that influence the score. These reasons come from the lead attributes and attributes from related entities. The reasons help you analyze and work on the lead to improve the score and convert the lead into a possible opportunity. The following image shows a typical **Lead score** widget.
 
 > [!div class="mx-imgBorder"]
 > ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
