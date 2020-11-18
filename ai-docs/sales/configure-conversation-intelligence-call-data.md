@@ -110,13 +110,11 @@ Upload the call recording the created call recording repository (blob container)
         "participants": [
             {
                 "id": 1,
-                "channelIndex": 1,
                 "role": "agent",
                 "email": "username@yourorganization.com"
             },
             {
                 "id": 2,
-                "channelIndex": 2,
                 "role": "customer"
             }
         ],
