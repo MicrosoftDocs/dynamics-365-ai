@@ -39,7 +39,7 @@ The **Call Insights** tab is available under activities for leads and opportunit
 1.	Sign in to Dynamics 365, and select **Change area** > **Sales**.  
 2.	On the site map, select **Activities**.
 3.	Select a phone call activity for which you want to view the call summary.  
-4.	Select the **Call Insights** tab.   
+4.	Select the **Call summary** tab.   
 The call summary for the selected phone call activity is displayed.   
 > [!NOTE]
 > Select the **Related opportunity** tab to see a list of opportunities that have been associated with the call. To add a related opportunity to the call, search for and select the opportunity.     
