@@ -65,7 +65,7 @@ Now you are ready to upload call recordings to the blob container and configure 
 
 ## Upload call recordings
 
-You must upload the call recording the created call recording repository (blob container) in Azure to process and get data. You must upload the following files to process the calls:
+Upload the call recording the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the calls:
 
 - Call recording file in audio formats, such as MP3 and WAV.
 - Corresponding metadata file in JSON format.
@@ -83,60 +83,100 @@ You must upload the call recording the created call recording repository (blob c
 - The names of the uploaded files must be unique for your organization and must not be repeated.
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
-  |Parameter|Description|
-  |---------|-----------|
-  | `AgentAADUserId` | Specifies the unique identification code of your agent. | 
-  | `AgentCrmUserId` | Specifies the unique identification code of the agent in your Dynamics 365 Sales organization. |
-  | `AgentAccountEmail`| Specifies the email account of the agent in your Dynamics 365 Sales organization. | 
-  | | **Note**: You must use at least one parameter from `AgentAADUserId`, `AgentCrmUserId`, or `AgentAccountEmail` while creating a JSON file. When you use other parameters, ensure that the details are specific to the same agent. In the below example JSON file, we have used `AgentAADUserId`. |
-  | `CreatedTimestamp`| Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**.|
-  | `Locale` | Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, pt-PT, nl-NL, and zh-CN. |
-  | `Id`| Specifies the unique identification code of the call. Generate this code using the GUID generator. |
-  | `StartTime` | Specifies the start time of the call in milliseconds and calculated based on the UNIX Epoch time. For example, when the call start time is **14 Dec 2018 12:39:56 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544791196000**. |
-  | `Direction` | Specifies whether the call is inbound or outbound. |
-  | `FileName` | Specifies the name of the audio file. |
-  | `Title` | Specifies the title of the call.|
-  | `AgentChannel` | (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
-  | `AgentPhoneNumber`| (Optional) Specifies the phone number of the agent.|
-  | `CustomerPhoneNumber` | (Optional) Specifies the phone number of the customer whom your sales rep contacted. |
-  | `CallContactCrmId` | (Optional) Specifies the ID (GUID) of the related contact entity in Dynamics 365 Sales. |
-  | `CallOpportunityCrmId` | (Optional) Specifies the ID (GUID) of the related opportunity entity in Dynamics 365 Sales. |
-  | `CallMediaReferenceCrmId`| (Optional) Specifies the string of softphone that is used during the integration with Dynamics 365 Channel Integration Framework. |
-  | `CallLeadCrmId` |  (Optional) Specifies the ID (GUID) of the related lead entity in Dynamics 365 Sales. |
-  | `CallAccountCrmId` |  (Optional) Specifies the ID (GUID) of the related account entity in Dynamics 365 Sales. |
-  | `CallPhoneCallCrmId` | (Optional) Specifies the ID (GUID) of the related phone call activity entity in Dynamics 365 Sales. |
-  | `CallScope` | (Optional) Specifies whether the call is internal or external. The value is **External** or **Internal**.|
-  | `IsAgentRecordingOnly` | (Optional) Specifies the audio file contains only the voice of your sales rep. The value is specified in True or False. By default, the value is False. If the value is set as True, the call will not be processed. |
-  | `QueueId`| (Optional) Specifies the unique identification code for the queue. |    
-  | `QueueName`| (Optional) Specifies the name of the queue in which the sales rep is on. |  
-  | `Provider`| (Optional) Specifies the service provider of the call such as Skype. |  
-  | `Region`| (Optional) Specifies from which region the call originated, such as NA (North America). |  
-  | `CreatedTimestamp`| (Optional) Specifies the time at which the audio file is created in milliseconds and calculated based on the UNIX Epoch time. For example, when the audio file is **14 Dec 2018 15:00:00 GMT**, then the corresponding Epoch timestamp in milliseconds is **1544779800000**. |  
-  | `country`| (Optional) Specifies from which country the call originated. | 
-  <!--| `fileChannelType`| (Optional) Specifies the call channel type such as OneWay or TwoWay. TwoWay represents stereo type audio.|-->
-  
+    | Parameter | Objects | Description|
+    |-----------|---------|------------|
+    | `FileName` | - | Specifies the name of the audio file. |
+    | `conversationType`| - | Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
+    | `startTime` | - |Specifies the start time of the call in milliseconds and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
+    | `participants` | | Specifies the details of the participants. |
+    || `id`| Specifies the unique identification code of each participant. Generate this code using the GUID generator. |
+    || `role`| Specifies the role of the participant such as, agent, customer, and manager. |
+    || `email` | Specifies the email ID of the participant. |
+    || `crmId` | Specifies the CRM ID of the participant. |
+    || `aadId` | Specifies the Azure Directory ID of the participant. |
+    |||**Note**: To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`  |
+    || `channelIndex` | (Optional) Specifies the channel that the participant is recorded on.|
+    || `displayName` | (Optional) Specifies the display name of the participant. |
+    || `phoneNumber` | (Optional) Specifies the phone number of the participant. |
+    | `crm` || Specifies the details of CRM. |
+    || `accounts`| Specifies an array of the CRM accounts that are related to the conversation. Each account must contain the `id` and `name`. |
+    || `contacts`| Specifies an array of the CRM contacts that are related to the conversation. Each contact must contain the `id` and `name`.|
+    || `lead` | Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id` and `name`.|
+    || `opportunity` | Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id` and `name`.|
+    || `activity` | Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id` and `name`.|
+    || `mediaReferenceId` | Specifics the CRM media reference ID (Guid) |.
+    | `locale` || Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, pt-PT, nl-NL, and zh-CN. |
+    | `title` || (Optional) Specifies the title of the call. |
+    | `scope` || (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
+    | `agentChannel` || (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
+    | `country`|| (Optional) Specifies from which country the call originated. |
+    | `provider`|| (Optional) Specifies the service provider of the call such as Skype. |
+    | `payload` || (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://crm-si-new-api-app.azurewebsites.net/infra/v1.0-preview/docs/#/). |
+    | `trackedKeywords` | | (Optional) Specifies the keywords that must be tracked in the conversation and based on the organization and manager level keywords. |
+    | `trackedCompetitors` || (Optional) Specifies the competitors that must be tracked in the conversation and based on the organization and manager level keywords.|
+
     The following sample is an example of JSON file format:
-    ```
+    ``` JSON
     {
-        "AgentAADUserId": "6b105575-g55a-e611-00ka-5065f38b0211",
-        "StartTime": "1554890363917",
-        "Direction": "OutBound",
-        "CallerPhoneNumber": "Your caller phone number",
-        "CreatedTimestamp": "1554890368934",
-        "CustomerPhoneNumber": "Your customer phone number",
-        "FileName": "Sample.mp3",
-        "IsAgentRecordingOnly": true,
-        "Locale": "en-US",
-        "Provider": "SkypeCTI",
-        "Region": "Commercial Sales",
-        "Title": "Sales call",
-        "CallPhoneCallCrmId": "33840960-a186-0a0b-ae0a-db69afd6b8e5"
-        "Country": "United States",
-        "Id": "4a14995b-4fd0-493e-85d4-9eb48d28e799",
-        "Title": "Contoso Deal",
+        "id": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66",
+        "fileName": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66.mp3",
+        "conversationType": "audio",
+        "title": "Contoso Deal 1/1. Metadata version: v3.",
+        "startTime": "2020-11-17T13:33:59.909Z",
+        "participants": [
+            {
+            "id": 1,
+            "channelIndex": 1,
+            "role": "agent",
+            "email": "username@yourorganization.com"
+            },
+            {
+            "id": 2,
+            "channelIndex": 2,
+            "role": "customer"
+            }
+        ],
+        "locale": "en-us",
+        "direction": "outbound",
+        "agentChannel": "left",
+        "scope": "internal",
+        "version": "3.0.0",
+        "customerPayload": {
+            "internalId": "a38ad647-ea6c-4e2d-a833-c60d1748b14d"
+        },
+        "region": "North America",
+        "country": "United states",
+        "provider": "Skype",
+        "crm": {
+            "activity":{
+                "id": "f470ea8b-d928-eb11-a813-000d3a8d88aa",
+                "name": "myActivityName"
+            },
+            "contacts": [
+                {
+                "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
+                "name": "contactName"
+                }
+            ],
+            "accounts": [
+                {
+                "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
+                "name": "accountName"
+                }
+            ],
+            "lead": {
+                "id": "438c8775-7af8-44e3-b5ec-07dd5f561c52",
+                "name": "leadName"
+            },
+            "opportunity": {
+                "id": "b01138c5-9d50-4da7-a2ca-31cf180d0b8c",
+                "name": "opportunityName"
+            },
+        "mediaReferenceId" : "2d960ae3-e527-477c-83aa-862794ad5795"
+        }
     }
     ```
-    <!--"fileChannelType": "TwoWay",-->
+  
 > [!div class="nextstepaction"] 
 > [Continue with First-run set up experience](fre-setup-sales-insight-app.md#administrator-setting-up-application)
 
