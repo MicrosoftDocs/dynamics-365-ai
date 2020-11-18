@@ -20,12 +20,9 @@ topic-status: Drafting
 
 Conversation intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sellers. This helps the sales managers change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
-You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:
-
-1. [Review the prerequisites](prereq-sales-insights-app.md)
-
-2. [Create a call recording repository](#create-call-recording-repository).
-
+You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:   
+1. [Review the prerequisites](prereq-sales-insights-app.md)  
+2. [Create a call recording repository](#create-call-recording-repository).  
 3. [Upload call recordings](#upload-call-recordings).
 
 > [!NOTE] 
@@ -33,34 +30,22 @@ You must have administrative privileges to configure **Call intelligence** for y
 
 ## Create call recording repository
 
-Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess. 
-
+Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for **Call intelligence** to assess.   
 > [!NOTE] 
-> While creating the repository, ensure that the repository is created in the same region as your tenant to upload the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.    
- 
-1. Sign in to the Azure dashboard.
-
-2. On the navigation pane, select **All resources**, and open the desired storage account.
-
+> While creating the repository, ensure that the repository is created in the same region as your tenant to upload the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.      
+1. Sign in to the Azure dashboard.   
+2. On the navigation pane, select **All resources**, and open the desired storage account.   
     > [!div class="mx-imgBorder"]
-    > ![Azure All resources option](media/azure_allresources.png "Azure all resources option")
-
-3. From **Blob service**, select **Blobs** then **+ Container**.
-
+    > ![Azure All resources option](media/azure_allresources.png "Azure all resources option")    
+3. From **Blob service**, select **Blobs** then **+ Container**.   
     > [!div class="mx-imgBorder"]
-    > ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")
-
-4. Specify the container information, such as name and public access level.
-
-5. Select **OK**.
-
-   The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)<br> 
-
-6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.
-
+    > ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")   
+4. Specify the container information, such as name and public access level.   
+5. Select **OK**.   
+   The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)   
+6. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect **Call intelligence** to your Azure storage account.   
     > [!div class="mx-imgBorder"]
-    > ![Note connection string](media/azure-connectionstring.png "Note the connection string")
-
+    > ![Note connection string](media/azure-connectionstring.png "Note the connection string")    
 Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence. 
 
 ## Upload call recordings
@@ -112,7 +97,7 @@ Upload the call recording the created call recording repository (blob container)
     | `provider`|-| (Optional) Specifies the service provider of the conversation such as Skype. |
     | `payload` |-| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
     | `trackedKeywords` |-| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
-    | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and based on the organization and manager level keywords.|
+    | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level keywords.|
 
     The following sample is an example of JSON file format:
     ``` JSON
@@ -120,19 +105,19 @@ Upload the call recording the created call recording repository (blob container)
         "id": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66",
         "fileName": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66.mp3",
         "conversationType": "audio",
-        "title": "Contoso Deal 1/1. Metadata version: v3.",
+        "title": "Contoso Deal 1/1. Metadata version: v3.0.0",
         "startTime": "2020-11-17T13:33:59.909Z",
         "participants": [
             {
-            "id": 1,
-            "channelIndex": 1,
-            "role": "agent",
-            "email": "username@yourorganization.com"
+                "id": 1,
+                "channelIndex": 1,
+                "role": "agent",
+                "email": "username@yourorganization.com"
             },
             {
-            "id": 2,
-            "channelIndex": 2,
-            "role": "customer"
+                "id": 2,
+                "channelIndex": 2,
+                "role": "customer"
             }
         ],
         "locale": "en-us",
@@ -153,14 +138,14 @@ Upload the call recording the created call recording repository (blob container)
             },
             "contacts": [
                 {
-                "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
-                "name": "contactName"
+                    "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
+                    "name": "contactName"
                 }
             ],
             "accounts": [
                 {
-                "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
-                "name": "accountName"
+                    "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
+                    "name": "accountName"
                 }
             ],
             "lead": {
@@ -171,8 +156,10 @@ Upload the call recording the created call recording repository (blob container)
                 "id": "b01138c5-9d50-4da7-a2ca-31cf180d0b8c",
                 "name": "opportunityName"
             },
-        "mediaReferenceId" : "2d960ae3-e527-477c-83aa-862794ad5795"
-        }
+            "mediaReferenceId" : "2d960ae3-e527-477c-83aa-862794ad5795"
+        },
+        "trackedKeywords": [  "printer", "price" ],
+        "trackedCompetitors": [ "Contoso", "Alpine Ski House" ]
     }
     ```
   
