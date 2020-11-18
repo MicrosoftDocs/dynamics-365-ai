@@ -105,15 +105,15 @@ Upload the call recording the created call recording repository (blob container)
     || `opportunity` | Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id` and `name`.|
     || `activity` | Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id` and `name`.|
     || `mediaReferenceId` | Specifics the CRM media reference ID (Guid) |.
-    | `locale` || Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, pt-PT, nl-NL, and zh-CN. |
-    | `title` || (Optional) Specifies the title of the call. |
-    | `scope` || (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
-    | `agentChannel` || (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
-    | `country`|| (Optional) Specifies from which country the call originated. |
-    | `provider`|| (Optional) Specifies the service provider of the call such as Skype. |
-    | `payload` || (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://crm-si-new-api-app.azurewebsites.net/infra/v1.0-preview/docs/#/). |
-    | `trackedKeywords` | | (Optional) Specifies the keywords that must be tracked in the conversation and based on the organization and manager level keywords. |
-    | `trackedCompetitors` || (Optional) Specifies the competitors that must be tracked in the conversation and based on the organization and manager level keywords.|
+    | `locale` |-| Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, pt-PT, nl-NL, and zh-CN. |
+    | `title` |-| (Optional) Specifies the title of the call. |
+    | `scope` |-| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
+    | `agentChannel` |-| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
+    | `country`|-| (Optional) Specifies from which country the call originated. |
+    | `provider`|-| (Optional) Specifies the service provider of the call such as Skype. |
+    | `payload` |-| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://crm-si-new-api-app.azurewebsites.net/infra/v1.0-preview/docs/#/). |
+    | `trackedKeywords` |-| (Optional) Specifies the keywords that must be tracked in the conversation and based on the organization and manager level keywords. |
+    | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and based on the organization and manager level keywords.|
 
     The following sample is an example of JSON file format:
     ``` JSON
