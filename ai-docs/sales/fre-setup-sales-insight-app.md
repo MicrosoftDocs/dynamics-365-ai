@@ -99,7 +99,7 @@ Perform the following steps to configure conversation intelligence through the S
         - **Enable automatic identification of top performers**: The application automatically selects the top performers based on the number of leads they qualified or opportunities they won. When you select this option, you choose whether to rank performers **by won opportunities** or **by lead qualification**.  
     > [!div class="mx-imgBorder"]
     > ![Choose and configure your sales team](media/ci-admin-choose-sales-team.png "Choose and configure your sales team")  
-    You can skip configuring this section and add your sales team later, when required. More information: [Configure sales team information in Sales Hub app](../sales/configure-view-your-team-page.md#configure-sales-team-information-in-the-sales-hub-app)  
+    You can skip configuring this section and add your sales team later, when required. More information: [Configure and view your team page](../sales/configure-view-your-team-page.md)  
 8.	In the **License usage** section, you can view the information about the total call recording processing hours left and used. This information view-only and can't be changed.  
     > [!div class="mx-imgBorder"]
     > ![View license usage information](media/ci-admin-license-usage.png "View license usage information")   

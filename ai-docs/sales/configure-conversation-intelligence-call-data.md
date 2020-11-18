@@ -85,34 +85,33 @@ Upload the call recording the created call recording repository (blob container)
 
     | Parameter | Objects | Description|
     |-----------|---------|------------|
-    | `FileName` | - | Specifies the name of the audio file. |
+    | `fileName` | - | Specifies the name of the conversation file. |
     | `conversationType`| - | Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
-    | `startTime` | - |Specifies the start time of the call in milliseconds and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
+    | `startTime` | - |Specifies the start time of the conversation in milliseconds and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
-    || `id`| Specifies the unique identification code of each participant. Generate this code using the GUID generator. |
-    || `role`| Specifies the role of the participant such as, agent, customer, and manager. |
+    || `id`| Specifies the unique identification number of each participant. for example, 1, 2 ,3, and 4. |
+    || `role`| Specifies the role of the participant such as, agent or customer. |
     || `email` | Specifies the email ID of the participant. |
     || `crmId` | Specifies the CRM ID of the participant. |
     || `aadId` | Specifies the Azure Directory ID of the participant. |
     |||**Note**: To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`  |
-    || `channelIndex` | (Optional) Specifies the channel that the participant is recorded on.|
     || `displayName` | (Optional) Specifies the display name of the participant. |
     || `phoneNumber` | (Optional) Specifies the phone number of the participant. |
     | `crm` || Specifies the details of CRM. |
-    || `accounts`| Specifies an array of the CRM accounts that are related to the conversation. Each account must contain the `id` and `name`. |
-    || `contacts`| Specifies an array of the CRM contacts that are related to the conversation. Each contact must contain the `id` and `name`.|
-    || `lead` | Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id` and `name`.|
-    || `opportunity` | Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id` and `name`.|
-    || `activity` | Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id` and `name`.|
-    || `mediaReferenceId` | Specifics the CRM media reference ID (Guid) |.
-    | `locale` |-| Specifies the language used in the call. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, pt-PT, nl-NL, and zh-CN. |
-    | `title` |-| (Optional) Specifies the title of the call. |
+    || `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account must contain the `id`. |
+    || `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact must contain the `id`.|
+    || `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`.|
+    || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
+    || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
+    || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
+    | `locale` |-| Specifies the language used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
+    | `title` |-| (Optional) Specifies the title of the conversation. |
     | `scope` |-| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
     | `agentChannel` |-| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
-    | `country`|-| (Optional) Specifies from which country the call originated. |
-    | `provider`|-| (Optional) Specifies the service provider of the call such as Skype. |
-    | `payload` |-| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://crm-si-new-api-app.azurewebsites.net/infra/v1.0-preview/docs/#/). |
-    | `trackedKeywords` |-| (Optional) Specifies the keywords that must be tracked in the conversation and based on the organization and manager level keywords. |
+    | `country`|-| (Optional) Specifies from which country the conversation originated. |
+    | `provider`|-| (Optional) Specifies the service provider of the conversation such as Skype. |
+    | `payload` |-| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
+    | `trackedKeywords` |-| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
     | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and based on the organization and manager level keywords.|
 
     The following sample is an example of JSON file format:
