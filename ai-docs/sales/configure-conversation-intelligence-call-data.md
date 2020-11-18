@@ -178,7 +178,7 @@ Upload the call recording the created call recording repository (blob container)
     ```
   
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#administrator-setting-up-application)
+> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#configure-the-conversation-intelligence-application)
 
 ## Update configuration of call data
 
