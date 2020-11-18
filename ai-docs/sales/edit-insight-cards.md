@@ -19,6 +19,8 @@ caps.latest.revision: 1
 
 # Edit insight cards
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Editing the cards allows you to do the following tasks based on the card:
 
 - [Turn cards on or off](#turn-cards-on-or-off)
