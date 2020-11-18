@@ -74,7 +74,7 @@ Upload the call recording the created call recording repository (blob container)
     | `conversationType`| - | Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
     | `startTime` | - |Specifies the start time of the conversation in milliseconds and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
-    || `id`| Specifies the unique identification number of each participant. for example, 1, 2 ,3, and 4. |
+    || `id`| Specifies the unique identification number of each participant. for example, 1, 2, and 3. |
     || `role`| Specifies the role of the participant such as, agent or customer. |
     || `email` | Specifies the email ID of the participant. |
     || `crmId` | Specifies the CRM ID of the participant. |
@@ -83,13 +83,13 @@ Upload the call recording the created call recording repository (blob container)
     || `displayName` | (Optional) Specifies the display name of the participant. |
     || `phoneNumber` | (Optional) Specifies the phone number of the participant. |
     | `crm` || Specifies the details of CRM. |
-    || `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account must contain the `id`. |
-    || `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact must contain the `id`.|
+    || `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains `id`. |
+    || `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains `id`.|
     || `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`.|
     || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
     || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
     || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
-    | `locale` |-| Specifies the language used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
+    | `locale` |-| Specifies the language used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-BH, ar-AE,ar-BH,ar-EG,ar-IQ,ar-JO,ar-KW,ar-LB,ar-OM,ar-QA,ar-SA, and ar-SY. |
     | `title` |-| (Optional) Specifies the title of the conversation. |
     | `scope` |-| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
     | `agentChannel` |-| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
@@ -132,31 +132,26 @@ Upload the call recording the created call recording repository (blob container)
         "crm": {
             "activity":{
                 "id": "f470ea8b-d928-eb11-a813-000d3a8d88aa",
-                "name": "myActivityName"
             },
             "contacts": [
                 {
                     "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
-                    "name": "contactName"
                 }
             ],
             "accounts": [
                 {
                     "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
-                    "name": "accountName"
                 }
             ],
             "lead": {
                 "id": "438c8775-7af8-44e3-b5ec-07dd5f561c52",
-                "name": "leadName"
             },
             "opportunity": {
                 "id": "b01138c5-9d50-4da7-a2ca-31cf180d0b8c",
-                "name": "opportunityName"
             },
-            "mediaReferenceId" : "2d960ae3-e527-477c-83aa-862794ad5795"
+            "mediaReferenceId": "2d960ae3-e527-477c-83aa-862794ad5795"
         },
-        "trackedKeywords": [  "printer", "price" ],
+        "trackedKeywords": [ "printer", "price" ],
         "trackedCompetitors": [ "Contoso", "Alpine Ski House" ]
     }
     ```
