@@ -89,7 +89,7 @@ Upload the call recording the created call recording repository (blob container)
     || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
     || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
     || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
-    | `locale` |-| Specifies the language used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-BH, ar-AE,ar-BH,ar-EG,ar-IQ,ar-JO,ar-KW,ar-LB,ar-OM,ar-QA,ar-SA, and ar-SY. |
+    | `locale` |-| Specifies the language used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-BH, ar-AE, ar-BH, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
     | `title` |-| (Optional) Specifies the title of the conversation. |
     | `scope` |-| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
     | `agentChannel` |-| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
