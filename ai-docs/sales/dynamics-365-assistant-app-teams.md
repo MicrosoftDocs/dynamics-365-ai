@@ -19,6 +19,8 @@ topic-status: Drafting
 
 # Dynamics 365 assistant application for Teams
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
