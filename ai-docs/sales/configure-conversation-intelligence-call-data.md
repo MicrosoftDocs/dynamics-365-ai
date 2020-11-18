@@ -89,7 +89,8 @@ Upload the call recording the created call recording repository (blob container)
     || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
     || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
     || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
-    | `locale` |-| Specifies the language used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-BH, ar-AE, ar-BH, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
+    | `locale` |-| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-BH, ar-AE, ar-BH, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
+    | `version` |-| Specifies the version of metadata file. The value is v3.0.0.|
     | `title` |-| (Optional) Specifies the title of the conversation. |
     | `scope` |-| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
     | `agentChannel` |-| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
@@ -97,7 +98,7 @@ Upload the call recording the created call recording repository (blob container)
     | `provider`|-| (Optional) Specifies the service provider of the conversation such as Skype. |
     | `payload` |-| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
     | `trackedKeywords` |-| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
-    | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level keywords.|
+    | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors.|
 
     The following sample is an example of JSON file format:
     ``` JSON
