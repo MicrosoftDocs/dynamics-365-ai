@@ -23,7 +23,7 @@ Conversation intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/p
 You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:   
 1. [Review the prerequisites](prereq-sales-insights-app.md)  
 2. [Create a call recording repository](#create-call-recording-repository).  
-3. [Upload call recordings](#upload-call-recordings).
+3. [Upload call recordings or transcripts](#upload-call-recordings).
 
 > [!NOTE] 
 > If you want to update the storage container and connection string, see [Update configuration of call data](#update-configuration-of-call-data). 
@@ -48,24 +48,182 @@ Create a call recording repository (blob container) in an Azure storage account 
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")    
 Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence. 
 
-## Upload call recordings
+<a name="upload-call-recordings"></a>
+## Upload call recordings or transcripts
 
-Upload the call recording the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the calls:
+Upload the call recording or transcript the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the calls:
 
-- Call recording file in audio formats, such as MP3 and WAV.
-- Corresponding metadata file in JSON format.
+- Call recording or transcript file. To learn more about transcript file, see [Transcript file](#transcript-file).   
+- Corresponding metadata file in JSON format.   
 
 > [!NOTE]
 > - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
 > - The **conversation-intelligence-managed** container is created and managed automatically by the application.
 
-**Review the following requirements for audio and JSON files before you upload**
+**Review the following requirements for files before you upload**
 
-- The file names for the audio and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. 
-- The file name cannot contain reserved characters, such as **!*'();:@&=+$,/?%#[]"**.
+- The file name cannot contain reserved characters, such as, **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
 - The names of the uploaded files must be unique for your organization and must not be repeated.
+- The file names for the audio or transcript file, and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. Similarly, name of the transcript file is **call-recording-10-dec-2018.transcript.json**, the corresponding JSON file is named **call-recording-10-dec-2018.json**.
+- <a name="transcript-file"></a> The transcript file must be a JSON file and the format of the file name is ***name*.transcript.json** and contains an array of fragments. Each fragment contains the following parameters:  
+    | Parameter | Objects | Description|
+    |-----------|---------|------------|
+    | `id` |--| The unique ID of the transcript fragment (GUID). |
+    | `text` |--| The content of the fragment. |
+    | `offset` |--| The relative start time of the fragment from the start of the conversation in milliseconds. |
+    | `duration` |--| The duration of the fragment from the offset in milliseconds. |
+    | `participantId` |--| The participant ID in the conversation. For example, 1, 2, and 3. |
+    | `words` |--| (Optional) An array of words in the fragment. |
+    || `word` | A word in a phrase. |
+    ||`offset`| The time of the word from the start of the conversation in milliseconds. |
+    ||`duration`| The audio duration of this word in milliseconds. |
+    |`confidence`|--|(Optional) The confidence value of the fragment. The value must be between 0 to 1.|
+    |`locale`|--| The locale of the fragment. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-AE, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
+
+    The following sample is an example of transcript JSON file:  
+    ```JSON
+    [
+        {
+            "id": "3fc7468d-85e1-990d-de37-d6a65bd8233f",
+            "text": "Hello hello Matthews, this Scott calling from Contoso to see how your printer trial is going.",
+            "offset": 1230,
+            "duration": 6460,
+            "participantId": 1,
+            "words": [
+            {
+                "text": "Hello",
+                "offset": 12300,
+                "duration": 5300
+            },
+            {
+                "text": "hello",
+                "offset": 17800,
+                "duration": 3100
+            },
+            {
+                "text": "Matthews,",
+                "offset": 20900,
+                "duration": 5000
+            },
+            {
+                "text": "this",
+                "offset": 25900,
+                "duration": 1700
+            },
+            {
+                "text": "Scott",
+                "offset": 27600,
+                "duration": 3500
+            },
+            {
+                "text": "calling",
+                "offset": 31100,
+                "duration": 3100
+            },
+            {
+                "text": "from",
+                "offset": 34200,
+                "duration": 1400
+            },    
+            { 
+                "text": "Contoso",
+                "offset": 35600,
+                "duration": 5600
+            },
+            {
+                "text": "to",
+                "offset": 41200,
+                "duration": 1100
+            },
+            {
+                "text": "see",
+                "offset": 42300,
+                "duration": 2000
+            },
+            {
+                "text": "how",
+                "offset": 44300,
+                "duration": 1200
+            },
+            {
+                "text": "your",
+                "offset": 45500,
+                "duration": 2200
+            },
+            {
+                "text": "printer",
+                "offset": 47700,
+                "duration": 5000
+            },
+            {
+                "text": "trial",
+                "offset": 65900,
+                "duration": 4000
+            },
+            {
+                "text": "is",
+                "offset": 69900,
+                "duration": 1600
+            },
+            {
+                "text": "going.",
+                "offset": 71500,
+                "duration": 5400
+            }
+            ],
+           "confidence": 0.925755441,
+         "locale": "en-us"
+         },
+        {
+            "id": "4f86204d-9a1b-4967-a66f-e2c40fa33484",
+            "text": "Are you able to start using it?",
+            "offset": 7710,
+            "duration": 1330,
+            "participantId": 1,
+            "words": [
+            {
+                "text": "Are",
+                "offset": 77100,
+                "duration": 1800
+            },
+            {
+                "text": "you",
+                "offset": 78900,
+                "duration": 900
+            },
+            {
+                "text": "able",
+                "offset": 79800,
+                "duration": 1700
+            },
+            {
+                "text": "to",
+                "offset": 81500,
+                "duration": 800
+            },
+            {
+                "text": "start",
+                "offset": 82300,
+                "duration": 2700
+            },
+            {
+                "text": "using",
+                "offset": 85000,
+                "duration": 2700
+            },
+            {
+                "text": "it?",
+                "offset": 87700,
+                "duration": 2700
+            }
+            ],
+        "confidence": 0.925755441,
+        "locale": "en-us"
+        },
+    ]
+    ```   
 - The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
     | Parameter | Objects | Description|
@@ -74,7 +232,7 @@ Upload the call recording the created call recording repository (blob container)
     | `conversationType`| - | Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
     | `startTime` | - |Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
-    || `id`| Specifies the unique identification number of each participant. for example, 1, 2, and 3. |
+    || `id`| Specifies the unique identification number of each participant. For example, 1, 2, and 3. |
     || `role`| Specifies the role of the participant such as, agent or customer. |
     || `email` | Specifies the email ID of the participant. |
     || `crmId` | Specifies the CRM ID of the participant. |
