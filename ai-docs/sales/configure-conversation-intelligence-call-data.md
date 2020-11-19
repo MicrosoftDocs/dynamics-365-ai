@@ -51,9 +51,11 @@ Now you are ready to upload call recordings to the blob container and configure 
 <a name="upload-call-recordings"></a>
 ## Upload call recordings or transcripts
 
-Upload the call recording or transcript the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the calls:
+Upload the call recording or transcript to the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the call or transcript:
 
-- Call recording or transcript file. To learn more about transcript file, see [Transcript file](#transcript-file).   
+- Call recording or transcript file.   
+    - The format of audio file can be MP3, WAV, or OGG.
+    - To know about transcript file, see [Transcript file](#transcript-file).   
 - Corresponding metadata file in JSON format.   
 
 > [!NOTE]
