@@ -68,6 +68,7 @@ Upload the call recording or transcript the created call recording repository (b
 - The names of the uploaded files must be unique for your organization and must not be repeated.
 - The file names for the audio or transcript file, and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. Similarly, name of the transcript file is **call-recording-10-dec-2018.transcript.json**, the corresponding JSON file is named **call-recording-10-dec-2018.json**.
 - <a name="transcript-file"></a> The transcript file must be a JSON file and the format of the file name is ***name*.transcript.json** and contains an array of fragments. Each fragment contains the following parameters:  
+
     | Parameter | Objects | Description|
     |-----------|---------|------------|
     | `id` |--| The unique ID of the transcript fragment (GUID). |
