@@ -229,9 +229,9 @@ Upload the call recording or transcript the created call recording repository (b
 
     | Parameter | Objects | Description|
     |-----------|---------|------------|
-    | `fileName` | - | Specifies the name of the conversation file. |
-    | `conversationType`| - | Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
-    | `startTime` | - |Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
+    | `fileName` |--| Specifies the name of the conversation file. |
+    | `conversationType`|--| Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
+    | `startTime` |--|Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
     || `id`| Specifies the unique identification number of each participant. For example, 1, 2, and 3. |
     || `role`| Specifies the role of the participant such as, agent or customer. |
@@ -248,16 +248,16 @@ Upload the call recording or transcript the created call recording repository (b
     || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
     || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
     || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
-    | `locale` |-| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-AE, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
-    | `version` |-| Specifies the version of metadata file. The value is 3.0.0.|
-    | `title` |-| (Optional) Specifies the title of the conversation. |
-    | `scope` |-| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
-    | `agentChannel` |-| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
-    | `country`|-| (Optional) Specifies from which country the conversation originated. |
-    | `provider`|-| (Optional) Specifies the service provider of the conversation such as Skype. |
-    | `payload` |-| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
-    | `trackedKeywords` |-| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
-    | `trackedCompetitors` |-| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors.|
+    | `locale` |--| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-AE, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
+    | `version` |--| Specifies the version of metadata file. The value is 3.0.0.|
+    | `title` |--| (Optional) Specifies the title of the conversation. |
+    | `scope` |--| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
+    | `agentChannel` |--| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
+    | `country`|--| (Optional) Specifies from which country the conversation originated. |
+    | `provider`|--| (Optional) Specifies the service provider of the conversation such as Skype. |
+    | `payload` |--| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
+    | `trackedKeywords` |--| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
+    | `trackedCompetitors` |--| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors.|
 
     The following sample is an example of JSON file format:
     ``` JSON
