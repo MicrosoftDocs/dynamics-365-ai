@@ -68,7 +68,97 @@ Upload the call recording or transcript to the created call recording repository
 - The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
 - The names of the uploaded files must be unique for your organization and must not be repeated.
-- The file names for the audio or transcript file, and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. Similarly, name of the transcript file is **call-recording-10-dec-2018.transcript.json**, the corresponding JSON file is named **call-recording-10-dec-2018.json**.
+- The file names for the audio or transcript file, and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. Similarly, name of the transcript file is **call-recording-10-dec-2018.transcript.json**, the corresponding JSON file is named **call-recording-10-dec-2018.json**.  
+- The JSON file parameters must be properly configured. The JSON file contains the following parameters:
+
+    | Parameter | Objects | Description|
+    |-----------|---------|------------|
+    | `fileName` |--| Specifies the name of the conversation file. |
+    | `conversationType`|--| Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
+    | `startTime` |--|Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
+    | `participants` | | Specifies the details of the participants. |
+    || `id`| Specifies the unique identification number of each participant. For example, 1, 2, and 3. |
+    || `role`| Specifies the role of the participant such as, agent or customer. |
+    || `email` | Specifies the email ID of the participant. |
+    || `crmId` | Specifies the CRM ID of the participant. |
+    || `aadId` | Specifies the Azure Directory ID of the participant. |
+    |||**Note**: To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`  |
+    || `displayName` | (Optional) Specifies the display name of the participant. |
+    || `phoneNumber` | (Optional) Specifies the phone number of the participant. |
+    | `crm` || Specifies the details of CRM. |
+    || `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains `id`. |
+    || `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains `id`.|
+    || `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`.|
+    || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
+    || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
+    || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
+    | `locale` |--| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
+    | `version` |--| Specifies the version of metadata file. The value is 3.0.0.|
+    | `title` |--| (Optional) Specifies the title of the conversation. |
+    | `scope` |--| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
+    | `agentChannel` |--| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
+    | `country`|--| (Optional) Specifies from which country the conversation originated. |
+    | `provider`|--| (Optional) Specifies the service provider of the conversation such as Skype. |
+    | `payload` |--| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
+    | `trackedKeywords` |--| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
+    | `trackedCompetitors` |--| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors.|
+
+    The following sample is an example of JSON file format:
+    ``` JSON
+    {
+        "id": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66",
+        "fileName": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66.mp3",
+        "conversationType": "audio",
+        "title": "Contoso Deal 1/1. Metadata version: v3.0.0",
+        "startTime": "2020-11-17T13:33:59.909Z",
+        "participants": [
+            {
+                "id": 1,
+                "role": "agent",
+                "email": "username@yourorganization.com"
+            },
+            {
+                "id": 2,
+                "role": "customer"
+            }
+        ],
+        "locale": "en-us",
+        "direction": "outbound",
+        "agentChannel": "left",
+        "scope": "internal",
+        "version": "3.0.0",
+        "customerPayload": {
+            "internalId": "a38ad647-ea6c-4e2d-a833-c60d1748b14d"
+        },
+        "region": "North America",
+        "country": "United states",
+        "provider": "Skype",
+        "crm": {
+            "activity":{
+                "id": "f470ea8b-d928-eb11-a813-000d3a8d88aa",
+            },
+            "contacts": [
+                {
+                    "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
+                }
+            ],
+            "accounts": [
+                {
+                    "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
+                }
+            ],
+            "lead": {
+                "id": "438c8775-7af8-44e3-b5ec-07dd5f561c52",
+            },
+            "opportunity": {
+                "id": "b01138c5-9d50-4da7-a2ca-31cf180d0b8c",
+            },
+            "mediaReferenceId": "2d960ae3-e527-477c-83aa-862794ad5795"
+        },
+        "trackedKeywords": [ "printer", "price" ],
+        "trackedCompetitors": [ "Contoso", "Alpine Ski House" ]
+    }
+    ```   
 - <a name="transcript-file"></a> The transcript file must be a JSON file and the format of the file name is ***name*.transcript.json** and contains an array of fragments. Each fragment contains the following parameters:  
 
     | Parameter | Objects | Description|
@@ -83,7 +173,7 @@ Upload the call recording or transcript to the created call recording repository
     ||`offset`| The time of the word from the start of the conversation in milliseconds. |
     ||`duration`| The audio duration of this word in milliseconds. |
     |`confidence`|--|(Optional) The confidence value of the fragment. The value must be between 0 to 1.|
-    |`locale`|--| The locale of the fragment. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-AE, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
+    |`locale`|--| The locale of the fragment. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
 
     The following sample is an example of transcript JSON file:  
     ```JSON
@@ -227,96 +317,8 @@ Upload the call recording or transcript to the created call recording repository
         },
     ]
     ```   
-- The JSON file parameters must be properly configured. The JSON file contains the following parameters:
 
-    | Parameter | Objects | Description|
-    |-----------|---------|------------|
-    | `fileName` |--| Specifies the name of the conversation file. |
-    | `conversationType`|--| Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
-    | `startTime` |--|Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
-    | `participants` | | Specifies the details of the participants. |
-    || `id`| Specifies the unique identification number of each participant. For example, 1, 2, and 3. |
-    || `role`| Specifies the role of the participant such as, agent or customer. |
-    || `email` | Specifies the email ID of the participant. |
-    || `crmId` | Specifies the CRM ID of the participant. |
-    || `aadId` | Specifies the Azure Directory ID of the participant. |
-    |||**Note**: To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`  |
-    || `displayName` | (Optional) Specifies the display name of the participant. |
-    || `phoneNumber` | (Optional) Specifies the phone number of the participant. |
-    | `crm` || Specifies the details of CRM. |
-    || `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains `id`. |
-    || `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains `id`.|
-    || `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`.|
-    || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
-    || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
-    || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
-    | `locale` |--| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, ar-AE, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-OM, ar-QA, ar-SA, and ar-SY. |
-    | `version` |--| Specifies the version of metadata file. The value is 3.0.0.|
-    | `title` |--| (Optional) Specifies the title of the conversation. |
-    | `scope` |--| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
-    | `agentChannel` |--| (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
-    | `country`|--| (Optional) Specifies from which country the conversation originated. |
-    | `provider`|--| (Optional) Specifies the service provider of the conversation such as Skype. |
-    | `payload` |--| (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
-    | `trackedKeywords` |--| (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
-    | `trackedCompetitors` |--| (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors.|
 
-    The following sample is an example of JSON file format:
-    ``` JSON
-    {
-        "id": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66",
-        "fileName": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66.mp3",
-        "conversationType": "audio",
-        "title": "Contoso Deal 1/1. Metadata version: v3.0.0",
-        "startTime": "2020-11-17T13:33:59.909Z",
-        "participants": [
-            {
-                "id": 1,
-                "role": "agent",
-                "email": "username@yourorganization.com"
-            },
-            {
-                "id": 2,
-                "role": "customer"
-            }
-        ],
-        "locale": "en-us",
-        "direction": "outbound",
-        "agentChannel": "left",
-        "scope": "internal",
-        "version": "3.0.0",
-        "customerPayload": {
-            "internalId": "a38ad647-ea6c-4e2d-a833-c60d1748b14d"
-        },
-        "region": "North America",
-        "country": "United states",
-        "provider": "Skype",
-        "crm": {
-            "activity":{
-                "id": "f470ea8b-d928-eb11-a813-000d3a8d88aa",
-            },
-            "contacts": [
-                {
-                    "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
-                }
-            ],
-            "accounts": [
-                {
-                    "id": "ec0cc9bf-2595-ea11-a812-000d3a54419d",
-                }
-            ],
-            "lead": {
-                "id": "438c8775-7af8-44e3-b5ec-07dd5f561c52",
-            },
-            "opportunity": {
-                "id": "b01138c5-9d50-4da7-a2ca-31cf180d0b8c",
-            },
-            "mediaReferenceId": "2d960ae3-e527-477c-83aa-862794ad5795"
-        },
-        "trackedKeywords": [ "printer", "price" ],
-        "trackedCompetitors": [ "Contoso", "Alpine Ski House" ]
-    }
-    ```
   
 > [!div class="nextstepaction"] 
 > [Continue with First-run set up experience](fre-setup-sales-insight-app.md#configure-the-conversation-intelligence-application)
