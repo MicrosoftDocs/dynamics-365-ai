@@ -1,6 +1,6 @@
 ---
-title: "Configure keywords and competitors to track in conversation intelligence | MicrosoftDocs"
-description: "Configure keywords and competitors to track in conversation intelligence"
+title: "Configure azure repository and upload call recordings in conversation intelligence | MicrosoftDocs"
+description: "Configure azure repository and upload call recordings in conversation intelligence"
 ms.date: 08/01/2018
 ms.service: crm-online
 ms.custom: 
