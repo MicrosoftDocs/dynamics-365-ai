@@ -203,9 +203,6 @@ You can view the details of a sequence and the records connected with it. This v
 ## Clone a sequence
 
 You can clone a sequence to make it easier to add or remove steps, and save the changes to create new sequence. Cloning a sequence pulls down a full copy of the sequence data that you are cloning at that point in time, including all steps and configurations. After you make the changes you can save and activate the cloned sequence and apply it records.   
->[!NOTE]
->You can't clone sequences that are in active state.   
-
 **To clone a sequence**   
 1. Sign in to the **Sales Hub** app.   
 2. At the bottom of the site map, select **Change area** > **Sales Insights settings**.   
