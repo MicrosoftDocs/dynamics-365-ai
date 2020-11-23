@@ -51,7 +51,8 @@ As an administrator or sales manager, you can:
 
 ## Configure hierarchy levels    
 1.	Choose the hierarchy level from the **Call data visibility** list to display team members for managers. You can choose up to a maximum of three levels. To learn more, see [understand hierarchy levels](#understand-hierarchy-levels).  
-    A list of team members is displayed under **Team members and top performers** and updates every 24 hours to display the current active sellers in the manager's hierarchy. The list consists of team members added to the manager in Dynamics 365 and Azure Active Directory (AD), including team members who don't have access to conversation intelligence.       
+    A list of team members is displayed under **Team members and top performers**. The list consists of team members who report to the manager in Dynamics 365 and Azure Active Directory (AD), including those who don't have access to conversation intelligence.   
+    The application automatically updates the list every 24 hours and displays the current active team members in the manager's hierarchy.     
     > [!div class="mx-imgBorder"]
     > ![Choose the hierarchy level](media/si-app-admin-configure-your-page-settings.png "Choose the hierarchy level")    
 2.	Save the configuration.  
