@@ -97,6 +97,7 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
 As a sales manager, when you open the **Your team** page in settings, you can view the list of your direct reports. Based on what the administrator has configured, you can also view the following:   
 - Employees of your report hierarchy defined in Dynamics 365 and Azure AD.   
 - Employees who don't have access to conversation intelligence. You see only the phone calls and not the call summary page.     
+
 The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.    
 > [!NOTE]
 > To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf.
