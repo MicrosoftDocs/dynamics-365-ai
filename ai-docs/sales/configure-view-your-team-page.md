@@ -51,7 +51,7 @@ As an administrator or sales manager, you can:
 
 ## Configure hierarchy levels    
 1.	Choose the hierarchy level from the **Call data visibility** list to display team members for managers. You can choose up to a maximum of three levels. To learn more, see [understand hierarchy levels](#understand-hierarchy-levels).  
-    A list of team members is displayed under **Team members and top performers** and updates every 24 hours to display the current active sellers in the manager's hierarchy. Team members displayed in the list consist of both Dynamics 365 and Azure Active Directory (AD) defined for the manager. Also, include the team members who don't have access to conversation intelligence.       
+    A list of team members is displayed under **Team members and top performers** and updates every 24 hours to display the current active sellers in the manager's hierarchy. The list consists of team members added to the manager in Dynamics 365 and Azure Active Directory (AD), including team members who don't have access to conversation intelligence.       
     > [!div class="mx-imgBorder"]
     > ![Choose the hierarchy level](media/si-app-admin-configure-your-page-settings.png "Choose the hierarchy level")    
 2.	Save the configuration.  
@@ -94,8 +94,9 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
 2.	Save the configuration.     
 
 ## View your team   
-As a sales manager, when you open the **Your team** page in settings, you can view the list of employees who are part of your hierarchy as configured by the administrator in Dynamics 365 and Azure AD.  
-The list also consists of users who doesn't have access to conversation intelligence. For these users, you can can't see the call summary page and only the phone calls.   
+As a sales manager, when you open the **Your team** page in settings, you can view the list of your direct reports. Based on what the administrator has configured, you can also view the following:   
+- Employees of your report hierarchy defined in Dynamics 365 and Azure AD.   
+- Employees who don't have access to conversation intelligence. You see only the phone calls and not the call summary page.     
 The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.    
 > [!NOTE]
 > To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf.
