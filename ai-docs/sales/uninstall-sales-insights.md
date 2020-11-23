@@ -36,7 +36,7 @@ Although you've deleted the solutions, your organization data might still be wri
 
 ## What happens to data
 
-After you uninstall Sales Insights, Sales<!--note from editor: Is this what you mean by "the application"?--> won't keep any Sales Insights data for your organization in the storage locations where it's hosted.
+After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights data for your organization in the storage locations where it's hosted.
 
 ### See also
 
