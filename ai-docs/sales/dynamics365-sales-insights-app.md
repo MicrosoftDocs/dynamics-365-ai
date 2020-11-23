@@ -82,16 +82,16 @@ The following procedure explains how to access conversation intelligence for the
     > [!div class="mx-imgBorder"]
     > ![Application status message when manager signs in](media/si-app-admin-message-bar-manager.png  "Application status message when manager signs in")
 
-## Use general search
+## Use global search
 
-There is lots of information in each conversation, such as, keywords, competitors, brands, and tags. Going through each call for a particular information is difficult and time consuming task. Using the general search, you can get to the information you want, quicker. The general search option is available on the navigation bar and the following screen is an example:  
+There is lots of information in each conversation, such as, keywords, competitors, brands, and tags. Going through each call for a particular information is difficult and time consuming task. Using the global search, you can get to the information you want, quicker. The global search option is available on the navigation bar and the following screen is an example:  
 > [!div class="mx-imgBorder"] 
-> ![General search option](media/si-app-general-search.png  "General search option")    
-Type a keyword, tag, brand, or competitor in the search box and press **Enter** and the results are displayed. For example, you want to search the conversations that are tagged as **hot deal**. Type the tag **hot deal** in the search box and press **Enter**. The results contain the conversations that are tagged as hot deal.    
+> ![Global search option](media/si-app-general-search.png  "Global search option")    
+Type a keyword, tag, brand, or competitor in the search box and press **Enter**, and the results are displayed. For example, you want to search conversations that are tagged as **hot deal**. Type the tag **hot deal** in the search box and press **Enter**. The results display conversations that contain the tagged word **hot deal**.    
 In the **Match** column, you can see how the conversation is matched such as keywords, competitors, brands, and tags to the search.   
 In the **Tags** column, you can see the tags that are added for each conversation in search results.   
 > [!div class="mx-imgBorder"] 
-> ![General search results page](media/si-app-general-search-results.png  "General search results page")    
+> ![Global search results page](media/si-app-general-search-results.png  "Global search results page")    
 
 
 ### See also
