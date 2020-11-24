@@ -16,8 +16,7 @@ caps.latest.revision: 20
 topic-status: Drafting
 ---
 
-# Use relationship analytics to gather KPIs 
-
+# Use relationship analytics to gather KPIs    
 Relationship analytics enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.    
 Relationship analytics help sales professionals and managers answer questions such as:  
 -   Which opportunities should I spend my time on?  
@@ -77,19 +76,22 @@ An administrator must enable the feature before you can start using it. More inf
 The following screen is an example of enhanced relationship analytics:   
 > [!div class="mx-imgBorder"]
 > ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")   
-1. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
+1. **Summary**: 
+2. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
     - **Next interaction.** Shows the date and time for the next activity that's scheduled for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
     - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.     
     This section also show the top three most active contacts for the deal from you and your customer's organizations, with details about the last time these contacts interacted.   
-2. **Customer interactions**: Shows the average number of interactions with customers in this deal compared to similar deals that were closed as won.   
+3. **Customer interactions**: Shows the average number of interactions with customers in this deal compared to similar deals that were closed as won.   
     The graph displays the total number of activities initiated by members of your team and by the customer compared with the similar deals. The activities are broken down by general type, such as email, meetings, and phone calls.     
-3. **Hourly investment**: Shows the average time spent on this deal compared with similar deals that were closed as won.    
-    The graph displays the average time spent in interacting with customers in similar deals compared with the current deal.   
-4. **Response time**: Shows the average time (in hours) it has taken to respond to customer queries in this deal compared to similar deals that were closed as won.    
-    The graph displays how fast you and your team is responding to customers in the current deal compared with similar deals.   
-5. **Response ratio**: Shows the rate at which a response is given to customers in this deal compared to similar deals that were closed as won.   
-    The graph displays the percentage of customer queries that you and your team have responded to in the current deal compared with similar deals.   
-6. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.   
+4. **Your hourly investment**:
+5. **Customer's hourly investment**:
+6. **Email engagement**:  Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md).
+7. **Your response time**: 
+8. **Customer's response time**:    
+9. **Your email send/receive ratio**:
+10. **Customer's email send/receive ratio**:
+11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
+12. **Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
 <a name="Calculations"></a>   
 ## How relationship analytics values are calculated    
@@ -164,14 +166,9 @@ Your administrator can choose which types of activities are most relevant for yo
 ![Relationship health weightings and frequency settings](media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")   
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
-### See also  
-
-[Configure relationship analytics](configure-relationship-analytics.md)
-
-[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)
-
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
-
-[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
-
+### See also   
+[Configure relationship analytics](configure-relationship-analytics.md)   
+[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)   
+[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
+[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
 [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
