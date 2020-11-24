@@ -57,6 +57,8 @@
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 
+### [Uninstall Sales Insights](../sales/uninstall-sales-insights.md)
+
 ## User guide
 
 ### Assistant
