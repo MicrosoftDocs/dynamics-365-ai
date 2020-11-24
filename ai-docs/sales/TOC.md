@@ -40,6 +40,7 @@
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
+
 ### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Conversation Intelligence
