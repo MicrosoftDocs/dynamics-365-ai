@@ -27,7 +27,7 @@ Verify the following requirements before setting up conversation intelligence fo
 
 -	You must have a Dynamics 365 Sales organization. 
 
--	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) license. 
+-	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) or Sales Premium license. 
     
     >[!NOTE]
     >The Sales Insights license provides you access to the conversation intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br> 

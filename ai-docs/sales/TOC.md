@@ -40,6 +40,7 @@
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
+
 ### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
 ### Configure Conversation Intelligence
@@ -56,6 +57,8 @@
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+
+### [Uninstall Sales Insights](../sales/uninstall-sales-insights.md)
 
 ## User guide
 
