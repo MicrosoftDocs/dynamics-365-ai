@@ -30,14 +30,16 @@
 ### Configure Predictive models
 #### [Predictive lead scoring](configure-predictive-lead-scoring.md)
 #### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
-#### [Premium forecasting](configure-premium-forecasting.md)
+
+### [Configure premium forecasting](configure-premium-forecasting.md)
 #### [View prediction model status](view-prediction-model-status.md)
-#### [Manage snapshots for a forecast](manage-snapshots-forecast.md)
+#### [Take snapshots automatically ](manage-snapshots-forecast.md)
 
 ### Configure Sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
+
 
 ### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
@@ -45,16 +47,18 @@
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
 #### [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md)
+#### [Configure and view your team page](../sales/configure-view-your-team-page.md)
 #### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
 #### [Connect to Dynamics 365 Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
-#### [Configure and view your team page](../sales/configure-view-your-team-page.md)
 #### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
 
 ### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
 #### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+
+### [Uninstall Sales Insights](../sales/uninstall-sales-insights.md)
 
 ## User guide
 
@@ -77,11 +81,12 @@
 ###	Predictive models
 #### [Prioritize leads using predictive scores](work-predictive-lead-scoring.md)
 #### [Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)
+
+### Premium forecasting
 #### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 #### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
 #### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
 #### [View snapshots](view-snapshots.md)
-
 
 ### Sales accelerator
 #### [What is sales accelerator](sales-accelerator-intro.md)
@@ -109,6 +114,7 @@
 ### Action Reference
 #### [msdyn_ConnectSequence](developer/msdyn-ConnectSequence-action.md)
 ### Entity Reference
+#### [Entity reference](entity-reference.md)
 #### [msdyn_PredictiveScore](developer/msdyn_predictivescore.md)
 #### [msdyn_PredictiveModelScore](developer/msdyn_predictivemodelscore.md)
 
