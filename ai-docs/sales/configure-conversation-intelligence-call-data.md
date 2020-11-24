@@ -127,7 +127,7 @@ Upload the call recording or transcript to the created call recording repository
         "agentChannel": "left",
         "scope": "internal",
         "version": "3.0.0",
-        "customerPayload": {
+        "payload": {
             "internalId": "a38ad647-ea6c-4e2d-a833-c60d1748b14d"
         },
         "region": "North America",
