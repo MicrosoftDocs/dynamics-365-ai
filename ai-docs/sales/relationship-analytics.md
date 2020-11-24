@@ -76,15 +76,15 @@ An administrator must enable the feature before you can start using it. More inf
 The following screen is an example of enhanced relationship analytics:   
 > [!div class="mx-imgBorder"]
 > ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")   
-1. **Summary**: 
+1. **Summary**: Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You take 12 hours lesser to respond to emails compared to the similar opportunities*.  
 2. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
     - **Next interaction.** Shows the date and time for the next activity that's scheduled for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
     - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.     
-    This section also show the top three most active contacts for the deal from you and your customer's organizations, with details about the last time these contacts interacted.   
+    This section also shows the top three most active contacts for the deal from you and your customer's organizations, with details about the last time these contacts interacted.   
 3. **Customer interactions**: Shows the average number of interactions with customers in this deal compared to similar deals that were closed as won.   
     The graph displays the total number of activities initiated by members of your team and by the customer compared with the similar deals. The activities are broken down by general type, such as email, meetings, and phone calls.     
-4. **Your hourly investment**:
-5. **Customer's hourly investment**:
+4. **Your hourly investment**: Shows the average amount of time spent by your sellers on activities related to the record compared with similar deals. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present.   
+5. **Customer's hourly investment**: Shows the average amount of time spent by your customers on activities related to the record compared with similar deals. For each activity, time spent by your customer is counted just once, even if more than one member of the customer's team was present.
 6. **Email engagement**:  Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md).
 7. **Your response time**: 
 8. **Customer's response time**:    
@@ -95,7 +95,7 @@ The following screen is an example of enhanced relationship analytics:
 
 <a name="Calculations"></a>   
 ## How relationship analytics values are calculated    
-Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.    
+Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and email stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.    
  ![How relationship analytics are calculated](media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")    
 The following sections describe the function of each block in the flow chart.    
 
@@ -158,7 +158,7 @@ For KPIs that report your team and your customer, the system finds durations by 
 <a name="Calc_Health"></a>   
 ### Step 4: Compute the relationship health and health trend    
 The overall relationship health score is calculated by collecting the relevant activities, and weighting the activity by type (which enables your admin to set some types of activities to count more than others). The result is normalized to produce a health score between 0 and 100, and the health characterized as *good* (for a score of 60-100), *fair* (40-59) or *poor* (0-39).  
-Please note: 
+**Note**: 
 - Health scores are computed for leads if they are in an active state. This stops once they reach a qualified or disqualified state.
 - Health scores are computed for opportunities if the opportunity is open and ignored if it’s won or lost.
 - Health scores are computed for contacts and accounts irrespective of their state.  
