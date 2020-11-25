@@ -53,9 +53,10 @@ To configure relationship analytics, follow these steps:
     > ![Choose communication frequency](media/relationship-analytics-communication-frequency.png  "Choose communication frequency")    
 9.  Set **Health score grading** for health scores to grade opportunities.    
     When health score is calculated, the opportunities that are in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded Good, Fair, or Poor, according to the health score. Opportunities in the top score range are graded Good while records within the lowest score range are graded Poor.    
-    You can configure the range for the grading according to your organizational requirements. When you change the health score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for Good to 51, the maximum lead score range for Fair changes to 50.    
+    You can configure the range for the grading according to your organizational requirements. When you change the health score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for Good to 60, the maximum lead score range for Fair changes to 59.    
+    After setting the values, the initial grading of opportunities can take up to 24 hours.
     > [!div class="mx-imgBorder"]
-    > ![Set health score greading](media/relationship-analytics-health-score-greading.png  "Set health score greading")    
+    > ![Set health score grading](media/relationship-analytics-health-score-greading.png  "Set health score grading")    
 10. Select **Save**.   
    Relationship analytics is ready to use in your organization.   
 
