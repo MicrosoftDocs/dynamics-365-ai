@@ -21,10 +21,9 @@ Using the conversation content, you can configure the following settings:
 - [Add keywords and competitors](#add-keywords-and-competitors)  
 - [Select call languages](#select-call-languages)
 
-## Open conversation content settings page
-
+## Open conversation content settings page    
 > [!NOTE]
-> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
+> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).    
 
 **In conversation intelligence app**   
 1.	Open the **Conversation intelligence** application.  
