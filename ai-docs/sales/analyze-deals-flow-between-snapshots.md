@@ -41,14 +41,14 @@ Review the following prerequisite before you start using deals flow analysis:
     - During the comparison, if the underlying opportunities are:
         - Pushed to next forecast recurrence for reason such as, date changed to future or
         - Owner is changed in current or next forecast recurrence.   
-        These opportunities appears under **Pulled in** forecast category on the left stack of the start date snapshots.    
+        These opportunities appear under **Pulled in** forecast category on the left stack of the start date snapshots.    
     
     - During the comparison, if the start date snapshot has the underlying opportunities that are:
         - Moved forward in time and out of the current forecast recurrence or
         - Owner is changed in current or next forecast recurrence.   
         These opportunities appear under **Pushed out** forecast category on the right stack of the end date snapshot.   
         Depending on the specified date of the forecast recurrence, these opportunities appear in their respective categories in the snapshots that are taken from this forecast recurrence. For example, opportunity 1 and opportunity 2 are in Q3 of a quarterly forecast and are pushed out to Q4. The opportunity 1 and opportunity 2 appear in their respective categories for snapshots that are taken in Q4 and beyond.   
-        When the owner of the opportunities is change to another, these opportunities appear under **Pushed out** category and appear under **Pulled in** category for the changed owner.   
+        When the owner of the opportunities is change to another owner in the current or the upcoming forecast recurrences, these opportunities appear under **Pushed out** category or current owner and appear under **Pulled in** category for the changed owner.    
 
 
 5.	To view the summary and flow of a forecast category:	
@@ -72,7 +72,7 @@ You can identify whether the selected flow is for a team or an individual by loo
 
 -	If the heading name contains only **Username**, you're looking at an individual user's deals flow.	
 
-The deals flow of other users that you can see depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
+The deals flow of other users that you can see depend on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
 
 
 ### See also	
