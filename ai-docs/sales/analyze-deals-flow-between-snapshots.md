@@ -40,12 +40,12 @@ Review the following prerequisite before you start using deals flow analysis:
         - Owner moved out forecast hierarchy.   
     - During the comparison, if the underlying opportunities that are pushed:
         - To next forecast recurrence for reason such as, date changed to future or
-        - Change of owner in the current or the next forecast recurrence.
+        - Change of owner in the current or the next forecast recurrence.   
         These opportunities appears under **Pulled in** forecast category on the left stack of the start date snapshots.    
     
     - During the comparison, if the start date snapshot has the underlying opportunities that are:
         - Moved forward in time and out of the current forecast recurrence or
-        - Change of owner in the current or the next forecast recurrence.
+        - Change of owner in the current or the next forecast recurrence.   
         These opportunities appear under **Pushed out** forecast category on the right stack of the end date snapshot.   
         Depending on the specified date of the forecast recurrence, these opportunities appear in their respective categories in the snapshots that are taken from this forecast recurrence. For example, opportunity 1 and opportunity 2 are in Q3 of a quarterly forecast and are pushed out to Q4. The opportunity 1 and opportunity 2 appear in their respective categories for snapshots that are taken in Q4 and beyond.   
         When the owner of the opportunities is change to another, these opportunities appear under **Pushed out** category and appear under **Pulled in** category for the changed owner.   
