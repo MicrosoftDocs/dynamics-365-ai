@@ -63,8 +63,7 @@ In this example, we have filtered the cards with the security role **Survey Owne
 When you create a card, you can specify the security roles to whom you want the card to display. By default, the cards are assigned to all the security roles in your organization. You can edit the card to assign or remove the security roles to the card. 
 
 > [!NOTE]
-> The security roles you see in the cards are defined in the Power Platform admin center
-. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
+> The security roles you see in the cards are defined in the Power Platform admin center. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
 1. Go to the **Manage insight cards** page (**Insight cards** tab) under **Assistant** and select the card for which you want to add the security roles. In this example, we've selected the **Close date coming soon** card.
 
