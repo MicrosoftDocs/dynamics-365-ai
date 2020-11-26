@@ -45,7 +45,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
     -	If any underlying opportunities are added to the forecast while the snapshot of end date is being taken and these opportunities aren't available in the snapshot of start date, a **New Deals** forecast category is added to the bottom of the start date column stack.	
 
-    -	If any underlying opportunities are deleted from the forecast after the snapshot of start date is taken and these opportunities aren't available in the snapshot of end date, a **Slipped Deals** forecast category is added to bottom of the end date column stack.	
+    -	If any underlying opportunities are removed from the forecast after the snapshot of start date is taken and these opportunities aren't available in the snapshot of end date, a **Slipped Deals** forecast category is added to bottom of the end date column stack.	
 
 5.	To view the summary and flow of a forecast category:	
 
