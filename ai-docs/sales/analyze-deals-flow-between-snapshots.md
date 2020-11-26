@@ -20,34 +20,36 @@ Review the following prerequisite before you start using deals flow analysis:
 
 **View and understand a deals flow**	
 
-1.	Sign in to the **Sales Hub** app and go to **Performance** > **Forecasts**.	
-
-2.	Select a forecast, and then choose a forecast period for the forecast.	
-
-3.	Select the **Flow** tab.	
-
-    A sankey chart is displayed with a comparison between two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.	
-
+1.	Sign in to the **Sales Hub** app and go to **Performance** > **Forecasts**.	  
+2.	Select a forecast, and then choose a forecast period for the forecast.	  
+3.	Select the **Flow** tab.	  
+    A sankey chart is displayed with a comparison between two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.   
     > [!div class="mx-imgBorder"]	
-    > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
-
-4.	To compare snapshots, choose a **Start** and **End** dates from the calendar. The start date should always be older than the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
-
+    > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart")    
+4.	To compare snapshots, choose a **Start** and **End** dates from the calendar. The start date should always be older than the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	  
     > [!div class="mx-imgBorder"]	
-    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")	
- 	
-    Select **Apply**. The chart is updated to display the deal flow.	
+    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")	   	
+    Select **Apply**. The chart is updated to display the deal flow.	   
     > [!div class="mx-imgBorder"]	
-    > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	
- 	
+    > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	 	
     - The topmost stack in the column displays the date with aggregated opportunity amount, and the number of opportunities that are influencing the aggregated amount.	
     -	The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
-
     -	If any underlying opportunities are added to the forecast while the snapshot of end date is being taken and these opportunities aren't available in the snapshot of start date, a **New Deals** forecast category is added to the bottom of the start date column stack.	
+    -	If any underlying opportunities are removed from the forecast after the snapshot of start date is taken and these opportunities aren't available in the snapshot of end date, a **Removed** forecast category is added to bottom of the end date snapshot column stack. Opportunities appear in this category are due to:   
+        - Deleted from the application. 
+        - Owner moved out forecast hierarchy.   
+    - During the comparison, if the underlying opportunities that are pushed:
+        - To next forecast recurrence for reason such as, date changed to future or
+        - Change of owner in the current or the next forecast recurrence.
+        These opportunities appears under **Pulled in** forecast category on the left stack of the start date snapshots.    
+    
+    - During the comparison, if the start date snapshot has the underlying opportunities that are:
+        - Moved forward in time and out of the current forecast recurrence or
+        - Change of owner in the current or the next forecast recurrence.
+        These opportunities appear under **Pushed out** forecast category on the right stack of the end date snapshot.   
+        Depending on the specified date of the forecast recurrence, these opportunities appear in their respective categories in the snapshots that are taken from this forecast recurrence. For example, opportunity 1 and opportunity 2 are in Q3 of a quarterly forecast and are pushed out to Q4. The opportunity 1 and opportunity 2 appear in their respective categories for snapshots that are taken in Q4 and beyond.   
+        When the owner of the opportunities is change to another, these opportunities appear under **Pushed out** category and appear under **Pulled in** category for the changed owner.   
 
-    -	If any underlying opportunities are removed from the forecast after the snapshot of start date is taken and these opportunities aren't available in the snapshot of end date, a **Slipped Deals** forecast category is added to bottom of the end date column stack.
-
-    - 	If any underlying opportunities are pushed to next forecast cycle before the snapshot is taken, these opportunities appears in the **Pulled in** forecast category in the lest stack of the next forecast cycle. Similarly,     
 
 5.	To view the summary and flow of a forecast category:	
 

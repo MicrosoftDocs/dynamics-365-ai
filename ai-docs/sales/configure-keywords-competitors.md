@@ -71,7 +71,7 @@ Conversation intelligence supports the following languages to process the files:
 
 Selecting the languages through the **Call language** section helps you to avoid specifying the language (`locale`) in the metadata file. The selected languages are automatically detecting to process the conversation or transcript to display in the call summary page. Currently, application supports the auto detection of any combination of two languages from the following list: English (en-US and en-GB), French (fr-FR), and German (de-DE).     
 >[!NOTE]
->All languages supported in conversation intelligence are displayed for you to select. However, for languages that don't support auto detection, you must specify the `locale` in the metadata file to process. 
+>All languages supported in conversation intelligence are displayed for you to select. However, if you don't choose two languages that are supported in auto detection, then you must specify the `locale` in the metadata file to process. 
 
 Let's look at how each role can select the languages:  
 - **As an administrator**, you can select a list of languages that your organization uses while talking with customers over calls.      
