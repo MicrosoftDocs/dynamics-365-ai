@@ -74,6 +74,7 @@ Let's look at how each role can select the languages:
 - **As an administrator**, you can select a list of languages that your organization uses while talking with customers over calls.      
 - **As a manager**, you can select a subset of languages from the list of administrator chosen languages and these languages are available for your team to select and use.      
 - **As a seller**, you can select relevant languages that you use to talk with customers over calls. The selected languages are a subset of languages that your manager has selected from the list selected by administrator. Each time when you sign into the application, the languages you chose are saved in your settings and you can always update the list, as required. If you see that there is a supported language that is not available for you to choose, contact your administrator and manager to add more languages.     
+
 **Select the languages**   
 1. Open **Conversation tracking** settings page.	
 2. On the **Call languages** section, select the language selector drop-down and then select the languages that you want to use during your calls with customers.   
