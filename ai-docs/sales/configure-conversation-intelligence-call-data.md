@@ -49,10 +49,8 @@ Create a call recording repository (blob container) in an Azure storage account 
 Now you are ready to upload call recordings to the blob container and configure the call data for conversation intelligence. 
 
 <a name="upload-call-recordings"></a>
-## Upload call recordings or transcripts
-
-Upload the call recording or transcript to the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the call or transcript:
-
+## Upload call recordings or transcripts   
+Upload the call recording or transcript to the created call recording repository (blob container) in Azure to process and get data. Upload the following files to process the call or transcript:    
 - Call recording or transcript file.   
     - The format of audio file can be MP3, WAV, or OGG.
     - To know about transcript file, see [Transcript file](#transcript-file).   
@@ -62,8 +60,7 @@ Upload the call recording or transcript to the created call recording repository
 > - You must have at least 10 call recording files in the call recording repository to process and display the data in **Call intelligence**. 
 > - The **conversation-intelligence-managed** container is created and managed automatically by the application.
 
-**Review the following requirements for files before you upload**
-
+**Review the following requirements for files before you upload**   
 - The file name cannot contain reserved characters, such as, **!*'();:@&=+$,/?%#[]"**.
 - The length of the file name should be fewer than 260 characters.
 - The call recording should be a stereo type recording only.
@@ -92,7 +89,7 @@ Upload the call recording or transcript to the created call recording repository
     || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
     || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
     || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
-    | `locale` |--| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
+    | `locale` |--| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH.<br>The application automatically detects the language of conversations or transcripts if they are in English (en-US and en-GB), French (fr-FR), and German (de-DE), and not necessary for you to mention the locale while uploading.|
     | `version` |--| Specifies the version of metadata file. The value is 3.0.0.|
     | `title` |--| (Optional) Specifies the title of the conversation. |
     | `scope` |--| (Optional) Specifies whether the conversation is internal or external. The value is External or Internal.|
