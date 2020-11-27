@@ -56,7 +56,7 @@ Review the following prerequisite before you start using deals flow analysis:
             > [!div class="mx-imgBorder"]	
             > ![Example for pulled in and pushed out](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Example for pulled in and pushed out")    
 
-            1. **Pulled in**: Opportunities date is moved from Q3 to Q4.   
+            1. **Pulled in**: Opportunitie's date is moved from Q3 to Q4.   
             2. **Pushed out**: Owner moved out of the forecast hierarchy.     
         
         - **Ownership change**: Dustin Ochs has two opportunities and are transferred to Amber Rodriguez. The transferred opportunities appear under the Pushed out category for Dustin Ochs and **Pulled in** category for Amber Rodriguez.   
