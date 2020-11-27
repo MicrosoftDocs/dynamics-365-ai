@@ -45,11 +45,11 @@ Review the following prerequisite before you start using deals flow analysis:
     - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
 
     - New opportunities that are present in the end date snapshot and not available in start date snapshot are classified as **New deals** category under the start date snapshot column stack.    
-        The opportunities that are added to the end date snapshot due to ownership change (with in forecast) or date change (with in forecast), are not part of this category rather part of another category known as [**Pushed out**](#pushed-out) and [**Pulled in**](#pulled-in) categories. 	
+        The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast), are not part of this category rather part of another category known as [**Pushed out**](#pushed-out) and [**Pulled in**](#pulled-in) categories. 	
     
-    - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (with in forecast) or date change (with in forecast), are classified under **Pulled in** category under the bottom of the start date snapshot.   
+    - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast), are classified under **Pulled in** category under the bottom of the start date snapshot.   
     
-    - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (with in forecast) or date change (with in forecast), are classified under **Pushed out** category under the bottom of the end date snapshot.   
+    - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast), are classified under **Pushed out** category under the bottom of the end date snapshot.   
         Let's look at the following examples:    
         - **Date change**: Few opportunities of Kenny Smith are moved from the 22 July (Q3) to 26 November (Q4) and these opportunities are shown under **Pushed out** category for Q3 and **Pulled in** category for Q4.     
 
