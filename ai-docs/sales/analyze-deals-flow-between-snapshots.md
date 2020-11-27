@@ -28,10 +28,13 @@ Review the following prerequisite before you start using deals flow analysis:
     > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart")    
 4.	To compare snapshots, choose a **Start** and **End** dates from the calendar. The start date should always be older than the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	  
     > [!div class="mx-imgBorder"]	
-    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")    	   	
-    Select **Apply**. The chart is updated to display the deal flow.	   
+    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")    	  
+
+    Select **Apply**. The chart is updated to display the deal flow.	  
+
     > [!div class="mx-imgBorder"]	
     > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	 	
+    
     - The topmost stack in the column displays the date with aggregated opportunity amount, and the number of opportunities that are influencing the aggregated amount.	
     -	The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
     
@@ -50,6 +53,7 @@ Review the following prerequisite before you start using deals flow analysis:
             > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Deal flow chart between dates")    
             1. **Pulled in**: Opportunities date is moved from Q3 to Q4.   
             2. **Pushed out**: Owner moved out of the forecast hierarchy.     
+        
         **Ownership change**: Dustin Ochs has two opportunities and are transferred to Amber Rodriguez. The transferred opportunities appear under the Pushed out category for **Dustin Ochs** and **Pulled in** category for Amber Rodriguez.   
 
 5.	To view the summary and flow of a forecast category:	
