@@ -28,7 +28,7 @@ Review the following prerequisite before you start using deals flow analysis:
     > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart")    
 4.	To compare snapshots, choose a **Start** and **End** dates from the calendar. The start date should always be older than the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	  
     > [!div class="mx-imgBorder"]	
-    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")	   	
+    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")    	   	
     Select **Apply**. The chart is updated to display the deal flow.	   
     > [!div class="mx-imgBorder"]	
     > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	 	
