@@ -49,8 +49,10 @@ Review the following prerequisite before you start using deals flow analysis:
     - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (with in forecast) or date change (with in forecast), are classified under **Pushed out** category under the bottom of the end date snapshot.   
         Let's look at the following examples:    
         - **Date change**: Few opportunities of Kenny Smith are moved from the 22 July (Q3) to 26 November (Q4) and these opportunities are shown under **Pushed out** category for Q3 and **Pulled in** category for Q4.     
+
             > [!div class="mx-imgBorder"]	
             > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Deal flow chart between dates")    
+            
             1. **Pulled in**: Opportunities date is moved from Q3 to Q4.   
             2. **Pushed out**: Owner moved out of the forecast hierarchy.     
         
