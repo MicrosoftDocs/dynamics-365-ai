@@ -34,24 +34,24 @@ Review the following prerequisite before you start using deals flow analysis:
     > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	 	
     - The topmost stack in the column displays the date with aggregated opportunity amount, and the number of opportunities that are influencing the aggregated amount.	
     -	The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
-    -	If any underlying opportunities are added to the forecast while the snapshot of end date is being taken and these opportunities aren't available in the snapshot of start date, a **New Deals** forecast category is added to the bottom of the start date column stack.	
-    -	If any underlying opportunities are removed from the forecast after the snapshot of start date is taken and these opportunities aren't available in the snapshot of end date, a **Removed** forecast category is added to bottom of the end date snapshot column stack. Opportunities appear in this category are due to:   
-        - Deleted from the application. 
-        - Owner moved out forecast hierarchy.   
-    - During the comparison, if the underlying opportunities are:
-        - Pushed to next forecast recurrence for reason such as, date changed to future or
-        - Owner is changed in current or next forecast recurrence.   
-        These opportunities appear under **Pulled in** forecast category on the left stack of the start date snapshots.    
     
-    - During the comparison, if the start date snapshot has the underlying opportunities that are:
-        - Moved forward in time and out of the current forecast recurrence or
-        - Owner is changed in current or next forecast recurrence.   
-        These opportunities appear under **Pushed out** forecast category on the right stack of the end date snapshot.   
-        
-        Depending on the specified date of the forecast recurrence, these opportunities appear in their respective categories in the snapshots that are taken from this forecast recurrence. For example, opportunity 1 and opportunity 2 are in Q3 of a quarterly forecast and are pushed out to Q4. The opportunity 1 and opportunity 2 appear in their respective categories for snapshots that are taken in Q4 and beyond.   
-        
-        When the owner of the opportunities is change to another owner in the current or the upcoming forecast recurrences, these opportunities appear under **Pushed out** category or current owner and appear under **Pulled in** category for the changed owner. For example, Dustin Ochs has two opportunities and are transferred to Amber Rodriguez. The transferred opportunities appear under the pushed out category for Dustin Ochs and pulled in category for Amber Rodriguez in the flow.   
+    -	The opportunities that are not part of end date snapshot and part of start date snapshot are classified under **Removed** category, and added to the bottom of the column stack under the end date snapshot.    
+        The opportunities that are not part of the end date snapshot due to ownership change (with in forecast) or date change (with in forecast), are not part of this category rather part of another category known as [**Pushed out**](#pushed-out) and [**Pulled in**](#pulled-in) categories.   
 
+    -	New opportunities that are present in the end date snapshot and not available in start date snapshot are classified as **New deals** category under the start date snapshot column stack.    
+        The opportunities that are added to the end date snapshot due to ownership change (with in forecast) or date change (with in forecast), are not part of this category rather part of another category known as [**Pushed out**](#pushed-out) and [**Pulled in**](#pulled-in) categories. 	
+    
+    - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (with in forecast) or date change (with in forecast), are classified under **Pulled in** category under the bottom of the start date snapshot.   
+    
+    - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (with in forecast) or date change (with in forecast), are classified under **Pushed out** category under the bottom of the end date snapshot.   
+
+        Let's look at the following examples: 
+        **Date change**: Few opportunities of Kenny Smith are moved from the 22nd of July (Q3) to 26th of November (Q4) and these opportunities are shown under **Pushed out** category for Q3 and **Pulled in** category for Q4.  
+            > [!div class="mx-imgBorder"]	
+            > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Deal flow chart between dates") 
+            1. **Pulled in**: Opportunities date is moved from Q3 to Q4. 
+            2. **Pushed out**: Owner moved out of the forecast hierachy.     
+        **Ownership change**: Dustin Ochs has two opportunities and are transferred to Amber Rodriguez. The transferred opportunities appear under the Pushed out category for **Dustin Ochs** and **Pulled in** category for Amber Rodriguez.   
 
 5.	To view the summary and flow of a forecast category:	
 
@@ -59,7 +59,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
     -	This flow depends on how the status of the opportunity in a forecast category of the snapshot of start date changed to the other forecast category in the snapshot of end date. If there's no change in the status of the opportunity, the flow remains the same between forecast categories in the snapshots.	
 
-6.	To view underlying opportunities, select a forecast category. The opportunities are displayed in a grid with side-by-side comparison of how the granular data for each opportunity—such as owner, value, date, and forecast category—is changing in columns from start date to end date.	
+6.	To view underlying opportunities, select a forecast category. The opportunities are displayed in a grid with side-by-side comparison of how the granular data for each opportunity—such as owner, value, date, and forecast category&mdashis changing in columns from start date to end date.	
 
     > [!div class="mx-imgBorder"]	
     > ![Underlying opportunities of a forecast category](media/predictive-forecasting-deal-underlying-opportunities-forecast-category.png "Underlying opportunities of a forecast category")	
