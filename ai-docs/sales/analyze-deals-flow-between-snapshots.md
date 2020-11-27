@@ -52,7 +52,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
             > [!div class="mx-imgBorder"]	
             > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Deal flow chart between dates")    
-            
+
             1. **Pulled in**: Opportunities date is moved from Q3 to Q4.   
             2. **Pushed out**: Owner moved out of the forecast hierarchy.     
         
@@ -64,7 +64,7 @@ Review the following prerequisite before you start using deals flow analysis:
 
     -	This flow depends on how the status of the opportunity in a forecast category of the snapshot of start date changed to the other forecast category in the snapshot of end date. If there's no change in the status of the opportunity, the flow remains the same between forecast categories in the snapshots.	
 
-6.	To view underlying opportunities, select a forecast category. The opportunities are displayed in a grid with side-by-side comparison of how the granular data for each opportunity—such as owner, value, date, and forecast category&mdashis changing in columns from start date to end date.	
+6.	To view underlying opportunities, select a forecast category. The opportunities are displayed in a grid with side-by-side comparison of how the granular data for each opportunity—such as owner, value, date, and forecast category&mdash;is changing in columns from start date to end date.	
 
     > [!div class="mx-imgBorder"]	
     > ![Underlying opportunities of a forecast category](media/predictive-forecasting-deal-underlying-opportunities-forecast-category.png "Underlying opportunities of a forecast category")	
