@@ -51,7 +51,7 @@ Review the following prerequisite before you start using deals flow analysis:
         - **Date change**: Few opportunities of Kenny Smith are moved from the 22 July (Q3) to 26 November (Q4) and these opportunities are shown under **Pushed out** category for Q3 and **Pulled in** category for Q4.     
 
             > [!div class="mx-imgBorder"]	
-            > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Deal flow chart between dates")    
+            > ![Example for pulled in and pushed out](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Example for pulled in and pushed out")    
 
             1. **Pulled in**: Opportunities date is moved from Q3 to Q4.   
             2. **Pushed out**: Owner moved out of the forecast hierarchy.     
