@@ -98,5 +98,8 @@ Seeing the deals flow of other users depends on the sales hierarchy defined for 
 
 ### See also	
 
+
+<!-- editor note: The first link goes to a page titled "Take snapshots automatically." If that is the correct page, we should change the title below to match. -->
+
 [Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>	
 [About premium forecasting](configure-premium-forecasting.md)
