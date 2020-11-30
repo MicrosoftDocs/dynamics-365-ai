@@ -1,6 +1,6 @@
 ---	
-title: "Analyze deals flow between snapshots in Dynamics 365 Sales Insights | MicrosoftDocs"	
-description: "Analyze deals flow between snapshots in Dynamics 365 Sales Insights."	
+title: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights | MicrosoftDocs"	
+description: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights."	
 ms.date: 10/26/2020	
 ms.service: crm-online
 ms.custom: 	
@@ -10,7 +10,7 @@ ms.author: udag
 manager: shujoshi	
 ---	
 
-# Analyze deals flow between snapshots	
+# Analyze deals flows between snapshots	
 
 The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill in to the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.	
 
