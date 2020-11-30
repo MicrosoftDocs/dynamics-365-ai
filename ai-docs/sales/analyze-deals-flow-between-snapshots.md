@@ -20,47 +20,47 @@ Review the following prerequisite before you start using deals flow analysis:
 
 **View and understand a deals flow**	
 
-1.	Sign in to the **Sales Hub** app and go to **Performance** > **Forecasts**.	
+1. Sign in to the **Sales Hub** app and go to **Performance** > **Forecasts**.	
 
-2.	Select a forecast, and then choose a forecast period for the forecast.	
+2. Select a forecast, and then choose a forecast period for the forecast.	
 
-3.	Select the **Flow** tab.	
+3. Select the **Flow** tab.	
 
-    A sankey chart is displayed with a comparison between two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.	
+   A sankey chart is displayed with a comparison between two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.	
 
-    > [!div class="mx-imgBorder"]	
-    > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
+   > [!div class="mx-imgBorder"]	
+   > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
 
-4.	To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
+4. To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
 
-    > [!div class="mx-imgBorder"]	
-    > ![Select start and end dates](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end dates")	
+   > [!div class="mx-imgBorder"]	
+   > ![Select start and end dates](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end dates")	
  	
-    Select **Apply**. The chart is updated to display the deal flow.	
-    > [!div class="mx-imgBorder"]	
-    > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	
+   Select **Apply**. The chart is updated to display the deal flow.	
+   > [!div class="mx-imgBorder"]	
+   > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	
  	
-    - The topmost stack in the column displays the date with aggregated opportunity amount, and the number of opportunities that are influencing the aggregated amount.	
+   - The topmost stack in the column displays the date with aggregated opportunity amount, and the number of opportunities that are influencing the aggregated amount.	
     
-    - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
+   - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
 
-    - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack. 
+   - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack. 
     
-      The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pulled in**](#pulled-in) and [**Pushed out**](#pushed-out). 	
+     The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pulled in**](#pulled-in) and [**Pushed out**](#pushed-out). 	
     
-	- <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pulled in** category under the bottom of the start date snapshot.   
+     - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pulled in** category under the bottom of the start date snapshot.   
     
-	- <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pushed out** category under the bottom of the end date snapshot.   
+     - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pushed out** category under the bottom of the end date snapshot.   
     
-	Let's look at the following examples: 
+      Let's look at the following examples: 
 	
-        - **Date change**: Few opportunities of Kenny Smith are moved from the 22 July (Q3) to 26 November (Q4) and these opportunities are shown under **Pushed out** category for Q3 and **Pulled in** category for Q4.     
+      - **Date change**: Few opportunities of Kenny Smith are moved from the 22 July (Q3) to 26 November (Q4) and these opportunities are shown under the **Pushed out** category for Q3 and **Pulled in** category for Q4.     
 
-            > [!div class="mx-imgBorder"]	
-            > ![Example for pulled in and pushed out](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Example for pulled in and pushed out")    
+        > [!div class="mx-imgBorder"]	
+        > ![Example for pulled in and pushed out](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Example for pulled in and pushed out")    
 
-            1. **Pulled in**: Opportunity's date is moved from Q3 to Q4.   
-            2. **Pushed out**: Owner moved out of the forecast hierarchy.     
+        1. **Pulled in**: Opportunity's date is moved from Q3 to Q4.   
+        2. **Pushed out**: Owner moved out of the forecast hierarchy.     
         
         - **Ownership change**: Dustin Ochs has two opportunities and are transferred to Amber Rodriguez. The transferred opportunities appear under the Pushed out category for Dustin Ochs and **Pulled in** category for Amber Rodriguez.   
 	
