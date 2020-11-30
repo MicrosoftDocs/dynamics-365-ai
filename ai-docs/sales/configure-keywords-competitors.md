@@ -80,12 +80,19 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 **Automatic language detection**   
 
+<!-- from editor: Unclear here. You upload the files to do what? It translates them? -->
+
+
 Currently, you upload the conversation or transcript file along with a metadata file to process. In the metadata file, you specify the language (`locale`) to process the files for more accurate transcription, keyword tracking, analysis, insights, and KPIs to display in the call summary page. To learn how to upload conversations and transcripts, see [Upload call recordings or transcripts](configure-conversation-intelligence-call-data.md#upload-call-recordings-or-transcripts).   
 
 
 <!-- editor suggestion: It might be helpful to list the languages with the abbreviations in parentheses after each. -->
 
 Conversation intelligence supports the following languages to process the files: en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH.
+
+
+<!-- In the second sentence below, it's not clear what the languages are detecting. Is it conversation intelligence that detects the chosen language and then translates the files? -->
+
 
 Selecting the languages through the **Call language** section helps you to avoid specifying the language (`locale`) in the metadata file. The selected languages are automatically detecting to process the conversation or transcript to display in the call summary page. Currently, the application supports the auto-detection of any combination of two languages from the following list: English (en-US and en-GB), French (fr-FR), and German (de-DE).     
 
@@ -95,7 +102,7 @@ Selecting the languages through the **Call language** section helps you to avoid
 Let's look at how each role can select the languages:  
 - **As an administrator**, you can select a list of languages that your organization uses while talking with customers over calls.      
 - **As a manager**, you can select a subset of languages from the list of administrator-chosen languages. These languages are available for your team to select and use.      
-- **As a seller**, you can select relevant languages that you use to talk with customers over calls. The selected languages are a subset of languages that your manager has selected from the list selected by administrator. Each time you sign in to the application, the languages you chose are saved in your settings and you can always update the list, as required. If you find that a supported language is not available for you to choose, contact your administrator and manager to add more languages.     
+- **As a seller**, you can select relevant languages that you use to talk with customers over calls. The selected languages are a subset of languages that your manager has selected from the list selected by the administrator. Each time you sign in to the application, the languages you chose are saved in your settings and you can always update the list, as required. If you find that a supported language is not available for you to choose, contact your administrator and manager to add more languages.     
 
 **Select the languages**
 
