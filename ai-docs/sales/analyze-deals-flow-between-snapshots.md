@@ -31,10 +31,10 @@ Review the following prerequisite before you start using deals flow analysis:
     > [!div class="mx-imgBorder"]	
     > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
 
-4.	To compare snapshots, choose a **Start** and **End** dates from the calendar. The start date should always be older than the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
+4.	To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
 
     > [!div class="mx-imgBorder"]	
-    > ![Select start and end date](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end date")	
+    > ![Select start and end dates](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end dates")	
  	
     Select **Apply**. The chart is updated to display the deal flow.	
     > [!div class="mx-imgBorder"]	
@@ -44,8 +44,9 @@ Review the following prerequisite before you start using deals flow analysis:
     
     - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
 
-    - New opportunities that are present in the end date snapshot and not available in start date snapshot are classified as **New deals** category under the start date snapshot column stack.    
-        The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast), are not part of this category rather part of another category known as [**Pushed out**](#pushed-out) and [**Pulled in**](#pulled-in) categories. 	
+    - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack. 
+    
+        The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pushed out**](#pushed-out) and [**Pulled in**](#pulled-in). 	
     
     - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast), are classified under **Pulled in** category under the bottom of the start date snapshot.   
     
