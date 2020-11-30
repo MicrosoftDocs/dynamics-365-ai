@@ -10,9 +10,9 @@ ms.author: udag
 manager: shujoshi	
 ---	
 
-# Analyze deals flows between snapshots	
+# Analyze deals flow between snapshots	
 
-The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill into the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.	
+The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill in to the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.	
 
 Review the following prerequisite before you start using deals flow analysis:	
 
@@ -26,21 +26,22 @@ Review the following prerequisite before you start using deals flow analysis:
 
 3. Select the **Flow** tab.	
 
-   A sankey chart is displayed with a comparison between two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.	
+   A sankey chart is displayed with a comparison between the two latest snapshots for the forecast. The order of forecast categories depends on how the forecast columns are arranged in the grid view.	
 
    > [!div class="mx-imgBorder"]	
-   > ![Deal flown sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deal flown sankey chart") 
+   > ![Deals flow sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deals flow sankey chart") 
 
-4. To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In this example, the start date is selected as **1** and end date is selected as **27** in the month of July.	
+4. To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In this example, the start date is selected as **1** and the end date is selected as **27** in the month of July.	
 
    > [!div class="mx-imgBorder"]	
    > ![Select start and end dates](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end dates")	
  	
-   Select **Apply**. The chart is updated to display the deal flow.	
+   Select **Apply**. The chart is updated to display the deal flow.
+   
    > [!div class="mx-imgBorder"]	
    > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	
  	
-   - The topmost stack in the column displays the date with aggregated opportunity amount, and the number of opportunities that are influencing the aggregated amount.	
+   - The topmost stack in the column displays the date with aggregated opportunity amount and the number of opportunities that are influencing the aggregated amount.	
     
    - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
 
@@ -53,22 +54,29 @@ Review the following prerequisite before you start using deals flow analysis:
      - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pushed out** category under the bottom of the end date snapshot.   
     
       Let's look at the following examples: 
-	
-      - **Date change**: Few opportunities of Kenny Smith are moved from the 22 July (Q3) to 26 November (Q4) and these opportunities are shown under the **Pushed out** category for Q3 and **Pulled in** category for Q4.     
+
+
+<!-- editor question: Do you mean "Few" (not many) or "A few" (some). It sounds like it should be "A few". -->
+
+
+      - **Date change**: Few opportunities of Kenny Smith are moved from July 22 (Q3) to November 26 (Q4) and these opportunities are shown under the **Pushed out** category for Q3 and **Pulled in** category for Q4.     
 
         > [!div class="mx-imgBorder"]	
         > ![Example for pulled in and pushed out](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Example for pulled in and pushed out")    
 
         1. **Pulled in**: Opportunity's date is moved from Q3 to Q4.   
         2. **Pushed out**: Owner moved out of the forecast hierarchy.     
-        
-      - **Ownership change**: Dustin Ochs has two opportunities and are transferred to Amber Rodriguez. The transferred opportunities appear under the Pushed out category for Dustin Ochs and **Pulled in** category for Amber Rodriguez.   
+ 
+ 
+ <!-- editor question: I don't see Amber Rodriguez mentioned in the image - is that correct? -->
+ 
+      - **Ownership change**: Dustin Ochs has two opportunities that are transferred to Amber Rodriguez. The transferred opportunities appear under the **Pushed out** category for Dustin Ochs and **Pulled in** category for Amber Rodriguez.   
 	
 5. To view the summary and flow of a forecast category:	
 
-   - Hover over a forecast category in the stack, a summary of the category is displayed, including the forecast category with snapshot date, the aggregated budget amount, and the number of opportunities that are influencing the aggregated amount. Also, the flow is highlighted to show how the opportunities are trending between the snapshots.	
+   - Hover over a forecast category in the stack to see a summary of the category, including the forecast category with snapshot date, the aggregated budget amount, and the number of opportunities that are influencing the aggregated amount. Also, the flow is highlighted to show how the opportunities are trending between the snapshots.	
 
-   - This flow depends on how the status of the opportunity in a forecast category of the snapshot of start date changed to the other forecast category in the snapshot of end date. If there's no change in the status of the opportunity, the flow remains the same between forecast categories in the snapshots.	
+   - This flow depends on how the status of the opportunity in a forecast category of the start date snapshot changed to the other forecast category in the end date snapshot. If there's no change in the status of the opportunity, the flow remains the same between forecast categories in the snapshots.	
 
 6. To view underlying opportunities, select a forecast category. The opportunities are displayed in a grid with side-by-side comparison of how the granular data for each opportunity—such as owner, value, date, and forecast category—is changing in columns from start date to end date.	
 
@@ -81,11 +89,11 @@ Review the following prerequisite before you start using deals flow analysis:
 
 You can identify whether the selected flow is for a team or an individual by looking at the deals flow heading:	
 
--	If the heading name contains **Username (Group)**, you're looking at a user's team's deals flow.	
+-	If the heading name contains **Username (Group)**, you're looking at the deals flow of a user's team.	
 
--	If the heading name contains only **Username**, you're looking at an individual user's deals flow.	
+-	If the heading name contains only **Username**, you're looking at the deals flow of an individual user.	
 
-The deals flow of other users that you can see depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
+Seeing the deals flow of other users depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
 
 
 ### See also	
