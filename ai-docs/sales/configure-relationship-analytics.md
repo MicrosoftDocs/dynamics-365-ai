@@ -36,7 +36,6 @@ To configure relationship analytics, follow these steps:
     
     The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
     
-
 5. To view similar opportunities, under the **Relationship analytics with modern design and similar opportunities** section, turn on the **Enabled** toggle. By default, this option is enabled when you enable relationship analytics for your organization.   
 
     > [!div class="mx-imgBorder"]
