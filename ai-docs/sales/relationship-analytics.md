@@ -167,7 +167,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 |Overall (all activities)|Total time spent|Total time spent|  
 
 > [!NOTE]
-> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Use email engagement to view message interactions](email-engagement.md)  
+> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Use email engagement to view message interactions](email-engagement.md).  
 
 For KPIs that report your team and your customer, the system finds durations by applying the rules outlined in the following table:  
 
