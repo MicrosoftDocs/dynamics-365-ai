@@ -91,27 +91,33 @@ As a seller, it's important for you to understand what's working better for a de
 
 An administrator must enable the feature before you can start using it. More information: [Step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview)   
 
-The following screen is an example of enhanced relationship analytics:   
+The following screenshot shows an example of enhanced relationship analytics:   
 
 > [!div class="mx-imgBorder"]
 > ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")   
 
-1. **Summary**: Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You take 12 hours lesser to respond to emails compared to the similar opportunities*.  
+
+<!-- editor note: I changed "lesser" to "less" in the quote in No. 1 because "lesser" is grammatically incorrect, even though it's that way in the image. I don't know why they're using "lesser" on that page. -->
+
+
+1. **Summary**: Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You take 12 hours less to respond to emails compared to the similar opportunities*.  
 2. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
     - **Next interaction.** Shows the date and time for the next activity that's scheduled for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
-    - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.     
+    - **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
+    
     This section also shows the top three most active contacts for the deal from you and your customer's organizations, with details about the last time these contacts interacted.   
-3. **Customer interactions**: Shows the average number of interactions with customers in this deal compared to similar deals that were closed as won.   
+3. **Customer interactions**: Shows the average number of interactions with customers in this deal compared to similar deals that were closed as won.  
+
     The graph displays the total number of activities initiated by members of your team and by the customer compared with the similar deals. The activities are broken down by general type, such as email, meetings, and phone calls.     
-4. **Your hourly investment**: Shows the average amount of time spent by your sellers on activities related to the record compared with similar deals. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present.   
-5. **Customer's hourly investment**: Shows the average amount of time spent by your customers on activities related to the record compared with similar deals. For each activity, time spent by your customer is counted just once, even if more than one member of the customer's team was present.
-6. **Email engagement**:  Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md).
+4. **Your hourly investment**: Shows the average amount of time your sellers spent on activities related to the record compared with similar deals. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members who were present.   
+5. **Customer's hourly investment**: Shows the average amount of time your customers spent on activities related to the record compared with similar deals. For each activity, time spent by your customer is counted just once, even if more than one member of the customer's team was present.
+6. **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md).
 7. **Your response time**: Shows the average amount of time taken by your sellers to respond to customer emails on the opportunity, to the average amount of time taken for a response from the customer for all similar won deals.
 8. **Customer's response time**: Shows the average amount of time taken by your customers to respond to emails on this opportunity, to the average amount of time taken for a response by customers on all similar won deals.   
-9. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent, and received ratio in all similar won deals.
-10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customers and received by you in this opportunity, to the average sent, and received ratio by customers on all similar won deals.
+9. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent and received ratio in all similar won deals.
+10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customer and received by you in this opportunity, to the average sent and received ratio by customers on all similar won deals.
 11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
-12. **Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.       
+12. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
 <a name="Calculations"></a>   
 ## How relationship analytics values are calculated    
