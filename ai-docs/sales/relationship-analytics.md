@@ -18,6 +18,7 @@ topic-status: Drafting
 
 # Use relationship analytics to gather KPIs    
 Relationship analytics enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.    
+
 Relationship analytics help sales professionals and managers answer questions such as:  
 -   Which opportunities should I spend my time on?  
 -   Do we have a good relationship with the customer?  
