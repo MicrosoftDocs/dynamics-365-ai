@@ -74,15 +74,15 @@ You can view complete relationship analytics for an individual record, including
 
 ![Activity analysis details](media/activity-analysis-details.png "Activity analysis details")     
 
-- **Relationship health and trend.** Shows your overall relationship health with the customer and includes the recent trend.   
-- **Next interaction.** Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.   
-- **Last interaction.** Shows the date and time for the last activity that you completed for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.   
-- **All interactions.**  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type such as email, meetings, and phone calls.    
-- **Time spent.** Shows the relative amount of time spent on activities related to the record, including your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members who were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.    
-- **Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md)   
-- **Most contacted.** Provides statistics about the customers that your team contacts the most. These contacts might include [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users.   
-- **Most contacted by.** Provides statistics about your team that contacted customers the most. These contacts might include customers who are heavily involved with your team even if they are not part of the record’s users.    
-- **Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received. 
+- **Relationship health and trend**: Shows your overall relationship health with the customer and includes the recent trend.   
+- **Next interaction**: Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.   
+- **Last interaction**: Shows the date and time for the last activity that you completed for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.   
+- **All interactions**:  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type such as email, meetings, and phone calls.    
+- **Time spent**: Shows the relative amount of time spent on activities related to the record, including your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members who were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.    
+- **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md)   
+- **Most contacted**: Provides statistics about the customers that your team contacts the most. These contacts might include [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users.   
+- **Most contacted by**: Provides statistics about your team that contacted customers the most. These contacts might include customers who are heavily involved with your team even if they are not part of the record’s users.    
+- **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received. 
 
 ## Relationship analytics with similar opportunities   
 The current relationship analytics provides information such as graphs, KPIs, email interaction history, full activity history, and relationship health. This information doesn't offer a comparison with similar deals that were won, what's working, or what isn't working in the deal's engagement practices.    
@@ -111,7 +111,7 @@ The following screenshot shows an example of enhanced relationship analytics:
     The graph displays the total number of activities initiated by members of your team and by the customer compared with the similar deals. The activities are broken down by general type, such as email, meetings, and phone calls.     
 4. **Your hourly investment**: Shows the average amount of time your sellers spent on activities related to the record compared with similar deals. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members who were present.   
 5. **Customer's hourly investment**: Shows the average amount of time your customers spent on activities related to the record compared with similar deals. For each activity, time spent by your customer is counted just once, even if more than one member of the customer's team was present.
-6. **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View message interactions with email engagement](email-engagement.md).
+6. **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md).
 7. **Your response time**: Shows the average amount of time taken by your sellers to respond to customer emails on the opportunity, to the average amount of time taken for a response from the customer for all similar won deals.
 8. **Customer's response time**: Shows the average amount of time taken by your customers to respond to emails on this opportunity, to the average amount of time taken for a response by customers on all similar won deals.   
 9. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent and received ratio in all similar won deals.
@@ -122,12 +122,15 @@ The following screenshot shows an example of enhanced relationship analytics:
 <a name="Calculations"></a>   
 ## How relationship analytics values are calculated    
 Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and email stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.    
- ![How relationship analytics are calculated](media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")    
+
+![How relationship analytics are calculated](media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")    
+
 The following sections describe the function of each block in the flow chart.    
 
 <a name="Calc_FindContacts"></a>   
 ### Step 1: Find contacts of interest for the record    
-Relationship analytics is concerned with activities performed by the *people* associated with a given record. The first step in finding the relevant activities is to find out which contacts to include in the analysis. Relationship analytics also provides time-spent values for you, your team, and your customer's team, so the identity of who did what is important throughout the process.   
+Relationship analytics is concerned with activities performed by the *people* associated with a given record. The first step in finding the relevant activities is to find out which contacts to include in the analysis. Relationship analytics also provides time-spent values for you, your team, and your customer's team, so the identity of who did what is important throughout the process.  
+
 This table shows how the system finds contacts that have an interest in each type of record. Later, the system will look for activities associated with each contact and decide which of those activities should be included in KPI calculations for that record.   
 
 |  Records | Internal contacts  |  External contacts |
@@ -164,7 +167,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 |Overall (all activities)|Total time spent|Total time spent|  
 
 > [!NOTE]
-> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [View message interactions with email engagement](email-engagement.md)  
+> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Use email engagement to view message interactions](email-engagement.md)  
 
 For KPIs that report your team and your customer, the system finds durations by applying the rules outlined in the following table:  
 
@@ -176,20 +179,24 @@ For KPIs that report your team and your customer, the system finds durations by 
 |Other|**Duration** field for each record|  
 
 > [!TIP]
-> The time calculations for appointments are bit special. The details are given in the previous tables, but here's an example to illustrate it.  
+> The time calculations for appointments are a bit special. The details are given in the previous tables, but here's an example to illustrate it.  <br/>
 > If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
-> - **Time spent by my team**: *90 minutes* (30 min. × 3 team members present)  
+> - **Time spent by my team**: *90 minutes* (30 minutes × 3 team members present)  
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)  
 
 <a name="Calc_Health"></a>   
 ### Step 4: Compute the relationship health and health trend    
 The overall relationship health score is calculated by collecting the relevant activities, and weighting the activity by type (which enables your admin to set some types of activities to count more than others). The result is normalized to produce a health score between 0 and 100, and the health characterized as *good* (for a score of 60-100), *fair* (40-59) or *poor* (0-39).  
+
 **Note**: 
 - Health scores are computed for leads if they are in an active state. This stops once they reach a qualified or disqualified state.
 - Health scores are computed for opportunities if the opportunity is open and ignored if it’s won or lost.
 - Health scores are computed for contacts and accounts irrespective of their state.  
+
 Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50 percent. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
+
 ![Relationship health weightings and frequency settings](media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")   
+
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
 ### See also   
