@@ -70,7 +70,7 @@ To configure relationship analytics, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Adjust activity influence for relationship health](media/relationship-analytics-relationship-health-adjust-activity.png "Adjust activity influence for relationship health")
     
-8. Choose **Communication Frequency**.     
+8. Choose **Communication frequency**.     
 
     Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score. 
     
