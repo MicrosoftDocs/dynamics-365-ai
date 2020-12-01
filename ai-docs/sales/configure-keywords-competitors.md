@@ -26,13 +26,16 @@ Using the conversation content, you can configure the following settings:
 > Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).    
 
 **In the conversation intelligence app**   
+
+<!-- from editor: The intro line says "In the conversation intelligence app," so isn't that the same thing as step 1? -->
+
 1.	Open the **Conversation intelligence** application.  
-2.	Select the **Settings** icon on the upper-right corner of the page and then select **Settings**.  
+2.	Select the **Settings** icon in the upper-right corner of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Settings option](media/si-app-admin-select-settings.png "Select Settings option")  
 3.	On the **Settings** page, select **Conversation content**.  
 
-    In the Conversation content page, you can:   
+    On the Conversation content page, you can:   
     - [Add keywords and competitors](#add-keywords-and-competitors)  
     - [Select call languages](#select-call-languages)
 
@@ -61,18 +64,25 @@ Configure tracked keywords and competitors that are relevant to you and your org
 > As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. <br/>
 > The changes you made apply only to your team. They don't impact the administrator-defined settings for your organization.    
 
-1. Open the Conversation tacking settings page.	
+1. Open the Conversation tracking settings page.	
 2. On the **Tracked keywords** section, enter a keyword in **Add a keyword** and then press **Enter**.  
 
     > [!div class="mx-imgBorder"]
     > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")  
-    
+
+
+<!-- from editor: Regarding step 3, do they have to go back to step 1, or just to step 2? -->
+
 3.	Repeat **step 1** to add other keywords.  
 4.	In the **Competitors** section, enter a competitor's name in **Add a competitor** and then press **Enter**.  
 
     > [!div class="mx-imgBorder"]
     > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")  
-    
+
+
+
+<!-- Below, do you mean repeat step 4? -->
+
 5.	Repeat **step 3** to add other competitors' names.  
 6.	Select **Save**.
 
@@ -119,5 +129,5 @@ Let's look at how each role can select the languages:
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights-app.md)   
+[Administer conversation intelligence](intro-admin-guide-sales-insights-app.md)   
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
