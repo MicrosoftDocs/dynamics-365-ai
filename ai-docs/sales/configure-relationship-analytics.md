@@ -35,7 +35,11 @@ To configure relationship analytics, follow these steps:
     > **Data sources** and **Relationship analytics with modern design and similar opportunities** are enabled by default.  
     
     The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
-    
+
+
+<!-- note from editor: I removed this tag from this spot because it was breaking the formatting on the review page. <a name="configure-similar-opportunities-preview"></a> -->
+
+
 5. To view similar opportunities, under the **Relationship analytics with modern design and similar opportunities** section, turn on the **Enabled** toggle. By default, this option is enabled when you enable relationship analytics for your organization.   
 
     > [!div class="mx-imgBorder"]
@@ -108,6 +112,12 @@ Follow these steps:
     Now you can connect to the Exchange server to collect data.
 
 ### See also
+
+
+<!-- from editor: The first link goes to a page titled "Use relationship analytics to gather KPIs" - change to match? 
+The last link opens a page that says "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action," which is different from what this page shows. Change to match? 
+-->
+
 
 [View customer activity history](../sales/relationship-analytics.md)  
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
