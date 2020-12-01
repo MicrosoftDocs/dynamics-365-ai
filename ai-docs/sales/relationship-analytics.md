@@ -200,6 +200,10 @@ Your administrator can choose which types of activities are most relevant for yo
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 
 ### See also   
+
+<!-- The last link below opens a page titled "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action," which is different from the text here. Change to match? -->
+
+
 [Configure relationship analytics](configure-relationship-analytics.md)   
 [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)   
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
