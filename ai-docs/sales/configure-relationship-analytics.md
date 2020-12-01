@@ -38,11 +38,16 @@ To configure relationship analytics, follow these steps:
     
 
 5. To view similar opportunities, under the **Relationship analytics with modern design and similar opportunities** section, turn on the **Enabled** toggle. By default, this option is enabled when you enable relationship analytics for your organization.   
+
     > [!div class="mx-imgBorder"]
-    > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities")    
+    > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 
+    
     By enabling this option, users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.   
+    
     If you don't want to view the similar opportunities in your organization, you can select the toggle and disable. The older version of relationship analytics is available for users. 
+    
     For newly configured organizations, the enhanced relationship analytics is available by default for contacts, opportunities, leads, and accounts. 
+    
     > [!NOTE]
     > - You must have at least 30 won and 30 lost opportunities to compare with existing opportunities.
     > - To understand how users use this feature, see [View similar opportunities](relationship-analytics.md#relationship-analytics-with-similar-opportunities).   
