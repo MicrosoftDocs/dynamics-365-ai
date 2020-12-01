@@ -55,21 +55,14 @@ Review the following prerequisite before you start using deals flow analysis:
     
       Let's look at the following examples: 
 
-
-<!-- editor question: Do you mean "Few" (not many) or "A few" (some). It sounds like it should be "A few". -->
-
-
-      - **Date change**: Few opportunities of Kenny Smith are moved from July 22 (Q3) to November 26 (Q4) and these opportunities are shown under the **Pushed out** category for Q3 and **Pulled in** category for Q4.     
+      - **Date change**: A few opportunities of Kenny Smith are moved from July 22 (Q3) to November 26 (Q4) and these opportunities are shown under the **Pushed out** category for Q3 and **Pulled in** category for Q4.     
 
         > [!div class="mx-imgBorder"]	
         > ![Example for pulled in and pushed out](media/predictive-forecasting-deal-flow-chart-kenny-smith.png "Example for pulled in and pushed out")    
 
         1. **Pulled in**: Opportunity's date is moved from Q3 to Q4.   
         2. **Pushed out**: Owner moved out of the forecast hierarchy.     
- 
- 
- <!-- editor question: I don't see Amber Rodriguez mentioned in the image - is that correct? -->
- 
+
       - **Ownership change**: Dustin Ochs has two opportunities that are transferred to Amber Rodriguez. The transferred opportunities appear under the **Pushed out** category for Dustin Ochs and **Pulled in** category for Amber Rodriguez.   
 	
 5. To view the summary and flow of a forecast category:	
@@ -98,8 +91,5 @@ Seeing the deals flow of other users depends on the sales hierarchy defined for 
 
 ### See also	
 
-
-<!-- editor note: The first link goes to a page titled "Take snapshots automatically." If that is the correct page, we should change the title below to match. -->
-
-[Manage snapshots for a forecast](manage-snapshots-forecast.md)<br>	
+[Take snapshots automatically](manage-snapshots-forecast.md)   
 [About premium forecasting](configure-premium-forecasting.md)
