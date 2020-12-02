@@ -42,8 +42,8 @@ Azure components and services that are involved with Dynamics 365 Sales Insights
 **Azure Data Factory**  
 [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure Data Factory, a cloud data integration service, to orchestrate and automate the movement and transformation of data (including Customer Data) between services.
 
-**Azure Container Instance**   
-[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure Container instance, a cloud-based container service, to create predictive model training and scoring pipelines dynamically. 
+**Azure batch services**   
+[!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] uses Azure batch service, a cloud-based batch service, to create predictive model training and scoring pipelines dynamically. 
 
 **Installation and Removal of Dynamics 365 Sales Insights**    
 An administrator can enable [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] capabilities by installing it as a solution in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In addition, an administrator can subsequently disable the feature by uninstalling this solution from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization.
