@@ -59,7 +59,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]    
     > ![Select insight card creation template](media/si-admin-create-cards-template-selection-page.png "Select insight card creation template")
 
-    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Common Data Service and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
+    The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Microsoft Dataverse and Dynamics Sales Insights. Once you are successfully signed in, you can continue creating the card.
 
     If any of the accounts are not valid, the **Continue** button appears dimmed and you cannot proceed. Select **Update** to sign in with a valid credential.
 
