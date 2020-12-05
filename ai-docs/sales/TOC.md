@@ -9,7 +9,7 @@
 ## Administrator guide 
 ### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
-### Configure Assistant
+### Configure assistant
 #### [Configure the assistant](configure-assistant.md)
 #### [Create insight cards](create-insight-cards-flow.md)
 #### [Edit insight cards](edit-insight-cards.md)
@@ -17,17 +17,17 @@
 #### [Create insight cards using solution](extend-relationship-assistant-card.md)
 ##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
-### Configure Productivity intelligence 
-#### [Configure email engagement](configure-email-engagement.md)
+### Configure productivity intelligence 
 #### [Configure auto capture](configure-auto-capture.md)
+#### [Configure email engagement](configure-email-engagement.md)
 #### [Configure notes analysis](configure-notes-analysis.md)
 
-### Configure Connection insights
-#### [Configure relationship analytics](configure-relationship-analytics.md)
+### Configure relationship insights
+#### [Configure relationship analytics and health](configure-relationship-analytics.md)
 #### [Configure talking points](configure-talking-points.md)
 #### [Configure who knows whom](configure-who-knows-whom.md)
 
-### Configure Predictive models
+### Configure predictive models
 #### [Predictive lead scoring](configure-predictive-lead-scoring.md)
 #### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
@@ -35,7 +35,7 @@
 #### [View prediction model status](view-prediction-model-status.md)
 #### [Take snapshots automatically](manage-snapshots-forecast.md)
 
-### Configure Sales accelerator
+### Configure sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
@@ -43,12 +43,12 @@
 
 ### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
 
-### Configure Conversation Intelligence
+### Configure conversation intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
 #### [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md)
 #### [Configure and view your team page](../sales/configure-view-your-team-page.md)
-#### [Configure keywords and competitors to track](../sales/configure-keywords-competitors.md)
+#### [Configure conversation content](../sales/configure-keywords-competitors.md)
 #### [Connect to Dynamics 365 Sales environment](../sales/connect-dynamics365-sales-environment.md)
 #### [Data retention and deletion through Privacy](../sales/data-retention-deletion-policy.md)
 #### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
@@ -67,13 +67,13 @@
 #### [Stay updated with cards in assistant](action-cards-reference.md)
 
 ###	Productivity intelligence
-#### [View message interactions with email engagement](email-engagement.md)
 #### [Capture customer related activities with auto capture](auto-capture.md)
 ##### [Basic auto capture](free-auto-capture.md)
 ##### [Premium auto capture](premium-auto-capture.md)
+#### [View message interactions with email engagement](email-engagement.md)
 #### [How notes analysis assists you with suggestion](notes-analysis.md)
 	
-###	Connection insights
+###	Relationship insights
 #### [View customer activity history](relationship-analytics.md)
 #### [Know conversation starters for your customers](talking-points.md)
 #### [Get introduced to lead](who-knows-whom.md)

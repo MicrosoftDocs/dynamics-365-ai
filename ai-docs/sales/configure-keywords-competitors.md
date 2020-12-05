@@ -16,53 +16,53 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Configure keywords and competitors to track
+# Configure conversation content   
+Using the conversation content, you can [add keywords and competitors](#add-keywords-and-competitors).
 
-You should configure keywords and competitors that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.    
+## Open conversation content settings page    
 > [!NOTE]
-> As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. 
-> The changes you made apply only to your team and doesn't impact the administrator-defined settings for your organization.
+> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).    
 
-Using the **Conversation content** section, you can add or remove keywords and competitors to track in the calls. 
+**In the conversation intelligence app**   
 
-## Open conversation content settings page
-
-> [!NOTE]
-> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-
-### In conversation intelligence app
-
-1.	Open the **Conversation intelligence** application.  
-2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
+1.	Select the **Settings** icon in the upper-right corner of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
-    > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")  
-3.	On the **Settings** page, select **Conversation content**.  
-    Conversation content page opens and you can [add keywords and competitors](#add-keywords-and-competitors).  
+    > ![Select Settings option](media/si-app-admin-select-settings.png "Select Settings option")  
+2.	On the **Settings** page, select **Conversation content**.    
+    On the Conversation content page, you can [add keywords and competitors](#add-keywords-and-competitors).  
+    
 
-### In Sales Hub app  
-
+**In the Sales Hub app**  
 1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
-2.	In the configuration page, under **Productivity**, select **Conversation intelligence**.  
+    
+2.	On the configuration page, under **Productivity**, select **Conversation intelligence**.  
     > [!div class="mx-imgBorder"]
     > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
-3.	Select **Conversation tracking**.  
-    Conversation content page opens and you can [add keywords and competitors](#add-keywords-and-competitors).  
+    
+3.	Select **Conversation tracking**.          
+    On the Conversation tracking page, you can [add keywords and competitors](#add-keywords-and-competitors).
 
-## Add keywords and competitors 
+## Add keywords and competitors    
+Configure tracked keywords and competitors that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.  
 
-1.	On the **Tracked keywords** section, enter a keyword in the **Add a keyword**, and press **Enter**.  
+> [!NOTE]
+> As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. <br/>
+> The changes you made apply only to your team. They don't impact the administrator-defined settings for your organization.    
+
+1. Open the Conversation tracking settings page.	
+2. On the **Tracked keywords** section, enter a keyword in **Add a keyword** and then press **Enter**.  
     > [!div class="mx-imgBorder"]
-    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")  
-2.	Repeat **step 1** to add other keywords.  
-3.	In the **Competitors** section, enter a competitor's name in the **Add a competitor**, and press **Enter**.  
+    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")   
+3.	Repeat **step 2** to add other keywords.  
+4.	In the **Competitors** section, enter a competitor's name in **Add a competitor** and then press **Enter**.   
     > [!div class="mx-imgBorder"]
-    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")  
-4.	Repeat **step 3** to add other competitors' names.  
-5.	Select **Save**.
+    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")    
+5.	Repeat **step 4** to add other competitors' names.  
+6.	Select **Save**.
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights-app.md)   
+[Administer conversation intelligence](intro-admin-guide-sales-insights-app.md)   
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
