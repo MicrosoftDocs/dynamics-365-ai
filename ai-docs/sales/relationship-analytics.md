@@ -96,10 +96,6 @@ The following screenshot shows an example of enhanced relationship analytics:
 > [!div class="mx-imgBorder"]
 > ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")   
 
-
-<!-- editor note: I changed "lesser" to "less" in the quote in No. 1 because "lesser" is grammatically incorrect, even though it's that way in the image. I don't know why they're using "lesser" on that page. -->
-
-
 1. **Summary**: Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You take 12 hours less to respond to emails compared to the similar opportunities*.  
 2. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
     - **Next interaction.** Shows the date and time for the next activity that's scheduled for the record. If you have access to that activity, you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.
@@ -201,11 +197,8 @@ In addition to the absolute health score, the system also reports the general tr
 
 ### See also   
 
-<!-- The last link below opens a page titled "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action," which is different from the text here. Change to match? -->
-
-
 [Configure relationship analytics](configure-relationship-analytics.md)   
 [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)   
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
-[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)

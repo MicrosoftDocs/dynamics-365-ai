@@ -151,5 +151,5 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 
 ### See also
 
-[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)      
+[Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
 [Track and manage activities](https://docs.microsoft.com/dynamics365/sales-enterprise/manage-activities)

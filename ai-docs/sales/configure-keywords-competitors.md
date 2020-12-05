@@ -27,14 +27,10 @@ Using the conversation content, you can configure the following settings:
 
 **In the conversation intelligence app**   
 
-<!-- from editor: The intro line says "In the conversation intelligence app," so isn't that the same thing as step 1? -->
-
-1.	Open the **Conversation intelligence** application.  
-2.	Select the **Settings** icon in the upper-right corner of the page and then select **Settings**.  
+1.	Select the **Settings** icon in the upper-right corner of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Settings option](media/si-app-admin-select-settings.png "Select Settings option")  
-3.	On the **Settings** page, select **Conversation content**.  
-
+2.	On the **Settings** page, select **Conversation content**.    
     On the Conversation content page, you can:   
     - [Add keywords and competitors](#add-keywords-and-competitors)  
     - [Select call languages](#select-call-languages)
@@ -48,12 +44,8 @@ Using the conversation content, you can configure the following settings:
     > [!div class="mx-imgBorder"]
     > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
     
-3.	Select **Conversation tracking**.  
-
-
-<!-- Below, should it be "Conversation tracking" page? -->
-
-    On the Conversation content page, you can:   
+3.	Select **Conversation tracking**.          
+    On the Conversation tracking page, you can:   
     - [Add keywords and competitors](#add-keywords-and-competitors)  
     - [Select call languages](#select-call-languages)
 
@@ -66,66 +58,14 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 1. Open the Conversation tracking settings page.	
 2. On the **Tracked keywords** section, enter a keyword in **Add a keyword** and then press **Enter**.  
-
     > [!div class="mx-imgBorder"]
-    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")  
-
-
-<!-- from editor: Regarding step 3, do they have to go back to step 1, or just to step 2? -->
-
-3.	Repeat **step 1** to add other keywords.  
-4.	In the **Competitors** section, enter a competitor's name in **Add a competitor** and then press **Enter**.  
-
+    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")   
+3.	Repeat **step 2** to add other keywords.  
+4.	In the **Competitors** section, enter a competitor's name in **Add a competitor** and then press **Enter**.   
     > [!div class="mx-imgBorder"]
-    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")  
-
-
-
-<!-- Below, do you mean repeat step 4? -->
-
-5.	Repeat **step 3** to add other competitors' names.  
+    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")    
+5.	Repeat **step 4** to add other competitors' names.  
 6.	Select **Save**.
-
-## Select call languages  
-
-**Automatic language detection**   
-
-<!-- from editor: Unclear here. You upload the files to do what? It translates them? -->
-
-
-Currently, you upload the conversation or transcript file along with a metadata file to process. In the metadata file, you specify the language (`locale`) to process the files for more accurate transcription, keyword tracking, analysis, insights, and KPIs to display in the call summary page. To learn how to upload conversations and transcripts, see [Upload call recordings or transcripts](configure-conversation-intelligence-call-data.md#upload-call-recordings-or-transcripts).   
-
-
-<!-- editor suggestion: It might be helpful to list the languages with the abbreviations in parentheses after each. -->
-
-Conversation intelligence supports the following languages to process the files: en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH.
-
-
-<!-- In the second sentence below, it's not clear what the languages are detecting. Is it conversation intelligence that detects the chosen language and then translates the files? -->
-
-
-Selecting the languages through the **Call language** section helps you to avoid specifying the language (`locale`) in the metadata file. The selected languages are automatically detecting to process the conversation or transcript to display in the call summary page. Currently, the application supports the auto-detection of any combination of two languages from the following list: English (en-US and en-GB), French (fr-FR), and German (de-DE).     
-
-> [!NOTE]
-> All languages supported in conversation intelligence are displayed for you to select. However, if you don't choose two languages that are supported in auto-detection, then you must specify the `locale` in the metadata file to process. 
-
-Let's look at how each role can select the languages:  
-- **As an administrator**, you can select a list of languages that your organization uses while talking with customers over calls.      
-- **As a manager**, you can select a subset of languages from the list of administrator-chosen languages. These languages are available for your team to select and use.      
-- **As a seller**, you can select relevant languages that you use to talk with customers over calls. The selected languages are a subset of languages that your manager has selected from the list selected by the administrator. Each time you sign in to the application, the languages you chose are saved in your settings and you can always update the list, as required. If you find that a supported language is not available for you to choose, contact your administrator and manager to add more languages.     
-
-**Select the languages**
-
-> [!NOTE]
-> By default, all languages are selected.   
-
-1. Open the **Conversation tracking** settings page.	
-2. In the **Call languages** section, select the language selector drop-down list and then select the languages you want to use during your calls with customers.   
-
-    > [!div class="mx-imgBorder"]
-    > ![Select call languages](media/ci-admin-select-call-language.png "Select call languages")   
-    
-3.	Select **Save**.
 
 ### See also
 

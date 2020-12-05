@@ -117,20 +117,18 @@ The Sales Insights features support the following versions of Exchange:
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:<br>
-
 | Feature | Language supported |
 |---------|--------------------|
 | Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
 | Talking points, Notes analysis, and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), and Spanish. |
+| Conversation intelligence (Sales insights application) | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, and Arabic. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
 **Where is my organization's data stored?**
 
-Depending on the region where your organization is hosted, data is stored in the following locations:
-
+Depending on the region where your organization is hosted, data is stored in the following locations:    
 | Region | Primary Azure data center location  | Secondary Azure data center location |
 |--------|-------------------------------------|--------------------------------------|
 | Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong) |
@@ -143,70 +141,43 @@ Depending on the region where your organization is hosted, data is stored in the
 | North America (NAM) | East US (Virginia) | West US 2 (Washington) |
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
 
-**How do I extend the trial period of Sales Insights?**
-
+**How do I extend the trial period of Sales Insights?**   
 If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.com/microsoft-365/commerce/extend-your-trial?view=o365-worldwide).
 
 ## Assistant
 
-**How do I disable teasers?**
-
-To disable, follow these steps:
-
-1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
-
-2. On the site map, select **Overview**.
-
-3. Go to **Teasers** section and toggle the option to disable the teasers.
-
+**How do I disable teasers?**    
+To disable, follow these steps:    
+1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.    
+2. On the site map, select **Overview**.    
+3. Go to **Teasers** section and toggle the option to disable the teasers.     
     > [!div class="mx-imgBorder"]
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
-**Why am I getting insufficient permissions alert while using an Insight card?**
-
-If you see an alert about having insufficient permissions to use an Insight card, take these steps:
-
-1. Go to **Settings** > **Security** > **Security Roles**.
-
-2. Choose the user role viewing the insight cards.
-
-3. Select the **Core Records** tab.
-
-4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.
-
+**Why am I getting insufficient permissions alert while using an Insight card?**   
+If you see an alert about having insufficient permissions to use an Insight card, take these steps:    
+1. Go to **Settings** > **Security** > **Security Roles**.   
+2. Choose the user role viewing the insight cards.    
+3. Select the **Core Records** tab.    
+4. Set the privileges to Read and Write access for **Action card** and **Action card User Settings**.     
    ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
 
-## Sales accelerator 
-
-**How do I add the Up next widget to an entity form?**
-
+## Sales accelerator     
+**How do I add the Up next widget to an entity form?**    
 >[!NOTE]
->You can add the **Up next** widget only to managed forms.
-
-To add the **Up next** widget to an entity form, follow these steps:
-
-1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.
-
-2.	Add a **Form** to the solution. 
-
-3.	Save the changes and publish the customizations.
-
-4.	Export the created **AddWidget** solution as **UnManaged**.
-
-5.	Delete the Solution **AddWidget** from the organization.
-
-6.	Extract the zip file of the downloaded solution.
-
-7.	Change the ```<Managed>``` value to 1 in the file ```Solution.xml``` and then save. 
-
-    ```<Managed>1</Managed>```
-
-8.	Open the ```customizations.xml``` file and remove the parameter ```<systemform unmodified="1">```.
-
-9.	Choose the ```<column>``` under **Summary** tab, where you want to add the widget.
-
-10.	Add the ```<section>``` tag as following: 
-
+>You can add the **Up next** widget only to managed forms.     
+To add the **Up next** widget to an entity form, follow these steps:   
+1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.    
+2.	Add a **Form** to the solution.    
+3.	Save the changes and publish the customizations.   
+4.	Export the created **AddWidget** solution as **UnManaged**.    
+5.	Delete the Solution **AddWidget** from the organization.    
+6.	Extract the zip file of the downloaded solution.    
+7.	Change the ```<Managed>``` value to 1 in the file ```Solution.xml``` and then save.     
+    ```<Managed>1</Managed>```    
+8.	Open the ```customizations.xml``` file and remove the parameter ```<systemform unmodified="1">```.     
+9.	Choose the ```<column>``` under **Summary** tab, where you want to add the widget.    
+10.	Add the ```<section>``` tag as following:    
     ```
     <section name="CadenceWidget" showlabel="false" showbar="false" id="{<NEW_GUID_G1>}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{<NEW_GUID_G2> }">
       <labels>
@@ -230,11 +201,9 @@ To add the **Up next** widget to an entity form, follow these steps:
           <row />
       </rows>
     </section>
-    ```
-11.	Replace all the ```<NEW_GUID_G*>``` occurrences by generating a new GUID for each place.
-
-12.	For ```<controlDescriptions>``` node, add a child node as following:
-
+    ```      
+11.	Replace all the ```<NEW_GUID_G*>``` occurrences by generating a new GUID for each place.     
+12.	For ```<controlDescriptions>``` node, add a child node as following:    
     ```
     <controlDescription forControl="{<GUID_G5>}">
     <customControl formFactor="2" name="MscrmControls.AcceleratedSales.CadenceWidgetControl">
@@ -247,45 +216,35 @@ To add the **Up next** widget to an entity form, follow these steps:
         <parameters />
     </customControl>
     </controlDescription>
-    ```
-13.	Replace the ```<GUID_G5>``` in ```customizations.xml``` with the **GUID_G5** generated from **step 11**.
-
-14.	Save the changes and zip the folder.
-
-15.	Open Dynamics 365 and go to **Settings** > **Solutions**.
-
-16.	Import the zipped solution. 
-
-17.	Publish all customizations.
-
+    ```     
+13.	Replace the ```<GUID_G5>``` in ```customizations.xml``` with the **GUID_G5** generated from **step 11**.    
+14.	Save the changes and zip the folder.     
+15.	Open Dynamics 365 and go to **Settings** > **Solutions**.     
+16.	Import the zipped solution.    
+17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
-## Relationship analytics
-
+## Relationship analytics and health   
 **What do I need in order to use Relationship analytics?​**<br>
-Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​
+Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​    
 
 **How do I enable Relationship analytics?​**<br>
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​    
 
 **What is the frequency of KPI updates?​**<br>
-KPIs are updated every 24 hours, potentially fewer.​
+KPIs are updated every 24 hours, potentially fewer.​    
 
 **What are the signals in relationship health?​**<br>
-Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​
+Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
 
 **Can I configure relationship health?​**<br>
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.
 
-## Predictive lead/opportunity scoring
-
+## Predictive lead/opportunity scoring   
 **What do I need in order to use lead/opportunity scoring?​**<br>
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​
-
-To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required. 
-
-To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required. 
-
+Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and use standard lead entity or standard opportunity entity.​   
+To build a lead score model, a minimum of 40 qualified and 40 disqualified leads are required.    
+To build an opportunity scoring model, a minimum of 40 won and 40 lost opportunities are required.    
 Verify that the leads and opportunities are created on or after January 01, in the previous year.
 
 **Can I customize the model?​**<br>
@@ -293,11 +252,6 @@ You cannot customize the model. The out-of-the-box model automatically selects t
 
 **Can I create multiple models for leads/opportunities?​**<br>
 No. In this release, you cannot create multiple models. You can create only one model for all leads and one model for all opportunities.
-
-**What is the minimum data required to create a lead/opportunity score model?​**<br>
-A minimum of 40 qualified and 40 disqualified leads are required to build a lead score model. 
-
-A minimum of 40 won and 40 lost opportunities are required to build an opportunity scoring model.​
 
 **What is the difference between score and grade?​**<br>
 The score is generated by the machine learning model. <br>
