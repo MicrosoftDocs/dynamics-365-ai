@@ -17,9 +17,7 @@ topic-status: Drafting
 ---
 
 # Configure conversation content   
-Using the conversation content, you can configure the following settings:   
-- [Add keywords and competitors](#add-keywords-and-competitors)  
-- [Select call languages](#select-call-languages)
+Using the conversation content, you can [add keywords and competitors](#add-keywords-and-competitors).
 
 ## Open conversation content settings page    
 > [!NOTE]
@@ -31,9 +29,8 @@ Using the conversation content, you can configure the following settings:
     > [!div class="mx-imgBorder"]
     > ![Select Settings option](media/si-app-admin-select-settings.png "Select Settings option")  
 2.	On the **Settings** page, select **Conversation content**.    
-    On the Conversation content page, you can:   
-    - [Add keywords and competitors](#add-keywords-and-competitors)  
-    - [Select call languages](#select-call-languages)
+    On the Conversation content page, you can [add keywords and competitors](#add-keywords-and-competitors).  
+    
 
 **In the Sales Hub app**  
 1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
@@ -45,9 +42,7 @@ Using the conversation content, you can configure the following settings:
     > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
     
 3.	Select **Conversation tracking**.          
-    On the Conversation tracking page, you can:   
-    - [Add keywords and competitors](#add-keywords-and-competitors)  
-    - [Select call languages](#select-call-languages)
+    On the Conversation tracking page, you can [add keywords and competitors](#add-keywords-and-competitors).
 
 ## Add keywords and competitors    
 Configure tracked keywords and competitors that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.  
