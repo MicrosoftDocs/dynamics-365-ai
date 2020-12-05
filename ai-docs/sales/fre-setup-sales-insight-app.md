@@ -57,7 +57,7 @@ After you sign in, you can set up the application depending on the role that's a
     > ![Turn on preview features](media/si-app-admin-enable-preview-feature.png "Turn on preview features")   
     > [!NOTE]
     > If you don't want to enable the preview feature for your organization, skip this step. You can always enable preview features later. More information: [Enable coming soon features](enable-preview-features-sales-insights-app.md)  
-9.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later if your organization's requirements change. More information: [Configure keywords and competitors in Conversation content](configure-keywords-competitors.md)  
+9.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later if your organization's requirements change. More information: [Configure conversation content](../sales/configure-keywords-competitors.md)      
     > [!NOTE]
     > You can also skip adding the keywords and competitors at this point. You can always add them later.  
     > [!div class="mx-imgBorder"]
@@ -85,7 +85,7 @@ Perform the following steps to configure conversation intelligence through the S
     - **Retention policy**: Choose a time limit for data retention. The application retains call recording data for the specified time limit and deletes it when the time limit is reached. More information: [Retention Policy](data-retention-deletion-policy.md#retention-policy)  
     > [!div class="mx-imgBorder"]
     > ![Configuration call recording storage](media/ci-admin-connection-storage.png "Configuration call recording storage")  
-6.	In the **Conversation tracking** section, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization's requirements change. Also, you can add languages that the sellers might use during their calls with customers. More information: [Configure keywords, competitors, and languages in Conversation content](../sales/configure-keywords-competitors.md)  
+6.	In the **Conversation tracking** section, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization's requirements change. Also, you can add languages that the sellers might use during their calls with customers. More information: [Configure conversation content](../sales/configure-keywords-competitors.md)    
     > [!div class="mx-imgBorder"]
     > ![Configuration conversation trackers](media/ci-admin-conversation-trackers.png "Configuration conversation trackers")  
     >[!NOTE]
