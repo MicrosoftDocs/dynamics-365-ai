@@ -101,7 +101,7 @@ After you enable the standard Sales Insights features, you can configure the fea
 
 ## Install and configure premium Sales Insights features
 
-The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, auto capture premium (preview), notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, assistant app for Microsoft Teams, and sales accelerator and sequence (preview). You can configure these features as required in your organization.
+The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, auto capture premium (preview), notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence (preview). You can configure these features as required in your organization.
 
 The following diagram illustrates the steps to configure these features:
 
@@ -182,9 +182,6 @@ After installing the premium Sales Insights features, you can configure the prem
 -   To configure premium forecasting, see [About premium forecasting](configure-premium-forecasting.md).
 
 -   To configure sales accelerator and sequence (preview), see [Enable and configure sales accelerator](enable-configure-sales-accelerator.md).
-
--   To configure the assistant app for Teams (preview), see [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md).
-
 
 ## Administer conversation intelligence
 
