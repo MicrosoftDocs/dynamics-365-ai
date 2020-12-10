@@ -116,7 +116,8 @@ The Sales Insights features support the following versions of Exchange:
 >   To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
 
 **What languages are supported now?**<br>
-Sales insights supports the following languages:<br>
+Sales insights supports the following languages:
+
 | Feature | Language supported |
 |---------|--------------------|
 | Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
@@ -127,7 +128,8 @@ Sales insights supports the following languages:<br>
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
 **Where is my organization's data stored?**    
-Depending on the region where your organization is hosted, data is stored in the following locations:    
+Depending on the region where your organization is hosted, data is stored in the following locations:   
+
 | Region | Primary Azure data center location  | Secondary Azure data center location |
 |--------|-------------------------------------|--------------------------------------|
 | Asia Pacific (APJ) | South East Asia (Singapore) | East Asia (Hong Kong) |
