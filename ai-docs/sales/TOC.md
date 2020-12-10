@@ -40,9 +40,6 @@
 #### [Create and manage sequences](create-manage-sequences.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
-
-### [Install Dynamics 365 Assistant for Microsoft Teams](dynamics-365-assistant-app-teams.md)
-
 ### Configure conversation intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
@@ -92,15 +89,6 @@
 #### [What is sales accelerator](sales-accelerator-intro.md)
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
-
-### Dynamics 365 Assistant for Microsoft Teams
-#### [Overview of Dynamics 365 Assistant](overview-dynamics-365-assistant-app-teams.md)
-#### [Install Dynamics 365 application on Teams](install-assistant-application-microsoft-teams.md)
-#### [Access the application on Microsoft Teams](access-assistant-application-teams.md)
-#### [Learn the basics](learn-basics-dynamics-365-application-teams.md)
-#### [Working with meetings](working-with-meetings-teams.md)
-#### [Scan business cards and meeting notes](scan-business-cards-notes.md)
-#### [Change sales organization](change-sales-organization.md)
 
 ###	Conversation Intelligence
 #### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)

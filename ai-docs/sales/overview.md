@@ -79,8 +79,6 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 -	**Premium forecasting**: Helps you to focus on revenue generation efforts by providing forecast projections based on sales pipeline and historical data. More information: [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 
-**Dynamics 365 assistant for Microsoft Teams (preview)**: Provides sellers with timely and in-context intelligent guidance across the sales journey so that sellers can spend more time building relationships with their customers. More information: [Overview of Dynamics 365 assistant](overview-dynamics-365-assistant-app-teams.md)
-
 > [!NOTE]
 > The premium Sales Insights features that are in preview don't require a Sales Insights or a Sales Premium license during the preview period.
 

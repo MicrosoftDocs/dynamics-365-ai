@@ -25,7 +25,6 @@ search.app:
 <tr><td>
 <h2>Get started</h2>
 <li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 Sales Insights overview</a></li>
-<li><a href="overview-dynamics-365-assistant-app-teams.md" data-raw-source="[Overview of Dynamics 365 assistant application for Teams](overview-dynamics-365-assistant-app-teams.md)">Overview of Dynamics 365 assistant application for Teams</a></li>
 <li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)">Overview of Overview of Conversation Intelligence</a></li>
 </td><td>
 <h2>Administrator guide</h2>
@@ -41,7 +40,6 @@ search.app:
 <li><a href="configure-predictive-opportunity-scoring.md" data-raw-source="[Configure Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)">Configure Predictive opportunity scoring</a></li>
 <li><a href="configure-premium-forecasting.md" data-raw-source="[Premium forecasting](configure-premium-forecasting.md)">Premium forecasting</a></li>
 <li><a href="manage-snapshots-forecast.md" data-raw-source="[Manage snapshots for a forecast](manage-snapshots-forecast.md)">Manage snapshots for a forecast</a></li>
-<li><a href="install-assistant-application-microsoft-teams.md" data-raw-source="[Install Dynamics 365 assistant application on Microsoft Teams](install-assistant-application-microsoft-teams.md)">Install Dynamics 365 assistant application on Microsoft Teams</a></li>
 <li><a href="fre-setup-sales-insight-app.md" data-raw-source="[First-run set up experience of Conversation Intelligence](fre-setup-sales-insight-app.md)">First-run set up experience of Conversation Intelligence</a></li>
 <li><a href="configure-conversation-intelligence-call-data.md" data-raw-source="[Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)">Configure conversation intelligence to connect call data</a></li>
 </td></tr>
@@ -56,8 +54,6 @@ search.app:
 <li><a href="analyze-deals-flow-between-snapshots.md" data-raw-source="[Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)">Analyze deals flow between snapshots</a></li>
 <li><a href="talking-points.md" data-raw-source="[Know conversation starters for your customers](talking-points.md)">Know conversation starters for your customers</a></li>
 <li><a href="who-knows-whom.md" data-raw-source="[Get introduced to a lead](who-knows-whom.md)">Get introduced to a lead</a></li>
-<li><a href="working-with-meetings-teams.md" data-raw-source="[Working with meetings](working-with-meetings-teams.md)">Working with meetings</a></li>
-<li><a href="use-bot-assistant.md" data-raw-source="[Get answers through bot assistant](use-bot-assistant.md)">Get answers through bot assistant</a></li>
 <li><a href="conversation-intelligence-team-overview.md" data-raw-source="[Analyze overall team's behavior on customer calls](conversation-intelligence-team-overview.md)">Analyze overall team's behavior on customer calls</a></li>
 <li><a href="conversation-intelligence-seller-details.md" data-raw-source="[Analyze customer calls to improve sales](conversation-intelligence-seller-details.md)">Analyze customer calls to improve sales</a></li>
 </td><td>
