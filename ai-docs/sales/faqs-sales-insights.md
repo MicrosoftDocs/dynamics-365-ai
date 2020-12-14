@@ -148,9 +148,6 @@ If you want more time to evaluate your Sales Insights trial version before buyin
 **Will Sales Insights affect my storage quota?**    
 Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
 
-**How does Sales insights and Sales Premium affect the customer storage quota?**    
-To provide advanced analytics and AI insights, some of the premium sales insights features use sales data that is copied from Microsoft Dataverse to the managed data lake (MDL). An ongoing data synchronization process starts as soon as the Sales Insights add-in is installed on the organization. The synchronization includes data such as, contacts, accounts, opportunities, leads, and activities from the last two years, then a regular sync process copies sales data to Sales Insights managed data lake. The data held in the managed lake has an impact on the customer’s available file storage capacity. The impact is different from one customer to another, and depends on the amount of historical data for the last two years and the volume of new data the customer has.   
-
 ## Assistant
 
 **How do I disable teasers?**    
