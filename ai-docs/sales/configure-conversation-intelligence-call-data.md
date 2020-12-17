@@ -75,7 +75,7 @@ Upload the call recording or transcript to the created call recording repository
     | `startTime` |--|Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
     || `id`| Specifies the unique identification number of each participant. For example, 1, 2, and 3. |
-    || `role`| Specifies the role of the participant such as, agent or customer. |
+    || `role`| Specifies the role of the participant. The value must be agent, customer, or other. |
     || `email` | Specifies the email ID of the participant. |
     || `crmId` | Specifies the CRM ID of the participant. |
     || `aadId` | Specifies the Azure Directory ID of the participant. |
