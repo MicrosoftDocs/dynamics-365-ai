@@ -38,6 +38,7 @@
 ### Configure sales accelerator
 #### [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Create and manage sequences](create-manage-sequences.md)
+#### [Add the Up next widget to an entity form](add-upnext-widget-form.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
 ### Configure conversation intelligence
