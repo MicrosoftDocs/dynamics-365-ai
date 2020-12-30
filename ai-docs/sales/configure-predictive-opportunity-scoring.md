@@ -464,17 +464,17 @@ By default, the predictive opportunity scoring widget is available only in the o
     > [!div class="mx-imgBorder"]  
     > ![Select your organization](media/power-apps-select-org.png "Select your organization")
 
-3. Select **Data** > **Entities**.
+3. Select **Data** > **Tables**.
 
-    The **Entities** page opens with the list of entities.
+    The **Tables** page opens with the list of tables.
 
     > [!div class="mx-imgBorder"]  
-    > ![Entities page with list of entities](media/power-apps-entities-page.png "Entities page with list of entities")
+    > ![Tables page with list of tables](media/power-apps-entities-page.png "Tables page with list of tables")
 
-4. Open the entity, select the **Forms** tab, and then select a main form to add the widget to. In this example, the entity **Opportunity** is selected and the main form **Opportunity** is selected.
+4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Opportunity** is selected and the main form **Opportunity** is selected.
 
     >[!NOTE]
-    >If you're unable to view the entity to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**. 
+    >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**. 
 
     > [!div class="mx-imgBorder"]  
     > ![Select the Opportunity main form underon the Forms tab](media/power-apps-opportunity-main-form.png "Select the Opportunity main form on the Forms tab")

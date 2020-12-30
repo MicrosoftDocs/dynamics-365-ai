@@ -35,7 +35,7 @@ The following image shows an example of a lead scoring widget.
 
 >[!IMPORTANT]
 >- If you're using predictive lead scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
->- From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** entity and has stopped writing to the lead entity. This entity is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
+>- From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
 
 You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
@@ -463,17 +463,17 @@ By default, the predictive lead scoring widget is available only in the out-of-t
     > [!div class="mx-imgBorder"]  
     > ![Select your organization](media/power-apps-select-org.png "Select your organization")
 
-3. Select **Data** > **Entities**.
+3. Select **Data** > **Tables**.
 
-    The **Entities** page opens with the list of entities.
+    The **Tables** page opens with the list of tables.
 
     > [!div class="mx-imgBorder"]  
-    > ![Entities page with list of entities](media/power-apps-entities-page.png "Entities page with list of entities")
+    > ![Tables page with list of tables](media/power-apps-entities-page.png "Tables page with list of tables")
 
-4. Open the entity, select the **Forms** tab, and then select a main form to add the widget to. In this example, the entity **Lead** is selected and the main form **Lead** is selected.
+4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
 
     >[!NOTE]
-    >If you're unable to view the entity to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
+    >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
 
     > [!div class="mx-imgBorder"]  
     > ![Select the Lead main form on the Forms tab](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
