@@ -25,8 +25,8 @@ After you install the sample data, you can distinguish between sample and your a
 ## Add sample data    
 You can add sample data at any time you need–during or after the configuration of sales accelerator.    
 >[!NOTE]
->Installing the sample data adds basic sales and sales premium entities. More information: [Reference](#reference).     
-Have a Sales Insights, Sales Premium, production, or a trial license to use the sample data.
+>- The sample data adds basic sales and sales premium record types. More information: [Reference](#reference).     
+>- Have a Sales Insights, Sales Premium, production, or a trial license to use the sample data.
 
 1.	Sign in to your sales app.   
 2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insight settings**.    
