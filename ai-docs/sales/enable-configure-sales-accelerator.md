@@ -75,6 +75,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     After the phone system is successfully verified, configure the following advanced call settings:    
     -	In **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they are listed.     
         For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed, if it is available. If it is not available, the call goes to the next option.     
+       
         >[NOTE]
         >For opportunities, the phone number priority will be applied to the primary contacts.  
 
