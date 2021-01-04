@@ -1,7 +1,7 @@
 ---
 title: "Create and activate sequences in sales accelerator  | MicrosoftDocs"
 description: "Learn how to create and activate sequences in sales accelerator."
-ms.date: 01/11/2020
+ms.date: 01/11/2021
 ms.service: crm-online
 ms.topic: article
 author: udaykirang

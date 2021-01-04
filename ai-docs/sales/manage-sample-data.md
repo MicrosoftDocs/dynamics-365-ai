@@ -1,7 +1,7 @@
 ---
 title: "Explore sales premium with sample data in sale app | MicrosoftDocs"
 description: "Learn how to explore sales premium with sample data in sale app."
-ms.date: 01/11/2020
+ms.date: 01/11/2021
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
