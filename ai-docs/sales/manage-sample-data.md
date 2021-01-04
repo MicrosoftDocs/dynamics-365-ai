@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Explore sales premium with sample data    
 
-The sample data helps you visualize the product and its features, by enabling you to understand the end-to-end business scenarios and get started with sales accelerator. You can add the sample data without or after the configuration of sales accelerator. Also, you can remove the sample data from your organization any time when it’s not required  . 
+The sample data helps you visualize the product and its features, by enabling you to understand the end-to-end business scenarios and get started with sales accelerator. You can add the sample data without or after the configuration of sales accelerator. Also, you can remove the sample data from your organization any time when it’s not required. 
 
 >[!NOTE]
 >To prevent unwanted results, the sample data is available only on non-production environments. 
