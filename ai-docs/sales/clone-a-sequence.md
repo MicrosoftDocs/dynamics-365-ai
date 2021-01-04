@@ -1,7 +1,7 @@
 ---
 title: "Clone a sequence in sales accelerator | MicrosoftDocs"
 description: "Learn how to clone a sequence in sales accelerator."
-ms.date: 01/11/2020
+ms.date: 01/11/2021
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -25,7 +25,6 @@ You can clone a sequence to make it easier to add or remove steps, and save the 
 7. Select one of the button:   
     - **Edit sequence**: Select this button to open the sequence editor and add steps as necessary. To add steps, see steps 7 and 8 from [Create and activate a sequence](create-and-activate-a-sequence.md).
     - **Save and close**: Select this button to save and create the sequence. 
-
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "View details of a sequence and its connected records in sales accelerator | MicrosoftDocs"
 description: "Learn how to view details of a sequence and its connected records in sales accelerator."
-ms.date: 01/11/2020
+ms.date: 01/11/2021
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -33,7 +33,6 @@ You can view the details of a sequence and the records connected with it. This v
     > ![Manage sequence tab of a sequence](media/sequence-manage-sequence-tab.png "Manage sequence tab of a sequence")     
 6. To view list of connected records, select the **Connected Lead** tab.    
   
-
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
