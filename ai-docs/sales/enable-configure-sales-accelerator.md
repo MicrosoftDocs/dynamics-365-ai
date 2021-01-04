@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure the Sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to enable and configure the Sales accelerator in Dynamics 365 Sales Insights."
-ms.date: 04/01/2020
+ms.date: 01/11/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -9,24 +9,14 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Enable and configure the sales accelerator
+# Configure the sales accelerator
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
-
-The sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in Sales Hub app. A sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. The sequence is then applied to leads or opportunities, and assigned to a seller automatically according to your organization's sales strategies.
+The sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses  the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records so sellers can follow the best practices that have been defined in the sequence for the leads and opportunities that are assigned to them. The sequence is then applied to leads or opportunities, and assigned to a seller automatically according to your organization's sales strategies.  
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
-1. [Review the prerequisites and recommendation](#review-the-prerequisites-and-recommendations).
-
-2. [Enable the preview](#enable-the-preview).
-
-3. [Configure the Sales accelerator](#configure-the-sales-accelerator).
+1. [Review the prerequisites and recommendation](#review-the-prerequisites-and-recommendations).    
+2. [Setup the Sales accelerator](#setup-the-sales-accelerator).
 
 ## Review the prerequisites and recommendations
 
@@ -34,73 +24,67 @@ As an administrator, you must enable and configure the sales accelerator in your
 
 Ensure that you meet the following requirements:
 
-- Purchase a **Dynamics 365 Sales Insights** license, or start a trial to use advanced Sales Insights features.
+- Purchase a sales insights license, sales premium license, or start a trial to use advanced Sales Insights features.
 
 - Enable advanced Sales Insights features. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 ### Recommendation
 
-For the best experience of the Sales accelerator, enable and configure [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
+For the best experience of the sales accelerator, enable and configure [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) to display predictive scores for each record in the work list. Displaying the score helps your sellers to prioritize leads and opportunities based on their predicted likelihood to convert .
 
-## Enable the preview
+## Setup the sales accelerator
 
-The sales accelerator is available as a preview feature in Sales Insights. You must enable the preview and accept the preview terms and conditions to use the sales accelerator in your organization.
-
-1. Sign in to Dynamics 365 Sales Hub, and go to **Change area** > **Sales Insights settings**.
-
-2. On the site map, under **Acceleration**, select **Sales accelerator (preview)**.
-
-3. On the settings page, select **I agree to the preview terms and conditions** to enable the preview.
-
-4. Select **Get started**.
-
+1. Sign in to your sales app, and on the bottom-left corner of the page, go to **Change area** > **Sales Insights settings**.     
+2. On the site map, under **Sales accelerator**, select **Setup**.    
+    The sales accelerator configuration page opens.      
+    For first run experience, proceed with step 3. If the feature is already configured and you want to update the configurations proceed to step 4.    
+3. If you are configuring the feature for the first time in your organization, select **Get started**.     
     >[!div class="mx-imgBorder"]
-    >![Enable preview](media/sa-enable-preview.png "Enable preview")
+    >![Sales accelerator first run setup](media/sa-fre-setup.png "Sales accelerator first run setup")    
 
-The sales accelerator is now enabled, and you can configure it for your organization.
-
-## Configure the sales accelerator
-
-1. Sign in to Dynamics 365 Sales Hub, and go to **Change area** > **Sales Insights settings**.
-
-2. On the site map, under **Acceleration**, select **Sales accelerator (preview)**.
-
-3. In the **Content and layout** section, select the **Lead** and **Opportunity** entities and their corresponding related forms, as required. The selected entity records will be displayed to sellers in the Sales Hub app, and sales managers will use the entities to configure the sequence that will be assigned to records to be displayed in the app. By default, the **Lead** and **Opportunity** entities are selected.
-
+    A pop-up message appears to install sample data to explore the feature. Installing the sample data is relevant only for your sandbox or trail environments. Select an option depending on your requirement. Adding the sample data may take few minutes. However, you can choose to ignore the sample data installation and add later when required. To learn more, see [Manage sample data](manage-sample-data.md).    
     >[!div class="mx-imgBorder"]
-    >![Choose content and layout for entities](media/sa-choose-content-layout.png "Choose content and layout for entities") 
+    >![Sample data pop-up message](media/sa-sample-data-popup-message.png "Sample data pop-up message")        
 
-4. In the **Engagement channels** section, configure the following options:
-
-    - Select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.
-
-        >[!div class="mx-imgBorder"]
-        >![Choose to automatically create the phone call activity](media/sa-engagement-channel-enable-phonecall-activity.png "Choose to automatically create the phone call activity") 
-
-    -  In **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they are listed.
-
-        For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed, if it is available. If it is not available, the call goes to the next option.      
-
-        >[!NOTE]
-        >For opportunities, the phone number priority will be applied to the primary contacts.
-
-        >[!div class="mx-imgBorder"]
-        >![Choose phone numbers in the order to initiate call](media/sa-engagement-channel-phonecall-priority.png "Choose phone numbers in the order to initiate call")
-
-
-5. In the **Security roles** section, select one of the following options to provide permissions to users to access the Sales Hub app.
-
+    The configuration page opens.    
     >[!div class="mx-imgBorder"]
-    >![Select security role](media/sa-select-security-role.png "Select security role") 
+    >![Sales accelerator setup page](media/sa-setup-page.png "Sales accelerator setup page")        
+4. In the **Define team access** section, select one of the following options to provide permissions to users to use the sales accelerator feature and select **Next**.     
+    >[!div class="mx-imgBorder"]
+    >![Select security roles to access sales accelerator feature](media/sa-select-security-role.png "Select security roles to access sales accelerator feature")   
     
     | Security roles | Description |
     |----------------|-------------|
     | All security roles | Use this option to give access to view the Sales Hub app to all the security roles in your organization. |
-    | Specific security roles | Use this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |
+    | Specific security roles | Use this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |    
+5.	In the **Choose content and layout** section, choose the record types (**Leads** and **Opportunities**) and their corresponding related forms that users use in your organization, as required. Select **Next**.     
+    The selected record type will display the **Sequence (up next)** widget, and sales managers will use the record types to configure the sequence that will be assigned to records to be displayed in the app. By default, the **Leads** and **Opportunities** record types are selected.     
+    >[!NOTE]
+    >If you are using custom record types for leads and opportunities, the name of your custom record type is displayed.    
+    You can also choose custom record type form to display the **Up next** widget for leads and opportunities. To learn more, see [Add the Up next widget to a record type form](add-up-next-widget.md).    
 
-6. Save and publish the configuration.
-    
-    A confirmation message is displayed at the top of the page. Sales managers and sellers can now start using the sales accelerator.
+    >[!div class="mx-imgBorder"]
+    >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
+6. In the Automate activity creation section, choose one of the options as required.  Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.    
+    -	Select **Go to sequences** to create sequences and apply them to records. To learn more, see [Create and manage sequences](create-manage-sequences.md).
+    -	Select **Skip this step** to come back later and create the sequences.
+    >[!div class="mx-imgBorder"]
+    >![Choose an option to create automatic activity creation](media/sa-automatic-activity-creation.png "Choose an option to create automatic activity creation")           
+7.	In the **Set up integrated calls** section, the status of the of the phone system that is integrated through Dynamics 365 Channel Integration Framework is displayed under **Channel Provider**. The phone system allows the sellers to make calls directly through the sales accelerator feature.   The priority of the phone system that is selected for sales accelerator depends on the ranking that is defined in the Channel Integration Framework configuration. To learn more, see [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md).     
+    >[!div class="mx-imgBorder"]
+    >![Status of the of the phone system](media/sa-channel-provider-status.png "Status of the of the phone system")        
+    After the phone system is successfully verified, configure the following advanced call settings:    
+    -	In **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they are listed.     
+        For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed, if it is available. If it is not available, the call goes to the next option.     
+        >[NOTE]
+        >For opportunities, the phone number priority will be applied to the primary contacts.
+    -	In **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate call from a sequence step or from the work list.   
+    >[!div class="mx-imgBorder"]
+    >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
+8.	Save and publish the configuration.
+    A status message is displayed at the top of the page with details including the time and user who published the configurations. Sales accelerator is ready to use in your organization for the selected security roles.
+    >[!div class="mx-imgBorder"]
+    >![Sales accelerator setup status message](media/sa-setup-status-message.png "Sales accelerator setup status message")
 
 ## Customizations
 
@@ -108,5 +92,5 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)  
+[Create and manage sequences](create-manage-sequences.md)     
 [What is the sales accelerator?](sales-accelerator-intro.md)
