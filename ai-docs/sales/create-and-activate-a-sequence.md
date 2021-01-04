@@ -14,10 +14,10 @@ manager: shujoshi
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle leads and opportunities. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
 **To create and activate a sequence**   
-1. Sign in to the **Sales Hub** app.   
-2. At the bottom of the site map, select **Change area** > **Sales Insights settings**.   
-3. Under **Acceleration**, select **Sequence (preview)**.   
-4. On the **Sequences (preview)** page, select **+ New sequence**.   
+1. Sign in to your sales app.   
+2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Sequence**.  
+4. On the **Sequences** page, select **+ New sequence**.   
     > [!div class="mx-imgBorder"]
     > ![Create a sequence dialog box](media/sequence-create-sequence.png "Create a sequence dialog box")   
 5. In the **Create a sequence** dialog dox, enter the following information:   

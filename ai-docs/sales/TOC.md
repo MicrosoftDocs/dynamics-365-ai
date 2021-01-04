@@ -9,6 +9,8 @@
 ## Administrator guide 
 ### [Introduction](../sales/intro-admin-guide-sales-insights.md)
 
+### [Manage sample data](manage-sample-data.md)
+
 ### Configure assistant
 #### [Configure the assistant](configure-assistant.md)
 #### [Create insight cards](create-insight-cards-flow.md)
