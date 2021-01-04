@@ -17,7 +17,6 @@ You can view the details of a sequence and the records connected with it. This v
 1. Sign in to your sales app.   
 2. At the bottom of the site map, select **Change area** > **Sales Insights settings**.   
 3. Under **Sales accelerator**, select **Sequence**.   
-4.3. Under **Sales accelerator**, select **Sequence**.   
 4. On the **Sequences** page, select the **Active** tab.    
     >[!NOTE]
     > You can assign records to sequences that are in active state only.

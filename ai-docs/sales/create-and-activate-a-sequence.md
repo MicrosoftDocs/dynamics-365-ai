@@ -74,6 +74,7 @@ Next, you connect the active sequence to lead or opportunity records.
 
 <table>
 <tr><td>
+
 > [!div class="nextstepaction"] 
 > [Next step: Connect a sequence to records](connect-a-sequence-to-records.md)
 </td></tr>

@@ -1,6 +1,6 @@
 ---
-title: "Create and manage sequences with Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to create and manage sequences with Dynamics 365 Sales Insights."
+title: "Manage sequences in sales accelerator | MicrosoftDocs"
+description: "Learn how to manage sequences in sales accelerator."
 ms.date: 01/11/2020
 ms.service: crm-online
 ms.topic: article
@@ -9,7 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Create and manage sequences
+# Manage sequences
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 
@@ -29,27 +29,12 @@ Before you start, be sure you have met the following prerequisites:
 
 <table>
 <tr><td>
+
 > [!div class="nextstepaction"] 
 > [Next step: Create and activate a sequence](create-and-activate-a-sequence.md)
 </td></tr>
 </table>   
 
-
-## Delete a sequence
-
-You can delete sequences that your organization no longer needs, and they'll be deleted permanently from the app. You can delete active or inactive sequences. When you delete an active sequence, the records that were connected with the sequence will be disconnected from it.
-
-**To delete a sequence**
-
-1. Sign in to the **Sales Hub** app.   
-2. At the bottom of the site map, select **Change area** > **Sales Insights settings**.   
-3. Under **Acceleration**, select **Sequence (preview)**.   
-4. On the **Sequences (preview)** page, hover over the sequence you want to delete, and then select **More options** > **Delete**.   
-5. In the confirmation message that appears, select **Delete permanently**.    
-    > [!div class="mx-imgBorder"]
-    > ![Confirmation message for deleting a sequence](media/sequence-delete-confirmation-message.png "Confirmation message for deleting a sequence")
-
- 
 
 ### See also
 

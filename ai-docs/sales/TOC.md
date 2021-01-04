@@ -37,7 +37,7 @@
 
 ### Configure sales accelerator
 #### [Configure sales accelerator](enable-configure-sales-accelerator.md)
-#### [Create and manage sequences](create-manage-sequences.md)
+#### [Manage sequences](create-manage-sequences.md)
 ##### [Create and activate a sequence](create-and-activate-a-sequence.md)
 ##### [Connect a sequence to records](connect-a-sequence-to-records.md)
 ##### [View details of a sequence and its connected records](view-sequence-details-connected-records.md)

@@ -9,7 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-## Connect a sequence to records
+# Connect a sequence to records
 
 After you create and activate the sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.   
 > [!NOTE]
@@ -93,7 +93,7 @@ You can connect a sequence to records in the following ways:
     > [!div class="mx-imgBorder"]
     > ![Open a lead to connect the sequence to](media/sequence-open-lead-connect-sequence.png "Open a lead to connect the sequence to")   
     > [!NOTE]
-    >  When you select a record that is already connected, the **Disconnect sequence** option appears on the tool bar. Disconnect the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](#view-details-of-a-sequence-and-its-connected-records).       
+    >  When you select a record that is already connected, the **Disconnect sequence** option appears on the tool bar. Disconnect the record from the sequence it's currently connected with, and then connect it to the sequence you want. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).       
 5. Select **Connect sequence**. The list of available sequences that appears includes sequences created by you and other sales managers.   
     In this example, a list of sequences that are configured for the **Lead** entity is displayed.    
     > [!div class="mx-imgBorder"]
