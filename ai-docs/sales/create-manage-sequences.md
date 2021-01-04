@@ -25,7 +25,7 @@ As a sequence manager, you can use the sequence designer to:
 
 Before you start, be sure you have met the following prerequisites:   
 - You must have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
-- The sales accelerator has been configured in your organization. More information: [Enable and configure the sales accelerator](enable-configure-sales-accelerator.md).
+- The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 <table>
 <tr><td>
@@ -38,5 +38,5 @@ Before you start, be sure you have met the following prerequisites:
 
 ### See also
 
-[Enable and configure the sales accelerator](enable-configure-sales-accelerator.md)  
+[Configure the sales accelerator](enable-configure-sales-accelerator.md)  
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
