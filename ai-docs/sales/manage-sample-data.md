@@ -51,7 +51,8 @@ Have a Sales Insights, Sales Premium, production, or a trial license to use the 
 ## Remove sample data   
 As an administrator, you can remove sample data that is no longer required in your organization.     
 >[!NOTE]
->You always add the sample data back whenever it’s required.    
+>You can always add the sample data back whenever it’s required.    
+
 **To remove the sample data:**    
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page and select **Sales Insight settings**.    
