@@ -61,8 +61,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     The selected record type will display the **Sequence (up next)** widget, and sales managers will use the record types to configure the sequence that will be assigned to records to be displayed in the app. By default, the **Leads** and **Opportunities** record types are selected.     
     >[!NOTE]
     >If you are using custom record types for leads and opportunities, the name of your custom record type is displayed.    
-    You can also choose custom record type form to display the **Up next** widget for leads and opportunities. To learn more, see [Add the Up next widget to a record type form](add-up-next-widget.md).    
-
+    
     >[!div class="mx-imgBorder"]
     >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
 6. In the Automate activity creation section, choose one of the options as required.  Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.    
