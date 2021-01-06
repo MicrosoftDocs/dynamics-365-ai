@@ -66,7 +66,7 @@ The lead records are connected to the sequence and are added to the list of conn
     In this example, we select **Leads**.   
     > [!div class="mx-imgBorder"]
     > ![Lead view](media/sequence-connect-lead-view.png "Lead view")        
-4. Select the records to which you want to connect the sequence. In this example, we select **Nancy Anderson** and **Maria Campbell**.   
+4. Select the records to which you want to connect the sequence. In this example, we select **Sharon Thonpson** and **Christopher Anderson**.   
     > [!div class="mx-imgBorder"]
     > ![Select leads to connect the sequence to](media/sequence-select-leads-connect-sequence.png "Select leads to connect the sequence to")   
 
@@ -90,7 +90,7 @@ A confirmation message appears at the bottom of the page, and the sequence is co
     In this example, we select **Leads**.   
     > [!div class="mx-imgBorder"]
     > ![Lead view](media/sequence-connect-lead-view.png "Lead view")       
-4. Open the record to which you want to connect the sequence. In this example, we opened the lead **Nancy Anderson**.   
+4. Open the record to which you want to connect the sequence. In this example, we opened the lead **Sharon Thonpson**.   
     > [!div class="mx-imgBorder"]
     > ![Open a lead to connect the sequence to](media/sequence-open-lead-connect-sequence.png "Open a lead to connect the sequence to")   
     > [!NOTE]
