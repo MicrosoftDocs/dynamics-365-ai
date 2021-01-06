@@ -10,8 +10,8 @@ manager: shujoshi
 ---
 
 # Explore the sales accelerator with sample data
-<!--note from editor: I assume "sales premium" was a placeholder for "sales accelerator"? If not, I don't know what to suggest - maybe "Sales Premium features"? -->
-Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with the Dynamics 365 Sales Insights sales accelerator. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
+
+Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with the sales insights for Dynamics 365 Sales. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
 
 >[!NOTE]
 >To prevent unwanted results, sample data is available only for non-production environments. 

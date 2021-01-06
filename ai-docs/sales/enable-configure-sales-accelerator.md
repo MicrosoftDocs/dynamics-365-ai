@@ -64,7 +64,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     
     >[!div class="mx-imgBorder"]
     >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
-6. In the **Automate activity creation** section, choose an option based on your requirements:<!--note from editor: Deleted the background information because it should be covered in a general discussion of the feature (which it is, in the article you link to where this text is duplicated) and not buried in the middle of a step-by-step procedure, where it just creates a distraction.-->    
+6. In the **Automate activity creation** section, choose an option based on your requirements:    
     - Select **Go to sequences** to create sequences and apply them to records. More information: [Create and manage sequences](create-manage-sequences.md)
     - Select **Skip this step** to come back later and create the sequences.
     >[!div class="mx-imgBorder"]
