@@ -53,19 +53,19 @@ Every organization has its own selling processes for sellers to follow. A sequen
         Enter the name and description of the custom activity, and then select **Save**. The information you enter here will be displayed to sellers.   
         > [!div class="mx-imgBorder"]
         > ![Example task activity](media/sequence-activity-task-created.png "Example task activity")   
-    - **Set wait time**: Specifies the interval between activities&mdash;that is, after an activity is completed and before the next activity occurs&mdash;during which sellers need to wait. A sequence can't start or end with this activity.    
+    - **Set wait time**: Specifies the interval between activities&mdash;that is, after an activity is completed and before the next activity occurs&mdash;during which sellers need to wait. A sequence can't end with this activity.    
         When this activity is shown to sellers on a record, they don't need to perform any action; they simply need to wait until the wait time expires before they perform the next activity.   
         > [!div class="mx-imgBorder"]
         > ![Set wait time](media/sequence-activity-add-set-wait-time.png "Set wait time")   
         Choose the duration in days and hours that you want sellers to wait before they perform the next activity, and then select **Save**. The maximum wait time is 30 days.   
         > [!div class="mx-imgBorder"]
         > ![Example wait time](media/sequence-activity-set-wait-time-created.png "Example wait time")   
-1. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
-1. Select **More options** in the upper-right corner of the page, and then select **Save**.    
-1. Select **More options** again, and then select **Activate** to activate the sequence.   
+8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
+9. Select **More options** in the upper-right corner of the page, and then select **Save**.    
+10. Select **More options** again, and then select **Activate** to activate the sequence.   
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
-1. Select **Yes** in the confirmation message that appears.   
+11. Select **Yes** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
     The sequence is activated and listed in the sequence designer home page.   
