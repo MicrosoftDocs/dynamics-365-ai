@@ -15,11 +15,11 @@ ms.tgt_pltfrm:
 caps.latest.revision: 01
 topic-status: Drafting
 ---
-# Overview of Dynamics 365 Sales Insights
+# Overview of Sales Insights
 
-Welcome to [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)].
+Welcome to Sales Insights add-in for Dynamics 365 Sales.
 
-[!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
+Sales Insights continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
 Sales Insights helps organizations in the following four areas:
 
@@ -28,7 +28,7 @@ Sales Insights helps organizations in the following four areas:
 -	**Connection insights**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Take preemptive steps to mitigate risks with a relationship health score.
 -	**Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy.
 
-These Sales Insights features are categorized as [standard](#standard-sales-insights-features) and [premium](#premium-sales-insights-features). The following diagram illustrates the various features available in [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)]: 
+These Sales Insights features are categorized as [standard](#standard-sales-insights-features) and [premium](#premium-sales-insights-features). The following diagram illustrates the various features available in Sales Insights: 
 
 > [!div class="mx-imgBorder"]
 > ![Sales Insights feature categories](media/si-features-categories.png "Sales Insights feature categories")
@@ -53,11 +53,11 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 ### Guided selling
 
--	**Assistant (premium)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the assistant studio. The assistant studio<!--Edit okay?--> helps you to create custom insight cards through Power Automate, configure prioritization, and identify who can see the cards. More information: [Manage insight cards](manage-custom-cards-flow.md)
+-	**Assistant (premium)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the assistant studio. The assistant studio helps you to create custom insight cards through Power Automate, configure prioritization, and identify who can see the cards. More information: [Manage insight cards](manage-custom-cards-flow.md)
 
 ### Productivity intelligence
 
--	**Sales accelerator and sequence (preview)**: Helps sales teams in organizations to focus on high-velocity selling by offering a tailored experience for sellers that minimizes the time spent identifying who is the next best customer to reach, gathering information across multiple sources, and focusing on how to approach<!--Edit okay?--> customers. More information: [What is sales accelerator](sales-accelerator-intro.md)
+-	**Sales accelerator and sequence (preview)**: Helps sales teams in organizations to focus on high-velocity selling by offering a tailored experience for sellers that minimizes the time spent identifying who is the next best customer to reach, gathering information across multiple sources, and focusing on how to approach customers. More information: [What is sales accelerator](sales-accelerator-intro.md)
 
 -	**Notes analysis**: Monitors notes that you enter about a recent meeting or discussion with your customer to provide intelligent suggestions for new activities. More information: [How notes analysis assists you with suggestion](notes-analysis.md)
 

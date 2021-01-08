@@ -1,7 +1,7 @@
 ---
 title: "Understand what is sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Identify the best customer to contact next and prioritize sales activities by using the Sales accelerator in Dynamics 365 Sales Insights."
-ms.date: 04/01/2020
+ms.date: 01/11/2020
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -10,13 +10,6 @@ manager: shujoshi
 ---
 
 # What is the Sales accelerator? 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
 Sales teams in organizations must focus on high-velocity selling. The sellers who are part of these sales teams spend valuable time identifying the best customer in their customer list, navigating across multiple sources to identify who they need to engage with, when, and how. 
 
