@@ -1,7 +1,7 @@
 ---
 title: "Connect with customers in Dynamics 365 Sales | MicrosoftDocs"
 description: "Make phone calls or send emails by using a record or the Up next widget in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 01/11/2021
 ms.service: crm-online
 ms.topic: article
 author: sbmjais
@@ -10,13 +10,6 @@ manager: shujoshi
 ---
 
 # Connect with customers by using a record or the Up next widget
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
 As a seller using Dynamics 365 Sales, you can connect with your customers daily by using multiple channels, such as phone and email, without losing context or needing to switch among multiple applications. When an activity for contacting customers through a phone call or email appears in a sequence, the corresponding phone or email icons are displayed in your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) record and the [Up next](prioritize-sales-pipeline-through-work-list.md#understand-the-up-next-widget) widget. After you make the phone call or send the email, you mark the activity as complete in the **Up next** widget and continue with the next activity defined in the sequence.
 
@@ -29,7 +22,7 @@ You can make a phone call to your customer from a record in the **My work** list
 When you make a phone call, a **Phone Call** activity is created and linked to the lead or opportunity. The **Phone Call** activity captures the following information:
 
 >[!NOTE]
->Administrator must configure the option to automatically create the phone call activity. To learn more, see **step 4** from [Configure the Sales accelerator](enable-configure-sales-accelerator.md#configure-the-sales-accelerator).
+>Administrator must configure the option to automatically create the phone call activity. To learn more, see **step 7** from [Configure the Sales accelerator](enable-configure-sales-accelerator.md#configure-the-sales-accelerator).
 
 - **Subject**: Name of the activity in the **Up next** widget.
 - **Call From**: Name of the contact who made the call.
