@@ -16,14 +16,6 @@ Sample data helps you visualize a product and its features, by enabling you to u
 >[!NOTE]
 >To prevent unwanted results, sample data is available only for non-production environments. 
 
-## Sample data availability
-
-By default, sample data is available for the administrator who adds it. The administrator can assign the records that are associated with sample data for other users to explore.
-
-## Distinguish between sample and actual data
-
-After you install sample data, you can distinguish between the sample and your organization's actual data: sample data is always followed by **(sample)**. For example, sample contacts are added as **Michelle Harris (sample)** and **Alex Baker (sample)**.
-
 ## Add sample data
 
 You can add sample data any time you need, during or after the configuration of the sales accelerator.    
@@ -52,6 +44,14 @@ After the sample data is added to your organization, a confirmation message is d
 
 > [!div class="mx-imgBorder"]
 > ![Confirmation message of sample data added later](media/sample-data-add-later-confirmation-message.png "Confirmation message of sample data added later")    
+
+## Sample data availability
+
+By default, sample data is available for the administrator who adds it. The administrator can assign the records that are associated with sample data for other users to explore.
+
+## Distinguish between sample and actual data
+
+After you add sample data, you can distinguish between the sample and your organization's actual data: sample data is always followed by **(sample)**. For example, sample contacts are added as **Michelle Harris (sample)** and **Alex Baker (sample)**.
 
 ## Remove sample data
 
