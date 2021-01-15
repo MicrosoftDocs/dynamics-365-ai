@@ -168,7 +168,7 @@ If you see an alert about having insufficient permissions to use an Insight card
    ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
 
 **Why am I getting contact administrator error while authenticating credentials in assistant studio?**     
-The error is occurring due to your organization’s policies to restrict third-party tools to access user information. To resolve the issue, contact you tenant administrator to grant consent on your behalf for third-party tools to access your data.   
+The error is occurring due to your organization’s policies to restrict third-party tools to access user information. To resolve the issue, you can provide consent for yourself through the [Azure portal](https://portal.azure.com) for third-party tools to access your data. To provide consent for the entire organization, contact your tenant administrator. To learn more, see [Grant admin consent in Enterprise apps](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-in-enterprise-apps).
 
 ## Sales accelerator     
 **How do I add the Up next widget to an entity form?**    
