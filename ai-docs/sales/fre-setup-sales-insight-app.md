@@ -163,7 +163,7 @@ You must have tenant administrator privileges to run the script. Follow these st
 
     >[!NOTE]
     >If you don’t want to use the Microsoft Teams as your phone system and use your custom defined storage location to upload call recording, under **Record and upload your own calls** section, select **Connect my own storage**. You are directed to the storage setting page. To learn more, see [Configure in the Sales Hub app](#configure-in-the-sales-hub-app).   
-    >>![Connecte your own storage](media/si-admin-teams-connect-storage.png "Connecte your own storage")
+    >![Connecte your own storage](media/si-admin-teams-connect-storage.png "Connecte your own storage")
 5.	Select **Get started** and the conversation intelligence configuration page opens.       
 6.	Under the **Microsoft Teams call recordings (preview)** section, configure the call-related options as described:     
 
@@ -177,6 +177,7 @@ You must have tenant administrator privileges to run the script. Follow these st
     > [!div class="mx-imgBorder"]
     > ![Enable teams call and recording](media/si-admin-teams-enable-teams-call-recording.png "Enable teams call and recording")   
 7.	Under the **Call recording storage** section, configure the storage-related options as described:    
+
     | Option | Description |
     |--------|-------------|
     | Storage for call recordings | Select an option to store your call recordings for analysis. <br>•	**Microsoft provided storage**: Select this option if you want to use the Microsoft provided storage. By default, this option is selected, and we recommend you use this storage.<br>•	**Your own Azure storage**: Select this option if you want to use your custom Azure storage. After you select this option, enter the **Storage connection string** and **Container name**.<br> To learn more, see [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md). |
