@@ -157,7 +157,7 @@ You must have tenant administrator privileges to run the script. Follow these st
         > ![Phone system, teams licenses, and PowerShell script successful validation](media/si-admin-teams-dialer-systems-validation-successful.png "Phone system, teams licenses, and PowerShell script successful validation")      
     - <a name='teams-tenant-admin-contact'></a> If any of the validations fails, you can’t proceed with the configure and you must contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.   
         When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).    
-        Configure the [PowerShell script to record calls](#run-powershell-script-to-record-calls), you can continue with the configuration.    
+        Configure [PowerShell script to record calls](#run-powershell-script-to-record-calls), you can continue with the configuration.    
         Select **Check status**.     
         > [!div class="mx-imgBorder"]
         > ![Phone system, teams licenses, and PowerShell script failed validation](media/si-admin-teams-dialer-systems-validation-failed.png "Phone system, teams licenses, and PowerShell script failed validation")     
