@@ -19,8 +19,8 @@ topic-status: Drafting
 # First-run setup experience for conversation intelligence
 
 You can configure conversation intelligence through:      
-- [Conversation intelligence application](#configure-the-conversation-intelligence-application)    
-- [Sales Hub app](#configure-in-the-sales-hub-app)    
+- [The conversation intelligence application](#the-conversation-intelligence-application)    
+- [The Sales Hub app](#the-sales-hub-app)    
 - [Microsoft Teams](#microsoft-teams)    
 
 When you sign in to conversation intelligence, the application will be available for you to use and explore the various features through the demo data provided.
@@ -28,7 +28,7 @@ After you sign in, you can set up the application depending on the role that's a
 - As an administrator, you can set up the complete application&mdash;including connecting to a Dynamics 365 Sales environment&mdash;grant app permissions, connect call data, enable the preview, and define tracked key words and competitors to use the features that the application offers.     
 - As a sales manager or seller, you can access the application by using demo data. An administrator must configure the application so you can view the data that's relevant to you.
 
-## Configure the conversation intelligence application
+## The conversation intelligence application
 
 1.	Review the prerequisites. More information: [Prerequisites to setup conversation intelligence](prereq-sales-insights-app.md)  
 2.	Sign in to the conversation intelligence application as an administrator.  
@@ -70,7 +70,7 @@ After you sign in, you can set up the application depending on the role that's a
     > ![Setup progress message](media/si-app-admin-status-message-set-up.png "Setup progress message")    
 Now your conversation intelligence application is ready, and managers and sellers can use it to view this data.
 
-## Configure in the Sales Hub app
+## The Sales Hub app
 
 Perform the following steps to configure conversation intelligence through the Sales Hub app.
 
