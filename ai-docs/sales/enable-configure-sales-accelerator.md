@@ -48,7 +48,8 @@ For the best experience of the sales accelerator, enable and configure [predicti
 
     The configuration page opens.    
     >[!div class="mx-imgBorder"]
-    >![Sales accelerator setup page](media/sa-setup-page.png "Sales accelerator setup page")        
+    >![Sales accelerator setup page](media/sa-setup-page.png "Sales accelerator setup page")     
+    <a name='#define-team-access'></a>   
 4. In the **Define team access** section, select one of the following options to provide permissions to users to use the sales accelerator feature, and then select **Next**.     
     >[!div class="mx-imgBorder"]
     >![Select security roles to access the sales accelerator feature](media/sa-select-security-role.png "Select security roles to access the sales accelerator feature")   
@@ -57,6 +58,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     |----------------|-------------|
     | All security roles | Select this option to give access to view the Sales Hub app to all the security roles in your organization. |
     | Specific security roles | Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |    
+    <a name='#choose-content-and-layout'></a>
 5. In the **Choose content and layout** section, choose the record types (**Leads** and **Opportunities**) and their corresponding related forms that users use in your organization, as required. Select **Next**.     
     The selected record type will display the **Sequence (up next)** widget, and sales managers will use the record types to configure the sequence that will be assigned to records to be displayed in the app. By default, the **Leads** and **Opportunities** record types are selected.     
     >[!NOTE]
