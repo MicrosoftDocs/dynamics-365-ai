@@ -120,7 +120,12 @@ Conversation intelligence is configured and ready for use in your organization.
 
 ## Microsoft Teams
 
-Conversation intelligence provides insights such as KPIs into sellers’ calls by analyzing the call recordings.   When Microsoft Teams is integrated with conversation intelligence, making of calls and the analysis of conversations are made easy by providing real-time data on call recordings. Also, organization’s sales teams can drill down into their customer interactions, get real-time call transcripts, and post-call summaries.     
+> [!IMPORTANT]
+> - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+
+Conversation intelligence provides insights such as KPIs into sellers’ calls by analyzing the call recordings. When Microsoft Teams is integrated with conversation intelligence, making of calls and the analysis of conversations are made easy by providing real-time data on call recordings. Also, organization’s sales teams can drill down into their customer interactions, get real-time call transcripts, and post-call summaries.     
 As an administrator, you must configure the conversation intelligence to integrate Microsoft Teams for your sales teams to get real-time call transcripts, post-call summaries, and call insights.     
 
 ### Review the prerequisites      
