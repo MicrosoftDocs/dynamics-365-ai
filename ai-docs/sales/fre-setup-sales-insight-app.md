@@ -163,7 +163,7 @@ You must have tenant administrator privileges to run the script. Follow these st
         > ![Phone system, teams licenses, and PowerShell script failed validation](media/si-admin-teams-dialer-systems-validation-failed.png "Phone system, teams licenses, and PowerShell script failed validation")     
 
     >[!NOTE]
-    >If you don’t want to use the Microsoft Teams as your phone system and use your custom defined storage location to upload call recording, under **Record and upload your own calls** section, select **Connect my own storage**. You are directed to the storage setting page. To learn more, see [Configure in the Sales Hub app](#configure-in-the-sales-hub-app).   
+    >If you don’t want to use the Microsoft Teams as your phone system and use your custom defined storage location to upload call recording, under **Record and upload your own calls** section, select **Connect my own storage**. You are directed to the storage setting page. To learn more, see [The Sales Hub app](#the-sales-hub-app).   
     >![Connecte your own storage](media/si-admin-teams-connect-storage.png "Connecte your own storage")
 5.	Select **Get started** and the conversation intelligence configuration page opens.       
 6.	Under the **Microsoft Teams call recordings (preview)** section, configure the call-related options as described:     
