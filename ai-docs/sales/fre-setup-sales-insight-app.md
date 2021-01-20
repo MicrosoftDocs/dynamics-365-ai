@@ -21,7 +21,7 @@ topic-status: Drafting
 You can configure conversation intelligence through:      
 - [The conversation intelligence application](#the-conversation-intelligence-application)    
 - [The Sales Hub app](#the-sales-hub-app)    
-- [Microsoft Teams](#microsoft-teams)    
+- [Microsoft Teams call recording](#microsoft-teams-call-recording)    
 
 When you sign in to conversation intelligence, the application will be available for you to use and explore the various features through the demo data provided.
 After you sign in, you can set up the application depending on the role that's assigned to you.      
@@ -118,21 +118,22 @@ Perform the following steps to configure conversation intelligence through the S
     > ![Agree to terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")  
 Conversation intelligence is configured and ready for use in your organization.   
 
-## Microsoft Teams
+## Microsoft Teams call recording
 
 > [!IMPORTANT]
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-Conversation intelligence provides insights such as KPIs into sellers’ calls by analyzing the call recordings. When Microsoft Teams is integrated with conversation intelligence, making of calls and the analysis of conversations are made easy by providing real-time data on call recordings. Also, organization’s sales teams can drill down into their customer interactions, get real-time call transcripts, and post-call summaries.     
-As an administrator, you must configure the conversation intelligence to integrate Microsoft Teams for your sales teams to get real-time call transcripts, post-call summaries, and call insights.     
+Conversation intelligence provides insights such as KPIs into sellers’ calls by analyzing the call recordings. When Microsoft Teams call recording is integrated with conversation intelligence, making of calls and the analysis of conversations are made easy by providing real-time data on call recordings. Also, organization’s sales teams can drill down into their customer interactions, get real-time call transcripts, and post-call summaries.     
+As an administrator, you must configure the conversation intelligence to integrate Microsoft Teams call recording for your sales teams to get real-time call transcripts, post-call summaries, and call insights.     
 
 ### Review the prerequisites      
-Review the following requirements before you configure Microsoft Teams calls for conversation intelligence:     
+Review the following requirements before you configure Microsoft Teams call recording for conversation intelligence:     
 -	You must have an administrator or equivalent security role. To learn more, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 -	Your organization has a phone system installed with proper license to use. To learn more, see [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system).
--	You have license to use Microsoft Teams. To learn more, see [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
+-	You have license to use Microsoft Teams call recording. To learn more, see [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
+-	You must [Configure Microsoft Teams dialer](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-microsoft-teams-dialer) in your organization.     
 -	You must run the PowerShell script to record and store the Teams calls. If you are unable to run the script, contact you tenant administrator to run the script for your organization. To learn more, see [Run PowerShell script to record calls](#run-powershell-script-to-record-calls).       
 ### Run PowerShell script to record calls      
 Before you configure the Teams dialer, run the PowerShell script to record calls through Teams and store them in default Microsoft storage for real-time processing.
@@ -144,10 +145,10 @@ You must have tenant administrator privileges to run the script. Follow these st
     The package starts installing and a sign-in dialog box opens.     
 4.	Enter your tenant administrator credentials to sign in to your organization to create the following:     
     -	Azure AD security group for whom the recording will be enabled.     
-    -	Microsoft Teams related artifacts such as, service principle and recording policy.      
+    -	Microsoft Teams call recording related artifacts such as, service principle and recording policy.      
 5.	Accept the default settings and the script installs successfully.     
-    You can proceed to configure the Microsoft Teams for conversation intelligence.      
-### Configure Microsoft Teams     
+    You can proceed to configure the Microsoft Teams call recording for conversation intelligence.      
+### Configure Microsoft Teams call recording     
 1.	Sign in to Dynamics 365, and go to your sales app.   
 2.	Select the **change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**.  
     > [!div class="mx-imgBorder"]
@@ -160,7 +161,7 @@ You must have tenant administrator privileges to run the script. Follow these st
     - Up on successful validation, the status corresponding to **Phone system license**, **Teams license**, and **PowerShell script** display **Status: Successfully set up**. Proceed to step 5.    
         > [!div class="mx-imgBorder"]
         > ![Phone system, teams licenses, and PowerShell script successful validation](media/si-admin-teams-dialer-systems-validation-successful.png "Phone system, teams licenses, and PowerShell script successful validation")      
-    - <a name='teams-tenant-admin-contact'></a> If any of the validations fails, you can’t proceed with the configure and you must contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.   
+    - <a name='teams-tenant-admin-contact'></a> If any of the validations fails, you can’t proceed with the configure and you must contact your tenant administrator to set up the phone system and Microsoft Teams call recording for your organization.   
         When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).    
         Configure [PowerShell script to record calls](#run-powershell-script-to-record-calls), you can continue with the configuration.    
         Select **Check status**.     
@@ -168,14 +169,14 @@ You must have tenant administrator privileges to run the script. Follow these st
         > ![Phone system, teams licenses, and PowerShell script failed validation](media/si-admin-teams-dialer-systems-validation-failed.png "Phone system, teams licenses, and PowerShell script failed validation")     
 
     >[!NOTE]
-    >If you don’t want to use the Microsoft Teams as your phone system and use your custom defined storage location to upload call recording, under **Record and upload your own calls** section, select **Connect my own storage**. You are directed to the storage setting page. To learn more, see [The Sales Hub app](#the-sales-hub-app).   
+    >If you don’t want to use the Microsoft Teams call recording as your phone system and use your custom defined storage location to upload call recording, under **Record and upload your own calls** section, select **Connect my own storage**. You are directed to the storage setting page. To learn more, see [The Sales Hub app](#the-sales-hub-app).   
     >![Connecte your own storage](media/si-admin-teams-connect-storage.png "Connecte your own storage")
 5.	Select **Get started** and the conversation intelligence configuration page opens.       
 6.	Under the **Microsoft Teams call recordings (preview)** section, configure the call-related options as described:     
 
     | Option | Description |
     |--------|-------------|
-    | Turn on Teams call preview | Enable the preview to use Microsoft Teams as your phone system to record calls. To learn more, see [Configure Microsoft Teams calls](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-microsoft-teams-dialer). |
+    | Turn on Teams call preview | Enable the preview to use Microsoft Teams call recording as your phone system to record calls. To learn more, see [Configure Microsoft Teams dialer](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-microsoft-teams-dialer). |
     | Call recording permissions | Specifies the security roles from your organization who has the permission to use the Teams dialer. By default, permission is granted to all security roles in your organization. If you want to add or remove security roles, see [Configure the dialer](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-microsoft-teams-dialer#configure-the-dialer). |
     | Call recording activation | Choose the option to initiate the call recordings. <br>•	**Automatically**: select this option if you want the calls to be automatically recorded when a call is initiated. <br>•	**On demand**: Select this option if you want to allow sellers to start the call recording when a call is initiated. <br>Select the **Users can manually stop recording** option to allow uses to stop the call recording at any point during the call. |
     | Recording notification for customers | Enable this option to notify  customers when the call recording is initiated. This lets customers know that the sellers are recording their conversation. |
@@ -222,7 +223,7 @@ You must have tenant administrator privileges to run the script. Follow these st
     > [!div class="mx-imgBorder"]
     > ![Agree to terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")    
 
-Microsoft Teams dialer for Conversation intelligence is configured and ready for use in your organization.   
+Microsoft Teams call recording dialer for Conversation intelligence is configured and ready for use in your organization.   
 
 ### See also
 
