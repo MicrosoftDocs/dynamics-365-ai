@@ -33,14 +33,10 @@ By default, the up next widget is available only in the out-of-the-box Sales Ins
 7. From the site map, select **Related data** > **Sequence (Up next)**.   
     >[!NOTE]
     >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.   
-    > [!div class="mx-imgBorder"]  
-    > ![](media/ "")  
 8. In the **Edit sequence (up next)** pop-up window, select **Done**.  
-    > [!div class="mx-imgBorder"]  
-    > ![](media/ "")    
     The up next widget is added to the form, as shown in the following image.   
     > [!div class="mx-imgBorder"]  
-    > ![](media/ "")    
+    > ![Up next widget added to the form](media/sa-upnext-widget-added.png "Up next widget added to the form")    
     >[!NOTE]
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.    
 9. Save and publish the form.
