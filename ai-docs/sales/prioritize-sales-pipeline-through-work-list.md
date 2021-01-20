@@ -1,7 +1,7 @@
 ---
 title: "Understand how to prioritize your sales pipeline through the work list in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Prioritize your sales pipeline by using the work list in Dynamics 365 Sales Insights."
-ms.date: 11/16/2020
+ms.date: 01/11/2021
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -10,13 +10,6 @@ manager: shujoshi
 ---
 
 # Prioritize your sales pipeline by using the work list 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
 During their workday, sellers need to juggle multiple tasks as they work on multiple leads and opportunities. As a result, it can be hard for them to plan and prioritize their customer-facing activities. The work list in the Sales accelerator for Dynamics 365 Sales Insights helps sellers prioritize their time and effort to ensure that important leads and opportunities aren't left behind.    
 The Sales accelerator work list gives sellers the following capabilities:  
@@ -30,7 +23,7 @@ The Sales accelerator work list gives sellers the following capabilities:
 
 ## Prerequisites    
 Review the following prerequisites before you start using work lists:   
-- The Sales accelerator feature is installed in your organization and your role is assigned to access work lists. More information: [Enable and configure the Sales accelerator](enable-configure-sales-accelerator.md)    
+- The Sales accelerator feature is installed in your organization and your role is assigned to access work lists. More information: [Configure the Sales accelerator](enable-configure-sales-accelerator.md)    
 - A softphone and an email server are configured for your security role.    
 - Dynamics 365 Channel Integration Framework version 1 is installed and a channel provider is configured for your Dynamics 365 organization. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)   
 - (Optional) [Predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) are enabled, and models have been generated for your organization. Contact your administrator to enable these features.
@@ -40,7 +33,7 @@ The work list displays a list of records that are assigned to you or to the secu
 
 **To view the work list**   
 1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales**.   
-2. From the site map, under **My Work**, select **Sales accelerator (preview)**.    
+2. From the site map, under **My Work**, select **Sales accelerator**.    
     The work list page opens, as shown in the following example.   
     > [!div class="mx-imgBorder"]
     > ![Work list page](media/sa-worklist-page.png "Work list page")   
@@ -48,7 +41,7 @@ The work list displays a list of records that are assigned to you or to the secu
     | Number | Feature | Description |
     |--------|---------|-------------|
     | 1 | **Filter, sort, group records** | You can filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter records in work list ](#filter-records-in-work-list)<br>By using the lookup icon, you can search for a specific record by using the record name. Also, you can filter the records according to the due date: select the calendar icon, and then select **By Today** or **From Tomorrow**. |
-    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a Blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options and the activity to perform.<br> Select **More options** to perform the following actions on the record:<br>- Mark as complete<br>- Skip the current activity<br>- Snooze the activity<br>- Change the state of the record to unread or read<br>- Follow or unfollow the record <br>- Skip wait time (This option is available for items that are in wait state)<br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br> More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md). <br>When you complete an activity on the record, select the refresh icon, the list will be refreshed, and the record will be removed from the list.<br>**Note**: The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
+    | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a Blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options and the activity to perform.<br> Select **More options** to perform the following actions on the record:<br>- Mark as complete<br>- Skip the current activity<br>- Snooze the activity<br>- Change the state of the record to unread or read<br>- Follow or unfollow the record <br>- Skip wait time (This option is available for items that are in wait state)<br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br> More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md). <br>When you complete an activity on the record, select the refresh icon, the list will be refreshed, and the record will be removed from the list.<br>**Note**: The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date. More information: [Understand the Up next widget](#understand-the-up-next-widget)|
     
 ## Filter records in the work list<a name="filter-records-in-work-list"></a>    
