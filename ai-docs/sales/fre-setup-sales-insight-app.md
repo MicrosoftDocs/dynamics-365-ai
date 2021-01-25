@@ -23,7 +23,7 @@ You can configure conversation intelligence through:
 - [The Sales Hub app](#the-sales-hub-app)    
 - [Microsoft Teams call recording](#microsoft-teams-call-recording)    
 
-When you sign in to conversation intelligence, the application will be available for you to use and explore the various features through the demo data provided.
+When you sign in to conversation intelligence, the application<!--note from editor: Can you please verify, is it okay to call this an "application"? If I read the style guides and the release plans correctly, "conversation intelligence" is a feature of Dynamics 365 Sales, a feature that's available in the Sales Insights (and also Customer Service Insights?) add-ins, which I don't think are supposed to be called applications. See https://styleguides.azurewebsites.net/StyleGuide/Read?id=2858&topicid=44504--> will be available for you to use and explore the various features through the demo data provided.
 After you sign in, you can set up the application depending on the role that's assigned to you.      
 - As an administrator, you can set up the complete application&mdash;including connecting to a Dynamics 365 Sales environment&mdash;grant app permissions, connect call data, enable the preview, and define tracked key words and competitors to use the features that the application offers.     
 - As a sales manager or seller, you can access the application by using demo data. An administrator must configure the application so you can view the data that's relevant to you.
