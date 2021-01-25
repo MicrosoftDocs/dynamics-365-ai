@@ -143,9 +143,6 @@ Depending on the region where your organization is hosted, data is stored in the
 | North America (NAM) | East US (Virginia) | West US 2 (Washington) |
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
 
-**How do I extend the trial period of Sales Insights?**   
-If you want more time to evaluate your Sales Insights trial version before buying it, you can extend the trial period by following the steps specified in [Extend your trial](https://docs.microsoft.com/microsoft-365/commerce/extend-your-trial?view=o365-worldwide).   
-
 **Will Sales Insights affect my storage quota?**    
 Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
 
