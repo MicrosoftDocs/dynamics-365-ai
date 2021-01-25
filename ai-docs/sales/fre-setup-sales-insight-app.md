@@ -143,7 +143,7 @@ Review the following requirements before you configure Microsoft Teams call reco
 - Your organization has a phone system installed with a valid license to use it. More information: [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system)
 - You have a license to use Microsoft Teams call recording. More information: [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
 - You have [configured Microsoft Teams dialer](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-microsoft-teams-dialer) in your organization.
-- You must run the PowerShell script to record and store Microsoft Teams calls. If you're unable to run the script, contact your tenant administrator to run the script for your organization. More information: [Run PowerShell script to record calls](#run-powershell-script-to-record-calls)
+- You must run the PowerShell script, described in the following section, to record and store Microsoft Teams calls. If you're unable to run the script, contact your tenant administrator to run the script for your organization.
 
 ### Run the PowerShell script to record calls
 
