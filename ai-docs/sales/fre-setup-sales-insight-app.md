@@ -23,7 +23,6 @@ You can configure conversation intelligence through:
 - [The Sales Hub app](#the-sales-hub-app)    
 - [Microsoft Teams call recording](#microsoft-teams-call-recording)    
 
-When you sign in to conversation intelligence, the application<!--note from editor: Can you please verify, is it okay to call this an "application"? If I read the style guides and the release plans correctly, "conversation intelligence" is a feature of Dynamics 365 Sales, a feature that's available in the Sales Insights (and also Customer Service Insights?) add-ins, which I don't think are supposed to be called applications. See https://styleguides.azurewebsites.net/StyleGuide/Read?id=2858&topicid=44504--> will be available for you to use and explore the various features through the demo data provided.
 After you sign in, you can set up the application depending on the role that's assigned to you.      
 - As an administrator, you can set up the complete application&mdash;including connecting to a Dynamics 365 Sales environment&mdash;grant app permissions, connect call data, enable the preview, and define tracked key words and competitors to use the features that the application offers.     
 - As a sales manager or seller, you can access the application by using demo data. An administrator must configure the application so you can view the data that's relevant to you.
@@ -129,9 +128,7 @@ Conversation intelligence is configured and ready for use in your organization.
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-<!--note from editor: This paragraph is redundant with the one that follows it, and also its scope and tone are better suited to marketese than buried here, in what's supposed to be an admin-focused article about setting up a feature. Can you find a better place for it?-->
-<!--Conversation intelligence provides insights such as KPIs into sellers' calls by analyzing their recordings. When Microsoft Teams call recording is integrated with conversation intelligence, making calls and analyzing conversations are made easy. An organization's sales teams can drill down into their customer interactions, and get real-time call transcripts and post-call summaries.
--->
+When Microsoft Teams call recording is integrated with conversation intelligence, making calls and analyzing conversations are made easy. An organization's sales teams can drill down into their customer interactions, and get real-time call transcripts and post-call summaries.
 
 As an administrator, you must configure conversation intelligence to integrate Microsoft Teams call recording for your sales teams to get real-time call transcripts, post-call summaries, and call insights.
 
@@ -149,7 +146,7 @@ Review the following requirements before you configure Microsoft Teams call reco
 
 Before you configure the Teams dialer, run the PowerShell script to record calls through Teams and store them in default Microsoft storage for real-time processing. You must have tenant administrator privileges to run the script. Follow these steps:
 
-1.	Download the PowerShell script from *https://<OUR_PRODUCTION_DOMAIN>/api/tenants/provisioning-script* to your local computer.<!--note from editor: Should this be "<YOUR_PRODUCTION_DOMAIN>"?-->
+1.	Download the PowerShell script from *https://<YOUR_PRODUCTION_DOMAIN>/api/tenants/provisioning-script* to your local computer.    
 2.	Open a PowerShell command window and go to the script location.     
 3.	To run the script, enter the following command, and then press **Enter**:     
     ```.\<script name>```     
@@ -169,9 +166,9 @@ You can proceed to configure the Microsoft Teams call recording for conversation
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
 
-3.	On the site map, under **Connection insights**<!--note from editor: Is this actually the string from the UI? I haven't seen "Connection insights" before.-->, select **Conversation intelligence**.
+3.	On the site map, under **Connection insights**, select **Conversation intelligence**.
 
-    The conversation intelligence requirements verification page opens.<!--note from editor: I assume that these names (Regina Murphy, Laura Norman) are all from sample data? I don't see them in our list of fictitious names. -->
+    The conversation intelligence requirements verification page opens.
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft Teams integration requirements verification](media/si-admin-teams-req-verfication.png "Microsoft Teams integration requirements verification")
@@ -185,8 +182,8 @@ You can proceed to configure the Microsoft Teams call recording for conversation
 
     - <a name="teams-tenant-admin-contact"></a> If any of the validations fails, you can't proceed with the configuration. You must contact your tenant administrator to set up the phone system and Microsoft Teams call recording for your organization.
     When the tenant administrator completes the configuration of your [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Microsoft Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), 
-    configure the [PowerShell script to record calls](#run-the-powershell-script-to-record-calls), as described earlier in this topic. Then you can continue with the configuration. 
-    Select **Check status**.<!--note from editor: If this step doesn't happen after "Then you can continue with the configuration," you need to restructure this procedure.-->
+    configure the [PowerShell script to record calls](#run-the-powershell-script-to-record-calls), as described earlier in this topic. Upon successful validation of the licences, continue with the configuration. 
+    Select **Check status**.
       > [!div class="mx-imgBorder"]
       > ![Phone system, Microsoft Teams licenses, and PowerShell script failed validation](media/si-admin-teams-dialer-systems-validation-failed.png "Phone system, Microsoft Teams licenses, and PowerShell script failed validation")
 
@@ -248,7 +245,7 @@ You can proceed to configure the Microsoft Teams call recording for conversation
     > [!div class="mx-imgBorder"]
     > ![Agree to terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")    
 
-Microsoft Teams call recording<!--note from editor: Edit okay? The dialer seems to be a separate step from this.--> for conversation intelligence is configured and ready for use in your organization.
+Microsoft Teams call recording for conversation intelligence is configured and ready for use in your organization.
 
 ### See also
 
