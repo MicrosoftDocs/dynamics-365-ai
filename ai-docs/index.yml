@@ -17,7 +17,7 @@ productDirectory:
   items:
     # Card
     - title: Dynamics 365 Customer Service Insights
-      imageSrc: /dynamics365/images/CustomerServiceInsights_color.svg
+      imageSrc: https://docs.microsoft.com/dynamics365/images/CustomerServiceInsights_color.svg
       links:
         - url: /dynamics365/ai/customer-service-insights/overview
           text: Overview
@@ -27,7 +27,7 @@ productDirectory:
           text: Dashboard overview
     # Card
     - title: Dynamics 365 Sales Insights
-      imageSrc: /dynamics365/images/SalesInsights_color.svg
+      imageSrc: https://docs.microsoft.com/dynamics365/images/SalesInsights_color.svg
       links:
         - url: /dynamics365/ai/sales/overview
           text: Overview
@@ -38,7 +38,7 @@ productDirectory:
     # Card
     - title: Dynamics 365 Customer Insights
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: /dynamics365/images/CustomerInsights_color.svg
+      imageSrc: https://docs.microsoft.com/dynamics365/images/CustomerInsights_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/customer-insights/overview
           text: Product overview
