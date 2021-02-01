@@ -16,17 +16,6 @@ metadata:
 productDirectory:
   items:
     # Card
-    - title: Dynamics 365 Customer Insights
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: /dynamics365/images/CustomerInsights_color.svg
-      links:
-        - url: /dynamics365/ai/customer-insights/overview
-          text: Overview
-        - url: /dynamics365/ai/customer-insights/pm-homepage
-          text: Home page
-        - url: /dynamics365/ai/customer-insights/pm-data-manager
-          text: Data Manager
-    # Card
     - title: Dynamics 365 Customer Service Insights
       imageSrc: /dynamics365/images/CustomerServiceInsights_color.svg
       links:
@@ -37,16 +26,6 @@ productDirectory:
         - url: /dynamics365/ai/customer-service-insights/dashboard-overview
           text: Dashboard overview
     # Card
-    - title: Dynamics 365 Market Insights
-      imageSrc: /dynamics365/images/Market_Insights_color.svg
-      links:
-        - url: /dynamics365/ai/market-insights/overview
-          text: Overview
-        - url: /dynamics365/ai/market-insights/get-started
-          text: Get started
-        - url: /dynamics365/ai/market-insights/settings-administration
-          text: Administration
-    # Card
     - title: Dynamics 365 Sales Insights
       imageSrc: /dynamics365/images/SalesInsights_color.svg
       links:
@@ -56,4 +35,14 @@ productDirectory:
           text: Conversation intelligence
         - url: /dynamics365/ai/sales/faqs-sales-insights
           text: FAQs
-
+    # Card
+    - title: Dynamics 365 Customer Insights
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: /dynamics365/images/CustomerInsights_color.svg
+      links:
+        - url: https://docs.microsoft.com/dynamics365/customer-insights/overview
+          text: Product overview
+        - url: https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/overview
+          text: Audience insights capability overview
+        - url: https://docs.microsoft.com/dynamics365/customer-insights/engagement-insights/overview
+          text: Engagement insights (preview) capability overview
