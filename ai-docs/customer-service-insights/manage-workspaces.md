@@ -19,7 +19,7 @@ search.appverid: met150
 
 When you work with the dashboards in Dynamics 365 Customer Service Insights, you have a choice of connecting to a live customer service environment or exploring the dashboards using sample data in the demo workspace. You can then create additional workspaces to gain insights into different customer service environments and switch between the workspaces.
 
-You can use and manage workspaces in a varity of ways, including:
+You can use and manage workspaces in a variety of ways, including:
 
 - [Create a workspace](#create-a-workspace)
 - [Open the demo workspace](#open-the-demo-workspace)
