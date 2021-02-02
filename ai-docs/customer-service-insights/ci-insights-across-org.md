@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Customer Service Insights across your support organization
 
-Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel data to provide your support organization with out-of-box AI and BI capabilities, such as customer service analytics, similar case suggestions and more. Different applications will surface slightly different feature sets, as detailed below..
+Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel data to provide your support organization with out-of-box AI and BI capabilities, such as customer service analytics, similar case suggestions and more. Different applications will surface slightly different feature sets, as detailed below.
 
 ## Customer Service Applications 
 
