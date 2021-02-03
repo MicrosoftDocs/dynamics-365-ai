@@ -190,7 +190,7 @@ The overall relationship health score is calculated by collecting the relevant a
 **Note**: 
 - Health scores are computed for leads if they are in an active state. This stops once they reach a qualified or disqualified state.
 - Health scores are computed for opportunities if the opportunity is open and ignored if it’s won or lost.
-- Health scores are computed for contacts and accounts irrespective of their state.  
+- Health scores are computed for contacts irrespective of their state.  
 
 Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50 percent. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
 
