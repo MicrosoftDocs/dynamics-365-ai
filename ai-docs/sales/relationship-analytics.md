@@ -19,6 +19,9 @@ topic-status: Drafting
 # Use relationship analytics to gather KPIs    
 Relationship analytics enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.    
 
+>[!NOTE]
+>Health score and trend are not calculated for Account records.
+
 Relationship analytics help sales professionals and managers answer questions such as:  
 -   Which opportunities should I spend my time on?  
 -   Do we have a good relationship with the customer?  
@@ -32,7 +35,10 @@ Relationship analytics help sales professionals and managers answer questions su
 
 <a name="ListView"></a>   
 ## Get the big picture with relationship analytics in list views    
-Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
+Relationship analytics provides the following for records:   
+- Activity history and KPIs for contact, opportunity, lead, and account records.   
+- Health score and health trend for contact, opportunity, and lead records.   
+The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
 
 ![Relationship health details in a grid view](media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
 
