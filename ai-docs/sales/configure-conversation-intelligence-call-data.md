@@ -315,10 +315,8 @@ Upload the call recording or transcript to the created call recording repository
     ]
     ```   
 
-
-  
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#configure-the-conversation-intelligence-application)
+> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#the-conversation-intelligence-application)
 
 ## Update configuration of call data
 
@@ -357,8 +355,6 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
-
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
-
+[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)     
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)     
 [FAQs](faqs-sales-insights.md)
