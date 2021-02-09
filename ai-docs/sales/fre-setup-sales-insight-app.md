@@ -142,13 +142,16 @@ Review the following requirements before you configure Microsoft Teams call reco
 - Your organization has a phone system installed with a valid license to use it. More information: [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system)
 - You have a license to use Microsoft Teams call recording. More information: [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
 - You have [configured Microsoft Teams dialer](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-microsoft-teams-dialer) in your organization.
-- A tenant administrator must run the PowerShell script, described in the [Run the PowerShell script to record calls](#run-the-powershell-script-to-record-calls) section, to record and store Microsoft Teams calls. information: 
+- A tenant administrator must run the PowerShell script, described in the [Run the PowerShell script to record calls](#run-the-powershell-script-to-record-calls) section, to record, and store Microsoft Teams calls. information: 
 
 ### Run the PowerShell script to record calls
 
 Before you configure the Teams dialer, run the PowerShell script to record calls through Teams and store them in default Microsoft storage for real-time processing. You must have tenant administrator privileges to run the script. Follow these steps:
 
-1.	Download the PowerShell script from *https://<YOUR_PRODUCTION_DOMAIN>/api/tenants/provisioning-script* to your local computer.    
+1.	Download the PowerShell script to your local computer. Select **Download**.   
+    > [!div class="mx-imgBorder"]
+    > ![Download PowerShell script](media/si-admin-download-powershell-script.png "Download PowerShell script")     
+
 2.	Open a PowerShell command window and go to the script location.     
 3.	To run the script, enter the following command, and then press **Enter**:     
     ```.\<script name>```     
@@ -156,7 +159,7 @@ Before you configure the Teams dialer, run the PowerShell script to record calls
 4.	Enter your tenant administrator credentials to sign in to your organization to create the following:     
     -	Azure Active Directory (Azure AD) security group for whom the recording will be enabled.     
     -	Microsoft Teams call recording&ndash;related artifacts, such as service principal and recording policy.      
-5.	Accept the default settings and the script installs successfully.     
+5.	The script installs successfully.     
 
 You can proceed to configure the Microsoft Teams call recording for conversation intelligence.
 
@@ -168,8 +171,7 @@ You can proceed to configure the Microsoft Teams call recording for conversation
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
 
-3.	On the site map, under **Connection insights**, select **Conversation intelligence**.
-
+3.	On the site map, under **Connection insights**, select **Conversation intelligence**.     
     The conversation intelligence requirements verification page opens.
 
     > [!div class="mx-imgBorder"]
@@ -184,7 +186,7 @@ You can proceed to configure the Microsoft Teams call recording for conversation
 
     - <a name="teams-tenant-admin-contact"></a> If any of the validations fails, you can't proceed with the configuration. You must contact your tenant administrator to set up the phone system and Microsoft Teams call recording for your organization.
     When the tenant administrator reviews and completes the configuration of your [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Microsoft Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), 
-    configure the [PowerShell script to record calls](#run-the-powershell-script-to-record-calls), as described earlier in this topic. Upon successful validation of the licences, continue with the configuration. 
+    configure the [PowerShell script to record calls](#run-the-powershell-script-to-record-calls), as described earlier in this topic. Upon successful validation of the licenses, continue with the configuration. 
     Select **Check status**.
       > [!div class="mx-imgBorder"]
       > ![Phone system, Microsoft Teams licenses, and PowerShell script failed validation](media/si-admin-teams-dialer-systems-validation-failed.png "Phone system, Microsoft Teams licenses, and PowerShell script failed validation")
