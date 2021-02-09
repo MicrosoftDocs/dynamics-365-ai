@@ -19,6 +19,9 @@ topic-status: Drafting
 # Use relationship analytics to gather KPIs    
 Relationship analytics enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and activity histories. The graphical display shows KPIs and activity histories for any contact, opportunity, lead, or account. The feature also calculates the overall health and trend of each of your business relationships.    
 
+>[!NOTE]
+>Health score and trend are not calculated for Account records.
+
 Relationship analytics help sales professionals and managers answer questions such as:  
 -   Which opportunities should I spend my time on?  
 -   Do we have a good relationship with the customer?  
@@ -32,7 +35,10 @@ Relationship analytics help sales professionals and managers answer questions su
 
 <a name="ListView"></a>   
 ## Get the big picture with relationship analytics in list views    
-Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
+Relationship analytics provides the following for records:   
+- Activity history and KPIs for contact, opportunity, lead, and account records.   
+- Health score and health trend for contact, opportunity, and lead records.   
+The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
 
 ![Relationship health details in a grid view](media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
 
@@ -89,7 +95,10 @@ The current relationship analytics provides information such as graphs, KPIs, em
 
 As a seller, it's important for you to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that were won. Also, a list of similar deals that were won is displayed at the bottom. By opening the deals, you can learn what has worked and what didn't work, and implement these learnings in the deal you're currently trying to close.  
 
-An administrator must enable the feature before you can start using it. More information: [Step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview)   
+An administrator must enable the feature before you can start using it. More information: [Step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview).
+
+>[!NOTE]
+>If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KIPs to compare with the current opportunity.
 
 The following screenshot shows an example of enhanced relationship analytics:   
 
@@ -187,7 +196,7 @@ The overall relationship health score is calculated by collecting the relevant a
 **Note**: 
 - Health scores are computed for leads if they are in an active state. This stops once they reach a qualified or disqualified state.
 - Health scores are computed for opportunities if the opportunity is open and ignored if it’s won or lost.
-- Health scores are computed for contacts and accounts irrespective of their state.  
+- Health scores are computed for contacts irrespective of their state.  
 
 Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50 percent. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
 
