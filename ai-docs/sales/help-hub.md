@@ -24,7 +24,7 @@ search.app:
 <table>
 <tr><td>
 <h2>Get started</h2>
-<li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 Sales Insights overview</a></li>
+<li><a href="overview.md" data-raw-source="[Sales Insights Add-in for Microsoft Dynamics 365 Sales Overview](overview.md)">Sales Insights Add-in for Microsoft Dynamics 365 Sales Overview</a></li>
 <li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)">Overview of Overview of Conversation Intelligence</a></li>
 </td><td>
 <h2>Administrator guide</h2>
