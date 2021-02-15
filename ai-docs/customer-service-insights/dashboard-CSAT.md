@@ -98,3 +98,6 @@ Impact | 1 – (Average CSAT score not including the current topic divided by ov
 The chart displays the impact as a red or blue-green bar. The midpoint is the overall average CSAT score. A red bar indicates that the topic's CSAT score is lower than the average CSAT score, resulting in a negative impact on overall customer satisfaction. A blue-green bar indicates that the CSAT score is higher, resulting in a positive impact on overall customer satisfaction. Improving customer satisfaction for the top CSAT topics in red will have the greatest impact on improving overall customer satisfaction.
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -313,3 +313,6 @@ A success message is displayed at the bottom of the screen, and the contact is d
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
 [Basic auto capture](free-auto-capture.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
 [Sales Insights privacy notice](privacy-notice.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

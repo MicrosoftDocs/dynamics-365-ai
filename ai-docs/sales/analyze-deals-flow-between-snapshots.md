@@ -93,3 +93,6 @@ Seeing the deals flow of other users depends on the sales hierarchy defined for 
 
 [Take snapshots automatically](manage-snapshots-forecast.md)   
 [About premium forecasting](configure-premium-forecasting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

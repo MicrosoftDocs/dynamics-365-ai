@@ -62,3 +62,6 @@ For details on the Customer Service Insights dashboards, see the following topic
 For information about improving the results shown by AI Insights charts on the dashboards, see [Improve data quality by cleansing support case titles](settings.md).
 
 Customer Service Insights also includes a Topics page, which uses artificial intelligence technology to group related support cases as topics and display them in order of the number of cases associated with each topic. For information on working with the Topics page, see [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

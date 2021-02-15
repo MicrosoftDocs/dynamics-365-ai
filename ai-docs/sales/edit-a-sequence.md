@@ -32,3 +32,6 @@ If your organization changes its selling process, you might want to edit a seque
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

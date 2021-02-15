@@ -63,3 +63,6 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

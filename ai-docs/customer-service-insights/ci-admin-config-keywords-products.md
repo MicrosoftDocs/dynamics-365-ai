@@ -62,3 +62,6 @@ Using the **Conversation content** section, you can add or remove keywords and p
 
 [Configure call insights to connect call data](ci-admin-config-call-data.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

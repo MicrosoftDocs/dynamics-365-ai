@@ -102,3 +102,6 @@ The activity is skipped, and the next activity in the sequence is displayed.
 
 [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)<br>
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -371,3 +371,6 @@ No. The call recordings are deleted as soon as the audio file is processed​.
 
 [Overview](overview.md)  
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

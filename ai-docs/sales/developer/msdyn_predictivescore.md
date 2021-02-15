@@ -693,3 +693,6 @@ Same as msdyn_predictivemodelscore entity [msdyn_PS_PMS](msdyn_predictivemodelsc
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

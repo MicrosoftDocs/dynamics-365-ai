@@ -110,3 +110,6 @@ To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 an
 [Configure keywords and products to track](ci-admin-config-keywords-products.md)
 
 [Connect to Dynamics 365 Customer Service environment](ci-connect-customer-service-env.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -258,3 +258,6 @@ The following image is an example of how the call recording KPIs are displayed.
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

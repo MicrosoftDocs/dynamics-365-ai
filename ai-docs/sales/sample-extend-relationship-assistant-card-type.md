@@ -340,3 +340,6 @@ To learn more on how to enable cards, see [Turn on or off insights cards](edit-i
 [Configure Assistant](configure-assistant.md)
 
 [Guide customer communications with assistant](assistant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

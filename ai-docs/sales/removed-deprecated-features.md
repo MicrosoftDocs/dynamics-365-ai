@@ -31,3 +31,6 @@ This list is intended to help you consider these removals and deprecations for y
 ### See also
 
 [New Dynamics 365 Sales mobile experience](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/sales/dynamics365-sales/new-dynamics-365-sales-mobile-experience) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

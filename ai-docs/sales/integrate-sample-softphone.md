@@ -36,3 +36,6 @@ Organizations can integrate a softphone dialer from their telephony provider in 
 ### See also
 
 [Connect with customers by using a record or the Up next widget ](connect-with-customers.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
