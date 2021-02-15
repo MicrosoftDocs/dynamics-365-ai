@@ -105,3 +105,6 @@ The following procedure explains how to access call insights:
 [Analyze overall team performance](ci-team-overview.md)
 
 [Analyze agent performance](ci-agent-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

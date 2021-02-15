@@ -87,3 +87,6 @@ More information: [Dynamics 365 Customer Service entities used by Customer Servi
   * Five times per minute
   * 20 times per hour
   * 100 times per day
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

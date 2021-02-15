@@ -36,3 +36,6 @@ For details on Omnichannel offerings, see the following topics:
 - [Introduction to Omnichannel Insights dashboard](https://docs.microsoft.com/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
 - [View smart assist suggestions for knowledge articles and similar cases using AI](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles)
 - [Analyze real-time customer sentiment](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

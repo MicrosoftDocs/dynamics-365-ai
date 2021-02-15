@@ -41,3 +41,6 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
 [How notes analysis assists you with intelligent suggestion](notes-analysis.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

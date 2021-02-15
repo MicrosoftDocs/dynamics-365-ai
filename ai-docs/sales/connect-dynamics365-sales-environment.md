@@ -93,3 +93,5 @@ Now, your conversation intelligence is ready with the data of the added environm
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

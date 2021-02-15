@@ -27,3 +27,6 @@ Customer Service Insights also includes a Topics page. Customer Service Insights
 **Note:**  The Topics page is not available in the sample environment. To make the Topics page available, create your own Customer Service Insights environment.
 
 Once you have connected to your customer service data by creating an environment, you can display the Topics page by selecting **Topics** in the navigation pane. For information on working with the Topics page, see [Manage and improve artificial intelligence grouping of support cases as topics](topics-page.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

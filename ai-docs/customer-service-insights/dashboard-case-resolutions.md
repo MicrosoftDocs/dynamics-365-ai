@@ -92,3 +92,6 @@ Impact | 1 – (Average resolution time not including the current topic divided 
 The chart displays the impact as a red or blue bar. The midpoint is the overall average case resolution time. A red bar indicates that the topic's resolution time is longer than the average case resolution time, resulting in a negative impact on overall case resolution performance. A blue bar indicates that the resolution time is shorter, resulting in a positive impact on overall case resolution performance. Improving case-resolution time for the top resolve-time topics in red will have the greatest impact on improving overall system performance.
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

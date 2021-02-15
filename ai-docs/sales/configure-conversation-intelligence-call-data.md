@@ -358,3 +358,6 @@ The call data storage container is updated, and you can start uploading the call
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)     
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)     
 [FAQs](faqs-sales-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ System-supporting data | Supporting data for services, including user license in
 User jobs | Details of provisioning and refreshing workspaces that are not seen by the user.
 User AI insights | Temporary AI insights calculation results based on user data. The data is kept for one day. New data is generated during a refresh operation.
 Aggregated usage telemetry | Data used to determine service usage for service operations management.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Users follow these steps to export data from a chart on an Customer Service Insi
 2. Select the ellipses in the upper corner of the chart, and then choose **Export data**.
 
     ![Export data](media/gdpr-export-3.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

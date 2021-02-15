@@ -43,3 +43,5 @@ For more information about exporting data from Dynamics 365 Sales to excel, see 
 ## See also
 
 [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

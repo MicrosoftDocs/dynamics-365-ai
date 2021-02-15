@@ -98,3 +98,6 @@ If you are a viewer of a shared workspace, you can remove a shared workspace fro
 ![Delete workspace](media/viewer-delete-workspace2.PNG)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

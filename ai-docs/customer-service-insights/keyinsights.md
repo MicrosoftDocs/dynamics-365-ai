@@ -74,3 +74,6 @@ Customer satisfaction score is crucial for using data to determine how satisfied
 You can determine the peak time (in UTC) for new incoming cases. The topics that occur during this time period are shown so you can ensure the staffing schedule is aligned to peak hours and issues.
 
 ![Peak time with high case volume and relevant topics](media/home_peaktime.png "Peak time with high case volume and relevant topics")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

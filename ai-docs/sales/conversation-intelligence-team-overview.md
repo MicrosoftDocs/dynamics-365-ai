@@ -49,3 +49,6 @@ To view the **Teams overview** page, sign in to  **Conversation intelligence**, 
 [First-run set up experience](fre-setup-sales-insight-app.md)
 
 [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

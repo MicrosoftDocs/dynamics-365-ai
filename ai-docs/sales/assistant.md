@@ -160,3 +160,6 @@ You can configure the assistant by choosing which types of insight cards you'd l
 
 [Configure the assistant](configure-assistant.md)  
 [Insight cards reference](action-cards-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

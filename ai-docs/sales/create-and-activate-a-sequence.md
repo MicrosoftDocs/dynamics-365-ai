@@ -84,3 +84,6 @@ Next, you connect the active sequence to lead or opportunity records.
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

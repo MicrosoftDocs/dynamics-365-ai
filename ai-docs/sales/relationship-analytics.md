@@ -211,3 +211,6 @@ In addition to the absolute health score, the system also reports the general tr
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

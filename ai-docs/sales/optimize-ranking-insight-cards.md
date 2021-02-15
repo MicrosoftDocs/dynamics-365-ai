@@ -74,3 +74,6 @@ Follow these steps to rank the cards:
 [Create insight cards](create-insight-cards-flow.md)
 
 [Edit insight cards](edit-insight-cards.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,5 @@ You can view the details of a sequence and the records connected with it. This v
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

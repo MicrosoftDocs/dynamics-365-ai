@@ -181,3 +181,6 @@ The following metrics are available on the card.
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
